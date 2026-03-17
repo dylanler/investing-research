@@ -1,0 +1,198 @@
+export interface Company {
+  name: string;
+  ticker?: string;
+  marketCap: string;
+  why: string;
+  isPublic: boolean;
+}
+
+export interface BeneficiaryCategory {
+  id: string;
+  name: string;
+  bottleneckPeriod: string;
+  icon: string;
+  companies: Company[];
+}
+
+export const beneficiaryData: BeneficiaryCategory[] = [
+  {
+    id: 'euv',
+    name: 'EUV / Lithography',
+    bottleneckPeriod: '2028-2032',
+    icon: '🔬',
+    companies: [
+      { name: 'ASML Holding', ticker: 'ASML', marketCap: '$540B', why: 'Sole EUV manufacturer. Projects $71B revenue by 2030.', isPublic: true },
+      { name: 'KLA Corporation', ticker: 'KLAC', marketCap: '$100B', why: 'Leading metrology/inspection. ~25% mask inspection market.', isPublic: true },
+      { name: 'Lasertec', ticker: '6920.T', marketCap: '$10B', why: 'ONLY company making EUV mask inspection tools. Monopoly.', isPublic: true },
+      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$282B', why: 'Largest semi equipment maker. Deposition, etch, inspection.', isPublic: true },
+      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$294B', why: 'Major etch/deposition. Benefits from increasing EUV layers.', isPublic: true },
+      { name: 'Carl Zeiss SMT', ticker: undefined, marketCap: '~$15B group', why: 'Sole supplier of ALL EUV optics. 18 mirror sets per tool. Irreplaceable.', isPublic: false },
+      { name: 'TRUMPF Lasertechnik', ticker: undefined, marketCap: '~$5B+', why: 'Sole supplier of CO2 laser for EUV sources. Single-source dependency.', isPublic: false },
+      { name: 'Cymer (ASML)', ticker: undefined, marketCap: 'ASML sub', why: 'Produces all EUV light sources. Tin droplet laser system.', isPublic: false },
+      { name: 'Hamamatsu Photonics', ticker: '6965.T', marketCap: '$7B', why: 'Photodetectors and sensors for lithography metrology.', isPublic: true },
+      { name: 'Ushio Inc.', ticker: '6925.T', marketCap: '$2B', why: 'Light sources for DUV lithography and mask inspection.', isPublic: true },
+    ],
+  },
+  {
+    id: 'memory',
+    name: 'HBM / Memory',
+    bottleneckPeriod: '2026-2029',
+    icon: '💾',
+    companies: [
+      { name: 'SK Hynix', ticker: '000660.KS', marketCap: '$450B', why: '62% HBM share. Primary Nvidia supplier. World-first HBM4 mass production.', isPublic: true },
+      { name: 'Micron Technology', ticker: 'MU', marketCap: '$130B', why: '#2 HBM. Revenue >$53B. HBM target $100B by 2028.', isPublic: true },
+      { name: 'Samsung Electronics', ticker: '005930.KS', marketCap: '$350B', why: 'Largest DRAM producer. 50% HBM capacity surge in 2026.', isPublic: true },
+      { name: 'Rambus Inc.', ticker: 'RMBS', marketCap: '$10B', why: 'Leading HBM controller IP. First HBM4E controller at 4.1TB/s.', isPublic: true },
+      { name: 'Advantest Corp.', ticker: '6857.T', marketCap: '$30B', why: 'Dominant memory test equipment. Critical for HBM4 known-good-die testing.', isPublic: true },
+      { name: 'JSR Corporation', ticker: undefined, marketCap: '$9B (private)', why: 'Leading photoresist. Japan govt took private to secure supply chain.', isPublic: false },
+      { name: 'Resonac', ticker: '4004.T', marketCap: '$8B', why: 'CMP slurries, specialty gases for memory manufacturing.', isPublic: true },
+      { name: 'FormFactor', ticker: 'FORM', marketCap: '$5B', why: 'Probe cards for memory wafer-level testing. HBM needs complex probing.', isPublic: true },
+      { name: 'Onto Innovation', ticker: 'ONTO', marketCap: '$8B', why: 'Metrology/inspection for HBM die stacking.', isPublic: true },
+      { name: 'Alphawave Semi', ticker: 'AWE.L', marketCap: '$4B', why: 'High-speed connectivity IP including HBM interfaces.', isPublic: true },
+    ],
+  },
+  {
+    id: 'packaging',
+    name: 'Advanced Packaging',
+    bottleneckPeriod: '2026-2030',
+    icon: '📦',
+    companies: [
+      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.75T', why: 'Dominates CoWoS. 130K wafers/mo by end 2026. $52-56B capex.', isPublic: true },
+      { name: 'ASE Technology', ticker: '3711.TW', marketCap: '$25B', why: 'World\'s largest OSAT. Revenue ~$18.6B.', isPublic: true },
+      { name: 'Amkor Technology', ticker: 'AMKR', marketCap: '$12B', why: '#2 OSAT. Building $2B Arizona mega-plant. Advanced products 80%+ revenue.', isPublic: true },
+      { name: 'Ibiden Co.', ticker: '4062.T', marketCap: '$8B', why: 'Top ABF substrate maker. Part of 74% global supply consortium.', isPublic: true },
+      { name: 'Unimicron', ticker: '3037.TW', marketCap: '$10B', why: 'Largest ABF substrate maker by market share.', isPublic: true },
+      { name: 'Ajinomoto Fine-Tech', ticker: undefined, marketCap: 'Part of Ajinomoto', why: 'SOLE manufacturer of ABF film. Every advanced substrate depends on this. MONOPOLY.', isPublic: false },
+      { name: 'Shinko Electric', ticker: undefined, marketCap: 'Fujitsu sub', why: 'Major ABF substrate producer. Part of top-5 holding 74% share.', isPublic: false },
+      { name: 'AT&S', ticker: 'ATS.VI', marketCap: '$3B', why: 'European IC substrate leader. Expanding for AI chip substrates.', isPublic: true },
+      { name: 'Nan Ya PCB', ticker: '8046.TW', marketCap: '$5B', why: 'Top-5 ABF substrate supplier. Formosa Plastics Group.', isPublic: true },
+      { name: 'JCET Group', ticker: '600584.SS', marketCap: '$8B', why: 'China\'s largest OSAT. #3 globally.', isPublic: true },
+    ],
+  },
+  {
+    id: 'energy',
+    name: 'Power / Energy',
+    bottleneckPeriod: '2029-2035',
+    icon: '⚡',
+    companies: [
+      { name: 'GE Vernova', ticker: 'GEV', marketCap: '$216B', why: 'Gas turbines = immediate stopgap. Revenue target $52B by 2028.', isPublic: true },
+      { name: 'Constellation Energy', ticker: 'CEG', marketCap: '$105B', why: 'Largest US nuclear fleet. Microsoft + Meta deals. +22.5% earnings growth.', isPublic: true },
+      { name: 'Vistra Corp.', ticker: 'VST', marketCap: '$58B', why: 'Largest unregulated US power producer. Amazon + Meta partnerships.', isPublic: true },
+      { name: 'Eaton Corporation', ticker: 'ETN', marketCap: '$130B', why: 'Global leader in switchgear/transformers. Acquired Boyd Thermal $9.5B.', isPublic: true },
+      { name: 'Quanta Services', ticker: 'PWR', marketCap: '$50B', why: 'Largest power infrastructure contractor. $44B backlog (+27.5%).', isPublic: true },
+      { name: 'Oklo Inc.', ticker: 'OKLO', marketCap: '$11B', why: '14GW pipeline. 12GW Switch deal. Sam Altman is chairman.', isPublic: true },
+      { name: 'NuScale Power', ticker: 'SMR', marketCap: '$4.3B', why: 'First NRC-certified SMR. 6GW ENTRA1/TVA deal.', isPublic: true },
+      { name: 'TerraPower', ticker: undefined, marketCap: '$4B+', why: 'Bill Gates SMR. Natrium reactor. Wyoming demo under construction.', isPublic: false },
+      { name: 'Kairos Power', ticker: undefined, marketCap: '$3B+', why: 'Google-backed molten salt reactor. First new construction permit in 50+ years.', isPublic: false },
+      { name: 'Talen Energy', ticker: 'TLN', marketCap: '$15B', why: '1,920MW nuclear deal with Amazon through 2042.', isPublic: true },
+    ],
+  },
+  {
+    id: 'datacenter',
+    name: 'Data Center Construction',
+    bottleneckPeriod: '2026-2028',
+    icon: '🏗️',
+    companies: [
+      { name: 'Vertiv Holdings', ticker: 'VRT', marketCap: '$90B', why: 'Leading thermal management + power distribution. 28% organic growth.', isPublic: true },
+      { name: 'EMCOR Group', ticker: 'EME', marketCap: '$25B', why: 'Largest US specialty contractor. Electrical/mechanical for DCs.', isPublic: true },
+      { name: 'Schneider Electric', ticker: 'SU.PA', marketCap: '$130B', why: 'Global leader in DC power management + automation.', isPublic: true },
+      { name: 'Equinix', ticker: 'EQIX', marketCap: '$90B', why: 'Largest DC REIT. Building AI-optimized facilities globally.', isPublic: true },
+      { name: 'Comfort Systems USA', ticker: 'FIX', marketCap: '$18B', why: 'Mechanical/electrical contracting for mission-critical facilities.', isPublic: true },
+      { name: 'CoreWeave', ticker: undefined, marketCap: '$35B', why: 'Neocloud. ~590 MW capacity. $55B backlog incl $14B Meta deal.', isPublic: false },
+      { name: 'Vantage Data Centers', ticker: undefined, marketCap: '$10B+', why: 'Major hyperscale DC developer. Rapid NA/EU/APAC expansion.', isPublic: false },
+      { name: 'Nebius', ticker: undefined, marketCap: '$5B', why: 'European AI cloud. $2B Nvidia investment (Mar 2026).', isPublic: false },
+      { name: 'CoolIT Systems', ticker: undefined, marketCap: '$500M+', why: '88%+ market share in direct-contact liquid cooling.', isPublic: false },
+      { name: 'Aligned Data Centers', ticker: undefined, marketCap: '$5B+', why: 'Patented deltaSTREAM cooling for AI workloads.', isPublic: false },
+    ],
+  },
+  {
+    id: 'chipdesign',
+    name: 'AI Chip Design',
+    bottleneckPeriod: '2027-2030',
+    icon: '🧠',
+    companies: [
+      { name: 'Nvidia', ticker: 'NVDA', marketCap: '$3.5T', why: 'Dominant AI GPU (86-92%). $215.9B FY2026. $500B+ backlog.', isPublic: true },
+      { name: 'Broadcom', ticker: 'AVGO', marketCap: '$1T+', why: '70% custom ASIC market. AI backlog >$70B. Google TPU partner.', isPublic: true },
+      { name: 'AMD', ticker: 'AMD', marketCap: '$200B', why: '#2 AI GPU. Aggressive N2 bet. Major OpenAI deal.', isPublic: true },
+      { name: 'Synopsys', ticker: 'SNPS', marketCap: '$84B', why: '#1 EDA. AI-driven suite cuts 2nm design cycles ~12 months.', isPublic: true },
+      { name: 'Cadence Design', ticker: 'CDNS', marketCap: '$80B', why: '#2 EDA. AI reinforcement learning for chip design. Duopoly.', isPublic: true },
+      { name: 'Cerebras Systems', ticker: undefined, marketCap: '$23B', why: 'Wafer-scale processor. 4T transistors. $10B+ OpenAI deal. IPO 2026.', isPublic: false },
+      { name: 'Lightmatter', ticker: undefined, marketCap: '$4.4B', why: 'Photonic AI processor. $821M raised. MIT spinout.', isPublic: false },
+      { name: 'Tenstorrent', ticker: undefined, marketCap: '$3B+', why: 'Jim Keller\'s RISC-V AI chips. Samsung + Hyundai investors.', isPublic: false },
+      { name: 'd-Matrix', ticker: undefined, marketCap: '$500M+', why: 'Inference-optimized in-memory computing.', isPublic: false },
+      { name: 'Groq (→ Nvidia)', ticker: undefined, marketCap: '$20B acq', why: 'Streaming LPU for ultra-fast inference. Acquired by Nvidia late 2025.', isPublic: false },
+    ],
+  },
+  {
+    id: 'networking',
+    name: 'Networking',
+    bottleneckPeriod: '2027-2031',
+    icon: '🌐',
+    companies: [
+      { name: 'Arista Networks', ticker: 'ANET', marketCap: '$178B', why: 'Dominates AI DC switching. AI revenue target $3.25B in 2026.', isPublic: true },
+      { name: 'Amphenol', ticker: 'APH', marketCap: '$90B', why: '~33% share in AI DC interconnects. Full-stack connectivity.', isPublic: true },
+      { name: 'Coherent Corp.', ticker: 'COHR', marketCap: '$18B', why: 'Optical transceivers (800G/1.6T), lasers, photonic components.', isPublic: true },
+      { name: 'Credo Technology', ticker: 'CRDO', marketCap: '$12B', why: '88% AEC market share. Revenue doubling to ~$1B.', isPublic: true },
+      { name: 'Astera Labs', ticker: 'ALAB', marketCap: '$15B', why: 'Smart fabric switches. Scorpio launched 2026.', isPublic: true },
+      { name: 'Applied Optoelectronics', ticker: 'AAOI', marketCap: '$1.5B', why: '$4B 10yr Amazon deal. Revenue +82% YoY.', isPublic: true },
+      { name: 'Fabrinet', ticker: 'FN', marketCap: '$10B', why: 'Contract mfg for optical components. Benefits from all growth.', isPublic: true },
+      { name: 'Lumentum', ticker: 'LITE', marketCap: '$6B', why: 'Optical transceivers + lasers for hyperscale.', isPublic: true },
+      { name: 'Ciena', ticker: 'CIEN', marketCap: '$10B', why: 'Optical networking. 42% revenue from cloud providers.', isPublic: true },
+      { name: 'Celestial AI (→ Marvell)', ticker: undefined, marketCap: '$5.5B acq', why: 'Photonic fabric for optical interconnects. Acquired by Marvell.', isPublic: false },
+    ],
+  },
+  {
+    id: 'china',
+    name: 'China Semiconductor',
+    bottleneckPeriod: '2028-2035',
+    icon: '🇨🇳',
+    companies: [
+      { name: 'SMIC', ticker: '0981.HK', marketCap: '$50B', why: 'China\'s largest foundry. 7nm capable. Revenue $4.5B H1 2025.', isPublic: true },
+      { name: 'Cambricon', ticker: '688256.SS', marketCap: '$80B', why: 'Top Chinese AI chip. Revenue surged 4,348% YoY.', isPublic: true },
+      { name: 'NAURA Technology', ticker: '002371.SZ', marketCap: '$49B', why: 'Leading Chinese semi equipment. 60%+ share on SMIC 28nm.', isPublic: true },
+      { name: 'AMEC', ticker: '688012.SS', marketCap: '$20B', why: 'Chinese etch leader. 5nm tool validated on TSMC lines.', isPublic: true },
+      { name: 'Hua Hong Semi', ticker: '1347.HK', marketCap: '$8B', why: 'China\'s #2 foundry. Specialty process leader.', isPublic: true },
+      { name: 'MetaX (Suiyuan)', ticker: undefined, marketCap: '$47B', why: 'GPU designer. Stock +700% on IPO. Competing with Nvidia domestically.', isPublic: false },
+      { name: 'Biren Technology', ticker: undefined, marketCap: '$2B+', why: 'AI GPU designer. HK IPO Jan 2026. 23 cornerstone investors.', isPublic: false },
+      { name: 'Enflame Technology', ticker: undefined, marketCap: 'Pre-IPO', why: 'AI training chips. Tencent-backed.', isPublic: false },
+      { name: 'Moore Threads', ticker: undefined, marketCap: 'Top "Four Dragons"', why: 'GPU for AI + graphics. Strong govt/enterprise base.', isPublic: false },
+      { name: 'YMTC', ticker: undefined, marketCap: '$10B+', why: 'China\'s leading NAND flash. 3D NAND approaching global leaders.', isPublic: false },
+    ],
+  },
+  {
+    id: 'wafer',
+    name: 'Wafer / Logic Production',
+    bottleneckPeriod: '2028-2032',
+    icon: '⚙️',
+    companies: [
+      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.75T', why: '60%+ foundry share. Only source for leading-edge 2nm/3nm at volume.', isPublic: true },
+      { name: 'Samsung Foundry', ticker: '005930.KS', marketCap: '$350B (group)', why: '#2 foundry. GAA 2nm in development. Key TSMC alternative.', isPublic: true },
+      { name: 'GlobalFoundries', ticker: 'GFS', marketCap: '$25B', why: 'Leading mature-node. Essential for power/analog/connectivity.', isPublic: true },
+      { name: 'Shin-Etsu Chemical', ticker: '4063.T', marketCap: '$80B', why: '#1 silicon wafer maker (29.4% share). Adding 200K 300mm wafers/mo.', isPublic: true },
+      { name: 'Entegris', ticker: 'ENTG', marketCap: '$18B', why: 'Specialty chemicals, filters, materials. Critical purity enabler.', isPublic: true },
+      { name: 'Rapidus (Japan)', ticker: undefined, marketCap: '$5B (govt)', why: 'New 2nm foundry. Japanese government backed.', isPublic: false },
+      { name: 'GlobalWafers', ticker: '6488.TW', marketCap: '$8B', why: '#3 silicon wafer maker. $7.5B Texas expansion.', isPublic: true },
+      { name: 'SUMCO Corporation', ticker: '3436.T', marketCap: '$5B', why: '#2 wafer maker. Exiting 200mm to focus on AI-grade 300mm.', isPublic: true },
+      { name: 'Soitec', ticker: 'SOI.PA', marketCap: '$5B', why: 'SOI wafer specialist. Unique substrates for RF/power.', isPublic: true },
+      { name: 'JSR Corporation', ticker: undefined, marketCap: '$9B', why: 'Leading photoresist. Japan govt secured supply chain.', isPublic: false },
+    ],
+  },
+  {
+    id: 'talent',
+    name: 'Talent / Workforce',
+    bottleneckPeriod: '2026-2035',
+    icon: '👥',
+    companies: [
+      { name: 'ASML', ticker: 'ASML', marketCap: '$540B', why: 'Must scale workforce for 48→150+ tools/year. Every engineer irreplaceable.', isPublic: true },
+      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$282B', why: 'Largest semi equipment co. Needs thousands more engineers.', isPublic: true },
+      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$294B', why: 'Etch equipment scaling. Workforce expansion critical.', isPublic: true },
+      { name: 'Tokyo Electron', ticker: '8035.T', marketCap: '$80B', why: 'Japanese semi equipment. Competing globally for talent.', isPublic: true },
+      { name: 'Kforce Inc.', ticker: 'KFRC', marketCap: '$1.5B', why: 'Tech staffing. Semi engineering placement growing with CHIPS Act.', isPublic: true },
+      { name: 'imec', ticker: undefined, marketCap: 'Non-profit', why: 'Semiconductor R&D hub. Trains next-gen process engineers.', isPublic: false },
+      { name: 'SemiAnalysis', ticker: undefined, marketCap: '$500M+', why: 'Supply chain intelligence. The data layer for every allocation decision.', isPublic: false },
+      { name: 'SEMI Foundation', ticker: undefined, marketCap: 'Non-profit', why: 'Industry workforce development. 67K+ worker shortage by 2030.', isPublic: false },
+      { name: 'Smoothstack', ticker: undefined, marketCap: '$50M+', why: 'Hire-Train-Deploy model for semiconductor talent.', isPublic: false },
+      { name: 'Uptime Crew', ticker: undefined, marketCap: 'Private', why: 'Specialized semiconductor workforce staffing.', isPublic: false },
+    ],
+  },
+];
