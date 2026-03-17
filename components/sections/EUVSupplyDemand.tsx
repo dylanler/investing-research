@@ -2,110 +2,142 @@
 
 import { useState } from 'react';
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine, Legend,
+  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
+  BarChart, Bar, LineChart, Line, ComposedChart,
 } from 'recharts';
 import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
-import { euvData, transcriptEstimates } from '@/data/euvData';
+import { euvScenarioData, ieaPowerScenarios } from '@/data/euvData';
+
+type ViewMode = 'euv-ceiling' | 'power-scenarios';
 
 export default function EUVSupplyDemand() {
-  const [useRevised, setUseRevised] = useState(true);
-  const data = useRevised ? euvData : transcriptEstimates;
+  const [view, setView] = useState<ViewMode>('euv-ceiling');
 
-  const chartData = data.map((d) => ({
+  const euvChartData = euvScenarioData.filter(d => d.year >= 2025).map(d => ({
     year: d.year,
-    'Supply (Base)': d.supplyGW,
-    'Supply (High-NA)': d.supplyHighNA,
-    'Demand (Low)': d.demandLow,
-    'Demand (High)': d.demandHigh,
-    'Tools/Year': d.toolsPerYear,
+    'AI-GW/yr (50% AI)': d.supplyGW_50pct,
+    'AI-GW/yr (70% AI)': d.supplyGW_70pct,
+    'AI-GW/yr (80% AI)': d.supplyGW_80pct,
+    'Cumulative AI GW': d.cumulativeGW_70pct,
+    'EUV Tools/Year': d.toolsPerYear,
+  }));
+
+  const powerChartData = ieaPowerScenarios.filter(d => d.year >= 2024).map(d => ({
+    year: d.year,
+    'Base Case': d.base,
+    'Lift-off': d.liftoff,
+    'High Efficiency': d.highEff,
+    'Headwinds': d.headwinds,
   }));
 
   return (
     <SectionWrapper id="euv-supply">
       <SectionTitle
-        title="The EUV Gap"
-        subtitle="ASML produces ~48 EUV tools per year. Each GW of AI compute requires 3.5 tools. The math doesn't work."
+        title="The EUV Gap & Power Demand"
+        subtitle="ASML shipped 48 EUV tools in 2025 (ASML Annual Report). At 3.5 tools per GW, that's only ~9.6-13.7 GW/year of new AI compute depending on allocation."
         accent="#ef4444"
       />
 
-      {/* Toggle */}
-      <div className="flex items-center gap-4 mb-8">
+      {/* View toggle */}
+      <div className="flex items-center gap-3 mb-8">
         <button
-          onClick={() => setUseRevised(true)}
+          onClick={() => setView('euv-ceiling')}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            useRevised
+            view === 'euv-ceiling'
               ? 'bg-red-500/20 text-red-400 border border-red-500/30'
               : 'bg-white/5 text-slate-400 border border-white/5 hover:border-white/10'
           }`}
         >
-          Revised Estimates (Actual Data)
+          EUV AI-GW Ceiling
         </button>
         <button
-          onClick={() => setUseRevised(false)}
+          onClick={() => setView('power-scenarios')}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            !useRevised
-              ? 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+            view === 'power-scenarios'
+              ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
               : 'bg-white/5 text-slate-400 border border-white/5 hover:border-white/10'
           }`}
         >
-          Transcript Estimates
+          IEA Power Scenarios (TWh)
         </button>
       </div>
 
-      {/* Chart */}
       <div className="rounded-xl border border-white/5 bg-[#12121a] p-4 md:p-6">
-        <ResponsiveContainer width="100%" height={450}>
-          <AreaChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-            <defs>
-              <linearGradient id="demandGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#ef4444" stopOpacity={0.3} />
-                <stop offset="95%" stopColor="#ef4444" stopOpacity={0} />
-              </linearGradient>
-              <linearGradient id="supplyGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#22c55e" stopOpacity={0.3} />
-                <stop offset="95%" stopColor="#22c55e" stopOpacity={0} />
-              </linearGradient>
-              <linearGradient id="highnaGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.2} />
-                <stop offset="95%" stopColor="#06b6d4" stopOpacity={0} />
-              </linearGradient>
-            </defs>
-            <CartesianGrid strokeDasharray="3 3" stroke="#1e1e2e" />
-            <XAxis dataKey="year" stroke="#64748b" fontSize={12} />
-            <YAxis stroke="#64748b" fontSize={12} label={{ value: 'Cumulative GW', angle: -90, position: 'insideLeft', fill: '#64748b', fontSize: 12 }} />
-            <Tooltip
-              contentStyle={{
-                background: '#12121a',
-                border: '1px solid rgba(255,255,255,0.1)',
-                borderRadius: '8px',
-                color: '#e2e8f0',
-                fontSize: '13px',
-              }}
-            />
-            <Legend wrapperStyle={{ fontSize: '12px', color: '#94a3b8' }} />
-            <Area type="monotone" dataKey="Demand (High)" stroke="#ef4444" fill="url(#demandGrad)" strokeWidth={2} strokeDasharray="6 3" />
-            <Area type="monotone" dataKey="Demand (Low)" stroke="#f59e0b" fill="none" strokeWidth={2} strokeDasharray="4 2" />
-            <Area type="monotone" dataKey="Supply (High-NA)" stroke="#06b6d4" fill="url(#highnaGrad)" strokeWidth={2} />
-            <Area type="monotone" dataKey="Supply (Base)" stroke="#22c55e" fill="url(#supplyGrad)" strokeWidth={2} />
-            <ReferenceLine y={52} stroke="#f59e0b" strokeDasharray="3 3" label={{ value: 'Sam Altman 1GW/week', fill: '#f59e0b', fontSize: 11 }} />
-          </AreaChart>
-        </ResponsiveContainer>
+        {view === 'euv-ceiling' ? (
+          <>
+            <div className="text-xs text-slate-500 mb-3">
+              Sources: ASML 2025 Annual Report (48 tools), ASML 2022 Investor Day (90-tool capacity plan), Dylan Patel transcript (3.5 tools/GW heuristic)
+            </div>
+            <ResponsiveContainer width="100%" height={420}>
+              <ComposedChart data={euvChartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+                <defs>
+                  <linearGradient id="grad80" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#22c55e" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#22c55e" stopOpacity={0} />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid strokeDasharray="3 3" stroke="#1e1e2e" />
+                <XAxis dataKey="year" stroke="#64748b" fontSize={12} />
+                <YAxis yAxisId="left" stroke="#64748b" fontSize={12} label={{ value: 'GW/year (new)', angle: -90, position: 'insideLeft', fill: '#64748b', fontSize: 11 }} />
+                <YAxis yAxisId="right" orientation="right" stroke="#64748b" fontSize={12} label={{ value: 'Tools/year', angle: 90, position: 'insideRight', fill: '#64748b', fontSize: 11 }} />
+                <Tooltip contentStyle={{ background: '#12121a', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#e2e8f0', fontSize: '12px' }} />
+                <Legend wrapperStyle={{ fontSize: '11px' }} />
+                <Area yAxisId="left" type="monotone" dataKey="AI-GW/yr (80% AI)" stroke="#22c55e" fill="url(#grad80)" strokeWidth={1.5} />
+                <Area yAxisId="left" type="monotone" dataKey="AI-GW/yr (70% AI)" stroke="#06b6d4" fill="none" strokeWidth={2} />
+                <Area yAxisId="left" type="monotone" dataKey="AI-GW/yr (50% AI)" stroke="#f59e0b" fill="none" strokeWidth={1.5} strokeDasharray="4 2" />
+                <Line yAxisId="right" type="monotone" dataKey="EUV Tools/Year" stroke="#a855f7" strokeWidth={2} dot={{ r: 3, fill: '#a855f7' }} />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </>
+        ) : (
+          <>
+            <div className="text-xs text-slate-500 mb-3">
+              Source: IEA &ldquo;Energy and AI&rdquo; (2025). 2035-2040 extrapolated at explicit CAGRs (base 6%, lift-off 8%, high-eff 4%, headwinds 2%).
+            </div>
+            <ResponsiveContainer width="100%" height={420}>
+              <AreaChart data={powerChartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+                <defs>
+                  <linearGradient id="liftoffGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#ef4444" stopOpacity={0.2} />
+                    <stop offset="95%" stopColor="#ef4444" stopOpacity={0} />
+                  </linearGradient>
+                  <linearGradient id="baseGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#6366f1" stopOpacity={0.2} />
+                    <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid strokeDasharray="3 3" stroke="#1e1e2e" />
+                <XAxis dataKey="year" stroke="#64748b" fontSize={12} />
+                <YAxis stroke="#64748b" fontSize={12} label={{ value: 'TWh', angle: -90, position: 'insideLeft', fill: '#64748b', fontSize: 12 }} />
+                <Tooltip contentStyle={{ background: '#12121a', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#e2e8f0', fontSize: '12px' }} />
+                <Legend wrapperStyle={{ fontSize: '11px' }} />
+                <Area type="monotone" dataKey="Lift-off" stroke="#ef4444" fill="url(#liftoffGrad)" strokeWidth={2} />
+                <Area type="monotone" dataKey="Base Case" stroke="#6366f1" fill="url(#baseGrad)" strokeWidth={2} />
+                <Area type="monotone" dataKey="High Efficiency" stroke="#22c55e" fill="none" strokeWidth={1.5} strokeDasharray="4 2" />
+                <Area type="monotone" dataKey="Headwinds" stroke="#94a3b8" fill="none" strokeWidth={1.5} strokeDasharray="4 2" />
+              </AreaChart>
+            </ResponsiveContainer>
+          </>
+        )}
       </div>
 
-      {/* Callout */}
+      {/* Callout cards */}
       <div className="mt-6 grid md:grid-cols-3 gap-4">
         <div className="rounded-lg bg-red-500/5 border border-red-500/20 p-4">
-          <div className="text-2xl font-bold text-red-400 mb-1">30-60 GW</div>
-          <div className="text-sm text-slate-400">Shortfall by 2029 — unmet demand worth $1.5-3T in economic value</div>
+          <div className="text-2xl font-bold text-red-400 mb-1">~20 GW/yr</div>
+          <div className="text-sm text-slate-400">Annual AI-GW ceiling at 70% AI allocation when ASML reaches 100 tools/year by 2030</div>
+          <div className="text-[10px] text-slate-600 mt-1">Source: ASML 2022 Investor Day + transcript 3.5 tools/GW heuristic</div>
         </div>
         <div className="rounded-lg bg-cyan-500/5 border border-cyan-500/20 p-4">
-          <div className="text-2xl font-bold text-cyan-400 mb-1">High-NA EUV</div>
-          <div className="text-sm text-slate-400">Reduces passes by 30-40%, partially closing the gap from 2029+</div>
+          <div className="text-2xl font-bold text-cyan-400 mb-1">945 TWh</div>
+          <div className="text-sm text-slate-400">IEA base-case global DC electricity in 2030 — up from 415 TWh in 2024 (14.7% CAGR)</div>
+          <div className="text-[10px] text-slate-600 mt-1">Source: IEA &ldquo;Energy and AI&rdquo; (2025)</div>
         </div>
         <div className="rounded-lg bg-amber-500/5 border border-amber-500/20 p-4">
-          <div className="text-2xl font-bold text-amber-400 mb-1">140 Tools</div>
-          <div className="text-sm text-slate-400">Actual installed base — NOT 250-300 as transcript estimated</div>
+          <div className="text-2xl font-bold text-amber-400 mb-1">2,289 GW</div>
+          <div className="text-sm text-slate-400">Active projects in US interconnection queues at end-2024 — the power bottleneck is real</div>
+          <div className="text-[10px] text-slate-600 mt-1">Source: FERC interconnection queue statistics (2025)</div>
         </div>
       </div>
     </SectionWrapper>
