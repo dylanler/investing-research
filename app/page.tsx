@@ -26,13 +26,13 @@ export default function Home() {
       <InvestmentImplications />
 
       {/* Footer */}
-      <footer className="border-t border-white/5 py-12 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-sm text-slate-500 mb-2">
+      <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-5xl mx-auto">
+          <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', marginBottom: 'var(--space-sm)' }}>
             Analysis based on Dylan Patel (SemiAnalysis CEO) interview on the Dwarkesh Podcast,
-            supplemented with public filings, ASML/TSMC earnings data, and industry research.
+            cross-referenced with IEA, ASML, TSMC, FERC, and SIA/BCG public data.
           </p>
-          <p className="text-xs text-slate-600">
+          <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
             This is analysis, not financial advice. All projections are scenario-based estimates.
             Data validated as of March 2026.
           </p>

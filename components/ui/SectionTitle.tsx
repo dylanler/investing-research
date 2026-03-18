@@ -3,15 +3,34 @@
 interface Props {
   title: string;
   subtitle?: string;
-  accent?: string;
+  number?: string;
 }
 
-export default function SectionTitle({ title, subtitle, accent = '#6366f1' }: Props) {
+export default function SectionTitle({ title, subtitle, number }: Props) {
   return (
-    <div className="mb-12 md:mb-16">
-      <div className="h-1 w-16 rounded-full mb-6" style={{ background: accent }} />
-      <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">{title}</h2>
-      {subtitle && <p className="text-lg md:text-xl text-slate-400 max-w-3xl">{subtitle}</p>}
+    <div style={{ marginBottom: 'var(--space-3xl)' }}>
+      {number && (
+        <div
+          className="font-display font-medium"
+          style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', marginBottom: 'var(--space-sm)', letterSpacing: '0.05em' }}
+        >
+          {number}
+        </div>
+      )}
+      <h2
+        className="font-display font-semibold tracking-tight"
+        style={{ fontSize: 'var(--text-3xl)', color: 'var(--ink-950)', lineHeight: 1.15 }}
+      >
+        {title}
+      </h2>
+      {subtitle && (
+        <p
+          className="max-w-2xl"
+          style={{ fontSize: 'var(--text-base)', color: 'var(--ink-500)', marginTop: 'var(--space-md)', lineHeight: 1.7 }}
+        >
+          {subtitle}
+        </p>
+      )}
     </div>
   );
 }

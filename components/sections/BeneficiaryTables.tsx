@@ -15,26 +15,37 @@ export default function BeneficiaryTables() {
       <SectionTitle
         title="100 Companies to Watch"
         subtitle="10 bottleneck categories. 5 public + 5 private companies each. Sorted by who benefits when each bottleneck clears."
-        accent="#22c55e"
       />
 
-      {/* Tabs */}
-      <div className="flex flex-wrap gap-2 mb-8">
+      {/* Tabs — editorial underline nav */}
+      <nav
+        className="flex flex-wrap gap-0 mb-10"
+        style={{ borderBottom: '1px solid var(--ink-200)' }}
+      >
         {beneficiaryData.map((cat, i) => (
           <button
             key={cat.id}
             onClick={() => setActiveTab(i)}
-            className={`px-3 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-1.5 ${
-              i === activeTab
-                ? 'bg-green-500/20 text-green-400 border border-green-500/30'
-                : 'bg-white/5 text-slate-400 border border-white/5 hover:border-white/10'
-            }`}
+            className="relative flex items-center gap-1.5 transition-colors"
+            style={{
+              padding: 'var(--space-xs) var(--space-sm)',
+              fontSize: 'var(--text-sm)',
+              fontWeight: i === activeTab ? 600 : 400,
+              color: i === activeTab ? 'var(--ink-950)' : 'var(--ink-400)',
+              background: 'transparent',
+              border: 'none',
+              cursor: 'pointer',
+              borderBottom: i === activeTab
+                ? '2px solid var(--ink-950)'
+                : '2px solid transparent',
+              marginBottom: '-1px',
+            }}
           >
             <span>{cat.icon}</span>
             <span className="hidden md:inline">{cat.name}</span>
           </button>
         ))}
-      </div>
+      </nav>
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -45,69 +56,212 @@ export default function BeneficiaryTables() {
           transition={{ duration: 0.3 }}
         >
           {/* Category header */}
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-2xl">{category.icon}</span>
-            <div>
-              <h3 className="text-xl font-bold text-white">{category.name}</h3>
-              <p className="text-sm text-slate-500">Peak bottleneck period: <span className="text-amber-400">{category.bottleneckPeriod}</span></p>
-            </div>
+          <div style={{ marginBottom: 'var(--space-lg)' }}>
+            <h3
+              className="font-display"
+              style={{
+                fontSize: 'var(--text-2xl)',
+                color: 'var(--ink-950)',
+                fontWeight: 600,
+                margin: 0,
+              }}
+            >
+              {category.name}.
+            </h3>
+            <p
+              style={{
+                fontSize: 'var(--text-sm)',
+                color: 'var(--ink-400)',
+                marginTop: 'var(--space-2xs)',
+              }}
+            >
+              Peak bottleneck period:{' '}
+              <span style={{ color: 'var(--ink-700)', fontWeight: 500 }}>
+                {category.bottleneckPeriod}
+              </span>
+            </p>
           </div>
 
           {/* Public companies */}
-          <div className="mb-6">
-            <h4 className="text-sm font-semibold text-indigo-400 uppercase mb-3">Public Companies</h4>
-            <div className="grid gap-3">
-              {category.companies.filter((c) => c.isPublic).map((company) => (
-                <div
-                  key={company.name}
-                  className="rounded-lg border border-white/5 bg-[#12121a] p-4 hover:border-white/10 transition-colors"
-                >
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1 flex-wrap">
-                        <span className="font-semibold text-white">{company.name}</span>
-                        {company.ticker && (
-                          <span className="px-2 py-0.5 rounded text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                            {company.ticker}
+          <div style={{ marginBottom: 'var(--space-xl)' }}>
+            <h4
+              style={{
+                fontSize: 'var(--text-xs)',
+                fontWeight: 600,
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                color: 'var(--ink-400)',
+                marginBottom: 'var(--space-sm)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 'var(--space-sm)',
+              }}
+            >
+              Public Companies
+              <span
+                style={{
+                  flex: 1,
+                  height: 1,
+                  background: 'var(--ink-100)',
+                }}
+              />
+            </h4>
+            <div>
+              {category.companies
+                .filter((c) => c.isPublic)
+                .map((company) => (
+                  <div
+                    key={company.name}
+                    style={{
+                      padding: 'var(--space-sm) 0',
+                      borderBottom: '1px solid var(--ink-100)',
+                    }}
+                  >
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1 min-w-0">
+                        <div
+                          className="flex items-center flex-wrap"
+                          style={{ gap: 'var(--space-xs)', marginBottom: '2px' }}
+                        >
+                          <span
+                            style={{
+                              fontWeight: 600,
+                              color: 'var(--ink-900)',
+                              fontSize: 'var(--text-base)',
+                            }}
+                          >
+                            {company.name}
                           </span>
-                        )}
+                          {company.ticker && (
+                            <span
+                              style={{
+                                padding: '1px 6px',
+                                borderRadius: 3,
+                                fontSize: 'var(--text-xs)',
+                                fontFamily: 'monospace',
+                                background: 'color-mix(in srgb, var(--accent) 8%, transparent)',
+                                color: 'var(--accent)',
+                                fontWeight: 500,
+                              }}
+                            >
+                              {company.ticker}
+                            </span>
+                          )}
+                        </div>
+                        <p
+                          style={{
+                            fontSize: 'var(--text-sm)',
+                            color: 'var(--ink-500)',
+                            margin: 0,
+                          }}
+                        >
+                          {company.why}
+                        </p>
                       </div>
-                      <p className="text-sm text-slate-400">{company.why}</p>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-sm font-mono text-slate-300">{company.marketCap}</div>
+                      <div className="text-right shrink-0">
+                        <div
+                          style={{
+                            fontSize: 'var(--text-sm)',
+                            fontFamily: 'monospace',
+                            color: 'var(--ink-600)',
+                          }}
+                        >
+                          {company.marketCap}
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
             </div>
           </div>
 
           {/* Private companies */}
           <div>
-            <h4 className="text-sm font-semibold text-amber-400 uppercase mb-3">Private / Subsidiary</h4>
-            <div className="grid gap-3">
-              {category.companies.filter((c) => !c.isPublic).map((company) => (
-                <div
-                  key={company.name}
-                  className="rounded-lg border border-white/5 bg-[#12121a]/50 p-4 hover:border-white/10 transition-colors"
-                >
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1 flex-wrap">
-                        <span className="font-semibold text-white">{company.name}</span>
-                        <span className="px-2 py-0.5 rounded text-xs bg-amber-500/10 text-amber-400 border border-amber-500/20">
-                          Private
-                        </span>
+            <h4
+              style={{
+                fontSize: 'var(--text-xs)',
+                fontWeight: 600,
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                color: 'var(--ink-400)',
+                marginBottom: 'var(--space-sm)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 'var(--space-sm)',
+              }}
+            >
+              Private / Subsidiary
+              <span
+                style={{
+                  flex: 1,
+                  height: 1,
+                  background: 'var(--ink-100)',
+                }}
+              />
+            </h4>
+            <div>
+              {category.companies
+                .filter((c) => !c.isPublic)
+                .map((company) => (
+                  <div
+                    key={company.name}
+                    style={{
+                      padding: 'var(--space-sm) 0',
+                      borderBottom: '1px solid var(--ink-100)',
+                    }}
+                  >
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1 min-w-0">
+                        <div
+                          className="flex items-center flex-wrap"
+                          style={{ gap: 'var(--space-xs)', marginBottom: '2px' }}
+                        >
+                          <span
+                            style={{
+                              fontWeight: 600,
+                              color: 'var(--ink-900)',
+                              fontSize: 'var(--text-base)',
+                            }}
+                          >
+                            {company.name}
+                          </span>
+                          <span
+                            style={{
+                              padding: '1px 6px',
+                              borderRadius: 3,
+                              fontSize: 'var(--text-xs)',
+                              background: 'color-mix(in srgb, #b45309 8%, transparent)',
+                              color: '#92400e',
+                              fontWeight: 500,
+                            }}
+                          >
+                            Private
+                          </span>
+                        </div>
+                        <p
+                          style={{
+                            fontSize: 'var(--text-sm)',
+                            color: 'var(--ink-500)',
+                            margin: 0,
+                          }}
+                        >
+                          {company.why}
+                        </p>
                       </div>
-                      <p className="text-sm text-slate-400">{company.why}</p>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-sm font-mono text-slate-500">{company.marketCap}</div>
+                      <div className="text-right shrink-0">
+                        <div
+                          style={{
+                            fontSize: 'var(--text-sm)',
+                            fontFamily: 'monospace',
+                            color: 'var(--ink-400)',
+                          }}
+                        >
+                          {company.marketCap}
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
             </div>
           </div>
         </motion.div>

@@ -2,9 +2,9 @@
 
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
 import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
-import GlowCard from '../ui/GlowCard';
 import { keyNumbers } from '@/data/keyNumbers';
 
 export default function KeyNumbers() {
@@ -13,27 +13,46 @@ export default function KeyNumbers() {
   return (
     <SectionWrapper id="key-numbers">
       <SectionTitle
+        number="01"
         title="The Numbers That Matter"
-        subtitle="Key metrics from the AI compute supply chain — extracted from SemiAnalysis data and validated against public filings."
-        accent="#06b6d4"
+        subtitle="Key metrics from the AI compute supply chain — extracted from SemiAnalysis data, validated against ASML, TSMC, and IEA public filings."
       />
-      <div ref={ref} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div ref={ref} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0" style={{ borderTop: '1px solid var(--ink-100)' }}>
         {keyNumbers.map((stat, i) => (
-          <GlowCard key={stat.label} glowColor={stat.color} delay={i * 0.05}>
-            <div className="text-3xl md:text-4xl font-bold font-mono mb-2" style={{ color: stat.color }}>
+          <motion.div
+            key={stat.label}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: i * 0.04 }}
+            style={{
+              padding: 'var(--space-lg) var(--space-lg) var(--space-lg) 0',
+              borderBottom: '1px solid var(--ink-100)',
+              borderRight: (i + 1) % 4 !== 0 ? '1px solid var(--ink-100)' : 'none',
+              paddingLeft: 'var(--space-lg)',
+            }}
+          >
+            <div
+              className="font-display font-semibold"
+              style={{ fontSize: 'var(--text-2xl)', color: 'var(--ink-950)', lineHeight: 1.1 }}
+            >
               {inView ? (
                 <>
                   {stat.prefix}
-                  <CountUp end={stat.value} duration={2} decimals={stat.value % 1 !== 0 ? 1 : 0} />
+                  <CountUp end={stat.value} duration={1.8} decimals={stat.value % 1 !== 0 ? 1 : 0} />
                   {stat.suffix}
                 </>
               ) : (
-                <span className="opacity-0">0</span>
+                <span style={{ opacity: 0 }}>0</span>
               )}
             </div>
-            <div className="text-sm font-semibold text-white mb-1">{stat.label}</div>
-            <div className="text-xs text-slate-500">{stat.sublabel}</div>
-          </GlowCard>
+            <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', marginTop: 'var(--space-xs)', fontWeight: 500 }}>
+              {stat.label}
+            </div>
+            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginTop: '2px' }}>
+              {stat.sublabel}
+            </div>
+          </motion.div>
         ))}
       </div>
     </SectionWrapper>

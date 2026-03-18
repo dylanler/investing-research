@@ -15,12 +15,17 @@ export default function SectionWrapper({ children, id, className = '', delay = 0
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
 
   return (
-    <section id={id} ref={ref} className={`relative py-20 md:py-32 px-4 md:px-8 ${className}`}>
+    <section
+      id={id}
+      ref={ref}
+      className={`relative ${className}`}
+      style={{ padding: 'var(--space-4xl) var(--space-lg)' }}
+    >
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 24 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.7, delay, ease: 'easeOut' }}
-        className="max-w-6xl mx-auto"
+        transition={{ duration: 0.5, delay, ease: [0.25, 0.1, 0.25, 1] }}
+        className="max-w-5xl mx-auto"
       >
         {children}
       </motion.div>

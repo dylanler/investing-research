@@ -1,11 +1,20 @@
 'use client';
 
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Cell, PieChart, Pie,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
 } from 'recharts';
 import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
 import { hbmMarketData, memoryCapexAllocation } from '@/data/hbmData';
+
+const chartColors = {
+  accent: 'oklch(35% 0.08 250)',
+  accentLight: 'oklch(55% 0.06 250)',
+  warm: 'oklch(55% 0.10 50)',
+  success: 'oklch(50% 0.1 155)',
+  ink200: 'oklch(85% 0.008 60)',
+  ink400: 'oklch(65% 0.01 60)',
+};
 
 export default function MemoryMarket() {
   const barData = hbmMarketData.map((d) => ({
@@ -18,100 +27,72 @@ export default function MemoryMarket() {
   return (
     <SectionWrapper id="memory">
       <SectionTitle
+        number="04"
         title="The Memory Crunch"
         subtitle="HBM requires 4x more wafer area per bit than commodity DRAM. Prices have quadrupled. Consumer electronics are getting squeezed out."
-        accent="#f59e0b"
       />
 
-      <div className="grid lg:grid-cols-5 gap-6">
-        {/* Bar chart - HBM Market */}
-        <div className="lg:col-span-3 rounded-xl border border-white/5 bg-[#12121a] p-4 md:p-6">
-          <h3 className="text-lg font-semibold text-white mb-1">HBM Market Size by Vendor ($B)</h3>
-          <p className="text-sm text-slate-500 mb-4">$38B (2025) → $58B (2026) → $115B (2028)</p>
-          <ResponsiveContainer width="100%" height={350}>
+      <div className="grid lg:grid-cols-5 gap-8">
+        {/* HBM Market bar chart */}
+        <div className="lg:col-span-3" style={{ padding: 'var(--space-lg)', background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: '2px' }}>
+          <h3 style={{ fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--ink-900)', marginBottom: '2px' }}>
+            HBM Market Size by Vendor
+          </h3>
+          <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
+            Sources: SK hynix HBM4 announcement, Samsung Q4-2025, Micron earnings. Values in $B.
+          </p>
+          <ResponsiveContainer width="100%" height={320}>
             <BarChart data={barData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#1e1e2e" />
-              <XAxis dataKey="year" stroke="#64748b" fontSize={12} />
-              <YAxis stroke="#64748b" fontSize={12} unit="B" />
-              <Tooltip
-                contentStyle={{
-                  background: '#12121a',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                  borderRadius: '8px',
-                  color: '#e2e8f0',
-                  fontSize: '13px',
-                }}
-                formatter={(v) => [`$${v}B`, undefined]}
-              />
-              <Legend wrapperStyle={{ fontSize: '12px' }} />
-              <Bar dataKey="SK Hynix" stackId="a" fill="#6366f1" radius={[0, 0, 0, 0]} />
-              <Bar dataKey="Samsung" stackId="a" fill="#06b6d4" />
-              <Bar dataKey="Micron" stackId="a" fill="#22c55e" radius={[4, 4, 0, 0]} />
+              <CartesianGrid strokeDasharray="3 3" stroke={chartColors.ink200} />
+              <XAxis dataKey="year" stroke={chartColors.ink400} fontSize={12} />
+              <YAxis stroke={chartColors.ink400} fontSize={12} unit="B" />
+              <Tooltip contentStyle={{ background: '#fff', border: `1px solid ${chartColors.ink200}`, borderRadius: '2px', fontSize: '12px' }} formatter={(v) => [`$${v}B`, undefined]} />
+              <Legend wrapperStyle={{ fontSize: '11px' }} />
+              <Bar dataKey="SK Hynix" stackId="a" fill={chartColors.accent} />
+              <Bar dataKey="Samsung" stackId="a" fill={chartColors.accentLight} />
+              <Bar dataKey="Micron" stackId="a" fill={chartColors.success} radius={[3, 3, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Pie chart - CapEx allocation */}
-        <div className="lg:col-span-2 rounded-xl border border-white/5 bg-[#12121a] p-4 md:p-6">
-          <h3 className="text-lg font-semibold text-white mb-1">$600B CapEx Allocation</h3>
-          <p className="text-sm text-slate-500 mb-4">30% goes to memory alone</p>
-          <ResponsiveContainer width="100%" height={250}>
-            <PieChart>
-              <Pie
-                data={memoryCapexAllocation}
-                cx="50%"
-                cy="50%"
-                innerRadius={50}
-                outerRadius={90}
-                dataKey="percentage"
-                nameKey="category"
-                paddingAngle={2}
-              >
-                {memoryCapexAllocation.map((entry) => (
-                  <Cell key={entry.category} fill={entry.color} />
-                ))}
-              </Pie>
-              <Tooltip
-                contentStyle={{
-                  background: '#12121a',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                  borderRadius: '8px',
-                  color: '#e2e8f0',
-                  fontSize: '13px',
-                }}
-                formatter={(v, name) => {
-                  const item = memoryCapexAllocation.find((m) => m.category === name);
-                  return [`${v}% (${item?.value})`, name];
-                }}
-              />
-            </PieChart>
-          </ResponsiveContainer>
-          <div className="space-y-2 mt-2">
+        {/* CapEx allocation */}
+        <div className="lg:col-span-2">
+          <h3 style={{ fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--ink-900)', marginBottom: 'var(--space-md)' }}>
+            $600B CapEx Breakdown
+          </h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
             {memoryCapexAllocation.map((item) => (
-              <div key={item.category} className="flex items-center gap-2 text-sm">
-                <div className="w-3 h-3 rounded-sm" style={{ background: item.color }} />
-                <span className="text-slate-400">{item.category}</span>
-                <span className="ml-auto text-slate-300 font-mono">{item.value}</span>
+              <div key={item.category}>
+                <div className="flex justify-between" style={{ fontSize: 'var(--text-sm)', marginBottom: '4px' }}>
+                  <span style={{ color: 'var(--ink-700)' }}>{item.category}</span>
+                  <span style={{ fontFamily: 'monospace', color: 'var(--ink-500)' }}>{item.value}</span>
+                </div>
+                <div style={{ height: '6px', background: 'var(--ink-100)', borderRadius: '3px', overflow: 'hidden' }}>
+                  <div style={{ height: '100%', width: `${item.percentage}%`, background: 'var(--accent)', borderRadius: '3px', opacity: 0.4 + (item.percentage / 100) * 0.6 }} />
+                </div>
               </div>
             ))}
           </div>
+          <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginTop: 'var(--space-md)' }}>
+            30% of Big Tech CapEx goes to memory alone. Source: SemiAnalysis estimates.
+          </p>
         </div>
       </div>
 
-      {/* Key insight cards */}
-      <div className="grid md:grid-cols-3 gap-4 mt-6">
-        <div className="rounded-lg bg-red-500/5 border border-red-500/20 p-4">
-          <div className="text-xs text-red-400 font-semibold uppercase mb-1">China&apos;s HBM Bottleneck</div>
-          <div className="text-sm text-slate-300">CXMT can only produce 2.2M HBM stacks in 2026 — enough for just 250K-400K Ascend 910C packages. Memory, not logic, is China&apos;s binding constraint.</div>
-        </div>
-        <div className="rounded-lg bg-amber-500/5 border border-amber-500/20 p-4">
-          <div className="text-xs text-amber-400 font-semibold uppercase mb-1">Consumer Impact</div>
-          <div className="text-sm text-slate-300">Smartphone volumes projected to decline 40% as memory gets reallocated to AI. HBM margins (50-70%) vs DRAM (20-30%) make conversion irresistible.</div>
-        </div>
-        <div className="rounded-lg bg-indigo-500/5 border border-indigo-500/20 p-4">
-          <div className="text-xs text-indigo-400 font-semibold uppercase mb-1">Bandwidth Gap</div>
-          <div className="text-sm text-slate-300">HBM4: 2.5 TB/s per stack. DDR5: 64-128 GB/s same shoreline. That&apos;s a 20x gap. You can&apos;t substitute commodity DRAM for AI workloads.</div>
-        </div>
+      {/* Insight strip */}
+      <div className="grid md:grid-cols-3 gap-0" style={{ marginTop: 'var(--space-xl)', borderTop: '1px solid var(--ink-100)' }}>
+        {[
+          { title: 'China\u2019s HBM Bottleneck', text: 'CXMT can produce 2.2M stacks in 2026 \u2014 enough for only 250K\u2013400K Ascend 910C packages. Memory, not logic, is the binding constraint.' },
+          { title: 'Consumer Impact', text: 'Smartphone volumes projected to decline 40% as memory is reallocated. HBM margins (50\u201370%) vs DRAM (20\u201330%) make conversion irresistible.' },
+          { title: 'Bandwidth Gap', text: 'HBM4: 2.5 TB/s per stack. DDR5: 64\u2013128 GB/s same shoreline. A 20x gap that makes commodity DRAM unsuitable for AI.' },
+        ].map((item, i) => (
+          <div key={item.title} style={{ padding: 'var(--space-lg)', borderRight: i < 2 ? '1px solid var(--ink-100)' : 'none' }}>
+            <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--ink-500)', marginBottom: 'var(--space-xs)' }}>
+              {item.title}
+            </div>
+            <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', margin: 0, lineHeight: 1.6 }}>{item.text}</p>
+          </div>
+        ))}
       </div>
     </SectionWrapper>
   );

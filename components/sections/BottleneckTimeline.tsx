@@ -14,14 +14,20 @@ export default function BottleneckTimeline() {
       <SectionTitle
         title="Year-by-Year Bottleneck Map"
         subtitle="The binding constraint shifts every 2-3 years as earlier bottlenecks get cleared and new ones emerge."
-        accent="#ef4444"
       />
 
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-amber-500 via-red-500 via-purple-500 to-green-500" />
+        <div
+          className="absolute top-0 bottom-0"
+          style={{
+            left: '1rem',
+            width: '1px',
+            background: 'var(--ink-200)',
+          }}
+        />
 
-        <div className="space-y-6">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-lg)' }}>
           {timelineData.map((entry, i) => (
             <motion.div
               key={entry.year}
@@ -29,38 +35,73 @@ export default function BottleneckTimeline() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="relative pl-12 md:pl-20"
+              style={{ position: 'relative', paddingLeft: 'var(--space-3xl)' }}
             >
               {/* Timeline dot */}
               <div
-                className="absolute left-2 md:left-6 w-5 h-5 rounded-full border-2 border-[#0a0a0f] z-10 cursor-pointer transition-transform hover:scale-125"
-                style={{ background: entry.color, top: '1.5rem' }}
+                style={{
+                  position: 'absolute',
+                  left: '0.375rem',
+                  top: '1.5rem',
+                  width: '0.5rem',
+                  height: '0.5rem',
+                  borderRadius: '50%',
+                  background: 'var(--ink-400)',
+                  zIndex: 10,
+                  cursor: 'pointer',
+                  transition: 'background 0.2s',
+                }}
                 onClick={() => setExpanded(expanded === i ? -1 : i)}
               />
 
               <div
-                className={`rounded-xl border transition-all duration-300 cursor-pointer ${
-                  expanded === i
-                    ? 'border-white/10 bg-white/[0.03]'
-                    : 'border-white/5 bg-[#12121a] hover:border-white/10'
-                }`}
                 onClick={() => setExpanded(expanded === i ? -1 : i)}
+                style={{
+                  borderBottom: '1px solid var(--ink-100)',
+                  cursor: 'pointer',
+                  transition: 'background 0.2s',
+                  background: expanded === i ? 'var(--surface-raised)' : 'transparent',
+                  padding: 'var(--space-md) var(--space-lg)',
+                }}
+                onMouseEnter={(e) => {
+                  if (expanded !== i) e.currentTarget.style.background = 'var(--surface-sunken)';
+                }}
+                onMouseLeave={(e) => {
+                  if (expanded !== i) e.currentTarget.style.background = 'transparent';
+                }}
               >
-                <div className="p-5 md:p-6">
-                  <div className="flex items-center gap-3 mb-2">
+                <div style={{ padding: '0' }}>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: 'var(--space-md)', marginBottom: 'var(--space-xs)' }}>
                     <span
-                      className="text-sm font-mono font-bold px-3 py-1 rounded-full"
-                      style={{ background: `${entry.color}22`, color: entry.color }}
+                      style={{
+                        fontFamily: 'monospace',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: 600,
+                        color: 'var(--accent)',
+                        borderLeft: '3px solid var(--accent)',
+                        paddingLeft: 'var(--space-xs)',
+                        lineHeight: 1,
+                      }}
                     >
                       {entry.year}
                     </span>
-                    <h3 className="text-lg md:text-xl font-bold text-white">{entry.title}</h3>
+                    <h3
+                      className="font-display"
+                      style={{
+                        fontSize: 'var(--text-lg)',
+                        fontWeight: 600,
+                        color: 'var(--ink-950)',
+                        margin: 0,
+                      }}
+                    >
+                      {entry.title}
+                    </h3>
                   </div>
-                  <div className="text-sm text-slate-400 mb-1">
-                    <span className="text-red-400 font-semibold">Primary:</span> {entry.primaryBottleneck}
+                  <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', marginBottom: '2px' }}>
+                    <span style={{ fontWeight: 600, color: 'var(--ink-700)' }}>Primary:</span> {entry.primaryBottleneck}
                   </div>
-                  <div className="text-sm text-slate-500">
-                    <span className="text-amber-400 font-semibold">Secondary:</span> {entry.secondaryBottleneck}
+                  <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)' }}>
+                    <span style={{ fontWeight: 600, color: 'var(--ink-600)' }}>Secondary:</span> {entry.secondaryBottleneck}
                   </div>
                 </div>
 
@@ -71,34 +112,87 @@ export default function BottleneckTimeline() {
                       animate={{ height: 'auto', opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="overflow-hidden"
+                      style={{ overflow: 'hidden' }}
                     >
-                      <div className="px-5 md:px-6 pb-6 space-y-4 border-t border-white/5 pt-4">
-                        <p className="text-slate-300 leading-relaxed">{entry.description}</p>
+                      <div
+                        style={{
+                          borderTop: '1px solid var(--ink-100)',
+                          paddingTop: 'var(--space-md)',
+                          marginTop: 'var(--space-md)',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          gap: 'var(--space-md)',
+                        }}
+                      >
+                        <p style={{ color: 'var(--ink-700)', lineHeight: 1.7, fontSize: 'var(--text-base)', margin: 0 }}>
+                          {entry.description}
+                        </p>
 
-                        <div className="rounded-lg bg-black/30 p-4 border border-white/5">
-                          <div className="text-xs text-cyan-400 font-mono uppercase mb-2">Key Calculation</div>
-                          <p className="text-sm text-slate-300 font-mono">{entry.keyCalc}</p>
+                        <div
+                          style={{
+                            background: 'var(--surface-sunken)',
+                            padding: 'var(--space-md)',
+                            borderRadius: '4px',
+                            border: '1px solid var(--ink-100)',
+                          }}
+                        >
+                          <div
+                            style={{
+                              fontSize: 'var(--text-xs)',
+                              fontFamily: 'monospace',
+                              textTransform: 'uppercase',
+                              letterSpacing: '0.05em',
+                              color: 'var(--ink-500)',
+                              marginBottom: 'var(--space-xs)',
+                            }}
+                          >
+                            Key Calculation
+                          </div>
+                          <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', fontFamily: 'monospace', margin: 0, lineHeight: 1.6 }}>
+                            {entry.keyCalc}
+                          </p>
                         </div>
 
-                        <div className="grid md:grid-cols-2 gap-4">
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 'var(--space-lg)' }}>
                           <div>
-                            <div className="text-xs text-amber-400 font-semibold uppercase mb-2">2nd Order Effects</div>
-                            <ul className="space-y-1">
+                            <div
+                              style={{
+                                fontSize: 'var(--text-xs)',
+                                fontWeight: 600,
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em',
+                                color: 'var(--ink-500)',
+                                marginBottom: 'var(--space-sm)',
+                              }}
+                            >
+                              2nd Order Effects
+                            </div>
+                            <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: '4px' }}>
                               {entry.secondOrder.map((effect) => (
-                                <li key={effect} className="text-sm text-slate-400 flex gap-2">
-                                  <span className="text-amber-400 mt-1">&#x2192;</span>
+                                <li key={effect} style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', display: 'flex', gap: 'var(--space-xs)' }}>
+                                  <span style={{ color: 'var(--ink-400)' }}>&mdash;</span>
                                   {effect}
                                 </li>
                               ))}
                             </ul>
                           </div>
                           <div>
-                            <div className="text-xs text-purple-400 font-semibold uppercase mb-2">3rd Order Effects</div>
-                            <ul className="space-y-1">
+                            <div
+                              style={{
+                                fontSize: 'var(--text-xs)',
+                                fontWeight: 600,
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em',
+                                color: 'var(--ink-500)',
+                                marginBottom: 'var(--space-sm)',
+                              }}
+                            >
+                              3rd Order Effects
+                            </div>
+                            <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: '4px' }}>
                               {entry.thirdOrder.map((effect) => (
-                                <li key={effect} className="text-sm text-slate-400 flex gap-2">
-                                  <span className="text-purple-400 mt-1">&#x2192;</span>
+                                <li key={effect} style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', display: 'flex', gap: 'var(--space-xs)' }}>
+                                  <span style={{ color: 'var(--ink-400)' }}>&mdash;</span>
                                   {effect}
                                 </li>
                               ))}

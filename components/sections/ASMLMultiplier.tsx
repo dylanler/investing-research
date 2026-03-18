@@ -6,12 +6,12 @@ import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
 
 const steps = [
-  { label: 'ASML EUV Tool', value: '$400M', width: 6, color: '#6366f1', desc: 'Single tool sold to TSMC' },
-  { label: 'Wafer Processing', value: '~$2B', width: 15, color: '#8b5cf6', desc: 'TSMC processes wafers using the tool' },
-  { label: 'Chip Packaging & Test', value: '~$4B', width: 28, color: '#a855f7', desc: 'CoWoS packaging, HBM integration, testing' },
-  { label: 'System Integration', value: '~$8B', width: 50, color: '#c084fc', desc: 'Nvidia builds servers, racks, networking' },
-  { label: 'AI Compute Revenue', value: '$14.3B', width: 75, color: '#06b6d4', desc: 'Cloud rental revenue over 5 years' },
-  { label: 'Token Revenue', value: '$20-50B', width: 100, color: '#22c55e', desc: 'AI model inference revenue downstream' },
+  { label: 'ASML EUV Tool', value: '$400M', width: 6, opacity: 1, desc: 'Single tool sold to TSMC' },
+  { label: 'Wafer Processing', value: '~$2B', width: 15, opacity: 0.82, desc: 'TSMC processes wafers using the tool' },
+  { label: 'Chip Packaging & Test', value: '~$4B', width: 28, opacity: 0.66, desc: 'CoWoS packaging, HBM integration, testing' },
+  { label: 'System Integration', value: '~$8B', width: 50, opacity: 0.5, desc: 'Nvidia builds servers, racks, networking' },
+  { label: 'AI Compute Revenue', value: '$14.3B', width: 75, opacity: 0.36, desc: 'Cloud rental revenue over 5 years' },
+  { label: 'Token Revenue', value: '$20-50B', width: 100, opacity: 0.22, desc: 'AI model inference revenue downstream' },
 ];
 
 export default function ASMLMultiplier() {
@@ -22,11 +22,18 @@ export default function ASMLMultiplier() {
       <SectionTitle
         title="The 35x ASML Multiplier"
         subtitle="A $400M EUV tool enables $14.3B of downstream economic value. ASML captures less than 3% of the value it creates."
-        accent="#ec4899"
       />
 
-      <div ref={ref} className="rounded-xl border border-white/5 bg-[#12121a] p-6 md:p-8">
-        <div className="space-y-4">
+      <div
+        ref={ref}
+        style={{
+          border: '1px solid var(--ink-200)',
+          borderRadius: 8,
+          background: 'var(--surface-raised)',
+          padding: 'var(--space-xl)',
+        }}
+      >
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
           {steps.map((step, i) => (
             <motion.div
               key={step.label}
@@ -34,46 +41,110 @@ export default function ASMLMultiplier() {
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
             >
-              <div className="flex items-center gap-4 mb-1">
-                <span className="text-sm text-slate-400 w-44 shrink-0">{step.label}</span>
-                <span className="text-sm font-mono font-bold" style={{ color: step.color }}>{step.value}</span>
+              {/* Label row */}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'baseline',
+                  gap: 'var(--space-sm)',
+                  marginBottom: 4,
+                }}
+              >
+                <span
+                  style={{
+                    fontSize: 'var(--text-sm)',
+                    color: 'var(--ink-600)',
+                    width: 176,
+                    flexShrink: 0,
+                  }}
+                >
+                  {step.label}
+                </span>
+                <span
+                  style={{
+                    fontSize: 'var(--text-sm)',
+                    fontFamily: 'monospace',
+                    fontWeight: 600,
+                    color: 'var(--ink-900)',
+                  }}
+                >
+                  {step.value}
+                </span>
               </div>
-              <div className="flex items-center gap-4">
-                <div className="w-44 shrink-0" />
-                <div className="flex-1 h-8 bg-white/5 rounded-full overflow-hidden">
+
+              {/* Bar */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)' }}>
+                <div style={{ width: 176, flexShrink: 0 }} />
+                <div
+                  style={{
+                    flex: 1,
+                    height: 28,
+                    background: 'var(--ink-100)',
+                    borderRadius: 4,
+                    overflow: 'hidden',
+                  }}
+                >
                   <motion.div
                     initial={{ width: 0 }}
                     animate={inView ? { width: `${step.width}%` } : {}}
                     transition={{ duration: 0.8, delay: i * 0.15 + 0.2, ease: 'easeOut' }}
-                    className="h-full rounded-full flex items-center justify-end px-3"
-                    style={{ background: `linear-gradient(90deg, ${step.color}44, ${step.color})` }}
-                  >
-                    <span className="text-xs text-white/80 font-mono whitespace-nowrap">{step.value}</span>
-                  </motion.div>
+                    style={{
+                      height: '100%',
+                      borderRadius: 4,
+                      background: `color-mix(in srgb, var(--accent) ${Math.round(step.opacity * 100)}%, transparent)`,
+                    }}
+                  />
                 </div>
               </div>
-              <div className="flex items-center gap-4 mt-0.5">
-                <div className="w-44 shrink-0" />
-                <span className="text-xs text-slate-500">{step.desc}</span>
+
+              {/* Description */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)', marginTop: 2 }}>
+                <div style={{ width: 176, flexShrink: 0 }} />
+                <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
+                  {step.desc}
+                </span>
               </div>
             </motion.div>
           ))}
         </div>
 
-        {/* Key callout */}
+        {/* Key callout — editorial pull-quote */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 1.2 }}
-          className="mt-10 p-6 rounded-xl bg-gradient-to-r from-pink-500/10 to-indigo-500/10 border border-pink-500/20"
+          style={{
+            marginTop: 'var(--space-2xl)',
+            padding: 'var(--space-lg)',
+            borderRadius: 8,
+            background: 'var(--surface-sunken)',
+          }}
         >
-          <div className="flex flex-col md:flex-row md:items-center gap-6">
-            <div className="text-6xl font-bold bg-gradient-to-r from-pink-400 to-indigo-400 bg-clip-text text-transparent">
+          <div className="flex flex-col md:flex-row md:items-center" style={{ gap: 'var(--space-lg)' }}>
+            <div
+              className="font-display"
+              style={{
+                fontSize: 'var(--text-4xl)',
+                fontWeight: 700,
+                color: 'var(--ink-950)',
+                lineHeight: 1,
+                flexShrink: 0,
+              }}
+            >
               35x
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-white mb-1">The Most Asymmetric Trade in Tech</h4>
-              <p className="text-slate-400">
+              <h4
+                style={{
+                  fontSize: 'var(--text-base)',
+                  fontWeight: 600,
+                  color: 'var(--ink-900)',
+                  marginBottom: 'var(--space-2xs)',
+                }}
+              >
+                The Most Asymmetric Trade in Tech
+              </h4>
+              <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', margin: 0 }}>
                 If ASML raised prices by just 50% (to $600M/tool), their earnings would roughly double —
                 and the tool would still represent less than 5% of downstream value. As the EUV bottleneck
                 tightens from 2028-2032, pricing power increases dramatically.

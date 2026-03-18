@@ -4,99 +4,113 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated grid background */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(99,102,241,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(99,102,241,0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
-        {/* Floating dots */}
-        {Array.from({ length: 30 }).map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-1 h-1 rounded-full bg-indigo-500/20"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              opacity: [0.1, 0.5, 0.1],
-              scale: [1, 1.5, 1],
-            }}
-            transition={{
-              duration: 3 + Math.random() * 4,
-              repeat: Infinity,
-              delay: Math.random() * 3,
-            }}
-          />
-        ))}
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0a0f]/50 to-[#0a0a0f]" />
-      </div>
+    <section id="hero" className="relative min-h-[85vh] flex items-end pb-16 md:pb-24 overflow-hidden">
+      {/* Subtle geometric pattern */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `radial-gradient(circle at 1px 1px, var(--ink-400) 1px, transparent 0)`,
+          backgroundSize: '32px 32px',
+        }}
+      />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 md:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mb-8"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-indigo-500/20 bg-indigo-500/5 text-indigo-400 text-sm mb-8">
-            <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
-            Based on Dylan Patel (SemiAnalysis) &times; Dwarkesh Podcast
-          </div>
+          <span className="text-[var(--text-sm)] font-medium tracking-widest uppercase" style={{ color: 'var(--ink-400)' }}>
+            Research Brief &middot; March 2026
+          </span>
         </motion.div>
 
         <motion.h1
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6"
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="font-display font-semibold tracking-tight leading-[1.05]"
+          style={{ fontSize: 'var(--text-4xl)', color: 'var(--ink-950)' }}
         >
-          The{' '}
-          <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-            $1 Trillion
-          </span>{' '}
+          The $1 Trillion
+          <br />
           Bottleneck
         </motion.h1>
 
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
+          className="my-8 h-px w-24"
+          style={{ background: 'var(--ink-200)' }}
+        />
+
         <motion.p
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed"
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="max-w-xl leading-relaxed"
+          style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-600)' }}
         >
-          How semiconductor physics will constrain AI compute from{' '}
-          <span className="text-white font-semibold">2026 to 2040</span> — and which companies
+          How semiconductor physics will constrain AI compute from 2026 to 2040 — and which companies
           will profit from clearing each bottleneck.
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          className="flex flex-wrap justify-center gap-4 mb-16"
+          transition={{ duration: 0.6, delay: 0.55 }}
+          className="mt-10 flex flex-wrap gap-x-8 gap-y-3"
+          style={{ color: 'var(--ink-500)', fontSize: 'var(--text-sm)' }}
         >
-          {['48 EUV Tools/Year', '$600B CapEx', '92% Nvidia Share', '35x ASML Multiplier'].map((tag) => (
-            <span key={tag} className="px-4 py-2 rounded-lg bg-white/5 text-slate-300 text-sm font-mono border border-white/5">
-              {tag}
-            </span>
-          ))}
+          <span>Based on Dylan Patel (SemiAnalysis) &times; Dwarkesh Podcast</span>
+          <span>Cross-referenced with IEA, ASML, FERC data</span>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="flex flex-col items-center gap-2 text-slate-500"
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="mt-16 flex items-center gap-6"
+          style={{ color: 'var(--ink-400)', fontSize: 'var(--text-sm)' }}
         >
-          <span className="text-sm">Scroll to explore</span>
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-5 h-8 rounded-full border-2 border-slate-600 flex items-start justify-center p-1"
-          >
-            <div className="w-1 h-2 rounded-full bg-slate-500" />
-          </motion.div>
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-px" style={{ background: 'var(--ink-300)' }} />
+            <span>Scroll to explore</span>
+          </div>
         </motion.div>
       </div>
+
+      {/* Right-side data callout */}
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+        className="absolute right-8 top-1/3 hidden lg:block text-right"
+        style={{ color: 'var(--ink-300)', fontSize: 'var(--text-xs)' }}
+      >
+        <div className="space-y-6">
+          {[
+            { value: '48', label: 'EUV tools shipped', sub: 'ASML, 2025' },
+            { value: '$600B', label: 'Big Four CapEx', sub: '2026 combined' },
+            { value: '2,289 GW', label: 'in FERC queue', sub: 'end-2024' },
+          ].map((item, i) => (
+            <motion.div
+              key={item.label}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.8 + i * 0.15 }}
+            >
+              <div className="font-display text-2xl font-semibold" style={{ color: 'var(--ink-700)' }}>
+                {item.value}
+              </div>
+              <div style={{ color: 'var(--ink-400)' }}>{item.label}</div>
+              <div style={{ color: 'var(--ink-300)' }}>{item.sub}</div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
     </section>
   );
 }
