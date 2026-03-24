@@ -94,7 +94,7 @@ export default function CompaniesPage() {
       {/* Nav link back */}
       <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50 }}>
         <a href="/" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>
-          &larr; Bottleneck Analysis
+          &larr; Home
         </a>
       </div>
 
@@ -439,7 +439,8 @@ export default function CompaniesPage() {
             This is investment analysis, not personalized financial advice. YTD returns estimated from public market-cap snapshots (Yahoo Finance). Past performance does not guarantee future results. Prepared March 2026.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
-            <a href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Bottleneck Analysis</a>
+            <a href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</a>
+            <a href="/bottleneck" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>Bottleneck Analysis &rarr;</a>
           </div>
         </div>
       </footer>
