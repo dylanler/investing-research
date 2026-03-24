@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
 /*
- * Editorial design system
- * Inspired by: FT long-reads, Bloomberg features, Stripe Atlas
- * Typography: Fraunces (display) + Plus Jakarta Sans (body)
- * Color: Warm-tinted neutrals + deep navy accent
+ * Dual-theme design system
+ * Light: warm editorial (FT/Bloomberg)
+ * Dark: deep navy terminal (not pure black)
  */
 
 :root {
-  /* Warm-tinted neutral scale (hint of amber at 0.01 chroma) */
   --ink-950: oklch(12% 0.01 60);
   --ink-900: oklch(18% 0.01 60);
   --ink-800: oklch(25% 0.01 60);
@@ -21,23 +19,30 @@
   --ink-100: oklch(92% 0.005 60);
   --ink-50: oklch(97% 0.003 60);
 
-  /* Surfaces */
   --surface-page: oklch(98% 0.003 60);
   --surface-raised: oklch(100% 0 0);
   --surface-sunken: oklch(95% 0.005 60);
   --surface-overlay: oklch(100% 0 0 / 0.92);
 
-  /* Accent: deep warm navy */
-  --accent: oklch(35% 0.08 250);
-  --accent-light: oklch(50% 0.06 250);
+  --accent: oklch(45% 0.12 250);
+  --accent-light: oklch(55% 0.08 250);
   --accent-subtle: oklch(92% 0.02 250);
+  --accent-glow: oklch(55% 0.15 250 / 0.15);
 
-  /* Semantic */
   --danger: oklch(55% 0.2 25);
-  --success: oklch(55% 0.15 155);
+  --success: oklch(50% 0.15 155);
   --warning: oklch(70% 0.15 75);
 
-  /* Spacing: 4pt base */
+  --text-xs: clamp(0.7rem, 0.65rem + 0.2vw, 0.75rem);
+  --text-sm: clamp(0.8rem, 0.75rem + 0.2vw, 0.875rem);
+  --text-base: clamp(0.95rem, 0.9rem + 0.25vw, 1.0625rem);
+  --text-lg: clamp(1.15rem, 1rem + 0.5vw, 1.33rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1vw, 1.77rem);
+  --text-2xl: clamp(1.8rem, 1.4rem + 1.5vw, 2.37rem);
+  --text-3xl: clamp(2.2rem, 1.6rem + 2.5vw, 3.16rem);
+  --text-4xl: clamp(2.8rem, 2rem + 3vw, 4.21rem);
+  --text-hero: clamp(3.2rem, 2.4rem + 4vw, 5.5rem);
+
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
@@ -48,23 +53,42 @@
   --space-4xl: 96px;
   --space-5xl: 128px;
 
-  /* Type scale: 1.333 (perfect fourth) */
-  --text-xs: clamp(0.7rem, 0.65rem + 0.2vw, 0.75rem);
-  --text-sm: clamp(0.8rem, 0.75rem + 0.2vw, 0.875rem);
-  --text-base: clamp(0.95rem, 0.9rem + 0.25vw, 1.0625rem);
-  --text-lg: clamp(1.15rem, 1rem + 0.5vw, 1.33rem);
-  --text-xl: clamp(1.5rem, 1.2rem + 1vw, 1.77rem);
-  --text-2xl: clamp(1.8rem, 1.4rem + 1.5vw, 2.37rem);
-  --text-3xl: clamp(2.2rem, 1.6rem + 2.5vw, 3.16rem);
-  --text-4xl: clamp(2.8rem, 2rem + 3vw, 4.21rem);
+  color-scheme: light;
+}
 
-  --background: var(--surface-page);
-  --foreground: var(--ink-900);
+/* ─── Dark mode ─── */
+[data-theme="dark"] {
+  --ink-950: oklch(95% 0.01 220);
+  --ink-900: oklch(90% 0.01 220);
+  --ink-800: oklch(82% 0.01 220);
+  --ink-700: oklch(72% 0.01 220);
+  --ink-600: oklch(62% 0.01 220);
+  --ink-500: oklch(52% 0.01 220);
+  --ink-400: oklch(42% 0.015 220);
+  --ink-300: oklch(32% 0.01 220);
+  --ink-200: oklch(22% 0.015 220);
+  --ink-100: oklch(17% 0.02 220);
+  --ink-50: oklch(13% 0.02 220);
+
+  --surface-page: oklch(10% 0.02 230);
+  --surface-raised: oklch(14% 0.02 230);
+  --surface-sunken: oklch(8% 0.02 230);
+  --surface-overlay: oklch(14% 0.02 230 / 0.95);
+
+  --accent: oklch(65% 0.15 250);
+  --accent-light: oklch(75% 0.1 250);
+  --accent-subtle: oklch(20% 0.04 250);
+  --accent-glow: oklch(65% 0.2 250 / 0.12);
+
+  --danger: oklch(65% 0.2 25);
+  --success: oklch(65% 0.15 155);
+
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--surface-page);
+  --color-foreground: var(--ink-800);
   --font-sans: var(--font-jakarta);
   --font-mono: var(--font-geist-mono);
 }
@@ -77,19 +101,21 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Custom scrollbar - subtle */
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--ink-200); border-radius: 4px; }
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface-page); }
+::-webkit-scrollbar-thumb { background: var(--ink-200); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--ink-300); }
 
-/* Selection */
-::selection {
-  background: oklch(85% 0.06 250);
-  color: var(--ink-950);
-}
+::selection { background: oklch(70% 0.1 250 / 0.3); color: var(--ink-950); }
 
 /* Range slider */
 input[type="range"] {
@@ -102,25 +128,44 @@ input[type="range"] {
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
+  width: 18px; height: 18px; border-radius: 50%;
   background: var(--accent);
   cursor: pointer;
   border: 3px solid var(--surface-page);
-  box-shadow: 0 1px 3px oklch(0% 0 0 / 0.15);
+  box-shadow: 0 1px 4px oklch(0% 0 0 / 0.15);
 }
 input[type="range"]::-moz-range-thumb {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--accent);
-  cursor: pointer;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--accent); cursor: pointer;
   border: 3px solid var(--surface-page);
 }
 
-/* Utility: display font */
-.font-display {
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-optical-sizing: auto;
+/* Animations */
+@keyframes blink { 0%,100% { opacity: 0.4; } 50% { opacity: 0; } }
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Particle field for hero */
+.particle-field {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.15;
+}
+[data-theme="dark"] .particle {
+  opacity: 0.3;
 }

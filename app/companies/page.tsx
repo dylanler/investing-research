@@ -9,6 +9,7 @@ import {
   ScatterChart, Scatter, Cell, ZAxis,
 } from 'recharts';
 import { companies100, bucketSummary, portfolios, sourceLibrary, overviewStats } from '@/data/companies100';
+import ThemeToggle from '@/components/layout/ThemeToggle';
 
 const BUCKET_COLORS: Record<string, string> = {
   'Power, cooling & electrical': 'oklch(55% 0.12 25)',
@@ -91,11 +92,14 @@ export default function CompaniesPage() {
 
   return (
     <main style={{ background: 'var(--surface-page)', minHeight: '100vh' }}>
-      {/* Nav link back */}
+      {/* Nav */}
       <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50 }}>
         <a href="/" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>
           &larr; Home
         </a>
+      </div>
+      <div style={{ position: 'fixed', top: 12, right: 16, zIndex: 50 }}>
+        <ThemeToggle />
       </div>
 
       {/* HERO */}

@@ -1,4 +1,5 @@
 import Navbar from '@/components/layout/Navbar';
+import ThemeToggle from '@/components/layout/ThemeToggle';
 import HeroSection from '@/components/sections/HeroSection';
 import KeyNumbers from '@/components/sections/KeyNumbers';
 import BottleneckTimeline from '@/components/sections/BottleneckTimeline';
@@ -13,11 +14,14 @@ import InvestmentImplications from '@/components/sections/InvestmentImplications
 export default function Home() {
   return (
     <main className="relative">
-      {/* Back to home */}
-      <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50 }}>
+      {/* Back to home + theme toggle */}
+      <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50, display: 'flex', alignItems: 'center', gap: 12 }}>
         <a href="/" style={{ fontSize: '0.75rem', color: 'var(--ink-400)', textDecoration: 'none' }}>
           &larr; Home
         </a>
+      </div>
+      <div style={{ position: 'fixed', top: 12, right: 16, zIndex: 50 }}>
+        <ThemeToggle />
       </div>
       <Navbar />
       <HeroSection />

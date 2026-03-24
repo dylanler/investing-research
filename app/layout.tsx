@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Fraunces, Geist_Mono } from "next/font/google";
+import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -21,13 +22,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The $1 Trillion Bottleneck | AI Compute Supply Chain 2026-2040",
-  description: "How semiconductor physics will constrain AI compute from 2026 to 2040 — year-by-year bottleneck analysis, game theory, and 100 companies to watch.",
-  openGraph: {
-    title: "The $1 Trillion Bottleneck",
-    description: "AI Compute Supply Chain Bottleneck Analysis 2026-2040",
-    type: "article",
-  },
+  title: "AI Compute Research | Investment Analysis 2026-2040",
+  description: "Two research reports on AI semiconductor bottlenecks and 100 companies of the GPU buildout. Interactive analysis with charts, game theory, and portfolio ideas.",
 };
 
 export default function RootLayout({
@@ -36,9 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${jakarta.variable} ${fraunces.variable} ${geistMono.variable} antialiased`}>
-        {children}
+        <ThemeProvider attribute="data-theme" defaultTheme="dark" enableSystem={false}>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
