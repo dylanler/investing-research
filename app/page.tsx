@@ -243,6 +243,7 @@ export default function Home() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <Link href="/bottleneck" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Bottleneck</Link>
           <Link href="/companies" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Companies</Link>
+          <Link href="/robotics" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Robotics</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -410,14 +411,14 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-xl)' }}>
+          <div className="grid lg:grid-cols-3" style={{ gap: 'var(--space-lg)' }}>
             <Reveal direction="left" delay={0.1}>
               <ParallaxLayer speed={0.8}>
                 <TiltCard
                   href="/bottleneck"
                   label="Report I"
                   title="The $1 Trillion Bottleneck"
-                  subtitle="Year-by-year analysis of how semiconductor physics constrains AI compute from 2026 to 2040 — EUV gaps, game theory, power crises, and geopolitical fragmentation."
+                  subtitle="How semiconductor physics constrains AI compute from 2026 to 2040 — EUV gaps, game theory, and geopolitical fragmentation."
                   accentColor="var(--accent)"
                   stats={[
                     { label: 'Timeline', value: '2026\u20132040' },
@@ -428,18 +429,35 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal direction="right" delay={0.2}>
-              <ParallaxLayer speed={1.2}>
+            <Reveal delay={0.2}>
+              <ParallaxLayer speed={1.0}>
                 <TiltCard
                   href="/companies"
                   label="Report II"
                   title="100 Companies of the AI/GPU Buildout"
-                  subtitle="A global equity universe across power, packaging, HBM, optics, fab tools, and compute — with bull/bear theses, chokepoint scores, and portfolio ideas."
+                  subtitle="A global equity universe across power, packaging, HBM, optics, fab tools, and compute — with chokepoint scores and portfolios."
                   accentColor="var(--success)"
                   stats={[
                     { label: 'Companies', value: '100' },
                     { label: 'Median YTD', value: '+19.5%' },
                     { label: 'Risk Levels', value: '5' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
+
+            <Reveal direction="right" delay={0.3}>
+              <ParallaxLayer speed={1.2}>
+                <TiltCard
+                  href="/robotics"
+                  label="Report III"
+                  title="The Robotics Revolution"
+                  subtitle="End-to-end learning, data infrastructure, and 50 companies — why cross-embodiment pretraining + world models win."
+                  accentColor="var(--warning)"
+                  stats={[
+                    { label: 'Methods', value: '10' },
+                    { label: 'Companies', value: '50' },
+                    { label: 'EgoScale', value: '20,854h' },
                   ]}
                 />
               </ParallaxLayer>
