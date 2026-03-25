@@ -235,3 +235,91 @@ export const winningFormula = [
   'Robotics-native data infrastructure (Foxglove / Build AI / Nominal)',
   'Cheap deployment-time edge inference',
 ];
+
+// ── Frontier Lab Profiles ──
+export interface FrontierLab {
+  name: string;
+  coreApproach: string;
+  whyItMatters: string;
+  verdict: string;
+  scalingRank: number;
+  keyMethods: string[];
+}
+
+export const frontierLabs: FrontierLab[] = [
+  { name: 'NVIDIA Robotics Labs', coreApproach: 'Stacked scaling: VLA foundation models (GR00T N1/N1.5/N1.6) + human-video pretraining (EgoScale, DreamDojo) + world models (Cosmos 20M+ hrs) + synthetic trajectory generation (DreamGen) + open-weight tooling', whyItMatters: 'Strongest public evidence that robotics can move from "collect more teleop" to "pretrain broadly, then adapt cheaply." Has explicit log-linear scaling law (R²=0.9983).', verdict: 'Best published scaling story. Combines broad data sources, explicit compute leverage, cross-embodiment transfer, synthetic trajectory amplification, and actual benchmark improvements.', scalingRank: 1, keyMethods: ['Human-video pretraining', 'World models', 'Synthetic trajectories', 'Cross-embodiment VLA', 'Open data/models'] },
+  { name: 'Figure AI', coreApproach: 'Commercial end-to-end VLA stack: Helix (System 1/System 2), single neural network/one set of weights for many behaviors, pixels-to-actions, BMW deployment (1,250+ hrs, 90K+ parts), Brookfield partnership for home-scale data', whyItMatters: 'Strongest public evidence of translating end-to-end learning into real deployment metrics. Same architecture transferred from logistics to laundry/dishwasher with data-only changes.', verdict: 'Best pure humanoid OEM execution of the scaling thesis. Strongest commercial humanoid end-to-end learner in public view.', scalingRank: 2, keyMethods: ['End-to-end VLA', 'Teleop imitation', 'Human-video pretraining (pivot)', 'Real-world data flywheel'] },
+  { name: '1X Technologies', coreApproach: 'World-model-first home robotics: Redwood AI for manipulation, RL locomotion, 1X World Model (14B params, 900h human + 70h robot data) as cognitive core, product mix of autonomy + expert supervision', whyItMatters: 'One of few product companies saying the world model itself should become a central cognitive layer, not just an offline evaluator. Targeting home — the hardest generalization environment.', verdict: 'Most interesting world-model-centric product thesis. Less public benchmark detail than NVIDIA/Figure but strongest product thesis if world models win.', scalingRank: 3, keyMethods: ['World models (14B)', 'RL locomotion', 'Egocentric human pretraining', 'Learned evaluation'] },
+  { name: 'Tesla Optimus', coreApproach: 'Transfer of FSD vision + planning + inference philosophy into humanoids. Multimodal foundation models, end-to-end RL + imitation learning, high-fidelity simulation. NeurIPS 2025 talks on "Building Foundational Models for Robotics at Tesla."', whyItMatters: 'May eventually have best manufacturing scale, most aggressive compute culture, deep auto-labeling instincts, custom inference hardware, and enormous experience deploying AI in physical world.', verdict: 'Highest-variance name on the board. Very likely top-tier if internal stack matches hiring signals, but today under-documented relative to Figure and NVIDIA.', scalingRank: 4, keyMethods: ['FSD transfer', 'Multimodal foundation models', 'Simulation', 'RL + imitation'] },
+  { name: 'Sunday Robotics', coreApproach: 'Skill Capture Glove instead of teleoperation, distributed "Memory Developers" collecting household behavior, push from imitation to intuition, home-first skills. Shipped 2,000+ gloves.', whyItMatters: 'Trying to build a distributed household behavior archive without requiring teleoperated robot control during collection. Important because teleop is expensive and morphologically awkward for homes at scale.', verdict: 'Best pure novel-data-collection thesis. Very promising data flywheel but earlier and less benchmarked than the other four.', scalingRank: 5, keyMethods: ['Glove-based data capture', 'Distributed collection', 'Imitation-to-intuition'] },
+];
+
+// ── Data Company Tiers ──
+export interface DataCompanyTier {
+  tier: number;
+  name: string;
+  description: string;
+  companies: string[];
+}
+
+export const dataCompanyTiers: DataCompanyTier[] = [
+  { tier: 1, name: 'Direct Data Flywheel Enablers', description: 'Generate egocentric/first-person human action data, multimodal aligned streams, diverse real environments', companies: ['Build AI', 'Human Archive', 'Asimov', 'Oceanveo', 'Sensei Robotics', 'Ropedia', 'MeckaAI', 'GenrobotAI'] },
+  { tier: 2, name: 'Critical Data Infrastructure', description: 'Observability, curation, analytics, annotation workflows around the winning method', companies: ['Foxglove', 'Rerun', 'Roboto AI', 'Neuracore', 'Orbifold AI', 'Labelbox', 'Scale AI', 'Nominal'] },
+  { tier: 3, name: 'Operations & Services', description: 'Deployment support, workforce, processing layer', companies: ['DeepReach AI', 'micro1', 'Surge AI'] },
+  { tier: 4, name: 'Insufficient Evidence', description: 'Too little public evidence to evaluate', companies: ['GI Labs', 'T* (stealth)', 'microAGI'] },
+];
+
+// ── Scaling Loop ──
+export const scalingLoop = [
+  'Human-video pretraining at internet scale',
+  'Latent/action alignment with small robot dataset',
+  'World model / synthetic trajectory expansion',
+  'End-to-end policy post-training',
+  'Autonomous rollout collection',
+  'Learned evaluation',
+  'Repeat (flywheel)',
+];
+
+// ── End-to-End Learning Report Method Rankings ──
+export interface E2EMethodRank {
+  rank: number;
+  method: string;
+  bestExamples: string;
+  whyScales: string;
+}
+
+export const e2eMethodRanks: E2EMethodRank[] = [
+  { rank: 1, method: 'Human-video pretraining + small robot alignment', bestExamples: 'NVIDIA EgoScale, Figure Go-Big, DreamDojo', whyScales: 'Human data is cheaper and broader than robot teleop' },
+  { rank: 2, method: 'World-model pretraining + policy distillation', bestExamples: '1X World Model, NVIDIA DreamDojo', whyScales: 'Converts expensive real-world trials into cheaper model-space search' },
+  { rank: 3, method: 'Synthetic trajectory generation from world models', bestExamples: 'NVIDIA GR00T-Dreams, DreamGen', whyScales: 'Replaces human data generation with compute' },
+  { rank: 4, method: 'Learned evaluator / world simulator for policy selection', bestExamples: '1X WM evaluation stack', whyScales: 'Shrinks costly real-world evaluation loops' },
+  { rank: 5, method: 'VPT-style IDM → FDM autoregressive action modeling', bestExamples: 'OpenAI VPT, Standard Intelligence FDM-1', whyScales: 'Action labels become bootstrappable; unlabeled video trainable' },
+  { rank: 6, method: 'RL for locomotion/mobile manipulation', bestExamples: '1X Redwood mobility, Tesla, NVIDIA', whyScales: 'Compute-heavy, good for low-level control' },
+  { rank: 7, method: 'Human-to-robot paired video transfer', bestExamples: 'EgoScale mid-training, Figure transfer', whyScales: 'More sample-efficient than pure teleop' },
+  { rank: 8, method: 'End-to-end VLA on robot data only', bestExamples: 'Figure Helix, GR00T, Redwood', whyScales: 'Powerful but data-constrained if only robot trajectories' },
+  { rank: 9, method: 'Classic teleop imitation learning', bestExamples: 'Almost all current teams', whyScales: 'Strong local performance, poor long-run scaling economics' },
+  { rank: 10, method: 'Modular trajectory planning stacks', bestExamples: 'Legacy robotics stacks', whyScales: 'Useful for safety but least aligned with Bitter Lesson' },
+];
+
+// ── Key Research Papers/Benchmarks ──
+export const keyBenchmarks = [
+  { name: 'RT-2', metric: 'Unseen task success', before: 32, after: 62, unit: '%', source: 'Google DeepMind' },
+  { name: 'RT-2 emergent reasoning', metric: 'Emergent skill improvement', value: '3x+', source: 'Google DeepMind' },
+  { name: 'Diffusion Policy', metric: 'Avg improvement over prior baselines', value: 46.9, unit: '%', source: 'Toyota Research' },
+  { name: 'EgoScale scaling law', metric: 'R-squared', value: 0.9983, source: 'NVIDIA' },
+  { name: 'EgoScale avg improvement', metric: 'Task success over baseline', value: 54, unit: '%', source: 'NVIDIA' },
+  { name: 'Open X-Embodiment', metric: 'Robot types / institutions', value: '22 robots, 21 institutions, 527 skills, 1M+ trajectories', source: 'RT-X consortium' },
+  { name: 'OpenVLA', metric: 'Model size / demos', value: '7B model, 970K real demonstrations', source: 'Stanford' },
+  { name: 'Physical Intelligence pi0', metric: 'Training data', value: '10,000+ hours of robot data', source: 'Physical Intelligence' },
+  { name: 'Standard Intelligence FDM-1', metric: 'IDM training / corpus / latency', value: '40K hrs labeled, 11M hrs unlabeled, 11ms inference', source: 'Standard Intelligence' },
+  { name: 'Octo', metric: 'Pretraining episodes', value: '~800,000 robot episodes', source: 'Berkeley' },
+];
+
+// ── Validation Addendum Calculations ──
+export const taskCalculations = [
+  { label: 'Task coverage via imitation', calc: '50 demos/task × 3 min = 2.5h/task; 10K tasks = 25,000h', implication: 'Teleop-only approach is bootstrap, not terminal' },
+  { label: '20-operator team throughput', calc: '25,000h / (20 ops × 5h/day) = 250 calendar days', implication: 'Almost a year for 10K tasks with dedicated team' },
+  { label: '1X human-video leverage', calc: '900h human / 70h robot = 12.9×', implication: 'Human data is 13x cheaper per unit of robot capability' },
+  { label: 'DreamDojo vs Figure teleop', calc: '44,711h / 500h = 89.4×', implication: 'Data bottleneck is decisively shifting to human video' },
+  { label: 'EgoScale vs 1XWM human', calc: '20,854h / 900h = 23.2×', implication: 'EgoScale is much larger dexterous-human-data result' },
+];

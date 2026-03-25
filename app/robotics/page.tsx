@@ -14,7 +14,9 @@ import {
   learningMethods, scoringMetrics, datasetComparisons, keyRatios,
   dualScores, controlLoops, topAlpha, publicCompanies, privateCompanies,
   egoVerseMetrics, egoScaleMetrics, timeline, winningFormula,
-  type PrivateCompany,
+  frontierLabs, dataCompanyTiers, scalingLoop, e2eMethodRanks,
+  keyBenchmarks, taskCalculations,
+  type PrivateCompany, type FrontierLab, type DataCompanyTier, type E2EMethodRank,
 } from '@/data/robotics';
 
 /* ── Reveal animation ── */
@@ -164,6 +166,51 @@ export default function RoboticsPage() {
         </div>
       </section>
 
+      {/* ═══ THE FIVE FRONTIER LABS ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-6xl mx-auto">
+          <SectionHead num="00" title="The Five Frontier Labs" subtitle="Deep-dive profiles of the companies defining the scaling frontier for learned robotics." />
+
+          <Reveal>
+            <div style={{ display: 'flex', gap: 'var(--space-lg)', overflowX: 'auto', paddingBottom: 'var(--space-md)', scrollSnapType: 'x mandatory' }}>
+              {frontierLabs.map((lab, i) => (
+                <div key={lab.name} style={{
+                  minWidth: 340, maxWidth: 380, flex: '0 0 auto', scrollSnapAlign: 'start',
+                  background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 2, padding: 'var(--space-lg)',
+                  display: 'flex', flexDirection: 'column', gap: 'var(--space-md)',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <span className="font-display" style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--ink-950)' }}>{lab.name}</span>
+                    <span style={{
+                      fontFamily: 'monospace', fontSize: 'var(--text-xs)', fontWeight: 700,
+                      padding: '2px 8px', borderRadius: 2,
+                      background: lab.scalingRank <= 2 ? 'var(--accent-subtle)' : 'var(--surface-sunken)',
+                      color: lab.scalingRank <= 2 ? 'var(--accent)' : 'var(--ink-500)',
+                    }}>#{lab.scalingRank}</span>
+                  </div>
+
+                  <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-600)', lineHeight: 1.6 }}>{lab.coreApproach}</p>
+
+                  <div style={{ borderTop: '1px solid var(--ink-100)', paddingTop: 'var(--space-sm)' }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-xs)' }}>Verdict</div>
+                    <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-700)', lineHeight: 1.5 }}>{lab.verdict}</p>
+                  </div>
+
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginTop: 'auto' }}>
+                    {lab.keyMethods.map(m => (
+                      <span key={m} style={{
+                        fontSize: 10, padding: '2px 8px', borderRadius: 2,
+                        background: 'var(--surface-sunken)', color: 'var(--ink-600)', whiteSpace: 'nowrap',
+                      }}>{m}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ═══ 01 — LEARNING METHODS RADAR ═══ */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
         <div className="max-w-6xl mx-auto">
@@ -260,6 +307,33 @@ export default function RoboticsPage() {
         </div>
       </section>
 
+      {/* ═══ THE SCALING LOOP ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="02b" title="The Scaling Loop" subtitle="The compound recipe: each cycle amplifies the next. This is the flywheel that separates winners from followers." />
+
+          <Reveal>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 0, alignItems: 'center' }}>
+              {scalingLoop.map((step, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'center' }}>
+                  <div style={{
+                    background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 2,
+                    padding: 'var(--space-sm) var(--space-md)', display: 'flex', alignItems: 'center', gap: 'var(--space-sm)',
+                    minWidth: 0,
+                  }}>
+                    <span className="font-display" style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--accent)', opacity: 0.4 }}>{i + 1}</span>
+                    <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)' }}>{step}</span>
+                  </div>
+                  {i < scalingLoop.length - 1 && (
+                    <div style={{ padding: '0 var(--space-xs)', color: 'var(--ink-300)', fontSize: 'var(--text-lg)', userSelect: 'none' }}>&rarr;</div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ═══ 03 — SHIP NOW vs SCALE 2030 ═══ */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
         <div className="max-w-6xl mx-auto">
@@ -297,6 +371,69 @@ export default function RoboticsPage() {
               </div>
             </div>
           </Reveal>
+        </div>
+      </section>
+
+      {/* ═══ KEY BENCHMARKS ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="03b" title="Key Benchmarks" subtitle="The research papers and datasets that define the current frontier. Before/after numbers where available." />
+
+          <Reveal>
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--ink-200)' }}>
+                    <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--ink-500)' }}>Name</th>
+                    <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Metric</th>
+                    <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Result</th>
+                    <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Source</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {keyBenchmarks.map((b) => (
+                    <tr key={b.name} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-900)' }}>{b.name}</td>
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>{b.metric}</td>
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontFamily: 'monospace', fontWeight: 700, color: 'var(--accent)', textAlign: 'right' }}>
+                        {'before' in b && b.before !== undefined
+                          ? `${b.before}${b.unit || ''} → ${b.after}${b.unit || ''}`
+                          : `${b.value}${b.unit || ''}`}
+                      </td>
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)', textAlign: 'right' }}>{b.source}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ═══ THE MATH BEHIND THE THESIS ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="03c" title="The Math Behind the Thesis" subtitle="Back-of-envelope calculations from the validation addendum that quantify why the data strategy must change." />
+
+          <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
+            {taskCalculations.map((tc, i) => (
+              <Reveal key={tc.label} delay={i * 0.06}>
+                <div style={{
+                  background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 2,
+                  padding: 'var(--space-lg)', display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)',
+                }}>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-900)' }}>{tc.label}</div>
+                  <div style={{
+                    fontFamily: 'monospace', fontSize: 'var(--text-xs)', color: 'var(--accent)',
+                    background: 'var(--surface-sunken)', padding: 'var(--space-sm) var(--space-md)', borderRadius: 2, lineHeight: 1.6,
+                  }}>{tc.calc}</div>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-600)', lineHeight: 1.5, borderTop: '1px solid var(--ink-100)', paddingTop: 'var(--space-sm)' }}>
+                    {tc.implication}
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -415,6 +552,43 @@ export default function RoboticsPage() {
               </div>
             </motion.div>
           </AnimatePresence>
+        </div>
+      </section>
+
+      {/* ═══ DATA COMPANY TIERS ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="06b" title="Data Company Tiers" subtitle="Alignment tiers from the end-to-end learning report. Tier 1 companies feed the winning method directly." />
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-lg)' }}>
+            {dataCompanyTiers.map((tier, i) => (
+              <Reveal key={tier.tier} delay={i * 0.08}>
+                <div style={{
+                  background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 2,
+                  padding: 'var(--space-lg)',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: 'var(--space-md)', marginBottom: 'var(--space-sm)' }}>
+                    <span className="font-display" style={{
+                      fontSize: 'var(--text-xl)', fontWeight: 700,
+                      color: tier.tier === 1 ? 'var(--accent)' : tier.tier === 2 ? 'var(--success)' : 'var(--ink-400)',
+                    }}>Tier {tier.tier}</span>
+                    <span style={{ fontSize: 'var(--text-base)', fontWeight: 600, color: 'var(--ink-900)' }}>{tier.name}</span>
+                  </div>
+                  <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 'var(--space-md)', lineHeight: 1.5 }}>{tier.description}</p>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                    {tier.companies.map(c => (
+                      <span key={c} style={{
+                        fontSize: 'var(--text-xs)', padding: '3px 10px', borderRadius: 12,
+                        background: tier.tier === 1 ? 'var(--accent-subtle)' : 'var(--surface-sunken)',
+                        color: tier.tier === 1 ? 'var(--accent)' : 'var(--ink-600)',
+                        fontWeight: 500,
+                      }}>{c}</span>
+                    ))}
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
