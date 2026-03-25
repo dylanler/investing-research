@@ -211,10 +211,39 @@ export default function RoboticsPage() {
         </div>
       </section>
 
-      {/* ═══ 01 — LEARNING METHODS RADAR ═══ */}
+      {/* ═══ 01 — SCORING METHODOLOGY ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)', borderBottom: '1px solid var(--ink-100)' }}>
+        <div className="max-w-6xl mx-auto">
+          <SectionHead num="01" title="How We Score: 8 Dimensions" subtitle="Each of the 10 learning methods is scored 1-10 on 8 metrics. The composite is a simple sum (max 80). Scores reflect published evidence, not hype." />
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4" style={{ gap: 'var(--space-md)' }}>
+            {scoringMetrics.map((metric, i) => (
+              <Reveal key={metric.key} delay={i * 0.05}>
+                <div style={{
+                  background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 2,
+                  padding: 'var(--space-md)', height: '100%',
+                  display: 'flex', flexDirection: 'column', gap: 'var(--space-xs)',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <span className="font-display" style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--accent)' }}>{metric.short}</span>
+                    <span style={{ fontFamily: 'monospace', fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{metric.key.toUpperCase()}</span>
+                  </div>
+                  <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--ink-900)' }}>{metric.name}</div>
+                  <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', lineHeight: 1.5, margin: 0 }}>{metric.question}</p>
+                  <div style={{ fontSize: '10px', color: 'var(--ink-400)', marginTop: 'auto', borderTop: '1px solid var(--ink-100)', paddingTop: 'var(--space-xs)' }}>
+                    {metric.description}
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ 01b — LEARNING METHODS RADAR + JUSTIFICATIONS ═══ */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
         <div className="max-w-6xl mx-auto">
-          <SectionHead num="01" title="10 Learning Methods, Ranked" subtitle="Scored on 8 dimensions. Method 5 (Human Video → Robot) leads with composite 106, boosted by EgoScale validation." />
+          <SectionHead num="01b" title="10 Learning Methods, Ranked" subtitle="Click any method to see the detailed score justification for each of the 8 metrics." />
 
           <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-xl)' }}>
             {/* Radar chart */}
@@ -246,7 +275,7 @@ export default function RoboticsPage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.04 }}
-                    onClick={() => setSelectedMethod(i)}
+                    onClick={() => setSelectedMethod(selectedMethod === i ? -1 : i)}
                     style={{
                       padding: 'var(--space-sm) var(--space-md)',
                       borderBottom: '1px solid var(--ink-100)',
@@ -262,9 +291,32 @@ export default function RoboticsPage() {
                       </div>
                       <span style={{ fontFamily: 'monospace', fontSize: 'var(--text-sm)', fontWeight: 700, color: i < 3 ? 'var(--accent)' : 'var(--ink-600)' }}>{m.composite}</span>
                     </div>
-                    {selectedMethod === i && (
-                      <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginTop: 4, lineHeight: 1.5 }}>{m.description}</motion.p>
-                    )}
+                    <AnimatePresence>
+                      {selectedMethod === i && (
+                        <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} style={{ overflow: 'hidden' }}>
+                          <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginTop: 4, lineHeight: 1.5, marginBottom: 'var(--space-sm)' }}>{m.description}</p>
+                          <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 4 }}>Score Breakdown</div>
+                          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 4 }}>
+                            {scoringMetrics.map(metric => {
+                              const score = m.scores[metric.key as keyof typeof m.scores];
+                              const justification = m.justifications[metric.key];
+                              return (
+                                <div key={metric.key} style={{ padding: '4px 6px', background: 'var(--surface-raised)', borderRadius: 2, border: '1px solid var(--ink-100)' }}>
+                                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 2 }}>
+                                    <span style={{ fontSize: 10, fontWeight: 600, color: 'var(--ink-700)' }}>{metric.short}</span>
+                                    <span style={{
+                                      fontFamily: 'monospace', fontSize: 11, fontWeight: 700,
+                                      color: score >= 8 ? 'var(--accent)' : score >= 5 ? 'var(--ink-600)' : 'var(--danger)',
+                                    }}>{score}/10</span>
+                                  </div>
+                                  <p style={{ fontSize: 10, color: 'var(--ink-500)', lineHeight: 1.4, margin: 0 }}>{justification}</p>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </motion.div>
                 ))}
               </div>
