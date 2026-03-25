@@ -334,3 +334,78 @@ export const taskCalculations = [
   { label: 'DreamDojo vs Figure teleop', calc: '44,711h / 500h = 89.4×', implication: 'Data bottleneck is decisively shifting to human video' },
   { label: 'EgoScale vs 1XWM human', calc: '20,854h / 900h = 23.2×', implication: 'EgoScale is much larger dexterous-human-data result' },
 ];
+
+// ── V3 Addendum: Three Data Regimes ──
+export interface DataRegime {
+  family: string;
+  methods: string;
+  whatToCollect: string;
+  color: string;
+}
+
+export const dataRegimes: DataRegime[] = [
+  { family: 'Paired Robot Trajectories', methods: 'M1, M4, M6, M8, M9, M10', whatToCollect: 'Action-labeled robot observations, state/action sync, calibration, QA, often language labels. RT-1 trained on 130K teleoperated episodes from 13 robots over 17 months.', color: 'var(--accent)' },
+  { family: 'Human-Video Scaling + Alignment', methods: 'M2, M5', whatToCollect: 'Large egocentric human video with head motion, hand/body pose, task descriptions. EgoScale: 20,854h action-labeled. Build AI Egocentric-100K: 100,405h. Plus small robot alignment set.', color: 'var(--success)' },
+  { family: 'Long-Horizon Logs + Synthetic', methods: 'M3, M7', whatToCollect: 'Very long multimodal logs, deployment telemetry, synthetic ground truth, gap-measurement loops. NVIDIA Cosmos uses segmentation, depth, LiDAR, pose, trajectory maps.', color: 'var(--warning)' },
+];
+
+// ── V3: Per-method data requirements ──
+export interface MethodDataReq {
+  method: string;
+  family: string;
+  coreData: string;
+  bottleneck: string;
+  rawVendors: string[];
+  infraVendors: string[];
+  syntheticVendors: string[];
+  evidenceAnchors: string[];
+}
+
+export const methodDataReqs: MethodDataReq[] = [
+  { method: 'M1 ViT visuomotor', family: 'Paired robot trajectories', coreData: 'Paired robot observations→actions. Synchronized RGB, proprioception, end-effector pose, gripper commands, timestamps, calibration.', bottleneck: 'High-quality action-labeled robot trajectories from real hardware', rawVendors: ['Scale AI', 'DeepReach AI', 'Genrobot AI', 'micro1', 'Neuracore', 'Formant'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Labelbox', 'Orbifold AI'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata'], evidenceAnchors: ['RT-1', 'RT-2', 'OpenVLA', 'Octo', 'Figure Helix'] },
+  { method: 'M2 IDM→FDM', family: 'Human-video scaling', coreData: 'Small seed set of observation-action pairs for IDM + huge corpus of long egocentric video with hands visible + optional pose/intrinsics.', bottleneck: 'Finding large manipulation-dense egocentric corpora with metadata quality for pseudo-labeling', rawVendors: ['Build AI', 'Asimov', 'Human Archive', 'Mecka AI', 'Toloka', 'Scale AI', 'micro1'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['MANUS', 'HaptX/1HMX', 'Shadow Robot'], evidenceAnchors: ['OpenAI VPT', '1X WM/IDM', 'Standard Intelligence FDM-1'] },
+  { method: 'M3 World models', family: 'Long-horizon logs + synthetic', coreData: 'Long contiguous sequences of observations, actions, outcomes. Optionally depth, point clouds, segmentation, trajectory maps, paired sim↔real logs.', bottleneck: 'Very long clean multimodal sequences plus scalable curation for rare physics events', rawVendors: ['Formant', 'Nominal', 'Roboto AI', 'Neuracore', 'Rerun', 'Foxglove', 'DeepReach AI'], infraVendors: ['Orbifold AI', 'Labelbox', 'Dataloop'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata'], evidenceAnchors: ['NVIDIA Cosmos', 'Isaac Sim', '1X World Model', 'UniSim', 'DreamerV3'] },
+  { method: 'M4 Imitation/LfD', family: 'Paired robot trajectories', coreData: 'High-fidelity demos via teleop/leader-follower/VR/gloves. Robot observations, state, actions, force/tactile for contact-rich tasks.', bottleneck: 'Operator throughput and ergonomic fidelity; contact-rich dexterity needs tactile/full-body capture', rawVendors: ['DeepReach AI', 'Genrobot AI', 'Scale AI', 'Sensei Robotics', 'micro1', 'Neuracore'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Labelbox', 'Orbifold AI'], syntheticVendors: ['Shadow Robot', 'MANUS', 'HaptX/1HMX'], evidenceAnchors: ['Mobile ALOHA', 'UMI', 'ACT', 'DexCap/DexUMI'] },
+  { method: 'M5 Human video→robot', family: 'Human-video scaling', coreData: 'Egocentric human RGB video, head motion, 3D hand/body pose, task descriptions, broad environment diversity. Plus small robot alignment set.', bottleneck: 'Capturing manipulation-dense video with enough hand visibility and pose fidelity to retarget', rawVendors: ['Build AI', 'Asimov', 'Human Archive', 'Mecka AI', 'Toloka', 'Scale AI', 'Genrobot AI'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['MANUS', 'HaptX/1HMX', 'Shadow Robot'], evidenceAnchors: ['EgoScale', 'EgoVerse', 'DreamDojo', 'Build AI Egocentric-100K'] },
+  { method: 'M6 VLA', family: 'Paired robot trajectories + language', coreData: 'Action-labeled robot episodes paired with natural-language instructions and camera observations. Often proprioception too.', bottleneck: 'Curating language-grounded robot episodes with enough task/object diversity', rawVendors: ['Scale AI', 'DeepReach AI', 'micro1', 'Genrobot AI', 'Sensei Robotics'], infraVendors: ['Labelbox', 'Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Orbifold AI', 'Neuracore'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['RT-2', 'OpenVLA', 'pi0', 'Helix'] },
+  { method: 'M7 RL sim→real', family: 'Long-horizon logs + synthetic', coreData: 'Synthetic simulator rollouts with state/action/reward and realistic sensor outputs. System ID measurements. Real calibration logs.', bottleneck: 'Closing the reality gap for contacts, deformables, and edge-case dynamics', rawVendors: ['Formant', 'Nominal', 'Neuracore', 'Roboto AI', 'Rerun', 'Foxglove', 'DeepReach AI'], infraVendors: ['Orbifold AI', 'Labelbox'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata', 'Shadow Robot', 'HaptX/1HMX'], evidenceAnchors: ['Isaac Sim/Lab', 'Applied Intuition', 'Anyverse'] },
+  { method: 'M8 Diffusion/flow', family: 'Paired robot trajectories (contact-rich)', coreData: 'Dense continuous trajectories, multimodal alternatives, action chunks, precise contact-rich episodes. 3D point clouds or depth often help.', bottleneck: 'Contact-rich multimodal data with enough diversity for generative action models', rawVendors: ['DeepReach AI', 'Genrobot AI', 'Scale AI', 'micro1', 'Sensei Robotics', 'Neuracore'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['Shadow Robot', 'MANUS', 'HaptX/1HMX', 'NVIDIA Isaac/Cosmos'], evidenceAnchors: ['Diffusion Policy', '3D Diffusion Policy', 'pi0'] },
+  { method: 'M9 Cross-embodiment FM', family: 'Large pooled robot trajectories', coreData: 'Standardized trajectories from many robot embodiments. Action-space normalization, embodiment metadata (URDF), task/language labels.', bottleneck: 'Unifying action spaces, metadata, and calibration across many robots', rawVendors: ['Scale AI', 'DeepReach AI', 'Genrobot AI', 'micro1', 'Neuracore', 'Formant'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['Open X-Embodiment', 'Octo', 'OpenVLA', 'pi0'] },
+  { method: 'M10 Hierarchical/LLM', family: 'Language/task decomposition + skill traces', coreData: 'High-level language tasks, subgoal/skill labels, semantic scene info, low-level skill execution traces, failure recovery logs.', bottleneck: 'Producing consistent high-level labels and linking them to low-level skill episodes', rawVendors: ['Scale AI', 'DeepReach AI', 'micro1', 'Genrobot AI', 'Toloka'], infraVendors: ['Labelbox', 'Nominal', 'Roboto AI', 'Rerun', 'Foxglove', 'Orbifold AI', 'Neuracore'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['SayCan', 'VoxPoser', 'Code-as-Policies'] },
+];
+
+// ── V3: 32-Company Fit Matrix (top-line scores per method, 0-5 scale) ──
+export interface CompanyFitScore {
+  company: string;
+  category: string;
+  scores: { m1: number; m2: number; m3: number; m4: number; m5: number; m6: number; m7: number; m8: number; m9: number; m10: number };
+}
+
+export const companyFitMatrix: CompanyFitScore[] = [
+  { company: 'Scale AI', category: 'Raw collection / managed data factory', scores: { m1: 4.1, m2: 4.5, m3: 3.3, m4: 4.0, m5: 4.4, m6: 4.4, m7: 2.7, m8: 3.8, m9: 4.1, m10: 4.1 } },
+  { company: 'DeepReach AI', category: 'Raw collection + deployment', scores: { m1: 4.2, m2: 3.6, m3: 3.3, m4: 4.1, m5: 3.6, m6: 4.4, m7: 3.1, m8: 4.0, m9: 4.1, m10: 4.2 } },
+  { company: 'Genrobot AI', category: 'Raw collection + devices', scores: { m1: 3.9, m2: 3.9, m3: 2.9, m4: 3.9, m5: 3.9, m6: 3.5, m7: 3.1, m8: 3.8, m9: 3.7, m10: 3.1 } },
+  { company: 'micro1', category: 'Expert human data engine', scores: { m1: 3.8, m2: 3.1, m3: 2.8, m4: 3.5, m5: 3.0, m6: 4.1, m7: 2.5, m8: 3.4, m9: 3.7, m10: 3.8 } },
+  { company: 'Mecka AI', category: 'Egocentric movement data', scores: { m1: 2.4, m2: 3.4, m3: 1.8, m4: 2.2, m5: 3.5, m6: 2.2, m7: 1.6, m8: 2.1, m9: 2.2, m10: 2.1 } },
+  { company: 'Asimov', category: 'Egocentric human data', scores: { m1: 1.1, m2: 3.6, m3: 1.0, m4: 1.4, m5: 3.6, m6: 1.4, m7: 0.8, m8: 1.3, m9: 1.4, m10: 1.2 } },
+  { company: 'Build AI', category: 'Egocentric video dataset', scores: { m1: 0.5, m2: 2.5, m3: 0.8, m4: 0.5, m5: 2.0, m6: 0.6, m7: 0.5, m8: 0.6, m9: 0.5, m10: 0.4 } },
+  { company: 'Formant', category: 'Observability + fleet data', scores: { m1: 3.8, m2: 2.0, m3: 3.0, m4: 2.8, m5: 1.6, m6: 3.0, m7: 2.8, m8: 2.8, m9: 3.4, m10: 2.9 } },
+  { company: 'Neuracore', category: 'Robot data ops + training', scores: { m1: 3.6, m2: 2.0, m3: 2.8, m4: 2.9, m5: 1.6, m6: 2.9, m7: 3.0, m8: 3.0, m9: 3.3, m10: 2.7 } },
+  { company: 'Rerun', category: 'Data platform / visualization', scores: { m1: 3.4, m2: 1.9, m3: 3.1, m4: 2.2, m5: 1.5, m6: 2.6, m7: 3.2, m8: 2.5, m9: 3.0, m10: 2.6 } },
+  { company: 'Foxglove', category: 'Observability / data mgmt', scores: { m1: 3.2, m2: 1.9, m3: 2.6, m4: 2.2, m5: 1.5, m6: 2.5, m7: 2.5, m8: 2.3, m9: 2.9, m10: 2.4 } },
+  { company: 'Orbifold AI', category: 'Multimodal curation', scores: { m1: 3.4, m2: 1.9, m3: 3.0, m4: 2.6, m5: 1.8, m6: 3.1, m7: 3.3, m8: 2.9, m9: 3.2, m10: 3.0 } },
+  { company: 'Nominal', category: 'Industrial data stack', scores: { m1: 2.9, m2: 1.7, m3: 2.5, m4: 1.9, m5: 1.6, m6: 2.8, m7: 2.4, m8: 2.0, m9: 2.9, m10: 2.9 } },
+  { company: 'Roboto AI', category: 'Robot data analytics', scores: { m1: 3.2, m2: 1.9, m3: 2.6, m4: 2.2, m5: 1.5, m6: 2.5, m7: 2.5, m8: 2.3, m9: 2.9, m10: 2.4 } },
+  { company: 'NVIDIA Isaac/Cosmos', category: 'Synthetic + world models', scores: { m1: 2.6, m2: 1.7, m3: 2.9, m4: 2.0, m5: 1.4, m6: 2.1, m7: 3.6, m8: 2.3, m9: 2.7, m10: 2.2 } },
+  { company: 'Applied Intuition', category: 'Synthetic data / sim', scores: { m1: 2.2, m2: 1.6, m3: 2.6, m4: 1.6, m5: 1.2, m6: 1.7, m7: 3.0, m8: 1.9, m9: 2.0, m10: 1.9 } },
+  { company: 'Shadow Robot', category: 'Dexterous capture hardware', scores: { m1: 3.2, m2: 2.3, m3: 2.2, m4: 3.6, m5: 2.4, m6: 2.4, m7: 2.4, m8: 3.3, m9: 2.7, m10: 2.1 } },
+];
+
+// ── V3: Key takeaways ──
+export const v3Takeaways = [
+  'Human-video methods (M2, M5) are where new specialist vendors appear fastest — Build AI, Asimov, Mecka, Toloka, Scale AI, micro1',
+  'Imitation/VLA/diffusion methods (M1, M4, M6, M8) still depend on paired robot trajectories — DeepReach, Genrobot, Scale AI, micro1, Formant, Neuracore',
+  'World-model / sim-to-real methods (M3, M7) need long-horizon log pipelines + synthetic engines — NVIDIA, Applied Intuition, Anyverse, Cognata, Rerun, Formant',
+  'Dexterity is under-served without dedicated capture hardware — Shadow Robot (120-960 Hz glove), MANUS (ROS 2 streaming), HaptX/1HMX (72-DoF body/hand)',
+  'The market is splitting into three layers: raw collection, curation/observability, and synthetic/sim. Winners buy from all three.',
+];

@@ -16,6 +16,7 @@ import {
   egoVerseMetrics, egoScaleMetrics, timeline, winningFormula,
   frontierLabs, dataCompanyTiers, scalingLoop, e2eMethodRanks,
   keyBenchmarks, taskCalculations,
+  dataRegimes, methodDataReqs, companyFitMatrix, v3Takeaways,
   type PrivateCompany, type FrontierLab, type DataCompanyTier, type E2EMethodRank,
 } from '@/data/robotics';
 
@@ -56,6 +57,8 @@ export default function RoboticsPage() {
   const [selectedMethod, setSelectedMethod] = useState(0);
   const [companyView, setCompanyView] = useState<'public' | 'private'>('public');
   const [expandedAlpha, setExpandedAlpha] = useState<number | null>(null);
+  const [expandedMethodReq, setExpandedMethodReq] = useState<number | null>(null);
+  const [hoveredCell, setHoveredCell] = useState<{ row: number; col: number } | null>(null);
 
   const radarData = scoringMetrics.map(m => {
     const entry: Record<string, string | number> = { metric: m.short };
@@ -641,6 +644,224 @@ export default function RoboticsPage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ═══ V3: THREE DATA REGIMES ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="06c" title="Three Data Regimes" subtitle="All 10 learning methods fall into three data families. Each regime has different collection requirements, bottlenecks, and vendor ecosystems." />
+
+          <div className="grid md:grid-cols-3" style={{ gap: 'var(--space-lg)' }}>
+            {dataRegimes.map((regime, i) => (
+              <Reveal key={regime.family} delay={i * 0.1}>
+                <div style={{
+                  background: 'var(--surface-raised)', borderRadius: 2,
+                  border: '1px solid var(--ink-100)',
+                  borderLeft: `4px solid ${regime.color}`,
+                  padding: 'var(--space-lg)',
+                  display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)',
+                  height: '100%',
+                }}>
+                  <div className="font-display" style={{ fontSize: 'var(--text-base)', fontWeight: 700, color: 'var(--ink-950)' }}>{regime.family}</div>
+                  <div style={{
+                    fontSize: 'var(--text-xs)', fontFamily: 'monospace', fontWeight: 600,
+                    color: regime.color, padding: '2px 8px', background: 'var(--surface-sunken)',
+                    borderRadius: 2, alignSelf: 'flex-start',
+                  }}>{regime.methods}</div>
+                  <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-600)', lineHeight: 1.6, margin: 0 }}>{regime.whatToCollect}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ V3: METHOD → COMPANY MAP ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-6xl mx-auto">
+          <SectionHead num="06d" title="Method → Company Map" subtitle="For each of the 10 learning methods: core data needed, primary bottleneck, and the vendors that serve each layer. Click to expand." />
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+            {methodDataReqs.map((mdr, i) => (
+              <Reveal key={mdr.method} delay={i * 0.03}>
+                <div
+                  onClick={() => setExpandedMethodReq(expandedMethodReq === i ? null : i)}
+                  style={{
+                    borderBottom: '1px solid var(--ink-100)',
+                    padding: 'var(--space-md) 0',
+                    cursor: 'pointer',
+                    transition: 'background 0.1s',
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 'var(--space-md)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)', flex: 1, minWidth: 0 }}>
+                      <span className="font-display" style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--accent)', whiteSpace: 'nowrap' }}>{mdr.method}</span>
+                      <span style={{
+                        fontSize: 10, padding: '2px 8px', borderRadius: 2,
+                        background: 'var(--surface-sunken)', color: 'var(--ink-500)', whiteSpace: 'nowrap',
+                      }}>{mdr.family}</span>
+                    </div>
+                    <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', userSelect: 'none' }}>{expandedMethodReq === i ? '−' : '+'}</span>
+                  </div>
+
+                  <AnimatePresence>
+                    {expandedMethodReq === i && (
+                      <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} style={{ overflow: 'hidden' }}>
+                        <div style={{ paddingTop: 'var(--space-md)', display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
+                          <div>
+                            <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 4 }}>Core Data</div>
+                            <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-700)', lineHeight: 1.6, margin: 0 }}>{mdr.coreData}</p>
+                          </div>
+                          <div style={{ background: 'color-mix(in srgb, var(--danger) 8%, transparent)', padding: 'var(--space-sm) var(--space-md)', borderRadius: 2 }}>
+                            <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--danger)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 2 }}>Bottleneck</div>
+                            <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-700)', lineHeight: 1.5, margin: 0 }}>{mdr.bottleneck}</p>
+                          </div>
+                          <div className="grid md:grid-cols-3" style={{ gap: 'var(--space-sm)' }}>
+                            {[
+                              { label: 'Raw / Capture', vendors: mdr.rawVendors, color: 'var(--accent)' },
+                              { label: 'Infra / QA', vendors: mdr.infraVendors, color: 'var(--success)' },
+                              { label: 'Synthetic / Hardware', vendors: mdr.syntheticVendors, color: 'var(--warning)' },
+                            ].map(vg => (
+                              <div key={vg.label} style={{ background: 'var(--surface-sunken)', padding: 'var(--space-sm)', borderRadius: 2 }}>
+                                <div style={{ fontSize: 10, fontWeight: 600, color: vg.color, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 4 }}>{vg.label}</div>
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+                                  {vg.vendors.map(v => (
+                                    <span key={v} style={{ fontSize: 10, padding: '1px 6px', borderRadius: 2, background: 'var(--surface-raised)', color: 'var(--ink-600)', border: '1px solid var(--ink-100)' }}>{v}</span>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                          <div>
+                            <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 4 }}>Evidence Anchors</div>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+                              {mdr.evidenceAnchors.map(ea => (
+                                <span key={ea} style={{
+                                  fontSize: 'var(--text-xs)', padding: '2px 8px', borderRadius: 12,
+                                  background: 'var(--accent-subtle)', color: 'var(--accent)', fontWeight: 500,
+                                }}>{ea}</span>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ V3: 32-COMPANY FIT MATRIX HEATMAP ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)' }}>
+        <div className="max-w-6xl mx-auto">
+          <SectionHead num="06e" title="Company Fit Matrix" subtitle="17 companies scored 0-5 across all 10 learning methods. Darker = stronger fit. Hover for exact scores." />
+
+          <Reveal>
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 700 }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--ink-200)' }}>
+                    <th style={{ padding: '8px 10px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--ink-500)', position: 'sticky', left: 0, background: 'var(--surface-sunken)', zIndex: 1 }}>Company</th>
+                    {['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10'].map(m => (
+                      <th key={m} style={{ padding: '8px 6px', textAlign: 'center', fontSize: 10, fontWeight: 600, color: 'var(--ink-500)', letterSpacing: '0.05em' }}>{m}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {companyFitMatrix.map((row, ri) => (
+                    <tr key={row.company} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                      <td style={{
+                        padding: '6px 10px', fontSize: 'var(--text-xs)', fontWeight: 600, color: 'var(--ink-900)',
+                        position: 'sticky', left: 0, background: 'var(--surface-sunken)', zIndex: 1,
+                        whiteSpace: 'nowrap',
+                      }}>
+                        <div>{row.company}</div>
+                        <div style={{ fontSize: 9, fontWeight: 400, color: 'var(--ink-400)' }}>{row.category}</div>
+                      </td>
+                      {(['m1', 'm2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10'] as const).map((mk, ci) => {
+                        const score = row.scores[mk];
+                        const bg = score >= 4.0
+                          ? 'color-mix(in srgb, var(--accent) 40%, transparent)'
+                          : score >= 3.0
+                            ? 'color-mix(in srgb, var(--accent) 18%, transparent)'
+                            : 'color-mix(in srgb, var(--ink-200) 25%, transparent)';
+                        const isHovered = hoveredCell?.row === ri && hoveredCell?.col === ci;
+                        return (
+                          <td
+                            key={mk}
+                            onMouseEnter={() => setHoveredCell({ row: ri, col: ci })}
+                            onMouseLeave={() => setHoveredCell(null)}
+                            style={{
+                              padding: '6px 4px', textAlign: 'center', position: 'relative',
+                              background: bg, cursor: 'default', transition: 'background 0.15s',
+                            }}
+                          >
+                            <span style={{
+                              fontFamily: 'monospace', fontSize: 11, fontWeight: 600,
+                              color: score >= 4.0 ? 'var(--accent)' : score >= 3.0 ? 'var(--ink-700)' : 'var(--ink-400)',
+                            }}>
+                              {score.toFixed(1)}
+                            </span>
+                            {isHovered && (
+                              <div style={{
+                                position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
+                                background: 'var(--surface-raised)', border: '1px solid var(--ink-200)',
+                                borderRadius: 2, padding: '4px 8px', fontSize: 11, fontWeight: 600,
+                                color: 'var(--ink-900)', whiteSpace: 'nowrap', zIndex: 10,
+                                boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+                              }}>
+                                {row.company}: {mk.toUpperCase()} = {score.toFixed(1)}
+                              </div>
+                            )}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div style={{ display: 'flex', gap: 'var(--space-lg)', marginTop: 'var(--space-md)', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                <span style={{ width: 14, height: 14, borderRadius: 2, background: 'color-mix(in srgb, var(--accent) 40%, transparent)', display: 'inline-block' }} /> Strong fit (4.0+)
+              </span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                <span style={{ width: 14, height: 14, borderRadius: 2, background: 'color-mix(in srgb, var(--accent) 18%, transparent)', display: 'inline-block' }} /> Medium (3.0-3.9)
+              </span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                <span style={{ width: 14, height: 14, borderRadius: 2, background: 'color-mix(in srgb, var(--ink-200) 25%, transparent)', display: 'inline-block' }} /> Light (&lt;3.0)
+              </span>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ═══ V3: KEY TAKEAWAYS ═══ */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-5xl mx-auto">
+          <SectionHead num="06f" title="V3 Key Takeaways" subtitle="Five strategic insights from the method-company mapping." />
+
+          <Reveal>
+            <div style={{
+              borderLeft: '3px solid var(--accent)',
+              paddingLeft: 'var(--space-xl)',
+              display: 'flex', flexDirection: 'column', gap: 'var(--space-lg)',
+            }}>
+              {v3Takeaways.map((t, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-md)' }}>
+                  <span className="font-display" style={{
+                    fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--accent)', opacity: 0.4,
+                    minWidth: 24, lineHeight: 1.4,
+                  }}>{i + 1}</span>
+                  <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', lineHeight: 1.65, margin: 0 }}>{t}</p>
+                </div>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
 
