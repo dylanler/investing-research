@@ -244,6 +244,7 @@ export default function Home() {
           <Link href="/bottleneck" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Bottleneck</Link>
           <Link href="/companies" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Companies</Link>
           <Link href="/robotics" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Robotics</Link>
+          <Link href="/scaling" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Scaling</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -404,14 +405,14 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Two Perspectives</div>
+              }}>Four Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
             </div>
           </Reveal>
 
-          <div className="grid lg:grid-cols-3" style={{ gap: 'var(--space-lg)' }}>
+          <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
             <Reveal direction="left" delay={0.1}>
               <ParallaxLayer speed={0.8}>
                 <TiltCard
@@ -429,7 +430,7 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal delay={0.2}>
+            <Reveal direction="right" delay={0.15}>
               <ParallaxLayer speed={1.0}>
                 <TiltCard
                   href="/companies"
@@ -446,8 +447,8 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal direction="right" delay={0.3}>
-              <ParallaxLayer speed={1.2}>
+            <Reveal direction="left" delay={0.2}>
+              <ParallaxLayer speed={1.1}>
                 <TiltCard
                   href="/robotics"
                   label="Report III"
@@ -458,6 +459,23 @@ export default function Home() {
                     { label: 'Methods', value: '10' },
                     { label: 'Companies', value: '50' },
                     { label: 'EgoScale', value: '20,854h' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
+
+            <Reveal direction="right" delay={0.25}>
+              <ParallaxLayer speed={1.2}>
+                <TiltCard
+                  href="/scaling"
+                  label="Report IV"
+                  title="Structured Test-Time Scaling"
+                  subtitle="Why structure, verification, and recursion matter more than thinking longer. 100 companies, 16 scenarios, 5 novel RLM methods."
+                  accentColor="oklch(55% 0.12 25)"
+                  stats={[
+                    { label: 'Companies', value: '100' },
+                    { label: 'Scenarios', value: '16' },
+                    { label: 'RLM Methods', value: '5' },
                   ]}
                 />
               </ParallaxLayer>
@@ -478,7 +496,7 @@ export default function Home() {
               fontSize: 'var(--text-xs)', color: 'var(--accent)',
               letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)', textAlign: 'center',
-            }}>Key Findings Across Both Reports</div>
+            }}>Key Findings Across All Reports</div>
           </Reveal>
 
           <div className="grid md:grid-cols-3" style={{ gap: 0 }}>

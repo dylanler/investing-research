@@ -572,7 +572,7 @@ export default function ScalingPage() {
          CHAPTER 4: 2026-2036 Timeline
          ═══════════════════════════════════════════════════════════════ */}
       <Section sunken id="timeline">
-        <ChapterHeader num={4} title="2026\u20132036: A Decade of Disruption" />
+        <ChapterHeader num={4} title="2026 – 2036: A Decade of Disruption" />
         <div style={{ marginTop: 'var(--space-xl)' }}>
           <Prose>A year-by-year view of how the landscape evolves over the next decade. Scroll through the future.</Prose>
         </div>
