@@ -6,6 +6,21 @@ import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
 import { beneficiaryData } from '@/data/beneficiaries';
 
+function exchangeFromTicker(ticker: string): string {
+  if (ticker.endsWith('.T')) return 'TSE';
+  if (ticker.endsWith('.TW')) return 'TWSE';
+  if (ticker.endsWith('.KS')) return 'KRX';
+  if (ticker.endsWith('.HK')) return 'HKEX';
+  if (ticker.endsWith('.SW')) return 'SIX';
+  if (ticker.endsWith('.DE')) return 'XETRA';
+  if (ticker.endsWith('.F')) return 'FSE';
+  if (ticker.endsWith('.PA')) return 'Euronext';
+  if (ticker.endsWith('.L')) return 'LSE';
+  if (ticker.endsWith('.SS')) return 'SSE';
+  if (ticker.endsWith('.SZ')) return 'SZSE';
+  return 'NYSE/NASDAQ';
+}
+
 export default function BeneficiaryTables() {
   const [activeTab, setActiveTab] = useState(0);
   const category = beneficiaryData[activeTab];
@@ -145,6 +160,20 @@ export default function BeneficiaryTables() {
                               }}
                             >
                               {company.ticker}
+                            </span>
+                          )}
+                          {company.ticker && (
+                            <span
+                              style={{
+                                padding: '1px 5px',
+                                borderRadius: 3,
+                                fontSize: '10px',
+                                background: 'var(--ink-100)',
+                                color: 'var(--ink-500)',
+                                fontWeight: 500,
+                              }}
+                            >
+                              {exchangeFromTicker(company.ticker)}
                             </span>
                           )}
                         </div>

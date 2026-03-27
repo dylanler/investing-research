@@ -36,6 +36,21 @@ function Divider() {
   return <div style={{ height: 1, background: 'var(--ink-100)', margin: 'var(--space-3xl) 0' }} />;
 }
 
+function exchangeFromTicker(ticker: string): string {
+  if (ticker.endsWith('.T')) return 'TSE';
+  if (ticker.endsWith('.TW')) return 'TWSE';
+  if (ticker.endsWith('.KS')) return 'KRX';
+  if (ticker.endsWith('.HK')) return 'HKEX';
+  if (ticker.endsWith('.SW')) return 'SIX';
+  if (ticker.endsWith('.DE')) return 'XETRA';
+  if (ticker.endsWith('.F')) return 'FSE';
+  if (ticker.endsWith('.PA')) return 'Euronext';
+  if (ticker.endsWith('.L')) return 'LSE';
+  if (ticker.endsWith('.SS')) return 'SSE';
+  if (ticker.endsWith('.SZ')) return 'SZSE';
+  return 'NYSE/NASDAQ';
+}
+
 export default function RoboticsPage() {
   const { ref: heroRef, inView: heroInView } = useInView({ threshold: 0.3, triggerOnce: true });
   const [selectedMethod, setSelectedMethod] = useState<number | null>(null);
@@ -531,14 +546,18 @@ export default function RoboticsPage() {
                 <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                   <thead><tr style={{ borderBottom: '2px solid var(--ink-200)' }}>
                     <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Company</th>
-                    <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>{companyView === 'public' ? 'Ticker' : 'Country'}</th>
+                    {companyView === 'public' && <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Ticker</th>}
+                    <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Country</th>
+                    {companyView === 'public' && <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Exchange</th>}
                     <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>{companyView === 'public' ? 'Market Cap' : 'Valuation'}</th>
                     <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Alpha</th>
                   </tr></thead>
                   <tbody>{(companyView === 'public' ? publicCompanies : privateCompanies).map(c => (
                     <tr key={c.company} style={{ borderBottom: '1px solid var(--ink-100)' }}>
                       <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-900)' }}>{c.company}</td>
-                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--accent)' }}>{'ticker' in c ? c.ticker : (c as PrivateCompany).country}</td>
+                      {companyView === 'public' && <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--accent)' }}>{'ticker' in c ? c.ticker : ''}</td>}
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.country}</td>
+                      {companyView === 'public' && <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{'ticker' in c ? exchangeFromTicker(c.ticker) : ''}</td>}
                       <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontFamily: 'monospace', color: 'var(--ink-600)', textAlign: 'right' }}>{'marketCap' in c ? c.marketCap : (c as PrivateCompany).valuation}</td>
                       <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 700, color: c.alpha >= 100 ? 'var(--accent)' : 'var(--ink-600)', textAlign: 'right' }}>{c.alpha}</td>
                     </tr>

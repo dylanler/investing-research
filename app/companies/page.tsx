@@ -270,6 +270,7 @@ export default function CompaniesPage() {
                     { key: 'company' as SortKey, label: 'Company' },
                     { key: 'bucket' as SortKey, label: 'Sector' },
                     { key: 'country' as SortKey, label: 'Country' },
+                    { key: 'listing' as unknown as SortKey, label: 'Exchange' },
                     { key: 'ytdReturn' as SortKey, label: 'YTD %' },
                   ].map(col => (
                     <th
@@ -298,6 +299,7 @@ export default function CompaniesPage() {
                     </td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{SHORT_BUCKET[c.bucket] || c.bucket}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.country}</td>
+                    <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.listing}</td>
                     <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 600, fontSize: 'var(--text-sm)', color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)' }}>
                       {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}%
                     </td>

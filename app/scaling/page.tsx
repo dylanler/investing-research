@@ -42,6 +42,21 @@ function Reveal({ children, delay = 0, direction = 'up' }: {
   );
 }
 
+function exchangeFromTicker(ticker: string): string {
+  if (ticker.endsWith('.T')) return 'TSE';
+  if (ticker.endsWith('.TW')) return 'TWSE';
+  if (ticker.endsWith('.KS')) return 'KRX';
+  if (ticker.endsWith('.HK')) return 'HKEX';
+  if (ticker.endsWith('.SW')) return 'SIX';
+  if (ticker.endsWith('.DE')) return 'XETRA';
+  if (ticker.endsWith('.F')) return 'FSE';
+  if (ticker.endsWith('.PA')) return 'Euronext';
+  if (ticker.endsWith('.L')) return 'LSE';
+  if (ticker.endsWith('.SS')) return 'SSE';
+  if (ticker.endsWith('.SZ')) return 'SZSE';
+  return 'NYSE/NASDAQ';
+}
+
 /* ═══════════════════════════════════════════════════════════════
    Reusable: Prose paragraph
    ═══════════════════════════════════════════════════════════════ */
@@ -816,10 +831,12 @@ export default function ScalingPage() {
                   { key: 'rank', label: '#' },
                   { key: 'company', label: 'Company' },
                   { key: companyTab === 'public' ? 'ticker' : 'country', label: companyTab === 'public' ? 'Ticker' : 'Country' },
+                  { key: 'country', label: 'Country', showWhen: 'public' as const },
+                  { key: 'exchange', label: 'Exchange', showWhen: 'public' as const },
                   { key: 'bucket', label: 'Bucket' },
                   { key: companyTab === 'public' ? 'marketCapUsd' : 'funding', label: companyTab === 'public' ? 'Market Cap' : 'Funding' },
                   { key: 'whyFits', label: 'Why It Fits' },
-                ].map(col => (
+                ].filter(col => !('showWhen' in col) || col.showWhen === companyTab).map(col => (
                   <th
                     key={col.key}
                     onClick={() => handleSort(col.key)}
@@ -853,6 +870,8 @@ export default function ScalingPage() {
                       <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-500)', fontFamily: 'monospace', fontSize: 'var(--text-xs)' }}>
                         {pub ? pub.ticker : priv?.country}
                       </td>
+                      {pub && <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{pub.country}</td>}
+                      {pub && <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{exchangeFromTicker(pub.ticker)}</td>}
                       <td style={{ padding: 'var(--space-xs) var(--space-sm)' }}>
                         <span style={{
                           display: 'inline-block', padding: '1px 6px', borderRadius: 10,
@@ -869,7 +888,7 @@ export default function ScalingPage() {
                     <AnimatePresence>
                       {expandedCompany === i && (
                         <tr>
-                          <td colSpan={6} style={{ padding: 0 }}>
+                          <td colSpan={isPublic ? 8 : 6} style={{ padding: 0 }}>
                             <motion.div
                               initial={{ height: 0, opacity: 0 }}
                               animate={{ height: 'auto', opacity: 1 }}
