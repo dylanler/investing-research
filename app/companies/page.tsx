@@ -148,8 +148,8 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: 19.45, suffix: '%', label: 'Median YTD', sub: 'vs S&P 500' },
-              { val: 29.69, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
+              { val: 18.65, suffix: '%', label: 'Median YTD', sub: 'Updated Mar 27' },
+              { val: 28.45, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
                 <div className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>

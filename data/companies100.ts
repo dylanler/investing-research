@@ -1,5 +1,5 @@
 // Auto-generated from ai_gpu_buildout_100_company_analysis.xlsx
-// Source: GPT-5.4 analysis, March 2026. YTD returns estimated from Yahoo Finance.
+// Source: GPT-5.4 analysis, March 2026. YTD returns updated March 27, 2026 from Yahoo Finance/StockAnalysis.
 
 export interface Company100 {
   bucketRank: number;
@@ -431,7 +431,7 @@ export const companies100: Company100[] = [
     "role": "Leading-edge foundry and CoWoS",
     "directnessScore": 5,
     "chokepointScore": 5,
-    "ytdReturn": 37.5,
+    "ytdReturn": 14.4,
     "snapshot": "Packaging scarcity exposure. Strong ytd follow-through; watch leading-edge foundry and cowos execution and pricing.",
     "bullThesis": "If CoWoS and leading-edge packaging stay scarce, TSMC remains one of the cleanest toll-collector exposures because it captures both logic leadership and advanced integration value.",
     "neutralThesis": "Even with a slower AI tape, TSMC retains strategic importance because frontier logic, packaging, and customer concentration still make it the default manufacturing partner.",
@@ -488,7 +488,7 @@ export const companies100: Company100[] = [
     "role": "HBM supplier",
     "directnessScore": 5,
     "chokepointScore": 5,
-    "ytdReturn": 42,
+    "ytdReturn": 25.2,
     "snapshot": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm supplier execution and pricing.",
     "bullThesis": "If HBM remains the gating item for accelerators, Micron can keep gaining relevance through premium mix, execution, and tighter strategic positioning in AI memory.",
     "neutralThesis": "Micron Technology remains investable if HBM normalizes slowly, because AI memory still absorbs a larger share of system BOM than traditional server memory.",
@@ -583,7 +583,7 @@ export const companies100: Company100[] = [
     "role": "Optical transceivers and lasers",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": 202.5,
+    "ytdReturn": 179.6,
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transceivers and lasers execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Applied Optoelectronics should win because optical transceivers and lasers becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Applied Optoelectronics can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -621,7 +621,7 @@ export const companies100: Company100[] = [
     "role": "PCIe/CXL connectivity",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": -25,
+    "ytdReturn": -32.4,
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch pcie/cxl connectivity execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Astera Labs should win because pCIe/CXL connectivity becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Astera Labs can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -640,7 +640,7 @@ export const companies100: Company100[] = [
     "role": "Custom silicon and networking",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": -6.7,
+    "ytdReturn": -12.4,
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch custom silicon and networking execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Broadcom should win because custom silicon and networking becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Broadcom can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -659,7 +659,7 @@ export const companies100: Company100[] = [
     "role": "Optical transport and networking",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": 75,
+    "ytdReturn": 65.9,
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transport and networking execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Ciena should win because optical transport and networking becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Ciena can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -697,7 +697,7 @@ export const companies100: Company100[] = [
     "role": "High-speed connectivity and DSP",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": -25.4,
+    "ytdReturn": -32.0,
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch high-speed connectivity and dsp execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Credo Technology should win because high-speed connectivity and DSP becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Credo Technology can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -773,7 +773,7 @@ export const companies100: Company100[] = [
     "role": "Optical components and lasers",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": 101.7,
+    "ytdReturn": 90.7,
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical components and lasers execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Lumentum should win because optical components and lasers becomes more valuable in low-latency, lower-power interconnect architectures.",
     "neutralThesis": "Lumentum can still compound in a mixed environment because interconnect bandwidth per rack keeps rising even if AI capex growth becomes less explosive.",
@@ -1096,7 +1096,7 @@ export const companies100: Company100[] = [
     "role": "Lithography systems",
     "directnessScore": 4,
     "chokepointScore": 4,
-    "ytdReturn": 27.4,
+    "ytdReturn": 21.6,
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch lithography systems execution and pricing.",
     "bullThesis": "ASML works if AI-driven fab intensity stays high, because every serious expansion in leading-edge logic or memory ultimately reinforces lithography bottlenecks.",
     "neutralThesis": "ASML Holding can still be durable if AI pauses, because process control, contamination control, and replacement cycles remain mission-critical across the fab base.",
@@ -1666,7 +1666,7 @@ export const companies100: Company100[] = [
     "role": "GPU platform leader",
     "directnessScore": 5,
     "chokepointScore": 4,
-    "ytdReturn": -5.7,
+    "ytdReturn": -10.2,
     "snapshot": "Platform compute exposure. Negative ytd reset; watch gpu platform leader execution and pricing.",
     "bullThesis": "NVIDIA wins if AI spend remains platform-centric, because GPU leadership, CUDA lock-in, networking attach, and system software create stacked monetization layers.",
     "neutralThesis": "NVIDIA remains relevant even in a slower capex tape because compute remains the anchor spend and its ecosystem can monetize installed base utilization.",
@@ -1799,7 +1799,7 @@ export const companies100: Company100[] = [
     "role": "EDA software and IP",
     "directnessScore": 3,
     "chokepointScore": 2,
-    "ytdReturn": -7.8,
+    "ytdReturn": -18.5,
     "snapshot": "Design-validation exposure. Negative ytd reset; watch eda software and ip execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, Synopsys wins because eDA software and IP becomes a less optional part of bringing AI systems to production.",
     "neutralThesis": "Synopsys can still deliver acceptable results in a slower tape because validation, timing, and design software are sticky and often mission-critical.",
@@ -1933,40 +1933,10 @@ export interface BucketSummary {
 
 export const bucketSummary: BucketSummary[] = [
   {
-    "bucket": "Power, cooling & electrical",
-    "count": 13,
-    "medianYtd": 10.2,
-    "meanYtd": 14.6
-  },
-  {
     "bucket": "Advanced packaging & substrates",
     "count": 11,
     "medianYtd": 56.3,
-    "meanYtd": 57.1
-  },
-  {
-    "bucket": "HBM & AI memory",
-    "count": 3,
-    "medianYtd": 45.6,
-    "meanYtd": 47.2
-  },
-  {
-    "bucket": "Optical & high-speed networking",
-    "count": 17,
-    "medianYtd": 30.8,
-    "meanYtd": 56.3
-  },
-  {
-    "bucket": "Data-center shell & systems integration",
-    "count": 12,
-    "medianYtd": 3.3,
-    "meanYtd": 2.8
-  },
-  {
-    "bucket": "Fab tools & manufacturing inputs",
-    "count": 16,
-    "medianYtd": 26.7,
-    "meanYtd": 27.7
+    "meanYtd": 55.0
   },
   {
     "bucket": "Board-level power & passives",
@@ -1978,7 +1948,49 @@ export const bucketSummary: BucketSummary[] = [
     "bucket": "Compute silicon & IP",
     "count": 3,
     "medianYtd": -5.2,
-    "meanYtd": 4.8
+    "meanYtd": 3.3
+  },
+  {
+    "bucket": "Data-center shell & systems integration",
+    "count": 12,
+    "medianYtd": 3.3,
+    "meanYtd": 2.8
+  },
+  {
+    "bucket": "EDA, test & timing",
+    "count": 8,
+    "medianYtd": 15.2,
+    "meanYtd": 16.5
+  },
+  {
+    "bucket": "Fab tools & manufacturing inputs",
+    "count": 16,
+    "medianYtd": 25.1,
+    "meanYtd": 27.4
+  },
+  {
+    "bucket": "HBM & AI memory",
+    "count": 3,
+    "medianYtd": 45.6,
+    "meanYtd": 41.6
+  },
+  {
+    "bucket": "Optical & high-speed networking",
+    "count": 17,
+    "medianYtd": 30.8,
+    "meanYtd": 52.6
+  },
+  {
+    "bucket": "Power, cooling & electrical",
+    "count": 13,
+    "medianYtd": 10.2,
+    "meanYtd": 14.6
+  },
+  {
+    "bucket": "Storage & AI data platforms",
+    "count": 5,
+    "medianYtd": 33.7,
+    "meanYtd": 28.7
   }
 ];
 
@@ -2266,8 +2278,8 @@ export const overviewStats = {
   "universeSize": 100,
   "usNames": 41,
   "nonUsNames": 59,
-  "medianYtd": 19.45,
-  "meanYtd": 29.69,
+  "medianYtd": 18.65,
+  "meanYtd": 28.45,
   "highestBucket": "Advanced packaging & substrates",
   "lowestBucket": "Compute silicon & IP"
 };

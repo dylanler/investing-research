@@ -440,7 +440,7 @@ export default function Home() {
                   accentColor="var(--success)"
                   stats={[
                     { label: 'Companies', value: '100' },
-                    { label: 'Median YTD', value: '+19.5%' },
+                    { label: 'Median YTD', value: '+18.7%' },
                     { label: 'Risk Levels', value: '5' },
                   ]}
                 />
