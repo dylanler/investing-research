@@ -245,6 +245,7 @@ export default function Home() {
           <Link href="/companies" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Companies</Link>
           <Link href="/robotics" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Robotics</Link>
           <Link href="/scaling" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Scaling</Link>
+          <Link href="/analysis" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Analysis</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -405,7 +406,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Four Research Reports</div>
+              }}>Five Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -479,6 +480,25 @@ export default function Home() {
                   ]}
                 />
               </ParallaxLayer>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <div style={{ gridColumn: '1 / -1', maxWidth: 'calc(50% - var(--space-lg) / 2)', margin: '0 auto' }}>
+                <ParallaxLayer speed={1.3}>
+                  <TiltCard
+                    href="/analysis"
+                    label="Report V"
+                    title="Micron vs Palantir: Deep Analysis"
+                    subtitle="Hardware bottleneck meets workflow OS. 10-year scenario models, game theory matrices, and 10 adjacent trading baskets."
+                    accentColor="oklch(55% 0.12 40)"
+                    stats={[
+                      { label: 'Companies', value: '2 + baskets' },
+                      { label: 'Horizon', value: '10 years' },
+                      { label: 'Scenarios', value: '60' },
+                    ]}
+                  />
+                </ParallaxLayer>
+              </div>
             </Reveal>
           </div>
         </div>
