@@ -41,7 +41,7 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     companies: [
       { name: 'SK Hynix', ticker: '000660.KS', marketCap: '$450B', why: '62% HBM share. Primary Nvidia supplier. World-first HBM4 mass production.', isPublic: true },
       { name: 'Micron Technology', ticker: 'MU', marketCap: '$130B', why: '#2 HBM. Revenue >$53B. HBM target $100B by 2028.', isPublic: true },
-      { name: 'Samsung Electronics', ticker: '005930.KS', marketCap: '$350B', why: 'Largest DRAM producer. 50% HBM capacity surge in 2026.', isPublic: true },
+      { name: 'Samsung Electronics', ticker: '005930.KS', marketCap: '~$842B', why: 'Largest DRAM producer. 50% HBM capacity surge in 2026.', isPublic: true },
       { name: 'Rambus Inc.', ticker: 'RMBS', marketCap: '$10B', why: 'Leading HBM controller IP. First HBM4E controller at 4.1TB/s.', isPublic: true },
       { name: 'Advantest Corp.', ticker: '6857.T', marketCap: '$30B', why: 'Dominant memory test equipment. Critical for HBM4 known-good-die testing.', isPublic: true },
       { name: 'JSR Corporation', ticker: undefined, marketCap: '$9B (private)', why: 'Leading photoresist. Japan govt took private to secure supply chain.', isPublic: false },
@@ -111,8 +111,8 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2027-2030',
     icon: '🧠',
     companies: [
-      { name: 'Nvidia', ticker: 'NVDA', marketCap: '$3.5T', why: 'Dominant AI GPU (86-92%). $215.9B FY2026. $500B+ backlog.', isPublic: true },
-      { name: 'Broadcom', ticker: 'AVGO', marketCap: '$1T+', why: '70% custom ASIC market. AI backlog >$70B. Google TPU partner.', isPublic: true },
+      { name: 'Nvidia', ticker: 'NVDA', marketCap: '~$4.1T', why: 'Dominant AI GPU (86-92%). $215.9B FY2026. $500B+ backlog.', isPublic: true },
+      { name: 'Broadcom', ticker: 'AVGO', marketCap: '~$1.5T', why: '70% custom ASIC market. AI backlog >$70B. Google TPU partner.', isPublic: true },
       { name: 'AMD', ticker: 'AMD', marketCap: '$200B', why: '#2 AI GPU. Aggressive N2 bet. Major OpenAI deal.', isPublic: true },
       { name: 'Synopsys', ticker: 'SNPS', marketCap: '$84B', why: '#1 EDA. AI-driven suite cuts 2nm design cycles ~12 months.', isPublic: true },
       { name: 'Cadence Design', ticker: 'CDNS', marketCap: '$80B', why: '#2 EDA. AI reinforcement learning for chip design. Duopoly.', isPublic: true },
@@ -166,7 +166,7 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     icon: '⚙️',
     companies: [
       { name: 'TSMC', ticker: 'TSM', marketCap: '$1.75T', why: '60%+ foundry share. Only source for leading-edge 2nm/3nm at volume.', isPublic: true },
-      { name: 'Samsung Foundry', ticker: '005930.KS', marketCap: '$350B (group)', why: '#2 foundry. GAA 2nm in development. Key TSMC alternative.', isPublic: true },
+      { name: 'Samsung Foundry', ticker: '005930.KS', marketCap: '~$842B (group)', why: '#2 foundry. GAA 2nm in development. Key TSMC alternative.', isPublic: true },
       { name: 'GlobalFoundries', ticker: 'GFS', marketCap: '$25B', why: 'Leading mature-node. Essential for power/analog/connectivity.', isPublic: true },
       { name: 'Shin-Etsu Chemical', ticker: '4063.T', marketCap: '$80B', why: '#1 silicon wafer maker (29.4% share). Adding 200K 300mm wafers/mo.', isPublic: true },
       { name: 'Entegris', ticker: 'ENTG', marketCap: '$18B', why: 'Specialty chemicals, filters, materials. Critical purity enabler.', isPublic: true },

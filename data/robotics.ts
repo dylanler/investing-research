@@ -120,15 +120,15 @@ export interface AlphaCompany {
 }
 
 export const topAlpha: AlphaCompany[] = [
-  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '$4.52T', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
-  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '$1.53T', keyFact: 'FSD→Optimus transfer, highest variance play' },
+  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$4.1T', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
+  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.36T', keyFact: 'FSD→Optimus transfer, highest variance play' },
   { rank: 3, company: 'Figure AI', type: 'Private', alpha: 111, valuation: '$39B', keyFact: 'Helix 02, BMW: 1,250+ hrs, 90K+ parts handled, $2B raised' },
-  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '$3.73T', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
+  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$3.4T', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
   { rank: 5, company: 'Skild AI', type: 'Private', alpha: 107, valuation: '>$14B', keyFact: 'Omni-bodied intelligence, $1.7B+ raised' },
-  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '$2.28T', keyFact: 'Warehouse robotics at scale + Digit deployment' },
+  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.2T', keyFact: 'Warehouse robotics at scale + Digit deployment' },
   { rank: 7, company: 'Scale AI', type: 'Private', alpha: 105, valuation: 'up to $25B', keyFact: 'Robotics data labeling + EgoVerse partner' },
   { rank: 8, company: 'Physical Intelligence', type: 'Private', alpha: 100, valuation: '$5.6B', keyFact: 'pi0: 10,000+ hrs robot data, $600M raised' },
-  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '$3.01T', keyFact: 'Azure robotics + OpenAI robotics alignment' },
+  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$2.76T', keyFact: 'Azure robotics + OpenAI robotics alignment' },
   { rank: 10, company: '1X Technologies', type: 'Private', alpha: 99, valuation: '>$125M raised', keyFact: '14B world model, 900h human + 70h robot data' },
 ];
 
@@ -142,14 +142,14 @@ export interface PublicCompany {
 }
 
 export const publicCompanies: PublicCompany[] = [
-  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '$4.52T', alpha: 111 },
-  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '$1.53T', alpha: 111 },
-  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '$3.73T', alpha: 108 },
-  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '$2.28T', alpha: 105 },
-  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '$3.01T', alpha: 99 },
+  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$4.1T', alpha: 111 },
+  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.36T', alpha: 111 },
+  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$3.4T', alpha: 108 },
+  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.2T', alpha: 105 },
+  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$2.76T', alpha: 99 },
   { company: 'Symbotic', ticker: 'SYM', country: 'US', marketCap: '$30.7B', alpha: 97 },
   { company: 'Hon Hai (Foxconn)', ticker: '2317.TW', country: 'Taiwan', marketCap: '$94B', alpha: 97 },
-  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '$1.58T', alpha: 92 },
+  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$1.8T', alpha: 92 },
   { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '$175B', alpha: 86 },
   { company: 'Hyundai Motor', ticker: '005380.KS', country: 'South Korea', marketCap: '$85B', alpha: 86 },
   { company: 'UBTECH Robotics', ticker: '9880.HK', country: 'China', marketCap: '$6.83B', alpha: 85 },

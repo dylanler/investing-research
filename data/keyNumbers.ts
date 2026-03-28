@@ -16,8 +16,8 @@ export const keyNumbers: KeyStat[] = [
   { value: 58, prefix: '$', suffix: 'B', label: 'HBM Market (2026)', sublabel: '+53% YoY growth', color: '#f59e0b' },
   { value: 35, suffix: 'x', label: 'ASML Multiplier', sublabel: '$400M tool → $14.3B downstream value', color: '#ec4899' },
   { value: 96, suffix: ' GW', label: 'Global DC Capacity', sublabel: 'By end of 2026 (nearly 2x from 2023)', color: '#14b8a6' },
-  { value: 500, prefix: '$', suffix: 'B+', label: 'Nvidia Order Backlog', sublabel: 'Blackwell + Rubin GPUs', color: '#f97316' },
-  { value: 700, suffix: 'K', label: 'CoWoS Wafers Needed', sublabel: 'Nvidia alone in 2026 (fully booked)', color: '#8b5cf6' },
+  { value: 1000, prefix: '$', suffix: 'B', label: 'Nvidia Revenue Visibility', sublabel: 'Through 2027 (Jensen Huang)', color: '#f97316' },
+  { value: 850, suffix: 'K', label: 'CoWoS Wafers Needed', sublabel: 'Nvidia alone in 2026 (DigiTimes est.)', color: '#8b5cf6' },
   { value: 140, suffix: '+', label: 'EUV Tools Installed', sublabel: 'Global installed base (not 250-300)', color: '#ef4444' },
   { value: 92, suffix: '%', label: 'Nvidia GPU Share', sublabel: 'AI accelerator market (2025)', color: '#22c55e' },
 ];
