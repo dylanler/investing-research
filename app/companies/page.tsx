@@ -40,6 +40,19 @@ const SHORT_BUCKET: Record<string, string> = {
 type SortKey = 'ytdReturn' | 'company' | 'bucket' | 'country';
 type SortDir = 'asc' | 'desc';
 
+function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-40px' }}
+      transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
 export default function CompaniesPage() {
   const { ref: heroRef, inView: heroInView } = useInView({ threshold: 0.3, triggerOnce: true });
   const { ref: chartRef, inView: chartInView } = useInView({ threshold: 0.2, triggerOnce: true });
@@ -103,7 +116,14 @@ export default function CompaniesPage() {
       </div>
 
       {/* HERO */}
-      <section ref={heroRef} style={{ padding: 'var(--space-5xl) var(--space-lg) var(--space-3xl)' }}>
+      <section ref={heroRef} style={{ padding: 'var(--space-5xl) var(--space-lg) var(--space-3xl)', position: 'relative' }}>
+        <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
+          {Array.from({ length: 25 }).map((_, i) => (
+            <motion.div key={i} style={{ position: 'absolute', left: `${Math.random() * 100}%`, top: `${Math.random() * 100}%`, width: 2, height: 2, borderRadius: '50%', background: 'var(--accent)' }}
+              animate={{ opacity: [0.05, 0.25, 0.05], scale: [1, 1.5, 1] }}
+              transition={{ duration: 3 + Math.random() * 4, repeat: Infinity, delay: Math.random() * 3 }} />
+          ))}
+        </div>
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
@@ -142,6 +162,12 @@ export default function CompaniesPage() {
           </motion.div>
         </div>
       </section>
+
+      <Reveal>
+        <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, maxWidth: 640, margin: '0 auto var(--space-xl)', textAlign: 'center' }}>
+          The AI/GPU buildout is not a single trade. It's a cascading supply chain where each layer — from silicon wafers to cooling systems — creates winners and losers. This report maps 100 companies across 10 sectors to answer a simple question: <strong>where in the stack does value accrue?</strong>
+        </p>
+      </Reveal>
 
       {/* BUCKET PERFORMANCE */}
       <section ref={chartRef} style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
@@ -230,6 +256,14 @@ export default function CompaniesPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto" style={{ padding: 'var(--space-xl) var(--space-lg)' }}>
+        <Reveal>
+          <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, maxWidth: 640 }}>
+            The scatter plot above reveals a clear pattern: <strong>companies with higher chokepoint exposure tend to outperform</strong>, regardless of sector. This makes sense — when demand exceeds supply, the company sitting on the bottleneck captures outsized value. The table below lets you explore all 100 companies with full filtering and sorting.
+          </p>
+        </Reveal>
+      </div>
 
       {/* COMPANY TABLE */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
@@ -348,6 +382,19 @@ export default function CompaniesPage() {
                       </div>
                     </div>
 
+                    {c.secondOrder && (
+                      <div style={{ marginTop: 'var(--space-lg)', borderTop: '1px solid var(--ink-100)', paddingTop: 'var(--space-md)' }}>
+                        <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--ink-500)', marginBottom: 'var(--space-xs)' }}>2nd Order Effect</div>
+                        <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', margin: 0, lineHeight: 1.6 }}>{c.secondOrder}</p>
+                      </div>
+                    )}
+                    {c.thirdOrder && (
+                      <div style={{ marginTop: 'var(--space-md)' }}>
+                        <div style={{ fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--ink-500)', marginBottom: 'var(--space-xs)' }}>3rd Order Effect</div>
+                        <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', margin: 0, lineHeight: 1.6 }}>{c.thirdOrder}</p>
+                      </div>
+                    )}
+
                     <div style={{ marginTop: 'var(--space-lg)', padding: 'var(--space-md)', background: 'var(--surface-sunken)', borderRadius: 2, fontSize: 'var(--text-xs)' }}>
                       <strong style={{ color: 'var(--ink-700)' }}>Invalidation:</strong>{' '}
                       <span style={{ color: 'var(--ink-500)' }}>{c.invalidation}</span>
@@ -359,6 +406,14 @@ export default function CompaniesPage() {
           </AnimatePresence>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto" style={{ marginBottom: 'var(--space-xl)' }}>
+        <Reveal>
+          <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, maxWidth: 640 }}>
+            How you weight exposure depends on your risk tolerance. Very conservative portfolios anchor to proven infrastructure names like TSMC and Eaton. Higher-risk baskets lean into optics, substrates, and connectivity plays where a single design win can move the stock 50%+. Below are 15 illustrative combinations across 5 risk levels.
+          </p>
+        </Reveal>
+      </div>
 
       {/* PORTFOLIO BUILDER */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)' }}>
@@ -417,6 +472,22 @@ export default function CompaniesPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* KEY INSIGHT */}
+      <section style={{ padding: 'var(--space-2xl) var(--space-lg)' }}>
+        <div className="max-w-4xl mx-auto">
+          <Reveal>
+            <blockquote style={{ borderLeft: '3px solid var(--accent)', paddingLeft: 'var(--space-xl)', margin: 0 }}>
+              <p className="font-display" style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-900)', lineHeight: 1.55, fontStyle: 'italic', margin: 0 }}>
+                &ldquo;The highest-median-return bucket is advanced packaging and substrates at +57%. The lowest is compute silicon (Nvidia, AMD) at -5.2%. The market is rotating from the obvious GPU trade into the supply chain that feeds it.&rdquo;
+              </p>
+              <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
+                Source: Yahoo Finance market-cap snapshots, March 2026 vs December 2025
+              </cite>
+            </blockquote>
+          </Reveal>
         </div>
       </section>
 

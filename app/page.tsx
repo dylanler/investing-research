@@ -499,16 +499,20 @@ export default function Home() {
             }}>Key Findings Across All Reports</div>
           </Reveal>
 
-          <div className="grid md:grid-cols-3" style={{ gap: 0 }}>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ gap: 0 }}>
             {[
               { num: '01', title: 'The bottleneck shifts every 2\u20133 years', body: 'Memory & packaging (2026\u201327) \u2192 Power (2028) \u2192 Fabs & EUV (2029\u201330) \u2192 Geopolitics (2031+). Each phase creates different winners.', source: 'IEA, ASML, FERC, SIA/BCG' },
               { num: '02', title: 'Packaging & optics lead YTD', body: 'Advanced packaging +57% median, optics +31%. Compute silicon (Nvidia, AMD) lags at -5.2% as names consolidate after the 2025 run.', source: 'Yahoo Finance, Mar 2026' },
               { num: '03', title: 'ASML is the most asymmetric trade', body: 'A $400M EUV tool enables $14.3B downstream value. ASML captures <3% of what it creates. Pricing power inflects 2028\u20132032.', source: 'ASML 2025 Annual Report' },
+              { num: '04', title: 'Robotics is escaping the teleop trap', body: 'EgoScale: 20,854h of human video with R\u00b2=0.9983 scaling law. DreamDojo: 44,711h. That\u2019s 89.4x Figure\u2019s teleop data. The scaling substrate is shifting from robot demos to human video.', source: 'NVIDIA EgoScale, DreamDojo (Feb 2026)' },
+              { num: '05', title: 'Structure beats brute-force thinking', body: 'Structured test-time scaling \u2014 recursion, context isolation, verification \u2014 outperforms naive chain-of-thought. Value shifts to verifier infrastructure and recursive training flywheels.', source: 'arXiv: RLM, MiroThinker-H1, ATTS' },
+              { num: '06', title: '300+ companies mapped across 4 reports', body: '100 GPU buildout equities, 50 robotics companies, 100 test-time scaling names. Each scored on chokepoint exposure, scaling alignment, or method fit.', source: 'All reports combined' },
             ].map((item, i) => (
               <Reveal key={item.num} delay={i * 0.12}>
                 <div style={{
                   padding: 'var(--space-lg) var(--space-lg)',
-                  borderRight: i < 2 ? '1px solid var(--ink-100)' : 'none',
+                  borderRight: (i + 1) % 3 !== 0 ? '1px solid var(--ink-100)' : 'none',
+                  borderBottom: i < 3 ? '1px solid var(--ink-100)' : 'none',
                   height: '100%',
                 }}>
                   <div className="font-display" style={{
@@ -531,11 +535,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─── HOW TO READ ─── */}
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-4xl mx-auto">
+          <Reveal>
+            <div style={{ textAlign: 'center', marginBottom: 'var(--space-2xl)' }}>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>How to Navigate</div>
+              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Four Reports, One Thesis</h2>
+            </div>
+          </Reveal>
+          <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
+            {[
+              { icon: '\u26A1', title: 'Start with the Bottleneck', desc: 'Report I maps the physical constraints — EUV tools, power grids, memory fabs — that limit how fast AI can scale. This is the macro framework.' },
+              { icon: '\uD83C\uDFED', title: 'Then the Supply Chain', desc: 'Report II zooms into 100 public companies across 10 sectors. Filter by sector, sort by YTD, and explore bull/bear theses for each name.' },
+              { icon: '\uD83E\uDD16', title: 'Then Robotics', desc: 'Report III asks: can robots learn from human video instead of expensive teleop? 10 methods scored, 5 labs profiled, 50 companies ranked.' },
+              { icon: '\uD83E\uDDE0', title: 'Then Scaling Intelligence', desc: 'Report IV examines whether AI can get smarter by structuring its own thinking. 5 novel RLM methods, 16 scenarios, 100 companies.' },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={i * 0.08}>
+                <div style={{ display: 'flex', gap: 'var(--space-md)', alignItems: 'flex-start' }}>
+                  <div style={{ fontSize: 'var(--text-2xl)', lineHeight: 1, marginTop: 2 }}>{card.icon}</div>
+                  <div>
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-900)', marginBottom: 4 }}>{card.title}</div>
+                    <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', lineHeight: 1.6, margin: 0 }}>{card.desc}</p>
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── FOOTER ─── */}
       <footer style={{ padding: 'var(--space-2xl) var(--space-lg)', borderTop: '1px solid var(--ink-100)' }}>
         <div className="max-w-5xl mx-auto" style={{ textAlign: 'center' }}>
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', marginBottom: 'var(--space-xs)' }}>
-            Research compiled from Dylan Patel (SemiAnalysis), IEA, ASML, TSMC, FERC, and SIA/BCG.
+            Research compiled from Dylan Patel (SemiAnalysis), IEA, ASML, TSMC, FERC, SIA/BCG, NVIDIA EgoScale, arXiv, and public filings.
           </p>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
             Not financial advice. Scenario-based estimates. March 2026.
