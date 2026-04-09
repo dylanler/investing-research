@@ -921,7 +921,10 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <Tooltip
                     cursor={{ strokeDasharray: '3 3' }}
                     contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
-                    formatter={(value: number, name: string) => [name === 'return90' ? formatPercent(value) : value.toFixed(1), name]}
+                    formatter={(value, name) => {
+                      const numericValue = typeof value === 'number' ? value : Number(value ?? 0);
+                      return [name === 'return90' ? formatPercent(numericValue) : numericValue.toFixed(1), String(name)];
+                    }}
                     labelFormatter={(_, payload) => {
                       const item = payload?.[0]?.payload;
                       return item ? `${item.company} (${item.ticker})` : '';
@@ -972,7 +975,10 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <YAxis dataKey="ticker" type="category" tick={{ fill: 'var(--ink-600)', fontSize: 12 }} width={80} />
                   <Tooltip
                     contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
-                    formatter={(value: number) => [`${value.toFixed(1)}%`, 'Weight']}
+                    formatter={(value) => {
+                      const numericValue = typeof value === 'number' ? value : Number(value ?? 0);
+                      return [`${numericValue.toFixed(1)}%`, 'Weight'];
+                    }}
                     labelFormatter={(_, payload) => payload?.[0]?.payload?.company ?? ''}
                   />
                   <Bar dataKey="weight" radius={[0, 6, 6, 0]}>
