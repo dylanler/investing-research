@@ -247,6 +247,7 @@ export default function Home() {
           <Link href="/scaling" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Scaling</Link>
           <Link href="/analysis" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Analysis</Link>
           <Link href="/ondas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Ondas</Link>
+          <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -306,14 +307,14 @@ export default function Home() {
               fontSize: 'var(--text-lg)', color: 'var(--ink-500)',
               lineHeight: 1.65, maxWidth: 560, margin: '0 auto var(--space-2xl)',
             }}>
-              Two deep-dive reports on who profits from the semiconductor bottleneck —
-              from EUV physics to 100 companies building the infrastructure.
+              Seven research reports spanning semiconductor bottlenecks, robotics,
+              inference scaling, and cross-border equity signals.
             </p>
           </Reveal>
 
           <Reveal delay={0.55}>
             <div className="flex flex-wrap justify-center" style={{ gap: 'var(--space-xl)', fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
-              {['SemiAnalysis \u00d7 Dwarkesh', 'IEA \u00b7 ASML \u00b7 FERC', '100 companies tracked'].map((t, i) => (
+              {['SemiAnalysis \u00d7 Dwarkesh', 'IEA \u00b7 ASML \u00b7 FERC', '50 X/Twitter stocks tracked'].map((t, i) => (
                 <span key={i} style={{ padding: '4px 12px', border: '1px solid var(--ink-100)', borderRadius: 20 }}>{t}</span>
               ))}
             </div>
@@ -407,7 +408,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Six Research Reports</div>
+              }}>Seven Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -516,6 +517,23 @@ export default function Home() {
                 />
               </ParallaxLayer>
             </Reveal>
+
+            <Reveal direction="left" delay={0.4}>
+              <ParallaxLayer speed={1.5}>
+                <TiltCard
+                  href="/signals"
+                  label="Report VII"
+                  title="X Signals, AI Supply Chains, and Hormuz"
+                  subtitle="A 50-stock reconstruction of what Zephyr and Jukan have been discussing, with risk-ranked portfolios, geopolitical scenarios, and inference-trend impact."
+                  accentColor="oklch(62% 0.16 215)"
+                  stats={[
+                    { label: 'Stocks', value: '50' },
+                    { label: 'Non-US', value: '32' },
+                    { label: 'Horizons', value: '4' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
           </div>
         </div>
       </section>
@@ -605,7 +623,7 @@ export default function Home() {
       <footer style={{ padding: 'var(--space-2xl) var(--space-lg)', borderTop: '1px solid var(--ink-100)' }}>
         <div className="max-w-5xl mx-auto" style={{ textAlign: 'center' }}>
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', marginBottom: 'var(--space-xs)' }}>
-            Research compiled from Dylan Patel (SemiAnalysis), IEA, ASML, TSMC, FERC, SIA/BCG, NVIDIA EgoScale, arXiv, and public filings.
+            Research compiled from SemiAnalysis, IEA, ASML, TSMC, FERC, SIA/BCG, NVIDIA EgoScale, public X/Twitter posts, and filings.
           </p>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
             Not financial advice. Scenario-based estimates. March 2026.

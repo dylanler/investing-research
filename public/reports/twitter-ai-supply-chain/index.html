@@ -1,0 +1,2216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twitter AI Supply Chain Stock Report</title>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --paper: #fffdf8;
+      --ink: #1f1f1a;
+      --muted: #5d5a52;
+      --accent: #184a45;
+      --accent-2: #8f5b2e;
+      --line: #d7d0c3;
+      --table: #faf6ed;
+    }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(24,74,69,0.08), transparent 28%),
+        radial-gradient(circle at top right, rgba(143,91,46,0.08), transparent 22%),
+        linear-gradient(180deg, #f7f3eb 0%, #efe9db 100%);
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .hero {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 28px 32px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+      margin-bottom: 28px;
+    }
+    h1, h2, h3 {
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+    h1 {
+      font-size: 2.6rem;
+      letter-spacing: -0.03em;
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin-top: 26px;
+      color: var(--accent);
+    }
+    h3 {
+      font-size: 1.15rem;
+      margin-top: 20px;
+      color: var(--accent-2);
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.55;
+      color: var(--ink);
+    }
+    .lede {
+      font-size: 1.08rem;
+      max-width: 82ch;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin: 18px 0 6px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 16px;
+    }
+    .metric {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    .section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 24px 28px;
+      margin-bottom: 22px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      background: var(--table);
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #efe7d8;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--line);
+      background: white;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 920px) {
+      .grid, .two-col { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>What Zephyr and Jukan Have Been Saying About AI, Semis, Memory, and the War Premium</h1>
+      <p class="lede">
+        This report reconstructs the public, last-90-day discussion set for <code>@zephyr_z9</code> and <code>@jukan05</code>,
+        then turns that into a 50-stock investor universe. Because unauthenticated X access is incomplete, I separate
+        <strong>direct in-range mentions</strong> from <strong>same-thread supply-chain expansions</strong> instead of pretending the public surface is perfect.
+      </p>
+      <div class="grid">
+        <div class="card"><div class="metric">50</div><div>Stocks in the final universe</div></div>
+        <div class="card"><div class="metric">30</div><div>Direct in-range public-stock mentions</div></div>
+        <div class="card"><div class="metric">32</div><div>Non-US stocks</div></div>
+        <div class="card"><div class="metric">6.4/10</div><div>Average risk score</div></div>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="metric">4.1/10</div><div>Average Hormuz sensitivity</div></div>
+        <div class="card"><div class="metric">7.2/10</div><div>Average AI trend sensitivity</div></div>
+        <div class="card"><div class="metric">4</div><div>Memory and controller names</div></div>
+        <div class="card"><div class="metric">13</div><div>Packaging, substrate, and PCB names</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Bottom Line</h2>
+      <p>
+        The two accounts are mostly talking about one connected system: <strong>AI infrastructure</strong>. That means GPUs and custom silicon,
+        HBM and NAND, foundry and advanced packaging, high-speed interconnects, and the Asian substrate / PCB / systems stack that has to make the
+        hardware real. The bullish case across the universe is simple: demand for training and inference is still outrunning the supply chain's
+        ability to clear bottlenecks. The bearish case is equally simple: a large part of the market is now pricing in a straight-line AI capex
+        path and a smooth geopolitical backdrop, and neither is guaranteed.
+      </p>
+      <p>
+        The report's practical stance is that the <strong>best risk-adjusted names are tollbooths</strong> like TSMC, Samsung, SK hynix,
+        AMAT, ASML, and the hyperscaler balance sheets, while the highest-upside but more fragile trades sit in memory controllers, hybrid bonding,
+        opticals, and smaller Asian PCB / systems names.
+      </p>
+      <ul><li><strong>Compute Silicon:</strong> 9 stocks</li><li><strong>Memory:</strong> 4 stocks</li><li><strong>Controller Storage:</strong> 3 stocks</li><li><strong>Hyperscaler:</strong> 3 stocks</li><li><strong>Equipment:</strong> 9 stocks</li><li><strong>Networking Optics:</strong> 2 stocks</li><li><strong>Software Incumbent:</strong> 1 stocks</li><li><strong>Industrial Battery:</strong> 1 stocks</li><li><strong>Foundry Packaging:</strong> 5 stocks</li><li><strong>Substrate Pcb:</strong> 8 stocks</li><li><strong>Systems Odm:</strong> 5 stocks</li></ul>
+    </section>
+
+    <section class="section">
+      <h2>Method And Confidence</h2>
+      <p>
+        Direct X search is login-gated, and the public profile pages surface only a subset of posts. The practical reconstruction path was:
+        search-engine discovery of status URLs, recover the text with public X oEmbed / mirrored renderers, and then connect the in-range tweet text
+        to public-company symbols. I treat that recovered set as the <strong>A-tier</strong>. Then I add <strong>B-tier</strong> names when the stock is named
+        in the same in-range thread, attached note, or reliable public quote of the thread. Finally, I add <strong>C-tier</strong> names only when they are
+        the first-order public equities inside the exact supply-chain node the tweet is discussing.
+      </p>
+      <p class="small">
+        That is the only honest way to hit a 50-name universe without pretending that X's public surface is exhaustive. If you want literal direct mentions only,
+        use the A-tier subset.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Charts</h2>
+      <div class="two-col">
+        <div><img src="data/twitter_ai_stock_report_2026_04_09/charts/country_counts.png" alt="Country counts"></div>
+        <div><img src="data/twitter_ai_stock_report_2026_04_09/charts/category_counts.png" alt="Category counts"></div>
+      </div>
+      <div class="two-col" style="margin-top:20px;">
+        <div><img src="data/twitter_ai_stock_report_2026_04_09/charts/risk_return_scatter.png" alt="Risk and return scatter"></div>
+        <div><img src="data/twitter_ai_stock_report_2026_04_09/charts/hormuz_sensitivity.png" alt="Hormuz sensitivity"></div>
+      </div>
+      <div style="margin-top:20px;"><img src="data/twitter_ai_stock_report_2026_04_09/charts/portfolio_mix.png" alt="Portfolio mix"></div>
+    </section>
+
+    <section class="section">
+      <h2>The 50-Stock Universe</h2>
+      <p>
+        The table below is the working investor universe. Use <strong>confidence A</strong> if you want the most literal reconstruction of what the accounts discussed.
+        Use <strong>B and C</strong> if you want to express the same supply-chain view in a fuller portfolio.
+      </p>
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Company</th>
+      <th>Ticker</th>
+      <th>Country</th>
+      <th>Theme</th>
+      <th>Confidence</th>
+      <th>Risk</th>
+      <th>Hormuz</th>
+      <th>AI Sens.</th>
+      <th>Price</th>
+      <th>90d Return</th>
+      <th>Mkt Cap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NVIDIA</td>
+      <td>NVDA</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>7</td>
+      <td>3</td>
+      <td>10</td>
+      <td>$183.66</td>
+      <td>-2.9%</td>
+      <td>$4.46T</td>
+    </tr>
+    <tr>
+      <td>Micron</td>
+      <td>MU</td>
+      <td>United States</td>
+      <td>Memory</td>
+      <td>A</td>
+      <td>6</td>
+      <td>4</td>
+      <td>9</td>
+      <td>$413.01</td>
+      <td>21.6%</td>
+      <td>$465.6B</td>
+    </tr>
+    <tr>
+      <td>Silicon Motion</td>
+      <td>SIMO</td>
+      <td>Taiwan / US listing</td>
+      <td>Controller Storage</td>
+      <td>A</td>
+      <td>7</td>
+      <td>5</td>
+      <td>7</td>
+      <td>$127.21</td>
+      <td>5.0%</td>
+      <td>$4.3B</td>
+    </tr>
+    <tr>
+      <td>Western Digital</td>
+      <td>WDC</td>
+      <td>United States</td>
+      <td>Controller Storage</td>
+      <td>A</td>
+      <td>7</td>
+      <td>5</td>
+      <td>6</td>
+      <td>$337.42</td>
+      <td>68.8%</td>
+      <td>$115.4B</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>AAPL</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>$260.12</td>
+      <td>-0.1%</td>
+      <td>$3.82T</td>
+    </tr>
+    <tr>
+      <td>Alphabet</td>
+      <td>GOOGL</td>
+      <td>United States</td>
+      <td>Hyperscaler</td>
+      <td>A</td>
+      <td>4</td>
+      <td>2</td>
+      <td>8</td>
+      <td>$319.40</td>
+      <td>-0.8%</td>
+      <td>$3.86T</td>
+    </tr>
+    <tr>
+      <td>Microsoft</td>
+      <td>MSFT</td>
+      <td>United States</td>
+      <td>Hyperscaler</td>
+      <td>A</td>
+      <td>4</td>
+      <td>2</td>
+      <td>8</td>
+      <td>$372.37</td>
+      <td>-23.0%</td>
+      <td>$2.77T</td>
+    </tr>
+    <tr>
+      <td>Amazon</td>
+      <td>AMZN</td>
+      <td>United States</td>
+      <td>Hyperscaler</td>
+      <td>A</td>
+      <td>5</td>
+      <td>2</td>
+      <td>8</td>
+      <td>$231.18</td>
+      <td>-4.3%</td>
+      <td>$2.48T</td>
+    </tr>
+    <tr>
+      <td>Applied Materials</td>
+      <td>AMAT</td>
+      <td>United States</td>
+      <td>Equipment</td>
+      <td>A</td>
+      <td>5</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$396.62</td>
+      <td>35.7%</td>
+      <td>$314.8B</td>
+    </tr>
+    <tr>
+      <td>Onto Innovation</td>
+      <td>ONTO</td>
+      <td>United States</td>
+      <td>Equipment</td>
+      <td>A</td>
+      <td>6</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$248.82</td>
+      <td>35.2%</td>
+      <td>$12.4B</td>
+    </tr>
+    <tr>
+      <td>AMD</td>
+      <td>AMD</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>7</td>
+      <td>3</td>
+      <td>8</td>
+      <td>$234.30</td>
+      <td>11.6%</td>
+      <td>$382.0B</td>
+    </tr>
+    <tr>
+      <td>Intel</td>
+      <td>INTC</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>8</td>
+      <td>3</td>
+      <td>6</td>
+      <td>$60.78</td>
+      <td>42.6%</td>
+      <td>$305.2B</td>
+    </tr>
+    <tr>
+      <td>Arm</td>
+      <td>ARM</td>
+      <td>United States / UK origin</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>7</td>
+      <td>2</td>
+      <td>8</td>
+      <td>$149.72</td>
+      <td>29.4%</td>
+      <td>$159.0B</td>
+    </tr>
+    <tr>
+      <td>Teradyne</td>
+      <td>TER</td>
+      <td>United States</td>
+      <td>Equipment</td>
+      <td>A</td>
+      <td>6</td>
+      <td>3</td>
+      <td>7</td>
+      <td>$363.41</td>
+      <td>63.3%</td>
+      <td>$56.9B</td>
+    </tr>
+    <tr>
+      <td>Lumentum</td>
+      <td>LITE</td>
+      <td>United States</td>
+      <td>Networking Optics</td>
+      <td>A</td>
+      <td>8</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$884.16</td>
+      <td>125.0%</td>
+      <td>$63.1B</td>
+    </tr>
+    <tr>
+      <td>Credo</td>
+      <td>CRDO</td>
+      <td>United States</td>
+      <td>Networking Optics</td>
+      <td>A</td>
+      <td>8</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$107.64</td>
+      <td>-23.7%</td>
+      <td>$19.9B</td>
+    </tr>
+    <tr>
+      <td>Adobe</td>
+      <td>ADBE</td>
+      <td>United States</td>
+      <td>Software Incumbent</td>
+      <td>A</td>
+      <td>6</td>
+      <td>1</td>
+      <td>4</td>
+      <td>$228.82</td>
+      <td>-32.3%</td>
+      <td>$93.3B</td>
+    </tr>
+    <tr>
+      <td>ASML</td>
+      <td>ASML</td>
+      <td>Netherlands</td>
+      <td>Equipment</td>
+      <td>B</td>
+      <td>5</td>
+      <td>3</td>
+      <td>8</td>
+      <td>$1450.00</td>
+      <td>18.0%</td>
+      <td>$569.4B</td>
+    </tr>
+    <tr>
+      <td>CATL</td>
+      <td>300750.SZ</td>
+      <td>China</td>
+      <td>Industrial Battery</td>
+      <td>A</td>
+      <td>7</td>
+      <td>6</td>
+      <td>5</td>
+      <td>$391.30</td>
+      <td>6.0%</td>
+      <td>$1.80T</td>
+    </tr>
+    <tr>
+      <td>Phison</td>
+      <td>8299.TWO</td>
+      <td>Taiwan</td>
+      <td>Controller Storage</td>
+      <td>A</td>
+      <td>7</td>
+      <td>5</td>
+      <td>7</td>
+      <td>$1725.00</td>
+      <td>33.7%</td>
+      <td>$352.0B</td>
+    </tr>
+    <tr>
+      <td>Samsung Electronics</td>
+      <td>005930.KS</td>
+      <td>South Korea</td>
+      <td>Memory</td>
+      <td>A</td>
+      <td>6</td>
+      <td>5</td>
+      <td>9</td>
+      <td>$210500.00</td>
+      <td>52.4%</td>
+      <td>$1346.06T</td>
+    </tr>
+    <tr>
+      <td>SK hynix</td>
+      <td>000660.KS</td>
+      <td>South Korea</td>
+      <td>Memory</td>
+      <td>A</td>
+      <td>6</td>
+      <td>5</td>
+      <td>10</td>
+      <td>$1033000.00</td>
+      <td>48.4%</td>
+      <td>$706.88T</td>
+    </tr>
+    <tr>
+      <td>Kioxia</td>
+      <td>285A.T</td>
+      <td>Japan</td>
+      <td>Memory</td>
+      <td>A</td>
+      <td>7</td>
+      <td>5</td>
+      <td>6</td>
+      <td>$27600.00</td>
+      <td>143.2%</td>
+      <td>$15.10T</td>
+    </tr>
+    <tr>
+      <td>TSMC</td>
+      <td>2330.TW</td>
+      <td>Taiwan</td>
+      <td>Foundry Packaging</td>
+      <td>A</td>
+      <td>5</td>
+      <td>5</td>
+      <td>10</td>
+      <td>$1950.00</td>
+      <td>30.4%</td>
+      <td>$50.70T</td>
+    </tr>
+    <tr>
+      <td>Kyocera</td>
+      <td>6971.T</td>
+      <td>Japan</td>
+      <td>Foundry Packaging</td>
+      <td>A</td>
+      <td>5</td>
+      <td>4</td>
+      <td>6</td>
+      <td>$2604.50</td>
+      <td>16.7%</td>
+      <td>$3.41T</td>
+    </tr>
+    <tr>
+      <td>FIC Global</td>
+      <td>3701.TW</td>
+      <td>Taiwan</td>
+      <td>Substrate Pcb</td>
+      <td>A</td>
+      <td>8</td>
+      <td>5</td>
+      <td>7</td>
+      <td>$56.40</td>
+      <td>15.8%</td>
+      <td>$12.9B</td>
+    </tr>
+    <tr>
+      <td>Suntak</td>
+      <td>002815.SZ</td>
+      <td>China</td>
+      <td>Substrate Pcb</td>
+      <td>A</td>
+      <td>8</td>
+      <td>6</td>
+      <td>7</td>
+      <td>$14.59</td>
+      <td>4.2%</td>
+      <td>$18.2B</td>
+    </tr>
+    <tr>
+      <td>Kingwong</td>
+      <td>603228.SS</td>
+      <td>China</td>
+      <td>Substrate Pcb</td>
+      <td>A</td>
+      <td>8</td>
+      <td>6</td>
+      <td>7</td>
+      <td>$58.86</td>
+      <td>-23.4%</td>
+      <td>$58.2B</td>
+    </tr>
+    <tr>
+      <td>AT&S</td>
+      <td>ATS.VI</td>
+      <td>Austria</td>
+      <td>Substrate Pcb</td>
+      <td>A</td>
+      <td>8</td>
+      <td>4</td>
+      <td>6</td>
+      <td>$64.00</td>
+      <td>97.2%</td>
+      <td>$2.5B</td>
+    </tr>
+    <tr>
+      <td>BE Semiconductor</td>
+      <td>BESI.AS</td>
+      <td>Netherlands</td>
+      <td>Equipment</td>
+      <td>A</td>
+      <td>7</td>
+      <td>4</td>
+      <td>9</td>
+      <td>$206.10</td>
+      <td>36.4%</td>
+      <td>$16.2B</td>
+    </tr>
+    <tr>
+      <td>Global Unichip</td>
+      <td>3443.TW</td>
+      <td>Taiwan</td>
+      <td>Compute Silicon</td>
+      <td>A</td>
+      <td>8</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$2510.00</td>
+      <td>24.0%</td>
+      <td>$355.8B</td>
+    </tr>
+    <tr>
+      <td>Broadcom</td>
+      <td>AVGO</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>B</td>
+      <td>6</td>
+      <td>3</td>
+      <td>9</td>
+      <td>$357.27</td>
+      <td>4.0%</td>
+      <td>$1.69T</td>
+    </tr>
+    <tr>
+      <td>Marvell</td>
+      <td>MRVL</td>
+      <td>United States</td>
+      <td>Compute Silicon</td>
+      <td>B</td>
+      <td>7</td>
+      <td>3</td>
+      <td>8</td>
+      <td>$119.37</td>
+      <td>41.0%</td>
+      <td>$104.4B</td>
+    </tr>
+    <tr>
+      <td>MediaTek</td>
+      <td>2454.TW</td>
+      <td>Taiwan</td>
+      <td>Compute Silicon</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>$1580.00</td>
+      <td>14.5%</td>
+      <td>$2.51T</td>
+    </tr>
+    <tr>
+      <td>UMC</td>
+      <td>2303.TW</td>
+      <td>Taiwan</td>
+      <td>Foundry Packaging</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>5</td>
+      <td>$60.30</td>
+      <td>21.5%</td>
+      <td>$755.3B</td>
+    </tr>
+    <tr>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>Taiwan</td>
+      <td>Foundry Packaging</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$383.00</td>
+      <td>63.3%</td>
+      <td>$1.72T</td>
+    </tr>
+    <tr>
+      <td>Amkor</td>
+      <td>AMKR</td>
+      <td>United States</td>
+      <td>Foundry Packaging</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$55.06</td>
+      <td>4.4%</td>
+      <td>$13.6B</td>
+    </tr>
+    <tr>
+      <td>Ibiden</td>
+      <td>4062.T</td>
+      <td>Japan</td>
+      <td>Substrate Pcb</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>7</td>
+      <td>$9794.00</td>
+      <td>36.8%</td>
+      <td>$2.74T</td>
+    </tr>
+    <tr>
+      <td>Unimicron</td>
+      <td>3037.TW</td>
+      <td>Taiwan</td>
+      <td>Substrate Pcb</td>
+      <td>B</td>
+      <td>7</td>
+      <td>5</td>
+      <td>7</td>
+      <td>$620.00</td>
+      <td>185.7%</td>
+      <td>$984.1B</td>
+    </tr>
+    <tr>
+      <td>Nan Ya PCB</td>
+      <td>8046.TW</td>
+      <td>Taiwan</td>
+      <td>Substrate Pcb</td>
+      <td>B</td>
+      <td>7</td>
+      <td>5</td>
+      <td>6</td>
+      <td>$637.00</td>
+      <td>166.5%</td>
+      <td>$432.3B</td>
+    </tr>
+    <tr>
+      <td>Shinko Electric</td>
+      <td>6967.T</td>
+      <td>Japan</td>
+      <td>Substrate Pcb</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>Tokyo Electron</td>
+      <td>8035.T</td>
+      <td>Japan</td>
+      <td>Equipment</td>
+      <td>B</td>
+      <td>5</td>
+      <td>4</td>
+      <td>7</td>
+      <td>$42410.00</td>
+      <td>14.8%</td>
+      <td>$19.27T</td>
+    </tr>
+    <tr>
+      <td>Disco</td>
+      <td>6146.T</td>
+      <td>Japan</td>
+      <td>Equipment</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>7</td>
+      <td>$67450.00</td>
+      <td>32.0%</td>
+      <td>$7.00T</td>
+    </tr>
+    <tr>
+      <td>Lasertec</td>
+      <td>6920.T</td>
+      <td>Japan</td>
+      <td>Equipment</td>
+      <td>B</td>
+      <td>7</td>
+      <td>4</td>
+      <td>7</td>
+      <td>$39940.00</td>
+      <td>26.0%</td>
+      <td>$3.47T</td>
+    </tr>
+    <tr>
+      <td>Advantest</td>
+      <td>6857.T</td>
+      <td>Japan</td>
+      <td>Equipment</td>
+      <td>B</td>
+      <td>6</td>
+      <td>4</td>
+      <td>8</td>
+      <td>$25220.00</td>
+      <td>19.1%</td>
+      <td>$18.01T</td>
+    </tr>
+    <tr>
+      <td>Hon Hai / Foxconn</td>
+      <td>2317.TW</td>
+      <td>Taiwan</td>
+      <td>Systems Odm</td>
+      <td>C</td>
+      <td>6</td>
+      <td>6</td>
+      <td>6</td>
+      <td>$201.50</td>
+      <td>-10.0%</td>
+      <td>$2.79T</td>
+    </tr>
+    <tr>
+      <td>Quanta</td>
+      <td>2382.TW</td>
+      <td>Taiwan</td>
+      <td>Systems Odm</td>
+      <td>C</td>
+      <td>6</td>
+      <td>6</td>
+      <td>6</td>
+      <td>$307.50</td>
+      <td>16.5%</td>
+      <td>$1.21T</td>
+    </tr>
+    <tr>
+      <td>Wiwynn</td>
+      <td>6669.TW</td>
+      <td>Taiwan</td>
+      <td>Systems Odm</td>
+      <td>C</td>
+      <td>7</td>
+      <td>6</td>
+      <td>6</td>
+      <td>$3570.00</td>
+      <td>-15.8%</td>
+      <td>$665.3B</td>
+    </tr>
+    <tr>
+      <td>Wistron</td>
+      <td>3231.TW</td>
+      <td>Taiwan</td>
+      <td>Systems Odm</td>
+      <td>C</td>
+      <td>7</td>
+      <td>6</td>
+      <td>5</td>
+      <td>$131.00</td>
+      <td>-10.0%</td>
+      <td>$421.4B</td>
+    </tr>
+    <tr>
+      <td>Celestica</td>
+      <td>CLS</td>
+      <td>Canada</td>
+      <td>Systems Odm</td>
+      <td>C</td>
+      <td>6</td>
+      <td>3</td>
+      <td>6</td>
+      <td>$325.57</td>
+      <td>6.4%</td>
+      <td>$37.5B</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+    <section class="section">
+      <h2>What The Accounts Are Actually Saying</h2>
+      <h3>1. Memory Has Broken Out Of The Old Cycle</h3>
+      <p>
+        Jukan's March and April memory posts are overtly bullish: Samsung is trying to lock in Google and Microsoft under multi-year agreements,
+        hyperscalers are prepaying memory vendors, and TrendForce's Q1/Q2 2026 DRAM/NAND forecasts were revised dramatically upward. Zephyr adds the
+        more nuanced version: spot and consumer pricing can roll over while contract pricing with hyperscalers and OEMs keeps climbing. That split is why the report
+        likes SK hynix, Micron, Samsung, SIMO, Phison, and parts of the test and packaging toolchain.
+      </p>
+
+      <h3>2. Packaging Is Still The Binding Bottleneck</h3>
+      <p>
+        The accounts keep converging on the same conclusion: the AI stack is no longer just a wafer problem. It is an <strong>advanced-packaging, substrate,
+        hybrid-bonding, and inspection problem</strong>. Jukan explicitly tied SK hynix to BESI and AMAT for HBM5 bonding and highlighted Onto's inspection wins at Samsung.
+        Zephyr highlighted PCB and substrate names like FIC Global, Suntak, Kingwong, AT&amp;S, and Kyocera. That is why the packaging / substrate bucket gets a large weight in the report.
+      </p>
+
+      <h3>3. Inference Economics Are Shifting</h3>
+      <p>
+        Zephyr's Rubin CPX post is one of the clearest windows into the 2026 market: the near-term battleground is increasingly about <strong>prefill, caching,
+        and effective token economics</strong>, not just raw headline FLOPs. That helps Nvidia in the near term, but it also reinforces why custom-ASIC names, merchant
+        networking, and memory-efficient architectures remain important. It also explains why Zephyr is nervous about how quickly the optical / CPO stack could move against copper-centric winners.
+      </p>
+
+      <h3>4. China Is A Wildcard, Not A Side Note</h3>
+      <p>
+        Jukan's China posts center on the reality that domestic Chinese supply has improved, but not enough to fully substitute for Nvidia at the frontier. Zephyr's CATL call
+        captures the other side of the China story: domestic champions with enough scale and process know-how can still compound even in a tougher geopolitical environment. That makes China
+        both a structural opportunity and the portfolio's most obvious policy-risk bucket.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Strait Of Hormuz: Traffic, Game Theory, And 2nd / 3rd Order Effects</h2>
+      <p>
+        The baseline matters. The EIA chokepoint work still points to roughly <strong>20 million barrels per day</strong> of oil and condensate transiting Hormuz in the recent baseline,
+        making it the single most important energy chokepoint in the world. Normal vessel counts run around <strong>130-140 ships per day</strong> according to shipping-industry tallies.
+        During the March 2026 shock, AP / MarineTraffic reporting showed the system can tighten fast: vessel transits dropped materially and LNG crossings temporarily went to zero.
+      </p>
+      <p>
+        The first-order effect is obvious: higher oil, LNG, insurance, and freight costs. The second-order effect is where this matters for the stock list. Asian fabs, packaging houses, PCB makers,
+        and server integrators face higher utility and logistics costs; memory pricing can stay tighter for longer because marginal supply becomes harder to clear; and hyperscalers absorb more energy cost
+        but protect the buildout because AI capacity is strategic. The third-order effect is portfolio rotation: the market tends to pay up for tollbooths and capital-light software while compressing the
+        most logistics-intensive or policy-exposed hardware names.
+      </p>
+      <table>
+        <tr><th>Bucket</th><th>Primary effect</th><th>2nd-order effect</th><th>3rd-order effect</th></tr>
+        <tr><td>Memory</td><td>Power and logistics costs rise</td><td>Contract pricing stays tighter</td><td>Leaders gain share, weaker names lose elasticity</td></tr>
+        <tr><td>Packaging / substrate / PCB</td><td>Freight and chemical costs rise</td><td>Lead times stretch further</td><td>Customers crowd even more into reliable top-tier suppliers</td></tr>
+        <tr><td>Hyperscalers</td><td>Energy bills rise</td><td>Capex mix tilts harder toward efficiency</td><td>Better economics for custom silicon and efficient serving</td></tr>
+        <tr><td>Networking / optics</td><td>Little direct oil exposure</td><td>More urgency around utilization and cluster efficiency</td><td>Architectures that reduce idle GPU time gain value</td></tr>
+        <tr><td>China / EV / battery</td><td>Shipping and policy risk both rise</td><td>Export routes and inventory matter more</td><td>Higher dispersion across China names</td></tr>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>AI Model And Inference Trends: Sparse, MoE, HBM, Prefill, Speculative Decoding</h2>
+      <p>
+        The most important 2026 shift is that the market is moving from a simple <em>more FLOPs equals more value</em> story to a more nuanced
+        <em>better system efficiency equals more profit per token</em> story.
+      </p>
+      <ul>
+        <li><strong>MoE / sparsity:</strong> good for Broadcom, Marvell, Arm, GUC, and the hyperscalers because routing and custom silicon matter more; still good for Nvidia near term because cluster orchestration and high-bandwidth memory remain scarce.</li>
+        <li><strong>Speculative decoding and better serving:</strong> slightly bearish for raw GPU-hours demand at the margin, but bullish for hyperscalers, custom silicon, and software platforms because cheaper inference broadens adoption.</li>
+        <li><strong>Prefill / decode separation and caching:</strong> bullish for Nvidia, memory, and interconnects because utilization improves and the system gets re-optimized around memory bandwidth and latency.</li>
+        <li><strong>HBM4 / HBM5 and hybrid bonding:</strong> a direct tailwind for SK hynix, Samsung, Micron, BESI, AMAT, ONTO, and the test stack.</li>
+        <li><strong>CPO and optical content:</strong> bullish for Lumentum, Coherent, Fabrinet, and other optics leverage; mixed for Credo if copper wins longer, but actively threatening if CPO adoption accelerates faster than expected.</li>
+        <li><strong>Custom ASIC growth:</strong> bullish for Broadcom, GUC, Arm, and eventually merchant design-service houses; modestly bearish for any stock valued as if every incremental inference dollar must stay on merchant GPUs forever.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Portfolio Construction</h2>
+      <p>
+        I built four baskets from the same 50 names. They differ mainly in how much packaging, memory, Asia logistics, and architecture risk they are willing to absorb.
+      </p>
+      <ul><li><strong>Risk 3 / Tollbooths</strong> (risk 3/10): Own the highest-quality bottlenecks and hyperscaler balance sheets. This is the lowest-beta way to express the tweets' core view that AI capex remains structurally large.</li><li><strong>Risk 5 / Balanced Buildout</strong> (risk 5/10): Blend the obvious winners with the packaging and custom-silicon second derivative names. This is the main expression of the accounts' 2026 AI infrastructure view.</li><li><strong>Risk 7 / Memory + Packaging</strong> (risk 7/10): Concentrate on the exact places where the tweets were most bullish: memory pricing, HBM, hybrid bonding, and AI package complexity.</li><li><strong>Risk 9 / Asia Levered Edge</strong> (risk 9/10): Maximum beta to Asian manufacturing, optical content, and system assembly. Highest upside if AI buildout accelerates; most exposed if geopolitics or logistics break.</li></ul>
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Portfolio</th>
+      <th>Risk</th>
+      <th>Company</th>
+      <th>Ticker</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>TSMC</td>
+      <td>2330.TW</td>
+      <td>12.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>NVIDIA</td>
+      <td>NVDA</td>
+      <td>8.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Samsung Electronics</td>
+      <td>005930.KS</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>SK hynix</td>
+      <td>000660.KS</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Applied Materials</td>
+      <td>AMAT</td>
+      <td>8.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>BE Semiconductor</td>
+      <td>BESI.AS</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Alphabet</td>
+      <td>GOOGL</td>
+      <td>8.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Microsoft</td>
+      <td>MSFT</td>
+      <td>8.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Amazon</td>
+      <td>AMZN</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Advantest</td>
+      <td>6857.T</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Ibiden</td>
+      <td>4062.T</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>ASML</td>
+      <td>ASML</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Tokyo Electron</td>
+      <td>8035.T</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 3 / Tollbooths</td>
+      <td>3</td>
+      <td>Kyocera</td>
+      <td>6971.T</td>
+      <td>2.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>NVIDIA</td>
+      <td>NVDA</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Micron</td>
+      <td>MU</td>
+      <td>7.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>TSMC</td>
+      <td>2330.TW</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Applied Materials</td>
+      <td>AMAT</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Onto Innovation</td>
+      <td>ONTO</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>BE Semiconductor</td>
+      <td>BESI.AS</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Amkor</td>
+      <td>AMKR</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Ibiden</td>
+      <td>4062.T</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Unimicron</td>
+      <td>3037.TW</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Alphabet</td>
+      <td>GOOGL</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Microsoft</td>
+      <td>MSFT</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Amazon</td>
+      <td>AMZN</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>AMD</td>
+      <td>AMD</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Arm</td>
+      <td>ARM</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Broadcom</td>
+      <td>AVGO</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Marvell</td>
+      <td>MRVL</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Advantest</td>
+      <td>6857.T</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Lumentum</td>
+      <td>LITE</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 5 / Balanced Buildout</td>
+      <td>5</td>
+      <td>Credo</td>
+      <td>CRDO</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Micron</td>
+      <td>MU</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Samsung Electronics</td>
+      <td>005930.KS</td>
+      <td>10.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>SK hynix</td>
+      <td>000660.KS</td>
+      <td>12.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Kioxia</td>
+      <td>285A.T</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Silicon Motion</td>
+      <td>SIMO</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Phison</td>
+      <td>8299.TWO</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Western Digital</td>
+      <td>WDC</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>BE Semiconductor</td>
+      <td>BESI.AS</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Onto Innovation</td>
+      <td>ONTO</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>FIC Global</td>
+      <td>3701.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Suntak</td>
+      <td>002815.SZ</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Kingwong</td>
+      <td>603228.SS</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>AT&S</td>
+      <td>ATS.VI</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Unimicron</td>
+      <td>3037.TW</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Nan Ya PCB</td>
+      <td>8046.TW</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Shinko Electric</td>
+      <td>6967.T</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Amkor</td>
+      <td>AMKR</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Advantest</td>
+      <td>6857.T</td>
+      <td>2.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Disco</td>
+      <td>6146.T</td>
+      <td>2.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 7 / Memory + Packaging</td>
+      <td>7</td>
+      <td>Lasertec</td>
+      <td>6920.T</td>
+      <td>1.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>CATL</td>
+      <td>300750.SZ</td>
+      <td>8.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Phison</td>
+      <td>8299.TWO</td>
+      <td>6.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Silicon Motion</td>
+      <td>SIMO</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>FIC Global</td>
+      <td>3701.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Suntak</td>
+      <td>002815.SZ</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Kingwong</td>
+      <td>603228.SS</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>MediaTek</td>
+      <td>2454.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Global Unichip</td>
+      <td>3443.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Hon Hai / Foxconn</td>
+      <td>2317.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Quanta</td>
+      <td>2382.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Wiwynn</td>
+      <td>6669.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Wistron</td>
+      <td>3231.TW</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Celestica</td>
+      <td>CLS</td>
+      <td>5.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Lumentum</td>
+      <td>LITE</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Credo</td>
+      <td>CRDO</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Broadcom</td>
+      <td>AVGO</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Marvell</td>
+      <td>MRVL</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Tokyo Electron</td>
+      <td>8035.T</td>
+      <td>4.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Disco</td>
+      <td>6146.T</td>
+      <td>3.0%</td>
+    </tr>
+    <tr>
+      <td>Risk 9 / Asia Levered Edge</td>
+      <td>9</td>
+      <td>Lasertec</td>
+      <td>6920.T</td>
+      <td>3.0%</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+    <section class="section">
+      <h2>Appendix: Per-Stock Thesis, Drop Trigger, And Horizon View</h2>
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Company</th>
+      <th>Ticker</th>
+      <th>Confidence</th>
+      <th>X signal</th>
+      <th>Bull thesis</th>
+      <th>Bear thesis</th>
+      <th>Drop thesis trigger</th>
+      <th>30d</th>
+      <th>90d</th>
+      <th>120d</th>
+      <th>180d</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NVIDIA</td>
+      <td>NVDA</td>
+      <td>A</td>
+      <td>Central name in both accounts' AI infra discussion; direct tie to Rubin, HBM4, and Chinese training-workload substitution.</td>
+      <td>NVIDIA is a dominant AI accelerator vendor. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and central name in both accounts' ai infra discussion; direct tie to rubin, hbm4, and chinese training-workload substitution.</td>
+      <td>Bear case: NVIDIA gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Micron</td>
+      <td>MU</td>
+      <td>A</td>
+      <td>Zephyr explicitly used MU as the public memory expression in the Q2 2026 contract-pricing debate.</td>
+      <td>Micron is a HBM and DRAM challenger with pricing leverage. The X thesis is that it benefits from HBM/DRAM tightness, higher blended ASPs, and hyperscaler willingness to sign LTAs, and zephyr explicitly used mu as the public memory expression in the q2 2026 contract-pricing debate.</td>
+      <td>Bear case: Micron suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a sharp turn lower in contract pricing or a credible roadmap miss in HBM4/HBM5.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Silicon Motion</td>
+      <td>SIMO</td>
+      <td>A</td>
+      <td>Zephyr called SIMO one of the cleaner NAND exposures thanks to the merchant-controller angle.</td>
+      <td>Silicon Motion is a merchant NAND-controller duopoly exposure. The X thesis is that it wins when NAND prices and enterprise SSD demand re-rate and merchant-controller leverage matters again, and zephyr called simo one of the cleaner nand exposures thanks to the merchant-controller angle.</td>
+      <td>Bear case: Silicon Motion rolls over if OEM inventories stay heavy or NAND price momentum fades. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if an inventory reset plus weakening controller attach or customer concentration shocks.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Western Digital</td>
+      <td>WDC</td>
+      <td>A</td>
+      <td>Named in Zephyr's NAND-controller thread as part of the beneficiary/customer map.</td>
+      <td>Western Digital is a NAND and enterprise-storage beneficiary. The X thesis is that it wins when NAND prices and enterprise SSD demand re-rate and merchant-controller leverage matters again, and named in zephyr's nand-controller thread as part of the beneficiary/customer map.</td>
+      <td>Bear case: Western Digital rolls over if OEM inventories stay heavy or NAND price momentum fades. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if an inventory reset plus weakening controller attach or customer concentration shocks.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>AAPL</td>
+      <td>A</td>
+      <td>Zephyr used Apple as a system-design example for achieving higher bandwidth with bus-width choices.</td>
+      <td>Apple is a edge/custom-silicon design leader. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and zephyr used apple as a system-design example for achieving higher bandwidth with bus-width choices.</td>
+      <td>Bear case: Apple gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Alphabet</td>
+      <td>GOOGL</td>
+      <td>A</td>
+      <td>Jukan explicitly named Google in Samsung's proposed long-term memory lock-ins.</td>
+      <td>Alphabet is a TPU and hyperscaler capex platform. The X thesis is that it wins if AI capex converts into better model economics, enterprise monetization, and higher utilization, and jukan explicitly named google in samsung's proposed long-term memory lock-ins.</td>
+      <td>Bear case: Alphabet trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if evidence that AI monetization cannot support the capex intensity.</td>
+      <td>Neutral</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+    </tr>
+    <tr>
+      <td>Microsoft</td>
+      <td>MSFT</td>
+      <td>A</td>
+      <td>Jukan explicitly named Microsoft in Samsung's proposed long-term memory lock-ins.</td>
+      <td>Microsoft is a Azure / enterprise AI distribution leader. The X thesis is that it wins if AI capex converts into better model economics, enterprise monetization, and higher utilization, and jukan explicitly named microsoft in samsung's proposed long-term memory lock-ins.</td>
+      <td>Bear case: Microsoft trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if evidence that AI monetization cannot support the capex intensity.</td>
+      <td>Neutral</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+    </tr>
+    <tr>
+      <td>Amazon</td>
+      <td>AMZN</td>
+      <td>A</td>
+      <td>Jukan discussed Amazon through Trainium/OpenAI and the broader custom-ASIC stack.</td>
+      <td>Amazon is a AWS custom-silicon and hyperscaler capex leader. The X thesis is that it wins if AI capex converts into better model economics, enterprise monetization, and higher utilization, and jukan discussed amazon through trainium/openai and the broader custom-asic stack.</td>
+      <td>Bear case: Amazon trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if evidence that AI monetization cannot support the capex intensity.</td>
+      <td>Neutral</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+    </tr>
+    <tr>
+      <td>Applied Materials</td>
+      <td>AMAT</td>
+      <td>A</td>
+      <td>Jukan explicitly named AMAT as a likely tool supplier in SK hynix's HBM5 hybrid-bonding path.</td>
+      <td>Applied Materials is a hybrid-bonding and wafer-fab equipment supplier. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and jukan explicitly named amat as a likely tool supplier in sk hynix's hbm5 hybrid-bonding path.</td>
+      <td>Bear case: Applied Materials loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Onto Innovation</td>
+      <td>ONTO</td>
+      <td>A</td>
+      <td>Jukan explicitly said Samsung was validating Onto's hybrid-bonding inspection tools.</td>
+      <td>Onto Innovation is a inspection and metrology specialist for advanced packaging. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and jukan explicitly said samsung was validating onto's hybrid-bonding inspection tools.</td>
+      <td>Bear case: Onto Innovation loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>AMD</td>
+      <td>AMD</td>
+      <td>A</td>
+      <td>Named in Jukan's CPU-bottleneck and custom-ASIC thread clusters.</td>
+      <td>AMD is a CPU and accelerator challenger. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and named in jukan's cpu-bottleneck and custom-asic thread clusters.</td>
+      <td>Bear case: AMD gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Intel</td>
+      <td>INTC</td>
+      <td>A</td>
+      <td>Both accounts discussed Intel: Zephyr as a strategic cautionary tale, Jukan as part of the 2026 CPU bottleneck map.</td>
+      <td>Intel is a turnaround CPU/foundry incumbent. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and both accounts discussed intel: zephyr as a strategic cautionary tale, jukan as part of the 2026 cpu bottleneck map.</td>
+      <td>Bear case: Intel gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Arm</td>
+      <td>ARM</td>
+      <td>A</td>
+      <td>Named in Jukan's server-CPU bottleneck thread as the IP layer that matters if CPU scarcity persists.</td>
+      <td>Arm is a CPU-IP tollbooth for custom silicon. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and named in jukan's server-cpu bottleneck thread as the ip layer that matters if cpu scarcity persists.</td>
+      <td>Bear case: Arm gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Teradyne</td>
+      <td>TER</td>
+      <td>A</td>
+      <td>Zephyr said he was watching the Teradyne call for a confirmation that would imply more upside.</td>
+      <td>Teradyne is a test equipment beneficiary of memory and advanced packaging complexity. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and zephyr said he was watching the teradyne call for a confirmation that would imply more upside.</td>
+      <td>Bear case: Teradyne loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Lumentum</td>
+      <td>LITE</td>
+      <td>A</td>
+      <td>Zephyr used Lumentum's earnings call to frame where optical demand and CPO risk are heading.</td>
+      <td>Lumentum is a optics and laser supplier for AI networking. The X thesis is that it benefits from denser clusters, more optical content, and scale-out networking intensity, and zephyr used lumentum's earnings call to frame where optical demand and cpo risk are heading.</td>
+      <td>Bear case: Lumentum gets pressured if inventory builds, copper solutions hold share longer, or CPO gets internally integrated elsewhere. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a clear architecture shift that bypasses its layer of the interconnect stack.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Credo</td>
+      <td>CRDO</td>
+      <td>A</td>
+      <td>Zephyr explicitly flagged CRDO as exposed if Rubin Ultra moves more aggressively toward CPO.</td>
+      <td>Credo is a AEC and connectivity specialist with architecture risk. The X thesis is that it benefits from denser clusters, more optical content, and scale-out networking intensity, and zephyr explicitly flagged crdo as exposed if rubin ultra moves more aggressively toward cpo.</td>
+      <td>Bear case: Credo gets pressured if inventory builds, copper solutions hold share longer, or CPO gets internally integrated elsewhere. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a clear architecture shift that bypasses its layer of the interconnect stack.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Adobe</td>
+      <td>ADBE</td>
+      <td>A</td>
+      <td>Zephyr used Adobe as a bearish example of a legacy software name struggling to turn AI into a real moat.</td>
+      <td>Adobe is a AI-exposed software incumbent. The X thesis is that it works if the company successfully turns AI features into durable pricing power, and zephyr used adobe as a bearish example of a legacy software name struggling to turn ai into a real moat.</td>
+      <td>Bear case: Adobe unwinds if model-native competitors keep eroding product advantage. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if continued monetization misses and further evidence of product displacement.</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>ASML</td>
+      <td>ASML</td>
+      <td>B</td>
+      <td>First-order EUV/lithography expansion from the same advanced-node bottleneck both accounts repeatedly centered.</td>
+      <td>ASML is a EUV lithography tollbooth. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and first-order euv/lithography expansion from the same advanced-node bottleneck both accounts repeatedly centered.</td>
+      <td>Bear case: ASML loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>CATL</td>
+      <td>300750.SZ</td>
+      <td>A</td>
+      <td>Zephyr's cleanest China industrial quality call in the period.</td>
+      <td>CATL is a battery and industrial-manufacturing leader. The X thesis is that it wins if industrial AI, robotics, and EV-scale manufacturing keep compounding process advantages, and zephyr's cleanest china industrial quality call in the period.</td>
+      <td>Bear case: CATL is exposed to China policy, export controls, and any renewed battery/EV oversupply. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a major pricing war, subsidy rollback, or escalation in China trade frictions.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Phison</td>
+      <td>8299.TWO</td>
+      <td>A</td>
+      <td>Zephyr explicitly preferred Phison to SIMO in the same NAND-controller discussion.</td>
+      <td>Phison is a merchant NAND-controller and storage-IP supplier. The X thesis is that it wins when NAND prices and enterprise SSD demand re-rate and merchant-controller leverage matters again, and zephyr explicitly preferred phison to simo in the same nand-controller discussion.</td>
+      <td>Bear case: Phison rolls over if OEM inventories stay heavy or NAND price momentum fades. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if an inventory reset plus weakening controller attach or customer concentration shocks.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Samsung Electronics</td>
+      <td>005930.KS</td>
+      <td>A</td>
+      <td>Jukan repeatedly framed Samsung as the swing supplier in HBM4, long-term memory contracts, and hybrid-bonding inspection.</td>
+      <td>Samsung Electronics is a DRAM/HBM incumbent trying to re-rate on LTAs and HBM4. The X thesis is that it benefits from HBM/DRAM tightness, higher blended ASPs, and hyperscaler willingness to sign LTAs, and jukan repeatedly framed samsung as the swing supplier in hbm4, long-term memory contracts, and hybrid-bonding inspection.</td>
+      <td>Bear case: Samsung Electronics suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a sharp turn lower in contract pricing or a credible roadmap miss in HBM4/HBM5.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>SK hynix</td>
+      <td>000660.KS</td>
+      <td>A</td>
+      <td>Jukan and Zephyr both treated SK hynix as core to the HBM/NAND stack, with HBM5 hybrid bonding as the next step.</td>
+      <td>SK hynix is a HBM share leader and roadmap setter. The X thesis is that it benefits from HBM/DRAM tightness, higher blended ASPs, and hyperscaler willingness to sign LTAs, and jukan and zephyr both treated sk hynix as core to the hbm/nand stack, with hbm5 hybrid bonding as the next step.</td>
+      <td>Bear case: SK hynix suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a sharp turn lower in contract pricing or a credible roadmap miss in HBM4/HBM5.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Kioxia</td>
+      <td>285A.T</td>
+      <td>A</td>
+      <td>Named in Zephyr's NAND/controller thread as part of the merchant-controller customer map.</td>
+      <td>Kioxia is a NAND supplier leveraged to price recovery. The X thesis is that it benefits from HBM/DRAM tightness, higher blended ASPs, and hyperscaler willingness to sign LTAs, and named in zephyr's nand/controller thread as part of the merchant-controller customer map.</td>
+      <td>Bear case: Kioxia suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a sharp turn lower in contract pricing or a credible roadmap miss in HBM4/HBM5.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>TSMC</td>
+      <td>2330.TW</td>
+      <td>A</td>
+      <td>Both accounts kept coming back to TSMC as the foundry and advanced-packaging bottleneck that matters most.</td>
+      <td>TSMC is a dominant foundry and CoWoS bottleneck capture. The X thesis is that it captures the AI bottleneck because advanced-node logic and packaging capacity are still scarce, and both accounts kept coming back to tsmc as the foundry and advanced-packaging bottleneck that matters most.</td>
+      <td>Bear case: TSMC gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a multi-quarter packaging digestion phase or geopolitical disruption to Asian manufacturing.</td>
+      <td>Bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Kyocera</td>
+      <td>6971.T</td>
+      <td>A</td>
+      <td>Zephyr highlighted Kyocera's ceramic and packaging leverage inside the analog/legacy bottleneck discussion.</td>
+      <td>Kyocera is a ceramics and component supplier into the packaging stack. The X thesis is that it captures the AI bottleneck because advanced-node logic and packaging capacity are still scarce, and zephyr highlighted kyocera's ceramic and packaging leverage inside the analog/legacy bottleneck discussion.</td>
+      <td>Bear case: Kyocera gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a multi-quarter packaging digestion phase or geopolitical disruption to Asian manufacturing.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>FIC Global</td>
+      <td>3701.TW</td>
+      <td>A</td>
+      <td>Zephyr's favorite among optical-transceiver PCB names.</td>
+      <td>FIC Global is a optical-transceiver PCB specialist. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and zephyr's favorite among optical-transceiver pcb names.</td>
+      <td>Bear case: FIC Global is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Suntak</td>
+      <td>002815.SZ</td>
+      <td>A</td>
+      <td>Named by Zephyr among the optical-transceiver PCB leaders.</td>
+      <td>Suntak is a optical and high-speed PCB supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and named by zephyr among the optical-transceiver pcb leaders.</td>
+      <td>Bear case: Suntak is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Kingwong</td>
+      <td>603228.SS</td>
+      <td>A</td>
+      <td>Named by Zephyr among the optical-transceiver PCB leaders.</td>
+      <td>Kingwong is a AI-networking PCB supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and named by zephyr among the optical-transceiver pcb leaders.</td>
+      <td>Bear case: Kingwong is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>AT&S</td>
+      <td>ATS.VI</td>
+      <td>A</td>
+      <td>Zephyr named AT&S as one of the main optical-transceiver PCB players.</td>
+      <td>AT&S is a European high-end substrate and PCB supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and zephyr named at&s as one of the main optical-transceiver pcb players.</td>
+      <td>Bear case: AT&S is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>BE Semiconductor</td>
+      <td>BESI.AS</td>
+      <td>A</td>
+      <td>Directly named by Jukan as part of the likely HBM5 hybrid-bonding toolset for SK hynix.</td>
+      <td>BE Semiconductor is a hybrid-bonding assembly tool leader. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and directly named by jukan as part of the likely hbm5 hybrid-bonding toolset for sk hynix.</td>
+      <td>Bear case: BE Semiconductor loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Global Unichip</td>
+      <td>3443.TW</td>
+      <td>A</td>
+      <td>Named in Jukan's CPU/custom-silicon thread cluster as part of the broader ASIC bottleneck map.</td>
+      <td>Global Unichip is a ASIC design-service house tied to custom AI silicon. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and named in jukan's cpu/custom-silicon thread cluster as part of the broader asic bottleneck map.</td>
+      <td>Bear case: Global Unichip gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Broadcom</td>
+      <td>AVGO</td>
+      <td>B</td>
+      <td>Recovered through a public quote of Jukan's January custom-ASIC thread that discussed Broadcom's customer slate and TPU volumes.</td>
+      <td>Broadcom is a custom-ASIC tollbooth. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and recovered through a public quote of jukan's january custom-asic thread that discussed broadcom's customer slate and tpu volumes.</td>
+      <td>Bear case: Broadcom gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Marvell</td>
+      <td>MRVL</td>
+      <td>B</td>
+      <td>Included as the next-closest merchant custom-silicon/networking name in the same Jukan ASIC buildout context.</td>
+      <td>Marvell is a merchant custom-silicon and networking challenger. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and included as the next-closest merchant custom-silicon/networking name in the same jukan asic buildout context.</td>
+      <td>Bear case: Marvell gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>MediaTek</td>
+      <td>2454.TW</td>
+      <td>B</td>
+      <td>Same-thread Taiwan custom-silicon beneficiary rather than a fully recovered direct tweet text.</td>
+      <td>MediaTek is a edge and custom-silicon beneficiary. The X thesis is that it wins if AI training and inference budgets stay elevated and the architecture remains on the critical path, and same-thread taiwan custom-silicon beneficiary rather than a fully recovered direct tweet text.</td>
+      <td>Bear case: MediaTek gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a product slip, weak attach rates, or a sustained capex digestion cycle.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>UMC</td>
+      <td>2303.TW</td>
+      <td>B</td>
+      <td>Included as a first-order foundry beneficiary in the same mature-node / CPU bottleneck context Jukan was discussing.</td>
+      <td>UMC is a mature-node foundry with AI-adjacent support demand. The X thesis is that it captures the AI bottleneck because advanced-node logic and packaging capacity are still scarce, and included as a first-order foundry beneficiary in the same mature-node / cpu bottleneck context jukan was discussing.</td>
+      <td>Bear case: UMC gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a multi-quarter packaging digestion phase or geopolitical disruption to Asian manufacturing.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>ASE Technology</td>
+      <td>3711.TW</td>
+      <td>B</td>
+      <td>First-order OSAT beneficiary of the exact advanced-packaging bottleneck both accounts kept circling.</td>
+      <td>ASE Technology is a largest OSAT with AI-packaging exposure. The X thesis is that it captures the AI bottleneck because advanced-node logic and packaging capacity are still scarce, and first-order osat beneficiary of the exact advanced-packaging bottleneck both accounts kept circling.</td>
+      <td>Bear case: ASE Technology gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a multi-quarter packaging digestion phase or geopolitical disruption to Asian manufacturing.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Amkor</td>
+      <td>AMKR</td>
+      <td>B</td>
+      <td>First-order outsourced-packaging beneficiary tied to the same CoWoS / hybrid-bonding bottleneck thesis.</td>
+      <td>Amkor is a advanced-packaging outsourcing beneficiary. The X thesis is that it captures the AI bottleneck because advanced-node logic and packaging capacity are still scarce, and first-order outsourced-packaging beneficiary tied to the same cowos / hybrid-bonding bottleneck thesis.</td>
+      <td>Bear case: Amkor gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if a multi-quarter packaging digestion phase or geopolitical disruption to Asian manufacturing.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+    </tr>
+    <tr>
+      <td>Ibiden</td>
+      <td>4062.T</td>
+      <td>B</td>
+      <td>ABF substrate beneficiary in the same AI module-complexity chain discussed by both accounts.</td>
+      <td>Ibiden is a ABF substrate supplier to AI packages. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and abf substrate beneficiary in the same ai module-complexity chain discussed by both accounts.</td>
+      <td>Bear case: Ibiden is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Unimicron</td>
+      <td>3037.TW</td>
+      <td>B</td>
+      <td>First-order ABF substrate expansion from the packaging node both accounts were effectively mapping.</td>
+      <td>Unimicron is a AI package substrate supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and first-order abf substrate expansion from the packaging node both accounts were effectively mapping.</td>
+      <td>Bear case: Unimicron is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Nan Ya PCB</td>
+      <td>8046.TW</td>
+      <td>B</td>
+      <td>Same first-order substrate expansion as Unimicron, with more volatile execution.</td>
+      <td>Nan Ya PCB is a AI substrate and PCB supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and same first-order substrate expansion as unimicron, with more volatile execution.</td>
+      <td>Bear case: Nan Ya PCB is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Shinko Electric</td>
+      <td>6967.T</td>
+      <td>B</td>
+      <td>First-order ABF and packaging expansion tied to the exact capacity bottlenecks discussed in the tweets.</td>
+      <td>Shinko Electric is a Japanese substrate and packaging material supplier. The X thesis is that it benefits from richer GPU/ASIC module complexity and the need for more advanced substrate and PCB content, and first-order abf and packaging expansion tied to the exact capacity bottlenecks discussed in the tweets.</td>
+      <td>Bear case: Shinko Electric is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if order pushouts, yield issues, or a shift away from the package architecture it is serving.</td>
+      <td>Moderately bullish</td>
+      <td>Bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Tokyo Electron</td>
+      <td>8035.T</td>
+      <td>B</td>
+      <td>First-order wafer-fab equipment beneficiary in the same advanced-wafer and packaging buildout threads.</td>
+      <td>Tokyo Electron is a broad semicap supplier to foundry and memory ramps. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and first-order wafer-fab equipment beneficiary in the same advanced-wafer and packaging buildout threads.</td>
+      <td>Bear case: Tokyo Electron loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Disco</td>
+      <td>6146.T</td>
+      <td>B</td>
+      <td>Back-end and advanced-packaging tool beneficiary of the same node transitions discussed by Jukan.</td>
+      <td>Disco is a dicing and grinding tool leader. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and back-end and advanced-packaging tool beneficiary of the same node transitions discussed by jukan.</td>
+      <td>Bear case: Disco loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Lasertec</td>
+      <td>6920.T</td>
+      <td>B</td>
+      <td>Monopoly-like inspection exposure at the EUV / advanced-node edge of the same buildout.</td>
+      <td>Lasertec is a EUV mask-inspection bottleneck name. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and monopoly-like inspection exposure at the euv / advanced-node edge of the same buildout.</td>
+      <td>Bear case: Lasertec loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Advantest</td>
+      <td>6857.T</td>
+      <td>B</td>
+      <td>First-order test beneficiary as HBM and advanced packaging raise test intensity per module.</td>
+      <td>Advantest is a memory and AI test-equipment leader. The X thesis is that it wins if AI capex continues to pull forward tool demand in memory, hybrid bonding, inspection, and test, and first-order test beneficiary as hbm and advanced packaging raise test intensity per module.</td>
+      <td>Bear case: Advantest loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if wafer-fab-equipment digestion or a delayed transition to the next packaging/memory node.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Hon Hai / Foxconn</td>
+      <td>2317.TW</td>
+      <td>C</td>
+      <td>Lower-confidence expansion: server and systems assembly sits directly downstream of the capex nodes Jukan and Zephyr were describing.</td>
+      <td>Hon Hai / Foxconn is a AI server and systems integrator. The X thesis is that it benefits from the physical buildout of AI servers, racks, and systems integration, and lower-confidence expansion: server and systems assembly sits directly downstream of the capex nodes jukan and zephyr were describing.</td>
+      <td>Bear case: Hon Hai / Foxconn gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if cloud digestion, inventory corrections, or tariffs that hit system assembly economics.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Quanta</td>
+      <td>2382.TW</td>
+      <td>C</td>
+      <td>Lower-confidence expansion: a direct box-level beneficiary if the AI system buildout keeps accelerating.</td>
+      <td>Quanta is a AI server ODM leader. The X thesis is that it benefits from the physical buildout of AI servers, racks, and systems integration, and lower-confidence expansion: a direct box-level beneficiary if the ai system buildout keeps accelerating.</td>
+      <td>Bear case: Quanta gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if cloud digestion, inventory corrections, or tariffs that hit system assembly economics.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Wiwynn</td>
+      <td>6669.TW</td>
+      <td>C</td>
+      <td>Lower-confidence expansion from the same rack/server demand wave.</td>
+      <td>Wiwynn is a hyperscale server ODM. The X thesis is that it benefits from the physical buildout of AI servers, racks, and systems integration, and lower-confidence expansion from the same rack/server demand wave.</td>
+      <td>Bear case: Wiwynn gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if cloud digestion, inventory corrections, or tariffs that hit system assembly economics.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Wistron</td>
+      <td>3231.TW</td>
+      <td>C</td>
+      <td>Lower-confidence expansion into the system-buildout basket.</td>
+      <td>Wistron is a AI server manufacturing beneficiary. The X thesis is that it benefits from the physical buildout of AI servers, racks, and systems integration, and lower-confidence expansion into the system-buildout basket.</td>
+      <td>Bear case: Wistron gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if cloud digestion, inventory corrections, or tariffs that hit system assembly economics.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <td>Celestica</td>
+      <td>CLS</td>
+      <td>C</td>
+      <td>Lower-confidence expansion: a North American systems and networking manufacturer aligned with the same cluster-buildout theme.</td>
+      <td>Celestica is a AI systems and networking manufacturing beneficiary. The X thesis is that it benefits from the physical buildout of AI servers, racks, and systems integration, and lower-confidence expansion: a north american systems and networking manufacturer aligned with the same cluster-buildout theme.</td>
+      <td>Bear case: Celestica gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.</td>
+      <td>Drop thesis trigger: sell or de-risk if cloud digestion, inventory corrections, or tariffs that hit system assembly economics.</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Moderately bullish</td>
+      <td>Neutral</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+    <section class="section">
+      <h2>Reference Set</h2>
+      <p>
+        Cross-check base: public recovered X posts, Reuters and AP reporting, EIA and UNCTAD logistics / energy references, official investor-relations material,
+        plus industry analysts such as TrendForce, Counterpoint Research, and SemiAnalysis.
+      </p>
+      <ul>
+        <li><a href='https://x.com/zephyr_z9/status/2013718720242126922'>Zephyr on CATL and AI-enabled industrial R&D</a> - Zephyr called CATL one of the best high-quality companies on the planet and linked the upside to AI accelerating research and engineering.</li>
+<li><a href='https://x.com/zephyr_z9/status/2024157861027405978'>Zephyr on SIMO, Phison, NAND pricing, and customer exposure</a> - Zephyr framed SIMO as a clean NAND exposure, preferred Phison, and explicitly listed Micron, Samsung, SK hynix, WDC, and Kioxia in the same controller ecosystem.</li>
+<li><a href='https://x.com/zephyr_z9/status/2022756480374509644'>Zephyr on Rubin CPX, prefill, caching, and CPO risk</a> - Zephyr argued 2026 inference unit economics are increasingly driven by prefill and caching efficiency, and tied that to Nvidia's Rubin CPX direction.</li>
+<li><a href='https://x.com/zephyr_z9/status/2019066607583084550'>Zephyr on Lumentum earnings and Credo/CPO risk</a> - Zephyr used the Lumentum call to think through CPO adoption and warned that Credo could get hurt if Rubin Ultra scale-up CPO wins.</li>
+<li><a href='https://x.com/zephyr_z9/status/2038020529266078104'>Zephyr on spot memory versus hyperscaler/OEM contract pricing</a> - Zephyr argued consumer/spot memory prices could soften while contract pricing with hyperscalers and OEMs was still moving materially higher.</li>
+<li><a href='https://x.com/zephyr_z9/status/2030584064029997133'>Zephyr on Apple's wider memory-bus design choices</a> - Zephyr used Apple as an example of how bus width can offset bandwidth constraints in system design.</li>
+<li><a href='https://www.collyerbridge.com/post/apac-roundup-micron-mu-boe-000725-sz-sabic-2010-sr-foxconn-2317-tt-and-more'>Zephyr / Collyer Bridge APAC on optical-transceiver PCB suppliers</a> - Collyer Bridge reproduced Zephyr's comments naming FIC Global, Suntak, Kingwong, and AT&S as key optical-transceiver PCB names.</li>
+<li><a href='https://www.collyerbridge.com/post/apac-wrap-kyocera-6971-t-micron-mu-teradyne-ter-intel-intc-apple-aapl-and-more'>Zephyr / Collyer Bridge on analog and ceramic bottlenecks</a> - Collyer Bridge quoted Zephyr on Kyocera's exposure to ceramics, e-chucks, and packaging, and on watching Teradyne for confirmation of upside.</li>
+<li><a href='https://x.com/zephyr_z9/status/1967341335649644905'>Zephyr on Adobe's weak AI positioning</a> - Zephyr used Adobe as a bearish AI-incumbent example: weak product velocity and poor monetization versus faster model-native competitors.</li>
+<li><a href='https://x.com/zephyr_z9/status/1965455729944658305'>Zephyr on Intel's strategic miss</a> - Zephyr's Intel post framed the company as a former gatekeeper that missed major platform transitions and paid for it later.</li>
+<li><a href='https://x.com/zephyr_z9/status/1965812659464642596'>Zephyr joking about JPMorgan modeling peak demand</a> - Not an AI supply-chain post, but it is an in-range stock-related macro/consumer-signal mention.</li>
+<li><a href='https://x.com/jukan05/status/2012360246128431428'>Jukan on DeepSeek, Huawei, and Nvidia training workloads</a> - Jukan relayed that DeepSeek had tried domestic Huawei and other Chinese chips, found the results unacceptable for some workloads, and still used Nvidia for training.</li>
+<li><a href='https://x.com/jukan05/status/2011429601344678241'>Jukan on the 2026 server-CPU bottleneck</a> - Jukan said the market had no idea how severe the 2026 CPU bottleneck was becoming and named AMD, Intel, Arm, TSMC, and GUC in the thread cluster.</li>
+<li><a href='https://x.com/jukan05/status/2034824046987419851'>Jukan on Samsung memory LTAs with Google and Microsoft</a> - Jukan framed Samsung's efforts to lock in long-term supply with Google and Microsoft as a structural break from the old memory cycle.</li>
+<li><a href='https://x.com/jukan05/status/2034824813160931672'>Jukan follow-up on upfront memory prepayments</a> - Jukan emphasized that hyperscalers were now prepaying memory companies up front, a bullish argument for the whole memory stack.</li>
+<li><a href='https://x.com/jukan05/status/2035294342961823782'>Jukan on Samsung's HBM4 push versus SK hynix</a> - Jukan highlighted Samsung's push to ramp HBM4, noting the competitive posture versus SK hynix and the expected Nvidia pull-through.</li>
+<li><a href='https://x.com/jukan05/status/2041002619553149384'>Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding</a> - Jukan cited Counterpoint Research saying SK hynix is expected to adopt hybrid bonding for HBM5 with BESI and Applied Materials equipment.</li>
+<li><a href='https://x.com/jukan05/status/2038929887386362165'>Jukan on Samsung validating Onto's hybrid-bonding inspection tools</a> - Jukan argued that Samsung's validation of Onto's inspection tools was important because TSMC and Nvidia would likely watch the same capability set.</li>
+<li><a href='https://x.com/jukan05/status/2026474804380053579'>Jukan on China expanding advanced wafer output</a> - Jukan relayed Nikkei Asia's report that China wants to lift advanced wafer output sharply over the next one to two years and then add much more by 2030.</li>
+<li><a href='https://x.com/jukan05/status/2037769643629396194'>Jukan on TrendForce's higher DRAM and NAND price forecasts</a> - Jukan shared TrendForce's sharply higher DRAM and NAND pricing forecasts for Q1 and Q2 2026.</li>
+<li><a href='https://x.com/muhzuhair/status/2032484686228361482'>Public quote of Jukan's custom ASIC / TPU thread</a> - A secondary X post quoted Jukan's January custom-ASIC thread, referencing Broadcom, Fujitsu, Google TPU shipments, AMD, Intel, and Nvidia in the same 2026 buildout discussion.</li>
+<li><a href='https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints'>EIA World Oil Transit Chokepoints</a> - The EIA chokepoints page remains the clean baseline source for daily oil volume moving through Hormuz.</li>
+<li><a href='https://apnews.com/article/hormuz-strait-oil-tanker-shipping-marinetraffic-f1944dc6f9b8fd50d9c0c366e14f31e4'>AP on March 2026 Hormuz shipping disruption</a> - AP cited MarineTraffic data showing a sharp fall in Hormuz vessel transits and temporary elimination of LNG passages during the March disruption.</li>
+<li><a href='https://unctad.org/news/red-sea-gulf-and-suez-canal-disruptions-send-shockwaves-through-global-trade'>UNCTAD assessment of Red Sea and Gulf shipping stress</a> - UNCTAD provides the logistics, insurance, and rerouting framing needed to map second- and third-order supply-chain effects.</li>
+<li><a href='https://semianalysis.com/'>SemiAnalysis on large-scale inference economics</a> - Used for the broad inference-economics framing around MoE, prefill/decode separation, caching, and GPU-hour productivity.</li>
+<li><a href='https://cloud.google.com/blog/products/compute/introducing-google-cloud-a4-and-a4x-vms-powered-by-nvidia-blackwell-and-grace-blackwell'>Google Cloud / JetStream serving discussions</a> - Used to support the inference-stack discussion around serving, efficiency, and the continued importance of memory and interconnects.</li>
+<li><a href='https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026'>NVIDIA fiscal 2026 results</a> - Official demand and guidance anchor for Nvidia-related names.</li>
+<li><a href='https://investor.tsmc.com/english/quarterly-results/2025/q4'>TSMC Q4 2025 conference call</a> - Official capex, node, and advanced-packaging anchor for foundry and packaging names.</li>
+<li><a href='https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-fiscal-second-quarter-2026'>Micron fiscal Q2 2026 results</a> - Official pricing and HBM demand anchor for memory names.</li>
+<li><a href='https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results'>Samsung Q1 2026 earnings guidance</a> - Official profitability anchor for Samsung's memory and foundry recovery.</li>
+<li><a href='https://news.skhynix.com/'>SK hynix earnings / HBM update</a> - Official HBM and capex anchor for SK hynix and the memory-tool chain.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
