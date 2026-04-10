@@ -446,17 +446,60 @@ function ChartShell({ title, subtitle, children }: { title: string; subtitle?: s
 }
 
 function HoverExplain({ children, hint }: { children: React.ReactNode; hint: string }) {
+  const [active, setActive] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  function updatePosition(clientX: number, clientY: number) {
+    if (typeof window === 'undefined') return;
+    const tooltipWidth = 320;
+    const tooltipHeight = 120;
+    const x = Math.max(12, Math.min(clientX + 14, window.innerWidth - tooltipWidth - 12));
+    const y = Math.max(12, Math.min(clientY + 18, window.innerHeight - tooltipHeight - 12));
+    setPosition({ x, y });
+  }
+
   return (
     <span
-      title={hint}
       aria-label={hint}
+      onMouseEnter={(event) => {
+        updatePosition(event.clientX, event.clientY);
+        setActive(true);
+      }}
+      onMouseMove={(event) => {
+        updatePosition(event.clientX, event.clientY);
+      }}
+      onMouseLeave={() => setActive(false)}
       style={{
-        cursor: 'help',
+        position: 'relative',
+        cursor: 'default',
         borderBottom: '1px dotted color-mix(in oklch, var(--ink-400) 65%, transparent)',
         textUnderlineOffset: 2,
       }}
     >
       {children}
+      {active ? (
+        <span
+          role="tooltip"
+          style={{
+            position: 'fixed',
+            left: position.x,
+            top: position.y,
+            zIndex: 200,
+            maxWidth: 320,
+            padding: '10px 12px',
+            borderRadius: 8,
+            background: 'color-mix(in oklch, var(--ink-950) 92%, black)',
+            color: 'white',
+            fontSize: '0.74rem',
+            lineHeight: 1.55,
+            boxShadow: '0 14px 30px oklch(0% 0 0 / 0.18)',
+            pointerEvents: 'none',
+            whiteSpace: 'normal',
+          }}
+        >
+          {hint}
+        </span>
+      ) : null}
     </span>
   );
 }
