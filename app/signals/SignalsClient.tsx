@@ -445,6 +445,61 @@ function ChartShell({ title, subtitle, children }: { title: string; subtitle?: s
   );
 }
 
+function HoverExplain({ children, hint }: { children: React.ReactNode; hint: string }) {
+  return (
+    <span
+      title={hint}
+      aria-label={hint}
+      style={{
+        cursor: 'help',
+        borderBottom: '1px dotted color-mix(in oklch, var(--ink-400) 65%, transparent)',
+        textUnderlineOffset: 2,
+      }}
+    >
+      {children}
+    </span>
+  );
+}
+
+function ChartTooltipCard({
+  title,
+  rows,
+  note,
+}: {
+  title: string;
+  rows: Array<{ label: string; value: string; help: string }>;
+  note?: string;
+}) {
+  return (
+    <div
+      style={{
+        background: 'var(--surface-raised)',
+        border: '1px solid var(--ink-100)',
+        borderRadius: 8,
+        padding: '12px 14px',
+        minWidth: 220,
+        boxShadow: '0 12px 30px oklch(0% 0 0 / 0.08)',
+      }}
+    >
+      <div className="font-display" style={{ color: 'var(--ink-950)', fontSize: 'var(--text-sm)', fontWeight: 600, marginBottom: 8 }}>
+        {title}
+      </div>
+      <div style={{ display: 'grid', gap: 6 }}>
+        {rows.map((row) => (
+          <div key={`${title}-${row.label}`} style={{ display: 'grid', gap: 2 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12 }}>
+              <span style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{row.label}</span>
+              <span style={{ color: 'var(--ink-900)', fontSize: 'var(--text-sm)', fontWeight: 600 }}>{row.value}</span>
+            </div>
+            <div style={{ color: 'var(--ink-400)', fontSize: '0.68rem', lineHeight: 1.45 }}>{row.help}</div>
+          </div>
+        ))}
+      </div>
+      {note ? <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', lineHeight: 1.55, marginTop: 10 }}>{note}</div> : null}
+    </div>
+  );
+}
+
 function sentimentStyle(value: string) {
   return {
     color: SENTIMENT_COLORS[value] ?? 'var(--ink-500)',
@@ -452,6 +507,35 @@ function sentimentStyle(value: string) {
     border: `1px solid color-mix(in oklch, ${SENTIMENT_COLORS[value] ?? 'var(--ink-300)'} 30%, var(--ink-100))`,
   };
 }
+
+const UNIVERSE_TABLE_HEADERS = [
+  { label: 'Company', hint: 'Issuer name plus ticker. Hover row values to see why the company made the 50-name cut.' },
+  { label: 'Country', hint: 'Primary listing or operating geography used to map cross-border exposure and non-U.S. concentration.' },
+  { label: 'Category', hint: 'Where the stock sits in the AI stack: compute, memory, optics, packaging, test, foundry, or systems.' },
+  { label: 'Conf', hint: 'Confidence tier for the evidence map. A = strongest direct reconstruction, B = strong adjacency, C = weaker but still relevant.' },
+  { label: 'Risk', hint: 'Internal 0-10 score for execution, valuation, cyclicality, and thesis fragility. Higher means more ways the thesis can break.' },
+  { label: 'Hormuz', hint: 'Internal 0-10 score for how much a Hormuz / energy / freight shock can hit the name through shipping, chemicals, or power costs.' },
+  { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
+  { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
+  { label: '180d', hint: 'Directional six-month view from the report. This is qualitative, not a price target.' },
+  { label: 'Signal', hint: 'One-line summary of what the four-account research set is actually saying about the stock.' },
+];
+
+const HORMUZ_TABLE_HEADERS = [
+  { label: 'Bucket', hint: 'Supply-chain layer grouped by how a Hormuz disruption tends to propagate through it.' },
+  { label: 'Primary effect', hint: 'First-order impact that hits immediately after shipping, energy, or insurance stress rises.' },
+  { label: '2nd-order effect', hint: 'Operational consequence after companies start reacting to the first-order shock.' },
+  { label: '3rd-order effect', hint: 'Equity and competitive consequence once capital, share gains, and valuation dispersion kick in.' },
+];
+
+const PORTFOLIO_TABLE_HEADERS = [
+  { label: 'Company', hint: 'Holding name inside the selected portfolio basket.' },
+  { label: 'Ticker', hint: 'Trading symbol used in the downloadable universe and the appendix.' },
+  { label: 'Weight', hint: 'Target position size inside the basket. Larger weights mean the portfolio is leaning harder on that thesis.' },
+  { label: 'Risk', hint: 'Same 0-10 risk score used in the universe table, applied here at the holding level.' },
+  { label: 'Hormuz', hint: 'Same 0-10 Hormuz sensitivity score, useful for understanding macro fragility inside each basket.' },
+  { label: 'AI', hint: 'Same 0-10 AI sensitivity score, showing how directly the holding benefits from AI demand staying strong.' },
+];
 
 export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
   const [categoryFilter, setCategoryFilter] = useState('All');
@@ -870,7 +954,23 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <YAxis dataKey="country" type="category" tick={{ fill: 'var(--ink-600)', fontSize: 12 }} width={110} />
                   <Tooltip
                     cursor={{ fill: 'color-mix(in oklch, var(--accent) 12%, transparent)' }}
-                    contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null;
+                      const item = payload[0]?.payload as { country: string; count: number };
+                      return (
+                        <ChartTooltipCard
+                          title={item.country}
+                          rows={[
+                            {
+                              label: 'Tracked stocks',
+                              value: String(item.count),
+                              help: 'Count of names in the 50-stock universe primarily mapped to this geography.',
+                            },
+                          ]}
+                          note="Use this to see where political, manufacturing, or listing exposure is concentrated across the universe."
+                        />
+                      );
+                    }}
                   />
                   <Bar dataKey="count" radius={[0, 6, 6, 0]} fill="var(--accent)" />
                 </BarChart>
@@ -885,7 +985,23 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <YAxis dataKey="category" type="category" tick={{ fill: 'var(--ink-600)', fontSize: 12 }} width={120} />
                   <Tooltip
                     cursor={{ fill: 'color-mix(in oklch, var(--accent) 12%, transparent)' }}
-                    contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null;
+                      const item = payload[0]?.payload as { category: string; count: number };
+                      return (
+                        <ChartTooltipCard
+                          title={item.category}
+                          rows={[
+                            {
+                              label: 'Tracked stocks',
+                              value: String(item.count),
+                              help: 'Count of names in this AI-stack bucket after the four-account refresh.',
+                            },
+                          ]}
+                          note="This shows which part of the stack the research set is leaning toward. Larger bars mean denser mention frequency or stronger adjacency."
+                        />
+                      );
+                    }}
                   />
                   <Bar dataKey="count" radius={[0, 6, 6, 0]}>
                     {categoryChartData.map((entry) => (
@@ -926,14 +1042,38 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <ZAxis type="number" dataKey="size" range={[90, 500]} />
                   <Tooltip
                     cursor={{ strokeDasharray: '3 3' }}
-                    contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
-                    formatter={(value, name) => {
-                      const numericValue = typeof value === 'number' ? value : Number(value ?? 0);
-                      return [name === 'return90' ? formatPercent(numericValue) : numericValue.toFixed(1), String(name)];
-                    }}
-                    labelFormatter={(_, payload) => {
-                      const item = payload?.[0]?.payload;
-                      return item ? `${item.company} (${item.ticker})` : '';
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null;
+                      const item = payload[0]?.payload as {
+                        company: string;
+                        ticker: string;
+                        risk: number;
+                        return90: number;
+                        size: number;
+                      };
+                      return (
+                        <ChartTooltipCard
+                          title={`${item.company} (${item.ticker})`}
+                          rows={[
+                            {
+                              label: 'Risk score',
+                              value: item.risk.toFixed(1),
+                              help: 'Higher means more execution, valuation, cyclicality, or concentration risk on the report’s 0-10 scale.',
+                            },
+                            {
+                              label: '90d return',
+                              value: formatPercent(item.return90),
+                              help: 'Trailing three-month share-price move. This shows what the market already repriced.',
+                            },
+                            {
+                              label: 'AI sensitivity',
+                              value: `${item.size.toFixed(1)}/10`,
+                              help: 'Bubble size proxy. Higher means the name is more directly levered to AI demand staying strong.',
+                            },
+                          ]}
+                          note="Upper-right bubbles combine stronger recent performance with higher risk. Larger bubbles are more directly tied to AI demand."
+                        />
+                      );
                     }}
                   />
                   <Scatter name="Universe" data={scatterData}>
@@ -952,7 +1092,23 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <XAxis type="number" domain={[0, 10]} tick={{ fill: 'var(--ink-500)', fontSize: 12 }} />
                   <YAxis dataKey="category" type="category" tick={{ fill: 'var(--ink-600)', fontSize: 12 }} width={130} />
                   <Tooltip
-                    contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null;
+                      const item = payload[0]?.payload as { category: string; exposure: number };
+                      return (
+                        <ChartTooltipCard
+                          title={item.category}
+                          rows={[
+                            {
+                              label: 'Average exposure',
+                              value: `${item.exposure.toFixed(1)}/10`,
+                              help: 'Category-average score for shipping, energy, freight, insurance, and supply-chain sensitivity to a Hormuz shock.',
+                            },
+                          ]}
+                          note="This is an average for the category, not a single-stock prediction. Higher bars mean the bucket is structurally more macro-sensitive."
+                        />
+                      );
+                    }}
                   />
                   <Bar dataKey="exposure" radius={[0, 6, 6, 0]} fill="oklch(70% 0.14 35)" />
                 </BarChart>
@@ -965,7 +1121,25 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <CartesianGrid strokeDasharray="2 4" stroke="var(--ink-100)" />
                   <XAxis dataKey="horizon" tick={{ fill: 'var(--ink-500)', fontSize: 12 }} />
                   <YAxis tick={{ fill: 'var(--ink-500)', fontSize: 12 }} />
-                  <Tooltip contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }} />
+                  <Tooltip
+                    content={({ active, payload, label }) => {
+                      if (!active || !payload?.length) return null;
+                      const rows = payload
+                        .filter((entry) => Number(entry.value ?? 0) > 0)
+                        .map((entry) => ({
+                          label: String(entry.name),
+                          value: String(entry.value),
+                          help: 'Number of stocks carrying this directional view at the selected horizon.',
+                        }));
+                      return (
+                        <ChartTooltipCard
+                          title={`${label} outlook`}
+                          rows={rows}
+                          note="This summarizes the directional skew of the whole universe at each horizon. It is a count of report views, not a probability distribution."
+                        />
+                      );
+                    }}
+                  />
                   {Object.keys(SENTIMENT_COLORS).map((sentiment) => (
                     <Bar key={sentiment} dataKey={sentiment} stackId="outlook" fill={SENTIMENT_COLORS[sentiment]} />
                   ))}
@@ -980,12 +1154,28 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   <XAxis type="number" tickFormatter={(value) => `${value}%`} tick={{ fill: 'var(--ink-500)', fontSize: 12 }} />
                   <YAxis dataKey="ticker" type="category" tick={{ fill: 'var(--ink-600)', fontSize: 12 }} width={80} />
                   <Tooltip
-                    contentStyle={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 8 }}
-                    formatter={(value) => {
-                      const numericValue = typeof value === 'number' ? value : Number(value ?? 0);
-                      return [`${numericValue.toFixed(1)}%`, 'Weight'];
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null;
+                      const item = payload[0]?.payload as { company: string; ticker: string; weight: number };
+                      return (
+                        <ChartTooltipCard
+                          title={item.company}
+                          rows={[
+                            {
+                              label: 'Ticker',
+                              value: item.ticker,
+                              help: 'Trading symbol used throughout the universe table and appendix.',
+                            },
+                            {
+                              label: 'Portfolio weight',
+                              value: `${item.weight.toFixed(1)}%`,
+                              help: 'Target allocation in the selected basket. Larger weights mean higher conviction or fewer close substitutes.',
+                            },
+                          ]}
+                          note="This shows how concentrated the selected portfolio is. Bigger bars mean the thesis is leaning more on that holding."
+                        />
+                      );
                     }}
-                    labelFormatter={(_, payload) => payload?.[0]?.payload?.company ?? ''}
                   />
                   <Bar dataKey="weight" radius={[0, 6, 6, 0]}>
                     {portfolioChartData.map((entry) => (
@@ -1121,9 +1311,9 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead style={{ position: 'sticky', top: 0, zIndex: 1 }}>
                   <tr style={{ background: 'var(--surface-sunken)' }}>
-                    {['Company', 'Country', 'Category', 'Conf', 'Risk', 'Hormuz', 'AI', '90d', '180d', 'Signal'].map((header) => (
+                    {UNIVERSE_TABLE_HEADERS.map((header) => (
                       <th
-                        key={header}
+                        key={header.label}
                         style={{
                           padding: '14px 12px',
                           textAlign: 'left',
@@ -1134,7 +1324,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                           borderBottom: '1px solid var(--ink-100)',
                         }}
                       >
-                        {header}
+                        <HoverExplain hint={header.hint}>{header.label}</HoverExplain>
                       </th>
                     ))}
                   </tr>
@@ -1143,29 +1333,55 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   {filteredStocks.map((stock) => (
                     <tr key={stock.ticker_display} style={{ borderBottom: '1px solid var(--ink-100)' }}>
                       <td style={{ padding: '14px 12px', verticalAlign: 'top', minWidth: 220 }}>
-                        <div style={{ fontWeight: 600, color: 'var(--ink-950)' }}>{stock.company}</div>
-                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginTop: 2 }}>{stock.ticker_display}</div>
+                        <div style={{ fontWeight: 600, color: 'var(--ink-950)' }}>
+                          <HoverExplain hint={`${stock.company} is included because it sits in the AI supply-chain map as ${stock.position}.`}>
+                            {stock.company}
+                          </HoverExplain>
+                        </div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginTop: 2 }}>
+                          <HoverExplain hint={`Ticker symbol for ${stock.company}.`}>{stock.ticker_display}</HoverExplain>
+                        </div>
                       </td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', minWidth: 130 }}>{stock.country}</td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', minWidth: 130 }}>
+                        <HoverExplain hint={`${stock.country} is the primary geography used to map listing, policy, and supply-chain exposure for this name.`}>
+                          {stock.country}
+                        </HoverExplain>
+                      </td>
                       <td style={{ padding: '14px 12px', minWidth: 140 }}>
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            padding: '5px 8px',
-                            borderRadius: 999,
-                            fontSize: 'var(--text-xs)',
-                            background: `color-mix(in oklch, ${CATEGORY_COLORS[stock.category] ?? 'var(--accent)'} 12%, var(--surface-raised))`,
-                            color: 'var(--ink-700)',
-                          }}
-                        >
-                          {stock.category_label}
-                        </span>
+                        <HoverExplain hint={`${stock.category_label} describes where ${stock.company} sits in the AI stack.`}>
+                          <span
+                            style={{
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              padding: '5px 8px',
+                              borderRadius: 999,
+                              fontSize: 'var(--text-xs)',
+                              background: `color-mix(in oklch, ${CATEGORY_COLORS[stock.category] ?? 'var(--accent)'} 12%, var(--surface-raised))`,
+                              color: 'var(--ink-700)',
+                            }}
+                          >
+                            {stock.category_label}
+                          </span>
+                        </HoverExplain>
                       </td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{stock.confidence}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{stock.riskScore}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{stock.hormuzScore}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{stock.aiScore}</td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`Confidence ${stock.confidence}. ${stock.confidence_note}`}>{stock.confidence}</HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`Risk ${stock.riskScore}/10. Higher means more execution, valuation, concentration, or cycle risk in this thesis.`}>
+                          {stock.riskScore}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`Hormuz sensitivity ${stock.hormuzScore}/10. Higher means more exposure to shipping, freight, energy, chemicals, or insurance shocks.`}>
+                          {stock.hormuzScore}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`AI sensitivity ${stock.aiScore}/10. Higher means the stock is more directly levered to sustained AI demand.`}>
+                          {stock.aiScore}
+                        </HoverExplain>
+                      </td>
                       <td
                         style={{
                           padding: '14px 12px',
@@ -1173,22 +1389,28 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                           fontWeight: 600,
                         }}
                       >
-                        {formatPercent(stock.return90)}
+                        <HoverExplain hint={`Trailing 90-day return for ${stock.company}. This is backward-looking market performance, not the report’s forward stance.`}>
+                          {formatPercent(stock.return90)}
+                        </HoverExplain>
                       </td>
                       <td style={{ padding: '14px 12px' }}>
-                        <span
-                          style={{
-                            ...sentimentStyle(stock['180d']),
-                            padding: '4px 8px',
-                            borderRadius: 999,
-                            fontSize: 'var(--text-xs)',
-                          }}
-                        >
-                          {stock['180d']}
-                        </span>
+                        <HoverExplain hint={`180-day view for ${stock.company}: ${stock['180d']}. This is the report’s qualitative six-month direction, not a price target.`}>
+                          <span
+                            style={{
+                              ...sentimentStyle(stock['180d']),
+                              padding: '4px 8px',
+                              borderRadius: 999,
+                              fontSize: 'var(--text-xs)',
+                            }}
+                          >
+                            {stock['180d']}
+                          </span>
+                        </HoverExplain>
                       </td>
                       <td style={{ padding: '14px 12px', color: 'var(--ink-600)', minWidth: 360, lineHeight: 1.6 }}>
-                        {stock.x_signal}
+                        <HoverExplain hint={`Short-form signal for ${stock.company}. Open the appendix for the complete thesis, bear case, and drop trigger.`}>
+                          {stock.x_signal}
+                        </HoverExplain>
                       </td>
                     </tr>
                   ))}
@@ -1253,9 +1475,9 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ background: 'var(--surface-sunken)' }}>
-                    {['Bucket', 'Primary effect', '2nd-order effect', '3rd-order effect'].map((header) => (
+                    {HORMUZ_TABLE_HEADERS.map((header) => (
                       <th
-                        key={header}
+                        key={header.label}
                         style={{
                           padding: '14px 12px',
                           textAlign: 'left',
@@ -1265,7 +1487,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                           color: 'var(--ink-500)',
                         }}
                       >
-                        {header}
+                        <HoverExplain hint={header.hint}>{header.label}</HoverExplain>
                       </th>
                     ))}
                   </tr>
@@ -1273,10 +1495,26 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                 <tbody>
                   {HORMUZ_BUCKETS.map((bucket) => (
                     <tr key={bucket.bucket} style={{ borderTop: '1px solid var(--ink-100)' }}>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-950)', fontWeight: 600 }}>{bucket.bucket}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>{bucket.primary}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>{bucket.second}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>{bucket.third}</td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-950)', fontWeight: 600 }}>
+                        <HoverExplain hint={`Supply-chain bucket: ${bucket.bucket}. This groups together similar first-, second-, and third-order effects from a Hormuz shock.`}>
+                          {bucket.bucket}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>
+                        <HoverExplain hint="Primary effect = the immediate operational or cost impact after a shipping and energy shock.">
+                          {bucket.primary}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>
+                        <HoverExplain hint="Second-order effect = what happens after companies begin reacting to the initial shock through inventory, contracts, or routing changes.">
+                          {bucket.second}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-600)', lineHeight: 1.6 }}>
+                        <HoverExplain hint="Third-order effect = the equity and competitive outcome once the shock reshapes market share, pricing power, or capital allocation.">
+                          {bucket.third}
+                        </HoverExplain>
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -1308,7 +1546,12 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   >
                     <div>
                       <div style={{ color: 'var(--ink-950)', fontWeight: 600 }}>
-                        {stock.company} <span style={{ color: 'var(--ink-500)', fontWeight: 500 }}>{stock.ticker_display}</span>
+                        <HoverExplain hint={`${stock.company} ranks highly on the Hormuz score because it carries more shipping, freight, energy, or chemical sensitivity than most names in the set.`}>
+                          {stock.company}
+                        </HoverExplain>{' '}
+                        <span style={{ color: 'var(--ink-500)', fontWeight: 500 }}>
+                          <HoverExplain hint={`Ticker symbol for ${stock.company}.`}>{stock.ticker_display}</HoverExplain>
+                        </span>
                       </div>
                       <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{stock.category_label}</div>
                     </div>
@@ -1323,6 +1566,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                         color: 'var(--ink-900)',
                         fontWeight: 700,
                       }}
+                      title={`Hormuz sensitivity ${stock.hormuzScore}/10. Higher means more exposure to freight, energy, shipping, or insurance stress if the chokepoint tightens.`}
                     >
                       {stock.hormuzScore}
                     </div>
@@ -1387,21 +1631,32 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                   >
                     <div>
                       <div style={{ color: 'var(--ink-950)', fontWeight: 600 }}>
-                        {stock.company} <span style={{ color: 'var(--ink-500)', fontWeight: 500 }}>{stock.ticker_display}</span>
+                        <HoverExplain hint={`${stock.company} ranks near the top of the AI-sensitivity scale because more of the equity thesis depends on sustained AI demand.`}>
+                          {stock.company}
+                        </HoverExplain>{' '}
+                        <span style={{ color: 'var(--ink-500)', fontWeight: 500 }}>
+                          <HoverExplain hint={`Ticker symbol for ${stock.company}.`}>{stock.ticker_display}</HoverExplain>
+                        </span>
                       </div>
                       <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{stock.category_label}</div>
                     </div>
-                    <span style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>AI {stock.aiScore}/10</span>
-                    <span
-                      style={{
-                        ...sentimentStyle(stock['90d']),
-                        padding: '4px 8px',
-                        borderRadius: 999,
-                        fontSize: 'var(--text-xs)',
-                      }}
-                    >
-                      {stock['90d']}
+                    <span style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>
+                      <HoverExplain hint={`AI sensitivity ${stock.aiScore}/10. Higher means the stock is more directly exposed to AI buildout and inference demand.`}>
+                        AI {stock.aiScore}/10
+                      </HoverExplain>
                     </span>
+                    <HoverExplain hint={`90-day report view for ${stock.company}: ${stock['90d']}.`}>
+                      <span
+                        style={{
+                          ...sentimentStyle(stock['90d']),
+                          padding: '4px 8px',
+                          borderRadius: 999,
+                          fontSize: 'var(--text-xs)',
+                        }}
+                      >
+                        {stock['90d']}
+                      </span>
+                    </HoverExplain>
                   </div>
                 ))}
               </div>
@@ -1476,9 +1731,9 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ background: 'var(--surface-sunken)' }}>
-                    {['Company', 'Ticker', 'Weight', 'Risk', 'Hormuz', 'AI'].map((header) => (
+                    {PORTFOLIO_TABLE_HEADERS.map((header) => (
                       <th
-                        key={header}
+                        key={header.label}
                         style={{
                           padding: '14px 12px',
                           textAlign: 'left',
@@ -1488,7 +1743,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                           color: 'var(--ink-500)',
                         }}
                       >
-                        {header}
+                        <HoverExplain hint={header.hint}>{header.label}</HoverExplain>
                       </th>
                     ))}
                   </tr>
@@ -1496,12 +1751,34 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                 <tbody>
                   {activePortfolioView.holdings.map((holding) => (
                     <tr key={`${activePortfolioView.name}-${holding.ticker_display}`} style={{ borderTop: '1px solid var(--ink-100)' }}>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-950)', fontWeight: 600 }}>{holding.company}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-500)' }}>{holding.ticker_display}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{formatPercent(holding.weight * 100)}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{holding.riskScore}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{holding.hormuzScore}</td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>{holding.aiScore}</td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-950)', fontWeight: 600 }}>
+                        <HoverExplain hint={`${holding.company} appears in ${activePortfolioView.name} because it fits that basket’s risk / bottleneck profile.`}>
+                          {holding.company}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-500)' }}>
+                        <HoverExplain hint={`Ticker symbol for ${holding.company}.`}>{holding.ticker_display}</HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`${formatPercent(holding.weight * 100)} of the selected portfolio is allocated to ${holding.company}.`}>
+                          {formatPercent(holding.weight * 100)}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`Risk ${holding.riskScore}/10 for ${holding.company}. Higher means more thesis fragility.`}>
+                          {holding.riskScore}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`Hormuz sensitivity ${holding.hormuzScore}/10 for ${holding.company}.`}>
+                          {holding.hormuzScore}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
+                        <HoverExplain hint={`AI sensitivity ${holding.aiScore}/10 for ${holding.company}.`}>
+                          {holding.aiScore}
+                        </HoverExplain>
+                      </td>
                     </tr>
                   ))}
                 </tbody>
