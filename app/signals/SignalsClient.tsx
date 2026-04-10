@@ -113,42 +113,47 @@ const HORIZONS: HorizonKey[] = ['30d', '90d', '120d', '180d'];
 
 const BOTTOM_LINE_POINTS = [
   {
-    title: 'What Zephyr and Jukan are actually focused on',
+    title: 'What The Four Feeds Converge On',
     body:
-      'The discussion set is one connected AI-infrastructure system: GPUs and custom silicon, HBM and NAND, foundry and advanced packaging, optics, and the Asian substrate / PCB / systems stack that turns capex into clusters.',
+      'The revised discussion set is still one connected AI-infrastructure system, but the Alea and Insane additions make photonics, test, and compound-semiconductor materials much more central than they looked in the original two-account cut.',
   },
   {
-    title: 'The highest-quality expression',
+    title: 'What Changed After The Refresh',
     body:
-      'The best risk-adjusted names are still the tollbooths: TSMC, Samsung, SK hynix, AMAT, ASML, and the hyperscaler balance sheets that can keep spending through supply shocks.',
+      'The biggest shift is away from generic AI capex and toward specific optical chokepoints: CW lasers, InP materials, SOI wafers, SiPh testing, and specialty foundry lines. The data set now leans much harder into that stack.',
   },
   {
-    title: 'Where the upside and fragility concentrate',
+    title: 'What Still Has The Best Risk Profile',
     body:
-      'The highest-beta part of the page lives in controllers, hybrid bonding, opticals, and smaller Asian PCB / assembly names where the upside can be large, but policy and logistics matter far more.',
+      'The safer way to express the same themes is still through tollbooths such as TSMC, memory leaders, semicap, and hyperscaler balance sheets. The new optics names increase upside, but they also raise fragility.',
   },
 ];
 
 const ACCOUNT_THEMES = [
   {
-    title: '1. Memory has broken out of the old cycle',
+    title: '1. Memory still looks structural, not purely cyclical',
     body:
-      'Both accounts repeatedly return to the idea that HBM and high-value memory are no longer trading like commodity DRAM. Supply discipline, prepayments, and next-gen HBM transitions are changing the shape of the cycle.',
+      'Jukan and Zephyr still anchor the memory call: HBM, LTAs, and prepayments have changed the shape of the cycle. The newer feeds did not invalidate that view; they simply pushed more attention toward optics and test.',
   },
   {
-    title: '2. Packaging is still the binding bottleneck',
+    title: '2. Packaging and test still gate what actually ships',
     body:
-      'The bottleneck is not just leading-edge logic. Hybrid bonding, advanced substrate capacity, testing, and packaging materials still decide which clusters actually ship and when.',
+      'The binding constraint is not just leading-edge logic. Hybrid bonding, advanced substrates, SiPh alignment, and test capacity still decide which clusters actually get built and cleared into revenue.',
   },
   {
-    title: '3. Inference economics are shifting',
+    title: '3. Photonics moved from side theme to first-order bottleneck',
     body:
-      'The edge is moving from raw GPU-hours to system efficiency. Prefill/decode separation, caching, MoE routing, and cluster orchestration reward the names exposed to bandwidth, latency, and custom silicon.',
+      'Adding Alea and Insane shifts the page toward CW lasers, InP substrates, specialty foundries, optical packaging, and the small suppliers that can choke large cloud programs despite tiny market caps.',
   },
   {
-    title: '4. China is a wildcard, not a side note',
+    title: '4. Custom-silicon ecosystems matter more than before',
     body:
-      'China appears as both demand substitute and supply-chain risk. Export controls, localization, and domestic capacity growth change who gets paid and how much optionality remains in the cross-border stack.',
+      'The revised set is less merchant-GPU monoculture. TPU, Trainium, Maia, neoclouds, and specialty foundry / optical dependencies now shape which suppliers rerate and why.',
+  },
+  {
+    title: '5. Geopolitics can still overpower the micro thesis',
+    body:
+      'Hormuz, China export controls, and Europe’s war sensitivity still matter. The newer feeds do not reduce macro risk; they mostly show where the most fragile and valuable bottlenecks sit when macro stress hits.',
   },
 ];
 
@@ -714,7 +719,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               marginBottom: 'var(--space-lg)',
             }}
           >
-            What Zephyr and Jukan have been saying about AI, semis, memory, and the war premium
+            What four X analysts have been saying about AI, semis, photonics, and the war premium
           </h1>
           <p
             style={{
@@ -725,9 +730,10 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               marginBottom: 'var(--space-xl)',
             }}
           >
-            This is a native research page built from the reconstructed 90-day public discussion set. It tracks 50 stocks across
-            compute, memory, semicap, packaging, optics, systems assembly, and the Asia-heavy substrate chain, then layers in Strait
-            of Hormuz risk, AI inference architecture shifts, and risk-ranked portfolio construction.
+            This is a native research page built from a reconstructed 90-day public discussion set across @zephyr_z9,
+            @jukan05, @insane_analyst, and @aleabitoreddit. It tracks 50 stocks across compute, memory, semicap,
+            packaging, optics, specialty materials, systems assembly, and the Asia-heavy substrate chain, then layers in
+            Strait of Hormuz risk, AI inference architecture shifts, and risk-ranked portfolio construction.
           </p>
 
           <div className="grid md:grid-cols-2 xl:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
@@ -780,7 +786,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
                 fontWeight: 600,
               }}
             >
-              Open archived HTML
+              Open legacy HTML snapshot
             </Link>
           </div>
         </div>

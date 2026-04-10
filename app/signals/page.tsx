@@ -6,7 +6,7 @@ import SignalsClient, { type SignalStock } from './SignalsClient';
 export const metadata: Metadata = {
   title: 'X Signals, AI Supply Chains, and Hormuz',
   description:
-    '50-stock cross-border AI supply-chain report reconstructed from Zephyr and Jukan discussion, with portfolios, Hormuz scenarios, and inference-trend analysis.',
+    '50-stock cross-border AI supply-chain report reconstructed from Zephyr, Jukan, Insane Analyst, and Alea discussion, with portfolios, Hormuz scenarios, and inference-trend analysis.',
 };
 
 async function loadStocks(): Promise<SignalStock[]> {
