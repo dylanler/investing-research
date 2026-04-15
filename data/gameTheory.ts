@@ -67,4 +67,18 @@ export const gameTheoryData: PayoffMatrixData[] = [
     actualOutcome: [1, 0],
     lesson: 'ASML captures <3% of the value it creates. $400M tool enables $14.3B downstream. "Most generous company in the world." Prediction: prices rise 2028-2030 as demand becomes undeniable.',
   },
+  {
+    id: 'software-repricing',
+    title: 'The Software Repricing Game',
+    description: 'AI application vendors vs enterprise buyers: who captures the productivity gains?',
+    players: ['SaaS Incumbents', 'Enterprise Buyers'],
+    strategies: [['Defend Legacy Pricing', 'Bundle AI + Reprice'], ['Keep Full Seat Count', 'Consolidate Seats / Build Around']],
+    payoffs: [
+      [[7, 4], [3, 9]],
+      [[8, 7], [6, 8]],
+    ],
+    nashEquilibrium: [1, 1],
+    actualOutcome: [1, 1],
+    lesson: 'The likely equilibrium is bundled AI with lower per-seat economics and more seat consolidation. Value shifts away from every standalone software multiple and toward users, locked-in incumbents, and bottleneck suppliers that face less substitution pressure.',
+  },
 ];

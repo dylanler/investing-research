@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
 import { beneficiaryData } from '@/data/beneficiaries';
+import { publicMarketSnapshot, publicMarketSnapshotAsOf } from '@/data/marketSnapshot';
 
 function exchangeFromTicker(ticker: string): string {
   if (ticker.endsWith('.T')) return 'TSE';
@@ -29,7 +30,7 @@ export default function BeneficiaryTables() {
     <SectionWrapper id="beneficiaries">
       <SectionTitle
         title="100 Companies to Watch"
-        subtitle="10 bottleneck categories. 5 public + 5 private companies each. Sorted by who benefits when each bottleneck clears."
+        subtitle="10 bottleneck categories. Public names now show a current price plus USD market cap snapshot, while private, acquired, and subsidiary names stay in the mix for the same bottleneck."
       />
 
       {/* Tabs — editorial underline nav */}
@@ -121,86 +122,112 @@ export default function BeneficiaryTables() {
                 }}
               />
             </h4>
+            <p
+              style={{
+                fontSize: 'var(--text-xs)',
+                color: 'var(--ink-400)',
+                marginTop: 0,
+                marginBottom: 'var(--space-sm)',
+              }}
+            >
+              Prices use the local listing or ADR quote. Market caps are normalized to USD. Refreshed {publicMarketSnapshotAsOf}.
+            </p>
             <div>
               {category.companies
                 .filter((c) => c.isPublic)
-                .map((company) => (
-                  <div
-                    key={company.name}
-                    style={{
-                      padding: 'var(--space-sm) 0',
-                      borderBottom: '1px solid var(--ink-100)',
-                    }}
-                  >
-                    <div className="flex items-start justify-between gap-4">
-                      <div className="flex-1 min-w-0">
-                        <div
-                          className="flex items-center flex-wrap"
-                          style={{ gap: 'var(--space-xs)', marginBottom: '2px' }}
-                        >
-                          <span
+                .map((company) => {
+                  const marketData = company.ticker ? publicMarketSnapshot[company.ticker] : undefined;
+
+                  return (
+                    <div
+                      key={company.name}
+                      style={{
+                        padding: 'var(--space-sm) 0',
+                        borderBottom: '1px solid var(--ink-100)',
+                      }}
+                    >
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1 min-w-0">
+                          <div
+                            className="flex items-center flex-wrap"
+                            style={{ gap: 'var(--space-xs)', marginBottom: '2px' }}
+                          >
+                            <span
+                              style={{
+                                fontWeight: 600,
+                                color: 'var(--ink-900)',
+                                fontSize: 'var(--text-base)',
+                              }}
+                            >
+                              {company.name}
+                            </span>
+                            {company.ticker && (
+                              <span
+                                style={{
+                                  padding: '1px 6px',
+                                  borderRadius: 3,
+                                  fontSize: 'var(--text-xs)',
+                                  fontFamily: 'monospace',
+                                  background: 'color-mix(in srgb, var(--accent) 8%, transparent)',
+                                  color: 'var(--accent)',
+                                  fontWeight: 500,
+                                }}
+                              >
+                                {company.ticker}
+                              </span>
+                            )}
+                            {company.ticker && (
+                              <span
+                                style={{
+                                  padding: '1px 5px',
+                                  borderRadius: 3,
+                                  fontSize: '10px',
+                                  background: 'var(--ink-100)',
+                                  color: 'var(--ink-500)',
+                                  fontWeight: 500,
+                                }}
+                              >
+                                {exchangeFromTicker(company.ticker)}
+                              </span>
+                            )}
+                          </div>
+                          <p
                             style={{
-                              fontWeight: 600,
-                              color: 'var(--ink-900)',
-                              fontSize: 'var(--text-base)',
+                              fontSize: 'var(--text-sm)',
+                              color: 'var(--ink-500)',
+                              margin: 0,
                             }}
                           >
-                            {company.name}
-                          </span>
-                          {company.ticker && (
-                            <span
-                              style={{
-                                padding: '1px 6px',
-                                borderRadius: 3,
-                                fontSize: 'var(--text-xs)',
-                                fontFamily: 'monospace',
-                                background: 'color-mix(in srgb, var(--accent) 8%, transparent)',
-                                color: 'var(--accent)',
-                                fontWeight: 500,
-                              }}
-                            >
-                              {company.ticker}
-                            </span>
-                          )}
-                          {company.ticker && (
-                            <span
-                              style={{
-                                padding: '1px 5px',
-                                borderRadius: 3,
-                                fontSize: '10px',
-                                background: 'var(--ink-100)',
-                                color: 'var(--ink-500)',
-                                fontWeight: 500,
-                              }}
-                            >
-                              {exchangeFromTicker(company.ticker)}
-                            </span>
-                          )}
+                            {company.why}
+                          </p>
                         </div>
-                        <p
-                          style={{
-                            fontSize: 'var(--text-sm)',
-                            color: 'var(--ink-500)',
-                            margin: 0,
-                          }}
-                        >
-                          {company.why}
-                        </p>
-                      </div>
-                      <div className="text-right shrink-0">
-                        <div
-                          style={{
-                            fontSize: 'var(--text-sm)',
-                            fontFamily: 'monospace',
-                            color: 'var(--ink-600)',
-                          }}
-                        >
-                          {company.marketCap}
+                        <div className="text-right shrink-0">
+                          {marketData?.price && (
+                            <div
+                              style={{
+                                fontSize: 'var(--text-sm)',
+                                fontFamily: 'monospace',
+                                color: 'var(--ink-800)',
+                              }}
+                            >
+                              Px {marketData.price}
+                            </div>
+                          )}
+                          <div
+                            style={{
+                              fontSize: 'var(--text-xs)',
+                              fontFamily: 'monospace',
+                              color: 'var(--ink-500)',
+                              marginTop: marketData?.price ? '2px' : 0,
+                            }}
+                          >
+                            MCap {marketData?.marketCap ?? company.marketCap}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
             </div>
           </div>
 
@@ -219,7 +246,7 @@ export default function BeneficiaryTables() {
                 gap: 'var(--space-sm)',
               }}
             >
-              Private / Subsidiary
+              Private / Acquired / Subsidiary
               <span
                 style={{
                   flex: 1,

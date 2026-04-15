@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import argparse
 import csv
+from datetime import datetime
 import json
 import math
 from pathlib import Path
@@ -10,17 +12,8 @@ import yfinance as yf
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SITE_ROOT = REPO_ROOT / "ai-compute-bottleneck"
-ROOT_DATA_DIR = REPO_ROOT / "data" / "twitter_ai_stock_report_2026_04_09"
-PUBLIC_DATA_DIR = (
-    SITE_ROOT
-    / "public"
-    / "reports"
-    / "twitter-ai-supply-chain"
-    / "data"
-    / "twitter_ai_stock_report_2026_04_09"
-)
-BASE_STOCKS_PATH = PUBLIC_DATA_DIR / "stocks.json"
-BASE_SOURCES_PATH = PUBLIC_DATA_DIR / "source_clusters.json"
+REPORT_PREFIX = "twitter_ai_stock_report_"
+DEFAULT_BASE_REPORT_ID = f"{REPORT_PREFIX}2026_04_09"
 
 
 FIELD_ORDER = [
@@ -672,6 +665,27 @@ def market_snapshot(symbol: str) -> dict[str, float]:
     }
 
 
+def report_data_dir(report_id: str, *, public: bool) -> Path:
+    if public:
+        return SITE_ROOT / "public" / "reports" / "twitter-ai-supply-chain" / "data" / report_id
+    return REPO_ROOT / "data" / report_id
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Refresh the four-account AI supply-chain report bundle.")
+    parser.add_argument(
+        "--report-id",
+        default=f"{REPORT_PREFIX}{datetime.now().strftime('%Y_%m_%d')}",
+        help="Output report directory name. Defaults to today's date.",
+    )
+    parser.add_argument(
+        "--base-report-id",
+        default=DEFAULT_BASE_REPORT_ID,
+        help="Existing report directory to use as the reconstruction base.",
+    )
+    return parser.parse_args()
+
+
 def apply_evidence(stock: dict[str, object], source_map: dict[str, dict[str, str]], extra_ids: list[str] | None = None) -> None:
     current = parse_evidence_ids(str(stock.get("evidence", "")))
     merged = dedupe(current + (extra_ids or []))
@@ -681,10 +695,19 @@ def apply_evidence(stock: dict[str, object], source_map: dict[str, dict[str, str
 
 
 def main() -> None:
-    source_map = json.loads(BASE_SOURCES_PATH.read_text())
+    args = parse_args()
+    base_public_dir = report_data_dir(args.base_report_id, public=True)
+    output_dirs = [
+        report_data_dir(args.report_id, public=False),
+        report_data_dir(args.report_id, public=True),
+    ]
+    base_stocks_path = base_public_dir / "stocks.json"
+    base_sources_path = base_public_dir / "source_clusters.json"
+
+    source_map = json.loads(base_sources_path.read_text())
     source_map.update(SOURCE_CLUSTER_ADDITIONS)
 
-    stocks = json.loads(BASE_STOCKS_PATH.read_text())
+    stocks = json.loads(base_stocks_path.read_text())
     stock_map = {stock["ticker_display"]: stock for stock in stocks if stock["ticker_display"] not in REMOVE_TICKERS}
 
     for ticker, update in UPDATE_MAP.items():
@@ -725,7 +748,7 @@ def main() -> None:
 
     final_stocks = [stock_map[ticker] for ticker in FINAL_ORDER]
 
-    for directory in [ROOT_DATA_DIR, PUBLIC_DATA_DIR]:
+    for directory in output_dirs:
         directory.mkdir(parents=True, exist_ok=True)
         (directory / "stocks.json").write_text(json.dumps(final_stocks, indent=2))
         (directory / "source_clusters.json").write_text(json.dumps(source_map, indent=2))
@@ -735,7 +758,7 @@ def main() -> None:
             for stock in final_stocks:
                 writer.writerow({field: stock.get(field, "") for field in FIELD_ORDER})
 
-    print(f"Wrote {len(final_stocks)} stocks.")
+    print(f"Wrote {len(final_stocks)} stocks to {args.report_id}.")
     print("New names:", ", ".join(sorted(NEW_STOCKS)))
 
 

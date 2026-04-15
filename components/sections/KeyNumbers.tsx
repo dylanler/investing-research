@@ -15,7 +15,7 @@ export default function KeyNumbers() {
       <SectionTitle
         number="01"
         title="The Numbers That Matter"
-        subtitle="Key metrics from the AI compute supply chain — extracted from SemiAnalysis data, validated against ASML, TSMC, and IEA public filings."
+        subtitle="Key metrics from the AI compute supply chain, cross-checked against the latest ASML, TSMC, IEA, and market-data snapshots used on this page."
       />
       <div ref={ref} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0" style={{ borderTop: '1px solid var(--ink-100)' }}>
         {keyNumbers.map((stat, i) => (

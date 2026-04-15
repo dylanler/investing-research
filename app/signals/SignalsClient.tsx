@@ -83,8 +83,6 @@ type SortKey = 'risk-desc' | 'return-desc' | 'volatility-desc' | 'ai-desc' | 'ho
 type HorizonKey = '30d' | '90d' | '120d' | '180d';
 
 const REPORT_BASE = '/reports/twitter-ai-supply-chain';
-const CSV_URL = `${REPORT_BASE}/data/twitter_ai_stock_report_2026_04_09/twitter_ai_stock_universe.csv`;
-const JSON_URL = `${REPORT_BASE}/data/twitter_ai_stock_report_2026_04_09/source_clusters.json`;
 const ARCHIVE_URL = `${REPORT_BASE}/index.html`;
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -113,19 +111,42 @@ const HORIZONS: HorizonKey[] = ['30d', '90d', '120d', '180d'];
 
 const BOTTOM_LINE_POINTS = [
   {
-    title: 'What The Four Feeds Converge On',
+    title: 'What The Feeds And Lyn Alden Converge On',
     body:
-      'The revised discussion set is still one connected AI-infrastructure system, but the Alea and Insane additions make photonics, test, and compound-semiconductor materials much more central than they looked in the original two-account cut.',
+      'The AI buildout is still one connected infrastructure system, but value does not flow evenly to every model or application vendor. The most durable capture still sits with scarce bottlenecks, hyperscalers that can redeploy capex at scale, and enterprises using AI to cut internal cost.',
   },
   {
-    title: 'What Changed After The Refresh',
+    title: 'Why Software Is Repricing',
     body:
-      'The biggest shift is away from generic AI capex and toward specific optical chokepoints: CW lasers, InP materials, SOI wafers, SiPh testing, and specialty foundry lines. The data set now leans much harder into that stack.',
+      'The threat is not that SaaS disappears tomorrow. The threat is fewer seats, more bundled AI, lower switching costs, and easier build-around competition. That compresses multiples even before the reported revenue line actually breaks.',
   },
   {
     title: 'What Still Has The Best Risk Profile',
     body:
-      'The safer way to express the same themes is still through tollbooths such as TSMC, memory leaders, semicap, and hyperscaler balance sheets. The new optics names increase upside, but they also raise fragility.',
+      'Tollbooths such as TSMC, memory leaders, semicap, power, and balance-sheet-heavy hyperscalers still look cleaner than fragile application stories. The market can be right on AI demand and still wrong on where the equity upside lands.',
+  },
+];
+
+const ALDEN_OVERLAY = [
+  {
+    title: 'Users May Capture More Than Vendors',
+    body:
+      'Lyn Alden’s framing is that AI looks more like a productivity layer than a social-network moat. Switching costs are lower, capex is heavier, and the cleanest value capture may sit with the companies using AI to compress cost rather than with every company selling AI itself.',
+  },
+  {
+    title: 'Software Is In Repricing, Not Extinction',
+    body:
+      'Seat-based software can still throw off revenue and cash flow, but the market now has to underwrite fewer seats, more bundled AI, and more build-around risk. That argues for caution on pure software multiples and a preference for locked front ends and strong distribution.',
+  },
+  {
+    title: 'Robotics Is Later Than Chat',
+    body:
+      'The near-term economic impact is white-collar automation and slower hiring, not humanoids everywhere. Field robotics still runs into energy density, safety, latency, and edge-case reliability constraints, so treat the robotics flywheel as slower than the chatbot and agent flywheel.',
+  },
+  {
+    title: 'Macro Still Amplifies Scarce Bottlenecks',
+    body:
+      'A gradual-print, deficit-grinding, energy-sensitive backdrop means inflation shows up in scarce assets and real chokepoints, not evenly across CPI. That keeps the case alive for memory, packaging, EUV, power, and quality balance sheets when the market starts discounting straight-line AI demand.',
   },
 ];
 
@@ -146,14 +167,19 @@ const ACCOUNT_THEMES = [
       'Adding Alea and Insane shifts the page toward CW lasers, InP substrates, specialty foundries, optical packaging, and the small suppliers that can choke large cloud programs despite tiny market caps.',
   },
   {
-    title: '4. Custom-silicon ecosystems matter more than before',
+    title: '4. AI adoption may benefit users more than vendors',
     body:
-      'The revised set is less merchant-GPU monoculture. TPU, Trainium, Maia, neoclouds, and specialty foundry / optical dependencies now shape which suppliers rerate and why.',
+      'The revised set is less merchant-GPU monoculture and less app-layer triumphalism. TPU, Trainium, Maia, neoclouds, and enterprise cost compression all point toward a world where hyperscalers and adopters capture a larger share of AI economics than many standalone software vendors do.',
   },
   {
-    title: '5. Geopolitics can still overpower the micro thesis',
+    title: '5. Software multiples are resetting before revenue does',
     body:
-      'Hormuz, China export controls, and Europe’s war sensitivity still matter. The newer feeds do not reduce macro risk; they mostly show where the most fragile and valuable bottlenecks sit when macro stress hits.',
+      'This matters for relative valuation even inside an otherwise bullish AI regime. Revenue can hold up for a while, but if the market starts underwriting fewer seats, lower pricing power, and easier substitution, the multiple can still compress hard.',
+  },
+  {
+    title: '6. Macro and geopolitics can still overpower the micro thesis',
+    body:
+      'Hormuz, China export controls, Europe’s war sensitivity, and Lyn Alden’s gradual-print backdrop all matter at the same time. The point is not just that bottlenecks exist, but that macro stress makes the scarce ones matter more and reprices the fragile ones faster.',
   },
 ];
 
@@ -192,6 +218,16 @@ const HORMUZ_BUCKETS = [
 
 const AI_TRENDS = [
   {
+    title: 'White-collar automation before robotics',
+    body:
+      'The first economic effect is slower hiring and more backend efficiency, not humanoids replacing the physical workforce overnight. That supports enterprise adopters, hyperscalers, and infrastructure suppliers before it supports broad robotics exuberance.',
+  },
+  {
+    title: 'Software seat compression and repricing',
+    body:
+      'AI can let one employee do the work of several, which means many enterprises may need fewer software seats rather than simply pay more for the same stack. That is why application-software multiples can reset even while AI usage rises.',
+  },
+  {
     title: 'MoE and sparsity',
     body:
       'Good for Broadcom, Marvell, Arm, GUC, and hyperscalers because routing and custom silicon matter more. Still good for NVIDIA near term because orchestration and HBM remain scarce.',
@@ -214,7 +250,7 @@ const AI_TRENDS = [
   {
     title: 'CPO, optics, and ASIC growth',
     body:
-      'Optical content helps Lumentum and peers if copper loses share. ASIC growth is good for Broadcom, GUC, Arm, and design-service houses, while pressuring any stock priced as if all inference spend must stay on merchant GPUs forever.',
+      'Optical content helps Lumentum and peers if copper loses share. ASIC growth is good for Broadcom, GUC, Arm, and design-service houses, while pressuring any stock priced as if all inference spend must stay on merchant GPUs forever. It also fits the broader Alden point that AI value capture broadens outward into users and infrastructure rather than concentrating cleanly in one layer.',
   },
 ];
 
@@ -223,7 +259,7 @@ const PORTFOLIOS: PortfolioConfig[] = [
     name: 'Risk 3 / Tollbooths',
     risk: 3,
     thesis:
-      "Own the highest-quality bottlenecks and hyperscaler balance sheets. This is the lowest-beta way to express the tweets' core view that AI capex remains structurally large.",
+      "Own the highest-quality bottlenecks and hyperscaler balance sheets. This is the lowest-beta way to express the view that AI capex remains structurally large, but that value capture accrues more to tollbooths and adopters than to generic software multiples.",
     weights: {
       '2330.TW': 0.12,
       NVDA: 0.08,
@@ -246,7 +282,7 @@ const PORTFOLIOS: PortfolioConfig[] = [
     name: 'Risk 5 / Balanced Buildout',
     risk: 5,
     thesis:
-      "Blend the obvious winners with the packaging and custom-silicon second derivative names. This is the main expression of the accounts' 2026 AI infrastructure view.",
+      "Blend the obvious winners with the packaging and custom-silicon second-derivative names. This is the main expression of the 2026 AI infrastructure view once you accept that users, hyperscalers, and bottleneck suppliers may capture more value than many app-layer vendors.",
     weights: {
       NVDA: 0.1,
       MU: 0.07,
@@ -274,7 +310,7 @@ const PORTFOLIOS: PortfolioConfig[] = [
     name: 'Risk 7 / Memory + Packaging',
     risk: 7,
     thesis:
-      'Concentrate on the exact places where the tweets were most bullish: memory pricing, HBM, hybrid bonding, and AI package complexity.',
+      'Concentrate on the exact places where pricing power can survive even if AI app-layer margins compress: memory pricing, HBM, hybrid bonding, and AI package complexity.',
     weights: {
       MU: 0.1,
       '005930.KS': 0.1,
@@ -303,7 +339,7 @@ const PORTFOLIOS: PortfolioConfig[] = [
     name: 'Risk 9 / Asia Levered Edge',
     risk: 9,
     thesis:
-      'Maximum beta to Asian manufacturing, optical content, and system assembly. Highest upside if AI buildout accelerates; most exposed if geopolitics or logistics break.',
+      'Maximum beta to Asian manufacturing, optical content, and system assembly. Highest upside if AI buildout accelerates and Asia keeps clearing bottlenecks; most exposed if geopolitics, logistics shocks, or software-multiple de-rating dominate the tape.',
     weights: {
       '300750.SZ': 0.08,
       '8299.TWO': 0.06,
@@ -580,13 +616,23 @@ const PORTFOLIO_TABLE_HEADERS = [
   { label: 'AI', hint: 'Same 0-10 AI sensitivity score, showing how directly the holding benefits from AI demand staying strong.' },
 ];
 
-export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
+export default function SignalsClient({
+  stocks,
+  reportId,
+  reportLabel,
+}: {
+  stocks: SignalStock[];
+  reportId: string;
+  reportLabel: string;
+}) {
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [confidenceFilter, setConfidenceFilter] = useState('All');
   const [sortKey, setSortKey] = useState<SortKey>('risk-desc');
   const [query, setQuery] = useState('');
   const [activePortfolio, setActivePortfolio] = useState(PORTFOLIOS[0].name);
   const deferredQuery = useDeferredValue(query);
+  const csvUrl = `${REPORT_BASE}/data/${reportId}/twitter_ai_stock_universe.csv`;
+  const jsonUrl = `${REPORT_BASE}/data/${reportId}/source_clusters.json`;
 
   const parsedStocks = useMemo<ParsedStock[]>(
     () =>
@@ -860,8 +906,36 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
             This is a native research page built from a reconstructed 90-day public discussion set across @zephyr_z9,
             @jukan05, @insane_analyst, and @aleabitoreddit. It tracks 50 stocks across compute, memory, semicap,
             packaging, optics, specialty materials, systems assembly, and the Asia-heavy substrate chain, then layers in
-            Strait of Hormuz risk, AI inference architecture shifts, and risk-ranked portfolio construction.
+            Strait of Hormuz risk, AI inference architecture shifts, risk-ranked portfolio construction, and a Lyn Alden
+            macro/value-accrual overlay on where AI economics may actually land.
           </p>
+
+          <div
+            style={{
+              maxWidth: 920,
+              marginBottom: 'var(--space-xl)',
+              padding: '16px 18px',
+              borderRadius: 10,
+              border: '1px solid var(--ink-100)',
+              background: 'var(--surface-raised)',
+              color: 'var(--ink-600)',
+              fontSize: 'var(--text-sm)',
+              lineHeight: 1.75,
+            }}
+          >
+            Overlay update: the interpretation layer below now incorporates Lyn Alden&apos;s April 2026 discussion of
+            software repricing, backend productivity capture, robotics pacing, and gradual-print macro. The stock
+            universe snapshot now reflects the {reportLabel} refresh. The downloadable CSV and JSON are current; the
+            linked HTML archive remains the older static chart snapshot.{' '}
+            <a
+              href="https://www.youtube.com/watch?v=227anLxQ0mU"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 600 }}
+            >
+              Source interview
+            </a>
+          </div>
 
           <div className="grid md:grid-cols-2 xl:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
             {quickStats.map((stat) => (
@@ -871,7 +945,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
 
           <div className="flex flex-wrap" style={{ gap: 12 }}>
             <Link
-              href={CSV_URL}
+              href={csvUrl}
               target="_blank"
               style={{
                 padding: '12px 18px',
@@ -886,7 +960,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
               Download stock universe CSV
             </Link>
             <Link
-              href={JSON_URL}
+              href={jsonUrl}
               target="_blank"
               style={{
                 padding: '12px 18px',
@@ -924,11 +998,40 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
           <SectionHeader
             eyebrow="Bottom Line"
             title="The system is connected, and the bottlenecks still matter"
-            body="The bullish case is simple: demand for training and inference is still outrunning the supply chain's ability to clear bottlenecks. The bearish case is equally simple: a large part of the market is pricing a straight-line AI capex path and a smooth geopolitical backdrop, and neither is guaranteed."
+            body="The bullish case is still that training and inference demand outrun the supply chain's ability to clear bottlenecks. The newer overlay is that the market can be right on AI demand and still wrong on where the equity upside lands."
           />
 
           <div className="grid md:grid-cols-3" style={{ gap: 'var(--space-md)' }}>
             {BOTTOM_LINE_POINTS.map((point) => (
+              <div
+                key={point.title}
+                style={{
+                  padding: '22px',
+                  borderRadius: 10,
+                  border: '1px solid var(--ink-100)',
+                  background: 'var(--surface-raised)',
+                  boxShadow: '0 10px 30px oklch(0% 0 0 / 0.04)',
+                }}
+              >
+                <h3 className="font-display" style={{ fontSize: 'var(--text-xl)', color: 'var(--ink-950)', marginBottom: 'var(--space-sm)' }}>
+                  {point.title}
+                </h3>
+                <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', lineHeight: 1.75, margin: 0 }}>{point.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: '24px 24px 16px' }}>
+        <div className="max-w-6xl mx-auto">
+          <SectionHeader
+            eyebrow="Overlay"
+            title="Lyn Alden’s valuation and macro lens"
+            body="This discussion changes the interpretation layer more than the raw stock list. The key addition is that AI may behave less like a winner-take-all software moat and more like a productivity wave whose benefits spread outward into users, bottlenecks, and hard-to-recreate infrastructure."
+          />
+          <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-md)' }}>
+            {ALDEN_OVERLAY.map((point) => (
               <div
                 key={point.title}
                 style={{
@@ -1469,7 +1572,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
           <SectionHeader
             eyebrow="Narrative"
             title="What the accounts are actually saying"
-            body="The page is not just a stock screen. It encodes a repeated conversation pattern: memory tightness, packaging scarcity, inference-efficiency re-optimization, and China-related dispersion."
+            body="The page is not just a stock screen. It encodes a repeated conversation pattern: memory tightness, packaging scarcity, inference-efficiency re-optimization, software multiple reset, and macro-sensitive dispersion."
           />
           <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-md)' }}>
             {ACCOUNT_THEMES.map((theme) => (
@@ -1497,7 +1600,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
           <SectionHeader
             eyebrow="Geopolitics"
             title="Strait of Hormuz: traffic, game theory, and higher-order effects"
-            body="The baseline still matters: roughly 20.9 million barrels per day of oil and condensate and around 130–140 ships per day move through Hormuz in normal conditions. When the route tightens, the cost stack changes first, then supplier selection changes, then valuation dispersion follows."
+            body="The baseline still matters: roughly 20.9 million barrels per day of oil and condensate and around 130–140 ships per day move through Hormuz in normal conditions. In a gradual-print macro regime, an energy shock does not stay local: the cost stack changes first, then supplier selection changes, then valuation dispersion follows."
           />
 
           <div className="grid md:grid-cols-3" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-lg)' }}>
@@ -1624,9 +1727,9 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
       <section style={{ padding: '24px 24px 16px' }}>
         <div className="max-w-6xl mx-auto">
           <SectionHeader
-            eyebrow="Inference"
-            title="AI model and inference trends"
-            body="The page moves beyond “more FLOPs = more value.” It looks at where margin accrues as serving stacks become more efficient and more bandwidth-constrained."
+            eyebrow="Deployment"
+            title="AI deployment, value accrual, and robotics reality"
+            body="The page moves beyond “more FLOPs = more value.” It looks at where margin accrues as serving stacks become more efficient, why software multiples can still compress, and why physical robotics likely lags the economics of white-collar automation."
           />
           <div className="grid lg:grid-cols-[1.25fr_0.95fr]" style={{ gap: 'var(--space-lg)' }}>
             <div className="grid sm:grid-cols-2" style={{ gap: 'var(--space-md)' }}>
@@ -1713,7 +1816,7 @@ export default function SignalsClient({ stocks }: { stocks: SignalStock[] }) {
           <SectionHeader
             eyebrow="Portfolios"
             title="Four ways to express the same thesis"
-            body="Each basket is built from the same 50 names. The difference is how much packaging, memory, Asia logistics, and architecture risk it is willing to absorb."
+            body="Each basket is built from the same 50 names. The difference is how much packaging, memory, Asia logistics, architecture risk, and valuation compression risk it is willing to absorb."
           />
 
           <div className="flex flex-wrap" style={{ gap: 10, marginBottom: 'var(--space-lg)' }}>

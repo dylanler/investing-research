@@ -15,7 +15,7 @@ export default function GameTheory() {
     <SectionWrapper id="game-theory">
       <SectionTitle
         title="Game Theory of the AI Compute Race"
-        subtitle="Strategic dynamics between labs, chip makers, and nations. Hover over cells to explore payoffs."
+        subtitle="Strategic dynamics between labs, chip makers, enterprise buyers, and nations. Hover over cells to explore payoffs."
       />
 
       {/* Game selector tabs */}
