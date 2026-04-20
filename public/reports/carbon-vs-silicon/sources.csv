@@ -1,0 +1,28 @@
+tag,title,url,used_for
+H0,Tweet screenshot (uploaded by user),local-upload:/mnt/data/Screenshot 2026-04-20 at 11.36.20 AM.png,Project inspiration and the framing quote.
+H1,BEA Consumer Spending page,https://www.bea.gov/index.php/data/consumer-spending/main,Methodology note that BEA underlying detail tables exist and that detailed estimates are less reliable than higher aggregates.
+H2,BEA FAQ 84 on detailed PCE estimates and the PCE Bridge,https://www.bea.gov/help/faq/84,Methodological limit: Table 2.4.5U is the most detailed current time-series PCE table; benchmark-year bridge provides more commodity detail.
+H3,FRED / BEA Table 2.4.5 Personal Consumption Expenditures by Type of Product (2025 annual),https://fred.stlouisfed.org/release/tables?eid=44183&rid=53,"All 2025 and 2024 human consumption amounts in the page, including the top-100 current published series."
+S1,"TrendForce press-center listing for Jan. 6, 2025 AI server outlook",https://www.trendforce.com/presscenter/news/Semiconductors?page=21,Anchor for the modeled silicon basket: AI-server-related industry value of US$298B in 2025 and AI servers above 70% of server-industry value.
+S2,TrendForce: Strong Demand from CSPs and Sovereign Cloud to Drive Over 20% Growth in AI Server Shipments by 2026,https://www.trendforce.com/presscenter/news/20251030-12762.html,"2025 AI server revenue almost +48%, 2026 AI servers 74% of server-market value, NVIDIA ~70% AI-chip share in 2025, and HBM demand +130% from 2025 AI-chip shipments."
+S3,IDC 4Q25 Worldwide Server Tracker press release,https://www.idc.com/resource-center/press-releases/4q25servertracker/,"Official 2025 global server market result ($444.1B, +80.4%) plus IDC server-system taxonomy."
+S4,IDC Servers Market Insights,https://www.idc.com/promo/servers/,Context that AI infrastructure buildout remained the dominant force in late 2025.
+S5,IDC Ethernet switch market size and growth blog,https://www.idc.com/resource-center/blog/ethernet-switch-market-size-and-growth-datacenter-segment-surges-60-in-q4-as-ai-workloads-expand/,Network-growth signal: datacenter Ethernet switch market growth and 800G mix.
+S6,TrendForce memory revenue outlook (HBM / DRAM / NAND),https://www.trendforce.com/presscenter/news/20240722-12228.html,"Memory-market context, including DRAM 2025 revenue outlook and the role of HBM."
+S7,SEMI 2025 semiconductor equipment billings,https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025,"Packaging/test capacity signal: assembly & packaging +21%, test +55% in 2025."
+S8,TrendForce 2Q25 enterprise SSD revenue update,https://www.trendforce.com/presscenter/news/20250908-12703.html,Storage demand signal: top-five enterprise SSD revenue +12.7% QoQ in 2Q25.
+S9,TrendForce 3Q25 enterprise SSD revenue update,https://www.trendforce.com/presscenter/news/20251205-12819.html,Storage demand signal: top-five enterprise SSD revenue +28% in 3Q25.
+S10,TrendForce 3Q25 NAND-flash demand update,https://www.trendforce.com/presscenter/news/20251203-12813.html,NAND demand context from continuing AI-infrastructure buildout.
+S11,TrendForce nearline HDD shortages / QLC SSD breakout note,https://www.trendforce.com/presscenter/news/20250915-12714.html,HDD supply stress and QLC SSD adoption signal.
+S12,SIA global semiconductor sales 2025,https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/,Semiconductor macro context: 2025 sales total and logic/memory leadership.
+S13,Broadcom OFC 2026 AI infrastructure portfolio,https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai,"Examples of live AI-infrastructure goods: 102.4T switch, 800G NIC, optics, PCIe, co-packaged optics."
+C1,Walmart FY2026 revenue / company overview note,https://corporate.walmart.com/news/2026/02/19/walmart-raises-annual-dividend-to-0-99-per-share-marking-53rd-consecutive-year-of-dividend-increases,Walmart revenue scale and company profile.
+C2,Eli Lilly fourth-quarter and full-year 2025 results,https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides,Lilly revenue scale and pharma exposure.
+C3,Nestlé full-year 2025 results,https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2025,Nestlé revenue scale and category exposure.
+C4,Novartis annual results 2025,https://www.novartis.com/Investors/financial-data/Annual-results,Novartis revenue scale and pharma exposure.
+C5,NVIDIA fiscal 2026 results,https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026,NVIDIA revenue and data-center exposure.
+C6,Broadcom Q1 FY2026 results,https://investors.broadcom.com/node/63976/pdf,Broadcom AI revenue and custom-accelerator / networking exposure.
+C7,TSMC December 2025 revenue report,https://pr.tsmc.com/english/news/3278,TSMC 2025 revenue scale.
+C8,TSMC Q4 2025 results,https://pr.tsmc.com/english/news/3281,TSMC advanced-node mix (77% of Q4 wafer revenue).
+C9,SK hynix FY2025 results,https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/,SK hynix revenue scale and AI-memory/HBM exposure.
+C10,Broadcom OFC 2026 AI infrastructure portfolio,https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai,"Broadcom product-level AI-infrastructure examples (switches, NICs, optics, PCIe)."

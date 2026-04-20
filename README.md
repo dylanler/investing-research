@@ -30,11 +30,16 @@ Based on Dylan Patel (SemiAnalysis CEO) interview on the Dwarkesh Podcast, suppl
 ## Getting Started
 
 ```bash
+nvm use
 npm install
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Node Version
+
+This repo is pinned to **Node 22.18.0** via `.nvmrc`.
 
 ## Deploy
 

@@ -248,6 +248,7 @@ export default function Home() {
           <Link href="/analysis" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Analysis</Link>
           <Link href="/ondas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Ondas</Link>
           <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
+          <Link href="/carbon-vs-silicon" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Carbon vs Silicon</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -307,8 +308,8 @@ export default function Home() {
               fontSize: 'var(--text-lg)', color: 'var(--ink-500)',
               lineHeight: 1.65, maxWidth: 560, margin: '0 auto var(--space-2xl)',
             }}>
-              Seven research reports spanning semiconductor bottlenecks, robotics,
-              inference scaling, and cross-border equity signals.
+              Eight research reports spanning semiconductor bottlenecks, robotics,
+              inference scaling, cross-border equity signals, and AI capital-allocation maps.
             </p>
           </Reveal>
 
@@ -408,7 +409,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Seven Research Reports</div>
+              }}>Eight Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -530,6 +531,23 @@ export default function Home() {
                     { label: 'Stocks', value: '50' },
                     { label: 'Non-US', value: '32' },
                     { label: 'Horizons', value: '4' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
+
+            <Reveal direction="right" delay={0.45}>
+              <ParallaxLayer speed={1.6}>
+                <TiltCard
+                  href="/carbon-vs-silicon"
+                  label="Report VIII"
+                  title="Carbon vs Silicon Consumption"
+                  subtitle="A source-backed comparison between official 2025 U.S. household demand and a modeled AI-cluster procurement basket, with charts, tables, source appendix, and stock proxies."
+                  accentColor="oklch(62% 0.16 60)"
+                  stats={[
+                    { label: 'Human PCE', value: '$20.95T' },
+                    { label: 'AI Basket', value: '$298B' },
+                    { label: 'Tables', value: '7+' },
                   ]}
                 />
               </ParallaxLayer>
