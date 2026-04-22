@@ -11,6 +11,7 @@ import BeneficiaryTables from '@/components/sections/BeneficiaryTables';
 import ASMLMultiplier from '@/components/sections/ASMLMultiplier';
 import USChinaRace from '@/components/sections/USChinaRace';
 import InvestmentImplications from '@/components/sections/InvestmentImplications';
+import BottleneckSectorBaskets from '@/components/sections/BottleneckSectorBaskets';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <ASMLMultiplier />
       <USChinaRace />
       <InvestmentImplications />
+      <BottleneckSectorBaskets />
 
       {/* Cross-links */}
       <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)' }}>

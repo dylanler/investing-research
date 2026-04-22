@@ -9,6 +9,7 @@ export const SECTIONS = [
   { id: 'asml-multiplier', label: 'ASML' },
   { id: 'us-china', label: 'US vs China' },
   { id: 'investment', label: 'Investment' },
+  { id: 'sector-baskets', label: 'Sector Baskets' },
 ] as const;
 
 export const COLORS = {
