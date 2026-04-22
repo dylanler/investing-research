@@ -1,0 +1,38 @@
+id,title,publisher,domain,type,used_for
+S01,"NVIDIA Vera Rubin DSX AI Factory reference design names Eaton, Schneider Electric and Vertiv ecosystem partners",NVIDIA / investor press release,investor.nvidia.com,Official,AI-factory power/cooling stack
+S02,NVIDIA Rubin platform broad ecosystem support including cloud providers and AI labs,NVIDIA / investor press release,investor.nvidia.com,Official,Downstream demand map
+S03,Eaton Beam Rubin DSX platform for grid-to-chip AI factories,Eaton press release,eaton.com,Official,Power infrastructure
+S04,Eaton acquires Boyd Thermal to expand liquid cooling for AI data centers,Eaton press release,eaton.com,Official,Cooling catalyst
+S05,Schneider Electric validated blueprints for AI factories with NVIDIA,Schneider Electric press release,se.com,Official,Power/cooling catalyst
+S06,Vertiv industrializes AI deployment and power/cooling design,Vertiv / 2026 trends,vertiv.com,Official,Facility power and cooling
+S07,TDK MLCC solutions for data-center (AI server) power systems,TDK article,tdk.com,Official,Passive content in AI power
+S08,TDK AI ecosystem / AI data-center power topology and TLVR inductors for server power circuits,TDK page,tdk.com,Official,Detailed passive placement
+S09,Murata data-center power stabilization / AI server power network materials,Murata pages and releases,murata.com,Official,MLCC and inductor relevance
+S10,KYOCERA AVX says generative AI and AI servers are driving MLCC demand,KYOCERA AVX release,kyocera-avx.com,Official,MLCC demand
+S11,Panasonic POSCAP applications include server and data-center power circuits,Panasonic Industry product pages,industry.panasonic.com,Official,Polymer capacitor relevance
+S12,"Nippon Chemi-Con maps where capacitors are used in generative-AI data centers, including UPS, AC/DC PSU and GPU-adjacent VRM",Nippon Chemi-Con article,chemi-con.co.jp,Official,Electrolytic/polymer capacitor placement
+S13,Nippon Chemi-Con introduces immersion-cooling compatible capacitors for servers,Nippon Chemi-Con release,chemi-con.co.jp,Official,Cooling-compatible passives
+S14,Samsung Electro-Mechanics releases high-capacitance MLCC for AI server power,Samsung Electro-Mechanics release,samsungsem.com,Official,MLCC AI-server demand
+S15,Samsung Electro-Mechanics says AI servers contain ~10x more MLCCs than general servers,Samsung Electro-Mechanics article,samsungsem.com,Official,Content multiplier
+S16,"Yageo AI page highlights thin-film resistors, inductors, KO-CAP and shunt resistors for AI/server systems",Yageo AI page,yageo.com,Official,Broad passive exposure
+S17,Yageo releases four-terminal shunt resistors for AI server PDU applications,Yageo press release,yageo.com,Official,Current-sense bottleneck
+S18,Walsin Technology notes AI demand is driving passive demand,Walsin Technology materials,walsin.com,Official,MLCC/resistor demand
+S19,Delta ORV3 family and 33kW/120kW shelves for AI servers,Delta product pages and OCP materials,deltaww.com,Official,Power shelf leverage
+S20,"Bel showcases power, connectivity and magnetics for high-density AI/cloud architectures",Bel press release,belfuse.com,Official,Bel Fuse exposure
+S21,Vicor says clustered AI processors require 48V architecture and currents approaching 100kA per cluster,Vicor technical article,vicorpower.com,Official,VRM bottleneck
+S22,Monolithic Power promotes ultra-high current-density modules for AI accelerator cards,MPS product page,monolithicpower.com,Official,High-current point-of-load
+S23,Jabil acquires Hanley Energy for AI data-center power management and grid-to-rack solutions,Jabil press release,jabil.com,Official,Jabil catalyst
+S24,Flex launches 800VDC Power Rack for NVIDIA Vera Rubin infrastructure,Flex press release,flex.com,Official,Rack power catalyst
+S25,Celestica collaborates with AMD on Helios rack-scale AI platform,Celestica press release,celestica.com,Official,Networking/rack catalyst
+S26,Wiwynn showcases NVIDIA Vera Rubin NVL72 AI Factory infrastructure,Wiwynn news,wiwynn.com,Official,ODM/rack catalyst
+S27,Foxconn shows full-system AI server racks for NVIDIA Vera Rubin NVL72 and modular data centers,Foxconn press release,honhai.com,Official,ODM/rack catalyst
+S28,LITEON and QCT demo a Vera Rubin NVL72 AI server solution with a 110kW power shelf at GTC 2026,LITEON press release,liteon.com,Official,Power shelf catalyst
+S29,"LITEON server power portfolio covers CRPS, GPU and slim supplies from general servers to AI servers",LITEON product page,liteon.com,Official,Server PSU leverage
+S30,Celestica says AI-related data-center demand is strengthening and raises 2026 outlook,Celestica results,celestica.com,Official,Demand confirmation
+S31,Epoch AI: hyperscaler capex has quadrupled since GPT-4’s release and is set to keep rising,Epoch AI analysis using filings,epoch.ai,Research,Demand backdrop
+S32,"S&P Global MI projects capex surge among Alphabet, Amazon and Microsoft and says AI demand exceeded available supply",S&P Global Market Intelligence,spglobal.com,Research,Demand + supply mismatch
+S33,Tom's Hardware summarizes FT/SynMax findings that ~40% of AI data-center construction sites may face delays,Tom's Hardware / FT / SynMax,tomshardware.com,News,Grid and construction bottlenecks
+S34,"Tom's Hardware reports AI demand is straining equipment, passive component and talent supply",Tom's Hardware / DigiTimes,tomshardware.com,News,Supply constraints
+S35,Barron's covers Schneider roadmap for Rubin-era liquid cooling and rack power density of 150kW+,Barron's,barrons.com,News,Cooling density
+S36,RBC Wealth notes the emerging 'data center power struggle',RBC Wealth Insights,rbcwealthmanagement.com,Research,Power bottleneck
+S37,ITIF report highlights AI data-center reliability and power concerns,ITIF,itif.org,Research,System-level constraints

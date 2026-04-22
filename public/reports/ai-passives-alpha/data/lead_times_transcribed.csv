@@ -1,0 +1,123 @@
+vendor,category,lead_time,trend,pricing,note,lt_min,lt_max,lt_mid,trend_up,pricing_up,note_flag,vendor_score
+Abracon,Capacitors - Supercapacitors,20-22,flat,flat,,20.0,22.0,21.0,0,0,0,22.211538461538463
+Abracon,Inductors / Transformers,18-22,flat,flat,,18.0,22.0,20.0,0,0,0,21.153846153846153
+AiSHi,Aluminum Electrolytic,14-16,flat,up,,14.0,16.0,15.0,0,1,0,30.865384615384613
+CTS,Resistor Networks,15-20,flat,up,,15.0,20.0,17.5,0,1,0,33.50961538461539
+Delevan,Inductors / Transformers,22-24,flat,flat,,22.0,24.0,23.0,0,0,0,24.326923076923077
+Eaton,Capacitors - Supercapacitors,10-20,flat,up,,10.0,20.0,15.0,0,1,0,30.865384615384613
+Eaton,Inductors / Transformers,12-16,flat,up,,12.0,16.0,14.0,0,1,0,29.807692307692307
+ELNA,Capacitors - Supercapacitors,20-30,flat,up,EOL announced for March 2026,20.0,30.0,25.0,0,1,1,51.44230769230769
+HALO Electronics,Inductors / Transformers,14-16,flat,up,,14.0,16.0,15.0,0,1,0,30.865384615384613
+KYOCERA AVX,Capacitors - Supercapacitors,14-16,flat,flat,,14.0,16.0,15.0,0,0,0,15.865384615384613
+KYOCERA AVX,Capacitors - Tantalum Molded,13-16,up,up,,13.0,16.0,14.5,1,1,0,50.33653846153846
+KYOCERA AVX,Capacitors - Tantalum Conformals,36,up,up,,36.0,36.0,36.0,1,1,0,73.07692307692307
+KYOCERA AVX,Capacitors - Polymer Tantalum,30,up,up,AI impact on deliveries; ex-Rohm devices with extended LT,30.0,30.0,30.0,1,1,1,76.73076923076923
+KYOCERA AVX,Surface Mount General Capacitors – Ceramic (Less than 1uf),24,up,up,FTZ product (additional 6 weeks+ LT),24.0,24.0,24.0,1,1,1,70.38461538461539
+KYOCERA AVX,Surface Mount General Capacitors – Ceramic (greater than 1uf),24,up,up,FTZ product (additional 6 weeks+ LT),24.0,24.0,24.0,1,1,1,70.38461538461539
+KYOCERA AVX,Surface Mount General Capacitors – Ceramic *Automotive grade,28,up,up,FTZ product (additional 6 weeks+ LT),28.0,28.0,28.0,1,1,1,74.61538461538461
+KYOCERA AVX,Leaded Capacitors - Ceramic,40,up,up,,40.0,40.0,40.0,1,1,0,77.3076923076923
+KYOCERA AVX,Specialty Capacitors,40,up,up,,40.0,40.0,40.0,1,1,0,77.3076923076923
+Murata,Filters,24,flat,flat,,24.0,24.0,24.0,0,0,0,25.384615384615387
+Murata,Inductors / Transformers,8-12,flat,up,,8.0,12.0,10.0,0,1,0,25.576923076923077
+Murata,Surface Mount General Capacitors – Ceramic (Less than 1uf),16-18,up,flat,,16.0,18.0,17.0,1,0,0,37.980769230769226
+Murata,Surface Mount General Capacitors – Ceramic (greater than 1uf),18-20,up,flat,,18.0,20.0,19.0,1,0,0,40.09615384615385
+Murata,Surface Mount General Capacitors – Ceramic *Automotive grade,20-24,up,flat,,20.0,24.0,22.0,1,0,0,43.269230769230774
+Murata,Leaded Capacitors - Ceramic,26,up,up,,26.0,26.0,26.0,1,1,0,62.5
+Murata,Specialty Capacitors,20,up,up,,20.0,20.0,20.0,1,1,0,56.15384615384615
+NIC Components,Aluminum Electrolytic,14-20,up,up,,14.0,20.0,17.0,1,1,0,52.980769230769226
+NIC Components,Filters,14-20,flat,up,,14.0,20.0,17.0,0,1,0,32.980769230769226
+NIC Components,Inductors / Transformers,14-20,flat,up,,14.0,20.0,17.0,0,1,0,32.980769230769226
+NIC Components,Thick Film Resistors,12-18,flat,flat,,12.0,18.0,15.0,0,0,0,15.865384615384613
+NIC Components,Thin Film Resistors,16-20,flat,flat,,16.0,20.0,18.0,0,0,0,19.038461538461537
+NIC Components,Current Sense Resistors,12-18,flat,flat,,12.0,18.0,15.0,0,0,0,15.865384615384613
+NIC Components,Surface Mount General Capacitors – Ceramic (Less than 1uf),14-18,up,flat,,14.0,18.0,16.0,1,0,0,36.92307692307692
+NIC Components,Surface Mount General Capacitors – Ceramic (greater than 1uf),14-18,up,flat,,14.0,18.0,16.0,1,0,0,36.92307692307692
+NIC Components,Surface Mount General Capacitors – Ceramic *Automotive grade,14-18,up,flat,,14.0,18.0,16.0,1,0,0,36.92307692307692
+NIC Components,Tantalum Capacitors,18-20,up,up,,18.0,20.0,19.0,1,1,0,55.09615384615385
+NIC Components,Leaded Capacitors - Ceramic,36,up,up,,36.0,36.0,36.0,1,1,0,73.07692307692307
+Nichicon,Aluminum Electrolytic,22-30,up,up,,22.0,30.0,26.0,1,1,0,62.5
+Panasonic Industry,Aluminum Electrolytic,18-40,flat,up,Selected aluminum polymers at 40wks+,18.0,40.0,29.0,0,1,1,55.67307692307692
+Panasonic Industry,Capacitors - Polymer Tantalum,30-46,up,up,AI impact on deliveries,30.0,46.0,38.0,1,1,1,85.1923076923077
+Panasonic Industry,Inductors / Transformers,23-25,flat,flat,,23.0,25.0,24.0,0,0,0,25.384615384615387
+Panasonic Industry,Thick Film Resistors,12-16,flat,up,,12.0,16.0,14.0,0,1,0,29.807692307692307
+Panasonic Industry,Thin Film Resistors,12-16,flat,flat,,12.0,16.0,14.0,0,0,0,14.807692307692307
+Panasonic Industry,Current Sense Resistors,30-48,flat,flat,,30.0,48.0,39.0,0,0,0,41.25
+Panasonic Industry,Resistor Networks,18-28,flat,flat,,18.0,28.0,23.0,0,0,0,24.326923076923077
+Piher,Trimmers & Pots,10-12,flat,up,,10.0,12.0,11.0,0,1,0,26.634615384615387
+Prosperity Dielectrics,Surface Mount General Capacitors – Ceramic,16-20,flat,flat,,16.0,20.0,18.0,0,0,0,19.038461538461537
+Pulse Electronics,Filters,14-16,flat,up,,14.0,16.0,15.0,0,1,0,30.865384615384613
+Pulse Electronics,Inductors / Transformers,8-12,flat,up,,8.0,12.0,10.0,0,1,0,25.576923076923077
+Quantic Paktron,Capacitors - Film,12-16,up,up,,12.0,16.0,14.0,1,1,0,49.80769230769231
+Quantic UTC,"MLCCs, Radial, Safety Caps",20-26,up,up,,20.0,26.0,23.0,1,1,0,59.32692307692308
+Quantic Eulex,High Frequency Ceramic Capacitors,20-26,up,up,,20.0,26.0,23.0,1,1,0,59.32692307692308
+Quantic Evans,Hybrid Wet Tantalums,30-40,up,up,,30.0,40.0,35.0,1,1,0,72.01923076923077
+ROHM,Thick Film Resistors,8-10,flat,flat,,8.0,10.0,9.0,0,0,0,9.519230769230768
+ROHM,Thin Film Resistors,8-10,flat,flat,,8.0,10.0,9.0,0,0,0,9.519230769230768
+ROHM,Current Sense Resistors,8-10,flat,flat,,8.0,10.0,9.0,0,0,0,9.519230769230768
+Samsung Electro-Mechanics,Thick Film Resistors,44-46,flat,flat,,44.0,46.0,45.0,0,0,0,47.59615384615385
+Samsung Electro-Mechanics,Thin Film Resistors,44-46,flat,flat,,44.0,46.0,45.0,0,0,0,47.59615384615385
+Samsung Electro-Mechanics,Surface Mount General Capacitors – Ceramic (Less than 1uf),20-24,up,flat,,20.0,24.0,22.0,1,0,0,43.269230769230774
+Samsung Electro-Mechanics,Surface Mount General Capacitors – Ceramic (greater than 1uf),20-24,up,up,,20.0,24.0,22.0,1,1,0,58.269230769230774
+Samsung Electro-Mechanics,Surface Mount General Capacitors – Ceramic *Automotive grade,20-24,up,up,,20.0,24.0,22.0,1,1,0,58.269230769230774
+Samwha USA,Surface Mount General Capacitors – Ceramic (Less than 1uf),14-16,up,flat,,14.0,16.0,15.0,1,0,0,35.86538461538461
+Samwha USA,Surface Mount General Capacitors – Ceramic (greater than 1uf),14-16,up,flat,,14.0,16.0,15.0,1,0,0,35.86538461538461
+Samwha USA,Surface Mount General Capacitors – Ceramic *Automotive grade,14-16,up,flat,,14.0,16.0,15.0,1,0,0,35.86538461538461
+Stackpole Electronics,Thick Film Resistors,14-16,flat,flat,,14.0,16.0,15.0,0,0,0,15.865384615384613
+Stackpole Electronics,Thin Film Resistors,8-12,flat,flat,,8.0,12.0,10.0,0,0,0,10.576923076923077
+Stackpole Electronics,Current Sense Resistors,18-20,flat,flat,,18.0,20.0,19.0,0,0,0,20.096153846153847
+Sumida,Inductors / Transformers,20-24,flat,up,,20.0,24.0,22.0,0,1,0,38.269230769230774
+Surge,Aluminum Electrolytic,16-18,flat,up,,16.0,18.0,17.0,0,1,0,32.980769230769226
+Surge,Capacitors - Film,14-20,flat,flat,,14.0,20.0,17.0,0,0,0,17.98076923076923
+Surge,Capacitors - Supercapacitors,18-26,flat,up,,18.0,26.0,22.0,0,1,0,38.269230769230774
+Susumu,Thin Film Resistors,16-20,flat,flat,,16.0,20.0,18.0,0,0,0,19.038461538461537
+Susumu,Current Sense Resistors,12-20,flat,flat,,12.0,20.0,16.0,0,0,0,16.923076923076923
+TAIYO YUDEN,Filters,20-26,up,up,,20.0,26.0,23.0,1,1,0,59.32692307692308
+TAIYO YUDEN,Hybrid Aluminum Polymer Capacitors,24-33,up,flat,,24.0,33.0,28.5,1,0,0,50.144230769230774
+TAIYO YUDEN,Inductors / Transformers,6-9,flat,up,,6.0,9.0,7.5,0,1,0,22.932692307692307
+TAIYO YUDEN,Surface Mount General Capacitors – Ceramic (Less than 1uf),16-20,up,up,,16.0,20.0,18.0,1,1,0,54.03846153846153
+TAIYO YUDEN,Surface Mount General Capacitors – Ceramic (greater than 1uf),22-24,up,up,,22.0,24.0,23.0,1,1,0,59.32692307692308
+TAIYO YUDEN,Surface Mount General Capacitors – Ceramic *Automotive grade,22-24,up,up,,22.0,24.0,23.0,1,1,0,59.32692307692308
+TDK,Filters,14-20,up,up,,14.0,20.0,17.0,1,1,0,52.980769230769226
+TDK,Inductors / Transformers,16-20,flat,up,,16.0,20.0,18.0,0,1,0,34.03846153846153
+TDK,Surface Mount General Capacitors – Ceramic (Less than 1uf),20-24,up,up,,20.0,24.0,22.0,1,1,0,58.269230769230774
+TDK,Surface Mount General Capacitors – Ceramic (greater than 1uf),20-24,up,up,,20.0,24.0,22.0,1,1,0,58.269230769230774
+TDK,Surface Mount General Capacitors – Ceramic *Automotive grade,20-24,up,up,,20.0,24.0,22.0,1,1,0,58.269230769230774
+TDK EPCOS,Capacitors - Film,24-45,up,up,,24.0,45.0,34.5,1,1,0,71.49038461538461
+TDK EPCOS,Filters,16-20,up,up,,16.0,20.0,18.0,1,1,0,54.03846153846153
+TT Electronics - BI Technologies,Trimmers & Pots,16-20,flat,flat,,16.0,20.0,18.0,0,0,0,19.038461538461537
+TT Electronics - IRC,Thick Film Resistors,20-40,flat,flat,,20.0,40.0,30.0,0,0,0,31.730769230769226
+TT Electronics - IRC,Thin Film Resistors,20-40,flat,flat,,20.0,40.0,30.0,0,0,0,31.730769230769226
+TT Electronics - IRC,Current Sense Resistors,20-52,flat,flat,,20.0,52.0,36.0,0,0,0,38.07692307692307
+United Chemi-Con,Aluminum Electrolytic,18-28,up,up,,18.0,28.0,23.0,1,1,0,59.32692307692308
+Viking,Thick Film Resistors,14-16,up,up,,14.0,16.0,15.0,1,1,0,50.86538461538461
+Viking,Thin Film Resistors,6-16,flat,flat,,6.0,16.0,11.0,0,0,0,11.634615384615385
+Viking,Current Sense Resistors,6-16,flat,flat,,6.0,16.0,11.0,0,0,0,11.634615384615385
+Viking,Surface Mount General Capacitors – Ceramic (Less than 1uf),12-14,up,flat,,12.0,14.0,13.0,1,0,0,33.75
+Viking,Surface Mount General Capacitors – Ceramic (greater than 1uf),12-14,up,flat,,12.0,14.0,13.0,1,0,0,33.75
+Vishay,Trimmers & Pots,10-20,flat,up,,10.0,20.0,15.0,0,1,0,30.865384615384613
+Vishay,Capacitors - Film,12-20,flat,up,,12.0,20.0,16.0,0,1,0,31.923076923076923
+Vishay,Capacitors - Supercapacitors,12-14,flat,up,,12.0,14.0,13.0,0,1,0,28.75
+Vishay,Capacitors - Tantalum Molded,20-30,up,up,,20.0,30.0,25.0,1,1,0,61.44230769230769
+Vishay,Capacitors - Tantalum Conformals,30-40,up,up,,30.0,40.0,35.0,1,1,0,72.01923076923077
+Vishay,Capacitors - Polymer Tantalum,50+,up,up,AI impact on deliveries,50.0,54.0,52.0,1,1,1,100.0
+Vishay,Inductors / Transformers,10-12,flat,up,,10.0,12.0,11.0,0,1,0,26.634615384615387
+Vishay,Thick Film Resistors,10-14,flat,flat,,10.0,14.0,12.0,0,0,0,12.692307692307693
+Vishay,Thin Film Resistors,8-12,flat,flat,,8.0,12.0,10.0,0,0,0,10.576923076923077
+Vishay,Current Sense Resistors,10-28,up,up,,10.0,28.0,19.0,1,1,0,55.09615384615385
+Vishay,Surface Mount General Capacitors – Ceramic (Less than 1uf),16-18,up,up,,16.0,18.0,17.0,1,1,0,52.980769230769226
+Vishay,Surface Mount General Capacitors – Ceramic (greater than 1uf),16-18,up,up,,16.0,18.0,17.0,1,1,0,52.980769230769226
+Vishay,Leaded Capacitors - Ceramic,24-30,up,up,,24.0,30.0,27.0,1,1,0,63.55769230769231
+Vishay,Specialty Capacitors,24-30,up,up,,24.0,30.0,27.0,1,1,0,63.55769230769231
+Walsin Technology Corporation,Surface Mount General Capacitors – Ceramic (Less than 1uf),16-20,up,up,,16.0,20.0,18.0,1,1,0,54.03846153846153
+Walsin Technology Corporation,Surface Mount General Capacitors – Ceramic (greater than 1uf),20-22,up,up,,20.0,22.0,21.0,1,1,0,57.21153846153847
+Walsin Technology Corporation,Surface Mount General Capacitors – Ceramic *Automotive grade,20-22,up,up,,20.0,22.0,21.0,1,1,0,57.21153846153847
+WIMA,Capacitors - Film,18-24,up,up,Some products have EOL raw materials and cannot support new orders on those values,18.0,24.0,21.0,1,1,1,67.21153846153847
+Würth Elektronik,Surface Mount General Capacitors,24-26,flat,flat,,24.0,26.0,25.0,0,0,0,26.442307692307693
+Würth Elektronik,Inductors / Transformers,26-32,flat,up,,26.0,32.0,29.0,0,1,0,45.67307692307692
+YAGEO,Thick Film Resistors,18-20,flat,flat,,18.0,20.0,19.0,0,0,0,20.096153846153847
+YAGEO,Thin Film Resistors,20-24,flat,flat,,20.0,24.0,22.0,0,0,0,23.26923076923077
+YAGEO,Current Sense Resistors,20-24,flat,flat,,20.0,24.0,22.0,0,0,0,23.26923076923077
+YAGEO,Resistor Networks,20-24,flat,flat,,20.0,24.0,22.0,0,0,0,23.26923076923077
+YAGEO,Surface Mount General Capacitors – Ceramic (Less than 1uf),22-24,up,flat,Included transit time; shipment by boat,22.0,24.0,23.0,1,0,1,54.32692307692308
+YAGEO,Surface Mount General Capacitors – Ceramic (greater than 1uf),22-24,up,flat,Included transit time; shipment by boat,22.0,24.0,23.0,1,0,1,54.32692307692308
+YAGEO,Surface Mount General Capacitors – Ceramic *Automotive grade,22-24,up,flat,Included transit time; shipment by boat,22.0,24.0,23.0,1,0,1,54.32692307692308

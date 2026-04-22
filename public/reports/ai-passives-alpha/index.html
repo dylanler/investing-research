@@ -1,0 +1,2573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Passives Residual Alpha Report (Revised)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root {
+  --bg:#f6f8fb;
+  --card:#ffffff;
+  --text:#13202f;
+  --muted:#5b6b7b;
+  --border:#d9e1ea;
+  --accent:#0a7cff;
+  --good:#0b7a0b;
+  --warn:#8a5a00;
+  --bad:#a62828;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.45;
+}
+header {
+  padding:32px 28px 18px;
+  background:linear-gradient(180deg,#0f2742 0%, #183b63 100%);
+  color:white;
+}
+header h1 {
+  margin:0 0 10px 0;
+  font-size:30px;
+}
+header p {
+  margin:0;
+  max-width:1050px;
+  color:#e8eef6;
+}
+main {
+  padding:22px 24px 48px;
+  max-width:1400px;
+  margin:0 auto;
+}
+.section {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:20px 22px;
+  margin-bottom:18px;
+}
+.section h2 {
+  margin:0 0 12px;
+  font-size:22px;
+}
+.section h3 {
+  margin:18px 0 10px;
+  font-size:18px;
+}
+.callout {
+  padding:14px 16px;
+  border-radius:12px;
+  border:1px solid #f0d5a8;
+  background:#fff8ea;
+  margin-bottom:12px;
+}
+.note {
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid #cfd9e5;
+  background:#f8fbff;
+  color:var(--muted);
+}
+.grid {
+  display:grid;
+  gap:14px;
+}
+.grid.cols-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+.grid.cols-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.grid.cols-4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+.card {
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:14px 16px;
+}
+.card .kpi {
+  font-size:28px;
+  font-weight:700;
+}
+.card .label {
+  color:var(--muted);
+  font-size:13px;
+}
+.tbl {
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+}
+.tbl th, .tbl td {
+  border-bottom:1px solid #e7edf5;
+  padding:8px 10px;
+  vertical-align:top;
+  text-align:left;
+}
+.tbl th {
+  position:sticky;
+  top:0;
+  background:#eff5fb;
+  font-weight:700;
+}
+.tbl tr:nth-child(even) td {
+  background:#fbfdff;
+}
+.tbl-wrap {
+  overflow:auto;
+  max-height:620px;
+  border:1px solid var(--border);
+  border-radius:12px;
+}
+img.chart {
+  width:100%;
+  height:auto;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:white;
+}
+.small {
+  font-size:13px;
+  color:var(--muted);
+}
+.badge {
+  display:inline-block;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#eef4ff;
+  border:1px solid #d7e6ff;
+  font-size:12px;
+  margin-right:6px;
+  margin-bottom:6px;
+}
+.links a {
+  display:inline-block;
+  margin-right:12px;
+  margin-bottom:8px;
+}
+.footer {
+  color:var(--muted);
+  font-size:13px;
+}
+@media (max-width: 980px) {
+  .grid.cols-2, .grid.cols-3, .grid.cols-4 {
+    grid-template-columns: 1fr;
+  }
+  header h1 { font-size:24px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>AI Passives Residual Alpha Report (Revised)</h1>
+  <p>This revision fixes the core mistake in the prior version. The first pass ranked strategic importance and bottleneck centrality. This pass ranks <strong>residual alpha</strong>: direct passive/power bottleneck exposure multiplied by hiddenness and near-term catalyst, then reduced by a hard penalty for stocks that already rerated and became consensus AI winners.</p>
+</header>
+<main>
+
+<div class="section">
+  <h2>What changed</h2>
+  <div class="callout">
+    <strong>Bel Fuse and Delta Electronics should not have been ranked #1.</strong> They are strategically important, but under your definition of alpha they are no longer hidden gems. This revision adds a rerating / crowding penalty and a bottleneck-closeness filter, which pushes already-rerated winners down and lifts underfollowed passive and power names.
+  </div>
+  <div class="grid cols-4">
+    <div class="card"><div class="kpi">#16</div><div class="label">Bel Fuse revised U.S. rank (was #1)</div></div>
+    <div class="card"><div class="kpi">#30</div><div class="label">Delta Electronics revised non-U.S. rank (was #1)</div></div>
+    <div class="card"><div class="kpi">#36</div><div class="label">Vertiv revised U.S. rank (was #9)</div></div>
+    <div class="card"><div class="kpi">#49</div><div class="label">Celestica revised non-U.S. rank (was #11)</div></div>
+  </div>
+  <h3>Correction table</h3>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Company</th>
+      <th>Prior rank</th>
+      <th>Revised rank</th>
+      <th>Residual alpha score</th>
+      <th>Why moved down</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bel Fuse</td>
+      <td>1</td>
+      <td>16</td>
+      <td>37.3</td>
+      <td>Directly relevant, but already rerated.</td>
+    </tr>
+    <tr>
+      <td>Delta Electronics</td>
+      <td>1</td>
+      <td>30</td>
+      <td>32.5</td>
+      <td>Core power winner, but no longer hidden.</td>
+    </tr>
+    <tr>
+      <td>Vertiv</td>
+      <td>9</td>
+      <td>36</td>
+      <td>19.1</td>
+      <td>Strategic winner, but crowded.</td>
+    </tr>
+    <tr>
+      <td>Celestica</td>
+      <td>11</td>
+      <td>49</td>
+      <td>2.1</td>
+      <td>Already recognized by market; low residual alpha.</td>
+    </tr>
+    <tr>
+      <td>Flex</td>
+      <td>7</td>
+      <td>38</td>
+      <td>24.2</td>
+      <td>Important infrastructure player, but rerated.</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+
+<div class="section">
+  <h2>Residual-alpha methodology</h2>
+  <div class="grid cols-3">
+    <div class="card"><strong>Step 1: Bottleneck severity</strong><br><span class="small">From your lead-time screenshots: longest lead times, most pricing-up arrows, and categories where shortages cluster.</span></div>
+    <div class="card"><strong>Step 2: AI stack closeness</strong><br><span class="small">Passives, current sensing, magnetics, PSU, IBC, VRM and rack-power names receive more weight than broad infrastructure or downstream beneficiaries.</span></div>
+    <div class="card"><strong>Step 3: Hiddenness / residual upside</strong><br><span class="small">Stocks already rerated hard are penalized, even if they remain strategically important. This is the key fix.</span></div>
+  </div>
+  <div class="note" style="margin-top:12px">
+    <strong>Residual alpha formula:</strong> bottleneck severity + centrality + catalyst + AI relevance + bottleneck closeness + hiddenness/focus bonus <em>minus</em> crowding and rerating penalty.
+  </div>
+</div>
+
+<div class="section">
+  <h2>Where the tightest passive bottlenecks sit</h2>
+  <div class="grid cols-3">
+
+    <div class="card">
+      <div class="label">Capacitors - Polymer Tantalum</div>
+      <div class="kpi">40.0w</div>
+      <div class="small">Average lead time • Pricing-up rate 100%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Capacitors - Tantalum Conformals</div>
+      <div class="kpi">35.5w</div>
+      <div class="small">Average lead time • Pricing-up rate 100%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Hybrid Wet Tantalums</div>
+      <div class="kpi">35.0w</div>
+      <div class="small">Average lead time • Pricing-up rate 100%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Leaded Capacitors - Ceramic</div>
+      <div class="kpi">32.2w</div>
+      <div class="small">Average lead time • Pricing-up rate 100%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Specialty Capacitors</div>
+      <div class="kpi">29.0w</div>
+      <div class="small">Average lead time • Pricing-up rate 100%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Hybrid Aluminum Polymer Capacitors</div>
+      <div class="kpi">28.5w</div>
+      <div class="small">Average lead time • Pricing-up rate 0%</div>
+    </div>
+
+  </div>
+  <h3>Bottleneck categories from the screenshot set</h3>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>vendors</th>
+      <th>avg_lt_weeks</th>
+      <th>max_lt_weeks</th>
+      <th>trend_up_rate</th>
+      <th>pricing_up_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Capacitors - Polymer Tantalum</td>
+      <td>3</td>
+      <td>40.0</td>
+      <td>54.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Capacitors - Tantalum Conformals</td>
+      <td>2</td>
+      <td>35.5</td>
+      <td>40.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Hybrid Wet Tantalums</td>
+      <td>1</td>
+      <td>35.0</td>
+      <td>40.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Leaded Capacitors - Ceramic</td>
+      <td>4</td>
+      <td>32.2</td>
+      <td>40.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Specialty Capacitors</td>
+      <td>3</td>
+      <td>29.0</td>
+      <td>40.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Hybrid Aluminum Polymer Capacitors</td>
+      <td>1</td>
+      <td>28.5</td>
+      <td>33.0</td>
+      <td>100%</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>Surface Mount General Capacitors</td>
+      <td>1</td>
+      <td>25.0</td>
+      <td>26.0</td>
+      <td>0%</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>High Frequency Ceramic Capacitors</td>
+      <td>1</td>
+      <td>23.0</td>
+      <td>26.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>MLCCs, Radial, Safety Caps</td>
+      <td>1</td>
+      <td>23.0</td>
+      <td>26.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Surface Mount General Capacitors – Ceramic *Automotive grade</td>
+      <td>9</td>
+      <td>21.3</td>
+      <td>28.0</td>
+      <td>100%</td>
+      <td>56%</td>
+    </tr>
+    <tr>
+      <td>Aluminum Electrolytic</td>
+      <td>6</td>
+      <td>21.2</td>
+      <td>40.0</td>
+      <td>50%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Resistor Networks</td>
+      <td>3</td>
+      <td>20.8</td>
+      <td>28.0</td>
+      <td>0%</td>
+      <td>33%</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="grid cols-2" style="margin-top:16px">
+    <img class="chart" src="charts/top_bottleneck_categories.png" alt="Top bottleneck categories">
+    <img class="chart" src="charts/leadtime_heatmap.png" alt="Lead-time heatmap">
+  </div>
+</div>
+
+<div class="section">
+  <h2>Microscope view: where the bottleneck sits in the stack</h2>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Layer</th>
+      <th>What bottlenecks here</th>
+      <th>Representative suppliers / proxies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Utility / grid / substations</td>
+      <td>Switchgear, transformers, busway, power quality</td>
+      <td>Eaton, Schneider Electric, Vertiv, Powell, Hubbell, Legrand, ABB, Siemens Energy</td>
+    </tr>
+    <tr>
+      <td>Rack power entry</td>
+      <td>Power shelves, PSUs, rectification, ORV3 / high-voltage DC</td>
+      <td>LITEON, Delta, AcBel, Murata, Bel Fuse, Flex, Foxconn, Quanta, Wistron</td>
+    </tr>
+    <tr>
+      <td>Board-level conversion</td>
+      <td>48V bus, IBC, VRM, point-of-load</td>
+      <td>Vicor, Monolithic Power Systems, Power Integrations, Microchip, Infineon, STMicro, Analog Devices, TI</td>
+    </tr>
+    <tr>
+      <td>Direct passive bottlenecks</td>
+      <td>MLCCs, polymer aluminum caps, polymer tantalum, tantalum conformals, film, shunt/current-sense, inductors</td>
+      <td>TDK, Murata, Samsung Electro-Mechanics, Walsin, Vishay, Yageo, Nichicon, Nippon Chemi-Con, Panasonic, Sumida, Taiyo Yuden, Kyocera</td>
+    </tr>
+    <tr>
+      <td>Board / package / integration</td>
+      <td>PCBs, backplanes, substrates, ODM/EMS</td>
+      <td>TTM, Sanmina, Plexus, Benchmark, Unimicron, Ibiden, ASE, Quanta, Inventec, Wistron, Hon Hai</td>
+    </tr>
+    <tr>
+      <td>System deployment</td>
+      <td>AI racks, liquid cooling, server deployment, hyperscale buildout</td>
+      <td>NVIDIA ecosystem, Jabil, Schneider, Eaton, Vertiv, Wiwynn, QCT, cloud operators</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="grid cols-2" style="margin-top:16px">
+    <img class="chart" src="charts/supply_chain_flow.svg" alt="Supply-chain flow diagram">
+    <img class="chart" src="charts/bottleneck_mindmap.svg" alt="Bottleneck mindmap">
+  </div>
+</div>
+
+<div class="section">
+  <h2>Revised top 10 U.S. names</h2>
+  <div class="links">
+    <a href="data/revised_us_residual_alpha_50.csv">Download full U.S. ranking CSV</a>
+    <a href="charts/top20_us_residual_alpha_revised.png">Open revised U.S. chart</a>
+  </div>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rank_revised</th>
+      <th>company</th>
+      <th>ticker</th>
+      <th>layer</th>
+      <th>residual_alpha_score</th>
+      <th>alpha_revision_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>CTS Corp</td>
+      <td>CTS</td>
+      <td>Passives / sensing</td>
+      <td>100.0</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Vishay Intertechnology</td>
+      <td>VSH</td>
+      <td>Passives</td>
+      <td>79.3</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Benchmark Electronics</td>
+      <td>BHE</td>
+      <td>EMS / industrial electronics</td>
+      <td>71.0</td>
+      <td>Underfollowed integration/power proxy with more room left than headline AI winners.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Power Integrations</td>
+      <td>POWI</td>
+      <td>Power semis</td>
+      <td>65.6</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Plexus</td>
+      <td>PLXS</td>
+      <td>EMS</td>
+      <td>63.4</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Vishay Precision Group</td>
+      <td>VPG</td>
+      <td>Current sensing</td>
+      <td>58.4</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Littelfuse</td>
+      <td>LFUS</td>
+      <td>Protection / sensing</td>
+      <td>58.4</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Jabil</td>
+      <td>JBL</td>
+      <td>Power / cooling / EMS</td>
+      <td>50.3</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Regal Rexnord</td>
+      <td>RRX</td>
+      <td>Magnetics / industrial</td>
+      <td>49.9</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Sanmina</td>
+      <td>SANM</td>
+      <td>EMS / integration</td>
+      <td>46.6</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="grid cols-2" style="margin-top:16px">
+    <img class="chart" src="charts/top20_us_residual_alpha_revised.png" alt="Top 20 U.S. residual alpha">
+    <img class="chart" src="charts/us_residual_alpha_vs_crowding.png" alt="U.S. residual alpha vs crowding">
+  </div>
+</div>
+
+<div class="section">
+  <h2>Revised top 10 non-U.S. names</h2>
+  <div class="links">
+    <a href="data/revised_non_us_residual_alpha_50.csv">Download full non-U.S. ranking CSV</a>
+    <a href="charts/top20_non_us_residual_alpha_revised.png">Open revised non-U.S. chart</a>
+  </div>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rank_revised</th>
+      <th>company</th>
+      <th>ticker</th>
+      <th>layer</th>
+      <th>residual_alpha_score</th>
+      <th>alpha_revision_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sumida</td>
+      <td>6817</td>
+      <td>Inductors</td>
+      <td>100.0</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walsin Technology</td>
+      <td>2492</td>
+      <td>Passives</td>
+      <td>98.4</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>TT Electronics</td>
+      <td>TTG</td>
+      <td>Passives / sensing</td>
+      <td>91.9</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Nippon Chemi-Con</td>
+      <td>6997</td>
+      <td>Passives</td>
+      <td>82.1</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>discoverIE Group</td>
+      <td>DSCV</td>
+      <td>Power / connectivity</td>
+      <td>81.6</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>TDK</td>
+      <td>6762</td>
+      <td>Passives</td>
+      <td>77.5</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Nichicon</td>
+      <td>6996</td>
+      <td>Passives</td>
+      <td>74.0</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>AcBel Polytech</td>
+      <td>6282</td>
+      <td>Power supplies</td>
+      <td>73.6</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Panasonic Holdings</td>
+      <td>6752</td>
+      <td>Passives</td>
+      <td>73.5</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Wistron</td>
+      <td>3231</td>
+      <td>ODM / infrastructure</td>
+      <td>64.6</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="grid cols-2" style="margin-top:16px">
+    <img class="chart" src="charts/top20_non_us_residual_alpha_revised.png" alt="Top 20 non-U.S. residual alpha">
+    <img class="chart" src="charts/non_us_residual_alpha_vs_crowding.png" alt="Non-U.S. residual alpha vs crowding">
+  </div>
+</div>
+
+<div class="section">
+  <h2>Most demoted names after adding the rerating penalty</h2>
+  <div class="grid cols-2">
+    <img class="chart" src="charts/most_demoted_us_names.png" alt="Most demoted U.S. names">
+    <img class="chart" src="charts/most_demoted_non_us_names.png" alt="Most demoted non-U.S. names">
+  </div>
+  <div class="links" style="margin-top:12px">
+    <a href="data/demoted_rerated_names.csv">Download demoted / rerated names CSV</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Who is supplying whom</h2>
+  <div class="small">This table follows the power path from grid, rack and shelf power down to board-level passives, then back up into ODMs and hyperscaler deployment.</div>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>supplier</th>
+      <th>component_or_service</th>
+      <th>recipient</th>
+      <th>relationship_type</th>
+      <th>note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Eaton</td>
+      <td>Beam Rubin DSX power platform</td>
+      <td>NVIDIA Rubin DSX AI Factory</td>
+      <td>Named collaboration</td>
+      <td>Grid-to-chip power path</td>
+    </tr>
+    <tr>
+      <td>Schneider Electric</td>
+      <td>AI factory power/cooling blueprint</td>
+      <td>NVIDIA Rubin AI factories</td>
+      <td>Named collaboration</td>
+      <td>Validated with NVIDIA</td>
+    </tr>
+    <tr>
+      <td>Vertiv</td>
+      <td>Power and cooling infrastructure</td>
+      <td>AI factories / high-density data centers</td>
+      <td>Ecosystem supply</td>
+      <td>Named as NVIDIA ecosystem partner</td>
+    </tr>
+    <tr>
+      <td>Flex</td>
+      <td>800VDC Power Rack</td>
+      <td>NVIDIA Vera Rubin infrastructure</td>
+      <td>Named product-platform fit</td>
+      <td>Megawatt-scale rack power</td>
+    </tr>
+    <tr>
+      <td>Celestica</td>
+      <td>Scale-up networking switches</td>
+      <td>AMD Helios rack-scale AI platform</td>
+      <td>Named collaboration</td>
+      <td>Helios rack-scale AI</td>
+    </tr>
+    <tr>
+      <td>Wiwynn</td>
+      <td>Rubin NVL72 AI factory infrastructure</td>
+      <td>NVIDIA platform</td>
+      <td>Named product-platform fit</td>
+      <td>Direct Rubin infrastructure demo</td>
+    </tr>
+    <tr>
+      <td>Foxconn</td>
+      <td>Full-system AI server racks</td>
+      <td>NVIDIA Vera Rubin NVL72</td>
+      <td>Named product-platform fit</td>
+      <td>Modular data-center angle</td>
+    </tr>
+    <tr>
+      <td>LITEON</td>
+      <td>110kW power shelf</td>
+      <td>QCT Rubin NVL72 AI server solution</td>
+      <td>Named collaboration</td>
+      <td>Shown jointly at GTC 2026</td>
+    </tr>
+    <tr>
+      <td>Delta Electronics</td>
+      <td>ORV3 power shelves / PSUs</td>
+      <td>AI servers</td>
+      <td>Application-targeted</td>
+      <td>5.5kW+ PSUs and 33kW shelves</td>
+    </tr>
+    <tr>
+      <td>Bel Fuse</td>
+      <td>Power supplies, connectivity, magnetics</td>
+      <td>AI/cloud servers</td>
+      <td>Application-targeted</td>
+      <td>High-density AI/cloud/edge architectures</td>
+    </tr>
+    <tr>
+      <td>Vicor</td>
+      <td>48V point-of-load modules</td>
+      <td>AI accelerator clusters</td>
+      <td>Application-targeted</td>
+      <td>Current density near processors</td>
+    </tr>
+    <tr>
+      <td>Monolithic Power Systems</td>
+      <td>High-current power modules</td>
+      <td>AI accelerator cards</td>
+      <td>Application-targeted</td>
+      <td>800A+ scalable current</td>
+    </tr>
+    <tr>
+      <td>TDK</td>
+      <td>TLVR inductors</td>
+      <td>Server power supply circuits</td>
+      <td>Application-targeted</td>
+      <td>AI-server power topology pages</td>
+    </tr>
+    <tr>
+      <td>TDK</td>
+      <td>MLCCs</td>
+      <td>AI server power systems</td>
+      <td>Application-targeted</td>
+      <td>AI-server power systems</td>
+    </tr>
+    <tr>
+      <td>Murata</td>
+      <td>MLCCs, inductors, filters</td>
+      <td>AI server/data-center power networks</td>
+      <td>Application-targeted</td>
+      <td>Power stabilization</td>
+    </tr>
+    <tr>
+      <td>Samsung Electro-Mechanics</td>
+      <td>High-capacitance MLCCs</td>
+      <td>AI server power modules</td>
+      <td>Application-targeted</td>
+      <td>AI-server power module stabilization</td>
+    </tr>
+    <tr>
+      <td>Yageo</td>
+      <td>Four-terminal shunt resistors</td>
+      <td>AI server PDUs</td>
+      <td>Application-targeted</td>
+      <td>PDU current-sense</td>
+    </tr>
+    <tr>
+      <td>Yageo</td>
+      <td>KO-CAP, MLCC, thin-film resistors, inductors</td>
+      <td>AI/server systems</td>
+      <td>Application-targeted</td>
+      <td>Broad AI passive portfolio</td>
+    </tr>
+    <tr>
+      <td>Nippon Chemi-Con</td>
+      <td>Conductive polymer aluminum caps</td>
+      <td>GPU/CPU-adjacent VRM</td>
+      <td>Application-targeted</td>
+      <td>Ultra-low ESR around processors</td>
+    </tr>
+    <tr>
+      <td>Nippon Chemi-Con</td>
+      <td>Immersion-compatible capacitors</td>
+      <td>Liquid-cooled servers</td>
+      <td>Application-targeted</td>
+      <td>Immersion cooling compatibility</td>
+    </tr>
+    <tr>
+      <td>Panasonic Industry</td>
+      <td>POSCAP / polymer caps</td>
+      <td>Server and data-center power circuits</td>
+      <td>Application-targeted</td>
+      <td>Server power circuits</td>
+    </tr>
+    <tr>
+      <td>KYOCERA AVX</td>
+      <td>MLCCs</td>
+      <td>AI servers and GenAI systems</td>
+      <td>Demand exposure</td>
+      <td>AI-driven demand</td>
+    </tr>
+    <tr>
+      <td>Jabil</td>
+      <td>Hanley Energy power-management stack</td>
+      <td>AI data centers</td>
+      <td>Named acquisition thesis</td>
+      <td>Grid-to-rack power</td>
+    </tr>
+    <tr>
+      <td>Eaton / Schneider / Vertiv</td>
+      <td>Facility power and cooling</td>
+      <td>NVIDIA AI factories</td>
+      <td>Ecosystem supply</td>
+      <td>Reference-design ecosystem</td>
+    </tr>
+    <tr>
+      <td>NVIDIA Rubin</td>
+      <td>Rubin rack-scale systems</td>
+      <td>Microsoft / AWS / Google / OCI / CoreWeave</td>
+      <td>Named downstream adopters</td>
+      <td>Cloud demand map</td>
+    </tr>
+    <tr>
+      <td>NVIDIA Rubin</td>
+      <td>Rubin servers</td>
+      <td>Dell / HPE / Lenovo / Supermicro</td>
+      <td>Named downstream adopters</td>
+      <td>OEM demand map</td>
+    </tr>
+    <tr>
+      <td>Hyperscaler capex surge</td>
+      <td>Multi-year AI capacity expansion</td>
+      <td>Power/cooling/passive supply chain</td>
+      <td>Demand signal</td>
+      <td>Capex quadrupled since GPT-4</td>
+    </tr>
+    <tr>
+      <td>Alphabet / Amazon / Microsoft capex surge</td>
+      <td>AI demand exceeded available supply</td>
+      <td>Upstream suppliers</td>
+      <td>Demand signal</td>
+      <td>Supply exceeded demand</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="links" style="margin-top:12px">
+    <a href="data/supply_relationships.csv">Download full supplier relationship table</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Most constrained screenshot vendors</h2>
+  <div class="small">These names come directly from your screenshot set and are ranked by internal vendor constraint score derived from lead time, pricing pressure and trend arrows. Private names remain useful as bottleneck indicators even when they are not directly investable.</div>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>vendor</th>
+      <th>categories</th>
+      <th>avg_vendor_score</th>
+      <th>avg_lt_weeks</th>
+      <th>pricing_up_rate</th>
+      <th>trend_up_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Quantic Evans</td>
+      <td>1</td>
+      <td>72.0</td>
+      <td>35.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>WIMA</td>
+      <td>1</td>
+      <td>67.2</td>
+      <td>21.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>KYOCERA AVX</td>
+      <td>9</td>
+      <td>65.1</td>
+      <td>27.9</td>
+      <td>89%</td>
+      <td>89%</td>
+    </tr>
+    <tr>
+      <td>TDK EPCOS</td>
+      <td>2</td>
+      <td>62.8</td>
+      <td>26.2</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Nichicon</td>
+      <td>1</td>
+      <td>62.5</td>
+      <td>26.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>United Chemi-Con</td>
+      <td>1</td>
+      <td>59.3</td>
+      <td>23.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Quantic UTC</td>
+      <td>1</td>
+      <td>59.3</td>
+      <td>23.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Quantic Eulex</td>
+      <td>1</td>
+      <td>59.3</td>
+      <td>23.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Walsin Technology Corporation</td>
+      <td>3</td>
+      <td>56.2</td>
+      <td>20.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>TDK</td>
+      <td>5</td>
+      <td>52.4</td>
+      <td>20.2</td>
+      <td>100%</td>
+      <td>80%</td>
+    </tr>
+    <tr>
+      <td>ELNA</td>
+      <td>1</td>
+      <td>51.4</td>
+      <td>25.0</td>
+      <td>100%</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>Samsung Electro-Mechanics</td>
+      <td>5</td>
+      <td>51.0</td>
+      <td>31.2</td>
+      <td>40%</td>
+      <td>60%</td>
+    </tr>
+    <tr>
+      <td>TAIYO YUDEN</td>
+      <td>6</td>
+      <td>50.8</td>
+      <td>20.5</td>
+      <td>83%</td>
+      <td>83%</td>
+    </tr>
+    <tr>
+      <td>Quantic Paktron</td>
+      <td>1</td>
+      <td>49.8</td>
+      <td>14.0</td>
+      <td>100%</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Vishay</td>
+      <td>14</td>
+      <td>47.4</td>
+      <td>21.1</td>
+      <td>86%</td>
+      <td>57%</td>
+    </tr>
+    <tr>
+      <td>Murata</td>
+      <td>7</td>
+      <td>41.6</td>
+      <td>19.7</td>
+      <td>43%</td>
+      <td>71%</td>
+    </tr>
+    <tr>
+      <td>Panasonic Industry</td>
+      <td>7</td>
+      <td>39.5</td>
+      <td>25.9</td>
+      <td>43%</td>
+      <td>14%</td>
+    </tr>
+    <tr>
+      <td>Sumida</td>
+      <td>1</td>
+      <td>38.3</td>
+      <td>22.0</td>
+      <td>100%</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>NIC Components</td>
+      <td>11</td>
+      <td>37.2</td>
+      <td>18.4</td>
+      <td>45%</td>
+      <td>55%</td>
+    </tr>
+    <tr>
+      <td>YAGEO</td>
+      <td>7</td>
+      <td>36.1</td>
+      <td>22.0</td>
+      <td>0%</td>
+      <td>43%</td>
+    </tr>
+  </tbody>
+</table></div>
+  <div class="links" style="margin-top:12px">
+    <a href="data/vendor_constraint_summary.csv">Download vendor constraint summary</a>
+    <a href="data/lead_times_transcribed.csv">Download lead-time transcription</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Full U.S. ranking (50 names)</h2>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rank_revised</th>
+      <th>rank_prior</th>
+      <th>rank_change_vs_prior</th>
+      <th>bucket</th>
+      <th>company</th>
+      <th>ticker</th>
+      <th>layer</th>
+      <th>residual_alpha_score</th>
+      <th>residual_upside_label</th>
+      <th>alpha_revision_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>6</td>
+      <td>5</td>
+      <td>High-conviction residual alpha</td>
+      <td>CTS Corp</td>
+      <td>CTS</td>
+      <td>Passives / sensing</td>
+      <td>100.0</td>
+      <td>very under-owned</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>7</td>
+      <td>5</td>
+      <td>High-conviction residual alpha</td>
+      <td>Vishay Intertechnology</td>
+      <td>VSH</td>
+      <td>Passives</td>
+      <td>79.3</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>37</td>
+      <td>34</td>
+      <td>High-conviction residual alpha</td>
+      <td>Benchmark Electronics</td>
+      <td>BHE</td>
+      <td>EMS / industrial electronics</td>
+      <td>71.0</td>
+      <td>underfollowed</td>
+      <td>Underfollowed integration/power proxy with more room left than headline AI winners.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>20</td>
+      <td>16</td>
+      <td>High-conviction residual alpha</td>
+      <td>Power Integrations</td>
+      <td>POWI</td>
+      <td>Power semis</td>
+      <td>65.6</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>18</td>
+      <td>13</td>
+      <td>High-conviction residual alpha</td>
+      <td>Plexus</td>
+      <td>PLXS</td>
+      <td>EMS</td>
+      <td>63.4</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>8</td>
+      <td>2</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Vishay Precision Group</td>
+      <td>VPG</td>
+      <td>Current sensing</td>
+      <td>58.4</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10</td>
+      <td>3</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Littelfuse</td>
+      <td>LFUS</td>
+      <td>Protection / sensing</td>
+      <td>58.4</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>4</td>
+      <td>-4</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Jabil</td>
+      <td>JBL</td>
+      <td>Power / cooling / EMS</td>
+      <td>50.3</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>26</td>
+      <td>17</td>
+      <td>High-conviction residual alpha</td>
+      <td>Regal Rexnord</td>
+      <td>RRX</td>
+      <td>Magnetics / industrial</td>
+      <td>49.9</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>11</td>
+      <td>1</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Sanmina</td>
+      <td>SANM</td>
+      <td>EMS / integration</td>
+      <td>46.6</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>19</td>
+      <td>8</td>
+      <td>Secondary residual alpha</td>
+      <td>Rogers Corp</td>
+      <td>ROG</td>
+      <td>Materials</td>
+      <td>43.2</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>29</td>
+      <td>17</td>
+      <td>Secondary residual alpha</td>
+      <td>Microchip Technology</td>
+      <td>MCHP</td>
+      <td>Power / embedded</td>
+      <td>41.4</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>30</td>
+      <td>17</td>
+      <td>Secondary residual alpha</td>
+      <td>Navitas Semiconductor</td>
+      <td>NVTS</td>
+      <td>Power semis</td>
+      <td>41.0</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>42</td>
+      <td>28</td>
+      <td>Secondary residual alpha</td>
+      <td>ON Semiconductor</td>
+      <td>ON</td>
+      <td>Power semis</td>
+      <td>39.9</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>44</td>
+      <td>29</td>
+      <td>Secondary residual alpha</td>
+      <td>Analog Devices</td>
+      <td>ADI</td>
+      <td>Analog / monitoring</td>
+      <td>37.7</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>1</td>
+      <td>-15</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Bel Fuse</td>
+      <td>BELFB</td>
+      <td>Power delivery / connectivity</td>
+      <td>37.3</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>12</td>
+      <td>-5</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Powell Industries</td>
+      <td>POWL</td>
+      <td>Switchgear</td>
+      <td>36.9</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>45</td>
+      <td>27</td>
+      <td>Secondary residual alpha</td>
+      <td>Texas Instruments</td>
+      <td>TXN</td>
+      <td>Analog / power</td>
+      <td>35.7</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>2</td>
+      <td>-17</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Vicor</td>
+      <td>VICR</td>
+      <td>Power delivery</td>
+      <td>35.3</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>15</td>
+      <td>-5</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Modine</td>
+      <td>MOD</td>
+      <td>Thermal management</td>
+      <td>35.3</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>3</td>
+      <td>-18</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Monolithic Power Systems</td>
+      <td>MPWR</td>
+      <td>Power semis</td>
+      <td>33.3</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>46</td>
+      <td>24</td>
+      <td>Secondary residual alpha</td>
+      <td>Corning</td>
+      <td>GLW</td>
+      <td>Fiber / materials</td>
+      <td>32.5</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>24</td>
+      <td>1</td>
+      <td>Secondary residual alpha</td>
+      <td>Hubbell</td>
+      <td>HUBB</td>
+      <td>Power infrastructure</td>
+      <td>31.2</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>5</td>
+      <td>-19</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>TTM Technologies</td>
+      <td>TTMI</td>
+      <td>PCB / backplane</td>
+      <td>29.4</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>36</td>
+      <td>11</td>
+      <td>Secondary residual alpha</td>
+      <td>Carrier Global</td>
+      <td>CARR</td>
+      <td>Cooling / HVAC</td>
+      <td>29.2</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>16</td>
+      <td>-10</td>
+      <td>Monitor / benchmark</td>
+      <td>Lumentum</td>
+      <td>LITE</td>
+      <td>Optics / photonics</td>
+      <td>27.3</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>17</td>
+      <td>-10</td>
+      <td>Monitor / benchmark</td>
+      <td>Advanced Energy Industries</td>
+      <td>AEIS</td>
+      <td>Power conversion</td>
+      <td>26.2</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>21</td>
+      <td>-7</td>
+      <td>Monitor / benchmark</td>
+      <td>Coherent</td>
+      <td>COHR</td>
+      <td>Optics / photonics</td>
+      <td>25.3</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>25</td>
+      <td>-4</td>
+      <td>Monitor / benchmark</td>
+      <td>MACOM Technology Solutions</td>
+      <td>MTSI</td>
+      <td>Networking analog / optical</td>
+      <td>23.9</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>35</td>
+      <td>5</td>
+      <td>Monitor / benchmark</td>
+      <td>Cummins</td>
+      <td>CMI</td>
+      <td>Power generation</td>
+      <td>23.5</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>38</td>
+      <td>7</td>
+      <td>Monitor / benchmark</td>
+      <td>Rambus</td>
+      <td>RMBS</td>
+      <td>Memory interfaces</td>
+      <td>21.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>43</td>
+      <td>11</td>
+      <td>Monitor / benchmark</td>
+      <td>Caterpillar</td>
+      <td>CAT</td>
+      <td>Power generation</td>
+      <td>21.4</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>39</td>
+      <td>6</td>
+      <td>Monitor / benchmark</td>
+      <td>Micron Technology</td>
+      <td>MU</td>
+      <td>Memory</td>
+      <td>21.2</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>41</td>
+      <td>7</td>
+      <td>Monitor / benchmark</td>
+      <td>Pure Storage</td>
+      <td>PSTG</td>
+      <td>Storage</td>
+      <td>20.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>31</td>
+      <td>-4</td>
+      <td>Monitor / benchmark</td>
+      <td>Generac</td>
+      <td>GNRC</td>
+      <td>Backup power</td>
+      <td>20.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>9</td>
+      <td>-27</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Vertiv</td>
+      <td>VRT</td>
+      <td>Facility power / cooling</td>
+      <td>19.1</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>48</td>
+      <td>11</td>
+      <td>Monitor / benchmark</td>
+      <td>Dell Technologies</td>
+      <td>DELL</td>
+      <td>Servers</td>
+      <td>14.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>47</td>
+      <td>9</td>
+      <td>Monitor / benchmark</td>
+      <td>Hewlett Packard Enterprise</td>
+      <td>HPE</td>
+      <td>Servers / networking</td>
+      <td>14.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>49</td>
+      <td>10</td>
+      <td>Monitor / benchmark</td>
+      <td>Ciena</td>
+      <td>CIEN</td>
+      <td>Transport networking</td>
+      <td>13.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>14</td>
+      <td>-26</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Amphenol</td>
+      <td>APH</td>
+      <td>Connectivity</td>
+      <td>11.9</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>50</td>
+      <td>9</td>
+      <td>Monitor / benchmark</td>
+      <td>Western Digital</td>
+      <td>WDC</td>
+      <td>Storage</td>
+      <td>11.7</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>13</td>
+      <td>-29</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Bloom Energy</td>
+      <td>BE</td>
+      <td>Onsite power</td>
+      <td>8.7</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>22</td>
+      <td>-21</td>
+      <td>Monitor / benchmark</td>
+      <td>Astera Labs</td>
+      <td>ALAB</td>
+      <td>AI connectivity</td>
+      <td>7.3</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>23</td>
+      <td>-21</td>
+      <td>Monitor / benchmark</td>
+      <td>Super Micro Computer</td>
+      <td>SMCI</td>
+      <td>Servers / racks</td>
+      <td>4.7</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>28</td>
+      <td>-17</td>
+      <td>Monitor / benchmark</td>
+      <td>Marvell Technology</td>
+      <td>MRVL</td>
+      <td>Networking / custom silicon</td>
+      <td>3.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>27</td>
+      <td>-19</td>
+      <td>Monitor / benchmark</td>
+      <td>Arista Networks</td>
+      <td>ANET</td>
+      <td>Networking</td>
+      <td>3.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>40</td>
+      <td>-7</td>
+      <td>Monitor / benchmark</td>
+      <td>Broadcom</td>
+      <td>AVGO</td>
+      <td>Networking / custom silicon</td>
+      <td>1.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>33</td>
+      <td>-15</td>
+      <td>Monitor / benchmark</td>
+      <td>Quanta Services</td>
+      <td>PWR</td>
+      <td>Electrical construction</td>
+      <td>1.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>34</td>
+      <td>-15</td>
+      <td>Monitor / benchmark</td>
+      <td>Comfort Systems USA</td>
+      <td>FIX</td>
+      <td>Mechanical / HVAC</td>
+      <td>0.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>32</td>
+      <td>-18</td>
+      <td>Monitor / benchmark</td>
+      <td>EMCOR Group</td>
+      <td>EME</td>
+      <td>Electrical / mechanical construction</td>
+      <td>0.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+
+<div class="section">
+  <h2>Full non-U.S. ranking (50 names)</h2>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rank_revised</th>
+      <th>rank_prior</th>
+      <th>rank_change_vs_prior</th>
+      <th>bucket</th>
+      <th>company</th>
+      <th>ticker</th>
+      <th>layer</th>
+      <th>residual_alpha_score</th>
+      <th>residual_upside_label</th>
+      <th>alpha_revision_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>15</td>
+      <td>14</td>
+      <td>High-conviction residual alpha</td>
+      <td>Sumida</td>
+      <td>6817</td>
+      <td>Inductors</td>
+      <td>100.0</td>
+      <td>very under-owned</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>High-conviction residual alpha</td>
+      <td>Walsin Technology</td>
+      <td>2492</td>
+      <td>Passives</td>
+      <td>98.4</td>
+      <td>underfollowed</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>14</td>
+      <td>11</td>
+      <td>High-conviction residual alpha</td>
+      <td>TT Electronics</td>
+      <td>TTG</td>
+      <td>Passives / sensing</td>
+      <td>91.9</td>
+      <td>underfollowed</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>3</td>
+      <td>-1</td>
+      <td>High-conviction residual alpha</td>
+      <td>Nippon Chemi-Con</td>
+      <td>6997</td>
+      <td>Passives</td>
+      <td>82.1</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>47</td>
+      <td>42</td>
+      <td>High-conviction residual alpha</td>
+      <td>discoverIE Group</td>
+      <td>DSCV</td>
+      <td>Power / connectivity</td>
+      <td>81.6</td>
+      <td>very under-owned</td>
+      <td>Direct passive/power bottleneck supplier with lower crowding and better residual upside.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>16</td>
+      <td>10</td>
+      <td>High-conviction residual alpha</td>
+      <td>TDK</td>
+      <td>6762</td>
+      <td>Passives</td>
+      <td>77.5</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>25</td>
+      <td>18</td>
+      <td>High-conviction residual alpha</td>
+      <td>Nichicon</td>
+      <td>6996</td>
+      <td>Passives</td>
+      <td>74.0</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>6</td>
+      <td>-2</td>
+      <td>High-conviction residual alpha</td>
+      <td>AcBel Polytech</td>
+      <td>6282</td>
+      <td>Power supplies</td>
+      <td>73.6</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>31</td>
+      <td>22</td>
+      <td>High-conviction residual alpha</td>
+      <td>Panasonic Holdings</td>
+      <td>6752</td>
+      <td>Passives</td>
+      <td>73.5</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>21</td>
+      <td>11</td>
+      <td>High-conviction residual alpha</td>
+      <td>Wistron</td>
+      <td>3231</td>
+      <td>ODM / infrastructure</td>
+      <td>64.6</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>22</td>
+      <td>11</td>
+      <td>Secondary residual alpha</td>
+      <td>Inventec</td>
+      <td>2356</td>
+      <td>ODM</td>
+      <td>64.6</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>20</td>
+      <td>8</td>
+      <td>Secondary residual alpha</td>
+      <td>Quanta Computer</td>
+      <td>2382</td>
+      <td>ODM / racks</td>
+      <td>63.9</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>29</td>
+      <td>16</td>
+      <td>Secondary residual alpha</td>
+      <td>Hon Hai Precision / Foxconn</td>
+      <td>2317</td>
+      <td>ODM / racks</td>
+      <td>61.6</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>46</td>
+      <td>32</td>
+      <td>Secondary residual alpha</td>
+      <td>Infineon Technologies</td>
+      <td>IFX</td>
+      <td>Power semis</td>
+      <td>60.2</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>45</td>
+      <td>30</td>
+      <td>Secondary residual alpha</td>
+      <td>STMicroelectronics</td>
+      <td>STM</td>
+      <td>Power semis</td>
+      <td>60.2</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>48</td>
+      <td>32</td>
+      <td>Secondary residual alpha</td>
+      <td>ASE Technology</td>
+      <td>3711</td>
+      <td>Advanced packaging / test</td>
+      <td>55.8</td>
+      <td>balanced</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>49</td>
+      <td>32</td>
+      <td>Secondary residual alpha</td>
+      <td>Chroma ATE</td>
+      <td>2360</td>
+      <td>Test / power electronics</td>
+      <td>55.6</td>
+      <td>balanced</td>
+      <td>Direct bottleneck exposure remains attractive, though less hidden than Tier A names.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>2</td>
+      <td>-16</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>LITEON Technology</td>
+      <td>2301</td>
+      <td>Power supplies</td>
+      <td>52.1</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>30</td>
+      <td>11</td>
+      <td>Secondary residual alpha</td>
+      <td>Kyocera</td>
+      <td>6971</td>
+      <td>Passives</td>
+      <td>50.4</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>38</td>
+      <td>18</td>
+      <td>Secondary residual alpha</td>
+      <td>Legrand</td>
+      <td>LR</td>
+      <td>Power distribution</td>
+      <td>48.7</td>
+      <td>balanced</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>8</td>
+      <td>-13</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Wiwynn</td>
+      <td>6669</td>
+      <td>ODM / racks</td>
+      <td>45.4</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>41</td>
+      <td>19</td>
+      <td>Secondary residual alpha</td>
+      <td>Sumitomo Electric</td>
+      <td>5802</td>
+      <td>Cables / optics</td>
+      <td>42.1</td>
+      <td>balanced</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>44</td>
+      <td>21</td>
+      <td>Secondary residual alpha</td>
+      <td>Mitsubishi Electric</td>
+      <td>6503</td>
+      <td>Factory / power</td>
+      <td>39.8</td>
+      <td>balanced</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>33</td>
+      <td>9</td>
+      <td>Secondary residual alpha</td>
+      <td>ROHM</td>
+      <td>6963</td>
+      <td>Resistors / power semis</td>
+      <td>39.4</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>40</td>
+      <td>15</td>
+      <td>Secondary residual alpha</td>
+      <td>Fuji Electric</td>
+      <td>6504</td>
+      <td>Power electronics</td>
+      <td>39.4</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>35</td>
+      <td>9</td>
+      <td>Monitor / benchmark</td>
+      <td>Tripod Technology</td>
+      <td>3044</td>
+      <td>PCB</td>
+      <td>37.6</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>5</td>
+      <td>-22</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Yageo</td>
+      <td>2327</td>
+      <td>Passives</td>
+      <td>35.8</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>10</td>
+      <td>-18</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Schneider Electric</td>
+      <td>SU</td>
+      <td>Power / cooling</td>
+      <td>34.8</td>
+      <td>partially rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>9</td>
+      <td>-20</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Samsung Electro-Mechanics</td>
+      <td>009150</td>
+      <td>Passives</td>
+      <td>33.5</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>1</td>
+      <td>-29</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Delta Electronics</td>
+      <td>2308</td>
+      <td>Power delivery / racks</td>
+      <td>32.5</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>17</td>
+      <td>-14</td>
+      <td>Monitor / benchmark</td>
+      <td>Hyosung Heavy Industries</td>
+      <td>298040</td>
+      <td>Transformers / switchgear</td>
+      <td>32.0</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>18</td>
+      <td>-14</td>
+      <td>Monitor / benchmark</td>
+      <td>HD Hyundai Electric</td>
+      <td>267260</td>
+      <td>Transformers / switchgear</td>
+      <td>32.0</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>19</td>
+      <td>-14</td>
+      <td>Monitor / benchmark</td>
+      <td>LS ELECTRIC</td>
+      <td>010120</td>
+      <td>Switchgear / automation</td>
+      <td>32.0</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>12</td>
+      <td>-22</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>TAIYO YUDEN</td>
+      <td>6976</td>
+      <td>Passives</td>
+      <td>31.9</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>13</td>
+      <td>-22</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Murata Manufacturing</td>
+      <td>6981</td>
+      <td>Passives</td>
+      <td>31.2</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>26</td>
+      <td>-10</td>
+      <td>Monitor / benchmark</td>
+      <td>Samwha Capacitor</td>
+      <td>001820</td>
+      <td>Passives</td>
+      <td>27.7</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>34</td>
+      <td>-3</td>
+      <td>Monitor / benchmark</td>
+      <td>ABB</td>
+      <td>ABBN</td>
+      <td>Electrification</td>
+      <td>27.4</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>7</td>
+      <td>-31</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Flex</td>
+      <td>FLEX</td>
+      <td>Power / manufacturing</td>
+      <td>24.2</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>28</td>
+      <td>-11</td>
+      <td>Monitor / benchmark</td>
+      <td>NKT</td>
+      <td>NKT</td>
+      <td>Cabling</td>
+      <td>23.8</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>37</td>
+      <td>-3</td>
+      <td>Monitor / benchmark</td>
+      <td>Nexans</td>
+      <td>NEX</td>
+      <td>Cabling</td>
+      <td>21.5</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>43</td>
+      <td>2</td>
+      <td>Monitor / benchmark</td>
+      <td>Prysmian</td>
+      <td>PRY</td>
+      <td>Cabling</td>
+      <td>19.2</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>39</td>
+      <td>-3</td>
+      <td>Monitor / benchmark</td>
+      <td>Renesas Electronics</td>
+      <td>6723</td>
+      <td>Embedded / power</td>
+      <td>19.0</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>24</td>
+      <td>-19</td>
+      <td>Monitor / benchmark</td>
+      <td>Unimicron</td>
+      <td>3037</td>
+      <td>PCB / substrates</td>
+      <td>18.4</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>23</td>
+      <td>-21</td>
+      <td>Monitor / benchmark</td>
+      <td>Zhen Ding Technology</td>
+      <td>4958</td>
+      <td>PCB / interconnect</td>
+      <td>18.4</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>42</td>
+      <td>-3</td>
+      <td>Monitor / benchmark</td>
+      <td>Fabrinet</td>
+      <td>FN</td>
+      <td>Optics manufacturing</td>
+      <td>17.1</td>
+      <td>partially rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>32</td>
+      <td>-14</td>
+      <td>Monitor / benchmark</td>
+      <td>Ibiden</td>
+      <td>4062</td>
+      <td>Substrates / packaging</td>
+      <td>16.1</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>50</td>
+      <td>3</td>
+      <td>Monitor / benchmark</td>
+      <td>TE Connectivity</td>
+      <td>TEL</td>
+      <td>Connectivity</td>
+      <td>15.0</td>
+      <td>partially rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>36</td>
+      <td>-12</td>
+      <td>Monitor / benchmark</td>
+      <td>Compeq Manufacturing</td>
+      <td>2313</td>
+      <td>PCB</td>
+      <td>14.5</td>
+      <td>already rerated</td>
+      <td>Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>11</td>
+      <td>-38</td>
+      <td>Crowded / rerated benchmark</td>
+      <td>Celestica</td>
+      <td>CLS</td>
+      <td>Networking / integration</td>
+      <td>2.1</td>
+      <td>already rerated</td>
+      <td>Strategically important, but the stock already rerated; no longer top residual alpha.</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>27</td>
+      <td>-23</td>
+      <td>Monitor / benchmark</td>
+      <td>Siemens Energy</td>
+      <td>ENR</td>
+      <td>Power generation / grid</td>
+      <td>0.0</td>
+      <td>already rerated</td>
+      <td>Useful AI exposure, but farther from the passive/power bottleneck stack.</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+
+<div class="section">
+  <h2>Files in this package</h2>
+  <div class="links">
+    <a href="data/revised_us_residual_alpha_50.csv">U.S. revised ranking CSV</a>
+    <a href="data/revised_non_us_residual_alpha_50.csv">Non-U.S. revised ranking CSV</a>
+    <a href="data/revised_top100_master.csv">Combined top 100 CSV</a>
+    <a href="data/top10_us_residual_alpha.csv">Top 10 U.S. CSV</a>
+    <a href="data/top10_non_us_residual_alpha.csv">Top 10 non-U.S. CSV</a>
+    <a href="data/bottleneck_categories_summary.csv">Bottleneck categories CSV</a>
+    <a href="data/revised_sources_index.csv">Source index CSV</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Source trace</h2>
+  <div class="small">This index emphasizes primary company and product sources plus market data pages used to apply the rerating penalty. It is not a literal 100-link chain for every node.</div>
+  <div class="tbl-wrap"><table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>type</th>
+      <th>title</th>
+      <th>url</th>
+      <th>used_for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Official</td>
+      <td>NVIDIA DSX AI factory reference design</td>
+      <td>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx</td>
+      <td>Names Eaton, Schneider Electric, Vertiv and energy leaders in DSX ecosystem.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>TDK MLCC solutions for AI server power systems</td>
+      <td>https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html</td>
+      <td>Explains MLCCs as key design constraints in AI-server PSUs and IBCs.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Nippon Chemi-Con generative AI and aluminum electrolytic capacitors</td>
+      <td>https://www.chemi-con.co.jp/en/company/about/topics/ai.html</td>
+      <td>Maps the power path from AC/DC and UPS down to server and GPU-adjacent power.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Murata data center server page</td>
+      <td>https://www.murata.com/en-global/apps/enterprise/datacenter/server</td>
+      <td>Shows polymer aluminum electrolytic capacitors and DC-DC converters in server power.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Murata OCP / data center power page</td>
+      <td>https://www.murata.com/en-us/products/power/open-compute</td>
+      <td>States OCP-compatible PSUs and power shelves for AI servers and high-density data centers.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>LITEON + QCT GTC 2026 rack solution</td>
+      <td>https://www.liteon.com/en/news/press-center/content/liteon-gtc-qct-2026</td>
+      <td>110kW power shelf with QCT Rubin NVL72 solution.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>LITEON NVIDIA GTC 2026 data center portfolio</td>
+      <td>https://www.liteon.com/en/news/press-center/content/liteon-nvidia-gtc-2026</td>
+      <td>800VDC power rack, 110kW power shelf, 2.1MW in-row CDU.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Delta ORV3 33kW power system</td>
+      <td>https://www.deltaww.com/en-US/products/orv3-server-power/ORV3-33kW-Power-System</td>
+      <td>AI-server power shelf and 5.5kW PSU stack.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Delta APEC 2024 AI server power announcement</td>
+      <td>https://www.delta-americas.com/en-us/news/delta-unveils-new-innovative-ai-server-power-solutions-at-apec-2024-orv3-33kw-18kw-power-shelves-and-vertical-power-delivery-solutions</td>
+      <td>33kW / 18kW shelves and vertical power delivery at GPU/CPU/ASIC level.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Yageo AI page</td>
+      <td>https://www.yageo.com/jp/Html/Index/ai</td>
+      <td>Yageo positions its products as supporting AI power needs.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Yageo AI-server PDU shunt resistor release</td>
+      <td>https://www.yageo.com/jp/PressRoom/Content/press_room?category=product_event&news_id=20241223</td>
+      <td>Four-terminal shunt resistors for AI server PDUs.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>CTS current sensors</td>
+      <td>https://www.ctscorp.com/Products/Current-Sensors</td>
+      <td>CTS cites data centers and power distribution among current sensor applications.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>CTS resistor networks</td>
+      <td>https://www.ctscorp.com/Products/Passive-Components/Legacy-Products/Resistor-Networks</td>
+      <td>Resistor arrays for FPGA, PCIe, backplane and high-density interfaces.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>CTS shunts</td>
+      <td>https://www.ctscorp.com/Products/Current-Sensors/Shunts</td>
+      <td>Precision shunts for AC/DC converters and battery/current monitoring.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Sumida corporate page</td>
+      <td>https://www.sumida.com/</td>
+      <td>Power inductors, transformers, EMC coils and magnetic materials.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Sumida power inductors</td>
+      <td>https://products.sumida.com/ProductsInfo/ProductGuide/PowerInductors/</td>
+      <td>Power inductor catalog and applications.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Walsin about</td>
+      <td>https://www.passivecomponent.com/about/</td>
+      <td>One-stop passive component supplier with data-center exposure.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Walsin capacitors</td>
+      <td>https://www.passivecomponent.com/products/capacitors/</td>
+      <td>MLCC portfolio including high-capacitance and high-voltage families.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Vishay tantalum portfolio</td>
+      <td>https://www.vishay.com/en/capacitors/tantalum/tab/products/</td>
+      <td>Broad tantalum offering across molded, conformal, low-ESR and infrastructure uses.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Vishay polymer tantalum release</td>
+      <td>https://www.vishay.com/en/company/press/releases/2023/T51_Series_Polymer_AECQ200/</td>
+      <td>Polymer tantalum with low ESR for smoothing and filtering.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Belden data centers</td>
+      <td>https://www.belden.com/en/Markets/Data-Centers</td>
+      <td>Data-center cabling, power distribution and monitoring context.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Plexus manufacturing overview</td>
+      <td>https://www.plexus.com/</td>
+      <td>Complex product manufacturing and supply-chain services.</td>
+    </tr>
+    <tr>
+      <td>Official</td>
+      <td>Kimball industrial electronics</td>
+      <td>https://www.kimballelectronics.com/market-verticals/industrial</td>
+      <td>Durable industrial electronics manufacturing and controls.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Bel Fuse statistics</td>
+      <td>https://stockanalysis.com/stocks/belfa/</td>
+      <td>Used to penalize already-rerated winners.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Delta Electronics statistics</td>
+      <td>https://stockanalysis.com/quote/tpe/2308/</td>
+      <td>Used to penalize already-rerated winners.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Bel Fuse market-cap history</td>
+      <td>https://stockanalysis.com/stocks/belfa/market-cap/</td>
+      <td>1-year market-cap change.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Delta Electronics market-cap history</td>
+      <td>https://stockanalysis.com/quote/tpe/2308/market-cap/</td>
+      <td>1-year market-cap change.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>CTS statistics</td>
+      <td>https://stockanalysis.com/stocks/cts/statistics/</td>
+      <td>Residual alpha calibration for a direct passive/sensing name.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Benchmark statistics</td>
+      <td>https://stockanalysis.com/stocks/bhe/statistics/</td>
+      <td>Residual alpha calibration for an underfollowed EMS name.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Walsin statistics</td>
+      <td>https://stockanalysis.com/quote/tpe/2492/</td>
+      <td>Residual alpha calibration for an underfollowed passive supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Sumida statistics</td>
+      <td>https://stockanalysis.com/quote/tyo/6817/</td>
+      <td>Residual alpha calibration for a smaller inductor supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Vishay overview</td>
+      <td>https://stockanalysis.com/stocks/vsh/</td>
+      <td>Residual alpha calibration for a diversified passive supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Nippon Chemi-Con overview</td>
+      <td>https://stockanalysis.com/quote/tyo/6997/</td>
+      <td>Residual alpha calibration for capacitor supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Nichicon overview</td>
+      <td>https://stockanalysis.com/quote/tyo/6996/</td>
+      <td>Residual alpha calibration for capacitor supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>TDK overview</td>
+      <td>https://stockanalysis.com/quote/otc/TTDKY/</td>
+      <td>Residual alpha calibration for a direct passive supplier.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>Panasonic overview</td>
+      <td>https://stockanalysis.com/quote/otc/PCRHY/</td>
+      <td>Residual alpha calibration for polymer/tantalum/passive exposure.</td>
+    </tr>
+    <tr>
+      <td>Market data</td>
+      <td>discoverIE overview</td>
+      <td>https://stockanalysis.com/quote/lon/DSCV/</td>
+      <td>Residual alpha calibration for underfollowed power/connectivity group.</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+
+<div class="section footer">
+  This report is a research pack, not a promise that any stock will rise over the next 90 days. Residual alpha is an inference, not a certainty. The revised ranking is designed to avoid confusing strategic importance with remaining upside.
+</div>
+
+</main>
+</body>
+</html>

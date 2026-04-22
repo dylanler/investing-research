@@ -1,0 +1,38 @@
+type,title,url,used_for
+Official,NVIDIA DSX AI factory reference design,https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx,"Names Eaton, Schneider Electric, Vertiv and energy leaders in DSX ecosystem."
+Official,TDK MLCC solutions for AI server power systems,https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html,Explains MLCCs as key design constraints in AI-server PSUs and IBCs.
+Official,Nippon Chemi-Con generative AI and aluminum electrolytic capacitors,https://www.chemi-con.co.jp/en/company/about/topics/ai.html,Maps the power path from AC/DC and UPS down to server and GPU-adjacent power.
+Official,Murata data center server page,https://www.murata.com/en-global/apps/enterprise/datacenter/server,Shows polymer aluminum electrolytic capacitors and DC-DC converters in server power.
+Official,Murata OCP / data center power page,https://www.murata.com/en-us/products/power/open-compute,States OCP-compatible PSUs and power shelves for AI servers and high-density data centers.
+Official,LITEON + QCT GTC 2026 rack solution,https://www.liteon.com/en/news/press-center/content/liteon-gtc-qct-2026,110kW power shelf with QCT Rubin NVL72 solution.
+Official,LITEON NVIDIA GTC 2026 data center portfolio,https://www.liteon.com/en/news/press-center/content/liteon-nvidia-gtc-2026,"800VDC power rack, 110kW power shelf, 2.1MW in-row CDU."
+Official,Delta ORV3 33kW power system,https://www.deltaww.com/en-US/products/orv3-server-power/ORV3-33kW-Power-System,AI-server power shelf and 5.5kW PSU stack.
+Official,Delta APEC 2024 AI server power announcement,https://www.delta-americas.com/en-us/news/delta-unveils-new-innovative-ai-server-power-solutions-at-apec-2024-orv3-33kw-18kw-power-shelves-and-vertical-power-delivery-solutions,33kW / 18kW shelves and vertical power delivery at GPU/CPU/ASIC level.
+Official,Yageo AI page,https://www.yageo.com/jp/Html/Index/ai,Yageo positions its products as supporting AI power needs.
+Official,Yageo AI-server PDU shunt resistor release,https://www.yageo.com/jp/PressRoom/Content/press_room?category=product_event&news_id=20241223,Four-terminal shunt resistors for AI server PDUs.
+Official,CTS current sensors,https://www.ctscorp.com/Products/Current-Sensors,CTS cites data centers and power distribution among current sensor applications.
+Official,CTS resistor networks,https://www.ctscorp.com/Products/Passive-Components/Legacy-Products/Resistor-Networks,"Resistor arrays for FPGA, PCIe, backplane and high-density interfaces."
+Official,CTS shunts,https://www.ctscorp.com/Products/Current-Sensors/Shunts,Precision shunts for AC/DC converters and battery/current monitoring.
+Official,Sumida corporate page,https://www.sumida.com/,"Power inductors, transformers, EMC coils and magnetic materials."
+Official,Sumida power inductors,https://products.sumida.com/ProductsInfo/ProductGuide/PowerInductors/,Power inductor catalog and applications.
+Official,Walsin about,https://www.passivecomponent.com/about/,One-stop passive component supplier with data-center exposure.
+Official,Walsin capacitors,https://www.passivecomponent.com/products/capacitors/,MLCC portfolio including high-capacitance and high-voltage families.
+Official,Vishay tantalum portfolio,https://www.vishay.com/en/capacitors/tantalum/tab/products/,"Broad tantalum offering across molded, conformal, low-ESR and infrastructure uses."
+Official,Vishay polymer tantalum release,https://www.vishay.com/en/company/press/releases/2023/T51_Series_Polymer_AECQ200/,Polymer tantalum with low ESR for smoothing and filtering.
+Official,Belden data centers,https://www.belden.com/en/Markets/Data-Centers,"Data-center cabling, power distribution and monitoring context."
+Official,Plexus manufacturing overview,https://www.plexus.com/,Complex product manufacturing and supply-chain services.
+Official,Kimball industrial electronics,https://www.kimballelectronics.com/market-verticals/industrial,Durable industrial electronics manufacturing and controls.
+Market data,Bel Fuse statistics,https://stockanalysis.com/stocks/belfa/,Used to penalize already-rerated winners.
+Market data,Delta Electronics statistics,https://stockanalysis.com/quote/tpe/2308/,Used to penalize already-rerated winners.
+Market data,Bel Fuse market-cap history,https://stockanalysis.com/stocks/belfa/market-cap/,1-year market-cap change.
+Market data,Delta Electronics market-cap history,https://stockanalysis.com/quote/tpe/2308/market-cap/,1-year market-cap change.
+Market data,CTS statistics,https://stockanalysis.com/stocks/cts/statistics/,Residual alpha calibration for a direct passive/sensing name.
+Market data,Benchmark statistics,https://stockanalysis.com/stocks/bhe/statistics/,Residual alpha calibration for an underfollowed EMS name.
+Market data,Walsin statistics,https://stockanalysis.com/quote/tpe/2492/,Residual alpha calibration for an underfollowed passive supplier.
+Market data,Sumida statistics,https://stockanalysis.com/quote/tyo/6817/,Residual alpha calibration for a smaller inductor supplier.
+Market data,Vishay overview,https://stockanalysis.com/stocks/vsh/,Residual alpha calibration for a diversified passive supplier.
+Market data,Nippon Chemi-Con overview,https://stockanalysis.com/quote/tyo/6997/,Residual alpha calibration for capacitor supplier.
+Market data,Nichicon overview,https://stockanalysis.com/quote/tyo/6996/,Residual alpha calibration for capacitor supplier.
+Market data,TDK overview,https://stockanalysis.com/quote/otc/TTDKY/,Residual alpha calibration for a direct passive supplier.
+Market data,Panasonic overview,https://stockanalysis.com/quote/otc/PCRHY/,Residual alpha calibration for polymer/tantalum/passive exposure.
+Market data,discoverIE overview,https://stockanalysis.com/quote/lon/DSCV/,Residual alpha calibration for underfollowed power/connectivity group.

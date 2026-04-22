@@ -1,0 +1,39 @@
+supplier,component_or_service,recipient,relationship_type,evidence,source_id,note
+Eaton,Beam Rubin DSX power platform,NVIDIA Rubin DSX AI Factory,Named collaboration,Confirmed,S03,Grid-to-chip power path
+Schneider Electric,AI factory power/cooling blueprint,NVIDIA Rubin AI factories,Named collaboration,Confirmed,S05,Validated with NVIDIA
+Vertiv,Power and cooling infrastructure,AI factories / high-density data centers,Ecosystem supply,Confirmed,S01,Named as NVIDIA ecosystem partner
+Flex,800VDC Power Rack,NVIDIA Vera Rubin infrastructure,Named product-platform fit,Confirmed,S24,Megawatt-scale rack power
+Celestica,Scale-up networking switches,AMD Helios rack-scale AI platform,Named collaboration,Confirmed,S25,Helios rack-scale AI
+Wiwynn,Rubin NVL72 AI factory infrastructure,NVIDIA platform,Named product-platform fit,Confirmed,S26,Direct Rubin infrastructure demo
+Foxconn,Full-system AI server racks,NVIDIA Vera Rubin NVL72,Named product-platform fit,Confirmed,S27,Modular data-center angle
+LITEON,110kW power shelf,QCT Rubin NVL72 AI server solution,Named collaboration,Confirmed,S28,Shown jointly at GTC 2026
+Delta Electronics,ORV3 power shelves / PSUs,AI servers,Application-targeted,Official but customer unnamed,S19,5.5kW+ PSUs and 33kW shelves
+Bel Fuse,"Power supplies, connectivity, magnetics",AI/cloud servers,Application-targeted,Official but customer unnamed,S20,High-density AI/cloud/edge architectures
+Vicor,48V point-of-load modules,AI accelerator clusters,Application-targeted,Official but customer unnamed,S21,Current density near processors
+Monolithic Power Systems,High-current power modules,AI accelerator cards,Application-targeted,Official but customer unnamed,S22,800A+ scalable current
+TDK,TLVR inductors,Server power supply circuits,Application-targeted,Confirmed,S08,AI-server power topology pages
+TDK,MLCCs,AI server power systems,Application-targeted,Confirmed,S07,AI-server power systems
+Murata,"MLCCs, inductors, filters",AI server/data-center power networks,Application-targeted,Official but customer unnamed,S09,Power stabilization
+Samsung Electro-Mechanics,High-capacitance MLCCs,AI server power modules,Application-targeted,Confirmed,S14,AI-server power module stabilization
+Yageo,Four-terminal shunt resistors,AI server PDUs,Application-targeted,Confirmed,S17,PDU current-sense
+Yageo,"KO-CAP, MLCC, thin-film resistors, inductors",AI/server systems,Application-targeted,Confirmed,S16,Broad AI passive portfolio
+Nippon Chemi-Con,Conductive polymer aluminum caps,GPU/CPU-adjacent VRM,Application-targeted,Confirmed,S12,Ultra-low ESR around processors
+Nippon Chemi-Con,Immersion-compatible capacitors,Liquid-cooled servers,Application-targeted,Confirmed,S13,Immersion cooling compatibility
+Panasonic Industry,POSCAP / polymer caps,Server and data-center power circuits,Application-targeted,Confirmed,S11,Server power circuits
+KYOCERA AVX,MLCCs,AI servers and GenAI systems,Demand exposure,Confirmed,S10,AI-driven demand
+Jabil,Hanley Energy power-management stack,AI data centers,Named acquisition thesis,Confirmed,S23,Grid-to-rack power
+Eaton / Schneider / Vertiv,Facility power and cooling,NVIDIA AI factories,Ecosystem supply,Confirmed,S01,Reference-design ecosystem
+NVIDIA Rubin,Rubin rack-scale systems,Microsoft / AWS / Google / OCI / CoreWeave,Named downstream adopters,Confirmed,S02,Cloud demand map
+NVIDIA Rubin,Rubin servers,Dell / HPE / Lenovo / Supermicro,Named downstream adopters,Confirmed,S02,OEM demand map
+Hyperscaler capex surge,Multi-year AI capacity expansion,Power/cooling/passive supply chain,Demand signal,Research-supported,S31,Capex quadrupled since GPT-4
+Alphabet / Amazon / Microsoft capex surge,AI demand exceeded available supply,Upstream suppliers,Demand signal,Research-supported,S32,Supply exceeded demand
+AI data-center delays,"Utility, labor and equipment bottlenecks",Power/cooling/grid suppliers,Macro bottleneck,News-supported,S33,~40% sites may face delays
+AI demand in China,"Equipment, passive components, talent",Passive suppliers,Macro bottleneck,News-supported,S34,Passives explicitly referenced
+Schneider / Rubin cooling roadmap,150kW+ racks and liquid cooling,Cooling stack suppliers,Density signal,News-supported,S35,Liquid cooling effectively required
+RBC data-center power struggle,Power availability as bottleneck,Grid/power suppliers,Macro bottleneck,Research-supported,S36,"Power first, not just chips"
+ITIF AI data-center power concerns,Reliability and power conditioning,UPS / capacitor / power-quality chain,Macro bottleneck,Research-supported,S37,System-level reliability
+Switchgear / transformers / busway,Rack power feeds,Power shelves / PSUs,Layered inference,Inferred from architecture,S01,Grid to rack
+Power shelves / PSUs,48V buses and VRMs,Motherboards / accelerator cards,Layered inference,Inferred from architecture,S21,Rack to board
+VRMs and power planes,"MLCCs, polymer caps, inductors, current sense",GPU / CPU packages,Layered inference,Confirmed across vendor pages,S07,Board-level component stack
+Substrates / PCBs / backplanes,"Accelerators, NICs and switches",Rack integrators / ODMs,Layered inference,Sector-level,S25,Board to rack
+ODMs / EMS,"AI racks, storage and network fabrics",Hyperscalers / AI labs,Layered inference,Confirmed across Rubin/Helios ecosystem,S02,Rack to deployment
