@@ -27,24 +27,6 @@ import type {
 } from './types';
 
 const CHARTS = {
-  topBottleneckCategories: {
-    src: '/reports/ai-passives-alpha/charts/top_bottleneck_categories.png',
-    width: 1800,
-    height: 1170,
-    alt: 'Top passive bottleneck categories chart',
-  },
-  leadtimeHeatmap: {
-    src: '/reports/ai-passives-alpha/charts/leadtime_heatmap.png',
-    width: 1980,
-    height: 1170,
-    alt: 'Lead-time heatmap from the uploaded report',
-  },
-  leadtimeVsPricing: {
-    src: '/reports/ai-passives-alpha/charts/leadtime_vs_pricing_pressure.png',
-    width: 1620,
-    height: 1170,
-    alt: 'Lead time versus pricing pressure chart',
-  },
   supplyFlow: {
     src: '/reports/ai-passives-alpha/charts/supply_chain_flow.svg',
     width: 1665,
@@ -56,30 +38,6 @@ const CHARTS = {
     width: 989,
     height: 900,
     alt: 'Bottleneck mindmap',
-  },
-  top20Us: {
-    src: '/reports/ai-passives-alpha/charts/top20_us_residual_alpha_revised.png',
-    width: 1584,
-    height: 1200,
-    alt: 'Top 20 US residual alpha chart',
-  },
-  top20NonUs: {
-    src: '/reports/ai-passives-alpha/charts/top20_non_us_residual_alpha_revised.png',
-    width: 1584,
-    height: 1200,
-    alt: 'Top 20 non-US residual alpha chart',
-  },
-  usCrowding: {
-    src: '/reports/ai-passives-alpha/charts/us_residual_alpha_vs_crowding.png',
-    width: 1337,
-    height: 1023,
-    alt: 'US residual alpha versus crowding chart',
-  },
-  nonUsCrowding: {
-    src: '/reports/ai-passives-alpha/charts/non_us_residual_alpha_vs_crowding.png',
-    width: 1337,
-    height: 1023,
-    alt: 'Non-US residual alpha versus crowding chart',
   },
 } as const;
 
@@ -101,8 +59,34 @@ const REGION_ACCENTS = {
   'Non-US': '#0f766e',
 } as const;
 
+const CARD_BORDER = '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)';
+const CARD_SHADOW = '0 18px 42px rgba(15, 23, 42, 0.05)';
+const CHART_GRID_STROKE = 'color-mix(in srgb, var(--ink-400) 20%, transparent)';
+const AXIS_TICK = { fontSize: 11, fill: 'var(--ink-400)' };
+const TOOLTIP_CONTENT_STYLE = {
+  borderRadius: '16px',
+  border: '1px solid color-mix(in srgb, var(--ink-950) 10%, transparent)',
+  background: 'var(--surface-overlay)',
+  boxShadow: '0 18px 40px rgba(15, 23, 42, 0.16)',
+};
+const TOOLTIP_LABEL_STYLE = {
+  color: 'var(--ink-950)',
+  fontWeight: 600,
+};
+const TOOLTIP_ITEM_STYLE = {
+  color: 'var(--ink-700)',
+};
+
 function formatScore(value: number): string {
   return value.toFixed(1);
+}
+
+function formatWeeks(value: number): string {
+  return `${formatScore(value)}w`;
+}
+
+function formatPercent(value: number): string {
+  return `${value.toFixed(0)}%`;
 }
 
 function formatSigned(value: number): string {
@@ -386,6 +370,67 @@ function NoteCard({
   );
 }
 
+function ChartCard({
+  title,
+  subtitle,
+  footer,
+  children,
+}: {
+  title: string;
+  subtitle?: string;
+  footer?: string;
+  children: ReactNode;
+}) {
+  return (
+    <div
+      style={{
+        borderRadius: 24,
+        border: CARD_BORDER,
+        background: 'var(--surface-raised)',
+        padding: '18px 18px 14px',
+        boxShadow: CARD_SHADOW,
+      }}
+    >
+      <div style={{ marginBottom: 12 }}>
+        <div
+          style={{
+            fontSize: 'var(--text-base)',
+            color: 'var(--ink-950)',
+            fontWeight: 600,
+          }}
+        >
+          {title}
+        </div>
+        {subtitle ? (
+          <p
+            style={{
+              margin: '6px 0 0',
+              fontSize: 'var(--text-sm)',
+              color: 'var(--ink-500)',
+              lineHeight: 1.65,
+            }}
+          >
+            {subtitle}
+          </p>
+        ) : null}
+      </div>
+      {children}
+      {footer ? (
+        <p
+          style={{
+            margin: '12px 0 0',
+            fontSize: 'var(--text-xs)',
+            color: 'var(--ink-500)',
+            lineHeight: 1.6,
+          }}
+        >
+          {footer}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
 function ChartFrame({
   title,
   subtitle,
@@ -405,10 +450,10 @@ function ChartFrame({
     <div
       style={{
         borderRadius: 24,
-        border: '1px solid rgba(15, 23, 42, 0.08)',
+        border: CARD_BORDER,
         background: 'var(--surface-raised)',
         padding: '18px',
-        boxShadow: '0 18px 42px rgba(15, 23, 42, 0.05)',
+        boxShadow: CARD_SHADOW,
       }}
     >
       <div className="flex items-start justify-between gap-4" style={{ marginBottom: 12 }}>
@@ -454,7 +499,7 @@ function ChartFrame({
         style={{
           overflow: 'hidden',
           borderRadius: 18,
-          border: '1px solid rgba(15, 23, 42, 0.08)',
+          border: CARD_BORDER,
           background: 'var(--surface-sunken)',
         }}
       >
@@ -511,6 +556,199 @@ function BucketPill({ label }: { label: string }) {
     >
       {label}
     </span>
+  );
+}
+
+function SignalMeter({
+  label,
+  value,
+  max,
+  color,
+  detail,
+}: {
+  label: string;
+  value: number;
+  max: number;
+  color: string;
+  detail: string;
+}) {
+  const width = `${Math.max(8, (value / Math.max(max, 1)) * 100)}%`;
+
+  return (
+    <div>
+      <div className="flex items-center justify-between gap-3" style={{ marginBottom: 6 }}>
+        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{label}</span>
+        <span
+          style={{
+            fontSize: 'var(--text-xs)',
+            color: 'var(--ink-900)',
+            fontWeight: 600,
+            fontFamily: 'monospace',
+          }}
+        >
+          {detail}
+        </span>
+      </div>
+      <div
+        style={{
+          height: 8,
+          borderRadius: 999,
+          background: 'var(--surface-sunken)',
+          overflow: 'hidden',
+        }}
+      >
+        <div
+          style={{
+            width,
+            height: '100%',
+            borderRadius: 999,
+            background: `linear-gradient(90deg, ${color}, color-mix(in srgb, ${color} 35%, white))`,
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
+function LeadTimeSignalCard({ row }: { row: LeadTimeRow }) {
+  return (
+    <article
+      style={{
+        borderRadius: 20,
+        border: CARD_BORDER,
+        background: 'linear-gradient(180deg, var(--surface-raised), var(--surface-sunken))',
+        padding: '16px',
+      }}
+    >
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-950)' }}>
+            {row.vendor}
+          </div>
+          <div style={{ marginTop: 4, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+            {row.category}
+          </div>
+        </div>
+        <div
+          className="font-display"
+          style={{ fontSize: 'var(--text-xl)', fontWeight: 600, color: 'var(--ink-950)' }}
+        >
+          {row.leadTime}
+        </div>
+      </div>
+      <div className="flex flex-wrap gap-2" style={{ marginTop: 12 }}>
+        <span
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            padding: '3px 9px',
+            borderRadius: 999,
+            fontSize: '11px',
+            fontWeight: 600,
+            ...badgeStyle(row.trendUp ? '#0f5cc0' : 'var(--ink-400)'),
+          }}
+        >
+          Trend {row.trend}
+        </span>
+        <span
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            padding: '3px 9px',
+            borderRadius: 999,
+            fontSize: '11px',
+            fontWeight: 600,
+            ...badgeStyle(row.pricingUp ? '#b45309' : 'var(--ink-400)'),
+          }}
+        >
+          Pricing {row.pricing}
+        </span>
+        {row.note ? (
+          <span
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              padding: '3px 9px',
+              borderRadius: 999,
+              fontSize: '11px',
+              fontWeight: 600,
+              ...badgeStyle('#7c3aed'),
+            }}
+          >
+            Note
+          </span>
+        ) : null}
+      </div>
+      <p
+        style={{
+          margin: '12px 0 0',
+          fontSize: 'var(--text-sm)',
+          color: 'var(--ink-600)',
+          lineHeight: 1.65,
+        }}
+      >
+        {row.note || 'No additional note attached in the transcription.'}
+      </p>
+    </article>
+  );
+}
+
+function BottleneckScatterTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{ payload: Record<string, number | string> }>;
+}) {
+  if (!active || !payload?.length) {
+    return null;
+  }
+
+  const row = payload[0].payload;
+
+  return (
+    <div style={TOOLTIP_CONTENT_STYLE}>
+      <div style={{ padding: '12px 14px' }}>
+        <div style={{ color: 'var(--ink-950)', fontWeight: 600 }}>{row.category}</div>
+        <div style={{ marginTop: 8, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+          Avg lead time {formatWeeks(Number(row.leadTime))} • pricing up{' '}
+          {formatPercent(Number(row.pricing))} • trend up {formatPercent(Number(row.trend))}
+        </div>
+        <div style={{ marginTop: 6, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+          {row.vendors} vendors in the source pack • max lead time {formatWeeks(Number(row.maxLt))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function RankingScatterTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{ payload: Record<string, number | string> }>;
+}) {
+  if (!active || !payload?.length) {
+    return null;
+  }
+
+  const row = payload[0].payload;
+
+  return (
+    <div style={TOOLTIP_CONTENT_STYLE}>
+      <div style={{ padding: '12px 14px' }}>
+        <div style={{ color: 'var(--ink-950)', fontWeight: 600 }}>
+          {row.company} ({row.ticker})
+        </div>
+        <div style={{ marginTop: 8, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+          Residual alpha {formatScore(Number(row.y))} • crowding penalty {formatScore(Number(row.x))}
+        </div>
+        <div style={{ marginTop: 6, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
+          {row.bucket} • {row.upside}
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -749,6 +987,26 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
     [activeRanking],
   );
 
+  const pressureMapRows = useMemo(
+    () =>
+      [...data.bottleneckCategories]
+        .map((row) => ({
+          category: row.category,
+          leadTime: row.avgLtWeeks,
+          maxLt: row.maxLtWeeks,
+          pricing: row.pricingUpRatePct,
+          trend: row.trendUpRatePct,
+          vendors: row.vendors,
+          pressureScore:
+            row.avgLtWeeks * 1.6 +
+            row.pricingUpRatePct * 0.28 +
+            row.trendUpRatePct * 0.18 +
+            row.vendors * 1.4,
+        }))
+        .sort((left, right) => right.pressureScore - left.pressureScore),
+    [data.bottleneckCategories],
+  );
+
   const scatterRows = useMemo(
     () =>
       activeRanking.map((row) => ({
@@ -761,6 +1019,45 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         upside: row.residualUpsideLabel,
       })),
     [activeRanking],
+  );
+
+  const leadTimeSignalRows = useMemo(
+    () => topLeadTimeRows(data.leadTimes).slice(0, 9),
+    [data.leadTimes],
+  );
+
+  const balanceRows = useMemo(
+    () =>
+      activeRanking
+        .slice(0, 10)
+        .map((row) => ({
+          ...row,
+          balanceScore: row.residualAlphaScore - row.crowdingPenaltyScore * 6,
+        }))
+        .sort((left, right) => right.balanceScore - left.balanceScore)
+        .slice(0, 6),
+    [activeRanking],
+  );
+
+  const maxCategoryLeadTime = useMemo(
+    () =>
+      data.bottleneckCategories.reduce((max, row) => Math.max(max, row.avgLtWeeks), 0),
+    [data.bottleneckCategories],
+  );
+
+  const maxCategoryVendors = useMemo(
+    () => data.bottleneckCategories.reduce((max, row) => Math.max(max, row.vendors), 0),
+    [data.bottleneckCategories],
+  );
+
+  const maxBalanceScore = useMemo(
+    () => Math.max(...balanceRows.map((row) => row.residualAlphaScore), 1),
+    [balanceRows],
+  );
+
+  const maxCrowdingPenalty = useMemo(
+    () => Math.max(...balanceRows.map((row) => row.crowdingPenaltyScore), 1),
+    [balanceRows],
   );
 
   const layerSummary = useMemo(() => {
@@ -839,9 +1136,6 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       }
     });
   }, [bucketFilter, data.masterRanking, deferredSearch, layerFilter, region, sortKey]);
-
-  const chartImage = region === 'US' ? CHARTS.top20Us : CHARTS.top20NonUs;
-  const crowdingImage = region === 'US' ? CHARTS.usCrowding : CHARTS.nonUsCrowding;
 
   return (
     <ReportShell>
@@ -1153,41 +1447,43 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         subtitle="The report is equity-facing, but the evidence base underneath it still begins with physical shortages: long lead times, categories with persistent pricing pressure, and vendors that keep showing up in constrained screenshot sets."
       >
         <div className="grid gap-4 lg:grid-cols-2" style={{ marginBottom: 24 }}>
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'var(--surface-raised)',
-              padding: '18px 18px 8px',
-            }}
+          <ChartCard
+            title="Highest average lead-time categories"
+            subtitle="The longest waits are still concentrated in capacitor families, current-sense, and magnetics-adjacent categories."
+            footer="Names are shortened on-axis for readability. Hover for the full category name and exact lead-time values."
           >
-            <div
-              style={{
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-950)',
-                fontWeight: 600,
-                marginBottom: 8,
-              }}
-            >
-              Highest average lead-time categories
-            </div>
             <div style={{ width: '100%', height: 360, minWidth: 0 }}>
               <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={data.bottleneckCategories.slice(0, 10)}
                   layout="vertical"
-                  margin={{ top: 10, right: 12, left: 12, bottom: 10 }}
+                  margin={{ top: 10, right: 18, left: 8, bottom: 10 }}
                 >
-                  <CartesianGrid stroke="rgba(148, 163, 184, 0.2)" horizontal={false} />
-                  <XAxis type="number" stroke="var(--ink-400)" tick={{ fontSize: 11 }} />
+                  <CartesianGrid stroke={CHART_GRID_STROKE} horizontal={false} />
+                  <XAxis
+                    type="number"
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
+                  />
                   <YAxis
                     type="category"
                     dataKey="category"
-                    width={160}
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    width={188}
+                    stroke="var(--ink-300)"
+                    axisLine={false}
+                    tickLine={false}
+                    tick={AXIS_TICK}
+                    tickFormatter={(value: string) => shortName(value)}
                   />
-                  <Tooltip />
+                  <Tooltip
+                    contentStyle={TOOLTIP_CONTENT_STYLE}
+                    labelStyle={TOOLTIP_LABEL_STYLE}
+                    itemStyle={TOOLTIP_ITEM_STYLE}
+                    formatter={(value) => [formatWeeks(Number(value)), 'Avg lead time']}
+                    labelFormatter={(label) => String(label ?? '')}
+                  />
                   <Bar dataKey="avgLtWeeks" radius={[0, 10, 10, 0]}>
                     {data.bottleneckCategories.slice(0, 10).map((row) => (
                       <Cell key={row.category} fill="#0f5cc0" />
@@ -1196,43 +1492,45 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-          </div>
+          </ChartCard>
 
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'var(--surface-raised)',
-              padding: '18px 18px 8px',
-            }}
+          <ChartCard
+            title="Most constrained screenshot vendors"
+            subtitle="This condenses the vendor-level transcriptions into a cleaner leaderboard, weighted by lead time, price pressure, and note flags."
+            footer="The vendor score is a composite signal from the uploaded spreadsheet, not a market-share measure."
           >
-            <div
-              style={{
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-950)',
-                fontWeight: 600,
-                marginBottom: 8,
-              }}
-            >
-              Most constrained screenshot vendors
-            </div>
             <div style={{ width: '100%', height: 360, minWidth: 0 }}>
               <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={topVendorRows(data.vendorConstraints)}
                   layout="vertical"
-                  margin={{ top: 10, right: 12, left: 12, bottom: 10 }}
+                  margin={{ top: 10, right: 18, left: 8, bottom: 10 }}
                 >
-                  <CartesianGrid stroke="rgba(148, 163, 184, 0.2)" horizontal={false} />
-                  <XAxis type="number" stroke="var(--ink-400)" tick={{ fontSize: 11 }} />
+                  <CartesianGrid stroke={CHART_GRID_STROKE} horizontal={false} />
+                  <XAxis
+                    type="number"
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
+                  />
                   <YAxis
                     type="category"
                     dataKey="vendor"
-                    width={150}
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    width={170}
+                    stroke="var(--ink-300)"
+                    axisLine={false}
+                    tickLine={false}
+                    tick={AXIS_TICK}
+                    tickFormatter={(value: string) => shortName(value)}
                   />
-                  <Tooltip />
+                  <Tooltip
+                    contentStyle={TOOLTIP_CONTENT_STYLE}
+                    labelStyle={TOOLTIP_LABEL_STYLE}
+                    itemStyle={TOOLTIP_ITEM_STYLE}
+                    formatter={(value) => [formatScore(Number(value)), 'Vendor score']}
+                    labelFormatter={(label) => String(label ?? '')}
+                  />
                   <Bar dataKey="avgVendorScore" radius={[0, 10, 10, 0]}>
                     {topVendorRows(data.vendorConstraints).map((row) => (
                       <Cell key={row.vendor} fill="#0f766e" />
@@ -1241,7 +1539,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-          </div>
+          </ChartCard>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3" style={{ marginBottom: 24 }}>
@@ -1250,7 +1548,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               key={row.category}
               style={{
                 borderRadius: 22,
-                border: '1px solid rgba(15, 23, 42, 0.08)',
+                border: CARD_BORDER,
                 background: 'var(--surface-raised)',
                 padding: '16px 16px 18px',
               }}
@@ -1265,30 +1563,152 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 {formatScore(row.avgLtWeeks)}w
               </div>
               <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)', marginTop: 6 }}>
-                Avg lead time • max {formatScore(row.maxLtWeeks)}w • pricing up {row.pricingUpRatePct.toFixed(0)}%
+                Avg lead time • max {formatScore(row.maxLtWeeks)}w • pricing up{' '}
+                {row.pricingUpRatePct.toFixed(0)}%
               </div>
             </div>
           ))}
         </div>
 
-        <div className="grid gap-4 lg:grid-cols-2">
-          <ChartFrame
-            title="Bottleneck category ranking"
-            subtitle="A compact view of the categories with the strongest shortage signatures."
-            {...CHARTS.topBottleneckCategories}
-          />
-          <ChartFrame
-            title="Lead-time heatmap"
-            subtitle="The most compact visual explanation for where delivery strain clusters."
-            {...CHARTS.leadtimeHeatmap}
-          />
+        <div className="grid gap-4 lg:grid-cols-[1.05fr,0.95fr]">
+          <ChartCard
+            title="Pressure map"
+            subtitle="The exported bubble chart was too cluttered to read. This rebuild keeps the same logic but uses tooltips instead of smashed labels."
+            footer="Further right means longer average lead times. Higher means more rows showing pricing pressure. Bubble size tracks the number of vendors contributing to the category."
+          >
+            <div style={{ width: '100%', height: 390, minWidth: 0 }}>
+              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
+                <ScatterChart margin={{ top: 12, right: 18, bottom: 20, left: 8 }}>
+                  <CartesianGrid stroke={CHART_GRID_STROKE} />
+                  <XAxis
+                    type="number"
+                    dataKey="leadTime"
+                    name="Average lead time"
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
+                    tickFormatter={(value: number) => `${value}w`}
+                  />
+                  <YAxis
+                    type="number"
+                    dataKey="pricing"
+                    name="Pricing pressure"
+                    domain={[0, 100]}
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
+                    tickFormatter={(value: number) => `${value}%`}
+                  />
+                  <ZAxis type="number" dataKey="vendors" range={[70, 280]} />
+                  <Tooltip content={<BottleneckScatterTooltip />} />
+                  <Scatter data={pressureMapRows} fill="#0f5cc0" />
+                </ScatterChart>
+              </ResponsiveContainer>
+            </div>
+          </ChartCard>
+
+          <ChartCard
+            title="Pressure scorecard"
+            subtitle="This replaces the unreadable heatmap with a ranked list that shows exactly why each category screens as tight."
+            footer="Lead time is the main driver, but categories move up the list when price hikes and persistent up-trend flags appear alongside it."
+          >
+            <div className="grid gap-4">
+              {pressureMapRows.slice(0, 7).map((row, index) => (
+                <div
+                  key={row.category}
+                  style={{
+                    paddingBottom: index === 6 ? 0 : 14,
+                    borderBottom:
+                      index === 6 ? 'none' : '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)',
+                  }}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <div
+                        style={{
+                          fontSize: 'var(--text-sm)',
+                          fontWeight: 600,
+                          color: 'var(--ink-950)',
+                        }}
+                      >
+                        {row.category}
+                      </div>
+                      <div
+                        style={{
+                          marginTop: 4,
+                          fontSize: 'var(--text-xs)',
+                          color: 'var(--ink-500)',
+                        }}
+                      >
+                        Rank #{index + 1} on combined pressure
+                      </div>
+                    </div>
+                    <div
+                      className="font-display"
+                      style={{
+                        fontSize: 'var(--text-xl)',
+                        fontWeight: 600,
+                        color: '#0f5cc0',
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      {formatWeeks(row.leadTime)}
+                    </div>
+                  </div>
+
+                  <div className="grid gap-3 md:grid-cols-2" style={{ marginTop: 12 }}>
+                    <SignalMeter
+                      label="Avg lead time"
+                      value={row.leadTime}
+                      max={maxCategoryLeadTime}
+                      color="#0f5cc0"
+                      detail={formatWeeks(row.leadTime)}
+                    />
+                    <SignalMeter
+                      label="Pricing up"
+                      value={row.pricing}
+                      max={100}
+                      color="#b45309"
+                      detail={formatPercent(row.pricing)}
+                    />
+                    <SignalMeter
+                      label="Trend up"
+                      value={row.trend}
+                      max={100}
+                      color="#0f766e"
+                      detail={formatPercent(row.trend)}
+                    />
+                    <SignalMeter
+                      label="Vendors"
+                      value={row.vendors}
+                      max={maxCategoryVendors}
+                      color="#7c3aed"
+                      detail={`${row.vendors}`}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </ChartCard>
         </div>
+
         <div style={{ marginTop: 16 }}>
-          <ChartFrame
-            title="Lead time versus pricing pressure"
-            subtitle="A useful cross-check: long lead times matter more when suppliers are also pushing prices up."
-            {...CHARTS.leadtimeVsPricing}
-          />
+          <ChartCard
+            title="Lead-time signal board"
+            subtitle="The most telling rows from the lead-time transcription, shown as readable cards instead of a screenshot export."
+            footer="Rows bubble up here when vendor score and lead-time midpoint both matter. Additional notes are preserved directly from the pack."
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {leadTimeSignalRows.map((row) => (
+                <LeadTimeSignalCard
+                  key={`${row.vendor}-${row.category}-${row.leadTime}`}
+                  row={row}
+                />
+              ))}
+            </div>
+          </ChartCard>
         </div>
       </Section>
 
@@ -1312,41 +1732,42 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         </div>
 
         <div className="grid gap-4 lg:grid-cols-[0.95fr,1.05fr]">
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'var(--surface-raised)',
-              padding: '18px',
-            }}
+          <ChartCard
+            title="Layer average residual-alpha score"
+            subtitle="The layer view ties the diagrams back to the investable universe by showing where average score pools across the stack."
           >
-            <div
-              style={{
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-950)',
-                fontWeight: 600,
-                marginBottom: 8,
-              }}
-            >
-              Layer average residual-alpha score
-            </div>
             <div style={{ width: '100%', height: 340, minWidth: 0 }}>
               <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={layerSummary}
                   layout="vertical"
-                  margin={{ top: 10, right: 12, left: 12, bottom: 10 }}
+                  margin={{ top: 10, right: 18, left: 8, bottom: 10 }}
                 >
-                  <CartesianGrid stroke="rgba(148, 163, 184, 0.2)" horizontal={false} />
-                  <XAxis type="number" stroke="var(--ink-400)" tick={{ fontSize: 11 }} />
+                  <CartesianGrid stroke={CHART_GRID_STROKE} horizontal={false} />
+                  <XAxis
+                    type="number"
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
+                  />
                   <YAxis
                     type="category"
                     dataKey="layer"
-                    width={145}
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    width={154}
+                    stroke="var(--ink-300)"
+                    axisLine={false}
+                    tickLine={false}
+                    tick={AXIS_TICK}
+                    tickFormatter={(value: string) => shortName(value)}
                   />
-                  <Tooltip />
+                  <Tooltip
+                    contentStyle={TOOLTIP_CONTENT_STYLE}
+                    labelStyle={TOOLTIP_LABEL_STYLE}
+                    itemStyle={TOOLTIP_ITEM_STYLE}
+                    formatter={(value) => [formatScore(Number(value)), 'Average score']}
+                    labelFormatter={(label) => String(label ?? '')}
+                  />
                   <Bar dataKey="avgScore" radius={[0, 10, 10, 0]}>
                     {layerSummary.map((row) => (
                       <Cell key={row.layer} fill="#7c3aed" />
@@ -1355,7 +1776,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-          </div>
+          </ChartCard>
 
           <div className="grid gap-4 md:grid-cols-2">
             {strongestRelationships(data.supplyRelationships).map((row) => (
@@ -1363,7 +1784,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 key={`${row.supplier}-${row.recipient}-${row.componentOrService}`}
                 style={{
                   borderRadius: 22,
-                  border: '1px solid rgba(15, 23, 42, 0.08)',
+                  border: CARD_BORDER,
                   background: 'var(--surface-raised)',
                   padding: '16px 16px 18px',
                 }}
@@ -1425,7 +1846,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         id="rankings"
         eyebrow="Rankings"
         title="The final leaders are not always the obvious leaders."
-        subtitle="Switch regions to compare the two sides of the report. The ranking cards show the top ten names. The scatter chart shows the mechanic behind them: high score plus lower crowding tends to beat pure strategic importance."
+        subtitle="Switch regions to compare the two sides of the report. The bar chart makes the leaders readable, the scatter shows the crowding tradeoff, and the balance panel highlights which names still keep the most score after crowding is considered."
       >
         <div className="flex flex-wrap gap-3" style={{ marginBottom: 20 }}>
           {(['US', 'Non-US'] as const).map((option) => {
@@ -1481,43 +1902,45 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         </div>
 
         <div className="grid gap-4 lg:grid-cols-2" style={{ marginBottom: 24 }}>
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'var(--surface-raised)',
-              padding: '18px 18px 8px',
-            }}
+          <ChartCard
+            title="Top 10 residual-alpha scores"
+            subtitle="This replaces the cramped category-axis chart with a horizontal ranking that stays legible on laptop and mobile widths."
+            footer="Hover for the full company name. The active region controls both the chart and the cards below."
           >
-            <div
-              style={{
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-950)',
-                fontWeight: 600,
-                marginBottom: 8,
-              }}
-            >
-              Top 10 residual-alpha scores
-            </div>
             <div style={{ width: '100%', height: 360, minWidth: 0 }}>
               <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={topTenBars}
-                  margin={{ top: 10, right: 12, left: 12, bottom: 70 }}
+                  layout="vertical"
+                  margin={{ top: 10, right: 18, left: 8, bottom: 10 }}
                 >
-                  <CartesianGrid stroke="rgba(148, 163, 184, 0.2)" vertical={false} />
+                  <CartesianGrid stroke={CHART_GRID_STROKE} horizontal={false} />
                   <XAxis
-                    dataKey="company"
-                    angle={-35}
-                    textAnchor="end"
-                    interval={0}
-                    height={72}
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    type="number"
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
                   />
-                  <YAxis stroke="var(--ink-400)" tick={{ fontSize: 11 }} />
-                  <Tooltip />
-                  <Bar dataKey="score" radius={[10, 10, 0, 0]}>
+                  <YAxis
+                    type="category"
+                    dataKey="company"
+                    width={150}
+                    stroke="var(--ink-300)"
+                    axisLine={false}
+                    tickLine={false}
+                    tick={AXIS_TICK}
+                  />
+                  <Tooltip
+                    contentStyle={TOOLTIP_CONTENT_STYLE}
+                    labelStyle={TOOLTIP_LABEL_STYLE}
+                    itemStyle={TOOLTIP_ITEM_STYLE}
+                    formatter={(value) => [formatScore(Number(value)), 'Residual alpha']}
+                    labelFormatter={(label, payload) =>
+                      String(payload?.[0]?.payload?.fullCompany ?? label ?? '')
+                    }
+                  />
+                  <Bar dataKey="score" radius={[0, 10, 10, 0]}>
                     {topTenBars.map((row) => (
                       <Cell key={row.fullCompany} fill={accent} />
                     ))}
@@ -1525,72 +1948,127 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-          </div>
+          </ChartCard>
 
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'var(--surface-raised)',
-              padding: '18px 18px 8px',
-            }}
+          <ChartCard
+            title="Residual alpha vs crowding penalty"
+            subtitle="The best names sit high on the chart without drifting too far right into obvious, rerated consensus positions."
+            footer="Bubble size scales with focus bonus. Use hover for exact scores and bucket labels."
           >
-            <div
-              style={{
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-950)',
-                fontWeight: 600,
-                marginBottom: 8,
-              }}
-            >
-              Residual alpha vs crowding penalty
-            </div>
             <div style={{ width: '100%', height: 360, minWidth: 0 }}>
               <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <ScatterChart margin={{ top: 10, right: 18, bottom: 18, left: 6 }}>
-                  <CartesianGrid stroke="rgba(148, 163, 184, 0.2)" />
+                  <CartesianGrid stroke={CHART_GRID_STROKE} />
                   <XAxis
                     type="number"
                     dataKey="x"
                     name="Crowding penalty"
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
                   />
                   <YAxis
                     type="number"
                     dataKey="y"
                     name="Residual alpha"
-                    stroke="var(--ink-400)"
-                    tick={{ fontSize: 11 }}
+                    stroke="var(--ink-300)"
+                    axisLine={{ stroke: 'var(--ink-200)' }}
+                    tickLine={{ stroke: 'var(--ink-200)' }}
+                    tick={AXIS_TICK}
                   />
                   <ZAxis type="number" dataKey="z" range={[40, 220]} />
-                  <Tooltip />
+                  <Tooltip content={<RankingScatterTooltip />} />
                   <Scatter data={scatterRows} fill={accent} />
                 </ScatterChart>
               </ResponsiveContainer>
             </div>
-          </div>
+          </ChartCard>
         </div>
 
-        <div className="grid gap-4 xl:grid-cols-2" style={{ marginBottom: 24 }}>
+        <div className="grid gap-4 xl:grid-cols-[1.08fr,0.92fr]" style={{ marginBottom: 24 }}>
           <div className="grid gap-4 md:grid-cols-2">
-            {activeRanking.slice(0, 10).map((row) => (
+            {activeRanking.slice(0, 8).map((row) => (
               <RankingCard key={`${row.regionBucket}-${row.ticker}`} row={row} accent={accent} />
             ))}
           </div>
 
-          <div className="grid gap-4">
-            <ChartFrame
-              title={`${region} top-20 chart`}
-              subtitle="The packaged chart shown inline for a cleaner visual read of the top cohort."
-              {...chartImage}
-            />
-            <ChartFrame
-              title={`${region} residual alpha vs crowding chart`}
-              subtitle="The packaged scatter visual, useful as a cross-check against the native scatter above."
-              {...crowdingImage}
-            />
-          </div>
+          <ChartCard
+            title="Score and crowding balance"
+            subtitle="A readable cross-check on the lead cohort: strong residual alpha matters more when the crowding penalty is still modest."
+            footer="The balance panel keeps the page focused on reader-facing signal and removes the last of the cluttered export graphics."
+          >
+            <div className="grid gap-4">
+              {balanceRows.map((row) => (
+                <div
+                  key={`${region}-${row.ticker}`}
+                  style={{
+                    paddingBottom: 14,
+                    borderBottom: '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)',
+                  }}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <div
+                        style={{
+                          fontSize: 'var(--text-sm)',
+                          fontWeight: 600,
+                          color: 'var(--ink-950)',
+                        }}
+                      >
+                        {row.company}
+                      </div>
+                      <div
+                        className="flex flex-wrap gap-2"
+                        style={{ marginTop: 6, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}
+                      >
+                        <span
+                          style={{
+                            padding: '2px 8px',
+                            borderRadius: 999,
+                            background: 'var(--surface-sunken)',
+                            color: 'var(--ink-700)',
+                            fontFamily: 'monospace',
+                          }}
+                        >
+                          {row.ticker}
+                        </span>
+                        <span>{row.layer}</span>
+                      </div>
+                    </div>
+                    <div
+                      className="font-display"
+                      style={{ fontSize: 'var(--text-xl)', fontWeight: 600, color: accent }}
+                    >
+                      {formatScore(row.balanceScore)}
+                    </div>
+                  </div>
+
+                  <div className="grid gap-3" style={{ marginTop: 12 }}>
+                    <SignalMeter
+                      label="Residual alpha"
+                      value={row.residualAlphaScore}
+                      max={maxBalanceScore}
+                      color={accent}
+                      detail={formatScore(row.residualAlphaScore)}
+                    />
+                    <SignalMeter
+                      label="Crowding penalty"
+                      value={row.crowdingPenaltyScore}
+                      max={maxCrowdingPenalty}
+                      color="#b45309"
+                      detail={formatScore(row.crowdingPenaltyScore)}
+                    />
+                  </div>
+
+                  <div className="flex flex-wrap gap-2" style={{ marginTop: 12 }}>
+                    <BucketPill label={row.bucket} />
+                    <ScorePill label={row.residualUpsideLabel} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </ChartCard>
         </div>
       </Section>
 
