@@ -17,7 +17,7 @@ import { parseCsvObjects } from '@/lib/csv';
 export const metadata: Metadata = {
   title: 'AI Passives Residual Alpha Report',
   description:
-    'A native report built from the revised AI passives residual-alpha pack, with interactive ranking explorers, bottleneck maps, lead-time analysis, and source-backed charts.',
+    'A native report on AI passives and rack-power alpha, with interactive ranking explorers, bottleneck maps, lead-time analysis, and source-backed charts.',
 };
 
 const REPORT_DIR = path.join(

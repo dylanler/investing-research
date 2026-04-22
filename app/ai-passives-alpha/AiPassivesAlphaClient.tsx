@@ -61,13 +61,13 @@ const CHARTS = {
     src: '/reports/ai-passives-alpha/charts/top20_us_residual_alpha_revised.png',
     width: 1584,
     height: 1200,
-    alt: 'Top 20 US residual alpha revised chart',
+    alt: 'Top 20 US residual alpha chart',
   },
   top20NonUs: {
     src: '/reports/ai-passives-alpha/charts/top20_non_us_residual_alpha_revised.png',
     width: 1584,
     height: 1200,
-    alt: 'Top 20 non-US residual alpha revised chart',
+    alt: 'Top 20 non-US residual alpha chart',
   },
   usCrowding: {
     src: '/reports/ai-passives-alpha/charts/us_residual_alpha_vs_crowding.png',
@@ -80,30 +80,6 @@ const CHARTS = {
     width: 1337,
     height: 1023,
     alt: 'Non-US residual alpha versus crowding chart',
-  },
-  demotedUs: {
-    src: '/reports/ai-passives-alpha/charts/most_demoted_us_names.png',
-    width: 1585,
-    height: 848,
-    alt: 'Most demoted US names chart',
-  },
-  demotedNonUs: {
-    src: '/reports/ai-passives-alpha/charts/most_demoted_non_us_names.png',
-    width: 1583,
-    height: 848,
-    alt: 'Most demoted non-US names chart',
-  },
-  originalUs: {
-    src: '/reports/ai-passives-alpha/charts/top20_us_alpha.png',
-    width: 1800,
-    height: 1350,
-    alt: 'Original US alpha chart from the uploaded pack',
-  },
-  originalNonUs: {
-    src: '/reports/ai-passives-alpha/charts/top20_non_us_alpha.png',
-    width: 1800,
-    height: 1350,
-    alt: 'Original non-US alpha chart from the uploaded pack',
   },
 } as const;
 
@@ -124,23 +100,6 @@ const REGION_ACCENTS = {
   US: '#0f5cc0',
   'Non-US': '#0f766e',
 } as const;
-
-const DOWNLOADS = [
-  { label: 'Original HTML archive', href: '/reports/ai-passives-alpha/index.html' },
-  { label: 'README', href: '/reports/ai-passives-alpha/README.txt' },
-  { label: 'Revised US ranking CSV', href: '/reports/ai-passives-alpha/data/revised_us_residual_alpha_50.csv' },
-  { label: 'Revised non-US ranking CSV', href: '/reports/ai-passives-alpha/data/revised_non_us_residual_alpha_50.csv' },
-  { label: 'Combined top 100 CSV', href: '/reports/ai-passives-alpha/data/revised_top100_master.csv' },
-  { label: 'Demoted names CSV', href: '/reports/ai-passives-alpha/data/demoted_rerated_names.csv' },
-  { label: 'Bottleneck categories CSV', href: '/reports/ai-passives-alpha/data/bottleneck_categories_summary.csv' },
-  { label: 'Vendor constraint CSV', href: '/reports/ai-passives-alpha/data/vendor_constraint_summary.csv' },
-  { label: 'Supply relationships CSV', href: '/reports/ai-passives-alpha/data/supply_relationships.csv' },
-  { label: 'Lead-time transcription CSV', href: '/reports/ai-passives-alpha/data/lead_times_transcribed.csv' },
-  { label: 'Revised source index CSV', href: '/reports/ai-passives-alpha/data/revised_sources_index.csv' },
-  { label: 'Original US alpha CSV', href: '/reports/ai-passives-alpha/data/us_alpha_ranked_50.csv' },
-  { label: 'Original non-US alpha CSV', href: '/reports/ai-passives-alpha/data/non_us_alpha_ranked_50.csv' },
-  { label: 'Original source index CSV', href: '/reports/ai-passives-alpha/data/sources_index.csv' },
-] as const;
 
 function formatScore(value: number): string {
   return value.toFixed(1);
@@ -165,8 +124,8 @@ function normalize(value: string): string {
 function badgeStyle(color: string) {
   return {
     color,
-    background: `color-mix(in srgb, ${color} 10%, white)`,
-    border: `1px solid color-mix(in srgb, ${color} 25%, white)`,
+    background: `color-mix(in srgb, ${color} 10%, var(--surface-raised))`,
+    border: `1px solid color-mix(in srgb, ${color} 22%, var(--ink-100))`,
   };
 }
 
@@ -176,7 +135,7 @@ function ReportShell({ children }: { children: ReactNode }) {
       style={{
         minHeight: '100vh',
         background:
-          'linear-gradient(180deg, #fffdf8 0%, #f9fbfd 18%, #eef5fb 55%, #f8fafc 100%)',
+          'radial-gradient(circle at 0% 0%, color-mix(in oklch, var(--warning) 18%, transparent), transparent 26%), radial-gradient(circle at 100% 0%, color-mix(in oklch, var(--accent) 16%, transparent), transparent 30%), var(--surface-page)',
         color: 'var(--ink-950)',
       }}
     >
@@ -207,7 +166,7 @@ function TopBar() {
             textDecoration: 'none',
             padding: '6px 10px',
             borderRadius: 999,
-            background: 'rgba(255,255,255,0.88)',
+            background: 'var(--surface-overlay)',
             border: '1px solid var(--ink-100)',
             backdropFilter: 'blur(12px)',
           }}
@@ -223,9 +182,9 @@ function TopBar() {
           position: 'sticky',
           top: 0,
           zIndex: 40,
-          borderBottom: '1px solid rgba(15, 23, 42, 0.06)',
+          borderBottom: '1px solid var(--ink-100)',
           backdropFilter: 'blur(14px)',
-          background: 'rgba(255,255,255,0.82)',
+          background: 'var(--surface-overlay)',
         }}
       >
         <div
@@ -244,7 +203,6 @@ function TopBar() {
             ['bottlenecks', 'Bottlenecks'],
             ['maps', 'Maps'],
             ['rankings', 'Rankings'],
-            ['demotions', 'Demotions'],
             ['relationships', 'Relationships'],
             ['explorer', 'Explorer'],
             ['sources', 'Sources'],
@@ -345,7 +303,7 @@ function MetricCard({
       style={{
         borderRadius: 24,
         border: '1px solid rgba(15, 23, 42, 0.08)',
-        background: 'rgba(255,255,255,0.84)',
+        background: 'var(--surface-raised)',
         padding: '18px 18px 20px',
         boxShadow: '0 18px 45px rgba(15, 23, 42, 0.05)',
       }}
@@ -400,7 +358,7 @@ function NoteCard({
       style={{
         borderRadius: 22,
         border: `1px solid color-mix(in srgb, ${accent} 25%, white)`,
-        background: `linear-gradient(180deg, color-mix(in srgb, ${accent} 8%, white), rgba(255,255,255,0.96))`,
+        background: `linear-gradient(180deg, color-mix(in srgb, ${accent} 8%, var(--surface-raised)), var(--surface-raised))`,
         padding: '18px 18px 20px',
       }}
     >
@@ -448,7 +406,7 @@ function ChartFrame({
       style={{
         borderRadius: 24,
         border: '1px solid rgba(15, 23, 42, 0.08)',
-        background: 'rgba(255,255,255,0.92)',
+        background: 'var(--surface-raised)',
         padding: '18px',
         boxShadow: '0 18px 42px rgba(15, 23, 42, 0.05)',
       }}
@@ -497,7 +455,7 @@ function ChartFrame({
           overflow: 'hidden',
           borderRadius: 18,
           border: '1px solid rgba(15, 23, 42, 0.08)',
-          background: 'white',
+          background: 'var(--surface-sunken)',
         }}
       >
         <Image
@@ -562,7 +520,7 @@ function RankingCard({ row, accent }: { row: RankingRow; accent: string }) {
       style={{
         borderRadius: 22,
         border: '1px solid rgba(15, 23, 42, 0.08)',
-        background: 'white',
+        background: 'var(--surface-raised)',
         padding: '16px 16px 18px',
         boxShadow: '0 14px 34px rgba(15, 23, 42, 0.04)',
       }}
@@ -658,7 +616,7 @@ function DataTable({
         overflow: 'auto',
         border: '1px solid rgba(15, 23, 42, 0.08)',
         borderRadius: 20,
-        background: 'white',
+        background: 'var(--surface-raised)',
       }}
     >
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
@@ -679,7 +637,7 @@ function DataTable({
                   padding: '14px 16px',
                   borderBottom: '1px solid rgba(15, 23, 42, 0.08)',
                   textAlign: column.align ?? 'left',
-                  background: 'rgba(248,250,252,0.95)',
+                  background: 'var(--surface-sunken)',
                   position: 'sticky',
                   top: 0,
                   zIndex: 1,
@@ -895,8 +853,8 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 32,
               padding: '32px',
-              background:
-                'linear-gradient(135deg, rgba(12,74,110,0.96), rgba(21,94,117,0.92) 42%, rgba(180,83,9,0.88) 100%)',
+        background:
+          'linear-gradient(135deg, rgba(12,74,110,0.96), rgba(21,94,117,0.92) 42%, rgba(180,83,9,0.88) 100%)',
               color: 'white',
               boxShadow: '0 30px 80px rgba(12, 74, 110, 0.22)',
               overflow: 'hidden',
@@ -929,7 +887,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Revised Ranking • {data.generatedDateLabel}
+                  Final Ranking • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -954,30 +912,29 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     maxWidth: 720,
                   }}
                 >
-                  This page rebuilds the uploaded revised pack as a native report. The ranking objective is no longer strategic importance. It is residual alpha: bottleneck closeness, hiddenness, and catalyst strength after subtracting crowding and rerating.
+                  This page turns the uploaded research pack into a native report focused on where passive components, sensing, magnetics, and rack-power bottlenecks still offer the strongest alpha. The ranking favors bottleneck closeness, hiddenness, and near-term catalysts while penalizing crowding.
                 </p>
 
                 <div className="flex flex-wrap gap-3" style={{ marginTop: 24 }}>
                   <a
-                    href={data.archiveHref}
+                    href={`${data.downloadBaseHref}/data/revised_top100_master.csv`}
                     target="_blank"
                     rel="noreferrer"
                     style={{
                       padding: '11px 18px',
                       borderRadius: 999,
-                      background: 'white',
-                      color: '#0c4a6e',
+                      background: 'var(--surface-raised)',
+                      color: 'var(--accent)',
                       textDecoration: 'none',
+                      border: '1px solid rgba(255,255,255,0.18)',
                       fontWeight: 700,
                       fontSize: 'var(--text-sm)',
                     }}
                   >
-                    Open original pack
+                    Download top 100 CSV
                   </a>
                   <a
-                    href={`${data.downloadBaseHref}/data/revised_top100_master.csv`}
-                    target="_blank"
-                    rel="noreferrer"
+                    href="#explorer"
                     style={{
                       padding: '11px 18px',
                       borderRadius: 999,
@@ -989,7 +946,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                       fontSize: 'var(--text-sm)',
                     }}
                   >
-                    Download revised top 100
+                    Open ranking explorer
                   </a>
                   <a
                     href="#sources"
@@ -1009,23 +966,23 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 </div>
               </div>
 
-              <div
-                style={{
-                  borderRadius: 24,
-                  background: 'rgba(255,255,255,0.10)',
+            <div
+              style={{
+                borderRadius: 24,
+                background: 'rgba(255,255,255,0.10)',
                   border: '1px solid rgba(255,255,255,0.16)',
                   padding: 22,
                   backdropFilter: 'blur(10px)',
                 }}
               >
-                <div
+                  <div
                   style={{
                     fontSize: 'var(--text-sm)',
                     fontWeight: 600,
                     marginBottom: 10,
                   }}
                 >
-                  What the revision fixed
+                  What this report highlights
                 </div>
                 <p
                   style={{
@@ -1035,15 +992,15 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     color: 'rgba(255,255,255,0.82)',
                   }}
                 >
-                  Bel Fuse and Delta Electronics were strategically important in the first pass, but no longer hidden enough to deserve the top slot. The revised ranking penalizes crowding, which lifts underfollowed current-sense, resistor, inductor, capacitor, and integration names.
+                  The center of gravity sits in current sensing, resistor networks, inductors, capacitors, and rack-power hardware. The highest-scoring names are the ones closest to those chokepoints without already being fully priced as consensus AI winners.
                 </p>
                 <div className="grid grid-cols-2" style={{ gap: 12, marginTop: 18 }}>
                   {[
-                    ['Bel Fuse', '#16'],
-                    ['Delta Electronics', '#30'],
-                    ['Vertiv', '#36'],
-                    ['Celestica', '#49'],
-                  ].map(([name, rank]) => (
+                    [data.metrics.topUsCompany, `#1 US`],
+                    [data.metrics.topNonUsCompany, `#1 Non-US`],
+                    [data.metrics.topCategoryName, `${formatScore(data.metrics.topCategoryAvgLtWeeks)}w`],
+                    [data.metrics.topVendorName, `${formatScore(data.metrics.topVendorScore)} score`],
+                  ].map(([name, stat]) => (
                     <div
                       key={name}
                       style={{
@@ -1057,7 +1014,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                         className="font-display"
                         style={{ fontSize: 'var(--text-xl)', fontWeight: 600 }}
                       >
-                        {rank}
+                        {stat}
                       </div>
                       <div
                         style={{
@@ -1065,7 +1022,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                           color: 'rgba(255,255,255,0.72)',
                         }}
                       >
-                        revised rank for {name}
+                        {name}
                       </div>
                     </div>
                   ))}
@@ -1078,12 +1035,12 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             <MetricCard
               label="Universe"
               value={`${data.metrics.totalNames}`}
-              detail="Revised top 100 names across US and non-US passives, power, sensing, EMS, and integration."
+              detail="Top 100 names across US and non-US passives, power, sensing, EMS, and integration."
             />
             <MetricCard
               label="Top US"
               value={data.metrics.topUsCompany}
-              detail={`Residual alpha ${formatScore(data.metrics.topUsScore)}. The revised #1 US name is a current-sense and resistor-network bottleneck play.`}
+              detail={`Residual alpha ${formatScore(data.metrics.topUsScore)}. The top US name is a current-sense and resistor-network bottleneck play.`}
             />
             <MetricCard
               label="Top Non-US"
@@ -1101,9 +1058,9 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               detail={`Vendor constraint score ${formatScore(data.metrics.topVendorScore)}. This is the hottest name in the screenshot vendor summary.`}
             />
             <MetricCard
-              label="Largest Demotion"
-              value={data.metrics.biggestDemotionCompany}
-              detail={`${formatSigned(data.metrics.biggestDemotionChange)} places after adding the rerating penalty.`}
+              label="High Conviction"
+              value={`${data.metrics.highConvictionCount}`}
+              detail="Names that still screen as the strongest alpha candidates after bottleneck, hiddenness, and crowding are combined."
             />
           </div>
         </div>
@@ -1112,8 +1069,8 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       <Section
         id="method"
         eyebrow="Method"
-        title="Residual alpha is a pricing question, not a strategic-importance question."
-        subtitle="The revised pack changes the objective function. Stocks can still be critical to the AI buildout and yet rank lower if the market already discovered them."
+        title="Residual alpha is a pricing question built on physical bottlenecks."
+        subtitle="The ranking is designed to find names where the market has not fully capitalized the bottleneck yet. Strategic importance matters, but it matters most when it is still underappreciated."
       >
         <div className="grid gap-4 lg:grid-cols-3" style={{ marginBottom: 18 }}>
           <NoteCard
@@ -1128,18 +1085,18 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
           />
           <NoteCard
             title="Step 3. Subtract crowding"
-            body="The key correction is the rerating penalty. Names already recognized as AI winners stay strategically important, but their remaining alpha shrinks."
+            body="The final score penalizes crowding so the ranking prefers names where the bottleneck is real and the upside is not already fully priced."
             accent="#b45309"
           />
         </div>
 
         <div
-          style={{
-            borderRadius: 24,
-            border: '1px solid rgba(15, 23, 42, 0.08)',
-            background: 'white',
-            padding: '20px 22px',
-          }}
+            style={{
+              borderRadius: 24,
+              border: '1px solid rgba(15, 23, 42, 0.08)',
+              background: 'var(--surface-raised)',
+              padding: '20px 22px',
+            }}
         >
           <div
             style={{
@@ -1159,7 +1116,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               lineHeight: 1.8,
             }}
           >
-            Bottleneck severity + centrality + catalyst + AI relevance + bottleneck closeness + hiddenness/focus bonus, minus crowding and rerating penalty.
+            Bottleneck severity + centrality + catalyst + AI relevance + bottleneck closeness + hiddenness/focus bonus, minus crowding penalty.
           </p>
           <div className="flex flex-wrap gap-2" style={{ marginTop: 14 }}>
             {[
@@ -1177,7 +1134,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                   padding: '5px 10px',
                   borderRadius: 999,
                   border: '1px solid rgba(15, 23, 42, 0.08)',
-                  background: 'rgba(248,250,252,0.95)',
+                  background: 'var(--surface-sunken)',
                   fontSize: 'var(--text-xs)',
                   color: 'var(--ink-500)',
                 }}
@@ -1193,14 +1150,14 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         id="bottlenecks"
         eyebrow="Bottlenecks"
         title="The data says the pain still clusters in passives and rack power."
-        subtitle="The revised report is equity-facing, but the evidence base underneath it still begins with physical shortages: long lead times, categories with persistent pricing pressure, and vendors that keep showing up in constrained screenshot sets."
+        subtitle="The report is equity-facing, but the evidence base underneath it still begins with physical shortages: long lead times, categories with persistent pricing pressure, and vendors that keep showing up in constrained screenshot sets."
       >
         <div className="grid gap-4 lg:grid-cols-2" style={{ marginBottom: 24 }}>
           <div
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px 18px 8px',
             }}
           >
@@ -1245,7 +1202,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px 18px 8px',
             }}
           >
@@ -1294,7 +1251,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               style={{
                 borderRadius: 22,
                 border: '1px solid rgba(15, 23, 42, 0.08)',
-                background: 'white',
+                background: 'var(--surface-raised)',
                 padding: '16px 16px 18px',
               }}
             >
@@ -1317,7 +1274,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
         <div className="grid gap-4 lg:grid-cols-2">
           <ChartFrame
             title="Bottleneck category ranking"
-            subtitle="The original report chart, preserved here inside the native page."
+            subtitle="A compact view of the categories with the strongest shortage signatures."
             {...CHARTS.topBottleneckCategories}
           />
           <ChartFrame
@@ -1359,7 +1316,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px',
             }}
           >
@@ -1407,7 +1364,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 style={{
                   borderRadius: 22,
                   border: '1px solid rgba(15, 23, 42, 0.08)',
-                  background: 'white',
+                  background: 'var(--surface-raised)',
                   padding: '16px 16px 18px',
                 }}
               >
@@ -1467,7 +1424,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       <Section
         id="rankings"
         eyebrow="Rankings"
-        title="The revised leaders are not the obvious leaders."
+        title="The final leaders are not always the obvious leaders."
         subtitle="Switch regions to compare the two sides of the report. The ranking cards show the top ten names. The scatter chart shows the mechanic behind them: high score plus lower crowding tends to beat pure strategic importance."
       >
         <div className="flex flex-wrap gap-3" style={{ marginBottom: 20 }}>
@@ -1486,8 +1443,8 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     ? `1px solid ${REGION_ACCENTS[option]}`
                     : '1px solid rgba(15, 23, 42, 0.08)',
                   background: isActive
-                    ? `color-mix(in srgb, ${REGION_ACCENTS[option]} 10%, white)`
-                    : 'white',
+                    ? `color-mix(in srgb, ${REGION_ACCENTS[option]} 10%, var(--surface-raised))`
+                    : 'var(--surface-raised)',
                   color: isActive ? REGION_ACCENTS[option] : 'var(--ink-600)',
                   fontWeight: 700,
                   fontSize: 'var(--text-sm)',
@@ -1514,7 +1471,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
           <MetricCard
             label="Very under-owned"
             value={`${rankingSummary.veryUnderOwned}`}
-            detail="Names in the active region still labeled very under-owned after the revision."
+            detail="Names in the active region still labeled very under-owned in the final ranking."
           />
           <MetricCard
             label="Direct closeness"
@@ -1528,7 +1485,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px 18px 8px',
             }}
           >
@@ -1574,7 +1531,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px 18px 8px',
             }}
           >
@@ -1624,13 +1581,13 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
 
           <div className="grid gap-4">
             <ChartFrame
-              title={`${region} top-20 chart from the pack`}
-              subtitle="The supplied chart preserved inline for visual continuity with the uploaded report."
+              title={`${region} top-20 chart`}
+              subtitle="The packaged chart shown inline for a cleaner visual read of the top cohort."
               {...chartImage}
             />
             <ChartFrame
               title={`${region} residual alpha vs crowding chart`}
-              subtitle="The supplied scatter visual, useful as a cross-check against the native scatter above."
+              subtitle="The packaged scatter visual, useful as a cross-check against the native scatter above."
               {...crowdingImage}
             />
           </div>
@@ -1638,176 +1595,17 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       </Section>
 
       <Section
-        id="demotions"
-        eyebrow="Demotions"
-        title="The rerating penalty changes the leaderboard fast."
-        subtitle="This is the core lesson of the revised pack. Some of the best strategic assets in AI infrastructure no longer screen as the best alpha because the market already pulled that future forward."
-      >
-        <div className="grid gap-4 lg:grid-cols-[0.9fr,1.1fr]" style={{ marginBottom: 24 }}>
-          <div
-            style={{
-              borderRadius: 24,
-              border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
-              padding: '22px',
-            }}
-          >
-            <div
-              style={{
-                fontSize: 'var(--text-xs)',
-                textTransform: 'uppercase',
-                letterSpacing: '0.1em',
-                color: 'var(--ink-400)',
-                marginBottom: 8,
-              }}
-            >
-              Biggest rerating penalty
-            </div>
-            <div
-              className="font-display"
-              style={{ fontSize: 'var(--text-3xl)', fontWeight: 600, color: '#b45309' }}
-            >
-              {data.metrics.biggestDemotionCompany}
-            </div>
-            <p
-              style={{
-                margin: '12px 0 0',
-                fontSize: 'var(--text-base)',
-                color: 'var(--ink-600)',
-                lineHeight: 1.75,
-              }}
-            >
-              The largest rank drop in the revised demotion file is{' '}
-              <strong>{formatSigned(data.metrics.biggestDemotionChange)}</strong> places. This is the revision in one number: the stock may still matter to the buildout, but the market no longer treats it like an undiscovered bottleneck.
-            </p>
-            <div className="grid gap-3" style={{ marginTop: 18 }}>
-              {data.demotedNames.slice(0, 6).map((row) => (
-                <div
-                  key={`${row.region}-${row.company}`}
-                  className="flex items-center justify-between gap-4"
-                  style={{
-                    padding: '12px 14px',
-                    borderRadius: 18,
-                    background: 'rgba(248,250,252,0.95)',
-                    border: '1px solid rgba(15, 23, 42, 0.06)',
-                  }}
-                >
-                  <div>
-                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-900)' }}>
-                      {row.company}
-                    </div>
-                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
-                      {row.region} • {row.rankPrior} → {row.rankRevised}
-                    </div>
-                  </div>
-                  <div
-                    style={{
-                      fontSize: 'var(--text-sm)',
-                      fontWeight: 700,
-                      color: '#b45309',
-                      whiteSpace: 'nowrap',
-                    }}
-                  >
-                    {formatSigned(row.rankChangeVsPrior)}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-2">
-            <ChartFrame
-              title="Most demoted US names"
-              subtitle="The supplied revised demotion chart."
-              {...CHARTS.demotedUs}
-            />
-            <ChartFrame
-              title="Most demoted non-US names"
-              subtitle="The supplied revised demotion chart."
-              {...CHARTS.demotedNonUs}
-            />
-          </div>
-        </div>
-
-        <DataTable
-          columns={[
-            {
-              key: 'company',
-              label: 'Company',
-              render: (row) => (
-                <div>
-                  <div style={{ fontWeight: 600, color: 'var(--ink-900)' }}>{row.company}</div>
-                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{row.region}</div>
-                </div>
-              ),
-            },
-            {
-              key: 'move',
-              label: 'Move',
-              render: (row) => (
-                <span style={{ fontFamily: 'monospace' }}>
-                  {row.rankPrior} → {row.rankRevised}
-                </span>
-              ),
-            },
-            {
-              key: 'change',
-              label: 'Δ Rank',
-              render: (row) => (
-                <span style={{ color: '#b45309', fontWeight: 700 }}>
-                  {formatSigned(Number(row.rankChangeVsPrior))}
-                </span>
-              ),
-            },
-            {
-              key: 'score',
-              label: 'Residual Alpha',
-              render: (row) => <span>{formatScore(Number(row.residualAlphaScore))}</span>,
-              align: 'right',
-            },
-            {
-              key: 'note',
-              label: 'Reason',
-              render: (row) => row.alphaRevisionNote,
-            },
-          ]}
-          rows={data.demotedNames.map((row) => ({
-            company: row.company,
-            region: row.region,
-            rankPrior: row.rankPrior,
-            rankRevised: row.rankRevised,
-            rankChangeVsPrior: row.rankChangeVsPrior,
-            residualAlphaScore: row.residualAlphaScore,
-            alphaRevisionNote: row.alphaRevisionNote,
-          }))}
-        />
-
-        <div className="grid gap-4 lg:grid-cols-2" style={{ marginTop: 24 }}>
-          <ChartFrame
-            title="Original US alpha chart"
-            subtitle="The pre-revision baseline before crowding and rerating penalties were applied."
-            {...CHARTS.originalUs}
-          />
-          <ChartFrame
-            title="Original non-US alpha chart"
-            subtitle="The pre-revision baseline from the uploaded package."
-            {...CHARTS.originalNonUs}
-          />
-        </div>
-      </Section>
-
-      <Section
         id="relationships"
         eyebrow="Relationships"
         title="Supply relationships make the ranking legible."
-        subtitle="The best names in the revised pack are not random. They sit in real, named paths from grid and rack power down to server boards, current sensing, passives, and deployment partners."
+        subtitle="The best names in the final ranking are not random. They sit in real, named paths from grid and rack power down to server boards, current sensing, passives, and deployment partners."
       >
         <div className="grid gap-4 lg:grid-cols-[0.95fr,1.05fr]" style={{ marginBottom: 24 }}>
           <div
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '18px',
             }}
           >
@@ -1907,8 +1705,8 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       <Section
         id="explorer"
         eyebrow="Explorer"
-        title="Search the full revised ranking."
-        subtitle="The native explorer is built on the revised top-100 master file. Filter by region, bucket, or layer, then sort by rank, score, positive rank change, or lower crowding penalty."
+        title="Search the full ranking."
+        subtitle="The native explorer is built on the final top-100 master file. Filter by region, bucket, or layer, then sort by rank, score, positive rank change, or lower crowding penalty."
       >
         <div
           className="grid gap-3 md:grid-cols-2 xl:grid-cols-5"
@@ -1921,7 +1719,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 14,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '12px 14px',
               fontSize: 'var(--text-sm)',
               color: 'var(--ink-700)',
@@ -1933,7 +1731,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 14,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '12px 14px',
               fontSize: 'var(--text-sm)',
               color: 'var(--ink-700)',
@@ -1951,7 +1749,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 14,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '12px 14px',
               fontSize: 'var(--text-sm)',
               color: 'var(--ink-700)',
@@ -1973,13 +1771,13 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 14,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '12px 14px',
               fontSize: 'var(--text-sm)',
               color: 'var(--ink-700)',
             }}
           >
-            <option value="rank">Sort by revised rank</option>
+            <option value="rank">Sort by rank</option>
             <option value="score">Sort by score</option>
             <option value="change">Sort by positive rank change</option>
             <option value="crowding">Sort by lower crowding</option>
@@ -1988,7 +1786,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             style={{
               borderRadius: 14,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '12px 14px',
               fontSize: 'var(--text-sm)',
               color: 'var(--ink-500)',
@@ -2053,7 +1851,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             },
             {
               key: 'note',
-              label: 'Revision Note',
+              label: 'Ranking Note',
               render: (row) => row.alphaRevisionNote,
             },
           ]}
@@ -2075,15 +1873,15 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
       <Section
         id="sources"
         eyebrow="Sources & Downloads"
-        title="Everything in the uploaded package is available from the page."
-        subtitle="The report uses the revised files as the primary ranking set, but the original charts, HTML archive, baseline files, and source trace remain downloadable for comparison and auditability."
+        title="Everything needed to audit the final ranking is available from the page."
+        subtitle="The page surfaces the source trail behind the ranking and gives interested readers a lightweight way to inspect the raw data without turning the blog into a download center."
       >
         <div className="grid gap-4 lg:grid-cols-[0.9fr,1.1fr]" style={{ marginBottom: 24 }}>
           <div
             style={{
               borderRadius: 24,
               border: '1px solid rgba(15, 23, 42, 0.08)',
-              background: 'white',
+              background: 'var(--surface-raised)',
               padding: '20px',
             }}
           >
@@ -2095,13 +1893,33 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                 marginBottom: 10,
               }}
             >
-              Package manifest
+              Reader notes
             </div>
-            <div className="flex flex-wrap gap-2">
-              {DOWNLOADS.map((item) => (
+            <p
+              style={{
+                margin: 0,
+                fontSize: 'var(--text-sm)',
+                color: 'var(--ink-500)',
+                lineHeight: 1.75,
+              }}
+            >
+              Most readers only need the narrative, charts, and source table below. For anyone who wants the raw numbers, the two links here cover the full ranked universe and the exact source index behind the page.
+            </p>
+            <div
+              style={{
+                marginTop: 18,
+                padding: '14px 16px',
+                borderRadius: 18,
+                background: 'var(--surface-sunken)',
+                border: '1px solid rgba(15, 23, 42, 0.06)',
+                fontSize: 'var(--text-sm)',
+                color: 'var(--ink-500)',
+                lineHeight: 1.7,
+              }}
+            >
+              <div className="flex flex-wrap gap-2">
                 <a
-                  key={item.href}
-                  href={item.href}
+                  href={`${data.downloadBaseHref}/data/revised_top100_master.csv`}
                   target="_blank"
                   rel="noreferrer"
                   style={{
@@ -2110,29 +1928,33 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     padding: '8px 12px',
                     borderRadius: 999,
                     border: '1px solid rgba(15, 23, 42, 0.08)',
-                    background: 'rgba(248,250,252,0.95)',
+                    background: 'var(--surface-raised)',
                     fontSize: 'var(--text-sm)',
                     color: 'var(--ink-700)',
                     textDecoration: 'none',
                   }}
                 >
-                  {item.label}
+                  Download top 100 CSV
                 </a>
-              ))}
-            </div>
-            <div
-              style={{
-                marginTop: 18,
-                padding: '14px 16px',
-                borderRadius: 18,
-                background: 'rgba(248,250,252,0.95)',
-                border: '1px solid rgba(15, 23, 42, 0.06)',
-                fontSize: 'var(--text-sm)',
-                color: 'var(--ink-500)',
-                lineHeight: 1.7,
-              }}
-            >
-              The page is anchored to the revised ranking files. The original baseline alpha files are still included because they explain what changed and why the rerating penalty matters.
+                <a
+                  href={`${data.downloadBaseHref}/data/revised_sources_index.csv`}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    padding: '8px 12px',
+                    borderRadius: 999,
+                    border: '1px solid rgba(15, 23, 42, 0.08)',
+                    background: 'var(--surface-raised)',
+                    fontSize: 'var(--text-sm)',
+                    color: 'var(--ink-700)',
+                    textDecoration: 'none',
+                  }}
+                >
+                  Download source index
+                </a>
+              </div>
             </div>
           </div>
 

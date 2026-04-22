@@ -560,7 +560,7 @@ export default function Home() {
                   href="/ai-passives-alpha"
                   label="Report IX"
                   title="AI Passives Residual Alpha"
-                  subtitle="A native rebuild of the revised passives and power ranking pack, with lead-time bottlenecks, rerating penalties, interactive tables, and source-backed charts."
+                  subtitle="A native passives and power alpha report with lead-time bottlenecks, crowding-aware rankings, interactive tables, and source-backed charts."
                   accentColor="oklch(58% 0.14 200)"
                   stats={[
                     { label: 'Names', value: '100' },
