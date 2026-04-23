@@ -304,7 +304,7 @@ export default function ScalingPage() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Report IV &middot; Published March 27, 2026
+              Report IV &middot; Published March 27, 2026 &middot; Updated March 27, 2026
             </div>
           </Reveal>
 

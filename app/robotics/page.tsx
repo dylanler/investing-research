@@ -86,7 +86,7 @@ export default function RoboticsPage() {
         </div>
 
         <div className="max-w-4xl mx-auto" style={{ position: 'relative', zIndex: 1 }}>
-          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026</span></Reveal>
+          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026 &middot; Updated March 27, 2026</span></Reveal>
           <Reveal delay={0.1}>
             <h1 className="font-display" style={{ fontSize: 'var(--text-hero)', fontWeight: 700, color: 'var(--ink-950)', lineHeight: 1.05, marginTop: 'var(--space-lg)' }}>
               The Robotics<br /><span style={{ color: 'var(--accent)' }}>Revolution</span>

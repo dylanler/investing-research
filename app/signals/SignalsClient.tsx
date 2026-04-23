@@ -879,7 +879,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated April 14, 2026
           </div>
           <h1
             className="font-display"
