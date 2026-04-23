@@ -304,7 +304,7 @@ export default function ScalingPage() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Report IV &middot; Published March 27, 2026 &middot; Updated March 27, 2026
+              Report IV &middot; Published March 27, 2026 &middot; Updated April 23, 2026
             </div>
           </Reveal>
 
@@ -328,7 +328,38 @@ export default function ScalingPage() {
             </p>
           </Reveal>
 
-          <Reveal delay={0.45}>
+          <Reveal delay={0.35}>
+            <Card style={{
+              margin: '0 auto var(--space-2xl)',
+              maxWidth: 760,
+              textAlign: 'left',
+              boxShadow: '0 18px 50px rgba(15, 23, 42, 0.06)',
+            }}>
+              <div style={{
+                fontSize: 'var(--text-xs)',
+                color: 'var(--accent)',
+                letterSpacing: '0.16em',
+                textTransform: 'uppercase',
+                fontWeight: 700,
+                marginBottom: 'var(--space-md)',
+              }}>
+                April 2026 Update
+              </div>
+              <ul style={{
+                margin: 0,
+                paddingLeft: '1.1rem',
+                color: 'var(--ink-700)',
+                fontSize: 'var(--text-sm)',
+                lineHeight: 1.7,
+              }}>
+                <li>OpenAI's GPT-5.4-Cyber and Anthropic's Claude Opus 4.7 both lean harder into verified, long-running agent workflows.</li>
+                <li>On Apr. 16, arXiv's "Scaling Test-Time Compute for Agentic Coding" introduced Recursive Tournament Voting and Parallel-Distill-Refine for long-horizon coding agents.</li>
+                <li>AWS Trainium's Apr. 15 speculative-decoding guide reports up to 3x faster token generation on decode-heavy workloads when the draft model can predict well.</li>
+              </ul>
+            </Card>
+          </Reveal>
+
+          <Reveal delay={0.5}>
             <motion.div
               initial={{ scaleX: 0 }}
               whileInView={{ scaleX: 1 }}

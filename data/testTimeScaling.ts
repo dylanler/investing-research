@@ -593,7 +593,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1417433984,
+    "marketCapUsd": 2094777880,
     "whyFits": "Test and inspection gear; verification layer for chip manufacturing",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -604,7 +604,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1373038080,
+    "marketCapUsd": 1734519820,
     "whyFits": "Yield analytics / process data software for fabs",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -615,7 +615,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1355197952,
+    "marketCapUsd": 1672323300,
     "whyFits": "US specialty foundry leverage in sovereign AI supply chains",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -659,7 +659,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1058787200,
+    "marketCapUsd": 2988465200,
     "whyFits": "Burn-in / reliability testing for power and AI-adjacent chips",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -681,7 +681,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 796586432,
+    "marketCapUsd": 1037385182,
     "whyFits": "On-chip interconnect IP; complexity scaling inside AI silicon",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -692,7 +692,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 758390464,
+    "marketCapUsd": 723081750,
     "whyFits": "Power semiconductors for AI power-density growth; very high risk",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -714,7 +714,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 671701760,
+    "marketCapUsd": 1212914880,
     "whyFits": "Power semiconductors and power management",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -791,7 +791,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "networking",
-    "marketCapUsd": 306429856,
+    "marketCapUsd": 293782950,
     "whyFits": "Microwave backhaul / resilient enterprise network links",
     "keyRisk": "Telecom / enterprise spending cycles and intense pricing competition"
   },
@@ -835,7 +835,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "it_security",
-    "marketCapUsd": 1662585088,
+    "marketCapUsd": 2058686805,
     "whyFits": "Network security and application delivery for AI-heavy traffic",
     "keyRisk": "Crowded market, platform bundling, and elongated enterprise sales cycles"
   },
@@ -923,7 +923,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "robotics",
-    "marketCapUsd": 687266816,
+    "marketCapUsd": 602390401,
     "whyFits": "Autonomous delivery optionality",
     "keyRisk": "Commercial adoption risk, hardware margin pressure, and service economics"
   },
@@ -1022,7 +1022,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "electricity",
-    "marketCapUsd": 1955801728,
+    "marketCapUsd": 1639477770,
     "whyFits": "Power systems / thermal infrastructure",
     "keyRisk": "Permitting, leverage, project execution, and power-price/regulatory exposure"
   },
@@ -1033,7 +1033,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "electricity",
-    "marketCapUsd": 1636073216,
+    "marketCapUsd": 1993676450,
     "whyFits": "Long-duration storage optionality",
     "keyRisk": "Permitting, leverage, project execution, and power-price/regulatory exposure"
   },

@@ -1436,7 +1436,28 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-                  <TonePill tone="neutral">Published April 20, 2026 · Updated April 20, 2026</TonePill>
+                  <TonePill tone="neutral">Published April 20, 2026 · Updated April 23, 2026</TonePill>
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 16,
+                    padding: '12px 14px',
+                    borderRadius: 16,
+                    background: 'var(--surface-sunken)',
+                    border: '1px solid var(--ink-100)',
+                    color: 'var(--ink-600)',
+                    fontSize: 'var(--text-sm)',
+                    lineHeight: 1.6,
+                  }}
+                >
+                  <div style={{ marginBottom: 8 }}>
+                    <TonePill tone="neutral">April 23 Update</TonePill>
+                  </div>
+                  Vertiv reported Q1 net sales of $2.65B (+30%) and raised full-year guidance; GE Vernova reported
+                  $18.3B of Q1 orders, including $2.4B of data-center electrification orders, and also raised
+                  guidance.
+                  <SourceTags tags={['S14', 'S15']} sourceMap={sourceMap} />
                 </div>
 
                 <h1

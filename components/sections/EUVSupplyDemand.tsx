@@ -47,7 +47,7 @@ export default function EUVSupplyDemand() {
       <SectionTitle
         number="03"
         title="The EUV Gap & Power Demand"
-        subtitle="ASML shipped 48 EUV tools in 2025. At 3.5 tools per GW, that's only 9.6-13.7 GW/year of new AI compute depending on allocation."
+        subtitle="ASML now expects to ship 60 low-NA EUV tools in 2026 and 80 in 2027. At 3.5 tools per GW, that's only 12.0-18.3 GW/year of new AI compute depending on allocation."
       />
 
       <div className="flex items-center gap-4 mb-8">
@@ -71,7 +71,7 @@ export default function EUVSupplyDemand() {
       <div style={{ padding: 'var(--space-lg)', background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: '2px' }}>
         <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
           {view === 'euv-ceiling'
-            ? 'Sources: ASML 2025 Annual Report (48 tools), ASML 2022 Investor Day (90-tool capacity plan), Patel transcript (3.5 tools/GW)'
+            ? 'Sources: ASML 2025 Annual Report (48 tools), ASML Q1 2026 results / Reuters (60 in 2026, 80 in 2027), ASML 2022 Investor Day (90-tool capacity plan), Patel transcript (3.5 tools/GW)'
             : 'Source: IEA "Energy and AI" (2025). 2035-2040 extrapolated at explicit CAGRs.'}
         </div>
         <ResponsiveContainer width="100%" height={400}>

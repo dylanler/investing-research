@@ -1181,7 +1181,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated April 22, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated April 23, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -1984,6 +1984,23 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               </ResponsiveContainer>
             </div>
           </ChartCard>
+        </div>
+
+        <div
+          style={{
+            marginBottom: 24,
+            padding: '12px 14px',
+            borderRadius: 16,
+            border: '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)',
+            background: 'var(--surface-raised)',
+            color: 'var(--ink-500)',
+            fontSize: 'var(--text-xs)',
+            lineHeight: 1.7,
+          }}
+        >
+          <strong style={{ color: 'var(--ink-700)' }}>April 23 Snapshot.</strong> In the current market check,{' '}
+          <span style={{ fontFamily: 'monospace' }}>NVTS</span> was the only clear &gt;10% mover I found in the top-20
+          overall ranking, at roughly +20% versus the prior close. I left the ranking unchanged.
         </div>
 
         <div className="grid gap-4 xl:grid-cols-[1.08fr,0.92fr]" style={{ marginBottom: 24 }}>

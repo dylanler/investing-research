@@ -11,15 +11,17 @@ export interface TimelineEntry {
 }
 
 export const timelineData: TimelineEntry[] = [
+  // Apr. 2026 refresh: TrendForce/BofA moved the HBM market estimate to $54.6B,
+  // and TSMC Q1 2026 results keep CoWoS the tighter gate.
   {
     year: '2026',
     title: 'The HBM Memory Crunch',
     primaryBottleneck: 'HBM Memory Supply',
     secondaryBottleneck: 'Advanced Packaging (CoWoS)',
     description:
-      'Samsung begins HBM4 mass production (Feb 2026) at 3.3 TB/s bandwidth, but aggregate supply falls short of hyperscaler demand. TSMC A16 enters volume production 2H 2026. HBM market exceeds $58B as Nvidia, AMD, and custom ASIC programs compete for allocation. TSMC CoWoS capacity remains tight at ~130K wafers/month against 700K+ demand. IEA estimates global DC power at 415 TWh (2024 baseline), already tracking above forecast. (Sources: Samsung Q4-2025 earnings, TSMC Q3-2025 guidance, IEA Electricity 2024 report)',
+      'Samsung begins HBM4 mass production (Feb 2026) at 3.3 TB/s bandwidth, but aggregate supply falls short of hyperscaler demand. TSMC A16 enters volume production 2H 2026. The 2026 HBM market is now closer to $54.6B, while TSMC CoWoS remains tight at ~130K wafers/month against ~940K wafers of implied Nvidia need alone. IEA estimates global DC power at 415 TWh (2024 baseline), already tracking above forecast. (Sources: Samsung Q4-2025 earnings, TrendForce Apr. 21 HBM bulletin, TSMC Q1 2026 results, IEA Electricity 2024 report)',
     keyCalc:
-      'HBM demand ~$58B vs supply ~$38B → 34% shortfall. Samsung HBM4 3.3 TB/s but yields <70% initial. TSMC CoWoS: 130K wpm supply vs 700K+ wpm demand.',
+      'HBM market ~$54.6B; CoWoS supply ~130K wpm vs ~940K wafers of implied Nvidia need alone.',
     secondOrder: [
       'Consumer electronics squeezed out of HBM and advanced packaging supply',
       'Memory vendor margins explode, driving reinvestment in HBM capacity',
@@ -38,9 +40,9 @@ export const timelineData: TimelineEntry[] = [
     primaryBottleneck: 'Advanced Packaging / CoWoS',
     secondaryBottleneck: 'HBM Memory',
     description:
-      'CoWoS and advanced packaging become the binding constraint as chip-on-wafer-on-substrate demand outstrips TSMC, ASE, and Amkor capacity. Micron brings meaningful new HBM packaging capacity online (Micron 2025 Investor Day). ASML capacity plan targets 90 EUV + 20 High-NA tools by 2027-2028 (ASML 2022 Investor Day). TSMC N2 ramping since 2H 2025 but packaging, not logic wafers, gates throughput. Berkeley Lab projects US DCs at 325-580 TWh by 2028, with 2027 tracking toward the upper bound. (Sources: ASML 2022 Investor Day, Micron Capital Markets Day 2025, Berkeley Lab Dec-2024 report)',
+      'CoWoS and advanced packaging become the binding constraint as chip-on-wafer-on-substrate demand outstrips TSMC, ASE, and Amkor capacity. Micron brings meaningful new HBM packaging capacity online (Micron 2025 Investor Day). ASML now expects to ship 60 low-NA EUV tools in 2026 and 80 in 2027, which confirms lithography remains tight but packaging is still the immediate choke point. TSMC N2 ramping since 2H 2025 but packaging, not logic wafers, gates throughput. Berkeley Lab projects US DCs at 325-580 TWh by 2028, with 2027 tracking toward the upper bound. (Sources: ASML Q1 2026 results / Reuters, Micron Capital Markets Day 2025, Berkeley Lab Dec-2024 report)',
     keyCalc:
-      'CoWoS demand ~2.5M wafer-equivalents vs supply ~1.6M → 36% gap. ASML: 90 EUV + 20 High-NA planned capacity. Micron new HBM packaging adds ~15% to industry supply.',
+      'CoWoS demand ~2.5M wafer-equivalents vs supply ~1.6M → 36% gap. ASML guidance: 60 low-NA in 2026, 80 in 2027. Micron new HBM packaging adds ~15% to industry supply.',
     secondOrder: [
       'ASML order backlog extends to 2+ years for both EUV and High-NA',
       'OSAT providers (ASE, Amkor) become strategic chokepoints',

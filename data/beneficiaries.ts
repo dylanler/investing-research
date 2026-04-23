@@ -14,6 +14,7 @@ export interface BeneficiaryCategory {
   companies: Company[];
 }
 
+// Market-cap labels mirror the Apr. 23, 2026 refresh in data/marketSnapshot.ts.
 export const beneficiaryData: BeneficiaryCategory[] = [
   {
     id: 'euv',
@@ -21,11 +22,11 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2028-2032',
     icon: '🔬',
     companies: [
-      { name: 'ASML Holding', ticker: 'ASML', marketCap: '$540B', why: 'Sole EUV manufacturer. Projects $71B revenue by 2030.', isPublic: true },
+      { name: 'ASML Holding', ticker: 'ASML', marketCap: '$568B', why: 'Sole EUV manufacturer. Projects $71B revenue by 2030.', isPublic: true },
       { name: 'KLA Corporation', ticker: 'KLAC', marketCap: '$100B', why: 'Leading metrology/inspection. ~25% mask inspection market.', isPublic: true },
       { name: 'Lasertec', ticker: '6920.T', marketCap: '$10B', why: 'ONLY company making EUV mask inspection tools. Monopoly.', isPublic: true },
-      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$282B', why: 'Largest semi equipment maker. Deposition, etch, inspection.', isPublic: true },
-      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$294B', why: 'Major etch/deposition. Benefits from increasing EUV layers.', isPublic: true },
+      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$322B', why: 'Largest semi equipment maker. Deposition, etch, inspection.', isPublic: true },
+      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$335B', why: 'Major etch/deposition. Benefits from increasing EUV layers.', isPublic: true },
       { name: 'Carl Zeiss SMT', ticker: undefined, marketCap: '~$15B group', why: 'Sole supplier of ALL EUV optics. 18 mirror sets per tool. Irreplaceable.', isPublic: false },
       { name: 'TRUMPF Lasertechnik', ticker: undefined, marketCap: '~$5B+', why: 'Sole supplier of CO2 laser for EUV sources. Single-source dependency.', isPublic: false },
       { name: 'Cymer (ASML)', ticker: undefined, marketCap: 'ASML sub', why: 'Produces all EUV light sources. Tin droplet laser system.', isPublic: false },
@@ -39,9 +40,9 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2026-2029',
     icon: '💾',
     companies: [
-      { name: 'SK Hynix', ticker: '000660.KS', marketCap: '$450B', why: '62% HBM share. Primary Nvidia supplier. World-first HBM4 mass production.', isPublic: true },
+      { name: 'SK Hynix', ticker: '000660.KS', marketCap: '$545B', why: '62% HBM share. Primary Nvidia supplier. World-first HBM4 mass production.', isPublic: true },
       { name: 'Micron Technology', ticker: 'MU', marketCap: '$130B', why: '#2 HBM. Revenue >$53B. HBM target $100B by 2028.', isPublic: true },
-      { name: 'Samsung Electronics', ticker: '005930.KS', marketCap: '~$842B', why: 'Largest DRAM producer. 50% HBM capacity surge in 2026.', isPublic: true },
+      { name: 'Samsung Electronics', ticker: '005930.KS', marketCap: '~$943B', why: 'Largest DRAM producer. 50% HBM capacity surge in 2026.', isPublic: true },
       { name: 'Rambus Inc.', ticker: 'RMBS', marketCap: '$10B', why: 'Leading HBM controller IP. First HBM4E controller at 4.1TB/s.', isPublic: true },
       { name: 'Advantest Corp.', ticker: '6857.T', marketCap: '$30B', why: 'Dominant memory test equipment. Critical for HBM4 known-good-die testing.', isPublic: true },
       { name: 'JSR Corporation', ticker: undefined, marketCap: '$9B (private)', why: 'Leading photoresist. Japan govt took private to secure supply chain.', isPublic: false },
@@ -57,9 +58,9 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2026-2030',
     icon: '📦',
     companies: [
-      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.75T', why: 'Dominates CoWoS. 130K wafers/mo by end 2026. $52-56B capex.', isPublic: true },
+      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.94T', why: 'Dominates CoWoS. 130K wafers/mo by end 2026. $52-56B capex.', isPublic: true },
       { name: 'ASE Technology', ticker: '3711.TW', marketCap: '$25B', why: 'World\'s largest OSAT. Revenue ~$18.6B.', isPublic: true },
-      { name: 'Amkor Technology', ticker: 'AMKR', marketCap: '$12B', why: '#2 OSAT. Building $2B Arizona mega-plant. Advanced products 80%+ revenue.', isPublic: true },
+      { name: 'Amkor Technology', ticker: 'AMKR', marketCap: '$14.8B', why: '#2 OSAT. Building $2B Arizona mega-plant. Advanced products 80%+ revenue.', isPublic: true },
       { name: 'Ibiden Co.', ticker: '4062.T', marketCap: '$8B', why: 'Top ABF substrate maker. Part of 74% global supply consortium.', isPublic: true },
       { name: 'Unimicron', ticker: '3037.TW', marketCap: '$10B', why: 'Largest ABF substrate maker by market share.', isPublic: true },
       { name: 'Ajinomoto Fine-Tech', ticker: undefined, marketCap: 'Part of Ajinomoto', why: 'SOLE manufacturer of ABF film. Every advanced substrate depends on this. MONOPOLY.', isPublic: false },
@@ -75,8 +76,8 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2029-2035',
     icon: '⚡',
     companies: [
-      { name: 'GE Vernova', ticker: 'GEV', marketCap: '$216B', why: 'Gas turbines = immediate stopgap. Revenue target $52B by 2028.', isPublic: true },
-      { name: 'Constellation Energy', ticker: 'CEG', marketCap: '$105B', why: 'Largest US nuclear fleet. Microsoft + Meta deals. +22.5% earnings growth.', isPublic: true },
+      { name: 'GE Vernova', ticker: 'GEV', marketCap: '$307B', why: 'Gas turbines = immediate stopgap. Revenue target $52B by 2028.', isPublic: true },
+      { name: 'Constellation Energy', ticker: 'CEG', marketCap: '$90B', why: 'Largest US nuclear fleet. Microsoft + Meta deals. +22.5% earnings growth.', isPublic: true },
       { name: 'Vistra Corp.', ticker: 'VST', marketCap: '$58B', why: 'Largest unregulated US power producer. Amazon + Meta partnerships.', isPublic: true },
       { name: 'Eaton Corporation', ticker: 'ETN', marketCap: '$130B', why: 'Global leader in switchgear/transformers. Acquired Boyd Thermal $9.5B.', isPublic: true },
       { name: 'Quanta Services', ticker: 'PWR', marketCap: '$50B', why: 'Largest power infrastructure contractor. $44B backlog (+27.5%).', isPublic: true },
@@ -93,7 +94,7 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2026-2028',
     icon: '🏗️',
     companies: [
-      { name: 'Vertiv Holdings', ticker: 'VRT', marketCap: '$90B', why: 'Leading thermal management + power distribution. 28% organic growth.', isPublic: true },
+      { name: 'Vertiv Holdings', ticker: 'VRT', marketCap: '$120B', why: 'Leading thermal management + power distribution. 28% organic growth.', isPublic: true },
       { name: 'EMCOR Group', ticker: 'EME', marketCap: '$25B', why: 'Largest US specialty contractor. Electrical/mechanical for DCs.', isPublic: true },
       { name: 'Schneider Electric', ticker: 'SU.PA', marketCap: '$130B', why: 'Global leader in DC power management + automation.', isPublic: true },
       { name: 'Equinix', ticker: 'EQIX', marketCap: '$90B', why: 'Largest DC REIT. Building AI-optimized facilities globally.', isPublic: true },
@@ -111,8 +112,8 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2027-2030',
     icon: '🧠',
     companies: [
-      { name: 'Nvidia', ticker: 'NVDA', marketCap: '~$4.1T', why: 'Dominant AI GPU (86-92%). $215.9B FY2026. $500B+ backlog.', isPublic: true },
-      { name: 'Broadcom', ticker: 'AVGO', marketCap: '~$1.5T', why: '70% custom ASIC market. AI backlog >$70B. Google TPU partner.', isPublic: true },
+      { name: 'Nvidia', ticker: 'NVDA', marketCap: '~$5.0T', why: 'Dominant AI GPU (86-92%). $215.9B FY2026. $500B+ backlog.', isPublic: true },
+      { name: 'Broadcom', ticker: 'AVGO', marketCap: '~$2.05T', why: '70% custom ASIC market. AI backlog >$70B. Google TPU partner.', isPublic: true },
       { name: 'AMD', ticker: 'AMD', marketCap: '$200B', why: '#2 AI GPU. Aggressive N2 bet. Major OpenAI deal.', isPublic: true },
       { name: 'Synopsys', ticker: 'SNPS', marketCap: '$84B', why: '#1 EDA. AI-driven suite cuts 2nm design cycles ~12 months.', isPublic: true },
       { name: 'Cadence Design', ticker: 'CDNS', marketCap: '$80B', why: '#2 EDA. AI reinforcement learning for chip design. Duopoly.', isPublic: true },
@@ -165,8 +166,8 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2028-2032',
     icon: '⚙️',
     companies: [
-      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.75T', why: '60%+ foundry share. Only source for leading-edge 2nm/3nm at volume.', isPublic: true },
-      { name: 'Samsung Foundry', ticker: '005930.KS', marketCap: '~$842B (group)', why: '#2 foundry. GAA 2nm in development. Key TSMC alternative.', isPublic: true },
+      { name: 'TSMC', ticker: 'TSM', marketCap: '$1.94T', why: '60%+ foundry share. Only source for leading-edge 2nm/3nm at volume.', isPublic: true },
+      { name: 'Samsung Foundry', ticker: '005930.KS', marketCap: '~$943B (group)', why: '#2 foundry. GAA 2nm in development. Key TSMC alternative.', isPublic: true },
       { name: 'GlobalFoundries', ticker: 'GFS', marketCap: '$25B', why: 'Leading mature-node. Essential for power/analog/connectivity.', isPublic: true },
       { name: 'Shin-Etsu Chemical', ticker: '4063.T', marketCap: '$80B', why: '#1 silicon wafer maker (29.4% share). Adding 200K 300mm wafers/mo.', isPublic: true },
       { name: 'Entegris', ticker: 'ENTG', marketCap: '$18B', why: 'Specialty chemicals, filters, materials. Critical purity enabler.', isPublic: true },
@@ -183,9 +184,9 @@ export const beneficiaryData: BeneficiaryCategory[] = [
     bottleneckPeriod: '2026-2035',
     icon: '👥',
     companies: [
-      { name: 'ASML', ticker: 'ASML', marketCap: '$540B', why: 'Must scale workforce for 48→150+ tools/year. Every engineer irreplaceable.', isPublic: true },
-      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$282B', why: 'Largest semi equipment co. Needs thousands more engineers.', isPublic: true },
-      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$294B', why: 'Etch equipment scaling. Workforce expansion critical.', isPublic: true },
+      { name: 'ASML', ticker: 'ASML', marketCap: '$568B', why: 'Must scale workforce for 60→150+ tools/year. Every engineer irreplaceable.', isPublic: true },
+      { name: 'Applied Materials', ticker: 'AMAT', marketCap: '$322B', why: 'Largest semi equipment co. Needs thousands more engineers.', isPublic: true },
+      { name: 'Lam Research', ticker: 'LRCX', marketCap: '$335B', why: 'Etch equipment scaling. Workforce expansion critical.', isPublic: true },
       { name: 'Tokyo Electron', ticker: '8035.T', marketCap: '$80B', why: 'Japanese semi equipment. Competing globally for talent.', isPublic: true },
       { name: 'Kforce Inc.', ticker: 'KFRC', marketCap: '$1.5B', why: 'Tech staffing. Semi engineering placement growing with CHIPS Act.', isPublic: true },
       { name: 'imec', ticker: undefined, marketCap: 'Non-profit', why: 'Semiconductor R&D hub. Trains next-gen process engineers.', isPublic: false },

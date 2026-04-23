@@ -39,7 +39,7 @@ export default function MemoryMarket() {
             HBM Market Size by Vendor
           </h3>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-            Sources: SK hynix HBM4 announcement, Samsung Q4-2025, Micron earnings. Values in $B.
+            Sources: SK hynix Q1 2026 results, TrendForce Apr. 21 HBM bulletin, Micron earnings. Values in $B.
           </p>
           <ResponsiveContainer width="100%" height={320}>
             <BarChart data={barData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
@@ -82,7 +82,7 @@ export default function MemoryMarket() {
       {/* Insight strip */}
       <div className="grid md:grid-cols-3 gap-0" style={{ marginTop: 'var(--space-xl)', borderTop: '1px solid var(--ink-100)' }}>
         {[
-          { title: 'China\u2019s HBM Bottleneck', text: 'CXMT can produce 2.2M stacks in 2026 \u2014 enough for only 250K\u2013400K Ascend 910C packages. Memory, not logic, is the binding constraint.' },
+          { title: 'China\u2019s HBM Bottleneck', text: 'CXMT can produce 2.2M stacks in 2026 \u2014 enough for only 250K\u2013400K Ascend 910C packages. Global HBM supply remains effectively sold out through 2026.' },
           { title: 'Consumer Impact', text: 'Smartphone volumes projected to decline 40% as memory is reallocated. HBM margins (50\u201370%) vs DRAM (20\u201330%) make conversion irresistible.' },
           { title: 'Bandwidth Gap', text: 'HBM4: 2.5 TB/s per stack. DDR5: 64\u2013128 GB/s same shoreline. A 20x gap that makes commodity DRAM unsuitable for AI.' },
         ].map((item, i) => (

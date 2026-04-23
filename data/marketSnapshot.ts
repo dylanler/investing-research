@@ -5,12 +5,13 @@ export interface MarketSnapshot {
 
 // Prices are shown in the local listing currency or ADR currency.
 // Market caps are normalized to USD for cross-market comparison.
-export const publicMarketSnapshotAsOf = 'Apr 13, 2026';
+// Refreshed Apr 23, 2026 from current market-data snapshots.
+export const publicMarketSnapshotAsOf = 'Apr 23, 2026';
 
 export const publicMarketSnapshot: Record<string, MarketSnapshot> = {
-  '000660.KS': { price: 'KRW 1.120M', marketCap: '$535.5B' },
+  '000660.KS': { price: '$769.29', marketCap: '$544.9B' },
   '002371.SZ': { price: 'CNY 478.93', marketCap: '$50.9B' },
-  '005930.KS': { price: 'KRW 208,750', marketCap: '$929.8B' },
+  '005930.KS': { price: '$142.89', marketCap: '$942.8B' },
   '0981.HK': { price: 'HKD 57.30', marketCap: '$74B' },
   '1347.HK': { price: 'HKD 90.05', marketCap: '$22.8B' },
   '3037.TW': { price: 'TWD 595.00', marketCap: '$29.6B' },
@@ -31,16 +32,16 @@ export const publicMarketSnapshot: Record<string, MarketSnapshot> = {
   '8046.TW': { price: 'TWD 646.00', marketCap: '$13.2B' },
   AAOI: { price: '$153.19', marketCap: '$11.9B' },
   ALAB: { price: '$166.79', marketCap: '$28.4B' },
-  AMAT: { price: '$395.73', marketCap: '$314.1B' },
+  AMAT: { price: '$403.48', marketCap: '$322.4B' },
   AMD: { price: '$246.83', marketCap: '$402.4B' },
-  AMKR: { price: '$60.44', marketCap: '$15B' },
+  AMKR: { price: '$60.44', marketCap: '$14.8B' },
   ANET: { price: '$152.02', marketCap: '$191.4B' },
   APH: { price: '$145.27', marketCap: '$178.6B' },
-  ASML: { price: '$1,500', marketCap: '$589.1B' },
+  ASML: { price: '$1,422', marketCap: '$568B' },
   'ATS.VI': { price: 'EUR 66.30', marketCap: '$3B' },
-  AVGO: { price: '$379.75', marketCap: '$1.80T' },
+  AVGO: { price: '$379.75', marketCap: '$2.05T' },
   CDNS: { price: '$288.20', marketCap: '$79.6B' },
-  CEG: { price: '$291.72', marketCap: '$105.7B' },
+  CEG: { price: '$295.58', marketCap: '$90B' },
   CIEN: { price: '$479.90', marketCap: '$67.9B' },
   COHR: { price: '$307.93', marketCap: '$57.7B' },
   CRDO: { price: '$134.36', marketCap: '$24.8B' },
@@ -52,15 +53,15 @@ export const publicMarketSnapshot: Record<string, MarketSnapshot> = {
   FIX: { price: '$1,628', marketCap: '$57.4B' },
   FN: { price: '$689.89', marketCap: '$24.7B' },
   FORM: { price: '$128.22', marketCap: '$10B' },
-  GEV: { price: '$991.12', marketCap: '$267.1B' },
+  GEV: { price: '$987.45', marketCap: '$307B' },
   GFS: { price: '$49.03', marketCap: '$26.9B' },
   KFRC: { price: '$29.65', marketCap: '$542M' },
   KLAC: { price: '$1,769', marketCap: '$232.4B' },
   LITE: { price: '$871.18', marketCap: '$62.2B' },
-  LRCX: { price: '$267.32', marketCap: '$335.8B' },
+  LRCX: { price: '$260.80', marketCap: '$335B' },
   MU: { price: '$426.56', marketCap: '$481B' },
   NBIS: { price: '$154.56', marketCap: '$39.1B' },
-  NVDA: { price: '$189.31', marketCap: '$4.60T' },
+  NVDA: { price: '$202.47', marketCap: '$5.0T' },
   OKLO: { price: '$53.94', marketCap: '$9.4B' },
   ONTO: { price: '$252.61', marketCap: '$12.6B' },
   PWR: { price: '$595.84', marketCap: '$89.4B' },
@@ -70,7 +71,7 @@ export const publicMarketSnapshot: Record<string, MarketSnapshot> = {
   'SOI.PA': { price: 'EUR 64.64', marketCap: '$2.7B' },
   'SU.PA': { price: 'EUR 260.30', marketCap: '$172.1B' },
   TLN: { price: '$326.08', marketCap: '$14.9B' },
-  TSM: { price: '$369.57', marketCap: '$1.92T' },
-  VRT: { price: '$299.96', marketCap: '$114.8B' },
+  TSM: { price: '$387.44', marketCap: '$1.94T' },
+  VRT: { price: '$298.48', marketCap: '$120B' },
   VST: { price: '$158.20', marketCap: '$53.6B' },
 };

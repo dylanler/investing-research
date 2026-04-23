@@ -32,7 +32,7 @@ const phases: Phase[] = [
     yearEnd: 2027,
     bottleneck: 'HBM Memory + Packaging',
     color: '#f59e0b',
-    description: 'HBM4 entering volume (Samsung Feb 2026), but supply lags demand. CoWoS packaging is the throughput gate. Micron new HBM packaging comes online 2027. Amkor Arizona not until 2028. (Sources: Samsung Q4-2025, Micron 2025 Investor Day, Amkor press release)',
+    description: 'HBM4 entering volume (Samsung Feb 2026), but supply lags demand. The 2026 HBM market is now closer to $54.6B, and CoWoS remains the throughput gate with TSMC near 130K wafers/month against ~940K wafers of implied Nvidia need alone. Micron new HBM packaging comes online 2027. Amkor Arizona not until 2028. (Sources: Samsung Q4-2025, TrendForce Apr. 21 HBM bulletin, TSMC Q1 2026 results, Amkor press release)',
     stocks: [
       { name: 'SK Hynix', ticker: '000660.KS', conviction: 'high', reason: '62% HBM share. HBM4 mass production. Nvidia preferred partner. (SK hynix 12-layer HBM4 announcement)' },
       { name: 'TSMC', ticker: 'TSM', conviction: 'high', reason: 'Dominates CoWoS. A16 volume 2H 2026. $52-56B capex. (TSMC 2024 Annual Report)' },
@@ -66,9 +66,9 @@ const phases: Phase[] = [
     yearEnd: 2030,
     bottleneck: 'Fabs + EUV Lithography',
     color: '#a855f7',
-    description: 'Advanced fab yield at sub-2nm and EUV tool production become the hard ceiling. ASML capacity plan: 90 EUV + 20 High-NA. At 3.5 tools/GW, annual AI-GW ceiling is only ~18-23 GW/yr. IEA: 945 TWh DC power by 2030. US advanced logic share climbing toward 28%. (Sources: ASML 2022 Investor Day, IEA Energy and AI 2025, SIA/BCG)',
+    description: 'Advanced fab yield at sub-2nm and EUV tool production become the hard ceiling. ASML\'s April 2026 guidance is 60 low-NA EUV tools in 2026 and 80 in 2027, while the older 90+ EUV + 20 High-NA roadmap still frames the long-run target. At 3.5 tools/GW, that means only ~12-18 GW/yr of near-term AI compute before High-NA. IEA: 945 TWh DC power by 2030. US advanced logic share climbing toward 28%. (Sources: ASML Q1 2026 results / Reuters, IEA Energy and AI 2025, SIA/BCG)',
     stocks: [
-      { name: 'ASML', ticker: 'ASML', conviction: 'high', reason: 'Sole EUV maker. 35x downstream multiplier. Pricing power inflects. (ASML 2025 Annual Report)' },
+      { name: 'ASML', ticker: 'ASML', conviction: 'high', reason: 'Sole EUV maker. 35x downstream multiplier. Pricing power inflects. (ASML Q1 2026 results)' },
       { name: 'TSMC', ticker: 'TSM', conviction: 'high', reason: '60%+ foundry share. Revenue tracking $200B+. Only source for 2nm at volume. (TSMC earnings)' },
       { name: 'Lam Research', ticker: 'LRCX', conviction: 'high', reason: 'Etch/deposition equipment. Benefits from every EUV layer increase. (Lam Research earnings)' },
       { name: 'Applied Materials', ticker: 'AMAT', conviction: 'high', reason: 'Largest semi equipment maker. Deposition, etch, inspection for advanced nodes. (AMAT earnings)' },

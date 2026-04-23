@@ -11,7 +11,8 @@ export const hbmMarketData: HBMDataPoint[] = [
   { year: 2023, skHynix: 6, samsung: 4, micron: 1.5, total: 11.5, growth: '' },
   { year: 2024, skHynix: 13, samsung: 8, micron: 4, total: 25, growth: '+117%' },
   { year: 2025, skHynix: 20, samsung: 13, micron: 5, total: 38, growth: '+52%' },
-  { year: 2026, skHynix: 31, samsung: 19, micron: 8, total: 58, growth: '+53%' },
+  // Apr. 2026 refresh: BofA/TrendForce put the 2026 HBM market closer to $54.6B.
+  { year: 2026, skHynix: 29, samsung: 18, micron: 7.6, total: 54.6, growth: '+44%' },
   { year: 2027, skHynix: 44, samsung: 28, micron: 13, total: 85, growth: '+47%' },
   { year: 2028, skHynix: 58, samsung: 38, micron: 19, total: 115, growth: '+35%' },
 ];

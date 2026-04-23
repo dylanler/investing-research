@@ -86,7 +86,7 @@ export default function RoboticsPage() {
         </div>
 
         <div className="max-w-4xl mx-auto" style={{ position: 'relative', zIndex: 1 }}>
-          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026 &middot; Updated March 27, 2026</span></Reveal>
+          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026 &middot; Updated April 23, 2026</span></Reveal>
           <Reveal delay={0.1}>
             <h1 className="font-display" style={{ fontSize: 'var(--text-hero)', fontWeight: 700, color: 'var(--ink-950)', lineHeight: 1.05, marginTop: 'var(--space-lg)' }}>
               The Robotics<br /><span style={{ color: 'var(--accent)' }}>Revolution</span>
@@ -98,6 +98,19 @@ export default function RoboticsPage() {
           </Reveal>
           <Reveal delay={0.4}>
             <Prose>This report asks a simple question: <strong>what breaks the bottleneck?</strong> We scored 10 learning methods on 8 dimensions, profiled 5 frontier labs, mapped 32 data companies to each method, and ranked 50 public and private investments. The answer points to a specific stack — and a specific set of winners.</Prose>
+          </Reveal>
+        </div>
+      </section>
+
+      <section style={{ padding: '0 var(--space-lg) var(--space-3xl)' }}>
+        <div className="max-w-4xl mx-auto">
+          <Reveal delay={0.45}>
+            <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderLeft: '3px solid var(--accent)', borderRadius: 2, padding: 'var(--space-lg)' }}>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>April 2026 Update</div>
+              <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, margin: 0 }}>
+                April brought three signal updates: NVIDIA highlighted RoboLab, a high-fidelity benchmark for generalist robot policies, and pushed Isaac GR00T N1.7 toward commercial early access; Google DeepMind released Gemini Robotics-ER 1.6 on April 14 with stronger embodied reasoning for pointing, success detection, and instrument reading; and Skild AI acquired Zebra Technologies&apos; robotics arm on April 15 to extend its omni-bodied model into warehouses.
+              </p>
+            </div>
           </Reveal>
         </div>
       </section>

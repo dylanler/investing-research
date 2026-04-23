@@ -127,7 +127,7 @@ export default function CompaniesPage() {
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated March 27, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated April 23, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -148,12 +148,12 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: 18.65, suffix: '%', label: 'Median YTD', sub: 'Updated Mar 27' },
-              { val: 28.45, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
+              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated Apr 23' },
+              { val: overviewStats.meanYtd, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
                 <div className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>
-                  {heroInView ? <CountUp end={s.val} duration={1.5} decimals={s.val % 1 !== 0 ? 2 : 0} /> : '0'}{s.suffix}
+                  {heroInView ? <CountUp end={s.val} duration={1.5} decimals={s.label === 'Median YTD' ? 1 : s.label === 'Mean YTD' ? 2 : 0} /> : '0'}{s.suffix}
                 </div>
                 <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', fontWeight: 500 }}>{s.label}</div>
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{s.sub}</div>
@@ -178,14 +178,14 @@ export default function CompaniesPage() {
               Performance by Sector
             </h2>
             <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-500)', marginTop: 'var(--space-sm)', maxWidth: 520 }}>
-              Packaging and optics lead YTD. Compute silicon lags as GPU names consolidate after 2025 run.
+              HBM memory, optics, and advanced packaging lead YTD. Power infrastructure and compute silicon lag.
             </p>
           </div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: Yahoo Finance market-cap snapshots, Mar 11-23 2026 vs Dec 31 2025. Median YTD return by bucket.
+              Source: StockAnalysis and Investing.com history snapshots, Mar 27 vs Apr 23 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -481,10 +481,10 @@ export default function CompaniesPage() {
           <Reveal>
             <blockquote style={{ borderLeft: '3px solid var(--accent)', paddingLeft: 'var(--space-xl)', margin: 0 }}>
               <p className="font-display" style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-900)', lineHeight: 1.55, fontStyle: 'italic', margin: 0 }}>
-                &ldquo;The highest-median-return bucket is advanced packaging and substrates at +57%. The lowest is compute silicon (Nvidia, AMD) at -5.2%. The market is rotating from the obvious GPU trade into the supply chain that feeds it.&rdquo;
+                &ldquo;The highest-median-return bucket is HBM & AI memory at +92.4%. The lowest is power, cooling & electrical at +27.0%. The market is rotating from the obvious GPU trade into the supply chain that feeds it.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Yahoo Finance market-cap snapshots, March 2026 vs December 2025
+                Source: Updated price snapshots, Mar 27 vs Apr 23 2026
               </cite>
             </blockquote>
           </Reveal>
