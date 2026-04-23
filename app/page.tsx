@@ -245,8 +245,6 @@ export default function Home() {
           <Link href="/companies" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Companies</Link>
           <Link href="/robotics" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Robotics</Link>
           <Link href="/scaling" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Scaling</Link>
-          <Link href="/analysis" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Analysis</Link>
-          <Link href="/ondas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Ondas</Link>
           <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
           <Link href="/carbon-vs-silicon" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Carbon vs Silicon</Link>
           <Link href="/ai-passives-alpha" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Passives Alpha</Link>
@@ -309,7 +307,7 @@ export default function Home() {
               fontSize: 'var(--text-lg)', color: 'var(--ink-500)',
               lineHeight: 1.65, maxWidth: 560, margin: '0 auto var(--space-2xl)',
             }}>
-              Nine research reports spanning semiconductor bottlenecks, robotics,
+              Seven research reports spanning semiconductor bottlenecks, robotics,
               inference scaling, cross-border equity signals, and AI capital-allocation maps.
             </p>
           </Reveal>
@@ -410,7 +408,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Nine Research Reports</div>
+              }}>Seven Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -489,42 +487,8 @@ export default function Home() {
             <Reveal direction="left" delay={0.3}>
               <ParallaxLayer speed={1.3}>
                 <TiltCard
-                  href="/analysis"
-                  label="Report V"
-                  title="Micron vs Palantir: Deep Analysis"
-                  subtitle="Hardware bottleneck meets workflow OS. 10-year scenario models, game theory matrices, and 10 adjacent trading baskets."
-                  accentColor="oklch(55% 0.12 40)"
-                  stats={[
-                    { label: 'Companies', value: '2 + baskets' },
-                    { label: 'Horizon', value: '10 years' },
-                    { label: 'Scenarios', value: '60' },
-                  ]}
-                />
-              </ParallaxLayer>
-            </Reveal>
-
-            <Reveal direction="right" delay={0.35}>
-              <ParallaxLayer speed={1.4}>
-                <TiltCard
-                  href="/ondas"
-                  label="Report VI"
-                  title="Ondas (ONDS): 10-Year Scenario"
-                  subtitle="Defense autonomy roll-up: drones, counter-UAS, ISR, and rail optionality. Can management convert $1.55B cash into per-share value?"
-                  accentColor="oklch(50% 0.12 155)"
-                  stats={[
-                    { label: 'Price', value: '$8.80' },
-                    { label: 'EV', value: '$2.68B' },
-                    { label: 'Horizon', value: '10 years' },
-                  ]}
-                />
-              </ParallaxLayer>
-            </Reveal>
-
-            <Reveal direction="left" delay={0.4}>
-              <ParallaxLayer speed={1.5}>
-                <TiltCard
                   href="/signals"
-                  label="Report VII"
+                  label="Report V"
                   title="X Signals, AI Supply Chains, and Hormuz"
                   subtitle="A 50-stock reconstruction of what Zephyr and Jukan have been discussing, with risk-ranked portfolios, geopolitical scenarios, and inference-trend impact."
                   accentColor="oklch(62% 0.16 215)"
@@ -537,11 +501,11 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal direction="right" delay={0.45}>
-              <ParallaxLayer speed={1.6}>
+            <Reveal direction="right" delay={0.35}>
+              <ParallaxLayer speed={1.4}>
                 <TiltCard
                   href="/carbon-vs-silicon"
-                  label="Report VIII"
+                  label="Report VI"
                   title="Carbon vs Silicon Consumption"
                   subtitle="A source-backed comparison between official 2025 U.S. household demand and a modeled AI-cluster procurement basket, with charts, tables, source appendix, and stock proxies."
                   accentColor="oklch(62% 0.16 60)"
@@ -554,11 +518,11 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal direction="left" delay={0.5}>
-              <ParallaxLayer speed={1.7}>
+            <Reveal direction="left" delay={0.4}>
+              <ParallaxLayer speed={1.5}>
                 <TiltCard
                   href="/ai-passives-alpha"
-                  label="Report IX"
+                  label="Report VII"
                   title="AI Passives Residual Alpha"
                   subtitle="A native passives and power alpha report with lead-time bottlenecks, crowding-aware rankings, interactive tables, and source-backed charts."
                   accentColor="oklch(58% 0.14 200)"
