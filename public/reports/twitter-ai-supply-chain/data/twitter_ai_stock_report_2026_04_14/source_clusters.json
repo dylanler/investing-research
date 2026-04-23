@@ -54,6 +54,21 @@
     "url": "https://x.com/zephyr_z9/status/1965812659464642596",
     "summary": "Not an AI supply-chain post, but it is an in-range stock-related macro/consumer-signal mention."
   },
+  "z_high_na": {
+    "title": "Zephyr on TSMC delaying High-NA EUV",
+    "url": "https://x.com/zephyr_z9/status/2047035246957474277",
+    "summary": "Zephyr said TSMC will likely hold High-NA EUV until A10 because the EXE systems are still too expensive. The read-through is that advanced-node capex stays gated by tool cost, which matters for how quickly AI fabs can move to the next lithography step."
+  },
+  "z_rubin_bw": {
+    "title": "Zephyr on Rubin bandwidth and HBM pressure",
+    "url": "https://x.com/zephyr_z9/status/2047007333948227603",
+    "summary": "Zephyr highlighted Rubin's much larger bandwidth envelope and pushed back on the idea that Google can ignore memory-bandwidth requirements. That keeps HBM capacity, cache design, and interconnect demand central to the AI inference stack."
+  },
+  "z_mem_scarcity": {
+    "title": "Zephyr on memory scarcity across the stack",
+    "url": "https://x.com/zephyr_z9",
+    "summary": "Recent commentary in April 2026 on sold-out HBM supply, 8-inch tightness, and other memory bottlenecks. The common thread is that AI hardware demand is still colliding with supply limits rather than pure compute demand."
+  },
   "j_huawei_nvidia": {
     "title": "Jukan on DeepSeek, Huawei, and Nvidia training workloads",
     "url": "https://x.com/jukan05/status/2012360246128431428",
@@ -103,6 +118,26 @@
     "title": "Public quote of Jukan's custom ASIC / TPU thread",
     "url": "https://x.com/muhzuhair/status/2032484686228361482",
     "summary": "A secondary X post quoted Jukan's January custom-ASIC thread, referencing Broadcom, Fujitsu, Google TPU shipments, AMD, Intel, and Nvidia in the same 2026 buildout discussion."
+  },
+  "j_memory_upcycle": {
+    "title": "Jukan on SK hynix's longer memory upcycle",
+    "url": "https://x.com/jukan05/status/2046896269034148196",
+    "summary": "Jukan repeated SK hynix's view that spot pricing is not a clean read on the market and that demand remains broad across HBM, server DRAM, and eSSD. He also highlighted 321-layer QLC and NAND migration as signs the AI storage cycle is still tightening."
+  },
+  "j_p4_hbm4": {
+    "title": "Jukan on Samsung's P4 ramp and HBM4",
+    "url": "https://x.com/jukan05/status/2046897431087022221",
+    "summary": "Jukan said Samsung is pulling P4 forward and using the extra capacity to reinforce its HBM4 lead. The AI supply-chain angle is the race to convert fab space into real HBM4 output before rivals widen the gap."
+  },
+  "j_deepseek_nvidia": {
+    "title": "Jukan on DeepSeek still using Nvidia chips",
+    "url": "https://x.com/jukan05",
+    "summary": "Recent commentary in April 2026 on reports that DeepSeek's next models are still being trained on Nvidia chips. It reinforces that frontier training demand remains tied to Nvidia silicon even as domestic alternatives advance."
+  },
+  "j_hbm4e": {
+    "title": "Jukan on Samsung accelerating HBM4E",
+    "url": "https://x.com/jukan05",
+    "summary": "Recent April 2026 commentary on Samsung accelerating HBM4E development, with first samples expected in May. That keeps the HBM race moving one node ahead and extends the tool and inspection demand stack."
   },
   "hormuz_eia": {
     "title": "EIA World Oil Transit Chokepoints",
@@ -229,6 +264,31 @@
     "url": "https://x.com/aleabitoreddit/status/2041553933664145620",
     "summary": "Alea treated NBIS as the neocloud beneficiary in the current GPU buildout and amplified Jensen Huang's direct NBIS callout."
   },
+  "a_sive_hyperscaler_map": {
+    "title": "Alea on Sivers as a hyperscaler laser chokepoint",
+    "url": "https://x.com/aleabitoreddit/status/2047209727738957983",
+    "summary": "Alea mapped Sivers through PoET, Marvell, Ayar, Jabil, and hyperscaler programs, arguing the tiny laser-source supplier sits in a critical CPO chain. The point is that a narrow upstream component can gain outsized leverage if 1.6T ramps scale."
+  },
+  "a_sive_10x": {
+    "title": "Alea on Sivers still having 10x upside",
+    "url": "https://x.com/aleabitoreddit/status/2047212582378045680",
+    "summary": "Alea said Sivers could still 10x if CPO and 1.6T volume ramps through Marvell, Jabil, Ayar, and O-Net. That matters because the thesis depends on volume conversion, not on current revenue alone."
+  },
+  "a_cpo_glass": {
+    "title": "Alea on CPO and glass-substrate beneficiaries",
+    "url": "https://x.com/aleabitoreddit/status/2047172919495983573",
+    "summary": "Alea framed Sivers or LPK as beneficiaries of the 2027 CPO and glass-substrate shift and said markets are still underestimating Sivers' role in 1.6T optics. The AI supply-chain angle is that the next bottlenecks are upstream of the GPU."
+  },
+  "a_soi_monopoly": {
+    "title": "Alea on Soitec's silicon-photonics substrate moat",
+    "url": "https://x.com/aleabitoreddit/status/2047113416767357288",
+    "summary": "Alea called Soitec a monopoly on substrates needed for silicon photonics and warned that European tech chokepoints remain vulnerable to foreign ownership or transfer. That matters because substrate control can be as important as the device layer in the AI buildout."
+  },
+  "a_eu_smallcaps": {
+    "title": "Alea on EU photonics chokepoints",
+    "url": "https://x.com/aleabitoreddit",
+    "summary": "Recent commentary in April 2026 on ALRIB, LPK, SIVE, Nippon Chemical, and FiconTEC as European chokepoints in the photonics chain. She tied the names to national-security concerns around testing, substrates, and supply-chain control."
+  },
   "i_lite_isscc": {
     "title": "Insane Analyst on Nvidia ISSCC disclosures being bullish for Lumentum",
     "url": "https://ww.twstalker.com/shantaram83",
@@ -243,5 +303,20 @@
     "title": "Insane Analyst on Qualcomm datacenter skepticism",
     "url": "https://twstalker.com/insane_analyst",
     "summary": "A recent public profile capture quoted Insane Analyst saying Qualcomm will likely disappoint again in datacenter CPU after already whiffing the PC push."
+  },
+  "i_sivers_lumentum": {
+    "title": "Insane Analyst on Sivers yield and Lumentum supply",
+    "url": "https://x.com/insane_analyst/status/2046719416608669802",
+    "summary": "Insane Analyst said Sivers, yield, and GR-468 qualification matter, and tied the conversation back to Nvidia buying all of Lumentum's supply. That reinforces the view that laser quality and qualification, not just demand, are gating the optical stack."
+  },
+  "i_datacom_sensing": {
+    "title": "Insane Analyst on Sivers as sensing tech",
+    "url": "https://x.com/insane_analyst/status/2046739493856981482",
+    "summary": "He pushed back on reading the company as a datacom play, saying the device looks more like sensing tech. That matters because it separates photonics names with real datacom exposure from those still depending on adjacent markets."
+  },
+  "i_coupe_shift": {
+    "title": "Insane Analyst on COUPE shifting optical work",
+    "url": "https://x.com/insane_analyst",
+    "summary": "Recent April 2026 commentary on AMD, Ayar Labs, and TSMC COUPE suggested the optical packaging map is still moving. The AI supply-chain takeaway is that foundry and optics allocation decisions are still being repriced in real time."
   }
 }

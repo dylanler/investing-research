@@ -879,7 +879,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026 &middot; Updated April 14, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated April 23, 2026
           </div>
           <h1
             className="font-display"
@@ -927,15 +927,30 @@ export default function SignalsClient({
             software repricing, backend productivity capture, robotics pacing, and gradual-print macro. The stock
             universe snapshot now reflects the {reportLabel} refresh. The downloadable CSV and JSON are current; the
             linked HTML archive remains the older static chart snapshot.{' '}
-            <a
-              href="https://www.youtube.com/watch?v=227anLxQ0mU"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 600 }}
-            >
-              Source interview
-            </a>
+              <a
+                href="https://www.youtube.com/watch?v=227anLxQ0mU"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 600 }}
+              >
+                Source interview
+              </a>
           </div>
+
+          <p
+            style={{
+              maxWidth: 920,
+              marginBottom: 'var(--space-xl)',
+              color: 'var(--ink-600)',
+              fontSize: 'var(--text-base)',
+              lineHeight: 1.75,
+            }}
+          >
+            Since Apr. 9, the clearest new theme is that the bottleneck is moving deeper into qualified memory,
+            high-capacity NAND, and optical packaging rather than staying at the GPU core. Zephyr and Jukan keep
+            stressing HBM4/HBM4E and NAND constraints, while Alea and Insane Analyst are pushing the same argument
+            through Sivers, Lumentum, and CPO qualification.
+          </p>
 
           <div className="grid md:grid-cols-2 xl:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
             {quickStats.map((stat) => (
