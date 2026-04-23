@@ -271,7 +271,7 @@ export default function AnalysisPage() {
         <Reveal>
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-sm)' }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>
-              Deep Analysis &middot; March 2026
+              Deep Analysis &middot; Published March 28, 2026
             </div>
           </div>
         </Reveal>

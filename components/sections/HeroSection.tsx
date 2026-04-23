@@ -22,7 +22,7 @@ export default function HeroSection() {
           className="mb-8"
         >
           <span className="text-[var(--text-sm)] font-medium tracking-widest uppercase" style={{ color: 'var(--ink-400)' }}>
-            Research Brief &middot; April 2026
+            Research Brief &middot; Published March 16, 2026
           </span>
         </motion.div>
 

@@ -279,7 +279,7 @@ export default function Home() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Investment Research &middot; March 2026
+              Investment Research &middot; Published March 16, 2026
             </div>
           </Reveal>
 

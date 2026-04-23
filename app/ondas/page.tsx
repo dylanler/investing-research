@@ -174,7 +174,7 @@ export default function OndasPage() {
           <Reveal>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-sm)' }}>
               <div style={{ fontSize: 'var(--text-xs)', color: ONDS_COLOR, letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>
-                10-Year Scenario Report &middot; March 2026
+                10-Year Scenario Report &middot; Published March 28, 2026
               </div>
             </div>
           </Reveal>

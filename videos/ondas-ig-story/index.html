@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        margin: 0; width: 1080px; height: 1920px; overflow: hidden;
+        background: #F5F1EA;
+        font-family: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+        color: #151515;
+      }
+      #root::before { content: ''; position: absolute; inset: 0;
+        background: radial-gradient(ellipse at center, transparent 55%, rgba(21,21,21,0.06) 100%);
+        pointer-events: none; z-index: 100; }
+      .scene { position: absolute; inset: 0; width: 100%; height: 100%;
+        display: flex; flex-direction: column; padding: 140px 80px; box-sizing: border-box; }
+      .top-bar { position: absolute; top: 70px; left: 80px; right: 80px;
+        display: flex; justify-content: space-between; align-items: center; z-index: 10; }
+      .top-bar .brand { font-size: 20px; font-weight: 600; letter-spacing: 0.24em;
+        text-transform: uppercase; color: #151515; }
+      .top-bar .date { font-size: 18px; color: #6B6660; letter-spacing: 0.08em; }
+      .bot-timer { position: absolute; bottom: 50px; left: 80px; right: 80px;
+        display: flex; justify-content: space-between; font-size: 15px; color: #6B6660;
+        letter-spacing: 0.18em; text-transform: uppercase; z-index: 10; }
+
+      #s1 { justify-content: center; gap: 0; }
+      .s1-label { font-size: 26px; letter-spacing: 0.32em; text-transform: uppercase;
+        color: #D67633; font-weight: 600; margin-bottom: 40px; }
+      .s1-title { font-family: "Playfair Display", "Source Serif Pro", Georgia, serif;
+        font-size: 128px; font-weight: 700; line-height: 0.95; letter-spacing: -0.02em; color: #151515; }
+      .s1-title .accent { color: #0B7A4E; }
+      .s1-sub { margin-top: 60px; font-size: 26px; color: #6B6660;
+        letter-spacing: 0.04em; line-height: 1.5; max-width: 720px; }
+      .s1-ticker-tape { position: absolute; bottom: 200px; left: 0; right: 0;
+        overflow: hidden; padding: 24px 0; background: #151515; color: #F5F1EA; z-index: 5; }
+      .s1-ticker-tape-inner { display: flex; gap: 60px; white-space: nowrap;
+        font-size: 24px; letter-spacing: 0.05em; font-variant-numeric: tabular-nums; }
+      .s1-ticker-tape .up { color: #0B7A4E; }
+      .s1-ticker-tape .sep { color: #6B6660; }
+
+      #s2 { justify-content: center; align-items: flex-start; }
+      .s2-eyebrow { font-size: 22px; letter-spacing: 0.32em; text-transform: uppercase;
+        color: #0B7A4E; font-weight: 600; margin-bottom: 32px; }
+      .s2-headline { font-family: "Playfair Display", "Source Serif Pro", Georgia, serif;
+        font-size: 104px; font-weight: 700; line-height: 0.98; letter-spacing: -0.02em; color: #151515; }
+      .s2-handles { margin-top: 52px; display: flex; flex-direction: column; gap: 14px; }
+      .s2-handle { display: flex; align-items: baseline; gap: 28px;
+        padding: 16px 0; border-bottom: 1px solid rgba(21,21,21,0.12); }
+      .s2-handle .h { font-size: 36px; font-weight: 600; color: #151515; letter-spacing: -0.01em; }
+      .s2-handle .role { font-size: 19px; color: #6B6660; letter-spacing: 0.04em; }
+
+      #s3, #s4 { justify-content: flex-start; padding-top: 200px; }
+      .scene-eyebrow { font-size: 22px; letter-spacing: 0.32em; text-transform: uppercase;
+        color: #D67633; font-weight: 600; margin-bottom: 24px; }
+      .scene-headline { font-family: "Playfair Display", "Source Serif Pro", Georgia, serif;
+        font-size: 86px; font-weight: 700; line-height: 1; color: #151515; margin-bottom: 60px; }
+      .s3-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .s3-card { background: #151515; color: #F5F1EA; padding: 28px 26px; border-radius: 4px; }
+      .s3-card.blue { background: #0B7A4E; }
+      .s3-card .tick { font-size: 38px; font-weight: 700; letter-spacing: -0.01em;
+        font-variant-numeric: tabular-nums; margin-bottom: 8px; }
+      .s3-card .company { font-size: 14px; color: rgba(245,241,234,0.68);
+        letter-spacing: 0.04em; margin-bottom: 20px; }
+      .s3-card .metrics { display: flex; justify-content: space-between; font-size: 12px;
+        letter-spacing: 0.06em; text-transform: uppercase; color: rgba(245,241,234,0.8); }
+      .s3-card .metrics .v { font-size: 20px; color: #F5F1EA; font-weight: 700;
+        font-variant-numeric: tabular-nums; display: block; margin-top: 4px; }
+      .s3-card .conv { display: inline-block; font-size: 12px; padding: 4px 10px;
+        background: #D67633; color: #151515; font-weight: 700;
+        letter-spacing: 0.12em; border-radius: 2px; margin-top: 12px; }
+
+      #s5 { justify-content: center; align-items: flex-start; padding: 260px 100px; }
+      .s5-mark { font-family: "Playfair Display", serif; font-size: 180px;
+        line-height: 0.8; color: #0B7A4E; font-weight: 700; margin-bottom: 20px; }
+      .s5-quote { font-family: "Playfair Display", "Source Serif Pro", Georgia, serif;
+        font-size: 58px; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em;
+        color: #151515; margin-bottom: 40px; }
+      .s5-attr { font-size: 22px; color: #6B6660; letter-spacing: 0.12em;
+        text-transform: uppercase; font-weight: 600; }
+
+      #s6 { justify-content: center; align-items: center; text-align: center; }
+      .s6-mark { font-size: 200px; font-family: "Playfair Display", serif;
+        font-weight: 700; color: #0B7A4E; line-height: 1; margin-bottom: 30px; }
+      .s6-cta { font-family: "Playfair Display", "Source Serif Pro", Georgia, serif;
+        font-size: 64px; font-weight: 700; line-height: 1.08; letter-spacing: -0.01em;
+        color: #151515; margin-bottom: 24px; }
+      .s6-url { font-size: 28px; color: #0B7A4E; letter-spacing: 0.06em; font-weight: 600;
+        padding: 18px 34px; border: 2px solid #0B7A4E; border-radius: 4px; margin-top: 40px; }
+      .s6-foot { position: absolute; bottom: 110px; left: 0; right: 0;
+        font-size: 20px; color: #6B6660; letter-spacing: 0.2em; text-transform: uppercase; }
+
+      .wipe { position: absolute; inset: 0; background: #151515;
+        transform-origin: bottom center; pointer-events: none; z-index: 50; transform: scaleY(0); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30"
+         data-width="1080" data-height="1920">
+
+      <!-- S1: HOOK 0.0–4.5 -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="4.5" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand" id="s1-brand">Research Terminal</span>
+          <span class="date" id="s1-date">Report VI / Defense Autonomy</span>
+        </div>
+        <div class="s1-label" id="s1-label">Report VI / Defense Autonomy</div>
+        <h1 class="s1-title">
+          <span id="s1-w1">Ondas</span><br/>
+          <span id="s1-w3" class="accent">(ONDS).</span>
+        </h1>
+        <p class="s1-sub" id="s1-sub">Can a $4B cash-heavy roll-up convert acquisitions into per-share value before the market reclassifies it?</p>
+        <div class="s1-ticker-tape">
+          <div class="s1-ticker-tape-inner" id="s1-tape"><span>Price <span class="up">$8.80</span></span><span class="sep">•</span><span>MCap <span class="up">$4.11B</span></span><span class="sep">•</span><span>EV <span class="up">$2.68B</span></span><span class="sep">•</span><span>Cash <span class="up">$1.55B</span></span><span class="sep">•</span><span>2025 Rev <span class="up">$50.7M</span></span><span class="sep">•</span><span>2026 Tgt <span class="up">$375M</span></span><span class="sep">•</span><span>Backlog <span class="up">$68.3M</span></span><span class="sep">•</span><span>Shares <span class="up">467M</span></span><span class="sep">•</span><span>Warrants <span class="up">195M</span></span><span class="sep">•</span><span>CAGR <span class="up">92%</span></span><span class="sep">•</span><span>Price <span class="up">$8.80</span></span><span class="sep">•</span><span>MCap <span class="up">$4.11B</span></span><span class="sep">•</span><span>EV <span class="up">$2.68B</span></span><span class="sep">•</span><span>Cash <span class="up">$1.55B</span></span><span class="sep">•</span><span>2025 Rev <span class="up">$50.7M</span></span><span class="sep">•</span><span>2026 Tgt <span class="up">$375M</span></span><span class="sep">•</span><span>Backlog <span class="up">$68.3M</span></span><span class="sep">•</span><span>Shares <span class="up">467M</span></span><span class="sep">•</span><span>Warrants <span class="up">195M</span></span><span class="sep">•</span><span>CAGR <span class="up">92%</span></span><span class="sep">•</span></div>
+        </div>
+      </div>
+      <div id="wipe-2" class="wipe clip" data-start="4.2" data-duration="0.6" data-track-index="3"></div>
+
+      <!-- S2: CONTEXT 4.5–10.0 -->
+      <div id="s2" class="scene clip" data-start="4.5" data-duration="5.5" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand">Research Terminal</span>
+          <span class="date">Scene 02 / Context</span>
+        </div>
+        <div class="s2-eyebrow" id="s2-eyebrow">Roll-up or Platform? 10-Year Decision.</div>
+        <h2 class="s2-headline" id="s2-headline">Convert<br/>capital<br/>into value.</h2>
+        <div class="s2-handles">
+          <div class="s2-handle"><span class="h" id="s2-h1">Bull 2035</span><span class="role">$2.65B rev · $24.66</span></div>
+          <div class="s2-handle"><span class="h" id="s2-h2">Base 2035</span><span class="role">$1.85B rev · $14.25</span></div>
+          <div class="s2-handle"><span class="h" id="s2-h3">Bear 2035</span><span class="role">$0.90B rev · $2.91</span></div>
+          <div class="s2-handle"><span class="h" id="s2-h4">Warrant stack</span><span class="role">195M shares</span></div>
+          <div class="s2-handle"><span class="h" id="s2-h5">Pro forma cash</span><span class="role">$1.55B on-hand</span></div>
+          <div class="s2-handle"><span class="h" id="s2-h6">2026 target</span><span class="role">$375M revenue</span></div>
+        </div>
+      </div>
+      <div id="wipe-3" class="wipe clip" data-start="9.7" data-duration="0.6" data-track-index="3"></div>
+
+      <!-- S3: PICKS A 10.0–16.0 -->
+      <div id="s3" class="scene clip" data-start="10" data-duration="6" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand">Research Terminal</span>
+          <span class="date">Scene 03 / Picks I</span>
+        </div>
+        <div class="scene-eyebrow" id="s3-eyebrow">Year-by-Year Game</div>
+        <h2 class="scene-headline" id="s3-headline">The decade<br/>decides.</h2>
+        <div class="s3-grid">
+          <div class="s3-card blue" id="s3c1">
+            <div class="tick">2026</div>
+            <div class="company">Conversion</div>
+            <div class="metrics">
+              <div>Game<span class="v">Story→Ship</span></div>
+              <div>Bull<span class="v">$430M</span></div>
+            </div>
+            <div class="conv">A · PROVE</div>
+          </div>
+          <div class="s3-card" id="s3c2">
+            <div class="tick">2027</div>
+            <div class="company">Integration</div>
+            <div class="metrics">
+              <div>Game<span class="v">One Co</span></div>
+              <div>Bull<span class="v">$650M</span></div>
+            </div>
+            <div class="conv">A · PLATFORM</div>
+          </div>
+          <div class="s3-card" id="s3c3">
+            <div class="tick">2028</div>
+            <div class="company">Dilution</div>
+            <div class="metrics">
+              <div>Game<span class="v">Warrants</span></div>
+              <div>Bull<span class="v">$900M</span></div>
+            </div>
+            <div class="conv">A · FUND</div>
+          </div>
+          <div class="s3-card blue" id="s3c4">
+            <div class="tick">2029</div>
+            <div class="company">Systems</div>
+            <div class="metrics">
+              <div>Game<span class="v">Integrator</span></div>
+              <div>Bull<span class="v">$1.2B</span></div>
+            </div>
+            <div class="conv">A · MOAT</div>
+          </div>
+          <div class="s3-card" id="s3c5">
+            <div class="tick">2030</div>
+            <div class="company">Milestone</div>
+            <div class="metrics">
+              <div>Game<span class="v">$1.5B Tgt</span></div>
+              <div>Bull<span class="v">$1.6B</span></div>
+            </div>
+            <div class="conv">A · PROVE</div>
+          </div>
+          <div class="s3-card blue" id="s3c6">
+            <div class="tick">2035</div>
+            <div class="company">End-state</div>
+            <div class="metrics">
+              <div>Game<span class="v">Compounder</span></div>
+              <div>Bull<span class="v">$2.65B</span></div>
+            </div>
+            <div class="conv">A · WINNER</div>
+          </div>
+        </div>
+      </div>
+      <div id="wipe-4" class="wipe clip" data-start="15.7" data-duration="0.6" data-track-index="3"></div>
+
+      <!-- S4: PICKS B 16.0–22.0 -->
+      <div id="s4" class="scene clip" data-start="16" data-duration="6" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand">Research Terminal</span>
+          <span class="date">Scene 04 / Picks II</span>
+        </div>
+        <div class="scene-eyebrow" id="s4-eyebrow">Adjacent Baskets</div>
+        <h2 class="scene-headline" id="s4-headline">Trade the<br/>regime.</h2>
+        <div class="s3-grid">
+          <div class="s3-card" id="s4c1">
+            <div class="tick">AVAV</div>
+            <div class="company">US · AeroVirtmt</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Bull</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">A · DRONE</div>
+          </div>
+          <div class="s3-card blue" id="s4c2">
+            <div class="tick">KTOS</div>
+            <div class="company">US · Kratos</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Bull</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">A · ATTRIT</div>
+          </div>
+          <div class="s3-card" id="s4c3">
+            <div class="tick">PLTR</div>
+            <div class="company">US · Palantir</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Base</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">A · SW ISR</div>
+          </div>
+          <div class="s3-card blue" id="s4c4">
+            <div class="tick">RHM.DE</div>
+            <div class="company">DE · Rheinmetall</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Bull</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">A · EU SOV</div>
+          </div>
+          <div class="s3-card" id="s4c5">
+            <div class="tick">LHX</div>
+            <div class="company">US · L3Harris</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Bear</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">B · PRIME</div>
+          </div>
+          <div class="s3-card blue" id="s4c6">
+            <div class="tick">NOC</div>
+            <div class="company">US · Northrop</div>
+            <div class="metrics">
+              <div>Basket<span class="v">Bear</span></div>
+              <div>Side<span class="v">Long</span></div>
+            </div>
+            <div class="conv">B · INCUMBENT</div>
+          </div>
+        </div>
+      </div>
+      <div id="wipe-5" class="wipe clip" data-start="21.7" data-duration="0.6" data-track-index="3"></div>
+
+      <!-- S5: THESIS 22.0–26.5 -->
+      <div id="s5" class="scene clip" data-start="22" data-duration="4.5" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand">Research Terminal</span>
+          <span class="date">Scene 05 / Thesis</span>
+        </div>
+        <div class="s5-mark" id="s5-mark">&ldquo;</div>
+        <div class="s5-quote" id="s5-quote">The equity case is a game-theory problem: can management convert capital into per-share value before investors reclassify the roll-up?</div>
+        <div class="s5-attr" id="s5-attr">— Ondas Report, Mar 2026</div>
+      </div>
+      <div id="wipe-6" class="wipe clip" data-start="26.2" data-duration="0.6" data-track-index="3"></div>
+
+      <!-- S6: CTA 26.5–30.0 -->
+      <div id="s6" class="scene clip" data-start="26.5" data-duration="3.5" data-track-index="1">
+        <div class="top-bar">
+          <span class="brand">Research Terminal</span>
+          <span class="date">Read the full report</span>
+        </div>
+        <div class="s6-mark" id="s6-mark">×</div>
+        <div class="s6-cta" id="s6-cta">10-year model.<br/>Bull / base / bear.<br/>3 trade baskets.<br/>Year-by-year map.</div>
+        <div class="s6-url" id="s6-url">/ondas &nbsp;·&nbsp; Research Terminal</div>
+        <div class="s6-foot" id="s6-foot">Not investment advice · Research only</div>
+      </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      /* S1 0.0–4.2 */
+      tl.from("#s1-brand", { opacity: 0, y: -20, duration: 0.5, ease: "power2.out" }, 0.15);
+      tl.from("#s1-date",  { opacity: 0, y: -20, duration: 0.5, ease: "power2.out" }, 0.25);
+      tl.from("#s1-label", { opacity: 0, y: 20, duration: 0.5, ease: "power2.out" }, 0.4);
+      tl.from("#s1-w1", { y: 80, opacity: 0, duration: 0.7, ease: "expo.out" }, 0.5);
+      tl.from("#s1-w3", { y: 80, opacity: 0, duration: 0.7, ease: "expo.out" }, 1.1);
+      tl.from("#s1-sub", { opacity: 0, y: 30, duration: 0.6, ease: "power2.out" }, 1.7);
+      tl.fromTo("#s1-tape", { x: 0 }, { x: -1800, duration: 4.5, ease: "none" }, 0);
+      tl.from(".s1-ticker-tape", { y: 100, opacity: 0, duration: 0.7, ease: "power3.out" }, 0.8);
+
+      tl.fromTo("#wipe-2", { scaleY: 0, transformOrigin: "bottom center" },
+        { scaleY: 1, duration: 0.3, ease: "power2.in" }, 4.2);
+      tl.to("#wipe-2", { scaleY: 0, transformOrigin: "top center", duration: 0.3, ease: "power2.out" }, 4.5);
+
+      /* S2 4.5–9.7 */
+      tl.from("#s2-eyebrow", { opacity: 0, y: -20, duration: 0.5, ease: "power3.out" }, 4.7);
+      tl.from("#s2-headline", { opacity: 0, y: 40, duration: 0.7, ease: "expo.out" }, 4.9);
+      tl.from("#s2-h1", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 5.0);
+      tl.from("#s2-h2", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 5.22);
+      tl.from("#s2-h3", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 5.44);
+      tl.from("#s2-h4", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 5.66);
+      tl.from("#s2-h5", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 5.88);
+      tl.from("#s2-h6", { opacity: 0, x: -60, duration: 0.5, ease: "power3.out" }, 6.1);
+
+      tl.fromTo("#wipe-3", { scaleY: 0, transformOrigin: "top center" },
+        { scaleY: 1, duration: 0.3, ease: "power2.in" }, 9.7);
+      tl.to("#wipe-3", { scaleY: 0, transformOrigin: "bottom center", duration: 0.3, ease: "power2.out" }, 10.0);
+
+      /* S3 10.0–15.7 */
+      tl.from("#s3-eyebrow", { opacity: 0, y: -20, duration: 0.5, ease: "power3.out" }, 10.15);
+      tl.from("#s3-headline", { opacity: 0, y: 40, duration: 0.7, ease: "expo.out" }, 10.3);
+      tl.from("#s3c1", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 10.7);
+      tl.from("#s3c2", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 10.83);
+      tl.from("#s3c3", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 10.959999999999999);
+      tl.from("#s3c4", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 11.09);
+      tl.from("#s3c5", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 11.219999999999999);
+      tl.from("#s3c6", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 11.35);
+
+      tl.fromTo("#wipe-4", { scaleY: 0, transformOrigin: "top center" },
+        { scaleY: 1, duration: 0.3, ease: "power2.in" }, 15.7);
+      tl.to("#wipe-4", { scaleY: 0, transformOrigin: "bottom center", duration: 0.3, ease: "power2.out" }, 16.0);
+
+      /* S4 16.0–21.7 */
+      tl.from("#s4-eyebrow", { opacity: 0, y: -20, duration: 0.5, ease: "power3.out" }, 16.15);
+      tl.from("#s4-headline", { opacity: 0, y: 40, duration: 0.7, ease: "expo.out" }, 16.3);
+      tl.from("#s4c1", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 16.7);
+      tl.from("#s4c2", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 16.83);
+      tl.from("#s4c3", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 16.96);
+      tl.from("#s4c4", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 17.09);
+      tl.from("#s4c5", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 17.22);
+      tl.from("#s4c6", { y: 40, opacity: 0, scale: 0.94, duration: 0.45, ease: "back.out(1.4)" }, 17.349999999999998);
+
+      tl.fromTo("#wipe-5", { scaleY: 0, transformOrigin: "top center" },
+        { scaleY: 1, duration: 0.3, ease: "power2.in" }, 21.7);
+      tl.to("#wipe-5", { scaleY: 0, transformOrigin: "bottom center", duration: 0.3, ease: "power2.out" }, 22.0);
+
+      /* S5 22.0–26.2 */
+      tl.from("#s5-mark", { scale: 0, opacity: 0, transformOrigin: "center", duration: 0.6, ease: "back.out(2)" }, 22.2);
+      tl.from("#s5-quote", { opacity: 0, y: 40, duration: 0.8, ease: "expo.out" }, 22.6);
+      tl.from("#s5-attr", { opacity: 0, duration: 0.6, ease: "power2.out" }, 23.4);
+
+      tl.fromTo("#wipe-6", { scaleY: 0, transformOrigin: "top center" },
+        { scaleY: 1, duration: 0.3, ease: "power2.in" }, 26.2);
+      tl.to("#wipe-6", { scaleY: 0, transformOrigin: "bottom center", duration: 0.3, ease: "power2.out" }, 26.5);
+
+      /* S6 26.5–30.0 */
+      tl.from("#s6-mark", { scale: 0, opacity: 0, rotation: -180, transformOrigin: "center", duration: 0.7, ease: "back.out(2)" }, 26.7);
+      tl.from("#s6-cta", { opacity: 0, y: 40, duration: 0.6, ease: "expo.out" }, 27.2);
+      tl.from("#s6-url", { opacity: 0, scale: 0.9, duration: 0.5, ease: "back.out(1.6)" }, 27.8);
+      tl.from("#s6-foot", { opacity: 0, duration: 0.5, ease: "power2.out" }, 28.3);
+      tl.to("#s6-cta", { opacity: 0.4, duration: 0.7, ease: "power2.in" }, 29.2);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
