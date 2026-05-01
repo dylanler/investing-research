@@ -98,7 +98,16 @@ export type PodcastData = {
   episodes: Episode[];
 };
 
-type ViewMode = 'cards' | 'table';
+type ViewMode = 'reader' | 'cards' | 'table';
+type EpisodeTab = 'overview' | 'alpha' | 'signals' | 'table';
+type SortMode =
+  | 'alpha-desc'
+  | 'newest'
+  | 'oldest'
+  | 'duration-desc'
+  | 'duration-asc'
+  | 'episode-asc'
+  | 'episode-desc';
 
 type Filters = {
   query: string;
@@ -107,6 +116,7 @@ type Filters = {
   score: number;
   keyword: string;
   view: ViewMode;
+  sort: SortMode;
 };
 
 const COLORS = [
@@ -560,6 +570,283 @@ const actionLinkStyle = {
   textDecoration: 'none',
 } as const;
 
+function EpisodeReader({ episodes }: { episodes: Episode[] }) {
+  const [selectedId, setSelectedId] = useState(episodes[0]?.id ?? '');
+  const [activeTab, setActiveTab] = useState<EpisodeTab>('overview');
+
+  const selected = episodes.find((episode) => episode.id === selectedId) ?? episodes[0];
+
+  if (!selected) {
+    return null;
+  }
+
+  const zhTranscript = transcriptHref(selected.transcriptZhPath);
+  const enTranscript = transcriptHref(selected.transcriptEnPath);
+  const tabs: Array<{ id: EpisodeTab; label: string }> = [
+    { id: 'overview', label: 'Overview' },
+    { id: 'alpha', label: 'Alpha Thesis' },
+    { id: 'signals', label: 'Signals & Risks' },
+    { id: 'table', label: 'Evidence Table' },
+  ];
+
+  return (
+    <div className="grid xl:grid-cols-[360px_1fr]" style={{ gap: 18, alignItems: 'start' }}>
+      <div
+        style={{
+          border: cardBorder,
+          borderRadius: 8,
+          background: 'var(--surface-raised)',
+          boxShadow: cardShadow,
+          overflow: 'hidden',
+        }}
+      >
+        <div style={{ padding: 14, borderBottom: '1px solid var(--ink-100)' }}>
+          <div style={{ fontSize: '0.74rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0, textTransform: 'uppercase' }}>
+            Browse episodes
+          </div>
+          <div style={{ fontSize: '0.82rem', color: 'var(--ink-500)', marginTop: 3 }}>
+            Select one item to read the full thesis.
+          </div>
+        </div>
+        <div style={{ maxHeight: 720, overflowY: 'auto', padding: 8 }}>
+          {episodes.map((episode) => {
+            const isActive = episode.id === selected.id;
+            return (
+              <button
+                key={episode.id}
+                data-episode-listitem="true"
+                type="button"
+                onClick={() => {
+                  setSelectedId(episode.id);
+                  setActiveTab('overview');
+                }}
+                style={{
+                  width: '100%',
+                  display: 'grid',
+                  gap: 6,
+                  textAlign: 'left',
+                  border: `1px solid ${isActive ? 'color-mix(in srgb, var(--accent) 46%, var(--ink-100))' : 'transparent'}`,
+                  borderRadius: 8,
+                  background: isActive ? 'color-mix(in srgb, var(--accent) 10%, var(--surface-raised))' : 'transparent',
+                  color: 'var(--ink-900)',
+                  padding: 10,
+                  cursor: 'pointer',
+                }}
+              >
+                <span style={{ display: 'flex', justifyContent: 'space-between', gap: 10, color: 'var(--ink-400)', fontSize: '0.72rem', fontWeight: 800 }}>
+                  <span>#{episode.index} · {formatDuration(episode.durationMinutes)}</span>
+                  <span>Alpha {episode.alphaLens.composite}/10</span>
+                </span>
+                <strong style={{ fontSize: '0.86rem', lineHeight: 1.35, color: isActive ? 'var(--ink-950)' : 'var(--ink-800)' }}>
+                  {shortTitle(episode.titleEn, 82)}
+                </strong>
+                <span style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  <span style={smallBadgeStyle}>{episode.category}</span>
+                  <span style={smallBadgeStyle}>{episode.alphaLens.sourceDepth}</span>
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <motion.article
+        data-testid="episode-reader-detail"
+        key={selected.id}
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.28 }}
+        style={{
+          border: cardBorder,
+          borderRadius: 8,
+          background: 'var(--surface-raised)',
+          boxShadow: cardShadow,
+          overflow: 'hidden',
+          minWidth: 0,
+        }}
+      >
+        <div className="grid lg:grid-cols-[minmax(280px,0.58fr)_1fr]" style={{ minHeight: 300 }}>
+          <div style={{ position: 'relative', minHeight: 300, background: 'var(--surface-sunken)', overflow: 'hidden' }}>
+            {selected.thumbnail && (
+              <div
+                aria-hidden="true"
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  backgroundImage: `url("${selected.thumbnail}")`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  opacity: 0.9,
+                }}
+              />
+            )}
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.78))' }} />
+            <div style={{ position: 'absolute', left: 16, right: 16, bottom: 16, display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+              {[selected.category, selected.alphaLens.sourceDepth, `Alpha ${selected.alphaLens.composite}/10`].map((badge) => (
+                <span key={badge} style={{ borderRadius: 999, padding: '6px 10px', color: 'white', background: 'rgba(15,23,42,0.72)', border: '1px solid rgba(255,255,255,0.24)', fontSize: '0.78rem', fontWeight: 800 }}>
+                  {badge}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div style={{ padding: 24, minWidth: 0 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, color: 'var(--ink-400)', fontSize: '0.78rem', fontWeight: 800, marginBottom: 12 }}>
+              <span>#{selected.index}</span>
+              <span>{formatDate(selected.uploadDate)}</span>
+              <span>{formatDuration(selected.durationMinutes)}</span>
+            </div>
+            <h3 className="font-display" style={{ margin: 0, fontSize: '2rem', lineHeight: 1.15, color: 'var(--ink-950)', fontWeight: 650 }}>
+              {selected.titleEn}
+            </h3>
+            <p style={{ margin: '12px 0 0', color: 'var(--ink-500)', fontSize: '0.95rem', lineHeight: 1.55 }}>
+              {selected.titleZh}
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
+              {selected.keywords.map((keyword) => (
+                <span key={keyword} style={{ borderRadius: 999, padding: '5px 10px', fontSize: '0.76rem', color: 'var(--ink-600)', border: '1px solid var(--ink-100)', background: 'var(--surface-sunken)' }}>
+                  {keyword}
+                </span>
+              ))}
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
+              <a href={selected.url} target="_blank" rel="noreferrer" style={actionLinkStyle}>YouTube</a>
+              {zhTranscript && <a href={zhTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>Chinese transcript</a>}
+              {enTranscript && <a href={enTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>English transcript</a>}
+            </div>
+          </div>
+        </div>
+
+        <div style={{ padding: '0 24px 24px' }}>
+          <div
+            role="tablist"
+            aria-label="Episode detail sections"
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: 8,
+              borderTop: '1px solid var(--ink-100)',
+              paddingTop: 18,
+              marginBottom: 16,
+            }}
+          >
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                role="tab"
+                aria-selected={activeTab === tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                style={{
+                  borderRadius: 999,
+                  border: `1px solid ${activeTab === tab.id ? 'var(--accent)' : 'var(--ink-100)'}`,
+                  background: activeTab === tab.id ? 'color-mix(in srgb, var(--accent) 12%, var(--surface-raised))' : 'var(--surface-sunken)',
+                  color: activeTab === tab.id ? 'var(--accent)' : 'var(--ink-500)',
+                  padding: '8px 12px',
+                  fontSize: '0.82rem',
+                  fontWeight: 800,
+                  cursor: 'pointer',
+                }}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
+          {activeTab === 'overview' && (
+            <div className="grid lg:grid-cols-[1.1fr_0.9fr]" style={{ gap: 18 }}>
+              <div>
+                <h4 style={detailHeadingStyle}>Episode Summary</h4>
+                <p style={detailBodyStyle}>{selected.summaryEn}</p>
+              </div>
+              <div>
+                <h4 style={detailHeadingStyle}>Why This Episode Matters</h4>
+                <p style={detailBodyStyle}>{selected.alphaLens.fundamentalShift}</p>
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'alpha' && <AlphaBox alpha={selected.alphaLens} />}
+
+          {activeTab === 'signals' && (
+            <div className="grid md:grid-cols-3" style={{ gap: 16 }}>
+              {[
+                ['Signals', selected.alphaLens.evidenceSignals],
+                ['Watchlist', selected.alphaLens.watchlist],
+                ['Risks', selected.alphaLens.risks],
+              ].map(([title, items]) => (
+                <div key={title as string} style={{ border: cardBorder, borderRadius: 8, background: 'var(--surface-sunken)', padding: 14 }}>
+                  <h4 style={{ ...detailHeadingStyle, marginBottom: 8 }}>{title as string}</h4>
+                  <ul style={{ margin: 0, paddingLeft: 18, color: 'var(--ink-550, var(--ink-500))', fontSize: '0.9rem', lineHeight: 1.65 }}>
+                    {(items as string[]).map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {activeTab === 'table' && (
+            <div style={{ overflowX: 'auto', border: cardBorder, borderRadius: 8 }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.84rem' }}>
+                <thead>
+                  <tr>
+                    {['Claim', 'Evidence', 'Implication'].map((header) => (
+                      <th key={header} style={{ textAlign: 'left', padding: 12, color: 'var(--ink-800)', borderBottom: '1px solid var(--ink-100)', background: 'var(--surface-sunken)' }}>
+                        {header}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {(selected.alphaLens.visual?.thesisTable ?? []).map((row) => (
+                    <tr key={row.claim}>
+                      <td style={{ ...tableCellStyle, color: 'var(--ink-900)' }}>{row.claim}</td>
+                      <td style={tableCellStyle}>{row.evidence}</td>
+                      <td style={tableCellStyle}>{row.implication}</td>
+                    </tr>
+                  ))}
+                  {(selected.alphaLens.visual?.thesisTable ?? []).length === 0 && (
+                    <tr>
+                      <td colSpan={3} style={{ ...tableCellStyle, textAlign: 'center' }}>
+                        No thesis table available for this episode.
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </motion.article>
+    </div>
+  );
+}
+
+const smallBadgeStyle = {
+  borderRadius: 999,
+  padding: '3px 7px',
+  fontSize: '0.68rem',
+  color: 'var(--ink-500)',
+  background: 'var(--surface-sunken)',
+  border: '1px solid var(--ink-100)',
+} as const;
+
+const detailHeadingStyle = {
+  margin: 0,
+  color: 'var(--ink-900)',
+  fontSize: '0.92rem',
+  fontWeight: 800,
+} as const;
+
+const detailBodyStyle = {
+  margin: '8px 0 0',
+  color: 'var(--ink-600)',
+  fontSize: '1rem',
+  lineHeight: 1.72,
+} as const;
+
 function Mindmap({
   data,
   onSelectCategory,
@@ -700,7 +987,8 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
     depth: 'all',
     score: 0,
     keyword: '',
-    view: 'cards',
+    view: 'reader',
+    sort: 'alpha-desc',
   });
 
   const categoryOptions = useMemo(() => entries(data.categoryCounts).map(([category]) => category), [data.categoryCounts]);
@@ -712,7 +1000,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
 
   const filteredEpisodes = useMemo(() => {
     const query = normalize(filters.query.trim());
-    return data.episodes
+    const results = data.episodes
       .filter((episode) => {
         const alpha = episode.alphaLens;
         const searchable = normalize([
@@ -734,7 +1022,27 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
           && (!filters.keyword || episode.keywords.includes(filters.keyword))
           && alpha.composite >= filters.score;
       })
-      .sort((left, right) => right.alphaLens.composite - left.alphaLens.composite || left.index - right.index);
+      .sort((left, right) => {
+        switch (filters.sort) {
+          case 'newest':
+            return (right.uploadDate ?? '').localeCompare(left.uploadDate ?? '') || left.index - right.index;
+          case 'oldest':
+            return (left.uploadDate ?? '').localeCompare(right.uploadDate ?? '') || left.index - right.index;
+          case 'duration-desc':
+            return right.durationMinutes - left.durationMinutes || left.index - right.index;
+          case 'duration-asc':
+            return left.durationMinutes - right.durationMinutes || left.index - right.index;
+          case 'episode-asc':
+            return left.index - right.index;
+          case 'episode-desc':
+            return right.index - left.index;
+          case 'alpha-desc':
+          default:
+            return right.alphaLens.composite - left.alphaLens.composite || left.index - right.index;
+        }
+      });
+
+    return results;
   }, [data.episodes, filters]);
 
   const categoryChart = useMemo(
@@ -763,7 +1071,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
   };
 
   const resetFilters = () => {
-    setFilters({ query: '', category: 'all', depth: 'all', score: 0, keyword: '', view: 'cards' });
+    setFilters({ query: '', category: 'all', depth: 'all', score: 0, keyword: '', view: 'reader', sort: 'alpha-desc' });
   };
 
   const selectCategory = (category: string) => {
@@ -896,6 +1204,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
               </label>
               <label style={labelStyle}>View
                 <select value={filters.view} onChange={(event) => setFilter('view', event.target.value as ViewMode)} style={inputStyle}>
+                  <option value="reader">Reader</option>
                   <option value="cards">Cards</option>
                   <option value="table">Table</option>
                 </select>
@@ -1011,12 +1320,60 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
           <section id="episodes" style={sectionStyle}>
             <h2 className="font-display" style={sectionTitleStyle}>Episode Explorer</h2>
             <p style={noteStyle}>{filteredEpisodes.length} of {data.episodeCount} episodes shown</p>
+            <div style={{ border: cardBorder, borderRadius: 8, background: 'var(--surface-raised)', padding: 14, marginBottom: 16 }}>
+              <div className="grid md:grid-cols-2 xl:grid-cols-[1.25fr_repeat(5,minmax(120px,1fr))_auto]" style={{ gap: 10, alignItems: 'end' }}>
+                <label style={labelStyle}>Search
+                  <input value={filters.query} onChange={(event) => setFilter('query', event.target.value)} placeholder="Search inside episodes..." style={inputStyle} />
+                </label>
+                <label style={labelStyle}>Category
+                  <select value={filters.category} onChange={(event) => setFilter('category', event.target.value)} style={inputStyle}>
+                    <option value="all">All categories</option>
+                    {categoryOptions.map((category) => <option key={category} value={category}>{category}</option>)}
+                  </select>
+                </label>
+                <label style={labelStyle}>Source
+                  <select value={filters.depth} onChange={(event) => setFilter('depth', event.target.value)} style={inputStyle}>
+                    <option value="all">All</option>
+                    <option value="transcript-derived">Transcript</option>
+                    <option value="notes-derived">Notes</option>
+                  </select>
+                </label>
+                <label style={labelStyle}>Min alpha
+                  <select value={filters.score} onChange={(event) => setFilter('score', Number(event.target.value))} style={inputStyle}>
+                    {[0, 7, 8, 9].map((value) => <option key={value} value={value}>{value === 0 ? 'Any' : `${value}+`}</option>)}
+                  </select>
+                </label>
+                <label style={labelStyle}>Sort by
+                  <select value={filters.sort} onChange={(event) => setFilter('sort', event.target.value as SortMode)} style={inputStyle}>
+                    <option value="alpha-desc">Alpha score</option>
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="duration-desc">Longest</option>
+                    <option value="duration-asc">Shortest</option>
+                    <option value="episode-asc">Episode # asc</option>
+                    <option value="episode-desc">Episode # desc</option>
+                  </select>
+                </label>
+                <label style={labelStyle}>View
+                  <select value={filters.view} onChange={(event) => setFilter('view', event.target.value as ViewMode)} style={inputStyle}>
+                    <option value="reader">Reader</option>
+                    <option value="cards">Cards</option>
+                    <option value="table">Table</option>
+                  </select>
+                </label>
+                <button type="button" onClick={resetFilters} style={{ ...clearButtonStyle, minHeight: 42 }}>
+                  Clear
+                </button>
+              </div>
+            </div>
             {filteredEpisodes.length === 0 ? (
               <div style={{ border: '1px dashed var(--ink-200)', borderRadius: 8, padding: 28, color: 'var(--ink-500)', textAlign: 'center' }}>
                 No episodes match the current filters.
               </div>
             ) : filters.view === 'table' ? (
               <DataTable episodes={filteredEpisodes} />
+            ) : filters.view === 'reader' ? (
+              <EpisodeReader episodes={filteredEpisodes} />
             ) : (
               <div className="grid xl:grid-cols-2 2xl:grid-cols-3" style={{ gap: 16 }}>
                 {filteredEpisodes.map((episode) => (
@@ -1095,4 +1452,15 @@ const inputStyle = {
   color: 'var(--ink-900)',
   padding: '0 12px',
   outline: 'none',
+} as const;
+
+const clearButtonStyle = {
+  border: '1px solid var(--ink-100)',
+  borderRadius: 8,
+  background: 'var(--surface-sunken)',
+  color: 'var(--ink-600)',
+  padding: '0 14px',
+  fontSize: '0.82rem',
+  fontWeight: 800,
+  cursor: 'pointer',
 } as const;
