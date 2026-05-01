@@ -1105,12 +1105,12 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
         style={{
           position: 'relative',
           overflow: 'hidden',
-          padding: '110px 20px 54px',
+          padding: '100px clamp(10px, 1.4vw, 24px) 48px',
           borderBottom: '1px solid var(--ink-100)',
         }}
       >
         <SignalField />
-        <div style={{ position: 'relative', zIndex: 1, maxWidth: 1180, margin: '0 auto' }}>
+        <div style={{ position: 'relative', zIndex: 1, width: '100%' }}>
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <div style={{ fontSize: '0.78rem', color: 'var(--accent)', fontWeight: 800, letterSpacing: 0, textTransform: 'uppercase', marginBottom: 18 }}>
               Report VIII · Podcast Alpha Research · Zhang Xiaojun
@@ -1150,7 +1150,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
         </div>
       </section>
 
-      <div className="grid lg:grid-cols-[240px_1fr]" style={{ gap: 22, maxWidth: 1360, margin: '0 auto', padding: '24px 20px 70px' }}>
+      <div className="grid lg:grid-cols-[220px_1fr]" style={{ gap: 'clamp(12px, 1.2vw, 20px)', width: '100%', padding: '16px clamp(8px, 1.1vw, 18px) 70px' }}>
         <aside style={{ position: 'sticky', top: 78, alignSelf: 'start', border: cardBorder, borderRadius: 8, background: 'var(--surface-overlay)', backdropFilter: 'blur(12px)', padding: 16 }}>
           <div style={{ fontSize: '0.76rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0, textTransform: 'uppercase', marginBottom: 10 }}>Navigation</div>
           {['dashboard', 'alpha', 'mindmap', 'episodes'].map((id) => (
@@ -1395,7 +1395,7 @@ const sectionStyle = {
   borderRadius: 8,
   background: 'var(--surface-overlay)',
   boxShadow: cardShadow,
-  padding: 22,
+  padding: 'clamp(14px, 1.35vw, 22px)',
   backdropFilter: 'blur(10px)',
 } as const;
 
