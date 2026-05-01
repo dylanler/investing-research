@@ -248,6 +248,7 @@ export default function Home() {
           <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
           <Link href="/carbon-vs-silicon" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Carbon vs Silicon</Link>
           <Link href="/ai-passives-alpha" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Passives Alpha</Link>
+          <Link href="/xiaojun-podcast-alpha-atlas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Podcast Alpha</Link>
           <ThemeToggle />
         </div>
       </nav>
@@ -307,7 +308,7 @@ export default function Home() {
               fontSize: 'var(--text-lg)', color: 'var(--ink-500)',
               lineHeight: 1.65, maxWidth: 560, margin: '0 auto var(--space-2xl)',
             }}>
-              Seven research reports spanning semiconductor bottlenecks, robotics,
+              Eight research reports spanning semiconductor bottlenecks, robotics,
               inference scaling, cross-border equity signals, and AI capital-allocation maps.
             </p>
           </Reveal>
@@ -408,7 +409,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Seven Research Reports</div>
+              }}>Eight Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -534,6 +535,23 @@ export default function Home() {
                 />
               </ParallaxLayer>
             </Reveal>
+
+            <Reveal direction="right" delay={0.45}>
+              <ParallaxLayer speed={1.6}>
+                <TiltCard
+                  href="/xiaojun-podcast-alpha-atlas"
+                  label="Report VIII"
+                  title="Zhang Xiaojun Podcast Alpha Atlas"
+                  subtitle="An interactive corpus map of 162 Chinese-language podcast episodes, translated summaries, hidden alpha lenses, charts, mindmaps, and transcript links."
+                  accentColor="oklch(62% 0.16 175)"
+                  stats={[
+                    { label: 'Episodes', value: '162' },
+                    { label: 'Hours', value: '291.5' },
+                    { label: 'Transcript sets', value: '9' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
           </div>
         </div>
       </section>
@@ -560,7 +578,7 @@ export default function Home() {
               { num: '03', title: 'ASML is the most asymmetric trade', body: 'A $400M EUV tool enables $14.3B downstream value. ASML captures <3% of what it creates. Pricing power inflects 2028\u20132032.', source: 'ASML 2025 Annual Report' },
               { num: '04', title: 'Robotics is escaping the teleop trap', body: 'EgoScale: 20,854h of human video with R\u00b2=0.9983 scaling law. DreamDojo: 44,711h. That\u2019s 89.4x Figure\u2019s teleop data. The scaling substrate is shifting from robot demos to human video.', source: 'NVIDIA EgoScale, DreamDojo (Feb 2026)' },
               { num: '05', title: 'Structure beats brute-force thinking', body: 'Structured test-time scaling \u2014 recursion, context isolation, verification \u2014 outperforms naive chain-of-thought. Value shifts to verifier infrastructure and recursive training flywheels.', source: 'arXiv: RLM, MiroThinker-H1, ATTS' },
-              { num: '06', title: '400+ companies mapped across 5 reports', body: '100 GPU buildout equities, 100 passives residual-alpha names, 50 robotics companies, 100 test-time scaling names, and 50 cross-border signal names. Each scored on chokepoint exposure, mispricing, scaling alignment, or method fit.', source: 'All reports combined' },
+              { num: '06', title: '560+ assets and episodes mapped across the research stack', body: '100 GPU buildout equities, 100 passives residual-alpha names, 50 robotics companies, 100 test-time scaling names, 50 cross-border signal names, and 162 podcast episodes. Each is scored on chokepoint exposure, mispricing, scaling alignment, method fit, or hidden alpha.', source: 'All reports combined' },
             ].map((item, i) => (
               <Reveal key={item.num} delay={i * 0.12}>
                 <div style={{
@@ -595,7 +613,7 @@ export default function Home() {
           <Reveal>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-2xl)' }}>
               <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>How to Navigate</div>
-              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Four Reports, One Thesis</h2>
+              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Eight Reports, One Thesis</h2>
             </div>
           </Reveal>
           <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
