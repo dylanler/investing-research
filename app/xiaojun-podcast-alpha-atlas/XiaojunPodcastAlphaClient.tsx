@@ -54,6 +54,17 @@ type AlphaLens = {
   composite: number;
 };
 
+type EpisodePart = {
+  id: string;
+  label: string;
+  titleZh: string;
+  titleEn: string;
+  url: string;
+  thumbnail?: string;
+  durationMinutes: number;
+  uploadDate?: string;
+};
+
 type Episode = {
   id: string;
   index: number;
@@ -72,6 +83,7 @@ type Episode = {
   sourceEnExcerpt?: string;
   transcriptZhPath?: string;
   transcriptEnPath?: string;
+  parts?: EpisodePart[];
   alphaLens: AlphaLens;
 };
 
@@ -164,6 +176,12 @@ function formatDuration(minutes: number): string {
     return `${Math.floor(rounded / 60)}h ${rounded % 60}m`;
   }
   return `${rounded}m`;
+}
+
+function formatEpisodeDuration(episode: Pick<Episode, 'durationMinutes' | 'parts'>): string {
+  const duration = formatDuration(episode.durationMinutes);
+  if (!episode.parts?.length) return duration;
+  return `${episode.parts.length} parts · ${duration}`;
 }
 
 function transcriptHref(path?: string): string {
@@ -545,7 +563,7 @@ function EpisodeCard({ episode }: { episode: Episode }) {
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, color: 'var(--ink-400)', fontSize: '0.72rem', fontWeight: 700 }}>
           <span>#{episode.index}</span>
           <span>{formatDate(episode.uploadDate)}</span>
-          <span>{formatDuration(episode.durationMinutes)}</span>
+          <span>{formatEpisodeDuration(episode)}</span>
         </div>
         <h3 style={{ margin: 0, fontSize: '1.05rem', lineHeight: 1.28, color: 'var(--ink-950)' }}>{episode.titleEn}</h3>
         <p style={{ margin: 0, color: 'var(--ink-500)', fontSize: '0.82rem', lineHeight: 1.5 }}>{episode.titleZh}</p>
@@ -565,7 +583,7 @@ function EpisodeCard({ episode }: { episode: Episode }) {
             <AlphaBox alpha={alpha} />
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
-            <a href={episode.url} target="_blank" rel="noreferrer" style={actionLinkStyle}>YouTube</a>
+            <EpisodeSourceLinks episode={episode} />
             {zhTranscript && <a href={zhTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>Chinese transcript</a>}
             {enTranscript && <a href={enTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>English transcript</a>}
           </div>
@@ -584,16 +602,100 @@ const actionLinkStyle = {
   textDecoration: 'none',
 } as const;
 
-function EpisodeReader({ episodes }: { episodes: Episode[] }) {
-  const [selectedId, setSelectedId] = useState(episodes[0]?.id ?? '');
-  const [activeTab, setActiveTab] = useState<EpisodeTab>('overview');
+function EpisodeSourceLinks({ episode }: { episode: Episode }) {
+  const parts = episode.parts ?? [];
 
-  const selected = episodes.find((episode) => episode.id === selectedId) ?? episodes[0];
-
-  if (!selected) {
-    return null;
+  if (parts.length === 0) {
+    return <a href={episode.url} target="_blank" rel="noreferrer" style={actionLinkStyle}>YouTube</a>;
   }
 
+  return (
+    <>
+      {parts.map((part) => (
+        <a key={part.id} href={part.url} target="_blank" rel="noreferrer" title={part.titleEn} style={actionLinkStyle}>
+          {part.label} · {formatDuration(part.durationMinutes)}
+        </a>
+      ))}
+    </>
+  );
+}
+
+function EpisodeBrowser({
+  episodes,
+  selectedId,
+  onSelect,
+}: {
+  episodes: Episode[];
+  selectedId: string;
+  onSelect: (episodeId: string) => void;
+}) {
+  return (
+    <div
+      style={{
+        position: 'sticky',
+        top: 78,
+        border: cardBorder,
+        borderRadius: 8,
+        background: 'var(--surface-raised)',
+        boxShadow: cardShadow,
+        overflow: 'hidden',
+        minWidth: 0,
+        maxHeight: 'calc(100vh - 104px)',
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
+      <div style={{ padding: 14, borderBottom: '1px solid var(--ink-100)', flex: '0 0 auto' }}>
+        <div style={{ fontSize: '0.78rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0 }}>
+          Browse Episodes
+        </div>
+        <div style={{ fontSize: '0.82rem', color: 'var(--ink-500)', marginTop: 3 }}>
+          Select one item to read the full thesis.
+        </div>
+      </div>
+      <div style={{ overflowY: 'auto', padding: 8 }}>
+        {episodes.map((episode) => {
+          const isActive = episode.id === selectedId;
+          return (
+            <button
+              key={episode.id}
+              data-episode-listitem="true"
+              type="button"
+              onClick={() => onSelect(episode.id)}
+              style={{
+                width: '100%',
+                display: 'grid',
+                gap: 6,
+                textAlign: 'left',
+                border: `1px solid ${isActive ? 'color-mix(in srgb, var(--accent) 46%, var(--ink-100))' : 'transparent'}`,
+                borderRadius: 8,
+                background: isActive ? 'color-mix(in srgb, var(--accent) 10%, var(--surface-raised))' : 'transparent',
+                color: 'var(--ink-900)',
+                padding: 10,
+                cursor: 'pointer',
+              }}
+            >
+              <span style={{ display: 'flex', justifyContent: 'space-between', gap: 10, color: 'var(--ink-400)', fontSize: '0.72rem', fontWeight: 800 }}>
+                <span>#{episode.index} · {formatEpisodeDuration(episode)}</span>
+                <span>Alpha {episode.alphaLens.composite}/10</span>
+              </span>
+              <strong style={{ fontSize: '0.86rem', lineHeight: 1.35, color: isActive ? 'var(--ink-950)' : 'var(--ink-800)' }}>
+                {shortTitle(episode.titleEn, 82)}
+              </strong>
+              <span style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                <span style={smallBadgeStyle}>{episode.category}</span>
+                <span style={smallBadgeStyle}>{episode.alphaLens.sourceDepth}</span>
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function EpisodeDetail({ selected }: { selected: Episode }) {
+  const [activeTab, setActiveTab] = useState<EpisodeTab>('overview');
   const zhTranscript = transcriptHref(selected.transcriptZhPath);
   const enTranscript = transcriptHref(selected.transcriptEnPath);
   const tabs: Array<{ id: EpisodeTab; label: string }> = [
@@ -604,70 +706,6 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
   ];
 
   return (
-    <div className="grid xl:grid-cols-[minmax(320px,360px)_minmax(0,1fr)]" style={{ gap: 18, alignItems: 'stretch', width: '100%' }}>
-      <div
-        style={{
-          border: cardBorder,
-          borderRadius: 8,
-          background: 'var(--surface-raised)',
-          boxShadow: cardShadow,
-          overflow: 'hidden',
-          display: 'flex',
-          flexDirection: 'column',
-          height: '100%',
-          minWidth: 0,
-        }}
-      >
-        <div style={{ padding: 14, borderBottom: '1px solid var(--ink-100)' }}>
-          <div style={{ fontSize: '0.78rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0 }}>
-            Browse Episodes
-          </div>
-          <div style={{ fontSize: '0.82rem', color: 'var(--ink-500)', marginTop: 3 }}>
-            Select one item to read the full thesis.
-          </div>
-        </div>
-        <div style={{ flex: '1 1 auto', maxHeight: 'min(720px, calc(100vh - 160px))', overflowY: 'auto', padding: 8 }}>
-          {episodes.map((episode) => {
-            const isActive = episode.id === selected.id;
-            return (
-              <button
-                key={episode.id}
-                data-episode-listitem="true"
-                type="button"
-                onClick={() => {
-                  setSelectedId(episode.id);
-                  setActiveTab('overview');
-                }}
-                style={{
-                  width: '100%',
-                  display: 'grid',
-                  gap: 6,
-                  textAlign: 'left',
-                  border: `1px solid ${isActive ? 'color-mix(in srgb, var(--accent) 46%, var(--ink-100))' : 'transparent'}`,
-                  borderRadius: 8,
-                  background: isActive ? 'color-mix(in srgb, var(--accent) 10%, var(--surface-raised))' : 'transparent',
-                  color: 'var(--ink-900)',
-                  padding: 10,
-                  cursor: 'pointer',
-                }}
-              >
-                <span style={{ display: 'flex', justifyContent: 'space-between', gap: 10, color: 'var(--ink-400)', fontSize: '0.72rem', fontWeight: 800 }}>
-                  <span>#{episode.index} · {formatDuration(episode.durationMinutes)}</span>
-                  <span>Alpha {episode.alphaLens.composite}/10</span>
-                </span>
-                <strong style={{ fontSize: '0.86rem', lineHeight: 1.35, color: isActive ? 'var(--ink-950)' : 'var(--ink-800)' }}>
-                  {shortTitle(episode.titleEn, 82)}
-                </strong>
-                <span style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                  <span style={smallBadgeStyle}>{episode.category}</span>
-                  <span style={smallBadgeStyle}>{episode.alphaLens.sourceDepth}</span>
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
       <motion.article
         data-testid="episode-reader-detail"
         key={selected.id}
@@ -713,7 +751,7 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, color: 'var(--ink-400)', fontSize: '0.78rem', fontWeight: 800, marginBottom: 12 }}>
               <span>#{selected.index}</span>
               <span>{formatDate(selected.uploadDate)}</span>
-              <span>{formatDuration(selected.durationMinutes)}</span>
+              <span>{formatEpisodeDuration(selected)}</span>
             </div>
             <h3 className="font-display" style={{ margin: 0, fontSize: '1.55rem', lineHeight: 1.18, color: 'var(--ink-950)', fontWeight: 650 }}>
               {selected.titleEn}
@@ -729,7 +767,7 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
               ))}
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
-              <a href={selected.url} target="_blank" rel="noreferrer" style={actionLinkStyle}>YouTube</a>
+              <EpisodeSourceLinks episode={selected} />
               {zhTranscript && <a href={zhTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>Chinese transcript</a>}
               {enTranscript && <a href={enTranscript} target="_blank" rel="noreferrer" style={actionLinkStyle}>English transcript</a>}
             </div>
@@ -839,7 +877,6 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
           )}
         </div>
       </motion.article>
-    </div>
   );
 }
 
@@ -875,18 +912,18 @@ function Mindmap({
 }) {
   const categories = entries(data.categoryCounts, 8);
   const coordinates = [
-    [50, 12],
-    [80, 24],
-    [86, 54],
-    [66, 80],
-    [34, 80],
-    [14, 54],
-    [20, 24],
-    [50, 92],
+    [50, 15],
+    [80, 28],
+    [84, 56],
+    [68, 78],
+    [46, 82],
+    [25, 72],
+    [17, 46],
+    [30, 24],
   ];
 
   return (
-    <div style={{ position: 'relative', minHeight: 430, border: cardBorder, borderRadius: 8, background: 'var(--surface-raised)', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', minHeight: 560, border: cardBorder, borderRadius: 8, background: 'var(--surface-raised)', overflow: 'visible' }}>
       <svg aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', pointerEvents: 'none' }}>
         {categories.map(([category], index) => (
           <motion.line
@@ -905,7 +942,7 @@ function Mindmap({
           />
         ))}
       </svg>
-      <div style={{ ...mindNodeStyle, left: '50%', top: '50%', borderColor: 'var(--accent)', textAlign: 'center' }}>
+      <div style={{ ...mindNodeStyle, left: '50%', top: '50%', borderColor: 'var(--accent)', textAlign: 'center', zIndex: 2 }}>
         <strong>Alpha Corpus</strong>
         <span>{data.episodeCount} episodes</span>
       </div>
@@ -925,7 +962,7 @@ function Mindmap({
             key={category}
             type="button"
             onClick={() => onSelectCategory(category)}
-            whileHover={{ scale: 1.04 }}
+            whileHover={{ scale: 1.04, zIndex: 4 }}
             style={{
               ...mindNodeStyle,
               left: `${coordinates[index][0]}%`,
@@ -946,7 +983,9 @@ function Mindmap({
 const mindNodeStyle = {
   position: 'absolute',
   transform: 'translate(-50%, -50%)',
-  width: 'min(180px, 36vw)',
+  display: 'grid',
+  gap: 4,
+  width: 'min(210px, 40vw)',
   border: cardBorder,
   borderRadius: 8,
   background: 'var(--surface-overlay)',
@@ -1009,6 +1048,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
     view: 'reader',
     sort: 'newest',
   });
+  const [selectedEpisodeId, setSelectedEpisodeId] = useState(data.episodes[0]?.id ?? '');
 
   const categoryOptions = useMemo(() => entries(data.categoryCounts).map(([category]) => category), [data.categoryCounts]);
   const keywordOptions = useMemo(() => entries(data.keywordCounts, 18), [data.keywordCounts]);
@@ -1063,6 +1103,8 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
 
     return results;
   }, [data.episodes, filters]);
+  const selectedEpisode = filteredEpisodes.find((episode) => episode.id === selectedEpisodeId) ?? filteredEpisodes[0];
+
 
   const categoryChart = useMemo(
     () => entries(data.categoryCounts, 12).map(([name, value], index) => ({ name, value, fill: COLORS[index % COLORS.length] })),
@@ -1099,7 +1141,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
   };
 
   const kpis = [
-    ['Episodes', data.episodeCount, 'YouTube videos mapped'],
+    ['Episodes', data.episodeCount, 'Canonical podcast items'],
     ['Alpha lenses', data.alphaLensCount, 'One thesis per episode'],
     ['Transcript-derived', data.alphaDepthCounts['transcript-derived'] ?? 0, 'Public captions available'],
     ['Notes-derived', data.alphaDepthCounts['notes-derived'] ?? 0, 'Show notes/outlines'],
@@ -1336,11 +1378,19 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
             <Mindmap data={data} onSelectCategory={selectCategory} />
           </section>
 
-          <section id="episodes" style={sectionStyle}>
-            <h2 className="font-display" style={sectionTitleStyle}>Episode Explorer</h2>
-            <p style={noteStyle}>{filteredEpisodes.length} of {data.episodeCount} episodes shown</p>
-            <div style={{ border: cardBorder, borderRadius: 8, background: 'var(--surface-raised)', padding: 14, marginBottom: 16 }}>
-              <div className="grid md:grid-cols-2 xl:grid-cols-[1.25fr_repeat(5,minmax(120px,1fr))_auto]" style={{ gap: 10, alignItems: 'end' }}>
+          <div
+            id="episodes"
+            className={filters.view === 'reader' && filteredEpisodes.length > 0 ? 'grid xl:grid-cols-[300px_minmax(0,1fr)]' : undefined}
+            style={{ gap: 18, alignItems: 'start', scrollMarginTop: 88 }}
+          >
+            {filters.view === 'reader' && filteredEpisodes.length > 0 && selectedEpisode && (
+              <EpisodeBrowser episodes={filteredEpisodes} selectedId={selectedEpisode.id} onSelect={setSelectedEpisodeId} />
+            )}
+            <section style={sectionStyle}>
+              <h2 className="font-display" style={sectionTitleStyle}>Episode Explorer</h2>
+              <p style={noteStyle}>{filteredEpisodes.length} of {data.episodeCount} episodes shown</p>
+              <div style={{ border: cardBorder, borderRadius: 8, background: 'var(--surface-raised)', padding: 14, marginBottom: 16 }}>
+              <div className="grid md:grid-cols-2" style={{ gap: 10, alignItems: 'end' }}>
                 <label style={labelStyle}>Search
                   <input value={filters.query} onChange={(event) => setFilter('query', event.target.value)} placeholder="Search inside episodes..." style={inputStyle} />
                 </label>
@@ -1385,24 +1435,25 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
                 </button>
               </div>
             </div>
-            {filteredEpisodes.length === 0 ? (
-              <div style={{ border: '1px dashed var(--ink-200)', borderRadius: 8, padding: 28, color: 'var(--ink-500)', textAlign: 'center' }}>
-                No episodes match the current filters.
-              </div>
-            ) : filters.view === 'table' ? (
-              <DataTable episodes={filteredEpisodes} />
-            ) : filters.view === 'reader' ? (
-              <EpisodeReader episodes={filteredEpisodes} />
-            ) : (
-              <div className="grid xl:grid-cols-2 2xl:grid-cols-3" style={{ gap: 16 }}>
-                {filteredEpisodes.map((episode) => (
-                  <div id={`episode-${episode.id}`} key={episode.id} style={{ scrollMarginTop: 88 }}>
-                    <EpisodeCard episode={episode} />
-                  </div>
-                ))}
-              </div>
-            )}
-          </section>
+              {filteredEpisodes.length === 0 ? (
+                <div style={{ border: '1px dashed var(--ink-200)', borderRadius: 8, padding: 28, color: 'var(--ink-500)', textAlign: 'center' }}>
+                  No episodes match the current filters.
+                </div>
+              ) : filters.view === 'table' ? (
+                <DataTable episodes={filteredEpisodes} />
+              ) : filters.view === 'reader' && selectedEpisode ? (
+                <EpisodeDetail key={selectedEpisode.id} selected={selectedEpisode} />
+              ) : (
+                <div className="grid xl:grid-cols-2 2xl:grid-cols-3" style={{ gap: 16 }}>
+                  {filteredEpisodes.map((episode) => (
+                    <div id={`episode-${episode.id}`} key={episode.id} style={{ scrollMarginTop: 88 }}>
+                      <EpisodeCard episode={episode} />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </section>
+          </div>
         </div>
       </div>
     </main>
