@@ -130,6 +130,7 @@ const COLORS = [
   '#ec4899',
 ];
 
+const REPORT_MAX_WIDTH = 1280;
 const cardBorder = '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)';
 const cardShadow = '0 18px 42px rgba(15, 23, 42, 0.06)';
 const chartGridStroke = 'color-mix(in srgb, var(--ink-400) 22%, transparent)';
@@ -344,34 +345,47 @@ function KpiCard({
 
 function ScoreBars({ alpha }: { alpha: AlphaLens }) {
   return (
-    <div style={{ display: 'grid', gap: 8 }}>
+    <div aria-label="Alpha score comparison bar chart" style={{ display: 'grid', gap: 10 }}>
       {Object.entries(alpha.alphaScore).map(([label, value], index) => (
-        <div key={label} style={{ display: 'grid', gridTemplateColumns: '96px 1fr 28px', alignItems: 'center', gap: 10 }}>
-          <span style={{ fontSize: '0.75rem', color: 'var(--ink-500)', textTransform: 'capitalize' }}>{label}</span>
+        <div key={label} style={{ display: 'grid', gridTemplateColumns: 'minmax(74px,104px) minmax(84px,1fr) auto', alignItems: 'center', gap: 12 }}>
+          <span style={{ fontSize: '0.78rem', color: 'var(--ink-500)', textTransform: 'capitalize' }}>{label}</span>
           <span
             style={{
-              height: 8,
+              position: 'relative',
+              height: 16,
               borderRadius: 999,
               background: 'var(--ink-100)',
               overflow: 'hidden',
+              border: '1px solid color-mix(in srgb, var(--ink-950) 5%, transparent)',
             }}
           >
             <motion.span
-              initial={{ scaleX: 0 }}
-              whileInView={{ scaleX: 1 }}
-              viewport={{ once: true }}
+              initial={{ width: 0 }}
+              animate={{ width: `${Math.max(0, Math.min(10, value)) * 10}%` }}
               transition={{ duration: 0.55, delay: index * 0.05 }}
               style={{
-                display: 'block',
+                position: 'absolute',
+                inset: '0 auto 0 0',
                 height: '100%',
-                width: `${Math.min(100, value * 10)}%`,
-                transformOrigin: 'left center',
                 borderRadius: 999,
-                background: COLORS[index % COLORS.length],
+                background: `linear-gradient(90deg, ${COLORS[index % COLORS.length]}, color-mix(in srgb, ${COLORS[index % COLORS.length]} 72%, var(--surface-raised)))`,
+                boxShadow: `0 0 18px color-mix(in srgb, ${COLORS[index % COLORS.length]} 30%, transparent)`,
+              }}
+            />
+            <span
+              aria-hidden="true"
+              style={{
+                position: 'absolute',
+                inset: 0,
+                background:
+                  'repeating-linear-gradient(90deg, transparent 0, transparent calc(10% - 1px), color-mix(in srgb, var(--surface-raised) 72%, transparent) calc(10% - 1px), color-mix(in srgb, var(--surface-raised) 72%, transparent) 10%)',
+                opacity: 0.55,
               }}
             />
           </span>
-          <strong style={{ fontSize: '0.8rem', color: 'var(--ink-700)' }}>{value}</strong>
+          <strong style={{ justifySelf: 'end', minWidth: 34, textAlign: 'center', borderRadius: 999, padding: '2px 8px', fontSize: '0.78rem', color: 'var(--ink-800)', background: 'var(--surface-raised)', border: '1px solid var(--ink-100)' }}>
+            {value}/10
+          </strong>
         </div>
       ))}
     </div>
@@ -590,7 +604,7 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
   ];
 
   return (
-    <div className="grid xl:grid-cols-[360px_1fr]" style={{ gap: 18, alignItems: 'start' }}>
+    <div className="grid xl:grid-cols-[minmax(320px,360px)_minmax(0,1fr)]" style={{ gap: 18, alignItems: 'stretch', width: '100%' }}>
       <div
         style={{
           border: cardBorder,
@@ -598,17 +612,21 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
           background: 'var(--surface-raised)',
           boxShadow: cardShadow,
           overflow: 'hidden',
+          display: 'flex',
+          flexDirection: 'column',
+          height: '100%',
+          minWidth: 0,
         }}
       >
         <div style={{ padding: 14, borderBottom: '1px solid var(--ink-100)' }}>
-          <div style={{ fontSize: '0.74rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0, textTransform: 'uppercase' }}>
-            Browse episodes
+          <div style={{ fontSize: '0.78rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0 }}>
+            Browse Episodes
           </div>
           <div style={{ fontSize: '0.82rem', color: 'var(--ink-500)', marginTop: 3 }}>
             Select one item to read the full thesis.
           </div>
         </div>
-        <div style={{ maxHeight: 720, overflowY: 'auto', padding: 8 }}>
+        <div style={{ flex: '1 1 auto', maxHeight: 'min(720px, calc(100vh - 160px))', overflowY: 'auto', padding: 8 }}>
           {episodes.map((episode) => {
             const isActive = episode.id === selected.id;
             return (
@@ -663,10 +681,11 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
           boxShadow: cardShadow,
           overflow: 'hidden',
           minWidth: 0,
+          width: '100%',
         }}
       >
-        <div className="grid lg:grid-cols-[minmax(280px,0.58fr)_1fr]" style={{ minHeight: 300 }}>
-          <div style={{ position: 'relative', minHeight: 300, background: 'var(--surface-sunken)', overflow: 'hidden' }}>
+        <div className="grid" style={{ minWidth: 0 }}>
+          <div style={{ position: 'relative', minHeight: 260, aspectRatio: '16 / 9', background: 'var(--surface-sunken)', overflow: 'hidden' }}>
             {selected.thumbnail && (
               <div
                 aria-hidden="true"
@@ -696,7 +715,7 @@ function EpisodeReader({ episodes }: { episodes: Episode[] }) {
               <span>{formatDate(selected.uploadDate)}</span>
               <span>{formatDuration(selected.durationMinutes)}</span>
             </div>
-            <h3 className="font-display" style={{ margin: 0, fontSize: '2rem', lineHeight: 1.15, color: 'var(--ink-950)', fontWeight: 650 }}>
+            <h3 className="font-display" style={{ margin: 0, fontSize: '1.55rem', lineHeight: 1.18, color: 'var(--ink-950)', fontWeight: 650 }}>
               {selected.titleEn}
             </h3>
             <p style={{ margin: '12px 0 0', color: 'var(--ink-500)', fontSize: '0.95rem', lineHeight: 1.55 }}>
@@ -988,7 +1007,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
     score: 0,
     keyword: '',
     view: 'reader',
-    sort: 'alpha-desc',
+    sort: 'newest',
   });
 
   const categoryOptions = useMemo(() => entries(data.categoryCounts).map(([category]) => category), [data.categoryCounts]);
@@ -1071,7 +1090,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
   };
 
   const resetFilters = () => {
-    setFilters({ query: '', category: 'all', depth: 'all', score: 0, keyword: '', view: 'reader', sort: 'alpha-desc' });
+    setFilters({ query: '', category: 'all', depth: 'all', score: 0, keyword: '', view: 'reader', sort: 'newest' });
   };
 
   const selectCategory = (category: string) => {
@@ -1105,12 +1124,12 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
         style={{
           position: 'relative',
           overflow: 'hidden',
-          padding: '100px clamp(10px, 1.4vw, 24px) 48px',
+          padding: '108px 24px 56px',
           borderBottom: '1px solid var(--ink-100)',
         }}
       >
         <SignalField />
-        <div style={{ position: 'relative', zIndex: 1, width: '100%' }}>
+        <div style={{ position: 'relative', zIndex: 1, width: '100%', maxWidth: REPORT_MAX_WIDTH, margin: '0 auto' }}>
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <div style={{ fontSize: '0.78rem', color: 'var(--accent)', fontWeight: 800, letterSpacing: 0, textTransform: 'uppercase', marginBottom: 18 }}>
               Report VIII · Podcast Alpha Research · Zhang Xiaojun
@@ -1150,7 +1169,7 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
         </div>
       </section>
 
-      <div className="grid lg:grid-cols-[220px_1fr]" style={{ gap: 'clamp(12px, 1.2vw, 20px)', width: '100%', padding: '16px clamp(8px, 1.1vw, 18px) 70px' }}>
+      <div className="grid lg:grid-cols-[220px_minmax(0,1fr)]" style={{ gap: 20, width: '100%', maxWidth: REPORT_MAX_WIDTH, margin: '0 auto', padding: '24px 24px 72px' }}>
         <aside style={{ position: 'sticky', top: 78, alignSelf: 'start', border: cardBorder, borderRadius: 8, background: 'var(--surface-overlay)', backdropFilter: 'blur(12px)', padding: 16 }}>
           <div style={{ fontSize: '0.76rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: 0, textTransform: 'uppercase', marginBottom: 10 }}>Navigation</div>
           {['dashboard', 'alpha', 'mindmap', 'episodes'].map((id) => (
@@ -1395,7 +1414,7 @@ const sectionStyle = {
   borderRadius: 8,
   background: 'var(--surface-overlay)',
   boxShadow: cardShadow,
-  padding: 'clamp(14px, 1.35vw, 22px)',
+  padding: 'var(--space-lg)',
   backdropFilter: 'blur(10px)',
 } as const;
 
