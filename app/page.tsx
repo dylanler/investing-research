@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
+import { useEffect, useRef, useState, useMemo, useCallback, useSyncExternalStore } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
@@ -10,10 +10,25 @@ import { useInView } from 'react-intersection-observer';
 /* ══════════════════════════════════════════════════════════════════
    Theme Toggle
    ══════════════════════════════════════════════════════════════════ */
+function subscribeToClientMount() {
+  return () => {};
+}
+
+function getClientSnapshot() {
+  return true;
+}
+
+function getServerSnapshot() {
+  return false;
+}
+
+function useIsClient() {
+  return useSyncExternalStore(subscribeToClientMount, getClientSnapshot, getServerSnapshot);
+}
+
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const mounted = useIsClient();
   if (!mounted) return <div style={{ width: 36, height: 36 }} />;
 
   const isDark = theme === 'dark';
@@ -38,16 +53,22 @@ function ThemeToggle() {
 /* ══════════════════════════════════════════════════════════════════
    Particle Field (background ambience)
    ══════════════════════════════════════════════════════════════════ */
+function seededUnit(index: number, salt: number): number {
+  const value = Math.sin(index * 9283.17 + salt * 1447.31) * 10000;
+  return value - Math.floor(value);
+}
+
+const HOME_PARTICLES = Array.from({ length: 60 }, (_, i) => ({
+  id: i,
+  x: seededUnit(i, 1) * 100,
+  y: seededUnit(i, 2) * 100,
+  size: 1 + seededUnit(i, 3) * 2,
+  duration: 3 + seededUnit(i, 4) * 5,
+  delay: seededUnit(i, 5) * 4,
+}));
+
 function ParticleField() {
-  const particles = useMemo(() =>
-    Array.from({ length: 60 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: 1 + Math.random() * 2,
-      duration: 3 + Math.random() * 5,
-      delay: Math.random() * 4,
-    })), []);
+  const particles = useMemo(() => HOME_PARTICLES, []);
 
   return (
     <div className="particle-field">
@@ -223,8 +244,7 @@ function Reveal({ children, delay = 0, direction = 'up' }: {
    ══════════════════════════════════════════════════════════════════ */
 export default function Home() {
   const { ref: statsRef, inView: statsInView } = useInView({ threshold: 0.3, triggerOnce: true });
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const mounted = useIsClient();
 
   return (
     <main style={{ background: 'var(--surface-page)', minHeight: '100vh', overflow: 'hidden' }}>
@@ -248,6 +268,7 @@ export default function Home() {
           <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
           <Link href="/carbon-vs-silicon" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Carbon vs Silicon</Link>
           <Link href="/ai-passives-alpha" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Passives Alpha</Link>
+          <Link href="/blog/semiconductor-alpha-cpo" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Semi+CPO Alpha</Link>
           <Link href="/xiaojun-podcast-alpha-atlas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Podcast Alpha</Link>
           <ThemeToggle />
         </div>
@@ -278,7 +299,7 @@ export default function Home() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Investment Research &middot; Published March 16, 2026 &middot; Updated April 22, 2026
+              Investment Research &middot; Published March 16, 2026 &middot; Updated May 4, 2026
             </div>
           </Reveal>
 
@@ -308,7 +329,7 @@ export default function Home() {
               fontSize: 'var(--text-lg)', color: 'var(--ink-500)',
               lineHeight: 1.65, maxWidth: 560, margin: '0 auto var(--space-2xl)',
             }}>
-              Eight research reports spanning semiconductor bottlenecks, robotics,
+              Nine research reports spanning semiconductor bottlenecks, robotics,
               inference scaling, cross-border equity signals, and AI capital-allocation maps.
             </p>
           </Reveal>
@@ -409,7 +430,7 @@ export default function Home() {
                 fontSize: 'var(--text-xs)', color: 'var(--accent)',
                 letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700,
                 marginBottom: 'var(--space-sm)',
-              }}>Eight Research Reports</div>
+              }}>Nine Research Reports</div>
               <h2 className="font-display" style={{
                 fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)',
               }}>Choose Your Entry Point</h2>
@@ -539,8 +560,25 @@ export default function Home() {
             <Reveal direction="right" delay={0.45}>
               <ParallaxLayer speed={1.6}>
                 <TiltCard
-                  href="/xiaojun-podcast-alpha-atlas"
+                  href="/blog/semiconductor-alpha-cpo"
                   label="Report VIII"
+                  title="Unified Semiconductor + CPO Alpha"
+                  subtitle="A source-backed fusion of the CPO semiconductor and broad semiconductor-alpha bundles, with one 120-company ranking, disagreement diagnostics, relationship graphs, and source trails."
+                  accentColor="oklch(56% 0.15 335)"
+                  stats={[
+                    { label: 'Unified names', value: '120' },
+                    { label: 'Overlap', value: '80' },
+                    { label: 'Edges', value: '6,798' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
+
+            <Reveal direction="left" delay={0.5}>
+              <ParallaxLayer speed={1.7}>
+                <TiltCard
+                  href="/xiaojun-podcast-alpha-atlas"
+                  label="Report IX"
                   title="Zhang Xiaojun Podcast Alpha Atlas"
                   subtitle="An interactive corpus map of 162 Chinese-language podcast episodes, translated summaries, hidden alpha lenses, charts, mindmaps, and transcript links."
                   accentColor="oklch(62% 0.16 175)"
@@ -578,7 +616,7 @@ export default function Home() {
               { num: '03', title: 'ASML is the most asymmetric trade', body: 'A $400M EUV tool enables $14.3B downstream value. ASML captures <3% of what it creates. Pricing power inflects 2028\u20132032.', source: 'ASML 2025 Annual Report' },
               { num: '04', title: 'Robotics is escaping the teleop trap', body: 'EgoScale: 20,854h of human video with R\u00b2=0.9983 scaling law. DreamDojo: 44,711h. That\u2019s 89.4x Figure\u2019s teleop data. The scaling substrate is shifting from robot demos to human video.', source: 'NVIDIA EgoScale, DreamDojo (Feb 2026)' },
               { num: '05', title: 'Structure beats brute-force thinking', body: 'Structured test-time scaling \u2014 recursion, context isolation, verification \u2014 outperforms naive chain-of-thought. Value shifts to verifier infrastructure and recursive training flywheels.', source: 'arXiv: RLM, MiroThinker-H1, ATTS' },
-              { num: '06', title: '560+ assets and episodes mapped across the research stack', body: '100 GPU buildout equities, 100 passives residual-alpha names, 50 robotics companies, 100 test-time scaling names, 50 cross-border signal names, and 162 podcast episodes. Each is scored on chokepoint exposure, mispricing, scaling alignment, method fit, or hidden alpha.', source: 'All reports combined' },
+              { num: '06', title: '680+ assets and episodes mapped across the research stack', body: '100 GPU buildout equities, 100 passives residual-alpha names, 120 unified semiconductor/CPO alpha names, 50 robotics companies, 100 test-time scaling names, 50 cross-border signal names, and 162 podcast episodes. Each is scored on chokepoint exposure, mispricing, scaling alignment, method fit, or hidden alpha.', source: 'All reports combined' },
             ].map((item, i) => (
               <Reveal key={item.num} delay={i * 0.12}>
                 <div style={{
@@ -613,7 +651,7 @@ export default function Home() {
           <Reveal>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-2xl)' }}>
               <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>How to Navigate</div>
-              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Eight Reports, One Thesis</h2>
+              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Nine Reports, One Thesis</h2>
             </div>
           </Reveal>
           <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>

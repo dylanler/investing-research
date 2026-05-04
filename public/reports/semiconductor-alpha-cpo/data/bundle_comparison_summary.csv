@@ -1,0 +1,10 @@
+metric,value,detail
+Companies in CPO full bundle,100,Strict 50 US + 50 non-US public semiconductor-company CPO map.
+Companies in broad semiconductor-alpha bundle,100,"100 public companies across CPO, advanced packaging, wafer equipment, materials, memory and design enablement."
+Overlapping companies,80,Names matched by normalized ticker and company name.
+Unified ranking companies,120,Union of both 100-company screens after ticker/name reconciliation.
+CPO relationship edges,2000,Relationship graph with cash-flow caveats and source identifiers.
+Broad relationship edges,4798,Relationship graph with confidence labels and source notes.
+CPO source-index URLs,15,Direct source URLs carried into the blog source appendix.
+Disclosed cash-flow audit rows,8,Rows separating public dollar disclosures from inferred revenue streams.
+External cable/interconnect watchlist rows,10,CPO-adjacent public/private names outside the strict semiconductor ranking.
