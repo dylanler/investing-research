@@ -16,7 +16,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=ytd&interval=1d",
       "display": "000660",
       "company": "SK hynix",
-      "pages": "beneficiaries;bottleneck-sectors;carbon-vs-silicon;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;carbon-vs-silicon;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "000990.KS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "KRW",
+      "price": 161700.0,
+      "previous_close": 67600.0,
+      "ytd_return_pct": 119.4,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T06:30:11+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/000990.KS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/000990.KS?range=ytd&interval=1d",
+      "display": "000990.KS",
+      "company": "DB HiTek",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -107,7 +126,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=ytd&interval=1d",
       "display": "005930",
       "company": "Samsung Electronics",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -166,6 +185,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "042700.KQ",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "KRW",
+      "price": 151000.0,
+      "previous_close": 127400.0,
+      "ytd_return_pct": 4.5,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2024-07-19T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/042700.KQ/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/042700.KQ?range=ytd&interval=1d",
+      "display": "042700.KQ",
+      "company": "Hanmi Semiconductor",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "042700.KS",
       "ok": true,
       "error": "",
@@ -204,6 +242,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "084370.KQ",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "KRW",
+      "price": 132000.0,
+      "previous_close": 75000.0,
+      "ytd_return_pct": 54.21,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T06:30:06+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/084370.KQ/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/084370.KQ?range=ytd&interval=1d",
+      "display": "084370.KQ",
+      "company": "Eugene Technology",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "0981.HK",
       "ok": true,
       "error": "",
@@ -220,6 +277,25 @@
       "display": "0981.HK",
       "company": "0981.HK",
       "pages": "beneficiaries;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "108320.KS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "KRW",
+      "price": 63100.0,
+      "previous_close": 49150.0,
+      "ytd_return_pct": 25.45,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T06:30:19+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/108320.KS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/108320.KS?range=ytd&interval=1d",
+      "display": "108320.KS",
+      "company": "LX Semicon",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -368,6 +444,44 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "2337.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 154.5,
+      "previous_close": 39.45,
+      "ytd_return_pct": 256.4,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/2337.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/2337.TW?range=ytd&interval=1d",
+      "display": "2337.TW",
+      "company": "Macronix International",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "2344.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 95.4,
+      "previous_close": 82.6,
+      "ytd_return_pct": 5.07,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/2344.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/2344.TW?range=ytd&interval=1d",
+      "display": "2344.TW",
+      "company": "Winbond Electronics",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "2356.TW",
       "ok": true,
       "error": "",
@@ -404,6 +518,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "2379.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 528.0,
+      "previous_close": 489.0,
+      "ytd_return_pct": 8.31,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:08+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/2379.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/2379.TW?range=ytd&interval=1d",
+      "display": "2379.TW",
+      "company": "Realtek Semiconductor",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "2382.TW",
       "ok": true,
       "error": "",
@@ -422,6 +555,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "2408.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 237.0,
+      "previous_close": 193.0,
+      "ytd_return_pct": 14.49,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/2408.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/2408.TW?range=ytd&interval=1d",
+      "display": "2408.TW",
+      "company": "Nanya Technology",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "2454.TW",
       "ok": true,
       "error": "",
@@ -436,7 +588,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/2454.TW?range=ytd&interval=1d",
       "display": "2454.TW",
       "company": "MediaTek",
-      "pages": "signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -513,6 +665,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "3034.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 415.5,
+      "previous_close": 374.0,
+      "ytd_return_pct": 13.22,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:38+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/3034.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/3034.TW?range=ytd&interval=1d",
+      "display": "3034.TW",
+      "company": "Novatek Microelectronics",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "3037.TW",
       "ok": true,
       "error": "",
@@ -563,7 +734,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/3105.TWO?range=ytd&interval=1d",
       "display": "3105.TWO",
       "company": "Win Semi",
-      "pages": "signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -618,7 +789,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/3436.T?range=ytd&interval=1d",
       "display": "3436.T",
       "company": "3436.T",
-      "pages": "beneficiaries;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -636,7 +807,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/3443.TW?range=ytd&interval=1d",
       "display": "3443.TW",
       "company": "Global Unichip",
-      "pages": "signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -655,6 +826,25 @@
       "display": "3532.TW",
       "company": "Formosa Sumco Technology",
       "pages": "scaling",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "3661.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 4250.0,
+      "previous_close": 3510.0,
+      "ytd_return_pct": 16.92,
+      "market_cap_local": 336109000000.0,
+      "market_cap_usd": 10621044400.0,
+      "market_time": "2026-05-04T05:30:31+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/3661.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/3661.TW?range=ytd&interval=1d",
+      "display": "3661.TW",
+      "company": "Alchip Technologies",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -727,7 +917,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/4063.T?range=ytd&interval=1d",
       "display": "4063.T",
       "company": "4063.T",
-      "pages": "beneficiaries;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "4186.T",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "JPY",
+      "price": 8931.0,
+      "previous_close": 5804.0,
+      "ytd_return_pct": 48.73,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T06:30:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/4186.T/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/4186.T?range=ytd&interval=1d",
+      "display": "4186.T",
+      "company": "Tokyo Ohka Kogyo",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -767,6 +976,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "4966.TWO",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 575.0,
+      "previous_close": 584.0,
+      "ytd_return_pct": -0.69,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:22+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/4966.TWO/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/4966.TWO?range=ytd&interval=1d",
+      "display": "4966.TW",
+      "company": "Parade Technologies",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "5201.T",
       "ok": true,
       "error": "",
@@ -783,6 +1011,44 @@
       "display": "5201.T",
       "company": "5201.T",
       "pages": "bottleneck-sectors;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "5274.TWO",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 17545.0,
+      "previous_close": 7260.0,
+      "ytd_return_pct": 141.83,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:13+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/5274.TWO/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/5274.TWO?range=ytd&interval=1d",
+      "display": "5274.TW",
+      "company": "ASPEED Technology",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "5347.TWO",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 151.0,
+      "previous_close": 92.1,
+      "ytd_return_pct": 63.6,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T05:30:08+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/5347.TWO/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/5347.TWO?range=ytd&interval=1d",
+      "display": "5347.TWO",
+      "company": "Vanguard International Semiconductor",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -873,7 +1139,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6146.T?range=ytd&interval=1d",
       "display": "6146.T",
       "company": "Disco",
-      "pages": "signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "6266.T",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "JPY",
+      "price": 3030.0,
+      "previous_close": 2063.0,
+      "ytd_return_pct": 46.38,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T06:30:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/6266.T/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6266.T?range=ytd&interval=1d",
+      "display": "6266.T",
+      "company": "TOWA",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -1000,7 +1285,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6488.TWO?range=ytd&interval=1d",
       "display": "6488.TW",
       "company": "6488.TW",
-      "pages": "beneficiaries;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -1077,6 +1362,44 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "6526.T",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "JPY",
+      "price": 1927.5,
+      "previous_close": 2189.5,
+      "ytd_return_pct": -15.16,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T06:30:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/6526.T/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6526.T?range=ytd&interval=1d",
+      "display": "6526.T",
+      "company": "Socionext",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "6590.T",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "JPY",
+      "price": 4690.0,
+      "previous_close": 3788.0,
+      "ytd_return_pct": 21.06,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T06:30:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/6590.T/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6590.T?range=ytd&interval=1d",
+      "display": "6590.T",
+      "company": "Shibaura Mechatronics",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "6594.T",
       "ok": true,
       "error": "",
@@ -1127,7 +1450,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6723.T?range=ytd&interval=1d",
       "display": "6723",
       "company": "Renesas Electronics",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -1203,6 +1526,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "6770.TW",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "TWD",
+      "price": 53.1,
+      "previous_close": 39.55,
+      "ytd_return_pct": 26.13,
+      "market_cap_local": 243870000000.0,
+      "market_cap_usd": 7706292000.0,
+      "market_time": "2026-05-04T05:30:03+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/6770.TW/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6770.TW?range=ytd&interval=1d",
+      "display": "6770.TW",
+      "company": "Powerchip Semiconductor Manufacturing",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "6777.T",
       "ok": true,
       "error": "",
@@ -1254,7 +1596,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6857.T?range=ytd&interval=1d",
       "display": "6857",
       "company": "Advantest",
-      "pages": "beneficiaries;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -1346,7 +1688,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6920.T?range=ytd&interval=1d",
       "display": "6920.T",
       "company": "6920.T",
-      "pages": "beneficiaries;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -1419,7 +1761,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/6963.T?range=ytd&interval=1d",
       "display": "6963",
       "company": "ROHM",
-      "pages": "ai-passives;companies",
+      "pages": "ai-passives;bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -1589,6 +1931,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "7735.T",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "JPY",
+      "price": 10390.0,
+      "previous_close": 7620.0,
+      "ytd_return_pct": 29.88,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T06:30:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/7735.T/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/7735.T?range=ytd&interval=1d",
+      "display": "7735.T",
+      "company": "SCREEN Holdings",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "7911.T",
       "ok": true,
       "error": "",
@@ -1622,7 +1983,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/8035.T?range=ytd&interval=1d",
       "display": "8035",
       "company": "Tokyo Electron",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -1717,6 +2078,44 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "ACLS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 139.99,
+      "previous_close": 80.34,
+      "ytd_return_pct": 62.55,
+      "market_cap_local": 4302000000.0,
+      "market_cap_usd": 4302000000.0,
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/ACLS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ACLS?range=ytd&interval=1d",
+      "display": "ACLS",
+      "company": "Axcelis Technologies",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "ACMR",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 52.15,
+      "previous_close": 39.45,
+      "ytd_return_pct": 16.2,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/ACMR/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ACMR?range=ytd&interval=1d",
+      "display": "ACMR",
+      "company": "ACM Research",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "ADI",
       "ok": true,
       "error": "",
@@ -1731,7 +2130,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ADI?range=ytd&interval=1d",
       "display": "ADI",
       "company": "Analog Devices",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -1749,7 +2148,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AEHR?range=ytd&interval=1d",
       "display": "AEHR",
       "company": "Aehr Test Systems",
-      "pages": "scaling;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;scaling;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -1807,6 +2206,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "AIXA.DE",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "EUR",
+      "price": 49.12,
+      "previous_close": 17.305,
+      "ytd_return_pct": 150.74,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T10:20:52+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/AIXA.DE/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AIXA.DE?range=ytd&interval=1d",
+      "display": "AIXA.DE",
+      "company": "Aixtron",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "ALAB",
       "ok": true,
       "error": "",
@@ -1821,7 +2239,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=ytd&interval=1d",
       "display": "ALAB",
       "company": "Astera Labs",
-      "pages": "ai-passives;beneficiaries;companies;market-snapshot",
+      "pages": "ai-passives;beneficiaries;bloom-energy-alpha;companies;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -1841,6 +2259,25 @@
       "display": "ALFA.ST",
       "company": "ALFA.ST",
       "pages": "bottleneck-sectors;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "ALGM",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 48.98,
+      "previous_close": 26.38,
+      "ytd_return_pct": 82.01,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/ALGM/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALGM?range=ytd&interval=1d",
+      "display": "ALGM",
+      "company": "Allegro MicroSystems",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -1912,7 +2349,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=ytd&interval=1d",
       "display": "AMAT",
       "company": "Applied Materials",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "AMBA",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 71.56,
+      "previous_close": 70.84,
+      "ytd_return_pct": -4.79,
+      "market_cap_local": 3134000000.0,
+      "market_cap_usd": 3134000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/AMBA/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMBA?range=ytd&interval=1d",
+      "display": "AMBA",
+      "company": "Ambarella",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -1930,7 +2386,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=ytd&interval=1d",
       "display": "AMD",
       "company": "AMD",
-      "pages": "beneficiaries;companies;market-snapshot;robotics;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;companies;market-snapshot;robotics;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -1948,7 +2404,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMKR?range=ytd&interval=1d",
       "display": "AMKR",
       "company": "Amkor Technology",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2021,7 +2477,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AOSL?range=ytd&interval=1d",
       "display": "AOSL",
       "company": "Alpha & Omega Semiconductor",
-      "pages": "scaling",
+      "pages": "bloom-energy-alpha;scaling",
       "as_of": "2026-05-04"
     },
     {
@@ -2057,7 +2513,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=ytd&interval=1d",
       "display": "ARM",
       "company": "Arm Holdings",
-      "pages": "companies;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;companies;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "ASM.AS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "EUR",
+      "price": 827.0,
+      "previous_close": 517.6,
+      "ytd_return_pct": 49.33,
+      "market_cap_local": 39588000000.0,
+      "market_cap_usd": 46381300800.0,
+      "market_time": "2026-05-04T10:21:27+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/ASM.AS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ASM.AS?range=ytd&interval=1d",
+      "display": "ASMI.AS",
+      "company": "ASM International",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -2075,7 +2550,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?range=ytd&interval=1d",
       "display": "ASML",
       "company": "ASML Holding",
-      "pages": "beneficiaries;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2093,7 +2568,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ASX?range=ytd&interval=1d",
       "display": "ASX",
       "company": "ASE Technology",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -2147,7 +2622,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=ytd&interval=1d",
       "display": "AVGO",
       "company": "Broadcom",
-      "pages": "ai-passives;beneficiaries;bottleneck-sectors;carbon-vs-silicon;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "ai-passives;beneficiaries;bloom-energy-alpha;bottleneck-sectors;carbon-vs-silicon;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2201,7 +2676,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=ytd&interval=1d",
       "display": "BE",
       "company": "Bloom Energy",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -2237,7 +2712,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/BESI.AS?range=ytd&interval=1d",
       "display": "BESI.AS",
       "company": "BESI.AS",
-      "pages": "bottleneck-sectors;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;bottleneck-sectors;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2346,7 +2821,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/CAMT?range=ytd&interval=1d",
       "display": "CAMT",
       "company": "Camtek",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -2509,7 +2984,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=ytd&interval=1d",
       "display": "COHR",
       "company": "Coherent",
-      "pages": "ai-passives;beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "ai-passives;beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2527,7 +3002,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/COHU?range=ytd&interval=1d",
       "display": "COHU",
       "company": "Cohu",
-      "pages": "scaling",
+      "pages": "bloom-energy-alpha;scaling",
       "as_of": "2026-05-04"
     },
     {
@@ -2545,7 +3020,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?range=ytd&interval=1d",
       "display": "CRDO",
       "company": "Credo Technology",
-      "pages": "beneficiaries;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2564,6 +3039,25 @@
       "display": "CRNT",
       "company": "Ceragon Networks",
       "pages": "scaling",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "CRUS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 164.24,
+      "previous_close": 118.5,
+      "ytd_return_pct": 37.24,
+      "market_cap_local": 8273000000.0,
+      "market_cap_usd": 8273000000.0,
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/CRUS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRUS?range=ytd&interval=1d",
+      "display": "CRUS",
+      "company": "Cirrus Logic",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -2638,6 +3132,25 @@
       "display": "DELL",
       "company": "Dell Technologies",
       "pages": "ai-passives",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "DIOD",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 108.24,
+      "previous_close": 49.34,
+      "ytd_return_pct": 110.46,
+      "market_cap_local": 4803000000.0,
+      "market_cap_usd": 4803000000.0,
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/DIOD/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIOD?range=ytd&interval=1d",
+      "display": "DIOD",
+      "company": "Diodes Inc.",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -2745,7 +3258,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ENTG?range=ytd&interval=1d",
       "display": "ENTG",
       "company": "Entegris",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -2890,7 +3403,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/FORM?range=ytd&interval=1d",
       "display": "FORM",
       "company": "FormFactor",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -2963,7 +3476,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/GFS?range=ytd&interval=1d",
       "display": "GFS",
       "company": "GlobalFoundries",
-      "pages": "beneficiaries;companies;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;companies;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -3053,7 +3566,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMX?range=ytd&interval=1d",
       "display": "HIMX",
       "company": "Himax Technologies",
-      "pages": "scaling",
+      "pages": "bloom-energy-alpha;scaling",
       "as_of": "2026-05-04"
     },
     {
@@ -3112,6 +3625,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "ICHR",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 64.42,
+      "previous_close": 18.43,
+      "ytd_return_pct": 215.63,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/ICHR/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ICHR?range=ytd&interval=1d",
+      "display": "ICHR",
+      "company": "Ichor Holdings",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "IFX.DE",
       "ok": true,
       "error": "",
@@ -3126,7 +3658,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/IFX.DE?range=ytd&interval=1d",
       "display": "IFX",
       "company": "Infineon Technologies",
-      "pages": "ai-passives;companies",
+      "pages": "ai-passives;bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3145,6 +3677,25 @@
       "display": "IMOS",
       "company": "ChipMOS Technologies",
       "pages": "scaling",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "INDI",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 4.39,
+      "previous_close": 3.53,
+      "ytd_return_pct": 18.65,
+      "market_cap_local": 924919000.0,
+      "market_cap_usd": 924919000.0,
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/INDI/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/INDI?range=ytd&interval=1d",
+      "display": "INDI",
+      "company": "indie Semiconductor",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -3180,7 +3731,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=ytd&interval=1d",
       "display": "INTC",
       "company": "INTC",
-      "pages": "bottleneck-sectors;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;bottleneck-sectors;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -3363,7 +3914,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=ytd&interval=1d",
       "display": "KLAC",
       "company": "KLA",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -3381,7 +3932,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/KLIC?range=ytd&interval=1d",
       "display": "KLIC",
       "company": "Kulicke & Soffa",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3527,7 +4078,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=ytd&interval=1d",
       "display": "LRCX",
       "company": "Lam Research",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "LSCC",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 120.96,
+      "previous_close": 73.58,
+      "ytd_return_pct": 53.8,
+      "market_cap_local": 16319000000.0,
+      "market_cap_usd": 16319000000.0,
+      "market_time": "2026-05-01T20:00:01+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/LSCC/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/LSCC?range=ytd&interval=1d",
+      "display": "LSCC",
+      "company": "Lattice Semiconductor",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -3563,7 +4133,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?range=ytd&interval=1d",
       "display": "MCHP",
       "company": "Microchip Technology",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -3582,7 +4152,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MKSI?range=ytd&interval=1d",
       "display": "MKSI",
       "company": "MKSI",
-      "pages": "bottleneck-sectors;market-snapshot",
+      "pages": "bloom-energy-alpha;bottleneck-sectors;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -3618,7 +4188,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MPWR?range=ytd&interval=1d",
       "display": "MPWR",
       "company": "Monolithic Power Systems",
-      "pages": "ai-passives;companies",
+      "pages": "ai-passives;bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3654,7 +4224,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=ytd&interval=1d",
       "display": "MRVL",
       "company": "Marvell Technology",
-      "pages": "ai-passives;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "ai-passives;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -3726,7 +4296,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MTSI?range=ytd&interval=1d",
       "display": "MTSI",
       "company": "MACOM Technology Solutions",
-      "pages": "ai-passives;companies",
+      "pages": "ai-passives;bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3744,7 +4314,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=ytd&interval=1d",
       "display": "MU",
       "company": "Micron Technology",
-      "pages": "ai-passives;beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "ai-passives;beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -3762,7 +4332,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/MXL?range=ytd&interval=1d",
       "display": "MXL",
       "company": "MaxLinear",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3943,7 +4513,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=ytd&interval=1d",
       "display": "NVDA",
       "company": "NVIDIA",
-      "pages": "beneficiaries;carbon-vs-silicon;companies;market-snapshot;robotics;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;carbon-vs-silicon;companies;market-snapshot;robotics;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -3961,7 +4531,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVMI?range=ytd&interval=1d",
       "display": "NVMI",
       "company": "Nova",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -3997,7 +4567,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVTS?range=ytd&interval=1d",
       "display": "NVTS",
       "company": "Navitas Semiconductor",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "NXPI",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 295.24,
+      "previous_close": 217.06,
+      "ytd_return_pct": 33.42,
+      "market_cap_local": 74540000000.0,
+      "market_cap_usd": 74540000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/NXPI/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/NXPI?range=ytd&interval=1d",
+      "display": "NXPI",
+      "company": "NXP Semiconductors",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4052,7 +4641,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ON?range=ytd&interval=1d",
       "display": "ON",
       "company": "onsemi",
-      "pages": "ai-passives;companies",
+      "pages": "ai-passives;bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -4070,7 +4659,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO?range=ytd&interval=1d",
       "display": "ONTO",
       "company": "Onto Innovation",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -4107,6 +4696,25 @@
       "display": "PDFS",
       "company": "PDF Solutions",
       "pages": "scaling",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "PLAB",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 50.16,
+      "previous_close": 32.0,
+      "ytd_return_pct": 50.13,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/PLAB/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/PLAB?range=ytd&interval=1d",
+      "display": "PLAB",
+      "company": "Photronics",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4178,7 +4786,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/POWI?range=ytd&interval=1d",
       "display": "POWI",
       "company": "Power Integrations",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4268,7 +4876,26 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=ytd&interval=1d",
       "display": "QCOM",
       "company": "Qualcomm",
-      "pages": "robotics",
+      "pages": "bloom-energy-alpha;robotics",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "QRVO",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 93.5,
+      "previous_close": 84.51,
+      "ytd_return_pct": 8.38,
+      "market_cap_local": 8668000000.0,
+      "market_cap_usd": 8668000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/QRVO/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/QRVO?range=ytd&interval=1d",
+      "display": "QRVO",
+      "company": "Qorvo",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4304,7 +4931,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/RMBS?range=ytd&interval=1d",
       "display": "RMBS",
       "company": "RMBS",
-      "pages": "ai-passives;beneficiaries;bottleneck-sectors;market-snapshot",
+      "pages": "ai-passives;beneficiaries;bloom-energy-alpha;bottleneck-sectors;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -4525,6 +5152,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "SLAB",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 218.24,
+      "previous_close": 130.7,
+      "ytd_return_pct": 65.42,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/SLAB/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/SLAB?range=ytd&interval=1d",
+      "display": "SLAB",
+      "company": "Silicon Labs",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "SMCI",
       "ok": true,
       "error": "",
@@ -4580,6 +5226,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "SMTC",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 107.81,
+      "previous_close": 73.69,
+      "ytd_return_pct": 43.25,
+      "market_cap_local": 10039000000.0,
+      "market_cap_usd": 10039000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/SMTC/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/SMTC?range=ytd&interval=1d",
+      "display": "SMTC",
+      "company": "Semtech",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "SNPS",
       "ok": true,
       "error": "",
@@ -4612,7 +5277,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOI.PA?range=ytd&interval=1d",
       "display": "SOI.PA",
       "company": "SOI.PA",
-      "pages": "beneficiaries;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "beneficiaries;bloom-energy-alpha;market-snapshot;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -4648,7 +5313,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/STM?range=ytd&interval=1d",
       "display": "STM",
       "company": "STMicroelectronics",
-      "pages": "ai-passives;bottleneck-sectors;companies;market-snapshot",
+      "pages": "ai-passives;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot",
       "as_of": "2026-05-04"
     },
     {
@@ -4688,6 +5353,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "SWKS",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 69.4,
+      "previous_close": 63.41,
+      "ytd_return_pct": 7.76,
+      "market_cap_local": 10438000000.0,
+      "market_cap_usd": 10438000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/SWKS/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/SWKS?range=ytd&interval=1d",
+      "display": "SWKS",
+      "company": "Skyworks Solutions",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "SYM",
       "ok": true,
       "error": "",
@@ -4703,6 +5387,25 @@
       "display": "SYM",
       "company": "Symbotic",
       "pages": "robotics",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "SYNA",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 96.5,
+      "previous_close": 74.02,
+      "ytd_return_pct": 27.41,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/SYNA/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/SYNA?range=ytd&interval=1d",
+      "display": "SYNA",
+      "company": "Synaptics",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4756,7 +5459,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=ytd&interval=1d",
       "display": "TER",
       "company": "Teradyne",
-      "pages": "companies;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;companies;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -4793,7 +5496,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSEM?range=ytd&interval=1d",
       "display": "TSEM",
       "company": "Tower Semiconductor",
-      "pages": "signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
+      "pages": "bloom-energy-alpha;signals:twitter_ai_stock_report_2026_04_09;signals:twitter_ai_stock_report_2026_04_14",
       "as_of": "2026-05-04"
     },
     {
@@ -4829,7 +5532,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=ytd&interval=1d",
       "display": "TSM",
       "company": "TSMC",
-      "pages": "beneficiaries;bottleneck-sectors;companies;market-snapshot;robotics",
+      "pages": "beneficiaries;bloom-energy-alpha;bottleneck-sectors;companies;market-snapshot;robotics",
       "as_of": "2026-05-04"
     },
     {
@@ -4901,7 +5604,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/TXN?range=ytd&interval=1d",
       "display": "TXN",
       "company": "Texas Instruments",
-      "pages": "ai-passives",
+      "pages": "ai-passives;bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
@@ -4923,6 +5626,25 @@
       "as_of": "2026-05-04"
     },
     {
+      "symbol": "UCTT",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "USD",
+      "price": 74.61,
+      "previous_close": 25.33,
+      "ytd_return_pct": 173.1,
+      "market_cap_local": 3345000000.0,
+      "market_cap_usd": 3345000000.0,
+      "market_time": "2026-05-01T20:00:00+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/UCTT/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/UCTT?range=ytd&interval=1d",
+      "display": "UCTT",
+      "company": "Ultra Clean Holdings",
+      "pages": "bloom-energy-alpha",
+      "as_of": "2026-05-04"
+    },
+    {
       "symbol": "UMC",
       "ok": true,
       "error": "",
@@ -4937,7 +5659,7 @@
       "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/UMC?range=ytd&interval=1d",
       "display": "UMC",
       "company": "UMC",
-      "pages": "companies",
+      "pages": "bloom-energy-alpha;companies",
       "as_of": "2026-05-04"
     },
     {
@@ -5101,6 +5823,25 @@
       "display": "VST",
       "company": "VST",
       "pages": "beneficiaries;market-snapshot",
+      "as_of": "2026-05-04"
+    },
+    {
+      "symbol": "WAF.DE",
+      "ok": true,
+      "error": "",
+      "listing_status": "",
+      "currency": "EUR",
+      "price": 79.5,
+      "previous_close": 48.9,
+      "ytd_return_pct": 55.88,
+      "market_cap_local": "",
+      "market_cap_usd": "",
+      "market_time": "2026-05-04T10:18:58+00:00",
+      "quote_url": "https://finance.yahoo.com/quote/WAF.DE/",
+      "chart_url": "https://query1.finance.yahoo.com/v8/finance/chart/WAF.DE?range=ytd&interval=1d",
+      "display": "WAF.DE",
+      "company": "Siltronic",
+      "pages": "bloom-energy-alpha",
       "as_of": "2026-05-04"
     },
     {
