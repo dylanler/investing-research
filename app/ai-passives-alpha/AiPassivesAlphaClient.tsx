@@ -97,6 +97,36 @@ function formatSigned(value: number): string {
   return `${value}`;
 }
 
+function formatSignedPercent(value: number | null | undefined): string {
+  if (value === null || value === undefined || !Number.isFinite(value)) {
+    return 'n/a';
+  }
+
+  return `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
+}
+
+function formatPrice(value: number | null | undefined, currency: string): string {
+  if (value === null || value === undefined || !Number.isFinite(value)) {
+    return 'n/a';
+  }
+
+  return `${currency || ''} ${new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: value >= 100 ? 0 : 2,
+  }).format(value)}`.trim();
+}
+
+function formatMarketCap(value: number | null | undefined): string {
+  if (value === null || value === undefined || !Number.isFinite(value)) {
+    return 'n/a';
+  }
+
+  if (value >= 1000) {
+    return `$${(value / 1000).toFixed(2)}T`;
+  }
+
+  return `$${value.toFixed(value >= 10 ? 1 : 2)}B`;
+}
+
 function shortName(value: string): string {
   return value.length > 22 ? `${value.slice(0, 22)}…` : value;
 }
@@ -820,6 +850,36 @@ function RankingCard({ row, accent }: { row: RankingRow; accent: string }) {
         <BucketPill label={row.bucket} />
         <ScorePill label={row.residualUpsideLabel} />
       </div>
+      <div
+        className="grid grid-cols-3"
+        style={{
+          gap: 8,
+          marginBottom: 12,
+          fontSize: 'var(--text-xs)',
+          color: 'var(--ink-500)',
+        }}
+      >
+        {[
+          ['Price', formatPrice(row.latestPrice, row.latestCurrency)],
+          ['YTD', formatSignedPercent(row.ytdReturnPct)],
+          ['Cap', formatMarketCap(row.marketCapUsdB)],
+        ].map(([label, value]) => (
+          <div
+            key={label}
+            style={{
+              borderRadius: 12,
+              border: '1px solid color-mix(in srgb, var(--ink-950) 8%, transparent)',
+              background: 'var(--surface-sunken)',
+              padding: '8px 9px',
+            }}
+          >
+            <div style={{ color: 'var(--ink-400)', marginBottom: 2 }}>{label}</div>
+            <div style={{ color: 'var(--ink-800)', fontWeight: 700, fontFamily: 'monospace' }}>
+              {value}
+            </div>
+          </div>
+        ))}
+      </div>
       <p
         style={{
           margin: 0,
@@ -1181,7 +1241,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated April 23, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated May 4, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -1998,9 +2058,10 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             lineHeight: 1.7,
           }}
         >
-          <strong style={{ color: 'var(--ink-700)' }}>April 23 Snapshot.</strong> In the current market check,{' '}
-          <span style={{ fontFamily: 'monospace' }}>NVTS</span> was the only clear &gt;10% mover I found in the top-20
-          overall ranking, at roughly +20% versus the prior close. I left the ranking unchanged.
+          <strong style={{ color: 'var(--ink-700)' }}>May 4 Market Refresh.</strong> Latest prices and YTD returns now
+          come from Yahoo Finance chart data. The ranking logic stays residual-alpha first, but the visible cards and
+          table now expose current tape pressure so users can separate thesis quality from what the market has already
+          repriced.
         </div>
 
         <div className="grid gap-4 xl:grid-cols-[1.08fr,0.92fr]" style={{ marginBottom: 24 }}>
@@ -2328,6 +2389,23 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               align: 'right',
             },
             {
+              key: 'price',
+              label: 'Price',
+              render: (row) =>
+                formatPrice(
+                  typeof row.latestPrice === 'number' ? row.latestPrice : null,
+                  String(row.latestCurrency ?? ''),
+                ),
+              align: 'right',
+            },
+            {
+              key: 'ytd',
+              label: 'YTD',
+              render: (row) =>
+                formatSignedPercent(typeof row.ytdReturnPct === 'number' ? row.ytdReturnPct : null),
+              align: 'right',
+            },
+            {
               key: 'score',
               label: 'Score',
               render: (row) => formatScore(Number(row.residualAlphaScore)),
@@ -2357,6 +2435,9 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             layer: row.layer,
             bucket: row.bucket,
             rankChangeVsPrior: row.rankChangeVsPrior,
+            latestPrice: row.latestPrice,
+            latestCurrency: row.latestCurrency,
+            ytdReturnPct: row.ytdReturnPct,
             residualAlphaScore: row.residualAlphaScore,
             crowdingPenaltyScore: row.crowdingPenaltyScore,
             residualUpsideLabel: row.residualUpsideLabel,

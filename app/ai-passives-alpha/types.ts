@@ -28,6 +28,12 @@ export interface RankingRow {
   evidenceGrade: string;
   tags: string[];
   regionBucket: string;
+  latestPrice: number | null;
+  latestCurrency: string;
+  marketCapUsdB: number | null;
+  ytdReturnPct: number | null;
+  marketDataAsOf: string;
+  marketDataSource: string;
 }
 
 export interface DemotedRow {

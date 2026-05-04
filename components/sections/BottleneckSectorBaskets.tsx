@@ -11,6 +11,7 @@ import {
   type BottleneckStock,
   type ExposureType,
 } from '@/data/bottleneckSectors';
+import { publicMarketSnapshot } from '@/data/marketSnapshot';
 
 const themeStyles: Record<
   BottleneckTheme,
@@ -104,6 +105,7 @@ function ScoreBar({ label, value }: { label: string; value: number }) {
 
 function StockCard({ stock }: { stock: BottleneckStock }) {
   const exposureStyle = exposureStyles[stock.exposure];
+  const marketData = publicMarketSnapshot[stock.ticker];
 
   return (
     <article
@@ -176,6 +178,31 @@ function StockCard({ stock }: { stock: BottleneckStock }) {
       >
         {stock.role}
       </div>
+
+      {marketData ? (
+        <div className="grid grid-cols-2" style={{ gap: 8 }}>
+          {[
+            ['Price', marketData.price || 'n/a'],
+            ['MCap', marketData.marketCap || 'n/a'],
+          ].map(([label, value]) => (
+            <div
+              key={label}
+              style={{
+                border: '1px solid var(--ink-100)',
+                borderRadius: 10,
+                background: 'var(--surface-sunken)',
+                padding: '7px 8px',
+                fontSize: 'var(--text-xs)',
+              }}
+            >
+              <div style={{ color: 'var(--ink-400)', marginBottom: 2 }}>{label}</div>
+              <div style={{ color: 'var(--ink-800)', fontFamily: 'monospace', fontWeight: 700 }}>
+                {value}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : null}
 
       <div style={{ display: 'grid', gap: 'var(--space-xs)' }}>
         <div>

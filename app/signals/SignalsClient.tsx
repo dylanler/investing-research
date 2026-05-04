@@ -40,10 +40,14 @@ export interface SignalStock {
   evidence_titles: string;
   evidence_urls: string;
   confidence_note: string;
-  price: string;
-  ret_90: string;
-  vol_90: string;
-  market_cap: string;
+  price: string | number;
+  ret_ytd?: string | number;
+  ret_90: string | number;
+  vol_90: string | number;
+  market_cap: string | number;
+  market_data_as_of?: string;
+  market_data_source?: string;
+  listing_status?: string;
   category_label: string;
 }
 
@@ -51,6 +55,7 @@ type ParsedStock = SignalStock & {
   riskScore: number;
   hormuzScore: number;
   aiScore: number;
+  returnYtd: number;
   return90: number;
   volatility90: number;
   evidenceTitleList: string[];
@@ -366,7 +371,7 @@ const PORTFOLIOS: PortfolioConfig[] = [
   },
 ];
 
-function parseNumber(value: string) {
+function parseNumber(value: unknown) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : 0;
 }
@@ -380,6 +385,10 @@ function splitSemi(value: string) {
 
 function formatPercent(value: number) {
   return `${value.toFixed(1)}%`;
+}
+
+function formatSignedPercent(value: number) {
+  return `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
 }
 
 function formatRawPrice(value: number) {
@@ -595,6 +604,8 @@ const UNIVERSE_TABLE_HEADERS = [
   { label: 'Risk', hint: 'Internal 0-10 score for execution, valuation, cyclicality, and thesis fragility. Higher means more ways the thesis can break.' },
   { label: 'Hormuz', hint: 'Internal 0-10 score for how much a Hormuz / energy / freight shock can hit the name through shipping, chemicals, or power costs.' },
   { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
+  { label: 'Price', hint: 'Latest available public quote from the May 4, 2026 market-data refresh. Delisted names show no live quote.' },
+  { label: 'YTD', hint: 'Year-to-date share-price move from Yahoo Finance chart data where a current public listing exists.' },
   { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
   { label: '180d', hint: 'Directional six-month view from the report. This is qualitative, not a price target.' },
   { label: 'Signal', hint: 'One-line summary of what the four-account research set is actually saying about the stock.' },
@@ -641,6 +652,7 @@ export default function SignalsClient({
         riskScore: parseNumber(stock.risk),
         hormuzScore: parseNumber(stock.hormuz),
         aiScore: parseNumber(stock.ai_sensitivity),
+        returnYtd: parseNumber(stock.ret_ytd),
         return90: parseNumber(stock.ret_90) * 100,
         volatility90: parseNumber(stock.vol_90) * 100,
         evidenceTitleList: splitSemi(stock.evidence_titles),
@@ -879,7 +891,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026 &middot; Updated April 23, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated May 4, 2026
           </div>
           <h1
             className="font-display"
@@ -1543,6 +1555,22 @@ export default function SignalsClient({
                           {stock.aiScore}
                         </HoverExplain>
                       </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>
+                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the May 4, 2026 market-data refresh.`}>
+                          {stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}
+                        </HoverExplain>
+                      </td>
+                      <td
+                        style={{
+                          padding: '14px 12px',
+                          color: stock.returnYtd >= 0 ? 'var(--success)' : 'var(--danger)',
+                          fontWeight: 600,
+                        }}
+                      >
+                        <HoverExplain hint={stock.listing_status || `YTD return for ${stock.company} from Yahoo Finance chart data.`}>
+                          {stock.price ? formatSignedPercent(stock.returnYtd) : 'N/A'}
+                        </HoverExplain>
+                      </td>
                       <td
                         style={{
                           padding: '14px 12px',
@@ -2065,8 +2093,11 @@ export default function SignalsClient({
                       </div>
                       <div style={{ display: 'grid', gap: 8, color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>
                         <div>Last price: {stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}</div>
+                        <div>YTD return: {stock.price ? formatSignedPercent(stock.returnYtd) : 'N/A'}</div>
+                        <div>Market cap: {stock.market_cap ? `$${formatRawPrice(parseNumber(stock.market_cap) / 1_000_000_000)}B` : 'N/A'}</div>
                         <div>90d return: {formatPercent(stock.return90)}</div>
                         <div>90d volatility: {formatPercent(stock.volatility90)}</div>
+                        {stock.listing_status ? <div>Listing status: {stock.listing_status}</div> : null}
                         <div>Confidence: {stock.confidence} · {stock.confidence_note}</div>
                       </div>
                     </div>

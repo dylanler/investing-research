@@ -40,7 +40,7 @@ export interface BottleneckSector {
   nonUsPicks: BottleneckStock[];
 }
 
-export const bottleneckSectorAsOf = 'Apr 23, 2026';
+export const bottleneckSectorAsOf = 'May 4, 2026';
 
 export const bottleneckSectors: BottleneckSector[] = [
   {
@@ -752,13 +752,13 @@ export const bottleneckSectors: BottleneckSector[] = [
         riskWatch: 'Cyclical swings show up quickly in margins.',
       },
       {
-        company: 'Chilisin Electronics',
-        ticker: '2456.TW',
+        company: 'Yageo / Chilisin',
+        ticker: '2327.TW',
         country: 'Taiwan',
         role: 'Power inductors and magnetics',
         exposure: 'Direct',
-        whyItFits: 'Chilisin is one of the cleaner listed ways to play inductor content growth directly.',
-        riskWatch: 'Liquidity is lower for US investors than Japanese peers.',
+        whyItFits: 'Chilisin is now inside Yageo, so the current public-market expression is Yageo rather than the delisted 2456.TW line.',
+        riskWatch: 'The exposure is less pure after the acquisition because it sits inside a broader passive-components group.',
       },
       {
         company: 'Yageo',

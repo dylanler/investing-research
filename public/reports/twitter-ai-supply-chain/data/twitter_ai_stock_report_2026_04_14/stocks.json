@@ -22,11 +22,14 @@
     "evidence_titles": "Zephyr on Rubin CPX, prefill, caching, and CPO risk; Jukan on DeepSeek, Huawei, and Nvidia training workloads; Jukan on Samsung's HBM4 push versus SK hynix; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem; Alea on Sivers as the light-source chokepoint for Jabil and Marvell programs; Insane Analyst on Nvidia ISSCC disclosures being bullish for Lumentum; Insane Analyst OFC 2026 recap",
     "evidence_urls": "https://x.com/zephyr_z9/status/2022756480374509644; https://x.com/jukan05/status/2012360246128431428; https://x.com/jukan05/status/2035294342961823782; https://x.com/aleabitoreddit/status/2042335200110322131; https://x.com/aleabitoreddit/status/2041774512904294595; https://ww.twstalker.com/shantaram83; https://twstalker.com/insane_analyst",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "183.66000366210938",
+    "price": 198.45,
     "ret_90": "-0.028819189522776956",
     "vol_90": "0.3671301810074672",
-    "market_cap": "4463856713728.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 4851000000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 5.08,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/NVDA/"
   },
   {
     "company": "TSMC",
@@ -51,11 +54,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Jukan on Samsung validating Onto's hybrid-bonding inspection tools; TSMC Q4 2025 conference call; Alea on 30 U.S.-available names she likes right now; Alea on AXTI, Tower, Sivers, Coherent, and Soitec in the bottleneck hierarchy",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/jukan05/status/2038929887386362165; https://investor.tsmc.com/english/quarterly-results/2025/q4; https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041521462075633945",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "1950.0",
+    "price": 2275.0,
     "ret_90": "0.30434782608695654",
     "vol_90": "0.34123872667540217",
-    "market_cap": "50698083368960.0",
-    "category_label": "Foundry Packaging"
+    "market_cap": "",
+    "category_label": "Foundry Packaging",
+    "ret_ytd": 43.53,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/2330.TW/"
   },
   {
     "company": "Samsung Electronics",
@@ -80,11 +86,14 @@
     "evidence_titles": "Jukan on Samsung memory LTAs with Google and Microsoft; Jukan on Samsung's HBM4 push versus SK hynix; Jukan on Samsung validating Onto's hybrid-bonding inspection tools; Alea's recent five-thesis slate",
     "evidence_urls": "https://x.com/jukan05/status/2034824046987419851; https://x.com/jukan05/status/2035294342961823782; https://x.com/jukan05/status/2038929887386362165; https://x.com/aleabitoreddit/status/2041716775663055142",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "210500.0",
+    "price": 232500.0,
     "ret_90": "0.5242577842143374",
     "vol_90": "0.7535178588911069",
-    "market_cap": "1346060198871040.0",
-    "category_label": "Memory"
+    "market_cap": "",
+    "category_label": "Memory",
+    "ret_ytd": 80.93,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/005930.KS/"
   },
   {
     "company": "SK hynix",
@@ -109,11 +118,14 @@
     "evidence_titles": "Zephyr on SIMO, Phison, NAND pricing, and customer exposure; Jukan on Samsung's HBM4 push versus SK hynix; Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding; Alea's recent five-thesis slate",
     "evidence_urls": "https://x.com/zephyr_z9/status/2024157861027405978; https://x.com/jukan05/status/2035294342961823782; https://x.com/jukan05/status/2041002619553149384; https://x.com/aleabitoreddit/status/2041716775663055142",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "1033000.0",
+    "price": 1447000.0,
     "ret_90": "0.4841954022988506",
     "vol_90": "0.8843603788061748",
-    "market_cap": "706880414416896.0",
-    "category_label": "Memory"
+    "market_cap": "",
+    "category_label": "Memory",
+    "ret_ytd": 113.74,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/000660.KS/"
   },
   {
     "company": "Micron",
@@ -138,11 +150,14 @@
     "evidence_titles": "Zephyr on SIMO, Phison, NAND pricing, and customer exposure; Zephyr on spot memory versus hyperscaler/OEM contract pricing; Jukan on TrendForce's higher DRAM and NAND price forecasts; Alea's recent five-thesis slate",
     "evidence_urls": "https://x.com/zephyr_z9/status/2024157861027405978; https://x.com/zephyr_z9/status/2038020529266078104; https://x.com/jukan05/status/2037769643629396194; https://x.com/aleabitoreddit/status/2041716775663055142",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "413.0050048828125",
+    "price": 542.21,
     "ret_90": "0.21633049545161787",
     "vol_90": "0.7092890676286976",
-    "market_cap": "465641373696.0",
-    "category_label": "Memory"
+    "market_cap": 583219000000.0,
+    "category_label": "Memory",
+    "ret_ytd": 71.9,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/MU/"
   },
   {
     "company": "Applied Materials",
@@ -167,11 +182,14 @@
     "evidence_titles": "Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding",
     "evidence_urls": "https://x.com/jukan05/status/2041002619553149384",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "396.6199951171875",
+    "price": 389.08,
     "ret_90": "0.35735790057452843",
     "vol_90": "0.5635645647910833",
-    "market_cap": "314761543680.0",
-    "category_label": "Equipment"
+    "market_cap": 308778000000.0,
+    "category_label": "Equipment",
+    "ret_ytd": 44.71,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AMAT/"
   },
   {
     "company": "ASML",
@@ -196,11 +214,14 @@
     "evidence_titles": "TSMC Q4 2025 conference call; SemiAnalysis on large-scale inference economics",
     "evidence_urls": "https://investor.tsmc.com/english/quarterly-results/2025/q4; https://semianalysis.com/",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "1450.0",
+    "price": 1427.02,
     "ret_90": "0.18033003213752186",
     "vol_90": "0.4678489334690048",
-    "market_cap": "569355075584.0",
-    "category_label": "Equipment"
+    "market_cap": 549999000000.0,
+    "category_label": "Equipment",
+    "ret_ytd": 22.62,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/ASML/"
   },
   {
     "company": "BE Semiconductor",
@@ -225,11 +246,14 @@
     "evidence_titles": "Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding",
     "evidence_urls": "https://x.com/jukan05/status/2041002619553149384",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "206.10000610351562",
+    "price": 249.9,
     "ret_90": "0.36399733804325973",
     "vol_90": "0.6289247962418371",
-    "market_cap": "16229505024.0",
-    "category_label": "Equipment"
+    "market_cap": "",
+    "category_label": "Equipment",
+    "ret_ytd": 67.61,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/BESI.AS/"
   },
   {
     "company": "Tokyo Electron",
@@ -254,11 +278,14 @@
     "evidence_titles": "Jukan on China expanding advanced wafer output; TSMC Q4 2025 conference call",
     "evidence_urls": "https://x.com/jukan05/status/2026474804380053579; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "42410.0",
+    "price": 47450.0,
     "ret_90": "0.14838884375846195",
     "vol_90": "0.5066528670028339",
-    "market_cap": "19273116286976.0",
-    "category_label": "Equipment"
+    "market_cap": "",
+    "category_label": "Equipment",
+    "ret_ytd": 28.49,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/8035.T/"
   },
   {
     "company": "Disco",
@@ -283,11 +310,14 @@
     "evidence_titles": "Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding; TSMC Q4 2025 conference call",
     "evidence_urls": "https://x.com/jukan05/status/2041002619553149384; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "67450.0",
+    "price": 72250.0,
     "ret_90": "0.3199608610567515",
     "vol_90": "0.698998942297304",
-    "market_cap": "7004611936256.0",
-    "category_label": "Equipment"
+    "market_cap": 50726400000.0,
+    "category_label": "Equipment",
+    "ret_ytd": 41.39,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/6146.T/"
   },
   {
     "company": "Lasertec",
@@ -312,11 +342,14 @@
     "evidence_titles": "TSMC Q4 2025 conference call; SemiAnalysis on large-scale inference economics",
     "evidence_urls": "https://investor.tsmc.com/english/quarterly-results/2025/q4; https://semianalysis.com/",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "39940.0",
+    "price": 42930.0,
     "ret_90": "0.25953957742037215",
     "vol_90": "0.7274020290496619",
-    "market_cap": "3468706971648.0",
-    "category_label": "Equipment"
+    "market_cap": "",
+    "category_label": "Equipment",
+    "ret_ytd": 35.38,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/6920.T/"
   },
   {
     "company": "Advantest",
@@ -341,11 +374,14 @@
     "evidence_titles": "Jukan on SK hynix using BESI and AMAT for HBM5 hybrid bonding; TSMC Q4 2025 conference call",
     "evidence_urls": "https://x.com/jukan05/status/2041002619553149384; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "25220.0",
+    "price": 27815.0,
     "ret_90": "0.19102715466351827",
     "vol_90": "0.7527880020709389",
-    "market_cap": "18005157216256.0",
-    "category_label": "Equipment"
+    "market_cap": "",
+    "category_label": "Equipment",
+    "ret_ytd": 31.36,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/6857.T/"
   },
   {
     "company": "Onto Innovation",
@@ -370,11 +406,14 @@
     "evidence_titles": "Jukan on Samsung validating Onto's hybrid-bonding inspection tools",
     "evidence_urls": "https://x.com/jukan05/status/2038929887386362165",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "248.82000732421875",
+    "price": 292.92,
     "ret_90": "0.35228264850118896",
     "vol_90": "0.630301694273915",
-    "market_cap": "12366941184.0",
-    "category_label": "Equipment"
+    "market_cap": 14571000000.0,
+    "category_label": "Equipment",
+    "ret_ytd": 76.6,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/ONTO/"
   },
   {
     "company": "FormFactor",
@@ -397,13 +436,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Single direct Alea bottleneck post, but it is highly on-theme and fits the broader test / alignment constraint map.",
     "category_label": "Equipment / test",
-    "price": 128.27999877929688,
+    "price": 137.47,
     "ret_90": 0.7040382685895552,
     "vol_90": 0.7446437689951956,
-    "market_cap": 9999995468.040771,
+    "market_cap": 10709000000.0,
     "evidence": "['a_testing_bottleneck']",
     "evidence_titles": "Alea on Taiwan's CPO and silicon-photonics test bottlenecks",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2040842953883840770"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2040842953883840770",
+    "ret_ytd": 132.25,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/FORM/"
   },
   {
     "company": "Teradyne",
@@ -428,11 +470,14 @@
     "evidence_titles": "Zephyr / Collyer Bridge on analog and ceramic bottlenecks",
     "evidence_urls": "https://www.collyerbridge.com/post/apac-wrap-kyocera-6971-t-micron-mu-teradyne-ter-intel-intc-apple-aapl-and-more",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "363.4100036621094",
+    "price": 345.42,
     "ret_90": "0.6334502455994324",
     "vol_90": "0.6970209028046617",
-    "market_cap": "56895262720.0",
-    "category_label": "Equipment"
+    "market_cap": 54079000000.0,
+    "category_label": "Equipment",
+    "ret_ytd": 66.42,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/TER/"
   },
   {
     "company": "AMD",
@@ -457,11 +502,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Public quote of Jukan's custom ASIC / TPU thread",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/muhzuhair/status/2032484686228361482",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "234.3000030517578",
+    "price": 360.54,
     "ret_90": "0.11560802916563229",
     "vol_90": "0.6436842619779538",
-    "market_cap": "381988962304.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 577964000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 61.34,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AMD/"
   },
   {
     "company": "Arm",
@@ -486,11 +534,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Alea's recent five-thesis slate; Alea on 30 U.S.-available names she likes right now",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/aleabitoreddit/status/2041716775663055142; https://x.com/aleabitoreddit/status/2042187668931616964",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "149.72000122070312",
+    "price": 211.07,
     "ret_90": "0.29426003480053864",
     "vol_90": "0.6281891866703911",
-    "market_cap": "159002427392.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 224273000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 83.97,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/ARM/"
   },
   {
     "company": "Intel",
@@ -515,11 +566,14 @@
     "evidence_titles": "Zephyr on Intel's strategic miss; Jukan on the 2026 server-CPU bottleneck; Public quote of Jukan's custom ASIC / TPU thread; Alea on 30 U.S.-available names she likes right now; Alea's recent five-thesis slate",
     "evidence_urls": "https://x.com/zephyr_z9/status/1965455729944658305; https://x.com/jukan05/status/2011429601344678241; https://x.com/muhzuhair/status/2032484686228361482; https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041716775663055142",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "60.779998779296875",
+    "price": 99.61,
     "ret_90": "0.4257564451424982",
     "vol_90": "0.810443535522776",
-    "market_cap": "305202102272.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 474856000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 152.95,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/INTC/"
   },
   {
     "company": "Broadcom",
@@ -544,11 +598,14 @@
     "evidence_titles": "Public quote of Jukan's custom ASIC / TPU thread; Alea's CW laser and photonics exposure tier list; Alea on 30 U.S.-available names she likes right now; Insane Analyst OFC 2026 recap",
     "evidence_urls": "https://x.com/muhzuhair/status/2032484686228361482; https://x.com/aleabitoreddit/status/2041545598164443378; https://x.com/aleabitoreddit/status/2042187668931616964; https://twstalker.com/insane_analyst",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "357.2699890136719",
+    "price": 421.28,
     "ret_90": "0.04008730426105345",
     "vol_90": "0.4262980617427964",
-    "market_cap": "1694246633472.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 1995000000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 21.19,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AVGO/"
   },
   {
     "company": "Marvell",
@@ -573,11 +630,14 @@
     "evidence_titles": "Public quote of Jukan's custom ASIC / TPU thread; SemiAnalysis on large-scale inference economics; Alea on 30 U.S.-available names she likes right now; Alea on Coherent and Marvell as 'they do everything' longs; Alea on Sivers as the light-source chokepoint for Jabil and Marvell programs; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem; Insane Analyst OFC 2026 recap",
     "evidence_urls": "https://x.com/muhzuhair/status/2032484686228361482; https://semianalysis.com/; https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041963517071519963; https://x.com/aleabitoreddit/status/2041774512904294595; https://x.com/aleabitoreddit/status/2042335200110322131; https://twstalker.com/insane_analyst",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "119.37000274658203",
+    "price": 164.95,
     "ret_90": "0.41032612957675796",
     "vol_90": "0.6363943541903985",
-    "market_cap": "104357847040.0",
-    "category_label": "Compute Silicon"
+    "market_cap": 144242000000.0,
+    "category_label": "Compute Silicon",
+    "ret_ytd": 84.53,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/MRVL/"
   },
   {
     "company": "Credo",
@@ -602,11 +662,14 @@
     "evidence_titles": "Zephyr on Lumentum earnings and Credo/CPO risk; Insane Analyst OFC 2026 recap",
     "evidence_urls": "https://x.com/zephyr_z9/status/2019066607583084550; https://twstalker.com/insane_analyst",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "107.6449966430664",
+    "price": 184.38,
     "ret_90": "-0.2365603074959829",
     "vol_90": "0.8890544375182247",
-    "market_cap": "19855112192.0",
-    "category_label": "Networking Optics"
+    "market_cap": 34009000000.0,
+    "category_label": "Networking Optics",
+    "ret_ytd": 28.74,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/CRDO/"
   },
   {
     "company": "Alphabet",
@@ -631,11 +694,14 @@
     "evidence_titles": "Jukan on Samsung memory LTAs with Google and Microsoft; Jukan follow-up on upfront memory prepayments; Alea on 30 U.S.-available names she likes right now; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem",
     "evidence_urls": "https://x.com/jukan05/status/2034824046987419851; https://x.com/jukan05/status/2034824813160931672; https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2042335200110322131",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "319.39990234375",
+    "price": 385.69,
     "ret_90": "-0.008013257203993596",
     "vol_90": "0.2752636655188341",
-    "market_cap": "3863449174016.0",
-    "category_label": "Hyperscaler"
+    "market_cap": 4673000000000.0,
+    "category_label": "Hyperscaler",
+    "ret_ytd": 22.38,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/GOOGL/"
   },
   {
     "company": "Microsoft",
@@ -660,11 +726,14 @@
     "evidence_titles": "Jukan on Samsung memory LTAs with Google and Microsoft; Jukan follow-up on upfront memory prepayments; Alea on Microsoft Quantum and Riber",
     "evidence_urls": "https://x.com/jukan05/status/2034824046987419851; https://x.com/jukan05/status/2034824813160931672; https://x.com/aleabitoreddit/status/2042161215968051652",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "372.3699951171875",
+    "price": 414.195,
     "ret_90": "-0.2297971039009692",
     "vol_90": "0.3215787122183025",
-    "market_cap": "2767594455040.0",
-    "category_label": "Hyperscaler"
+    "market_cap": 3077000000000.0,
+    "category_label": "Hyperscaler",
+    "ret_ytd": -12.42,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/MSFT/"
   },
   {
     "company": "Amazon",
@@ -689,11 +758,14 @@
     "evidence_titles": "Jukan on DeepSeek, Huawei, and Nvidia training workloads; Public quote of Jukan's custom ASIC / TPU thread; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem",
     "evidence_urls": "https://x.com/jukan05/status/2012360246128431428; https://x.com/muhzuhair/status/2032484686228361482; https://x.com/aleabitoreddit/status/2042335200110322131",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "231.17990112304688",
+    "price": 268.42,
     "ret_90": "-0.04297109016582534",
     "vol_90": "0.322527983580252",
-    "market_cap": "2481591681024.0",
-    "category_label": "Hyperscaler"
+    "market_cap": 2851000000000.0,
+    "category_label": "Hyperscaler",
+    "ret_ytd": 18.51,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AMZN/"
   },
   {
     "company": "Nebius Group",
@@ -716,13 +788,16 @@
     "180d": "Neutral",
     "confidence_note": "Direct Alea references plus the Jensen quote made the stock too frequent to ignore, even though it is a different style of AI exposure than the hardware tollbooths.",
     "category_label": "AI cloud / neocloud",
-    "price": 161.94000244140625,
+    "price": 154.49,
     "ret_90": 0.5588390923749018,
     "vol_90": 1.0859740971184615,
-    "market_cap": 40973568901.457214,
+    "market_cap": 39089000000.0,
     "evidence": "['a_nbis', 'a_thesis_posts', 'a_top30']",
     "evidence_titles": "Alea on Nebius and Jensen's nod to NBIS; Alea's recent five-thesis slate; Alea on 30 U.S.-available names she likes right now",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041553933664145620; https://x.com/aleabitoreddit/status/2041716775663055142; https://x.com/aleabitoreddit/status/2042187668931616964"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041553933664145620; https://x.com/aleabitoreddit/status/2041716775663055142; https://x.com/aleabitoreddit/status/2042187668931616964",
+    "ret_ytd": 71.75,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/NBIS/"
   },
   {
     "company": "Lumentum",
@@ -747,11 +822,14 @@
     "evidence_titles": "Zephyr on Lumentum earnings and Credo/CPO risk; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem; Alea's CW laser and photonics exposure tier list; Insane Analyst on Nvidia ISSCC disclosures being bullish for Lumentum; Insane Analyst OFC 2026 recap",
     "evidence_urls": "https://x.com/zephyr_z9/status/2019066607583084550; https://x.com/aleabitoreddit/status/2042335200110322131; https://x.com/aleabitoreddit/status/2041545598164443378; https://ww.twstalker.com/shantaram83; https://twstalker.com/insane_analyst",
     "confidence_note": "Now backed by direct Zephyr evidence, multiple Alea posts, and recent public Insane captures. One of the strongest four-account overlaps in the report.",
-    "price": "884.1599731445312",
+    "price": 949.93,
     "ret_90": "1.2504580588372187",
     "vol_90": "1.046720499244883",
-    "market_cap": "63058337792.0",
-    "category_label": "Networking Optics"
+    "market_cap": 67825000000.0,
+    "category_label": "Networking Optics",
+    "ret_ytd": 146.03,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/LITE/"
   },
   {
     "company": "Coherent",
@@ -774,13 +852,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Direct Alea coverage across multiple posts, plus cross-checks from the wider optical supply-chain discussion.",
     "category_label": "Networking / optics",
-    "price": 313.4200134277344,
+    "price": 329.5,
     "ret_90": 0.5994080561824919,
     "vol_90": 0.83982535592134,
-    "market_cap": 58760564571.29651,
+    "market_cap": 61775000000.0,
     "evidence": "['a_top30', 'a_cohr_mrvl', 'a_photonics_tierlist']",
     "evidence_titles": "Alea on 30 U.S.-available names she likes right now; Alea on Coherent and Marvell as 'they do everything' longs; Alea's CW laser and photonics exposure tier list",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041963517071519963; https://x.com/aleabitoreddit/status/2041545598164443378"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041963517071519963; https://x.com/aleabitoreddit/status/2041545598164443378",
+    "ret_ytd": 69.56,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/COHR/"
   },
   {
     "company": "Applied Optoelectronics",
@@ -803,13 +884,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Direct multi-post Alea reconstruction from public X status pages and Buzzberg summaries. One of the highest-frequency names in the revised 90-day set.",
     "category_label": "Networking / optics",
-    "price": 146.38999938964844,
+    "price": 183.44,
     "ret_90": 2.9564864699904985,
     "vol_90": 1.8374562514495134,
-    "market_cap": 11370861501.340866,
+    "market_cap": 14684000000.0,
     "evidence": "['a_top30', 'a_amzn_trainium', 'a_photonics_tierlist']",
     "evidence_titles": "Alea on 30 U.S.-available names she likes right now; Alea on Anthropic Mythos, Trainium, and the Amazon optical ecosystem; Alea's CW laser and photonics exposure tier list",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2042335200110322131; https://x.com/aleabitoreddit/status/2041545598164443378"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2042335200110322131; https://x.com/aleabitoreddit/status/2041545598164443378",
+    "ret_ytd": 363.23,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AAOI/"
   },
   {
     "company": "Aehr Test Systems",
@@ -832,13 +916,16 @@
     "180d": "Neutral",
     "confidence_note": "Direct multi-post Alea reconstruction with repeated focus on hyperscaler qualification, optical test, and volume-ramp timing.",
     "category_label": "Equipment / test",
-    "price": 74.37999725341797,
+    "price": 93.07,
     "ret_90": 1.80361836895311,
     "vol_90": 1.463190573659121,
-    "market_cap": 2339492946.1310577,
+    "market_cap": 2927000000.0,
     "evidence": "['a_top30', 'a_testing_bottleneck', 'a_aehr_volume', 'a_thesis_posts']",
     "evidence_titles": "Alea on 30 U.S.-available names she likes right now; Alea on Taiwan's CPO and silicon-photonics test bottlenecks; Alea on AEHR's hyperscaler volume-ramp setup; Alea's recent five-thesis slate",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2040842953883840770; https://x.com/aleabitoreddit/status/2041612047058924009; https://x.com/aleabitoreddit/status/2041716775663055142"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2040842953883840770; https://x.com/aleabitoreddit/status/2041612047058924009; https://x.com/aleabitoreddit/status/2041716775663055142",
+    "ret_ytd": 319.99,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AEHR/"
   },
   {
     "company": "AXT",
@@ -861,13 +948,16 @@
     "180d": "Neutral",
     "confidence_note": "Direct Alea coverage with repeated emphasis on InP materials, precursor refining, and the geopolitical risk embedded in the chain.",
     "category_label": "Materials / substrates",
-    "price": 67.30000305175781,
+    "price": 96.0,
     "ret_90": 1.6166409350102082,
     "vol_90": 1.7963678632213833,
-    "market_cap": 3740439882.3124237,
+    "market_cap": 6281000000.0,
     "evidence": "['a_top30', 'a_axti', 'a_soi_bottleneck', 'a_thesis_posts']",
     "evidence_titles": "Alea on 30 U.S.-available names she likes right now; Alea on AXTI as the top InP substrate bottleneck; Alea on AXTI, Tower, Sivers, Coherent, and Soitec in the bottleneck hierarchy; Alea's recent five-thesis slate",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041521940096307530; https://x.com/aleabitoreddit/status/2041521462075633945; https://x.com/aleabitoreddit/status/2041716775663055142"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041521940096307530; https://x.com/aleabitoreddit/status/2041521462075633945; https://x.com/aleabitoreddit/status/2041716775663055142",
+    "ret_ytd": 472.79,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AXTI/"
   },
   {
     "company": "Sivers Semiconductors",
@@ -890,13 +980,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Heavy Alea repetition and direct public status URLs make the stock real to the revised set, but the name remains small-cap, cross-listed, and highly thesis-dependent.",
     "category_label": "Networking / optics",
-    "price": 16.850000381469727,
+    "price": 48.48,
     "ret_90": 3.639317324628429,
     "vol_90": 2.154499177382265,
-    "market_cap": 4732694625.96,
+    "market_cap": "",
     "evidence": "['a_sive_jbl_mrvl', 'a_photonics_tierlist', 'a_europe_photonics', 'a_thesis_posts']",
     "evidence_titles": "Alea on Sivers as the light-source chokepoint for Jabil and Marvell programs; Alea's CW laser and photonics exposure tier list; Alea on the European photonics rebound; Alea's recent five-thesis slate",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041774512904294595; https://x.com/aleabitoreddit/status/2041545598164443378; https://x.com/aleabitoreddit/status/2041791434525962584; https://x.com/aleabitoreddit/status/2041716775663055142"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041774512904294595; https://x.com/aleabitoreddit/status/2041545598164443378; https://x.com/aleabitoreddit/status/2041791434525962584; https://x.com/aleabitoreddit/status/2041716775663055142",
+    "ret_ytd": 1032.71,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/SIVE.ST/"
   },
   {
     "company": "Tower Semiconductor",
@@ -919,13 +1012,16 @@
     "180d": "Bullish",
     "confidence_note": "Direct Alea coverage across multiple posts and consistent placement inside the photonics foundry thesis.",
     "category_label": "Foundry / specialty photonics",
-    "price": 214.11000061035156,
+    "price": 218.01,
     "ret_90": 0.7266935533092869,
     "vol_90": 0.8247346261266755,
-    "market_cap": 25391563189.042328,
+    "market_cap": 25941000000.0,
     "evidence": "['a_top30', 'a_thesis_posts', 'a_soi_bottleneck']",
     "evidence_titles": "Alea on 30 U.S.-available names she likes right now; Alea's recent five-thesis slate; Alea on AXTI, Tower, Sivers, Coherent, and Soitec in the bottleneck hierarchy",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041716775663055142; https://x.com/aleabitoreddit/status/2041521462075633945"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042187668931616964; https://x.com/aleabitoreddit/status/2041716775663055142; https://x.com/aleabitoreddit/status/2041521462075633945",
+    "ret_ytd": 79.08,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/TSEM/"
   },
   {
     "company": "Soitec",
@@ -948,13 +1044,16 @@
     "180d": "Bullish",
     "confidence_note": "Direct Alea coverage and clear relevance to SiPh/CPO, but still partly a catch-up thesis versus the better-known transceiver names.",
     "category_label": "Materials / wafers",
-    "price": 64.63999938964844,
+    "price": 146.2,
     "ret_90": 1.2889518382984395,
     "vol_90": 0.9661832790597289,
-    "market_cap": 2582009339.28,
+    "market_cap": "",
     "evidence": "['a_soi_bottleneck', 'a_europe_photonics', 'a_thesis_posts']",
     "evidence_titles": "Alea on AXTI, Tower, Sivers, Coherent, and Soitec in the bottleneck hierarchy; Alea on the European photonics rebound; Alea's recent five-thesis slate",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041521462075633945; https://x.com/aleabitoreddit/status/2041791434525962584; https://x.com/aleabitoreddit/status/2041716775663055142"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041521462075633945; https://x.com/aleabitoreddit/status/2041791434525962584; https://x.com/aleabitoreddit/status/2041716775663055142",
+    "ret_ytd": 487.86,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/SOI.PA/"
   },
   {
     "company": "Riber",
@@ -977,13 +1076,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Direct Alea discovery post, but still discovery-stage and dependent on the Microsoft / quantum supplier linkage remaining real.",
     "category_label": "Quantum / MBE equipment",
-    "price": 11.279999732971191,
+    "price": 13.72,
     "ret_90": 1.9841269360708327,
     "vol_90": 1.0980820707780379,
-    "market_cap": 247000896.04,
+    "market_cap": 320105548.2,
     "evidence": "['a_riber_msft']",
     "evidence_titles": "Alea on Microsoft Quantum and Riber",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2042161215968051652"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2042161215968051652",
+    "ret_ytd": 283.24,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/ALRIB.PA/"
   },
   {
     "company": "POET Technologies",
@@ -1006,13 +1108,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Direct Alea coverage with explicit upside and downside framing; still a high-speculation name with customer concentration risk.",
     "category_label": "Networking / optics",
-    "price": 6.710000038146973,
+    "price": 7.31,
     "ret_90": -0.19253914568917996,
     "vol_90": 1.0338925152829805,
-    "market_cap": 1024692043.7554693,
+    "market_cap": 1116000000.0,
     "evidence": "['a_poet', 'a_photonics_tierlist']",
     "evidence_titles": "Alea on POET's asymmetry inside Marvell's Celestial chain; Alea's CW laser and photonics exposure tier list",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041624683729310123; https://x.com/aleabitoreddit/status/2041545598164443378"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041624683729310123; https://x.com/aleabitoreddit/status/2041545598164443378",
+    "ret_ytd": 2.09,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/POET/"
   },
   {
     "company": "Win Semi",
@@ -1035,13 +1140,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Direct Alea status URLs and repeated mentions, but still less broadly covered than the larger listed optics names.",
     "category_label": "Compound-semiconductor foundry",
-    "price": 457.0,
+    "price": 524.0,
     "ret_90": 1.1206496519721578,
     "vol_90": 0.9301114663478417,
-    "market_cap": 193740755488.0,
+    "market_cap": "",
     "evidence": "['a_winsemi', 'a_thesis_posts']",
     "evidence_titles": "Alea on Win Semi as a sleeper compound-semiconductor pick; Alea's recent five-thesis slate",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041363738327204264; https://x.com/aleabitoreddit/status/2041716775663055142"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041363738327204264; https://x.com/aleabitoreddit/status/2041716775663055142",
+    "ret_ytd": 192.74,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/3105.TWO/"
   },
   {
     "company": "Global Unichip",
@@ -1066,11 +1174,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "2510.0",
+    "price": 4685.0,
     "ret_90": "0.23950617283950626",
     "vol_90": "0.6830731074418782",
-    "market_cap": "355799203840.0",
-    "category_label": "Compute Silicon"
+    "market_cap": "",
+    "category_label": "Compute Silicon",
+    "ret_ytd": 114.42,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/3443.TW/"
   },
   {
     "company": "MediaTek",
@@ -1095,11 +1206,14 @@
     "evidence_titles": "Public quote of Jukan's custom ASIC / TPU thread; Jukan on the 2026 server-CPU bottleneck",
     "evidence_urls": "https://x.com/muhzuhair/status/2032484686228361482; https://x.com/jukan05/status/2011429601344678241",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "1580.0",
+    "price": 2870.0,
     "ret_90": "0.14492753623188404",
     "vol_90": "0.5004337298945799",
-    "market_cap": "2513873666048.0",
-    "category_label": "Compute Silicon"
+    "market_cap": "",
+    "category_label": "Compute Silicon",
+    "ret_ytd": 95.24,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/2454.TW/"
   },
   {
     "company": "UMC",
@@ -1124,11 +1238,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Jukan on China expanding advanced wafer output",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/jukan05/status/2026474804380053579",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "60.29999923706055",
+    "price": 81.2,
     "ret_90": "0.2145014578827471",
     "vol_90": "0.6209639944052765",
-    "market_cap": "755289358336.0",
-    "category_label": "Foundry Packaging"
+    "market_cap": "",
+    "category_label": "Foundry Packaging",
+    "ret_ytd": 66.74,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/2303.TW/"
   },
   {
     "company": "ASE Technology",
@@ -1153,11 +1270,14 @@
     "evidence_titles": "Jukan on Samsung validating Onto's hybrid-bonding inspection tools; TSMC Q4 2025 conference call; Alea on Taiwan's CPO and silicon-photonics test bottlenecks",
     "evidence_urls": "https://x.com/jukan05/status/2038929887386362165; https://investor.tsmc.com/english/quarterly-results/2025/q4; https://x.com/aleabitoreddit/status/2040842953883840770",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "383.0",
+    "price": 525.0,
     "ret_90": "0.6332622601279319",
     "vol_90": "0.6268586974585014",
-    "market_cap": "1717295644672.0",
-    "category_label": "Foundry Packaging"
+    "market_cap": "",
+    "category_label": "Foundry Packaging",
+    "ret_ytd": 103.49,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/3711.TW/"
   },
   {
     "company": "Amkor",
@@ -1182,11 +1302,14 @@
     "evidence_titles": "Jukan on Samsung validating Onto's hybrid-bonding inspection tools; TSMC Q4 2025 conference call",
     "evidence_urls": "https://x.com/jukan05/status/2038929887386362165; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "55.060001373291016",
+    "price": 71.09,
     "ret_90": "0.04438543434003139",
     "vol_90": "0.7373225685301895",
-    "market_cap": "13644486656.0",
-    "category_label": "Foundry Packaging"
+    "market_cap": 17621000000.0,
+    "category_label": "Foundry Packaging",
+    "ret_ytd": 65.63,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/AMKR/"
   },
   {
     "company": "Ibiden",
@@ -1211,11 +1334,14 @@
     "evidence_titles": "Jukan on Samsung validating Onto's hybrid-bonding inspection tools; TSMC Q4 2025 conference call",
     "evidence_urls": "https://x.com/jukan05/status/2038929887386362165; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "9794.0",
+    "price": 13375.0,
     "ret_90": "0.3682592903045543",
     "vol_90": "0.8226178250440288",
-    "market_cap": "2739401916416.0",
-    "category_label": "Substrate Pcb"
+    "market_cap": "",
+    "category_label": "Substrate Pcb",
+    "ret_ytd": 86.85,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/4062.T/"
   },
   {
     "company": "Unimicron",
@@ -1240,11 +1366,14 @@
     "evidence_titles": "Zephyr / Collyer Bridge APAC on optical-transceiver PCB suppliers; TSMC Q4 2025 conference call",
     "evidence_urls": "https://www.collyerbridge.com/post/apac-roundup-micron-mu-boe-000725-sz-sabic-2010-sr-foxconn-2317-tt-and-more; https://investor.tsmc.com/english/quarterly-results/2025/q4",
     "confidence_note": "Named in the same in-range tweet thread, attached note, or public quote of the thread.",
-    "price": "620.0",
+    "price": 911.0,
     "ret_90": "1.8571428571428572",
     "vol_90": "0.9157486977018566",
-    "market_cap": "984117673984.0",
-    "category_label": "Substrate Pcb"
+    "market_cap": "",
+    "category_label": "Substrate Pcb",
+    "ret_ytd": 315.98,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/3037.TW/"
   },
   {
     "company": "Shinko Electric",
@@ -1273,7 +1402,10 @@
     "ret_90": "",
     "vol_90": "",
     "market_cap": "",
-    "category_label": "Substrate Pcb"
+    "category_label": "Substrate Pcb",
+    "listing_status": "Delisted June 6, 2025 after the JICC-04 / JIC Capital tender offer; no current public stock price exists.",
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://www.shinko.co.jp/english/ir/faq/"
   },
   {
     "company": "Hon Hai / Foxconn",
@@ -1298,11 +1430,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Jukan on Samsung memory LTAs with Google and Microsoft; SemiAnalysis on large-scale inference economics",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/jukan05/status/2034824046987419851; https://semianalysis.com/",
     "confidence_note": "First-order supply-chain expansion from the exact tweet thesis; included to reach a 50-stock investor universe.",
-    "price": "201.5",
+    "price": 227.5,
     "ret_90": "-0.1004464285714286",
     "vol_90": "0.37837988274772644",
-    "market_cap": "2792547680256.0",
-    "category_label": "Systems Odm"
+    "market_cap": "",
+    "category_label": "Systems Odm",
+    "ret_ytd": -1.94,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/2317.TW/"
   },
   {
     "company": "Quanta",
@@ -1327,11 +1462,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Jukan on Samsung memory LTAs with Google and Microsoft; SemiAnalysis on large-scale inference economics",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/jukan05/status/2034824046987419851; https://semianalysis.com/",
     "confidence_note": "First-order supply-chain expansion from the exact tweet thesis; included to reach a 50-stock investor universe.",
-    "price": "307.5",
+    "price": 318.0,
     "ret_90": "0.1647727272727273",
     "vol_90": "0.33162869179443677",
-    "market_cap": "1206464282624.0",
-    "category_label": "Systems Odm"
+    "market_cap": "",
+    "category_label": "Systems Odm",
+    "ret_ytd": 14.8,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/2382.TW/"
   },
   {
     "company": "Wiwynn",
@@ -1356,11 +1494,14 @@
     "evidence_titles": "Jukan on the 2026 server-CPU bottleneck; Jukan on Samsung memory LTAs with Google and Microsoft",
     "evidence_urls": "https://x.com/jukan05/status/2011429601344678241; https://x.com/jukan05/status/2034824046987419851",
     "confidence_note": "First-order supply-chain expansion from the exact tweet thesis; included to reach a 50-stock investor universe.",
-    "price": "3570.0",
+    "price": 4860.0,
     "ret_90": "-0.15801886792452835",
     "vol_90": "0.5052827308423228",
-    "market_cap": "665310003200.0",
-    "category_label": "Systems Odm"
+    "market_cap": "",
+    "category_label": "Systems Odm",
+    "ret_ytd": 8.48,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/6669.TW/"
   },
   {
     "company": "Celestica",
@@ -1385,11 +1526,14 @@
     "evidence_titles": "Zephyr on Lumentum earnings and Credo/CPO risk; SemiAnalysis on large-scale inference economics",
     "evidence_urls": "https://x.com/zephyr_z9/status/2019066607583084550; https://semianalysis.com/",
     "confidence_note": "First-order supply-chain expansion from the exact tweet thesis; included to reach a 50-stock investor universe.",
-    "price": "325.57000732421875",
+    "price": 418.93,
     "ret_90": "0.06440648812082284",
     "vol_90": "0.7526979905697583",
-    "market_cap": "37502672896.0",
-    "category_label": "Systems Odm"
+    "market_cap": 48166000000.0,
+    "category_label": "Systems Odm",
+    "ret_ytd": 38.54,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/CLS/"
   },
   {
     "company": "Jabil",
@@ -1412,13 +1556,16 @@
     "180d": "Moderately bullish",
     "confidence_note": "Jabil is mostly a second-order beneficiary in the revised feed, but Alea referenced it often enough to make the final 50 on optical-manufacturing importance.",
     "category_label": "Systems / manufacturing",
-    "price": 305.9700012207031,
+    "price": 342.47,
     "ret_90": 0.20850782080764185,
     "vol_90": 0.4620533873067142,
-    "market_cap": 32308983972.890472,
+    "market_cap": 35955000000.0,
     "evidence": "['a_sive_jbl_mrvl', 'a_top30']",
     "evidence_titles": "Alea on Sivers as the light-source chokepoint for Jabil and Marvell programs; Alea on 30 U.S.-available names she likes right now",
-    "evidence_urls": "https://x.com/aleabitoreddit/status/2041774512904294595; https://x.com/aleabitoreddit/status/2042187668931616964"
+    "evidence_urls": "https://x.com/aleabitoreddit/status/2041774512904294595; https://x.com/aleabitoreddit/status/2042187668931616964",
+    "ret_ytd": 42.46,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/JBL/"
   },
   {
     "company": "Silicon Motion",
@@ -1443,10 +1590,13 @@
     "evidence_titles": "Zephyr on SIMO, Phison, NAND pricing, and customer exposure",
     "evidence_urls": "https://x.com/zephyr_z9/status/2024157861027405978",
     "confidence_note": "Direct in-range mention or direct quote-tweet recovery.",
-    "price": "127.20999908447266",
+    "price": 234.52,
     "ret_90": "0.05019402269393791",
     "vol_90": "0.5426043376089764",
-    "market_cap": "4323062784.0",
-    "category_label": "Controller Storage"
+    "market_cap": 7970000000.0,
+    "category_label": "Controller Storage",
+    "ret_ytd": 150.13,
+    "market_data_as_of": "2026-05-04",
+    "market_data_source": "https://finance.yahoo.com/quote/SIMO/"
   }
 ]

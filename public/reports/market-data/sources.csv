@@ -1,0 +1,5 @@
+source_id,title,url,used_for
+YF-CHART,Yahoo Finance chart endpoint,https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d,"Latest price, trading currency, latest market timestamp, YTD return calculation."
+YF-QUOTE,Yahoo Finance quote page,https://finance.yahoo.com/quote/{symbol}/,Displayed market-cap field where available.
+YF-FX,Yahoo Finance FX chart endpoint,https://query1.finance.yahoo.com/v8/finance/chart/{currency}USD=X?range=5d&interval=1d,Currency conversion to USD for non-USD market caps.
+SHINKO-DELISTING,Shinko Electric Industries investor-relations FAQ,https://www.shinko.co.jp/english/ir/faq/,"Confirmation that Shinko Electric Industries shares were delisted on June 6, 2025."

@@ -10,7 +10,9 @@ import { publicMarketSnapshot, publicMarketSnapshotAsOf } from '@/data/marketSna
 function exchangeFromTicker(ticker: string): string {
   if (ticker.endsWith('.T')) return 'TSE';
   if (ticker.endsWith('.TW')) return 'TWSE';
+  if (ticker.endsWith('.TWO')) return 'TPEX';
   if (ticker.endsWith('.KS')) return 'KRX';
+  if (ticker.endsWith('.TO')) return 'TSX';
   if (ticker.endsWith('.HK')) return 'HKEX';
   if (ticker.endsWith('.SW')) return 'SIX';
   if (ticker.endsWith('.DE')) return 'XETRA';
@@ -137,6 +139,7 @@ export default function BeneficiaryTables() {
                 .filter((c) => c.isPublic)
                 .map((company) => {
                   const marketData = company.ticker ? publicMarketSnapshot[company.ticker] : undefined;
+                  const displayMarketCap = marketData?.marketCap || company.marketCap;
 
                   return (
                     <div
@@ -221,7 +224,7 @@ export default function BeneficiaryTables() {
                               marginTop: marketData?.price ? '2px' : 0,
                             }}
                           >
-                            MCap {marketData?.marketCap ?? company.marketCap}
+                            MCap {displayMarketCap}
                           </div>
                         </div>
                       </div>

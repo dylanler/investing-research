@@ -104,6 +104,13 @@ async function loadReportData(): Promise<SemiconductorAlphaCpoData> {
     cpoExposure1To5: optionalNumber(row.cpo_exposure_1_to_5),
     alphaOptionalityBUsd: optionalNumber(row.alpha_optionality_b_usd),
     alphaOptionalPctOfMarketCap: optionalNumber(row.alpha_optional_pct_of_market_cap),
+    latestPrice: optionalNumber(row.latest_price),
+    latestCurrency: row.latest_currency,
+    latestMarketCapBUsd: optionalNumber(row.latest_market_cap_b_usd),
+    latestYtdReturnPct: optionalNumber(row.latest_ytd_return_pct),
+    marketDataAsOf: row.market_data_as_of,
+    marketDataSource: row.market_data_source,
+    priorUnifiedRank: optionalNumber(row.prior_unified_rank),
     cpoDirectConnectionCount: optionalNumber(row.cpo_direct_connection_count),
     broadConnectionCount: optionalNumber(row.broad_connection_count),
     cpoSpecificPublicCount: optionalNumber(row.cpo_specific_public_count),
@@ -196,6 +203,14 @@ async function loadReportData(): Promise<SemiconductorAlphaCpoData> {
     note: row.note,
     usedFor: row.used_for,
   })) as SourceRow[];
+  sources.push({
+    sourceId: 'YF-CHART',
+    bundle: 'Market data',
+    title: 'Yahoo Finance chart endpoint',
+    url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
+    note: 'May 4, 2026 refresh for latest public prices and YTD returns.',
+    usedFor: 'Latest price and current-market rerank context.',
+  });
 
   const cashFlowAudit = parseCsvObjects(cashFlowAuditCsv).map((row) => ({
     pair: row.pair,

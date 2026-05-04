@@ -22,6 +22,13 @@ export interface UnifiedRankingRow {
   cpoExposure1To5: number | null;
   alphaOptionalityBUsd: number | null;
   alphaOptionalPctOfMarketCap: number | null;
+  latestPrice: number | null;
+  latestCurrency: string;
+  latestMarketCapBUsd: number | null;
+  latestYtdReturnPct: number | null;
+  marketDataAsOf: string;
+  marketDataSource: string;
+  priorUnifiedRank: number | null;
   cpoDirectConnectionCount: number | null;
   broadConnectionCount: number | null;
   cpoSpecificPublicCount: number | null;

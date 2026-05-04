@@ -37,8 +37,33 @@ const SHORT_BUCKET: Record<string, string> = {
   'Storage & AI data platforms': 'Storage',
 };
 
-type SortKey = 'ytdReturn' | 'company' | 'bucket' | 'country';
+const HERO_PARTICLES = Array.from({ length: 25 }, (_, index) => ({
+  left: `${(index * 37) % 100}%`,
+  top: `${(index * 53) % 100}%`,
+  duration: 3 + ((index * 17) % 40) / 10,
+  delay: ((index * 11) % 30) / 10,
+}));
+
+type SortKey = 'ytdReturn' | 'latestPrice' | 'marketCapUsd' | 'company' | 'bucket' | 'country' | 'listing';
 type SortDir = 'asc' | 'desc';
+
+function formatPrice(value: number | undefined, currency: string | undefined) {
+  if (value === undefined) return 'n/a';
+  return `${currency || ''} ${new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: value >= 100 ? 0 : 2,
+  }).format(value)}`.trim();
+}
+
+function formatMarketCap(value: number | undefined) {
+  if (!value) return 'n/a';
+  if (value >= 1_000_000_000_000) return `$${(value / 1_000_000_000_000).toFixed(2)}T`;
+  if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(1)}B`;
+  return `$${(value / 1_000_000).toFixed(0)}M`;
+}
+
+function jitter(index: number) {
+  return (((index * 37) % 100) / 100 - 0.5) * 0.3;
+}
 
 function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   return (
@@ -87,7 +112,7 @@ export default function CompaniesPage() {
   const riskPortfolios = portfolios.filter(p => p.riskProfile === riskLevel);
 
   const scatterData = companies100.map(c => ({
-    x: c.chokepointScore + (Math.random() - 0.5) * 0.3,
+    x: c.chokepointScore + jitter(c.bucketRank),
     y: c.ytdReturn,
     z: c.directnessScore * 20,
     company: c.company,
@@ -118,16 +143,16 @@ export default function CompaniesPage() {
       {/* HERO */}
       <section ref={heroRef} style={{ padding: 'var(--space-5xl) var(--space-lg) var(--space-3xl)', position: 'relative' }}>
         <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
-          {Array.from({ length: 25 }).map((_, i) => (
-            <motion.div key={i} style={{ position: 'absolute', left: `${Math.random() * 100}%`, top: `${Math.random() * 100}%`, width: 2, height: 2, borderRadius: '50%', background: 'var(--accent)' }}
+          {HERO_PARTICLES.map((particle, i) => (
+            <motion.div key={i} style={{ position: 'absolute', left: particle.left, top: particle.top, width: 2, height: 2, borderRadius: '50%', background: 'var(--accent)' }}
               animate={{ opacity: [0.05, 0.25, 0.05], scale: [1, 1.5, 1] }}
-              transition={{ duration: 3 + Math.random() * 4, repeat: Infinity, delay: Math.random() * 3 }} />
+              transition={{ duration: particle.duration, repeat: Infinity, delay: particle.delay }} />
           ))}
         </div>
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated April 23, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated May 4, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -148,7 +173,7 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated Apr 23' },
+              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated May 4' },
               { val: overviewStats.meanYtd, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
@@ -185,7 +210,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: StockAnalysis and Investing.com history snapshots, Mar 27 vs Apr 23 2026. Median YTD return by bucket.
+              Source: Yahoo Finance chart data refreshed May 4, 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -304,7 +329,9 @@ export default function CompaniesPage() {
                     { key: 'company' as SortKey, label: 'Company' },
                     { key: 'bucket' as SortKey, label: 'Sector' },
                     { key: 'country' as SortKey, label: 'Country' },
-                    { key: 'listing' as unknown as SortKey, label: 'Exchange' },
+                    { key: 'listing' as SortKey, label: 'Exchange' },
+                    { key: 'latestPrice' as SortKey, label: 'Price' },
+                    { key: 'marketCapUsd' as SortKey, label: 'Cap' },
                     { key: 'ytdReturn' as SortKey, label: 'YTD %' },
                   ].map(col => (
                     <th
@@ -334,6 +361,8 @@ export default function CompaniesPage() {
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{SHORT_BUCKET[c.bucket] || c.bucket}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.country}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.listing}</td>
+                    <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>{formatPrice(c.latestPrice, c.latestCurrency)}</td>
+                    <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>{formatMarketCap(c.marketCapUsd)}</td>
                     <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 600, fontSize: 'var(--text-sm)', color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)' }}>
                       {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}%
                     </td>
@@ -363,6 +392,9 @@ export default function CompaniesPage() {
                       <span style={{ fontFamily: 'monospace', color: 'var(--accent)', fontSize: 'var(--text-sm)' }}>{c.ticker}</span>
                       <span style={{ fontFamily: 'monospace', fontWeight: 600, color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)', fontSize: 'var(--text-sm)' }}>
                         {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}% YTD
+                      </span>
+                      <span style={{ fontFamily: 'monospace', color: 'var(--ink-500)', fontSize: 'var(--text-sm)' }}>
+                        {formatPrice(c.latestPrice, c.latestCurrency)} / {formatMarketCap(c.marketCapUsd)}
                       </span>
                     </div>
                     <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', marginBottom: 'var(--space-lg)' }}>{c.snapshot}</p>
@@ -484,7 +516,7 @@ export default function CompaniesPage() {
                 &ldquo;The highest-median-return bucket is HBM & AI memory at +92.4%. The lowest is power, cooling & electrical at +27.0%. The market is rotating from the obvious GPU trade into the supply chain that feeds it.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Updated price snapshots, Mar 27 vs Apr 23 2026
+                Source: Yahoo Finance chart data refreshed May 4, 2026
               </cite>
             </blockquote>
           </Reveal>
@@ -513,7 +545,7 @@ export default function CompaniesPage() {
       <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-2xl) var(--space-lg)' }}>
         <div className="max-w-5xl mx-auto">
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)' }}>
-            This is investment analysis, not personalized financial advice. YTD returns estimated from public market-cap snapshots (Yahoo Finance). Past performance does not guarantee future results. Prepared March 2026.
+            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed May 4, 2026 where a current public listing exists. Past performance does not guarantee future results.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
             <a href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</a>

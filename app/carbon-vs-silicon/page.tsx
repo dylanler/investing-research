@@ -33,6 +33,15 @@ function toNumber(value: string): number {
   return Number.parseFloat(value);
 }
 
+function toOptionalNumber(value: string): number | null {
+  if (!value) {
+    return null;
+  }
+
+  const parsed = Number.parseFloat(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
 function parseSourceTags(value: string): string[] {
   return value.trim() ? value.trim().split(/\s+/) : [];
 }
@@ -136,6 +145,12 @@ async function loadReportData(): Promise<ReportData> {
     whyItFits: row.why_it_fits,
     riskWatch: row.risk_watch,
     sourceTags: parseSourceTags(row.source_tags),
+    latestPrice: toOptionalNumber(row.latest_price),
+    latestCurrency: row.latest_currency,
+    marketCapUsdB: toOptionalNumber(row.market_cap_usd_b),
+    ytdReturnPct: toOptionalNumber(row.ytd_return_pct),
+    marketDataAsOf: row.market_data_as_of,
+    marketDataSource: row.market_data_source,
   })) as StockRecommendationRow[];
 
   const sources = parseCsvObjects(sourcesCsv).map((row) => ({
@@ -144,6 +159,12 @@ async function loadReportData(): Promise<ReportData> {
     url: row.url,
     usedFor: row.used_for,
   })) as SourceRow[];
+  sources.push({
+    tag: 'YF',
+    title: 'Yahoo Finance chart endpoint',
+    url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
+    usedFor: 'May 4, 2026 latest prices and YTD return refresh for public stock-exposure proxies.',
+  });
 
   const humanTotalPce = sum(humanPartition.map((row) => row.spend2025));
   const humanTotalPcePrev = sum(humanPartition.map((row) => row.spend2024));

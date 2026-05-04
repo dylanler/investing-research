@@ -89,6 +89,24 @@ function formatMoney(value: number | null): string {
   return `$${(value * 1000).toFixed(0)}M`;
 }
 
+function formatPrice(value: number | null, currency: string): string {
+  if (value === null) {
+    return 'n/a';
+  }
+
+  return `${currency || ''} ${new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: value >= 100 ? 0 : 2,
+  }).format(value)}`.trim();
+}
+
+function formatPercent(value: number | null): string {
+  if (value === null) {
+    return 'n/a';
+  }
+
+  return `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
+}
+
 function shortName(value: string, length = 24): string {
   return value.length > length ? `${value.slice(0, length - 1)}...` : value;
 }
@@ -1186,10 +1204,10 @@ function RankingExplorer({ data }: { data: SemiconductorAlphaCpoData }) {
         <Reveal>
           <Panel style={{ overflow: 'hidden' }}>
             <div style={{ maxHeight: 680, overflow: 'auto' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 980 }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1120 }}>
                 <thead style={{ position: 'sticky', top: 0, zIndex: 2, background: 'var(--surface-overlay)' }}>
                   <tr>
-                    {['Rank', 'Name', 'Unified', 'CPO', 'Broad', 'Lens', 'Coverage', 'Cap'].map((header) => (
+                    {['Rank', 'Name', 'Unified', 'CPO', 'Broad', 'Lens', 'Coverage', 'Price', 'YTD', 'Cap'].map((header) => (
                       <th
                         key={header}
                         style={{
@@ -1238,7 +1256,9 @@ function RankingExplorer({ data }: { data: SemiconductorAlphaCpoData }) {
                           {row.coverage}
                         </span>
                       </td>
-                      <td style={tableCellStyle}>{formatMoney(row.marketCapBUsd)}</td>
+                      <td style={tableCellStyle}>{formatPrice(row.latestPrice, row.latestCurrency)}</td>
+                      <td style={tableCellStyle}>{formatPercent(row.latestYtdReturnPct)}</td>
+                      <td style={tableCellStyle}>{formatMoney(row.latestMarketCapBUsd ?? row.marketCapBUsd)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -1328,9 +1348,12 @@ function CompanyDetail({ row }: { row: UnifiedRankingRow }) {
       <div className="grid grid-cols-2" style={{ gap: 10, marginTop: 16 }}>
         {[
           ['Unified rank', formatRank(row.unifiedRank)],
+          ['Prior rank', formatRank(row.priorUnifiedRank)],
           ['CPO rank', formatRank(row.cpoRank)],
           ['Broad rank', formatRank(row.broadRank)],
-          ['Market cap', formatMoney(row.marketCapBUsd)],
+          ['Latest price', formatPrice(row.latestPrice, row.latestCurrency)],
+          ['YTD', formatPercent(row.latestYtdReturnPct)],
+          ['Market cap', formatMoney(row.latestMarketCapBUsd ?? row.marketCapBUsd)],
         ].map(([label, value]) => (
           <div key={label} style={{ border: '1px solid var(--ink-100)', borderRadius: 8, padding: 10 }}>
             <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', fontWeight: 800 }}>{label}</div>

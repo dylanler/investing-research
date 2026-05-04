@@ -110,6 +110,28 @@ function formatPercent(value: number, digits = 1): string {
   return `${value > 0 ? '+' : ''}${formatter.format(value)}%`;
 }
 
+function formatOptionalPercent(value: number | null, digits = 1): string {
+  return value === null ? 'n/a' : formatPercent(value, digits);
+}
+
+function formatPrice(value: number | null, currency: string): string {
+  if (value === null) {
+    return 'n/a';
+  }
+
+  return `${currency || ''} ${new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: value >= 100 ? 0 : 2,
+  }).format(value)}`.trim();
+}
+
+function formatMarketCap(value: number | null): string {
+  if (value === null) {
+    return 'n/a';
+  }
+
+  return value >= 1000 ? `$${(value / 1000).toFixed(2)}T` : `$${value.toFixed(value >= 10 ? 1 : 2)}B`;
+}
+
 function truncate(value: string, max = 28): string {
   if (value.length <= max) {
     return value;
@@ -1322,6 +1344,27 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
       render: (row) => <code style={{ fontSize: '0.78rem' }}>{row.ticker}</code>,
     },
     {
+      key: 'price',
+      label: 'Price',
+      align: 'right',
+      sortValue: (row) => row.latestPrice ?? -1,
+      render: (row) => formatPrice(row.latestPrice, row.latestCurrency),
+    },
+    {
+      key: 'ytd',
+      label: 'YTD',
+      align: 'right',
+      sortValue: (row) => row.ytdReturnPct ?? -999,
+      render: (row) => formatOptionalPercent(row.ytdReturnPct),
+    },
+    {
+      key: 'cap',
+      label: 'Cap',
+      align: 'right',
+      sortValue: (row) => row.marketCapUsdB ?? -1,
+      render: (row) => formatMarketCap(row.marketCapUsdB),
+    },
+    {
       key: 'focus',
       label: 'Exposure',
       sortValue: (row) => row.businessFocus,
@@ -1436,7 +1479,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-                  <TonePill tone="neutral">Published April 20, 2026 · Updated April 23, 2026</TonePill>
+                  <TonePill tone="neutral">Published April 20, 2026 · Updated May 4, 2026</TonePill>
                 </div>
 
                 <div
@@ -1452,7 +1495,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                   }}
                 >
                   <div style={{ marginBottom: 8 }}>
-                    <TonePill tone="neutral">April 23 Update</TonePill>
+                    <TonePill tone="neutral">May 4 Market Refresh</TonePill>
                   </div>
                   Vertiv reported Q1 net sales of $2.65B (+30%) and raised full-year guidance; GE Vernova reported
                   $18.3B of Q1 orders, including $2.4B of data-center electrification orders, and also raised
@@ -2379,6 +2422,36 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                         </div>
                         <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-800)', marginBottom: 8 }}>
                           {stock.businessFocus}
+                        </div>
+                        <div
+                          className="grid grid-cols-3"
+                          style={{
+                            gap: 8,
+                            marginBottom: 12,
+                            fontSize: 'var(--text-xs)',
+                            color: 'var(--ink-500)',
+                          }}
+                        >
+                          {[
+                            ['Price', formatPrice(stock.latestPrice, stock.latestCurrency)],
+                            ['YTD', formatOptionalPercent(stock.ytdReturnPct)],
+                            ['Cap', formatMarketCap(stock.marketCapUsdB)],
+                          ].map(([label, value]) => (
+                            <div
+                              key={label}
+                              style={{
+                                padding: '7px 8px',
+                                borderRadius: 10,
+                                border: '1px solid var(--ink-100)',
+                                background: 'var(--surface-raised)',
+                              }}
+                            >
+                              <div style={{ color: 'var(--ink-400)' }}>{label}</div>
+                              <div style={{ color: 'var(--ink-800)', fontWeight: 800, fontFamily: 'monospace' }}>
+                                {value}
+                              </div>
+                            </div>
+                          ))}
                         </div>
                         <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', marginBottom: 10 }}>
                           {stock.headlineFact}

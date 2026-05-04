@@ -31,6 +31,15 @@ function toNumber(value: string): number {
   return Number.parseFloat(value);
 }
 
+function toOptionalNumber(value: string): number | null {
+  if (!value) {
+    return null;
+  }
+
+  const parsed = Number.parseFloat(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
 function toPercentNumber(value: string): number {
   return Number.parseFloat(value.replace('%', ''));
 }
@@ -47,7 +56,7 @@ function formatGeneratedDate(): string {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
-  }).format(new Date(Date.UTC(2026, 3, 22)));
+  }).format(new Date(Date.UTC(2026, 4, 4)));
 }
 
 function parseRankingRows(csv: string): RankingRow[] {
@@ -81,6 +90,12 @@ function parseRankingRows(csv: string): RankingRow[] {
     evidenceGrade: row.evidence_grade,
     tags: parseTags(row.tags),
     regionBucket: row.region_bucket || row.region,
+    latestPrice: toOptionalNumber(row.latest_price),
+    latestCurrency: row.latest_currency,
+    marketCapUsdB: toOptionalNumber(row.market_cap_usd_b),
+    ytdReturnPct: toOptionalNumber(row.ytd_return_pct),
+    marketDataAsOf: row.market_data_as_of,
+    marketDataSource: row.market_data_source,
   }));
 }
 
@@ -173,6 +188,12 @@ async function loadReportData(): Promise<ReportData> {
     url: row.url,
     usedFor: row.used_for,
   })) as SourceRow[];
+  sources.push({
+    type: 'Market data',
+    title: 'Yahoo Finance chart endpoint',
+    url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
+    usedFor: 'May 4, 2026 latest prices and YTD return refresh for public tickers.',
+  });
 
   const topCategory = [...bottleneckCategories].sort(
     (left, right) => right.avgLtWeeks - left.avgLtWeeks,

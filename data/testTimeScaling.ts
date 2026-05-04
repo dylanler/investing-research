@@ -582,7 +582,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Taiwan",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1460526976,
+    "marketCapUsd": 2006000000,
     "whyFits": "Edge AI vision/display chips and interface silicon",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -593,7 +593,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 2094777880,
+    "marketCapUsd": 2150000000,
     "whyFits": "Test and inspection gear; verification layer for chip manufacturing",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -604,7 +604,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1734519820,
+    "marketCapUsd": 1855000000,
     "whyFits": "Yield analytics / process data software for fabs",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -615,7 +615,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1672323300,
+    "marketCapUsd": 1631000000,
     "whyFits": "US specialty foundry leverage in sovereign AI supply chains",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -637,7 +637,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Germany",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1250116674,
+    "marketCapUsd": 1158453610,
     "whyFits": "Advanced packaging and lithography process tools",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -659,7 +659,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 2988465200,
+    "marketCapUsd": 2927000000,
     "whyFits": "Burn-in / reliability testing for power and AI-adjacent chips",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -670,7 +670,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Canada",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 838384384,
+    "marketCapUsd": 1116000000,
     "whyFits": "Optical interposer/packaging for AI networking bottlenecks",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -692,7 +692,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 723081750,
+    "marketCapUsd": 1777000000,
     "whyFits": "Power semiconductors for AI power-density growth; very high risk",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -714,7 +714,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1212914880,
+    "marketCapUsd": 1293000000,
     "whyFits": "Power semiconductors and power management",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -736,7 +736,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Israel",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 128457104,
+    "marketCapUsd": 242700000,
     "whyFits": "High-speed connectivity silicon",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -1033,7 +1033,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "electricity",
-    "marketCapUsd": 1993676450,
+    "marketCapUsd": 2190000000,
     "whyFits": "Long-duration storage optionality",
     "keyRisk": "Permitting, leverage, project execution, and power-price/regulatory exposure"
   },

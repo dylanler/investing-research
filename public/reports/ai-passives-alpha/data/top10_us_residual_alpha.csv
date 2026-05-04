@@ -1,11 +1,11 @@
-rank_revised,company,ticker,layer,residual_alpha_score,alpha_revision_note
-1,CTS Corp,CTS,Passives / sensing,100.0,Direct passive/power bottleneck supplier with lower crowding and better residual upside.
-2,Vishay Intertechnology,VSH,Passives,79.3,"Direct bottleneck exposure remains attractive, though less hidden than Tier A names."
-3,Benchmark Electronics,BHE,EMS / industrial electronics,71.0,Underfollowed integration/power proxy with more room left than headline AI winners.
-4,Power Integrations,POWI,Power semis,65.6,"Direct bottleneck exposure remains attractive, though less hidden than Tier A names."
-5,Plexus,PLXS,EMS,63.4,"Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names."
-6,Vishay Precision Group,VPG,Current sensing,58.4,"Strategically important, but the stock already rerated; no longer top residual alpha."
-7,Littelfuse,LFUS,Protection / sensing,58.4,"Strategically important, but the stock already rerated; no longer top residual alpha."
-8,Jabil,JBL,Power / cooling / EMS,50.3,"Strategically important, but the stock already rerated; no longer top residual alpha."
-9,Regal Rexnord,RRX,Magnetics / industrial,49.9,"Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names."
-10,Sanmina,SANM,EMS / integration,46.6,"Strategically important, but the stock already rerated; no longer top residual alpha."
+rank_revised,company,ticker,layer,residual_alpha_score,alpha_revision_note,latest_price,latest_currency,market_cap_usd_b,ytd_return_pct,market_data_as_of,market_data_source
+1,CTS Corp,CTS,Passives / sensing,100.0,Direct passive/power bottleneck supplier with lower crowding and better residual upside.,57.0,USD,,29.99,2026-05-04,https://finance.yahoo.com/quote/CTS/
+2,Vishay Intertechnology,VSH,Passives,79.3,"Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",29.58,USD,4.03,93.46,2026-05-04,https://finance.yahoo.com/quote/VSH/
+3,Benchmark Electronics,BHE,EMS / industrial electronics,71.0,Underfollowed integration/power proxy with more room left than headline AI winners.,84.5,USD,,92.48,2026-05-04,https://finance.yahoo.com/quote/BHE/
+4,Power Integrations,POWI,Power semis,65.6,"Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",73.32,USD,4.08,96.57,2026-05-04,https://finance.yahoo.com/quote/POWI/
+5,Plexus,PLXS,EMS,63.4,"Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",264.6,USD,7.09,73.82,2026-05-04,https://finance.yahoo.com/quote/PLXS/
+6,Vishay Precision Group,VPG,Current sensing,58.4,"Strategically important, but the stock already rerated; no longer top residual alpha.",60.22,USD,,53.31,2026-05-04,https://finance.yahoo.com/quote/VPG/
+7,Littelfuse,LFUS,Protection / sensing,58.4,"Strategically important, but the stock already rerated; no longer top residual alpha.",407.08,USD,10.24,55.05,2026-05-04,https://finance.yahoo.com/quote/LFUS/
+8,Jabil,JBL,Power / cooling / EMS,50.3,"Strategically important, but the stock already rerated; no longer top residual alpha.",342.47,USD,35.95,42.46,2026-05-04,https://finance.yahoo.com/quote/JBL/
+9,Regal Rexnord,RRX,Magnetics / industrial,49.9,"Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",213.02,USD,,45.8,2026-05-04,https://finance.yahoo.com/quote/RRX/
+10,Sanmina,SANM,EMS / integration,46.6,"Strategically important, but the stock already rerated; no longer top residual alpha.",223.27,USD,11.68,40.17,2026-05-04,https://finance.yahoo.com/quote/SANM/
