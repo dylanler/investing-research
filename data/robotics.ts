@@ -120,15 +120,15 @@ export interface AlphaCompany {
 }
 
 export const topAlpha: AlphaCompany[] = [
-  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$4.85T', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
-  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.47T', keyFact: 'FSD→Optimus transfer, highest variance play' },
+  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$4.82T', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
+  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.46T', keyFact: 'FSD→Optimus transfer, highest variance play' },
   { rank: 3, company: 'Figure AI', type: 'Private', alpha: 111, valuation: '$39B', keyFact: 'Helix 02, BMW: 1,250+ hrs, 90K+ parts handled, $2B raised' },
-  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$4.67T', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
+  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$4.64T', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
   { rank: 5, company: 'Skild AI', type: 'Private', alpha: 107, valuation: '>$14B', keyFact: 'Omni-bodied intelligence, $1.7B+ raised' },
-  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.85T', keyFact: 'Warehouse robotics at scale + Digit deployment' },
+  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.93T', keyFact: 'Warehouse robotics at scale + Digit deployment' },
   { rank: 7, company: 'Scale AI', type: 'Private', alpha: 105, valuation: 'up to $25B', keyFact: 'Robotics data labeling + EgoVerse partner' },
   { rank: 8, company: 'Physical Intelligence', type: 'Private', alpha: 100, valuation: '>$11B (reported)', keyFact: 'pi0: 10,000+ hrs robot data, $600M raised' },
-  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$3.08T', keyFact: 'Azure robotics + OpenAI robotics alignment' },
+  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$3.06T', keyFact: 'Azure robotics + OpenAI robotics alignment' },
   { rank: 10, company: '1X Technologies', type: 'Private', alpha: 99, valuation: '>$125M raised', keyFact: '14B world model, 900h human + 70h robot data' },
 ];
 
@@ -142,19 +142,19 @@ export interface PublicCompany {
 }
 
 export const publicCompanies: PublicCompany[] = [
-  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$4.85T', alpha: 111 },
-  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.47T', alpha: 111 },
-  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$4.67T', alpha: 108 },
-  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.85T', alpha: 105 },
-  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$3.08T', alpha: 99 },
+  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$4.82T', alpha: 111 },
+  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.46T', alpha: 111 },
+  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$4.64T', alpha: 108 },
+  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.93T', alpha: 105 },
+  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$3.06T', alpha: 99 },
   { company: 'Symbotic', ticker: 'SYM', country: 'US', marketCap: '~$36.5B', alpha: 97 },
   { company: 'Hon Hai (Foxconn)', ticker: '2317.TW', country: 'Taiwan', marketCap: '', alpha: 97 },
-  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$2.06T', alpha: 92 },
-  { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '~$162.1B', alpha: 86 },
+  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$2.08T', alpha: 92 },
+  { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '~$160.2B', alpha: 86 },
   { company: 'Hyundai Motor', ticker: '005380.KS', country: 'South Korea', marketCap: '', alpha: 86 },
   { company: 'UBTECH Robotics', ticker: '9880.HK', country: 'China', marketCap: '', alpha: 85 },
-  { company: 'AMD', ticker: 'AMD', country: 'US', marketCap: '~$578.0B', alpha: 80 },
-  { company: 'Qualcomm', ticker: 'QCOM', country: 'US', marketCap: '~$186.6B', alpha: 79 },
+  { company: 'AMD', ticker: 'AMD', country: 'US', marketCap: '~$556.9B', alpha: 80 },
+  { company: 'Qualcomm', ticker: 'QCOM', country: 'US', marketCap: '~$196.6B', alpha: 79 },
   { company: 'ABB', ticker: 'ABBN.SW', country: 'Switzerland', marketCap: '', alpha: 79 },
   { company: 'Fanuc', ticker: '6954.T', country: 'Japan', marketCap: '', alpha: 77 },
   { company: 'Serve Robotics', ticker: 'SERV', country: 'US', marketCap: '', alpha: 75 },
@@ -166,7 +166,7 @@ export const publicCompanies: PublicCompany[] = [
   { company: 'BMW', ticker: 'BMW.DE', country: 'Germany', marketCap: '', alpha: 65 },
   { company: 'Cognex', ticker: 'CGNX', country: 'US', marketCap: '', alpha: 64 },
   { company: 'Nidec', ticker: '6594.T', country: 'Japan', marketCap: '', alpha: 62 },
-  { company: 'Ouster', ticker: 'OUST', country: 'US', marketCap: '~$1.7B', alpha: 57 },
+  { company: 'Ouster', ticker: 'OUST', country: 'US', marketCap: '~$1.8B', alpha: 57 },
 ];
 
 // Full private companies list

@@ -636,6 +636,11 @@ function FusionMethod({ data }: { data: SemiconductorAlphaCpoData }) {
                   color: COLORS.amber,
                 },
                 {
+                  label: 'Subtract current rerating',
+                  body: 'The May 5 refresh applies a YTD price-rerating penalty before final ranks are assigned, so very large stock moves push names toward watchlist status unless the base score is still strong.',
+                  color: COLORS.green,
+                },
+                {
                   label: 'Expose disagreement',
                   body: 'Rank gaps are first-class. A large CPO-over-broad gap often means direct optical/CPO optionality; a broad-over-CPO gap often means materials, specialty foundry, equipment or packaging alpha.',
                   color: COLORS.rose,

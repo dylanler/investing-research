@@ -1241,7 +1241,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated May 4, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated May 5, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -1470,7 +1470,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               lineHeight: 1.8,
             }}
           >
-            Bottleneck severity + centrality + catalyst + AI relevance + bottleneck closeness + hiddenness/focus bonus, minus crowding penalty.
+            Bottleneck severity + centrality + catalyst + AI relevance + bottleneck closeness + hiddenness/focus bonus, minus crowding and current-price rerating penalties.
           </p>
           <div className="flex flex-wrap gap-2" style={{ marginTop: 14 }}>
             {[
@@ -1481,6 +1481,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               'closeness',
               'hiddenness',
               'crowding penalty',
+              'price rerating penalty',
             ].map((item) => (
               <span
                 key={item}

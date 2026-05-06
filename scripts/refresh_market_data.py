@@ -14,6 +14,7 @@ import gzip
 import html
 import json
 import math
+import os
 import re
 import time
 import urllib.error
@@ -24,9 +25,13 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = "2026-05-04"
+MARKET_DATA_ZONE = ZoneInfo("America/Los_Angeles")
+AS_OF = os.environ.get("MARKET_DATA_AS_OF") or datetime.now(MARKET_DATA_ZONE).date().isoformat()
+AS_OF_DATE = datetime.strptime(AS_OF, "%Y-%m-%d").date()
+AS_OF_LABEL = f"{AS_OF_DATE:%B} {AS_OF_DATE.day}, {AS_OF_DATE.year}"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 MARKET_DATA_DIR = ROOT / "public" / "reports" / "market-data"
@@ -89,6 +94,7 @@ LISTING_SUFFIXES = {
     "SSE": ".SS",
     "Shanghai Stock Exchange": ".SS",
     "Shenzhen Stock Exchange": ".SZ",
+    "TPEx": ".TWO",
     "SGX": ".SI",
     "ASX": ".AX",
     "Australian Securities Exchange": ".AX",
@@ -342,7 +348,25 @@ def collect_all_refs() -> list[TickerRef]:
     refs.extend(collect_bottleneck_sectors())
     refs.extend(collect_signals())
     refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_top100_master.csv", "ai-passives"))
-    refs.extend(collect_csv("public/reports/semiconductor-alpha-cpo/data/unified_alpha_ranking.csv", "semiconductor-alpha-cpo", listing_col=""))
+    refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_us_residual_alpha_50.csv", "ai-passives"))
+    refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_non_us_residual_alpha_50.csv", "ai-passives"))
+    refs.extend(
+        collect_csv(
+            "public/reports/semiconductor-alpha-cpo/data/unified_alpha_ranking.csv",
+            "semiconductor-alpha-cpo",
+            company_col="name",
+            listing_col="",
+        )
+    )
+    refs.extend(
+        collect_csv(
+            "public/reports/semiconductor-ai-nodes/data/semiconductor_100_alpha_rankings_v2.csv",
+            "semiconductor-ai-nodes",
+            ticker_col="symbol",
+            company_col="name",
+            listing_col="exchange",
+        )
+    )
     refs.extend(collect_csv("public/reports/carbon-vs-silicon/stock_recommendations.csv", "carbon-vs-silicon"))
 
     # Preserve one representative ref per Yahoo symbol but keep all page memberships.
@@ -534,6 +558,85 @@ def market(symbol: str, market_rows: dict[str, dict[str, object]]) -> dict[str, 
     return None
 
 
+def rank_sort_number(value: object, fallback: float) -> float:
+    parsed = number(value)
+    return parsed if parsed is not None else fallback
+
+
+def price_rerating_penalty(ytd_return_pct: object) -> float:
+    """Penalty for names where the current-year move has consumed residual alpha."""
+    ytd = number(ytd_return_pct)
+    if ytd is None or ytd <= 75:
+        return 0.0
+    if ytd <= 150:
+        return (ytd - 75) / 15
+    return min(30.0, 5.0 + (ytd - 150) / 20)
+
+
+def apply_price_adjusted_score(
+    row: dict[str, str],
+    score_field: str,
+    base_field: str,
+    penalty_field: str,
+    ytd_field: str,
+) -> None:
+    base = number(row.get(base_field, ""))
+    if base is None:
+        base = number(row.get(score_field, ""))
+    if base is None:
+        return
+    row[base_field] = f"{base:.1f}"
+    penalty = price_rerating_penalty(row.get(ytd_field, ""))
+    row[penalty_field] = f"{penalty:.1f}"
+    row[score_field] = f"{max(0.0, base - penalty):.1f}"
+
+
+def residual_rank_key(row: dict[str, str]) -> tuple[float, float, float, str]:
+    """Prefer high residual score, then less-rerated and smaller-cap names."""
+    return (
+        -rank_sort_number(row.get("residual_alpha_score", ""), 0),
+        rank_sort_number(row.get("ytd_return_pct", ""), 999),
+        rank_sort_number(row.get("market_cap_usd_b", ""), 1e18),
+        row.get("company", ""),
+    )
+
+
+def alpha_rank_key(row: dict[str, str]) -> tuple[float, float, float, str]:
+    return (
+        -rank_sort_number(row.get("alpha_score", ""), 0),
+        rank_sort_number(row.get("ytd_return_pct", ""), 999),
+        rank_sort_number(row.get("market_cap_usd_b", ""), 1e18),
+        row.get("company", ""),
+    )
+
+
+def semiconductor_rank_key(row: dict[str, str]) -> tuple[float, float, float, str]:
+    return (
+        -rank_sort_number(row.get("unified_score", ""), 0),
+        rank_sort_number(row.get("latest_ytd_return_pct", ""), 999),
+        rank_sort_number(row.get("market_cap_b_usd", ""), 1e18),
+        row.get("name", ""),
+    )
+
+
+def semiconductor_ai_nodes_rank_key(row: dict[str, str]) -> tuple[float, float, float, str]:
+    return (
+        -rank_sort_number(row.get("alpha_score", ""), 0),
+        rank_sort_number(row.get("ytd_return_pct", ""), 999),
+        rank_sort_number(row.get("market_cap_usd_bn", ""), 1e18),
+        row.get("name", ""),
+    )
+
+
+def rerank_rows(rows: list[dict[str, str]], rank_field: str, prior_field: str | None, key) -> None:
+    rows.sort(key=key)
+    for index, row in enumerate(rows, 1):
+        row[rank_field] = str(index)
+        if prior_field and "rank_change_vs_prior" in row:
+            prior = number(row.get(prior_field, ""))
+            row["rank_change_vs_prior"] = str(int(prior - index)) if prior is not None else ""
+
+
 def upsert_fields(row: dict[str, str], fields: Iterable[str]) -> dict[str, str]:
     for field in fields:
         row.setdefault(field, "")
@@ -565,12 +668,22 @@ def update_signals(market_rows: dict[str, dict[str, object]]) -> None:
 def update_carbon(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "public" / "reports" / "carbon-vs-silicon" / "stock_recommendations.csv"
     rows = read_csv(path)
-    fields = list(rows[0].keys())
-    additions = ["latest_price", "latest_currency", "market_cap_usd_b", "ytd_return_pct", "market_data_as_of", "market_data_source"]
+    stray_fields = {"base_residual_alpha_score", "price_rerating_penalty_score"}
+    fields = [field for field in rows[0].keys() if field not in stray_fields]
+    additions = [
+        "latest_price",
+        "latest_currency",
+        "market_cap_usd_b",
+        "ytd_return_pct",
+        "market_data_as_of",
+        "market_data_source",
+    ]
     for field in additions:
         if field not in fields:
             fields.append(field)
     for row in rows:
+        for field in stray_fields:
+            row.pop(field, None)
         symbol = yahoo_symbol(row.get("ticker", ""))
         md = market(symbol or "", market_rows) if symbol else None
         upsert_fields(row, additions)
@@ -588,23 +701,25 @@ def update_carbon(market_rows: dict[str, dict[str, object]]) -> None:
 
 def update_passives(market_rows: dict[str, dict[str, object]]) -> None:
     base = ROOT / "public" / "reports" / "ai-passives-alpha" / "data"
-    files = [
-        "revised_top100_master.csv",
-        "revised_us_residual_alpha_50.csv",
-        "revised_non_us_residual_alpha_50.csv",
-        "top10_us_residual_alpha.csv",
-        "top10_non_us_residual_alpha.csv",
-        "us_alpha_ranked_50.csv",
-        "non_us_alpha_ranked_50.csv",
+    additions = [
+        "latest_price",
+        "latest_currency",
+        "market_cap_usd_b",
+        "ytd_return_pct",
+        "market_data_as_of",
+        "market_data_source",
+        "base_residual_alpha_score",
+        "price_rerating_penalty_score",
     ]
-    additions = ["latest_price", "latest_currency", "market_cap_usd_b", "ytd_return_pct", "market_data_as_of", "market_data_source"]
-    for name in files:
+    loaded: dict[str, tuple[list[dict[str, str]], list[str]]] = {}
+
+    def load_and_refresh(name: str) -> tuple[list[dict[str, str]], list[str]] | None:
         path = base / name
         if not path.exists():
-            continue
+            return None
         rows = read_csv(path)
         if not rows:
-            continue
+            return None
         fields = list(rows[0].keys())
         for field in additions:
             if field not in fields:
@@ -622,14 +737,109 @@ def update_passives(market_rows: dict[str, dict[str, object]]) -> None:
             row["ytd_return_pct"] = str(md["ytd_return_pct"])
             row["market_data_as_of"] = AS_OF
             row["market_data_source"] = str(md["quote_url"])
-        write_csv(path, rows, fields)
+            if "residual_alpha_score" in row:
+                apply_price_adjusted_score(
+                    row,
+                    "residual_alpha_score",
+                    "base_residual_alpha_score",
+                    "price_rerating_penalty_score",
+                    "ytd_return_pct",
+                )
+        return rows, fields
+
+    for name in [
+        "revised_us_residual_alpha_50.csv",
+        "revised_non_us_residual_alpha_50.csv",
+        "us_alpha_ranked_50.csv",
+        "non_us_alpha_ranked_50.csv",
+    ]:
+        loaded_rows = load_and_refresh(name)
+        if not loaded_rows:
+            continue
+        rows, fields = loaded_rows
+        if name.startswith("revised_"):
+            rerank_rows(rows, "rank_revised", "rank_prior", residual_rank_key)
+        elif "rank" in fields:
+            rerank_rows(rows, "rank", None, alpha_rank_key)
+        write_csv(base / name, rows, fields)
+        loaded[name] = (rows, fields)
+
+    regional_names = ["revised_us_residual_alpha_50.csv", "revised_non_us_residual_alpha_50.csv"]
+    if all(name in loaded for name in regional_names):
+        master_rows = []
+        for name in regional_names:
+            for row in loaded[name][0]:
+                next_row = dict(row)
+                next_row.setdefault("region_bucket", next_row.get("region", ""))
+                master_rows.append(next_row)
+        master_fields = list(loaded[regional_names[0]][1])
+        if "region_bucket" not in master_fields:
+            insert_at = master_fields.index("tags") + 1 if "tags" in master_fields else len(master_fields)
+            master_fields.insert(insert_at, "region_bucket")
+        for field in loaded[regional_names[1]][1]:
+            if field not in master_fields:
+                master_fields.append(field)
+        rerank_rows(master_rows, "rank_revised", "rank_prior", residual_rank_key)
+        write_csv(base / "revised_top100_master.csv", master_rows, master_fields)
+        loaded["revised_top100_master.csv"] = (master_rows, master_fields)
+
+    for source_name, output_name in [
+        ("revised_us_residual_alpha_50.csv", "top10_us_residual_alpha.csv"),
+        ("revised_non_us_residual_alpha_50.csv", "top10_non_us_residual_alpha.csv"),
+    ]:
+        if source_name in loaded:
+            rows, fields = loaded[source_name]
+            write_csv(base / output_name, rows[:10], fields)
+
+    master = loaded.get("revised_top100_master.csv")
+    if master:
+        rows, _fields = master
+        demoted = [
+            {
+                "region": row.get("region", ""),
+                "company": row.get("company", ""),
+                "rank_prior": row.get("rank_prior", ""),
+                "rank_revised": row.get("rank_revised", ""),
+                "rank_change_vs_prior": row.get("rank_change_vs_prior", ""),
+                "residual_alpha_score": row.get("residual_alpha_score", ""),
+                "residual_upside_score": row.get("residual_upside_score", ""),
+                "alpha_revision_note": row.get("alpha_revision_note", ""),
+            }
+            for row in rows
+            if rank_sort_number(row.get("rank_change_vs_prior", ""), 0) < 0
+        ]
+        demoted.sort(key=lambda row: rank_sort_number(row["rank_change_vs_prior"], 0))
+        write_csv(
+            base / "demoted_rerated_names.csv",
+            demoted,
+            [
+                "region",
+                "company",
+                "rank_prior",
+                "rank_revised",
+                "rank_change_vs_prior",
+                "residual_alpha_score",
+                "residual_upside_score",
+                "alpha_revision_note",
+            ],
+        )
 
 
 def update_semiconductor_alpha(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "public" / "reports" / "semiconductor-alpha-cpo" / "data" / "unified_alpha_ranking.csv"
     rows = read_csv(path)
     fields = list(rows[0].keys())
-    additions = ["latest_price", "latest_currency", "latest_market_cap_b_usd", "latest_ytd_return_pct", "market_data_as_of", "market_data_source", "prior_unified_rank"]
+    additions = [
+        "latest_price",
+        "latest_currency",
+        "latest_market_cap_b_usd",
+        "latest_ytd_return_pct",
+        "market_data_as_of",
+        "market_data_source",
+        "prior_unified_rank",
+        "base_unified_score",
+        "price_rerating_penalty_score",
+    ]
     for field in additions:
         if field not in fields:
             fields.append(field)
@@ -654,8 +864,15 @@ def update_semiconductor_alpha(market_rows: dict[str, dict[str, object]]) -> Non
         row["latest_ytd_return_pct"] = str(md["ytd_return_pct"])
         row["market_data_as_of"] = AS_OF
         row["market_data_source"] = str(md["quote_url"])
+        apply_price_adjusted_score(
+            row,
+            "unified_score",
+            "base_unified_score",
+            "price_rerating_penalty_score",
+            "latest_ytd_return_pct",
+        )
 
-    rows.sort(key=lambda r: (-number(r.get("unified_score", "")) if number(r.get("unified_score", "")) is not None else 0, number(r.get("market_cap_b_usd", "")) or 1e18, r.get("name", "")))
+    rows.sort(key=semiconductor_rank_key)
     for index, row in enumerate(rows, 1):
         row["unified_rank"] = str(index)
     write_csv(path, rows, fields)
@@ -711,6 +928,186 @@ def regenerate_semiconductor_summaries(rows: list[dict[str, str]]) -> None:
         })
     lens_rows.sort(key=lambda row: (-(number(row["avg_unified_score"]) or 0), -int(row["company_count"])))
     write_csv(base / "category_summary.csv", lens_rows, list(lens_rows[0].keys()))
+
+    overlap_rows = []
+    for row in sorted(rows, key=lambda item: int(item["unified_rank"])):
+        cpo_rank = number(row.get("cpo_rank", ""))
+        broad_rank = number(row.get("broad_rank", ""))
+        if cpo_rank is None or broad_rank is None:
+            continue
+        gap = int(abs(cpo_rank - broad_rank))
+        if gap <= 10:
+            agreement = "Strong agreement"
+            interpretation = "Both bundles agree this is high priority or similarly ranked."
+        elif gap <= 25:
+            agreement = "Moderate agreement"
+            leader = "CPO map" if cpo_rank < broad_rank else "Broad semiconductor screen"
+            interpretation = f"{leader} ranks this materially higher than the other bundle."
+        elif gap <= 60:
+            agreement = "Useful disagreement"
+            leader = "CPO map" if cpo_rank < broad_rank else "Broad semiconductor screen"
+            interpretation = f"{leader} ranks this materially higher than the other bundle."
+        else:
+            agreement = "Major disagreement"
+            leader = "CPO map" if cpo_rank < broad_rank else "Broad semiconductor screen"
+            interpretation = f"{leader} ranks this materially higher than the other bundle."
+        overlap_rows.append(
+            {
+                "ticker": row["ticker"],
+                "name": row["name"],
+                "unified_rank": row["unified_rank"],
+                "cpo_rank": str(int(cpo_rank)),
+                "broad_rank": str(int(broad_rank)),
+                "rank_gap": str(gap),
+                "cpo_score": row.get("cpo_score", ""),
+                "broad_score": row.get("broad_score", ""),
+                "agreement": agreement,
+                "interpretation": interpretation,
+            }
+        )
+    write_csv(
+        base / "ranking_overlap.csv",
+        overlap_rows,
+        [
+            "ticker",
+            "name",
+            "unified_rank",
+            "cpo_rank",
+            "broad_rank",
+            "rank_gap",
+            "cpo_score",
+            "broad_score",
+            "agreement",
+            "interpretation",
+        ],
+    )
+
+
+def update_semiconductor_ai_nodes(market_rows: dict[str, dict[str, object]]) -> None:
+    base = ROOT / "public" / "reports" / "semiconductor-ai-nodes" / "data"
+    path = base / "semiconductor_100_alpha_rankings_v2.csv"
+    if not path.exists():
+        return
+
+    rows = read_csv(path)
+    if not rows:
+        return
+
+    fields = list(rows[0].keys())
+    additions = [
+        "latest_currency",
+        "ytd_return_pct",
+        "market_data_as_of",
+        "market_data_source",
+        "prior_rank",
+        "base_alpha_score",
+        "price_rerating_penalty_score",
+    ]
+    for field in additions:
+        if field not in fields:
+            fields.append(field)
+
+    for row in rows:
+        row["prior_rank"] = row.get("rank", "")
+        symbol = yahoo_symbol(row.get("symbol", ""), row.get("exchange", ""))
+        md = market(symbol or "", market_rows) if symbol else None
+        upsert_fields(row, additions)
+        if not md:
+            apply_price_adjusted_score(
+                row,
+                "alpha_score",
+                "base_alpha_score",
+                "price_rerating_penalty_score",
+                "ytd_return_pct",
+            )
+            continue
+
+        cap_usd = number(md["market_cap_usd"])
+        cap_local = number(md["market_cap_local"])
+        row["price"] = str(md["price"])
+        row["market_cap"] = f"{cap_local:.0f}" if cap_local else row.get("market_cap", "")
+        row["market_cap_usd_bn"] = f"{cap_usd / 1e9:.6f}" if cap_usd else row.get("market_cap_usd_bn", "")
+        row["latest_currency"] = str(md["currency"])
+        row["ytd_return_pct"] = str(md["ytd_return_pct"])
+        row["market_data_as_of"] = AS_OF
+        row["market_data_source"] = str(md["quote_url"])
+        row["market_data_note"] = f"Refreshed {AS_OF_LABEL} from Yahoo Finance chart and quote endpoints."
+        apply_price_adjusted_score(
+            row,
+            "alpha_score",
+            "base_alpha_score",
+            "price_rerating_penalty_score",
+            "ytd_return_pct",
+        )
+
+    rows.sort(key=semiconductor_ai_nodes_rank_key)
+    for index, row in enumerate(rows, 1):
+        row["rank"] = str(index)
+    write_csv(path, rows, fields)
+    sync_semiconductor_ai_node_outputs(base, rows)
+
+
+def sync_semiconductor_ai_node_outputs(base: Path, alpha_rows: list[dict[str, str]]) -> None:
+    alpha_by_symbol = {row["symbol"]: row for row in alpha_rows}
+
+    def sync_symbol_file(name: str, symbol_field: str = "symbol") -> None:
+        path = base / name
+        if not path.exists():
+            return
+        rows = read_csv(path)
+        if not rows:
+            return
+        fields = list(rows[0].keys())
+        for row in rows:
+            alpha = alpha_by_symbol.get(row.get(symbol_field, ""))
+            if not alpha:
+                continue
+            for field in ["rank", "alpha_score", "price", "market_cap_usd_bn"]:
+                if field in row and field in alpha:
+                    row[field] = alpha[field]
+        write_csv(path, rows, fields)
+
+    sync_symbol_file("network_nodes.csv")
+    sync_symbol_file("semiconductor_named7_diligence_v2.csv")
+
+    centrality_path = base / "node_centrality.csv"
+    if centrality_path.exists():
+        centrality_rows = read_csv(centrality_path)
+        if centrality_rows:
+            fields = list(centrality_rows[0].keys())
+            for row in centrality_rows:
+                alpha = alpha_by_symbol.get(row.get("symbol", ""))
+                if not alpha:
+                    continue
+                row["rank"] = alpha.get("rank", row.get("rank", ""))
+                row["alpha_score"] = alpha.get("alpha_score", row.get("alpha_score", ""))
+                row["market_cap_usd_bn"] = alpha.get("market_cap_usd_bn", row.get("market_cap_usd_bn", ""))
+                mapped = number(row.get("mapped_public_connection_count", "")) or 0
+                alpha_score = number(alpha.get("alpha_score", "")) or 0
+                bottleneck = number(alpha.get("bottleneck_score", "")) or 0
+                pricing = number(alpha.get("pricing_power_score", "")) or 0
+                row["conviction_score"] = f"{alpha_score * 0.42 + bottleneck * 0.18 + pricing * 0.16 + min(mapped, 60) * 0.24:.2f}"
+            centrality_rows.sort(key=lambda item: rank_sort_number(item.get("centrality_score", ""), 0), reverse=True)
+            for index, row in enumerate(centrality_rows, 1):
+                row["centrality_rank"] = str(index)
+            write_csv(centrality_path, centrality_rows, fields)
+
+    for name in ["semiconductor_100_relationship_edges_v2.csv", "network_edges.csv"]:
+        path = base / name
+        if not path.exists():
+            continue
+        edge_rows = read_csv(path)
+        if not edge_rows:
+            continue
+        fields = list(edge_rows[0].keys())
+        for row in edge_rows:
+            source = alpha_by_symbol.get(row.get("source", ""))
+            target = alpha_by_symbol.get(row.get("target", ""))
+            if source and "source_rank" in row:
+                row["source_rank"] = source["rank"]
+            if target and "target_rank" in row:
+                row["target_rank"] = target["rank"]
+        write_csv(path, edge_rows, fields)
 
 
 def update_companies100(market_rows: dict[str, dict[str, object]]) -> None:
@@ -894,7 +1291,7 @@ def update_market_snapshot(market_rows: dict[str, dict[str, object]]) -> None:
 
     text = re.sub(
         r"// Refreshed [^\n]+\nexport const publicMarketSnapshotAsOf = '[^']+';",
-        f"// Refreshed {AS_OF} from Yahoo Finance chart and quote-page snapshots.\nexport const publicMarketSnapshotAsOf = 'May 4, 2026';",
+        f"// Refreshed {AS_OF} from Yahoo Finance chart and quote-page snapshots.\nexport const publicMarketSnapshotAsOf = '{AS_OF_LABEL}';",
         text,
     )
     text = re.sub(
@@ -909,7 +1306,7 @@ def update_market_snapshot(market_rows: dict[str, dict[str, object]]) -> None:
 
 def update_beneficiaries(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "beneficiaries.ts"
-    text = path.read_text().replace("Apr. 23, 2026 refresh", f"{AS_OF} refresh")
+    text = re.sub(r"(// Market-cap labels mirror the )[^.]+( refresh in data/marketSnapshot\.ts\.)", rf"\g<1>{AS_OF}\2", path.read_text())
 
     def repl(match: re.Match[str]) -> str:
         block = match.group(0)
@@ -931,7 +1328,7 @@ def update_bottleneck_sectors(market_rows: dict[str, dict[str, object]]) -> None
     text = path.read_text()
     text = re.sub(
         r"export const bottleneckSectorAsOf = '[^']+';",
-        "export const bottleneckSectorAsOf = 'May 4, 2026';",
+        f"export const bottleneckSectorAsOf = '{AS_OF_LABEL}';",
         text,
     )
 
@@ -1016,6 +1413,7 @@ def main() -> None:
     update_carbon(market_rows)
     update_passives(market_rows)
     update_semiconductor_alpha(market_rows)
+    update_semiconductor_ai_nodes(market_rows)
     update_companies100(market_rows)
     update_robotics(market_rows)
     update_scaling(market_rows)

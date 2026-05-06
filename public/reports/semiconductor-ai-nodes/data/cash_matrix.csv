@@ -1,0 +1,55 @@
+source_tier,target_tier,edge_count
+wafer fab equipment,foundry,166
+analog / power / RF,OSAT / packaging,165
+memory,wafer fab equipment,143
+analog / power / RF,foundry,140
+wafer fab equipment,memory,135
+analog / power / RF,materials / wafers,132
+foundry,wafer fab equipment,132
+analog / power / RF,custom ASIC / interconnect,124
+custom ASIC / interconnect,foundry,101
+custom ASIC / interconnect,memory,85
+OSAT / packaging,custom ASIC / interconnect,82
+custom ASIC / interconnect,custom ASIC / interconnect,75
+analog / power / RF,AI accelerator,66
+OSAT / packaging,wafer fab equipment,64
+foundry,materials / wafers,64
+materials / wafers,foundry,64
+materials / wafers,memory,53
+wafer fab equipment,custom ASIC / interconnect,51
+memory,materials / wafers,48
+custom ASIC / interconnect,OSAT / packaging,47
+wafer fab equipment,wafer fab equipment,45
+custom ASIC / interconnect,wafer fab equipment,45
+OSAT / packaging,materials / wafers,40
+materials / wafers,wafer fab equipment,40
+memory,OSAT / packaging,37
+analog / power / RF,memory,33
+AI accelerator,foundry,29
+AI accelerator,memory,26
+wafer fab equipment,OSAT / packaging,25
+OSAT / packaging,AI accelerator,20
+wafer fab equipment,AI accelerator,18
+OSAT / packaging,analog / power / RF,16
+AI accelerator,OSAT / packaging,15
+OSAT / packaging,memory,14
+AI accelerator,wafer fab equipment,11
+memory,custom ASIC / interconnect,8
+memory,AI accelerator,8
+semiconductor ecosystem,custom ASIC / interconnect,8
+memory,foundry,7
+memory,memory,7
+semiconductor ecosystem,foundry,6
+OSAT / packaging,foundry,4
+memory,analog / power / RF,3
+semiconductor ecosystem,analog / power / RF,3
+materials / wafers,AI accelerator,3
+AI accelerator,AI accelerator,2
+custom ASIC / interconnect,AI accelerator,2
+AI accelerator,custom ASIC / interconnect,2
+semiconductor ecosystem,AI accelerator,2
+foundry,AI accelerator,2
+foundry,foundry,1
+foundry,OSAT / packaging,1
+foundry,memory,1
+semiconductor ecosystem,memory,1

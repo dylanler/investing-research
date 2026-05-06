@@ -1,0 +1,57 @@
+relationship,edge_count,share_pct
+ecosystem dependency/adjacency,302,12.47
+sells into fabs,300,12.39
+uses foundry capacity,233,9.62
+uses packaging/test,220,9.08
+uses manufacturing capacity,140,5.78
+uses materials indirectly,132,5.45
+buys fab equipment,126,5.2
+buys materials,112,4.62
+sells capacity-enabling tools/services,106,4.38
+buys inspection/test/metrology,98,4.05
+serves AI/fabless customers,96,3.96
+adjacent supplier/peer,85,3.51
+AI connectivity / chiplet ecosystem peer,72,2.97
+HBM/package/test ecosystem,72,2.97
+uses inspection/test tools,64,2.64
+uses test/metrology indirectly,55,2.27
+uses package materials,40,1.65
+provides packaging/test capacity to ecosystem,40,1.65
+supplies process materials / wafers,37,1.53
+uses memory ecosystem,33,1.36
+buys wafer-fab equipment,8,0.33
+buys lithography tools,4,0.17
+uses assembly/test ecosystem,4,0.17
+competes in HBM/DRAM/NAND,3,0.12
+supplies memory ecosystem,3,0.12
+buys process-control tools,3,0.12
+competes in HBM/DRAM,2,0.08
+competes/coexists in AI data-center silicon,2,0.08
+competes in AI accelerators,2,0.08
+buys memory,2,0.08
+uses HBM packaging equipment ecosystem,1,0.04
+supplies/participates in AI memory ecosystem,1,0.04
+competes in memory,1,0.04
+supplies/partners for HBM4/DRAM and programmable logic manufacturing,1,0.04
+supplies memory/foundry ecosystem,1,0.04
+competes in foundry,1,0.04
+competes in custom silicon/networking,1,0.04
+uses/competes in AI silicon ecosystem,1,0.04
+customer/competitor ecosystem in AI connectivity,1,0.04
+competes/coexists in AI connectivity,1,0.04
+uses Samsung foundry/memory collaboration,1,0.04
+uses outsourced test services,1,0.04
+uses ATMP joint-venture ecosystem,1,0.04
+buys/partners for memory ecosystem,1,0.04
+uses AI memory ecosystem,1,0.04
+competes/coexists in hyperscaler AI silicon,1,0.04
+uses outsourced assembly/test ecosystem,1,0.04
+uses foundry and memory supply,1,0.04
+competes/overlaps in AI silicon platform,1,0.04
+indirectly depends on EUV lithography,1,0.04
+competes and uses x86 host ecosystem,1,0.04
+competes in CPU/data-center compute,1,0.04
+historical/market peer relationship,1,0.04
+uses/competes in packaging ecosystem,1,0.04
+competes/coexists in AI servers,1,0.04
+competes/uses external foundry ecosystem,1,0.04

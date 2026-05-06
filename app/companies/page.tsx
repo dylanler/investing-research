@@ -152,7 +152,7 @@ export default function CompaniesPage() {
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated May 4, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated May 5, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -173,7 +173,7 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated May 4' },
+              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated May 5' },
               { val: overviewStats.meanYtd, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
@@ -210,7 +210,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: Yahoo Finance chart data refreshed May 4, 2026. Median YTD return by bucket.
+              Source: Yahoo Finance chart data refreshed May 5, 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -513,10 +513,10 @@ export default function CompaniesPage() {
           <Reveal>
             <blockquote style={{ borderLeft: '3px solid var(--accent)', paddingLeft: 'var(--space-xl)', margin: 0 }}>
               <p className="font-display" style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-900)', lineHeight: 1.55, fontStyle: 'italic', margin: 0 }}>
-                &ldquo;The highest-median-return bucket is HBM & AI memory at +92.4%. The lowest is power, cooling & electrical at +27.0%. The market is rotating from the obvious GPU trade into the supply chain that feeds it.&rdquo;
+                &ldquo;The highest-median-return bucket is storage & AI data platforms at +147.9%. The lowest is data-center shell & systems integration at +15.7%. The market is rotating unevenly through the supply chain that feeds AI compute.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Yahoo Finance chart data refreshed May 4, 2026
+                Source: Yahoo Finance chart data refreshed May 5, 2026
               </cite>
             </blockquote>
           </Reveal>
@@ -545,7 +545,7 @@ export default function CompaniesPage() {
       <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-2xl) var(--space-lg)' }}>
         <div className="max-w-5xl mx-auto">
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)' }}>
-            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed May 4, 2026 where a current public listing exists. Past performance does not guarantee future results.
+            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed May 5, 2026 where a current public listing exists. Past performance does not guarantee future results.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
             <a href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</a>

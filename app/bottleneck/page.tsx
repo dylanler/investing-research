@@ -65,7 +65,7 @@ export default function Home() {
           </p>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
             This is analysis, not financial advice. All projections are scenario-based estimates.
-            Public market data refreshed May 4, 2026; operating metrics reflect the latest cited public filings and industry reports available in the page.
+            Public market data refreshed May 5, 2026; operating metrics reflect the latest cited public filings and industry reports available in the page.
           </p>
         </div>
       </footer>

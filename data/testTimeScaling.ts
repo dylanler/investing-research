@@ -637,7 +637,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Germany",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1158453610,
+    "marketCapUsd": 1159837192,
     "whyFits": "Advanced packaging and lithography process tools",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -670,7 +670,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "Canada",
     "usNonUs": "Non-US",
     "bucket": "semiconductors",
-    "marketCapUsd": 1116000000,
+    "marketCapUsd": 1401000000,
     "whyFits": "Optical interposer/packaging for AI networking bottlenecks",
     "keyRisk": "Capex cyclicality, customer concentration, and execution on node/package transitions"
   },
@@ -1033,7 +1033,7 @@ export const publicWatchlist: PublicName[] = [
     "country": "United States",
     "usNonUs": "US",
     "bucket": "electricity",
-    "marketCapUsd": 2190000000,
+    "marketCapUsd": 2117000000,
     "whyFits": "Long-duration storage optionality",
     "keyRisk": "Permitting, leverage, project execution, and power-price/regulatory exposure"
   },
