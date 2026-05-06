@@ -320,22 +320,6 @@ def collect_csv(path: str, page: str, ticker_col: str = "ticker", company_col: s
     return refs
 
 
-def collect_bloom_energy_alpha() -> list[TickerRef]:
-    refs = [TickerRef("BE", "BE", "Bloom Energy", "bloom-energy-alpha")]
-    path = ROOT / "public" / "reports" / "bloom-energy-alpha" / "data" / "alpha_rankings.csv"
-    if path.exists():
-        refs.extend(
-            collect_csv(
-                "public/reports/bloom-energy-alpha/data/alpha_rankings.csv",
-                "bloom-energy-alpha",
-                ticker_col="symbol",
-                company_col="name",
-                listing_col="exchange",
-            )
-        )
-    return refs
-
-
 def collect_signals() -> list[TickerRef]:
     refs = []
     for path in sorted((ROOT / "public" / "reports" / "twitter-ai-supply-chain" / "data").glob("twitter_ai_stock_report_*/stocks.json")):
@@ -360,7 +344,6 @@ def collect_all_refs() -> list[TickerRef]:
     refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_top100_master.csv", "ai-passives"))
     refs.extend(collect_csv("public/reports/semiconductor-alpha-cpo/data/unified_alpha_ranking.csv", "semiconductor-alpha-cpo", listing_col=""))
     refs.extend(collect_csv("public/reports/carbon-vs-silicon/stock_recommendations.csv", "carbon-vs-silicon"))
-    refs.extend(collect_bloom_energy_alpha())
 
     # Preserve one representative ref per Yahoo symbol but keep all page memberships.
     by_symbol: dict[str, TickerRef] = {}
@@ -730,155 +713,6 @@ def regenerate_semiconductor_summaries(rows: list[dict[str, str]]) -> None:
     write_csv(base / "category_summary.csv", lens_rows, list(lens_rows[0].keys()))
 
 
-def bloom_market_adjustment(row: dict[str, str], md: dict[str, object] | None) -> tuple[float, str]:
-    base = number(row.get("alpha_score", "")) or 0
-    score = base
-    reasons = [f"source score {base:.0f}"]
-
-    cap = number(md.get("market_cap_usd")) if md else None
-    ytd = number(md.get("ytd_return_pct")) if md else None
-    pe = number(row.get("pe", ""))
-
-    if cap:
-        cap_b = cap / 1e9
-        if cap_b >= 250:
-            score -= 5
-            reasons.append("megacap crowding penalty")
-        elif cap_b >= 100:
-            score -= 3
-            reasons.append("large-cap discovery penalty")
-        elif cap_b >= 50:
-            score -= 1
-            reasons.append("mid/large-cap valuation haircut")
-        elif cap_b < 10:
-            score += 1.5
-            reasons.append("smaller-cap optionality credit")
-        elif cap_b < 50:
-            score += 0.5
-            reasons.append("mid-cap optionality credit")
-    else:
-        reasons.append("latest market cap unavailable")
-
-    if ytd is not None:
-        if ytd >= 200:
-            score -= 7
-            reasons.append("extreme YTD repricing penalty")
-        elif ytd >= 100:
-            score -= 4
-            reasons.append("major YTD repricing penalty")
-        elif ytd >= 40:
-            score -= 2
-            reasons.append("moderate YTD repricing penalty")
-        elif ytd < 0:
-            score += 1.5
-            reasons.append("negative YTD optionality credit")
-    else:
-        reasons.append("YTD return unavailable")
-
-    if pe and pe > 120:
-        score -= 1.5
-        reasons.append("high multiple haircut")
-
-    return max(0, min(100, round(score, 2))), "; ".join(reasons)
-
-
-def update_bloom_energy_alpha(market_rows: dict[str, dict[str, object]]) -> None:
-    base = ROOT / "public" / "reports" / "bloom-energy-alpha" / "data"
-    path = base / "alpha_rankings.csv"
-    if not path.exists():
-        return
-
-    rows = read_csv(path)
-    fields = list(rows[0].keys())
-    additions = [
-        "latest_price",
-        "latest_currency",
-        "latest_market_cap_usd",
-        "latest_market_cap_b_usd",
-        "latest_ytd_return_pct",
-        "market_data_as_of",
-        "market_data_source",
-        "market_adjusted_score",
-        "market_adjusted_rank",
-        "market_adjustment_reason",
-    ]
-    for field in additions:
-        if field not in fields:
-            fields.append(field)
-
-    adjusted: list[tuple[float, int, dict[str, str]]] = []
-    for row in rows:
-        symbol = yahoo_symbol(row.get("symbol", ""), row.get("exchange", ""))
-        md = market(symbol or "", market_rows) if symbol else None
-        upsert_fields(row, additions)
-        if md:
-            cap = number(md["market_cap_usd"])
-            row["latest_price"] = str(md["price"])
-            row["latest_currency"] = str(md["currency"])
-            row["latest_market_cap_usd"] = f"{cap:.2f}" if cap else ""
-            row["latest_market_cap_b_usd"] = f"{cap / 1e9:.2f}" if cap else ""
-            row["latest_ytd_return_pct"] = str(md["ytd_return_pct"])
-            row["market_data_as_of"] = AS_OF
-            row["market_data_source"] = str(md["quote_url"])
-        score, reason = bloom_market_adjustment(row, md)
-        row["market_adjusted_score"] = f"{score:.2f}"
-        row["market_adjustment_reason"] = reason
-        adjusted.append((score, int(row.get("rank") or 9999), row))
-
-    adjusted.sort(key=lambda item: (-item[0], item[1], item[2].get("name", "")))
-    for index, (_score, _rank, row) in enumerate(adjusted, 1):
-        row["market_adjusted_rank"] = str(index)
-
-    rows.sort(key=lambda row: int(row.get("rank") or 9999))
-    write_csv(path, rows, fields)
-
-    bloom_md = market("BE", market_rows)
-    bloom_cap = number(bloom_md["market_cap_usd"]) if bloom_md else None
-    write_csv(
-        base / "bloom_stock_snapshot.csv",
-        [
-            {
-                "symbol": "BE",
-                "name": "Bloom Energy",
-                "latest_price": str(bloom_md["price"]) if bloom_md else "",
-                "latest_currency": str(bloom_md["currency"]) if bloom_md else "USD",
-                "latest_market_cap_usd": f"{bloom_cap:.2f}" if bloom_cap else "",
-                "latest_market_cap_b_usd": f"{bloom_cap / 1e9:.2f}" if bloom_cap else "",
-                "latest_ytd_return_pct": str(bloom_md["ytd_return_pct"]) if bloom_md else "",
-                "market_data_as_of": AS_OF if bloom_md else "",
-                "market_data_source": str(bloom_md["quote_url"]) if bloom_md else "",
-                "q1_revenue_m_usd": "751.1",
-                "q1_revenue_yoy_pct": "130.4",
-                "q1_operating_cash_flow_m_usd": "73.6",
-                "fy2026_revenue_low_b_usd": "3.4",
-                "fy2026_revenue_high_b_usd": "3.8",
-                "fy2026_non_gaap_eps_low": "1.85",
-                "fy2026_non_gaap_eps_high": "2.25",
-                "source_id": "7",
-            }
-        ],
-        [
-            "symbol",
-            "name",
-            "latest_price",
-            "latest_currency",
-            "latest_market_cap_usd",
-            "latest_market_cap_b_usd",
-            "latest_ytd_return_pct",
-            "market_data_as_of",
-            "market_data_source",
-            "q1_revenue_m_usd",
-            "q1_revenue_yoy_pct",
-            "q1_operating_cash_flow_m_usd",
-            "fy2026_revenue_low_b_usd",
-            "fy2026_revenue_high_b_usd",
-            "fy2026_non_gaap_eps_low",
-            "fy2026_non_gaap_eps_high",
-            "source_id",
-        ],
-    )
-
-
 def update_companies100(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "companies100.ts"
     text = path.read_text()
@@ -1182,7 +1016,6 @@ def main() -> None:
     update_carbon(market_rows)
     update_passives(market_rows)
     update_semiconductor_alpha(market_rows)
-    update_bloom_energy_alpha(market_rows)
     update_companies100(market_rows)
     update_robotics(market_rows)
     update_scaling(market_rows)
