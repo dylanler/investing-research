@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Latent Alpha Dashboard: 50 U.S. + 50 Non-U.S. Public Companies</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="stamp">Research snapshot · May 6, 2026 · Static offline dashboard</div>
+    <h1>50 U.S. + 50 non-U.S. public companies with latent AI-enabling assets</h1>
+    <p>This dashboard ranks public companies that are not AI-core platform/GPU names but own assets that could become more valuable in the AI buildout: power, grid, cooling, optical connectivity, sensors, industrial automation, advanced materials, edge/space systems, and critical-facility services. Alpha score is a research screen, not a buy/sell recommendation.</p>
+  </div>
+  <main class="container">
+    <section id="cards" class="grid cards"></section>
+
+    <section class="section grid notes-grid">
+      <div class="callout"><b>Interpretation.</b> “Doesn’t use it for AI yet” is treated as “not primarily valued as an AI company.” Some companies may already use internal AI tools or sell a small amount into AI/data-center supply chains. The screen penalizes names that are already obvious AI trades.</div>
+      <div class="callout"><b>Alpha definition.</b> Early + under-discovered + undervalued + brewing catalyst. This is scored with six inputs: latent fit, discovery gap, valuation gap, catalyst density, execution quality, and hype penalty.</div>
+      <div class="callout"><b>Highest-signal clusters.</b> The best screen density is currently in small/mid-cap power, optical/copper interconnects, test/measurement, HVAC controls, and overlooked automation suppliers.</div>
+    </section>
+
+    <section class="section">
+      <h2>Scoring methodology</h2>
+      <div class="method">
+        <div class="pill"><b>Latent AI fit · 25</b><span class="small">How necessary the asset could become in AI buildout.</span></div>
+        <div class="pill"><b>Discovery gap · 20</b><span class="small">How little the crowd associates it with AI.</span></div>
+        <div class="pill"><b>Valuation gap · 20</b><span class="small">Cheapness, cyclicality, special situations or muted expectations.</span></div>
+        <div class="pill"><b>Catalyst density · 20</b><span class="small">Concrete paths: backlog, capex cycle, regulation, M&A, portfolio actions.</span></div>
+        <div class="pill"><b>Execution quality · 15</b><span class="small">Balance sheet, margins, operating history and liquidity.</span></div>
+        <div class="pill"><b>Hype penalty · -10+</b><span class="small">Penalty for already discovered / crowded AI narratives.</span></div>
+      </div>
+    </section>
+
+    <section class="section grid two-col">
+      <div class="card svg-card"><h2>Top 22 by alpha score</h2><div id="barChart" class="chart-wrap"></div><div class="legend"><span><span class="dot" style="background:#0f172a"></span>U.S.</span><span><span class="dot" style="background:#64748b"></span>Non-U.S.</span></div></div>
+      <div class="card"><h2>Top 10 lists</h2><div class="score-grid"><div><h3>U.S.</h3><ul id="topUs" class="mini-list"></ul></div><div><h3>Non-U.S.</h3><ul id="topNon" class="mini-list"></ul></div></div><h3 style="margin-top:18px">Crowded / lower-alpha controls</h3><ul id="avoidCrowded" class="mini-list"></ul></div>
+    </section>
+
+    <section class="section grid two-col">
+      <div class="card svg-card"><h2>Discovery gap vs. valuation gap</h2><div id="scatterChart" class="chart-wrap"></div><p class="small">Upper-right is the preferred quadrant: high under-discovery and valuation asymmetry. Larger dots indicate higher alpha score. Faded dots are already discovered.</p></div>
+      <div class="card svg-card"><h2>Score component stack</h2><div id="stackedScores" class="chart-wrap tall"></div></div>
+    </section>
+
+    <section class="section grid two-col">
+      <div class="card svg-card"><h2>Theme heatmap: average alpha</h2><div id="heatmap" class="chart-wrap tall"></div></div>
+      <div class="card mind"><h2>Mind map</h2><img src="assets/img/mind_map.svg" alt="AI alpha opportunity mind map" /><div id="themePills" class="theme-list" style="margin-top:12px"></div></div>
+    </section>
+
+    <section class="section">
+      <h2>Ranked universe</h2>
+      <div class="toolbar">
+        <input id="search" placeholder="Search ticker, company, thesis, country…" />
+        <select id="regionFilter"><option value="">All regions</option><option>US</option><option>Non-US</option></select>
+        <select id="themeFilter"><option value="">All themes</option></select>
+        <select id="visibilityFilter"><option value="">All AI visibility</option></select>
+        <button id="reset" class="button">Reset</button>
+        <span id="rowCount" class="small"></span>
+      </div>
+      <div class="download-row" style="margin-bottom:12px">
+        <a class="button" href="assets/data/companies.csv" download>Download CSV</a>
+        <a class="button" href="assets/data/companies.json" download>Download JSON</a>
+        <a class="button" href="research_methodology.md" download>Download methodology</a>
+        <a class="button" href="sources.md" download>Download sources</a>
+      </div>
+      <div class="table-wrap">
+        <table id="stockTable">
+          <thead><tr><th>Rank</th><th>Region</th><th>Ticker</th><th>Company</th><th>Alpha</th><th>Theme</th><th>Latent AI asset</th><th>Thesis</th><th>Catalysts / risks</th><th>Scores</th><th>Sources</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section grid two-col">
+      <div class="card"><h2>Source pack</h2><div id="sources" class="sources-list"></div></div>
+      <div class="card"><h2>Due diligence checklist</h2>
+        <ol class="small" style="line-height:1.75">
+          <li>Verify current listing status, liquidity, ADR/ordinary share treatment, and any pending take-private or delisting events.</li>
+          <li>Re-check EV/EBITDA, forward P/E, net debt, backlog and sell-side estimate revisions before acting.</li>
+          <li>Prefer names where AI exposure is plausible but not yet the headline driver; avoid paying for already announced AI deals unless the market underestimates duration.</li>
+          <li>Map customer concentration: hyperscaler wins are powerful but can create one-customer risk.</li>
+          <li>Stress test power/cooling/fiber demand under overbuild scenarios and delayed data-center permitting.</li>
+        </ol>
+        <p class="small"><b>Important:</b> This is a thematic research screen and scoring model. It is not personalized financial advice, and it does not account for your risk tolerance, taxes, liquidity needs or portfolio construction.</p>
+      </div>
+    </section>
+  </main>
+  <div id="tooltip" class="tooltip"></div>
+  <footer class="footer">Generated as a static, offline HTML dashboard. Data and scores are in <span class="kbd">assets/data/companies.csv</span> and <span class="kbd">assets/data/companies.json</span>. Open <span class="kbd">index.html</span> in a browser.</footer>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

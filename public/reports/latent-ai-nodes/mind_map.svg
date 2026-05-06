@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="AI alpha opportunity mind map">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="600" y="54" text-anchor="middle" font-size="28" font-weight="800" fill="#0f172a">AI alpha before consensus: hidden pick-and-shovel map</text>
+    <text x="600" y="84" text-anchor="middle" font-size="14" fill="#475569">Focus: companies with latent AI-enabling assets, not obvious AI platforms or GPUs</text>
+    <circle cx="600" cy="380" r="96" fill="#111827" filter="url(#shadow)"/>
+    <text x="600" y="356" text-anchor="middle" font-size="20" font-weight="800" fill="white">Latent AI</text>
+    <text x="600" y="382" text-anchor="middle" font-size="20" font-weight="800" fill="white">Alpha</text>
+    <text x="600" y="411" text-anchor="middle" font-size="13" fill="#e5e7eb">under-discovered + undervalued</text>
+    <g stroke="#94a3b8" stroke-width="3" fill="none">
+      <path d="M510 340 C 340 260, 270 200, 165 165"/><path d="M545 300 C 480 165, 430 120, 325 105"/>
+      <path d="M655 300 C 720 165, 790 120, 895 105"/><path d="M690 340 C 870 255, 940 215, 1035 170"/>
+      <path d="M510 420 C 340 500, 270 550, 165 600"/><path d="M545 460 C 470 605, 420 650, 325 665"/>
+      <path d="M655 460 C 720 605, 790 650, 895 665"/><path d="M690 420 C 850 505, 940 555, 1035 600"/>
+    </g>
+    <g font-size="13" fill="#334155">
+      <g transform="translate(52,118)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Power & Grid</text><text x="20" y="58">Transformers, switchgear, UPS,</text><text x="20" y="78">grid telemetry, cables, EPC</text><text x="20" y="98" fill="#64748b">Top: HPS, ENS, ITRI, BDC</text></g>
+      <g transform="translate(282,58)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Thermal & Water</text><text x="20" y="58">Cooling controls, hydronics,</text><text x="20" y="78">water measurement, pumps</text><text x="20" y="98" fill="#64748b">Top: CAREL, Sensirion, WTS</text></g>
+      <g transform="translate(688,58)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Connectivity</text><text x="20" y="58">Fiber, copper, optics, test,</text><text x="20" y="78">timing and assurance</text><text x="20" y="98" fill="#64748b">Top: Volex, VIAVI, Belden</text></g>
+      <g transform="translate(918,120)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Sensors & Data</text><text x="20" y="58">Measurement, machine vision,</text><text x="20" y="78">geospatial and imaging inputs</text><text x="20" y="98" fill="#64748b">Top: ROG, FARO, Hamamatsu</text></g>
+      <g transform="translate(52,545)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Automation</text><text x="20" y="58">Robotics, motion, factory data,</text><text x="20" y="78">material handling</text><text x="20" y="98" fill="#64748b">Top: TKH, ATS, Kardex</text></g>
+      <g transform="translate(282,592)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Advanced Materials</text><text x="20" y="58">Thermal, ceramics, SiC/GaN,</text><text x="20" y="78">semicap subsystems</text><text x="20" y="98" fill="#64748b">Top: ROG, MGAM, OXIG</text></g>
+      <g transform="translate(688,592)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Defense & Space</text><text x="20" y="58">Edge compute, geointelligence,</text><text x="20" y="78">secure sensors and imaging</text><text x="20" y="98" fill="#64748b">Top: MDA, MRCY, OSIS</text></g>
+      <g transform="translate(918,545)"><rect width="230" height="110" rx="20" fill="#fff" stroke="#e2e8f0" filter="url(#shadow)"/><text x="115" y="30" text-anchor="middle" font-size="18" font-weight="800" fill="#0f172a">Distributors & Services</text><text x="20" y="58">Specialty distribution, site</text><text x="20" y="78">work, safety and engineering</text><text x="20" y="98" fill="#64748b">Top: APG, WCC, Diploma</text></g>
+    </g>
+  </g>
+</svg>
