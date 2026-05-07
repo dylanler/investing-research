@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import CountUp from 'react-countup';
+import Link from 'next/link';
 import { useInView } from 'react-intersection-observer';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -13,8 +13,8 @@ import ThemeToggle from '@/components/layout/ThemeToggle';
 import {
   learningMethods, scoringMetrics, datasetComparisons, keyRatios,
   dualScores, topAlpha, publicCompanies, privateCompanies,
-  egoVerseMetrics, timeline, winningFormula,
-  frontierLabs, dataCompanyTiers, scalingLoop,
+  timeline, winningFormula,
+  frontierLabs, scalingLoop,
   keyBenchmarks, taskCalculations,
   dataRegimes, methodDataReqs, companyFitMatrix, v3Takeaways,
   type PrivateCompany,
@@ -51,8 +51,15 @@ function exchangeFromTicker(ticker: string): string {
   return 'NYSE/NASDAQ';
 }
 
+const HERO_PARTICLES = Array.from({ length: 30 }, (_, i) => ({
+  left: `${(i * 37) % 100}%`,
+  top: `${(i * 53) % 100}%`,
+  duration: 3 + ((i * 29) % 40) / 10,
+  delay: ((i * 31) % 30) / 10,
+}));
+
 export default function RoboticsPage() {
-  const { ref: heroRef, inView: heroInView } = useInView({ threshold: 0.3, triggerOnce: true });
+  const { ref: heroRef } = useInView({ threshold: 0.3, triggerOnce: true });
   const [selectedMethod, setSelectedMethod] = useState<number | null>(null);
   const [companyView, setCompanyView] = useState<'public' | 'private'>('public');
   const [expandedAlpha, setExpandedAlpha] = useState<number | null>(null);
@@ -70,7 +77,7 @@ export default function RoboticsPage() {
 
   return (
     <main style={{ background: 'var(--surface-page)', minHeight: '100vh' }}>
-      <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50 }}><a href="/" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>&larr; Home</a></div>
+      <div style={{ position: 'fixed', top: 12, left: 16, zIndex: 50 }}><Link href="/" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>&larr; Home</Link></div>
       <div style={{ position: 'fixed', top: 12, right: 16, zIndex: 50 }}><ThemeToggle /></div>
 
       {/* ════════════════════════════════════════════════════════════
@@ -78,15 +85,15 @@ export default function RoboticsPage() {
           ════════════════════════════════════════════════════════════ */}
       <section ref={heroRef} style={{ minHeight: '85vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: 'var(--space-5xl) var(--space-lg) var(--space-3xl)', position: 'relative' }}>
         <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
-          {Array.from({ length: 30 }).map((_, i) => (
-            <motion.div key={i} style={{ position: 'absolute', left: `${Math.random() * 100}%`, top: `${Math.random() * 100}%`, width: 2, height: 2, borderRadius: '50%', background: 'var(--accent)' }}
+          {HERO_PARTICLES.map((particle, i) => (
+            <motion.div key={i} style={{ position: 'absolute', left: particle.left, top: particle.top, width: 2, height: 2, borderRadius: '50%', background: 'var(--accent)' }}
               animate={{ opacity: [0.05, 0.25, 0.05], scale: [1, 1.5, 1] }}
-              transition={{ duration: 3 + Math.random() * 4, repeat: Infinity, delay: Math.random() * 3 }} />
+              transition={{ duration: particle.duration, repeat: Infinity, delay: particle.delay }} />
           ))}
         </div>
 
         <div className="max-w-4xl mx-auto" style={{ position: 'relative', zIndex: 1 }}>
-          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026 &middot; Updated May 5, 2026</span></Reveal>
+          <Reveal><span style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700 }}>Research Report &middot; Published March 25, 2026 &middot; Updated May 7, 2026</span></Reveal>
           <Reveal delay={0.1}>
             <h1 className="font-display" style={{ fontSize: 'var(--text-hero)', fontWeight: 700, color: 'var(--ink-950)', lineHeight: 1.05, marginTop: 'var(--space-lg)' }}>
               The Robotics<br /><span style={{ color: 'var(--accent)' }}>Revolution</span>
@@ -520,7 +527,7 @@ export default function RoboticsPage() {
           <Reveal>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>Chapter 6</div>
             <h2 className="font-display" style={{ fontSize: 'var(--text-3xl)', fontWeight: 600, color: 'var(--ink-950)', lineHeight: 1.15, marginBottom: 'var(--space-sm)' }}>50 Companies to Watch</h2>
-            <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-500)', maxWidth: 560, lineHeight: 1.65, marginBottom: 'var(--space-lg)' }}>Ranked by &ldquo;robotics alpha&rdquo; — a composite of data flywheel, method alignment, market position, and scaling potential. The top 3 are NVIDIA, Tesla, and Figure AI, all at 111.</p>
+            <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-500)', maxWidth: 680, lineHeight: 1.65, marginBottom: 'var(--space-lg)' }}>The top-10 list shows technical robotics leverage. The public-company table is now residual-alpha ordered, with current price, market cap, and YTD rerating used to separate hidden upside from obvious consensus winners.</p>
           </Reveal>
 
           {/* Top 10 */}
@@ -539,7 +546,14 @@ export default function RoboticsPage() {
                 <AnimatePresence>
                   {expandedAlpha === i && (
                     <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} style={{ overflow: 'hidden' }}>
-                      <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', marginTop: 'var(--space-sm)', paddingLeft: 52, lineHeight: 1.6 }}>{c.keyFact}</p>
+                      <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', marginTop: 'var(--space-sm)', paddingLeft: 52, lineHeight: 1.6 }}>
+                        {c.keyFact}
+                        {c.latestPrice ? (
+                          <span style={{ display: 'block', marginTop: 6, color: 'var(--ink-500)', fontFamily: 'monospace', fontSize: 'var(--text-xs)' }}>
+                            {c.latestPrice} / {c.marketCap ?? 'cap n/a'} / {typeof c.ytdReturnPct === 'number' ? `${c.ytdReturnPct >= 0 ? '+' : ''}${c.ytdReturnPct.toFixed(1)}% YTD` : 'YTD n/a'}
+                          </span>
+                        ) : null}
+                      </p>
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -562,7 +576,8 @@ export default function RoboticsPage() {
                     {companyView === 'public' && <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Ticker</th>}
                     <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Country</th>
                     {companyView === 'public' && <th style={{ padding: '8px 12px', textAlign: 'left', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Exchange</th>}
-                    <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>{companyView === 'public' ? 'Market Cap' : 'Valuation'}</th>
+                    {companyView === 'public' && <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Residual</th>}
+                    <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>{companyView === 'public' ? 'Price / Cap' : 'Valuation'}</th>
                     <th style={{ padding: '8px 12px', textAlign: 'right', fontSize: 'var(--text-xs)', fontWeight: 600, textTransform: 'uppercase', color: 'var(--ink-500)' }}>Alpha</th>
                   </tr></thead>
                   <tbody>{(companyView === 'public' ? publicCompanies : privateCompanies).map(c => (
@@ -571,7 +586,20 @@ export default function RoboticsPage() {
                       {companyView === 'public' && <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--accent)' }}>{'ticker' in c ? c.ticker : ''}</td>}
                       <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.country}</td>
                       {companyView === 'public' && <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{'ticker' in c ? exchangeFromTicker(c.ticker) : ''}</td>}
-                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontFamily: 'monospace', color: 'var(--ink-600)', textAlign: 'right' }}>{'marketCap' in c ? c.marketCap : (c as PrivateCompany).valuation}</td>
+                      {companyView === 'public' && (
+                        <td style={{ padding: '10px 12px', fontSize: 'var(--text-sm)', fontFamily: 'monospace', color: 'var(--accent)', textAlign: 'right', fontWeight: 700 }}>
+                          {'residualAlpha' in c && typeof c.residualAlpha === 'number' ? c.residualAlpha.toFixed(1) : 'n/a'}
+                        </td>
+                      )}
+                      <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--ink-600)', textAlign: 'right' }}>
+                        {'marketCap' in c ? (
+                          <>
+                            <div style={{ color: 'var(--ink-800)', fontWeight: 700 }}>{c.latestPrice ?? 'Price n/a'}</div>
+                            <div>{c.marketCap}</div>
+                            {typeof c.ytdReturnPct === 'number' && <div style={{ color: 'var(--ink-400)' }}>{c.ytdReturnPct >= 0 ? '+' : ''}{c.ytdReturnPct.toFixed(1)}% YTD</div>}
+                          </>
+                        ) : (c as PrivateCompany).valuation}
+                      </td>
                       <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 700, color: c.alpha >= 100 ? 'var(--accent)' : 'var(--ink-600)', textAlign: 'right' }}>{c.alpha}</td>
                     </tr>
                   ))}</tbody>
@@ -633,9 +661,9 @@ export default function RoboticsPage() {
           </p>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>Not financial advice. Alpha scores are framework-based, not price targets. Only publicly verifiable companies scored.</p>
           <div className="flex flex-wrap gap-4">
-            <a href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</a>
-            <a href="/bottleneck" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>Bottleneck Analysis</a>
-            <a href="/companies" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>100 Companies</a>
+            <Link href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</Link>
+            <Link href="/bottleneck" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>Bottleneck Analysis</Link>
+            <Link href="/companies" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>100 Companies</Link>
           </div>
         </div>
       </footer>

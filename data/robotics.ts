@@ -115,20 +115,23 @@ export interface AlphaCompany {
   ticker?: string;
   alpha: number;
   marketCap?: string;
+  latestPrice?: string;
+  ytdReturnPct?: number;
+  marketDataAsOf?: string;
   valuation?: string;
   keyFact: string;
 }
 
 export const topAlpha: AlphaCompany[] = [
-  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$4.82T', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
-  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.46T', keyFact: 'FSD→Optimus transfer, highest variance play' },
+  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$5.05T', latestPrice: '$207.83', ytdReturnPct: 10.05, marketDataAsOf: '2026-05-07', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
+  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.50T', latestPrice: '$398.73', ytdReturnPct: -8.98, marketDataAsOf: '2026-05-07', keyFact: 'FSD→Optimus transfer, highest variance play' },
   { rank: 3, company: 'Figure AI', type: 'Private', alpha: 111, valuation: '$39B', keyFact: 'Helix 02, BMW: 1,250+ hrs, 90K+ parts handled, $2B raised' },
-  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$4.64T', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
+  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$4.82T', latestPrice: '$398.04', ytdReturnPct: 26.3, marketDataAsOf: '2026-05-07', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
   { rank: 5, company: 'Skild AI', type: 'Private', alpha: 107, valuation: '>$14B', keyFact: 'Omni-bodied intelligence, $1.7B+ raised' },
-  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.93T', keyFact: 'Warehouse robotics at scale + Digit deployment' },
+  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.96T', latestPrice: '$274.99', ytdReturnPct: 21.41, marketDataAsOf: '2026-05-07', keyFact: 'Warehouse robotics at scale + Digit deployment' },
   { rank: 7, company: 'Scale AI', type: 'Private', alpha: 105, valuation: 'up to $25B', keyFact: 'Robotics data labeling + EgoVerse partner' },
   { rank: 8, company: 'Physical Intelligence', type: 'Private', alpha: 100, valuation: '>$11B (reported)', keyFact: 'pi0: 10,000+ hrs robot data, $600M raised' },
-  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$3.06T', keyFact: 'Azure robotics + OpenAI robotics alignment' },
+  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$3.08T', latestPrice: '$413.96', ytdReturnPct: -12.47, marketDataAsOf: '2026-05-07', keyFact: 'Azure robotics + OpenAI robotics alignment' },
   { rank: 10, company: '1X Technologies', type: 'Private', alpha: 99, valuation: '>$125M raised', keyFact: '14B world model, 900h human + 70h robot data' },
 ];
 
@@ -138,35 +141,39 @@ export interface PublicCompany {
   ticker: string;
   country: string;
   marketCap: string;
+  latestPrice?: string;
+  ytdReturnPct?: number;
+  marketDataAsOf?: string;
+  residualAlpha?: number;
   alpha: number;
 }
 
 export const publicCompanies: PublicCompany[] = [
-  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$4.82T', alpha: 111 },
-  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.46T', alpha: 111 },
-  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$4.64T', alpha: 108 },
-  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.93T', alpha: 105 },
-  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$3.06T', alpha: 99 },
-  { company: 'Symbotic', ticker: 'SYM', country: 'US', marketCap: '~$36.5B', alpha: 97 },
-  { company: 'Hon Hai (Foxconn)', ticker: '2317.TW', country: 'Taiwan', marketCap: '', alpha: 97 },
-  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$2.08T', alpha: 92 },
-  { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '~$160.2B', alpha: 86 },
-  { company: 'Hyundai Motor', ticker: '005380.KS', country: 'South Korea', marketCap: '', alpha: 86 },
-  { company: 'UBTECH Robotics', ticker: '9880.HK', country: 'China', marketCap: '', alpha: 85 },
-  { company: 'AMD', ticker: 'AMD', country: 'US', marketCap: '~$556.9B', alpha: 80 },
-  { company: 'Qualcomm', ticker: 'QCOM', country: 'US', marketCap: '~$196.6B', alpha: 79 },
-  { company: 'ABB', ticker: 'ABBN.SW', country: 'Switzerland', marketCap: '', alpha: 79 },
-  { company: 'Fanuc', ticker: '6954.T', country: 'Japan', marketCap: '', alpha: 77 },
-  { company: 'Serve Robotics', ticker: 'SERV', country: 'US', marketCap: '', alpha: 75 },
-  { company: 'Yaskawa', ticker: '6506.T', country: 'Japan', marketCap: '', alpha: 73 },
-  { company: 'Sony', ticker: '6758.T', country: 'Japan', marketCap: '', alpha: 67 },
-  { company: 'Harmonic Drive', ticker: '6324.T', country: 'Japan', marketCap: '', alpha: 67 },
-  { company: 'Keyence', ticker: '6861.T', country: 'Japan', marketCap: '', alpha: 66 },
-  { company: 'Nabtesco', ticker: '6268.T', country: 'Japan', marketCap: '', alpha: 66 },
-  { company: 'BMW', ticker: 'BMW.DE', country: 'Germany', marketCap: '', alpha: 65 },
-  { company: 'Cognex', ticker: 'CGNX', country: 'US', marketCap: '', alpha: 64 },
-  { company: 'Nidec', ticker: '6594.T', country: 'Japan', marketCap: '', alpha: 62 },
-  { company: 'Ouster', ticker: 'OUST', country: 'US', marketCap: '~$1.8B', alpha: 57 },
+  { company: 'Serve Robotics', ticker: 'SERV', country: 'US', marketCap: '~$723M', latestPrice: '$9.58', ytdReturnPct: -19.02, marketDataAsOf: '2026-05-07', residualAlpha: 91.8, alpha: 75 },
+  { company: 'Ouster', ticker: 'OUST', country: 'US', marketCap: '~$1.9B', latestPrice: '$29.39', ytdReturnPct: 25.78, marketDataAsOf: '2026-05-07', residualAlpha: 85.7, alpha: 57 },
+  { company: 'UBTECH Robotics', ticker: '9880.HK', country: 'China', marketCap: '~$6.8B', latestPrice: 'HKD 109.80', ytdReturnPct: -16.18, marketDataAsOf: '2026-05-07', residualAlpha: 82.2, alpha: 85 },
+  { company: 'Harmonic Drive', ticker: '6324.T', country: 'Japan', marketCap: '~$3.1B', latestPrice: 'JPY 5,710', ytdReturnPct: 48.7, marketDataAsOf: '2026-05-07', residualAlpha: 78.2, alpha: 67 },
+  { company: 'Nabtesco', ticker: '6268.T', country: 'Japan', marketCap: '~$3.8B', latestPrice: 'JPY 5,253', ytdReturnPct: 37.15, marketDataAsOf: '2026-05-07', residualAlpha: 75.7, alpha: 66 },
+  { company: 'Cognex', ticker: 'CGNX', country: 'US', marketCap: '~$9.8B', latestPrice: '$62.26', ytdReturnPct: 68.59, marketDataAsOf: '2026-05-07', residualAlpha: 52.8, alpha: 64 },
+  { company: 'Yaskawa', ticker: '6506.T', country: 'Japan', marketCap: '~$9.2B', latestPrice: 'JPY 5,973', ytdReturnPct: 20.33, marketDataAsOf: '2026-05-07', residualAlpha: 40.9, alpha: 73 },
+  { company: 'Nidec', ticker: '6594.T', country: 'Japan', marketCap: '~$17.6B', latestPrice: 'JPY 2,593', ytdReturnPct: 23.95, marketDataAsOf: '2026-05-07', residualAlpha: 35.9, alpha: 62 },
+  { company: 'Hyundai Motor', ticker: '005380.KS', country: 'South Korea', marketCap: '~$86.7B', latestPrice: 'KRW 572,000', ytdReturnPct: 91.62, marketDataAsOf: '2026-05-07', residualAlpha: 27.6, alpha: 86 },
+  { company: 'Hon Hai (Foxconn)', ticker: '2317.TW', country: 'Taiwan', marketCap: '~$101.3B', latestPrice: 'TWD 253.50', ytdReturnPct: 9.27, marketDataAsOf: '2026-05-07', residualAlpha: 19.6, alpha: 97 },
+  { company: 'BMW', ticker: 'BMW.DE', country: 'Germany', marketCap: '~$54.3B', latestPrice: 'EUR 83.02', ytdReturnPct: -13.81, marketDataAsOf: '2026-05-07', residualAlpha: 19.2, alpha: 65 },
+  { company: 'Symbotic', ticker: 'SYM', country: 'US', marketCap: '~$36.8B', latestPrice: '$61.16', ytdReturnPct: -5.72, marketDataAsOf: '2026-05-07', residualAlpha: 17.6, alpha: 97 },
+  { company: 'Fanuc', ticker: '6954.T', country: 'Japan', marketCap: '~$40.7B', latestPrice: 'JPY 7,095', ytdReturnPct: 12.55, marketDataAsOf: '2026-05-07', residualAlpha: 6.6, alpha: 77 },
+  { company: 'Sony', ticker: '6758.T', country: 'Japan', marketCap: '~$118.2B', latestPrice: 'JPY 3,130', ytdReturnPct: -23.27, marketDataAsOf: '2026-05-07', residualAlpha: 6.2, alpha: 67 },
+  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.50T', latestPrice: '$398.73', ytdReturnPct: -8.98, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 111 },
+  { company: 'Keyence', ticker: '6861.T', country: 'Japan', marketCap: '~$118.7B', latestPrice: 'JPY 79,350', ytdReturnPct: 38.77, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 66 },
+  { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '~$160.0B', latestPrice: '$451.73', ytdReturnPct: -19.62, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 86 },
+  { company: 'ABB', ticker: 'ABBN.SW', country: 'Switzerland', marketCap: '~$188.2B', latestPrice: 'CHF 82.60', ytdReturnPct: 34.88, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 79 },
+  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$2.16T', latestPrice: '$419.50', ytdReturnPct: 31.25, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 92 },
+  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.96T', latestPrice: '$274.99', ytdReturnPct: 21.41, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 105 },
+  { company: 'Qualcomm', ticker: 'QCOM', country: 'US', marketCap: '~$203.0B', latestPrice: '$192.57', ytdReturnPct: 11.33, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 79 },
+  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$3.08T', latestPrice: '$413.96', ytdReturnPct: -12.47, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 99 },
+  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$4.82T', latestPrice: '$398.04', ytdReturnPct: 26.3, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 108 },
+  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$5.05T', latestPrice: '$207.83', ytdReturnPct: 10.05, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 111 },
+  { company: 'AMD', ticker: 'AMD', country: 'US', marketCap: '~$687.1B', latestPrice: '$421.39', ytdReturnPct: 88.57, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 80 }
 ];
 
 // Full private companies list

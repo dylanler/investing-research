@@ -99,15 +99,14 @@ function Card({ children, style }: { children: React.ReactNode; style?: React.CS
    Particle Field
    ═══════════════════════════════════════════════════════════════ */
 function ParticleField() {
-  const particles = useMemo(() =>
-    Array.from({ length: 30 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: 1 + Math.random() * 2,
-      duration: 3 + Math.random() * 5,
-      delay: Math.random() * 4,
-    })), []);
+  const particles = Array.from({ length: 30 }, (_, i) => ({
+    id: i,
+    x: (i * 37) % 100,
+    y: (i * 53) % 100,
+    size: 1 + ((i * 17) % 20) / 10,
+    duration: 3 + ((i * 29) % 50) / 10,
+    delay: ((i * 31) % 40) / 10,
+  }));
 
   return (
     <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
@@ -200,6 +199,17 @@ function fmtCap(n: number) {
   return `$${n}`;
 }
 
+function fmtPrice(value?: number, currency?: string) {
+  if (typeof value !== 'number') return 'n/a';
+  const formatted = new Intl.NumberFormat('en-US', { maximumFractionDigits: value >= 1000 ? 0 : 2 }).format(value);
+  return currency === 'USD' ? `$${formatted}` : `${currency ?? ''} ${formatted}`.trim();
+}
+
+function fmtYtd(value?: number) {
+  if (typeof value !== 'number') return 'n/a';
+  return `${value >= 0 ? '+' : ''}${value.toFixed(1)}%`;
+}
+
 function bucketLabel(b: string) {
   return b.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
@@ -249,7 +259,7 @@ export default function ScalingPage() {
 
   const currentList = companyTab === 'public' ? publicWatchlist : privateWatchlist;
   const filteredCompanies = useMemo(() => {
-    let list = bucketFilter === 'all' ? [...currentList] : currentList.filter(c => c.bucket === bucketFilter);
+    const list = bucketFilter === 'all' ? [...currentList] : currentList.filter(c => c.bucket === bucketFilter);
     list.sort((a, b) => {
       const av = (a as unknown as Record<string, unknown>)[sortField];
       const bv = (b as unknown as Record<string, unknown>)[sortField];
@@ -304,7 +314,7 @@ export default function ScalingPage() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Report IV &middot; Published March 27, 2026 &middot; Updated May 5, 2026
+              Report IV &middot; Published March 27, 2026 &middot; Updated May 7, 2026
             </div>
           </Reveal>
 
@@ -352,9 +362,9 @@ export default function ScalingPage() {
                 fontSize: 'var(--text-sm)',
                 lineHeight: 1.7,
               }}>
-                <li>OpenAI's GPT-5.4-Cyber and Anthropic's Claude Opus 4.7 both lean harder into verified, long-running agent workflows.</li>
-                <li>On Apr. 16, arXiv's "Scaling Test-Time Compute for Agentic Coding" introduced Recursive Tournament Voting and Parallel-Distill-Refine for long-horizon coding agents.</li>
-                <li>AWS Trainium's Apr. 15 speculative-decoding guide reports up to 3x faster token generation on decode-heavy workloads when the draft model can predict well.</li>
+                <li>OpenAI&apos;s GPT-5.4-Cyber and Anthropic&apos;s Claude Opus 4.7 both lean harder into verified, long-running agent workflows.</li>
+                <li>On Apr. 16, arXiv&apos;s &ldquo;Scaling Test-Time Compute for Agentic Coding&rdquo; introduced Recursive Tournament Voting and Parallel-Distill-Refine for long-horizon coding agents.</li>
+                <li>AWS Trainium&apos;s Apr. 15 speculative-decoding guide reports up to 3x faster token generation on decode-heavy workloads when the draft model can predict well.</li>
               </ul>
             </Card>
           </Reveal>
@@ -865,7 +875,8 @@ export default function ScalingPage() {
                   { key: 'country', label: 'Country', showWhen: 'public' as const },
                   { key: 'exchange', label: 'Exchange', showWhen: 'public' as const },
                   { key: 'bucket', label: 'Bucket' },
-                  { key: companyTab === 'public' ? 'marketCapUsd' : 'funding', label: companyTab === 'public' ? 'Market Cap' : 'Funding' },
+                  { key: companyTab === 'public' ? 'residualAlphaScore' : 'funding', label: companyTab === 'public' ? 'Residual' : 'Funding' },
+                  { key: 'marketCapUsd', label: 'Price / Cap', showWhen: 'public' as const },
                   { key: 'whyFits', label: 'Why It Fits' },
                 ].filter(col => !('showWhen' in col) || col.showWhen === companyTab).map(col => (
                   <th
@@ -912,14 +923,31 @@ export default function ScalingPage() {
                         }}>{bucketLabel(c.bucket)}</span>
                       </td>
                       <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', whiteSpace: 'nowrap' }}>
-                        {pub ? fmtCap(pub.marketCapUsd) : priv?.funding}
+                        {pub ? (
+                          <span style={{ fontFamily: 'monospace', fontWeight: 700 }}>
+                            {typeof pub.residualAlphaScore === 'number' ? pub.residualAlphaScore.toFixed(1) : 'n/a'}
+                          </span>
+                        ) : priv?.funding}
                       </td>
+                      {pub && (
+                        <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', whiteSpace: 'nowrap', fontSize: 'var(--text-xs)' }}>
+                          <div style={{ fontFamily: 'monospace', color: 'var(--ink-800)', fontWeight: 700 }}>
+                            {fmtPrice(pub.latestPrice, pub.latestCurrency)}
+                          </div>
+                          <div style={{ fontFamily: 'monospace', color: 'var(--ink-500)' }}>
+                            {fmtCap(pub.latestMarketCapUsd ?? pub.marketCapUsd)}
+                          </div>
+                          <div style={{ fontFamily: 'monospace', color: 'var(--ink-400)' }}>
+                            {fmtYtd(pub.ytdReturnPct)} YTD
+                          </div>
+                        </td>
+                      )}
                       <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', maxWidth: 260 }}>{c.whyFits}</td>
                     </tr>
                     <AnimatePresence>
                       {expandedCompany === i && (
                         <tr>
-                          <td colSpan={isPublic ? 8 : 6} style={{ padding: 0 }}>
+                          <td colSpan={isPublic ? 9 : 6} style={{ padding: 0 }}>
                             <motion.div
                               initial={{ height: 0, opacity: 0 }}
                               animate={{ height: 'auto', opacity: 1 }}

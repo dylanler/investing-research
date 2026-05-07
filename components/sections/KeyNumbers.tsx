@@ -57,7 +57,7 @@ export default function KeyNumbers() {
             </div>
           </div>
           <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', lineHeight: 1.6 }}>
-            HBM 2026 forecasts are around $54.6B, and Nvidia's implied CoWoS need now sits near 940K wafers.
+            HBM 2026 forecasts are around $54.6B, and Nvidia&apos;s implied CoWoS need now sits near 940K wafers.
             <div style={{ marginTop: 4, fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
               Source: {' '}
               <a href="https://www.trendforce.com/research/download/RP260421CP3" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>

@@ -187,6 +187,42 @@ function formatScore(value: number): string {
   return value.toFixed(1);
 }
 
+function formatMarketCap(value: number | null): string {
+  if (value === null || !Number.isFinite(value)) {
+    return 'Cap n/a';
+  }
+
+  if (value >= 1000) {
+    return `$${(value / 1000).toFixed(2)}T`;
+  }
+
+  if (value >= 10) {
+    return `$${value.toFixed(1)}B`;
+  }
+
+  return `$${value.toFixed(2)}B`;
+}
+
+function formatPrice(value: number | null, currency: string): string {
+  if (value === null || !Number.isFinite(value)) {
+    return 'Price n/a';
+  }
+
+  const formatted = new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: value >= 1000 ? 0 : 2,
+  }).format(value);
+
+  return currency === 'USD' ? `$${formatted}` : `${currency || ''} ${formatted}`.trim();
+}
+
+function formatPercent(value: number | null): string {
+  if (value === null || !Number.isFinite(value)) {
+    return 'YTD n/a';
+  }
+
+  return `${value >= 0 ? '+' : ''}${value.toFixed(1)}% YTD`;
+}
+
 function shortText(value: string, maxLength: number): string {
   if (value.length <= maxLength) {
     return value;
@@ -1374,10 +1410,10 @@ function StrictExplorer({ data }: { data: LatentAiNodesData }) {
         Showing {formatCount(visibleRows.length)} of {formatCount(data.strictCompanies.length)} strict candidates
       </div>
       <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1120 }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1260 }}>
           <thead>
             <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
-              {['Rank', 'Ticker', 'Company', 'Score', 'Bucket', 'Risk', 'Latent pathway', 'Current-chain screen', 'Overlap'].map((heading) => (
+              {['Rank', 'Ticker', 'Company', 'Score', 'Price / cap', 'Bucket', 'Risk', 'Latent pathway', 'Current-chain screen', 'Overlap'].map((heading) => (
                 <th key={heading} style={{ padding: '10px 12px', borderBottom: '1px solid var(--ink-100)' }}>
                   {heading}
                 </th>
@@ -1406,6 +1442,22 @@ function StrictExplorer({ data }: { data: LatentAiNodesData }) {
                     <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
                       {formatScore(company.alphaScore)}
                     </span>
+                    {company.priceReratingPenaltyScore && company.priceReratingPenaltyScore > 0 ? (
+                      <div style={{ color: COLORS.rose, fontSize: '0.72rem', marginTop: 5 }}>
+                        -{formatScore(company.priceReratingPenaltyScore)} rerate
+                      </div>
+                    ) : null}
+                  </td>
+                  <td style={{ padding: 12, minWidth: 118 }}>
+                    <div style={{ color: 'var(--ink-950)', fontSize: '0.8rem', fontFamily: 'monospace', fontWeight: 850 }}>
+                      {formatPrice(company.latestPrice, company.latestCurrency)}
+                    </div>
+                    <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 4 }}>
+                      {formatMarketCap(company.latestMarketCapUsdB)}
+                    </div>
+                    <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 2 }}>
+                      {formatPercent(company.latestYtdReturnPct)}
+                    </div>
                   </td>
                   <td style={{ padding: 12, minWidth: 160, color: 'var(--ink-700)', fontSize: '0.82rem', fontWeight: 750 }}>
                     {company.bucket}
@@ -1959,10 +2011,10 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
             Showing {formatCount(visibleRows.length)} of {formatCount(data.companies.length)} companies
           </div>
           <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1180 }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1320 }}>
               <thead>
                 <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
-                  {['Rank', 'Ticker', 'Company', 'Score', 'Theme', 'Latent AI asset', 'Thesis', 'Catalysts / risks', 'Sources'].map((heading) => (
+                  {['Rank', 'Ticker', 'Company', 'Score', 'Price / cap', 'Theme', 'Latent AI asset', 'Thesis', 'Catalysts / risks', 'Sources'].map((heading) => (
                     <th key={heading} style={{ padding: '10px 12px', borderBottom: '1px solid var(--ink-100)' }}>
                       {heading}
                     </th>
@@ -1993,6 +2045,22 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
                         </span>
                         <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 5 }}>
                           {company.conviction}
+                        </div>
+                        {company.priceReratingPenaltyScore && company.priceReratingPenaltyScore > 0 ? (
+                          <div style={{ color: COLORS.rose, fontSize: '0.72rem', marginTop: 3 }}>
+                            -{formatScore(company.priceReratingPenaltyScore)} rerate
+                          </div>
+                        ) : null}
+                      </td>
+                      <td style={{ padding: 12, minWidth: 118 }}>
+                        <div style={{ color: 'var(--ink-950)', fontSize: '0.8rem', fontFamily: 'monospace', fontWeight: 850 }}>
+                          {formatPrice(company.latestPrice, company.latestCurrency)}
+                        </div>
+                        <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 4 }}>
+                          {formatMarketCap(company.latestMarketCapUsdB)}
+                        </div>
+                        <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 2 }}>
+                          {formatPercent(company.latestYtdReturnPct)}
                         </div>
                       </td>
                       <td style={{ padding: 12, minWidth: 170, color: 'var(--ink-700)', fontSize: '0.82rem', fontWeight: 750 }}>
@@ -2305,8 +2373,8 @@ function MethodSection({ data }: { data: LatentAiNodesData }) {
             ))}
           </div>
           <p style={{ margin: '18px 0 0', color: 'var(--ink-500)', fontSize: '0.82rem', lineHeight: 1.55 }}>
-            This page uses the provided dataset generated on {data.metrics.generatedLabel}. It does not update prices,
-            estimates, market caps, or corporate actions in real time.
+            Market data was refreshed on {data.metrics.generatedLabel} from Yahoo Finance chart and quote endpoints.
+            It does not update estimates, corporate actions, or thesis evidence in real time.
           </p>
         </Panel>
       </Reveal>

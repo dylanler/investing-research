@@ -192,7 +192,7 @@ async function loadReportData(): Promise<ReportData> {
     type: 'Market data',
     title: 'Yahoo Finance chart endpoint',
     url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
-    usedFor: 'May 5, 2026 latest prices and YTD return refresh for public tickers.',
+    usedFor: 'May 7, 2026 latest prices and YTD return refresh for public tickers.',
   });
 
   const topCategory = [...bottleneckCategories].sort(

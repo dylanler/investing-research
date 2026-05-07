@@ -1479,7 +1479,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-                  <TonePill tone="neutral">Published April 20, 2026 · Updated May 5, 2026</TonePill>
+                  <TonePill tone="neutral">Published April 20, 2026 · Updated May 7, 2026</TonePill>
                 </div>
 
                 <div

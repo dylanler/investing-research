@@ -39,6 +39,15 @@ interface RawCompany {
   execution_quality: number;
   hype_penalty: number;
   alpha_score: number;
+  latest_price?: number | null;
+  latest_currency?: string;
+  latest_market_cap_usd?: number | null;
+  latest_market_cap_usd_b?: number | null;
+  latest_ytd_return_pct?: number | null;
+  market_data_as_of?: string;
+  market_data_source?: string;
+  base_alpha_score?: number | null;
+  price_rerating_penalty_score?: number | null;
   conviction: string;
   thesis: string;
   catalysts: string;
@@ -73,6 +82,15 @@ interface RawStrictCompany {
   'Execution/Quality': number;
   'Hype Penalty': number;
   'Market Cap USD bn': number | null;
+  'Latest Price'?: number | null;
+  'Latest Currency'?: string;
+  'Latest Market Cap USD'?: number | null;
+  'Latest Market Cap USD bn'?: number | null;
+  'Latest YTD Return %'?: number | null;
+  'Market Data As Of'?: string;
+  'Market Data Source'?: string;
+  'Base Alpha Score'?: number | null;
+  'Price Rerating Penalty Score'?: number | null;
   'PE Ratio': number | null;
   'Market Cap Tier': string;
   'Latent AI Pathway': string;
@@ -107,6 +125,24 @@ function optionalNumber(value: number | null | undefined): number | null {
   return value;
 }
 
+function formatDateLabel(value: string | undefined): string {
+  if (!value) {
+    return 'May 6, 2026';
+  }
+
+  const [year, month, day] = value.split('-').map(Number);
+  if (!year || !month || !day) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(Date.UTC(year, month - 1, day)));
+}
+
 function normalizeCompany(row: RawCompany): LatentCompany {
   return {
     region: row.region,
@@ -125,6 +161,15 @@ function normalizeCompany(row: RawCompany): LatentCompany {
     executionQuality: row.execution_quality,
     hypePenalty: row.hype_penalty,
     alphaScore: row.alpha_score,
+    latestPrice: optionalNumber(row.latest_price),
+    latestCurrency: row.latest_currency ?? '',
+    latestMarketCapUsd: optionalNumber(row.latest_market_cap_usd),
+    latestMarketCapUsdB: optionalNumber(row.latest_market_cap_usd_b),
+    latestYtdReturnPct: optionalNumber(row.latest_ytd_return_pct),
+    marketDataAsOf: row.market_data_as_of ?? '',
+    marketDataSource: row.market_data_source ?? '',
+    baseAlphaScore: optionalNumber(row.base_alpha_score),
+    priceReratingPenaltyScore: optionalNumber(row.price_rerating_penalty_score),
     conviction: row.conviction,
     thesis: row.thesis,
     catalysts: row.catalysts,
@@ -200,6 +245,15 @@ function normalizeStrictCompany(
     executionQuality: row['Execution/Quality'],
     hypePenalty: row['Hype Penalty'],
     marketCapUsdBn: optionalNumber(row['Market Cap USD bn']),
+    latestPrice: optionalNumber(row['Latest Price']),
+    latestCurrency: row['Latest Currency'] ?? '',
+    latestMarketCapUsd: optionalNumber(row['Latest Market Cap USD']),
+    latestMarketCapUsdB: optionalNumber(row['Latest Market Cap USD bn']),
+    latestYtdReturnPct: optionalNumber(row['Latest YTD Return %']),
+    marketDataAsOf: row['Market Data As Of'] ?? '',
+    marketDataSource: row['Market Data Source'] ?? '',
+    baseAlphaScore: optionalNumber(row['Base Alpha Score']),
+    priceReratingPenaltyScore: optionalNumber(row['Price Rerating Penalty Score']),
     peRatio: optionalNumber(row['PE Ratio']),
     marketCapTier: row['Market Cap Tier'],
     latentAiPathway: row['Latent AI Pathway'],
@@ -305,6 +359,10 @@ async function loadReportData(): Promise<LatentAiNodesData> {
   }));
   const overlapCount = strictCompanies.filter((company) => company.overlapStatus === 'overlap').length;
   const topStrict = strictCompanies[0];
+  const generatedLabel = formatDateLabel(
+    companies.find((company) => company.marketDataAsOf)?.marketDataAsOf ??
+      strictCompanies.find((company) => company.marketDataAsOf)?.marketDataAsOf,
+  );
 
   return {
     companies,
@@ -340,7 +398,7 @@ async function loadReportData(): Promise<LatentAiNodesData> {
       topCompany: topCompany?.company ?? '',
       topScore: topCompany?.alphaScore ?? 0,
       topTheme: topCompany?.theme ?? '',
-      generatedLabel: 'May 6, 2026',
+      generatedLabel,
     },
     downloadBaseHref: '/reports/latent-ai-nodes',
     rawDashboardHref: '/reports/latent-ai-nodes/raw/ai_alpha_dashboard/index.html',

@@ -56,6 +56,7 @@ CURRENCY_TO_USD_SYMBOL = {
     "GBP": "GBPUSD=X",
     "CAD": "CADUSD=X",
     "SEK": "SEKUSD=X",
+    "NOK": "NOKUSD=X",
     "HKD": "HKDUSD=X",
     "INR": "INRUSD=X",
     "ILS": "ILSUSD=X",
@@ -82,14 +83,18 @@ LISTING_SUFFIXES = {
     "PAR": ".PA",
     "Euronext Paris": ".PA",
     "Euronext Amsterdam": ".AS",
+    "Euronext Brussels": ".BR",
     "XETRA": ".DE",
+    "Xetra": ".DE",
     "TSE": ".T",
+    "Tokyo": ".T",
     "TWSE": ".TW",
     "KRX": ".KS",
     "KOSPI": ".KS",
     "KOSDAQ": ".KQ",
     "HKEX": ".HK",
     "LSE": ".L",
+    "LSE AIM": ".L",
     "NSE": ".NS",
     "SSE": ".SS",
     "Shanghai Stock Exchange": ".SS",
@@ -99,10 +104,16 @@ LISTING_SUFFIXES = {
     "ASX": ".AX",
     "Australian Securities Exchange": ".AX",
     "Vienna Stock Exchange": ".VI",
+    "Vienna": ".VI",
     "CPH": ".CO",
     "Copenhagen": ".CO",
     "BIT": ".MI",
     "Borsa Italiana": ".MI",
+    "Oslo": ".OL",
+    "Oslo Stock Exchange": ".OL",
+    "TSX": ".TO",
+    "TSX/NYSE": ".TO",
+    "NYSE American": "",
     "TSXV": ".V",
     "TSXV/OTC": ".V",
     "Warsaw": ".WA",
@@ -132,6 +143,7 @@ EXCHANGE_PREFIX_SUFFIXES = {
     "LSE": ".L",
     "XETRA": ".DE",
     "ETR": ".DE",
+    "TSX": ".TO",
     "NSE": ".NS",
     "SSE": ".SS",
     "SHA": ".SS",
@@ -326,6 +338,38 @@ def collect_csv(path: str, page: str, ticker_col: str = "ticker", company_col: s
     return refs
 
 
+def collect_latent_ai_nodes() -> list[TickerRef]:
+    refs: list[TickerRef] = []
+    broad_path = ROOT / "public" / "reports" / "latent-ai-nodes" / "data" / "companies.json"
+    if broad_path.exists():
+        for row in json.loads(broad_path.read_text()):
+            symbol = yahoo_symbol(str(row.get("ticker", "")), str(row.get("exchange", "")))
+            if symbol:
+                refs.append(
+                    TickerRef(
+                        symbol,
+                        str(row.get("ticker", symbol)),
+                        str(row.get("company", "")),
+                        "latent-ai-nodes",
+                    )
+                )
+
+    strict_path = ROOT / "public" / "reports" / "latent-ai-nodes" / "strict" / "data" / "companies_strict_latent.json"
+    if strict_path.exists():
+        for row in json.loads(strict_path.read_text()):
+            symbol = yahoo_symbol(str(row.get("Ticker", "")), str(row.get("Exchange", "")))
+            if symbol:
+                refs.append(
+                    TickerRef(
+                        symbol,
+                        str(row.get("Ticker", symbol)),
+                        str(row.get("Company", "")),
+                        "latent-ai-nodes-strict",
+                    )
+                )
+    return refs
+
+
 def collect_signals() -> list[TickerRef]:
     refs = []
     for path in sorted((ROOT / "public" / "reports" / "twitter-ai-supply-chain" / "data").glob("twitter_ai_stock_report_*/stocks.json")):
@@ -347,6 +391,7 @@ def collect_all_refs() -> list[TickerRef]:
     refs.extend(collect_beneficiaries())
     refs.extend(collect_bottleneck_sectors())
     refs.extend(collect_signals())
+    refs.extend(collect_latent_ai_nodes())
     refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_top100_master.csv", "ai-passives"))
     refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_us_residual_alpha_50.csv", "ai-passives"))
     refs.extend(collect_csv("public/reports/ai-passives-alpha/data/revised_non_us_residual_alpha_50.csv", "ai-passives"))
@@ -417,6 +462,45 @@ def extract_market_cap_from_quote_page(symbol: str) -> float | None:
     return None
 
 
+def extract_market_cap_from_timeseries(symbol: str) -> tuple[float | None, str]:
+    encoded = urllib.parse.quote(symbol, safe="")
+    url = (
+        "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/"
+        f"timeseries/{encoded}?symbol={encoded}&type=trailingMarketCap&period1=0&period2={int(time.time())}"
+    )
+    try:
+        data = request_json(url)
+    except Exception:
+        return None, ""
+    results = data.get("timeseries", {}).get("result", [])
+    if not results:
+        return None, ""
+    caps = results[0].get("trailingMarketCap", [])
+    if not isinstance(caps, list):
+        return None, ""
+    candidates = [
+        cap
+        for cap in caps
+        if isinstance(cap, dict)
+        and isinstance(cap.get("reportedValue"), dict)
+        and cap["reportedValue"].get("raw") is not None
+    ]
+    if not candidates:
+        return None, ""
+    latest = sorted(candidates, key=lambda cap: str(cap.get("asOfDate", "")))[-1]
+    try:
+        return float(latest["reportedValue"]["raw"]), str(latest.get("currencyCode", ""))
+    except (TypeError, ValueError):
+        return None, ""
+
+
+def market_cap_fx_currency(price_currency: str, cap_currency: str) -> str:
+    currency = cap_currency or price_currency
+    if currency == "GBp":
+        return "GBP"
+    return currency
+
+
 def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
     encoded = urllib.parse.quote(symbol, safe="")
     result: dict[str, object] = {
@@ -428,6 +512,7 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
         "price": "",
         "previous_close": "",
         "ytd_return_pct": "",
+        "market_cap_currency": "",
         "market_cap_local": "",
         "market_cap_usd": "",
         "market_time": "",
@@ -463,7 +548,11 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
             else ""
         )
         market_cap_local = extract_market_cap_from_quote_page(symbol)
-        fx = fx_rates.get(currency, math.nan)
+        market_cap_currency = ""
+        if market_cap_local is None:
+            market_cap_local, market_cap_currency = extract_market_cap_from_timeseries(symbol)
+        cap_fx_currency = market_cap_fx_currency(currency, market_cap_currency)
+        fx = fx_rates.get(cap_fx_currency, math.nan)
         market_cap_usd = market_cap_local * fx if market_cap_local and fx and not math.isnan(fx) else None
         result.update(
             {
@@ -472,6 +561,7 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
                 "price": round(price, 6),
                 "previous_close": round(float(meta.get("chartPreviousClose") or first_close), 6),
                 "ytd_return_pct": round(ytd, 2) if not math.isnan(ytd) else "",
+                "market_cap_currency": market_cap_currency or currency,
                 "market_cap_local": round(market_cap_local, 2) if market_cap_local else "",
                 "market_cap_usd": round(market_cap_usd, 2) if market_cap_usd else "",
                 "market_time": market_time_iso,
@@ -628,6 +718,26 @@ def semiconductor_ai_nodes_rank_key(row: dict[str, str]) -> tuple[float, float, 
     )
 
 
+def latent_ai_rank_key(row: dict[str, object]) -> tuple[float, float, float, str]:
+    return (
+        -rank_sort_number(row.get("alpha_score", ""), 0),
+        rank_sort_number(row.get("latest_ytd_return_pct", ""), 999),
+        rank_sort_number(row.get("latest_market_cap_usd_b", ""), 1e18),
+        str(row.get("company", "")),
+    )
+
+
+def strict_latent_rank_key(row: dict[str, object]) -> tuple[float, float, float, str]:
+    risk_order = {"Low": 0, "Medium": 1, "High": 2}
+    return (
+        -rank_sort_number(row.get("Alpha Score", ""), 0),
+        risk_order.get(str(row.get("Current AI Chain Risk", "")), 9),
+        rank_sort_number(row.get("Latest YTD Return %", ""), 999),
+        rank_sort_number(row.get("Market Cap USD bn", ""), 1e18),
+        str(row.get("Company", "")),
+    )
+
+
 def rerank_rows(rows: list[dict[str, str]], rank_field: str, prior_field: str | None, key) -> None:
     rows.sort(key=key)
     for index, row in enumerate(rows, 1):
@@ -663,6 +773,23 @@ def update_signals(market_rows: dict[str, dict[str, object]]) -> None:
             stock["market_data_as_of"] = AS_OF
             stock["market_data_source"] = md["quote_url"]
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+        csv_path = path.parent / "twitter_ai_stock_universe.csv"
+        if csv_path.exists() and data:
+            existing_rows = read_csv(csv_path)
+            fields = list(existing_rows[0].keys()) if existing_rows else []
+            for field in ["ret_ytd", "market_data_as_of", "market_data_source"]:
+                if field not in fields:
+                    fields.append(field)
+            csv_rows = []
+            for stock in data:
+                next_row = {}
+                for field in fields:
+                    value = stock.get(field, "")
+                    if isinstance(value, list):
+                        value = "; ".join(str(item) for item in value)
+                    next_row[field] = value
+                csv_rows.append(next_row)
+            write_csv(csv_path, csv_rows, fields)
 
 
 def update_carbon(market_rows: dict[str, dict[str, object]]) -> None:
@@ -1110,6 +1237,192 @@ def sync_semiconductor_ai_node_outputs(base: Path, alpha_rows: list[dict[str, st
         write_csv(path, edge_rows, fields)
 
 
+def csv_cell(value: object) -> object:
+    if isinstance(value, list):
+        return ";".join(str(item) for item in value)
+    if value is None:
+        return ""
+    return value
+
+
+def write_json(path: Path, rows: list[dict[str, object]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n")
+
+
+def write_projected_csv(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) -> None:
+    projected = [
+        {field: csv_cell(row.get(field, "")) for field in fieldnames}
+        for row in rows
+    ]
+    write_csv(path, projected, fieldnames)
+
+
+def update_latent_ai_nodes(market_rows: dict[str, dict[str, object]]) -> None:
+    base = ROOT / "public" / "reports" / "latent-ai-nodes"
+    broad_path = base / "data" / "companies.json"
+    strict_path = base / "strict" / "data" / "companies_strict_latent.json"
+
+    if broad_path.exists():
+        broad_rows: list[dict[str, object]] = json.loads(broad_path.read_text())
+        for row in broad_rows:
+            symbol = yahoo_symbol(str(row.get("ticker", "")), str(row.get("exchange", "")))
+            md = market(symbol or "", market_rows) if symbol else None
+            base_score = number(row.get("base_alpha_score", ""))
+            if base_score is None:
+                base_score = number(row.get("alpha_score", ""))
+            if base_score is not None:
+                row["base_alpha_score"] = round(base_score, 1)
+            if md:
+                cap = number(md.get("market_cap_usd", ""))
+                row["latest_price"] = number(md.get("price", ""))
+                row["latest_currency"] = str(md.get("currency", ""))
+                row["latest_market_cap_usd"] = round(cap, 2) if cap else None
+                row["latest_market_cap_usd_b"] = round(cap / 1e9, 3) if cap else None
+                row["latest_ytd_return_pct"] = number(md.get("ytd_return_pct", ""))
+                row["market_data_as_of"] = AS_OF
+                row["market_data_source"] = str(md.get("quote_url", ""))
+            penalty = price_rerating_penalty(row.get("latest_ytd_return_pct", ""))
+            row["price_rerating_penalty_score"] = round(penalty, 1)
+            if base_score is not None:
+                row["alpha_score"] = round(max(0.0, base_score - penalty), 1)
+
+        broad_rows.sort(key=latent_ai_rank_key)
+        for index, row in enumerate(broad_rows, 1):
+            row["global_rank"] = index
+        by_region: dict[str, list[dict[str, object]]] = {}
+        for row in broad_rows:
+            by_region.setdefault(str(row.get("region", "")), []).append(row)
+        for region_rows in by_region.values():
+            region_rows.sort(key=latent_ai_rank_key)
+            for index, row in enumerate(region_rows, 1):
+                row["region_rank"] = index
+
+        broad_fields = [
+            "global_rank",
+            "region_rank",
+            "region",
+            "ticker",
+            "company",
+            "country",
+            "exchange",
+            "theme",
+            "latent_ai_asset",
+            "market_cap_bucket",
+            "ai_visibility",
+            "alpha_score",
+            "latent_fit",
+            "discovery_gap",
+            "valuation_gap",
+            "catalyst_density",
+            "execution_quality",
+            "hype_penalty",
+            "conviction",
+            "thesis",
+            "catalysts",
+            "risks",
+            "source_keys",
+            "latest_price",
+            "latest_currency",
+            "latest_market_cap_usd",
+            "latest_market_cap_usd_b",
+            "latest_ytd_return_pct",
+            "market_data_as_of",
+            "market_data_source",
+            "base_alpha_score",
+            "price_rerating_penalty_score",
+        ]
+        write_json(broad_path, broad_rows)
+        write_json(base / "raw" / "ai_alpha_dashboard" / "assets" / "data" / "companies.json", broad_rows)
+        write_projected_csv(base / "data" / "companies.csv", broad_rows, broad_fields)
+        write_projected_csv(
+            base / "raw" / "ai_alpha_dashboard" / "assets" / "data" / "companies.csv",
+            broad_rows,
+            broad_fields,
+        )
+
+    if strict_path.exists():
+        strict_rows: list[dict[str, object]] = json.loads(strict_path.read_text())
+        for row in strict_rows:
+            symbol = yahoo_symbol(str(row.get("Ticker", "")), str(row.get("Exchange", "")))
+            md = market(symbol or "", market_rows) if symbol else None
+            base_score = number(row.get("Base Alpha Score", ""))
+            if base_score is None:
+                base_score = number(row.get("Alpha Score", ""))
+            if base_score is not None:
+                row["Base Alpha Score"] = round(base_score, 1)
+            if md:
+                cap = number(md.get("market_cap_usd", ""))
+                row["Latest Price"] = number(md.get("price", ""))
+                row["Latest Currency"] = str(md.get("currency", ""))
+                row["Latest Market Cap USD"] = round(cap, 2) if cap else None
+                row["Latest Market Cap USD bn"] = round(cap / 1e9, 3) if cap else None
+                row["Market Cap USD bn"] = round(cap / 1e9, 3) if cap else row.get("Market Cap USD bn")
+                row["Latest YTD Return %"] = number(md.get("ytd_return_pct", ""))
+                row["Market Data As Of"] = AS_OF
+                row["Market Data Source"] = str(md.get("quote_url", ""))
+            penalty = price_rerating_penalty(row.get("Latest YTD Return %", ""))
+            row["Price Rerating Penalty Score"] = round(penalty, 1)
+            if base_score is not None:
+                row["Alpha Score"] = round(max(0.0, base_score - penalty), 1)
+
+        strict_rows.sort(key=strict_latent_rank_key)
+        by_region = {}
+        for row in strict_rows:
+            by_region.setdefault(str(row.get("Region", "")), []).append(row)
+        for region_rows in by_region.values():
+            region_rows.sort(key=strict_latent_rank_key)
+            for index, row in enumerate(region_rows, 1):
+                row["Rank in Region"] = index
+
+        strict_fields = [
+            "Region",
+            "Rank in Region",
+            "Ticker",
+            "Company",
+            "Country",
+            "Exchange",
+            "Alpha Score",
+            "Theme",
+            "Current AI Chain Risk",
+            "Evidence Confidence",
+            "Latent Fit",
+            "Discovery Gap",
+            "Valuation Setup",
+            "Catalyst Density",
+            "Execution/Quality",
+            "Hype Penalty",
+            "Market Cap USD bn",
+            "PE Ratio",
+            "Market Cap Tier",
+            "Latent AI Pathway",
+            "Current AI Supply-Chain Screen",
+            "Valuation Note",
+            "Source URL",
+            "Bucket",
+            "Latest Price",
+            "Latest Currency",
+            "Latest Market Cap USD",
+            "Latest Market Cap USD bn",
+            "Latest YTD Return %",
+            "Market Data As Of",
+            "Market Data Source",
+            "Base Alpha Score",
+            "Price Rerating Penalty Score",
+        ]
+        write_json(strict_path, strict_rows)
+        write_json(
+            base / "strict" / "raw" / "ai_strict_latent_alpha_dashboard" / "assets" / "data" / "companies_strict_latent.json",
+            strict_rows,
+        )
+        write_projected_csv(base / "strict" / "data" / "companies_strict_latent.csv", strict_rows, strict_fields)
+        write_projected_csv(
+            base / "strict" / "raw" / "ai_strict_latent_alpha_dashboard" / "assets" / "data" / "companies_strict_latent.csv",
+            strict_rows,
+            strict_fields,
+        )
+
+
 def update_companies100(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "companies100.ts"
     text = path.read_text()
@@ -1227,37 +1540,217 @@ def update_robotics(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "robotics.ts"
     text = path.read_text()
 
+    residual_bonus = {
+        "OUST": 36,
+        "SERV": 34,
+        "6324.T": 32,
+        "6268.T": 30,
+        "9880.HK": 28,
+        "CGNX": 16,
+    }
+    residual_demote = {
+        "NVDA": -35,
+        "TSLA": -30,
+        "GOOGL": -35,
+        "AMZN": -35,
+        "MSFT": -35,
+        "SYM": -16,
+        "ISRG": -24,
+        "6861.T": -22,
+        "6954.T": -18,
+        "ABBN.SW": -18,
+        "TSM": -32,
+        "AMD": -28,
+        "QCOM": -24,
+    }
+
+    def residual_robotics_score(ticker: str, base_alpha: float | None, cap_usd: float | None, ytd: float | None) -> float:
+        score = (base_alpha or 0) * 0.45
+        if cap_usd:
+            if cap_usd < 2e9:
+                score += 24
+            elif cap_usd < 8e9:
+                score += 16
+            elif cap_usd < 25e9:
+                score += 8
+            elif cap_usd > 100e9:
+                score -= 24
+            elif cap_usd > 25e9:
+                score -= 10
+        score += residual_bonus.get(ticker, 0)
+        score += residual_demote.get(ticker, 0)
+        score -= price_rerating_penalty(ytd)
+        return max(0, score)
+
     def repl(match: re.Match[str]) -> str:
         block = match.group(0)
         ticker = re.search(r"ticker: '([^']+)'", block)
         if not ticker:
             return block
         md = market(yahoo_symbol(ticker.group(1)) or "", market_rows)
-        if not md:
-            return block
-        cap_string = money_string(number(md["market_cap_usd"]))
+        cap = number(md["market_cap_usd"]) if md else None
+        price = price_string(number(md["price"]), str(md["currency"])) if md else ""
+        ytd = number(md["ytd_return_pct"]) if md else None
+        cap_string = money_string(cap)
+        base_alpha_match = re.search(r"alpha: ([0-9.]+)", block)
+        base_alpha = number(base_alpha_match.group(1)) if base_alpha_match else None
+        residual_score = residual_robotics_score(ticker.group(1), base_alpha, cap, ytd)
+        block = re.sub(
+            r", latestPrice: '[^']*', ytdReturnPct: [-0-9.]+, marketDataAsOf: '[^']*'",
+            "",
+            block,
+        )
+        block = re.sub(r", residualAlpha: [-0-9.]+", "", block)
         if cap_string and "marketCap:" in block:
-            block = re.sub(r"marketCap: '[^']*'", f"marketCap: '{cap_string}'", block)
+            addition = f"marketCap: '{cap_string}'"
+            if price and ytd is not None:
+                addition += f", latestPrice: '{price}', ytdReturnPct: {ytd}, marketDataAsOf: '{AS_OF}'"
+            if "publicCompanies" in text[text.rfind("export const", 0, match.start()):match.start()]:
+                addition += f", residualAlpha: {residual_score:.1f}"
+            block = re.sub(r"marketCap: '[^']*'", addition, block)
         return block
 
     text = re.sub(r"\{ rank: \d+, company: '[^']+'.*?\}", repl, text)
     text = re.sub(r"\{ company: '[^']+'.*?\}", repl, text)
+
+    public_match = re.search(r"export const publicCompanies: PublicCompany\[] = \[\n([\s\S]*?)\n\];", text)
+    if public_match:
+        blocks = re.findall(r"  \{ company: '[^']+'.*?\}", public_match.group(1))
+        scored = []
+        for block in blocks:
+            score = number(re.search(r"residualAlpha: ([0-9.]+)", block).group(1)) if re.search(r"residualAlpha: ([0-9.]+)", block) else 0
+            cap_text = re.search(r"marketCap: '([^']*)'", block)
+            scored.append((-(score or 0), cap_text.group(1) if cap_text else "", block))
+        scored.sort(key=lambda item: item[:2])
+        text = text[: public_match.start(1)] + ",\n".join(block for _score, _cap, block in scored) + text[public_match.end(1) :]
     path.write_text(text)
 
 
 def update_scaling(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "testTimeScaling.ts"
     text = path.read_text()
-    blocks = re.findall(r'\{\n    "rank": .*?\n  \}', text, flags=re.S)
+    public_match = re.search(
+        r"export const publicWatchlist: PublicName\[] = \[\n([\s\S]*?)\n\];",
+        text,
+    )
+    if not public_match:
+        path.write_text(text)
+        return
+
+    preferred_bonus = {
+        "VOLTAMP.NS": 36,
+        "6315.T": 32,
+        "COHU": 30,
+        "429A.T": 28,
+        "POET": 26,
+        "PDFS": 16,
+        "VLN": 14,
+        "YUBICO.ST": 12,
+        "SCT.NZ": 10,
+    }
+    crowding_demote = {
+        "WAF.F": -22,
+        "3532.TW": -18,
+        "SMHN.DE": -16,
+        "AEHR": -14,
+        "ALKAL.PA": -14,
+        "IQE.L": -10,
+        "STLTECH.NS": -10,
+        "BW": -9,
+        "AOSL": -9,
+        "WOLF": -12,
+        "EOSE": -7,
+    }
+    bucket_base = {
+        "electricity": 48,
+        "semiconductors": 46,
+        "robotics": 40,
+        "scientific_instruments": 34,
+        "it_security": 28,
+        "networking": 24,
+    }
+
+    def cap_torque(cap_usd: float | None) -> float:
+        if cap_usd is None:
+            return 0
+        if cap_usd < 250e6:
+            return 13
+        if cap_usd < 750e6:
+            return 10
+        if cap_usd < 2e9:
+            return 7
+        if cap_usd > 75e9:
+            return -25
+        if cap_usd > 10e9:
+            return -10
+        return 0
+
+    body = public_match.group(1)
+    blocks = re.findall(r'  \{\n    "rank": .*?\n  \}', body, flags=re.S)
+    updated_blocks: list[tuple[float, float, str, str]] = []
     for block in blocks:
         ticker = re.search(r'"ticker": "([^"]+)"', block)
+        company = re.search(r'"company": "([^"]+)"', block)
+        bucket = re.search(r'"bucket": "([^"]+)"', block)
+        current_rank = number(re.search(r'"rank": ([0-9]+)', block).group(1)) if re.search(r'"rank": ([0-9]+)', block) else None
         if not ticker:
             continue
         md = market(yahoo_symbol(ticker.group(1)) or "", market_rows)
-        if not md or not md.get("market_cap_usd"):
-            continue
-        new_block = re.sub(r'"marketCapUsd": [0-9.]+', f'"marketCapUsd": {int(number(md["market_cap_usd"]) or 0)}', block)
-        text = text.replace(block, new_block)
+        cap_usd = number(md["market_cap_usd"]) if md else number(re.search(r'"marketCapUsd": ([0-9.]+)', block).group(1)) if re.search(r'"marketCapUsd": ([0-9.]+)', block) else None
+        ytd = number(md["ytd_return_pct"]) if md else None
+        penalty = price_rerating_penalty(ytd)
+        score = (
+            bucket_base.get(bucket.group(1) if bucket else "", 25)
+            + preferred_bonus.get(ticker.group(1), 0)
+            + crowding_demote.get(ticker.group(1), 0)
+            + cap_torque(cap_usd)
+            - penalty
+        )
+
+        for field in [
+            "latestPrice",
+            "latestCurrency",
+            "latestMarketCapUsd",
+            "ytdReturnPct",
+            "marketDataAsOf",
+            "marketDataSource",
+            "baseRank",
+            "residualAlphaScore",
+            "reratingPenaltyScore",
+        ]:
+            block = re.sub(rf',?\n    "{field}": (?:"[^"]*"|[-0-9.]+|null)', "", block)
+
+        if md and cap_usd:
+            replacement = (
+                f'    "marketCapUsd": {int(cap_usd)},\n'
+                f'    "latestPrice": {md["price"]},\n'
+                f'    "latestCurrency": "{md["currency"]}",\n'
+                f'    "latestMarketCapUsd": {cap_usd:.2f},\n'
+                f'    "ytdReturnPct": {md["ytd_return_pct"]},\n'
+                f'    "marketDataAsOf": "{AS_OF}",\n'
+                f'    "marketDataSource": "{md["quote_url"]}",\n'
+                f'    "baseRank": {int(current_rank or 0)},\n'
+                f'    "residualAlphaScore": {score:.1f},\n'
+                f'    "reratingPenaltyScore": {penalty:.1f},'
+            )
+            block = re.sub(r'    "marketCapUsd": [0-9.]+,', replacement, block)
+        elif cap_usd:
+            block = re.sub(
+                r'    "marketCapUsd": [0-9.]+,',
+                f'    "marketCapUsd": {int(cap_usd)},\n'
+                f'    "baseRank": {int(current_rank or 0)},\n'
+                f'    "residualAlphaScore": {score:.1f},\n'
+                f'    "reratingPenaltyScore": {penalty:.1f},',
+                block,
+            )
+        updated_blocks.append((score, cap_usd or 1e18, company.group(1) if company else "", block))
+
+    updated_blocks.sort(key=lambda item: (-item[0], item[1], item[2]))
+    reranked = []
+    for index, (_score, _cap, _company, block) in enumerate(updated_blocks, 1):
+        reranked.append(re.sub(r'"rank": [0-9]+', f'"rank": {index}', block, count=1))
+
+    text = text[: public_match.start(1)] + ",\n".join(reranked) + text[public_match.end(1) :]
     path.write_text(text)
 
 
@@ -1359,6 +1852,7 @@ def write_market_artifacts(refs: list[TickerRef], market_rows: dict[str, dict[st
         "price",
         "previous_close",
         "ytd_return_pct",
+        "market_cap_currency",
         "market_cap_local",
         "market_cap_usd",
         "market_time",
@@ -1414,6 +1908,7 @@ def main() -> None:
     update_passives(market_rows)
     update_semiconductor_alpha(market_rows)
     update_semiconductor_ai_nodes(market_rows)
+    update_latent_ai_nodes(market_rows)
     update_companies100(market_rows)
     update_robotics(market_rows)
     update_scaling(market_rows)
