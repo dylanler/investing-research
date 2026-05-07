@@ -1,8 +1,18 @@
 import type { Metadata } from 'next';
 import { readFile } from 'fs/promises';
 import path from 'path';
+import { parseCsvObjects } from '@/lib/csv';
 import LatentAiNodesClient from './LatentAiNodesClient';
-import type { LatentAiNodesData, LatentCompany, SourceEntry, ThemeSummary } from './types';
+import type {
+  LatentAiNodesData,
+  LatentCompany,
+  SourceEntry,
+  StrictBucketSummary,
+  StrictExcludedRow,
+  StrictLatentCompany,
+  StrictSourceRow,
+  ThemeSummary,
+} from './types';
 
 export const metadata: Metadata = {
   title: 'Latent AI Nodes and Connections',
@@ -45,6 +55,33 @@ interface RawSourceEntry {
   note: string;
 }
 
+interface RawStrictCompany {
+  Region: string;
+  'Rank in Region': number;
+  Ticker: string;
+  Company: string;
+  Country: string;
+  Exchange: string;
+  'Alpha Score': number;
+  Theme: string;
+  'Current AI Chain Risk': string;
+  'Evidence Confidence': string;
+  'Latent Fit': number;
+  'Discovery Gap': number;
+  'Valuation Setup': number;
+  'Catalyst Density': number;
+  'Execution/Quality': number;
+  'Hype Penalty': number;
+  'Market Cap USD bn': number | null;
+  'PE Ratio': number | null;
+  'Market Cap Tier': string;
+  'Latent AI Pathway': string;
+  'Current AI Supply-Chain Screen': string;
+  'Valuation Note': string;
+  'Source URL': string;
+  Bucket: string;
+}
+
 function average(values: number[]): number {
   if (values.length === 0) {
     return 0;
@@ -56,6 +93,18 @@ function average(values: number[]): number {
 async function readJson<T>(fileName: string): Promise<T> {
   const body = await readFile(path.join(REPORT_DIR, fileName), 'utf8');
   return JSON.parse(body) as T;
+}
+
+async function readText(fileName: string): Promise<string> {
+  return readFile(path.join(REPORT_DIR, fileName), 'utf8');
+}
+
+function optionalNumber(value: number | null | undefined): number | null {
+  if (typeof value !== 'number' || !Number.isFinite(value)) {
+    return null;
+  }
+
+  return value;
 }
 
 function normalizeCompany(row: RawCompany): LatentCompany {
@@ -126,11 +175,77 @@ function buildThemeSummary(companies: LatentCompany[]): ThemeSummary[] {
     });
 }
 
+function normalizeStrictCompany(
+  row: RawStrictCompany,
+  strictGlobalRank: number,
+  broadByTicker: Map<string, LatentCompany>,
+): StrictLatentCompany {
+  const broadMatch = broadByTicker.get(row.Ticker);
+
+  return {
+    region: row.Region,
+    regionRank: row['Rank in Region'],
+    ticker: row.Ticker,
+    company: row.Company,
+    country: row.Country,
+    exchange: row.Exchange,
+    alphaScore: row['Alpha Score'],
+    theme: row.Theme,
+    currentAiChainRisk: row['Current AI Chain Risk'],
+    evidenceConfidence: row['Evidence Confidence'],
+    latentFit: row['Latent Fit'],
+    discoveryGap: row['Discovery Gap'],
+    valuationSetup: row['Valuation Setup'],
+    catalystDensity: row['Catalyst Density'],
+    executionQuality: row['Execution/Quality'],
+    hypePenalty: row['Hype Penalty'],
+    marketCapUsdBn: optionalNumber(row['Market Cap USD bn']),
+    peRatio: optionalNumber(row['PE Ratio']),
+    marketCapTier: row['Market Cap Tier'],
+    latentAiPathway: row['Latent AI Pathway'],
+    currentAiSupplyChainScreen: row['Current AI Supply-Chain Screen'],
+    valuationNote: row['Valuation Note'],
+    sourceUrl: row['Source URL'],
+    bucket: row.Bucket,
+    strictGlobalRank,
+    broadRank: broadMatch?.globalRank ?? null,
+    overlapStatus: broadMatch ? 'overlap' : 'strict-only',
+  };
+}
+
+function buildStrictBucketSummary(companies: StrictLatentCompany[]): StrictBucketSummary[] {
+  const byBucket = new Map<string, StrictLatentCompany[]>();
+  companies.forEach((company) => {
+    const existing = byBucket.get(company.bucket) ?? [];
+    existing.push(company);
+    byBucket.set(company.bucket, existing);
+  });
+
+  return Array.from(byBucket.entries())
+    .map(([bucket, rows]) => ({
+      bucket,
+      count: rows.length,
+      averageAlpha: average(rows.map((row) => row.alphaScore)),
+      averageDiscoveryGap: average(rows.map((row) => row.discoveryGap)),
+      lowRiskCount: rows.filter((row) => row.currentAiChainRisk === 'Low').length,
+      mediumRiskCount: rows.filter((row) => row.currentAiChainRisk === 'Medium').length,
+      highConfidenceCount: rows.filter((row) => row.evidenceConfidence === 'High').length,
+      topCompanies: [...rows]
+        .sort((left, right) => right.alphaScore - left.alphaScore || left.strictGlobalRank - right.strictGlobalRank)
+        .slice(0, 6),
+    }))
+    .sort((left, right) => right.count - left.count || right.averageAlpha - left.averageAlpha);
+}
+
 async function loadReportData(): Promise<LatentAiNodesData> {
-  const [rawCompanies, rawSources] = await Promise.all([
-    readJson<RawCompany[]>('data/companies.json'),
-    readJson<Record<string, RawSourceEntry>>('data/source_map.json'),
-  ]);
+  const [rawCompanies, rawSources, rawStrictCompanies, strictSourceCsv, strictExcludedCsv] =
+    await Promise.all([
+      readJson<RawCompany[]>('data/companies.json'),
+      readJson<Record<string, RawSourceEntry>>('data/source_map.json'),
+      readJson<RawStrictCompany[]>('strict/data/companies_strict_latent.json'),
+      readText('strict/data/source_pack.csv'),
+      readText('strict/data/excluded_direct_ai_supply_chain.csv'),
+    ]);
 
   const companies = rawCompanies
     .map(normalizeCompany)
@@ -166,11 +281,52 @@ async function loadReportData(): Promise<LatentAiNodesData> {
     0,
   );
   const themes = buildThemeSummary(companies);
+  const broadByTicker = new Map(companies.map((company) => [company.ticker, company]));
+  const strictCompanies = rawStrictCompanies
+    .sort(
+      (left, right) =>
+        right['Alpha Score'] - left['Alpha Score'] || left.Ticker.localeCompare(right.Ticker),
+    )
+    .map((row, index) => normalizeStrictCompany(row, index + 1, broadByTicker));
+  const strictTickerSet = new Set(strictCompanies.map((company) => company.ticker));
+  const strictBuckets = buildStrictBucketSummary(strictCompanies);
+  const strictSources: StrictSourceRow[] = parseCsvObjects(strictSourceCsv).map((row) => ({
+    use: row.Use,
+    title: row.Title,
+    url: row.URL,
+  }));
+  const strictExcluded: StrictExcludedRow[] = parseCsvObjects(strictExcludedCsv).map((row) => ({
+    ticker: row.Ticker,
+    company: row.Company,
+    countryListing: row['Country/Listing'],
+    category: row['Direct AI Supply-Chain Category'],
+    reasonExcluded: row['Reason Excluded'],
+    sourceUrl: row['Source URL'],
+  }));
+  const overlapCount = strictCompanies.filter((company) => company.overlapStatus === 'overlap').length;
+  const topStrict = strictCompanies[0];
 
   return {
     companies,
+    strictCompanies,
     sources,
+    strictSources,
+    strictExcluded,
     themes,
+    strictBuckets,
+    strictOverlap: {
+      strictCount: strictCompanies.length,
+      overlapCount,
+      strictOnlyCount: strictCompanies.length - overlapCount,
+      broadOnlyCount: companies.filter((company) => !strictTickerSet.has(company.ticker)).length,
+      excludedDirectCount: strictExcluded.length,
+      lowRiskCount: strictCompanies.filter((company) => company.currentAiChainRisk === 'Low').length,
+      mediumRiskCount: strictCompanies.filter((company) => company.currentAiChainRisk === 'Medium').length,
+      highRiskCount: strictCompanies.filter((company) => company.currentAiChainRisk === 'High').length,
+      topStrictTicker: topStrict?.ticker ?? '',
+      topStrictCompany: topStrict?.company ?? '',
+      topStrictScore: topStrict?.alphaScore ?? 0,
+    },
     metrics: {
       companyCount: companies.length,
       usCount: companies.filter((company) => company.region === 'US').length,
@@ -188,6 +344,8 @@ async function loadReportData(): Promise<LatentAiNodesData> {
     },
     downloadBaseHref: '/reports/latent-ai-nodes',
     rawDashboardHref: '/reports/latent-ai-nodes/raw/ai_alpha_dashboard/index.html',
+    strictRawDashboardHref:
+      '/reports/latent-ai-nodes/strict/raw/ai_strict_latent_alpha_dashboard/index.html',
   };
 }
 

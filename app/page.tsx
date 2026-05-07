@@ -2,14 +2,11 @@
 
 import { useEffect, useRef, useState, useMemo, useCallback, useSyncExternalStore } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import ResearchSiteNav from '@/components/layout/ResearchSiteNav';
 
-/* ══════════════════════════════════════════════════════════════════
-   Theme Toggle
-   ══════════════════════════════════════════════════════════════════ */
 function subscribeToClientMount() {
   return () => {};
 }
@@ -24,30 +21,6 @@ function getServerSnapshot() {
 
 function useIsClient() {
   return useSyncExternalStore(subscribeToClientMount, getClientSnapshot, getServerSnapshot);
-}
-
-function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const mounted = useIsClient();
-  if (!mounted) return <div style={{ width: 36, height: 36 }} />;
-
-  const isDark = theme === 'dark';
-  return (
-    <motion.button
-      onClick={() => setTheme(isDark ? 'light' : 'dark')}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
-      style={{
-        width: 36, height: 36, borderRadius: '50%',
-        background: 'var(--surface-raised)', border: '1px solid var(--ink-200)',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        cursor: 'pointer', color: 'var(--ink-600)', fontSize: 16,
-      }}
-      aria-label="Toggle theme"
-    >
-      {isDark ? '\u2600' : '\u263E'}
-    </motion.button>
-  );
 }
 
 /* ══════════════════════════════════════════════════════════════════
@@ -248,33 +221,7 @@ export default function Home() {
 
   return (
     <main style={{ background: 'var(--surface-page)', minHeight: '100vh', overflow: 'hidden' }}>
-
-      {/* ─── Top bar ─── */}
-      <nav style={{
-        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
-        padding: '12px 20px',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'var(--surface-overlay)', backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid var(--ink-100)',
-      }}>
-        <span style={{ fontSize: 'var(--text-xs)', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ink-500)' }}>
-          Research Terminal
-        </span>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <Link href="/bottleneck" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Bottleneck</Link>
-          <Link href="/companies" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Companies</Link>
-          <Link href="/robotics" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Robotics</Link>
-          <Link href="/scaling" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Scaling</Link>
-          <Link href="/signals" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Signals</Link>
-          <Link href="/carbon-vs-silicon" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Carbon vs Silicon</Link>
-          <Link href="/ai-passives-alpha" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Passives Alpha</Link>
-          <Link href="/blog/semiconductor-alpha-cpo" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Semi+CPO Alpha</Link>
-          <Link href="/blog/semiconductor-ai-nodes" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>AI Nodes</Link>
-          <Link href="/blog/latent-ai-nodes" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Latent AI</Link>
-          <Link href="/xiaojun-podcast-alpha-atlas" style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', textDecoration: 'none' }}>Podcast Alpha</Link>
-          <ThemeToggle />
-        </div>
-      </nav>
+      <ResearchSiteNav />
 
       {/* ─── HERO ─── */}
       <section style={{

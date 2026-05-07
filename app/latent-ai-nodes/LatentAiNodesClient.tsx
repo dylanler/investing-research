@@ -19,7 +19,12 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
-import type { LatentAiNodesData, SourceEntry, ThemeSummary } from './types';
+import type {
+  LatentAiNodesData,
+  SourceEntry,
+  StrictBucketSummary,
+  ThemeSummary,
+} from './types';
 
 const COLORS = {
   blue: '#2563eb',
@@ -136,6 +141,28 @@ interface ScoreStackRow {
   hypePenalty: number;
 }
 
+interface StrictScatterPoint {
+  ticker: string;
+  company: string;
+  bucket: string;
+  alphaScore: number;
+  discoveryGap: number;
+  chainRiskValue: number;
+  currentAiChainRisk: string;
+  overlapStatus: string;
+}
+
+interface StrictScoreRow {
+  ticker: string;
+  company: string;
+  latentFit: number;
+  discoveryGap: number;
+  valuationSetup: number;
+  catalystDensity: number;
+  executionQuality: number;
+  hypePenalty: number;
+}
+
 function subscribeToClientMount() {
   return () => {};
 }
@@ -179,6 +206,27 @@ function colorForTheme(theme: string, themes: ThemeSummary[]): string {
   }
 
   return COLORS.slate;
+}
+
+function colorForBucket(bucket: string, buckets: StrictBucketSummary[]): string {
+  const index = buckets.findIndex((row) => row.bucket === bucket);
+  if (index >= 0) {
+    return THEME_PALETTE[index % THEME_PALETTE.length];
+  }
+
+  return COLORS.slate;
+}
+
+function riskColor(risk: string): string {
+  if (risk === 'Low') {
+    return COLORS.green;
+  }
+
+  if (risk === 'Medium') {
+    return COLORS.amber;
+  }
+
+  return COLORS.rose;
 }
 
 function badgeStyle(color: string): CSSProperties {
@@ -289,6 +337,7 @@ function TopBar() {
     ['evidence', 'Evidence'],
     ['network', 'Network'],
     ['charts', 'Charts'],
+    ['strict', 'Strict'],
     ['ranking', 'Ranking'],
     ['themes', 'Themes'],
     ['sources', 'Sources'],
@@ -296,76 +345,64 @@ function TopBar() {
   ];
 
   return (
-    <>
+    <nav
+      style={{
+        position: 'sticky',
+        top: 0,
+        zIndex: 50,
+        borderBottom: '1px solid var(--ink-100)',
+        background: 'var(--surface-overlay)',
+        backdropFilter: 'blur(14px)',
+      }}
+      aria-label="Latent AI report sections"
+    >
       <div
+        className="max-w-6xl mx-auto"
         style={{
-          position: 'fixed',
-          top: 14,
-          left: 16,
-          zIndex: 70,
           display: 'flex',
           gap: 10,
+          padding: '10px 14px',
+          overflowX: 'auto',
+          whiteSpace: 'nowrap',
           alignItems: 'center',
         }}
       >
         <Link
           href="/"
           style={{
-            fontSize: '0.78rem',
-            color: 'var(--ink-600)',
+            fontSize: '0.76rem',
+            color: 'var(--ink-700)',
             textDecoration: 'none',
-            padding: '7px 10px',
+            padding: '7px 9px',
             borderRadius: 8,
-            background: 'var(--surface-overlay)',
+            background: 'var(--surface-raised)',
             border: '1px solid var(--ink-100)',
-            backdropFilter: 'blur(12px)',
+            fontWeight: 800,
           }}
         >
           Home
         </Link>
-      </div>
-      <div style={{ position: 'fixed', top: 14, right: 16, zIndex: 70 }}>
-        <ThemeToggle />
-      </div>
-      <nav
-        style={{
-          position: 'sticky',
-          top: 0,
-          zIndex: 50,
-          borderBottom: '1px solid var(--ink-100)',
-          background: 'var(--surface-overlay)',
-          backdropFilter: 'blur(14px)',
-        }}
-      >
-        <div
-          className="max-w-6xl mx-auto"
-          style={{
-            display: 'flex',
-            gap: 12,
-            padding: '14px 24px',
-            overflowX: 'auto',
-            whiteSpace: 'nowrap',
-          }}
-        >
-          {sections.map(([id, label]) => (
-            <a
-              key={id}
-              href={`#${id}`}
-              style={{
-                fontSize: '0.76rem',
-                fontWeight: 700,
-                color: 'var(--ink-500)',
-                textDecoration: 'none',
-                padding: '6px 8px',
-                borderRadius: 8,
-              }}
-            >
-              {label}
-            </a>
-          ))}
+        {sections.map(([id, label]) => (
+          <a
+            key={id}
+            href={`#${id}`}
+            style={{
+              fontSize: '0.76rem',
+              fontWeight: 700,
+              color: 'var(--ink-500)',
+              textDecoration: 'none',
+              padding: '7px 8px',
+              borderRadius: 8,
+            }}
+          >
+            {label}
+          </a>
+        ))}
+        <div style={{ flex: '0 0 auto', marginLeft: 2 }}>
+          <ThemeToggle />
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 }
 
@@ -782,7 +819,8 @@ function NetworkMap({ data }: { data: LatentAiNodesData }) {
 
   return (
     <Panel style={{ padding: 14, overflow: 'hidden' }}>
-      <svg viewBox="0 0 900 640" role="img" aria-label="Latent AI company theme and source connection map" style={{ width: '100%', display: 'block' }}>
+      <div className="latent-network-scroll">
+        <svg viewBox="0 0 900 640" role="img" aria-label="Latent AI company theme and source connection map" style={{ width: '100%', display: 'block' }}>
         <rect x="0" y="0" width="900" height="640" fill="var(--surface-raised)" />
         <g>
           {themeNodes.map((node) => (
@@ -869,7 +907,8 @@ function NetworkMap({ data }: { data: LatentAiNodesData }) {
             </g>
           ))}
         </g>
-      </svg>
+        </svg>
+      </div>
     </Panel>
   );
 }
@@ -1035,7 +1074,8 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
             subtitle="Power/grid and sensors have the most nodes, while smaller clusters can still score well when discovery and valuation gaps are high."
           >
             {mounted ? (
-              <div style={{ width: '100%', height: 360 }}>
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 360 }}>
                 <ResponsiveContainer>
                   <BarChart data={themeChartData} layout="vertical" margin={{ top: 8, right: 28, bottom: 8, left: 104 }}>
                     <CartesianGrid stroke={GRID_STROKE} horizontal={false} />
@@ -1049,6 +1089,7 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
                     </Bar>
                   </BarChart>
                 </ResponsiveContainer>
+                </div>
               </div>
             ) : (
               <ChartPlaceholder height={360} />
@@ -1061,7 +1102,8 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
             subtitle="Upper right is the preferred quadrant: under-recognized AI linkage plus valuation asymmetry. Dot size tracks alpha score."
           >
             {mounted ? (
-              <div style={{ width: '100%', height: 360 }}>
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 360 }}>
                 <ResponsiveContainer>
                   <ScatterChart margin={{ top: 16, right: 22, bottom: 20, left: 10 }}>
                     <CartesianGrid stroke={GRID_STROKE} />
@@ -1082,6 +1124,7 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
                     </Scatter>
                   </ScatterChart>
                 </ResponsiveContainer>
+                </div>
               </div>
             ) : (
               <ChartPlaceholder height={360} />
@@ -1094,7 +1137,8 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
             subtitle="The formula rewards latent fit, discovery, valuation, catalysts, and execution, then subtracts the hype penalty."
           >
             {mounted ? (
-              <div style={{ width: '100%', height: 370 }}>
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 370 }}>
                 <ResponsiveContainer>
                   <BarChart data={scoreStackData} margin={{ top: 8, right: 18, bottom: 28, left: 0 }}>
                     <CartesianGrid stroke={GRID_STROKE} vertical={false} />
@@ -1114,6 +1158,7 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
                     ))}
                   </BarChart>
                 </ResponsiveContainer>
+                </div>
               </div>
             ) : (
               <ChartPlaceholder height={370} />
@@ -1126,7 +1171,8 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
             subtitle="Latent and emerging categories dominate the list. Discovered names remain as controls where strategic relevance is high but alpha is lower."
           >
             {mounted ? (
-              <div style={{ width: '100%', height: 370 }}>
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 370 }}>
                 <ResponsiveContainer>
                   <BarChart data={visibilityData} margin={{ top: 16, right: 22, bottom: 10, left: 0 }}>
                     <CartesianGrid stroke={GRID_STROKE} vertical={false} />
@@ -1140,11 +1186,631 @@ function ChartsSection({ data }: { data: LatentAiNodesData }) {
                     </Bar>
                   </BarChart>
                 </ResponsiveContainer>
+                </div>
               </div>
             ) : (
               <ChartPlaceholder height={370} />
             )}
           </ChartFrame>
+        </Reveal>
+      </div>
+    </Section>
+  );
+}
+
+function StrictScatterTooltip({ active, payload }: TooltipProps<StrictScatterPoint>) {
+  if (!active || !payload?.length) {
+    return null;
+  }
+
+  const point = payload[0].payload;
+  return (
+    <div style={{ ...TOOLTIP_STYLE, padding: 10, maxWidth: 270 }}>
+      <div style={{ fontWeight: 850, color: 'var(--ink-950)' }}>
+        {point.company} ({point.ticker})
+      </div>
+      <div style={{ marginTop: 4, color: 'var(--ink-600)', fontSize: '0.82rem' }}>
+        {point.bucket} / {point.currentAiChainRisk} current AI-chain risk
+      </div>
+      <div style={{ marginTop: 6, color: 'var(--ink-700)', fontSize: '0.8rem' }}>
+        Alpha {point.alphaScore} / Discovery {point.discoveryGap} / {point.overlapStatus}
+      </div>
+    </div>
+  );
+}
+
+function StrictScoreTooltip({ active, payload, label }: TooltipProps<StrictScoreRow>) {
+  if (!active || !payload?.length) {
+    return null;
+  }
+
+  const row = payload[0].payload;
+  return (
+    <div style={{ ...TOOLTIP_STYLE, padding: 10, maxWidth: 260 }}>
+      <div style={{ fontWeight: 850, color: 'var(--ink-950)' }}>
+        {row.company} ({label})
+      </div>
+      <div style={{ display: 'grid', gap: 3, marginTop: 8, fontSize: '0.8rem', color: 'var(--ink-700)' }}>
+        <span>Latent fit: {row.latentFit}</span>
+        <span>Discovery gap: {row.discoveryGap}</span>
+        <span>Valuation setup: {row.valuationSetup}</span>
+        <span>Catalyst density: {row.catalystDensity}</span>
+        <span>Execution/quality: {row.executionQuality}</span>
+        <span>Hype penalty: {row.hypePenalty}</span>
+      </div>
+    </div>
+  );
+}
+
+function StrictExplorer({ data }: { data: LatentAiNodesData }) {
+  const [query, setQuery] = useState('');
+  const [bucket, setBucket] = useState('');
+  const [risk, setRisk] = useState('');
+  const [overlap, setOverlap] = useState('');
+
+  const visibleRows = useMemo(() => {
+    const normalizedQuery = normalize(query.trim());
+    return data.strictCompanies.filter((company) => {
+      const matchesQuery =
+        normalizedQuery.length === 0 ||
+        [
+          company.ticker,
+          company.company,
+          company.country,
+          company.exchange,
+          company.bucket,
+          company.theme,
+          company.latentAiPathway,
+          company.currentAiSupplyChainScreen,
+        ]
+          .join(' ')
+          .toLowerCase()
+          .includes(normalizedQuery);
+
+      return (
+        matchesQuery &&
+        (bucket.length === 0 || company.bucket === bucket) &&
+        (risk.length === 0 || company.currentAiChainRisk === risk) &&
+        (overlap.length === 0 || company.overlapStatus === overlap)
+      );
+    });
+  }, [bucket, data.strictCompanies, overlap, query, risk]);
+
+  return (
+    <Panel style={{ padding: 16 }}>
+      <div
+        className="grid lg:grid-cols-[1fr_220px_170px_170px_auto]"
+        style={{ gap: 10, alignItems: 'center', marginBottom: 14 }}
+      >
+        <input
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search strict ticker, pathway, bucket, screen note..."
+          style={{
+            width: '100%',
+            border: '1px solid var(--ink-100)',
+            borderRadius: 8,
+            background: 'var(--surface-sunken)',
+            color: 'var(--ink-950)',
+            padding: '10px 12px',
+            fontSize: '0.88rem',
+          }}
+        />
+        <select
+          value={bucket}
+          onChange={(event) => setBucket(event.target.value)}
+          style={{
+            border: '1px solid var(--ink-100)',
+            borderRadius: 8,
+            background: 'var(--surface-sunken)',
+            color: 'var(--ink-950)',
+            padding: '10px 12px',
+            fontSize: '0.88rem',
+          }}
+        >
+          <option value="">All buckets</option>
+          {data.strictBuckets.map((item) => (
+            <option key={item.bucket} value={item.bucket}>
+              {item.bucket}
+            </option>
+          ))}
+        </select>
+        <select
+          value={risk}
+          onChange={(event) => setRisk(event.target.value)}
+          style={{
+            border: '1px solid var(--ink-100)',
+            borderRadius: 8,
+            background: 'var(--surface-sunken)',
+            color: 'var(--ink-950)',
+            padding: '10px 12px',
+            fontSize: '0.88rem',
+          }}
+        >
+          <option value="">All risk</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <select
+          value={overlap}
+          onChange={(event) => setOverlap(event.target.value)}
+          style={{
+            border: '1px solid var(--ink-100)',
+            borderRadius: 8,
+            background: 'var(--surface-sunken)',
+            color: 'var(--ink-950)',
+            padding: '10px 12px',
+            fontSize: '0.88rem',
+          }}
+        >
+          <option value="">All overlap</option>
+          <option value="overlap">Also broad list</option>
+          <option value="strict-only">Strict only</option>
+        </select>
+        <button
+          type="button"
+          onClick={() => {
+            setQuery('');
+            setBucket('');
+            setRisk('');
+            setOverlap('');
+          }}
+          style={{
+            border: '1px solid var(--ink-100)',
+            borderRadius: 8,
+            background: 'var(--surface-raised)',
+            color: 'var(--ink-700)',
+            padding: '10px 12px',
+            fontSize: '0.84rem',
+            fontWeight: 850,
+            cursor: 'pointer',
+          }}
+        >
+          Reset
+        </button>
+      </div>
+      <div style={{ color: 'var(--ink-500)', fontSize: '0.82rem', fontWeight: 750, marginBottom: 10 }}>
+        Showing {formatCount(visibleRows.length)} of {formatCount(data.strictCompanies.length)} strict candidates
+      </div>
+      <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1120 }}>
+          <thead>
+            <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
+              {['Rank', 'Ticker', 'Company', 'Score', 'Bucket', 'Risk', 'Latent pathway', 'Current-chain screen', 'Overlap'].map((heading) => (
+                <th key={heading} style={{ padding: '10px 12px', borderBottom: '1px solid var(--ink-100)' }}>
+                  {heading}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {visibleRows.slice(0, 100).map((company) => {
+              const color = colorForBucket(company.bucket, data.strictBuckets);
+              return (
+                <tr key={company.ticker} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                  <td style={{ padding: 12, color, fontWeight: 850 }}>{company.strictGlobalRank}</td>
+                  <td style={{ padding: 12, color: 'var(--ink-950)', fontWeight: 850 }}>
+                    {company.ticker}
+                    <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', fontWeight: 650 }}>
+                      {company.exchange}
+                    </div>
+                  </td>
+                  <td style={{ padding: 12, minWidth: 170 }}>
+                    <div style={{ color: 'var(--ink-950)', fontWeight: 850 }}>{company.company}</div>
+                    <div style={{ color: 'var(--ink-500)', fontSize: '0.75rem' }}>
+                      {company.country} / {company.region}
+                    </div>
+                  </td>
+                  <td style={{ padding: 12 }}>
+                    <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
+                      {formatScore(company.alphaScore)}
+                    </span>
+                  </td>
+                  <td style={{ padding: 12, minWidth: 160, color: 'var(--ink-700)', fontSize: '0.82rem', fontWeight: 750 }}>
+                    {company.bucket}
+                  </td>
+                  <td style={{ padding: 12 }}>
+                    <span
+                      style={{
+                        ...badgeStyle(riskColor(company.currentAiChainRisk)),
+                        borderRadius: 8,
+                        padding: '5px 7px',
+                        fontSize: '0.76rem',
+                        fontWeight: 850,
+                      }}
+                    >
+                      {company.currentAiChainRisk}
+                    </span>
+                    <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 5 }}>
+                      {company.evidenceConfidence} evidence
+                    </div>
+                  </td>
+                  <td style={{ padding: 12, minWidth: 300, color: 'var(--ink-700)', fontSize: '0.82rem', lineHeight: 1.45 }}>
+                    {company.latentAiPathway}
+                  </td>
+                  <td style={{ padding: 12, minWidth: 300, color: 'var(--ink-700)', fontSize: '0.8rem', lineHeight: 1.45 }}>
+                    {company.currentAiSupplyChainScreen}
+                  </td>
+                  <td style={{ padding: 12, minWidth: 120, color: 'var(--ink-600)', fontSize: '0.8rem', fontWeight: 750 }}>
+                    {company.overlapStatus === 'overlap' ? `Broad #${company.broadRank}` : 'Strict only'}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </Panel>
+  );
+}
+
+function StrictLatentSection({ data }: { data: LatentAiNodesData }) {
+  const mounted = useIsClient();
+  const bucketData = data.strictBuckets.slice(0, 12).map((bucket) => ({
+    bucket: shortText(bucket.bucket, 24),
+    fullBucket: bucket.bucket,
+    count: bucket.count,
+    averageAlpha: Number(bucket.averageAlpha.toFixed(1)),
+  }));
+  const strictScatterData: StrictScatterPoint[] = data.strictCompanies.map((company) => ({
+    ticker: company.ticker,
+    company: company.company,
+    bucket: company.bucket,
+    alphaScore: company.alphaScore,
+    discoveryGap: company.discoveryGap,
+    chainRiskValue: company.currentAiChainRisk === 'Low' ? 1 : company.currentAiChainRisk === 'Medium' ? 2 : 3,
+    currentAiChainRisk: company.currentAiChainRisk,
+    overlapStatus: company.overlapStatus,
+  }));
+  const strictScoreData: StrictScoreRow[] = data.strictCompanies.slice(0, 12).map((company) => ({
+    ticker: company.ticker,
+    company: company.company,
+    latentFit: company.latentFit,
+    discoveryGap: company.discoveryGap,
+    valuationSetup: company.valuationSetup,
+    catalystDensity: company.catalystDensity,
+    executionQuality: company.executionQuality,
+    hypePenalty: -company.hypePenalty,
+  }));
+  const imageCards = [
+    ['Strict mind map', 'strict_latent_mind_map.png'],
+    ['Top U.S. strict alpha', 'top_us_alpha_strict.png'],
+    ['Top non-U.S. strict alpha', 'top_non_us_alpha_strict.png'],
+    ['Factor heatmap', 'factor_heatmap_top25.png'],
+    ['Excluded categories', 'excluded_category_bar.png'],
+    ['Top 5 radar', 'top5_component_radar.png'],
+  ];
+
+  return (
+    <Section
+      id="strict"
+      eyebrow="Stricter selection"
+      title="A second-pass screen for names with less direct current AI-chain exposure"
+      subtitle="This stricter list excludes direct AI chips, fab tools/materials, advanced packaging, optical interconnect, data-center power, cooling, transformers, racks, and obvious data-center construction beneficiaries. It overlaps the broad 100-name list on only 12 tickers."
+    >
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4" style={{ gap: 14 }}>
+        <Reveal>
+          <MetricCard
+            label="Strict candidates"
+            value={formatCount(data.strictOverlap.strictCount)}
+            detail="The stricter screen still keeps 50 U.S. and 50 non-U.S. public companies, but shifts the thesis into second-order infrastructure."
+            color={COLORS.blue}
+          />
+        </Reveal>
+        <Reveal delay={0.05}>
+          <MetricCard
+            label="Overlap with broad list"
+            value={formatCount(data.strictOverlap.overlapCount)}
+            detail={`${formatCount(data.strictOverlap.strictOnlyCount)} names are strict-only; ${formatCount(data.strictOverlap.broadOnlyCount)} broad-list names fall out under stricter rules.`}
+            color={COLORS.teal}
+          />
+        </Reveal>
+        <Reveal delay={0.1}>
+          <MetricCard
+            label="Direct names excluded"
+            value={formatCount(data.strictOverlap.excludedDirectCount)}
+            detail="Excluded rows include direct optics, power, cooling, transformers, fab equipment, packaging, data-center construction, and safety-service exposure."
+            color={COLORS.rose}
+          />
+        </Reveal>
+        <Reveal delay={0.15}>
+          <MetricCard
+            label="Top strict node"
+            value={data.strictOverlap.topStrictTicker}
+            detail={`${data.strictOverlap.topStrictCompany} leads the strict screen with an alpha score of ${formatScore(data.strictOverlap.topStrictScore)}.`}
+            color={COLORS.amber}
+          />
+        </Reveal>
+      </div>
+
+      <div className="grid lg:grid-cols-2" style={{ gap: 16, marginTop: 18 }}>
+        <Reveal>
+          <ChartFrame
+            title="Strict bucket average alpha"
+            subtitle="The stricter universe clusters in industrial equipment, water/fluid systems, materials, tooling, MRO, sensors, recycling, and safety."
+          >
+            {mounted ? (
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 360 }}>
+                  <ResponsiveContainer>
+                    <BarChart data={bucketData} layout="vertical" margin={{ top: 8, right: 28, bottom: 8, left: 112 }}>
+                      <CartesianGrid stroke={GRID_STROKE} horizontal={false} />
+                      <XAxis type="number" tick={AXIS_TICK} domain={[55, 82]} />
+                      <YAxis type="category" dataKey="bucket" tick={AXIS_TICK} width={112} />
+                      <Tooltip contentStyle={TOOLTIP_STYLE} />
+                      <Bar dataKey="averageAlpha" name="Average alpha" radius={[0, 4, 4, 0]}>
+                        {bucketData.map((row) => (
+                          <Cell key={row.fullBucket} fill={colorForBucket(row.fullBucket, data.strictBuckets)} />
+                        ))}
+                      </Bar>
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+            ) : (
+              <ChartPlaceholder height={360} />
+            )}
+          </ChartFrame>
+        </Reveal>
+        <Reveal delay={0.05}>
+          <ChartFrame
+            title="Strict alpha vs. discovery, colored by bucket"
+            subtitle="Y-axis is current AI-chain risk: low is preferred, medium requires deeper proof, and high should normally be excluded or treated as a control."
+          >
+            {mounted ? (
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 360 }}>
+                  <ResponsiveContainer>
+                    <ScatterChart margin={{ top: 16, right: 24, bottom: 20, left: 4 }}>
+                      <CartesianGrid stroke={GRID_STROKE} />
+                      <XAxis type="number" dataKey="discoveryGap" name="Discovery gap" tick={AXIS_TICK} domain={[10, 20]} />
+                      <YAxis
+                        type="number"
+                        dataKey="chainRiskValue"
+                        name="Current AI-chain risk"
+                        tick={AXIS_TICK}
+                        ticks={[1, 2, 3]}
+                        tickFormatter={(value) => (value === 1 ? 'Low' : value === 2 ? 'Medium' : 'High')}
+                        domain={[0.7, 3.3]}
+                      />
+                      <ZAxis type="number" dataKey="alphaScore" range={[50, 220]} />
+                      <Tooltip content={<StrictScatterTooltip />} />
+                      <Scatter data={strictScatterData}>
+                        {strictScatterData.map((row) => (
+                          <Cell
+                            key={row.ticker}
+                            fill={colorForBucket(row.bucket, data.strictBuckets)}
+                            fillOpacity={row.overlapStatus === 'overlap' ? 0.95 : 0.62}
+                          />
+                        ))}
+                      </Scatter>
+                    </ScatterChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+            ) : (
+              <ChartPlaceholder height={360} />
+            )}
+          </ChartFrame>
+        </Reveal>
+        <Reveal delay={0.1}>
+          <ChartFrame
+            title="Strict top-node component stack"
+            subtitle="The stricter formula keeps the same basic alpha logic but increases the importance of screening out obvious current AI supply-chain exposure."
+          >
+            {mounted ? (
+              <div className="latent-chart-scroll">
+                <div style={{ width: '100%', height: 370 }}>
+                  <ResponsiveContainer>
+                    <BarChart data={strictScoreData} margin={{ top: 8, right: 18, bottom: 28, left: 0 }}>
+                      <CartesianGrid stroke={GRID_STROKE} vertical={false} />
+                      <XAxis dataKey="ticker" tick={AXIS_TICK} interval={0} angle={-30} textAnchor="end" height={54} />
+                      <YAxis tick={AXIS_TICK} />
+                      <Tooltip content={<StrictScoreTooltip />} />
+                      <ReferenceLine y={0} stroke={COLORS.slate} strokeOpacity={0.45} />
+                      <Bar dataKey="latentFit" stackId="score" fill={COLORS.blue} />
+                      <Bar dataKey="discoveryGap" stackId="score" fill={COLORS.teal} />
+                      <Bar dataKey="valuationSetup" stackId="score" fill={COLORS.green} />
+                      <Bar dataKey="catalystDensity" stackId="score" fill={COLORS.amber} />
+                      <Bar dataKey="executionQuality" stackId="score" fill={COLORS.violet} />
+                      <Bar dataKey="hypePenalty" stackId="penalty" fill={COLORS.red} />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+            ) : (
+              <ChartPlaceholder height={370} />
+            )}
+          </ChartFrame>
+        </Reveal>
+        <Reveal delay={0.15}>
+          <ChartFrame
+            title="Overlap names that survived both screens"
+            subtitle="Only twelve broad-list companies also pass the stricter screen. These are useful for comparing broad latent relevance against strict absence-of-obvious-AI exposure."
+          >
+            <div style={{ display: 'grid', gap: 8 }}>
+              {data.strictCompanies
+                .filter((company) => company.overlapStatus === 'overlap')
+                .slice(0, 12)
+                .map((company) => (
+                  <div
+                    key={company.ticker}
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: '70px 1fr auto',
+                      gap: 10,
+                      alignItems: 'center',
+                      borderTop: '1px solid var(--ink-100)',
+                      paddingTop: 9,
+                    }}
+                  >
+                    <span style={{ color: colorForBucket(company.bucket, data.strictBuckets), fontWeight: 850 }}>
+                      {company.ticker}
+                    </span>
+                    <span style={{ color: 'var(--ink-700)', fontSize: '0.84rem', fontWeight: 750 }}>
+                      {company.company}
+                    </span>
+                    <span style={{ color: 'var(--ink-500)', fontSize: '0.78rem' }}>
+                      strict #{company.strictGlobalRank} / broad #{company.broadRank}
+                    </span>
+                  </div>
+                ))}
+            </div>
+          </ChartFrame>
+        </Reveal>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ gap: 14, marginTop: 18 }}>
+        {data.strictBuckets.slice(0, 6).map((bucket, index) => {
+          const color = colorForBucket(bucket.bucket, data.strictBuckets);
+          return (
+            <Reveal key={bucket.bucket} delay={index * 0.04}>
+              <Panel style={{ padding: 16, minHeight: 205 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12 }}>
+                  <h3 style={{ margin: 0, color: 'var(--ink-950)', fontSize: '0.98rem', fontWeight: 850 }}>
+                    {bucket.bucket}
+                  </h3>
+                  <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '4px 7px', fontSize: '0.76rem', fontWeight: 850 }}>
+                    {bucket.count}
+                  </span>
+                </div>
+                <p style={{ margin: '8px 0 0', color: 'var(--ink-600)', fontSize: '0.86rem', lineHeight: 1.55 }}>
+                  Avg alpha {formatScore(bucket.averageAlpha)} with {bucket.lowRiskCount} low-risk names and {bucket.highConfidenceCount} high-confidence evidence rows.
+                </p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7, marginTop: 12 }}>
+                  {bucket.topCompanies.slice(0, 5).map((company) => (
+                    <span
+                      key={company.ticker}
+                      style={{
+                        border: '1px solid var(--ink-100)',
+                        background: 'var(--surface-sunken)',
+                        color: 'var(--ink-700)',
+                        borderRadius: 8,
+                        padding: '5px 7px',
+                        fontSize: '0.76rem',
+                        fontWeight: 750,
+                      }}
+                    >
+                      #{company.strictGlobalRank} {company.ticker}
+                    </span>
+                  ))}
+                </div>
+              </Panel>
+            </Reveal>
+          );
+        })}
+      </div>
+
+      <div style={{ marginTop: 18 }}>
+        <Reveal>
+          <StrictExplorer data={data} />
+        </Reveal>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ gap: 14, marginTop: 18 }}>
+        {imageCards.map(([title, fileName], index) => (
+          <Reveal key={fileName} delay={(index % 3) * 0.05}>
+            <Panel style={{ padding: 14 }}>
+              <h3 style={{ margin: '0 0 10px', color: 'var(--ink-950)', fontSize: '0.95rem', fontWeight: 850 }}>
+                {title}
+              </h3>
+              <Image
+                src={`/reports/latent-ai-nodes/strict/images/${fileName}`}
+                alt={`${title} visualization`}
+                width={1400}
+                height={900}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  border: '1px solid var(--ink-100)',
+                  borderRadius: 8,
+                  background: 'white',
+                }}
+              />
+            </Panel>
+          </Reveal>
+        ))}
+      </div>
+
+      <div className="grid lg:grid-cols-[0.9fr_1.1fr]" style={{ gap: 16, marginTop: 18 }}>
+        <Reveal>
+          <Panel style={{ padding: 18 }}>
+            <h3 style={{ margin: 0, color: 'var(--ink-950)', fontSize: '1rem', fontWeight: 850 }}>
+              Strict files
+            </h3>
+            <div style={{ display: 'grid', gap: 10, marginTop: 14 }}>
+              {[
+                ['Strict CSV', `${data.downloadBaseHref}/strict/data/companies_strict_latent.csv`],
+                ['Strict JSON', `${data.downloadBaseHref}/strict/data/companies_strict_latent.json`],
+                ['Excluded direct AI-chain CSV', `${data.downloadBaseHref}/strict/data/excluded_direct_ai_supply_chain.csv`],
+                ['Strict source pack', `${data.downloadBaseHref}/strict/data/source_pack.csv`],
+                ['Strict methodology', `${data.downloadBaseHref}/strict/docs/methodology.md`],
+                ['Raw strict dashboard', data.strictRawDashboardHref],
+              ].map(([label, href]) => (
+                <a
+                  key={href}
+                  href={href}
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: 12,
+                    color: 'var(--ink-700)',
+                    textDecoration: 'none',
+                    border: '1px solid var(--ink-100)',
+                    borderRadius: 8,
+                    padding: '10px 12px',
+                    background: 'var(--surface-sunken)',
+                    fontSize: '0.86rem',
+                    fontWeight: 750,
+                  }}
+                >
+                  <span>{label}</span>
+                  <span style={{ color: COLORS.blue }}>open</span>
+                </a>
+              ))}
+            </div>
+          </Panel>
+        </Reveal>
+        <Reveal delay={0.08}>
+          <Panel style={{ padding: 18 }}>
+            <h3 style={{ margin: 0, color: 'var(--ink-950)', fontSize: '1rem', fontWeight: 850 }}>
+              Direct AI-chain exclusions
+            </h3>
+            <p style={{ margin: '8px 0 0', color: 'var(--ink-600)', fontSize: '0.86rem', lineHeight: 1.55 }}>
+              These are not necessarily bad companies. They were removed because their AI participation is already too direct for the stricter question.
+            </p>
+            <div style={{ display: 'grid', gap: 8, marginTop: 12, maxHeight: 420, overflowY: 'auto', paddingRight: 4 }}>
+              {data.strictExcluded.map((row) => (
+                <a
+                  key={row.ticker}
+                  href={row.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    display: 'block',
+                    border: '1px solid var(--ink-100)',
+                    borderRadius: 8,
+                    padding: 10,
+                    background: 'var(--surface-sunken)',
+                    textDecoration: 'none',
+                  }}
+                >
+                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12 }}>
+                    <span style={{ color: 'var(--ink-950)', fontSize: '0.84rem', fontWeight: 850 }}>
+                      {row.ticker} / {row.company}
+                    </span>
+                    <span style={{ color: COLORS.rose, fontSize: '0.75rem', fontWeight: 850 }}>
+                      {shortText(row.category, 28)}
+                    </span>
+                  </div>
+                  <p style={{ margin: '5px 0 0', color: 'var(--ink-600)', fontSize: '0.78rem', lineHeight: 1.45 }}>
+                    {row.reasonExcluded}
+                  </p>
+                </a>
+              ))}
+            </div>
+          </Panel>
         </Reveal>
       </div>
     </Section>
@@ -1662,6 +2328,7 @@ export default function LatentAiNodesClient({ data }: { data: LatentAiNodesData 
       <EvidenceSection data={data} />
       <NetworkSection data={data} />
       <ChartsSection data={data} />
+      <StrictLatentSection data={data} />
       <RankingSection data={data} />
       <ThemeSection data={data} />
       <SourceSection data={data} />

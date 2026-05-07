@@ -13,6 +13,7 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
     "public/reports/latent-ai-nodes/raw/**",
+    "public/reports/latent-ai-nodes/strict/raw/**",
   ]),
 ]);
 
