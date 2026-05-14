@@ -7,6 +7,8 @@ import ThemeToggle from '@/components/layout/ThemeToggle';
 import {
   crowdAudit,
   humanoidAlphaCompanies,
+  koidHoldings,
+  koidMeta,
   mindmapNodes,
   privateWatchlist,
   sourceLinks,
@@ -14,15 +16,17 @@ import {
   updatedLabel,
   type AlphaTier,
   type HumanoidAlphaCompany,
+  type KoidHolding,
   type StackCategory,
 } from '@/data/robotics';
 
 type CategoryFilter = StackCategory | 'All';
-type TableMode = 'ranked' | 'crowd' | 'private' | 'sources';
+type TableMode = 'ranked' | 'koid' | 'crowd' | 'private' | 'sources';
 
 const categories: CategoryFilter[] = ['All', 'Builder', 'Actuation', 'Sensing', 'Edge AI', 'Warehouse', 'Materials', 'Demoted'];
 const tableModes: { id: TableMode; label: string }[] = [
   { id: 'ranked', label: 'Ranked Alpha' },
+  { id: 'koid', label: 'KOID Audit' },
   { id: 'crowd', label: 'Crowd Audit' },
   { id: 'private', label: 'Private Watch' },
   { id: 'sources', label: 'Sources' },
@@ -66,6 +70,12 @@ function formatCap(value: number | null) {
   if (value >= 1_000_000_000_000) return `$${(value / 1_000_000_000_000).toFixed(2)}T`;
   if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(2)}B`;
   return `$${(value / 1_000_000).toFixed(0)}M`;
+}
+
+function formatUsd(value: number) {
+  if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(1)}B`;
+  if (value >= 1_000_000) return `$${(value / 1_000_000).toFixed(1)}M`;
+  return `$${new Intl.NumberFormat('en-US').format(value)}`;
 }
 
 function formatPrice(value: number | null, currency: string) {
@@ -254,6 +264,131 @@ function ScatterPlot({ companies, selectedTicker, onSelect }: { companies: Human
   );
 }
 
+function KoidWeightBars({ holdings }: { holdings: KoidHolding[] }) {
+  const top = [...holdings].sort((a, b) => a.fundRank - b.fundRank).slice(0, 14);
+  const maxWeight = Math.max(...top.map((holding) => holding.weightPct));
+  return (
+    <div style={{ display: 'grid', gap: 9 }}>
+      {top.map((holding) => (
+        <div key={holding.yahooSymbol} style={{ display: 'grid', gridTemplateColumns: '36px minmax(132px, 1fr) 1.3fr 50px', gap: 10, alignItems: 'center' }}>
+          <span style={{ fontFamily: 'monospace', color: 'var(--ink-500)', fontWeight: 900 }}>{holding.fundRank}</span>
+          <span style={{ color: 'var(--ink-900)', fontWeight: 800, fontSize: 'var(--text-sm)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{holding.company}</span>
+          <div style={{ height: 12, background: 'var(--ink-100)', borderRadius: 99, overflow: 'hidden' }}>
+            <div style={{ height: '100%', width: `${(holding.weightPct / maxWeight) * 100}%`, background: categoryColors[holding.category], borderRadius: 99 }} />
+          </div>
+          <span style={{ textAlign: 'right', color: 'var(--ink-700)', fontFamily: 'monospace', fontWeight: 900 }}>{holding.weightPct.toFixed(2)}%</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function KoidAlphaBars({ holdings }: { holdings: KoidHolding[] }) {
+  const top = [...holdings].sort((a, b) => b.alpha - a.alpha).slice(0, 14);
+  return (
+    <div style={{ display: 'grid', gap: 9 }}>
+      {top.map((holding, index) => (
+        <div key={holding.yahooSymbol} style={{ display: 'grid', gridTemplateColumns: '36px minmax(132px, 1fr) 1.3fr 44px', gap: 10, alignItems: 'center' }}>
+          <span style={{ fontFamily: 'monospace', color: index < 6 ? 'var(--accent)' : 'var(--ink-500)', fontWeight: 900 }}>{index + 1}</span>
+          <span style={{ color: 'var(--ink-900)', fontWeight: 800, fontSize: 'var(--text-sm)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{holding.company}</span>
+          <div style={{ height: 12, background: 'var(--ink-100)', borderRadius: 99, overflow: 'hidden' }}>
+            <div style={{ height: '100%', width: `${holding.alpha}%`, background: categoryColors[holding.category], borderRadius: 99 }} />
+          </div>
+          <span style={{ textAlign: 'right', color: 'var(--ink-900)', fontFamily: 'monospace', fontWeight: 900 }}>{holding.alpha}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function KoidScatter({ holdings }: { holdings: KoidHolding[] }) {
+  const plotted = holdings.filter((holding) => holding.marketCapUsd && holding.ytdReturnPct !== null);
+  const xFor = (weight: number) => 50 + (weight / 3.1) * 490;
+  const yFor = (alpha: number) => 304 - ((alpha - 20) / 65) * 250;
+  return (
+    <svg viewBox="0 0 600 350" role="img" aria-label="KOID holding weight versus residual alpha" style={{ width: '100%', height: 'auto', display: 'block' }}>
+      <rect x="0" y="0" width="600" height="350" rx="8" fill="var(--surface-raised)" />
+      <rect x="50" y="42" width="490" height="262" rx="4" fill="var(--surface-sunken)" stroke="var(--ink-100)" />
+      {[0, 1, 2, 3].map((tick) => {
+        const x = 50 + tick * 163.3;
+        return (
+          <g key={tick}>
+            <line x1={x} x2={x} y1="42" y2="304" stroke="var(--ink-100)" strokeDasharray="3 4" />
+            <text x={x} y="324" textAnchor="middle" fontSize="10" fill="var(--ink-500)">{tick}%</text>
+          </g>
+        );
+      })}
+      {[30, 45, 60, 75].map((alpha) => {
+        const y = yFor(alpha);
+        return (
+          <g key={alpha}>
+            <line x1="50" x2="540" y1={y} y2={y} stroke="var(--ink-100)" strokeDasharray="3 4" />
+            <text x="40" y={y + 4} textAnchor="end" fontSize="10" fill="var(--ink-500)">{alpha}</text>
+          </g>
+        );
+      })}
+      <text x="295" y="342" textAnchor="middle" fontSize="11" fill="var(--ink-500)">KOID fund weight</text>
+      <text x="16" y="175" transform="rotate(-90 16 175)" textAnchor="middle" fontSize="11" fill="var(--ink-500)">Residual alpha score</text>
+      {plotted.map((holding) => {
+        const x = xFor(holding.weightPct);
+        const y = yFor(holding.alpha);
+        const important = holding.decision === 'Alpha candidate' || holding.fundRank <= 8;
+        return (
+          <g key={holding.yahooSymbol}>
+            <circle cx={x} cy={y} r={4 + holding.alpha / 16} fill={categoryColors[holding.category]} opacity={holding.decision === 'Alpha candidate' ? 0.9 : 0.5} stroke="var(--surface-page)" />
+            {important && <text x={x + 8} y={y - 7} fontSize="10" fill="var(--ink-800)" fontWeight="800">{holding.fundTicker}</text>}
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+function Metric({ label, value }: { label: string; value: string }) {
+  return (
+    <div style={{ borderTop: '1px solid var(--ink-100)', paddingTop: 8 }}>
+      <div style={{ color: 'var(--ink-500)', fontSize: '0.68rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.08em' }}>{label}</div>
+      <div style={{ color: 'var(--ink-950)', fontFamily: 'monospace', fontSize: '0.86rem', fontWeight: 900, lineHeight: 1.25, marginTop: 2 }}>{value}</div>
+    </div>
+  );
+}
+
+function KoidMobileCards({ holdings }: { holdings: KoidHolding[] }) {
+  return (
+    <div className="md:hidden" style={{ display: 'grid', gap: 12 }}>
+      {[...holdings].sort((a, b) => b.alpha - a.alpha).map((holding) => (
+        <article key={holding.yahooSymbol} style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-md)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'flex-start' }}>
+            <div>
+              <div style={{ color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-500)', fontFamily: 'monospace', fontSize: '0.76rem', fontWeight: 900 }}>KOID #{holding.fundRank}</div>
+              <h3 style={{ color: 'var(--ink-950)', fontSize: 'var(--text-base)', fontWeight: 900, lineHeight: 1.25, margin: '4px 0 0' }}>{holding.company}</h3>
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginTop: 5 }}>
+                <span style={{ fontFamily: 'monospace', color: categoryColors[holding.category], fontSize: '0.76rem', fontWeight: 900 }}>{holding.yahooSymbol}</span>
+                <span style={{ color: 'var(--ink-500)', fontSize: '0.74rem' }}>{holding.category}</span>
+              </div>
+            </div>
+            <div style={{ textAlign: 'right' }}>
+              <div className="font-display" style={{ color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-700)', fontSize: 'var(--text-xl)', fontWeight: 900, lineHeight: 1 }}>{holding.alpha}</div>
+              <div style={{ color: 'var(--ink-500)', fontSize: '0.68rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.08em', marginTop: 2 }}>Alpha</div>
+            </div>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10, marginTop: 'var(--space-md)' }}>
+            <Metric label="Weight" value={`${holding.weightPct.toFixed(2)}%`} />
+            <Metric label="Fund value" value={formatUsd(holding.marketValueUsd)} />
+            <Metric label="Price" value={formatPrice(holding.price, holding.currency)} />
+            <Metric label="Market cap" value={formatCap(holding.marketCapUsd)} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', marginTop: 'var(--space-md)' }}>
+            <span style={{ color: (holding.ytdReturnPct ?? 0) > 60 ? 'var(--danger)' : (holding.ytdReturnPct ?? 0) < 0 ? 'var(--success)' : 'var(--ink-600)', fontFamily: 'monospace', fontWeight: 900 }}>{formatYtd(holding.ytdReturnPct)} YTD</span>
+            <StatusBadge status={holding.decision} />
+          </div>
+          <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.5, margin: 'var(--space-md) 0 0' }}>{holding.note}</p>
+        </article>
+      ))}
+    </div>
+  );
+}
+
 function Mindmap({ activeCategory, onCategory }: { activeCategory: CategoryFilter; onCategory: (category: CategoryFilter) => void }) {
   const center = mindmapNodes.find((node) => node.id === 'center');
   return (
@@ -299,7 +434,15 @@ function Mindmap({ activeCategory, onCategory }: { activeCategory: CategoryFilte
 }
 
 function StatusBadge({ status }: { status: string }) {
-  const color = status === 'Promoted' ? 'var(--accent)' : status === 'Included' ? 'var(--success)' : status === 'Private' ? 'var(--warning)' : status === 'Demoted' ? 'var(--ink-500)' : 'var(--danger)';
+  const color = status === 'Promoted' || status === 'Alpha candidate'
+    ? 'var(--accent)'
+    : status === 'Included' || status === 'Useful exposure'
+      ? 'var(--success)'
+      : status === 'Private' || status === 'Index ballast'
+        ? 'var(--warning)'
+        : status === 'Demoted'
+          ? 'var(--ink-500)'
+          : 'var(--danger)';
   return (
     <span style={{ display: 'inline-flex', alignItems: 'center', padding: '3px 8px', borderRadius: 99, border: `1px solid ${color}`, color, fontSize: '0.72rem', fontWeight: 800, whiteSpace: 'nowrap' }}>
       {status}
@@ -324,6 +467,10 @@ export default function RoboticsPage() {
   const promotedCount = crowdAudit.filter((entry) => entry.status === 'Promoted').length;
   const excludedCount = crowdAudit.filter((entry) => entry.status === 'Excluded').length;
   const coreCount = humanoidAlphaCompanies.filter((company) => company.tier === 'Core alpha').length;
+  const koidAlphaCount = koidHoldings.filter((holding) => holding.decision === 'Alpha candidate').length;
+  const koidTopWeightAlpha = koidHoldings
+    .filter((holding) => holding.fundRank <= 10)
+    .reduce((sum, holding) => sum + holding.alpha, 0) / 10;
   const medianCap = humanoidAlphaCompanies
     .filter((company) => company.tier === 'Core alpha' && company.marketCapUsd)
     .map((company) => company.marketCapUsd ?? 0)
@@ -364,7 +511,7 @@ export default function RoboticsPage() {
               </Reveal>
               <Reveal delay={0.16}>
                 <p style={{ maxWidth: 650, color: 'var(--ink-600)', fontSize: 'var(--text-lg)', lineHeight: 1.65, margin: 'var(--space-xl) 0 0' }}>
-                  The crowdsourced list got the humanoid supply chain mostly right. The ranking was the problem. This page reranks every mention by residual alpha: real exposure, good valuation, small enough market cap, and no massive price capitulation upward.
+                  The crowdsourced list and KOID holdings got the humanoid supply chain mostly right. The ranking was the problem. This page reranks every mention by residual alpha: real exposure, good valuation, small enough market cap, KOID validation, and no massive price capitulation upward.
                 </p>
               </Reveal>
             </div>
@@ -388,11 +535,13 @@ export default function RoboticsPage() {
       </section>
 
       <section style={{ padding: '0 var(--space-lg) var(--space-3xl)' }}>
-        <div className="max-w-6xl mx-auto grid md:grid-cols-4" style={{ gap: 'var(--space-md)' }}>
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-6" style={{ gap: 'var(--space-md)' }}>
           <StatCard label="Crowd mentions audited" value={String(crowdAudit.length)} sub={`${promotedCount} promoted, ${excludedCount} excluded or quarantined.`} />
-          <StatCard label="Public names ranked" value={String(humanoidAlphaCompanies.length)} sub="Includes additions the crowd missed, like Schaeffler and ROBOTIS." />
+          <StatCard label="Public names ranked" value={String(humanoidAlphaCompanies.length)} sub="Includes KOID-only component additions like Zhaowei, Leadshine, Keli, and Shuanglin." />
           <StatCard label="Core alpha names" value={String(coreCount)} sub="Only names with score 73+ and acceptable rerating room." />
           <StatCard label="Median core cap" value={formatCap(medianCap)} sub="Small enough to matter if humanoid content is real." />
+          <StatCard label="KOID net assets" value={formatUsd(koidMeta.netAssetsUsd)} sub={`${koidMeta.holdingsCount} equity holdings, ${koidMeta.expenseRatioNetPct}% net fee.`} />
+          <StatCard label="KOID alpha candidates" value={String(koidAlphaCount)} sub={`Top-10 weighted names average ${koidTopWeightAlpha.toFixed(1)} alpha.`} />
         </div>
       </section>
 
@@ -415,6 +564,51 @@ export default function RoboticsPage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-6xl mx-auto">
+          <Reveal>
+            <div style={{ color: 'var(--accent)', fontSize: 'var(--text-xs)', fontWeight: 900, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 'var(--space-sm)' }}>KOID ETF Audit</div>
+            <h2 className="font-display" style={{ fontSize: 'var(--text-3xl)', color: 'var(--ink-950)', fontWeight: 900, margin: 0 }}>The ETF is a map of the ecosystem, not a ranking of alpha</h2>
+            <p style={{ color: 'var(--ink-600)', lineHeight: 1.65, maxWidth: 780, margin: 'var(--space-md) 0 var(--space-lg)' }}>
+              KOID gives useful exposure to the physical-AI stack, but the index weights by investability and theme fit. The hidden-gem screen flips the question: which holdings still have direct humanoid exposure, manageable market caps, and enough rerating room left?
+            </p>
+          </Reveal>
+
+          <div className="grid lg:grid-cols-[0.95fr_1.05fr]" style={{ gap: 'var(--space-xl)', alignItems: 'start' }}>
+            <Reveal>
+              <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', gap: 14, alignItems: 'baseline', marginBottom: 'var(--space-md)' }}>
+                  <div>
+                    <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 800 }}>Official KOID weights</div>
+                    <div className="font-display" style={{ color: 'var(--ink-950)', fontSize: 'var(--text-2xl)', fontWeight: 900 }}>Top holdings</div>
+                  </div>
+                  <div style={{ color: 'var(--accent)', fontFamily: 'monospace', fontWeight: 900 }}>{koidMeta.nav.toFixed(2)} NAV</div>
+                </div>
+                <KoidWeightBars holdings={koidHoldings} />
+              </div>
+            </Reveal>
+            <Reveal delay={0.08}>
+              <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', gap: 14, alignItems: 'baseline', marginBottom: 'var(--space-md)' }}>
+                  <div>
+                    <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 800 }}>Residual alpha inside KOID</div>
+                    <div className="font-display" style={{ color: 'var(--ink-950)', fontSize: 'var(--text-2xl)', fontWeight: 900 }}>Best setups</div>
+                  </div>
+                  <div style={{ color: 'var(--success)', fontFamily: 'monospace', fontWeight: 900 }}>{koidMeta.ytdNavReturnPct.toFixed(1)}% YTD NAV</div>
+                </div>
+                <KoidAlphaBars holdings={koidHoldings} />
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal>
+            <div style={{ marginTop: 'var(--space-xl)' }}>
+              <KoidScatter holdings={koidHoldings} />
+            </div>
+          </Reveal>
         </div>
       </section>
 
@@ -547,6 +741,52 @@ export default function RoboticsPage() {
                           <td style={{ padding: '12px', textAlign: 'right' }}>
                             <span className="font-display" style={{ color: tierColor(company.tier), fontSize: 'var(--text-xl)', fontWeight: 900 }}>{company.alpha}</span>
                           </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </motion.div>
+            )}
+
+            {mode === 'koid' && (
+              <motion.div key="koid" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+                <KoidMobileCards holdings={koidHoldings} />
+                <div className="hidden md:block" style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 6 }}>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1260 }}>
+                    <thead>
+                      <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
+                        {['KOID Rank', 'Holding', 'KOID Weight', 'Price / Cap', 'YTD', 'Purity', 'Decision', 'Alpha', 'Read-through'].map((heading) => (
+                          <th key={heading} style={{ padding: '10px 12px', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', borderBottom: '1px solid var(--ink-100)' }}>{heading}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[...koidHoldings].sort((a, b) => b.alpha - a.alpha).map((holding) => (
+                        <tr key={holding.yahooSymbol} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                          <td style={{ padding: '12px', fontFamily: 'monospace', color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-500)', fontWeight: 900 }}>{holding.fundRank}</td>
+                          <td style={{ padding: '12px', minWidth: 210 }}>
+                            <div style={{ color: 'var(--ink-950)', fontWeight: 900 }}>{holding.company}</div>
+                            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginTop: 4 }}>
+                              <span style={{ fontFamily: 'monospace', color: categoryColors[holding.category], fontSize: '0.76rem', fontWeight: 900 }}>{holding.yahooSymbol}</span>
+                              <span style={{ color: 'var(--ink-500)', fontSize: '0.72rem' }}>{holding.category}</span>
+                            </div>
+                          </td>
+                          <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: 'var(--ink-900)', fontWeight: 900 }}>
+                            <div>{holding.weightPct.toFixed(2)}%</div>
+                            <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem' }}>{formatUsd(holding.marketValueUsd)}</div>
+                          </td>
+                          <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: 'var(--ink-700)' }}>
+                            <div style={{ color: 'var(--ink-950)', fontWeight: 900 }}>{formatPrice(holding.price, holding.currency)}</div>
+                            <div style={{ fontSize: '0.76rem', color: 'var(--ink-500)' }}>{formatCap(holding.marketCapUsd)}</div>
+                          </td>
+                          <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: (holding.ytdReturnPct ?? 0) > 60 ? 'var(--danger)' : (holding.ytdReturnPct ?? 0) < 0 ? 'var(--success)' : 'var(--ink-600)', fontWeight: 900 }}>{formatYtd(holding.ytdReturnPct)}</td>
+                          <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>{holding.purity}</td>
+                          <td style={{ padding: '12px' }}><StatusBadge status={holding.decision} /></td>
+                          <td style={{ padding: '12px', textAlign: 'right' }}>
+                            <span className="font-display" style={{ color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-600)', fontSize: 'var(--text-xl)', fontWeight: 900 }}>{holding.alpha}</span>
+                          </td>
+                          <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.45, minWidth: 300 }}>{holding.note}</td>
                         </tr>
                       ))}
                     </tbody>

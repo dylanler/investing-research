@@ -83,27 +83,62 @@ export interface MindmapNode {
   companies: string[];
 }
 
-export const updatedLabel = 'May 13, 2026';
+export type KoidDecision = 'Alpha candidate' | 'Useful exposure' | 'Index ballast' | 'Demoted';
+export type KoidPurity = 'Direct humanoid' | 'Core component' | 'Physical AI enabler' | 'Diversified supplier' | 'Low purity';
+
+export interface KoidHolding {
+  fundRank: number;
+  company: string;
+  fundTicker: string;
+  yahooSymbol: string;
+  weightPct: number;
+  marketValueUsd: number;
+  category: StackCategory;
+  purity: KoidPurity;
+  decision: KoidDecision;
+  alpha: number;
+  price: number | null;
+  currency: string;
+  marketCapUsd: number | null;
+  ytdReturnPct: number | null;
+  note: string;
+}
+
+export const koidMeta = {
+  asOf: 'May 13, 2026',
+  nav: 40.52,
+  navDailyChangePct: 1.07,
+  marketPrice: 40.97,
+  marketPriceDailyChangePct: 1.86,
+  ytdNavReturnPct: 17.41,
+  netAssetsUsd: 192_461_815,
+  sharesOutstanding: 4_750_002,
+  expenseRatioGrossPct: 0.79,
+  expenseRatioNetPct: 0.69,
+  holdingsCount: 50,
+};
+
+export const updatedLabel = 'May 14, 2026';
 
 export const thesisPillars: ThesisPillar[] = [
   {
-    title: 'The crowd found the right stack',
-    takeaway: 'The list clusters around eyes, joints, edge compute, warehouse workflows, and a few direct humanoid builders.',
-    proof: 'Ouster/StereoLabs, Mobileye/Mentee, Hesai/RoboSense, Harmonic Drive/Nabtesco, Schaeffler, UBTECH, XPeng, Hyundai/Boston Dynamics, and Richtech all have current humanoid or physical-AI evidence.',
+    title: 'The crowd and KOID found the right stack',
+    takeaway: 'Both lists cluster around eyes, joints, edge compute, warehouse workflows, and a few direct humanoid builders.',
+    proof: 'Ouster/StereoLabs, Mobileye/Mentee, Hesai/RoboSense, Harmonic Drive/Nabtesco, Schaeffler, UBTECH, XPeng, Hyundai/Boston Dynamics, Richtech, Leadshine, Zhaowei, Keli, and Shuanglin all map to current humanoid or physical-AI evidence.',
   },
   {
-    title: 'The crowd is late on several obvious winners',
-    takeaway: 'Actuator and sensor leaders are real, but Harmonic Drive, Nabtesco, Rainbow, VPG, MRAM, AMBQ, LSCC, CGNX, KLIC, Aeva, Aurora, and Neo have already rerated hard.',
-    proof: 'The alpha score penalizes YTD rerating because the user-defined goal is hidden opportunity, not simply maximum humanoid relevance.',
+    title: 'ETF inclusion validates, then penalizes consensus',
+    takeaway: 'KOID confirms several missing component names, but high weights in obvious leaders can also mean the alpha is already becoming institutional.',
+    proof: 'The alpha score now adds KOID validation for lower-weight, direct component candidates while penalizing high-weight or already-rerated holdings such as Harmonic Drive, Rainbow, STMicro, and NVIDIA.',
   },
   {
     title: 'The best alpha is second-order',
     takeaway: 'Small-cap perception, motion, direct-but-unproven builders, and materials names screen better than mega-cap parents or fully consensus suppliers.',
-    proof: 'ARBE, SERV, XBOTF, ACUVI.ST, MKA.L, RR, ALNT, AMBA, MBLY, RoboSense, Hesai, and Siasun rank higher than Tesla, NVIDIA, CATL, ABB, Hyundai, and Intuitive Surgical.',
+    proof: 'ARBE, SERV, XBOTF, ACUVI.ST, MKA.L, RoboSense, RR, ALNT, Zhaowei, Leadshine, Keli, Schaeffler, and Shuanglin rank higher than Tesla, NVIDIA, CATL, ABB, Hyundai, and Intuitive Surgical.',
   },
 ];
 
-export const humanoidAlphaCompanies: HumanoidAlphaCompany[] = [
+const baseHumanoidAlphaCompanies: HumanoidAlphaCompany[] = [
   {
     rank: 1,
     company: 'Arbe Robotics',
@@ -1145,14 +1180,329 @@ export const privateWatchlist: PrivateWatch[] = [
 export const mindmapNodes: MindmapNode[] = [
   { id: 'center', label: 'Humanoid alpha', category: 'Center', x: 50, y: 50, size: 84, companies: ['Alpha = exposure x valuation x rerating room'] },
   { id: 'builders', label: 'Builders', category: 'Builder', x: 50, y: 14, size: 66, companies: ['XBOTF', 'RR', 'MBLY', 'UBTECH', 'XPeng', 'Hyundai'] },
-  { id: 'actuation', label: 'Joints', category: 'Actuation', x: 17, y: 31, size: 66, companies: ['ALNT', 'SHA0.DE', '6268.T', '6324.T', '108490.KQ'] },
-  { id: 'sensing', label: 'Eyes', category: 'Sensing', x: 83, y: 31, size: 66, companies: ['ARBE', 'OUST', 'HSAI', '2498.HK', 'AEVA', 'CGNX'] },
+  { id: 'actuation', label: 'Joints', category: 'Actuation', x: 17, y: 31, size: 66, companies: ['ALNT', 'SHA0.DE', '002979.SZ', '003021.SZ', '002472.SZ', '6268.T', '6324.T'] },
+  { id: 'sensing', label: 'Eyes', category: 'Sensing', x: 83, y: 31, size: 66, companies: ['ARBE', 'OUST', 'HSAI', '2498.HK', '603662.SS', 'AEVA', 'CGNX'] },
   { id: 'edge', label: 'Edge AI', category: 'Edge AI', x: 78, y: 73, size: 66, companies: ['AMBA', 'INDI', 'AMBQ', 'LSCC', 'MRAM', 'NVDA'] },
-  { id: 'materials', label: 'Power/materials', category: 'Materials', x: 22, y: 73, size: 66, companies: ['MKA.L', 'CATL', 'NEO.TO', 'VPG', '8147.TWO'] },
+  { id: 'materials', label: 'Power/materials', category: 'Materials', x: 22, y: 73, size: 66, companies: ['MKA.L', 'MP', 'CATL', 'NEO.TO', 'VPG', '8147.TWO'] },
   { id: 'warehouse', label: 'Workflows', category: 'Warehouse', x: 50, y: 88, size: 66, companies: ['SERV', 'SYM', 'ZBRA', 'KDK', 'Geek+'] },
 ];
 
+export const koidHoldings: KoidHolding[] = [
+  { fundRank: 49, company: 'RoboSense Technology', fundTicker: '2498', yahooSymbol: '2498.HK', weightPct: 1.41, marketValueUsd: 2707416, category: 'Sensing', purity: 'Core component', decision: 'Alpha candidate', alpha: 78, price: 33.5, currency: 'HKD', marketCapUsd: 1976180311, ytdReturnPct: -10.19, note: 'Robotics lidar exposure with smaller cap and negative YTD rerating.' },
+  { fundRank: 43, company: 'Shenzhen Zhaowei Machinery', fundTicker: '003021', yahooSymbol: '003021.SZ', weightPct: 1.60, marketValueUsd: 3086404, category: 'Actuation', purity: 'Core component', decision: 'Alpha candidate', alpha: 77, price: 100.4, currency: 'CNY', marketCapUsd: 3909041469.74, ytdReturnPct: -17.81, note: 'Micro-drive and precision transmission angle; much less crowded than the Japan reducer leaders.' },
+  { fundRank: 14, company: 'China Leadshine Technology', fundTicker: '002979', yahooSymbol: '002979.SZ', weightPct: 2.30, marketValueUsd: 4429912, category: 'Actuation', purity: 'Core component', decision: 'Alpha candidate', alpha: 76, price: 54.95, currency: 'CNY', marketCapUsd: 2299696698.87, ytdReturnPct: 30.55, note: 'Motion-control and servo exposure with still-reasonable market cap.' },
+  { fundRank: 38, company: 'Keli Sensing Technology', fundTicker: '603662', yahooSymbol: '603662.SS', weightPct: 1.70, marketValueUsd: 3279940, category: 'Sensing', purity: 'Core component', decision: 'Alpha candidate', alpha: 76, price: 60.82, currency: 'CNY', marketCapUsd: 2537471971.84, ytdReturnPct: -13.88, note: 'Force/load sensor supplier with the right body-stack angle and a pullback.' },
+  { fundRank: 44, company: 'Shuanglin Co.', fundTicker: '300100', yahooSymbol: '300100.SZ', weightPct: 1.58, marketValueUsd: 3040701, category: 'Actuation', purity: 'Core component', decision: 'Alpha candidate', alpha: 75, price: 30.08, currency: 'CNY', marketCapUsd: 2640598137.23, ytdReturnPct: -23.5, note: 'Small-cap China actuator/mechanical systems candidate with meaningful rerating room.' },
+  { fundRank: 21, company: 'Schaeffler', fundTicker: 'SHA', yahooSymbol: 'SHA0.DE', weightPct: 2.08, marketValueUsd: 3994827, category: 'Actuation', purity: 'Direct humanoid', decision: 'Alpha candidate', alpha: 74, price: 9.49, currency: 'EUR', marketCapUsd: 9688138444.45, ytdReturnPct: 10.03, note: 'Direct Humanoid partnership and actuator supply; larger cap but strong evidence.' },
+  { fundRank: 48, company: 'XPeng', fundTicker: '9868', yahooSymbol: '9868.HK', weightPct: 1.41, marketValueUsd: 2720492, category: 'Builder', purity: 'Direct humanoid', decision: 'Alpha candidate', alpha: 73, price: 62.1, currency: 'HKD', marketCapUsd: 14963251909.74, ytdReturnPct: -22.71, note: 'IRON humanoid call option embedded inside a pulled-back EV/autonomy platform.' },
+  { fundRank: 30, company: 'Zhejiang Shuanghuan Driveline', fundTicker: '002472', yahooSymbol: '002472.SZ', weightPct: 1.80, marketValueUsd: 3461465, category: 'Actuation', purity: 'Core component', decision: 'Alpha candidate', alpha: 72, price: 41.13, currency: 'CNY', marketCapUsd: 5318150607.87, ytdReturnPct: -12.49, note: 'Precision driveline and reducer exposure with pullback support.' },
+  { fundRank: 16, company: 'Leader Harmonious Drive Systems', fundTicker: '688017', yahooSymbol: '688017.SS', weightPct: 2.25, marketValueUsd: 4330927, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 71, price: 267.08, currency: 'CNY', marketCapUsd: 7106742063.06, ytdReturnPct: 39.79, note: 'China harmonic reducer leader; excellent exposure, less hidden after the move.' },
+  { fundRank: 24, company: 'UBTECH Robotics', fundTicker: '9880', yahooSymbol: '9880.HK', weightPct: 1.95, marketValueUsd: 3750301, category: 'Builder', purity: 'Direct humanoid', decision: 'Useful exposure', alpha: 70, price: 107.4, currency: 'HKD', marketCapUsd: 7289845894.51, ytdReturnPct: -18.02, note: 'Direct public humanoid builder; good evidence, but a known KOID/crowd name.' },
+  { fundRank: 20, company: 'MP Materials', fundTicker: 'MP', yahooSymbol: 'MP', weightPct: 2.08, marketValueUsd: 4010593, category: 'Materials', purity: 'Core component', decision: 'Useful exposure', alpha: 69, price: 63.73, currency: 'USD', marketCapUsd: 11345000000, ytdReturnPct: 15.94, note: 'Magnet materials are real body-stack bottlenecks, though MP is already a known strategic materials trade.' },
+  { fundRank: 27, company: 'Zhejiang Sanhua Intelligent Controls', fundTicker: '002050', yahooSymbol: '002050.SZ', weightPct: 1.84, marketValueUsd: 3549108, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 69, price: 50.43, currency: 'CNY', marketCapUsd: 30600831011.35, ytdReturnPct: -10.39, note: 'Thermal/mechatronics supplier with pullback, but larger cap dilutes alpha.' },
+  { fundRank: 47, company: 'Horizon Robotics', fundTicker: '9660', yahooSymbol: '9660.HK', weightPct: 1.49, marketValueUsd: 2873988, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Useful exposure', alpha: 69, price: 6.34, currency: 'HKD', marketCapUsd: 14281457200, ytdReturnPct: -29.48, note: 'Embodied edge-AI proxy with a large pullback, though not pure humanoid.' },
+  { fundRank: 10, company: 'Mobileye', fundTicker: 'MBLY', yahooSymbol: 'MBLY', weightPct: 2.40, marketValueUsd: 4616921, category: 'Builder', purity: 'Direct humanoid', decision: 'Useful exposure', alpha: 68, price: 10.53, currency: 'USD', marketCapUsd: 8868000000, ytdReturnPct: -6.23, note: 'Mentee acquisition matters; still scored below smaller, less obvious component names.' },
+  { fundRank: 17, company: 'Sensata Technologies', fundTicker: 'ST', yahooSymbol: 'ST', weightPct: 2.15, marketValueUsd: 4146509, category: 'Sensing', purity: 'Core component', decision: 'Useful exposure', alpha: 67, price: 48.19, currency: 'USD', marketCapUsd: 6534261826, ytdReturnPct: 38.12, note: 'Sensor supplier with robotics relevance; YTD move limits new alpha.' },
+  { fundRank: 31, company: 'Ningbo Tuopu Group', fundTicker: '601689', yahooSymbol: '601689.SS', weightPct: 1.79, marketValueUsd: 3449332, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 67, price: 66.12, currency: 'CNY', marketCapUsd: 17134339354.84, ytdReturnPct: -14.14, note: 'Auto component supplier with humanoid-mechanical optionality but not small.' },
+  { fundRank: 34, company: 'Jiangsu Hengli Hydraulic', fundTicker: '601100', yahooSymbol: '601100.SS', weightPct: 1.76, marketValueUsd: 3382983, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 66, price: 109.59, currency: 'CNY', marketCapUsd: 22414013782.67, ytdReturnPct: -3.44, note: 'Hydraulics/actuation exposure with moderate rerating room.' },
+  { fundRank: 15, company: 'Nabtesco', fundTicker: '6268', yahooSymbol: '6268.T', weightPct: 2.25, marketValueUsd: 4331868, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 65, price: 5938, currency: 'JPY', marketCapUsd: 4132793446.45, ytdReturnPct: 55.04, note: 'Real reducer exposure, but already popular and up strongly.' },
+  { fundRank: 22, company: 'Novanta', fundTicker: 'NOVT', yahooSymbol: 'NOVT', weightPct: 2.04, marketValueUsd: 3930300, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 64, price: 155.44, currency: 'USD', marketCapUsd: 4925306650, ytdReturnPct: 39.86, note: 'High-quality motion/vision supplier; not a bargain.' },
+  { fundRank: 42, company: 'Moog Class A', fundTicker: 'MOG/A', yahooSymbol: 'MOG-A', weightPct: 1.62, marketValueUsd: 3117386, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 64, price: 307.89, currency: 'USD', marketCapUsd: 9979107828, ytdReturnPct: 23.22, note: 'Precision motion control and aerospace controls; decent but not hidden.' },
+  { fundRank: 12, company: 'Melexis', fundTicker: 'MELE', yahooSymbol: 'MELE.BR', weightPct: 2.37, marketValueUsd: 4557611, category: 'Sensing', purity: 'Core component', decision: 'Useful exposure', alpha: 63, price: 79.8, currency: 'EUR', marketCapUsd: 3619856649.5, ytdReturnPct: 35.83, note: 'Robotics-relevant sensors, already rerated.' },
+  { fundRank: 25, company: 'Nidec', fundTicker: '6594', yahooSymbol: '6594.T', weightPct: 1.88, marketValueUsd: 3626317, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 63, price: 2681, currency: 'JPY', marketCapUsd: 18827107361.02, ytdReturnPct: 28.15, note: 'Motor leader with humanoid relevance, but broad and fairly well known.' },
+  { fundRank: 37, company: 'Regal Rexnord', fundTicker: 'RRX', yahooSymbol: 'RRX', weightPct: 1.72, marketValueUsd: 3314766, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 62, price: 205.72, currency: 'USD', marketCapUsd: 14269853668, ytdReturnPct: 40.81, note: 'Motion/power transmission name with rising crowd awareness.' },
+  { fundRank: 45, company: 'TE Connectivity', fundTicker: 'TEL', yahooSymbol: 'TEL', weightPct: 1.56, marketValueUsd: 3005879, category: 'Materials', purity: 'Core component', decision: 'Useful exposure', alpha: 62, price: 207.66, currency: 'USD', marketCapUsd: 60615000000, ytdReturnPct: -10.96, note: 'Connectors and sensors matter, but scale dilutes humanoid alpha.' },
+  { fundRank: 46, company: 'Amphenol', fundTicker: 'APH', yahooSymbol: 'APH', weightPct: 1.56, marketValueUsd: 3004946, category: 'Materials', purity: 'Core component', decision: 'Useful exposure', alpha: 62, price: 124.64, currency: 'USD', marketCapUsd: 153336000000, ytdReturnPct: -10.79, note: 'Connector content is relevant; mega-cap size limits upside asymmetry.' },
+  { fundRank: 3, company: 'Harmonic Drive Systems', fundTicker: '6324', yahooSymbol: '6324.T', weightPct: 2.83, marketValueUsd: 5448313, category: 'Actuation', purity: 'Core component', decision: 'Demoted', alpha: 60, price: 6840, currency: 'JPY', marketCapUsd: 3715576801.46, ytdReturnPct: 78.12, note: 'A core actuator bottleneck, but KOID and the crowd have already discovered it.' },
+  { fundRank: 41, company: 'Lynas Rare Earths', fundTicker: 'LYC', yahooSymbol: 'LYC.AX', weightPct: 1.62, marketValueUsd: 3117929, category: 'Materials', purity: 'Core component', decision: 'Demoted', alpha: 60, price: 18.175, currency: 'AUD', marketCapUsd: 14195436491.16, ytdReturnPct: 48.73, note: 'Relevant magnet-input chain, but already rerated and less direct than MP/Mkango-style ideas.' },
+  { fundRank: 5, company: 'THK', fundTicker: '6481', yahooSymbol: '6481.T', weightPct: 2.52, marketValueUsd: 4847430, category: 'Actuation', purity: 'Core component', decision: 'Demoted', alpha: 58, price: 7781, currency: 'JPY', marketCapUsd: 4580243429.25, ytdReturnPct: 92.22, note: 'Linear motion leader; price has already moved too much for fresh alpha.' },
+  { fundRank: 9, company: 'HIWIN Technologies', fundTicker: '2049', yahooSymbol: '2049.TW', weightPct: 2.41, marketValueUsd: 4635360, category: 'Actuation', purity: 'Core component', decision: 'Demoted', alpha: 58, price: 382, currency: 'TWD', marketCapUsd: 3583260875.56, ytdReturnPct: 94.9, note: 'Useful mechanical exposure, but up almost 95% YTD.' },
+  { fundRank: 8, company: 'Renesas Electronics', fundTicker: '6723', yahooSymbol: '6723.T', weightPct: 2.46, marketValueUsd: 4733000, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 56, price: 3938, currency: 'JPY', marketCapUsd: 40348100544.95, ytdReturnPct: 76.99, note: 'Good embedded semiconductor exposure, weak hidden-alpha setup after rerating.' },
+  { fundRank: 13, company: 'Doosan', fundTicker: '000150', yahooSymbol: '000150.KS', weightPct: 2.34, marketValueUsd: 4505418, category: 'Builder', purity: 'Diversified supplier', decision: 'Demoted', alpha: 56, price: 1650000, currency: 'KRW', marketCapUsd: 18180926669.5, ytdReturnPct: 116.25, note: 'Robotics group exposure, but already up over 100% YTD.' },
+  { fundRank: 1, company: 'Credo Technology', fundTicker: 'CRDO', yahooSymbol: 'CRDO', weightPct: 3.04, marketValueUsd: 5847437, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Index ballast', alpha: 55, price: 189.36, currency: 'USD', marketCapUsd: 34927000000, ytdReturnPct: 32.22, note: 'Cabling/optical interconnect enabler for AI, not direct humanoid alpha.' },
+  { fundRank: 11, company: 'NXP Semiconductors', fundTicker: 'NXPI', yahooSymbol: 'NXPI', weightPct: 2.37, marketValueUsd: 4562987, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Index ballast', alpha: 55, price: 298.41, currency: 'USD', marketCapUsd: 75340000000, ytdReturnPct: 34.86, note: 'Embedded automotive/industrial chip exposure; diversified and large.' },
+  { fundRank: 35, company: 'Magna International', fundTicker: 'MG', yahooSymbol: 'MG.TO', weightPct: 1.74, marketValueUsd: 3358380, category: 'Materials', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 55, price: 85.58, currency: 'CAD', marketCapUsd: 17142099692.3, ytdReturnPct: 14.08, note: 'Auto supplier exposure; KOID role is broad physical manufacturing, not direct humanoid.' },
+  { fundRank: 39, company: 'Hexagon', fundTicker: 'HEXAB', yahooSymbol: 'HEXA-B.ST', weightPct: 1.64, marketValueUsd: 3163326, category: 'Sensing', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 55, price: 95.28, currency: 'SEK', marketCapUsd: 27461137475.34, ytdReturnPct: -10.95, note: 'Metrology and autonomy tooling are relevant, but market cap and breadth dilute alpha.' },
+  { fundRank: 28, company: 'China Northern Rare Earth', fundTicker: '600111', yahooSymbol: '600111.SS', weightPct: 1.83, marketValueUsd: 3515326, category: 'Materials', purity: 'Core component', decision: 'Useful exposure', alpha: 54, price: 53.86, currency: 'CNY', marketCapUsd: 29174123604.74, ytdReturnPct: 14.96, note: 'Magnet-material input, but commodity and state-linked scale dilute single-name alpha.' },
+  { fundRank: 18, company: 'Jabil', fundTicker: 'JBL', yahooSymbol: 'JBL', weightPct: 2.14, marketValueUsd: 4117657, category: 'Warehouse', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 53, price: 355.43, currency: 'USD', marketCapUsd: 37499000000, ytdReturnPct: 47.86, note: 'Manufacturing services optionality; not humanoid-pure and already rerated.' },
+  { fundRank: 2, company: 'STMicroelectronics', fundTicker: 'STMMI', yahooSymbol: 'STMMI.MI', weightPct: 2.87, marketValueUsd: 5522040, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 52, price: 52.35, currency: 'EUR', marketCapUsd: 51069411228.18, ytdReturnPct: 123.43, note: 'Strong sensor/MCU franchise, but the YTD move breaks hidden-alpha discipline.' },
+  { fundRank: 4, company: 'Infineon Technologies', fundTicker: 'IFX', yahooSymbol: 'IFX.DE', weightPct: 2.67, marketValueUsd: 5143570, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 52, price: 64.36, currency: 'EUR', marketCapUsd: 93892993166.56, ytdReturnPct: 68.2, note: 'Industrial power semiconductor exposure, but too large and rerated.' },
+  { fundRank: 29, company: 'Lingyi iTech Guangdong', fundTicker: '002600', yahooSymbol: '002600.SZ', weightPct: 1.82, marketValueUsd: 3511359, category: 'Materials', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 52, price: 16.04, currency: 'CNY', marketCapUsd: 16255003056.32, ytdReturnPct: 0.69, note: 'Mechanical/electronics manufacturing angle, but weaker direct humanoid evidence.' },
+  { fundRank: 40, company: 'Teledyne Technologies', fundTicker: 'TDY', yahooSymbol: 'TDY', weightPct: 1.63, marketValueUsd: 3134647, category: 'Sensing', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 51, price: 635.96, currency: 'USD', marketCapUsd: 29288000000, ytdReturnPct: 22.59, note: 'High-quality sensing/imaging, but not a humanoid hidden gem.' },
+  { fundRank: 50, company: 'Aptiv', fundTicker: 'APTV', yahooSymbol: 'APTV', weightPct: 1.22, marketValueUsd: 2341764, category: 'Edge AI', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 51, price: 54.21, currency: 'USD', marketCapUsd: 12020000000, ytdReturnPct: -30.89, note: 'Automotive electronics pullback helps, but humanoid purity is low.' },
+  { fundRank: 36, company: 'Shenzhen Inovance Technology', fundTicker: '300124', yahooSymbol: '300124.SZ', weightPct: 1.74, marketValueUsd: 3341978, category: 'Actuation', purity: 'Core component', decision: 'Useful exposure', alpha: 50, price: 74.97, currency: 'CNY', marketCapUsd: 29930809770.35, ytdReturnPct: -4.31, note: 'Industrial automation leader; good stack fit but already large.' },
+  { fundRank: 7, company: 'Texas Instruments', fundTicker: 'TXN', yahooSymbol: 'TXN', weightPct: 2.46, marketValueUsd: 4736016, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 48, price: 306.34, currency: 'USD', marketCapUsd: 278798000000, ytdReturnPct: 72.57, note: 'Analog and embedded compute matter, but this is large-cap ballast after a big move.' },
+  { fundRank: 19, company: 'Analog Devices', fundTicker: 'ADI', yahooSymbol: 'ADI', weightPct: 2.13, marketValueUsd: 4090409, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 48, price: 432.39, currency: 'USD', marketCapUsd: 204875000000, ytdReturnPct: 57.96, note: 'Excellent analog franchise; not hidden humanoid alpha.' },
+  { fundRank: 32, company: 'Keyence', fundTicker: '6861', yahooSymbol: '6861.T', weightPct: 1.78, marketValueUsd: 3421860, category: 'Sensing', purity: 'Diversified supplier', decision: 'Index ballast', alpha: 47, price: 79310, currency: 'JPY', marketCapUsd: 128604046391.86, ytdReturnPct: 38.7, note: 'Machine vision/sensing quality, but very large and well known.' },
+  { fundRank: 33, company: 'RBC Bearings', fundTicker: 'RBC', yahooSymbol: 'RBC', weightPct: 1.77, marketValueUsd: 3398435, category: 'Actuation', purity: 'Core component', decision: 'Index ballast', alpha: 47, price: 618.91, currency: 'USD', marketCapUsd: 19160774176, ytdReturnPct: 34.9, note: 'Bearings content is relevant; valuation and directness are weaker.' },
+  { fundRank: 6, company: 'Rainbow Robotics', fundTicker: '277810', yahooSymbol: '277810.KQ', weightPct: 2.49, marketValueUsd: 4800817, category: 'Builder', purity: 'Direct humanoid', decision: 'Demoted', alpha: 45, price: 836000, currency: 'KRW', marketCapUsd: 10646642070.4, ytdReturnPct: 69.4, note: 'Direct humanoid exposure, but KOID weight and Samsung narrative mean it is no longer hidden.' },
+  { fundRank: 26, company: 'Tesla', fundTicker: 'TSLA', yahooSymbol: 'TSLA', weightPct: 1.87, marketValueUsd: 3596001, category: 'Builder', purity: 'Direct humanoid', decision: 'Demoted', alpha: 30, price: 445.27, currency: 'USD', marketCapUsd: 1672000000000, ytdReturnPct: 1.64, note: 'Optimus is important, but TSLA is the consensus humanoid benchmark, not alpha.' },
+  { fundRank: 23, company: 'NVIDIA', fundTicker: 'NVDA', yahooSymbol: 'NVDA', weightPct: 2.04, marketValueUsd: 3920635, category: 'Edge AI', purity: 'Physical AI enabler', decision: 'Demoted', alpha: 25, price: 225.83, currency: 'USD', marketCapUsd: 5366000000000, ytdReturnPct: 19.58, note: 'The platform winner, but too large and obvious for the hidden-gem mandate.' },
+];
+
+const koidPrimaryAdditions: HumanoidAlphaCompany[] = [
+  {
+    rank: 0,
+    company: 'Shenzhen Zhaowei Machinery',
+    ticker: '003021.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Actuation',
+    tier: 'Core alpha',
+    role: 'Micro-drive, precision transmission, and compact motion modules for robot joints and hands',
+    price: 100.4,
+    currency: 'CNY',
+    marketCapUsd: 3909041469.74,
+    ytdReturnPct: -17.81,
+    alpha: 77,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 18, valuation: 14, reratingRoom: 18, evidence: 16, optionality: 11 },
+    thesis: 'KOID surfaces Zhaowei as a less-obvious precision-motion candidate. The setup is cleaner than the Japan reducer leaders because the market cap is still modest and the stock is down YTD.',
+    whyNow: 'KOID rank #43, only 1.60% fund weight, negative YTD return, and a component role that maps directly to compact humanoid motion.',
+    risks: 'China A-share accessibility, customer verification, and competition from larger actuator suppliers.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'China Leadshine Technology',
+    ticker: '002979.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Actuation',
+    tier: 'Core alpha',
+    role: 'Servo drives, stepper drives, and motion-control systems for industrial automation and robotics',
+    price: 54.95,
+    currency: 'CNY',
+    marketCapUsd: 2299696698.87,
+    ytdReturnPct: 30.55,
+    alpha: 76,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 18, valuation: 16, reratingRoom: 12, evidence: 17, optionality: 13 },
+    thesis: 'Leadshine is one of the KOID names that looks more like a true humanoid supplier than a broad industrial proxy: motion control is a core bottleneck and the market cap is still small enough for alpha.',
+    whyNow: 'KOID rank #14 with 2.30% weight validates relevance, while the company remains less globally discussed than Harmonic Drive, Nabtesco, or Rainbow.',
+    risks: 'YTD appreciation is no longer neutral, and China industrial demand can swamp the humanoid signal.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'Keli Sensing Technology',
+    ticker: '603662.SS',
+    exchange: 'SSE',
+    country: 'China',
+    category: 'Sensing',
+    tier: 'Core alpha',
+    role: 'Force, load, and industrial sensing components for robot balance, joints, and manipulation',
+    price: 60.82,
+    currency: 'CNY',
+    marketCapUsd: 2537471971.84,
+    ytdReturnPct: -13.88,
+    alpha: 76,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 17, valuation: 16, reratingRoom: 18, evidence: 15, optionality: 10 },
+    thesis: 'KOID adds a force-sensing angle the crowd mostly missed. Keli screens better than VPG today because it has similar body-stack relevance without the extreme YTD rerating.',
+    whyNow: 'KOID rank #38, 1.70% weight, sub-$3B market cap, and negative YTD performance create a better residual-alpha setup than more crowded force-sensor names.',
+    risks: 'Direct humanoid customer evidence is thinner than the sensor thesis, and A-share liquidity/accessibility matter.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'Shuanglin Co.',
+    ticker: '300100.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Actuation',
+    tier: 'Core alpha',
+    role: 'Mechanical systems and actuator-adjacent auto/robotics components',
+    price: 30.08,
+    currency: 'CNY',
+    marketCapUsd: 2640598137.23,
+    ytdReturnPct: -23.5,
+    alpha: 75,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 16, valuation: 16, reratingRoom: 19, evidence: 14, optionality: 10 },
+    thesis: 'Shuanglin is not the cleanest proof-point name, but KOID flags it as a body-stack component candidate with strong rerating room after a large YTD pullback.',
+    whyNow: 'KOID rank #44, 1.58% weight, sub-$3B market cap, and down more than 20% YTD.',
+    risks: 'Lower disclosure clarity, auto-cycle exposure, and uncertain direct humanoid revenue.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'Zhejiang Shuanghuan Driveline',
+    ticker: '002472.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Actuation',
+    tier: 'Watchlist',
+    role: 'Precision driveline, gears, and reducer-adjacent components',
+    price: 41.13,
+    currency: 'CNY',
+    marketCapUsd: 5318150607.87,
+    ytdReturnPct: -12.49,
+    alpha: 72,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 17, valuation: 12, reratingRoom: 17, evidence: 15, optionality: 11 },
+    thesis: 'The gear and driveline exposure is relevant to the humanoid joint stack, but the company is larger than the very best KOID-hidden names.',
+    whyNow: 'KOID rank #30, 1.80% weight, and negative YTD return keep it on the watchlist.',
+    risks: 'Auto exposure, China A-share access, and unclear humanoid-specific revenue mix.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'Leader Harmonious Drive Systems',
+    ticker: '688017.SS',
+    exchange: 'SSE STAR',
+    country: 'China',
+    category: 'Actuation',
+    tier: 'Watchlist',
+    role: 'Harmonic reducers and precision transmission for robot joints',
+    price: 267.08,
+    currency: 'CNY',
+    marketCapUsd: 7106742063.06,
+    ytdReturnPct: 39.79,
+    alpha: 71,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 22, valuation: 10, reratingRoom: 10, evidence: 19, optionality: 10 },
+    thesis: 'This is one of the most direct KOID China actuator names, but the rerating and valuation make it less hidden than Zhaowei, Leadshine, Keli, or Shuanglin.',
+    whyNow: 'KOID rank #16 with 2.25% weight confirms importance; the alpha case now depends on continued humanoid reducer demand.',
+    risks: 'Already up sharply, competitive reducer pricing, and high expectations around China humanoid supply chains.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'MP Materials',
+    ticker: 'MP',
+    exchange: 'NYSE',
+    country: 'US',
+    category: 'Materials',
+    tier: 'Watchlist',
+    role: 'Rare-earth magnet material supply chain for compact motors and actuators',
+    price: 63.73,
+    currency: 'USD',
+    marketCapUsd: 11345000000,
+    ytdReturnPct: 15.94,
+    alpha: 69,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 15, valuation: 9, reratingRoom: 14, evidence: 18, optionality: 13 },
+    thesis: 'MP is not a hidden micro-cap, but KOID correctly treats magnets as a physical-AI bottleneck. It is the more liquid strategic-materials proxy beside Mkango.',
+    whyNow: 'KOID rank #20 with 2.08% weight validates the motor-materials thesis while YTD performance remains moderate.',
+    risks: 'Commodity exposure, policy-driven valuation, and indirect humanoid purity.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+  {
+    rank: 0,
+    company: 'Horizon Robotics',
+    ticker: '9660.HK',
+    exchange: 'HKEX',
+    country: 'China',
+    category: 'Edge AI',
+    tier: 'Watchlist',
+    role: 'Embodied edge-AI and autonomous-driving compute platform',
+    price: 6.34,
+    currency: 'HKD',
+    marketCapUsd: 14281457200,
+    ytdReturnPct: -29.48,
+    alpha: 69,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 15, valuation: 8, reratingRoom: 20, evidence: 16, optionality: 10 },
+    thesis: 'Horizon is not a pure humanoid company, but the edge-AI platform and pullback make it more interesting than many larger semiconductor ballast holdings.',
+    whyNow: 'KOID rank #47, 1.49% weight, and a large YTD drawdown put it on the physical-AI watchlist.',
+    risks: 'Automotive mix, China listing risk, and low humanoid revenue purity.',
+    sourceIds: ['koid-csv', 'koid-page'],
+  },
+];
+
+const koidTickerAliases: Record<string, string> = {
+  XPEV: '9868.HK',
+};
+
+function koidHoldingForCompany(company: HumanoidAlphaCompany) {
+  const yahooSymbol = koidTickerAliases[company.ticker] ?? company.ticker;
+  return koidHoldings.find((holding) => holding.yahooSymbol === yahooSymbol);
+}
+
+function koidScoreDelta(company: HumanoidAlphaCompany, holding: KoidHolding | undefined) {
+  if (!holding || company.sourceIds.includes('koid-csv')) return 0;
+  const decisionDelta: Record<KoidDecision, number> = {
+    'Alpha candidate': 5,
+    'Useful exposure': 3,
+    'Index ballast': -2,
+    Demoted: -5,
+  };
+  const weightPenalty = holding.weightPct >= 2.65 ? -2 : holding.weightPct >= 2.2 ? -1 : 0;
+  const blendedSignal = Math.round((holding.alpha - company.alpha) * 0.35);
+  return decisionDelta[holding.decision] + weightPenalty + blendedSignal;
+}
+
+function alphaTier(score: number): AlphaTier {
+  if (score >= 73) return 'Core alpha';
+  if (score >= 55) return 'Watchlist';
+  return 'Demoted';
+}
+
+function koidAdjustedBreakdown(company: HumanoidAlphaCompany, delta: number) {
+  if (delta === 0) return company.breakdown;
+  if (delta > 0) {
+    return {
+      ...company.breakdown,
+      evidence: Math.min(20, company.breakdown.evidence + 2),
+      optionality: Math.min(15, company.breakdown.optionality + Math.max(1, Math.min(4, Math.round(delta / 2)))),
+    };
+  }
+  return {
+    ...company.breakdown,
+    reratingRoom: Math.max(0, company.breakdown.reratingRoom + Math.min(0, delta)),
+    optionality: Math.max(-50, company.breakdown.optionality + Math.min(0, Math.round(delta / 2))),
+  };
+}
+
+function withKoidRerank(companies: HumanoidAlphaCompany[]) {
+  return companies
+    .map((company) => {
+      const holding = koidHoldingForCompany(company);
+      const delta = koidScoreDelta(company, holding);
+      const alpha = Math.max(1, Math.min(92, company.alpha + delta));
+      const koidNote = holding && !company.sourceIds.includes('koid-csv')
+        ? ` KOID cross-check: official rank #${holding.fundRank}, ${holding.weightPct.toFixed(2)}% weight, ${holding.decision.toLowerCase()}.`
+        : '';
+      return {
+        ...company,
+        alpha,
+        tier: alphaTier(alpha),
+        breakdown: koidAdjustedBreakdown(company, delta),
+        whyNow: `${company.whyNow}${koidNote}`,
+        sourceIds: holding && !company.sourceIds.includes('koid-csv') ? [...company.sourceIds, 'koid-csv'] : company.sourceIds,
+      };
+    })
+    .sort((a, b) => b.alpha - a.alpha || (a.marketCapUsd ?? Number.MAX_SAFE_INTEGER) - (b.marketCapUsd ?? Number.MAX_SAFE_INTEGER))
+    .map((company, index) => ({ ...company, rank: index + 1 }));
+}
+
+export const humanoidAlphaCompanies: HumanoidAlphaCompany[] = withKoidRerank([
+  ...baseHumanoidAlphaCompanies,
+  ...koidPrimaryAdditions,
+]);
+
 export const sourceLinks: SourceLink[] = [
+  {
+    id: 'koid-page',
+    label: 'KraneShares KOID fund page',
+    url: 'https://kraneshares.com/etf/koid/',
+    usedFor: 'KOID fund details, NAV, performance, thesis framing, and holdings table as of May 13, 2026.',
+  },
+  {
+    id: 'koid-csv',
+    label: 'KOID full holdings CSV',
+    url: 'https://kraneshares.com/csv/05_13_2026_koid_holdings.csv',
+    usedFor: 'Official full holdings list, weights, shares held, and market values used in the KOID audit.',
+  },
   {
     id: 'crowd-post',
     label: 'Crowdsourced X list',
