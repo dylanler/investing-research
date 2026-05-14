@@ -1,418 +1,1438 @@
-// Robotics Revolution: End-to-End Learning, Data Infrastructure, and Investment Landscape
-// Source: robotics_revolution_report_v2_with_egoverse_update.md (March 25, 2026)
-// Cross-referenced with: robotics_end_to_end_learning_report.md, validation addendum
+// Humanoid Robotics Alpha Atlas
+// Rebuilt May 13, 2026 from the crowdsourced humanoid exposure list plus fresh web and market-data checks.
 
-export interface LearningMethod {
-  id: number;
-  name: string;
-  shortName: string;
-  scores: { m1: number; m2: number; m3: number; m4: number; m5: number; m6: number; m7: number; m8: number };
-  composite: number;
-  confidence2030: string;
-  description: string;
-  justifications: { [key: string]: string };
+export type StackCategory =
+  | 'Builder'
+  | 'Actuation'
+  | 'Sensing'
+  | 'Edge AI'
+  | 'Warehouse'
+  | 'Materials'
+  | 'Demoted';
+
+export type AlphaTier = 'Core alpha' | 'Watchlist' | 'Demoted' | 'Excluded';
+
+export interface ScoreBreakdown {
+  exposure: number;
+  valuation: number;
+  reratingRoom: number;
+  evidence: number;
+  optionality: number;
 }
 
-export const scoringMetrics = [
-  { key: 'm1', name: 'Data Scalability', short: 'Data', description: 'How much naturally occurring or cheaply collectible data exists for this method? Score 10 = internet-scale data supply (e.g., human video). Score 1 = every hour requires a robot, operator, and task setup.', question: 'Can this method tap abundant, cheap data — or is every training sample expensive?' },
-  { key: 'm2', name: 'Compute Scalability', short: 'Compute', description: 'Does throwing more compute at this method reliably improve performance? Score 10 = clear log-linear scaling laws demonstrated (e.g., EgoScale R²=0.9983). Score 1 = more compute yields diminishing or no returns.', question: 'Does more GPU time translate into better robot capability?' },
-  { key: 'm3', name: 'Task Generalization', short: 'Tasks', description: 'How well does a model trained with this method generalize to unseen tasks, objects, and environments? Score 10 = broad open-world generalization. Score 1 = narrow, per-task-only performance.', question: 'Can the robot handle tasks it was never specifically trained for?' },
-  { key: 'm4', name: 'Cross-Embodiment Transfer', short: 'Transfer', description: 'Can knowledge learned on one robot body transfer to a different robot form? Score 10 = works across arms, hands, humanoids, and mobile platforms. Score 1 = completely embodiment-specific.', question: 'Does training on Robot A help Robot B learn faster?' },
-  { key: 'm5', name: 'Real-World Sample Efficiency', short: 'Efficiency', description: 'How few real robot interactions are needed after pretraining? Score 10 = near zero-shot from pretraining alone. Score 1 = every task needs hundreds of robot-specific demos.', question: 'How much expensive real-world robot time is still needed?' },
-  { key: 'm6', name: 'Sim-to-Real Viability', short: 'Sim2Real', description: 'Does this method benefit from simulation? Score 10 = sim is the primary training environment with reliable transfer. Score 1 = simulation provides no meaningful benefit.', question: 'Can simulation substitute for real-world data collection?' },
-  { key: 'm7', name: 'Inference Speed', short: 'Speed', description: 'Can the trained model run fast enough for real-time robot control? Score 10 = sub-5ms inference suitable for 200Hz+ control. Score 1 = too slow for any reactive behavior.', question: 'Is the model fast enough to control a robot in real time?' },
-  { key: 'm8', name: 'Bitter Lesson Alignment', short: 'Bitter', description: 'Does this method align with Rich Sutton\'s Bitter Lesson — that general methods leveraging computation and data ultimately outperform methods that exploit human knowledge? Score 10 = pure scaling play. Score 1 = heavy hand-engineering.', question: 'Does this method win by throwing more data and compute at the problem?' },
-];
-
-export const learningMethods: LearningMethod[] = [
-  { id: 5, name: 'Scaled Egocentric Human Video → Robot Transfer', shortName: 'Human Video→Robot', scores: { m1: 10, m2: 9, m3: 8, m4: 8, m5: 9, m6: 6, m7: 7, m8: 10 }, composite: 106, confidence2030: '55-65%', description: 'Map massive egocentric human video (EgoScale: 20,854h, DreamDojo: 44,711h) to robot embodiments via retargeting and alignment. The Bitter Lesson winner.',
-    justifications: { m1: 'Best-in-class: egocentric human video is far cheaper and more abundant than teleoperation', m2: 'EgoScale provides near-perfect log-linear fit (R²=0.9983) between data scale and downstream performance', m3: 'Learns from human activity distributions rather than narrow robot task scripts', m4: 'Core design goal; EgoScale already reports transfer from high-DoF to lower-DoF hands', m5: 'Robot-specific finetuning can be small relative to human-video pretraining set', m6: 'Useful but not mandatory; key advantage is bypassing teleop, not depending on sim fidelity', m7: 'Real-time feasible but typically slower than plain BC due to richer multimodal models', m8: 'Most Bitter-Lesson-aligned method: attacks robotics\' scarcest resource by tapping internet-scale modality' } },
-  { id: 9, name: 'Cross-Embodiment Foundation Models', shortName: 'Cross-Embodiment', scores: { m1: 9, m2: 9, m3: 9, m4: 9, m5: 7, m6: 5, m7: 6, m8: 10 }, composite: 102, confidence2030: '65-75%', description: 'Pretrain on heterogeneous multi-robot datasets (Open X-Embodiment: 22 robots, 527 skills, 1M+ trajectories). Transfer to new embodiments.',
-    justifications: { m1: 'Aggregates many robots, institutions, embodiments into one pretraining corpus', m2: 'Clearest robotics analog to language-model scaling: larger heterogeneous corpora yield better transfer', m3: 'Sees many tasks, objects, and embodiments during pretraining — among the best', m4: 'Cross-embodiment transfer is the defining strength of the method', m5: 'After pretraining, relatively small finetuning sets can adapt to new platforms', m6: 'Can be appended, but current wins come more from real heterogeneous data than sim', m7: 'Acceptable but not ultra-fast due to large models with chunked actions', m8: 'Arguably cleanest Bitter-Lesson winner: general methods, broad data, more compute all point same direction' } },
-  { id: 3, name: 'World Models for Robotics', shortName: 'World Models', scores: { m1: 8, m2: 9, m3: 8, m4: 6, m5: 8, m6: 8, m7: 6, m8: 9 }, composite: 97, confidence2030: '60-70%', description: 'Learn physics simulators from data (1X: 14B WM, NVIDIA Cosmos: 20M+ hours). Generate synthetic trajectories to amplify real data by 10-100x.',
-    justifications: { m1: 'Can absorb robot logs, egocentric video, and synthetic rollouts, broadening usable corpus', m2: 'Predictive models and latent planners improve with model size, horizon length, and simulation budget', m3: 'Models dynamics instead of memorizing single trajectories — better novel-scenario transfer', m4: 'Latent dynamics can transfer across embodiments but embodiment-specific control layers still needed', m5: 'Imagined rollouts and model-based planning reduce on-robot data demand', m6: 'One of the best methods for exploiting simulation/synthetic data, though model bias limits', m7: 'Slower than simple BC because planning or rollouts add overhead', m8: 'More data and compute buy better internal simulation, reducing dependence on hand-coded structure' } },
-  { id: 6, name: 'Vision-Language-Action Models (VLAs)', shortName: 'VLAs', scores: { m1: 8, m2: 8, m3: 8, m4: 7, m5: 6, m6: 4, m7: 5, m8: 8 }, composite: 86, confidence2030: 'Near-term dominant', description: 'End-to-end models mapping vision+language to motor actions. RT-2 jumped from 32% to 62% on unseen tasks. VLA alone is NOT the answer — it is one layer.',
-    justifications: { m1: 'Can mix robot data with web-scale language/vision, but actions still require robot or aligned human data', m2: 'Strong by inheritance from LLM/VLM pretraining, evidence from RT-2, OpenVLA, pi0', m3: 'Language lets the policy bind semantics to new objects and instructions', m4: 'Improving but action heads and control frequencies still vary by platform', m5: 'Better than pure BC but still materially dependent on robot-action data', m6: 'Helps for augmentation/evaluation but VLAs are not yet sim-first winners', m7: 'Inference constraint: autoregressive/multimodal stacks struggle at high control frequencies', m8: 'Strongly aligned but current systems still rely on curated mixtures and some scaffolding' } },
-  { id: 7, name: 'Sim RL + Sim-to-Real Transfer', shortName: 'Sim RL', scores: { m1: 6, m2: 8, m3: 5, m4: 4, m5: 7, m6: 9, m7: 9, m8: 6 }, composite: 80, confidence2030: 'Complementary', description: 'Train in simulation with massive RL, transfer to real (Tesla FSD philosophy). Highest inference speed but sim-to-real gap persists for manipulation.',
-    justifications: { m1: 'Simulators generate enormous volumes but task reward design and env authoring remain manual', m2: 'More parallel envs and more rollouts reliably improve policies in many domains', m3: 'Modest outside simulator distribution unless randomization is extremely rich', m4: 'Possible but usually demands morphology-specific training loops', m5: 'Good: many skills learned in sim before limited real finetuning', m6: 'Core strength: for locomotion and navigation, sim-to-real is production-grade', m7: 'Excellent: learned RL policies are compact and fast at control time', m8: 'Only moderately aligned: still leans heavily on human reward shaping and simulator engineering' } },
-  { id: 1, name: 'End-to-End ViT Visuomotor Policy', shortName: 'ViT Visuomotor', scores: { m1: 6, m2: 7, m3: 7, m4: 4, m5: 5, m6: 4, m7: 8, m8: 8 }, composite: 78, confidence2030: 'Declining', description: 'Direct vision-to-action with Vision Transformers. Clean and fast but limited by data diversity.',
-    justifications: { m1: 'Can pool multi-camera robot logs but still needs action-labeled robot data, not raw internet video', m2: 'Transformer backbones inherit some LLM/ViT scaling behavior, but robotics power laws weakly characterized', m3: 'Good object-level generalization when trained broadly, but long-horizon transfer inconsistent', m4: 'Limited unless wrapped in embodiment-specific heads or tokenization schemes', m5: 'Middling: most gains still come from expensive robot-action trajectories', m6: 'Helps with perception pretraining, but pure sim usually insufficient for dexterous manipulation', m7: 'Fast enough: one forward pass outputs chunks or low-rate actions in real time', m8: 'Strongly aligned (removes hand-engineered modules) but depends on curated robot datasets' } },
-  { id: 2, name: 'IDM → Pseudo-Label → FDM Pipeline', shortName: 'IDM→FDM', scores: { m1: 10, m2: 6, m3: 3, m4: 2, m5: 7, m6: 1, m7: 6, m8: 8 }, composite: 75, confidence2030: 'Niche', description: 'Standard Intelligence approach: IDM on 40K hours labeled data, pseudo-label 11M hour corpus, train FDM. 11ms inference latency.',
-    justifications: { m1: 'Maximum in principle: small labeled set unlocks massive unlabeled video via pseudo-labeling', m2: 'Promising (larger context windows improve behavior) but robot-specific scaling laws not yet public', m3: 'Unproven in robotics; best evidence is adjacent computer-use work, not broad physical manipulation', m4: 'Weak until a reliable embodiment-invariant action space exists', m5: 'Potentially strong (minimizes real robot labeling) if IDM quality is high enough', m6: 'Not central to the method, so sim-to-real leverage is minimal', m7: 'Feasible but very long-context video models carry latency overhead', m8: 'Philosophically aligned: converts abundant unlabeled data into supervision with minimal human engineering' } },
-  { id: 10, name: 'Hierarchical/Modular + LLM Planner', shortName: 'LLM Planner', scores: { m1: 6, m2: 6, m3: 7, m4: 4, m5: 5, m6: 4, m7: 4, m8: 4 }, composite: 60, confidence2030: 'Declining', description: 'LLM plans, skills execute. Google SayCan/Palm-E lineage. Neat but violates the Bitter Lesson — engineered, not learned.',
-    justifications: { m1: 'High-level planning leverages web text, but low-level skill data still need robot collection', m2: 'Compute helps the planner but system bottlenecked by weakest module, not one unified scaling curve', m3: 'Often good at task-planning level, especially long-horizon instruction following', m4: 'Limited: each embodiment still needs its own skill library or controller bank', m5: 'Middling: planner is data-rich, skills are not', m6: 'Useful for skill libraries and testing but does not remove integration burden', m7: 'Can be slow: orchestration adds planner latency and tool-calling overhead', m8: 'Least Bitter-Lesson aligned: reintroduces modular decomposition and human-selected interfaces' } },
-  { id: 8, name: 'Diffusion/Flow Action Generation', shortName: 'Diffusion/Flow', scores: { m1: 4, m2: 6, m3: 7, m4: 3, m5: 4, m6: 3, m7: 4, m8: 6 }, composite: 59, confidence2030: 'Component', description: 'Diffusion Policy: 46.9% avg improvement over prior. Used inside other methods (pi0, GR00T N1.5 FLARE) rather than standalone.',
-    justifications: { m1: 'Low-to-moderate: diffusion improves the policy class, not the data bottleneck', m2: 'Less clean than autoregressive transformers, especially once denoising steps dominate costs', m3: 'Good on multimodal manipulation: can represent multiple valid futures', m4: 'Limited: most published systems tied to specific embodiments or small families', m5: 'Middling: demonstration data still needed in quantity', m6: 'Can help but diffusion itself does not solve sim-to-real', m7: 'Biggest weakness unless flow matching/distillation/consistency methods shrink denoising latency', m8: 'Moderately aligned: general learning method but not the main unlock for scaling data' } },
-  { id: 4, name: 'Imitation Learning / Learning from Demonstration', shortName: 'Imitation/LfD', scores: { m1: 3, m2: 6, m3: 6, m4: 3, m5: 4, m6: 2, m7: 8, m8: 5 }, composite: 56, confidence2030: 'Bootstrap only', description: 'Classic behavior cloning from human demos. 50 demos/task × 3 min = 2.5h/task; 10K tasks = 25,000h. Bootstrap, not terminal.',
-    justifications: { m1: 'Low: every additional hour usually requires a robot, an operator, and a task setup', m2: 'BC models scale somewhat with compute, but returns bottlenecked by demonstration diversity not FLOPs', m3: 'Modern BC generalizes better than classic LfD but still degrades quickly out of distribution', m4: 'Poor unless data are carefully retargeted or normalized', m5: 'Weak: each new task typically needs fresh demonstrations', m6: 'Sim can pretrain policies but real demonstrations remain the binding constraint', m7: 'Excellent: cloned policies are usually lightweight and reactive', m8: 'Only moderately aligned: learns from data, but the data source itself is labor intensive' } },
-];
-
-// Dataset comparison data
-export interface DatasetComparison {
-  name: string;
-  hours: number;
-  type: string;
-  source: string;
-  year: string;
-}
-
-export const datasetComparisons: DatasetComparison[] = [
-  { name: 'DreamDojo', hours: 44711, type: 'Human egocentric video', source: 'NVIDIA', year: '2026' },
-  { name: 'EgoScale', hours: 20854, type: 'Action-labeled ego video', source: 'NVIDIA', year: '2026' },
-  { name: 'NVIDIA Cosmos', hours: 20000000, type: 'Robotics + driving video', source: 'NVIDIA', year: '2025' },
-  { name: 'Ego4D', hours: 3670, type: 'Egocentric video', source: 'Meta + consortium', year: '2024' },
-  { name: 'EgoVerse', hours: 1362, type: 'Multi-lab ego robot data', source: '4 labs + 3 partners', year: '2026' },
-  { name: '1XWM Human', hours: 900, type: 'Egocentric human', source: '1X Technologies', year: '2025' },
-  { name: 'EgoDex', hours: 829, type: 'Tabletop tasks', source: 'Apple', year: '2025' },
-  { name: 'Figure Helix', hours: 500, type: 'Teleoperated robot', source: 'Figure AI', year: '2025' },
-  { name: '1XWM Robot', hours: 70, type: 'Robot fine-tune', source: '1X Technologies', year: '2025' },
-];
-
-// Key ratios
-export const keyRatios = [
-  { comparison: 'EgoScale vs EgoVerse hours', value: 15.31, unit: 'x' },
-  { comparison: 'DreamDojo vs EgoScale', value: 2.14, unit: 'x' },
-  { comparison: 'DreamDojo vs Figure Helix teleop', value: 89.4, unit: 'x' },
-  { comparison: 'EgoScale vs Figure Helix teleop', value: 41.7, unit: 'x' },
-  { comparison: '1XWM human vs robot hours', value: 12.9, unit: 'x' },
-  { comparison: 'EgoScale vs 1XWM human', value: 23.2, unit: 'x' },
-];
-
-// Ship-Now vs Scale-to-2030 dual scoring
-export interface DualScore {
-  method: string;
-  shipNow: number;
-  scale2030: number;
-}
-
-export const dualScores: DualScore[] = [
-  { method: 'Human-video pretrain + retarget', shipNow: 95, scale2030: 110 },
-  { method: 'Cross-embodiment foundation', shipNow: 94, scale2030: 110 },
-  { method: 'UMI/DexCap/teleop', shipNow: 101, scale2030: 76 },
-  { method: 'World models', shipNow: 78, scale2030: 101 },
-  { method: 'Hybrid VLA + reactive', shipNow: 96, scale2030: 94 },
-  { method: 'ACT/BC (behavior cloning)', shipNow: 97, scale2030: 74 },
-  { method: 'Pure VLA', shipNow: 77, scale2030: 88 },
-  { method: 'Diffusion/flow', shipNow: 89, scale2030: 78 },
-  { method: 'Planner + skills', shipNow: 86, scale2030: 82 },
-  { method: 'Sim RL + sim-to-real', shipNow: 76, scale2030: 80 },
-];
-
-// Control-loop comparison
-export const controlLoops = [
-  { system: 'Helix 02 S0 (whole-body)', rate: 1000, cycleMs: 1, use: 'Balance/contact execution' },
-  { system: 'Helix S1 (visuomotor)', rate: 200, cycleMs: 5, use: 'Fast visuomotor control' },
-  { system: 'pi0 action output', rate: 50, cycleMs: 20, use: 'Continuous motor commands' },
-  { system: 'Helix S2 (semantic)', rate: 8, cycleMs: 125, use: 'Semantic reasoning' },
-  { system: '1XWM planning', rate: 0.083, cycleMs: 12000, use: 'Planning/evaluation' },
-];
-
-// Top 10 Alpha rankings (combined public + private)
-export interface AlphaCompany {
+export interface HumanoidAlphaCompany {
   rank: number;
   company: string;
-  type: 'Public' | 'Private';
-  ticker?: string;
-  alpha: number;
-  marketCap?: string;
-  latestPrice?: string;
-  ytdReturnPct?: number;
-  marketDataAsOf?: string;
-  valuation?: string;
-  keyFact: string;
-}
-
-export const topAlpha: AlphaCompany[] = [
-  { rank: 1, company: 'NVIDIA', type: 'Public', ticker: 'NVDA', alpha: 111, marketCap: '~$5.05T', latestPrice: '$207.83', ytdReturnPct: 10.05, marketDataAsOf: '2026-05-07', keyFact: 'Cosmos 20M+ hrs, GR00T models, EgoScale, DreamDojo' },
-  { rank: 2, company: 'Tesla', type: 'Public', ticker: 'TSLA', alpha: 111, marketCap: '~$1.50T', latestPrice: '$398.73', ytdReturnPct: -8.98, marketDataAsOf: '2026-05-07', keyFact: 'FSD→Optimus transfer, highest variance play' },
-  { rank: 3, company: 'Figure AI', type: 'Private', alpha: 111, valuation: '$39B', keyFact: 'Helix 02, BMW: 1,250+ hrs, 90K+ parts handled, $2B raised' },
-  { rank: 4, company: 'Alphabet', type: 'Public', ticker: 'GOOGL', alpha: 108, marketCap: '~$4.82T', latestPrice: '$398.04', ytdReturnPct: 26.3, marketDataAsOf: '2026-05-07', keyFact: 'RT-2, Open X-Embodiment, Gemini Robotics' },
-  { rank: 5, company: 'Skild AI', type: 'Private', alpha: 107, valuation: '>$14B', keyFact: 'Omni-bodied intelligence, $1.7B+ raised' },
-  { rank: 6, company: 'Amazon', type: 'Public', ticker: 'AMZN', alpha: 105, marketCap: '~$2.96T', latestPrice: '$274.99', ytdReturnPct: 21.41, marketDataAsOf: '2026-05-07', keyFact: 'Warehouse robotics at scale + Digit deployment' },
-  { rank: 7, company: 'Scale AI', type: 'Private', alpha: 105, valuation: 'up to $25B', keyFact: 'Robotics data labeling + EgoVerse partner' },
-  { rank: 8, company: 'Physical Intelligence', type: 'Private', alpha: 100, valuation: '>$11B (reported)', keyFact: 'pi0: 10,000+ hrs robot data, $600M raised' },
-  { rank: 9, company: 'Microsoft', type: 'Public', ticker: 'MSFT', alpha: 99, marketCap: '~$3.08T', latestPrice: '$413.96', ytdReturnPct: -12.47, marketDataAsOf: '2026-05-07', keyFact: 'Azure robotics + OpenAI robotics alignment' },
-  { rank: 10, company: '1X Technologies', type: 'Private', alpha: 99, valuation: '>$125M raised', keyFact: '14B world model, 900h human + 70h robot data' },
-];
-
-// Full public companies list
-export interface PublicCompany {
-  company: string;
   ticker: string;
+  exchange: string;
   country: string;
-  marketCap: string;
-  latestPrice?: string;
-  ytdReturnPct?: number;
-  marketDataAsOf?: string;
-  residualAlpha?: number;
+  category: StackCategory;
+  tier: AlphaTier;
+  role: string;
+  price: number | null;
+  currency: string;
+  marketCapUsd: number | null;
+  ytdReturnPct: number | null;
   alpha: number;
+  crowdMentions: number;
+  consensusRisk: 'Low' | 'Medium' | 'High';
+  breakdown: ScoreBreakdown;
+  thesis: string;
+  whyNow: string;
+  risks: string;
+  sourceIds: string[];
 }
 
-export const publicCompanies: PublicCompany[] = [
-  { company: 'Serve Robotics', ticker: 'SERV', country: 'US', marketCap: '~$723M', latestPrice: '$9.58', ytdReturnPct: -19.02, marketDataAsOf: '2026-05-07', residualAlpha: 91.8, alpha: 75 },
-  { company: 'Ouster', ticker: 'OUST', country: 'US', marketCap: '~$1.9B', latestPrice: '$29.39', ytdReturnPct: 25.78, marketDataAsOf: '2026-05-07', residualAlpha: 85.7, alpha: 57 },
-  { company: 'UBTECH Robotics', ticker: '9880.HK', country: 'China', marketCap: '~$6.8B', latestPrice: 'HKD 109.80', ytdReturnPct: -16.18, marketDataAsOf: '2026-05-07', residualAlpha: 82.2, alpha: 85 },
-  { company: 'Harmonic Drive', ticker: '6324.T', country: 'Japan', marketCap: '~$3.1B', latestPrice: 'JPY 5,710', ytdReturnPct: 48.7, marketDataAsOf: '2026-05-07', residualAlpha: 78.2, alpha: 67 },
-  { company: 'Nabtesco', ticker: '6268.T', country: 'Japan', marketCap: '~$3.8B', latestPrice: 'JPY 5,253', ytdReturnPct: 37.15, marketDataAsOf: '2026-05-07', residualAlpha: 75.7, alpha: 66 },
-  { company: 'Cognex', ticker: 'CGNX', country: 'US', marketCap: '~$9.8B', latestPrice: '$62.26', ytdReturnPct: 68.59, marketDataAsOf: '2026-05-07', residualAlpha: 52.8, alpha: 64 },
-  { company: 'Yaskawa', ticker: '6506.T', country: 'Japan', marketCap: '~$9.2B', latestPrice: 'JPY 5,973', ytdReturnPct: 20.33, marketDataAsOf: '2026-05-07', residualAlpha: 40.9, alpha: 73 },
-  { company: 'Nidec', ticker: '6594.T', country: 'Japan', marketCap: '~$17.6B', latestPrice: 'JPY 2,593', ytdReturnPct: 23.95, marketDataAsOf: '2026-05-07', residualAlpha: 35.9, alpha: 62 },
-  { company: 'Hyundai Motor', ticker: '005380.KS', country: 'South Korea', marketCap: '~$86.7B', latestPrice: 'KRW 572,000', ytdReturnPct: 91.62, marketDataAsOf: '2026-05-07', residualAlpha: 27.6, alpha: 86 },
-  { company: 'Hon Hai (Foxconn)', ticker: '2317.TW', country: 'Taiwan', marketCap: '~$101.3B', latestPrice: 'TWD 253.50', ytdReturnPct: 9.27, marketDataAsOf: '2026-05-07', residualAlpha: 19.6, alpha: 97 },
-  { company: 'BMW', ticker: 'BMW.DE', country: 'Germany', marketCap: '~$54.3B', latestPrice: 'EUR 83.02', ytdReturnPct: -13.81, marketDataAsOf: '2026-05-07', residualAlpha: 19.2, alpha: 65 },
-  { company: 'Symbotic', ticker: 'SYM', country: 'US', marketCap: '~$36.8B', latestPrice: '$61.16', ytdReturnPct: -5.72, marketDataAsOf: '2026-05-07', residualAlpha: 17.6, alpha: 97 },
-  { company: 'Fanuc', ticker: '6954.T', country: 'Japan', marketCap: '~$40.7B', latestPrice: 'JPY 7,095', ytdReturnPct: 12.55, marketDataAsOf: '2026-05-07', residualAlpha: 6.6, alpha: 77 },
-  { company: 'Sony', ticker: '6758.T', country: 'Japan', marketCap: '~$118.2B', latestPrice: 'JPY 3,130', ytdReturnPct: -23.27, marketDataAsOf: '2026-05-07', residualAlpha: 6.2, alpha: 67 },
-  { company: 'Tesla', ticker: 'TSLA', country: 'US', marketCap: '~$1.50T', latestPrice: '$398.73', ytdReturnPct: -8.98, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 111 },
-  { company: 'Keyence', ticker: '6861.T', country: 'Japan', marketCap: '~$118.7B', latestPrice: 'JPY 79,350', ytdReturnPct: 38.77, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 66 },
-  { company: 'Intuitive Surgical', ticker: 'ISRG', country: 'US', marketCap: '~$160.0B', latestPrice: '$451.73', ytdReturnPct: -19.62, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 86 },
-  { company: 'ABB', ticker: 'ABBN.SW', country: 'Switzerland', marketCap: '~$188.2B', latestPrice: 'CHF 82.60', ytdReturnPct: 34.88, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 79 },
-  { company: 'TSMC', ticker: 'TSM', country: 'Taiwan', marketCap: '~$2.16T', latestPrice: '$419.50', ytdReturnPct: 31.25, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 92 },
-  { company: 'Amazon', ticker: 'AMZN', country: 'US', marketCap: '~$2.96T', latestPrice: '$274.99', ytdReturnPct: 21.41, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 105 },
-  { company: 'Qualcomm', ticker: 'QCOM', country: 'US', marketCap: '~$203.0B', latestPrice: '$192.57', ytdReturnPct: 11.33, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 79 },
-  { company: 'Microsoft', ticker: 'MSFT', country: 'US', marketCap: '~$3.08T', latestPrice: '$413.96', ytdReturnPct: -12.47, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 99 },
-  { company: 'Alphabet', ticker: 'GOOGL', country: 'US', marketCap: '~$4.82T', latestPrice: '$398.04', ytdReturnPct: 26.3, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 108 },
-  { company: 'NVIDIA', ticker: 'NVDA', country: 'US', marketCap: '~$5.05T', latestPrice: '$207.83', ytdReturnPct: 10.05, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 111 },
-  { company: 'AMD', ticker: 'AMD', country: 'US', marketCap: '~$687.1B', latestPrice: '$421.39', ytdReturnPct: 88.57, marketDataAsOf: '2026-05-07', residualAlpha: 0.0, alpha: 80 }
-];
+export interface CrowdAuditEntry {
+  mention: string;
+  resolution: string;
+  status: 'Promoted' | 'Included' | 'Demoted' | 'Excluded' | 'Private';
+  reason: string;
+}
 
-// Full private companies list
-export interface PrivateCompany {
+export interface PrivateWatch {
   company: string;
   country: string;
-  totalRaised: string;
-  valuation: string;
-  alpha: number;
+  status: string;
+  exposure: string;
+  publicProxy: string;
+  note: string;
+  sourceIds: string[];
 }
 
-export const privateCompanies: PrivateCompany[] = [
-  { company: 'Figure AI', country: 'US', totalRaised: '~$2B', valuation: '$39B', alpha: 111 },
-  { company: 'Skild AI', country: 'US', totalRaised: '~$1.7B+', valuation: '>$14B', alpha: 107 },
-  { company: 'Scale AI', country: 'US', totalRaised: 'N/D', valuation: 'up to $25B', alpha: 105 },
-  { company: 'Physical Intelligence', country: 'US', totalRaised: '~$1B', valuation: '>$11B (reported)', alpha: 100 },
-  { company: '1X Technologies', country: 'Norway', totalRaised: '>$125M', valuation: 'N/D', alpha: 99 },
-  { company: 'Applied Intuition', country: 'US', totalRaised: 'N/D', valuation: '$15B', alpha: 96 },
-  { company: 'Genesis AI', country: 'France', totalRaised: '$105M', valuation: 'N/D', alpha: 93 },
-  { company: 'NEURA Robotics', country: 'Germany', totalRaised: '>$1.4B', valuation: 'N/D', alpha: 90 },
-  { company: 'Foxglove', country: 'US', totalRaised: '$40M', valuation: 'N/D', alpha: 90 },
-  { company: 'Nominal', country: 'US', totalRaised: '$75M', valuation: 'N/D', alpha: 90 },
-  { company: 'Unitree Robotics', country: 'China', totalRaised: 'N/D', valuation: 'up to $7B IPO', alpha: 89 },
-  { company: 'Asimov', country: 'US', totalRaised: 'Seed', valuation: 'N/D', alpha: 89 },
-  { company: 'Rerun', country: 'Sweden', totalRaised: '$20.2M', valuation: 'N/D', alpha: 86 },
-  { company: 'Formic', country: 'US', totalRaised: '$53.9M', valuation: 'N/D', alpha: 86 },
-  { company: 'Agility Robotics', country: 'US', totalRaised: '~$641M', valuation: '~$2.1B', alpha: 85 },
-  { company: 'Apptronik', country: 'US', totalRaised: '~$935M', valuation: '~$5B', alpha: 81 },
-  { company: 'Sanctuary AI', country: 'Canada', totalRaised: '>$140M', valuation: 'N/D', alpha: 81 },
-  { company: 'LimX Dynamics', country: 'China', totalRaised: '$200M', valuation: 'N/D', alpha: 80 },
-  { company: 'AgiBot', country: 'China', totalRaised: 'N/D', valuation: 'N/D', alpha: 78 },
-  { company: 'Fourier Intelligence', country: 'China', totalRaised: 'N/D', valuation: 'N/D', alpha: 76 },
-  { company: 'RealSense', country: 'US', totalRaised: '$50M', valuation: 'N/D', alpha: 75 },
-  { company: 'Sunday Robotics', country: 'US', totalRaised: '$165M', valuation: '$1.15B', alpha: 74 },
-  { company: 'Robust.AI', country: 'US', totalRaised: '~$45M', valuation: 'N/D', alpha: 71 },
-  { company: 'Booster Robotics', country: 'China', totalRaised: '~$70M', valuation: 'N/D', alpha: 70 },
-  { company: 'HaptX', country: 'US', totalRaised: '>$58M', valuation: 'N/D', alpha: 46 },
-];
-
-// EgoVerse structural metrics
-export const egoVerseMetrics = {
-  hours: 1362,
-  episodes: 80000,
-  tasks: 1965,
-  scenes: 240,
-  demonstrators: 2087,
-  labs: 4,
-  industryPartners: 3,
-  avgEpisodeLength: 61.3,
-  tasksPerScene: 8.19,
-  episodesPerTask: 40.71,
-  hoursPerScene: 5.67,
-};
-
-// EgoScale key facts
-export const egoScaleMetrics = {
-  hours: 20854,
-  rSquared: 0.9983,
-  successImprovement: 54,
-  dof: 22,
-};
-
-// Timeline milestones
-export const timeline = [
-  { year: '2026', milestone: 'VLAs and teleop-heavy systems win near-term pilots', detail: 'Figure Helix 02, GR00T N1.5, pi0 deployed. Teleop is the primary data source.' },
-  { year: '2027', milestone: 'Cross-embodiment pretraining becomes the moat', detail: 'Industrial deployment datasets (BMW, Amazon warehouses) become competitive advantages.' },
-  { year: '2028', milestone: 'Egocentric human data reduces teleop dependency', detail: 'EgoScale/DreamDojo-scale datasets prove 40-90x more efficient than pure teleop.' },
-  { year: '2029', milestone: 'World models convert compute into capability', detail: 'Synthetic trajectories amplify real data 10-100x. 1X, NVIDIA, Genesis leading.' },
-  { year: '2030', milestone: 'The winning stack crystallizes', detail: 'Cross-embodiment + human-video pretrain + world-model amplification + edge inference.' },
-];
-
-// Winning formula
-export const winningFormula = [
-  'Cross-embodiment foundation models (Open X / GR00T)',
-  'Egocentric human-video pretraining (EgoScale / DreamDojo)',
-  'World-model synthetic amplification (Cosmos / 1XWM)',
-  'Robotics-native data infrastructure (Foxglove / Build AI / Nominal)',
-  'Cheap deployment-time edge inference',
-];
-
-// ── Frontier Lab Profiles ──
-export interface FrontierLab {
-  name: string;
-  coreApproach: string;
-  whyItMatters: string;
-  verdict: string;
-  scalingRank: number;
-  keyMethods: string[];
+export interface SourceLink {
+  id: string;
+  label: string;
+  url: string;
+  usedFor: string;
 }
 
-export const frontierLabs: FrontierLab[] = [
-  { name: 'NVIDIA Robotics Labs', coreApproach: 'Stacked scaling: VLA foundation models (GR00T N1/N1.5/N1.6) + human-video pretraining (EgoScale, DreamDojo) + world models (Cosmos 20M+ hrs) + synthetic trajectory generation (DreamGen) + open-weight tooling', whyItMatters: 'Strongest public evidence that robotics can move from "collect more teleop" to "pretrain broadly, then adapt cheaply." Has explicit log-linear scaling law (R²=0.9983).', verdict: 'Best published scaling story. Combines broad data sources, explicit compute leverage, cross-embodiment transfer, synthetic trajectory amplification, and actual benchmark improvements.', scalingRank: 1, keyMethods: ['Human-video pretraining', 'World models', 'Synthetic trajectories', 'Cross-embodiment VLA', 'Open data/models'] },
-  { name: 'Figure AI', coreApproach: 'Commercial end-to-end VLA stack: Helix (System 1/System 2), single neural network/one set of weights for many behaviors, pixels-to-actions, BMW deployment (1,250+ hrs, 90K+ parts), Brookfield partnership for home-scale data', whyItMatters: 'Strongest public evidence of translating end-to-end learning into real deployment metrics. Same architecture transferred from logistics to laundry/dishwasher with data-only changes.', verdict: 'Best pure humanoid OEM execution of the scaling thesis. Strongest commercial humanoid end-to-end learner in public view.', scalingRank: 2, keyMethods: ['End-to-end VLA', 'Teleop imitation', 'Human-video pretraining (pivot)', 'Real-world data flywheel'] },
-  { name: '1X Technologies', coreApproach: 'World-model-first home robotics: Redwood AI for manipulation, RL locomotion, 1X World Model (14B params, 900h human + 70h robot data) as cognitive core, product mix of autonomy + expert supervision', whyItMatters: 'One of few product companies saying the world model itself should become a central cognitive layer, not just an offline evaluator. Targeting home — the hardest generalization environment.', verdict: 'Most interesting world-model-centric product thesis. Less public benchmark detail than NVIDIA/Figure but strongest product thesis if world models win.', scalingRank: 3, keyMethods: ['World models (14B)', 'RL locomotion', 'Egocentric human pretraining', 'Learned evaluation'] },
-  { name: 'Tesla Optimus', coreApproach: 'Transfer of FSD vision + planning + inference philosophy into humanoids. Multimodal foundation models, end-to-end RL + imitation learning, high-fidelity simulation. NeurIPS 2025 talks on "Building Foundational Models for Robotics at Tesla."', whyItMatters: 'May eventually have best manufacturing scale, most aggressive compute culture, deep auto-labeling instincts, custom inference hardware, and enormous experience deploying AI in physical world.', verdict: 'Highest-variance name on the board. Very likely top-tier if internal stack matches hiring signals, but today under-documented relative to Figure and NVIDIA.', scalingRank: 4, keyMethods: ['FSD transfer', 'Multimodal foundation models', 'Simulation', 'RL + imitation'] },
-  { name: 'Sunday Robotics', coreApproach: 'Skill Capture Glove instead of teleoperation, distributed "Memory Developers" collecting household behavior, push from imitation to intuition, home-first skills. Shipped 2,000+ gloves.', whyItMatters: 'Trying to build a distributed household behavior archive without requiring teleoperated robot control during collection. Important because teleop is expensive and morphologically awkward for homes at scale.', verdict: 'Best pure novel-data-collection thesis. Very promising data flywheel but earlier and less benchmarked than the other four.', scalingRank: 5, keyMethods: ['Glove-based data capture', 'Distributed collection', 'Imitation-to-intuition'] },
-];
+export interface ThesisPillar {
+  title: string;
+  takeaway: string;
+  proof: string;
+}
 
-// ── Data Company Tiers ──
-export interface DataCompanyTier {
-  tier: number;
-  name: string;
-  description: string;
+export interface MindmapNode {
+  id: string;
+  label: string;
+  category: StackCategory | 'Center';
+  x: number;
+  y: number;
+  size: number;
   companies: string[];
 }
 
-export const dataCompanyTiers: DataCompanyTier[] = [
-  { tier: 1, name: 'Direct Data Flywheel Enablers', description: 'Generate egocentric/first-person human action data, multimodal aligned streams, diverse real environments', companies: ['Build AI', 'Human Archive', 'Asimov', 'Oceanveo', 'Sensei Robotics', 'Ropedia', 'MeckaAI', 'GenrobotAI'] },
-  { tier: 2, name: 'Critical Data Infrastructure', description: 'Observability, curation, analytics, annotation workflows around the winning method', companies: ['Foxglove', 'Rerun', 'Roboto AI', 'Neuracore', 'Orbifold AI', 'Labelbox', 'Scale AI', 'Nominal'] },
-  { tier: 3, name: 'Operations & Services', description: 'Deployment support, workforce, processing layer', companies: ['DeepReach AI', 'micro1', 'Surge AI'] },
-  { tier: 4, name: 'Insufficient Evidence', description: 'Too little public evidence to evaluate', companies: ['GI Labs', 'T* (stealth)', 'microAGI'] },
+export const updatedLabel = 'May 13, 2026';
+
+export const thesisPillars: ThesisPillar[] = [
+  {
+    title: 'The crowd found the right stack',
+    takeaway: 'The list clusters around eyes, joints, edge compute, warehouse workflows, and a few direct humanoid builders.',
+    proof: 'Ouster/StereoLabs, Mobileye/Mentee, Hesai/RoboSense, Harmonic Drive/Nabtesco, Schaeffler, UBTECH, XPeng, Hyundai/Boston Dynamics, and Richtech all have current humanoid or physical-AI evidence.',
+  },
+  {
+    title: 'The crowd is late on several obvious winners',
+    takeaway: 'Actuator and sensor leaders are real, but Harmonic Drive, Nabtesco, Rainbow, VPG, MRAM, AMBQ, LSCC, CGNX, KLIC, Aeva, Aurora, and Neo have already rerated hard.',
+    proof: 'The alpha score penalizes YTD rerating because the user-defined goal is hidden opportunity, not simply maximum humanoid relevance.',
+  },
+  {
+    title: 'The best alpha is second-order',
+    takeaway: 'Small-cap perception, motion, direct-but-unproven builders, and materials names screen better than mega-cap parents or fully consensus suppliers.',
+    proof: 'ARBE, SERV, XBOTF, ACUVI.ST, MKA.L, RR, ALNT, AMBA, MBLY, RoboSense, Hesai, and Siasun rank higher than Tesla, NVIDIA, CATL, ABB, Hyundai, and Intuitive Surgical.',
+  },
 ];
 
-// ── Scaling Loop ──
-export const scalingLoop = [
-  'Human-video pretraining at internet scale',
-  'Latent/action alignment with small robot dataset',
-  'World model / synthetic trajectory expansion',
-  'End-to-end policy post-training',
-  'Autonomous rollout collection',
-  'Learned evaluation',
-  'Repeat (flywheel)',
+export const humanoidAlphaCompanies: HumanoidAlphaCompany[] = [
+  {
+    rank: 1,
+    company: 'Arbe Robotics',
+    ticker: 'ARBE',
+    exchange: 'Nasdaq',
+    country: 'Israel',
+    category: 'Sensing',
+    tier: 'Core alpha',
+    role: '4D imaging radar for autonomous machines and off-highway robotics',
+    price: 1.01,
+    currency: 'USD',
+    marketCapUsd: 98242444,
+    ytdReturnPct: -15.83,
+    alpha: 86,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 18, valuation: 20, reratingRoom: 18, evidence: 15, optionality: 15 },
+    thesis: 'Tiny public float exposure to radar perception. Not a pure humanoid supplier yet, but radar redundancy becomes more valuable as robots leave controlled demos.',
+    whyNow: 'Sub-$100M market cap, negative YTD return, NVIDIA collaboration, and new off-highway radar push create a real asymmetric setup.',
+    risks: 'Automotive timing slips, customer concentration, cash needs, and no confirmed humanoid production socket.',
+    sourceIds: ['arbe-nvidia'],
+  },
+  {
+    rank: 2,
+    company: 'Serve Robotics',
+    ticker: 'SERV',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Warehouse',
+    tier: 'Core alpha',
+    role: 'Sidewalk autonomy fleet and real-world embodied AI data loop',
+    price: 8.63,
+    currency: 'USD',
+    marketCapUsd: 678138101,
+    ytdReturnPct: -27.05,
+    alpha: 85,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 16, valuation: 18, reratingRoom: 20, evidence: 17, optionality: 14 },
+    thesis: 'Not humanoid, but a deployed physical-AI fleet with Ouster sensors, NVIDIA compute, and hard urban autonomy problems.',
+    whyNow: 'Small cap, large pullback, third-generation robot launch, and real deployments give it better residual alpha than many humanoid demo names.',
+    risks: 'Delivery economics, dilution, regulation, and form-factor mismatch versus humanoids.',
+    sourceIds: ['serve-gen3', 'ouster-stereolabs'],
+  },
+  {
+    rank: 3,
+    company: 'Realbotix',
+    ticker: 'XBOTF',
+    exchange: 'OTC / TSXV',
+    country: 'Canada / US',
+    category: 'Builder',
+    tier: 'Core alpha',
+    role: 'Human-facing humanoid robots for venues, healthcare, hospitality, and entertainment',
+    price: 0.226,
+    currency: 'USD',
+    marketCapUsd: 51272439,
+    ytdReturnPct: -30.91,
+    alpha: 83,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 23, valuation: 20, reratingRoom: 18, evidence: 12, optionality: 10 },
+    thesis: 'The directest micro-cap humanoid exposure in the list, with real deployed social robots and a pending Nasdaq path through Onconetix.',
+    whyNow: 'Very small market cap and a large drawdown make it a cleaner alpha candidate than most larger, better-known robot builders.',
+    risks: 'Extremely speculative, social humanoid TAM is narrower than industrial humanoids, OTC liquidity, and transaction risk.',
+    sourceIds: ['realbotix-onco'],
+  },
+  {
+    rank: 4,
+    company: 'Acuvi',
+    ticker: 'ACUVI.ST',
+    exchange: 'Nasdaq Stockholm',
+    country: 'Sweden',
+    category: 'Actuation',
+    tier: 'Core alpha',
+    role: 'Precision motion and micro-actuation components',
+    price: 10.64,
+    currency: 'SEK',
+    marketCapUsd: 41588072,
+    ytdReturnPct: -36.97,
+    alpha: 82,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 15, valuation: 20, reratingRoom: 20, evidence: 12, optionality: 15 },
+    thesis: 'A genuine hidden-gem candidate if precision motion content expands into hands, grippers, sensors, and compact robot modules.',
+    whyNow: 'Micro-cap, down sharply YTD, and almost absent from mainstream humanoid baskets.',
+    risks: 'Humanoid linkage is indirect, business scale is small, and liquidity can dominate fundamentals.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 5,
+    company: 'Mkango Resources',
+    ticker: 'MKA.L',
+    exchange: 'LSE AIM',
+    country: 'UK / Canada',
+    category: 'Materials',
+    tier: 'Core alpha',
+    role: 'Rare-earth magnet recycling and supply chain optionality for compact motors',
+    price: 45,
+    currency: 'GBp',
+    marketCapUsd: 226382133,
+    ytdReturnPct: -6.25,
+    alpha: 81,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 15, valuation: 19, reratingRoom: 17, evidence: 16, optionality: 14 },
+    thesis: 'Humanoid motors need permanent magnets. Mkango is a non-obvious pick-and-shovel with recycling capacity coming online rather than a robot demo stock.',
+    whyNow: 'Small cap, modest pullback, and magnet recycling remains less crowded than lidar, actuators, or humanoid OEMs.',
+    risks: 'Commodity/project execution risk, not a direct robot supplier, and revenue timing can slip.',
+    sourceIds: ['mkango-magnets'],
+  },
+  {
+    rank: 6,
+    company: 'Richtech Robotics',
+    ticker: 'RR',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Builder',
+    tier: 'Core alpha',
+    role: 'Commercial service robots plus Dex mobile humanoid',
+    price: 2.82,
+    currency: 'USD',
+    marketCapUsd: 591411347,
+    ytdReturnPct: -18.97,
+    alpha: 80,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 22, valuation: 17, reratingRoom: 18, evidence: 13, optionality: 10 },
+    thesis: 'A direct small-cap humanoid and service-robot platform with NVIDIA Isaac/Jetson Thor positioning.',
+    whyNow: 'Still sub-$1B and down YTD despite a CES 2026 humanoid reveal.',
+    risks: 'Revenue quality, dilution, demo-to-deployment gap, and service-robot competition.',
+    sourceIds: ['richtech-dex'],
+  },
+  {
+    rank: 7,
+    company: 'Allient',
+    ticker: 'ALNT',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Actuation',
+    tier: 'Core alpha',
+    role: 'Motion, controls, power, servo drives, and compact motors',
+    price: 62.51,
+    currency: 'USD',
+    marketCapUsd: 1133497385,
+    ytdReturnPct: 12.47,
+    alpha: 78,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 18, valuation: 17, reratingRoom: 14, evidence: 16, optionality: 13 },
+    thesis: 'One of the cleaner US-listed motion-control suppliers with explicit humanoid robotics content and still-manageable valuation.',
+    whyNow: 'The stock has not had the vertical rerating seen in VPG, MRAM, AMBQ, KLIC, or Harmonic Drive.',
+    risks: 'Industrial cyclicality, indirect exposure, and customer-specific qualification cycles.',
+    sourceIds: ['allient-news'],
+  },
+  {
+    rank: 8,
+    company: 'Ambarella',
+    ticker: 'AMBA',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Core alpha',
+    role: 'Low-power edge vision SoCs for robotics, drones, and multi-sensor perception',
+    price: 82.1,
+    currency: 'USD',
+    marketCapUsd: 3341000000,
+    ytdReturnPct: 9.23,
+    alpha: 77,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 18, valuation: 15, reratingRoom: 15, evidence: 17, optionality: 12 },
+    thesis: 'Robots need local perception under power and latency constraints. AMBA is more discovered than ARBE, but still less crowded than NVIDIA/Qualcomm.',
+    whyNow: 'Positive but not extreme YTD move, new 4nm CV7 platform, and explicit robotics use cases.',
+    risks: 'Automotive cycle, competition from NVIDIA/Qualcomm/custom ASICs, and no guaranteed humanoid socket.',
+    sourceIds: ['ambarella-cv7'],
+  },
+  {
+    rank: 9,
+    company: 'Mobileye',
+    ticker: 'MBLY',
+    exchange: 'Nasdaq',
+    country: 'Israel',
+    category: 'Builder',
+    tier: 'Core alpha',
+    role: 'Autonomy stack plus Mentee Robotics humanoid platform',
+    price: 10.53,
+    currency: 'USD',
+    marketCapUsd: 8868000000,
+    ytdReturnPct: -6.23,
+    alpha: 76,
+    crowdMentions: 2,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 22, valuation: 12, reratingRoom: 16, evidence: 18, optionality: 8 },
+    thesis: 'The Mentee acquisition turns MBLY from auto autonomy into a credible physical-AI/humanoid platform.',
+    whyNow: 'The stock is still down YTD and the market mainly prices it as an ADAS/robotaxi name.',
+    risks: 'Core auto slowdown, Intel overhang, Mentee integration, and humanoid revenue may be immaterial for years.',
+    sourceIds: ['mobileye-mentee'],
+  },
+  {
+    rank: 10,
+    company: 'RoboSense',
+    ticker: '2498.HK',
+    exchange: 'HKEX',
+    country: 'China',
+    category: 'Sensing',
+    tier: 'Core alpha',
+    role: 'Robotics lidar and AI-driven perception systems',
+    price: 33.52,
+    currency: 'HKD',
+    marketCapUsd: 1976180311,
+    ytdReturnPct: -10.13,
+    alpha: 75,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 19, valuation: 15, reratingRoom: 17, evidence: 17, optionality: 7 },
+    thesis: 'RoboSense has one of the strongest robotics lidar volume claims in the basket and is not as US-crowded as Ouster.',
+    whyNow: 'Sub-$2B market cap and negative YTD return despite clear robotics lidar momentum.',
+    risks: 'China listing risk, ASP pressure, customer concentration, and lidar commoditization.',
+    sourceIds: ['robosense-about'],
+  },
+  {
+    rank: 11,
+    company: 'Hesai',
+    ticker: 'HSAI',
+    exchange: 'Nasdaq / HKEX',
+    country: 'China',
+    category: 'Sensing',
+    tier: 'Core alpha',
+    role: 'High-volume lidar for ADAS, AMRs, humanoids, and industrial robots',
+    price: 24.04,
+    currency: 'USD',
+    marketCapUsd: 3462339483,
+    ytdReturnPct: -0.17,
+    alpha: 74,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 20, valuation: 13, reratingRoom: 15, evidence: 19, optionality: 7 },
+    thesis: 'Hesai is less hidden than ARBE, but the production-capacity and humanoid/robotics customer evidence is unusually concrete.',
+    whyNow: 'Flat YTD performance keeps it from being fully played out.',
+    risks: 'China/US listing risk, price competition, and automotive mix may dominate humanoid upside.',
+    sourceIds: ['hesai-capacity'],
+  },
+  {
+    rank: 12,
+    company: 'Siasun Robot & Automation',
+    ticker: '300024.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Builder',
+    tier: 'Core alpha',
+    role: 'Industrial robotics and automation platform with humanoid optionality',
+    price: 15.2,
+    currency: 'CNY',
+    marketCapUsd: 3634664995,
+    ytdReturnPct: -18.32,
+    alpha: 73,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 17, valuation: 14, reratingRoom: 18, evidence: 14, optionality: 10 },
+    thesis: 'The cleaner read-through is China robotics scale rather than a single humanoid product.',
+    whyNow: 'Public, down YTD, and less crowded globally than UBTECH or Rainbow Robotics.',
+    risks: 'Disclosure quality, China A-share accessibility, and unclear humanoid revenue contribution.',
+    sourceIds: ['siasun-fintel'],
+  },
+  {
+    rank: 13,
+    company: 'Kodiak AI',
+    ticker: 'KDK',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Warehouse',
+    tier: 'Watchlist',
+    role: 'Driverless trucking autonomy that may transfer to off-road/mobile robots',
+    price: 7.99,
+    currency: 'USD',
+    marketCapUsd: 1331663377,
+    ytdReturnPct: -26.22,
+    alpha: 72,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 12, valuation: 16, reratingRoom: 19, evidence: 15, optionality: 10 },
+    thesis: 'Not humanoid, but a useful proxy for real-world autonomy under industrial constraints.',
+    whyNow: 'Down YTD and newly public; the market has not attached a humanoid/physical-AI premium.',
+    risks: 'Truck autonomy is not humanoid manipulation; commercial timelines remain uncertain.',
+    sourceIds: ['kodiak-ai'],
+  },
+  {
+    rank: 14,
+    company: 'Palladyne AI',
+    ticker: 'PDYN',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Watchlist',
+    role: 'Embodied AI, collaborative autonomy, drones, and defense robotics',
+    price: 6.65,
+    currency: 'USD',
+    marketCapUsd: 288662214,
+    ytdReturnPct: 40.89,
+    alpha: 70,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 14, valuation: 18, reratingRoom: 10, evidence: 16, optionality: 12 },
+    thesis: 'The old Sarcos robotics story has shifted into defense autonomy. It is not humanoid, but it is embodied AI with small-cap optionality.',
+    whyNow: 'Still small, but already up enough that the alpha is not pristine.',
+    risks: 'Defense customer timing, revenue base, strategic pivots, and non-humanoid exposure.',
+    sourceIds: ['pdyn-ir'],
+  },
+  {
+    rank: 15,
+    company: 'Schaeffler',
+    ticker: 'SHA0.DE',
+    exchange: 'Xetra',
+    country: 'Germany',
+    category: 'Actuation',
+    tier: 'Watchlist',
+    role: 'Humanoid rotary/linear actuators and industrial deployment partner',
+    price: 9.49,
+    currency: 'EUR',
+    marketCapUsd: 9686484896,
+    ytdReturnPct: 10.03,
+    alpha: 69,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 22, valuation: 10, reratingRoom: 14, evidence: 20, optionality: 3 },
+    thesis: 'One of the strongest new evidence upgrades: a direct Humanoid partnership and actuator supply/deployment pathway.',
+    whyNow: 'Only modest YTD appreciation, but the company is too large and diversified to be pure alpha.',
+    risks: 'Auto/industrial cyclicality, low purity, and actuator economics may be diluted in group financials.',
+    sourceIds: ['schaeffler-humanoid', 'humanoid-schaeffler-reuters'],
+  },
+  {
+    rank: 16,
+    company: 'UBTECH Robotics',
+    ticker: '9880.HK',
+    exchange: 'HKEX',
+    country: 'China',
+    category: 'Builder',
+    tier: 'Watchlist',
+    role: 'Industrial humanoid Walker S/S2 platform',
+    price: 110.2,
+    currency: 'HKD',
+    marketCapUsd: 7289845895,
+    ytdReturnPct: -15.88,
+    alpha: 68,
+    crowdMentions: 3,
+    consensusRisk: 'High',
+    breakdown: { exposure: 25, valuation: 8, reratingRoom: 18, evidence: 19, optionality: -2 },
+    thesis: 'Direct public humanoid exposure with mass-production claims, but it is already an obvious consensus China humanoid ticker.',
+    whyNow: 'Pullback helps, but valuation and crowding keep it below the less-obvious suppliers.',
+    risks: 'Execution, China listing risk, order quality, and margin uncertainty.',
+    sourceIds: ['ubtech-prn'],
+  },
+  {
+    rank: 17,
+    company: 'indie Semiconductor',
+    ticker: 'INDI',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Watchlist',
+    role: 'Mixed-signal SoCs, lidar SoCs, photonics, and perception software',
+    price: 4.51,
+    currency: 'USD',
+    marketCapUsd: 905958000,
+    ytdReturnPct: 21.89,
+    alpha: 66,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 15, valuation: 17, reratingRoom: 12, evidence: 14, optionality: 8 },
+    thesis: 'A small-cap adjacent play for perception silicon in ADAS and industrial/humanoid robotics.',
+    whyNow: 'Still sub-$1B, but the YTD move is no longer neutral.',
+    risks: 'Automotive concentration, cash burn, and humanoid contribution is still speculative.',
+    sourceIds: ['indi-q1'],
+  },
+  {
+    rank: 18,
+    company: 'XPeng',
+    ticker: 'XPEV',
+    exchange: 'NYSE / HKEX',
+    country: 'China',
+    category: 'Builder',
+    tier: 'Watchlist',
+    role: 'IRON humanoid robot plus EV autonomy stack',
+    price: 16.68,
+    currency: 'USD',
+    marketCapUsd: 15435000000,
+    ytdReturnPct: -18.36,
+    alpha: 65,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 22, valuation: 7, reratingRoom: 18, evidence: 15, optionality: 3 },
+    thesis: 'IRON is real enough to include, but the stock is still mostly an EV/autonomy business.',
+    whyNow: 'The YTD pullback keeps it interesting as a call option on physical AI.',
+    risks: 'EV margins, China competition, robot commercialization timing, and dilution of humanoid signal.',
+    sourceIds: ['xpeng-iron'],
+  },
+  {
+    rank: 19,
+    company: 'Zebra Technologies',
+    ticker: 'ZBRA',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Warehouse',
+    tier: 'Watchlist',
+    role: 'Warehouse automation, machine vision, and legacy Fetch/Symmetry robotics footprint',
+    price: 246.76,
+    currency: 'USD',
+    marketCapUsd: 11754000000,
+    ytdReturnPct: -0.62,
+    alpha: 64,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 13, valuation: 9, reratingRoom: 15, evidence: 18, optionality: 9 },
+    thesis: 'The Skild sale validates the robotics asset, but also removes some direct upside from Zebra itself.',
+    whyNow: 'Not rerated, but the pure robotics catalyst has partially left the parent company.',
+    risks: 'Lower purity after divestiture, enterprise hardware cycle, and margin pressure.',
+    sourceIds: ['zebra-skild', 'zebra-10k'],
+  },
+  {
+    rank: 20,
+    company: 'Ouster',
+    ticker: 'OUST',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Sensing',
+    tier: 'Watchlist',
+    role: 'Digital lidar, StereoLabs vision, and physical-AI perception stack',
+    price: 34.17,
+    currency: 'USD',
+    marketCapUsd: 2176000000,
+    ytdReturnPct: 46.21,
+    alpha: 63,
+    crowdMentions: 4,
+    consensusRisk: 'High',
+    breakdown: { exposure: 21, valuation: 13, reratingRoom: 8, evidence: 20, optionality: 1 },
+    thesis: 'Excellent humanoid sensor exposure after StereoLabs, but it is now the crowd favorite and has rerated meaningfully.',
+    whyNow: 'Still worth watching on pullbacks; not the freshest alpha in the list today.',
+    risks: 'Lidar competition, gross margin volatility, and narrative crowding.',
+    sourceIds: ['ouster-stereolabs'],
+  },
+  {
+    rank: 21,
+    company: 'Aeva',
+    ticker: 'AEVA',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Sensing',
+    tier: 'Watchlist',
+    role: 'FMCW 4D lidar for autonomy, factory automation, and robotics',
+    price: 20.26,
+    currency: 'USD',
+    marketCapUsd: 1277000000,
+    ytdReturnPct: 58.9,
+    alpha: 62,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 16, valuation: 15, reratingRoom: 7, evidence: 16, optionality: 8 },
+    thesis: 'Strong physical-AI sensing story, but the stock has already moved.',
+    whyNow: 'Keep on the board for pullbacks or confirmed robotics production wins.',
+    risks: 'Automotive-heavy roadmap, lidar competition, and customer concentration.',
+    sourceIds: ['aeva-home'],
+  },
+  {
+    rank: 22,
+    company: 'Nextronics Engineering',
+    ticker: '8147.TWO',
+    exchange: 'Taipei Exchange',
+    country: 'Taiwan',
+    category: 'Materials',
+    tier: 'Watchlist',
+    role: 'Connectors, mechanisms, and rugged industrial components for AMRs/humanoids',
+    price: 182,
+    currency: 'TWD',
+    marketCapUsd: 201190564,
+    ytdReturnPct: 70.89,
+    alpha: 61,
+    crowdMentions: 1,
+    consensusRisk: 'Low',
+    breakdown: { exposure: 15, valuation: 19, reratingRoom: 6, evidence: 15, optionality: 6 },
+    thesis: 'A small, overlooked connector/mechanism supplier with explicit humanoid solution pages.',
+    whyNow: 'Market cap is attractive, but the YTD run means new money needs discipline.',
+    risks: 'Taiwan OTC liquidity, component commoditization, and difficult customer verification.',
+    sourceIds: ['nextronics-humanoid', 'nextronics-industrial'],
+  },
+  {
+    rank: 23,
+    company: 'Novanta',
+    ticker: 'NOVT',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Actuation',
+    tier: 'Watchlist',
+    role: 'Precision motion, force sensing, and surgical robotics subsystems',
+    price: 155.44,
+    currency: 'USD',
+    marketCapUsd: 4925306650,
+    ytdReturnPct: 39.86,
+    alpha: 60,
+    crowdMentions: 2,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 15, valuation: 11, reratingRoom: 9, evidence: 18, optionality: 7 },
+    thesis: 'High-quality motion and robotics component company, but not a cheap hidden humanoid play.',
+    whyNow: 'Useful benchmark for quality; alpha requires a pullback.',
+    risks: 'Medical/surgical mix dominates, valuation, and limited direct humanoid disclosure.',
+    sourceIds: ['novanta-joints'],
+  },
+  {
+    rank: 24,
+    company: 'Nabtesco',
+    ticker: '6268.T',
+    exchange: 'Tokyo',
+    country: 'Japan',
+    category: 'Actuation',
+    tier: 'Demoted',
+    role: 'Cycloidal precision reduction gears for robot joints',
+    price: 5938,
+    currency: 'JPY',
+    marketCapUsd: 4132793446,
+    ytdReturnPct: 55.04,
+    alpha: 59,
+    crowdMentions: 2,
+    consensusRisk: 'High',
+    breakdown: { exposure: 21, valuation: 10, reratingRoom: 7, evidence: 20, optionality: 1 },
+    thesis: 'Fundamentally real humanoid component exposure, but already well-discovered.',
+    whyNow: 'Better as a quality watchlist name than a fresh alpha pick after a strong YTD move.',
+    risks: 'Run-up, industrial robot cycle, and China competition.',
+    sourceIds: ['nabtesco-products', 'nabtesco-humanoid'],
+  },
+  {
+    rank: 25,
+    company: 'Harmonic Drive Systems',
+    ticker: '6324.T',
+    exchange: 'Tokyo',
+    country: 'Japan',
+    category: 'Actuation',
+    tier: 'Demoted',
+    role: 'Strain-wave gearing and compact actuators for robot joints',
+    price: 6840,
+    currency: 'JPY',
+    marketCapUsd: 3715576801,
+    ytdReturnPct: 78.12,
+    alpha: 58,
+    crowdMentions: 4,
+    consensusRisk: 'High',
+    breakdown: { exposure: 23, valuation: 9, reratingRoom: 4, evidence: 20, optionality: 2 },
+    thesis: 'One of the most important actuator suppliers, but no longer hidden.',
+    whyNow: 'Crowd favorite plus a large YTD move means the alpha has mostly been squeezed for now.',
+    risks: 'Run-up, gear commoditization, and cyclical order timing.',
+    sourceIds: ['harmonic-drive-ir', 'harmonic-drive-sha'],
+  },
+  {
+    rank: 26,
+    company: 'Symbotic',
+    ticker: 'SYM',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Warehouse',
+    tier: 'Demoted',
+    role: 'AI warehouse robotics and goods-to-person automation',
+    price: 49.73,
+    currency: 'USD',
+    marketCapUsd: 31564000000,
+    ytdReturnPct: -23.34,
+    alpha: 56,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 12, valuation: 3, reratingRoom: 18, evidence: 19, optionality: 4 },
+    thesis: 'Excellent robotics business, poor humanoid alpha because it is large, known, and not a humanoid company.',
+    whyNow: 'The pullback helps but not enough to overcome valuation and purity.',
+    risks: 'Customer concentration, execution, and non-humanoid form factor.',
+    sourceIds: ['symbotic-solutions'],
+  },
+  {
+    rank: 27,
+    company: 'ROBOTIS',
+    ticker: '108490.KQ',
+    exchange: 'KOSDAQ',
+    country: 'South Korea',
+    category: 'Actuation',
+    tier: 'Watchlist',
+    role: 'DYNAMIXEL actuators, open robots, and AI Worker humanoid exposure',
+    price: 341500,
+    currency: 'KRW',
+    marketCapUsd: 3058915463,
+    ytdReturnPct: 26.72,
+    alpha: 55,
+    crowdMentions: 0,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 18, valuation: 9, reratingRoom: 10, evidence: 14, optionality: 4 },
+    thesis: 'A cleaner humanoid-actuator comp than several US tickers, but already fairly valued after Korea robotics rerating.',
+    whyNow: 'Added because it belongs in a humanoid actuator page even though it was missing from the crowd list.',
+    risks: 'Korea small-cap volatility, valuation, and revenue conversion timing.',
+    sourceIds: ['robotis-profile'],
+  },
+  {
+    rank: 28,
+    company: 'Rainbow Robotics',
+    ticker: '277810.KQ',
+    exchange: 'KOSDAQ',
+    country: 'South Korea',
+    category: 'Builder',
+    tier: 'Demoted',
+    role: 'Samsung-controlled humanoid/cobot platform',
+    price: 847000,
+    currency: 'KRW',
+    marketCapUsd: 10646642070,
+    ytdReturnPct: 71.63,
+    alpha: 52,
+    crowdMentions: 4,
+    consensusRisk: 'High',
+    breakdown: { exposure: 24, valuation: 4, reratingRoom: 4, evidence: 17, optionality: 3 },
+    thesis: 'Direct exposure and strategically important, but crowded and already repriced.',
+    whyNow: 'Keep for learning and comp work, not as the best fresh alpha.',
+    risks: 'High valuation, Samsung dependency, and very high crowd awareness.',
+    sourceIds: ['rainbow-wiki'],
+  },
+  {
+    rank: 29,
+    company: 'Vishay Precision Group',
+    ticker: 'VPG',
+    exchange: 'NYSE',
+    country: 'US',
+    category: 'Materials',
+    tier: 'Demoted',
+    role: 'Force sensors and weighing/measurement components',
+    price: 99.6,
+    currency: 'USD',
+    marketCapUsd: 894117780,
+    ytdReturnPct: 153.56,
+    alpha: 49,
+    crowdMentions: 4,
+    consensusRisk: 'High',
+    breakdown: { exposure: 12, valuation: 16, reratingRoom: 0, evidence: 12, optionality: 9 },
+    thesis: 'Force sensing is relevant to hands and balance, but the stock already capitulated upward.',
+    whyNow: 'Demote until the price resets or direct robot-customer evidence improves.',
+    risks: 'Run-up, Reddit-driven narrative risk, and indirect exposure.',
+    sourceIds: ['vpg-databook'],
+  },
+  {
+    rank: 30,
+    company: 'Ambiq Micro',
+    ticker: 'AMBQ',
+    exchange: 'NYSE',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'Ultra-low-power edge AI SoCs for battery-powered robots and sensors',
+    price: 71.29,
+    currency: 'USD',
+    marketCapUsd: 1418000000,
+    ytdReturnPct: 134.89,
+    alpha: 47,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 14, valuation: 13, reratingRoom: 0, evidence: 17, optionality: 3 },
+    thesis: 'Technically relevant, but the post-IPO rerating has already pulled forward a lot of alpha.',
+    whyNow: 'Learn the role; wait for a reset.',
+    risks: 'Newly public volatility, narrow revenue base, and no confirmed humanoid socket.',
+    sourceIds: ['ambiq-atomiq'],
+  },
+  {
+    rank: 31,
+    company: 'Lattice Semiconductor',
+    ticker: 'LSCC',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'Low-power FPGAs for industrial control, robotics, and physical AI',
+    price: 125.65,
+    currency: 'USD',
+    marketCapUsd: 17152000000,
+    ytdReturnPct: 59.76,
+    alpha: 45,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 14, valuation: 5, reratingRoom: 6, evidence: 17, optionality: 3 },
+    thesis: 'Good company, bad hidden-alpha setup after the move and larger market cap.',
+    whyNow: 'Demote from alpha list; keep as an edge-control comp.',
+    risks: 'Valuation, AI infrastructure crowding, and non-humanoid purity.',
+    sourceIds: ['lscc-transcript'],
+  },
+  {
+    rank: 32,
+    company: 'Cognex',
+    ticker: 'CGNX',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Sensing',
+    tier: 'Demoted',
+    role: 'Industrial machine vision and NVIDIA-powered vision controller',
+    price: 63.64,
+    currency: 'USD',
+    marketCapUsd: 10930000000,
+    ytdReturnPct: 72.33,
+    alpha: 44,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 14, valuation: 6, reratingRoom: 4, evidence: 17, optionality: 3 },
+    thesis: 'Machine vision matters, but the stock has rerated and the humanoid link is indirect.',
+    whyNow: 'Quality watchlist, not fresh alpha.',
+    risks: 'Factory automation cycle and valuation.',
+    sourceIds: ['cognex-nvidia'],
+  },
+  {
+    rank: 33,
+    company: 'Neo Performance Materials',
+    ticker: 'NEO.TO',
+    exchange: 'TSX',
+    country: 'Canada',
+    category: 'Materials',
+    tier: 'Demoted',
+    role: 'Rare earth and magnet materials',
+    price: 32.1,
+    currency: 'CAD',
+    marketCapUsd: 973882500,
+    ytdReturnPct: 90.05,
+    alpha: 43,
+    crowdMentions: 1,
+    consensusRisk: 'Medium',
+    breakdown: { exposure: 12, valuation: 14, reratingRoom: 3, evidence: 10, optionality: 4 },
+    thesis: 'Relevant to motor supply chains, but the move has already been large.',
+    whyNow: 'Demote behind Mkango, which screens cleaner on rerating room.',
+    risks: 'Commodity cycle and indirectness.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 34,
+    company: 'Kulicke & Soffa',
+    ticker: 'KLIC',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'Advanced packaging and assembly equipment',
+    price: 104.27,
+    currency: 'USD',
+    marketCapUsd: 5457000000,
+    ytdReturnPct: 115.66,
+    alpha: 42,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 9, valuation: 8, reratingRoom: 0, evidence: 17, optionality: 8 },
+    thesis: 'More AI semiconductor-cycle exposure than humanoid exposure.',
+    whyNow: 'Already up too much for the requested alpha definition.',
+    risks: 'Semicap cycle and low humanoid purity.',
+    sourceIds: ['klic-q2'],
+  },
+  {
+    rank: 35,
+    company: 'Everspin Technologies',
+    ticker: 'MRAM',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'MRAM and TMR sensor products for industrial/mission-critical edge systems',
+    price: 41.46,
+    currency: 'USD',
+    marketCapUsd: 972136000,
+    ytdReturnPct: 312.13,
+    alpha: 38,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 10, valuation: 15, reratingRoom: 0, evidence: 13, optionality: 0 },
+    thesis: 'A real edge memory story, but the stock has already exploded.',
+    whyNow: 'Demote until price normalizes.',
+    risks: 'Post-rerating downside, defense/industrial concentration, and weak direct humanoid evidence.',
+    sourceIds: ['mram-capacity'],
+  },
+  {
+    rank: 36,
+    company: 'Intuitive Surgical',
+    ticker: 'ISRG',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Demoted',
+    tier: 'Demoted',
+    role: 'Surgical robotics leader',
+    price: 432.27,
+    currency: 'USD',
+    marketCapUsd: 148770000000,
+    ytdReturnPct: -23.08,
+    alpha: 30,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 6, valuation: 1, reratingRoom: 18, evidence: 19, optionality: -14 },
+    thesis: 'World-class robotics company, but not humanoid and not hidden.',
+    whyNow: 'Useful comp only.',
+    risks: 'Large-cap valuation and unrelated surgical robotics end market.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 37,
+    company: 'Atomera',
+    ticker: 'ATOM',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'Semiconductor materials IP',
+    price: 9.89,
+    currency: 'USD',
+    marketCapUsd: 333018000,
+    ytdReturnPct: 319.07,
+    alpha: 28,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 5, valuation: 15, reratingRoom: 0, evidence: 4, optionality: 4 },
+    thesis: 'Too indirect and already up too much.',
+    whyNow: 'Remove from humanoid alpha ranking unless specific robot-silicon evidence appears.',
+    risks: 'Speculative IP model and weak humanoid linkage.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 38,
+    company: 'ABB',
+    ticker: 'ABBN.SW',
+    exchange: 'SIX',
+    country: 'Switzerland',
+    category: 'Demoted',
+    tier: 'Demoted',
+    role: 'Industrial robotics and automation conglomerate',
+    price: 82.86,
+    currency: 'CHF',
+    marketCapUsd: 190496416040,
+    ytdReturnPct: 35.3,
+    alpha: 27,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 10, valuation: 0, reratingRoom: 7, evidence: 18, optionality: -8 },
+    thesis: 'Great robotics company, poor hidden-alpha candidate.',
+    whyNow: 'Too large and already discovered.',
+    risks: 'Low humanoid purity and large-cap dilution.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 39,
+    company: 'CATL',
+    ticker: '300750.SZ',
+    exchange: 'SZSE',
+    country: 'China',
+    category: 'Materials',
+    tier: 'Demoted',
+    role: 'Battery leader and internal humanoid factory automation user',
+    price: 433.96,
+    currency: 'CNY',
+    marketCapUsd: 296716200000,
+    ytdReturnPct: 14.96,
+    alpha: 26,
+    crowdMentions: 1,
+    consensusRisk: 'High',
+    breakdown: { exposure: 11, valuation: 0, reratingRoom: 13, evidence: 18, optionality: -16 },
+    thesis: 'Important proof of humanoids in battery factories, but the stock is a mega-cap battery business.',
+    whyNow: 'Keep as a deployment signal, not an alpha pick.',
+    risks: 'Low purity, huge market cap, and battery cycle exposure.',
+    sourceIds: ['catl-robots', 'catl-batteries'],
+  },
+  {
+    rank: 40,
+    company: 'Hyundai Motor',
+    ticker: '005380.KS',
+    exchange: 'Korea Exchange',
+    country: 'South Korea',
+    category: 'Builder',
+    tier: 'Demoted',
+    role: 'Boston Dynamics Atlas parent and industrial deployment channel',
+    price: 706000,
+    currency: 'KRW',
+    marketCapUsd: 98091279576,
+    ytdReturnPct: 136.52,
+    alpha: 18,
+    crowdMentions: 0,
+    consensusRisk: 'High',
+    breakdown: { exposure: 24, valuation: 1, reratingRoom: 0, evidence: 20, optionality: -27 },
+    thesis: 'Atlas is one of the best humanoid proof points, but Hyundai is a large auto stock that has already rerated.',
+    whyNow: 'Add for completeness, demote for alpha.',
+    risks: 'Auto-cycle dominance, low robot financial contribution, and massive YTD move.',
+    sourceIds: ['hyundai-robotics', 'boston-atlas'],
+  },
+  {
+    rank: 41,
+    company: 'Tesla',
+    ticker: 'TSLA',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Builder',
+    tier: 'Demoted',
+    role: 'Optimus humanoid program',
+    price: 445.27,
+    currency: 'USD',
+    marketCapUsd: 1672000000000,
+    ytdReturnPct: 1.64,
+    alpha: 12,
+    crowdMentions: 0,
+    consensusRisk: 'High',
+    breakdown: { exposure: 22, valuation: 0, reratingRoom: 14, evidence: 10, optionality: -34 },
+    thesis: 'Obvious humanoid narrative, not hidden alpha.',
+    whyNow: 'Mention only as the consensus benchmark to avoid confusing story quality with opportunity.',
+    risks: 'Mega-cap valuation and EV/FSD dominate returns.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    rank: 42,
+    company: 'NVIDIA',
+    ticker: 'NVDA',
+    exchange: 'Nasdaq',
+    country: 'US',
+    category: 'Edge AI',
+    tier: 'Demoted',
+    role: 'GR00T, Isaac, Jetson, Cosmos, and robotics developer ecosystem',
+    price: 225.83,
+    currency: 'USD',
+    marketCapUsd: 5366000000000,
+    ytdReturnPct: 19.58,
+    alpha: 8,
+    crowdMentions: 0,
+    consensusRisk: 'High',
+    breakdown: { exposure: 25, valuation: 0, reratingRoom: 12, evidence: 20, optionality: -49 },
+    thesis: 'The platform king, but the opposite of a hidden gem.',
+    whyNow: 'Use as ecosystem map anchor only.',
+    risks: 'Mega-cap consensus, AI capex cycle, and valuation.',
+    sourceIds: ['market-yahoo'],
+  },
 ];
 
-// ── End-to-End Learning Report Method Rankings ──
-export interface E2EMethodRank {
-  rank: number;
-  method: string;
-  bestExamples: string;
-  whyScales: string;
-}
-
-export const e2eMethodRanks: E2EMethodRank[] = [
-  { rank: 1, method: 'Human-video pretraining + small robot alignment', bestExamples: 'NVIDIA EgoScale, Figure Go-Big, DreamDojo', whyScales: 'Human data is cheaper and broader than robot teleop' },
-  { rank: 2, method: 'World-model pretraining + policy distillation', bestExamples: '1X World Model, NVIDIA DreamDojo', whyScales: 'Converts expensive real-world trials into cheaper model-space search' },
-  { rank: 3, method: 'Synthetic trajectory generation from world models', bestExamples: 'NVIDIA GR00T-Dreams, DreamGen', whyScales: 'Replaces human data generation with compute' },
-  { rank: 4, method: 'Learned evaluator / world simulator for policy selection', bestExamples: '1X WM evaluation stack', whyScales: 'Shrinks costly real-world evaluation loops' },
-  { rank: 5, method: 'VPT-style IDM → FDM autoregressive action modeling', bestExamples: 'OpenAI VPT, Standard Intelligence FDM-1', whyScales: 'Action labels become bootstrappable; unlabeled video trainable' },
-  { rank: 6, method: 'RL for locomotion/mobile manipulation', bestExamples: '1X Redwood mobility, Tesla, NVIDIA', whyScales: 'Compute-heavy, good for low-level control' },
-  { rank: 7, method: 'Human-to-robot paired video transfer', bestExamples: 'EgoScale mid-training, Figure transfer', whyScales: 'More sample-efficient than pure teleop' },
-  { rank: 8, method: 'End-to-end VLA on robot data only', bestExamples: 'Figure Helix, GR00T, Redwood', whyScales: 'Powerful but data-constrained if only robot trajectories' },
-  { rank: 9, method: 'Classic teleop imitation learning', bestExamples: 'Almost all current teams', whyScales: 'Strong local performance, poor long-run scaling economics' },
-  { rank: 10, method: 'Modular trajectory planning stacks', bestExamples: 'Legacy robotics stacks', whyScales: 'Useful for safety but least aligned with Bitter Lesson' },
+export const crowdAudit: CrowdAuditEntry[] = [
+  { mention: '$OUST', resolution: 'Ouster', status: 'Demoted', reason: 'Excellent sensor exposure, but crowd favorite and already up 46% YTD.' },
+  { mention: 'Rainbow Robotics (277810)', resolution: '277810.KQ', status: 'Demoted', reason: 'Direct humanoid/cobot exposure, but Samsung-linked and up 72% YTD.' },
+  { mention: '$AMBA', resolution: 'Ambarella', status: 'Promoted', reason: 'Edge AI vision with modest YTD move and explicit robotics use cases.' },
+  { mention: 'Ubtech Robotics', resolution: '9880.HK', status: 'Included', reason: 'Direct public humanoid builder, but not hidden.' },
+  { mention: '$MKA', resolution: 'Mkango Resources', status: 'Promoted', reason: 'Rare-earth magnet recycling is a less crowded humanoid motor supply-chain angle.' },
+  { mention: 'Nextronics', resolution: '8147.TWO', status: 'Included', reason: 'Verified Taiwan connector/mechanism supplier with humanoid solution pages, but already up 71% YTD.' },
+  { mention: '$SYM', resolution: 'Symbotic', status: 'Demoted', reason: 'Strong warehouse robotics business, not humanoid and too large.' },
+  { mention: 'Harmonic Drive (6324)', resolution: '6324.T', status: 'Demoted', reason: 'Core actuator supplier, but crowded and up 78% YTD.' },
+  { mention: '$VPG', resolution: 'Vishay Precision Group', status: 'Demoted', reason: 'Force sensing is plausible, but stock already ran 154% YTD and direct evidence is thinner.' },
+  { mention: 'Beijing Geekplus', resolution: 'Geek+', status: 'Private', reason: 'Relevant AMR/warehouse automation company, but no direct public equity.' },
+  { mention: '$MBLY', resolution: 'Mobileye', status: 'Promoted', reason: 'Mentee acquisition creates direct physical-AI/humanoid exposure while stock remains down YTD.' },
+  { mention: '$ARBE', resolution: 'Arbe Robotics', status: 'Promoted', reason: 'Small-cap radar perception with pullback and physical-AI optionality.' },
+  { mention: 'Nabtesco (6268)', resolution: '6268.T', status: 'Demoted', reason: 'Real actuator exposure, but up 55% YTD and no longer hidden.' },
+  { mention: '$SERV', resolution: 'Serve Robotics', status: 'Promoted', reason: 'Deployed autonomy, Ouster/NVIDIA stack, small cap, and down 27% YTD.' },
+  { mention: '$HSYDF', resolution: 'Likely Hyster-Yale / forklift automation', status: 'Excluded', reason: 'Ticker appears mismatched to the humanoid thesis; HY is the cleaner public symbol if needed.' },
+  { mention: 'Robotstrategy', resolution: 'RoboStrategy', status: 'Private', reason: 'Venture investor in Dyna Robotics, not a public company.' },
+  { mention: '$ZBRA', resolution: 'Zebra Technologies', status: 'Included', reason: 'Warehouse robotics validated by Skild acquisition, but direct upside partly left Zebra.' },
+  { mention: '$CATL', resolution: '300750.SZ', status: 'Demoted', reason: 'Important deployment signal, but mega-cap battery stock.' },
+  { mention: '$ABB', resolution: 'ABBN.SW', status: 'Demoted', reason: 'Large industrial robotics incumbent, not hidden alpha.' },
+  { mention: '$BOT', resolution: 'Likely robotics ETF / ambiguous ticker', status: 'Excluded', reason: 'Not a single-company alpha candidate.' },
+  { mention: 'Unitree', resolution: 'Unitree Robotics', status: 'Private', reason: 'High-quality direct humanoid exposure but not public yet; IPO watch.' },
+  { mention: '$LSCC', resolution: 'Lattice Semiconductor', status: 'Demoted', reason: 'Relevant low-power FPGA story, but already large and up 60% YTD.' },
+  { mention: 'Esunny Robot (300024)', resolution: 'Siasun Robot & Automation', status: 'Promoted', reason: 'Public China robotics platform, down YTD.' },
+  { mention: '$NOVT', resolution: 'Novanta', status: 'Included', reason: 'Quality motion/force-sensing comp; not the best alpha after a 40% YTD move.' },
+  { mention: '$RR', resolution: 'Richtech Robotics', status: 'Promoted', reason: 'Direct small-cap humanoid builder with Dex.' },
+  { mention: '$PDY', resolution: 'Likely PDYN / Palladyne AI', status: 'Included', reason: 'Embodied AI, but defense autonomy more than humanoid.' },
+  { mention: 'Hesai (2525)', resolution: 'HSAI / 2525.HK', status: 'Promoted', reason: 'Robotics lidar production evidence is strong and the stock is flat YTD.' },
+  { mention: '$SHA.DE', resolution: 'SHA0.DE Schaeffler', status: 'Promoted', reason: 'Direct Humanoid partnership and actuator supply agreement.' },
+  { mention: '$XBOT', resolution: 'XBOTF / XBOT.V Realbotix', status: 'Promoted', reason: 'Direct micro-cap humanoid exposure, high risk.' },
+  { mention: '$XPEV', resolution: 'XPeng', status: 'Included', reason: 'IRON is real but diluted by EV business.' },
+  { mention: '$BAM', resolution: 'Brookfield Asset Management', status: 'Excluded', reason: 'No verified humanoid equity link from the crowd list.' },
+  { mention: '$ALNT', resolution: 'Allient', status: 'Promoted', reason: 'Motion-control supplier with explicit humanoid robotics content.' },
+  { mention: '$AMBQ', resolution: 'Ambiq Micro', status: 'Demoted', reason: 'Edge AI is relevant, but stock is up 135% YTD.' },
+  { mention: '$ATOM', resolution: 'Atomera', status: 'Excluded', reason: 'Too indirect and already up over 300% YTD.' },
+  { mention: '$MRAM', resolution: 'Everspin', status: 'Demoted', reason: 'Interesting edge memory, but already up over 300% YTD.' },
+  { mention: '$ISRG', resolution: 'Intuitive Surgical', status: 'Demoted', reason: 'Surgical robotics, not humanoid; mega-cap consensus.' },
+  { mention: '$HLIT', resolution: 'Harmonic Inc.', status: 'Excluded', reason: 'Ticker confusion with Harmonic Drive; HLIT is not the actuator supplier.' },
+  { mention: 'Robosense (2498)', resolution: '2498.HK', status: 'Promoted', reason: 'Robotics lidar volume evidence and negative YTD return.' },
+  { mention: '$HG', resolution: 'Ambiguous / likely non-humanoid', status: 'Excluded', reason: 'Unable to validate a clean humanoid robotics public exposure.' },
+  { mention: '$ACUVI', resolution: 'ACUVI.ST', status: 'Promoted', reason: 'Micro-cap precision motion optionality with a large pullback.' },
+  { mention: '$CGNX', resolution: 'Cognex', status: 'Demoted', reason: 'Quality machine vision, but up 72% YTD and not hidden.' },
+  { mention: '$KLIC', resolution: 'Kulicke & Soffa', status: 'Demoted', reason: 'AI packaging cycle rather than humanoid; up 116% YTD.' },
+  { mention: '$BSL', resolution: 'Ambiguous / likely fund or unrelated listing', status: 'Excluded', reason: 'No clear humanoid robotics exposure.' },
+  { mention: '$AEVA', resolution: 'Aeva', status: 'Included', reason: 'Physical-AI lidar story, but already up 59% YTD.' },
+  { mention: '$AUR', resolution: 'Aurora Innovation', status: 'Demoted', reason: 'Autonomous trucking, not humanoid, and up 117% YTD.' },
+  { mention: '$CTH.V', resolution: 'Ambiguous TSXV listing', status: 'Excluded', reason: 'No validated humanoid robotics link.' },
+  { mention: '$IMSR', resolution: 'Ambiguous public ticker', status: 'Excluded', reason: 'Could not verify humanoid robotics relevance.' },
+  { mention: '$NEO', resolution: 'Neo Performance Materials', status: 'Demoted', reason: 'Magnets/materials link exists, but stock already up 90% YTD.' },
+  { mention: '$KDK', resolution: 'Kodiak AI', status: 'Included', reason: 'Real-world autonomy proxy, not humanoid.' },
+  { mention: '$MRLN', resolution: 'Ambiguous public ticker', status: 'Excluded', reason: 'Could not verify humanoid robotics relevance.' },
+  { mention: '$KITT', resolution: 'Nauticus Robotics', status: 'Excluded', reason: 'Tiny underwater robotics stock, not humanoid exposure.' },
+  { mention: '$INDI', resolution: 'indie Semiconductor', status: 'Included', reason: 'Small-cap perception silicon, but humanoid revenue is speculative.' },
 ];
 
-// ── Key Research Papers/Benchmarks ──
-export const keyBenchmarks = [
-  { name: 'RT-2', metric: 'Unseen task success', before: 32, after: 62, unit: '%', source: 'Google DeepMind' },
-  { name: 'RT-2 emergent reasoning', metric: 'Emergent skill improvement', value: '3x+', source: 'Google DeepMind' },
-  { name: 'Diffusion Policy', metric: 'Avg improvement over prior baselines', value: 46.9, unit: '%', source: 'Toyota Research' },
-  { name: 'EgoScale scaling law', metric: 'R-squared', value: 0.9983, source: 'NVIDIA' },
-  { name: 'EgoScale avg improvement', metric: 'Task success over baseline', value: 54, unit: '%', source: 'NVIDIA' },
-  { name: 'Open X-Embodiment', metric: 'Robot types / institutions', value: '22 robots, 21 institutions, 527 skills, 1M+ trajectories', source: 'RT-X consortium' },
-  { name: 'OpenVLA', metric: 'Model size / demos', value: '7B model, 970K real demonstrations', source: 'Stanford' },
-  { name: 'Physical Intelligence pi0', metric: 'Training data', value: '10,000+ hours of robot data', source: 'Physical Intelligence' },
-  { name: 'Standard Intelligence FDM-1', metric: 'IDM training / corpus / latency', value: '40K hrs labeled, 11M hrs unlabeled, 11ms inference', source: 'Standard Intelligence' },
-  { name: 'Octo', metric: 'Pretraining episodes', value: '~800,000 robot episodes', source: 'Berkeley' },
+export const privateWatchlist: PrivateWatch[] = [
+  {
+    company: 'Unitree Robotics',
+    country: 'China',
+    status: 'Private; Shanghai IPO watch',
+    exposure: 'One of the most visible humanoid/quadruped builders, with G1/H1/H2 platforms and mass-market pricing pressure.',
+    publicProxy: 'None clean; watch Unitree IPO and China robotics suppliers.',
+    note: 'High thesis quality, no public equity today.',
+    sourceIds: ['unitree-about', 'unitree-ipo'],
+  },
+  {
+    company: 'Geek+',
+    country: 'China',
+    status: 'Private',
+    exposure: 'AMR and warehouse automation deployment base; useful data/workflow proxy, not humanoid.',
+    publicProxy: 'SYM, SERV, ZBRA, MBLY, OUST',
+    note: 'Good learning comp for warehouse autonomy economics.',
+    sourceIds: ['market-yahoo'],
+  },
+  {
+    company: 'RoboStrategy',
+    country: 'US',
+    status: 'Private investor',
+    exposure: 'Investor in Dyna Robotics rather than an operating public company.',
+    publicProxy: 'None',
+    note: 'Track Dyna Robotics for future direct exposure.',
+    sourceIds: ['dyna-robotics'],
+  },
+  {
+    company: 'Dyna Robotics',
+    country: 'US',
+    status: 'Private',
+    exposure: 'Commercial general-purpose robotics foundation model with Dyna-1 claims.',
+    publicProxy: 'Investor ecosystem only: Amazon Industrial Innovation Fund, Samsung Next, NVentures, LG Technology Ventures.',
+    note: 'Not in the crowd list as a ticker, but explains why RobotStrategy appeared.',
+    sourceIds: ['dyna-robotics'],
+  },
+  {
+    company: 'Humanoid',
+    country: 'UK',
+    status: 'Private',
+    exposure: 'Industrial humanoid partner of Schaeffler with planned factory deployment and actuator supply agreement.',
+    publicProxy: 'SHA0.DE',
+    note: 'This was the strongest new Schaeffler validation.',
+    sourceIds: ['schaeffler-humanoid', 'humanoid-schaeffler-reuters'],
+  },
+  {
+    company: 'Mentee Robotics',
+    country: 'Israel',
+    status: 'Acquired by Mobileye',
+    exposure: 'AI-first humanoid platform now inside MBLY.',
+    publicProxy: 'MBLY',
+    note: 'This is why MBLY was upgraded from auto-only to physical-AI.',
+    sourceIds: ['mobileye-mentee'],
+  },
 ];
 
-// ── Validation Addendum Calculations ──
-export const taskCalculations = [
-  { label: 'Task coverage via imitation', calc: '50 demos/task × 3 min = 2.5h/task; 10K tasks = 25,000h', implication: 'Teleop-only approach is bootstrap, not terminal' },
-  { label: '20-operator team throughput', calc: '25,000h / (20 ops × 5h/day) = 250 calendar days', implication: 'Almost a year for 10K tasks with dedicated team' },
-  { label: '1X human-video leverage', calc: '900h human / 70h robot = 12.9×', implication: 'Human data is 13x cheaper per unit of robot capability' },
-  { label: 'DreamDojo vs Figure teleop', calc: '44,711h / 500h = 89.4×', implication: 'Data bottleneck is decisively shifting to human video' },
-  { label: 'EgoScale vs 1XWM human', calc: '20,854h / 900h = 23.2×', implication: 'EgoScale is much larger dexterous-human-data result' },
+export const mindmapNodes: MindmapNode[] = [
+  { id: 'center', label: 'Humanoid alpha', category: 'Center', x: 50, y: 50, size: 84, companies: ['Alpha = exposure x valuation x rerating room'] },
+  { id: 'builders', label: 'Builders', category: 'Builder', x: 50, y: 14, size: 66, companies: ['XBOTF', 'RR', 'MBLY', 'UBTECH', 'XPeng', 'Hyundai'] },
+  { id: 'actuation', label: 'Joints', category: 'Actuation', x: 17, y: 31, size: 66, companies: ['ALNT', 'SHA0.DE', '6268.T', '6324.T', '108490.KQ'] },
+  { id: 'sensing', label: 'Eyes', category: 'Sensing', x: 83, y: 31, size: 66, companies: ['ARBE', 'OUST', 'HSAI', '2498.HK', 'AEVA', 'CGNX'] },
+  { id: 'edge', label: 'Edge AI', category: 'Edge AI', x: 78, y: 73, size: 66, companies: ['AMBA', 'INDI', 'AMBQ', 'LSCC', 'MRAM', 'NVDA'] },
+  { id: 'materials', label: 'Power/materials', category: 'Materials', x: 22, y: 73, size: 66, companies: ['MKA.L', 'CATL', 'NEO.TO', 'VPG', '8147.TWO'] },
+  { id: 'warehouse', label: 'Workflows', category: 'Warehouse', x: 50, y: 88, size: 66, companies: ['SERV', 'SYM', 'ZBRA', 'KDK', 'Geek+'] },
 ];
 
-// ── V3 Addendum: Three Data Regimes ──
-export interface DataRegime {
-  family: string;
-  methods: string;
-  whatToCollect: string;
-  color: string;
-}
-
-export const dataRegimes: DataRegime[] = [
-  { family: 'Paired Robot Trajectories', methods: 'M1, M4, M6, M8, M9, M10', whatToCollect: 'Action-labeled robot observations, state/action sync, calibration, QA, often language labels. RT-1 trained on 130K teleoperated episodes from 13 robots over 17 months.', color: 'var(--accent)' },
-  { family: 'Human-Video Scaling + Alignment', methods: 'M2, M5', whatToCollect: 'Large egocentric human video with head motion, hand/body pose, task descriptions. EgoScale: 20,854h action-labeled. Build AI Egocentric-100K: 100,405h. Plus small robot alignment set.', color: 'var(--success)' },
-  { family: 'Long-Horizon Logs + Synthetic', methods: 'M3, M7', whatToCollect: 'Very long multimodal logs, deployment telemetry, synthetic ground truth, gap-measurement loops. NVIDIA Cosmos uses segmentation, depth, LiDAR, pose, trajectory maps.', color: 'var(--warning)' },
-];
-
-// ── V3: Per-method data requirements ──
-export interface MethodDataReq {
-  method: string;
-  family: string;
-  coreData: string;
-  bottleneck: string;
-  rawVendors: string[];
-  infraVendors: string[];
-  syntheticVendors: string[];
-  evidenceAnchors: string[];
-}
-
-export const methodDataReqs: MethodDataReq[] = [
-  { method: 'M1 ViT visuomotor', family: 'Paired robot trajectories', coreData: 'Paired robot observations→actions. Synchronized RGB, proprioception, end-effector pose, gripper commands, timestamps, calibration.', bottleneck: 'High-quality action-labeled robot trajectories from real hardware', rawVendors: ['Scale AI', 'DeepReach AI', 'Genrobot AI', 'micro1', 'Neuracore', 'Formant'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Labelbox', 'Orbifold AI'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata'], evidenceAnchors: ['RT-1', 'RT-2', 'OpenVLA', 'Octo', 'Figure Helix'] },
-  { method: 'M2 IDM→FDM', family: 'Human-video scaling', coreData: 'Small seed set of observation-action pairs for IDM + huge corpus of long egocentric video with hands visible + optional pose/intrinsics.', bottleneck: 'Finding large manipulation-dense egocentric corpora with metadata quality for pseudo-labeling', rawVendors: ['Build AI', 'Asimov', 'Human Archive', 'Mecka AI', 'Toloka', 'Scale AI', 'micro1'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['MANUS', 'HaptX/1HMX', 'Shadow Robot'], evidenceAnchors: ['OpenAI VPT', '1X WM/IDM', 'Standard Intelligence FDM-1'] },
-  { method: 'M3 World models', family: 'Long-horizon logs + synthetic', coreData: 'Long contiguous sequences of observations, actions, outcomes. Optionally depth, point clouds, segmentation, trajectory maps, paired sim↔real logs.', bottleneck: 'Very long clean multimodal sequences plus scalable curation for rare physics events', rawVendors: ['Formant', 'Nominal', 'Roboto AI', 'Neuracore', 'Rerun', 'Foxglove', 'DeepReach AI'], infraVendors: ['Orbifold AI', 'Labelbox', 'Dataloop'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata'], evidenceAnchors: ['NVIDIA Cosmos', 'Isaac Sim', '1X World Model', 'UniSim', 'DreamerV3'] },
-  { method: 'M4 Imitation/LfD', family: 'Paired robot trajectories', coreData: 'High-fidelity demos via teleop/leader-follower/VR/gloves. Robot observations, state, actions, force/tactile for contact-rich tasks.', bottleneck: 'Operator throughput and ergonomic fidelity; contact-rich dexterity needs tactile/full-body capture', rawVendors: ['DeepReach AI', 'Genrobot AI', 'Scale AI', 'Sensei Robotics', 'micro1', 'Neuracore'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Labelbox', 'Orbifold AI'], syntheticVendors: ['Shadow Robot', 'MANUS', 'HaptX/1HMX'], evidenceAnchors: ['Mobile ALOHA', 'UMI', 'ACT', 'DexCap/DexUMI'] },
-  { method: 'M5 Human video→robot', family: 'Human-video scaling', coreData: 'Egocentric human RGB video, head motion, 3D hand/body pose, task descriptions, broad environment diversity. Plus small robot alignment set.', bottleneck: 'Capturing manipulation-dense video with enough hand visibility and pose fidelity to retarget', rawVendors: ['Build AI', 'Asimov', 'Human Archive', 'Mecka AI', 'Toloka', 'Scale AI', 'Genrobot AI'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['MANUS', 'HaptX/1HMX', 'Shadow Robot'], evidenceAnchors: ['EgoScale', 'EgoVerse', 'DreamDojo', 'Build AI Egocentric-100K'] },
-  { method: 'M6 VLA', family: 'Paired robot trajectories + language', coreData: 'Action-labeled robot episodes paired with natural-language instructions and camera observations. Often proprioception too.', bottleneck: 'Curating language-grounded robot episodes with enough task/object diversity', rawVendors: ['Scale AI', 'DeepReach AI', 'micro1', 'Genrobot AI', 'Sensei Robotics'], infraVendors: ['Labelbox', 'Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Orbifold AI', 'Neuracore'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['RT-2', 'OpenVLA', 'pi0', 'Helix'] },
-  { method: 'M7 RL sim→real', family: 'Long-horizon logs + synthetic', coreData: 'Synthetic simulator rollouts with state/action/reward and realistic sensor outputs. System ID measurements. Real calibration logs.', bottleneck: 'Closing the reality gap for contacts, deformables, and edge-case dynamics', rawVendors: ['Formant', 'Nominal', 'Neuracore', 'Roboto AI', 'Rerun', 'Foxglove', 'DeepReach AI'], infraVendors: ['Orbifold AI', 'Labelbox'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition', 'Anyverse', 'Cognata', 'Shadow Robot', 'HaptX/1HMX'], evidenceAnchors: ['Isaac Sim/Lab', 'Applied Intuition', 'Anyverse'] },
-  { method: 'M8 Diffusion/flow', family: 'Paired robot trajectories (contact-rich)', coreData: 'Dense continuous trajectories, multimodal alternatives, action chunks, precise contact-rich episodes. 3D point clouds or depth often help.', bottleneck: 'Contact-rich multimodal data with enough diversity for generative action models', rawVendors: ['DeepReach AI', 'Genrobot AI', 'Scale AI', 'micro1', 'Sensei Robotics', 'Neuracore'], infraVendors: ['Rerun', 'Foxglove', 'Roboto AI', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['Shadow Robot', 'MANUS', 'HaptX/1HMX', 'NVIDIA Isaac/Cosmos'], evidenceAnchors: ['Diffusion Policy', '3D Diffusion Policy', 'pi0'] },
-  { method: 'M9 Cross-embodiment FM', family: 'Large pooled robot trajectories', coreData: 'Standardized trajectories from many robot embodiments. Action-space normalization, embodiment metadata (URDF), task/language labels.', bottleneck: 'Unifying action spaces, metadata, and calibration across many robots', rawVendors: ['Scale AI', 'DeepReach AI', 'Genrobot AI', 'micro1', 'Neuracore', 'Formant'], infraVendors: ['Foxglove', 'Rerun', 'Roboto AI', 'Nominal', 'Orbifold AI', 'Labelbox'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['Open X-Embodiment', 'Octo', 'OpenVLA', 'pi0'] },
-  { method: 'M10 Hierarchical/LLM', family: 'Language/task decomposition + skill traces', coreData: 'High-level language tasks, subgoal/skill labels, semantic scene info, low-level skill execution traces, failure recovery logs.', bottleneck: 'Producing consistent high-level labels and linking them to low-level skill episodes', rawVendors: ['Scale AI', 'DeepReach AI', 'micro1', 'Genrobot AI', 'Toloka'], infraVendors: ['Labelbox', 'Nominal', 'Roboto AI', 'Rerun', 'Foxglove', 'Orbifold AI', 'Neuracore'], syntheticVendors: ['NVIDIA Isaac/Cosmos', 'Applied Intuition'], evidenceAnchors: ['SayCan', 'VoxPoser', 'Code-as-Policies'] },
-];
-
-// ── V3: 32-Company Fit Matrix (top-line scores per method, 0-5 scale) ──
-export interface CompanyFitScore {
-  company: string;
-  category: string;
-  scores: { m1: number; m2: number; m3: number; m4: number; m5: number; m6: number; m7: number; m8: number; m9: number; m10: number };
-}
-
-export const companyFitMatrix: CompanyFitScore[] = [
-  { company: 'Scale AI', category: 'Raw collection / managed data factory', scores: { m1: 4.1, m2: 4.5, m3: 3.3, m4: 4.0, m5: 4.4, m6: 4.4, m7: 2.7, m8: 3.8, m9: 4.1, m10: 4.1 } },
-  { company: 'DeepReach AI', category: 'Raw collection + deployment', scores: { m1: 4.2, m2: 3.6, m3: 3.3, m4: 4.1, m5: 3.6, m6: 4.4, m7: 3.1, m8: 4.0, m9: 4.1, m10: 4.2 } },
-  { company: 'Genrobot AI', category: 'Raw collection + devices', scores: { m1: 3.9, m2: 3.9, m3: 2.9, m4: 3.9, m5: 3.9, m6: 3.5, m7: 3.1, m8: 3.8, m9: 3.7, m10: 3.1 } },
-  { company: 'micro1', category: 'Expert human data engine', scores: { m1: 3.8, m2: 3.1, m3: 2.8, m4: 3.5, m5: 3.0, m6: 4.1, m7: 2.5, m8: 3.4, m9: 3.7, m10: 3.8 } },
-  { company: 'Mecka AI', category: 'Egocentric movement data', scores: { m1: 2.4, m2: 3.4, m3: 1.8, m4: 2.2, m5: 3.5, m6: 2.2, m7: 1.6, m8: 2.1, m9: 2.2, m10: 2.1 } },
-  { company: 'Asimov', category: 'Egocentric human data', scores: { m1: 1.1, m2: 3.6, m3: 1.0, m4: 1.4, m5: 3.6, m6: 1.4, m7: 0.8, m8: 1.3, m9: 1.4, m10: 1.2 } },
-  { company: 'Build AI', category: 'Egocentric video dataset', scores: { m1: 0.5, m2: 2.5, m3: 0.8, m4: 0.5, m5: 2.0, m6: 0.6, m7: 0.5, m8: 0.6, m9: 0.5, m10: 0.4 } },
-  { company: 'Formant', category: 'Observability + fleet data', scores: { m1: 3.8, m2: 2.0, m3: 3.0, m4: 2.8, m5: 1.6, m6: 3.0, m7: 2.8, m8: 2.8, m9: 3.4, m10: 2.9 } },
-  { company: 'Neuracore', category: 'Robot data ops + training', scores: { m1: 3.6, m2: 2.0, m3: 2.8, m4: 2.9, m5: 1.6, m6: 2.9, m7: 3.0, m8: 3.0, m9: 3.3, m10: 2.7 } },
-  { company: 'Rerun', category: 'Data platform / visualization', scores: { m1: 3.4, m2: 1.9, m3: 3.1, m4: 2.2, m5: 1.5, m6: 2.6, m7: 3.2, m8: 2.5, m9: 3.0, m10: 2.6 } },
-  { company: 'Foxglove', category: 'Observability / data mgmt', scores: { m1: 3.2, m2: 1.9, m3: 2.6, m4: 2.2, m5: 1.5, m6: 2.5, m7: 2.5, m8: 2.3, m9: 2.9, m10: 2.4 } },
-  { company: 'Orbifold AI', category: 'Multimodal curation', scores: { m1: 3.4, m2: 1.9, m3: 3.0, m4: 2.6, m5: 1.8, m6: 3.1, m7: 3.3, m8: 2.9, m9: 3.2, m10: 3.0 } },
-  { company: 'Nominal', category: 'Industrial data stack', scores: { m1: 2.9, m2: 1.7, m3: 2.5, m4: 1.9, m5: 1.6, m6: 2.8, m7: 2.4, m8: 2.0, m9: 2.9, m10: 2.9 } },
-  { company: 'Roboto AI', category: 'Robot data analytics', scores: { m1: 3.2, m2: 1.9, m3: 2.6, m4: 2.2, m5: 1.5, m6: 2.5, m7: 2.5, m8: 2.3, m9: 2.9, m10: 2.4 } },
-  { company: 'NVIDIA Isaac/Cosmos', category: 'Synthetic + world models', scores: { m1: 2.6, m2: 1.7, m3: 2.9, m4: 2.0, m5: 1.4, m6: 2.1, m7: 3.6, m8: 2.3, m9: 2.7, m10: 2.2 } },
-  { company: 'Applied Intuition', category: 'Synthetic data / sim', scores: { m1: 2.2, m2: 1.6, m3: 2.6, m4: 1.6, m5: 1.2, m6: 1.7, m7: 3.0, m8: 1.9, m9: 2.0, m10: 1.9 } },
-  { company: 'Shadow Robot', category: 'Dexterous capture hardware', scores: { m1: 3.2, m2: 2.3, m3: 2.2, m4: 3.6, m5: 2.4, m6: 2.4, m7: 2.4, m8: 3.3, m9: 2.7, m10: 2.1 } },
-];
-
-// ── V3: Key takeaways ──
-export const v3Takeaways = [
-  'Human-video methods (M2, M5) are where new specialist vendors appear fastest — Build AI, Asimov, Mecka, Toloka, Scale AI, micro1',
-  'Imitation/VLA/diffusion methods (M1, M4, M6, M8) still depend on paired robot trajectories — DeepReach, Genrobot, Scale AI, micro1, Formant, Neuracore',
-  'World-model / sim-to-real methods (M3, M7) need long-horizon log pipelines + synthetic engines — NVIDIA, Applied Intuition, Anyverse, Cognata, Rerun, Formant',
-  'Dexterity is under-served without dedicated capture hardware — Shadow Robot (120-960 Hz glove), MANUS (ROS 2 streaming), HaptX/1HMX (72-DoF body/hand)',
-  'The market is splitting into three layers: raw collection, curation/observability, and synthetic/sim. Winners buy from all three.',
+export const sourceLinks: SourceLink[] = [
+  {
+    id: 'crowd-post',
+    label: 'Crowdsourced X list',
+    url: 'https://x.com/aleabitoreddit/status/2054335940026573222',
+    usedFor: 'Original humanoid exposure prompt and crowd mentions.',
+  },
+  {
+    id: 'market-yahoo',
+    label: 'Yahoo Finance chart and quote endpoints',
+    url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
+    usedFor: 'Latest price, market cap, and YTD return refresh on May 13, 2026.',
+  },
+  {
+    id: 'ouster-stereolabs',
+    label: 'Ouster acquires StereoLabs',
+    url: 'https://ouster.com/ouster-x-stereolabs',
+    usedFor: 'Ouster humanoid/robotics perception upgrade.',
+  },
+  {
+    id: 'serve-gen3',
+    label: 'Serve Robotics third-generation robot',
+    url: 'https://investors.serverobotics.com/node/7401/pdf',
+    usedFor: 'Serve robot fleet, NVIDIA Jetson Orin, Ouster Rev7 lidar, and field-hour upgrade.',
+  },
+  {
+    id: 'mobileye-mentee',
+    label: 'Mobileye to acquire Mentee Robotics',
+    url: 'https://www.mobileye.com/news/mobileye-to-acquire-mentee-robotics-to-accelerate-physical-ai-leadership/',
+    usedFor: 'MBLY physical AI and humanoid robotics exposure.',
+  },
+  {
+    id: 'hesai-capacity',
+    label: 'Hesai CES 2026 capacity plan',
+    url: 'https://www.hesaitech.com/hesai-announces-plan-to-double-annual-lidar-production-capacity-at-ces-2026/',
+    usedFor: 'Robotics lidar capacity and humanoid application evidence.',
+  },
+  {
+    id: 'robosense-about',
+    label: 'RoboSense company profile',
+    url: 'https://www.robosense.ai/en/about',
+    usedFor: 'Robotics lidar unit growth and automation/humanoid supply-chain context.',
+  },
+  {
+    id: 'arbe-nvidia',
+    label: 'Arbe radar plus NVIDIA AI computing',
+    url: 'https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful',
+    usedFor: 'ARBE physical autonomy radar evidence.',
+  },
+  {
+    id: 'ubtech-prn',
+    label: 'UBTECH Walker S2 mass production',
+    url: 'https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616978.html',
+    usedFor: 'UBTECH direct humanoid production/order claims.',
+  },
+  {
+    id: 'unitree-about',
+    label: 'Unitree about page',
+    url: 'https://www.unitree.com/en/about/',
+    usedFor: 'Private direct humanoid/quadruped builder context.',
+  },
+  {
+    id: 'unitree-ipo',
+    label: 'Unitree IPO report',
+    url: 'https://www.scmp.com/business/banking-finance/article/3347365/chinas-unitree-robotics-rides-humanoid-tide-it-targets-us610m-ipo',
+    usedFor: 'Unitree IPO watch and private-to-public timing.',
+  },
+  {
+    id: 'xpeng-iron',
+    label: 'XPeng physical AI / IRON humanoid',
+    url: 'https://www.xpeng.com/pressroom/news/019bc56e17389bc16cb78a028c710035',
+    usedFor: 'XPeng humanoid robot exposure.',
+  },
+  {
+    id: 'hyundai-robotics',
+    label: 'Hyundai AI robotics strategy',
+    url: 'https://www.hyundai.com/worldwide/en/newsroom/detail/0000001100',
+    usedFor: 'Hyundai/Boston Dynamics industrial humanoid strategy.',
+  },
+  {
+    id: 'boston-atlas',
+    label: 'Boston Dynamics Atlas',
+    url: 'https://bostondynamics.com/atlas/',
+    usedFor: 'Atlas product and humanoid deployment context.',
+  },
+  {
+    id: 'richtech-dex',
+    label: 'Richtech Robotics Dex at CES 2026',
+    url: 'https://ir.richtechrobotics.com/node/7331/pdf',
+    usedFor: 'RR direct humanoid exposure.',
+  },
+  {
+    id: 'realbotix-onco',
+    label: 'Realbotix / Onconetix transaction',
+    url: 'https://www.realbotix.ai/news/realbotix-corp-announces-the-sale-of-realbotix-llc-subsidiary-to-a-nasdaq-listed-issuer',
+    usedFor: 'XBOTF direct humanoid exposure and Nasdaq path.',
+  },
+  {
+    id: 'schaeffler-humanoid',
+    label: 'Schaeffler and Humanoid partnership',
+    url: 'https://www.schaeffler.com/en/investor-relations/events-publications/ir-releases/ir_releases_detail.jsp?id=88159810',
+    usedFor: 'SHA0.DE direct actuator and humanoid customer validation.',
+  },
+  {
+    id: 'humanoid-schaeffler-reuters',
+    label: 'Humanoid deploys robots at Schaeffler plants',
+    url: 'https://www.globalbankingandfinance.com/humanoid-deploy-up-2-000-robots-schaeffler-plants/',
+    usedFor: 'Schaeffler deployment and actuator supply agreement context.',
+  },
+  {
+    id: 'allient-news',
+    label: 'Allient humanoid robotics motion-control update',
+    url: 'https://allient.com/news/',
+    usedFor: 'ALNT motion-control and humanoid robotics relevance.',
+  },
+  {
+    id: 'nabtesco-products',
+    label: 'Nabtesco precision reduction gears',
+    url: 'https://www.nabtesco.com/en/products/robot/',
+    usedFor: '6268.T robot joint reducer evidence.',
+  },
+  {
+    id: 'nabtesco-humanoid',
+    label: 'Nabtesco 2026 humanoid/cobot expansion',
+    url: 'https://www.nabtesco.com/en/news/20260218-17670/',
+    usedFor: 'Nabtesco humanoid-market roadmap evidence.',
+  },
+  {
+    id: 'harmonic-drive-ir',
+    label: 'Harmonic Drive Systems investor relations',
+    url: 'https://www.hds.co.jp/english/ir/',
+    usedFor: '6324.T listing and current company evidence.',
+  },
+  {
+    id: 'harmonic-drive-sha',
+    label: 'Harmonic Drive SHA integrated servo actuator',
+    url: 'https://humanoidroboticstechnology.com/company/harmonic-drive-llc/sha-with-integrated-servo-drive/',
+    usedFor: 'Strain-wave gear and actuator relevance to humanoids.',
+  },
+  {
+    id: 'ambarella-cv7',
+    label: 'Ambarella CV7 edge AI vision SoC',
+    url: 'https://www.ambarella.com/news/ambarella-launches-powerful-edge-ai-8k-vision-soc-with-industry-leading-ai-and-multi-sensor-perception-performance/',
+    usedFor: 'AMBA edge AI robotics exposure.',
+  },
+  {
+    id: 'ambiq-atomiq',
+    label: 'Ambiq Atomiq low-power NPU SoC',
+    url: 'https://ir.ambiq.com/news/news-details/2026/Ambiq-Unveils-Atomiq-the-Worlds-First-Ultra-Low-Power-NPU-SoC-Built-on-SPOT-2026-4LjJRzjeGy/default.aspx',
+    usedFor: 'AMBQ low-power edge AI robotics use case.',
+  },
+  {
+    id: 'indi-q1',
+    label: 'indie Semiconductor Q1 2026 results',
+    url: 'https://investors.indie.inc/news/news-details/2026/indie-Reports-First-Quarter-2026-Results/default.aspx',
+    usedFor: 'INDI lidar SoC and humanoid-adjacent industrial application evidence.',
+  },
+  {
+    id: 'cognex-nvidia',
+    label: 'Cognex In-Sight 6900 powered by NVIDIA',
+    url: 'https://investor.cognex.com/news/news-details/2026/Cognex-Launches-In-Sight-Vision-Controller-Powered-by-NVIDIA/default.aspx',
+    usedFor: 'CGNX machine vision and edge AI relevance.',
+  },
+  {
+    id: 'novanta-joints',
+    label: 'Novanta robotics joints and motion control',
+    url: 'https://novanta.com/news/the-future-of-robotics-is-built-joint-by-joint/',
+    usedFor: 'NOVT motion-control and surgical robotics evidence.',
+  },
+  {
+    id: 'symbotic-solutions',
+    label: 'Symbotic warehouse automation',
+    url: 'https://www.symbotic.com/solutions/robots/',
+    usedFor: 'SYM warehouse robotics and AI automation context.',
+  },
+  {
+    id: 'zebra-skild',
+    label: 'Skild acquires Zebra robotics automation business',
+    url: 'https://via.ritzau.dk/pressemeddelelse/14889812/skild-ai-acquires-zebra-technologies-robotics-automation-business?lang=en&publisherId=90456',
+    usedFor: 'Zebra robotics divestiture and Skild physical-AI validation.',
+  },
+  {
+    id: 'zebra-10k',
+    label: 'Zebra 2025 annual report',
+    url: 'https://www.sec.gov/Archives/edgar/data/877212/000162828026023512/zebra2025annualreport.pdf',
+    usedFor: 'Robotics automation exit/divestiture context.',
+  },
+  {
+    id: 'mkango-magnets',
+    label: 'Mkango / HyProMag rare-earth magnet plant',
+    url: 'https://www.electrive.com/2026/01/15/rare-earth-magnet-recycling-plant-opens-in-the-uk/',
+    usedFor: 'MKA magnet recycling and motor supply-chain thesis.',
+  },
+  {
+    id: 'catl-robots',
+    label: 'CATL humanoids in battery production',
+    url: 'https://www.gizmochina.com/2025/12/18/catl-successfully-deploys-humanoid-robots-to-quality-critical-work-on-ev-batteries/',
+    usedFor: 'CATL as deployment proof rather than pure equity alpha.',
+  },
+  {
+    id: 'catl-batteries',
+    label: 'CATL battery technology day',
+    url: 'https://www.catl.com/en/news/6811.html',
+    usedFor: 'CATL battery roadmap and power-stack context.',
+  },
+  {
+    id: 'vpg-databook',
+    label: 'VPG Force Sensors 2026 databook',
+    url: 'https://www.vpgforcesensors.com/2026databook',
+    usedFor: 'VPG force-sensing relevance.',
+  },
+  {
+    id: 'nextronics-humanoid',
+    label: 'Nextronics humanoid robot structures',
+    url: 'https://www.nextron.com.tw/news/web-news-industry/XoLT0nirio6UDB7a',
+    usedFor: 'Nextronics humanoid connector/mechanism solution evidence.',
+  },
+  {
+    id: 'nextronics-industrial',
+    label: 'Nextronics industrial AMR solutions',
+    url: 'https://www.nextrongroup.com/industry/web-intro-industry-4',
+    usedFor: 'Nextronics industrial automation and AMR exposure.',
+  },
+  {
+    id: 'dyna-robotics',
+    label: 'Dyna Robotics financing',
+    url: 'https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a',
+    usedFor: 'RobotStrategy resolution and private frontier context.',
+  },
+  {
+    id: 'pdyn-ir',
+    label: 'Palladyne AI investor relations',
+    url: 'https://investor.palladyneai.com/',
+    usedFor: 'PDYN embodied AI and defense autonomy context.',
+  },
+  {
+    id: 'kodiak-ai',
+    label: 'Kodiak AI ticker context',
+    url: 'https://www.stocktitan.net/overview/KDK/',
+    usedFor: 'KDK autonomous trucking and public ticker verification.',
+  },
+  {
+    id: 'robotis-profile',
+    label: 'ROBOTIS public profile',
+    url: 'https://jakotaindex.com/stocks/108490-kq/',
+    usedFor: 'ROBOTIS actuators and AI Worker humanoid context.',
+  },
+  {
+    id: 'siasun-fintel',
+    label: 'Siasun Robot & Automation public profile',
+    url: 'https://fintel.io/so/cn/300024',
+    usedFor: '300024.SZ public company verification.',
+  },
+  {
+    id: 'aeva-home',
+    label: 'Aeva physical-AI lidar platform',
+    url: 'https://www.aeva.com/',
+    usedFor: 'AEVA robotics and factory automation sensing context.',
+  },
+  {
+    id: 'lscc-transcript',
+    label: 'Lattice Semiconductor 2026 transcript',
+    url: 'https://www.fool.com/earnings/call-transcripts/2026/02/10/lattice-semiconductor-lscc-earnings-transcript/',
+    usedFor: 'LSCC physical AI and humanoid control commentary.',
+  },
+  {
+    id: 'klic-q2',
+    label: 'Kulicke & Soffa Q2 2026 report',
+    url: 'https://www.stocktitan.net/news/KLIC/kulicke-soffa-reports-second-quarter-2026-en3fdnle73lc.html',
+    usedFor: 'KLIC semicap cycle and advanced-packaging context.',
+  },
+  {
+    id: 'mram-capacity',
+    label: 'Everspin MRAM capacity expansion',
+    url: 'https://investor.everspin.com/news-releases/news-release-details/everspin-technologies-expands-shore-mram-manufacturing-capacity',
+    usedFor: 'MRAM industrial/edge memory evidence.',
+  },
+  {
+    id: 'rainbow-wiki',
+    label: 'Rainbow Robotics background',
+    url: 'https://en.wikipedia.org/wiki/Rainbow_Robotics',
+    usedFor: 'Rainbow Robotics company and Samsung-linked context.',
+  },
 ];
