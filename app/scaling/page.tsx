@@ -8,6 +8,7 @@ import { useInView } from 'react-intersection-observer';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import {
   claims,
   bottomLines,
@@ -315,7 +316,7 @@ export default function ScalingPage() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Report IV &middot; Published March 27, 2026 &middot; Updated June 2, 2026
+              Report IV &middot; Published March 27, 2026 &middot; Updated June 3, 2026
             </div>
           </Reveal>
 
@@ -880,9 +881,10 @@ export default function ScalingPage() {
                   { key: companyTab === 'public' ? 'ticker' : 'country', label: companyTab === 'public' ? 'Ticker' : 'Country' },
                   { key: 'country', label: 'Country', showWhen: 'public' as const },
                   { key: 'exchange', label: 'Exchange', showWhen: 'public' as const },
-                  { key: 'bucket', label: 'Bucket' },
-                  { key: companyTab === 'public' ? 'residualAlphaScore' : 'funding', label: companyTab === 'public' ? 'Residual' : 'Funding' },
-                  { key: 'marketCapUsd', label: 'Price / Cap', showWhen: 'public' as const },
+	                  { key: 'bucket', label: 'Bucket' },
+	                  { key: companyTab === 'public' ? 'residualAlphaScore' : 'funding', label: companyTab === 'public' ? 'Residual' : 'Funding' },
+	                  { key: 'cases', label: 'Cases', showWhen: 'public' as const },
+	                  { key: 'marketCapUsd', label: 'Price / Cap', showWhen: 'public' as const },
                   { key: 'whyFits', label: 'Why It Fits' },
                 ].filter(col => !('showWhen' in col) || col.showWhen === companyTab).map(col => (
                   <th
@@ -928,14 +930,34 @@ export default function ScalingPage() {
                           color: '#fff',
                         }}>{bucketLabel(c.bucket)}</span>
                       </td>
-                      <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', whiteSpace: 'nowrap' }}>
-                        {pub ? (
-                          <span style={{ fontFamily: 'monospace', fontWeight: 700 }}>
-                            {typeof pub.residualAlphaScore === 'number' ? pub.residualAlphaScore.toFixed(1) : 'n/a'}
-                          </span>
-                        ) : priv?.funding}
-                      </td>
-                      {pub && (
+	                      <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', whiteSpace: 'nowrap' }}>
+	                        {pub ? (
+	                          <span style={{ fontFamily: 'monospace', fontWeight: 700 }}>
+	                            {typeof pub.residualAlphaScore === 'number' ? pub.residualAlphaScore.toFixed(1) : 'n/a'}
+	                          </span>
+	                        ) : priv?.funding}
+	                      </td>
+	                      {pub && (
+	                        <td style={{ padding: 'var(--space-xs) var(--space-sm)' }}>
+	                          <StockCaseHover
+	                            page="scaling"
+	                            company={pub.company}
+	                            ticker={pub.ticker}
+	                            thesis={pub.whyFits}
+	                            bull={pub.whyFits}
+	                            neutral={pub.ai2027TrendNote}
+	                            bear={pub.keyRisk}
+	                            category={pub.bucket}
+	                            score={typeof pub.residualAlphaScore === 'number' ? pub.residualAlphaScore.toFixed(1) : null}
+	                            rank={pub.rank}
+	                            price={fmtPrice(pub.latestPrice, pub.latestCurrency)}
+	                            marketCap={fmtCap(pub.latestMarketCapUsd ?? pub.marketCapUsd)}
+	                            ytd={`${fmtYtd(pub.ytdReturnPct)} YTD`}
+	                            sources={pub.marketDataSource ? [{ label: 'Yahoo Finance', url: pub.marketDataSource }] : undefined}
+	                          />
+	                        </td>
+	                      )}
+	                      {pub && (
                         <td style={{ padding: 'var(--space-xs) var(--space-sm)', color: 'var(--ink-600)', whiteSpace: 'nowrap', fontSize: 'var(--text-xs)' }}>
                           <div style={{ fontFamily: 'monospace', color: 'var(--ink-800)', fontWeight: 700 }}>
                             {fmtPrice(pub.latestPrice, pub.latestCurrency)}
@@ -953,7 +975,7 @@ export default function ScalingPage() {
                     <AnimatePresence>
                       {expandedCompany === i && (
                         <tr>
-                          <td colSpan={isPublic ? 9 : 6} style={{ padding: 0 }}>
+	                          <td colSpan={isPublic ? 10 : 6} style={{ padding: 0 }}>
                             <motion.div
                               initial={{ height: 0, opacity: 0 }}
                               animate={{ height: 'auto', opacity: 1 }}

@@ -21,6 +21,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   HumanGoodsRow,
   HumanPartitionRow,
@@ -1349,19 +1350,42 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
       sortValue: (row) => row.ticker,
       render: (row) => <code style={{ fontSize: '0.78rem' }}>{row.ticker}</code>,
     },
-    {
-      key: 'alpha',
-      label: 'Alpha',
+	    {
+	      key: 'alpha',
+	      label: 'Alpha',
       align: 'right',
       sortValue: (row) => row.alphaScore ?? -1,
       render: (row) => (
         <div style={{ fontFamily: 'monospace', fontWeight: 800, color: 'var(--ink-900)' }}>
           {row.alphaRank ? `#${row.alphaRank} ` : ''}{row.alphaScore?.toFixed(1) ?? 'n/a'}
         </div>
-      ),
-    },
-    {
-      key: 'price',
+	      ),
+	    },
+	    {
+	      key: 'cases',
+	      label: 'Cases',
+	      sortValue: (row) => row.alphaNote,
+	      render: (row) => (
+	        <StockCaseHover
+	          page="carbon-vs-silicon"
+	          company={row.company}
+	          ticker={row.ticker}
+	          thesis={row.whyItFits}
+	          bull={row.whyItFits}
+	          neutral={row.alphaNote || row.headlineFact}
+	          bear={row.riskWatch}
+	          category={row.theme}
+	          score={row.alphaScore ?? null}
+	          rank={row.alphaRank ?? null}
+	          price={formatPrice(row.latestPrice, row.latestCurrency)}
+	          marketCap={formatMarketCap(row.marketCapUsdB)}
+	          ytd={formatOptionalPercent(row.ytdReturnPct)}
+	          sources={row.sourceTags.map((tag) => sourceMap[tag]).filter(Boolean).map((source) => ({ label: source.title, url: source.url }))}
+	        />
+	      ),
+	    },
+	    {
+	      key: 'price',
       label: 'Price',
       align: 'right',
       sortValue: (row) => row.latestPrice ?? -1,
@@ -1497,7 +1521,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-                  <TonePill tone="neutral">Published April 20, 2026 · Updated June 2, 2026</TonePill>
+	                  <TonePill tone="neutral">Published April 20, 2026 · Updated June 3, 2026</TonePill>
                 </div>
 
                 <div
@@ -1513,7 +1537,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                   }}
                 >
                   <div style={{ marginBottom: 8 }}>
-                    <TonePill tone="neutral">June 2 Market Refresh</TonePill>
+	                    <TonePill tone="neutral">June 3 Market Refresh</TonePill>
                   </div>
                   Vertiv reported Q1 net sales of $2.65B (+30%) and raised full-year guidance; GE Vernova reported
                   $18.3B of Q1 orders, including $2.4B of data-center electrification orders, and also raised
@@ -2441,8 +2465,24 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                             </div>
                             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{stock.ticker}</div>
                           </div>
-                          <TonePill tone="neutral">{stock.region}</TonePill>
-                        </div>
+	                          <TonePill tone="neutral">{stock.region}</TonePill>
+	                          <StockCaseHover
+	                            page="carbon-vs-silicon"
+	                            company={stock.company}
+	                            ticker={stock.ticker}
+	                            thesis={stock.whyItFits}
+	                            bull={stock.whyItFits}
+	                            neutral={stock.alphaNote || stock.headlineFact}
+	                            bear={stock.riskWatch}
+	                            category={stock.theme}
+	                            score={stock.alphaScore ?? null}
+	                            rank={stock.alphaRank ?? null}
+	                            price={formatPrice(stock.latestPrice, stock.latestCurrency)}
+	                            marketCap={formatMarketCap(stock.marketCapUsdB)}
+	                            ytd={formatOptionalPercent(stock.ytdReturnPct)}
+	                            sources={stock.sourceTags.map((tag) => sourceMap[tag]).filter(Boolean).map((source) => ({ label: source.title, url: source.url }))}
+	                          />
+	                        </div>
                         <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--ink-800)', marginBottom: 8 }}>
                           {stock.businessFocus}
                         </div>

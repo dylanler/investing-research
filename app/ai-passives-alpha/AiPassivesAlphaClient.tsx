@@ -18,6 +18,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   BottleneckCategoryRow,
   LeadTimeRow,
@@ -1245,7 +1246,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated June 2, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated June 3, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -2068,7 +2069,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             lineHeight: 1.7,
           }}
         >
-          <strong style={{ color: 'var(--ink-700)' }}>June 2 Market Refresh.</strong> Latest prices and YTD returns now
+          <strong style={{ color: 'var(--ink-700)' }}>June 3 Market Refresh.</strong> Latest prices and YTD returns now
           come from Yahoo Finance chart data. The ranking logic stays residual-alpha first, but the visible cards and
           table now expose current tape pressure so users can separate thesis quality from what the market has already
           repriced.
@@ -2422,6 +2423,28 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
               align: 'right',
             },
             {
+              key: 'cases',
+              label: 'Cases',
+              render: (row) => (
+                <StockCaseHover
+                  page="ai-passives-alpha"
+                  company={String(row.company)}
+                  ticker={String(row.ticker)}
+                  thesis={String(row.alphaRevisionNote ?? row.summary ?? '')}
+                  category={String(row.bucket ?? row.layer ?? '')}
+                  score={String(row.residualAlphaScore)}
+                  rank={String(row.rankRevised)}
+                  price={formatPrice(
+                    typeof row.latestPrice === 'number' ? row.latestPrice : null,
+                    String(row.latestCurrency ?? ''),
+                  )}
+                  marketCap={typeof row.marketCapUsdB === 'number' ? formatMarketCap(row.marketCapUsdB) : 'n/a'}
+                  ytd={typeof row.ytdReturnPct === 'number' ? formatSignedPercent(row.ytdReturnPct) : 'n/a'}
+                  sources={data.sources.slice(0, 4).map((source) => ({ label: source.title, url: source.url }))}
+                />
+              ),
+            },
+            {
               key: 'crowding',
               label: 'Crowding',
               render: (row) => formatScore(Number(row.crowdingPenaltyScore)),
@@ -2448,10 +2471,12 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             latestPrice: row.latestPrice,
             latestCurrency: row.latestCurrency,
             ytdReturnPct: row.ytdReturnPct,
+            marketCapUsdB: row.marketCapUsdB,
             residualAlphaScore: row.residualAlphaScore,
             crowdingPenaltyScore: row.crowdingPenaltyScore,
             residualUpsideLabel: row.residualUpsideLabel,
             alphaRevisionNote: row.alphaRevisionNote,
+            summary: row.summary,
           }))}
         />
       </Section>

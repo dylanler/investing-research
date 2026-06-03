@@ -19,6 +19,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   CategorySummaryRow,
   PriorityRelationshipEdge,
@@ -641,7 +642,7 @@ function FusionMethod({ data }: { data: SemiconductorAlphaCpoData }) {
                 },
                 {
                   label: 'Subtract current rerating',
-                  body: 'The June 2 refresh applies a YTD price-rerating penalty before final ranks are assigned, so very large stock moves push names toward watchlist status unless the base score is still strong.',
+	                  body: 'The June 3 refresh applies a YTD price-rerating penalty before final ranks are assigned, so very large stock moves push names toward watchlist status unless the base score is still strong.',
                   color: COLORS.green,
                 },
                 {
@@ -1213,10 +1214,10 @@ function RankingExplorer({ data }: { data: SemiconductorAlphaCpoData }) {
         <Reveal>
           <Panel style={{ overflow: 'hidden' }}>
             <div style={{ maxHeight: 680, overflow: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1120 }}>
+	              <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1240 }}>
                 <thead style={{ position: 'sticky', top: 0, zIndex: 2, background: 'var(--surface-overlay)' }}>
                   <tr>
-                    {['Rank', 'Name', 'Unified', 'CPO', 'Broad', 'Lens', 'Coverage', 'Price', 'YTD', 'Cap'].map((header) => (
+	                    {['Rank', 'Name', 'Unified', 'Cases', 'CPO', 'Broad', 'Lens', 'Coverage', 'Price', 'YTD', 'Cap'].map((header) => (
                       <th
                         key={header}
                         style={{
@@ -1252,12 +1253,30 @@ function RankingExplorer({ data }: { data: SemiconductorAlphaCpoData }) {
                           {row.ticker} / {row.country}
                         </div>
                       </td>
-                      <td style={tableCellStyle}>
-                        <span style={{ ...badgeStyle(LENS_COLORS[row.alphaLens]), padding: '5px 7px', borderRadius: 8, fontWeight: 900 }}>
-                          {formatScore(row.unifiedScore)}
-                        </span>
-                      </td>
-                      <td style={tableCellStyle}>{formatRank(row.cpoRank)} / {formatScore(row.cpoScore)}</td>
+	                      <td style={tableCellStyle}>
+	                        <span style={{ ...badgeStyle(LENS_COLORS[row.alphaLens]), padding: '5px 7px', borderRadius: 8, fontWeight: 900 }}>
+	                          {formatScore(row.unifiedScore)}
+	                        </span>
+	                      </td>
+	                      <td style={tableCellStyle}>
+	                        <StockCaseHover
+	                          page="semiconductor-alpha-cpo"
+	                          company={row.name}
+	                          ticker={row.ticker}
+	                          thesis={row.thesis}
+	                          bull={row.thesis}
+	                          neutral={row.researchAction || row.broadNotes}
+	                          bear={row.risk}
+	                          category={row.alphaLens}
+	                          score={row.unifiedScore.toFixed(1)}
+	                          rank={row.unifiedRank}
+	                          price={formatPrice(row.latestPrice, row.latestCurrency)}
+	                          marketCap={formatMoney(row.latestMarketCapBUsd ?? row.marketCapBUsd)}
+	                          ytd={formatPercent(row.latestYtdReturnPct)}
+	                          sources={data.sources.slice(0, 4).map((source) => ({ label: source.title, url: source.url }))}
+	                        />
+	                      </td>
+	                      <td style={tableCellStyle}>{formatRank(row.cpoRank)} / {formatScore(row.cpoScore)}</td>
                       <td style={tableCellStyle}>{formatRank(row.broadRank)} / {formatScore(row.broadScore)}</td>
                       <td style={tableCellStyle}>{shortName(row.alphaLens, 28)}</td>
                       <td style={tableCellStyle}>

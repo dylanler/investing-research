@@ -1,0 +1,1635 @@
+{
+  "as_of": "2026-06-03",
+  "rank_move_definition": "up means higher recommendation / lower numeric rank; down means lower recommendation / higher numeric rank; hold means no material rank change recommended.",
+  "scope": {
+    "ai_passives_alpha": "public/reports/ai-passives-alpha/data/revised_top100_master.csv plus app/ai-passives-alpha",
+    "carbon_vs_silicon": "public/reports/carbon-vs-silicon/stock_recommendations.csv plus app/carbon-vs-silicon"
+  },
+  "method": "Rank directions are conservative thesis-audit judgments using the page CSV thesis fields, current market rerating fields dated 2026-06-02, and official company or primary industry sources reviewed for 2026-06-03.",
+  "counts": {
+    "ai_passives_alpha": 100,
+    "carbon_vs_silicon": 8,
+    "total": 108
+  },
+  "items": [
+    {
+      "ticker": "6817",
+      "company": "Sumida",
+      "page": "ai-passives-alpha",
+      "current_rank": 1,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Sumida has a bull case through Inductors exposure because Magnetics and inductors for power conversion remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 1 already reflects magnetics and inductors for power conversion; tight-supply, AI-adjacent, hidden-gem, central-node with A evidence and a very under-owned residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 30.3% YTD move.",
+      "source_urls": [
+        "https://www.sumida.com/",
+        "https://products.sumida.com/ProductsInfo/ProductGuide/PowerInductors/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html"
+      ]
+    },
+    {
+      "ticker": "CTS",
+      "company": "CTS Corp",
+      "page": "ai-passives-alpha",
+      "current_rank": 2,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: CTS Corp has a bull case through Passives / sensing exposure because Resistor networks, current sensing, data-center power sensing remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 2 already reflects resistor networks, current sensing, data-center power sensing; bottleneck, AI-adjacent, hidden-gem, central-node with A evidence and a very under-owned residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 52.1% YTD rerating.",
+      "source_urls": [
+        "https://www.ctscorp.com/Products/Current-Sensors",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/CTS/"
+      ]
+    },
+    {
+      "ticker": "TTG",
+      "company": "TT Electronics",
+      "page": "ai-passives-alpha",
+      "current_rank": 3,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: TT Electronics has a bull case through Passives / sensing exposure because Current sense, thin/thick film resistor exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 3 already reflects current sense, thin/thick film resistor exposure; tight-supply, AI-adjacent, hidden-gem, central-node with A evidence and a underfollowed residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a negative -1.7% YTD move.",
+      "source_urls": [
+        "https://www.ttelectronics.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/TTG.L/"
+      ]
+    },
+    {
+      "ticker": "2492",
+      "company": "Walsin Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 4,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Walsin Technology has a bull case through Passives exposure because Underfollowed MLCC and resistor supplier tied to AI demand remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 4 already reflects underfollowed mlcc and resistor supplier tied to ai demand; bottleneck, AI-adjacent, hidden-gem, 2026-catalyst, central-node with A evidence and a underfollowed residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 239.8% YTD rerating.",
+      "source_urls": [
+        "https://www.passivecomponent.com/about/",
+        "https://www.passivecomponent.com/products/capacitors/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html"
+      ]
+    },
+    {
+      "ticker": "DSCV",
+      "company": "discoverIE Group",
+      "page": "ai-passives-alpha",
+      "current_rank": 5,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: discoverIE Group has a bull case through Power / connectivity exposure because Underfollowed power and connectivity exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 5 already reflects underfollowed power and connectivity exposure; hidden-gem with C+ evidence and a very under-owned residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 33.0% YTD move.",
+      "source_urls": [
+        "https://www.discoverieplc.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6762",
+      "company": "TDK",
+      "page": "ai-passives-alpha",
+      "current_rank": 6,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: TDK has a bull case through Passives exposure because MLCCs, inductors, filters and AI power topology exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 6 already reflects mlccs, inductors, filters and ai power topology exposure; bottleneck, direct-AI, 2026-catalyst, central-node with A evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 75.6% YTD rerating.",
+      "source_urls": [
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6762.T/"
+      ]
+    },
+    {
+      "ticker": "6282",
+      "company": "AcBel Polytech",
+      "page": "ai-passives-alpha",
+      "current_rank": 7,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: AcBel Polytech has a bull case through Power supplies exposure because Server power supplies and high-density power conversion remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 7 already reflects server power supplies and high-density power conversion; bottleneck, AI-adjacent, hidden-gem, 2026-catalyst, central-node with B+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 47.0% YTD move.",
+      "source_urls": [
+        "https://www.acbel.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6997",
+      "company": "Nippon Chemi-Con",
+      "page": "ai-passives-alpha",
+      "current_rank": 8,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Nippon Chemi-Con has a bull case through Passives exposure because Aluminum electrolytic and polymer caps around AI server VRMs remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 8 already reflects aluminum electrolytic and polymer caps around ai server vrms; bottleneck, direct-AI, underfollowed, 2026-catalyst, central-node with A evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 222.0% YTD rerating.",
+      "source_urls": [
+        "https://www.chemi-con.co.jp/en/company/about/topics/ai.html",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6997.T/"
+      ]
+    },
+    {
+      "ticker": "6752",
+      "company": "Panasonic Holdings",
+      "page": "ai-passives-alpha",
+      "current_rank": 9,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Panasonic Holdings has a bull case through Passives exposure because Polymer tantalum, electrolytics and resistor/current-sense exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 9 already reflects polymer tantalum, electrolytics and resistor/current-sense exposure; bottleneck, AI-adjacent, central-node with A evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 88.4% YTD rerating.",
+      "source_urls": [
+        "https://holdings.panasonic/global/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6752.T/"
+      ]
+    },
+    {
+      "ticker": "6996",
+      "company": "Nichicon",
+      "page": "ai-passives-alpha",
+      "current_rank": 10,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Nichicon has a bull case through Passives exposure because Electrolytic capacitor leverage in AI/server power remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 10 already reflects electrolytic capacitor leverage in ai/server power; tight-supply, AI-adjacent, underfollowed, central-node with A evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 139.3% YTD rerating.",
+      "source_urls": [
+        "https://www.nichicon.co.jp/english/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6996.T/"
+      ]
+    },
+    {
+      "ticker": "BHE",
+      "company": "Benchmark Electronics",
+      "page": "ai-passives-alpha",
+      "current_rank": 11,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Benchmark Electronics has a bull case through EMS / industrial electronics exposure because Complex power and control electronics manufacturing remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 11 already reflects complex power and control electronics manufacturing; hidden-gem with C+ evidence and a underfollowed residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 100.5% YTD rerating.",
+      "source_urls": [
+        "https://www.bench.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "VSH",
+      "company": "Vishay Intertechnology",
+      "page": "ai-passives-alpha",
+      "current_rank": 12,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Vishay Intertechnology has a bull case through Passives exposure because Tantalum, polymer, film, inductors, resistors, current sense remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 12 already reflects tantalum, polymer, film, inductors, resistors, current sense; bottleneck, AI-adjacent, underfollowed, 2026-catalyst, central-node with A evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 311.2% YTD rerating.",
+      "source_urls": [
+        "https://www.vishay.com/en/capacitors/tantalum/tab/products/",
+        "https://www.vishay.com/en/company/press/releases/2023/T51_Series_Polymer_AECQ200/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html"
+      ]
+    },
+    {
+      "ticker": "3231",
+      "company": "Wistron",
+      "page": "ai-passives-alpha",
+      "current_rank": 13,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Wistron has a bull case through ODM / infrastructure exposure because AI supercomputing and server manufacturing leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 13 already reflects ai supercomputing and server manufacturing leverage; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node with A- evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 25.2% YTD move.",
+      "source_urls": [
+        "https://www.wistron.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2382",
+      "company": "Quanta Computer",
+      "page": "ai-passives-alpha",
+      "current_rank": 14,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Quanta Computer has a bull case through ODM / racks exposure because QCT rack integration and AI data-center platforms remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 14 already reflects qct rack integration and ai data-center platforms; tight-supply, direct-AI, 2026-catalyst, central-node with A- evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 50.5% YTD rerating.",
+      "source_urls": [
+        "https://www.quantatw.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2356",
+      "company": "Inventec",
+      "page": "ai-passives-alpha",
+      "current_rank": 15,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Inventec has a bull case through ODM exposure because Server and cloud hardware manufacturing remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 15 already reflects server and cloud hardware manufacturing; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node with B+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 91.7% YTD rerating.",
+      "source_urls": [
+        "https://www.inventec.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "PLXS",
+      "company": "Plexus",
+      "page": "ai-passives-alpha",
+      "current_rank": 16,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Plexus has a bull case through EMS exposure because Underfollowed manufacturing proxy for complex cloud/network gear remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 16 already reflects underfollowed manufacturing proxy for complex cloud/network gear; tight-supply, AI-adjacent, underfollowed, central-node with B evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 88.3% YTD rerating.",
+      "source_urls": [
+        "https://www.plexus.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "POWI",
+      "company": "Power Integrations",
+      "page": "ai-passives-alpha",
+      "current_rank": 17,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Power Integrations has a bull case through Power semis exposure because High-efficiency power conversion remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 17 already reflects high-efficiency power conversion; tight-supply, AI-adjacent, underfollowed, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 128.4% YTD rerating.",
+      "source_urls": [
+        "https://www.power.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2317",
+      "company": "Hon Hai Precision / Foxconn",
+      "page": "ai-passives-alpha",
+      "current_rank": 18,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Hon Hai Precision / Foxconn has a bull case through ODM / racks exposure because Rubin racks, modular AI data-center buildout remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 18 already reflects rubin racks, modular ai data-center buildout; tight-supply, direct-AI, 2026-catalyst, central-node with A- evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 33.2% YTD move.",
+      "source_urls": [
+        "https://www.honhai.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "LFUS",
+      "company": "Littelfuse",
+      "page": "ai-passives-alpha",
+      "current_rank": 19,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Littelfuse has a bull case through Protection / sensing exposure because Power protection and current-sense exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 19 already reflects power protection and current-sense exposure; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, hard-to-substitute with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 86.3% YTD rerating.",
+      "source_urls": [
+        "https://www.littelfuse.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/LFUS/"
+      ]
+    },
+    {
+      "ticker": "IFX",
+      "company": "Infineon Technologies",
+      "page": "ai-passives-alpha",
+      "current_rank": 20,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Infineon Technologies has a bull case through Power semis exposure because Power semis and energy efficiency exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 20 already reflects power semis and energy efficiency exposure; tight-supply, AI-adjacent, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 130.0% YTD rerating.",
+      "source_urls": [
+        "https://www.infineon.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "page": "ai-passives-alpha",
+      "current_rank": 21,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: STMicroelectronics has a bull case through Power semis exposure because Power and control semis for AI infrastructure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 21 already reflects power and control semis for ai infrastructure; tight-supply, AI-adjacent, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 191.8% YTD rerating.",
+      "source_urls": [
+        "https://www.st.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2301",
+      "company": "LITEON Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 22,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: LITEON Technology has a bull case through Power supplies exposure because AI server power and 110kW power shelf at GTC 2026 remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 22 already reflects ai server power and 110kw power shelf at gtc 2026; bottleneck, direct-AI, underfollowed, near-term-catalyst, central-node with B+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 49.7% YTD move.",
+      "source_urls": [
+        "https://www.liteon.com/en/news/press-center/content/liteon-gtc-qct-2026",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "3711",
+      "company": "ASE Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 23,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: ASE Technology has a bull case through Advanced packaging / test exposure because Packaging and test leverage for AI silicon remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 23 already reflects packaging and test leverage for ai silicon; AI-adjacent, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 139.5% YTD rerating.",
+      "source_urls": [
+        "https://www.aseglobal.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6971",
+      "company": "Kyocera",
+      "page": "ai-passives-alpha",
+      "current_rank": 24,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Kyocera has a bull case through Passives exposure because AVX-taut bottlenecks across tantalum, ceramic and specialty capacitors remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 24 already reflects avx-taut bottlenecks across tantalum, ceramic and specialty capacitors; bottleneck, AI-adjacent, central-node with A evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 70.9% YTD rerating.",
+      "source_urls": [
+        "https://global.kyocera.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6971.T/"
+      ]
+    },
+    {
+      "ticker": "JBL",
+      "company": "Jabil",
+      "page": "ai-passives-alpha",
+      "current_rank": 25,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Jabil has a bull case through Power / cooling / EMS exposure because Grid-to-rack power, liquid cooling, AI infra manufacturing remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 25 already reflects grid-to-rack power, liquid cooling, ai infra manufacturing; bottleneck, direct-AI, near-term-catalyst, central-node with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 57.8% YTD rerating.",
+      "source_urls": [
+        "https://www.jabil.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "RRX",
+      "company": "Regal Rexnord",
+      "page": "ai-passives-alpha",
+      "current_rank": 26,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Regal Rexnord has a bull case through Magnetics / industrial exposure because Delevan inductors and transformers proxy remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 26 already reflects delevan inductors and transformers proxy; tight-supply, central-node with A evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 47.3% YTD move.",
+      "source_urls": [
+        "https://www.regalrexnord.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/RRX/"
+      ]
+    },
+    {
+      "ticker": "VPG",
+      "company": "Vishay Precision Group",
+      "page": "ai-passives-alpha",
+      "current_rank": 27,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Vishay Precision Group has a bull case through Current sensing exposure because Precision measurement and current-sense leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 27 already reflects precision measurement and current-sense leverage; tight-supply, AI-adjacent, hidden-gem, hard-to-substitute with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 226.9% YTD rerating.",
+      "source_urls": [
+        "https://www.vpgsensors.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/VPG/"
+      ]
+    },
+    {
+      "ticker": "LR",
+      "company": "Legrand",
+      "page": "ai-passives-alpha",
+      "current_rank": 28,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Legrand has a bull case through Power distribution exposure because Busway, PDU and electrical distribution leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 28 already reflects busway, pdu and electrical distribution leverage; tight-supply, AI-adjacent, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 14.9% YTD move.",
+      "source_urls": [
+        "https://www.legrandgroup.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2360",
+      "company": "Chroma ATE",
+      "page": "ai-passives-alpha",
+      "current_rank": 29,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Chroma ATE has a bull case through Test / power electronics exposure because Power electronics and test infrastructure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 29 already reflects power electronics and test infrastructure; underfollowed with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 219.7% YTD rerating.",
+      "source_urls": [
+        "https://www.chromaate.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "SANM",
+      "company": "Sanmina",
+      "page": "ai-passives-alpha",
+      "current_rank": 30,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Sanmina has a bull case through EMS / integration exposure because Cluster-scale AI/cloud manufacturing and integration remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 30 already reflects cluster-scale ai/cloud manufacturing and integration; tight-supply, direct-AI, underfollowed, 2026-catalyst, central-node with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 79.1% YTD rerating.",
+      "source_urls": [
+        "https://www.sanmina.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6669",
+      "company": "Wiwynn",
+      "page": "ai-passives-alpha",
+      "current_rank": 31,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Wiwynn has a bull case through ODM / racks exposure because direct NVIDIA Rubin AI infrastructure exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 31 already reflects direct nvidia rubin ai infrastructure exposure; tight-supply, direct-AI, underfollowed, near-term-catalyst, central-node with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 25.0% YTD move.",
+      "source_urls": [
+        "https://www.wiwynn.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ROG",
+      "company": "Rogers Corp",
+      "page": "ai-passives-alpha",
+      "current_rank": 32,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Rogers Corp has a bull case through Materials exposure because Advanced laminates and thermal materials remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 32 already reflects advanced laminates and thermal materials; tight-supply, AI-adjacent, underfollowed, central-node with B evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 64.3% YTD rerating.",
+      "source_urls": [
+        "https://www.rogerscorp.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MCHP",
+      "company": "Microchip Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 33,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Microchip Technology has a bull case through Power / embedded exposure because Data-center power and embedded control leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 33 already reflects data-center power and embedded control leverage; tight-supply, AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 47.5% YTD move.",
+      "source_urls": [
+        "https://www.microchip.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "5802",
+      "company": "Sumitomo Electric",
+      "page": "ai-passives-alpha",
+      "current_rank": 34,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Sumitomo Electric has a bull case through Cables / optics exposure because Power cable and optical interconnect leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 34 already reflects power cable and optical interconnect leverage; tight-supply, AI-adjacent, central-node with C evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 108.1% YTD rerating.",
+      "source_urls": [
+        "https://global-sei.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6503",
+      "company": "Mitsubishi Electric",
+      "page": "ai-passives-alpha",
+      "current_rank": 35,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Mitsubishi Electric has a bull case through Factory / power exposure because Electrical equipment and automation leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 35 already reflects electrical equipment and automation leverage; tight-supply, AI-adjacent, central-node with C+ evidence and a balanced residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 27.0% YTD move.",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6504",
+      "company": "Fuji Electric",
+      "page": "ai-passives-alpha",
+      "current_rank": 36,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Fuji Electric has a bull case through Power electronics exposure because Power semis and power systems leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 36 already reflects power semis and power systems leverage; tight-supply, AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 22.0% YTD move.",
+      "source_urls": [
+        "https://www.fujielectric.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "company": "Analog Devices",
+      "page": "ai-passives-alpha",
+      "current_rank": 37,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Analog Devices has a bull case through Analog / monitoring exposure because Power monitoring and signal-chain leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 37 already reflects power monitoring and signal-chain leverage; AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 58.2% YTD rerating.",
+      "source_urls": [
+        "https://www.analog.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "3044",
+      "company": "Tripod Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 38,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Tripod Technology has a bull case through PCB exposure because Server/networking PCB leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 38 already reflects server/networking pcb leverage; tight-supply, underfollowed, central-node with B evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 63.2% YTD rerating.",
+      "source_urls": [
+        "https://www.tripod-tech.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "BELFB",
+      "company": "Bel Fuse",
+      "page": "ai-passives-alpha",
+      "current_rank": 39,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Bel Fuse has a bull case through Power delivery / connectivity exposure because AI server power supplies, magnetics, OCP racks remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 39 already reflects ai server power supplies, magnetics, ocp racks; bottleneck, direct-AI, hidden-gem, 2026-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 61.8% YTD rerating.",
+      "source_urls": [
+        "https://www.belfuse.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ON",
+      "company": "ON Semiconductor",
+      "page": "ai-passives-alpha",
+      "current_rank": 40,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: ON Semiconductor has a bull case through Power semis exposure because Broad power semiconductor leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 40 already reflects broad power semiconductor leverage; tight-supply, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 133.7% YTD rerating.",
+      "source_urls": [
+        "https://www.onsemi.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "page": "ai-passives-alpha",
+      "current_rank": 41,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Texas Instruments has a bull case through Analog / power exposure because Broad analog and power exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 41 already reflects broad analog and power exposure; AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 74.5% YTD rerating.",
+      "source_urls": [
+        "https://www.ti.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "SU",
+      "company": "Schneider Electric",
+      "page": "ai-passives-alpha",
+      "current_rank": 42,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Schneider Electric has a bull case through Power / cooling exposure because AI factory power and cooling reference architecture remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 42 already reflects ai factory power and cooling reference architecture; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute with A- evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 19.6% YTD move.",
+      "source_urls": [
+        "https://www.se.com/ww/en/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6963",
+      "company": "ROHM",
+      "page": "ai-passives-alpha",
+      "current_rank": 43,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: ROHM has a bull case through Resistors / power semis exposure because Current sense and resistor exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 43 already reflects current sense and resistor exposure; tight-supply, AI-adjacent, central-node with A evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 146.6% YTD rerating.",
+      "source_urls": [
+        "https://www.rohm.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "company": "Monolithic Power Systems",
+      "page": "ai-passives-alpha",
+      "current_rank": 44,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Monolithic Power Systems has a bull case through Power semis exposure because High-current power management around accelerators remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 44 already reflects high-current power management around accelerators; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 78.4% YTD rerating.",
+      "source_urls": [
+        "https://www.monolithicpower.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MOD",
+      "company": "Modine",
+      "page": "ai-passives-alpha",
+      "current_rank": 45,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Modine has a bull case through Thermal management exposure because Thermal and cooling systems for high-density compute remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 45 already reflects thermal and cooling systems for high-density compute; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node with B evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 116.5% YTD rerating.",
+      "source_urls": [
+        "https://www.modine.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "267260",
+      "company": "HD Hyundai Electric",
+      "page": "ai-passives-alpha",
+      "current_rank": 46,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: HD Hyundai Electric has a bull case through Transformers / switchgear exposure because Grid bottleneck transformer exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 46 already reflects grid bottleneck transformer exposure; bottleneck, AI-adjacent, underfollowed, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 21.5% YTD move.",
+      "source_urls": [
+        "https://www.hd-hyundaielectric.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "company": "Powell Industries",
+      "page": "ai-passives-alpha",
+      "current_rank": 47,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Powell Industries has a bull case through Switchgear exposure because Switchgear and power distribution for AI buildouts remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 47 already reflects switchgear and power distribution for ai buildouts; bottleneck, AI-adjacent, underfollowed, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 156.3% YTD rerating.",
+      "source_urls": [
+        "https://www.powellind.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "HUBB",
+      "company": "Hubbell",
+      "page": "ai-passives-alpha",
+      "current_rank": 48,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Hubbell has a bull case through Power infrastructure exposure because Electrical distribution bottleneck exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 48 already reflects electrical distribution bottleneck exposure; tight-supply, AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 4.8% YTD move.",
+      "source_urls": [
+        "https://www.hubbell.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "298040",
+      "company": "Hyosung Heavy Industries",
+      "page": "ai-passives-alpha",
+      "current_rank": 49,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Hyosung Heavy Industries has a bull case through Transformers / switchgear exposure because Transformer and grid equipment leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 49 already reflects transformer and grid equipment leverage; bottleneck, AI-adjacent, underfollowed, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 92.1% YTD rerating.",
+      "source_urls": [
+        "https://www.hyosungheavyindustries.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "company": "Corning",
+      "page": "ai-passives-alpha",
+      "current_rank": 50,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Corning has a bull case through Fiber / materials exposure because Fiber, glass and interconnect materials remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 50 already reflects fiber, glass and interconnect materials; AI-adjacent with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 120.1% YTD rerating.",
+      "source_urls": [
+        "https://www.corning.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "NVTS",
+      "company": "Navitas Semiconductor",
+      "page": "ai-passives-alpha",
+      "current_rank": 51,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Navitas Semiconductor has a bull case through Power semis exposure because GaN/SiC power exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 51 already reflects gan/sic power exposure; tight-supply, underfollowed with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 284.4% YTD rerating.",
+      "source_urls": [
+        "https://navitassemi.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CARR",
+      "company": "Carrier Global",
+      "page": "ai-passives-alpha",
+      "current_rank": 52,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Carrier Global has a bull case through Cooling / HVAC exposure because Cooling and thermal management leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 52 already reflects cooling and thermal management leverage; tight-supply, AI-adjacent, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 26.9% YTD move.",
+      "source_urls": [
+        "https://www.corporate.carrier.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "company": "Vicor",
+      "page": "ai-passives-alpha",
+      "current_rank": 53,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Vicor has a bull case through Power delivery exposure because 48V-to-point-of-load power delivery for AI accelerators remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 53 already reflects 48v-to-point-of-load power delivery for ai accelerators; bottleneck, direct-AI, underfollowed, 2026-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 179.6% YTD rerating.",
+      "source_urls": [
+        "https://www.vicorpower.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2308",
+      "company": "Delta Electronics",
+      "page": "ai-passives-alpha",
+      "current_rank": 54,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Delta Electronics has a bull case through Power delivery / racks exposure because AI server power shelves and Rubin-era rack power remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 54 already reflects ai server power shelves and rubin-era rack power; bottleneck, direct-AI, underfollowed, near-term-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 146.7% YTD rerating.",
+      "source_urls": [
+        "https://www.deltaww.com/en-US/products/orv3-server-power/ORV3-33kW-Power-System",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ABBN",
+      "company": "ABB",
+      "page": "ai-passives-alpha",
+      "current_rank": 55,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: ABB has a bull case through Electrification exposure because Grid and electrification bottleneck exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 55 already reflects grid and electrification bottleneck exposure; bottleneck, AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 39.7% YTD move.",
+      "source_urls": [
+        "https://global.abb/group/en",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "010120",
+      "company": "LS ELECTRIC",
+      "page": "ai-passives-alpha",
+      "current_rank": 56,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: LS ELECTRIC has a bull case through Switchgear / automation exposure because Switchgear and electrical distribution exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 56 already reflects switchgear and electrical distribution exposure; bottleneck, AI-adjacent, underfollowed, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 145.2% YTD rerating.",
+      "source_urls": [
+        "https://www.ls-electric.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2327",
+      "company": "Yageo",
+      "page": "ai-passives-alpha",
+      "current_rank": 57,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Yageo has a bull case through Passives exposure because Resistors, current sense, MLCC and KO-CAP exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 57 already reflects resistors, current sense, mlcc and ko-cap exposure; bottleneck, direct-AI, underfollowed, 2026-catalyst, central-node with A evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 240.2% YTD rerating.",
+      "source_urls": [
+        "https://www.yageo.com/jp/Html/Index/ai",
+        "https://www.yageo.com/jp/PressRoom/Content/press_room?category=product_event&news_id=20241223",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html"
+      ]
+    },
+    {
+      "ticker": "AEIS",
+      "company": "Advanced Energy Industries",
+      "page": "ai-passives-alpha",
+      "current_rank": 58,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Advanced Energy Industries has a bull case through Power conversion exposure because Advanced power conversion and control leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 58 already reflects advanced power conversion and control leverage; tight-supply, AI-adjacent, hard-to-substitute with B+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 45.6% YTD move.",
+      "source_urls": [
+        "https://www.advancedenergy.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "NKT",
+      "company": "NKT",
+      "page": "ai-passives-alpha",
+      "current_rank": 59,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: NKT has a bull case through Cabling exposure because Underfollowed high-voltage cable exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 59 already reflects underfollowed high-voltage cable exposure; bottleneck, underfollowed, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 26.2% YTD move.",
+      "source_urls": [
+        "https://www.nkt.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "TTMI",
+      "company": "TTM Technologies",
+      "page": "ai-passives-alpha",
+      "current_rank": 60,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: TTM Technologies has a bull case through PCB / backplane exposure because Complex PCBs and backplanes for AI servers and networking remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 60 already reflects complex pcbs and backplanes for ai servers and networking; tight-supply, direct-AI, underfollowed, 2026-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 164.8% YTD rerating.",
+      "source_urls": [
+        "https://www.ttm.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CMI",
+      "company": "Cummins",
+      "page": "ai-passives-alpha",
+      "current_rank": 61,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Cummins has a bull case through Power generation exposure because Backup and onsite power for constrained builds remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 61 already reflects backup and onsite power for constrained builds; tight-supply, AI-adjacent, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 31.6% YTD move.",
+      "source_urls": [
+        "https://www.cummins.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6981",
+      "company": "Murata Manufacturing",
+      "page": "ai-passives-alpha",
+      "current_rank": 62,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Murata Manufacturing has a bull case through Passives exposure because MLCCs, inductors and filters for AI server power networks remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 62 already reflects mlccs, inductors and filters for ai server power networks; bottleneck, direct-AI, 2026-catalyst, central-node with A evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 212.9% YTD rerating.",
+      "source_urls": [
+        "https://www.murata.com/en-global/apps/enterprise/datacenter/server",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6981.T/"
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "company": "Coherent",
+      "page": "ai-passives-alpha",
+      "current_rank": 63,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Coherent has a bull case through Optics / photonics exposure because Optics and datacenter photonics for AI scale-out remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 63 already reflects optics and datacenter photonics for ai scale-out; direct-AI, 2026-catalyst, central-node with B evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 114.0% YTD rerating.",
+      "source_urls": [
+        "https://www.coherent.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "page": "ai-passives-alpha",
+      "current_rank": 64,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Lumentum has a bull case through Optics / photonics exposure because AI networking optics and datacom leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 64 already reflects ai networking optics and datacom leverage; direct-AI, underfollowed, 2026-catalyst, central-node with B evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 144.4% YTD rerating.",
+      "source_urls": [
+        "https://www.lumentum.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "RMBS",
+      "company": "Rambus",
+      "page": "ai-passives-alpha",
+      "current_rank": 65,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Rambus has a bull case through Memory interfaces exposure because Memory interface leverage for AI systems remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 65 already reflects memory interface leverage for ai systems; AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 71.1% YTD rerating.",
+      "source_urls": [
+        "https://www.rambus.com/",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "https://www.trendforce.com/presscenter/news/20251030-12762.html"
+      ]
+    },
+    {
+      "ticker": "NEX",
+      "company": "Nexans",
+      "page": "ai-passives-alpha",
+      "current_rank": 66,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Nexans has a bull case through Cabling exposure because Grid and data-center power cabling leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 66 already reflects grid and data-center power cabling leverage; bottleneck, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 24.9% YTD move.",
+      "source_urls": [
+        "https://www.nexans.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "company": "Caterpillar",
+      "page": "ai-passives-alpha",
+      "current_rank": 67,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Caterpillar has a bull case through Power generation exposure because Gensets and power equipment for data-center deployment remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 67 already reflects gensets and power equipment for data-center deployment; tight-supply, AI-adjacent, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 54.5% YTD rerating.",
+      "source_urls": [
+        "https://www.caterpillar.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "PSTG",
+      "company": "Pure Storage",
+      "page": "ai-passives-alpha",
+      "current_rank": 68,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Pure Storage has a bull case through Storage exposure because AI storage and data path leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 68 already reflects ai storage and data path leverage; AI-adjacent, 2026-catalyst with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a negative -1.8% YTD move.",
+      "source_urls": [
+        "https://www.purestorage.com/",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "https://www.trendforce.com/presscenter/news/20251030-12762.html"
+      ]
+    },
+    {
+      "ticker": "MTSI",
+      "company": "MACOM Technology Solutions",
+      "page": "ai-passives-alpha",
+      "current_rank": 69,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: MACOM Technology Solutions has a bull case through Networking analog / optical exposure because High-speed interconnect and optical components remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 69 already reflects high-speed interconnect and optical components; AI-adjacent, underfollowed, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 121.2% YTD rerating.",
+      "source_urls": [
+        "https://www.macom.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "PRY",
+      "company": "Prysmian",
+      "page": "ai-passives-alpha",
+      "current_rank": 70,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Prysmian has a bull case through Cabling exposure because Grid and interconnect cabling for power bottlenecks remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 70 already reflects grid and interconnect cabling for power bottlenecks; bottleneck, central-node with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 71.5% YTD rerating.",
+      "source_urls": [
+        "https://www.prysmian.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "company": "Generac",
+      "page": "ai-passives-alpha",
+      "current_rank": 71,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Generac has a bull case through Backup power exposure because Power resilience and backup power remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 71 already reflects power resilience and backup power; tight-supply, underfollowed with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 100.2% YTD rerating.",
+      "source_urls": [
+        "https://www.generac.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "FLEX",
+      "company": "Flex",
+      "page": "ai-passives-alpha",
+      "current_rank": 72,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Flex has a bull case through Power / manufacturing exposure because 800V rack power for NVIDIA Rubin AI infrastructure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 72 already reflects 800v rack power for nvidia rubin ai infrastructure; bottleneck, direct-AI, near-term-catalyst, central-node with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 157.5% YTD rerating.",
+      "source_urls": [
+        "https://flex.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "company": "Vertiv",
+      "page": "ai-passives-alpha",
+      "current_rank": 73,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Vertiv has a bull case through Facility power / cooling exposure because Liquid cooling and power infrastructure for AI factories remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 73 already reflects liquid cooling and power infrastructure for ai factories; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 89.7% YTD rerating.",
+      "source_urls": [
+        "https://www.vertiv.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "001820",
+      "company": "Samwha Capacitor",
+      "page": "ai-passives-alpha",
+      "current_rank": 74,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Samwha Capacitor has a bull case through Passives exposure because MLCC and passive exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 74 already reflects mlcc and passive exposure; tight-supply, AI-adjacent, underfollowed, central-node with A evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 257.2% YTD rerating.",
+      "source_urls": [
+        "https://www.samwha.com/electric/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/001820.KS/"
+      ]
+    },
+    {
+      "ticker": "FN",
+      "company": "Fabrinet",
+      "page": "ai-passives-alpha",
+      "current_rank": 75,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Fabrinet has a bull case through Optics manufacturing exposure because Optics manufacturing leverage for AI networking remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 75 already reflects optics manufacturing leverage for ai networking; AI-adjacent, 2026-catalyst, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 48.5% YTD move.",
+      "source_urls": [
+        "https://www.fabrinet.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "6976",
+      "company": "TAIYO YUDEN",
+      "page": "ai-passives-alpha",
+      "current_rank": 76,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: TAIYO YUDEN has a bull case through Passives exposure because Inductor and MLCC leverage with rising AI server density remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 76 already reflects inductor and mlcc leverage with rising ai server density; bottleneck, AI-adjacent, 2026-catalyst, central-node with A evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 356.0% YTD rerating.",
+      "source_urls": [
+        "https://www.yuden.co.jp/ut/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/6976.T/"
+      ]
+    },
+    {
+      "ticker": "6723",
+      "company": "Renesas Electronics",
+      "page": "ai-passives-alpha",
+      "current_rank": 77,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Renesas Electronics has a bull case through Embedded / power exposure because Power and embedded control leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 77 already reflects power and embedded control leverage; tight-supply, AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 116.8% YTD rerating.",
+      "source_urls": [
+        "https://www.renesas.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "TEL",
+      "company": "TE Connectivity",
+      "page": "ai-passives-alpha",
+      "current_rank": 78,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: TE Connectivity has a bull case through Connectivity exposure because High-reliability connectors and sensing remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 78 already reflects high-reliability connectors and sensing; AI-adjacent, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a negative -6.0% YTD move.",
+      "source_urls": [
+        "https://www.te.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "APH",
+      "company": "Amphenol",
+      "page": "ai-passives-alpha",
+      "current_rank": 79,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Amphenol has a bull case through Connectivity exposure because Interconnect backbone for dense AI racks remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 79 already reflects interconnect backbone for dense ai racks; tight-supply, direct-AI, 2026-catalyst, hard-to-substitute with B+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 6.5% YTD move.",
+      "source_urls": [
+        "https://www.amphenol.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 80,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Micron Technology has a bull case through Memory exposure because HBM and memory leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 80 already reflects hbm and memory leverage; direct-AI, central-node with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 236.6% YTD rerating.",
+      "source_urls": [
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "https://www.trendforce.com/presscenter/news/20251030-12762.html",
+        "https://finance.yahoo.com/quote/MU/"
+      ]
+    },
+    {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "page": "ai-passives-alpha",
+      "current_rank": 81,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Hewlett Packard Enterprise has a bull case through Servers / networking exposure because AI server and networking platform remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 81 already reflects ai server and networking platform; AI-adjacent with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 128.2% YTD rerating.",
+      "source_urls": [
+        "https://www.hpe.com/us/en/home.html",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "company": "Ciena",
+      "page": "ai-passives-alpha",
+      "current_rank": 82,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Ciena has a bull case through Transport networking exposure because Optical transport and backbone remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 82 already reflects optical transport and backbone;  with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 152.9% YTD rerating.",
+      "source_urls": [
+        "https://www.ciena.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "4062",
+      "company": "Ibiden",
+      "page": "ai-passives-alpha",
+      "current_rank": 83,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Ibiden has a bull case through Substrates / packaging exposure because High-end package substrate leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 83 already reflects high-end package substrate leverage; tight-supply, AI-adjacent, 2026-catalyst, central-node with B evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 206.5% YTD rerating.",
+      "source_urls": [
+        "https://www.ibiden.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2313",
+      "company": "Compeq Manufacturing",
+      "page": "ai-passives-alpha",
+      "current_rank": 84,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Compeq Manufacturing has a bull case through PCB exposure because AI server and networking PCB leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 84 already reflects ai server and networking pcb leverage; tight-supply, underfollowed, central-node with B evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 181.7% YTD rerating.",
+      "source_urls": [
+        "https://www.compeq.com.tw/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "4958",
+      "company": "Zhen Ding Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 85,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Zhen Ding Technology has a bull case through PCB / interconnect exposure because Advanced PCB/interconnect leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 85 already reflects advanced pcb/interconnect leverage; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node with B evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 263.0% YTD rerating.",
+      "source_urls": [
+        "https://www.zdtco.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "009150",
+      "company": "Samsung Electro-Mechanics",
+      "page": "ai-passives-alpha",
+      "current_rank": 86,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Samsung Electro-Mechanics has a bull case through Passives exposure because High-capacitance MLCC for AI server power modules remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 86 already reflects high-capacitance mlcc for ai server power modules; bottleneck, direct-AI, 2026-catalyst, central-node with A evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 571.5% YTD rerating.",
+      "source_urls": [
+        "https://www.samsungsem.com/",
+        "https://product.tdk.com/en/techlibrary/applicationnote/mlcc-solution-for-data-center-psu.html",
+        "https://finance.yahoo.com/quote/009150.KS/"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "company": "Dell Technologies",
+      "page": "ai-passives-alpha",
+      "current_rank": 87,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Dell Technologies has a bull case through Servers exposure because AI server beneficiary remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 87 already reflects ai server beneficiary; AI-adjacent with C+ evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 224.7% YTD rerating.",
+      "source_urls": [
+        "https://www.delltechnologies.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "company": "Astera Labs",
+      "page": "ai-passives-alpha",
+      "current_rank": 88,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Astera Labs has a bull case through AI connectivity exposure because PCIe/CXL fabric leverage in AI racks remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 88 already reflects pcie/cxl fabric leverage in ai racks; direct-AI, 2026-catalyst, central-node with C+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 100.7% YTD rerating.",
+      "source_urls": [
+        "https://www.asteralabs.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "page": "ai-passives-alpha",
+      "current_rank": 89,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Super Micro Computer has a bull case through Servers / racks exposure because direct AI server and rack integration remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 89 already reflects direct ai server and rack integration; tight-supply, direct-AI, central-node with B evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 49.9% YTD move.",
+      "source_urls": [
+        "https://www.supermicro.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "page": "ai-passives-alpha",
+      "current_rank": 90,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Western Digital has a bull case through Storage exposure because Data-center storage capacity proxy remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 90 already reflects data-center storage capacity proxy;  with C evidence and a partially rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 214.7% YTD rerating.",
+      "source_urls": [
+        "https://www.westerndigital.com/",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "https://www.trendforce.com/presscenter/news/20251030-12762.html"
+      ]
+    },
+    {
+      "ticker": "3037",
+      "company": "Unimicron",
+      "page": "ai-passives-alpha",
+      "current_rank": 91,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Unimicron has a bull case through PCB / substrates exposure because High-layer boards and substrate exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 91 already reflects high-layer boards and substrate exposure; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node with B evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 356.6% YTD rerating.",
+      "source_urls": [
+        "https://www.unimicron.com/",
+        "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "company": "Arista Networks",
+      "page": "ai-passives-alpha",
+      "current_rank": 92,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Arista Networks has a bull case through Networking exposure because AI cluster networking remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 92 already reflects ai cluster networking; direct-AI, 2026-catalyst, central-node with C+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 30.7% YTD move.",
+      "source_urls": [
+        "https://www.arista.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CLS",
+      "company": "Celestica",
+      "page": "ai-passives-alpha",
+      "current_rank": 93,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Celestica has a bull case through Networking / integration exposure because Helios rack-scale AI and 1.6T switch exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 93 already reflects helios rack-scale ai and 1.6t switch exposure; tight-supply, direct-AI, near-term-catalyst, central-node with A- evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 50.5% YTD rerating.",
+      "source_urls": [
+        "https://www.celestica.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "BE",
+      "company": "Bloom Energy",
+      "page": "ai-passives-alpha",
+      "current_rank": 94,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Bloom Energy has a bull case through Onsite power exposure because Onsite generation as grid bottleneck workaround remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 94 already reflects onsite generation as grid bottleneck workaround; bottleneck, AI-adjacent, underfollowed, central-node with C evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a sharp 190.5% YTD rerating.",
+      "source_urls": [
+        "https://www.bloomenergy.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "page": "ai-passives-alpha",
+      "current_rank": 95,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Broadcom has a bull case through Networking / custom silicon exposure because Scale-up networking and custom AI ASICs remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 95 already reflects scale-up networking and custom ai asics; direct-AI, 2026-catalyst, central-node with C+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 39.8% YTD move.",
+      "source_urls": [
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investors.broadcom.com/node/63976/pdf",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "PWR",
+      "company": "Quanta Services",
+      "page": "ai-passives-alpha",
+      "current_rank": 96,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Quanta Services has a bull case through Electrical construction exposure because Electrical transmission/substation buildout exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 96 already reflects electrical transmission/substation buildout exposure; tight-supply, AI-adjacent, central-node with C evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 63.4% YTD rerating.",
+      "source_urls": [
+        "https://www.quantaservices.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ENR",
+      "company": "Siemens Energy",
+      "page": "ai-passives-alpha",
+      "current_rank": 97,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Siemens Energy has a bull case through Power generation / grid exposure because Utility and power bottleneck exposure remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 97 already reflects utility and power bottleneck exposure; bottleneck, AI-adjacent, central-node with C+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 30.4% YTD move.",
+      "source_urls": [
+        "https://www.siemens-energy.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "EME",
+      "company": "EMCOR Group",
+      "page": "ai-passives-alpha",
+      "current_rank": 98,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: EMCOR Group has a bull case through Electrical / mechanical construction exposure because Data-center MEP deployment leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 98 already reflects data-center mep deployment leverage; tight-supply, AI-adjacent with C evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced with a modest-to-moderate 31.9% YTD move.",
+      "source_urls": [
+        "https://www.emcorgroup.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "FIX",
+      "company": "Comfort Systems USA",
+      "page": "ai-passives-alpha",
+      "current_rank": 99,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Comfort Systems USA has a bull case through Mechanical / HVAC exposure because Data-center mechanical and cooling construction leverage remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 99 already reflects data-center mechanical and cooling construction leverage; tight-supply, AI-adjacent with C evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a meaningful 92.8% YTD rerating.",
+      "source_urls": [
+        "https://www.comfortsystemsusa.com/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "page": "ai-passives-alpha",
+      "current_rank": 100,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: Marvell Technology has a bull case through Networking / custom silicon exposure because AI interconnect and custom silicon remains tied to AI data-center power, rack, or component constraints.",
+      "neutral_case": "2026-06-03: The neutral case is that rank 100 already reflects ai interconnect and custom silicon; direct-AI, 2026-catalyst, central-node with C+ evidence and a already rerated residual-upside label.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if the AI exposure proves less scarce, more cyclical, or already priced after a very large 245.9% YTD rerating.",
+      "source_urls": [
+        "https://www.marvell.com/",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "NYSE: WMT",
+      "company": "Walmart",
+      "page": "carbon-vs-silicon",
+      "current_rank": 8,
+      "rank_move": "up",
+      "bull_case": "2026-06-03: Walmart has a bull case in the Human / carbon-based consumption page because a broad proxy for recurring household spend, especially groceries, everyday goods, and pharmacy-led traffic.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 8 already balances scale retail, grocery, consumables, pharmacy against the headline fact, FY2026 revenue: $713B.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if low-margin retail; mix shifts and consumer trade-down can change profit capture even if basket demand stays firm and valuation pressure dominate with a modest-to-moderate 3.8% YTD move.",
+      "source_urls": [
+        "https://corporate.walmart.com/news/2026/02/19/walmart-raises-annual-dividend-to-0-99-per-share-marking-53rd-consecutive-year-of-dividend-increases",
+        "https://www.bea.gov/index.php/data/consumer-spending/main",
+        "https://finance.yahoo.com/quote/WMT/"
+      ]
+    },
+    {
+      "ticker": "NYSE: LLY",
+      "company": "Eli Lilly",
+      "page": "carbon-vs-silicon",
+      "current_rank": 7,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Eli Lilly has a bull case in the Human / carbon-based consumption page because direct proxy for one of the biggest current human-goods lines: pharmaceutical and medical-product consumption.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 7 already balances pharmaceuticals against the headline fact, FY2025 revenue: $65.2B.",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if concentration in a few blockbuster franchises and policy risk around drug pricing and valuation pressure dominate with a modest-to-moderate 0.6% YTD move.",
+      "source_urls": [
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+        "https://www.bea.gov/index.php/data/consumer-spending/main",
+        "https://finance.yahoo.com/quote/LLY/"
+      ]
+    },
+    {
+      "ticker": "SIX: NESN",
+      "company": "Nestl\u00e9",
+      "page": "carbon-vs-silicon",
+      "current_rank": 5,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Nestl\u00e9 has a bull case in the Human / carbon-based consumption page because a diversified way to express everyday food-and-beverage demand, with additional exposure to nutrition and pet categories.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 5 already balances packaged food, beverages, nutrition, pet care against the headline fact, 2025 sales: CHF 89.5B.",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if fx, coffee/cocoa costs, and slower discretionary food categories and valuation pressure dominate with a modest-to-moderate 1.1% YTD move.",
+      "source_urls": [
+        "https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2025",
+        "https://www.bea.gov/index.php/data/consumer-spending/main",
+        "https://finance.yahoo.com/quote/NESN.SW/"
+      ]
+    },
+    {
+      "ticker": "SIX: NOVN / NYSE: NVS",
+      "company": "Novartis",
+      "page": "carbon-vs-silicon",
+      "current_rank": 6,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Novartis has a bull case in the Human / carbon-based consumption page because Another direct proxy for the large and growing pharmaceutical component of the human consumption basket.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 6 already balances innovative pharmaceuticals against the headline fact, FY2025 net sales: $54.5B.",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if patent cliffs, pipeline execution, and reimbursement pressure and valuation pressure dominate with a modest-to-moderate 4.6% YTD move.",
+      "source_urls": [
+        "https://www.novartis.com/Investors/financial-data/Annual-results",
+        "https://www.bea.gov/index.php/data/consumer-spending/main",
+        "https://finance.yahoo.com/quote/NOVN.SW/"
+      ]
+    },
+    {
+      "ticker": "NASDAQ: NVDA",
+      "company": "NVIDIA",
+      "page": "carbon-vs-silicon",
+      "current_rank": 1,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: NVIDIA has a bull case in the Silicon / AI-cluster consumption page because The clearest listed proxy for the single largest silicon-basket bucket: high-end accelerators and AI-system demand.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 1 already balances accelerators, ai systems, networking against the headline fact, FY2026 revenue: $215.9B; Data Center: $193.7B.",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if customer concentration, export controls, and the pace of custom-asic substitution and valuation pressure dominate with a modest-to-moderate 14.2% YTD move.",
+      "source_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-Vera-Rubin-DSX-AI-Factory-Reference-Design-and-Omniverse-DSX-Digital-Twin-Blueprint-With-Broad-Industry-Support/default.aspx",
+        "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/"
+      ]
+    },
+    {
+      "ticker": "NASDAQ: AVGO",
+      "company": "Broadcom",
+      "page": "carbon-vs-silicon",
+      "current_rank": 2,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: Broadcom has a bull case in the Silicon / AI-cluster consumption page because Strong exposure to two fast-growing silicon needs at once: custom accelerators and AI networking/interconnect.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 2 already balances custom ai accelerators, ai networking, connectivity against the headline fact, Q1 FY2026 AI revenue: $8.4B (+106% YoY).",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if ai program concentration among a small number of hyperscale buyers and valuation pressure dominate with a modest-to-moderate 39.8% YTD move.",
+      "source_urls": [
+        "https://investors.broadcom.com/node/63976/pdf",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+        "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/"
+      ]
+    },
+    {
+      "ticker": "TWSE: 2330 / NYSE ADR: TSM",
+      "company": "TSMC",
+      "page": "carbon-vs-silicon",
+      "current_rank": 3,
+      "rank_move": "hold",
+      "bull_case": "2026-06-03: TSMC has a bull case in the Silicon / AI-cluster consumption page because a core manufacturing bottleneck for the compute-heavy side of the silicon basket, especially leading-edge AI chips.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 3 already balances leading-edge foundry against the headline fact, 2025 revenue: NT$3,809.05B; advanced nodes 77% of Q4 wafer revenue.",
+      "bear_case": "2026-06-03: The bear case is that the stock should hold its rank if geopolitics, capex intensity, and cyclicality outside ai and valuation pressure dominate after a meaningful 53.0% YTD rerating.",
+      "source_urls": [
+        "https://pr.tsmc.com/english/news/3281",
+        "https://pr.tsmc.com/english/news/3278",
+        "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/"
+      ]
+    },
+    {
+      "ticker": "KRX: 000660",
+      "company": "SK hynix",
+      "page": "carbon-vs-silicon",
+      "current_rank": 4,
+      "rank_move": "down",
+      "bull_case": "2026-06-03: SK hynix has a bull case in the Silicon / AI-cluster consumption page because direct exposure to the fastest-growing memory layer in the silicon basket: HBM attached to AI accelerators.",
+      "neutral_case": "2026-06-03: The neutral case is that the page's rank 4 already balances HBM and AI memory against the headline fact, FY2025 revenue: 97.1467T won.",
+      "bear_case": "2026-06-03: The bear case is that the rank case weakens if memory-price cyclicality and execution on next-generation hbm qualification and valuation pressure dominate after a very large 248.6% YTD rerating.",
+      "source_urls": [
+        "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+        "https://www.trendforce.com/presscenter/news/20251030-12762.html",
+        "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/"
+      ]
+    }
+  ]
+}

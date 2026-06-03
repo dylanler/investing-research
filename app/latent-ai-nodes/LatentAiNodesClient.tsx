@@ -20,6 +20,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   LatentAiNodesData,
   SourceEntry,
@@ -831,14 +832,15 @@ function NetworkMap({ data }: { data: LatentAiNodesData }) {
   const center = { x: 450, y: 305 };
   const themeRadius = 180;
   const companyRadius = 292;
+  const svgCoord = (value: number) => Number(value.toFixed(6));
 
   const themeNodes = networkThemes.map((theme, index) => {
     const angle = -Math.PI / 2 + (index / networkThemes.length) * Math.PI * 2;
     return {
       theme,
       angle,
-      x: center.x + Math.cos(angle) * themeRadius,
-      y: center.y + Math.sin(angle) * themeRadius,
+      x: svgCoord(center.x + Math.cos(angle) * themeRadius),
+      y: svgCoord(center.y + Math.sin(angle) * themeRadius),
       color: colorForTheme(theme.theme, data.themes),
     };
   });
@@ -850,8 +852,8 @@ function NetworkMap({ data }: { data: LatentAiNodesData }) {
       return {
         company,
         theme: themeNode.theme.theme,
-        x: center.x + Math.cos(angle) * companyRadius,
-        y: center.y + Math.sin(angle) * companyRadius,
+        x: svgCoord(center.x + Math.cos(angle) * companyRadius),
+        y: svgCoord(center.y + Math.sin(angle) * companyRadius),
         color: themeNode.color,
       };
     }),
@@ -1414,10 +1416,10 @@ function StrictExplorer({ data }: { data: LatentAiNodesData }) {
         Showing {formatCount(visibleRows.length)} of {formatCount(data.strictCompanies.length)} strict candidates
       </div>
       <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1260 }}>
-          <thead>
-            <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
-              {['Rank', 'Ticker', 'Company', 'Score', 'Price / cap', 'Bucket', 'Risk', 'Latent pathway', 'Current-chain screen', 'Overlap'].map((heading) => (
+	        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1380 }}>
+	          <thead>
+	            <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
+	              {['Rank', 'Ticker', 'Company', 'Score', 'Cases', 'Price / cap', 'Bucket', 'Risk', 'Latent pathway', 'Current-chain screen', 'Overlap'].map((heading) => (
                 <th key={heading} style={{ padding: '10px 12px', borderBottom: '1px solid var(--ink-100)' }}>
                   {heading}
                 </th>
@@ -1442,17 +1444,35 @@ function StrictExplorer({ data }: { data: LatentAiNodesData }) {
                       {company.country} / {company.region}
                     </div>
                   </td>
-                  <td style={{ padding: 12 }}>
-                    <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
-                      {formatScore(company.alphaScore)}
+	                  <td style={{ padding: 12 }}>
+	                    <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
+	                      {formatScore(company.alphaScore)}
                     </span>
                     {company.priceReratingPenaltyScore && company.priceReratingPenaltyScore > 0 ? (
                       <div style={{ color: COLORS.rose, fontSize: '0.72rem', marginTop: 5 }}>
                         -{formatScore(company.priceReratingPenaltyScore)} rerate
                       </div>
-                    ) : null}
-                  </td>
-                  <td style={{ padding: 12, minWidth: 118 }}>
+	                    ) : null}
+	                  </td>
+	                  <td style={{ padding: 12 }}>
+	                    <StockCaseHover
+	                      page="latent-ai-nodes"
+	                      company={company.company}
+	                      ticker={company.ticker}
+	                      thesis={company.latentAiPathway}
+	                      bull={company.latentAiPathway}
+	                      neutral={company.valuationNote || company.currentAiSupplyChainScreen}
+	                      bear={`${company.currentAiChainRisk} current-chain risk. ${company.currentAiSupplyChainScreen}`}
+	                      category={company.bucket}
+	                      score={company.alphaScore.toFixed(1)}
+	                      rank={company.strictGlobalRank}
+	                      price={formatPrice(company.latestPrice, company.latestCurrency)}
+	                      marketCap={formatMarketCap(company.latestMarketCapUsdB)}
+	                      ytd={formatPercent(company.latestYtdReturnPct)}
+	                      sources={company.sourceUrl ? [{ label: 'Company source', url: company.sourceUrl }] : data.strictSources.slice(0, 3).map((source) => ({ label: source.title, url: source.url }))}
+	                    />
+	                  </td>
+	                  <td style={{ padding: 12, minWidth: 118 }}>
                     <div style={{ color: 'var(--ink-950)', fontSize: '0.8rem', fontFamily: 'monospace', fontWeight: 850 }}>
                       {formatPrice(company.latestPrice, company.latestCurrency)}
                     </div>
@@ -2015,10 +2035,10 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
             Showing {formatCount(visibleRows.length)} of {formatCount(data.companies.length)} companies
           </div>
           <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1320 }}>
-              <thead>
-                <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
-                  {['Rank', 'Ticker', 'Company', 'Score', 'Price / cap', 'Theme', 'Latent AI asset', 'Thesis', 'Catalysts / risks', 'Sources'].map((heading) => (
+	            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1440 }}>
+	              <thead>
+	                <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
+	                  {['Rank', 'Ticker', 'Company', 'Score', 'Cases', 'Price / cap', 'Theme', 'Latent AI asset', 'Thesis', 'Catalysts / risks', 'Sources'].map((heading) => (
                     <th key={heading} style={{ padding: '10px 12px', borderBottom: '1px solid var(--ink-100)' }}>
                       {heading}
                     </th>
@@ -2043,9 +2063,9 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
                           {company.country} / {company.region}
                         </div>
                       </td>
-                      <td style={{ padding: 12 }}>
-                        <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
-                          {formatScore(company.alphaScore)}
+	                      <td style={{ padding: 12 }}>
+	                        <span style={{ ...badgeStyle(color), borderRadius: 8, padding: '5px 7px', fontWeight: 850 }}>
+	                          {formatScore(company.alphaScore)}
                         </span>
                         <div style={{ color: 'var(--ink-500)', fontSize: '0.72rem', marginTop: 5 }}>
                           {company.conviction}
@@ -2054,9 +2074,31 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
                           <div style={{ color: COLORS.rose, fontSize: '0.72rem', marginTop: 3 }}>
                             -{formatScore(company.priceReratingPenaltyScore)} rerate
                           </div>
-                        ) : null}
-                      </td>
-                      <td style={{ padding: 12, minWidth: 118 }}>
+	                        ) : null}
+	                      </td>
+	                      <td style={{ padding: 12 }}>
+	                        <StockCaseHover
+	                          page="latent-ai-nodes"
+	                          company={company.company}
+	                          ticker={company.ticker}
+	                          thesis={company.thesis}
+	                          bull={company.catalysts || company.thesis}
+	                          neutral={company.latentAiAsset}
+	                          bear={company.risks}
+	                          category={company.theme}
+	                          score={company.alphaScore.toFixed(1)}
+	                          rank={company.globalRank}
+	                          price={formatPrice(company.latestPrice, company.latestCurrency)}
+	                          marketCap={formatMarketCap(company.latestMarketCapUsdB)}
+	                          ytd={formatPercent(company.latestYtdReturnPct)}
+	                          sources={company.sourceKeys
+	                            .map((key) => sourceByKey(data.sources, key))
+	                            .filter((source): source is SourceEntry => Boolean(source))
+	                            .slice(0, 4)
+	                            .map((source) => ({ label: source.title, url: source.url }))}
+	                        />
+	                      </td>
+	                      <td style={{ padding: 12, minWidth: 118 }}>
                         <div style={{ color: 'var(--ink-950)', fontSize: '0.8rem', fontFamily: 'monospace', fontWeight: 850 }}>
                           {formatPrice(company.latestPrice, company.latestCurrency)}
                         </div>

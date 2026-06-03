@@ -6,6 +6,7 @@ import SectionWrapper from '../ui/SectionWrapper';
 import SectionTitle from '../ui/SectionTitle';
 import { beneficiaryData } from '@/data/beneficiaries';
 import { publicMarketSnapshot, publicMarketSnapshotAsOf } from '@/data/marketSnapshot';
+import StockCaseHover from '@/components/research/StockCaseHover';
 
 function exchangeFromTicker(ticker: string): string {
   if (ticker.endsWith('.T')) return 'TSE';
@@ -164,8 +165,8 @@ export default function BeneficiaryTables() {
                             >
                               {company.name}
                             </span>
-                            {company.ticker && (
-                              <span
+	                            {company.ticker && (
+	                              <span
                                 style={{
                                   padding: '1px 6px',
                                   borderRadius: 3,
@@ -191,9 +192,21 @@ export default function BeneficiaryTables() {
                                 }}
                               >
                                 {exchangeFromTicker(company.ticker)}
-                              </span>
-                            )}
-                          </div>
+	                              </span>
+	                            )}
+	                            {company.ticker && (
+	                              <StockCaseHover
+	                                page="bottleneck"
+	                                company={company.name}
+	                                ticker={company.ticker}
+	                                thesis={company.why}
+	                                bull={company.why}
+	                                category={category.name}
+	                                price={marketData?.price}
+	                                marketCap={displayMarketCap}
+	                              />
+	                            )}
+	                          </div>
                           <p
                             style={{
                               fontSize: 'var(--text-sm)',

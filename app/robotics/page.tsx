@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import {
   crowdAudit,
   humanoidAlphaCompanies,
@@ -16,10 +17,11 @@ import {
   thesisPillars,
   updatedLabel,
   type AlphaTier,
-  type HumanoidAlphaCompany,
-  type KoidHolding,
-  type StackCategory,
-} from '@/data/robotics';
+	  type HumanoidAlphaCompany,
+	  type KoidHolding,
+	  type SourceLink,
+	  type StackCategory,
+	} from '@/data/robotics';
 
 type CategoryFilter = StackCategory | 'All';
 type TableMode = 'ranked' | 'koid' | 'crowd' | 'private' | 'sources';
@@ -90,6 +92,13 @@ function formatYtd(value: number | null) {
   return `${value >= 0 ? '+' : ''}${value.toFixed(1)}%`;
 }
 
+function sourceUrls(ids: string[] = []) {
+  const selected = ids
+    .map((id) => sourceLinks.find((source) => source.id === id))
+    .filter((source): source is SourceLink => Boolean(source));
+  return (selected.length ? selected : sourceLinks.slice(0, 4)).map((source) => ({ label: source.label, url: source.url }));
+}
+
 function tierColor(tier: AlphaTier) {
   if (tier === 'Core alpha') return 'var(--accent)';
   if (tier === 'Watchlist') return 'var(--success)';
@@ -135,11 +144,27 @@ function AlphaScoreCard({ company }: { company: HumanoidAlphaCompany }) {
         <div>
           <div style={{ fontSize: 'var(--text-xs)', color: categoryColors[company.category], fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em' }}>{company.category}</div>
           <h3 className="font-display" style={{ fontSize: 'var(--text-2xl)', lineHeight: 1.05, margin: '8px 0 4px', color: 'var(--ink-950)' }}>{company.company}</h3>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-            <span style={{ fontFamily: 'monospace', color: 'var(--accent)', fontWeight: 800 }}>{company.ticker}</span>
-            <span style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{company.exchange}</span>
-          </div>
-        </div>
+	          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+	            <span style={{ fontFamily: 'monospace', color: 'var(--accent)', fontWeight: 800 }}>{company.ticker}</span>
+	            <span style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)' }}>{company.exchange}</span>
+	            <StockCaseHover
+	              page="robotics"
+	              company={company.company}
+	              ticker={company.ticker}
+	              thesis={company.thesis}
+	              bull={company.whyNow}
+	              neutral={company.thesis}
+	              bear={company.risks}
+	              category={company.category}
+	              score={company.alpha}
+	              rank={company.rank}
+	              price={formatPrice(company.price, company.currency)}
+	              marketCap={formatCap(company.marketCapUsd)}
+	              ytd={formatYtd(company.ytdReturnPct)}
+	              sources={sourceUrls(company.sourceIds)}
+	            />
+	          </div>
+	        </div>
         <div style={{ textAlign: 'right' }}>
           <div className="font-display" style={{ fontSize: 'var(--text-4xl)', color: tierColor(company.tier), fontWeight: 900 }}>{company.alpha}</div>
           <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>alpha score</div>
@@ -381,8 +406,22 @@ function KoidMobileCards({ holdings }: { holdings: KoidHolding[] }) {
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', marginTop: 'var(--space-md)' }}>
             <span style={{ color: (holding.ytdReturnPct ?? 0) > 60 ? 'var(--danger)' : (holding.ytdReturnPct ?? 0) < 0 ? 'var(--success)' : 'var(--ink-600)', fontFamily: 'monospace', fontWeight: 900 }}>{formatYtd(holding.ytdReturnPct)} YTD</span>
-            <StatusBadge status={holding.decision} />
-          </div>
+	            <StatusBadge status={holding.decision} />
+	            <StockCaseHover
+	              page="robotics"
+	              company={holding.company}
+	              ticker={holding.yahooSymbol}
+	              thesis={holding.note}
+	              neutral={holding.note}
+	              category={holding.category}
+	              score={holding.alpha}
+	              rank={holding.fundRank}
+	              price={formatPrice(holding.price, holding.currency)}
+	              marketCap={formatCap(holding.marketCapUsd)}
+	              ytd={formatYtd(holding.ytdReturnPct)}
+	              sources={sourceLinks.slice(0, 4).map((source) => ({ label: source.label, url: source.url }))}
+	            />
+	          </div>
           <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.5, margin: 'var(--space-md) 0 0' }}>{holding.note}</p>
         </article>
       ))}
@@ -720,7 +759,7 @@ export default function RoboticsPage() {
                   <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1180 }}>
                     <thead>
                       <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
-                        {['Rank', 'Company', 'Role', 'Price / Cap', 'YTD', 'Tier', 'Crowd', 'Alpha'].map((heading) => (
+	                        {['Rank', 'Company', 'Role', 'Price / Cap', 'YTD', 'Tier', 'Crowd', 'Alpha', 'Cases'].map((heading) => (
                           <th key={heading} style={{ padding: '10px 12px', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', borderBottom: '1px solid var(--ink-100)' }}>{heading}</th>
                         ))}
                       </tr>
@@ -744,10 +783,28 @@ export default function RoboticsPage() {
                           <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: (company.ytdReturnPct ?? 0) > 75 ? 'var(--danger)' : (company.ytdReturnPct ?? 0) < 0 ? 'var(--success)' : 'var(--ink-600)', fontWeight: 900 }}>{formatYtd(company.ytdReturnPct)}</td>
                           <td style={{ padding: '12px' }}><StatusBadge status={company.tier} /></td>
                           <td style={{ padding: '12px', textAlign: 'center', fontFamily: 'monospace', color: 'var(--ink-700)', fontWeight: 800 }}>{company.crowdMentions}</td>
-                          <td style={{ padding: '12px', textAlign: 'right' }}>
-                            <span className="font-display" style={{ color: tierColor(company.tier), fontSize: 'var(--text-xl)', fontWeight: 900 }}>{company.alpha}</span>
-                          </td>
-                        </tr>
+	                          <td style={{ padding: '12px', textAlign: 'right' }}>
+	                            <span className="font-display" style={{ color: tierColor(company.tier), fontSize: 'var(--text-xl)', fontWeight: 900 }}>{company.alpha}</span>
+	                          </td>
+	                          <td style={{ padding: '12px' }}>
+	                            <StockCaseHover
+	                              page="robotics"
+	                              company={company.company}
+	                              ticker={company.ticker}
+	                              thesis={company.thesis}
+	                              bull={company.whyNow}
+	                              neutral={company.thesis}
+	                              bear={company.risks}
+	                              category={company.category}
+	                              score={company.alpha}
+	                              rank={company.rank}
+	                              price={formatPrice(company.price, company.currency)}
+	                              marketCap={formatCap(company.marketCapUsd)}
+	                              ytd={formatYtd(company.ytdReturnPct)}
+	                              sources={sourceUrls(company.sourceIds)}
+	                            />
+	                          </td>
+	                        </tr>
                       ))}
                     </tbody>
                   </table>
@@ -762,7 +819,7 @@ export default function RoboticsPage() {
                   <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1260 }}>
                     <thead>
                       <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
-                        {['KOID Rank', 'Holding', 'KOID Weight', 'Price / Cap', 'YTD', 'Purity', 'Decision', 'Alpha', 'Read-through'].map((heading) => (
+	                        {['KOID Rank', 'Holding', 'KOID Weight', 'Price / Cap', 'YTD', 'Purity', 'Decision', 'Alpha', 'Cases', 'Read-through'].map((heading) => (
                           <th key={heading} style={{ padding: '10px 12px', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', borderBottom: '1px solid var(--ink-100)' }}>{heading}</th>
                         ))}
                       </tr>
@@ -789,10 +846,26 @@ export default function RoboticsPage() {
                           <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: (holding.ytdReturnPct ?? 0) > 60 ? 'var(--danger)' : (holding.ytdReturnPct ?? 0) < 0 ? 'var(--success)' : 'var(--ink-600)', fontWeight: 900 }}>{formatYtd(holding.ytdReturnPct)}</td>
                           <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>{holding.purity}</td>
                           <td style={{ padding: '12px' }}><StatusBadge status={holding.decision} /></td>
-                          <td style={{ padding: '12px', textAlign: 'right' }}>
-                            <span className="font-display" style={{ color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-600)', fontSize: 'var(--text-xl)', fontWeight: 900 }}>{holding.alpha}</span>
-                          </td>
-                          <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.45, minWidth: 300 }}>{holding.note}</td>
+	                          <td style={{ padding: '12px', textAlign: 'right' }}>
+	                            <span className="font-display" style={{ color: holding.decision === 'Alpha candidate' ? 'var(--accent)' : 'var(--ink-600)', fontSize: 'var(--text-xl)', fontWeight: 900 }}>{holding.alpha}</span>
+	                          </td>
+	                          <td style={{ padding: '12px' }}>
+	                            <StockCaseHover
+	                              page="robotics"
+	                              company={holding.company}
+	                              ticker={holding.yahooSymbol}
+	                              thesis={holding.note}
+	                              neutral={holding.note}
+	                              category={holding.category}
+	                              score={holding.alpha}
+	                              rank={holding.fundRank}
+	                              price={formatPrice(holding.price, holding.currency)}
+	                              marketCap={formatCap(holding.marketCapUsd)}
+	                              ytd={formatYtd(holding.ytdReturnPct)}
+	                              sources={sourceLinks.slice(0, 4).map((source) => ({ label: source.label, url: source.url }))}
+	                            />
+	                          </td>
+	                          <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.45, minWidth: 300 }}>{holding.note}</td>
                         </tr>
                       ))}
                     </tbody>

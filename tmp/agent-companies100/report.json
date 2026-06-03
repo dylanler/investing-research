@@ -1,0 +1,2894 @@
+{
+  "generatedAt": "2026-06-03T16:58:19.684Z",
+  "asOf": "2026-06-03",
+  "scope": {
+    "repository": "/Users/dylan/learning-projects/game-theory-research/ai-compute-bottleneck",
+    "dataFile": "data/companies100.ts",
+    "uiFile": "app/companies/page.tsx",
+    "restriction": "Scratch artifact only; no canonical data or UI files edited."
+  },
+  "methodology": {
+    "rankMoveScale": [
+      "up",
+      "down",
+      "hold"
+    ],
+    "rankMoveBasis": "Compared existing currentAlphaRank against 2026-06-02 YTD rerating, market-cap consensus risk, role directness, and current official/primary AI-infrastructure evidence available on 2026-06-03.",
+    "sourcePreference": "Company IR/news and filings first, then official exchange/company pages, then primary ecosystem sources such as IEA, NVIDIA, TSMC, Micron, Cadence, Murata, and Equinix."
+  },
+  "uiHoverFieldsNeeded": [
+    {
+      "field": "rankMove",
+      "purpose": "Show an up/down/hold badge or arrow beside current alpha rank in table and scatter hovers."
+    },
+    {
+      "field": "rankMoveRationale",
+      "purpose": "One-line explanation for the rank badge without opening the expanded row."
+    },
+    {
+      "field": "caseDate",
+      "purpose": "Display freshness of the bull/neutral/bear audit."
+    },
+    {
+      "field": "bullCase",
+      "purpose": "Bull thesis shown in hover or compact popover."
+    },
+    {
+      "field": "neutralCase",
+      "purpose": "Neutral/base-case thesis shown in hover or compact popover."
+    },
+    {
+      "field": "bearCase",
+      "purpose": "Bear thesis shown in hover or compact popover."
+    },
+    {
+      "field": "primaryCatalyst",
+      "purpose": "Concise catalyst text for hover summary."
+    },
+    {
+      "field": "primaryRisk",
+      "purpose": "Concise risk text for hover summary."
+    },
+    {
+      "field": "evidenceTags",
+      "purpose": "Short tags to keep hover scannable."
+    },
+    {
+      "field": "sourceUrls",
+      "purpose": "One to three source links for hover footnotes or expanded detail."
+    }
+  ],
+  "summary": {
+    "totalCompanies": 100,
+    "rankMoveCounts": {
+      "hold": 48,
+      "up": 13,
+      "down": 39
+    },
+    "highestPriorityMoveUps": [
+      "TEL",
+      "MRK",
+      "GDS",
+      "AI",
+      "NXT",
+      "LIN",
+      "TSM",
+      "PSTG",
+      "SNPS",
+      "DLR",
+      "EQIX",
+      "MU",
+      "000660"
+    ],
+    "highestPriorityMoveDowns": [
+      "VRT",
+      "KLIC",
+      "4062",
+      "SMCI",
+      "5802",
+      "ATS",
+      "6762",
+      "2308",
+      "8046",
+      "3189",
+      "GFS",
+      "LITE",
+      "002281",
+      "3037",
+      "ON",
+      "CIEN",
+      "6754",
+      "UMC",
+      "CLS",
+      "IFX",
+      "6963",
+      "MTSI",
+      "600487",
+      "AAOI",
+      "5801",
+      "STM",
+      "NVDA",
+      "6981",
+      "WOLF",
+      "VSH",
+      "6869",
+      "FLEX",
+      "2327",
+      "MXL",
+      "MRVL",
+      "ARM",
+      "SIMO",
+      "WDC",
+      "STX"
+    ]
+  },
+  "companies": [
+    {
+      "ticker": "MTRS",
+      "company": "Munters",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 1,
+      "currentAlphaScore": 92,
+      "bucket": "Power, cooling & electrical",
+      "role": "Cooling and air treatment",
+      "ytdReturn": 6.36,
+      "marketCapUsd": 3661564062.09,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Munters can outperform through cooling and air treatment if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Munters can justify a hold if AI demand stays healthy while cooling and air treatment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Munters should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.munters.com/en-gb/investors/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "LR",
+      "company": "Legrand",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 2,
+      "currentAlphaScore": 85,
+      "bucket": "Power, cooling & electrical",
+      "role": "Electrical distribution and cabling",
+      "ytdReturn": 14.95,
+      "marketCapUsd": 44561777680.38,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Legrand can outperform through electrical distribution and cabling if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Legrand can justify a hold if AI demand stays healthy while electrical distribution and cabling pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Legrand should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.legrand.com/en/investors-and-shareholders",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "TT",
+      "company": "Trane Technologies",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 3,
+      "currentAlphaScore": 85,
+      "bucket": "Power, cooling & electrical",
+      "role": "HVAC and thermal systems",
+      "ytdReturn": 17.07,
+      "marketCapUsd": 99137000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Trane Technologies can outperform through hVAC and thermal systems if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Trane Technologies can justify a hold if AI demand stays healthy while hVAC and thermal systems pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Trane Technologies should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://investors.tranetechnologies.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=TT&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "6367",
+      "company": "Daikin Industries",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 4,
+      "currentAlphaScore": 85,
+      "bucket": "Power, cooling & electrical",
+      "role": "HVAC and thermal systems",
+      "ytdReturn": 17.51,
+      "marketCapUsd": 42903053207.67,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Daikin Industries can outperform through hVAC and thermal systems if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Daikin Industries can justify a hold if AI demand stays healthy while hVAC and thermal systems pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Daikin Industries should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.daikin.com/investor/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "CAMT",
+      "company": "Camtek",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 5,
+      "currentAlphaScore": 84,
+      "bucket": "Advanced packaging & substrates",
+      "role": "Inspection/metrology for advanced packaging",
+      "ytdReturn": 57.6,
+      "marketCapUsd": 8045000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Camtek can outperform through inspection/metrology for advanced packaging if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Camtek can justify a hold if AI demand stays healthy while inspection/metrology for advanced packaging pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Camtek should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.camtek.com/investors/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CAMT&owner=exclude&action=getcompany",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "3044",
+      "company": "Tripod Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 6,
+      "currentAlphaScore": 84,
+      "bucket": "Advanced packaging & substrates",
+      "role": "HDI PCBs and boards",
+      "ytdReturn": 63.2,
+      "marketCapUsd": 8657992274.4,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Tripod Technology can outperform through hDI PCBs and boards if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Tripod Technology can justify a hold if AI demand stays healthy while hDI PCBs and boards pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Tripod Technology should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.tripod.com.tw/",
+        "https://www.twse.com.tw/pdf/en/3044_en.pdf",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "JCI",
+      "company": "Johnson Controls",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 7,
+      "currentAlphaScore": 82,
+      "bucket": "Power, cooling & electrical",
+      "role": "Building controls and cooling",
+      "ytdReturn": 20.32,
+      "marketCapUsd": 89696000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Johnson Controls can outperform through building controls and cooling if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Johnson Controls can justify a hold if AI demand stays healthy while building controls and cooling pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Johnson Controls should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://investors.johnsoncontrols.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=JCI&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "CARR",
+      "company": "Carrier Global",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 8,
+      "currentAlphaScore": 82,
+      "bucket": "Power, cooling & electrical",
+      "role": "HVAC and thermal systems",
+      "ytdReturn": 26.94,
+      "marketCapUsd": 53581000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Carrier Global can outperform through hVAC and thermal systems if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Carrier Global can justify a hold if AI demand stays healthy while hVAC and thermal systems pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Carrier Global should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://ir.carrier.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CARR&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "company": "Amkor Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 9,
+      "currentAlphaScore": 81,
+      "bucket": "Advanced packaging & substrates",
+      "role": "OSAT and packaging",
+      "ytdReturn": 77.05,
+      "marketCapUsd": 18779000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Amkor Technology can outperform through oSAT and packaging if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Amkor Technology can justify a hold if AI demand stays healthy while oSAT and packaging pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Amkor Technology should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://ir.amkor.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMKR&owner=exclude&action=getcompany",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "NVT",
+      "company": "nVent Electric",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 10,
+      "currentAlphaScore": 79,
+      "bucket": "Power, cooling & electrical",
+      "role": "Electrical enclosures, busway, and thermal",
+      "ytdReturn": 62.4,
+      "marketCapUsd": 26663000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: nVent Electric can outperform through electrical enclosures, busway, and thermal if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: nVent Electric can justify a hold if AI demand stays healthy while electrical enclosures, busway, and thermal pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: nVent Electric should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://investors.nvent.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=NVT&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "SIE",
+      "company": "Siemens",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 11,
+      "currentAlphaScore": 78,
+      "bucket": "Power, cooling & electrical",
+      "role": "Electrical and industrial systems",
+      "ytdReturn": 14.06,
+      "marketCapUsd": 241256691535.11,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Siemens can outperform through electrical and industrial systems if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Siemens can justify a hold if AI demand stays healthy while electrical and industrial systems pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Siemens should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.siemens.com/global/en/company/investor-relations.html",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "SU",
+      "company": "Schneider Electric",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 12,
+      "currentAlphaScore": 78,
+      "bucket": "Power, cooling & electrical",
+      "role": "Electrical infrastructure and data-center gear",
+      "ytdReturn": 19.57,
+      "marketCapUsd": 180283859198.47,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Schneider Electric can outperform through electrical infrastructure and data-center gear if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Schneider Electric can justify a hold if AI demand stays healthy while electrical infrastructure and data-center gear pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Schneider Electric should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.se.com/ww/en/about-us/investor-relations/",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "TEL",
+      "company": "TE Connectivity",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 13,
+      "currentAlphaScore": 75.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "High-speed connectors and interconnects",
+      "ytdReturn": -6.02,
+      "marketCapUsd": 63906000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: TE Connectivity can outperform through high-speed connectors and interconnects if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: TE Connectivity can justify a hold if AI demand stays healthy while high-speed connectors and interconnects pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: TE Connectivity should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investors.te.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=TEL&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "company": "Eaton",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 14,
+      "currentAlphaScore": 75,
+      "bucket": "Power, cooling & electrical",
+      "role": "Power distribution and protection",
+      "ytdReturn": 28.08,
+      "marketCapUsd": 162698000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Eaton can outperform through power distribution and protection if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Eaton can justify a hold if AI demand stays healthy while power distribution and protection pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Eaton should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://www.eaton.com/us/en-us/company/investor-relations.html",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ETN&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "FN",
+      "company": "Fabrinet",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 15,
+      "currentAlphaScore": 74.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical manufacturing and assembly",
+      "ytdReturn": 48.54,
+      "marketCapUsd": 25219000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Fabrinet can outperform through optical manufacturing and assembly if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Fabrinet can justify a hold if AI demand stays healthy while optical manufacturing and assembly pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Fabrinet should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.fabrinet.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=FN&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "company": "Vertiv",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 16,
+      "currentAlphaScore": 73,
+      "bucket": "Power, cooling & electrical",
+      "role": "Power and cooling systems",
+      "ytdReturn": 89.7,
+      "marketCapUsd": 124217000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Vertiv remains a direct AI-infrastructure beneficiary if high-density racks keep pulling forward power and thermal deployments.",
+      "neutralCase": "2026-06-03: Vertiv can hold if backlog converts cleanly but 2026 rerating leaves less room for multiple expansion.",
+      "bearCase": "2026-06-03: Vertiv should move down if pricing and lead times normalize after the stock's large AI-infrastructure rerating.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://investors.vertiv.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=VRT&owner=exclude&action=getcompany",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "ABBN",
+      "company": "ABB",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 17,
+      "currentAlphaScore": 72,
+      "bucket": "Power, cooling & electrical",
+      "role": "Electrical systems and automation",
+      "ytdReturn": 39.71,
+      "marketCapUsd": 197272919332.52,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: ABB can outperform through electrical systems and automation if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: ABB can justify a hold if AI demand stays healthy while electrical systems and automation pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: ABB should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://global.abb/group/en/investors",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 18,
+      "currentAlphaScore": 70.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "High-speed connectivity and DSP",
+      "ytdReturn": 46.04,
+      "marketCapUsd": 41786000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Credo Technology can outperform through high-speed connectivity and DSP if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Credo Technology can justify a hold if AI demand stays healthy while high-speed connectivity and DSP pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Credo Technology should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investors.credosemi.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CRDO&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASE Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 19,
+      "currentAlphaScore": 70,
+      "bucket": "Advanced packaging & substrates",
+      "role": "OSAT and advanced packaging",
+      "ytdReturn": 135.47,
+      "marketCapUsd": 83743000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: ASE Technology can outperform through oSAT and advanced packaging if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: ASE Technology can justify a hold if AI demand stays healthy while oSAT and advanced packaging pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: ASE Technology should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.aseglobal.com/",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "MRK",
+      "company": "Merck KGaA",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 20,
+      "currentAlphaScore": 68.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Semiconductor materials",
+      "ytdReturn": 10.06,
+      "marketCapUsd": 67335684300,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Merck KGaA can outperform through semiconductor materials if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Merck KGaA can justify a hold if AI demand stays healthy while semiconductor materials pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Merck KGaA should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.merckgroup.com/en/investors.html",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "GDS",
+      "company": "GDS Holdings",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 21,
+      "currentAlphaScore": 67.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Data-center operator",
+      "ytdReturn": -9.19,
+      "marketCapUsd": 7346000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: GDS Holdings can outperform through data-center operator if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: GDS Holdings can justify a hold if AI demand stays healthy while data-center operator pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: GDS Holdings should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://ir.gds-services.com/",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "APH",
+      "company": "Amphenol",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 22,
+      "currentAlphaScore": 66.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Interconnects and cabling",
+      "ytdReturn": 6.5,
+      "marketCapUsd": 183053000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Amphenol can outperform through interconnects and cabling if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Amphenol can justify a hold if AI demand stays healthy while interconnects and cabling pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Amphenol should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.amphenol.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=APH&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "AI",
+      "company": "Air Liquide",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 23,
+      "currentAlphaScore": 66.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Industrial gases for semiconductor fabs",
+      "ytdReturn": 13.14,
+      "marketCapUsd": 120144596400,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Air Liquide can outperform through industrial gases for semiconductor fabs if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Air Liquide can justify a hold if AI demand stays healthy while industrial gases for semiconductor fabs pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Air Liquide should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.airliquide.com/investors",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "NVMI",
+      "company": "Nova",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 24,
+      "currentAlphaScore": 65.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Metrology for semiconductor manufacturing",
+      "ytdReturn": 51.74,
+      "marketCapUsd": 16770000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Nova can outperform through metrology for semiconductor manufacturing if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Nova can justify a hold if AI demand stays healthy while metrology for semiconductor manufacturing pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Nova should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.novami.com/investors/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=NVMI&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "ENTG",
+      "company": "Entegris",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 25,
+      "currentAlphaScore": 65.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Materials and contamination control",
+      "ytdReturn": 57.24,
+      "marketCapUsd": 21084000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Entegris can outperform through materials and contamination control if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Entegris can justify a hold if AI demand stays healthy while materials and contamination control pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Entegris should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investors.entegris.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ENTG&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "ONTO",
+      "company": "Onto Innovation",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 26,
+      "currentAlphaScore": 65.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Metrology and inspection",
+      "ytdReturn": 68.38,
+      "marketCapUsd": 13854000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Onto Innovation can outperform through metrology and inspection if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Onto Innovation can justify a hold if AI demand stays healthy while metrology and inspection pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Onto Innovation should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investors.ontoinnovation.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ONTO&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "4004",
+      "company": "Resonac Holdings",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 27,
+      "currentAlphaScore": 64,
+      "bucket": "Advanced packaging & substrates",
+      "role": "Packaging materials and chemicals",
+      "ytdReturn": 177,
+      "marketCapUsd": 20001394044.34,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Resonac Holdings can outperform through packaging materials and chemicals if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Resonac Holdings can justify a hold if AI demand stays healthy while packaging materials and chemicals pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Resonac Holdings should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.resonac.com/ir",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "6857",
+      "company": "Advantest",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 28,
+      "currentAlphaScore": 63.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Semiconductor test equipment",
+      "ytdReturn": 30.63,
+      "marketCapUsd": 118371401589.17,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Advantest can outperform through semiconductor test equipment if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Advantest can justify a hold if AI demand stays healthy while semiconductor test equipment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Advantest should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.advantest.com/investors/",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "company": "Arista Networks",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 29,
+      "currentAlphaScore": 63.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Ethernet switches for AI clusters",
+      "ytdReturn": 30.67,
+      "marketCapUsd": 214915000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Arista Networks can outperform through ethernet switches for AI clusters if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Arista Networks can justify a hold if AI demand stays healthy while ethernet switches for AI clusters pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Arista Networks should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investors.arista.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ANET&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "BN4",
+      "company": "Keppel",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 30,
+      "currentAlphaScore": 62.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Data-center development and infrastructure",
+      "ytdReturn": 4.82,
+      "marketCapUsd": 15204467018.18,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Keppel can outperform through data-center development and infrastructure if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Keppel can justify a hold if AI demand stays healthy while data-center development and infrastructure pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Keppel should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.keppel.com/investor-relations/",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 31,
+      "currentAlphaScore": 62.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Data-center operator",
+      "ytdReturn": 30.54,
+      "marketCapUsd": 8108897804.43,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: NEXTDC can outperform through data-center operator if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: NEXTDC can justify a hold if AI demand stays healthy while data-center operator pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: NEXTDC should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.nextdc.com/investor-centre",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "LIN",
+      "company": "Linde",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 32,
+      "currentAlphaScore": 61.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Industrial gases for semiconductor fabs",
+      "ytdReturn": 18.64,
+      "marketCapUsd": 235448000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Linde can outperform through industrial gases for semiconductor fabs if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Linde can justify a hold if AI demand stays healthy while industrial gases for semiconductor fabs pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Linde should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investors.linde.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=LIN&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "FORM",
+      "company": "FormFactor",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 33,
+      "currentAlphaScore": 61.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Probe cards and test interfaces",
+      "ytdReturn": 111.59,
+      "marketCapUsd": 8970000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: FormFactor can outperform through probe cards and test interfaces if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: FormFactor can justify a hold if AI demand stays healthy while probe cards and test interfaces pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: FormFactor should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investors.formfactor.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=FORM&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "KLIC",
+      "company": "Kulicke & Soffa",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 34,
+      "currentAlphaScore": 61.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Assembly and packaging equipment",
+      "ytdReturn": 121.3,
+      "marketCapUsd": 5600000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Kulicke & Soffa can outperform through assembly and packaging equipment if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Kulicke & Soffa can justify a hold if AI demand stays healthy while assembly and packaging equipment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Kulicke & Soffa should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investor.kns.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=KLIC&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "company": "TSMC",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 35,
+      "currentAlphaScore": 61,
+      "bucket": "Advanced packaging & substrates",
+      "role": "Leading-edge foundry and CoWoS",
+      "ytdReturn": 37.35,
+      "marketCapUsd": 2083000000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: TSMC should move up because CoWoS and leading-edge foundry capacity remain core bottlenecks behind AI accelerator supply.",
+      "neutralCase": "2026-06-03: TSMC can hold if AI demand offsets smartphone and PC cyclicality but capacity additions reduce scarcity premia.",
+      "bearCase": "2026-06-03: TSMC should lag if geopolitical risk, customer concentration, or a CoWoS capacity catch-up lowers incremental pricing power.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://investor.tsmc.com/english",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "6971",
+      "company": "Kyocera",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 36,
+      "currentAlphaScore": 60.8,
+      "bucket": "Board-level power & passives",
+      "role": "Ceramics, substrates, and components",
+      "ytdReturn": 70.87,
+      "marketCapUsd": 25699000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Kyocera can outperform through ceramics, substrates, and components if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Kyocera can justify a hold if AI demand stays healthy while ceramics, substrates, and components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Kyocera should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://global.kyocera.com/ir/",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "LFUS",
+      "company": "Littelfuse",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 37,
+      "currentAlphaScore": 60.8,
+      "bucket": "Board-level power & passives",
+      "role": "Protection and power components",
+      "ytdReturn": 86.26,
+      "marketCapUsd": 12361000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Littelfuse can outperform through protection and power components if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Littelfuse can justify a hold if AI demand stays healthy while protection and power components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Littelfuse should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://investor.littelfuse.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=LFUS&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "4062",
+      "company": "Ibiden",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 38,
+      "currentAlphaScore": 60,
+      "bucket": "Advanced packaging & substrates",
+      "role": "Package substrates",
+      "ytdReturn": 206.51,
+      "marketCapUsd": 37734170034.14,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Ibiden can outperform through package substrates if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Ibiden can justify a hold if AI demand stays healthy while package substrates pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Ibiden should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.ibiden.com/ir/",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "3231",
+      "company": "Wistron",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 39,
+      "currentAlphaScore": 59.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "AI server OEM",
+      "ytdReturn": 25.16,
+      "marketCapUsd": 17597855678.4,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Wistron can outperform through aI server OEM if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Wistron can justify a hold if AI demand stays healthy while aI server OEM pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Wistron should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.wistron.com/en/investor",
+        "https://www.twse.com.tw/pdf/en/3231_en.pdf",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 40,
+      "currentAlphaScore": 59.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "AI server platforms",
+      "ytdReturn": 49.87,
+      "marketCapUsd": 21398000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Super Micro can outperform if rack-scale AI server demand favors fast-configuring platform suppliers with liquid-cooling capability.",
+      "neutralCase": "2026-06-03: Super Micro can hold if demand remains robust but gross margin and governance concerns keep valuation disciplined.",
+      "bearCase": "2026-06-03: Super Micro should move down if OEM competition, customer concentration, or execution scrutiny erodes its AI-server growth premium.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://ir.supermicro.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=SMCI&owner=exclude&action=getcompany",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "8035",
+      "company": "Tokyo Electron",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 41,
+      "currentAlphaScore": 59.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Wafer fab equipment",
+      "ytdReturn": 64.91,
+      "marketCapUsd": 149632122693.37,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Tokyo Electron can outperform through wafer fab equipment if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Tokyo Electron can justify a hold if AI demand stays healthy while wafer fab equipment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Tokyo Electron should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.tel.com/ir/",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "company": "Astera Labs",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 42,
+      "currentAlphaScore": 59.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "PCIe/CXL connectivity",
+      "ytdReturn": 100.74,
+      "marketCapUsd": 61491000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Astera Labs can outperform through pCIe/CXL connectivity if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Astera Labs can justify a hold if AI demand stays healthy while pCIe/CXL connectivity pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Astera Labs should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://ir.asteralabs.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALAB&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "5802",
+      "company": "Sumitomo Electric",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 43,
+      "currentAlphaScore": 59.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Fiber, cable, and optical components",
+      "ytdReturn": 108.12,
+      "marketCapUsd": 63731932505.5,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Sumitomo Electric can outperform through fiber, cable, and optical components if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Sumitomo Electric can justify a hold if AI demand stays healthy while fiber, cable, and optical components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Sumitomo Electric should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://sumitomoelectric.com/ir",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "company": "Coherent",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 44,
+      "currentAlphaScore": 59.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical components and lasers",
+      "ytdReturn": 113.95,
+      "marketCapUsd": 82693000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Coherent can outperform through optical components and lasers if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Coherent can justify a hold if AI demand stays healthy while optical components and lasers pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Coherent should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.coherent.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=COHR&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ATS",
+      "company": "AT&S",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 45,
+      "currentAlphaScore": 58,
+      "bucket": "Advanced packaging & substrates",
+      "role": "IC substrates",
+      "ytdReturn": 364.02,
+      "marketCapUsd": 6291755946,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: AT&S can outperform through iC substrates if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: AT&S can justify a hold if AI demand stays healthy while iC substrates pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: AT&S should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://ats.net/en/investors/",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "PSTG",
+      "company": "Pure Storage",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 46,
+      "currentAlphaScore": 57.2,
+      "bucket": "Storage & AI data platforms",
+      "role": "Flash storage and data platform",
+      "ytdReturn": -1.75,
+      "marketCapUsd": 27562023079,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Pure Storage should move up because flash arrays and data services become more strategic as GPU clusters need faster feeding and checkpointing.",
+      "neutralCase": "2026-06-03: Pure Storage can hold if AI storage demand grows but enterprise refresh timing remains uneven.",
+      "bearCase": "2026-06-03: Pure Storage should lag if cloud optimization or storage price competition turns AI wins into lower-margin capacity sales.",
+      "primaryCatalyst": "agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity",
+      "primaryRisk": "cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure",
+      "evidenceTags": [
+        "AI storage",
+        "data platform",
+        "SSD/HDD"
+      ],
+      "sourceUrls": [
+        "https://investor.purestorage.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSTG&owner=exclude&action=getcompany",
+        "https://www.nvidia.com/en-us/data-center/ai-storage/"
+      ]
+    },
+    {
+      "ticker": "6762",
+      "company": "TDK",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 47,
+      "currentAlphaScore": 56.8,
+      "bucket": "Board-level power & passives",
+      "role": "Passives and power components",
+      "ytdReturn": 75.56,
+      "marketCapUsd": 44212200000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: TDK can outperform through passives and power components if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: TDK can justify a hold if AI demand stays healthy while passives and power components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: TDK should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://www.tdk.com/en/ir/index.html",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "company": "Monolithic Power Systems",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 48,
+      "currentAlphaScore": 56.8,
+      "bucket": "Board-level power & passives",
+      "role": "Power management ICs",
+      "ytdReturn": 78.36,
+      "marketCapUsd": 75778000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Monolithic Power Systems can outperform through power management ICs if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Monolithic Power Systems can justify a hold if AI demand stays healthy while power management ICs pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Monolithic Power Systems should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://www.monolithicpower.com/en/about-mps/investor-relations",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=MPWR&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "SNPS",
+      "company": "Synopsys",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 49,
+      "currentAlphaScore": 56,
+      "bucket": "EDA, test & timing",
+      "role": "EDA software and IP",
+      "ytdReturn": 2.96,
+      "marketCapUsd": 97340000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Synopsys can outperform through eDA software and IP if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: Synopsys can justify a hold if AI demand stays healthy while eDA software and IP pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Synopsys should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investor.synopsys.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=SNPS&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "DLR",
+      "company": "Digital Realty",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 50,
+      "currentAlphaScore": 55.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Data-center REIT",
+      "ytdReturn": 20.54,
+      "marketCapUsd": 66174000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Digital Realty can outperform through data-center REIT if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Digital Realty can justify a hold if AI demand stays healthy while data-center REIT pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Digital Realty should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://investor.digitalrealty.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=DLR&owner=exclude&action=getcompany",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "6669",
+      "company": "Wiwynn",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 51,
+      "currentAlphaScore": 55.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "AI server OEM",
+      "ytdReturn": 25,
+      "marketCapUsd": 32592200403.21,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Wiwynn can outperform through aI server OEM if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Wiwynn can justify a hold if AI demand stays healthy while aI server OEM pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Wiwynn should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.wiwynn.com",
+        "https://www.twse.com.tw/pdf/en/6669_en.pdf",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "2308",
+      "company": "Delta Electronics",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 52,
+      "currentAlphaScore": 55,
+      "bucket": "Power, cooling & electrical",
+      "role": "Power supplies and thermal management",
+      "ytdReturn": 146.73,
+      "marketCapUsd": 199896544426.52,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Delta Electronics can outperform through power supplies and thermal management if AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path.",
+      "neutralCase": "2026-06-03: Delta Electronics can justify a hold if AI demand stays healthy while power supplies and thermal management pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Delta Electronics should lag if AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI rack density, grid interconnection pressure, and liquid-cooling adoption keep power and thermal gear on the critical path",
+      "primaryRisk": "AI deployment schedules slip, lead times normalize, or cooling/power retrofits become lower-margin projects",
+      "evidenceTags": [
+        "grid interconnection",
+        "power distribution",
+        "liquid cooling"
+      ],
+      "sourceUrls": [
+        "https://delta.q4ir.com/overview/default.aspx",
+        "https://www.twse.com.tw/pdf/en/2308_en.pdf",
+        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+      ]
+    },
+    {
+      "ticker": "8046",
+      "company": "Nan Ya PCB",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 53,
+      "currentAlphaScore": 55,
+      "bucket": "Advanced packaging & substrates",
+      "role": "ABF substrates and PCBs",
+      "ytdReturn": 281.43,
+      "marketCapUsd": 18595996550.37,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Nan Ya PCB can outperform through aBF substrates and PCBs if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Nan Ya PCB can justify a hold if AI demand stays healthy while aBF substrates and PCBs pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Nan Ya PCB should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.nanyapcb.com.tw/nypcb/english/index.aspx/Employment/chinese/InvestorRelations/Financials/FinancialReports.aspx",
+        "https://www.twse.com.tw/pdf/en/8046_en.pdf",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "3189",
+      "company": "Kinsus Interconnect",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 54,
+      "currentAlphaScore": 55,
+      "bucket": "Advanced packaging & substrates",
+      "role": "IC substrates",
+      "ytdReturn": 373.72,
+      "marketCapUsd": 12969082984.03,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Kinsus Interconnect can outperform through iC substrates if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Kinsus Interconnect can justify a hold if AI demand stays healthy while iC substrates pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Kinsus Interconnect should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.kinsus.com.tw/en-global/Html/investor-services",
+        "https://www.twse.com.tw/pdf/en/3189_en.pdf",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "company": "KLA",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 55,
+      "currentAlphaScore": 54.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Inspection/metrology",
+      "ytdReturn": 64.5,
+      "marketCapUsd": 267159000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: KLA can outperform through inspection/metrology if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: KLA can justify a hold if AI demand stays healthy while inspection/metrology pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: KLA should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://ir.kla.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=KLAC&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 56,
+      "currentAlphaScore": 54.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Etch/deposition equipment",
+      "ytdReturn": 84.3,
+      "marketCapUsd": 418203000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Lam Research can outperform through etch/deposition equipment if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Lam Research can justify a hold if AI demand stays healthy while etch/deposition equipment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Lam Research should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investor.lamresearch.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=LRCX&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 57,
+      "currentAlphaScore": 54.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Semiconductor equipment",
+      "ytdReturn": 85.85,
+      "marketCapUsd": 338752000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Applied Materials can outperform through semiconductor equipment if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: Applied Materials can justify a hold if AI demand stays healthy while semiconductor equipment pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Applied Materials should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://ir.appliedmaterials.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMAT&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "GFS",
+      "company": "GlobalFoundries",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 58,
+      "currentAlphaScore": 54.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Specialty foundry capacity",
+      "ytdReturn": 132.61,
+      "marketCapUsd": 46877000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: GlobalFoundries can outperform through specialty foundry capacity if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: GlobalFoundries can justify a hold if AI demand stays healthy while specialty foundry capacity pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: GlobalFoundries should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://investors.gf.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=GFS&owner=exclude&action=getcompany",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "2317",
+      "company": "Hon Hai Precision (Foxconn)",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 59,
+      "currentAlphaScore": 53.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Electronics manufacturing and server assembly",
+      "ytdReturn": 33.19,
+      "marketCapUsd": 130684119208,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Hon Hai Precision (Foxconn) can outperform through electronics manufacturing and server assembly if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Hon Hai Precision (Foxconn) can justify a hold if AI demand stays healthy while electronics manufacturing and server assembly pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Hon Hai Precision (Foxconn) should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.honhai.com/en-us/investor-relations",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "EQIX",
+      "company": "Equinix",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 60,
+      "currentAlphaScore": 53.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Colocation and data-center operator",
+      "ytdReturn": 43.45,
+      "marketCapUsd": 103631000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Equinix can outperform through colocation and data-center operator if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Equinix can justify a hold if AI demand stays healthy while colocation and data-center operator pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Equinix should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://investor.equinix.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=EQIX&owner=exclude&action=getcompany",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "company": "ASML Holding",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 61,
+      "currentAlphaScore": 53.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Lithography systems",
+      "ytdReturn": 47.83,
+      "marketCapUsd": 627680000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: ASML Holding can outperform through lithography systems if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: ASML Holding can justify a hold if AI demand stays healthy while lithography systems pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: ASML Holding should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.asml.com/en/investors",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ASML&owner=exclude&action=getcompany"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 62,
+      "currentAlphaScore": 53.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical components and lasers",
+      "ytdReturn": 144.4,
+      "marketCapUsd": 73669000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Lumentum can outperform through optical components and lasers if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Lumentum can justify a hold if AI demand stays healthy while optical components and lasers pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Lumentum should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.lumentum.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=LITE&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "002281",
+      "company": "Accelink Technologies",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 63,
+      "currentAlphaScore": 53.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optoelectronic chips, modules, and data-center optics",
+      "ytdReturn": 216.25,
+      "marketCapUsd": 24341529550.84,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Accelink Technologies can outperform through optoelectronic chips, modules, and data-center optics if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Accelink Technologies can justify a hold if AI demand stays healthy while optoelectronic chips, modules, and data-center optics pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Accelink Technologies should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://www.accelink.com/en/index.html",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "2382",
+      "company": "Quanta Computer",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 64,
+      "currentAlphaScore": 51.8,
+      "bucket": "Data-center shell & systems integration",
+      "role": "AI server OEM",
+      "ytdReturn": 50.54,
+      "marketCapUsd": 45658697707.2,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Quanta Computer can outperform through aI server OEM if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Quanta Computer can justify a hold if AI demand stays healthy while aI server OEM pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Quanta Computer should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://www.quantatw.com/quanta/english/default.aspx/english/Default.aspx",
+        "https://www.twse.com.tw/pdf/en/2382_en.pdf",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "CDNS",
+      "company": "Cadence Design Systems",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 65,
+      "currentAlphaScore": 51,
+      "bucket": "EDA, test & timing",
+      "role": "EDA software",
+      "ytdReturn": 29.86,
+      "marketCapUsd": 112828000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Cadence Design Systems can outperform through eDA software if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: Cadence Design Systems can justify a hold if AI demand stays healthy while eDA software pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Cadence Design Systems should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investors.cadence.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CDNS&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "3037",
+      "company": "Unimicron",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 66,
+      "currentAlphaScore": 51,
+      "bucket": "Advanced packaging & substrates",
+      "role": "ABF substrates and PCBs",
+      "ytdReturn": 356.62,
+      "marketCapUsd": 52573198158.18,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Unimicron can outperform through aBF substrates and PCBs if CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators.",
+      "neutralCase": "2026-06-03: Unimicron can justify a hold if AI demand stays healthy while aBF substrates and PCBs pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Unimicron should lag if new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "CoWoS, chiplet integration, and ABF substrate capacity remain gating items for high-end AI accelerators",
+      "primaryRisk": "new packaging capacity catches up, ABF pricing rolls over, or AI accelerator mix shifts away from the supplier's substrate strengths",
+      "evidenceTags": [
+        "CoWoS",
+        "ABF substrates",
+        "advanced packaging"
+      ],
+      "sourceUrls": [
+        "https://www.unimicron.com/",
+        "https://irplatform.tdcc.com.tw/ir/en/contact/detail/8B1C5D14-FB6A-4904-864F-E36940211092",
+        "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 67,
+      "currentAlphaScore": 50.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Custom silicon and networking",
+      "ytdReturn": 39.78,
+      "marketCapUsd": 2178000000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Broadcom can hold a high-quality thesis if custom AI accelerators and networking silicon keep expanding with hyperscaler platforms.",
+      "neutralCase": "2026-06-03: Broadcom can hold if AI silicon growth offsets mature software and semiconductor cyclicality without requiring further multiple expansion.",
+      "bearCase": "2026-06-03: Broadcom should lag if custom ASIC wins slow or hyperscalers squeeze merchant networking and platform margins.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investors.broadcom.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=AVGO&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ON",
+      "company": "onsemi",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 68,
+      "currentAlphaScore": 49.8,
+      "bucket": "Board-level power & passives",
+      "role": "Power semiconductors",
+      "ytdReturn": 133.67,
+      "marketCapUsd": 51135000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: onsemi can outperform through power semiconductors if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: onsemi can justify a hold if AI demand stays healthy while power semiconductors pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: onsemi should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://investor.onsemi.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=ON&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "company": "Ciena",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 69,
+      "currentAlphaScore": 49.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical transport and networking",
+      "ytdReturn": 152.86,
+      "marketCapUsd": 85752000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Ciena can outperform through optical transport and networking if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Ciena can justify a hold if AI demand stays healthy while optical transport and networking pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Ciena should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.ciena.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CIEN&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "KEYS",
+      "company": "Keysight Technologies",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 70,
+      "currentAlphaScore": 49,
+      "bucket": "EDA, test & timing",
+      "role": "Test and measurement",
+      "ytdReturn": 70.2,
+      "marketCapUsd": 56344000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Keysight Technologies can outperform through test and measurement if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: Keysight Technologies can justify a hold if AI demand stays healthy while test and measurement pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Keysight Technologies should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investor.keysight.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=KEYS&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "6754",
+      "company": "Anritsu",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 71,
+      "currentAlphaScore": 49,
+      "bucket": "EDA, test & timing",
+      "role": "Test and measurement",
+      "ytdReturn": 108.74,
+      "marketCapUsd": 3783645469.29,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Anritsu can outperform through test and measurement if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: Anritsu can justify a hold if AI demand stays healthy while test and measurement pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Anritsu should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://www.anritsu.com/en-us/about-anritsu/investor-relations",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "UMC",
+      "company": "UMC",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 72,
+      "currentAlphaScore": 48.4,
+      "bucket": "Fab tools & manufacturing inputs",
+      "role": "Mature-node foundry capacity",
+      "ytdReturn": 170.03,
+      "marketCapUsd": 52946000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: UMC can outperform through mature-node foundry capacity if leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated.",
+      "neutralCase": "2026-06-03: UMC can justify a hold if AI demand stays healthy while mature-node foundry capacity pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: UMC should lag if semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "leading-edge logic, HBM, advanced packaging, and foundry capacity additions keep tool and materials intensity elevated",
+      "primaryRisk": "semiconductor capex pauses, export controls, or excess capacity reduces fab-tool order momentum",
+      "evidenceTags": [
+        "wafer fab equipment",
+        "materials",
+        "metrology"
+      ],
+      "sourceUrls": [
+        "https://www.umc.com/en/IR/",
+        "https://www.asml.com/en/investors"
+      ]
+    },
+    {
+      "ticker": "CLS",
+      "company": "Celestica",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 73,
+      "currentAlphaScore": 48,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Systems manufacturing and networking hardware",
+      "ytdReturn": 50.48,
+      "marketCapUsd": 54310000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Celestica can outperform through systems manufacturing and networking hardware if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Celestica can justify a hold if AI demand stays healthy while systems manufacturing and networking hardware pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Celestica should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://investors.celestica.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=CLS&owner=exclude&action=getcompany",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "IFX",
+      "company": "Infineon Technologies",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 74,
+      "currentAlphaScore": 47.8,
+      "bucket": "Board-level power & passives",
+      "role": "Power semiconductors",
+      "ytdReturn": 129.98,
+      "marketCapUsd": 112041297900,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Infineon Technologies can outperform through power semiconductors if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Infineon Technologies can justify a hold if AI demand stays healthy while power semiconductors pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Infineon Technologies should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://www.infineon.com/cms/en/about-infineon/investor/",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "6963",
+      "company": "ROHM",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 75,
+      "currentAlphaScore": 47.8,
+      "bucket": "Board-level power & passives",
+      "role": "Power devices",
+      "ytdReturn": 146.59,
+      "marketCapUsd": 12402689110.86,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: ROHM can outperform through power devices if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: ROHM can justify a hold if AI demand stays healthy while power devices pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: ROHM should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://www.rohm.com/ir",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "SITM",
+      "company": "SiTime",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 76,
+      "currentAlphaScore": 46,
+      "bucket": "EDA, test & timing",
+      "role": "Timing chips",
+      "ytdReturn": 91.99,
+      "marketCapUsd": 19616000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: SiTime can outperform through timing chips if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: SiTime can justify a hold if AI demand stays healthy while timing chips pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: SiTime should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investors.sitime.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=SITM&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "MTSI",
+      "company": "MACOM Technology Solutions",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 77,
+      "currentAlphaScore": 46,
+      "bucket": "EDA, test & timing",
+      "role": "RF/analog and optical semis",
+      "ytdReturn": 121.23,
+      "marketCapUsd": 29507000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: MACOM Technology Solutions can outperform through rF/analog and optical semis if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: MACOM Technology Solutions can justify a hold if AI demand stays healthy while rF/analog and optical semis pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: MACOM Technology Solutions should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://ir.macom.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=MTSI&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "005930",
+      "company": "Samsung Electronics",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 78,
+      "currentAlphaScore": 45,
+      "bucket": "HBM & AI memory",
+      "role": "HBM, memory, and advanced logic",
+      "ytdReturn": 180.54,
+      "marketCapUsd": 1536812185743.8,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Samsung Electronics can outperform through hBM, memory, and advanced logic if HBM4, SOCAMM, and AI-optimized memory bandwidth stay scarce relative to accelerator demand.",
+      "neutralCase": "2026-06-03: Samsung Electronics can justify a hold if AI demand stays healthy while hBM, memory, and advanced logic pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Samsung Electronics should lag if HBM qualification misses, customer concentration, or a supply response compresses memory margins, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "HBM4, SOCAMM, and AI-optimized memory bandwidth stay scarce relative to accelerator demand",
+      "primaryRisk": "HBM qualification misses, customer concentration, or a supply response compresses memory margins",
+      "evidenceTags": [
+        "HBM4",
+        "memory bandwidth",
+        "AI storage"
+      ],
+      "sourceUrls": [
+        "https://www.samsung.com/global/ir/",
+        "https://semiconductor.samsung.com/dram/hbm/",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+      ]
+    },
+    {
+      "ticker": "600487",
+      "company": "Hengtong Optic-Electric",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 79,
+      "currentAlphaScore": 44.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical fiber and connectivity",
+      "ytdReturn": 268.67,
+      "marketCapUsd": 27525460463.14,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Hengtong Optic-Electric can outperform through optical fiber and connectivity if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Hengtong Optic-Electric can justify a hold if AI demand stays healthy while optical fiber and connectivity pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Hengtong Optic-Electric should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://www.hengtonggroup.com/en/home/news/detail/id/387.html",
+        "https://www.hengtongglobal.com/our-company",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 80,
+      "currentAlphaScore": 44.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical transceivers and lasers",
+      "ytdReturn": 365.28,
+      "marketCapUsd": 14639000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Applied Optoelectronics can outperform through optical transceivers and lasers if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Applied Optoelectronics can justify a hold if AI demand stays healthy while optical transceivers and lasers pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Applied Optoelectronics should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investors.ao-inc.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=AAOI&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "5801",
+      "company": "Furukawa Electric",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 81,
+      "currentAlphaScore": 44.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Fiber, cable, and optical components",
+      "ytdReturn": 403.8,
+      "marketCapUsd": 22737479074.83,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Furukawa Electric can outperform through fiber, cable, and optical components if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Furukawa Electric can justify a hold if AI demand stays healthy while fiber, cable, and optical components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Furukawa Electric should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://www.furukawa.co.jp/en/ir/",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 82,
+      "currentAlphaScore": 44.2,
+      "bucket": "Storage & AI data platforms",
+      "role": "Enterprise storage and data management",
+      "ytdReturn": 69.47,
+      "marketCapUsd": 35215000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: NetApp can outperform through enterprise storage and data management if agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity.",
+      "neutralCase": "2026-06-03: NetApp can justify a hold if AI demand stays healthy while enterprise storage and data management pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: NetApp should lag if cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity",
+      "primaryRisk": "cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure",
+      "evidenceTags": [
+        "AI storage",
+        "data platform",
+        "SSD/HDD"
+      ],
+      "sourceUrls": [
+        "https://investors.netapp.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=NTAP&owner=exclude&action=getcompany",
+        "https://www.nvidia.com/en-us/data-center/ai-storage/"
+      ]
+    },
+    {
+      "ticker": "STM",
+      "company": "STMicroelectronics",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 83,
+      "currentAlphaScore": 43.8,
+      "bucket": "Board-level power & passives",
+      "role": "Power semis and analog",
+      "ytdReturn": 191.78,
+      "marketCapUsd": 70957000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: STMicroelectronics can outperform through power semis and analog if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: STMicroelectronics can justify a hold if AI demand stays healthy while power semis and analog pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: STMicroelectronics should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://investors.st.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=STM&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 84,
+      "currentAlphaScore": 43.2,
+      "bucket": "Compute silicon & IP",
+      "role": "GPU platform leader",
+      "ytdReturn": 14.17,
+      "marketCapUsd": 5211000000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: NVIDIA can keep compounding if record AI-factory demand and data-center networking attach rates persist across Blackwell/Rubin-era platforms.",
+      "neutralCase": "2026-06-03: NVIDIA can justify a hold if accelerator demand remains strong but hyperscaler digestion and China restrictions cap incremental upside.",
+      "bearCase": "2026-06-03: NVIDIA should move down if valuation, export controls, or custom ASIC substitution compress the currently exceptional data-center growth profile.",
+      "primaryCatalyst": "accelerator demand, custom AI silicon, and platform software keep compute silicon at the center of AI capex",
+      "primaryRisk": "valuation, export controls, hyperscaler ASIC substitution, or inference efficiency reduces accelerator gross-margin leverage",
+      "evidenceTags": [
+        "accelerators",
+        "custom silicon",
+        "AI platforms"
+      ],
+      "sourceUrls": [
+        "https://investor.nvidia.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=NVDA&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "company": "Teradyne",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 85,
+      "currentAlphaScore": 42,
+      "bucket": "EDA, test & timing",
+      "role": "Semiconductor test and robotics",
+      "ytdReturn": 95.16,
+      "marketCapUsd": 63203000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: Teradyne can outperform through semiconductor test and robotics if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: Teradyne can justify a hold if AI demand stays healthy while semiconductor test and robotics pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Teradyne should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investors.teradyne.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=TER&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "6981",
+      "company": "Murata Manufacturing",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 86,
+      "currentAlphaScore": 41.8,
+      "bucket": "Board-level power & passives",
+      "role": "Capacitors and passive components",
+      "ytdReturn": 212.91,
+      "marketCapUsd": 118388104008.49,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Murata Manufacturing can outperform through capacitors and passive components if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Murata Manufacturing can justify a hold if AI demand stays healthy while capacitors and passive components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Murata Manufacturing should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://corporate.murata.com/en-global/ir",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "WOLF",
+      "company": "Wolfspeed",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 87,
+      "currentAlphaScore": 41.8,
+      "bucket": "Board-level power & passives",
+      "role": "SiC power devices",
+      "ytdReturn": 230.41,
+      "marketCapUsd": 2955000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Wolfspeed can outperform through siC power devices if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Wolfspeed can justify a hold if AI demand stays healthy while siC power devices pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Wolfspeed should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://investor.wolfspeed.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=WOLF&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "VSH",
+      "company": "Vishay Intertechnology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 88,
+      "currentAlphaScore": 41.8,
+      "bucket": "Board-level power & passives",
+      "role": "Discrete power and passives",
+      "ytdReturn": 311.18,
+      "marketCapUsd": 8532000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Vishay Intertechnology can outperform through discrete power and passives if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Vishay Intertechnology can justify a hold if AI demand stays healthy while discrete power and passives pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Vishay Intertechnology should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://ir.vishay.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=VSH&owner=exclude&action=getcompany",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "6869",
+      "company": "YOFC",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 89,
+      "currentAlphaScore": 40.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Optical fiber and cable",
+      "ytdReturn": 391.6,
+      "marketCapUsd": 36704371144.47,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: YOFC can outperform through optical fiber and cable if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: YOFC can justify a hold if AI demand stays healthy while optical fiber and cable pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: YOFC should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://en.yofc.com/index.php/list/32.html?tmid=33",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 90,
+      "currentAlphaScore": 37.2,
+      "bucket": "Compute silicon & IP",
+      "role": "GPU/CPU accelerator platform",
+      "ytdReturn": 138.95,
+      "marketCapUsd": 850423000000,
+      "rankMove": "hold",
+      "rankMoveRationale": "Hold because the existing rank reasonably balances bottleneck exposure, 2026 YTD rerating, market-cap consensus, and execution risk.",
+      "bullCase": "2026-06-03: AMD can outperform through gPU/CPU accelerator platform if accelerator demand, custom AI silicon, and platform software keep compute silicon at the center of AI capex.",
+      "neutralCase": "2026-06-03: AMD can justify a hold if AI demand stays healthy while gPU/CPU accelerator platform pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: AMD should lag if valuation, export controls, hyperscaler ASIC substitution, or inference efficiency reduces accelerator gross-margin leverage, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator demand, custom AI silicon, and platform software keep compute silicon at the center of AI capex",
+      "primaryRisk": "valuation, export controls, hyperscaler ASIC substitution, or inference efficiency reduces accelerator gross-margin leverage",
+      "evidenceTags": [
+        "accelerators",
+        "custom silicon",
+        "AI platforms"
+      ],
+      "sourceUrls": [
+        "https://ir.amd.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMD&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 91,
+      "currentAlphaScore": 36,
+      "bucket": "HBM & AI memory",
+      "role": "HBM supplier",
+      "ytdReturn": 236.63,
+      "marketCapUsd": 1168000000000,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: Micron should move up because HBM4, SOCAMM2, and AI SSD production make memory bandwidth and storage a first-order Rubin-era bottleneck.",
+      "neutralCase": "2026-06-03: Micron can hold if HBM demand remains strong but DRAM/NAND pricing and customer qualification cadence normalize.",
+      "bearCase": "2026-06-03: Micron should lag if HBM supply catches demand or commodity memory cyclicality overwhelms AI product mix improvement.",
+      "primaryCatalyst": "HBM4, SOCAMM, and AI-optimized memory bandwidth stay scarce relative to accelerator demand",
+      "primaryRisk": "HBM qualification misses, customer concentration, or a supply response compresses memory margins",
+      "evidenceTags": [
+        "HBM4",
+        "memory bandwidth",
+        "AI storage"
+      ],
+      "sourceUrls": [
+        "https://investors.micron.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=MU&owner=exclude&action=getcompany",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+      ]
+    },
+    {
+      "ticker": "000660",
+      "company": "SK hynix",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 92,
+      "currentAlphaScore": 36,
+      "bucket": "HBM & AI memory",
+      "role": "HBM supplier",
+      "ytdReturn": 248.6,
+      "marketCapUsd": 1174170975203.1,
+      "rankMove": "up",
+      "rankMoveRationale": "Move up because the current evidence supports direct AI-infrastructure bottleneck exposure that is not fully reflected by the existing alpha rank.",
+      "bullCase": "2026-06-03: SK hynix should move up because HBM leadership keeps it tied directly to accelerator shipment growth and memory-bandwidth scarcity.",
+      "neutralCase": "2026-06-03: SK hynix can hold if HBM allocation stays tight while broader memory profitability normalizes.",
+      "bearCase": "2026-06-03: SK hynix should lag if customers diversify aggressively, Samsung/Micron close the qualification gap, or HBM pricing rolls over.",
+      "primaryCatalyst": "HBM4, SOCAMM, and AI-optimized memory bandwidth stay scarce relative to accelerator demand",
+      "primaryRisk": "HBM qualification misses, customer concentration, or a supply response compresses memory margins",
+      "evidenceTags": [
+        "HBM4",
+        "memory bandwidth",
+        "AI storage"
+      ],
+      "sourceUrls": [
+        "https://news.skhynix.com/q1-2026-business-results/",
+        "https://semiconductor.skhynix.com/eng/product/dram/hbm.jsp",
+        "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+      ]
+    },
+    {
+      "ticker": "FLEX",
+      "company": "Flex",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 93,
+      "currentAlphaScore": 35,
+      "bucket": "Data-center shell & systems integration",
+      "role": "Systems manufacturing and integration",
+      "ytdReturn": 157.5,
+      "marketCapUsd": 54228000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Flex can outperform through systems manufacturing and integration if accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services.",
+      "neutralCase": "2026-06-03: Flex can justify a hold if AI demand stays healthy while systems manufacturing and integration pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Flex should lag if customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "accelerator supply converts into demand for power-ready data-center capacity, AI servers, rack integration, and deployment services",
+      "primaryRisk": "customer capex digestion, power-permit delays, or ODM price competition reduces incremental AI economics",
+      "evidenceTags": [
+        "AI servers",
+        "colocation",
+        "rack integration"
+      ],
+      "sourceUrls": [
+        "https://investors.flex.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=FLEX&owner=exclude&action=getcompany",
+        "https://investor.equinix.com/news-events/press-releases/detail/1103/equinix-unveils-the-distributed-ai-hub-to-simplify-and"
+      ]
+    },
+    {
+      "ticker": "2327",
+      "company": "Yageo",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 94,
+      "currentAlphaScore": 34.8,
+      "bucket": "Board-level power & passives",
+      "role": "Passive components",
+      "ytdReturn": 240.25,
+      "marketCapUsd": 51719427219.05,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Yageo can outperform through passive components if higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives.",
+      "neutralCase": "2026-06-03: Yageo can justify a hold if AI demand stays healthy while passive components pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Yageo should lag if auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "higher AI server current density raises demand for power semiconductors, power ICs, protection, and passives",
+      "primaryRisk": "auto/industrial weakness, inventory digestion, or passives commoditization overwhelms AI server growth",
+      "evidenceTags": [
+        "power delivery",
+        "passives",
+        "AI server components"
+      ],
+      "sourceUrls": [
+        "https://www.yageo.com/en/Investor-Relations",
+        "https://www.twse.com.tw/pdf/en/2327_en.pdf",
+        "https://www.murata.com/en-us/campaigns/aiserver-a"
+      ]
+    },
+    {
+      "ticker": "MXL",
+      "company": "MaxLinear",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 95,
+      "currentAlphaScore": 34,
+      "bucket": "EDA, test & timing",
+      "role": "Signal integrity and connectivity",
+      "ytdReturn": 398.78,
+      "marketCapUsd": 8754000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: MaxLinear can outperform through signal integrity and connectivity if larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content.",
+      "neutralCase": "2026-06-03: MaxLinear can justify a hold if AI demand stays healthy while signal integrity and connectivity pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: MaxLinear should lag if design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "larger AI dies, chiplets, faster SerDes, and tighter timing budgets raise demand for EDA, validation, and test content",
+      "primaryRisk": "design starts slow, test demand normalizes, or AI chip programs consolidate around fewer customers",
+      "evidenceTags": [
+        "EDA",
+        "test",
+        "timing"
+      ],
+      "sourceUrls": [
+        "https://investors.maxlinear.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=MXL&owner=exclude&action=getcompany",
+        "https://www.cadence.com/en_US/home/ai/ai-for-design.html"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 96,
+      "currentAlphaScore": 33.4,
+      "bucket": "Optical & high-speed networking",
+      "role": "Networking silicon and custom compute",
+      "ytdReturn": 245.9,
+      "marketCapUsd": 254602000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Marvell Technology can outperform through networking silicon and custom compute if AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics.",
+      "neutralCase": "2026-06-03: Marvell Technology can justify a hold if AI demand stays healthy while networking silicon and custom compute pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Marvell Technology should lag if hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "AI scale-out increases demand for 800G/1.6T optics, high-speed copper, DSPs, and switch fabrics",
+      "primaryRisk": "hyperscalers standardize on fewer vendors, optics pricing compresses, or in-house silicon absorbs supplier margin",
+      "evidenceTags": [
+        "800G/1.6T",
+        "CPO",
+        "AI networking"
+      ],
+      "sourceUrls": [
+        "https://investor.marvell.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=MRVL&owner=exclude&action=getcompany",
+        "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Spectrum-X-Photonics-Co-Packaged-Optics-Networking-Switches-to-Scale-AI-Factories-to-Millions-of-GPUs/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 97,
+      "currentAlphaScore": 28.4,
+      "bucket": "Compute silicon & IP",
+      "role": "CPU/IP licensing for AI servers",
+      "ytdReturn": 245.53,
+      "marketCapUsd": 273160000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Arm benefits if CPU IP attach rises in AI servers, edge AI, and custom accelerator platforms.",
+      "neutralCase": "2026-06-03: Arm can hold if royalty growth continues but server AI contribution remains a smaller part of the near-term revenue mix.",
+      "bearCase": "2026-06-03: Arm should move down if valuation outruns monetization from AI server IP and customers internalize more platform value.",
+      "primaryCatalyst": "accelerator demand, custom AI silicon, and platform software keep compute silicon at the center of AI capex",
+      "primaryRisk": "valuation, export controls, hyperscaler ASIC substitution, or inference efficiency reduces accelerator gross-margin leverage",
+      "evidenceTags": [
+        "accelerators",
+        "custom silicon",
+        "AI platforms"
+      ],
+      "sourceUrls": [
+        "https://investors.arm.com/",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+      ]
+    },
+    {
+      "ticker": "SIMO",
+      "company": "Silicon Motion",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 98,
+      "currentAlphaScore": 26.2,
+      "bucket": "Storage & AI data platforms",
+      "role": "SSD controllers",
+      "ytdReturn": 226.7,
+      "marketCapUsd": 10311000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Silicon Motion can outperform through sSD controllers if agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity.",
+      "neutralCase": "2026-06-03: Silicon Motion can justify a hold if AI demand stays healthy while sSD controllers pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Silicon Motion should lag if cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity",
+      "primaryRisk": "cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure",
+      "evidenceTags": [
+        "AI storage",
+        "data platform",
+        "SSD/HDD"
+      ],
+      "sourceUrls": [
+        "https://www.siliconmotion.com/investors",
+        "https://www.nvidia.com/en-us/data-center/ai-storage/"
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 99,
+      "currentAlphaScore": 24.2,
+      "bucket": "Storage & AI data platforms",
+      "role": "Storage hardware",
+      "ytdReturn": 214.74,
+      "marketCapUsd": 158423000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Western Digital can outperform through storage hardware if agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity.",
+      "neutralCase": "2026-06-03: Western Digital can justify a hold if AI demand stays healthy while storage hardware pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Western Digital should lag if cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity",
+      "primaryRisk": "cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure",
+      "evidenceTags": [
+        "AI storage",
+        "data platform",
+        "SSD/HDD"
+      ],
+      "sourceUrls": [
+        "https://investor.wdc.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=WDC&owner=exclude&action=getcompany",
+        "https://www.nvidia.com/en-us/data-center/ai-storage/"
+      ]
+    },
+    {
+      "ticker": "STX",
+      "company": "Seagate Technology",
+      "caseDate": "2026-06-03",
+      "currentAlphaRank": 100,
+      "currentAlphaScore": 15.2,
+      "bucket": "Storage & AI data platforms",
+      "role": "Storage hardware",
+      "ytdReturn": 227.45,
+      "marketCapUsd": 206121000000,
+      "rankMove": "down",
+      "rankMoveRationale": "Move down because the thesis is still valid, but 2026 rerating, indirect exposure, customer concentration, or cyclicality leaves less current alpha.",
+      "bullCase": "2026-06-03: Seagate Technology can outperform through storage hardware if agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity.",
+      "neutralCase": "2026-06-03: Seagate Technology can justify a hold if AI demand stays healthy while storage hardware pricing and backlog conversion normalize rather than accelerate.",
+      "bearCase": "2026-06-03: Seagate Technology should lag if cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure, making the stock less of a scarce bottleneck trade.",
+      "primaryCatalyst": "agentic AI pipelines and GPU clusters increase demand for high-throughput storage, data services, and SSD/HDD capacity",
+      "primaryRisk": "cloud optimization, NAND/HDD price cycles, or lower training intensity turns storage back into commodity exposure",
+      "evidenceTags": [
+        "AI storage",
+        "data platform",
+        "SSD/HDD"
+      ],
+      "sourceUrls": [
+        "https://investors.seagate.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=STX&owner=exclude&action=getcompany",
+        "https://www.nvidia.com/en-us/data-center/ai-storage/"
+      ]
+    }
+  ]
+}

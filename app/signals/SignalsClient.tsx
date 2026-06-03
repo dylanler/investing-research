@@ -17,6 +17,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 
 export interface SignalStock {
   company: string;
@@ -607,7 +608,8 @@ const UNIVERSE_TABLE_HEADERS = [
   { label: 'Hormuz', hint: 'Internal 0-10 score for how much a Hormuz / energy / freight shock can hit the name through shipping, chemicals, or power costs.' },
   { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
   { label: 'Alpha', hint: 'Current alpha score after AI sensitivity, confidence tier, bottleneck category, market-cap room, YTD rerating room, risk, and Hormuz sensitivity are combined.' },
-  { label: 'Price', hint: 'Latest available public quote from the June 2, 2026 market-data refresh. Delisted names show no live quote.' },
+  { label: 'Cases', hint: 'Dated bull, neutral, and bear cases from the June 3, 2026 agent audit.' },
+  { label: 'Price', hint: 'Latest available public quote from the June 3, 2026 market-data refresh. Delisted names show no live quote.' },
   { label: 'YTD', hint: 'Year-to-date share-price move from Yahoo Finance chart data where a current public listing exists.' },
   { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
   { label: '180d', hint: 'Directional six-month view from the report. This is qualitative, not a price target.' },
@@ -958,7 +960,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026 &middot; Updated June 2, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated June 3, 2026
           </div>
           <h1
             className="font-display"
@@ -1628,13 +1630,30 @@ export default function SignalsClient({
                           {stock.aiScore}
                         </HoverExplain>
                       </td>
-                      <td style={{ padding: '14px 12px', color: 'var(--accent)', fontWeight: 800, fontFamily: 'monospace' }}>
-                        <HoverExplain hint={`Current alpha ${stock.currentAlphaScore}/100. This combines AI sensitivity, confidence, category bottleneck quality, market-cap room, YTD rerating room, risk, and Hormuz sensitivity.`}>
-                          {stock.currentAlphaScore.toFixed(1)}
-                        </HoverExplain>
-                      </td>
-                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>
-                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the June 2, 2026 market-data refresh.`}>
+	                      <td style={{ padding: '14px 12px', color: 'var(--accent)', fontWeight: 800, fontFamily: 'monospace' }}>
+	                        <HoverExplain hint={`Current alpha ${stock.currentAlphaScore}/100. This combines AI sensitivity, confidence, category bottleneck quality, market-cap room, YTD rerating room, risk, and Hormuz sensitivity.`}>
+	                          {stock.currentAlphaScore.toFixed(1)}
+	                        </HoverExplain>
+	                      </td>
+	                      <td style={{ padding: '14px 12px' }}>
+	                        <StockCaseHover
+	                          page="signals"
+	                          company={stock.company}
+	                          ticker={stock.ticker_display}
+	                          thesis={stock.thesis}
+	                          bull={stock.thesis}
+	                          neutral={stock.drop || stock.position}
+	                          bear={stock.bear || stock.risk}
+	                          category={stock.category_label}
+	                          score={stock.currentAlphaScore.toFixed(1)}
+	                          price={stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}
+	                          marketCap={stock.market_cap ? `$${(parseNumber(stock.market_cap) / 1_000_000_000).toFixed(1)}B` : 'N/A'}
+	                          ytd={stock.price ? formatSignedPercent(stock.returnYtd) : 'N/A'}
+	                          sources={stock.evidenceUrlList.map((url, index) => ({ label: stock.evidenceTitleList[index] ?? `Source ${index + 1}`, url }))}
+	                        />
+	                      </td>
+	                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>
+	                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the June 3, 2026 market-data refresh.`}>
                           {stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}
                         </HoverExplain>
                       </td>

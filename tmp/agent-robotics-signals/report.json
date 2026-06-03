@@ -1,0 +1,2722 @@
+{
+  "generated_at": "2026-06-03T16:58:55.220Z",
+  "case_date": "2026-06-03",
+  "assignment_scope": [
+    "data/robotics.ts",
+    "app/robotics/page.tsx",
+    "app/signals/SignalsClient.tsx",
+    "app/signals/page.tsx",
+    "public/reports/twitter-ai-supply-chain"
+  ],
+  "methodology": "Page/table-qualified stock audit using current page data, official company IR/news where available, KOID ETF holdings for robotics fund validation, SEC/IR sources for US-listed names, and primary company pages for non-US issuers. Rank move means suggested relative movement inside that page/table, not a portfolio recommendation.",
+  "summary": {
+    "total_entries": 150,
+    "by_page": {
+      "app/robotics/page.tsx:ranked-alpha": 50,
+      "app/robotics/page.tsx:koid-audit": 50,
+      "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14": 50
+    },
+    "rank_moves": {
+      "down": 45,
+      "hold": 85,
+      "up": 20
+    }
+  },
+  "entries": [
+    {
+      "ticker": "ACUVI.ST",
+      "company": "Acuvi",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 1,
+      "current_score": 92,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is precision motion and micro-actuation components with market cap near $0.04B, so Acuvi can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Acuvi remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Humanoid linkage is indirect, business scale is small, and liquidity can dominate fundamentals.",
+      "source_urls": [
+        "https://acuvi.com/",
+        "https://acuvi.com/piezomotor/"
+      ]
+    },
+    {
+      "ticker": "XBOTF",
+      "company": "Realbotix",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 2,
+      "current_score": 92,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is human-facing humanoid robots for venues, healthcare, hospitality, and entertainment with market cap near $0.06B, so Realbotix can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Realbotix remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Extremely speculative, social humanoid TAM is narrower than industrial humanoids, OTC liquidity, and transaction risk.",
+      "source_urls": [
+        "https://ir.onconetix.com/onconetix-to-acquire-realbotix-llc-usa-based-ai-powered-humanoid-robotics-company/",
+        "https://www.realbotix.ai/",
+        "https://www.realbotix.ai/news/realbotix-corp-announces-the-sale-of-realbotix-llc-subsidiary-to-a-nasdaq-listed-issuer"
+      ]
+    },
+    {
+      "ticker": "ARBE",
+      "company": "Arbe Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 3,
+      "current_score": 92,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is 4d imaging radar for autonomous machines and off-highway robotics with market cap near $0.15B, so Arbe Robotics can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Arbe Robotics remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Automotive timing slips, customer concentration, cash needs, and no confirmed humanoid production socket.",
+      "source_urls": [
+        "https://ir.arberobotics.com/news/press-releases/detail/166/arbe-combines-market-leading-radar-solution-with-powerful",
+        "https://ir.arberobotics.com/"
+      ]
+    },
+    {
+      "ticker": "SERV",
+      "company": "Serve Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 4,
+      "current_score": 90,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is sidewalk autonomy fleet and real-world embodied ai data loop with market cap near $0.80B, so Serve Robotics can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Serve Robotics remains relevant to Warehouse exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Delivery economics, dilution, regulation, and form-factor mismatch versus humanoids.",
+      "source_urls": [
+        "https://investors.serverobotics.com/node/7401/pdf",
+        "https://investors.serverobotics.com/",
+        "https://ouster.com/ouster-x-stereolabs"
+      ]
+    },
+    {
+      "ticker": "RR",
+      "company": "Richtech Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 5,
+      "current_score": 88,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is commercial service robots plus dex mobile humanoid with market cap near $0.71B, so Richtech Robotics can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Richtech Robotics remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Revenue quality, dilution, demo-to-deployment gap, and service-robot competition.",
+      "source_urls": [
+        "https://ir.richtechrobotics.com/",
+        "https://ir.richtechrobotics.com/static-files/778957e1-6ab8-40e9-a349-a16482278166",
+        "https://ir.richtechrobotics.com/node/7331/pdf"
+      ]
+    },
+    {
+      "ticker": "MKA.L",
+      "company": "Mkango Resources",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 6,
+      "current_score": 87,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is rare-earth magnet recycling and supply chain optionality for compact motors with market cap near $0.24B, so Mkango Resources can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Mkango Resources remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Commodity/project execution risk, not a direct robot supplier, and revenue timing can slip.",
+      "source_urls": [
+        "https://mkango.ca/",
+        "https://www.electrive.com/2026/01/15/rare-earth-magnet-recycling-plant-opens-in-the-uk/"
+      ]
+    },
+    {
+      "ticker": "2498.HK",
+      "company": "RoboSense",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 7,
+      "current_score": 87,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is robotics lidar and ai-driven perception systems with market cap near $1.86B, so RoboSense can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that RoboSense remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is China listing risk, ASP pressure, customer concentration, and lidar commoditization.",
+      "source_urls": [
+        "https://www.robosense.ai/en/about",
+        "https://www.robosense.ai/en/investor-relations",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "003021.SZ",
+      "company": "Shenzhen Zhaowei Machinery",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 8,
+      "current_score": 84,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is micro-drive, precision transmission, and compact motion modules for robot joints and hands with market cap near $3.63B, so Shenzhen Zhaowei Machinery can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Shenzhen Zhaowei Machinery remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is China A-share accessibility, customer verification, and competition from larger actuator suppliers.",
+      "source_urls": [
+        "https://www.zhaowei.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "300100.SZ",
+      "company": "Shuanglin Co.",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 9,
+      "current_score": 83,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is mechanical systems and actuator-adjacent auto/robotics components with market cap near $2.55B, so Shuanglin Co. can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Shuanglin Co. remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Lower disclosure clarity, auto-cycle exposure, and uncertain direct humanoid revenue.",
+      "source_urls": [
+        "https://www.shuanglin.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "ALNT",
+      "company": "Allient",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 10,
+      "current_score": 82,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is motion, controls, power, servo drives, and compact motors with market cap near $1.45B, so Allient can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Allient remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Industrial cyclicality, indirect exposure, and customer-specific qualification cycles.",
+      "source_urls": [
+        "https://allient.com/press-releases/allient-inc-publishes-new-whitepaper-on-motor-selection-for-humanoid-robotics-systems/",
+        "https://allient.com/humanoid-robot-motors-and-motion-solutions/",
+        "https://allient.com/news/"
+      ]
+    },
+    {
+      "ticker": "603662.SS",
+      "company": "Keli Sensing Technology",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 11,
+      "current_score": 82,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is force, load, and industrial sensing components for robot balance, joints, and manipulation with market cap near $2.43B, so Keli Sensing Technology can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Keli Sensing Technology remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Direct humanoid customer evidence is thinner than the sensor thesis, and A-share liquidity/accessibility matter.",
+      "source_urls": [
+        "http://www.kelichina.com/en/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "002979.SZ",
+      "company": "China Leadshine Technology",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 12,
+      "current_score": 81,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is servo drives, stepper drives, and motion-control systems for industrial automation and robotics with market cap near $2.41B, so China Leadshine Technology can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that China Leadshine Technology remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is YTD appreciation is no longer neutral, and China industrial demand can swamp the humanoid signal.",
+      "source_urls": [
+        "https://www.leadshine.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "AMBA",
+      "company": "Ambarella",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 13,
+      "current_score": 81,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is low-power edge vision socs for robotics, drones, and multi-sensor perception with market cap near $3.17B, so Ambarella can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Ambarella remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Automotive cycle, competition from NVIDIA/Qualcomm/custom ASICs, and no guaranteed humanoid socket.",
+      "source_urls": [
+        "https://www.ambarella.com/news/ambarella-launches-powerful-edge-ai-8k-vision-soc-with-industry-leading-ai-and-multi-sensor-perception-performance/",
+        "https://investor.ambarella.com/"
+      ]
+    },
+    {
+      "ticker": "HSAI",
+      "company": "Hesai",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 14,
+      "current_score": 79,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is high-volume lidar for adas, amrs, humanoids, and industrial robots with market cap near $3.07B, so Hesai can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Hesai remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is China/US listing risk, price competition, and automotive mix may dominate humanoid upside.",
+      "source_urls": [
+        "https://www.hesaitech.com/hesai-announces-plan-to-double-annual-lidar-production-capacity-at-ces-2026/",
+        "https://investor.hesaitech.com/"
+      ]
+    },
+    {
+      "ticker": "300024.SZ",
+      "company": "Siasun Robot & Automation",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 15,
+      "current_score": 79,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is industrial robotics and automation platform with humanoid optionality with market cap near $3.45B, so Siasun Robot & Automation can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Siasun Robot & Automation remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Disclosure quality, China A-share accessibility, and unclear humanoid revenue contribution.",
+      "source_urls": [
+        "https://www.siasun.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://fintel.io/so/cn/300024"
+      ]
+    },
+    {
+      "ticker": "MBLY",
+      "company": "Mobileye",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 16,
+      "current_score": 79,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is autonomy stack plus mentee robotics humanoid platform with market cap near $8.99B, so Mobileye can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Mobileye remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Core auto slowdown, Intel overhang, Mentee integration, and humanoid revenue may be immaterial for years.",
+      "source_urls": [
+        "https://ir.mobileye.com/news-releases/news-release-details/mobileye-acquire-mentee-robotics-accelerate-physical-ai",
+        "https://ir.mobileye.com/financials/sec-filings",
+        "https://www.mobileye.com/news/mobileye-to-acquire-mentee-robotics-to-accelerate-physical-ai-leadership/"
+      ]
+    },
+    {
+      "ticker": "SHA0.DE",
+      "company": "Schaeffler",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 17,
+      "current_score": 79,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is humanoid rotary/linear actuators and industrial deployment partner with market cap near $11.5B, so Schaeffler can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Schaeffler remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Auto/industrial cyclicality, low purity, and actuator economics may be diluted in group financials.",
+      "source_urls": [
+        "https://www.schaeffler.com/de/investor-relations/veranstaltungen-publikationen/ir-mitteilungen/ir_releases_detail.jsp?id=88159810",
+        "https://www.schaeffler.com/remotemedien/media/_shared_media_rwd/08_investor_relations/presentations/20260205_humanoids_at_schaeffler.pdf",
+        "https://www.schaeffler.com/en/investor-relations/events-publications/ir-releases/ir_releases_detail.jsp?id=88159810"
+      ]
+    },
+    {
+      "ticker": "KDK",
+      "company": "Kodiak AI",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 18,
+      "current_score": 78,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is driverless trucking autonomy that may transfer to off-road/mobile robots with market cap near $1.38B, so Kodiak AI can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Kodiak AI remains relevant to Warehouse exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Truck autonomy is not humanoid manipulation; commercial timelines remain uncertain.",
+      "source_urls": [
+        "https://www.kodiak.ai/",
+        "https://investors.kodiak.ai/",
+        "https://www.stocktitan.net/overview/KDK/"
+      ]
+    },
+    {
+      "ticker": "002472.SZ",
+      "company": "Zhejiang Shuanghuan Driveline",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 19,
+      "current_score": 77,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is precision driveline, gears, and reducer-adjacent components with market cap near $4.87B, so Zhejiang Shuanghuan Driveline can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Zhejiang Shuanghuan Driveline remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Auto exposure, China A-share access, and unclear humanoid-specific revenue mix.",
+      "source_urls": [
+        "https://www.gearsnet.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "XPEV",
+      "company": "XPeng",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 20,
+      "current_score": 76,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is iron humanoid robot plus ev autonomy stack with market cap near $16.6B, so XPeng can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that XPeng remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is EV margins, China competition, robot commercialization timing, and dilution of humanoid signal.",
+      "source_urls": [
+        "https://www.xpeng.com/pressroom/news/019bc56e17389bc16cb78a028c710035",
+        "https://ir.xiaopeng.com/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "9880.HK",
+      "company": "UBTECH Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 21,
+      "current_score": 74,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is industrial humanoid walker s/s2 platform with market cap near $6.87B, so UBTECH Robotics can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that UBTECH Robotics remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Execution, China listing risk, order quality, and margin uncertainty.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616924.html",
+        "https://www.ubtrobot.com/global/investor-relations",
+        "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616978.html"
+      ]
+    },
+    {
+      "ticker": "9660.HK",
+      "company": "Horizon Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 22,
+      "current_score": 74,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is embodied edge-ai and autonomous-driving compute platform with market cap near $10.1B, so Horizon Robotics can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Horizon Robotics remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Automotive mix, China listing risk, and low humanoid revenue purity.",
+      "source_urls": [
+        "https://en.horizon.cc/",
+        "https://en.horizon.cc/investor-relations",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "PDYN",
+      "company": "Palladyne AI",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 23,
+      "current_score": 73,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is embodied ai, collaborative autonomy, drones, and defense robotics with market cap near $0.41B, so Palladyne AI can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Palladyne AI remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Defense customer timing, revenue base, strategic pivots, and non-humanoid exposure.",
+      "source_urls": [
+        "https://investor.palladyneai.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=1826681&owner=exclude"
+      ]
+    },
+    {
+      "ticker": "688017.SS",
+      "company": "Leader Harmonious Drive Systems",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 24,
+      "current_score": 73,
+      "current_tier": "Core alpha",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is harmonic reducers and precision transmission for robot joints with market cap near $8.29B, so Leader Harmonious Drive Systems can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Leader Harmonious Drive Systems remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Already up sharply, competitive reducer pricing, and high expectations around China humanoid supply chains.",
+      "source_urls": [
+        "https://www.leaderdrive.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "INDI",
+      "company": "indie Semiconductor",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 25,
+      "current_score": 71,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is mixed-signal socs, lidar socs, photonics, and perception software with market cap near $1.03B, so indie Semiconductor can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that indie Semiconductor remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Automotive concentration, cash burn, and humanoid contribution is still speculative.",
+      "source_urls": [
+        "https://investors.indie.inc/news/news-details/2026/indie-Reports-First-Quarter-2026-Results/default.aspx",
+        "https://investors.indie.inc/"
+      ]
+    },
+    {
+      "ticker": "MP",
+      "company": "MP Materials",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 26,
+      "current_score": 70,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is rare-earth magnet material supply chain for compact motors and actuators with market cap near $12.0B, so MP Materials can justify a move up call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that MP Materials remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Commodity exposure, policy-driven valuation, and indirect humanoid purity.",
+      "source_urls": [
+        "https://investors.mpmaterials.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=1801368&owner=exclude",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "NOVT",
+      "company": "Novanta",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 27,
+      "current_score": 66,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is precision motion, force sensing, and surgical robotics subsystems with market cap near $5.82B, so Novanta can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Novanta remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Medical/surgical mix dominates, valuation, and limited direct humanoid disclosure.",
+      "source_urls": [
+        "https://novanta.com/news/the-future-of-robotics-is-built-joint-by-joint/",
+        "https://investors.novanta.com/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "ZBRA",
+      "company": "Zebra Technologies",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 28,
+      "current_score": 65,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is warehouse automation, machine vision, and legacy fetch/symmetry robotics footprint with market cap near $11.9B, so Zebra Technologies can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Zebra Technologies remains relevant to Warehouse exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Lower purity after divestiture, enterprise hardware cycle, and margin pressure.",
+      "source_urls": [
+        "https://investors.zebra.com/",
+        "https://www.sec.gov/Archives/edgar/data/877212/000162828026023512/zebra2025annualreport.pdf",
+        "https://via.ritzau.dk/pressemeddelelse/14889812/skild-ai-acquires-zebra-technologies-robotics-automation-business?lang=en&publisherId=90456"
+      ]
+    },
+    {
+      "ticker": "8147.TWO",
+      "company": "Nextronics Engineering",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 29,
+      "current_score": 64,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is connectors, mechanisms, and rugged industrial components for amrs/humanoids with market cap near $0.23B, so Nextronics Engineering can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Nextronics Engineering remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Taiwan OTC liquidity, component commoditization, and difficult customer verification.",
+      "source_urls": [
+        "https://www.nextron.com.tw/news/web-news-industry/XoLT0nirio6UDB7a",
+        "https://www.nextrongroup.com/industry/web-intro-industry-4"
+      ]
+    },
+    {
+      "ticker": "AEVA",
+      "company": "Aeva",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 30,
+      "current_score": 63,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is fmcw 4d lidar for autonomy, factory automation, and robotics with market cap near $1.75B, so Aeva can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Aeva remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Automotive-heavy roadmap, lidar competition, and customer concentration.",
+      "source_urls": [
+        "https://www.aeva.com/",
+        "https://investors.aeva.com/"
+      ]
+    },
+    {
+      "ticker": "6268.T",
+      "company": "Nabtesco",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 31,
+      "current_score": 63,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is cycloidal precision reduction gears for robot joints with market cap near $3.96B, so Nabtesco can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Nabtesco remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Run-up, industrial robot cycle, and China competition.",
+      "source_urls": [
+        "https://www.nabtesco.com/en/products/robot/",
+        "https://www.nabtesco.com/en/news/20260218-17670/"
+      ]
+    },
+    {
+      "ticker": "OUST",
+      "company": "Ouster",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 32,
+      "current_score": 62,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is digital lidar, stereolabs vision, and physical-ai perception stack with market cap near $2.75B, so Ouster can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Ouster remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Lidar competition, gross margin volatility, and narrative crowding.",
+      "source_urls": [
+        "https://ouster.com/ouster-x-stereolabs",
+        "https://investors.ouster.com/"
+      ]
+    },
+    {
+      "ticker": "108490.KQ",
+      "company": "ROBOTIS",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 33,
+      "current_score": 57,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is dynamixel actuators, open robots, and ai worker humanoid exposure with market cap near $3.68B, so ROBOTIS can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that ROBOTIS remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Korea small-cap volatility, valuation, and revenue conversion timing.",
+      "source_urls": [
+        "https://www.robotis.com/",
+        "https://en.robotis.com/",
+        "https://jakotaindex.com/stocks/108490-kq/"
+      ]
+    },
+    {
+      "ticker": "SYM",
+      "company": "Symbotic",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 34,
+      "current_score": 57,
+      "current_tier": "Watchlist",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is ai warehouse robotics and goods-to-person automation with market cap near $28.0B, so Symbotic can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Symbotic remains relevant to Warehouse exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Customer concentration, execution, and non-humanoid form factor.",
+      "source_urls": [
+        "https://www.symbotic.com/solutions/robots/",
+        "https://ir.symbotic.com/"
+      ]
+    },
+    {
+      "ticker": "6324.T",
+      "company": "Harmonic Drive Systems",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 35,
+      "current_score": 50,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is strain-wave gearing and compact actuators for robot joints with market cap near $4.57B, so Harmonic Drive Systems can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Harmonic Drive Systems remains relevant to Actuation exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Run-up, gear commoditization, and cyclical order timing.",
+      "source_urls": [
+        "https://www.hds.co.jp/english/ir/",
+        "https://www.hds.co.jp/english/product/",
+        "https://humanoidroboticstechnology.com/company/harmonic-drive-llc/sha-with-integrated-servo-drive/"
+      ]
+    },
+    {
+      "ticker": "AMBQ",
+      "company": "Ambiq Micro",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 36,
+      "current_score": 45,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is ultra-low-power edge ai socs for battery-powered robots and sensors with market cap near $1.57B, so Ambiq Micro can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Ambiq Micro remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Newly public volatility, narrow revenue base, and no confirmed humanoid socket.",
+      "source_urls": [
+        "https://ir.ambiq.com/news/news-details/2026/Ambiq-Unveils-Atomiq-the-Worlds-First-Ultra-Low-Power-NPU-SoC-Built-on-SPOT-2026-4LjJRzjeGy/default.aspx",
+        "https://ir.ambiq.com/"
+      ]
+    },
+    {
+      "ticker": "VPG",
+      "company": "Vishay Precision Group",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 37,
+      "current_score": 44,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is force sensors and weighing/measurement components with market cap near $1.68B, so Vishay Precision Group can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Vishay Precision Group remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Run-up, Reddit-driven narrative risk, and indirect exposure.",
+      "source_urls": [
+        "https://www.vpgforcesensors.com/2026databook",
+        "https://ir.vpgsensors.com/"
+      ]
+    },
+    {
+      "ticker": "NEO.TO",
+      "company": "Neo Performance Materials",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 38,
+      "current_score": 42,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is rare earth and magnet materials with market cap near $0.94B, so Neo Performance Materials can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Neo Performance Materials remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Commodity cycle and indirectness.",
+      "source_urls": [
+        "https://www.neomaterials.com/",
+        "https://www.neomaterials.com/investors/"
+      ]
+    },
+    {
+      "ticker": "277810.KQ",
+      "company": "Rainbow Robotics",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 39,
+      "current_score": 42,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is samsung-controlled humanoid/cobot platform with market cap near $10.7B, so Rainbow Robotics can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Rainbow Robotics remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is High valuation, Samsung dependency, and very high crowd awareness.",
+      "source_urls": [
+        "https://www.rainbow-robotics.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://en.wikipedia.org/wiki/Rainbow_Robotics"
+      ]
+    },
+    {
+      "ticker": "CGNX",
+      "company": "Cognex",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 40,
+      "current_score": 41,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is industrial machine vision and nvidia-powered vision controller with market cap near $10.9B, so Cognex can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Cognex remains relevant to Sensing exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Factory automation cycle and valuation.",
+      "source_urls": [
+        "https://investor.cognex.com/news/news-details/2026/Cognex-Launches-In-Sight-Vision-Controller-Powered-by-NVIDIA/default.aspx",
+        "https://investor.cognex.com/"
+      ]
+    },
+    {
+      "ticker": "LSCC",
+      "company": "Lattice Semiconductor",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 41,
+      "current_score": 41,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is low-power fpgas for industrial control, robotics, and physical ai with market cap near $20.6B, so Lattice Semiconductor can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Lattice Semiconductor remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Valuation, AI infrastructure crowding, and non-humanoid purity.",
+      "source_urls": [
+        "https://www.latticesemi.com/About/Investor-Relations",
+        "https://www.latticesemi.com/",
+        "https://www.fool.com/earnings/call-transcripts/2026/02/10/lattice-semiconductor-lscc-earnings-transcript/"
+      ]
+    },
+    {
+      "ticker": "KLIC",
+      "company": "Kulicke & Soffa",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 42,
+      "current_score": 39,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is advanced packaging and assembly equipment with market cap near $5.60B, so Kulicke & Soffa can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Kulicke & Soffa remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Semicap cycle and low humanoid purity.",
+      "source_urls": [
+        "https://investor.kns.com/",
+        "https://www.kns.com/",
+        "https://www.stocktitan.net/news/KLIC/kulicke-soffa-reports-second-quarter-2026-en3fdnle73lc.html"
+      ]
+    },
+    {
+      "ticker": "MRAM",
+      "company": "Everspin Technologies",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 43,
+      "current_score": 35,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is mram and tmr sensor products for industrial/mission-critical edge systems with market cap near $0.71B, so Everspin Technologies can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Everspin Technologies remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Post-rerating downside, defense/industrial concentration, and weak direct humanoid evidence.",
+      "source_urls": [
+        "https://investor.everspin.com/news-releases/news-release-details/everspin-technologies-expands-shore-mram-manufacturing-capacity",
+        "https://investor.everspin.com/"
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "company": "Intuitive Surgical",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 44,
+      "current_score": 27,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is surgical robotics leader with market cap near $146.0B, so Intuitive Surgical can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Intuitive Surgical remains relevant to Demoted exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Large-cap valuation and unrelated surgical robotics end market.",
+      "source_urls": [
+        "https://isrg.intuitive.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=1035267&owner=exclude"
+      ]
+    },
+    {
+      "ticker": "ATOM",
+      "company": "Atomera",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 45,
+      "current_score": 25,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is semiconductor materials ip with market cap near $0.37B, so Atomera can justify a move down call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Atomera remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Speculative IP model and weak humanoid linkage.",
+      "source_urls": [
+        "https://ir.atomera.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=1420520&owner=exclude"
+      ]
+    },
+    {
+      "ticker": "ABBN.SW",
+      "company": "ABB",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 46,
+      "current_score": 21,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is industrial robotics and automation conglomerate with market cap near $197.3B, so ABB can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that ABB remains relevant to Demoted exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Low humanoid purity and large-cap dilution.",
+      "source_urls": [
+        "https://global.abb/group/en/investors",
+        "https://new.abb.com/products/robotics"
+      ]
+    },
+    {
+      "ticker": "300750.SZ",
+      "company": "CATL",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 47,
+      "current_score": 21,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is battery leader and internal humanoid factory automation user with market cap near $291.4B, so CATL can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that CATL remains relevant to Materials exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Low purity, huge market cap, and battery cycle exposure.",
+      "source_urls": [
+        "https://www.catl.com/en/news/6811.html",
+        "https://www.catl.com/en/investor_relations/",
+        "https://www.gizmochina.com/2025/12/18/catl-successfully-deploys-humanoid-robots-to-quality-critical-work-on-ev-batteries/"
+      ]
+    },
+    {
+      "ticker": "005380.KS",
+      "company": "Hyundai Motor",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 48,
+      "current_score": 10,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is boston dynamics atlas parent and industrial deployment channel with market cap near $118.5B, so Hyundai Motor can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Hyundai Motor remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Auto-cycle dominance, low robot financial contribution, and massive YTD move.",
+      "source_urls": [
+        "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001100",
+        "https://bostondynamics.com/atlas/"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 49,
+      "current_score": 8,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is optimus humanoid program with market cap near $1584.0B, so Tesla can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that Tesla remains relevant to Builder exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Mega-cap valuation and EV/FSD dominate returns.",
+      "source_urls": [
+        "https://ir.tesla.com/",
+        "https://www.tesla.com/AI",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "page": "app/robotics/page.tsx:ranked-alpha",
+      "current_rank": 50,
+      "current_score": 3,
+      "current_tier": "Demoted",
+      "rank_basis": "humanoid-alpha score and displayed rerank",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is gr00t, isaac, jetson, cosmos, and robotics developer ecosystem with market cap near $5211.0B, so NVIDIA can justify a hold call if physical-AI deployments start converting into component or platform revenue.",
+      "neutral_case": "2026-06-03: Neutral case is that NVIDIA remains relevant to Edge AI exposure, but the page should weight direct humanoid revenue, customer validation, liquidity, and YTD rerating more than demo visibility.",
+      "bear_case": "2026-06-03: Bear case is Mega-cap consensus, AI capex cycle, and valuation.",
+      "source_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://www.nvidia.com/en-us/industries/robotics/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "2498.HK",
+      "company": "RoboSense Technology",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 1,
+      "fund_rank": 49,
+      "current_score": 78,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes RoboSense Technology at fund rank #49 with 1.41% weight, validating sensing exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because RoboSense Technology is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Robotics lidar exposure with smaller cap and negative YTD rerating; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.robosense.ai/en/about",
+        "https://www.robosense.ai/en/investor-relations",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "003021.SZ",
+      "company": "Shenzhen Zhaowei Machinery",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 2,
+      "fund_rank": 43,
+      "current_score": 77,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Shenzhen Zhaowei Machinery at fund rank #43 with 1.60% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Shenzhen Zhaowei Machinery is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Micro-drive and precision transmission angle; much less crowded than the Japan reducer leaders; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.zhaowei.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "002979.SZ",
+      "company": "China Leadshine Technology",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 3,
+      "fund_rank": 14,
+      "current_score": 76,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes China Leadshine Technology at fund rank #14 with 2.30% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because China Leadshine Technology is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Motion-control and servo exposure with still-reasonable market cap; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.leadshine.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "603662.SS",
+      "company": "Keli Sensing Technology",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 4,
+      "fund_rank": 38,
+      "current_score": 76,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Keli Sensing Technology at fund rank #38 with 1.70% weight, validating sensing exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Keli Sensing Technology is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Force/load sensor supplier with the right body-stack angle and a pullback; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "http://www.kelichina.com/en/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "300100.SZ",
+      "company": "Shuanglin Co.",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 5,
+      "fund_rank": 44,
+      "current_score": 75,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Shuanglin Co. at fund rank #44 with 1.58% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Shuanglin Co. is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Small-cap China actuator/mechanical systems candidate with meaningful rerating room; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.shuanglin.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "SHA0.DE",
+      "company": "Schaeffler",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 6,
+      "fund_rank": 21,
+      "current_score": 74,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Schaeffler at fund rank #21 with 2.08% weight, validating actuation exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Schaeffler is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Direct Humanoid partnership and actuator supply; larger cap but strong evidence; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.schaeffler.com/de/investor-relations/veranstaltungen-publikationen/ir-mitteilungen/ir_releases_detail.jsp?id=88159810",
+        "https://www.schaeffler.com/remotemedien/media/_shared_media_rwd/08_investor_relations/presentations/20260205_humanoids_at_schaeffler.pdf",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "9868.HK",
+      "company": "XPeng",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 7,
+      "fund_rank": 48,
+      "current_score": 73,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes XPeng at fund rank #48 with 1.41% weight, validating builder exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because XPeng is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is IRON humanoid call option embedded inside a pulled-back EV/autonomy platform; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.xpeng.com/pressroom/news/019bc56e17389bc16cb78a028c710035",
+        "https://ir.xiaopeng.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "002472.SZ",
+      "company": "Zhejiang Shuanghuan Driveline",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 8,
+      "fund_rank": 30,
+      "current_score": 72,
+      "current_tier": "Alpha candidate",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Zhejiang Shuanghuan Driveline at fund rank #30 with 1.80% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Zhejiang Shuanghuan Driveline is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Precision driveline and reducer exposure with pullback support; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.gearsnet.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "688017.SS",
+      "company": "Leader Harmonious Drive Systems",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 9,
+      "fund_rank": 16,
+      "current_score": 71,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Leader Harmonious Drive Systems at fund rank #16 with 2.25% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Leader Harmonious Drive Systems is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is China harmonic reducer leader; excellent exposure, less hidden after the move; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.leaderdrive.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "9880.HK",
+      "company": "UBTECH Robotics",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 10,
+      "fund_rank": 24,
+      "current_score": 70,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes UBTECH Robotics at fund rank #24 with 1.95% weight, validating builder exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because UBTECH Robotics is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Direct public humanoid builder; good evidence, but a known KOID/crowd name; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616924.html",
+        "https://www.ubtrobot.com/global/investor-relations",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "MP",
+      "company": "MP Materials",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 11,
+      "fund_rank": 20,
+      "current_score": 69,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes MP Materials at fund rank #20 with 2.08% weight, validating materials exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because MP Materials is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Magnet materials are real body-stack bottlenecks, though MP is already a known strategic materials trade; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.mpmaterials.com/",
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=1801368&owner=exclude",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "002050.SZ",
+      "company": "Zhejiang Sanhua Intelligent Controls",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 12,
+      "fund_rank": 27,
+      "current_score": 69,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Zhejiang Sanhua Intelligent Controls at fund rank #27 with 1.84% weight, validating actuation exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Zhejiang Sanhua Intelligent Controls is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Thermal/mechatronics supplier with pullback, but larger cap dilutes alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.sanhua.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "9660.HK",
+      "company": "Horizon Robotics",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 13,
+      "fund_rank": 47,
+      "current_score": 69,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Horizon Robotics at fund rank #47 with 1.49% weight, validating edge ai exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Horizon Robotics is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Embodied edge-AI proxy with a large pullback, though not pure humanoid; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://en.horizon.cc/",
+        "https://en.horizon.cc/investor-relations",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "MBLY",
+      "company": "Mobileye",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 14,
+      "fund_rank": 10,
+      "current_score": 68,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Mobileye at fund rank #10 with 2.40% weight, validating builder exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Mobileye is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Mentee acquisition matters; still scored below smaller, less obvious component names; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://ir.mobileye.com/news-releases/news-release-details/mobileye-acquire-mentee-robotics-accelerate-physical-ai",
+        "https://ir.mobileye.com/financials/sec-filings",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "ST",
+      "company": "Sensata Technologies",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 15,
+      "fund_rank": 17,
+      "current_score": 67,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Sensata Technologies at fund rank #17 with 2.15% weight, validating sensing exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Sensata Technologies is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Sensor supplier with robotics relevance; YTD move limits new alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.sensata.com/",
+        "https://www.sensata.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "601689.SS",
+      "company": "Ningbo Tuopu Group",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 16,
+      "fund_rank": 31,
+      "current_score": 67,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Ningbo Tuopu Group at fund rank #31 with 1.79% weight, validating actuation exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Ningbo Tuopu Group is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Auto component supplier with humanoid-mechanical optionality but not small; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.tuopu.com/en/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "601100.SS",
+      "company": "Jiangsu Hengli Hydraulic",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 17,
+      "fund_rank": 34,
+      "current_score": 66,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Jiangsu Hengli Hydraulic at fund rank #34 with 1.76% weight, validating actuation exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Jiangsu Hengli Hydraulic is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Hydraulics/actuation exposure with moderate rerating room; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.henglihydraulic.com/en/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "6268.T",
+      "company": "Nabtesco",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 18,
+      "fund_rank": 15,
+      "current_score": 65,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Nabtesco at fund rank #15 with 2.25% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Nabtesco is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Real reducer exposure, but already popular and up strongly; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.nabtesco.com/en/products/robot/",
+        "https://www.nabtesco.com/en/news/20260218-17670/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "NOVT",
+      "company": "Novanta",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 19,
+      "fund_rank": 22,
+      "current_score": 64,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Novanta at fund rank #22 with 2.04% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Novanta is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is High-quality motion/vision supplier; not a bargain; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://novanta.com/news/the-future-of-robotics-is-built-joint-by-joint/",
+        "https://investors.novanta.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "MOG-A",
+      "company": "Moog Class A",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 20,
+      "fund_rank": 42,
+      "current_score": 64,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Moog Class A at fund rank #42 with 1.62% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Moog Class A is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Precision motion control and aerospace controls; decent but not hidden; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.moog.com/investors.html",
+        "https://www.moog.com/markets/industrial.html",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "MELE.BR",
+      "company": "Melexis",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 21,
+      "fund_rank": 12,
+      "current_score": 63,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Melexis at fund rank #12 with 2.37% weight, validating sensing exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Melexis is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Robotics-relevant sensors, already rerated; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.melexis.com/en/investors",
+        "https://www.melexis.com/en/products",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "6594.T",
+      "company": "Nidec",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 22,
+      "fund_rank": 25,
+      "current_score": 63,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Nidec at fund rank #25 with 1.88% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Nidec is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Motor leader with humanoid relevance, but broad and fairly well known; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.nidec.com/en/ir/",
+        "https://www.nidec.com/en/product/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "RRX",
+      "company": "Regal Rexnord",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 23,
+      "fund_rank": 37,
+      "current_score": 62,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Regal Rexnord at fund rank #37 with 1.72% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Regal Rexnord is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Motion/power transmission name with rising crowd awareness; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.regalrexnord.com/",
+        "https://www.regalrexnord.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "TEL",
+      "company": "TE Connectivity",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 24,
+      "fund_rank": 45,
+      "current_score": 62,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes TE Connectivity at fund rank #45 with 1.56% weight, validating materials exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because TE Connectivity is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Connectors and sensors matter, but scale dilutes humanoid alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.te.com/",
+        "https://www.te.com/usa-en/industries/robotics.html",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "APH",
+      "company": "Amphenol",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 25,
+      "fund_rank": 46,
+      "current_score": 62,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Amphenol at fund rank #46 with 1.56% weight, validating materials exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Amphenol is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Connector content is relevant; mega-cap size limits upside asymmetry; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.amphenol.com/",
+        "https://www.amphenol.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "6324.T",
+      "company": "Harmonic Drive Systems",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 26,
+      "fund_rank": 3,
+      "current_score": 60,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Harmonic Drive Systems at fund rank #3 with 2.83% weight, validating actuation exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Harmonic Drive Systems is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is A core actuator bottleneck, but KOID and the crowd have already discovered it; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.hds.co.jp/english/ir/",
+        "https://www.hds.co.jp/english/product/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "LYC.AX",
+      "company": "Lynas Rare Earths",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 27,
+      "fund_rank": 41,
+      "current_score": 60,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Lynas Rare Earths at fund rank #41 with 1.62% weight, validating materials exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Lynas Rare Earths is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Relevant magnet-input chain, but already rerated and less direct than MP/Mkango-style ideas; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://lynasrareearths.com/investors-media/",
+        "https://lynasrareearths.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "6481.T",
+      "company": "THK",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 28,
+      "fund_rank": 5,
+      "current_score": 58,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes THK at fund rank #5 with 2.52% weight, validating actuation exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because THK is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Linear motion leader; price has already moved too much for fresh alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.thk.com/?q=us/node/5270",
+        "https://www.thk.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "2049.TW",
+      "company": "HIWIN Technologies",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 29,
+      "fund_rank": 9,
+      "current_score": 58,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes HIWIN Technologies at fund rank #9 with 2.41% weight, validating actuation exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because HIWIN Technologies is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Useful mechanical exposure, but up almost 95% YTD; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.hiwin.com/",
+        "https://www.hiwin.com/investor",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "6723.T",
+      "company": "Renesas Electronics",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 30,
+      "fund_rank": 8,
+      "current_score": 56,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Renesas Electronics at fund rank #8 with 2.46% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Renesas Electronics is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Good embedded semiconductor exposure, weak hidden-alpha setup after rerating; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.renesas.com/us/en/about/investor-relations",
+        "https://www.renesas.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "000150.KS",
+      "company": "Doosan",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 31,
+      "fund_rank": 13,
+      "current_score": 56,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Doosan at fund rank #13 with 2.34% weight, validating builder exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Doosan is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Robotics group exposure, but already up over 100% YTD; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.doosan.com/en/ir/",
+        "https://www.doosanrobotics.com/en",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo Technology",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 32,
+      "fund_rank": 1,
+      "current_score": 55,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Credo Technology at fund rank #1 with 3.04% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Credo Technology is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Cabling/optical interconnect enabler for AI, not direct humanoid alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.credosemi.com/news-events/press-releases",
+        "https://www.credosemi.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "company": "NXP Semiconductors",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 33,
+      "fund_rank": 11,
+      "current_score": 55,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes NXP Semiconductors at fund rank #11 with 2.37% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because NXP Semiconductors is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Embedded automotive/industrial chip exposure; diversified and large; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.nxp.com/",
+        "https://www.nxp.com/company/about-nxp/investors:INVESTORS",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "MG.TO",
+      "company": "Magna International",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 34,
+      "fund_rank": 35,
+      "current_score": 55,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Magna International at fund rank #35 with 1.74% weight, validating materials exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Magna International is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Auto supplier exposure; KOID role is broad physical manufacturing, not direct humanoid; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.magna.com/investors",
+        "https://www.magna.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "company": "Hexagon",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 35,
+      "fund_rank": 39,
+      "current_score": 55,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Hexagon at fund rank #39 with 1.64% weight, validating sensing exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Hexagon is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Metrology and autonomy tooling are relevant, but market cap and breadth dilute alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://hexagon.com/company/investor-relations",
+        "https://hexagon.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "600111.SS",
+      "company": "China Northern Rare Earth",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 36,
+      "fund_rank": 28,
+      "current_score": 54,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes China Northern Rare Earth at fund rank #28 with 1.83% weight, validating materials exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because China Northern Rare Earth is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Magnet-material input, but commodity and state-linked scale dilute single-name alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.reht.com/en/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "JBL",
+      "company": "Jabil",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 37,
+      "fund_rank": 18,
+      "current_score": 53,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Jabil at fund rank #18 with 2.14% weight, validating warehouse exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Jabil is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Manufacturing services optionality; not humanoid-pure and already rerated; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.jabil.com/news/",
+        "https://www.jabil.com/industries/cloud-data-center-infrastructure.html",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "STMMI.MI",
+      "company": "STMicroelectronics",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 38,
+      "fund_rank": 2,
+      "current_score": 52,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes STMicroelectronics at fund rank #2 with 2.87% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because STMicroelectronics is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Strong sensor/MCU franchise, but the YTD move breaks hidden-alpha discipline; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investors.st.com/",
+        "https://www.st.com/content/st_com/en/about/investor-relations.html",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "IFX.DE",
+      "company": "Infineon Technologies",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 39,
+      "fund_rank": 4,
+      "current_score": 52,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Infineon Technologies at fund rank #4 with 2.67% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Infineon Technologies is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Industrial power semiconductor exposure, but too large and rerated; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.infineon.com/cms/en/about-infineon/investor/",
+        "https://www.infineon.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "002600.SZ",
+      "company": "Lingyi iTech Guangdong",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 40,
+      "fund_rank": 29,
+      "current_score": 52,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Lingyi iTech Guangdong at fund rank #29 with 1.82% weight, validating materials exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Lingyi iTech Guangdong is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Mechanical/electronics manufacturing angle, but weaker direct humanoid evidence; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.lingyiitech.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "TDY",
+      "company": "Teledyne Technologies",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 41,
+      "fund_rank": 40,
+      "current_score": 51,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Teledyne Technologies at fund rank #40 with 1.63% weight, validating sensing exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Teledyne Technologies is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is High-quality sensing/imaging, but not a humanoid hidden gem; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.teledyne.com/investors",
+        "https://www.teledyne.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "APTV",
+      "company": "Aptiv",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 42,
+      "fund_rank": 50,
+      "current_score": 51,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Aptiv at fund rank #50 with 1.22% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Aptiv is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Automotive electronics pullback helps, but humanoid purity is low; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://ir.aptiv.com/",
+        "https://www.aptiv.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "300124.SZ",
+      "company": "Shenzhen Inovance Technology",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 43,
+      "fund_rank": 36,
+      "current_score": 50,
+      "current_tier": "Useful exposure",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Shenzhen Inovance Technology at fund rank #36 with 1.74% weight, validating actuation exposure and supporting a move up call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Shenzhen Inovance Technology is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Industrial automation leader; good stack fit but already large; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.inovance.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 44,
+      "fund_rank": 7,
+      "current_score": 48,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Texas Instruments at fund rank #7 with 2.46% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Texas Instruments is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Analog and embedded compute matter, but this is large-cap ballast after a big move; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investor.ti.com/",
+        "https://www.ti.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "company": "Analog Devices",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 45,
+      "fund_rank": 19,
+      "current_score": 48,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Analog Devices at fund rank #19 with 2.13% weight, validating edge ai exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Analog Devices is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Excellent analog franchise; not hidden humanoid alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investor.analog.com/",
+        "https://www.analog.com/en/index.html",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "6861.T",
+      "company": "Keyence",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 46,
+      "fund_rank": 32,
+      "current_score": 47,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Keyence at fund rank #32 with 1.78% weight, validating sensing exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Keyence is classified as diversified supplier and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Machine vision/sensing quality, but very large and well known; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.keyence.com/investor_relations/",
+        "https://www.keyence.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "RBC",
+      "company": "RBC Bearings",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 47,
+      "fund_rank": 33,
+      "current_score": 47,
+      "current_tier": "Index ballast",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is that KOID includes RBC Bearings at fund rank #33 with 1.77% weight, validating actuation exposure and supporting a move down call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because RBC Bearings is classified as core component and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Bearings content is relevant; valuation and directness are weaker; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investor.rbcbearings.com/",
+        "https://www.rbcbearings.com/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "277810.KQ",
+      "company": "Rainbow Robotics",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 48,
+      "fund_rank": 6,
+      "current_score": 45,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Rainbow Robotics at fund rank #6 with 2.49% weight, validating builder exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Rainbow Robotics is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Direct humanoid exposure, but KOID weight and Samsung narrative mean it is no longer hidden; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://www.rainbow-robotics.com/",
+        "https://kraneshares.com/etf/koid/",
+        "https://kraneshares.com/csv/05_13_2026_koid_holdings.csv"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 49,
+      "fund_rank": 26,
+      "current_score": 30,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes Tesla at fund rank #26 with 1.87% weight, validating builder exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because Tesla is classified as direct humanoid and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is Optimus is important, but TSLA is the consensus humanoid benchmark, not alpha; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://ir.tesla.com/",
+        "https://www.tesla.com/AI",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "page": "app/robotics/page.tsx:koid-audit",
+      "current_rank": 50,
+      "fund_rank": 23,
+      "current_score": 25,
+      "current_tier": "Demoted",
+      "rank_basis": "KOID holdings audit alpha and fund-rank cross-check",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is that KOID includes NVIDIA at fund rank #23 with 2.04% weight, validating edge ai exposure and supporting a hold call where purity is not already crowded.",
+      "neutral_case": "2026-06-03: Neutral case is that the KOID signal is useful but not sufficient by itself because NVIDIA is classified as physical ai enabler and the equity still has to prove incremental humanoid revenue.",
+      "bear_case": "2026-06-03: Bear case is The platform winner, but too large and obvious for the hidden-gem mandate; fund inclusion can also create consensus crowding before operating evidence catches up.",
+      "source_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://www.nvidia.com/en-us/industries/robotics/",
+        "https://kraneshares.com/etf/koid/"
+      ]
+    },
+    {
+      "ticker": "BESI.AS",
+      "company": "BE Semiconductor",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 1,
+      "current_score": 89.9,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is hybrid-bonding assembly tool leader, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that BE Semiconductor remains a valid Equipment node, but the page should balance 9.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is BE Semiconductor loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.besi.com/investor-relations/financial-reports-and-results/",
+        "https://www.besi.com/"
+      ]
+    },
+    {
+      "ticker": "ONTO",
+      "company": "Onto Innovation",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 2,
+      "current_score": 86.8,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is inspection and metrology specialist for advanced packaging, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Onto Innovation remains a valid Equipment node, but the page should balance 8.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Onto Innovation loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.ontoinnovation.com/news-events/press-releases",
+        "https://ontoinnovation.com/"
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "company": "Credo",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 3,
+      "current_score": 86,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is aec and connectivity specialist with architecture risk, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Credo remains a valid Networking Optics node, but the page should balance 8.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Credo gets pressured if inventory builds, copper solutions hold share longer, or CPO gets internally integrated elsewhere. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.credosemi.com/news-events/press-releases",
+        "https://www.credosemi.com/"
+      ]
+    },
+    {
+      "ticker": "2330.TW",
+      "company": "TSMC",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 4,
+      "current_score": 85.5,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is dominant foundry and cowos bottleneck capture, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that TSMC remains a valid Foundry Packaging node, but the page should balance 10.0/10 AI sensitivity against 5.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is TSMC gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investor.tsmc.com/english/monthly-revenue/2026",
+        "https://investor.tsmc.com/english/quarterly-results/2026/q1",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "AMKR",
+      "company": "Amkor",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 5,
+      "current_score": 83.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is advanced-packaging outsourcing beneficiary, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Amkor remains a valid Foundry Packaging node, but the page should balance 8.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Amkor gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://ir.amkor.com/news-releases",
+        "https://amkor.com/technology/advanced-packaging/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "company": "Coherent",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 6,
+      "current_score": 83.6,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is vertically integrated photonics and optical-components supplier, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Coherent remains a valid Networking / optics node, but the page should balance 9.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Coherent is broad enough that execution can blur the equity story. If optical demand weakens before newer architectures scale, the market may stop paying a premium for breadth.",
+      "source_urls": [
+        "https://investors.coherent.com/news/default.aspx",
+        "https://www.coherent.com/"
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 7,
+      "current_score": 81.2,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is hybrid-bonding and wafer-fab equipment supplier, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Applied Materials remains a valid Equipment node, but the page should balance 8.0/10 AI sensitivity against 5.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Applied Materials loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://ir.appliedmaterials.com/news-releases",
+        "https://www.appliedmaterials.com/us/en/semiconductor/technologies/advanced-packaging.html"
+      ]
+    },
+    {
+      "ticker": "6857.T",
+      "company": "Advantest",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 8,
+      "current_score": 80.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is memory and ai test-equipment leader, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Advantest remains a valid Equipment node, but the page should balance 8.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Advantest loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.advantest.com/investors/",
+        "https://www.advantest.com/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "company": "Teradyne",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 9,
+      "current_score": 78,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is test equipment beneficiary of memory and advanced packaging complexity, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Teradyne remains a valid Equipment node, but the page should balance 7.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Teradyne loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.teradyne.com/news-events/press-releases",
+        "https://www.teradyne.com/",
+        "https://www.collyerbridge.com/post/apac-wrap-kyocera-6971-t-micron-mu-teradyne-ter-intel-intc-apple-aapl-and-more"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 10,
+      "current_score": 77.1,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is dominant ai accelerator vendor, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that NVIDIA remains a valid Compute Silicon node, but the page should balance 10.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is NVIDIA gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "https://www.nvidia.com/en-us/industries/robotics/"
+      ]
+    },
+    {
+      "ticker": "6920.T",
+      "company": "Lasertec",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 11,
+      "current_score": 76.9,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is euv mask-inspection bottleneck name, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Lasertec remains a valid Equipment node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Lasertec loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.lasertec.co.jp/en/ir/",
+        "https://www.lasertec.co.jp/en/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "8035.T",
+      "company": "Tokyo Electron",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 12,
+      "current_score": 76.7,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is broad semicap supplier to foundry and memory ramps, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Tokyo Electron remains a valid Equipment node, but the page should balance 7.0/10 AI sensitivity against 5.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Tokyo Electron loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.tel.com/ir/library/",
+        "https://www.tel.com/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 13,
+      "current_score": 76,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is laser, eml, and optical-module supplier for ai networking, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Lumentum remains a valid Networking Optics node, but the page should balance 8.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is optical demand is still cyclical, hyperscalers can push architecture shifts faster than the supply chain expects, and Lumentum has to execute through a period where CPO enthusiasm can outrun actual shipment timing.",
+      "source_urls": [
+        "https://investor.lumentum.com/news-releases",
+        "https://www.lumentum.com/"
+      ]
+    },
+    {
+      "ticker": "6146.T",
+      "company": "Disco",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 14,
+      "current_score": 75.3,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is dicing and grinding tool leader, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Disco remains a valid Equipment node, but the page should balance 7.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Disco loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.disco.co.jp/eg/ir/",
+        "https://www.disco.co.jp/eg/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "FORM",
+      "company": "FormFactor",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 15,
+      "current_score": 75.3,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is probe-card and test exposure to siph / cpo, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that FormFactor remains a valid Equipment / test node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is testing names can remain too early and too indirect if optical ramps slip. Investors may prefer the flashier optical suppliers unless evidence of real production bottlenecks keeps compounding.",
+      "source_urls": [
+        "https://investors.formfactor.com/news-releases/",
+        "https://www.formfactor.com/"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 16,
+      "current_score": 75,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is azure / enterprise ai distribution leader, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Microsoft remains a valid Hyperscaler node, but the page should balance 8.0/10 AI sensitivity against 4.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Microsoft trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/Investor/earnings/default.aspx",
+        "https://azure.microsoft.com/en-us/solutions/ai"
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "company": "ASML",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 17,
+      "current_score": 74.9,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is euv lithography tollbooth, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that ASML remains a valid Equipment node, but the page should balance 8.0/10 AI sensitivity against 5.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is ASML loses momentum quickly if customers pause orders after the current buildout wave. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.asml.com/en/investors/financial-results",
+        "https://www.asml.com/en/investors",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "3711.TW",
+      "company": "ASE Technology",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 18,
+      "current_score": 74.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is largest osat with ai-packaging exposure, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that ASE Technology remains a valid Foundry Packaging node, but the page should balance 8.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is ASE Technology gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.aseglobal.com/en/investor",
+        "https://www.aseglobal.com/en/technology/advanced_packaging",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "TSEM",
+      "company": "Tower Semiconductor",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 19,
+      "current_score": 73.9,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is specialty foundry for silicon photonics and optical programs, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Tower Semiconductor remains a valid Foundry / specialty photonics node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Tower still depends on customer timing and the speed at which photonics programs leave the lab. If that adoption curve flattens, the stock can look expensive against conventional foundry comps.",
+      "source_urls": [
+        "https://towersemi.com/investor-relations/",
+        "https://towersemi.com/technology/silicon-photonics/"
+      ]
+    },
+    {
+      "ticker": "POET",
+      "company": "POET Technologies",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 20,
+      "current_score": 73.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is integrated-optics supplier with celestial exposure, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that POET Technologies remains a valid Networking / optics node, but the page should balance 7.0/10 AI sensitivity against 9.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is POET remains a single-program-style speculation unless it proves broader customer traction. If diversification does not arrive, the stock can remain permanently discounted no matter how interesting the architecture sounds.",
+      "source_urls": [
+        "https://poet-technologies.com/news",
+        "https://poet-technologies.com/"
+      ]
+    },
+    {
+      "ticker": "3105.TWO",
+      "company": "Win Semi",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 21,
+      "current_score": 72.3,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is compound-semiconductor foundry for cw lasers and adjacent devices, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Win Semi remains a valid Compound-semiconductor foundry node, but the page should balance 8.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is this is still a cross-border, thesis-driven name where valuation can outrun proof. If the photonics supercycle arrives slower than bulls expect, the stock can stay volatile even if the long-run setup is right.",
+      "source_urls": [
+        "https://www.winfoundry.com/",
+        "https://www.winfoundry.com/en/investor-relations"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 22,
+      "current_score": 72,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is tpu and hyperscaler capex platform, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Alphabet remains a valid Hyperscaler node, but the page should balance 8.0/10 AI sensitivity against 4.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Alphabet trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://abc.xyz/investor/",
+        "https://cloud.google.com/tpu"
+      ]
+    },
+    {
+      "ticker": "6967.T",
+      "company": "Shinko Electric",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 23,
+      "current_score": 71.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is japanese substrate and packaging material supplier, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Shinko Electric remains a valid Substrate Pcb node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Shinko Electric is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.shinko.co.jp/english/ir/",
+        "https://www.shinko.co.jp/english/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "3443.TW",
+      "company": "Global Unichip",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 24,
+      "current_score": 71,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is asic design-service house tied to custom ai silicon, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Global Unichip remains a valid Compute Silicon node, but the page should balance 8.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Global Unichip gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.guc-asic.com/en/ir",
+        "https://www.guc-asic.com/en"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 25,
+      "current_score": 70.6,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is aws custom-silicon and hyperscaler capex leader, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Amazon remains a valid Hyperscaler node, but the page should balance 8.0/10 AI sensitivity against 5.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Amazon trades poorly if spending outruns monetization or regulators/geopolitics impede deployment. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://ir.aboutamazon.com/news-release/news-release-details/",
+        "https://aws.amazon.com/ai/machine-learning/"
+      ]
+    },
+    {
+      "ticker": "JBL",
+      "company": "Jabil",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 26,
+      "current_score": 70.5,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is manufacturing and systems-integration partner in optics, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Jabil remains a valid Systems / manufacturing node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Jabil remains lower-beta and less pure-play than the photonics names. If investors stop paying for manufacturing leverage or if customer mix shifts, the stock can lag the bottleneck names higher in the chain.",
+      "source_urls": [
+        "https://investors.jabil.com/news/",
+        "https://www.jabil.com/industries/cloud-data-center-infrastructure.html"
+      ]
+    },
+    {
+      "ticker": "6669.TW",
+      "company": "Wiwynn",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 27,
+      "current_score": 69,
+      "current_tier": "C",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is hyperscale server odm, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Wiwynn remains a valid Systems Odm node, but the page should balance 6.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Wiwynn gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.wiwynn.com/investor-relations/",
+        "https://www.wiwynn.com/"
+      ]
+    },
+    {
+      "ticker": "AXTI",
+      "company": "AXT",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 28,
+      "current_score": 68.5,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is inp substrate and precursor bottleneck, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that AXT remains a valid Materials / substrates node, but the page should balance 8.0/10 AI sensitivity against 9.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is AXTI is also the stock in the revised set with one of the messiest geopolitical overlays. China permits, precursor controls, and shareholder-financing concerns can overwhelm even strong demand.",
+      "source_urls": [
+        "https://www.axt.com/investors/",
+        "https://www.axt.com/"
+      ]
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 29,
+      "current_score": 68.3,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is vertically integrated transceiver and laser supplier, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Applied Optoelectronics remains a valid Networking / optics node, but the page should balance 8.0/10 AI sensitivity against 9.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is AAOI is still a high-beta execution story. If 1.6T conversion slips, if one large customer changes sourcing, or if management leans too hard on financing, the stock can derate violently.",
+      "source_urls": [
+        "https://investors.ao-inc.com/news-releases/",
+        "https://www.ao-inc.com/"
+      ]
+    },
+    {
+      "ticker": "000660.KS",
+      "company": "SK hynix",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 30,
+      "current_score": 68.1,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is hbm share leader and roadmap setter, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that SK hynix remains a valid Memory node, but the page should balance 10.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is SK hynix suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.skhynix.com/ir/UI-FR-IR30",
+        "https://news.skhynix.com/"
+      ]
+    },
+    {
+      "ticker": "SIVE.ST",
+      "company": "Sivers Semiconductors",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 31,
+      "current_score": 67.2,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is cw-laser and light-source pure play, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Sivers Semiconductors remains a valid Networking / optics node, but the page should balance 8.0/10 AI sensitivity against 10.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is everything here depends on technology transition timing, customer concentration, financing access, and markets continuing to reward future architecture exposure before the volumes are fully visible.",
+      "source_urls": [
+        "https://www.sivers-semiconductors.com/investors/",
+        "https://www.sivers-semiconductors.com/"
+      ]
+    },
+    {
+      "ticker": "005930.KS",
+      "company": "Samsung Electronics",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 32,
+      "current_score": 66.6,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is dram/hbm incumbent trying to re-rate on ltas and hbm4, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Samsung Electronics remains a valid Memory node, but the page should balance 9.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Samsung Electronics suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+        "https://www.samsung.com/semiconductor/"
+      ]
+    },
+    {
+      "ticker": "2382.TW",
+      "company": "Quanta",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 33,
+      "current_score": 66.4,
+      "current_tier": "C",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is ai server odm leader, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Quanta remains a valid Systems Odm node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Quanta gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.quantatw.com/Quanta/english/investor/financials.aspx",
+        "https://www.quantatw.com/Quanta/english/",
+        "https://semianalysis.com/"
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 34,
+      "current_score": 66,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is custom-asic tollbooth, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Broadcom remains a valid Compute Silicon node, but the page should balance 9.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Broadcom gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+        "https://investors.broadcom.com/"
+      ]
+    },
+    {
+      "ticker": "AEHR",
+      "company": "Aehr Test Systems",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 35,
+      "current_score": 65.5,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is silicon-photonics and optical test bottleneck, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Aehr Test Systems remains a valid Equipment / test node, but the page should balance 7.0/10 AI sensitivity against 9.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is the whole thesis depends on future qualification turning into mass production. If that timeline drifts or the lead customer remains too small, the stock can give back a large part of its rerating.",
+      "source_urls": [
+        "https://ir.aehr.com/news-events/press-releases",
+        "https://www.aehr.com/"
+      ]
+    },
+    {
+      "ticker": "CLS",
+      "company": "Celestica",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 36,
+      "current_score": 65.5,
+      "current_tier": "C",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is ai systems and networking manufacturing beneficiary, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Celestica remains a valid Systems Odm node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Celestica gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.celestica.com/news",
+        "https://www.celestica.com/",
+        "https://semianalysis.com/"
+      ]
+    },
+    {
+      "ticker": "SOI.PA",
+      "company": "Soitec",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 37,
+      "current_score": 64.2,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is soi wafer bottleneck for silicon photonics, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Soitec remains a valid Materials / wafers node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Soitec is one step removed from the hottest optical revenue prints, so the stock may lag if investors keep preferring the names with cleaner near-term transceiver exposure.",
+      "source_urls": [
+        "https://www.soitec.com/en/investors",
+        "https://www.soitec.com/en/products"
+      ]
+    },
+    {
+      "ticker": "2317.TW",
+      "company": "Hon Hai / Foxconn",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 38,
+      "current_score": 63.4,
+      "current_tier": "C",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is ai server and systems integrator, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Hon Hai / Foxconn remains a valid Systems Odm node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Hon Hai / Foxconn gets squeezed if box-level pricing compresses or customer order timing slips. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.honhai.com/en-us/investor-relations",
+        "https://www.honhai.com/en-us/press-center/events/latest-events",
+        "https://semianalysis.com/"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 39,
+      "current_score": 63.3,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is hbm and dram challenger with pricing leverage, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Micron remains a valid Memory node, but the page should balance 9.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Micron suffers if the pricing spike reverses, qualification slips, or HBM supply normalizes faster than expected. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.micron.com/quarterly-results",
+        "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026"
+      ]
+    },
+    {
+      "ticker": "4062.T",
+      "company": "Ibiden",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 40,
+      "current_score": 62.3,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is abf substrate supplier to ai packages, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Ibiden remains a valid Substrate Pcb node, but the page should balance 7.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Ibiden is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.ibiden.com/ir/",
+        "https://www.ibiden.com/product/electronics/",
+        "https://investor.tsmc.com/english/quarterly-results/2025/q4"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 41,
+      "current_score": 62.1,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is cpu and accelerator challenger, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that AMD remains a valid Compute Silicon node, but the page should balance 8.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is AMD gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://ir.amd.com/news-events/press-releases",
+        "https://www.amd.com/en/solutions/ai.html"
+      ]
+    },
+    {
+      "ticker": "SIMO",
+      "company": "Silicon Motion",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 42,
+      "current_score": 60.2,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is merchant nand-controller duopoly exposure, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Silicon Motion remains a valid Controller Storage node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Silicon Motion rolls over if OEM inventories stay heavy or NAND price momentum fades. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.siliconmotion.com/investor-relations/",
+        "https://www.siliconmotion.com/"
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 43,
+      "current_score": 57.8,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "hold",
+      "bull_case": "2026-06-03: Bull case is cpu-ip tollbooth for custom silicon, and the current AI infrastructure cycle can support a hold call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Arm remains a valid Compute Silicon node, but the page should balance 8.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Arm gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://investors.arm.com/financials/quarterly-results/default.aspx",
+        "https://www.arm.com/markets/artificial-intelligence"
+      ]
+    },
+    {
+      "ticker": "3037.TW",
+      "company": "Unimicron",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 44,
+      "current_score": 57.2,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is ai package substrate supplier, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Unimicron remains a valid Substrate Pcb node, but the page should balance 7.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Unimicron is vulnerable to customer concentration, execution mistakes, and technology handoffs between package formats. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.unimicron.com/investor",
+        "https://www.unimicron.com/",
+        "https://www.collyerbridge.com/post/apac-roundup-micron-mu-boe-000725-sz-sabic-2010-sr-foxconn-2317-tt-and-more"
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "company": "Nebius Group",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 45,
+      "current_score": 55.9,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is ai neocloud and gpu-tenant platform, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Nebius Group remains a valid AI cloud / neocloud node, but the page should balance 7.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is NBIS still sits downstream from the core bottlenecks. If GPU availability improves faster than utilization or if neocloud economics deteriorate, the equity can lose scarcity premium quickly.",
+      "source_urls": [
+        "https://group.nebius.com/investors",
+        "https://nebius.com/"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 46,
+      "current_score": 54.1,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "up",
+      "bull_case": "2026-06-03: Bull case is merchant custom-silicon and optical-networking platform, and the current AI infrastructure cycle can support a move up call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Marvell remains a valid Compute Silicon node, but the page should balance 8.0/10 AI sensitivity against 7.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Marvell is exposed to customer concentration, architectural transitions, and any scenario where a chokepoint supplier or a vertically integrated rival captures more of the value pool than expected.",
+      "source_urls": [
+        "https://investor.marvell.com/news-releases",
+        "https://www.marvell.com/solutions/artificial-intelligence.html",
+        "https://semianalysis.com/"
+      ]
+    },
+    {
+      "ticker": "2303.TW",
+      "company": "UMC",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 47,
+      "current_score": 52.3,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is mature-node foundry with ai-adjacent support demand, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that UMC remains a valid Foundry Packaging node, but the page should balance 5.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is UMC gets hurt if CoWoS / hybrid-bonding utilization drops or if customer capex plans slip. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://www.umc.com/en/IR",
+        "https://www.umc.com/en/Home/Index"
+      ]
+    },
+    {
+      "ticker": "ALRIB.PA",
+      "company": "Riber",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 48,
+      "current_score": 49.4,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is mbe equipment supplier for quantum and advanced photonics, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Riber remains a valid Quantum / MBE equipment node, but the page should balance 5.0/10 AI sensitivity against 10.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is this is still early, narrow, and potentially over-interpreted. If the Microsoft linkage proves weaker than expected or if quantum capex remains niche for longer, the stock could stay a curiosity rather than rerate.",
+      "source_urls": [
+        "https://www.riber.com/investors/",
+        "https://www.riber.com/"
+      ]
+    },
+    {
+      "ticker": "2454.TW",
+      "company": "MediaTek",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 49,
+      "current_score": 43.8,
+      "current_tier": "B",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is edge and custom-silicon beneficiary, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that MediaTek remains a valid Compute Silicon node, but the page should balance 6.0/10 AI sensitivity against 6.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is MediaTek gets hit if hyperscaler capex rotates away, export controls bite, or custom-silicon mix shifts against it. That matters because the current buildout has pulled forward a lot of expectations.",
+      "source_urls": [
+        "https://corp.mediatek.com/investor-relations",
+        "https://corp.mediatek.com/"
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "page": "app/signals/page.tsx:twitter-ai-supply-chain-2026-04-14",
+      "current_rank": 50,
+      "current_score": 43.7,
+      "current_tier": "A",
+      "rank_basis": "signals currentAlphaScore computed by app/signals/SignalsClient.tsx",
+      "rank_should_move": "down",
+      "bull_case": "2026-06-03: Bull case is national-security foundry and cpu turnaround, and the current AI infrastructure cycle can support a move down call if official results keep confirming bottleneck demand.",
+      "neutral_case": "2026-06-03: Neutral case is that Intel remains a valid Compute Silicon node, but the page should balance 6.0/10 AI sensitivity against 8.0/10 risk and what the stock has already repriced.",
+      "bear_case": "2026-06-03: Bear case is Intel remains one of the highest-execution-risk large caps in the set. Any slippage in process, yield, or customer acquisition can quickly reopen the credibility gap that Zephyr originally highlighted.",
+      "source_urls": [
+        "https://www.intc.com/news-events/press-releases",
+        "https://www.intel.com/content/www/us/en/foundry/overview.html"
+      ]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import {
   type ExposureType,
 } from '@/data/bottleneckSectors';
 import { publicMarketSnapshot } from '@/data/marketSnapshot';
+import StockCaseHover from '@/components/research/StockCaseHover';
 
 const themeStyles: Record<
   BottleneckTheme,
@@ -103,7 +104,7 @@ function ScoreBar({ label, value }: { label: string; value: number }) {
   );
 }
 
-function StockCard({ stock }: { stock: BottleneckStock }) {
+function StockCard({ stock, sector }: { stock: BottleneckStock; sector: BottleneckSector }) {
   const exposureStyle = exposureStyles[stock.exposure];
   const marketData = publicMarketSnapshot[stock.ticker];
 
@@ -139,7 +140,7 @@ function StockCard({ stock }: { stock: BottleneckStock }) {
               color: 'var(--ink-500)',
             }}
           >
-            <span
+	        <span
               style={{
                 padding: '2px 8px',
                 borderRadius: 999,
@@ -164,10 +165,23 @@ function StockCard({ stock }: { stock: BottleneckStock }) {
             border: `1px solid ${exposureStyle.border}`,
             whiteSpace: 'nowrap',
           }}
-        >
-          {stock.exposure}
-        </span>
-      </div>
+	        >
+	          {stock.exposure}
+	        </span>
+	        <StockCaseHover
+	          page="bottleneck"
+	          company={stock.company}
+	          ticker={stock.ticker}
+	          thesis={stock.whyItFits}
+	          bull={stock.whyItFits}
+	          neutral={sector.thesis}
+	          bear={stock.riskWatch}
+	          category={sector.theme}
+	          price={marketData?.price}
+	          marketCap={marketData?.marketCap}
+	          sources={sector.sources.slice(0, 3).map((source) => ({ label: source.label, url: source.href }))}
+	        />
+	      </div>
 
       <div
         style={{
@@ -779,7 +793,7 @@ export default function BottleneckSectorBaskets() {
           </div>
           <div className="grid gap-4">
             {sector.usPicks.map((stock) => (
-              <StockCard key={`${sector.id}-${stock.ticker}`} stock={stock} />
+              <StockCard key={`${sector.id}-${stock.ticker}`} stock={stock} sector={sector} />
             ))}
           </div>
         </div>
@@ -819,7 +833,7 @@ export default function BottleneckSectorBaskets() {
           </div>
           <div className="grid gap-4">
             {sector.nonUsPicks.map((stock) => (
-              <StockCard key={`${sector.id}-${stock.ticker}`} stock={stock} />
+              <StockCard key={`${sector.id}-${stock.ticker}`} stock={stock} sector={sector} />
             ))}
           </div>
         </div>

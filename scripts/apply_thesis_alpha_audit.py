@@ -5,12 +5,15 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = "2026-06-02"
-AS_OF_LABEL = "June 2, 2026"
+AS_OF = os.environ.get("MARKET_DATA_AS_OF") or json.loads(
+    (ROOT / "public" / "reports" / "market-data" / "market_data_latest.json").read_text()
+)["asOf"]
+AS_OF_LABEL = f"{AS_OF[:4]}-{AS_OF[5:7]}-{AS_OF[8:10]}"
 
 COMPANY_BUCKET_BONUS = {
     "HBM & AI memory": 13,

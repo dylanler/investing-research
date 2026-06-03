@@ -26,6 +26,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   AlphaNodeRow,
   DepthPathRow,
@@ -1433,10 +1434,10 @@ function RankingsExplorer({ data }: { data: SemiconductorAiNodesData }) {
             />
           </div>
           <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1080 }}>
-              <thead>
-                <tr style={{ color: 'var(--ink-500)', fontSize: '0.72rem', textAlign: 'left' }}>
-                  {['Rank', 'Node', 'Tier', 'Score', 'Price', 'Market cap', 'Links', 'Cash lens', 'Alpha reason'].map((header) => (
+	            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1200 }}>
+	              <thead>
+	                <tr style={{ color: 'var(--ink-500)', fontSize: '0.72rem', textAlign: 'left' }}>
+	                  {['Rank', 'Node', 'Tier', 'Score', 'Cases', 'Price', 'Market cap', 'Links', 'Cash lens', 'Alpha reason'].map((header) => (
                     <th key={header} style={{ padding: '10px 10px', borderBottom: '1px solid var(--ink-100)' }}>
                       {header}
                     </th>
@@ -1462,13 +1463,30 @@ function RankingsExplorer({ data }: { data: SemiconductorAiNodesData }) {
                           {row.tier}
                         </span>
                       </td>
-                      <td style={{ padding: '12px 10px' }}>
-                        <div style={{ color: 'var(--ink-950)', fontWeight: 900 }}>{formatScore(row.alphaScore)}</div>
-                        <div style={{ color: 'var(--ink-500)', fontSize: '0.74rem' }}>
-                          central #{central?.centralityRank ?? 'n/a'}
-                        </div>
-                      </td>
-                      <td style={{ padding: '12px 10px', color: 'var(--ink-700)' }}>{formatPrice(row.price)}</td>
+	                      <td style={{ padding: '12px 10px' }}>
+	                        <div style={{ color: 'var(--ink-950)', fontWeight: 900 }}>{formatScore(row.alphaScore)}</div>
+	                        <div style={{ color: 'var(--ink-500)', fontSize: '0.74rem' }}>
+	                          central #{central?.centralityRank ?? 'n/a'}
+	                        </div>
+	                      </td>
+	                      <td style={{ padding: '12px 10px' }}>
+	                        <StockCaseHover
+	                          page="semiconductor-ai-nodes"
+	                          company={row.name}
+	                          ticker={row.symbol}
+	                          thesis={row.alphaReason}
+	                          bull={row.alphaReason}
+	                          neutral={row.valuationAlphaSummary || row.cashInSummary}
+	                          bear={row.marketDataNote || row.cashOutSummary}
+	                          category={row.tier}
+	                          score={row.alphaScore.toFixed(1)}
+	                          rank={row.rank}
+	                          price={formatPrice(row.price)}
+	                          marketCap={formatMoney(row.marketCapUsdBn)}
+	                          sources={data.sources.slice(0, 4).map((source) => ({ label: source.source, url: source.url }))}
+	                        />
+	                      </td>
+	                      <td style={{ padding: '12px 10px', color: 'var(--ink-700)' }}>{formatPrice(row.price)}</td>
                       <td style={{ padding: '12px 10px', color: 'var(--ink-700)' }}>
                         {formatMoney(row.marketCapUsdBn)}
                       </td>

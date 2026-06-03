@@ -12,6 +12,7 @@ import {
 import { companies100, bucketSummary, portfolios, sourceLibrary, overviewStats } from '@/data/companies100';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import StockCaseHover from '@/components/research/StockCaseHover';
 
 const BUCKET_COLORS: Record<string, string> = {
   'Power, cooling & electrical': 'oklch(55% 0.12 25)',
@@ -112,6 +113,11 @@ export default function CompaniesPage() {
   };
 
   const riskPortfolios = portfolios.filter(p => p.riskProfile === riskLevel);
+  const medianCurrentAlpha = useMemo(() => {
+    const values = companies100.map((company) => company.currentAlphaScore).sort((left, right) => left - right);
+    const middle = Math.floor(values.length / 2);
+    return values.length % 2 === 0 ? (values[middle - 1] + values[middle]) / 2 : values[middle];
+  }, []);
 
   const scatterData = companies100.map(c => ({
     x: c.chokepointScore + jitter(c.bucketRank),
@@ -156,7 +162,7 @@ export default function CompaniesPage() {
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated June 2, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated June 3, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -177,8 +183,8 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated June 2' },
-              { val: overviewStats.medianCurrentAlpha, suffix: '', label: 'Median Alpha', sub: 'Current audit score' },
+              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated June 3' },
+              { val: medianCurrentAlpha, suffix: '', label: 'Median Alpha', sub: 'Current audit score' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
                 <div className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>
@@ -219,7 +225,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: Yahoo Finance chart data refreshed June 2, 2026. Median YTD return by bucket.
+              Source: Yahoo Finance chart data refreshed June 3, 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -342,9 +348,9 @@ export default function CompaniesPage() {
                     { key: 'country' as SortKey, label: 'Country' },
                     { key: 'listing' as SortKey, label: 'Exchange' },
                     { key: 'latestPrice' as SortKey, label: 'Price' },
-                    { key: 'marketCapUsd' as SortKey, label: 'Cap' },
-                    { key: 'ytdReturn' as SortKey, label: 'YTD %' },
-                  ].map(col => (
+	                    { key: 'marketCapUsd' as SortKey, label: 'Cap' },
+	                    { key: 'ytdReturn' as SortKey, label: 'YTD %' },
+	                  ].map(col => (
                     <th
                       key={col.key}
                       onClick={() => toggleSort(col.key)}
@@ -352,8 +358,9 @@ export default function CompaniesPage() {
                     >
                       {col.label} {sortKey === col.key ? (sortDir === 'desc' ? '\u2193' : '\u2191') : ''}
                     </th>
-                  ))}
-                  <th style={{ padding: '8px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontWeight: 600 }}>Role</th>
+	                  ))}
+	                  <th style={{ padding: '8px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Cases</th>
+	                  <th style={{ padding: '8px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontWeight: 600 }}>Role</th>
                 </tr>
               </thead>
               <tbody>
@@ -377,10 +384,28 @@ export default function CompaniesPage() {
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.listing}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>{formatPrice(c.latestPrice, c.latestCurrency)}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>{formatMarketCap(c.marketCapUsd)}</td>
-                    <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 600, fontSize: 'var(--text-sm)', color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)' }}>
-                      {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}%
-                    </td>
-                    <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{c.role}</td>
+	                    <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 600, fontSize: 'var(--text-sm)', color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)' }}>
+	                      {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}%
+	                    </td>
+	                    <td style={{ padding: '10px 12px' }}>
+	                      <StockCaseHover
+	                        company={c.company}
+	                        ticker={c.ticker}
+	                        page="companies"
+	                        thesis={c.thesisAuditNote || c.snapshot}
+	                        bull={c.bullThesis}
+	                        neutral={c.neutralThesis}
+	                        bear={c.bearThesis}
+	                        category={c.bucket}
+	                        score={c.currentAlphaScore.toFixed(1)}
+	                        rank={c.currentAlphaRank}
+	                        price={formatPrice(c.latestPrice, c.latestCurrency)}
+	                        marketCap={formatMarketCap(c.marketCapUsd)}
+	                        ytd={`${c.ytdReturn > 0 ? '+' : ''}${c.ytdReturn}%`}
+	                        sources={sourceLibrary.slice(0, 4).map((source) => ({ label: source.source, url: source.url }))}
+	                      />
+	                    </td>
+	                    <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{c.role}</td>
                   </tr>
                 ))}
               </tbody>
@@ -540,7 +565,7 @@ export default function CompaniesPage() {
                 &ldquo;The June 2026 tape says HBM (+237.4% median), storage/data (+200.0%), and advanced packaging (+164.0%) have already been discovered. The current alpha audit therefore keeps those theses, but moves more weight toward less-rerated power, cooling, and selected packaging bottlenecks.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Yahoo Finance chart data refreshed June 2, 2026
+                Source: Yahoo Finance chart data refreshed June 3, 2026
               </cite>
             </blockquote>
           </Reveal>
@@ -569,7 +594,7 @@ export default function CompaniesPage() {
       <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-2xl) var(--space-lg)' }}>
         <div className="max-w-5xl mx-auto">
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)' }}>
-            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed June 2, 2026 where a current public listing exists. Past performance does not guarantee future results.
+            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed June 3, 2026 where a current public listing exists. Past performance does not guarantee future results.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
             <Link href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</Link>

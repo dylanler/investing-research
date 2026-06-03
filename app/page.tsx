@@ -33,9 +33,9 @@ function seededUnit(index: number, salt: number): number {
 
 const HOME_PARTICLES = Array.from({ length: 60 }, (_, i) => ({
   id: i,
-  x: seededUnit(i, 1) * 100,
-  y: seededUnit(i, 2) * 100,
-  size: 1 + seededUnit(i, 3) * 2,
+  x: `${(seededUnit(i, 1) * 100).toFixed(4)}%`,
+  y: `${(seededUnit(i, 2) * 100).toFixed(4)}%`,
+  size: `${(1 + seededUnit(i, 3) * 2).toFixed(5)}px`,
   duration: 3 + seededUnit(i, 4) * 5,
   delay: seededUnit(i, 5) * 4,
 }));
@@ -49,7 +49,7 @@ function ParticleField() {
         <motion.div
           key={p.id}
           className="particle"
-          style={{ left: `${p.x}%`, top: `${p.y}%`, width: p.size, height: p.size }}
+          style={{ left: p.x, top: p.y, width: p.size, height: p.size }}
           animate={{ opacity: [0.05, 0.35, 0.05], scale: [1, 1.5, 1] }}
           transition={{ duration: p.duration, repeat: Infinity, delay: p.delay }}
         />
@@ -248,7 +248,7 @@ export default function Home() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Investment Research &middot; Published March 16, 2026 &middot; Updated June 2, 2026
+              Investment Research &middot; Published March 16, 2026 &middot; Updated June 3, 2026
             </div>
           </Reveal>
 
@@ -310,10 +310,7 @@ export default function Home() {
           >
             <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
               <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" strokeWidth="1.5" />
-              <motion.circle cx="8" cy="8" r="2" fill="currentColor"
-                animate={{ cy: [7, 14, 7] }}
-                transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-              />
+              <circle cx="8" cy="8" r="2" fill="currentColor" />
             </svg>
           </motion.div>
         </motion.div>
