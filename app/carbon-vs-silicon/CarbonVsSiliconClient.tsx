@@ -886,7 +886,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
     () =>
       data.stockRecommendations.filter((stock) =>
         stock.theme.toLowerCase().includes('human'),
-      ),
+      ).sort((left, right) => (right.alphaScore ?? 0) - (left.alphaScore ?? 0)),
     [data.stockRecommendations],
   );
 
@@ -894,7 +894,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
     () =>
       data.stockRecommendations.filter((stock) =>
         stock.theme.toLowerCase().includes('silicon'),
-      ),
+      ).sort((left, right) => (right.alphaScore ?? 0) - (left.alphaScore ?? 0)),
     [data.stockRecommendations],
   );
 
@@ -1342,6 +1342,17 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
       label: 'Ticker',
       sortValue: (row) => row.ticker,
       render: (row) => <code style={{ fontSize: '0.78rem' }}>{row.ticker}</code>,
+    },
+    {
+      key: 'alpha',
+      label: 'Alpha',
+      align: 'right',
+      sortValue: (row) => row.alphaScore ?? -1,
+      render: (row) => (
+        <div style={{ fontFamily: 'monospace', fontWeight: 800, color: 'var(--ink-900)' }}>
+          {row.alphaRank ? `#${row.alphaRank} ` : ''}{row.alphaScore?.toFixed(1) ?? 'n/a'}
+        </div>
+      ),
     },
     {
       key: 'price',
@@ -2424,7 +2435,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                           {stock.businessFocus}
                         </div>
                         <div
-                          className="grid grid-cols-3"
+                          className="grid grid-cols-2 sm:grid-cols-4"
                           style={{
                             gap: 8,
                             marginBottom: 12,
@@ -2433,6 +2444,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                           }}
                         >
                           {[
+                            ['Alpha', stock.alphaScore ? `#${stock.alphaRank} · ${stock.alphaScore.toFixed(1)}` : 'n/a'],
                             ['Price', formatPrice(stock.latestPrice, stock.latestCurrency)],
                             ['YTD', formatOptionalPercent(stock.ytdReturnPct)],
                             ['Cap', formatMarketCap(stock.marketCapUsdB)],
@@ -2462,6 +2474,11 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                         <p style={{ margin: 0, fontSize: 'var(--text-sm)', lineHeight: 1.7, color: 'var(--ink-600)' }}>
                           <strong>Risk watch:</strong> {stock.riskWatch}
                         </p>
+                        {stock.alphaNote && (
+                          <p style={{ margin: '10px 0 0', fontSize: 'var(--text-sm)', lineHeight: 1.7, color: 'var(--ink-600)' }}>
+                            <strong>Alpha audit:</strong> {stock.alphaNote}
+                          </p>
+                        )}
                         <div style={{ marginTop: 12 }}>
                           <SourceTags tags={stock.sourceTags} sourceMap={sourceMap} />
                         </div>
@@ -2481,11 +2498,11 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 rows={data.stockRecommendations}
                 columns={stockColumns}
                 getSearchText={(row) =>
-                  `${row.theme} ${row.region} ${row.company} ${row.ticker} ${row.businessFocus} ${row.headlineFact} ${row.whyItFits} ${row.riskWatch} ${row.sourceTags.join(' ')}`
+                  `${row.theme} ${row.region} ${row.company} ${row.ticker} ${row.businessFocus} ${row.headlineFact} ${row.whyItFits} ${row.riskWatch} ${row.alphaNote} ${row.sourceTags.join(' ')}`
                 }
                 searchPlaceholder="Search stocks, tickers, or rationales..."
-                defaultSortKey="company"
-                defaultSortDirection="asc"
+                defaultSortKey="alpha"
+                defaultSortDirection="desc"
               />
             </ExpandableBlock>
           </div>

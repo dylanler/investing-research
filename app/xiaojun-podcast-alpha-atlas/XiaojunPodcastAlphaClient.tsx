@@ -52,6 +52,11 @@ type AlphaLens = {
     signalBars?: Array<{ label: string; value: number }>;
   };
   composite: number;
+  originalComposite?: number;
+  currentTrendDelta?: number;
+  currentTrendTags?: string[];
+  currentTrendSources?: string[];
+  currentTrendNote?: string;
 };
 
 type EpisodePart = {
@@ -444,6 +449,36 @@ function AlphaBox({ alpha }: { alpha: AlphaLens }) {
           <strong style={{ color: 'var(--ink-900)' }}>{label}:</strong> {body}
         </p>
       ))}
+
+      {alpha.currentTrendNote && (
+        <div style={{ marginTop: 12, padding: 12, borderRadius: 8, background: 'var(--surface-raised)', border: '1px solid var(--ink-100)' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center', marginBottom: 6 }}>
+            <strong style={{ fontSize: '0.78rem', color: 'var(--ink-900)', textTransform: 'uppercase', letterSpacing: 0 }}>
+              Current thesis audit
+            </strong>
+            {alpha.originalComposite !== undefined && (
+              <span style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 800 }}>
+                {alpha.originalComposite}/10 → {alpha.composite}/10
+              </span>
+            )}
+            {alpha.currentTrendDelta !== undefined && (
+              <span style={{ fontSize: '0.75rem', color: 'var(--success)', fontWeight: 800 }}>
+                +{alpha.currentTrendDelta.toFixed(2)}
+              </span>
+            )}
+          </div>
+          <p style={{ margin: 0, fontSize: '0.84rem', color: 'var(--ink-600)', lineHeight: 1.55 }}>{alpha.currentTrendNote}</p>
+          {(alpha.currentTrendTags ?? []).length > 0 && (
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 8 }}>
+              {(alpha.currentTrendTags ?? []).map((tag) => (
+                <span key={tag} style={{ borderRadius: 999, padding: '3px 8px', fontSize: '0.72rem', background: 'color-mix(in srgb, var(--accent) 8%, transparent)', color: 'var(--accent)', fontWeight: 700 }}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       <div style={{ marginTop: 14 }}>
         <ScoreBars alpha={alpha} />
@@ -1046,9 +1081,9 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
     score: 0,
     keyword: '',
     view: 'reader',
-    sort: 'newest',
+    sort: 'alpha-desc',
   });
-  const [selectedEpisodeId, setSelectedEpisodeId] = useState(data.episodes[0]?.id ?? '');
+  const [selectedEpisodeId, setSelectedEpisodeId] = useState(data.topAlphaEpisodes[0]?.id ?? data.episodes[0]?.id ?? '');
 
   const categoryOptions = useMemo(() => entries(data.categoryCounts).map(([category]) => category), [data.categoryCounts]);
   const keywordOptions = useMemo(() => entries(data.keywordCounts, 18), [data.keywordCounts]);
@@ -1073,6 +1108,8 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
           alpha.investmentThesis,
           alpha.nonConsensusView,
           alpha.fundamentalShift,
+          alpha.currentTrendNote ?? '',
+          (alpha.currentTrendTags ?? []).join(' '),
         ].join(' '));
 
         return (!query || searchable.includes(query))

@@ -66,6 +66,9 @@ export interface StockRecommendationRow {
   whyItFits: string;
   riskWatch: string;
   sourceTags: string[];
+  alphaScore: number | null;
+  alphaRank: number | null;
+  alphaNote: string;
   latestPrice: number | null;
   latestCurrency: string;
   marketCapUsdB: number | null;

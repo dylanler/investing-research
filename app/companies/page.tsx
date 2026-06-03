@@ -45,7 +45,7 @@ const HERO_PARTICLES = Array.from({ length: 25 }, (_, index) => ({
   delay: ((index * 11) % 30) / 10,
 }));
 
-type SortKey = 'ytdReturn' | 'latestPrice' | 'marketCapUsd' | 'company' | 'bucket' | 'country' | 'listing';
+type SortKey = 'currentAlphaScore' | 'currentAlphaRank' | 'ytdReturn' | 'latestPrice' | 'marketCapUsd' | 'company' | 'bucket' | 'country' | 'listing';
 type SortDir = 'asc' | 'desc';
 
 function formatPrice(value: number | undefined, currency: string | undefined) {
@@ -84,7 +84,7 @@ export default function CompaniesPage() {
   const { ref: chartRef, inView: chartInView } = useInView({ threshold: 0.2, triggerOnce: true });
 
   const [activeBucket, setActiveBucket] = useState<string | null>(null);
-  const [sortKey, setSortKey] = useState<SortKey>('ytdReturn');
+  const [sortKey, setSortKey] = useState<SortKey>('currentAlphaScore');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
   const [expandedCompany, setExpandedCompany] = useState<string | null>(null);
   const [riskLevel, setRiskLevel] = useState<string>('Medium risk');
@@ -119,6 +119,8 @@ export default function CompaniesPage() {
     company: c.company,
     ticker: c.ticker,
     bucket: c.bucket,
+    alpha: c.currentAlphaScore,
+    alphaRank: c.currentAlphaRank,
   }));
 
   const barData = bucketSummary.map(b => ({
@@ -165,7 +167,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0 }} animate={heroInView ? { opacity: 1 } : {}} transition={{ delay: 0.2 }} style={{ height: 1, width: 64, background: 'var(--ink-200)', margin: 'var(--space-lg) 0' }} />
           <motion.p initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.25 }}
             style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-600)', maxWidth: 560, lineHeight: 1.6 }}>
-            A global equity universe spanning power, packaging, memory, optics, fab tools, and compute — ranked by directness, chokepoint exposure, and 2026 YTD performance.
+            A global equity universe spanning power, packaging, memory, optics, fab tools, and compute — ranked by chokepoint exposure, current alpha, market cap, and 2026 YTD rerating.
           </motion.p>
 
           {/* Stat strip */}
@@ -175,11 +177,11 @@ export default function CompaniesPage() {
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
               { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated June 2' },
-              { val: overviewStats.meanYtd, suffix: '%', label: 'Mean YTD', sub: 'Skewed by optics' },
+              { val: overviewStats.medianCurrentAlpha, suffix: '', label: 'Median Alpha', sub: 'Current audit score' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
                 <div className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>
-                  {heroInView ? <CountUp end={s.val} duration={1.5} decimals={s.label === 'Median YTD' ? 1 : s.label === 'Mean YTD' ? 2 : 0} /> : '0'}{s.suffix}
+                  {heroInView ? <CountUp end={s.val} duration={1.5} decimals={s.label === 'Median YTD' || s.label === 'Median Alpha' ? 1 : 0} /> : '0'}{s.suffix}
                 </div>
                 <div style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-700)', fontWeight: 500 }}>{s.label}</div>
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>{s.sub}</div>
@@ -259,6 +261,7 @@ export default function CompaniesPage() {
                         <div style={{ fontWeight: 600, color: 'var(--ink-900)' }}>{d.company} ({d.ticker})</div>
                         <div style={{ color: 'var(--ink-500)' }}>{d.bucket}</div>
                         <div style={{ color: d.y >= 0 ? 'oklch(45% 0.12 155)' : 'oklch(50% 0.15 25)', fontWeight: 600 }}>{d.y > 0 ? '+' : ''}{d.y}% YTD</div>
+                        <div style={{ color: 'var(--ink-700)' }}>Alpha #{d.alphaRank}: {d.alpha}/100</div>
                       </div>
                     );
                   }}
@@ -286,7 +289,7 @@ export default function CompaniesPage() {
       <div className="max-w-4xl mx-auto" style={{ padding: 'var(--space-xl) var(--space-lg)' }}>
         <Reveal>
           <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, maxWidth: 640 }}>
-            The scatter plot above reveals a clear pattern: <strong>companies with higher chokepoint exposure tend to outperform</strong>, regardless of sector. This makes sense — when demand exceeds supply, the company sitting on the bottleneck captures outsized value. The table below lets you explore all 100 companies with full filtering and sorting.
+            The scatter plot above reveals a clear pattern: <strong>companies with higher chokepoint exposure tend to outperform</strong>, but the current alpha rank now penalizes names that already moved too far or became too mega-cap consensus. The table below defaults to that audit score, then lets you sort back to price, cap, or YTD.
           </p>
         </Reveal>
       </div>
@@ -328,6 +331,7 @@ export default function CompaniesPage() {
                 <tr style={{ borderBottom: '2px solid var(--ink-200)' }}>
                   {[
                     { key: 'company' as SortKey, label: 'Company' },
+                    { key: 'currentAlphaScore' as SortKey, label: 'Alpha' },
                     { key: 'bucket' as SortKey, label: 'Sector' },
                     { key: 'country' as SortKey, label: 'Country' },
                     { key: 'listing' as SortKey, label: 'Exchange' },
@@ -358,6 +362,9 @@ export default function CompaniesPage() {
                     <td style={{ padding: '10px 12px' }}>
                       <div style={{ fontWeight: 600, color: 'var(--ink-900)', fontSize: 'var(--text-sm)' }}>{c.company}</div>
                       <span style={{ fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--accent)' }}>{c.ticker}</span>
+                    </td>
+                    <td style={{ padding: '10px 12px', fontFamily: 'monospace', fontWeight: 700, fontSize: 'var(--text-sm)', color: 'var(--ink-900)', whiteSpace: 'nowrap' }}>
+                      #{c.currentAlphaRank} · {c.currentAlphaScore.toFixed(1)}
                     </td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{SHORT_BUCKET[c.bucket] || c.bucket}</td>
                     <td style={{ padding: '10px 12px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.country}</td>
@@ -394,11 +401,21 @@ export default function CompaniesPage() {
                       <span style={{ fontFamily: 'monospace', fontWeight: 600, color: c.ytdReturn >= 0 ? 'oklch(40% 0.12 155)' : 'oklch(50% 0.15 25)', fontSize: 'var(--text-sm)' }}>
                         {c.ytdReturn > 0 ? '+' : ''}{c.ytdReturn}% YTD
                       </span>
+                      <span style={{ fontFamily: 'monospace', color: 'var(--accent)', fontWeight: 700, fontSize: 'var(--text-sm)' }}>
+                        Alpha #{c.currentAlphaRank} / {c.currentAlphaScore.toFixed(1)}
+                      </span>
                       <span style={{ fontFamily: 'monospace', color: 'var(--ink-500)', fontSize: 'var(--text-sm)' }}>
                         {formatPrice(c.latestPrice, c.latestCurrency)} / {formatMarketCap(c.marketCapUsd)}
                       </span>
                     </div>
                     <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', marginBottom: 'var(--space-lg)' }}>{c.snapshot}</p>
+                    <div style={{ marginBottom: 'var(--space-lg)', padding: 'var(--space-md)', background: 'color-mix(in srgb, var(--accent) 7%, var(--surface-sunken))', border: '1px solid color-mix(in srgb, var(--accent) 18%, var(--ink-100))', borderRadius: 2 }}>
+                      <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--accent)', marginBottom: 6 }}>
+                        Current alpha audit · {c.thesisAuditAsOf}
+                      </div>
+                      <p style={{ margin: 0, fontSize: 'var(--text-sm)', color: 'var(--ink-650, var(--ink-600))', lineHeight: 1.65 }}>{c.thesisAuditNote}</p>
+                      <div style={{ marginTop: 8, fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>{c.thesisAuditTags}</div>
+                    </div>
 
                     <div className="grid md:grid-cols-3 gap-4">
                       <div style={{ borderLeft: '3px solid oklch(45% 0.12 155)', paddingLeft: 'var(--space-md)' }}>
@@ -514,7 +531,7 @@ export default function CompaniesPage() {
           <Reveal>
             <blockquote style={{ borderLeft: '3px solid var(--accent)', paddingLeft: 'var(--space-xl)', margin: 0 }}>
               <p className="font-display" style={{ fontSize: 'var(--text-lg)', color: 'var(--ink-900)', lineHeight: 1.55, fontStyle: 'italic', margin: 0 }}>
-                &ldquo;The highest-median-return bucket is storage & AI data platforms at +147.9%. The lowest is data-center shell & systems integration at +15.7%. The market is rotating unevenly through the supply chain that feeds AI compute.&rdquo;
+                &ldquo;The June 2026 tape says HBM (+237.4% median), storage/data (+200.0%), and advanced packaging (+164.0%) have already been discovered. The current alpha audit therefore keeps those theses, but moves more weight toward less-rerated power, cooling, and selected packaging bottlenecks.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
                 Source: Yahoo Finance chart data refreshed June 2, 2026

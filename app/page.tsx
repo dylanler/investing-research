@@ -330,7 +330,7 @@ export default function Home() {
             {[
               { value: 48, suffix: '', label: 'EUV tools shipped', sub: 'ASML, 2025', delay: 0 },
               { value: 100, suffix: '', label: 'Companies tracked', sub: 'Global universe', delay: 0.1 },
-              { value: 19.45, suffix: '%', label: 'Median YTD return', sub: 'AI/GPU buildout', delay: 0.2 },
+              { value: 75.38, suffix: '%', label: 'Median YTD return', sub: 'AI/GPU buildout', delay: 0.2 },
               { value: 35, suffix: 'x', label: 'ASML multiplier', sub: '$400M \u2192 $14.3B', delay: 0.3 },
             ].map((s, i) => (
               <Reveal key={s.label} delay={s.delay}>
@@ -414,7 +414,7 @@ export default function Home() {
                   accentColor="var(--success)"
                   stats={[
                     { label: 'Companies', value: '100' },
-                    { label: 'Median YTD', value: '+18.7%' },
+                    { label: 'Median YTD', value: '+75.4%' },
                     { label: 'Risk Levels', value: '5' },
                   ]}
                 />
@@ -595,7 +595,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ gap: 0 }}>
             {[
               { num: '01', title: 'The bottleneck shifts every 2\u20133 years', body: 'Memory & packaging (2026\u201327) \u2192 Power (2028) \u2192 Fabs & EUV (2029\u201330) \u2192 Geopolitics (2031+). Each phase creates different winners.', source: 'IEA, ASML, FERC, SIA/BCG' },
-              { num: '02', title: 'Packaging & optics lead YTD', body: 'Advanced packaging +57% median, optics +31%. Compute silicon (Nvidia, AMD) lags at -5.2% as names consolidate after the 2025 run.', source: 'Yahoo Finance, Mar 2026' },
+              { num: '02', title: 'HBM, storage, and packaging have been discovered', body: 'June refresh: HBM +237.4% median, storage/data +200.0%, advanced packaging +164.0%. The highest current alpha now shifts toward power, cooling, and selected packaging names that still have bottleneck exposure without the same rerating.', source: 'Yahoo Finance, IEA, Jun 2026' },
               { num: '03', title: 'ASML is the most asymmetric trade', body: 'A $400M EUV tool enables $14.3B downstream value. ASML captures <3% of what it creates. Pricing power inflects 2028\u20132032.', source: 'ASML 2025 Annual Report' },
               { num: '04', title: 'Robotics is escaping the teleop trap', body: 'EgoScale: 20,854h of human video with R\u00b2=0.9983 scaling law. DreamDojo: 44,711h. That\u2019s 89.4x Figure\u2019s teleop data. The scaling substrate is shifting from robot demos to human video.', source: 'NVIDIA EgoScale, DreamDojo (Feb 2026)' },
               { num: '05', title: 'Structure beats brute-force thinking', body: 'Structured test-time scaling \u2014 recursion, context isolation, verification \u2014 outperforms naive chain-of-thought. Value shifts to verifier infrastructure and recursive training flywheels.', source: 'arXiv: RLM, MiroThinker-H1, ATTS' },
@@ -640,7 +640,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
             {[
               { icon: '\u26A1', title: 'Start with the Bottleneck', desc: 'Report I maps the physical constraints — EUV tools, power grids, memory fabs — that limit how fast AI can scale. This is the macro framework.' },
-              { icon: '\uD83C\uDFED', title: 'Then the Supply Chain', desc: 'Report II zooms into 100 public companies across 10 sectors. Filter by sector, sort by YTD, and explore bull/bear theses for each name.' },
+              { icon: '\uD83C\uDFED', title: 'Then the Supply Chain', desc: 'Report II zooms into 100 public companies across 10 sectors. Filter by sector, sort by current alpha, and explore bull/bear theses for each name.' },
               { icon: '\uD83E\uDD16', title: 'Then Robotics', desc: 'Report III asks: can robots learn from human video instead of expensive teleop? 10 methods scored, 5 labs profiled, 50 companies ranked.' },
               { icon: '\uD83E\uDDE0', title: 'Then Scaling Intelligence', desc: 'Report IV examines whether AI can get smarter by structuring its own thinking. 5 novel RLM methods, 16 scenarios, 100 companies.' },
             ].map((card, i) => (

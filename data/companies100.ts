@@ -16,6 +16,11 @@ export interface Company100 {
   latestCurrency?: string;
   marketCapUsd?: number;
   marketDataAsOf?: string;
+  currentAlphaScore: number;
+  currentAlphaRank: number;
+  thesisAuditAsOf: string;
+  thesisAuditTags: string;
+  thesisAuditNote: string;
   snapshot: string;
   bullThesis: string;
   neutralThesis: string;
@@ -37,10 +42,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 40.59,
-
     "latestPrice": 86.1,
     "latestCurrency": "CHF",
-    "marketCapUsd": 192207623832.00,
+    "marketCapUsd": 192207623832.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical systems and automation execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, ABB should see sustained demand because electrical systems and automation is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -48,7 +52,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 72.0,
+    "currentAlphaRank": 16,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -63,7 +72,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 24.1,
     "latestPrice": 66.42,
     "latestCurrency": "USD",
-    "marketCapUsd": 53581000000.00,
+    "marketCapUsd": 53581000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch hvac and thermal systems execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, Carrier Global should see sustained demand because hVAC and thermal systems is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -71,7 +80,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 82.0,
+    "currentAlphaRank": 8,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -84,7 +98,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 13.01,
-
     "latestPrice": 22885.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 43595037936.83,
@@ -95,7 +108,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 85.0,
+    "currentAlphaRank": 2,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -108,7 +126,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 137.19,
-
     "latestPrice": 2360.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 199896544426.52,
@@ -119,7 +136,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 61.0,
+    "currentAlphaRank": 36,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -134,7 +156,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 27.59,
     "latestPrice": 417.62,
     "latestCurrency": "USD",
-    "marketCapUsd": 162162000000.00,
+    "marketCapUsd": 162162000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch power distribution and protection execution and pricing.",
     "bullThesis": "Eaton benefits if AI deployment is constrained more by electrical architecture than by semis alone, because switchgear, PDUs, and protection become first-order gating items.",
@@ -142,7 +164,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 75.0,
+    "currentAlphaRank": 14,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -157,7 +184,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 16.09,
     "latestPrice": 141.99,
     "latestCurrency": "USD",
-    "marketCapUsd": 86630000000.00,
+    "marketCapUsd": 86630000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch building controls and cooling execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, Johnson Controls should see sustained demand because building controls and cooling is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -165,7 +192,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 85.0,
+    "currentAlphaRank": 4,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -178,10 +210,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 16.59,
-
     "latestPrice": 149.0,
     "latestCurrency": "EUR",
-    "marketCapUsd": 44677013723.00,
+    "marketCapUsd": 44677013723.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical distribution and cabling execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, Legrand should see sustained demand because electrical distribution and cabling is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -189,7 +220,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 85.0,
+    "currentAlphaRank": 5,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -202,7 +238,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 3.16,
-
     "latestPrice": 199.4,
     "latestCurrency": "SEK",
     "marketCapUsd": 3696009631.81,
@@ -213,7 +248,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 92.0,
+    "currentAlphaRank": 1,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -226,7 +266,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 21.13,
-
     "latestPrice": 287.15,
     "latestCurrency": "EUR",
     "marketCapUsd": 180750070367.85,
@@ -237,7 +276,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 75.0,
+    "currentAlphaRank": 13,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -250,7 +294,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 15.6,
-
     "latestPrice": 278.7,
     "latestCurrency": "EUR",
     "marketCapUsd": 241880577471.33,
@@ -261,7 +304,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 78.0,
+    "currentAlphaRank": 11,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -276,7 +324,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 15.31,
     "latestPrice": 458.92,
     "latestCurrency": "USD",
-    "marketCapUsd": 99137000000.00,
+    "marketCapUsd": 99137000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch hvac and thermal systems execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, Trane Technologies should see sustained demand because hVAC and thermal systems is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -284,7 +332,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 85.0,
+    "currentAlphaRank": 3,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -299,7 +352,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 90.47,
     "latestPrice": 334.49,
     "latestCurrency": "USD",
-    "marketCapUsd": 124217000000.00,
+    "marketCapUsd": 124217000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Strong ytd follow-through; watch power and cooling systems execution and pricing.",
     "bullThesis": "Vertiv is one of the clearest power-and-cooling expressions of AI buildout if high-density clusters keep forcing spend on liquid cooling, power trains, and retrofit complexity.",
@@ -307,7 +360,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 66.0,
+    "currentAlphaRank": 23,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 1,
@@ -322,7 +380,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 62.32,
     "latestPrice": 173.39,
     "latestCurrency": "USD",
-    "marketCapUsd": 26663000000.00,
+    "marketCapUsd": 26663000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical enclosures, busway, and thermal execution and pricing.",
     "bullThesis": "If AI rack density keeps rising, nVent Electric should see sustained demand because electrical enclosures, busway, and thermal is increasingly non-discretionary in new and retrofit AI deployments.",
@@ -330,7 +388,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AI deployment schedules slip, backlog converts more slowly, and power/cooling spending becomes a margin-dilutive retrofit cycle rather than a scarcity cycle.",
     "invalidation": "The bullish case weakens if power-density growth slows, liquid-cooling adoption stalls, or lead times/pricing normalize much faster than expected.",
     "secondOrder": "As cluster density rises, operators pre-buy power distribution, cooling loops, and electrical room gear earlier in the design cycle, lifting supplier bargaining power.",
-    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue."
+    "thirdOrder": "Power-constrained geographies lose share to campuses with grid access and water/thermal advantages, shifting value from chips toward permitted infrastructure and service revenue.",
+    "currentAlphaScore": 79.0,
+    "currentAlphaRank": 10,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "grid interconnection, transformers, switchgear, liquid cooling",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -345,7 +408,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 132.86,
     "latestPrice": 39.26,
     "latestCurrency": "USD",
-    "marketCapUsd": 83743000000.00,
+    "marketCapUsd": 83743000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Strong ytd follow-through; watch osat and advanced packaging execution and pricing.",
     "bullThesis": "If accelerator and HBM packaging remains scarce, ASE Technology can capture outsized value because oSAT and advanced packaging sits directly in the AI package build stack.",
@@ -353,7 +416,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 70.0,
+    "currentAlphaRank": 17,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -366,10 +434,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 357.93,
-
     "latestPrice": 150.2,
     "latestCurrency": "EUR",
-    "marketCapUsd": 6308026326.00,
+    "marketCapUsd": 6308026326.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Strong ytd follow-through; watch ic substrates execution and pricing.",
     "bullThesis": "If accelerator and HBM packaging remains scarce, AT&S can capture outsized value because iC substrates sits directly in the AI package build stack.",
@@ -377,7 +444,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 58.0,
+    "currentAlphaRank": 44,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -392,7 +464,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 74.14,
     "latestPrice": 74.74,
     "latestCurrency": "USD",
-    "marketCapUsd": 16972000000.00,
+    "marketCapUsd": 16972000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Positive but measured ytd; watch osat and packaging execution and pricing.",
     "bullThesis": "If accelerator and HBM packaging remains scarce, Amkor Technology can capture outsized value because oSAT and packaging sits directly in the AI package build stack.",
@@ -400,7 +472,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 81.0,
+    "currentAlphaRank": 9,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -415,7 +492,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 62.35,
     "latestPrice": 187.52,
     "latestCurrency": "USD",
-    "marketCapUsd": 8045000000.00,
+    "marketCapUsd": 8045000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Strong ytd follow-through; watch inspection/metrology for advanced packaging execution and pricing.",
     "bullThesis": "If accelerator and HBM packaging remains scarce, Camtek can capture outsized value because inspection/metrology for advanced packaging sits directly in the AI package build stack.",
@@ -423,7 +500,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 84.0,
+    "currentAlphaRank": 6,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -436,7 +518,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 207.49,
-
     "latestPrice": 22010.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 38342785679.86,
@@ -447,7 +528,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 60.0,
+    "currentAlphaRank": 39,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -460,7 +546,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 376.28,
-
     "latestPrice": 743.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 12969082984.03,
@@ -471,7 +556,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 55.0,
+    "currentAlphaRank": 54,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -484,7 +574,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 263.71,
-
     "latestPrice": 862.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 18595996550.37,
@@ -495,7 +584,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 55.0,
+    "currentAlphaRank": 53,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -508,7 +602,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 164.03,
-
     "latestPrice": 17825.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 20323997174.09,
@@ -519,7 +612,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 64.0,
+    "currentAlphaRank": 27,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -534,7 +632,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 39.76,
     "latestPrice": 446.69,
     "latestCurrency": "USD",
-    "marketCapUsd": 2083000000000.00,
+    "marketCapUsd": 2083000000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Strong ytd follow-through; watch leading-edge foundry and cowos execution and pricing.",
     "bullThesis": "If CoWoS and leading-edge packaging stay scarce, TSMC remains one of the cleanest toll-collector exposures because it captures both logic leadership and advanced integration value.",
@@ -542,7 +640,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that packaging catches up, customer capex cools, and TSMC's AI premium compresses back toward a more normal foundry-cycle valuation.",
     "invalidation": "The bullish case weakens if CoWoS lead times normalize quickly, frontier-node pricing softens, or hyperscaler AI demand materially disappoints.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 61.0,
+    "currentAlphaRank": 35,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -555,10 +658,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 62.56,
-
     "latestPrice": 508.0,
     "latestCurrency": "TWD",
-    "marketCapUsd": 8657992274.40,
+    "marketCapUsd": 8657992274.4,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Packaging scarcity exposure. Positive but measured ytd; watch hdi pcbs and boards execution and pricing.",
     "bullThesis": "If accelerator and HBM packaging remains scarce, Tripod Technology can capture outsized value because hDI PCBs and boards sits directly in the AI package build stack.",
@@ -566,7 +668,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 84.0,
+    "currentAlphaRank": 7,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 2,
@@ -579,7 +686,6 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 345.21,
-
     "latestPrice": 975.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 52573198158.18,
@@ -590,7 +696,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that substrate, interposer, or OSAT bottlenecks ease faster than expected, reducing urgency, pricing power, and valuation multiples.",
     "invalidation": "The bullish case is invalidated if CoWoS-like bottlenecks ease quickly, customers redesign for easier supply, or package complexity flattens.",
     "secondOrder": "When packages are scarce, OEMs and cloud buyers pre-book capacity and shift bargaining power toward OSATs, substrate suppliers, and packaging tool vendors.",
-    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion."
+    "thirdOrder": "Scarcity pushes the ecosystem to redesign package architectures, multi-source suppliers, and fund upstream chemicals, inspection, and substrate expansion.",
+    "currentAlphaScore": 51.0,
+    "currentAlphaRank": 67,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "CoWoS, chiplets, HBM attach, advanced substrate scarcity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 3,
@@ -605,7 +716,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 237.36,
     "latestPrice": 1064.1,
     "latestCurrency": "USD",
-    "marketCapUsd": 1168000000000.00,
+    "marketCapUsd": 1168000000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm supplier execution and pricing.",
     "bullThesis": "If HBM remains the gating item for accelerators, Micron can keep gaining relevance through premium mix, execution, and tighter strategic positioning in AI memory.",
@@ -613,7 +724,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that HBM supply catches up abruptly, pricing compresses, and memory remains cyclical despite the AI narrative.",
     "invalidation": "The bullish case breaks if HBM supply expands faster than expected, pricing resets sharply, or customers diversify away from premium memory stacks sooner.",
     "secondOrder": "HBM scarcity caps accelerator unit shipments, which can redirect spend upstream into packaging and downstream into network or server pre-builds.",
-    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency."
+    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency.",
+    "currentAlphaScore": 36.0,
+    "currentAlphaRank": 90,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 3,
@@ -626,10 +742,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 248.6,
-
     "latestPrice": 2360000.0,
     "latestCurrency": "KRW",
-    "marketCapUsd": 1174170975203.10,
+    "marketCapUsd": 1174170975203.1,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm supplier execution and pricing.",
     "bullThesis": "SK hynix remains a direct AI bottleneck owner if HBM stays scarce, because its share in premium HBM keeps it central to accelerator shipment economics.",
@@ -637,7 +752,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that HBM supply catches up abruptly, pricing compresses, and memory remains cyclical despite the AI narrative.",
     "invalidation": "The bullish case breaks if HBM supply expands faster than demand, premium stack mix falls, or alternative memory hierarchies reduce bottleneck intensity.",
     "secondOrder": "HBM scarcity caps accelerator unit shipments, which can redirect spend upstream into packaging and downstream into network or server pre-builds.",
-    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency."
+    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency.",
+    "currentAlphaScore": 36.0,
+    "currentAlphaRank": 91,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 3,
@@ -650,10 +770,9 @@ export const companies100: Company100[] = [
     "directnessScore": 5,
     "chokepointScore": 5,
     "ytdReturn": 180.54,
-
     "latestPrice": 360500.0,
     "latestCurrency": "KRW",
-    "marketCapUsd": 1536812185743.80,
+    "marketCapUsd": 1536812185743.8,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm, memory, and advanced logic execution and pricing.",
     "bullThesis": "Samsung is interesting if it closes execution gaps in premium memory and packaging, because scale across memory, logic, and packaging can re-rate the AI narrative.",
@@ -661,7 +780,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that HBM supply catches up abruptly, pricing compresses, and memory remains cyclical despite the AI narrative.",
     "invalidation": "The bullish case breaks if HBM supply expands faster than demand, premium stack mix falls, or alternative memory hierarchies reduce bottleneck intensity.",
     "secondOrder": "HBM scarcity caps accelerator unit shipments, which can redirect spend upstream into packaging and downstream into network or server pre-builds.",
-    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency."
+    "thirdOrder": "Cloud buyers lock in multi-year supply agreements and may co-design around memory limits, redistributing value toward package design and software efficiency.",
+    "currentAlphaScore": 45.0,
+    "currentAlphaRank": 79,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -684,7 +808,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optical demand is real but margins remain competitive, with policy, pricing, and customer concentration limiting upside capture.",
     "invalidation": "The bullish case weakens if optical orders cool, international competitiveness slips, or domestic AI/network demand fails to translate into sustainable margin improvement.",
     "secondOrder": "As AI traffic rises, operators spend more on data-center and metro optics, lifting demand for transceivers, chips, and integrated optical modules.",
-    "thirdOrder": "If network architectures standardize, value may consolidate around the lowest-cost, highest-yield suppliers while pricing pressure rises on mid-tier vendors."
+    "thirdOrder": "If network architectures standardize, value may consolidate around the lowest-cost, highest-yield suppliers while pricing pressure rises on mid-tier vendors.",
+    "currentAlphaScore": 53.4,
+    "currentAlphaRank": 64,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -699,7 +828,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 6.22,
     "latestPrice": 148.4,
     "latestCurrency": "USD",
-    "marketCapUsd": 182567000000.00,
+    "marketCapUsd": 182567000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch interconnects and cabling execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Amphenol should win because interconnects and cabling becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -707,7 +836,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 66.4,
+    "currentAlphaRank": 20,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -722,7 +856,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 411.04,
     "latestPrice": 202.37,
     "latestCurrency": "USD",
-    "marketCapUsd": 16239000000.00,
+    "marketCapUsd": 16239000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transceivers and lasers execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Applied Optoelectronics should win because optical transceivers and lasers becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -730,7 +864,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that AAOI's optimism outruns durable volume visibility, with customer concentration, pricing risk, and execution volatility reasserting themselves.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 44.4,
+    "currentAlphaRank": 82,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -745,7 +884,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 31.24,
     "latestPrice": 175.33,
     "latestCurrency": "USD",
-    "marketCapUsd": 214915000000.00,
+    "marketCapUsd": 214915000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch ethernet switches for ai clusters execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Arista Networks should win because ethernet switches for AI clusters becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -753,7 +892,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 63.4,
+    "currentAlphaRank": 29,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -768,7 +912,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 98.13,
     "latestPrice": 355.76,
     "latestCurrency": "USD",
-    "marketCapUsd": 60980000000.00,
+    "marketCapUsd": 60980000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch pcie/cxl connectivity execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Astera Labs should win because pCIe/CXL connectivity becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -776,7 +920,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 59.4,
+    "currentAlphaRank": 42,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -791,7 +940,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 38.53,
     "latestPrice": 481.57,
     "latestCurrency": "USD",
-    "marketCapUsd": 2178000000000.00,
+    "marketCapUsd": 2178000000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch custom silicon and networking execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Broadcom should win because custom silicon and networking becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -799,7 +948,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 50.4,
+    "currentAlphaRank": 68,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -814,7 +968,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 154.82,
     "latestPrice": 627.0,
     "latestCurrency": "USD",
-    "marketCapUsd": 85752000000.00,
+    "marketCapUsd": 85752000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transport and networking execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Ciena should win because optical transport and networking becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -822,7 +976,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 49.4,
+    "currentAlphaRank": 70,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -837,7 +996,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 119.67,
     "latestPrice": 426.89,
     "latestCurrency": "USD",
-    "marketCapUsd": 82693000000.00,
+    "marketCapUsd": 82693000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Strong ytd follow-through; watch optical components and lasers execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Coherent should win because optical components and lasers becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -845,7 +1004,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 59.4,
+    "currentAlphaRank": 43,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -860,7 +1024,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 59.89,
     "latestPrice": 229.0,
     "latestCurrency": "USD",
-    "marketCapUsd": 41786000000.00,
+    "marketCapUsd": 41786000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch high-speed connectivity and dsp execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Credo Technology should win because high-speed connectivity and DSP becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -868,7 +1032,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 66.4,
+    "currentAlphaRank": 22,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -883,7 +1052,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 46.24,
     "latestPrice": 701.11,
     "latestCurrency": "USD",
-    "marketCapUsd": 25219000000.00,
+    "marketCapUsd": 25219000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch optical manufacturing and assembly execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Fabrinet should win because optical manufacturing and assembly becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -891,7 +1060,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 74.4,
+    "currentAlphaRank": 15,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -904,10 +1078,9 @@ export const companies100: Company100[] = [
     "directnessScore": 4,
     "chokepointScore": 4,
     "ytdReturn": 383.02,
-
     "latestPrice": 50910.0,
     "latestCurrency": "JPY",
-    "marketCapUsd": 23104212608.30,
+    "marketCapUsd": 23104212608.3,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch fiber, cable, and optical components execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Furukawa Electric should win because fiber, cable, and optical components becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -915,7 +1088,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 44.4,
+    "currentAlphaRank": 81,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -938,7 +1116,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 44.4,
+    "currentAlphaRank": 80,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -953,7 +1136,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 166.54,
     "latestPrice": 1029.15,
     "latestCurrency": "USD",
-    "marketCapUsd": 73669000000.00,
+    "marketCapUsd": 73669000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical components and lasers execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Lumentum should win because optical components and lasers becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -961,7 +1144,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 49.4,
+    "currentAlphaRank": 71,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -976,7 +1164,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 225.3,
     "latestPrice": 290.79,
     "latestCurrency": "USD",
-    "marketCapUsd": 177129000000.00,
+    "marketCapUsd": 177129000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch networking silicon and custom compute execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, Marvell Technology should win because networking silicon and custom compute becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -984,7 +1172,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 33.4,
+    "currentAlphaRank": 95,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -997,7 +1190,6 @@ export const companies100: Company100[] = [
     "directnessScore": 4,
     "chokepointScore": 4,
     "ytdReturn": 93.96,
-
     "latestPrice": 13015.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 64759866900.75,
@@ -1008,7 +1200,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 59.4,
+    "currentAlphaRank": 41,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -1023,7 +1220,7 @@ export const companies100: Company100[] = [
     "ytdReturn": -7.93,
     "latestPrice": 214.73,
     "latestCurrency": "USD",
-    "marketCapUsd": 62679000000.00,
+    "marketCapUsd": 62679000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch high-speed connectors and interconnects execution and pricing.",
     "bullThesis": "If AI clusters scale outward and power-per-bit matters more, TE Connectivity should win because high-speed connectors and interconnects becomes more valuable in low-latency, lower-power interconnect architectures.",
@@ -1031,7 +1228,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 75.4,
+    "currentAlphaRank": 12,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 4,
@@ -1044,7 +1246,6 @@ export const companies100: Company100[] = [
     "directnessScore": 4,
     "chokepointScore": 4,
     "ytdReturn": 344.27,
-
     "latestPrice": 232.8,
     "latestCurrency": "HKD",
     "marketCapUsd": 33292369766.16,
@@ -1055,7 +1256,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that optics adoption is slower than expected, copper retains share longer, or hyperscalers squeeze margins as designs standardize.",
     "invalidation": "The bullish case weakens if copper stays good enough for longer, optical ASPs compress sharply, or a topology shift bypasses the company's component layer.",
     "secondOrder": "As clusters grow, buyers optimize total system power and latency, which can reallocate spending from compute toward switching, optics, and link-conditioning silicon.",
-    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners."
+    "thirdOrder": "Once topology standards settle, value can migrate again toward lowest-cost manufacturing, software-defined fabrics, or a narrower set of platform winners.",
+    "currentAlphaScore": 40.4,
+    "currentAlphaRank": 88,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "scale-out networking, CPO, 800G/1.6T optical links",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1070,7 +1276,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 56.22,
     "latestPrice": 472.4,
     "latestCurrency": "USD",
-    "marketCapUsd": 54310000000.00,
+    "marketCapUsd": 54310000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Negative ytd reset; watch systems manufacturing and networking hardware execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Celestica benefits because systems manufacturing and networking hardware turns semiconductor demand into physical capacity and revenue realization.",
@@ -1078,7 +1284,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 48.0,
+    "currentAlphaRank": 76,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1093,7 +1304,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 20.79,
     "latestPrice": 187.26,
     "latestCurrency": "USD",
-    "marketCapUsd": 66174000000.00,
+    "marketCapUsd": 66174000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Positive but measured ytd; watch data-center reit execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Digital Realty benefits because data-center REIT turns semiconductor demand into physical capacity and revenue realization.",
@@ -1101,7 +1312,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 55.8,
+    "currentAlphaRank": 49,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1116,7 +1332,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 40.27,
     "latestPrice": 1071.8,
     "latestCurrency": "USD",
-    "marketCapUsd": 103631000000.00,
+    "marketCapUsd": 103631000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Strong ytd follow-through; watch colocation and data-center operator execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Equinix benefits because colocation and data-center operator turns semiconductor demand into physical capacity and revenue realization.",
@@ -1124,7 +1340,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 53.8,
+    "currentAlphaRank": 61,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1137,10 +1358,9 @@ export const companies100: Company100[] = [
     "directnessScore": 2,
     "chokepointScore": 3,
     "ytdReturn": 150.36,
-
     "latestPrice": 159.43,
     "latestCurrency": "USD",
-    "marketCapUsd": 54228000000.00,
+    "marketCapUsd": 54228000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Positive but measured ytd; watch systems manufacturing and integration execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Flex benefits because systems manufacturing and integration turns semiconductor demand into physical capacity and revenue realization.",
@@ -1148,7 +1368,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 35.0,
+    "currentAlphaRank": 92,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1161,10 +1386,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": -3.73,
-
     "latestPrice": 36.91,
     "latestCurrency": "USD",
-    "marketCapUsd": 7346000000.00,
+    "marketCapUsd": 7346000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Positive but measured ytd; watch data-center operator execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, GDS Holdings benefits because data-center operator turns semiconductor demand into physical capacity and revenue realization.",
@@ -1172,7 +1396,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 67.8,
+    "currentAlphaRank": 19,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1185,10 +1414,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 29.96,
-
     "latestPrice": 301.5,
     "latestCurrency": "TWD",
-    "marketCapUsd": 130684119208.00,
+    "marketCapUsd": 130684119208.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Negative ytd reset; watch electronics manufacturing and server assembly execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Hon Hai Precision (Foxconn) benefits because electronics manufacturing and server assembly turns semiconductor demand into physical capacity and revenue realization.",
@@ -1196,7 +1424,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 53.8,
+    "currentAlphaRank": 60,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1219,7 +1452,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 62.8,
+    "currentAlphaRank": 30,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1232,10 +1470,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 26.36,
-
     "latestPrice": 15.845,
     "latestCurrency": "AUD",
-    "marketCapUsd": 8161183941.10,
+    "marketCapUsd": 8161183941.1,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Positive but measured ytd; watch data-center operator execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, NEXTDC benefits because data-center operator turns semiconductor demand into physical capacity and revenue realization.",
@@ -1243,7 +1480,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 62.8,
+    "currentAlphaRank": 31,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1256,10 +1498,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 44.58,
-
     "latestPrice": 400.5,
     "latestCurrency": "TWD",
-    "marketCapUsd": 45658697707.20,
+    "marketCapUsd": 45658697707.2,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Positive but measured ytd; watch ai server oem execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Quanta Computer benefits because aI server OEM turns semiconductor demand into physical capacity and revenue realization.",
@@ -1267,7 +1508,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 55.8,
+    "currentAlphaRank": 51,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1282,7 +1528,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 62.05,
     "latestPrice": 50.17,
     "latestCurrency": "USD",
-    "marketCapUsd": 21398000000.00,
+    "marketCapUsd": 21398000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Negative ytd reset; watch ai server platforms execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Super Micro Computer benefits because aI server platforms turns semiconductor demand into physical capacity and revenue realization.",
@@ -1290,7 +1536,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 55.8,
+    "currentAlphaRank": 52,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1303,10 +1554,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 23.23,
-
     "latestPrice": 191.0,
     "latestCurrency": "TWD",
-    "marketCapUsd": 17597855678.40,
+    "marketCapUsd": 17597855678.4,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Physical deployment exposure. Negative ytd reset; watch ai server oem execution and pricing.",
     "bullThesis": "If AI demand keeps pulling deployments forward, Wistron benefits because aI server OEM turns semiconductor demand into physical capacity and revenue realization.",
@@ -1314,7 +1564,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 59.8,
+    "currentAlphaRank": 40,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 5,
@@ -1327,7 +1582,6 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 22.21,
-
     "latestPrice": 5475.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 32592200403.21,
@@ -1338,7 +1592,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers over-order, delivery schedules slip, and lower-margin assembly or real-estate spend disappoints versus the narrative.",
     "invalidation": "The bullish case is challenged if lease pre-signing slows, server build cycles stretch, or pricing power shifts back to customers after capacity catches up.",
     "secondOrder": "During fast buildouts, value shifts toward whoever can ship complete racks, reserve powered space, or integrate systems with the fewest delays.",
-    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators."
+    "thirdOrder": "Once capacity catches up, bargaining power can rotate away from integrators and landlords toward chip vendors, while utilization and service quality become key differentiators.",
+    "currentAlphaScore": 55.8,
+    "currentAlphaRank": 50,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "rack integration, deployment capacity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1353,7 +1612,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 46.54,
     "latestPrice": 1705.37,
     "latestCurrency": "USD",
-    "marketCapUsd": 627680000000.00,
+    "marketCapUsd": 627680000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch lithography systems execution and pricing.",
     "bullThesis": "ASML works if AI-driven fab intensity stays high, because every serious expansion in leading-edge logic or memory ultimately reinforces lithography bottlenecks.",
@@ -1361,7 +1620,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if WFE budgets roll over hard, export controls intensify further, or customers push out EUV-heavy capacity additions.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 53.4,
+    "currentAlphaRank": 63,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1374,7 +1638,6 @@ export const companies100: Company100[] = [
     "directnessScore": 4,
     "chokepointScore": 4,
     "ytdReturn": 28.24,
-
     "latestPrice": 27155.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 117333011419.94,
@@ -1385,7 +1648,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 63.4,
+    "currentAlphaRank": 28,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1400,7 +1668,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 11.03,
     "latestPrice": 176.54,
     "latestCurrency": "EUR",
-    "marketCapUsd": 119314287300.00,
+    "marketCapUsd": 119314287300.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch industrial gases for semiconductor fabs execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Air Liquide should benefit because industrial gases for semiconductor fabs is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1408,7 +1676,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 66.4,
+    "currentAlphaRank": 21,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1423,7 +1696,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 82.26,
     "latestPrice": 490.05,
     "latestCurrency": "USD",
-    "marketCapUsd": 338752000000.00,
+    "marketCapUsd": 338752000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch semiconductor equipment execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Applied Materials should benefit because semiconductor equipment is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1431,7 +1704,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 54.4,
+    "currentAlphaRank": 58,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1446,7 +1724,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 59.58,
     "latestPrice": 142.92,
     "latestCurrency": "USD",
-    "marketCapUsd": 21084000000.00,
+    "marketCapUsd": 21084000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch materials and contamination control execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Entegris should benefit because materials and contamination control is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1454,7 +1732,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 65.4,
+    "currentAlphaRank": 25,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1469,7 +1752,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 111.37,
     "latestPrice": 125.11,
     "latestCurrency": "USD",
-    "marketCapUsd": 8970000000.00,
+    "marketCapUsd": 8970000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Very strong ytd rerating; watch probe cards and test interfaces execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, FormFactor should benefit because probe cards and test interfaces is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1477,7 +1760,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 61.4,
+    "currentAlphaRank": 33,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1492,7 +1780,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 129.45,
     "latestPrice": 84.6,
     "latestCurrency": "USD",
-    "marketCapUsd": 46396000000.00,
+    "marketCapUsd": 46396000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch specialty foundry capacity execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, GlobalFoundries should benefit because specialty foundry capacity is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1500,7 +1788,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 54.4,
+    "currentAlphaRank": 59,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1515,7 +1808,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 60.47,
     "latestPrice": 2045.2,
     "latestCurrency": "USD",
-    "marketCapUsd": 267159000000.00,
+    "marketCapUsd": 267159000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch inspection/metrology execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, KLA should benefit because inspection/metrology is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1523,7 +1816,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 54.4,
+    "currentAlphaRank": 56,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1538,7 +1836,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 124.12,
     "latestPrice": 108.36,
     "latestCurrency": "USD",
-    "marketCapUsd": 5666000000.00,
+    "marketCapUsd": 5666000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch assembly and packaging equipment execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Kulicke & Soffa should benefit because assembly and packaging equipment is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1546,7 +1844,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 61.4,
+    "currentAlphaRank": 34,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1561,7 +1864,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 80.7,
     "latestPrice": 334.41,
     "latestCurrency": "USD",
-    "marketCapUsd": 418203000000.00,
+    "marketCapUsd": 418203000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch etch/deposition equipment execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Lam Research should benefit because etch/deposition equipment is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1569,7 +1872,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 54.4,
+    "currentAlphaRank": 57,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1584,7 +1892,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 15.57,
     "latestPrice": 495.91,
     "latestCurrency": "USD",
-    "marketCapUsd": 229283000000.00,
+    "marketCapUsd": 229283000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch industrial gases for semiconductor fabs execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Linde should benefit because industrial gases for semiconductor fabs is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1592,7 +1900,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 61.4,
+    "currentAlphaRank": 32,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1607,7 +1920,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 7.79,
     "latestPrice": 130.75,
     "latestCurrency": "EUR",
-    "marketCapUsd": 66118745700.00,
+    "marketCapUsd": 66118745700.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Negative ytd reset; watch semiconductor materials execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Merck KGaA should benefit because semiconductor materials is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1615,7 +1928,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 68.4,
+    "currentAlphaRank": 18,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1630,7 +1948,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 50.61,
     "latestPrice": 523.13,
     "latestCurrency": "USD",
-    "marketCapUsd": 16770000000.00,
+    "marketCapUsd": 16770000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch metrology for semiconductor manufacturing execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Nova should benefit because metrology for semiconductor manufacturing is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1638,7 +1956,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 65.4,
+    "currentAlphaRank": 24,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1653,7 +1976,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 67.61,
     "latestPrice": 278.02,
     "latestCurrency": "USD",
-    "marketCapUsd": 13830000000.00,
+    "marketCapUsd": 13830000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch metrology and inspection execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, Onto Innovation should benefit because metrology and inspection is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1661,7 +1984,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 65.4,
+    "currentAlphaRank": 26,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1674,7 +2002,6 @@ export const companies100: Company100[] = [
     "directnessScore": 4,
     "chokepointScore": 4,
     "ytdReturn": 54.48,
-
     "latestPrice": 57050.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 152045544027.13,
@@ -1685,7 +2012,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 54.4,
+    "currentAlphaRank": 55,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 6,
@@ -1700,7 +2032,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 186.48,
     "latestPrice": 22.46,
     "latestCurrency": "USD",
-    "marketCapUsd": 56359000000.00,
+    "marketCapUsd": 56359000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch mature-node foundry capacity execution and pricing.",
     "bullThesis": "If the ecosystem keeps funding bottleneck relief, UMC should benefit because mature-node foundry capacity is a pick-and-shovel spend required for added semiconductor capacity.",
@@ -1708,7 +2040,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that customers pulled forward too much capex, leaving a digestion period that hits orders, utilization, and sentiment.",
     "invalidation": "The bullish case weakens if wafer-fab equipment spending rolls over sharply, export controls bite harder, or utilization falls enough to defer new tools and materials.",
     "secondOrder": "Visible bottlenecks in packaging, HBM, or foundry output trigger more upstream spending on equipment, gases, materials, and test infrastructure.",
-    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools."
+    "thirdOrder": "If over-ordering occurs, the same upstream names can suffer a delayed air pocket as fabs digest installed capacity and defer incremental tools.",
+    "currentAlphaScore": 48.4,
+    "currentAlphaRank": 75,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "leading-edge capacity, process-control inputs",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1721,10 +2058,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 129.98,
-
     "latestPrice": 88.0,
     "latestCurrency": "EUR",
-    "marketCapUsd": 112331034900.00,
+    "marketCapUsd": 112331034900.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch power semiconductors execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Infineon Technologies benefits because power semiconductors gains content per server and rack.",
@@ -1732,7 +2068,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 47.8,
+    "currentAlphaRank": 77,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1747,7 +2088,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 64.51,
     "latestPrice": 3671.0,
     "latestCurrency": "JPY",
-    "marketCapUsd": 26113500000.00,
+    "marketCapUsd": 26113500000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch ceramics, substrates, and components execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Kyocera benefits because ceramics, substrates, and components gains content per server and rack.",
@@ -1755,7 +2096,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 60.8,
+    "currentAlphaRank": 37,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1770,7 +2116,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 85.84,
     "latestPrice": 487.9,
     "latestCurrency": "USD",
-    "marketCapUsd": 12338000000.00,
+    "marketCapUsd": 12338000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Strong ytd follow-through; watch protection and power components execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Littelfuse benefits because protection and power components gains content per server and rack.",
@@ -1778,7 +2124,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 60.8,
+    "currentAlphaRank": 38,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1793,7 +2144,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 73.55,
     "latestPrice": 1624.99,
     "latestCurrency": "USD",
-    "marketCapUsd": 75778000000.00,
+    "marketCapUsd": 75778000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch power management ics execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Monolithic Power Systems benefits because power management ICs gains content per server and rack.",
@@ -1801,7 +2152,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 56.8,
+    "currentAlphaRank": 46,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1814,7 +2170,6 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 224.47,
-
     "latestPrice": 10805.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 120297589557.01,
@@ -1825,7 +2180,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 32.8,
+    "currentAlphaRank": 96,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1838,7 +2198,6 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 126.13,
-
     "latestPrice": 5150.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 12602732483.62,
@@ -1849,7 +2208,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 53.8,
+    "currentAlphaRank": 62,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1864,7 +2228,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 190.5,
     "latestPrice": 79.51,
     "latestCurrency": "USD",
-    "marketCapUsd": 70668000000.00,
+    "marketCapUsd": 70668000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch power semis and analog execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, STMicroelectronics benefits because power semis and analog gains content per server and rack.",
@@ -1872,7 +2236,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 43.8,
+    "currentAlphaRank": 84,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1887,7 +2256,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 76.62,
     "latestPrice": 3974.0,
     "latestCurrency": "JPY",
-    "marketCapUsd": 44925300000.00,
+    "marketCapUsd": 44925300000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Negative ytd reset; watch passives and power components execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, TDK benefits because passives and power components gains content per server and rack.",
@@ -1895,7 +2264,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 56.8,
+    "currentAlphaRank": 47,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1910,7 +2284,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 308.7,
     "latestPrice": 62.49,
     "latestCurrency": "USD",
-    "marketCapUsd": 8505000000.00,
+    "marketCapUsd": 8505000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch discrete power and passives execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Vishay Intertechnology benefits because discrete power and passives gains content per server and rack.",
@@ -1918,7 +2292,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 41.8,
+    "currentAlphaRank": 87,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1933,7 +2312,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 222.56,
     "latestPrice": 61.06,
     "latestCurrency": "USD",
-    "marketCapUsd": 2955000000.00,
+    "marketCapUsd": 2955000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Strong ytd follow-through; watch sic power devices execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, Wolfspeed benefits because siC power devices gains content per server and rack.",
@@ -1941,7 +2320,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 41.8,
+    "currentAlphaRank": 86,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1954,7 +2338,6 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 3,
     "ytdReturn": 251.04,
-
     "latestPrice": 846.0,
     "latestCurrency": "TWD",
     "marketCapUsd": 51719427219.05,
@@ -1965,7 +2348,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 34.8,
+    "currentAlphaRank": 93,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 7,
@@ -1980,7 +2368,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 126.88,
     "latestPrice": 128.64,
     "latestCurrency": "USD",
-    "marketCapUsd": 50016000000.00,
+    "marketCapUsd": 50016000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Power-delivery content exposure. Positive but measured ytd; watch power semiconductors execution and pricing.",
     "bullThesis": "If servers move further toward 48V, denser power shelves, and hotter boards, onsemi benefits because power semiconductors gains content per server and rack.",
@@ -1988,7 +2376,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that board architectures standardize and pricing gets competed away before AI volumes fully scale.",
     "invalidation": "The bullish case is undermined if next-gen power architectures are delayed, content-per-rack stops rising, or the company loses design wins in key platforms.",
     "secondOrder": "Higher rack density forces redesigns of voltage regulation, filtering, protection, and thermal management, lifting component content and qualification value.",
-    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages."
+    "thirdOrder": "Over time, standardization can commoditize some sockets, pushing value toward the few vendors with proprietary efficiency, thermal, or reliability advantages.",
+    "currentAlphaScore": 49.8,
+    "currentAlphaRank": 69,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "AI server PDN, MLCCs, inductors, power semiconductors",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 8,
@@ -2003,7 +2396,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 133.38,
     "latestPrice": 521.54,
     "latestCurrency": "USD",
-    "marketCapUsd": 831818000000.00,
+    "marketCapUsd": 831818000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Platform compute exposure. Negative ytd reset; watch gpu/cpu accelerator platform execution and pricing.",
     "bullThesis": "AMD works if customers demand a credible second source in AI accelerators, allowing share gains and ecosystem improvement without needing absolute platform dominance.",
@@ -2011,7 +2404,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that custom silicon, tighter budgets, or weaker utilization compress both volume expectations and willingness to pay peak multiples.",
     "invalidation": "The bullish case fades if software enablement lags, large customers stay concentrated on a single incumbent, or accelerator margins do not scale with share.",
     "secondOrder": "When leading compute is scarce, buyers reserve memory, networking, and server capacity early, sending value ripples across the rest of the stack.",
-    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone."
+    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone.",
+    "currentAlphaScore": 37.2,
+    "currentAlphaRank": 89,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "accelerator demand, but higher consensus and cap concentration",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): accelerator demand, but higher consensus and cap concentration score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 8,
@@ -2026,7 +2424,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 251.01,
     "latestPrice": 402.71,
     "latestCurrency": "USD",
-    "marketCapUsd": 273160000000.00,
+    "marketCapUsd": 273160000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Platform compute exposure. Strong ytd follow-through; watch cpu/ip licensing for ai servers execution and pricing.",
     "bullThesis": "If AI spending stays concentrated in leading platforms, Arm Holdings can keep compounding via share, ecosystem lock-in, and richer software or IP attach economics.",
@@ -2034,7 +2432,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that custom silicon, tighter budgets, or weaker utilization compress both volume expectations and willingness to pay peak multiples.",
     "invalidation": "The bullish case weakens if utilization disappoints, hyperscalers diversify away faster, or software/platform lock-in proves less durable than expected.",
     "secondOrder": "When leading compute is scarce, buyers reserve memory, networking, and server capacity early, sending value ripples across the rest of the stack.",
-    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone."
+    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone.",
+    "currentAlphaScore": 28.4,
+    "currentAlphaRank": 97,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "accelerator demand, but higher consensus and cap concentration",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): accelerator demand, but higher consensus and cap concentration score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 8,
@@ -2049,7 +2452,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 17.99,
     "latestPrice": 222.82,
     "latestCurrency": "USD",
-    "marketCapUsd": 5397000000000.00,
+    "marketCapUsd": 5397000000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Platform compute exposure. Negative ytd reset; watch gpu platform leader execution and pricing.",
     "bullThesis": "NVIDIA wins if AI spend remains platform-centric, because GPU leadership, CUDA lock-in, networking attach, and system software create stacked monetization layers.",
@@ -2057,7 +2460,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that custom silicon, tighter budgets, or weaker utilization compress both volume expectations and willingness to pay peak multiples.",
     "invalidation": "The bullish case weakens if utilization disappoints, custom silicon displaces more volume than expected, or networking/software attach proves less sticky.",
     "secondOrder": "When leading compute is scarce, buyers reserve memory, networking, and server capacity early, sending value ripples across the rest of the stack.",
-    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone."
+    "thirdOrder": "If compute becomes more abundant, value can migrate toward orchestration, networking efficiency, and data-layer optimization rather than the chip alone.",
+    "currentAlphaScore": 43.2,
+    "currentAlphaRank": 85,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "accelerator demand, but higher consensus and cap concentration",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): accelerator demand, but higher consensus and cap concentration score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2070,7 +2478,6 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 2,
     "ytdReturn": 105.24,
-
     "latestPrice": 4696.0,
     "latestCurrency": "JPY",
     "marketCapUsd": 3844672009.11,
@@ -2081,7 +2488,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 49.0,
+    "currentAlphaRank": 74,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2096,7 +2508,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 34.15,
     "latestPrice": 416.39,
     "latestCurrency": "USD",
-    "marketCapUsd": 112828000000.00,
+    "marketCapUsd": 112828000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Negative ytd reset; watch eda software execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, Cadence Design Systems wins because eDA software becomes a less optional part of bringing AI systems to production.",
@@ -2104,7 +2516,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 51.0,
+    "currentAlphaRank": 66,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2119,7 +2536,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 67.76,
     "latestPrice": 346.57,
     "latestCurrency": "USD",
-    "marketCapUsd": 56344000000.00,
+    "marketCapUsd": 56344000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Strong ytd follow-through; watch test and measurement execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, Keysight Technologies wins because test and measurement becomes a less optional part of bringing AI systems to production.",
@@ -2127,7 +2544,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 49.0,
+    "currentAlphaRank": 72,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2142,7 +2564,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 118.54,
     "latestPrice": 382.35,
     "latestCurrency": "USD",
-    "marketCapUsd": 29172000000.00,
+    "marketCapUsd": 29172000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Strong ytd follow-through; watch rf/analog and optical semis execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, MACOM Technology Solutions wins because rF/analog and optical semis becomes a less optional part of bringing AI systems to production.",
@@ -2150,7 +2572,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 46.0,
+    "currentAlphaRank": 78,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2165,7 +2592,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 379.52,
     "latestPrice": 88.76,
     "latestCurrency": "USD",
-    "marketCapUsd": 8754000000.00,
+    "marketCapUsd": 8754000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Negative ytd reset; watch signal integrity and connectivity execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, MaxLinear wins because signal integrity and connectivity becomes a less optional part of bringing AI systems to production.",
@@ -2173,7 +2600,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 34.0,
+    "currentAlphaRank": 94,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2186,10 +2618,9 @@ export const companies100: Company100[] = [
     "directnessScore": 3,
     "chokepointScore": 2,
     "ytdReturn": 89.5,
-
     "latestPrice": 701.08,
     "latestCurrency": "USD",
-    "marketCapUsd": 19616000000.00,
+    "marketCapUsd": 19616000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Negative ytd reset; watch timing chips execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, SiTime wins because timing chips becomes a less optional part of bringing AI systems to production.",
@@ -2197,7 +2628,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 53.0,
+    "currentAlphaRank": 65,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2212,7 +2648,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 5.81,
     "latestPrice": 508.35,
     "latestCurrency": "USD",
-    "marketCapUsd": 97339000000.00,
+    "marketCapUsd": 97339000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Negative ytd reset; watch eda software and ip execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, Synopsys wins because eDA software and IP becomes a less optional part of bringing AI systems to production.",
@@ -2220,7 +2656,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 56.0,
+    "currentAlphaRank": 48,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 9,
@@ -2235,7 +2676,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 89.16,
     "latestPrice": 392.62,
     "latestCurrency": "USD",
-    "marketCapUsd": 61462000000.00,
+    "marketCapUsd": 61462000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Design-validation exposure. Strong ytd follow-through; watch semiconductor test and robotics execution and pricing.",
     "bullThesis": "If link speeds and design complexity keep climbing, Teradyne wins because semiconductor test and robotics becomes a less optional part of bringing AI systems to production.",
@@ -2243,7 +2684,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that design cycles elongate, customers consolidate tools, and spending is deferred after a burst of AI enthusiasm.",
     "invalidation": "The bullish case fades if complexity growth slows materially, design starts fall, or customers successfully consolidate vendors and lower spend.",
     "secondOrder": "As systems get harder to validate, customers spend more on simulation, timing integrity, measurement, and test before committing to large deployments.",
-    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders."
+    "thirdOrder": "Eventually, AI-assisted design automation and platform standardization could compress incremental spend for some point tools while strengthening scale leaders.",
+    "currentAlphaScore": 49.0,
+    "currentAlphaRank": 73,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "verification, probe/test, AI chip complexity",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 10,
@@ -2258,7 +2704,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 64.97,
     "latestPrice": 175.64,
     "latestCurrency": "USD",
-    "marketCapUsd": 35215000000.00,
+    "marketCapUsd": 35215000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Data-layer utilization exposure. Negative ytd reset; watch enterprise storage and data management execution and pricing.",
     "bullThesis": "If data movement and retrieval become the next AI bottleneck, NetApp should benefit because enterprise storage and data management becomes more important to keeping expensive accelerators utilized.",
@@ -2266,7 +2712,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that storage spend lags compute, budgets stay concentrated upstream, and AI workloads optimize around less hardware-intensive data architectures.",
     "invalidation": "The bullish case is weakened if customers delay storage refresh, inference becomes less data-intensive than feared, or low-cost tiers capture most of the spend.",
     "secondOrder": "Once accelerators become abundant enough, buyers focus on feeding them efficiently, which raises the value of metadata, throughput, and storage tiering.",
-    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage."
+    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage.",
+    "currentAlphaScore": 44.2,
+    "currentAlphaRank": 83,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "agentic workload data gravity, AI storage",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 10,
@@ -2279,10 +2730,9 @@ export const companies100: Company100[] = [
     "directnessScore": 2,
     "chokepointScore": 2,
     "ytdReturn": -1.75,
-
     "latestPrice": 67.8,
     "latestCurrency": "USD",
-    "marketCapUsd": 28050287407.00,
+    "marketCapUsd": 28050287407.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Data-layer utilization exposure. Negative ytd reset; watch flash storage and data platform execution and pricing.",
     "bullThesis": "If data movement and retrieval become the next AI bottleneck, Pure Storage should benefit because flash storage and data platform becomes more important to keeping expensive accelerators utilized.",
@@ -2290,7 +2740,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that storage spend lags compute, budgets stay concentrated upstream, and AI workloads optimize around less hardware-intensive data architectures.",
     "invalidation": "The bullish case is weakened if customers delay storage refresh, inference becomes less data-intensive than feared, or low-cost tiers capture most of the spend.",
     "secondOrder": "Once accelerators become abundant enough, buyers focus on feeding them efficiently, which raises the value of metadata, throughput, and storage tiering.",
-    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage."
+    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage.",
+    "currentAlphaScore": 57.2,
+    "currentAlphaRank": 45,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "agentic workload data gravity, AI storage",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 10,
@@ -2305,7 +2760,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 222.25,
     "latestPrice": 926.61,
     "latestCurrency": "USD",
-    "marketCapUsd": 206121000000.00,
+    "marketCapUsd": 206121000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Data-layer utilization exposure. Strong ytd follow-through; watch storage hardware execution and pricing.",
     "bullThesis": "If data movement and retrieval become the next AI bottleneck, Seagate Technology should benefit because storage hardware becomes more important to keeping expensive accelerators utilized.",
@@ -2313,7 +2768,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that storage spend lags compute, budgets stay concentrated upstream, and AI workloads optimize around less hardware-intensive data architectures.",
     "invalidation": "The bullish case is weakened if customers delay storage refresh, inference becomes less data-intensive than feared, or low-cost tiers capture most of the spend.",
     "secondOrder": "Once accelerators become abundant enough, buyers focus on feeding them efficiently, which raises the value of metadata, throughput, and storage tiering.",
-    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage."
+    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage.",
+    "currentAlphaScore": 15.2,
+    "currentAlphaRank": 100,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "agentic workload data gravity, AI storage",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 10,
@@ -2328,7 +2788,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 221.32,
     "latestPrice": 301.27,
     "latestCurrency": "USD",
-    "marketCapUsd": 10215000000.00,
+    "marketCapUsd": 10215000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Data-layer utilization exposure. Strong ytd follow-through; watch ssd controllers execution and pricing.",
     "bullThesis": "If data movement and retrieval become the next AI bottleneck, Silicon Motion should benefit because sSD controllers becomes more important to keeping expensive accelerators utilized.",
@@ -2336,7 +2796,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that storage spend lags compute, budgets stay concentrated upstream, and AI workloads optimize around less hardware-intensive data architectures.",
     "invalidation": "The bullish case is weakened if customers delay storage refresh, inference becomes less data-intensive than feared, or low-cost tiers capture most of the spend.",
     "secondOrder": "Once accelerators become abundant enough, buyers focus on feeding them efficiently, which raises the value of metadata, throughput, and storage tiering.",
-    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage."
+    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage.",
+    "currentAlphaScore": 26.2,
+    "currentAlphaRank": 98,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "agentic workload data gravity, AI storage",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   },
   {
     "bucketRank": 10,
@@ -2351,7 +2816,7 @@ export const companies100: Company100[] = [
     "ytdReturn": 200.0,
     "latestPrice": 563.1,
     "latestCurrency": "USD",
-    "marketCapUsd": 158423000000.00,
+    "marketCapUsd": 158423000000.0,
     "marketDataAsOf": "2026-06-02",
     "snapshot": "Data-layer utilization exposure. Strong ytd follow-through; watch storage hardware execution and pricing.",
     "bullThesis": "If data movement and retrieval become the next AI bottleneck, Western Digital should benefit because storage hardware becomes more important to keeping expensive accelerators utilized.",
@@ -2359,7 +2824,12 @@ export const companies100: Company100[] = [
     "bearThesis": "The bear case is that storage spend lags compute, budgets stay concentrated upstream, and AI workloads optimize around less hardware-intensive data architectures.",
     "invalidation": "The bullish case is weakened if customers delay storage refresh, inference becomes less data-intensive than feared, or low-cost tiers capture most of the spend.",
     "secondOrder": "Once accelerators become abundant enough, buyers focus on feeding them efficiently, which raises the value of metadata, throughput, and storage tiering.",
-    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage."
+    "thirdOrder": "As models mature, value can shift from raw capacity toward data orchestration, caching, and lower-latency retrieval—creating different winners within storage.",
+    "currentAlphaScore": 24.2,
+    "currentAlphaRank": 99,
+    "thesisAuditAsOf": "2026-06-02",
+    "thesisAuditTags": "agentic workload data gravity, AI storage",
+    "thesisAuditNote": "Current thesis audit (June 2, 2026): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already fully capitulated upward."
   }
 ];
 
@@ -2580,6 +3050,30 @@ export const sourceLibrary: SourceRef[] = [
     "why": "Latest price and YTD return refresh for public companies, as of June 2, 2026."
   },
   {
+    "bucket": "Current thesis audit",
+    "source": "AI 2027 Compute Forecast",
+    "url": "https://ai-2027.com/research/compute-forecast",
+    "why": "Used to weight AI-relevant compute growth, compute concentration, synthetic data generation, and research-automation demand."
+  },
+  {
+    "bucket": "Current thesis audit",
+    "source": "IEA Key Questions on Energy and AI",
+    "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+    "why": "Used to raise the importance of power, grid interconnection, transformers, and gas-turbine constraints."
+  },
+  {
+    "bucket": "Current thesis audit",
+    "source": "NVIDIA fiscal 2027 first-quarter results",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+    "why": "Used for current AI-factory demand, data-center networking growth, and physical-AI framing."
+  },
+  {
+    "bucket": "Current thesis audit",
+    "source": "Micron HBM4 production for NVIDIA Vera Rubin",
+    "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+    "why": "Used to validate Rubin-era HBM4, SOCAMM2, and storage bottleneck intensity."
+  },
+  {
     "bucket": "Methodology",
     "source": "Universe maintenance",
     "url": "https://www.conyers.com/publications/view/conyers-advises-o-net-technologies-group-limited-in-connection-with-its-hk2828-78-million-privatization-by-way-of-a-scheme-of-arrangement-and-its-delisting-from-the-hong-kong-stock-exchange/",
@@ -2725,6 +3219,8 @@ export const overviewStats = {
   "nonUsNames": 59,
   "medianYtd": 75.38,
   "meanYtd": 113.2,
+  "medianCurrentAlpha": 55.8,
+  "meanCurrentAlpha": 56.6,
   "highestBucket": "HBM & AI memory",
   "lowestBucket": "Power, cooling & electrical"
 };
