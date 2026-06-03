@@ -268,13 +268,18 @@ def collect_companies100() -> list[TickerRef]:
 def collect_robotics() -> list[TickerRef]:
     text = (ROOT / "data" / "robotics.ts").read_text()
     refs = []
-    for block in re.findall(r"\{ company: '[^']+'.*?\}", text):
+    for block in re.findall(r"\{(?:[^{}]|\{[^{}]*\})*?\}", text, flags=re.S):
         company = re.search(r"company: '([^']+)'", block)
         ticker = re.search(r"ticker: '([^']+)'", block)
         if company and ticker:
             symbol = yahoo_symbol(ticker.group(1))
             if symbol:
                 refs.append(TickerRef(symbol, ticker.group(1), company.group(1), "robotics"))
+        holding = re.search(r"company: '([^']+)'.*?yahooSymbol: '([^']+)'", block, flags=re.S)
+        if holding:
+            symbol = yahoo_symbol(holding.group(2))
+            if symbol:
+                refs.append(TickerRef(symbol, holding.group(2), holding.group(1), "robotics"))
     return refs
 
 
@@ -1540,89 +1545,40 @@ def update_robotics(market_rows: dict[str, dict[str, object]]) -> None:
     path = ROOT / "data" / "robotics.ts"
     text = path.read_text()
 
-    residual_bonus = {
-        "OUST": 36,
-        "SERV": 34,
-        "6324.T": 32,
-        "6268.T": 30,
-        "9880.HK": 28,
-        "CGNX": 16,
-    }
-    residual_demote = {
-        "NVDA": -35,
-        "TSLA": -30,
-        "GOOGL": -35,
-        "AMZN": -35,
-        "MSFT": -35,
-        "SYM": -16,
-        "ISRG": -24,
-        "6861.T": -22,
-        "6954.T": -18,
-        "ABBN.SW": -18,
-        "TSM": -32,
-        "AMD": -28,
-        "QCOM": -24,
-    }
-
-    def residual_robotics_score(ticker: str, base_alpha: float | None, cap_usd: float | None, ytd: float | None) -> float:
-        score = (base_alpha or 0) * 0.45
-        if cap_usd:
-            if cap_usd < 2e9:
-                score += 24
-            elif cap_usd < 8e9:
-                score += 16
-            elif cap_usd < 25e9:
-                score += 8
-            elif cap_usd > 100e9:
-                score -= 24
-            elif cap_usd > 25e9:
-                score -= 10
-        score += residual_bonus.get(ticker, 0)
-        score += residual_demote.get(ticker, 0)
-        score -= price_rerating_penalty(ytd)
-        return max(0, score)
-
     def repl(match: re.Match[str]) -> str:
         block = match.group(0)
-        ticker = re.search(r"ticker: '([^']+)'", block)
-        if not ticker:
+        if "price:" not in block or "marketCapUsd:" not in block or "ytdReturnPct:" not in block:
             return block
-        md = market(yahoo_symbol(ticker.group(1)) or "", market_rows)
-        cap = number(md["market_cap_usd"]) if md else None
-        price = price_string(number(md["price"]), str(md["currency"])) if md else ""
-        ytd = number(md["ytd_return_pct"]) if md else None
-        cap_string = money_string(cap)
-        base_alpha_match = re.search(r"alpha: ([0-9.]+)", block)
-        base_alpha = number(base_alpha_match.group(1)) if base_alpha_match else None
-        residual_score = residual_robotics_score(ticker.group(1), base_alpha, cap, ytd)
-        block = re.sub(
-            r", latestPrice: '[^']*', ytdReturnPct: [-0-9.]+, marketDataAsOf: '[^']*'",
-            "",
-            block,
-        )
-        block = re.sub(r", residualAlpha: [-0-9.]+", "", block)
-        if cap_string and "marketCap:" in block:
-            addition = f"marketCap: '{cap_string}'"
-            if price and ytd is not None:
-                addition += f", latestPrice: '{price}', ytdReturnPct: {ytd}, marketDataAsOf: '{AS_OF}'"
-            if "publicCompanies" in text[text.rfind("export const", 0, match.start()):match.start()]:
-                addition += f", residualAlpha: {residual_score:.1f}"
-            block = re.sub(r"marketCap: '[^']*'", addition, block)
+        symbol_match = re.search(r"yahooSymbol: '([^']+)'", block) or re.search(r"ticker: '([^']+)'", block)
+        if not symbol_match:
+            return block
+        symbol = yahoo_symbol(symbol_match.group(1))
+        md = market(symbol or "", market_rows) if symbol else None
+        if not md:
+            return block
+        price = number(md["price"])
+        cap = number(md["market_cap_usd"])
+        ytd = number(md["ytd_return_pct"])
+        if price is not None:
+            block = re.sub(r"price: (?:null|-?[0-9.]+)", f"price: {price}", block)
+        block = re.sub(r"currency: '[^']*'", f"currency: '{md['currency']}'", block)
+        if cap is not None:
+            block = re.sub(r"marketCapUsd: (?:null|-?[0-9.]+)", f"marketCapUsd: {cap:.2f}", block)
+        if ytd is not None:
+            block = re.sub(r"ytdReturnPct: (?:null|-?[0-9.]+)", f"ytdReturnPct: {ytd}", block)
         return block
 
-    text = re.sub(r"\{ rank: \d+, company: '[^']+'.*?\}", repl, text)
-    text = re.sub(r"\{ company: '[^']+'.*?\}", repl, text)
-
-    public_match = re.search(r"export const publicCompanies: PublicCompany\[] = \[\n([\s\S]*?)\n\];", text)
-    if public_match:
-        blocks = re.findall(r"  \{ company: '[^']+'.*?\}", public_match.group(1))
-        scored = []
-        for block in blocks:
-            score = number(re.search(r"residualAlpha: ([0-9.]+)", block).group(1)) if re.search(r"residualAlpha: ([0-9.]+)", block) else 0
-            cap_text = re.search(r"marketCap: '([^']*)'", block)
-            scored.append((-(score or 0), cap_text.group(1) if cap_text else "", block))
-        scored.sort(key=lambda item: item[:2])
-        text = text[: public_match.start(1)] + ",\n".join(block for _score, _cap, block in scored) + text[public_match.end(1) :]
+    text = re.sub(r"\{(?:[^{}]|\{[^{}]*\})*?\}", repl, text, flags=re.S)
+    text = re.sub(
+        r"export const updatedLabel = '[^']+';",
+        f"export const updatedLabel = '{AS_OF_LABEL}';",
+        text,
+    )
+    text = re.sub(
+        r"usedFor: 'Latest price, market cap, and YTD return refresh on [^']+'",
+        f"usedFor: 'Latest price, market cap, and YTD return refresh on {AS_OF_LABEL}.'",
+        text,
+    )
     path.write_text(text)
 
 

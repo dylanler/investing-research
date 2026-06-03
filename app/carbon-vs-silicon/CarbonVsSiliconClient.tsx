@@ -1479,7 +1479,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-                  <TonePill tone="neutral">Published April 20, 2026 · Updated May 7, 2026</TonePill>
+                  <TonePill tone="neutral">Published April 20, 2026 · Updated June 2, 2026</TonePill>
                 </div>
 
                 <div
@@ -1495,7 +1495,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                   }}
                 >
                   <div style={{ marginBottom: 8 }}>
-                    <TonePill tone="neutral">May 4 Market Refresh</TonePill>
+                    <TonePill tone="neutral">June 2 Market Refresh</TonePill>
                   </div>
                   Vertiv reported Q1 net sales of $2.65B (+30%) and raised full-year guidance; GE Vernova reported
                   $18.3B of Q1 orders, including $2.4B of data-center electrification orders, and also raised
