@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import {
   crowdAudit,
   humanoidAlphaCompanies,
@@ -533,6 +534,11 @@ export default function RoboticsPage() {
           </div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For humanoid robotics, the current pass cross-checks the crowdsourced list against KOID holdings, physical-AI platform evidence, market cap, and YTD rerating, then penalizes obvious ETF/crowd consensus while keeping smaller direct component names visible."
+      />
 
       <section style={{ padding: '0 var(--space-lg) var(--space-3xl)' }}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-6" style={{ gap: 'var(--space-md)' }}>

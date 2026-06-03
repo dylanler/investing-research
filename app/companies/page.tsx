@@ -11,6 +11,7 @@ import {
 } from 'recharts';
 import { companies100, bucketSummary, portfolios, sourceLibrary, overviewStats } from '@/data/companies100';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 
 const BUCKET_COLORS: Record<string, string> = {
   'Power, cooling & electrical': 'oklch(55% 0.12 25)',
@@ -190,6 +191,11 @@ export default function CompaniesPage() {
           </motion.div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For the 100-company buildout universe, the current pass makes alpha an explicit score: chokepoint exposure must be balanced against market cap, YTD rerating, and consensus risk."
+      />
 
       <Reveal>
         <p style={{ fontSize: 'var(--text-base)', color: 'var(--ink-700)', lineHeight: 1.75, maxWidth: 640, margin: '0 auto var(--space-xl)', textAlign: 'center' }}>

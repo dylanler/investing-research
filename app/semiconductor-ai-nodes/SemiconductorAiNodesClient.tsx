@@ -25,6 +25,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import type {
   AlphaNodeRow,
   DepthPathRow,
@@ -165,6 +166,7 @@ function Reveal({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.48, delay, ease: [0.22, 1, 0.36, 1] }}
+      style={{ minWidth: 0 }}
     >
       {children}
     </motion.div>
@@ -176,6 +178,7 @@ function ReportShell({ children }: { children: ReactNode }) {
     <main
       style={{
         minHeight: '100vh',
+        overflowX: 'hidden',
         color: 'var(--ink-950)',
         background:
           'radial-gradient(circle at 4% 0%, color-mix(in srgb, var(--warning) 14%, transparent), transparent 24%), radial-gradient(circle at 96% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 28%), var(--surface-page)',
@@ -286,8 +289,8 @@ function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} style={{ padding: '0 24px 72px' }}>
-      <div className="max-w-6xl mx-auto">
+    <section id={id} style={{ padding: '0 24px 72px', minWidth: 0 }}>
+      <div className="max-w-6xl mx-auto" style={{ minWidth: 0 }}>
         <Reveal>
           <div style={{ marginBottom: 24 }}>
             <div
@@ -347,6 +350,8 @@ function Panel({
         borderRadius: 8,
         background: 'var(--surface-raised)',
         boxShadow: CARD_SHADOW,
+        minWidth: 0,
+        maxWidth: '100%',
         ...style,
       }}
     >
@@ -1427,7 +1432,7 @@ function RankingsExplorer({ data }: { data: SemiconductorAiNodesData }) {
               label="Sort"
             />
           </div>
-          <div style={{ overflowX: 'auto' }}>
+          <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1080 }}>
               <thead>
                 <tr style={{ color: 'var(--ink-500)', fontSize: '0.72rem', textAlign: 'left' }}>
@@ -1590,7 +1595,7 @@ function EdgesExplorer({ data }: { data: SemiconductorAiNodesData }) {
               <SelectFilter value={confidence} onChange={setConfidence} options={confidenceOptions} label="Confidence" />
               <SelectFilter value={relationship} onChange={setRelationship} options={relationshipOptions} label="Relationship" />
             </div>
-            <div style={{ overflowX: 'auto' }}>
+            <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 980 }}>
                 <thead>
                   <tr style={{ color: 'var(--ink-500)', fontSize: '0.72rem', textAlign: 'left' }}>
@@ -2044,6 +2049,10 @@ export default function SemiconductorAiNodesClient({ data }: { data: Semiconduct
     <ReportShell>
       <TopBar />
       <Hero data={data} />
+      <CurrentThesisAudit
+        compact
+        focus="For semiconductor AI nodes, the current pass keeps node centrality separate from alpha and rechecks price, market cap, YTD rerating, CPO/interconnect pressure, HBM, packaging, and test complexity."
+      />
       <ThesisSection data={data} />
       <NetworkMap nodes={data.alpha} edges={data.networkEdges} centrality={data.centrality} />
       <ChartsSection data={data} />

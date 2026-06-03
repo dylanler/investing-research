@@ -7,6 +7,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import {
   claims,
   bottomLines,
@@ -380,6 +381,11 @@ export default function ScalingPage() {
           </Reveal>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For structured test-time scaling, the current pass favors verifiable reasoning, long-horizon coding agents, security evaluation, and infrastructure/software names that benefit when inference shifts from chat to agentic workflows."
+      />
 
       {/* ─── Key stats strip ─── */}
       <section ref={statsRef} style={{

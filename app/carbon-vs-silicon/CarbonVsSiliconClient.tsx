@@ -20,6 +20,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import type {
   HumanGoodsRow,
   HumanPartitionRow,
@@ -61,6 +62,8 @@ const panelStyle: CSSProperties = {
   border: '1px solid var(--ink-100)',
   borderRadius: 24,
   boxShadow: '0 24px 70px oklch(0% 0 0 / 0.04)',
+  minWidth: 0,
+  maxWidth: '100%',
 };
 
 type RevealProps = {
@@ -162,6 +165,7 @@ function Reveal({ children, delay = 0, direction = 'up' }: RevealProps) {
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] }}
+      style={{ minWidth: 0 }}
     >
       {children}
     </motion.div>
@@ -602,6 +606,8 @@ function TableExplorer<T>({
       <div
         style={{
           overflowX: 'auto',
+          maxWidth: '100%',
+          WebkitOverflowScrolling: 'touch',
           border: '1px solid var(--ink-100)',
           borderRadius: 18,
         }}
@@ -793,7 +799,7 @@ function ComparisonMatrix({
 
   return (
     <div style={{ ...panelStyle, padding: 0, overflow: 'hidden' }}>
-      <div style={{ overflowX: 'auto' }}>
+      <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 860 }}>
           <thead>
             <tr style={{ background: 'var(--surface-sunken)' }}>
@@ -1462,6 +1468,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
     <main
       style={{
         minHeight: '100vh',
+        overflowX: 'hidden',
         background:
           'radial-gradient(circle at 0% 0%, oklch(86% 0.08 72 / 0.28), transparent 28%), radial-gradient(circle at 100% 0%, oklch(82% 0.08 250 / 0.22), transparent 30%), var(--surface-page)',
       }}
@@ -1661,6 +1668,11 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
           </div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For carbon versus silicon, the current pass makes the stock proxy list rank by silicon-basket alpha rather than only theme membership, while keeping mature human-consumption anchors lower by design."
+      />
 
       <div
         style={{

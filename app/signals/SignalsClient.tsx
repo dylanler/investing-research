@@ -16,6 +16,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 
 export interface SignalStock {
   company: string;
@@ -55,6 +56,7 @@ type ParsedStock = SignalStock & {
   riskScore: number;
   hormuzScore: number;
   aiScore: number;
+  currentAlphaScore: number;
   returnYtd: number;
   return90: number;
   volatility90: number;
@@ -84,7 +86,7 @@ type PortfolioView = {
   exUsWeight: number;
 };
 
-type SortKey = 'risk-desc' | 'return-desc' | 'volatility-desc' | 'ai-desc' | 'hormuz-desc';
+type SortKey = 'alpha-desc' | 'risk-desc' | 'return-desc' | 'volatility-desc' | 'ai-desc' | 'hormuz-desc';
 type HorizonKey = '30d' | '90d' | '120d' | '180d';
 
 const REPORT_BASE = '/reports/twitter-ai-supply-chain';
@@ -604,6 +606,7 @@ const UNIVERSE_TABLE_HEADERS = [
   { label: 'Risk', hint: 'Internal 0-10 score for execution, valuation, cyclicality, and thesis fragility. Higher means more ways the thesis can break.' },
   { label: 'Hormuz', hint: 'Internal 0-10 score for how much a Hormuz / energy / freight shock can hit the name through shipping, chemicals, or power costs.' },
   { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
+  { label: 'Alpha', hint: 'Current alpha score after AI sensitivity, confidence tier, bottleneck category, market-cap room, YTD rerating room, risk, and Hormuz sensitivity are combined.' },
   { label: 'Price', hint: 'Latest available public quote from the June 2, 2026 market-data refresh. Delisted names show no live quote.' },
   { label: 'YTD', hint: 'Year-to-date share-price move from Yahoo Finance chart data where a current public listing exists.' },
   { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
@@ -627,6 +630,67 @@ const PORTFOLIO_TABLE_HEADERS = [
   { label: 'AI', hint: 'Same 0-10 AI sensitivity score, showing how directly the holding benefits from AI demand staying strong.' },
 ];
 
+const SIGNAL_CATEGORY_ALPHA: Record<string, number> = {
+  memory: 10,
+  networking_optics: 10,
+  foundry_packaging: 9,
+  substrate_pcb: 9,
+  equipment: 8,
+  controller_storage: 6,
+  systems_odm: 5,
+  hyperscaler: 3,
+  compute_silicon: 2,
+  industrial_battery: 2,
+  software_incumbent: -2,
+};
+
+function capAlphaBonus(value: number) {
+  if (!value) return 0;
+  const capB = value / 1_000_000_000;
+  if (capB < 10) return 10;
+  if (capB < 50) return 6;
+  if (capB < 150) return 3;
+  if (capB > 2_000) return -12;
+  if (capB > 1_000) return -8;
+  if (capB > 500) return -5;
+  return 0;
+}
+
+function ytdAlphaBonus(value: number) {
+  if (value < 0) return 8;
+  if (value < 30) return 5;
+  if (value < 75) return 1;
+  if (value > 200) return -16;
+  if (value > 150) return -12;
+  if (value > 100) return -6;
+  return 0;
+}
+
+function confidenceAlphaBonus(value: string) {
+  if (value === 'A') return 5;
+  if (value === 'B') return 2;
+  return 0;
+}
+
+function signalAlphaScore(stock: SignalStock) {
+  const ai = parseNumber(stock.ai_sensitivity);
+  const risk = parseNumber(stock.risk);
+  const hormuz = parseNumber(stock.hormuz);
+  const ytd = parseNumber(stock.ret_ytd);
+  const cap = parseNumber(stock.market_cap);
+  const category = SIGNAL_CATEGORY_ALPHA[stock.category] ?? 0;
+  const raw =
+    34 +
+    ai * 5.5 +
+    category +
+    confidenceAlphaBonus(stock.confidence) +
+    capAlphaBonus(cap) +
+    ytdAlphaBonus(ytd) -
+    risk * 1.4 -
+    hormuz * 0.7;
+  return Math.max(1, Math.min(99, Number(raw.toFixed(1))));
+}
+
 export default function SignalsClient({
   stocks,
   reportId,
@@ -638,7 +702,7 @@ export default function SignalsClient({
 }) {
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [confidenceFilter, setConfidenceFilter] = useState('All');
-  const [sortKey, setSortKey] = useState<SortKey>('risk-desc');
+  const [sortKey, setSortKey] = useState<SortKey>('alpha-desc');
   const [query, setQuery] = useState('');
   const [activePortfolio, setActivePortfolio] = useState(PORTFOLIOS[0].name);
   const deferredQuery = useDeferredValue(query);
@@ -652,6 +716,7 @@ export default function SignalsClient({
         riskScore: parseNumber(stock.risk),
         hormuzScore: parseNumber(stock.hormuz),
         aiScore: parseNumber(stock.ai_sensitivity),
+        currentAlphaScore: signalAlphaScore(stock),
         returnYtd: parseNumber(stock.ret_ytd),
         return90: parseNumber(stock.ret_90) * 100,
         volatility90: parseNumber(stock.vol_90) * 100,
@@ -799,6 +864,8 @@ export default function SignalsClient({
           return right.aiScore - left.aiScore;
         case 'hormuz-desc':
           return right.hormuzScore - left.hormuzScore;
+        case 'alpha-desc':
+          return right.currentAlphaScore - left.currentAlphaScore || right.aiScore - left.aiScore;
         case 'risk-desc':
         default:
           return right.riskScore - left.riskScore || right.aiScore - left.aiScore;
@@ -1019,6 +1086,11 @@ export default function SignalsClient({
           </div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For the cross-border signals page, the default stock order is now a current alpha ranking rather than a pure risk or momentum sort: it favors direct AI bottlenecks, credible confidence tier, smaller market-cap room, and less completed YTD rerating."
+      />
 
       <section style={{ padding: '40px 24px 16px' }}>
         <div className="max-w-6xl mx-auto">
@@ -1462,6 +1534,7 @@ export default function SignalsClient({
                     color: 'var(--ink-700)',
                   }}
                 >
+                  <option value="alpha-desc">Sort: current alpha</option>
                   <option value="risk-desc">Sort: highest risk</option>
                   <option value="return-desc">Sort: strongest 90d return</option>
                   <option value="volatility-desc">Sort: highest 90d volatility</option>
@@ -1553,6 +1626,11 @@ export default function SignalsClient({
                       <td style={{ padding: '14px 12px', color: 'var(--ink-700)' }}>
                         <HoverExplain hint={`AI sensitivity ${stock.aiScore}/10. Higher means the stock is more directly levered to sustained AI demand.`}>
                           {stock.aiScore}
+                        </HoverExplain>
+                      </td>
+                      <td style={{ padding: '14px 12px', color: 'var(--accent)', fontWeight: 800, fontFamily: 'monospace' }}>
+                        <HoverExplain hint={`Current alpha ${stock.currentAlphaScore}/100. This combines AI sensitivity, confidence, category bottleneck quality, market-cap room, YTD rerating room, risk, and Hormuz sensitivity.`}>
+                          {stock.currentAlphaScore.toFixed(1)}
                         </HoverExplain>
                       </td>
                       <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>

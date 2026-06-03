@@ -12,6 +12,7 @@ import ASMLMultiplier from '@/components/sections/ASMLMultiplier';
 import USChinaRace from '@/components/sections/USChinaRace';
 import InvestmentImplications from '@/components/sections/InvestmentImplications';
 import BottleneckSectorBaskets from '@/components/sections/BottleneckSectorBaskets';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
       </div>
       <Navbar />
       <HeroSection />
+      <CurrentThesisAudit
+        compact
+        focus="For the bottleneck framework, the current pass keeps the original supply-constrained thesis but shifts near-term emphasis toward power interconnection, HBM, advanced packaging, optics/CPO, and verification/test capacity."
+      />
       <KeyNumbers />
       <BottleneckTimeline />
       <EUVSupplyDemand />

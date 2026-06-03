@@ -17,6 +17,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import type {
   BottleneckCategoryRow,
   LeadTimeRow,
@@ -148,6 +149,7 @@ function ReportShell({ children }: { children: ReactNode }) {
     <main
       style={{
         minHeight: '100vh',
+        overflowX: 'hidden',
         background:
           'radial-gradient(circle at 0% 0%, color-mix(in oklch, var(--warning) 18%, transparent), transparent 26%), radial-gradient(circle at 100% 0%, color-mix(in oklch, var(--accent) 16%, transparent), transparent 30%), var(--surface-page)',
         color: 'var(--ink-950)',
@@ -256,8 +258,8 @@ function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} style={{ padding: '0 24px 72px' }}>
-      <div className="max-w-6xl mx-auto">
+    <section id={id} style={{ padding: '0 24px 72px', minWidth: 0 }}>
+      <div className="max-w-6xl mx-auto" style={{ minWidth: 0 }}>
         <div style={{ marginBottom: 'var(--space-xl)' }}>
           <div
             style={{
@@ -912,6 +914,8 @@ function DataTable({
     <div
       style={{
         overflow: 'auto',
+        maxWidth: '100%',
+        WebkitOverflowScrolling: 'touch',
         border: '1px solid rgba(15, 23, 42, 0.08)',
         borderRadius: 20,
         background: 'var(--surface-raised)',
@@ -1419,6 +1423,11 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
           </div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For passives and rack power, the current pass preserves residual-alpha logic but boosts current sensing, MLCCs, inductors, rack power, and power-grid adjacency while penalizing names already rerated by the June tape."
+      />
 
       <Section
         id="method"

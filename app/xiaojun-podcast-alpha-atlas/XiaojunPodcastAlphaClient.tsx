@@ -17,6 +17,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 
 type SourceDepth = 'transcript-derived' | 'notes-derived';
 
@@ -1247,6 +1248,11 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
           </motion.div>
         </div>
       </section>
+
+      <CurrentThesisAudit
+        compact
+        focus="For the podcast atlas, the current pass updates episode alpha scores toward coding agents, computer use, verifiable RL, AI infrastructure, physical AI, and security/sovereign risk."
+      />
 
       <div className="grid lg:grid-cols-[220px_minmax(0,1fr)]" style={{ gap: 20, width: '100%', maxWidth: REPORT_MAX_WIDTH, margin: '0 auto', padding: '24px 24px 72px' }}>
         <aside style={{ position: 'sticky', top: 78, alignSelf: 'start', border: cardBorder, borderRadius: 8, background: 'var(--surface-overlay)', backdropFilter: 'blur(12px)', padding: 16 }}>

@@ -19,6 +19,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import type {
   LatentAiNodesData,
   SourceEntry,
@@ -284,6 +285,7 @@ function Reveal({ children, delay = 0 }: { children: ReactNode; delay?: number }
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.48, delay, ease: [0.22, 1, 0.36, 1] }}
+      style={{ minWidth: 0 }}
     >
       {children}
     </motion.div>
@@ -298,6 +300,8 @@ function Panel({ children, style }: { children: ReactNode; style?: CSSProperties
         borderRadius: 8,
         background: 'var(--surface-raised)',
         boxShadow: CARD_SHADOW,
+        minWidth: 0,
+        maxWidth: '100%',
         ...style,
       }}
     >
@@ -320,8 +324,8 @@ function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} style={{ padding: '0 24px 76px' }}>
-      <div className="max-w-6xl mx-auto">
+    <section id={id} style={{ padding: '0 24px 76px', minWidth: 0 }}>
+      <div className="max-w-6xl mx-auto" style={{ minWidth: 0 }}>
         <Reveal>
           <div style={{ marginBottom: 24 }}>
             <div
@@ -1409,7 +1413,7 @@ function StrictExplorer({ data }: { data: LatentAiNodesData }) {
       <div style={{ color: 'var(--ink-500)', fontSize: '0.82rem', fontWeight: 750, marginBottom: 10 }}>
         Showing {formatCount(visibleRows.length)} of {formatCount(data.strictCompanies.length)} strict candidates
       </div>
-      <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
+      <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1260 }}>
           <thead>
             <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
@@ -2010,7 +2014,7 @@ function RankingSection({ data }: { data: LatentAiNodesData }) {
           <div style={{ color: 'var(--ink-500)', fontSize: '0.82rem', fontWeight: 750, marginBottom: 10 }}>
             Showing {formatCount(visibleRows.length)} of {formatCount(data.companies.length)} companies
           </div>
-          <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
+          <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch', border: '1px solid var(--ink-100)', borderRadius: 8 }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1320 }}>
               <thead>
                 <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-600)', fontSize: '0.76rem', textAlign: 'left' }}>
@@ -2387,12 +2391,17 @@ export default function LatentAiNodesClient({ data }: { data: LatentAiNodesData 
     <main
       style={{
         minHeight: '100vh',
+        overflowX: 'hidden',
         color: 'var(--ink-950)',
         background: 'linear-gradient(180deg, var(--surface-page), var(--surface-sunken) 54%, var(--surface-page))',
       }}
     >
       <TopBar />
       <Hero data={data} />
+      <CurrentThesisAudit
+        compact
+        focus="For latent AI nodes, the current pass keeps both the broad and strict screens visible, then reweights power, grid, thermal, water, edge connectivity, automation, sensors, and advanced materials by market cap and YTD rerating."
+      />
       <EvidenceSection data={data} />
       <NetworkSection data={data} />
       <ChartsSection data={data} />

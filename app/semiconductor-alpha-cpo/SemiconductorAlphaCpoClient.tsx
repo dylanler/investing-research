@@ -18,6 +18,7 @@ import {
   ZAxis,
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
+import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import type {
   CategorySummaryRow,
   PriorityRelationshipEdge,
@@ -156,6 +157,7 @@ function Reveal({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.48, delay, ease: [0.22, 1, 0.36, 1] }}
+      style={{ minWidth: 0 }}
     >
       {children}
     </motion.div>
@@ -261,8 +263,8 @@ function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} style={{ padding: '0 24px 72px' }}>
-      <div className="max-w-6xl mx-auto">
+    <section id={id} style={{ padding: '0 24px 72px', minWidth: 0 }}>
+      <div className="max-w-6xl mx-auto" style={{ minWidth: 0 }}>
         <Reveal>
           <div style={{ marginBottom: 24 }}>
             <div
@@ -322,6 +324,8 @@ function Panel({
         borderRadius: 8,
         background: 'var(--surface-raised)',
         boxShadow: CARD_SHADOW,
+        minWidth: 0,
+        maxWidth: '100%',
         ...style,
       }}
     >
@@ -1205,10 +1209,10 @@ function RankingExplorer({ data }: { data: SemiconductorAlphaCpoData }) {
         </Panel>
       </Reveal>
 
-      <div className="grid xl:grid-cols-[1fr_360px]" style={{ gap: 16, marginTop: 16, alignItems: 'start' }}>
+      <div className="grid xl:grid-cols-[minmax(0,1fr)_360px]" style={{ gap: 16, marginTop: 16, alignItems: 'start', minWidth: 0 }}>
         <Reveal>
           <Panel style={{ overflow: 'hidden' }}>
-            <div style={{ maxHeight: 680, overflow: 'auto' }}>
+            <div style={{ maxHeight: 680, overflow: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1120 }}>
                 <thead style={{ position: 'sticky', top: 0, zIndex: 2, background: 'var(--surface-overlay)' }}>
                   <tr>
@@ -1568,7 +1572,7 @@ function RelationshipsSection({ data }: { data: SemiconductorAlphaCpoData }) {
               Rows below are the disclosed or explicitly caveated cash-flow items from the CPO bundle.
             </p>
           </div>
-          <div style={{ overflowX: 'auto' }}>
+          <div style={{ overflowX: 'auto', maxWidth: '100%', WebkitOverflowScrolling: 'touch' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 920 }}>
               <thead>
                 <tr>
@@ -1725,6 +1729,7 @@ export default function SemiconductorAlphaCpoClient({
     <main
       style={{
         minHeight: '100vh',
+        overflowX: 'hidden',
         color: 'var(--ink-950)',
         background:
           'linear-gradient(90deg, color-mix(in srgb, var(--ink-100) 28%, transparent) 1px, transparent 1px), linear-gradient(180deg, color-mix(in srgb, var(--ink-100) 24%, transparent) 1px, transparent 1px), var(--surface-page)',
@@ -1733,6 +1738,10 @@ export default function SemiconductorAlphaCpoClient({
     >
       <TopBar />
       <Hero data={data} />
+      <CurrentThesisAudit
+        compact
+        focus="For semiconductor/CPO, the current pass shifts the unified ranking toward CPO/optics, advanced packaging, HBM attach, metrology/test, and smaller-cap names where market cap and YTD rerating still leave room."
+      />
       <FusionMethod data={data} />
       <ChartsSection data={data} />
       <MapSection data={data} />
