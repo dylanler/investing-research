@@ -642,7 +642,7 @@ function FusionMethod({ data }: { data: SemiconductorAlphaCpoData }) {
                 },
                 {
                   label: 'Subtract current rerating',
-	                  body: 'The June 3 refresh applies a YTD price-rerating penalty before final ranks are assigned, so very large stock moves push names toward watchlist status unless the base score is still strong.',
+	                  body: 'The June 8 refresh applies a YTD price-rerating penalty before final ranks are assigned, so very large stock moves push names toward watchlist status unless the base score is still strong.',
                   color: COLORS.green,
                 },
                 {

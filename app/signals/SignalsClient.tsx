@@ -608,8 +608,8 @@ const UNIVERSE_TABLE_HEADERS = [
   { label: 'Hormuz', hint: 'Internal 0-10 score for how much a Hormuz / energy / freight shock can hit the name through shipping, chemicals, or power costs.' },
   { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
   { label: 'Alpha', hint: 'Current alpha score after AI sensitivity, confidence tier, bottleneck category, market-cap room, YTD rerating room, risk, and Hormuz sensitivity are combined.' },
-  { label: 'Cases', hint: 'Dated bull, neutral, and bear cases from the June 3, 2026 agent audit.' },
-  { label: 'Price', hint: 'Latest available public quote from the June 3, 2026 market-data refresh. Delisted names show no live quote.' },
+  { label: 'Cases', hint: 'Dated bull, neutral, and bear cases from the June 8, 2026 agent audit.' },
+  { label: 'Price', hint: 'Latest available public quote from the June 8, 2026 market-data refresh. Delisted names show no live quote.' },
   { label: 'YTD', hint: 'Year-to-date share-price move from Yahoo Finance chart data where a current public listing exists.' },
   { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
   { label: '180d', hint: 'Directional six-month view from the report. This is qualitative, not a price target.' },
@@ -960,7 +960,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026 &middot; Updated June 3, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated June 8, 2026
           </div>
           <h1
             className="font-display"
@@ -1653,7 +1653,7 @@ export default function SignalsClient({
 	                        />
 	                      </td>
 	                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>
-	                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the June 3, 2026 market-data refresh.`}>
+	                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the June 8, 2026 market-data refresh.`}>
                           {stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}
                         </HoverExplain>
                       </td>

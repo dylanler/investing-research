@@ -25,7 +25,7 @@ type StockCaseHoverProps = {
   sources?: SourceLink[];
 };
 
-const RESEARCH_DATE = 'June 3, 2026';
+const RESEARCH_DATE = 'June 8, 2026';
 
 const DEFAULT_SOURCES: SourceLink[] = [
   { label: 'AI 2027 compute forecast', url: 'https://ai-2027.com/research/compute-forecast' },

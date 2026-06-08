@@ -1246,7 +1246,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated June 3, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated June 8, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -2069,7 +2069,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
             lineHeight: 1.7,
           }}
         >
-          <strong style={{ color: 'var(--ink-700)' }}>June 3 Market Refresh.</strong> Latest prices and YTD returns now
+          <strong style={{ color: 'var(--ink-700)' }}>June 8 Market Refresh.</strong> Latest prices and YTD returns now
           come from Yahoo Finance chart data. The ranking logic stays residual-alpha first, but the visible cards and
           table now expose current tape pressure so users can separate thesis quality from what the market has already
           repriced.
