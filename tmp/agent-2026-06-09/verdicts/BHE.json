@@ -1,0 +1,27 @@
+{
+  "symbol": "BHE",
+  "company": "Benchmark Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Routine only: board declared a $0.17/share quarterly dividend (payable Jul 10, record Jun 30) and shareholders elected David A. Moezidis to the board at the Jun 5 annual meeting. No earnings, contracts, design wins, M&A or capacity news. Stock now trades above the ~$78 mean sell-side target (Needham $80, Lake Street $92 raises came earlier with Q1 results, not new this window).",
+  "sources": [
+    {"label": "StockTitan - Benchmark declares $0.17 Q2 2026 dividend", "url": "https://www.stocktitan.net/news/BHE/benchmark-electronics-announces-quarterly-cash-vwk6uq0ntocn.html"},
+    {"label": "Simply Wall St - New director elected at Jun 5 annual meeting", "url": "https://simplywall.st/stocks/us/tech/nyse-bhe/benchmark-electronics/news/election-of-new-director-puts-benchmark-electronics-governan/amp"},
+    {"label": "TipRanks - BHE analyst price targets (mean ~$78 vs $85.43 price)", "url": "https://www.tipranks.com/stocks/bhe/forecast"},
+    {"label": "Yahoo Finance - BHE quote", "url": "https://finance.yahoo.com/quote/BHE/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 10: no new fundamental evidence since Jun 6 (dividend and a board seat are routine), and today's -0.8% is noise, so there is no basis to move again after yesterday's hold. Small negative drift because the 94.6% YTD rerating has pushed the price above the ~$78 mean sell-side target, eroding the 'hidden-gem' residual-alpha premise this page rewards.",
+      "bull": "Liquid-cooling and HPC/AI data-center content keeps ramping in AC&C, and at ~$3.1B market cap BHE remains far less owned than headline AI-power names, leaving room for estimate-driven upside.",
+      "neutral": "Thesis intact but increasingly discovered: two sell-side target raises and a 90-day +55% run mean the easy under-followed alpha is partly harvested; awaiting Q2 results for fresh evidence.",
+      "bear": "Stock trades above consensus targets after nearly doubling YTD with no new wins announced; any AC&C ramp slip or EMS margin pressure triggers a sharp de-rating in a crowded tape, and Phoenix plant wind-down signals ongoing portfolio churn.",
+      "primaryCatalyst": "Q2 2026 earnings/guidance and new AI data-center liquid-cooling or compute program wins quantifying the AC&C ramp.",
+      "primaryRisk": "Valuation-led de-rating: price above sell-side targets after a 94.6% YTD run leaves no cushion if the AI infrastructure ramp disappoints."
+    }
+  ]
+}

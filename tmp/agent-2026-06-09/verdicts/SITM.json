@@ -1,0 +1,40 @@
+{
+  "symbol": "SITM",
+  "company": "SiTime",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Today's -3.07% (to $643.87, ~8% off the June 3 ~$701 highs) looks flow-driven: continued digestion of the $1.35B 0% convertible notes completed May 22 to fund the Renesas timing-business acquisition (announced Feb 4), plus a June 3-4 insider-sale cluster (CEO Vashist sold 40,000 shares at ~$701 weighted avg; EVP Assaderaghi sold 1,800 shares; 23 insider sales and zero buys over six months). No earnings, design wins, M&A updates, or notable analyst moves in the June 6-9 window; median analyst PT ~$775.",
+  "sources": [
+    {"label": "StockTitan - SiTime CEO Form 4, 40,000-share open-market sale (June 3, 2026)", "url": "https://www.stocktitan.net/sec-filings/SITM/form-4-sitime-corp-insider-trading-activity-7e05536a7406.html"},
+    {"label": "SEC 8-K - SiTime $1.35B 0% Convertible Senior Notes due 2031, financing Renesas timing acquisition", "url": "https://www.sec.gov/Archives/edgar/data/0001451809/000119312526237180/d47334d8k.htm"},
+    {"label": "QuiverQuant - SiTime slides on acquisition financing and insider selling (June 1, 2026)", "url": "https://www.quiverquant.com/news/SiTime+slides+as+investors+weigh+acquisition+financing+and+recent+insider+selling"},
+    {"label": "Investing.com - EVP Assaderaghi sells $1.41M in stock (June 3-4, 2026)", "url": "https://www.investing.com/news/insider-trading-news/sitime-evp-fariborz-assaderaghi-sells-141m-in-company-stock-93CH-4729483"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move to rank 62 already priced the +74% YTD rerating and indirect CPO exposure; since June 6 there is no new fundamental evidence either way, and the ~8% pullback from June 3 highs mildly restores asymmetry but is offset by the CEO/EVP insider-sale cluster at ~$700. No basis to move again.",
+      "bull": "Precision timing content per AI/optical link rises with 800G/1.6T and CPO transitions, and the Renesas timing acquisition consolidates SiTime into the dominant merchant timing supplier with cheap 0% convert funding.",
+      "neutral": "Exposure to the CPO bottleneck is real but indirect; at ~$17B cap and +74% YTD the timing story is well-discovered, so residual alpha depends on deal integration proving accretive rather than on discovery.",
+      "bear": "23 insider sales and zero buys in six months, a high multiple into a cyclical timing market, and integration/financing risk on a large acquisition leave the stock vulnerable if AI datacenter timing content ramps slower than embedded expectations.",
+      "primaryCatalyst": "Renesas timing-business deal close and first integrated quarter showing AI datacenter timing revenue acceleration.",
+      "primaryRisk": "Post-rerating multiple compression amplified by insider-selling overhang and acquisition integration slippage."
+    },
+    {
+      "page": "companies",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "The page already cut SiTime yesterday for YTD recognition; the only incremental datapoints since June 6 are the insider-sale cluster and ongoing convert-overhang drift, which marginally degrade the alpha case but are not new evidence on the timing-execution thesis itself.",
+      "bull": "The Renesas timing acquisition plus MEMS leadership gives SiTime scarce, consolidating exposure to precision clocking across AI datacenter, networking, and edge, with $1.35B of 0% coupon capital already secured.",
+      "neutral": "Thesis intact and execution unblemished, but at +74% YTD and ~$17B market cap the bottleneck exposure is recognized; the stock is drifting on positioning, not fundamentals, between now and the next earnings print.",
+      "bear": "Uniform insider selling at ~$700, convert dilution overhang, and a premium multiple on a cyclical component category create meaningful downside if Q2 guidance or deal integration disappoints.",
+      "primaryCatalyst": "Q2 2026 earnings and updated guidance incorporating the Renesas timing assets.",
+      "primaryRisk": "Valuation reset on any integration or guidance miss, with insider-sale signaling already pressuring sentiment."
+    }
+  ]
+}

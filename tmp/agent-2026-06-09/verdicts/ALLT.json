@@ -1,0 +1,35 @@
+{
+  "symbol": "ALLT",
+  "company": "Allot",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "GlobeNewswire - Allot at 46th William Blair Growth Stock Conference (June 2-4, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301831/0/en/Allot-to-Meet-Investors-at-the-46th-Annual-William-Blair-Growth-Stock-Conference-on-June-2-2026.html"
+    },
+    {
+      "label": "PR Newswire - Allot Q1 2026 results: revenue +14% YoY, SECaaS ARR $33.7M +59% YoY (May 12, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/allot-first-quarter-2026-results-revenue-growth-accelerates-to-14-yoy-with-increased-margins-302769377.html"
+    },
+    {
+      "label": "StockAnalysis - ALLT analyst consensus Strong Buy, avg PT $13.5",
+      "url": "https://stockanalysis.com/stocks/allt/forecast/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No new fundamental information since June 6 - only the William Blair conference appearance (June 2-4) and the already-priced Q1 beat from May 12. Today's -3.4% drift on no news deepens the YTD drawdown to -24.9% with the SECaaS/network-intelligence thesis intact, which marginally improves residual asymmetry but is not a sharp enough dislocation to move the rank versus yesterday's hold.",
+      "bull": "SECaaS revenue +71% YoY and ARR +59% YoY with a Tier 1 Tera III multimillion-dollar win, FY26 guide of $113-117M reiterated, and a $0.35B cap down ~25% YTD - a cheap, under-owned security/traffic-intelligence call option with consensus PT ~$13.5 implying ~65% upside.",
+      "neutral": "Thesis is intact but unchanged; the stock is drifting lower on no news and the next real catalyst is Q2 results or a fresh SECaaS operator win, so the setup is a slow-burn re-rating rather than an imminent one.",
+      "bear": "Sub-$400M cap with legacy DPI revenue still masking the SECaaS mix shift; continued price bleed despite a Q1 beat suggests the market doubts conversion of the SECaaS pipeline, and small-cap Israeli tech carries persistent flow and geopolitical discounts.",
+      "primaryCatalyst": "New Tier 1 SECaaS operator launch or Q2 print showing SECaaS ARR sustaining ~60% growth against the reiterated FY26 guide.",
+      "primaryRisk": "SECaaS ARR growth decelerates or legacy gateway revenue declines faster than security ramps, breaking the cybersecurity-first re-rating story."
+    }
+  ]
+}

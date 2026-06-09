@@ -1,0 +1,35 @@
+{
+  "symbol": "6474.T",
+  "company": "Nachi-Fujikoshi",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Kabutan news feed for 6474 (no items June 5-9; latest is Apr 6 Q1 article)",
+      "url": "https://en.kabutan.com/jp/stocks/6474/news?page=1"
+    },
+    {
+      "label": "TipRanks - Q1 sales/profits up, net earnings down 21.7%, FY guidance intact (pre-June)",
+      "url": "https://www.tipranks.com/news/company-announcements/nachi-fujikoshi-delivers-higher-sales-and-profits-but-q1-net-earnings-decline"
+    },
+    {
+      "label": "Yahoo Finance quote 6474.T",
+      "url": "https://finance.yahoo.com/quote/6474.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6 and the tape is flat (+0.18% today); the setup is unchanged from yesterday's hold, so the rank-20 robotics-components slot on the scaling watchlist stands. Next real catalyst is the July 9 earnings report.",
+      "bull": "Robotics pivot is real: the robot-division chief became president in February and FY guidance still calls for double-digit operating-profit growth, giving a sub-$1B, under-covered way to own Japanese robot reducers/components into the physical-AI buildout.",
+      "neutral": "YTD +25% with no incremental fundamental evidence since the April Q1 print; at rank 20 with score 47 the name is fairly slotted until the July 9 report or a robot order/capacity datapoint moves the thesis.",
+      "bear": "Q1 net profit fell 21.7% despite higher sales, the bearings/tools legacy mix dilutes the robotics story, and a $0.79B small-cap with thin liquidity can give back the YTD rerating quickly if machine-tool demand softens.",
+      "primaryCatalyst": "July 9, 2026 earnings report and any robotics-segment order or guidance detail under the new robot-division-led management.",
+      "primaryRisk": "Earnings-quality slippage (net profit declines persisting below the operating line) plus small-cap illiquidity unwinding the +25% YTD move without new evidence."
+    }
+  ]
+}

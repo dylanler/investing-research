@@ -1,0 +1,40 @@
+{
+  "symbol": "POET",
+  "company": "POET Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news. June 8: Rosen Law Firm reminder of the June 29 lead-plaintiff deadline in the securities class action (recycled litigation headline, covers the Apr 1-27 class period tied to the CFO confidentiality breach and PFIC misstatements). Today's -12.8% to $10.71 (~-33% over two sessions) is flow-driven: continuation of the Marvell/Celestial AI order-cancellation overhang, lawsuit headlines, and semis-complex weakness (Broadcom guidance, Marvell -17% Friday) - no contracts, earnings, or guidance. Live catalyst ahead: June 26 AGM vote on US redomiciliation to shed the PFIC stigma; balance sheet buffered by the recently closed $400M investment.",
+  "sources": [
+    {"label": "Rosen Law June 8 lead-plaintiff deadline reminder (Morningstar/PR Newswire)", "url": "https://www.morningstar.com/news/pr-newswire/20260608dc78576/poet-deadline-poet-investors-have-opportunity-to-lead-poet-technologies-inc-securities-fraud-lawsuit-filed-by-the-rosen-law-firm"},
+    {"label": "POET's June tightrope: June 26 redomicile vote vs June 29 class-action deadline (ad-hoc-news)", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/poet-technologies-faces-a-june-tightrope-between-shareholder-vote-and/69463606"},
+    {"label": "POET stock hit Friday; semis selloff and litigation context (ts2.tech)", "url": "https://ts2.tech/en/poet-technologies-stock-just-took-a-hit-why-monday-could-decide-the-next-move/"},
+    {"label": "Lawsuits mount after 47% collapse on Marvell/Celestial AI order cancellation (timothysykes.com)", "url": "https://www.timothysykes.com/news/poet-technologies-inc-poet-news-2026_06_04/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 17,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "Yesterday's de-rate to 17 already priced the Celestial/Marvell fallout; since then the stock flushed another ~33% over two sessions (-12.8% today) on recycled lawsuit reminders and semis beta, not new fundamental damage. On this page's asymmetry lens, a flow-driven crash with the optionality thesis intact improves residual alpha into the June 26 redomicile vote.",
+      "bull": "Optical interposer platform and CPO optionality are intact, $400M fresh cash funds the rebuild, and a successful June 26 US redomiciliation removes the PFIC stigma that has kept institutions out - all at a price ~48% below the May high.",
+      "neutral": "The disclosure-risk leg of the thesis already materialized; optionality survives but the order book must be rebuilt from near zero, and the multiple stays capped until the June 29 lead-plaintiff deadline and litigation scope clarify.",
+      "bear": "The Marvell cancellation gutted the only marquee customer pipeline, class actions and CFO credibility damage deter new design wins, and $503K quarterly revenue against a $12.3M quarterly loss gives little fundamental floor if the tape stays risk-off.",
+      "primaryCatalyst": "June 26 AGM vote on US redomiciliation (PFIC overhang removal) plus any new customer or design-win announcement replacing the canceled Celestial AI orders",
+      "primaryRisk": "Securities-litigation escalation and failure to replace the Celestial AI order book before cash-burn pressure returns"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "No new bottleneck-relevant evidence since June 6: the June 8 Rosen item is a recycled deadline reminder and today's -12.8% is flow/semis beta, which the scaling lens looks through. POET's optical-interposer role in AI networking is unchanged, though rank 3 increasingly leans rich for a sub-$1M-revenue name that lost its marquee customer in April.",
+      "bull": "The optical interposer remains a credible answer to the AI networking/packaging bottleneck, and $400M of cash plus a new COO (ex-Silicon Labs) give it runway to qualify replacement customers.",
+      "neutral": "Bottleneck fit is a technology claim, not yet a revenue claim - with Celestial AI orders canceled, POET's actual position in the AI supply chain is aspirational until a new anchor customer is announced.",
+      "bear": "A company with $503K quarterly revenue, a terminated lead-customer relationship, and management consumed by class actions and a redomicile vote is not a load-bearing node in the scaling supply chain; rank 3 overstates its centrality.",
+      "primaryCatalyst": "A replacement anchor-customer or hyperscaler qualification announcement validating the interposer in production AI networking",
+      "primaryRisk": "Prolonged customer-pipeline vacuum post-Celestial that exposes rank 3 as resting on technology promise rather than supply-chain position"
+    }
+  ]
+}

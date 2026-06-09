@@ -1,0 +1,26 @@
+{
+  "symbol": "AMBQ",
+  "company": "Ambiq Micro",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. The June 8 annual shareholder meeting was routine governance, not a catalyst. Last fundamental datapoints remain mid-May: Q1 2026 revenue +59% YoY to $25M, a next-gen design win with a top customer (2027 production), and analyst PT raises (Northland $72, UBS $70). Today's -4.74% to $75.40 has no identifiable fundamental driver and reads as flow-driven consolidation after a +148% YTD run.",
+  "sources": [
+    {"label": "Ambiq Q1 2026 financial results (company press release)", "url": "https://ambiq.com/news/ambiq-reports-first-quarter-2026-financial-results/"},
+    {"label": "Motley Fool - Why Ambiq Micro Stock Rocketed 45% Higher (May 12, 2026; PT raises, design win, profitability timeline)", "url": "https://www.fool.com/investing/2026/05/12/why-ambiq-micro-stock-rocketed-higher-today/"},
+    {"label": "StockTitan AMBQ news overview (checked for post-June-6 releases; only June 8 annual meeting)", "url": "https://www.stocktitan.net/overview/AMBQ/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Yesterday's verdict already cut AMBQ for post-IPO crowding and indirect robotics exposure; no new information since June 6 warrants a second consecutive move. Today's -4.7% flow-driven pullback with the edge-AI thesis intact marginally improves asymmetry, justifying a small positive drift but not a rank change.",
+      "bull": "SPOT-based ultra-low-power edge AI is genuinely scarce silicon for battery-constrained robotics/wearable endpoints, and the confirmed 2027 design win plus 59% YoY growth show real commercialization, not just narrative.",
+      "neutral": "At $1.57B cap and +148% YTD, the rerating has already harvested most of the hidden-alpha discount; the stock is now a known edge-AI name digesting gains, with the next real test at Q2 earnings.",
+      "bear": "Robotics exposure is indirect (sensor hubs and always-on endpoints, not actuation or core compute), the company is still unprofitable until 2027-2028 at best, and a crowded post-IPO register can de-rate fast if growth decelerates.",
+      "primaryCatalyst": "Q2 2026 earnings and any new named design wins in robotics/wearable endpoints that validate the 2027 production ramp.",
+      "primaryRisk": "Post-IPO momentum unwind: multiple compression on any growth wobble given +148% YTD and the alpha already pulled forward."
+    }
+  ]
+}

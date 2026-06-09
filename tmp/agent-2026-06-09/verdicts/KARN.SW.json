@@ -1,0 +1,52 @@
+{
+  "symbol": "KARN.SW",
+  "company": "Kardex",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Ad-hoc business update June 8, 2026 (06:30 CET): Kardex cut its FY2026 EBIT margin guidance to 8-10% (order/revenue growth of 15-20% maintained); H1 2026 EBIT expected at roughly 60% of the prior-year level. Causes: structurally higher cost base from the late-2024 growth initiative (sales headcount, marketing, IT, R&D) plus the higher-margin Automated Products segment trailing on bookings and revenue since H2 2025 (though bookings improving since March 2026). Mid-term targets reaffirmed (EUR 1.5B revenue, 10-14% EBIT margin by 2029-2031). Shares are down ~26% over the past month and -19.3% YTD; today's -1.5% to CHF 227.5 is post-warning drift, not a new shock. Yesterday's verdicts were mechanical reconciliations that did not qualitatively incorporate the warning, so this is genuinely new information.",
+  "sources": [
+    {
+      "label": "Finanzwire - Business update: Kardex adjusts its EBIT forecast for 2026 (June 8, 2026, 06:30 CET)",
+      "url": "https://www.finanzwire.com/press-release/kardex-ag-etr-ch010083-business-update-kardex-adjusts-its-ebit-forecast-for-2026-Xytd7q8smMC"
+    },
+    {
+      "label": "TipRanks - Kardex cuts 2026 EBIT margin guidance as growth investments weigh on profits",
+      "url": "https://www.tipranks.com/news/company-announcements/kardex-cuts-2026-ebit-margin-guidance-as-growth-investments-weigh-on-profits"
+    },
+    {
+      "label": "Simply Wall St via Webull - Kardex shares tumble 26% over last month",
+      "url": "https://www.webull.com/news/12596936818279424"
+    },
+    {
+      "label": "Yahoo Finance - KARN.SW quote",
+      "url": "https://finance.yahoo.com/quote/KARN.SW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 22,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "The June 8 EBIT guidance cut directly impairs this page's stated catalyst (bookings momentum): Automated Products bookings/revenue have trailed since H2 2025 and H1 EBIT lands at ~60% of last year. The sell-off is fundamentally driven, not flow, so the de-rate does not earn the 'thesis intact, asymmetry improved' upgrade; yesterday's hold predated qualitative incorporation of the warning.",
+      "bull": "Revenue growth of 15-20% is maintained, bookings have improved since March 2026, and mid-term targets (EUR 1.5B, 10-14% margin) are reaffirmed; after a ~26% one-month drawdown, a margin-timing problem on a structurally intact intralogistics franchise is largely priced.",
+      "neutral": "The cut is part self-inflicted (growth-investment cost base) and part demand (Automated Products softness); the stock stabilizes at a reset multiple until H1 results around July 30 show whether the H2 margin recovery is credible.",
+      "bear": "Higher-margin Automated Products weakness persists, the elevated cost base proves structural rather than investment-phase, and 8-10% becomes the new normal margin band, invalidating the mid-term 10-14% bridge.",
+      "primaryCatalyst": "H1 2026 results around July 30 confirming the since-March bookings recovery in Automated Products and a credible H2 margin path.",
+      "primaryRisk": "A second guidance reset if Automated Products bookings stall again while the growth-initiative cost base keeps rising."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "The strict page's speculative pathway (ASRS supporting secure parts logistics / robotics-enabled facilities) is a capability claim untouched by a margin guidance cut, and the page already absorbed a 20-place demotion yesterday; penalizing again for company-level earnings news would double-count at rank 69 near the bottom of the screen.",
+      "bull": "Demand structure is intact (15-20% revenue growth maintained) and continued IT/R&D investment could deepen the very ASRS/robotics capability the strict pathway depends on, now at a markedly cheaper price.",
+      "neutral": "A low-AI-chain-relevance intralogistics name near the bottom of the strict screen; a profitability event neither strengthens nor weakens its speculative AI pathway materially.",
+      "bear": "Sustained margin pressure constrains the R&D and software spending that funds automation capability development, slowly eroding even the speculative pathway case.",
+      "primaryCatalyst": "Concrete ASRS/robotics deployments in secure-logistics or AI-adjacent robotics-dense facilities validating the strict-screen pathway; H1 results around July 30.",
+      "primaryRisk": "Continued earnings erosion keeps the name a low-relevance, dead-money tail holding on this screen."
+    }
+  ]
+}

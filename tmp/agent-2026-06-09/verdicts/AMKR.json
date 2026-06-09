@@ -1,0 +1,52 @@
+{
+  "symbol": "AMKR",
+  "company": "Amkor Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan AMKR news feed (latest items May 21 Investor Day, May 19 Peoria AZ 67-acre expansion; nothing Jun 4-9)", "url": "https://www.stocktitan.net/news/AMKR/"},
+    {"label": "Investing.com - Amkor stock hit all-time high $79.49 (stock now ~13% below that level)", "url": "https://www.investing.com/news/company-news/amkor-technology-stock-hits-alltime-high-at-7949-usd-93CH-4724536"},
+    {"label": "Yahoo Finance AMKR quote", "url": "https://finance.yahoo.com/quote/AMKR/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental news since Jun 6 and today's +1.1% is drift; the ~13% consolidation off the $79.49 all-time high with the HBM/chiplet packaging thesis intact modestly restores asymmetry, but not enough to re-rank a name already at 6 after a 60.9% YTD run.",
+      "bull": "Only US-scale OSAT with a high-volume advanced packaging campus coming in Peoria AZ; record Q1 (+27% y/y) and strong Q2 guide show AI packaging attach is real and accelerating.",
+      "neutral": "Stock is digesting a 60.9% YTD rerating; the pullback from $79.49 to $69 resets some froth without changing the bottleneck case either way.",
+      "bear": "OSAT pricing power is structurally thinner than front-end; if CoWoS-class capacity at TSMC/foundries catches up, Amkor's scarcity premium compresses quickly.",
+      "primaryCatalyst": "Q2 2026 results in late July confirming the $1.75-1.85B sales guide and AI/HPC packaging mix",
+      "primaryRisk": "OSAT cyclicality and margin pressure if AI packaging demand pauses after the YTD rerating"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On this crowding-sensitive alpha list the 60.9% YTD move means the 'less crowded' edge is fading, but the week's ~13% drawdown from the all-time high with thesis intact partially rebuilds the asymmetry, netting to a hold at rank 11 with no fresh news since Jun 6.",
+      "bull": "Packaging/test leverage to AI chiplets and co-packaged optics modules remains under-modeled versus front-end equipment names; Q1 record results validate the ramp.",
+      "neutral": "UBS sits at Neutral with an $80 target near the prior high; valuation discovery has largely happened, so the trade is now execution, not discovery.",
+      "bear": "The name is no longer hidden after a 60%+ YTD run and an Investor Day spotlight; further upside requires beat-and-raise quarters, and OSAT pricing is the weak link.",
+      "primaryCatalyst": "Design-win or capacity disclosures around co-packaged optics and 2.5D/3D packaging following the May Investor Day",
+      "primaryRisk": "Crowding-driven de-rating: post-ATH momentum sellers plus any AI capex digestion hits a now well-owned OSAT first"
+    },
+    {
+      "page": "companies",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Packaging-scarcity bucket positioning is unchanged: no news since Jun 6, +1.1% day move is noise, and yesterday's hold already balanced bottleneck exposure against the YTD rerating.",
+      "bull": "Advanced substrate and 2.5D packaging scarcity persists into 2027; Peoria AZ build gives Amkor the only US high-volume advanced-packaging OSAT footprint, a strategic moat under reshoring policy.",
+      "neutral": "Rank 9 already reflects measured credit for scarcity exposure net of the 60.9% YTD move and $17B cap; nothing this week argues for a change.",
+      "bear": "Scarcity rents in OSAT historically mean-revert fast as capacity adds land; the $1B convert funds growth but signals heavy capex ahead of uncertain pricing.",
+      "primaryCatalyst": "Peoria, Arizona campus milestones and any anchor-customer announcement for US advanced packaging",
+      "primaryRisk": "Packaging capacity catch-up across OSATs/foundries eroding the scarcity premium embedded in the score"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "symbol": "ATS.TO",
+  "company": "ATS Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6, 2026 for ATS Corporation beyond a TD Cowen conference participation notice. The relevant fundamental data point (FY2026 Q4 results, mid-May: revenue +17.4% to $2.97B but Order Bookings down to $2,952M from $3,305M, backlog $1,958M vs $2,139M, Q4 net loss on restructuring) predates the window and was already reflected in yesterday's verdicts. NOTE: the 'companies' page listing under ticker ATS is actually AT&S (Austria, IC substrates, +318.9% YTD) - a different company; its May 2026 Chongqing AI-substrate capacity expansion ad-hoc also predates June 6 with nothing new since.",
+  "sources": [
+    {"label": "ATS Corp FY2026 Q4 press release (SEC 6-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001394832/000139483226000017/ats-pressreleasexfy26q4.htm"},
+    {"label": "LevelFields - ATS falls after earnings miss and lower order bookings", "url": "https://www.levelfields.ai/news/ats-falls-after-earnings-miss-and-lower-order-bookings"},
+    {"label": "StockTitan ATS news feed (TD Cowen conference participation)", "url": "https://www.stocktitan.net/news/ATS/"},
+    {"label": "AT&S expands capacity for AI substrates (Chongqing, May 2026 ad-hoc)", "url": "https://ats.net/en/ir-news/ats-expands-capacity-for-ai-substrates/"},
+    {"label": "AT&S glass core substrates for AI/HPC (April 2026)", "url": "https://ats.net/en/press/ats-advances-glass-core-substrates-for-ai-high-performance-computing-and-photonics/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new information since June 6 and a flat tape (+0.16% today, -0.55% YTD); the mid-May order-bookings softness ($2,952M vs $3,305M) was already absorbed into yesterday's hold. Latent-node status as the physical implementation layer is unchanged.",
+      "bull": "FY26 revenue grew 17.4% with a margin-focused restructuring of transportation businesses; a flat YTD price means none of the AI-factory optionality is being paid for.",
+      "neutral": "Order bookings and backlog are declining year over year, so the latent-AI thesis must wait for an order-cycle turn; the stock drifts with industrial capex sentiment in the meantime.",
+      "bear": "Bookings keep eroding as EV/transportation weakness spreads to life sciences, and restructuring charges keep masking the margin story, leaving the name dead money.",
+      "primaryCatalyst": "Order bookings inflection in FY27 quarterly reports, especially life-sciences and energy program wins.",
+      "primaryRisk": "Continued booking declines signaling a deeper industrial automation capex downcycle."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict-screen pathway (AI-hardware adjacent assembly lines) remains speculative with medium evidence, and nothing since June 6 changes that; price action is flat so neither crowding nor improved asymmetry applies.",
+      "bull": "A $2.6B unloved Canadian automation house with flat YTD pricing offers cheap optionality if AI-hardware assembly or energy/life-science automation orders materialize.",
+      "neutral": "No design win or contract since June 6 ties ATS directly to the AI hardware chain; the strict-screen case is still a pathway, not evidence.",
+      "bear": "The AI-adjacent pathway never converts to orders while core transportation bookings shrink, making this an industrial cyclical mislabeled as an AI node.",
+      "primaryCatalyst": "A disclosed automation contract tied to AI-hardware, battery, or semiconductor-adjacent assembly.",
+      "primaryRisk": "Thesis remains unproven; order book decay outpaces any AI-adjacent wins."
+    },
+    {
+      "page": "companies",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "This listing is AT&S (Austrian IC substrates), not ATS Corp; yesterday already took it down for the +319% YTD rerating, and with no new substrate news since June 6 (the Chongqing AI-substrate capacity ad-hoc was May), there is no basis to move again - slight negative drift for persistent crowding.",
+      "bull": "Customer-financed Chongqing capacity expansion with a high double-digit million EBIT effect guided for FY26/27 shows the AI-substrate bottleneck demand is contractual, not speculative, and glass-core work extends the roadmap.",
+      "neutral": "Real scarcity exposure in advanced substrates, but a 319% YTD move means the market has found it; residual alpha now depends on execution beating already-elevated expectations.",
+      "bear": "Post-rerating chase risk is acute: any wobble in the key-customer ramp, China-located capacity geopolitics, or substrate pricing sends a crowded name down hard.",
+      "primaryCatalyst": "Chongqing AI-substrate ramp execution and FY26/27 EBIT delivery from long-term customer agreements.",
+      "primaryRisk": "Crowding after a 319% YTD rerating plus single-key-customer concentration in China-based capacity."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "symbol": "CLS",
+  "company": "Celestica",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental headlines since June 6. The -7.0% move on June 9 extends a momentum/valuation reset that began June 5 (-8%) after the stock set a 52-week high near $474 on June 2; coverage attributes the slide to profit-taking, premium-to-intrinsic-value flags, ~$1.4M of insider selling over three months, and analyst price-target trims with ratings maintained - explicitly not a single fundamental headline. Thesis-relevant fundamentals (raised FY26 revenue guide ~$19B; 1.6T CPO Ethernet switch hyperscaler win ramping 2027) date to the April 27 Q1 release and are unchanged. Judged flow-driven, thesis intact; stock is now roughly -24% off its June 2 peak with YTD compressed to +18.9% from ~+50% at the recent high.",
+  "sources": [
+    {
+      "label": "Quiver Quant - Celestica shares slide as momentum cools after record run-up (Jun 5, 2026)",
+      "url": "https://www.quiverquant.com/news/Celestica+shares+slide+as+momentum+cools+after+record+run-up"
+    },
+    {
+      "label": "Yahoo Finance - Celestica (CLS) Suffers a Larger Drop Than the General Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-cls-suffers-larger-drop-214503918.html"
+    },
+    {
+      "label": "Yahoo Finance / Simply Wall St - Does Celestica's Insider Selling Undermine Analyst Optimism?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-celestica-tsx-cls-insider-043336967.html"
+    },
+    {
+      "label": "Celestica Q1 2026 results press release (Apr 27, 2026; CPO 1.6T switch win, raised FY26 guide)",
+      "url": "https://corporate.celestica.com/news-releases/news-release-details/celestica-announces-first-quarter-2026-financial-results"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 94,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "This page parked CLS at 94 specifically for post-rerating crowding; a flow-driven ~24% drawdown off the June 2 peak with the Helios/1.6T thesis intact restores some residual alpha and asymmetry, warranting a modest move up from the bottom of the list.",
+      "bull": "Direct rack-scale AI and 1.6T CPO switch bottleneck exposure now available ~24% cheaper than a week ago, with FY26 guidance recently raised and no negative fundamental news driving the reset.",
+      "neutral": "The name remains fully discovered and heavily covered; the drawdown improves entry but does not restore the 'hidden' character this alpha list rewards.",
+      "bear": "Momentum unwinds in crowded AI EMS names can run far past fair value, and insider selling plus premium-valuation flags suggest the reset may not be finished.",
+      "primaryCatalyst": "Q2 2026 results and any new hyperscaler HPS/CPO program awards confirming the 2027 ramp.",
+      "primaryRisk": "Continued multiple compression as the AI-hardware momentum trade unwinds, independent of execution."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Hold: this page penalizes CLS for being a discovered trade, and a price drawdown does not make it more latent - discovery is the structural critique and it stands; yesterday's down move already reflected the adjusted score, and there is no new information today.",
+      "bull": "Connectivity & services exposure (800G/1.6T switching, hyperscaler optics) is real and deepening, and the post-peak reset cheapens a high-quality node.",
+      "neutral": "Flow-driven selloff with thesis intact slightly improves the setup, but Celestica's AI role is fully mapped by the market, which is exactly what caps it on a latent-nodes list.",
+      "bear": "Hyperscaler concentration means any program rebalancing or insourcing decision hits hard, and the stock still trades on AI narrative rather than undiscovered fundamentals.",
+      "primaryCatalyst": "New program disclosures broadening the customer base beyond the current hyperscaler concentration.",
+      "primaryRisk": "Customer concentration plus a crowded shareholder base leaves no latency premium to harvest."
+    },
+    {
+      "page": "companies",
+      "currentRank": 70,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move was premised on a ~50% YTD rerating that has now largely unwound (YTD +18.9%, ~24% off the June 2 peak) on flows, not fundamentals; with the deployment/systems-integration thesis intact and FY26 guidance raised, asymmetry has genuinely improved on this page's alpha lens.",
+      "bull": "Rack integration and data-center systems exposure with a raised $19B FY26 revenue guide and a 2027 CPO switch ramp, bought after a one-week, news-free 24% reset.",
+      "neutral": "Execution and mix are unchanged; the move only resets valuation toward where the page already scored the fundamentals, so the score change is modest.",
+      "bear": "EMS margins are thin and cyclical, and if hyperscaler capex digestion arrives in 2H26 the guidance that anchors the thesis becomes the risk.",
+      "primaryCatalyst": "Q2 2026 print validating the $19B guide and HPS margin trajectory.",
+      "primaryRisk": "Hyperscaler capex deceleration or program loss compressing both estimates and the multiple simultaneously."
+    }
+  ]
+}

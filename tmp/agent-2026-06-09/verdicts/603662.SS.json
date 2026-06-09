@@ -1,0 +1,39 @@
+{
+  "symbol": "603662.SS",
+  "company": "Keli Sensing Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Sohu - Keli Sensing FY2025/Q1-2026 earnings briefing recap (May 29, pre-window; robot force sensors >1,500 units sold 2025, 70+ sampling customers, small-batch to volume transition)",
+      "url": "https://www.sohu.com/a/1030652404_122121789"
+    },
+    {
+      "label": "Stockstar - June 1 fund-flow note (net main-capital selling, stock -3.12% that day; nothing fundamental)",
+      "url": "https://stock.stockstar.com/RB2026060200007178.shtml"
+    },
+    {
+      "label": "Sina Finance - 603662 company announcements list (no new filings June 6-9)",
+      "url": "http://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603662.phtml"
+    },
+    {
+      "label": "Yahoo Finance quote - 603662.SS",
+      "url": "https://finance.yahoo.com/quote/603662.SS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already promoted Keli to the top of the robotics alpha list on the under-ownership plus commercialization-evidence case; no new filings or contracts surfaced June 6-9 and today's +1.79% is benign drift, so the setup is unchanged at the current rank. Small positive delta because the alpha case ages well: YTD is still only +0.75%, meaning the force-sensing rerating the thesis anticipates has not yet been paid out.",
+      "bull": "Pure-play force/torque sensing leverage to humanoids at a $2.9B cap with essentially zero YTD rerating; May 29 briefing confirmed >1,500 robot force sensors sold in 2025 and 70+ customers sampling, with six-axis F/T, tactile and IMU lines moving from small-batch toward volume.",
+      "neutral": "Robot sensors remain a small revenue slice of a legacy strain-gauge/weighing business; until a named humanoid OEM design win or volume order is disclosed, the stock trades on flow and sector sentiment, as the June 1 -3.1% fund-flow day showed.",
+      "bear": "Six-axis force sensing is getting crowded (Sunrise Instruments, Donghua Testing, others) and price competition could compress margins before volume arrives; a humanoid-sentiment unwind in A-shares would hit it regardless of execution.",
+      "primaryCatalyst": "A disclosed volume order or named design win with a humanoid OEM (Kepler stake and 70+ sampling customers are the funnel), or H1-2026 results showing robot sensor revenue inflecting.",
+      "primaryRisk": "Sampling-to-volume conversion stalls or pricing erodes as six-axis competition intensifies, leaving the robotics narrative unfunded by earnings."
+    }
+  ]
+}

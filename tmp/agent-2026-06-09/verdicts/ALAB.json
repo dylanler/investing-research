@@ -1,0 +1,82 @@
+{
+  "symbol": "ALAB",
+  "company": "Astera Labs",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news (no earnings, contracts, or M&A since June 6). Seeking Alpha published a downgrade to Hold on June 8 ('Take Some Chips Off The Table') citing a 200%+ rally and ~115x forward P/E. The stock is in a sharp valuation-driven drawdown: all-time high $372.37 on June 3, -11.45% on June 5, and -6.8% today (June 9) to $322.78 (~13% off the peak), against a rising Nasdaq tape. Drivers are flow/valuation: the June 8 rating cut, ongoing insider Form 144 sales (~$60M disclosed in late May), and profit-taking after the run. Thesis intact: Q1 revenue +93% YoY, Q2 guide $355-365M (+88% YoY), PCIe 6 ramp and Scorpio X-Series scale-up switching on track, with PCIe 7 support announced for Aries.",
+  "sources": [
+    {
+      "label": "Seeking Alpha - Astera Labs: Take Some Chips Off The Table (downgrade to Hold, Jun 8 2026)",
+      "url": "https://seekingalpha.com/article/4913097-astera-labs-take-some-chips-off-the-table-rating-downgrade-hold"
+    },
+    {
+      "label": "Investing.com - Why is Astera Labs stock sliding today? (Northland downgrade + insider Form 144 context, May 26 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-astera-labs-stock-sliding-today-93CH-4710232"
+    },
+    {
+      "label": "StockInvest.us - ALAB price history (June 3 ATH $372.37; -11.45% on June 5)",
+      "url": "https://stockinvest.us/stock/ALAB"
+    },
+    {
+      "label": "Astera Labs IR - Q1 2026 results and PCIe 6 production ramp",
+      "url": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Yahoo Finance - ALAB quote",
+      "url": "https://finance.yahoo.com/quote/ALAB/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 86,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On a residual-alpha list, a ~13% flow-driven drawdown from the June 3 peak (June 8 Seeking Alpha cut to Hold, insider selling, no fundamental break) modestly restores asymmetry versus yesterday's hold at the same thesis. Still +80% YTD and well-owned at $54B, so only a small nudge up from rank 86.",
+      "bull": "Forced de-rating with Q2 guide of +88% YoY intact means the entry multiple is improving faster than the fundamentals are changing; PCIe 6 ramp and Scorpio scale-up switching remain 2026 catalysts.",
+      "neutral": "A 7% down day after a 200%+ rally barely dents the crowding; the name remains a consensus AI-connectivity holding, so residual alpha is restored only at the margin.",
+      "bear": "If Northland's 2027 hyperscaler capex-decline call gains adherents, a ~115x forward P/E name has much further to de-rate regardless of execution.",
+      "primaryCatalyst": "Q2 2026 results (quarter ends June 30) confirming the $355-365M guide and Scorpio/PCIe 6 ramp",
+      "primaryRisk": "Continued multiple compression as more analysts flag stretched valuation and 2027 datacenter spending risk"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "At rank 2 there is nowhere meaningful to move up, and nothing since June 6 changes network centrality: the -6.8% day is valuation flow, not a node-relevance event. Small negative drift because the page rewards 'smaller market visibility than the megacaps' and ALAB at $54B with a June 8 sell-side downgrade is now maximally visible.",
+      "bull": "Aries/Scorpio/Torus span retimers, scale-up switching, and AECs across PCIe 6 into PCIe 7 - genuinely central to the AI rack interconnect node, with Q1 revenue +93% YoY proving share capture.",
+      "neutral": "Centrality is intact but fully discovered; the drawdown changes price, not the company's position in the supply-chain graph.",
+      "bear": "Hyperscaler concentration means one custom-silicon insourcing decision (e.g., NVIDIA/Broadcom integrating retimer functions) could erode the node's bottleneck status quickly.",
+      "primaryCatalyst": "Scorpio X-Series 320-lane and PCIe 6 scale-up optics adoption following the Computex showcase",
+      "primaryRisk": "Hyperscaler concentration and competitive integration of connectivity functions into ASIC/switch silicon"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "The ~13% pullback with thesis intact partially restores asymmetry, but the page's stated risk (high P/S, hyperscaler concentration) is exactly what is being repriced, and ALAB remains a tangential fit to CPO proper - so hold at 40 with slight positive drift rather than a rank move.",
+      "bull": "PCIe 6 scale-up optics demos at Computex push ALAB closer to the copper-to-optical transition this page tracks, and the sell-off improves the entry on that optionality.",
+      "neutral": "ALAB is adjacent to CPO rather than core to it; a valuation flush neither strengthens nor weakens its claim to this list.",
+      "bear": "Still ~115x forward earnings after the drawdown; if the optical transition accelerates toward true CPO, ALAB's copper/retimer franchise could be the share donor, not the winner.",
+      "primaryCatalyst": "PCIe 6 scale-up optics moving from Computex demo to design wins",
+      "primaryRisk": "Valuation compression plus the risk that CPO adoption bypasses ALAB's copper-centric product lines"
+    },
+    {
+      "page": "companies",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down call (rerating had consumed the hidden alpha) is being validated by the tape - the stock has given back ~13% from the June 3 high on no fundamental news. Respecting that fresh verdict: hold at 44, with a small positive drift because the flow-driven sell-off restores some of the residual alpha the down move penalized.",
+      "bull": "Execution is unblemished - record Q1, +88% YoY Q2 guide, PCIe 6 ramping and PCIe 7 on the roadmap - so the de-rating is purely a multiple event that mean-reverts if numbers keep beating.",
+      "neutral": "Two sharp down days in a week after a parabolic run is normal digestion; score and rank already reflect the rerating, so no action needed until Q2 results.",
+      "bear": "Insider Form 144 sales into the highs plus back-to-back sell-side downgrades (Northland May 26, Seeking Alpha June 8) suggest the smart-money distribution phase has begun at >200x trailing earnings.",
+      "primaryCatalyst": "Q2 2026 earnings (late July/August) versus the $355-365M guide",
+      "primaryRisk": "Sustained multiple compression if the 2027 hyperscaler capex-deceleration narrative hardens"
+    }
+  ]
+}

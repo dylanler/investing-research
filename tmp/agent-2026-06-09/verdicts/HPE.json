@@ -1,0 +1,27 @@
+{
+  "symbol": "HPE",
+  "company": "Hewlett Packard Enterprise",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. The story is the continuing post-earnings unwind: after the June 1-3 blowout FQ2 FY26 print (server revenue +33% YoY to $5.5B, $2.1B AI orders, FY26 guidance raised to $3.35-3.45 EPS and >=$3.5B FCF, hitting FY28 targets two years early) the stock spiked to a $64.25 high on June 2, then fell 8.4% Friday and another 5.4% today (June 9) to $47.18, ~27% off the high. No downgrades; sell-side moved targets UP post-print (Loop $75, Goldman $79, Raymond James $74, consensus ~$67). Today's -5.4% looks flow-driven: profit-taking after a parabolic run plus macro pressure (rising yields into Treasury auctions and the Fed meeting), not a fundamental break.",
+  "sources": [
+    {"label": "CoinCentral - HPE drops 8% after 60% rally, profit-taking analysis", "url": "https://coincentral.com/hewlett-packard-enterprise-hpe-stock-drops-8-after-60-rally-is-this-a-buying-opportunity/"},
+    {"label": "INDmoney - HPE Q2 FY26 earnings, record backlog, guidance raise", "url": "https://www.indmoney.com/blog/us-stocks/why-hpe-stock-is-rising-q2-fy26-earnings-ai-backlog-guidance"},
+    {"label": "Benzinga - HPE analyst ratings and price targets (no downgrades June 8-9)", "url": "https://www.benzinga.com/quote/HPE/analyst-ratings"},
+    {"label": "TS2 - HPE stock faces AI rally test, June 9 macro context", "url": "https://ts2.tech/en/hpe-stock-faces-ai-rally-test-with-monday-in-focus/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 81,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Two-day, ~13% flow-driven dump (-27% from the June 2 high) with the fundamental thesis actually strengthened by the FQ2 guidance raise improves residual asymmetry versus yesterday's hold, which predated today's leg down. Still only a modest up: on a passives-alpha lens HPE remains a fully discovered, crowded AI-server trade (+95% YTD, wall-to-wall Buy ratings) and sits far from the passive/power bottleneck stack this page rewards.",
+      "bull": "Record AI backlog and a guidance raise that hits FY28 targets two years early, with the stock now ~30% below the post-print consensus target (~$67) after a purely flow-driven unwind - a rerated story being offered back at a discount.",
+      "neutral": "Quality AI-infrastructure compounder, but it is AI-adjacent rather than bottleneck-critical; after a 95% YTD move most of the easy alpha is harvested and the stock now trades on execution against already-raised numbers.",
+      "bear": "AI server margins are structurally thin and the upgrade cycle is fully priced; if hyperscaler/enterprise AI orders decelerate or macro (yields, Fed) keeps de-risking crowded AI winners, a +95% YTD name with no bottleneck moat de-rates further.",
+      "primaryCatalyst": "Stabilization of the post-earnings flow unwind plus continued $2B+/quarter AI order momentum and Juniper-driven networking attach validating the raised FY26 guide.",
+      "primaryRisk": "Crowding unwind continues - a consensus-owned, post-rerating AI server name with thin margins keeps bleeding multiple even with the thesis intact."
+    }
+  ]
+}

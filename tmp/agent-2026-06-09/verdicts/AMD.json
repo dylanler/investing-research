@@ -1,0 +1,54 @@
+{
+  "symbol": "AMD",
+  "company": "AMD",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No AMD-specific material news since June 6. Today's -6.1% (to $460) fully reverses the June 8 chip-sector rebound and extends the June 4-5 de-risking triggered by Broadcom's soft Q3 AI guidance ($16B vs $17.2B consensus) and macro fears, which erased over $1T from semis and hit AMD -10.9% on June 5. The move is flow-driven sector beta, not an AMD fundamental break: MI400/Helios launch and the OpenAI 6GW Instinct ramp (first 1GW in 2H26) remain on track per prior disclosures, and no earnings, contract, or regulatory news landed for AMD since June 6.",
+  "sources": [
+    {"label": "Kavout - What Triggered the Recent Semiconductor Sell-Off", "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"},
+    {"label": "Intellectia - Semiconductor Stocks Selloff June 2026: $1.3T Wiped Out", "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"},
+    {"label": "CNBC - Broadcom, Micron and ARM sink, leading chip stocks lower", "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"label": "Motley Fool - AI Chip Stocks Sold Off This Week. Is AMD a Buying Opportunity or a Falling Knife?", "url": "https://www.fool.com/investing/2026/06/06/ai-chip-stocks-sold-off-this-week-is-amd-a-buying/"},
+    {"label": "Seeking Alpha - AMD outlines path to >60% annual data center growth as MI400 and Helios launch", "url": "https://seekingalpha.com/news/4546760-amd-outlines-path-to-60-percent-annual-data-center-growth-and-multi-billion-ai-revenue-by"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On the bottleneck-criticality lens nothing changed: AMD's second-source accelerator position and MI400/OpenAI ramp are intact, and today's -6.1% is sector flow, not node-specific news. The drawdown modestly improves entry asymmetry but AMD at $750B and +106% YTD remains the most-owned Nvidia-alternative trade, so no re-rank.",
+      "bull": "Failed-rebound selloff hands back ~12% from recent highs with the MI400/Helios roadmap and 6GW OpenAI commitment untouched; a 2H26 1GW deployment is a concrete volume catalyst.",
+      "neutral": "Broadcom's soft AI guide is a read-across question on 2026 accelerator demand breadth, but AMD's merchant-GPU demand vector is distinct from custom ASIC budgets; thesis unchanged pending MI400 shipment evidence.",
+      "bear": "If hyperscaler AI capex is genuinely decelerating, the second-source supplier gets cut first, and AMD's software/platform gap means MI demand converts to margin slower than the multiple assumes.",
+      "primaryCatalyst": "MI400/Helios launch and first OpenAI 1GW Instinct deployment in 2H26",
+      "primaryRisk": "AI capex deceleration read-across from Broadcom hitting second-source accelerator orders first"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Nothing in the post-June-6 tape touches AMD's CPO/scale-up-fabric angle; the selloff is generic chip beta and AMD's CPO monetization remains indirect versus network/optics names. Rank 82 already reflects that indirectness; no new evidence either way.",
+      "bull": "If open scale-up fabrics (UALink/Helios rack architecture) gain share against NVLink, AMD becomes a demand anchor for the optics/CPO ecosystem this page tracks.",
+      "neutral": "AMD is a CPO beneficiary by adjacency only; this week's flow-driven volatility carries no information about fabric or optics adoption timelines.",
+      "bear": "Direct CPO monetizers capture the optics upside while AMD wears full AI-accelerator competition and margin risk; crowding in the name adds drawdown beta without CPO-specific alpha.",
+      "primaryCatalyst": "Helios rack-scale deployments validating open scale-up fabrics that pull through CPO/optics content",
+      "primaryRisk": "CPO value accrues to optics/network suppliers rather than the GPU vendor"
+    },
+    {
+      "page": "companies",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already penalized the YTD rerating; today's flow-driven -6.1% (full reversal of the June 8 bounce, ~12-14% off highs over three sessions) partially restores asymmetry with the thesis intact, so the slide should stop here rather than compound. Not enough de-crowding to earn an up move at $750B and +106% YTD.",
+      "bull": "Three-session ~14% drawdown on zero AMD-specific news with the MI400 inflection and OpenAI ramp ahead is exactly the setup where a sharp selloff improves residual alpha.",
+      "neutral": "AMD remains a recognized, consensus-owned platform-compute name; alpha here depends on execution surprises (MI400 unit/ASP upside) rather than discovery, which one volatile week does not change.",
+      "bear": "The failed rebound suggests distribution by crowded holders; if Broadcom's guide marks the top of the 2026 AI capex revision cycle, a +106% YTD mega-cap has the most multiple to give back.",
+      "primaryCatalyst": "MI400 launch execution and Q2 earnings/data-center guidance confirming the >60% growth path",
+      "primaryRisk": "Crowded positioning unwinding further if AI capex revisions turn negative sector-wide"
+    }
+  ]
+}

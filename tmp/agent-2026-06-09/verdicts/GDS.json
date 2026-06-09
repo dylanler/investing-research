@@ -1,0 +1,27 @@
+{
+  "symbol": "GDS",
+  "company": "GDS Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Two genuinely new items. (1) June 9: GDS (and Vnet) rallied intraday on reports that China is drafting a ~RMB 2 trillion (~$295B), five-year national data-center/computing-hub investment program led by the NDRC; caveat - early-stage proposal and state telcos (China Mobile/China Telecom) are expected to operate the majority of facilities, which dilutes direct GDS capture. (2) June 8 narrative refresh around GDS's own RMB 50B three-year AI data-center capex plan, record ~200MW Q1 new orders and ~340MW signed YTD, alongside a $300M preferred equity raise and persistent leverage/asset-sale-reliance concerns. Day move +3.57% (below the 5% threshold); YTD still -6.29%, so no rerating crowding penalty.",
+  "sources": [
+    {"label": "Yahoo Finance - GDS and Vnet Rally on Reports of Major China Data Center Investment Plan (Jun 9, 2026)", "url": "https://finance.yahoo.com/sectors/technology/articles/gds-vnet-rally-reports-major-101047119.html"},
+    {"label": "Simply Wall St - GDS's RMB 50 Billion AI Data Center Bet (Jun 8, 2026)", "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/did-gdss-rmb-50-billion-ai-data-center-bet-just-shift-gds-ho"},
+    {"label": "Bamboo Works - GDS commits up to 50 billion yuan to capture booming AI data center demand", "url": "https://thebambooworks.com/gds-commits-up-to-50-billion-yuan-to-capture-booming-ai-data-center-demand/"},
+    {"label": "StockTitan - GDS sets 2026 AGM for June 25 (30% share issuance authority vote, Jun 2 - context only, pre-Jun 6)", "url": "https://www.stocktitan.net/news/GDS/gds-to-hold-annual-general-meeting-on-june-25-igrtzr9j8hhz.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 24,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new evidence since yesterday's up-move: reported ~RMB 2T national compute-network program plus GDS's own RMB 50B AI capex plan and record bookings directly de-risk the physical-deployment thesis, while a -6.3% YTD and $7.35B cap mean the rerating has not yet happened - residual alpha remains for an under-owned bottleneck name.",
+      "bull": "A state-backed RMB 2T five-year buildout plus GDS's record ~200MW Q1 orders and ~340MW signed YTD turn China AI demand into contracted capacity; the stock is still below its January level, so the catalyst is not priced.",
+      "neutral": "The national program is an early-stage proposal and yesterday's verdict already moved GDS up; today's +3.6% is a modest, partly flow-driven sympathy move that confirms rather than transforms the thesis.",
+      "bear": "State telcos are slated to operate the majority of the planned hubs, diluting GDS's capture of the policy spend, while elevated leverage, a $300M preferred raise, reliance on asset sales, and a pending 30% share-issuance authorization keep dilution and funding risk live.",
+      "primaryCatalyst": "Formal NDRC announcement of the national computing-hub program, or further large AI capacity orders/pre-commitments validating the RMB 50B capex plan.",
+      "primaryRisk": "Policy spend routed predominantly through state telcos and dilutive financing (preferred equity, share issuance) eroding per-share economics."
+    }
+  ]
+}

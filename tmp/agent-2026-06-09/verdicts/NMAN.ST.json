@@ -1,0 +1,26 @@
+{
+  "symbol": "NMAN.ST",
+  "company": "Nederman",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Nederman press releases (no items after 2026-04-21)", "url": "https://www.nedermangroup.com/en/press-and-news/press-releases"},
+    {"label": "Yahoo Finance NMAN.ST quote/news", "url": "https://finance.yahoo.com/quote/NMAN.ST/"},
+    {"label": "TipRanks - Q1 2026: margins held amid weaker orders", "url": "https://www.tipranks.com/news/company-announcements/nederman-holds-margins-amid-weaker-q1-orders-and-bets-on-energy-transition-growth"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No press releases or filings since June 6 and today's -1.7% is flow-level drift, so the latent-node setup is unchanged from yesterday's hold. The -24% YTD de-rating keeps the name un-crowded with optionality intact, but Q1's 9% organic order decline shows the fabrication-adjacent filtration pathway is still latent, not inflecting.",
+      "bull": "A $0.44B uncrowded industrial filtration specialist down 24% YTD offers cheap optionality if fab-adjacent and clean-manufacturing capex cycles turn; efficiency measures preserved margins through the trough.",
+      "neutral": "Thesis is speculative AI-adjacency with no disclosed AI/semiconductor design wins; the stock trades on general industrial capex sentiment, and nothing since June 6 changes the picture either way.",
+      "bear": "Q1 orders fell 9.2% organically with customers deferring larger contracts and operating cash flow negative; if industrial demand stays soft, the cheapness is a value trap rather than latent AI alpha.",
+      "primaryCatalyst": "Q2 2026 report (mid-July) showing order intake stabilization or a disclosed cleanroom/fab-adjacent filtration win",
+      "primaryRisk": "Prolonged deferral of industrial capex keeps orders shrinking and the AI-adjacency pathway never materializes into bookings"
+    }
+  ]
+}

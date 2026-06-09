@@ -1,0 +1,54 @@
+{
+  "symbol": "2308.TW",
+  "company": "Delta Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock jumped +7.1% on June 9 following the May 2026 monthly revenue release (~+43.65% YoY), confirming AI data-center power/cooling demand acceleration. This follows fresh Vera Rubin-era product news: a June 3 prefabricated modular AI data center launch (deployment time cut ~60%), a 2.4MW liquid-to-liquid CDU, and a new cold plate for NVIDIA Vera Rubin NVL72. Q1 results (revenue +36% YoY, operating profit +102%, record 37% gross margin) were already known. The move is fundamental in origin but confirms a consensus thesis on a stock now +142.7% YTD at ~$199B market cap.",
+  "sources": [
+    {"label": "Yahoo Finance quote 2308.TW (price action, May revenue +43.65% YoY)", "url": "https://finance.yahoo.com/quote/2308.TW/"},
+    {"label": "Digitimes - Delta prefabricated modular AI data center launch (Jun 3, 2026)", "url": "https://www.digitimes.com/news/a20260603PD213/delta-electronics-2026-data-center-cooling-infrastructure.html"},
+    {"label": "Startup Fortune - Delta: AI data centers need power as much as chips (Rubin NVL72 cold plate, 2.4MW CDU)", "url": "https://startupfortune.com/delta-electronics-says-ai-data-centers-now-need-power-as-much-as-chips/"},
+    {"label": "Investing.com - Delta Q1 2026 beats with 101% profit surge", "url": "https://www.investing.com/news/earnings/delta-electronics-beats-q1-expectations-with-101-profit-surge-93CH-4649721"},
+    {"label": "BigGo Finance - Delta Q1 FY2026 earnings call: record 37% gross margin, EPS NT$7.91", "url": "https://finance.biggo.com/news/TW_2308.TW_2026-04-30"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 55,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On a crowding-sensitive alpha list, a +7.1% single-day pop on a widely watched monthly revenue print extends the rerating without revealing anything hidden; at +142.7% YTD and ~$199B cap, residual under-owned upside shrinks further even though the news is fundamentally good.",
+      "bull": "May revenue +43.65% YoY plus Vera Rubin NVL72 cold-plate and 2.4MW CDU content show Delta's rack-power/cooling dollar content is still compounding into the Rubin cycle.",
+      "neutral": "Real fundamental confirmation arrived, but the market repriced it same-day; the evidence and the rerating roughly cancel for residual alpha purposes.",
+      "bear": "A $199B mega-cap up 142.7% YTD on a consensus AI-power narrative is the definition of crowded; any pause in hyperscaler capex or power-shelf pricing pressure triggers sharp multiple compression.",
+      "primaryCatalyst": "Continued monthly revenue acceleration and Rubin-generation power/cooling design-win disclosures.",
+      "primaryRisk": "Crowding unwind: multiple compression on any AI capex digestion despite intact fundamentals."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold: rank 91 already encodes that Delta is no longer a latent node, and today's headline-grabbing +7.1% pop makes it even less undiscovered, but the May revenue print is genuine fundamental confirmation of the Power & Components linkage that offsets the latency erosion.",
+      "bull": "Delta keeps deepening data-center power and liquid-cooling content (Rubin NVL72 cold plate, modular AI data centers), keeping it structurally central to the power node.",
+      "neutral": "Fully discovered name executing well; on a latency-weighted list it neither deserves promotion nor a forced demotion from an already-low rank.",
+      "bear": "Zero discovery premium left; monthly revenue prints are now front-page events, so the latent-node thesis is exhausted and only beta to the AI-power theme remains.",
+      "primaryCatalyst": "Liquid-cooling and modular data center order momentum into the Rubin ramp.",
+      "primaryRisk": "Name is fully consensus; underperforms genuinely latent power suppliers on any rotation."
+    },
+    {
+      "page": "companies",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Hold after yesterday's down move: the May revenue acceleration (+43.65% YoY) is direct new evidence on the exact execution watch-item in the thesis (power supplies/thermal management), but the +7.1% day and +142.7% YTD rerating consume that evidence on a list balancing bottleneck scarcity against recognition.",
+      "bear": "At ~$199B and post-rerating, Delta trades as a recognized AI infrastructure proxy; further upside requires sustained beats, and cyclicality in power electronics cuts both ways.",
+      "bull": "Execution is verifiably on track: record 37% gross margin, May revenue +43.65% YoY, and rising per-rack content (power shelves, Rubin cold plates, 2.4MW CDUs) into the Rubin generation.",
+      "neutral": "Strong fundamentals already moved the rank down for recognition reasons yesterday; today's print validates the thesis without changing the scarcity-vs-recognition balance.",
+      "primaryCatalyst": "June/Q2 revenue prints sustaining 40%+ YoY growth and Rubin-era power/cooling content wins.",
+      "primaryRisk": "Pricing pressure or share loss in AI power shelves as competitors (Lite-On, Flex, Vertiv ecosystem) chase the same sockets."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "6770.TW",
+  "company": "Powerchip Semiconductor Manufacturing",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No confirmed company-specific announcement since June 6. The +5.93% move on June 9 (TWD 71.50) appears flow-driven within the ongoing Taiwan memory rally: DRAM contract prices are up ~25% in 1Q26 and +10-12% in 2Q26, and management had previously guided that Q1 foundry price-hike benefits would start showing in June revenue. The structural items - Micron's $1.8B Tongluo P5 fab purchase (closed March 15, 2026), the long-term Micron alliance giving PSMC HBM supply-chain entry and a '3D AI Foundry' line, Q1 core-business return to profit, and the dividends-next-year pledge - all predate June 6.",
+  "sources": [
+    {"label": "BigGo Finance - Powerchip operations passed the trough, Q1 core business profitable, price-hike benefits from June", "url": "https://finance.biggo.com/news/pmj_dZ0ByH9TLH69v56v"},
+    {"label": "BigGo Finance - Powerchip ends ten-quarter loss streak, teams with Micron for AI memory/HBM", "url": "https://finance.biggo.com/news/V8BCe50BDPbb-ItT2GSn"},
+    {"label": "StockTitan - Micron completes acquisition of PSMC's Tongluo P5 site (March 15, 2026)", "url": "https://www.stocktitan.net/news/MU/micron-completes-acquisition-of-psmc-s-tongluo-p5-site-in-9i8h1t9rt4dq.html"},
+    {"label": "cnyes - 6770 quote page (June 9 close +5.93%, no fresh company headlines)", "url": "https://www.cnyes.com/twstock/6770"},
+    {"label": "Yahoo Finance - 6770.TW quote", "url": "https://finance.yahoo.com/quote/6770.TW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 83,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a memory-tier alpha lens, a +5.9% day on top of +70% YTD (and ~+297% over 12 months) with no new fundamental evidence since June 6 is pure rerating chase - residual alpha shrinks. The HBM/Micron-alliance thesis is intact but is now well discovered and being paid for.",
+      "bull": "Micron alliance gives PSMC a real on-ramp into the HBM supply chain plus guaranteed orders, and Q1 price hikes flow into revenue from June, so the H2 earnings inflection is genuinely funded and underway.",
+      "neutral": "The turnaround (Q1 core profit, $1.36B of Micron cash received) is real but already public since March-April; today's move is sector beta, leaving the rank roughly fair after a small alpha haircut.",
+      "bear": "A mature-node foundry up ~4x in a year is priced for flawless HBM/3D-foundry execution; any memory-cycle rollover or slippage in the Micron collaboration unwinds the rerating fast.",
+      "primaryCatalyst": "June-onward monthly revenue showing the guided price-hike benefit, and concrete HBM/3D AI Foundry order milestones with Micron.",
+      "primaryRisk": "Memory-cycle peak or DRAM price-hike fatigue hitting a stock that has already rerated ~4x off the lows."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 110,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Nothing since June 6 changes its CPO exposure, which is the lens of this page - the +5.9% pop is memory-rally flow, irrelevant to the 'low CPO direct exposure' thesis. Already ranked 110 with a low score, so hold with minor drift for the crowding/run-up.",
+      "bull": "If the Micron-backed 3D AI Foundry pivot eventually touches advanced packaging adjacent to optical I/O, PSMC could earn marginal CPO-ecosystem relevance it is not credited for today.",
+      "neutral": "It remains a foundry/memory name on a CPO list; the memory upcycle drives the stock but not this page's thesis, so rank near the bottom stays appropriate.",
+      "bear": "Zero incremental CPO content plus a crowded, fully rerated memory trade means this listing offers no asymmetry on this page and is held only for completeness.",
+      "primaryCatalyst": "Any announced packaging or interposer work tied to optical/co-packaged interconnect via the Micron 3D AI Foundry roadmap.",
+      "primaryRisk": "Memory-cycle downturn dragging the stock with no CPO thesis to fall back on."
+    }
+  ]
+}

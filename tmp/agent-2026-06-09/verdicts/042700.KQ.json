@@ -1,0 +1,56 @@
+{
+  "symbol": "042700.KQ",
+  "company": "Hanmi Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8-9: SK hynix placed a KRW 44.2bn (~$29M, ~15 units, ~7.6-7.7% of 2025 revenue) order with Hanmi for its new TC Bonder 4.5 Griffin for HBM4, to be installed at the M15X P&T fab in Cheongju by Sept 2 and tied to the HBM4 ramp for Nvidia's Vera Rubin platform. This is Hanmi's FIRST HBM4 TC bonder win from SK hynix and largely defuses the Dec-2025 fear that the Hanmi-Hanwha patent clash had pushed SK hynix to ASMPT. Shares jumped ~8% on the news (the context file's 0.0% day move appears to be a stale price snapshot). Separately, Hanmi is reportedly furthest along on HBF TC bonders with first deliveries eyed for 2H26.",
+  "sources": [
+    {
+      "label": "TrendForce (Jun 9, 2026): SK hynix places 44.2bn won TC bonder order with Hanmi, accelerating HBM4 ramp-up",
+      "url": "https://www.trendforce.com/news/2026/06/09/news-sk-hynix-reportedly-places-44-2bn-won-tc-bonder-order-with-hanmi-accelerating-hbm4-ramp-up/"
+    },
+    {
+      "label": "The Elec: Hanmi Semiconductor wins first HBM4 TC bonder order from SK hynix",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "MarketScreener: SK Hynix places KRW44.2bn chip equipment order with Hanmi; shares jump 8%",
+      "url": "https://www.marketscreener.com/news/sk-hynix-places-krw44-2-billion-chip-equipment-order-with-hanmi-shares-jump-8-ce7f5dd3dc8ef325"
+    },
+    {
+      "label": "TrendForce (Jun 5, 2026): HBF opens new equipment race; Hanmi eyes first TC bonder deliveries in 2H26",
+      "url": "https://www.trendforce.com/news/2026/06/05/news-hbf-opens-new-equipment-race-hanmi-semiconductor-reportedly-eyes-first-tc-bonder-deliveries-in-2h26/"
+    },
+    {
+      "label": "DigiTimes: SK Hynix orders Hanmi equipment for HBM4 capacity buildout",
+      "url": "https://www.digitimes.com/news/a20260609VL209/sk-hynix-equipment-hbm4-hanmi-capacity.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.72,
+      "rankRationale": "On a bottleneck-node lens, the first HBM4 TC bonder order from SK hynix is exactly the kind of hard, new design-win evidence this page rewards: it confirms Hanmi sits in the critical path of the M15X HBM4 ramp feeding Nvidia Vera Rubin, and it removes the ASMPT-displacement risk that had capped conviction since the Dec-2025 Hanwha patent clash. Yesterday's hold was predicated on no new evidence; that condition is now broken, justifying a move up from rank 3.",
+      "bull": "SK hynix returning to Hanmi for HBM4 Griffin bonders (after flirting with ASMPT) plus the April Micron order means all-of-DRAM HBM4 capex flows through Hanmi's bonder franchise; this 15-unit tranche is likely the first of several M15X/M15X-phase-2 orders, and HBF bonders open a second leg in 2H26.",
+      "neutral": "The order is real but small in absolute terms (~7.6% of 2025 revenue, ~$29M); it confirms the thesis rather than expands it, and the ~8% pop already prices the headline. Follow-on order cadence will decide whether this is a re-rating or a one-off.",
+      "bear": "Hanwha Semitech and ASMPT remain credible second sources and the patent litigation is unresolved; if SK hynix deliberately dual-sources HBM4 bonders, Hanmi's ~70% share and pricing power erode just as HBM4 unit economics get negotiated.",
+      "primaryCatalyst": "Follow-on HBM4/HBF TC bonder tranches from SK hynix (M15X expansion) and Micron through 2H26.",
+      "primaryRisk": "Customer dual-sourcing to Hanwha/ASMPT amid the ongoing patent dispute compressing share and margins."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 68,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.68,
+      "rankRationale": "This page's stated objection was 'single-bundle validation risk' and mixed evidence of under-discovery; a signed, disclosed SK hynix HBM4 order is company-specific validation that directly answers that objection, so rank 68 on the watchlist is now too low. Tempered to +4 rather than larger because the page's crowding lens must net out the ~8% same-day pop and the ~91% YTD run already recorded on this page - part of the asymmetry was harvested today.",
+      "bull": "First HBM4 win at SK hynix plus the April Micron deal means Hanmi is now validated across two of three HBM makers on the new node, with HBF bonders (first deliveries 2H26) as an unpriced option; rank 68 treats it as an unproven watchlist name, which is no longer accurate.",
+      "neutral": "A ~$29M order on an ~$18.8B market cap is headline-rich but P&L-light; after a 91% YTD run on this page's data and today's 8% pop, the risk/reward is better-evidenced but not obviously cheaper.",
+      "bear": "The name is increasingly discovered - an 8% one-day pop on a 7.6%-of-revenue order signals crowded positioning, and any HBM4 capex digestion at SK hynix/Micron or an adverse Hanwha patent ruling would hit a now-consensus long hard.",
+      "primaryCatalyst": "Disclosure of additional M15X bonder tranches or a first HBF bonder purchase order in 2H26.",
+      "primaryRisk": "Crowding after the run-up: the order is already priced and incremental orders disappoint versus the multi-tranche expectation now embedded."
+    }
+  ]
+}

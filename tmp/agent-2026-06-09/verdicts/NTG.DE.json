@@ -1,0 +1,35 @@
+{
+  "symbol": "NTG.DE",
+  "company": "Nabaltec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Edison report on Nabaltec (Jun 1, 2026) - flame-retardant fillers for data cables, battery thermal management",
+      "url": "https://www.tradingview.com/news/tmx_newsfile:4f3bc0bf3094b:0-edison-issues-report-on-nabaltec-ntg/"
+    },
+    {
+      "label": "Nabaltec Q1 2026 figures (May 21) - gradual return to revenue growth expected from Q2",
+      "url": "https://www.webdisclosure.com/press-release/nabaltec-ag-etr-ntg-nabaltec-ag-publishes-figures-for-the-first-quarter-2026-and-expects-a-gradual-return-to-revenue-growth-starting-from-the-second-quarter-Lsvo6JXdetC"
+    },
+    {
+      "label": "KunststoffWeb - Nabaltec FY26 guidance 4-6% revenue growth, data-center cable demand cited",
+      "url": "https://www.kunststoffweb.de/branchen-news/nabaltec_spezialchemiehersteller_hofft_auf_bessere_geschaefte_t260348"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; today's -0.87% is drift and the stock remains down ~8% YTD with the latent ceramic-fillers thesis unchanged, so the strict-screen setup is exactly where yesterday's hold left it.",
+      "bull": "Edison and management both flag data-center fire-safe cabling, EV charging and battery thermal management as demand drivers into a guided 4-6% FY26 revenue recovery; at ~$120M market cap and negative YTD, the name is genuinely under-owned with the AI hook still unpriced.",
+      "neutral": "Q1 2026 showed revenue -2.7% and EBIT -34% with Specialty Aluminas still -4.6%; the recovery is guided, not delivered, so the latent option stays cheap but unproven until Q2 prints.",
+      "bear": "This is a cyclical specialty-chemicals micro-cap whose AI exposure is indirect filler content in cables and enclosures; a stalled European industrial recovery or continued alumina weakness keeps margins compressed regardless of AI buildout.",
+      "primaryCatalyst": "Q2 2026 results confirming the guided return to revenue growth, with visible data-center/fire-safety cable demand in Functional Fillers.",
+      "primaryRisk": "Recovery slips again (third consecutive guide-down risk) and EBIT margin stays below the 5-7% target, invalidating the trough call."
+    }
+  ]
+}

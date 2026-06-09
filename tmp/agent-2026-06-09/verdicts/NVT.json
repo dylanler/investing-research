@@ -1,0 +1,39 @@
+{
+  "symbol": "NVT",
+  "company": "nVent Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new news since June 6. All recent catalysts predate the window: Nvidia/Siemens/nVent 100MW AI-factory reference design (~June 1-4), blowout quarter (revenue +53% y/y, Systems Protection infrastructure +100% organic, record $2.6B backlog), raised FY26 guidance (26-28% revenue growth, $4.45-4.55 adj EPS), and a cluster of sell-side PT hikes to $185-190 (Citi, Deutsche Bank, Barclays, Evercore, Roth). Since June 6 the stock has simply drifted lower, now ~9% below its June 3 all-time high of $176.39 (-1.72% today, no fundamental driver found) - flow-driven digestion of a crowded rerating, not thesis damage.",
+  "sources": [
+    {
+      "label": "Simply Wall St - stronger backlog and raised guidance, NVT data-center story",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-nvt/nvent-electric/news/how-stronger-backlog-and-raised-guidance-may-impact-nvent-el"
+    },
+    {
+      "label": "GuruFocus - nVent partners with Nvidia/Siemens on AI factory design",
+      "url": "https://www.gurufocus.com/news/8894194/nvent-nvt-partners-with-siemens-to-create-ai-factory-design"
+    },
+    {
+      "label": "Macrotrends - NVT price history (ATH $176.39 on 2026-06-03, $163.81 close 2026-06-08)",
+      "url": "https://www.macrotrends.net/stocks/charts/NVT/nvent-electric/stock-price-history"
+    },
+    {
+      "label": "Benzinga - NVT analyst ratings and price-target raises ($185-190 cluster)",
+      "url": "https://www.benzinga.com/quote/NVT/analyst-ratings"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already priced the post-earnings/Nvidia-blueprint rerating and crowding; nothing new has landed since June 6, and today's -1.7% drift (~9% off the June 3 ATH) modestly restores asymmetry without changing the setup. Hold at rank 10 - the bottleneck exposure is real but fully recognized by a Strong Buy consensus and $185-190 price targets.",
+      "bull": "Record $2.6B backlog, Systems Protection infrastructure growing 100%+ organically, and a named position in the Nvidia/Siemens 100MW AI-factory reference design make nVent structurally embedded in the AI power/cooling bottleneck; the 9% pullback from the high offers a slightly better entry.",
+      "neutral": "Thesis intact but discovery is over: +50.7% YTD, $26B market cap, and a wall-to-wall sell-side upgrade cycle mean the residual alpha is mostly in execution beats, not recognition.",
+      "bear": "A crowded AI-electrification trade unwinding (or any data-center capex digestion headline) hits a 50%-YTD name hardest; guidance now embeds 26-28% growth, leaving little room for disappointment in a cyclical enclosures/cooling business.",
+      "primaryCatalyst": "Q2 earnings and backlog/orders update confirming the raised 26-28% growth guidance, plus initial revenue traction from the Nvidia/Siemens AI-factory design wins.",
+      "primaryRisk": "Post-rerating crowding: multiple compression if AI data-center capex momentum cools or hyperscaler ordering pauses, with consensus already at Strong Buy and targets only ~15% above spot."
+    }
+  ]
+}

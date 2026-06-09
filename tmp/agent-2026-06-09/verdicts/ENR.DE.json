@@ -1,0 +1,40 @@
+{
+  "symbol": "ENR.DE",
+  "company": "Siemens Energy",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Shares fell -5.9% on June 9 to EUR 148.30, extending a ~24% correction from the late-April record high of EUR 195.54. The slide looks flow-driven, not fundamental: Siemens AG's block sale (stake cut from ~15% to 5.5%, ~EUR 3.8bn) created a supply overhang, activist Ananym Capital is publicly demanding a Gamesa spin-off (rejected by CEO Bruch), and profit-taking continues after an ~82% 12-month run. Fundamentals were just reconfirmed strong: record Q2 orders of EUR 17.7bn, all-time-high EUR 154bn backlog, 5 GW of data-center orders in Q2, raised FY26 guidance (14-16% revenue growth, ~EUR 4bn net profit), a EUR 2bn buyback running to Sept 2026, and the Camlin Group grid-software acquisition announced June 2. Investor roadshow (Munich/Copenhagen/Stockholm) starts June 9.",
+  "sources": [
+    {"label": "ad-hoc-news: Siemens Energy Juggles Activist Demands and Grid Acquisitions as Shares Cool From Peak", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-juggles-activist-demands-and-grid-acquisitions-as-shares/69504570"},
+    {"label": "ad-hoc-news: Siemens Energy's Profit-Taking Storm Rages Despite Record Orders, EUR 2bn Buyback", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-s-profit-taking-storm-rages-despite-record-orders-2bn/69496825"},
+    {"label": "Capital.com: Siemens Energy Stock Forecast - Guidance Raise and Buyback (June 2, 2026)", "url": "https://capital.com/en-int/market-updates/siemens-stock-forecast-02-06-2026"},
+    {"label": "ad-hoc-news: Siemens Energy Faces a Pivotal Test as AI-Driven Orders Clash with Profit-Taking", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-faces-a-pivotal-test-as-ai-driven-orders-clash-with/69502082"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 97,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive alpha list, a -5.9% flow-driven drop (Siemens AG block-sale overhang, activist noise, profit-taking) against freshly raised guidance and record AI-driven grid orders improves residual asymmetry; rank 97 in the monitor bucket now overstates the crowding discount.",
+      "bull": "Record EUR 154bn backlog, 5 GW of Q2 data-center orders and raised FY26 guidance confirm the power-bottleneck thesis while the stock trades ~24% below April highs with a EUR 2bn buyback absorbing flow.",
+      "neutral": "A $157B widely-owned mega-cap is never a hidden alpha name; the pullback improves entry economics but the page's note that it sits farther from the passive/power bottleneck stack still stands.",
+      "bear": "Gamesa losses persist, the Ananym activist fight could distract management, and the Siemens AG stake reduction leaves a lasting supply overhang if AI-power sentiment keeps cooling.",
+      "primaryCatalyst": "Investor roadshow starting June 9 (Munich, Copenhagen, Stockholm) plus the ongoing EUR 2bn buyback through September 2026.",
+      "primaryRisk": "Continued de-rating of crowded AI-power trades dragging the stock regardless of order momentum; Gamesa turnaround slippage."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "This page's discount was that Siemens Energy had 'already rerated' around grid scarcity; that rerating is now ~24% unwound on flows (block sale, activist pressure, profit-taking) while the underlying Power & Grid node strengthened with record EUR 17.7bn Q2 orders and 5 GW of data-center bookings.",
+      "bull": "Grid Technologies remains the growth engine of AI power demand, the EUR 154bn backlog gives multi-year revenue visibility, and the correction restores upside the prior rerating had consumed.",
+      "neutral": "Order momentum is real but well-telegraphed; the stock is still up ~21% YTD and ~82% over twelve months, so this is a partial reset of an extended chart rather than a new latent setup.",
+      "bear": "If AI data-center capex pauses, Grid Technologies orders decelerate from record levels just as Gamesa losses and activist conflict cap the multiple.",
+      "primaryCatalyst": "Grid backlog conversion and further data-center/grid order announcements; Camlin digital-grid acquisition closing by end-2026.",
+      "primaryRisk": "Activist-driven structural uncertainty around a Gamesa spin-off and further parent-stake supply hitting the shares."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "SERV",
+  "company": "Serve Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -7.2% drop (to $7.06) has no discrete catalyst and looks flow-driven: small-cap physical-AI de-risking plus lingering dilution/burn concerns (Q1 net loss ~$49M; Zacks notes 2026/2027 loss-per-share estimates widened to -$2.58/-$2.20 over the past week). Last real news was June 2 (pre-window): NoScrubs laundry-delivery vertical launch in LA, first commercial non-food vertical on the existing fleet.",
+  "sources": [
+    {"label": "StockInvest SERV daily price/forecast page (Jun 8-9 prices, trend signals)", "url": "https://stockinvest.us/stock/SERV"},
+    {"label": "GlobeNewswire: Serve launches autonomous laundry vertical with NoScrubs (Jun 2, 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/02/3305259/0/en/Serve-Robotics-Continues-Expansion-Beyond-Food-Delivery-Launches-Autonomous-Laundry-Vertical-with-NoScrubs.html"},
+    {"label": "Yahoo Finance/Zacks: Serve Robotics slips YTD, widening loss estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/serve-robotics-slips-16-ytd-161400249.html"},
+    {"label": "MarketBeat SERV news feed (checked for a June 9 catalyst; none found)", "url": "https://www.marketbeat.com/stocks/NASDAQ/SERV/news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Already #2 on the deployed physical-AI lens; today's -7% is flow-driven with the fleet/commercialization thesis intact, which modestly improves asymmetry, but widening loss estimates and near-certain dilution at a $0.6B cap argue against pushing it to #1 without new evidence.",
+      "bull": "Deployed, revenue-generating sidewalk fleet (Q1 revenue +578% YoY, 3x sequential) now monetizing a second vertical (NoScrubs laundry) on the same robots and autonomy stack; -40% YTD with thesis intact is improving asymmetry.",
+      "neutral": "No company-specific news since June 6; today's drop is sector/flow noise. Rank #2 already reflects the under-owned deployed-fleet case, so the setup is unchanged.",
+      "bear": "Q1 net loss ~$49M against a $0.6B cap means heavy dilution ahead; 2026/2027 loss estimates are widening, and new verticals (laundry, healthcare via Diligent) could be costly distraction rather than leverage.",
+      "primaryCatalyst": "Evidence of revenue-per-robot inflection or new vertical/metro contracts (next checkpoint: Aug 6 Q2 earnings).",
+      "primaryRisk": "Dilutive capital raise into a falling tape given ~$78M+ annualized cash burn."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the scaling watchlist the name is pure 'autonomous delivery optionality'; a -7% flow-driven dip slightly cheapens that optionality but yesterday's adjusted score already sat 3 places below the displayed rank, and widening loss estimates offset the better entry, so rank 18 stands.",
+      "bull": "Optionality is broadening, not narrowing: same fleet now serves food plus laundry with dry cleaning, pharmacy, and grocery as adjacent verticals, and the stock is 40% cheaper YTD with revenue compounding.",
+      "neutral": "Nothing material since June 6; the move is beta, not thesis. Optionality bucket position around rank 18 remains fair versus the adjusted score.",
+      "bear": "Optionality funded by equity: losses widening to an estimated -$2.58/share in 2026 means the option premium is paid via dilution, and a sub-$1B cap robotics name can derate further in a risk-off tape.",
+      "primaryCatalyst": "NoScrubs pilot traction or another non-food vertical converting to a commercial contract.",
+      "primaryRisk": "Funding overhang and continued estimate cuts compressing the optionality value before any vertical scales."
+    }
+  ]
+}

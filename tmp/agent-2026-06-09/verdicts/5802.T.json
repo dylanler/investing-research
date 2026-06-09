@@ -1,0 +1,61 @@
+{
+  "symbol": "5802.T",
+  "company": "Sumitomo Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockAnalysis - Sumitomo Electric (TYO:5802) quote and recent analyst/dividend items",
+      "url": "https://stockanalysis.com/quote/tyo/5802/"
+    },
+    {
+      "label": "Sumitomo Electric press release - multicore fiber MSA collaboration for AI data center campuses (pre-window, Feb/Mar 2026)",
+      "url": "https://sumitomoelectric.com/press/2026/02/prs011"
+    },
+    {
+      "label": "MarketScreener - Sumitomo Electric news stream (latest filing May 12, 2026 results; 4-for-1 split effective June 29)",
+      "url": "https://www.marketscreener.com/quote/stock/SUMITOMO-ELECTRIC-INDUSTR-6491335/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6 and only a -0.8% drift today; the ~9% pullback from the June 5 high with the fiber/power-cable thesis intact marginally improves asymmetry, but the name remains a step removed from the core passive/power bottleneck stack, so rank 33 stands.",
+      "bull": "Multicore fiber MSA leadership with Corning/Fujikura positions Sumitomo for AI campus fiber density wins, and the recent pullback restores some entry asymmetry after the YTD run.",
+      "neutral": "A +79% YTD conglomerate at $63B market cap with no fresh catalysts since the May earnings beat; the split (June 29) is cosmetic and the alpha case is unchanged week over week.",
+      "bear": "Conglomerate breadth (automotive harnesses, industrial materials) dilutes the AI passives exposure, and post-rerating crowding leaves limited residual alpha if optical/cable pricing softens.",
+      "primaryCatalyst": "Multicore fiber design wins or AI campus fiber/power cable orders; next earnings August 5, 2026.",
+      "primaryRisk": "Post-rerating de-rating as the +79% YTD move unwinds without segment-level AI revenue proof."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Network-centrality case (fiber, harnesses, power infrastructure) is unchanged; no contracts, guidance, or capacity news since June 6, and a -0.8% day move does not alter the latent-node setup, so hold at adjusted rank 58.",
+      "bull": "Sumitomo sits at a genuine connectivity-and-photonics node: multicore fiber co-development with Corning/Fujikura plus grid and telecom cable exposure gives multiple AI-adjacent paths to surprise.",
+      "neutral": "Medium-conviction latent node with conglomerate complexity; nothing in the June 6-9 window changes either the centrality argument or the dilution concern.",
+      "bear": "The AI-relevant fiber/photonics sliver is small relative to automotive and industrial segments, so centrality may never translate into earnings torque commensurate with the rerating.",
+      "primaryCatalyst": "SDM4 multicore fiber MSA commercialization and AI campus fiber demand pull-through.",
+      "primaryRisk": "Conglomerate earnings mix masks photonics upside; automotive cycle weakness offsets AI gains."
+    },
+    {
+      "page": "companies",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved this down on rerating discipline; with no new information since June 6 and only -0.8% today, re-penalizing would be double-counting, so hold at rank 30.",
+      "bull": "Scale-out networking exposure is real - 800G/1.6T optical links, DCI fiber cables, and the multicore fiber MSA - and the ~9% pullback from June 5 highs takes some heat out of the chart.",
+      "neutral": "Thesis intact but static: the May 12 earnings beat and dividend lift are in the price, and the next data point is the August 5 earnings report.",
+      "bear": "After +79% YTD the market already credits the optics story; any slip in fiber/cable execution or pricing into the August print triggers a sharp give-back.",
+      "primaryCatalyst": "August 5, 2026 earnings with segment detail on Infocommunications/optical demand.",
+      "primaryRisk": "Crowded post-rerating positioning into a print with high embedded expectations."
+    }
+  ]
+}

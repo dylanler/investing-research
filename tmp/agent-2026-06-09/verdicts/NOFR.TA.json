@@ -1,0 +1,27 @@
+{
+  "symbol": "NOFR.TA",
+  "company": "O.Y. Nofar Energy",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "PR Newswire - Nofar Energy press releases (latest items predate June 6)", "url": "https://www.prnewswire.com/news/nofar-energy/"},
+    {"label": "Globes - Nofar Energy plans to dual list on Nasdaq (Apr 2026, prior catalyst)", "url": "https://en.globes.co.il/en/article-nofar-energy-plans-to-dual-list-on-nasdaq-1001540298"},
+    {"label": "PV-Tech - Nofar to buy ~1GW US solar portfolio from bankrupt Pine Gate (earlier 2026)", "url": "https://www.pv-tech.org/nofar-energy-to-buy-1gw-us-solar-portfolio-from-bankrupt-pine-gate/"},
+    {"label": "Yahoo Finance quote NOFR.TA", "url": "https://finance.yahoo.com/quote/NOFR.TA/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6; today's +2.9% is no-news momentum drift on a name already up ~97% YTD, which slightly erodes residual alpha on the power build-out thesis but is not new information beyond what yesterday's hold already reconciled.",
+      "bull": "Pipeline keeps compounding into AI-driven power demand: ~1GW US solar portfolio bought cheaply out of Pine Gate's bankruptcy, German BESS with a 7-year fixed-price flexibility agreement, and a pending Nasdaq dual listing that could rerate the multiple and broaden the holder base.",
+      "neutral": "Thesis (power build-out and renewable generation for the electricity bottleneck) is intact but fully reflected in the ~97% YTD move; at $3.1B cap with TTM revenue near $95M the stock now needs execution on the US portfolio and storage book, not more narrative.",
+      "bear": "A near-double YTD with no fresh fundamental news since early June means most of the asymmetric upside has been harvested; rate-sensitive project economics, Pine Gate integration risk, and a possible dilutive raise around the Nasdaq listing could trigger a sharp give-back.",
+      "primaryCatalyst": "Nasdaq dual-listing completion and progress/financing updates on the ~1GW Pine Gate US solar portfolio.",
+      "primaryRisk": "Post-rerating crowding: a ~97% YTD run with no new evidence leaves the name exposed to flow reversal and dilution around the US listing."
+    }
+  ]
+}

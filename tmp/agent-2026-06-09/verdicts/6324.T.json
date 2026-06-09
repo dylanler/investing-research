@@ -1,0 +1,39 @@
+{
+  "symbol": "6324.T",
+  "company": "Harmonic Drive Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote 6324.T (price/market-cap check)",
+      "url": "https://finance.yahoo.com/quote/6324.T/"
+    },
+    {
+      "label": "Investing.com - Japanese stock surging on positive humanoid robot order outlook (pre-Jun 6 context)",
+      "url": "https://www.investing.com/news/stock-market-news/this-japanese-stock-is-surging-on-positive-outlook-for-humanoid-robot-orders-4367329"
+    },
+    {
+      "label": "Kabutan 6324 news feed (no new disclosures Jun 6-9; AGM Jun 19)",
+      "url": "https://kabutan.jp/stock/news?code=6324"
+    },
+    {
+      "label": "Simply Wall St - Harmonic Drive margin compression vs bullish growth narratives",
+      "url": "https://simplywall.st/stocks/jp/capital-goods/tse-6324/harmonic-drive-systems-shares/news/harmonic-drive-systems-tse6324-margin-compression-challenges"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already demoted the name for crowding and post-rerating chase; no new disclosure since June 6 and today's -1.8% drift is too small to restore asymmetry after +83% YTD, so hold at the freshly lowered rank with mild negative drift.",
+      "bull": "Near-monopoly in high-end strain-wave gears with humanoid-related orders guided to ~JPY2.5B in FY3/26 and management flagging a potential double-to-triple in FY3/27 as US prototype programs scale; March-quarter orders hit a four-year high.",
+      "neutral": "The May results, 14% sales-growth/9% OPM guidance, and the 2026-2030 AI-robot growth plan are all known and priced; at $4.2B cap and +83% YTD this is the consensus way to play humanoid actuation, leaving little hidden alpha despite a sound thesis.",
+      "bear": "Operating margin is still single-digit and humanoid orders are ~1% of the market cap narrative; any prototype-schedule slip, cheaper Chinese strain-wave competition, or broader AI/robotics derating compresses the multiple far faster than fundamentals can fill it.",
+      "primaryCatalyst": "Concrete FY3/27 humanoid order numbers or a named US mass-production design win (next checkpoint: Q1 FY3/27 results and the June 19 AGM commentary).",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on a humanoid sentiment wobble, plus Chinese harmonic-reducer price competition eroding the pricing-power premium."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "DIOD",
+  "company": "Diodes Incorporated",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The +15% June 1-3 spike was driven by pre-window catalysts (Baird PT raise to $120 from $100, Truist upgrade to Buy at $98, Q1 2026 beat: revenue $405.5M +22% YoY, EPS $0.33; automotive USB-C PD3.1 / Hall-effect product launches announced June 2). Since June 6 the stock has faded with the broader semi pullback sparked by Broadcom's cautious AI outlook; today's -2.9% to $101.62 is sector-driven drift, not a fundamental event.",
+  "sources": [
+    {"label": "Kavout - What's Driving Diodes' Recent Surge Despite Mixed Q1 2026 Results", "url": "https://www.kavout.com/market-lens/what-s-driving-diodes-recent-surge-despite-mixed-q1-2026-results"},
+    {"label": "Kavout - What Triggered the Recent Semiconductor Sell-Off", "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"},
+    {"label": "Sahm Capital - Diodes expanding into integrated automotive USB-C power and motor control (June 2)", "url": "https://www.sahmcapital.com/news/content/how-investors-are-reacting-to-diodes-diod-expanding-into-integrated-automotive-usbc-power-and-motor-control-2026-06-02"},
+    {"label": "Yahoo Finance - DIOD quote", "url": "https://finance.yahoo.com/quote/DIOD/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's removal case (weak direct AI-node/HBM/packaging relevance, ~98% YTD crowding) stands; no new evidence since June 6 and today's -2.9% sector-driven fade is too small to restore asymmetry, so no second move is warranted.",
+      "bull": "Q1 momentum (revenue +22% YoY, big operating-leverage swing) and automotive/industrial mix at 44% of revenue support the $2B-by-2028 target; a continued pullback toward the low-90s could rebuild a tradable setup.",
+      "neutral": "A diversified discrete/analog supplier whose edge/power AI exposure is indirect; after the analyst-driven rerating it trades on broad-cycle recovery, not on any AI-node bottleneck.",
+      "bear": "Up ~98% YTD with the rerating already delivered by sell-side upgrades; sector-wide AI-sentiment wobble (Broadcom outlook, memory/smartphone softness) can unwind a flow-driven move with no bottleneck moat to defend it.",
+      "primaryCatalyst": "Q2 2026 earnings/guidance confirming margin recovery and automotive/industrial content growth.",
+      "primaryRisk": "Post-rerating crowding unwind in a broad-cycle name with weak direct AI-compute linkage."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 114,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Low direct CPO linkage was the basis of yesterday's removal call; nothing since June 6 adds CPO relevance, and a -2.9% drift day after a ~98% YTD run does not change the setup at rank 114.",
+      "bull": "If the analog/discrete cycle keeps inflecting, DIOD's power-management content rides the broader data-center buildout even without a CPO-specific role.",
+      "neutral": "Generic power/discrete exposure to compute infrastructure; no co-packaged-optics design wins, components, or test exposure surfaced in any recent news flow.",
+      "bear": "Zero incremental CPO evidence plus a doubled YTD means it occupies list space better used by genuine optics/packaging bottleneck names; the crowding penalty fully applies.",
+      "primaryCatalyst": "Any disclosed design win tying Diodes content into optical-module or CPO power delivery (none observed).",
+      "primaryRisk": "Broad-cycle exposure reverses while CPO-specific names keep compounding, widening relative underperformance."
+    }
+  ]
+}

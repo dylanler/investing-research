@@ -1,0 +1,48 @@
+{
+  "symbol": "MTRS.ST",
+  "company": "Munters Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. The record SEK 2.1bn US AI data-center cooling order (CDUs + over-the-rack air handlers for an AI factory build-out, booked into Q2 2026 order intake) was announced in late April, and the small Optifarm/Speria acquisition closed June 3 - both predate the window. Today's -4.99% move has no identifiable fundamental driver and looks flow-driven (Nordic industrial/AI-cooling sentiment), leaving YTD at just +3.5% despite a record DCT order book.",
+  "sources": [
+    {
+      "label": "PRNewswire - Munters wins record data-center orders totaling 2.1 BSEK (late April 2026)",
+      "url": "https://www.prnewswire.com/news-releases/munters-wins-record-orders-for-data-center-equipment-with-a-total-value-of-2-1-bsek-302651324.html"
+    },
+    {
+      "label": "Munters press releases (checked for items since June 6; latest is June 3 Optifarm acquisition)",
+      "url": "https://www.munters.com/en-us/news-media/press-releases/"
+    },
+    {
+      "label": "Yahoo Finance quote - MTRS.ST",
+      "url": "https://finance.yahoo.com/quote/MTRS.ST/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "A near-5% no-news sell-off that resets YTD to +3.5% improves asymmetry on a latent-node alpha list while the record DCT order book (SEK 2.1bn April win, deliveries 2027-28) keeps the thermal bottleneck thesis intact. Yesterday's down move was a mechanical score reconciliation; today's flow-driven dump changes the entry setup, warranting a modest reversal.",
+      "bull": "Record data-center cooling backlog with CDU/liquid-cooling content scaling into 2027-28 deliveries, yet the stock trades barely above flat YTD - the AI rerating has been given back without any thesis damage.",
+      "neutral": "Data-center exposure is already visible to the market and DCT margins slipped in Q1; the stock is a known AI-cooling name, so residual hidden alpha is moderate rather than deep.",
+      "bear": "Order lumpiness and competitive intensity in CDUs/CRAHs (Vertiv, Boyd, nVent) could compress margins, and a colocation capex pause would hit the 2027 delivery schedule.",
+      "primaryCatalyst": "Q2 2026 order intake (booking the SEK 2.1bn AI-factory order) and further hyperscale/colo cooling wins.",
+      "primaryRisk": "DCT margin dilution on customized orders plus a data-center capex digestion phase stalling new bookings."
+    },
+    {
+      "page": "companies",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Already rank 1 on the power/cooling bottleneck list, so no upward move is possible; a -5% flow-driven day with the cooling bottleneck thesis fully intact slightly improves the risk/reward and supports the top slot rather than challenging it.",
+      "bull": "Direct exposure to the scarcest AI infrastructure inputs - liquid cooling, CDUs, air treatment - with a record order book and a YTD reset to +3.5% that restores entry asymmetry at the top of the list.",
+      "neutral": "No new evidence since June 6; the April order is already in consensus and the rank-1 position already encodes the bottleneck premium.",
+      "bear": "If today's weakness is the start of a broader AI-cooling derating or reflects unannounced order-pipeline softness, the rank-1 score is exposed to a multi-week drawdown.",
+      "primaryCatalyst": "Q2 2026 report confirming record order intake and DCT margin trajectory.",
+      "primaryRisk": "Margin slippage on customized data-center orders and cyclicality in non-DCT segments masking the bottleneck story."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "IFCN.SW",
+  "company": "INFICON",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "INFICON IR - Q1 2026 beat and raised FY26 guidance (Apr 24, 2026; pre-window, context only)",
+      "url": "https://www.inficon.com/en/news/inficon-reports-strong-first-quarter-and-raises-guidance"
+    },
+    {
+      "label": "TipRanks - INFICON lifts 2026 outlook after strong Q1 (semis +23.5% YoY, AI demand cited)",
+      "url": "https://www.tipranks.com/news/company-announcements/inficon-lifts-2026-outlook-after-strong-first-quarter"
+    },
+    {
+      "label": "Investing.com - INFICON quote/news page; analyst targets JPM CHF155, DB CHF160 vs price CHF160.2",
+      "url": "https://www.investing.com/equities/inficon-holding"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; today's -1.2% is drift, not a setup change, so yesterday's hold stands. Small negative delta for rerating discipline: +54% YTD has the stock at/above recently raised sell-side targets (JPM CHF155, DB CHF160) with the April beat-and-raise fully in the price, so residual latent-node alpha keeps eroding.",
+      "bull": "Leak detection and process sensors are genuine per-fab consumable-like exposure to AI-driven semicap intensity; Semi & Vacuum Coating sales grew 23.5% YoY and FY26 guidance was raised to $710-750M with 18-20% OI margin.",
+      "neutral": "High-quality Swiss compounder whose AI/semicap linkage is now well understood and reflected in a ~CHF160 share price; the long-announced CFO handover (June 30) is a non-event with no new disclosures this window.",
+      "bear": "At +54% YTD and trading through raised analyst targets, the name is no longer hidden; any 2H semicap order digestion or a guidance walk-back would hit a stock priced for continued acceleration.",
+      "primaryCatalyst": "Q2 2026 results / mid-year order intake confirming the AI-driven semiconductor acceleration behind the raised guidance.",
+      "primaryRisk": "Post-rerating crowding: valuation already discounts the upgraded outlook, leaving little asymmetry if semicap momentum cools."
+    }
+  ]
+}

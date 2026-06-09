@@ -1,0 +1,28 @@
+{
+  "symbol": "2449.TW",
+  "company": "King Yuan Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 monthly revenue published on KYEC's IR page (Taiwan 10th-of-month disclosure window): NT$3,776.9M, +36.7% YoY and a fresh monthly record, sequentially above April (NT$3,743.0M, +34.5% YoY) and March (NT$3,597.9M, +36.1% YoY). Confirms utilization/test-intensity thesis on top of recent context: 2026 capex raised from NT$39.4B to NT$50B, Singapore CP/FT/BI/SLT plant commenced operations May 22, and KYEC's role as primary final tester for Nvidia B300/B200/H200. Stock barely reacted: +0.87% today, +8.8% YTD.",
+  "sources": [
+    {"label": "KYEC IR - Monthly revenue (May 2026 NT$3.78B, +36.7% YoY)", "url": "https://www.kyec.com.tw/en/Ir/Revenue"},
+    {"label": "DigiTimes - KYEC record 1Q26 revenue, capex raised to NT$50B", "url": "https://www.digitimes.com/news/a20260413PD230/2026-revenue-demand-testing-king-yuan.html"},
+    {"label": "TrendForce - ASE/PTI/KYEC capex may hit NT$370B as AI drives record OSAT investment", "url": "https://www.trendforce.com/news/2026/05/05/news-ase-powertech-kyec-capex-may-hit-nt370b-this-year-as-ai-drives-record-osat-investment/"},
+    {"label": "Singapore EDB - KYEC inaugurates Singapore facility (May 22, 2026)", "url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/kyec-opens-singapore-facility-marking-global-expansion.html"},
+    {"label": "Dan Nystedt - KYEC is primary tester for Nvidia B300/B200/H200", "url": "https://x.com/dnystedt/status/2004481948534841560"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 22,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Genuinely new evidence since June 6: record May revenue (+36.7% YoY, third straight ~35%+ month) directly validates the utilization/test-intensity leg of the thesis, while the stock has not rerated (+0.87% today, +8.8% YTD vs an 11x larger capex commitment). Rank 22 understates a bottleneck node where every Nvidia B300/B200/H200 passes through its testers; the move respects yesterday's 'up' because today's print is new, not a re-argument.",
+      "bull": "Primary final-test gateway for Nvidia's flagship AI silicon with record May revenue, capex raised 26% to NT$50B, and a freshly opened Singapore plant - utilization is confirmed accelerating while the stock trades far below the ~NT$354 consensus target, leaving uncaptured rerating.",
+      "neutral": "Test services are real but lower-margin and cyclical; +35% YoY revenue growth is already partly anticipated by 14 buy ratings, so the name is known to the sell side even if price hasn't followed yet.",
+      "bear": "OSAT test capacity can be replicated faster than fab or HBM capacity; if AI test-time intensity plateaus or Nvidia diversifies test partners, the NT$50B capex becomes a margin headwind into any 2027 digestion phase.",
+      "primaryCatalyst": "June/Q2 monthly revenue prints sustaining ~35%+ YoY plus B300 ramp test volumes, with Singapore fab contribution starting 2H26.",
+      "primaryRisk": "AI test outsourcing concentration risk - a shift of Nvidia/AMD final-test allocation or an OSAT capex glut compresses pricing just as record capacity comes online."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "2498.HK",
+  "company": "RoboSense",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No genuinely new material news strictly after June 6. The June 3 FAW Toyota 500,000-unit digital-lidar design win recirculated in trade press on June 8 (Gasgoo), but it predates the window and was in yesterday's information set. Backdrop remains the late-May Q1 2026 print: robotics lidar shipments +1,458.8% YoY to 185,500 units, surpassing ADAS shipments for the first time, total shipments 330,300 (+204% YoY), ADAS backlog >9M units. Today's -0.83% move is noise.",
+  "sources": [
+    {"label": "CnEVPost - RoboSense wins another 500,000-unit LiDAR order from FAW Toyota (Jun 3)", "url": "https://cnevpost.com/2026/06/03/robosense-wins-another-lidar-order-faw-toyota/"},
+    {"label": "Gasgoo - RoboSense secures new FAW Toyota LiDAR program (recirculated Jun 8)", "url": "https://autonews.gasgoo.com/articles/news/over-500000-units-robosense-secures-new-model-designation-from-faw-toyota-again-2062157724127940609"},
+    {"label": "PR Newswire - RoboSense Q1 2026 robotics lidar +1,458.8% YoY, first quarter robotics > ADAS", "url": "https://www.prnewswire.com/news-releases/robosense-asserts-global-dominance-in-lidar-for-robotics-with-1-458-8-yoy-shipment-surge-in-q1-2026--302783148.html"},
+    {"label": "Yahoo Finance quote 2498.HK", "url": "https://finance.yahoo.com/quote/2498.HK/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's hold stands: nothing genuinely new since June 6, and today's -0.83% changes no setup. On a robotics-alpha lens the asymmetry quietly improves at the margin - stock is -17% YTD while robotics lidar volume (185.5k units, now >ADAS mix) keeps validating the volume-leadership thesis - so a small positive drift (+1) without a rank change is right.",
+      "bull": "Robotics lidar shipments grew 1,458.8% YoY and overtook ADAS in Q1, a structural mix inflection, while a $1.9B cap and negative YTD mean the rerating hasn't happened; FAW Toyota's 500k-unit follow-on shows the cash-funding ADAS engine is also compounding.",
+      "neutral": "All the supporting evidence (Q1 volumes, FAW Toyota win) was known before June 6 and is partially reflected; robotics lidar ASPs are far below ADAS units, so revenue mix lags the headline unit surge.",
+      "bear": "Robotics lidar pricing is being commoditized fast (Hesai, Livox price war), Chinese humanoid/robot demand could prove inventory-driven rather than end-demand, and HK-listed small caps carry liquidity and geopolitical de-rating risk regardless of execution.",
+      "primaryCatalyst": "H1 2026 results confirming robotics-segment revenue (not just units) inflecting with gross margin holding, or a named humanoid/robotaxi platform win at scale.",
+      "primaryRisk": "Lidar ASP erosion in robotics outpacing volume growth, compressing the revenue story behind the spectacular unit numbers."
+    }
+  ]
+}

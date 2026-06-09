@@ -1,0 +1,35 @@
+{
+  "symbol": "JCI",
+  "company": "Johnson Controls",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Johnson Controls completes acquisition of Alloy Enterprises - data center liquid cooling (May 13, 2026)",
+      "url": "https://www.stocktitan.net/news/JCI/johnson-controls-completes-acquisition-of-alloy-dqs5dcs2275l.html"
+    },
+    {
+      "label": "Johnson Controls Q2 FY26 results - record $20B backlog, 40% FX-adjusted order growth, FY26 guidance raised (May 6, 2026)",
+      "url": "https://investors.johnsoncontrols.com/news/news-details/2026/Johnson-Controls-Reports-Strong-Q2-Results-Raises-FY26-Guidance/default.aspx"
+    },
+    {
+      "label": "Barchart via Yahoo Finance: 21-analyst Moderate Buy, mean PT ~$153 (~5% above spot) after post-earnings PT raises",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-stock-jci-outperforming-152834133.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news in the Jun 6-9 window and a +0.81% drift day; the record-backlog quarter (May 6) and Alloy liquid-cooling close (May 13) were already embedded in yesterday's hold and the 18.7% YTD rerating. Small negative drift on the alpha lens: 21-analyst Moderate Buy with mean PT ~$153 only ~5% above spot means the cooling/controls bottleneck story is increasingly recognized, shrinking residual alpha without changing the thesis.",
+      "bull": "End-to-end data center thermal stack (high-density chillers, Alloy direct liquid cooling, OpenBlue controls) tied to AI power-density growth, with a record $20B backlog and 40% FX-adjusted order growth driven by large-scale data center projects.",
+      "neutral": "Quality compounder executing well, but with consensus targets clustering near spot the easy rerating has happened; returns from here likely track backlog conversion and earnings delivery rather than further multiple expansion.",
+      "bear": "JCI is a diversified buildings company, not a pure bottleneck play - the AI multiple is being applied to a largely conventional business, so any hyperscaler capex digestion headline can compress the rerated multiple disproportionately.",
+      "primaryCatalyst": "Q3 FY2026 earnings (late July/early August) showing continued data center order momentum, backlog conversion, and first Alloy liquid-cooling integration traction.",
+      "primaryRisk": "AI capex digestion or a hyperscaler cooling-spend pause hitting a crowded 'picks-and-shovels cooling' trade on a stock already priced near consensus targets after a ~19% YTD run."
+    }
+  ]
+}

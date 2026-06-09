@@ -1,0 +1,26 @@
+{
+  "symbol": "EKI.PA",
+  "company": "Ekinops",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Ekinops newsroom (latest PR May 18, 2026 - nothing since June 6)", "url": "https://www.ekinops.com/news"},
+    {"label": "Ekinops Q1 2026 revenue 27.6m EUR, +8% sequential (Apr 21, 2026)", "url": "https://www.ekinops.com/news/corporate/q1-2026-revenue-of-27-6-m-another-consecutive-quarter-of-sequential-growth-8"},
+    {"label": "Yahoo Finance quote EKI.PA", "url": "https://finance.yahoo.com/quote/EKI.PA/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down-move already reconciled the displayed rank with the adjusted score (now rank 34), and there is zero new company news since June 6; today's -3.66% drift on a EUR 100M micro-cap does not change the scaling-page setup, so hold.",
+      "bull": "Q1 2026 showed a second straight quarter of sequential growth (+8% to 27.6m EUR), and the March tier-1 European operator WDM MoU plus upcoming DCI/SASE deliveries give an under-owned EUR 100M optical name real bottleneck-adjacent optionality.",
+      "neutral": "Thesis intact but stale: no press release since May 18, next earnings July 28, and the stock is digesting a +58% YTD run; today's -3.66% modestly trims the crowding penalty without adding evidence either way.",
+      "bear": "A +58% YTD rerating on a micro-cap with only single-digit FY26 revenue growth guidance leaves little residual alpha if the tier-1 MoU fails to convert into firm orders, and liquidity is thin enough that flow alone can unwind the move.",
+      "primaryCatalyst": "Conversion of the tier-1 European operator WDM MoU into a firm contract, and first DCI/SASE deliveries flagged for end-2026 (next checkpoint: H1 results July 28, 2026).",
+      "primaryRisk": "Post-rerating micro-cap crowding: +58% YTD against single-digit growth guidance means any MoU slippage or soft H1 print triggers an outsized unwind."
+    }
+  ]
+}

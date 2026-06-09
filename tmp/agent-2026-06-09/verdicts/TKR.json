@@ -1,0 +1,39 @@
+{
+  "symbol": "TKR",
+  "company": "Timken",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Timken Investor Day press release (May 20, 2026) - 2028 targets, ~$8.50 adj EPS, 'Elevate to Outperform'",
+      "url": "https://news.timken.com/2026-05-20-Timken-Details-Strategy-and-Announces-2028-Financial-Targets-at-Investor-Day"
+    },
+    {
+      "label": "Simply Wall St - Timken valuation check after strong share price momentum (June 2026)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-tkr/timken/news/timken-tkr-valuation-check-after-strong-share-price-momentum"
+    },
+    {
+      "label": "GuruFocus - JPMorgan upgrade to Overweight, PT $100 to $150 (May 26, 2026)",
+      "url": "https://www.gurufocus.com/news/8883015/timken-tkr-stock-soars-after-jpmorgan-upgrades-rating-and-price-target"
+    },
+    {
+      "label": "StockTitan - Timken Investor Day 2028 targets summary",
+      "url": "https://www.stocktitan.net/news/TKR/timken-details-strategy-and-announces-2028-financial-targets-at-0vxdypqg0yqb.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6; the rerating drivers (May Q1 blowout, May 20 Investor Day 2028 targets, JPMorgan May 26 upgrade, Oppenheimer June 5 PT raise to $147) are all pre-cutoff and were the basis of yesterday's down move to rank 26. Today's +0.44% drift does not change the setup, so hold with mild negative drift for continued sell-side crowding on a +57% YTD name with no fresh fundamental evidence.",
+      "bull": "Industrial Motion EBITDA margins are inflecting (Q1 +36% on +12% sales) and the 2028 plan implies >55% EPS growth to ~$8.50, so the robotics/automation bearings pathway now has management-quantified earnings backing.",
+      "neutral": "The latent-AI thesis is real but already discovered: JPMorgan explicitly upgraded on AI-driven automation demand, meaning the 'hidden node' premise of this strict screen is largely consumed at +57% YTD and ~$9.4B cap.",
+      "bear": "A 25% one-month melt-up plus a wave of PT raises leaves the stock priced for flawless execution of 2028 targets; any industrial capex wobble or margin slip unwinds a momentum-heavy shareholder base with little residual alpha cushion.",
+      "primaryCatalyst": "Q2 2026 earnings (late July) showing Industrial Motion margin progression toward the 25-27% 2028 target, or a named robotics/automation design win.",
+      "primaryRisk": "Post-rerating crowding: consensus has chased the AI-automation narrative, so the stock de-rates hard on any guidance softness despite an intact long-term thesis."
+    }
+  ]
+}

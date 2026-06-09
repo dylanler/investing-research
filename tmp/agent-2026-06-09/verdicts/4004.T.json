@@ -1,0 +1,35 @@
+{
+  "symbol": "4004.T",
+  "company": "Resonac Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "BigGo Finance - Resonac lifts H1 net profit forecast 93% to ¥38B on AI semiconductor materials (May 13, 2026 - confirms catalyst predates Jun 6)",
+      "url": "https://finance.biggo.com/news/9muIIZ4BrX5PFN7BjLZq"
+    },
+    {
+      "label": "BigGo Finance - Q1 FY2026 earnings call: core OP ¥33.6B (2.3x YoY), H1 guidance raised 40%",
+      "url": "https://finance.biggo.com/news/JP_4004.T_2026-05-13"
+    },
+    {
+      "label": "Resonac IR / news releases (no material releases since Jun 6; Jun 2 SX Brand selection immaterial)",
+      "url": "https://www.resonac.com/ir"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved Resonac down for the post-rerating chase; no new information since June 6, so hold at rank 16. Today's +3.7% bounce came on zero fresh news, a mild flow-driven drift against residual alpha, but the ~19% pullback from the May 14 intraday peak (Y20,495 to Y16,560) partially restores asymmetry and offsets a further demotion.",
+      "bull": "Dominant global share in back-end packaging materials (insulation, die-attach, molding compounds) feeding CoWoS/HBM build-outs; May 13 guidance raise (H1 net profit +93% to Y38B, core OP 2.1x to Y74B) shows AI demand running ahead of plan, and conservative full-year guidance (Y140B core OP held) leaves room for another beat at H1 results.",
+      "neutral": "The AI back-end materials story is now fully recognized after consecutive record highs in May; at +145% YTD and ~$19B market cap this is no longer a hidden bottleneck name, though the 11-19% pullback off the highs keeps the setup from being maximally crowded.",
+      "bear": "Legacy petrochemicals/graphite-electrode cyclicality still dilutes the AI mix, and a 145% YTD rerating prices in flawless execution; any HBM/CoWoS order digestion or a second-half guidance disappointment (management itself flagged global uncertainty) triggers an outsized de-rating.",
+      "primaryCatalyst": "H1 FY2026 results (Jan-Jun period) and a likely full-year guidance raise off the conservatively held Y140B core operating profit forecast.",
+      "primaryRisk": "Crowding and rerating exhaustion: a widely-owned +145% YTD name where any pause in AI back-end materials volume growth or weak legacy-chemicals pricing compresses the multiple quickly."
+    }
+  ]
+}

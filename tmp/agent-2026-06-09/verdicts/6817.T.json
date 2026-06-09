@@ -1,0 +1,27 @@
+{
+  "symbol": "6817.T",
+  "company": "Sumida",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Company is exhibiting at PCIM Expo 2026 (Nuremberg, June 9-11) and recently approved a share-remuneration-type stock option plan tied to its new 2026-2028 mid-term plan - governance/marketing items, not thesis-changing. Strong Q1 2026 (revenue +8.6% YoY, OP +22.2%, AI datacenter and xEV demand; EU segment profit +89.5%) was already public before June 6. Stock hit a YTD high of JPY 1,599 on June 4; today's -2.2% to JPY 1,515 is a mild flow-driven pullback from that high, not fundamental.",
+  "sources": [
+    {"label": "Sumida Corporation news page (PCIM Expo 2026 participation)", "url": "https://www.sumida.com/news/"},
+    {"label": "TipRanks - Sumida launches 2026 stock option plan backing new mid-term growth strategy", "url": "https://www.tipranks.com/news/company-announcements/sumida-launches-2026-stock-option-plan-to-back-new-mid-term-growth-strategy"},
+    {"label": "Kabutan 6817 stock page (Q1 2026 results context, YTD high June 4)", "url": "https://kabutan.jp/stock/?code=6817"},
+    {"label": "Yahoo Finance Japan 6817.T quote", "url": "https://finance.yahoo.co.jp/quote/6817.T"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Already rank 1, so no upside move available; thesis-intact -2.2% pullback from the June 4 YTD high marginally improves entry asymmetry on this residual-alpha list, with no new evidence to justify a larger score change. Yesterday's hold stands - nothing genuinely new since June 6.",
+      "bull": "Direct magnetics/inductor bottleneck for AI server power conversion with Q1 confirming AI datacenter demand pull (OP +22.2%), still micro-cap (~$0.33B) and under-owned, and today's dip resets entry after the run to JPY 1,599.",
+      "neutral": "Thesis intact but already validated and scored at 100; +31% YTD means part of the hidden-gem discount has been harvested, and the stock option plan and expo presence add no incremental fundamental signal.",
+      "bear": "Micro-cap liquidity cuts both ways on any AI-capex sentiment wobble; xEV exposure dilutes AI purity, and a 31% YTD re-rating without a new contract or capacity announcement leaves it vulnerable if Q2 momentum slows.",
+      "primaryCatalyst": "Q2 2026 results / new mid-term plan (2026-2028) targets quantifying AI datacenter power-magnetics order growth; potential design-win disclosures around PCIM Expo.",
+      "primaryRisk": "AI server power-supply order digestion or broader Japan small-cap risk-off compressing the multiple after the YTD re-rating, with thin liquidity amplifying the drawdown."
+    }
+  ]
+}

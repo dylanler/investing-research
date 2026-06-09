@@ -1,0 +1,65 @@
+{
+  "symbol": "TER",
+  "company": "Teradyne",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: Teradyne and Tokyo Electron announced an integrated test cell solution (UltraFLEXplus + TEL Prexa SDP) for known-good-die screening of AI/data-center chiplet packages, showcased at SWTest (Jun 8-10); stock popped ~5% on the news to $374.69. June 9: -4.22% to $358.89 with no new fundamental news - a give-back of the announcement pop amid a choppy tape following the June 5 Broadcom-led AI/semis selloff (TER -9.4% that day). Net price vs the June 5 close is roughly flat; the move looks flow-driven, not fundamental.",
+  "sources": [
+    {
+      "label": "Business Wire - Teradyne Introduces Integrated Test Solution for AI and Data Center Devices in Collaboration with Tokyo Electron (Jun 8, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260608994172/en/Teradyne-Introduces-Integrated-Test-Solution-for-AI-and-Data-Center-Devices-in-Collaboration-with-Tokyo-Electron"
+    },
+    {
+      "label": "Investing.com - Why is Teradyne stock surging today (Jun 8 TEL announcement, +5.2%)",
+      "url": "https://ng.investing.com/news/stock-market-news/why-is-teradyne-stock-surging-today-93CH-2548139"
+    },
+    {
+      "label": "Simply Wall St - Why Teradyne (TER) Is Up 6.3% After AI-Driven Surge Lifts Q1 Revenue And Demand",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-ter/teradyne/news/why-teradyne-ter-is-up-63-after-ai-driven-surge-lifts-q1-rev"
+    },
+    {
+      "label": "TIKR - Teradyne Falls 19% After Record Q1 2026 Earnings (H2 guidance context)",
+      "url": "https://www.tikr.com/blog/teradyne-falls-19-after-record-q1-2026-earnings-was-that-a-buying-opportunity"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "The TEL Prexa/UltraFLEXplus KGD test-cell collaboration is genuine new evidence for the HBM/chiplet test-intensity node thesis, but it is a product announcement, not a contract or capacity win, and today's -4.2% merely unwinds yesterday's pop - net setup vs June 5 is unchanged at rank 62.",
+      "bull": "KGD screening at multiple points in the advanced-packaging flow makes TER's test insertion structurally deeper as chiplet/2.5D-3D adoption grows; ~70% of Q1 business was AI-driven with revenue +87% YoY.",
+      "neutral": "Real node relevance, but at $58.7B cap and +73% YTD the market already prices much of the test-intensity story; the TEL collab is incremental productization rather than a demand inflection.",
+      "bear": "Management guided H2 below H1 after outsize Q1 orders with gross-margin compression; test is cyclical and a digestion phase would hit orders regardless of node centrality.",
+      "primaryCatalyst": "KGD/advanced-packaging test order wins or OSAT/foundry adoption of the TEL-integrated cell converting into backlog.",
+      "primaryRisk": "H2 revenue digestion after pulled-forward Q1 orders, plus export-control exposure on China test demand."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On this crowding-sensitive CPO alpha list TER's link is already tagged indirect, and the new TEL announcement is about chiplet KGD screening, not co-packaged optics - it does not strengthen the CPO angle, while +73% YTD and a $58.7B cap leave thin residual alpha at rank 79.",
+      "bull": "If silicon photonics and CPO modules adopt the same KGD/known-good-device screening discipline, TER's integrated test cells extend naturally into optical engine test.",
+      "neutral": "Today's -4.2% giveback marginally improves entry but only reverses yesterday's pop; nothing since June 6 changes the indirect nature of the CPO exposure.",
+      "bear": "TER is a discovered, widely-owned AI test name up ~312% over a year; on a hidden-alpha CPO list it offers crowded, second-derivative exposure with test-cycle and customer-concentration risk.",
+      "primaryCatalyst": "Explicit CPO/silicon-photonics test design win or named optical-engine customer on UltraFLEXplus.",
+      "primaryRisk": "Crowding unwind in AI test names continuing the June 5 Broadcom-triggered de-rating."
+    },
+    {
+      "page": "companies",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved TER down for the YTD rerating; since then the TEL KGD collaboration adds modest positive evidence and today's -4.2% pullback restores a little asymmetry, which together justify holding rank 77 rather than moving again.",
+      "bull": "Design-validation and KGD test intensity rises with every chiplet generation, and the TEL partnership makes TER's test cell a default insertion in advanced packaging flows.",
+      "neutral": "Net price vs June 5 close is roughly flat after the pop-and-fade; the alpha picture - real exposure, heavily rerated - is the same as the June 8 audit.",
+      "bear": "A $58.7B company up 73% YTD with management already flagging softer H2 leaves little hidden value; robotics segment execution remains a drag on the multiple.",
+      "primaryCatalyst": "Q2 earnings/guidance (late July) confirming AI test orders held up despite the H2-digestion guide.",
+      "primaryRisk": "Post-rerating de-rating if H2 order softness proves worse than the conservative guide."
+    }
+  ]
+}

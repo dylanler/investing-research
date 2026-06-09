@@ -1,0 +1,27 @@
+{
+  "symbol": "BE",
+  "company": "Bloom Energy",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news June 6-9. Latest catalysts predate the window: June 2 CEO comments signaling growth is self-funding with no equity issuance needed (stock jumped ~10% intraday that day), late-April Q1 2026 results (revenue $751.1M, +130% YoY; FY26 revenue growth guide raised to ~80%), and the Oracle up-to-2.8 GW expansion plus Brookfield up-to-$5B AI infrastructure partnership from earlier in the year. June 8 saw a 3.8% pullback on profit-taking (about -7% over the week); today is +0.9% drift.",
+  "sources": [
+    {"label": "Stocktwits - BE up ~3x this year; CEO suggests AI boom is self-funding (June 2 move)", "url": "https://stocktwits.com/news-articles/markets/equity/be-stock-is-up-nearly-3x-this-year-ai-boom-is-funding-itself-ceo--suggests/cZ0iqXqRevU"},
+    {"label": "GuruFocus - BE shares fall 3.8% June 8, GF Value says still overvalued", "url": "https://www.gurufocus.com/news/8906152/bloom-energy-corp-be-shares-fall-38-gf-value-says-still-overvalued"},
+    {"label": "Bloom Energy IR - Oracle partnership expansion to up to 2.8 GW", "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx"},
+    {"label": "DCD - Bloom Energy signs $5B partnership with Brookfield for AI data centers", "url": "https://www.datacenterdynamics.com/en/news/bloom-energy-signs-5bn-partnership-with-brookfield-to-deploy-fuel-cell-tech-across-ai-data-centers/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Yesterday's verdict already moved BE down for the 159% YTD rerating and $72B-cap crowding; nothing genuinely new since June 6, and the modest ~7% one-week pullback roughly offsets further crowding decay, so hold at the demoted rank.",
+      "bull": "Onsite fuel cells remain a true workaround for the grid-interconnect bottleneck, with Oracle (up to 2.8 GW) and Brookfield (up to $5B) anchoring multi-year demand and management signaling growth is self-funding without dilution.",
+      "neutral": "The thesis is intact and execution is strong (Q1 revenue +130%, FY guide raised to ~80% growth), but at ~$72B and +159% YTD the name is a recognized AI-power proxy, not a hidden bottleneck play; residual alpha is mostly gone and the recent dip is ordinary profit-taking.",
+      "bear": "Stock is up ~14x in 12 months and priced for flawless multi-GW execution; any data-center capex digestion, Oracle concentration wobble, or margin miss on rapid capacity scaling could trigger a violent de-rating from these levels.",
+      "primaryCatalyst": "New multi-GW hyperscaler or utility deal beyond Oracle/Brookfield, or Q2 results confirming the ~80% growth guide with no equity raise.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any guidance or deal-pipeline disappointment, given valuation far ahead of current fundamentals."
+    }
+  ]
+}

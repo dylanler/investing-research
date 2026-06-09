@@ -1,0 +1,26 @@
+{
+  "symbol": "CXT",
+  "company": "Crane NXT",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Trefis - Time To Buy The Dip In Crane NXT Stock? (Jun 2, 2026)", "url": "https://www.trefis.com/stock/cxt/articles/601009/time-to-buy-the-dip-in-crane-nxt-stock/2026-06-02"},
+    {"label": "StockTitan - Crane NXT Q1 2026 results, Antares Vision close, guidance raise (May 6, 2026)", "url": "https://www.stocktitan.net/news/CXT/crane-nxt-reports-first-quarter-2026-i0rg2npz6eue.html"},
+    {"label": "Crane NXT Investor Relations - Press Releases (no new releases Jun 6-9)", "url": "https://investors.cranenxt.com/press-releases/default.aspx"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new releases or analyst moves since June 6; the ~20% one-month derating (despite a May 6 sales-guidance raise to +15-17% and maintained $4.10-4.40 EPS) was already reflected in yesterday's hold, and today's +1.6% bounce is flow, not evidence. Slight positive drift only: the sell-off with an intact authentication/sensing thesis marginally improves asymmetry on this strict latent-nodes screen.",
+      "bull": "At ~$37 vs $45 a month ago and ~9x maintained adjusted EPS guidance, an under-owned authentication/serialization franchise (now including Antares Vision machine-vision inspection and traceability) offers cheap optionality on trusted-hardware and anti-counterfeit supply-chain demand.",
+      "neutral": "The AI-chain linkage remains indirect and unproven; CXT is a currency/product-authentication company whose latent AI-node pathway depends on adoption of its sensing and secure-transaction tech in trusted-hardware contexts that have not yet materialized.",
+      "bear": "The May/June slide reflects genuine earnings-trajectory and integration concerns (GAAP EPS $0.11 in Q1, Antares dilution and leverage); if banknote/payment end markets keep eroding, the cheapness is a value trap with no AI catalyst to rescue it.",
+      "primaryCatalyst": "Q2 2026 earnings showing Antares Vision integration accretion or a named authentication/traceability design win in electronics or AI-hardware supply chains.",
+      "primaryRisk": "Continued organic weakness in currency/payment end markets making the derating fundamental rather than a sentiment dislocation."
+    }
+  ]
+}

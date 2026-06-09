@@ -1,0 +1,27 @@
+{
+  "symbol": "BLN.TO",
+  "company": "Blackline Safety",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Take-private endgame: Francisco Partners is acquiring Blackline for C$9.00 cash per share plus a CVR worth up to C$0.50 contingent on an ARR target in fiscal 2027 (~C$850M fully diluted). Proxy voting deadline is June 11, 2026 and the special shareholder vote is June 15. ISS and Glass Lewis both recommended voting FOR (June 4 release), though Globe and Mail reports some shareholder opposition to the price. Stock at C$9.02 is pinned to the cash consideration; shares will be delisted from the TSX on closing. No new operational/AI-chain news; fiscal Q2 results are subsumed by the deal.",
+  "sources": [
+    {"label": "Blackline PR - ISS and Glass Lewis recommend FOR the Francisco Partners arrangement (Jun 4, 2026)", "url": "https://www.businesswire.com/news/home/20260604758725/en/Two-Leading-Independent-Proxy-Advisory-Firms-Recommend-Shareholders-Vote-FOR-the-Arrangement-with-Francisco-Partners"},
+    {"label": "Globe and Mail - Blackline Safety's $850-million privatization deal faces shareholder opposition", "url": "https://www.theglobeandmail.com/business/article-blackline-safetys-850-million-privatization-deal-faces-shareholder/"},
+    {"label": "Investing.com - Francisco Partners to acquire Blackline Safety for up to $9.50/share", "url": "https://www.investing.com/news/company-news/francisco-partners-to-acquire-blackline-safety-for-up-to-950share-93CH-4602745"},
+    {"label": "Fire & Safety Journal Americas - Blackline transitions to private ownership / vote details", "url": "https://fireandsafetyjournalamericas.com/blackline-safety-acquisition-deal/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 73,
+      "rankMove": "down",
+      "scoreDelta": -6,
+      "confidence": 0.85,
+      "rankRationale": "On a latent-alpha list this thesis is terminally capped: the stock trades at C$9.02 versus C$9.00 cash consideration with the vote on June 15 and proxy advisors recommending FOR, so the only remaining upside is the C$0.50 CVR stub and the name delists on close. Yesterday's hold did not reflect the take-private, so the imminent vote is decision-relevant new information warranting a decisive move down.",
+      "bull": "Deal breaks or a bump emerges from the reported shareholder opposition, briefly reopening the connected-safety optionality; CVR pays the full C$0.50 if the fiscal-2027 ARR target is hit, ~5% incremental.",
+      "neutral": "Deal closes as expected after the June 15 vote at C$9.00 cash plus CVR; stock is pinned, behaves as short-dated merger arb with negligible volatility, then leaves the investable universe.",
+      "bear": "Vote passes and the name delists with zero residual latent-AI alpha captured; holders who chase here lock in arb-level returns at best, and a deal break without a higher bid would mean a sharp drop back toward pre-deal levels.",
+      "primaryCatalyst": "June 15, 2026 special shareholder vote (proxy deadline June 11) and subsequent deal closing/TSX delisting.",
+      "primaryRisk": "Deal completes and the position becomes uninvestable for the list; conversely, an unlikely vote failure would gap the stock down before any standalone thesis could re-rate."
+    }
+  ]
+}

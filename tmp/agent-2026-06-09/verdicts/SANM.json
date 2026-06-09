@@ -1,0 +1,35 @@
+{
+  "symbol": "SANM",
+  "company": "Sanmina",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. Today's -5.26% drop is macro/flow-driven: the May jobs report pushed the 30-year Treasury yield above 5%, pressuring AI infrastructure and grid-exposed manufacturers on fears of deferred capex and a Fed that hikes rather than cuts. Standing fundamentals unchanged: Q2 FY26 beat ($4.01B revenue, $3.16 non-GAAP EPS), raised FY26 revenue guide to $13.7-14.3B, $600M buyback, ZT Systems integration adding ~$5-6B annual revenue, BofA PT raised to $280.",
+  "sources": [
+    {
+      "label": "StockStory: Sanmina and Methode Electronics Shares Plummet (June 9 rate-driven sell-off)",
+      "url": "https://stockstory.org/us/stocks/nasdaq/sanm/news/why-up-down/sanmina-and-methode-electronics-shares-plummet-what-you-need-to-know"
+    },
+    {
+      "label": "Yahoo Finance: Why Sanmina Stock Just Got Sacked",
+      "url": "https://finance.yahoo.com/news/why-sanmina-stock-just-got-172545187.html"
+    },
+    {
+      "label": "StockTitan 8-K: Sanmina lifts 2026 outlook and adds $600M buyback",
+      "url": "https://www.stocktitan.net/sec-filings/SANM/8-k-sanmina-corp-reports-material-event-0413475843f4.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 30,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "A -5.26% one-day sell-off driven purely by the 30-year yield breaching 5% — not by any crack in the AI/cloud integration thesis — trims the rerating premium this alpha page penalizes and modestly improves entry asymmetry versus yesterday's hold at a higher price.",
+      "bull": "Raised FY26 guide ($13.7-14.3B), $600M buyback, and ZT Systems adding $5-6B of hyperscaler AI rack revenue keep Sanmina a direct cluster-scale integration bottleneck; rate-driven dips into an intact thesis are buyable de-crowding events.",
+      "neutral": "Still up ~50% YTD and +173% over a year on a low-margin EMS model; one macro down-day does not undo the rerating, so it stays in the crowded/rerated bucket rather than returning to top residual-alpha territory.",
+      "bear": "If the 30-year holds above 5% and the Fed tilts hawkish, data center and grid customers stretch order cycles, and a 3.9% GAAP operating-margin assembler with a rich multiple has little cushion against AI capex digestion.",
+      "primaryCatalyst": "Q3 FY26 results in late July with ZT Systems revenue ramp evidence and any further hyperscaler rack-integration wins.",
+      "primaryRisk": "Sustained long-end rates above 5% deferring data center infrastructure capex and compressing EMS multiples back toward historical norms."
+    }
+  ]
+}

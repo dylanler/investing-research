@@ -1,0 +1,39 @@
+{
+  "symbol": "2382.TW",
+  "company": "Quanta Computer",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 monthly revenue (released ~Jun 9 Taiwan time): NT$311.5B, +94.4% YoY but -8.4% MoM, first sequential dip after the record Q1 ramp; Jan-May cumulative NT$1.46T, +82.6% YoY. Consistent with guidance (AI server revenue +132% YoY to ~NT$2.5T in 2026, Q2 AI server sales up double digits QoQ). Separately, a June S&P Global Market Intelligence research note flagged a 'sharp revenue inflection' (total revenue +74% to NT$3.7T in 2026), reinforcing that the AI-server ODM story is now fully consensus. No new contracts, M&A, or guidance changes since Jun 6. Day move -0.4% - quiet tape.",
+  "sources": [
+    {"label": "Statement Dog - Quanta (2382) monthly revenue incl. May 2026 (NT$311.5B, +94.4% YoY, -8.4% MoM)", "url": "https://statementdog.com/analysis/2382/monthly-revenue"},
+    {"label": "S&P Global Market Intelligence (June 2026) - AI server boom to drive sharp revenue inflection for Quanta", "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/ai-server-boom-hyperscaler-demand-to-drive-sharp-revenue-inflection-for-quanta"},
+    {"label": "Investing.com - Quanta sees AI server sales growing triple digits in 2026", "url": "https://www.investing.com/news/stock-market-news/quanta-sees-ai-server-sales-to-grow-triple-digits-in-2026-93CH-4714258"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at 16: May revenue (+94% YoY) confirms execution but adds nothing on mispricing, while a fresh June S&P Global inflection note and broker target hikes show the ODM story is fully consensus - residual alpha drifts slightly lower on this crowding-sensitive page.",
+      "bull": "AI server revenue tracking toward +132% YoY with capacity doubling in Thailand/US by end-2026; any GB-rack allocation upside or general-server upcycle extends the beat-raise cadence.",
+      "neutral": "Numbers are excellent but exactly what guidance promised; at +35% YTD and ~$48B cap the market already pays for triple-digit AI server growth, leaving rank 16 about right.",
+      "bear": "First MoM revenue decline (-8.4%) since the Q1 ramp plus 4.8% gross margin shows the AI mix is dilutive; a hyperscaler capex digestion pause hits a now-crowded long hard.",
+      "primaryCatalyst": "Q2 results confirming double-digit QoQ AI server growth and stabilizing gross margin as Thailand/US capacity ramps.",
+      "primaryRisk": "Margin compression from AI mix and ODM pricing pressure, or a hyperscaler order digestion phase, unwinding the consensus rerating."
+    },
+    {
+      "page": "companies",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 58: on the deployment/systems-integration lens, May revenue +94% YoY and Jan-May +82.6% YoY are direct confirmation that rack-integration capacity is converting to shipments - incremental positive drift, not a rank-changing event.",
+      "bull": "Server mix now ~84% of revenue with AI ~80% of that; doubling AI rack capacity by end-2026 makes Quanta one of the few at-scale physical deployment chokepoints for hyperscaler buildouts.",
+      "neutral": "Execution is on plan and already audited into the current rank; the -8.4% MoM dip is monthly noise within guided double-digit QoQ Q2 growth.",
+      "bear": "Razor-thin margins mean deployment scale does not translate to earnings power; competitor ODMs (Foxconn, Wiwynn) adding capacity could erode allocation share and pricing.",
+      "primaryCatalyst": "June/Q2 revenue prints validating the guided sequential AI-server acceleration into 2H26.",
+      "primaryRisk": "AI server ASP/margin pressure and customer concentration in a handful of hyperscalers."
+    }
+  ]
+}

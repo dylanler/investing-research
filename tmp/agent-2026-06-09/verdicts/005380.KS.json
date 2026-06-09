@@ -1,0 +1,39 @@
+{
+  "symbol": "005380.KS",
+  "company": "Hyundai Motor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Boston Dynamics - New Atlas unveil (CES 2026, prior news)",
+      "url": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/"
+    },
+    {
+      "label": "Korea Herald - Hyundai to deploy 25,000 Atlas robots (prior news)",
+      "url": "https://www.koreaherald.com/article/10741955"
+    },
+    {
+      "label": "TechTimes - KMWU union blocks Atlas deployment without labor deal (May 22, prior news)",
+      "url": "https://www.techtimes.com/articles/317005/20260522/hyundai-commits-25000-atlas-robots-own-factories-union-blocks-deployment-without-labor-deal.htm"
+    },
+    {
+      "label": "Yahoo Finance quote 005380.KS",
+      "url": "https://finance.yahoo.com/quote/005380.KS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No new fundamental evidence since June 6 and the stock was flat today; yesterday's verdict already marked it down for the +114% YTD rerating and large-cap crowding, so a second consecutive demotion is unwarranted. Mild negative drift as the known KMWU summer-2026 labor showdown over Atlas factory entry sits unresolved.",
+      "bull": "Hyundai owns the most credible humanoid commercialization path: 25,000 committed Atlas units, targeted 30k/yr production by 2028, Mobis actuator supply, and a Google DeepMind foundation-model partnership.",
+      "neutral": "It is a $100B auto OEM where Atlas is a small slice of value; after a 114% YTD rerating the humanoid story is well known and largely priced, leaving little hidden alpha on this page.",
+      "bear": "The Korean Metal Workers' Union has publicly vowed to block Atlas from factories without a labor agreement, and the robotics/autonomy affiliates carry W2.2T of accumulated equity-method losses — deployment slippage would deflate the rerating.",
+      "primaryCatalyst": "Summer 2026 Hyundai-KMWU labor negotiation outcome clearing (or blocking) the Atlas factory deployment timeline; first RMAC fleet shipments.",
+      "primaryRisk": "Union-driven deployment delay or auto-cycle earnings weakness unwinding a crowded, post-rerating position."
+    }
+  ]
+}

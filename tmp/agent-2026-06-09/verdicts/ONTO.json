@@ -1,0 +1,69 @@
+{
+  "symbol": "ONTO",
+  "company": "Onto Innovation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: shares jumped 6.2% to $268.99 on momentum around on-schedule June shipments of the Dragonfly G5 (2.5D AI-packaging inspection, qualified in April) and continued enthusiasm for the May Rigaku 27%-stake/$1.3B 0% convertible deal, amplified by a sell-side target sweep (Cantor $300, B. Riley $325, median ~$310; Stifel hold $220). No new fundamental contract, earnings or capacity news since June 6 - the move is sentiment/flow on already-disclosed catalysts. Today (June 9) flat at +0.34%. GuruFocus flags GF Value $186.71 vs $269 price.",
+  "sources": [
+    {
+      "label": "Yahoo Finance - Why Onto Innovation (ONTO) Is Up 6.2% After Dragonfly G5 Momentum And Rigaku Partnership News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-onto-innovation-onto-6-151331956.html"
+    },
+    {
+      "label": "TipRanks - Onto Innovation Stock Jumps on Bold Analyst Calls",
+      "url": "https://www.tipranks.com/news/catalyst/onto-innovation-stock-jumps-on-bold-analyst-calls"
+    },
+    {
+      "label": "StockTitan - Onto Innovation prices upsized $1.3B 0% convertible notes due 2031 (Rigaku stake funding)",
+      "url": "https://www.stocktitan.net/news/ONTO/onto-innovation-announces-pricing-of-upsized-private-offering-of-1-3-bad6snhgsbid.html"
+    },
+    {
+      "label": "GuruFocus - ONTO after 6.2% gain: GF Value $186.71 vs price $268.99",
+      "url": "https://www.gurufocus.com/news/8906264/a-look-at-onto-innovation-inc-onto-after-62-gain-gf-value-18671-vs-price-26899"
+    },
+    {
+      "label": "Quiver Quantitative - Onto Innovation jumps 9% on Dragonfly G5 AI-packaging milestone and raised guidance (April context)",
+      "url": "https://www.quiverquant.com/news/Onto+Innovation+jumps+9%25+as+Dragonfly+G5+AI-packaging+milestone+and+raised+guidance+spark+optimism"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "The page already cut ONTO from rank 10 to 13 after the June 8 sentiment pop, which encodes the rerating penalty; today's flat tape and on-schedule June G5 shipments (announced in April) add no new order-timing evidence to move it again.",
+      "bull": "Dragonfly G5 shipping into 2.5D AI packaging this month with management guiding >50% Dragonfly demand growth in 2026 and >$1.3B revenue, directly levered to HBM/advanced-packaging capacity adds.",
+      "neutral": "Execution is on schedule but every catalyst (G5 qualification, Rigaku stake, guidance hike) is already public and priced; 62.7% YTD and $13.3B cap leave the setup fairly valued against a ~$310 median target.",
+      "bear": "GF Value pegs intrinsic worth near $187 vs $270; a WFE order push-out or HBM digestion quarter would hit a stock that just rerated on sentiment, and the $1.3B convert adds dilution overhang.",
+      "primaryCatalyst": "Confirmed Dragonfly G5 shipment/revenue recognition and Q2 print validating the raised >$1.3B 2026 outlook",
+      "primaryRisk": "AI packaging/HBM capex order push-outs or export-control tightening hitting WFE order timing"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 15,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive alpha list, the June 8 +6.2% sentiment chase plus a broad analyst target sweep (Cantor $300, B. Riley $325) shows the advanced-packaging process-control story is no longer hidden or under-owned - residual alpha shrank with price now within ~15% of the median target on no new evidence.",
+      "bull": "Process control for 2.5D/CPO-class packaging remains a genuine choke point and G5 tool demand guided up >50% in 2026; the Rigaku stake adds X-ray metrology adjacency to deepen the moat.",
+      "neutral": "Thesis intact but fully discovered: the 'high expectations' risk flagged on this page is now the dominant feature, with the name trading on analyst-call momentum rather than incremental wins.",
+      "bear": "Crowded post-rerating chase at 62.7% YTD: any G5 ramp hiccup, packaging capex pause, or Rigaku integration stumble triggers a sharp de-rating, and the convert caps upside asymmetry.",
+      "primaryCatalyst": "New design-win or panel-level/CPO inspection order announcements beyond the already-flagged June shipments",
+      "primaryRisk": "Crowding unwind - sentiment-driven holders exit on the first soft datapoint in advanced-packaging capex"
+    },
+    {
+      "page": "companies",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the broad pick-and-shovel list the upstream metrology/inspection thesis is intact and June G5 shipments confirm execution, but nothing fundamentally new since June 6 justifies moving rank 32 either way after yesterday's hold.",
+      "bull": "On-schedule G5 shipments, raised >$1.3B 2026 revenue outlook and >30% op-margin target show the metrology/inspection franchise executing into the AI packaging cycle.",
+      "neutral": "Strong YTD follow-through (62.7%) already reflects the execution; at rank 32 the listing fairly balances bottleneck exposure against recognition.",
+      "bear": "Valuation stretched versus intrinsic estimates and the $1.3B convertible introduces dilution; a capex digestion phase would compress the premium quickly.",
+      "primaryCatalyst": "Q2 2026 earnings confirming Dragonfly revenue ramp and early Rigaku partnership traction",
+      "primaryRisk": "Metrology/inspection pricing or execution slip during the G5 ramp while expectations are elevated"
+    }
+  ]
+}

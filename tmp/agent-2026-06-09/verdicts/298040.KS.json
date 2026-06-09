@@ -1,0 +1,39 @@
+{
+  "symbol": "298040.KS",
+  "company": "Hyosung Heavy Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. Today's +8.48% move appears flow-driven: a broad K-energy/power-equipment rally on AI data center power demand plus successive sell-side target-price hikes toward ~4M won. The fundamental drivers (Q1 2026 new orders +107% to ~$2.8B, order backlog >15.1tn won, Feb-2026 record $530M US 765kV transformer contract, Memphis capacity expansion) all predate June 6 and are well known. Stock is now Korea's most expensive share and +88% YTD, signaling crowding rather than fresh evidence.",
+  "sources": [
+    {
+      "label": "BigGo Finance - successive target price revisions to ~4M won on AI/grid demand",
+      "url": "https://finance.biggo.com/news/V61Te50BQ45Y7dX6QKeH"
+    },
+    {
+      "label": "Seoul Economic Daily - Hyosung Heavy stock soars on AI power demand, most expensive KOSPI stock",
+      "url": "https://en.sedaily.com/news/2026/05/07/hyosung-heavy-stock-soars-53700-percent-in-six-years-on-ai"
+    },
+    {
+      "label": "Seoul Economic Daily - Korean power equipment makers clinch record orders on US grid/AI boom (15.1tn won backlog)",
+      "url": "https://en.sedaily.com/news/2026/05/01/korean-power-equipment-makers-clinch-record-orders-on-us"
+    },
+    {
+      "label": "Transformer Magazine - Hyosung lands $155M US grid contracts (pre-June, context)",
+      "url": "https://transformers-magazine.com/tm-news/hyosung-lands-155-m-grid-contracts/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 52,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha list, an 8.5% flow-driven single-day pop on top of +88% YTD with zero new fundamental evidence since June 6 erodes residual alpha; the name is now Korea's most expensive stock with consensus target hikes chasing it, the opposite of hidden/under-owned.",
+      "bull": "Backlog above 15.1tn won locks in 2-3 years of revenue, Q1 orders doubled YoY, and Memphis/Ulsan capacity ramps through end-2026 keep the US grid/AIDC bottleneck thesis fundamentally intact.",
+      "neutral": "The transformer bottleneck is real but fully recognized: 2026 guidance (~12% revenue growth) and the record backlog are in every sell-side model, so the stock now trades on sector flows rather than information edge.",
+      "bear": "A 53,700% six-year run, retail/passive crowding in the K-energy theme, and a flow-driven melt-up leave the stock exposed to a sharp de-rating on any order-momentum pause, US tariff friction, or transformer capacity catch-up by peers.",
+      "primaryCatalyst": "New large US/AIDC transformer orders or Memphis-Ulsan capacity ramp updates at Q2 results that re-accelerate backlog growth.",
+      "primaryRisk": "Crowded momentum unwind: any sign of order normalization or sector rotation out of K-energy hits a stock priced for perfection after +88% YTD."
+    }
+  ]
+}

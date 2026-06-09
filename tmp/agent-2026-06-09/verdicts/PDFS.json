@@ -1,0 +1,56 @@
+{
+  "symbol": "PDFS",
+  "company": "PDF Solutions",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "PDF Solutions announces CONNECT 2026 conference (Jun 2, 2026 - pre-cutoff, immaterial)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305563/7239/en/PDF-Solutions-Announces-PDF-Solutions-CONNECT-2026-Conference.html"
+    },
+    {
+      "label": "StockTitan: 8-K - PDFS priced secondary at $44 (May 13-15, 2026; $85.7M to company, Advantest sold 3.3M shares)",
+      "url": "https://www.stocktitan.net/sec-filings/PDFS/8-k-pdf-solutions-inc-reports-material-event-94c8775f58b8.html"
+    },
+    {
+      "label": "StockTitan: DEF 14A - annual meeting June 16, 2026 (directors, auditor, expanded stock incentive plan)",
+      "url": "https://www.stocktitan.net/sec-filings/PDFS/def-14a-pdf-solutions-inc-definitive-proxy-statement-115c2d673ddd.html"
+    },
+    {
+      "label": "Public.com analyst consensus: avg target ~$41, recent raises to $36-52 - all below the $57.40 price",
+      "url": "https://public.com/stocks/pdfs/forecast-price-target"
+    },
+    {
+      "label": "Simply Wall St: PDFS valuation after strong momentum and upward earnings revisions",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-pdfs/pdf-solutions/news/assessing-pdf-solutions-pdfs-valuation-after-strong-momentum"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "No new fundamental evidence since June 6; today's +1.95% is drift, and the page already demoted PDFS from rank 30 to 35 after yesterday's hold. The crowding case is incrementally worse - stock sits ~30% above its mid-May $44 secondary and above most sell-side targets ($36-52) on a +94% YTD run - but that erosion is captured with a small negative delta, not another rank cut.",
+      "bull": "Q1 2026 delivered 26% revenue growth with strong bookings; eProbe/Exensio attach to HBM, chiplets, known-good-die and advanced packaging keeps the inspection/yield-analytics thesis structurally intact, with CONNECT 2026 (Oct 15-16) as a showcase catalyst.",
+      "neutral": "Thesis intact but fully discovered: $2.4B cap, +94% YTD, trading above consensus targets, and Advantest just sold 3.3M shares at $44 in the May secondary - the residual-alpha window on a crowding-sensitive list is largely closed.",
+      "bear": "A momentum stock priced above every published analyst target with single-bundle (eProbe) validation risk; any slip in tool acceptances or Exensio renewals triggers a sharp de-rating from a crowded base.",
+      "primaryCatalyst": "New eProbe tool orders/acceptances or a follow-on landmark IDM contract; CONNECT 2026 conference announcements in October.",
+      "primaryRisk": "Crowding unwind: stock trades ~30% above its own May $44 equity raise and above sell-side targets, so flow-driven momentum can reverse without any thesis break."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "On the scaling watchlist the fit is structural - yield analytics / process data software for fabs - and nothing since June 6 changes that role; the only items are a pre-cutoff conference announcement and a routine June 16 annual meeting. Yesterday's hold stands.",
+      "bull": "Exensio, Cimetrix and eProbe demand is tied to fab process-data intensity, which scales with advanced-node, HBM and chiplet ramps regardless of PDFS's share price; Q1 reaffirmed 20% FY26 revenue growth guidance.",
+      "neutral": "Position on this list reflects function in the scaling stack, not valuation; the +94% YTD run is noted but does not alter its yield-analytics centrality.",
+      "bear": "If the eProbe deployment cycle stalls or a large IDM/fabless renewal slips, the revenue-growth narrative that supports its watchlist score weakens.",
+      "primaryCatalyst": "Continued eProbe shipments to leading-edge fabs and Exensio renewals/expansions disclosed at or before CONNECT 2026.",
+      "primaryRisk": "Customer concentration in a handful of IDM/fabless bundles; one delayed acceptance materially dents reported growth."
+    }
+  ]
+}

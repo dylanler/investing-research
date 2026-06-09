@@ -1,0 +1,27 @@
+{
+  "symbol": "MTRN.TA",
+  "company": "Maytronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Investing.com - Maytronics Q4 2025 earnings call transcript (strategic shift)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-maytronics-q4-2025-reveals-strategic-shift-amid-challenges-93CH-4623887"},
+    {"label": "Globes - Profit warning sends Maytronics to new low", "url": "https://en.globes.co.il/en/article-profit-warning-sends-maytronics-to-new-low-1001539510"},
+    {"label": "CTech - Maytronics looking to resurface after deep dive in value", "url": "https://www.calcalistech.com/ctechnews/article/byp00rhnfge"},
+    {"label": "Maytronics investor immediate notices lobby", "url": "https://www.maytronics.com/corporate/investors/immediate-notices-lobby.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6 and a -0.7% drift day; yesterday's hold stands. The -39.8% YTD is driven by a genuine fundamentals breakdown (FY2025 net loss of 222M ILS, revenue -13.6%, gross margin 26.7% vs 36%), so the sell-off does not cleanly convert into improved alpha asymmetry on a robotics-scaling list.",
+      "bull": "New CEO Rafael Benami's pivot to core robotic pool cleaning, exit from non-core water monitoring, and the Dolphin EON launch give a credible turnaround path; operating cash flow already surged 126% to 292M ILS, and the name is washed-out and under-owned at these levels.",
+      "neutral": "Turnaround signals (CEO pivot, EON launch, leadership reshuffle) all predate June 6 and are already in yesterday's case; until H1 2026 numbers show margin repair, the stock is a deep-value consumer-robotics option, peripheral to the AI-compute bottleneck core.",
+      "bear": "Consumer-discretionary exposure with currency volatility, U.S. tariff risk, and North American weather sensitivity; the loss was a profit-warning-grade fundamental break, and Chinese competition (e.g., Chasing, settled via patent deal) keeps pressuring the Dolphin franchise's pricing power.",
+      "primaryCatalyst": "H1 2026 results showing gross-margin recovery and early traction of the streamlined robotics-only portfolio under the new CEO.",
+      "primaryRisk": "Continued revenue erosion from Chinese pool-robot entrants plus tariff and FX headwinds turning the 2025 loss into a structural decline rather than a cyclical trough."
+    }
+  ]
+}

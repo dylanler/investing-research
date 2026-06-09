@@ -1,0 +1,78 @@
+{
+  "symbol": "NVDA",
+  "company": "NVIDIA",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 7 Korea wave: SK Telecom to build a gigawatt-scale AI Cloud on NVIDIA DSX (first AI factory 2027); multiyear SK hynix memory technology partnership for AI factories; NAVER expanding sovereign AI from 55MW toward gigawatt scale on DSX; LG Group and Doosan AI-factory/physical-AI collaborations. Plus RTX Spark superchip unveiled at GTC Taipei/COMPUTEX. All demand-visibility positives but incremental for a $4.97T mega-cap; stock -1.6% today, +8.7% YTD - no flow event to explain.",
+  "sources": [
+    {"label": "NVIDIA Newsroom - Latest (June 7, 2026 SK Telecom/SK hynix/NAVER/LG/Doosan releases)", "url": "https://nvidianews.nvidia.com/news/latest"},
+    {"label": "NVIDIA Newsroom - News Archive", "url": "https://nvidianews.nvidia.com/news"},
+    {"label": "Yahoo Finance - NVDA quote", "url": "https://finance.yahoo.com/quote/NVDA/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "The June 7 SK hynix multiyear memory partnership and Korea AI-factory commitments reinforce the disclosed-dependency thesis, but they do nothing to relieve the megacap crowding and ETF-ownership cap that defines this page's alpha discount. Yesterday's hold stands; -1.6% day move is noise.",
+      "bull": "Gigawatt-scale sovereign commitments (SKT, NAVER) plus a formal SK hynix memory pact extend demand visibility into 2027+ and deepen NVIDIA's grip on the memory/foundry supply graph.",
+      "neutral": "Real but incremental news for a $4.97T name everyone already owns; +8.7% YTD shows expectations are full, not stretched.",
+      "bear": "Crowding, passive ownership and consensus expectations leave no hidden alpha; any capex-digestion wobble at hyperscalers or Korea timelines slipping hits the multiple hard.",
+      "primaryCatalyst": "Conversion of Korea gigawatt MOUs into booked Rubin/DSX orders and next earnings guidance",
+      "primaryRisk": "Megacap crowding plus AI capex-cycle deceleration compressing the premium"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 104,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing in the June 7 Korea/SK hynix announcements is CPO-specific; the co-packaged-optics adoption thesis is unchanged and discovery on NVDA remains extreme, so the deep rank on this crowding-sensitive alpha list is correct.",
+      "bull": "NVIDIA still sets the system architecture that forces CPO adoption; gigawatt-scale AI factories raise the ceiling for optical interconnect intensity it controls.",
+      "neutral": "Demand headlines accrue to the whole CPO chain, not differentially to NVDA on this page; rank 104 already reflects extreme discovery.",
+      "bear": "As the most-owned name in the complex, NVDA offers the worst residual alpha per unit of CPO exposure; suppliers capture the optics upside.",
+      "primaryCatalyst": "Concrete CPO attach-rate disclosure on Rubin-generation scale-up fabrics",
+      "primaryRisk": "Crowded megacap positioning unwinding faster than CPO economics materialize"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.75,
+      "rankRationale": "Gigawatt-scale Korea sovereign commitments (SKT GW-scale, NAVER 55MW-to-GW) are direct, fresh evidence for the silicon-basket consumption proxy role this page ranks NVDA on; that supports the score but rank 2 already prices proxy status, so hold.",
+      "bull": "Sovereign AI buildouts moving from MW to GW scale on the DSX platform validate the silicon-consumption bucket as the largest and fastest-growing in the basket.",
+      "neutral": "Already rank 2; the news strengthens conviction without changing relative position versus the top name.",
+      "bear": "A $4.97T cap means the proxy works both ways - any 2027 compute-growth downgrade or power-constraint slippage deflates the basket through NVDA first.",
+      "primaryCatalyst": "Korea AI factories breaking ground and converting MOUs to firm silicon orders in 2027",
+      "primaryRisk": "Power and grid constraints delaying gigawatt buildouts and stretching consumption timelines"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "LG (robotics/autonomous driving AI factory) and Doosan physical-AI collaborations are genuine robotics-adjacent datapoints, but they don't make the platform king any more of a hidden gem, which is what this page rewards.",
+      "bull": "LG and Doosan deals show NVIDIA becoming the default physical-AI stack for Korean industrials, compounding its robotics platform moat.",
+      "neutral": "Robotics remains a small slice of a $4.97T story; the page's hidden-gem lens keeps the alpha score near the floor regardless of headline flow.",
+      "bear": "Pure-play robotics names capture the rerating from these same announcements; NVDA exposure is diluted beta, not alpha.",
+      "primaryCatalyst": "Jetson/Isaac and physical-AI revenue disclosure becoming material enough to break out",
+      "primaryRisk": "Humanoid/physical-AI commercialization lagging the partnership press-release cycle"
+    },
+    {
+      "page": "companies",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already applied the rerating discipline; since then the Korea GW announcements add modest fundamental evidence and the stock fell 1.6%, so the setup argues for stabilizing at rank 89 rather than moving again.",
+      "bull": "Fresh multi-party Korea commitments and the SK hynix pact show the demand pipeline is broadening geographically beyond US hyperscalers.",
+      "neutral": "+8.7% YTD with a -1.6% day is drift; alpha on this page rewards scarce bottleneck exposure, which a fully-discovered platform leader cannot offer.",
+      "bear": "Cap concentration and consensus ownership mean even good news is pre-paid; a single hyperscaler order pause dominates any Korea upside.",
+      "primaryCatalyst": "Next earnings print converting June partnership headlines into raised data-center guidance",
+      "primaryRisk": "AI capex digestion at top customers exposing the concentration in the revenue base"
+    }
+  ]
+}

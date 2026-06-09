@@ -1,0 +1,39 @@
+{
+  "symbol": "ESAB",
+  "company": "ESAB",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "ESAB IR - news index (latest releases; Eddyfi close June 2, pre-window)",
+      "url": "https://investors.esabcorporation.com/news/default.aspx"
+    },
+    {
+      "label": "TipRanks - ESAB completes Eddyfi acquisition and equity financing (June 2, 2026)",
+      "url": "https://www.tipranks.com/news/company-announcements/esab-completes-eddyfi-acquisition-and-equity-financing-transactions"
+    },
+    {
+      "label": "Investing.com - JPMorgan lowers ESAB PT to $130 on acquisition impact, keeps Overweight",
+      "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-lowers-esab-stock-price-target-to-130-on-acquisition-impact-93CH-4481545"
+    },
+    {
+      "label": "stockanalysis.com - ESAB quote and consensus (avg target ~$138 vs ~$88 price)",
+      "url": "https://stockanalysis.com/stocks/esab/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the Eddyfi NDT acquisition closed June 2 and was already in yesterday's hold. Flat tape today (+0.29%) on a name down ~22% YTD keeps the latent-node setup unchanged, with a slight positive drift for improved asymmetry at a depressed entry.",
+      "bull": "Eddyfi adds inspection/monitoring to the fabrication workflow, strengthening the reshoring/modular-infrastructure pathway; updated FY guidance including Eddyfi on the Q2 call is a free upside catalyst while consensus targets (~$138, JPM $130 floor) sit ~50% above spot.",
+      "neutral": "Deal economics ($1.45B for ~$270M revenue, ~$80-100M EBITDA) are known and digested; until Q2 guidance lands, the stock likely drifts with industrial macro, and the AI-chain linkage remains second-order for this list.",
+      "bear": "Equity financing dilution plus integration risk on a 23.9x P/E industrial with a Q1 EPS miss ($1.31 vs $1.35) leaves the stock vulnerable if welding/fab end-markets soften; the AI-node relevance is the weakest part of the thesis.",
+      "primaryCatalyst": "Q2 2026 earnings call with updated full-year guidance incorporating Eddyfi (one month of contribution in Q2).",
+      "primaryRisk": "Integration/dilution drag from the Eddyfi deal coinciding with soft industrial demand, extending the -22% YTD derating."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "WIE.VI",
+  "company": "Wienerberger",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Wienerberger press releases (no new releases since June 6; Hanke deputy-chairman appointment effective June 1 predates window)",
+      "url": "https://www.wienerberger.com/en/media/press-releases.html"
+    },
+    {
+      "label": "Investing.com - Wienerberger Q1 2026 earnings call transcript (revenue -7% YoY, FY26 EBITDA guidance ~EUR 810M; pre-dates June 6)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-wienerberger-q1-2026-shows-revenue-decline-93CH-4683292"
+    },
+    {
+      "label": "Yahoo Finance UK - analyst targets tightening around EUR 30 vs EUR 23 price",
+      "url": "https://uk.finance.yahoo.com/news/wienerberger-wbag-wie-investment-story-011341213.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "No material news since June 6 and today's -0.7% is drift; yesterday's hold already reconciled the -23.8% YTD de-rating, and nothing new strengthens or weakens the latent water-reuse/resilient-campus piping pathway on this strict screen.",
+      "bull": "Deeply out-of-favor and un-owned by AI investors at EUR 23 vs analyst targets clustered EUR 29-32, so any validation of piping/building-envelope demand from data-center water reuse or resilient industrial campuses comes on a washed-out base.",
+      "neutral": "FY26 EBITDA guidance of ~EUR 810M is intact but Q1 revenue fell 7% in a soft construction market; the AI-adjacent pathway remains qualitative with no disclosed design wins or campus contracts to score against.",
+      "bear": "This is fundamentally a European resi/infra building-materials cyclical with an energy-cost headwind; the AI linkage may never become a measurable revenue line, leaving the position exposed purely to construction-cycle beta.",
+      "primaryCatalyst": "A named data-center campus or water-reuse infrastructure order for its Pipelife piping division, or H1 2026 results (late July) confirming infrastructure-segment resilience.",
+      "primaryRisk": "Continued European construction-demand deterioration forcing a cut to the EUR 810M EBITDA guidance, with the latent AI pathway never materializing into orders."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "FIX",
+  "company": "Comfort Systems USA",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Seeking Alpha - Comfort Systems forecasts mid-to-high 20% 2026 same-store revenue growth, $12.5B backlog (Q1 print, pre-Jun 6)",
+      "url": "https://seekingalpha.com/news/4579638-comfort-systems-forecasts-mid-to-high-20-percent-2026-same-store-revenue-growth-as-backlog"
+    },
+    {
+      "label": "Yahoo Finance - A Look At Comfort Systems USA (FIX) Valuation After A Strong Multi Month Share Price Run",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-comfort-systems-usa-fix-060943599.html"
+    },
+    {
+      "label": "StockInvest.us - FIX daily price action and trend check (Jun 8-9)",
+      "url": "https://stockinvest.us/stock/FIX"
+    },
+    {
+      "label": "TIKR - Comfort Systems data center demand and record backlog context",
+      "url": "https://www.tikr.com/blog/comfort-systems-stock-climbs-47-in-2026-as-data-center-demand-drives-record-11-94-billion-backlog"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental information since June 6; today's -3.6% dip is flow-driven profit-taking after a 78% YTD run, and on this crowding-sensitive alpha page the modest pullback merely offsets the residual-alpha drag from a 90% Strong Buy consensus and recent insider selling. Rank 99 in the Monitor/benchmark bucket already reflects that FIX sits outside the core passive/power bottleneck stack.",
+      "bull": "Record $12.45B backlog (up 81% YoY) with technology work over half of revenue gives multi-year visibility into data-center mechanical/cooling demand, and a -3.6% pullback with the thesis intact marginally improves entry asymmetry.",
+      "neutral": "Fundamentals are excellent but fully discovered: mid-to-high 20% same-store growth guidance is in consensus, the stock trades at record margins and a stretched multiple, so it functions as an AI-capex barometer rather than an alpha source.",
+      "bear": "78% YTD on top of a multi-year 20x run, ~$58.5M of insider sales in three months, and unanimous sell-side bullishness mean any data-center capex digestion or margin normalization from record 26.3% gross margins triggers a sharp de-rating.",
+      "primaryCatalyst": "Q2 2026 earnings/backlog print (late July) confirming or breaking the mid-to-high 20% same-store growth guide.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any hyperscaler capex digestion signal or margin mean-reversion from record levels."
+    }
+  ]
+}

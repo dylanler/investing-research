@@ -1,0 +1,39 @@
+{
+  "symbol": "ALFA.ST",
+  "company": "Alfa Laval",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Alfa Laval newsroom - FreeWaterLoop data center cooling launch (Mar 4, 2026; no new releases since Jun 6)",
+      "url": "https://www.alfalaval.com/media/news/investors/2026/alfa-laval-launches-freewaterloop-to-support-efficient-data-center-cooling/"
+    },
+    {
+      "label": "Alfa Laval at Posidonia 2026 (marine event, Jun 1-5, pre-window)",
+      "url": "https://www.alfalaval.com/media/news/2026/alfa-laval-to-showcase-its-latest-innovations-at-posidonia-2026/"
+    },
+    {
+      "label": "MarketScreener - ALFA analyst consensus (~SEK 517 avg target vs SEK 530 price)",
+      "url": "https://www.marketscreener.com/quote/stock/ALFA-LAVAL-AB-6494532/consensus/"
+    },
+    {
+      "label": "Yahoo Finance quote ALFA.ST",
+      "url": "https://finance.yahoo.com/quote/ALFA.ST/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the -1.5% day move is ordinary drift, not a setup change. On a latent-alpha lens Alfa Laval was already discounted for being a large, well-covered quality industrial whose data-center cooling angle (FreeWaterLoop, March 2026) is public knowledge, and the stock trades slightly above the ~SEK 517 consensus target - nothing today alters that balance.",
+      "bull": "Heat exchangers and facility-loop liquid cooling are genuine bottleneck hardware for high-density AI data centers, and FreeWaterLoop plus heat-reuse positioning gives Alfa Laval a credible multi-year order pipeline beyond its marine and energy base.",
+      "neutral": "At $23.6B cap, +13% YTD and trading above the analyst consensus target, the data-center story is recognized but not yet euphoric; order intake (Q1 organic +6%) is solid rather than explosive, leaving the name fairly ranked deep in the list.",
+      "bear": "The data-center thermal angle is now a consensus talking point across sell-side coverage, leaving little hidden alpha; cooling remains a minority of group sales, and a marine/energy capex slowdown or SEK strength could compress the multiple with no AI offset large enough to matter.",
+      "primaryCatalyst": "Data-center cooling order announcements or Q2 2026 order intake (July) showing FreeWaterLoop/thermal division traction.",
+      "primaryRisk": "Crowding into a well-owned quality industrial where the AI-cooling narrative is already priced, plus cyclical marine/energy order softness."
+    }
+  ]
+}

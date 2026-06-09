@@ -1,0 +1,48 @@
+{
+  "symbol": "3661.TW",
+  "company": "Alchip Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Alchip Q1 2026 financial results (May 27, pre-window; H2-weighted 2026, 3nm AI accelerator ramp, 2nm tapeout by year-end)",
+      "url": "https://www.alchip.com/en/Newsroom/Alchip_2026_Q1_financial_results"
+    },
+    {
+      "label": "TradingView 3661.TW quote/news (no fresh catalysts June 6-9; ATH 5,640 TWD on May 12, stock ~25% below)",
+      "url": "https://www.tradingview.com/symbols/TWSE-3661/"
+    },
+    {
+      "label": "Yahoo Finance 3661.TW quote",
+      "url": "https://finance.yahoo.com/quote/3661.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6 and yesterday's verdict was hold; the ~25% retracement from the May 12 high with the 3nm/2nm custom-ASIC thesis intact modestly rebuilds residual alpha, but today's +1.9% bounce is flow, not news, so rank 9 stands.",
+      "bull": "3nm AI accelerator enters high-volume production in Q2 with ~80% of 2026 revenue in H2, plus a 2nm tapeout by year-end giving multi-year custom-silicon visibility; the pullback from 5,640 to 4,250 TWD restores entry asymmetry.",
+      "neutral": "Q1 revenue of $132.4M (down sharply y/y) confirms the air-pocket between programs; the H2 ramp is well-flagged by 13 buy ratings, so the setup is a known catalyst, not hidden alpha.",
+      "bear": "Customer concentration on a single North American accelerator program means any schedule slip or share loss to rival ASIC houses craters the H2-weighted guidance.",
+      "primaryCatalyst": "Q2/Q3 monthly revenue confirming the 3nm AI accelerator volume ramp",
+      "primaryRisk": "Slip or downsizing of the lead hyperscaler 3nm program given extreme customer concentration"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On this CPO-lens page Alchip's optical attach remains indirect and nothing since June 6 changes that; sell-off from the May high slightly improves asymmetry but yesterday's hold at the already-lowered rank 7 is still right.",
+      "bull": "As hyperscaler custom ASICs move to 2nm and scale-up fabrics, Alchip sits upstream of every co-packaged optics decision its customers make, with NRE from the 2nm tapeout landing by year-end.",
+      "neutral": "The CPO linkage is second-derivative — Alchip monetizes the ASIC, not the optical engine — so CPO news flow shouldn't rerate it on this page either way.",
+      "bear": "If lead customers integrate optics via partners that pull more of the package design in-house, Alchip's content per system could stagnate while pure CPO names capture the rerating.",
+      "primaryCatalyst": "2nm accelerator tapeout and associated NRE recognition by end-2026",
+      "primaryRisk": "AI project timing and customer concentration overwhelming the indirect optical-attach angle"
+    }
+  ]
+}

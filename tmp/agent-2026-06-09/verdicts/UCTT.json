@@ -1,0 +1,40 @@
+{
+  "symbol": "UCTT",
+  "company": "Ultra Clean Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. StockTitan's UCTT feed shows nothing newer than the May 6 investor-conference notice; today's +8.36% move (YTD now +232.9%) appears flow/momentum-driven, riding the AI semicap/memory rally and late-April/May analyst PT raises (TD Cowen and Oppenheimer to $100, consensus ~$104, 7 Buy / 0 Hold) rather than any new fundamental datapoint.",
+  "sources": [
+    {"label": "StockTitan UCTT news feed (no items June 5-9; latest May 6)", "url": "https://www.stocktitan.net/news/UCTT/"},
+    {"label": "Yahoo Finance UCTT quote", "url": "https://finance.yahoo.com/quote/UCTT/"},
+    {"label": "UCTT Q1 FY2026 8-K press release (results above guidance midpoint)", "url": "https://www.sec.gov/Archives/edgar/data/0001275014/000162828026027952/q12026pressrelease.htm"},
+    {"label": "TipRanks UCTT analyst forecast (avg PT ~$104, 7 Buy / 0 Hold)", "url": "https://www.tipranks.com/stocks/uctt/forecast"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 50,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "Another +8.4% no-news pop on top of +233% YTD further erodes the order-timing optionality this WFE-tier listing was priced for; the AI fab/HBM capex thesis is intact but now fully consensus, so residual upside at rank 50 keeps shrinking.",
+      "bull": "Q1 FY2026 beat the guidance midpoint and CEO James Xiao frames this as the early innings of a multi-year AI-driven WFE expansion, with the UCT 3.0 Asia capacity plan (50%->60%) leveraged to 15-20% WFE growth.",
+      "neutral": "Thesis unchanged since the late-April print; today's move is sector beta plus momentum, so the fundamental case is the same as it was at materially lower prices.",
+      "bear": "A $4B subsystem outsourcer trading up 233% YTD with GAAP losses and heavy customer concentration is priced for a flawless WFE upcycle; any Lam/AMAT order digestion or export-control tightening unwinds the rerating fast.",
+      "primaryCatalyst": "Q2 FY2026 earnings and customer (Lam/AMAT) order commentary confirming the HBM/advanced-node capex ramp into 2027.",
+      "primaryRisk": "WFE order digestion or China export-control escalation hitting a now-crowded, momentum-owned name."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 33,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.75,
+      "rankRationale": "This is the crowding-sensitive alpha screen, and UCTT now exhibits textbook post-rerating chase: +8.4% today on zero news, +233% YTD, unanimous Buy ratings and PTs already raised to ~$100-104 — the 'hidden, under-owned' premise is gone.",
+      "bull": "If the AI memory/HBM WFE supercycle runs through 2027, UCTT's revenue gearing to Lam and Applied subsystem outsourcing still compounds, and consensus PTs near $104 sit above spot.",
+      "neutral": "No new evidence since June 6 either way; the alpha question is purely whether entry price still offers asymmetry, and today's spike answers that less favorably without breaking the thesis.",
+      "bear": "Single-bundle validation risk plus extreme crowding: a 233% YTD momentum name with 7/7 Buy ratings has no contrarian edge left, and the first soft WFE datapoint triggers a violent de-rating in low-float semicap suppliers.",
+      "primaryCatalyst": "Concrete new HBM/advanced-node capacity awards or guidance raise that re-bases estimates above the already-raised street.",
+      "primaryRisk": "Crowded momentum unwind on any WFE air-pocket; the asymmetric upside this screen rewards has largely been harvested."
+    }
+  ]
+}

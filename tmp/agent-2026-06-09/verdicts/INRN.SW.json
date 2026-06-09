@@ -1,0 +1,27 @@
+{
+  "symbol": "INRN.SW",
+  "company": "Interroll",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Interroll press release - order intake accelerates (FY2025: +5.0% to CHF 545.3m, +9.2% lc)", "url": "https://www.interroll.com/news-events/press-releases/release/order-intake-accelerates-on-differentiated-market-approach-and-broad-based-recovery"},
+    {"label": "Investing.com - Berenberg Buy rating on warehouse automation inflection (pre-existing, not new)", "url": "https://www.investing.com/news/analyst-ratings/berenberg-upgrades-interroll-stock-to-buy-on-warehouse-automation-inflection-93CH-4172045"},
+    {"label": "TipRanks/The Fly - Berenberg PT cut to CHF 2,500 (Feb 2026, kept Buy)", "url": "https://www.tipranks.com/news/the-fly/interroll-price-target-lowered-to-chf-2500-from-chf-2750-at-berenberg-thefly"},
+    {"label": "Yahoo Finance quote INRN.SW", "url": "https://finance.yahoo.com/quote/INRN.SW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6 and today's +0.82% is drift; yesterday's hold already reconciled the YTD de-rating, so no new information justifies a re-rank. The -34.7% YTD washout against a stabilizing order-intake picture (FY2025 orders +9.2% lc, accelerating in H2) marginally improves asymmetry for this latent-node lens, worth a small positive drift but not a move.",
+      "bull": "Order intake inflected (+9.2% lc, accelerating into H2 2025) while the stock has been cut by a third YTD; if e-commerce and sorter project demand keeps recovering, an under-owned CHF 1.7B pick-and-shovel re-rates sharply. Berenberg still carries a Buy with a CHF 2,500 target versus ~CHF 1,472 today.",
+      "neutral": "Known scheduled items only: CHF 32 dividend goes ex June 16 and long-serving CFO Heinz Hossli departs end of June. The automation recovery is real but slow, and the stock can chop sideways until order momentum shows up in revenue and margins.",
+      "bear": "Project business remains hostage to macro capex timing; a stalled e-commerce recovery or tariff-driven capex deferrals would invalidate the inflection narrative, and the CFO transition adds execution uncertainty at a fragile moment.",
+      "primaryCatalyst": "H1 2026 results / order-intake print confirming the recovery is accelerating into revenue.",
+      "primaryRisk": "Warehouse-automation capex recovery stalls, leaving the order-intake inflection a false start while the CFO seat turns over."
+    }
+  ]
+}

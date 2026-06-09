@@ -1,0 +1,28 @@
+{
+  "symbol": "BW",
+  "company": "Babcock & Wilcox",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental disclosures since June 6. The stock has slid ~18% from its June 4 high (~$18.64) to $15.34 on recycled securities-fraud class-action headlines ahead of the June 15, 2026 lead plaintiff deadline; the suits stem from the March 12 short-seller revelation of undisclosed related-party ties (largest shareholder BRC <-> Base Electron) embedded in the $2.4B / 1.2GW design-build contract serving Applied Digital AI Factory campuses. The $200M equity offering priced May 15 at $18.50 - stock now trades well below offering price. Core demand evidence (record Q1 2026 revenue/EBITDA, surging AI data center bookings and backlog) remains intact but the legal overhang attaches to the flagship contract itself.",
+  "sources": [
+    {"label": "Gross Law Firm - BW class action lead plaintiff deadline June 15, 2026 (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/the-gross-law-firm-reminds-babcock--wilcox-enterprises-inc-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-june-15-2026---bw-302779762.html"},
+    {"label": "Levi & Korsinsky - BW securities fraud suit, concealed Base Electron related-party contract risks (BusinessWire)", "url": "https://www.businesswire.com/news/home/20260512384258/en/BW-Investor-Alert-Babcock-Wilcox-Enterprises-Securities-Fraud-Lawsuit---Investors-With-Losses-May-Seek-to-Lead-the-Class-Action-After-Defendants-Allegedly-Concealed-Contract-Risks-Levi-Korsinsky"},
+    {"label": "BW prices $200M common stock offering at $18.50 (BusinessWire, May 15, 2026)", "url": "https://www.businesswire.com/news/home/20260515410605/en/Babcock-Wilcox-Enterprises-Announces-Pricing-of-Common-Stock-Offering"},
+    {"label": "GuruFocus - BW up 5.4% June 4, record Q1, $2.4B Base Electron NTP, GF Value flags overvaluation", "url": "https://www.gurufocus.com/news/8902413/babcock-wilcox-enterprises-inc-bw-stock-up-54-but-gf-value-says-overvalued-gf-score-49100"},
+    {"label": "Yahoo Finance quote - BW", "url": "https://finance.yahoo.com/quote/BW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Hold at rank 37 on the scaling list: no genuinely new fundamental information since June 6 - the three-session ~18% slide is headline churn ahead of the June 15 lead plaintiff deadline, not a new disclosure. The dip does not earn asymmetry credit because the legal overhang attaches directly to the $2.4B Base Electron contract that anchors the power-systems thesis; small negative drift for the post-offering supply and governance taint.",
+      "bull": "Record Q1 2026 revenue and adjusted EBITDA with surging AI data center bookings and backlog, a fully noticed $2.4B / 1.2GW design-build serving Applied Digital AI Factories, and a balance sheet de-risked by the $200M raise; the ~18% pullback below the $18.50 offering price resets entry if the contract survives scrutiny.",
+      "neutral": "Thesis-relevant demand signals are intact but everything driving the recent tape is legal noise ahead of June 15; at +141.5% YTD much of the rerating is already in the price, so the name is fairly held mid-list until the related-party question resolves.",
+      "bear": "The short-seller allegation that BW's largest shareholder has undisclosed ties to Base Electron puts the flagship contract's arm's-length economics in doubt; if the counterparty or financing wobbles, the single biggest leg of the AI-power story breaks while litigation and fresh share supply cap the multiple.",
+      "primaryCatalyst": "Resolution or credible rebuttal of the Base Electron related-party allegations (post-June 15 lead plaintiff consolidation), plus continued execution milestones on the 1.2GW Applied Digital build.",
+      "primaryRisk": "Securities-fraud litigation escalating into contract repricing or cancellation of the $2.4B Base Electron agreement, compounding dilution from the May offering."
+    }
+  ]
+}

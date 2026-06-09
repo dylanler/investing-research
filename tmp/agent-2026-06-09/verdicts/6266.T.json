@@ -1,0 +1,27 @@
+{
+  "symbol": "6266.T",
+  "company": "Tazmo Co., Ltd. (blog data labels this ticker as TOWA, but TOWA Corporation trades as 6315.T; the June 9 price of 3,560 JPY +0.56% matches Tazmo)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6, 2026. Tazmo's latest disclosures predate the window (Q1 FY12/26 results May 15; improved wafer debonding tool May 7; D2W hybrid-bonding tech Jan 29). Material data-integrity flag: ticker/company mismatch - 6266.T is Tazmo, not TOWA (6315.T), so the page's HBM compression-molding thesis may be attached to the wrong price series. Tazmo guides FY12/26 operating profit down 24.5% to 3.6B yen against a +72% YTD share run.",
+  "sources": [
+    {"label": "Investing.com - Tazmo Co Ltd (TYO: 6266) quote", "url": "https://www.investing.com/equities/tazmo-co-ltd"},
+    {"label": "Yahoo Finance Japan - Tazmo 6266.T quote and disclosures", "url": "https://finance.yahoo.co.jp/quote/6266.T"},
+    {"label": "Kabuyoho - Tazmo (6266) earnings progress and timely disclosures", "url": "https://kabuyoho.jp/sp/report?bcode=6266"},
+    {"label": "Investing.com - TOWA (6315.T) guides 17% sales rise in FY3/27 (relevant if thesis meant TOWA)", "url": "https://www.investing.com/news/earnings/japans-chipmaker-towa-guides-for-17-sales-rise-in-fy327-93CH-4675662"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "No new evidence since June 6 and a flat tape today (+0.56%), so yesterday's hold stands; the -1 is rerating drift - a +72% YTD run with FY12/26 operating profit guided down 24.5% leaves thin residual alpha at rank 14. Confidence is haircut because the page identifies 6266.T as TOWA (actually 6315.T) while the price series is Tazmo's; the listing should be re-pointed before any rank action.",
+      "bull": "If the intended exposure is the HBM/advanced-packaging equipment bottleneck, the underlying theme is intact - TOWA (6315.T) holds ~80-90% share in HBM compression molding, and Tazmo itself has D2W hybrid-bonding and wafer debonding tools leveraged to chiplet packaging.",
+      "neutral": "Sub-$0.4B market cap, selective edge/packaging exposure, no fresh orders or design wins disclosed in the window; the stock drifts with the Japan SPE tape until Q2 results or a packaging order datapoint.",
+      "bear": "Tazmo's own FY12/26 guidance calls for operating profit down 24.5% after a -19.4% FY12/25; a +72% YTD rerating against declining earnings is the classic post-rerating chase this list penalizes, and the ticker/company mix-up means the thesis may not even describe the security being ranked.",
+      "primaryCatalyst": "Q2 FY12/26 results / order disclosures (and, if the thesis is really TOWA 6315.T, HBM compression-molding order acceleration into FY3/27 H2).",
+      "primaryRisk": "Earnings de-rating as guided profit decline collides with a 72% YTD run; data error leaves the blog ranking the wrong company for the stated HBM/OSAT thesis."
+    }
+  ]
+}

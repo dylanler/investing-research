@@ -1,0 +1,26 @@
+{
+  "symbol": "BELFB",
+  "company": "Bel Fuse Inc.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. Most recent press release remains the May 21 dividend declaration; before that the May 13 upsized $399M Class B offering at $266/share and the March 31 realignment into two business units (Aerospace, Defense & Rugged Solutions; Industrial Technology & Data Solutions). A ~June 3-5 GuruFocus piece flagged the stock as substantially overvalued (65x P/E vs 10.8x five-year median); June 1 saw a small insider sale (731 Class B shares). Today's -2.4% move is news-free drift.",
+  "sources": [
+    {"label": "StockTitan - Bel Fuse (BELFB) news feed (latest item May 21, 2026)", "url": "https://www.stocktitan.net/news/BELFB/"},
+    {"label": "GuruFocus - Is Bel Fuse (BELFB) Overvalued After 4.2% Rally?", "url": "https://www.gurufocus.com/news/8900148/is-bel-fuse-inc-belfb-overvalued-after-42-rally-gf-value-says-overvalued"},
+    {"label": "Benzinga - AI power demand creating grid upgrade cycle (mentions BELFB)", "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/52913181/exclusive-the-us-grid-is-40-years-old-tema-etfs-cio-says-ai-is-accelerating-historic-infrastruct"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already moved BELFB up to credit under-appreciated rack-power/48V-800VDC exposure; nothing genuinely new has emerged since June 6, and today's news-free -2.4% dip neither restores enough asymmetry nor adds crowding evidence to justify a second move on this alpha-residual page.",
+      "bull": "Rack-level power conversion, magnetics and OCP exposure are hard-to-substitute AI bottleneck content, and the $399M May raise gives Bel balance-sheet optionality for capacity or M&A; a modest pullback slightly improves entry.",
+      "neutral": "Thesis intact but fully discovered: +57.7% YTD, trading just above the $266 secondary price, with no incremental datapoint since June 6 to move residual alpha either way.",
+      "bear": "At ~65x P/E versus a ~11x five-year median, with a fresh dilutive offering and small insider selling, any AI-capex digestion or order pushout compresses the multiple far faster than fundamentals can grow into it.",
+      "primaryCatalyst": "Q2 2026 results/guidance (late July) showing AI data-center power bookings and deployment of offering proceeds into capacity or accretive M&A.",
+      "primaryRisk": "Post-rerating multiple compression: a crowded, 65x-multiple small cap de-rating on any AI server power order digestion or hyperscaler capex pause."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "3044.TW",
+  "company": "Tripod Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 revenue, reported June 9, hit a record NT$8.654B (+5.5% MoM, +46.6% YoY, accelerating from April's +28.9% YoY); Jan-May revenue +28.7% YoY. Management says general-server orders are 'overflowing' to Tripod as larger PCB rivals prioritize GPU/ASIC AI-server boards, order visibility extends into 2H26, record >NT$10B capex with Xiantao (Hubei) lines entering production in June and a second Vietnam plant in trial production. Today's +4.6% move to TWD 500 is fundamental (revenue-print driven), not flow-driven.",
+  "sources": [
+    {"label": "cnyes (Jun 9, 2026): Tripod May revenue NT$8.654B record, +46.6% YoY, order overflow from AI-focused rivals", "url": "https://news.cnyes.com/news/id/6491035"},
+    {"label": "Economic Daily / money.udn (May 21, 2026): analysts raise Tripod estimates and target price; Q2 server mix ~38%, FY26 revenue +29%", "url": "https://money.udn.com/money/story/5607/9517153"},
+    {"label": "Statementdog: Tripod monthly revenue series (April +28.9% YoY baseline)", "url": "https://statementdog.com/analysis/3044/monthly-revenue"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 39,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "Genuinely new fundamental evidence since yesterday's hold: record May revenue with YoY growth accelerating from 29% to 47% and the order-overflow dynamic directly confirms the tight-supply, central-node thesis, while the stock only repriced +4.6% on the print - fundamentals are outrunning recognition at rank 39 in the monitor bucket.",
+      "bull": "Tripod is becoming the default capacity sink for general-server PCBs as rivals chase GPU/ASIC boards; 2H26 order visibility plus Xiantao and Vietnam ramps give a multi-quarter volume-and-pricing runway.",
+      "neutral": "A 60% YTD move and an all-time-high print at TWD 500 mean much of the server-PCB story is now owned; the revenue beat is real but partly anticipated by the May analyst upgrades.",
+      "bear": "Tripod's mix is general-server, not AI-accelerator boards - if hyperscaler general-compute budgets get squeezed to fund GPUs, the overflow tailwind reverses; record capex into China/Vietnam adds utilization risk.",
+      "primaryCatalyst": "June/Q2 monthly revenue prints validating the 17% QoQ server ramp and Xiantao line ramp-up from 2H26.",
+      "primaryRisk": "General-server demand rollover or pricing pressure once rivals' AI-board capacity normalizes, hitting a stock already up 60% YTD."
+    },
+    {
+      "page": "companies",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 7: the record May print confirms the execution leg of the HDI/boards thesis this page told us to watch, but it is confirmation rather than thesis-changing, and the 60% YTD rerating means the scarcity exposure is increasingly recognized at an already-high rank in the packaging-and-substrates bucket.",
+      "bull": "Execution risk flagged in the audit note is being retired in real time - record revenue, record NT$10B+ capex, and 2H26 visibility show Tripod converting board scarcity into pricing and mix gains.",
+      "neutral": "Tripod is a server/memory PCB house more than a true advanced-substrate scarcity play, so the print improves the score modestly without changing its standing versus purer CoWoS/HBM-attach names above it.",
+      "bear": "At TWD 500 all-time highs with foreign ownership and target-price hikes already in, any wobble in the memory or general-server cycle compresses a multiple that now embeds flawless ramp execution.",
+      "primaryCatalyst": "Q2 earnings showing server mix reaching ~38% of revenue with margin follow-through from price hikes.",
+      "primaryRisk": "Thesis-bucket mismatch: if advanced-packaging scarcity is the lens, Tripod's general-server PCB exposure underdelivers relative to substrate pure-plays."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "NXT.AX",
+  "company": "NEXTDC",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "NEXTDC Contracted Utilisation and Capex Guidance Update (Apr 2026, pre-window)", "url": "https://www.nextdc.com/news/contracted-utilisation-and-capex-guidance-update"},
+    {"label": "Stocks Down Under - NEXTDC record 667MW contracted & A$2.2B capital plan (Apr 2026, pre-window)", "url": "https://stocksdownunder.com/nextdc-asxnxt-3/"},
+    {"label": "ASX market announcements - NXT (no new filings found Jun 6-9)", "url": "https://www.asx.com.au/markets/trade-our-cash-market/announcements.nxt"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's move up already captured the April contracted-utilisation surge (667MW, S4 71% contracted) and capex raise; searches found no new ASX filings or material news since June 6, and today's -0.44% is noise, so no basis to move again on the physical-deployment alpha list.",
+      "bull": "Record forward order book (667MW contracted, +60% since Dec 2025) with S4 Sydney filling fast gives multi-year revenue visibility, and the A$2.2B capital plan plus raised FY26 capex (A$2.7-3.0B) shows demand is outrunning supply in Australian AI data-center capacity.",
+      "neutral": "At +26% YTD and an $8B cap, the April evidence is substantially priced; the stock drifts until the next contracted-utilisation update or an S4 anchor-tenant disclosure resets the trajectory.",
+      "bear": "Heavy equity-and-debt-funded capex into a pre-EBITDA-positive hyperscale buildout leaves the name exposed to dilution, cost overruns, and any hyperscaler pause in Australian capacity commitments.",
+      "primaryCatalyst": "Next contracted-utilisation / forward order book update, particularly further S4 Sydney contracting toward full 350MW",
+      "primaryRisk": "Funding strain or dilution if the A$2.7-3.0B capex program runs ahead of new contracted megawatts"
+    }
+  ]
+}

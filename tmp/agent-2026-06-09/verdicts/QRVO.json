@@ -1,0 +1,40 @@
+{
+  "symbol": "QRVO",
+  "company": "Qorvo",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The controlling story is unchanged: the pending Skyworks stock-and-cash acquisition (China SAMR review in Phase II, close guided early 2027, hopeful late 2026) makes QRVO trade as a merger-arb proxy on SWKS, capping standalone upside. Today's -3.24% appears flow-driven, tracking RF/handset semi weakness rather than any new fundamental datapoint. Recent insider selling (CEO Bruggeworth $5.8M on June 1 under a 10b5-1 plan; CEO + Director Peter Feld >$198M cumulatively under disclosed plans) is mildly negative context but pre-dates or is incidental to the window.",
+  "sources": [
+    {"label": "StockTitan - Skyworks/Qorvo 425: SAMR Phase II, late-2026 close hoped", "url": "https://www.stocktitan.net/sec-filings/QRVO/425-qorvo-inc-business-combination-communication-2984a5db12ff.html"},
+    {"label": "Investing.com - Qorvo CEO Bruggeworth sells $5.82M (June 1, 10b5-1)", "url": "https://www.investing.com/news/insider-trading-news/qorvo-ceo-robert-a-bruggeworth-sells-582m-in-qrvo-stock-93CH-4722903"},
+    {"label": "FinancialContent/StockStory - Photronics, Qorvo, TI shares falling (sector flow)", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-5-photronics-qorvo-and-texas-instruments-shares-are-falling-what-you-need-to-know"},
+    {"label": "Skyworks IR - Skyworks and Qorvo to combine ($22B RF/analog leader)", "url": "https://investors.skyworksinc.com/news-releases/news-release-details/skyworks-and-qorvo-combine-create-22-billion-us-based-leader"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 90,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Consistent with yesterday's 'remove' call: QRVO has weak direct AI-node bottleneck exposure (no HBM/advanced-packaging/CPO leverage), and the pending Skyworks acquisition removes standalone optionality, so it should keep sliding toward the bottom. Today's -3.2% is sector/arb flow, not new evidence, hence only a drift-sized delta.",
+      "bull": "Merger arb plus SWKS synergy realization ($500M+ targeted) gives a defined-return path; defense/5G RF and FQ4 beat (EPS $1.69 vs $1.21, GM 53%) show the asset is not broken.",
+      "neutral": "Deal-locked equity that tracks SWKS plus a spread; AI-node relevance is tangential, so neither AI capex upside nor downside changes the case much.",
+      "bear": "SAMR Phase II is a live China-veto risk on a US RF consolidation; if the deal breaks, QRVO reverts to a cyclical handset RF name with heavy insider selling above $100.",
+      "primaryCatalyst": "SAMR Phase II decision / merger closing timeline updates",
+      "primaryRisk": "China regulatory block of the Skyworks deal collapsing the arb and re-exposing handset RF cyclicality"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 74,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On a CPO-led alpha list QRVO has essentially no thesis: zero co-packaged-optics relevance, and the Skyworks deal caps any hidden-optionality upside to deal terms. No new info since yesterday's 'remove' verdict, so this is continued drift down rather than a fresh call.",
+      "bull": "Defined merger consideration provides downside support, and combined SWKS/QRVO scale could fund non-handset diversification (defense, power) post-close.",
+      "neutral": "It is a merger-arb vehicle, not a CPO bottleneck play; the -3.2% day move mirrors SWKS/sector flow and does not change the alpha math.",
+      "bear": "Crowded arb with SAMR tail risk; the >$198M of disclosed insider selling near highs signals sellers do not see residual upside beyond deal terms.",
+      "primaryCatalyst": "Merger milestones (SAMR clearance, shareholder/regulatory steps) tightening the spread",
+      "primaryRisk": "Deal break on China review leaving a handset-cyclical RF name with no CPO story"
+    }
+  ]
+}

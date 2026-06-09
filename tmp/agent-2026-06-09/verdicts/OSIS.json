@@ -1,0 +1,39 @@
+{
+  "symbol": "OSIS",
+  "company": "OSI Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "OSI Systems IR - $19M non-intrusive inspection order (Jun 1, pre-cutoff)",
+      "url": "https://investors.osi-systems.com/news-releases/news-release-details/osi-systems-receives-19-million-order-support-deployment-non"
+    },
+    {
+      "label": "StockTitan - $10M optical sub-assemblies order for semiconductor equipment OEM (Jun 3, pre-cutoff)",
+      "url": "https://www.stocktitan.net/news/OSIS/osi-systems-receives-10-million-award-for-optical-sub-0ugj9vkj9yap.html"
+    },
+    {
+      "label": "Simply Wall St - valuation after sharp multi-month pullback (~25% off in a month)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-osis/osi-systems/news/assessing-osi-systems-osis-valuation-after-a-sharp-multi-mon"
+    },
+    {
+      "label": "OSI Systems IR press releases (checked for Jun 6-9 items; none found)",
+      "url": "https://investors.osi-systems.com/investor-relations/general-information/press-releases"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the $19M NII and $10M semiconductor-optics orders (Jun 1/Jun 3) predate the cutoff and were in yesterday's hold. The latent-node thesis (under-owned imaging/sensor data with AI inference attach) is intact while the stock sits -16% YTD after a ~25% one-month drawdown, so asymmetry is modestly improved but nothing new justifies a rank move; today's +1.6% is drift.",
+      "bull": "Steady contract cadence (NII checkpoints, semiconductor optics) confirms the bottleneck position in security imaging hardware, and the sharp de-rating means the AI-inference inspection optionality is now priced near zero.",
+      "neutral": "OSIS trades as a mid-cap security/defense industrial; without a visible software or AI-attach announcement the latent-AI angle stays theoretical and the stock tracks contract flow and defense/border budgets.",
+      "bear": "The multi-month sell-off may reflect order-timing and margin concerns rather than mispricing; if FY26 Q4 guidance softens or border/port funding slips, the latent thesis has no near-term catalyst to defend the rank.",
+      "primaryCatalyst": "Port/border security modernization awards and any explicit AI/software attach announcement on the inspection installed base; FY2026 Q4 results in August.",
+      "primaryRisk": "Government order timing/budget slippage extending the drawdown with no AI-attach proof point."
+    }
+  ]
+}

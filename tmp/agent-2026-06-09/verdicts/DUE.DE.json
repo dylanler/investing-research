@@ -1,0 +1,35 @@
+{
+  "symbol": "DUE.DE",
+  "company": "Dürr",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "ad-hoc-news: Dürr AGM backs higher dividend and new CFO (published 2026-06-02, pre-window)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/duerr-ag-stock-de0005565204-agm-backs-higher-dividend-and-new-cfo-as/69473340"
+    },
+    {
+      "label": "Dürr Group news archive (no releases dated Jun 6-9, 2026)",
+      "url": "https://www.durr-group.com/en/media/news"
+    },
+    {
+      "label": "Yahoo Finance DUE.DE quote/news",
+      "url": "https://finance.yahoo.com/quote/DUE.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "No material news since Jun 6; the latest datapoints (Jun 2 AGM dividend hike to EUR 0.80 and new CFO, Q1 paint-shop order intake +5% y/y) were already in yesterday's hold. Today's -1.4% extends a -14.7% YTD drawdown with the reshoring-automation thesis intact, which marginally improves asymmetry on this latent-alpha screen but is not enough to re-rank.",
+      "bull": "Dürr is an under-owned, sub-$2B latent node: if reshored hardware/component fabs in Europe and the US ramp, its factory automation, surface/coating and environmental (clean-air, exhaust abatement) systems get pulled into AI-adjacent capex, and the -15% YTD reset gives a cheap entry with a 4% dividend yield.",
+      "neutral": "Order intake is solid (paint shop EUR 650M Q1, +5% y/y) and the AGM confirmed a higher dividend and a new CFO, but the business today is still dominated by auto paint shops and HOMAG woodworking; the AI-reshoring pathway remains an option, not yet a revenue line.",
+      "bear": "European auto capex cyclicality and ongoing group restructuring/administration downsizing can keep estimates falling; if reshoring fab projects favor specialized cleanroom/process vendors over generalist plant engineers, the latent-AI link never monetizes and the stock stays a value trap.",
+      "primaryCatalyst": "A named order or framework win in semiconductor/electronics/battery facility automation or clean-air systems tied to a reshored fab project, or H1 results showing Industrial Automation order intake inflecting.",
+      "primaryRisk": "Auto-industry capex downturn in Europe plus restructuring execution risk erode earnings before any AI-reshoring demand materializes."
+    }
+  ]
+}

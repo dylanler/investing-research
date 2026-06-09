@@ -1,0 +1,28 @@
+{
+  "symbol": "TEX",
+  "company": "Terex",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. Housekeeping only: $0.17 quarterly dividend (record date June 8, payable June 22) and 8-K setting the June 25 annual stockholder meeting; small former-officer insider sale June 4 at ~$63.19. The Raymond James Strong Buy upgrade and the Q1 beat (EPS $0.98 vs $0.78, ~$1.7B revenue, FY26 guidance reiterated at $7.5-8.1B sales / $4.50-5.00 EPS) all predate June 6. Data-center/AI-driven utilities demand commentary is supportive but stale (Q1 call). Today's +2.15% is flow/sector drift, below the 5% threshold and not tied to any new catalyst.",
+  "sources": [
+    {"label": "StockTitan - Terex declares $0.17 quarterly dividend", "url": "https://www.stocktitan.net/news/TEX/terex-announces-quarterly-w3wji51ekwvn.html"},
+    {"label": "StockTitan - Terex 8-K sets June 25, 2026 annual meeting", "url": "https://www.stocktitan.net/sec-filings/TEX/8-k-terex-corp-reports-material-event-b39d71fef0a2.html"},
+    {"label": "Simply Wall St - Terex analyst upgrade and margin outlook", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-tex/terex/news/what-terex-texs-analyst-upgrade-and-margin-outlook-means-for"},
+    {"label": "Yahoo Finance - Terex Q1 2026 earnings call summary", "url": "https://finance.yahoo.com/markets/stocks/articles/terex-corporation-q1-2026-earnings-204756955.html"},
+    {"label": "Yahoo Finance - TEX quote", "url": "https://finance.yahoo.com/quote/TEX/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 90: no new evidence since June 6 strengthens or weakens the latent AI-node pathway (lifting/material handling into AI-driven industrial construction); today's +2.15% and YTD +16.4% are modest enough that residual alpha is roughly unchanged, consistent with yesterday's hold.",
+      "bull": "Utilities and aerials demand tied to U.S. grid expansion and data-center construction gives Terex a real, still under-narrated AI-infrastructure pathway, with FY26 guidance ($7.5-8.1B sales, $4.50-5.00 EPS) reiterated and Raymond James at Strong Buy.",
+      "neutral": "A diversified machinery cyclical at ~$7.3B cap trading near its 52-week high; the AI/data-center link is one demand stream among many, and nothing since June 6 changes the strict-screen evidence either way.",
+      "bear": "Premium P/E for a cyclical near highs leaves little cushion if non-residential construction or aerials demand rolls over; the AI exposure is indirect and could be discounted quickly in a capex slowdown.",
+      "primaryCatalyst": "Q2 2026 earnings and any quantified data-center/grid backlog disclosure in the utilities and aerials segments.",
+      "primaryRisk": "Cyclical non-residential construction downturn compressing aerials/cranes demand and multiple, swamping the indirect AI-infrastructure tailwind."
+    }
+  ]
+}

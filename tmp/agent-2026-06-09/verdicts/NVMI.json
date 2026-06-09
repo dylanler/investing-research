@@ -1,0 +1,52 @@
+{
+  "symbol": "NVMI",
+  "company": "Nova",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan NVMI news feed (latest item May 18, 2026; record Q1 May 14, Q2 guide $245-255M)", "url": "https://www.stocktitan.net/news/NVMI/"},
+    {"label": "Yahoo Finance NVMI quote", "url": "https://finance.yahoo.com/quote/NVMI/"},
+    {"label": "Globe and Mail - Nova CFO investor conference participation (no June operational news)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVMI/pressreleases/302230/nova-cfo-to-highlight-semiconductor-metrology-strategy-at-trio-of-investor-conferences/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a -1.0% drift day; the WFE-tier case (process control intensity at advanced logic, HBM/DRAM and packaging) is unchanged from yesterday's hold, while the +44.75% YTD rerating keeps slowly consuming residual upside.",
+      "bull": "Record Q1 ($235.3M, +10% YoY) with Q2 guided to $245-255M and the new Mannheim facility tripling advanced-packaging metrology capacity show the process-control intensity thesis converting into numbers.",
+      "neutral": "Metrology share-of-capex keeps rising with gate-all-around, HBM and chiplet complexity, but at ~$16B market cap and after sell-side targets clustered near $600, much of that is in consensus.",
+      "bear": "WFE capex digestion or a pause in HBM/advanced-packaging tool orders would hit a stock priced for continuation after a 44.75% YTD run.",
+      "primaryCatalyst": "Q2 print (late July) versus the $245-255M guide, plus any new advanced-packaging design wins.",
+      "primaryRisk": "Capex cycle volatility and a crowded post-rerating setup with little valuation cushion."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On this crowding-sensitive alpha list the 'underrated' framing is eroding - three PT raises to $595-600 in May and a 44.75% YTD move mean discovery is well underway - but there is zero new information since yesterday's hold, so a small negative drift rather than a rank cut is the disciplined call.",
+      "bull": "Optical/material metrology for HBM stacks, hybrid bonding and photonics yields remains a structurally rising share of fab spend, and Nova is still small enough to compound off a narrow base.",
+      "neutral": "The asymmetry has compressed: residual alpha now depends on packaging/photonics metrology growing faster than the sell-side's already-raised numbers.",
+      "bear": "After Evercore/Citi/Barclays targets converged near $600, the name is no longer hidden; any capex wobble triggers a crowded exit from a $16B mid-cap.",
+      "primaryCatalyst": "Evidence of silicon-photonics and hybrid-bonding metrology orders outgrowing the core logic/DRAM business.",
+      "primaryRisk": "Crowding - the under-owned premise weakens each month the stock rerates without new bottleneck proof points."
+    },
+    {
+      "page": "companies",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's audit already balanced the pick-and-shovel bottleneck exposure against the YTD rerating; with no news since June 6 and a -1.0% day, rank 21 in the fab-tools bucket still fits.",
+      "bull": "Process-control intensity rises with every node and packaging transition, and Q1 execution (record revenue, capacity tripled in Mannheim) shows Nova capturing it.",
+      "neutral": "Solid, well-executing fab-tools input whose bottleneck exposure is real but already reflected in a 44.75% YTD move and consensus targets near $600.",
+      "bear": "A WFE digestion year or HBM oversupply would compress both estimates and the multiple simultaneously.",
+      "primaryCatalyst": "Q2 results and 2H WFE/HBM capex commentary from the major fabs.",
+      "primaryRisk": "Capex cyclicality against a fully-rerated valuation."
+    }
+  ]
+}

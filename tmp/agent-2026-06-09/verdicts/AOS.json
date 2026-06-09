@@ -1,0 +1,26 @@
+{
+  "symbol": "AOS",
+  "company": "A. O. Smith",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material AI-chain news. Drift-level analyst noise only: Zacks Research trimmed Q2 2026 EPS estimate to $1.00 from $1.01 (June 8) and carries a Strong Sell; JPMorgan reiterated underweight and cut its price target to $60 from $65. Weakness is in the core NA/China residential water-heater business, not the latent AI/data-center pathway. Today's +2.69% is a flow-driven bounce after a ~21% 90-day slide; next earnings July 23, 2026.",
+  "sources": [
+    {"label": "Daily Political - Zacks lowers AOS Q2 estimates, JPM underweight $60 PT", "url": "https://www.dailypolitical.com/2026/06/09/zacks-research-decreases-earnings-estimates-for-a-o-smith.html"},
+    {"label": "Simply Wall St - AOS valuation after analyst downgrades and earnings miss", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-aos/a-o-smith/news/a-look-at-a-o-smith-aos-valuation-after-analyst-downgrades-a"},
+    {"label": "SEC EDGAR - A. O. Smith 2026 filings (no new data-center announcements)", "url": "https://www.sec.gov/Archives/edgar/data/0000091142/000009114226000084/aos-20260331.htm"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence for or against the latent heat-reuse/water-treatment pathway since June 6; the only fresh items (Zacks trim, JPM $60 PT) hit the core residential business, not the AI-node thesis. Yesterday's hold already reconciled the YTD drawdown, and today's +2.7% bounce on no news doesn't change the setup.",
+      "bull": "Stock is down ~14% YTD and ~21% over 90 days while the speculative heat-reuse/facility-water optionality is untouched, so entry asymmetry is marginally better; any concrete data-center campus design win would be a free option on a washed-out name.",
+      "neutral": "AOS remains a residential/commercial water-heater company whose AI relevance is hypothetical; with no contracts or capacity announcements tying it to AI campuses, it is fairly ranked mid-pack on a strict latent-node screen pending the July 23 earnings read.",
+      "bear": "Core NA and China demand is deteriorating (estimate cuts, JPM underweight), and a weakening earnings base erodes the balance-sheet flexibility needed to ever monetize the AI-adjacent pathway, leaving the listing as a thesis without evidence.",
+      "primaryCatalyst": "Q2 earnings on July 23, 2026, or any first concrete data-center / industrial-campus water-infrastructure win that converts the latent pathway into evidence.",
+      "primaryRisk": "Continued NA/China residential weakness drives further estimate cuts, and the AI heat-reuse pathway never materializes beyond speculation."
+    }
+  ]
+}

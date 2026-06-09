@@ -1,0 +1,35 @@
+{
+  "symbol": "BOSN.SW",
+  "company": "Bossard",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - Bossard Holding AG (BOSN.SW) quote and news",
+      "url": "https://finance.yahoo.com/quote/BOSN.SW/"
+    },
+    {
+      "label": "MarketScreener - Bossard Holding AG latest news (no fresh items since Jun 6)",
+      "url": "https://www.marketscreener.com/quote/stock/BOSSARD-HOLDING-AG-16256805/news/"
+    },
+    {
+      "label": "Global Fastener News - Arnold Industries acquisition confirmed as 2016, not new",
+      "url": "https://www.globalfastenernews.com/2016-fin-bossard-to-acquire-arnold-industries/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already reconciled the adjusted-score gap to rank ~86; nothing new since Jun 6 justifies a second move. A +1.7% day and YTD creeping to +14.1% with zero fresh evidence of AI-enclosure/robotics fastener demand is mild alpha decay, not a re-rank.",
+      "bull": "Bossard's vendor-managed fastener logistics quietly aggregates demand from modular data-center enclosure and robotics assemblers, and Q2 results (due ~Jul 20) could surface that mix shift before the market prices it.",
+      "neutral": "A CHF 1.7B Swiss industrial distributor riding general industrial recovery; the latent-AI-node pathway remains plausible but unevidenced, so it earns its tail-of-list rank on a strict screen.",
+      "bear": "The AI linkage is the weakest kind of derivative exposure - generic fasteners are commoditized and customer-substitutable - and a +14% YTD grind without any AI-specific wins means the residual alpha is mostly cyclical beta.",
+      "primaryCatalyst": "H1/Q2 2026 results around July 20 disclosing electronics, robotics, or data-center-adjacent order momentum.",
+      "primaryRisk": "Thesis stays unevidenced while European industrial PMI softens, leaving a low-liquidity SIX name with no AI bid and pure cyclical downside."
+    }
+  ]
+}

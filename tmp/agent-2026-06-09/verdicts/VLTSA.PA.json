@@ -1,0 +1,35 @@
+{
+  "symbol": "VLTSA.PA",
+  "company": "Voltalia",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Voltalia press releases (IR) - latest items are May 20 board change and Apr 23 Q1 turnover; nothing in June 6-9 window",
+      "url": "https://www.voltalia.com/investor-relations/press-releases/"
+    },
+    {
+      "label": "Voltalia Q1 2026 turnover +25% (Apr 23, 2026) - last fundamental datapoint, reiterated 2026-2030 self-financed growth trajectory",
+      "url": "https://www.voltalia.com/news-releases/news-release-details/25-strong-growth-q1-2026-turnover"
+    },
+    {
+      "label": "Yahoo Finance quote VLTSA.PA - price flat on June 9",
+      "url": "https://finance.yahoo.com/quote/VLTSA.PA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and the stock is dead flat today (0.0%) with YTD -3.6%, so neither new fundamental evidence nor price action changes the scaling-watchlist setup; yesterday's hold at rank 9 stands.",
+      "bull": "Sub-$1.3B, under-owned French renewable developer with Q1 2026 turnover up 25%, ~3.7 GW 2026 capacity target and a slightly negative YTD - the power-bottleneck optionality is unrepriced, so asymmetry is intact.",
+      "neutral": "Pure-play renewable developer whose AI link is indirect (grid electricity supply, not data-center PPAs disclosed); without a named hyperscaler or data-center offtake, it drifts with the European renewables tape.",
+      "bear": "Balance-sheet-heavy developer in a higher-for-longer rate environment; the SPRING transformation and 2028 first-dividend plan signal that self-financed growth is still unproven, and any capacity slippage versus the 3.7 GW target hits the equity hard at this size.",
+      "primaryCatalyst": "Q2 2026 turnover release on July 23, 2026, plus any data-center or corporate PPA announcement that hardens the AI-power link.",
+      "primaryRisk": "Financing strain or project delays forcing a guidance cut on the ~3.7 GW / EUR 210-230M EBITDA 2026 targets."
+    }
+  ]
+}

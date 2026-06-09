@@ -1,0 +1,27 @@
+{
+  "symbol": "PWR",
+  "company": "Quanta Services",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - PWR quote", "url": "https://finance.yahoo.com/quote/PWR/"},
+    {"label": "StockInvest - PWR recent price action (June 2026)", "url": "https://stockinvest.us/stock/PWR"},
+    {"label": "Seeking Alpha - Oppenheimer upgrade (May 28, pre-window)", "url": "https://seekingalpha.com/news/4598104-quanta-services-positioned-in-markets-with-superior-growth-prospects-raised-at-oppenheimer"},
+    {"label": "Tickeron - Q1 2026 results, backlog near $50B (pre-window)", "url": "https://tickeron.com/blogs/quanta-services-pwr-delivers-strong-q1-2026-results-with-backlog-near-50-billion-13993/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the May 28 Oppenheimer upgrade ($800 PT) and Q1 backlog strength were already reflected in yesterday's down move for crowding. Today's -1.5% drift off the early-June high neither adds evidence nor meaningfully restores asymmetry, so hold at rank 96.",
+      "bull": "Near-$50B backlog, raised FY26 guidance ($34.7-35.2B revenue) and a $1B buyback give durable grid/AI-power buildout exposure; a continued pullback from ~$715 toward the low $600s would rebuild entry asymmetry.",
+      "neutral": "A $104B large-cap up 55% YTD with sell-side now fully on board (Oppenheimer Outperform, $800 PT) is a well-told story; it earns its Monitor/benchmark bucket but offers little hidden alpha versus less-rerated passive/power bottleneck names.",
+      "bear": "Crowding plus a 30-35x EBITDA-multiple-anchored bull case leaves the stock exposed to any AI-capex digestion or utility-spend deceleration headline; labor-intensive E&C margins cap upside surprise versus component bottlenecks.",
+      "primaryCatalyst": "Q2 2026 earnings and backlog/bookings update, plus any large transmission or data-center-power contract awards.",
+      "primaryRisk": "Multiple compression on AI-infrastructure sentiment reversal given full sell-side endorsement and 55% YTD rerating."
+    }
+  ]
+}

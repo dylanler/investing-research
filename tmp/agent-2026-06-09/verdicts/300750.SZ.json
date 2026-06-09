@@ -1,0 +1,35 @@
+{
+  "symbol": "300750.SZ",
+  "company": "CATL",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "SCMP - CATL deploys humanoid robots at scale on the factory floor (Spirit AI Xiaomo, Dec 2025 - background, no new development since Jun 6)",
+      "url": "https://www.scmp.com/tech/big-tech/article/3336939/chinas-catl-marks-trailblazing-deployment-humanoid-robots-scale-factory-floor"
+    },
+    {
+      "label": "PRNewswire - HyperStrong/CATL 10-year, 200 GWh agreement (Nov 2025 - confirmed not new)",
+      "url": "https://www.prnewswire.com/news-releases/hyperstrong-and-catl-sign-a-ten-year-agreement-deepening-strategic-partnership-including-200-gwh-procurement-over-three-years-302616419.html"
+    },
+    {
+      "label": "Yahoo Finance quote 300750.SZ",
+      "url": "https://finance.yahoo.com/quote/300750.SZ/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "No robotics-specific news since Jun 6; the Xiaomo humanoid deployment proof is from Dec 2025 and already priced into the thesis, and the rank already improved from #47 to #39 since yesterday's hold. A $268B mega-cap battery maker offers near-zero robotics purity, so no residual alpha case for moving again on a +1.65% drift day.",
+      "bull": "CATL is the most credible at-scale proof point that humanoids work in real manufacturing (Xiaomo at >99% connection success, ~3x manual daily workload), and it powers the robots' batteries - a quiet picks-and-shovels angle on embodied AI.",
+      "neutral": "All recent flow (Citi estimate raise Jun 5, Nanjing Bus pact Jun 4, charge-swap network Jun 3) is battery-business news, not robotics; the stock is up only 5.8% YTD, so neither crowding nor a sell-off changes the asymmetry on this page.",
+      "bear": "Robotics is a rounding error in a $268B battery business; the humanoid factory story is a cost-efficiency tool, not a revenue line, and the listing exists mainly as ecosystem proof rather than an investable robotics exposure.",
+      "primaryCatalyst": "Expansion of humanoid deployment beyond the Luoyang Zhongzhou base or a disclosed robotics/embodied-AI battery supply program (e.g., dedicated humanoid battery line or Spirit AI stake) that converts proof-of-concept into a revenue vector.",
+      "primaryRisk": "Robotics narrative stays immaterial to earnings while EV-battery pricing pressure or China demand softness drags the whole stock, leaving zero page-specific alpha."
+    }
+  ]
+}

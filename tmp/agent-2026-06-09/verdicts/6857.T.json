@@ -1,0 +1,54 @@
+{
+  "symbol": "6857.T",
+  "company": "Advantest",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's +4.34% (to JPY 26,330) is part of a broad AI-driven Tokyo semiconductor rally - Advantest, Tokyo Electron and Lasertec leading the Nikkei's push toward record highs on AI optimism and a weak yen - i.e. flow/momentum, not a new fundamental catalyst. All known positives (FY2026 guidance ~$9B revenue +26% y/y, ~70% AI test share, 66% SoC tester share, capacity ramp to 10,000 SoC testers/yr by end-2028, >6-month ATE lead times) predate the window; next earnings July 29, 2026.",
+  "sources": [
+    {"label": "FXEmpire - Nikkei 225: Advantest and Tokyo Electron lead push toward 70,000", "url": "https://www.fxempire.com/forecasts/article/nikkei-225-forecast-advantest-and-tokyo-electron-lead-push-toward-70000-1601938"},
+    {"label": "Al Jazeera - Japan's stock market hits new record as AI boom gathers steam", "url": "https://www.aljazeera.com/economy/2026/6/3/japans-stock-market-hits-new-record-as-ai-boom-gathers-steam"},
+    {"label": "Digitimes - Advantest ATE lead times remain tight as AI and memory markets expand", "url": "https://www.digitimes.com/news/a20260116PD217/demand-advantest-equipment-hbm-2026.html"},
+    {"label": "Digitimes - Advantest beats on AI chip testing, cautious outlook dents shares", "url": "https://www.digitimes.com/news/a20260501VL206/advantest-earnings-outlook-revenue-testing.html"},
+    {"label": "Yahoo Finance - Advantest 6857.T quote", "url": "https://finance.yahoo.com/quote/6857.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Node criticality is unchanged - near-monopoly AI/HBM test intensity keeps Advantest a genuine bottleneck on this list - but today's +4.3% is sector-flow rerating with zero new order, contract or guidance news, so residual upside drifts slightly lower at rank 19.",
+      "bull": "HBM4/HBM4E transitions and higher stack counts raise test seconds per device; ~70% AI test share with >6-month lead times means demand is structurally captive to Advantest's capacity ramp.",
+      "neutral": "Fundamentals known since the April print are intact; the stock is simply repricing with the Japan AI rally, leaving the node thesis valid but no fresher than yesterday's hold.",
+      "bear": "At $120B cap and 24% YTD the bottleneck is fully discovered; Chinese ATE share gains and any digestion in AI accelerator orders would hit a stock priced for flawless execution.",
+      "primaryCatalyst": "July 29 earnings with HBM4-driven order and backlog upside",
+      "primaryRisk": "ATE order air-pocket or China ATE encroachment after a momentum-led rerating"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 46,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a CPO-alpha lens Advantest's optical/advanced-package test angle is secondary, and a +4.3% flow-driven pop on no CPO-specific news only erodes what little residual asymmetry rank 46 had; the page's own stated risk - high AI expectations - is exactly what just got more expensive.",
+      "bull": "If co-packaged optics scales, known-good-die and optical engine test becomes a new attach layer where Advantest's installed base and SoC test dominance give it a head start.",
+      "neutral": "CPO test revenue remains negligible today; the stock trades on core SoC/HBM test momentum, so CPO optionality is neither confirmed nor impaired by this week's action.",
+      "bear": "A crowded, $120B momentum name with only indirect CPO exposure is the opposite of hidden alpha; specialist photonic test entrants could take the CPO socket before it matters to Advantest's P&L.",
+      "primaryCatalyst": "Concrete CPO/silicon-photonics test design win or product announcement",
+      "primaryRisk": "Crowding unwind in Japanese AI semis with no CPO-specific support under the rank"
+    },
+    {
+      "page": "companies",
+      "currentRank": 28,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "This page's alpha score explicitly rewards bottleneck exposure that has NOT already rerated; a +4.3% day inside a Nikkei AI melt-up, YTD now 24.3% with no new evidence since June 6, means the discovery discount has narrowed again - down from rank 28.",
+      "bull": "Pick-and-shovel economics keep improving: 44.7% sales growth in FY2025, ~$9B FY2026 guide, and a capacity ramp to 10,000 SoC testers/yr by 2028 against six-month-plus lead times.",
+      "neutral": "Execution and pricing are on track and nothing in the window challenges the thesis; this is purely a residual-alpha haircut, not a fundamental downgrade.",
+      "bear": "One of the most consensus AI proxies in Japan at $120B cap; any AI capex digestion, yen strength, or Chinese ATE substitution converts a momentum premium into sharp downside.",
+      "primaryCatalyst": "July 29 FY26 Q1 results and any upward revision to tester demand/capacity targets",
+      "primaryRisk": "Momentum/crowding reversal in Japan AI semis with valuation already reflecting the bottleneck"
+    }
+  ]
+}

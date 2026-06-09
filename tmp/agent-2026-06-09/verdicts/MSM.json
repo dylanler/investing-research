@@ -1,0 +1,27 @@
+{
+  "symbol": "MSM",
+  "company": "MSC Industrial Direct",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Shares set a new 52-week high on June 9 (intraday $119.07), extending a cost-cut-driven rerating (KeyBanc raised its target to $120 on June 2, pre-window, citing the 1,000-person headcount reduction / internal cost savings story). Stock now trades above the ~$92.8 mean analyst target. Fiscal Q3 earnings due June 30, 2026 (est. EPS $1.21 on ~$1.02B revenue; company guided Q3 ADS growth 5-7% and adj. op margin 9.7-10.3%). Nothing new on the AI-infrastructure MRO demand pathway.",
+  "sources": [
+    {"label": "Ticker Report - MSM sets new 1-year high (June 9, 2026)", "url": "https://www.tickerreport.com/banking-finance/13468416/msc-industrial-direct-nysemsm-sets-new-1-year-high-heres-what-happened.html"},
+    {"label": "Simply Wall St - MSM valuation after recent share price momentum", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-msm/msc-industrial-direct/news/assessing-msc-industrial-direct-msm-valuation-after-strong-r-1"},
+    {"label": "StockAnalysis - MSM overview, consensus target ~$92.8, Q3 earnings June 30", "url": "https://stockanalysis.com/stocks/msm/"},
+    {"label": "Motley Fool - MSM fiscal Q2 2026 earnings transcript (guidance baseline)", "url": "https://www.fool.com/earnings/call-transcripts/2026/04/01/msc-industrial-msm-q2-2026-earnings-transcript/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 80,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a strict latent-node alpha screen, a fresh 52-week high (+36% YTD) driven entirely by a cost-cut/headcount-reduction rerating - with zero new evidence on the AI-infrastructure MRO pathway - compresses residual alpha; the stock now sits above the ~$92.8 mean analyst target and at the top published target ($120). Yesterday's hold is superseded by today's new-high price action without thesis-relevant news.",
+      "bull": "If AI datacenter and fab buildouts stretch supplier lead times, MSC's MRO distribution captures fragmented parts demand nobody models, and the leaner cost base means that incremental volume drops through at higher margins.",
+      "neutral": "The latent thesis is intact but unproven; the stock's move is a self-help margin story that says nothing either way about the AI pathway, so the listing is now paying full price for optionality that hasn't shown up in numbers.",
+      "bear": "At new highs above consensus targets on a Hold-rated, $6.5B industrial distributor, any Q3 (June 30) miss on the 5-7% ADS guide or cost-savings slippage unwinds the rerating, and the AI-MRO demand link may never materialize as a measurable revenue stream.",
+      "primaryCatalyst": "Fiscal Q3 FY2026 earnings on June 30, 2026 - evidence of ADS growth at/above the 5-7% guide and any commentary on AI/datacenter-adjacent industrial demand.",
+      "primaryRisk": "Crowded post-rerating chase: price above mean analyst target with the run driven by cost cuts, not the latent AI thesis, leaving asymmetric downside into the June 30 print."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "NOEJ.DE",
+  "company": "NORMA Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "NORMA Group press releases (latest items predate June 6: April 28 fluid-lines contract, April buyback completion, May Q1 report)",
+      "url": "https://www.normagroup.com/global/en/news/press-releases"
+    },
+    {
+      "label": "NORMA Group wins major order to equip full-size vehicles with fluid lines (Apr 28, 2026, EUR 30M / 7 years)",
+      "url": "https://www.normagroup.com/global/en/news/press-releases/2026/norma-group-wins-major-order-to-equip-full-size-vehicles-with-fluid-lines"
+    },
+    {
+      "label": "Q1 2026: profitability improved, Industry Applications organic growth; net debt-free after EUR 650M water divestment",
+      "url": "https://www.webdisclosure.com/press-release/norma-group-ag-etr-noej-norma-group-improves-profitability-in-the-first-quarter-of-2026-industry-applications-generates-organic-growth-NsfuRl66TOz"
+    },
+    {
+      "label": "Public share buyback (EUR 52.9M) launched Feb 25, completed April 2026",
+      "url": "https://www.normagroup.com/global/en/news/press-releases/2026/NORMA-Group-launches-public-share-buyback-offer"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No new evidence since June 6 connecting NORMA's connectors/clamps to AI liquid-cooling or data-center demand; today's -1.6% is flow-level drift that neither stretches nor improves the latent-node asymmetry, so yesterday's hold stands.",
+      "bull": "Post water-divestment the company is net debt-free with EUR 650M proceeds banked and a completed EUR 52.8M buyback, giving a clean balance sheet behind a cheap (~$0.58B cap) optionality bet on engineered fluid joining migrating into liquid loops and compact manifolds.",
+      "neutral": "Recent wins (April's EUR 30M fuel-vapor-line OEM contract) and Q1 organic growth are auto/industrial, not AI; the latent AI-node pathway remains entirely unproven, so the score correctly prices speculation rather than evidence.",
+      "bear": "Group sales still shrinking with a 3% adjusted EBIT margin and 0-2% growth guidance; if the liquid-cooling pathway never materializes this is a low-margin auto restructuring story with no AI torque, and YTD +14.5% has already absorbed the balance-sheet cleanup.",
+      "primaryCatalyst": "Any disclosed design win or partnership placing NORMA connectors/clamps into data-center liquid-cooling loops or CDU manifolds; next checkpoint is H1 results on August 11, 2026.",
+      "primaryRisk": "Thesis stays latent indefinitely while auto end-markets and restructuring costs drag earnings, leaving the AI-node pathway as narrative-only."
+    }
+  ]
+}

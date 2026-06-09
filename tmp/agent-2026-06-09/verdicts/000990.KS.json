@@ -1,0 +1,28 @@
+{
+  "symbol": "000990.KS",
+  "company": "DB HiTek",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's +7.24% move appears flow-driven: continuation of the 8-inch/power-semiconductor rerating cycle (LS Securities target hike citing accelerating 8-inch foundry supply shortage; DS Securities TP raised ~88% to KRW 210,000 in May; Sangsangin TP KRW 208,000), sustained institutional net buying (6 consecutive days), and the PCIM 2026 power-semi expo in Nuremberg starting today (June 9-11) where DB HiTek is showcasing SiC/GaN and BCDMOS processes - marketing optics, not contracts. Underlying fundamentals (Q1 revenue +26% YoY, OP +21%, AI/datacenter PMIC demand, ASP hikes from Q2) were already known in May.",
+  "sources": [
+    {"label": "BusinessPost - LS Securities raises DB HiTek target price on 8-inch foundry supply shortage", "url": "https://www.businesspost.co.kr/BP?command=article_view&num=419614"},
+    {"label": "ZDNet Korea - DB HiTek to exhibit SiC/GaN at PCIM 2026 (June 9-11, Nuremberg)", "url": "https://zdnet.co.kr/view/?no=20260429092744"},
+    {"label": "Nate News - AI and power semis drive DB HiTek boom-cycle narrative", "url": "https://news.nate.com/view/20260527n02050"},
+    {"label": "Hankyung - DB HiTek 52-week high on heavy institutional net buying", "url": "https://www.hankyung.com/article/202605272098L"},
+    {"label": "Yahoo Finance quote", "url": "https://finance.yahoo.com/quote/000990.KS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 86,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Another +7.2% flow-driven leg (now +131% YTD) on sell-side target hikes and PCIM optics, with zero new contracts or guidance since June 6, further compresses residual alpha for a legacy 8-inch specialty foundry whose link to the advanced-node AI tollgate (CPO/HBM/packaging) was already the weak point flagged in yesterday's down verdict.",
+      "bull": "8-inch foundry supply genuinely tightening as peers migrate to 12-inch; ASP hike cycle from Q2 2026 plus AI/datacenter PMIC demand gives high fixed-cost operating leverage, and SiC/GaN mass production in 2027 adds a second act.",
+      "neutral": "Q1 results (revenue +26%, OP +21%) confirm the power-semi turnaround, but that evidence is a month old and consensus has fully repriced it via near-doubled price targets; the stock now trades on momentum, below its May high.",
+      "bear": "A trailing-edge PMIC/DDI foundry up 131% YTD on a cyclical utilization recovery is the classic post-rerating chase; if 8-inch tightness eases or institutional flows reverse, the multiple has no advanced-node AI moat to fall back on.",
+      "primaryCatalyst": "Q2 2026 results evidencing the ASP-hike margin leverage, or concrete SiC/GaN customer qualification wins out of PCIM 2026.",
+      "primaryRisk": "Crowding unwind: momentum/institutional flows reverse on any power-semi cycle wobble, with valuation already discounting the 2027 SiC/GaN ramp."
+    }
+  ]
+}

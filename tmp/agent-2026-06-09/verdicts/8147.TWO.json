@@ -1,0 +1,39 @@
+{
+  "symbol": "8147.TWO",
+  "company": "Nextronics Engineering",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote/news 8147.TWO (no fresh headlines since Jun 6; AGM Jun 10)",
+      "url": "https://finance.yahoo.com/quote/8147.TWO/"
+    },
+    {
+      "label": "cnyes intraday alert - 8147 limit-up at 155.5 (dated Apr 10, 2026, not new)",
+      "url": "https://news.cnyes.com/news/id/6414919"
+    },
+    {
+      "label": "UDN investor-conference recap - 2026 revenue +30% target on AI, humanoid robot, medical (late-2025, pre-existing thesis evidence)",
+      "url": "https://udn.com/news/story/7254/9214793"
+    },
+    {
+      "label": "CommonWealth Magazine - Nextronics in NVIDIA, liquid-cooling, optical supply chains",
+      "url": "https://www.cw.com.tw/article/5140171"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news since June 6 and a quiet +0.67% tape; yesterday's hold already priced the +40% YTD run against the still-intact micro-cap humanoid-connector thesis, and nothing today changes that setup. May monthly revenue (due ~Jun 10) and the Jun 10 AGM are pending catalysts, not new evidence.",
+      "bull": "Confirmed humanoid trial production (~10 high-value connectors plus ~140 connecting parts per industrial humanoid for BMW/Benz-class lines) on a $190M cap with 2026 revenue guided +30% - genuine bottleneck optionality the market barely covers.",
+      "neutral": "Q1 2026 (EPS NT$0.91, revenue +26% YoY) and April revenue +19.5% YoY keep the growth thesis on track, but robotics is still <1% of revenue, so the humanoid story remains mostly option value while AI server/liquid-cooling connectors carry the P&L.",
+      "bear": "+40% YTD on a thin, retail-heavy TPEx micro-cap with no new wins since the December investor conference means much of the easy rerating is done; any soft May print or AGM disappointment hits an illiquid name hard.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~Jun 10) and the June 10 AGM confirming humanoid connector ramp into 2H26 volume orders.",
+      "primaryRisk": "Humanoid revenue stays sub-1% of sales longer than hoped while the YTD rerating deflates; micro-cap illiquidity amplifies any downside."
+    }
+  ]
+}

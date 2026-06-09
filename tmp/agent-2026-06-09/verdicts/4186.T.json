@@ -1,0 +1,26 @@
+{
+  "symbol": "4186.T",
+  "company": "Tokyo Ohka Kogyo",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8, 2026: TOK announced commencement of operations at the Aso Kumamoto Site of its Aso Plant - new Kumamoto capacity (high-purity semiconductor chemicals/photoresist-adjacent materials serving the TSMC JASM cluster) coming online on schedule. Incremental supply-side confirmation, not a new contract or guidance change. No other material news since June 6; Q1 beat (op profit +53.8% YoY) dates to May 11. Today's +2.1% move is modest and consistent with this announcement plus sector strength.",
+  "sources": [
+    {"label": "TOK official news page 2026 (June 8 Aso Kumamoto operations notice)", "url": "https://www.tok.co.jp/eng/news/2026"},
+    {"label": "Yahoo Finance quote 4186.T", "url": "https://finance.yahoo.com/quote/4186.T/"},
+    {"label": "TrendForce - Japan photoresist investment for 2nm, TOK/JSR", "url": "https://www.trendforce.com/news/2025/11/06/news-japan-ramps-up-photoresist-investment-for-2nm-chips-tokyo-ohka-kogyo-jsr-lead-the-charge/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "The June 8 Aso Kumamoto start-up is genuine but incremental fundamental confirmation of the capacity thesis, not thesis-changing; with the stock +65% YTD and yesterday already a hold, residual alpha at rank 47 is roughly unchanged - hold with small positive drift.",
+      "bull": "Duopoly-grade photoresist share (~91% globally with JSR), Q1 operating profit +53.8% YoY, and new Kumamoto capacity now live next to the TSMC JASM cluster directly monetize AI fab and HBM build-outs.",
+      "neutral": "Capacity coming online on schedule was largely anticipated and pre-announced; at +65% YTD and a $7.75B cap, the market already prices a strong materials cycle, leaving order timing as the swing factor.",
+      "bear": "Post-rerating chase risk: any slip in AI fab utilization, HBM order timing, or tighter export controls on advanced-node customers compresses the multiple faster than new capacity can fill.",
+      "primaryCatalyst": "Q2 results on August 6-11, 2026 confirming EUV/ArF resist volume growth and utilization of the new Kumamoto and Koriyama capacity.",
+      "primaryRisk": "Export-control escalation or an AI capex digestion phase hitting advanced-node resist orders just as new capacity ramps, after a 65% YTD rerating."
+    }
+  ]
+}

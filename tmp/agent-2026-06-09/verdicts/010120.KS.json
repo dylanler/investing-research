@@ -1,0 +1,41 @@
+{
+  "symbol": "010120.KS",
+  "company": "LS Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news found since June 6. Today's +5.53% (208,000 -> 219,500 KRW) is judged flow-driven: a rebound within a ~30% correction from the early-May record high (~315,000 KRW on May 6), with no fresh order, earnings, or guidance catalyst. The latest fundamental datapoints remain the May US data-center switchgear orders ($64M microgrid switchgear ~May 20; $70M big-tech power equipment May 18) and the April $114M US big-tech switchgear deal - all pre-dating June 6 and already reflected in yesterday's hold verdicts.",
+  "sources": [
+    {"label": "Korea Times - LS Electric wins $64M microgrid switchgear contract for US data center (May 20, 2026)", "url": "https://www.koreatimes.co.kr/amp/business/companies/20260520/ls-electric-wins-64-mil-microgrid-switchgear-contract-for-us-data-center"},
+    {"label": "Seoul Economic Daily - LS Electric wins $70M data center power equipment order from US Big Tech (May 18, 2026)", "url": "https://en.sedaily.com/finance/2026/05/18/ls-electric-wins-70-million-data-center-power-equipment"},
+    {"label": "KED Global - LS Electric wins $114M switchgear deal with US Big Tech (April 2026)", "url": "https://www.kedglobal.com/machinery/newsView/ked202604130005"},
+    {"label": "Asia Business Daily - LS Electric record-high run on US AI data center investment (early May 2026)", "url": "https://www.asiae.co.kr/en/article/2026050414042442695"},
+    {"label": "Yahoo Finance quote 010120.KS", "url": "https://finance.yahoo.com/quote/010120.KS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new evidence since June 6; today's +5.5% is a flow bounce inside a ~30% drawdown from the May peak, which modestly restores asymmetry on this crowding-sensitive list, but with YTD still +123% and ~18 buy ratings the name is no longer under-owned enough to re-rank up from 54.",
+      "bull": "Repeat US hyperscaler switchgear wins ($114M, $70M, $64M since April) prove LS Electric is a genuine supplier into the data-center power bottleneck, and the 30% pullback from 315,000 KRW resets the entry.",
+      "neutral": "Order momentum is real but already discovered; the stock oscillates on power-theme flows (+5.5% today, -5.2% June 5) with no fresh fundamental data, leaving the alpha case roughly where yesterday's hold left it.",
+      "bear": "It sits farther from the passives/power bottleneck core than the list's top names, the +123% YTD re-rating has consumed most residual alpha, and Korean retail/thematic flows make the position crowded and volatile.",
+      "primaryCatalyst": "Another large US hyperscaler switchgear/power-equipment order or Q2 earnings showing data-center backlog converting to margin.",
+      "primaryRisk": "Continued unwind of the Korean power-equipment trade - the stock is already 30% off its May high and remains a consensus thematic holding."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Nothing new since June 6 on the network-centrality lens: the US data-center order chain that established its grid/DC node status is all April-May news, and today's flow-driven +5.5% bounce does not change centrality, so the rank-69 hold from yesterday stands.",
+      "bull": "Three US big-tech power orders in two months show LS Electric becoming a structural node in the AI grid build-out, with Korea/Asia data-center demand and overseas expansion still ahead of it.",
+      "neutral": "The node thesis is intact but static this week; the 'less global coverage than US peers' edge is eroding as Reuters/Yonhap headlines and 18 buy ratings pull it into the consensus map.",
+      "bear": "As coverage broadens the name stops being latent at all, and a Korean mid-cap trading on thematic flows (down 30% from May peak) can de-rate faster than its order book grows.",
+      "primaryCatalyst": "New overseas capacity or transformer/switchgear expansion announcements, or further hyperscaler design wins confirming repeat-supplier status.",
+      "primaryRisk": "Loss of latency premium: full sell-side discovery plus a Korea power-theme unwind would compress the score without any change in fundamentals."
+    }
+  ]
+}

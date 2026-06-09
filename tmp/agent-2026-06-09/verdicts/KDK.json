@@ -1,0 +1,27 @@
+{
+  "symbol": "KDK",
+  "company": "Kodiak AI",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only fresh item is a soft PR (named to Inc.'s 2026 Best Workplaces, Logistics & Transportation) - immaterial. The known negatives (May 7 dilutive $100M raise at $6.50/share that sent the stock down 37%, and the Atlas 100-truck order ramp pushed to 2027) predate June 6 and were reflected in yesterday's down verdict. Long-haul driverless launch milestone still targeted for Sept 1, 2026. Today's -4.2% is drift/flow, below the 5% threshold, with no identifiable catalyst.",
+  "sources": [
+    {"label": "StockTitan - Kodiak AI named to Inc. 2026 Best Workplaces", "url": "https://www.stocktitan.net/news/KDK/kodiak-ai-named-to-inc-s-2026-best-workplaces-zjovqtowf6mr.html"},
+    {"label": "TechCrunch - Kodiak AI raises $100M at steep discount, stock tumbles 37% (May 7, 2026)", "url": "https://techcrunch.com/2026/05/07/kodiak-ai-raises-100m-at-a-steep-discount-sending-its-stock-tumbling-37/"},
+    {"label": "Seeking Alpha - Kodiak AI: Major Delay And Dilution (Q1)", "url": "https://seekingalpha.com/article/4902892-kodiak-ai-stock-q1-major-delay-and-dilution-reiterate-hold"},
+    {"label": "Kodiak AI press releases", "url": "https://kodiak.ai/news?category=press-releases"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already priced the dilution and Atlas ramp delay; nothing genuinely new since June 6, and today's -4.2% is drift, not a thesis event. Continued de-crowding at $1.33B cap with the Sept 2026 driverless launch catalyst intact marginally improves asymmetry, so hold with slight positive drift rather than another cut.",
+      "bull": "A still-funded pure-play on real-world autonomy at -43% YTD with a dated, binary catalyst (long-haul driverless launch targeted Sept 1, 2026) plus Bosch hardware and General Dynamics defense optionality - asymmetry improves as the tape washes out holders.",
+      "neutral": "TTM revenue of ~$3.8M against a ~$585M net loss means the stock trades entirely on milestone credibility; until the Atlas ramp or ARM completion shows progress, it is a proxy position, and the robotics-page thesis (autonomy under industrial constraints) neither strengthens nor weakens this week.",
+      "bear": "The May raise at $6.50 reset warrant/convertible strikes and expanded the future share count; with the 100-truck revenue ramp pushed to 2027, further dilution before commercialization is the base case, and short interest is rising sharply.",
+      "primaryCatalyst": "Long-haul driverless launch / ARM completion targeted around September 1, 2026, plus visible Atlas truck deliveries scaling via Roush.",
+      "primaryRisk": "Another dilutive capital raise or a slip in the H2 2026 driverless launch, which would break the milestone-credibility thesis at a near-zero-revenue valuation."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "TWIN",
+  "company": "Twin Disc",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only relevant item is the June 3 announcement that CFO Jeff Knutson presents at the Three Part Advisors East Coast IDEAS Conference on June 10 (with investor 1x1s) - a soft small-cap visibility catalyst that likely explains part of today's +3.18% pre-conference drift. No earnings, contracts, design wins, M&A, capacity news, or analyst actions found.",
+  "sources": [
+    {
+      "label": "Twin Disc to Present at Three Part Advisors Ideas Conference (GlobeNewswire, 2026-06-03)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3305982/0/en/Twin-Disc-to-Present-at-Three-Part-Advisors-Ideas-Conference.html"
+    },
+    {
+      "label": "Twin Disc investor relations - no new releases since June 6",
+      "url": "https://ir.twindisc.com/"
+    },
+    {
+      "label": "Twin Disc quote/news overview",
+      "url": "https://stockanalysis.com/stocks/twin/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Latent-spillover thesis (transmissions/clutches into robotics-automation machinery) is unchanged and there is zero new fundamental evidence since June 6; a +3.2% day and YTD now +24.2% (vs +20.4% at yesterday's hold) is a slow grind-up without news, which slightly erodes residual latent-node alpha but not enough to re-rank a $260M microcap one day after a hold verdict.",
+      "bull": "Tiny ($0.26B) under-covered industrial with real torque-transmission and hydraulic content; any disclosed robotics/automation or specialty-cooling machinery order would force a step rerating, and tomorrow's IDEAS conference 1x1s could start surfacing the story to small-cap funds.",
+      "neutral": "Core business remains marine and off-highway transmission cyclicality; the AI/robotics spillover is still a pathway, not booked revenue, so the stock trades on legacy end-markets while the latent thesis waits for evidence.",
+      "bear": "YTD +24% with no AI-specific wins disclosed means the easy multiple drift is being consumed; if conference visibility draws momentum buyers without fundamentals, the name converts from latent to semi-crowded and the asymmetry decays.",
+      "primaryCatalyst": "CFO presentation and investor 1x1s at the Three Part Advisors East Coast IDEAS Conference on June 10, plus the next quarterly report for any robotics/automation order disclosure.",
+      "primaryRisk": "Cyclical marine/off-highway demand softness with no materialized AI-adjacent orders, leaving a 24%-YTD microcap with thin liquidity exposed to a giveback."
+    }
+  ]
+}

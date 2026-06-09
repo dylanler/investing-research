@@ -1,0 +1,40 @@
+{
+  "symbol": "3436.T",
+  "company": "SUMCO Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. Latest material items predate the window: Nomura's target raise from Y2,270 to Y4,100 (May 29) drove shares to an 18.5-year high of Y3,987 on the AI wafer supply-squeeze / 2027 contract-repricing thesis; stock has since pulled back ~12% to Y3,501. May 12 H1 FY2026 guidance still calls for an operating loss of Y7.7B (300mm AI/DRAM tight, 200mm weak), and SUMCO is delaying two new wafer fabs to keep the market tight. Today's -0.6% is drift, not signal.",
+  "sources": [
+    {"label": "BigGo Finance - SUMCO hits 18.5-year high on Nomura Y4,100 target (May 29, 2026)", "url": "https://finance.biggo.com/news/v0Qycp4B2jrwCtglokHP"},
+    {"label": "TrendForce - SUMCO delays construction of two silicon wafer fabs (Apr 2026)", "url": "https://www.trendforce.com/news/2026/04/06/news-sumco-delays-construction-of-two-silicon-wafer-fabs-amid-market-shift/"},
+    {"label": "Quartr - SUMCO IR: H1 FY2026 guidance, operating loss Y7.7B, 300mm AI/DRAM strong", "url": "https://quartr.com/companies/sumco-corporation_15578"},
+    {"label": "Yahoo Finance quote 3436.T", "url": "https://finance.yahoo.com/quote/3436.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the nodes/materials lens the bottleneck thesis (300mm tightness for AI logic and HBM, supply discipline via delayed fabs) is unchanged since yesterday's hold, and there is no new evidence since June 6; today's -0.6% is drift.",
+      "bull": "300mm wafers for GPUs/HBM are genuinely tight, SUMCO and Shin-Etsu are deliberately under-building, and Nomura sees contract repricing power from 2027 onward as AI shifts to inference.",
+      "neutral": "Structurally relevant materials chokepoint, but the company is still guiding an H1 FY2026 operating loss and the 200mm half of the business remains weak, so price leads fundamentals by several quarters.",
+      "bear": "If 2027 contract negotiations disappoint or China localizes more 300mm supply for memory, the supply-squeeze narrative unwinds against a stock that has already re-rated 141% YTD.",
+      "primaryCatalyst": "Evidence of 300mm contract price increases for 2027 renewals or an upward revision out of the H1 operating loss.",
+      "primaryRisk": "Wafer pricing/utilization disappoints while the loss-making 200mm legacy business drags on consolidated results."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the crowding-sensitive alpha lens, the name is fully discovered post-Nomura's Y4,100 target and an 18.5-year high; residual alpha keeps leaking, but the ~12% pullback from the May 29 spike was already in yesterday's hold and nothing new arrived since June 6, so only drift-level decay (-1) is warranted.",
+      "bull": "The 12% pullback from Y3,987 to Y3,501 with the supply-squeeze thesis intact modestly improves entry asymmetry if 2027 repricing lands.",
+      "neutral": "Indirect, cyclical wafer exposure now trading as a consensus sell-side story at +141% YTD; the asymmetric, under-owned phase of this trade is over.",
+      "bear": "A crowded re-rating built on 2027 pricing hopes while the company posts current operating losses is exactly the post-rerating chase this list penalizes; flow reversal could be sharp.",
+      "primaryCatalyst": "Concrete 2027 long-term agreement price hikes or an HBM-driven 300mm order acceleration that the sell side has not yet modeled.",
+      "primaryRisk": "Crowding unwind: momentum money exits a discovered name faster than fundamentals (still loss-making) can catch up."
+    }
+  ]
+}

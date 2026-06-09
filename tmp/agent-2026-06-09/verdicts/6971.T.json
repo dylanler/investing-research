@@ -1,0 +1,56 @@
+{
+  "symbol": "6971.T",
+  "company": "Kyocera",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Activist event risk crystallizing into the June 25 AGM: proxy advisors ISS and Glass Lewis are backing Oasis Management's shareholder proposals (JPY 350bn FY3/27 buyback, removal of Chairman Goro Yamaguchi, appointment of external director Kotaro Okamura), which Kyocera's board unanimously opposes, citing its existing up-to-JPY 500bn buyback through FY2028. No new AI-fundamental news since June 6; the multilayer ceramic core substrate for AI/ASIC packaging was announced in late April and shown at ECTC May 26-29. Stock +1.57% today, ~+28% over 30 days, +62.5% YTD - the recent leg is governance/event-driven, not new bottleneck evidence.",
+  "sources": [
+    {
+      "label": "TipRanks - Kyocera board rejects Oasis shareholder proposals ahead of June AGM",
+      "url": "https://www.tipranks.com/news/company-announcements/kyocera-board-rejects-activist-oasiss-shareholder-proposals-ahead-of-june-agm"
+    },
+    {
+      "label": "AInvest - ISS and Glass Lewis back Oasis against Kyocera board",
+      "url": "https://www.ainvest.com/news/kyocera-board-faces-rejection-iss-glass-lewis-oasis-activist-decade-capital-failure-2605/"
+    },
+    {
+      "label": "Business Wire - Oasis submits shareholder proposals for Kyocera AGM (May 15, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260515270953/en/Oasis-Submits-Shareholder-Proposals-for-Kyocera-AGM-Urging-Transformation-and-Removal-of-Chairman-Yamaguchi"
+    },
+    {
+      "label": "Simply Wall St - How investors may respond to Kyocera board's rebuff of Oasis",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6971/kyocera-shares/news/how-investors-may-respond-to-kyocera-tse6971-boards-rebuff-o"
+    },
+    {
+      "label": "Kyocera newsroom - Multilayer ceramic core substrate for advanced AI semiconductors (ECTC 2026)",
+      "url": "https://global.kyocera.com/newsroom/news/2026/001185.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 25,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive residual-alpha list, the latest ~28% 30-day leg is driven by a heavily publicized activist/AGM event (ISS and Glass Lewis backing Oasis), not by new passives or ceramic-package bottleneck evidence - residual alpha is being consumed by event-driven flows into June 25.",
+      "bull": "If the JPY 350bn Oasis buyback passes or forces a sweetened capital-return policy, the rerating extends; HTCC packages and the new multilayer ceramic core substrate keep Kyocera structurally levered to AI packaging.",
+      "neutral": "Thesis on AVX-taut tantalum/ceramic capacitor bottlenecks is intact but unchanged; the stock has rerated 62.5% YTD on a mix of margin rebuild and activism, leaving the alpha case fair-to-rich at rank 25.",
+      "bear": "AGM event resolves (either way) on June 25 and event money exits; a board win over Oasis with no incremental capital return could unwind a chunk of the 30-day move while passives fundamentals haven't accelerated.",
+      "primaryCatalyst": "June 25 AGM vote on Oasis's JPY 350bn buyback and chairman removal, with ISS/Glass Lewis support raising pass odds.",
+      "primaryRisk": "Post-AGM de-crowding after a 62.5% YTD run built largely on governance hopes rather than new AI-passives demand evidence."
+    },
+    {
+      "page": "companies",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the broad companies/centrality lens, nothing since June 6 changes Kyocera's role in AI server PDN, ceramic packages and substrates; proxy-advisor backing for the activist slate modestly improves the capital-allocation overhang that capped the thesis, worth a small positive drift but not a rank change.",
+      "bull": "ISS/Glass Lewis-backed pressure could force better capital allocation on top of the existing JPY 500bn buyback, while HTCC dominance and the new multilayer ceramic core substrate add AI packaging content per chip.",
+      "neutral": "Power-delivery and ceramics/substrates exposure is real but already recognized after a 62.5% YTD move; execution and pricing in components remain the watch items per the standing audit note.",
+      "bear": "Kyocera remains a conglomerate where AI-exposed segments are diluted by handsets, printers and industrial ceramics; if the activist push fails and margins stall, the elevated multiple compresses.",
+      "primaryCatalyst": "June 25 AGM outcome plus any follow-on capital-policy or segment-restructuring announcements.",
+      "primaryRisk": "Conglomerate dilution of the AI ceramics/substrates story and margin execution slippage after a large rerating."
+    }
+  ]
+}

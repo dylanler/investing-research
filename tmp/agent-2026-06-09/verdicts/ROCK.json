@@ -1,0 +1,27 @@
+{
+  "symbol": "ROCK",
+  "company": "Gibraltar Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No AI-chain-relevant news. Recent flow is residential-building-products driven: a Seeking Alpha contributor upgrade to Strong Buy citing OmniMax acquisition synergies (synergy target raised to $26M total, $16M in FY26 adjusted EBITDA) and valuation support after the ~22% YTD drawdown; management (CEO Bosway, CFO Lovechio) presents at Wells Fargo's 16th Annual Industrial & Materials Conference on June 10. FY26 guidance reaffirmed ($1.76-1.83B sales, $310-326M adj. EBITDA). Today's +2.33% looks like pre-conference drift in a beaten-down small cap, not a fundamental AI-related event.",
+  "sources": [
+    {"label": "Simply Wall St - OmniMax-driven analyst upgrade and investor meetings", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-rock/gibraltar-industries/news/the-bull-case-for-gibraltar-industries-rock-could-change-fol"},
+    {"label": "Seeking Alpha - Even As Conditions Worsen, This Play Deserves An Upgrade", "url": "https://seekingalpha.com/article/4911205-gibraltar-industries-even-as-conditions-worsen-this-play-deserves-an-upgrade"},
+    {"label": "GuruFocus - ROCK to discuss strategic developments at upcoming conference (Wells Fargo, June 10)", "url": "https://www.gurufocus.com/news/8898699/gibraltar-industries-rock-plans-to-discuss-strategic-developments-at-upcoming-conference"},
+    {"label": "Yahoo Finance - ROCK quote", "url": "https://finance.yahoo.com/quote/ROCK/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing since June 6 strengthens or weakens the latent AI-node pathway; all incremental news (OmniMax synergies, contributor upgrade, Wells Fargo conference) is residential roofing/building products, orthogonal to the strict screen's repurposing thesis. Yesterday's hold stands and today's +2.3% is immaterial drift, not a setup change.",
+      "bull": "Deeply unloved at -21.7% YTD and $1.1B cap with FY26 guidance reaffirmed, so the drawdown has cheapened a name whose renewables/infrastructure product lines retain genuine optionality as non-obvious AI facility components (racking, structural, thermal-adjacent hardware).",
+      "neutral": "The AI-node case remains a speculative repurposing pathway with no design wins or data-center revenue disclosed; current fundamentals are an OmniMax integration story with 3.78x net leverage, which neither confirms nor kills the latent thesis.",
+      "bear": "Elevated leverage from the $1.335B OmniMax deal plus organic weakness in residential and Agtech could consume management bandwidth and capital for years, leaving the AI-facility optionality permanently unexercised while the stock trades on housing cyclicality.",
+      "primaryCatalyst": "Any disclosed data-center or AI-infrastructure order/partnership (e.g., structural or renewables products into hyperscaler builds), or commentary to that effect at the June 10 Wells Fargo conference.",
+      "primaryRisk": "Leverage (3.78x net) and soft organic residential/Agtech demand force deleveraging-first capital allocation, with no AI-chain evidence ever materializing for this strict screen."
+    }
+  ]
+}

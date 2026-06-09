@@ -1,0 +1,35 @@
+{
+  "symbol": "TDY",
+  "company": "Teledyne Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news in the June 6-9 window. Latest items predate it: a $11.2M U.S. Army CBRN drone-detection contract to Teledyne FLIR Defense (June 4, immaterial vs $28B cap) and a new HiRel low-noise amplifier for LEO/MEO satcom (June 3). Teledyne is demoing RF/microwave and sensing products at IMS 2026 in Boston June 9-11 (routine trade show). Minor analyst PT tweaks (Barclays $614 Equal Weight, Stifel $750 Buy) are drift, not thesis-changing. Stock flat today (+0.06%).",
+  "sources": [
+    {
+      "label": "GuruFocus - Teledyne secures $11.2M Army contract for advanced drone systems (Jun 4, 2026)",
+      "url": "https://www.gurufocus.com/news/8901082/teledyne-tdy-secures-112-million-army-contract-for-advanced-drone-systems"
+    },
+    {
+      "label": "StockTitan - Teledyne shows RF, microwave demos at IMS 2026 (Jun 9-11, Boston)",
+      "url": "https://www.stocktitan.net/news/TDY/teledyne-to-demonstrate-integrated-rf-microwave-and-sensing-srvntypwo93s.html"
+    },
+    {
+      "label": "Yahoo Finance - TDY quote and news",
+      "url": "https://finance.yahoo.com/quote/TDY/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved TDY down to reconcile adjusted-score rank 56; nothing since June 6 changes the setup - the Jun 4 Army contract is rounding-error sized vs a $28B cap and today's tape is flat (+0.06%). On a latent-alpha lens, TDY stays a well-covered, fairly-valued sensing conglomerate with limited hidden asymmetry at rank 56.",
+      "bull": "Teledyne FLIR defense sensing keeps winning drone/CBRN programs and machine vision plus space-grade RF semis (new LEO/MEO amplifier) give multiple AI-adjacent sensing shots on goal.",
+      "neutral": "Solid Q1 (EPS $5.80, revenue +7.6% y/y) and steady small contract flow support the score, but at $28B cap with full sell-side coverage there is no informational edge left; +18% YTD is roughly in line with quality industrials.",
+      "bear": "Valuation already reflects the defense/sensing cycle (Barclays Equal Weight at $614 ~= spot); a slowdown in scientific instrumentation or defense budget slippage compresses the multiple with little alpha cushion.",
+      "primaryCatalyst": "Q2 2026 earnings and any larger FLIR defense/drone program awards scaling beyond the current ~$11M-sized contracts.",
+      "primaryRisk": "Crowded, fully-discovered mega-cap sensing name where YTD gains outpace new fundamental evidence, leaving negative residual alpha on a latent-nodes list."
+    }
+  ]
+}

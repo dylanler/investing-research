@@ -1,0 +1,40 @@
+{
+  "symbol": "DPLM.L",
+  "company": "Diploma",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific RNS since June 6. Shares easing slightly after recent FTSE 100 inclusion (interim dividend 19.1p payable June 12); sell-side targets converging around 7,550p (Morgan Stanley 8,250p Overweight). The H1 FY26 beat (revenue +17%, organic +15%) and FY26 guidance upgrade (~12% organic, ~25% margin) predate the window and are already in the price.",
+  "sources": [
+    {"label": "Yahoo Finance quote DPLM.L", "url": "https://finance.yahoo.com/quote/DPLM.L/"},
+    {"label": "ad-hoc-news: Diploma shares ease after FTSE 100 move", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/diploma-plc-stock-gb0001820412-shares-ease-after-ftse-100-move-as/69474067"},
+    {"label": "Yahoo Finance: analyst targets converge around GBP75.54", "url": "https://finance.yahoo.com/markets/stocks/articles/diploma-lse-dplm-story-shifting-071010032.html"},
+    {"label": "Investegate RNS: Diploma Half Year Results", "url": "https://www.investegate.co.uk/announcement/rns/diploma--dplm/half-year-results-/9574224"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since June 6 and yesterday's verdict was hold; FTSE 100 inclusion plus converging analyst targets near the current price add visibility/crowding to an already richly valued compounder, so residual alpha drifts slightly lower rather than rerates.",
+      "bull": "Windy City Wire and controls give real, growing exposure to North American data-center wiring demand, and the FY26 upgrade (12% organic, ~25% margin) shows the engine is accelerating, not fading.",
+      "neutral": "A high-quality compounder at +32% YTD with consensus targets clustered around the current price: the AI-adjacent exposure is genuine but fully recognized, leaving rank 66 about right.",
+      "bear": "FTSE 100 inclusion completes the institutional discovery process; at ~7,000p the stock prices in continued M&A execution, so any organic slowdown or margin fade hits a crowded register with little alpha cushion.",
+      "primaryCatalyst": "Further specialist acquisitions or explicit data-center revenue disclosure in controls/Windy City Wire.",
+      "primaryRisk": "Post-rerating multiple compression if organic growth normalizes below the upgraded 12% guidance."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict-screen pathway (aggregating hard-to-source seals/fluid-control and low-voltage wiring components) is unchanged by anything since June 6; -0.85% day move is index-flow noise, so hold per yesterday's verdict.",
+      "bull": "Diploma's value-add distribution of specialty wire, seals and controls is exactly the kind of unglamorous component aggregation that becomes bottleneck-critical as data-center buildouts strain low-voltage cabling and fluid-control supply.",
+      "neutral": "Evidence for the bottleneck pathway remains medium-grade and inferential; H1 strength was broad-based rather than AI-specific, so the strict thesis neither strengthens nor weakens this week.",
+      "bear": "Diploma is a distributor, not a constrained capacity owner; if OEMs or upstream component makers go direct, its aggregation role carries no scarcity moat and the AI linkage dilutes to general industrial cyclicality.",
+      "primaryCatalyst": "Disclosure quantifying data-center/AI-infrastructure share of Windy City Wire and controls revenue.",
+      "primaryRisk": "Thesis remains inferential: no hard evidence Diploma's distributed components are genuinely supply-constrained AI bottleneck items."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "6965.T",
+  "company": "Hamamatsu Photonics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance quote 6965.T", "url": "https://finance.yahoo.com/quote/6965.T/"},
+    {"label": "Hamamatsu Photonics press releases (incl. Jun 4 cold-atom quantum MoU with NKT Photonics/Yaqumo, pre-window)", "url": "https://www.hamamatsu.com/jp/en/news/press-releases.html"},
+    {"label": "Quartr - Hamamatsu Photonics Q2 FY2026 summary (May results: sales up, profit down on costs)", "url": "https://quartr.com/events/hamamatsu-photonics-k-k-6965-q2-2026_FGZFn92A"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and today's +1.27% is flow drift; yesterday's down move already reconciled the adjusted-score rank against the +56% YTD run-up, so a second consecutive demotion is unwarranted. The Jun 4 cold-atom quantum MoU (NKT Photonics/Yaqumo) pre-dates the window and is a non-revenue MoU, not new latent-node evidence.",
+      "bull": "Photon detection remains an irreplaceable raw-signal layer across scientific, medical and emerging photonic/quantum AI stacks, and the Jun 4 quantum-components alliance plus the RIKEN framework hint at optionality the market still prices as a cyclical instruments name.",
+      "neutral": "Sales are growing modestly but H1 profit fell sharply on costs; the thesis is intact yet unconfirmed, and at +56% YTD with no fresh design wins the name is fairly held at the lower end of the list.",
+      "bear": "A 56% YTD rerating without earnings follow-through means residual alpha is largely spent; if semiconductor-instrument and imaging demand stays soft, the stock de-rates back toward its cyclical multiple.",
+      "primaryCatalyst": "Q3 FY2026 results / guidance revision showing margin recovery, or a commercial (not MoU-stage) photonic-computing or LiDAR design win.",
+      "primaryRisk": "Continued profit erosion from costs and soft imaging/instrument demand turning the YTD run-up into a crowded unwind."
+    }
+  ]
+}

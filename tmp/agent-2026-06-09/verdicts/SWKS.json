@@ -1,0 +1,40 @@
+{
+  "symbol": "SWKS",
+  "company": "Skyworks Solutions",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -4.2% slide (to $72.23) extends a giveback of the ~24% post-Q2-FY26-earnings run; the key catalysts (Q2 beat with $944M revenue / $1.15 non-GAAP EPS, $1B+ multi-generational Android RF design win, Qorvo merger notes-exchange progress) all predate June 6. Cited pressure points are mobile customer concentration, costs, and merger/regulatory risk - none of which touch the AI-bottleneck thesis these pages rank for.",
+  "sources": [
+    {"label": "Skyworks Q2 FY2026 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000004127/000000412726000014/q2268-kex991earningsrelease.htm"},
+    {"label": "Skyworks (SWKS) up 24.2% since last earnings report - Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-24-2-since-153028715.html"},
+    {"label": "Skyworks and Qorvo to combine - Skyworks IR press release", "url": "https://investors.skyworksinc.com/news-releases/news-release-details/skyworks-and-qorvo-combine-create-22-billion-us-based-leader"},
+    {"label": "Skyworks Q2 beat and long-duration design win - Simply Wall St", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-swks/skyworks-solutions/news/how-skyworks-q2-beat-and-longduration-design-win-at-skyworks"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already flagged SWKS for removal on weak direct HBM/packaging/AI-networking relevance, and nothing since June 6 is new; today's -4.2% is a mobile/merger-flow giveback, not AI-node evidence, so hold at the bottom with mild negative drift.",
+      "bull": "Broad Markets (42% of sales, +10% YoY incl. WiFi, data center, auto) plus the Qorvo combination could give the merged $22B RF/analog platform more credible edge-AI and connectivity content over time.",
+      "neutral": "A competently executing RF house with a fresh Android design win, but its AI-node exposure remains indirect and small relative to dedicated HBM, advanced-packaging and networking names; rank 92 already reflects that.",
+      "bear": "Mobile concentration, merger integration/regulatory risk, and zero bottleneck criticality in the AI compute chain mean the name is dead weight on this list regardless of cheapness.",
+      "primaryCatalyst": "Qorvo merger close and synergy capture; any concrete data-center/edge-AI content wins from the combined portfolio.",
+      "primaryRisk": "Mobile customer concentration and merger regulatory/integration risk with no offsetting AI-bottleneck exposure."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "The CPO/optical thesis is 'limited data-center optical exposure' and nothing since June 6 changes that; yesterday's remove call stands, and a -4.2% flow-driven pullback in an RF/mobile name does not create CPO alpha, so hold with slight drift down.",
+      "bull": "Post-pullback valuation (~$10.8B, well off the post-earnings high) is undemanding, and the Qorvo merger creates scale that could eventually fund data-center RF/connectivity adjacencies.",
+      "neutral": "Solid Q2 execution and a $1B+ Android design win are real, but they are handset economics - irrelevant to the co-packaged-optics bottleneck this page ranks; current rank 76 is already generous.",
+      "bear": "No meaningful CPO, optical or data-center cable content; holding it on this list dilutes the alpha screen while mobile concentration and merger risk dominate the actual stock story.",
+      "primaryCatalyst": "Qorvo merger completion and any announced data-center/optical-adjacent product roadmap from the combined company.",
+      "primaryRisk": "Continued post-rerating giveback in a mobile-concentrated name with no CPO exposure to anchor it on this page."
+    }
+  ]
+}

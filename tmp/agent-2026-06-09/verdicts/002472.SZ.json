@@ -1,0 +1,35 @@
+{
+  "symbol": "002472.SZ",
+  "company": "Zhejiang Shuanghuan Driveline",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote/news page for 002472.SZ (no fresh June headlines)",
+      "url": "https://finance.yahoo.com/quote/002472.SZ/news/"
+    },
+    {
+      "label": "STCN on Huandong Technology RV-reducer spinoff IPO (pre-existing, not new since Jun 6)",
+      "url": "https://www.stcn.com/article/detail/1427962.html"
+    },
+    {
+      "label": "CLS.cn on Shuanghuan's A-split-A spinoff of Huandong Technology to STAR Board (historical context)",
+      "url": "https://www.cls.cn/detail/1609335"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No material news since June 6 and a flat tape (-0.36% today, -4.5% YTD), so yesterday's hold stands; the mildly negative YTD with the reducer thesis intact (RV orders booked into 2027, Huandong STAR IPO progressing) keeps entry asymmetry slightly favorable, worth a small positive drift but not a rank change.",
+      "bull": "Huandong Technology holds >25% domestic RV reducer share with orders reportedly booked to 2027, and humanoid-specific reducer products carry 45%+ gross margins versus auto gears; the STAR Board spinoff is a value-crystallization catalyst.",
+      "neutral": "Reducer/robotics revenue is still only roughly 8% of the mix; the business remains predominantly an auto-gear supplier, so humanoid optionality is real but small relative to the $5.7B cap, consistent with its current mid-pack alpha rank.",
+      "bear": "The spinoff has been in the IPO queue since late 2024 with multiple inquiry rounds, and listing the crown-jewel reducer asset separately could leave the parent as a lower-multiple auto-gear stub; humanoid demand timelines keep slipping.",
+      "primaryCatalyst": "Huandong Technology STAR Board IPO registration/pricing, or a named humanoid joint-module design win.",
+      "primaryRisk": "Spinoff holdco discount on the parent plus EV gear pricing pressure if humanoid reducer volumes stay de minimis."
+    }
+  ]
+}

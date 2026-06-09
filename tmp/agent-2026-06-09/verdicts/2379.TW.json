@@ -1,0 +1,41 @@
+{
+  "symbol": "2379.TW",
+  "company": "Realtek Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock jumped +9.23% on June 9 to NT$651, an all-time high above the prior 52-week ceiling (~NT$624) and above Morgan Stanley's year-old NT$650 target. Proximate driver appears to be the May 2026 monthly revenue release (~NT$12.5B vs NT$10.3B a year earlier, ~+21% YoY) plus continued momentum in the SerDes/AI-networking re-rating narrative (Q1 2026 revenue +38.6% QoQ to NT$36.4B, reported April 30). No new contract, design win, M&A, or guidance change found since June 6; the widely-cited Morgan Stanley UW-to-OW upgrade (PT NT$650) dates to June 2025 and is not fresh news. Judgment: the move is mostly flow/momentum chasing an already-known growth story, with only incremental fundamental support from the monthly print.",
+  "sources": [
+    {"label": "ad-hoc-news: Realtek May revenue update and valuation metrics in focus", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/realtek-semiconductor-stock-tw0002379005-may-revenue-update-and/69490315"},
+    {"label": "Digitimes: Realtek posts 39% revenue surge as new SerDes demand drives growth", "url": "https://www.digitimes.com/news/a20260410PD200/realtek-revenue-demand-growth-2026.html"},
+    {"label": "BigGo Finance: Realtek Q1 2026 earnings call, revenue +38.6% QoQ to NT$36.4B", "url": "https://finance.biggo.com/news/TW_2379.TW_2026-04-30"},
+    {"label": "Investing.com: Morgan Stanley upgrades Realtek on China auto ethernet (dated June 20, 2025 - not fresh)", "url": "https://in.investing.com/news/analyst-ratings/morgan-stanley-upgrades-realtek-stock-on-china-auto-ethernet-potential-93CH-4883283"},
+    {"label": "Yahoo Finance quote 2379.TW", "url": "https://finance.yahoo.com/quote/2379.TW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 55,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "On this node-criticality list Realtek was already flagged as low-directness (analog/RF/edge, not HBM/packaging/AI-networking core), and yesterday's verdict was removal; today's +9.2% spike to an all-time high on a monthly revenue print, not a new bottleneck position, further erodes residual alpha and confirms the de-rank.",
+      "bull": "May revenue ~+21% YoY and Q1 +38.6% QoQ show the SerDes/800G Ethernet and Wi-Fi 7 ramp is real, giving Realtek genuine, growing AI-fabric-adjacent exposure.",
+      "neutral": "A solid monthly print justifies some appreciation, but Realtek's AI exposure remains indirect versus HBM, CoWoS and switch-silicon names; the stock now prices much of the known story.",
+      "bear": "At NT$651 (+33.5% YTD, ATH, above MS's old NT$650 target) a PC/consumer-networking-heavy mix is being valued like an AI bottleneck; any PC shipment weakness or SerDes order digestion triggers a sharp de-rate.",
+      "primaryCatalyst": "Concrete SerDes/800G Ethernet design wins at hyperscalers or sustained >20% YoY monthly revenue prints.",
+      "primaryRisk": "Momentum unwind from all-time highs as the move outruns incremental fundamentals; PC/networking cycle softness in H2 2026."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 63,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "This crowding-sensitive CPO alpha list penalizes post-rerating chase hardest: a +9.2% gap to an all-time high on no new CPO-relevant evidence, on a name already scored low for CPO directness and slated for removal yesterday, leaves negative residual asymmetry at NT$651.",
+      "bull": "Realtek's high-speed SerDes and 800G Ethernet roadmap gives it optionality on AI cluster networking, and the May revenue acceleration shows that optionality is starting to monetize.",
+      "neutral": "Nothing since June 6 changes Realtek's CPO directness; the rally is the market re-rating an adjacent connectivity story, which neither strengthens nor weakens its co-packaged-optics relevance.",
+      "bear": "Zero direct CPO content plus a 9% one-day pop to ATH means buyers here are paying re-rated multiples for second-derivative exposure; the asymmetry that defined this list's alpha is gone.",
+      "primaryCatalyst": "Any announced engagement in co-packaged optics or optical-adjacent SerDes sockets that would upgrade its directness score.",
+      "primaryRisk": "Crowding/flow reversal after the ATH breakout, with the stock trading above the most bullish published target on a fundamentally indirect thesis."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "AVNW",
+  "company": "Aviat Networks",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Aviat Networks press releases (investor relations)",
+      "url": "https://investors.aviatnetworks.com/press-releases"
+    },
+    {
+      "label": "StockTitan - Aviat Networks files updated auditor consent (routine 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/AVNW/8-k-aviat-networks-inc-reports-material-event-27073bfd4bd5.html"
+    },
+    {
+      "label": "StockTitan - Aviat Networks to Participate in Upcoming Investor Conferences",
+      "url": "https://www.stocktitan.net/news/AVNW/aviat-networks-to-participate-in-upcoming-investor-8j7nchpf1ne5.html"
+    },
+    {
+      "label": "Aviat Networks FQ3 2026 results (May 4, 2026 - last fundamental datapoint)",
+      "url": "https://www.prnewswire.com/news-releases/aviat-networks-announces-fiscal-2026-third-quarter-and-nine-month-financial-results-302761749.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the only filings are a routine auditor-consent 8-K (June 3) and an investor-conference notice, and today's -1.77% is small-cap drift. Yesterday's down move already reconciled the adjusted-score rank, so with nothing genuinely new the scaling-page rank should hold at 35.",
+      "bull": "Under-owned $230M microwave-backhaul name, -14% YTD with thesis intact, so residual asymmetry is improving as the price drifts lower; private-network and defense/utility backhaul demand gives optionality not priced in.",
+      "neutral": "FQ3 revenue of $100M was down 11.2% y/y with a GAAP net loss, and there has been no contract or guidance news since; the stock is cheap but lacks a near-term catalyst, justifying its low-table position on the scaling list.",
+      "bear": "Revenue is shrinking while AI-network capex flows to fiber/optics and data-center interconnect, not microwave backhaul; AVNW risks being a value trap whose bottleneck relevance to AI scaling is tangential at best.",
+      "primaryCatalyst": "FY2026 Q4/full-year results and any large private-network or rural-broadband contract win that re-establishes growth.",
+      "primaryRisk": "Continued revenue decline confirming microwave backhaul is structurally bypassed by fiber in AI-era network buildouts."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "WJX.TO",
+  "company": "Wajax",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Wajax Investor Relations - News (no releases since June 6; latest are May 7 director election and May 4 Q1 results)",
+      "url": "https://investors.wajax.com/news"
+    },
+    {
+      "label": "Wajax Q1 2026 results press release (May 4, 2026: revenue C$502.1M -9.5% y/y, EPS C$0.82; Q2 dividend C$0.35 record date June 15)",
+      "url": "https://www.newswire.ca/news-releases/wajax-announces-2026-first-quarter-results-824294438.html"
+    },
+    {
+      "label": "MarketBeat WJX analyst coverage (9 analysts, C$34.40 mean target)",
+      "url": "https://www.marketbeat.com/stocks/TSE/WJX/forecast/"
+    },
+    {
+      "label": "Yahoo Finance WJX.TO quote",
+      "url": "https://finance.yahoo.com/quote/WJX.TO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down-move already corrected the displayed-vs-adjusted rank gap (now ranked 63), and there is zero new fundamental or AI-chain evidence since June 6; a -0.75% day on a sleepy C$0.47B distributor changes nothing, so rank 63 stands.",
+      "bull": "Under-owned C$0.47B industrial distributor at ~9x earnings with Q1 EPS up 37% y/y on cost control, a ~4.6% dividend, and analyst targets (~C$34.40) ~13% above the C$30.34 price; any data-center-adjacent power/MRO demand in secondary Canadian markets is free optionality.",
+      "neutral": "Q1 revenue fell 9.5% y/y and the AI link is indirect at best (pumps, powertrain, MRO into mining/utilities); the name is uncrowded but also unanchored to the AI compute bottleneck, justifying its low-60s rank on a strict latent-nodes screen.",
+      "bear": "Revenue is contracting across cyclical Canadian end markets, the stock has no demonstrated AI revenue, and on a strict AI-nodes list it is a thesis-stretch that should keep bleeding rank if industrial demand softens further.",
+      "primaryCatalyst": "Q2 2026 results (early August) showing backlog growth or any disclosed data-center/utility-linked equipment and MRO orders.",
+      "primaryRisk": "Continued revenue declines in construction/mining end markets exposing the AI-adjacency thesis as hollow, with small-cap liquidity amplifying the downside."
+    }
+  ]
+}

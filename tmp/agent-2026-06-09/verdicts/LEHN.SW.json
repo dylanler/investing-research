@@ -1,0 +1,27 @@
+{
+  "symbol": "LEHN.SW",
+  "company": "LEM Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. FY2025/26 results (published May 26, pre-window) are already digested: stable constant-currency sales of CHF 287.7m (-6.3% in CHF), thin reported profit of CHF 9.9m but CHF 40m FCF, Fit-for-Growth savings delivered, automation segment growing on data-center demand, and growth guided to resume only in 2027-28. Early-June press is earnings-quality commentary (accrual ratio -0.12, FCF >> net profit), not new fundamentals; Berenberg and Kepler Cheuvreux downgrades to Hold predate the window. AGM upcoming June 25. Today's -3.2% on no news reads as flow-driven give-back after the +53% YTD rerating.",
+  "sources": [
+    {"label": "Yahoo Finance - Why LEM Holding's earnings are better than they seem (earnings-quality note, early June 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-lem-holdings-vtx-lehn-124047046.html"},
+    {"label": "Yahoo Finance - LEM Holding FY2026 earnings call highlights (sales CHF 287.7m, data-center-driven automation growth, 2027-28 recovery)", "url": "https://finance.yahoo.com/markets/stocks/articles/lem-holding-sa-xswx-lehn-170039015.html"},
+    {"label": "The Globe and Mail - LEM Holding to present 2025/26 annual results (26 May 2026 conference)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/LMHDF/pressreleases/1733961/lem-holding-to-present-202526-annual-results-in-zurich-and-online/"},
+    {"label": "LEM investor relations - financial calendar and releases", "url": "https://www.lem.com/en/investors"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already de-rated the name for the +53% YTD run without AI-specific evidence, and nothing material has emerged since June 6; today's -3.2% no-news pullback marginally restores asymmetry at the now-lower rank 55, so hold with small positive drift rather than a second consecutive down move.",
+      "bull": "FY results confirmed the latent pathway is starting to fire: automation sales grew on data-center demand, FCF of CHF 40m dwarfs reported profit, and at $0.68B market cap LEM remains a genuinely under-owned current-sensing pure-play if 800V DC rack architectures scale.",
+      "neutral": "The stock has rerated +53% YTD on a recovery that management itself dates to 2027-28; until AI/data-center orders show up explicitly in segment numbers, the thesis is plausible but unpriced evidence is thin and two brokers have already stepped to Hold.",
+      "bear": "Headline fundamentals are still weak (CHF sales down 6.3%, CHF 9.9m profit), the data-center mention may be inventory restocking rather than structural AI demand, and a small-cap that ran 53% into a 2027 recovery story can give back most of the rerating on one soft trading update.",
+      "primaryCatalyst": "Explicit data-center/AI-power design wins or segment disclosure at the June 25 AGM or H1 trading update quantifying automation order intake.",
+      "primaryRisk": "Continued post-rerating unwind: recovery slips beyond 2027-28 while the +53% YTD premium compresses, with low liquidity at $0.68B cap amplifying the drawdown."
+    }
+  ]
+}

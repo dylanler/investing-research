@@ -1,0 +1,27 @@
+{
+  "symbol": "STLTECH.NS",
+  "company": "Sterlite Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental disclosures since June 6. Price action is flow-driven: after a record high of Rs 684.45 on June 5, the stock froze at the 5% lower circuit on June 8 (Rs 588.40) alongside HFCL amid a global AI-infrastructure selloff and profit-taking, then bounced +4.2% to ~Rs 613 today on no news. The $1.1B multi-year hyperscaler PAL (May 22) and Neuralis AI data-center portfolio are pre-existing catalysts already in the price. On June 3 the exchange queried the volume spike and STL stated it was aware of no unpublished price-sensitive information.",
+  "sources": [
+    {"label": "Business Standard - HFCL, Sterlite Tech freeze at 5% lower circuit after massive rally (Jun 8, 2026)", "url": "https://www.business-standard.com/amp/markets/news/hfcl-sterlite-tech-freeze-at-5-lower-circuit-after-massive-rally-in-2026-126060800397_1.html"},
+    {"label": "Business Standard - Sterlite Tech up 351% YTD, 5% upper circuit on $1bn AI order (May 25, 2026)", "url": "https://www.business-standard.com/markets/news/up-351-in-2026-sterlite-technologies-share-price-hits-5-upper-circuit-on-1-bn-ai-order-126052500689_1.html"},
+    {"label": "Upstox - India's AI proxy soars 450%: How Sterlite Tech outpaced Samsung and SK Hynix in 2026", "url": "https://upstox.com/news/market-news/stocks/india-s-ai-proxy-soars-450-how-sterlite-tech-outpaced-samsung-and-sk-hynix-in-2026/article-194591/"},
+    {"label": "Outlook Money - Sterlite Tech, HFCL tumble as global AI sell-off hits Indian data centre stocks", "url": "https://www.outlookmoney.com/invest/sterlite-tech-hfcl-mtar-tech-tumble-as-global-ai-sell-off-hits-indian-data-centre-stocks"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already demoted it to the bottom of the scaling list for post-rerating crowding; nothing genuinely new has emerged since, and today's +4.2% no-news bounce after Monday's circuit-freeze is retail flow, not evidence. Hold at rank 50 with mild negative drift - residual alpha after a +498% YTD run remains effectively zero.",
+      "bull": "The $1.1B FY27-FY29 hyperscaler PAL and 10x-36x fiber density per AI rack make STL a real, contracted beneficiary of AI data-center build-outs; order book grew from Rs 4,378 cr (FY25) to Rs 7,309 cr (FY26).",
+      "neutral": "The fiber-for-AI thesis is intact and now contractually validated, but at +498% YTD and a $3.2B cap the market has fully rerated it from hidden bottleneck to consensus AI proxy; the 14% June 5-8 drawdown only partially resets the setup.",
+      "bear": "Circuit-to-circuit retail churn, an exchange volume query, and a one-customer-concentrated $1B order leave huge air under the price; any hyperscaler capex pause or order-timing slip could unwind much of the 2026 move.",
+      "primaryCatalyst": "Additional hyperscaler PAL wins or Neuralis AI data-center order conversions that broaden the customer base beyond the single $1.1B award.",
+      "primaryRisk": "Momentum unwind in a crowded retail AI-proxy trade - further lower-circuit sessions if global AI-infra sentiment sours or the hyperscaler order's annual allocations disappoint."
+    }
+  ]
+}

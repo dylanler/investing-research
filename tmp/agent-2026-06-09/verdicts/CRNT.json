@@ -1,0 +1,35 @@
+{
+  "symbol": "CRNT",
+  "company": "Ceragon Networks",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only item in the window is a procedural 6-K: the annual shareholder meeting set for June 11, 2026 to vote on CEO compensation (base raise to ~NIS 1.34M, option/RSU grants) and auditor reappointment - not thesis-relevant. Prior catalysts (Q1 beat with $85.0M revenue vs $80.4M consensus, Roth Capital PT raise to $4.50 from $3.75, ~$86M YTD India orders) all predate June 6. Today's -3.4% move is low-liquidity small-cap drift, below the 5% threshold and not fundamental.",
+  "sources": [
+    {
+      "label": "TipRanks - Ceragon sets June 11, 2026 annual meeting (exec pay, auditor vote)",
+      "url": "https://www.tipranks.com/news/company-announcements/ceragon-networks-sets-june-11-2026-annual-meeting-to-vote-on-executive-pay-and-auditor-reappointment"
+    },
+    {
+      "label": "PR Newswire - Ceragon ~$86M India orders YTD reinforcing 2026 outlook (May 5, pre-window)",
+      "url": "https://www.prnewswire.com/news-releases/ceragon-receives-approximately-86-million-in-orders-from-operators-in-india-year-to-date-reinforcing-2026-outlook-302762509.html"
+    },
+    {
+      "label": "Ceragon press releases page (no new releases since June 6)",
+      "url": "https://www.ceragon.com/news"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 38 on the scaling list: no new evidence on the wireless-backhaul/densification thesis since June 6, and today's -3.4% drift neither confirms nor breaks the setup. Yesterday's hold already reconciled the +31.5% YTD and $270M cap; the only fresh item (June 11 AGM on CEO pay) is procedural.",
+      "bull": "A $270M-cap microwave/mmWave backhaul pure-play with $85M Q1 revenue, ~$86M YTD India orders and a Roth PT raised to $4.50 - genuinely under-owned densification exposure with room if private-network and India momentum compounds.",
+      "neutral": "Q1 still printed a small adjusted net loss and the equity has already rerated +31.5% YTD on known catalysts; until new orders or guidance arrive, the alpha case is unchanged from yesterday.",
+      "bear": "Sub-$300M illiquid Israeli small-cap with thin margins; a North American order deferral already forced reliance on backlog timing, and any India order air-pocket or further margin pressure unwinds the YTD rerating quickly.",
+      "primaryCatalyst": "Q2 earnings and fresh order announcements (India operators, North American private networks) confirming the $355-385M FY26 revenue guide.",
+      "primaryRisk": "Order timing slippage in India/North America plus margin pressure turning the FY26 guide stale, with low liquidity amplifying the downside."
+    }
+  ]
+}

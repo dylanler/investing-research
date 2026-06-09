@@ -1,0 +1,52 @@
+{
+  "symbol": "ACMR",
+  "company": "ACM Research",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news. ACMR caught in an early-June sector-wide semiconductor-equipment selloff (one ~9.4% down day plus -2.7% on June 9, roughly -12% from ~$89 over the past week) driven by near-term demand concerns and fresh downward analyst earnings-estimate revisions; bear-case scenarios now value the stock ~38% below current price. Minor SVP insider sale (~$1.59M, June 4-5 filing). Backdrop: strong Q1 beat (May 8, EPS $0.34 vs $0.28, rev $231.3M vs $217.8M) and a $150M follow-on equity offering completed in May.",
+  "sources": [
+    {
+      "label": "Simply Wall St - Bull case for ACMR could change after sector pullback and lower earnings estimates (Jun 9, 2026)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-acmr/acm-research/news/the-bull-case-for-acm-research-acmr-could-change-following-s"
+    },
+    {
+      "label": "Alphastreet - ACM Research drops 9.4% amid sector-wide selling",
+      "url": "https://news.alphastreet.com/acm-research-drops-9-4-amid-sector-wide-selling/"
+    },
+    {
+      "label": "Investing.com - ACM Research SVP Sotheara Cheav sells $1.59M in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/acm-research-svp-sotheara-cheav-sells-159m-in-stock-93CH-4729491"
+    },
+    {
+      "label": "Yahoo Finance - ACMR quote",
+      "url": "https://finance.yahoo.com/quote/ACMR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the fab/HBM capacity lens, the new downward estimate revisions hit exactly the thesis's stated swing factor - order timing - so the sell-off is not purely flow-driven; but the structural exposure to AI-driven cleaning/plating capex is unchanged, so rank holds with a small negative drift.",
+      "bull": "Q1 beat (EPS $0.34 vs $0.28, revenue $231.3M vs $217.8M est.) with strong electrochemical-plating growth shows the AI/HBM capex thesis is executing; the $150M May raise funds capacity ahead of the cycle.",
+      "neutral": "A ~12% one-week drawdown roughly offsets the modest estimate cuts; the name remains levered to a capex cycle whose near-term cadence just got murkier, leaving risk/reward about where it was at yesterday's hold.",
+      "bear": "Sector-wide near-term demand concerns plus downward EPS revisions suggest order timing is slipping; with shares still +74.6% YTD and bear-case fair values ~38% below price, an estimate-cut cycle could compress the multiple hard.",
+      "primaryCatalyst": "Q2 orders/guidance confirming AI- and HBM-driven tool demand and order timing.",
+      "primaryRisk": "Continued analyst estimate cuts and China export-control escalation pushing orders out."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 24,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On this crowding-sensitive alpha list, a sharp multi-day sector sell-off (-9.4% day, -2.7% today, ~-12% off the highs) with the niche process-complexity thesis intact deflates the post-rerating chase and modestly improves asymmetry; estimate trims are mild and sector-wide, not a thesis break.",
+      "bull": "The flush is taking momentum tourists out of a still under-followed $5.6B small-cap with a genuine cleaning/plating niche; fundamentals just beat in May, so the reset improves entry asymmetry.",
+      "neutral": "Estimate revisions are real but modest, and the geopolitical/China-policy overhang that caps the rank is unchanged; this is a small asymmetry improvement, not a re-thesis.",
+      "bear": "+74.6% YTD with a fresh $150M dilutive raise, insider selling, and downward revisions means the de-rating could run further; China revenue concentration remains the binary policy risk.",
+      "primaryCatalyst": "Stabilization of WFE sentiment plus next order/backlog datapoints validating the niche-share story at a reset valuation.",
+      "primaryRisk": "Deeper sector estimate-cut cycle or US-China export-control action hitting its China-centric customer base."
+    }
+  ]
+}

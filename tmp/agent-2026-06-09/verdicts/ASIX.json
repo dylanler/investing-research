@@ -1,0 +1,35 @@
+{
+  "symbol": "ASIX",
+  "company": "AdvanSix",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "AdvanSix DEF 14A proxy - virtual annual meeting June 22, 2026; FY25 results recap (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/ASIX/def-14a-advan-six-inc-definitive-proxy-statement-242e5debe1b3.html"
+    },
+    {
+      "label": "AdvanSix 8-K May 8, 2026 - Q1 results and $0.16 dividend (paid June 2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001673985/000167398526000033/asix-20260508.htm"
+    },
+    {
+      "label": "Yahoo Finance ASIX quote",
+      "url": "https://finance.yahoo.com/quote/ASIX/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a flat tape (-0.51% today); the latent-node case (caprolactam/ammonium sulfate chemistry adaptable to industrial-materials inputs) is unchanged from yesterday's hold, so no basis to re-rank on this strict-evidence page.",
+      "bull": "May 7 ammonia-platform process design and licensing agreement shows the chemistry franchise can be monetized beyond nylon, and at a $0.59B cap the name remains genuinely under-owned with optionality the market is not pricing.",
+      "neutral": "A commodity-ish specialty chemicals producer whose AI linkage is latent and speculative; +23% YTD largely reflects cyclical recovery and the dividend/value bid, not AI-chain evidence, so it drifts at rank 32 until real proof points emerge.",
+      "bear": "Q1 adjusted EPS of $0.50 vs $0.93 a year ago shows earnings pressure; if the cycle softens further the YTD gain unwinds and the AI-adjacency thesis never had hard evidence behind it.",
+      "primaryCatalyst": "Concrete industrial-materials or ammonia-licensing commercial wins (next checkpoint: Q2 earnings in early August; annual meeting June 22 is routine).",
+      "primaryRisk": "Cyclical nylon/caprolactam pricing weakness erodes earnings while the latent AI-supply-chain linkage remains unproven."
+    }
+  ]
+}

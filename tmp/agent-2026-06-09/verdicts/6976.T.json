@@ -1,0 +1,27 @@
+{
+  "symbol": "6976.T",
+  "company": "Taiyo Yuden Co., Ltd.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No identifiable fundamental catalyst on June 9 despite a +20.0% day move. Backdrop remains the known AI-server MLCC/inductor cycle: FY2025 net profit up ~5.4x on AI server MLCC demand, FY2026 guidance of +8% revenue and +50% operating income, May 2026 MLCC price hikes of ~6-13%, and sell-side upgrades (Mizuho to Buy; US brokerage target hike to ~JPY 7,100 - now far below the JPY 17,975 print). Stock is up ~129% in a month and ~389% YTD; today's spike looks flow/momentum-driven (chase/squeeze into a parabolic chart), not new fundamental evidence.",
+  "sources": [
+    {"label": "BigGo Finance - Taiyo Yuden profit surges 5.4x on AI server MLCC demand; target hiked to JPY 7,100", "url": "https://finance.biggo.com/news/5hr2FJ4BX0tZvRTv1JbB"},
+    {"label": "DigiTimes - MLCC, inductor prices climb as AI demand meets cost pressure (May 2026 price hikes)", "url": "https://www.digitimes.com/news/a20260416VL204/demand-cost-component-passive-price.html"},
+    {"label": "Investing.com - Mizuho upgrades Taiyo Yuden to Buy on MLCC demand and margin expansion", "url": "https://www.investing.com/news/analyst-ratings/mizuho-upgrades-taiyo-yuden-stock-to-buy-on-mlcc-demand-and-margin-expansion-93CH-4284877"},
+    {"label": "TradingView - TSE:6976 quote and momentum statistics", "url": "https://www.tradingview.com/symbols/TSE-6976/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 78,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "On a crowding-sensitive alpha list, a +20% single-day spike with no identifiable new fundamental news - on top of +389% YTD and a price now ~2.5x above freshly hiked sell-side targets - is a textbook post-rerating chase; residual alpha shrinks further even though the bottleneck thesis is intact.",
+      "bull": "AI-server MLCC/inductor content per box keeps rising (up to ~30k MLCCs per AI server), price hikes of 6-13% stick, and FY26's +50% operating income guidance proves the cycle has pricing power, not just volume.",
+      "neutral": "The thesis is real but fully discovered: book/bill 1.3, upgrades in hand, and the stock already discounts multiple years of AI passives growth; from here it trades as a momentum benchmark, not an alpha source.",
+      "bear": "Parabolic flow-driven move (+129% in a month) far beyond analyst targets invites a violent air-pocket; any MLCC pricing or AI-server order wobble could unwind 30-50% with no valuation support.",
+      "primaryCatalyst": "Q1 FY2026 results and evidence that May price hikes plus AI-server MLCC mix are driving guidance raises beyond the +50% OP plan.",
+      "primaryRisk": "Momentum/flow reversal in a name now priced ~2.5x above hiked sell-side targets; crowding unwind dwarfs fundamental drift."
+    }
+  ]
+}

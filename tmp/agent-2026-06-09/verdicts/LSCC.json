@@ -1,0 +1,54 @@
+{
+  "symbol": "LSCC",
+  "company": "Lattice Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -5.51% drop to $135.03 appears flow-driven: profit-taking after the post-Computex/GTC-Taipei surge to ~$143, which had put the stock into the $140-150 analyst price-target cluster (Stifel, Deutsche Bank, RBC, TD Cowen). No downgrade, contract, M&A, or guidance event found. Last fundamental datapoints remain the May 4 Q1 FY26 print (revenue +42% YoY to $170.9M, record Compute & Communications, Q2 guide ~+50% YoY at $185M midpoint) and valuation/insider-selling cautions flagged by sell-side aggregators.",
+  "sources": [
+    {"label": "Yahoo Finance LSCC quote", "url": "https://finance.yahoo.com/quote/LSCC/"},
+    {"label": "Yahoo Finance - Lattice shares skyrocket (post-Computex move context)", "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-shares-skyrocket-102855749.html"},
+    {"label": "StockStory via FinancialContent - Why LSCC traded up (Jun 2, GTC Taipei keynote)", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-2-why-lattice-semiconductor-lscc-stock-is-trading-up-today"},
+    {"label": "Lattice IR - Q1 FY2026 results, 42% YoY revenue growth", "url": "https://ir.latticesemi.com/news-releases/news-release-details/lattice-semiconductor-reports-42-yoy-first-quarter-2026-revenue"},
+    {"label": "Simply Wall St - LSCC valuation after Nvidia Computex AI demand boost", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-lscc/lattice-semiconductor/news/a-look-at-lattice-semiconductor-lscc-valuation-after-nvidias"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the ecosystem-breadth lens LSCC remains a selective, indirect AI/edge node; today's -5.5% is flow-driven profit-taking with the thesis intact, which marginally improves asymmetry but is not new fundamental evidence to re-rank from #75.",
+      "bull": "Q1 revenue +42% YoY with record Compute & Communications and a ~50% YoY Q2 guide shows the FPGA attach to AI servers and data-center networking is real and accelerating; a 5.5% flush improves entry.",
+      "neutral": "Exposure is real but second-order versus HBM, advanced packaging and AI networking names; rank near the bottom of the list already reflects that indirectness.",
+      "bear": "+71.7% YTD at ~$18.2B cap with DCF-overvaluation flags and insider selling means much of the AI-attach story is in the price; an industrial/consumer stall could compress the multiple fast.",
+      "primaryCatalyst": "Q2 FY26 results confirming the ~50% YoY guide and continued AI-server control-plane design wins",
+      "primaryRisk": "Valuation compression on any deceleration; AI exposure proves shallower than the rerating implies"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO-alpha lens LSCC is control-plane optionality, not a co-packaged-optics bottleneck; the -5.5% giveback with no thesis damage slightly resets a crowded post-Computex setup, but four bank PT raises into the $140-150 zone show coverage is no longer under-owned, so no re-rank.",
+      "bull": "Every AI rack still needs control-plane FPGAs; the pullback from ~$143 toward $135 restores some asymmetry while backlog and design-win momentum (per Q1 call) stay intact.",
+      "neutral": "Hold at #64: optionality on edge inference and rack control planes is genuine but indirect to CPO, and the alpha left after an 71.7% YTD rerating is modest.",
+      "bear": "Crowding evidence is mounting - synchronized PT raises, retail 'skyrocket' coverage, insider selling - which is exactly the post-discovery profile this list penalizes.",
+      "primaryCatalyst": "Concrete CPO/scale-up fabric content announcements or a 800G/1.6T control-plane design win that makes the optionality tangible",
+      "primaryRisk": "Crowded ownership unwinds further if AI-adjacent multiples compress; LSCC has no direct CPO content to backstop the story"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "The crowding/rerating penalty was already applied with yesterday's down move; today's -5.5% flow-driven dip is not new robotics-specific information, and the page thesis ('good company, bad hidden-alpha setup') is unchanged at $18.2B cap and +71.7% YTD.",
+      "bull": "Low-power FPGAs are a natural fit for robot vision and motor-control pipelines, and a continued sell-off would start rebuilding genuine asymmetry into the edge-AI robotics attach.",
+      "neutral": "Hold at #31: robotics exposure is generic edge-AI beta rather than a named humanoid program, so neither today's dip nor the Q1 strength changes its position versus purer robotics names.",
+      "bear": "No disclosed humanoid/robotics design wins; the stock trades on AI-server attach, so the robotics listing carries rerated-multiple risk with little robotics-specific upside.",
+      "primaryCatalyst": "A named robotics or humanoid platform design win disclosing Lattice content",
+      "primaryRisk": "Continued multiple compression with zero robotics-specific evidence ever materializing"
+    }
+  ]
+}

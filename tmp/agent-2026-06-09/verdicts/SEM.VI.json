@@ -1,0 +1,39 @@
+{
+  "symbol": "SEM.VI",
+  "company": "Semperit Aktiengesellschaft Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No fresh headlines June 6-9, but the live B&C Holding (58% owner) voluntary takeover bid at EUR 15.00/share expires June 12, 2026 - three trading days away. The stock is pinned at EUR 14.95 (flat today), with the bid acting as an effective price ceiling. Boards declined to recommend the offer, flagging EUR 15 is below the EUR 20.20 carrying amount per share and below analyst targets up to EUR 22 (NuWays Buy, PT EUR 21.50). Strong Q1 2026 (EBITDA +141%, 16.4% margin) reported earlier in spring.",
+  "sources": [
+    {
+      "label": "Semperit boards outline case for/against B&C takeover bid (European Rubber Journal)",
+      "url": "https://www.european-rubber-journal.com/article/2099153/semperit-boards-outline-case-for-and-against-bandc-s-takeover-bid"
+    },
+    {
+      "label": "Semperit press release - board statements on B&C takeover bid",
+      "url": "https://www.semperitgroup.com/newsroom/press-information/statements-from-the-executive-board-and-supervisory-board-on-the-bc-takeover-bid-have-been-published/"
+    },
+    {
+      "label": "Semperit's margin surge sets stage for showdown with B&C bid (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/semperit-s-margin-surge-sets-stage-for-showdown-with-b-and-c-s-takeover/69346387"
+    },
+    {
+      "label": "EQS News - voluntary public takeover bid by B&C Holding Oesterreich GmbH",
+      "url": "https://www.eqs-news.com/news/corporate/voluntary-public-takeover-bid-by-bc-holding-osterreich-gmbh-for-semperit-aktiengesellschaft-holding/0d39c027-9120-42ad-b3e5-d38f0be919df_en"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 52,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On a latent-alpha list the setup is structurally broken right now: the stock is arb-pinned 0.3% below a majority-owner EUR 15 tender expiring June 12, so near-term upside is capped and the elastomer/cooling-loop optionality may be cashed out from minorities entirely. The +21.5% YTD is bid premium, not new evidence for the AI fluid-loop thesis, which yesterday's hold verdict did not price in.",
+      "bull": "Boards refused to endorse EUR 15, citing EUR 20.20 carrying value and analyst targets up to EUR 22 (NuWays PT EUR 21.50); if the bid lapses with low acceptance, the company stays listed with Industrial Applications running 27.8% operating margins and the latent cooling/sealing optionality intact.",
+      "neutral": "Stock sits at EUR 14.95 against a EUR 15.00 ceiling until June 12; nothing in the AI-thesis itself changed since June 6, and the screen's hose/elastomer adaptation pathway remains speculative and unproven either way.",
+      "bear": "If acceptance is high, B&C moves toward squeeze-out and public investors are cashed out at EUR 15, extinguishing the alpha pathway; if the bid lapses, the shares likely retrace toward the unaffected ~EUR 12 level, and the AI fluid-loop adaptation story has zero disclosed design wins to support the rerated price.",
+      "primaryCatalyst": "B&C tender acceptance deadline and result, June 12, 2026 - determines whether the name stays investable as a listed latent node or gets taken out at EUR 15.",
+      "primaryRisk": "Majority-owner squeeze-out at EUR 15 removes the float and the thesis; alternatively a lapsed bid triggers a sharp retrace to pre-bid levels with no AI-fundamental support."
+    }
+  ]
+}

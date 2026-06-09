@@ -1,0 +1,27 @@
+{
+  "symbol": "6282.TW",
+  "company": "AcBel Polytech",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental disclosures since June 6. Today's +7.48% to NT$63.2 (heavy volume, ~NT$4.2B turnover) is a flow-driven rebound after the stock spiked limit-up to NT$70.8 on June 4 on the AI-power theme (April revenue +34.6% YoY, Q1 net income +602% YoY, 33kW power shelf in mass production, 72kW in customer certification, OmniOn-based 1MW HVDC for 400V/800V) and then sold off ~17% to NT$58.8 by June 8. May monthly revenue (due by June 10) is not yet released. Crowding signals are now overt: limit-up theme coverage, retail 'should I buy' explainers, and sell-side fair-value ranges around NT$40-45 sit far below the current price.",
+  "sources": [
+    {"label": "MoneyWeekly - AcBel limit-up to NT$70.8 on AI power theme (2026-06-04)", "url": "https://www.moneyweekly.com.tw/ArticleData/Info/Article/231170"},
+    {"label": "CMoney news - record revenue, OmniOn 1MW HVDC 400V/800V, analyst targets NT$40-45", "url": "https://cmnews.com.tw/article/newsyoudeservetoknow-8c0ea65e-4db0-11f1-99a5-a45827e335be"},
+    {"label": "WantGoo - 6282 monthly revenue (May 2026 not yet released)", "url": "https://www.wantgoo.com/stock/6282/financial-statements/monthly-revenue"},
+    {"label": "Yahoo Taiwan quote - 6282 intraday +7.48% to 63.2", "url": "https://tw.stock.yahoo.com/quote/6282.TW"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 8,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha list, the hidden-gem premise is eroding: a June 4 limit-up on theme money, retail explainer coverage, massive turnover, and today's +7.5% no-news rebound mean the rerating is happening without fresh fundamentals; yesterday's up-move captured the post-spike asymmetry, and today's bounce plus 44.3% YTD gives some of it back.",
+      "bull": "AcBel is a genuine rack-power bottleneck name: 33kW power shelves shipping, 72kW in certification, OmniOn-derived 1MW HVDC spanning 400V/800V architectures, with enterprise power already ~49% of April revenue and Q1 net income up 602% YoY.",
+      "neutral": "Thesis intact but discovery is largely complete; at ~NT$63 the stock trades ~22-23x estimated 2026 EPS of NT$2.8 and well above NT$40-45 sell-side fair-value ranges, so May revenue (due ~June 10) must beat to sustain the rerating.",
+      "bear": "A retail-driven theme stock that went limit-up, dropped 17% in three sessions, and bounced 7.5% on no news is trading on flow, not fundamentals; if May revenue or 72kW certification timing disappoints, the air pocket back toward the high-40s is large.",
+      "primaryCatalyst": "May 2026 monthly revenue release (due by June 10) and 72kW power-shelf customer certification converting to orders.",
+      "primaryRisk": "Crowded retail positioning unwinding on any revenue or certification slip, with price far above sell-side fair-value anchors."
+    }
+  ]
+}

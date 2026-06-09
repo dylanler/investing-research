@@ -1,0 +1,27 @@
+{
+  "symbol": "267260.KS",
+  "company": "HD Hyundai Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's +6.19% (to 944,000 KRW) is a flow-driven rebound from the -6.5% sell-off on June 8 (956,000 -> 889,000 KRW): a two-day round trip that nets roughly flat, with no new orders, guidance, or capacity announcements. Sector backdrop is unchanged from early May: record ~KRW 32T combined order backlog across Korea's big-three power equipment makers on AI data center demand, 'emperor stock' press coverage, and a 300%+ one-year run for HD Hyundai Electric - crowding evidence, not fresh fundamentals.",
+  "sources": [
+    {"label": "Yahoo Finance quote/news - HD Hyundai Electric (267260.KS)", "url": "https://finance.yahoo.com/quote/267260.KS/"},
+    {"label": "AlphaBiz - HD Hyundai Electric, Hyosung Heavy, LS Electric record KRW 32T backlog on AI data center boom", "url": "https://m.alphabiz.co.kr/news/amp.html?ncode=1065573071517120"},
+    {"label": "Korea Times - Hyosung, HD Hyundai, LS benefit from AI supercycle (May 7, 2026)", "url": "https://www.koreatimes.co.kr/business/companies/20260507/hyosung-hd-hyundai-ls-benefit-from-ai-supercycle"},
+    {"label": "Seoul Economic Daily - Korean power equipment makers clinch record orders on US grid, AI boom", "url": "https://en.sedaily.com/news/2026/05/01/korean-power-equipment-makers-clinch-record-orders-on-us"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Hold at 48: today's +6.2% merely retraces yesterday's -6.5% with zero new fundamental evidence, and on a hidden-alpha list this name is already correctly penalized - it is a widely-covered 'emperor stock' AI power trade, the opposite of under-owned, and its distance from the passives bottleneck stack is unchanged.",
+      "bull": "Record ~KRW 32T sector order backlog and multi-year sold-out large-transformer capacity give real earnings visibility through 2028; consensus targets sit ~47% above the current price, so even a crowded name can keep compounding if US grid and AI data center orders accelerate.",
+      "neutral": "The grid-transformer thesis is intact but fully discovered: a +6%/-6% two-day round trip on no news is the signature of a momentum-crowded trade chopping sideways, leaving rank 48 in the monitor bucket appropriate.",
+      "bear": "300%+ one-year rerating, heavy retail/passive ownership and saturated press coverage mean residual alpha is thin; any AI capex digestion, US tariff action on Korean transformers, or competitor capacity additions could unwind the multiple far faster than backlog converts to earnings.",
+      "primaryCatalyst": "New large US/Middle East transformer order wins or Q2 earnings showing backlog-to-revenue conversion and margin expansion.",
+      "primaryRisk": "Crowding unwind in the Korean AI-power complex - high-velocity de-rating on AI capex digestion or tariff/regulatory shocks, independent of fundamentals."
+    }
+  ]
+}

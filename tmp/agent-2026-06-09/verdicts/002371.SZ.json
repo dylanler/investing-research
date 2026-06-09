@@ -1,0 +1,27 @@
+{
+  "symbol": "002371.SZ",
+  "company": "NAURA Technology Group",
+  "caseDate": "undefined",
+  "newsSinceJun6": "No company-specific material news found since June 6, 2026 (no earnings, contracts, M&A or regulatory items). Today's +5.35% move to CNY 617.1 looks flow/sector-driven: China semi-equipment names have been rallying since mid-May on the memory price upcycle, the 50% domestic-sourcing mandate for new fab capacity, and NAURA's record-high run (limit-up May 15, market cap above RMB 450B, backlog reportedly booked through Q1 2027). Bernstein Outperform PT CNY 680 and 21 strong-buy ratings underline how consensus the name now is.",
+  "sources": [
+    {"label": "Yahoo Finance quote and analyst ratings, 002371.SZ", "url": "https://finance.yahoo.com/quote/002371.SZ/"},
+    {"label": "TrendForce: China domestic chip-equipment adoption beats target, led by NAURA/AMEC", "url": "https://www.trendforce.com/news/2026/01/12/news-chinas-domestic-chip-equipment-adoption-beats-2025-target-at-35-led-by-naura-amec/"},
+    {"label": "Sina Finance: NAURA limit-up record high, market cap above RMB 450B (May 15, 2026)", "url": "https://finance.sina.com.cn/jjxw/2026-05-15/doc-inhxxwvn8182461.shtml"},
+    {"label": "DigiTimes: NAURA revenue climbs on China chip tool demand, margins tighten (Apr 2026)", "url": "https://www.digitimes.com/news/a20260420VL218/naura-technology-chip-tool-equipment-revenue-competition.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 39,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, a +5.35% pop with no new fundamental evidence on the single most consensus China-WFE name (21 strong buys, near 52-week high, +30% YTD) further erodes residual alpha; yesterday's hold predates today's flow-driven rerating.",
+      "bull": "Localization mandate (50% domestic tools for new capacity), backlog booked through Q1 2027, and SMIC 28nm furnace dominance give NAURA the most durable revenue visibility in China WFE; memory upcycle adds a cyclical kicker.",
+      "neutral": "Thesis intact but fully discovered: $63B cap, strong-buy consensus, and price already near Bernstein's CNY 680 target mean the localization story is priced; CPO/foundry-capex linkage remains indirect.",
+      "bear": "Flow-driven momentum unwinds fast in A-share semis; margin compression from rising costs and domestic competition (AMEC, Piotech) plus any export-control or subsidy-policy shift could compress the multiple from record highs.",
+      "primaryCatalyst": "Q2 2026 results/order disclosures confirming 80%-type order growth and continued share gains under the domestic-sourcing mandate.",
+      "primaryRisk": "Crowded-momentum reversal: valuation near analyst targets with flow-driven gains; policy/export-control surprises or memory-capex digestion would hit the multiple hardest."
+    }
+  ]
+}

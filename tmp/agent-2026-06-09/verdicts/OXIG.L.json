@@ -1,0 +1,35 @@
+{
+  "symbol": "OXIG.L",
+  "company": "Oxford Instruments",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "FY25/26 preliminary results published June 9, 2026: revenue -4.6% to GBP 423.2m, adjusted operating profit -7.3% to GBP 73.7m (17.4% margin) including a GBP 5.5m FX headwind. Order intake +6.4% to GBP 450.4m, with Advanced Technologies orders +28% OCC driven by compound semiconductor demand; FY27 revenue largely covered by the order book and the share buyback was extended to GBP 100m. Shares fell -9.3% on the print - largely sell-the-news after a +36% YTD run, since the headline numbers had been pre-announced in line in the April 14 trading update; the AI-relevant semiconductor-tooling thesis actually strengthened.",
+  "sources": [
+    {
+      "label": "Investegate - Oxford Instruments Preliminary Results RNS (9 June 2026)",
+      "url": "https://www.investegate.co.uk/announcement/rns/oxford-instruments--oxig/preliminary-results/9607756"
+    },
+    {
+      "label": "Oxford Instruments full-year trading update (14 April 2026)",
+      "url": "https://www.oxinst.com/news/full-year-trading-update-strong-second-half-full-year-in-line-with-expectations;-continued-strong-order-momentum-in-advanced-technologies/"
+    },
+    {
+      "label": "Yahoo Finance - OXIG.L quote",
+      "url": "https://finance.yahoo.com/quote/OXIG.L/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 27,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "On a latent-AI-leverage list, today's -9.3% sell-the-news de-rate hit a name whose AI-adjacent evidence just got stronger: Advanced Technologies orders +28% on compound semiconductor demand with FY27 revenue largely covered. The drop resets the post-run crowding discount that capped it yesterday, improving residual asymmetry with the thesis intact.",
+      "bull": "Compound-semi tooling orders +28% with a multi-year April order covering most of FY27 revenue confirms genuine, under-appreciated AI hardware-supply leverage; the GBP 100m buyback and a 9% cheaper entry add asymmetry.",
+      "neutral": "Group revenue -4.6% and AOP -7.3% were pre-announced in April, so the print contained little incremental news either way; YTD is still +36%, so this is a partial, not full, reset.",
+      "bear": "Imaging & Analysis stays tariff-exposed and soft, the GBP 5.5m FX drag persists into FY27, and the semiconductor order surge could prove a cyclical spike rather than structural AI pull-through.",
+      "primaryCatalyst": "Conversion of the +28% Advanced Technologies order book into FY27 revenue and further large multi-year compound-semiconductor wins.",
+      "primaryRisk": "FX and tariff headwinds plus continued Imaging & Analysis weakness compress margins and overwhelm the semiconductor order momentum."
+    }
+  ]
+}

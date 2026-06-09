@@ -1,0 +1,52 @@
+{
+  "symbol": "7735.T",
+  "company": "SCREEN Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. Today's +5.91% move is sector beta: Nikkei +2.17% with a broad Japan/Korea memory-equipment rally (Tokyo Electron +8.9%, Kioxia +6.4%, SK Hynix +16%) on a Philadelphia Semiconductor Index rebound and bottom-fishing flows tied to the memory/HBM capex recovery narrative. SCREEN is named as a memory-capex beneficiary in sector coverage, but no new orders, guidance, or design wins. Note: 15-analyst consensus 12-month target (~JPY 12,790) now sits only ~2.7% above today's JPY 12,455 close.",
+  "sources": [
+    {
+      "label": "TradingKey - Japan/Korea memory chip stock rally, June 9 session detail",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261954974-kospi-samsung-skhynix-dram-mu-nvda-tradingkey"
+    },
+    {
+      "label": "Moomoo - memory-led SPE demand, SCREEN/KOKUSAI named beneficiaries",
+      "url": "https://www.moomoo.com/community/feed/semiconductor-equipment-is-led-by-memory-related-demand-which-stocks-116599090315270"
+    },
+    {
+      "label": "StockAnalysis - 7735 quote and analyst consensus target",
+      "url": "https://stockanalysis.com/quote/tyo/7735/"
+    },
+    {
+      "label": "Investing.com - Tokyo Electron Q4 FY2026 beat (sector context)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tokyo-electron-q4-2026-beats-estimates-stock-surges-93CH-4654441"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already moved SCREEN up on the memory/HBM-capex linkage and there is no genuinely new company-specific evidence since; today's +5.9% is sector flow, so hold at rank 48 with slight positive drift as sector coverage keeps naming SCREEN a direct memory-capex beneficiary.",
+      "bull": "Cleaning is a near-monopoly step that scales with every incremental 300mm/HBM wafer start, and the memory capex recovery (TEL beat, DRAM/NAND restart) is exactly the demand SCREEN's SPE segment monetizes at ~30% operating margins.",
+      "neutral": "The thesis is intact but evidence remains category-level (sector capex commentary), not name-level (no new SCREEN orders or guidance since June 6); rank 48 already reflects a watch-list position.",
+      "bear": "Price has front-run the evidence: +55.7% YTD and a +5.9% flow-driven pop leave the stock above/at consensus targets, so any order push-out or China export-control tightening hits a stock priced for the high-end WFE scenario.",
+      "primaryCatalyst": "Memory/HBM capacity-addition orders showing up in SCREEN's own order book and FY2027 SPE guidance updates.",
+      "primaryRisk": "WFE order timing slip or China export-control escalation while the stock trades at a full re-rating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 26,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, a +5.9% one-day pop on pure sector flow with zero new CPO-relevant evidence, stacked on +55.7% YTD and a price now at/above the 15-analyst consensus target, compresses residual alpha; yesterday's hold predates today's rerating, justifying a move down.",
+      "bull": "If CPO and advanced packaging volume ramps, wet-process and cleaning intensity rises per package, and SCREEN captures it without being priced as a CPO name yet.",
+      "neutral": "The CPO linkage is real but indirect and second-order; nothing since June 6 strengthens it, and the stock now trades on the memory-capex narrative rather than anything optical.",
+      "bear": "This is now a consensus Japan-SPE momentum trade (whole complex up 6-9% in one session on bottom-fishing flows), the loosest CPO thesis on the page, and the first name sold if memory capex enthusiasm cools.",
+      "primaryCatalyst": "Concrete advanced-packaging/CPO-related tool wins or packaging-capex disclosures that convert the indirect thesis into name-level evidence.",
+      "primaryRisk": "Crowding unwind: flow-driven Japan SPE rally reverses and the indirect-CPO premium evaporates faster than fundamentals justify."
+    }
+  ]
+}

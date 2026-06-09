@@ -1,0 +1,40 @@
+{
+  "symbol": "3443.TW",
+  "company": "Global Unichip",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Shares went ex-dividend NT$20.00 on June 8 (payable June 30), a ~0.5% administrative event. The strong Q1 2026 print (revenue NT$11.4b, +63% YoY; EPS NT$12.28), raised FY26 consensus (~NT$52.3b revenue), and the May 26 VSORA Jotunn8 turnkey ASIC showcase at TSMC Europe Symposium all predate the window. Today's +1.29% move is flow/drift, not fundamental.",
+  "sources": [
+    {"label": "Yahoo Finance quote 3443.TW", "url": "https://finance.yahoo.com/quote/3443.TW/"},
+    {"label": "Simply Wall St - Global Unichip (Q1 2026 results, NT$20 dividend ex-date Jun 8, FY26 consensus revision)", "url": "https://simplywall.st/stocks/tw/semiconductors/twse-3443/global-unichip-shares"},
+    {"label": "GlobeNewswire - GUC showcases VSORA Jotunn8 AI inference processor (May 26, 2026)", "url": "https://www.globenewswire.com/news-release/2026/05/26/3300764/0/en/GUC-showcase-VSORA-s-Jotunn8-AI-inference-processor-at-the-TSMC-Europe-Technology-Symposium.html"},
+    {"label": "TrendForce - CSPs accelerate ASIC push in 2H26; MediaTek, GUC, Alchip benefit", "url": "https://www.trendforce.com/news/2026/03/20/news-csps-accelerate-asic-push-in-2h26-challenging-nvidia-as-mediatek-guc-alchip-benefit/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the node-centrality lens GUC's position as TSMC-affiliated custom-ASIC turnkey node is unchanged; no new design wins, capacity news, or guidance since June 6, and a +1.29% drift day does not alter its 'selective, less direct than HBM/packaging' placement at rank 15.",
+      "bull": "CSP custom-silicon buildouts accelerate into 2H26 with GUC (TSMC 34.8% holder) capturing 3nm/2nm turnkey and chiplet/HBM interface work; FY26 consensus revenue already lifted to ~NT$52.3b and could prove conservative.",
+      "neutral": "Thesis intact but fully visible: Q1 beat and raised estimates are in the price after a 97% YTD run; node criticality is real yet secondary to HBM, CoWoS, and networking pure-plays on this page.",
+      "bear": "Customer/project concentration plus NRE-to-turnkey timing lumpiness; a single delayed or cancelled hyperscaler ASIC program would dent FY27 turnkey revenue while the stock trades on flawless execution.",
+      "primaryCatalyst": "May/June monthly revenue releases and new 2nm/chiplet ASIC design-win disclosures into 2H26.",
+      "primaryRisk": "ASIC project cancellation or push-out at a concentrated customer compressing turnkey revenue."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 22,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Crowding-sensitive alpha lens: the AI-ASIC design-services theme is now consensus (TrendForce et al. flag GUC/Alchip/MediaTek as the obvious beneficiaries) and the stock has rerated 97% YTD to an $18B cap with zero new fundamental evidence since June 6 - residual alpha is shrinking, so it should drift down from rank 22.",
+      "bull": "Hyperscaler custom-silicon pipelines are multi-year and GUC's TSMC alignment gives it privileged access to N3/N2 and advanced packaging; any fresh marquee design win could re-open upside despite the run.",
+      "neutral": "Yesterday's hold was right on the news, but on a post-rerating alpha list a doubled stock with no incremental evidence is a worse setup than a week ago even if the business is fine.",
+      "bear": "At ~NT$4,310 the stock discounts the raised FY26 numbers; the name is widely owned as 'the' Taiwan ASIC-services proxy, so any NRE lull, share loss to Alchip/Broadcom-direct, or hyperscaler insourcing triggers a sharp de-rating.",
+      "primaryCatalyst": "A new disclosed hyperscaler or AI-startup turnkey win that resets the FY27 revenue base.",
+      "primaryRisk": "Crowded positioning into decelerating news flow - valuation gives back multiple faster than estimates rise."
+    }
+  ]
+}

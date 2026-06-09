@@ -1,0 +1,27 @@
+{
+  "symbol": "ISRG",
+  "company": "Intuitive Surgical",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new catalysts since June 6, 2026. Caution: the Deutsche Bank 'Sell on remanufactured I&A encroachment' note circulating in feeds is dated June 9, 2025 (a year old), not fresh news. The most recent genuine item is the Erste Group upgrade to Buy on June 5, 2026 (just outside the window), citing margin expansion and accelerating profit growth. Q1 beat ($2.77B rev, +23%; EBIT +40%), raised 2026 procedure guidance (14-16% da Vinci growth), and the Taylor Patton CCO promotion are all April-May news already reflected. Today's +1.86% move is routine drift within the -24% YTD drawdown, below the 5% threshold.",
+  "sources": [
+    {"label": "Yahoo Finance - Intuitive Surgical (ISRG) Upgraded to Buy", "url": "https://uk.finance.yahoo.com/news/intuitive-surgical-isrg-upgraded-buy-160004219.html"},
+    {"label": "TipRanks/The Fly - Deutsche downgrades ISRG to Sell on I&A risk (dated 2025, not new)", "url": "https://www.tipranks.com/news/the-fly/deutsche-downgrades-intuitive-surgical-to-sell-on-ia-segment-risk-thefly"},
+    {"label": "TIKR - Intuitive raises 2026 procedure guidance after 40% EBIT jump", "url": "https://www.tikr.com/blog/intuitive-surgical-raises-2026-procedure-guidance-after-a-40-ebit-jump-analysts-price-isrg-above-700"},
+    {"label": "Simply Wall St - Ion-focused CCO promotion (Taylor Patton)", "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-isrg/intuitive-surgical/news/does-intuitive-surgicals-isrg-ion-focused-promotion-reveal-i"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "No genuinely new information since yesterday's hold; the apparent fresh negative (Deutsche Bank remanufacturing Sell note) is a year-old item resurfacing, and today's +1.86% is drift. On a hidden-alpha robotics lens, a $151B fully-discovered, non-humanoid surgical-robot leader stays mid-pack at #36; the -24% YTD asymmetry was already priced into yesterday's verdict.",
+      "bull": "A -24% YTD reset on a franchise still compounding procedures 16% (da Vinci) and 39% (Ion) with raised 2026 guidance and 40% EBIT growth gives real mean-reversion asymmetry; the June 5 Erste upgrade signals estimate momentum turning up.",
+      "neutral": "Fundamentals are intact and the drawdown improves entry math, but on an alpha list rewarding hidden bottleneck names, ISRG is neither hidden nor under-owned -- ~44 analysts cover it and the recovery thesis is consensus.",
+      "bear": "Remanufactured-instrument encroachment on the I&A razor-blade segment (up to 46% of US I&A revenue per Deutsche Bank's 2025 work) builds through 2027-28, while Medtronic Hugo and J&J Ottava erode the monopoly premium that justified the prior multiple.",
+      "primaryCatalyst": "Q2 2026 earnings in July: another procedure-growth beat plus da Vinci 5 and Ion utilization data under the new CCO could confirm the estimate-upgrade cycle.",
+      "primaryRisk": "I&A revenue erosion from third-party remanufactured instruments plus continued multiple de-rating in a market that pays up only for humanoid or AI-compute-adjacent robotics."
+    }
+  ]
+}

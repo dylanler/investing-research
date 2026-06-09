@@ -1,0 +1,39 @@
+{
+  "symbol": "6762.T",
+  "company": "TDK",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news. TDK is showcasing AI data-center power solutions (8kW/12kW Infineon PSU reference designs, 'from grid to core' concept) at PCIM 2026 in Nuremberg June 9-11 - product marketing, not a contract or guidance event. The TDK Ventures investment in C2i Semiconductors (AI data-center power delivery) was announced May 27, before the window. Today's +3.23% move appears to be continued AI-passives sector flow, lifting YTD to +70.4% from ~65% with no new evidence.",
+  "sources": [
+    {"label": "TDK at PCIM 2026 - AI data center power showcase (EE Journal)", "url": "https://www.eejournal.com/industry_news/tdk-showcases-its-latest-industrial-automotive-and-ai-data-center-solutions-at-pcim-under-the-motto-the-power-in-your-design/"},
+    {"label": "TDK Ventures invests in C2i Semiconductors (Businesswire, May 27 - pre-window)", "url": "https://www.businesswire.com/news/home/20260527489510/en/TDK-Ventures-Invests-in-C2i-Semiconductors-to-Revolutionize-AI-Data-Center-Power-Delivery"},
+    {"label": "TDK Corporation (6762.T) quote", "url": "https://finance.yahoo.com/quote/6762.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 6,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Another +3.2% day on zero fundamental news pushes YTD past 70% on a crowding-sensitive residual-alpha list; the rerating is consuming the asymmetry and at $44B cap TDK is far less hidden than the Tier A names it sits above.",
+      "bull": "Direct bottleneck exposure across MLCCs, inductors, filters and AI power topology, with PCIM showing a full grid-to-core data-center power stack; HDD head volumes guided up ~20% add a second AI-storage leg.",
+      "neutral": "Thesis intact and execution fine, but nothing new since June 6; today's move is flow, so the alpha case is unchanged while entry price worsened.",
+      "bear": "70% YTD with a 14-buy analyst skew means the passives-for-AI trade is now consensus; any AI capex digestion or FX reversal hits a rerated multiple hard.",
+      "primaryCatalyst": "Q1 FY3/27 results and AI/data-center sales mix progress toward the 15%-of-sales FY2027 target",
+      "primaryRisk": "Crowded AI-passives positioning unwinding on a capex-digestion scare after a 70% YTD run"
+    },
+    {
+      "page": "companies",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already marked TDK down for the YTD rerating; with no genuinely new information since June 6 and only a +3.2% flow-driven day, rank 55 on the broad board-level power and passives list still fits.",
+      "bull": "AI server PDN content (MLCCs, inductors, power components) plus HDD heads gives TDK multiple real AI revenue lines, and record FY2026 results confirm execution.",
+      "neutral": "PCIM showcase and the May C2i venture stake are incremental positioning, not contracts; the audit picture from June 8 is unchanged.",
+      "bear": "Large-cap recognition, consumer/auto cyclicality and FX exposure dilute the AI signal; further drift up the list requires hard design-win or capacity news, not trade-show demos.",
+      "primaryCatalyst": "Concrete AI data-center design wins or capacity commitments (e.g., PSU/PDN sockets) disclosed at or after PCIM",
+      "primaryRisk": "Cyclical slowdown in consumer/auto segments masking AI content growth at a now-rerated valuation"
+    }
+  ]
+}

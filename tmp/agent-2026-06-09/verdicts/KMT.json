@@ -1,0 +1,39 @@
+{
+  "symbol": "KMT",
+  "company": "Kennametal",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - KMT quote",
+      "url": "https://finance.yahoo.com/quote/KMT/"
+    },
+    {
+      "label": "Simply Wall St - KMT new debt package (late-May refinancing, pre-window)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-kmt/kennametal/news/is-kennametals-kmt-new-debt-package-quietly-redefining-its-f"
+    },
+    {
+      "label": "Yahoo Finance - June 3 analyst update, no price-target change",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investment-story-kennametal-kmt-evolving-001744719.html"
+    },
+    {
+      "label": "StockTitan - KMT news feed (no material releases Jun 6-9)",
+      "url": "https://www.stocktitan.net/news/KMT/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move (adjusted-score rank gap) is already reflected at rank 50, and nothing material has hit the tape since June 6 - the only recent items (late-May debt refinancing, May downgrades to hold, a June 3 no-change analyst note) all predate the window. Today's +1.9% is drift, so discipline says do not move it again without new information.",
+      "bull": "Carbide tooling and tungsten wear materials are a genuine, under-owned input to any reshoring of precision thermal/mechanical component machining, and the refinanced balance sheet ($850M revolver, $500M delayed-draw term loan) gives flexibility at a $2.6B cap. The stock has pulled back hard from its post-Q3 highs, so entry asymmetry is better than a month ago.",
+      "neutral": "FY26 guide of $2.33-2.35B sales and $3.75-4.00 adjusted EPS is intact but the AI linkage remains a second-derivative reshoring narrative, not a booked AI revenue stream; consensus sits at hold with targets clustered near the current price.",
+      "bear": "This is a cyclical metal-cutting franchise whose AI-bottleneck relevance is speculative; sell-side is already 3 sells vs 1 buy, and if industrial demand softens the reshoring optionality never shows up in numbers while the stock trades like a generic short-cycle industrial.",
+      "primaryCatalyst": "Concrete reshoring/CHIPS-adjacent tooling orders or an FY-end (September quarter) print showing aerospace/precision-machining mix gains.",
+      "primaryRisk": "Short-cycle industrial demand rollover that makes the carbide-tooling reshoring thesis a stranded narrative at a hold-rated consensus."
+    }
+  ]
+}

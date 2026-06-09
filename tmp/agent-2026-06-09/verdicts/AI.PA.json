@@ -1,0 +1,35 @@
+{
+  "symbol": "AI.PA",
+  "company": "Air Liquide",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Air Liquide press release (2026-06-03): milestone investment in South Korea supporting SK hynix advanced AI memory (HBM) project",
+      "url": "https://www.airliquide.com/group/press-releases-news/2026-06-03/air-liquide-announces-milestone-investment-south-korea-support-sk-hynixs-advanced-ai-memory-chip-0"
+    },
+    {
+      "label": "Yahoo Finance quote AI.PA (price/52-week range check, 2026-06-09)",
+      "url": "https://finance.yahoo.com/quote/AI.PA/"
+    },
+    {
+      "label": "CNBC quote AI-FR (analyst targets, next earnings 2026-07-28)",
+      "url": "https://www.cnbc.com/quotes/AI-FR"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's up-move already credited the SK hynix HBM advanced-packaging gas contract (Jun 3); nothing genuinely new since Jun 6, and today's +1.84% drift toward the 52-week high does not change the setup on this fab-inputs bucket.",
+      "bull": "The ~EUR 200M SK hynix deal plus the DIG Airgas acquisition cement Air Liquide as the embedded gases supplier to HBM advanced packaging, a true consumable bottleneck for AI memory; at only +5.9% YTD the rerating has not happened yet.",
+      "neutral": "A $124B diversified industrial gases major dilutes electronics exposure; the AI fab-inputs story is real but moves group earnings slowly, so the stock tracks European industrials beta as much as the AI cycle. Next hard data point is H1 earnings on Jul 28.",
+      "bear": "Electronics is a minority of revenue and any semiconductor capex digestion (memory or foundry push-outs) delays gas ramp volumes; the stock is within ~2% of its 52-week high, so near-term entry asymmetry is thinning.",
+      "primaryCatalyst": "H1 2026 results on Jul 28 showing Electronics segment acceleration from the SK hynix / DIG Airgas Korea footprint, or additional fab gas supply wins.",
+      "primaryRisk": "Semiconductor capex digestion or HBM oversupply slowing on-site gas project ramps, while the broad industrial portfolio caps AI-driven upside torque."
+    }
+  ]
+}

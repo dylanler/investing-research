@@ -1,0 +1,27 @@
+{
+  "symbol": "0981.HK",
+  "company": "SMIC (Semiconductor Manufacturing International Corporation)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news in the Jun 6-9 window. Today's +3.4% move (HKD 72.55 -> 75.00) looks flow-driven: SMIC posted the highest net southbound Stock Connect inflow among active stocks (~HK$943M) amid a broader HK chip bid. The $5.97B CSRC approval to buy in the remaining 49% of Beijing unit SMNC (547.2M new A-shares) landed May 22, pre-window, and Q2 guidance of +14-16% revenue on AI demand and price hikes was already known. YTD is flat (-0.13%) and the stock sits ~20% below its 52-week high of HKD 93.50.",
+  "sources": [
+    {"label": "Yahoo Finance - 0981.HK quote and Jun 9 price action", "url": "https://finance.yahoo.com/quote/0981.HK/"},
+    {"label": "SCMP - SMIC clears final hurdle for US$6B SMNC takeover (May 22, 2026)", "url": "https://www.scmp.com/tech/article/3354471/chinas-smic-clears-final-hurdle-us6-billion-takeover-smnc"},
+    {"label": "Investing.com - SMIC quote, analyst ratings, Stock Connect flows", "url": "https://www.investing.com/equities/smic"},
+    {"label": "SCMP - SMIC action plan for new growth opportunities", "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 52: no new fundamental evidence since Jun 6, and today's +3.4% is southbound-flow chasing, not a CPO-relevant development. With YTD flat and the SMNC consolidation (EPS-accretive, 12-inch capacity) already approved pre-window, the setup is unchanged from yesterday's hold; the page's core objection - CPO exposure is indirect and tool-constrained - still binds.",
+      "bull": "Full ownership of SMNC's 12-inch Beijing fab plus Q2 guidance of +14-16% revenue on AI demand and pricing power show China localization is monetizing; flat YTD means none of this re-rating is in the price versus peers.",
+      "neutral": "Solid domestic-foundry story but a weak CPO vehicle: silicon photonics/advanced packaging exposure is indirect, and the alpha on this page belongs to names closer to the optical engine. Flow-driven 3% days neither confirm nor break the thesis.",
+      "bear": "Export controls cap the node roadmap and tool access; if AI-localization sentiment cools, a $96B market cap foundry trading on policy optionality with structurally lower margins than TSMC de-rates quickly.",
+      "primaryCatalyst": "Evidence of SMIC packaging/photonics content in domestic AI accelerator ramps (Huawei ecosystem), or Q2 results beating the +14-16% guide in early August.",
+      "primaryRisk": "Tightened US/allied export controls on tools or a reversal of southbound flows that have been the marginal buyer of the HK line."
+    }
+  ]
+}

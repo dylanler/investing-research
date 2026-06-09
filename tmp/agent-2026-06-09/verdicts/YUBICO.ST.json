@@ -1,0 +1,39 @@
+{
+  "symbol": "YUBICO.ST",
+  "company": "Yubico",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yubico IR - OpenAI TAC passkey mandate partnership (Jun 1, 2026)",
+      "url": "https://investors.yubico.com/en/yubico-partners-with-openai-to-support-passkey-mandate-for-its-trusted-access-for-cyber-tac-program-users/"
+    },
+    {
+      "label": "StockTitan - Yubico backs OpenAI passkey mandate for TAC users",
+      "url": "https://www.stocktitan.net/news/YUBICO/yubico-partners-with-open-ai-to-support-passkey-mandate-for-its-omg1mtsorhx2.html"
+    },
+    {
+      "label": "Placera - OpenAI kraver passkeys i TAC-program (Jun 2, 2026)",
+      "url": "https://www.placera.se/telegram/yubico-openai-kraver-passkeys-i-tac-program--yubico-lyfter-hardvarubaserad-sakerhet-20260602"
+    },
+    {
+      "label": "MarketScreener - Yubico Q1 2026 profit collapse (rev -23% y/y)",
+      "url": "https://www.marketscreener.com/news/profit-collapse-for-yubico-update-ce7e5ad2da8aff23"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6; today's -4.55% is a flow-driven fade of the ~21% OpenAI-partnership pop (Jun 1), not a thesis break. The agentic-identity thesis was just validated by OpenAI's TAC passkey mandate, and the pullback to 54.5 SEK with YTD -25% modestly restores entry asymmetry on this under-owned $0.54B name, so a small positive drift without a rank change relative to yesterday's hold.",
+      "bull": "OpenAI mandating hardware-backed passkeys for its most privileged frontier-model users sets an industry precedent that directly monetizes Yubico's core product as agentic-AI security infrastructure; subscription revenue (+13.8% y/y) and ARR (+11% to 383.5 MSEK) show the recurring base compounding beneath weak headline numbers.",
+      "neutral": "The OpenAI TAC program is small in revenue terms today; the partnership is a credibility signal, not a disclosed contract. Stock has round-tripped much of the pop and sits near pre-news levels, leaving the setup roughly where yesterday's hold left it.",
+      "bear": "Q1 2026 revenue fell 23% y/y with EBIT collapsing to 14.9 MSEK and an 11% revenue miss; if hardware key demand keeps shrinking faster than subscriptions grow, the agentic-identity option is being funded by a deteriorating core business.",
+      "primaryCatalyst": "Follow-on AI-lab or hyperscaler passkey mandates (or a disclosed OpenAI volume order) converting the June 1 precedent into bookings, plus Q2 2026 report showing hardware revenue stabilization.",
+      "primaryRisk": "Continued double-digit hardware revenue decline and enterprise spending softness swamping ARR growth, with platform passkeys (device-bound, software) eroding the hardware-key niche."
+    }
+  ]
+}

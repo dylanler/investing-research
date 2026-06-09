@@ -1,0 +1,28 @@
+{
+  "symbol": "XPEV",
+  "company": "XPeng",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. Stock drifted lower (-2.7% today, roughly -8% from the June 5 close near $16.81) on no identifiable catalyst. Aggregated sell-side revisions turned negative: blended fair value cut from ~$17.05 to ~$16.03 and FY2026 now modeled as a CNY2.73/share loss versus a prior CNY1.08 profit forecast, with 2026 revenue trimmed to CNY93.9b. Robotics/AV thesis items all predate the window and remain intact: May deliveries of 32,158 (+4% MoM, June 1), first mass-produced LiDAR-free L4 robotaxi off the Guangzhou line (May 18), IRON humanoid still targeted for 2026 mass production with factory pilots underway, BofA PT raise to $25 (May 28).",
+  "sources": [
+    {"label": "Insider Monkey - XPeng May 2026 delivery results", "url": "https://www.insidermonkey.com/blog/xpeng-inc-xpev-announces-vehicle-delivery-results-for-may-2026-1778162/"},
+    {"label": "Electrek - XPeng rolls first mass-produced robotaxi off the line", "url": "https://electrek.co/2026/05/18/xpeng-robotaxi-mass-production-china-first/"},
+    {"label": "Humanoids Daily - XPeng targets 2026 IRON mass production", "url": "https://www.humanoidsdaily.com/news/xpeng-targets-2026-for-autonomous-humanoid-robot-iron-mass-production"},
+    {"label": "Simply Wall St - XPEV estimate and fair-value revisions", "url": "https://simplywall.st/stocks/us/automobiles/nyse-xpev/xpeng"},
+    {"label": "Yahoo Finance - XPEV quote", "url": "https://finance.yahoo.com/quote/XPEV/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved XPEV up on the under-owned Builder case, and nothing genuinely new has landed since June 6. Today's -2.7% drift with the IRON/robotaxi thesis intact marginally improves entry asymmetry, but negative FY26 estimate revisions (consensus flipping to a loss) on the EV core that funds the robot program roughly offset it, so hold with small positive drift.",
+      "bull": "IRON remains on a 2026 mass-production track with factory pilots running, the robotaxi line is the first full-stack mass-produced L4 vehicle in China, and at -24.6% YTD on a $14.7B cap the humanoid optionality is priced near zero.",
+      "neutral": "Stock is mostly an EV/autonomy business as the thesis states; deliveries grew only 4% MoM and the slide since June 5 is flow-driven drift, not new information, so the alpha case is unchanged from yesterday's upgrade.",
+      "bear": "Consensus now models a CNY2.73/share FY26 loss versus a prior profit, meaning the cash-burning EV core could squeeze funding and credibility for IRON before commercialization evidence arrives; intense China EV price competition keeps margin recovery fragile.",
+      "primaryCatalyst": "Concrete IRON mass-production or paid industrial-deployment announcement in H2 2026, alongside robotaxi pilot operations launch.",
+      "primaryRisk": "Deepening losses in the core EV business force capital reallocation or dilution, deferring the humanoid program and breaking the Builder-purity case."
+    }
+  ]
+}

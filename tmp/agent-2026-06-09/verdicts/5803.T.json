@@ -1,0 +1,27 @@
+{
+  "symbol": "5803.T",
+  "company": "Fujikura",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material AI-thesis news since June 6. Items in circulation are AGM housekeeping ahead of the June 26 shareholder meeting: dividend payout ratio raised from 30% to 40% with a Y130 year-end dividend and a 6-for-1 share split, a new restricted-stock director comp plan, and an auditor switch from PwC Japan to Deloitte. The Y300bn (~$2B) plan to triple SWR/WTC optical fiber capacity in Japan and the US dates from March 2026 and is already embedded in the thesis. Stock +2.23% today (drift), +46% YTD but ~43% below its 7,933 52-week high.",
+  "sources": [
+    {"label": "TipRanks - Fujikura lifts dividend payout ratio and year-end dividend after strong FY2026 results", "url": "https://www.tipranks.com/news/company-announcements/fujikura-lifts-dividend-payout-ratio-and-year-end-dividend-after-strong-fy2026-results"},
+    {"label": "TipRanks - Fujikura to replace long-standing auditor PwC Japan with Deloitte", "url": "https://www.tipranks.com/news/company-announcements/fujikura-to-replace-long-standing-auditor-pwc-japan-with-deloitte"},
+    {"label": "w.media - Fujikura to triple fiber capacity with Y300bn AI push (March 2026)", "url": "https://w.media/fujikura-to-triple-fiber-capacity-with-%C2%A5300bn-ai-push/"},
+    {"label": "Yahoo Finance quote 5803.T", "url": "https://finance.yahoo.com/quote/5803.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On a latent/hidden-node list Fujikura is already scored as a fully discovered control name at rank 90; nothing since June 6 changes that, and yesterday's down move already reconciled the adjusted rank. A +2.2% drift day on a $49B cap with only AGM housekeeping news warrants a small negative drift, not another rank move.",
+      "bull": "Tripling SWR/WTC fiber capacity into US AI data center demand with a new Delaware subsidiary keeps Fujikura structurally levered to cluster cabling, and the 43% pullback from the 7,933 high plus a 40% payout ratio restores some asymmetry.",
+      "neutral": "Strong Buy consensus (9 of 12 buys, ~5,837 average target) and +46% YTD confirm the crowd has fully found this name; it now trades on AI capex beta rather than discovery, consistent with its control-name designation.",
+      "bear": "At $49B market cap with sell-side saturation, any AI optical capex digestion or fiber pricing normalization hits a stock that has already rerated; the March capacity plan is also explicitly conditioned on market conditions.",
+      "primaryCatalyst": "Execution updates on the Y300bn Japan/US fiber capacity tripling and new Sakura plant, plus FY guidance around the June 26 AGM.",
+      "primaryRisk": "Crowding: a discovered, consensus-Strong-Buy $49B name with +46% YTD has little residual hidden-node alpha if AI data center cabling demand decelerates."
+    }
+  ]
+}

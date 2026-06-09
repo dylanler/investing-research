@@ -1,0 +1,28 @@
+{
+  "symbol": "XFAB.PA",
+  "company": "X-FAB",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news. Shares fell -15.3% on June 9 as the late-May retail/meme rally unwinds: the spike was triggered by a May 27 post from the 400k-follower X account 'Serenity' (@aleabitoreddit) that drove a 77% intraday surge on ~17x normal volume with multiple volatility halts. Berenberg downgraded to Hold urging profit-taking; only 1 of 8 analysts rate it Buy and consensus PT (~EUR 5.40, recently cut from EUR 6.34 alongside 2026 revenue/EPS estimate cuts) sits far below the EUR 9.16 price even after today's drop. Today's move is flow-driven, not fundamental.",
+  "sources": [
+    {"label": "Bloomberg: Popular X Account Sparks Massive Rally in Little-Known Chipmaker (May 27, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-05-27/popular-x-account-sparks-massive-rally-in-little-known-chipmaker"},
+    {"label": "TradingView/GuruFocus: X-Fab Shares Jump 77% After Viral AI Chip Trading Post", "url": "https://www.tradingview.com/news/gurufocus:b1ab0f304094b:0-x-fab-shares-jump-77-after-viral-ai-chip-trading-post/"},
+    {"label": "MarketScreener: X-Fab whipsaws in volatile trading", "url": "https://www.marketscreener.com/news/x-fab-whipsaws-in-volatile-trading-ce7f5ad3db81f425"},
+    {"label": "Simply Wall St: X-FAB forecast/PT revisions (2026 rev cut to $862.9M, PT EUR 6.34 -> EUR 5.40)", "url": "https://simplywall.st/stocks/fr/semiconductors/epa-xfab/x-fab-silicon-foundries-shares/future"},
+    {"label": "Yahoo Finance quote XFAB.PA", "url": "https://finance.yahoo.com/quote/XFAB.PA/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 15,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "The name is no longer hidden or under-owned: a viral retail meme rally (17x volume, trading halts) is now unwinding (-15.3% today), and even post-drop the price sits ~70% above the ~EUR 5.40 consensus PT with sell-side cutting 2026 estimates. On an alpha list that penalizes crowding and post-rerating chase, residual alpha has been consumed by flow, not fundamentals.",
+      "bull": "Q1 2026 revenue of $205.8M beat guidance with wide-bandgap/SiC up 152% YoY and medical up 39%; the specialty mixed-signal/SiC foundry thesis for industrial, auto, and data-center power management is intact underneath the noise.",
+      "neutral": "The -15% day is mean reversion of a non-fundamental spike, not new bad news; fair treatment is to mark down the crowding/valuation component while leaving the bottleneck thesis unchanged until Q2 results.",
+      "bear": "The stock remains a retail battleground trading roughly double pre-meme analyst fair value while consensus cut 2026 revenue to ~$863M and EPS to ~$0.26, and auto (its largest end market) fell 10% YoY - the unwind can continue well below EUR 9.",
+      "primaryCatalyst": "Q2 2026 earnings/guidance confirming SiC and data-center power management momentum, or a concrete photonics/power design win that retroactively validates the rerating.",
+      "primaryRisk": "Continued meme unwind toward the ~EUR 5.40 consensus target as retail flow exits, compounded by weak automotive demand and cut 2026 estimates."
+    }
+  ]
+}

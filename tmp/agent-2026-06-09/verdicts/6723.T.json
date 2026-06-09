@@ -1,0 +1,53 @@
+{
+  "symbol": "6723.T",
+  "company": "Renesas Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No fundamental news since June 6. A major U.S. securities firm raised its price target to JPY 5,400 on June 8 while maintaining a bullish rating (after a May 26 raise to JPY 4,900). Today's +6.19% move to JPY 4,395 is a flow-driven rebound after a two-day ~14.5% selloff from the June 3 52-week high of JPY 4,824 (June 5 -5.58%, June 8 -9.39% on volume ~80% above average). No new earnings, contracts, design wins, M&A, or capacity announcements; the AI data-center power story (800V DC / GaN, APEC 2026) and the completed Wolfspeed restructuring stake are older, well-publicized context.",
+  "sources": [
+    {"label": "Yahoo Finance Japan - 6723 AI topics (price action and June 8 PT raise)", "url": "https://finance.yahoo.co.jp/quote/6723.T/ai-topics"},
+    {"label": "Renesas newsroom - 800V DC AI data center power architecture (background)", "url": "https://www.renesas.com/en/about/newsroom/renesas-powers-800-volt-direct-current-ai-data-center-architecture-next-generation-power"},
+    {"label": "Wolfspeed - CFIUS clearance and equity issuance to Renesas (background, Jan-Feb 2026)", "url": "https://investor.wolfspeed.com/news/news-details/2026/Wolfspeed-Announces-CFIUS-Clearance-and-Completion-of-Equity-Issuance-to-Renesas-as-Part-of-Court-Approved-Restructuring/default.aspx"},
+    {"label": "Yahoo Finance - 6723.T quote", "url": "https://finance.yahoo.com/quote/6723.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Today's +6.2% bounce is flow-driven recovery of a two-day -14.5% drawdown, not new bottleneck evidence; a sell-side PT raise to JPY 5,400 adds crowding rather than hidden alpha on a passives/power list where Renesas already sits in the monitor bucket.",
+      "bull": "Real AI data-center power content (800V DC / GaN, multiphase, clocking) plus a still ~9% discount to the June 3 high gives some restored asymmetry if AI power capex revisions continue.",
+      "neutral": "At +97.5% YTD, $46.6B cap and rising sell-side coverage, Renesas is a known AI-power story; the rebound merely unwinds part of the correction without changing its distance from the passive/power bottleneck stack.",
+      "bear": "Volatile post-breakout topping pattern (June 8 -9.4% on +80% volume) suggests hot money is cycling out; auto/industrial core revenue dilutes the AI-power exposure the page rewards.",
+      "primaryCatalyst": "AI data-center power design wins or hyperscaler 800V DC adoption announcements quantifying Renesas content per rack.",
+      "primaryRisk": "Crowding unwind in Japanese AI-power names after a near-double YTD, with auto/industrial cycle softness hitting the core business."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved it down to 80 for indirectness versus HBM/packaging/test bottlenecks; nothing since June 6 changes that, and a flow-driven rebound plus an analyst PT raise are not node-centrality evidence.",
+      "bull": "Power delivery is becoming a first-order constraint for AI clusters, and Renesas' 800V DC / GaN portfolio could pull it closer to the bottleneck map than the analog/power tier currently credits.",
+      "neutral": "Selective AI/edge/power exposure is intact but unchanged; rank 80 already reflects the discount for indirectness after the June 8 down-move.",
+      "bear": "Renesas remains predominantly auto/industrial MCU and analog; on a node-centrality lens it is two steps removed from CPO/HBM/advanced packaging, and the YTD near-double has been driven by thematic flows.",
+      "primaryCatalyst": "Concrete hyperscaler or AI-server OEM power-stage sockets that establish Renesas as a named node in AI compute power trees.",
+      "primaryRisk": "Thesis stays diffuse: AI-power revenue too small versus auto/industrial cycle exposure to justify node status."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 77,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict was removal for weak direct CPO/HBM/packaging/test relevance; no new evidence since June 6 reverses that, and today's +6.2% flow bounce plus a US broker PT raise to JPY 5,400 further worsen the asymmetry on an actionable-alpha CPO list. Remains a removal candidate.",
+      "bull": "If the page broadens to count AI power delivery as a bottleneck adjacency, Renesas' 800V DC / GaN stack and Wolfspeed SiC relationship offer optionality the current category undervalues.",
+      "neutral": "The Wolfspeed restructuring stake and power exposure are real but stale, publicly known facts; they do not map onto the CPO/optics/test bottlenecks this page is built around.",
+      "bear": "A $46.6B name up ~98% YTD with rising sell-side targets and no CPO/HBM/packaging linkage is the definition of post-rerating chase on this list; the two-day selloff and bounce show flow dominance, not hidden alpha.",
+      "primaryCatalyst": "An explicit co-packaged-optics or advanced-packaging-adjacent power/clocking design win that creates direct page relevance.",
+      "primaryRisk": "Continued momentum unwind in a crowded Japanese AI-power trade with no page-relevant bottleneck exposure to backstop the rank."
+    }
+  ]
+}

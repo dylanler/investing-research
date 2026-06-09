@@ -1,0 +1,65 @@
+{
+  "symbol": "TSM",
+  "company": "TSMC",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Background flow predates the window: 2026 capex guided to upper end of $52-56B, >30% 2026 revenue growth guidance, CoWoS capacity modeled +89% YoY to 1.275M wafers (Goldman), and sell-side target raises (Bernstein, BofA $500, Aletheia $600). Today's -1.46% is mild drift, not fundamental; May monthly revenue report is due around June 10 and is the nearest catalyst.",
+  "sources": [
+    {
+      "label": "DCD - TSMC announces 2026 capex of $56bn",
+      "url": "https://www.datacenterdynamics.com/en/news/tsmc-announces-2026-capex-spend-of-56bn-after-posting-eighth-consecutive-quarter-of-growth/"
+    },
+    {
+      "label": "GuruFocus - TSM expects over 30% revenue growth in 2026",
+      "url": "https://www.gurufocus.com/news/8900265/tsm-expects-over-30-revenue-growth-by-2026-driven-by-ai-demand"
+    },
+    {
+      "label": "Investing.com - Goldman upgrades Taiwan packaging equipment stocks on TSMC CoWoS expansion",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-upgrades-taiwan-packaging-equipment-stocks-on-tsmc-expansion-93CH-4625316"
+    },
+    {
+      "label": "TSMC IR - 2026 monthly revenue calendar (May print due ~June 10)",
+      "url": "https://investor.tsmc.com/english/monthly-revenue/2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "No new evidence since June 6 and yesterday's verdict was hold; on this crowding-capped lens TSM remains a fully discovered consensus AI winner, and a -1.46% drift day does not change the residual-alpha math at rank 36.",
+      "bull": "Structural monopoly on leading-edge AI logic with >30% 2026 revenue growth guided and capex at the top of the $52-56B range; even consensus names compound when execution is this clean.",
+      "neutral": "Everything bullish is already in the $2.2T market cap and 38-of-47 Buy ratings; alpha here is about positioning, not fundamentals, and positioning is maximal.",
+      "bear": "Crowded ownership plus +31.6% YTD means any AI capex digestion, Taiwan headline, or soft monthly revenue print de-rates the stock faster than fundamentals deteriorate.",
+      "primaryCatalyst": "May 2026 monthly revenue report (~June 10) and any N2 ramp / CoWoS capacity updates",
+      "primaryRisk": "Crowding unwind on AI capex digestion or Taiwan geopolitical escalation"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "This list explicitly penalizes global consensus holdings, and nothing since June 6 changes TSM's status as the most-owned name in the CPO/photonics supply chain; rank 78 already reflects that, so hold per yesterday's verdict.",
+      "bull": "TSMC's COUPE silicon photonics platform and CoWoS/CoPoS roadmap make it the manufacturing chokepoint for every CPO design, so it participates in the theme regardless of which optics vendor wins.",
+      "neutral": "Central but fully discovered: the CPO optionality is a rounding error inside a $2.2T market cap, so page-specific asymmetry is minimal either way.",
+      "bear": "As a consensus mega-cap it offers the least convexity on this list, and geopolitical/capex concentration risk is borne without the hidden-name upside the page is built to find.",
+      "primaryCatalyst": "Concrete COUPE/CPO production milestones or customer disclosures",
+      "primaryRisk": "Consensus positioning leaves no buyer of last resort in a derating; Taiwan concentration"
+    },
+    {
+      "page": "companies",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict already moved this listing up on packaging scarcity, and no genuinely new CoWoS/packaging evidence has landed since June 6; the Goldman-modeled +89% 2026 CoWoS capacity path and advanced packaging passing 10% of revenue keep the thesis intact, so consolidate the move rather than chase it.",
+      "bull": "CoWoS capacity roughly doubling to 1.275M wafers in 2026 with demand still outstripping supply means TSMC controls the single tightest bottleneck in AI compute, and packaging revenue mix is rising.",
+      "neutral": "Packaging scarcity is real but already the consensus explanation for the YTD run; incremental score should wait for the May revenue print or a fresh capacity/pricing datapoint.",
+      "bear": "Aggressive CoWoS/CoPoS buildout plus panel-level packaging by rivals could turn today's scarcity into 2027 oversupply right as the stock's multiple peaks.",
+      "primaryCatalyst": "May monthly revenue (~June 10) and CoPoS pilot-line completion targeted for June",
+      "primaryRisk": "CoWoS overbuild converting scarcity premium into excess capacity by 2027"
+    }
+  ]
+}

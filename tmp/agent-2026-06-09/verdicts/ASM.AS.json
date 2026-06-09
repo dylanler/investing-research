@@ -1,0 +1,53 @@
+{
+  "symbol": "ASM.AS",
+  "company": "ASM International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Stock +0.58% today, hovering just below its May 27 all-time high (~EUR 919) after a +61.65% YTD run. Incremental signal is sell-side chase, not fundamentals: consensus price targets keep being lifted (one model-driven target raised from EUR 900 to EUR 1,095; 8 of 9 recent ratings are Buy). Last fundamental datapoints remain the late-April Q1 print (EUR 863M revenue at top of guidance, Q2 guide EUR 980M +/-5%, secured 1.4nm ALD/epi penetration, H2 > H1) - already in the price.",
+  "sources": [
+    {"label": "TipRanks - ASM Q1 call recap, 2026 upcycle framing and 1.4nm penetration", "url": "https://www.tipranks.com/news/company-announcements/asm-international-signals-robust-2026-earnings-momentum"},
+    {"label": "Google Finance - ASM.AS quote, June 9 trading near May 27 all-time high", "url": "https://www.google.com/finance/beta/quote/ASM:AMS"},
+    {"label": "Simply Wall St - analyst price target raised to EUR 1,095", "url": "https://simplywall.st/stocks/nl/semiconductors/ams-asm/asm-international-shares/future"},
+    {"label": "ASM press release - Q1 2026 results", "url": "https://www.asm.com/press-releases/3278259"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 87,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "This page rewards hidden, under-owned names and ASM's own thesis concedes it is already a recognized AI semicap beneficiary; a 61.65% YTD run to an all-time high plus escalating sell-side targets (to EUR 1,095) with zero new fundamental evidence since June 6 means residual latency keeps eroding.",
+      "bull": "ALD/epi intensity rises structurally at 2nm/1.4nm GAA nodes and ASM's 1.4nm penetration is already secured, so estimates can still grind higher through the upcycle.",
+      "neutral": "Quality franchise fully discovered by the market; at ~45x earnings and rank 87 on a latency list, it is dead weight rather than a source of hidden alpha.",
+      "bear": "A front-end WFE digestion phase or a single delayed pilot-line order would compress the 45x multiple sharply with no remaining discovery cushion.",
+      "primaryCatalyst": "1.4nm pilot-line tool orders expected later in 2026 confirming next-node ALD share gains.",
+      "primaryRisk": "Crowded consensus-long positioning into any 2027 WFE capex pause; multiple de-rating from all-time highs."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 8,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "The page's premise is 'smaller market visibility than the megacaps,' but ASM at $50.5B, rank 8, an all-time high, and sell-side targets being chased to EUR 1,095 is no longer low-visibility; yesterday's hold already flagged that upside is largely captured, and the only new datapoint since is more consensus crowding.",
+      "bull": "Q2 guide of EUR 980M with H2 stronger than H1 and secured 1.4nm penetration give clean visibility to beat-and-raise through 2026.",
+      "neutral": "Picks-and-shovels exposure is intact but fully priced; expect performance to track the broader WFE tape rather than generate idiosyncratic alpha from rank 8.",
+      "bear": "Management itself flagged building supply-chain pressure and longer component lead times, which could push tool revenue recognition right and crack the high-multiple momentum trade.",
+      "primaryCatalyst": "Q2 results (late July) versus the EUR 980M +/-5% guide and any H2 guidance raise.",
+      "primaryRisk": "Supply-chain-driven shipment slippage or memory/logic capex digestion hitting a stock priced for flawless execution."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On this technology-linkage lens the thesis is unchanged and incrementally confirmed - ALD/epi complexity per wafer rises at 1.4nm and ASM cited multiple advanced-packaging/heterogeneous-integration engagements - so mid-list rank 30 still fits despite the rich valuation.",
+      "bull": "ALD step-count growth at GAA/1.4nm plus emerging photonics and advanced-packaging deposition demand widen ASM's served market beyond classic front-end logic.",
+      "neutral": "Structural ALD story intact and validated at Q1, but at +61.65% YTD the market already pays for it; rank 30 appropriately balances linkage strength against pricing.",
+      "bear": "Front-end capex cyclicality remains the page's stated risk - a 2027 digestion year would hit ASM's deposition tool orders harder than the photonics optionality can offset.",
+      "primaryCatalyst": "Advanced-packaging/heterogeneous-integration design wins converting to tool orders in H2 2026.",
+      "primaryRisk": "Front-end WFE capex cycle rolling over before photonics/packaging revenue becomes material."
+    }
+  ]
+}

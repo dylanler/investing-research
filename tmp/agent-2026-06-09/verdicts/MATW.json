@@ -1,0 +1,26 @@
+{
+  "symbol": "MATW",
+  "company": "Matthews International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Matthews International press releases (latest: FY26 Q2 results, Apr 30, 2026)", "url": "https://www.matw.com/investors/news-events/press-releases"},
+    {"label": "MATW FY2026 Q2 results (DBE arbitration win vs Tesla; first MPERIA Axian XIJ sales)", "url": "https://www.matw.com/investors/news-events/press-releases/detail/310/matthews-international-reports-results-for-fiscal-2026"},
+    {"label": "Yahoo Finance MATW quote/news", "url": "https://finance.yahoo.com/quote/MATW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed the name down to reconcile the adjusted-score rank (89); no news since June 6 and a flat +0.45% tape today give no new information to move it again on this strict latent-node screen.",
+      "bull": "Arbitrator confirmed Matthews' right to sell its proprietary dry-battery-electrode (DBE) technology to third parties over Tesla's objection, and customer interest in energy storage remains strong - a real, under-owned manufacturing-infrastructure option at a $0.8B cap with YTD basically flat (-1.45%), so no rerating has been paid for.",
+      "neutral": "The energy-storage business is still loss-challenged and a small slice of a memorialization/identification conglomerate mid-restructuring (SGK and Warehouse Automation divestitures, Barington proxy fight); the AI-chain linkage is genuinely latent, justifying its back-of-list rank.",
+      "bear": "DBE monetization may take years and Tesla remains an adversary not a customer; activist-driven breakup noise could consume management attention while the core memorialization business secularly declines, leaving the AI optionality stranded.",
+      "primaryCatalyst": "First disclosed third-party DBE customer order or licensing deal, or a strategic sale of the energy-storage unit at a value-revealing multiple.",
+      "primaryRisk": "Energy-storage losses persist with no third-party wins, and the proxy fight/divestiture program overshadows the latent AI-infrastructure angle entirely."
+    }
+  ]
+}

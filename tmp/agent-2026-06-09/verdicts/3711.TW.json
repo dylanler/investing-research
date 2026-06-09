@@ -1,0 +1,39 @@
+{
+  "symbol": "3711.TW",
+  "company": "ASE Technology Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: May 2026 monthly revenue released - consolidated NT$63.0B (+28.6% YoY, +1.3% MoM); ATM (assembly/test) NT$42.2B (+37.9% YoY, +4.1% MoM), confirming accelerating AI advanced-packaging demand. Today's +5.4% TWSE move (ADR +4.4% Jun 8) is fundamentally anchored to this print. Note: the capex raise to $8.5B and LEAP target lift to >$3.5B date to April 30, not new since Jun 6.",
+  "sources": [
+    {
+      "label": "PRNewswire - ASE May 2026 monthly net revenues (Jun 9, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-announces-monthly-net-revenues-302794653.html"
+    },
+    {
+      "label": "BigGo Finance - ASE capex raised to $8.5B, LEAP target >$3.5B (Apr 30, 2026)",
+      "url": "https://finance.biggo.com/news/Avov3J0BNl__-4_GwWaF"
+    },
+    {
+      "label": "GuruFocus - ASX ADR up 4.4%, GF Value flags overvalued",
+      "url": "https://www.gurufocus.com/news/8906150/ase-technology-holding-co-ltd-asx-stock-up-44-but-gf-value-says-overvalued-gf-score-74100"
+    },
+    {
+      "label": "Yahoo Finance quote 3711.TW",
+      "url": "https://finance.yahoo.com/quote/3711.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 22,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a residual-alpha lens the strong May print (ATM +37.9% YoY) was instantly consumed by a +5.4% same-day repricing on top of a 120% YTD run; the name is now a consensus Strong Buy with valuation flags, so unpriced asymmetry shrank even as fundamentals confirmed.",
+      "bull": "ATM revenue accelerating to +38% YoY with advanced packaging fully booked, 2026 price hikes of 5-20%, and TSMC outsourcing more on-substrate work for Nvidia GPUs - the bottleneck thesis is strengthening, not just intact.",
+      "neutral": "Good monthly print but in line with the rerating already in the price; capex/LEAP upgrades date to April. Stock now trades as a recognized AI packaging proxy rather than a hidden node.",
+      "bear": "At +120% YTD and $80B cap with sell-side at Strong Buy and GF Value calling it overvalued, any AI capex digestion or OSAT pricing pushback hits a crowded, fully-discovered position with limited residual alpha cushion.",
+      "primaryCatalyst": "Q2 results and LEAP revenue trajectory toward the raised >$3.5B target; further TSMC on-substrate outsourcing wins.",
+      "primaryRisk": "Crowding and multiple compression if AI packaging order momentum decelerates or 2026 price increases fail to stick."
+    }
+  ]
+}

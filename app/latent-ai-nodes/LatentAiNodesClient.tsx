@@ -2442,7 +2442,7 @@ export default function LatentAiNodesClient({ data }: { data: LatentAiNodesData 
       <Hero data={data} />
       <CurrentThesisAudit
         compact
-        focus="For latent AI nodes, the current pass keeps both the broad and strict screens visible, then reweights power, grid, thermal, water, edge connectivity, automation, sensors, and advanced materials by market cap and YTD rerating."
+        focus="The core thesis - unpriced AI leverage hides in power, passives, thermal and measurement assets - keeps being validated: 2026 hyperscaler capex guides to $635-690B, high-voltage transformer lead times run 36-48 months, and high-cap MLCC prices are up 15-35% with 16-24 week lead times. The threat is discovery velocity, not thesis decay: June 9's tape rotated violently into already-found Asia memory and passives (SK hynix +15.9%, Taiyo Yuden +20.0%, Murata +11.3%) and out of crowded US optics (AAOI -15.1%, COHR -12.0%, VIAV -6.7%) after Ciena's beat-and-plunge, confirming that discovered second-derivative names now trade on expectations rather than assets. Residual alpha is concentrating in the unloved negative-YTD operational-data and grid-telemetry cohort (Belden -8.4% YTD, Itron -13.6%, Badger Meter -25.8%, Trimble -32.7%) and in post-derate idiosyncratic stories like Oxford Instruments, down 9.3% today despite 30% Advanced Technologies order growth that already covers FY27 revenue."
       />
       <EvidenceSection data={data} />
       <NetworkSection data={data} />

@@ -1,0 +1,41 @@
+{
+  "symbol": "5801.T",
+  "company": "Furukawa Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. Today's +2.74% (to 46,500) is continued digestion of pre-window catalysts: the June 4-5 institutional briefing on the new medium-term plan (FY3/31 operating profit target ~Y250B vs Y95B FY2026 guidance, well above consensus per Goldman's constructive note from late May), Daiwa/Morgan Stanley Buy maintains (June 4), and the upcoming 10-for-1 stock split (effective ~July 1) that will broaden retail access. Sell-side is now 7 Buy / 0 Sell with avg PT ~Y63,878 - the name is no longer under-covered.",
+  "sources": [
+    {"label": "CNBC quote/news 5801.T (analyst actions, June 4-5 management policy briefing, stock split schedule)", "url": "https://www.cnbc.com/quotes/5801.T-JP"},
+    {"label": "Knockouttrader on X - Goldman constructive on Furukawa, mid-term plan FY3/31 OP Y250B well above consensus", "url": "https://x.com/knockouttrader/status/2056689069598314567"},
+    {"label": "Globe and Mail/TipRanks - Furukawa FY2026 results, dividend hike, 10-for-1 stock split", "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1893404/furukawa-electric-delivers-strong-fy2026-earnings-hikes-dividend-and-plans-stock-split/"},
+    {"label": "Lightera/Furukawa - Mie ultra-high-fiber-count cable plant, 13824-count mass production for AI data centers", "url": "https://lightera.com/n/furukawa-electric-and-lightera-announce-new-optical-cable-manufacturing-plant-in-mie-and-full-scale-production-of-ultra-high-fiber-count-cables/"},
+    {"label": "BigGo Finance - FY2025 full-year call summary, data-center demand drove OP to Y63.9B", "url": "https://finance.biggo.com/news/JP_5801.T_2026-05-12"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday already moved this down for the rerating; nothing genuinely new since June 6 and +2.74% is drift, not news. The 'less crowded than Fujikura' leg keeps eroding (7 Buy/0 Sell coverage, Goldman constructive, retail-friendly 10-for-1 split coming July 1), so hold with mild negative drift rather than a second consecutive down move.",
+      "bull": "The mid-term plan targets ~Y250B FY3/31 OP vs Y95B FY2026 guidance - a real, above-consensus fundamental step-change in fiber/optics earnings power, and avg sell-side PT (~Y63,878) still sits ~37% above spot.",
+      "neutral": "At +341% YTD and $21.4B cap with unanimous sell-side endorsement, Furukawa is a recognized AI-fiber play; residual hidden alpha on a latency-node lens is thin even if estimates keep rising.",
+      "bear": "Crowding plus a 5-year OP target as the valuation anchor leaves the stock exposed to any data-center capex digestion or fiber pricing slip; the July 1 split invites momentum/retail flow that can unwind fast.",
+      "primaryCatalyst": "10-for-1 stock split (effective ~July 1) plus Q1 FY2026 results validating the Y250B mid-term plan trajectory.",
+      "primaryRisk": "Post-rerating crowding: any hyperscaler fiber order pause or mid-term-plan credibility wobble compresses a now consensus-owned multiple."
+    },
+    {
+      "page": "companies",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "The down move for the YTD rerating was taken yesterday; since June 6 there is no new contract, capacity, or guidance datapoint - only continued digestion of the above-consensus mid-term plan. On this alpha-scored optical/networking bucket the exposure is real but fully flagged, so hold with slight drift down.",
+      "bull": "Ultra-high-count fiber (13,824-count Mie plant at full-scale production) and the Y250B FY3/31 OP target give concrete scale-out bandwidth leverage that consensus numbers may still under-model.",
+      "neutral": "Execution is on track and estimates are rising, but at +341% YTD the market has already paid for much of the optics ramp; risk/reward is now roughly symmetric.",
+      "bear": "A 2.6x OP-growth plan is the bull case priced in; fiber/cable is cyclical and any AI data-center capex deceleration or Fujikura/peer capacity race on pricing hits the rerated multiple hardest.",
+      "primaryCatalyst": "Q1 FY2026 earnings and new hyperscale fiber-capacity or design-win announcements out of the Lightera/Mie ramp.",
+      "primaryRisk": "Cyclical fiber pricing and capex digestion against a valuation that now embeds the full mid-term plan."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "HSAI",
+  "company": "Hesai",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockTitan - HSAI latest news feed (no new items since Jun 6; AGM Jun 26 / 8-for-1 split announced May 26)",
+      "url": "https://www.stocktitan.net/news/HSAI/"
+    },
+    {
+      "label": "GlobeNewswire - Hesai AGM June 26, 2026 announcement (pre-Jun 6)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/26/3301197/0/en/Hesai-Group-to-Hold-Annual-General-Meeting-on-June-26-2026.html"
+    },
+    {
+      "label": "Yahoo Finance - HSAI down post Q1 despite Mercedes L3 lidar win and return to profitability (pre-Jun 6 context)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-hesai-group-hsai-down-032108533.html"
+    },
+    {
+      "label": "Globe and Mail - Hesai Q1 2026 earnings call transcript (shipments +140.9% YoY, pre-Jun 6 context)",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/2023472/hesai-hsai-q1-2026-earnings-call-transcript/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already re-rated HSAI up (14 to 11) on the sensing-purity and commercialization case; nothing genuinely new has hit since June 6, so no second move. Today's -4.3% drift on zero news deepens the -23.9% YTD drawdown with the robotics thesis intact, which marginally improves asymmetry at rank 11 - worth +1 score, not another rank jump.",
+      "bull": "Lidar shipments grew 140.9% YoY in Q1 with a return to profitability, Mercedes-Benz L3 design win, and #1 share across humanoid/quadruped/robotaxi lidar submarkets - concrete robotics revenue, not narrative, at a $3.25B cap down 24% YTD.",
+      "neutral": "Q1 guidance had already missed consensus and the stock has been heavy since; no new datapoints since June 6, so the setup is unchanged from yesterday's re-rating, and the June 26 AGM (8-for-1 split) is housekeeping, not fundamentals.",
+      "bear": "ASP compression in China lidar and reliance on Chinese ADAS volume remain unresolved, and as a US-listed China ADR the name carries persistent geopolitical/delisting flow risk that can keep crushing multiples regardless of unit growth.",
+      "primaryCatalyst": "Q2 2026 results / robotics-segment shipment disclosure plus any new humanoid or robotaxi design-win announcements; AGM June 26 (8-for-1 split) as a minor liquidity event.",
+      "primaryRisk": "China ADR risk-off flows and lidar ASP deflation eroding the margin recovery despite record unit volumes."
+    }
+  ]
+}

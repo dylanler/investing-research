@@ -1,0 +1,27 @@
+{
+  "symbol": "AUTO.OL",
+  "company": "AutoStore Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - AutoStore Holdings (AUTO.OL) quote", "url": "https://finance.yahoo.com/quote/AUTO.OL/"},
+    {"label": "Simply Wall St - AutoStore Holdings (OB:AUTO) analysis (Q1 2026 results, week -7.6%)", "url": "https://simplywall.st/stocks/no/capital-goods/ob-auto/autostore-holdings-shares"},
+    {"label": "Robotics & Automation News - AutoStore CubeVerse / AutoStore Intelligence launch (Mar 2026, pre-window)", "url": "https://roboticsandautomationnews.com/2026/03/19/autostore-shifts-toward-self-optimizing-warehouses-with-cubeverse-and-ai-driven-analytics/99923/"},
+    {"label": "MarketScreener - AutoStore analyst consensus", "url": "https://www.marketscreener.com/quote/stock/AUTOSTORE-HOLDINGS-LTD-128130764/consensus/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material company news since June 6; yesterday's verdict already moved it down on the adjusted-score reconciliation, and today's -1.6% drift inside a ~7.6% weekly slide with the thesis intact slightly improves asymmetry rather than warranting another move at rank 49.",
+      "bull": "Strong Q1 2026 (revenue +93% y/y, 24% net margin) plus the CubeVerse/AutoStore Intelligence AI software layer validates the AI-orchestration angle, and the stock now trades below average analyst targets (~NOK 12.8) after the pullback, restoring asymmetry.",
+      "neutral": "Q1 strength and the AI platform launch are already known; with no fresh orders, guidance, or analyst moves since June 6, the latent-AI-node case is unchanged and the stock simply drifts with warehouse-automation sentiment.",
+      "bear": "Intense competition in cube/ASRS automation and a capex-sensitive customer base mean the weekly slide could be the start of renewed derating; one analyst already rates it a sell and the AI software layer may not differentiate pricing power.",
+      "primaryCatalyst": "Warehouse-automation order rebound or a marquee deployment/partnership expansion (e.g., DHL-style deals) monetizing CubeVerse and AutoStore Intelligence.",
+      "primaryRisk": "Prolonged warehouse capex weakness and competitive pricing pressure eroding the Q1 margin recovery and re-rating the stock back down."
+    }
+  ]
+}

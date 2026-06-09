@@ -1,0 +1,26 @@
+{
+  "symbol": "KRN.DE",
+  "company": "Krones",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals. AGM held today (June 9): EUR 2.80 dividend approved and all agenda items passed; CEO handover from Christoph Klenk to Thomas Ricker takes effect June 11 — but this succession was announced March 19, 2026, so it is a scheduled, already-priced event, not new information. Latest fundamental datapoints (Q1 order intake +5.3%, backlog EUR 4.32B, 2026 targets confirmed) date to May 8. Stock +0.53% today; no move to explain.",
+  "sources": [
+    {"label": "Krones corporate news — AGM, dividend EUR 2.80, board changes", "url": "https://www.krones.com/en/company/investor-relations/corporate-news-release-krones-continues-profitable-growth-path-and-increases-dividend-per-share.php"},
+    {"label": "Krones press release — Supervisory Board appoints Thomas Ricker as CEO (long-term succession, announced March 2026)", "url": "https://www.krones.com/en/company/press/the-supervisory-board-of-krones-group-has-appointed-thomas-ricker-as-the-new-chairman-of-the-executive-board.php"},
+    {"label": "Webdisclosure — Q1 2026: strong order intake, 2026 targets confirmed (May 8)", "url": "https://www.webdisclosure.com/press-release/krones-ag-etr-krn-krones-starts-financial-year-with-strong-order-intake-and-confirms-financial-targets-for-2026-SMZkDnUZg9n"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already reconciled the adjusted-score rank (71) with the displayed rank; nothing since June 6 touches the latent AI-node pathway, and today's +0.53% drift plus an as-scripted AGM/CEO handover (announced March 19) is not new information. Hold at rank 70.",
+      "bull": "Order intake +5.3% and a EUR 4.32B backlog with 2026 targets confirmed mean the -16.8% YTD de-rating is mostly the March CEO-transition shock, leaving a cheap, cash-generative automation franchise whose high-throughput process engineering could be repurposed toward precision assembly/inspection cells.",
+      "neutral": "Krones remains a beverage-packaging machinery company first; the AI-adjacent angle is latent and unproven, and nothing in the AGM, leadership handover, or Q1 print advances it, so the score appropriately sits near the bottom of the strict screen.",
+      "bear": "The AI pathway is purely speculative optionality with zero disclosed design wins; a new CEO (Ricker, effective June 11) plus board reorganization adds execution/strategy uncertainty, and core end-markets (beverage capex) are cyclical with only 3-5% guided growth.",
+      "primaryCatalyst": "New CEO Ricker's strategic agenda (post-July 1 board reorg) signaling any push into precision automation / inspection adjacencies, or a first disclosed AI-chain-relevant order.",
+      "primaryRisk": "Leadership-transition drift or beverage-capex slowdown erodes the backlog story while the AI-node thesis never materializes, leaving the name as dead money on a strict AI screen."
+    }
+  ]
+}

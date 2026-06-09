@@ -1,0 +1,27 @@
+{
+  "symbol": "PI",
+  "company": "Impinj",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news found since June 6, 2026. The only fresh item is a non-material Norges Bank 13F position note (June 8). Today's -5.27% decline has no identifiable fundamental catalyst and looks flow/sector-driven; the last fundamental datapoints remain the Q1 2026 print (EPS $0.14 beat, Q2 guide $103-106M revenue) and late-April analyst target moves (UBS $175 neutral, Needham $175 buy).",
+  "sources": [
+    {"label": "Yahoo Finance - Impinj (PI) quote and news", "url": "https://finance.yahoo.com/quote/PI/"},
+    {"label": "ad-hoc-news - Impinj shares jump after Q1 earnings beat and 2026 guidance", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/impinj-stock-us4532041096-shares-jump-after-q1-earnings-beat-and-bold/69354619"},
+    {"label": "Markets Daily - Norges Bank acquires new shares in Impinj (Jun 8)", "url": "https://www.themarketsdaily.com/2026/06/08/norges-bank-acquires-new-shares-in-impinj-inc-pi.html"},
+    {"label": "MarketBeat - PI news feed", "url": "https://www.marketbeat.com/stocks/NASDAQ/PI/news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 107,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict already flagged PI for removal from this CPO-bottleneck page as off-thesis (RFID/IoT edge, no CPO/HBM/advanced-packaging/test exposure); today's -5.27% no-news drop is flow-driven and does not create CPO-page alpha, so the removal direction stands with only drift-level delta.",
+      "bull": "Q1 2026 beat ($0.14 vs $0.11 EPS) with Q2 guidance of $103-106M revenue shows the RFID inlay-chip cycle re-accelerating, and -31.85% YTD leaves a cheap entry if enterprise item-level tagging (retail, logistics, supply chain) inflects.",
+      "neutral": "Solid niche monopoly in RAIN RFID reader/tag ICs, but its edge-IoT story is orthogonal to the co-packaged-optics and AI-compute bottleneck thesis this page ranks; no June 6-9 news changes that mapping.",
+      "bear": "Off-thesis for this page entirely, and the stock remains in a downtrend (-5.27% today, -31.85% YTD) with retail/logistics end-demand cyclicality and a hold-rated $175 consensus that already embeds recovery.",
+      "primaryCatalyst": "Q2 2026 earnings (late July) confirming the $103-106M revenue guide and enterprise RFID deployment ramps.",
+      "primaryRisk": "Retail/logistics RFID adoption slowdown or inventory digestion; structurally, zero relevance to CPO/optical-interconnect bottlenecks keeps it dead weight on this list."
+    }
+  ]
+}

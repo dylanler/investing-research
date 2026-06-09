@@ -1,0 +1,35 @@
+{
+  "symbol": "BRG.OL",
+  "company": "Borregaard",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Borregaard ASA: Share buy-back programme completed (GlobeNewswire, May 27, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3302190/0/en/Borregaard-ASA-Share-buy-back-programme-completed.html"
+    },
+    {
+      "label": "Borregaard ASA: Initiation of share repurchase programme (GlobeNewswire, May 8, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/08/3290903/0/en/Borregaard-ASA-Initiation-of-share-repurchase-programme.html"
+    },
+    {
+      "label": "Yahoo Finance quote BRG.OL",
+      "url": "https://finance.yahoo.com/quote/BRG.OL/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new AI-chain evidence since June 6 to justify a re-rank on the strict latent-node screen; the speculative biopolymer/dispersant pathway is unchanged. Shares sitting at the 52-week low (-28.9% YTD) with the thesis intact marginally improves asymmetry, supporting a small positive drift rather than a rank move.",
+      "bull": "Trading at the bottom of its 52-week range (138.40-212.00 NOK) with an active buyback (programme runs to June 18) and 2026 volume guidance intact; any validated lignin-based binder/dispersant use in AI-adjacent process chemistry would be entirely unpriced.",
+      "neutral": "A quality specialty-chemicals franchise whose AI linkage remains a hypothesis, not a revenue line; the latest news flow (buyback tranches, power supply contract, Q1 guidance) is ordinary-course and does not touch the latent-node thesis either way.",
+      "bear": "The -29% YTD derating reflects core BioSolutions/Fine Chemicals pricing pressure, not AI optionality decay; if end-market weakness persists, the stock can keep grinding down regardless of the speculative AI pathway, and the AI link may never materialize.",
+      "primaryCatalyst": "Q2 2026 results / any disclosed specialty-cellulose or lignin design win in electronics or process-chemistry supply chains",
+      "primaryRisk": "Continued bio-chemicals pricing weakness drags estimates lower while the AI-chain pathway remains unvalidated"
+    }
+  ]
+}

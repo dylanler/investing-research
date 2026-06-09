@@ -1,0 +1,27 @@
+{
+  "symbol": "TRS",
+  "company": "TriMas",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026 (day move +1.94% is noise). However, re-validation surfaced a thesis-critical stale fact: TriMas completed the divestiture of its ENTIRE Aerospace segment (fasteners and precision-machined components, ~$374M revenue, 9 plants) to Tinicum L.P./Blackstone for $1.45B cash on March 16, 2026 (~$1.24B net proceeds). Remaining company is Packaging (closures/dispensers) + Specialty Products, redeploying capital via a $150M buyback and FY26 adjusted EPS guidance of $1.50-$1.70.",
+  "sources": [
+    {"label": "StockTitan - TriMas to sell aerospace segment for ~$1.45B cash (8-K)", "url": "https://www.stocktitan.net/sec-filings/TRS/8-k-trimas-corp-reports-material-event-fdddacc0f478.html"},
+    {"label": "SEC 8-K exhibit - TriMas FY2026 (Q1 results / divestiture close)", "url": "https://www.sec.gov/Archives/edgar/data/0000842633/000084263326000024/trs_03312026xexhibit991.htm"},
+    {"label": "TriMas IR - Increased share repurchase authorization to $150 million", "url": "https://trimas.com/news/2026/trimas-announces-increased-share-repurchase-authorization-to-150-million/"},
+    {"label": "The Middle Market - Tinicum acquires TriMas Aerospace; Blackstone invests", "url": "https://www.themiddlemarket.com/latest-news/tinicum-acquires-trimas-aerospace-unit-blackstone-invests-in-deal?rcp_action=lostpassword"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 15,
+      "rankMove": "down",
+      "scoreDelta": -5,
+      "confidence": 0.75,
+      "rankRationale": "The strict-screen pathway ('specialty fasteners, aerospace components... redirected toward precision mechanical subassemblies') is structurally impaired: TriMas sold its entire Aerospace segment to Tinicum/Blackstone on 2026-03-16, so the precision aerospace fastener assets the latent-node thesis leans on are no longer inside the company. Yesterday's hold recited the stale pathway; this is a thesis-validity correction, not a reaction to fresh news.",
+      "bull": "Post-divestiture TriMas is a cleaner, cash-rich ($1.24B net proceeds) packaging/specialty platform with a $150M buyback, FY26 EPS guide of $1.50-$1.70, and M&A optionality that could re-add precision-manufacturing exposure.",
+      "neutral": "Closures, dispensers and Norris Cylinder assets retain some precision-manufacturing DNA, so a residual (much weaker) latent pathway exists; at $1.45B cap and +11.7% YTD the name is neither crowded nor obviously mispriced.",
+      "bear": "The divested aerospace unit was the only credible AI-supply-chain redirection vector; what remains is a consumer/industrial packaging company with no plausible bottleneck role, making the listing a screen artifact rather than alpha.",
+      "primaryCatalyst": "Capital redeployment: an acquisition in precision components or accelerated buyback against the FY26 $1.50-$1.70 EPS guide.",
+      "primaryRisk": "Thesis obsolescence - the screen continues ranking TRS on assets it no longer owns, compounding the stale-data error."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "MSA",
+  "company": "MSA Safety",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "MSA Safety press room (latest releases; firefighter tech debut at Interschutz 2026, pre-Jun 6)",
+      "url": "https://news.msasafety.com/"
+    },
+    {
+      "label": "MSA Safety to Acquire Autronica Fire and Security (May 5, 2026 - predates window)",
+      "url": "https://news.msasafety.com/2026-05-05-MSA-Safety-to-Acquire-Autronica-Fire-and-Security,-a-Leading-Provider-of-Fire-and-Gas-Detection-and-Alarm-Systems"
+    },
+    {
+      "label": "MSA Safety investor conferences May 20 - Jun 4, 2026",
+      "url": "https://investors.msasafety.com/news-releases/news-release-details/msa-safety-participate-upcoming-investor-conferences-0"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a +0.82% drift day; the AI-adjacent pathway (gas/flame detection for compute and industrial sites) is unchanged, and yesterday's hold stands. The pre-window Autronica deal ($555M fixed fire/gas detection) modestly reinforces the fixed-detection thesis but was already in the prior mark.",
+      "bull": "Autronica (closing Q3 2026) scales fixed fire and gas detection for critical infrastructure, the exact product line that data-center and autonomous-industrial buildouts would pull on; YTD -1% means no rerating has been paid for any AI optionality.",
+      "neutral": "MSA is a steady industrial safety compounder at $6.2B with dividend growth; AI/data-center exposure is real but a small, indirect slice of revenue, so the name trades on core industrial demand, not AI capex.",
+      "bear": "The AI linkage is thin and unproven in disclosed revenue; if fixed-detection wins at compute sites never become visible, the name is just a fairly valued safety company occupying a slot on an AI-nodes list.",
+      "primaryCatalyst": "Autronica close (Q3 2026) plus any disclosed data-center or hyperscaler facility detection wins; Q2 earnings in late July.",
+      "primaryRisk": "AI relevance never materializes in numbers; industrial/fire-service demand softens or Autronica integration disappoints."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "6525.T",
+  "company": "Kokusai Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific news since June 6. Today's +7.9% move is a sector sympathy rally: Tokyo Electron's Q4 FY2026 beat and memory-led FY2027 guidance (DRAM/HBM equipment ramp from 2026, AI-driven 'logic to memory' capex rotation) lifted Japanese wafer-fab equipment names broadly; Kokusai, a batch-deposition pure play with high SK Hynix/Samsung DRAM-HBM exposure, is a prime beneficiary of that narrative but reported nothing new itself. Flow-driven, not company-fundamental.",
+  "sources": [
+    {"label": "Investing.com - Tokyo Electron Q4 2026 earnings call transcript, stock surges on memory-led outlook", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tokyo-electron-q4-2026-beats-estimates-stock-surges-93CH-4654441"},
+    {"label": "Moomoo - Semiconductor equipment now centers on memory; Kokusai film-forming/DRAM-HBM exposure", "url": "https://www.moomoo.com/community/feed/semiconductor-equipment-is-led-by-memory-related-demand-which-stocks-116599090315270"},
+    {"label": "Yahoo Finance - Kokusai Electric (6525.T) quote", "url": "https://finance.yahoo.com/quote/6525.T/"},
+    {"label": "Morningstar - Kokusai Electric (6525) quote and fair value", "url": "https://www.morningstar.com/stocks/xtks/6525/quote"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 20,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha screen, a +7.9% single-day sympathy spike on Tokyo Electron's memory commentary - with zero Kokusai-specific news - plus 31% YTD means the DRAM/HBM deposition thesis is now consensus and being chased; residual asymmetry shrinks even as fundamentals firm.",
+      "bull": "Tokyo Electron's memory-led FY2027 outlook independently validates the DRAM/HBM equipment ramp Kokusai is most levered to; batch ALD/deposition share with SK Hynix and Samsung makes it the purest beneficiary of the logic-to-memory capex rotation.",
+      "neutral": "Demand thesis intact and strengthening at the sector level, but no new Kokusai-specific orders, guidance, or wins since June 6; today's move simply pulls forward what the thesis already assumed.",
+      "bear": "Stock now trades at a steep premium to estimated fair value after a flow-driven spike; if memory capex enthusiasm cools or China WFE demand normalizes, a 31%-YTD crowded name with single-bundle validation risk gives back the sympathy move fast.",
+      "primaryCatalyst": "Kokusai-specific order/guidance confirmation of the DRAM-HBM equipment ramp (next results or memory-customer capex announcements).",
+      "primaryRisk": "Crowding/valuation unwind: flow-driven rerating on sector narrative without company-level confirmation, plus memory-capex or China WFE digestion."
+    }
+  ]
+}

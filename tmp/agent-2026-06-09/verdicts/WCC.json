@@ -1,0 +1,27 @@
+{
+  "symbol": "WCC",
+  "company": "WESCO International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "On June 8, 2026 Wesco announced a definitive agreement to acquire Newark Engineering Group for S$175M (~$136M), adding data-center cooling/thermal-management design, installation and lifecycle services across Singapore, Malaysia and Indonesia; close expected Q3 2026. Small bolt-on (~0.8% of market cap) but extends Wesco from electrical distribution into higher-value, recurring data-center services in SE Asia. Also declared regular $0.50 quarterly dividend (payable June 30) and announced a #195 Fortune 500 ranking. No earnings or guidance change since the Q1 raise; stock moved only +0.3% today, so the deal was not repriced.",
+  "sources": [
+    {"label": "PR Newswire - Wesco to acquire Newark Engineering Group (data center cooling/lifecycle services)", "url": "https://www.prnewswire.com/news-releases/wesco-enters-into-definitive-agreement-to-acquire-newark-engineering-group-expanding-data-center-cooling-and-lifecycle-services-302794377.html"},
+    {"label": "StockTitan - Wesco/Newark S$175M deal summary", "url": "https://www.stocktitan.net/news/WCC/wesco-enters-into-definitive-agreement-to-acquire-newark-engineering-5bodajvtwhlt.html"},
+    {"label": "PR Newswire - Wesco declares $0.50 quarterly dividend", "url": "https://www.prnewswire.com/news-releases/wesco-declares-quarterly-dividend-on-common-stock-302784876.html"},
+    {"label": "Investing.com - WESCO Q1 2026: data center sales +70%, raised FY26 guidance", "url": "https://www.investing.com/news/company-news/wesco-q1-2026-slides-data-center-sales-soar-70-stock-jumps-17-93CH-4650610"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 71,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new, on-thesis evidence since yesterday's hold: the June 8 Newark Engineering acquisition pushes Wesco beyond pure distribution into recurring data-center cooling/lifecycle services in SE Asia, and the market did not reprice it (+0.3% day). Small deal size and a +40% YTD rerating cap the move to a modest nudge up, not a re-rank.",
+      "bull": "Data-center sales already ~$5B TTM (24% of revenue, +70% y/y) with raised FY26 guidance, and the Newark deal adds higher-margin services attach in the fastest-growing APAC data-center corridor without the market having paid for it yet.",
+      "neutral": "A ~$136M bolt-on on a $17B company is strategically interesting but financially immaterial near term; the stock is consolidating near analyst targets (~$374-376) after the Q1-driven rerating, so the setup is fair rather than asymmetric.",
+      "bear": "The 'latent' premise is eroding fast - +40% YTD, sell-side Buy consensus and headlines calling Wesco a data-center powerhouse mean the node is being discovered, while leverage and distribution-margin cyclicality remain if data-center capex digests.",
+      "primaryCatalyst": "Q2 2026 earnings and Newark deal close in Q3 demonstrating data-center services margin mix shift; continued 50%+ data-center segment growth.",
+      "primaryRisk": "Crowding/post-rerating chase: the data-center distribution story is now consensus, leaving limited residual alpha if backlog growth decelerates or hyperscaler electrical-fitout orders pause."
+    }
+  ]
+}

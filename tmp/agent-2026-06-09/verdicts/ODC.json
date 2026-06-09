@@ -1,0 +1,26 @@
+{
+  "symbol": "ODC",
+  "company": "Oil-Dri",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 8: record fiscal Q3 FY26 results (net sales +9% YoY to $126.3M, net income +25%, gross margin 26.7% vs 28.6%, SG&A down to $16.6M), driven mainly by elevated cat litter demand across B2B and Retail/Wholesale; earnings call Jun 9 10:00 CT. Also Jun 3: 23rd consecutive annual dividend increase (~10%, to $0.225/sh common) plus 500K-share buyback authorization. Stock +15.4% today on the print - move is fundamental, but the upside driver is consumer/ag sorbents, not the AI-facility pathway.",
+  "sources": [
+    {"label": "GlobeNewswire - Oil-Dri Reports Record Third Quarter Revenues and Strong Earnings Growth (Jun 8, 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/08/3308461/0/en/Oil-Dri-Reports-Record-Third-Quarter-Revenues-and-Strong-Earnings-Growth.html"},
+    {"label": "GlobeNewswire - Oil-Dri Increases Dividends for 23rd Consecutive Year and Authorizes Stock Repurchases (Jun 3, 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/03/3306390/0/en/Oil-Dri-Increases-Dividends-for-23rd-Consecutive-Year-and-Authorizes-Stock-Repurchases.html"},
+    {"label": "SEC 8-K exhibit - ODC FY26 Q3 earnings release", "url": "https://www.sec.gov/Archives/edgar/data/0000074046/000162828026041544/odcf26q3ex991-earningsrele.htm"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 9,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "The +15.4% earnings pop (record Q3, dividend hike, buyback) is real fundamental news, but it is entirely cat-litter/consumer driven and adds zero evidence for the latent AI-facility sorbents pathway this page screens for. At +100% YTD and a fresh rerating on a non-AI catalyst, the name is no longer hidden or under-owned; residual alpha on this lens has compressed.",
+      "bull": "A well-run, vertically integrated clay minerals monopoly-adjacent producer with 25% net income growth, pricing power, and untapped optionality in fluid purification and facility sorbents if data-center filtration/spill demand ever materializes.",
+      "neutral": "Strong execution and shareholder returns justify the rerating on quality grounds, but the AI-node link remains speculative and unproven; the stock is now priced as a discovered compounder rather than a latent node.",
+      "bear": "Gross margin compressed (26.7% vs 28.6%) on input-cost inflation, the AI pathway has produced no contracts or named wins, and a $1.4B small-cap that doubled in six months on pet-litter demand is vulnerable to multiple mean-reversion once momentum buyers rotate.",
+      "primaryCatalyst": "Any concrete disclosure of fluid-purification or industrial-sorbent design wins tied to data-center or AI-facility customers (next checkpoint: FY26 Q4 results, ~September 2026).",
+      "primaryRisk": "Post-rerating chase: paying up after a +15% day and +100% YTD for a thesis whose AI-relevance is still entirely latent; margin pressure from cost inflation."
+    }
+  ]
+}

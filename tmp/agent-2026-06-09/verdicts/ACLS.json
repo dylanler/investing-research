@@ -1,0 +1,39 @@
+{
+  "symbol": "ACLS",
+  "company": "Axcelis Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news found since June 6. Today's +7.9% move (to $167, intraday high $182) came on below-average volume (~370K vs ~468K avg) with no new filing, contract, earnings, or analyst action; it reads as flow/momentum continuation on memory/HBM-cycle sentiment and Veeco-merger optimism. The $4.4B all-stock Veeco merger is shareholder-approved and awaits China SAMR clearance (H2 2026 close); B. Riley's $150->$180 target raise dates to May 8 and the Purion H6 launch to February - all pre-June-6 information.",
+  "sources": [
+    {"label": "Yahoo Finance ACLS quote (price, volume)", "url": "https://finance.yahoo.com/quote/ACLS/"},
+    {"label": "Quiver Quant - Axcelis jumps on merger progress/sentiment (flow-driven framing)", "url": "https://www.quiverquant.com/news/Axcelis+Technologies+jumps+as+investors+refocus+on+Veeco+merger+progress+and+recent+company+updates"},
+    {"label": "Yahoo Finance - Axcelis-Veeco $4.4bn merger receives shareholder approval", "url": "https://finance.yahoo.com/news/axcelis-veeco-4-4bn-merger-101535529.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 71,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.62,
+      "rankRationale": "A +7.9% day on light volume with zero new fundamental evidence, on top of a YTD run that has stretched from ~80% (yesterday's hold) to ~94%, is pure rerating without thesis confirmation - residual alpha on the AI-fab/HBM order thesis shrinks while order-timing and export-control risks are unchanged.",
+      "bull": "HBM4's added implant intensity and a 2026 DRAM capex recovery convert into real Purion H6 orders, and the Veeco merger closes cleanly, rerating the combined company's >$5B TAM.",
+      "neutral": "Thesis intact but fully discovered: memory recovery is now consensus, so the stock tracks semicap beta until backlog/order data confirm the HBM implant ramp.",
+      "bear": "China SAMR delays or blocks the Veeco deal, mature-node/China implant demand keeps fading, and a 94% YTD name de-rates hard on the first soft bookings print.",
+      "primaryCatalyst": "Q2 bookings/backlog showing DRAM-HBM implant orders, or China SAMR clearance of the Veeco merger",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any order-timing slip or merger/regulatory snag"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 70,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "ACLS has admittedly low CPO linkage on this page's own thesis, and today's flow-driven +7.9% pop is about memory/merger sentiment, not co-packaged optics - a near-doubled YTD price with no CPO-relevant news degrades its already-marginal alpha case here.",
+      "bull": "If the SiC/power cycle bottoms while the Veeco combination broadens the equipment portfolio, the stock offers cheap optionality the CPO crowd ignores.",
+      "neutral": "A peripheral CPO holding whose returns are being driven by an unrelated memory/merger narrative; no page-relevant information since June 6.",
+      "bear": "SiC/power-semi overcapacity persists, the rally is given back when momentum flows rotate, and the name never earns CPO relevance to justify a slot on this list.",
+      "primaryCatalyst": "SiC/power-device capex inflection or merger close adding adjacent equipment exposure",
+      "primaryRisk": "Zero CPO linkage plus a momentum-extended chart leaves no page-specific asymmetry"
+    }
+  ]
+}

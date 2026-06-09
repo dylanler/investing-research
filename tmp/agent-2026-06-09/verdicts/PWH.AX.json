@@ -1,0 +1,27 @@
+{
+  "symbol": "PWH.AX",
+  "company": "PWR Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Proactive Investors - PWR US$9.1M US government follow-on contract (Jan 2026, pre-window)", "url": "https://www.proactiveinvestors.com.au/companies/news/1085457/pwr-gains-6-3-after-securing-a-us-9-1-million-us-government-follow-on-contract-1085457.html"},
+    {"label": "Business News Australia - PWR follow-on A$13.5M aerospace deal (pre-window)", "url": "https://www.businessnewsaustralia.com/articles/pwr-holdings-builds-on-record-aerospace-deal-with-13m-follow-on-contract-from-us-government.html"},
+    {"label": "Market Index - PWH quote and broker consensus", "url": "https://www.marketindex.com.au/asx/pwh"},
+    {"label": "Yahoo Finance - PWH.AX quote", "url": "https://finance.yahoo.com/quote/PWH.AX/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news since June 6; the latest hard evidence (US$9.1M US government aerospace cooling follow-on) dates to January 2026 and is already in the score. Today's -1.8% drift and a modest +10.5% YTD leave the pre-discovery thermal asymmetry neither crowded nor newly validated, so the strict-screen rank holds.",
+      "bull": "Motorsport-grade liquid cooling and micro-matrix heat exchangers plus a deepening US aerospace/defense order book give PWR a credible repurposing path into data-center thermal before institutional AI buyers find this $0.6B ASX name.",
+      "neutral": "Thesis is intact but unconfirmed: no data-center design win disclosed yet, and the stock is drifting with no fresh catalysts since the January government contract, so residual alpha is unchanged.",
+      "bear": "Data-center cooling never materializes as a segment; PWR stays a niche motorsport/aerospace supplier exposed to F1 rule cycles and lumpy US fiscal-year defense funding, and the latency premium decays.",
+      "primaryCatalyst": "First disclosed data-center or hyperscaler-adjacent thermal contract, or FY26 results (Aug 2026) showing aerospace/A&D revenue inflection.",
+      "primaryRisk": "Small-cap illiquidity plus customer concentration; a delay in US government full-rate production funding would undercut the only hard growth leg."
+    }
+  ]
+}

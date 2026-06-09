@@ -1,0 +1,26 @@
+{
+  "symbol": "LUMEN.ST",
+  "company": "LumenRadio",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - LumenRadio AB (LUMEN.ST) quote/news", "url": "https://finance.yahoo.com/quote/LUMEN.ST/"},
+    {"label": "Borskollen - LumenRadio aktie nyheter (Q1 2026 report, insider buys, SEK 500M 2030 target)", "url": "https://www.borskollen.se/aktie/lumenradio"},
+    {"label": "LumenRadio company news page", "url": "https://lumenradio.com/news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; today's -3.0% (67 to 65 SEK) is sub-threshold micro-cap noise on an illiquid First North name, not new evidence either way. Yesterday's verdict was hold and nothing has changed the scaling-page setup, so rank 33 stands.",
+      "bull": "Q1 2026 showed EBIT inflecting (SEK 6.5M vs 2.1M) with Building Automation up 53.6%, and CEO/chairman insider buys plus the SEK 500M-by-2030 target signal management conviction in an under-owned $90M industrial-wireless niche.",
+      "neutral": "A +14% YTD with no fresh catalysts since the Q1 print leaves the name in drift; the modest pullback marginally improves entry but is too small to change residual alpha on this page.",
+      "bear": "Top-line growth ex-Building Automation is slow (+4% group), the entertainment-lighting legacy is cyclical, and a $90M cap with thin liquidity means rerating depends on catalysts that may not arrive for quarters.",
+      "primaryCatalyst": "Q2 2026 report confirming Building Automation momentum and continued EBIT margin expansion, or a new design win/OEM module contract.",
+      "primaryRisk": "Micro-cap illiquidity and slow group revenue growth; any Building Automation deceleration would undercut the SEK 500M 2030 target narrative."
+    }
+  ]
+}

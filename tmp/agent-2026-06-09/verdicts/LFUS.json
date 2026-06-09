@@ -1,0 +1,69 @@
+{
+  "symbol": "LFUS",
+  "company": "Littelfuse",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Context: stock printed an all-time high of $487.90 on June 2 (+5.3% that day) as the AI data-center story gained traction; hedge fund holders rose from 32 to 43 in Q1, Zacks Strong Buy with high momentum score, and GuruFocus flags ~77% overvaluation vs its fair-value model. Today's -4.07% to $445.44 (now ~8.7% off the June 2 ATH) has no identifiable fundamental driver and looks like flow-driven profit-taking after a +69.7% YTD run. Underlying fundamentals unchanged: Q1 sales +19% with industrial +45% on grid/data-center demand (Basler Electric acquisition contributed 39pts of that growth), Q2 guide $690-710M.",
+  "sources": [
+    {
+      "label": "Insider Monkey / Yahoo Finance - Why Are Investors Turning Bullish on Littelfuse (LFUS)?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investors-turning-bullish-littelfuse-152802116.html"
+    },
+    {
+      "label": "GuruFocus - LFUS Up 5.3% but GF Value Says Overvalued (GF Score 82/100)",
+      "url": "https://www.gurufocus.com/news/8897355/littelfuse-inc-lfus-stock-up-53-but-gf-value-says-overvalued-gf-score-82100"
+    },
+    {
+      "label": "Littelfuse IR - Q1 2026 Results",
+      "url": "https://investor.littelfuse.com/news/news-details/2026/Littelfuse-Reports-First-Quarter-Results-for-2026/default.aspx"
+    },
+    {
+      "label": "Littelfuse Shares Rise as AI Data-Center Story Hits",
+      "url": "https://www.bez-kabli.pl/littelfuse-shares-rise-as-ai-data-center-story-hits/"
+    },
+    {
+      "label": "MacroTrends - LFUS price history (ATH $487.90 on Jun 2, 2026)",
+      "url": "https://www.macrotrends.net/stocks/charts/LFUS/littelfuse/stock-price-history"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 20: today's -4.1% (-8.7% from the June 2 ATH) modestly restores asymmetry on a crowding-penalized list, but with +69.7% YTD, hedge fund count up 32->43 and a Strong Buy consensus, the name remains a rerated, increasingly owned benchmark rather than hidden residual alpha.",
+      "bull": "Pullback offers a slightly better entry into a hard-to-substitute power-protection franchise whose data-center exposure is real, not narrative: industrial sales +45% in Q1 with grid/data-center demand and Basler now consolidated.",
+      "neutral": "A -4% flow-driven dip after a 70% YTD run neither confirms nor breaks anything; the alpha question is residual upside vs ownership, and both moved only marginally today.",
+      "bear": "Crowding is still building (43 hedge funds, momentum screens, bullish retail coverage) while GuruFocus-style fair-value models flag ~77% overvaluation; if AI-passives sentiment cools, a rerated mid-cap gives back multiple, not just momentum.",
+      "primaryCatalyst": "Q2 print (guide $690-710M) showing data-center/grid demand outrunning guidance, plus Basler cross-sell evidence.",
+      "primaryRisk": "Multiple compression on a crowded, fully rerated name if AI-infrastructure flows rotate; thesis intact but entry alpha already consumed."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold after yesterday's move up: the node itself is validated (Q1 industrial +45% on data-center/grid), but the 'latent' premise is eroding as the AI data-center story is now widely told - ATH on June 2, rising hedge fund ownership, Strong Buy consensus - so no further promotion without new evidence.",
+      "bull": "Circuit protection and power conversion content per rack rises with data-center power density, and Basler Electric extends LFUS into grid/utility/data-center power systems - the network-centrality case is strengthening, not weakening.",
+      "neutral": "Fundamentals unchanged since June 6; today's -4% is noise against the structural thesis, and rank 20 already reflects yesterday's reconciliation move.",
+      "bear": "Once a latent node is recognized (it just made an all-time high on the AI story), the list's edge - owning it before the market reframes it - is largely spent; what remains is execution risk in a still-cyclical industrial mix.",
+      "primaryCatalyst": "Continued data-center/grid-driven industrial growth in Q2 confirming LFUS is re-rated as power infrastructure rather than cyclical electronics.",
+      "primaryRisk": "Recognition is already here - latency premium spent - while auto/industrial cyclical segments could disappoint and reassert the old framing at a now-premium multiple."
+    },
+    {
+      "page": "companies",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 42: no new fundamental information since June 6 and a -4.1% flow-driven pullback does not change the balance the audit already struck between real power-delivery/protection content and a fully recognized +69.7% YTD rerating at $11.25B cap.",
+      "bull": "Q1 showed the power-delivery content thesis working (sales +19%, industrial +45% on data-center and grid demand) with Basler integration adding high-power capability for mission-critical infrastructure.",
+      "neutral": "Yesterday's audit-based hold remains correct; today's dip is profit-taking off an all-time high, not a thesis event in either direction.",
+      "bear": "Valuation models flag substantial overvaluation and a large share of recent growth is acquired (Basler = 39pts of industrial growth), so organic AI-power content may be smaller than the headline numbers imply.",
+      "primaryCatalyst": "Q2 results against the $690-710M guide and evidence of organic (ex-Basler) data-center protection growth.",
+      "primaryRisk": "Organic growth disappointing once Basler anniversaries, exposing a premium multiple on a partly cyclical revenue base."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "6415.TW",
+  "company": "Silergy",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance quote 6415.TW", "url": "https://finance.yahoo.com/quote/6415.TW/"},
+    {"label": "uc913 analyst note (May 2026): record revenue, target raised to 650, data-center mix rising", "url": "https://uc913.com/stock-6415/"},
+    {"label": "Wantgoo monthly revenue table (no May print indexed yet)", "url": "https://www.wantgoo.com/stock/6415/financial-statements/monthly-revenue"},
+    {"label": "TradingView Silergy news feed", "url": "https://www.tradingview.com/symbols/TWSE-6415/news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 120,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's case already recommended removal for weak direct CPO relevance and exhausted asymmetry after a +184.6% YTD rerating; nothing material has emerged since June 6 and today's +0.76% is drift, so no second penalty is warranted at an already-bottom rank.",
+      "bull": "Q1 beat and May analyst target hikes show data-center power management becoming a real growth leg (mgmt sees DC at ~20% of revenue by 2027), which could eventually give it a legitimate AI-power angle.",
+      "neutral": "A well-run analog/power-IC franchise re-rated hard in 1H26; on a CPO-specific alpha list it is a category mismatch trading at post-rerating multiples, with the May revenue print (due ~June 10) the next datapoint.",
+      "bear": "No CPO/optics content, consumer/industrial cycle exposure, and a +184.6% YTD run leave negative residual alpha; any data-center hype cooling or soft monthly revenue triggers sharp mean reversion.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~June 10) and evidence of data-center power design wins scaling.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on a consumer/industrial demand wobble, with no CPO thesis to fall back on."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "symbol": "COHU",
+  "company": "Cohu",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. All the bullish datapoints in circulation (AI/HPC test TAM raised to ~$750M, FY26 HPC revenue target $80-100M, $30M Eclipse follow-on orders for active-thermal-control HPC test, HBM system bookings of $15-20M FY26, analyst PT raises to $53-60 by Jefferies/Evercore/TD Cowen/Needham/B. Riley) date from the late-May earnings cycle and May 27-Jun 3 investor conferences. Today's +3.3% (to $54.24) is momentum/flow continuation, not fresh fundamentals; price now sits near the ~$57 mean analyst target after +120% YTD and mainstream 'under-the-radar AI stock' coverage signals accelerating discovery.",
+  "sources": [
+    {"label": "Yahoo Finance - COHU quote", "url": "https://finance.yahoo.com/quote/COHU/"},
+    {"label": "ad-hoc-news - Cohu AI-driven outlook lifts 2026 targets (Jun 2026)", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cohu-inc-stock-us1924791031-ai-driven-outlook-lifts-2026-targets-and/69484199"},
+    {"label": "StockTitan - Cohu investor conferences May-June 2026", "url": "https://www.stocktitan.net/news/COHU/cohu-to-present-at-upcoming-investor-f537jvyqtxdv.html"},
+    {"label": "Public.com - COHU analyst ratings and price targets", "url": "https://public.com/stocks/cohu/forecast-price-target"},
+    {"label": "AOL/Motley Fool - 'Under-the-radar AI semiconductor stock' coverage", "url": "https://www.aol.com/articles/1-under-radar-ai-semiconductor-100300000.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On the WFE/test-node map nothing changed: KGD, HBM, chiplet and silicon-photonics test intensity keeps Cohu relevant, but there is no new order, capacity or regulatory datapoint since June 6 to justify moving an already-low rank 82; another +3.3% of newsless price drift slightly erodes residual upside.",
+      "bull": "AI/HPC test TAM of ~$750M and $80-100M FY26 HPC revenue target imply Cohu's test/inspection node grows structurally with advanced packaging and HBM capacity adds.",
+      "neutral": "All evidence is from the late-May earnings cycle; rank 82 already reflects a peripheral, optionality-style position on this page and nothing since June 6 changes it.",
+      "bear": "Recurring-revenue-heavy mid-cap tester with HBM revenue of only $15-20M in 2026; an order air-pocket or share loss to Advantest/Teradyne in HPC test would unwind the rerating quickly.",
+      "primaryCatalyst": "Q2 bookings update showing follow-through on Eclipse HPC orders and incremental HBM system wins.",
+      "primaryRisk": "Order timing slippage in HPC/HBM test plus export-control exposure in its auto/mobile legacy base."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 19,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha screen the setup deteriorated without any new fundamentals: +120% YTD, +3.3% more today on no news, price now at/through most of the raised $53-60 targets and near the ~$57 consensus mean, with mainstream 'under-the-radar AI stock' pieces marking the discovery phase as largely complete - residual asymmetry is shrinking.",
+      "bull": "If FY26 HPC revenue lands at the $80-100M high end and HBM bookings keep compounding, estimates and targets reset higher again and the rerating extends.",
+      "neutral": "Thesis (test/inspection leverage to AI compute) is intact and yesterday's hold was reasonable, but the alpha left between $54 and consensus ~$57 is thin for a name this discovered.",
+      "bear": "A 7-analyst Strong Buy, price above several fresh targets and a 200%+ trailing-12-month move is the textbook post-rerating chase profile; any guidance wobble produces a sharp de-rate from a crowded register.",
+      "primaryCatalyst": "Another round of HPC/HBM order announcements or target raises forcing the consensus PT above the stock.",
+      "primaryRisk": "Crowding unwind: momentum money exiting a $2.6B mid-cap on the first soft bookings print, independent of the long-term thesis."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the scaling watchlist Cohu's role as the verification layer for AI chip manufacturing (packaging/memory test, KGD) is unchanged; no new evidence since June 6 either strengthens or weakens its bucket fit, so rank 6 holds.",
+      "bull": "Every increment of HBM stacking, chiplet integration and CPO adoption raises test/inspection intensity per device, which is exactly the scaling-verification role this page tracks.",
+      "neutral": "Strong structural fit already reflected in a top-6 rank; the late-May TAM and order datapoints are priced and nothing newer has arrived.",
+      "bear": "If hyperscaler test insourcing or bigger rivals (Advantest, Teradyne) capture the HPC test sockets, Cohu's verification-layer role scales less than the theme implies.",
+      "primaryCatalyst": "Evidence of Eclipse active-thermal-control platform becoming a standard socket at additional HPC customers.",
+      "primaryRisk": "Cycle/execution risk: legacy auto/industrial test recovery stalling while AI revenue is still too small to carry the model."
+    }
+  ]
+}

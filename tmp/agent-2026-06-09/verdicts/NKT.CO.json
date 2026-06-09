@@ -1,0 +1,26 @@
+{
+  "symbol": "NKT.CO",
+  "company": "NKT",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "NKT News & Press Releases (latest item May 13, 2026: Q1 record order intake, EBITDA EUR 97m)", "url": "https://www.nkt.com/news-press-releases"},
+    {"label": "TS2: NKT shares hit fresh high as record cable orders reframe the 2026 story (post-Q1, mid-May)", "url": "https://ts2.tech/en/nkt-shares-hit-a-fresh-high-as-record-cable-orders-reframe-the-2026-story/"},
+    {"label": "ad-hoc-news: NKT record EUR 13.5B order backlog keeps power cable specialist in focus", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nkt-a-s-stock-dk0010287663-record-order-backlog-keeps-power-cable/69344672"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No company news since June 6; the Q1 beat and record EUR 13.5B backlog were already in yesterday's hold. The ~5% drift off the mid-May 52-week high (1,049 -> 995) with the thesis intact marginally improves entry asymmetry, but NKT remains a grid/TSO name one step removed from the AI passive/power bottleneck stack this page rewards, so rank 63 stands.",
+      "bull": "Record EUR 13.5B high-voltage backlog with multi-year visibility, Q1 EBITDA beat (EUR 97m vs EUR 84m consensus, 16.0% margin), and emerging data-center power-connection work (AKEA Denmark) give cheap optionality on AI-driven grid buildout while the pullback resets the entry.",
+      "neutral": "Over 95% of the Transmission backlog is European TSO interconnector/offshore-wind work, so AI/data-center exposure is real but indirect; +20.75% YTD with the post-Q1 rerating already done leaves the setup fairly priced for this list.",
+      "bear": "Crowding into the European HV-cable scarcity trade (NKT alongside Prysmian/Nexans) plus capex-heavy capacity expansion and project-execution risk means any backlog conversion slip or TSO timeline delay hits a stock that has already rerated.",
+      "primaryCatalyst": "Q2 2026 report (Aug 14) and incremental data-center/grid connection awards converting AI power demand into direct order intake.",
+      "primaryRisk": "Execution or timing slippage on the EUR 13.5B backlog, or sector de-crowding in European cable names, compressing the multiple without thesis news."
+    }
+  ]
+}

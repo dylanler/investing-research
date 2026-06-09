@@ -1,0 +1,41 @@
+{
+  "symbol": "ICHR",
+  "company": "Ichor Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news since June 6. Today's +7.06% move (to $71.46) is sector flow: a broad WFE rally on Morgan Stanley's raised 2026 WFE outlook (+27% to ~$149B) and memory-capex enthusiasm, not an ICHR catalyst. Company-specific signals skew mildly negative: CEO Philip Barros sold ~$962K of stock on June 4 and director Laura Black sold $1.5M on June 2; the stock now trades essentially at Needham's post-earnings street-high $72 target after a 58% 30-day run and +250% YTD.",
+  "sources": [
+    {"label": "Investing.com - Ichor CEO sells $961,953 in shares (Jun 4)", "url": "https://m.investing.com/news/insider-trading-news/ichor-holdings-ceo-sells-961953-in-shares-93CH-4729402?ampMode=1"},
+    {"label": "TipRanks - Ichor insider (director) stock sale", "url": "https://www.tipranks.com/news/insider-trading/top-ichor-holdings-insider-makes-major-cash-move-with-surprise-stock-sale-insider-trading-news"},
+    {"label": "TradingView/Zacks - ICHR surges on industry tailwinds, can it sustain momentum", "url": "https://www.tradingview.com/news/zacks:f97ea783d094b:0-ichr-surges-on-industry-tailwinds-can-it-sustain-this-momentum/"},
+    {"label": "Investing.com - Morgan Stanley raises WFE outlook, shifts semicap ratings", "url": "https://www.investing.com/news/stock-market-news/semicap-stocks-morgan-stanley-raises-wfe-outlook-and-shifts-ratings-4696580"},
+    {"label": "Sherwood - Wall Street thinks the next bottleneck in AI is chip equipment", "url": "https://sherwood.news/markets/wall-street-thinks-the-next-bottleneck-in-ai-is-chip-equipment/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 53,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On a bottleneck-criticality node list, a +7% sector-beta pop on Morgan Stanley's WFE upgrade adds zero new evidence of ICHR-specific bottleneck position; at +250% YTD and at the street-high target, residual alpha keeps shrinking, extending yesterday's down verdict.",
+      "bull": "Fluid-delivery subsystems are genuinely levered to the raised 2026 WFE outlook (memory +18-35% segments), and Q1 beat with raised Q2 guide ($290-310M) shows the operating leverage is real.",
+      "neutral": "Thesis intact but fully discovered: the name now trades as a high-beta WFE proxy, so rank should reflect that the market has already priced the AI-fab capacity story.",
+      "bear": "Trading at Needham's $72 street-high target with the CEO and a director selling into the run; any WFE order push-out or export-control headline hits a 2.5x-rerated cyclical hard.",
+      "primaryCatalyst": "Concrete order/backlog confirmation from memory and leading-edge customers (Q2 print, guided $290-310M) validating the raised WFE outlook.",
+      "primaryRisk": "WFE-cycle disappointment or export-control tightening unwinding a flow-driven 250% YTD rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 47,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "This is a crowding-sensitive alpha screen: +7% in a day on pure sector flow, +58% in 30 days, price at the street-high target, and fresh insider selling are textbook post-rerating chase signals — asymmetry has deteriorated further since yesterday's down verdict.",
+      "bull": "If Morgan Stanley's $149B 2026 WFE number proves right, ICHR's revenue and margin leverage could still beat estimates enough to grow into the multiple.",
+      "neutral": "Quality smallcap WFE subsystem play, but at $2.6B cap and 250% YTD it is no longer hidden or under-owned, which is what this screen rewards.",
+      "bear": "CEO and director sales into the ramp plus a $200M ATM overhang signal insiders see full value; a flow-driven name with single-bundle validation risk has poor downside protection from here.",
+      "primaryCatalyst": "Q2 earnings beat against the raised $290-310M guide, or a new design-win/content-gain announcement at a leading-edge or HBM customer.",
+      "primaryRisk": "Crowded momentum unwind: any sector pullback or insider-sale-confirmed valuation ceiling triggers outsized downside in a 7%-a-day flow name."
+    }
+  ]
+}

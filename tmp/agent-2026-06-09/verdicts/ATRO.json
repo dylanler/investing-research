@@ -1,0 +1,27 @@
+{
+  "symbol": "ATRO",
+  "company": "Astronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Most recent items predate the window: June 1 announcement of a 20% Class B stock distribution (record date June 15, distribution ~June 29) and a May 27 $44.7M U.S. Army full-rate production order for TS-4549/T Radio Test Sets under a 2024 IDIQ with ~$145M funding remaining, plus ESOP-related shelf registrations. Today's -1.33% move is ordinary drift.",
+  "sources": [
+    {"label": "Businesswire - Astronics Announces 20% Class B Stock Distribution (Jun 1, 2026)", "url": "https://www.businesswire.com/news/home/20260601261037/en/Astronics-Announces-20-Class-B-Stock-Distribution"},
+    {"label": "Astronics IR - Production Order for TS-4549/T Radio Test Sets (May 27, 2026)", "url": "https://investors.astronics.com/news-events/press-releases/detail/457/astronics-corporation-receives-production-order-for"},
+    {"label": "Astronics IR - Press Releases", "url": "https://investors.astronics.com/news-events/press-releases"},
+    {"label": "Simply Wall St - ATRO up after Army radio test order and ESOP filings", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-atro/astronics/news/astronics-atro-is-up-52-after-new-army-radio-test-order-and"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved ATRO down to reconcile the displayed-vs-adjusted rank gap; nothing material has emerged since June 6 and today's -1.33% is noise, so on this strict latent-AI screen the right call is hold with mild negative drift since the +47% YTD run is defense/aerospace-driven, not new evidence for the rugged-edge-compute adaptation pathway.",
+      "bull": "Astronics Test Systems keeps winning high-reliability test business (May 27 $44.7M Army radio test order, ~$145M IDIQ funding remaining), validating the test-and-power capability base that the latent edge-compute thesis rests on.",
+      "neutral": "The stock's strength is explained by core aerospace/defense execution and capital-structure housekeeping (Class B distribution, ESOP shelves); the AI-adjacent optionality remains speculative and unpriced in either direction, so the listing's medium-evidence rating stands.",
+      "bear": "A +47% YTD rerating with zero AI-specific design wins means the latent-AI option is now being carried at a richer base valuation, shrinking the asymmetric payoff this strict screen exists to capture.",
+      "primaryCatalyst": "A concrete ruggedized edge-compute or high-reliability electronics design win tied to AI/defense compute programs, or Q2 earnings (late July) showing test-segment backlog acceleration.",
+      "primaryRisk": "Thesis stays latent: continued aerospace-cycle-driven rerating without AI-chain evidence leaves the name as a crowded mid-cap defense compounder with no residual alpha on this list."
+    }
+  ]
+}

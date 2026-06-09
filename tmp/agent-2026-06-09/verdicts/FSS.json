@@ -1,0 +1,26 @@
+{
+  "symbol": "FSS",
+  "company": "Federal Signal",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Only a routine Norges Bank 13F stake disclosure (June 6 syndicated article) and generic technical commentary. Today's +2.58% move looks flow/sector-driven, not fundamental; the last real data point remains the late-April Q1 2026 beat (EPS $1.18 vs $0.89 est) and raised FY26 guidance (sales $2.57-2.66B, adj EPS $4.80-5.05), which was already in the price and in yesterday's hold verdict.",
+  "sources": [
+    {"label": "Markets Daily - Norges Bank takes position in Federal Signal (Jun 6, 2026)", "url": "https://www.themarketsdaily.com/2026/06/06/norges-bank-takes-position-in-federal-signal-corporation-fss.html"},
+    {"label": "Seeking Alpha - Federal Signal raises 2026 adjusted EPS outlook to $4.80-$5.05", "url": "https://seekingalpha.com/news/4582290-federal-signal-raises-2026-adjusted-eps-outlook-to-4_80-5_05-while-lifting-ssg-margin-target"},
+    {"label": "MarketBeat - Federal Signal (FSS) news and analysis", "url": "https://www.marketbeat.com/stocks/NYSE/FSS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No new evidence since June 6 tying Federal Signal's safety/warning equipment to AI campuses or autonomous sites, and a +2.6% no-news day with YTD still slightly negative does not change the latent-node setup; yesterday's hold stands.",
+      "bull": "Q1 beat and raised FY26 guidance (18-22% sales growth) show a healthy core business; YTD -1.6% means the optional AI-campus/critical-infrastructure exposure is effectively free, preserving asymmetry if data-center safety/permitting spend materializes.",
+      "neutral": "Solid mid-cap industrial executing well, but the AI linkage remains conceptual - no disclosed data-center or AI-campus contracts - so it stays a deep latent node rather than a confirmed bottleneck name.",
+      "bear": "The AI thesis is a stretch: emergency vehicles and street sweepers have no demonstrated AI-capex pull-through, backlog fell 6% y/y, and at ~22x forward EPS the stock already prices in the industrial growth without any AI optionality.",
+      "primaryCatalyst": "A disclosed contract or design win serving data-center campuses, utility/grid buildout, or autonomous-site safety systems; next checkpoint is Q2 earnings on July 29, 2026.",
+      "primaryRisk": "AI linkage never materializes and the name trades purely as a municipal/industrial cyclical, dead weight on an AI-nodes list if orders or margins soften."
+    }
+  ]
+}

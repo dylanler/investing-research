@@ -1,0 +1,26 @@
+{
+  "symbol": "BCVN.SW",
+  "company": "Bucher Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Bucher Industries press releases / ad hoc announcements", "url": "https://www.bucherindustries.com/en/media"},
+    {"label": "Bucher Industries Q1 order-intake update (TradingView/EQS)", "url": "https://www.tradingview.com/news/eqs:a4de049ec094b:0-slight-recovery-in-order-intake-despite-trade-policy-uncertainties/"},
+    {"label": "Yahoo Finance quote BCVN.SW", "url": "https://finance.yahoo.com/quote/BCVN.SW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new AI-adjacent evidence since June 6 and a flat tape today (-0.08%); the latent-node case (hydraulics into automated construction/industrial equipment) is unchanged from yesterday's hold, so the strict-screen rank should not move on drift alone.",
+      "bull": "Bucher Hydraulics is performing positively with demand growth in construction machinery, stationary industrial hydraulics and mobile electric drives - the exact substrate automated facility/construction buildouts would draw on, and the name remains un-owned as an AI play.",
+      "neutral": "Q1 2026 showed modest group demand with Kuhn order intake down after a strong pre-order season; the 2026 outlook is confirmed but the AI linkage remains a latent optionality, not a booked revenue stream. +14% YTD is in line with European industrials, not a crowding signal.",
+      "bear": "The AI-node pathway is still entirely speculative - hydraulics demand is driven by ag/construction cycles and trade-policy uncertainty, and a Kuhn-led demand wobble could drag group numbers regardless of any automation narrative.",
+      "primaryCatalyst": "H1 2026 results (late July) showing Bucher Hydraulics order intake accelerating, or a named win supplying hydraulics into automated construction/data-center facility equipment.",
+      "primaryRisk": "Cyclical downturn in agricultural and construction machinery plus tariff/trade-policy disruption swamping the small, unproven AI-linked sliver of the business."
+    }
+  ]
+}

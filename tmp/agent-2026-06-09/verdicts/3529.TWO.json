@@ -1,0 +1,35 @@
+{
+  "symbol": "3529.TWO",
+  "company": "eMemory Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - eMemory Q1 2026 earnings call highlights (May 2026, pre-existing news)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ememory-technology-inc-roco-3529-030030531.html"
+    },
+    {
+      "label": "Design-Reuse - eMemory Q1 2026 record revenue, Intel 18A PUF collaboration",
+      "url": "https://www.design-reuse.com/news/202530515-ememory-technology-inc-roco-3529-q1-2026-earnings-call-highlights-record-revenue-growth-and-strategic-expansion/"
+    },
+    {
+      "label": "eMemory IR - Monthly revenue page (no new June release found)",
+      "url": "https://www.ememory.com.tw/en-US/Investor/Monthly_Revenue"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already flagged removal for weak direct CPO/HBM/packaging relevance and post-rerating asymmetry; no new information since June 6 and today's -1.4% drift does not change that setup, so no second move is warranted.",
+      "bull": "Royalty-leveraged 100%-gross-margin IP model with licensing up 58.6% YoY, 3nm AI server CPU wins, and PUF security IP qualifying on Intel 18A gives genuine secular optionality if hardware-security attach rates inflect.",
+      "neutral": "A high-quality compounder, but its bottleneck is logic-NVM/security IP, not CPO or HBM; on this page it is an ecosystem-adjacent watchlist node whose alpha case was already arbitraged by the +83% YTD rerating.",
+      "bear": "At ~$7.6B cap and 83% YTD with no CPO-specific catalyst, the name is owned and rerated; any royalty soft patch or slower PUF adoption compresses a premium multiple with little page-relevant thesis to fall back on.",
+      "primaryCatalyst": "Monthly revenue releases and new advanced-node (2nm/18A) licensing announcements showing PUF/security attach accelerating in AI silicon.",
+      "primaryRisk": "Crowded post-rerating multiple on a name whose direct CPO/HBM bottleneck relevance is weak, leaving it exposed to derating without page-specific offset."
+    }
+  ]
+}

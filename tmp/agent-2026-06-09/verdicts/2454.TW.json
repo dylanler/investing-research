@@ -1,0 +1,41 @@
+{
+  "symbol": "2454.TW",
+  "company": "MediaTek",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news identified since June 6. The June 9 +9.95% limit-up to a record NT$4,475 appears flow/momentum-driven - continuation of the Google TPU v8i (Zebrafish) ASIC rerating (cloud ASIC 2026 guidance doubled to ~$2B on May 29; street modeling $7-12B for 2027) amid broad Taiex record highs, not a new datapoint. CEO Rick Tsai has separately conceded MediaTek is a 'latecomer' in CPO with demand only essential around 2028-29.",
+  "sources": [
+    {"label": "Stockopedia - MediaTek 2454 quote (June 9 price/move confirmation)", "url": "https://www.stockopedia.com/share-prices/media-tek-TPE:2454/"},
+    {"label": "BigGo Finance (May 29) - MediaTek hikes 2026 AI ASIC revenue forecast to $2B", "url": "https://finance.biggo.com/news/MBvOc54BX0tZvRTvGNKs"},
+    {"label": "UDN Money - Rick Tsai on TPU demand and CPO 'latecomer' positioning", "url": "https://money.udn.com/money/story/5612/9486368"},
+    {"label": "DIGITIMES - MediaTek ASIC revenue may overtake smartphone chips on Google TPU ramp", "url": "https://www.digitimes.com/news/a20260427PD208/mediatek-asic-revenue-google-tpu.html"},
+    {"label": "TechSpot - MediaTek's billion-dollar pivot from smartphone chips to AI ASICs", "url": "https://www.techspot.com/news/110798-mediatek-targets-billion-dollar-ai-asic-business-smartphone.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 73,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "Yesterday's verdict already flagged removal for weak direct HBM/advanced-packaging/CPO bottleneck relevance; today's ~10% limit-up on no identifiable new fundamentals since June 6 (+204% YTD, $226B cap) further compresses residual alpha on this bottleneck-criticality list.",
+      "bull": "Google TPU v8i design win and a doubled $2B 2026 cloud ASIC guide make MediaTek a genuine second ASIC source to Broadcom, with $7-12B 2027 revenue potential transforming the earnings mix.",
+      "neutral": "The ASIC story is real but fully broadcast and priced; at rank 73 with an 'analog/power/RF' tier tag the listing is a category mismatch, and the name no longer offers hidden bottleneck exposure this page rewards.",
+      "bear": "Stock has tripled since early April on a program whose mass production only starts H2 2026; any Google TPU spec revision, share shift back to Broadcom, or smartphone-cycle weakness hits a now-crowded $226B name hard.",
+      "primaryCatalyst": "TPU v8i mass production ramp and first separate ASIC revenue disclosure confirming the $2B 2026 / multi-billion 2027 trajectory.",
+      "primaryRisk": "Crowded post-rerating positioning: a 204% YTD, limit-up-on-no-news chart leaves severe drawdown risk if TPU order timing or volumes disappoint."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 85,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "On a CPO-lens alpha page, CEO Rick Tsai's own admission that MediaTek is a CPO 'latecomer' (demand essential only ~2028-29, Ayar Labs stake as a placeholder) confirms it is not a primary CPO bottleneck, while today's no-news limit-up removes what little asymmetry remained.",
+      "bull": "ASIC scale from Google TPU gives MediaTek the silicon platform and customer relationships to attach CPO/optical I/O when the 2028-29 wave arrives, with the Ayar Labs investment and Microsoft optical research as on-ramps.",
+      "neutral": "CPO exposure is optionality two-plus cycles out; near-term value is the TPU ASIC ramp, which is already the consensus narrative and orthogonal to this page's thesis.",
+      "bear": "A self-described CPO latecomer trading at record highs after a 3x two-month run offers negative alpha on this list; incumbents (Broadcom, TSMC COUPE ecosystem, optics specialists) own the actual CPO bottleneck.",
+      "primaryCatalyst": "Concrete CPO/optical-I/O design win or co-package milestone with a hyperscaler ASIC program moving the 2028-29 optionality forward.",
+      "primaryRisk": "Page-thesis mismatch plus crowding: paying a post-rerating ASIC multiple for CPO exposure the company itself dates to 2028-29."
+    }
+  ]
+}

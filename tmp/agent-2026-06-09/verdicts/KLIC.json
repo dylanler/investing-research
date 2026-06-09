@@ -1,0 +1,78 @@
+{
+  "symbol": "KLIC",
+  "company": "Kulicke & Soffa",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only a routine quarterly dividend declaration ($0.205/share, record date June 18, payable July 8). The real catalysts are older: early-May Q2 FY26 beat (EPS $0.79 vs $0.67 est, revenue $242.6M vs ~$191M est) and the mid-May AI-focused thermo-compression bonding capacity expansion (TCB revenue >$100M in FY26; Advanced Solutions capacity targeting ~$400M revenue, $20M capex). Today's -1.6% is post-rerating drift, not signal. Stock at ~$101 sits well above stale sell-side consensus targets ($59-66), underscoring how far the rerating has run.",
+  "sources": [
+    {
+      "label": "StockTitan - Kulicke & Soffa declares $0.205 quarterly dividend",
+      "url": "https://www.stocktitan.net/news/KLIC/kulicke-soffa-declares-quarterly-dividend-of-0-4rwaljakhjx1.html"
+    },
+    {
+      "label": "Sahm Capital - KLIC up 6.1% on AI thermo-compression capacity expansion plan (May 15)",
+      "url": "https://www.sahmcapital.com/news/content/why-kulicke-and-soffa-klic-is-up-61-after-ai-focused-thermo-compression-capacity-expansion-plan-2026-05-15"
+    },
+    {
+      "label": "MarketBeat - KLIC analyst forecast and price targets",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/KLIC/forecast/"
+    },
+    {
+      "label": "Yahoo Finance - KLIC quote",
+      "url": "https://finance.yahoo.com/quote/KLIC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing new since June 6 and only a -1.6% drift day; yesterday's hold at this mid-table OSAT/packaging slot still fits. TCB/advanced-packaging relevance is real but already priced after +108.6% YTD.",
+      "bull": "TCB revenue guided above $100M in FY26 with Advanced Solutions capacity being built for ~$400M revenue - a genuine on-ramp into AI advanced packaging beyond legacy ball bonding.",
+      "neutral": "Mid-table rank already reflects selective, second-derivative AI exposure; no fresh datapoint since June 6 to re-rank either way.",
+      "bear": "Core ball/wedge bonding remains cyclically volatile and China-heavy; a packaging-cycle wobble would unwind much of the YTD rerating quickly.",
+      "primaryCatalyst": "Evidence of TCB tool orders/design wins at HBM or foundry customers ahead of the 1H FY27 Advanced Solutions ramp.",
+      "primaryRisk": "Packaging-cycle downturn or TCB share loss to ASMPT/Hanmi/Besi compressing the new AI narrative."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 106,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On this crowding-sensitive alpha list KLIC is already ranked deep (106) for being narrow and cyclical; no new evidence since June 6 and a quiet -1.6% day gives no reason to move again after yesterday's hold.",
+      "bull": "If TCB becomes a third leg alongside Besi/ASMPT in AI packaging, the current low rank understates optionality from the ~$400M Advanced Solutions capacity plan.",
+      "neutral": "The alpha case was discovered in May; at +108.6% YTD and trading far above stale sell-side targets, residual asymmetry here is thin but the low rank already encodes that.",
+      "bear": "Packaging equipment is the most cyclical corner of this list; KLIC's TCB position is unproven at scale versus entrenched competitors, and the YTD double leaves no cushion.",
+      "primaryCatalyst": "A named TCB design win or capacity order tied to HBM4/chiplet packaging.",
+      "primaryRisk": "Packaging-cycle rollover plus crowding unwind in recently rerated mid-cap semicap names."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 34,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Off-thesis for this page: KLIC is a semicap-cycle name with effectively no humanoid/robotics purity, yet it sits at 34 - above where yesterday's down verdict (then #42) implied it should settle. Continued down is purity discipline, not new news.",
+      "bull": "Precision assembly and bonding equipment gives indirect exposure to any robotics-driven semiconductor demand, and the AI packaging ramp keeps earnings momentum strong.",
+      "neutral": "Nothing since June 6 changes the picture; the name simply does not belong in the top third of a robotics alpha list.",
+      "bear": "Zero direct humanoid exposure plus +108.6% YTD semis-cycle beta means this slot is borrowed from the AI-semicap trade, not a robotics thesis.",
+      "primaryCatalyst": "Any concrete robotics/automation end-market content disclosure - none exists today.",
+      "primaryRisk": "Holding a rerated semicap cyclical on a robotics list when the semis trade cools - double de-rating with no robotics floor."
+    },
+    {
+      "page": "companies",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down verdict already applied the rerating discount; with no new information since June 6 and only -1.6% of drift, hold with mild negative score decay as +108.6% YTD keeps eroding hidden alpha at $5.2B cap.",
+      "bull": "The pick-and-shovel case strengthened fundamentally in May: big Q2 beat, TCB >$100M FY26 guide, and capacity being built for ~$400M Advanced Solutions revenue into 1H FY27.",
+      "neutral": "Real AI packaging progress, but it is now recognized - the stock trades well above consensus targets, so the page's alpha lens correctly discounts what quality screens would reward.",
+      "bear": "Most revenue is still cyclical ball/wedge bonding; if utilization rolls or China demand softens, the AI sliver cannot support a doubled stock.",
+      "primaryCatalyst": "FQ3 earnings (late July/August) confirming TCB order momentum and Advanced Solutions ramp timing.",
+      "primaryRisk": "Post-rerating multiple compression on any cyclical wobble; valuation already past sell-side targets."
+    }
+  ]
+}

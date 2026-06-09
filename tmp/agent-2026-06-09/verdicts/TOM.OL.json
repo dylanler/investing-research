@@ -1,0 +1,26 @@
+{
+  "symbol": "TOM.OL",
+  "company": "Tomra",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. The notable recent catalyst - a letter of intent for ~2,700 UK reverse vending machines (deliveries mostly 2027) - dates to mid-May and is already in the price. Next earnings July 17, 2026. Day move +0.85% is noise.",
+  "sources": [
+    {"label": "Yahoo Finance TOM.OL quote/news", "url": "https://finance.yahoo.com/quote/TOM.OL/"},
+    {"label": "TipRanks - Tomra secures major UK reverse vending deal ahead of DRS launch", "url": "https://www.tipranks.com/news/company-announcements/tomra-secures-major-uk-reverse-vending-deal-ahead-of-deposit-return-launch"},
+    {"label": "ad-hoc-news - UK deposit return order spotlight on Tomra", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tomra-systems-asa-stock-no0005668905-uk-deposit-return-order-shines/69389590"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No new evidence since June 6 on this strict screen: the AI-chain linkage (sensor sorting recovering metals/plastics from accelerating hardware cycles) remains speculative and unproven, and a +0.85% day is pure drift. Yesterday's hold was set with the -30% YTD washout already reconciled, so nothing today justifies moving again.",
+      "bull": "Washed-out at -30% YTD with a 78% buy consensus and ~135 NOK average target, plus a fresh UK DRS rollout pipeline (~2,700 RVMs, 2027 deliveries) and ~EUR 100M of new DRS-market revenue in 2026 - asymmetry is decent if recycling demand troughs.",
+      "neutral": "The core businesses (Collection, Recycling, Food) are regulation-driven, not AI-driven; the AI-hardware-recycling angle is a thin overlay on a deposit-return story, so the name drifts with DRS rollout timing until July 17 earnings.",
+      "bear": "Recycling segment demand has collapsed and Collection revenue missed on slower DRS rollouts; if e-waste/metals recovery never materializes as an AI-cycle beneficiary, this is a low-growth industrial with no real claim to an AI-bottleneck list.",
+      "primaryCatalyst": "Q2 2026 earnings on July 17 and conversion of the UK RVM letter of intent into a firm contract.",
+      "primaryRisk": "Continued recycling-demand weakness and DRS rollout delays, with the speculative AI-chain linkage failing to generate any measurable revenue."
+    }
+  ]
+}

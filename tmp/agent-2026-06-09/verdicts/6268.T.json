@@ -1,0 +1,35 @@
+{
+  "symbol": "6268.T",
+  "company": "Nabtesco",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - Nabtesco 6268.T quote",
+      "url": "https://finance.yahoo.com/quote/6268.T/"
+    },
+    {
+      "label": "Globe and Mail - Nabtesco finalizes hydraulic split, majority stake sale to Comer Industries (closed Jan 1, 2026; background, pre-Jun 6)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NCTKF/pressreleases/36895552/nabtesco-finalizes-split-of-hydraulic-business-and-sale-of-majority-stake-to-comer-industries/"
+    },
+    {
+      "label": "Nabtesco - RVmini / Monocrank compact precision reducer launches (Dec 2025; background)",
+      "url": "https://www.nabtesco.com/en/news/20251202-17329/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6 and a flat tape today (-0.02%); the hydraulic carve-out to Comer Industries closed January 1 and is already in the price. On a discovery-weighted robotics list, a well-owned, +26.9% YTD pure-play reducer name with no fresh evidence stays exactly where it is, consistent with yesterday's hold.",
+      "bull": "Nabtesco remains the dominant RV precision-reducer supplier and a near-unavoidable BOM line for humanoid rotary joints, with capacity expansion underway and the portfolio now cleaner post hydraulic divestiture.",
+      "neutral": "Humanoid exposure is real but the market knows it: +26.9% YTD with no incremental design-win or volume-order news since early June leaves the setup as drift, not signal.",
+      "bear": "Cycloidal RV gears are heavy for humanoid joints versus harmonic and planetary alternatives, so the humanoid narrative could leak to competitors while core industrial-robot demand from China stays soft.",
+      "primaryCatalyst": "Q2 results on August 5, 2026 and any disclosed humanoid-platform reducer orders or RV capacity-doubling milestones.",
+      "primaryRisk": "Crowded humanoid-component positioning unwinding if humanoid OEMs standardize on harmonic/planetary actuators rather than RV reducers."
+    }
+  ]
+}

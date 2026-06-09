@@ -1,0 +1,39 @@
+{
+  "symbol": "CAT",
+  "company": "Caterpillar",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Morningstar - After a 160% AI-fueled rally, can Caterpillar stock keep climbing?",
+      "url": "https://www.morningstar.com/stocks/after-160-ai-driven-rally-can-caterpillar-stock-keep-climbing"
+    },
+    {
+      "label": "Caterpillar IR - AIP/Boyd CAT 2 GW hyperscale AI power alliance (dated Jan 28, 2026; not new)",
+      "url": "https://investors.caterpillar.com/news/news-details/2026/American-Intelligence--Power-Forms-Strategic-Alliance-with-Caterpillar-and-Boyd-CAT-to-Deploy-2-Gigawatts-of-Dedicated-Power-for-Hyperscale-AI-Infrastructure/default.aspx"
+    },
+    {
+      "label": "TradingKey - CAT mover note, Jun 9, 2026 intraday weakness",
+      "url": "https://www.tradingkey.com/news/market-movers/261956325-market-movers-cat-20260609"
+    },
+    {
+      "label": "StockAnalysis - CAT analyst price targets (avg ~$912 vs ~$902 spot)",
+      "url": "https://stockanalysis.com/stocks/cat/forecast/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since Jun 6; the headline AI-power catalysts (AIP/Boyd CAT 2 GW Monarch order, Kenosha eFRAME capacity add) predate the window and are fully in the price. Yesterday's verdict already moved it down for the post-rerating crowding; today's -1.5% drift is not a setup change, so hold with mild negative drift.",
+      "bull": "Genset/turbine backlog for AI data centers keeps compounding (six 1GW+ public contracts, ProPower 2.1 GW, AIP 2 GW), and Energy & Transportation is now the growth engine management guides to 5-7% sales growth through 2030.",
+      "neutral": "A $416B megacap up ~51% YTD trading at consensus average target (~$912-937 vs $902) with Zacks Strong Buy and universal sell-side coverage; AI power demand is real but offers near-zero hidden-alpha on a passives/bottleneck list that rewards under-owned names.",
+      "bear": "The AI-power narrative is the most consensus trade in industrials; any hyperscaler capex digestion or data-center genset order air-pocket would compress a multiple that has already rerated 160% year-over-year, and core construction/mining segments remain cyclical ballast.",
+      "primaryCatalyst": "Q2 2026 earnings / new gigawatt-scale data-center power orders or Power segment guidance raise.",
+      "primaryRisk": "Crowding unwind: post-rerating multiple compression if hyperscaler capex or genset order momentum decelerates."
+    }
+  ]
+}

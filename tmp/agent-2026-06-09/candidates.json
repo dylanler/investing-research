@@ -1,0 +1,1122 @@
+[
+ {
+  "company": "Tri Chemical Laboratories",
+  "ticker": "4369",
+  "yahooSymbol": "4369.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "A ~$0.75B Japanese maker of ultra-high-purity CVD/ALD precursors (high-k, silicon, metal precursors) that gate the two most demanding process steps in the AI chain: gate-all-around logic at N2 and high-aspect-ratio capacitors in next-gen DRAM/HBM4. Latest quarter (Feb-Apr 2026): sales +14%, OP +20.8%, net profit +53.6%, operating cash flow up ~2.6x - against a full-year guide of only +1.7%, a classic Japanese small-cap sandbag that sets up serial guidance raises into the memory supercycle. Despite today's violent HBM rally (SK hynix +16%, Eugene Tech +14%), the stock sits mid-range in its 52-week band at roughly 15x annualized EPS - the precursor chokepoint has not repriced with the equipment names.",
+  "latentAsset": "Dominant niche share in specific ALD/CVD precursor molecules qualified into GAA logic and HBM4/advanced-DRAM capacitor formation - qualification moats of 2-3 years per molecule per fab, with demand scaling with layer count and ALD step intensity rather than wafer starts",
+  "catalysts": "Aug 31, 2026 Q2 earnings with near-certain guidance raise given Q1 ran at ~35% of full-year OP; HBM4 mass-production ramp at all three memory makers; TSMC N2 GAA volume ramp; reported strength from China and Taiwan customers broadening the base",
+  "risks": "Thin liquidity at ~$0.75B; customer concentration via trading-company channels; precursor pricing pressure if memory capex rolls; FX (yen strength) hits export economics; limited English disclosure makes diligence hard",
+  "whyNotCrowded": "Zero Western sell-side coverage, no ADR, sub-$1B cap, and the stock is flat-to-mid-range while every visible HBM equipment name rerated today - materials precursors are the least-tracked node in the memory chain",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 0.75,
+  "componentScores": {
+   "latentFit": 21,
+   "discoveryGap": 22,
+   "valuationGap": 14,
+   "catalystDensity": 13,
+   "executionQuality": 11,
+   "hypePenalty": 1
+  },
+  "evidence": [
+   "https://quartr.com/companies/tri-chemical-laboratories-inc_22103",
+   "https://marketcapof.com/stocks/4369.t/",
+   "https://finance.yahoo.com/quote/4369.T/"
+  ],
+  "theme": "asia-small-caps"
+ },
+ {
+  "company": "Gudeng Precision Industrial",
+  "ticker": "3680",
+  "yahooSymbol": "3680.TWO",
+  "exchange": "Taipei Exchange (TPEx)",
+  "country": "Taiwan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The sole supplier of EUV reticle pods to TSMC - every EUV mask in the world's most important fab travels in a Gudeng pod, and pod consumption scales with EUV layer count, not just scanner count. Reticle/EUV pods were ~60% of revenue; 2025 revenue targeted at NT$10B (+53%) and DIGITIMES reports a record 2026 on EUV pod and FOUP demand, plus advanced-packaging wafer carriers for the CoWoS buildout and an EUV purge stocker co-developed with SAA shipping to TSMC in 2026. A Morgan Stanley downgrade on 2026 EUV scanner-count concerns (17-18 units vs 20 hoped) just reset sentiment on a structurally intact monopoly - the kind of entry the alpha framework wants.",
+  "latentAsset": "De facto monopoly on EUV reticle pods qualified at TSMC (with High-NA pod qualification ahead), plus fast-growing advanced packaging carrier/FOUP lines tied to CoWoS expansion and TSMC's US fabs",
+  "catalysts": "Record 2026 revenue trajectory with monthly TPEx revenue prints; High-NA EUV pod qualification; TSMC Arizona/advanced packaging capacity additions requiring new carrier fleets; EUV Lite Purge Stocker shipments to TSMC in 2026",
+  "risks": "Single-customer concentration in TSMC; EUV scanner delivery slippage (the MS concern) caps near-term growth; Entegris is the global incumbent in FOUPs and could push harder into reticle pods; stock already +64% y/y",
+  "whyNotCrowded": "~$1.7B TPEx-listed small cap with essentially no Western ownership or ADR; the recent Morgan Stanley downgrade flushed the marginal momentum buyer; it screens as 'plastic boxes' and is missed by anyone not modeling per-layer EUV consumables",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 1.75,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 18,
+   "valuationGap": 12,
+   "catalystDensity": 14,
+   "executionQuality": 11,
+   "hypePenalty": 3
+  },
+  "evidence": [
+   "https://www.digitimes.com/news/a20260413PD214/revenue-taiwan-demand-2026-euv.html",
+   "https://www.taipeitimes.com/News/biz/archives/2025/01/21/2003830547",
+   "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-gudeng-precision-stock-on-tsmc-euv-delivery-concerns-93CH-4136824",
+   "https://stockanalysis.com/quote/tpex/3680/market-cap/"
+  ],
+  "theme": "asia-small-caps"
+ },
+ {
+  "company": "HPSP",
+  "ticker": "403870",
+  "yahooSymbol": "403870.KQ",
+  "exchange": "KOSDAQ",
+  "country": "South Korea",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "De facto monopolist in high-pressure hydrogen annealing equipment - the interface-passivation step that recovers mobility and yield at sub-5nm logic and is now extending into HBM/advanced DRAM thermal treatments. ~$3.1B cap, ~$122M trailing revenue at software-like margins, guiding +30% FY25 revenue and ~22% 3-year CAGR. The stock derated hard from its 2024 peak on fear of challenger YEST (125-wafer tool, cheaper, in talks with Kioxia and SK hynix). The Korean Patent Court rules on all three HPSP-YEST suits in June 2026 - this month - after HPSP already won a landmark earlier case. A favorable ruling blocks YEST's 2026 deliveries and re-rates the monopoly into a memory capex supercycle; the setup is a fallen monopoly with a near-dated binary catalyst, not a chased winner.",
+  "latentAsset": "Patent-protected monopoly (six contested patents incl. the chamber opening/closing device) on high-pressure hydrogen annealing - a step that becomes more necessary as GAA logic and HBM4 base-die complexity increase interface-trap problems",
+  "catalysts": "June 2026 Patent Court rulings on all three YEST suits (imminent binary); HBM4 and sub-2nm logic adoption of HPA steps; Samsung/SK hynix/TSMC capex acceleration visible in today's Asia memory rally; potential oxidation-equipment second product ramp",
+  "risks": "Binary litigation: a YEST win introduces a cheaper 125-wafer competitor and breaks pricing; customer concentration in a handful of leading-edge fabs; KOSDAQ governance/liquidity discount; valuation not distressed at ~$3.1B",
+  "whyNotCrowded": "Well-known in Seoul but with negligible Western institutional ownership; the consensus AI-Korea trade is SK hynix/Hanmi - HPSP has been left for dead on competition fears since 2024, and positioning into the June ruling is light",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 3.1,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 14,
+   "valuationGap": 14,
+   "catalystDensity": 16,
+   "executionQuality": 11,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://finance.biggo.com/news/a0kBkZ0BQ45Y7dX6sFRq",
+   "https://www.thelec.net/news/articleView.html?idxno=6031",
+   "https://stockanalysis.com/quote/kosdaq/403870/"
+  ],
+  "theme": "asia-small-caps"
+ },
+ {
+  "company": "TD Power Systems",
+  "ticker": "TDPOWERSYS",
+  "yahooSymbol": "TDPOWERSYS.NS",
+  "exchange": "NSE (India)",
+  "country": "India",
+  "targetPage": "scaling",
+  "thesis": "One of the few independent merchant manufacturers of large synchronous generators/alternators that bolt onto the gas engines and turbines (Caterpillar/INNIO/Baker Hughes-class OEMs) now being deployed as prime and bridge power for US AI data centers. FY26 (Mar-26): income +35% to INR17.4B, PAT +42%, order inflow +51% to INR22.4B with ~79-80% exports - management explicitly cites US OEM gas engine/turbine orders for data centers. Order book INR19.7B, capacity supports INR30-32B revenue through FY28, and INR50cr/yr capex is targeted at large generators for data center and nuclear applications. The alternator is a quiet chokepoint in the gas-genset supply chain - but the stock has already been found by Indian retail at ~99x P/E, so it enters as a watchlist name to buy on a derating, not chase.",
+  "latentAsset": "Qualified merchant supplier slots with US gas engine/turbine OEMs for 1-200MW-class generators - a capacity-constrained component (large copper windings, forgings, test beds) where Siemens/Mitsubishi/Baker Hughes captive supply is sold out into the data-center bridge-power boom",
+  "catalysts": "Quarterly export order inflow prints from US gas-genset OEMs; large-generator capacity expansion (15-16 month lead time) coming online; raised FY27 guidance; US data-center prime-power orders for gas turbines accelerating through 2026-27",
+  "risks": "Valuation: ~99x P/E with analyst targets implying downside - the rerating has happened; execution strain at high factory utilization (Turkish contract took an LD penalty); copper cost pressure; order inflow is lumpy; gas-bridge-power demand could fade if grid interconnects catch up",
+  "whyNotCrowded": "Crowded domestically (hence the hype penalty and watchlist zone) but essentially unowned by Western AI-infrastructure investors, and absent from every US 'powering AI' basket - the alpha here is recognizing the alternator chokepoint early and waiting for an entry, with FY26 order inflow (+51%, 80% export) validating the thesis fundamentally",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 2.5,
+  "componentScores": {
+   "latentFit": 19,
+   "discoveryGap": 12,
+   "valuationGap": 6,
+   "catalystDensity": 13,
+   "executionQuality": 12,
+   "hypePenalty": 6
+  },
+  "evidence": [
+   "https://finance.yahoo.com/markets/stocks/articles/td-power-systems-ltd-bom-030032462.html",
+   "https://www.screener.in/company/TDPOWERSYS/consolidated/",
+   "https://www.kotakneo.com/stocks/td-power-systems-share-price/"
+  ],
+  "theme": "asia-small-caps"
+ },
+ {
+  "company": "Techwing",
+  "ticker": "089030",
+  "yahooSymbol": "089030.KQ",
+  "exchange": "KOSDAQ",
+  "country": "South Korea",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "Techwing's Cube Prober creates an entirely new test insertion in the HBM flow: die-level sort of stacked HBM dies before final test, which becomes economically mandatory as 12-Hi/16-Hi stacks make a single bad die catastrophically expensive. It is already supplying Samsung, has passed SK hynix's HBM test equipment evaluation, and is in qualification at Micron - a potential clean sweep of all three HBM makers with a product category it effectively invented. Trailing earnings are cyclically depressed (legacy handler business), so the optionality is barely in the price: forward PE ~20 while the rest of the Korean HBM chain has tripled.",
+  "latentAsset": "Cube Prober - first-mover equipment for die/stack-level HBM sort (a new test insertion that did not exist in conventional DRAM flows), plus incumbent memory test-handler franchise",
+  "catalysts": "Micron qualification result (expected within quarters); HBM4 full mass production ramp in 2H26 driving Cube Prober volume orders; SK hynix order announcements following its passed evaluation; SK hynix's $13B Cheongju advanced packaging/test fab equipping from 2027",
+  "risks": "Trailing PE 385 - if Cube Prober adoption slips, there is no earnings floor; TTM revenue declined 1.6%; Hanmi/Advantest or in-house solutions could compete for the same insertion; Korean retail-heavy register; single-product concentration",
+  "whyNotCrowded": "Only +68% over 1 year versus +250-280% for Hanmi-style Korean HBM names; no meaningful Western sell-side coverage; the Cube Prober story is documented mostly in Korean trade press (THE ELEC) and has not been adopted as a consensus global AI trade",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 1.3,
+  "componentScores": {
+   "latentFit": 21,
+   "discoveryGap": 18,
+   "valuationGap": 14,
+   "catalystDensity": 16,
+   "executionQuality": 9,
+   "hypePenalty": 4
+  },
+  "evidence": [
+   "https://x.com/DrNHJ/status/1967459318678372834",
+   "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+   "https://stockanalysis.com/quote/kosdaq/089030/",
+   "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-spend-usd13-billion-on-the-worlds-largest-hbm-memory-assembly-plant"
+  ],
+  "theme": "memory-chain"
+ },
+ {
+  "company": "Micronics Japan",
+  "ticker": "6871",
+  "yahooSymbol": "6871.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The global leader in DRAM/memory probe cards - the consumable, design-specific interface for wafer test that every HBM die must cross multiple times before stacking. HBM4's 2048-bit interface and the proliferation of HBM4E and custom-HBM variants multiply probe card complexity and SKU count, turning a cyclical consumable into a structural growth line. May 2026 guidance raise: Q2 sales to ¥45.7B, op profit ¥12.9B on DRAM probe card demand; >26% YoY probe card sales growth guided; capex lifted from ¥15.3B to ¥19.0B to debottleneck capacity.",
+  "latentAsset": "Dominant memory probe-card franchise - per-design consumable with recurring redesign revenue every HBM generation/custom variant; capacity itself is the industry bottleneck (hence the capex race)",
+  "catalysts": "HBM4E and custom-HBM tape-outs each requiring new probe card designs through 2026-27; further guidance revisions (two raises already this fiscal year); new capacity coming online; Samsung/Micron HBM4 share fights increasing total probe demand",
+  "risks": "+245% 1-year move and consensus price target ~26% below price - chase risk is real; FormFactor and Technoprobe pushing into memory probe; DRAM probe demand is still cyclical beneath the HBM layer; JPY strength",
+  "whyNotCrowded": "Coverage is almost entirely Japan-domestic; it is absent from Western AI-supply-chain baskets that hold Advantest/Technoprobe/FormFactor for the same exposure; probe cards remain an under-modeled consumable versus testers in HBM TAM math - though the 1-year move shows discovery is underway, hence mid-table not top-10",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 3.4,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 12,
+   "valuationGap": 10,
+   "catalystDensity": 16,
+   "executionQuality": 12,
+   "hypePenalty": 6
+  },
+  "evidence": [
+   "https://www.investing.com/news/earnings/micronics-japan-shares-surge-17-on-strong-hbm4-probe-card-outlook-93CH-4508114",
+   "https://simplywall.st/stocks/jp/semiconductors/tse-6871/micronics-japan-shares/news/how-investors-are-reacting-to-micronics-japan-tse6871-raisin",
+   "https://stockanalysis.com/quote/tyo/6871/"
+  ],
+  "theme": "memory-chain"
+ },
+ {
+  "company": "Fujimi Incorporated",
+  "ticker": "5384",
+  "yahooSymbol": "5384.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Quiet near-monopoly in silicon-wafer polishing slurries with a growing advanced-CMP slurry line - exactly the consumable layer HBM stacking stresses. Every HBM stack adds CMP passes (extreme wafer thinning to ~30um, TSV reveal, bond-pad planarization) on top of the DRAM wafer itself, and the 2026 DRAM capex revival (SK hynix +15.9% today on supercycle guidance) restarts its core wafer-polishing volume. H1 FY3/26 was a record (sales ¥33.4B +9%, OP +13%), full year guided to ¥67.9B, yet the stock carries a Hold rating and 2% dividend yield - a materials toll-booth priced like a sleepy industrial.",
+  "latentAsset": "Dominant share in silicon wafer polishing slurries plus CMP slurries for TSV/RDL planarization - consumables whose volume scales with both wafer starts and per-stack process steps, invisible in AI baskets",
+  "catalysts": "DRAM/HBM capex acceleration feeding silicon wafer recovery (SUMCO/Shin-Etsu utilization); HBM4 ramp adding thinning/TSV-reveal CMP steps per stack; record quarterly results continuing into FY3/27 guidance (May 2026); US SiC/advanced slurry capacity ramp",
+  "risks": "Exposure is diluted across the whole semiconductor market, so HBM torque is modest; growth is high-single-digit, not explosive; CMP slurry competition from Fujifilm, Resonac, Entegris(CMC); silicon wafer segment still below prior peak if commodity DRAM disappoints",
+  "whyNotCrowded": "+113% 1-year but still Hold-rated with PT near price; zero presence in AI supply-chain narratives - searches surface polishing chemistry papers, not hedge fund theses; no Western coverage of its HBM CMP angle",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 1.9,
+  "componentScores": {
+   "latentFit": 18,
+   "discoveryGap": 14,
+   "valuationGap": 10,
+   "catalystDensity": 10,
+   "executionQuality": 12,
+   "hypePenalty": 3
+  },
+  "evidence": [
+   "https://omega-inv.com/2025/12/08/5384pd/",
+   "https://finance.biggo.com/news/jpx_tdnet_140120260130542536",
+   "https://stockanalysis.com/quote/tyo/5384/",
+   "https://www.fujimi.com/high-volume-manufacturing-hvm-for-sic-wafer-polishing-slurries-in-the-us/"
+  ],
+  "theme": "memory-chain"
+ },
+ {
+  "company": "PSK Holdings",
+  "ticker": "031980",
+  "yahooSymbol": "031980.KQ",
+  "exchange": "KOSDAQ",
+  "country": "South Korea",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The only Korean equipment maker supplying HBM production tools (descum and flux reflow) to all three DRAM makers - Samsung, SK hynix, and now Micron (Taiwan fab, with follow-on orders expected). Descum and reflow intensity scales directly with stack height: each additional layer in the 12-Hi to 16-Hi transition is another bump-reflow and surface-treatment pass, making PSK a per-layer royalty on HBM bit growth. The problem is timing, not quality: +279% in a year and +19% today means the market is mid-discovery, so this goes on the watchlist for a pullback rather than into the active ranks.",
+  "latentAsset": "Descum/surface-treatment and flux-reflow equipment franchise where consumption scales per HBM layer, qualified across all three HBM manufacturers - a triple-qualified position no other Korean vendor holds",
+  "catalysts": "Micron follow-on reflow orders after initial Taiwan units; 16-Hi HBM4/HBM4E transition raising per-stack tool intensity; SK hynix Cheongju $13B packaging fab equipment orders (2026-27); panel-level packaging descum adoption",
+  "risks": "Post-rerating chase: market cap up ~230% in a year, +19% today on the Korean memory melt-up - entry here violates anti-crowding discipline; small revenue base; reflow could shift to fluxless/hybrid bonding over time, which bypasses flux reflow entirely; KOSDAQ volatility (beta 1.64)",
+  "whyNotCrowded": "Borderline - still absent from global AI baskets and Western coverage, and the triple-qualification fact is documented only in Korean trade press; but today's tape shows local crowding, hence watchlist zone with the thesis filed for the next memory-sector drawdown",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 2,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 8,
+   "valuationGap": 8,
+   "catalystDensity": 15,
+   "executionQuality": 11,
+   "hypePenalty": 8
+  },
+  "evidence": [
+   "https://thelec.net/news/articleView.html?idxno=4859",
+   "https://kind.krx.co.kr/external/dst/irReference/16965/%E2%98%85PSKG_IR_BOOK_ENG.pdf",
+   "https://stockanalysis.com/quote/kosdaq/031980/",
+   "https://www.trendforce.com/news/2026/01/13/news-sk-hynix-to-build-cheongju-advanced-packaging-fab-boosting-hbm-output-by-2027/"
+  ],
+  "theme": "memory-chain"
+ },
+ {
+  "company": "CCC Intelligent Solutions",
+  "ticker": "CCC",
+  "yahooSymbol": "CCC",
+  "exchange": "NASDAQ",
+  "country": "United States",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "A 40-year proprietary auto-claims data monopoly with deployed, paid AI at scale - and the stock has been cut in half during an AI bull tape. Q1 2026 revenue grew 12% to $281M with 43% adjusted EBITDA margins, and roughly $100M (10% of revenue) now comes from AI-based solutions adopted by 125+ insurers and 15,000+ repair facilities. The market is pricing the AI attach optionality at zero while paying ~7-8x EV/EBITDA for sticky 10-12% growth vertical software.",
+  "latentAsset": "Decades of proprietary collision-claims, repair-cost and parts data plus the network rails connecting 300+ insurers, ~30k repair shops, OEMs and parts suppliers - the only training corpus and distribution channel of its kind for P&C claims AI (photo estimating, casualty/bodily-injury AI, subrogation).",
+  "catalysts": "Quarterly AI-revenue disclosures (AI drove ~1/3 of growth); casualty platform wins ramping; FY26 guide $1.155-1.163B reiterated; Advent/Dragoneer PE share overhang clearing; potential buyback against depressed price; large-insurer AI estimating conversions moving from low single-digit to double-digit claim share.",
+  "risks": "ADAS-driven decline in accident frequency shrinks claim volumes; persistent PE-holder selling and high stock comp; GAAP P/E optically high (84x); Mitchell/Solera competition; insurer concentration.",
+  "whyNotCrowded": "Down 52% with the stock at $4.73 vs a $10.50 52-week high - it is being sold, not bought. Classified as boring insurance software, not AI; recent ticker change from CCCS to CCC even broke some screens. No AI basket owns it.",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 2.8,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 21,
+   "valuationGap": 16,
+   "catalystDensity": 14,
+   "executionQuality": 12,
+   "hypePenalty": 1
+  },
+  "evidence": [
+   "https://www.repairerdrivennews.com/2026/05/11/ccc-strong-start-to-2026-momentum-and-opportunity-focused-in-ai/",
+   "https://seekingalpha.com/news/4583265-ccc-forecasts-1_155b-1_163b-2026-revenue-while-expanding-ai-and-casualty-commitments",
+   "https://stockanalysis.com/stocks/ccc/",
+   "https://ir.cccis.com/news-releases/news-release-details/ccc-intelligent-solutions-announces-change-ticker-symbol-ccc-and"
+  ],
+  "theme": "latent-data-software"
+ },
+ {
+  "company": "John Wiley & Sons",
+  "ticker": "WLY",
+  "yahooSymbol": "WLY",
+  "exchange": "NYSE",
+  "country": "United States",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "One of only three scale owners of rights-cleared, peer-reviewed scientific corpus on earth (Elsevier and Springer being the others, one giant and one private), trading at ~15x earnings and ~11x free cash flow as a 'dying publisher' while its AI licensing line inflects: $29M in Q1 FY26 alone versus $40M for all of FY24, over $100M lifetime, and a strategic partnership with Anthropic to pipe institutional library subscriptions into AI tools. As frontier labs pivot to AI-for-science, vetted scientific content becomes a recurring toll, not a one-off.",
+  "latentAsset": "200+ years of scientific publishing IP: ~1,600 journals, hundreds of thousands of book titles, and the peer-review pipeline producing fresh, rights-cleared training and grounding data that LLM labs cannot scrape legally.",
+  "catalysts": "Recurring multi-lab AI licensing deals (now including syndicating other publishers' content); Anthropic institutional partnership rollout; quarterly AI-revenue disclosure cadence; FY26 guide of $3.90-4.35 adjusted EPS and ~$200M FCF on a $2.3B market cap; copyright case law hardening the value of licensed corpora.",
+  "risks": "Licensing deals are lumpy and could plateau; an adverse fair-use ruling would weaken pricing power; core publishing revenue slightly negative (-1.7% in Q2); long-term risk that AI agents disintermediate journal consumption.",
+  "whyNotCrowded": "A $2.3B legacy publisher with thin sell-side coverage, 3.2% dividend yield, and value-fund ownership - not in any AI index or basket. The AI licensing line is buried inside the Research segment and is only now becoming visible.",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 2.3,
+  "componentScores": {
+   "latentFit": 23,
+   "discoveryGap": 19,
+   "valuationGap": 15,
+   "catalystDensity": 14,
+   "executionQuality": 11,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://finance.yahoo.com/news/john-wiley-sons-inc-wly-070318486.html",
+   "https://www.ainvest.com/news/wiley-q2-revenue-1-7-yoy-ai-licensing-open-access-show-promise-2509/",
+   "https://stockanalysis.com/stocks/wly/"
+  ],
+  "theme": "latent-data-software"
+ },
+ {
+  "company": "Adeia",
+  "ticker": "ADEA",
+  "yahooSymbol": "ADEA",
+  "exchange": "NASDAQ",
+  "country": "United States",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Pure-royalty toll on hybrid bonding - the die-stacking technique the AI memory and packaging roadmap cannot route around. Adeia owns the foundational DBI/ZiBond patent estate (ex-Tessera/Xperi). The March 2026 multi-year AMD semiconductor IP license (which also settled all litigation), plus Qorvo and Hamamatsu hybrid-bonding licenses, validate the portfolio just as HBM4E (2026-27) becomes the inflection for hybrid-bonded DRAM. The big fish - SK hynix, Samsung, Micron at scale, and the TSMC 3DFabric ecosystem - remain largely unsigned upside. Honesty check: the stock has already nearly tripled off its lows, so this is a partially-discovered toll booth, scored and zoned accordingly.",
+  "latentAsset": "Foundational hybrid bonding (DBI/ZiBond) and advanced packaging patent portfolio that reads on 3D-stacked DRAM/HBM4E, stacked logic, and CMOS image sensors - licensing-only model, no fab, no capex.",
+  "catalysts": "New memory-maker license signings as HBM4E hybrid bonding ramps; conversion of remaining litigation into royalty streams; 2025 revenue $443M +18% with net income +62%; semiconductor licensing mix shift away from declining legacy media IP.",
+  "risks": "Post-rerating chase risk: +136% over one year, $30.25 vs an $11.61 52-week low; license signings are lumpy and litigation outcomes binary; patent expiration cliffs; legacy media/pay-TV IP segment in secular decline.",
+  "whyNotCrowded": "Still only $3.3B with thin coverage and no AI-basket membership, and IP-licensing business models are structurally ignored by growth investors - but it is no longer hidden, which is reflected in a reduced discovery score and a 25-50 zone rather than top-25.",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 3.3,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 10,
+   "valuationGap": 9,
+   "catalystDensity": 16,
+   "executionQuality": 12,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://www.stocktitan.net/news/ADEA/adeia-enters-into-multi-year-ip-license-agreement-with-9q3zjit4w7f6.html",
+   "https://investors.adeia.com/news-releases/news-release-details/adeia-and-qorvo-enter-hybrid-bonding-license-agreement",
+   "https://stockanalysis.com/stocks/adea/"
+  ],
+  "theme": "latent-data-software"
+ },
+ {
+  "company": "Rexel",
+  "ticker": "RXL",
+  "yahooSymbol": "RXL.PA",
+  "exchange": "Euronext Paris",
+  "country": "France",
+  "targetPage": "scaling",
+  "thesis": "The unowned distribution toll on AI's physical buildout. Datacenter projects drove more than 55% of Rexel's US growth in Q4 2025, and Q1 2026 saw all regions return to growth for the first time in 11 quarters - yet it trades at ~15x forward earnings with a 3.3% yield because it is classified as boring electrical distribution. The distributor captures a cut of switchgear, cable, busway, cooling and lighting spend regardless of which OEM wins, with none of the technology-selection risk. The universe tracks WESCO but no other distributor; Rexel is the European-listed twin with heavier US datacenter momentum and a prior takeover approach (QXO, 2024) establishing a strategic floor.",
+  "latentAsset": "A ~1,900-branch global electrical distribution network with entrenched electrician/contractor relationships and logistics, plus one of the most advanced digital platforms in distribution (roughly a third of sales digital) - a transaction-data and channel asset that AI-era electrification spend must flow through.",
+  "catalysts": "FY26 guidance of 3-5% same-day sales growth and ~6.2% adjusted EBITDA margin reiterated; continued US datacenter project pipeline; European electrification rebound as an unpriced second leg; ongoing branch-level pricing/AI tools lifting gross margin; renewed strategic interest given QXO precedent.",
+  "risks": "Non-residential construction cyclicality outside datacenters; gross-margin dilution from low-margin direct shipments on large datacenter projects; copper price pass-through volatility; already +45% over one year.",
+  "whyNotCrowded": "AI investors buy Vertiv, Schneider and Eaton, not the distributor that sells alongside them; Rexel appears in zero AI baskets, and European industrial distribution is an ownership dead zone for the AI-infrastructure crowd.",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 11.5,
+  "componentScores": {
+   "latentFit": 17,
+   "discoveryGap": 16,
+   "valuationGap": 13,
+   "catalystDensity": 12,
+   "executionQuality": 11,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://www.rexel.com/en/q1-2026-sales-solid-start-to-the-year",
+   "https://www.investing.com/news/company-news/rexel-q4--fy-2025-presentation-slides-datacenter-growth-drives-resilience-amid-market-challenges-93CH-4501011",
+   "https://stockanalysis.com/quote/epa/RXL/"
+  ],
+  "theme": "latent-data-software"
+ },
+ {
+  "company": "Nagase & Co. (NAMICS)",
+  "ticker": "8012",
+  "yahooSymbol": "8012.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Nagase is screened as a boring specialty-chemicals trading company at 12.3x forward earnings, but its wholly-owned subsidiary NAMICS is one of the world's dominant suppliers of capillary underfill and liquid encapsulants used in flip-chip assembly of GPUs and HBM stacks, and the Nagase group is one of only three liquid molding compound (LMC) suppliers alongside Resonac and Henkel. Every CoWoS/SoIC package and every HBM stack consumes underfill; reliability qualification makes incumbency sticky. FY3/26 profit jumped 30% with ROE rising to 8%, and management is restructuring the group toward a 1 trillion yen sales target with higher-margin manufacturing (NAMICS) as the centerpiece. The market still prices it as a trading house, not as the owner of a consumable chemistry chokepoint in advanced packaging.",
+  "latentAsset": "NAMICS Corporation: leading global capillary underfill / liquid encapsulant franchise for flip-chip GPU and HBM packaging, plus LMC position (one of three global suppliers), hidden inside a low-multiple Japanese trading company",
+  "catalysts": "Group restructuring and portfolio divestitures re-rating the manufacturing mix; NAMICS volume growth tracking CoWoS/HBM unit growth through 2026-27; August 4, 2026 earnings; dividend hikes and buybacks as ROE targets bite",
+  "risks": "Conglomerate/trading-company drag dilutes the NAMICS signal; limited segment disclosure on NAMICS specifically; underfill formulation competition from Henkel and Resonac; pre-applied/molded underfill transitions could shift share at HBM4",
+  "whyNotCrowded": "Classified as a shosha-adjacent chemicals distributor and owned by Japan value investors, not AI investors; no sell-side AI narrative; 14x trailing / 12x forward P/E with a 2.4% yield is the opposite of a crowded AI multiple; NAMICS is unlisted so it never appears in AI supply-chain screens",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 3,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 17,
+   "valuationGap": 15,
+   "catalystDensity": 11,
+   "executionQuality": 11,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://nagase.eu/products/underfill-materials-for-flip-chip-bga-packaging/",
+   "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/2121581/nagase-co-lifts-earnings-dividend-and-reshapes-group-ahead-of-yen1-trillion-sales-target/",
+   "https://reports.valuates.com/market-reports/QYRE-Auto-14N17371/global-pre-applied-underfills",
+   "https://stockanalysis.com/quote/tyo/8012/"
+  ],
+  "theme": "packaging-substrates"
+ },
+ {
+  "company": "Sumitomo Bakelite",
+  "ticker": "4203",
+  "yahooSymbol": "4203.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "The world's leading epoxy molding compound (EMC) maker in an oligopoly where the top five control roughly 70% of global supply. EMC, granular molding compounds for HBM stack encapsulation, and liquid resins are consumables that scale with every advanced package molded, and panel-level packaging raises compound intensity per device. The company just raised FY3/26 guidance explicitly on AI-related semiconductor materials demand (revenue 316.5B yen, business profit 34B yen), with earnings up ~45% YoY, yet still trades at 19.6x trailing / 18.8x forward because it is filed under diversified phenolic resins and healthcare films. Resonac is already a consensus packaging-materials trade; Sumitomo Bakelite is the same chemistry exposure one discovery step behind.",
+  "latentAsset": "Number-one global EMC franchise plus granular/liquid molding compounds qualified into HBM and fan-out/panel-level packaging flows, buried inside a diversified phenolics and films company",
+  "catalysts": "FY3/27 guidance (post-March-2026 fiscal year); further AI-driven semiconductor materials beats; HBM4 and FOPLP molding compound qualifications; capacity expansion announcements in semiconductor materials",
+  "risks": "Diversified segments (mobility, healthcare films) dilute the semiconductor growth; EMC pricing pressure from Chang Chun and Chinese entrants in legacy grades; stock already +71% over twelve months; yen strength hits exporters",
+  "whyNotCrowded": "Sell-side coverage is domestic chemicals analysts, not global semis; sub-20x multiple with 45% earnings growth shows the AI mix-shift is not fully priced; absent from AI supply-chain ETFs and from this blog's universe while peer Resonac is already tracked and re-rated",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 3.6,
+  "componentScores": {
+   "latentFit": 21,
+   "discoveryGap": 14,
+   "valuationGap": 14,
+   "catalystDensity": 13,
+   "executionQuality": 12,
+   "hypePenalty": 3
+  },
+  "evidence": [
+   "https://www.tipranks.com/news/company-announcements/sumitomo-bakelite-lifts-full-year-forecast-on-strong-semiconductor-materials-demand",
+   "https://www.openpr.com/news/4467347/global-epoxy-molding-compound-in-semiconductor-packaging",
+   "https://stockanalysis.com/quote/tyo/4203/"
+  ],
+  "theme": "packaging-substrates"
+ },
+ {
+  "company": "Tokyo Seimitsu (Accretech)",
+  "ticker": "7729",
+  "yahooSymbol": "7729.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "Accretech is the only real alternative to Disco in wafer grinding and dicing, and HBM is structurally raising thinning intensity: every additional die in a 12-hi/16-hi stack must be ground below 50 microns damage-free, a step where the Disco/Accretech duopoly owns the toolset. Disco is already tracked and trades at a premium AI multiple; Accretech offers the same back-end bottleneck at 24x forward, with a second engine the market underweights - its wafer probers are designed into HBM3E/HBM4 test flows requiring high-precision temperature control, and management says HBM4E-5 will need even tighter specs. FY3/26 revenue grew 10.8% on advanced packaging and test spending. This is the shadow-duopoly trade in a lane where the leader has already re-rated.",
+  "latentAsset": "Duopoly position (with Disco) in wafer grinders/dicers for HBM ultra-thinning, plus wafer probers spec'd into HBM3E/HBM4 test with rising temperature-control requirements per stack generation",
+  "catalysts": "HBM4 prober qualification ramps at memory makers; 16-hi stack transitions raising grinder intensity per wafer; FY3/27 guidance after May 2026 results; back-end equipment market expansion driven by advanced packaging",
+  "risks": "Stock roughly doubled over twelve months, so part of the gap has closed; net income fell 3.5% in FY3/26 despite revenue growth (mix/cost pressure); Disco's flagship customers may not dual-source at the leading edge; metrology segment cyclicality",
+  "whyNotCrowded": "All flow in this niche goes to Disco, which is the consensus expression; Accretech is covered by only ~8 analysts with a near-zero implied upside target, no AI narrative premium, and is absent from the tracked universe while Disco, TOWA, and ASMPT are already in it",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 4.6,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 11,
+   "valuationGap": 13,
+   "catalystDensity": 14,
+   "executionQuality": 11,
+   "hypePenalty": 4
+  },
+  "evidence": [
+   "https://www.accretech.com/en/ir/news/news-9159357013268312500/main/0/link/QA_2026_3q_E.pdf",
+   "https://www.semiconductor-digest.com/advanced-packaging-fuels-growth-in-the-semiconductor-back-end-equipment-market/",
+   "https://stockanalysis.com/quote/tyo/7729/"
+  ],
+  "theme": "packaging-substrates"
+ },
+ {
+  "company": "SKC (Absolics)",
+  "ticker": "011790",
+  "yahooSymbol": "011790.KS",
+  "exchange": "Korea Exchange (KOSPI)",
+  "country": "South Korea",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "SKC owns ~70%+ of Absolics, the most advanced merchant glass-core substrate asset in the West: the Covington, Georgia fab has completed major equipment installation, is supplying mass-production samples to AMD (approval reportedly close per The Elec), has prototypes in test at AWS, shipped non-embedding glass substrate prototypes to a US communications chip company, and targets mass production by end-2026 - all backed by CHIPS Act funding. The parent's copper-foil and chemicals businesses are deeply loss-making, which is precisely why nine sell-side analysts rate it Sell and fundamental investors will not touch it. That makes this a mispriced option: if glass substrates become the post-ABF packaging platform for AI accelerators (TSMC, Intel, Samsung all have roadmaps), Absolics is the only pure merchant asset with a running US fab, and it sits inside a $3.4B company priced for chemical-cycle distress.",
+  "latentAsset": "Majority stake in Absolics: the first merchant glass-core substrate fab in the US (Covington, GA), CHIPS-funded, with AMD qualification near complete and AWS/US comms-chip prototypes in reliability testing",
+  "catalysts": "AMD qualification/approval decision in 2026; mass production start targeted by year-end 2026; potential SKC group restructuring or Absolics value crystallization; AMD roadmap moving from pilot 2026 to product application 2028; additional hyperscaler test wins",
+  "risks": "Parent is heavily loss-making (-734B KRW net in 2025) with balance-sheet strain; glass substrate commercialization has slipped repeatedly across the industry; Samsung Electro-Mechanics, LG Innotek, and Corning are racing in; analyst consensus sees 21% downside; the option can expire worthless if customers stay on ABF longer",
+  "whyNotCrowded": "Globally under-owned: foreign institutions avoid a loss-making Korean chemicals company, and consensus is outright Sell - the glass-substrate optionality is a Korean retail theme, not an institutional position; stock is far below its 2024 hype peak and absent from every AI supply-chain index",
+  "suggestedRankZone": "50-plus",
+  "mcapUsdB": 3.4,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 13,
+   "valuationGap": 10,
+   "catalystDensity": 16,
+   "executionQuality": 6,
+   "hypePenalty": 6
+  },
+  "evidence": [
+   "https://www.thelec.net/news/articleView.html?idxno=5476",
+   "https://www.trendforce.com/news/2026/05/08/news-skc-said-to-speed-glass-substrate-mass-production-by-year-end-advances-new-non-embedding-tech-for-u-s-client/",
+   "https://stockanalysis.com/quote/krx/011790/"
+  ],
+  "theme": "packaging-substrates"
+ },
+ {
+  "company": "Iljin Electric",
+  "ticker": "103590.KS",
+  "yahooSymbol": "103590.KS",
+  "exchange": "KRX",
+  "country": "South Korea",
+  "targetPage": "scaling",
+  "thesis": "The fourth Korean transformer maker. HD Hyundai Electric, Hyosung Heavy and LS Electric are all already in the universe and fully rerated; Iljin is the un-owned sibling with the same US ultra-high-voltage transformer scarcity exposure plus an HV cable business, at roughly $3.2B market cap. It just signed its largest-ever order ($333M, 15 transformer types incl. 345kV, US East Coast utility, 2026-2030 deliveries) and an $88M Canadian data-center transformer deal, with heavy-electric backlog over $1B. The stock has corrected ~35% from its early-May 2026 high, so this is a post-pullback entry into a structural shortage, not a chase.",
+  "latentAsset": "Newly expanded UHV transformer capacity (18,000 to 30,000 MVA annual, line live since Nov 2024) plus 345kV US utility qualification - slots in a market where ~12GW of planned 2026 US data-center capacity is reportedly delayed by transformer/switchgear shortages.",
+  "catalysts": "Q2 2026 earnings (2025 revenue grew 29.6% to KRW 2.04T); follow-on US/Canada data-center transformer awards; capacity ramp filling 2027-2030 slots; US tariff regime pushing pricing power to qualified foreign suppliers with backlog already booked.",
+  "risks": "Thinner margins than Hyosung/HD Hyundai Electric; KRW earnings translation; transformer cycle peaking if US interconnection queues clear; Korean retail momentum money already visited the name in April-May 2026.",
+  "whyNotCrowded": "Western funds own the Korean big-three transformer trade; Iljin has essentially zero English-language sell-side coverage and just gave back ~35% from its all-time high while the order news kept improving - classic discovery gap reopening.",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 3.2,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 21,
+   "valuationGap": 15,
+   "catalystDensity": 15,
+   "executionQuality": 11,
+   "hypePenalty": 3
+  },
+  "evidence": [
+   "https://en.sedaily.com/finance/2026/04/06/iljin-electric-wins-88m-canada-data-center-transformer-deal",
+   "https://transformers-magazine.com/tm-news/iljin-electrics-333-m-high-voltage-transformer-deal-in-us/",
+   "https://transformers-magazine.com/tm-news/iljin-electric-strengthens-global-supply-capacity-with-expansion-of-transformer-factory/",
+   "https://www.kedglobal.com/machinery/newsView/ked202604070003"
+  ],
+  "theme": "power-grid"
+ },
+ {
+  "company": "Taihan Cable & Solution",
+  "ticker": "001440.KS",
+  "yahooSymbol": "001440.KS",
+  "exchange": "KRX",
+  "country": "South Korea",
+  "targetPage": "scaling",
+  "thesis": "The cheapest listed entry into the global HV/HVDC cable oligopoly (Prysmian, Nexans, NKT, LS Cable all booked out for years; the first three are already in the universe, LS Cable is unlisted). Taihan just printed its best quarter since records began in 2010 (Q1 2026 revenue KRW 1.083T, OP KRW 60.4B), explicitly attributed to AI data-center power demand in the US and Singapore, with a record KRW 3.83T backlog that has tripled in five years. It won its first US HVDC award (LS Power Grid California, 320kV VSC-HVDC, ~$67M) and is investing $360M in a dedicated HVDC plant - moving up the value chain just as grid interconnect becomes the binding constraint on AI buildout.",
+  "latentAsset": "US HVDC qualification (320kV VSC project reference) plus the $360M HVDC plant under construction - HVDC cable capacity is sold out industry-wide into the late 2020s, and a new qualified supplier captures pricing without needing share.",
+  "catalysts": "HVDC plant completion and follow-on US HVDC awards; continued record quarterly prints; submarine cable orders for US/Asia interconnects; potential index inclusion/coverage as backlog converts.",
+  "risks": "Thin ~5% operating margins typical of cable converters; Hoban Group control with construction/real-estate side exposure; the stock is rerating right now (+25% in the past week), so near-term entry is hot; copper price pass-through lags.",
+  "whyNotCrowded": "Near-zero foreign ownership and no Western coverage; the global cable trade is expressed through Prysmian/Nexans/NKT (all tracked, all rerated) while Taihan trades at a fraction of their EV/backlog despite identical end-demand. Crowding is starting locally, hence the hype penalty.",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 8,
+  "componentScores": {
+   "latentFit": 21,
+   "discoveryGap": 18,
+   "valuationGap": 12,
+   "catalystDensity": 16,
+   "executionQuality": 10,
+   "hypePenalty": 4
+  },
+  "evidence": [
+   "https://en.sedaily.com/finance/2026/04/29/taihan-cable-posts-record-quarterly-earnings-on-ai-data",
+   "https://www.wirecable.in/taihan-enters-us-hvdc-cable-market/",
+   "https://en.sedaily.com/finance/2026/05/21/taihan-cable-order-backlog-triples-in-5-years-under-hoban",
+   "https://www.rivieramm.com/news-content-hub/news-content-hub/south-korean-cable-manufacturer-taihan-to-invest-us360m-in-hvdc-plant-85533"
+  ],
+  "theme": "power-grid"
+ },
+ {
+  "company": "Mirion Technologies",
+  "ticker": "MIR",
+  "yahooSymbol": "MIR",
+  "exchange": "NYSE",
+  "country": "United States",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "The toll collector on every nuclear megawatt the hyperscalers are buying. Mirion is the quasi-monopoly supplier of radiation detection, measurement and monitoring systems for reactors - restarts, uprates, life extensions and SMRs all require its instrumentation - yet the stock has been cut ~43% from its 52-week high ($30.28 to $17.40, $4.3B cap) as the momentum crowd rotated out of nuclear paper names. Management disclosed $39M of SMR bookings in 2025 plus $10M in January 2026 alone, notes SMRs carry ~60% more Mirion content per megawatt during construction than large reactors, and guided 2026 to 22-24% revenue growth with $285-300M EBITDA. This is the rare case where the AI-nuclear narrative deflated faster than the order book.",
+  "latentAsset": "Installed-base instrumentation across most of the Western reactor fleet plus dominant spec position in new-build/SMR radiation monitoring - a regulatory-mandated, single-qualified-source product line that every hyperscaler-backed reactor FID must buy.",
+  "risks": "Medical segment growth drag; SPAC-origin share overhang and leverage; SMR bookings are small dollars today and FID timelines slip; if hyperscaler nuclear PPAs stall, the multiple compresses further.",
+  "catalysts": "Quarterly SMR booking cadence; Paragon acquisition synergies; reactor restart milestones (Palisades-style projects) converting to instrumentation orders; 2026 guide of 22-24% revenue growth re-anchoring the multiple after the drawdown.",
+  "whyNotCrowded": "It is owned as a 'nuclear theme' stub, not an AI power-chain bottleneck, and the 43% drawdown shows fast money has left; the AI-supply-chain crowd tracks Oklo/NuScale/Constellation (all in the universe) and skips the instrumentation monopolist that gets paid regardless of which reactor design wins.",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 4.3,
+  "componentScores": {
+   "latentFit": 19,
+   "discoveryGap": 14,
+   "valuationGap": 15,
+   "catalystDensity": 14,
+   "executionQuality": 11,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://www.investing.com/news/transcripts/mirion-technologies-at-citis-conference-nuclear-growth-and-ai-initiatives-93CH-4512023",
+   "https://www.investing.com/news/earnings/mirion-earnings-on-deck-as-data-center-boom-fuels-nuclear-bets-93CH-4642101",
+   "https://stockanalysis.com/stocks/mir/market-cap/"
+  ],
+  "theme": "power-grid"
+ },
+ {
+  "company": "Fortune Electric",
+  "ticker": "1519.TW",
+  "yahooSymbol": "1519.TW",
+  "exchange": "TWSE",
+  "country": "Taiwan",
+  "targetPage": "scaling",
+  "thesis": "The single most bottleneck-critical pure-play transformer exporter to the US AI buildout: Fortune supplied five 345kV ultra-high-voltage transformers for Stargate phase one (two delivered, three shipping H1 2026, sea-freighted Taichung to Houston), holds AI data-center-related orders exceeding NT$120B (~$3.8B), quotes delivery lead times over three years while running three shifts around the clock, and is spending NT$2.5B to double its Taichung Port plant into Southeast Asia's largest transformer factory by H1 2027. The problem is price: the stock is up ~84% in a year with market cap up ~122% to ~TWD 305B. Flagged for the watch-tier - the bottleneck is real and multi-year, but the rerating has already happened, so it enters low and gets bought on a Taiwan-retail flush, not here.",
+  "latentAsset": "Qualified 345kV UHV transformer capacity with US utility and Stargate references plus a doubling of export capacity landing H1 2027 - capacity that is effectively pre-sold for three-plus years in a market where transformer shortage is the binding constraint on US data-center energization.",
+  "catalysts": "Remaining Stargate phase-one deliveries in H1 2026; Taichung Port expansion completion H1 2027; conversion of the NT$120B+ AI order pipeline into firm backlog; follow-on Stargate phases and other hyperscaler campus awards.",
+  "risks": "Classic post-rerating chase setup at ~10x the multiple it carried in 2023; customer concentration in mega-projects (Stargate slippage risk); Taiwan retail momentum unwind; US tariff or localization rules could favor domestic capacity (Hitachi, GE Vernova, Hyundai US plants) after 2027.",
+  "whyNotCrowded": "It IS crowded locally - Taiwan retail and Digitimes coverage are saturated - which the hype penalty reflects; the residual alpha is that it remains absent from Western AI-power baskets (Powell, Hubbell, GEV are the consensus expressions) and its three-year sold-out backlog is not in consensus 2027-2028 numbers.",
+  "suggestedRankZone": "50-plus",
+  "mcapUsdB": 9.9,
+  "componentScores": {
+   "latentFit": 24,
+   "discoveryGap": 10,
+   "valuationGap": 8,
+   "catalystDensity": 16,
+   "executionQuality": 12,
+   "hypePenalty": 7
+  },
+  "evidence": [
+   "https://www.digitimes.com/news/a20251215PD209/fortune-electric-equipment-demand-expansion-launch.html",
+   "https://english.cw.com.tw/article/article.action?id=4595",
+   "https://www.digitimes.com/news/a20251113PD219/infrastructure-data-center-fortune-electric-production-expansion.html",
+   "https://stockanalysis.com/quote/tpe/1519/market-cap/"
+  ],
+  "theme": "power-grid"
+ },
+ {
+  "company": "Sanyo Denki",
+  "ticker": "6516",
+  "yahooSymbol": "6516.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "ai-passives-alpha",
+  "thesis": "The quiet component-level winner of hybrid AI cooling. San Ace counter-rotating fans are designed into GPU servers, fan walls, and rear-door heat exchangers, and fan content per rack rises even as direct-to-chip liquid cooling scales (sidecars and CDUs still need high-static-pressure fans and now pumps, which Sanyo Denki just launched). 9M FY3/26 operating profit grew 54% with net margin expanding from 5.8% to 8.1%, yet the stock trades at only ~26x trailing earnings - a fraction of the multiple awarded to every other name in the cooling lane - because it is filed under 'boring Japanese servo/industrial' and has essentially no Western AI-investor coverage.",
+  "latentAsset": "San Ace fan franchise (industry-leading counter-rotating fans for GPU servers and rear-door heat exchangers) plus a newly launched San Ace liquid-cooling pump line - thermal components embedded in AI racks but hidden inside a diversified servo/power-systems industrial",
+  "catalysts": "FY3/27 guidance and segment disclosure showing cooling-systems mix shift to AI; ramp of the new liquid-cooling pump product line; further dividend hikes (already revised up twice in FY26); fan content per rack rising with Vera Rubin-era sidecar/hybrid architectures",
+  "risks": "Servo systems segment is exposed to a sluggish Japanese/Chinese FA cycle and can mask cooling strength; fan business faces Taiwanese competition (Sunon, AVC, Delta) on cost; a faster-than-expected move to fully fanless liquid-to-liquid racks would cap the air-cooling franchise; JPY strength hurts translation",
+  "whyNotCrowded": "Stock doubled over 12 months but still trades at ~26x trailing PE versus 80-180x for Taiwanese and Chinese cooling peers; no sell-side AI narrative attached; absent from AI thermal baskets because cooling is buried inside a three-segment industrial conglomerate structure",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 1.5,
+  "componentScores": {
+   "latentFit": 19,
+   "discoveryGap": 20,
+   "valuationGap": 15,
+   "catalystDensity": 12,
+   "executionQuality": 12,
+   "hypePenalty": 3
+  },
+  "evidence": [
+   "https://stockanalysis.com/quote/tyo/6516/",
+   "https://www.tipranks.com/news/company-announcements/sanyo-denki-lifts-fy2026-profits-on-strong-nine-month-performance-keeps-bullish-outlook",
+   "https://products.sanyodenki.com/en/sanace/",
+   "https://coolingfans.blog/active-rear-door-heat-exchangers-the-role-of-fans-and-how-to-select-them/"
+  ],
+  "theme": "cooling-thermal"
+ },
+ {
+  "company": "Kaori Heat Treatment",
+  "ticker": "8996",
+  "yahooSymbol": "8996.TW",
+  "exchange": "Taiwan Stock Exchange",
+  "country": "Taiwan",
+  "targetPage": "scaling",
+  "thesis": "The brazed-plate heat exchanger (BPHE) is the heat-transfer core inside every CDU, and only four companies make them at scale: Alfa Laval, SWEP (Dover), Danfoss, and Kaori. Kaori is the only Asian merchant pure-play, sitting upstream of the entire CDU ecosystem (Vertiv, Delta, Boyd, CoolIT all need BPHEs). March 2026 revenue hit an all-time high of ~US$40M, up 216% YoY; management guides ~80% revenue growth for 2026 with liquid cooling reaching ~50% of mix and capacity expanding 30-50%. NVIDIA's Vera Rubin platform mandating 100% liquid cooling (industry penetration 18% in 2025 to ~57% in 2026) structurally tightens BPHE supply.",
+  "latentAsset": "One of only four scaled global brazed-plate heat exchanger manufacturers - the irreplaceable liquid-to-liquid heat-transfer element inside CDUs - plus immersion-cooling heat exchangers, hidden inside a former motorcycle-parts heat-treatment company",
+  "catalysts": "Monthly Taiwan revenue prints (currently compounding at +200% YoY); 30-50% capacity expansion through 2026; Vera Rubin 100%-liquid-cooled ramp from late 2026; possible qualification news with US CDU OEMs scaling away from sole-sourcing Alfa Laval/SWEP",
+  "risks": "Stock is up roughly 4x in 12 months and trades at ~87x trailing earnings - a stall in monthly revenue momentum gets punished hard; customer concentration in a handful of CDU makers; Alfa Laval and Danfoss adding BPHE capacity could ease the bottleneck by 2027; TWD appreciation pressure on margins",
+  "whyNotCrowded": "Well-known to Taiwanese retail but absent from Western AI-infrastructure portfolios and from our tracked universe; it is upstream and invisible relative to the AVC/Auras cold-plate trade that gets all the foreign flow; BPHE bottleneck is rarely discussed versus cold plates and QDs",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 3.9,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 14,
+   "valuationGap": 9,
+   "catalystDensity": 16,
+   "executionQuality": 12,
+   "hypePenalty": 7
+  },
+  "evidence": [
+   "https://news.tvbs.com.tw/english/3182254",
+   "https://stockanalysis.com/quote/tpe/8996/",
+   "https://www.digitimes.com/news/a20260512VL206/taiwan-monthly-tracker-ai-server-cooling-avc-auras-jentech-precision-kaori-sunon-revenue-2026.html",
+   "https://refindustry.com/news/new-items/kaori-introduces-data-center-liquid-cooling-and-immersion-cooling-solutions/"
+  ],
+  "theme": "cooling-thermal"
+ },
+ {
+  "company": "LU-VE Group",
+  "ticker": "LUVE",
+  "yahooSymbol": "LUVE.MI",
+  "exchange": "Borsa Italiana (Milan)",
+  "country": "Italy",
+  "targetPage": "scaling",
+  "thesis": "Every megawatt of direct-to-chip liquid cooling still has to reject heat outdoors, and dry coolers/condensers are the unglamorous chokepoint of the facility water loop. LU-VE is a top-tier European air heat exchanger maker that signed a multi-year framework agreement with an unnamed global hyperscaler in April 2026 and is quadrupling its Jacksonville, Texas footprint (70,000 to 290,000 sq ft) to build dry coolers and gas coolers in the US. Order book ended 2025 at EUR 233.7M, up 34.2% YoY, with data center the fastest-growing application. At ~EUR 1.4B market cap it is one of the cheapest pure heat-rejection plays attached to AI capex on any exchange.",
+  "latentAsset": "European dry-cooler and condenser franchise (including transcritical CO2 and adiabatic systems) being repurposed from commercial refrigeration into hyperscale data center heat rejection, with new US-localized capacity in Texas",
+  "catalysts": "Revenue ramp from the April 2026 hyperscaler framework agreement; Texas plant inauguration and US order flow (May 2026); EU AI-factory/sovereign-compute buildout requiring local heat-rejection content; potential disclosure of the hyperscaler counterparty",
+  "risks": "Legacy commercial refrigeration (majority of revenue) is cyclical and dilutes the data center growth story - total 2025 revenue grew only 2.8%; dry coolers face competition from Guntner, Kelvion, Alfa Laval and vertically integrated Vertiv; framework agreement volumes are not guaranteed; thin trading liquidity in Milan",
+  "whyNotCrowded": "Italian small cap with minimal Anglophone sell-side coverage; classified as a refrigeration/HVAC supplier rather than AI infrastructure; the heat-rejection layer of the cooling stack gets a fraction of the attention paid to cold plates and CDUs; not in our tracked universe despite peers (Alfa Laval, Munters, Modine) being tracked",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 1.65,
+  "componentScores": {
+   "latentFit": 19,
+   "discoveryGap": 17,
+   "valuationGap": 12,
+   "catalystDensity": 13,
+   "executionQuality": 10,
+   "hypePenalty": 4
+  },
+  "evidence": [
+   "https://theenergymag.com/news/2026-05-19/lu-ve-texas-ai-cooling",
+   "https://lu-ve.com/news/direct-to-chip-cooling-how-luve-shapes-the-future-of-data-centers/",
+   "https://www.luvegroup.com/en/news/news/2025/03/03/lu-ve-global-data-center-cooling-technology-made-in-usa/"
+  ],
+  "theme": "cooling-thermal"
+ },
+ {
+  "company": "Shenzhen Envicool Technology",
+  "ticker": "002837",
+  "yahooSymbol": "002837.SZ",
+  "exchange": "Shenzhen Stock Exchange",
+  "country": "China",
+  "targetPage": "scaling",
+  "thesis": "China's full-chain liquid cooling leader (cold plates, UQD/MQD quick disconnects, CDUs, manifolds, cabinets) with genuine cross-border validation: its UQD/MQD products entered the NVIDIA MGX ecosystem at the 2025 OCP Summit, it built the custom Deschutes 5 CDU for Google, and it is the lead cold-plate integrator for Intel Xeon 6. 2025 revenue broke CNY 6B (+32%) with liquid cooling up 41%. It is the cleanest public proxy for the China AI-datacenter cooling buildout - but the A-share crowd found it first: +245% YTD, ~180x trailing PE, and Q1 2026 net profit fell 82% on cost ramp. Real asset, wrong price - this goes on the watchlist for the post-euphoria entry.",
+  "latentAsset": "Only Chinese liquid-cooling vendor inside the NVIDIA MGX partner ecosystem (UQD/MQD) plus Google and Intel design wins - a dual-track asset that wins from both Chinese hyperscaler capex and Western supply-chain diversification",
+  "catalysts": "China hyperscaler (Alibaba/Tencent/ByteDance) AI capex acceleration; NVIDIA-localized and domestic-accelerator rack ramps requiring local liquid cooling; margin recovery in H2 2026 as new capacity utilization improves; further OCP/MGX component qualifications",
+  "risks": "Extreme valuation (~180x trailing) with deteriorating quality of earnings: Q1 2026 net profit -82% and 2025 operating cash flow -21%; price war among Chinese liquid-cooling entrants compressing margins; geopolitical risk cuts both ways (could be excluded from Western supply chains); A-share retail momentum reversal",
+  "whyNotCrowded": "It IS crowded domestically - that is the point of the hype penalty - but it is absent from our universe and from most Western AI-supply-chain trackers, and the NVIDIA MGX/Google design wins are underappreciated outside China; included as watchlist-only so the page maps the China cooling node without endorsing chase at 180x",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 12.4,
+  "componentScores": {
+   "latentFit": 21,
+   "discoveryGap": 8,
+   "valuationGap": 3,
+   "catalystDensity": 14,
+   "executionQuality": 7,
+   "hypePenalty": 9
+  },
+  "evidence": [
+   "https://finance.biggo.com/news/yjl3rJ0B-x-dxYpbeoUj",
+   "https://stockanalysis.com/quote/she/002837/",
+   "https://www.edgen.tech/news/post/envicool-revenue-jumps-32-on-ai-demand-for-data-center-cooling"
+  ],
+  "theme": "cooling-thermal"
+ },
+ {
+  "company": "Comet Holding",
+  "ticker": "COTN",
+  "yahooSymbol": "COTN.SW",
+  "exchange": "SIX Swiss",
+  "country": "Switzerland",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Comet is priced as a cyclical Swiss RF-components industrial, but it owns two AI-levered assets the market under-weights: PCT, the only vertically integrated maker of vacuum capacitors, RF match networks and generators that are consumed by rising etch/deposition intensity at 2nm/GAA and in HBM DRAM, and IXS, whose CA20 platform is one of the only scaled high-resolution 3D X-ray tools able to inspect copper microbumps and voids inside HBM stacks and advanced packages non-destructively. As packaging defects become the dominant AI-silicon yield problem, X-ray inspection moves from lab spot-checks to inline fab metrology - a new insertion Comet is early in.",
+  "latentAsset": "IXS semiconductor X-ray division (Yxlon heritage, CA20 3D X-ray with AI defect recognition for HBM microbump inspection) buried inside an RF-power company classified as a Swiss industrial; PCT consumable-like RF franchise levered to etch intensity",
+  "catalysts": "Company guiding that it is 'building into the 2026 upswing' with the cycle broadening into memory and packaging; CA20 fab-environment adoption and customer engagements converting to orders; HBM4 packaging inspection requirements tightening; recovery in RF spares/consumables as fab utilization rises",
+  "risks": "IXS is still subscale and has been restructured; WFE downturns hit PCT orders with little buffer; inline X-ray metrology competes with acoustic and optical alternatives and with Nordson Dage at lower price points; CHF strength",
+  "whyNotCrowded": "Swiss-listed, industrial-sector classification, no US ADR liquidity and no presence in AI thematic baskets; earnings are still cyclically depressed so quant screens miss it; the X-ray-for-HBM story has essentially no sell-side sponsorship outside two Swiss brokers",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 3.4,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 19,
+   "valuationGap": 12,
+   "catalystDensity": 13,
+   "executionQuality": 10,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://www.eqs-news.com/news/inside-information-ad-hoc-release/comet-sales-growth-year-on-year-building-into-the-2026-upswing/822bdeab-b939-4b24-a55c-782557595c48_en",
+   "https://yxlon.comet.tech/en/products/ca20-en",
+   "https://www.semicontaiwan.org/en/node/12931"
+  ],
+  "theme": "test-metrology"
+ },
+ {
+  "company": "AEM Holdings",
+  "ticker": "AWX",
+  "yahooSymbol": "AWX.SI",
+  "exchange": "SGX",
+  "country": "Singapore",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "System-level test is becoming mandatory for AI accelerators because burn-in and functional test of 1000W+ devices cannot be done on conventional ATE handlers - it requires active thermal control, which is AEM's proprietary moat (PiXL full-wafer-power thermal tech, roughly a generation ahead of competitors). Long stigmatized as 'the Intel test house', AEM is now ramping a fabless AI/HPC customer that becomes its largest in FY2026 and signed an ASE partnership that channels its test cells to hyperscaler custom-ASIC programs from late 2026. 1Q26 revenue +36% y/y, net profit +329%, FY26 guidance raised ~20% to S$550-600M.",
+  "latentAsset": "Proprietary active thermal-control IP (PiXL) for system-level test and burn-in of kilowatt-class AI devices, plus an installed SLT franchise built on Intel that is now being re-pointed at fabless AI accelerators and hyperscaler ASICs via the ASE channel",
+  "catalysts": "Fabless AI/HPC customer ramp to become largest customer during FY2026; ASE partnership deployments to hyperscaler clients from late 2026; further FY26 guidance revisions (already raised once in May 2026); potential second AI accelerator customer wins as SLT insertion rates rise industry-wide",
+  "risks": "Trailing P/E ~105 means the inflection must deliver; history of customer concentration (Intel) and a 2023-24 inventory overstatement episode that damaged credibility; Teradyne and Advantest are pushing their own SLT offerings; stock has already tripled off its lows",
+  "whyNotCrowded": "SGX small-cap with thin foreign institutional ownership and mostly local-broker coverage; global AI investors still associate the name with Intel's troubles rather than the AI SLT cycle; not a member of any AI thematic ETF",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 2.2,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 15,
+   "valuationGap": 10,
+   "catalystDensity": 15,
+   "executionQuality": 8,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://www.minichart.com.sg/2026/05/13/aem-holdings-reports-36-revenue-surge-in-1q2026-raises-fy2026-guidance-amid-ai-hpc-test-demand/",
+   "https://www.tipranks.com/news/company-announcements/aem-lifts-fy2026-outlook-as-ai-hpc-demand-powers-earnings-upswing",
+   "https://stockanalysis.com/quote/sgx/AWX/"
+  ],
+  "theme": "test-metrology"
+ },
+ {
+  "company": "Musashi Seimitsu Industry",
+  "ticker": "7220",
+  "yahooSymbol": "7220.T",
+  "exchange": "Tokyo Stock Exchange",
+  "country": "Japan",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "A Honda-chain bevel-gear and auto-parts maker whose subsidiary Musashi Energy Solutions is the world's only scaled producer of high-power lithium-ion (hybrid super) capacitors. Its CCP3300SC 3.8V/3000F cell is specified in NVIDIA's GB300 NVL72 rack power-smoothing reference design, and Flex builds its Capacitor-based Energy Storage System (CESS) power shelf around Musashi HSCs. As millisecond power smoothing becomes standard on every GB300/Rubin rack, a sole-source energy-buffer component is hiding inside an auto-parts multiple.",
+  "latentAsset": "Musashi Energy Solutions hybrid supercapacitor (LIC) business: sole-source cell in NVIDIA GB300 NVL72 power-smoothing reference design plus Flex CESS partnership, buried inside an auto transmission-gear company",
+  "catalysts": "GB300 NVL72 volume ramp through 2026; Vera Rubin/Kyber rack architectures enlarging per-rack energy buffers; new Minami-Alps (Yamanashi) HSC plant ramp; Flex CESS commercial volume and follow-on rack design wins; possible segment disclosure or carve-out of the energy unit re-rating the asset",
+  "risks": "Core auto business (Honda-heavy) is margin-squeezed, so consolidated P/E looks extreme (~364x); Chinese LIC/EDLC competitors (Jianghai, Ymin) and BBU-only architectures could displace LIC content; supercap shelf can be value-engineered or dual-sourced in later rack generations; stock already +134% over 1 year so discovery is partial, and it fell ~9% today with the AI tape",
+  "whyNotCrowded": "Classified as a Japanese small-cap auto-parts supplier with minimal sell-side coverage and low foreign ownership; discovery so far is limited to niche semis fintwit (one Substack note), not institutions; at ~$3.2B the market still values it mostly as a gear maker while Chinese supercap proxies trade at 100x+ earnings on the same theme",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 3.2,
+  "componentScores": {
+   "latentFit": 23,
+   "discoveryGap": 15,
+   "valuationGap": 13,
+   "catalystDensity": 16,
+   "executionQuality": 10,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://www.ymin.cn/news/millisecond-level-transient-power-gaps-in-ai-server-rack-bbus-why-is-a-hybrid-supercapacitor-lic-bbu-more-suitable/",
+   "https://www.prnewswire.com/news-releases/flex-and-musashi-energy-solutions-partner-to-mitigate-utility-power-challenges-in-ai-data-centers-302217694.html",
+   "https://www.musashi.co.jp/en/newsrelease/generating_ai_x_data_center_energy_challenges_and_a_sustainable_future_hybrid_super_capacitorhsc_inn.html",
+   "https://irrationalanalysis.substack.com/p/musashi-seimitsu-7220t-supercap-note",
+   "https://stockanalysis.com/quote/tyo/7220/"
+  ],
+  "theme": "passives-power-semis"
+ },
+ {
+  "company": "InnoScience (Suzhou) Technology Holding",
+  "ticker": "2577",
+  "yahooSymbol": "2577.HK",
+  "exchange": "Hong Kong Stock Exchange",
+  "country": "China",
+  "targetPage": "ai-passives-alpha",
+  "thesis": "World's largest GaN-on-Si IDM (8-inch) and the actual volume bottleneck for the GaN content in NVIDIA's 800VDC rack-power transition. NVIDIA gave Innoscience a GaN supplier award for 800VDC rack power, and it is the only vendor offering a full-chain GaN solution from 800V input to the GPU pin (15V-1200V portfolio), with FY25 revenue +46% to RMB1.2B and engagements with both NVIDIA and Google. Capacity target of 80k wafers/month by 2028 makes it the supply-side chokepoint as Kyber/Rubin-class 800VDC racks ramp in 2027.",
+  "latentAsset": "Roughly 40%+ of global GaN-on-Si discrete capacity plus the only 15V-1200V full-voltage GaN platform qualified into the NVIDIA MGX 800VDC ecosystem; data-center mix is still small versus consumer fast-charging, so the AI exposure is early in the model",
+  "catalysts": "First 800VDC Kyber rack deployments in 2027 with GaN-dense power shelves; data-center revenue mix inflection in 2026 results (next report Aug 28, 2026); further hyperscaler design-ins beyond Google; profitability crossover as 8-inch fab loading rises; capacity expansion announcements toward 80k wfpm",
+  "risks": "Still loss-making (~HK$935M net loss) at ~44x TTM sales, so valuation support is thin if the 800VDC timeline slips; Infineon, TI, Navitas, Power Integrations and Renesas all attacking the same sockets; a China-domiciled supplier into US hyperscaler infrastructure carries export-control and procurement-policy risk; history of patent litigation (EPC) in the US",
+  "whyNotCrowded": "HK listing excludes it from US AI baskets and most passive flows; the GaN narrative premium accrues to US-listed Navitas (already tracked) while the volume leader trades 30% below its level when the NVIDIA partnership was announced and fell 3% today against a hot passives tape; analyst consensus sits ~43% above the price",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 7.7,
+  "componentScores": {
+   "latentFit": 20,
+   "discoveryGap": 14,
+   "valuationGap": 6,
+   "catalystDensity": 16,
+   "executionQuality": 12,
+   "hypePenalty": 6
+  },
+  "evidence": [
+   "https://www.eetimes.com/nvidia-presents-gan-supplier-award-to-innoscience-for-ai-datacenter-800-vdc-rack-power-support/",
+   "https://www.trendforce.com/news/2026/05/29/news-from-800-vdc-to-gpu-core-innoscience-all-gan-technology-provides-key-solutions-to-high-density-ai-power-delivery-for-the-nvidia-mgx-ecosystem/",
+   "https://hk-official.cmbi.info/upload/840cc9d7-0317-48ee-a7e1-e4a753477d47.pdf",
+   "https://www.innoscience.com/news/press-releases/6773",
+   "https://stockanalysis.com/quote/hkg/2577/"
+  ],
+  "theme": "passives-power-semis"
+ },
+ {
+  "company": "LS Materials",
+  "ticker": "417200",
+  "yahooSymbol": "417200.KQ",
+  "exchange": "KOSDAQ",
+  "country": "South Korea",
+  "targetPage": "ai-passives-alpha",
+  "thesis": "Korea's only listed pure-play ultracapacitor maker (LS group), now pivoting its UC business from wind/ESS into AI data-center power-peak smoothing. In March 2026 it unveiled a 6-million-cycle UC system aimed at AI rack power gaps, has delivered a megawatt-scale supercapacitor stabilization system, partners with Vertiv on DC power management, and its subsidiary began supplying components into North American AI data-center fuel-cell power. The Korean retail wave that took it to KRW 32,725 in April has fully washed out (-49% to ~16,580), leaving an uncrowded sub-$1B entry into the same rack-energy-buffer theme that trades at 100x+ earnings in China.",
+  "latentAsset": "Pure-play ultracapacitor cell and module capacity outside China/Japan with a Vertiv channel relationship, plus LS Alsco aluminum-extrusion entry into North American AI data-center fuel-cell systems",
+  "catalysts": "Company guiding to new UC supply contracts for AI data centers within 2026; Vertiv channel pull-through into hyperscaler UPS/power shelves; LS group's broader US data-center power push (LS Electric winning $46-70M DC orders) creating cross-sell; supercap system market expected to grow from ~$69M (2026) to KRW 500B+ by 2030",
+  "risks": "Tiny current UC revenue base and the global supercap-system TAM is still small today, so the story can run ahead of numbers; competition from Musashi's LIC (NVIDIA-specified) and cheap Chinese EDLC makers; KOSDAQ retail-driven volatility cuts both ways; aluminum extrusion core is cyclical; LS group related-party structure",
+  "whyNotCrowded": "Down 49% from its April 2026 peak after domestic retail exited; effectively zero US/English-language coverage and minimal foreign ownership; the supercap-AI theme is crowded in China A-shares (Jianghai +376% 1yr) while this Korean proxy de-rated to ~$0.8B",
+  "suggestedRankZone": "50-plus",
+  "mcapUsdB": 0.82,
+  "componentScores": {
+   "latentFit": 17,
+   "discoveryGap": 16,
+   "valuationGap": 12,
+   "catalystDensity": 12,
+   "executionQuality": 8,
+   "hypePenalty": 4
+  },
+  "evidence": [
+   "https://www.thelec.net/news/articleView.html?idxno=5798",
+   "https://passive-components.eu/ls-materials-delivers-supercapacitor-system-to-stabilize-megawatt-level-power-for-ai-and-renewables/",
+   "https://www.thelec.net/news/articleView.html?idxno=6274",
+   "https://www.asiae.co.kr/en/article/2026040108441197938"
+  ],
+  "theme": "passives-power-semis"
+ },
+ {
+  "company": "Nantong Jianghai Capacitor",
+  "ticker": "002484",
+  "yahooSymbol": "002484.SZ",
+  "exchange": "Shenzhen Stock Exchange",
+  "country": "China",
+  "targetPage": "ai-passives-alpha",
+  "thesis": "WATCHLIST ONLY - genuine bottleneck, wrong price. China's #1 / world #3 electrolytic capacitor maker with scaled supercapacitor and MLPC (multilayer polymer chip cap) lines. Supercap order backlog is at record levels, capacity (~2.5M units/yr) is effectively sold out 2-3 years against a single 5M-unit Flex order, and MLPC plus supercaps are scheduled to scale into AI server boards during 2026. The capacity data validates the rack-energy-buffer bottleneck thesis, but the stock is +376% in a year at 113x earnings and went limit-up (+10%) today - a post-rerating chase. Track for capacity-expansion news and re-engage only on a 30-50% drawdown.",
+  "latentAsset": "Supercapacitor capacity sold out 2-3 years (5M-unit Flex order vs 2.5M annual capacity) plus MLPC polymer caps qualifying into AI server power boards - real bottleneck assets, currently fully priced by A-share retail",
+  "catalysts": "Supercap capacity expansion announcements; MLPC qualification at US/Taiwan ODMs scaling in 2026; pace of Flex order fulfillment; AI-server share of supercap revenue rising from the current ~RMB12M/quarter",
+  "risks": "Valuation: consensus target sits ~61% below the price; supercap revenue is only 7.7% of sales (RMB106M in Q1 2026) so the narrative is far ahead of the P&L; A-share retail momentum reversal; US customers (Flex) sourcing from a Chinese cap maker is exposed to decoupling pressure",
+  "whyNotCrowded": "It IS crowded domestically - that is precisely why it is flagged watchlist rather than a rank; its value to the rankings is as bottleneck intel (sold-out supercap capacity confirms the demand wave behind Musashi and LS Materials) and as a re-entry candidate after the momentum unwinds",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 10.8,
+  "componentScores": {
+   "latentFit": 18,
+   "discoveryGap": 3,
+   "valuationGap": 2,
+   "catalystDensity": 13,
+   "executionQuality": 12,
+   "hypePenalty": 9
+  },
+  "evidence": [
+   "https://news.futunn.com/en/post/74043667/order-volumes-are-at-historically-high-levels-driven-by-data",
+   "https://stockanalysis.com/quote/she/002484/",
+   "https://www.lwpower.com/jianghai-super-capacitor/"
+  ],
+  "theme": "passives-power-semis"
+ },
+ {
+  "company": "Kingspan Group",
+  "ticker": "KRX",
+  "yahooSymbol": "KRX.IR",
+  "exchange": "Euronext Dublin",
+  "country": "Ireland",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Kingspan is priced as a depressed European insulated-panel/construction cyclical, but its Advnsys division (Tate raised access floors, aisle containment, structural ceilings, DC airflow infrastructure) is a quietly dominant data-center white-space franchise: FY25 Advnsys revenue EUR 1.66B (+12%), trading profit EUR 184.5M (+17%), year-end backlog +24%, and 2026 order intake running at DOUBLE the prior-year pace. Tate is the de facto standard for hyperscale raised floor and containment - a small-dollar but schedule-critical line item in every shell fit-out. The other ~80% of the business gives you a free option on EU construction recovery while the DC unit compounds.",
+  "latentAsset": "Advnsys division (Tate access floors, containment, structural ceilings) - EUR 1.66B revenue data-center infrastructure business buried inside a building-materials cyclical, with backlog +24% and 2026 order intake 2x YoY",
+  "catalysts": "Capacity ramps underway in US, Middle East and Asia specifically for data-center demand; H1 2026 results showing Advnsys order intake doubling; growing disclosure of the division could force sum-of-parts re-rating; any EU construction stabilization adds a second leg",
+  "risks": "82% of revenue still tied to weak European/global construction; Advnsys growth could be diluted at group level; raised-floor content per MW can shrink in liquid-cooled slab-on-grade designs; historical Grenfell-related reputational overhang",
+  "whyNotCrowded": "Classified as building materials, owned by European value/industrial funds, never appears on AI-infrastructure screens; trades ~EUR 14.7B on a construction-cyclical multiple despite the DC unit growing mid-teens with accelerating orders - the +7% pop on FY25 results shows the market is only beginning to notice",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 17,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 18,
+   "valuationGap": 14,
+   "catalystDensity": 14,
+   "executionQuality": 12,
+   "hypePenalty": 2
+  },
+  "evidence": [
+   "https://www.sharecast.com/news/news-and-announcements/kingspan-reports-record-2025-as-data-centre-demand-surges--21772962.html",
+   "https://www.investing.com/news/earnings/kingspan-jumps-7-on-record-profit-beat-data-centre-boom-4515339",
+   "https://stockanalysis.com/quote/ise/KRX/market-cap/",
+   "https://www.kingspangroup.com/en/businesses-brands/kingspan-data-solutions/"
+  ],
+  "theme": "datacenter-shell"
+ },
+ {
+  "company": "Limbach Holdings",
+  "ticker": "LMB",
+  "yahooSymbol": "LMB",
+  "exchange": "NASDAQ",
+  "country": "United States",
+  "targetPage": "latent-ai-nodes",
+  "thesis": "Sub-$1B building-systems specialist (mechanical/HVAC/piping) that has transformed into an owner-direct recurring-services model and is now seeing data centers inflect: 27% of Q1 2026 bookings came from the DC vertical, total bookings of $209M produced a 1.5x book-to-bill, and a new single DC project should exceed $30M against a $730-760M revenue base. Critically, this is a POST-DERATING setup - the stock has been cut nearly in half from its $154 high to $82 while the DC mix accelerates, the opposite of a chase. Mission-critical mechanical retrofit and service inside live data centers (cooling loops, piping, controls) is sticky, margin-rich work that hyperscalers cannot easily rebid.",
+  "latentAsset": "Owner-direct relationships with mission-critical facility operators plus a fast-growing data-center vertical (27% of Q1 bookings, 1.5x book-to-bill) hidden inside a name the market currently treats as a broken small-cap GC",
+  "catalysts": "2H 2026 revenue ramp from record Q1 bookings; >$30M data-center project entering revenue; continued bolt-on M&A in DC-heavy geographies; reaffirmed FY26 guidance ($90-94M adj. EBITDA) with consensus PT ~40% above spot",
+  "risks": "Small scale means single-project concentration; revenue growth has been modest while the mix shifts; mechanical contracting labor availability; if DC bookings momentum stalls the derating thesis breaks",
+  "whyNotCrowded": "Down ~47% from its 52-week high, fallen off momentum screens entirely, sub-$1B cap with thin coverage; the AI-datacenter crowd left this name in 2025 and has not returned despite the bookings inflection",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 0.98,
+  "componentScores": {
+   "latentFit": 18,
+   "discoveryGap": 17,
+   "valuationGap": 15,
+   "catalystDensity": 13,
+   "executionQuality": 11,
+   "hypePenalty": 1
+  },
+  "evidence": [
+   "https://stockanalysis.com/stocks/lmb/",
+   "https://www.theglobeandmail.com/investing/markets/stocks/LMB/pressreleases/1753366/limbach-lmb-q1-2026-earnings-transcript/",
+   "https://www.stocktitan.net/news/LMB/"
+  ],
+  "theme": "datacenter-shell"
+ },
+ {
+  "company": "Everus Construction Group",
+  "ticker": "ECG",
+  "yahooSymbol": "ECG",
+  "exchange": "NYSE",
+  "country": "United States",
+  "targetPage": "scaling",
+  "thesis": "Pure-play electrical and mechanical specialty contractor spun off from MDU Resources in late 2024, executing flawlessly into the data-center buildout: Q1 2026 revenue $1.04B (+25.4%), net income +58.9%, record backlog $3.68B (+20.4% YoY, +14% sequentially) driven explicitly by data-center, high-tech and T&D work, with FY26 guidance of $4.1-4.2B revenue and $320-335M EBITDA. As a fresh spinoff it lacks the decade of institutional ownership that EMCOR and Comfort Systems carry, and at ~34x trailing with EPS growing ~58% it is still cheaper than the crowded comps. The honest caveat: the market cap is up ~153% in a year, so the easy discovery alpha is partially spent - this is a beat-and-raise compounding story now, not a hidden one.",
+  "latentAsset": "Spinoff dynamics: short public history, no long-tenured holder base, and an electrical-labor franchise (T&D plus inside-the-fence DC electrical) that screens cheaper than FIX/EME despite faster current growth",
+  "catalysts": "Quarterly backlog prints (record and accelerating sequentially); potential FY26 guidance raises; index-inclusion mechanics as a young spinoff; T&D awards from utility interconnect demand around data centers",
+  "risks": "Already re-rated ~153% in twelve months - chase risk is real; 34x trailing PE leaves no room for a backlog stall; electrical-labor cost inflation; spinoff still building standalone corporate track record",
+  "whyNotCrowded": "Only partially crowded: coverage exists but is young, the name is 15% off its high, and it is absent from most AI-infrastructure baskets that default to FIX/EME/PWR - the hype penalty applied here reflects that this is the most-discovered of my four",
+  "suggestedRankZone": "50-plus",
+  "mcapUsdB": 7.4,
+  "componentScores": {
+   "latentFit": 16,
+   "discoveryGap": 10,
+   "valuationGap": 11,
+   "catalystDensity": 15,
+   "executionQuality": 13,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://www.sec.gov/Archives/edgar/data/0002015845/000201584526000027/a2026q1ex99-ecg.htm",
+   "https://stockanalysis.com/stocks/ecg/",
+   "https://www.sahmcapital.com/news/content/record-backlog-and-earnings-beat-could-be-a-game-changer-for-everus-construction-group-ecg-2026-04-02"
+  ],
+  "theme": "datacenter-shell"
+ },
+ {
+  "company": "Legence",
+  "ticker": "LGN",
+  "yahooSymbol": "LGN",
+  "exchange": "NASDAQ",
+  "country": "United States",
+  "targetPage": "scaling",
+  "thesis": "September 2025 IPO ($28/share, Blackstone-backed) that is the closest thing to a pure-play mission-critical MEP design-build-fabricate platform: Q1 2026 revenue more than doubled YoY to $1.04B on data-center demand and the Bowers acquisition, adjusted EBITDA +132% to $118M, record $5.4B backlog, and a big FY26 guidance raise to $4.1-4.3B revenue / $470-490M EBITDA. Prefabrication and engineered MEP capacity for hyperscale shells is a genuine bottleneck. But the stock has tripled since IPO to a ~63x forward PE with the AI narrative fully attached - I am flagging it for the watchlist as the lane's structural winner to buy on sponsor-overhang or digestion-driven pullbacks, not at current crowding.",
+  "latentAsset": "Vertically integrated MEP fabrication capacity and engineering labor dedicated to data-center/mission-critical work (>50% of revenue from high-growth end markets), plus post-IPO scarcity value as the only listed pure-play of its kind",
+  "catalysts": "Continued beat-and-raise cadence (two for two since IPO); $5.4B record backlog conversion; index inclusions as float grows; accretive M&A roll-up of regional MEP/fab shops; Blackstone secondary offerings that clear overhang and add float",
+  "risks": "Tripled since IPO with ~63x forward PE - severe de-rating risk on any growth deceleration; Blackstone sell-down overhang; roll-up integration risk (growth partly acquired); short public track record through a demand cycle",
+  "whyNotCrowded": "Frankly, it increasingly is - which is why it scores a heavy hype penalty and a watchlist zone; the residual alpha is structural (scarce pure-play, forced index buying, under-modeled fabrication margin) rather than discovery-based, and is best harvested on pullbacks like the current ~20% drawdown from the $107 high",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 9.2,
+  "componentScores": {
+   "latentFit": 17,
+   "discoveryGap": 8,
+   "valuationGap": 7,
+   "catalystDensity": 15,
+   "executionQuality": 13,
+   "hypePenalty": 7
+  },
+  "evidence": [
+   "https://stockanalysis.com/stocks/lgn/",
+   "https://www.benzinga.com/markets/earnings/25/11/48863264/legence-rolls-out-first-post-ipo-results-with-strong-data-center-demand",
+   "https://www.fool.com/earnings/call-transcripts/2026/05/14/legence-lgn-q1-2026-earnings-call-transcript/",
+   "https://www.renaissancecapital.com/Profile/LGN/Legence/IPO"
+  ],
+  "theme": "datacenter-shell"
+ },
+ {
+  "company": "Seikoh Giken",
+  "ticker": "6834",
+  "yahooSymbol": "6834.T",
+  "exchange": "Tokyo Stock Exchange (Standard)",
+  "country": "Japan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The razor-blade layer of the AI fiber buildout: world-leading supplier of ultra-precision ceramic/MT ferrules, MPO/MTP multi-fiber connectors, and the polishing machines plus consumables every connector factory and data-center MAC crew needs. AI fabric link counts grow faster than racks (roughly 20-40x more connectors/ferrules and ~20x more polishing consumables per AI DC than legacy), so Seikoh compounds ahead of GPU unit curves. FY3/26 guidance was raised to sales Y30.0B (+25% vs prior) and OP Y7.0B (+43%) after a Q3 OP beat of 44% vs consensus, and the supply-limited input part that capped polisher output has cleared. At ~Y256B (~$1.7B) with zero sell-side coverage, it is still a structurally under-owned bottleneck monopoly.",
+  "latentAsset": "Near-monopoly in optical-connector ferrules and connector-endface polishing machines/consumables - a recurring-revenue chokepoint that wins whether links are pluggable (more MPO) or CPO (more external fiber shuffles and patch panels)",
+  "catalysts": "FY3/26 full-year results and FY3/27 guidance; MPO densification at 800G/1.6T; CPO-driven fiber-shuffle and patch-panel volume; polisher capacity expansion now that the input bottleneck cleared; consumables mix lifting margins",
+  "risks": "Stock already up ~7x in 12 months (PE 41 trailing); Japan small-cap liquidity; customer concentration in connector houses; a sharp pause in hyperscaler fiber-plant construction would hit polisher capex orders first; yen strength",
+  "whyNotCrowded": "No sell-side coverage; discovered only by a handful of niche small-cap substacks; absent from every AI ETF/basket; foreign institutional ownership still thin - though the +663% market-cap move means the discovery gap is partially closed, so this is scored honestly with a hype penalty",
+  "suggestedRankZone": "top-25",
+  "mcapUsdB": 1.7,
+  "componentScores": {
+   "latentFit": 22,
+   "discoveryGap": 16,
+   "valuationGap": 12,
+   "catalystDensity": 15,
+   "executionQuality": 13,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://asymmetricopportunities.substack.com/p/seikoh-giken-6834-update",
+   "https://www.seikoh-giken.co.jp/en/irinfo/pdf/presen_e_54th_1.pdf",
+   "https://stockanalysis.com/quote/tyo/6834/"
+  ],
+  "theme": "optics-second-derivative"
+ },
+ {
+  "company": "FOCI Fiber Optic Communications",
+  "ticker": "3363",
+  "yahooSymbol": "3363.TWO",
+  "exchange": "Taipei Exchange (TPEx)",
+  "country": "Taiwan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The purest public play on the fiber-to-chip interface for CPO. FOCI is described by DIGITIMES as one of TSMC's closest collaborators on co-packaged optics (COUPE), owning the high-density, high-precision fiber-array-unit (FAU) manufacturing, alignment and packaging technology that every CPO optical engine needs. It is deploying high-precision automated FAU lines now and plans mass production of 1.6T and 3.2T FAUs in 2H26, exactly when NVIDIA's photonics switches and TSMC's first COUPE generation ramp. FAU attach is a per-engine consumable-like content stream that scales with CPO ports, not with transceiver vendor share.",
+  "latentAsset": "TSMC-adjacent fiber array unit (FAU) and ReLFACon fiber-to-PIC connector franchise - the mechanical chokepoint of CPO assembly where sub-micron passive alignment know-how is scarce",
+  "catalysts": "1.6T/3.2T FAU mass production in 2H26; TSMC COUPE first-generation ramp; NVIDIA Quantum-X/Spectrum-X photonics switch shipments through 2026-27; automated line qualification lifting gross margin; potential external-laser (ELS) connector content",
+  "risks": "Loss-making on TTM basis with ~NT$1.9B revenue against a NT$94B cap (~50x sales) - the CPO ramp is heavily pre-paid; +244% 1-year move with high retail churn; CPO timing slips would hit hard; competition from US Conec/Senko/Browave ecosystem; thin disclosure in English",
+  "whyNotCrowded": "Crowded with Taiwan retail but essentially unknown to and un-ownable by most Western institutions (TPEx listing, no ADR, no sell-side coverage outside local brokers); not in any global AI basket; the structural FAU-chokepoint story is still not consensus outside Taiwan - hype penalty applied for the local run",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 2.9,
+  "componentScores": {
+   "latentFit": 23,
+   "discoveryGap": 12,
+   "valuationGap": 7,
+   "catalystDensity": 16,
+   "executionQuality": 9,
+   "hypePenalty": 7
+  },
+  "evidence": [
+   "https://www.digitimes.com/news/a20250206PD215/tsmc-siph-optical-communication-cpo-foci.html",
+   "https://www.digitimes.com/news/a20260312PD211/2026-foci-cpo-production-revenue-optics.html",
+   "https://stockanalysis.com/quote/tpex/3363/"
+  ],
+  "theme": "optics-second-derivative"
+ },
+ {
+  "company": "HUBER+SUHNER",
+  "ticker": "HUBN",
+  "yahooSymbol": "HUBN.SW",
+  "exchange": "SIX Swiss Exchange",
+  "country": "Switzerland",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "Swiss fiber-connectivity industrial whose Data Center growth initiative just inflected: group order intake hit a record CHF 1,032M in 2025 (+13.7%) on major data-center orders in the Communication segment, with EBIT margin up to 10.5% despite FX headwinds. H+S supplies pre-terminated high-fiber-count ribbon cables, MPO assemblies and polarity management for AI clusters (AI racks need roughly 36x the fiber of CPU racks), and is the cabling/connectivity partner co-developing hollow-core fiber deployments with Microsoft Azure - the only merchant industrial with certified HCF field cabling. The 2025 order book converts to 2026-27 revenue while rail/industry segments provide downside ballast.",
+  "latentAsset": "Hyperscaler-certified pre-terminated fiber cabling franchise plus the Microsoft Azure hollow-core fiber cabling co-development - a latent optical-infrastructure asset buried inside a diversified Swiss rail/industrial connector company",
+  "catalysts": "Conversion of record 2025 order intake into H1 2026 sales (results July/August 2026); Azure hollow-core fiber moving from trials to volume deployment; next-gen higher-density HCF cable designs; further data-center frame agreements",
+  "risks": "Trailing PE ~64x against 2025 sales that declined 3.3% (FX/copper/portfolio) - the multiple leans entirely on the order-to-revenue conversion; stock nearly 3x off its 52-week low (CHF 83.30 to 288.00 range); CHF strength; transportation segment cyclicality; data-center orders can be lumpy",
+  "whyNotCrowded": "A Swiss mid-cap classified as an industrial, not a tech name - absent from AI/optics baskets and US investor screens; European value funds own it for rail; the data-center fiber and hollow-core angles are barely covered in English-language research, though the 2025 rerating means it is no longer undiscovered",
+  "suggestedRankZone": "25-50",
+  "mcapUsdB": 5.9,
+  "componentScores": {
+   "latentFit": 18,
+   "discoveryGap": 10,
+   "valuationGap": 8,
+   "catalystDensity": 13,
+   "executionQuality": 11,
+   "hypePenalty": 5
+  },
+  "evidence": [
+   "https://www.hubersuhner.com/en/newsroom/company-news/news-ad-hoc-news/hubersuhner-achieves-record-order-intake-and-higher-profit-in-2025",
+   "https://www.conectronica.com/en/present/news/huber-suhner-and-microsoft-azure-are-driving-hollow-core-fiber-for-cloud-and-ai",
+   "https://stockanalysis.com/quote/swx/HUBN/"
+  ],
+  "theme": "optics-second-derivative"
+ },
+ {
+  "company": "Visual Photonics Epitaxy (VPEC)",
+  "ticker": "2455",
+  "yahooSymbol": "2455.TW",
+  "exchange": "Taiwan Stock Exchange (TWSE)",
+  "country": "Taiwan",
+  "targetPage": "semiconductor-alpha-cpo-watchlist",
+  "thesis": "The merchant epitaxy layer of the laser-diode chain. VPEC grows InP and GaAs epi wafers (InGaAs PD/APD, laser/EML structures) for optical-communication chipmakers and has entered Furukawa Electric's 800G transmitter supply chain - meaning it sits one layer upstream of every EML/CW-laser shortage. Peer LandMark's own disclosure (SiPh epi output 'far below customer needs', capex doubling for 2H27 demand) confirms merchant III-V epi capacity is a genuine bottleneck; VPEC is the cheaper, more diversified way to own that layer after LandMark's rerating to ~130x sales made it untouchable. Watchlist-grade until InP momentum shows up decisively in monthly revenue.",
+  "latentAsset": "Merchant InP/GaAs epitaxial wafer capacity for photodetectors and laser diodes - the upstream input of the EML/CW-laser chain (Furukawa, Lumentum, Coherent ecosystem) where capacity additions take 18+ months",
+  "catalysts": "InP PD/APD and EML epi ramp for 800G/1.6T; CW laser epi demand from silicon photonics/CPO external light sources; Furukawa supply-chain share gains; monthly TWSE revenue prints as the real-time tell; capacity expansion announcements",
+  "risks": "125x trailing PE on only ~11% TTM revenue growth - the market is pre-paying for an InP ramp that 2025 numbers (+4.3%) have not yet validated; legacy GaAs RF (handset) exposure dilutes the optics story; LandMark/IQE/internal-epi competition; +262% market-cap move already",
+  "whyNotCrowded": "Not in the universe and invisible to Western funds (no ADR, minimal English coverage); the AI flow into Taiwan optics has concentrated in LandMark and the transceiver names, leaving VPEC as the second-look epi play - but local money has clearly found it, hence the hype penalty and watchlist zone",
+  "suggestedRankZone": "watchlist",
+  "mcapUsdB": 2.3,
+  "componentScores": {
+   "latentFit": 19,
+   "discoveryGap": 11,
+   "valuationGap": 5,
+   "catalystDensity": 13,
+   "executionQuality": 10,
+   "hypePenalty": 6
+  },
+  "evidence": [
+   "https://www.digitimes.com/news/a20241209PD214/optoelectronics-vpec-gaas-growth-epitaxial-wafer.html",
+   "https://stockanalysis.com/quote/tpe/2455/",
+   "https://www.digitimes.com/news/a20260423PD225/siph-demand-equipment-6-inch-photonics.html"
+  ],
+  "theme": "optics-second-derivative"
+ }
+]

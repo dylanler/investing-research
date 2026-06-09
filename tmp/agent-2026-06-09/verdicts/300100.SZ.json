@@ -1,0 +1,27 @@
+{
+  "symbol": "300100.SZ",
+  "company": "Shuanglin Co.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6, 2026. Only fresh item is a minor new NEV-parts subsidiary in Chongqing (RMB 50M registered capital) registered in June - operationally immaterial. Key thesis drivers all predate the window: domestic-first reverse planetary roller screw launched March 2026, second HK IPO prospectus filed March 26, 2026 (CSRC filing notice received), and humanoid-robot linear-joint module sampling/small-batch delivery to two leading domestic NEV OEMs still without formal design-win (dingdian) confirmation. Today's -0.75% move is noise.",
+  "sources": [
+    {"label": "Futubull - Shuanglin (300100) screw-grinding integrated layout note", "url": "https://news.futunn.com/en/post/67057044/shuanglin-co-ltd-300100-securing-a-position-in-screw-grinding"},
+    {"label": "Eastmoney - Shuanglin launches domestic-first reverse planetary roller screw", "url": "https://finance.eastmoney.com/a/202503133344925136.html"},
+    {"label": "Sina Finance - Shuanglin pivots to HK IPO after terminating A-share placement", "url": "https://cj.sina.com.cn/articles/view/5953190046/162d6789e06701uwsw?froms=ggmp"},
+    {"label": "Sina Finance - Shuanglin (300100) company announcements", "url": "http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300100.phtml"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the robotics body-stack lens nothing changed since yesterday's hold: roller-screw sampling to two NEV OEMs continues without a formal design win, and the -19.6% YTD de-rating already in the score keeps the asymmetry attractive but unconfirmed. Flat tape (-0.75% today) plus no new evidence means the setup is identical; small +1 drift for thesis-intact de-crowding, not a re-rank.",
+      "bull": "First domestic reverse planetary roller screw with in-house thread grinding positions Shuanglin as a body-stack bottleneck candidate; any formal dingdian from Tesla-chain or domestic humanoid OEMs re-rates a $2.7B cap sharply, and the post-pullback entry is under-owned.",
+      "neutral": "Auto-parts core (reducers, interior components) funds the screw optionality while sampling drags on; HK IPO adds capital for screw capacity but also dilution, leaving the stock range-bound until a confirmed order.",
+      "bear": "Screw business is still pre-revenue at scale with no model confirmation; humanoid actuator architectures could shift to designs favoring competitors (Best Precision, Hengli), and the HK listing at a depressed price crystallizes dilution without a catalyst.",
+      "primaryCatalyst": "Formal design-win / fixed-point confirmation of planetary roller screws or linear joint modules from a humanoid robot OEM, or HK IPO pricing that funds screw capacity.",
+      "primaryRisk": "Sampling-to-order conversion failure plus HK IPO dilution overhang while the legacy auto-parts business carries the valuation."
+    }
+  ]
+}

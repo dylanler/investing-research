@@ -1,0 +1,35 @@
+{
+  "symbol": "YSN.F",
+  "company": "secunet",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "AGM held June 8, 2026 in Essen: all agenda items approved, EUR 2.58/share dividend approved, making June 9 the effective ex-dividend day (~1.3% of today's ~4.8% drop is mechanical). CEO Siewert reiterated record 2025 results, Q1 2026 order intake nearly doubled, EES border-control rollout, NATO HQ communications win, and an HPE/NVIDIA partnership for AI on highly classified data plus a sovereign data/analytics platform with INNOSYSTEMs for police authorities. No downgrade or negative company news; SDAX was roughly flat (+0.15%) on June 9, so the residual ~3.5% slide looks like stock-specific profit-taking/flow, not a fundamental break.",
+  "sources": [
+    {
+      "label": "TradingView/EQS - secunet AGM approves all agenda items and EUR 2.58 dividend (Jun 8, 2026)",
+      "url": "https://www.tradingview.com/news/eqs:758d8a9bc094b:0-secunet-annual-general-meeting-approves-all-agenda-items-and-a-dividend-payment-of-2-58-per-share/"
+    },
+    {
+      "label": "wallstreetONLINE - secunet Aktie im Rueckgang, Kursentwicklung 09.06.2026 (SDAX +0.15% context)",
+      "url": "https://www.wallstreet-online.de/nachricht/20979866-beachtet-secunet-security-networks-aktie-aktuell-rueckgang-kursentwicklung-09-06-2026"
+    },
+    {
+      "label": "secunet press - Q1 2026 quarterly statement, order intake almost doubles",
+      "url": "https://www.secunet.com/en/about-us/press/article/konzernquartalsmitteilung-zum-31-maerz-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 36,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On the scaling list, a ~4.8% one-day sell-off that is roughly 1.3% mechanical ex-dividend and the rest flow-driven, against an AGM that reaffirmed record results, near-doubled Q1 order intake and a new HPE/NVIDIA sovereign-AI angle, improves entry asymmetry on an intact regulated-deployment thesis. This is new since yesterday's hold: the dip plus the explicitly reiterated sovereign-AI partnership modestly strengthens residual alpha at a $1.55B cap that remains under-owned.",
+      "bull": "Sovereign cybersecurity demand is structurally accelerating (EES border control, NATO HQ, German/EU public-sector security budgets), Q1 2026 order intake nearly doubled, and the HPE/NVIDIA partnership extends secunet into AI for classified data - the exact regulated-deployment bottleneck this page tracks.",
+      "neutral": "Today's drop is largely ex-dividend mechanics plus profit-taking; nothing in the AGM was genuinely incremental versus the already-published Q1 figures, so fair value is roughly unchanged and YTD +7% is unremarkable.",
+      "bear": "secunet is a small-cap heavily dependent on German public-sector procurement cycles; any budget slippage or slower EES/SINA conversion of the order book into revenue would compress the multiple, and the AI/HPE/NVIDIA angle is still revenue-immaterial.",
+      "primaryCatalyst": "Conversion of the near-doubled Q1 order intake into H2 2026 revenue/guidance raise, plus first concrete sovereign-AI (HPE/NVIDIA) contract wins.",
+      "primaryRisk": "German/EU public-sector budget delays or order-intake normalization that exposes the order book as pull-forward rather than structural acceleration."
+    }
+  ]
+}

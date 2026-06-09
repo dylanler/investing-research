@@ -1,0 +1,48 @@
+{
+  "symbol": "3037.TW",
+  "company": "Unimicron",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's +6.37% (to NT$969) appears flow/momentum-driven: a continuation of the AI ABF-substrate sector rally ahead of Taiwan's May monthly revenue releases (due ~June 10). The key catalysts are all older: Morgan Stanley Overweight upgrade with NT$500 PT (Feb 23), ABF capacity reported sold out across Unimicron/Kinsus/Nan Ya PCB (Apr 20), and management targeting record 2026 revenue above the 2022 peak (May 29). Note the stock now trades roughly double MS's NT$500 target.",
+  "sources": [
+    {
+      "label": "Investing.com - Morgan Stanley upgrades Unimicron, NYPCB on AI-led ABF substrate up-cycle (Feb 23, 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-unimicron-nypcb-on-ailed-abf-substrate-upcycle-4519224"
+    },
+    {
+      "label": "DIGITIMES - Unimicron targets record 2026 revenue with ABF and AI system-board push (May 29, 2026)",
+      "url": "https://www.digitimes.com/news/a20260529PD239/unimicron-revenue-2026-demand-substrate.html"
+    },
+    {
+      "label": "DIGITIMES - ABF substrate sells out for Unimicron, Kinsus, Nan Ya PCB (Apr 20, 2026)",
+      "url": "https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 91,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On a crowding-sensitive residual-alpha list, another +6.4% flow-driven pop with zero new fundamental evidence on top of +342% YTD further erodes the hidden/under-owned premise; the stock now trades at ~2x Morgan Stanley's bullish NT$500 target, so the rerating has outrun even the bull-case sell side.",
+      "bull": "ABF capacity is sold out across the industry and Unimicron holds ~35% share of NVIDIA high-end GPU substrates and >50% of major ASIC substrates (TPU, Trainium), with record 2026 revenue guided and a multi-year up-cycle through 2030.",
+      "neutral": "Bottleneck exposure is real but fully discovered: $48B market cap, 15 buy ratings and zero sells, and a sweep of sell-side upgrades mean this is now a consensus AI substrate proxy rather than an alpha name.",
+      "bear": "A +342% YTD melt-up far above all published price targets leaves the stock priced for flawless execution; any 2026 capex digestion, ASIC order push-out, or substrate pricing disappointment triggers a violent de-rating.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~June 10) and 2Q26 results confirming substrate ASP hikes and sold-out capacity flow-through.",
+      "primaryRisk": "Crowded momentum unwind: a sector-wide AI substrate pullback hits the most-rerated, most-owned proxy hardest, independent of fundamentals."
+    },
+    {
+      "page": "companies",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the packaging-and-substrates audit lens the bottleneck thesis is intact and even strengthening (sold-out ABF, record revenue target), so the position holds; the -1 drift only reflects today's further price recognition without new evidence, which yesterday's down-move already largely captured.",
+      "bull": "Unimicron is the central merchant ABF substrate node for both GPU and custom-ASIC AI silicon, with sold-out capacity, pricing power from the fiberglass/substrate squeeze, and NT$34B capex extending leadership into 2027 tightness.",
+      "neutral": "Scarcity exposure scores high but is balanced by $48B cap and +342% YTD: the market has already paid for the 2026-2027 up-cycle, leaving execution as the main remaining variable.",
+      "bear": "Substrate cycles have historically over-built into demand peaks; aggressive 2026 capex plus competitor expansion (Kinsus, Nan Ya PCB, Korean/Japanese rivals) could turn today's scarcity into 2027 oversupply.",
+      "primaryCatalyst": "Monthly revenue prints and ABF price-hike confirmations validating the record-2026 revenue target.",
+      "primaryRisk": "ABF capacity additions across the industry landing into any AI accelerator order air-pocket, compressing the scarcity premium."
+    }
+  ]
+}

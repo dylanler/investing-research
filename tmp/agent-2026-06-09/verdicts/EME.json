@@ -1,0 +1,35 @@
+{
+  "symbol": "EME",
+  "company": "EMCOR Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - EMCOR Group (EME) quote and news",
+      "url": "https://finance.yahoo.com/quote/EME/"
+    },
+    {
+      "label": "Simply Wall St - EME valuation after recent share price pullback",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-eme/emcor-group/news/assessing-emcor-group-eme-valuation-after-recent-share-price"
+    },
+    {
+      "label": "TipRanks - EME analyst forecasts and price targets",
+      "url": "https://www.tipranks.com/stocks/eme/forecast"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the ~8% one-month pullback (incl. -3.3% June 5, -0.9% today) with the data-center MEP thesis intact marginally improves asymmetry, but EME remains a discovered, consensus Strong Buy name far from the passive/power bottleneck core, so rank 98 in the Monitor/benchmark bucket stands.",
+      "bull": "Raised FY26 guidance ($18.5-19.25B revenue) and 20% Q1 revenue growth confirm data-center electrical/mechanical demand is structural; the recent drawdown offers a slightly better entry into a tight skilled-labor franchise.",
+      "neutral": "Quality compounder with real AI-buildout exposure, but at ~$36B cap, +27.8% YTD and a ~71% one-year return it is fully discovered and offers benchmark-like, not hidden, alpha.",
+      "bear": "Post-rerating multiple leaves little residual alpha; any data-center capex digestion or margin normalization in construction segments would hit a crowded, momentum-owned name hard.",
+      "primaryCatalyst": "Q2 2026 earnings (late July) with backlog/RPO growth and any further guidance raise on data-center demand.",
+      "primaryRisk": "Hyperscaler capex deceleration or project timing slippage compressing the rerated construction multiple."
+    }
+  ]
+}

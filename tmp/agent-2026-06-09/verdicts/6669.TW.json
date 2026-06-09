@@ -1,0 +1,52 @@
+{
+  "symbol": "6669.TW",
+  "company": "Wiwynn",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Latest items predate cutoff: June 3 Shinwa Controls strategic collaboration on liquid cooling for CSPs, and Computex 2026 showcase (NVIDIA Vera Rubin NVL72 rack with Wistron, HVDC power, optical scale-up). Q1 2026 revenue NT$276.5B (+62% YoY), but April monthly revenue NT$82.7B was -16.1% MoM; May monthly revenue print due by June 10 is the next catalyst. Today's +0.47% move is noise.",
+  "sources": [
+    {
+      "label": "Wiwynn-Shinwa Controls cooling collaboration (PR Newswire, June 3, 2026)",
+      "url": "http://www.prnewswire.com/news-releases/wiwynn-and-shinwa-controls-announce-strategic-collaboration-to-deliver-advanced-next-generation-data-center-cooling-solutions-302790915.html"
+    },
+    {
+      "label": "Wiwynn Computex 2026 datacenter design showcase",
+      "url": "https://www.wiwynn.com/news/wiwynn-advances-datacenter-design-at-computex-2026-with-high-power-and-optical-interconnect"
+    },
+    {
+      "label": "Wiwynn Q1 2026 financial results",
+      "url": "https://www.wiwynn.com/news/wiwynn-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Wiwynn Vera Rubin NVL72 at NVIDIA GTC 2026",
+      "url": "https://www.wiwynn.com/news/wiwynn-showcases-nvidia-vera-rubin-nvl72-ai-factory-infrastructure-at-nvidia-gtc-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "On a crowding-sensitive alpha page Wiwynn sits in the 'crowded / rerated benchmark' bucket; nothing since June 6 restores residual alpha, and a quiet +0.47% day with the May revenue print still pending gives no reason to re-rank a day after yesterday's hold.",
+      "bull": "Vera Rubin NVL72 readiness with Wistron plus the Shinwa liquid-cooling tie-up keep Wiwynn squarely in the next-gen rack bottleneck; a strong May revenue print by June 10 could reaccelerate estimates.",
+      "neutral": "Q1 +62% YoY is well understood and already in the price; YTD +18.3% with no fresh evidence means the setup is unchanged from yesterday's hold.",
+      "bear": "April's -16% MoM revenue wobble plus heavy CSP concentration means any soft May print hits a name that is already widely owned and fully rerated.",
+      "primaryCatalyst": "May 2026 monthly revenue release (due by June 10)",
+      "primaryRisk": "Soft monthly revenue or CSP order timing slippage hitting a crowded, rerated name"
+    },
+    {
+      "page": "companies",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the systems-integration page the physical-deployment thesis is intact and confirmed (Vera Rubin NVL72 rack, Shinwa cooling), but all of that predates June 6 and was already reflected in yesterday's hold; nothing new today moves the rank.",
+      "bull": "Wiwynn is production-ready on fully liquid-cooled Rubin racks with HVDC and optical scale-up designs, the exact deployment chokepoints this page tracks.",
+      "neutral": "Execution and pricing on AI server OEM remain the watch items; rank 48 already balances deployment exposure against the $31B cap and YTD rerating.",
+      "bear": "Rack integration margins are thin and the April MoM revenue decline shows lumpy CSP pull-ins can swing monthly optics against the stock.",
+      "primaryCatalyst": "May monthly revenue (by June 10) and Rubin-generation rack shipment ramp in 2H26",
+      "primaryRisk": "AI server OEM pricing pressure and order lumpiness from a concentrated CSP customer base"
+    }
+  ]
+}

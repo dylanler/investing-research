@@ -1,0 +1,35 @@
+{
+  "symbol": "RWC.AX",
+  "company": "Reliance Worldwide",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "RWC ASX announcements page (latest lodgement pre-dates June 6)",
+      "url": "https://www.rwc.com/investors/asx-announcements"
+    },
+    {
+      "label": "Capital Brief - RWC maintains FY26 guidance after US tariff refund claim (April 2026, latest material update)",
+      "url": "https://www.capitalbrief.com/briefing/reliance-worldwide-maintains-fy26-earnings-guidance-after-lodging-refund-on-us-tariffs-3f30eb0f-e5bb-4d0b-bb4c-4afff3163f4d/"
+    },
+    {
+      "label": "ASX announcement 28 April 2026 - RWC confirms FY26 full year trading outlook",
+      "url": "https://announcements.asx.com.au/asxpdf/20260428/pdf/06yxdvs1mvtk54.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "No company-specific news since June 6; today's +3.5% uptick is a flow-driven bounce in a name still down ~15% YTD, which neither adds evidence for the water-loop/rapid-build pathway nor changes its latent-node optionality. Yesterday's hold stands.",
+      "bull": "Pipe fittings, valves and flow-control products are exactly the unglamorous plumbing layer needed for data-center liquid-cooling loops and fast facility builds, and at -15% YTD with a $1.7B cap the name carries zero AI premium - pure free optionality if hyperscale water-loop demand reaches it.",
+      "neutral": "RWC remains a residential repair-and-renovation plumbing business; FY26 guidance was merely reaffirmed in April with HY26 EBITDA down 22.5%, and there is still no disclosed data-center or AI-infrastructure revenue to validate the pathway.",
+      "bear": "The AI water-loop linkage is speculative while the core business faces soft US/UK housing demand and a residual US$25M+ tariff drag; if cooling-loop spend flows to specialist industrial valve and CDU makers instead, RWC never participates and stays a cyclical housing name.",
+      "primaryCatalyst": "Any disclosed data-center, liquid-cooling or commercial mechanical-contractor channel win, or FY26 results (August) showing tariff impact at the low end with H2 sales recovery.",
+      "primaryRisk": "Continued US/UK residential demand weakness plus tariff costs compress earnings further, with no AI-adjacent revenue ever materializing to re-rate the latent-node thesis."
+    }
+  ]
+}

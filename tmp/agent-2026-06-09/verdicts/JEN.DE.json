@@ -1,0 +1,27 @@
+{
+  "symbol": "JEN.DE",
+  "company": "Jenoptik AG",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Only routine corporate news: the June 9, 2026 AGM in Jena confirmed the previously proposed dividend of EUR 0.40/share (vs EUR 0.38 prior year) and elected three supervisory board members (Andreas Krey, Dr Frank Stietz new), with ~60% of capital represented. No new contracts, guidance, M&A, capacity announcements, or notable analyst moves since June 6. The material drivers - Q1 order intake +75% YoY to EUR 357M with semiconductor & advanced manufacturing orders at EUR 180M vs EUR 69M, and the CEO transition (Traeger out Feb 2026, Dominik Dorfner appointed in March) - all predate the window. Stock drifted -0.73% today; 17-analyst consensus target (~EUR 32) sits well below the ~EUR 44 price after a +115% YTD run.",
+  "sources": [
+    {"label": "Jenoptik press release - Results of the 2026 AGM (Jun 9, 2026)", "url": "https://www.jenoptik.com/news/pressreleases/2026/06/09/results-of-the-2026-agm"},
+    {"label": "stocksguide - Jenoptik analyst consensus and price targets", "url": "https://stocksguide.com/en/forecast/Jenoptik-DE000A2NB601"},
+    {"label": "optics.org - Jenoptik reports strong orders in opening quarter (Q1 2026)", "url": "https://optics.org/news/jenoptik-reports-strong-orders-in-opening-quarter"},
+    {"label": "Jenoptik IR - Dr. Stefan Traeger leaves Jenoptik (Nov 2025, context only)", "url": "https://www.jenoptik.us/investors/news-and-adhoc-releases/2025/11/25/ceo-stefan-traeger"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Hold at rank 41 on the scaling list: today's AGM (dividend confirmation, board seats) is pure governance housekeeping and the -0.73% day is drift, so there is no genuinely new information versus yesterday's hold. Slight -1 for rerating discipline - a +115% YTD double with no fresh fundamental evidence since June 6 and a ~EUR 32 consensus target vs ~EUR 44 price keeps compressing residual alpha.",
+      "bull": "Semiconductor & advanced manufacturing orders nearly tripled YoY in Q1 (EUR 180M vs EUR 69M) on lithography and inspection optics, and the Jena semiconductor-optics capacity expansion positions Jenoptik as a scarce qualified supplier in the EUV/inspection optics chain at only ~$2.9B market cap.",
+      "neutral": "Thesis intact but fully discovered: the stock has doubled YTD on the known order surge, the AGM changed nothing, and the next real datapoint is H1 results plus new CEO Dorfner's strategic agenda - until then the name marks time.",
+      "bear": "Price sits ~35-40% above the 17-analyst consensus target; any softening in semicap optics orders, or a strategy reset by the incoming CEO, would hit a name now priced for sustained order momentum, while non-photonics legacy segments dilute the AI-optics purity.",
+      "primaryCatalyst": "H1 2026 results / Q2 order intake confirming the semiconductor-optics order surge is sustained, plus first strategic signals from new CEO Dominik Dorfner.",
+      "primaryRisk": "Post-doubling derating toward the ~EUR 32 consensus target if semicap equipment order momentum stalls or the lithography/inspection capex cycle pauses."
+    }
+  ]
+}

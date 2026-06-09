@@ -1,0 +1,39 @@
+{
+  "symbol": "003021.SZ",
+  "company": "Shenzhen Zhaowei Machinery",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote/news page for 003021.SZ (no fresh headlines since Jun 6)",
+      "url": "https://finance.yahoo.com/quote/003021.SZ/news/"
+    },
+    {
+      "label": "Baker McKenzie - Zhaowei A+H dual listing in Hong Kong (HKD 1.9B, March 2026; already known/priced)",
+      "url": "https://www.bakermckenzie.com/en/newsroom/2026/03/shenzhen-zhaowei-dual-listing-in-hk"
+    },
+    {
+      "label": "NBD (Apr 9, 2026): RMB 800M dexterous-hand capacity expansion, 2026 commercialization push (pre-window context)",
+      "url": "https://www.nbd.com.cn/articles/2026-04-09/4332549.html"
+    },
+    {
+      "label": "STCN: Zhaowei HK listing, dexterous-hand leader globalization (background)",
+      "url": "https://www.stcn.com/article/detail/3667158.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No material news since Jun 6 and the -1.0% day move is noise; yesterday's hold stands. The -12.5% YTD drawdown with the dexterous-hand commercialization thesis intact (RMB 800M capacity add, ZWHAND B20 shipping cadence) keeps the asymmetry slightly improving, worth +1 drift but not a rank change on this page.",
+      "bull": "Sub-$4B cap pure-play on micro-drive actuation and dexterous hands, with fresh HK dual-listing capital and an RMB 800M capacity expansion ahead of 2026 humanoid hand commercialization; the YTD de-rating restores entry asymmetry the Japanese reducer leaders lack.",
+      "neutral": "All known catalysts (A+H listing, CES B20 launch, capacity plan) predate June and are arguably priced; the stock is drifting with the A-share humanoid complex while awaiting order/volume proof points.",
+      "bear": "Dexterous-hand revenue is still small versus legacy micro-drive business; if humanoid OEM order timelines slip (Goldman-flagged supply-chain optimism), the hand premium embedded in the multiple compresses further despite the YTD pullback.",
+      "primaryCatalyst": "Disclosed dexterous-hand volume orders or named humanoid OEM design wins as 2026 commercialization milestones land (H1 results / interim updates).",
+      "primaryRisk": "Humanoid order push-outs or dexterous-hand competition (Tesla in-house, domestic rivals) eroding ASPs before volumes arrive, leaving a crowded-theme de-rating to continue."
+    }
+  ]
+}

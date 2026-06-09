@@ -1,0 +1,43 @@
+{
+  "symbol": "6504.T",
+  "company": "Fuji Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Fuji Electric news release - Malaysia switchboard capacity expansion for data centers (Apr 28, 2026; construction starts June 2026)",
+      "url": "https://www.fujielectric.com/about/news/detail/1205811_5357.html"
+    },
+    {
+      "label": "Fuji Electric Global news release index",
+      "url": "https://www.fujielectric.com/about/news/index.html"
+    },
+    {
+      "label": "TradingView/Reuters - Fuji Electric treasury stock acquisition parameters",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN41B05M:0-fuji-electric-co-ltd-announcement-of-parameters-for-treasury-stock-acquisition/"
+    },
+    {
+      "label": "Note.com - Fuji Electric FY2026 strategy: ejector cooling machine (June 2026 launch) and SiC 3D-wiring modules",
+      "url": "https://note.com/dsharing/n/ndfda912d9912?hl=en-US"
+    },
+    {
+      "label": "Yahoo Finance quote 6504.T",
+      "url": "https://finance.yahoo.com/quote/6504.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a +0.4% drift day; the data-center catalysts (4x skid/switchboard capacity in Malaysia, June ejector-cooling launch, SiC 3D-wiring modules) were all disclosed pre-June 6 and were already reflected in yesterday's hold. Rank 36 in the secondary residual-alpha bucket still fits: real bottleneck adjacency but only modest mispricing, with shares now slightly above Jefferies' raised JPY13,800 target.",
+      "bull": "Power semis plus switchboards/UPS give dual exposure to the AI power bottleneck; 4x capacity expansion for data-center skid systems and the June launch of an 85%-energy-saving ejector cooling machine could drive a re-rating as an AI data-center name, with a buyback and JPY109 dividend supporting the floor.",
+      "neutral": "At +15.6% YTD and ~$14B cap, the stock has drifted up with the sector without thesis-changing news; it is neither cheap enough nor hidden enough to be a top residual-alpha pick, justifying a mid-table secondary-bucket rank.",
+      "bear": "Industrial-conglomerate mix dilutes the AI exposure; price now sits above the raised sell-side target, and any data-center capex digestion or yen strength hits both the power-semi and systems segments with limited valuation cushion.",
+      "primaryCatalyst": "Commercial traction of the June 2026 ejector cooling launch and Malaysia switchboard capacity ramp (operations from October 2026) translating into data-center order disclosures.",
+      "primaryRisk": "Re-rating already largely done relative to sell-side targets; AI data-center capex digestion or weak power-semi pricing erodes the residual-alpha case."
+    }
+  ]
+}

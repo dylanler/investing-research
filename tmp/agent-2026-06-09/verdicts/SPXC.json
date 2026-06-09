@@ -1,0 +1,27 @@
+{
+  "symbol": "SPXC",
+  "company": "SPX Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new hard fundamentals (no earnings, contracts, or M&A) since June 6. The stock is riding a sell-side attention wave: shares returned ~5% over the past week after the June 2 William Blair Growth Stock Conference presentation touting energy-efficient HVAC and data-center cooling, BMO Capital reiterated Outperform and raised its target to $248 citing data-center demand, and Zacks upgraded SPXC to Rank #2 (Buy). The underlying data-center revenue guidance (+70% in 2026, DC ~13% of sales heading to 30%+) dates to the late-April Q1 guidance raise, not this window. Today's -1.8% is a routine giveback of last week's run, flow-driven not fundamental.",
+  "sources": [
+    {"label": "Simply Wall St - Is SPXC quietly becoming a core play on energy-efficient cooling? (notes +5.1% week, William Blair presentation, Zacks Rank #2)", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-spxc/spx-technologies/news/is-spx-technologies-spxc-quietly-becoming-a-core-play-on-ene"},
+    {"label": "TipRanks - Why SPX Technologies Stock Is Suddenly Surging (June 2 William Blair conference, BMO target raise, 70% DC revenue guidance)", "url": "https://www.tipranks.com/news/catalyst/why-spx-technologies-stock-is-suddenly-surging"},
+    {"label": "Investing.com - BMO raises SPX Technologies price target to $248 on data center growth", "url": "https://www.investing.com/news/analyst-ratings/bmo-raises-spx-technologies-stock-price-target-on-data-center-growth-93CH-4653610"},
+    {"label": "Insider Monkey - Truist raise to $251 (dated April 20, outside window; confirms analyst pile-on trend)", "url": "https://www.insidermonkey.com/blog/truist-raises-its-price-target-on-spx-technologies-spxc-to-251-from-244-1749579/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 55,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "The page's thesis already flags eroding discovery upside, and the past week confirmed it: a ~5% rally driven by a conference presentation, a BMO target raise, and a Zacks upgrade is attention-led rerating with zero new fundamental evidence since June 6 - residual latency alpha shrinks further. Yesterday's hold predates the visible sell-side pile-on, which is genuinely new crowding information.",
+      "bull": "Data-center cooling revenue guided +70% in 2026 toward 30%+ of sales within four years, with Olympus Max bookings and multi-year customer commitments; bolt-ons (Thermolec, Crawford United air handling, KTS, Sigma & Omega) keep compounding the HVAC franchise.",
+      "neutral": "Fundamentals are intact and guidance was already raised in April; this week added only analyst endorsements and conference buzz, so the fair response is a modest score trim for crowding, not a thesis change. Today's -1.8% merely gives back part of last week's run.",
+      "bear": "At ~$11.4B cap with BMO, Truist, JPMorgan, and Wells Fargo all on the name and 'suddenly surging' retail coverage, SPXC is no longer a latent node - any data-center capex digestion or HVAC destocking relapse hits a stock now priced for the cooling megatrend.",
+      "primaryCatalyst": "Q2 earnings and any further data-center cooling order/backlog disclosures (Olympus Max bookings momentum).",
+      "primaryRisk": "Crowding: consensus discovery of the data-center HVAC angle compresses the remaining rerating runway just as the position gets popular."
+    }
+  ]
+}

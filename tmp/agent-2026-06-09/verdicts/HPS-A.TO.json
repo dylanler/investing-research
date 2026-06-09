@@ -1,0 +1,39 @@
+{
+  "symbol": "HPS-A.TO",
+  "company": "Hammond Power Solutions",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "GlobeNewswire - HPS declares quarterly dividend ($0.275, record date Jun 10, payable Jun 17; declared May 29)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/29/3303530/0/en/Hammond-Power-Solutions-Declares-Quarterly-Dividend.html"
+    },
+    {
+      "label": "Electrical Business - HPS to acquire AEG Power Solutions for CAD $365M all-cash (announced Feb 20, 2026; expected close Q2 2026)",
+      "url": "https://www.ebmag.com/ontarios-hammond-power-solutions-enters-aeg-acquisition-agreement/"
+    },
+    {
+      "label": "Benzinga - HPS Q1 2026 results: record sales $264.8M (+31.5% y/y), new Mexico plant shipping, data-centre demand (May 6)",
+      "url": "https://www.benzinga.com/insights/news/26/05/52322005/hammond-power-solutions-inc-reports-q1-2026-results-full-earnings-call-transcript"
+    },
+    {
+      "label": "Yahoo Finance - HPS-A.TO quote/news page (no new releases since Jun 6; consensus PT CA$358, 7 buys)",
+      "url": "https://finance.yahoo.com/quote/HPS-A.TO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news since Jun 6: AEG deal (Feb 20) and the May 29 dividend are stale, and today's -4.97% merely unwinds yesterday's +4% pop after an +83% YTD run. The pullback marginally improves entry asymmetry, but rising sell-side coverage (Overweight initiation, PT lifted to ~CA$358, 7 buys) erodes the 'underfollowed latent node' premise - the two forces net to a hold at rank 3, consistent with yesterday's hold.",
+      "bull": "North America's dry-type transformer bottleneck remains acute; record Q1 sales (+31.5% y/y) with a new Mexico plant ramping custom/data-centre capacity, and the CAD $365M AEG deal closing in Q2 adds power-electronics scope in Europe/Asia. Today's ~5% dip with the thesis intact is an asymmetry add, not a thesis crack.",
+      "neutral": "Stock chops between CA$297-313 on no news; backlog visibility is good but already articulated by management and the Street, so near-term return is mostly multiple drift until AEG closes or Q2 prints.",
+      "bear": "At +83% YTD and CA$2.8B-equivalent cap with full sell-side buy coverage, the 'latent' label is fading - discovery has largely happened, and tariff-pressured gross margins (30.1%, down y/y) plus AEG integration risk could compress the rerated multiple.",
+      "primaryCatalyst": "AEG Power Solutions close (Q2 2026) and Q2 earnings showing Mexico-capacity-driven backlog conversion into data-centre orders.",
+      "primaryRisk": "Crowding/post-rerating de-rate: a momentum unwind in grid/electrification names or tariff-driven margin slippage hits a stock that has already been discovered."
+    }
+  ]
+}

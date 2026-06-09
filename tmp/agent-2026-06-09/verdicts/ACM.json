@@ -1,0 +1,27 @@
+{
+  "symbol": "ACM",
+  "company": "AECOM",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "GuruFocus - AECOM shares surge 4.2% (Jun 1, pre-window)", "url": "https://www.gurufocus.com/news/8894961/aecom-acm-shares-surge-42-what-gf-score-of-70-tells-investors"},
+    {"label": "Globe and Mail - AECOM declares quarterly dividend (Jun 3, pre-window)", "url": "https://www.theglobeandmail.com/investing/markets/stocks/ACM/pressreleases/2305702/aecom-declares-quarterly-dividend-signaling-ongoing-shareholder-returns/"},
+    {"label": "Simply Wall St - AECOM valuation after defense and Singapore wins (pre-window)", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-acm/aecom/news/a-look-at-aecom-acm-valuation-after-major-defense-and-singap/amp"},
+    {"label": "Yahoo Finance - ACM quote", "url": "https://finance.yahoo.com/quote/ACM/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and today's -0.4% is drift; yesterday's down-move already reconciled rank 76 with the adjusted score and YTD damage. The -27% YTD washout with the permitting/power-design thesis intact marginally improves asymmetry, worth +1 drift but not a rank change one day later.",
+      "bull": "Engineering and environmental-permitting capacity is a genuinely scarce input for data-center and grid buildouts, and ACM trades near 52-week lows at ~$9B cap with insider buying and no insider selling - cheap optionality on the bottleneck.",
+      "neutral": "AECOM is large and diversified, so AI/data-center exposure is a small slice of revenue; the recent wins (Canada defense list, Singapore waste JV) are real but not AI-supply-chain catalysts, leaving it a low-purity expression of the thesis.",
+      "bear": "The -27% YTD reflects broader E&C demand and margin concerns; if infrastructure/services spending softens further, the data-center services sliver cannot carry a $9B diversified consultancy, and the stock keeps de-rating.",
+      "primaryCatalyst": "A named hyperscaler or utility-scale data-center campus design/permitting award, or Q3 FY26 results showing data-center/power backlog acceleration.",
+      "primaryRisk": "Diversified-services dilution: AI exposure stays too small to matter while the core E&C cycle and government spending mix continue to drag estimates lower."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "KWR",
+  "company": "Quaker Houghton",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Quaker Houghton press releases (most recent item: 2025 Sustainability Report, Jun 2, 2026 - pre-window, immaterial)",
+      "url": "https://www.prnewswire.com/news-releases/quaker-houghton-releases-its-2025-sustainability-report-302788915.html"
+    },
+    {
+      "label": "Quaker Houghton Q1 2026 results and 2026 outlook (Apr 30, 2026 - context, no new guidance since)",
+      "url": "https://www.prnewswire.com/news-releases/quaker-houghton-announces-first-quarter-2026-results-302758985.html"
+    },
+    {
+      "label": "Brokerage consensus check - no rating changes since June 6",
+      "url": "https://www.tickerreport.com/banking-finance/13459962/quaker-houghton-nysekwr-given-consensus-recommendation-of-hold-by-brokerages.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6 and a flat tape (-0.05% today, +3.0% YTD), so the speculative process-fluids/coolant-adjacent AI pathway is unchanged; yesterday's hold stands and a back-of-list rank 98 remains appropriate for thesis-stage evidence.",
+      "bull": "Quaker Houghton is the global leader in industrial process fluids with under-appreciated exposure to high-throughput metalworking and thermal/coolant-adjacent chemistry; Q1 2026 showed 8% sales growth with margins recovering, and at $2.4B cap with +3% YTD there is zero AI rerating priced in.",
+      "neutral": "The AI linkage is still a 'could support' pathway with no disclosed design wins, contracts, or capacity moves tied to data-center or semiconductor fluid demand; the stock trades on cyclical industrial demand and Q2 raw-material inflation lag, not AI.",
+      "bear": "Core end markets (steel, metalworking, autos) are cyclical and management already flagged Q2 gross-margin pressure from raw-material inflation; if the AI-adjacent niche never materializes, this is a low-growth specialty chemical at a hold-rated consensus with limited catalyst path.",
+      "primaryCatalyst": "Q2 2026 earnings (late July/early August) confirming margin recovery, or any disclosed data-center/semiconductor coolant or advanced-manufacturing fluid win that hardens the latent-node thesis.",
+      "primaryRisk": "Q2 margin lag from raw-material inflation proves worse than guided, or industrial end-market demand deteriorates, with the AI-adjacency pathway remaining purely speculative."
+    }
+  ]
+}

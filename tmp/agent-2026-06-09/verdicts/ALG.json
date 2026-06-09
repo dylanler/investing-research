@@ -1,0 +1,26 @@
+{
+  "symbol": "ALG",
+  "company": "Alamo Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "MarketBeat - Alamo Group (ALG) news and analyst data (last earnings May 4, hold consensus)", "url": "https://www.marketbeat.com/stocks/NYSE/ALG/"},
+    {"label": "PR Newswire - Alamo Group press release feed (no releases since Jun 6; latest M&A was Petersen close Jan 26, 2026)", "url": "https://www.prnewswire.com/news/alamo-group-inc./"},
+    {"label": "Yahoo Finance - ALG quote", "url": "https://finance.yahoo.com/quote/ALG/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "No material news since Jun 6 and today's +2.2% is sub-threshold flow noise, not new evidence on the rights-of-way/physical-build-out pathway. Yesterday's verdict already held the reconciled rank; -9.6% YTD keeps it uncrowded but adds nothing incremental, so the latent-node case is unchanged.",
+      "bull": "Under-owned $1.8B specialty-equipment maker at -9.6% YTD with a Q1 beat (EPS $2.56 vs $2.20) and the accretive Petersen grapple-loader deal adding municipal/industrial exposure; any acceleration in transmission corridors and data-center site work feeds vegetation-management and infrastructure-maintenance demand.",
+      "neutral": "The AI linkage is second-derivative at best - rights-of-way and site-maintenance equipment benefits diffusely and slowly, so the name trades on ag/municipal capex cycles, not AI build-out headlines; rank 47 on a strict latent screen fairly reflects that distance.",
+      "bear": "If the AI-adjacency never shows up in orders, ALG is just a cyclical industrial with soft agricultural end-markets and tariff-exposed input costs, and the latent-node thesis quietly expires without a catalyst.",
+      "primaryCatalyst": "Q2 earnings (early August) showing industrial-division order growth tied to utility/infrastructure right-of-way spend, or another bolt-on acquisition expanding grid-adjacent exposure.",
+      "primaryRisk": "Continued agricultural/municipal capex weakness drags results while the AI-adjacent pathway remains unevidenced, leaving the name a value trap on a latent-nodes list."
+    }
+  ]
+}

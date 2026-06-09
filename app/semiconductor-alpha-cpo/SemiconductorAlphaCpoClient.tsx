@@ -1759,7 +1759,7 @@ export default function SemiconductorAlphaCpoClient({
       <Hero data={data} />
       <CurrentThesisAudit
         compact
-        focus="For semiconductor/CPO, the current pass shifts the unified ranking toward CPO/optics, advanced packaging, HBM attach, metrology/test, and smaller-cap names where market cap and YTD rerating still leave room."
+        focus="The CPO build-out is no longer a thesis risk - NVIDIA is shipping TSMC-backed 400Tb/s Spectrum-X CPO switches and COUPE-on-substrate mass production lands in 2H26 - but the alpha map shifted this week: Broadcom's $16B FQ3 AI guide (vs $17.2B expected) knocked the SOX down 5.2% and triggered a third distribution wave in optics (COHR -12%, AAOI -15%, POET -13% on June 9), while Korea memory melted up (SK hynix +15.9% to a record, Samsung +9.0%) on a DRAM shortage Goldman calls the worst in 15 years with HBM sold out into 2028. We keep the page thesis but rotate at the margin: fade crowded optics beta and post-rerating custom-silicon chase (MRVL -10.4% on the ByteDance ASIC deal), reprice VECO as an Axcelis merger-arb proxy and promote ACLS as the go-forward vehicle, lift under-owned memory-capex derivatives (Hanmi, Kokusai), and put CPO substrate (Ibiden) on watch where NVIDIA is reportedly seeking long-term supply deals."
       />
       <FusionMethod data={data} />
       <ChartsSection data={data} />

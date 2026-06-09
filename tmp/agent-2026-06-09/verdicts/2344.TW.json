@@ -1,0 +1,39 @@
+{
+  "symbol": "2344.TW",
+  "company": "Winbond Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamental news since June 6. Context: Winbond hit limit-down around June 5 in a Taiwan memory-sector selloff triggered by a Raymond James note (Karl Ackerman) warning DRAM/NAND prices could peak around mid-2026, earlier than expected, which also knocked Micron down 7%+ and hit Nanya, Phison, and PSMC. Shares fell from ~NT$184.50 (June 4) to NT$154 (June 8), then bounced +1.62% to NT$156.5 today (June 9). Standing fundamentals are intact: DRAM/NOR/SLC NAND capacity reported sold out through 2027, record NT$42.1B 2026 capex, and Winbond's own guidance for DRAM prices up nearly 4x by end-June 2026.",
+  "sources": [
+    {
+      "label": "Taiwan News - Taiwan stock index ends lower as recent market gainers face profit-taking (Jun 5, 2026; Winbond limit-down, Raymond James mid-2026 memory price peak warning)",
+      "url": "https://www.taiwannews.com.tw/news/6377567"
+    },
+    {
+      "label": "TrendForce - Winbond expects DRAM prices to jump nearly 4x by June 2026; capacity booked through 2027",
+      "url": "https://www.trendforce.com/news/2026/02/11/news-winbond-expects-dram-prices-to-jump-nearly-4x-by-june-2026-capacity-booked-through-2027/"
+    },
+    {
+      "label": "DIGITIMES - Winbond's two-year sell-out signals memory cycle shift and US$1.35bn capex push",
+      "url": "https://www.digitimes.com/news/a20260211PD214/winbond-capex-dram-nand-flash-demand.html"
+    },
+    {
+      "label": "Yahoo Finance - Winbond Electronics (2344.TW) quote",
+      "url": "https://finance.yahoo.com/quote/2344.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's hold was made with the June 5 limit-down already known, and nothing genuinely new has emerged since; today's +1.6% bounce is mild stabilization. The ~16% correction off the June 4 high modestly improves entry asymmetry on a name with capacity sold out through 2027, but the selloff trigger - an analyst call for a mid-2026 memory price peak - is a partly fundamental challenge to the cycle leg of the thesis, not pure flow, so it offsets rather than warrants a rank upgrade.",
+      "bull": "Specialty DRAM, NOR, and SLC NAND capacity is sold out through 2027 with contract prices still rising steeply (Winbond guided DRAM up nearly 4x by end-June), and the 16% pullback restores some of the asymmetry that the 72% YTD run had consumed.",
+      "neutral": "The stock is digesting a sentiment-driven sector correction; contracted revenue visibility through 2027 cushions near-term numbers, but at +72% YTD much of the legacy-memory tightness story is already discovered, keeping it appropriately deep in the memory tier at rank 81.",
+      "bear": "If Raymond James is right that DRAM/NAND prices peak around mid-2026, Winbond is a high-beta cyclical entering the downslope just as record NT$42.1B capex lands - the exact 'memory cycles and capex timing' risk named in the thesis, with the 4x price-jump guidance marking the top.",
+      "primaryCatalyst": "Monthly revenue prints and Q2 results confirming contract-price escalation and 2027 sold-out capacity converting into earnings, which would refute the mid-2026 price-peak call.",
+      "primaryRisk": "Memory pricing peaks mid-2026 as flagged by Raymond James, compressing 2027 estimates and turning the record capex cycle into margin dilution on a stock still up 72% YTD."
+    }
+  ]
+}

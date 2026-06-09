@@ -1,0 +1,52 @@
+{
+  "symbol": "NXPI",
+  "company": "NXP Semiconductors",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news. The -3.46% June 9 move is flow-driven: a broad semiconductor pullback ahead of US jobs data plus profit-taking after a ~45% one-year run (stock down ~8% over the past week). Routine items only: annual shareholder meeting set for June 10 in Eindhoven, a pre-scheduled 10b5-1 insider sale by EVP Christopher Jensen (June 1), redemption of $750M 3.875% notes due 2026, and launch of new leveraged single-stock ETFs tying NXPI to AI trading swings - a mild crowding/flow flag, not a fundamental change.",
+  "sources": [
+    {
+      "label": "QuiverQuant - NXP slides as chip stocks pull back ahead of US jobs data",
+      "url": "https://www.quiverquant.com/news/NXP+Semiconductors+slides+as+chip+stocks+pull+back+ahead+of+key+U.S.+jobs+data"
+    },
+    {
+      "label": "Yahoo Finance - Has NXPI run too far after its 45% one-year surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-run-too-061035073.html"
+    },
+    {
+      "label": "Simply Wall St - New leveraged ETFs tie NXP closer to AI trading swings",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nxpi/nxp-semiconductors/news/new-leveraged-etfs-tie-nxp-closer-to-ai-trading-swings/amp"
+    },
+    {
+      "label": "StockTitan - NXP sets June 10 annual shareholder meeting",
+      "url": "https://www.stocktitan.net/news/NXPI/nxp-announces-availability-of-proxy-materials-for-the-annual-general-xye3ihidioym.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed NXPI down for post-rerating chase; the ~8% one-week flow-driven pullback (thesis intact) partially restores asymmetry, but with no new evidence of direct CPO/HBM/packaging bottleneck criticality there is no case to move again at rank 45.",
+      "bull": "Edge-AI and auto MCU/analog content keeps compounding, and the week-long sector sell-off de-crowds the name without touching fundamentals - residual alpha improves at the margin.",
+      "neutral": "Indirect AI exposure at a now-cooler 31% YTD; rank 45 on a node-criticality list correctly reflects that NXPI is not in the HBM/packaging/test choke points this page rewards.",
+      "bear": "P/E near 30x is ~34% above its 5-year median into a softening tape; an auto-cycle wobble or weak guidance would compress both the multiple and the edge-AI narrative.",
+      "primaryCatalyst": "Q2 earnings/guidance showing auto and industrial edge-AI content growth re-accelerating; AGM on June 10 is routine.",
+      "primaryRisk": "Auto/industrial cycle softness plus multiple compression from an elevated historical valuation premium."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On this crowding-sensitive CPO-alpha lens, the flow-driven pullback that would otherwise argue 'up' is offset by new leveraged single-stock ETFs attaching NXPI to AI momentum flows - it is becoming less hidden, not more, and yesterday already moved it down to rank 60.",
+      "bull": "If edge/auto AI inference content proves stickier than the CPO hype cycle, NXPI's cash-generative franchise re-rates independently of optics-supply-chain crowding.",
+      "neutral": "Thesis ('edge/auto AI more important than CPO') is unproven either way this week; no design wins, contracts, or guidance since June 6, so the low rank stands.",
+      "bear": "Leveraged ETF wrappers and a 30x P/E mark NXPI as an increasingly owned AI-adjacent trade with no direct CPO bottleneck leverage - the worst combination for this list: crowded and indirect.",
+      "primaryCatalyst": "Concrete edge-AI design wins or auto-AI content announcements that validate the non-CPO path to AI revenue.",
+      "primaryRisk": "Crowding via AI-themed flow vehicles into a name whose AI linkage is indirect, leaving it exposed to sector de-risking without bottleneck downside protection."
+    }
+  ]
+}

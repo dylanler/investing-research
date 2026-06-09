@@ -1,0 +1,28 @@
+{
+  "symbol": "MDA.TO",
+  "company": "MDA Space",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No MDA-specific material news since June 6. Today's -5.0% move is sector flow, not fundamentals: SpaceX priced its IPO at $135/share (~$1.75T valuation, below the ~$2T some investors expected), with the roadshow starting June 8 and listing June 12, triggering profit-taking and proxy-dumping across space names (Intuitive Machines -15%, Rocket Lab -7%, AST SpaceMobile -9%); a Blue Origin rocket explosion added sentiment pressure. MDA's latest fundamental positives (selected by BAE Systems for U.S. Space Systems Command MEO Epoch 2 constellation; Jefferies PT raise to C$51 from C$41) both landed June 2, before the window, and remain intact.",
+  "sources": [
+    {"label": "Benzinga - Why space stocks are falling ahead of SpaceX IPO", "url": "https://www.benzinga.com/markets/equities/26/06/53049322/heres-why-the-rocket-lab-planet-lab-virgin-galactic-stocks-are-falling-ahead-of-spacex-ipo"},
+    {"label": "TNW - Space stock rally cracks as SpaceX IPO nears and Blue Origin explodes", "url": "https://thenextweb.com/news/the-space-stock-rally-is-cracking-as-investors-prepare-to-swap-proxies-for-spacex-itself"},
+    {"label": "Stocktwits - Space stocks extend selloff as Jefferies courts SpaceX bears", "url": "https://stocktwits.com/news-articles/markets/equity/asts-rklb-spce-rdw-stocks-selloff-spacex-bear-trade/cZ0mDd6ReUt"},
+    {"label": "MDA Space investor news releases", "url": "https://mda-en.investorroom.com/news"},
+    {"label": "Yahoo Finance - MDA.TO quote", "url": "https://finance.yahoo.com/quote/MDA.TO/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On a latent/under-owned-nodes lens, a -5% flow-driven flush from the SpaceX-IPO proxy-dumping wave with zero MDA-specific bad news improves asymmetry: the thesis (satellite backlog, robotics, geointelligence, thin U.S. coverage) is untouched and the June 2 BAE MEO Epoch 2 selection actually strengthens it. MDA is far less crowded than the U.S. space proxies (RKLB/LUNR/ASTS) bearing the brunt of the de-rating, so it is being sold on sector beta, not ownership.",
+      "bull": "BAE Systems MEO Epoch 2 selection plus a >$4B pipeline (majority satellites) validate MDA as a real production bottleneck for space-based sensing/comms; a sector flush ahead of the June 12 SpaceX listing lets buyers in below the rerating high.",
+      "neutral": "Stock is still up ~86% YTD, so part of the latent-alpha discount has already been harvested; the SpaceX IPO overhang could keep space proxies heavy through and after June 12 without changing MDA's fundamentals.",
+      "bear": "If post-IPO capital rotates durably into SpaceX itself, multiples across listed space names compress regardless of backlog; MDA also carries program risk (EchoStar loss precedent, Artemis/Canadarm3 policy sensitivity).",
+      "primaryCatalyst": "Conversion of the BAE/SSC MEO Epoch 2 selection into firm contract value, plus next quarterly print confirming 40%+ revenue growth.",
+      "primaryRisk": "Sustained sector de-rating as SpaceX's June 12 IPO absorbs space-investor capital, dragging MDA's multiple down with crowded U.S. proxies."
+    }
+  ]
+}

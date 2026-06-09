@@ -1,0 +1,40 @@
+{
+  "symbol": "PLAB",
+  "company": "Photronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Legal overhang deepened: Schall Law Firm announced a securities-fraud investigation on June 8, joining Levi & Korsinsky (June 1), Hagens Berman and Johnson Fistel after the May 28 fiscal Q2 miss (non-GAAP EPS $0.42 vs $0.49-0.55 guide; revenue $209.9M below the $212-220M range) that wiped ~$1.1B of market cap. No new operational news; company maintained $330M FY26 capex with Korea sub-8nm and Allen TX expansions on track, and appears at investor conferences June 10-15. Today's -2.64% is post-crash drift, not a fresh fundamental event.",
+  "sources": [
+    {"label": "Schall Law Firm investigation announcement (June 8, PR Newswire)", "url": "https://www.prnewswire.com/news-releases/plab-investors-have-opportunity-to-join-photronics-inc-fraud-investigation-with-the-schall-law-firm-302793494.html"},
+    {"label": "HBSS: PLAB scrutinized after $1.1B market cap wipeout (GlobeNewswire)", "url": "https://www.globenewswire.com/news-release/2026/06/02/3305443/32716/en/Photronics-Inc-PLAB-Scrutinized-After-1-1-Billion-Market-Cap-Wipeout-Amid-Operational-Reality-Surprise-HBSS.html"},
+    {"label": "Photronics Q2 FY2026 earnings call transcript (Motley Fool)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/photronics-plab-q2-2026-earnings-transcript/"},
+    {"label": "Photronics June investor conferences (StockTitan)", "url": "https://www.stocktitan.net/news/PLAB/photronics-to-participate-in-upcoming-investor-b49s1j0lp09y.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "At rank 65 the post-miss derating is already reflected, and the AI-fab/HBM capacity thesis is operationally intact ($330M capex maintained, Korea sub-8nm and Allen expansions on track). The June 8 Schall investigation is pile-on legal noise, not new node-supply information, so hold with mild drift down.",
+      "bull": "Capacity expansion is unbroken: Korea cleanroom prep for 8nm-and-below masks and Allen qualification masks targeting initial revenue late FY26 keep PLAB levered to AI-node design starts at a now-washed-out price.",
+      "neutral": "Q3 guide of $207-215M implies flat revenue; delayed IC design releases and high fab utilization mean the AI leverage is real but slow to convert, leaving the name range-bound near the bottom of the list.",
+      "bear": "The miss was against the company's own guidance, and mounting securities-fraud investigations plus soft IC photomask demand (-5% y/y) suggest execution risk extends beyond one quarter.",
+      "primaryCatalyst": "Allen, TX facility qualification-mask revenue and Korea sub-8nm tool installs later in fiscal 2026",
+      "primaryRisk": "Further IC design-release delays and litigation escalating from investigation to filed class action"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 3,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.6,
+      "rankRationale": "The 'low-profile cash-generative' alpha framing is broken by genuinely new post-June-6 evidence: the Schall investigation (June 8) makes at least four law firms piling on, turning a quiet compounder into a headline-laden litigation name, while the miss itself was caused by delayed design releases - the exact 'levered to design complexity' driver this page's thesis rests on. A 90.5 score at rank 3 overstates residual alpha.",
+      "bull": "A ~$1.1B market-cap wipeout against a modest EPS miss, a strong net-cash balance sheet, and intact US/Korea expansion give genuine washout asymmetry once the legal noise fades.",
+      "neutral": "Cash generation and the photomask duopoly position with Toppan remain, but flat Q3 guidance and an open-ended investigation overhang cap any rerating until design-release activity recovers.",
+      "bear": "Missing the low end of its own guidance five weeks after issuing it, with management blaming delayed design releases, undercuts both credibility and the design-complexity thesis; securities-fraud probes could surface disclosure problems that force a deeper derate.",
+      "primaryCatalyst": "Evidence of IC design-release recovery and a clean Q3 print restoring guidance credibility",
+      "primaryRisk": "Investigations converting into a filed securities class action while mask order timing stays weak"
+    }
+  ]
+}

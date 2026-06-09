@@ -1,0 +1,35 @@
+{
+  "symbol": "ALQ.AX",
+  "company": "ALS",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No fundamental news. ALS was added to the S&P/ASX 50 in the June quarterly rebalance (announced June 5, effective June 22, replacing Pro Medicus) - a passive-flow/ownership event, not a thesis event. Stock goes ex-dividend June 12 (AU$0.3927/share, payable July 3). No earnings, contracts, AI-infrastructure wins, or capacity announcements. Day move -0.59% is noise.",
+  "sources": [
+    {
+      "label": "S&P DJI June 2026 Quarterly Rebalance - ALQ added to S&P/ASX 50",
+      "url": "https://mfam.com.au/asx-announcements/alq-2026-06-05-sp-dji-june-2026-quarterly-rebalance/"
+    },
+    {
+      "label": "Simply Wall St - ALS goes ex-dividend June 12",
+      "url": "https://simplywall.st/stocks/au/commercial-services/asx-alq/als-shares/news/als-limited-asxalq-stock-goes-ex-dividend-in-just-four-days-1"
+    },
+    {
+      "label": "Yahoo Finance ALQ.AX quote",
+      "url": "https://finance.yahoo.com/quote/ALQ.AX/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already moved ALQ down on adjusted-score reconciliation and nothing genuinely new has emerged on the latent AI-verification pathway; the only fresh item (S&P/ASX 50 inclusion, effective June 22) is a passive-flow event that marginally raises ownership/crowding without adding any AI-infrastructure evidence, warranting a small negative drift but no second consecutive rank move.",
+      "bull": "ALS is a global leader in environmental, water and materials testing; if hyperscale data-center buildouts trigger mandatory coolant, water-quality and emissions verification regimes, ALS captures recurring high-margin testing volume nobody is pricing in. ASX 50 inclusion adds liquidity and visibility ahead of any such evidence.",
+      "neutral": "Solid 12%/yr EPS-growth compounder trading on its mining/environmental cycle, +6.75% YTD with no AI-linked revenue disclosed; the AI-verification thesis remains a qualitative option with no contract evidence either way since the late-May FY26 results.",
+      "bear": "The AI pathway is entirely speculative - no data-center testing contracts exist - and index inclusion plus a near-$8.4B cap means the name is increasingly institutionally owned, eroding the under-owned asymmetry this list rewards; commodity-sample volumes remain the real earnings driver and are cyclical.",
+      "primaryCatalyst": "A disclosed data-center or AI-infrastructure testing/certification contract (coolant chemistry, water quality, materials) or a regulatory mandate for environmental verification of new compute campuses.",
+      "primaryRisk": "Thesis never converts to revenue while passive inflows from June 22 ASX 50 inclusion rerate the stock on flows, leaving a crowded, fully-valued cyclical with zero residual AI alpha."
+    }
+  ]
+}

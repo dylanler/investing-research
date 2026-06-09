@@ -1,0 +1,65 @@
+{
+  "symbol": "MXL",
+  "company": "MaxLinear",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock fell -10.8% on June 9 on governance/dilution jitters: auditor switch from Grant Thornton to KPMG (8-K shows no adverse opinion or disagreements) plus expanded S-8 equity shelf registrations, hitting a name up ~282% YTD. No fundamental thesis break: Q2 guide of $160-170M remains well above ~$137M Street, Washington 200G TIA for 1.6T AI optical interconnects sampling with 2H26 volume, Panther V AI storage accelerator on track, Benchmark Buy with $125 PT. Move judged largely flow-driven (profit-taking + governance overhang) rather than fundamental.",
+  "sources": [
+    {
+      "label": "Simply Wall St - MXL down after auditor switch and stock plan expansion",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mxl/maxlinear/news/maxlinear-mxl-is-down-81-after-auditor-switch-and-stock-plan"
+    },
+    {
+      "label": "SEC 8-K (2026-05-28) - Grant Thornton dismissal / KPMG engagement",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001288469/000128846926000045/mxl-20260528.htm"
+    },
+    {
+      "label": "SEC Form S-8 (2026-05-27) - employee stock plan shelf expansion",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001288469/000128846926000042/a20260527forms-8.htm"
+    },
+    {
+      "label": "StocksToTrade - MaxLinear AI/5G rally, Benchmark $125 PT, Q2 guide",
+      "url": "https://stockstotrade.com/news/maxlinear-inc-mxl-news-2026_06_03/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Already at rank 99 near the bottom of the node-bottleneck list after yesterday's down move; today's -11% flow-driven flush slightly improves asymmetry but does nothing to make MXL's indirect analog/RF/edge exposure more central to HBM/packaging/CPO bottlenecks.",
+      "bull": "200G TIA for 1.6T optical and Panther V give MXL a path from peripheral analog to genuine AI-interconnect content, and Q2 guidance well above Street confirms infrastructure demand is real.",
+      "neutral": "The sell-off is governance noise, not a thesis change; exposure remains selective and indirect versus HBM, advanced packaging and switch-silicon names, so the rank near the bottom is appropriate.",
+      "bear": "Auditor switch plus expanded equity shelves right after a parabolic run is a classic late-cycle yellow flag; if dilution follows, the de-rating has further to go on a name still up ~282% YTD.",
+      "primaryCatalyst": "2H26 volume ramp of the Washington 200G TIA into 1.6T AI optical modules",
+      "primaryRisk": "Equity issuance/dilution under the expanded shelves and further governance-driven multiple compression"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 31,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "On the alpha/CPO lens, an -11% one-day flush on non-fundamental governance jitters with the AI-optical thesis intact (200G TIA sampling, Q2 guide far above Street) improves entry asymmetry; this is MXL's most direct bottleneck-relevant listing.",
+      "bull": "The 1.6T optical TIA and Panther V put MXL directly in the AI interconnect/data-movement pull, and today's flush partially resets a crowded entry on a name with above-Street guidance.",
+      "neutral": "One -11% day only modestly dents a +282% YTD rerating; retail crowding signals (momentum-blog coverage) and the governance overhang keep residual alpha compressed despite better entry.",
+      "bear": "Auditor change plus shelf expansion can precede heavy issuance; customer concentration and turnaround execution risk mean a guidance stumble would unwind the optical-optionality premium fast.",
+      "primaryCatalyst": "Design-win or volume confirmation for the 200G TIA in 1.6T modules and Q2 print versus the $160-170M guide",
+      "primaryRisk": "Crowded retail positioning unwinding further if governance/dilution concerns escalate"
+    },
+    {
+      "page": "companies",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Bucket fit (EDA, test & timing / design-validation) remains weak for a connectivity-analog name, and the governance-driven sell-off neither strengthens nor breaks that thesis; yesterday's down move already priced the rerating, so hold at rank 97.",
+      "bull": "Signal-integrity and high-speed analog competence is real and the infrastructure segment grew 136% YoY, giving fundamental support if the governance noise clears.",
+      "neutral": "Nothing since June 6 changes MXL's relevance to verification/probe/test bottlenecks; the -11% day is profit-taking plus auditor-switch jitters on a massively rerated name.",
+      "bear": "A name still up ~282% YTD with fresh dilution capacity and an auditor handoff is the wrong place to look for hidden design-validation alpha; further de-rating is the path of least resistance.",
+      "primaryCatalyst": "Clean KPMG transition and Q2 results validating the above-Street guide",
+      "primaryRisk": "Governance overhang plus weak page-thesis fit leading to continued score erosion"
+    }
+  ]
+}

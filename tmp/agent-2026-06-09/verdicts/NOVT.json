@@ -1,0 +1,39 @@
+{
+  "symbol": "NOVT",
+  "company": "Novanta",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9, 2026: Novanta announced the acquisition of Riverpoint Medical (surgical fibers/consumables, Arlington Capital portfolio company) for $1.2B upfront plus a $250M Q1 2027 milestone ($1.45B total), expected to close Q3 2026. Deal doubles recurring medical consumables revenue to ~$300M and deepens medical end-market concentration to 60% of total revenue. Simultaneously announced a $300M private placement of common shares at $140/share (~13% below the prior close), closing June 11. Stock fell ~2% on the news. Strategically this pivots capital toward recurring medical revenue and away from the AI/robotics photonics-and-motion thesis.",
+  "sources": [
+    {"label": "StockTitan - NOVT news feed (Riverpoint acquisition + $300M private placement, June 9, 2026)", "url": "https://www.stocktitan.net/news/NOVT/"},
+    {"label": "Yahoo Finance - Novanta outlays $1.45bn for Riverpoint Medical buyout", "url": "https://finance.yahoo.com/sectors/healthcare/articles/novanta-outlays-1-45bn-riverpoint-163112960.html"},
+    {"label": "Yahoo Finance - NOVT quote", "url": "https://finance.yahoo.com/quote/NOVT/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 52,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.75,
+      "rankRationale": "Genuinely new June 9 news: the $1.45B Riverpoint surgical-consumables deal lifts medical concentration to 60% of revenue, actively diluting the sensors/photonics AI-node relevance this page ranks NOVT for, and the $300M placement at $140 (below the $161 market) adds dilution on top of a +45% YTD rerating. Capital is being allocated away from the AI supply chain, so residual alpha on this page shrinks further than yesterday's down move captured.",
+      "bull": "Riverpoint grows revenue 12-15% annually, doubles recurring consumables revenue, and reduces cyclicality; the photonics/precision-motion franchise serving advanced manufacturing remains intact and high quality.",
+      "neutral": "Core sensors-and-measurement exposure is unchanged in absolute terms; the deal mainly changes mix and balance sheet, and the modest -2% reaction suggests the market sees a fair-priced, strategically coherent deal.",
+      "bear": "Management is signaling its growth bet is medical consumables, not AI/photonics; 60% medical concentration, a sub-market equity raise, and added credit-facility leverage make this an increasingly expensive medtech hybrid masquerading on an AI-nodes list.",
+      "primaryCatalyst": "Q3 2026 Riverpoint close plus Q2 earnings showing whether photonics/precision-motion bookings (37% Q1 booking growth) carry through.",
+      "primaryRisk": "Integration of a $1.45B deal at peak valuation while medical mix dilutes the AI-node thesis and the equity raise caps near-term upside."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 23,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's hold is superseded by genuinely new M&A: post-Riverpoint, NOVT becomes 60% medical with consumables (sutures/surgical fibers) doubling, so robotics/actuation purity - already the page's stated weakness ('not a cheap hidden humanoid play') - drops further. Capital deployment plus a dilutive $140 placement signal the growth engine is surgical consumables, not motion components.",
+      "bull": "Surgical consumables deepen ties to minimally invasive surgery OEMs where Novanta already supplies medical-robot subsystems, and recurring revenue funds continued precision-motion R&D.",
+      "neutral": "The motion and robotics component business is untouched operationally; this is a mix-shift and financing story, and the robotics franchise quality remains high.",
+      "bear": "A $1.45B consumables buyout is the opposite of doubling down on robotics; on a humanoid/robotics alpha list NOVT is now a lower-purity, more leveraged, post-rerating (+45% YTD) name with dilution landing June 11.",
+      "primaryCatalyst": "Deal close in Q3 2026 and any disclosure quantifying surgical-robotics OEM cross-sell from Riverpoint.",
+      "primaryRisk": "Robotics-purity erosion: medical consumables become the narrative while humanoid/automation investors rotate to purer actuation and motion plays."
+    }
+  ]
+}

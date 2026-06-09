@@ -1,0 +1,27 @@
+{
+  "symbol": "MRCY",
+  "company": "Mercury Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new news since June 6, 2026. The major catalysts - Q3 FY26 beat (EPS $0.27 vs ~$0.06 est., revenue $236M +11.5% organic, record $348M bookings, 1.48 book-to-bill, record ~$1.6B backlog) and the late-May Blue Raven order for 1,000 RTBX06 BuiltSECURE servers plus Altera/VadaTech Agilex 9 FPGA alliances - all predate June 6 and drove the ~22% post-earnings run. Today's -4.43% has no identifiable fundamental driver and reads as flow-driven consolidation after the rerating; Mercury is exhibiting at IMS 2026 in Boston June 7-12 (non-material).",
+  "sources": [
+    {"label": "Yahoo Finance - Mercury Systems (MRCY) Up 21.7% Since Last Earnings Report", "url": "https://ca.finance.yahoo.com/news/mercury-systems-mrcy-21-7-153022428.html"},
+    {"label": "Simply Wall St - MRCY Up 13.6% After Record Blue Raven Server Deal And New FPGA Alliances", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-mrcy/mercury-systems/news/why-mercury-systems-mrcy-is-up-136-after-record-blue-raven-s"},
+    {"label": "Mercury Systems Investor Relations - Press Releases", "url": "https://ir.mrcy.com/press-releases"},
+    {"label": "Mercury Systems - IMS 2026 event page", "url": "https://www.mrcy.com/company/news-insights/events-and-webinars/ims-2026"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new information since yesterday's hold; the earnings/Blue Raven catalysts are pre-June 6 and already priced into the +39% YTD rerating. Today's -4.4% pullback on no news modestly improves entry asymmetry but is not sharp enough to change the latent-node setup, so hold with slight positive drift.",
+      "bull": "Record $1.6B backlog, 1.48 book-to-bill, and the largest-ever RTBX06 order confirm the operating turnaround is real, and a -4.4% no-news pullback gives a slightly better entry into a validated defense-edge-compute thesis.",
+      "neutral": "The 'crowd-skeptical turnaround' thesis is being validated, but validation is exactly what erodes latency - the stock is +39% YTD and +22% post-earnings, so residual hidden alpha is shrinking even as fundamentals improve.",
+      "bear": "After the rerating, MRCY is no longer under-owned at $6.5B cap; any FY27 guidance softness, margin slippage, or defense budget timing noise could unwind the multiple expansion faster than backlog converts to revenue.",
+      "primaryCatalyst": "Q4 FY26 earnings and FY27 guidance confirming sustained margin recovery and backlog-to-revenue conversion; follow-on common-processing-architecture orders.",
+      "primaryRisk": "Post-rerating crowding: at +39% YTD the turnaround is increasingly consensus, so execution wobbles or program delays would hit a much fuller multiple."
+    }
+  ]
+}

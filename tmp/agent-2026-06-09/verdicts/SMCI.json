@@ -1,0 +1,41 @@
+{
+  "symbol": "SMCI",
+  "company": "Super Micro Computer",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock fell 9.1% to ~$40 on June 9, extending a brutal week (-11% on June 5). Drivers are fundamental, not flow: Goldman Sachs reiterated Sell citing extreme customer concentration (one data-center client = 27% of quarterly sales, ~39% of YTD revenue); a reported customer order cancellation linked to the March 19 DOJ indictment of SMCI executives (incl. co-founder Wally Liaw) for allegedly smuggling ~$2.5B of Nvidia-powered servers to China; reports of slowing xAI business and excess B200 GPU inventory. This compounds the early-June revenue miss ($10.24B, ~$2.2B below consensus) and lowered FY guidance. Enterprise/government customers reportedly evaluating shifts to Dell/HPE on compliance risk.",
+  "sources": [
+    {"label": "Yahoo Finance - Why Super Micro (SMCI) Stock Is Down Today (Goldman Sell, customer concentration)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-super-micro-smci-stock-034855149.html"},
+    {"label": "FX Leaders - SMCI slides as new platforms fail to offset revenue disappointment (Jun 3, 2026)", "url": "https://www.fxleaders.com/news/2026/06/03/smci-stock-slides-to-45-as-new-platforms-fail-to-offset-revenue-disappointment/"},
+    {"label": "CNBC - Super Micro execs charged with smuggling Nvidia chips to China (Mar 19, 2026 indictment backdrop)", "url": "https://www.cnbc.com/2026/03/19/us-tech-execs-smuggled-nvidia-chips-to-china-prosecutors-say.html"},
+    {"label": "Tom's Hardware - Nvidia CEO urges Super Micro to fix export-control compliance after $2.5B smuggling bust", "url": "https://www.tomshardware.com/tech-industry/jensen-huang-urges-super-micro-to-tighten-compliance"},
+    {"label": "Yahoo Finance - SMCI quote", "url": "https://finance.yahoo.com/quote/SMCI/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 89,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a passives/power-bottleneck alpha list SMCI was already a peripheral monitor name; the -9% day is NOT a thesis-intact dip - customer cancellation tied to the DOJ export-control indictment and Goldman's concentration warning directly attack the 'central-node, tight-supply' claim, so asymmetry worsened rather than improved.",
+      "bull": "At ~$40 and ~$26B cap the stock has given back most of its rerating; if customer attrition stays contained to one or two accounts, AI server demand alone can stabilize revenue and the name re-enters as a cheap direct-AI proxy.",
+      "neutral": "SMCI was never core to the passive/power bottleneck stack this page tracks; the legal and customer noise mostly confirms it belongs near the bottom as a benchmark, with score drift rather than a thesis change for this page's lens.",
+      "bear": "Compliance-driven share shift to Dell/HPE plus 27%-of-revenue single-customer exposure means the 'direct AI integration' exposure can shrink in absolute terms even as the AI buildout accelerates; legal escalation (company named, fines, export license curbs) is unpriced tail risk.",
+      "primaryCatalyst": "Evidence the reported cancellation is isolated - a new hyperscaler/neocloud design win or reaffirmed Q4 guidance at the high end ($12.5B).",
+      "primaryRisk": "Further customer defections or DOJ action against the company itself (not just individuals), turning a governance discount into structural revenue loss."
+    },
+    {
+      "page": "companies",
+      "currentRank": 43,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.7,
+      "rankRationale": "This page's thesis explicitly says 'watch ai server platforms execution and pricing' - and execution visibly broke this week: revenue miss with lowered guidance, Goldman Sell on 27% single-customer concentration, and a cancellation tied to the export-control indictment. That is meaningful new negative evidence on top of yesterday's down, justifying another step down despite the cheaper price.",
+      "bull": "YTD has compressed to +29% and the stock sits ~48% below average analyst targets; if SMCI retains its top accounts and clears B200 inventory into GB300-era demand, deployment exposure at this valuation offers genuine snap-back alpha.",
+      "neutral": "Demand for AI rack integration is intact and SMCI is not a named defendant; the question is purely how much share leaks to Dell/HPE while the legal cloud persists - a multi-quarter show-me story rather than an immediate resolution.",
+      "bear": "Customer concentration plus a compliance scandal is the worst combination for a systems integrator: government/defense customers may be forced out entirely, the largest client has every excuse to dual-source, and excess B200 inventory implies margin-destructive flush pricing ahead.",
+      "primaryCatalyst": "Q4 (June-quarter) print hitting the $11-12.5B guide with stable gross margin, or disclosure that top-customer order flow is unchanged post-indictment.",
+      "primaryRisk": "Escalation of the DOJ export-control case to the corporate entity, or confirmation that the 27%-revenue customer is diversifying away - either would impair the deployment-exposure thesis structurally."
+    }
+  ]
+}

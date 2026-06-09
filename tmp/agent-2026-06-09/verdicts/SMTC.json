@@ -1,0 +1,55 @@
+{
+  "symbol": "SMTC",
+  "company": "Semtech",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Post-earnings rerating wave: after record FQ1-27 results (net sales $291M, +16% y/y; non-GAAP EPS $0.51) and a substantially-ahead Q2 guide (~$328M) driven by 800G optical demand and active-copper-cable ramp for Google Ironwood racks, sell-side targets were raised en masse (UBS $225, Benchmark $230, Mizuho $225, TD Cowen $210, Needham $200, Stifel $188). Stock popped +5.3% June 8 to $158.79, then pulled back -3.3% today to ~$153.6 on no new fundamental news. Cluster of insider sales disclosed (COO Silberstein, board chair sold ~45% of stake, two directors) at ~$164. Forward P/E ~60x vs 5-yr median ~37x; +324-351% over 1 year.",
+  "sources": [
+    {"label": "Simply Wall St - Why Semtech Is Up 6.2% After Earnings Beat And Stronger Q2 Sales Outlook", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-smtc/semtech/news/why-semtech-smtc-is-up-62-after-earnings-beat-and-stronger-q"},
+    {"label": "Investing.com - UBS raises Semtech price target to $225 on optical demand", "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-semtech-stock-price-target-to-225-on-optical-demand-93CH-4712643"},
+    {"label": "Investing.com - Benchmark raises Semtech price target on data center growth", "url": "https://www.investing.com/news/analyst-ratings/benchmark-raises-semtech-stock-price-target-on-data-center-growth-93CH-4712591"},
+    {"label": "GuruFocus - Semtech shares surge 5.3% (June 8)", "url": "https://www.gurufocus.com/news/8906257/semtech-corp-smtc-shares-surge-53-what-gf-score-of-71-tells-investors"},
+    {"label": "TipRanks - Semtech insider stock sales", "url": "https://www.tipranks.com/news/insider-trading/semtech-insider-moves-boardroom-stock-sales-spark-fresh-investor-buzz-insider-trading-news"},
+    {"label": "Simply Wall St - Independent chair sold 45% of shares", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-smtc/semtech/news/independent-chair-of-the-board-of-semtech-sold-45-of-their-s"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Beat-and-raise with LoRa and data-center signal products both cited as drivers validates the optionality thesis, but six simultaneous PT raises and a +324% 1-yr run mean the node is no longer latent - discovery is complete, offsetting the fundamental confirmation. Yesterday's down move already reconciled the score; no new reason to move again.",
+      "bull": "Record quarter with LoRa and data-center signal chain both inflecting proves the dual-optionality thesis; balance-sheet repair is done and Q2 guided well above consensus.",
+      "neutral": "Fundamentals confirmed but the hidden-node premium is gone: full sell-side coverage at $188-230 targets means the market already prices the optionality.",
+      "bear": "Forward P/E ~60x vs 37x median plus an insider-selling cluster at ~$164 caps upside; any LoRa or ACC order air-pocket triggers a violent derating.",
+      "primaryCatalyst": "Continued LoRa ecosystem wins plus 800G/ACC data-center ramp through FY27.",
+      "primaryRisk": "Crowding and multiple compression after a 100%+ YTD rerating; insider selling signals stretched valuation."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "The page thesis calls SMTC 'less direct than HBM, advanced packaging and AI networking names,' but the FQ1 print and Q2 guide were driven by 800G optical (FiberEdge/Tri-Edge) and CopperEdge ACCs ramping into Google Ironwood racks - genuinely new, company-specific evidence of direct AI-network-bottleneck exposure that rank 60 understates.",
+      "bull": "Confirmed ACC design win in Google Ironwood plus 800G optical demand makes Semtech a direct scale-up/scale-out interconnect supplier, not a peripheral analog name.",
+      "neutral": "Direct AI exposure is now proven but still a fraction of revenue; the rest of the portfolio (IoT, industrial) remains mid-cycle and dilutes node centrality.",
+      "bear": "ACC adoption is contested (retimer-less copper, optics competition) and a single hyperscaler anchor customer creates concentration risk if rack architectures shift.",
+      "primaryCatalyst": "Data-center segment revenue acceleration through FY27 as Ironwood ACC volumes and 800G optical ramp.",
+      "primaryRisk": "Architecture shifts (CPO/optics displacing ACC, or in-house signal-chain silicon) eroding the design-win moat."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 1,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, rank 1 demands maximum residual asymmetry; since June 6 the rerating has completed - six PT raises to $200-230, a +5.3% pop, 60x forward earnings, and insiders (including the board chair selling 45% of his stake) cashing out. The 'smaller-cap second-derivative' discovery thesis has been fully discovered; residual alpha is shrinking even though fundamentals beat.",
+      "bull": "Beat-and-raise with Ironwood ACC and 800G optical confirms the signal-integrity thesis; if data-center revenue compounds as Mizuho/Benchmark model, $225-230 targets are achievable.",
+      "neutral": "Thesis intact and executing, but at $14.2B and 60x forward the second-derivative discount is gone; today's -3.3% pullback is modest profit-taking, not a reset of the setup.",
+      "bear": "Maximum-crowding setup: every major shop just raised targets, insiders are selling in size, and positioning is one guidance wobble away from a 20-30% air pocket.",
+      "primaryCatalyst": "Q2 FY27 print (~$328M guide) confirming the data-center ramp steepens further.",
+      "primaryRisk": "Post-rerating chase risk - full sell-side adoption plus insider selling at the highs leaves little asymmetric upside at rank 1."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "CR",
+  "company": "Crane Company",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - CR quote and news", "url": "https://finance.yahoo.com/quote/CR/"},
+    {"label": "StockTitan - Crane closes $1.06B PSI acquisition (8-K, pre-June 6)", "url": "https://www.stocktitan.net/sec-filings/CR/8-k-crane-co-reports-material-event-fbab773fbf50.html"},
+    {"label": "Crane IR - Q4 2025 results / 2026 guidance (pre-June 6)", "url": "https://investors.craneco.com/news/news-details/2026/Crane-Company-Reports-Strong-Q4-2025-Performance-Initiates-2026-Guidance-Completes-Two-Acquisitions-and-Announces-Leadership-Transition-Plan/default.aspx"},
+    {"label": "Investing.com - Stifel upgrades Crane to Buy, $215 PT (acquisition integration, not AI-specific)", "url": "https://www.investing.com/news/analyst-ratings/stifel-upgrades-crane-stock-rating-on-acquisition-performance-93CH-4643751"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already penalized the adjusted-score gap; no AI-chain-relevant news since June 6 and today's +2.65% is sub-threshold industrial drift, so hold at 74 with minor negative drift for price creep without new latent-node evidence.",
+      "bull": "Strong M&A execution (Druck, Panametrics/PSI, Reuter-Stokes) is building a high-reliability sensing and fluid-control portfolio that could plausibly win thermal-management and precision-flow niches in AI datacenter and power infrastructure.",
+      "neutral": "Q1 2026 beat and raised guidance ($6.65-$6.85 EPS) reflect aerospace and acquisition strength, but none of it is AI-chain specific; the latent-node thesis remains speculative cross-pollination with no design wins disclosed.",
+      "bear": "Process Flow Technologies faces organic headwinds, leverage from $1.36B of acquisitions raises interest costs, and if the AI-cooling crossover never materializes this is just a fairly valued diversified industrial with no residual alpha on this screen.",
+      "primaryCatalyst": "A disclosed datacenter cooling/flow-control design win or AI-infrastructure order leveraging the Panametrics/Druck sensing portfolio.",
+      "primaryRisk": "Thesis remains hypothetical cross-pollination; integration strain or industrial-cycle softness erodes the score before any AI-chain evidence appears."
+    }
+  ]
+}

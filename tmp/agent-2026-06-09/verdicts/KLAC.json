@@ -1,0 +1,53 @@
+{
+  "symbol": "KLAC",
+  "company": "KLA",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Shares spiked ~10% on June 8 on split-anticipation flows and semis sentiment ahead of the 10-for-1 split (announced May 7; effective after close June 11, split-adjusted trading June 12) plus recycled FQ3 beat/guidance narrative. UBS carries a street-high $2,180 target, but at ~$2,097 the stock already trades above the ~$1,850 mean analyst target. Today's -0.53% is drift, not signal.",
+  "sources": [
+    {"label": "KLA IR - Ten-to-One Stock Split and Dividend press release", "url": "https://ir.kla.com/news-events/press-releases/detail/515/kla-corporation-announces-ten-to-one-stock-split-and"},
+    {"label": "TradingKey - KLAC +10.05% on Jun 8, key drivers", "url": "https://www.tradingkey.com/news/market-movers/261953453-market-movers-klac-20260608"},
+    {"label": "MarketBeat - KLAC analyst targets (UBS $2,180, mean ~$1,842)", "url": "https://www.marketbeat.com/stocks/NASDAQ/KLAC/forecast/"},
+    {"label": "Yahoo Finance - KLAC quote", "url": "https://finance.yahoo.com/quote/KLAC/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Process-control intensity at 2nm/GAA and HBM keeps the node-bottleneck case intact, and the page already de-rated KLA from 48 to 57 after the June 8 split-flow spike; nothing fundamentally new since yesterday's hold justifies another move.",
+      "bull": "Inspection/metrology intensity rises structurally with advanced nodes, HBM and advanced packaging; KLA's near-monopoly in process control means every AI fab expansion buys its tools.",
+      "neutral": "Thesis intact but fully recognized: +64.5% YTD, $271.5B cap, and the stock above the mean analyst target leave order timing and China export exposure as the swing factors.",
+      "bear": "WFE order digestion or new export-control tightening hits KLA's high-margin China services and systems mix just as the multiple sits at cycle highs.",
+      "primaryCatalyst": "September-quarter guidance confirming CY2026 process-control growth outpacing WFE.",
+      "primaryRisk": "Export-control escalation or AI capex order push-outs deflating a peak multiple."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 55,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, a ~10% June 8 pop on a cosmetic split catalyst (effective June 12) with zero new fundamental evidence is textbook flow-chase; discovery was already flagged high and just got higher, so residual alpha shrinks.",
+      "bull": "Advanced-packaging and silicon-photonics yield control is a real incremental TAM where KLA's inspection moat ports over before the street fully models it.",
+      "neutral": "The CPO/packaging angle is genuine but small relative to a $271.5B cap; the name now trades above the mean analyst target on retail split flows.",
+      "bear": "Post-split flow reverses after June 12, and a packaging order air-pocket exposes that the CPO optionality was priced as core earnings.",
+      "primaryCatalyst": "Concrete silicon-photonics/CPO inspection design wins disclosed at earnings or conferences.",
+      "primaryRisk": "Split-flow unwind after June 12 plus crowding leaves no asymmetry at a peak multiple."
+    },
+    {
+      "page": "companies",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved KLA down for the YTD rerating and recognition; no new information since June 6 beyond the flow-driven June 8 pop, so re-penalizing today would be double-counting.",
+      "bull": "Pick-and-shovel exposure with the best margin structure in WFE; process control share gains compound through every AI capacity cycle.",
+      "neutral": "Execution is excellent but fully owned: $271.5B cap, +64.5% YTD, and price above consensus targets mean the market already pays for the bottleneck.",
+      "bear": "A WFE digestion year or China revenue cliff turns a premium multiple into double-digit downside with little hidden alpha to cushion it.",
+      "primaryCatalyst": "Order book acceleration from HBM/advanced-packaging capacity adds in 2H 2026.",
+      "primaryRisk": "Cyclical order digestion meeting a crowded, post-rerating shareholder base."
+    }
+  ]
+}

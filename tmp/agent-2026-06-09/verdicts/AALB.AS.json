@@ -1,0 +1,39 @@
+{
+  "symbol": "AALB.AS",
+  "company": "Aalberts",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance / Simply Wall St - Is It Too Late To Reassess Aalberts After Its Recent 21% Monthly Jump?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/too-reassess-aalberts-enxtam-aalb-020925240.html"
+    },
+    {
+      "label": "GlobeNewswire - Aalberts share buyback progress 25 May - 29 May 2026 (zero shares repurchased; published Jun 2)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3304933/0/en/Aalberts-reports-the-progress-of-its-share-buyback-programme-25-May-29-May-2026.html"
+    },
+    {
+      "label": "Aalberts newsroom - press releases (no new releases since Jun 6)",
+      "url": "https://aalberts.com/progress?tag=press-release"
+    },
+    {
+      "label": "Aalberts IPS - data center piping/cooling portfolio (pre-existing, AHR Expo Feb 2026)",
+      "url": "https://mechanical-hub.com/aalberts-integrated-piping-systems-at-ahr-expo-2026/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since Jun 6 - no contracts, guidance, or capacity news - and today's +1.27% is drift, so the setup is unchanged from yesterday's hold. The ~21% one-month rerating without fresh data-centre wins slowly consumes the 'non-AI multiple' latency that anchors this listing, hence a small negative drift rather than a rank move.",
+      "bull": "Hydronic flow control and integrated piping are genuine, under-recognized inputs to data-centre chilled/technical water loops, and sell-side DCFs still put intrinsic value near EUR 52-53 vs ~EUR 38, so latent upside remains even after the run.",
+      "neutral": "Aalberts is a diversified industrial (Building/Industry/Semicon) where AI-adjacent hydronic and piping demand is a minority of revenue; absent disclosure of data-centre order intake, the AI-node thesis stays plausible but unproven, and the stock tracks European industrial recovery beta.",
+      "bear": "+34% YTD and +21% in a month with no announced design wins means the 'hidden at a non-AI multiple' edge is being arbitraged away by generalist money; a soft European construction cycle or Semicon downturn would hit the consolidated P&L regardless of the cooling narrative.",
+      "primaryCatalyst": "H1 2026 results / guidance with explicit data-centre or hydronic order-intake disclosure, or a named hyperscale cooling-infrastructure win.",
+      "primaryRisk": "Multiple rerating completes without fundamental confirmation, leaving a crowded, no-longer-latent industrial exposed to European building/Semicon cyclicality."
+    }
+  ]
+}

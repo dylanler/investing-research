@@ -1,0 +1,82 @@
+{
+  "symbol": "ON",
+  "company": "onsemi",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Three on-thesis positives: collaboration with NVIDIA to accelerate 800 VDC power architectures for next-gen AI data centers (MGX ecosystem expansion, ~Jun 8); launch of GaNEXUS gallium nitride power portfolio targeting AI data center power density (Jun 9); Elite Pairing Studio SiC MOSFET/gate-driver design tool (Jun 8). Today's -6.3% is flow-driven, not company-specific: chips retreated again on inflation jitters and pre-CPI positioning, the aftershock of the Jun 5 sector rout triggered by Broadcom's soft AI guidance and a hot 172k jobs print that killed near-term rate-cut hopes.",
+  "sources": [
+    {
+      "label": "onsemi PR - NVIDIA 800 VDC collaboration for AI data centers",
+      "url": "https://www.onsemi.com/company/news-media/press-announcements/en/onsemi-collaborates-with-nvidia-to-accelerate-transition-to-800-vdc-power-solutions-for-next-generation-ai-data-centers"
+    },
+    {
+      "label": "Semiconductor Today - onsemi role in NVIDIA MGX 800VDC expanding (Jun 8)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/onsemi-080626.shtml"
+    },
+    {
+      "label": "StockTitan - GaNEXUS GaN portfolio launch, AI data center power hardware shrink up to 60%",
+      "url": "https://www.stocktitan.net/news/ON/onsemi-introduces-ga-nexus-gallium-nitride-power-vzn2ahhznbpo.html"
+    },
+    {
+      "label": "QuiverQuant - onsemi slides as chips retreat on inflation jitters and pre-event positioning",
+      "url": "https://www.quiverquant.com/news/onsemi+slides+as+chip+stocks+retreat+amid+inflation+jitters+and+pre-event+positioning"
+    },
+    {
+      "label": "CNN - Jun 5 chip-led rout on Broadcom guidance and rate-hike odds",
+      "url": "https://www.cnn.com/2026/06/05/markets/stock-market-sell-off-fed"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 37,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "On a residual-alpha page, a -6.3% flow-driven flush paired with genuinely new power-bottleneck evidence (NVIDIA 800VDC collaboration, GaNEXUS launch) improves asymmetry versus rank-37 peers that only de-rated.",
+      "bull": "800VDC is the architecture shift that multiplies power-semi content per AI rack, and onsemi just got named into the NVIDIA ecosystem for it; the pullback resets entry after the macro flush.",
+      "neutral": "At $43B and +100% YTD, onsemi is hardly hidden; the new collaborations are real but revenue timing into 2027 racks is unproven.",
+      "bear": "Auto/industrial still dominates the revenue mix, so a macro downturn plus rate-hike risk hits the core business while the AI power story is still optionality.",
+      "primaryCatalyst": "Design-win or revenue quantification of the NVIDIA 800VDC/MGX power content at upcoming events or Q2 earnings.",
+      "primaryRisk": "Renewed rate-hike repricing compresses semi multiples and the auto/industrial cycle stays soft into H2."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "The page's knock on ON was indirectness to AI nodes; the NVIDIA 800VDC/MGX ecosystem tie plus the GaNEXUS launch is a concrete directness upgrade that rank 89 does not reflect, and yesterday's down move pre-dated this evidence.",
+      "bull": "Named participation in NVIDIA's 800VDC power architecture moves onsemi from generic power supplier toward a specified node in next-gen AI rack power delivery.",
+      "neutral": "Power delivery remains a more substitutable layer than HBM, packaging, or test; multiple vendors (Infineon, TI, MPS, Navitas) are in the same 800VDC push.",
+      "bear": "If 800VDC adoption slips or NVIDIA spreads content across many suppliers, ON's incremental AI revenue stays too small to offset auto-cycle drag.",
+      "primaryCatalyst": "MGX/800VDC reference designs shipping with onsemi SiC/GaN content specified.",
+      "primaryRisk": "Crowded 800VDC supplier field dilutes content share and pricing."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Through the CPO lens nothing changed: the NVIDIA news is power-side, not co-packaged optics, so rank 88 stays; the flow-driven dip only marginally improves the setup. Yesterday's down move already captured the rerating penalty.",
+      "bull": "Even on a CPO page, cheaper entry into a strengthening AI-power adjacency adds modest optionality if the list tolerates power/SiC satellites.",
+      "neutral": "ON remains a Power/SiC category holding with no direct CPO exposure; new announcements do not change its place in the optics bottleneck map.",
+      "bear": "A non-CPO name at +100% YTD with auto/industrial cyclicality is dead weight on an optics-bottleneck list if the macro flush continues.",
+      "primaryCatalyst": "Any onsemi power content specified inside CPO-era rack architectures (800VDC sidecars for optics-dense switches).",
+      "primaryRisk": "Auto/industrial cycle deterioration with zero CPO offset."
+    },
+    {
+      "page": "companies",
+      "currentRank": 74,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "This page's thesis is power-delivery content, and the NVIDIA 800VDC collaboration plus GaNEXUS launch is exactly that evidence arriving while the stock gives back 6.3% on macro flow - asymmetry improved versus yesterday's rerating-driven down move.",
+      "bull": "800VDC transition raises onsemi's dollar content per AI rack across SiC and GaN, and the NVIDIA tie validates the board-level power thesis with a named anchor customer ecosystem.",
+      "neutral": "Announcements are portfolio and ecosystem news, not booked revenue; the stock's +100% YTD already prices meaningful AI power success.",
+      "bear": "Power semis are competitive and cyclical; if hyperscaler capex pace disappoints (per Broadcom's guidance scare), the AI power TAM expands slower than the multiple assumes.",
+      "primaryCatalyst": "Quantified AI data center revenue or 800VDC design-win disclosure at Q2 2026 earnings.",
+      "primaryRisk": "Macro rate-hike repricing plus soft auto demand compresses both earnings and multiple simultaneously."
+    }
+  ]
+}

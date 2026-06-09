@@ -1,0 +1,41 @@
+{
+  "symbol": "SIMO",
+  "company": "Silicon Motion",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only fresh item is participation in the BofA Securities 2026 Asia Conference today (June 9), a non-event. All material catalysts predate the window: record Q1 2026 (revenue $342M, +105% YoY), May 27 BofA price-target raise to $450, COMPUTEX AI storage lineup, and the SM2524XT PCIe Gen5 DRAMless controller for AI inference/KV-cache workloads. Today's -3.7% move is flow-driven profit-taking after the stock ran through the ~$258 Street consensus target; the stock has pulled back from ~$295 highs to $253.52 while still +170% YTD.",
+  "sources": [
+    {"label": "StockTitan - Silicon Motion to join six investor conferences (incl. BofA Asia Conference Jun 9)", "url": "https://www.stocktitan.net/news/SIMO/silicon-motion-to-attend-upcoming-investor-bv6w9iuijc0d.html"},
+    {"label": "Nasdaq - Silicon Motion Technology Reaches Analyst Target Price", "url": "https://www.nasdaq.com/articles/silicon-motion-technology-reaches-analyst-target-price"},
+    {"label": "TipRanks - SIMO forecast / consensus targets (~$258 avg vs $253.52 price)", "url": "https://www.tipranks.com/stocks/simo/forecast"},
+    {"label": "StockTitan - Silicon Motion AI storage lineup at COMPUTEX 2026 (pre-window catalyst)", "url": "https://www.stocktitan.net/news/SIMO/silicon-motion-showcases-next-generation-storage-architectures-for-pxvy2y8xvzll.html"},
+    {"label": "GuruFocus - SIMO after decline, GF Value $110 vs price ~$268 (valuation stretch)", "url": "https://www.gurufocus.com/news/8894964/a-look-at-silicon-motion-technology-corp-simo-after-32-decline-gf-value-11044-vs-price-26805?mobile=true"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On a CPO/optical-bottleneck page SIMO is explicitly tangential ('storage optionality, not optical/cable'), and nothing since June 6 adds optical relevance; a -3.7% drift day after a +170% YTD run does not change a rank-95 placement. Yesterday's hold stands with mild downward drift as the rerating digests.",
+      "bull": "MonTitan enterprise SSD ramp and the SM2524XT Gen5 controller for AI inference/KV-cache workloads keep SIMO genuinely levered to AI data-center buildout, with 2026 EPS estimates up ~84% over the past year.",
+      "neutral": "Real AI storage exposure but zero optical/co-packaged-optics content; on this page it is a peripheral diversifier whose score should simply track the storage cycle, not CPO catalysts.",
+      "bear": "Stock trades at/through the ~$258 Street consensus after a 170% YTD run; any NAND/storage-cycle wobble or hyperscaler eSSD order digestion hits a name with no residual cheapness left.",
+      "primaryCatalyst": "MonTitan/PCIe Gen5 enterprise design-win announcements or Q2 guide (June-quarter revenue +15-20% QoQ, GM 48.5-49.5%) confirming the AI eSSD ramp.",
+      "primaryRisk": "Storage-cycle downturn or NAND pricing pressure compressing controller margins after the multiple has already rerated."
+    },
+    {
+      "page": "companies",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict already moved SIMO down for post-rerating crowding, and nothing genuinely new has emerged since June 6; today's -3.7% is mild profit-taking, not a sharp enough reset to restore asymmetry on a crowding-sensitive alpha list. Hold at rank 94.",
+      "bull": "Record Q1 (+105% YoY), strong sequential June-quarter guide, and a wall of raised targets (BofA $450, B. Riley $312) say the AI eSSD/boot-drive earnings power is real and still compounding into 2027 ($10+ EPS estimates).",
+      "neutral": "Data-layer utilization thesis is intact, but with 8-for-8 buy ratings and price sitting at the consensus target, SIMO is now a recognized AI-storage name rather than a hidden bottleneck; alpha is mostly harvested until estimates move again.",
+      "bear": "GF-value-style fair-value marks sit far below price and the stock already reached the average analyst target; if hyperscaler eSSD orders pause, a +170% YTD name with full ownership has a long way to mean-revert.",
+      "primaryCatalyst": "Q2 2026 results/guide and incremental MonTitan hyperscaler design wins that force another round of estimate hikes.",
+      "primaryRisk": "Crowding plus cyclicality: any storage-demand digestion triggers outsized de-rating in a name where discovery is complete."
+    }
+  ]
+}

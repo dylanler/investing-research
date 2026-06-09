@@ -1,0 +1,78 @@
+{
+  "symbol": "MRVL",
+  "company": "Marvell Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: MRVL fell 10.4% to ~$259 in a coordinated 'Parabolic 7' momentum unwind (SanDisk, Micron, Marvell, AMD, Broadcom et al.) compounded by a Qualcomm-ByteDance custom-ASIC deal that raised new-competitor and export-control fears across custom-silicon names. The move is predominantly flow-driven profit-taking after a parabolic run (helped by Jensen Huang's June 2 'next trillion-dollar company' remark, +32% in one day); fundamentals (Q1 FY27 record $2.42B revenue, FY28 $16.5B guide, custom silicon >$10B by FY29, Teralynx T100 102.4T switch) are intact. S&P 500 inclusion effective June 22 adds forced passive ownership.",
+  "sources": [
+    {
+      "label": "24/7 Wall St - Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide (Jun 9, 2026)",
+      "url": "https://247wallst.com/investing/2026/06/09/qualcomm-drops-8-on-bytedance-asic-deal-marvell-falls-10-as-custom-silicon-stocks-slide/"
+    },
+    {
+      "label": "Yahoo Finance - Micron, SanDisk, and Marvell Plummet as 'Parabolic 7' Trade Unwinds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-marvell-plummet-parabolic-145117645.html"
+    },
+    {
+      "label": "Benzinga - Marvell Stock Is Up 210% - S&P 500 Debut (Jun 22) Could Push It Higher",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53058937/marvell-stock-is-up-230-in-2026-sp-500-debut-could-make-that-look-conservative"
+    },
+    {
+      "label": "The Register - Marvell enters the AI network fray with 102.4 Tbps Teralynx T100 switch silicon (Jun 2, 2026)",
+      "url": "https://www.theregister.com/networks/2026/06/02/marvell-enters-the-ai-network-fray-with-1024-tbps-switch-silicon/5250180"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Already parked at the bottom as a monitor/benchmark entry because Marvell sits outside the passives/power bottleneck stack; today's flow-driven unwind does not change that fit, and S&P 500 inclusion on June 22 increases passive crowding, the opposite of this page's alpha criterion.",
+      "bull": "A 10% one-day flush with the AI interconnect thesis intact improves entry asymmetry if you want any custom-silicon proxy on a passives-adjacent watchlist.",
+      "neutral": "Marvell remains a useful AI-cycle barometer here, not a passives/power bottleneck holding; nothing since June 6 changes its categorization.",
+      "bear": "Still +189% YTD with maximal sell-side and index visibility (trillion-dollar narrative, S&P add) - zero hidden alpha by this page's definition, and the Qualcomm-ByteDance deal shows custom-ASIC competition broadening.",
+      "primaryCatalyst": "S&P 500 inclusion flows on June 22 and any new hyperscaler XPU design-win disclosure.",
+      "primaryRisk": "Continued momentum-basket unwind dragging the name regardless of fundamentals."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's up-move to rank 12 already priced the custom-ASIC/interconnect centrality; today's -10.4% is a flow-driven Parabolic-7 unwind with the node thesis intact (Teralynx T100, FY28 $16.5B guide), which modestly improves asymmetry but is offset by Qualcomm entering custom ASICs and by visibility that no longer fits the page's 'smaller than megacaps' lens.",
+      "bull": "Record data-center revenue, FY28 $16.5B guidance with custom silicon >$10B by FY29, NVLink Fusion partnership, and a 102.4T switch launch make Marvell one of the most direct ASIC/interconnect nodes - and it just got 10% cheaper on no thesis change.",
+      "neutral": "The pullback de-risks the entry but Marvell at $253B with S&P 500 entry is now consensus megacap-adjacent exposure; rank 12 fairly reflects centrality versus crowding.",
+      "bear": "Qualcomm's ByteDance ASIC win signals the custom-silicon moat is being contested, and a 32% Jensen-driven spike unwinding shows how much narrative (not orders) is in the price.",
+      "primaryCatalyst": "New custom XPU design wins or upward FY27/FY28 custom-silicon revenue revisions.",
+      "primaryRisk": "Custom-ASIC competition (Broadcom, now Qualcomm) compressing share or margins on next-gen sockets."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "The optical DSP/CPO/AEC bridge thesis is untouched by today's unwind - the page's stated risk ('expectations already embedded') just deflated 10%, marginally improving the setup - while the Qualcomm-ByteDance headline hits the custom-compute leg, not optics; hold one day after yesterday's up-move to 38.",
+      "bull": "Marvell remains the most direct public bridge across custom silicon, optical DSPs, CPO and AEC, and management says the copper wall is nearing - exactly this page's bottleneck - now at a 10% discount to yesterday.",
+      "neutral": "No new optical-specific evidence since June 6; the move is basket flow, so the CPO-lens ranking should not whipsaw a day after being raised.",
+      "bear": "Even after the flush the stock is +189% YTD at $253B; if the momentum unwind continues, embedded custom-silicon expectations can deflate further before optics catalysts land.",
+      "primaryCatalyst": "1.6T optical DSP and CPO ramp disclosures as copper interconnect limits bite in 2027 clusters.",
+      "primaryRisk": "Further Parabolic-7 deleveraging plus custom-ASIC competition headlines overwhelming the optics story."
+    },
+    {
+      "page": "companies",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down-move already penalized the rerating; one -10% flow-driven day off a +189% YTD base does not restore hidden alpha, and S&P 500 inclusion plus the trillion-dollar narrative keep ownership visibility at a maximum for this crowding-aware list.",
+      "bull": "Scale-out networking and 800G/1.6T optics exposure is real and growing ~50% in data center; the unwind offers a cheaper look at an intact franchise.",
+      "neutral": "Thesis audit unchanged: genuine AI networking exposure fully recognized by the market; rank 98 with a modest score remains appropriate.",
+      "bear": "A name that spiked 32% on a CEO soundbite and gave back 10% on a basket unwind is trading on flows, not networking fundamentals - residual alpha here is thin.",
+      "primaryCatalyst": "Networking/optics revenue beats or new 1.6T design wins at hyperscalers.",
+      "primaryRisk": "Post-S&P-inclusion flow reversal and high-multiple compression if AI capex sentiment cools."
+    }
+  ]
+}

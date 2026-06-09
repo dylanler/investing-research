@@ -1,0 +1,26 @@
+{
+  "symbol": "688012.SS",
+  "company": "Advanced Micro-Fabrication Equipment Inc. China (AMEC)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news found since June 6, 2026 (no earnings, contracts, design wins, or capacity announcements). Today's +7.37% jump appears sector/flow-driven: the China semicap localization narrative (50% domestic-equipment mandate, etch/deposition substitution already >40%) plus reported passive flows into Chinese chip names from index reshuffling. AMEC's 5nm etch validation at advanced lines and share gains are pre-existing, not new this week.",
+  "sources": [
+    {"label": "TrendForce - China domestic chip equipment adoption beats 2025 target, led by NAURA and AMEC", "url": "https://www.trendforce.com/news/2026/01/12/news-chinas-domestic-chip-equipment-adoption-beats-2025-target-at-35-led-by-naura-amec/"},
+    {"label": "Investing.com - Chinese chip stocks surge as index reshuffle heralds billions in passive flows", "url": "https://www.investing.com/news/stock-market-news/chinese-chip-stocks-surge-as-index-reshuffle-heralds-billions-in-passive-flows-4723340"},
+    {"label": "Yahoo Finance quote 688012.SS", "url": "https://finance.yahoo.com/quote/688012.SS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 29,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, a +7.4% single-day pop and +36% YTD with no new fundamental evidence is pure rerating chase - residual alpha shrinks. AMEC is also a $37B consensus China-semicap proxy, not a hidden bottleneck name, so the flow-driven surge argues for a modest demotion from rank 29.",
+      "bull": "Beijing's 50% domestic-equipment mandate and >40% etch localization keep AMEC's order book structurally underwritten; 5nm etch validation gives credible advanced-node optionality alongside compound-semi/photonics tools.",
+      "neutral": "Thesis is intact but fully recognized: localization tailwinds are consensus, and today's move is flow (mandate narrative plus index passive flows) rather than new evidence, so expected forward alpha is roughly unchanged at a worse entry.",
+      "bear": "A crowded, policy-driven multiple unwinds fast on any China stimulus disappointment or domestic price competition from NAURA/peers; US entity-list escalation could still pinch subsystems and components.",
+      "primaryCatalyst": "Q2 2026 results / order disclosures confirming localization-driven etch and deposition tool orders from SMIC-led capacity buildout",
+      "primaryRisk": "Flow-driven rerating reversal in China semicap plus intensifying domestic competition compressing margins"
+    }
+  ]
+}

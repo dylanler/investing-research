@@ -1,0 +1,52 @@
+{
+  "symbol": "WDC",
+  "company": "Western Digital",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 8: WDC announced issuance of 21.29M shares (~6% of shares out) to retire ~$858M of 3.00% convertible notes due 2028 via privately negotiated exchanges - deleveraging but a dilutive supply event. Today's -4.1% gives back the Jun 8 +3% bounce after the Jun 5 -9.4% slide (ex-dividend mechanics, dilution digestion, insider-selling chatter) - flow-driven, not fundamental. Standing backdrop unchanged: 2026 HDD capacity 100% sold out with LTAs into 2027-28 (Feb news), Wells Fargo PT raise, dividend +20%.",
+  "sources": [
+    {
+      "label": "GuruFocus - WDC to issue 21.29M shares in convertible debt exchange (Jun 8, 2026)",
+      "url": "https://www.gurufocus.com/news/8905358/western-digital-wdc-to-issue-2129m-shares-in-debt-exchange-agreement"
+    },
+    {
+      "label": "Investing.com - Why is Western Digital stock sliding today (ex-div + dilution)",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-4728819"
+    },
+    {
+      "label": "TradingKey - WDC -9.41% on Jun 5 full analysis",
+      "url": "https://www.tradingkey.com/news/market-movers/261950233-market-movers-wdc-20260605"
+    },
+    {
+      "label": "Yahoo Finance - Western Digital books HDD capacity through 2026 on AI data center demand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-books-hdd-capacity-010442794.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down already priced the +169% YTD rerating and $182B crowding; nothing genuinely new since - the convert exchange is a known, flow-level dilution event and today's -4% is mechanical giveback that marginally restores asymmetry. On a crowding-sensitive alpha list those two roughly net out, so hold at 88.",
+      "bull": "2026 HDD capacity 100% sold out with LTAs into 2027-28 gives real pricing power and visibility; a multi-session -10%+ pullback with the thesis fully intact is exactly when asymmetry improves.",
+      "neutral": "AI storage demand is real but fully recognized: $182B cap, 21 of 22 analysts at buy, and the name sits in every AI-storage screen - residual hidden alpha is thin and the pullback so far is dividend/dilution mechanics, not a reset.",
+      "bear": "Post-rerating HDD names are violently cyclical; 21.29M new shares add float, insiders are selling, and any hyperscaler capex digestion turns a sold-out story into a double-ordering unwind.",
+      "primaryCatalyst": "Additional 2027-28 long-term agreements or HDD price hikes confirming multi-year pricing power beyond the sold-out 2026 book.",
+      "primaryRisk": "Hyperscaler storage capex digestion or NAND/HDD cycle rollover compressing the rerated multiple; continued convert-driven share supply."
+    },
+    {
+      "page": "companies",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Rank 99 already reflects yesterday's down for YTD rerating and indirect bottleneck exposure; the only post-Jun 6 item is a balance-sheet convert exchange (fundamentally neutral, mildly dilutive) which doesn't change the data-layer utilization thesis either way.",
+      "bull": "Sold-out 2026 HDD capacity plus customer LTAs into 2027-28 shows AI data gravity is structurally tightening nearline storage, with 47-48% gross margin guidance proving it flows to economics.",
+      "neutral": "Execution is strong but the page's alpha lens scores scarce, unrecognized bottleneck exposure - at +169% YTD and $182B cap the market has already paid for the storage-tightness story.",
+      "bear": "Storage is the most substitutable layer of the AI stack (QLC NAND encroachment, customer dual-sourcing with Seagate), and the convert exchange adds ~6% share supply into a crowded, momentum-heavy holder base.",
+      "primaryCatalyst": "Fiscal Q4 earnings/guidance (July) confirming 40%+ revenue growth and further LTA coverage into 2027.",
+      "primaryRisk": "HDD cycle peak signals - any hyperscaler order pushouts or pricing concessions would crack a fully-priced sold-out narrative."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "VECO",
+  "company": "Veeco Instruments",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: Veeco announced a follow-on purchase order for its NSA500 nanosecond annealing system from a leading logic customer after successful evaluation-tool acceptance (ships H2 2026), and disclosed it shipped an NSA500 evaluation system to a third advanced logic customer (eval completes 2027, potential initial HVM orders to follow). Shares spiked ~12-18% intraday on the news; the move is fundamental (design-win-track validation at leading-edge logic), not flow-driven. Context: post-Q1 analyst price targets had already roughly doubled (e.g., Barclays $30 to $55), and CY2026 guidance calls for ~16% revenue growth on a backlog up ~35% y/y.",
+  "sources": [
+    {"label": "RTTNews - Veeco shares surge 17% on follow-on NSA order", "url": "https://www.rttnews.com/story.aspx?Id=3659044"},
+    {"label": "StockTitan - Veeco receives follow-on order for Nanosecond Annealing System (Jun 9, 2026)", "url": "https://www.stocktitan.net/news/VECO/veeco-receives-follow-on-order-for-nanosecond-annealing-system-rbur40i5t6jf.html"},
+    {"label": "Investing.com - Veeco stock rises on follow-on order for annealing system", "url": "https://www.investing.com/news/stock-market-news/veeco-stock-rises-on-followon-order-for-annealing-system-93CH-4733159"},
+    {"label": "Yahoo Finance - VECO quote", "url": "https://finance.yahoo.com/quote/VECO/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Genuine new evidence (NSA500 follow-on order at a leading logic customer plus a third logic eval) validates the picks-and-shovels thesis, but on this crowding-sensitive alpha list the +11.5% same-day pop and +123% YTD rerating consume roughly as much residual alpha as the news adds; net setup unchanged at rank 4.",
+      "bull": "NSA500 acceptance converting to a follow-on PO is the first hard proof that nanosecond annealing is on a path to HVM at leading-edge logic; a third evaluator suggests a multi-customer franchise forming on top of an already 35% higher backlog.",
+      "neutral": "Single-tool follow-on orders are small in dollar terms (ships H2 2026; third eval not done until 2027), so near-term estimates barely move while the multiple has already rerated; the stock is now a known story with doubled sell-side targets.",
+      "bear": "At +123% YTD and ~$4.2B cap the name is no longer hidden or under-owned; if NSA evals stall or the broader tool cycle softens, a crowded rerated small-cap gives back the move fast given customer-concentration risk.",
+      "primaryCatalyst": "Third logic customer's NSA500 evaluation converting to initial high-volume manufacturing orders (2027), plus H2 2026 follow-on shipments hitting revenue.",
+      "primaryRisk": "Post-rerating crowding: a 123% YTD run with single-customer-eval dependence leaves little margin for any NSA adoption slip or wafer-fab-equipment cycle wobble."
+    }
+  ]
+}

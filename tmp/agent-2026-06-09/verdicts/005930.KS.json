@@ -1,0 +1,65 @@
+{
+  "symbol": "005930.KS",
+  "company": "Samsung Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: Samsung Vice Chairman Jun Young-hyun met NVIDIA CEO Jensen Huang; talks reportedly expanded beyond near-term HBM4/SOCAMM supply stability to HBM4E, HBM5 and foundry cooperation (including next-gen Groq chips and autonomous-driving chip foundry). This follows NVIDIA's June 5 certification of Samsung HBM4 for the Vera Rubin platform. Market context: KOSPI crashed >8% on June 8 (circuit breaker, foreign selling, Middle East/inflation fears), then rebounded +8.18% on June 9 as tensions eased and Huang publicly urged dip-buying; Samsung's +8.97% today is mostly a round-trip flow rebound of Monday's crash, not a new rerating, with a modest fundamental kicker from the partnership-deepening headlines.",
+  "sources": [
+    {
+      "label": "TrendForce (Jun 9): Samsung, NVIDIA deepen ties; talks reportedly expand to HBM5 and next-gen Groq chips",
+      "url": "https://www.trendforce.com/news/2026/06/09/news-samsung-nvidia-deepen-ties-as-talks-reportedly-expand-to-hbm5-next-year-and-next-gen-groq-chips/"
+    },
+    {
+      "label": "TradingKey (Jun 9): Chip stocks lead KOSPI surge of 8%, Huang calls for discount buying, Samsung +8%, SK Hynix +15%",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261954811-samsung-skhynix-dram-mu-kospi-tradingkey"
+    },
+    {
+      "label": "CNBC (Jun 8): Kospi, SK Hynix, Samsung Electronics - why foreign investors are selling",
+      "url": "https://www.cnbc.com/2026/06/08/kospi-sk-hynix-samsung-electronics-why-foreign-investors-are-selling.html"
+    },
+    {
+      "label": "Samsung Newsroom: HBM4E unveiled at NVIDIA GTC 2026, HBM4 mass production for Vera Rubin",
+      "url": "https://news.samsung.com/global/samsung-unveils-hbm4e-showcasing-comprehensive-ai-solutions-nvidia-partnership-and-vision-at-nvidia-gtc-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "The June 8 Huang meeting directly confirms both thesis legs (HBM4/SOCAMM supply plus foundry optionality via HBM5/Groq talks), but this page already rewarded Samsung with a 51-to-31 jump yesterday; today's +8.97% is a flow-driven round-trip of Monday's crash, so chasing the rank again post-rebound violates rerating discipline.",
+      "bull": "HBM4 certified for Vera Rubin, HBM4E samples already with customers, and NVIDIA talks now extending to HBM5 and foundry work - the memory-plus-foundry optionality thesis is getting verified faster than expected.",
+      "neutral": "Partnership headlines are talks, not signed contracts; the stock round-tripped an 8% crash and rebound in 48 hours, leaving the setup roughly where it was on June 5.",
+      "bear": "At $1.45T and +150% YTD, Samsung is the most-owned expression of the memory supercycle; an index that circuit-breaks down 8% and rebounds 8% in two sessions signals leverage and flow fragility in Korean tech.",
+      "primaryCatalyst": "Conversion of HBM5/foundry discussions into a binding NVIDIA supply or foundry agreement, or Q2 earnings confirming HBM4 share gains.",
+      "primaryRisk": "Korea equity flow unwind - foreign selling and leveraged retail made the KOSPI gap down 8% in one session; a repeat hits Samsung hardest as the index heavyweight."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 87,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "On this crowding-sensitive CPO/connectivity alpha list Samsung is already a tangential holding, and none of the new news (HBM5, foundry, Groq) touches co-packaged optics; yesterday's up-move was partly justified by the post-crash discount, which today's +8.97% flow rebound fully erased.",
+      "bull": "If Samsung's foundry talks with NVIDIA mature, its advanced packaging and silicon photonics ambitions could eventually create real CPO-adjacent exposure on top of the HBM engine.",
+      "neutral": "The week's news cements Samsung as an HBM/foundry story, not a connectivity story; rank 87 on a CPO list already reflects that indirect linkage.",
+      "bear": "A $1.45T, +150% YTD mega-cap that just briefly passed Meta in market cap has no hidden alpha left for this page's lens, and the CPO-specific thesis remains the weakest of its three listings.",
+      "primaryCatalyst": "Any concrete Samsung announcement on co-packaged optics or optical I/O within its foundry/packaging roadmap.",
+      "primaryRisk": "Crowding: Samsung is now a consensus AI trade, so this listing absorbs full memory-cycle beta without page-relevant CPO upside."
+    },
+    {
+      "page": "companies",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already marked it down for crowding at +150% YTD; the genuinely new evidence since (HBM4 Vera Rubin certification, expanded HBM5/foundry talks) sits squarely in this page's HBM & AI memory bucket and offsets further crowding pressure, so hold with a small positive delta.",
+      "bull": "Direct, verified AI-memory bottleneck exposure: HBM4 in mass production for Vera Rubin, HBM4E sampling, and NVIDIA actively negotiating multi-year HBM5 and foundry supply.",
+      "neutral": "The fundamental drumbeat is positive but incremental, and the two-day crash-and-rebound round trip leaves valuation and positioning where they were before the weekend.",
+      "bear": "Operating profit up sevenfold YoY is peak-cycle optics; if memory pricing or HBM conversion ratios disappoint in 2027, the de-rating from a $1.45T base is severe.",
+      "primaryCatalyst": "Signed HBM5 or foundry supply agreement with NVIDIA, or further memory contract price hikes through H2 2026.",
+      "primaryRisk": "Memory-cycle peak plus crowded positioning - the June 8 circuit-breaker session showed how fast consensus AI-memory longs unwind."
+    }
+  ]
+}

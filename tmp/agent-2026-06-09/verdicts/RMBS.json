@@ -1,0 +1,55 @@
+{
+  "symbol": "RMBS",
+  "company": "Rambus",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news since June 6. Today's -9.2% drop (to $138.04) is continuation of the Broadcom-guidance-triggered global chip selloff (June 5: ~$1.3T wiped from sector; Micron -13%, SK Hynix -8%, Samsung -5%) hitting the memory complex hardest, compounded by RMBS-specific valuation-exhaustion pieces (Trefis June 6 'Contradiction' note on supply constraints vs ~67x P/E; 24/7 Wall St June 2 downside call, ~$119 implied target). The Baird downgrade on DRAM shortages capping RDIMM unit growth dates to late April and is not new. Move judged flow/valuation-driven; HBM4E controller IP leadership and memory-interface centrality thesis intact.",
+  "sources": [
+    {"label": "Yahoo Finance RMBS quote", "url": "https://finance.yahoo.com/quote/RMBS/"},
+    {"label": "Trefis (Jun 6, 2026) - The Contradiction in Rambus Stock Right Now", "url": "https://www.trefis.com/stock/rmbs/articles/601815/the-contradiction-in-rambus-stock-right-now/2026-06-06"},
+    {"label": "Intellectia - Semiconductor Stocks Selloff June 2026 ($1.3T AI chip crash)", "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"},
+    {"label": "CNBC (Jun 4, 2026) - Broadcom, Micron and ARM sink, leading chip stocks lower", "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"label": "24/7 Wall St (Jun 2, 2026) - Rambus Faces Downside Risk as Memory Chip Momentum Weakens", "url": "https://247wallst.com/investing/2026/06/02/rambus-faces-downside-risk-as-memory-chip-momentum-weakens/"},
+    {"label": "Investing.com - Rambus downgraded as memory shortages threaten growth outlook (Baird, April)", "url": "https://uk.investing.com/news/analyst-ratings/rambus-downgraded-as-memory-shortages-threaten-growth-outlook-4634068"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 66,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, a -9.2% flow-driven flush with the memory-interface thesis intact improves residual asymmetry: YTD compressed from ~53% to 39% and the passive-crowding concern that anchored yesterday's hold has partially unwound. No new fundamental negative specific to RMBS, so the de-rating is alpha-restorative, not thesis damage.",
+      "bull": "Sector-wide Broadcom panic is indiscriminately repricing a royalty/IP model with ~80% gross margins and HBM4E controller leadership; the AI memory bandwidth bottleneck thesis is untouched.",
+      "neutral": "Still farther from the passive/power bottleneck stack this page rewards, and even post-flush the stock trades at a steep premium (~60x+ forward earnings) with +39% YTD.",
+      "bear": "Baird's structural point stands: Rambus is unit-leveraged and cannot reprice during DRAM shortages, so tightening supply through 2026-27 caps RDIMM volume growth regardless of demand.",
+      "primaryCatalyst": "Stabilization of the memory complex post-Broadcom flush plus HBM4/HBM4E licensing wins converting to product revenue.",
+      "primaryRisk": "DRAM shortage capping RDIMM unit volumes while a high-60s P/E leaves no room for a unit miss."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "This page ranks node centrality, not entry asymmetry: a sector-flow selloff does not change Rambus's position as a memory-interface/controller IP node that remains less direct than HBM makers, advanced packaging and AI networking. Yesterday's hold logic is unchanged by today's flow-driven move.",
+      "bull": "HBM4E controller IP (16 GT/s, 32 TB/s per accelerator) keeps Rambus designed into next-gen AI accelerator memory subsystems across vendors, a genuine cross-customer node.",
+      "neutral": "Interconnect/IP tier relevance is real but secondary to the HBM and packaging chokepoints this page weights; nothing since June 6 changes that ordering.",
+      "bear": "If the Broadcom-led AI capex digestion is real rather than sentiment, custom-ASIC attach rates slow and IP licensing pipelines stretch out with them.",
+      "primaryCatalyst": "New HBM4/HBM4E controller or SOCAMM2 design-win announcements at major AI accelerator programs.",
+      "primaryRisk": "AI capex digestion slowing custom silicon starts and therefore IP licensing velocity."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 41,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "The listed risk on this page ('IP/product mix and memory cycle') is exactly what the market is pricing today, but the -9.2% move is sector flow off Broadcom's guide, not a Rambus-specific cycle break; on an alpha lens the sharp sell-off with an intact HBM/memory-interface thesis improves the entry asymmetry that yesterday's hold said was already spent.",
+      "bull": "Flush takes RMBS ~15% off highs while HBM4E controller leadership and indirect CPO/memory-bandwidth leverage are unchanged; the crowding discount this list applies has partially cleared in two sessions.",
+      "neutral": "Indirect CPO benefit was always second-order; the de-rating restores some asymmetry but valuation (~64x implied forward P/E, ~$119 street downside targets) still caps the score upgrade to drift-size.",
+      "bear": "Memory-cycle risk is materializing on both ends - shortage capping product units (Baird) and a glut narrative in non-datacenter DRAM - and a 67x multiple can compress much further if AI memory momentum genuinely rolls over.",
+      "primaryCatalyst": "Memory complex stabilization plus evidence HBM4E controller licensing converts into 2027 product/royalty revenue.",
+      "primaryRisk": "Further multiple compression if the June chip de-rating proves fundamental (AI capex digestion) rather than flow-driven."
+    }
+  ]
+}

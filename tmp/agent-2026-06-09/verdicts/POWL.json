@@ -1,0 +1,40 @@
+{
+  "symbol": "POWL",
+  "company": "Powell Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific news since June 6. Today's -5.4% move (to ~$277.75, ~14% below the May 11 all-time high of $321.94) tracks a sector-wide pullback in AI data-center electrical names (Vertiv -12% on the week, Eaton ~-4.8%, nVent ~-4.7%) and looks flow-driven, not fundamental. The known fundamentals are intact and strong: record $1.80B backlog, $490M Q2 orders, and the post-quarter >$400M first-phase greenfield data-center order (largest in company history) - all disclosed before June 6 and reflected in the June 8 verdicts.",
+  "sources": [
+    {"label": "Yahoo Finance - POWL quote", "url": "https://finance.yahoo.com/quote/POWL/"},
+    {"label": "Simply Wall St - POWL record Q2 backlog and AI data center deal", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-powl/powell-industries/news/why-powell-industries-powl-is-up-103-after-record-q2-backlog"},
+    {"label": "TIKR - Vertiv fell 12% this week (AI power complex pullback)", "url": "https://www.tikr.com/blog/vertiv-fell-12-this-week-heres-where-the-stock-is-headed-in-2026"},
+    {"label": "MacroTrends - POWL stock price history (May 11 ATH $321.94)", "url": "https://www.macrotrends.net/stocks/charts/POWL/powell-industries/stock-price-history"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 47,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On this crowding-sensitive alpha list, a -5.4% flow-driven day with the thesis fully intact (record backlog, $400M+ data-center order) and ~14% drawdown from the May high marginally restores asymmetry that the +136% YTD rerating had destroyed; small nudge up, not a re-thesis.",
+      "bull": "Switchgear remains a genuine bottleneck in data-center power delivery; record $1.8B backlog and the largest order in company history give multi-quarter revenue visibility, and the pullback offers a slightly better entry.",
+      "neutral": "The story is now well known and the stock sits in the 'crowded/rerated benchmark' bucket; a one-day -5.4% only partially unwinds a +136% YTD run, so residual alpha stays modest.",
+      "bear": "If AI capex sentiment keeps rolling over, high-beta rerated power names fall hardest; multiple compression can continue even with backlog intact, and order lumpiness invites a guidance air pocket.",
+      "primaryCatalyst": "Follow-on phases of the >$400M greenfield data-center award and continued record order intake in Q3 FY2026.",
+      "primaryRisk": "Continued de-rating of the crowded AI-power complex independent of fundamentals."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the network-centrality lens nothing changed: Powell's bottleneck position in data-center electrical rooms is unaffected by a flow-driven -5.4% day, and the record backlog/$400M order supporting node centrality were already in yesterday's hold.",
+      "bull": "Electrical switchgear capacity is scarce and Powell's backlog plus the largest-ever order confirm it is a real, hardening node in the AI power-delivery chain.",
+      "neutral": "Centrality is real but no longer hidden; the market already recognizes the node, so conviction stays Medium with no new information since June 6.",
+      "bear": "Customer concentration in a few hyperscale projects means a paused or rescoped campus could dent the backlog narrative more than the node framing suggests.",
+      "primaryCatalyst": "Capacity expansion updates and additional data-center electrical-room awards converting backlog into accelerating revenue.",
+      "primaryRisk": "AI data-center buildout digestion slowing order intake from its record pace."
+    }
+  ]
+}

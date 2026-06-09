@@ -1,0 +1,35 @@
+{
+  "symbol": "REHN.SW",
+  "company": "Romande Energie",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Romande Energie press releases 2026 (last item May 27 AGM; nothing June 5-9)",
+      "url": "https://investor.romande-energie.ch/investor-relations/press-releases/pr-2026.aspx?sc_lang=en"
+    },
+    {
+      "label": "Yahoo Finance quote REHN.SW",
+      "url": "https://finance.yahoo.com/quote/REHN.SW/"
+    },
+    {
+      "label": "Investing.com - Romande Energie 2025 results / Vision 2040 (Mar 31, 2026, for thesis context)",
+      "url": "https://www.investing.com/news/company-news/romande-energie-2025-slides-60-ebitda-jump-fuels-vision-2040-93CH-4599371"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No company news since June 6 (last release May 27 AGM; dividend paid June 2), so the scaling-page thesis of utility exposure to electricity demand growth is unchanged at rank 11. Today's +2.1% and YTD creep from +10.4% to +12.7% is newsless drift that very slightly erodes residual alpha, not a setup change.",
+      "bull": "Vision 2040 (5 TWh renewables, 60% EBITDA jump in 2025) plus Swiss grid/electrification demand gives a $1.6B under-owned regulated compounder real torque if Romandie data-center and electrification load materializes.",
+      "neutral": "A small regulated Swiss utility grinding up a couple percent on no news; the electricity-demand thesis is intact but unproven by any fresh contract or load-growth datapoint since the March results.",
+      "bear": "YTD +12.7% without a single new fundamental datapoint since March means the easy rerating is partly spent; regulated tariffs and hydro variability cap upside if Swiss power demand growth disappoints.",
+      "primaryCatalyst": "H1 2026 results / any disclosed large-load or data-center supply agreement in French-speaking Switzerland evidencing demand-growth inflection.",
+      "primaryRisk": "Newsless multiple creep reverses; regulated-return caps and weak Swiss power prices make the electricity-demand-growth thesis slow to show up in earnings."
+    }
+  ]
+}

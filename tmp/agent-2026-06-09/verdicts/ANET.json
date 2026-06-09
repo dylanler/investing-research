@@ -1,0 +1,41 @@
+{
+  "symbol": "ANET",
+  "company": "Arista Networks",
+  "caseDate": "undefined",
+  "newsSinceJun6": "Stock extended a sharp pullback (-4.35% Jun 9 to $149.59, ~8-9% over the week) driven by a sector-wide reassessment of AI-networking names after softer AI guidance from a peer, plus insider sales (Bechtolsheim sold 240K shares Jun 4). Fundamentals moved the other way: Arista raised its AI Ethernet revenue outlook (AI revenue expected to more than double in 2026 across 100+ AI customers) and launched the 7060XE7 1.6T rack-scale AI platform with Meta/Microsoft support. Move judged flow/sentiment-driven with thesis intact; YTD has compressed to ~12% from 30%+.",
+  "sources": [
+    {"label": "Yahoo Finance - ANET quote", "url": "https://finance.yahoo.com/quote/ANET/"},
+    {"label": "Simply Wall St - Arista raises AI Ethernet revenue outlook", "url": "https://simplywall.st/stocks/us/tech/nyse-anet/arista-networks/news/how-investors-may-respond-to-arista-networks-anet-raising-ai"},
+    {"label": "QuiverQuant - 7060XE7 1.6T AI networking platform launch", "url": "https://www.quiverquant.com/news/Arista+Networks+Stock+(ANET)+Opinions+on+New+AI+Networking+Platform+Launch"},
+    {"label": "StockTitan - Bechtolsheim Form 4 (240K share sale)", "url": "https://www.stocktitan.net/sec-filings/ANET/form-4-arista-networks-inc-insider-trading-activity-e6aa2d4f41e6.html"},
+    {"label": "TradingKey - ANET June 5 decline on AI-networking sector reassessment", "url": "https://www.tradingkey.com/news/market-movers/261950167-market-movers-anet-20260605"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "The week's flow-driven sell-off with an intact (even improving) AI-networking thesis adds a little asymmetry, but ANET remains a $187B widely-owned benchmark name that sits far from this page's passive/power bottleneck core, so rank 93 monitor status still fits.",
+      "bull": "Raised AI Ethernet outlook and the 7060XE7 1.6T launch confirm Arista is the scale-out networking standard; a ~9% weekly drawdown on sector sentiment resets entry without any thesis damage.",
+      "neutral": "Real AI exposure but not a hidden passives/power bottleneck; mega-cap scale and broad ownership cap residual alpha on this list regardless of the dip.",
+      "bear": "Peer's soft AI guidance could be an early read-across on AI networking order timing, and heavy insider selling (Bechtolsheim 240K shares) adds a sentiment overhang.",
+      "primaryCatalyst": "AI Ethernet revenue more than doubling in 2026 and 1.6T platform ramp with Meta/Microsoft.",
+      "primaryRisk": "Sector-wide AI capex digestion plus hyperscaler customer concentration turning the sentiment drawdown into a fundamental one."
+    },
+    {
+      "page": "companies",
+      "currentRank": 27,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down call was premised on a 30%+ YTD rerating; that premise has been unwound (YTD now ~12% after a ~9% weekly flow-driven sell-off) while the optics/scale-out thesis strengthened via a raised AI Ethernet outlook and the 1.6T 7060XE7 launch, improving asymmetry on this networking-bucket page.",
+      "bull": "1.6T platform with Meta/Microsoft support plus AI revenue guided to more than double in 2026 directly validate the 800G/1.6T scale-out bandwidth thesis at a now-cheaper price.",
+      "neutral": "Execution and pricing in AI-cluster Ethernet remain the watch items; the pullback restores some upside but valuation is still rich versus fair-value estimates (~$137-188 range across services).",
+      "bear": "If the peer's soft AI guidance signals a broader AI networking order air-pocket, Arista's hyperscaler-concentrated revenue would be hit hardest, and insider sales suggest those closest see limited near-term upside.",
+      "primaryCatalyst": "7060XE7 1.6T ramp and AI Ethernet revenue doubling through 2026 deployments at 100+ AI customers.",
+      "primaryRisk": "AI networking demand reassessment spreading from peers to Arista's own order book, with white-box/Nvidia Ethernet competition pressuring pricing."
+    }
+  ]
+}

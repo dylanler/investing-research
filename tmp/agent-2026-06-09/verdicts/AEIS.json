@@ -1,0 +1,35 @@
+{
+  "symbol": "AEIS",
+  "company": "Advanced Energy Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The latest notable items - the June 3 ADH series 800 V DC-DC converter launch for AI data centers (up to 8 kW peak, megawatt-rack capable with NDQ/Hot Swap modules) and the June 3 BofA Global Technology Conference presentation (mgmt targeting low-to-mid 20s% 2026 revenue growth, data center mid-30s%) - predate the window and were already reflected in yesterday's hold. Today's -0.71% is noise.",
+  "sources": [
+    {
+      "label": "Business Wire - Advanced Energy Introduces 800 V DC Converters for Next-Generation AI Data Centers (Jun 3, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260603789564/en/Advanced-Energy-Introduces-800-V-DC-Converters-for-Next-Generation-AI-Data-Centers-New-DC-DC-Converters-Deliver-Best-In-Class-Peak-Power-Efficiency-and-Density"
+    },
+    {
+      "label": "Seeking Alpha - AEIS presents at Bank of America 2026 Global Technology Conference (Jun 3, 2026)",
+      "url": "https://seekingalpha.com/article/4911672-advanced-energy-industries-inc-aeis-presents-at-bank-of-america-2026-global-technology"
+    },
+    {
+      "label": "StockTitan - Advanced Energy debuts 800V DC AI data center converters",
+      "url": "https://www.stocktitan.net/news/AEIS/advanced-energy-introduces-800-v-dc-converters-for-next-generation-24ffaf2dghic.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 57: no new information since June 6 and a flat tape (-0.7% today) leave yesterday's setup unchanged - the 800V AI rack-power optionality is real but the +37% YTD rerating and $12B mid-cap visibility mean residual alpha is already fairly captured in the Monitor/benchmark bucket.",
+      "bull": "ADH 800V DC-DC platform positions AEIS squarely in the NVIDIA-led 800 VDC rack-architecture transition, and management's mid-30s% data-center growth target implies the AI power story still has legs.",
+      "neutral": "A well-run power-conversion compounder with genuine AI exposure, but at +37% YTD and broadly bullish sell-side coverage it is no longer a hidden bottleneck name; ranks appropriately mid-pack on a residual-alpha list.",
+      "bear": "Valuation screens stretched (GF Value flags heavy overvaluation), semi-equipment power is cyclical, and the 800V transition invites competition from Vicor, Delta, and Vertiv-aligned suppliers that could compress the AI power-density premium.",
+      "primaryCatalyst": "Hyperscaler design wins or volume orders for the ADH 800V platform; next earnings print confirming mid-30s% data-center growth.",
+      "primaryRisk": "Multiple compression on any data-center order-rate wobble after a 37% YTD run with no fresh fundamental evidence since early June."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "001820.KS",
+  "company": "Samwha Capacitor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific disclosure since June 6. Today's +8.52% to 118,500 KRW is a flow-driven rebound within an extreme retail MLCC theme: the stock hit limit-up on May 22/26/28 (AI-server MLCC shortage narrative, Murata/SEMCO price-hike expectations, Yongin capacity expansion touted as +40-50% output), peaked ~162,800 KRW on May 28, then retraced ~33% into June 8. The bounce coincides with sector commentary that the early-June Korean MLCC sell-off was overdone and the price-hike cycle is strengthening (Samsung Electro-Mechanics-focused notes), not new Samwha fundamentals (no earnings, contracts, or filings found).",
+  "sources": [
+    {"label": "Mimint - Samwha Capacitor +29.31% close, MLCC/EV flows (May 28, 2026)", "url": "https://msale.mimint.co.kr/bbs/view/news/S1N11/5407901"},
+    {"label": "Daum/news - Samwha limit-up on MLCC boom hopes, 52-week high (May 22, 2026)", "url": "https://v.daum.net/v/20260522135415277?f=p"},
+    {"label": "AlphaBiz - SEMCO June pullback overdone, MLCC price-hike cycle strengthening", "url": "https://alphabiz.co.kr/news/view/1065567582336506"},
+    {"label": "Yahoo Finance quote 001820.KS", "url": "https://finance.yahoo.com/quote/001820.KS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Yesterday's verdict already moved it down for the post-rerating loss of residual alpha; nothing genuinely new since June 6, and today's +8.5% is a no-news flow bounce inside a 33% retracement off the May 28 peak, so the rank-76 Monitor/benchmark slot still fits. Small negative drift because the bounce re-confirms retail crowding without fresh fundamental evidence.",
+      "bull": "AI-server high-capacitance MLCCs are entering genuine shortage, Murata/SEMCO price hikes should trickle down to second-tier Korean makers, and the Yongin expansion could lift output 40-50% with Q1 MLCC revenue already +24% YoY.",
+      "neutral": "The thesis is intact but fully discovered: +293% YTD at a $0.78B cap with repeated limit-ups means the bottleneck story is now consensus retail property; the 33% pullback restored some asymmetry, but today's bounce ate part of that back.",
+      "bear": "A micro-cap riding a theme with three limit-ups in one month is flow, not alpha; if MLCC price-hike pass-through to tier-2 suppliers disappoints in Q2 prints, the stock can retrace another leg with no fundamental floor near these multiples.",
+      "primaryCatalyst": "Q2 results/2H guidance showing actual MLCC price-hike pass-through and Yongin capacity ramp converting to revenue.",
+      "primaryRisk": "Theme deflation: retail flow reverses and the stock keeps unwinding the May spike faster than earnings can catch up."
+    }
+  ]
+}

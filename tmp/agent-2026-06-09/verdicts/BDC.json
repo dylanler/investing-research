@@ -1,0 +1,26 @@
+{
+  "symbol": "BDC",
+  "company": "Belden",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. Only fresh item is the routine quarterly dividend ($0.05/sh, ex-date June 16). The $1.85B RUCKUS Networks acquisition (announced April 30, ~13x 2026E EBITDA, close 2H26) and Q1 beat with Q2 guidance of $735-750M revenue remain the operative story; the post-deal leverage-driven sell-off (~24% over 3 months) is already reflected in the -8.4% YTD print. Today's -0.23% is drift.",
+  "sources": [
+    {"label": "Belden IR - RUCKUS Networks acquisition announcement", "url": "https://investor.belden.com/news/news-details/2026/Belden-to-Acquire-RUCKUS-Networks-from-Vistance-Networks-Accelerating-its-Transformation-into-a-Full-Stack-Networking-Solutions-Provider/default.aspx"},
+    {"label": "Simply Wall St - Belden valuation after recent share price weakness", "url": "https://simplywall.st/stocks/us/tech/nyse-bdc/belden/news/a-look-at-belden-bdc-valuation-after-recent-share-price-weak"},
+    {"label": "Belden IR - Q1 2026 results", "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-First-Quarter-2026-Results/default.aspx"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 1: no new information since June 6 and yesterday's verdict was hold; the name stays latent and under-owned. Small +1 drift because the leverage-driven de-rating since the RUCKUS announcement has occurred with the IT/OT data-layer thesis intact, improving asymmetry rather than impairing it.",
+      "bull": "RUCKUS turns Belden into a full-stack IT/OT networking provider with >60% gross-margin wireless/cloud exposure layered on its industrial data-layer backbone; Q2 guide of $735-750M revenue shows the core business accelerating into the AI-factory upgrade cycle while the stock trades at a $4.1B cap, de-rated and unloved.",
+      "neutral": "Thesis unchanged since the April 30 deal; the stock is digesting deal leverage (net leverage above 3x at close) and offers no near-term catalyst until the 2H26 close and Q2 print, so the position is dead money short-term but the latent-node setup is intact.",
+      "bear": "Paying ~13x 2026E EBITDA for a wireless asset that has changed hands repeatedly (Brocade, ARRIS, CommScope, Vistance) risks integration slippage and goodwill impairment; if industrial capex softens, levered Belden de-rates further and the 'AI data layer' framing never shows up in numbers.",
+      "primaryCatalyst": "RUCKUS deal close in 2H26 plus Q2 results (guide $735-750M rev, $1.53-1.63 GAAP EPS) validating organic IT/OT acceleration.",
+      "primaryRisk": "Post-deal leverage (>3x net at close) into a cyclical industrial slowdown, plus integration risk on a much-traded RUCKUS asset."
+    }
+  ]
+}

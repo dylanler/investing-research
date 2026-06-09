@@ -1,0 +1,39 @@
+{
+  "symbol": "ACUVI.ST",
+  "company": "Acuvi",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Acuvi AB appoints Jens Lagergren as CFO (Cision, mid-May 2026, effective Jun 1)",
+      "url": "https://news.cision.com/acuvi-ab/r/acuvi-ab-appoints-jens-lagergren-as-cfo,c4350280"
+    },
+    {
+      "label": "Acuvi precision technology enters Formula 1 (Inderes release, pre-Jun 6)",
+      "url": "https://www.inderes.dk/en/releases/acuvi-ab-acuvis-precision-technology-enters-the-worlds-fastest-motorsport"
+    },
+    {
+      "label": "Acuvi receives 1.3 MUSD order from US defense customer (MarketScreener, pre-Jun 6)",
+      "url": "https://in.marketscreener.com/news/acuvi-receives-order-of-1-3-musd-from-us-based-defense-customer-ce7e51dfdc81f026"
+    },
+    {
+      "label": "Acuvi news feed (TradingView OMXSTO:ACUVI)",
+      "url": "https://www.tradingview.com/symbols/OMXSTO-ACUVI/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; yesterday's verdict already executed the de-rating from #1 to #4 on scale/indirectness grounds, so re-moving without new information would be churn. Today's -2.7% drift on a -27% YTD tape with the precision-piezo thesis intact (recent defense and F1 orders still standing) marginally improves asymmetry, justifying a small positive drift at the current rank.",
+      "bull": "Sub-$50M cap piezo precision-motion specialist with fresh US defense ($1.3M) and F1 development orders proving the technology; if precision actuation content spreads into humanoid hands, grippers, and compact modules, the rerating runway from these levels is large.",
+      "neutral": "Orders to date are small and development-stage; the robotics-hands optionality remains unproven, so the stock trades on micro-cap flow until a robotics-specific design win or revenue inflection lands.",
+      "bear": "A $40M-cap, thinly traded micro-cap down 27% YTD can keep bleeding regardless of thesis; dilution risk and dependence on a handful of customers mean the robotics option could expire worthless before commercialization arrives.",
+      "primaryCatalyst": "A named design win or volume order tying Acuvi's piezo actuation into robotics/humanoid end-products, or H2-2026 delivery confirmations on the defense and F1 orders.",
+      "primaryRisk": "Micro-cap financing/dilution risk and continued order droughts, with liquidity so thin that flow alone can drive further drawdowns."
+    }
+  ]
+}

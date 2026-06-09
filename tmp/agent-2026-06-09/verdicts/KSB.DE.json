@@ -1,0 +1,27 @@
+{
+  "symbol": "KSB.DE",
+  "company": "KSB",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "KSB press releases (no new releases since Jun 6)", "url": "https://www.ksb.com/en-global/media/press-releases"},
+    {"label": "Impeller.net - KSB AGM: record 2025, subdued start to 2026 (pre-Jun 6 context)", "url": "https://impeller.net/magazin/annual-general-meeting-record-year-for-ksb-subdued-start-to-2026/"},
+    {"label": "aktien.guide - KSB Vz analyst targets ~EUR 1,127 avg vs ~EUR 860-878 quote; ATH EUR 1,245 on Mar 17, 2026", "url": "https://aktien.guide/kursziel/KSB-vz-DE0006292030"},
+    {"label": "Yahoo Finance quote KSB.DE", "url": "https://finance.yahoo.com/quote/KSB.DE/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No material news since Jun 6 and yesterday's down move (adjusted-score reconciliation, rank 11 -> 16) is now applied; today's -2.2% drift on no news plus a ~30% de-rate from the March high modestly improves entry asymmetry on an intact liquid-cooling/water-reuse pump thesis, warranting a small positive delta but no re-rank.",
+      "bull": "Under-owned EUR 1.7B pumps/valves maker with Q1 2026 order intake up 15.2% and management explicitly flagging data-center cooling and semiconductor water infrastructure as structural growth; analyst average target ~EUR 1,127 implies ~28-31% upside from EUR 878.",
+      "neutral": "Data-center cooling remains a small slice of revenue today; the stock drifts with European industrial sentiment, and the strict-screen adjusted score already discounts the displayed rank, so no fresh evidence forces a move either way.",
+      "bear": "AGM commentary flagged a subdued start to 2026 outside the one-off energy order; if liquid-cooling component demand consolidates around specialist incumbents (e.g., dedicated CDU/coolant players), KSB's general industrial pump mix never converts the AI optionality and the -9.5% YTD keeps grinding.",
+      "primaryCatalyst": "H1 2026 results (mid-August) showing data-center/semiconductor water-infrastructure orders becoming a named, quantified bucket, or a disclosed hyperscale cooling-loop contract win.",
+      "primaryRisk": "AI exposure stays immaterial to the P&L while core European industrial/chemical end-markets soften, leaving it a cyclical pump maker mislabeled as an AI bottleneck node."
+    }
+  ]
+}

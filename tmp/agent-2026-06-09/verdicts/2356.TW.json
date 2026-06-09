@@ -1,0 +1,39 @@
+{
+  "symbol": "2356.TW",
+  "company": "Inventec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "DIGITIMES - Inventec sees strong AI, general-purpose server demand through 2028 (May 12, 2026)",
+      "url": "https://www.digitimes.com/news/a20260512PD243/inventec-2026-2028-demand-growth.html"
+    },
+    {
+      "label": "BigGo Finance - Inventec FY2026 Q1 earnings call: record NT$200.3B revenue, servers >50% of revenue (May 12, 2026)",
+      "url": "https://finance.biggo.com/news/TW_2356.TW_2026-05-12"
+    },
+    {
+      "label": "BigGo Finance - Inventec chairman: 2026 AI server momentum to surpass last year, capex >US$1B",
+      "url": "https://finance.biggo.com/news/FS_Ozp0B2jrwCtglhLtt"
+    },
+    {
+      "label": "Yahoo Finance quote 2356.TW",
+      "url": "https://finance.yahoo.com/quote/2356.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 14: no material news since June 6; the bullish data points (record Q1, >40% AI server growth, capex doubling) are mid-May vintage and already priced. A +58.5% YTD run with no fresh post-June-6 evidence trims residual alpha slightly on this crowding-sensitive list, but today's +2.0% drift does not change the setup from yesterday's hold.",
+      "bull": "Servers crossed 50% of revenue for the first time in a record Q1 (NT$200.3B, +27.6% YoY), AI server shipments guided to >40% growth in 2026, and >US$1B capex including a new North American base broadens the customer funnel beyond a $7.9B market cap.",
+      "neutral": "Solid AI-server EMS exposure with double-digit QoQ AI shipment growth guided for Q2, but the story is now well-telegraphed by management and sell-side; residual mispricing is moderate, consistent with its 'secondary residual alpha' bucket.",
+      "bear": "EMS assembly margins are thin and commoditized; >50% of AI server revenue from Chinese clients is a concentrated regulatory/geopolitical exposure, and a 58% YTD rerate leaves little cushion if China capex or B200-cycle orders wobble.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~June 10) and Q2 AI server shipment confirmation of guided double-digit QoQ growth.",
+      "primaryRisk": "China AI-server demand or export-control disruption hitting the >50% Chinese-client revenue mix, compressing the post-rerate multiple."
+    }
+  ]
+}

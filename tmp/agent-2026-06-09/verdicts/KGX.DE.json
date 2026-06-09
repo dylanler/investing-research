@@ -1,0 +1,26 @@
+{
+  "symbol": "KGX.DE",
+  "company": "KION Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. Latest press releases remain May 28 (20-year AGM, EUR 0.62 dividend) and Apr 30 (Q1: positive start, strong order intake, guidance intact); German financial press on Jun 8-9 carried only valuation/analyst recap pieces. Shares ground to a fresh 52-week low (~EUR 38.5 vs EUR 70.45 high) on a -1.13% drift day; consensus 12m target ~EUR 60 with no sell ratings.",
+  "sources": [
+    {"label": "KION Group press releases (latest dated May 28, 2026)", "url": "https://www.kiongroup.com/en/News-Stories/Press-Releases/"},
+    {"label": "Investing.com KION quote - 52-week range 38.46-70.45, avg target EUR 60", "url": "https://www.investing.com/equities/kion-group-ag"},
+    {"label": "ad-hoc-news: KION Bewertung im Fokus nach juengsten Kennzahlen (Jun 2026 recap)", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/kion-group-aktie-de000kgx8881-bewertung-im-fokus-nach-juengsten/69499108"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already priced the mechanical rank reconciliation; today brings no new information and only a -1.13% drift, so no second move. Small positive delta because the stock is now at a fresh 52-week low (-45% YTD) with the physical-AI intralogistics thesis (NVIDIA GTC demo, Siemens partnership) intact, which marginally improves asymmetry on a latent-node alpha lens.",
+      "bull": "Washed-out, under-owned $6.8B intralogistics leader at a 52-week low with consensus targets ~55% higher; NVIDIA/Accenture physical-AI warehouse work and the Siemens supply-chain partnership give real optionality if AI-driven logistics capex inflects.",
+      "neutral": "Q1 was solid (strong order intake, guidance intact) but the market treats 2026 as another transition year; the AI-logistics pathway is credible yet still a small share of revenue, so the stock drifts with European industrial sentiment until July 30 H1 results.",
+      "bear": "The -45% YTD decline reflects genuine cyclical weakness in forklift/warehouse-automation orders, not just sentiment; if e-commerce capex stays soft, the physical-AI narrative cannot offset core EBIT pressure and the 52-week low keeps breaking.",
+      "primaryCatalyst": "H1/Q2 results on July 30, 2026 - order intake and any AI/automation project wins (NVIDIA, Siemens) converting to backlog.",
+      "primaryRisk": "Continued European industrial/e-commerce capex weakness making 2026 another transition year, with guidance cut risk into H2."
+    }
+  ]
+}

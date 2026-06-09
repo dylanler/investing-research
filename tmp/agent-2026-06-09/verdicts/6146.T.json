@@ -1,0 +1,40 @@
+{
+  "symbol": "6146.T",
+  "company": "Disco Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material news since June 6. Today's +5.99% move (YTD now ~40%) tracks the broad Japan AI/semiconductor-equipment rally that has driven the Nikkei to records (68,000 broken June 3; Advantest/Tokyo Electron-led push toward 70,000) - a flow/momentum move, not a fundamental catalyst. No earnings, contracts, capacity or analyst events found; the last notable company item (4,000th laser saw milestone) dates to February 2026.",
+  "sources": [
+    {"label": "Yahoo Finance - Disco Corporation (6146.T) quote", "url": "https://finance.yahoo.com/quote/6146.T/"},
+    {"label": "Al Jazeera - Japan's stock market hits new record as AI boom gathers steam (Jun 3, 2026)", "url": "https://www.aljazeera.com/economy/2026/6/3/japans-stock-market-hits-new-record-as-ai-boom-gathers-steam"},
+    {"label": "FXEmpire - Nikkei 225 Forecast: Advantest and Tokyo Electron lead push toward 70,000", "url": "https://www.fxempire.com/forecasts/article/nikkei-225-forecast-advantest-and-tokyo-electron-lead-push-toward-70000-1601938"},
+    {"label": "DISCO Corporation - 2026 corporate news (laser saw 4,000-unit milestone, Feb 2026)", "url": "https://www.disco.co.jp/eg/news/corp/20260302.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "On a node-centrality lens Disco's structural position is unchanged - near-monopoly (~70%) in dicing/grinding feeding HBM thinning and chiplet packaging - so a flow-driven +6% sector pop with zero new fundamentals does not move its rank; small negative drift acknowledges YTD jumping from 32% to 40% without new evidence.",
+      "bull": "Every HBM stack and chiplet package passes through Disco-class grinders/dicers; if 2027 advanced-packaging capacity adds accelerate, Disco's tool intensity rises regardless of which OSAT or memory maker wins.",
+      "neutral": "Thesis intact but nothing new since June 6; today's move is the Japan AI-rally beta, so the node-centrality score should simply drift with the prior assessment.",
+      "bear": "Disco's AI exposure is more diluted (edge, power, general semis) than pure HBM/CoWoS names, and a 40% YTD rerate on no news means any tool-order digestion quarter hits the multiple hard.",
+      "primaryCatalyst": "Preliminary Q1 FY2026 shipment/sales disclosure in early July confirming HBM/advanced-packaging tool demand.",
+      "primaryRisk": "Momentum unwind in the crowded Japan AI-semicap trade plus a pause in memory-maker capex digesting the multiple."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 67,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "This is a crowding-sensitive alpha list that already flags Disco as 'well recognized / high expectations'; a +6% flow-driven day with no new CPO or packaging evidence and YTD swelling from 32% to 40% erodes residual alpha, partially reversing yesterday's up-move on price action alone.",
+      "bull": "Disco remains an unavoidable toll on photonics and CPO substrate thinning/dicing, and any concrete CPO production ramp news would justify re-rating it back up the list.",
+      "neutral": "Yesterday's up-move rested on bottleneck linkage, not new contracts; today's no-news pop simply pulls forward that recognition, leaving the alpha case roughly where it was but pricier.",
+      "bear": "At ~$48B market cap, 40% YTD and consensus-loved status, Disco is the opposite of a hidden bottleneck name - the asymmetric upside this list rewards has largely been arbitraged away by the Nikkei AI rally.",
+      "primaryCatalyst": "Company-specific evidence of CPO/photonics tool orders or a capacity announcement tied to 2027 advanced-packaging buildout.",
+      "primaryRisk": "Post-rerating chase: entering after a no-news 6% pop in a crowded Japan AI trade leaves poor risk/reward if sector flows reverse."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "MELE.BR",
+  "company": "Melexis",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Latest fundamentals are from the April 29 Q1 print (Q1 sales EUR 202M, slightly ahead; H1 guided flat y/y, Q2 ~EUR 208M below consensus; H2 sales expected ~+10% sequential to ~EUR 450M). Recent analyst actions (Bernstein Buy May 28, JPMorgan PT to EUR 67 May 1) predate the window. Only routine items since: refreshed investor materials and the MLX91299 SiC snubber product note. Today's -3.3% (after -4.6% on June 5) looks like flow-driven profit-taking off the +34.8% YTD run, not a fundamental event; next catalyst is Q2 results on July 29.",
+  "sources": [
+    {"label": "Yahoo Finance - MELE.BR quote and news", "url": "https://finance.yahoo.com/quote/MELE.BR/"},
+    {"label": "Investing.com - Melexis Q1 sales ahead, maintains H1 guidance", "url": "https://www.investing.com/news/stock-market-news/melexis-reports-q1-sales-ahead-of-forecasts-maintains-h1-guidance-93CH-4643609"},
+    {"label": "ad-hoc-news - Melexis refreshed investor materials (automotive sensors focus)", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/melexis-stock-be0165385973-new-investor-materials-keep-focus-on/69372789"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed the name down to reconcile the adjusted-score rank; with zero new evidence since June 6, moving again would be churn. The two-day ~8% flow-driven pullback modestly de-crowds the +34.8% YTD run, justifying a small positive drift but not a rank change on a strict latent-AI-nodes screen where the pathway explicitly stops short of AI accelerators.",
+      "bull": "Best-in-class automotive magnetic/current/position sensor franchise with H2 guided ~+10% sequential to ~EUR 450M; current-sensing and thermal-monitoring ICs have a plausible latent pathway into data-center power-delivery and cooling instrumentation.",
+      "neutral": "Thesis unchanged since the April Q1 print; today's -3.3% is profit-taking, not news. The name remains a weak-evidence, low-rank entry on a strict AI-nodes list, fairly placed at 84.",
+      "bear": "The page's own thesis concedes Melexis is not an AI-accelerator node; +34.8% YTD rerating was driven by auto-cycle recovery hopes, so any China-auto demand slip or H2 guidance cut at the July 29 print removes the only support without adding AI optionality.",
+      "primaryCatalyst": "Q2 2026 results on July 29 confirming the guided H2 sequential acceleration, or a concrete design win placing Melexis current/thermal sensors into data-center power infrastructure.",
+      "primaryRisk": "Cautious and uneven automotive demand (especially China) forcing an H2 guidance cut, compressing a stock that has already rerated +34.8% YTD on a non-AI thesis."
+    }
+  ]
+}

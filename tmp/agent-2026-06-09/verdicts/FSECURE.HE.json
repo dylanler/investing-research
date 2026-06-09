@@ -1,0 +1,35 @@
+{
+  "symbol": "FSECURE.HE",
+  "company": "F-Secure",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "F-Secure investor relations / releases (no new stock-exchange release Jun 6-9, 2026; Investor Deep Dive was Jun 4)",
+      "url": "https://investors.f-secure.com/en"
+    },
+    {
+      "label": "F-Secure strategic partnership with leading Communication Service Provider (Dec 2025 release; consumer launch expected late Q2/Q3 2026)",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bf5c60bbe581f5d3ce26dbe722526feb5&lang=en"
+    },
+    {
+      "label": "Yahoo Finance quote FSECURE.HE",
+      "url": "https://finance.yahoo.com/quote/FSECURE.HE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since Jun 6 and a flat tape (-0.24% today, +9.6% YTD); the scaling-page case (endpoint/consumer security via embedded CSP distribution) is unchanged from yesterday's hold, so rank 31 stands.",
+      "bull": "The December 2025 strategic partnership with one of the world's largest CSPs puts F-Secure's embedded security in front of 100M+ end customers, with the consumer launch due late Q2/Q3 2026 - a near-dated catalyst the market is not pricing at a $0.45B cap.",
+      "neutral": "A consumer/endpoint security vendor is adjacent to, not inside, the AI-compute bottleneck; modest YTD gain with no fresh evidence means the setup simply drifts until the CSP launch or Q2 results provide data.",
+      "bear": "Consumer security is competitive and churn-prone; if the flagship CSP rollout slips past Q3 or ramps slower than guided, the small-cap rerating case stalls and the name stays a low-rank watchlist filler.",
+      "primaryCatalyst": "End-customer launch of the 100M+-subscriber CSP embedded-security partnership in late Q2/Q3 2026 and any revenue-impact disclosure around Q2 earnings.",
+      "primaryRisk": "Delay or weak attach rates in the CSP rollout, plus consumer-spend softness eroding the core subscription base."
+    }
+  ]
+}

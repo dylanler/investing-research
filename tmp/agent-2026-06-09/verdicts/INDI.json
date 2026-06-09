@@ -1,0 +1,52 @@
+{
+  "symbol": "INDI",
+  "company": "indie Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news. The -10.4% move today (and ~-15% Friday) traces to COO Michael Wittmann's June 4 insider sale (39,645 shares at ~$4.80, Form 4 surfaced June 5-6) plus consensus shifting to a ~$10.9M 2026 loss from prior profit expectations; the EUR40M ams OSRAM CMOS image-sensor acquisition was announced May 11 and is not new. The two-day ~18% slide looks flow-driven (small insider sale, technical follow-through), not a thesis break; YTD has compressed from ~+21% to +8.2%.",
+  "sources": [
+    {
+      "label": "Ticker Report: indie Semiconductor shares down 15.1% following insider selling",
+      "url": "https://www.tickerreport.com/banking-finance/13466531/indie-semiconductor-nasdaqindi-shares-down-15-1-following-insider-selling.html"
+    },
+    {
+      "label": "StockTitan: Form 4 - COO Michael Wittmann sells 39,645 shares",
+      "url": "https://www.stocktitan.net/sec-filings/INDI/form-4-indie-semiconductor-inc-insider-trading-activity-8e79ca22a855.html"
+    },
+    {
+      "label": "AAII: Why indie Semiconductor's stock is down (profit consensus cut to a 2026 loss)",
+      "url": "https://www.aaii.com/investingideas/article/480966-why-indie-semiconductor-inc8217s-indi-stock-is-down-570"
+    },
+    {
+      "label": "BusinessWire: indie to acquire CMOS image sensor product line from ams OSRAM (May 11, 2026 - context, not new)",
+      "url": "https://www.businesswire.com/news/home/20260511959181/en/indie-to-Acquire-CMOS-Image-Sensor-Product-Line-from-ams-OSRAM"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's removal call rested on weak direct CPO/HBM/advanced-packaging relevance, and nothing since June 6 changes that; the sell-off is flow-driven (insider sale) and cheapness does not fix the page-specific relevance gap, while the consensus flip to a 2026 loss is a mild fundamental ding.",
+      "bull": "At $0.83B cap and only +8.2% YTD after an ~18% two-day flush, any incremental edge/vision-AI content win would reprice quickly from a depressed base.",
+      "neutral": "indie is an automotive/edge analog-mixed-signal name with only tangential exposure to the AI compute bottleneck stack; price action changes entry, not relevance to this page.",
+      "bear": "Consensus now models a ~$10.9M 2026 loss versus prior profit, the COO is selling, and the name has no claim on HBM/packaging/test bottlenecks - it is the weakest link on this list regardless of price.",
+      "primaryCatalyst": "Q2 2026 results ($59-65M guide) proving the Wuxi indie Micro and image-sensor contributions are accretive and AI-relevant.",
+      "primaryRisk": "Continued estimate cuts and dilution/funding needs in a name with no direct AI-node bottleneck role."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 17,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down call was explicitly a +20.8%-YTD rerating/crowding penalty; that condition has reversed - an ~18% two-day flow-driven flush (small COO Form 4, no thesis news) has cut YTD to +8.2% while the perception-silicon thesis, $25M radar production order, and the pending ams OSRAM image-sensor line for physical-AI applications remain intact, restoring asymmetry on this page's lens.",
+      "bull": "A $0.83B-cap pure perception-silicon play (radar, LiDAR SoC, and soon CMOS image sensors for industrial/physical AI) just got ~18% cheaper on an insider-sale scare, with the EUR40M ams OSRAM deal closing in Q3 set to deepen exactly the robotics-relevant sensing portfolio.",
+      "neutral": "The de-rating restores the entry math the page penalized yesterday, but indie is still ADAS-first with robotics/humanoid exposure as an adjacency rather than the core revenue driver.",
+      "bear": "Consensus flipping to a 2026 loss plus C-suite selling in a sub-$1B unprofitable small cap can compound into financing risk; the slide may be early information rather than pure flow.",
+      "primaryCatalyst": "Q3 2026 close of the ams OSRAM CMOS image-sensor acquisition and first design-win evidence in industrial/physical-AI sensing.",
+      "primaryRisk": "Profitability slippage (new 2026 loss consensus) and further insider selling extending the de-rating beyond a flow event."
+    }
+  ]
+}

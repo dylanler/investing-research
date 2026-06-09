@@ -1,0 +1,27 @@
+{
+  "symbol": "SGM.AX",
+  "company": "Sims",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance quote/news - SGM.AX (no fresh announcements since Jun 6)", "url": "https://finance.yahoo.com/quote/SGM.AX/"},
+    {"label": "Sims Limited ASX filings page (no new material filing found)", "url": "https://www.simsltd.com/investors/asx-filings/"},
+    {"label": "The Bull - Sims shares at fresh highs on FY26 profit optimism (momentum context)", "url": "https://thebull.com.au/news/sims-shares-up-49-on-year-setting-new-highs-breakout-looming/"},
+    {"label": "Listcorp - Sims Limited announcements feed", "url": "https://www.listcorp.com/asx/sgm/sims-limited"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "No new ASX filing, contract or guidance since Jun 6; today's +2.2% is low-magnitude no-news drift to fresh multi-year highs, and yesterday's hold already reconciled the ~+51% YTD run, so re-penalizing the same rerating two days running isn't warranted. Shave one point for continued momentum-driven multiple expansion that slowly erodes the 'latent' character on a strict screen.",
+      "bull": "Sims Lifecycle Services is a real, under-modeled lever on AI buildout: data-center decommissioning/ITAD volumes scale with hardware refresh cycles, and strong scrap markets plus FY26 profit expectations give earnings support beneath the narrative.",
+      "neutral": "Thesis intact but increasingly recognized: +54% YTD and fresh 12-month-plus highs with no incremental fundamental datapoint since the last result means the easy mispricing has partly closed; rank 41 on this page still prices it as a peripheral node, which looks about right.",
+      "bear": "The AI-circularity angle is a small slice of a cyclical scrap-metal earnings base; a turn in ferrous/non-ferrous spreads or US scrap volumes would unwind the rerating quickly, and at multi-year highs the entry asymmetry has deteriorated.",
+      "primaryCatalyst": "FY26 full-year result / guidance (Aug 2026) quantifying Sims Lifecycle Services growth from data-center decommissioning, or a named hyperscaler ITAD contract.",
+      "primaryRisk": "Crowding into the circularity narrative reverses on weaker scrap prices or soft US volumes, compressing the multiple after a +54% YTD run with no new evidence."
+    }
+  ]
+}

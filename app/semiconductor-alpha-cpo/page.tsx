@@ -208,7 +208,7 @@ async function loadReportData(): Promise<SemiconductorAlphaCpoData> {
     bundle: 'Market data',
     title: 'Yahoo Finance chart endpoint',
     url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
-    note: 'June 8, 2026 refresh for latest public prices and YTD returns.',
+    note: 'June 9, 2026 refresh for latest public prices and YTD returns.',
     usedFor: 'Latest price and current-market rerank context.',
   });
 
@@ -264,7 +264,7 @@ async function loadReportData(): Promise<SemiconductorAlphaCpoData> {
       priorityEdgeCount: priorityEdges.length,
     },
     bundleDateLabel: 'May 3, 2026',
-    unifiedDateLabel: 'June 8, 2026',
+    unifiedDateLabel: 'June 9, 2026',
     downloadBaseHref: '/reports/semiconductor-alpha-cpo',
   };
 }

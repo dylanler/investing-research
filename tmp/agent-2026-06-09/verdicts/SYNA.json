@@ -1,0 +1,40 @@
+{
+  "symbol": "SYNA",
+  "company": "Synaptics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -5.0% move has no fundamental driver; it is flow-driven profit-taking off the June 2 pivot top (~16% below that high after an ~80% 90-day run). Backdrop items predate the window: June 3 UAV edge-AI MoU (Accton/Gallopwave/Hsuan Yuan), May 19 Google I/O Coralboard with Google Research, Q3 FY26 print (Core IoT +31% YoY). Sell-side chase continues post-rerating: Rosenblatt PT $180 (from $125), Wells Fargo $155 (from $120), June 8 roundup notes bullish targets building - a crowding signal, not new fundamentals.",
+  "sources": [
+    {"label": "StocksToTrade SYNA roundup, June 8 2026", "url": "https://stockstotrade.com/news/synaptics-incorporated-syna-news-2026_06_08/"},
+    {"label": "Yahoo Finance - Synaptics edge-AI UAV collaboration MoU", "url": "https://finance.yahoo.com/markets/stocks/articles/synaptics-syna-edge-ai-uav-160949095.html"},
+    {"label": "GlobeNewswire - Google Research and Synaptics Coralboard at Google I/O 2026", "url": "https://www.globenewswire.com/news-release/2026/05/19/3297828/35894/en/Google-Research-and-Synaptics-Partner-to-Showcase-Immersive-Edge-AI-experiences-powered-by-the-Coralboard-at-Google-I-O-2026.html"},
+    {"label": "Yahoo Finance quote - SYNA", "url": "https://finance.yahoo.com/quote/SYNA/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's removal call was structural - weak direct HBM/packaging/CPO bottleneck relevance - and nothing since June 6 changes that. Today's -5% is flow-driven and too small against +70.6% YTD to meaningfully restore asymmetry, while accelerating sell-side PT raises ($155-$180) signal growing crowding.",
+      "bull": "Core IoT grew 31% YoY and the Google Research Coralboard plus Astra SL2610/Torq NPU design-win cadence gives real edge-AI substance; a continued pullback would rebuild entry asymmetry.",
+      "neutral": "Edge-AI optionality is genuine but peripheral to this page's compute-bottleneck lens; a -5% flow day after an 80% 90-day run leaves the post-rerating setup essentially unchanged.",
+      "bear": "Consumer/IoT cyclicality plus a crowded post-rerating tape ($129 vs. $126 consensus target) means residual alpha is thin and momentum unwind can extend well beyond -5%.",
+      "primaryCatalyst": "Concrete Astra/Torq edge-AI design wins converting to revenue guidance upside at the next print.",
+      "primaryRisk": "Momentum unwind in a crowded edge-AI story with weak direct exposure to the AI compute bottleneck."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 111,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Low CPO exposure remains the binding constraint on this page and no CPO-relevant evidence emerged since June 6; yesterday's remove verdict stands and a flow-driven -5% day does not change the setup at rank 111.",
+      "bull": "If edge-AI silicon (Astra/Torq, Coralboard ecosystem) keeps compounding design wins, SYNA earns its optionality slot even without CPO relevance, and today's dip modestly improves entry.",
+      "neutral": "Nothing new ties SYNA to co-packaged optics; the stock is simply digesting a large rerating, which is orthogonal to this page's thesis.",
+      "bear": "Zero incremental CPO linkage plus IoT/consumer cycle risk and a +70% YTD chase makes this a dead slot on a CPO alpha list - the prior removal logic is intact.",
+      "primaryCatalyst": "Any credible optical/connectivity attach for Astra-class edge silicon (none evident today).",
+      "primaryRisk": "Permanent irrelevance to the CPO supply chain combined with consumer/IoT cycle downturn."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "symbol": "TTG.L",
+  "company": "TT Electronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only routine RNS filings: a Director/PDMR Shareholding notice on June 9 and a Total Voting Rights disclosure on June 4. The relevant fundamental datapoints all predate the window: the May AGM trading update (4-month organic revenue -4.8% on soft EMS demand, book-to-bill 107% led by aerospace & defence, FY26 guidance unchanged, GBP 3M net cost-programme benefit) and the January 2026 collapse of the Cicor takeover after shareholders rejected the scheme. Today's +1.56% move is small-cap noise, not fundamental.",
+  "sources": [
+    {
+      "label": "Investegate RNS feed for TT Electronics (TTG) - June 2026 filings are routine",
+      "url": "https://www.investegate.co.uk/company/TTG"
+    },
+    {
+      "label": "Sharecast: TT Electronics reports mixed trading, in line with expectations (AGM update)",
+      "url": "https://www.sharecast.com/news/news-and-announcements/tt-electronics-reports-mixed-trading-in-line-with-expectations--22498132.html"
+    },
+    {
+      "label": "TipRanks: TT Electronics takeover by Cicor collapses as shareholders reject scheme",
+      "url": "https://www.tipranks.com/news/company-announcements/tt-electronics-takeover-by-cicor-collapses-as-shareholders-reject-scheme"
+    },
+    {
+      "label": "Yahoo Finance quote TTG.L",
+      "url": "https://finance.yahoo.com/quote/TTG.L/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved it up to reflect hidden passive/power-sensing content in AI-server power paths; nothing new since June 6 (only routine PDMR/voting-rights RNS) and a +1.56% day on a -0.5% YTD base leaves the residual-alpha setup unchanged, so hold rank 3.",
+      "bull": "Current-sense and thin/thick-film resistor content sits directly in AI power-delivery paths, the name is a $0.28B micro-cap nobody owns, and 107% book-to-bill plus failed-bid history (Volex, Cicor) gives both fundamental and M&A optionality at a flat YTD price.",
+      "neutral": "No fresh evidence since June 6 either way; AI-adjacent passives exposure is real but diluted by soft EMS and automation/electrification end-markets, so score drifts with the tape until the H1 results or a contract disclosure.",
+      "bear": "Group organic revenue is still shrinking (-4.8% in the 4 months to April) and the AI/passives content is a small slice of a mixed industrial portfolio, so the bottleneck thesis could remain unmonetized while turnaround execution risk dominates.",
+      "primaryCatalyst": "H1 2026 results / evidence of AI-server power and sensing design wins, or renewed bid interest post-Cicor collapse",
+      "primaryRisk": "Continued EMS end-market softness and turnaround execution risk swamping the AI passives content"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 16: the latent edge-AI/power-components pathway is unchanged, no new contracts or capacity news since June 6, and yesterday's hold verdict stands absent genuinely new information.",
+      "bull": "Aerospace/defence demand (12% growth, structural tailwinds) and the China-to-Malaysia production shift strengthen exactly the regulated-market power and sensing franchise that the latent edge-AI thesis rests on.",
+      "neutral": "Speculative-conviction node with no June news flow; the thesis advances only on disclosed automation, defence-power or medical-electronics wins, none of which appeared this window.",
+      "bear": "A shrinking-revenue UK micro-cap with a failed takeover behind it may stay a generic EMS/components story; the edge-AI optionality is inferred, not evidenced.",
+      "primaryCatalyst": "Disclosed aerospace/defence power or automation/electrification design wins",
+      "primaryRisk": "Edge-AI angle never materializes beyond generic industrial electronics exposure"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already marked it down to reconcile adjusted-score rank under the strict screen's medium-evidence bar; nothing since June 6 raises or lowers the evidence tier, so hold at 24 rather than compounding the move.",
+      "bull": "107% book-to-bill and regulated-market sensors/power conversion give a credible migration path into rugged edge and thermal-control niches if AI-driven demand reaches defence and industrial platforms.",
+      "neutral": "Evidence remains medium under the strict lens: routine RNS only this window, and the rugged-edge pathway is plausible but undocumented by named programs.",
+      "bear": "Under a strict evidence standard the AI-chain link is the weakest of its three listings; soft EMS demand and a -37% adjusted EPS print last year argue the stock is a restructuring story, not an AI node.",
+      "primaryCatalyst": "Named rugged-edge or thermal-control program wins that harden the evidence tier",
+      "primaryRisk": "Strict-screen evidence never improves, leaving the name as low-grade industrial exposure on an AI list"
+    }
+  ]
+}

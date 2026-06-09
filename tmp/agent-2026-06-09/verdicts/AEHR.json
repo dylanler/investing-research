@@ -1,0 +1,66 @@
+{
+  "symbol": "AEHR",
+  "company": "Aehr Test Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. The drivers of the recent move all predate the window: June 2 William Blair Growth Stock Conference presentation and an updated June 2026 investor deck (drove a ~21% pop on June 2), the April record $41M hyperscale AI customer package-level burn-in order (deliveries begin FY2027, starting late June 2026), and >$92M second-half bookings. Today's -4.5% to $91.28 appears to be consolidation/profit-taking after the parabolic run, not news. Crowding markers persist: stock trades ~40% above the ~$64 sell-side average target and heavy retail-trading-site coverage after +312% YTD.",
+  "sources": [
+    {"label": "QuiverQuant - AEHR jumps on updated AI burn-in narrative ahead of conference", "url": "https://www.quiverquant.com/news/Aehr+Test+Systems+jumps+as+investors+digest+updated+AI+burn-in+narrative+ahead+of+conference+presentation"},
+    {"label": "Aehr IR - William Blair 46th Annual Growth Stock Conference, June 2", "url": "https://www.aehr.com/2026/05/aehr-test-systems-to-present-at-william-blair-46th-annual-growth-stock-conference-on-june-2/"},
+    {"label": "TIKR - AEHR stock jumps after major AI customer production order ($41M)", "url": "https://www.tikr.com/blog/aehr-test-systems-nasdaq-stock-skyrockets-10-after-securing-major-ai-customer-production-order"},
+    {"label": "StocksGuide - AEHR analyst price targets (avg ~$63.67, ~46% below price)", "url": "https://stocksguide.com/en/forecast/Aehr-Test-Systems-US00760J1088"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday already moved it down for discovery after the $41M AI order and +312% YTD; nothing genuinely new since June 6 and today's -4.5% drift does not change the setup. Latency premise is largely spent at rank 94, so hold with slight negative drift.",
+      "bull": "Record $41M hyperscale AI burn-in order plus >$92M H2 bookings prove the AI processor reliability-screening thesis is real, with FY2027 deliveries starting late June.",
+      "neutral": "Thesis is now well telegraphed; at $2.9B cap and rank 94 the residual hidden-node value is small either way, and the stock is digesting the June 2 conference pop.",
+      "bear": "Price sits ~40% above the sell-side average target after +312% YTD with heavy retail coverage; customer concentration on one hyperscaler makes any order air-pocket brutal.",
+      "primaryCatalyst": "Fiscal Q4 results and FY2027 guidance in July; follow-on AI customer or order announcements.",
+      "primaryRisk": "Order timing slip or single-customer concentration disappointment triggering a sharp de-rating from elevated levels."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Already at rank 100 after yesterday's downgrade; no new WFE/HBM-relevant evidence since June 6, and the modest -4.5% pullback is consolidation, not a setup change.",
+      "bull": "Package-level burn-in for custom AI ASICs gives Aehr a genuine, growing seat at the AI test-intensity table that this page's thesis was waiting for.",
+      "neutral": "Burn-in remains peripheral to the page's core fab/HBM capacity bottleneck lens; rank 100 already reflects that indirectness.",
+      "bear": "After a 4x YTD move the name carries cycle and valuation risk far in excess of its bottleneck centrality; export controls and customer concentration add tail risk.",
+      "primaryCatalyst": "FY2027 delivery ramp of the $41M hyperscale order and incremental AI bookings.",
+      "primaryRisk": "Valuation compression if AI burn-in adoption proves narrower than the conference-deck narrative."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 43,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive alpha lens, rank 43 / score 69.7 is too generous for a name trading ~40% above consensus targets with saturating retail coverage after +312% YTD and no new fundamental evidence since June 6; the 'small-cap test optionality' premise is no longer hidden or under-owned.",
+      "bull": "If silicon photonics and AI power devices require wafer-level reliability screening at scale, Aehr's installed-base head start and >$92M H2 bookings give real operating leverage.",
+      "neutral": "The optionality is now consensus; risk/reward at $91 is balanced between FY2027 ramp delivery and a crowded-trade unwind, and today's -4.5% dip barely dents the run.",
+      "bear": "Very high volatility, single-customer concentration, and a price that has already discounted multiple years of perfect execution leave negative asymmetry on any bookings pause.",
+      "primaryCatalyst": "New silicon photonics or second AI customer design win that would re-arm the optionality case.",
+      "primaryRisk": "Post-rerating chase unwind: crowded retail positioning meeting a soft fiscal Q4 print or guidance."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already priced the discovery; no new scaling-relevant evidence since June 6 and the -4.5% day is routine digestion of the June 2 conference pop, so hold at rank 47.",
+      "bull": "Burn-in intensity per AI processor is rising, and the $41M hyperscale order plus >$92M H2 bookings show Aehr converting that scaling tailwind into revenue.",
+      "neutral": "A small, concentrated test niche within the scaling stack; score 18.9 at rank 47 already reflects limited bottleneck weight.",
+      "bear": "At ~$2.9B and 4x YTD, the stock embeds a scaling narrative its single-hyperscaler order book does not yet support; analyst targets sit far below the price.",
+      "primaryCatalyst": "FY2027 guidance in July quantifying the AI burn-in ramp.",
+      "primaryRisk": "Cyclical SiC/EV softness plus AI order lumpiness producing a guidance miss into a crowded register."
+    }
+  ]
+}

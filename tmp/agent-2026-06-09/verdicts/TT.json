@@ -1,0 +1,27 @@
+{
+  "symbol": "TT",
+  "company": "Trane Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news. June 8: released 2025 Sustainability Report ('Scaling Sustainability') - non-financial, alpha-irrelevant. Sell-side earnings estimate revisions trending modestly higher per Yahoo coverage. The data-center cooling thesis builders (LiquidStack liquid-cooling acquisition closed March 2026; Stellar Energy modular DC cooling closed Feb 18, 2026; Q1 record $10.7B backlog, Americas commercial HVAC bookings +40% y/y) are all pre-June 6 and well-disseminated. Today's +1.85% move is flow/drift, not event-driven.",
+  "sources": [
+    {"label": "Trane Technologies IR - 2025 Sustainability Report release (Jun 8, 2026)", "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Scales-Sustainability-Through-Climate-Innovation-Circularity-and-Workforce-Development/default.aspx"},
+    {"label": "Yahoo Finance - Investors reacting to TT sustainability honors and upbeat estimate revisions", "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-trane-technologies-tt-090944641.html"},
+    {"label": "Trane Technologies IR - LiquidStack acquisition (data center thermal management)", "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-to-Acquire-LiquidStack-to-Accelerate-EndtoEnd-Data-Center-Thermal-Management-Solutions/default.aspx"},
+    {"label": "Simply Wall St - TT valuation after CES 2026 data center cooling commentary (Rubin efficiency risk)", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-tt/trane-technologies/news/a-look-at-trane-technologies-tt-valuation-after-ces-2026-dat"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No genuinely new evidence since yesterday's hold; the only fresh item is a sustainability report, which carries no bottleneck or earnings signal. A +1.85% day and 17.4% YTD on a $99B mega-cap whose DC-cooling story is fully disseminated means residual alpha erodes slightly, but not enough to demote a top-4 power/cooling bottleneck name.",
+      "bull": "Record $10.7B backlog, Americas commercial HVAC bookings +40% y/y, and the LiquidStack + Stellar deals give Trane end-to-end air-plus-liquid data center thermal coverage as AI rack densities climb.",
+      "neutral": "Quality compounder fairly recognized: ~$99B cap, +17.4% YTD, guidance already raised after Q1; estimate revisions drifting up but the thesis is consensus, so the rank holds on bottleneck exposure rather than hidden upside.",
+      "bear": "Crowded AI-cooling proxy at a rerated multiple; CES 2026 commentary that Nvidia's Rubin platform could cut cooling intensity per FLOP is a live narrative risk, and any DC capex digestion hits the most-owned HVAC name first.",
+      "primaryCatalyst": "Q2 earnings (late July) with data-center bookings/backlog disclosure and contribution from LiquidStack/Stellar integration.",
+      "primaryRisk": "Chip-level cooling-efficiency gains (Rubin) or a hyperscaler capex pause compressing the data-center cooling growth premium embedded in the multiple."
+    }
+  ]
+}

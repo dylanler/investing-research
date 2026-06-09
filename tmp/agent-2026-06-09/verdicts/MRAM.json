@@ -1,0 +1,39 @@
+{
+  "symbol": "MRAM",
+  "company": "Everspin Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Confirmed Russell 2000 inclusion effective June 26 (stock popped ~3% pre-market June 9 then reversed to -5.8% on the day - flow-driven, not fundamental). Form 4 disclosure of director Lawrence Finch selling 310,091 shares (~$8.5M); insiders have sold $17.2M over three months with zero buying. The late-May Kerrisdale short report (fair value $14, ~60% downside, argues largest end market is casino gaming not AI, revenue flat at $50-65M for years) continues to drive the unwind; no new earnings, contracts, or design wins since June 6.",
+  "sources": [
+    {
+      "label": "Investing.com - Everspin to join Russell 2000 index on June 26",
+      "url": "https://www.investing.com/news/company-news/everspin-technologies-to-join-russell-2000-index-on-june-26-93CH-4732198"
+    },
+    {
+      "label": "TipRanks - Everspin director's multi-million dollar stock sale",
+      "url": "https://www.tipranks.com/news/insider-trading/everspin-director-makes-major-insider-move-with-multi-million-dollar-stock-sale-insider-trading-news"
+    },
+    {
+      "label": "Investing.com - Everspin tumbles after Kerrisdale short report",
+      "url": "https://www.investing.com/news/stock-market-news/everspin-technologies-stock-tumbles-after-short-seller-report-93CH-4698764"
+    },
+    {
+      "label": "GuruFocus - MRAM rises pre-market on Russell 2000 inclusion",
+      "url": "https://www.gurufocus.com/news/8907389/everspin-technologies-mram-stock-rises-on-russell-2000-inclusion"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved it down for crowding and post-rerating chase; today's -5.8% is the unwind that move anticipated, not new information. The sell-off modestly improves entry asymmetry, but that is offset by fresh insider-sale disclosure, Russell-inclusion passive ownership eroding the under-owned character, and Kerrisdale's unanswered claim that the real end market is casino gaming rather than edge AI/robotics.",
+      "bull": "Toggle/STT-MRAM is genuinely radiation-hard, instant-on persistent memory suited to industrial and robotic edge controllers, backed by a $40M defense contract; a ~20% drawdown from recent highs restores some asymmetry if the edge-AI design-win pipeline materializes.",
+      "neutral": "Still +127% YTD on flat $50-65M revenue; the de-rating is underway but incomplete, and there is no new fundamental datapoint since June 6 to re-underwrite the robotics thesis either way.",
+      "bear": "Kerrisdale's $14 fair value implies ~40% further downside, insiders have sold $17.2M with no buying, and if the dominant revenue base really is casino gaming the robotics-edge-memory framing is mostly narrative.",
+      "primaryCatalyst": "A named robotics/edge-AI design win or Q2 revenue inflection that rebuts the flat-revenue short thesis; near-term, Russell 2000 inclusion flows into June 26.",
+      "primaryRisk": "Continued short-thesis-driven de-rating toward the mid-teens as AI-hype premium bleeds off a flat-revenue, insider-selling micro-cap."
+    }
+  ]
+}

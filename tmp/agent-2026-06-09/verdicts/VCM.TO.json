@@ -1,0 +1,35 @@
+{
+  "symbol": "VCM.TO",
+  "company": "Vecima Networks",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investing.com - Vecima Networks Q3 2026 earnings call transcript (May 14, 2026)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vecima-networks-q3-2026-misses-eps-stock-dips-93CH-4689711"
+    },
+    {
+      "label": "Light Reading - Vecima secures more vCMTS wins, ups revenue guidance",
+      "url": "https://www.lightreading.com/cable-technology/vecima-secures-more-vcmts-wins-ups-revenue-guidance"
+    },
+    {
+      "label": "Vecima Networks - investor news releases page",
+      "url": "https://vecima.com/investor-relations/news-releases/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "No material news since June 6; the thesis-relevant catalysts (Charter DOCSIS 4.0 multi-year agreement, raised CY2026 guide of +22.5-30% revenue / +74-85% adj. EBITDA, Cox and Witke vCMTS wins) all date from mid-May and were already embedded in the June 8 hold. Today's -1.76% on a $0.24B illiquid TSX small cap is flow noise, not a setup change, so the latent-node case for an underfollowed broadband-access bottleneck stays exactly where it was.",
+      "bull": "vCMTS is a three-vendor global market and Vecima has Charter, Cox and European wins with management citing PO-backed visibility into CY2026 volume ramps; at $0.24B and minimal coverage, residual alpha from the qualification-to-deployment transition is still real.",
+      "neutral": "Q3 revenue of CAD64.8M was only +1.3% y/y and down 12.1% sequentially with an EPS miss, so the raised CY2026 guide is still a promise, not a print; +23.75% YTD has already paid for part of the rerating.",
+      "bear": "Customer concentration in a handful of North American MSOs means any capex deferral by Charter or Cox guts the deployment ramp, and lumpy quarterly revenue plus thin liquidity makes drawdowns violent for a name this small.",
+      "primaryCatalyst": "Q4 FY2026 results (and first CY2026 quarters) confirming the 22.5-30% revenue ramp and initial vCMTS deployment revenue at Charter/Cox.",
+      "primaryRisk": "MSO capex slippage or DOCSIS 4.0 deployment delays pushing the guided CY2026 ramp to the right, breaking the guidance-driven rerating."
+    }
+  ]
+}

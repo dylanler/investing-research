@@ -1,0 +1,28 @@
+{
+  "symbol": "WMT",
+  "company": "Walmart",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Routine items only: June 4 annual shareholder meeting results (proposal for an AI/automation workplace-impact report voted down), Walton Family Holdings Trust sale of ~1.77M shares on June 2 (pre-window, routine family-trust flow), Subway meal delivery integration into Express Delivery, and investor conference appearances (Oppenheimer Consumer Growth & E-Commerce, June 9; Evercore ISI Consumer & Retail, June 10). The strong Q1 FY27 print (revenue +7.3%, US comps +4.1%, EPS $0.66) and the ~12% May drawdown both predate the window. Today's -1.08% is drift, not a fundamental signal.",
+  "sources": [
+    {"label": "CNBC - WMT quote and news", "url": "https://www.cnbc.com/quotes/WMT"},
+    {"label": "Yahoo Finance - WMT quote", "url": "https://finance.yahoo.com/quote/WMT/"},
+    {"label": "Motley Fool - Why Walmart Stock Dropped 12% in May", "url": "https://www.fool.com/investing/2026/06/02/why-walmart-stock-dropped-12-in-may/"},
+    {"label": "Walmart corporate events calendar (June 9-10 conferences)", "url": "https://corporate.walmart.com/news/events"},
+    {"label": "GuruFocus - Walton Family Holdings Trust share sale", "url": "https://www.gurufocus.com/news/8902414/walton-family-holdings-trust-sells-1771333-shares-of-walmart-inc-wmt"}
+  ],
+  "verdicts": [
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved WMT up on the post-May-selloff asymmetry; nothing genuinely new has emerged since June 6, so the setup is unchanged. Today's -1.08% drift marginally improves entry on an intact human-consumption thesis (~12% below the May 19 high of $135.16 with fundamentals confirmed by Q1), warranting a small positive delta but no second consecutive rank move.",
+      "bull": "Defensive household-spend proxy trading ~12% off highs despite a clean Q1 (revenue +7.3%, US comps +4.1%); muted +5.1% YTD leaves residual upside if consumers stay resilient while AI-crowded names wobble.",
+      "neutral": "A $954B mega-cap that is consensus, mature, and heavily institutionally owned offers limited hidden alpha; the carbon-consumption exposure is real but fully understood by the market.",
+      "bear": "If the May derating reflected slowing comp momentum or margin pressure from price investments rather than mere multiple compression, the defensive premium erodes and the stock has further to fall toward grocery-retail multiples.",
+      "primaryCatalyst": "Incremental color from the Oppenheimer (June 9) and Evercore ISI (June 10) consumer conferences on comp trends and e-commerce/membership monetization.",
+      "primaryRisk": "Further multiple compression as a richly valued defensive if consumer spending data weakens or tariff/price-investment pressure squeezes margins."
+    }
+  ]
+}

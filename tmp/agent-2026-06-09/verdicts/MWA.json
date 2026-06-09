@@ -1,0 +1,52 @@
+{
+  "symbol": "MWA",
+  "company": "Mueller Water Products",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - MWA news stream (no post-June-6 material items; latest fundamentals are May 5 Q2 beat and raised FY26 EBITDA guidance)",
+      "url": "https://finance.yahoo.com/quote/MWA/news/"
+    },
+    {
+      "label": "GlobeNewswire - Mueller Water Products Reports 2026 Second Quarter Results (May 5, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288300/14520/en/Mueller-Water-Products-Reports-2026-Second-Quarter-Results.html"
+    },
+    {
+      "label": "Mueller Water Products IR - 2026 press releases (nothing new in the June 6-9 window)",
+      "url": "https://ir.muellerwaterproducts.com/press-releases/2026"
+    },
+    {
+      "label": "TipRanks - MWA analyst activity (latest moves are early-May target bumps: Baird $34, Goldman $29; Hold consensus as of May 28)",
+      "url": "https://www.tipranks.com/stocks/mwa"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved the name up on rank reconciliation; nothing new since June 6 and today's +2.2% is newsless drift, so the latent water-stress thesis neither gains nor loses residual alpha at rank 44.",
+      "bull": "AI campus and data-center water demand layered on aging municipal networks makes valves, hydrants and leak detection more strategic than consensus assumes, and the May quarter showed record sales with 210bps EBITDA margin expansion.",
+      "neutral": "MWA is a steady municipal-capex compounder up a modest +8% YTD with no fresh catalyst since the May 5 print; it earns its mid-list latent slot but no more until water-stress contracts become visible.",
+      "bear": "The AI-water linkage remains indirect - revenue is driven by municipal budgets and resi construction, not hyperscaler capex - and Hold-rated coverage near a $31.50 target caps near-term upside.",
+      "primaryCatalyst": "Municipal capex cycle plus visible data-center-driven water infrastructure or leak-detection awards.",
+      "primaryRisk": "Municipal budget softness and the AI-water thesis staying narrative rather than order-book reality."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Strict-screen pathway (water distribution and smart utility products as AI campuses pressure municipal networks) is unchanged with no post-June-6 evidence either way; yesterday was a hold and a 2% drift day does not justify moving a top-5 slot.",
+      "bull": "Top-5 strict positioning is supported by clean execution - record Q2 sales, raised FY26 EBITDA guidance to $360-365M, new brass foundry margin gains - while the name stays under-owned versus headline AI plays.",
+      "neutral": "Evidence quality on the water pathway is high but static; at rank 5 the page already credits the thesis, so it needs an actual AI-campus water order or capacity announcement to advance.",
+      "bear": "At a $4B cap with consensus already at Hold, further upside depends on a speculative AI-demand channel; if data-center water recycling reduces municipal draw, the AI kicker never materializes.",
+      "primaryCatalyst": "First disclosed AI/data-center campus water infrastructure award or step-up in municipal capex tied to data-center load.",
+      "primaryRisk": "Thesis stagnation - strong but already-priced municipal execution with no incremental AI-specific evidence, eroding the strict screen's alpha case."
+    }
+  ]
+}

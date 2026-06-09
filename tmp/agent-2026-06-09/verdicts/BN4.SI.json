@@ -1,0 +1,26 @@
+{
+  "symbol": "BN4.SI",
+  "company": "Keppel",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9, 2026: Keppel announced its private fund Keppel Data Centre Fund III secured land (73% effective stake in the SPV, alongside Shinyoung, NH Securities and Hyundai E&C) to develop a 60MW AI-ready, Tier III-equivalent greenfield data centre in Ansan, Seoul Metropolitan Area - Keppel's first entry into the South Korean data centre market. Construction permits and power approvals are already secured; ready-for-service targeted 2030. Adds to a portfolio of 39 data centres with 800MW+ gross capacity at end-2025. Stock reaction muted (+0.48% on the day, +1.35% YTD), so the new evidence arrives without a rerating.",
+  "sources": [
+    {"label": "Reuters via TradingView - KDCF III secures Ansan 60MW greenfield land", "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42G13Y:0-keppel-says-keppel-data-centre-fund-iii-secured-land-to-develop-60mw-greenfield-data-centre-in-ansan/"},
+    {"label": "DataCenterDynamics - Keppel enters South Korean DC market, 60MW Seoul-area facility", "url": "https://www.datacenterdynamics.com/en/news/keppel-to-enter-south-korean-data-center-market-plans-60mw-facility-in-seoul/"},
+    {"label": "Yahoo Finance - BN4.SI quote", "url": "https://finance.yahoo.com/quote/BN4.SI/"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 33,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "Genuinely new on-thesis evidence after yesterday's verdict: the June 9 Ansan announcement extends Keppel's data-center development pipeline into a new market with power approvals already in hand - exactly the physical-deployment bottleneck exposure this page rewards - while the stock remains un-rerated (+1.35% YTD), so residual alpha improves rather than erodes.",
+      "bull": "Secured power and permits in the supply-constrained Seoul Metropolitan Area is scarce bottleneck capacity; Keppel's fund model lets it scale AI-ready megawatts (Ansan, KDC SGP 9, floating DC) asset-light, and none of this is priced in at a flat YTD tape.",
+      "neutral": "The Ansan project is 60MW at a ~73% fund-level stake with RFS in 2030 - incremental (~7.5% of existing 800MW portfolio) and slow-burn for a USD ~15B conglomerate, so near-term earnings impact is modest even if strategically on-thesis.",
+      "bear": "Keppel is a diversified conglomerate, so data-center upside is diluted by legacy infrastructure and real-estate exposure; Korea DC development carries execution, power-cost and 2030-vintage demand risk, and fund structures cap Keppel's direct economics.",
+      "primaryCatalyst": "Further AI-ready capacity announcements and monetization events (KDC SGP 9 construction start mid-2026, additional fund deployments or REIT divestments at premium valuations).",
+      "primaryRisk": "Execution/timeline slippage on greenfield projects and conglomerate dilution - data-center wins fail to move group earnings enough to rerate the stock."
+    }
+  ]
+}

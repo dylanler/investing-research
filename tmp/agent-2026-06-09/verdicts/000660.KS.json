@@ -1,0 +1,68 @@
+{
+  "symbol": "000660.KS",
+  "company": "SK hynix",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No discrete company-specific announcement found since June 6. The +15.9% June 9 spike (to ~KRW 2,215,000, ~$1.16T cap) appears flow/momentum-driven: continuation of the AI-memory melt-up on HBM sold-out-through-2026 / shortage-seen-to-2028 narrative, reported order shifts to SK hynix amid Samsung labor/strike risk, and KOSPI index-concentration flows. The genuinely fundamental items - record Q1 (revenue +198% y/y, ~72% operating margin), ~20% HBM3E price hikes for 2026, full prepaid HBM capacity bookings, $1T cap crossing - all predate June 6 and were already in yesterday's case.",
+  "sources": [
+    {"label": "CNBC - SK Hynix hits $1 trillion valuation as AI boom lifts Korean chip stocks (May 27, 2026)", "url": "https://www.cnbc.com/2026/05/27/sk-hynix-shares-ai-chip-rally-1-trillion.html"},
+    {"label": "TradingKey - SK Hynix surges 15% to new high; HBM shortage seen until 2028 (May 2026)", "url": "https://www.tradingkey.com/analysis/stocks/more/261879241-sk-hynix-hbm-shortage-samsung-tracker-valuation-tradingkey"},
+    {"label": "TradingKey - Top Wall Street funds increase SK hynix stakes; HBM supply shortage", "url": "https://www.tradingkey.com/analysis/stocks/more/261939086-sk-hynix-wall-street-accumulation-hbm-supply-tradingkey"},
+    {"label": "TrendForce - Samsung, SK hynix plan ~20% HBM3E price hike for 2026", "url": "https://www.trendforce.com/news/2025/12/24/news-samsung-sk-hynix-reportedly-plan-20-hbm3e-price-hike-for-2026-as-nvidia-h200-asic-demand-rises/"},
+    {"label": "DIGITIMES - SK Hynix signals seller's market, memory prices set to climb all year", "url": "https://www.digitimes.com/news/a20260225PD216/sk-hynix-dram-hbm-demand-2026.html"},
+    {"label": "EBC - SK Hynix stock rises, chipmaker drives KOSPI to historic highs", "url": "https://www.ebc.com/forex/sk-hynix-stock-rises-chipmaker-drives-kospi-to-historic-highs"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 18,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On an alpha-ranked nodes page, a +15.9% single day on a ~$1.16T cap already up 227% YTD, with no identifiable new fundamental evidence since June 6, is pure residual-alpha compression; the thesis itself already conceded 'the crowd is catching on'. Yesterday's up-move was justified by bottleneck linkage, but today's flow-driven melt-up changes the setup.",
+      "bull": "HBM capacity is fully booked with customer prepayments, HBM3E/HBM4 pricing is rising ~20%, and the shortage is now projected to persist into 2028 - the bottleneck economics keep beating expectations.",
+      "neutral": "World-class fundamentals are real but now broadly recognized; at ~$1.16T and 227% YTD the stock prices in years of seller's-market conditions, leaving rank-18 alpha thin.",
+      "bear": "Samsung's accelerating HBM4 push and the memory cycle's history of violent reversals mean a single qualification win by a rival or 2027 capacity overshoot could de-rate the multiple hard from these levels.",
+      "primaryCatalyst": "HBM4 volume pricing/contract confirmations for Rubin-era accelerators",
+      "primaryRisk": "Crowded positioning unwinds on any Samsung HBM4 qualification or memory-cycle inflection"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 103,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a CPO-lens alpha list SK Hynix is only an indirect cluster-scale proxy, and a 16% flow-driven day on a $1T+ name destroys whatever asymmetry an indirect proxy offered; it should sit below purer, less-rerated CPO names. Reverses yesterday's up-call because today's price action, not the thesis, changed.",
+      "bull": "Every CPO-scaled cluster still needs more HBM per accelerator, and SK hynix remains the gating supplier with capacity sold out into 2027.",
+      "neutral": "The HBM linkage to CPO buildouts is sound but second-order on this page, and the name is now among the most-owned AI stocks globally.",
+      "bear": "As a mega-cap momentum proxy it offers no hidden CPO alpha, and a memory-cycle or positioning unwind would hit it harder than the optics names this page is built around.",
+      "primaryCatalyst": "Cluster-scale CPO deployments lifting per-node HBM content",
+      "primaryRisk": "Indirect thesis plus extreme crowding underperforms purer CPO bottleneck names"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the silicon-consumption theme lens SK hynix remains the canonical direct HBM proxy and the shortage-to-2028 backdrop keeps the basket role intact; the page already took its rerating discipline cut yesterday. Today's flow-driven spike warrants only score drift, not a second consecutive demotion of the best-fit representative.",
+      "bull": "HBM remains the fastest-growing layer of silicon-basket consumption and SK hynix is its largest direct pure-play, with prepaid sold-out capacity validating the theme.",
+      "neutral": "Theme representation is unchanged, but the June 2026 market-cap/YTD discipline note means further melt-up days erode score even as the proxy role holds.",
+      "bear": "If the silicon basket's growth narrative cracks (capex digestion, 2027 memory oversupply), the most-rerated proxy in the basket falls furthest.",
+      "primaryCatalyst": "Sustained HBM bit-growth and pricing through the 2027 AI compute ramp",
+      "primaryRisk": "Memory-cycle reversal hits the basket's most extended constituent hardest"
+    },
+    {
+      "page": "companies",
+      "currentRank": 78,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "The master list rewards under-owned bottleneck exposure, and SK hynix is now the opposite: ~$1.16T cap, 227% YTD, +15.9% today on no new evidence, with reports of top Wall Street funds piling in. Yesterday's up-move predated today's melt-up; residual alpha versus less-rerated HBM-chain names (equipment, materials, test) has clearly shrunk.",
+      "bull": "Record 72% operating margins, prepaid sold-out HBM capacity, and a shortage projected into 2028 mean estimates can still rise faster than the multiple compresses.",
+      "neutral": "Execution is flawless but ownership is saturated; from here the stock is a beta vehicle on the AI-memory narrative rather than an alpha source.",
+      "bear": "A 16% melt-up day on a trillion-dollar cap is late-cycle tape behavior; Samsung HBM4 qualification, 2027 capacity adds, or any AI capex pause triggers a sharp de-rating.",
+      "primaryCatalyst": "HBM4 contract pricing and Q2 results extending the record-margin run",
+      "primaryRisk": "Post-rerating crowding: saturated ownership leaves no marginal buyer when the memory narrative wobbles"
+    }
+  ]
+}

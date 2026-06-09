@@ -1,0 +1,39 @@
+{
+  "symbol": "RDX.AX",
+  "company": "Redox",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockInvest.us RDX.AX snapshot (price action, 52-week range, consensus target A$3.64, next earnings Aug 26 2026)",
+      "url": "https://stockinvest.us/stock/RDX.AX"
+    },
+    {
+      "label": "Redox announcements archive (latest items: Garlicin product launch Jun 1, Sucralose May 27 - no material corporate news)",
+      "url": "https://redox.com/news/category/announcements/"
+    },
+    {
+      "label": "Redox acquires Molekulis (transformer/specialty oils) - dated April/May 2025, not new",
+      "url": "https://redox.com/news/redox-acquires-transformer-oil-leader-molekulis/"
+    },
+    {
+      "label": "Redox S&P/ASX 300 inclusion - dated March 2024, rules out fresh index-flow catalyst",
+      "url": "https://redox.com/news/redox-limited-joins-sp-asx-300-index/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 68,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "Strict latent-alpha lens: +4.9% today to a fresh 52-week high (A$3.67 vs prior high A$3.52), ~+18% in two weeks and +19.5% YTD with zero new evidence on the speculative coolants/water-treatment pathway; the stock now trades above the A$3.64 consensus target, so residual alpha has compressed versus yesterday's hold.",
+      "bull": "Diversified ANZ chemical distributor with real earnings growth (1H26 revenue +6.6%, NPAT +8.9%) and an existing transformer-oils line via Molekulis that gives it genuine, if small, exposure to grid/data-centre electrification chemistry.",
+      "neutral": "Nothing material has changed since June 6; the AI-chain pathway remains a qualitative 'could supply' option, and the two-week melt-up looks like momentum and small-cap flow rather than any fundamental re-rating of that option.",
+      "bear": "A US$1.3B distributor with no disclosed AI/data-centre contracts has rerated ~20% YTD to above consensus targets; if the latent thesis never converts, the position is now paying chase risk for a commodity-distribution multiple.",
+      "primaryCatalyst": "FY26 results on Aug 26, 2026, or any disclosed coolant/water-treatment/transformer-oil supply agreement tied to data-centre or grid customers.",
+      "primaryRisk": "Crowding/momentum reversal: the stock has run ahead of analyst targets on no news, so a flow unwind retraces the move with the latent thesis no closer to validation."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "6590.T",
+  "company": "Shibaura Mechatronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Simply Wall St - Shibaura Mechatronics (TSE:6590) overview / June events (dividend paid Jun 4, AGM Jun 17)", "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6590/shibaura-mechatronics-shares"},
+    {"label": "Yahoo Finance Japan - 6590.T news feed (no new material releases since Jun 6)", "url": "https://finance.yahoo.co.jp/quote/6590.T/news"},
+    {"label": "Kabutan - 6590 quote and recent disclosures", "url": "https://kabutan.jp/stock/?code=6590"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new orders, guidance, or capacity news since Jun 6; today's +3.73% looks like Japan SPE sector flow, not a fundamental event, so the rank-28 selective advanced-packaging exposure case is unchanged. Small negative drift because the stock keeps rerating (+25.7% YTD) without fresh evidence, thinning residual alpha on this list.",
+      "bull": "Hybrid bonders (TFC-6700/6800) and back-end SPE leverage to HBM/chiplet advanced packaging keep compounding; FY3/26 already showed back-end-driven beats and a guidance raise, and FY3/27 logic/foundry and memory capex commentary remains constructive.",
+      "neutral": "A $2.1B small cap up ~26% YTD with no incremental news since early June; the AGM on Jun 17 and the next order disclosure are the only near-term checkpoints, so the setup is drift until then.",
+      "bear": "Less direct AI exposure than pure HBM/packaging leaders, and the post-earnings rerating has consumed much of the discovery premium; a back-end capex digestion phase or FPD-segment drag would hit a now-fuller valuation.",
+      "primaryCatalyst": "FY3/27 Q1 results and hybrid-bonder order momentum disclosures (next checkpoint: Jun 17 AGM commentary).",
+      "primaryRisk": "Valuation rerating without new orders; back-end SPE capex digestion compresses the multiple on a small, less-liquid name."
+    }
+  ]
+}

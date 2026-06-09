@@ -1,0 +1,52 @@
+{
+  "symbol": "SLAB",
+  "company": "Silicon Labs",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Texas Instruments to acquire Silicon Labs for $231.00/share cash (~$7.5B EV), announced Feb 4 2026, close expected 1H 2027 - TI press release",
+      "url": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html"
+    },
+    {
+      "label": "Silicon Labs merger proxy (DEFM14A) - $231/share all-cash merger with Texas Instruments, special stockholder meeting April 30 2026",
+      "url": "https://www.stocktitan.net/sec-filings/SLAB/defm14a-silicon-laboratories-inc-merger-proxy-statement-959d0018623a.html"
+    },
+    {
+      "label": "Silicon Labs newsroom - acquisition announcement",
+      "url": "https://news.silabs.com/2026-02-04-Texas-Instruments-to-acquire-Silicon-Labs"
+    },
+    {
+      "label": "Yahoo Finance SLAB quote (price/context check)",
+      "url": "https://finance.yahoo.com/quote/SLAB/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.85,
+      "rankRationale": "Reiterates yesterday's remove call: SLAB is being acquired by Texas Instruments for $231/share in cash (shareholder-approved, close expected 1H 2027), so upside is structurally capped at a ~6% arb spread - there is no residual AI-node bottleneck alpha to rank. No new news since June 6 and today's -0.2% is noise, so the small negative delta just continues the de-ranking toward removal.",
+      "bull": "Deal closes on schedule with regulatory clearance, delivering the remaining ~6% spread to $231 - but that is merger-arb return, not AI-supply-chain alpha.",
+      "neutral": "Stock trades as a deal-spread instrument pegged near $231 less time value and regulatory risk; its edge/IoT silicon exposure is now irrelevant to this list's bottleneck thesis.",
+      "bear": "A regulatory block (e.g., China SAMR) breaks the deal and the stock falls back toward fundamental IoT-cycle value well below $218, after a 65% YTD run leaves no cushion.",
+      "primaryCatalyst": "Regulatory approvals / deal closing milestones for the TXN acquisition.",
+      "primaryRisk": "Deal break on antitrust review, removing the $231 price floor."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 97,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.85,
+      "rankRationale": "On a CPO-alpha lens SLAB was already marginal (IoT/edge recovery, not co-packaged optics), and the pending all-cash TXN takeout at $231 caps any asymmetric upside entirely; reiterating yesterday's removal direction since the name still sits at rank 97. No genuinely new information since June 6 - the delta is small and disciplinary, not news-driven.",
+      "bull": "Arb investors collect the ~6% spread to $231 if the deal closes in 1H 2027 as guided; zero CPO optionality either way.",
+      "neutral": "A cash-capped acquisition target has no place on an asymmetric-upside CPO alpha list regardless of IoT fundamentals; it is dead weight at rank 97.",
+      "bear": "Deal break risk plus a 65% YTD run-up means the downside scenario is a sharp gap lower with no offsetting CPO thesis to fall back on.",
+      "primaryCatalyst": "TXN deal regulatory clearances and closing timeline.",
+      "primaryRisk": "Antitrust/SAMR deal break collapsing the arb floor."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "symbol": "TXN",
+  "company": "Texas Instruments",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The CFO transition (Julie Knecht named CFO effective Aug 1) was announced June 2 and the analyst upgrade wave (Seaport to Buy/$400 on May 22, BofA $370 on May 26) predates the window. Today's -2.4% to $283.96 has no identifiable fundamental catalyst; it extends a drift of roughly 13% off the May 26 all-time high ($324.89) after a parabolic +60% YTD run. Sentiment is now overtly crowded: 'TXN smashing NVIDIA' coverage, consensus Buy, and GuruFocus flagging ~47% overvaluation vs GF Value. The underlying AI power/data-center analog story (Q1 data-center revenue +90% YoY, Q2 guide $5.0-5.4B) is intact but fully in the public narrative.",
+  "sources": [
+    {
+      "label": "24/7 Wall St - Texas Instruments Is Smashing NVIDIA in 2026 (Jun 2, 2026)",
+      "url": "https://247wallst.com/investing/2026/06/02/texas-instruments-is-smashing-nvidia-in-2026-rotational-fluke-or-paradigm-shift/"
+    },
+    {
+      "label": "GuruFocus - TXN Shares Surge 5.1%, GF Score 84, ~47% above GF Value",
+      "url": "https://www.gurufocus.com/news/8897020/texas-instruments-inc-txn-shares-surge-51-what-gf-score-of-84-tells-investors"
+    },
+    {
+      "label": "StockAnalysis - TXN analyst ratings (Seaport $400, BofA $370)",
+      "url": "https://stockanalysis.com/stocks/txn/ratings/"
+    },
+    {
+      "label": "Yahoo Finance - Texas Instruments Stock Up 69% in Six Months",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-stock-69-six-134400290.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 41: no new evidence since June 6 and yesterday's verdict was hold. The 'hidden AI power play' framing is now consensus (upgrade wave, mainstream rotation coverage), which erodes residual alpha, but the ~13% pullback off the May 26 top partially restores asymmetry - net small negative drift, not a rank change.",
+      "bull": "Data-center analog revenue up 90% YoY with AI power re-architecture a structural tailwind; the 13% drawdown from the high lets a still-intact thesis be bought cheaper than two weeks ago.",
+      "neutral": "Thesis intact but fully discovered; at $258B cap and +60% YTD, TXN behaves like a crowded quality compounder, not a mispriced residual-alpha name.",
+      "bear": "GF Value pegs the stock ~47% overvalued; a fading rotation plus industrial/auto cycle softness could unwind much of the rerating with no new bottleneck claim to defend the multiple.",
+      "primaryCatalyst": "Q2 2026 earnings (July) confirming data-center analog momentum at the high end of the $5.0-5.4B guide",
+      "primaryRisk": "Crowding unwind: post-rerating de-rating as the rotation trade fades, with passive/momentum flows reversing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 77: the page already cut TXN from 67 yesterday on the crowding/indirectness argument, and nothing genuinely new has emerged since June 6 to justify moving again. Analog/power remains real but second-order versus HBM, advanced packaging and CPO bottlenecks.",
+      "bull": "Power-tree redesign for AI racks gives TXN durable content growth in data centers, the one segment growing 90% YoY, plus 300mm cost advantage on owned fabs.",
+      "neutral": "Selective AI/edge/power exposure unchanged; rank 77 already reflects that it is less direct than the true node bottlenecks after the 60% YTD rerating.",
+      "bear": "If AI power analog gets second-sourced (ADI, MPWR, Infineon) faster than expected, TXN's data-center share gains stall while the industrial/auto recovery does the valuation no favors.",
+      "primaryCatalyst": "Evidence of TXN power-stage design wins in next-gen GPU rack architectures",
+      "primaryRisk": "Indirectness: AI capex flows concentrate in HBM/packaging/optics, leaving analog content growth too small to move a $258B cap"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 101,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 101: yesterday's verdict already demoted TXN from 89 for limited direct CPO alpha and post-run-up crowding; no new CPO-relevant news since June 6, so moving again would be churn, not information.",
+      "bull": "Every CPO-era rack still needs more power conversion and sensing content, and TXN's breadth makes it a default supplier as optical interconnect density raises power delivery complexity.",
+      "neutral": "Power/analog content scales with overall infrastructure, not with the CPO transition specifically; rank 101 fairly prices a peripheral beneficiary.",
+      "bear": "CPO alpha accrues to optics, packaging and test names; TXN offers no differentiated CPO exposure while carrying full industrial/auto cycle and valuation risk after +60% YTD.",
+      "primaryCatalyst": "Any disclosed TXN content attach in CPO switch or co-packaged power delivery designs",
+      "primaryRisk": "Thesis dilution: zero CPO-specific moat means the listing rides beta, and crowded positioning amplifies any cycle disappointment"
+    }
+  ]
+}

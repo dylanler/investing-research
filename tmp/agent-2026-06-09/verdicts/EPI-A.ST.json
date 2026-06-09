@@ -1,0 +1,39 @@
+{
+  "symbol": "EPI-A.ST",
+  "company": "Epiroc",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Capital Markets Day held June 8 in Örebro: Epiroc disclosed 3,900 driverless machines now in the field, 40 sites running battery-electric vehicles, 43% of offering available fossil-free (full offering by 2030), and reiterated automation/digitalization/electrification as core strategy. Alongside CMD, Ericsson and Epiroc expanded their partnership into a broader go-to-market alliance, with Epiroc selling Ericsson LTE/5G private-network connectivity as part of its digital portfolio for surface and underground mines. Stock fell -3.8% on June 9 — looks like post-CMD 'sell the news' digestion (consensus analyst target ~SEK 210 sits below the price; no new financial-target upgrade emerged), not a thesis break.",
+  "sources": [
+    {
+      "label": "International Mining — Epiroc Capital Markets Day outlines automation, electrification advances (Jun 8, 2026)",
+      "url": "https://im-mining.com/2026/06/08/epiroc-capital-markets-day-outlines-automation-electrification-advances/"
+    },
+    {
+      "label": "Ericsson — Ericsson and Epiroc expand alliance to accelerate mining automation and digital transformation (Jun 2026)",
+      "url": "https://www.ericsson.com/en/news/2026/6/ericsson-and-epiroc-expand-alliance-to-accelerate-mining-automation-and-digital-transformation"
+    },
+    {
+      "label": "Epiroc — Capital Markets Day on June 8, 2026 (event details)",
+      "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20251208-epiroc-capital-markets-day-on-june-8--2026"
+    },
+    {
+      "label": "Simply Wall St — Epiroc (OM:EPI A) analyst consensus / price target context",
+      "url": "https://simplywall.st/stocks/se/capital-goods/sto-epi-a/epiroc-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 88,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "For a latent-AI-node screen, the Jun 8 CMD delivered genuinely new evidence on exactly this thesis — 3,900 driverless machines deployed, Ericsson 5G alliance expanded into a go-to-market deal, LinkOA autonomy extending into quarrying — while the -3.8% post-CMD sell-the-news dip plus a YTD pullback from +28.4% to +23.6% improves entry asymmetry on an intact thesis.",
+      "bull": "Epiroc is quietly becoming the autonomy/connectivity OEM for mines: a 3,900-unit driverless fleet, an Ericsson private-5G distribution alliance, and LinkOA pushing beyond mining into quarrying give it real optionality on AI-driven metals demand without being priced as an AI name.",
+      "neutral": "The AI linkage remains indirect — mining automation traction is real but the demand driver is broad metals capex, not AI compute specifically; consensus targets below the share price suggest the market sees fair value here.",
+      "bear": "A mining-capex downcycle or copper price rollover hits orders regardless of automation share; CMD brought no financial-target upgrade and analysts' ~SEK 210 consensus implies downside, so the rerating may already be done.",
+      "primaryCatalyst": "Q2 2026 order intake confirming automation/digital momentum post-CMD, or a large AHS/LinkOA fleet win tied to copper expansion projects.",
+      "primaryRisk": "Mining capex cycle softening (copper/gold price retreat) compressing equipment orders and exposing the post-CMD valuation with consensus targets already below the price."
+    }
+  ]
+}

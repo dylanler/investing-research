@@ -1,0 +1,26 @@
+{
+  "symbol": "002156.SZ",
+  "company": "Tongfu Microelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Nearest item: on June 3, 2026 the Shenzhen Stock Exchange review center cleared Tongfu's RMB 4.4B private placement (funding wafer-level and HPC/AI-accelerator advanced-packaging capacity); it now awaits CSRC registration. Today's +3.49% move appears flow-driven sector drift, not a new fundamental catalyst.",
+  "sources": [
+    {"label": "JRJ 7x24: Tongfu private placement approved by SZSE review (2026-06-03)", "url": "https://24h.jrj.com.cn/2026/06/03191257328460.shtml"},
+    {"label": "Tencent News: Tongfu RMB 4.4B placement to expand AMD-linked advanced packaging", "url": "https://news.qq.com/rain/a/20260120A0637F00"},
+    {"label": "Yahoo Finance quote 002156.SZ", "url": "https://finance.yahoo.com/quote/002156.SZ/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already moved Tongfu up on the HBM/chiplet OSAT-bottleneck case; nothing genuinely new has emerged since June 6, and today's +3.49% on no news is drift, not evidence. The June 3 SZSE clearance of the RMB 4.4B AI-packaging placement modestly de-risks the funded-capacity leg, worth a small positive delta but not another rank move.",
+      "bull": "Captures 80%+ of AMD's outsourced ATMP via the JVs just as MI-series/OpenAI-driven volumes ramp, and the now-SZSE-cleared RMB 4.4B placement funds wafer-level and HPC packaging capacity directly aimed at AI accelerators.",
+      "neutral": "Thesis is intact and funded, but at +63% YTD and ~67x earnings much of the AMD-attach story is in the price; rerating from here needs CSRC registration, capacity milestones, or AMD order confirmation rather than sentiment.",
+      "bear": "Roughly half of revenue comes from a single customer (AMD), the placement dilutes equity before returns arrive, and any US-China export or entity-list escalation hitting AMD's China ATMP flow would impair the core thesis.",
+      "primaryCatalyst": "CSRC registration of the RMB 4.4B placement plus AMD AI-accelerator packaging volume ramp through the Tongfu ATMP JVs.",
+      "primaryRisk": "Customer concentration in AMD combined with US-China tech-restriction escalation rerouting advanced packaging away from China OSATs."
+    }
+  ]
+}

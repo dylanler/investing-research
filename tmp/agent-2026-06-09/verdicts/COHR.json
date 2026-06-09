@@ -1,0 +1,80 @@
+{
+  "symbol": "COHR",
+  "company": "Coherent",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news since June 6. The -11.97% drop on June 9 (to $353.80, ~15% below the June 3 close of ~$417) is a flow-driven washout across the whole AI-optics complex (AAOI, LITE, COHR), the latest in a series of profit-taking episodes after a massive 2026 rally. Fundamentals are intact: NVIDIA's $2B investment/partnership (March 2026), AI transceiver demand reported booked out through 2028, Q3 FY2026 revenue $1.8B +21% YoY with datacenter +41% YoY, and next-gen 1.6T/3.2T (and 12.8T-path) pluggable demos at OFC 2026. No downgrade, guidance cut, or filing found.",
+  "sources": [
+    {"label": "QuiverQuant - Coherent shares slide as traders digest big AI-optics rally amid semiconductor jitters", "url": "https://www.quiverquant.com/news/Coherent+shares+slide+as+traders+digest+a+big+AI-optics+rally+amid+broader+semiconductor+jitters"},
+    {"label": "TIKR - Coherent falls after back-to-back winning days for data center infrastructure plays", "url": "https://www.tikr.com/blog/coherent-nyse-cohr-stock-falls-nearly-five-percent-in-premarket-after-back-to-back-winning-days-for-data-center-infrastructure-plays"},
+    {"label": "TradingKey - Record earnings, collective decline: photonics stocks earnings paradox", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261872039-ai-optical-stocks-earnings-paradox-may-2026-tradingkey"},
+    {"label": "Coherent press release - next-gen pluggable transceiver demos at OFC 2026", "url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-next-gen-pluggable-transceiver-ofc-2026"},
+    {"label": "Yahoo Finance - COHR quote", "url": "https://finance.yahoo.com/quote/COHR/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 60: COHR is off-thesis for the passive/power bottleneck lens, and a flow-driven -12% day in optics does not move it closer to that stack; the slightly better entry only merits drift credit.",
+      "bull": "A 12% one-day flow washout with transceiver demand booked through 2028 and NVIDIA backing intact improves the entry on a still-direct AI infrastructure name.",
+      "neutral": "The page rewards passive/power bottleneck exposure; COHR's optics franchise is adjacent at best, so price action alone does not change its monitor/benchmark status.",
+      "bear": "Even after the drop COHR is +82% YTD with a $69B cap; it remains a crowded, well-discovered optics proxy with no passive/power relevance.",
+      "primaryCatalyst": "Continued AI datacom transceiver demand and 1.6T/3.2T ramp validated at OFC 2026.",
+      "primaryRisk": "Further unwind of the crowded AI-optics trade dragging the stock regardless of fundamentals."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 84: this page rewards undiscovered nodes, and a -12% profit-taking day does not make a $69B, +82% YTD, NVIDIA-anointed name any more latent; the thesis ('real beneficiary, far from undiscovered') is unchanged.",
+      "bull": "The flow-driven dump resets some of the rerating while optical scarcity persists - bookings through 2028 say the scarcity thesis is intact.",
+      "neutral": "Crowding, not fundamentals, is the binding constraint on this page; one washout day neither hides nor re-rates the name.",
+      "bear": "If AI-optics positioning keeps unwinding, COHR has the most consensus ownership in the photonics complex and the least latent-alpha cushion.",
+      "primaryCatalyst": "Sustained optical scarcity and capacity-constrained pricing into 2027-2028 orders.",
+      "primaryRisk": "Optics supply catches up to demand, compressing margins on a heavily-owned name."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 10: the network-centrality case (CPO, silicon photonics, lasers, AI-scale connectivity) is untouched by a sector-wide profit-taking day, and yesterday's hold already balanced relevance against the rerating.",
+      "bull": "Datacenter revenue +41% YoY and demand booked through 2028 confirm COHR is a load-bearing connectivity node; today's -12% is noise against that.",
+      "neutral": "Rank 10 already reflects strong but less-direct exposure versus HBM/packaging/networking pure-plays; nothing since June 6 changes that ordering.",
+      "bear": "A 15% drawdown from the June 3 high shows how much multiple, not earnings, was carrying the stock; more semis risk-off hits it disproportionately.",
+      "primaryCatalyst": "1.6T transceiver volume ramp and CPO design-win progress with NVIDIA-class customers.",
+      "primaryRisk": "Execution/capacity build stumbles while the multiple still embeds flawless delivery."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 8,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Up from 8: this is COHR's most on-thesis page, and the stated risk ('large recent rerating') was partially de-risked today by a -12% flow-driven flush with zero fundamental deterioration - asymmetry improved exactly where the page measures it.",
+      "bull": "NVIDIA's $2B partnership, bookings through 2028, and OFC 2026 demos of 1.6T/3.2T/12.8T-path optics confirm the CPO/photonics thesis while the entry just got ~15% cheaper than June 3.",
+      "neutral": "The move is price-only; no new contract or capacity datapoint since June 6, so the score upgrade should stay modest until repeat-order evidence lands.",
+      "bear": "If the AI-optics complex keeps de-rating, COHR's capacity-build capex and execution risk get punished hardest among the large-cap photonics names.",
+      "primaryCatalyst": "Repeat orders and capacity milestones under the NVIDIA photonics partnership.",
+      "primaryRisk": "Capacity expansion outruns demand or margins disappoint as the rerated multiple compresses further."
+    },
+    {
+      "page": "companies",
+      "currentRank": 45,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Up from 45: yesterday's down-move was explicitly driven by the 114% YTD rerating leaving less hidden alpha; today's -12% flow-driven washout (YTD now +82%) partially reverses that exact condition with the scale-out optics thesis intact, so the symmetric application is a partial walk-back.",
+      "bull": "Thesis-intact sell-off: datacenter +41% YoY, demand booked through 2028, and NVIDIA backing mean the asymmetry improved ~15% in a week without any fundamental change.",
+      "neutral": "Still a $69B, +82% YTD, well-owned name; the unwind restores some but not all of the alpha that the run-up consumed.",
+      "bear": "Repeated optics-complex flushes since May suggest distribution by fast money; if 1.6T pricing or AI capex headlines wobble, the de-rating continues.",
+      "primaryCatalyst": "800G-to-1.6T transition volumes and pricing holding through the FY2026 Q4 report.",
+      "primaryRisk": "Crowded-trade unwind in AI optics overwhelming intact fundamentals for several more weeks."
+    }
+  ]
+}

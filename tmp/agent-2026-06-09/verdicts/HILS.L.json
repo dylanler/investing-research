@@ -1,0 +1,27 @@
+{
+  "symbol": "HILS.L",
+  "company": "Hill & Smith",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only a routine 'Transaction in Own Shares' buyback RNS on June 8. Prior catalysts all predate the window: Jefferies upgrade to buy with PT raised to 3,250p (May 28), Chair Nick Anderson bought 3,750 shares at ~2,747p (June 4), and the stock touched a 52-week high (~2,835p) on June 5. Today's -0.9% to 2,755p is flow-level drift, not fundamental.",
+  "sources": [
+    {"label": "Investegate - HILS RNS announcements list (June 8 buyback, June 4 PDMR)", "url": "https://www.investegate.co.uk/company/HILS"},
+    {"label": "Markets Daily - HILS 52-week high on insider buying, Jefferies PT 3,250p", "url": "https://www.themarketsdaily.com/2026/06/05/hill-smith-lonhils-reaches-new-1-year-high-on-insider-buying-activity.html"},
+    {"label": "Daily Political - Chair Nick Anderson insider purchase June 4", "url": "https://www.dailypolitical.com/2026/06/04/hill-smith-lonhils-insider-nick-anderson-purchases-3750-shares.html"},
+    {"label": "Hill & Smith PLC regulatory news", "url": "https://hsgroup.com/investors/regulatory-news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 39 with slight negative drift: nothing new since June 6, and yesterday's verdict already reconciled the +28% YTD rerating. On a strict latent-alpha screen, a name printing 52-week highs on a sell-side upgrade and insider buying is getting more discovered, not less, with zero new AI-specific evidence for the galvanizing/facility-hardening pathway.",
+      "bull": "Galvanizing and engineered infrastructure products are a genuine, under-mapped input to data-center facility hardening and grid/physical-network buildout, with US Engineered Solutions M&A (Freeberg) adding capacity; Chair buying stock at the highs signals management conviction.",
+      "neutral": "Solid UK industrial compounder executing buybacks and bolt-ons, but the AI linkage remains a speculative pathway with no disclosed data-center or AI-infrastructure design wins; the stock can keep working on infrastructure spend without ever validating the latent-AI thesis.",
+      "bear": "After +28% YTD to 52-week highs the residual alpha is being arbitraged away by mainstream coverage (Jefferies buy, PT 3,250p); if US infrastructure spend or galvanizing volumes soften, a $2.9B mid-cap rerated on momentum gives back multiple quickly with no AI optionality to cushion it.",
+      "primaryCatalyst": "An explicit data-center, substation, or AI-facility-related contract/order disclosure, or H1 results showing US Engineered Solutions demand tied to compute/grid buildout.",
+      "primaryRisk": "Post-rerating crowding: discovery by generalist/sell-side flows erodes the hidden-node premium while the AI pathway remains unproven."
+    }
+  ]
+}

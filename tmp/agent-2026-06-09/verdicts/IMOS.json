@@ -1,0 +1,39 @@
+{
+  "symbol": "IMOS",
+  "company": "ChipMOS Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan IMOS news feed (latest items May 27 / May 20 / May 8, 2026; nothing June 5-9)", "url": "https://www.stocktitan.net/news/IMOS/"},
+    {"label": "ChipMOS 6-K: April 2026 revenue NT$2,460.5M, +32.2% YoY", "url": "https://www.sec.gov/Archives/edgar/data/0001123134/000119312526213176/imos-6-k-202604revenue.htm"},
+    {"label": "Insider Monkey: ChipMOS dividend (US$0.78/ADS) and recent share-price surge", "url": "https://www.insidermonkey.com/blog/chipmos-imos-to-pay-dividends-shares-soar-38-in-1-week-1772644/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 116,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "No CPO-relevant news since June 6 and the thesis already flags low CPO-specific exposure; a +2.5% drift day on top of +89% YTD without fresh fundamentals shaves residual alpha slightly, but at rank 116 the low placement already reflects that.",
+      "bull": "AI-driven memory demand (April revenue +32.2% YoY, Q1 net profit +187%) keeps backend test/packaging utilization tight, and any spillover into advanced-packaging capacity scarcity benefits even second-tier OSATs.",
+      "neutral": "Solid memory-cycle execution and a raised dividend, but nothing connects ChipMOS specifically to the CPO supply chain; the stock is a generic OSAT cycle play on this list.",
+      "bear": "After ~90% YTD on a $2.2B cap, the memory/display-driver cycle is largely priced; a DDIC or commodity-memory downturn unwinds the rerating with no CPO optionality to cushion it.",
+      "primaryCatalyst": "May 2026 monthly revenue release expected around June 10; Q2 results in August.",
+      "primaryRisk": "Memory/display-driver cycle rollover after a near-doubling YTD with no CPO-specific revenue stream."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Backend packaging/test thesis is intact and supported by the last datapoints (April revenue +32.2% YoY on AI demand), but there is zero new information since the June 8 hold verdict; today's +2.46% is flow, not evidence.",
+      "bull": "Monthly revenue momentum (32.2% YoY in April, 25% YoY in Q1) plus a 27.6% dividend hike signal management confidence that AI-memory test/packaging demand persists into 2H26.",
+      "neutral": "Thesis tracking as expected; the watchlist fit (backend packaging and test) is confirmed by results already in the price, so rank 23 remains appropriate pending the May revenue print.",
+      "bear": "An 89% YTD run on a small-cap OSAT leaves little margin for a soft May revenue print or any deceleration in memory test bookings; liquidity is thin enough that crowding exits move the stock fast.",
+      "primaryCatalyst": "May 2026 monthly revenue 6-K expected around June 10 confirming or breaking the AI-memory demand cadence.",
+      "primaryRisk": "Monthly revenue deceleration or memory-cycle softness puncturing the post-rerating multiple."
+    }
+  ]
+}

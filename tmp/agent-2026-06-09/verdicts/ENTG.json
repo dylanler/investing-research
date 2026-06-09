@@ -1,0 +1,53 @@
+{
+  "symbol": "ENTG",
+  "company": "Entegris",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. The executive transition (Olivier Blachier succeeding retiring Daniel Woodland as President, Materials Solutions) was effective June 1 and already known. Post-Q1 analyst target raises (Mizuho to $150, Citi to $155, BMO to $148) and Q2 guidance ($815-845M sales, $0.76-0.84 non-GAAP EPS) all predate the window. Today's -0.9% move is routine drift after a 46.8% YTD run, not fundamental.",
+  "sources": [
+    {"label": "Entegris investor news page", "url": "https://investor.entegris.com/news/default.aspx"},
+    {"label": "Entegris Q1 2026 results / Q2 guidance 8-K (StockTitan)", "url": "https://www.stocktitan.net/sec-filings/ENTG/8-k-entegris-inc-reports-material-event-c53db3b990ca.html"},
+    {"label": "Entegris executive changes effective June 1, 2026 (MarketScreener)", "url": "https://www.marketscreener.com/news/entegris-inc-announces-executive-changes-effective-june-1-2026-ce7f5adad88efe23"},
+    {"label": "ENTG analyst price targets (MarketBeat)", "url": "https://www.marketbeat.com/stocks/NASDAQ/ENTG/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new order, capacity, or export-control datapoints since June 6; rank 27 already reflects the post-rerating discount applied yesterday, and a -0.9% day does not change the AI-fab/HBM materials setup.",
+      "bull": "Unit-driven consumables exposure to advanced-node and HBM capacity additions keeps compounding regardless of single-tool order timing; Q2 guide confirms volume recovery.",
+      "neutral": "Thesis intact but fully recognized: 46.8% YTD and consensus targets near $155 leave the stock tracking the cycle rather than offering fresh asymmetry.",
+      "bear": "Export-control escalation or a pause in fab/HBM capex would hit consumables volumes while leverage amplifies the de-rating.",
+      "primaryCatalyst": "Q2 results (quarter ends June 27) confirming advanced-node materials volume acceleration.",
+      "primaryRisk": "Export-control tightening or AI fab capex digestion slowing materials pull-through."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "This crowding-sensitive list already moved ENTG down yesterday (16 to 18) for the post-rerating chase; with zero new evidence since June 6, double-penalizing on a -0.9% drift day is unwarranted.",
+      "bull": "Materials purity and advanced-packaging consumables remain genuine picks-and-shovels exposure that the Street still frames as a cyclical rather than an AI bottleneck name.",
+      "neutral": "After the post-earnings target-raise wave (Mizuho $96 to $150), the 'underappreciated' leg of the thesis is largely gone; residual alpha is modest at $21B cap and 46.8% YTD.",
+      "bear": "It is now a consensus AI-adjacent holding with leverage; any capex-cycle wobble compresses both estimates and the rerated multiple.",
+      "primaryCatalyst": "Evidence of advanced-packaging/CPO-adjacent materials content gains in Q2 commentary.",
+      "primaryRisk": "Crowding unwind: post-rerating ownership plus balance-sheet leverage into any capex pause."
+    },
+    {
+      "page": "companies",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's audit already balanced bottleneck exposure against the YTD rerating at rank 22; nothing since June 6 (no contracts, capacity news, or analyst action) shifts that balance.",
+      "bull": "Contamination control and high-purity materials are consumed every wafer pass, giving recurring upstream exposure as AI fab utilization rises.",
+      "neutral": "Execution and pricing are tracking guidance; the stock is fairly slotted among fab-inputs names after the move.",
+      "bear": "A 46.8% YTD run with no incremental fundamental news means the next disappointment, not the next win, sets the marginal price.",
+      "primaryCatalyst": "Q2 print and any capacity/qualification announcements at leading-edge and HBM customers.",
+      "primaryRisk": "Materials pricing pressure or execution slip in contamination control against an already-rerated bar."
+    }
+  ]
+}

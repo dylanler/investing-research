@@ -1,0 +1,43 @@
+{
+  "symbol": "6752.T",
+  "company": "Panasonic Holdings",
+  "caseDate": "undefined",
+  "newsSinceJun6": "June 8 Investors Day (Tokyo): JPY 350B (~$2B) investment in data-center battery capacity (new Kansas line for DC applications, 2nd/3rd Mexico module plants, tripling Japan cell output by FY2029, Osaka EV line repurposed for Li-ion + supercapacitors); target to triple data-center energy-storage revenue to ~JPY 1T (~$6.25B) by FY3/29 with >20% ROIC; conductive polymer capacitor capacity to more than double 2025 levels by FY3/31; supercapacitor mass production from FY3/27; new capacitor backup units (CBU) and HVDC battery backup units for AI data centers. Stock +9.79% on June 9 in direct, fundamental reaction to the briefing; news was globally covered (Reuters, Nikkei, trade press).",
+  "sources": [
+    {
+      "label": "pv magazine USA - Panasonic to invest $2 billion in data center battery push, ramp up U.S. manufacturing (Jun 8, 2026)",
+      "url": "https://pv-magazine-usa.com/2026/06/08/panasonic-to-invest-2-billion-in-data-center-battery-push-ramp-up-u-s-manufacturing/"
+    },
+    {
+      "label": "ESS News - Panasonic to invest $2 billion in data center battery push (Jun 8, 2026)",
+      "url": "https://www.ess-news.com/2026/06/08/panasonic-to-invest-2-billion-in-data-center-battery-push-ramp-up-us-manufacturing/"
+    },
+    {
+      "label": "Reuters via Investing.com - Panasonic to start US data centre battery production by fiscal 2028",
+      "url": "https://ca.investing.com/news/stock-market-news/panasonic-to-start-us-data-centre-battery-production-by-fiscal-2028-4679096"
+    },
+    {
+      "label": "Nikkei Asia - Panasonic bets on AI infrastructure in pivot away from EV batteries",
+      "url": "https://asia.nikkei.com/business/ces-2026/panasonic-bets-on-ai-infrastructure-in-pivot-away-from-ev-batteries"
+    },
+    {
+      "label": "Yahoo Finance quote 6752.T",
+      "url": "https://finance.yahoo.com/quote/6752.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 9,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "The June 8 Investors Day confirms the passives bottleneck thesis (polymer cap capacity >2x by FY3/31, CBUs, supercapacitors), but on a residual-alpha page a +9.8% one-day rerating on globally broadcast news, stacked on +89% YTD, means the market just consumed much of the remaining asymmetry. The name was already flagged 'less hidden than Tier A'; it is now front-page AI-infrastructure consensus, so it slips versus quieter bottleneck names.",
+      "bull": "Management is committing $2B of capital directly at the AI power bottleneck: doubling polymer capacitor capacity, CBU/supercapacitor productization, and a JPY 1T data-center energy-storage target by FY3/29 with >20% ROIC - the thesis is now company strategy, not just inference.",
+      "neutral": "Real fundamental progress and a real rerating roughly offset: the FY3/29-FY3/31 targets carry multi-year execution risk, and a $5B one-day market-cap add already credits a large share of the plan's NPV.",
+      "bear": "At +89% YTD and post a 10% news-day pop, the stock is a crowded, well-covered AI-infrastructure proxy; any slippage in Kansas/Mexico ramps, battery price competition from Chinese ESS suppliers, or AI capex digestion hits a now-full valuation.",
+      "primaryCatalyst": "Evidence of polymer capacitor / CBU design wins and early data-center energy-storage orders converting the JPY 1T FY3/29 target into bookings (next checkpoint: Aug 5 Q1 results).",
+      "primaryRisk": "Post-rerating crowding: the briefing was fully broadcast and instantly priced, so incremental buyers are chasing; execution slippage on FY2029 capacity targets or ESS price competition would unwind the premium."
+    }
+  ]
+}

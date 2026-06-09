@@ -1,0 +1,54 @@
+{
+  "symbol": "GFS",
+  "company": "GlobalFoundries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new catalysts since June 6. Only minor item is a June 8 Yahoo Finance feature on GF making radiation-hardened chips for BAE Systems spacecraft. The real catalysts (Synopsys ARC Processor IP acquisition close on June 2, DOE Genesis Mission partnership on June 3, first-ever dividend and capital-return framework from the May 7 investor day) all predate the window and were in yesterday's verdicts. Today's -4.7% move appears flow-driven: tech-sector pressure and profit-taking on a name up ~100% YTD, not a fundamental break.",
+  "sources": [
+    {"label": "StockTitan GFS news feed (checked for post-Jun-6 items)", "url": "https://www.stocktitan.net/news/GFS/"},
+    {"label": "GF joins DOE Genesis Mission (Jun 3, pre-window)", "url": "https://www.stocktitan.net/news/GFS/global-foundries-joins-u-s-department-of-energy-s-genesis-mission-as-2yx0kubjnhlp.html"},
+    {"label": "GF completes Synopsys ARC processor IP acquisition (Jun 2, pre-window)", "url": "https://www.stocktitan.net/news/GFS/global-foundries-completes-acquisition-of-synopsys-processor-ip-83cvb90uuv9j.html"},
+    {"label": "Yahoo Finance: GF chips built to survive space (BAE Systems, Jun 8)", "url": "https://finance.yahoo.com/sectors/technology/articles/globalfoundries-chips-being-made-survive-203000064.html"},
+    {"label": "GFS quote page (price/day move check)", "url": "https://finance.yahoo.com/quote/GFS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new node, capacity, or contract evidence since June 6; the manufacturing-tollgate case is unchanged and a -4.7% flow-driven day after a ~100% YTD double does not alter where GF sits in the node hierarchy. Yesterday's hold stands.",
+      "bull": "Specialty-node and silicon photonics capacity in US/EU fabs is a genuine tollgate as optical I/O and physical-AI silicon scale; the Synopsys ARC close plus MIPS gives GF a software-to-silicon stack that can pull differentiated volume.",
+      "neutral": "GF is a trailing-edge/specialty foundry, not a leading-edge AI node; its AI exposure is adjacent (photonics, power, RF) and the score already reflects that mid-pack position.",
+      "bear": "Auto/industrial demand remains soft and pricing headwinds persist; at $43.6B after a 99.8% YTD run, any utilization miss would compress the rerated multiple quickly.",
+      "primaryCatalyst": "Silicon photonics revenue ramp (company-signaled doubling in 2026) and follow-on Physical AI design wins off the MIPS+ARC IP stack.",
+      "primaryRisk": "Foundry cycle: weak auto/industrial utilization and ASP pressure undercutting the specialty-capacity thesis."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "The photonics-adjacent thesis is intact with no new evidence either way since June 6; a -4.7% pullback on sector flow modestly improves entry asymmetry on this alpha-sensitive list, but after a 99.8% YTD rerating it only earns a small positive drift, not a rank move.",
+      "bull": "GF's silicon photonics platform is one of the few US-based merchant routes into optical engines/CPO supply chains, with management pointing to photonics revenue doubling in 2026 and passing $1B by 2028.",
+      "neutral": "Photonics is still a small slice of a $6.5B+ revenue base; the CPO optionality is real but the stock now prices a good portion of it after doubling YTD.",
+      "bear": "If CPO volume concentrates at TSMC and integrated optics players, GF's photonics line stays a niche and the stock is left holding a foundry-cycle multiple it cannot defend.",
+      "primaryCatalyst": "Named optical-engine/CPO customer wins or photonics revenue disclosure beating the doubling trajectory.",
+      "primaryRisk": "Crowding after the YTD double: photonics optionality is no longer hidden, so disappointment risk on any soft quarter is elevated."
+    },
+    {
+      "page": "companies",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already penalized the YTD rerating and crowding; today's -4.7% flow-driven sell-off with the thesis intact marginally restores asymmetry, which warrants a small positive delta but no reversal of yesterday's call absent new fundamentals.",
+      "bull": "US/EU specialty capacity, the new dividend/capital-return framework, and the MIPS+ARC Physical AI stack give a durable pick-and-shovel floor under the name.",
+      "neutral": "At rank 65 in the broad list the score already treats GF as recognized, indirect AI exposure; nothing since June 6 changes that classification.",
+      "bear": "A ~100% YTD run on a cyclical trailing-edge foundry leaves little hidden alpha; if the AI halo fades, GFS trades back on auto/industrial fundamentals that remain weak.",
+      "primaryCatalyst": "Q2 2026 results/guide showing photonics and Physical AI revenue mix shifting faster than modeled.",
+      "primaryRisk": "Post-rerating de-rating: multiple compression on any utilization or pricing wobble after the YTD double."
+    }
+  ]
+}

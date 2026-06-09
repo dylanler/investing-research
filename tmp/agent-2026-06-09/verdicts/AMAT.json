@@ -1,0 +1,53 @@
+{
+  "symbol": "AMAT",
+  "company": "Applied Materials",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamentals since June 6. The stock surged ~8.6% on June 8 in a sector-wide AI-equipment flow rally (tech equipment +4.15%, MU +9.7%, MRVL +13.8%), extending post-earnings momentum from the record FQ2 print (rev $7.91B +11% y/y, ~50% GM, semiconductor equipment business guided to grow >30% in CY2026, dividend +15%). The ASMPT NEXX panel-level advanced-packaging acquisition ($120M) closed June 3 and is immaterial to a ~$391B cap. Analyst PT bumps continue (Mizuho $540, Cantor $575). Today June 9 is a modest -0.8% giveback; 30-day return ~28%, YTD ~82%.",
+  "sources": [
+    {"label": "TradingKey - AMAT +8.64% on Jun 8 driven by sector AI rally and post-earnings momentum", "url": "https://www.tradingkey.com/news/market-movers/261953281-market-movers-amat-20260608"},
+    {"label": "Applied Materials IR - Record Q2 FY2026 results, equipment business to grow >30% in CY2026", "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"},
+    {"label": "TipRanks - ASMPT completes $120M sale of NEXX to Applied Materials (closed June 3, 2026)", "url": "https://www.tipranks.com/news/company-announcements/asmpt-completes-us120-million-sale-of-asmpt-nexx-to-applied-materials"},
+    {"label": "TrendForce - AMAT to acquire ASMPT NEXX for $120M, panel-level advanced packaging", "url": "https://www.trendforce.com/news/2026/05/05/news-applied-materials-to-acquire-asmpt-nexx-for-120m-expanding-panel-level-advanced-packaging-portfolio/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "An ~8.6% one-day surge on June 8 with sector beta (MU, MRVL) and no new AMAT-specific evidence since June 6 compresses residual alpha on a node-bottleneck list; market cap recognition jumped to ~$391B versus ~$339B in yesterday's case, which was struck on pre-surge data.",
+      "bull": "Equipment business guided to grow >30% in CY2026 on AI-driven foundry/logic, DRAM/HBM and advanced packaging; NEXX close adds panel-level packaging deposition that feeds larger-body AI accelerators.",
+      "neutral": "Thesis intact and execution strong, but everything driving the move (FQ2 record, guidance, NEXX) predates June 6; today's -0.8% is drift, not a setup change.",
+      "bear": "82% YTD and ~28% in 30 days at a $391B cap leaves order-timing slips, WFE cyclicality, or China export-control tightening as asymmetric downside from a fully discovered valuation.",
+      "primaryCatalyst": "HBM/DRAM and gate-all-around capacity orders confirming the >30% CY2026 equipment growth guide.",
+      "primaryRisk": "Post-rerating air pocket if AI capex order timing slips or China export controls tighten."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 57,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "This page already flags AMAT as 'widely owned'; a flow-driven +8.6% sector-beta day on June 8 with no fresh fundamentals is exactly the crowding/chase signature an alpha-CPO list penalizes, so residual asymmetry shrank further.",
+      "bull": "Advanced packaging exposure deepened with the NEXX close (panel-level deposition for AI accelerators), and analyst targets ($540-575) still sit above spot.",
+      "neutral": "Quality franchise compounding with the AI capex cycle, but nothing hidden remains; ownership and sell-side coverage are saturated.",
+      "bear": "A mega-cap that just rerated ~15% in days on momentum flows offers the worst alpha-per-unit-risk on this list; any capex digestion or China headline unwinds the chase quickly.",
+      "primaryCatalyst": "Panel-level packaging design wins converting NEXX into incremental AI-accelerator content.",
+      "primaryRisk": "Crowded positioning unwinding on the first soft WFE datapoint or China restriction headline."
+    },
+    {
+      "page": "companies",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved AMAT down on this page explicitly for YTD performance and market-cap recognition; repeating the cut today on the same rerating would double-count, and today's -0.8% drift brings no new information.",
+      "bull": "Pick-and-shovel exposure is executing: record FQ2, >30% CY2026 equipment growth guide, and the NEXX close broadening the advanced-packaging toolbox.",
+      "neutral": "Thesis unchanged since yesterday's down-move; the June 8 sector rally extends the rerating but adds no new fundamental evidence to act on twice.",
+      "bear": "At ~$391B and 82% YTD the upstream bottleneck story is fully owned; cyclic order timing and export-control exposure are the residual swing factors.",
+      "primaryCatalyst": "FQ3 orders confirming AI foundry/logic, DRAM and packaging spend breadth.",
+      "primaryRisk": "WFE cycle digestion or China export-control escalation after a steep momentum run."
+    }
+  ]
+}

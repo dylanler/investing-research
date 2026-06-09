@@ -1,0 +1,40 @@
+{
+  "symbol": "4062.T",
+  "company": "Ibiden",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No verified company-specific news since June 6. The +9.0% June 9 move appears flow-driven: sympathy with US semiconductor/Intel strength and continued AI-substrate momentum chasing, not a new fundamental catalyst. The last material datapoints predate the window: record FY results reported May 11 (record net profit ~JPY 63.7B, electronics segment OP +70% YoY on AI demand) and the February 2026 ~JPY 500B IC package substrate capacity expansion plan (FY2026-28, Gama/Ono plants).",
+  "sources": [
+    {"label": "Yahoo Finance quote 4062.T", "url": "https://finance.yahoo.com/quote/4062.T/"},
+    {"label": "Investing.com - Ibiden raises forecast on AI server demand, plans capacity expansion", "url": "https://www.investing.com/news/earnings/ibiden-raises-forecast-on-ai-server-demand-plans-capacity-expansion-93CH-4322781"},
+    {"label": "Ibiden notice - capital investment plan for high-performance IC package substrates (Feb 2026)", "url": "https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html"},
+    {"label": "Moomoo Tokyo Market Open (Apr 24, ruled out as today's driver - Intel Q2 guide sympathy rally)", "url": "https://www.moomoo.com/community/feed/tokyo-market-open-nikkei-average-rebounds-ibiden-buys-in-line-116456924774406"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 83,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive residual-alpha list, a +9% single-day melt-up with no identifiable new fundamental evidence, stacked on +160% YTD and a $32B cap, further compresses what little hidden/under-owned upside remained; this is new price action beyond yesterday's down call.",
+      "bull": "Ibiden remains a genuine bottleneck: high-end ABF/IC package substrates for Intel and Nvidia AI servers, with a JPY 500B capacity plan that locks in multi-year volume if AI server demand holds.",
+      "neutral": "The thesis is intact but fully discovered; record May earnings and the capex roadmap are in the price, so the name is now a benchmark/monitor proxy rather than an alpha source.",
+      "bear": "A flow-driven +9% day on no news is classic late-stage chasing; any AI-server digestion, Intel demand wobble, or substrate capacity ramp by Korean/Taiwanese rivals into 2027 hits a stock priced for perfection.",
+      "primaryCatalyst": "Q1 FY2026 results and substrate pricing/utilization commentary; first evidence on Gama/Ono expansion ramp timing.",
+      "primaryRisk": "Crowding unwind: momentum reversal in a fully rerated, index-owned name with no remaining valuation cushion."
+    },
+    {
+      "page": "companies",
+      "currentRank": 20,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.55,
+      "rankRationale": "Within the advanced packaging & substrates bucket the scarcity exposure is real, but this page's alpha score already balanced bottleneck quality against rerating; today's news-free +9% pop extends the rerating without adding new fundamental evidence, so residual score should bleed lower again.",
+      "bull": "Substrate scarcity for AI server CPUs/GPUs is structural through 2027, and Ibiden is the quality leader with committed capex and record AI-driven segment profits backing the thesis.",
+      "neutral": "Execution and demand are tracking the thesis, but the stock has moved faster than the fundamentals since the May print; hold the bucket exposure, trim the score.",
+      "bear": "159% YTD plus a 9% no-news day means the packaging-scarcity story is consensus; cyclicality and 2027-28 industry capacity adds could turn scarcity pricing into oversupply just as new plants ramp.",
+      "primaryCatalyst": "Substrate supply/demand updates from Intel and Nvidia server roadmaps; capacity ramp milestones at Gama and Ono plants.",
+      "primaryRisk": "Post-rerating valuation compression if AI server substrate tightness eases or order momentum decelerates."
+    }
+  ]
+}

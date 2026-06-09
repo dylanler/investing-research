@@ -1,0 +1,26 @@
+{
+  "symbol": "PNG.V",
+  "company": "Kraken Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan KRKNF news timeline (no June 2026 releases after May 6 MoU)", "url": "https://www.stocktitan.net/overview/KRKNF/"},
+    {"label": "Ad-hoc-news (Jun 4, 2026): Q1 2026 results, $262M backlog, Covelya close on track for end of Q2", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/order-backlog-tops-262-million-as-kraken-robotics-gears-up-for-covelya/69483422"},
+    {"label": "Kraken Robotics press releases", "url": "https://www.krakenrobotics.com/press-releases/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6: Q1 results (rev +35% to C$21.7M, C$262M backlog, guidance reaffirmed) landed ~June 3-4 and were already in yesterday's hold. Today's -2.7% drift on no news, with the Covelya close still pending end-of-June, marginally improves asymmetry without changing the scaling-watchlist setup.",
+      "bull": "C$615M Covelya acquisition closes by end of June, tripling profitable revenue base and lifting combined backlog past C$262M; subsea defence demand (KATFISH, synthetic aperture sonar, subsea batteries) gives a real autonomous-sensing bottleneck position.",
+      "neutral": "Stock is digesting a C$402.5M equity raise and a Q1 net loss with EBITDA margin compression (17% to 14%); until consolidated post-Covelya guidance is issued, the name trades sideways on flow rather than fundamentals.",
+      "bear": "Covelya close slips or integration of a ~1,200-person combined entity strains a C$1.8B small-cap; margin compression persists and the dilutive raise caps near-term upside if defence order momentum stalls.",
+      "primaryCatalyst": "Covelya acquisition closing by end of Q2 2026 plus first consolidated guidance for the combined entity.",
+      "primaryRisk": "Deal-close slippage or integration/margin disappointment after the dilutive C$402.5M financing."
+    }
+  ]
+}

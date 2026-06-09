@@ -1,0 +1,65 @@
+{
+  "symbol": "AIXA.DE",
+  "company": "Aixtron",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: ROHM Semiconductor announced a production partnership selecting Aixtron's G10-GaN deposition system for in-house 8-inch GaN epitaxy at its Hamamatsu plant, ramping volume production of 650V/100V power devices for AI data-center infrastructure and EV powertrains. Also June 8: Morgan Stanley disclosed crossing the 3% voting-rights threshold (position dated June 2), and press reports flagged a top shareholder trimming ahead of Q2. Stock -2.4% today after a +181% YTD run; move looks like ordinary drift/profit-taking, not fundamental.",
+  "sources": [
+    {
+      "label": "WebDisclosure - ROHM partners with AIXTRON to scale in-house GaN power device production using G10-GaN",
+      "url": "https://www.webdisclosure.com/press-release/aixtron-se-etr-aixa-rohm-semiconductor-partners-with-aixtron-to-scale-in-house-gan-power-device-production-using-the-g10-gan-platform-Q51sKR0l0ZO"
+    },
+    {
+      "label": "TradingView - Key facts: AIXTRON to supply G10 GaN system to ROHM; Morgan Stanley >3%",
+      "url": "https://www.tradingview.com/news/tradingview:a6ee8384404d0:0-key-facts-aixtron-to-supply-g10-gan-system-to-rohm-morgan-stanley-3/"
+    },
+    {
+      "label": "ad-hoc-news - Aixtron's GaN dominance fuels record orders, but a top shareholder trims ahead of Q2",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/aixtron-s-gan-dominance-fuels-record-orders-but-a-top-shareholder-trims/69467884"
+    },
+    {
+      "label": "AIXTRON press releases",
+      "url": "https://www.aixtron.com/en/press/press-releases"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "The June 8 ROHM G10-GaN production win is genuine fundamental confirmation of the GaN-power-for-AI-datacenter leg of the thesis, which offsets the residual-alpha drag from a +181% YTD rerating; after yesterday's down move, hold at rank 86 with a small positive score nudge.",
+      "bull": "ROHM, a tier-1 Japanese power-semi house, standardizing on G10-GaN for 8-inch volume production validates Aixtron as the epitaxy toolmaker for the AI data-center power transition; more captive-epi conversions could follow.",
+      "neutral": "One system partnership at an already-ramping fab is incremental, not transformative; Q1 orders (+30% YoY) already telegraphed the GaN demand recovery, and the stock has rerated 181% YTD.",
+      "bear": "SiC remains soft, full-year guidance was cut earlier this year, and a top shareholder is trimming into the Q2 print - a single GaN tool win cannot carry a $7.5B valuation if power-electronics capex wobbles.",
+      "primaryCatalyst": "Further 8-inch GaN epi tool orders from power-device makers converting to in-house epitaxy; Q2 results July 30.",
+      "primaryRisk": "Cyclical SiC/GaN capex disappointment into the Q2 report after a 181% YTD rerating."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "ROHM's G10-GaN selection strengthens Aixtron's claim to the AI power-electronics node, but it does not make the exposure more direct relative to HBM/packaging/networking names that define this list's upper ranks; hold rank 72 with a modest score uptick.",
+      "bull": "GaN power devices for AI data-center power delivery are an emerging structural demand line, and Aixtron is the dominant MOCVD lever on it - ROHM's in-house epi decision is proof the 8-inch GaN volume ramp is real.",
+      "neutral": "The win is in the power lane, second-derivative to AI compute; ranking versus HBM and advanced-packaging names is unchanged by one production partnership.",
+      "bear": "Aixtron's AI linkage stays indirect and cyclical; if data-center power architectures lean on existing silicon or SiC inventory digestion drags on, the GaN order book can stall.",
+      "primaryCatalyst": "Order-intake acceleration in GaN power tools tied to AI data-center power delivery; Q2 earnings July 30.",
+      "primaryRisk": "Indirect AI exposure - a slowdown in power-electronics capex hits Aixtron harder than AI compute spend helps it."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 14,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive alpha lens the 'small, underfollowed' premise is eroding: +181% YTD, Morgan Stanley crossing 3%, and a top holder trimming all signal discovery is done, while the week's new evidence (ROHM) is in power GaN, not the lasers/photonics leg this page ranks it for.",
+      "bull": "The same G10 platform breadth that won ROHM in power also serves photonics/laser epitaxy, so any CPO laser capacity build-out still routes through Aixtron's MOCVD tools at attractive incremental margins.",
+      "neutral": "ROHM validates the franchise but not the CPO-specific thesis; the photonics order leg remains undated while the stock already trades on a fully discovered GaN narrative.",
+      "bear": "Rank 14 on an alpha list for a name up 181% YTD with rising institutional disclosure is post-rerating chase; if CPO laser orders fail to materialize by the Q2/Q3 prints, the photonics premium compresses fast.",
+      "primaryCatalyst": "A disclosed photonics/laser epitaxy order tied to co-packaged optics capacity.",
+      "primaryRisk": "Crowding after the +181% YTD rerating - residual alpha shrinks as ownership institutionalizes (MS >3%) and insiders/anchors trim."
+    }
+  ]
+}

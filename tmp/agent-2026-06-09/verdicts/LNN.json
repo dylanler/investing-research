@@ -1,0 +1,26 @@
+{
+  "symbol": "LNN",
+  "company": "Lindsay",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - LNN news page (checked for post-Jun-6 items; latest material items are April Q2 miss / MENA project coverage)", "url": "https://finance.yahoo.com/quote/LNN/news/"},
+    {"label": "StockTitan LNN news feed (Q3 FY26 earnings call scheduling; no new releases Jun 6-9)", "url": "https://www.stocktitan.net/news/LNN/"},
+    {"label": "MarketBeat LNN earnings page (next report timing; Stifel Hold, PT cut to $113 dated Jun 2 - pre-window)", "url": "https://www.marketbeat.com/stocks/NYSE/LNN/earnings/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news in the Jun 6-9 window and the stock is flat today (+0.33%); the latent-node thesis (irrigation telemetry, remote monitoring, water-efficiency know-how) is unchanged from yesterday's hold, so rank 1 stands. YTD -6.35% means there is no rerating chase to penalize on this list.",
+      "bull": "Pivot/FieldNET telemetry and water-efficiency systems give Lindsay scarce-water site-management know-how that is unpriced as an AI-infrastructure adjacency; at $1.17B cap and negative YTD the name is uncrowded with cheap optionality into the late-June Q3 print.",
+      "neutral": "Core thesis is latent, not earning: revenue is driven by ag-irrigation cycles and the MENA project, not AI demand, so the stock drifts with farm income and rates until the water/data-center angle gets concrete validation.",
+      "bear": "The April Q2 miss (EPS $1.15 vs $1.60 est, revenue -16% y/y) and Stifel's Jun 2 PT cut to $113 show fundamentals deteriorating; if Q3 in late June disappoints again, the latent-AI optionality is swamped by a weak ag capex cycle.",
+      "primaryCatalyst": "Fiscal Q3 2026 earnings expected late June / early July, including MENA project shipment progress and any FieldNET/telemetry commercialization detail.",
+      "primaryRisk": "Continued domestic irrigation weakness and MENA execution/geopolitical risk producing another miss, with no AI-relevant validation to offset it."
+    }
+  ]
+}

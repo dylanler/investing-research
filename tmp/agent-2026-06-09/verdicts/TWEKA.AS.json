@@ -1,0 +1,26 @@
+{
+  "symbol": "TWEKA.AS",
+  "company": "TKH Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "TKH Group newsroom / AGM 2026 (dividend paid Jun 2, pre-window)", "url": "https://www.tkhgroup.com/news/agm-2026-approved-all-proposals"},
+    {"label": "TKH Q1 2026 market update - Electrification separation on plan (May)", "url": "https://www.marketscreener.com/news/tkh-n-market-update-q1-2026-growth-in-turnover-and-results-improved-performance-electrification-ce7f5bd9d180f021"},
+    {"label": "TKH strategy: separate Electrification, Automation focus (background)", "url": "https://www.investing.com/news/stock-market-news/tkh-unveils-new-strategy-with-plans-to-separate-electrification-business-93CH-4254965"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the Electrification dual-track separation (transaction targeted Q4 2026, talks with interested parties since mid-Q2) is progressing exactly as already priced into the latent-value thesis, and today's -1.5% drift does not change the setup versus yesterday's hold.",
+      "bull": "The Q4 2026 Electrification transaction crystallizes hidden value and leaves a focused Automation/machine-vision pure-play with AI-integrated inspection technology, at a still-modest $2.2B cap that screens as genuinely under-owned.",
+      "neutral": "Thesis intact but catalyst is months out; Q1 2026 showed turnover and result growth with improved Electrification performance, and the stock drifts (+15.7% YTD) until separation news lands.",
+      "bear": "A weak price or failed dual-track outcome for Electrification, or a slower machine-vision recovery, would deflate the sum-of-the-parts case and leave a mid-cap industrial with cyclical exposure.",
+      "primaryCatalyst": "Electrification separation transaction announcement targeted for Q4 2026 (dual-track sale/listing).",
+      "primaryRisk": "Dual-track process slips or fetches a low valuation, undermining the value-crystallization thesis."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "2408.TW",
+  "company": "Nanya Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No discrete company news since June 6. The relevant catalysts all predate it: record high NT$417.5 on June 2 amid broker upgrades (Morgan Stanley TP to NT$380, a street-high NT$805 target) and five straight sessions of institutional net buying, then May revenue on ~June 3 (NT$27.67B, +8.6% MoM, +730% YoY) that slightly missed elevated expectations, triggering a ~19% pullback to NT$339.5 by June 8. Today's +6.9% rebound to NT$363 looks flow-driven (dip-buying on the intact DRAM tightness narrative; TrendForce sees Q2 contract prices +58-63% QoQ), not a new fundamental event.",
+  "sources": [
+    {"label": "BigGo Finance - Nanya breaks NT$400, Winbond limit-up, foreign broker upgrades incl. NT$805 target", "url": "https://finance.biggo.com/news/FiAmhp4BoicNoOgC7kCY"},
+    {"label": "cnyes - Nanya May 2026 revenue NT$27.67B, +730.14% YoY", "url": "https://news.cnyes.com/news/id/6482442"},
+    {"label": "TechNews - Nanya May 2026 monthly revenue report", "url": "https://finance.technews.tw/2026/06/03/ntc-2408-202605-financial-report"},
+    {"label": "Sinotrade post-market note - May revenue below expectations, growth decelerating, price-hike thesis unchanged", "url": "https://www.sinotrade.com.tw/richclub/hotstock/%E5%8D%97%E4%BA%9E%E7%A7%91-2408--5%E6%9C%88%E7%87%9F%E6%94%B6%E4%B8%8D%E5%A6%82%E9%A0%90%E6%9C%9F-%E7%87%9F%E6%94%B6%E5%A2%9E%E9%80%9F%E6%94%BE%E7%B7%A9-%E6%BC%B2%E5%83%B9%E4%B8%BB%E8%BB%B8%E6%9C%AA%E8%AE%8A-%E8%B1%90%E5%AD%B8PRIME%E7%9B%A4%E5%BE%8C%E7%B2%BE%E9%81%B8--6a20db679918c6bfb8e2119c"},
+    {"label": "DIGITIMES - Nanya 1Q26 NT$26B profit as DRAM prices surge over 70%", "url": "https://www.digitimes.com/news/a20260413PD229/nanya-technology-dram-profit-demand-2026.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Memory-tier bottleneck thesis (HBM crowding out commodity DRAM, Q2 contract prices +58-63%) is fully intact but already well-broadcast; today's +6.9% is a flow-driven bounce off a 19% correction, not new evidence, so rank 78 still fits.",
+      "bull": "DRAM tightness through 2027-28 with HBM capacity crowding out legacy supply; May revenue +730% YoY and management says it cannot fully satisfy demand this year.",
+      "neutral": "Thesis intact and known; the June pullback restored some asymmetry but today's rebound recaptured part of it, leaving the setup roughly where yesterday's hold left it.",
+      "bear": "75% YTD and street-high NT$805 targets mean the upcycle is largely priced; May revenue already showed MoM deceleration versus lofty expectations, and Micron's DDR4 expansion plus capex response can compress the cycle.",
+      "primaryCatalyst": "Q2 DRAM contract price settlements confirming the +58-63% QoQ TrendForce estimate and continued monthly revenue acceleration.",
+      "primaryRisk": "Commodity DRAM cycle turn as supply responds; Nanya lacks meaningful HBM exposure so it rides spillover tightness, not the structural AI memory bottleneck itself."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already demoted it (82 to 91) for being a memory-cycle play with no CPO linkage and fading hiddenness; nothing genuinely new since June 6, and a flow-driven +6.9% bounce on a crowding-sensitive alpha list does not merit a second consecutive demotion.",
+      "bull": "If memory tightness persists into 2027, even a non-HBM commodity DRAM name keeps compounding earnings surprises from a low base.",
+      "neutral": "No CPO/co-packaged-optics relevance; it sits on this list only as memory-recovery beta, and the low rank already reflects that mismatch.",
+      "bear": "Maximum crowding signals - record institutional buying streaks, NT$805 street-high target, +75% YTD - on a name with zero CPO bottleneck exposure means residual page-specific alpha is essentially gone.",
+      "primaryCatalyst": "Continued DRAM contract price hikes sustaining the re-rating despite the crowded positioning.",
+      "primaryRisk": "Crowded momentum unwind: a 19% drawdown in four sessions shows how fast flows reverse when monthly numbers merely meet rather than beat."
+    }
+  ]
+}

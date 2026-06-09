@@ -1,0 +1,39 @@
+{
+  "symbol": "AEVA",
+  "company": "Aeva",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. The dominant recent event is the $115M follow-on offering (5.17M shares at $22.25, ~7% dilution) that closed June 5; today's -5.11% to $21.91 takes the stock below the offering price and looks like flow-driven post-deal digestion, not a thesis event. Use of proceeds explicitly cites accelerating commercial interest in AI infrastructure / co-packaged optics alongside existing lidar applications, so the raise strengthens the balance sheet for commercialization. Only incremental item since June 6 is a non-material marketing showcase of Aeva CityOS at ITS America in Detroit, June 9-12.",
+  "sources": [
+    {
+      "label": "Aeva announces closing of $115M follow-on offering (Yahoo Finance / Business Wire)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-inc-announces-closing-200100201.html"
+    },
+    {
+      "label": "Aeva prices follow-on offering at $22.25 (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20260603175632/en/Aeva-Technologies-Inc.-Announces-Pricing-of-Follow-On-Offering"
+    },
+    {
+      "label": "Aeva prices $100M offering; shares fall 12% after hours (MSN)",
+      "url": "https://www.msn.com/en-us/money/companies/aeva-technologies-prices-100m-stock-offering-shares-fall-12-after-hours/ar-AA24OjYp?ocid=finance-verthp-feeds"
+    },
+    {
+      "label": "AEVA quote (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/AEVA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already marked AEVA down for the +~72% YTD rerating and crowding; today's -5.11% is flow-driven offering digestion with the physical-AI sensing thesis intact, which modestly restores asymmetry but is not new fundamental information warranting another move one day later.",
+      "bull": "The $115M raise extends runway and explicitly funds the AI-infrastructure/co-packaged-optics expansion on top of automotive and industrial lidar wins; buying below the $22.25 deal price gets you in behind the institutional book.",
+      "neutral": "Record Q1 revenue of $6.3M (+90% YoY) is still tiny against a $1.4B cap and a $25.8M quarterly operating loss; the stock remains a story name where dilution events set the near-term price, not fundamentals.",
+      "bear": "At +72% YTD the rerating already happened, the fresh ~7% dilution caps upside, and if the deal-price floor at $22.25 fails to hold, post-offering supply could grind the stock lower with no near-term catalyst until the next commercial design win.",
+      "primaryCatalyst": "New commercial design wins or CPO/AI-infrastructure customer announcements funded by the fresh $115M, plus continued 90%+ revenue growth in Q2 results.",
+      "primaryRisk": "Post-offering supply overhang and crowding unwind in a richly rerated, pre-scale ($6.3M/quarter revenue) story stock."
+    }
+  ]
+}

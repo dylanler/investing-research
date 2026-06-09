@@ -1,0 +1,27 @@
+{
+  "symbol": "TSLA",
+  "company": "Tesla",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Shares fell ~3.4% Tuesday on SpaceX IPO capital-rotation fears (SpaceX begins Nasdaq trading June 12 at ~$135 target), a broader tech selloff, and another next-gen Roadster demo delay to August - flow/sentiment-driven, not robotics-fundamental. Incremental Optimus news June 9: Tesla is ending Model S/X production and converting the Fremont line for Optimus Gen 3 low-volume production targeted summer 2026 (high volume 2027); still no announced external customers. Offsetting positives since June 6: JPMorgan upgrade citing 'physical AI' and May China retail sales +22% / exports +68%.",
+  "sources": [
+    {"label": "GuruFocus - Tesla falls on SpaceX IPO rotation fears", "url": "https://www.gurufocus.com/news/8908303/tesla-stock-falls-as-spacex-ipo-buzz-sparks-capital-rotation-fears"},
+    {"label": "Capital.com - Tesla stock forecast / SpaceX listing June 9 2026", "url": "https://capital.com/en-int/market-updates/tesla-stock-forecast-09-06-2026"},
+    {"label": "TechTimes - Fremont Model S line converting to Optimus Gen 3 factory (June 9, 2026)", "url": "https://www.techtimes.com/articles/318071/20260609/tesla-turning-its-model-s-line-optimus-robot-factorygen-3-targets-2026-production-start.htm"},
+    {"label": "Motley Fool - Should you wait to buy Tesla after June 12 (SpaceX IPO)", "url": "https://www.fool.com/investing/2026/05/22/should-you-wait-to-buy-tesla-stock-after-june-12/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Today's -3.4% is flow-driven (SpaceX IPO rotation, Roadster slip) with the Optimus thesis intact, and the Fremont Gen 3 line conversion is real but well-telegraphed commercialization evidence; on a page that penalizes obvious, crowded humanoid narratives, a $1.49T mega-cap dipping 3% does not become hidden alpha. Hold, consistent with yesterday's verdict, with a small positive delta for the factory-conversion confirmation.",
+      "bull": "Fremont Model S line conversion makes Optimus Gen 3 low-volume production a 2026 reality with 2027 scale-up, and JPMorgan's 'physical AI' upgrade plus China retail +22% show the core business stabilizing while the SpaceX-driven dip resets entry.",
+      "neutral": "Tesla remains the index-level expression of humanoids - essential beta, not alpha; incremental Optimus capacity news was widely expected and no external customers exist yet, so the page-specific setup is unchanged.",
+      "bear": "Musk conceded Optimus is 'not in usage in our factories in a material way,' Figure/Unitree/BYD are scaling cheaper and faster, and the June 12 SpaceX listing could structurally divert retail and institutional flows that have propped up Tesla's robotics premium.",
+      "primaryCatalyst": "Optimus Gen 3 low-volume production start at Fremont (summer 2026) and any first external customer announcement.",
+      "primaryRisk": "SpaceX Nasdaq debut June 12 siphoning Tesla's narrative capital, plus continued absence of material Optimus deployment evidence at a 350x+ P/E."
+    }
+  ]
+}

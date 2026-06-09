@@ -1,0 +1,27 @@
+{
+  "symbol": "ARBE",
+  "company": "Arbe Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new press releases or contracts since June 6. CTO Noam Arkind's 10b5-1 sales of ~200,000 shares (executed June 2-3 at $1.09-$1.18) were reported June 5-7 - a soft negative, not thesis-changing. Stock has drifted from ~$1.13 (June 2) to $0.85, deepening the breach of Nasdaq's $1 minimum bid requirement (compliance deadline Oct 12, 2026), which raises reverse-split/dilution risk given $53.6M cash against a guided $(28)-$(31)M 2026 adjusted EBITDA loss. Q1 results (May 28: $0.5M revenue, 2026 guidance of $4-6M reaffirmed, Phoenix robotaxi follow-on orders, Hirain China expansion) were already known before June 6.",
+  "sources": [
+    {"label": "StockTitan - ARBE news feed (no items June 5-9; Q1 results May 28)", "url": "https://www.stocktitan.net/news/ARBE/"},
+    {"label": "Daily Political - CTO Noam Arkind sells 175,862 shares (10b5-1)", "url": "https://www.dailypolitical.com/2026/06/07/noam-arkind-sells-175862-shares-of-arbe-robotics-nasdaqarbe-stock.html"},
+    {"label": "StockTitan - Form 4: CTO sells 200,000 shares under 10b5-1 plan", "url": "https://www.stocktitan.net/sec-filings/ARBE/form-4-arbe-robotics-ltd-insider-trading-activity-eaae73aa6440.html"},
+    {"label": "Yahoo Finance - ARBE quote", "url": "https://finance.yahoo.com/quote/ARBE/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Already #1 on the robotics page with no new fundamental evidence since June 6; today's -3.4% is drift. The continued sell-off marginally improves entry asymmetry, but that is offset by the deepening sub-$1 Nasdaq breach and fresh CTO 10b5-1 selling, so neither the rank nor the score should move.",
+      "bull": "A $150M-cap, genuinely under-owned pure-play on imaging radar trading near all-time lows; Phoenix robotaxi follow-on orders and the Hirain China platform show commercialization is starting, and radar redundancy gets more valuable as robots and AVs leave controlled demos.",
+      "neutral": "Thesis intact but unproven: $0.5M Q1 revenue against a $4-6M full-year guide and $1M backlog means the design-win-to-revenue conversion is still ahead, and the stock will trade on financing optics until then.",
+      "bear": "Burning $28-31M a year against $53.6M cash with the stock 15% below Nasdaq's $1 minimum bid - a reverse split or dilutive raise into weakness is increasingly likely, and the CTO is selling, however pre-arranged.",
+      "primaryCatalyst": "A named OEM/robotaxi production design win or backlog inflection at the Aug 12 Q2 report that validates the $4-6M 2026 revenue guide.",
+      "primaryRisk": "Dilutive capital raise or reverse split forced by the cash burn and the October 12, 2026 Nasdaq minimum-bid deadline."
+    }
+  ]
+}

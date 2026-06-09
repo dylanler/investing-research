@@ -1,0 +1,27 @@
+{
+  "symbol": "PDYN",
+  "company": "Palladyne AI",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: signed MOU with Israel Aerospace Industries granting Palladyne up-to-10-year exclusive U.S. rights to manufacture, integrate and market IAI's combat-proven HARPY, HAROP and Mini-HARPY loitering munitions to the U.S. Department of War; deal requires Palladyne to stand up a U.S. assembly line and pay royalties. Stock nonetheless fell -9.4% on June 9 (and ~24% from its ~$8.60 June 1 level) - a sell-the-news fade reflecting MOU non-bindingness and capex/dilution worries ($43.7M cash vs. assembly-line build-out), not a fundamental break. Q1 backdrop: revenue +107% YoY to $3.5M, ~$17M backlog, FY26 guide $24-27M reiterated.",
+  "sources": [
+    {"label": "Business Wire - Palladyne AI and IAI partnership announcement (Jun 8, 2026)", "url": "https://www.businesswire.com/news/home/20260608494232/en/Palladyne-AI-and-IAI-Form-Partnership-to-Manufacture-and-Sell-Combat-Proven-Loitering-Munition-Systems-to-the-U.S.-Department-of-War"},
+    {"label": "StockTitan - PDYN 8-K: exclusive U.S. rights to IAI loitering munitions", "url": "https://www.stocktitan.net/sec-filings/PDYN/8-k-palladyne-ai-corp-reports-material-event-b082bb095c81.html"},
+    {"label": "Breaking Defense - Palladyne AI partners with IAI on Harpy/Harop in US", "url": "https://breakingdefense.com/2026/06/palladyne-ai-partners-with-iai-to-bring-israeli-harpy-harop-drones-to-us/"},
+    {"label": "StockTitan - PDYN news feed (Jefferies summit, advisory board, Q1 context)", "url": "https://www.stocktitan.net/news/PDYN/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 14,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new evidence since yesterday's down-move: the June 8 IAI MOU directly confirms this page's defense-autonomy thesis (embodied AI, small-cap optionality), while a -9.4% sell-the-news fade unwinds the YTD rerating (+52% -> +38%) that drove yesterday's penalty. Thesis stronger, price lower, crowding reduced - residual alpha improves on this page.",
+      "bull": "Exclusive up-to-10-year U.S. rights to combat-proven IAI loitering munitions gives a $350M-cap name a tangible path into the DoD munitions replenishment cycle, layered on top of 107% YoY revenue growth and ~$17M backlog.",
+      "neutral": "It is an MOU, not a contract: revenue depends on standing up a U.S. assembly line and winning Department of War orders, and FY26 guidance of $24-27M was merely reiterated, so near-term numbers do not change.",
+      "bear": "The pivot drifts further from robotics/AI software toward licensed munitions manufacturing, diluting page purity, and the assembly-line capex against $43.7M cash makes an equity raise into weakness a live risk.",
+      "primaryCatalyst": "Conversion of the IAI MOU into a definitive agreement and a first U.S. Department of War loitering-munitions order.",
+      "primaryRisk": "Dilutive capital raise to fund the U.S. assembly line, or the non-binding MOU stalling without orders."
+    }
+  ]
+}

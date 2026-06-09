@@ -1,0 +1,39 @@
+{
+  "symbol": "6845.T",
+  "company": "Azbil",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Simply Wall St - Azbil FY2026 results: margin decline vs growth story",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6845/azbil-shares/news/azbil-tse6845-margin-decline-versus-growth-story-comes-into"
+    },
+    {
+      "label": "BigGo Finance - Azbil ToSTNeT-3 treasury share repurchase notice (May 12, 2026)",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260512525764"
+    },
+    {
+      "label": "Memoori - Azbil AI & data center strategy (3 key strategic moves)",
+      "url": "https://memoori.com/azbils-ai-data-center-strategy-3-key-moves-growth-plan/"
+    },
+    {
+      "label": "Yahoo Finance quote 6845.T",
+      "url": "https://finance.yahoo.com/quote/6845.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0.5,
+      "confidence": 0.65,
+      "rankRationale": "No material news since Jun 6; last datapoints remain the May 13 FY results (Q4 EPS beat 52%, Building Automation-led, FY2026 guide of Y315B revenue) and a mid-May buyback. Today's -1.9% drift with the thesis intact marginally improves entry asymmetry but is not enough to re-rank a name yesterday's agent already held.",
+      "bull": "Building Automation is Azbil's largest segment and the company is explicitly pushing AI/data-center cooling and airflow-management solutions (Chiller Plant Digital Twin, DATAFLUCT/X1Studio investments) while the market still prices it as a sleepy Japanese controls company at ~$5B cap, +8.7% YTD - latent, under-owned exposure intact.",
+      "neutral": "FY2026 guidance of +5.4% revenue and 2.4% consensus annual growth say the data-center optionality is not yet showing up in numbers; until DC-specific order disclosure appears, the stock trades on Japanese retrofit cycle dynamics.",
+      "bear": "Net margin slipped to 12.9% from 13.6%, and reliance on Japanese retrofit projects plus a plateau in domestic new-office development could cap Building Automation growth before the data-center narrative ever monetizes.",
+      "primaryCatalyst": "Disclosure of data-center-specific order intake or a hyperscaler/colocation BMS win in Japan's DC buildout, plus Q1 FY2026 results showing Building Automation order momentum.",
+      "primaryRisk": "Japan building retrofit cycle rolls over while data-center revenue stays too small to disclose, leaving a low-growth controls company with eroding margins."
+    }
+  ]
+}

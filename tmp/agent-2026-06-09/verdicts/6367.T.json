@@ -1,0 +1,35 @@
+{
+  "symbol": "6367.T",
+  "company": "Daikin Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Daikin Global press releases 2026 (no items since June 6; latest relevant: May 21 Poland heat-pump plant, May 11 Delta Electronics data-centre cooling MOU, May 12 FUSION30/results)",
+      "url": "https://www.daikin.com/press/2026"
+    },
+    {
+      "label": "Daikin outlines U.S. growth strategy / data-center cooling pitch at J.P. Morgan Industrials Conference",
+      "url": "https://www.northamerica-daikin.com/news/daikin-outlines-us-growth-strategy-at-jp-morgan-industrials-conference"
+    },
+    {
+      "label": "Simply Wall St: Daikin targets data centers with new cooling systems (TSE:6367)",
+      "url": "https://simplywall.st/stocks/jp/capital-goods/tse-6367/daikin-industriesltd-shares/news/daikin-targets-data-centers-and-large-venues-with-new-coolin"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since June 6 and only a -0.75% drift day; yesterday's hold stands. Mild negative delta because the data-center cooling story is increasingly consensus (FUSION30 plan, JPM Industrials pitch, dedicated DC unit) at a $42B cap, so residual alpha is eroding without a new catalyst rather than the rank changing.",
+      "bull": "Daikin is converting from commodity HVAC to an integrated thermal-infrastructure partner for hyperscale AI data centers (Chilldyne liquid-cooling acquisition, Delta MOU in Asia-Oceania, modular large-tonnage capacity), with the North American DC cooling business projected to more than triple by 2030.",
+      "neutral": "At ~$42B market cap and +14.9% YTD, the data-center optionality is partially priced; residential/commercial HVAC cyclicality still dominates near-term earnings, so the stock drifts with macro until DC cooling orders show up in segment numbers.",
+      "bear": "Data-center cooling is a crowded knife fight (Vertiv, Schneider, Johnson Controls, Trane, LG) where Daikin is a late scaler, and a global HVAC demand slowdown or US housing weakness could swamp the DC narrative while the YTD rerating unwinds.",
+      "primaryCatalyst": "Q1 FY26 results and first FUSION30 progress update quantifying data-center cooling orders/backlog, or a named hyperscaler design win for the Chilldyne/Applied liquid-cooling stack.",
+      "primaryRisk": "DC cooling revenue ramps slower than the narrative while core HVAC (US residential, China) decelerates, compressing the multiple gained in the YTD rerating."
+    }
+  ]
+}

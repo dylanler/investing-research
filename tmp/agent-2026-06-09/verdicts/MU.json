@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "company": "Micron Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Whipsaw week with no new company-specific news today: after a ~13% Friday (Jun 5) plunge on Broadcom's unraised AI revenue target and reports Nvidia may cut the standard memory configuration of Rubin NVL72 racks by roughly half (a direct HBM volume overhang), MU bounced +9.9% Monday Jun 8 on Wells Fargo ($1,220) and Susquehanna ($1,750) price-target raises and Jensen Huang's Jun 5 Seoul confirmation that Micron is HBM4-certified for the Vera Rubin platform. Today's -5.5% to $896.81 is flow-driven giveback of Monday's bounce amid sector de-risking ahead of FQ3 earnings June 24 (guide ~$33.5B rev, ~$18.90 EPS); HBM remains sold out through 2026 under binding contracts. Insider selling (65 sale-only transactions Mar-Jun) adds caution.",
+  "sources": [
+    {"label": "Motley Fool - Why Micron Stock Is Sinking Today (Jun 5 selloff: Broadcom guide, Rubin NVL72 memory-cut reports, insider sales)", "url": "https://www.fool.com/investing/2026/06/05/why-micron-stock-is-sinking-today/"},
+    {"label": "Yahoo Finance - Why did Micron stock fall 13% on Friday and should you buy the dip?", "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-micron-stock-fall-113631895.html"},
+    {"label": "InteractiveCrypto - Micron jumps 9.9% as HBM4 certification and Wells Fargo $1,220 target reset the narrative", "url": "https://www.interactivecrypto.com/micron-jumps-9-9-as-hbm4-certification-and-a-wells-fargo-1-220-target-reset-the-narrative-jun-20"},
+    {"label": "TechTimes - Micron Stock Climbs as HBM Sells Out: June 24 Earnings Decides the AI Memory Trade", "url": "https://www.techtimes.com/articles/318017/20260608/micron-stock-climbs-hbm-sells-out-june-24-earnings-decides-ai-memory-trade.htm"},
+    {"label": "Motley Fool - Should You Buy Micron Stock Before June 24, or Is the Semiconductor Sell-Off About to Get Worse?", "url": "https://www.fool.com/investing/2026/06/09/buy-micron-technology-stock-june-24-sell-off-worse/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "The ~20% drawdown from the high partially unwinds the crowding/rerating penalty applied yesterday, but a $1.01T mega-cap at +184% YTD remains far from hidden or under-owned, and MU sits peripheral to this page's passive/power bottleneck core. Asymmetry slightly improved, not enough to reverse yesterday's down move.",
+      "bull": "HBM sold out through 2026 under binding contracts with HBM4 certified for Vera Rubin; the sharp drawdown resets entry asymmetry on a name with intact cash-flow visibility.",
+      "neutral": "Mega-cap index ownership and 184% YTD rerating mean most of the bottleneck story is institutionalized; the selloff is sector flow, not a thesis change in either direction.",
+      "bear": "Rubin NVL72 memory-config-cut reports threaten per-rack HBM content, and Broadcom's plateau signal questions the AI capex slope; insider sale-only filings into June 24 earnings add downside risk.",
+      "primaryCatalyst": "FQ3 earnings June 24 (guide ~$33.5B rev, ~$18.90 EPS) validating sold-out HBM economics.",
+      "primaryRisk": "Confirmation of Nvidia Rubin rack memory-config cuts halving HBM content per system."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Jensen Huang's Jun 5 confirmation of Micron's HBM4 certification for Vera Rubin plus sold-out 2026 capacity validates the node-centrality case that drove yesterday's jump from 55 to 17; the unconfirmed Rubin NVL72 memory-config-cut reports are the offsetting volume risk, so rank 17 is right and no second consecutive move is warranted.",
+      "bull": "Certified HBM4 supplier for the dominant 2H26 AI platform with 100% of 2026 HBM output contracted and demand exceeding supply by ~50%; memory bandwidth is a structural node in the 2027 compute bottleneck.",
+      "neutral": "Centrality is now consensus-recognized after the rank reset; price gyrations this week were sector flow, not new node evidence.",
+      "bear": "If Nvidia halves standard rack memory configs, HBM bit demand per system falls materially, and memory remains the most cyclical tier of the AI node stack.",
+      "primaryCatalyst": "FQ3 report June 24 with HBM revenue trajectory and any HBM4 volume/pricing color.",
+      "primaryRisk": "Nvidia Rubin platform memory-content reduction reducing HBM bit growth assumptions."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing CPO-specific since June 6; MU's link to co-packaged optics remains indirect via larger AI clusters, and this week's selloff/bounce was sector flow. Yesterday's up move to 99 already captured the HBM evidence.",
+      "bull": "Bigger Rubin-era clusters that justify CPO adoption also consume more HBM, so the indirect linkage holds while HBM stays sold out through 2026.",
+      "neutral": "MU is a memory proxy on a CPO page; no optics-adjacent news this week changes the indirect-exposure framing at rank 99.",
+      "bear": "Reports of halved Rubin NVL72 memory configs would shrink the per-cluster memory pull-through that underpins even the indirect CPO-adjacent thesis.",
+      "primaryCatalyst": "June 24 earnings reaffirming AI data-center demand breadth.",
+      "primaryRisk": "Memory cycle/pricing downturn decoupling MU from cluster-scale buildout narratives."
+    },
+    {
+      "page": "companies",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Today's -5.5% is flow-driven giveback of Monday's +9.9% bounce, not new fundamental damage, so the ~20% drawdown from the high modestly improves asymmetry on the HBM & AI memory bucket; but yesterday already moved up and the watch-item this page names, HBM supplier execution, now carries the unresolved Rubin memory-config overhang, so hold.",
+      "bull": "HBM4 certification for Vera Rubin plus fully contracted 2026 HBM capacity is direct execution evidence; a sub-$900 entry into June 24 earnings offers asymmetric upside if guidance confirms sold-out economics.",
+      "neutral": "Mixed tape: positive cert and analyst targets ($1,220-$1,750) against sector plateau fears; net thesis unchanged at rank 82 pending the June 24 print.",
+      "bear": "Halved Rubin rack memory configs plus Broadcom-signaled AI capex plateau would hit HBM volumes and pricing simultaneously; insider sale-only activity into the print is a warning.",
+      "primaryCatalyst": "FQ3 earnings June 24 with HBM pricing/volume confirmation and FQ4 guide.",
+      "primaryRisk": "Nvidia cutting Rubin NVL72 memory content, undermining the HBM bit-growth assumption behind the rerating."
+    }
+  ]
+}

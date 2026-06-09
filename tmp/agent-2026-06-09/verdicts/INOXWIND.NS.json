@@ -1,0 +1,27 @@
+{
+  "symbol": "INOXWIND.NS",
+  "company": "Inox Wind",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "EGM notice dispatched for June 22, 2026 meeting: enabling approval to divest Inox Green Energy Services stake from 51.13% to <=50% (in tranches), plus director remuneration items. This is optionality for subsidiary monetization/deconsolidation, not a signed transaction. The weak Q4 FY26 print (-9% day move, brokerage target cuts) and the offsetting FY27 guidance (~75% revenue growth, ~3.1 GW order book, >24 months revenue visibility) predate June 6 and were reconciled in yesterday's verdict. Today's +1.9% is a modest bounce near the 52-week low (Rs 75.05 vs Rs 86.14), below the 5% threshold.",
+  "sources": [
+    {"label": "ScanX - Inox Wind EGM notice: director remuneration and Inox Green stake-sale enabling approval", "url": "https://scanx.trade/stock-market-news/companies/inox-wind-seeks-approval-for-director-remuneration-and-stake-sale/41680884"},
+    {"label": "Business Standard - Inox Wind slips 9% on weak Q4, brokerages cut targets (June 1, background)", "url": "https://www.business-standard.com/markets/news/inox-wind-share-price-target-nse-bse-q4-results-profit-revenue-126060100763_1.html"},
+    {"label": "Power Peak Digest - Inox Wind weak Q4 but guides 75% FY27 revenue growth, ~3.1 GW order book", "url": "https://powerpeakdigest.com/inox-wind-q4-profit-falls-fy26/"},
+    {"label": "Yahoo Finance - INOXWIND.NS quote", "url": "https://finance.yahoo.com/quote/INOXWIND.NS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the scaling (capacity build-out) lens, the thesis is intact: ~3.1 GW order book and 75% FY27 revenue-growth guidance support the wind-equipment build-out case, and the post-Q4 sell-off was already reconciled in yesterday's hold. The only genuinely new item since June 6 - the EGM enabling resolution to take Inox Green below 50% - is mild balance-sheet optionality, not enough to re-rank; small positive drift only.",
+      "bull": "Stock sits near its 52-week low with the order book and FY27 ramp guidance intact, so the Q4-driven derating has improved asymmetry; Inox Green deconsolidation could unlock cash and clean up the structure ahead of execution-heavy FY27.",
+      "neutral": "Q4 was weak and broker targets were cut, but guidance and the 3.1 GW backlog keep the capacity build-out thesis alive; the EGM item is enabling-only, so nothing changes the rank case yet.",
+      "bear": "Q4 miss signals execution slippage just as the FY27 guidance bar was set very high (75% growth); if order-to-execution conversion stalls again, the backlog optics won't protect the stock, and a stake sale below 50% could be read as cash-strain rather than optionality.",
+      "primaryCatalyst": "June 22 EGM approval and subsequent Inox Green stake-sale tranches, plus Q1 FY27 execution evidence on the 3.1 GW backlog.",
+      "primaryRisk": "FY27 execution miss against the 75% revenue-growth guidance after a weak Q4, triggering further broker downgrades."
+    }
+  ]
+}

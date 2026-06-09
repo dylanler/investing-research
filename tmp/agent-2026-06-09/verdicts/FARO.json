@@ -1,0 +1,35 @@
+{
+  "symbol": "FARO",
+  "company": "FARO Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "AMETEK press release - AMETEK Completes Acquisition of FARO Technologies (Jul 21, 2025; $44.00/share cash, ~$920M; Nasdaq delisting)",
+      "url": "https://investors.ametek.com/news-releases/news-release-details/ametek-completes-acquisition-faro-technologies"
+    },
+    {
+      "label": "PR Newswire - AMETEK Completes Acquisition of FARO Technologies",
+      "url": "https://www.prnewswire.com/news-releases/ametek-completes-acquisition-of-faro-technologies-302509238.html"
+    },
+    {
+      "label": "SEC 8-K exhibit - FARO Technologies merger completion",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000917491/000119312525161621/d97014dex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "down",
+      "scoreDelta": -8,
+      "confidence": 0.97,
+      "rankRationale": "FARO ceased to exist as a public equity when AMETEK closed its $44.00/share (~$920M) cash acquisition on July 21, 2025 and the stock was delisted from Nasdaq; a non-tradeable ticker carries zero residual alpha on a latent-nodes ranking and should be removed entirely. This reiterates yesterday's 'remove' verdict, which the page has not yet executed (still shown at rank 38).",
+      "bull": "The thesis itself was vindicated: a strategic acquirer paid cash for exactly the 3D-capture/digital-twin bottleneck asset the page identified, folding it into AMETEK's Ultra Precision Technologies division alongside Creaform and Virtek.",
+      "neutral": "Investors wanting the exposure now own it only through AMETEK (NYSE: AME), where FARO's ~$340M of sales is a small slice of a large diversified instruments company - a different, far more diluted bet.",
+      "bear": "Keeping a delisted ticker on the list is dead weight that misstates the page's investable universe; null price/market-cap data confirms there is no security left to rank.",
+      "primaryCatalyst": "None - the equity no longer trades; the only successor catalyst is AMETEK's integration of FARO into its metrology portfolio.",
+      "primaryRisk": "Listing hygiene risk: stale, non-investable entries erode the credibility of the alpha ranking rather than any market risk."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "MTZ",
+  "company": "MasTec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news. Stock fell ~4% on June 9 (to $347.35) as investors digested insider-sale filings (Director Ernst Csiszar sold 6,500 shares / $2.41M on June 5; ~$3.5M insider sales over 3 months with no purchases) and valuation concerns (GuruFocus flags shares as heavily overvalued vs GF Value) after the strong post-analyst-day run. Underlying demand signals intact: record $20.3B backlog (+28% YoY), bullish analyst actions post NYC analyst day with 2028 growth targets. Move is flow/valuation-driven, not thesis-changing.",
+  "sources": [
+    {
+      "label": "Quiver Quantitative - MasTec shares fall as investors digest insider-sale filings and pullback",
+      "url": "https://www.quiverquant.com/news/MasTec+shares+fall+as+investors+digest+recent+insider-sale+filings+and+a+post-earnings+pullback"
+    },
+    {
+      "label": "Investing.com - MasTec director Ernst Csiszar sells $2.41M in stock (June 5, 2026)",
+      "url": "https://ca.investing.com/news/insider-trading-news/mastec-director-ernst-csiszar-sells-241-million-in-company-stock-93CH-4678468"
+    },
+    {
+      "label": "Simply Wall St - MasTec valuation in focus after overvaluation concerns, insider selling, grid/data-center tailwinds",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-mtz/mastec/news/mastec-mtz-valuation-in-focus-after-overvaluation-concerns-i"
+    },
+    {
+      "label": "GuruFocus - MasTec shares fall 4.3%, GF Value says still overvalued",
+      "url": "https://www.gurufocus.com/news/8894717/mastec-inc-mtz-shares-fall-43-gf-value-says-still-overvalued"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed MTZ down for the post-rerating chase; today's -4% pullback is flow-driven (insider-sale filings, valuation noise) with the grid/fiber/power bottleneck thesis fully intact, modestly restoring asymmetry. No genuinely new fundamental evidence since June 6, so hold at rank 74 with a small positive drift.",
+      "bull": "Record $20.3B backlog (+28% YoY) and analyst-day 2028 targets confirm MasTec sits on the grid, fiber and data-center power buildout critical path; a 4% valuation-driven dip improves entry without thesis damage.",
+      "neutral": "Broad cyclical infrastructure contractor, not a pure AI bottleneck; +52.6% YTD already prices much of the AI campus power/connectivity narrative, and insider selling caps near-term sentiment.",
+      "bear": "GF Value flags shares as substantially overvalued; if data-center capex or renewable interconnect spending decelerates, a high-multiple, margin-thin contractor de-rates hard with insiders already selling into strength.",
+      "primaryCatalyst": "New grid/data-center power or fiber contract awards and continued backlog growth toward analyst-day 2028 targets.",
+      "primaryRisk": "Post-rerating multiple compression: +52.6% YTD with insider selling and overvaluation flags leaves little residual alpha if AI infrastructure capex momentum stalls."
+    }
+  ]
+}

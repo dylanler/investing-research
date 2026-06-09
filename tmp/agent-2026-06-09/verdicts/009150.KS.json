@@ -1,0 +1,39 @@
+{
+  "symbol": "009150.KS",
+  "company": "Samsung Electro-Mechanics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Shares jumped 18.4% on June 9 to KRW 1.97M, reclaiming the No. 4 market-cap spot on KOSPI, after iM Securities raised its target price to KRW 2.3M (from 1.8M) calling the stock 'still undervalued after a 1,000% rally' on AI data-center MLCC demand. No new contract, guidance, or capacity announcement since June 6 - the last hard fundamentals (KRW 1.557T silicon-capacitor supply deal with a US big tech, June 1 MLCC price hikes, record Q1 revenue) all predate the window. Today's move is analyst-chase/flow-driven re-acceleration, partially recovering the pullback from the May 29 high of KRW 2.13M.",
+  "sources": [
+    {
+      "label": "Seoul Economic Daily - SEMCO reclaims No. 4 KOSPI spot as shares jump 18% (Jun 9, 2026)",
+      "url": "https://en.sedaily.com/markets/2026/06/09/samsung-electro-mechanics-reclaims-no-4-spot-on-kospi-as"
+    },
+    {
+      "label": "Seoul Economic Daily - iM Securities lifts target to 2.3M won, 'still undervalued after 1,000% rally' (Jun 9, 2026)",
+      "url": "https://en.sedaily.com/finance/2026/06/09/samsung-electro-mechanics-still-undervalued-after-1000"
+    },
+    {
+      "label": "BigGo Finance - SEMCO breaks 2M won, $2B quarterly revenue, locks in MLCC long-term deals and 1.56T won silicon-capacitor contract (late May 2026)",
+      "url": "https://finance.biggo.com/news/fEFS3Z0BNl__-4_GK4Bk"
+    },
+    {
+      "label": "Seoul Economic Daily - SEMCO hits 2M won, doubling in 10 days (May 29, 2026)",
+      "url": "https://en.sedaily.com/finance/2026/05/29/samsung-electro-mechanics-hits-2-million-won-doubling-in-10"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 90,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.75,
+      "rankRationale": "On a crowding-sensitive alpha page, today's +18.4% pop was triggered by a sell-side target hike (iM Securities to KRW 2.3M), not new fundamental evidence - a textbook post-rerating chase signal on top of +630% YTD that further erodes residual alpha. Yesterday's 'down' verdict is reinforced, not merely repeated: the setup genuinely worsened today as the May-29-to-Jun-8 pullback that briefly improved asymmetry was erased in one flow-driven session.",
+      "bull": "AI server MLCC is a genuine physical bottleneck: 47uF high-cap parts for GPU power modules, June 1 price hikes sticking, memory-style long-term supply agreements emerging, and a KRW 1.56T silicon-capacitor deal with a US hyperscaler validate multi-year pricing power.",
+      "neutral": "The bottleneck thesis is intact and earnings are following through (record Q1, ~40% OP growth), but at ~$86B market cap and No. 4 on KOSPI the story is fully discovered; returns from here track AI capex beta rather than rerating.",
+      "bear": "A 1,000%+ trailing-year move priced on broker target leapfrogging is fragile: Tianjin +20% capacity lands late June and the Philippines plant by 2027-28, so supply relief plus any AI capex digestion or MLCC price-hike pushback could trigger a violent de-rating of a now-crowded, momentum-owned name.",
+      "primaryCatalyst": "Q2 2026 results and confirmation that June MLCC price hikes and long-term AI server supply agreements convert into sustained margin expansion.",
+      "primaryRisk": "Momentum unwind in a crowded name: analyst-target-driven melt-up reverses on any AI capex digestion signal, MLCC pricing pushback, or KOSPI flow rotation, with no valuation support after the rerating."
+    }
+  ]
+}

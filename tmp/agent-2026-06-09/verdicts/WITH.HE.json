@@ -1,0 +1,39 @@
+{
+  "symbol": "WITH.HE",
+  "company": "WithSecure Oyj",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No fresh corporate news since June 6, but a structural fact invalidates the listing: a CVC Capital / Risto Siilasmaa consortium (Diana BidCo Oy) acquired WithSecure at EUR 1.70/share; the tender offer completed ~10 Nov 2025 with a 93.1% stake, the company applied for delisting from Nasdaq Helsinki, and compulsory squeeze-out of remaining shares was expected during H1 2026. June 8/9 quotes are null, consistent with the share no longer trading as a public equity.",
+  "sources": [
+    {
+      "label": "CVC-led consortium secures 93.1% stake in WithSecure and completes tender offer (M&A Insights)",
+      "url": "https://www.mainsights.io/ma-news/cvc-led-consortium-secures-931-stake-in-withsecure-and-completes-tender-offer"
+    },
+    {
+      "label": "WithSecure applies for delisting of shares from Nasdaq Helsinki (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/withsecure-applies-for-delisting-of-shares-from-nasdaq-helsinki-ce7e5fd2de8ef02c"
+    },
+    {
+      "label": "Inside information: CVC/Siilasmaa consortium recommended cash tender offer of EUR 1.70 per share via Diana BidCo Oy (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/mfn/f-secure-oyj--0eie/inside-information-a-consortium-formed-by-cv-/9036817"
+    },
+    {
+      "label": "WithSecure Oyj (WITH.HE) quote page - no live price (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/WITH.HE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 30,
+      "rankMove": "down",
+      "scoreDelta": -8,
+      "confidence": 0.93,
+      "rankRationale": "WITH.HE is no longer an investable alpha vehicle on the scaling list: the CVC/Siilasmaa take-private completed (93.1% tendered Nov 2025), delisting from Nasdaq Helsinki was applied for, and H1 2026 squeeze-out caps any minority holder at EUR 1.70 cash. Yesterday's hold relied on stale market-cap data; null Jun 8/9 quotes confirm the public listing is effectively dead, so it should fall to the bottom of the page pending removal.",
+      "bull": "Any residual minority shares are redeemed at EUR 1.70 in the squeeze-out, so downside is essentially nil from here; the MDR/cyber-resilience franchise itself lives on under CVC ownership.",
+      "neutral": "The managed-detection thesis was never disproven, but it now accrues to private-equity owners; for a public-markets watchlist the position is a cash-like redemption claim with zero thesis optionality.",
+      "bear": "Holding a delisted, squeeze-out-pending Finnish small cap means no liquidity, no upside participation, and dead capital until redemption settles; keeping it ranked misstates the watchlist's investable universe.",
+      "primaryCatalyst": "Completion of the Finnish Companies Act compulsory redemption and formal delisting settlement (expected H1 2026), which removes the ticker entirely.",
+      "primaryRisk": "Process risk only: redemption-price arbitration or settlement delays leave minority cash tied up longer, with no offsetting upside."
+    }
+  ]
+}

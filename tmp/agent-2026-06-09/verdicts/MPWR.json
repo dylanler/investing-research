@@ -1,0 +1,66 @@
+{
+  "symbol": "MPWR",
+  "company": "Monolithic Power Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Schall Law Firm announced (Jun 8) an investigation into potential fiduciary-duty breaches by directors/management, layered on top of the existing financial-restatement overhang (non-reliance 8-K from Feb 26, reiterated Apr 30). Disclosures show ~$380M of insider sales in late May (CEO Hsing ~$240M, EVPs Tseng ~$96M and Sciammas ~$47M). Stock whipsawed: +5.3% Jun 8, -4.63% Jun 9 as the rally was faded on the governance overhang. Annual meeting Jun 11 includes EY auditor ratification vote. No new earnings, design wins, or capacity news; the AI power-delivery thesis itself is unchanged.",
+  "sources": [
+    {"label": "Quiver Quantitative - MPWR slips on restatement overhang and insider-selling disclosures", "url": "https://www.quiverquant.com/news/Monolithic+Power+Systems+stock+slips+as+investors+digest+restatement+overhang+and+insider-selling+disclosures"},
+    {"label": "PRNewswire - Schall Law Firm investigation of Monolithic Power Systems", "url": "https://www.prnewswire.com/news-releases/mpwr-investors-have-the-opportunity-to-join-investigation-of-monolithic-power-systems-inc-with-the-schall-law-firm-302793523.html"},
+    {"label": "TradingKey - MPWR moved up 6.38% on Jun 8, facts behind the movement", "url": "https://www.tradingkey.com/news/market-movers/261953591-market-movers-mpwr-20260608"},
+    {"label": "StockTitan - MPWR 2026 definitive proxy (annual meeting Jun 11, EY ratification)", "url": "https://www.stocktitan.net/sec-filings/MPWR/def-14a-monolithic-power-systems-inc-definitive-proxy-statement-ee07a051218d.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 46,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a residual-alpha list, a fresh fiduciary-duty investigation plus ~$380M of insider selling at peak valuation is new negative evidence layered on an already 'crowded/rerated benchmark' name; today's -4.6% is governance-driven, not a thesis-intact flush that improves asymmetry.",
+      "bull": "VRM/vertical power content per accelerator keeps rising and MPWR remains hard to substitute at high current densities; any cleared restatement removes the overhang quickly.",
+      "neutral": "Thesis intact but fully recognized at ~$76B cap and +59% YTD; the governance noise mostly adds volatility without changing the AI power TAM.",
+      "bear": "Restatement scope could widen, the investigation invites litigation and auditor friction (EY vote Jun 11), and insiders dumping $380M signals they see full value.",
+      "primaryCatalyst": "Restatement resolution / clean re-filed financials, plus next-gen accelerator power-stage design wins.",
+      "primaryRisk": "Restatement scope widening or auditor/governance escalation forcing institutional de-risking."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already cut it to 56 on directness grounds (less direct than HBM/packaging/networking); the Schall investigation and insider-sale disclosures are governance noise that does not change its node-bottleneck directness, so no second consecutive move.",
+      "bull": "Power delivery scales with every node and accelerator generation, keeping MPWR structurally levered to AI compute growth regardless of governance headlines.",
+      "neutral": "Analog/power exposure is real but second-order versus HBM/CPO/test bottlenecks; rank 56 already reflects that.",
+      "bear": "Governance overhang compounds an elevated multiple, and analog/power cyclicality offers less downside protection than true chokepoint names.",
+      "primaryCatalyst": "Content gains in 800V/vertical power delivery for next-gen AI racks.",
+      "primaryRisk": "Restatement fallout plus analog-cycle softness hitting an elevated multiple."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Already demoted to rank 90 yesterday with CPO-specific exposure flagged low and valuation flagged high; the new governance headlines are consistent with that placement and there is little room or reason to move again.",
+      "bull": "If CPO drives rack power density even higher, MPWR's high-current power management benefits indirectly across the board.",
+      "neutral": "CPO linkage stays tenuous; this is a generic AI power-density beneficiary near the bottom of a CPO-specific list, correctly placed.",
+      "bear": "High valuation plus restatement/investigation overhang with no CPO-specific catalyst leaves nothing pulling the rank up.",
+      "primaryCatalyst": "Any disclosed power-stage content in CPO/optical-engine reference designs.",
+      "primaryRisk": "De-rating from governance escalation with no CPO catalyst to offset it."
+    },
+    {
+      "page": "companies",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday already moved it down for recognized rerating; since then the +5.3%/-4.6% whipsaw nets roughly flat and the Schall investigation is incremental governance noise, not a thesis change, so the rank holds.",
+      "bull": "Board-level power-delivery content per AI server keeps compounding and MPWR's execution record remains strong despite the accounting noise.",
+      "neutral": "AI PDN exposure is genuine but the market already pays for it at ~$76B; governance overhang and rerating offset each other near current rank.",
+      "bear": "Insider selling of ~$380M, a restatement still unresolved since February, and a fiduciary-duty probe are exactly the cocktail that precedes multi-quarter multiple compression.",
+      "primaryCatalyst": "Clean restatement resolution and Q2 guidance confirming AI power content growth.",
+      "primaryRisk": "Restatement scope widening or SEC involvement turning governance noise into a fundamental problem."
+    }
+  ]
+}

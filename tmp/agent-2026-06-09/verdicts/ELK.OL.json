@@ -1,0 +1,39 @@
+{
+  "symbol": "ELK.OL",
+  "company": "Elkem",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "NOK 300m subsequent offering settled: 11.1m new shares at NOK 27 issued/delivered on or about June 8, oversubscribed ~2.6x (29.4m shares demanded), with CEO Helge Aasen, CFO Morten Viga and board members participating. Today's +3.55% to NOK 33.26 looks flow-driven - dilution overhang cleared and stock trades well above the NOK 27 offer price - not a fundamental rerating. No new contracts, guidance or analyst moves since June 6. Standing context: June 3 Statkraft 7-year PPA (1,534 GWh, 2031-2037) covers the Bjolvefossen foundry-alloys plant (not AI-relevant), and the pending majority sale of the Silicones division to Bluestar (agreed Feb 2026, EGM-approved Mar 9) continues to shrink the silicones-based AI-spillover pathway but is not new information.",
+  "sources": [
+    {
+      "label": "TipRanks - Elkem raises NOK 300 million in oversubscribed subsequent share offering",
+      "url": "https://www.tipranks.com/news/company-announcements/elkem-raises-nok-300-million-in-oversubscribed-subsequent-share-offering"
+    },
+    {
+      "label": "TipRanks - Elkem insiders boost stakes in completed NOK 27 share offering",
+      "url": "https://www.tipranks.com/news/company-announcements/elkem-insiders-boost-stakes-in-completed-nok-27-share-offering"
+    },
+    {
+      "label": "GlobeNewswire - Statkraft and Elkem sign seven-year power agreement for Bjolvefossen plant (June 3, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3305780/0/en/Statkraft-and-Elkem-sign-seven-year-power-agreement-for-Bj%C3%B8lvefossen-plant-in-Norway.html"
+    },
+    {
+      "label": "Elkem - Sale of majority of Silicones division to Bluestar (transaction page)",
+      "url": "https://www.elkem.com/transaction/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved Elkem down for the rank/score gap, and nothing genuinely new has hit since June 6 - the offering settlement and today's +3.55% are flow events, not evidence for the latent silicones/carbon AI pathway. Small negative drift because the pending Bluestar silicones divestiture keeps hollowing out the very division this page's thesis leans on.",
+      "bull": "Insiders (CEO, CFO, board) bought stock at NOK 27 in an oversubscribed raise, the balance sheet is repaired, and a slimmed-down silicon/carbon materials pure-play at a $1.3B cap is cheap optionality if AI thermal/battery materials demand spills beyond incumbents.",
+      "neutral": "The +3.55% day move is overhang-clearing after the June 8 share delivery rather than new fundamentals; YTD +8.8% is modest and the latent-node thesis remains speculative with medium evidence, so rank 51 still fits.",
+      "bear": "The majority sale of Silicones to Bluestar removes the most plausible AI-adjacent pathway (thermal/sealing materials), Q1 2026 showed production woes, and the equity raise plus weak silicon-market pricing signal a company shoring up its balance sheet, not riding an AI bottleneck.",
+      "primaryCatalyst": "Closing terms and use-of-proceeds clarity on the Bluestar silicones transaction, plus Q2 2026 results showing whether the retained silicon/carbon business has any AI-linked demand traction.",
+      "primaryRisk": "Thesis decay: post-divestiture Elkem is a cyclical ferrosilicon/foundry-alloys producer with no credible AI exposure, leaving the listing stranded on this page."
+    }
+  ]
+}

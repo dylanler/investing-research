@@ -1,0 +1,35 @@
+{
+  "symbol": "GNE.NZ",
+  "company": "Genesis Energy",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "NZX GNE announcements page (latest item 22 May 2026: FY26 Results Announcement Date; nothing dated Jun 5-9)",
+      "url": "https://www.nzx.com/companies/GNE/announcements"
+    },
+    {
+      "label": "Yahoo Finance GNE.NZ quote",
+      "url": "https://nz.finance.yahoo.com/quote/GNE.NZ/"
+    },
+    {
+      "label": "Energy-Storage.News - Genesis FID on second-stage Huntly BESS (background, 20 Apr 2026)",
+      "url": "https://www.energy-storage.news/genesis-energy-greenlights-lowest-cost-grid-scale-bess-in-new-zealand/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No NZX announcement or material news since June 6; -1.6% day move and YTD cooling from +7.1% to +5.4% is ordinary drift, so the Scaling-page utility/power-demand case is unchanged from yesterday's hold.",
+      "bull": "Huntly is NZ's swing firming asset and the second-stage 100MW/200MWh BESS FID plus Q3 guidance keep Genesis levered to any North Island data-centre load growth; at $1.7B and only +5% YTD the name is uncrowded with cheap optionality.",
+      "neutral": "A regulated-adjacent gentailer with a Hold consensus near the analyst target (~NZ$2.54); without a signed hyperscale load agreement it tracks NZ power prices and hydrology more than the AI buildout.",
+      "bear": "Coal/gas fuel and carbon costs bite into FY26, NZ data-centre demand may route to Mercury/Contact geothermal instead, and the February equity raise already funded the growth pipeline, capping near-term upside.",
+      "primaryCatalyst": "FY26 results (date confirmed 22 May notice) and any firm data-centre or large-load supply agreement tied to Huntly capacity.",
+      "primaryRisk": "Higher fuel/carbon costs and weak NZ demand compress gentailer margins while AI-driven load growth fails to materialize in New Zealand."
+    }
+  ]
+}

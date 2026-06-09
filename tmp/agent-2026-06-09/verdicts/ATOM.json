@@ -1,0 +1,39 @@
+{
+  "symbol": "ATOM",
+  "company": "Atomera",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockAnalysis - ATOM overview (price action: -7.6% day, -24% week, no fresh news)",
+      "url": "https://stockanalysis.com/stocks/atom/"
+    },
+    {
+      "label": "GlobeNewswire - Johnson Fistel investor investigation (dated May 6, 2026, not new)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/06/3289112/0/en/atomera-incorporated-shareholders-are-encouraged-to-reach-out-to-johnson-fistel-for-more-information-about-potentially-recovering-their-losses.html"
+    },
+    {
+      "label": "StockTitan - Atomera Q1 2026 10-Q ($11K revenue, ~$6.1M net loss, $25M raise; May filing)",
+      "url": "https://www.stocktitan.net/sec-filings/ATOM/10-q-atomera-inc-quarterly-earnings-report-3e6fab60f8f8.html"
+    },
+    {
+      "label": "Atomera IR press releases (no new releases since June 6)",
+      "url": "https://ir.atomera.com/press-releases"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 37,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict was 'remove' and nothing since June 6 changes that: today's -5.1% (and ~-24% on the week) is a flow-driven unwind of a +236% YTD speculative run, not new robotics-relevant evidence. The sell-off does not restore asymmetry here because the page thesis itself ('too indirect') is the problem, not entry price.",
+      "bull": "MST/GAA adoption progress and expanded GaN-for-RF work with Synopsys could eventually yield royalty leverage, and $41M cash post-raise removes near-term financing risk; a further washout could reset the entry for licensing-catalyst buyers.",
+      "neutral": "Q1 revenue of ~$11K against ~$6.2M opex confirms ATOM remains a pre-commercial licensing story; nothing in its pipeline is robotics-specific, so it is optionality on semiconductor licensing, not a robotics bottleneck.",
+      "bear": "Still +236% YTD with essentially zero revenue, a May investor-claims investigation overhang, and a momentum crowd now exiting (-24% in a week); the unwind of a rerating without fundamentals can run much further.",
+      "primaryCatalyst": "A named production-license or royalty deal with a GAA or GaN manufacturer.",
+      "primaryRisk": "Continued momentum unwind plus dilution risk as a pre-revenue company burning ~$6M/quarter, with no robotics-specific exposure to backstop the thesis."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "BMI",
+  "company": "Badger Meter",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new operational or fundamental news. Only follow-on securities-litigation press releases: Grabar Law fiduciary-duty investigation notice (Jun 8) and Kaplan Fox class-action deadline reminders (lead plaintiff deadline Aug 3, 2026), all stemming from the Apr 17 Q1 2026 miss (sales -9% y/y, utility water -10%, stock -24% that day). Class period Apr 18, 2024 - Apr 16, 2026 alleges misrepresented demand drivers. Stock +0.4% today on no flow event.",
+  "sources": [
+    {"label": "Grabar Law investigation notice incl. BMI (GlobeNewswire, Jun 8 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/08/3308261/0/en/Important-Notice-to-Long-Term-Shareholders-of-Badger-Meter-Inc-NYSE-BMI-Calix-Inc-NYSE-CALX-LKQ-Corporation-NASDAQ-LKQ-and-Power-Solutions-International-Inc-NASDAQ-PSIX-Grabar-Law-.html"},
+    {"label": "Kaplan Fox class-action deadline Aug 3 2026 (NewMediaWire)", "url": "https://www.newmediawire.com/news/kaplan-fox-encourages-investors-of-badger-meter-inc-nyse-bmi-to-contact-the-firm-before-lead-plaintiff-deadline-on-august-3-2026-7087038"},
+    {"label": "BMI securities-fraud investigation after 24% drop on demand issues (Morningstar/PR Newswire, Jun 2 2026)", "url": "https://www.morningstar.com/news/pr-newswire/20260602ny72634/bmi-stock-drop-badger-meter-investigated-for-securities-fraud-after-stock-plummets-24-on-product-demand-issues"},
+    {"label": "Gainey McKenna class action filed against BMI (GlobeNewswire, Jun 3 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/03/3306260/0/en/Gainey-McKenna-Egleston-Announces-A-Class-Action-Lawsuit-Has-Been-Filed-Against-Badger-Meter-Inc-BMI.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since the Jun 8 hold; the only fresh items are law-firm press releases recycling the April Q1 miss. The litigation overhang slightly taints the smart-water demand narrative (alleged pull-forward in 'record' results) but does not touch the data-center water-measurement thesis, so rank holds with minor drift down.",
+      "bull": "Down 26% YTD with the sensor/telemetry franchise intact, BMI offers improving asymmetry on data-center water-intensity measurement; class actions on demand timing rarely impair the long-run installed-base and software-attach story.",
+      "neutral": "The April demand reset (utility water -10% y/y) plus an Aug 3 lead-plaintiff deadline keeps the name in show-me mode; no AI-specific catalyst has emerged to re-rate it within this list.",
+      "bear": "Class actions allege management misrepresented the drivers of record results, implying prior demand was tariff/channel pull-forward; if core utility demand keeps fading, the AI/data-center water angle is too small to carry a still-premium multiple.",
+      "primaryCatalyst": "Q2 2026 earnings (mid-July) clarifying whether utility AMI demand stabilizes; any data-center or liquid-cooling water-monitoring design win.",
+      "primaryRisk": "Continued utility demand erosion plus securities-litigation discovery revealing deeper channel-stuffing, compressing the multiple further."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Strict-screen pathway (flow/water telemetry for liquid cooling loops) is unaffected by the legal headlines; nothing since Jun 6 changes the evidence level, and yesterday's verdict already absorbed the post-miss reset, so hold with small negative drift for the credibility overhang.",
+      "bull": "Flow-measurement capability maps cleanly onto liquid-cooling water loops and data-center water-intensity reporting; the 26% YTD drawdown gives a cheaper entry into a high-evidence telemetry pathway.",
+      "neutral": "The AI-chain pathway remains conceptual rather than contracted; core municipal weakness and litigation noise neither confirm nor refute the liquid-cooling monitoring thesis.",
+      "bear": "Management credibility is now contested in court over demand disclosures, raising the bar for believing any future AI/data-center attach narrative; the strict screen should discount unverified pathways from a company in litigation.",
+      "primaryCatalyst": "A named data-center or cooling-OEM deployment of Badger flow/telemetry hardware validating the strict pathway.",
+      "primaryRisk": "Pathway never converts to revenue while the core utility cycle and class action keep the stock range-bound, eroding the strict screen's evidence score."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "VIAV",
+  "company": "VIAVI Solutions",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Today's -6.7% (and the -11.7% drop on June 5) is flow-driven digestion of the $500M equity offering priced May 21 at $45.00/share (11.1M shares, proceeds repaying the $450M Term Loan B) plus profit-taking after the +150% YTD run; stock now sits exactly at the offering price. Insiders have been net sellers (35 sales, 0 buys in six months); third-party fair-value screens flag ~22% overvaluation. The June 4 NITRO AI Experts launch predates the window and is a minor product item.",
+  "sources": [
+    {
+      "label": "Quiver Quantitative - VIAVI slides as investors digest $500M equity offering and dilution overhang (Jun 5, 2026)",
+      "url": "https://www.quiverquant.com/news/VIAVI+Solutions+slides+as+investors+digest+recent+$500M+equity+offering+and+dilution+overhang"
+    },
+    {
+      "label": "StockTitan - Viavi prices $500M stock offering at $45.00/share to repay Term Loan B",
+      "url": "https://www.stocktitan.net/news/VIAV/viavi-announces-pricing-of-public-offering-of-common-m14fqlyv5lwf.html"
+    },
+    {
+      "label": "StockTitan - VIAVI introduces NITRO AI Experts for wireless test (Jun 4, 2026)",
+      "url": "https://www.stocktitan.net/news/VIAV/viavi-introduces-ai-experts-to-simplify-and-accelerate-wireless-test-89hobbub5fnk.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Sharp two-session, flow-driven sell-off (-11.7% Jun 5, -6.7% today) with zero fundamental deterioration improves asymmetry on a latent-node lens: the test-and-assurance tollbooth thesis is intact, the offering deleverages the balance sheet, and the stock now sits at the $45.00 price where institutions just absorbed $500M of supply.",
+      "bull": "Dilution overhang is a one-time, non-fundamental flush that resets entry on a name whose 800G/1.6T optical test and timing franchise is a structural toll on every AI interconnect build; TLB repayment cuts interest expense and de-risks the story.",
+      "neutral": "The washout partially offsets the post-rerating crowding penalty, but +150% YTD means much of the latent re-rating has already happened; the offering price at $45 acts as near-term support and ceiling until supply clears.",
+      "bear": "Insiders sold 35 times with zero buys in six months and fair-value screens peg the stock ~22% rich; if the offering price breaks, momentum holders capitulate and the 'hidden tollbooth' framing no longer offers a valuation cushion.",
+      "primaryCatalyst": "Supply clearing post-offering plus 800G/1.6T test demand and data-center/aero-defense strength flagged in Q3 FY26 carrying into the next print.",
+      "primaryRisk": "Break below the $45 offering price triggers further flow-driven unwind in a name still up ~150% YTD with persistent insider selling."
+    }
+  ]
+}

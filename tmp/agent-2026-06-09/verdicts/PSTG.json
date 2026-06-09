@@ -1,0 +1,48 @@
+{
+  "symbol": "PSTG",
+  "company": "Pure Storage (Everpure)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news in the June 6-9 window. Context: Q1 FY27 earnings landed June 3 (before window) - strong growth but stock dipped as hyperscaler/Meta DirectFlash revenue was guided as non-linear and concentrated in H2 FY27. No fresh analyst actions, contracts, or M&A since June 6; most recent tracked rating action remains Wedbush $100 PT from February. Stock flat today (0.0%), YTD -1.75%.",
+  "sources": [
+    {
+      "label": "Investing.com - Pure Storage Q1 2027 earnings call transcript (strong growth, stock dips)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pure-storage-sees-strong-q1-2027-growth-stock-dips-93CH-4713365"
+    },
+    {
+      "label": "StockAnalysis - Everpure (PSTG) analyst forecast / consensus",
+      "url": "https://stockanalysis.com/stocks/pstg/forecast/"
+    },
+    {
+      "label": "AnaChart - PSTG analyst price target history (latest action Wedbush Feb 2026)",
+      "url": "https://anachart.com/ticker/pstg/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved PSTG up to reflect under-owned AI storage exposure; nothing new has hit since June 6 and the stock is flat today, so the setup is unchanged. Small positive drift only: negative YTD with an intact hyperscaler DirectFlash thesis keeps asymmetry attractive on this crowding-sensitive list, but the name remains farther from the passive/power bottleneck core this page rewards.",
+      "bull": "Meta/hyperscaler DirectFlash deployments ramp into H2 FY27 with possible additional hyperscaler wins, while flat-to-negative YTD means none of it is priced - rare residual alpha among AI names.",
+      "neutral": "Post-earnings digestion continues; hyperscaler revenue is guided non-linear and back-half loaded, so the stock drifts until H2 FY27 evidence arrives.",
+      "bear": "Hyperscaler revenue slips or stays lumpy, core enterprise flash faces pricing pressure, and the name is AI-adjacent rather than a true passive/power bottleneck, capping its fit on this list.",
+      "primaryCatalyst": "H2 FY27 hyperscaler DirectFlash deployment ramp or a second hyperscaler design win announcement.",
+      "primaryRisk": "Back-half-weighted hyperscaler guidance creates air-pocket risk if deployments slip a quarter."
+    },
+    {
+      "page": "companies",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "The data-layer utilization thesis was re-audited and moved up yesterday; with zero price action today and no new evidence in the June 6-9 window, rank 53 in the storage and AI data platforms bucket remains appropriate. Only genuinely new hyperscaler or pricing data should move it again.",
+      "bull": "Storage-as-a-service momentum plus the Meta exabyte-scale DirectFlash win validate the data-gravity thesis, and the -1.75% YTD reset leaves rerating headroom into the H2 FY27 hyperscaler ramp.",
+      "neutral": "Thesis intact but catalyst-light near term; Q1 FY27 print is already absorbed and the next real data point is hyperscaler deployment cadence later in the fiscal year.",
+      "bear": "Enterprise storage demand softens or NAND cost inflation squeezes margins while hyperscaler revenue concentration (effectively one customer at scale) raises single-point thesis risk.",
+      "primaryCatalyst": "Evidence of accelerating exabyte deployments or new AI data-platform wins in upcoming quarters.",
+      "primaryRisk": "Hyperscaler concentration and lumpiness - a delayed Meta ramp would undercut the data-layer utilization thesis."
+    }
+  ]
+}

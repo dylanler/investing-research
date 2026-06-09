@@ -1,0 +1,35 @@
+{
+  "symbol": "KAI",
+  "company": "Kadant",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Simply Wall St - Kadant valuation after buyback and dividend confirmation ($50M buyback authorized May 21, predates window)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-kai/kadant/news/a-look-at-kadants-kai-valuation-after-new-buyback-and-divide"
+    },
+    {
+      "label": "Kadant Investor Relations - News & Events (no releases since June 6)",
+      "url": "https://investor.kadant.com/news-and-events"
+    },
+    {
+      "label": "SEC 8-K - Kadant Q1 2026 results and revised guidance (May 5, predates window)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000886346/000088634626000037/kaiform8kex991q126.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Yesterday's verdict already moved KAI down to reconcile the adjusted-score rank; no releases, contracts or analyst moves since June 6 and today's -1.07% is noise, so the strict-screen case is unchanged at rank 67.",
+      "bull": "Flat YTD (+1.8%) and a fresh $50M buyback under a $3.6B cap mean the latent water-reuse/thermal process-control optionality is still un-priced; Q1 EPS beat ($2.84 vs $2.14 est) shows the core business funds the wait.",
+      "neutral": "Kadant remains a paper/industrial process company whose AI-infrastructure linkage is a redirection thesis, not booked revenue; nothing since June 6 strengthens or weakens the medium-evidence pathway.",
+      "bear": "Gross margin compressed 110bps in Q1 on acquisition costs and input inflation, the Bohler Profil deal is near-term dilutive, and at ~34x earnings a speculative AI-water angle offers little downside cushion if industrial demand softens.",
+      "primaryCatalyst": "First disclosed order or segment commentary tying fluid-handling/filtration systems to data-center water reuse or thermal management, or Q2 results (guided adj. EPS $2.88-$2.98) confirming acquisition accretion.",
+      "primaryRisk": "The AI redirection pathway never materializes and KAI trades purely as a richly valued industrial with margin pressure from acquisition integration and input inflation."
+    }
+  ]
+}

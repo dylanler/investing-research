@@ -1,0 +1,39 @@
+{
+  "symbol": "002979.SZ",
+  "company": "China Leadshine Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "STCN quote/news page for 002979 (no new filings Jun 6-9)",
+      "url": "https://www.stcn.com/quotes/index/sz002979.html"
+    },
+    {
+      "label": "Sina announcements list for 002979 (latest items pre-date June 6)",
+      "url": "http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002979.phtml"
+    },
+    {
+      "label": "Abnormal-volatility notice after May 15-18 surge (context, not new)",
+      "url": "https://paper.cnstock.com/html/2026-05/19/content_2218273.htm"
+    },
+    {
+      "label": "Leadshine CES 2026 humanoid component traction (January, already in thesis)",
+      "url": "https://finance.yahoo.com/news/leadshines-dexterous-hands-frameless-motors-020900843.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new filings, orders, or guidance since June 6 and today's +0.29% is pure drift, so yesterday's hold stands. The actuation-purity alpha case (frameless motors, joint modules, dexterous hands at $2.6B cap) is unchanged, but the +30% YTD run and mid-May abnormal-volatility flag mean residual alpha is no larger than it was yesterday.",
+      "bull": "Frameless torque motor deliveries grew >20x in 2025 (120k+ units) with 300k/yr capacity, and dexterous hands/joint modules are now batch-supplying dozens of robot OEMs; Q1 2026 revenue +34.6% shows commercialization, not just story.",
+      "neutral": "At +30% YTD and after a May 15-18 limit-up streak that triggered an exchange volatility notice, much of the near-term humanoid optionality is priced; the RMB1.14B private placement adds capacity but also dilution.",
+      "bear": "Humanoid component orders are still small versus the legacy motion-control base; if dexterous-hand/joint-module wins stay at sample-to-pilot scale, the stock derates back toward an industrial-automation multiple.",
+      "primaryCatalyst": "Disclosure of a named volume supply agreement with a major humanoid OEM (Tesla/Boston Dynamics-class follow-through from CES 2026 talks) or H1 2026 results showing robot-component revenue inflecting.",
+      "primaryRisk": "Crowding in A-share humanoid suppliers unwinds; placement dilution plus any slip in frameless-motor order momentum compresses the rerated multiple."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "symbol": "SU.PA",
+  "company": "Schneider Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No thesis-changing news since June 6. Incremental items: EUR 800M convertible bond offering (announced June 4, settles June 12) funding the AI/data-center push while repurchasing EUR 650M of 2030 bonds; Uniflair XCA oil-free centrifugal chiller line (1,200-2,500 kW, EER 4.66) begins global shipments in June 2026 for AI data centers; analyst targets nudged higher (consensus ~EUR 300, range EUR 290-340, Strong Buy). Today's -2.61% is a flow-driven pullback after the AI/data-center momentum run, not a fundamental break.",
+  "sources": [
+    {"label": "Bloomberg - Schneider taps AI-fueled rally with EUR 800M convertible debt (Jun 4, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-06-04/schneider-electric-banks-on-ai-boom-to-sell-800-million-debt"},
+    {"label": "Finanzwire - Schneider Electric announces new bonds and repurchase results", "url": "https://www.finanzwire.com/article/schneider-electric-epa-su-schneider-electric-announces-new-bonds-and-repurchase-results-Gbm9zC9hG21"},
+    {"label": "ad-hoc-news - Shares ease after recent AI and data-center momentum", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/schneider-electric-s-e-stock-fr0000133308-shares-ease-after-recent-ai/69469303"},
+    {"label": "Techpoint Africa brandpress - Uniflair XCA chillers for AI-ready data centers, June 2026 shipments", "url": "https://techpoint.africa/brandpress/schneider-electric-announcement-2026-marks-a-major-shift-toward-ai-ready-data-centers/"},
+    {"label": "Stockopedia - SU.PA consensus Buy, target ~EUR 300.50", "url": "https://www.stockopedia.com/share-prices/schneider-electric-se-EPA:SU/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the residual-alpha lens nothing changed: the -2.6% pullback marginally improves entry asymmetry, but rising Street targets (EUR 290-340) and Strong Buy consensus confirm the name stays fully discovered and crowded. Yesterday's hold at the rerated-benchmark bucket remains correct.",
+      "bull": "AI factory power-and-cooling reference architecture keeps compounding; Uniflair XCA shipments and the convert-funded data-center push show the bottleneck franchise is still widening.",
+      "neutral": "Strategically critical but fully owned; +11% YTD with consensus targets only ~11% above spot leaves little residual alpha versus genuinely hidden names.",
+      "bear": "A crowded EUR/AI-infra proxy at ~$174B cap; any data-center capex digestion or hyperscaler pause hits the multiple harder than the earnings.",
+      "primaryCatalyst": "H1 2026 results / data-center systems order intake confirming acceleration beyond Street's raised targets.",
+      "primaryRisk": "Crowding unwind on any AI capex digestion headline; valuation already embeds the bottleneck story."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "This page explicitly carries Schneider as the negative-control for the latency screen - a discovered, low-conviction anchor at rank 100. Nothing since June 6 makes it more latent; analyst target raises do the opposite, so it stays pinned.",
+      "bull": "If the screen's latent names rerate toward Schneider's recognition level, the control validates the methodology; the underlying power-and-grid exposure remains real.",
+      "neutral": "Functions as a benchmark, not a pick; -2.6% day move and a convert refinancing don't alter its role.",
+      "bear": "As the most-crowded node on the list, it would lead any AI-infrastructure drawdown, which is precisely why conviction stays Low.",
+      "primaryCatalyst": "None specific; serves as the calibration anchor for the alpha screen.",
+      "primaryRisk": "Momentum unwind in crowded European AI-infrastructure proxies."
+    },
+    {
+      "page": "companies",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On the power/cooling/electrical execution lens, June brought small confirming evidence - Uniflair XCA chiller shipments starting and an EUR 800M convert earmarked for the data-center business - but nothing that re-ranks it against peers. Hold rank 12 with a +1 drift for execution confirmation.",
+      "bull": "Switchgear, transformers, UPS and now high-capacity oil-free chillers give Schneider the broadest single-vendor span of the AI power-and-cooling bottleneck, and shipping product proves execution.",
+      "neutral": "Solid execution already reflected in an +11% YTD and consensus Strong Buy; today's -2.6% is noise within an intact uptrend.",
+      "bear": "Cooling is getting competitive (Vertiv, Stulz, Asian entrants); pricing on chillers and data-center gear could compress as supply normalizes into 2027.",
+      "primaryCatalyst": "Uniflair XCA ramp and data-center systems revenue disclosure at H1 2026 results (late July).",
+      "primaryRisk": "Data-center cooling/electrical pricing pressure as competitor capacity comes online."
+    }
+  ]
+}

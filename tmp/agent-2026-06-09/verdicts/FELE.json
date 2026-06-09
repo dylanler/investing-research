@@ -1,0 +1,26 @@
+{
+  "symbol": "FELE",
+  "company": "Franklin Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Franklin Electric news search (Yahoo Finance quote/press releases; Q1 2026 results, reaffirmed FY26 guidance)", "url": "https://finance.yahoo.com/quote/FELE/press-releases/"},
+    {"label": "Simply Wall St - FELE valuation after reaffirmed 2026 guidance (May 11, 2026; PT nudged to $113.25)", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-fele/franklin-electric/news/a-look-at-franklin-electric-fele-valuation-after-reaffirmed"},
+    {"label": "Oppenheimer Conference recap - FELE standing up data-center liquid-cooling production at Oklahoma facility (May 5, 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-electric-talks-growth-margin-003834690.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already corrected the rank up to reflect the adjusted score; nothing material has hit since June 6 and today's +2.1% is drift, not new evidence. The latent-node thesis (water/pumping for water-constrained compute) is quietly strengthening via the Oklahoma liquid-cooling production ramp, but that disclosure predates June 6, so hold with a small positive drift.",
+      "bull": "Company is standing up dedicated data-center liquid-cooling production capacity and management explicitly frames AI data centers as a strong adjacency, while the stock is only +5.4% YTD - latent AI exposure not yet priced.",
+      "neutral": "A $4.35B industrial pump maker with reaffirmed FY26 guidance ($2.17-2.24B sales) and Q1 sales +10%; data-center revenue is still a small adjacency, so the name trades on groundwater/fueling cycles for now.",
+      "bear": "Liquid-cooling is a crowded field (Vertiv, nVent, Boyd, etc.) and FELE's residential/ag groundwater core is rate- and weather-sensitive; a small insider sale and modest analyst PT (~$113) suggest limited near-term torque if the AI adjacency stays immaterial.",
+      "primaryCatalyst": "First disclosed data-center liquid-cooling orders or revenue contribution from the Oklahoma facility, likely at Q2 earnings (late July).",
+      "primaryRisk": "AI cooling adjacency never scales beyond pilot volumes while core groundwater demand softens, leaving the latent-node thesis unmonetized."
+    }
+  ]
+}

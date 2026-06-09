@@ -1,0 +1,28 @@
+{
+  "symbol": "DCI",
+  "company": "Donaldson",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news strictly since June 6. Most recent material items sit just before the window: June 2 Q3 FY26 record results (sales $995.1M +5.8%, adj EPS $1.06 +7.1%, record 16.6% adj op margin, organic sales guide raised to 3-5%, FY26 organic adj EPS $3.94-$4.01) and the June 4 William Blair Growth Stock Conference, where management confirmed actual liquid-cooling design wins with key data-center OEMs/channel partners and 20%+ growth in the disk-drive filtration business tied to data-center demand. Facet Filtration acquisition ($828.7M) closed May 4 and is now in the guide. Today's +1.26% move is drift, not event-driven.",
+  "sources": [
+    {"label": "Donaldson Q3 FY2026 8-K press release (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0000029644/000002964426000049/a991pr20260430.htm"},
+    {"label": "StockTitan - Donaldson posts record Q3 2026 sales and earnings", "url": "https://www.stocktitan.net/sec-filings/DCI/8-k-donaldson-co-inc-reports-material-event-d2baa192461e.html"},
+    {"label": "Kavout - What Did Donaldson Highlight at the William Blair Conference", "url": "https://www.kavout.com/market-lens/what-did-donaldson-highlight-at-the-william-blair-conference"},
+    {"label": "Investing.com - Donaldson at William Blair Conference: Strategic Growth and Resilience", "url": "https://www.investing.com/news/transcripts/donaldson-at-william-blair-conference-strategic-growth-and-resilience-93CH-4083844"},
+    {"label": "Businesswire - Donaldson Completes Acquisition of Facet Filtration", "url": "https://www.businesswire.com/news/home/20260504579532/en/Donaldson-Completes-Acquisition-of-Facet-Filtration"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 42,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "The latent pathway just got validated by management's own words: the June 2 print and June 4 William Blair remarks confirm actual liquid-cooling wins with key data-center OEMs plus 20%+ disk-drive filtration growth on data-center demand - the thesis moved from 'could extend into coolant cleanliness' to 'is extending'. With the stock still -5.4% YTD and uncrowded at $9.8B, none of that confirmation is in the price, and yesterday's hold rationale shows no sign of having absorbed it.",
+      "bull": "Razor-and-blade consumables (66% of revenue) plus confirmed liquid-cooling design wins give DCI a quiet, recurring-revenue toll on data-center thermal hygiene; record 16.6% margins and a raised organic guide while the stock is down YTD is the textbook latent-node setup.",
+      "neutral": "Data-center liquid cooling and disk-drive filtration are still small slices of a ~$3.9B mostly mobile/industrial filtration business; management itself flags the liquid-cooling market as fragmented with no standards, so the AI revenue line stays immaterial near-term.",
+      "bear": "Core engine/ag end-markets remain cyclical and the Facet deal is ~$0.03 EPS dilutive this year; if the AI-coolant opportunity stays niche, DCI is just a fairly valued industrial at ~21x with no AI optionality priced in either direction.",
+      "primaryCatalyst": "Quantified disclosure of data-center liquid-cooling and disk-drive filtration revenue or a named hyperscaler/OEM win at Q4 FY26 results (late August 2026).",
+      "primaryRisk": "Liquid-cooling filtration remains a fragmented, standards-free niche where in-house or commodity solutions win, leaving the AI extension thesis as permanent optionality that never converts."
+    }
+  ]
+}

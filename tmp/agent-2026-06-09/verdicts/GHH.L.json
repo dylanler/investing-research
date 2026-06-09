@@ -1,0 +1,39 @@
+{
+  "symbol": "GHH.L",
+  "company": "Gooch & Housego",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investegate - GHH RNS list (no announcements Jun 5-9; latest: Directorate Change Jun 3, Interim Results Jun 2)",
+      "url": "https://www.investegate.co.uk/company/GHH"
+    },
+    {
+      "label": "SQC Research - record order book, new 1050p TP after ~18% post-interims drop to 920p",
+      "url": "https://www.sqcresearch.com/post/gooch-housego-record-order-book-and-growing-demand-support-shares-of-photonics-group-at-920p-ne"
+    },
+    {
+      "label": "Investing.com - Deutsche Bank raises GHH price target on margin strength (post Jun 2 interims)",
+      "url": "https://m.in.investing.com/news/stock-market-news/deutsche-bank-raises-gooch--housego-stock-price-target-on-margin-strength-93CH-5437947?ampMode=1"
+    },
+    {
+      "label": "ADVFN - H1 FY26: revenue +15.5% to GBP 81.9m, record GBP 167.3m order book, A&D +51.7%",
+      "url": "https://uk.advfn.com/market-news/article/16807/gooch-housego-delivers-revenue-growth-and-record-order-book-as-defence-markets-drive-performance-ghh"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No RNS or material news in the Jun 6-9 window and today's -0.64% is drift; the Jun 2 interims, ~18% post-results de-rating and broker TP raises were all known at yesterday's hold, so there is no genuinely new information to re-rank on. Small positive delta because the post-results washout left a record GBP 167.3m order book and early semiconductor recovery intact at a ~17% cheaper entry, modestly improving asymmetry for this latent-node thesis.",
+      "bull": "Record order book (GBP 167.3m, near-full FY26 revenue cover), A&D revenue +51.7%, and early semiconductor recovery validate the precision-photonics-beyond-transceivers pathway; the Jun 2 profit-taking flush reset crowding while brokers (Deutsche Bank, Zeus 950p, SQC 1050p) raised targets above the 932p price.",
+      "neutral": "Strong H1 but fully disclosed and already digested; at +51% YTD and a $0.35B cap with hold verdicts two days running, the setup is unchanged until the semiconductor and life-sciences recovery shows up in orders rather than commentary.",
+      "bear": "Gross margin fell 100bps to 29.4% on mix and germanium supply shortages - the company is itself exposed to upstream material bottlenecks - and life sciences declined; a still-rich +51% YTD multiple on a small-cap AIM name leaves room for further de-rating if H2 margins disappoint.",
+      "primaryCatalyst": "Evidence of the semiconductor/industrial recovery converting into order book growth and H2 margin recovery as germanium supply normalizes (next trading update / FY26 results).",
+      "primaryRisk": "Persistent germanium and supply-chain shortages compressing margins, plus post-rerating de-rating risk in an illiquid AIM small cap still up ~51% YTD."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "DELL",
+  "company": "Dell Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: DELL fell -7.5% (intraday ~-9%) in a broad flow-driven de-grossing of high-beta AI hardware names (SMCI -11%, HPE also down) — no company-specific fundamental deterioration. Compounding the pressure: Silver Lake entities and director Egon Durban disclosed continued open-market sales and Class B-to-C conversions (Form 4s / 13D/A filed early June), creating a near-term insider supply overhang. Fundamentals remain intact from the late-May Q1 FY27 blowout (EPS $4.86 vs $2.92 est., $51.3B AI server backlog, $60B FY27 AI server revenue guide); shares are now roughly 20% off the post-earnings high within a week.",
+  "sources": [
+    {
+      "label": "Yahoo Finance — Super Micro Plunges 11%, Dell Sinks 9% as High-Beta AI Hardware Stocks Get Hit",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-plunges-11-dell-171639159.html"
+    },
+    {
+      "label": "TradingKey — DELL moved down on Jun 9: insider selling and profit-taking, sector rotation not fundamentals",
+      "url": "https://www.tradingkey.com/news/market-movers/261956123-market-movers-dell-20260609"
+    },
+    {
+      "label": "StockTitan — Silver Lake funds trim Dell stake after Class B-C conversion (Form 4)",
+      "url": "https://www.stocktitan.net/sec-filings/DELL/form-4-dell-technologies-inc-insider-trading-activity-2a88700b2e78.html"
+    },
+    {
+      "label": "Blocks & Files — Dell's extraordinary AI server revenue acceleration ($60B AI server guide, FY27 outlook)",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/05/29/dells-extraordinary-ai-server-revenue-acceleration/5248541"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 84,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's downgrade was purely rerating discipline; today's -7.5% flow-driven washout (sector de-grossing plus Silver Lake supply overhang, ~20% off the post-earnings high in a week) with the $51.3B AI backlog thesis fully intact partially restores asymmetry. Only a modest move up: at $241B cap and +190% YTD it remains crowded, fully discovered, and peripheral to this page's passive/power bottleneck stack.",
+      "bull": "Record $51.3B AI server backlog, $60B FY27 AI server guide, and a 60% EPS beat mean fundamentals are accelerating while the price just de-rated ~20% on flows, not facts — a meaningfully better entry than a week ago.",
+      "neutral": "A mega-cap benchmark name on an alpha list built for hidden bottleneck suppliers; the pullback improves the entry but does not make Dell under-owned, and AI server margins remain structurally thin versus passive/power component makers.",
+      "bear": "Silver Lake distributions and director sales signal a persistent supply overhang into any rally, and if the high-beta AI hardware de-grossing extends, a +190% YTD name with thin server margins has further to fall before valuation support.",
+      "primaryCatalyst": "Stabilization of the AI-hardware sector rotation plus continued AI backlog/order growth disclosures converting the flow-driven discount back into upside.",
+      "primaryRisk": "Continued insider/sponsor share distribution and extended high-beta de-grossing compress the multiple further despite an intact backlog."
+    }
+  ]
+}

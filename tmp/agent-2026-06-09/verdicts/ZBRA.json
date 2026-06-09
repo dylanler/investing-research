@@ -1,0 +1,40 @@
+{
+  "symbol": "ZBRA",
+  "company": "Zebra Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new news since June 6. The ZONE 2026 launches (Nucleus device-management platform, Workcloud IO/BI AI suites, Apera AI venture investment) were June 1-4 and the BNP Paribas PT raise to $370 was June 5 - all pre-window. Since then the stock has simply bled back the post-conference pop (~$253 June 3 -> $232 June 5 -> $227.10 June 9, -2.55% today) on no fundamental driver; YTD now -8.5%.",
+  "sources": [
+    {"label": "Zebra ZONE 2026 software/AI launch press release (June 2)", "url": "https://www.businesswire.com/news/home/20260602035366/en/Zebra-Technologies-Empowers-Frontline-Workers-with-New-DNA-Software-Platforms-and-AI-Powered-Solutions"},
+    {"label": "StockTitan - Zebra debuts Nucleus, AI Workcloud suite", "url": "https://www.stocktitan.net/news/ZBRA/zebra-technologies-empowers-frontline-workers-with-new-dna-software-bf6f5o3teluq.html"},
+    {"label": "Public.com ZBRA analyst targets (BNP Paribas $370, June 5)", "url": "https://public.com/stocks/zbra/forecast-price-target"},
+    {"label": "Simply Wall St - Nucleus AI platform and recent price action", "url": "https://simplywall.st/stocks/us/tech/nasdaq-zbra/zebra-technologies/news/is-zebras-new-nucleus-ai-platform-reshaping-the-investment-c"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already reconciled the adjusted-score gap; nothing genuinely new since June 6. The continued give-back to $227 (-8.5% YTD) with the operational-data thesis intact - and Nucleus/Workcloud actually reinforcing the clean-data endpoint angle - marginally improves entry asymmetry, worth a small positive drift but not another rank move.",
+      "bull": "Nucleus and the Workcloud AI suites deepen Zebra's role as the data-capture and device-management layer that physical-world AI depends on, and the stock now sits ~10% below its June 3 level on no negative news.",
+      "neutral": "A $11.9B incumbent with sell-side Strong Buy coverage and a $330 median target is not hidden; the alpha case still hinges on a warehouse/retail capex refresh that has not yet shown up in numbers.",
+      "bear": "Hardware-led model stays hostage to logistics capex cycles; if the refresh slips again, the AI-software narrative from ZONE will not carry the multiple and the slide from $253 continues.",
+      "primaryCatalyst": "Evidence of enterprise device refresh / Q2 print converting ZONE 2026 software launches into attach-rate and recurring-revenue growth.",
+      "primaryRisk": "Warehouse and retail capex stays frozen, leaving Zebra a cyclical hardware name with an AI label."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 19,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict was removal from the robotics alpha list and nothing since June 6 rebuilds the robotics case - the Skild sale stripped out direct robotics upside and the ZONE news is frontline software, not robotics. Continue migrating the name down/off this page; the small Apera AI venture stake (June 2, pre-window) is not a robotics thesis.",
+      "bull": "The Skild transaction proved Zebra's robotics assets had real value, and the Apera AI machine-vision stake keeps a toehold in industrial automation optionality.",
+      "neutral": "Zebra is now a sensing/data-capture company adjacent to robotics rather than a robotics play; its value to AI portfolios lives on the latent-nodes page, not here.",
+      "bear": "Post-Skild, robotics exposure is residual venture stakes and machine-vision peripherals; holding a $12B diversified hardware name at #19 on a robotics alpha list crowds out purer, smaller bottleneck names.",
+      "primaryCatalyst": "A new robotics-specific design win or partnership that would re-establish direct exposure (none visible).",
+      "primaryRisk": "Continued listing decay as the market fully prices Zebra ex-robotics, dragging the page's alpha integrity."
+    }
+  ]
+}

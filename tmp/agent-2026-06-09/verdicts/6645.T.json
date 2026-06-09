@@ -1,0 +1,27 @@
+{
+  "symbol": "6645.T",
+  "company": "OMRON",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. Nearest dated catalyst is the previously announced (not new) spin-off of the Device & Module Solutions business as Aratas Corporation with Carlyle as principal shareholder, effective July 1, 2026. May items (FY2026 guidance of JPY 820B revenue, IFRS switch, dividend raise) predate the window. Today's -1.98% move is a routine pullback after a +43.8% YTD run, not news-driven.",
+  "sources": [
+    {"label": "Yahoo Finance 6645.T quote", "url": "https://finance.yahoo.com/quote/6645.T/"},
+    {"label": "OMRON Global press releases", "url": "https://www.omron.com/media/press/"},
+    {"label": "MarketScreener OMRON news feed", "url": "https://www.marketscreener.com/quote/stock/OMRON-CORPORATION-6491550/news/"},
+    {"label": "Yahoo Finance: Is It Too Late To Consider OMRON (TSE:6645) After Its Strong Share Price Rebound?", "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-omron-tse-6645-050619838.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed OMRON down to reconcile adjusted-score rank, and nothing new has emerged since June 6; today's -2% dip is noise, not a setup change. The latent-AI-node case (factory automation as an AI deployment layer) is intact but, as the thesis itself concedes, not hidden, and the +44% YTD rerating without fresh AI-specific evidence keeps eroding residual alpha at the margin.",
+      "bull": "IAB is the growth engine with AI-related demand cited in FY2025 results, and the July 1 Aratas spin-off sharpens the portfolio around automation; FY2026 guidance of JPY 820B (+6.9%) shows the restructuring delivering.",
+      "neutral": "A well-followed Japanese automation name up ~44% YTD with guidance already out and the spin-off priced; rank 73 on this list fairly reflects optionality without hidden-node status.",
+      "bear": "DCF screens flag the stock ~13% above intrinsic value after the rebound; healthcare drags from China stagnation and US tariffs persist, and the Q4 FY2025 EPS/revenue miss shows execution risk if IAB momentum cools.",
+      "primaryCatalyst": "Aratas spin-off completion July 1, 2026 and Q1 FY2026 results showing IAB/AI-related order momentum.",
+      "primaryRisk": "Post-rerating valuation compression if IAB orders slow or healthcare/China weakness deepens, with the AI linkage too consensus to provide downside support."
+    }
+  ]
+}

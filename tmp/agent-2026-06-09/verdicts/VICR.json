@@ -1,0 +1,39 @@
+{
+  "symbol": "VICR",
+  "company": "Vicor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "QuiverQuant - Vicor shares slide as CEO stock sale draws attention after sharp run-up (Jun 4, 2026)",
+      "url": "https://www.quiverquant.com/news/Vicor+shares+slide+as+CEO+stock+sale+draws+attention+after+sharp+run-up"
+    },
+    {
+      "label": "StockTitan - Vicor lifts Q2 2026 revenue guidance to $142M on new OEM patent licensee (May 26, 2026)",
+      "url": "https://www.stocktitan.net/news/VICR/vicor-corporation-revises-q2-2026-revenue-03bgkaouw54h.html"
+    },
+    {
+      "label": "StockTitan - Vicor CEO sells 20,000 shares under 10b5-1 plan (Jun 2, 2026)",
+      "url": "https://www.stocktitan.net/sec-filings/VICR/form-4-vicor-corp-insider-trading-activity-60267380610e.html"
+    },
+    {
+      "label": "Vicor 8-K - Q2 2026 revenue guidance revision (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000751978/000119312526165105/d139425dex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new information since June 6 and a flat tape today (-0.39%); the ~16% pullback from the ~$326 high with the thesis intact modestly improves asymmetry, but heavy one-way insider selling (CEO ~$111M over six months, 165 insider sells / zero buys) and the +134% YTD rerating keep it correctly parked in the Crowded / rerated benchmark bucket at rank 50.",
+      "bull": "Q2 guidance was raised from $126M to $142M on product strength plus royalties from a new OEM licensee of Factorized Power / Vertical Power Delivery patents, validating the 48V point-of-load bottleneck thesis; the post-insider-sale flush resets the entry without any fundamental deterioration.",
+      "neutral": "The licensing win and guidance raise are already in the price after the May 26 +13.7% pop and Needham's $350 target; the stock now digests sideways while the market weighs royalty durability against a rich rerated multiple.",
+      "bear": "All-sale, no-buy insider behavior near the highs caps sentiment, and at ~$12B cap with 134% YTD gains any Q2 royalty timing slip or licensee dispute triggers a sharp de-rating; the alpha here is largely harvested.",
+      "primaryCatalyst": "Q2 2026 results in July confirming the $142M guide and disclosure of additional patent licensees / royalty run-rate.",
+      "primaryRisk": "Continued insider distribution plus crowding unwind after the 134% YTD rerating; royalty revenue proving lumpy or one-off."
+    }
+  ]
+}

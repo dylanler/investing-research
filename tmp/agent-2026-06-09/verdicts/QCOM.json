@@ -1,0 +1,48 @@
+{
+  "symbol": "QCOM",
+  "company": "Qualcomm",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: QCOM -8.2% to ~$200 on news ByteDance is advancing a custom AI ASIC partnership with Qualcomm. The engagement itself is strategically positive (datacenter custom silicon beyond handsets; Amon had flagged a 'leading hyperscaler custom silicon engagement' shipping this calendar year), but the market sold it on export-control risk tied to a Chinese customer, sell-the-news profit-taking, and a crowded custom-silicon unwind that also hit Marvell (-10%). Follows June 5's ~9.5% drop on Nvidia's RTX Spark AI-PC challenge to Snapdragon X and a broad chip selloff. Investor Day June 24 (datacenter / Physical AI roadmap) is the next catalyst. YTD now +15.5% after a roughly -16% two-day drawdown.",
+  "sources": [
+    {
+      "label": "24/7 Wall St - Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10%",
+      "url": "https://247wallst.com/investing/2026/06/09/qualcomm-drops-8-on-bytedance-asic-deal-marvell-falls-10-as-custom-silicon-stocks-slide/"
+    },
+    {
+      "label": "StockStory via Yahoo Finance - Why Qualcomm (QCOM) Stock Is Nosediving (June 5 context)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-qcom-stock-nosediving-230414522.html"
+    },
+    {
+      "label": "TIKR - Qualcomm drops on Nvidia AI PC news; automotive $6B run rate; Investor Day June 24",
+      "url": "https://www.tikr.com/blog/qualcomm-stock-drops-11-on-nvidia-ai-pc-news-but-automotive-hits-a-6-billion-run-rate-heres-the-fuller-picture"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 44,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new evidence since yesterday's down-move: the ByteDance custom ASIC engagement advancing makes QCOM's AI-compute exposure more direct than the 'selective edge/power' thesis assumed, and the -8% flow-driven sell-off (custom-silicon unwind, not a thesis break) restores asymmetry at rank 44.",
+      "bull": "A confirmed datacenter custom-ASIC engagement with a hyperscale-class customer plus first custom DC chip shipments this calendar year upgrades QCOM from edge-adjacent to a real AI-compute node; June 24 Investor Day can put numbers on it after a -16% two-day reset.",
+      "neutral": "The deal is real but unquantified, and export-control review could shrink or delay it; handset revenue still fell 13% YoY, so the AI node weight stays modest until DC revenue shows up.",
+      "bear": "Washington blocks or guts advanced AI silicon for a ByteDance-linked program, the AI-PC franchise loses ground to Nvidia's RTX Spark, and QCOM reverts to a melting-handset story with no bottleneck relevance.",
+      "primaryCatalyst": "June 24 Investor Day quantifying the datacenter/custom-silicon ramp and the ByteDance engagement.",
+      "primaryRisk": "US export controls on advanced AI chips for a Chinese customer nullifying the ASIC deal."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "The ByteDance ASIC news is a datacenter custom-silicon story, not a CPO/optics/packaging/test bottleneck story, so yesterday's removal case on this page stands; but today's -8% de-crowding removes the chase risk, so no further down-move is warranted at rank 84.",
+      "bull": "If the custom-silicon ramp is real, QCOM's DC chips would eventually need advanced packaging and optical attach, giving it back-door relevance to the CPO chain at a now cheaper entry.",
+      "neutral": "AI-edge optionality persists, but nothing since June 6 connects QCOM to the CPO cable/optics bottleneck this page ranks; it remains a peripheral holding near the bottom of the list.",
+      "bear": "China export-control risk crystallizes exactly the 'handset cycle and China exposure' risk already flagged, while cleaner CPO names keep compounding design wins QCOM cannot match.",
+      "primaryCatalyst": "Investor Day (June 24) disclosing datacenter silicon volumes that would imply packaging/optics pull-through.",
+      "primaryRisk": "Zero direct CPO relevance plus China regulatory overhang keeps it dead money on this page's lens."
+    }
+  ]
+}

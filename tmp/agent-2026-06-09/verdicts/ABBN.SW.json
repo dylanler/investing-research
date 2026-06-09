@@ -1,0 +1,66 @@
+{
+  "symbol": "ABBN.SW",
+  "company": "ABB",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Only fresh disclosure is a routine weekly share-buyback report (May 28 - June 3). Pre-window context remains the driver set: NVIDIA Omniverse DSX Blueprint integration (June 1), pending SoftBank robotics sale, and Q1 Electrification orders +44% with triple-digit data-center order growth. Today's -2.61% (CHF 80.52, ~6% below the May 27 all-time high of CHF 85.38) has no identifiable fundamental trigger and looks flow/rotation-driven.",
+  "sources": [
+    {"label": "Yahoo Finance - ABB expands NVIDIA collaboration (DSX Blueprint, June 1, 2026)", "url": "https://finance.yahoo.com/sectors/technology/articles/abb-expands-collaboration-nvidia-integration-154600664.html"},
+    {"label": "Yahoo Finance - ABB Reshapes AI Data Center Focus As Robotics Move Nears SoftBank", "url": "https://finance.yahoo.com/markets/stocks/articles/abb-reshapes-ai-data-center-141353674.html"},
+    {"label": "TradingView/EQS - ABB share buybacks May 28 - June 3, 2026", "url": "https://www.tradingview.com/news/eqs:ca61659b8094b:0-abb-ltd-abb-share-buybacks-may-28-2026-june-3-2026/"},
+    {"label": "Yahoo Finance quote ABBN.SW", "url": "https://finance.yahoo.com/quote/ABBN.SW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold: no new evidence since June 6 on a crowding-sensitive list; ABB stays a well-owned $189B benchmark name far from the passive/power bottleneck core, and a -2.6% drift does not change residual alpha at rank 56.",
+      "bull": "Electrification is the structural winner inside ABB: +44% order growth with triple-digit data-center orders, and the NVIDIA DSX integration embeds ABB gear in AI build-out design flows.",
+      "neutral": "Everything bullish here is already consensus and in the +31% YTD price; the name functions as a sector benchmark, not hidden alpha.",
+      "bear": "Mega-cap crowding plus a rerated multiple means any data-center order air pocket or grid capex pause hits a stock priced near all-time highs.",
+      "primaryCatalyst": "Q2 orders confirming continued triple-digit data-center electrification growth",
+      "primaryRisk": "Crowded ownership unwinding on any deceleration in AI/data-center capex"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold: this page explicitly discounts large, heavily covered names, and nothing since June 6 makes ABB more latent; it remains too big and too explicitly AI-linked for early discovery at rank 95.",
+      "bull": "Power & Grid exposure is genuine and deepening - switchgear, UPS and distribution content per MW keeps rising as AI densities climb.",
+      "neutral": "Strategic relevance is intact but fully mapped by the street; low-conviction tail position on a latency-weighted list is correct.",
+      "bear": "Post-robotics-divestiture ABB is an even purer consensus electrification proxy, i.e. the opposite of a latent node.",
+      "primaryCatalyst": "Closing of the SoftBank robotics sale refocusing capital onto grid/electrification",
+      "primaryRisk": "Zero discovery premium left; performance now depends on execution, not recognition"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold with mild negative drift: no new robotics news since June 6, but the nearing SoftBank divestiture keeps eroding ABB's robotics purity, so its claim on a robotics list weakens structurally rather than on fresh evidence.",
+      "bull": "Until the sale closes, ABB still owns a top-tier industrial robotics franchise and the spin/sale process can surface value embedded in the parent.",
+      "neutral": "ABB is a great robotics operator but a poor robotics-alpha vehicle; the exposure is being sold to SoftBank, not compounded inside ABB.",
+      "bear": "Once robotics transfers to SoftBank, ABB holders retain no upside to the humanoid/cobot theme this page tracks, making the listing close to obsolete.",
+      "primaryCatalyst": "Final terms/closing of the ABB Robotics sale to SoftBank",
+      "primaryRisk": "Listing becomes stale as robotics exposure exits the listed entity"
+    },
+    {
+      "page": "companies",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Hold: yesterday's down move already paid the rerating penalty; today's -2.6% no-news pullback (~6% off the May 27 high) with the electrification-bottleneck thesis fully intact marginally improves asymmetry but is not enough to reverse rank.",
+      "bull": "Grid interconnection, transformers, switchgear and data-center electrical content are scarce bottleneck capacity; +44% Electrification orders and the NVIDIA DSX design-flow tie-in argue the backlog keeps building.",
+      "neutral": "Real bottleneck exposure diluted across a $189B conglomerate; +31% YTD means the market already pays for it, so the pullback only restores modest, not asymmetric, upside.",
+      "bear": "If hyperscaler electrical capex digests in H2, a stock rerated to record highs on data-center orders de-rates faster than its backlog declines.",
+      "primaryCatalyst": "Continued record Electrification orders and post-divestiture margin-target uplift",
+      "primaryRisk": "Rerated multiple meeting any slowdown in data-center electrical order intake"
+    }
+  ]
+}

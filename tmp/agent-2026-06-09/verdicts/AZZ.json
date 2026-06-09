@@ -1,0 +1,52 @@
+{
+  "symbol": "AZZ",
+  "company": "AZZ Inc.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Only fresh item: AZZ is presenting at the Wells Fargo 16th Industrials & Materials Conference in Chicago June 9-11 (IR officer David Nark presenting and hosting 1x1s on June 9) - a visibility event, not a fundamental catalyst. Today's +3.0% move appears conference/flow-driven. Last hard datapoints remain the April 22 FY2026 full-year results and the January $100M share repurchase program; no new earnings, guidance, contracts, M&A or capacity announcements found.",
+  "sources": [
+    {
+      "label": "StockTitan - AZZ June investor conferences (Chicago June 9-11, NYC June 10-11)",
+      "url": "https://www.stocktitan.net/news/AZZ/azz-inc-announces-june-investor-conference-aej7os1tuwxa.html"
+    },
+    {
+      "label": "PR Newswire - AZZ Q4 and FY2026 full-year results (April 22, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/azz-inc-reports-fourth-quarter-and-fiscal-year-2026-full-year-results-302750753.html"
+    },
+    {
+      "label": "Investing.com - AZZ $100M share repurchase program (January 2026)",
+      "url": "https://www.investing.com/news/company-news/azz-announces-new-100-million-share-repurchase-program-93CH-4477408"
+    },
+    {
+      "label": "Yahoo Finance - AZZ quote",
+      "url": "https://finance.yahoo.com/quote/AZZ/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Mid-pack rank 26 on a second-derivative power/grid list; +3.0% today on an IR-conference appearance, not new fundamentals, and yesterday's verdict was hold. Incremental rerating (YTD now +29%) without fresh evidence justifies only mild drift down in score, not a rank move.",
+      "bull": "Every AI data center, substation and transmission build needs corrosion-protected steel; AZZ's galvanizing network is the dominant North American footprint and grid capex keeps accelerating.",
+      "neutral": "Thesis intact but unchanged since the April FY2026 print; the stock grinds with grid-capex sentiment and offers second-derivative, not bottleneck, exposure.",
+      "bear": "At +29% YTD and ~6% below its May all-time high, the electrification rerating is increasingly in the price for a $4.2B name with cyclical industrial end markets.",
+      "primaryCatalyst": "Q1 FY2027 earnings (expected early July 2026) and any galvanizing/precoat capacity or volume datapoints tied to data-center and grid construction.",
+      "primaryRisk": "Industrial construction slowdown or steel-volume softness compressing Metal Coatings margins after a full-multiple rerating."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 2,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "At rank 2 on a strict latent-alpha screen, residual asymmetry matters most: the stock has rerated +29% YTD and popped another +3% today purely on investor-conference visibility, with zero new fundamental evidence since June 6. Rerating without evidence erodes the 'latent' claim at the top slot.",
+      "bull": "Hot-dip galvanizing and coil coating remain an unsubstitutable, under-followed layer of physical compute buildout - poles, enclosures, substations, racks of steel - and AZZ is the consolidated US leader.",
+      "neutral": "No thesis-relevant news; the pathway (protective coatings for distributed AI infrastructure) is unchanged, but the market is steadily discovering it, which is exactly what a strict latency screen penalizes.",
+      "bear": "A name up 29% YTD, near all-time highs, with sell-side uniformly at Buy and presenting at major industrials conferences is no longer hidden; further upside requires fundamental beats, not discovery.",
+      "primaryCatalyst": "Early-July Q1 FY2027 results confirming galvanizing volume/mix tailwinds from data-center and grid projects.",
+      "primaryRisk": "Crowding/discovery: the latent-alpha gap closes as electrification investors adopt the name, leaving only cyclical industrial beta at a rerated multiple."
+    }
+  ]
+}

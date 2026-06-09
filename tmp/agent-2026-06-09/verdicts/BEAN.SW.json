@@ -1,0 +1,39 @@
+{
+  "symbol": "BEAN.SW",
+  "company": "Belimo Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - BELIMO Holding AG (BEAN.SW) quote and news",
+      "url": "https://finance.yahoo.com/quote/BEAN.SW/"
+    },
+    {
+      "label": "Yahoo Finance - BEAN.SW analyst ratings and estimates (consensus Hold, ~CHF 914 target)",
+      "url": "https://finance.yahoo.com/quote/BEAN.SW/analysis/"
+    },
+    {
+      "label": "ad-hoc-news - Belimo early-2026 sales momentum (May trading update recap, pre-Jun 6)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/belimo-holding-ag-stock-ch1101098163-early-2026-sales-momentum-puts/69415704"
+    },
+    {
+      "label": "TipRanks - Belimo 2025 growth on data center demand (background, not new)",
+      "url": "https://www.tipranks.com/news/company-announcements/belimo-accelerates-growth-in-2025-on-data-center-demand-and-strategic-expansion"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's down move already repriced the crowding/valuation drag; since June 6 there is no new contract, guidance, or analyst catalyst, and today's -1.3% drift on no news does not change the latent-node setup. Rank 45 with score 68 remains fair.",
+      "bull": "Belimo actuators/valves sit in the data-center thermal chain including direct-to-chip liquid cooling loops, and Jan-Apr 2026 sales grew across regions, so the structural HVAC-for-AI demand story is intact.",
+      "neutral": "A well-known Swiss quality compounder at roughly 60x earnings with consensus Hold near CHF 914; the bottleneck exposure is real but already recognized, leaving limited residual alpha on a latency-weighted list.",
+      "bear": "Valuation leaves no room for a construction-cycle wobble or data-center capex digestion; any slowdown in HVAC retrofit or DC cooling orders compresses the multiple hard from 60x.",
+      "primaryCatalyst": "H1 2026 results / mid-year update quantifying data-center and liquid-cooling-adjacent order momentum.",
+      "primaryRisk": "Multiple compression from ~60x P/E if growth normalizes or data-center HVAC orders pause."
+    }
+  ]
+}

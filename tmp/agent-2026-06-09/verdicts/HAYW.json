@@ -1,0 +1,35 @@
+{
+  "symbol": "HAYW",
+  "company": "Hayward Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockTitan - HAYW Form 4: CEO exercises options, sells 52,389 shares under 10b5-1 plan (Jun 1, 2026 - routine, pre-window)",
+      "url": "https://www.stocktitan.net/sec-filings/HAYW/form-4-hayward-holdings-inc-insider-trading-activity-1b2dd6c156a2.html"
+    },
+    {
+      "label": "Yahoo Finance - How the HAYW investment story is evolving without new analyst guidance (early June 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hayward-holdings-hayw-investment-story-031134014.html"
+    },
+    {
+      "label": "Simply Wall St - Why HAYW is down 8.8% after raising 2026 sales guidance and posting higher Q1 results (context for YTD derating)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-hayw/hayward-holdings/news/why-hayward-holdings-hayw-is-down-88-after-raising-2026-sale/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "No new evidence since June 6 on the latent pathway (pool pumps/controls/filtration adapting to liquid-management and heat-exchange niches); today's +4.15% has no identifiable catalyst and reads as a flow-driven bounce off the post-Q1 derating, which neither validates nor erodes latent optionality. Yesterday's hold stands.",
+      "bull": "A $3.2B, under-owned flow-control franchise with raised FY26 sales guidance, $200M FCF guide and China exposure cut to ~3% of US costs; still -6.8% YTD, so the latent liquid-cooling/heat-exchange option comes nearly free at this price.",
+      "neutral": "Solid Q1 (sales +12%, net income +63%) but the story remains 100% residential pool; no design wins, partnerships or product moves toward data-center or industrial thermal markets, and no analyst target changes - the latent thesis is unproven either way.",
+      "bear": "The pathway is speculative adjacency, not a roadmap: Hayward has shown zero stated intent to enter liquid cooling, the CEO is trimming via 10b5-1, and consumer-discretionary pool demand plus tariff noise dominate the actual earnings driver set.",
+      "primaryCatalyst": "Any concrete move into non-pool liquid-management/heat-exchange applications (product launch, OEM partnership, or commercial/industrial design win), or continued connected-product mix shift confirmed at Q2 earnings.",
+      "primaryRisk": "Thesis stays latent indefinitely while residential pool demand softens or tariff costs re-accelerate, leaving a consumer-cyclical with no AI-chain linkage occupying a slot on the strict screen."
+    }
+  ]
+}

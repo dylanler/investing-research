@@ -1,0 +1,35 @@
+{
+  "symbol": "GURN.SW",
+  "company": "Gurit",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - Gurit Holding AG (GURN.SW) quote and news",
+      "url": "https://finance.yahoo.com/quote/GURN.SW/"
+    },
+    {
+      "label": "Gurit - major long-term supply agreement with leading wind OEM (Jan 2026, pre-window)",
+      "url": "https://www.gurit.com/gurit-announces-major-new-long-term-supply-agreement-with-a-leading-wind-oem/"
+    },
+    {
+      "label": "Stockanalysis.com - Gurit Holding AG overview (next earnings Aug 26, 2026)",
+      "url": "https://stockanalysis.com/quote/swx/GURN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6 and only a -1.5% drift today; yesterday's down move already penalized the +182% YTD rerating against a still-speculative AI-chain pathway, so no new information justifies moving again on this strict latent-node list.",
+      "bull": "Gurit's core-kit composites franchise is re-accelerating (CHF 250M wind OEM agreement, +25% core growth), and its lightweight structural materials expertise remains a credible optionality play for enclosures and advanced manufacturing cells if AI-infrastructure demand for composites materializes.",
+      "neutral": "The turnaround is real but entirely wind/marine-driven; the AI-node thesis remains a qualitative pathway with no disclosed AI-related contract, so the stock trades on its renewables recovery, not the latent-AI case.",
+      "bear": "After a +182% YTD rerating on a $0.2B micro-cap, residual alpha on the AI lens is thin; any wind-demand wobble or OEM volume cut hits hard, and the AI-chain link could simply never convert from 'could support' to revenue.",
+      "primaryCatalyst": "H1 2026 results on Aug 26, 2026, or any first disclosed contract tying Gurit composites to data-center / AI-infrastructure structures.",
+      "primaryRisk": "Post-rerating give-back: a 182% YTD micro-cap run built on wind contracts unwinds quickly if OEM demand softens, with the AI thesis providing no fundamental floor."
+    }
+  ]
+}

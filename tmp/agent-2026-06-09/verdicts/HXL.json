@@ -1,0 +1,35 @@
+{
+  "symbol": "HXL",
+  "company": "Hexcel",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Hexcel at ILA Berlin 2026 (June 10-14, trade-show showcase, promotional)",
+      "url": "https://www.hexcel.com/ila-berlin-2026-hexcel-to-showcase-lightweight-composite-solutions-for-aerospace-defense/"
+    },
+    {
+      "label": "Hexcel/NIAR Applications Center groundbreaking at Wichita State - dated May 28, 2026, pre-window",
+      "url": "https://www.businesswire.com/news/home/20260528966097/en/Hexcel-NIAR-Break-Ground-on-New-Hexcel-Applications-Center-at-Wichita-State-University"
+    },
+    {
+      "label": "Benzinga analyst ratings page - most recent rating actions Jan-Feb 2026, none in June window",
+      "url": "https://www.benzinga.com/quote/HXL/analyst-ratings"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already pushed HXL to 95, in line with its adjusted-score rank of 96, and nothing new since June 6 changes the strict-screen picture: the +1.39% day move is drift and the May 28 Wichita State center and ILA Berlin showcase are aerospace items, not AI-node evidence. Small -1 drift because the 1-yr ~68% aerospace-recovery rally keeps eroding residual alpha to a still-speculative AI pathway.",
+      "bull": "Hexcel is the dominant pure-play in aerospace-grade carbon fiber composites; if AI-era robotics, drones, and edge-compute airframes scale, its materials become a quiet structural bottleneck nobody screens for.",
+      "neutral": "Fundamentals are improving on commercial aerospace recovery (Q1 2026 revenue $501.5M, EPS up YoY), but that is the consensus story; the latent-AI link remains a 'could enable' hypothesis with no design wins tying Hexcel revenue to AI hardware.",
+      "bear": "Stock is up ~68% over 12 months and +17.6% YTD purely on the aero cycle; on a strict AI-nodes screen that is rerating without AI evidence, and any Boeing/Airbus rate stumble hits the equity with zero AI optionality cushion.",
+      "primaryCatalyst": "A concrete composite design win in humanoid robotics, drones, or data-center/aerospace compute structures that converts the latent pathway into bookable revenue.",
+      "primaryRisk": "Commercial aerospace build-rate disappointment unwinding the cycle-driven rally while the AI thesis remains unmonetized."
+    }
+  ]
+}

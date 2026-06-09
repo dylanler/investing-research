@@ -1,0 +1,53 @@
+{
+  "symbol": "CRDO",
+  "company": "Credo Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new material fundamentals since June 6. The major catalysts all pre-date the window: FQ4 FY26 blowout on June 1 (revenue $437M vs guide, EPS $1.16 vs $1.02 est, FY26 revenue $1.34B up ~206% y/y), FQ1 FY27 guide $465-475M with management forecasting >80% y/y FY27 growth, a wave of analyst PT raises June 2 (Mizuho $290, Roth $300, JPMorgan $250, TD Cowen $260), an 8-K granting the CEO a 1.437M-share PSU award tied to $2.5B-$7.5B revenue and $244.70-$489.40 stock-price hurdles, and a Rebellions RebelPOD ZeroFlap AEC design-in. Today's +4.1% (to $231, +61.5% YTD, $38B cap) is continued post-earnings momentum/flow, not new evidence.",
+  "sources": [
+    {"label": "Investing.com - Credo Q4 2026 earnings call transcript (beat, FY27 guide)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-credo-technology-q4-2026-earnings-beat-forecasts-93CH-4720593"},
+    {"label": "StockTitan - 8-K: FY26 revenue triples, CEO performance PSU award", "url": "https://www.stocktitan.net/sec-filings/CRDO/8-k-credo-technology-group-holding-ltd-reports-material-event-2a207a7052ae.html"},
+    {"label": "MarketBeat - CRDO analyst price targets (post-earnings raises to $250-$300)", "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/forecast/"},
+    {"label": "Yahoo Finance - CRDO quote and Q4 2026 earnings call highlights", "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-ltd-050039141.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "This page rewards picks-and-shovels names with smaller market visibility than the megacaps; at rank 1, $38B cap, +61.5% YTD and another +4% today on zero fresh news, CRDO is now fully discovered and consensus-owned (PTs $250-$300), so residual alpha is shrinking even as fundamentals shine.",
+      "bull": "FY26 revenue tripled to $1.34B and management guided >80% growth for FY27; AECs plus DustPhotonics SiPho/CPO optionality keep it the purest scale-out connectivity compounder.",
+      "neutral": "Spectacular execution is now matched by spectacular expectations; the CEO PSU hurdles ($2.5B-$7.5B revenue) telegraph the bull case the market already prices.",
+      "bear": "At ~28x forward sales with 3-4 customers each >10% of revenue, any hyperscaler order digestion or AEC share loss to optics compresses the multiple violently.",
+      "primaryCatalyst": "FQ1 FY27 print (Sept) confirming the >80% FY27 growth path and new 10% customer ramps.",
+      "primaryRisk": "Crowding unwind: post-rerating multiple compression on any guidance wobble or customer-concentration hiccup."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "The crowding penalty was already taken here (rank slid from 21 to 42 and the listing flags 'high multiple after repricing'); no new fundamental or flow information since June 6 justifies double-counting it, and the DustPhotonics SiPho/CPO option remains intact.",
+      "bull": "DustPhotonics gives CRDO a credible SiPho/CPO ramp on top of dominant AEC share, and FY27 >80% growth guidance funds the optical roadmap.",
+      "neutral": "Within a CPO-specific alpha lens CRDO is a cable/DSP company with optionality, not a CPO pure play; the rank already reflects both the quality and the repricing.",
+      "bear": "If CPO adoption accelerates at the switch level, copper AEC content per rack could peak sooner than the multiple assumes.",
+      "primaryCatalyst": "DustPhotonics/SiPho product milestones or a named CPO-adjacent design win following the OFC 2026 portfolio debut.",
+      "primaryRisk": "Revenue concentration plus a premium multiple leave no cushion if a top customer pauses AEC orders."
+    },
+    {
+      "page": "companies",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On the broad network-centrality list the bottleneck exposure (AECs, optical DSPs, scale-out bandwidth) is intact and arguably strengthened by FY27 guidance, but all of that news pre-dates June 6 and the rank already balances it against the $38B cap and 61.5% YTD rerating; today's +4% drift only nudges valuation recognition.",
+      "bull": "Record FY26 ($1.34B, ~206% growth) with >80% FY27 growth guided keeps CRDO among the highest-velocity nodes in AI scale-out connectivity.",
+      "neutral": "Thesis unchanged since the June 1 print; the market has fully internalized the beat via four PT raises, so centrality is high but no longer under-recognized.",
+      "bear": "A $38B company guiding off a $1.34B base is priced for flawless multi-customer execution; one soft quarter resets the YTD gain.",
+      "primaryCatalyst": "New hyperscaler/neocloud AEC qualifications (e.g., more RebelPOD-style turnkey design-ins) broadening the customer base beyond 3-4 whales.",
+      "primaryRisk": "Customer concentration and AEC-to-optics substitution risk at next-gen rack architectures."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "CMI",
+  "company": "Cummins",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only scheduled item is a fireside chat at the Wells Fargo 16th Annual Industrials & Materials Conference today (June 9, 2:15 PM CT) - an appearance, not a catalyst. The data-center power narrative (raised FY2026 guidance to +8-11% revenue, lifted 2030 targets to $45-50B, new 4MW natural-gas data-center engine) all dates to the May Q1 print and is already in the price after a ~110% 1-yr run. Today's -2.19% is routine industrials drift/profit-taking, not fundamental.",
+  "sources": [
+    {"label": "Cummins Investor Relations - events calendar (Wells Fargo conference Jun 9)", "url": "https://investor.cummins.com/"},
+    {"label": "Cummins Q1 2026 results and raised full-year outlook (May)", "url": "https://investor.cummins.com/news/detail/694/cummins-delivered-strong-operating-results-and-returned"},
+    {"label": "Simply Wall St - CMI valuation after higher 2030 guidance and new data center power engine", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-cmi/cummins/news/a-look-at-cummins-cmi-valuation-after-higher-2030-guidance-a"},
+    {"label": "Motley Fool - Cummins helping power AI data centers (May 28)", "url": "https://www.fool.com/investing/2026/05/28/this-boring-industrial-stock-is-helping-power-ai/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 64: no new evidence since June 6 and yesterday's hold stands; the -2.2% pullback marginally improves entry asymmetry but on a crowding-sensitive alpha page a $91B, +110% 1-yr, well-publicized AI power name already sits correctly in the Monitor/benchmark bucket far from the passive/power bottleneck core.",
+      "bull": "Power Systems is the company's growth engine with record sales on data-center backup demand, raised FY26 guidance (+8-11% revenue, 17.75-18.5% EBITDA) and a new 4MW gas engine aimed squarely at data-center prime power.",
+      "neutral": "Quality industrial with genuine AI-adjacent exposure, but the rerating has happened (+26% YTD, ~110% 1-yr) and the data-center story is now consensus; today's fireside chat is unlikely to add new information.",
+      "bear": "Mega-cap, fully discovered, and only partially exposed to data centers (legacy truck engines still dominate); crowded passive ownership and a cyclical on-highway core mean limited residual alpha and downside if AI capex digestion hits genset orders.",
+      "primaryCatalyst": "Large prime-power/gas-engine data-center orders or further Power Systems-led guidance raises in H2 2026.",
+      "primaryRisk": "Post-rerating multiple compression if data-center genset order momentum slows or the on-highway truck cycle rolls over."
+    }
+  ]
+}

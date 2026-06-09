@@ -1,0 +1,39 @@
+{
+  "symbol": "BFSA.DE",
+  "company": "Befesa",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Befesa investors agenda (AGM June 16, 2026; ex-dividend June 17)",
+      "url": "https://www.befesa.com/investors/investors-agenda/"
+    },
+    {
+      "label": "TradingView/EQS - Invitation to the Annual General Meeting on 16 June 2026",
+      "url": "https://www.tradingview.com/news/eqs:a6513d624094b:0-invitation-to-the-annual-general-meeting-on-16-june-2026/"
+    },
+    {
+      "label": "EQS - Befesa Q1 2026: adj. EBITDA +4% YoY to EUR 58m, FY guide EUR 250-270m (already known, pre-June 6)",
+      "url": "https://www.eqs-news.com/news/corporate/befesa-achieves-solid-q1-with-adjusted-ebitda-4-yoy-to-e58m-and-net-profit-11-and-expects-full-year-ebitda-between-e250m-and-e270m/72a29f82-7213-4afc-9741-249f52f99cc2"
+    },
+    {
+      "label": "Yahoo Finance quote BFSA.DE",
+      "url": "https://finance.yahoo.com/quote/BFSA.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental information since June 6; today's -3.5% drift (likely zinc/flow noise ahead of the June 16 AGM and June 17 EUR 1.00 ex-dividend) leaves the latent metals-circularity node intact and marginally cheaper, so rank 7 holds with a small asymmetry credit.",
+      "bull": "Under-owned EUR 1.7B steel-dust/zinc recycler with FY26 EBITDA guided to EUR 250-270m, US capacity expansion, and zinc hedging that smooths the cycle; any AI-era metals-circularity demand is pure optionality the market is not paying for.",
+      "neutral": "Q1 beat with below-consensus guidance is already digested; YTD +14.5% is moderate, and the stock sits in a EUR 33-42 analyst band - fairly priced for a hold until a concrete AI-adjacent demand signal appears.",
+      "bear": "The AI linkage is the weakest on this page - Befesa is fundamentally a zinc-price and steel-utilization play, and a soft European steel cycle or falling zinc prices would erode EBITDA regardless of any AI build-out narrative.",
+      "primaryCatalyst": "June 16 AGM capital-allocation update plus EUR 1.00 dividend (ex June 17); medium term, US steel-dust capacity ramp and zinc price strength.",
+      "primaryRisk": "Zinc price weakness or European steel production cuts compressing EBITDA, exposing the tenuous AI-thesis linkage."
+    }
+  ]
+}

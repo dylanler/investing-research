@@ -1,0 +1,28 @@
+{
+  "symbol": "AIP",
+  "company": "Arteris",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. June 9's -5.6% pullback looks flow-driven: profit-taking near 52-week highs after a +113% YTD run, amplified by June 8 retail coverage of director 10b5-1 sales (Raza ~$779k on June 3, Viana ~$761k on June 4 - pre-planned, not signal). Last real catalysts (record Q1 ACV+royalties $92.8M +39% y/y; MIPS FlexGen collaboration) all pre-date June 6.",
+  "sources": [
+    {"label": "StockTitan - Arteris (AIP) news feed", "url": "https://www.stocktitan.net/news/AIP/"},
+    {"label": "Motley Fool - Arteris director sold over 20,000 shares (June 8, 2026)", "url": "https://www.fool.com/coverage/filings/2026/06/08/an-arteris-director-sold-over-20-000-company-shares-what-does-that-mean-for-investors/"},
+    {"label": "Investing.com - Arteris director Antonio Viana sells $760,879 in stock", "url": "https://www.investing.com/news/insider-trading-news/arteris-director-antonio-viana-sells-760879-in-company-stock-93CH-4729370"},
+    {"label": "Investing.com - Arteris director Atiq Raza sells $779k in stock", "url": "https://www.investing.com/news/insider-trading-news/arteris-director-atiq-raza-sells-779k-in-company-stock-93CH-4727734"},
+    {"label": "Yahoo Finance - AIP quote", "url": "https://finance.yahoo.com/quote/AIP/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 16: no new fundamental evidence since yesterday's hold, and the -5.6% flow-driven dip (profit-taking plus 10b5-1 insider-sale headlines) with the on-chip interconnect/NoC complexity-scaling thesis fully intact marginally improves entry asymmetry rather than degrading it. Not sharp enough, and the name is too discovered post-rerating (+113% YTD, ~380% 1-yr), to justify moving up.",
+      "bull": "NoC interconnect IP is a per-chip complexity toll on every large AI SoC; record Q1 ACV+royalties of $92.8M (+39% y/y) and the MIPS FlexGen tie-up show design-win momentum, and a 5.6% pullback on zero news is a cheaper entry into an intact thesis.",
+      "neutral": "At ~$1.5B cap after a +113% YTD rerating the hidden-bottleneck discount has largely been paid; royalty ramp must now outrun an already-rerated multiple, so drift until the next design-win or earnings datapoint.",
+      "bear": "Post-380% 1-yr run the name is crowded for its size; clustered director selling near the highs and a richly valued, still small-revenue base ($22.9M/quarter) leave plenty of air below if AI SoC license activity decelerates.",
+      "primaryCatalyst": "Q2 earnings / next ACV-plus-royalties print and incremental AI-silicon design wins (FlexGen adoption following the MIPS collaboration).",
+      "primaryRisk": "Multiple compression in a crowded small-cap AI trade; license/royalty growth deceleration would hit a stock priced for continued 35-40% growth."
+    }
+  ]
+}

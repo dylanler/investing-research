@@ -1,0 +1,40 @@
+{
+  "symbol": "MOD",
+  "company": "Modine Manufacturing",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. The thesis-relevant items all predate the window: May 26 FQ4 record results (net sales $954.4M, +47% y/y), the same-day landmark $4B Airedale data-center capacity agreement (2027-2029, $165M upfront) plus Performance Technologies divestiture announcement, and sell-side PT raises (KeyBanc $370 on May 27, Roth $341 on June 1). Since June 6 the stock has simply continued a flow-driven consolidation, now roughly 10% below its early-June high (~$302 on June 3 vs $270.95 today, -1.56% on the day) with the cooling-demand thesis intact.",
+  "sources": [
+    {"label": "PR Newswire - Modine $4B Airedale long-term capacity agreement (dated May 26, 2026)", "url": "https://www.prnewswire.com/news-releases/modine-announces-landmark-4-billion-long-term-capacity-agreement-through-2029-with-strategic-data-center-customer-for-airedale-by-modine-cooling-solutions-302779610.html"},
+    {"label": "Yahoo Finance - MOD best single-day gain on $4B data center deal", "url": "https://finance.yahoo.com/markets/stocks/articles/mod-stock-track-best-single-125339245.html"},
+    {"label": "SEC 8-K - Modine FQ4 2026 results (May 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000067347/000110465926066291/mod-20260526xex99d1.htm"},
+    {"label": "StockInvest.us - MOD price action early June 2026", "url": "https://stockinvest.us/stock/MOD"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 45: no new fundamental information since June 6, and yesterday's hold stands. The ~10% drift off the early-June high with the $4B contracted backlog intact marginally improves asymmetry (+1), but the name remains a fully rerated, well-covered crowding case (+92% YTD, multiple PT raises), so it stays in the rerated-benchmark bucket rather than recovering residual-alpha rank.",
+      "bull": "Contracted $4B Airedale backlog through 2029 with $165M prepaid gives revenue visibility almost no mid-cap cooling peer has; a 10% pullback on no news is a better entry into the same thesis.",
+      "neutral": "Everything bullish is already public and priced after the May 26 double announcement; the stock chops sideways while FY27 estimates catch up to the new pure-play climate-solutions profile.",
+      "bear": "Post-rerating mid-caps with +92% YTD and crowded hyperscaler-cooling narratives de-rate hard on any capex digestion headline (the January CES-driven -21% intraday air pocket showed the flow fragility), and the PT divestiture adds execution noise.",
+      "primaryCatalyst": "Additional long-term capacity agreements with other hyperscale customers or detail on Performance Technologies divestiture proceeds.",
+      "primaryRisk": "AI capex digestion or cooling-efficiency headlines triggering multiple compression on a crowded, fully rerated name."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold at 54: node centrality in data-center thermal is unchanged and no new information since June 6 alters the recognition picture - the $4B agreement and FQ4 results that cemented Modine as a recognized (not latent) cooling node are pre-window, and yesterday's hold already reflected them.",
+      "bull": "Guaranteed multi-year hyperscaler capacity commitment confirms Modine as a genuine supply-chain node, not just a narrative beneficiary, and the divestiture sharpens it into a pure-play climate/cooling asset.",
+      "neutral": "High relevance but low hiddenness: the market fully recognizes the cooling leverage, so remaining alpha is execution-driven (capacity ramp, margins on the Airedale agreement), consistent with the page's medium conviction.",
+      "bear": "If liquid-cooling architectures shift toward designs that bypass Airedale-style CRAH/chiller systems, or the anchor customer slows the 2027-2029 drawdown schedule, the contracted backlog is worth less than headline value.",
+      "primaryCatalyst": "Execution proof points on the $4B agreement ramp and any follow-on long-term customer agreements.",
+      "primaryRisk": "Cooling-technology mix shift or single-customer concentration in the capacity agreement."
+    }
+  ]
+}

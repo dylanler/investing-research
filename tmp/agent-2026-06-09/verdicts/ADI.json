@@ -1,0 +1,54 @@
+{
+  "symbol": "ADI",
+  "company": "Analog Devices",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. The two big catalysts - record fiscal Q2 FY26 results (revenue $3.62B, above high end of guide) and the $1.5B all-cash acquisition of Empower Semiconductor for AI data-center high-density power - were announced May 19-20 and already drove the +5.1% (Jun 2) / +3.3% (Jun 3) rerating to ~$423. Since June 6 the tape is sell-the-news drift: -1.5% today tracking a ~3% tech-equipment sector down day, plus insider-selling optics (CEO Roche sold 10k shares at $404.25 and SVP Cotter 17,594 shares at $418 in early June under option exercises, ~$14.6M sold over 3 months). No analyst rating changes since Wells Fargo's May 13 $470 target. Flow-driven pullback, thesis intact.",
+  "sources": [
+    {"label": "TradingKey - ADI down on Jun 9, facts behind the move", "url": "https://www.tradingkey.com/news/market-movers/261956390-market-movers-adi-20260609"},
+    {"label": "ADI press release - Empower Semiconductor $1.5B acquisition (May 19, 2026)", "url": "https://www.analog.com/en/newsroom/press-releases/2026/5-19-2026-adi-to-acquire-empower-semiconductor.html"},
+    {"label": "PR Newswire - ADI record fiscal Q2 2026 results", "url": "https://www.prnewswire.com/news-releases/analog-devices-reports-record-fiscal-second-quarter-2026-financial-results-302776884.html"},
+    {"label": "StockTitan - SVP Form 4 insider sale", "url": "https://www.stocktitan.net/sec-filings/ADI/form-4-analog-devices-inc-insider-trading-activity-f4680eb2acfa.html"},
+    {"label": "Benzinga - ADI analyst ratings (no moves since May 13)", "url": "https://www.benzinga.com/quote/ADI/analyst-ratings"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On a residual-alpha list, a $197B mega-cap with Buy consensus, +45% YTD and a post-earnings rerating already in the tape has little hidden alpha left; but the ~6% fade from the June 2 peak with the Empower AI-power thesis intact offsets, so hold at 38 with mild drift down.",
+      "bull": "Empower adds vertical/integrated power delivery for AI accelerators - exactly the power-monitoring and signal-chain central-node thesis - and Q2 beat across all end markets shows the cycle has turned up.",
+      "neutral": "Both catalysts are three weeks old and fully priced; since June 6 the stock has simply drifted down with the sector, leaving rank and score roughly right.",
+      "bear": "57x trailing P/E, $14.6M of insider selling near the highs, and broad sell-side ownership mean ADI is now a consensus quality name, not an under-owned alpha source.",
+      "primaryCatalyst": "Empower Semiconductor close in 2H26 and first design-win disclosures in AI data-center power delivery.",
+      "primaryRisk": "Crowding plus valuation: any industrial-cycle wobble or AI-capex digestion compresses a 57x multiple fast."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed ADI down 62->76 on the post-rerating crowding argument; nothing new since June 6 and today's -1.5% is sector-driven, so re-moving would be double-counting.",
+      "bull": "Empower makes ADI more direct to the AI power-delivery node than the legacy 'analog/power/RF' tier tag implies, and Q2 communications strength confirms data-center content growth.",
+      "neutral": "Exposure remains selective and less direct than HBM, advanced packaging or CPO names; rank 76 already reflects that after yesterday's demotion.",
+      "bear": "ADI is still predominantly an industrial/auto analog franchise riding a cyclical recovery; the AI node share of revenue is too small to justify climbing this list.",
+      "primaryCatalyst": "Evidence that Empower's integrated voltage regulators win sockets next to AI accelerators (power-density bottleneck).",
+      "primaryRisk": "Less direct bottleneck exposure than peers means it de-rates with the sector without the offsetting AI revenue torque."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 102,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already cut it 86->102 on the no-early-CPO-exposure argument; no CPO-relevant news since June 6, so hold at 102 rather than compounding the move.",
+      "bull": "If co-packaged optics drives power-density pain inside the rack, ADI/Empower power delivery becomes an adjacent beneficiary even without direct CPO content.",
+      "neutral": "Quality analog franchise, but the CPO lens is the wrong one for ADI; rank near the bottom of this list is appropriate and unchanged by this week's tape.",
+      "bear": "Zero direct optical/CPO exposure plus industrial-cycle risk at 57x earnings makes ADI dead weight on a CPO alpha list.",
+      "primaryCatalyst": "Any disclosed power-delivery attach to CPO switch or optical-engine programs.",
+      "primaryRisk": "Industrial cycle rollover with no CPO optionality to cushion the multiple."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "6754.T",
+  "company": "Anritsu",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investing.com - Anritsu shares rise 5.8% on stronger fiscal 2026 guidance (late-April event, pre-window)",
+      "url": "https://www.investing.com/news/earnings/anritsu-shares-rise-58-on-stronger-fiscal-2026-guidance-93CH-4640526"
+    },
+    {
+      "label": "Yahoo Finance - Anritsu Corporation (6754.T) quote",
+      "url": "https://finance.yahoo.com/quote/6754.T/"
+    },
+    {
+      "label": "Anritsu - optical transceiver test solutions (10G-1.6T)",
+      "url": "https://www.anritsu.com/en-us/test-measurement/solutions/optical-photonic-devices/optical-transceivers-testing"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved Anritsu down for the +87% YTD rerating; no new fundamental evidence has emerged since June 6 and today's +0.28% drift changes nothing, so hold at rank 57 with mild residual-alpha decay.",
+      "bull": "FY2026 guidance (OP Y20B vs Y17.8B consensus) and a backlog up 40% confirm the 800G/1.6T optical-transceiver and PCIe 7.0 test cycle is real, and at ~$3.7B market cap Anritsu remains a small, picks-and-shovels way to play AI interconnect validation.",
+      "neutral": "The design-validation thesis is intact but already priced for strong execution; with no fresh design wins or orders disclosed since June 6, the stock is in digestion mode after the guidance-driven rerating.",
+      "bear": "An 87% YTD run on a cyclical test-and-measurement name leaves little hidden alpha; mobile/5G softness still drags the core, and any slip in transceiver test demand or T&M margin would unwind the rerating quickly.",
+      "primaryCatalyst": "Q1 FY2026 results and order intake (July) confirming transceiver-test momentum against the 24% T&M growth assumption.",
+      "primaryRisk": "Crowding/rerating risk: guidance is now the bar, so any moderation in AI datacenter test orders or hyperscaler capex digestion hits a stock priced for acceleration."
+    }
+  ]
+}

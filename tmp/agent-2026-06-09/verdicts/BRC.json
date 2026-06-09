@@ -1,0 +1,28 @@
+{
+  "symbol": "BRC",
+  "company": "Brady",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "CEO transition announced June 8, 2026: Vineet Nargolwala (ex-Allegro MicroSystems CEO, ex-Sensata EVP Sensing Solutions, 9+ years Honeywell; Brady board member since Feb 2022) succeeds 11-year veteran Russell Shaller, who consults through Aug 1. The surprise drove a ~7.5% sell-off on June 8; today's +2.95% to $77.50 is a partial flow-driven recovery, not new fundamentals. Backdrop intact: record FQ3 adjusted EPS with FY26 guidance raised to $5.20-5.30 (May 18) and pending $1.4B Honeywell PSS acquisition (closing 2H CY2026).",
+  "sources": [
+    {"label": "GlobeNewswire - Brady Corporation Announces CEO Transition (Jun 8, 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/08/3307951/0/en/Brady-Corporation-Announces-CEO-Transition.html"},
+    {"label": "GuruFocus - Brady (BRC) Sees a 7.5% Drop in Stock Price", "url": "https://www.gurufocus.com/news/8905468/brady-brc-sees-a-75-drop-in-stock-price"},
+    {"label": "GlobeNewswire - Brady FQ3 2026 record adjusted EPS, raised FY26 guidance (May 18, 2026)", "url": "https://www.globenewswire.com/news-release/2026/05/18/3296475/0/en/Brady-Corporation-Reports-Record-Adjusted-EPS-in-its-Fiscal-2026-Third-Quarter-and-Raises-its-Fiscal-2026-Adjusted-EPS-Guidance.html"},
+    {"label": "Allegro MicroSystems - Vineet Nargolwala bio", "url": "https://investors.allegromicro.com/board-member-management/vineet-nargolwala"},
+    {"label": "StockTitan - Brady Corporation taps Vineet Nargolwala as CEO", "url": "https://www.stocktitan.net/news/BRC/brady-corporation-announces-ceo-ab73vi609mve.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 4,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Sharp June 8 CEO-transition sell-off with the asset-ID/safety thesis fully intact improves asymmetry on a latent-alpha screen, and the incoming CEO's sensing/semis pedigree (Allegro, Sensata, Honeywell) plus board continuity actually tilts Brady further toward the industrial-AI/robotics direction this page rewards. Yesterday's hold predates the CEO news, so this is genuinely new information, not a re-trade.",
+      "bull": "A sensing-industry CEO who ran Allegro MicroSystems and knows Honeywell from the inside de-risks the $1.4B PSS integration and could accelerate Brady's pivot toward asset tracking for dense robotic/data-center operations; entry is cheaper post-selloff with YTD now -1.5% on a name that just raised FY26 EPS guidance.",
+      "neutral": "CEO change plus a large pending acquisition is a lot of simultaneous transition for a $3.5B industrial; fundamentals are unchanged since the May 18 beat-and-raise, and today's +3% only partially retraces the June 8 drop.",
+      "bear": "The market read the surprise departure of an 11-year CEO mid-deal as elevated execution risk; if PSS integration stumbles under new leadership, the AI-adjacent optionality in the thesis stays speculative while core label demand remains GDP-ish.",
+      "primaryCatalyst": "Honeywell PSS acquisition close in 2H CY2026 and the new CEO's first strategic framing (FQ4/FY26 results, September 2026).",
+      "primaryRisk": "Leadership-transition execution risk during a $1.4B integration; thesis remains indirect AI exposure rather than a proven design-win pipeline."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "ITRI",
+  "company": "Itron",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Itron Publishes 2025 Corporate Sustainability Report (Jun 3, 2026 - pre-cutoff)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306066/0/en/Itron-Publishes-2025-Corporate-Sustainability-Report.html"
+    },
+    {
+      "label": "Itron to deploy 10,000 smart water meters in Corsica (Jun 2, 2026 - pre-cutoff)",
+      "url": "https://www.stocktitan.net/news/ITRI/corsica-utility-to-support-its-conservation-goals-with-itron-s-smart-gzoebzou15bc.html"
+    },
+    {
+      "label": "ITRI analyst ratings and price targets - last action Stephens $130 PT on May 20, 2026; nothing new in June",
+      "url": "https://public.com/stocks/itri/forecast-price-target"
+    },
+    {
+      "label": "Itron investor relations (no new releases since Jun 6)",
+      "url": "https://investors.itron.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6 and today's -0.26% tape is noise, so nothing justifies moving again after yesterday's hold. On the latent-nodes lens the setup quietly improves at the margin: -13.6% YTD with the grid-telemetry thesis fully intact (Corsica AMI win Jun 2, sell-side PTs $118-136 vs $81.59) keeps the asymmetry favorable with zero crowding.",
+      "bull": "AI datacenter load growth forces utilities into demand response and granular grid visibility, and Itron's installed endpoint base plus its grid-edge intelligence software are the cheapest existing rails for that; consensus targets sit 45-65% above spot on an under-owned $3.6B name.",
+      "neutral": "Steady but routine AMI bookings (Corsica-type wins) and a clean balance sheet; the stock likely chops sideways until backlog conversion or a marquee grid-AI contract proves reacceleration.",
+      "bear": "Itron is still a meter vendor at heart: utility capex timing slips, AMI replacement cycles lengthen, and the AI-power narrative accrues to generation and electrical-equipment names rather than telemetry, leaving ITRI a low-growth industrial.",
+      "primaryCatalyst": "A large utility AMI/grid-edge intelligence award or Q2 earnings (late July) showing bookings reacceleration tied to datacenter-driven grid spend.",
+      "primaryRisk": "Continued utility order-timing slippage keeping the stock dead money despite the intact thesis."
+    }
+  ]
+}

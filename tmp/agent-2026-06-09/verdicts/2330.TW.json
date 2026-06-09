@@ -1,0 +1,27 @@
+{
+  "symbol": "2330.TW",
+  "company": "TSMC",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "ADR whipsaw: TSM +3.8% Jun 8 on AI demand/2nm yield momentum, then -4.1% Jun 9 after bipartisan US senators urged stricter export rules to block advanced chips reaching Chinese subsidiaries abroad; Taiwan shares only +0.44% today. AGM (Jun 4) backdrop still echoing: CEO C.C. Wei said it will be 'a long time' before TSMC can meet customer demand but pledged stable pricing (no hikes); 2026 revenue guided above +30% USD. May monthly revenue due ~Jun 12.",
+  "sources": [
+    {"label": "TradingKey - TSM -4.10% on Jun 9 (senator export-rule push)", "url": "https://www.tradingkey.com/news/market-movers/261956323-market-movers-tsm-20260609"},
+    {"label": "TradingKey - TSM +3.78% on Jun 8 (AI demand, 2nm yields)", "url": "https://www.tradingkey.com/news/market-movers/261953282-market-movers-tsm-20260608"},
+    {"label": "Tom's Hardware - Wei: long time before we can meet customer demand; stable pricing", "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes"},
+    {"label": "TSMC investor relations - financial calendar (May revenue ~Jun 12)", "url": "https://investor.tsmc.com/english/financial-calendar"}
+  ],
+  "verdicts": [
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Rank 3 still fits the silicon-basket bottleneck role: Wei's undersupply reiteration confirms the manufacturing-chokepoint thesis, but the new US senator export-rule push and a no-price-hike pledge add regulatory noise and cap margin upside on a crowded ~$1.94T mega-cap with no fresh residual alpha.",
+      "bull": "Structurally sold out at the leading edge with the CEO saying demand cannot be met 'for a long time'; 2026 revenue guided above +30% USD with 2nm ramping at strong yields - the purest manufacturing bottleneck in the silicon basket.",
+      "neutral": "Local shares drifted +0.44% while the ADR whipsawed on Washington headlines; no new fundamentals since the AGM, and the May revenue print on ~Jun 12 is the next real data point.",
+      "bear": "Bipartisan export-control tightening on chips reaching Chinese subsidiaries could clip a revenue tail; +45% YTD on a $1.94T mega-cap means the bottleneck is fully consensus, and stable-pricing pledges forgo the pricing-power upside the thesis implies.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~Jun 12) confirming the >30% USD growth trajectory.",
+      "primaryRisk": "US export-control escalation (senator push on Chinese subsidiaries abroad) compressing the China-exposed revenue tail and multiple."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "ETN",
+  "company": "Eaton",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific news since June 6. Key development is price action: ETN fell 5.19% on June 5 with no identifiable company catalyst (coverage flags it as flow/sector-driven), and slipped another 1.92% on June 9 to $395.40, compressing YTD from ~28% to 20.8%. Fundamental thesis intact: May 5 Q1 showed record results, data center orders +240% YoY, Electrical Americas orders +60%, and FY26 organic growth guidance raised to 9-11% with EPS guide $13.05-$13.50.",
+  "sources": [
+    {"label": "TradingKey - ETN closed down 5.19% on Jun 5, no company catalyst", "url": "https://www.tradingkey.com/news/market-movers/261950356-market-movers-etn-20260605"},
+    {"label": "StockTitan ETN news feed - no press releases Jun 5-9; May 5 record Q1, raised guidance", "url": "https://www.stocktitan.net/news/ETN/"},
+    {"label": "Investing.com - Eaton Q1 2026 slides: record orders, data center orders +240%", "url": "https://www.investing.com/news/company-news/eaton-q1-2026-slides-record-orders-offset-by-margin-pressure-93CH-4660339"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 14,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "This page explicitly balances bottleneck exposure against YTD rerating; that rerating just compressed (~7% drawdown since June 5, YTD 28% -> 20.8%) on zero negative fundamental news, so residual asymmetry on the grid/switchgear bottleneck thesis improved. Yesterday's hold was written against the stale 28.1% YTD figure, making the flow-driven de-rating genuinely new information.",
+      "bull": "Data center orders +240% YoY and Electrical Americas orders +60% with raised FY26 organic growth guidance (9-11%) confirm Eaton sits on the scarce grid-interconnection/switchgear bottleneck; the catalyst-free pullback offers a better entry into an unchanged thesis.",
+      "neutral": "A $151B mega-cap with consensus Buy ratings and a $447 average target is hardly under-owned; a 7% dip only partially unwinds a multi-year rerating, so this stays a measured bottleneck holding rather than a hidden alpha name.",
+      "bear": "Margin compression from aggressive capacity expansion and AI data-center customer concentration mean the order book is hostage to hyperscaler capex; if AI buildout pacing wobbles, a crowded compounder de-rates much further than 7%.",
+      "primaryCatalyst": "Q2 2026 earnings (late July/early August) confirming continued data center order momentum and Electrical Americas margin recovery against the raised 9-11% organic growth guide.",
+      "primaryRisk": "Hyperscaler capex digestion or AI-buildout pacing fears hitting the crowded electrical-equipment complex, compounding margin pressure from factory ramp costs."
+    }
+  ]
+}

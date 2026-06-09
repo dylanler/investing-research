@@ -1,0 +1,35 @@
+{
+  "symbol": "084370.KQ",
+  "company": "Eugene Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific catalyst found. The +13.8% move on June 9 (intraday ~147,400 KRW) extends a sector-wide rotation rally into Korean front-end chip-equipment names that began around June 4, as buying momentum rotated out of Samsung/SK hynix into deposition/etch/clean equipment makers on HBM, next-gen DRAM and higher-stack NAND capex expectations. No new order disclosure or earnings event on DART. Context: KRX designated the stock an 'investment warning' issue on May 11, 2026, flagging speculative overheating.",
+  "sources": [
+    {
+      "label": "Seoul Economic Daily - Chip equipment stocks surge as Samsung, SK hynix take a breather (Jun 4, 2026)",
+      "url": "https://en.sedaily.com/finance/2026/06/04/chip-equipment-stocks-surge-as-samsung-sk-hynix-take-a"
+    },
+    {
+      "label": "Yahoo Finance - Eugene Technology (084370.KQ) quote",
+      "url": "https://finance.yahoo.com/quote/084370.KQ/"
+    },
+    {
+      "label": "Daum Finance disclosure - investment warning stock designation (May 11, 2026)",
+      "url": "https://m.finance.daum.net/quotes/A084370/news/disclosure/20260511055636"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 37,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On a wafer-fab-equipment alpha list, a +13.8% single-day spike on rotational flow with zero new orders or guidance, stacked on +72% YTD and a May KRX investment-warning designation, consumes residual alpha rather than confirming the thesis; yesterday's hold is overridden by today's price action, not by news.",
+      "bull": "Eugene Tech's LPCVD/ALD and selective-epi tools are genuinely levered to the HBM4, next-gen DRAM and high-stack NAND capex cycle, and Korean chipmakers' 2026 equipment outlays are set to outpace Taiwan; orders could still validate the rerating.",
+      "neutral": "The bottleneck thesis is intact but increasingly priced: the market is front-running deposition/etch/clean earnings improvement before order disclosures arrive, so the stock marks time until DART order filings or Q2 results confirm.",
+      "bear": "A flow-driven melt-up in a $2B KOSDAQ name already flagged as an investment-warning stock unwinds fast if Samsung/SK hynix capex timing slips or the rotation reverses; export-control and order-timing risk in the original thesis remain unresolved.",
+      "primaryCatalyst": "DART order-win disclosures from Samsung/SK hynix tied to HBM4 and next-gen DRAM front-end capacity additions",
+      "primaryRisk": "Reversal of the speculative equipment-sector rotation; the stock gives back the June spike with no fundamental floor established at the new price"
+    }
+  ]
+}

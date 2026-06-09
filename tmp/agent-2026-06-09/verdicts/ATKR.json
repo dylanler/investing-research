@@ -1,0 +1,27 @@
+{
+  "symbol": "ATKR",
+  "company": "Atkore",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news strictly since June 6. Most recent item is the June 3-4 8-K: a $50M settlement with End User Plaintiffs resolving the last leg of the PVC pipe antitrust litigation (total settlements ~$136.5M, funded from cash, booked as non-operating expense in the quarter ending June 26, 2026). That removes the final legal overhang but predates the window and was already in the price before yesterday's verdict. No new earnings, contracts, M&A, or analyst actions since June 6; today's -0.75% move is noise.",
+  "sources": [
+    {"label": "Atkore 8-K dated 2026-06-04 (End User Plaintiff settlement)", "url": "https://www.sec.gov/Archives/edgar/data/0001666138/000166613826000014/atkr-20260604.htm"},
+    {"label": "Investing.com - Atkore settles final antitrust suit for $50 million", "url": "https://www.investing.com/news/analyst-ratings/atkore-stock-settles-final-antitrust-suit-for-50-million-93CH-4727087"},
+    {"label": "Simply Wall St - Atkore antitrust settlement and capital priorities", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-atkr/atkore/news/does-atkores-antitrust-settlement-strategy-quietly-redefine"},
+    {"label": "Motley Fool - Atkore Q2 FY2026 earnings transcript (May 5)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/atkore-atkr-q2-2026-earnings-transcript/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already reconciled the adjusted-score rank; nothing genuinely new since June 6 justifies moving again. Small +1 drift credit because the June 3-4 settlement definitively closed the PVC antitrust tail risk on a $2.9B name, marginally cleaning up the latent-node setup without any rerating today (-0.75% on the day).",
+      "bull": "All PVC antitrust claims are now settled and cash-funded, removing the last discrete legal overhang; first positive YoY pricing in 13 quarters plus mid-single-digit volume growth from data centers and solar gives a cleaner, simplified post-divestiture story at a still-compressed multiple.",
+      "neutral": "Q2 beat and guidance ($2.9-2.95B sales, $5.05-5.55 adj EPS) are a month old and already reflected; at +23% YTD and rank 32 the residual alpha is modest, and the conduit business remains a price-taker on PVC/steel inputs.",
+      "bear": "The $50M settlement is a real cash outflow booked this quarter, pricing gains are commodity-pass-through rather than structural, and any nonres construction or solar slowdown hits volumes fast; the YTD run has already harvested part of the normalization-recovery thesis.",
+      "primaryCatalyst": "Q3 FY2026 earnings (early August) confirming sustained positive pricing and data-center/solar volume momentum post-settlement.",
+      "primaryRisk": "Renewed PVC/steel conduit price deflation or nonresidential construction softness reversing the first positive pricing quarter in 13."
+    }
+  ]
+}

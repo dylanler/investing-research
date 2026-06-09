@@ -1,0 +1,26 @@
+{
+  "symbol": "600703.SS",
+  "company": "Sanan Optoelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific material announcements found since June 6. Today's +5.17% move (CNY 16.45 -> 17.30) appears flow-driven, riding the ongoing A-share CPO/InP optical-chip thematic rally; nearest dated catalyst is a June 3 investor-platform statement that Sanan supplies CW light sources, EML and Micro LED optical chips for CPO and has Micro LED products at head customers for module-assembly validation, which predates the window and is already in the price.",
+  "sources": [
+    {"label": "Stockstar (Jun 3, 2026): Sanan Micro LED products sampled to leading domestic/overseas firms for module validation", "url": "https://wap.stockstar.com/detail/IG2026060300032594"},
+    {"label": "CLS.cn: InP as key optical-communication material, beneficiary list incl. Sanan", "url": "https://www.cls.cn/detail/1608994"},
+    {"label": "Yahoo Finance quote 600703.SS", "url": "https://finance.yahoo.com/quote/600703.SS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 66,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive CPO alpha page, a +5.17% flow-driven pop with zero new fundamental evidence since June 6 further erodes residual alpha; the name is now a well-flagged retail CPO/InP theme (hype notes touting CNY 160 targets), not an under-discovered node, extending yesterday's demotion.",
+      "bull": "Only domestic platform spanning GaAs/GaN/SiC/InP from substrate to chip; if Micro LED CPO light-source claims (3-5W at 800G, 60-70% power savings vs silicon photonics) convert to design wins amid a >50% InP supply gap, it becomes a genuine localization bottleneck.",
+      "neutral": "Thesis is intact but consensus in A-share flows; CPO chip revenue is still unproven against an LED-heavy legacy mix, so the stock trades on narrative beta until customer validation converts to orders.",
+      "bear": "Micro LED CPO validation stalls or loses to silicon photonics incumbents, LED/SiC pricing stays cyclical, and the 20% YTD rerating unwinds on a thematic flow reversal with no earnings support.",
+      "primaryCatalyst": "Confirmed CPO/optical-chip design win or volume order (EML/CW light source) from a major optical-module or switch customer, or InP capacity-expansion economics showing in H1 results.",
+      "primaryRisk": "Flow-driven CPO theme unwind in A-shares plus single-bundle validation risk: Micro LED CPO samples fail module qualification, leaving valuation re-rated without fundamental delivery."
+    }
+  ]
+}

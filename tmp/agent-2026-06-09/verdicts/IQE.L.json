@@ -1,0 +1,28 @@
+{
+  "symbol": "IQE.L",
+  "company": "IQE plc",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new RNS or material company news since June 6 (latest filings: June 3 AGM notice/annual report and routine holdings disclosures). Today's -8.8% to 41.25p appears flow-driven: profit-taking on a +700% YTD rerating plus supply overhang from the just-completed GBP 81M fundraise (332.2M new shares admitted ~June 1, placed/subscribed at 19.8p, incl. GBP 30M MACOM strategic subscription), leaving placees on >100% instant gains. Fundamental backdrop unchanged: FY25 revenue GBP 97.3M (-17.6%, wireless -40% vs photonics +15% on AI/data-centre InP demand), guidance for >20% revenue growth in 2026.",
+  "sources": [
+    {"label": "Investegate - IQE RNS list (no announcements June 5-9; latest June 3)", "url": "https://www.investegate.co.uk/company/IQE"},
+    {"label": "Investegate - IQE plc Completion of Fundraising (GBP 81M, 332.2M new shares, ~June 1)", "url": "https://www.investegate.co.uk/announcement/rns/iqe--iqe/iqe-plc-completion-of-fundraising-/9588654"},
+    {"label": "Sharecast - Losses widen at IQE as it completes GBP 81M fundraising", "url": "https://www.sharecast.com/news/aim-bulletin/losses-widen-at-iqe-as-it-completes-pound81m-fundraising--22565617.html"},
+    {"label": "Yahoo Finance UK - IQE strengthens balance sheet with GBP 81M fundraise as AI photonics demand expands", "url": "https://uk.finance.yahoo.com/news/iqe-strengthens-balance-sheet-81-082359757.html"},
+    {"label": "TipRanks - Why are IQE plc shares under pressure now", "url": "https://www.tipranks.com/news/catalyst/why-are-iqe-plc-shares-under-pressure-now"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved IQE down for the +700%+ YTD rerating, and there is no new fundamental information since June 6 to justify another move on the scaling list. Today's -8.8% is flow-driven (post-placing overhang from 332M shares issued at 19.8p, profit-taking) with the upstream InP epitaxy bottleneck thesis intact, which marginally improves asymmetry rather than damaging it - hold with a small positive delta.",
+      "bull": "IQE is one of the few merchant InP/GaAs epiwafer suppliers levered to AI data-centre photonics; MACOM's GBP 30M strategic subscription validates the asset, the GBP 81M raise repairs the balance sheet, and management guides >20% revenue growth with EBITDA margin recovery in 2026. A flow-driven 9% dip is a better entry into an intact thesis.",
+      "neutral": "Thesis intact but largely discovered: a $0.79B cap up ~700% YTD on FY25 revenue of GBP 97.3M with widening losses leaves valuation resting on flawless 2026 execution; one down day trims only a fraction of the rerating, so rank stands.",
+      "bear": "Wireless (-40% in FY25) remains a drag, losses widened, and 332M new shares placed at 19.8p create persistent sell-pressure from placees sitting on >100% gains; a parabolic chart cracking without news is how post-rerating chases begin to unwind.",
+      "primaryCatalyst": "AGM on June 30, 2026 and any accompanying trading update confirming >20% FY26 revenue growth, plus concrete AI-photonics InP design wins or capacity commitments converting the bottleneck narrative into booked revenue.",
+      "primaryRisk": "Post-rerating unwind: crowded positioning plus placing-share overhang compresses the +700% YTD move if 2026 guidance slips or wireless weakness persists, with no fundamental valuation floor nearby."
+    }
+  ]
+}

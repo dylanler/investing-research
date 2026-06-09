@@ -1,0 +1,26 @@
+{
+  "symbol": "ESNT.L",
+  "company": "Essentra",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Investegate - Essentra RNS feed (latest: Total Voting Rights, 1 Jun 2026; no announcements Jun 6-9)", "url": "https://www.investegate.co.uk/company/ESNT"},
+    {"label": "Yahoo Finance - ESNT.L quote", "url": "https://finance.yahoo.com/quote/ESNT.L/"},
+    {"label": "London Stock Exchange - Essentra company page", "url": "https://www.londonstockexchange.com/stock/ESNT/essentra-plc/company-page"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No RNS or news since June 6 (latest filings: routine Total Voting Rights on June 1; last material items were the May 20 Boteco Srl acquisition and AGM trading update, both already in the price and in yesterday's hold). Today's +0.72% drift on a -12.9% YTD base leaves the latent-node setup unchanged, so the strict-screen rank stands.",
+      "bull": "A beaten-down (-13% YTD), $0.3B under-owned UK components catalogue with an ongoing buyback and bolt-on M&A (Boteco) offers cheap optionality if modular data-centre/facility build-outs pull through demand for caps, fasteners and protection components.",
+      "neutral": "The AI pathway remains speculative - 'could matter' rather than evidenced design wins - and with no fresh disclosure since the May AGM update, the latent-node case neither strengthens nor decays; the YTD sell-off keeps asymmetry intact without improving it further today.",
+      "bear": "Essentra is fundamentally a general industrial components distributor with no demonstrated AI-chain revenue; soft industrial volumes in Europe could keep grinding estimates lower, making the latent-AI tag a narrative stretch on a structurally low-growth small cap.",
+      "primaryCatalyst": "H1 2026 results / next trading update evidencing volume stabilization or any disclosed data-centre/hyperscaler-adjacent component demand.",
+      "primaryRisk": "Continued European industrial demand weakness pushing further estimate cuts, with the AI-adjacency thesis never converting into identifiable orders."
+    }
+  ]
+}

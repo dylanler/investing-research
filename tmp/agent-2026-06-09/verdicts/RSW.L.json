@@ -1,0 +1,27 @@
+{
+  "symbol": "RSW.L",
+  "company": "Renishaw",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new RNS or material news since June 6. Upcoming catalyst: Capital Markets Day in London on June 16, 2026 (strategy, Additive Manufacturing, market/growth drivers). The strong Q3 FY26 trading update (record Q3 revenue of GBP 206.0m, +14.0%; nine-month revenue GBP 571.6m, +13.5% CER; FY guidance GBP 775-805m revenue / GBP 145-165m adj. PBT, driven by semiconductor, electronics, aerospace and defence demand) predates the window. Today's -4.0% move has no identifiable fundamental driver and looks like profit-taking/pre-CMD de-risking after a +40% YTD run.",
+  "sources": [
+    {"label": "Renishaw Capital Markets Day - 16 June 2026 (company notice)", "url": "https://www.renishaw.com/en/capital-markets-day-tuesday-16th-june-2026--50030"},
+    {"label": "Renishaw Q3 FY26 Trading Statement (Investegate/RNS)", "url": "https://www.investegate.co.uk/announcement/rns/renishaw--rsw/trading-statement/9553606"},
+    {"label": "Proactive Investors: Renishaw hikes outlook on semiconductor demand", "url": "https://www.proactiveinvestors.com/companies/news/1090809"},
+    {"label": "Yahoo Finance RSW.L quote", "url": "https://finance.yahoo.com/quote/RSW.L/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since June 6 and yesterday's verdict was already hold; today's -4% pullback looks flow-driven with the semiconductor-metrology thesis fully intact, which marginally improves entry asymmetry without justifying a rank change ahead of the June 16 CMD.",
+      "bull": "Record Q3 driven by semiconductor capital-equipment demand validates the latent-AI-node thesis (encoders, calibration, metrology for chip toolmakers), and the June 16 CMD could surface under-appreciated AI/automation exposure to a wider audience.",
+      "neutral": "Guidance was maintained rather than raised again, and at +40% YTD a meaningful part of the re-rating has already happened; today's dip only partially resets the entry point.",
+      "bear": "Renishaw remains a cyclical industrial metrology name; a semicap order air-pocket or a cautious CMD on margins would compress the multiple quickly after the YTD run, and the founder-overhang/illiquidity discount persists.",
+      "primaryCatalyst": "Capital Markets Day on June 16, 2026 - strategy, Additive Manufacturing, and growth-driver detail that could reframe Renishaw as an AI-manufacturing enabler.",
+      "primaryRisk": "Cyclical reversal in semiconductor equipment and machine-tool demand after a +40% YTD re-rating leaves little valuation cushion."
+    }
+  ]
+}

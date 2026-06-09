@@ -1,0 +1,40 @@
+{
+  "symbol": "CARR",
+  "company": "Carrier Global",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental disclosure since June 6. The +4.7% move on June 9 coincides with CEO David Gitlin presenting at the Wells Fargo 16th Annual Global Industrials & Materials Conference (10:15 a.m. CT) - a sentiment/flow catalyst reiterating already-known data center momentum (Q4 NA data center orders +400%, ~$1.5B 2026 data center revenue guide, April 29 ZutaCore liquid-cooling investment expansion). Tariff costs ($400-450M) and China headwinds unchanged. Judged flow-driven, not fundamental.",
+  "sources": [
+    {"label": "Carrier to Present at Wells Fargo 16th Annual Global Industrials & Materials Conference (June 9)", "url": "https://www.carrier.com/us/en/news/carrierto-present-at-the-wells-fargo-16th-annual-global-industrials-materials-conference/"},
+    {"label": "Carrier CEO: North American Data Center Orders Surged 400% in Q4 (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/03/04/carrier-ceo-north-american-data-center-orders-surged-400-in-q4/"},
+    {"label": "Carrier Ventures Expands Investment in ZutaCore to Scale Liquid Cooling for AI Data Centers", "url": "https://www.carrier.com/us/en/news/carrierventures-expands-investment-in-zutacore-to-scale-liquid-cooling-for-ai-data-centers/"},
+    {"label": "Carrier Global stock quote (Investing.com)", "url": "https://www.investing.com/equities/carrier-global-corp"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 53,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On a crowding-sensitive residual-alpha list, a +4.7% pop on conference talk with zero new fundamental evidence, stacked on +31.8% YTD, consumes residual alpha rather than creating it; the name is already flagged as farther from the passive/power bottleneck stack.",
+      "bull": "Data center cooling orders compounding (Q4 NA +400%, ~$1.5B 2026 guide) and the ZutaCore direct-to-chip stake give Carrier genuine AI-thermal optionality beyond legacy HVAC.",
+      "neutral": "A $55.8B mega-cap with broad sell-side coverage rallying on a CEO conference appearance is the definition of a recognized story; the alpha question is what is not yet priced, and today added nothing new.",
+      "bear": "Flat-to-LSD organic growth, $400-450M tariff drag and China weakness mean the AI-cooling sliver must carry an increasingly rich multiple; a flow-driven rerating without new evidence sets up giveback.",
+      "primaryCatalyst": "Concrete hyperscaler design wins or a data-center order/revenue guide raise at Q2 earnings.",
+      "primaryRisk": "Crowded post-rerating chase unwinds if tariff costs or China softness compress the core while AI-cooling remains a small revenue mix."
+    },
+    {
+      "page": "companies",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "On the power/cooling bottleneck list the thesis is intact and reaffirmed - data center cooling demand and the QuantumLeap/ZutaCore stack remain central - but today's conference-driven pop adds no new evidence, so rank 8 still balances bottleneck exposure against valuation recognition; small negative drift for rerating without news.",
+      "bull": "Carrier is consolidating a full thermal lifecycle position (chillers, CDUs, direct-to-chip via ZutaCore) just as AI data center cooling shifts from optional to mandatory; orders up 400-500% validate the bottleneck claim.",
+      "neutral": "Bottleneck exposure is real but Carrier is one of several scaled thermal players, and data center revenue (~$1.5B of ~$22B) is still a single-digit slice of the mix.",
+      "bear": "Tariffs, China residential weakness and flat organic growth in the core could overwhelm the AI-cooling narrative, and the 31.8% YTD move already pays for much of the order momentum.",
+      "primaryCatalyst": "Q2 earnings confirming data-center order conversion to revenue and any upward revision to the ~$1.5B 2026 data-center target.",
+      "primaryRisk": "Tariff cost absorption ($400-450M) and China drag forcing guidance cuts that swamp the data-center growth sliver."
+    }
+  ]
+}

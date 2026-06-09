@@ -1,0 +1,52 @@
+{
+  "symbol": "SMHN.DE",
+  "company": "SÜSS MicroTec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6; shares flat today (-0.16%). Dividend was paid June 8 (ex-div June 4). Key context sits just before the window: on June 4 STOXX announced fast-entry MDAX inclusion (first trading day June 22) — a flow/visibility event, not a fundamental one — and the June 3 AGM approved a €300M convertible authorization and reiterated 20-22% EBIT margin ambitions. At €91.85 after +125% YTD, the stock now trades above the ~€89-98 consensus average price target band, leaving thin residual upside without new evidence.",
+  "sources": [
+    {
+      "label": "SUSS MicroTec corporate news - MDAX fast-entry inclusion, first trading day June 22, 2026",
+      "url": "https://www.suss.com/en/news/corporate-news/2026/shares-of-suss-microtec-se-are-being-included-in-the-mdax-for-the-first-time"
+    },
+    {
+      "label": "TradingView/EQS - Shares of SUSS MicroTec SE included in MDAX for the first time (announced June 4, 2026)",
+      "url": "https://www.tradingview.com/news/eqs:52affbaa2094b:0-shares-of-suss-microtec-se-are-being-included-in-the-mdax-for-the-first-time/"
+    },
+    {
+      "label": "Finanzwire - AGM June 3, 2026 approves agenda, €300M convertible authorization, board mandates",
+      "url": "https://www.finanzwire.com/article/suss-microtec-ag-etr-smhn-suss-microtec-annual-general-meeting-approves-agenda-and-extends-board-mandates-Ge2eRw40B9A"
+    },
+    {
+      "label": "TipRanks - SMHN analyst consensus and price targets (avg ~€89-98 vs €91.85 spot)",
+      "url": "https://www.tipranks.com/stocks/de:smhn/forecast"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 79,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a hidden/under-owned alpha lens, the June 4 fast-entry MDAX inclusion (effective June 22) formally ends the latency story — passive flow and screen visibility are the opposite of latent — and yesterday's hold did not incorporate it. With +125% YTD, spot above the consensus target band, and no new fundamental evidence since June 6, residual alpha is shrinking.",
+      "bull": "Hybrid bonding and advanced packaging (temporary bonders, coaters, UV projection scanners) keep SÜSS on the critical path for HBM and chiplet stacking; MDAX entry plus index-driven buying into June 22 can extend the rerating.",
+      "neutral": "Thesis intact but fully discovered: the page's own thesis concedes it is already in the semicap AI screen, and the MDAX fast entry confirms institutional ownership broadening at a price above consensus targets.",
+      "bear": "A $2B-cap toolmaker trading above analyst targets after +125% YTD has crowding and de-rating risk; any advanced-packaging capex digestion or order softness would hit a now widely-held name hard.",
+      "primaryCatalyst": "Index-inclusion flows into June 22 MDAX entry; hybrid-bonding/advanced-packaging order momentum at Q2 results.",
+      "primaryRisk": "Post-rerating crowding: spot above consensus price targets with no fresh fundamental evidence; passive flows reverse if momentum stalls."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the scaling/bucket lens the role is unchanged: advanced packaging and lithography process tools remain relevant to AI compute scaling, there is no new fundamental evidence since June 6, and today's -0.16% move is noise. MDAX inclusion is a flow event that does not alter its position in the semiconductor bucket.",
+      "bull": "AGM reiterated ambition to outgrow the semiconductor market with 20-22% EBIT margins; hybrid bonding adoption for HBM/chiplets is a structural demand driver for its bonder and coater lines.",
+      "neutral": "No new orders, design wins, or guidance since June 6; the company's place in the advanced-packaging toolchain is steady, so a hold at rank 40 with zero drift is appropriate.",
+      "bear": "Valuation has run far ahead of estimate revisions; a memory or packaging capex pause would expose a small-cap toolmaker with cyclical order intake.",
+      "primaryCatalyst": "Q2 2026 order intake and any hybrid-bonding capacity announcements from HBM/OSAT customers.",
+      "primaryRisk": "Advanced-packaging capex digestion or memory-cycle slowdown compressing orders after a +125% YTD run."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "GF.SW",
+  "company": "Georg Fischer",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Minor: GF established a local company and opened a commercial office in Riyadh, Saudi Arabia (announced Jun 6, 2026) - a water-solutions-focused commercial expansion, not an AI/data-center contract. No earnings, guidance, M&A, capacity, or analyst-rating changes found since Jun 6. Day move +0.85% is noise; sell-side consensus remains Strong Buy with ~CHF 62.8 average target vs CHF 42.8 spot.",
+  "sources": [
+    {"label": "Zawya/TradingView - GF establishes local company and opens Riyadh office (Jun 6, 2026)", "url": "https://www.tradingview.com/news/reuters.com,2026-06-06:newsml_ZawjXs6Z:0-zawya-georg-fischer-establishes-local-company-and-opens-commercial-office-in-saudi-arabia/"},
+    {"label": "GF Piping Systems - polymer piping in AI data center direct liquid cooling", "url": "https://www.gfps.com/com/en/about-us/media-center/news-details.html/news/gfps/2026/hq/ai-data-centers-why-polymer-piping-matters-in-direct-liquid-cooling"},
+    {"label": "MarketScreener - Georg Fischer analyst consensus", "url": "https://www.marketscreener.com/quote/stock/GEORG-FISCHER-AG-68977/consensus/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On a strict latent-node screen the pathway (polymer piping into DC direct liquid cooling) is intact and the -20.7% YTD drawdown keeps asymmetry attractive, but the only news since Jun 6 is a water-focused Riyadh office - incremental, not AI-evidence-grade. Yesterday's hold stands; nothing genuinely new justifies a rank change.",
+      "bull": "GF Piping Systems is actively positioning polymer piping for hyperscale direct liquid cooling (dedicated DLC product line, Taiwan OSM factory for Northeast Asia), and a -21% YTD, $4.4B under-owned Swiss industrial gives cheap optionality if DLC standards adopt polymer at scale.",
+      "neutral": "Data centers remain a small slice of a diversified flow-solutions/machining/casting group; the Saudi office is a water-infrastructure play, so the latent AI pathway is real but unproven in revenue terms - hold at rank 64 with mild positive drift.",
+      "bear": "Liquid-cooling piping spend could consolidate around incumbent metal/specialist vendors or hyperscaler-captive supply chains, leaving GF's DC exposure immaterial while the core industrial cyclical drags (-20.7% YTD reflects real end-market weakness, not just neglect).",
+      "primaryCatalyst": "A named hyperscale or colocation DLC design win / quantified data-center order intake at H1 2026 results that converts the polymer-piping pathway into hard evidence.",
+      "primaryRisk": "Data-center cooling never becomes a disclosed, material revenue line and the stock stays a beaten-down general industrial with no AI rerating path."
+    }
+  ]
+}

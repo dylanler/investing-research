@@ -1,0 +1,27 @@
+{
+  "symbol": "LASR",
+  "company": "nLIGHT",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news. CEO Scott Keeney sold ~25,000 shares (~$1.9M) on June 3-4 (mostly 10b5-1 plan plus RSU tax withholding), disclosed around June 6. nLIGHT announced participation at Eurosatory 2026 (June 15-19, Paris) showcasing the HADES 70 kW directed-energy laser module - a defense catalyst, not an AI/CPO one. Today's -6.6% extends a ~11% pullback from May highs that commentators attribute to stretched valuation after a ~353% one-year run, not to any thesis-breaking event; the move looks flow/valuation-driven.",
+  "sources": [
+    {"label": "Motley Fool - nLIGHT CEO sold ~25,000 shares for $1.9M (Jun 6, 2026)", "url": "https://www.fool.com/coverage/filings/2026/06/06/nlight-s-ceo-sold-nearly-25-000-shares-for-usd1-9-million-here-s-what-that-means-for-investors/"},
+    {"label": "StockTitan - nLIGHT to showcase 70 kW HADES laser at Eurosatory 2026", "url": "https://www.stocktitan.net/news/LASR/n-light-inc-announces-participation-in-eurosatory-2026-defense-1lv2hacimxqe.html"},
+    {"label": "Trefis - nLIGHT stock to $53? (valuation-correction case)", "url": "https://www.trefis.com/stock/lasr/articles/599602/nlight-stock-to-53/2026-05-16"},
+    {"label": "Yahoo Finance - LASR quote", "url": "https://finance.yahoo.com/quote/LASR/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already demoted LASR for post-rerating crowding; today's -6.6% flush (now ~11% off May highs) came on no fundamental negative, so the asymmetry at rank 10 is modestly restored rather than further impaired. No new AI/CPO evidence either way - the only fresh items (CEO 10b5-1 sales, Eurosatory defense showcase) sit outside this page's photonics-bottleneck lens.",
+      "bull": "Vertically integrated semiconductor-laser platform with optionality into AI photonics/CPO, and the -6.6% valuation flush improves entry without any thesis damage; defense directed-energy revenue (+69% A&D in Q1) funds the photonics franchise.",
+      "neutral": "The 62.5% YTD run was driven by defense directed-energy, not CPO design wins, so residual alpha on this AI/CPO page is thinner than the score implies; the pullback merely offsets prior crowding.",
+      "bear": "Still richly valued after a ~353% one-year run with CEO insider selling on the tape; if the defense narrative cools and no CPO/AI laser wins materialize, the stock de-rates further toward bear-case fair values near $53.",
+      "primaryCatalyst": "Eurosatory 2026 (June 15-19) HADES 70 kW showcase and any follow-on directed-energy contract awards; any disclosed AI/datacenter photonics design win would re-validate this page's thesis.",
+      "primaryRisk": "Valuation compression continuing - the rally was defense-narrative-driven and largely orthogonal to the CPO bottleneck thesis, leaving the position exposed to multiple contraction without page-relevant offsetting news."
+    }
+  ]
+}

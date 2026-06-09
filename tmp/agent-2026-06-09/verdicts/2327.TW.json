@@ -1,0 +1,56 @@
+{
+  "symbol": "2327.TW",
+  "company": "Yageo",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Record May 2026 revenue of NT$15.06B (+47.5% YoY, +7.3% MoM; Jan-May +27.4% YoY) reported June 8-9; on June 9 the stock exited TWSE disposition trading measures ('chu guan') and went straight to the +10% limit (826 TWD) with ~10,000 lots queued to buy; Citi reiterated Buy and raised its target price from 495 to 1,500 TWD; market cap recovered to ~NT$1.7T, making Yageo the 7th-largest TWSE name, surpassing Fubon Financial and UMC. Backdrop: Yageo signaled further price hikes (May 28) as Murata/SEMCO/Panasonic raise MLCC and capacitor prices on AI demand. Today's limit-up is part fundamental (record revenue, pricing power) and part flow (release from disposition restrictions plus a 3x analyst target hike triggering a sector-wide limit-up wave).",
+  "sources": [
+    {
+      "label": "NextApple (Jun 9, 2026): Yageo limit-up, record May revenue, Citi TP to 1,500",
+      "url": "https://news.nextapple.com/finance/20260609/7263C5CE2BAB683139BACF674A481E52"
+    },
+    {
+      "label": "CTEE (Jun 9, 2026): Yageo exits disposition, limit-up; May revenue record; TP 1,500",
+      "url": "https://www.ctee.com.tw/news/20260609700904-430201"
+    },
+    {
+      "label": "Yahoo TW (Jun 9, 2026): 10k lots queued at limit; mkt cap NT$1.7T, 7th on TWSE",
+      "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E5%B7%A8%E3%80%8C%E5%87%BA%E9%97%9C%E3%80%8D%E9%A6%96%E6%97%A5%E4%BA%AE%E7%87%88%E8%90%AC%E5%BC%B5%E6%8E%92%E9%9A%8A%E7%AD%89%E8%B2%B7-%E5%B8%82%E5%80%BC%E9%87%8D%E5%9B%9E17%E5%85%86%E8%B6%85%E8%BB%8A%E5%AF%8C%E9%82%A6%E9%87%91%E8%81%AF%E9%9B%BB%E6%8E%92%E7%AC%AC%E4%B8%83-015838138.html"
+    },
+    {
+      "label": "UDN (Jun 9, 2026): Yageo limit-up leads passive-component sector rally",
+      "url": "https://udn.com/news/story/7253/9554682"
+    },
+    {
+      "label": "DIGITIMES (May 28, 2026): Yageo signals possible price hikes as Japanese/Korean makers raise prices",
+      "url": "https://www.digitimes.com/news/a20260528PD200/yageo-passive-components-price-2026.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 58,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.8,
+      "rankRationale": "On a crowding-sensitive alpha list, today is the textbook anti-alpha setup: limit-up out of disposition with 10k lots queued, a Citi target tripled to 1,500, and a 243% YTD run making it the 7th-largest TWSE stock. The May revenue beat is real, but it is now fully consensus and over-owned, compressing residual alpha further from an already 'crowded/rerated benchmark' slot.",
+      "bull": "AI passives demand is accelerating, not peaking: record May revenue +47.5% YoY, sector-wide price hikes (Murata/SEMCO/Panasonic), and Yageo's own signaled increases give multi-quarter earnings momentum.",
+      "neutral": "Fundamentals and price are rising together; the stock is a fairly-priced sector benchmark rather than a hidden bottleneck, so it earns benchmark status but no alpha premium.",
+      "bear": "A limit-up driven partly by disposition-release flow and a headline-grabbing 3x target hike marks peak retail/institutional crowding; any MLCC pricing pause or AI-server order digestion triggers a sharp de-rating from 243% YTD highs.",
+      "primaryCatalyst": "Further MLCC/tantalum price-hike announcements and June monthly revenue confirming the +47% YoY run-rate.",
+      "primaryRisk": "Crowding unwind: post-limit-up flow exhaustion plus any sign of passive-component pricing or AI-server order moderation."
+    },
+    {
+      "page": "companies",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the broader board-level power-and-passives lens, the record May revenue (+47.5% YoY) and confirmed pricing power are exactly the execution evidence the thesis said to watch, validating the power-delivery content story. That genuine fundamental beat roughly offsets the additional crowding/rerating penalty from today's limit-up, so hold at rank after yesterday's down move.",
+      "bull": "Execution is verifiably strong: record monthly revenue, mid-teens AI revenue share and rising, tantalum/MLCC price hikes sticking, and Q2 margins guided above Q1's 38.1% gross margin.",
+      "neutral": "Thesis intact and now well-evidenced, but at ~$50B market cap and 7th-largest on TWSE the market fully recognizes the power-delivery content story; expect returns to track earnings, not rerating.",
+      "bear": "Passive components remain cyclical; the +47% YoY comp gets harder into 2H26, and a 1,500 TWD sell-side target sets a high bar where any execution wobble or MLCC price rollback hits a now-expensive multiple.",
+      "primaryCatalyst": "Q2 2026 results confirming gross/operating margin expansion above Q1 and continued AI revenue-share gains.",
+      "primaryRisk": "Cyclical pricing reversal in MLCC/tantalum once Japanese/Korean capacity responds, against a fully-rerated valuation."
+    }
+  ]
+}

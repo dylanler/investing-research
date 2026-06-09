@@ -1,0 +1,28 @@
+{
+  "symbol": "8046.TW",
+  "company": "Nan Ya PCB",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 9 limit-up (+9.99% to TWD 914) on release of May 2026 revenue: NT$4.44B, +35.8% YoY but -0.24% MoM, i.e. confirmatory of the known ABF up-cycle rather than an acceleration. Backdrop already fully publicized: Ajinomoto raising ABF build-up film prices ~30% from Q3 2026, ABF spot prices up 30%+ with Nan Ya PCB flagged as biggest spot-mix beneficiary, Goldman modeling a supply-demand gap of ~10% in H2 2026 widening to 21%/42% in 2027/2028, and foreign brokers (Morgan Stanley Overweight; targets raised toward NT$1,115-1,275). No new design win, capacity announcement, or M&A found since Jun 6 - the move is narrative/flow chase on in-line monthly data.",
+  "sources": [
+    {"label": "cnyes - Nan Ya PCB May 2026 revenue NT$4.44B, +35.82% YoY", "url": "https://news.cnyes.com/news/id/6482399"},
+    {"label": "DIGITIMES - Ajinomoto raises ABF film prices 30%, Q3 2026 effect", "url": "https://www.digitimes.com/news/a20260513PD230/ic-substrate-abf-substrate-demand-substrate-2026.html"},
+    {"label": "TechNews - foreign broker raises Nan Ya PCB target to NT$1,115 on ABF pricing up-cycle", "url": "https://finance.technews.tw/2026/05/08/high-end-network-switches/"},
+    {"label": "UDN Money - ABF supply gap widening, foreign brokers raise Unimicron/Nan Ya PCB targets", "url": "https://money.udn.com/money/story/5607/9511223"},
+    {"label": "Wantrich/ChinaTimes - Goldman: 42% ABF supply gap by 2028, buys ABF trio", "url": "https://wantrich.chinatimes.com/news/20260204900264-420101"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 60,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On an alpha lens, a limit-up to +286% YTD on in-line monthly revenue (flat MoM) with sell-side targets already above NT$1,100 is a crowding signal, not new hidden bottleneck evidence; residual alpha compresses further after yesterday's down verdict because today's price action materially worsens the entry setup.",
+      "bull": "ABF substrate scarcity is real and tightening: Goldman sees the supply gap widening to 21%/42% in 2027/2028, spot prices are up 30%+, and Nan Ya PCB's high non-contract mix gives it the most pricing torque of the ABF trio.",
+      "neutral": "May revenue of +35.8% YoY confirms the cycle but was flat MoM; the thesis is intact and well understood, with consensus EPS upgrades roughly tracking the stock - fair value debate now hinges on how long peak pricing persists.",
+      "bear": "At ~$18.7B cap and +286% YTD on a cyclical substrate maker, the ABF shortage is fully consensus; Ajinomoto's 30% film hike also raises Nan Ya's input costs, and any 2027 capacity response or AI capex digestion would unwind a spot-price-driven multiple quickly.",
+      "primaryCatalyst": "Q2 2026 results and Q3 contract-price resets confirming 30-40% ABF spot/contract price capture flowing to gross margin.",
+      "primaryRisk": "Crowded post-rerating positioning: any deceleration in monthly revenue or ABF spot prices triggers a sharp de-rating from a 286% YTD base."
+    }
+  ]
+}

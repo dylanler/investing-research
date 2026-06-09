@@ -1,0 +1,27 @@
+{
+  "symbol": "1347.HK",
+  "company": "Hua Hong Grace Semiconductor (formerly Hua Hong Semiconductor)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals in the Jun 6-9 window. Context: company completed rebrand to Hua Hong Grace Semiconductor (announced ~Jun 3, cosmetic); Q1 2026 beat with raised Q2 guidance (US$690-700M revenue, 14-16% GM) and the $1.2B HLMC consolidation are older catalysts already in the price. Stock has pulled back ~10-12% from its post-earnings peak (~HK$156.5 on Jun 5 to HK$137.1 Jun 8), bouncing +2.2% to HK$140.1 today - looks like profit-taking/flow, not a thesis break.",
+  "sources": [
+    {"label": "Yahoo Finance - Hua Hong Q1 beat and raised guidance, stock up 12.3%", "url": "https://finance.yahoo.com/markets/stocks/articles/hua-hong-semiconductor-sehk-1347-090929775.html"},
+    {"label": "CNBC quote - Hua Hong Grace Semiconductor (1347-HK), name change and price history", "url": "https://www.cnbc.com/quotes/1347-HK"},
+    {"label": "Dealroom - Hua Hong consolidates domestic capacity with $1.2B HLMC acquisition", "url": "https://app.dealroom.co/news/note/hua-hong-semiconductor-consolidates-domestic-capacity-with-1-2b-hlmc-acquisition"},
+    {"label": "Futu News - Hua Hong 1347.HK: promising 2026 with AI spillover and price hikes", "url": "https://news.futunn.com/en/post/73181988/hua-hong-semiconductor-ltd-1347-hk-promising-2026-with-ai"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On a CPO-lens alpha page Hua Hong is an indirect China-localization proxy with low direct CPO exposure; the ~12% pullback from the post-earnings peak with the thesis intact modestly restores asymmetry, but with +72% YTD and no fresh CPO-relevant evidence since Jun 6 there is no basis to re-rank a day after yesterday's hold.",
+      "bull": "Raised Q2 guidance, mature-node price hikes with AI spillover demand, and the HLMC consolidation add capacity and profitability while the 10-12% pullback offers a cheaper entry into the China-localization bottleneck story.",
+      "neutral": "Quality localization play, but on this page its CPO relevance is second-order; after a 72% YTD rerating the residual alpha is largely a valuation-reset trade, not a thesis upgrade.",
+      "bear": "China mature-node pricing remains structurally oversupplied; 14-16% gross margin guidance leaves little cushion, and the post-earnings fade suggests the rerating ran ahead of fundamentals.",
+      "primaryCatalyst": "Q2 2026 results confirming the raised guidance plus evidence of sustained mature-node price increases and HLMC integration accretion.",
+      "primaryRisk": "China mature-node pricing pressure and oversupply compressing the 14-16% gross margin guidance after a 72% YTD run."
+    }
+  ]
+}

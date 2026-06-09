@@ -1,0 +1,27 @@
+{
+  "symbol": "LECO",
+  "company": "Lincoln Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Board declared a routine $0.79/share quarterly dividend (payable Jul 15, record Jun 30). Latest substantive items predate the window: May guidance raise to high-single-digit 2026 sales growth after a record Q1 (adj. EPS $2.50, +16%), and Barclays PT raise to $300 (Overweight) vs. Morgan Stanley Underweight at $250. No new AI/data-center-specific contracts, design wins, or capacity announcements.",
+  "sources": [
+    {"label": "StockTitan - Lincoln Electric declares $0.79 quarterly dividend", "url": "https://www.stocktitan.net/news/LECO/lincoln-electric-board-declares-h1eyk5n2hnvf.html"},
+    {"label": "TipRanks - Lincoln Electric lifts 2026 outlook after record quarter (May 2026)", "url": "https://www.tipranks.com/news/company-announcements/lincoln-electric-lifts-2026-outlook-after-record-quarter"},
+    {"label": "Lincoln Electric IR - News", "url": "https://ir.lincolnelectric.com/news/default.aspx"},
+    {"label": "MarketBeat - LECO analyst forecasts and price targets", "url": "https://www.marketbeat.com/stocks/NASDAQ/LECO/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "No new evidence since June 6 linking Lincoln's welding-automation/additive franchise to AI compute-campus fabrication; only a routine dividend declaration. Price action (+0.67% today, +7.8% YTD) is unexceptional, so the latent-node setup and yesterday's hold both stand.",
+      "bull": "Record Q1 and raised 2026 guidance with a robust automation backlog show the core engine compounding; any disclosed data-center or robot-factory fabrication win would be a free option on top at a still-uncrowded $14.4B cap.",
+      "neutral": "Quality industrial executing well, but the AI linkage remains inferential rather than evidenced - no compute-campus contracts named - so it stays a mid-list latent node with modest residual alpha.",
+      "bear": "The thesis is a stretch: guidance strength is pricing-driven with volumes soft, Morgan Stanley is Underweight at $250, and if heavy-fab demand from AI campuses never shows up in orders the name is just a fairly valued welding company.",
+      "primaryCatalyst": "A named data-center, power-infrastructure, or robot-factory fabrication/automation order, or Q2 earnings (late July) showing volume-led automation backlog growth.",
+      "primaryRisk": "Industrial volume softness persists and the AI-fabrication pathway never materializes in bookings, leaving no idiosyncratic upside versus the industrial cycle."
+    }
+  ]
+}

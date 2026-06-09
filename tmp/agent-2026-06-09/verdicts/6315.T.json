@@ -1,0 +1,26 @@
+{
+  "symbol": "6315.T",
+  "company": "TOWA Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance quote - TOWA Corporation (6315.T)", "url": "https://finance.yahoo.com/quote/6315.T/"},
+    {"label": "TipRanks - Towa unveils ultra-narrow-gap mold underfill for HBM4 packaging (pre-window announcement)", "url": "https://www.tipranks.com/news/company-announcements/towa-corporation-unveils-advanced-hbm4-packaging-technology"},
+    {"label": "Kabutan - TOWA 6315 stock page (no new disclosures since Jun 6)", "url": "https://kabutan.jp/stock/?code=6315"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; FY2026 results (May 11) and the HBM4 mold-underfill tooling announcement are already in the price and in yesterday's hold. Today's -2.24% drift on no flow or disclosure does not change the scaling-bottleneck setup at rank 2.",
+      "bull": "Near-monopoly (~80-90% share) in compression molding for HBM encapsulation makes TOWA a true backend bottleneck as HBM4 and PLP capacity ramps; Q3 orders up ~34% q/q signal the recovery leg is starting.",
+      "neutral": "Thesis intact but already partially rerated (+24% YTD, ~$1.5B cap); near-term P&L still digesting the FY2026 profit decline, so the stock chops until HBM4 tool revenue (sales from August) shows up in orders and guidance.",
+      "bear": "Operating profit fell ~22% and net ~43% in FY2026; if HBM oversupply or a pause in AI accelerator packaging capex hits 2H orders, a sub-$2B small-cap with this customer concentration derates quickly.",
+      "primaryCatalyst": "First orders/revenue from the new HBM4 ultra-narrow-gap mold-underfill equipment (sales start August 2026) and Q1 FY2027 order intake confirming the HBM4 capex cycle.",
+      "primaryRisk": "HBM capacity digestion or share encroachment in compression molding compressing backend tool orders just as the market is paying for a recovery."
+    }
+  ]
+}

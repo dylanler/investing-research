@@ -1,0 +1,40 @@
+{
+  "symbol": "AOSL",
+  "company": "Alpha & Omega Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Latest PR is June 1 (PCIM Expo 2026 showcase, June 9-11 Nuremberg: AI GPU/SoC multiphase controllers AOZ73216QI/AOZ73104QI, 240W Type-C EPR switches, 48V-800V MOSFET/SiC/GaN). Today's -9.98% move has no identifiable fundamental catalyst - it reads as flow-driven profit-taking/momentum unwind after a ~161% 90-day run (sell-the-news into the PCIM start). The May fiscal-Q3 EPS miss and analyst PT cuts are stale, pre-June-6 information.",
+  "sources": [
+    {"label": "StockTitan AOSL news feed (latest items June 1 and May 18; nothing June 6-9)", "url": "https://www.stocktitan.net/news/AOSL/"},
+    {"label": "BusinessWire - AOS at PCIM Expo 2026 (June 1 PR)", "url": "https://www.businesswire.com/news/home/20260601591840/en/See-Alpha-and-Omega-Semiconductor-at-PCIM-2026-to-Learn-About-Their-Advanced-AI-Core-Power-AI-Data-Center-and-Industrial-Power-Solutions"},
+    {"label": "Investing.com - fiscal Q3 2026 earnings transcript (EPS miss, May; stale context for the prior de-rate)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alpha-and-omega-semiconductor-q3-2026-misses-eps-revenue-beats-93CH-4680940"},
+    {"label": "Simply Wall St - AOSL AI power push / 90-day +161% momentum backdrop", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-aosl/alpha-and-omega-semiconductor/news/does-alpha-and-omega-semiconductors-aosl-ai-power-push-signa"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 69,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down-move was explicitly crowding-driven (less hidden after +113.9% YTD); today's flow-driven -10% with zero new negative fundamentals partially restores the hiddenness this page penalized, so the crowding lens flips to a modest up. Thesis (selective AI/edge power exposure) is unchanged.",
+      "bull": "AI-core-power product cadence is real (PCIM lineup, Intel Panther Lake total power solution), and a 10% one-day wash-out with no fundamental news improves entry asymmetry on a $1.5B name.",
+      "neutral": "Still +92.6% YTD and only indirectly levered to the true CPO/HBM/packaging bottlenecks; one red day does not make it hidden again.",
+      "bear": "May quarter showed an EPS miss with legacy segments shrinking; if the momentum crowd keeps unwinding, a high-beta $1.5B power name can give back far more than 10% before fundamentals matter.",
+      "primaryCatalyst": "PCIM 2026 (June 9-11) design-win or AI data-center power announcements converting product showcase into bookings.",
+      "primaryRisk": "Continued momentum unwind in crowded small-cap AI-power names plus legacy-segment cyclical drag."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Power-semis watchlist fit is unchanged and there is no new fundamental evidence since June 6; the -10% day is flow, not thesis, so hold per yesterday's verdict with a small positive drift for improved asymmetry (YTD now 92.6% vs 113.9%).",
+      "bull": "48V-800V power-conversion portfolio (MOSFET/SiC/GaN plus multiphase controllers) sits squarely on the data-center power-density scaling curve, and today's de-rate cheapens the exposure.",
+      "neutral": "No new contracts, capacity, or guidance since June 6; the scaling thesis neither strengthened nor weakened - only the price changed.",
+      "bear": "Sub-scale ($1.5B) versus MPWR/Infineon/onsemi in AI power; if AI power-tree sockets consolidate with the leaders, AOSL's scaling exposure stays optional rather than bottleneck-critical.",
+      "primaryCatalyst": "Concrete AI data-center power design wins (GPU VR sockets, 48V/800V architectures) announced at or after PCIM 2026.",
+      "primaryRisk": "Execution/share-loss against larger power-management incumbents while legacy compute/consumer segments keep declining."
+    }
+  ]
+}

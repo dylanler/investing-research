@@ -1,0 +1,27 @@
+{
+  "symbol": "RBC",
+  "company": "RBC Bearings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Only fresh item is participation in the Truist Securities Industrials & Services Conference on June 16, 2026 (non-event). Existing narrative unchanged: record $1B+ (per Zacks; >$2B per Q3 call commentary) aerospace/defense-driven backlog, FY2026 Q4 revenue guided $495-550M with 45%+ adjusted gross margin, Strong Buy consensus with ~$603 average target. Today's -1.35% move is flow/drift, not fundamental.",
+  "sources": [
+    {"label": "Yahoo Finance search - RBC Bearings June 2026 news (Truist conference 6/16, defense backlog commentary)", "url": "https://finance.yahoo.com/quote/RBC/"},
+    {"label": "Zacks Industry Outlook - RBC Bearings record $1B+ A&D backlog", "url": "https://www.tradingview.com/news/zacks:94ee33948094b:0-zacks-industry-outlook-highlights-rbc-bearings-idex-watts-water-technologies-and-helios-technologies/"},
+    {"label": "Motley Fool - RBC Bearings Q3 FY2026 earnings transcript (guidance, >$2B backlog, defense growth)", "url": "https://www.fool.com/earnings/call-transcripts/2026/02/05/rbc-bearings-rbc-q3-2026-earnings-transcript/"},
+    {"label": "stockanalysis.com - RBC analyst price targets (avg ~$603, Strong Buy)", "url": "https://stockanalysis.com/stocks/rbc/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since yesterday's hold that strengthens the latent-AI pathway; the rally remains defense/aerospace-driven, not robotics/automation-driven, and today's -1.35% drift is noise that neither improves nor erodes the strict-screen case at rank 97.",
+      "bull": "Record A&D backlog (>$1B, with call commentary citing >$2B growing 30% y/y) and 44-45% gross margins prove RBC owns precision-bearing bottlenecks; if humanoid/robotics-grade automated manufacturing scales, its high-reliability components are a natural latent node.",
+      "neutral": "Quality compounder fairly recognized after +27% YTD and a Strong Buy consensus near the ~$603 average target; the AI/robotics linkage remains speculative and untested by any disclosed design win, so the latent-node score stays where it is.",
+      "bear": "The entire rerating is defense-cycle and geopolitics-driven with zero AI-specific revenue evidence; at ~$18.7B cap and rich multiples, a defense-spending plateau or aero destock hits the stock with no AI optionality to cushion it.",
+      "primaryCatalyst": "A disclosed robotics/automation or precision-motion design win (or commentary at the June 16 Truist conference) that converts the latent AI pathway into evidenced exposure.",
+      "primaryRisk": "Crowded defense/aero trade unwinding after the YTD run-up, with the AI-robotics thesis never materializing into orders."
+    }
+  ]
+}

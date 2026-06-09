@@ -1,0 +1,39 @@
+{
+  "symbol": "CRL.MI",
+  "company": "CAREL Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Reuters via TradingView - Athena FH launches placement of 5.6 mln Carel shares (May 21, 2026, pre-window)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N41X23X:0-athena-fh-s-p-a-launches-placement-of-5-6-mln-ordinary-shares-in-carel-industries-bookrunner-says/"
+    },
+    {
+      "label": "MarketScreener - Athena FH sells 5% stake in Carel via accelerated bookbuild at EUR 30.10",
+      "url": "https://www.marketscreener.com/news/athena-fh-sells-5-stake-in-carel-via-accelerated-bookbuild-ce7f5ad9dc8df527"
+    },
+    {
+      "label": "Simply Wall St - CRL 2026 dividend (EUR 0.195, ex June 22) and board calendar",
+      "url": "https://simplywall.st/community/narratives/it/capital-goods/bit-crl/carel-industries-shares/boo0i63f-analysts-lift-carel-industries-price-target-following-upgraded-revenue-guidance-and-valuation-shift/updates/20-analysts-have-lifted-their-price-target-for-carel-industries"
+    },
+    {
+      "label": "Yahoo Finance quote - CRL.MI",
+      "url": "https://finance.yahoo.com/quote/CRL.MI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a +0.34% drift day; the latent thesis (cooling controls as the intelligence layer of high-density data centers, still priced as commodity HVAC automation) is unchanged from yesterday's hold, so there is no basis to move again. Nearest events are pre-window: the May 21 Athena FH ABO at EUR 30.10 (stock now slightly below placement price, so no fresh rerating to penalize) and routine June 24 dividend mechanics.",
+      "bull": "Sustained North American data-center demand keeps pulling CAREL's HVAC/controls mix toward higher-value thermal management, and the Athena FH sell-down has improved free float and institutional access without any fundamental deterioration.",
+      "neutral": "YTD +24% has captured part of the rerating, but at ~$4B cap the name is still off most AI-infrastructure screens; with no new datapoints since Q1, residual alpha is intact but not growing.",
+      "bear": "Athena FH still holds ~13.8% of capital and has shown willingness to sell, creating recurring overhang; if hyperscalers standardize on integrated cooling stacks from larger players (Vertiv, Schneider), CAREL's controls layer gets commoditized.",
+      "primaryCatalyst": "H1 2026 results (board meeting August 4) showing data-center/HVAC order acceleration that forces the market to re-segment CAREL as AI-infrastructure rather than refrigeration controls.",
+      "primaryRisk": "Further Athena FH stake placements pressuring the stock, plus exposure to a softening European HVAC/refrigeration cycle masking the data-center growth line."
+    }
+  ]
+}

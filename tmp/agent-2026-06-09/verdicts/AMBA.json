@@ -1,0 +1,53 @@
+{
+  "symbol": "AMBA",
+  "company": "Ambarella",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No discrete material news since June 6. Today's -6.1% to $64.50 looks flow-driven: digestion of the run into the June 4 inaugural industry-analyst briefing plus a Summit Insights downgrade to Hold citing H2-2026 supply-chain risk. The briefing (June 4, just before the window) disclosed 15+ robotics design wins with >$100M lifetime revenue and a Hanwha long-term agreement with >$800M potential revenue over 10+ years. The GoPro/Insta360 ITC overhang was resolved in Insta360's favor in March 2026 and is not a live risk.",
+  "sources": [
+    {"label": "StockTitan - Ambarella inaugural quarterly edge AI analyst briefing", "url": "https://www.stocktitan.net/news/AMBA/ambarella-announces-inaugural-quarterly-briefing-call-targeting-non-me15bwr34gix.html"},
+    {"label": "Yahoo Finance - Ambarella's largest customer avoids US import restrictions in ITC final ruling (Mar 11, 2026)", "url": "https://finance.yahoo.com/news/ambarella-ai-story-meets-risk-100920678.html"},
+    {"label": "Yahoo Finance - Did Ambarella's new edge AI analyst briefings reframe its go-to-market strategy?", "url": "https://finance.yahoo.com/markets/stocks/articles/did-ambarella-edge-ai-analyst-051336579.html"},
+    {"label": "Kavout - What just happened to Ambarella stock (earlier ITC plunge context)", "url": "https://www.kavout.com/market-lens/what-just-happened-to-ambarella-stock"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's removal case stands: AMBA has no direct CPO/HBM/advanced-packaging/test bottleneck exposure, and nothing since June 6 changes that. Today's -6.1% is flow-driven and cheapness does not create compute-node centrality, so no new move beyond the pending removal.",
+      "bull": "Edge AI is 80% of revenue growing ~50% YoY, and robotics design wins plus the Hanwha LTA show real physical-AI traction that could eventually justify a different node classification.",
+      "neutral": "A quality edge-AI SoC franchise, but on a compute-bottleneck node map it is peripheral; the score drift reflects that misfit rather than business deterioration.",
+      "bear": "Summit Insights flags H2-2026 supply-chain risk and the name remains loss-making on GAAP; it occupies a slot a cleaner bottleneck name should hold.",
+      "primaryCatalyst": "Edge-infrastructure or inference-node design win that gives AMBA direct AI-compute-chain relevance.",
+      "primaryRisk": "Continued misclassification drag: no CPO/HBM/packaging linkage means the node thesis never inflects."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict was remove for weak CPO relevance; no new optical/co-packaged-optics evidence has emerged since June 6, so we hold rather than double-count. The sell-off improves entry price but not CPO-chain relevance, which is what this page ranks.",
+      "bull": "At $2.8B cap and -14% YTD, the name is genuinely under-owned, and the Cooper developer ecosystem plus 46M cumulative edge-AI SoC shipments give optionality if edge inference becomes a recognized bottleneck.",
+      "neutral": "Watchlist status remains correct: a useful ecosystem node with mixed under-discovery evidence and no direct CPO linkage.",
+      "bear": "Zero co-packaged-optics exposure means the name dilutes the page; single-customer concentration (Arashi Vision/Insta360) remains a structural fragility even after the favorable ITC ruling.",
+      "primaryCatalyst": "Any edge-AI infrastructure partnership that ties AMBA into the optical/interconnect supply chain.",
+      "primaryRisk": "Customer concentration plus H2-2026 supply-chain risk flagged by Summit Insights, with no CPO thesis to offset."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 8,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "This is the page where the thesis actually lives: the June 4 briefing quantified 15+ robotics design wins with >$100M lifetime revenue and a >$800M Hanwha LTA, and today's -6.1% flow-driven drop with that thesis intact improves asymmetry at $2.8B cap. Sell-off without fundamental robotics news is exactly the setup this alpha list rewards.",
+      "bull": "Quantified robotics design-win pipeline, 50% YoY edge-AI growth, and a decade-scale Hanwha agreement validate the local-perception-under-power-constraints thesis while the stock sits -14% YTD.",
+      "neutral": "Design wins are early-lifecycle and the briefing was a company-curated disclosure; rank 8 already reflects meaningful credit, so the move up should be modest.",
+      "bear": "Summit Insights' H2-2026 supply-chain warning could delay robotics SoC shipments, and AMBA is more discovered than deep-bench robotics sleepers, capping residual alpha.",
+      "primaryCatalyst": "Conversion of the 15+ robotics design wins into reported revenue ramps, or a named humanoid/AMR platform win.",
+      "primaryRisk": "H2-2026 supply-chain disruption or design-win slippage that pushes the robotics revenue ramp past FY2028."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "symbol": "UMC",
+  "company": "United Microelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "UMC Stock Slides As BNP Paribas Downgrade Counters AI Hype (Jun 5, 2026)",
+      "url": "https://www.timothysykes.com/news/united-microelectronics-corporation-new-umc-news-2026_06_05/"
+    },
+    {
+      "label": "UMC Reports Sales for May 2026 - NT$22.94B, +17.78% Y/Y (Businesswire, Jun 5, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260605356210/en/UMC-Reports-Sales-for-May-2026"
+    },
+    {
+      "label": "United Microelectronics to Raise NT$16 Billion via Dual Convertible Bond Issues (TipRanks, Jun 3, 2026)",
+      "url": "https://www.tipranks.com/news/company-announcements/united-microelectronics-to-raise-nt16-billion-via-dual-convertible-bond-issues"
+    },
+    {
+      "label": "United Microelectronics (UMC) - Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/UMC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already demoted UMC for the post-rerating setup; nothing material has landed since June 6 and today's -1.9% is drift, so the mature-node tollgate thesis sits where it should at rank 68.",
+      "bull": "May sales of NT$22.94B (+17.78% Y/Y) show mature-node demand is genuinely firming, and the NT$16B convertible raise funds capacity into a tightening specialty market.",
+      "neutral": "Solid monthly revenue but no new design wins or node progress since June 6; the stock digests last week's BNP Paribas downgrade with a -1.9% drift day.",
+      "bear": "Average sell-side price target sits near $10.36 (about 50% below spot) after a 150% YTD run on a mature-node foundry with no leading-edge AI exposure - the rerating already outran fundamentals.",
+      "primaryCatalyst": "Q2 results and guidance confirming mature-node pricing and utilization recovery into AI-edge and power-management demand.",
+      "primaryRisk": "Mature-node pricing rolls over while the AI premium embedded in the stock unwinds toward consensus targets."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On this crowding-sensitive alpha list UMC was already moved down yesterday; with no fresh CPO-relevant news since June 6 and only a -1.9% drift, double-demoting would be churning rather than reacting to information.",
+      "bull": "Specialty interposer and silicon-photonics-adjacent specialty processes give UMC optional CPO exposure cheaply relative to leading-edge peers if the optics supply chain broadens beyond TSMC.",
+      "neutral": "Limited direct CPO content was the thesis caveat all along; the May sales beat is mature-node strength, not photonics evidence, so the rank simply holds.",
+      "bear": "A 150% YTD move with consensus now at outright Sell and a sub-$11 average target means the residual alpha is gone; this is the textbook post-rerating chase this list penalizes.",
+      "primaryCatalyst": "A named silicon-photonics or interposer engagement that converts the 'specialty optionality' into actual CPO supply-chain content.",
+      "primaryRisk": "Crowded AI-foundry flows reverse and the stock mean-reverts toward sell-side targets with no CPO contracts to backstop it."
+    },
+    {
+      "page": "companies",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "The June 8 audit already cut UMC for market-cap recognition and YTD rerating; no new fundamental evidence has arrived since June 6, so rank 79 in the fab-tools/manufacturing bucket stands.",
+      "bull": "Double-digit Y/Y revenue growth and a funded NT$16B capacity expansion keep the pick-and-shovel exposure real even after the rerating.",
+      "neutral": "All the recent datapoints (May sales, convert raise, BNP downgrade) predate June 6 and were absorbed in yesterday's down move; today adds nothing.",
+      "bear": "At $49B market cap, +150% YTD, and an average Sell rating, UMC is now a recognized, crowded proxy rather than hidden upstream alpha, and dilution from the convertibles adds a mild overhang.",
+      "primaryCatalyst": "Evidence that the convertible-funded capacity lands in supply-constrained specialty nodes (power, RF-SOI, interposer) with pricing power.",
+      "primaryRisk": "Mature-node oversupply from Chinese foundries compresses pricing just as the market re-anchors to consensus valuation."
+    }
+  ]
+}

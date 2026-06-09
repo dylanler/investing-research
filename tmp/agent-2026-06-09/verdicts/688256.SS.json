@@ -1,0 +1,35 @@
+{
+  "symbol": "688256.SS",
+  "company": "Cambricon Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance - Cambricon 688256.SS news page (no new material headlines Jun 6-9)",
+      "url": "https://finance.yahoo.com/quote/688256.SS/news/"
+    },
+    {
+      "label": "Tom's Hardware - Cambricon targets 500,000 AI chips in 2026 (pre-window context: yields ~20%, HBM supply risk)",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/cambricon-targets-500000-ai-chips-in-2026-as-china-accelerates-domestic-hardware-push"
+    },
+    {
+      "label": "TrendForce - Cambricon 2026 triple-output rumor faces SMIC limits",
+      "url": "https://www.trendforce.com/news/2025/12/15/insights-cambricon-remains-chinas-top-ai-chip-startup-rumored-2026-triple-output-faces-smic-limits/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 117,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already demoted Cambricon to 117 on this crowding-sensitive CPO alpha list for being fully discovered (now +36% YTD, ~$121B cap) with no direct CPO/photonics leverage; nothing material has emerged since June 6 and today's +1.6% is drift, so no second move is warranted - just mild alpha decay.",
+      "bull": "Q1 2026 revenue grew ~160% and the company is scaling toward ~500K accelerators in 2026 as China's leading Nvidia substitute; domestic AI capex policy tailwinds remain strong.",
+      "neutral": "The localization story is real but fully priced and consensus-owned; at rank 117 the list already treats it as a discovered, indirect-to-CPO name, and nothing since June 6 changes that setup.",
+      "bear": "~20% yields on flagship Siyuan 590/690, SMIC N+2 capacity limits, and constrained domestic HBM supply mean 2026 output targets can miss badly against a ~$121B valuation built on flawless execution.",
+      "primaryCatalyst": "Confirmed hyperscaler order volumes or yield/HBM supply breakthroughs validating the 500K-unit 2026 shipment plan (H1 results, supply-chain datapoints).",
+      "primaryRisk": "Production miss from low SMIC yields and HBM scarcity triggering a derating of an extremely crowded, expensively valued localization trade."
+    }
+  ]
+}

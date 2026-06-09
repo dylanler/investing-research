@@ -1,0 +1,39 @@
+{
+  "symbol": "SHA0.DE",
+  "company": "Schaeffler",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "The Robot Report - Schaeffler to deploy hundreds of Humanoid robots in its factories (May 2026 deal, pre-existing thesis evidence)",
+      "url": "https://www.therobotreport.com/schaeffler-humanoid-partner-build-deploy-hundreds-robots/"
+    },
+    {
+      "label": "Investing.com - Schaeffler signs five-year actuator supply deal with Humanoid",
+      "url": "https://ca.investing.com/news/company-news/schaeffler-signs-fiveyear-actuator-supply-deal-with-humanoid-93CH-4637026"
+    },
+    {
+      "label": "Schaeffler Group press releases (no new releases June 6-9, 2026)",
+      "url": "https://www.schaeffler.com/en/media/press-releases/"
+    },
+    {
+      "label": "Investing.com - Schaeffler AG quote (June 9 price action context)",
+      "url": "https://www.investing.com/equities/schaeffler"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Rank 15 already reflects yesterday's upgrade on the Humanoid actuator supply and deployment deal; no new fundamental information since June 6. Today's -3.9% looks like flow-driven give-back of the post-deal run (YTD cooled from ~12% to ~7.8%) with the thesis fully intact, which marginally improves entry asymmetry but does not justify re-ranking a day after moving up.",
+      "bull": "Binding, phased deployment of a four-digit number of robots across Schaeffler plants plus a 5-year preferred-supplier actuator agreement (>50% of Humanoid's joint-actuator demand, seven-digit unit volumes) makes Schaeffler one of the few proven, revenue-pathed humanoid actuation suppliers at only ~$11B cap, with management targeting triple-digit-million robotics orders by 2030 across ~45 robotics partners.",
+      "neutral": "The humanoid actuator opportunity is real but small relative to a EUR 22.5-24.5B auto-parts revenue base; until robotics orders show up in segment reporting, the stock trades mostly on the depressed auto cycle and today's pullback is noise.",
+      "bear": "Core auto-production exposure already forced a weak 2026 guide (shares fell 19% in March); if Humanoid's December 2026 - June 2027 pilot phase slips or unit economics on actuators disappoint, the robotics optionality premium unwinds while the legacy business keeps grinding lower.",
+      "primaryCatalyst": "First Humanoid pilot deployments at the two German sites starting December 2026, and any quantified humanoid actuator order-book updates at upcoming results.",
+      "primaryRisk": "Weak global auto production swamping the small robotics contribution, with the humanoid deployment timeline slipping past the December 2026 start."
+    }
+  ]
+}

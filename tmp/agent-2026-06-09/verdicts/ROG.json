@@ -1,0 +1,48 @@
+{
+  "symbol": "ROG",
+  "company": "Rogers Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investing.com - Rogers Corp stock hits 52-week high at $144.59 (May 26, 2026; notes 107% 1-yr run, InvestingPro overvalued flag, Q1 EPS $0.75 in line / sales slight miss, El-Haj permanent CEO)",
+      "url": "https://www.investing.com/news/company-news/rogers-corp-stock-hits-52week-high-at-14459-usd-93CH-4710612"
+    },
+    {
+      "label": "StockTitan - Rogers 8-K: shareholders back directors, pay, 2026 ESPP (annual meeting May 6, 2026)",
+      "url": "https://www.stocktitan.net/sec-filings/ROG/8-k-rogers-corp-reports-material-event-fcd4ef5f80f5.html"
+    },
+    {
+      "label": "Yahoo Finance - ROG quote and latest headlines (no fresh material items June 6-9)",
+      "url": "https://finance.yahoo.com/quote/ROG/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved ROG up on this page and nothing new has emerged since June 6; today's -1.15% is drift, not a setup change. The late-May 52-week high after a 107% one-year run (with no fresh design wins or guidance) keeps eroding residual alpha at the margin, hence a small negative drift rather than another rank move.",
+      "bull": "Sub-$2.5B underfollowed materials name with real thermal/laminate exposure to AI power and high-speed signal chains; new permanent CEO executing on margins (gross margin 32.2% vs 29.9% in Q1).",
+      "neutral": "No news since June 6; stock consolidating ~4% below its $144.59 high. Q1 was in line on EPS but light on sales, so the AI-leverage thesis is still more narrative than printed revenue.",
+      "bear": "Up 51% YTD and ~107% in a year on multiple expansion, flagged as overvalued versus fair value; if Q2 (July 30) shows the same flat ~$200M sales run-rate, the rerating unwinds and residual alpha here was already spent.",
+      "primaryCatalyst": "Q2 2026 earnings on July 30 showing AI/power-electronics demand converting to revenue acceleration",
+      "primaryRisk": "Post-rerating crowding: a second consecutive sales miss compresses the multiple on a stock that has already doubled in a year"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "On the network-centrality lens nothing changed: Rogers' position in thermal-interface, high-frequency laminates and power-electronics substrates is intact, and there is no new contract, capacity or regulatory node-level information since June 6. Hold at rank 7 per yesterday's verdict.",
+      "bull": "Curamik/thermal and high-frequency materials sit at a genuine physical chokepoint for AI accelerators, power conversion and RF; margin recovery under the new CEO confirms operational leverage into any electronics upcycle.",
+      "neutral": "Thesis is centrality-based, not price-based, so the -1.15% day and the post-high consolidation are noise; node importance is unchanged pending Q2 evidence of demand pull-through.",
+      "bear": "Centrality has limits: Rogers' end-mix is still heavily EV/industrial/defense, so an AI-driven rerating could outrun the actual AI revenue node, and activist/cyclical sensitivity can swamp the structural story.",
+      "primaryCatalyst": "Concrete AI/data-center design-win or capacity disclosures (thermal-interface, power substrate) at or before Q2 earnings",
+      "primaryRisk": "EV and industrial cyclicality masking or reversing the AI-adjacent demand signal in reported numbers"
+    }
+  ]
+}

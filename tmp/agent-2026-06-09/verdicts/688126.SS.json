@@ -1,0 +1,27 @@
+{
+  "symbol": "688126.SS",
+  "company": "National Silicon Industry Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 9: stock hit the STAR Market 20% limit-up (+20.01% to CNY 31.73, a new 52-week high, >70% above the April 3 low) on a broad semiconductor melt-up (STAR 50 +4%+) driven by the AI/HBM-led wafer upcycle, ~15% YTD silicon wafer price hikes and 300mm capacity tightness. No company-specific announcement (no new contract, earnings, M&A or capacity news) dated June 8-9 was found; the move is sector beta plus retail flow (limit-up buy queue >510k lots), not firm-level evidence. NSIG remains China's #1 domestic 300mm wafer maker (~650k wpm, >30% of mainland capacity) with an ongoing share-issuance asset-purchase restructuring in review.",
+  "sources": [
+    {"label": "Tencent Finance quote 688126 (31.73, +20.01%)", "url": "https://gu.qq.com/sh688126/gp/news"},
+    {"label": "STCN: semiconductor leader hits 20cm limit-up (sector-cycle drivers, 70% rebound off April low)", "url": "https://www.stcn.com/article/detail/3915891.html"},
+    {"label": "CLS: silicon wafer capacity shortage, industry expanding", "url": "https://www.cls.cn/detail/849494"},
+    {"label": "Yahoo Finance 688126.SS quote", "url": "https://finance.yahoo.com/quote/688126.SS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 73,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "A 20% limit-up to a new 52-week high on sector flow and retail chasing, with zero firm-specific news since June 6, is exactly the post-rerating crowding this alpha list penalizes; the under-discovery leg of the watchlist thesis is now consumed (+42% YTD, +70% off April lows).",
+      "bull": "NSIG is the domestic 300mm wafer bottleneck: ~650k wpm, >30% of mainland capacity, with wafer prices up ~15% YTD, long-term contracts that allow price escalation, and AI/HBM-driven demand toward ~4M wpm mainland 300mm demand by end-2026.",
+      "neutral": "The wafer upcycle is real but industry-wide and well covered; today's move was beta to a 4%+ STAR 50 rally rather than a design win or guidance change, so the fundamental case is unchanged while the entry price is 20% worse.",
+      "bear": "Still loss-making at the 300mm margin level versus global peers, the pending share-issuance asset purchase adds dilution risk, and a limit-up on retail flow at a 52-week high invites a sharp give-back if the sector rally fades.",
+      "primaryCatalyst": "Confirmed 300mm wafer ASP hikes flowing into Q2/Q3 results, or completion of the asset-purchase restructuring adding consolidated capacity.",
+      "primaryRisk": "Flow-driven rerating unwinds: the stock round-trips the limit-up if the AI/HBM wafer-tightness narrative cools, with crowding now high after the 70% rebound."
+    }
+  ]
+}

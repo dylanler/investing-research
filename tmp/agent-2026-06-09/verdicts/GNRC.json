@@ -1,0 +1,39 @@
+{
+  "symbol": "GNRC",
+  "company": "Generac",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Generac IR - Global supply agreement with leading hyperscale data center operator (Jun 2, 2026 - predates window)",
+      "url": "https://investors.generac.com/news-releases/news-release-details/generac-signs-global-supply-agreement-leading-hyperscale-data"
+    },
+    {
+      "label": "TIKR - Jefferies upgrades Generac to Buy, $302 PT (May 22, 2026 - predates window)",
+      "url": "https://www.tikr.com/blog/jefferies-upgrades-generac-to-buy-what-a-302-target-means-for-gnrc-investors"
+    },
+    {
+      "label": "CNBC - Jefferies turns bullish on Generac AI infrastructure upside (May 22, 2026)",
+      "url": "https://www.cnbc.com/2026/05/22/this-generator-stock-will-get-a-boost-from-the-ai-infrastructure-boom-says-jefferies.html"
+    },
+    {
+      "label": "StockTitan - Generac global data center backup power deal coverage",
+      "url": "https://www.stocktitan.net/news/GNRC/generac-signs-global-supply-agreement-with-leading-hyperscale-data-ax5yt4r6wb4k.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 71: no material news since June 6 - the hyperscale supply deal (Jun 2) and Jefferies/UBS upgrades (May 22 / May 5) all predate the window and were already reflected in yesterday's hold. Today's -3.2% is mild consolidation, not a setup change; small negative delta because the 'underfollowed' leg of the thesis keeps eroding as sell-side coverage and AI-datacenter narrative attention pile in after the +82% YTD rerating.",
+      "bull": "The global hyperscale supply agreement validates Generac as a credible second source in genset-constrained data center backup power, and C&I momentum (Q1 sales +12%, raised FY26 guide to mid-to-high-teens growth) gives fundamental backing to the move.",
+      "neutral": "Everything driving the stock - the deal, upgrades, guidance raise - is now public and well-covered; at +82% YTD the name is fairly tracked rather than hidden, leaving it a benchmark/monitor position rather than fresh alpha.",
+      "bear": "Post-rerating chase risk: a 'tight-supply, underfollowed' thesis no longer holds after CNBC/Jefferies/UBS attention; residential outage-driven core remains cyclical, and any hyperscaler order slippage or capex digestion would hit a stock priced for data center acceleration.",
+      "primaryCatalyst": "Disclosure of hyperscale agreement volumes/economics or a second hyperscaler win; Q2 earnings showing data center backlog conversion.",
+      "primaryRisk": "Crowding unwind after the 82% YTD run if AI-power sentiment cools or the hyperscale deal proves smaller than the rerating implies."
+    }
+  ]
+}

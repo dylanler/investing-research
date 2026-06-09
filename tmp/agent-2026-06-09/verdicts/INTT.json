@@ -1,0 +1,27 @@
+{
+  "symbol": "INTT",
+  "company": "inTEST Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news. Only a routine press release on presentations/1x1s at the Sidoti and Northland Capital Markets growth conferences (June 23) and the upcoming June 17 AGM. The Q1 2026 beat (revenue $33.9M, +27% y/y; return to profitability; backlog +35.5%) and the FY26 revenue guidance raise to $130-135M date to May 5 and were already reflected in yesterday's verdict. Day move -0.42% is noise.",
+  "sources": [
+    {"label": "StockTitan - InTest to present at Sidoti, Northland conferences (June 23)", "url": "https://www.stocktitan.net/news/INTT/in-test-corporation-to-present-at-upcoming-investor-xcodbwst9txz.html"},
+    {"label": "StockTitan - INTT news feed (no new items since the conference PR)", "url": "https://www.stocktitan.net/news/INTT/"},
+    {"label": "StockTitan - InTest lifts 2026 outlook after strong Q1 (8-K, May 5, 2026)", "url": "https://www.stocktitan.net/sec-filings/INTT/8-k-intest-corp-reports-material-event-4caba9e0a5ca.html"},
+    {"label": "Yahoo Finance INTT quote", "url": "https://finance.yahoo.com/quote/INTT/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "No new fundamental evidence since June 6 and a flat tape (-0.42%) leave yesterday's hold intact; the only nick is rerating discipline - the stock has already doubled YTD (+106%) on a month-old guidance raise without any AI-specific packaging/burn-in design win surfacing, so the latent optionality this page rewards is slightly less mispriced than when the thesis was minted.",
+      "bull": "Tiny ($0.18B), under-followed thermal/test supplier with a fresh return to profitability, raised FY26 guidance ($130-135M) and backlog +35.5% y/y; high operating leverage if AI advanced-packaging burn-in/test demand broadens beyond the obvious semicap names.",
+      "neutral": "Q1 strength and the guidance raise are real but a month old and largely priced after the +106% YTD move; the June 23 Sidoti/Northland circuit adds visibility, not fundamentals.",
+      "bear": "Semi is only one of several end markets (auto/EV, defense, industrial); the AI test/packaging optionality is still unproven by a named win, Q1 orders ($31.8M) ran below revenue, and a doubled, thin-liquidity micro-cap gives back gains fast if semicap orders stall.",
+      "primaryCatalyst": "A named AI advanced-packaging/burn-in test order or the Q2 print (early August) confirming the $32-34M guide and raised FY26 outlook; near-term visibility from the June 23 investor conferences.",
+      "primaryRisk": "Rerating exhaustion: +106% YTD on a $184M micro-cap without an AI-specific design win leaves the stock exposed to any semicap order softness, decelerating book-to-bill, or guidance walk-back."
+    }
+  ]
+}

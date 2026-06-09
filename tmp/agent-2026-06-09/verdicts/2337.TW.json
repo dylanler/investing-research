@@ -1,0 +1,39 @@
+{
+  "symbol": "2337.TW",
+  "company": "Macronix International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Digitimes (Jun 8) reported Macronix posted a single-month record May 2026 revenue of ~NT$6.26B, with NOR flash up ~47% YoY on AI server/HPC demand; management has shifted to monthly pricing with continued hikes as Samsung's SLC NAND exit leaves a supply vacuum. Meanwhile the stock has pulled back roughly 20% from its June 2 all-time high (~NT$180) to NT$145.5, so the +1.4% day move is a modest rebound, not a chase.",
+  "sources": [
+    {
+      "label": "Digitimes - Adata, Macronix report record May revenue amid rising memory demand, prices (Jun 8, 2026)",
+      "url": "https://www.digitimes.com/news/a20260608PD232/adata-macronix-international-memory-chips-demand-revenue-2026.html"
+    },
+    {
+      "label": "BigGo Finance - Macronix FY2026 Q1 earnings call (EPS NT$0.9, GM 40.8%, 'each quarter better than the last')",
+      "url": "https://finance.biggo.com/news/TW_2337.TW_2026-04-27"
+    },
+    {
+      "label": "Smartkarma - Macronix: NOR flash shortage intensifies as AI racks drive new type of demand",
+      "url": "https://www.smartkarma.com/insights/macronix-2337-tt-nor-flash-shortage-intensifies-as-ai-racks-drive-new-type-of-demand"
+    },
+    {
+      "label": "Investing.com - Macronix 2337.TW quote (ATH ~NT$180 on Jun 2, 2026)",
+      "url": "https://www.investing.com/equities/macronix"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "New hard data since yesterday's hold: record May revenue (NT$6.26B, NOR +47% YoY on AI servers) confirms the memory-tightness thesis, while a ~20% pullback from the June 2 all-time high restores some asymmetry at rank 98 - the sell-off plus thesis-confirming evidence warrants a modest move up, not a chase.",
+      "bull": "Monthly revenue records (April, then May), monthly repricing with continued hikes, and Samsung's SLC NAND exit give Macronix structural pricing power in NOR/SLC niches tied to every AI rack; Q1 GM already rebounded to 40.8% with management guiding each quarter better.",
+      "neutral": "The thesis is now well-covered (Digitimes, Smartkarma, sell-side notes) and +235% YTD means much of the rerating has happened; record monthly revenue confirms rather than extends the story, so this is incremental, not thesis-changing.",
+      "bear": "Specialty memory cycles turn fast: NT$22B capex restart plus industry supply responses could normalize NOR/SLC pricing into 2027, and a stock that fell ~20% off its high in a week shows how flow-sensitive the register has become.",
+      "primaryCatalyst": "July 28 Q2 earnings confirming sequential margin/ASP gains; further NOR/SLC price-hike announcements.",
+      "primaryRisk": "Memory pricing rolls over or AI server NOR content gets second-sourced, deflating a +235% YTD rerating built on a tight-supply narrative."
+    }
+  ]
+}

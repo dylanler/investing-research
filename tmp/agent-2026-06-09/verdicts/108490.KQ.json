@@ -1,0 +1,27 @@
+{
+  "symbol": "108490.KQ",
+  "company": "ROBOTIS",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Context: the stock spiked ~25% on June 1 to ~407,500 KRW on delivery-robot expansion hype and foreign/institutional buying (after a KRX investment-warning designation notice in May), then fully unwound to ~290,000 KRW by June 8-9 (~-29% off the spike high, flat today at +0.17%). The move was flow-driven speculation and its reversal, not a thesis event; the humanoid actuator (Dynamixel) and outdoor delivery-robot commercialization story is intact.",
+  "sources": [
+    {"label": "Aju Fortune - ROBOTIS +25% June 1 spike on foreign/institutional buying", "url": "https://m.fortune.ajunews.com/bbs/view/news//5413436?page=11&pageblock=11"},
+    {"label": "CBC News - ROBOTIS intraday +17% on delivery-robot business expansion", "url": "https://cbci.co.kr/news/articleView.html?idxno=578532"},
+    {"label": "Daum Finance disclosure - KRX investment-warning designation notice (May 2026)", "url": "https://m.finance.daum.net/quotes/A108490/news/disclosure/20260511055640"},
+    {"label": "Investing.com - ROBOTIS quote/price history", "url": "https://www.investing.com/equities/robotis"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new information since yesterday's hold, which was already issued at the post-crash price; today is flat (+0.17%). The full unwind of the speculative June 1 spike (KRX-flagged, flow-driven) de-crowds the name slightly and restores some asymmetry, but the 'fairly valued after Korea robotics rerating' thesis stands, so rank 27 holds with a small positive drift.",
+      "bull": "Top-tier actuator (Dynamixel) purity with reported adoption by a leading Chinese humanoid maker, plus real outdoor delivery-robot operating-fleet growth; the -29% retrace from the June 1 high removes froth without any fundamental deterioration.",
+      "neutral": "YTD is back to +7.6% and the speculative round-trip mostly restored the prior setup; at ~$2.65B cap it remains a fairly valued, cleaner humanoid-actuator comp without a fresh catalyst since June 6.",
+      "bear": "The KRX investment-warning episode shows the register is dominated by hot retail/momentum flow, and Schaeffler's preferred-supplier actuator deal with Humanoid (May 13) is a reminder that large motion-tech incumbents can crowd merchant actuator suppliers out of Western humanoid platforms.",
+      "primaryCatalyst": "Confirmed humanoid actuator design wins (Chinese or Western OEMs) or nationwide scaling of the outdoor delivery-robot fleet showing up in revenue.",
+      "primaryRisk": "Renewed speculative volatility/KRX trading designations and actuator competition from in-house and incumbent suppliers (e.g., Schaeffler) compressing the merchant-actuator opportunity."
+    }
+  ]
+}

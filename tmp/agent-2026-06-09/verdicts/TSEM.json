@@ -1,0 +1,41 @@
+{
+  "symbol": "TSEM",
+  "company": "Tower Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamental news since June 6. The -7.8% June 9 move is flow-driven: chip-sector de-risking after the June 5 Broadcom-triggered SOX rout (~$1T wiped, worst day since 2020) plus profit-taking on TSEM's May silicon-photonics rerating ($1.3B contracted 2027 photonics revenue, $290M prepayments, Susquehanna PT $180->$330, Benchmark $230->$335 - all mid-May news). A June 9 Motley Fool piece is a recap of the May surge, not new information. YTD has compressed from ~99% (June 8 case) to 83.3% at $223.16.",
+  "sources": [
+    {"label": "Tower IR - $1.3B silicon photonics 2027 contracts press release", "url": "https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-signs-customer-contracts-13-billion-silicon"},
+    {"label": "QuiverQuant - TSEM slides as chip stocks retreat, traders lock in photonics-rally gains", "url": "https://www.quiverquant.com/news/Tower+Semiconductor+slides+as+chip+stocks+retreat+and+traders+lock+in+gains+after+recent+photonics-driven+rally"},
+    {"label": "Motley Fool (Jun 9, 2026) - Why Tower Semiconductor Soared in May (recap, no new news)", "url": "https://www.fool.com/investing/2026/06/09/why-tower-semiconductor-soared-in-may/"},
+    {"label": "CTech - Tower surges on $1.3B photonics contracts, valuation over $25B", "url": "https://www.calcalistech.com/ctechnews/article/bytx2jgyml"},
+    {"label": "Intellectia - June 2026 semiconductor selloff analysis (Broadcom miss, yield spike)", "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 20,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On the manufacturing-tollgate lens the thesis is untouched: -7.8% today is sector flow (post-Broadcom chip de-risking) against $1.3B of contracted 2027 photonics revenue and $290M of prepayments that hard-wire Tower into the optical-connectivity supply chain. A sharp flow-driven sell-off with the tollgate thesis intact improves asymmetry at $223 vs $242 yesterday.",
+      "bull": "Contracted, prepaid 2027 photonics revenue (with even larger 2028 commitments flagged) converts Tower from a cyclical specialty foundry into a booked AI-optics capacity tollgate; the ~8% flow dip is a better entry on an unchanged thesis.",
+      "neutral": "No new information since June 6; the move nets out to mean-reversion of a crowded May rerating, and rank 20 already reflects the contract news.",
+      "bear": "Broadcom's AI-networking miss is a demand-side warning for the whole optical chain; if AI capex digestion sets in, 2028 commitments could be deferred and the specialty-foundry cycle reasserts itself on a $29B market cap.",
+      "primaryCatalyst": "Q2 2026 results (record ~$455M revenue guide) and the January 2027 prepayment for 2028 photonics capacity confirming the larger 2028 commitment.",
+      "primaryRisk": "AI optical-module demand digestion (Broadcom-style guidance disappointment) hitting photonics utilization and unwinding the booked-capacity premium."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On the crowding-sensitive CPO alpha lens, Tower is no longer hidden: the May photonics rerating (PT doublings, all-time highs, $25B+ valuation headlines) fully discovered the SiPho story, so residual alpha stays compressed even at rank 48. Today's flow-driven -7.8% partially de-crowds the name and offsets the chase penalty, netting to a hold with mild positive drift.",
+      "bull": "Tower is one of the few merchant foundries with contracted, prepaid SiPho revenue feeding 1.6T optics and CPO transitions; a flow-driven pullback on intact bookings restores some asymmetry.",
+      "neutral": "The $1.3B contract story is a month old and consensus-owned (Buy ratings, $277-335 targets); today's dip is noise within an already-rerated name at rank 48.",
+      "bear": "Post-rerating crowding plus a sector in profit-taking mode means further multiple compression toward specialty-foundry comps if photonics order momentum pauses; the under-owned alpha that justified the original listing is largely spent.",
+      "primaryCatalyst": "New SiPho/CPO design wins or 2028 capacity commitments beyond the disclosed $1.3B that would re-open the discovery gap.",
+      "primaryRisk": "Crowded ownership after a ~100% peak YTD run leaves the name exposed to continued AI-hardware de-risking flows regardless of fundamentals."
+    }
+  ]
+}

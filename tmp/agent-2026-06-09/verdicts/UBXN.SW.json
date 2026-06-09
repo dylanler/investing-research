@@ -1,0 +1,26 @@
+{
+  "symbol": "UBXN.SW",
+  "company": "u-blox",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since Jun 6, but a structural fact the prior verdict missed: u-blox completed its take-private by Advent International (ZI Zenith) at CHF 135/share; SIX set May 15, 2026 as the last trading day and May 18, 2026 as the delisting date, with cash compensation of CHF 135 for cancelled shares. June filings (SIX disclosure-exemption extension granted, annual-report relief until at least Jun 30, 2026) confirm the delisting/squeeze-out is in final stages. The quote pinned at CHF 134.4 with a 0.0% day move is a dead arb stub, not a tradable alpha vehicle.",
+  "sources": [
+    {"label": "TipRanks - U-blox to Delist from SIX as Advent-Backed Owner Buys Out Remaining Shares", "url": "https://www.tipranks.com/news/company-announcements/u-blox-to-delist-from-six-as-advent-backed-owner-buys-out-remaining-shares"},
+    {"label": "Advent International - Advent completes acquisition of u-blox", "url": "https://www.adventinternational.com/news/advent-completes-acquisition-of-u-blox/"},
+    {"label": "TipRanks - U-blox Wins Extension of Disclosure Exemptions as Delisting Nears Completion", "url": "https://www.tipranks.com/news/company-announcements/u-blox-wins-extension-of-disclosure-exemptions-as-delisting-nears-completion"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 13,
+      "rankMove": "down",
+      "scoreDelta": -8,
+      "confidence": 0.92,
+      "rankRationale": "On an alpha-seeking scaling watchlist, a name that has been taken private at a fixed CHF 135 cash price and delisted from SIX (last trading day May 15, 2026) has zero residual upside asymmetry; the pinned 134.4 quote is a settlement stub. This is thesis-terminating for public-market alpha and the name should fall to the bottom of the page pending removal.",
+      "bull": "The edge-positioning/GNSS thesis itself was validated - Advent paid a premium to take the asset private precisely because positioning modules for robotics and edge devices are strategic. Remaining holders get CHF 135 cash, a riskless ~0.4% to the pin.",
+      "neutral": "The operating story continues under Advent (ZED-X20P high-precision module, LEO-PNT signal trials with ESA), but none of it accrues to public shareholders anymore; the listing exists only until squeeze-out mechanics complete.",
+      "bear": "Holding a delisted/cancelled-share stub carries settlement friction and zero optionality; the alpha list keeps a dead ticker in slot 13 while genuinely investable bottleneck names sit below it.",
+      "primaryCatalyst": "Final squeeze-out cancellation and CHF 135 cash compensation settlement, removing the ticker entirely.",
+      "primaryRisk": "Stale-quote risk only: the position cannot rerate; the real risk is opportunity cost of list space occupied by a non-investable name."
+    }
+  ]
+}

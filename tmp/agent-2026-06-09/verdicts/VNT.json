@@ -1,0 +1,40 @@
+{
+  "symbol": "VNT",
+  "company": "Vontier",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan - Vontier lifts buyback authorization to $1.0B (May 19, pre-window)", "url": "https://www.stocktitan.net/news/VNT/vontier-increases-share-repurchase-authorization-to-1-0-billion-and-c2kvc4quxui5.html"},
+    {"label": "Businesswire - Vontier Q1 2026 results and reaffirmed FY26 guidance (May 7, pre-window)", "url": "https://www.businesswire.com/news/home/20260507370392/en/Vontier-Reports-First-Quarter-Results-and-Reaffirms-Full-Year-2026-Guidance"},
+    {"label": "Motley Fool - Vontier Q1 2026 earnings transcript (Teletrac divestiture, $220M, June close expected)", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/vontier-vnt-q1-2026-earnings-transcript/"},
+    {"label": "Yahoo Finance - VNT quote", "url": "https://finance.yahoo.com/quote/VNT/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6 on the latent edge-data thesis; +0.74% today is drift and yesterday's verdict already reconciled the -24% YTD setup. The pending Teletrac telematics sale (announced pre-window) is a known watch item, not fresh information.",
+      "bull": "Beaten-down -24% YTD with a $1.0B buyback authorization on a $4.0B cap gives a hard floor while the fueling/retail device-network edge-data option stays free; any AI/edge framing by management would be entirely unpriced.",
+      "neutral": "Vontier remains a sleepy GDP-ish industrial with a speculative, non-consensus AI angle; until management monetizes device data, the name trades on fueling capex and buyback math, not the thesis.",
+      "bear": "Selling Teletrac removes one of the clearest connected-device data assets, weakening the edge-data narrative this page rests on; core fueling exposure faces secular EV-transition pressure.",
+      "primaryCatalyst": "Teletrac divestiture close in June plus aggressive buyback deployment; any management framing of diagnostics/connected-device data as an edge-AI asset.",
+      "primaryRisk": "Portfolio refocus strips out the data-network assets the latent-AI thesis depends on, leaving a shrinking fueling-hardware core."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict-screen pathway (mobility/sensing/fueling/environmental supporting energy-managed industrial campuses) is unchanged; no contracts, guidance, or capacity news since June 6 and the adjusted-score rank already sits well ahead of displayed rank per yesterday's reconciliation.",
+      "bull": "FY26 guidance reaffirmed ($3.10-3.15B sales, ~3% core growth) with margin expansion intact and most of FY26 FCF going to buybacks; the energy-managed-campus pathway costs nothing at this valuation after a -24% YTD reset.",
+      "neutral": "Evidence on the strict pathway is static; the stock is a capital-return story near-term and the industrial-campus energy angle remains a slow-burn option with no new proof points this week.",
+      "bear": "Low single-digit core growth and EV-driven erosion of fueling infrastructure demand cap the upside; divestitures shrink the sensing/telematics footprint the strict screen credits.",
+      "primaryCatalyst": "Q2 results and Teletrac close confirming cleaner portfolio plus buyback acceleration; EV-charging/fleet-infrastructure wins that validate the energy-management pathway.",
+      "primaryRisk": "Core fueling demand decay outpaces the pivot, making the strict-screen pathway a narrative without revenue."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "WAF.DE",
+  "company": "Siltronic",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news. The -7.0% June 9 drop (after -6.9% on June 5, with intraday prints as low as EUR 87.35, -13%) is part of a global post-Computex profit-taking wave in AI semiconductor names hitting German chip suppliers (Aixtron, Suss Microtec, Wacker also down). Stock is now ~18% below its early-June annual high of EUR 108.60. Standing overhangs predate June 6: Wacker Chemie placed ~6% of share capital on May 26; UBS withdrew its buy rating calling the stock fairly valued at EUR 104; AlphaValue cut 2026 EPS on supply-chain inventory burdens; consensus price target (~EUR 81) sits below spot even after the pullback. Q1 2026 was weak (revenue -17.5% q/q) and FY26 guidance calls for sales mid-single-digit % below 2025, with AI/300mm the only firm demand pocket.",
+  "sources": [
+    {"label": "Boerse Express - Siltronic Aktie: 13,26-Prozent-Sturz auf 87,35 Euro", "url": "https://www.boerse-express.com/news/articles/siltronic-aktie-1326-prozent-sturz-auf-8735-euro-913820"},
+    {"label": "IT-Boltwise - Halbleiterwerte unter Druck: Gewinnmitnahmen nach KI-Rally", "url": "https://www.it-boltwise.de/halbleiterwerte-unter-druck-gewinnmitnahmen-nach-ki-rally-treffen-infineon-co.html"},
+    {"label": "wallstreetONLINE - Siltronic -6,89% Ruecksetzer (05.06.2026)", "url": "https://www.wallstreet-online.de/nachricht/20968858-beachtet-siltronic-ag-aktie-deutlichem-ruecksetzer-6-89-05-06-2026"},
+    {"label": "Boerse Express - Wacker Chemie: Siltronic-Abbau und Analystenwarnung (26.05.2026)", "url": "https://www.boerse-express.com/news/articles/wacker-chemie-aktie-siltronic-abbau-und-analystenwarnung-909607"},
+    {"label": "onvista - Chipwerte mit erstem Stabilisierungsversuch nach Ausverkauf (08.06.2026)", "url": "https://www.onvista.de/news/2026/06-08-aktien-im-fokus-2-chipwerte-mit-erstem-stabilisierungsversuch-nach-ausverkauf-0-10-26519620"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Flow-driven post-Computex flush (-18% off the June high) modestly improves entry asymmetry, but on this bottleneck-quality lens nothing changed: wafers outside AI/300mm remain in inventory overhang, Q1 missed, and consensus PT (~EUR 81) is still below spot, so the hold from June 8 stands with slight positive drift.",
+      "bull": "AI/HBM is structurally shifting demand to 300mm wafers where Siltronic is one of only ~5 global suppliers; an 18% drawdown on zero new fundamental news rebuilds upside into the eventual non-AI inventory normalization.",
+      "neutral": "Stock is still +75% YTD against a FY26 guide for declining sales; the sell-off merely unwinds May's +31% froth back toward UBS's EUR 104 'fairly valued' and consensus EUR 81, leaving rank 43 about right.",
+      "bear": "Q1 revenue fell 17.5% q/q, non-AI end markets (auto, industrial, smartphones) stay soft, price pressure persists outside LTAs, and Wacker's residual ~25% stake is a recurring placement overhang on any rally.",
+      "primaryCatalyst": "Q2 2026 results / guidance update showing 300mm AI-driven wafer orders outpacing the inventory drawdown, or a new LTA/capacity commitment from an HBM customer.",
+      "primaryRisk": "Inventory overhang outside AI persists into 2027 and pricing pressure compounds, making the +75% YTD re-rating unwind fundamental rather than flow-driven."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 45,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down call on this crowding-sensitive list was driven by the +90% YTD chase; that exact risk has now partially discharged via a flow-driven -18% flush from the high with the upstream wafer-substrate thesis intact, which on this page's own discipline improves residual asymmetry.",
+      "bull": "Sharp sell-off with no thesis-relevant news is the textbook asymmetry-restoring setup for an upstream substrate bottleneck name; 300mm AI demand shift is unchanged and the momentum crowd is being washed out.",
+      "neutral": "Crowding has eased but not cleared - still +75% YTD on a EUR 3.5B cap with consensus PT below price, so the move up should be modest, not a re-tiering.",
+      "bear": "The 'bottleneck' is not currently binding: wafer supply outside AI is in oversupply with customers destocking, so a scaling-driven order inflection could be quarters away while guidance points to lower 2026 sales.",
+      "primaryCatalyst": "Evidence that AI fab and HBM capacity additions are tightening 300mm wafer supply (LTA renewals, pricing stabilization, or order-intake commentary at Q2).",
+      "primaryRisk": "Post-Computex AI de-rating deepens across the sector and momentum unwind overshoots, dragging the name down regardless of the substrate thesis."
+    }
+  ]
+}

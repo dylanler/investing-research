@@ -1,0 +1,39 @@
+{
+  "symbol": "ENA.V",
+  "company": "Enablence Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Newsfile - Enablence Q1FY27 $5.3M order for 800G/1.6T optical products (Jun 3, 2026 - pre-window)",
+      "url": "https://www.newsfilecorp.com/release/300072/Enablence-Announces-Q1FY27-Order-for-Optical-Communications-Products-to-Support-HighSpeed-AI-Hyperscalers"
+    },
+    {
+      "label": "StockTitan - Enablence nets $5.3M Q1FY27 AI datacenter order",
+      "url": "https://www.stocktitan.net/news/ENAFF/enablence-announces-q1fy27-order-for-optical-communications-products-rme8bh9tq6kh.html"
+    },
+    {
+      "label": "TMX Newsfile - Enablence press release index (no releases after Jun 3)",
+      "url": "https://www.newsfilecorp.com/company/2725/Enablence-Technologies-Inc."
+    },
+    {
+      "label": "Yahoo Finance - ENA.V quote",
+      "url": "https://finance.yahoo.com/quote/ENA.V/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "No new releases since the Jun 3 record $5.3M FR8 order, and yesterday's verdict already demoted the name for post-rerating crowding after a ~535% YTD run; today's -4.8% drift modestly restores asymmetry without changing the setup, so hold at rank 34 on this crowding-sensitive alpha screen.",
+      "bull": "Largest-ever order validates the FR8 wavelength-management ramp into 800G/1.6T transceivers for North American hyperscalers, and the Sivers/O-Net CPO collaboration gives a real CPO bottleneck angle for a $0.19B microcap.",
+      "neutral": "Thesis intact but fully discovered: a +535% YTD microcap with a single validated order bundle is consolidating, and a -4.8% day is noise rather than a re-entry signal.",
+      "bear": "Trailing quarterly revenue of ~US$2.25M against a sustained net loss means the valuation already prices flawless execution; any order slippage or financing need could unwind the rerating violently given microcap liquidity.",
+      "primaryCatalyst": "Q4FY26 shipment commencement on the $5.3M FR8 order and any follow-on hyperscaler orders or CPO design-win news from the Sivers/O-Net collaboration.",
+      "primaryRisk": "Microcap liquidity and single-bundle validation risk after a ~535% YTD rerating - crowded retail ownership can deleverage fast on any execution delay."
+    }
+  ]
+}

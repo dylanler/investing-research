@@ -1,0 +1,35 @@
+{
+  "symbol": "MGAM.L",
+  "company": "Morgan Advanced Materials",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investegate - Morgan Advanced Materials RNS feed (latest: June 1 Director/PDMR shareholding; nothing material since June 6)",
+      "url": "https://www.investegate.co.uk/company/MGAM"
+    },
+    {
+      "label": "TipRanks - Morgan Advanced Materials posts solid Q1, reaffirms 2026 outlook (May 2026 trading update)",
+      "url": "https://www.tipranks.com/news/company-announcements/morgan-advanced-materials-posts-solid-q1-and-reaffirms-2026-outlook"
+    },
+    {
+      "label": "Yahoo Finance quote - MGAM.L",
+      "url": "https://finance.yahoo.com/quote/MGAM.L/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's 'up' was a rank reconciliation that has now largely been realized (rank 19 vs adjusted-score rank 18); no RNS or fundamental news since June 6, and today's -0.9% drift changes nothing about the latent thermal-ceramics setup, so hold.",
+      "bull": "An $830M, flat-YTD, under-owned thermal ceramics and technical-ceramics name with real exposure to AI power/heat constraints; the May Q1 update showed 6.2% organic growth and reaffirmed FY2026 guidance, so the latent thesis is intact with no crowding premium to give back.",
+      "neutral": "Q1 growth was flattered by a weak prior-year comparator and the market still reads Morgan as a cyclical European industrial; until semicap/thermal demand visibly inflects, the stock stays cheap-but-dormant and the AI-node optionality remains unpriced and unproven.",
+      "bear": "Semiconductor and European industrial end-markets stay weak, inflation pass-through stalls, and the AI thermal angle never becomes a large enough revenue mix to rerate the multiple; a small-cap LSE listing also limits the flow that would close the value gap.",
+      "primaryCatalyst": "H1 2026 results / trading update showing semiconductor and thermal-products order recovery, or a disclosed AI-datacenter-linked design win in thermal ceramics.",
+      "primaryRisk": "Prolonged semicap and European industrial weakness keeps organic growth and margins suppressed, leaving the AI-bottleneck optionality stranded in a low-multiple cyclical."
+    }
+  ]
+}

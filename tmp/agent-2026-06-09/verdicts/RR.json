@@ -1,0 +1,27 @@
+{
+  "symbol": "RR",
+  "company": "Richtech Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Shares fell another -6.16% on June 9 as the Nasdaq noncompliance overhang (late March-31 Form 10-Q, formal delisting-threat notice covered June 4) presses into an imminent fiscal Q2 report (June 9-16 window; consensus EPS -$0.04 on ~$2.0M revenue). Backdrop: prior quarter revenue fell 9% YoY to $1.15M with GAAP net loss widening to $8.4M, pending shareholder lawsuits, and a May 29 $21.2M Las Vegas warehouse purchase pivoting capital toward AI-infrastructure/data-center buildout rather than robot commercialization. Today's slide is fundamental/governance de-risking, not flow.",
+  "sources": [
+    {"label": "Yahoo Finance - Why Richtech Robotics (RR) Is Down 6.0% After Nasdaq Noncompliance Notice Over Delayed 10-Q Filing", "url": "https://finance.yahoo.com/markets/stocks/articles/why-richtech-robotics-rr-down-071121554.html"},
+    {"label": "Foreign Policy Journal (2026-06-04) - Richtech Robotics Faces Delisting Threat As Nasdaq Noncompliance Notice Sends Shares Sliding", "url": "https://www.foreignpolicyjournal.com/2026/06/04/richtech-robotics-nasdaq-rr-stock-faces-delisting-threat-as-nasdaq-noncompliance-notice-sends-shares-sliding/"},
+    {"label": "StockTitan - Richtech Robotics completes $21.2M Las Vegas warehouse acquisition (May 29, 2026)", "url": "https://www.stocktitan.net/news/RR/richtech-robotics-completes-strategic-acquisition-of-warehouse-7u5mjr4hxano.html"},
+    {"label": "Benzinga - Richtech Robotics earnings estimates (Q2 FY26, EPS -$0.04)", "url": "https://www.benzinga.com/quote/RR/earnings"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 6,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On a robotics builder-purity list, a live Nasdaq delisting threat from a late 10-Q plus declining revenue (-9% YoY to $1.15M) directly undercuts the commercialization-evidence leg; today's -6% slide is governance-driven de-risking, so the rerating-discipline 'sell-off improves asymmetry' exemption does not apply because the thesis is not intact.",
+      "bull": "If the delayed 10-Q is filed and fiscal Q2 (due June 9-16) shows ADAM/Scorpion deployment traction, the NVIDIA Isaac/Jetson Thor positioning at a $0.71B cap and -34% YTD offers genuine torque; the $21.2M Las Vegas facility adds GPU/data-collection optionality for World Action Model training.",
+      "neutral": "Sub-$2M quarterly revenue means the humanoid/service-robot story is still pre-commercial; until filings are current and the lawsuit overhang clears, the stock trades on compliance headlines and retail flow rather than design wins.",
+      "bear": "Late filings, a formal Nasdaq noncompliance notice, widening losses ($8.4M last quarter on $1.15M revenue), shareholder suits, and capital diverted to a warehouse/data-center pivot point to escalating dilution and possible delisting before the robotics thesis can ever be tested.",
+      "primaryCatalyst": "Fiscal Q2 earnings and delinquent 10-Q filing in the June 9-16 window, restoring Nasdaq compliance.",
+      "primaryRisk": "Failure to cure the late filing leading to Nasdaq delisting, compounded by cash burn and dilution at a sub-$2M revenue run-rate."
+    }
+  ]
+}

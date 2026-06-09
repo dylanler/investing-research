@@ -1,0 +1,53 @@
+{
+  "symbol": "ASML",
+  "company": "ASML Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 8: shares surged ~5.6-7% to a record ~$674B European market cap after CEO Fouquet confirmed direct talks with Elon Musk about supplying EUV equipment for the SpaceX/Tesla 'Terafab' Texas fab ($55B+, reports up to $119B); Musk joined ASML's Jun 9-10 private technology conference virtually. Coverage also flags raised 2026 revenue guidance (EUR 36-40B) and a >$7B multi-year SK Hynix EUV order for HBM expansion. No signed Terafab equipment orders yet. Jun 9 ADR -0.55% as the pop digests.",
+  "sources": [
+    {"label": "Bloomberg - Musk to address ASML event on Terafab (Jun 6, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-06-06/elon-musk-to-attend-asml-s-private-tech-event-to-discuss-terafab"},
+    {"label": "TechTimes - ASML hits $674B Europe record on Musk Terafab bet (Jun 8, 2026)", "url": "https://www.techtimes.com/articles/318012/20260608/asml-stock-hits-674b-europe-record-musk-terafab-bet-drives-fresh-surge.htm"},
+    {"label": "TradingKey - ASML moved up 7.15% on Jun 8: key drivers", "url": "https://www.tradingkey.com/news/market-movers/261953371-market-movers-asml-20260608"},
+    {"label": "Simply Wall St - ASML up 8.7% after Musk Terafab tie-up and higher 2026 guidance", "url": "https://simplywall.st/stocks/nl/semiconductors/ams-asml/asml-holding-shares/news/asml-holding-enxtamasml-is-up-87-after-musk-terafab-tie-up-a"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "This page already caps ASML for crowding and valuation discovery; a ~7% surge to a record $674B market cap on a Musk Terafab headline, without signed orders, is exactly the post-rerating chase the alpha lens penalizes.",
+      "bull": "Terafab would add an entirely new leading-edge customer on top of raised EUR 36-40B 2026 guidance and a >$7B SK Hynix EUV order; the monopoly is tightening, not loosening.",
+      "neutral": "Genuinely positive demand signals, but talks are not orders and ASML's bottleneck status was already fully discovered; the news mostly validates consensus.",
+      "bear": "At record market cap and +49% YTD, a speculative Musk headline pricing in unbooked demand leaves the name vulnerable to a 'talks fizzle' reversal and to China/capex-cycle disappointments.",
+      "primaryCatalyst": "Signed Terafab EUV/litho purchase agreements or Q2 bookings confirming the demand step-up",
+      "primaryRisk": "Terafab talks fading or being deferred, deflating a headline-driven rerating with no order backlog behind it"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "The choke-point centrality thesis is intact and arguably strengthened by the SK Hynix EUV order, but nothing in the Terafab news changes ASML's indirect CPO linkage; already ranked deep at 72, the headline rerating only trims residual alpha at the margin.",
+      "bull": "More EUV-intensive logic and HBM capacity (Terafab, SK Hynix) raises advanced-node and packaging flows that ultimately pull CPO-adjacent demand through ASML's tools.",
+      "neutral": "News is about lithography demand broadly, not co-packaged optics specifically; the page-relevant exposure is unchanged.",
+      "bear": "A record-valuation mega-cap with indirect CPO exposure offers little asymmetric upside on this list, and China restrictions remain a live capex risk.",
+      "primaryCatalyst": "Advanced-node and packaging capacity announcements that explicitly expand CPO-relevant fab flows",
+      "primaryRisk": "China export-control escalation or a capex-cycle rollover hitting bookings"
+    },
+    {
+      "page": "companies",
+      "currentRank": 75,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "The page's audit note rewards scarce bottleneck exposure that has NOT already rerated; a record market cap print on an unsigned Musk Terafab headline plus +49% YTD reduces the residual alpha this broad pick-and-shovel list is scoring.",
+      "bull": "Raised EUR 36-40B 2026 guidance, exploding EUV bookings, and a potential brand-new US hyperscale-fab customer extend the upstream demand runway into 2027-2028.",
+      "neutral": "Strong fundamentals, but they are the most widely understood fundamentals in semis; the marginal buyer is chasing headlines, not discovering the bottleneck.",
+      "bear": "If Terafab equipment orders never materialize, the Jun 8 surge unwinds and the stock re-anchors to a capex cycle where China revenue is already shrinking.",
+      "primaryCatalyst": "Conversion of Terafab talks into firm system orders or another guidance raise at Q2 results",
+      "primaryRisk": "Crowded mega-cap positioning unwinding on any bookings or guidance wobble after the record-high rerating"
+    }
+  ]
+}

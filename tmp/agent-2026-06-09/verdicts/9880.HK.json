@@ -1,0 +1,27 @@
+{
+  "symbol": "9880.HK",
+  "company": "UBTECH Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 7: UBTECH announced cumulative pre-orders for its UWORLD/YouWorld full-size ultra-bionic humanoid robot (U1) exceeded 2,110 units within six days of JD.com pre-sale launch (3,000 yuan deposit, ~$30k expected price, deliveries no later than Sept 15, official unveiling June 30). Stock popped >6% intraday June 8 on the news; June 9 is -0.85% drift. Also: strategic cooperation agreement with Hitachi (China) entering substantive validation phase. No new earnings, M&A, or regulatory items.",
+  "sources": [
+    {"label": "Futu News - UBTECH rose on hyper-bionic humanoid pre-sales, 2,110+ orders in six days", "url": "https://news.futunn.com/en/post/74237298/ubtech-robotics-rose-as-its-hyper-bionic-humanoid-robot-launched"},
+    {"label": "Gasgoo - UBTECH ultra-bionic humanoid pre-orders surpass 2,110 units", "url": "https://autonews.gasgoo.com/articles/icv/ubtech-ultra-bionic-humanoid-robot-pre-orders-surpass-2110-units-2063990784792313857"},
+    {"label": "Pandaily - UBTECH biomimetic humanoid surpasses 1,000 pre-orders in 3 days (pricing, delivery timeline)", "url": "https://pandaily.com/ubtech-biomimetic-humanoid-robot-presale-jun2026"},
+    {"label": "Interesting Engineering - UBTECH life-like humanoid companion details ($30k, specs)", "url": "https://interestingengineering.com/ai-robotics/china-ubtech-humanoid-robot-companions"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already promoted the name (22 -> 16) on commercialization and under-ownership, and the June 7 pre-order news drove a +6% pop on June 8 that partly consumed the fresh asymmetry; today is -0.85% drift with no new June 9 information, so hold rank with a small positive score drift for the genuinely new consumer-demand datapoint.",
+      "bull": "2,110+ paid-deposit pre-orders in six days for a ~$30k consumer humanoid is real demand validation in a second segment beyond Walker S2 industrial orders (800M+ yuan), and YTD is still -11% on a $7.1B cap, leaving rerating room into the June 30 U1 unveiling.",
+      "neutral": "Pre-orders carry only a 3,000 yuan refundable deposit, so conversion to ~$63M of revenue is unproven; the news is already reflected in the June 8 pop and the name just moved up six rank slots yesterday.",
+      "bear": "This is the consensus China humanoid ticker - JD.com retail buzz increases crowding rather than hidden alpha, gross margins on consumer companion bots are unproven, and a soft June 30 launch or weak deposit-to-sale conversion would unwind the pop.",
+      "primaryCatalyst": "June 30 official U1 launch and first deposit-to-purchase conversion data; deliveries due by Sept 15.",
+      "primaryRisk": "Pre-order conversion disappoints or the launch underwhelms, exposing the name as a crowded retail-driven humanoid proxy rather than a commercialization story."
+    }
+  ]
+}

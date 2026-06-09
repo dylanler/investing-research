@@ -1,0 +1,35 @@
+{
+  "symbol": "XPP.L",
+  "company": "XP Power",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "TipRanks - XP Power orders surge as semiconductor demand lifts 2026 outlook (Q1 update, Apr 23, 2026; latest fundamental datapoint, nothing newer since Jun 6)",
+      "url": "https://www.tipranks.com/news/company-announcements/xp-power-orders-surge-as-semiconductor-demand-lifts-2026-outlook"
+    },
+    {
+      "label": "XP Power corporate RNS announcements page (no new releases since Jun 6, 2026)",
+      "url": "https://corporate.xppower.com/investors/rns-announcements"
+    },
+    {
+      "label": "Yahoo Finance quote XPP.L",
+      "url": "https://finance.yahoo.com/quote/XPP.L/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new RNS, contract, or analyst news since Jun 6 and the stock drifted -0.46% today; yesterday's hold already reconciled the +92% YTD re-rating, so on this latency-alpha page the only change is mild crowding drift as the recovery gets progressively better-owned without fresh evidence since the April Q1 update.",
+      "bull": "Q1 order intake +48% constant-currency with book-to-bill at 1.53 on semiconductor-equipment demand validates the turnaround before revenue shows it; margin rebuild from the China-to-Vietnam transition and deleveraging still offer upside at a $0.67B cap.",
+      "neutral": "The order book supports the thesis but a +92% YTD move has already priced much of the recovery; until H1 results (due early August) convert orders into revenue and margin, the stock likely consolidates with the latency edge slowly eroding.",
+      "bear": "Revenue is still falling (Q1 £51.8m, down sequentially on China export-licence expiries and the site closure), leverage remains a live constraint, and any semicap order push-out or transition stumble would hit a stock that has nearly doubled YTD.",
+      "primaryCatalyst": "H1 2026 interim results (early August) showing order book converting to revenue and margin recovery.",
+      "primaryRisk": "Post-rerating crowding: +92% YTD with declining revenue leaves little buffer if semicap orders slip or the Vietnam transition disrupts deliveries."
+    }
+  ]
+}

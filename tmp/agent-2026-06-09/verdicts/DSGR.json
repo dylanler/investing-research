@@ -1,0 +1,35 @@
+{
+  "symbol": "DSGR",
+  "company": "Distribution Solutions Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new material news since June 6 (day move +0.77%, no fresh filings or headlines). Standing overhang the ranking had not incorporated: LKCM Headwater (78.7% owner) lodged a $29.50/share cash take-private proposal on March 14, 2026; a special committee formed April 6 with independent counsel and a financial advisor is still evaluating it. At $27.39 the stock trades as a deal-arb stub ~7.7% below the bid.",
+  "sources": [
+    {
+      "label": "StockTitan - DSGR news archive (Q1 results 4/30, LKCM $29.50 proposal timeline)",
+      "url": "https://www.stocktitan.net/news/DSGR/"
+    },
+    {
+      "label": "Business Wire (3/16/2026) - DSG confirms unsolicited non-binding LKCM proposal",
+      "url": "https://www.businesswire.com/news/home/20260316370059/en/Distribution-Solutions-Group-Confirms-Receipt-of-Unsolicited-Non-Binding-Proposal-from-LKCM-Headwater-Investments"
+    },
+    {
+      "label": "SEC Form 10-Q Q1 2026 - special committee formed April 6 to evaluate $29.50 bid",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000703604/000070360426000024/dsgr-20260331.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 92,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "One-time correction, not news-driven: the live LKCM $29.50 controlling-shareholder take-private (under special committee review) pins the stock in an arb band and caps upside at roughly 8%, which guts the asymmetric latent-AI-node optionality this strict alpha screen exists to capture. Yesterday's hold rationale shows the bid was never reflected in the rank, so the correction is warranted despite no fresh headlines since June 6.",
+      "bull": "Special committee extracts a bump above $29.50, or the deal collapses and DSG keeps compounding its specialty MRO/test-equipment roll-up (FY25 revenue $1.98B, +9.8%) with genuine optionality into AI-infrastructure component distribution.",
+      "neutral": "Stock drifts in the $27-29.50 arb band while the committee negotiates; the AI-node pathway is real but pre-revenue as a thesis, and minority holders are along for a cash-out, not the optionality.",
+      "bear": "Deal closes at $29.50 and minority shareholders are cashed out before any AI-infrastructure aggregation value accrues; alternatively LKCM withdraws and the stub sells off toward pre-bid levels with the float still controlled 78.7% by the buyer.",
+      "primaryCatalyst": "Special committee recommendation / definitive merger agreement (or a revised LKCM offer); next earnings ~July 30, 2026.",
+      "primaryRisk": "Take-private completes at or near $29.50, permanently capping the latent-AI upside this listing is scored on; thin minority float and controlling-shareholder dynamics leave minorities little leverage."
+    }
+  ]
+}

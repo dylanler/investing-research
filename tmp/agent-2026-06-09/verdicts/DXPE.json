@@ -1,0 +1,39 @@
+{
+  "symbol": "DXPE",
+  "company": "DXP Enterprises",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "DXP IR - Announces Two Strategic Acquisitions (PREMIERflow, Mid Atlantic Storage; data center end markets) - Jan 5, 2026",
+      "url": "https://ir.dxpe.com/news/news-details/2026/DXP-Enterprises-Inc--Announces-Two-Strategic-Acquisitions/default.aspx"
+    },
+    {
+      "label": "Simply Wall St - DXPE valuation after Q1 earnings miss and sharp share price reaction (consensus PT ~$139.5 vs ~$161 price)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-dxpe/dxp-enterprises/news/assessing-dxp-enterprises-dxpe-valuation-after-q1-earnings-m"
+    },
+    {
+      "label": "StockTitan - DXP Q1 2026 8-K: revenue $521.7M, EPS $1.22 vs $1.25 (reported May 7, 2026)",
+      "url": "https://www.stocktitan.net/sec-filings/DXPE/8-k-dxp-enterprises-inc-reports-material-event-45c066786f2b.html"
+    },
+    {
+      "label": "Yahoo Finance - DXP (DXPE) Q1 2026 earnings call transcript (M&A pipeline: 3 closed, 3 under LOI)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dxp-dxpe-q1-2026-earnings-215803136.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already pushed DXPE down to rank 54 for the adjusted-score gap and +50% YTD rerating; nothing material has emerged since June 6 and today's +1.02% tape is noise, so no second consecutive move is warranted. Small negative drift only: shares now sit ~16% above the ~$139.5 consensus target with the AI/data-center spillover still a speculative pathway rather than evidenced order flow.",
+      "bull": "The January PREMIERflow/Mid Atlantic deals explicitly target data center and fire-suppression water infrastructure, and management has 3 more deals under LOI - DXP is actively buying its way into the cooling/water aggregation thesis with $20.9M of acquired EBITDA.",
+      "neutral": "Q1 sales grew 9.5% to $521.7M but EPS was flat ($1.22 vs $1.25) and missed estimates; the stock recovered the post-print drawdown, leaving a +50% YTD name priced above consensus with the AI spillover thesis neither confirmed nor broken.",
+      "bear": "At ~$2.5B cap and +50% YTD, the easy rerating is done; flat earnings on rising revenue plus a price above the Street's target means further upside requires explicit AI-driven cooling/water orders that have not yet appeared in disclosures.",
+      "primaryCatalyst": "Disclosure of data-center/cooling-specific revenue traction or another accretive water-infrastructure acquisition closing (1-3 expected by midyear), plus the June 12 annual meeting as a minor checkpoint.",
+      "primaryRisk": "Crowding/valuation reversal: a richly rerated industrial distributor with flat EPS and no quantified AI order book de-rates hard if Q2 margins disappoint or M&A integration stalls."
+    }
+  ]
+}

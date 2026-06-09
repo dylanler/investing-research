@@ -1,0 +1,39 @@
+{
+  "symbol": "TTMI",
+  "company": "TTM Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "GlobeNewswire - TTM Technologies announces new $1.0B cash flow revolver and upsized Term Loan B (closed Jun 3, pre-cutoff)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306436/0/en/TTM-Technologies-Inc-Announces-New-1-0-Billion-Cash-Flow-Revolver-and-Upsized-Term-Loan-B.html"
+    },
+    {
+      "label": "Yahoo Finance - How investors may respond to TTM expanding and refinancing its credit facilities",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-ttm-technologies-221043929.html"
+    },
+    {
+      "label": "MarketBeat - TTMI analyst forecast and price targets (Needham $208, Truist $215, Stifel $205, late May)",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TTMI/forecast/"
+    },
+    {
+      "label": "Yahoo Finance - Has TTM Technologies run too far after its YTD surge?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-run-too-091349371.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already demoted TTMI for the post-rerating crowding (+143.5% YTD, $19.8B cap, sell-side pile-on with Strong Buy consensus and target raises to $205-$215); nothing genuinely new since June 6, and today's -3.6% looks like flow-driven profit-taking, so on this crowding-sensitive alpha page the right call is hold with a small positive delta for marginally improved entry asymmetry.",
+      "bull": "TTM remains a hard-to-substitute supplier of complex HDI PCBs and backplanes for AI servers and networking with tight capacity into 2026; the June 3 refinancing (SOFR+175 TLB, $1B revolver to 2031) lowers cost of capital and funds capacity expansion against a reiterated $4.0B FY26 revenue target with 13-15% op margin goals.",
+      "neutral": "Thesis is intact but fully discovered: four Strong Buy ratings, post-Investor-Day target raises, and a 25%+ 30-day move mean the bottleneck story is in the price; the stock now trades as a crowded benchmark rather than residual alpha.",
+      "bear": "A 143.5% YTD rerating leaves no margin for execution slippage; any AI server order digestion, PCB capacity additions in Asia, or margin miss versus the new 13-15% op margin targets could trigger a sharp multiple compression in a name now widely owned.",
+      "primaryCatalyst": "Q2 2026 earnings and progress against the $4.0B FY26 revenue and 13-15% non-GAAP operating margin targets set at the May 27 Investor Day.",
+      "primaryRisk": "Post-rerating crowding: with consensus uniformly bullish and the stock up ~143% YTD, even an in-line quarter or a pause in AI PCB orders could unwind the multiple."
+    }
+  ]
+}

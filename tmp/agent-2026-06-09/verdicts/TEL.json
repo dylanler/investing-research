@@ -1,0 +1,41 @@
+{
+  "symbol": "TEL",
+  "company": "TE Connectivity",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Shares fell 3.3% on June 8 with no identifiable fundamental driver (flow/rotation), partially recovered +0.77% today to $207.19. The AI-narrative items in circulation - record $5.1B orders, +$200M raise to FY26 AI revenue outlook, capex lift to ~6% of sales, Phoenix Contact EV charging-inlet acquisition (announced Feb 28, 2026), OFC 2026 CPO/1.6T LRO demos, PCIe Gen 7 and 56G MezzaWave launches - all predate June 6. Standing FQ3 guidance (~$5B sales, ~$2.44 GAAP EPS) unchanged; next earnings late July.",
+  "sources": [
+    {"label": "GuruFocus - TEL shares fall 3.3% (Jun 8, 2026)", "url": "https://www.gurufocus.com/news/8906167/te-connectivity-plc-tel-shares-fall-33-what-gf-score-of-88-tells-investors"},
+    {"label": "Fintool - TE posts record $5.1B orders on AI data center demand", "url": "https://fintool.com/news/te-connectivity-record-orders-ai-surge"},
+    {"label": "TE Connectivity - OFC 2026 end-to-end optical / CPO demos", "url": "https://www.te.com/en/about-te/news-center/te-ofc-2026.html"},
+    {"label": "TE Connectivity - Phoenix Contact EV charging inlet acquisition (Feb 28, 2026)", "url": "https://www.te.com/en/about-te/news-center/phoenixcontact.html"},
+    {"label": "Simply Wall St - bull case on AI and EV charging expansion", "url": "https://simplywall.st/stocks/us/tech/nyse-tel/te-connectivity/news/the-bull-case-for-te-connectivity-tel-could-change-following-2/amp"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved TEL up on the sell-off-with-thesis-intact logic; the June 8 dip (-3.3%, no fundamental driver) plus today's modest +0.77% bounce adds no genuinely new information, so hold with slight positive drift for improved entry asymmetry at -11% YTD.",
+      "bull": "Record $5.1B orders and a raised FY26 AI revenue outlook against a -11% YTD reset means the AI connector/optics franchise is getting cheaper while the backlog grows; flow-driven dips improve the risk-reward.",
+      "neutral": "TEL is a diversified large-cap with transport/industrial ballast; AI is a growing but still minority slice, so it behaves more like a benchmark name than a hidden bottleneck at rank 77.",
+      "bear": "At $60B market cap with heavy sell-side coverage, the AI angle is well understood; auto/industrial end-market softness can swamp the AI growth and keep the YTD drawdown grinding lower.",
+      "primaryCatalyst": "Late-July FQ3 earnings (~$5B sales, ~$2.44 EPS guided) with another AI revenue outlook raise or order acceleration.",
+      "primaryRisk": "Auto/industrial demand deterioration or tariff/FX pressure offsetting AI growth, extending the YTD de-rating."
+    },
+    {
+      "page": "companies",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "No new design wins, guidance, or capacity news since June 6 to alter its optical/high-speed networking centrality; yesterday's move up already captured the scale-out interconnect evidence, and today's +0.77% drift changes nothing.",
+      "bull": "CPO/1.6T LRO architecture work (RAM Photonics FAUs), PCIe Gen 7 and high-density backplane portfolio plus capex lift to ~6% of sales position TEL squarely in the scale-out bandwidth buildout.",
+      "neutral": "Centrality in 800G/1.6T interconnects is real but shared with Amphenol and optics specialists; rank 13 already reflects the networking exposure fairly given the diversified revenue mix.",
+      "bear": "Interconnect content is competitive and pricing-sensitive; if hyperscaler architectures shift faster toward integrated CPO from silicon vendors, discrete connector content per rack could disappoint.",
+      "primaryCatalyst": "FQ3 print and any new hyperscaler/AI fabric design-win disclosures around 1.6T and CPO programs.",
+      "primaryRisk": "Share loss to Amphenol or architecture shifts (CPO integration) reducing discrete high-speed connector content."
+    }
+  ]
+}

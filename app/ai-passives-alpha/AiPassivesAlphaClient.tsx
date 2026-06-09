@@ -1246,7 +1246,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated June 8, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated June 9, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -1427,7 +1427,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
 
       <CurrentThesisAudit
         compact
-        focus="For passives and rack power, the current pass preserves residual-alpha logic but boosts current sensing, MLCCs, inductors, rack power, and power-grid adjacency while penalizing names already rerated by the June tape."
+        focus="The physical bottleneck thesis is strengthening, not weakening - Murata is pushing 15-35% price hikes on AI-server MLCCs, Taiyo Yuden guides AI-server MLCC revenue +80% for FY2026 on a 1.31 book-to-bill, and >$600B of 2026 hyperscaler capex keeps demand structurally unfulfillable - but the alpha is migrating down-cap. Today's melt-up (Taiyo Yuden +20% on +389% YTD, SEMCO +18.4% on +630% YTD, Walsin and Yageo limit-up) makes the rerated MLCC tier the crowd's trade, while the US power/optics complex sold off 5-12% on Ciena sympathy and higher yields. Residual alpha now concentrates in the un-rerated power-delivery names - Sumida, CTS, TT Electronics, AcBel - and in the 800VDC/BBU architecture shift, where AcBel's immersion-cooled 800V BBU partnership is still priced at +44% YTD versus Delta's +143%. We keep the page's anti-crowding discipline: fade the limit-ups, accumulate the un-rerated PDN bottlenecks."
       />
 
       <Section

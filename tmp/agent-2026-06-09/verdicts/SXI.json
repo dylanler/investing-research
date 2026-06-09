@@ -1,0 +1,35 @@
+{
+  "symbol": "SXI",
+  "company": "Standex International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Stock set a new 52-week high (~$298.59) intraday June 8 on no new catalyst; a director's 50-share ($13.6k) 10b5-1 sale dated June 1 was reported June 6 but is immaterial. The Zacks strong-sell-to-hold upgrade was June 4, outside the window. No earnings, contracts, M&A, or capacity announcements.",
+  "sources": [
+    {
+      "label": "Markets Daily - Standex sets new 1-year high (June 8, 2026)",
+      "url": "https://www.themarketsdaily.com/2026/06/08/standex-international-nysesxi-sets-new-1-year-high-heres-why.html"
+    },
+    {
+      "label": "Daily Political - Director sells $13,641 in stock (10b5-1, June 1 trade)",
+      "url": "https://www.dailypolitical.com/2026/06/06/insider-selling-standex-international-nysesxi-director-sells-13641-00-in-stock.html"
+    },
+    {
+      "label": "Daily Political - Zacks upgrade to Hold (June 4, pre-window)",
+      "url": "https://www.dailypolitical.com/2026/06/04/standex-international-nysesxi-upgraded-to-hold-at-zacks-research.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already penalized the +31% YTD rerating against a speculative liquid-cooling/robotics sensor pathway; today's +0.27% drift and a no-catalyst 52-week high add no genuinely new information, so hold at rank 83 with mild negative drift for continued multiple expansion without AI-chain evidence.",
+      "bull": "Reed switches, magnetics and fluid-handling components give Standex optionality in liquid-cooling instrumentation and robotics, and grid/space/defense demand is driving ~8% organic revenue growth that funds that optionality.",
+      "neutral": "A well-run diversified industrial at a 52-week high; the AI-chain linkage remains a plausible-but-unproven pathway with no disclosed design wins, so it is fairly treated as a low-rank latent node.",
+      "bear": "At ~$295 and +31% YTD the stock has rerated on general industrial strength, not AI evidence; if liquid-cooling/robotics content never materializes, residual alpha on this list is largely spent.",
+      "primaryCatalyst": "A disclosed design win or revenue call-out tying reed sensors/magnetics to data-center liquid cooling or robotics, e.g., at upcoming fiscal Q4 results.",
+      "primaryRisk": "Crowded multi-year-high valuation with profitability already missing estimates last quarter; any growth wobble compresses the multiple while the AI thesis remains unproven."
+    }
+  ]
+}

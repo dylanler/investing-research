@@ -1,0 +1,53 @@
+{
+  "symbol": "CIEN",
+  "company": "Ciena",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Today's -8.3% (to $427.89) is a continuation of the post-earnings derating that began June 4, when Ciena fell ~14-19% despite a beat-and-raise FQ2 (rev $1.57B +40% YoY, adj EPS $1.64, GM 44.9% up from 41%, cloud 46% of revenue +70% YoY, backlog +$600M sequentially to record $7.7B, FY26 guide raised to $6.3B, first hyperscaler multi-rail RLS Hyper-Rail win). The sell-off is valuation/flow-driven (stock had rallied ~540% into the print, ~169x P/E; guide raise viewed as incremental; CFO flagged supply not keeping pace with demand), not thesis deterioration. Stock is now ~-31% from pre-earnings highs but still +73.9% YTD.",
+  "sources": [
+    {"label": "Ciena FQ2 2026 earnings press release (SEC 8-K, June 4 2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"},
+    {"label": "TradingKey: Earnings beat yet plunge - valuation concerns, supply constraints, optical sector drag", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261947939-ciena-cien-networking-ai-datacenter-earnings-beat-valuation-concerns-sector-selloff-order-supply-constraints-tradingkey"},
+    {"label": "QuiverQuant: Ciena slides as investors continue digesting Q2 results and guidance", "url": "https://www.quiverquant.com/news/Ciena+stock+slides+as+investors+continue+digesting+Q2+results+and+guidance"},
+    {"label": "Stocktwits: Why is CIEN falling (June 4 post-earnings)", "url": "https://stocktwits.com/news-articles/markets/equity/why-is-cien-stock-falling-today-june-4/cZ0ZjTkReyU"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 80,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "On a crowding-sensitive alpha list, a flow-driven -8.3% flush on top of a ~31% post-earnings derating - while the fundamentals actually improved (record $7.7B backlog, raised FY guide) - restores some asymmetry that yesterday's hold lacked. Move is modest because Ciena remains peripheral to the passive/power bottleneck stack this page rewards.",
+      "bull": "Orders well above revenue, backlog at a record $7.7B, and the first hyperscaler multi-rail win confirm Ciena is supply-constrained on real AI demand; the 31% drawdown resets entry on intact numbers.",
+      "neutral": "A $66B, widely-covered large cap that is still +74% YTD; the derating mostly normalizes an extreme multiple (~169x trailing) rather than creating deep mispricing.",
+      "bear": "It is an optical systems vendor, not a passive/power bottleneck; if AI capex sentiment cools, a high-multiple consensus AI name keeps derating regardless of backlog.",
+      "primaryCatalyst": "Continued cloud/hyperscaler order momentum and conversion of the $7.7B backlog at improving gross margin.",
+      "primaryRisk": "Further multiple compression - the stock remains expensive even after the flush, and supply constraints cap near-term upside revenue surprise."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "This page rewards latency, and FQ2 made Ciena maximally non-latent: cloud is 46% of revenue and the AI-optical story is full consensus. The post-earnings flush improves entry asymmetry slightly but does not make the node hidden again, so hold near the bottom of the list with a small positive drift.",
+      "bull": "800G/1.6T transport and the RLS Hyper-Rail hyperscaler win show Ciena is structurally embedded in AI-era connectivity, with a record backlog underwriting multi-quarter growth.",
+      "neutral": "Thesis is intact and confirmed, but it is now everyone's thesis; the stock's value on a latent-nodes list is low by construction even when the business performs.",
+      "bear": "When a story is this discovered, disappointments (supply slips, lumpy hyperscaler orders) get punished hard, as the last four sessions demonstrate.",
+      "primaryCatalyst": "FQ3 print (guide $1.625B +/- $50M) and any new hyperscaler multi-rail awards.",
+      "primaryRisk": "Crowded ownership unwinding further if AI networking sentiment rolls over; zero latency premium left in the name."
+    },
+    {
+      "page": "companies",
+      "currentRank": 31,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down call was a crowding/rerating penalty; today's continued flow-driven flush partially executes that derating while the bottleneck evidence strengthened (record backlog, supply lagging demand, FY guide to $6.3B, first hyperscaler multi-rail). Sell-off with thesis intact improves asymmetry, so a modest move back up is warranted.",
+      "bull": "Demand-supply imbalance flagged by the CFO is the textbook signature of a genuine bottleneck; GM up ~400bps YoY and cloud revenue +70% show pricing power, not just volume.",
+      "neutral": "After -31% from highs the setup is fairer, but at +74% YTD and ~$66B cap, much of the scale-out optics rerating is still in the price.",
+      "bear": "Optical transport has long cycle memory: hyperscaler order air-pockets and component supply slips could turn the record backlog into a digestion story by FY27.",
+      "primaryCatalyst": "Backlog conversion plus follow-on hyperscaler multi-rail/managed optical wins through the FQ3 report.",
+      "primaryRisk": "Execution against supply constraints - if Ciena cannot ship to demand, competitors (Nokia/Infinera, Cisco/Acacia) absorb the overflow and the scarcity premium fades."
+    }
+  ]
+}

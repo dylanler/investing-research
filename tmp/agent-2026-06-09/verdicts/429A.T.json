@@ -1,0 +1,27 @@
+{
+  "symbol": "429A.T",
+  "company": "Tekscend Photomask",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Only fresh disclosure is a governance item: Tekscend will shift internal directors' long-term pay from cash to performance-based Restricted Share Units (TSR/ROE/margin-linked), subject to approval at the June 25, 2026 AGM - alignment-positive but not thesis-relevant. Prior catalysts (FY3/26 guidance and dividend raise on advanced-product demand; $223M Round Rock, TX expansion seeded by a $15.2M Texas Semiconductor Innovation Fund grant; EUV capacity build-out in Dresden and Tokyo) all predate June 6. Today's -3.0% move is flow-driven profit-taking after a +19.6% YTD run, not fundamental.",
+  "sources": [
+    {"label": "TipRanks - Tekscend shifts directors' long-term pay to performance-based stock units (June 2026 AGM item)", "url": "https://www.tipranks.com/news/company-announcements/tekscend-photomask-shifts-directors-long-term-pay-to-performance-based-stock-units"},
+    {"label": "TipRanks - Tekscend lifts earnings and dividend forecast on strong advanced product demand (pre-June)", "url": "https://www.tipranks.com/news/company-announcements/tekscend-photomask-lifts-earnings-and-dividend-forecast-on-strong-advanced-product-demand"},
+    {"label": "Texas TSIF $15.2M grant anchoring $223M Round Rock photomask expansion (Jan 2026)", "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-14-texas-bolsters-semiconductor-sovereignty-with-152-million-grant-for-tekscend-photomask-expansion"},
+    {"label": "Yahoo Finance quote 429A.T", "url": "https://finance.yahoo.com/quote/429A.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 4 on the scaling page: no new fundamental evidence since the June 8 hold verdict, and today's -3.0% drift is flow-driven profit-taking, not a thesis event. The mild pullback marginally improves entry asymmetry on an under-owned $2.5B bottleneck-adjacent name, but not enough to override yesterday's verdict without new information.",
+      "bull": "Merchant photomask capacity is a genuine chokepoint for advanced-node scaling; the funded Round Rock 40%+ expansion plus EUV-compatible build-outs in Dresden and Tokyo position Tekscend for 3nm/2nm reticle demand, and FY3/26 guidance was already raised on advanced-product orders.",
+      "neutral": "At +19.6% YTD with a raised guide already in the price, the stock is digesting; the only fresh item (directors' RSU plan) is governance housekeeping, so the setup is unchanged pending the June 25 AGM and the next order/capex datapoint.",
+      "bear": "Photomask demand is leveraged to foundry tape-out cycles, captive mask shops at TSMC/Samsung/Intel cap merchant share at the leading edge, and margin pressure flagged in the nine-month results could resurface as expansion capex ramps.",
+      "primaryCatalyst": "Next earnings/order update confirming advanced-node (EUV) photomask demand and progress on the Round Rock/Dresden/Tokyo capacity expansions.",
+      "primaryRisk": "Tape-out slowdown or captive-mask insourcing at leading-edge customers compressing merchant photomask volumes while expansion capex is committed."
+    }
+  ]
+}

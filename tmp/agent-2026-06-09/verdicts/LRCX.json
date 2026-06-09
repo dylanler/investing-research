@@ -1,0 +1,61 @@
+{
+  "symbol": "LRCX",
+  "company": "Lam Research",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock jumped ~7% on June 8 to $324.45, an after-the-fact chase of Lam's June 2 BofA Global Technology Conference update (CFO Bettinger raised 2026 WFE forecast to ~$140B, SAM share to mid-30%, second Malaysia plant for growth through 2027). Today (June 9) shares faded -1.46% to $319.70 as headlines on new U.S. chip-equipment export curbs to China resurfaced; Lam derives ~35% of revenue from China, making it the most exposed of the major WFE names. No earnings, M&A, or company-specific contract news since June 6.",
+  "sources": [
+    {
+      "label": "Yahoo Finance - Lam Research raises WFE forecast at BofA Global Technology Conference",
+      "url": "https://ca.finance.yahoo.com/news/lam-research-lrcx-raises-wfe-171218986.html"
+    },
+    {
+      "label": "Yahoo Finance - How new U.S. China chip export curbs will impact Lam Research investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-china-chip-export-curbs-221046034.html"
+    },
+    {
+      "label": "GuruFocus - A look at Lam Research after 7.0% gain (price $324.45)",
+      "url": "https://www.gurufocus.com/news/8906134/a-look-at-lam-research-corp-lrcx-after-70-gain-gf-value-12921-vs-price-32445"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the node-criticality lens the WFE forecast raise to $140B and mid-30% SAM share confirm Lam's etch/deposition centrality to AI fab and HBM buildouts, but new China export-curb headlines hit exactly the export-control risk this thesis already flags; the two roughly offset, so hold after yesterday's hold.",
+      "bull": "WFE 2026 raised to ~$140B with growth seen through 2027 and a second Malaysia plant; Lam's etch/deposition tools are structurally levered to HBM stacking and gate-all-around node transitions.",
+      "neutral": "Equipment-spend centrality is intact but fully visible; the June 8 pop priced the WFE raise within a week, leaving the rank dependent on order timing rather than new discovery.",
+      "bear": "New U.S. curbs on chip-equipment shipments to China threaten ~35% of revenue, the largest China concentration among major WFE names, and memory capex is cyclical.",
+      "primaryCatalyst": "HBM/NAND upgrade orders and next earnings confirming the $140B WFE trajectory",
+      "primaryRisk": "Escalating U.S. export restrictions cutting into the ~35% China revenue base"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 58,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On this crowding-sensitive alpha list, a +7% Monday chase of a week-old WFE datapoint, +72.75% YTD, +256% over 52 weeks and a ~$400B mega-cap leave little hidden alpha in an indirect beneficiary, while new China export curbs add a fundamental drag - residual asymmetry has shrunk.",
+      "bull": "Raised $140B WFE forecast and mid-30% SAM share give earnings upside through 2027 if AI memory and advanced-packaging capex stays hot.",
+      "neutral": "The indirect HBM/foundry capex thesis is intact, but it is now consensus and reflected in a $400B valuation; returns from here track the cycle, not discovery.",
+      "bear": "Most China-exposed major WFE name (~35% of revenue) just as new export curbs land, with momentum money piled in after a 256% 52-week run - asymmetry now skews against holders.",
+      "primaryCatalyst": "Upside surprise in HBM/foundry orders or relaxation of China export rules",
+      "primaryRisk": "Crowded positioning unwinding on export-curb escalation or a memory capex digestion phase"
+    },
+    {
+      "page": "companies",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved Lam down for the YTD rerating; the genuinely new items since then are offsetting - WFE forecast raised to $140B (positive) versus fresh China export-curb headlines on ~35% of revenue (negative) - so no second consecutive demotion is warranted.",
+      "bull": "Pick-and-shovel exposure just got bigger: $140B WFE forecast, mid-30% SAM share, and a second Malaysia plant signal multi-year etch/deposition demand.",
+      "neutral": "Execution and pricing remain solid, but at $400B market cap and +72.75% YTD the pick-and-shovel story is fully discovered; the rank already reflects that.",
+      "bear": "New U.S. export curbs to China hit the WFE name with the highest China revenue concentration, and a momentum-driven +7% pop on stale news is the kind of chase that reverses.",
+      "primaryCatalyst": "Next earnings print validating the raised WFE outlook and Malaysia capacity ramp",
+      "primaryRisk": "China export-control escalation compressing the ~35% China revenue stream"
+    }
+  ]
+}

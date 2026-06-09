@@ -1,0 +1,27 @@
+{
+  "symbol": "IESC",
+  "company": "IES Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. Only calendar item is management's fireside chat today (June 9) at the Wells Fargo Industrials & Materials Conference in Chicago, announced previously. The data-center-fueled Q2 beat (revenue +17% to $974M, Communications +35%, Infrastructure Solutions +64%, record $3.9B backlog) dates to the May 1 print and is already in the price. Today's -2.28% is mild drift/profit-taking, not a fundamental event.",
+  "sources": [
+    {"label": "StockTitan - IES Holdings June investor conferences (Stifel Jun 2, Wells Fargo Jun 9)", "url": "https://www.stocktitan.net/news/IESC/ies-holdings-to-attend-upcoming-investor-u6x7vmn6kmjj.html"},
+    {"label": "StockTitan - IESC 8-K: Q2 FY2026 profit, backlog and data center exposure", "url": "https://www.stocktitan.net/sec-filings/IESC/8-k-ies-holdings-inc-reports-material-event-09a90e962da9.html"},
+    {"label": "Yahoo Finance - IES Holdings up 17.8% after data-center-fueled Q2 beat", "url": "https://finance.yahoo.com/markets/stocks/articles/ies-holdings-iesc-17-8-182142821.html"},
+    {"label": "GuruFocus - IESC up 4.0% but GF Value says significantly overvalued", "url": "https://www.gurufocus.com/news/8897298/ies-holdings-inc-iesc-stock-up-40-but-gf-value-says-overvalued-gf-score-85100?mobile=true"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 68: no new information since yesterday's hold verdict, and today's -2.3% drift neither adds evidence nor meaningfully restores asymmetry. Small negative drift because the name keeps getting less latent - +76% YTD, $14.3B cap, sell-side conference circuit visibility, and valuation screens (GF Value ~173% above estimate) flagging it as discovered.",
+      "bull": "Record $3.9B backlog (+62% since FY25 end) gives 18-24 months of revenue visibility into hyperscaler data-center electrical buildout, and management is raising capex to fund organic growth - the bottleneck role in DC electrical contracting is real.",
+      "neutral": "Q2 strength and the Gulf Island acquisition are fully disclosed and priced; with no fresh catalysts since June 6, the stock drifts with AI-capex sentiment and small pullbacks like today's -2.3% are noise.",
+      "bear": "At +76% YTD and a $14.3B cap on an electrical contractor, the latent-alpha case is largely spent; any hyperscaler capex digestion or backlog conversion slip hits a crowded, rerated multiple hard.",
+      "primaryCatalyst": "Fiscal Q3 earnings (late July/early August) showing continued backlog growth and Communications/Infrastructure Solutions margin expansion.",
+      "primaryRisk": "Crowding/rerating risk: institutional discovery is complete, so a pause in hyperscaler data-center awards or backlog burn-down would trigger sharp multiple compression."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "symbol": "2301.TW",
+  "company": "LITEON Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "PR Newswire - LITEON at COMPUTEX 2026 (Jun 2-5, pre-window): 800 VDC liquid-cooled Power Rack, 110 kW power shelf, NVIDIA/Infineon panel",
+      "url": "https://www.prnewswire.com/news-releases/liteon-technology-at-computex-2026-showcasing-an-endtoend-ai-capability-from-cloud-to-edge-302789868.html"
+    },
+    {
+      "label": "DIGITIMES - Lite-On April revenue +25% YoY on AI power and BBU demand (reported May 11; May print due ~Jun 10)",
+      "url": "https://www.digitimes.com/news/a20260509PD204/revenue-lite-on-demand-management-high-end.html"
+    },
+    {
+      "label": "TradingView TWSE:2301 - all-time high 246 TWD on May 12, 2026; last-quarter EPS -5.65% surprise; next earnings Jul 24",
+      "url": "https://www.tradingview.com/symbols/TWSE-2301/"
+    },
+    {
+      "label": "DIGITIMES - AI server power shifts to rack-level architectures, Delta and Lite-On lead",
+      "url": "https://www.digitimes.com/news/a20260129PD214/lite-on-delta-electronics-power-supply-design-efficiency-ai-server.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since Jun 6 and today's +2.52% is flow drift, not new evidence; the page already classifies it as a crowded/rerated benchmark, and yesterday's hold stands. Slight negative drift because the 34% YTD rerating keeps compressing residual alpha without fresh fundamentals.",
+      "bull": "Rack-level 800 VDC power architecture and 110 kW power shelf put LITEON squarely in the NVIDIA-aligned AI power bottleneck, and April revenue at a 7.5-year high (+25% YoY) shows the ramp is real. May revenue due ~Jun 10 could re-accelerate the story.",
+      "neutral": "Strategically central but fully discovered: 34% YTD, sell-side already at Buy with targets near the price, and the stock is consolidating ~9% below its May high. Alpha here is now about execution beats, not discovery.",
+      "bear": "Last quarter EPS missed by ~6% and the diversified legacy electronics mix can dilute AI power upside; a soft May print or GB-rack schedule slippage hits a rerated multiple hard.",
+      "primaryCatalyst": "May 2026 monthly revenue release (~Jun 10) and continued 800 VDC / power-shelf order flow into Q3.",
+      "primaryRisk": "Crowding plus a rerated multiple into any monthly-revenue or margin disappointment; Delta and other power rivals compressing share."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Nothing new on the CPO/optical leg since Jun 6 - COMPUTEX messaging was all power and cooling, not photonics - so the POET-adjacency thesis is unchanged and the low rank reflecting diluted optical purity remains correct.",
+      "bull": "If the POET collaboration converts into shipping AI optical modules, LITEON gets a second AI leg on top of power, and the market is paying nothing for it at rank 44.",
+      "neutral": "The CPO/optical exposure remains a small adjacency inside a diversified electronics conglomerate; the stock trades on AI power, so this page's lens sees little incremental signal either way.",
+      "bear": "Optical module ambitions may never scale against entrenched transceiver suppliers, leaving this listing a power story misfiled on an optics page; electronics-cycle margin pressure adds downside.",
+      "primaryCatalyst": "Concrete POET/LITEON optical module qualification or customer win announcements.",
+      "primaryRisk": "CPO adjacency stays immaterial to revenue while the diversified electronics cycle drives the stock."
+    }
+  ]
+}

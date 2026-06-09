@@ -1,0 +1,27 @@
+{
+  "symbol": "TEJASNET.NS",
+  "company": "Tejas Networks",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Stock drifted from ~Rs576 (Jun 5) to Rs542.5 (Jun 8) and is roughly flat today (-0.36%), still digesting the weak Q4 FY26 print (net revenue Rs333 cr, -83% YoY; Rs211 cr loss). Known but not-new positives: commercial launch of BSNL's pan-India 4G network, selection as IP/MPLS router OEM for BharatNet Phase III packages, and a pending BSNL add-on PO (~18,000 sites, ~Rs1,526 cr) with inventory pre-staged. AGM scheduled June 26 (e-voting Jun 22-25).",
+  "sources": [
+    {"label": "INDmoney - Tejas Networks share price, Q4 FY26 results, BharatNet Phase III and AGM dates", "url": "https://www.indmoney.com/stocks/tejas-networks-ltd-share-price"},
+    {"label": "Trade Brains - Tejas Networks: turnaround or value trap after BSNL slowdown (FY26 revenue Rs1,103 cr vs Rs8,923 cr FY25; pending 18,000-site add-on PO)", "url": "https://tradebrains.in/tejas-networks-turnaround-opportunity-or-value-trap-after-bsnl-slowdown/"},
+    {"label": "Voice&Data - Tejas Networks posts FY26 loss amid BSNL order delays", "url": "https://www.voicendata.com/telecom-infra/tejas-networks-posts-fy26-loss-amid-bsnl-order-delays-11732619"},
+    {"label": "Yahoo Finance quote - TEJASNET.NS", "url": "https://finance.yahoo.com/quote/TEJASNET.NS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new information since yesterday's hold; today's -0.36% is noise and the sovereign build-out thesis (BSNL 4G/5G, BharatNet Phase III) is unchanged with the binary BSNL add-on PO still pending. Last week's ~6% pullback was already reflected in the June 8 verdict, so rank 42 stays.",
+      "bull": "Pending BSNL add-on PO (~18,000 sites, ~Rs1,526 cr) with inventory pre-staged means revenue can restart quickly, and BharatNet Phase III router OEM selection plus the NEC mMIMO export deal extend the sovereign-networking runway at a $1B cap.",
+      "neutral": "FY26 collapsed to Rs1,103 cr revenue with quarterly losses; the stock is a sovereign-policy option whose value hinges almost entirely on government order timing, which has already slipped ~8 months.",
+      "bear": "Further BSNL/BharatNet order delays keep the P&L deeply loss-making, inventory and debt pressure mount, and the +20% YTD bounce unwinds toward bearish analyst targets near Rs460.",
+      "primaryCatalyst": "Conversion of the BSNL advance purchase order into a final ~Rs1,526 cr add-on PO (plus BharatNet Phase III execution); AGM June 26 as a near-term information event.",
+      "primaryRisk": "Continued slippage of government order finalization, leaving revenue down >80% YoY with sustained losses and inventory/working-capital strain."
+    }
+  ]
+}

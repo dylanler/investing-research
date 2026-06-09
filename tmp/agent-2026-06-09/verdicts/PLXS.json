@@ -1,0 +1,39 @@
+{
+  "symbol": "PLXS",
+  "company": "Plexus",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Freshest items are administrative: a June 5 second amended $500M revolving credit agreement (option to upsize by $250M, matures 2031), a June 1 FY2025 sustainability report, and a small June 3 CEO sale of 1,000 shares at $290. Strong Q2 FY26 results (19% YoY revenue growth, record program wins, raised FY26 guidance to mid-teens growth) are older and already reflected. Today's -0.99% is noise; median analyst target ~$277.50 sits at/below the $279.49 price after the 83.6% YTD run.",
+  "sources": [
+    {
+      "label": "Investing.com - Plexus enters new $500M credit agreement maturing 2031 (June 5, 2026)",
+      "url": "https://uk.investing.com/news/sec-filings/plexus-corp-enters-new-500-million-credit-agreement-maturing-in-2031-93CH-4718658"
+    },
+    {
+      "label": "Investing.com - Plexus CEO sells $290,000 in common stock (June 3, 2026)",
+      "url": "https://m.investing.com/news/insider-trading-news/plexus-corp-president--ceo-sells-290000-in-common-stock-93CH-4727411?ampMode=1"
+    },
+    {
+      "label": "Plexus Q2 FY2026 earnings release (8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000785786/000078578626000028/plxsf26q2er-ex991.htm"
+    },
+    {
+      "label": "Public.com - PLXS analyst consensus and price targets",
+      "url": "https://public.com/stocks/plxs/forecast-price-target"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 17 with mild drift down in score: no new fundamental evidence since June 6 (only an administrative credit refinancing and a tiny CEO sale), while the 83.6% YTD rerating keeps eroding residual alpha on this crowding-sensitive list; price now sits above the ~$277.50 median analyst target. Yesterday's hold already reflected this setup and today's -0.99% changes nothing.",
+      "bull": "Raised FY26 guidance to mid-teens growth on record program wins gives fundamental cover for the rerating, and the new $500M revolver (plus $250M accordion) adds capacity to fund ramps; an underfollowed $7.4B EMS proxy on complex cloud/network gear can keep compounding wins.",
+      "neutral": "Thesis intact but fully discovered at the margin: strong Q2 momentum is offset by a price already at/above sell-side targets, leaving the name fairly valued for an alpha list until the next wins/guidance datapoint.",
+      "bear": "After an 83.6% YTD run, any AI-hardware order digestion or program-ramp slippage hits a stock priced for continuation; EMS margins are thin and the name is increasingly owned as an AI-adjacent proxy, so crowding unwind risk has risen.",
+      "primaryCatalyst": "Fiscal Q3 (July) earnings and the next quarterly program-wins tally; continued record wins or another guidance raise would refresh the case.",
+      "primaryRisk": "Post-rerating multiple compression if program ramps slow or AI networking/cloud customers digest orders, with price already above the median analyst target."
+    }
+  ]
+}

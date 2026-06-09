@@ -1,0 +1,39 @@
+{
+  "symbol": "CEVA",
+  "company": "CEVA",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. The -7.2% move on June 9 appears flow-driven: profit-taking/consolidation in a stock up ~89% YTD that already saw a post-earnings 'sell the news' fade in May (Q1 beat, no guidance, JPMorgan Neutral initiation) and now trades at the ~$43 consensus analyst target. The most recent fundamental items (Bluetooth HDT design win with a U.S. semiconductor company; strongest licensing quarter in three years) date to May 11, 2026.",
+  "sources": [
+    {
+      "label": "Investing.com - Why is CEVA stock sliding (post-Q1 dynamics, May 11, 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-ceva-stock-sliding-today-93CH-4676925"
+    },
+    {
+      "label": "StockTitan - Ceva Bluetooth HDT design win press release (May 11, 2026)",
+      "url": "https://www.stocktitan.net/news/CEVA/ceva-advances-full-stack-wireless-vision-with-next-generation-atf6z6syx3ad.html"
+    },
+    {
+      "label": "Seeking Alpha - Ceva 2026 revenue growth guidance commentary",
+      "url": "https://seekingalpha.com/news/4590953-ceva-signals-2026-revenue-growth-at-top-end-of-8-percentminus-12-percent-range-as-it-targets"
+    },
+    {
+      "label": "Yahoo Finance - CEVA quote",
+      "url": "https://finance.yahoo.com/quote/CEVA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 109,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already recommended removal from this CPO alpha page on relevance grounds (no direct CPO/HBM/packaging/test exposure), and nothing since June 6 changes that. Today's -7.2% is flow-driven profit-taking, which does not improve page-specific asymmetry for a name whose thesis here is non-relevance; hold at the bottom pending removal.",
+      "bull": "Strongest licensing quarter in three years, growing NeuPro AI NPU traction (>20% of 2025 licensing revenue), and the first full-stack Bluetooth HDT RF design win suggest a structural mix shift toward higher-value system IP deals.",
+      "neutral": "A solid edge-IP licensing story, but it is connectivity/edge-AI IP, not co-packaged optics or AI-compute bottleneck infrastructure; after +89% YTD the stock trades at the ~$43 consensus target with the rerating largely complete.",
+      "bear": "Royalty-dependent model with declining YoY non-GAAP EPS, no forward guidance given at Q1, and a +89% YTD run leave it exposed to further multiple compression; on this page it is simply the wrong exposure for the CPO bottleneck thesis.",
+      "primaryCatalyst": "New large NPU or Bluetooth-7/HDT licensing deals or customer silicon ramps converting to royalties in H2 2026.",
+      "primaryRisk": "Continued de-rating of a post-run-up, low-relevance name; IP licensing lumpiness and royalty adoption volatility."
+    }
+  ]
+}

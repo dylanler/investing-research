@@ -1,0 +1,40 @@
+{
+  "symbol": "HIMX",
+  "company": "Himax Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. The -12.1% June 9 drop (following a -7.5% session) is profit-taking / momentum unwind after the stock surged ~40% to fresh 52-week highs on Q2 guidance (+10-13% QoQ revenue, +160bps GM), a July dividend, and smart-glasses/CPO hype (FOCI partnership, Hunterbrook 'stealth NVIDIA optics supplier' narrative). TipRanks characterizes it as a company-specific cooldown with shares well above the ~$8 average analyst price target; no downgrade, contract loss, or guidance change found.",
+  "sources": [
+    {"label": "TipRanks - Himax Stock Suddenly Sinks After Big Rally", "url": "https://www.tipranks.com/news/catalyst/himax-technologies-stock-suddenly-sinks-after-big-rally"},
+    {"label": "Simply Wall St - HIMX valuation after upbeat guidance, new projects and dividend", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-himx/himax-technologies/news/a-look-at-himax-technologies-himx-valuation-after-upbeat-gui"},
+    {"label": "Hunterbrook - Himax: Stealth Supplier for NVIDIA's Optics Revolution", "url": "https://hntrbrk.com/himax/"},
+    {"label": "GlobeNewswire - Himax confirms FOCI CPO collaboration on track for 2026 production", "url": "https://www.globenewswire.com/news-release/2026/01/05/3212494/8267/en/Himax-Confirm-CPO-Collaboration-and-Strategic-Partnership-with-FOCI-Remain-Ongoing-and-Unchanged.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 115,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict was removal for weak direct CPO/bottleneck relevance; nothing since June 6 changes that. Today's -12.1% flow-driven flush relieves some crowding froth, but a de-crowding sell-off in a name whose page thesis is 'low CPO exposure' does not create page-specific alpha, so hold at the bottom of the list with a token positive delta.",
+      "bull": "FOCI/WLO co-packaged optics partnership is on track for 2026 mass production with key customers validating gen-1 solutions, and the Hunterbrook NVIDIA-optics-supplier thesis gives genuine optionality the page score may undercount.",
+      "neutral": "CPO is still a small, pre-revenue slice of a display-driver company; the two-day ~18% flush takes out momentum froth but leaves the +109.5% YTD rerating largely intact.",
+      "bear": "Stock trades far above the ~$8 average analyst target after a retail-driven run; if CPO validation slips or the NVIDIA narrative deflates, the residual downside is large for a display-cycle business.",
+      "primaryCatalyst": "Confirmed CPO mass-production orders or a named tier-1 customer for the FOCI/WLO solution in 2026.",
+      "primaryRisk": "Momentum unwind continues as the retail CPO narrative deflates while core display-driver fundamentals cannot support the rerated multiple."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "Edge-AI vision/display thesis is unchanged and fundamentals are intact (Q2 guide +10-13% QoQ, top smart-glasses brand mass production by end-2026), so the -12.1% flow-driven sell-off modestly improves the entry without changing the scaling-fit rank set yesterday at hold.",
+      "bull": "Smart-glasses microdisplays (Vuzix reference design, unnamed top-brand ramp by end-2026), automotive Tcon double-digit sequential growth, and CPO optionality give multiple edge-AI scaling vectors; the two-day flush resets a crowded entry.",
+      "neutral": "No new evidence since June 6; the move is sentiment, not thesis, and the name still carries a +109.5% YTD rerating against a $3.1B cap.",
+      "bear": "Core revenue remains display-driver cyclical (Q1 revenue -2% QoQ); if the smart-glasses ramp slips, the edge-AI narrative premium compresses hard from here.",
+      "primaryCatalyst": "End-2026 mass production of the top-tier smart-glasses program and Q2 results confirming the 10-13% QoQ guide.",
+      "primaryRisk": "Display-cycle softness or a smart-glasses program delay turns the momentum unwind into a fundamental derating."
+    }
+  ]
+}

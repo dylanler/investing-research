@@ -1,0 +1,26 @@
+{
+  "symbol": "ESE",
+  "company": "ESCO Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan ESE news feed (latest items May 7 / Apr 15, nothing Jun 5-9)", "url": "https://www.stocktitan.net/news/ESE/"},
+    {"label": "Simply Wall St - Jun 3 valuation pullback note (fair value ~$255 vs price)", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ese/esco-technologies/news/a-look-at-esco-technologies-ese-valuation-after-intrinsic-va"},
+    {"label": "TipRanks - Megger acquisition background (Apr 15, $2.35B, closes FY1Q27)", "url": "https://www.tipranks.com/news/company-announcements/esco-technologies-to-acquire-megger-expanding-utility-solutions"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; today's +2.2% simply reclaims the early-June valuation-driven dip. With YTD now +52.7% and the deepest sell-side narrative pegging fair value near $255 vs $302, residual alpha keeps eroding on rerating without new evidence, but nothing changes the setup enough to move it from yesterday's hold at rank 15.",
+      "bull": "Record $1.5B backlog, 42% order growth and raised FY26 EPS guidance ($8.00-$8.25) show the utility/test-and-measurement bottleneck thesis compounding; the $2.35B Megger deal adds grid-diagnostics scale ahead of data-center-driven grid spend.",
+      "neutral": "Thesis intact but fully discovered: Q2 beat and Megger are in the price, and the stock has already round-tripped its June 3 valuation pullback with no fresh catalyst until the Megger close in fiscal Q1 2027.",
+      "bear": "At ~$302 vs a ~$255 fair-value narrative and +53% YTD, ESE trades as a crowded electrification proxy; Megger integration risk ($1.4B equity issuance, ~14x EBITDA) plus any utility capex digestion could compress the multiple sharply.",
+      "primaryCatalyst": "Megger acquisition close (fiscal Q1 2027) and continued utility/grid order momentum into Q3 results.",
+      "primaryRisk": "Valuation reset on a richly rerated name if order growth decelerates or Megger integration disappoints."
+    }
+  ]
+}

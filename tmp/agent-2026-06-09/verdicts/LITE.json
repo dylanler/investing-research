@@ -1,0 +1,67 @@
+{
+  "symbol": "LITE",
+  "company": "Lumentum",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. The -9.4% June 9 drop is flow-driven: profit-taking and AI/tech sector rotation in optical names after a ~110% YTD run, mirroring the June 3 photonics washout (LITE -8/-9%, Coherent and AOI down in sympathy). The fundamental story (NVIDIA $2B investment and multibillion purchase commitments, North Carolina InP laser fab, record FQ3 revenue of $808M up 90% y/y, Q4 guide $960M-$1.01B) all predates June 6. Sell-side remains unanimously bullish (19 buys, 0 sells; targets raised to $1,100-$1,400), and the stock joined the S&P 500 in March and Nasdaq-100 in May - evidence of full discovery and crowding rather than hidden alpha.",
+  "sources": [
+    {"label": "TIKR - Lumentum tumbles as investors sell off AI photonics gains (sector profit-taking pattern, fundamentals intact)", "url": "https://www.tikr.com/blog/lumentum-nasdaq-lite-stock-tumbles-nine-percent-as-investors-sell-off-ai-photonics-gains"},
+    {"label": "Quiver Quantitative - Lumentum slides as AI/tech selloff and pre-earnings positioning hit highfliers", "url": "https://www.quiverquant.com/news/Lumentum+slides+as+AI/tech+selloff+and+pre-earnings+positioning+hit+highfliers"},
+    {"label": "NVIDIA Newsroom - strategic partnership with Lumentum (background, pre-June 6)", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology"},
+    {"label": "Lumentum IR - new U.S. manufacturing facility for advanced AI data-center lasers (background, pre-June 6)", "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx"},
+    {"label": "Yahoo Finance - LITE quote", "url": "https://finance.yahoo.com/quote/LITE/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already priced the crowding; today's -9.4% flow-driven selloff with thesis intact marginally improves asymmetry, but a one-day dip against +110% YTD does not restore hidden/under-owned status on this crowding-sensitive list, and LITE remains far from the passive/power bottleneck core.",
+      "bull": "NVIDIA $2B investment, purchase commitments, and the NC InP fab make Lumentum a structurally advantaged laser supplier; the flow-driven dip offers a better entry into intact fundamentals.",
+      "neutral": "Real AI optics leverage but fully discovered: S&P 500 and Nasdaq-100 inclusion, unanimous buy ratings, and $63B cap leave little residual alpha versus less-rerated bottleneck suppliers.",
+      "bear": "Rich valuation after a ~110% YTD run means multiple compression alone can drive 20-30% downside; optics supply is also less scarce than power/passives chokepoints.",
+      "primaryCatalyst": "FQ4 earnings (August) confirming the $960M-$1.01B guide and NVIDIA-driven laser ramp.",
+      "primaryRisk": "Continued de-rating of crowded AI photonics names on flow rotation regardless of execution."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 89: the latency lens penalizes discovery, and LITE is now fully screened by investors (index adds, 19 buy ratings); a one-day flow-driven -9.4% dip does not make the node latent again, and there is no new information since yesterday's hold.",
+      "bull": "Connectivity & photonics centrality is real - CW/UHP lasers and datacom optics sit directly in the AI scale-out path, with NVIDIA capacity rights validating the node.",
+      "neutral": "Thesis already conceded that investors increasingly screen optical AI suppliers; latency value has largely converted to recognized value.",
+      "bear": "As a consensus AI optics holding, LITE now trades on flows and multiples, not discovery - exactly the profile this list discounts.",
+      "primaryCatalyst": "Datacom recovery and 1.6T transceiver/coherent optics ramp through 2026-27.",
+      "primaryRisk": "Crowded positioning amplifies drawdowns on any AI capex sentiment wobble."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 45,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "On the CPO-specific page, LITE is the most direct NVIDIA laser/ELS candidate (cash investment plus purchase commitments plus dedicated US fab), and today's -9.4% selloff was purely flow-driven with the thesis intact - a sharp drawdown without fundamental deterioration improves asymmetry on a category list where its centrality is the highest of its four listings.",
+      "bull": "External laser sources are the scarcest piece of the CPO stack, and NVIDIA's $2B and capacity access rights effectively anoint Lumentum; a 9% flow washout into an intact ramp is the kind of reset this page rewards.",
+      "neutral": "The market has noticed - much of the CPO option value is in the $63B cap, so further upside requires execution on the NC fab and FQ4 beat-and-raise rather than narrative.",
+      "bear": "Customer concentration around NVIDIA and capacity-ramp execution risk; if CPO adoption slips a generation, the laser TAM arrives later than the multiple assumes.",
+      "primaryCatalyst": "NC InP fab milestones and NVIDIA CPO/co-packaged optics volume ramp into 2027 platforms.",
+      "primaryRisk": "Execution or yield problems on UHP laser capacity, or NVIDIA dual-sourcing diluting the win (Coherent also funded)."
+    },
+    {
+      "page": "companies",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down already reflected the YTD rerating; today's flow-driven -9.4% with no fundamental news partially relieves that pressure, so hold with a small positive drift rather than a second consecutive move on no new evidence.",
+      "bull": "Scale-out bandwidth exposure is backed by hard commitments (NVIDIA $2B, purchase agreements, record quarter, 90% y/y growth) - the de-rate improves the entry without touching the thesis.",
+      "neutral": "Alpha score must balance genuine 800G/1.6T and laser leverage against full market recognition and a still-rich multiple after +110% YTD.",
+      "bear": "Optical components are cyclical and pricing-competitive; a broader AI capex digestion phase would hit a 19-buy/0-sell consensus name hardest.",
+      "primaryCatalyst": "FQ4 print and FY27 guidance quantifying the NVIDIA laser revenue contribution.",
+      "primaryRisk": "Post-rerating multiple compression in a crowded AI optics trade."
+    }
+  ]
+}

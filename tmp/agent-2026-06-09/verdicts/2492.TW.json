@@ -1,0 +1,27 @@
+{
+  "symbol": "2492.TW",
+  "company": "Walsin Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamental announcement found since June 6. The supportive newsflow (June 1 price hikes on resistors and select capacitors, DIGITIMES June 3-4 pieces on AI-driven pricing power and an MLCC 'super cycle', May 27 Q1 call flagging 46.4% MLCC revenue share and inevitable price hikes) all predates the window. Today's +10.0% move is a TWSE limit-up that appears flow/momentum-driven - a sector-wide chase of the MLCC supercycle narrative, possibly front-running the May monthly revenue release due by June 10 - rather than a fresh fundamental catalyst.",
+  "sources": [
+    {"label": "DIGITIMES - Walsin Technology gains pricing power from AI demand (Jun 3, 2026)", "url": "https://www.digitimes.com/news/a20260603PD231/walsin-mlcc-price-electronics-demand.html"},
+    {"label": "DIGITIMES - AI sparks tight supply warning; MLCC rally eyes new super cycle (Jun 4, 2026)", "url": "https://www.digitimes.com/news/a20260604PD216/passive-components-high-end-mlcc-demand.html"},
+    {"label": "BigGo Finance - Walsin FY2026 Q1 earnings call: MLCC share 46.4%, price hikes signaled (May 27, 2026)", "url": "https://finance.biggo.com/news/TW_2492.TW_2026-05-27"},
+    {"label": "eeNews Europe - AI drives MLCC shortage", "url": "https://www.eenewseurope.com/en/ai-drives-mlcc-shortage/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 4,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On a residual-alpha page, a +10% limit-up day with no new fundamental evidence since June 6 - on top of yesterday's down verdict and a YTD now at +253% - means the hidden-gem/under-owned premise is gone and the post-rerating chase penalty deepens. The bottleneck thesis is intact but increasingly in the price and crowded.",
+      "bull": "MLCC pricing power is real and broadening: June 1 hikes implemented, full utilization, MLCC at 46.4% of revenue, and management signaling further increases as AI server, EV, and comms demand outruns high-end capacity. May revenue (due ~June 10) could confirm acceleration.",
+      "neutral": "Fundamentals and price are both rising; the question is residual alpha, not quality. After a 253% YTD rerating and limit-up momentum days, the name now trades on the consensus supercycle narrative rather than an underfollowed bottleneck story.",
+      "bear": "Gross margin (~18%) lags the narrative; hikes are partly cost-pass-through of raw material spikes, not pure pricing power. A momentum-crowded mid-cap that limit-ups on no news can give back 20-30% fast if MLCC channel restocking or AI server orders pause.",
+      "primaryCatalyst": "May 2026 monthly revenue (due ~June 10) and a second-half broad MLCC price-hike round confirming the supercycle.",
+      "primaryRisk": "Crowding/momentum unwind: flow-driven limit-up gains reverse on any MLCC pricing or AI server order pause, with the thesis now fully consensus."
+    }
+  ]
+}

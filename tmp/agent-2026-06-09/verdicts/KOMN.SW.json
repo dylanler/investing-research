@@ -1,0 +1,26 @@
+{
+  "symbol": "KOMN.SW",
+  "company": "Komax",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. Only a June 6-7 Simply Wall St/Yahoo valuation commentary flagging KOMN as undervalued with teens revenue growth expected; latest corporate release remains the March 10, 2026 FY2025 results (significant cost reduction, positive operating result, stable order intake, double-digit EBIT margin targeted from 2027). Stock +0.38% today, no move to explain.",
+  "sources": [
+    {"label": "Yahoo Finance / Simply Wall St - What Is Komax Holding AG's (VTX:KOMN) Share Price Doing? (Jun 6-7, 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/komax-holding-ags-vtx-komn-063142723.html"},
+    {"label": "Komax media release - cost reduction and positive operating result (Mar 10, 2026)", "url": "https://www.komaxgroup.com/en/media-releases/komax-group-significantly-reduces-costs-and-achieves-positive-operating-result"},
+    {"label": "Yahoo Finance quote KOMN.SW", "url": "https://finance.yahoo.com/quote/KOMN.SW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already executed the adjusted-score reconciliation (displayed rank vs adjusted rank 57); since then there is zero new fundamental evidence and the +0.38% day move is noise, so the strict-screen setup is unchanged at rank 65.",
+      "bull": "YTD -18% on a $0.34B cap with stable order intake and FY2025 cost cuts done leaves cheap optionality if robotics/industrial harness automation demand inflects; dominant wire-processing franchise is genuinely bottleneck-adjacent for high-volume harness manufacturing.",
+      "neutral": "Thesis is a medium-evidence AI-adjacency pathway, not a confirmed AI design win; order intake merely stable amid geopolitical volatility, and the only fresh item is a third-party valuation note, not company news.",
+      "bear": "Core demand is still auto-harness-cyclical and macro-exposed; double-digit EBIT margin is a 2027 aspiration, and the AI/robotics harness pathway may never become a measurable revenue driver, leaving this a value trap on a strict AI-nodes screen.",
+      "primaryCatalyst": "H1 2026 results (August) showing order-intake acceleration in robotics/industrial/infrastructure markets or a named robotics-harness automation win.",
+      "primaryRisk": "Continued auto-sector capex weakness keeps order intake flat, exposing the AI/robotics pathway as too thin to support the strict-screen thesis."
+    }
+  ]
+}

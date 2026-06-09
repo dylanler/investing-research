@@ -2069,7 +2069,7 @@ export default function SemiconductorAiNodesClient({ data }: { data: Semiconduct
       <Hero data={data} />
       <CurrentThesisAudit
         compact
-        focus="For semiconductor AI nodes, the current pass keeps node centrality separate from alpha and rechecks price, market cap, YTD rerating, CPO/interconnect pressure, HBM, packaging, and test complexity."
+        focus="The bottleneck thesis is intact - hyperscalers now guide $630B+ of 2026 capex (+62% y/y, ~75% AI-specific), Microsoft pins $25B of it on memory/component inflation, and DDR5 contract prices have more than doubled - but the alpha has rotated from discovered US connectivity into the memory-capex derivative chain. June 9's tape makes the point: SK hynix +15.9% and Samsung +9.0% in the Korea melt-up while Coherent fell 12.0% and Marvell 10.4% in the third US optics flush since May 7, even as Marvell raised FY27/28 outlooks. The cleanest mispricing is Hanmi at rank 3 with just +4.5% YTD the day after SK hynix handed it a 44.2bn-won HBM4 TC-bonder order, while the page still crowns Credo ($41B cap, +61.5% YTD) and Astera Labs ($54.3B, +79.8% YTD) - exactly the crowded names the ranking's own crowding penalty should be demoting. The substrate tier (Samsung Electro-Mechanics +18.4%, Nan Ya PCB +10.0%, Ibiden +9.0% today) is entirely absent from the list and is the obvious structural gap."
       />
       <ThesisSection data={data} />
       <NetworkMap nodes={data.alpha} edges={data.networkEdges} centrality={data.centrality} />

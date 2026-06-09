@@ -1,0 +1,27 @@
+{
+  "symbol": "002281.SZ",
+  "company": "Accelink Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new disclosures since June 6, 2026. Latest items all predate the window: 2025 annual report and board filings (May 14), two abnormal-trading-volatility notices (May 8 and May 13), interactive-platform confirmation that 1.6T optical modules are ready for volume delivery, and the March OFC 2026 debut of a 3.2T silicon-photonics NPO module plus the AOI $200M 1.6T order that drove a March 10 limit-up. Today's +1.56% move is flow drift, not news.",
+  "sources": [
+    {"label": "Sina Finance - Accelink (002281) announcement list", "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002281.phtml"},
+    {"label": "Cailian Press - Accelink: 1.6T modules ready for volume delivery", "url": "https://www.cls.cn/detail/2236465"},
+    {"label": "Caiwen News - March 10 limit-up on AOI 1.6T order (context, pre-window)", "url": "https://www.caiwennews.com/article/1423733.shtml"},
+    {"label": "Yahoo Finance quote 002281.SZ", "url": "https://finance.yahoo.com/quote/002281.SZ/"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Yesterday's verdict already moved it down for the ~197% YTD rerating; today brings no new fundamental evidence and only a +1.56% drift, so re-penalizing the same crowding twice in two sessions is unwarranted. Mild negative drift as the grind higher without fresh orders keeps eroding residual alpha.",
+      "bull": "Full-stack optics player (chips through modules) under China Information & Communication Technologies Group with 800G shipping to ByteDance/Alibaba-class CSPs, 1.6T ready for volume delivery, and a world-first 3.2T silicon-photonics NPO module validated at a leading domestic CSP - a domestic-substitution bottleneck if US-supplier access tightens.",
+      "neutral": "AI optics exposure is real but now fully recognized: two exchange abnormal-volatility notices in May, ~$25B market cap, and consensus 1.6T volume estimates already revised from ~10M to 25M+ units, so execution merely meeting expectations sustains rank 68 rather than improving it.",
+      "bear": "Stock trades roughly 80% above the average analyst target after a ~3x YTD run; any 1.6T ramp slippage, ASP erosion, or a pending private placement's dilution could trigger a sharp de-rating in a crowded retail-heavy name.",
+      "primaryCatalyst": "Confirmed volume 1.6T shipments or a named hyperscaler order (H2 2026 ramp), plus 3.2T NPO/CPO design wins converting to revenue.",
+      "primaryRisk": "Crowding/valuation reset - post-rerating multiple compression if 1.6T volumes or margins disappoint, compounded by placement dilution."
+    }
+  ]
+}

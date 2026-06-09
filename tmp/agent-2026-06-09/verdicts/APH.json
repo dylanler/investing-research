@@ -1,0 +1,40 @@
+{
+  "symbol": "APH",
+  "company": "Amphenol",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental catalyst since June 6. The +4.84% June 9 move (after +3.67% June 8, ~8.7% two-day rally) is flow/sentiment-driven: continued AI-infrastructure enthusiasm, institutional buying, and analyst price-target raises (consensus PT lifted toward ~$169) that all reference already-known catalysts - the late-April Q1 2026 record ($7.62B revenue, +58% y/y, IT datacom 41% of sales) and the previously closed CommScope CCS acquisition. No new contracts, design wins, M&A, or guidance changes in the June 6-9 window.",
+  "sources": [
+    {"label": "TradingKey - APH moved up 3.67% on Jun 8: facts behind the movement", "url": "https://www.tradingkey.com/news/market-movers/261953504-market-movers-aph-20260608"},
+    {"label": "GuruFocus - Amphenol stock price surges amid AI infrastructure demand", "url": "https://www.gurufocus.com/news/8894038/amphenol-aph-stock-price-surges-amid-ai-infrastructure-demand"},
+    {"label": "Yahoo Finance - Amphenol deepens AI data center role with CommScope CCS acquisition", "url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-deepens-ai-data-center-110948440.html"},
+    {"label": "MarketBeat - APH analyst forecast and price targets", "url": "https://www.marketbeat.com/stocks/NYSE/APH/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 82,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On a crowding-sensitive alpha list, an ~8.7% two-day rally with zero new fundamental evidence is pure post-rerating chase that further erodes residual alpha; the name is already bucketed 'Crowded / rerated benchmark' at a $182B cap, so it should slip below smaller, undiscovered bottleneck names.",
+      "bull": "IT datacom (41% of revenue, +58% y/y company growth) plus the CommScope CCS fiber bolt-on make APH the broadest pure-play on AI rack interconnect density, with Q2 guidance still beating consensus.",
+      "neutral": "Strategically irreplaceable interconnect supplier, but at $182B and a consensus PT (~$169) only modestly above spot, the market already prices the bottleneck; this list rewards what the market has NOT found.",
+      "bear": "Two-day momentum spike on no news invites mean reversion; AI capex digestion or hyperscaler order lumpiness would hit a stock now owned by every AI-supply-chain screen and passive flow.",
+      "primaryCatalyst": "Q2 2026 earnings (July 29) confirming IT datacom order momentum and CCS integration accretion.",
+      "primaryRisk": "Crowding unwind: flow-driven rerating reverses on any AI capex pause, with no valuation cushion left."
+    },
+    {
+      "page": "companies",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the optical/high-speed networking thesis page the fundamental case (800G/1.6T links, fiber via CCS, scale-out bandwidth) is unchanged and yesterday's verdict was hold; today's move is flow, not new evidence, so only a small drift haircut for the further rerating against the alpha-scored thesis.",
+      "bull": "CCS acquisition deepens fiber and data-center connectivity exactly where scale-out optical bandwidth demand is accelerating; record orders and 41% IT-datacom mix validate the networking thesis.",
+      "neutral": "Thesis intact and executing, but the YTD reset that made the entry attractive has now largely closed (+7.8% YTD after the two-day pop), leaving the rank fairly placed among optical/networking peers.",
+      "bear": "A $182B diversified connector company offers diluted optics exposure versus pure-plays; sentiment-driven gains compress the forward return if 1.6T transitions or CCS synergies slip.",
+      "primaryCatalyst": "Q2 earnings (July 29) plus evidence of CCS-driven fiber share gains in hyperscaler data-center builds.",
+      "primaryRisk": "AI capex digestion or interconnect pricing pressure hitting IT datacom growth just as the multiple has re-expanded."
+    }
+  ]
+}

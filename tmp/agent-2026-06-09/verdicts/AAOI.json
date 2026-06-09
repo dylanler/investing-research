@@ -1,0 +1,41 @@
+{
+  "symbol": "AAOI",
+  "company": "Applied Optoelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Shares fell ~15% on June 9 as investors reacted to the company's at-the-market equity program (serially expanded in 2026 from $250M to $500M, then a $600M Equity Distribution Agreement with Raymond James and Needham per an 8-K) raising dilution fears, amplified by profit-taking and a rotation out of AI hardware with the stock trading well above most analyst price targets after a +321% YTD run. Fundamentals look intact: ~$324M of verified 800G/1.6T transceiver orders (including a $200M+ single-customer 1.6T award), capacity ramping from ~100k to ~650k units/month by year-end 2026, and 1.6T order shipments slated to start around July 1, 2026. No new downgrade or order cancellation found since June 6.",
+  "sources": [
+    {"label": "TipRanks - Why Applied Optoelectronics Stock Is Sinking Now (ATM dilution fears, AI-hardware rotation)", "url": "https://www.tipranks.com/news/catalyst/why-applied-optoelectronics-stock-is-sinking-now-4"},
+    {"label": "Investing.com - Applied Optoelectronics enters $600 million at-the-market equity agreement", "url": "https://www.investing.com/news/sec-filings/applied-optoelectronics-enters-600-million-atthemarket-equity-agreement-93CH-4690096"},
+    {"label": "StockTitan - AAOI 8-K: $600M stock sale program", "url": "https://www.stocktitan.net/sec-filings/AAOI/8-k-applied-optoelectronics-inc-reports-material-event-b0306e118f5b.html"},
+    {"label": "The Globe and Mail - Applied Optoelectronics Expands At-The-Market Equity Offering Program", "url": "https://www.theglobeandmail.com/investing/markets/stocks/AAOI/pressreleases/744478/applied-optoelectronics-expands-at-the-market-equity-offering-program/"},
+    {"label": "24/7 Wall St. - AAOI up 439% in 2026 vs other optics names (crowding context)", "url": "https://247wallst.com/investing/2026/06/01/applied-optoelectronics-is-up-439-in-2026-is-it-outperforming-other-optics-stocks-like-lumentum-and-coherent/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 118,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Already pinned near the bottom of this crowding-sensitive CPO alpha list after yesterday's down move; a one-day -15% dilution-driven flush does not make a $13.3B, +321% YTD merchant transceiver name hidden or more direct to the CPO/package bottleneck, though it trims some chase risk.",
+      "bull": "~$324M of verified 800G/1.6T orders including a $200M+ single-customer 1.6T award, with capacity ramping toward 650k units/month by year-end; the ATM proceeds fund exactly that ramp.",
+      "neutral": "The sell-off is mostly flow (profit-taking, AI-hardware rotation, stock above analyst targets) plus a modest ~4-5% maximum dilution at full ATM size; the thesis is unchanged and the rank already reflects full discovery.",
+      "bear": "Serial ATM expansion ($250M to $500M to $600M) signals dilution-financed growth in a competitive merchant transceiver market with single-customer concentration; on this list it remains indirect to the true CPO bottleneck.",
+      "primaryCatalyst": "1.6T order shipments starting around July 2026 and the capacity ramp to ~650k units/month.",
+      "primaryRisk": "Continued ATM issuance and dilution into a fading rerating, plus single-customer order concentration."
+    },
+    {
+      "page": "companies",
+      "currentRank": 84,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "A sharp -15% one-day flush against at most ~4-5% real dilution from the ATM improves per-share asymmetry while the scale-out optics thesis (verified 800G/1.6T order book, 650k units/month ramp, July 1.6T shipments) is intact; yesterday's down was a pure rerating penalty that today's price action partially unwound.",
+      "bull": "Dilution funds a 6x capacity expansion against $324M of verified hyperscaler orders; if execution lands, the post-flush entry is meaningfully better than 48 hours ago.",
+      "neutral": "Move is mostly flow-driven with a real but bounded fundamental component (dilution); still +321% YTD and widely owned, so this is a tactical asymmetry improvement, not a rediscovery of hidden alpha.",
+      "bear": "Three ATM expansions in one year point to a cash-hungry model; transceiver pricing pressure or a slip in the 1.6T shipment start would compound the dilution overhang.",
+      "primaryCatalyst": "Start of 1.6T order shipments (around July 1, 2026) and evidence the capacity ramp converts to margin-accretive revenue.",
+      "primaryRisk": "Further dilution via the $600M ATM and transceiver ASP/pricing pressure eroding the execution story."
+    }
+  ]
+}

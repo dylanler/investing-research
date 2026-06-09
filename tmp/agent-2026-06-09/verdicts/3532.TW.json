@@ -1,0 +1,27 @@
+{
+  "symbol": "3532.TW",
+  "company": "Formosa Sumco Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 revenue released June 9: NT$1.217B, +4.2% MoM and +24.4% YoY, a 29-month high; 5M26 cumulative revenue +14.2% YoY. Company says spot wafer prices are recovering and customers have responded positively to H2 price-adjustment talks (LTA prices still flat). Sector backdrop: GlobalWafers plans H2 2026 silicon wafer price hikes on AI/auto demand. Price action is whipsaw: 4-year high NT$350.5 on June 1, limit-down to NT$261 on June 8, then limit-up rebound intraday June 9 (~287, +9% to 284.5). Today's move is fundamental-seeded (revenue print) but heavily flow-amplified by retail momentum.",
+  "sources": [
+    {"label": "China Times - May revenue 29-month high, June 9 rebound", "url": "https://www.chinatimes.com/realtimenews/20260609001884-260410"},
+    {"label": "Money Weekly - revenue inflection, 3 consecutive limit-ups", "url": "https://www.moneyweekly.com.tw/ArticleData/Info/article/224828"},
+    {"label": "SemiMedia - GlobalWafers H2 2026 wafer price hike plans", "url": "https://www.semimedia.cc/globalwafers-plans-silicon-wafer-price-increases-as-ai-and-automotive-demand-recover/"},
+    {"label": "UDN Money - FST sees wafer prices rising, H2 adjustment talks", "url": "https://money.udn.com/money/story/5710/9169981"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the scaling lens the wafer-tightness thesis just got harder evidence (29-month revenue high, H2 price-hike traction, GlobalWafers raising prices), but the +194% YTD triple and limit-up/limit-down retail whipsaw mean residual alpha is largely consumed; new evidence roughly offsets the crowding penalty, so hold at 46 with a small positive drift.",
+      "bull": "300mm wafer supply is genuinely tightening (SUMCO shelving greenfield capacity, GlobalWafers hiking H2 prices); FST's revenue inflection plus positive customer response to price adjustments could drive a multi-quarter earnings upcycle.",
+      "neutral": "Fundamentals are improving from a low base (+24% YoY revenue) but LTA prices are still flat and the H2 price hikes are negotiated, not booked; the stock already discounts much of the recovery after tripling YTD.",
+      "bear": "A $3.6B-cap retail momentum darling trading limit-up/limit-down is priced for a wafer supercycle that may stall if memory/HBM-driven spot tightness eases; a fade back toward pre-rally levels would be a 40%+ drawdown.",
+      "primaryCatalyst": "Confirmed H2 2026 wafer ASP increases (FST contract repricing following GlobalWafers' lead) and continued monthly revenue highs.",
+      "primaryRisk": "Crowding unwind: flow-driven collapse like the June 8 limit-down if price-hike negotiations disappoint or Taiwan retail momentum rotates out."
+    }
+  ]
+}

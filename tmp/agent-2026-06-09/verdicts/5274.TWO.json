@@ -1,0 +1,35 @@
+{
+  "symbol": "5274.TWO",
+  "company": "ASPEED Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Taipei Times (Jun 4, 2026): Aspeed expects revenue to increase, citing agentic-AI server demand; substrate (T-glass to E-glass) bottleneck pushes some shipments to 2027, easing in Q4",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/06/04/2003858478"
+    },
+    {
+      "label": "BigGo Finance (Jun 1, 2026): Q1 earnings call - record EPS NT$37.4, Q3 revenue guidance NT$4.1-4.3bn capped by supply bottlenecks, chairman sees 2027 growth 'beyond imagination'",
+      "url": "https://finance.biggo.com/news/TW_5274.TW_2026-06-01"
+    },
+    {
+      "label": "Yahoo Finance quote 5274.TWO (price/YTD context)",
+      "url": "https://finance.yahoo.com/quote/5274.TWO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No genuinely new information since June 6 - the bullish earnings call (Jun 1) and chairman commentary (Jun 4) predate the cutoff and were already reflected in yesterday's 'down' verdict on rerating grounds. Today's +1.9% grind to +146% YTD without fresh evidence is drift, not a setup change, so hold at rank 23 with mild negative drift for continued crowding.",
+      "bull": "ASPEED is a near-monopoly (~70% share) in server BMCs with the premium-ASP AST2700 ramping on every AI and general-purpose server; management guides H2 > H1 and says 2027 growth will be 'beyond imagination', with a 41% raised 2030 BMC TAM.",
+      "neutral": "The story is real but fully told: Taiwan's highest-priced stock, 15 buy ratings and zero sells, +146% YTD, USD 21bn cap - the bottleneck is recognized, so residual alpha at rank 23 is roughly fair for this page's selective-exposure tier.",
+      "bear": "Substrate shortages cap Q3 revenue (NT$4.1-4.3bn) and push shipments into 2027 while gross margin slipped below the 70% target; at this multiple any AI-server order digestion or capex pause triggers a sharp de-rating of a very crowded name.",
+      "primaryCatalyst": "May monthly revenue release (due ~June 10) and Q4 confirmation that the T-glass/E-glass substrate bottleneck is resolved, unlocking deferred shipments.",
+      "primaryRisk": "Crowded post-rerating positioning: a hyperscaler capex pause or slower AST2700 ramp compresses the premium multiple far faster than fundamentals deteriorate."
+    }
+  ]
+}

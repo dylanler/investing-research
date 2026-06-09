@@ -1,0 +1,35 @@
+{
+  "symbol": "6526.T",
+  "company": "Socionext",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Socionext official news/topics page (latest items dated May 2026; nothing June 6-9)",
+      "url": "https://www.socionext.com/en/topics/"
+    },
+    {
+      "label": "Simply Wall St - Socionext (TSE:6526) overview: dividend paid June 5, AGM June 25, next earnings July 30",
+      "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6526/socionext-shares"
+    },
+    {
+      "label": "Yahoo Finance quote 6526.T",
+      "url": "https://finance.yahoo.com/quote/6526.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved Socionext up on the custom-ASIC/chiplet/SerDes bottleneck argument, and nothing new has emerged since June 6 - latest company announcements are from May, the June 5 dividend and June 25 AGM are routine, and -0.55% on the day is noise. No fresh evidence justifies moving again on this node-mapping page.",
+      "bull": "Pure-play custom SoC house with chiplet (Flexlets, 3D/5.5D data-center chiplets) and edge-AI exposure at only ~$3B market cap and +7.5% YTD, so the AI custom-silicon optionality remains cheap and under-owned.",
+      "neutral": "Thesis is still category-level rather than backed by named hyperscaler design wins; consensus 2026 EPS estimates have drifted down even as revenue forecasts edged up, so the stock marks time until the July 30 earnings print.",
+      "bear": "Legacy automotive/consumer ASIC exposure dilutes the AI story, and if data-center chiplet engagements fail to convert to disclosed wins the stock stays a show-me name with margin pressure.",
+      "primaryCatalyst": "Q1 FY2026 earnings on July 30 or a disclosed data-center/AI chiplet design win converting the category thesis into company-specific evidence.",
+      "primaryRisk": "Continued EPS estimate erosion and absence of named AI design wins, leaving it a sub-scale ASIC vendor rather than a bottleneck-critical node."
+    }
+  ]
+}

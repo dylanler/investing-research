@@ -1,0 +1,40 @@
+{
+  "symbol": "6920.T",
+  "company": "Lasertec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news since June 6. The stock fell ~7% on June 8 in a sector-wide AI/semiconductor sell-off (SOX-led), then rebounded +3.5% today on no new information - a flow-driven bounce, not a fundamental event. The supportive fundamentals are pre-window: mid-May FY6/26 order guidance raised to JPY200-240B from JPY170-220B on AI-driven EUV inspection demand (ACTIS A200HiT), and Goldman Sachs reaffirmed Buy on June 1.",
+  "sources": [
+    {"label": "Yahoo Finance quote 6920.T", "url": "https://finance.yahoo.com/quote/6920.T/"},
+    {"label": "Futu News - Lasertec revises order outlook upward on AI-driven EUV inspection demand", "url": "https://news.futunn.com/en/post/73910938/lasertec-revises-its-order-outlook-upward-with-euv-inspection-equipment"},
+    {"label": "Yahoo Finance Japan - FY6/26 order guidance range upward revision (Toushiru)", "url": "https://finance.yahoo.co.jp/news/detail/57ff4bc6ddb22e04876ebed498ec27170fb86072"},
+    {"label": "Kabutan 6920 daily price history", "url": "https://kabutan.jp/stock/kabuka?code=6920"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since June 6; today's +3.5% is a flow-driven rebound from the June 8 sector sell-off, and yesterday's hold already reflected the post-selloff setup. The May order-book raise that underpins the WFE thesis is already in the score.",
+      "bull": "FY6/26 order guidance was raised to JPY200-240B on AI semiconductor demand, and actinic EUV mask inspection remains a near-monopoly tollgate on every advanced-node and HBM-adjacent litho capacity addition.",
+      "neutral": "Stock chopped -7% then +3.5% on zero company news; net of the round trip it sits ~4% below its June 5 level with the order thesis intact but no incremental datapoint to act on.",
+      "bear": "27.7% YTD with a $23B cap means the order-revision is largely priced; order timing lumpiness and China export-control exposure can still vaporize a quarter of bookings.",
+      "primaryCatalyst": "FY6/26 (June year-end) results and FY27 order guidance, plus ACTIS A200HiT order announcements tied to 2nm/A16 EUV mask volume.",
+      "primaryRisk": "Order push-outs or export-control tightening hitting the China-linked portion of the book; semicap sector beta as shown by the June 8 SOX-led drawdown."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On this crowding-sensitive alpha list, a +3.5% no-news rebound that claws back the June 8 discount marginally reduces residual asymmetry, and Lasertec is a heavily-covered former retail darling rather than a hidden name. Nothing new enough since yesterday's hold to justify a rank change, so hold with a small negative drift.",
+      "bull": "Actinic mask inspection is genuinely scarce - effectively sole-source - and the raised JPY200-240B order outlook shows AI/EUV demand pulling through despite the broader semicap chop.",
+      "neutral": "The mask/yield-control thesis is intact but indirect to CPO; this week's price action was pure sector beta and the alpha case is unchanged from June 8.",
+      "bear": "With 9 analysts on it, a Goldman Buy reaffirm, and 27.7% YTD, ownership and awareness are high; semicap spending volatility plus discovery already done leaves limited under-owned upside on an alpha lens.",
+      "primaryCatalyst": "New actinic inspection tool orders or an FY27 order outlook above the raised JPY200-240B range at the June fiscal-year-end report.",
+      "primaryRisk": "Crowded positioning unwinding into any order miss - the June 8 -7% sector flush shows how fast the multiple compresses on this name."
+    }
+  ]
+}

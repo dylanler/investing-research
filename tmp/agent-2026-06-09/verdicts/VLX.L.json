@@ -1,0 +1,28 @@
+{
+  "symbol": "VLX.L",
+  "company": "Volex",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific RNS or analyst action found since June 6. Latest items remain the May 26 Notice of Results (FY26 prelims due June 25, 2026, with analyst briefing same day and IMC investor presentation June 26) and the March 2026 trading update (FY26 'significantly ahead': revenue >= $1,220M, margins slightly above the 9-10% target range, data-centre/AI revenue expected to roughly double from $118M). Today's -6.23% (587p vs 626p) has no identifiable fundamental driver and looks like flow-driven profit-taking in a thin AIM name ahead of the June 25 prelims.",
+  "sources": [
+    {"label": "Investegate - Volex Notice of Results (prelims June 25, 2026)", "url": "https://www.investegate.co.uk/announcement/rns/volex--vlx/notice-of-results/9586157"},
+    {"label": "Investegate - Volex trading update and notice of capital markets event (FY26 significantly ahead, DC revenue doubling)", "url": "https://www.investegate.co.uk/announcement/rns/volex--vlx/trading-update-and-notice-of-capital-markets-event/9490280"},
+    {"label": "Investegate - Volex RNS feed (no new announcements since June 6)", "url": "https://www.investegate.co.uk/company/VLX"},
+    {"label": "Yahoo Finance - VLX.L quote (price/day move confirmation)", "url": "https://finance.yahoo.com/quote/VLX.L/"},
+    {"label": "London Stock Exchange - Volex company page", "url": "https://www.londonstockexchange.com/stock/VLX/volex-plc/company-page"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 5,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "A -6.2% day with no RNS, no downgrade and no fundamental news, while the FY26 prelim catalyst (June 25) is confirmed and the March update already guided 'significantly ahead' with data-centre revenue doubling, improves entry asymmetry on a latent-node alpha list. Yesterday was a hold; today's flow-driven sell-off is the new element that changes the setup, not the thesis.",
+      "bull": "FY26 prelims on June 25 confirm data-centre/AI revenue doubling to ~$236M with margins above the 9-10% target band, and a $1.55B AIM-listed 400G/800G/1.6T interconnect supplier rerates as hyperscale design wins compound.",
+      "neutral": "Stock drifts into the June 25 print; the strong outcome was pre-announced in March, so prelims confirm rather than surprise, and the shares chop around 580-630p until new contract or 1.6T adoption datapoints land.",
+      "bear": "Prelims reveal softer FY27 guidance, margin give-back, or customer concentration in the data-centre ramp; diversified EV/consumer segments drag, and the AI-linked multiple compresses on an illiquid AIM listing.",
+      "primaryCatalyst": "FY26 preliminary results and FY27 outlook on June 25, 2026 (analyst briefing same day; investor presentation June 26).",
+      "primaryRisk": "Post-prelims guidance disappointment after a +42% YTD run, amplified by AIM illiquidity; non-data-centre segments (EV, consumer) diluting the AI interconnect story."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "BOY.L",
+  "company": "Bodycote",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Apollo Global Management withdrew its 885p/share all-cash proposal (~GBP 1.52B / $2.04B) on Friday June 5; shares fell ~13% and the entire bid premium has now unwound (pre-bid undisturbed close ~697p vs 708.5p today, +0.43% on the day). Apollo is barred from re-approaching for six months under the Takeover Code. The board reiterated FY2026 guidance and its 'Optimise, Perform and Grow' independent strategy, citing a positive start to 2026 trading (AGM update May 27). No reason given for Apollo's withdrawal.",
+  "sources": [
+    {
+      "label": "Reuters via Investing.com - Apollo bows out of $2 billion takeover pursuit of UK's Bodycote",
+      "url": "https://www.investing.com/news/stock-market-news/apollo-backs-out-of-2-billion-takeover-pursuit-of-uks-bodycote-4727874"
+    },
+    {
+      "label": "RTTNews - Bodycote Shares Down After Apollo Withdraws Offer",
+      "url": "https://www.rttnews.com/3658447/bodycote-shares-down-after-apollo-withdraws-offer.aspx"
+    },
+    {
+      "label": "ADVFN - Bodycote Backs Independent Growth Plan After Apollo Ends Takeover Interest",
+      "url": "https://uk.advfn.com/market-news/article/17102/bodycote-backs-independent-growth-plan-after-apollo-ends-takeover-interest-boy"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 14,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Sharp deal-break sell-off (-13% Friday, full bid premium unwound to roughly the undisturbed price) with the thermal-processing thesis untouched improves asymmetry on a latent-node alpha list; a sophisticated PE buyer just marked intrinsic value at 885p, ~25% above today's 708.5p. Yesterday's 'down' was a mechanical rank reconciliation that predates incorporating this setup, so this is genuinely new evidence, not a reversal on noise.",
+      "bull": "Apollo's withdrawn 885p bid is a hard valuation marker ~25% above the current price, FY2026 guidance is intact with a positive trading start, and the AI-relevant thermal-processing capability (liquid-cooling loops, robotics-grade metal treatment) is unpriced at a flat YTD, $1.6B name.",
+      "neutral": "The stock has merely round-tripped to its undisturbed pre-bid level; without a new bidder or an explicit AI-revenue proof point, it trades as a cyclical UK industrial and the latent-node thesis stays optionality, not earnings.",
+      "bear": "Apollo walked without explanation after diligence, which may signal margin or end-market issues it found; with the suitor barred for six months and no near-term catalyst, the shares can drift lower on deal-arb exit flows and geopolitical/industrial-demand softness.",
+      "primaryCatalyst": "A second bidder emerging or H1 2026 results (late July) evidencing the positive trading start and any AI/data-center-adjacent thermal-processing wins.",
+      "primaryRisk": "Apollo's unexplained walk-away reflects fundamental diligence concerns, and post-deal-break flow pressure pushes the stock below the undisturbed price."
+    }
+  ]
+}

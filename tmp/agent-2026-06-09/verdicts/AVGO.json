@@ -1,0 +1,80 @@
+{
+  "symbol": "AVGO",
+  "company": "Broadcom",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6; the material event remains the June 3 Q2 FY26 print (record $10.8B AI semi revenue +143% y/y, EPS beat) where the unraised $56B FY26 AI guide and a $16B Q3 AI guide vs ~$17.2B consensus triggered a ~13%/$280B single-day wipeout. Since June 6 the action is continued flow-driven de-rating (-2.96% today, ~20% off highs, YTD compressed to +10.7%) while sell-side defends with raised targets (BofA $530, Jefferies $550, consensus ~$501) and management's FY27 $100B+ AI revenue and multi-year Google/Anthropic/OpenAI/Meta compute deals stay intact.",
+  "sources": [
+    {"label": "CNBC - Broadcom plunges on weak software, unchanged AI chip forecast (Jun 3, 2026)", "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"},
+    {"label": "Yahoo Finance - Broadcom's sell-off just entered megacap history", "url": "https://finance.yahoo.com/markets/stocks/article/broadcoms-sell-off-just-entered-megacap-history-163942663.html"},
+    {"label": "Motley Fool - Down 20%, should you buy Broadcom on the dip? (Jun 7, 2026)", "url": "https://www.fool.com/investing/2026/06/07/down-20-buy-broadcom-stock-dip-answer-surprise-you/"},
+    {"label": "TheStreet - Bank of America resets Broadcom price target after earnings", "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-broadcom-stock-price-target-after-earnings"},
+    {"label": "StockAnalysis - AVGO analyst consensus and price targets", "url": "https://stockanalysis.com/stocks/avgo/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already moved it down for crowding and distance from the passive/power bottleneck stack; the continued post-earnings flush improves entry slightly but a $1.8T benchmark mega-cap cannot become hidden or under-owned, so no second move.",
+      "bull": "A ~20% drawdown against a reaffirmed $56B FY26 / $100B+ FY27 AI revenue roadmap restores some asymmetry even for a benchmark name.",
+      "neutral": "AVGO stays a monitor/benchmark proxy on this list; its de-rating matters more as a signal for the smaller passive/power names than as alpha itself.",
+      "bear": "Guidance that merely met its own prior bar at peak expectations shows how little upside surprise is left in the most-owned AI names.",
+      "primaryCatalyst": "FY27 hyperscaler deployment ramp toward the $100B+ AI revenue target",
+      "primaryRisk": "Index/passive crowding means any AI capex digestion hits AVGO first and hardest"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 26,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On a node-relevance lens the thesis is fully intact (custom ASIC + scale-up fabric revenue accelerating to +200% y/y in Q3) while the price de-rated ~20% and YTD compressed to +10.7% versus the 14.1% yesterday's hold was anchored on; sell-off with thesis intact improves asymmetry.",
+      "bull": "Q3 AI guide of $16B (+200% y/y) and reaffirmed $100B+ FY27 with Google/Anthropic/OpenAI/Meta contracts confirm AVGO as the central custom-silicon node, now ~30% below consensus price targets.",
+      "neutral": "The expectations reset was about Wall Street's bar, not Broadcom's roadmap; rank improvement is bounded by mega-cap scale and visibility.",
+      "bear": "Soft infrastructure software and an unraised FY26 AI guide hint that even the strongest node can disappoint a market pricing perpetual upside surprises.",
+      "primaryCatalyst": "Fiscal 2027 multi-gigawatt custom accelerator deployments beginning to ship",
+      "primaryRisk": "Customer concentration: a single hyperscaler pausing or insourcing its ASIC program"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "The page's own thesis concedes AVGO's CPO alpha is 'not undiscovered'; the post-earnings flush improves the entry marginally but does nothing to make the consensus ecosystem anchor under-owned versus smaller CPO pure-plays.",
+      "bull": "CPO platform leadership plus accelerating AI networking revenue at a 20%-cheaper price modestly improves risk/reward.",
+      "neutral": "AVGO anchors the CPO ecosystem either way; the alpha on this list sits with suppliers into its platform, not the platform itself.",
+      "bear": "If hyperscaler networking budgets digest after the FY26 ramp, the most-owned name in the category de-rates further before the pure-plays do.",
+      "primaryCatalyst": "Next-gen Tomahawk/CPO design-win announcements through 2026",
+      "primaryRisk": "Large-cap valuation still embeds flawless multi-year AI networking share retention"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "Already rank 1 on the silicon-consumption theme and the quarter validated it: AI silicon consumption accelerating from $10.8B to a guided $16B per quarter (+200% y/y) keeps it the cleanest basket proxy; the de-rating changes price, not theme leadership.",
+      "bull": "Both legs of the thesis (custom accelerators and AI networking/interconnect) posted record, accelerating revenue with multi-year hyperscaler contracts behind them.",
+      "neutral": "Rank 1 is retained on relevance; the 20% drawdown is an expectations event, not a change in silicon consumption trajectory.",
+      "bear": "The sell-off is a warning that silicon-consumption proxies are priced for guidance raises, not reaffirmations.",
+      "primaryCatalyst": "FY27 $100B+ AI revenue trajectory confirming compute-consumption growth",
+      "primaryRisk": "AI capex digestion in 2027 would hit the consumption-proxy thesis directly"
+    },
+    {
+      "page": "companies",
+      "currentRank": 52,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down was explicitly predicated on a '39.8% YTD' rerating that no longer exists - YTD is now +10.7% and the stock is ~20% off highs with the optics/networking thesis intact and accelerating, so the setup genuinely changed and asymmetry improved.",
+      "bull": "AI networking and 800G/1.6T optical attach revenue is accelerating into FY27 deployments while the rerating penalty that justified the prior demotion has been flushed out.",
+      "neutral": "Still a mega-cap with broad ownership; the move up corrects a stale-rerating penalty rather than claiming hidden alpha.",
+      "bear": "Software softness and the unraised FY26 guide could mark the start of a longer expectations reset rather than a one-quarter flush.",
+      "primaryCatalyst": "Scale-out networking and CPO content growth in fiscal 2027 hyperscaler builds",
+      "primaryRisk": "Ethernet/optics pricing pressure if hyperscalers dual-source interconnect"
+    }
+  ]
+}

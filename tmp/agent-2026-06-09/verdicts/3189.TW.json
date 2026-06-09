@@ -1,0 +1,27 @@
+{
+  "symbol": "3189.TW",
+  "company": "Kinsus Interconnect",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 monthly revenue of NT$4.20B, +3.13% MoM and +33.0% YoY (cumulative 2026 revenue NT$19.38B, +29.3% YoY) - solid but in line with the established ABF/HPC growth trajectory. No new contracts, design wins, M&A, or guidance changes since June 6. Background: Q2 substrate price hikes (~5%) and the NT$23.5B (~US$744M) ABF capacity expansion approved in February 2026 remain the standing fundamental drivers; brokers had already upgraded ratings on ABF demand visibility before this window.",
+  "sources": [
+    {"label": "Win Invest - Kinsus (3189) monthly revenue (May 2026 NT$4.20B, +33% YoY)", "url": "https://winvest.tw/Stock/Symbol/MonthlyRevenue/3189"},
+    {"label": "Yahoo Taiwan - Kinsus 3189 revenue table", "url": "https://tw.stock.yahoo.com/quote/3189.TW/revenue"},
+    {"label": "DIGITIMES - Kinsus approves US$744M ABF expansion on three-year demand outlook (Feb 2026 background)", "url": "https://www.digitimes.com/news/a20260202PD236/kinsus-abf-substrate-expansion-demand.html"},
+    {"label": "UDN Money - brokers raise Kinsus rating and earnings estimates on ABF demand visibility", "url": "https://money.udn.com/money/story/5607/9459664"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved Kinsus down for the +358% YTD rerating; the only new datapoint since June 6 is May revenue (+33% YoY), which confirms the trajectory but adds no hidden alpha, so no second consecutive downgrade is warranted. Small negative drift as the stock grinds another +2.3% on no thesis-changing news, further compressing residual asymmetry.",
+      "bull": "ABF substrate scarcity for AI GPUs/ASICs is real and tightening: Q2 price hikes of ~5%, Ibiden projecting high-end ABF demand area up 275% by 2027, and Kinsus's NT$23.5B expansion gives it volume leverage into 2027-2028.",
+      "neutral": "May revenue +33% YoY is healthy but in line; at $11.7B market cap and +358% YTD the market already prices substrate tightness, leaving Kinsus as a fairly-valued cyclical beneficiary rather than a hidden bottleneck.",
+      "bear": "Kinsus is widely seen as the weakest of Taiwan's ABF trio (behind Unimicron and Nan Ya PCB); a substrate pricing cycle rollover or 2027 capacity waves from Ibiden/peers would hit a name that has already rerated 4.5x, with monthly revenue any miss now a sharp de-rating trigger.",
+      "primaryCatalyst": "Q2 earnings and continued substrate price hikes into H2 2026; first evidence the Yangmei Plant 6 ABF lines are sold out ahead of 2027 ramp.",
+      "primaryRisk": "Crowded post-rerating positioning: any monthly revenue deceleration or ABF pricing pause triggers an outsized pullback given the +358% YTD run."
+    }
+  ]
+}

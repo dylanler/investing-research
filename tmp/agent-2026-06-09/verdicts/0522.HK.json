@@ -1,0 +1,27 @@
+{
+  "symbol": "0522.HK",
+  "company": "ASMPT",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No confirmed company-specific announcement dated after June 6. Stock surged +9.06% intraday June 9 (HK$169.9 -> HK$185.3) on continued AI advanced-packaging momentum and sell-side support: targets clustered HK$180-210 (Citi, CICC, CCBI, BofA) plus a Berenberg upgrade to Buy; recent order flow (repeat order for eight chip-to-wafer TCB tools from a leading IDM, 1.6T CPO transceiver bulk orders, HBM4 12H/16H TCB qualification) are extensions of the existing thesis from Q1 disclosures, not fresh news. Move judged flow/re-rating driven rather than fundamental.",
+  "sources": [
+    {"label": "Yahoo Finance quote 0522.HK", "url": "https://finance.yahoo.com/quote/0522.HK/"},
+    {"label": "AASTOCKS ASMPT news feed (TCB repeat order, NEXX sale, analyst targets HK$180-210)", "url": "http://www.aastocks.com/en/stocks/analysis/stock-aafn/00522/0/hk-stock-news/1"},
+    {"label": "ASMPT Q1 2026 results (TCB/HB, CPO 1.6T bulk orders, HBM4 POR)", "url": "https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2026-first-quarter-results/"},
+    {"label": "ASMPT 19 C2S TCB tool orders for AI chips", "url": "https://www.asmpt.com/en/investor-relations/news-events/asmpt-wins-new-orders-for-nineteen-chip-to-substrate-tcb-tools-to-serve-ai-chip-market/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 27,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha screen, a +9% single-day pop with no new fundamental disclosure since June 6, on top of +128% YTD, compresses residual alpha; price (HK$185) now sits inside the sell-side target band of HK$180-210, so the rerating the thesis anticipated has largely happened.",
+      "bull": "ASMPT is sole supplier and process-of-record for C2S TCB at the leading foundry's OSAT chain, first to HBM4 12H orders across multiple HBM players, and its 1.6T CPO transceiver solutions took bulk orders - it sits on the genuine assembly bottleneck for AI compute and optics.",
+      "neutral": "The bottleneck thesis is intact and order momentum is real, but it is now fully discovered: 66x P/E, targets clustered at current price, and the marginal buyer is chasing momentum rather than mispricing.",
+      "bear": "Hanmi/Hanwha TCB competition and hybrid-bonding substitution at HBM4 16H could erode POR status, while the mainstream SMT business still dilutes the AI mix; any HBM4 qualification slip from here gets punished hard at this valuation.",
+      "primaryCatalyst": "Q2 earnings on Jul 29, 2026 with TCB/CPO order book and HBM4 16H AOR qualification updates",
+      "primaryRisk": "Crowded post-rerating positioning: a single soft bookings print or a TCB share loss to Hanmi/Hanwha unwinds the multiple"
+    }
+  ]
+}

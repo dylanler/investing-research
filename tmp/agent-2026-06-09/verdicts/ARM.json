@@ -1,0 +1,53 @@
+{
+  "symbol": "ARM",
+  "company": "Arm Holdings",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No ARM-specific fundamental news. The -8.9% June 9 move (on top of ~-13% Friday June 5) is flow-driven: Broadcom's fiscal Q2 revenue miss (June 4) triggered a broad AI-semis multiple compression (SMH -9% Friday), and majority owner SoftBank fell >7% on June 8 in Asia's AI selloff, amplifying ARM selling. An FTC investigation into Arm's licensing practices remains an unresolved overhang but is not new since June 6. ARM's own fundamentals (record FY26 revenue $4.92B, royalty +21%, ~50% hyperscaler CPU compute share) are unchanged; YTD has compressed from ~200%+ to ~175%.",
+  "sources": [
+    {"label": "CNBC (Jun 4): Broadcom, Micron and ARM sink, leading chip stocks lower", "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"label": "CNBC (Jun 8): Asia tech stocks extend sell-off, SoftBank down over 7%", "url": "https://www.cnbc.com/amp/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html"},
+    {"label": "Quiver Quant: Arm slides as Broadcom-led semiconductor selloff pressures high-multiple AI names", "url": "https://www.quiverquant.com/news/Arm+slides+as+Broadcom-led+semiconductor+selloff+pressures+high-multiple+AI+names"},
+    {"label": "Yahoo Finance ARM quote", "url": "https://finance.yahoo.com/quote/ARM/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already priced the post-rerating crowding; today's -8.9% flow-driven washout (no ARM-specific news) removes the impetus to mark it down further and modestly restores asymmetry, but ARM's directness to HBM/packaging/CPO bottlenecks is unchanged, so no upgrade either.",
+      "bull": "A ~22% three-session de-rating with royalty momentum and ~50% hyperscaler CPU share intact is exactly the setup that rebuilds residual alpha in a name that was over-owned a week ago.",
+      "neutral": "Sector multiple compression hit ARM harder than SMH, but its node-level bottleneck exposure remains indirect; the alpha case is better entry, not a better thesis.",
+      "bear": "Broadcom's miss is a genuine read-across question for AI capex breadth, and the FTC licensing probe plus SoftBank-leverage linkage mean further flow-driven downside is possible.",
+      "primaryCatalyst": "Data-center CPU royalty acceleration (the $2B pipeline converting) re-confirming the Cloud AI ramp despite sector capex doubt.",
+      "primaryRisk": "AI-capex sentiment deteriorates further and SoftBank deleveraging forces continued correlated selling regardless of ARM fundamentals."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On a CPO-bottleneck list ARM's exposure is remote and nothing since June 6 changes that; the only update is that the 'very high valuation' risk flag is modestly relieved by a flow-driven -22% three-session drawdown, which doesn't justify a rank move from 92.",
+      "bull": "Valuation risk, the page's stated knock on ARM, is meaningfully less acute after the washout while the custom-silicon ecosystem IP angle is untouched.",
+      "neutral": "CPO cable/optics relevance is still remote; ARM belongs near the bottom of this page whether it trades at 300 or 350.",
+      "bear": "If AI infrastructure spend disappoints, ARM gets hit as a high-multiple proxy without offering any CPO bottleneck scarcity to cushion it.",
+      "primaryCatalyst": "Evidence that Arm-based custom hyperscaler silicon programs pull through scale-up fabric/CPO attach where ARM IP is in the stack.",
+      "primaryRisk": "Continued high-multiple AI de-rating; ARM has the beta of the trade with little of this page's specific bottleneck exposure."
+    },
+    {
+      "page": "companies",
+      "currentRank": 95,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "Yesterday's down was driven explicitly by the 200%+ YTD rerating leaving 'less hidden alpha'; that condition has materially changed — a ~22% flow-driven drawdown (Broadcom read-across plus SoftBank selling, no ARM-specific negative) with record FY26 results intact improves the asymmetry this broad alpha page scores.",
+      "bull": "Sharp sell-off with thesis intact: royalty +21%, data-center royalty doubling, ~50% hyperscaler CPU share, and a $2B server-CPU demand pipeline — the de-crowding is doing the alpha repair for you.",
+      "neutral": "Still a $337B mega-cap up 175% YTD and heavily consensus-owned; the move from 'very crowded' to 'crowded' earns a modest bump, not a re-rank into bottleneck territory.",
+      "bear": "The Broadcom miss may mark the start of an AI-capex digestion phase that compresses ARM's royalty growth assumptions, and the FTC licensing probe could attack the core monetization model.",
+      "primaryCatalyst": "Q1 FY27 print showing data-center royalty momentum surviving the capex scare, plus resolution or de-escalation of the FTC inquiry.",
+      "primaryRisk": "FTC action against the licensing/royalty model, or SoftBank's leveraged AI strategy forcing supply/sentiment overhang on the float."
+    }
+  ]
+}

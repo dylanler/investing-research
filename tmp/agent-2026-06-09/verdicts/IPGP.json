@@ -1,0 +1,40 @@
+{
+  "symbol": "IPGP",
+  "company": "IPG Photonics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -5.16% (close ~$105.53, intraday range $100.57-$115.57) is a flow-driven giveback of the AI-photonics sympathy rally: IPGP jumped ~5.8% on June 2 alongside MACOM/Amkor after Nvidia's Computex/GTC Taipei AI-infrastructure keynote, then added 3.6% on June 8. No earnings, contracts, M&A, capacity news, or June 8-9 analyst actions found. Standing backdrop: May 5 Q1 beat (book-to-bill >1 for a second straight quarter, Needham upgrade Hold->Buy, $10M Crossbow defense follow-on) offset by tariff-driven gross-margin compression (~37.5%) and a GuruFocus flag of ~31% above GF Value with $1.4M insider selling.",
+  "sources": [
+    {"label": "StockStory - IPG Photonics, MACOM, and Amkor Shares Skyrocket (June 2 Nvidia AI-sympathy move)", "url": "https://stockstory.org/us/stocks/nasdaq/ipgp/news/why-up-down/ipg-photonics-macom-and-amkor-shares-skyrocket-what-you-need-to-know"},
+    {"label": "GuruFocus - IPGP up 3.6% June 8 but ~31% above GF Value, insider selling", "url": "https://www.gurufocus.com/news/8906366/ipg-photonics-corp-ipgp-stock-up-36-but-gf-value-says-overvalued-gf-score-81100"},
+    {"label": "Simply Wall St - IPGP valuation check after Needham upgrade and AI infrastructure tailwinds", "url": "https://simplywall.st/stocks/us/tech/nasdaq-ipgp/ipg-photonics/news/ipg-photonics-ipgp-valuation-check-after-analyst-upgrade-and"},
+    {"label": "Yahoo Finance - IPGP quote", "url": "https://finance.yahoo.com/quote/IPGP/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Today's -5.2% is a flow-driven retrace of the Computex AI-sympathy pop, not damage to the latent industrial-photonics thesis, so the rank-12 placement from yesterday's hold stands; the pullback marginally improves entry asymmetry without adding new evidence.",
+      "bull": "Book-to-bill above 1 for two straight quarters, the Needham upgrade, and the Crossbow defense follow-on show real demand inflection; any concrete AI-datacenter or advanced-manufacturing design win would re-rate the latent-node case from a now-cheaper base.",
+      "neutral": "Stock is still +41% YTD on AI-narrative beta with no disclosed AI revenue; the latent thesis remains optionality, not evidence, and today's noise does not change its position.",
+      "bear": "Five-year sales declined ~4% annually, tariffs compressed Q1 gross margin ~2pts, and insider selling at ~31% above GF Value means the industrial laser cycle, not AI, sets the floor if the narrative bid fades.",
+      "primaryCatalyst": "Industrial capex recovery or a named AI/photonics manufacturing design win that converts optionality into revenue.",
+      "primaryRisk": "Industrial laser cycle softness plus tariff margin drag while the AI-sympathy premium deflates."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict already moved IPGP down for the YTD rerating without a direct CPO revenue path; today's flow-driven -5.2% partially relieves that crowding penalty but brings zero new CPO evidence, so no second consecutive move at rank 37.",
+      "bull": "A 5% washout on no fundamental news trims the chase premium on a genuine photonics franchise that could be pulled into data-center optics if CPO supply chains broaden beyond COHR/LITE/MTSI.",
+      "neutral": "The CPO revenue path remains indirect and unproven; IPGP keeps trading in sympathy with the optics complex on Nvidia headlines, and the setup is unchanged from yesterday.",
+      "bear": "It is an industrial-cycle laser company wearing an AI-photonics multiple; the June 2 rally was Computex beta, not CPO content, so when narrative flows rotate, IPGP de-rates without ever having had the revenue.",
+      "primaryCatalyst": "A disclosed datacenter/CPO-adjacent component order or supply agreement that makes the AI revenue path direct.",
+      "primaryRisk": "Crowded AI-narrative flow money rotates out of indirect names first, and IPGP is among the most indirect on this list."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "HURC",
+  "company": "Hurco",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Fiscal Q2 2026 results (reported June 5, not reflected in the June 8 verdict): orders surged 41% YoY to $61.6M - strongest intake in years - with Americas +63% and Asia Pacific +66%; sales +17% to $47.6M; gross margin up from 19% to 22% on premium 5-axis/Takumi mix; net loss narrowed to $0.37/sh from $0.62. Balance sheet: ~$50M cash, no debt, $192M equity vs ~$140M market cap. Stock barely reacted (June 9 +0.33%), so the fundamental inflection has not been chased.",
+  "sources": [
+    {
+      "label": "GlobeNewswire - Hurco Reports Second Quarter Results for Fiscal Year 2026 (Jun 5, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/05/3307334/7439/en/Hurco-Reports-Second-Quarter-Results-for-Fiscal-Year-2026.html"
+    },
+    {
+      "label": "SEC 8-K exhibit 99.1 - Hurco FY2026 Q2 release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000315374/000110465926070810/hurc-20260605xex99d1.htm"
+    },
+    {
+      "label": "StockTitan - Hurco boosts Q2 2026 sales 17% as orders surge 41%",
+      "url": "https://www.stocktitan.net/sec-filings/HURC/8-k-hurco-companies-inc-reports-material-event-24bb2a1be147.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 33,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "The Q2 print (orders +41% YoY, Americas +63%, margin inflection) is genuinely new evidence of a US machine-tool demand upturn that yesterday's mechanical hold never priced in, and the stock has not re-rated on it - exactly the un-chased fundamental confirmation a strict latent-node alpha list rewards. Net cash of ~$50M covers a third of the $140M cap, improving downside asymmetry.",
+      "bull": "Strongest order intake in years with Americas +63% signals reshoring/specialty-manufacturing capex turning, validating the latent pathway of CNC capacity for hard-to-source AI infrastructure parts; mix shift to 5-axis machines lifts margins while the market still prices a cyclical loser.",
+      "neutral": "Order growth is broad machine-tool cycle recovery, not AI-attributed demand; the company is still loss-making ($0.91/sh loss for six months) and Europe (Germany) remains weak, so the AI-node link stays indirect.",
+      "bear": "If the order surge is tariff-driven pull-forward rather than a durable cycle turn, revenue conversion disappoints and the YTD +30% run unwinds; micro-cap illiquidity makes any exit costly.",
+      "primaryCatalyst": "Q3 FY2026 report (September) confirming order momentum converts to revenue and a return to profitability",
+      "primaryRisk": "Order intake proves a one-quarter tariff/pull-forward spike and losses persist, breaking the recovery narrative"
+    }
+  ]
+}

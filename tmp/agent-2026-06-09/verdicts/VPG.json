@@ -1,0 +1,52 @@
+{
+  "symbol": "VPG",
+  "company": "Vishay Precision Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockTitan VPG news feed (latest item May 28, 2026; nothing dated Jun 5-9)",
+      "url": "https://www.stocktitan.net/news/VPG/"
+    },
+    {
+      "label": "VPG to participate in June investor conferences (Noble Capital, East Coast IDEAS) - May 28 PR",
+      "url": "https://www.stocktitan.net/news/VPG/vpg-to-participate-in-investor-conferences-in-june-499pryh0lsbv.html"
+    },
+    {
+      "label": "Investing.com - VPG Q1 2026 earnings call transcript (May 12 beat, humanoid bookings ramp)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vishay-precision-group-q1-2026-earnings-beat-boosts-stock-93CH-4681311"
+    },
+    {
+      "label": "Yahoo Finance - VPG up 56.7% after strong Q1 bookings and raised Q2 outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-precision-group-vpg-56-231407950.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No news since Jun 6 and a flat tape today (-0.93%); the massive rerating (+202.6% YTD, ~+100% in 30 days off the May 12 humanoid-driven Q1 beat) was already penalized into the 'crowded/rerated benchmark' bucket and yesterday's hold. Small negative drift only - residual alpha keeps eroding on a crowding-sensitive list, but nothing new justifies a fresh move.",
+      "bull": "Q1 bookings of $102.1M (book-to-bill 1.21) and 17.6% y/y revenue growth show real demand pull-through in precision sensing and current-sense; humanoid shipments expected to more than double in Q2.",
+      "neutral": "Strategically real but fully discovered: a $1.57B small-cap that has tripled YTD now trades on execution of guidance, not on hidden bottleneck value.",
+      "bear": "Any wobble in the Q2 $85-90M revenue guide or the humanoid ramp narrative would hit a stock priced for flawless execution; CFO retirement (Dec 2026) adds a transition wrinkle.",
+      "primaryCatalyst": "Q2 2026 results confirming the humanoid follow-on order for hundreds of units and the $85-90M revenue guide.",
+      "primaryRisk": "Post-rerating crowding: a +203% YTD small-cap with no new evidence has asymmetric downside if the H2 humanoid production ramp slips."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved VPG down for crowding and the +200% YTD rerating; nothing new since Jun 6 and today's -0.93% drift does not change the setup, so respect the prior move and hold at the lowered rank.",
+      "bull": "Most concrete humanoid revenue proof in the sensor space: $1.0M of humanoid orders in Q1, ~$600K shipped, a fourth developer engaged, 20-30 force sensors per robot, and a stated path to hundreds of robots per week by end of 2026.",
+      "neutral": "The force-sensing thesis is intact and validated, but the May 12 print already converted it from hidden alpha to consensus; current rank fairly reflects relevance minus crowding.",
+      "bear": "Humanoid revenue is still tiny (~$600K/quarter) versus a $1.57B cap; if leading developers delay the late-2026 production ramp, the robotics premium deflates fast.",
+      "primaryCatalyst": "Confirmation of the expected Q2 follow-on humanoid order for hundreds of units and doubling of humanoid shipments.",
+      "primaryRisk": "Humanoid production timelines slipping into 2027, leaving the stock's robotics narrative unsupported by revenue."
+    }
+  ]
+}

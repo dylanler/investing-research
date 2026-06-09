@@ -1,0 +1,39 @@
+{
+  "symbol": "AIN",
+  "company": "Albany International",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only a June 3-4 announcement of conference participation (Wells Fargo Industrials 6/10, Truist Industrial & Services 6/16); the $0.28/sh quarterly dividend (record 6/5, payable 7/7), Q1 beat, Pratt & Whitney contract, and the aerospace-structures/Salt Lake City portfolio review all predate the window. Stock flat today (-0.17%).",
+  "sources": [
+    {
+      "label": "StockTitan - Albany International to join Wells Fargo, Truist conferences",
+      "url": "https://www.stocktitan.net/news/AIN/albany-international-announces-participation-at-upcoming-5gj6350q5hj2.html"
+    },
+    {
+      "label": "Business Wire - Albany International Announces Participation at Upcoming Conferences (Jun 3, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260603680091/en/Albany-International-Announces-Participation-at-Upcoming-Conferences"
+    },
+    {
+      "label": "Simply Wall St - Assessing Albany International (AIN) Valuation After Strong YTD Gains",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ain/albany-international/news/assessing-albany-international-ain-valuation-after-strong-ye"
+    },
+    {
+      "label": "Yahoo Finance - AIN quote",
+      "url": "https://finance.yahoo.com/quote/AIN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6 connecting the engineered fabrics/composites pathway to AI infrastructure; yesterday's hold already reconciled the +32% YTD and $1.9B cap inputs, and a flat tape today adds nothing. Small negative drift only, because the YTD rerating has accrued from aerospace/defense, not the latent AI thesis, so residual alpha quietly erodes.",
+      "bull": "Albany's 3D-woven composites, precision fabrics, and filtration media are genuinely scarce process-materials capabilities that could be pulled into lightweight structures and manufacturing consumables for AI-era industrial buildout, and the Pratt & Whitney long-term contract shows the franchise wins decade-length sole-source work.",
+      "neutral": "This remains a quality aerospace/paper-machine-clothing compounder whose 2026 strength (Q1 beat, dividend, portfolio review) is entirely non-AI; the latent-node pathway is plausible but has produced zero confirmable AI-chain revenue or design wins to date.",
+      "bear": "A +32% YTD run with sell-side consensus targets near $56 versus a $69 print means the easy rerating is done; if the aerospace structures review leads to a Salt Lake City divestiture or Boeing/787 rate softness, the stock derates with no AI optionality to cushion it.",
+      "primaryCatalyst": "Management commentary at the Wells Fargo (June 10) and Truist (June 16) conferences, plus the outcome of the aerospace structures portfolio review and any Farnborough (July) composite content announcements.",
+      "primaryRisk": "Valuation drift after the YTD rerating without any AI-pathway confirmation; aerospace program rate cuts or a dilutive portfolio-review outcome."
+    }
+  ]
+}

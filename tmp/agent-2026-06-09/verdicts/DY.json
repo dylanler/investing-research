@@ -1,0 +1,39 @@
+{
+  "symbol": "DY",
+  "company": "Dycom Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StockTitan - Dycom (DY) news feed (Q1 FY27 record results, NTI acquisition, raised FY27 guidance - all pre-June 6)",
+      "url": "https://www.stocktitan.net/news/DY/"
+    },
+    {
+      "label": "SEC 8-K - Dycom fiscal Q1 2027 earnings release ($1.965B revenue +56.1% YoY, $11.9B backlog +46.5%)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000067215/000006721526000023/dyfy2027q1earningsreleasee.htm"
+    },
+    {
+      "label": "StockAnalysis - DY analyst forecast (Strong Buy consensus, avg PT ~$637 after KeyBanc $610 / BofA $650 / Cantor $654 raises)",
+      "url": "https://stockanalysis.com/stocks/dy/forecast/"
+    },
+    {
+      "label": "Yahoo Finance - DY quote",
+      "url": "https://finance.yahoo.com/quote/DY/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Hold at rank 62. No new information since June 6; the blowout Q1 FY27 print, NTI deal, and sell-side PT raises were already absorbed in yesterday's down move, and the ~10-16% flow-driven retrace from the post-earnings spike ($535 to $447, -2.64% today) with an intact $11.9B backlog modestly restores asymmetry rather than justifying another cut.",
+      "bull": "Record backlog of $11.9B (+46.5%) and 24.7% organic growth directly validate the fiber-backhaul/data-center interconnect thesis, and the pullback to $447 vs analyst PTs of $610-654 rebuilds upside that the post-earnings spike had consumed.",
+      "neutral": "The name has been discovered: Strong Buy consensus and three major PT raises mean the latent-node premise is largely spent, and at +28.5% YTD with a 13.4% EBITDA-margin services multiple, returns from here track execution, not rerating.",
+      "bear": "Labor-intensive construction economics leave margins exposed to wage inflation and project timing; a carrier-capex or AI-datacenter-build pause would compress the backlog-to-revenue conversion the rerated multiple now assumes, and the $275M NTI plus prior $1.95B electrical-contractor deals add integration risk.",
+      "primaryCatalyst": "Q2 FY27 results ($1.94-2.01B guided) and continued data-center interconnect/inside-plant award announcements; near-term sell-side touchpoints at the Stifel Cross Sector and Guggenheim fireside events.",
+      "primaryRisk": "Post-rerating crowding: with sell-side PTs at $610-654 and the stock fully covered, any backlog-growth deceleration or margin miss triggers a sharp de-rating of a now-consensus name."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "AMG.AS",
+  "company": "AMG Critical Materials",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Only routine UK Takeover Code Form 8.3 dealing disclosures (Man Group Jun 8, Dimensional Jun 5) connected to the pending recommended acquisition of the remaining ~71% of Zinnwald Lithium Plc (announced May 14, ~$56M, 50/50 cash/shares). Q1 beat (May 6) and the Zinnwald deal predate the window. Upcoming catalyst: New Castle, PA chrome metal facility (6,500 t/yr) opens June 17. Today's -2.41% is sub-threshold and looks like commodity/flow drift, not news.",
+  "sources": [
+    {
+      "label": "Man Group PLC Form 8.3 - AMG Critical Materials N.V. (GlobeNewswire, Jun 4 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306859/0/en/Man-Group-PLC-Form-8-3-AMG-Critical-Materials-N-V.html"
+    },
+    {
+      "label": "AMG announces strategic acquisition of Zinnwald Lithium (GlobeNewswire, May 14 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/14/3295233/0/en/AMG-Critical-Materials-N-V-Announces-Strategic-Acquisition-of-Zinnwald-Lithium-Adding-Optionality-in-Critical-Materials-in-the-Heart-of-Europe.html"
+    },
+    {
+      "label": "AMG Reports Better than Expected Q1 2026 Results (GlobeNewswire, May 6 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/06/3289146/0/en/AMG-Reports-Better-than-Expected-First-Quarter-2026-Results.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Strict latent-node lens: no new evidence since June 6 strengthening or weakening the vanadium/lithium energy-storage-adjacent-to-compute pathway, and yesterday's verdict was hold. Today's -2.4% drift with the thesis intact marginally improves asymmetry on an already under-owned $1.6B Amsterdam name, but it is within noise, so rank holds.",
+      "bull": "Under-owned European critical-materials platform (vanadium, lithium, chrome, tantalum) with a near-term hard catalyst: New Castle, PA chrome facility opens June 17, and the Zinnwald Lithium consolidation adds European lithium optionality at a cheap entry. Q1 beat already de-risked 2026 guidance.",
+      "neutral": "YTD +17.9% has cooled from +20.8%; routine Form 8.3 flow around the Zinnwald offer is administrative, not informational. The AI-compute linkage remains indirect (energy storage/grid materials), so the strict screen keeps evidence at medium.",
+      "bear": "The compute-bottleneck pathway is the weakest link: vanadium and lithium prices, not AI capex, drive earnings, and a renewed battery-materials downcycle would hit estimates regardless of data-center build-outs. Zinnwald adds pre-production project risk and modest share dilution.",
+      "primaryCatalyst": "New Castle, PA chrome metal facility opening June 17, 2026, plus completion of the Zinnwald Lithium acquisition consolidating European critical-minerals supply.",
+      "primaryRisk": "Lithium/vanadium price weakness breaking the earnings recovery; thesis is only adjacently tied to AI compute, so it offers no protection if the materials cycle rolls over."
+    }
+  ]
+}

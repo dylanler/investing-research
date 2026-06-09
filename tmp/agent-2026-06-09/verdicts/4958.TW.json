@@ -1,0 +1,27 @@
+{
+  "symbol": "4958.TW",
+  "company": "Zhen Ding Technology Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 consolidated revenue hit a 2026 high (announced ~Jun 5), with server and optical-module shipments up ~2.5x YoY; AI-related applications now approach ~70% of revenue mix per company commentary. On Jun 9 a Zhen Ding unit disclosed an NT$1.05B machinery/equipment acquisition - an incremental capacity-expansion signal within the previously announced ~NT$100B two-year capex plan (Huai'an + Thailand, ten facilities). Today's +6.45% move to TWD 545 looks like momentum continuation of the AI-PCB rally on top of the already-public May revenue beat rather than a discrete new fundamental catalyst; the equipment purchase is small relative to the stated capex program.",
+  "sources": [
+    {"label": "DigiTimes - Zhen Ding posts strongest May revenue as server optical module shipments surge", "url": "https://www.digitimes.com/news/a20260605PD242/zhen-ding-revenue-shipments-2026-ic-substrate.html"},
+    {"label": "TradingView/Reuters - Zhen Ding unit acquires machinery equipment for NT$1.05B (Jun 9)", "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42H0PR:0-zhen-ding-technology-s-unit-acquires-machinery-equipment-for-t-1-05-bln/"},
+    {"label": "DigiTimes - Zhen Ding sees AI products near 70% of revenue, sets NT$100B capex for 2 years", "url": "https://www.digitimes.com/news/a20260312PD235/revenue-zhen-ding-pcb-2026-demand.html"},
+    {"label": "Yahoo Finance quote 4958.TW", "url": "https://finance.yahoo.com/quote/4958.TW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 87,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a residual-alpha lens, another +6.45% pop to +287.9% YTD on already-public May revenue news and a minor NT$1.05B equipment buy is rerating chase, not new mispricing; the crowding penalty yesterday's verdict flagged got worse, not better.",
+      "bull": "Record May revenue with server/optical shipments up ~2.5x YoY and AI nearing ~70% of mix confirms Zhen Ding is converting its NT$100B capex into real AI-server/CPO content; the bottleneck thesis is fundamentally on track.",
+      "neutral": "Fundamentals and price are rising together: the AI pivot is real but fully narrated by sell-side and media, so the name earns its 'Monitor / benchmark' bucket - hold exposure elsewhere and use it as a read-through for less-rerated PCB peers.",
+      "bear": "At ~$17.5B cap and +288% YTD, the stock now prices flawless capex execution in Huai'an/Thailand; any AI-server order digestion, iPhone FPC softness, or PCB pricing normalization triggers a sharp de-rating with no valuation cushion left.",
+      "primaryCatalyst": "June/Q2 monthly revenue prints showing continued 2x+ YoY growth in server, optical-module, and IC-substrate lines, plus first output from the new Thailand/Huai'an facilities.",
+      "primaryRisk": "Crowded AI-PCB trade unwinds: momentum/flow reversal after a 4x YTD run, or capex-heavy expansion meeting an AI-server order air pocket, compresses both multiple and estimates simultaneously."
+    }
+  ]
+}

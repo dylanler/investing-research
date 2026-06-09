@@ -1,0 +1,43 @@
+{
+  "symbol": "TRMB",
+  "company": "Trimble",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "GuruFocus - TRMB after 3.9% decline, GF Value $64.80 vs price $55.52 (Jun 3, 2026)",
+      "url": "https://www.gurufocus.com/news/8899915/a-look-at-trimble-inc-trmb-after-39-decline-gf-value-6480-vs-price-5552"
+    },
+    {
+      "label": "SEC 8-K (May 26, 2026) - Thomas Sweet appointed Audit Committee Chair; material-weakness remediation expected to complete in 2027",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000864749/000086474926000071/trmb-20260526.htm"
+    },
+    {
+      "label": "SEC 10-Q (quarter ended Apr 3, 2026) - disclosure controls not effective due to previously reported material weaknesses",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000864749/000086474926000063/trmb-20260403.htm"
+    },
+    {
+      "label": "SEC 8-K ex-99.1 (May 6, 2026) - Q1 2026 results: revenue $939.9M +12%, record ARR $2.43B, FY26 guidance raised",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000864749/000086474926000061/a2026q1-8kex991.htm"
+    },
+    {
+      "label": "Yahoo Finance - bull case could change following audit chair shift amid material weakness remediation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-trimble-trmb-could-010917350.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new information since the June 8 hold: the material-weakness overhang (May 26 8-K) and strong Q1 with raised guidance (May 6) were both already in yesterday's reconciliation, and today's -1.66% is drift. The continued slide against an intact geospatial-data thesis marginally improves asymmetry, worth +1 but not a rank move on this latent-nodes page.",
+      "bull": "The sell-off (-32.7% YTD) is driven by remediable internal-controls governance issues, not the business: Q1 revenue grew 12%, ARR hit a record $2.43B, and FY26 guidance was raised. A latent geospatial-data position for construction/logistics/autonomy AI at ~14% below estimated fair value is exactly the under-owned asymmetry this list rewards.",
+      "neutral": "Fundamentals and the AI-adjacent thesis are intact, but the material-weakness remediation runs into 2027, capping multiple recovery; the stock likely range-trades until controls are certified clean or AI-driven geospatial demand shows up in numbers.",
+      "bear": "Material weaknesses in financial-reporting controls carry tail risk of restatement or further audit findings, and Trimble is not an AI-narrative stock, so there is no crowding bid to catch the falling knife; construction end-market softness could compound the de-rating.",
+      "primaryCatalyst": "Evidence of material-weakness remediation progress (clean ITGC milestones) plus continued ARR/subscription momentum at Q2 earnings, which would re-rate a fundamentally strong name off a governance discount.",
+      "primaryRisk": "Escalation of the internal-controls issue (restatement, auditor disagreement, or delayed remediation beyond 2027) that converts a governance discount into a credibility break."
+    }
+  ]
+}

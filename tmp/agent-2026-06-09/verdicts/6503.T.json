@@ -1,0 +1,27 @@
+{
+  "symbol": "6503.T",
+  "company": "Mitsubishi Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Nearest items predate the window: a June 4 free design/validation data-provision service for 8th-gen IGBT power-conversion prototypes (minor), and earlier 2026 items (MEPPI 800 VDC AI-factory infrastructure support, Feb 6 JMoD defense satcom contract, Mar 4 Lockheed Martin satcom MOU). June 9 'Mitsubishi' headlines are Mitsubishi Motors (Eclipse Sportback EV), a different company. Today's +2.66% looks sector/flow-driven, not fundamental.",
+  "sources": [
+    {"label": "Businesswire - Mitsubishi Electric power-semiconductor data-provision service (Jun 4, 2026)", "url": "https://www.businesswire.com/news/home/20260604782791/en/Mitsubishi-Electric-to-Launch-Data-provision-Service-to-Accelerate-Adoption-of-Latest-Power-Semiconductors"},
+    {"label": "MEPPI - 800 VDC infrastructure for AI factories", "url": "https://www.meppi.com/news/meppi-to-power-next-generation-ai-factories-with-800-vdc-infrastructure"},
+    {"label": "Mitsubishi Electric global news index (checked for post-Jun-6 releases)", "url": "https://www.mitsubishielectric.com/news/index.page"},
+    {"label": "Yahoo Finance quote 6503.T", "url": "https://finance.yahoo.com/quote/6503.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 35: no new bottleneck-relevant evidence since June 6, and the stock has quietly rerated (YTD 18.3% -> 21.5%, +2.7% today on no news), which trims residual alpha on a passives-alpha lens without justifying a rank cut for a name already bucketed 'secondary' and discounted for being farther from the passive/power bottleneck stack.",
+      "bull": "Power semis (8th-gen IGBT/SiC), MEPPI 800 VDC AI-factory infrastructure, and grid/defense electronics give multi-leg exposure to the AI power buildout, with the IGBT data-provision service lowering customer adoption friction.",
+      "neutral": "Diversified conglomerate where AI-power exposure is a minority of revenue; +21.5% YTD is in line with Japanese heavy-electric peers, so the setup is neither stretched nor newly asymmetric.",
+      "bear": "Newsless drift higher into a crowded Japan AI-power trade compresses the alpha case; the name sits farther from the true passive/power bottleneck stack, so it rerates with the theme but lacks a stock-specific catalyst.",
+      "primaryCatalyst": "Concrete AI/data-center order or capacity announcement in power devices or 800 VDC infrastructure (e.g., hyperscaler or AI-factory design win) quantifying the segment.",
+      "primaryRisk": "Continued thematic rerating without fundamental confirmation, leaving the position exposed to a Japan heavy-electrics/AI-power unwind."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "symbol": "NEX.PA",
+  "company": "Nexans",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Nexans News & Media Room (no releases since Jun 6, 2026)",
+      "url": "https://www.nexans.com/news-media-room/"
+    },
+    {
+      "label": "Nexans completes Republic Wire acquisition (Jun 1, 2026 - pre-window, already priced)",
+      "url": "https://www.nexans.us/en/newsroom/news/details/2026/04/nexans-to-acquire-republic-wire-establishing-a-strategic-platform-in-the-united-states.html"
+    },
+    {
+      "label": "Nexans Q1 2026 press release (data-center demand context)",
+      "url": "https://www.nexans.com/app/uploads/2026/04/2026-04-28-pr-nexans-q1-2026.pdf"
+    },
+    {
+      "label": "Yahoo Finance NEX.PA quote",
+      "url": "https://finance.yahoo.com/quote/NEX.PA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 67: no new fundamental evidence since Jun 6, and the -3.3% no-news pullback (YTD trimmed to ~16%) marginally improves entry asymmetry on this crowding-sensitive list without justifying a rank change; yesterday's hold stands.",
+      "bull": "Republic Wire integration (closed Jun 1) gives Nexans a U.S. low-voltage platform aimed squarely at data-center build-out, and Q1 confirmed tender wins in the data-center segment with backlog visibility to 2028.",
+      "neutral": "The name sits in the Monitor bucket because it is one step removed from the tightest passive/power bottlenecks; a 3% flow-driven dip doesn't change that positioning either way.",
+      "bear": "Electrification cable capacity is being added industry-wide (Prysmian, NKT), copper cost pass-through can lag, and at ~34x trailing earnings the rerating already embeds much of the grid-scarcity story.",
+      "primaryCatalyst": "First evidence of Republic Wire revenue synergies or a named hyperscaler/data-center cabling award in H1 2026 results (late July).",
+      "primaryRisk": "Grid/data-center capex digestion or copper price volatility compressing Electrification margins while the multiple is still elevated."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 50: the Power & Grid latency thesis is intact and unchanged since yesterday's hold; today's -3.3% no-news drift slightly restores the under-owned setup (YTD now ~16%) but is not new information about Nexans' node centrality.",
+      "bull": "Nexans remains a less-obvious European route into AI power buildout - subsea/HVDC record installs, a EUR 7.9B backlog into 2028, and a fresh U.S. platform via Republic Wire that U.S.-centric screens still under-credit.",
+      "neutral": "No releases, contracts, or analyst moves since Jun 6; the adjusted-score case (67.0) is the same one underwriting yesterday's verdict, so rank 50 remains fair.",
+      "bear": "If AI-power flows rotate into the obvious U.S. electrical names and European grid awards slow, Nexans' latency never converts and it trades as a cyclical cable maker at a full multiple.",
+      "primaryCatalyst": "New HVDC/interconnector or data-center framework award, or H1 2026 results showing Electrification margin mix improvement.",
+      "primaryRisk": "Project execution slippage on subsea installs or a European grid-capex pause that stalls backlog conversion."
+    }
+  ]
+}

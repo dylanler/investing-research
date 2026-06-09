@@ -1,0 +1,35 @@
+{
+  "symbol": "4063.T",
+  "company": "Shin-Etsu Chemical",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote 4063.T (Jun 9 price/day move, analyst consensus)",
+      "url": "https://finance.yahoo.com/quote/4063.T/"
+    },
+    {
+      "label": "BigGo Finance - Shin-Etsu withholds FY2027 guidance, Y250B buyback (Apr 28 results, prior context)",
+      "url": "https://finance.biggo.com/news/SsUY1J0BpwxG186NSAya"
+    },
+    {
+      "label": "Nikkei Asia - Shin-Etsu eyes AI chip demand with new back-end fabrication tech (2027 rollout, prior context)",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-shin-etsu-eyes-ai-chip-demand-with-new-back-end-fabrication-tech"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and a -0.39% drift day, so yesterday's hold stands; the -1 reflects slow residual-alpha decay on an $84.6B, well-covered mega-cap up 38% YTD with FY27 guidance withheld and no fresh AI-wafer order evidence.",
+      "bull": "Dominant ~30%+ share in 300mm semiconductor silicon wafers makes Shin-Etsu structurally bottleneck-critical to every AI fab and HBM capacity addition, and the new back-end fabrication materials push targets incremental AI packaging demand from 2027 with a Y250B buyback supporting the stock.",
+      "neutral": "Wafer leverage to AI capex is real but the name is a liquid, consensus-Buy mega-cap (13 buys, 0 sells) with the AI-materials angle well understood; at rank 46 on this page the residual hidden-alpha component is modest and unchanged this week.",
+      "bear": "FY26 net profit fell 11.2% and management withheld FY27 guidance on Iran-driven naphtha/PVC uncertainty, so the commodity half of the business can swamp semiconductor-materials strength just as the stock has already re-rated 38% YTD without new wafer-order evidence.",
+      "primaryCatalyst": "Concrete AI/HBM-driven 300mm wafer order or capacity announcements, or reinstated FY27 guidance at the June 26 AGM window confirming semiconductor-segment strength.",
+      "primaryRisk": "PVC/commodity earnings deterioration from oil-price volatility plus a crowded post-rerating setup; export-control or wafer-order push-outs would hit the AI thesis directly."
+    }
+  ]
+}

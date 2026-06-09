@@ -1,0 +1,28 @@
+{
+  "symbol": "MBLY",
+  "company": "Mobileye",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new catalysts since June 6. Today's -3.9% (to $9.31) is newsless drift, a continuation of pressure from Jefferies' mid-May Underperform initiation ($8 PT, 'structural challenges' / customer-concentration warnings), not fresh fundamentals. Soft-positive items only: Frost & Sullivan 2026 Global ADAS Company of the Year award and an upcoming June 18 AGM. The robotics thesis pillars are unchanged: $900M Mentee Robotics acquisition (closed Q1 2026), first on-site humanoid proof-of-concept deployments still guided for 2026, Q1 revenue +27% YoY with raised FY26 guidance midpoint, and a $250M buyback authorization.",
+  "sources": [
+    {"label": "Mobileye news releases / Frost & Sullivan ADAS award context (Simply Wall St)", "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-mbly/mobileye-global/news/will-frost-sullivans-adas-award-alter-mobileyes-mbly-safety"},
+    {"label": "Jefferies Underperform, $8 PT, 24% downside warning (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-warns-mobileye-shares-could-141159582.html"},
+    {"label": "Mobileye tumbles 7% on Jefferies initiation (TIKR)", "url": "https://www.tikr.com/blog/mobileye-nasdaq-mbly-stock-tumbles-7-following-jefferies-underperform-rating-and-competition-warnings"},
+    {"label": "Mobileye acquires Mentee Robotics for $900M (TechCrunch)", "url": "https://techcrunch.com/2026/01/06/mobileye-acquires-humanoid-robot-startup-mentee-robotics-for-900m/"},
+    {"label": "Mobileye to Acquire Mentee Robotics (Mobileye blog)", "url": "https://www.mobileye.com/news/mobileye-to-acquire-mentee-robotics-to-accelerate-physical-ai-leadership/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already promoted MBLY to #9 on exactly this setup (under-ownership, -double-digit YTD, direct humanoid stack via Mentee); nothing genuinely new has landed since June 6, so re-moving would be churn. Today's -3.9% newsless slide with the thesis intact marginally improves asymmetry, worth a small positive drift, not another rank move.",
+      "bull": "An $8B-cap company with a closed $900M humanoid platform (Mentee), Mobileye-scale AI training infra, +27% YoY revenue, raised FY26 guidance and a $250M buyback is priced near sell-side worst case; first humanoid PoC deployments in 2026 are a free option the market is assigning roughly zero.",
+      "neutral": "The tape is fighting the thesis: Jefferies' structural-challenge bear case ($8 PT) is anchoring the stock and there is no dated humanoid catalyst between now and the June 18 AGM, so the position is dead money until a Mentee deployment or design-win headline.",
+      "bear": "Mentee proves a sub-scale science project versus Tesla/Figure/Unitree, the core ADAS franchise keeps losing content to in-house OEM and Chinese stacks per the Jefferies thesis, and the stock grinds toward $8 with the humanoid option expiring worthless.",
+      "primaryCatalyst": "First Mentee humanoid on-site proof-of-concept customer deployment (guided for 2026), or a named pilot customer/order announcement.",
+      "primaryRisk": "Jefferies-style structural erosion of the core ADAS business (customer concentration, OEM in-housing) overwhelming the humanoid optionality before it can be demonstrated."
+    }
+  ]
+}

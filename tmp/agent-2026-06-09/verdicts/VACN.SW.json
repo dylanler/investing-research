@@ -1,0 +1,39 @@
+{
+  "symbol": "VACN.SW",
+  "company": "VAT Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Globe and Mail / TipRanks - VAT Group hit by Q1 supply disruptions but reaffirms strong 2026 outlook",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1080877/vat-group-hit-by-q1-supply-disruptions-but-reaffirms-strong-2026-outlook/"
+    },
+    {
+      "label": "Morningstar - VAT Group AG (VACN) quote and fair value (CHF 515, coverage initiated Jun 1, 2026)",
+      "url": "https://www.morningstar.com/stocks/xswx/vacn/quote"
+    },
+    {
+      "label": "Investing.com - Goldman Sachs downgrades VAT Group to Neutral on valuation concerns",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-downgrades-vat-group-stock-rating-to-neutral-on-valuation-concerns-93CH-4411029"
+    },
+    {
+      "label": "MarketScreener - VAT Group analyst consensus and price targets",
+      "url": "https://www.marketscreener.com/quote/stock/VAT-GROUP-AG-27114104/consensus/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No material company-specific news since June 6 and today's -1.2% is noise; yesterday's hold already reconciled the +40% YTD re-rating. Small negative drift because the stock now trades above the ~CHF 607 consensus target and well above Morningstar's CHF 515 fair value, so residual alpha keeps compressing without new evidence.",
+      "bull": "70%+ share in semiconductor vacuum valves with 80%+ in advanced control valves is a genuine bottleneck position; Q1 book-to-bill of ~1.6x and a reaffirmed record-2026 outlook show the leading-edge ramp is real and order momentum is accelerating.",
+      "neutral": "Strategically vital but fully discovered: 16-analyst coverage, Buy/Hold-split consensus, and a price target roughly at the current price mean the bottleneck status is already in the multiple. The thesis itself flags that quality valuation and semicap discovery cap alpha.",
+      "bear": "Goldman's Neutral downgrade cites a 121% EV/EBIT premium to multi-industry peers versus an 82% historical median; Q1 already showed Middle East supply-chain disruptions pushing revenue below guidance, and any semicap order digestion would hit a stock priced for a flawless ramp.",
+      "primaryCatalyst": "Q2/H1 2026 results confirming the record order intake converts to revenue, plus continued advanced-node and China semicap capex strength.",
+      "primaryRisk": "Valuation de-rating from a 121% EV/EBIT peer premium if semicap orders digest or supply disruptions persist into H2."
+    }
+  ]
+}

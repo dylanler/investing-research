@@ -1,0 +1,28 @@
+{
+  "symbol": "STRL",
+  "company": "Sterling Infrastructure",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock fell -6.67% on June 9 to $832.39, extending a ~17% drawdown from the June 4 all-time high of $1,005.68. The slide is flow/valuation-driven: a new Form S-3 shelf registration raised dilution concerns and triggered post-rally profit-taking after the early-June guidance-raise spike (FY26 rev guide $3.70-3.80B, adj EPS $18.40-19.05, combined backlog +131% on AI data-center/semiconductor work). On June 9 Sterling also completed the Stone Ridge acquisition, expanding its E-Infrastructure footprint (CEC Facilities Group deal still pending). Sell-side piled on with Buy ratings and $884-$950 targets - the stock at $832 sits within ~7-14% of even bullish targets, and it trades at ~78x P/E vs ~47x for the construction group.",
+  "sources": [
+    {"label": "Quiver Quant - STRL falls 8.3% on shelf filing and post-rally profit-taking", "url": "https://www.quiverquant.com/news/Sterling+Infrastructure+falls+8.3%25+as+investors+react+to+shelf+filing+and+post-rally+profit-taking"},
+    {"label": "Yahoo Finance - Assessing STRL valuation after sharp single-day drop (78x P/E vs 47.5x industry)", "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-sterling-infrastructure-strl-valuation-211628953.html"},
+    {"label": "StockTitan - 8-K: Sterling adds Stone Ridge in E-Infrastructure acquisition (completed June 9)", "url": "https://www.stocktitan.net/sec-filings/STRL/8-k-sterling-infrastructure-inc-reports-material-event-84867fc55580.html"},
+    {"label": "Simply Wall St - STRL up after raising 2026 outlook on AI-focused backlog shift", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-strl/sterling-infrastructure/news/sterling-infrastructure-strl-is-up-55-after-raising-2026-out"},
+    {"label": "StocksToTrade - blowout earnings/guidance reset and analyst PTs $884-$950", "url": "https://stockstotrade.com/news/sterling-infrastructure-inc-strl-news-2026_06_03/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already moved STRL down for discovery; today's -6.7% flush is flow-driven (shelf-filing dilution optics plus profit-taking off the June 4 ATH) with the AI data-center backlog thesis fully intact, so the improved asymmetry roughly offsets the crowding confirmation. The name is no longer latent - 78x P/E, Strong Buy consensus, and price within ~7-14% of bullish targets - but a 17% drawdown on no fundamental damage doesn't justify a second consecutive demotion.",
+      "bull": "Combined backlog +131% with >90% of E-Infrastructure backlog in mission-critical data-center/semi work, FY26 EPS guide of $18.40-$19.05 far above prior Street models, and the Stone Ridge close plus pending CEC deal deepen the electrical/site-prep moat. A 17% pullback on a shelf filing, not on demand, is the kind of reset that restores some entry asymmetry.",
+      "neutral": "Strong operator, but on a latency-ranked list it now scores as a discovered story: retail coverage calls it Wall Street's hottest AI trade, eight analysts rate it Strong Buy, and at $832 the stock sits near consensus targets. The residual edge is execution and backlog conversion, which the market already prices at 78x.",
+      "bear": "A 78x P/E against a 47x construction group leaves no multiple cushion if hyperscaler site-prep awards pause or shed margin; the S-3 shelf signals appetite for issuance into strength, and acquisition integration (Stone Ridge, CEC) adds execution risk just as the YTD +161% crowd looks for the exit.",
+      "primaryCatalyst": "Q2 backlog/bookings print and CEC Facilities Group close converting AI data-center awards into raised guidance again.",
+      "primaryRisk": "Post-rerating de-crowding: shelf-driven dilution plus any data-center capex digestion compresses the 78x multiple far faster than backlog grows."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "GRC",
+  "company": "Gorman-Rupp",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Stock printed a fresh 52-week high on June 9 (intraday ~$81.7) on a +2.27% day, extending a +65.5% YTD / ~+110% one-year run. Coverage is momentum-flavored ('is it too late after a 71% rally'), with only minor analyst-rating drift (Weiss B->B+ on May 28). Last fundamental datapoint remains the April 23 Q1 2026 record results (sales $176.6M, +7.7%; record net income $17.8M); no new contracts, design wins, M&A, or capacity announcements found.",
+  "sources": [
+    {"label": "Markets Daily - Gorman-Rupp hits new 12-month high (Jun 9, 2026)", "url": "https://www.themarketsdaily.com/2026/06/09/gorman-rupp-nysegrc-hits-new-12-month-high-whats-next.html"},
+    {"label": "Yahoo Finance - Is It Too Late To Consider Gorman-Rupp After A 71% One-Year Rally?", "url": "https://finance.yahoo.com/news/too-consider-gorman-rupp-grc-100836837.html"},
+    {"label": "Morningstar/Business Wire - Gorman-Rupp Q1 2026 results (Apr 23, 2026)", "url": "https://www.morningstar.com/news/business-wire/20260423646763/gorman-rupp-reports-first-quarter-2026-financial-results"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 40,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "This page rewards hidden, under-owned latency, and GRC is being discovered in real time: fresh 52-week high today, +65.5% YTD, and mainstream 'too late to buy?' coverage, all with zero new fundamental evidence since June 6. Run-up without new evidence reduces residual alpha on a crowding-sensitive list, so the name slips despite an intact thesis.",
+      "bull": "AI data-center liquid-cooling and water-handling demand is starting to attach to industrial pump names, and GRC's municipal/industrial installed base plus record Q1 earnings give it a credible on-ramp before any explicit DC revenue is disclosed.",
+      "neutral": "The thesis is unchanged and unproven in equal measure: no disclosed data-center wins, but no disconfirming news either; the stock is simply rerating ahead of evidence.",
+      "bear": "At ~+110% over one year and a $2B cap, the 'quiet industrial' framing is dead; if data-center pump revenue never materializes, GRC is a fully-priced municipal pump company with mean-reversion risk on the AI premium.",
+      "primaryCatalyst": "Explicit data-center / cooling-loop order disclosure or segment commentary at Q2 2026 earnings (late July).",
+      "primaryRisk": "Momentum unwind: the YTD rerating reverses if AI-cooling attachment fails to show up in orders or backlog."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "The strict screen is pathway-evidence weighted, and the evidence base (industrial/municipal pump expertise migrating into CDU loops, water reuse, facility fluid systems; GRI's server/electronics cooling line) is unchanged since yesterday's hold. Only price has moved (+2.27%, 52-week high), which trims asymmetry slightly but does not alter the pathway, so hold with minor drift.",
+      "bull": "GRI Pumps already lists server and electronics cooling as an application area, so the strict pathway from pump expertise to CDU/facility water loops is real and could surface in backlog before consensus models it.",
+      "neutral": "No new pathway evidence since the April Q1 print; high evidence quality and medium AI-chain risk both stand, with valuation now doing more of the work.",
+      "bear": "CDU and high-end liquid-cooling pumps are a specialized, competitive niche (incumbent thermal players, Asian OEMs); GRC's municipal-heavy mix may never convert the adjacency at a scale that matters to a $2B cap up 65% YTD.",
+      "primaryCatalyst": "First named CDU/data-center fluid-system win or backlog disclosure tying orders to data-center construction.",
+      "primaryRisk": "Adjacency never converts: AI-cooling demand routes to specialist thermal vendors, leaving GRC's rerating unsupported."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "symbol": "MTSI",
+  "company": "MACOM Technology Solutions",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Only routine product news: MACOM announced IMS 2026 (Boston, June 9-11) launches of GaN-based S/C/X-band and wideband power amplifiers and front-end modules for radar/EW, plus SATCOM RF and Free Space Optical (FSO) products including L/S-band direct-to-device chains and K/Ka/Q/W-band amplifiers. No earnings, guidance, M&A, or AI-optics-specific catalysts since June 6. Today's -3.28% (and ~-8.5% drift from the June 4 ~$382 high) reads as profit-taking after a +100% YTD / +206% 52-week run, not a fundamental break; Barclays' recent PT raise to $450 signals increasing sell-side coverage/crowding.",
+  "sources": [
+    {"label": "StockTitan - MACOM IMS 2026 aerospace/defense RF product announcements", "url": "https://www.stocktitan.net/news/MTSI/macom-ims-2026-product-announcements-for-aerospace-and-m9usvhriiolj.html"},
+    {"label": "StockTitan - MACOM IMS 2026 SATCOM RF/FSO product announcements", "url": "https://www.stocktitan.net/news/MTSI/macom-ims-2026-product-announcements-for-satellite-ujp84y52o40k.html"},
+    {"label": "Insider Monkey - MTSI earnings trend (FQ2 2026 revenue $289M, +22% y/y)", "url": "https://www.insidermonkey.com/blog/macom-technology-solutions-holdings-mtsi-gained-from-a-strong-earnings-trend-1775421/"},
+    {"label": "StockAnalysis - MTSI analyst forecast / price targets", "url": "https://stockanalysis.com/stocks/mtsi/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing since June 6 touches the passive/power bottleneck stack; IMS defense/SATCOM launches are orthogonal to this page's lens, so rank 65 in the monitor bucket stays.",
+      "bull": "Optical/copper interconnect content keeps MTSI relevant as an AI-adjacent benchmark, and the modest pullback trims the entry price.",
+      "neutral": "AI exposure is real but indirect for a passives/power list; no new evidence moves it closer to the bottleneck.",
+      "bear": "+100% YTD with a $25.6B cap leaves little hidden alpha on a list built for under-owned passive/power names.",
+      "primaryCatalyst": "AI datacenter optical/interconnect content wins spilling into adjacent component demand",
+      "primaryRisk": "Continued multiple compression as the post-rerating crowd exits a +100% YTD name"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "IMS 2026 GaN radar/EW and SATCOM/FSO launches modestly reinforce the defense-sensing and photonics legs of the latent-node thesis, but they are routine product PRs, not thesis-changing; -3.3% day with thesis intact supports holding rank 34.",
+      "bull": "Defense RF (GaN radar/EW) plus D2D SATCOM and FSO broaden the latent option set beyond pure AI datacom.",
+      "neutral": "Product announcements at a trade show are incremental; no contracts or design wins were disclosed.",
+      "bear": "After +206% over 52 weeks the name is less 'latent' than the thesis assumes, and cyclical RF/industrial softness could bite.",
+      "primaryCatalyst": "Defense/SATCOM design wins converting IMS 2026 product launches into revenue",
+      "primaryRisk": "Latent-node premium eroding as MTSI becomes a consensus AI-connectivity holding"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved this up on AI-connectivity proximity; nothing genuinely new since June 6 bears on the AI compute bottleneck (IMS news is defense/SATCOM), so hold at the freshly adjusted rank.",
+      "bull": "FQ2 2026 revenue of $289M (+22% y/y) driven by AI optical demand confirms the connectivity leg of the thesis.",
+      "neutral": "Defense/SATCOM launches diversify the story but do not change AI-bottleneck relevance.",
+      "bear": "Analog/RF tier exposure to AI is selective; a datacom digestion phase would hit the highest-multiple part of the story.",
+      "primaryCatalyst": "200G/lane optical and AI-scale connectivity ramps through 2026-2027",
+      "primaryRisk": "AI optics order digestion after a steep ramp, exposing the cyclical RF/industrial base"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "At rank 2 on a crowding-sensitive alpha list, no new CPO/optics evidence since June 6 and growing sell-side attention (Barclays PT to $450) argue residual alpha is shrinking, but the ~-8.5% pullback off the June 4 high with the 200G/lane thesis intact roughly offsets - hold with slight score bleed.",
+      "bull": "The sell-off with an intact 200G/lane interconnect thesis improves entry asymmetry versus the crowded optics mega-caps.",
+      "neutral": "Thesis is unchanged; the debate is purely how much of the CPO upside is already in a +100% YTD, $25.6B name at rank 2.",
+      "bear": "Rank 2 plus +206% over 52 weeks and rising analyst targets is the textbook post-rerating chase this list penalizes; execution slips would be punished hard.",
+      "primaryCatalyst": "CPO/200G-per-lane design-win announcements or AI datacom guidance raises",
+      "primaryRisk": "Crowding unwind: post-rerating multiple compression on any optics order air-pocket"
+    },
+    {
+      "page": "companies",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already moved it down for the YTD rerating; no new design-validation/test-relevant news since June 6, and the modest pullback does not change the setup at rank 81.",
+      "bull": "Broad RF/analog/optical portfolio with +22% y/y revenue growth keeps fundamental support under the score.",
+      "neutral": "IMS product launches are normal cadence; nothing alters the design-validation framing on this page.",
+      "bear": "Indirect exposure plus a fully recognized $25.6B cap means little hidden alpha remains versus purer test/EDA bottleneck names.",
+      "primaryCatalyst": "FQ3 2026 earnings confirming AI optical momentum and margin expansion",
+      "primaryRisk": "Cyclical RF/industrial weakness offsetting AI datacom gains"
+    }
+  ]
+}

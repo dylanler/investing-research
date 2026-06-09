@@ -1,0 +1,27 @@
+{
+  "symbol": "GTLS",
+  "company": "Chart Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new material news since June 6. Stock remains a cash merger-arb stub: Baker Hughes is acquiring Chart for $210/share cash ($13.6B EV); shareholders approved Oct 2025, HSR waiting period expired Nov 6, 2025, and the EU Commission has a June 26, 2026 Phase 1 decision deadline. Shares trade ~$207, a ~1.4% spread to deal price, with deal close targeted mid-2026 (outside date July 28, 2026).",
+  "sources": [
+    {"label": "MLex - Baker Hughes seeks EU clearance for $13.6bn Chart deal (EC deadline June 26)", "url": "https://www.mlex.com/mlex/mergers-acquisitions/articles/2480657"},
+    {"label": "Baker Hughes - to Acquire Chart Industries ($210/share cash)", "url": "https://investors.bakerhughes.com/news-releases/news-release-details/baker-hughes-acquire-chart-industries-accelerating-energy"},
+    {"label": "Quiver Quant - Chart shareholders approve acquisition by Baker Hughes", "url": "https://www.quiverquant.com/news/Chart+Industries+Shareholders+Approve+Acquisition+by+Baker+Hughes"},
+    {"label": "Yahoo Finance - GTLS quote (price pinned near $207)", "url": "https://finance.yahoo.com/quote/GTLS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.85,
+      "rankRationale": "Already last-ranked on this strict latent-node screen and nothing new since June 6; as a $210 all-cash Baker Hughes deal stub with only ~1.4% spread left and an EC decision due June 26, the latent AI-cooling optionality cannot accrue to this equity, so the bottom rank with mild score decay is correct.",
+      "bull": "If the EU were to block or force a renegotiation (outside date July 28, 2026), GTLS reverts to a standalone cryogenic/gas-handling franchise with genuine data-center cooling and LNG optionality at a sub-$10B cap.",
+      "neutral": "Base case is EU Phase 1 clearance by June 26 and a mid-2026 close at $210; the stock is a low-volatility arb position earning ~1.4% to deal price, with zero expression of the AI-bottleneck thesis.",
+      "bear": "An EU Phase 2 referral or remedy fight extends the timeline and widens the spread, while as a near-certain acquisition target the name occupies a slot on this list that delivers no asymmetric alpha either way.",
+      "primaryCatalyst": "European Commission Phase 1 decision on the Baker Hughes acquisition, deadline June 26, 2026.",
+      "primaryRisk": "Deal closes as expected at $210, capping upside at ~1.4% and removing the equity from the investable universe mid-2026."
+    }
+  ]
+}

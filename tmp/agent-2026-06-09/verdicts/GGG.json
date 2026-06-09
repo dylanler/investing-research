@@ -1,0 +1,26 @@
+{
+  "symbol": "GGG",
+  "company": "Graco",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - Graco Valco Melton acquisition coverage (May 21, pre-window)", "url": "https://finance.yahoo.com/markets/stocks/articles/graco-bets-long-term-growth-022208172.html"},
+    {"label": "Yahoo Finance - GGG news feed (no items since Jun 6)", "url": "https://finance.yahoo.com/quote/GGG/news/"},
+    {"label": "MarketBeat - GGG analyst ratings (mixed PT moves, none dated Jun 8-9)", "url": "https://www.marketbeat.com/stocks/NYSE/GGG/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already pushed the name down to reconcile the adjusted-score rank; nothing material has emerged since June 6 and today's +1.75% move is routine, so the latent-node case is unchanged at rank 23.",
+      "bull": "Precision fluid metering/dispensing is genuine bottleneck-adjacent capability if liquid-cooling and thermal-fluid handling demand spills into Graco's industrial channel, and -8.7% YTD means the AI optionality is priced at zero.",
+      "neutral": "The AI pathway remains speculative with no disclosed datacenter coolant or thermal-fluid design wins; the May 21 Valco Melton deal ($447M, adhesives) deepens core industrial dispensing but adds nothing to the AI thesis.",
+      "bear": "Graco stays a cyclical industrial with mixed analyst PT cuts (RBC to $95, Baird to $92) and no evidenced AI revenue, so the latent-node score erodes if the coolant-handling pathway never materializes.",
+      "primaryCatalyst": "Any disclosed datacenter liquid-cooling or thermal-fluid handling order/partnership, or Valco Melton close (fiscal Q3) with AI-adjacent commentary.",
+      "primaryRisk": "AI linkage remains purely conceptual while industrial capex softness drags the core, leaving the name as dead weight on a strict latent-nodes screen."
+    }
+  ]
+}

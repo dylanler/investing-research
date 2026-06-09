@@ -1,0 +1,26 @@
+{
+  "symbol": "IMI.L",
+  "company": "IMI",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only routine RNS items: ongoing GBP500m buyback tranches (~107-110k shares repurchased and cancelled per day around June 2-5 via J.P. Morgan). Q1 2026 trading update (5% organic growth, guidance reconfirmed) was already known and reflected in yesterday's verdict. Today's -1.33% move is flow-driven drift, not fundamental.",
+  "sources": [
+    {"label": "TipRanks - IMI buyback and cancellation RNS", "url": "https://www.tipranks.com/news/company-announcements/imi-plc-tightens-share-base-with-further-buyback-and-cancellation"},
+    {"label": "DirectorsTalk - IMI reconfirms 2026 guidance after Q1 organic growth", "url": "https://www.directorstalkinterviews.com/imi-reconfirms-2026-guidance-after-strong-first-quarter-organic-growth/4121251247"},
+    {"label": "IMI plc regulatory news page", "url": "https://www.imiplc.com/en/investors/regulatory-news/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved IMI down to reconcile the adjusted-score rank (~42-43); nothing since June 6 changes the strict-screen evidence level, and the -1.33% day drift on routine buyback RNS is not a setup change. Hold at current rank.",
+      "bull": "Precision valve and hydronic-balancing franchise gives IMI a credible latent path into data-centre liquid cooling and thermal management; the GBP500m buyback plus reconfirmed mid-single-digit organic growth supports the floor while the AI-cooling optionality remains unpriced.",
+      "neutral": "IMI remains a diversified industrial where AI-adjacent cooling is a small, unquantified slice of revenue; +12.4% YTD is in line with quality industrials, so neither crowding nor dislocation creates a fresh alpha edge at rank 43.",
+      "bear": "The cooling pathway stays speculative with no disclosed AI/data-centre design wins; hyperscalers are standardizing on specialist CDU/coolant-loop suppliers, and IMI could be left with low-margin commodity valve content while Middle East disruption noted at Q1 nags at Process Automation.",
+      "primaryCatalyst": "Half-year results on 31 July 2026 - any quantification of data-centre/cooling order intake or a named hyperscaler-adjacent win would upgrade the latent-node evidence from medium to strong.",
+      "primaryRisk": "Thesis stays latent indefinitely: no AI-chain revenue disclosure materializes and the stock trades as a generic UK industrial, dead-weighting a strict AI-nodes screen."
+    }
+  ]
+}

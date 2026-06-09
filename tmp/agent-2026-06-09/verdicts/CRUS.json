@@ -1,0 +1,48 @@
+{
+  "symbol": "CRUS",
+  "company": "Cirrus Logic",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. Only housekeeping: June 3 DEF 14A proxy (virtual annual meeting July 31, CEO pay +8.5%, request to add 3.5M shares to LTIP), a new prosumer/pro audio-converter product family (not AI/data-center relevant), a Norges Bank 13F position disclosure, and a small June 2 insider sale. The Apple Face ID IC design-win narrative (~$2 ASP/iPhone, 2028-29 ramp) predates June 6 and is already in the prior case. Today's -2.69% is drift after a +34.7% YTD run, not a fundamental event.",
+  "sources": [
+    {
+      "label": "StockTitan - Cirrus Logic DEF 14A: virtual 2026 meeting, 3.5M-share incentive plan boost",
+      "url": "https://www.stocktitan.net/sec-filings/CRUS/def-14a-cirrus-logic-inc-definitive-proxy-statement-7f4e0796562b.html"
+    },
+    {
+      "label": "Yahoo Finance - Does Cirrus Logic's Apple design win reframe its customer concentration narrative?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-cirrus-logics-crus-apple-150943724.html"
+    },
+    {
+      "label": "StockAnalysis.com - CRUS overview, FY2026 results and analyst ratings",
+      "url": "https://stockanalysis.com/stocks/crus/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already flagged CRUS for removal on weak direct HBM/advanced-packaging/CPO relevance; no new information since June 6 and a -2.7% drift day do not change that setup, so hold at the bottom of the list while the removal case stands.",
+      "bull": "Apple Face ID IC design win (~$2 ASP per iPhone, 2028-29 ramp) plus 22V/PSoC content expansion could broaden the story beyond audio codecs and re-rate the multiple.",
+      "neutral": "Solid mixed-signal franchise with FY2026 revenue of $2.0B (+5.3%) and earnings +25%, but its edge/audio exposure is peripheral to the AI compute bottleneck this page ranks.",
+      "bear": "Apple concentration (~85%+ of revenue), +34.7% YTD already pricing in the design-win optionality, and essentially no HBM/packaging/optics leverage leave little residual alpha on a bottleneck-criticality list.",
+      "primaryCatalyst": "Concrete content-gain disclosures for next-gen iPhone (camera controller, Face ID IC) or an edge-AI socket win outside Apple.",
+      "primaryRisk": "Apple insourcing or socket loss; consumer handset cycle softness hitting the single-customer revenue base."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On a CPO/optical alpha lens CRUS has effectively zero data-center optical exposure; yesterday's removal recommendation stands and nothing since June 6 (proxy filing, audio-converter launch) touches the CPO thesis, so hold near the bottom pending removal.",
+      "bull": "If the list retains diversified mixed-signal names, CRUS's power/converter expertise and Face ID win give it cheap optionality at ~17x earnings versus optical pure plays.",
+      "neutral": "FY2026 execution was fine (+25% earnings) but the company sells into smartphones and prosumer audio, not co-packaged optics, transceivers, or data-center interconnect.",
+      "bear": "Low/no CPO relevance, customer concentration risk, and a +34.7% YTD run mean it consumes a ranking slot a genuine optical bottleneck name should hold; residual alpha here is near zero.",
+      "primaryCatalyst": "Any announced data-center or optical-adjacent product line (none currently indicated).",
+      "primaryRisk": "Continued irrelevance to the CPO theme makes the position dead weight; Apple concentration adds idiosyncratic downside."
+    }
+  ]
+}

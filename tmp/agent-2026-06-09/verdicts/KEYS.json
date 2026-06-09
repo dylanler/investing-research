@@ -1,0 +1,56 @@
+{
+  "symbol": "KEYS",
+  "company": "Keysight Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Keysight newsroom - RF signal analyzers launch (Jun 2, pre-cutoff)",
+      "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0602_pr26-071-keysight-introduces-rf-signal-analyzers-to-accelerate-wideband-wireless-design-and-validation.html"
+    },
+    {
+      "label": "Keysight newsroom - GlobalFoundries photonics PDK (Jun 3, pre-cutoff)",
+      "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0603_pr26-075-keysight-expands-photonics-design-ecosystem-with-globalfoundries-pdk.html"
+    },
+    {
+      "label": "GuruFocus - KEYS up 5% Jun 2 but 78.6% above GF Value, P/E ~57x vs 30.9x 5y median",
+      "url": "https://www.gurufocus.com/news/8897126/keysight-technologies-inc-keys-stock-up-50-but-gf-value-says-overvalued-gf-score-82100"
+    },
+    {
+      "label": "ad-hoc-news - shares ease after Q2 2026 rally as valuation focus grows",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/keysight-technologies-stock-us49338l1035-shares-ease-after-q2-2026/69489925"
+    },
+    {
+      "label": "StockTitan - Form 4: director James Cullen sold 3,000 shares at ~$346.58 (Jun 2)",
+      "url": "https://www.stocktitan.net/sec-filings/KEYS/form-4-keysight-technologies-inc-insider-trading-activity-c5146a1d778b.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "No material news since June 6; today's -1.6% is mild digestion of a +58% YTD rerating, and the page thesis already concedes the market understands Keysight's test/validation tollbooth role, so rank 57 still fits.",
+      "bull": "800G/1.6T network test, AI chip design validation, and the GlobalFoundries photonics PDK tie-in keep Keysight wired into every next-gen AI interconnect cycle with high-margin, recurring-design exposure.",
+      "neutral": "Quality tollbooth, but at ~57x earnings after a wave of analyst upgrades the centrality is fully priced; the node remains real while incremental alpha is thin.",
+      "bear": "A ~57x P/E versus a ~31x five-year median leaves the stock exposed to multiple compression on any test-and-measurement order slowdown, and insider selling at the highs is an unhelpful tell.",
+      "primaryCatalyst": "1.6T interconnect and AI silicon validation ramps driving another quarter of 20%+ revenue growth into the next earnings print.",
+      "primaryRisk": "Valuation reset on decelerating AI test orders compressing the premium multiple."
+    },
+    {
+      "page": "companies",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed the name down for the post-earnings rerating; with no new information since June 6 and a modest ~6% pullback from the June 2 peak slightly rebuilding asymmetry, the crowding-adjusted rank 76 stands.",
+      "bull": "Q2 beat (EPS $2.17 vs $2.00, revenue +23% YoY) with raised FY26 guidance shows the AI test cycle is still accelerating, and dips in a structural winner get bought.",
+      "neutral": "Design-validation exposure is genuine but well-flagged; with consensus Buy ratings and targets clustered near $383-405, the name trades on execution, not discovery.",
+      "bear": "After a +58% YTD run and a full analyst upgrade wave, residual alpha is largely exhausted; a cyclical wobble in orders or telecom capex would hit both estimates and the multiple simultaneously.",
+      "primaryCatalyst": "Continued AI-driven order momentum confirmed at the next quarterly print or via large 1.6T design-win disclosures.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding if test-and-measurement growth decelerates from Q2's pace."
+    }
+  ]
+}

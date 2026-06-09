@@ -1,0 +1,35 @@
+{
+  "symbol": "TIH.TO",
+  "company": "Toromont",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Markets Daily - Toromont sets new 12-month high (June 4, 2026)",
+      "url": "https://www.themarketsdaily.com/2026/06/04/toromont-industries-tsetih-sets-new-12-month-high-should-you-buy.html"
+    },
+    {
+      "label": "Toromont Investor Relations - Latest News (no new releases since Jun 6)",
+      "url": "https://investor.toromont.com/news"
+    },
+    {
+      "label": "Investing.com - Toromont Q1 2026 earnings call transcript (beat, AVL data-center enclosure contribution)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-toromont-industries-surpasses-q1-2026-earnings-expectations-93CH-4645205"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "No new releases on the IR wire since June 6; today's -0.58% is noise and yesterday's hold already priced the +32% YTD run. Mild negative drift only: the stock printed a fresh 52-week high June 4 and now trades essentially at the ~C$227.56 consensus target, so residual latent-alpha on this strict screen erodes slightly without new AI-chain evidence.",
+      "bull": "AVL data-center enclosure business (majority stake, Jan 2026) added $129M revenue and $0.19 EPS in Q1 and is expanding production, giving Toromont a real, growing direct line into compute-campus buildouts beyond the generic Cat-dealer thesis.",
+      "neutral": "Q1 beat (EPS C$1.14 vs C$1.09e) is six weeks old and already reflected in the rerating; with shares at the consensus target and a 0.56/share dividend just gone ex, the setup is fairly priced pending the July 28 Q2 print.",
+      "bear": "+32% YTD into a 52-week high with no new contract or capacity news since June 6 is classic post-rerating chase; on a strict latent-nodes screen the name is no longer hidden, and a Canadian construction/mining slowdown would hit the core dealer business regardless of AVL.",
+      "primaryCatalyst": "Q2 2026 earnings on July 28 showing AVL data-center enclosure backlog/revenue acceleration or a named hyperscaler campus win.",
+      "primaryRisk": "Multiple compression as a now-discovered, consensus-target-priced industrial if AI-campus construction equipment demand fails to show up in orders."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "3231.TW",
+  "company": "Wistron",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 revenue reported at NT$290.18B, +39.2% YoY and up ~2.4% MoM vs April's NT$283.4B - a fresh monthly record that keeps the AI-server ramp intact. Headline YoY decelerated sharply from April's +112% purely on base effect (May 2025 had spiked +162% YoY to NT$208.4B). FactSet consensus EPS was revised up to NT$13.71 with a NT$203 mean target (vs NT$165.5 price). No new contracts, M&A, or capacity announcements since June 6; +1.22% day move is unremarkable.",
+  "sources": [
+    {"label": "cnyes - Wistron May 2026 revenue NT$290.18B, +39.24% YoY", "url": "https://news.cnyes.com/news/id/6489310"},
+    {"label": "Wistron IR - monthly revenue table (April NT$283.44B, +112% YoY)", "url": "https://www.wistron.com/en/Investors/Financials/MonthlyRevenue"},
+    {"label": "DIGITIMES - Wistron Q1 profit triples on server surge, robust AI demand outlook", "url": "https://www.digitimes.com/news/a20260509PD205/wistron-profit-revenue-growth-shipments.html"},
+    {"label": "cnyes/FactSet - consensus EPS raised to NT$13.71, target NT$203", "url": "https://today.line.me/tw/v3/article/7N1Zg7J"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "May's record NT$290B print confirms the AI-server ramp without triggering a rerating - the stock is only +6.8% YTD against +39% YoY revenue growth, so residual alpha is intact but not improved enough to jump higher-conviction names above it.",
+      "bull": "Revenue compounding at record levels with GB300 rack shipments still ramping into H2, while the share price has barely rerated; consensus target of NT$203 implies ~23% upside on a mid-cap that passives haven't crowded.",
+      "neutral": "Monthly revenue is routine confirmation, not new evidence of bottleneck scarcity; YoY optics decelerate hard from here on 2025 base effects, capping near-term rerating triggers.",
+      "bear": "ODM assembly carries thin margins and customer concentration; if AI server orders pause or pricing compresses, the 79%-server revenue mix becomes a liability rather than leverage.",
+      "primaryCatalyst": "H2 2026 GB300 rack shipment ramp and Q2 results showing AI server mix margin resilience.",
+      "primaryRisk": "Base-effect YoY deceleration (+39% in May vs +112% in April) being misread as demand cooling, or genuine order digestion at hyperscalers."
+    },
+    {
+      "page": "companies",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Rank was already moved up yesterday on deployment-relevance evidence; today's May revenue print is incremental confirmation of rack-integration execution, not genuinely new information warranting a second consecutive move.",
+      "bull": "Record May revenue on top of a record Q1 (revenue +144% YoY, EPS NT$3.06) shows Wistron is converting physical-deployment exposure into actual shipped racks faster than the rerating reflects.",
+      "neutral": "Execution is on track but the print was in line with the trajectory already priced after yesterday's upgrade; nothing changes the deployment-capacity thesis either way.",
+      "bear": "Deployment-shell economics are competitive (Foxconn, Quanta scaling the same GB300 racks); Wistron's edge is execution, not scarcity, so any share loss shows up immediately in monthly revenue.",
+      "primaryCatalyst": "June/Q2 monthly revenue confirming sequential growth as GB300 transitions from pilot to volume.",
+      "primaryRisk": "ODM competition compressing rack-integration pricing as GB300 supply normalizes across Foxconn/Quanta/Wistron."
+    }
+  ]
+}

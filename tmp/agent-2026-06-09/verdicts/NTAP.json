@@ -1,0 +1,27 @@
+{
+  "symbol": "NTAP",
+  "company": "NetApp",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Motley Fool - Why NetApp Stock Soared 35% Friday Morning (May 29 Q4 FY26 beat, context for rerating)", "url": "https://www.fool.com/investing/2026/05/29/why-netapp-stock-soared-35-friday-morning/"},
+    {"label": "Investing.com - NetApp Q4 2026 earnings call transcript (EPS $2.43 vs $2.27, rev $1.95B)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-netapp-q4-2026-beats-estimates-stock-dips-93CH-4715752"},
+    {"label": "Yahoo Finance - NetApp valuation after AI-driven earnings beat and Cisco/Splunk deals", "url": "https://finance.yahoo.com/markets/stocks/articles/weighing-netapp-ntap-valuation-ai-131937552.html"},
+    {"label": "NetApp investor relations / press releases (no material releases after June 6)", "url": "https://investors.netapp.com/news/default.aspx"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down already discounted the post-earnings rerating (+53% YTD, Goldman/Argus $200 targets = full consensus recognition); today's -4.3% is flow-driven digestion with no new fundamental news, not enough giveback to restore hidden-alpha asymmetry, so hold with mild drift down.",
+      "bull": "AI/agentic data-gravity demand is real: 10th straight quarter of growth, record 32% operating margins, double-digit cloud growth, and Cisco/Splunk deals broaden the enterprise AI storage footprint.",
+      "neutral": "Strong operator, but the May 29 rerating priced in the AI storage narrative; at ~$32B cap with sell-side targets at $200, the name is now a recognized AI beneficiary, not a hidden bottleneck.",
+      "bear": "Enterprise storage stays competitive and cyclical (Pure, VAST, Dell, hyperscaler-native storage); if AI infra capex digests, a +53% YTD name that just rerated on one print has the most multiple to give back.",
+      "primaryCatalyst": "Q1 FY27 guidance/print confirming AI storage and Keystone/cloud momentum can compound beyond the one-quarter beat.",
+      "primaryRisk": "Post-rerating crowding: any AI capex digestion or storage pricing pressure unwinds the fresh multiple faster than fundamentals deteriorate."
+    }
+  ]
+}

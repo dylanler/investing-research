@@ -1,0 +1,27 @@
+{
+  "symbol": "ENS",
+  "company": "EnerSys",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Nearest catalyst is the June 11, 2026 Investor Day at the NYSE (EnerGize strategy, technology roadmap incl. lithium data center solution). Routine quarterly dividend of $0.2625 declared (payable July 2). Oppenheimer's price target raise to $250 and the Q4 FY26 beat (EPS $3.19, rev $988M, data-center lithium solution entering customer commissioning) predate June 6 and were already in yesterday's verdict. Today's -2.33% move looks like pre-Investor-Day drift/profit-taking after a +48% YTD run, not fundamental.",
+  "sources": [
+    {"label": "EnerSys Investor Day June 11, 2026 (StockTitan)", "url": "https://www.stocktitan.net/news/ENS/ener-sys-to-host-2026-investor-xchpepvu06tj.html"},
+    {"label": "EnerSys Q4/FY2026 earnings release (SEC 8-K exhibit)", "url": "https://www.sec.gov/Archives/edgar/data/0001289308/000162828026036903/ex991_earningsx4qfy26.htm"},
+    {"label": "Oppenheimer raises EnerSys price target to $250 (Investing.com)", "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-raises-enersys-stock-price-target-to-250-on-growth-93CH-4706249"},
+    {"label": "EnerSys quarterly dividend $0.2625 (StockTitan)", "url": "https://www.stocktitan.net/news/ENS/ener-sys-announces-dividend-of-0-2625-per-share-for-the-first-6z76sj94bz3k.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No genuinely new information since yesterday's hold; the -2.3% pullback is flow-driven pre-Investor-Day drift, and the latency thesis (power reliability supplier not priced as an AI stock) is unchanged. Note the June 11 Investor Day cuts both ways on this page: a data-center roadmap reveal could validate the thesis but also de-latent the name.",
+      "bull": "Lithium data center solution and BESS moving into customer commissioning gives a concrete AI-power revenue leg, and the June 11 Investor Day could re-rate FY27/28 estimates (Oppenheimer already at $250).",
+      "neutral": "Q4 beat and analyst raises are already in the +48% YTD price; until the Investor Day adds new orders or capacity detail, the stock drifts with the power-and-grid complex.",
+      "bear": "A +48% YTD run has consumed much of the hidden-alpha gap, and an NYSE Investor Day explicitly marketing the AI data center story erodes the under-owned premise this page rewards; a roadmap disappointment on June 11 hits a now-fuller valuation.",
+      "primaryCatalyst": "June 11, 2026 Investor Day: EnerGize framework, technology roadmap, and data-center lithium/BESS growth detail.",
+      "primaryRisk": "Investor Day underwhelms on data-center order momentum, or the name gets crowded as an AI-power stock and loses its latent-alpha asymmetry."
+    }
+  ]
+}

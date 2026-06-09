@@ -1,0 +1,39 @@
+{
+  "symbol": "VLN",
+  "company": "Valens Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - VLN news page (no fresh headlines since Jun 6)", "url": "https://finance.yahoo.com/quote/VLN/news/"},
+    {"label": "Motley Fool - Q1 2026 earnings pop recap (May 13, latest material catalyst)", "url": "https://www.fool.com/investing/2026/05/13/why-valens-semiconductor-stock-soared-today/"},
+    {"label": "PRNewswire - 4th VA7000 MIPI A-PHY design win (Jan 2026, automotive not data-center)", "url": "https://www.prnewswire.com/news-releases/valens-semiconductor-secures-4th-va7000-mipi-a-phy-design-win-with-a-premium-carmaker-serving-the-chinese-market-302653778.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 108,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Yesterday's down move (105->108) already priced the post-earnings YTD rerating; no news since Jun 6 and today's -4.4% drift doesn't add CPO-specific evidence either way. The thesis gap remains: Valens' connectivity wins are automotive A-PHY, not data-center co-packaged optics, so rank 108 still fits.",
+      "bull": "Proven high-speed SerDes/connectivity IP and a fresh string of A-PHY design wins show the technology travels; any credible data-center or AI-cluster connectivity announcement would rerate a $240M cap violently.",
+      "neutral": "Q1 beat and Q2 guide of $17.2-17.6M keep the recovery on track, but revenue is automotive/pro-AV, leaving the CPO-page relevance speculative at rank 108.",
+      "bear": "Zero disclosed CPO or optical data-center traction means the name is on this list by adjacency only; a sub-$250M cap with ongoing non-GAAP losses can de-rate fast if auto demand wobbles.",
+      "primaryCatalyst": "A data-center / AI-interconnect product announcement or design win extending A-PHY-class SerDes beyond automotive.",
+      "primaryRisk": "Thesis stays adjacency-only: no CPO evidence ever materializes while the automotive cycle softens."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 5: no new information since yesterday's hold, and the -4.4% pullback (YTD cooling from ~44% to ~38%) modestly resets the chase risk without touching the high-speed-connectivity thesis. Q1 beat plus sequentially higher Q2 guide keeps the scaling story intact.",
+      "bull": "Q1 revenue of $16.9M beat with Q2 guided up to $17.2-17.6M, and four A-PHY OEM design wins are ramping; the pullback gives a slightly better entry into an intact growth inflection.",
+      "neutral": "Story unchanged since the May print; a -4.4% microcap day on no news is noise, and rank 5 already reflects the connectivity-silicon fit.",
+      "bear": "Still loss-making at a $240M cap with thin liquidity; if A-PHY ramps slip a quarter the +38% YTD unwinds quickly.",
+      "primaryCatalyst": "Q2 2026 results in August confirming the $17.2-17.6M guide and A-PHY ramp progress.",
+      "primaryRisk": "Automotive design-win revenue ramps slower than guided, stalling the recovery narrative."
+    }
+  ]
+}

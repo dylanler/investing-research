@@ -1,0 +1,26 @@
+{
+  "symbol": "KN",
+  "company": "Knowles",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6, 2026 (no earnings, contracts, M&A, or analyst moves found; last results were Q1 2026 on April 23, revenue +16% YoY to $153M). What is new is valuation context: after an ~18% one-month and ~58% three-month rally, the stock now trades above the average analyst price target (~$36.25), per recent Simply Wall St / Yahoo valuation coverage. Today's -1.47% drift is unremarkable flow, not fundamental.",
+  "sources": [
+    {"label": "Yahoo Finance - KN quote", "url": "https://finance.yahoo.com/quote/KN/"},
+    {"label": "Simply Wall St - Assessing Knowles (KN) valuation after strong rally (price above analyst target)", "url": "https://simplywall.st/stocks/us/tech/nyse-kn/knowles/news/assessing-knowles-kn-valuation-after-a-strong-13578-one-year/amp"},
+    {"label": "Knowles Q1 2026 results 8-K exhibit (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001587523/000158752326000016/exhibit991q12026.htm"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 24,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a latent/under-owned alpha list, the 'neglected component story' premise is eroding: +71.6% YTD, ~+58% in 3 months, and the price now sits above the mean analyst target with no new fundamental evidence since June 6 - that is rerating without news, which consumes residual alpha. Yesterday's 'up' was a mechanical rank/score reconciliation, not a fundamental call, so a discipline-driven step down is warranted.",
+      "bull": "Precision Devices (specialty capacitors, RF for defense/medtech/electrification) is a real bottleneck-adjacent franchise with Q1 revenue +16% YoY, and edge-AI device proliferation could still lift acoustic/sensor content per device.",
+      "neutral": "Thesis intact but increasingly priced: $3.3B cap, above consensus targets, with the next hard data point being Q2 results in late July; until then the stock is a momentum trade, not a latent node.",
+      "bear": "The edge-voice-capture leg of the thesis is partly stale - Knowles divested its consumer MEMS microphone business to Syntiant, so today's Knowles is a defense/medtech components company - and a 136% one-year return above analyst fair-value estimates leaves little asymmetry if growth merely meets expectations.",
+      "primaryCatalyst": "Q2 2026 earnings/guidance (quarter ending June 30) confirming Precision Devices momentum or new design wins in defense/medtech capacitors.",
+      "primaryRisk": "Multiple compression after a no-news rerating above analyst targets; thesis drift since the consumer MEMS mic divestiture weakens the edge-AI linkage the listing relies on."
+    }
+  ]
+}

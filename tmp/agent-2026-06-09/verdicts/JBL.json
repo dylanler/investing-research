@@ -1,0 +1,28 @@
+{
+  "symbol": "JBL",
+  "company": "Jabil",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Today's -2.47% merely unwinds the June 8 +3.0% pop (net flat over two sessions; flow-driven, not fundamental). Confirmed catalyst: fiscal Q3 FY2026 earnings pre-market Wednesday June 17 (date announced June 3). Most recent analyst action remains Goldman Sachs' $384 PT from May 21; consensus PT (~$264 per MarketBeat) sits well below the $355 spot, i.e. the rerating has outrun the sell side. GuruFocus flags shares ~109% above its GF Value with ~$14M insider selling over three months - consistent with the existing crowded/rerated bucket, not new information.",
+  "sources": [
+    {"label": "StockTitan - Jabil Q3 FY2026 earnings call set for June 17", "url": "https://www.stocktitan.net/news/JBL/jabil-s-third-quarter-of-fiscal-year-2026-earnings-announcement-p5m3f303dfm3.html"},
+    {"label": "Business Wire - Jabil FQ3 2026 earnings announcement date", "url": "https://www.businesswire.com/news/home/20260603572562/en/Jabils-Third-Quarter-of-Fiscal-Year-2026-Earnings-Announcement-Set"},
+    {"label": "GuruFocus - JBL up 3.0% but above GF Value, insider selling", "url": "https://www.gurufocus.com/news/8906177/jabil-inc-jbl-stock-up-30-but-gf-value-says-overvalued-gf-score-80100"},
+    {"label": "MarketBeat - JBL analyst price targets (consensus ~$264, Goldman $384 high)", "url": "https://www.marketbeat.com/stocks/NYSE/JBL/forecast/"},
+    {"label": "Yahoo Finance - JBL quote", "url": "https://finance.yahoo.com/quote/JBL/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at 26: no new fundamental evidence since June 6 and yesterday's hold stands; today's -2.5% is a trivial giveback of Monday's +3.0%, not a sell-off deep enough to restore asymmetry. Small negative drift because spot now sits ~35% above consensus PT with persistent insider selling, deepening the crowded/rerated characterization on this residual-alpha lens.",
+      "bull": "Grid-to-rack power, liquid cooling and AI-infra manufacturing keep Jabil a genuine bottleneck node, and the June 17 FQ3 print could force another guide-up after Q2's 23.9% YoY revenue growth.",
+      "neutral": "Thesis intact and well-known; at +47.7% YTD and ~$37B cap the stock is a consensus AI-infra proxy, and net-flat two-day price action plus no fresh contracts or analyst moves leaves residual alpha unchanged.",
+      "bear": "Shares trade ~109% above GuruFocus' modeled value and ~35% above the ~$264 consensus target with ~$14M of insider selling in three months; an in-line or soft June 17 guide hits a crowded, momentum-owned name hard on thin EMS margins.",
+      "primaryCatalyst": "Fiscal Q3 FY2026 earnings and AI-revenue/capacity guidance, pre-market June 17, 2026.",
+      "primaryRisk": "Post-rerating de-rating: a merely in-line June 17 guide triggers multiple compression in an over-owned AI-infra proxy."
+    }
+  ]
+}

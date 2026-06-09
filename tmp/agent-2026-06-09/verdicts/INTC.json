@@ -1,0 +1,56 @@
+{
+  "symbol": "INTC",
+  "company": "Intel",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 8: stock spiked ~11% on reports Google placed a firm order for 3M+ TPUs on Intel 18A for 2028 delivery (potentially 6M units across 2027-28 per follow-on reports), and Nvidia is running early trials of Intel 18A/14A plus EMIB advanced packaging for its next-gen Feynman GPUs (Q3 decision window; ~25% of Feynman production reportedly in play). EMIB yields reported near 90% with Google TPU v8e (2H27) and Meta in-house CPU (2H28) as adopters; Cadence also expanded 14A PDK collaboration. Jun 9: -4.9% to $104.83 on profit-taking plus renewed focus on the ~$2.4B quarterly Intel Foundry operating loss and 2027 hyperscaler-capex worries - flow-driven giveback of Monday's news pop, thesis intact; consensus analyst PT (~$89) sits well below price.",
+  "sources": [
+    {
+      "label": "TrendForce - Intel Foundry gains momentum: Google reportedly orders 3M TPUs, Nvidia evaluates 18A (Jun 9, 2026)",
+      "url": "https://www.trendforce.com/news/2026/06/09/news-intel-foundry-gains-momentum-as-google-reportedly-orders-3m-tpus-nvidia-evaluates-18a-for-multi-die-gpu-design/"
+    },
+    {
+      "label": "Wccftech - Nvidia looks to Intel 18A/14A and EMIB packaging for Feynman AI chips",
+      "url": "https://wccftech.com/nvidia-is-set-to-adopt-intel-18a-14a-process-emib-advanced-packaging-for-feynman-chips/"
+    },
+    {
+      "label": "TrendForce - Intel EMIB gains traction at Google, Meta; yields said to reach ~90%",
+      "url": "https://www.trendforce.com/news/2026/05/04/news-intels-emib-reportedly-gains-traction-at-google-meta-yields-said-to-reach-90-milestone/"
+    },
+    {
+      "label": "TradingKey - INTC down on Jun 9: foundry losses and 2027 datacenter-spend concerns",
+      "url": "https://www.tradingkey.com/news/market-movers/261956322-market-movers-intc-20260609"
+    },
+    {
+      "label": "FXLeaders - Intel surges 11% on Google AI deal, foundry boom (Jun 9, 2026)",
+      "url": "https://www.fxleaders.com/news/2026/06/09/intel-intc-stock-surges-11-on-google-ai-deal-in-2026-foundry-boom/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "The Google 3M-TPU order on 18A directly answers this page's knock ('external foundry revenue still small') by converting option value into a booked anchor customer - meaningful new evidence since Jun 6. But Monday's +11% added roughly $50B of cap for 2028-dated revenue at currently negative foundry margins, more than pricing the news on an alpha lens; yesterday's down move already paid the crowding penalty and today's -4.9% is only a partial giveback, so hold at 97 with the score crediting the fundamental validation.",
+      "bull": "Google's 2028 TPU order (potentially 6M units across 2027-28) plus a live Nvidia Feynman 18A/EMIB evaluation makes Intel the only credible non-TSMC advanced-node-plus-packaging source in the West, with foundry revenue already growing 16% YoY.",
+      "neutral": "Order revenue lands in 2028 while IFS burns ~$2.4B per quarter; at $523B cap, +166% YTD, and ~18% above consensus PT, the booked wins are largely in the price and the residual is pure execution.",
+      "bear": "The reports are unconfirmed by either company; 18A yield or ramp slippage would push Google volumes out, Nvidia's evaluation may still resolve to TSMC, and a 2027 hyperscaler capex digestion hits the most rerated foundry story in the market hardest.",
+      "primaryCatalyst": "Official Intel/Google confirmation of the TPU agreement in guidance or backlog, and the Nvidia Feynman foundry/packaging decision expected in Q3 2026.",
+      "primaryRisk": "18A yield/ramp execution failing to support 2028 Google volumes while foundry losses keep burning ~$3B/quarter of cash."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 105,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Page-relevant news is the packaging leg: Nvidia evaluating EMIB for Feynman and ~90% EMIB yields with Google/Meta adoption validate the advanced-packaging half of this listing's thesis. But the silicon-photonics/CPO leg got no new evidence, the stock still trades entirely on the foundry/CPU turnaround as the thesis warns, and after the +11% news pop it is the most crowded name in semis - hold at 105 after yesterday's down move.",
+      "bull": "EMIB at ~90% yield with Google TPU v8e and Meta CPU adoption plus a possible Nvidia Feynman packaging slot makes Intel's packaging franchise a genuine second source to TSMC CoWoS - the under-appreciated leg of this listing.",
+      "neutral": "Packaging and photonics remain a small slice of a $523B-cap turnaround story; page-specific alpha is diluted by the dominant foundry/CPU narrative and the name is now widely owned after +166% YTD.",
+      "bear": "If the TPU order proves softer than reported or hyperscaler capex digests in 2027, the crowded momentum money exits fast and the packaging/photonics option value gets marked down with the foundry narrative.",
+      "primaryCatalyst": "Nvidia formally awarding EMIB packaging for Feynman in Q3, or a concrete silicon-photonics/CPO design-win disclosure tied to the TPU and Nvidia engagements.",
+      "primaryRisk": "Crowding: a consensus AI-foundry trade where any 18A or packaging stumble produces outsized de-rating versus this page's hidden-alpha mandate."
+    }
+  ]
+}

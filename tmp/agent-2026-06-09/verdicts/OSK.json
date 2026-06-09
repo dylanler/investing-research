@@ -1,0 +1,39 @@
+{
+  "symbol": "OSK",
+  "company": "Oshkosh",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Oshkosh Defense ROGUE-Fires Block 2 award press release (June 1, 2026 - predates window)",
+      "url": "https://oshkoshdefense.com/u-s-marine-corps-expands-autonomous-fires-capability-with-oshkosh-defense-rogue-fires-block-2-award/"
+    },
+    {
+      "label": "WBAY: $92M USMC ROGUE-Fires delivery order, June 1, 2026",
+      "url": "https://www.wbay.com/2026/06/01/oshkosh-defense-announces-new-92-million-delivery-order-marine-corps-rogue-fires-vehicles/"
+    },
+    {
+      "label": "Stockanalysis.com OSK forecast page (consensus Buy, avg PT ~$166)",
+      "url": "https://stockanalysis.com/stocks/osk/forecast/"
+    },
+    {
+      "label": "Daily Political: quarterly dividend $0.57 payable June 9, 2026 (routine)",
+      "url": "https://www.dailypolitical.com/2026/05/24/oshkosh-corporation-declares-quarterly-dividend-of-0-57-nyseosk.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6 and the stock is flat today (-0.03%) and YTD (-0.66%), so residual asymmetry on this latent-node screen is unchanged; the June 1 ROGUE-Fires Block 2 autonomy award predates the window and was a small ($92M) order already in the public domain before yesterday's hold.",
+      "bull": "The $92M ROGUE-Fires Block 2 order is the first large-scale production program for autonomous ground vehicles, directly validating the 'autonomous specialty platforms' latent-AI pathway, with deliveries through 2031 and an FMTV A2 order stack ($142M) behind it.",
+      "neutral": "OSK is a $8.1B diversified specialty-vehicle maker whose AI linkage is second-order; Q1 EPS fell to $0.68 from $1.72 but FY guidance of $10.90 was reaffirmed, and a flat tape leaves the entry point neither stretched nor distressed.",
+      "bear": "Access/Vocational cyclicality (construction, rental fleets) dominates earnings; tariff and mix pressure crushed Q1, and the autonomy orders are too small (~1% of revenue) to move the needle if the core cycle rolls over.",
+      "primaryCatalyst": "Follow-on autonomous ground vehicle awards (ROGUE-Fires Block 2 ramp, USPS NGDV/defense autonomy pipeline) or evidence of data-center construction demand flowing into access equipment orders.",
+      "primaryRisk": "Non-residential construction and rental capex downturn compressing Access segment margins, with back-end-weighted 2026 guidance ($10.90 EPS) at risk after the weak Q1."
+    }
+  ]
+}

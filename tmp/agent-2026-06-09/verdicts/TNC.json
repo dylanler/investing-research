@@ -1,0 +1,39 @@
+{
+  "symbol": "TNC",
+  "company": "Tennant",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental catalyst since June 6. A June 8 Yahoo Finance valuation piece re-aired the existing securities-fraud investigation tied to Tennant's ERP rollout (order-processing disruptions) and flagged conflicting fair-value estimates ($83.75 narrative vs $165 DCF vs $91.50 analyst target) - but the probe itself predates June 6. The autonomous-robotics buildout (X16 SWEEP April, X2 ROVR SCRUB late May, Brain Corp BrainOS Clean 2.0 partnership, $250M robotics revenue target by 2028) is all April-May news already in the score. Today's +1.34% move is flow/drift, not news.",
+  "sources": [
+    {
+      "label": "Yahoo Finance (Jun 8, 2026) - TNC valuation after ERP troubles and securities fraud investigation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-tennant-tnc-valuation-erp-190942578.html"
+    },
+    {
+      "label": "Businesswire (May 11, 2026) - Tennant introduces X2 ROVR SCRUB autonomous scrubber",
+      "url": "https://www.businesswire.com/news/home/20260511031667/en/Tennant-Company-Introduces-X2-ROVR-SCRUB-for-Autonomous-Cleaning-in-Small-High-Traffic-Spaces"
+    },
+    {
+      "label": "RoboticsTomorrow (Apr 14, 2026) - Tennant and Brain Corp accelerate robotic cleaning innovation",
+      "url": "https://www.roboticstomorrow.com/news/2026/04/14/tennant-company-and-brain-corp-agree-to-accelerate-robotic-cleaning-innovation-advancing-tennants-transformation-into-a-robotics-and-technology-leader/26409/"
+    },
+    {
+      "label": "StockTitan - TNC news feed",
+      "url": "https://www.stocktitan.net/news/TNC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Yesterday's verdict already moved TNC down to reconcile adjusted-score rank ~90; nothing genuinely new since June 6 justifies another move. The ERP securities-fraud probe re-aired June 8 is a known overhang, and today's +1.34% is noise, so hold at rank 91 with a small drift-down on score for the lingering ERP/legal cloud.",
+      "bull": "Tennant is executing a real robotics pivot - X16 SWEEP and X2 ROVR SCRUB launched in the last two months on Brain Corp's BrainOS, a dedicated robotics org, and a $250M autonomous-revenue target by 2028 - giving the latent facility-robotics optionality the strict screen looks for at only $1.4B cap.",
+      "neutral": "The robotics narrative is already partly priced (YTD +16.9%, ~33% 90-day run), the AI-chain linkage remains speculative (cleaning robots, not compute bottleneck), and the ERP probe caps near-term rerating; score and rank fairly reflect a medium-evidence latent node.",
+      "bear": "The securities-fraud investigation tied to the ERP rollout that blocked customer order processing could escalate into restatements or guidance cuts, and a legacy industrial-equipment maker re-skinned as a robotics story may de-rate hard if robotics revenue milestones slip.",
+      "primaryCatalyst": "Q2 2026 earnings (early August) showing ERP disruption resolved plus first sell-through data on X16 SWEEP / X2 ROVR SCRUB toward the $250M robotics target.",
+      "primaryRisk": "Escalation of the ERP-related securities-fraud investigation into formal action or financial restatement, compounding the order-processing disruption."
+    }
+  ]
+}

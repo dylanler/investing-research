@@ -1,0 +1,26 @@
+{
+  "symbol": "6951.T",
+  "company": "JEOL Ltd.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - JEOL Ltd. (6951.T) quote/news", "url": "https://finance.yahoo.com/quote/6951.T/"},
+    {"label": "Investing.com - JEOL Ltd (TYO:6951) price and news", "url": "https://www.investing.com/equities/jeol-ltd"},
+    {"label": "JEOL - Electron Beam Lithography Systems product page (no new order announcements)", "url": "https://www.jeol.com/products/semiconductor/ebx/"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's down move already reconciled the adjusted-score rank gap; since June 6 there is no fresh earnings, order, or capacity news and today's tape is flat (-0.21%), so re-moving the name would be churn, not signal.",
+      "bull": "JEOL is a near-duopoly supplier (with NuFlare) of e-beam mask-writing and metrology-grade electron microscopy, a genuine choke point for advanced photomasks, at only ~$2.1B market cap; the last reported quarter beat EPS estimates by roughly 84%.",
+      "neutral": "YTD +29% has already priced in a fair amount of the instrumentation/AI-metrology tailwind, and the medical business transfer to Sysmex (closed April 2026) slims the story without changing the semiconductor thesis; no incremental evidence either way this week.",
+      "bear": "Scientific-instrument demand is tied to academic/government research budgets that are under pressure, and mask-writer orders are lumpy; a pause in advanced-node photomask capex would hit a $2.1B name hard after a 29% YTD run.",
+      "primaryCatalyst": "New e-beam mask-writer or semiconductor-equipment order disclosures, or the Aug 7, 2026 earnings report confirming margin uplift post-Sysmex divestiture.",
+      "primaryRisk": "Order lumpiness and research-budget softness compressing the multiple after the YTD rerating, with no near-term catalyst until August earnings."
+    }
+  ]
+}

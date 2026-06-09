@@ -1,0 +1,35 @@
+{
+  "symbol": "ANDR.VI",
+  "company": "Andritz",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "ANDRITZ secures hydropower capacity expansion contracts with COPEL (Energy Global, Jun 2, 2026 - predates window, booked in Q1 intake)",
+      "url": "https://www.energyglobal.com/other-renewables/02062026/andritz-secures-hydropower-capacity-expansion-contracts-with-copel/"
+    },
+    {
+      "label": "ANDRITZ receives major upgrade order for three NZ hydropower plants (company newsroom, Apr 2026 - predates window)",
+      "url": "https://www.andritz.com/newsroom-en/hydro/2026-04-20-new-zealand-group"
+    },
+    {
+      "label": "Yahoo Finance quote ANDR.VI",
+      "url": "https://finance.yahoo.com/quote/ANDR.VI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news since June 6; the COPEL (Jun 2) and Mercury NZ (Apr) hydro orders predate the window and were already in Q1 order intake. Yesterday's down move already absorbed the adjusted-rank recalibration, and today's -0.65% drift gives no reason to move again on this strict latent-node screen.",
+      "bull": "Record EUR 3.6B Q1 order intake and a swelling hydro backlog (COPEL +2.1 GW, Mercury NZ +76 MW) make Andritz a quiet beneficiary of the power-constrained grid buildout that AI demand is amplifying, with hydro/pumped-storage cycles running to 2030.",
+      "neutral": "Solid hydro/process franchise at $8.65B cap with +14.3% YTD, but the AI linkage is second-derivative (grid power and water systems, not compute), so it earns its low strict-screen rank; nothing this week changes the evidence grade.",
+      "bear": "The AI-chain pathway is the most diluted on the list - pulp & paper and metals cyclicality dominate the P&L, and if European capex softens the hydro order momentum won't shield earnings; the YTD run already prices in the backlog story.",
+      "primaryCatalyst": "H1 2026 results / continued hydro mega-orders (pumped storage tenders in Europe, Brazil, India) confirming multi-year backlog growth tied to grid expansion.",
+      "primaryRisk": "Cyclical slowdown in pulp & paper and metals divisions masking hydro strength, plus the thesis remaining too far from the AI compute bottleneck to ever rerate on the theme."
+    }
+  ]
+}

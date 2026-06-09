@@ -1,0 +1,35 @@
+{
+  "symbol": "6841.T",
+  "company": "Yokogawa Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yokogawa 2026 press releases (no new items since Jun 6; latest brief is Jun 3 SBTi net-zero certification, pre-window and immaterial)",
+      "url": "https://www.yokogawa.com/news/press-releases/2026/"
+    },
+    {
+      "label": "Yokogawa news brief 2026-06-03 - SBTi net-zero target certification",
+      "url": "https://www.yokogawa.com/news/briefs/2026/2026-06-03"
+    },
+    {
+      "label": "Simply Wall St - Yokogawa Electric (TSE:6841) analyst coverage / guidance context, no fresh week-of-Jun-8 rating changes found",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6841/yokogawa-electric-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already reconciled the displayed rank with the adjusted score (rank ~61); since then there is no material news and the stock was flat today (-0.04%), so on this latency-of-recognition list the setup is unchanged and a second consecutive move is unwarranted.",
+      "bull": "Cheap diversified industrial-controls franchise (-4.3% YTD, $8.2B cap) with optionality in autonomous plant operations, OT cybersecurity, and SMR/energy control systems that the market still prices as a sleepy process-automation name.",
+      "neutral": "Fundamentally steady (FY26 guidance was raised earlier to JPY577B sales / JPY83B OP) but nothing since June 6 changes the AI-node thesis either way; only a June 3 SBTi net-zero certification, which is alpha-irrelevant.",
+      "bear": "Not a pure AI play: industrial AI revenue is a small slice of a diversified portfolio, the rerating depends on slow enterprise process-automation cycles, and the latent thesis can stay latent for years while capital sits in a low-beta name.",
+      "primaryCatalyst": "Concrete autonomous-operations or industrial-AI contract wins (e.g., follow-through on plant-data/DX and SMR control-system orders) that force the market to reprice the software/data layer.",
+      "primaryRisk": "Thesis stays latent: industrial capex softness or yen dynamics keep the stock range-bound and the AI-interface narrative never attaches to the multiple."
+    }
+  ]
+}

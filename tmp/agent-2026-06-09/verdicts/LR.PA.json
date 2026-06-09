@@ -1,0 +1,65 @@
+{
+  "symbol": "LR.PA",
+  "company": "Legrand",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Legrand 2026 regulated information (latest items: SRS Power acquisition May 20, Q1 results May 7 - nothing June 5-9)",
+      "url": "https://www.legrand.com/en/investors-and-shareholders/regulated-information/2026"
+    },
+    {
+      "label": "Legrand datacenter acquisitions Keydak/TES (April 1, 2026 - prior news, already in thesis)",
+      "url": "https://www.legrand.com/en/news/legrand-announces-2-acquisitions-datacenters-keydak-china-and-tes-united-kingdom"
+    },
+    {
+      "label": "Yahoo Finance LR.PA quote",
+      "url": "https://finance.yahoo.com/quote/LR.PA/"
+    },
+    {
+      "label": "eToro LR.PA - Street targets cluster ~EUR 155-175, Hold consensus context",
+      "url": "https://www.etoro.com/markets/lr.pa"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6; the mild pullback (-1.36% today, roughly -2.7% on the week) with the busway/PDU thesis intact marginally improves entry asymmetry, but Legrand remains a $42B, well-covered name farther from the scarcest passive/power bottlenecks, so rank 28 in the secondary bucket stands.",
+      "bull": "Datacenter is now 26% of revenue and management guides the segment to the high end of 10-20% growth; four 2026 bolt-ons (Keydak, TES, SRS, ~EUR 285M added revenue) keep compounding the busway/PDU/rack franchise.",
+      "neutral": "Modest +8.1% YTD and a small weekly dip leave the setup unchanged; the exposure is real but priced as a quality compounder, not a hidden bottleneck.",
+      "bear": "33 analysts cover it and the datacenter story is fully advertised; any hyperscaler capex digestion hits a consensus long with limited residual alpha at this rank tier.",
+      "primaryCatalyst": "H1 2026 results (late July) showing datacenter order intake sustaining the raised segment guidance.",
+      "primaryRisk": "Crowding: AI-electrification is a consensus theme and Legrand is one of its most-owned European expressions."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold at rank 83: nothing new since June 6, and the page's own thesis already concedes the market increasingly recognizes Legrand's data-center electrical exposure, so it is not getting more latent; a -1.36% drift day does not change centrality.",
+      "bull": "Power & grid centrality is structural - racks, busway, PDUs and building electrification all route through Legrand, and bolt-on M&A keeps widening the node.",
+      "neutral": "Exposure is intact but discovery is largely complete; the name belongs deep on a latency-ranked list, which rank 83 already reflects.",
+      "bear": "As recognition rises (26% of revenue from datacenters, sell-side targets up to EUR 175), the 'latent' premise erodes and the listing trends toward graduation rather than promotion.",
+      "primaryCatalyst": "Further datacenter M&A or a marquee hyperscaler busway/PDU win that deepens network position.",
+      "primaryRisk": "Full recognition: once the exposure is consensus, the latent-node case expires even if the business performs."
+    },
+    {
+      "page": "companies",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at rank 3: yesterday's audit already balanced the electrical-distribution bottleneck exposure against the rerating, and with no regulated news since June 6 and only a -1.36% drift day there is no basis to re-rank within the power/cooling/electrical bucket.",
+      "bull": "Q1 sales +18% ex-FX with 20.7% adjusted operating margin, datacenter guidance lifted to the high end of 10-20%, and the SRS deal adds LV/MV power protection capacity directly in the bottleneck stack.",
+      "neutral": "Measured +8.1% YTD keeps valuation tension manageable; thesis tracking as written, no new datapoint either way since the last audit.",
+      "bear": "Margin guidance of 20.5-21.0% leaves little room for input-cost or integration slippage across four simultaneous datacenter acquisitions.",
+      "primaryCatalyst": "H1 2026 results confirming datacenter growth at the high end of guidance and clean bolt-on integration.",
+      "primaryRisk": "Execution and pricing slippage in electrical distribution if datacenter order momentum cools into H2."
+    }
+  ]
+}

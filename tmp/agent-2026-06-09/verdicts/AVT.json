@@ -1,0 +1,27 @@
+{
+  "symbol": "AVT",
+  "company": "Avnet",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan AVT news feed (latest headlines; nothing material post-Jun 6)", "url": "https://www.stocktitan.net/news/AVT/"},
+    {"label": "GuruFocus: AVT up 6.8% (Jun 2) but ~50% above GF Value", "url": "https://www.gurufocus.com/news/8897537/avnet-inc-avt-stock-up-68-but-gf-value-says-overvalued-gf-score-86100"},
+    {"label": "Seeking Alpha: Avnet - Thesis Played Out, Now Fully Valued (rating downgrade)", "url": "https://seekingalpha.com/article/4911315-avnet-stock-thesis-played-out-now-fully-valued-rating-downgrade"},
+    {"label": "Yahoo Finance AVT quote", "url": "https://finance.yahoo.com/quote/AVT/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's up-move was a rank reconciliation (displayed 82 vs adjusted 68) that has now landed at 67; no material news since Jun 6 and today's -1.6% is drift, so hold with a small negative delta for post-rerating alpha decay after a +74% YTD run and sell-side capitulation upgrades (BofA to Neutral, PT $96, Jun 2).",
+      "bull": "Cycle indicators are turning (extended backlog, book-to-bill recovery, inventory correction over per BofA), and broad distribution gives cheap, lagging exposure to the AI component pull-through with 13 years of dividend growth.",
+      "neutral": "At ~$86 after a 74% YTD rerating and a wave of price-target catch-ups (Raymond James $95, Truist $95), the easy mean-reversion alpha is harvested; the name now trades on cycle delivery rather than mispricing.",
+      "bear": "GF Value pegs shares ~50% above fair value and Seeking Alpha flags the thesis as played out; distribution carries thin margins and low strategic uniqueness, so any AI-demand air pocket or inventory re-stuffing hits a no-longer-cheap stock hard.",
+      "primaryCatalyst": "Q4 FY2026 earnings/guidance confirming the distribution cycle upturn (book-to-bill, backlog) and AI-adjacent design-win traction.",
+      "primaryRisk": "Post-rerating crowding: consensus has now chased the move, leaving downside if component demand or AI pull-through disappoints."
+    }
+  ]
+}

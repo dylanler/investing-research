@@ -1,0 +1,53 @@
+{
+  "symbol": "FORM",
+  "company": "FormFactor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamentals since June 6. June 8's +6.5% was the broad semiconductor recovery (Huang 'buy at a discount' comments); June 9's -4.1% is the sector selloff extending (Broadcom's soft AI forecast June 5, hot May payrolls stoking rate fears) - flow-driven, not fundamental. The material catalysts (Investor Day 2030 plan: double revenue, >2x EPS, HBM4/HBM5 test intensity +25-30%, CPO as multi-hundred-million-dollar systems engine; Evercore upgrade to Outperform, $155 PT June 4; director Rhodes ~$0.8M insider sale June 2) all predate the window and were in yesterday's verdicts.",
+  "sources": [
+    {"label": "GuruFocus - FORM shares surge 6.5% (Jun 8), Investor Day analyst attention", "url": "https://www.gurufocus.com/news/8906277/formfactor-inc-form-shares-surge-65-what-gf-score-of-68-tells-investors"},
+    {"label": "Investing.com - Why is FormFactor stock down ~6% (sector selloff, payrolls, Evercore $155 PT context)", "url": "https://za.investing.com/news/stock-market-news/why-is-formfactor-stock-down-6-today-93CH-4316542"},
+    {"label": "Yahoo Finance - FormFactor targets revenue doubling by 2030 on AI chip testing boom (CPO, HBM5)", "url": "https://finance.yahoo.com/sectors/technology/articles/formfactor-targets-revenue-doubling-2030-180507795.html"},
+    {"label": "StockStory via FinancialContent - FormFactor, Entegris, Amtech soaring Jun 8 on sector recovery", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-6-8-formfactor-entegris-and-amtech-shares-are-soaring-what-you-need-to-know"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No new evidence since yesterday's hold; the rank has already improved to 11 post-Investor-Day and the 'smaller market visibility' premise is eroding as sell-side coverage (Evercore $155 PT) discovers the name. Today's -4.1% is sector beta, not a thesis event, so hold with mild drift down on residual-alpha grounds.",
+      "bull": "Test intensity is structurally rising 25-30% per HBM generation into HBM4/HBM5, and probe cards are consumable-like, giving recurring leverage to every AI memory and ASIC ramp.",
+      "neutral": "The 2030 double-revenue plan is credible but now public and priced into a +101% YTD, $9.3B name; near-term quarters must validate it.",
+      "bear": "Probe-card demand is cyclical and memory-weighted; a pause in HBM capacity adds or a broader AI-capex digestion (Broadcom-style guide-down) compresses both estimates and the rerated multiple.",
+      "primaryCatalyst": "Q2 results/guide confirming HBM4 probe-card pull and CPO systems orders against Investor Day targets",
+      "primaryRisk": "Post-rerating multiple compression if HBM test-intensity orders pause or the AI semi selloff deepens"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "The page-specific CPO thesis was explicitly validated by management - CPO named the 'engine' of doubling the systems segment by 2030, a multi-hundred-million-dollar opportunity - but that disclosure predates June 6 and was in yesterday's hold. Today's flow-driven -4.1% slightly improves entry on an intact thesis, so hold with small positive drift.",
+      "bull": "FormFactor is one of the few pure test/known-good-die plays on silicon photonics and CPO, where wafer-level optical probing is a genuine bottleneck nobody else owns at scale.",
+      "neutral": "CPO revenue is still small relative to the probe-card core; the multi-hundred-million 2030 target is a management aspiration, not booked backlog.",
+      "bear": "If CPO adoption timelines slip (as optical transitions historically do), the systems-segment growth engine stalls while the stock already prices the option.",
+      "primaryCatalyst": "Concrete CPO/silicon-photonics test design wins or systems-segment revenue acceleration in upcoming prints",
+      "primaryRisk": "CPO adoption slipping right as crowding builds post-Investor-Day rerating"
+    },
+    {
+      "page": "companies",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already moved it down for the +101% YTD rerating with no hidden alpha left at rank 37; nothing new since June 6 justifies a second consecutive move, and today's -4.1% sector-beta dip neither damages the thesis nor restores enough asymmetry.",
+      "bull": "Upstream pick-and-shovel exposure to every advanced-node, HBM and chiplet ramp, with a management roadmap to double revenue by 2030.",
+      "neutral": "Real AI test leverage, but fully recognized: +101% YTD, fresh sell-side upgrades, and insider selling at the highs mark a discovered name.",
+      "bear": "A cyclical probe-card business trading on a 2030 narrative; estimate cuts in any memory/logic test digestion would hit a stretched multiple hard.",
+      "primaryCatalyst": "Execution proof points against the Investor Day 2030 framework in Q2/Q3 results",
+      "primaryRisk": "Cyclicality of probe-card orders versus a valuation that already embeds the AI test-intensity story"
+    }
+  ]
+}

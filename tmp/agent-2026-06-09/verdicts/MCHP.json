@@ -1,0 +1,61 @@
+{
+  "symbol": "MCHP",
+  "company": "Microchip Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. The thesis-relevant catalysts - Data Center Solutions unit revenue disclosure ($302.7M CY25, ~65% growth to ~$500M CY26 guided) and selective portfolio-wide price increases - were announced June 1 and drove a ~6% pop that day, so they are already in the price. Since June 6: a June 8 PR that COO Rich Simoncic presents at the Mizuho Technology Conference today (June 9), and a minor COO Form 4 sale of 5,000 shares via trust. Today's -2.3% is a flow-driven giveback of last week's rerating, not fundamental.",
+  "sources": [
+    {
+      "label": "Microchip PR (June 8): presenting at 2026 Mizuho Technology Conference June 9",
+      "url": "https://www.globenewswire.com/news-release/2026/06/08/3308466/0/en/Microchip-Technology-to-Present-at-the-2026-Mizuho-Technology-Conference.html"
+    },
+    {
+      "label": "StockTitan (June 1): Data Center Solutions unit targets ~$500M CY26 revenue (+65%), selective price increases",
+      "url": "https://www.stocktitan.net/news/MCHP/microchip-provides-data-center-solutions-business-unit-revenue-k4wb0dlbheds.html"
+    },
+    {
+      "label": "Microchip IR: Data Center Solutions business unit revenue information press release",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1395/microchip-provides-data-center-solutions-business-unit-revenue-information"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 34: no new evidence since June 6 - the DCS $500M guide and price hikes were June 1 news already chased; today's -2.3% modestly improves entry but does not restore enough residual alpha after a +37% YTD run to re-rank a secondary residual-alpha name.",
+      "bull": "DCS unit growing 65% to ~$500M with 3nm Gen6 PCIe switches and price hikes sticking gives a credible AI data-center growth kicker on top of a cyclical recovery, and the -2.3% pullback slightly resets the entry.",
+      "neutral": "Data-center/compute is only ~18% of revenue; the June 1 disclosure is priced and the stock now drifts with the analog group until the next datapoint, leaving rank 34 about right.",
+      "bear": "A +37% YTD mid/large-cap with consensus targets near $113 is no longer hidden; if the broad MCU/analog cycle stalls, the AI-adjacent sliver cannot carry a $50B market cap and crowding unwinds the rerating.",
+      "primaryCatalyst": "Evidence the DCS unit tracks ahead of the ~$500M CY26 target (Sep-quarter guide) or price-increase-driven margin upside.",
+      "primaryRisk": "Post-rerating crowding: AI-adjacent multiple fades as investors realize ~82% of revenue is broad cyclical analog/MCU."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 87: yesterday's verdict already moved it down to reflect indirect bottleneck exposure after the YTD run, and nothing since June 6 changes that - the Mizuho appearance and a small insider sale are not node-relevance news.",
+      "bull": "Switchtec PCIe Gen6 switches, CXL 3.1 retimers and SiC power modules give Microchip a real, growing foothold in the AI rack, and the 65% DCS growth guide validates it.",
+      "neutral": "Exposure is selective and secondary to HBM, advanced packaging and optical interconnect names; rank 87 in the analog/power/RF tier already reflects that positioning fairly.",
+      "bear": "Its AI node role is replaceable commodity-adjacent content (retimers, controllers, power) where Astera, Broadcom and Marvell hold the premium sockets, and the core business remains a broad cyclical.",
+      "primaryCatalyst": "Design-win announcements for Gen6 PCIe switches/retimers at hyperscaler rack programs.",
+      "primaryRisk": "Share loss in retimers/switches to Astera Labs and Broadcom, relegating MCHP to peripheral node content."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 93: it was moved down yesterday for being a non-primary CPO name post-run, and no CPO-relevant news has emerged since June 6 - timing/sync software updates and a conference slot do not change its peripheral position in the co-packaged-optics chain.",
+      "bull": "If CPO racks proliferate, Microchip's timing, synchronization and PCIe/CXL connectivity content rides along, and the DCS unit's 65% growth shows that attach is real.",
+      "neutral": "Infrastructure controls and timing are supporting cast, not the optical engine; near the bottom of the list is the correct home for a name with broad cyclical exposure and no direct CPO content.",
+      "bear": "Zero direct CPO exposure means the list's core catalyst never accrues to MCHP, while the +37% YTD move already borrowed against its modest AI-adjacency.",
+      "primaryCatalyst": "Timing/sync or PCIe retimer content wins inside announced CPO switch platforms.",
+      "primaryRisk": "CPO architectures consolidate timing and retiming into the switch ASIC vendors, bypassing Microchip entirely."
+    }
+  ]
+}

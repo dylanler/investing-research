@@ -1,0 +1,35 @@
+{
+  "symbol": "SFSN.SW",
+  "company": "SFS Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "StreetInsider - Jefferies raises SFS Group PT to CHF152 (Jun 2, pre-window context)",
+      "url": "https://www.streetinsider.com/Analyst+PT+Change/SFS+Group+AG+(SFSN:SW)+(SFSLF)+PT+Raised+to+CHF152+at+Jefferies/26586185.html"
+    },
+    {
+      "label": "SFS Group media newsroom - no new releases Jun 6-9",
+      "url": "https://www.sfs.com/ch/en/media-newsroom/news_overview.html"
+    },
+    {
+      "label": "EQS ad-hoc - SFS consolidates market position in trading business (Dec 2025, prior)",
+      "url": "https://www.eqs-news.com/news/ad-hoc/sfs-consolidates-market-position-in-trading-business/01c68eef-1a6e-440b-bf66-c798746705c6"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6 and a -0.78% day move; the strict latent-node case (precision fasteners feeding compact mechanical assemblies and automation hardware) is unchanged from yesterday's hold, so there is no basis to re-rank.",
+      "bull": "Under-owned Swiss industrial with hidden content in automation and compact-assembly hardware; Jefferies' CHF152 target (Jun 2) implies ~20% upside vs CHF126.4 without any AI optionality priced in, and 2026 guidance (3-6% organic growth, 12-15% adj. EBIT margin) plus pending bolt-on acquisitions keep the base business compounding.",
+      "neutral": "A diversified fastener and distribution group whose AI-chain exposure is indirect and unquantified; +11.7% YTD is in line with European industrials, so the latent-node thesis is neither confirmed nor impaired by anything this week.",
+      "bear": "The AI linkage is the weakest kind of latent claim - generic fasteners 'could' support automation hardware - and if no design-win or datacenter-adjacent revenue evidence ever surfaces, the name is just a fairly valued industrial occupying a slot on the list.",
+      "primaryCatalyst": "H1 2026 results (mid-July) with any disclosure of automation/electronics-division order momentum or closing of announced acquisitions.",
+      "primaryRisk": "European construction and automotive end-market softness dragging the Engineered Components and Distribution segments, with no AI-side offset ever materializing."
+    }
+  ]
+}

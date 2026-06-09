@@ -1,0 +1,54 @@
+{
+  "symbol": "8035.T",
+  "company": "Tokyo Electron",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Today's +8.9% move to a fresh all-time high (+21% over three June sessions) is flow/momentum-driven: continuation of the Japan AI-semicap rally (TEL led the Nikkei, offsetting SoftBank losses) and follow-through on pre-window catalysts - the May 1 FY26 results with H1 FY27 guidance of +33% sales / +42% OP, and the June 4 board approval of a Y150B buyback plus 1:5 stock split. CEO Kawai's June 9 Nikkei Future of Asia remarks on Japan-Korea cooperation were not material. Sell-side already at consensus Buy with notes flagging 'priced for perfection.'",
+  "sources": [
+    {"label": "Investing.com - TEL shares surge as bumper guidance offsets middling earnings (May 1, 2026)", "url": "https://www.investing.com/news/stock-market-news/tokyo-electron-shares-surge-as-bumper-guidance-offsets-middling-earnings-4651901"},
+    {"label": "Yahoo Finance - TEL valuation after buyback plan, stock split and AI-driven momentum (Jun 4, 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/look-tokyo-electron-tse-8035-191020776.html"},
+    {"label": "FXEmpire - Nikkei 225: Tokyo Electron rally offsets SoftBank losses", "url": "https://www.fxempire.com/forecasts/article/nikkei-225-forecast-tokyo-electron-rally-offsets-softbank-losses-1602583"},
+    {"label": "ad-hoc-news - Tokyo Electron: quiet rally, loud expectations", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tokyo-electron-stock-quiet-rally-loud-expectations-in-the-semiconductor/68456417"},
+    {"label": "Nikkei Asia - TEL CEO at Future of Asia forum (Jun 9, 2026)", "url": "https://asia.nikkei.com/spotlight/the-future-of-asia/future-of-asia-2026/semiconductor-advances-a-must-for-data-centers-says-tokyo-electron-boss"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 40,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "An +8.9% single-day melt-up to all-time highs (+62% YTD) with zero new orders, contracts or guidance since June 6 means the AI fab/HBM capex thesis is being paid for upfront; residual alpha on this WFE-tier name is compressing fast.",
+      "bull": "H1 FY27 guidance of +33% sales and a 25-30% WFE market in 2026 confirm the AI/HBM capex cycle is real; TSMC, Samsung, SK Hynix and Micron are all expanding, and TEL's etch/deposition/coater share is structural.",
+      "neutral": "Fundamentals are intact but fully telegraphed since the May 1 print and June 4 buyback/split; the stock now needs order momentum to keep rerating rather than multiple expansion alone.",
+      "bear": "At a record high after a 21% three-session sprint, any wobble in 2H-weighted memory capex, China export-control tightening, or a soft order quarter triggers an outsized de-rate from a priced-for-perfection multiple.",
+      "primaryCatalyst": "Q1 FY27 results and order intake (late July) validating the 33% H1 growth guide",
+      "primaryRisk": "Crowded momentum unwind; China export-control escalation hitting ~40% of revenue exposure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 54,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "This page already flags TEL as 'not early or CPO-specific' with high-expectations risk; a flow-driven +8.9% spike to record highs makes it strictly more crowded and less of a hidden CPO-adjacent alpha source, with no new optical/packaging angle since June 6.",
+      "bull": "Front-end WFE intensity rises with every advanced-logic and HBM node, and hybrid bonding/3D integration tools give TEL an eventual advanced-packaging hook.",
+      "neutral": "A quality compounder riding the AI capex tide, but on a CPO/early-alpha lens it is a consensus large-cap proxy, not an undiscovered bottleneck.",
+      "bear": "Sixty-plus percent YTD, 22 analysts at Buy, retail-friendly 1:5 split coming - the definition of a crowded trade where the marginal buyer is momentum, not insight.",
+      "primaryCatalyst": "Concrete CPO/advanced-packaging tool wins that would re-link TEL to this page's thesis",
+      "primaryRisk": "Momentum reversal in crowded Japan AI names; thesis on this page is diluted by the rally"
+    },
+    {
+      "page": "companies",
+      "currentRank": 49,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already cut for YTD rerating; today's +8.9% surge to a fresh all-time high on no new fundamentals extends that exact dynamic, so the pick-and-shovel alpha score should drift further down rather than reset.",
+      "bull": "Record FY26 net income, Y433B free cash flow, a Y150B buyback and a guide for 40%+ H1 growth - execution on the fab-tools thesis is unimpeachable.",
+      "neutral": "The upstream pick-and-shovel exposure is real but now fully recognized at a $170B market cap; this is a hold-the-quality, not a hidden-alpha, situation.",
+      "bear": "Cyclical WFE name at peak multiple and peak sentiment; the May guidance is the high-water mark and order timing slips or China restrictions would unwind the rerating quickly.",
+      "primaryCatalyst": "July order/backlog data confirming the 25-30% 2026 WFE market assumption",
+      "primaryRisk": "Post-rerating chase: paying all-time-high prices for a cyclical whose good news is dated May 1 and June 4"
+    }
+  ]
+}

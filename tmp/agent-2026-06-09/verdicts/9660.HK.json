@@ -1,0 +1,26 @@
+{
+  "symbol": "9660.HK",
+  "company": "Horizon Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. FY/interim results were released June 3 (before the window); the only scheduled event is a routine virtual AGM on June 10 (re-elect directors, reappoint PwC, 10% buyback mandate). Today's -3.76% move to HKD 4.86 (YTD -45.9%) appears flow-driven China edge-AI de-rating, not a fundamental event.",
+  "sources": [
+    {"label": "Yahoo Finance - Horizon Robotics 9660.HK news", "url": "https://finance.yahoo.com/quote/9660.HK/news/"},
+    {"label": "TipRanks - Horizon Robotics sets June 10, 2026 virtual AGM", "url": "https://www.tipranks.com/news/company-announcements/horizon-robotics-sets-june-2026-virtual-agm-to-approve-accounts-board-mandates"},
+    {"label": "AASTOCKS - 09660.HK news feed", "url": "http://www.aastocks.com/en/stocks/analysis/stock-aafn/09660/0/hk-stock-news/1"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved Horizon up on the under-ownership/edge-AI-purity case and there is zero new fundamental information since June 6; another -3.8% drift with the thesis intact slightly improves entry asymmetry but does not justify a second consecutive rank move.",
+      "bull": "A $9.3B pure-play edge-AI compute platform down ~46% YTD with 10+ OEM design wins (Changan, Chery, 20+ models) and the Starry cockpit-drive fusion chip ramp offers asymmetric rerating room once China ADAS sentiment turns.",
+      "neutral": "No news flow since the June 3 results; the stock is drifting lower with the broader China auto-AI complex, so the setup is unchanged from yesterday's up-rated case and the AGM on June 10 is purely procedural.",
+      "bear": "Persistent price erosion despite design-win evidence suggests structural overhang (pre-IPO holder selldowns, brutal China ADAS price competition from Momenta/NVIDIA-based stacks) and the buyback mandate may not offset supply.",
+      "primaryCatalyst": "Evidence of Starry fusion-chip volume orders or new flagship OEM wins converting the design-win pipeline into revenue acceleration in H2 2026.",
+      "primaryRisk": "Continued shareholder supply and ASP/margin compression in China's ADAS chip price war, leaving the stock a falling knife despite the cheapened valuation."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "symbol": "POWI",
+  "company": "Power Integrations",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Power Integrations ultra-slim auxiliary PSU for NVIDIA Kyber 800VDC AI data centers (June 1, 2026 - pre-cutoff)",
+      "url": "https://www.stocktitan.net/news/POWI/power-integrations-unveils-space-saving-ultra-slim-auxiliary-psu-m7734u1ckz2e.html"
+    },
+    {
+      "label": "Simply Wall St - POWI valuation check after NVIDIA Kyber AI data center power designs",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-powi/power-integrations/news/power-integrations-powi-valuation-check-after-new-nvidia-kyb"
+    },
+    {
+      "label": "TipRanks - shareholders back board, pay and incentive plan (June 3, 2026 annual meeting - pre-cutoff)",
+      "url": "https://www.tipranks.com/news/company-announcements/power-integrations-shareholders-back-board-pay-and-incentive-plan"
+    },
+    {
+      "label": "Yahoo Finance - POWI quote",
+      "url": "https://finance.yahoo.com/quote/POWI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "No genuinely new information since June 6; the NVIDIA Kyber 800VDC PSU designs (June 1) are already reflected in the ~97% YTD rerating. Today's -4.25% pullback with the thesis intact modestly restores asymmetry, justifying a small positive drift but no rank change after yesterday's hold.",
+      "bull": "PowiGaN 1700V single-HEMT auxiliary PSUs are designed into NVIDIA's Kyber 800VDC rack architecture, giving a $4.7B small-cap direct content in the AI power-delivery bottleneck; a 4% down day cheapens the entry without any thesis damage.",
+      "neutral": "Q1 revenue of $108M with thin net income shows the AI data-center segment is still small versus the legacy industrial/consumer base; the stock now trades on the AI option, not current earnings.",
+      "bear": "After ~97% YTD and a ~78% 90-day run, the name is no longer hidden; analyst fair-value chases ($56 to $85) signal post-rerating crowding, and the consumer/industrial power cycle can swamp the AI sliver.",
+      "primaryCatalyst": "Quantified 800VDC/Kyber design-win revenue or Q2 guidance showing data-center mix inflecting.",
+      "primaryRisk": "Multiple compression as the AI-power trade de-crowds while legacy industrial/consumer power demand stays soft."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Yesterday's verdict already moved POWI down on this page for being less direct than HBM/packaging/CPO bottleneck nodes; nothing since June 6 changes its node centrality, so no second consecutive move is warranted.",
+      "bull": "GaN auxiliary power content in 800VDC AI racks gives POWI a real, if small, node in the data-center power chain that most analog peers lack.",
+      "neutral": "Auxiliary PSU content per rack is modest relative to the main power train; POWI remains a selective, second-order AI node rather than a chokepoint.",
+      "bear": "Edge/auxiliary power is substitutable (SiC and competing GaN suppliers), so its network position is weak versus HBM, packaging and test bottlenecks the page is built around.",
+      "primaryCatalyst": "Expansion from auxiliary PSUs into higher-value main power-train sockets in 800VDC architectures.",
+      "primaryRisk": "Design-out or competitive GaN/SiC substitution eroding the already-thin AI node position."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "The CPO-specific link remains weak and the page already demoted POWI yesterday (83 to 94); no new CPO-relevant evidence since June 6, so discipline says hold rather than compound the move.",
+      "bull": "If 800VDC rack power becomes a standard companion to CPO-dense racks, POWI's auxiliary GaN content rides the same buildout.",
+      "neutral": "Data-center power exposure is real but orthogonal to co-packaged optics; POWI is a power-delivery adjacency, not a CPO supply-chain participant.",
+      "bear": "Near-doubled YTD with no CPO linkage means the residual alpha on this specific page is essentially exhausted; industrial/consumer power cycle risk dominates.",
+      "primaryCatalyst": "Any concrete content attach to CPO-architecture racks (e.g., optics-adjacent power designs) that tightens the page linkage.",
+      "primaryRisk": "Continued rerating on a thesis this page does not credit, leaving rank vulnerable to further demotion if CPO names re-accelerate."
+    }
+  ]
+}

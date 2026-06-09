@@ -1,0 +1,39 @@
+{
+  "symbol": "AMS.SW",
+  "company": "ams-OSRAM AG",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. AGM is tomorrow (June 10: board refresh, auditor, capital measures) - a known scheduled event. The EUR1B bond refinancing closed June 1 (cuts financing costs toward <EUR150M by 2028), the EUR570M Infineon non-optical sensor sale closes this quarter, and the 'slow and wide' micro-emitter optical-interconnect development agreement (Q1 prototype, no revenue before ~2030) were all disclosed earlier. Sell-side has chased the rerating (JPMorgan Overweight CHF23.60, Jefferies Buy CHF21). Today's -1.1% is noise.",
+  "sources": [
+    {"label": "Stocks Today - ams OSRAM June agenda: EUR570M sensor sale, board refresh, AI photonics bet", "url": "https://stockstoday.com/ams-osrams-june-agenda-a-e570m-sensor-sale-board-refresh-and-a-high-stakes-bet-on-ai-photonics/"},
+    {"label": "TipRanks - ams-OSRAM calls 2026 AGM (governance, auditor, capital measures)", "url": "https://www.tipranks.com/news/company-announcements/ams-osram-calls-2026-agm-to-decide-governance-auditor-and-capital-measures"},
+    {"label": "Yahoo Finance - AMS.SW quote", "url": "https://finance.yahoo.com/quote/AMS.SW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "No genuinely new information since yesterday's hold; the latency thesis (low expectations, balance-sheet scars) keeps eroding as deleveraging is executed in plain sight and major brokers pile in after +103% YTD, but nothing today changes the setup enough to re-rank.",
+      "bull": "Deleveraging is real and accelerating: bond refi closed June 1, Infineon EUR570M sale closes this quarter, FCF turned positive, and the micro-emitter optical-interconnect program gives free AI-photonics optionality.",
+      "neutral": "Everything driving the stock was disclosed before June 6; AGM tomorrow is procedural. The name still has sensing/photonics exposure but is mid-rerating, so residual latency is shrinking without yet being exhausted.",
+      "bear": "After a YTD double and JPM/Jefferies upgrades with tripled targets, the 'under-owned, scarred' premise is mostly gone; the AI interconnect bet has no revenue before ~2030 and consumer/auto optics cycles can still disappoint.",
+      "primaryCatalyst": "Closing of the Infineon sensor sale this quarter plus AGM capital measures cementing the deleveraged balance sheet.",
+      "primaryRisk": "Crowding after the rerating - sell-side upgrades have made the recovery consensus, leaving little hidden alpha if Q2 (EUR725-825M guide) merely meets expectations."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 119,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Already pushed down yesterday on the crowding/indirectness call; no new CPO-relevant news since June 6 to move again, and the known micro-emitter 'slow and wide' interconnect program (Q1 prototype, ~2030 revenue) modestly supports keeping it on the list at the bottom rather than cutting further.",
+      "bull": "The development agreement for micro-emitter-array optical interconnects is concrete evidence ams-OSRAM could become a datacom photonics supplier, and a cleaned-up balance sheet lets it fund that bet.",
+      "neutral": "It remains an optoelectronics generalist with CPO-adjacent capability, not a design-win holder in AI-scale connectivity; rank 119 already reflects that distance from the bottleneck.",
+      "bear": "No revenue from the interconnect program before ~2030, the partner is undisclosed, and the stock has already doubled on the restructuring story - the CPO option is being given credit it has not earned.",
+      "primaryCatalyst": "Naming the optical-interconnect development partner or an accelerated timeline that pulls datacom revenue forward from 2030.",
+      "primaryRisk": "The AI-photonics initiative stalls at prototype stage while incumbent CPO/silicon-photonics suppliers lock up the sockets, leaving AMS with no path into the bottleneck."
+    }
+  ]
+}

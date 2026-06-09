@@ -1,0 +1,40 @@
+{
+  "symbol": "ALGM",
+  "company": "Allegro MicroSystems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news. Today's -5.68% is flow-driven: ALGM jumped ~6.8% on June 8 in the sector-wide rebound (Jensen Huang 'buy at a discount' comments after the June 4-5 Broadcom-triggered chip rout) and is giving that bounce back as semis fade again. Only minor items: SVP of Worldwide Sales sold 5,000 shares (~$264K, immaterial) and post-earnings analyst PT raises (Jefferies, Evercore ISI, UBS) that trace to the May FQ4 print (revenue $243M +26% y/y, data center revenue quadrupled to 14% of Q4 sales), not to the past three days.",
+  "sources": [
+    {"label": "StockStory - Allegro MicroSystems and Monolithic Power Systems Shares Are Soaring (June 8 rebound)", "url": "https://stockstory.org/us/stocks/nasdaq/algm/news/why-up-down/allegro-microsystems-and-monolithic-power-systems-shares-are-soaring-what-you-need-to-know"},
+    {"label": "CNBC - Broadcom, Micron and ARM sink, leading chip stocks lower (June 4-5 rout context)", "url": "https://www.cnbc.com/2026/06/04/chipmaker-equities-micron-marvell-broadcom-intel.html"},
+    {"label": "TipRanks - Allegro insider sale (SVP Madormo, 5,000 shares)", "url": "https://www.tipranks.com/news/insider-trading/top-allegro-microsystems-executive-makes-notable-move-with-company-stock-insider-trading-news"},
+    {"label": "Yahoo Finance - ALGM quote", "url": "https://finance.yahoo.com/quote/ALGM/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move (87 -> 93) already priced the post-79% YTD crowding; today's -5.7% is a flow-driven giveback of June 8's sector bounce with no new fundamentals, which marginally restores asymmetry but does not change ALGM's indirect position vs HBM/packaging/CPO bottleneck names on this page.",
+      "bull": "Data center revenue quadrupled y/y to 14% of Q4 sales and current-sensor/power content scales with rack power density; a 5.7% flow-driven dip on an intact thesis is a slightly better entry.",
+      "neutral": "Still up 69% YTD with the AI-adjacent rerating largely done; rank 93 fairly reflects selective, second-derivative exposure to the compute bottleneck.",
+      "bear": "71% of sales remain auto (xEV/ADAS) - a cyclical end-market - and the Broadcom-triggered de-rating of AI chip multiples plus smartphone/memory demand warnings can compress analog multiples regardless of ALGM's data-center optionality.",
+      "primaryCatalyst": "Continued data center revenue mix shift (quantified again at the next earnings print) or a named AI power-delivery design win.",
+      "primaryRisk": "Auto/industrial cycle softness combined with sector-wide AI multiple compression after the June chip rout."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "On a CPO-lens page the binding constraint is relevance, not price: ALGM remains mostly auto/industrial with low CPO exposure, so today's flow-driven -5.7% (reversing June 8's +6.8% sector bounce) modestly de-froths the 69% YTD run but does not justify a rank change after yesterday's down move was already applied.",
+      "bull": "Sell-off without news improves entry on a name whose data-center current-sensing business quadrupled y/y; any optics/CPO power-monitoring content disclosure would be a genuine surprise to this list.",
+      "neutral": "Low CPO relevance keeps it appropriately deep in the table; price oscillation within a sector-wide whipsaw is noise for this page's thesis.",
+      "bear": "Crowding risk persists - still +69% YTD, GuruFocus flags overvaluation vs GF Value, and an insider sale at the highs - while CPO-specific catalysts are essentially absent.",
+      "primaryCatalyst": "Any disclosed content win in optical-module or CPO power delivery/sensing; otherwise data-center mix updates at earnings.",
+      "primaryRisk": "Multiple compression on auto-heavy revenue if the chip-sector de-rating extends, with no CPO catalyst to offset it."
+    }
+  ]
+}

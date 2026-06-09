@@ -1,0 +1,26 @@
+{
+  "symbol": "ROR.L",
+  "company": "Rotork",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance UK - Rotork maintains 2026 outlook after steady Q1 (data centre and water demand cited)", "url": "https://uk.finance.yahoo.com/news/rotork-maintains-2026-outlook-following-074320239.html"},
+    {"label": "Yahoo Finance - Rotork analyst rebalancing (BNP upgrade vs Barclays caution)", "url": "https://finance.yahoo.com/markets/stocks/articles/rotork-lse-ror-story-shifting-140516923.html"},
+    {"label": "Rotork investor relations - RNS announcements (no material releases since June 6)", "url": "https://www.rotork.com/en/investors/financial-information/rns-announcements"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No RNS or material news since June 6; today's -1.49% is drift, not a fundamental event. The strict latent-node case (actuators/flow control feeding coolant and water loops) is unchanged from yesterday's hold, and the stock remains un-rerated at -6.8% YTD, so residual alpha is intact but not improved by new evidence.",
+      "bull": "Q1 update confirmed data centre and water infrastructure projects are already supporting Chemical, Process & Industrial and Water & Power demand, validating the latent AI-infrastructure pathway before the market prices it. A negative YTD on an unchanged thesis keeps the entry asymmetric.",
+      "neutral": "Guidance for 2026 was merely reiterated and order intake edged lower on EMEA oil & gas softness; the AI/data-centre exposure is real but still a minority of mix, so the name drifts with UK industrials until a disclosed data-centre or liquid-cooling order quantifies it.",
+      "bear": "Oil & gas remains the dominant end market and its order softness could swamp data-centre growth; if the AI cooling pathway never becomes a disclosed revenue line, this stays a fairly valued flow-control industrial with no latent-node optionality, and Barclays-style caution on execution gains traction.",
+      "primaryCatalyst": "Half-year results / next trading update quantifying data-centre and water infrastructure order intake, or a disclosed cooling-loop actuation win.",
+      "primaryRisk": "Continued oil & gas order weakness in EMEA dragging group orders lower and overshadowing the nascent data-centre exposure."
+    }
+  ]
+}

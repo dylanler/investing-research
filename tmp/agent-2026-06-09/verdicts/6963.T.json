@@ -1,0 +1,66 @@
+{
+  "symbol": "6963.T",
+  "company": "ROHM",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Goldman Sachs upgraded ROHM to Buy from Neutral on June 8, nearly doubling its price target to JPY 6,500 from JPY 3,300, citing AI-server HVDC voltage migration and ROHM's raised FY30 AI/DC sales target (JPY 100B vs JPY 30B prior, of which SiC JPY 30B) plus an earlier-than-guided SiC breakeven (FY27 vs FY28). Stock followed through +8.87% on June 9 to JPY 5,242 (+130% YTD). Context just before the window: June 3 announcement that ROHM's 750V SiC MOSFET (SCT4013DLL) was adopted in a battery backup unit for AI servers using +/-400V HVDC architecture. Today's move is sell-side-recognition driven, not a new contract: thesis validated, hiddenness reduced.",
+  "sources": [
+    {"label": "Investing.com - Goldman Sachs upgrades Rohm on AI server growth outlook (PT JPY 6,500 from JPY 3,300)", "url": "https://in.investing.com/news/stock-market-news/goldman-sachs-upgrades-rohm-stock-rating-on-ai-server-growth-outlook-93CH-5444021"},
+    {"label": "ROHM press release 2026-06-03 - SiC MOSFET adopted in BBU for AI servers as HVDC architectures advance", "url": "https://www.rohm.com/news-detail?news-title=2026-06-03_news_sic-mosfet&defaultGroupId=false"},
+    {"label": "Kabushiki Shimbun - ROHM surges on reported expansion of shareholder returns", "url": "https://kabushiki.jp/news/732123"},
+    {"label": "Yahoo Finance Japan quote 6963.T", "url": "https://finance.yahoo.co.jp/quote/6963.T"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 42,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On a residual-alpha, crowding-sensitive list, a headline Goldman upgrade (PT to JPY 6,500) plus an 8.9% follow-through day on top of +130% YTD is a recognition event that consumes the remaining mispricing; no new passives/resistor-specific evidence arrived.",
+      "bull": "GS sees AI/DC sales beating even ROHM's raised JPY 100B FY30 target, and the HVDC migration lifts content per server across power and current-sense parts; PT of JPY 6,500 still sits ~24% above spot.",
+      "neutral": "The AI power thesis is now fully articulated by major sell-side; the stock can grind with estimates but the asymmetric, under-owned setup this page rewards is largely gone at +130% YTD.",
+      "bear": "SiC remains loss-making (~JPY 20B loss expected FY26); any AI-capex digestion or SiC pricing pressure hits a stock that has rerated on a 5-year-out target.",
+      "primaryCatalyst": "Q1 FY26 results showing AI/DC order momentum and faster-than-guided SiC loss reduction.",
+      "primaryRisk": "Post-upgrade crowding unwind; momentum reversal in Japan power-semi names after the GS-driven spike."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "On the network-centrality lens, the June 3 BBU design win for +/-400V HVDC AI servers and the GS-endorsed JPY 100B FY30 AI/DC target genuinely increase ROHM's directness to the data-center power node, offsetting the rerating; hold after yesterday's down move rather than whipsawing.",
+      "bull": "HVDC architecture adoption makes SiC/power semis a structural AI-server node, and ROHM now has a named design win plus a 3x raised internal AI/DC target.",
+      "neutral": "Directness is improving but ROHM is still a power supplier, not on the HBM/advanced-packaging/CPO critical path this page ranks highest; rank 85 already reflects that.",
+      "bear": "Power for AI servers is a contested node (Infineon, onsemi, Fuji Electric, Mitsubishi Electric); ROHM's edge is unproven at scale and SiC is still in losses.",
+      "primaryCatalyst": "Further named HVDC/BBU design wins or hyperscaler power-architecture awards confirming node centrality.",
+      "primaryRisk": "Competitors capture the HVDC AI-server power socket, leaving ROHM peripheral to the bottleneck map."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 96,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.75,
+      "rankRationale": "Nothing since June 6 makes ROHM CPO-relevant - the GS upgrade is about AI-server power/SiC - and the +8.9% spike on +130% YTD further worsens asymmetry on a CPO-focused actionable list; this reaffirms yesterday's removal call.",
+      "bull": "If the page's scope flexes toward AI data-center power, ROHM's HVDC BBU win and raised AI/DC target are real bottleneck-adjacent evidence.",
+      "neutral": "ROHM is a power-semi story; its rerating says nothing about co-packaged optics supply chains either way.",
+      "bear": "Holding a non-CPO name at rank 96 after a sell-side-driven 9% pop dilutes the list; SiC pricing and the auto cycle remain the dominant earnings drivers.",
+      "primaryCatalyst": "None on the CPO axis; only a scope change to this page would change the call.",
+      "primaryRisk": "Continued drift on a page where the company has no thesis fit."
+    },
+    {
+      "page": "companies",
+      "currentRank": 67,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "The board-level power thesis is now consensus: a doubled Goldman target, an 8.9% day and +130% YTD mean the scarce, unrecognized bottleneck exposure this alpha score rewards has been priced; the genuinely new information (GS upgrade) justifies moving again after yesterday's down.",
+      "bull": "AI-server PDN content is rising with the HVDC shift, ROHM has a named BBU SiC win, and GS models SiC breakeven a year ahead of guidance - fundamentals are improving, not just the multiple.",
+      "neutral": "Real power-delivery exposure, fully flagged by the street; expect performance to track estimate revisions rather than rerating from here.",
+      "bear": "FY26 operating profit guidance is thin (~JPY 5B on JPY 460B sales) and SiC still burns ~JPY 20B; a 130% YTD stock priced off FY30 targets has little cushion for execution slips.",
+      "primaryCatalyst": "Quarterly evidence that AI/DC revenue is tracking ahead of the JPY 100B FY30 path.",
+      "primaryRisk": "Valuation air pocket if AI-server power orders pause or SiC losses fail to halve as Goldman models."
+    }
+  ]
+}

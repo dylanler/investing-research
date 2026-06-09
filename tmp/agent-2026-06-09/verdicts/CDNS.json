@@ -1,0 +1,40 @@
+{
+  "symbol": "CDNS",
+  "company": "Cadence Design Systems",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: shares rallied ~4.8-5% to an all-time high (~$394) on an expanded Samsung Foundry collaboration delivering a fully certified, production-ready design platform (memory + interface IP) for Samsung's 2nd-gen 2nm process and 3D-IC AI chips; sell-side pile-on continued (KeyBanc $425, Berenberg $440, Wells Fargo $425, BofA $400 targets). June 9: presented at the 54th Nasdaq & Jefferies Investor Conference; stock gave back -1.7% intraday with no adverse news - looks like flow-driven consolidation after the June 1 Computex ChipStack Level-5 'autonomous AI design engineer' spike (+10.5%) and the June 8 Samsung pop.",
+  "sources": [
+    {"label": "TradingKey - CDNS moved up 5.04% on Jun 8 (Samsung Foundry 2nm/3D-IC platform)", "url": "https://www.tradingkey.com/news/market-movers/261953505-market-movers-cdns-20260608"},
+    {"label": "Yahoo Finance - Cadence cementing place in 2nm AI chip race with major chipmaker", "url": "https://finance.yahoo.com/sectors/technology/articles/cadence-design-cementing-place-2nm-135502496.html"},
+    {"label": "Seeking Alpha - CDNS at 54th Nasdaq & Jefferies Investor Conference (Jun 9)", "url": "https://seekingalpha.com/article/4913275-cadence-design-systems-inc-cdns-presents-at-54th-nasdaq-and-jefferies-investor-conference"},
+    {"label": "Simply Wall St - CDNS up 9.1% after autonomous ChipStack AI 'virtual engineer' (Computex)", "url": "https://simplywall.st/stocks/us/software/nasdaq-cdns/cadence-design-systems/news/cadence-design-systems-cdns-is-up-91-after-unveiling-autonom"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's hold already priced the June 8 Samsung 2nm pop; today adds only a -1.7% flow-driven giveback and a conference appearance, not new evidence. On this crowding-sensitive alpha lens the all-time high plus four PT raises into $400-440 mark rising discovery, so a small negative drift without a rank move is the disciplined call.",
+      "bull": "Samsung 2nm certified platform plus Level-5 agentic AI EDA deepen Cadence's per-chip content as chiplet/3D-IC complexity explodes; record backlog and raised FY guidance derisk numbers.",
+      "neutral": "Real fundamental wins, but at $109B and ~38% above the start of May, the bottleneck is fully discovered; residual alpha now depends on agentic-EDA monetization exceeding already-raised estimates.",
+      "bear": "Post-Computex/Samsung rerating leaves the stock priced for flawless execution; any AI-capex digestion or duopoly pricing pushback (Synopsys) compresses the multiple from all-time highs.",
+      "primaryCatalyst": "Q2 earnings showing ChipStack/agentic AI attach and Samsung 2nm platform converting backlog into upside revenue",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any AI design-start slowdown or guidance that merely meets raised expectations"
+    },
+    {
+      "page": "companies",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On this broad EDA/test/timing bucket the Samsung 2nm platform and autonomous-design push reinforce the design-validation bottleneck thesis, but that news landed June 8 and was held then; today's -1.7% drift changes nothing. Note the page thesis ('negative ytd reset') is stale - YTD is +24.9%.",
+      "bull": "Certified 2nm/3D-IC platform with Samsung plus NVIDIA-powered autonomous verification entrench Cadence at the chokepoint of every advanced AI chip design.",
+      "neutral": "Bottleneck exposure is intact and strengthening, but it is a $109B duopoly name everyone already owns; bucket-level ranking should not chase a fully-told story.",
+      "bear": "EDA spend is downstream of AI design-start velocity; a pause in custom-silicon programs or China export friction would hit bookings while the stock sits at record highs.",
+      "primaryCatalyst": "Further foundry certifications (TSMC A16, Intel 14A) and Q2 backlog growth validating the agentic-EDA upgrade cycle",
+      "primaryRisk": "Valuation at all-time highs with sell-side targets clustered just above spot, leaving little cushion for execution wobble"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "symbol": "BESI.AS",
+  "company": "BE Semiconductor Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Shares ground higher anyway (+3.5% Jun 8, +2.2% Jun 9 to EUR 287.1, ~+93% YTD), extending a re-rating built on the late-April Q1 print (orders +104.5% YoY to EUR 269.7M, hybrid bonding unit orders above the prior 2024 peak, customer base at 20, Q2 guide +30-40% q/q) and the still-unresolved March takeover-interest reports (Lam Research and largest-shareholder Applied Materials, Morgan Stanley advising, talks reportedly paused on US-EU geopolitics). Stock now trades above the ~EUR 252.55 22-analyst consensus price target. PCIM 2026 (Jun 9-11) and 3D & Systems Summit (Jun 17-19) are near-term event flow, not yet news.",
+  "sources": [
+    {"label": "Yahoo Finance BESI.AS quote", "url": "https://finance.yahoo.com/quote/BESI.AS/"},
+    {"label": "Investing.com - Besi Q1 2026 earnings call transcript", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-be-semiconductor-q1-2026-shows-robust-growth-93CH-4633326"},
+    {"label": "Bits&Chips - Besi sees orders double on hybrid-bonding demand", "url": "https://bits-chips.com/article/besi-sees-orders-double-on-hybrid-bonding-demand/"},
+    {"label": "TrendForce - Besi reportedly draws takeover interest (Lam, Applied Materials)", "url": "https://www.trendforce.com/news/2026/03/13/news-hybrid-bonding-leader-besi-reportedly-draws-takeover-interest-lam-applied-materials-rumored/"},
+    {"label": "MarketScreener - BESI analyst consensus and price targets", "url": "https://www.marketscreener.com/quote/stock/BE-SEMICONDUCTOR-INDUSTRI-6318/consensus/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a latent/hidden-alpha lens the premise is gone: BESI trades above its EUR 252 consensus target after a two-session no-news grind (+5.8%) on top of +93% YTD, with the takeover story mainstream since March. Residual latency keeps eroding without new fundamentals.",
+      "bull": "Hybrid bonding adoption is broadening (20 customers, units above the 2024 peak) and a Lam/AMAT bid would crystallize a control premium overnight.",
+      "neutral": "Thesis intact but fully discovered; price now leads the analyst community, so further upside needs the EUR 400M backlog to convert into beat-and-raise prints.",
+      "bear": "A +93% YTD, above-target stock priced partly on paused M&A talks has classic de-rating asymmetry if the bid never materializes or HVM hybrid-bonding insertions slip.",
+      "primaryCatalyst": "Revived Lam/Applied Materials takeover talks or a hybrid-bonding HVM order announcement (3D & Systems Summit, Jun 17-19).",
+      "primaryRisk": "M&A speculation unwinding plus advanced-packaging order digestion after the Q1 spike."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's hold already discounted the discovery problem; nothing genuinely new since June 6, and today's +2.2% drift is not thesis-changing. HBM/chiplet packaging exposure still earns a top-10 slot even if the under-the-radar angle has faded at $24.8B.",
+      "bull": "Order book (+104.5% YoY, ~EUR 400M backlog) and 30-40% q/q Q2 revenue guide show the AI packaging ramp is accelerating, not peaking.",
+      "neutral": "Picks-and-shovels exposure is real but visibility is no longer 'small' - 22 analysts, takeover headlines, and a price above consensus target.",
+      "bear": "Six-month lead times mean any 2H order air-pocket or hybrid-bonding insertion delay hits a stock priced for flawless execution.",
+      "primaryCatalyst": "Q2 results in late July confirming the 30-40% sequential revenue ramp and continued hybrid-bonding order strength.",
+      "primaryRisk": "Order digestion or a customer pushing out hybrid-bonding HVM timing into a near-doubled YTD stock."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO/photonic-integration lens the thesis is actually firming - Q1 explicitly cited 2.5D AI photonics demand as an order driver - and no new evidence since June 6 warrants moving again after yesterday's hold.",
+      "bull": "Hybrid bonding is a direct enabler of co-packaged optics and chiplet stacks; photonics was a named order driver in Q1, validating this page's specific angle.",
+      "neutral": "Photonics is still a minority of mix; the CPO option is real but the stock's price already embeds the broader advanced-packaging story.",
+      "bear": "If CPO insertion timelines slip to 2027+, the photonics leg adds nothing near-term while valuation rests on a paused takeover narrative.",
+      "primaryCatalyst": "CPO/photonics design-win or tool-of-record disclosures around the 3D & Systems Summit (Jun 17-19) or Q2 results.",
+      "primaryRisk": "Advanced-packaging cycle digestion swamping the photonics optionality."
+    }
+  ]
+}

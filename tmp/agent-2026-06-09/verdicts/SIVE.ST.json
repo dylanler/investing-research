@@ -1,0 +1,43 @@
+{
+  "symbol": "SIVE.ST",
+  "company": "Sivers Semiconductors",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Stock fell -14.4% today (now ~30% off the June 3 record high) on flow, not thesis breakage: wireless-unit head Harish Krishnaswamy liquidated his entire 1.39M-share stake (~71 SEK) and a Swedish institution also fully exited; FY2025 net loss was restated wider to 222.6 MSEK (from 186.5 MSEK) under PCAOB audit standards ahead of the June 15 AGM/Nasdaq listing vote. Counterintuitively, the actual fresh fundamental news today was positive: an $8.2M ALL.SPACE production order for Ka-band beamforming ICs (2027 delivery) - though that is SATCOM/defense, not the CPO laser thesis. The June 2 GlobalFoundries silicon-photonics/SCALE laser-array partnership (the CPO thesis anchor) remains intact; Q1 project pipeline was reported +77% to $799M.",
+  "sources": [
+    {
+      "label": "Ad-hoc-news: Executive and fund offload entire stakes as stock retreats from record high",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sivers-semiconductors-executive-and-fund-offload-entire-stakes-as-stock/69484531"
+    },
+    {
+      "label": "Ad-hoc-news: 77% pipeline surge meets revised 222.6 MSEK loss ahead of Nasdaq vote",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sivers-semiconductors-a-77-percent-pipeline-surge-meets-a-revised-222-6/69508384"
+    },
+    {
+      "label": "PR Newswire: ALL.SPACE awards $8.2M production order to Sivers (Jun 9, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/allspace-awards-8-2m-production-order-to-sivers-semiconductors-for-ka-band-beamforming-ics-302794824.html"
+    },
+    {
+      "label": "Semiconductor Today: Sivers and GlobalFoundries silicon photonics for AI infrastructure (Jun 2, 2026)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/SIVERS-GF-020626.shtml"
+    },
+    {
+      "label": "Sivers IR: directed share issue ~125 MSEK (Apr 16, 2026 - pre-existing, not new)",
+      "url": "https://www.sivers-semiconductors.com/press/sivers-semiconductors-has-resolved-on-a-directed-share-issue-of-shares-amounting-to-approximately-125-msek/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already cut the name for post-rerating crowding; today's -14.4% is flow-driven (insider/fund full exits, restated loss, pre-AGM nerves) with the GF CPO laser thesis intact, which partially restores asymmetry and offsets the fresh governance flags - no second consecutive down is warranted, but the insider exit and PCAOB restatement justify a small negative drift.",
+      "bull": "The GlobalFoundries SCALE/CPO laser-array design-in is unchanged and a $8.2M ALL.SPACE production order landed today; a 30% drawdown from the June 3 peak on flow rather than fundamentals re-opens some entry asymmetry into the June 15 Nasdaq listing vote.",
+      "neutral": "After +1687% YTD the name is no longer hidden at $2.46B mcap; the sell-off de-crowds it somewhat but most of the residual alpha this list rewards has already been harvested, and the CPO revenue is still pre-commercial reference-design stage.",
+      "bear": "A division head liquidating his entire 1.39M-share stake plus a restated FY25 net loss (222.6 MSEK) under PCAOB scrutiny ahead of a US listing are classic late-cycle distribution signals; if the Nasdaq vote or further insider filings sour sentiment, a +1687% YTD chart has a long way to fall.",
+      "primaryCatalyst": "June 15 AGM/Nasdaq listing vote and first commercial design wins flowing from the GlobalFoundries SCALE/CPO laser-array partnership.",
+      "primaryRisk": "Continued insider/institutional distribution and governance overhang (PCAOB restatement) deflating a parabolic +1687% YTD rerating before CPO revenue materializes."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "BEKB.BR",
+  "company": "Bekaert",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6. CEO succession (Olivier Biebuyck replacing Yves Kerstens) was announced May 8 and took effect June 1 - already in the price. June 5 share buyback update (47,727 shares bought May 28-Jun 3, treasury at 4.13% of shares outstanding) is routine. Today's -1.69% move is ordinary drift with no identifiable catalyst.",
+  "sources": [
+    {"label": "Bekaert - CEO succession announcement (GlobeNewswire, May 8 2026, effective Jun 1)", "url": "https://www.globenewswire.com/news-release/2026/05/08/3290813/0/en/Bekaert-announces-CEO-succession.html"},
+    {"label": "Bekaert - Update on Share Buyback Program and Liquidity Agreement (Jun 5 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/05/3307197/0/en/Bekaert-Update-on-the-Share-Buyback-Program-and-Liquidity-Agreement.html"},
+    {"label": "NV Bekaert SA (BEKB.BR) quote - Yahoo Finance", "url": "https://finance.yahoo.com/quote/BEKB.BR/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "No new AI-chain evidence since June 6; the CEO change (effective Jun 1) and routine buyback prints don't touch the latent steel-wire/reinforcement-to-electrification pathway. Modest YTD (+5.3%) and a small -1.7% day mean the latent-node setup is unchanged - hold, matching yesterday's verdict.",
+      "bull": "Under-owned EUR 2.3B Belgian industrial with steel wire, ropes and reinforcement exposure that could quietly feed datacenter construction, grid electrification and enclosure demand; ongoing buyback (4.13% treasury) shrinks the float while the market ignores the AI-adjacent pathway.",
+      "neutral": "A diversified rubber-reinforcement and steel-wire business whose AI linkage remains speculative; no contract, capacity or guidance datapoint since June 6 confirms or refutes the latent thesis, so the score should simply carry.",
+      "bear": "The AI pathway is thin - core earnings are tied to tire reinforcement and cyclical construction, not compute; a new CEO transition adds execution uncertainty, and analyst coverage is lukewarm (neutral consensus, ~EUR 44 average target near spot).",
+      "primaryCatalyst": "First strategy communication or guidance from new CEO Olivier Biebuyck, or a concrete datacenter/grid-infrastructure contract win that hardens the electrification pathway (H1 results late July).",
+      "primaryRisk": "Latent AI linkage never materializes into orders while cyclical tire/construction end-markets soften, leaving a low-growth industrial with no AI optionality premium."
+    }
+  ]
+}

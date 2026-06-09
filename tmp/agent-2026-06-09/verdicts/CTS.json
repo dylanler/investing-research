@@ -1,0 +1,52 @@
+{
+  "symbol": "CTS",
+  "company": "CTS Corporation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Stock printed a fresh 52-week high intraday on June 9 ($67.82) on no new catalyst; last fundamentals were the late-April Q1 beat ($139M sales +11% y/y, EPS $0.62 vs $0.52 est., FY26 guide $2.35-$2.45). Next scheduled item is a presentation at the East Coast IDEAS Investor Conference in New York on June 11 (9:55 AM EDT webcast). Small $0.04 dividend payable July 24 (record June 26) declared mid-May.",
+  "sources": [
+    {
+      "label": "Markets Daily - CTS sets new 12-month high (Jun 9, 2026)",
+      "url": "https://www.themarketsdaily.com/2026/06/09/cts-nysects-sets-new-12-month-high-whats-next.html"
+    },
+    {
+      "label": "StockTitan - CTS schedules June 11 webcast from East Coast IDEAS conference",
+      "url": "https://www.stocktitan.net/news/CTS/cts-corporation-to-present-at-the-16th-annual-east-coast-ideas-gwkjncfqvo3b.html"
+    },
+    {
+      "label": "GlobeNewswire - CTS to present at 16th Annual East Coast IDEAS Investor Conference",
+      "url": "https://www.globenewswire.com/news-release/2026/05/26/3301516/0/en/CTS-Corporation-to-Present-at-the-16th-Annual-East-Coast-IDEAS-Investor-Conference.html"
+    },
+    {
+      "label": "SEC - CTS Corp Q1 2026 8-K exhibit (earnings release)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000026058/000119312526189074/cts-ex99_1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at rank 2 per yesterday's verdict: today's +0.54% drift and a no-news 52-week high don't change the setup, but the small negative delta flags continued rerating creep (+49.5% YTD) without fresh fundamental evidence, which slowly erodes residual alpha on this crowding-sensitive list.",
+      "bull": "Direct current-sensing and data-center power-sensing exposure at $1.8B cap remains genuinely under-covered; Q1 diversified end-market sales +18% confirms the AI-adjacent mix shift, and the June 11 IDEAS conference could surface new data-center detail.",
+      "neutral": "No new contracts, guidance, or analyst moves since June 6; the stock grinds to new highs on flow, leaving the thesis intact but the entry less asymmetric than when the rank was set.",
+      "bear": "+49.5% YTD and a fresh 52-week high without new evidence means much of the hidden-gem rerating has already happened; transportation (legacy auto) is still the bulk of revenue and growing only ~3%, capping the AI narrative.",
+      "primaryCatalyst": "June 11 East Coast IDEAS investor presentation - any quantification of data-center/AI power-sensing pipeline or design wins.",
+      "primaryRisk": "Multiple compression if the small-cap AI-passives trade unwinds; the no-news new-high tape is the classic post-rerating chase this list penalizes."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at rank 12: the latent-node pathway (edge sensing, thermal monitoring, industrial automation) has no new evidence for or against since June 6, and a +0.54% day is pure drift on a centrality-style screen that is less sensitive to crowding than the alpha list.",
+      "bull": "Q1 diversified sales +18% y/y supports the latent industrial/edge-sensing pathway, and the company's sensors/filters portfolio keeps optionality into thermal monitoring as edge-AI deployments scale.",
+      "neutral": "Nothing since June 6 alters the strict-screen evidence level; node centrality is unchanged and the June 11 conference is informational, not a contract event.",
+      "bear": "The pathway remains inferential rather than contracted - no disclosed edge-AI or thermal-monitoring design wins - and a 49.5% YTD move prices in a pathway that hasn't yet produced confirming evidence.",
+      "primaryCatalyst": "Disclosure of concrete edge-sensing/thermal-monitoring or data-center design wins, possibly at the June 11 investor presentation or Q2 results in late July.",
+      "primaryRisk": "Pathway never converts from plausible to evidenced, leaving the stock exposed as an over-extended industrial sensor name rather than an AI node."
+    }
+  ]
+}

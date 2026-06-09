@@ -1,0 +1,42 @@
+{
+  "symbol": "2317.TW",
+  "company": "Hon Hai Precision (Foxconn)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific fundamental news inside the Jun 6-9 window; today's +2.97% is flow-driven follow-through on the broad Taiwan AI-hardware rally (TAIEX record above 45,000 on Jensen Huang's 'AI market 100x larger' remarks) and on the record May revenue print released Jun 5 (NT$859.4B, +~34-40% YoY; AI servers now the largest revenue source, FY26 target raised to NT$11T, AI rack shipments guided to more than double). JPMorgan raised its price target on stronger 2026-27 AI server growth; sell-side is near-unanimous Buy (19/20), i.e., increasingly crowded. FII subsidiary approved its AGM dividend Jun 9 (immaterial to parent thesis).",
+  "sources": [
+    {"label": "DigiTimes - Foxconn posts record May revenue as AI rack demand fuels growth (Jun 5, 2026)", "url": "https://www.digitimes.com/news/a20260605PD239/foxconn-revenue-growth-2026-demand.html"},
+    {"label": "GuruFocus - Foxconn reports 39.57% revenue surge in May amid strong AI demand", "url": "https://www.gurufocus.com/news/8902970/foxconn-fxcof-reports-3957-revenue-surge-in-may-amid-strong-ai-demand"},
+    {"label": "BigGo Finance - Taiwan stocks surge past 45,000 to record as Huang effect and AI hardware frenzy converge", "url": "https://finance.biggo.com/news/yveKgZ4BX0tZvRTvH4sf"},
+    {"label": "Investing.com - JPMorgan raises Hon Hai price target on stronger AI server growth outlook", "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-hon-hai-price-target-on-stronger-ai-server-growth-outlook-93CH-4265150"},
+    {"label": "Hon Hai press release - strategic collaboration with Intel on next-gen AI rack, edge AI, physical AI (Jun 4, 2026)", "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/2052"},
+    {"label": "GlobeNewswire - Bull and Foxconn partner to scale Europe's AI infrastructure manufacturing (Jun 1, 2026)", "url": "https://www.globenewswire.com/news-release/2026/06/01/3304043/0/en/bull-and-foxconn-partner-to-scale-europe-s-manufacturing-capabilities-for-artificial-intelligence-infrastructures.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On a residual-alpha lens nothing genuinely new has arrived since yesterday's hold: the record May print (Jun 5) was already in the price and in the Jun 8 verdict, and today's +2.97% is sector-rally flow that nudges crowding up (near-unanimous Buy, JPM PT raise) without adding bottleneck scarcity. Rank 18 in the secondary bucket still fits; small negative drift for rerating without fresh evidence.",
+      "bull": "AI racks already ~40% of Cloud & Networking and the largest revenue line, with rack shipments guided to more than double in 2026 - the Vera Rubin assembly bottleneck thesis is being confirmed monthly.",
+      "neutral": "A $126B mega-cap with 19/20 sell-side Buys and a +19.6% YTD is recognized AI exposure; residual mispricing is modest and the stock now trades on execution of guidance already given.",
+      "bear": "Crowded consensus long into a flow-driven Taiwan AI melt-up; any GB/VR rack schedule slip, margin dilution from low-margin rack pass-through, or iPhone softness hits a stock priced for clean execution.",
+      "primaryCatalyst": "Monthly revenue prints and Q2 results confirming AI rack shipments on track to more than double in 2026.",
+      "primaryRisk": "Rack shipment timing slips or assembly-margin compression while positioning is at consensus-max."
+    },
+    {
+      "page": "companies",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On the deployment/systems-integration lens the thesis got incremental confirmation around the window edge - Bull (Europe AI infra manufacturing, Jun 1) and Intel (next-gen AI rack platforms, Jun 4) partnerships plus the record May print - but none of it is new versus yesterday's hold, so rank 54 stands with mild positive drift.",
+      "bull": "Foxconn is becoming the default physical-deployment layer for AI data centers across NVIDIA, Intel, and European builds, with AI servers overtaking smartphones as the biggest revenue source.",
+      "neutral": "Deployment scale is real but well-flagged; at rank 54 the page already credits rack integration capacity against mega-cap size and a 19.6% YTD rerating.",
+      "bear": "Systems integration is the most replicable, lowest-margin layer of the AI stack (Quanta, Wistron, Pegatron all scaling), so revenue records can coexist with thin economics.",
+      "primaryCatalyst": "Execution proof on the Bull Europe buildout and Intel AI-rack platform turning partnerships into booked capacity.",
+      "primaryRisk": "Margin dilution and competitor share gains in AI rack assembly eroding the deployment-bottleneck premium."
+    }
+  ]
+}

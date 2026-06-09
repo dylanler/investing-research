@@ -1,0 +1,26 @@
+{
+  "symbol": "300024.SZ",
+  "company": "Siasun Robot & Automation",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance quote - 300024.SZ", "url": "https://finance.yahoo.com/quote/300024.SZ/"},
+    {"label": "Sina Finance - 300024 company announcements (latest filings: routine auditor reappointment, no June 6-9 material items)", "url": "http://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300024.phtml"},
+    {"label": "Eastmoney Caifuhao - Feb 2026 JAC/Lingyun Giens bid wins (pre-window, last notable contract news)", "url": "https://caifuhao.eastmoney.com/news/20260302135434571549390"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 6 and the stock was flat today (0.0%), so there is nothing new to act on beyond yesterday's hold; the rank already improved to #12 recently and chasing further without fresh commercialization evidence would violate rerating discipline. The -14.6% YTD de-rating with the China-robotics-scale thesis intact keeps asymmetry mildly favorable, justifying a small positive drift rather than a move.",
+      "bull": "A $3.7B pure-play Builder with state-backed positioning in China's industrial/humanoid robotics buildout, trading -14.6% YTD - de-rated, under-owned by foreign investors, and still landing auto-sector bid wins (JAC, Lingyun Giens).",
+      "neutral": "The cleaner read-through remains China robotics scale rather than a single humanoid product; with no new orders or guidance since June 6 and a flat tape, the setup is unchanged from yesterday.",
+      "bear": "TTM net margin is roughly -11% with sell-side sentiment at strong-sell; without a step-change in order flow the name stays a chronically unprofitable SOE-adjacent integrator, and humanoid hype cycles can de-rate it further.",
+      "primaryCatalyst": "A sizeable disclosed humanoid or automotive automation order book win, or H1 2026 results showing margin inflection.",
+      "primaryRisk": "Continued losses and weak order momentum confirming the strong-sell consensus, with humanoid-theme rotation pulling flows to higher-purity names."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "NSSC",
+  "company": "NAPCO Security Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "StockTitan NSSC news feed (latest PR remains May 4 FQ3 results; no June 5-9 items)", "url": "https://www.stocktitan.net/news/NSSC/"},
+    {"label": "NAPCO investor relations news releases", "url": "https://investor.napcosecurity.com/news-releases"},
+    {"label": "Yahoo Finance NSSC quote/news", "url": "https://finance.yahoo.com/quote/NSSC/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news since June 6 and a -0.41% day move is pure noise; yesterday's verdict already pushed the name down to reconcile the adjusted-score rank gap, and nothing new on physical-security demand for compute campuses justifies moving again.",
+      "bull": "Recurring service revenue grew 15.4% YoY at a 90%+ gross margin (FQ3, May 4) and the -15.7% YTD drawdown has de-rated the name while the access-control/locking franchise is intact, improving asymmetry if data-center physical-security spend ever becomes a visible revenue line.",
+      "neutral": "Solid mid-cap security business compounding recurring revenue, but the AI-compute linkage remains speculative adjacency with no disclosed data-center campus wins; rank 57 on a strict latent-nodes screen fairly reflects low chain-criticality.",
+      "bear": "Equipment sales growth is single-digit and the AI thesis is a narrative stretch; if hardware demand softens or alarm-radio recurring growth decelerates, the stock de-rates further with no AI optionality to backstop it.",
+      "primaryCatalyst": "FQ4/FY2026 results (late August) showing recurring-revenue acceleration or any named data-center / high-security campus access-control win.",
+      "primaryRisk": "Continued equipment-segment softness and zero tangible AI-infrastructure revenue, leaving the name exposed as a low-relevance adjacency on a strict screen."
+    }
+  ]
+}

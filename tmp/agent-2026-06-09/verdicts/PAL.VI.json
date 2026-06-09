@@ -1,0 +1,26 @@
+{
+  "symbol": "PAL.VI",
+  "company": "Palfinger",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Palfinger news hub (June 2026 - only blog/trade-fair items, no material releases since Jun 6)", "url": "https://www.palfinger.com/worldwide/en/insights-news-and-events/news.html"},
+    {"label": "Stockanalysis.com PAL Vienna quote/analyst snapshot (Strong Buy, EUR 44.30 avg target - unchanged)", "url": "https://stockanalysis.com/quote/vie/PAL/"},
+    {"label": "Yahoo Finance PAL.VI quote", "url": "https://finance.yahoo.com/quote/PAL.VI/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down move already reconciled the displayed rank with the adjusted score (76 vs 62), and since June 6 there is no new contract, guidance, or analyst catalyst; today's -0.75% drift on a -1.9% YTD base neither crowds nor de-rates the latent-AI-node setup, so hold at 78.",
+      "bull": "Underowned EUR1.5B Vienna listing with a Strong Buy consensus and EUR 44.30 average target (~34% upside); lifting/handling systems are a plausible picks-and-shovels node for modular data-center construction and maintenance robotics if that latent pathway activates.",
+      "neutral": "The AI linkage remains speculative and unproven by any disclosed AI-adjacent order; the stock is a well-run crane maker trading on cyclical capital-goods fundamentals, with Q1 strength and ATX re-inclusion already known and priced.",
+      "bear": "European truck-mounted crane demand is hostage to construction and freight cycles plus unpredictable US tariff policy; if the latent-AI pathway never materializes, the name has no claim to an AI-bottleneck list and the score erodes on evidence-decay alone.",
+      "primaryCatalyst": "A disclosed order tying Palfinger lifting/handling systems to data-center module logistics or infrastructure buildout, or H1 2026 results (next scheduled report) confirming margin momentum.",
+      "primaryRisk": "Cyclical capital-goods downturn or tariff escalation hits orders while the speculative AI-robotics pathway shows no evidence, leaving the strict-screen thesis unsupported."
+    }
+  ]
+}

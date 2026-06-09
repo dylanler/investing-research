@@ -1,0 +1,40 @@
+{
+  "symbol": "MKSI",
+  "company": "MKS Instruments (MKS Inc.)",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new fundamentals since June 6. Stock flat today (0.0%). Housekeeping items only: CAO Michelle McCarthy sold 2,434 shares on June 5; raised $0.25 quarterly dividend payable June 12 (declared earlier); Malaysia ~500k sq ft supercenter opening this month (previously announced). Backdrop unchanged from the Q1 2026 beat/raise (EPS $2.30 vs $2.04 est.) and CEO's JPMorgan-conference comment prepping for $165-180B WFE in 2027. Consensus Buy, avg target ~$360 vs ~$312 price after +85% YTD / ~242% 1-year run.",
+  "sources": [
+    {"label": "StockAnalysis - MKSI analyst forecast and consensus target", "url": "https://stockanalysis.com/stocks/mksi/forecast/"},
+    {"label": "TIKR - MKS Q1 2026 beat and JPMorgan conference WFE 2027 commentary", "url": "https://www.tikr.com/blog/mks-inc-beat-q1-2026-estimates-what-management-revealed-at-jpmorgan-may-change-how-investors-see-the-stock"},
+    {"label": "GuruFocus - CAO insider sale June 5, 2026", "url": "https://www.gurufocus.com/news/8905658/insider-sell-alert-michelle-mccarthy-sells-shares-of-mks-inc-mksi"},
+    {"label": "Simply Wall St - valuation check after multi-period share price gains", "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mksi/mks/news/assessing-whether-mks-instruments-mksi-looks-overvalued-afte-1"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 30,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "The page's premise is 'less loved'; after +85% YTD, ~242% 1-year, a consensus Buy and ~$360 average target, MKSI is discovered, not latent - and there is zero new fundamental evidence since June 6 to offset the rerating. Yesterday's up-move was a mechanical score reconciliation, so a modest crowding-discipline downgrade is warranted today.",
+      "bull": "Q1 beat/raise plus management prepping for $165-180B WFE in 2027 and a new Malaysia supercenter mean earnings power is still being revised up; deleveraging continues.",
+      "neutral": "Fundamentals are intact but fully narrated; at ~13% to consensus target the name now trades like a recognized semicap quality story, not a hidden bottleneck.",
+      "bear": "Post-rerating chase into a cyclical, levered semicap supplier; any 2027 WFE digestion or export-control tightening hits both estimates and the multiple from an elevated base.",
+      "primaryCatalyst": "Semicap order acceleration into the 2027 $165-180B WFE cycle; continued Atotech-related deleveraging.",
+      "primaryRisk": "Crowding after the ~85% YTD rerating - residual alpha is largely paid out; leverage amplifies any cycle wobble."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the WFE-exposure lens the thesis is intact and marginally better supported: management's $165-180B 2027 WFE framing and the Malaysia capacity ramp confirm leverage to AI fab/HBM capex, but nothing since June 6 is genuinely new, so hold per yesterday's verdict with small positive drift.",
+      "bull": "Subsystems content across deposition/etch plus advanced packaging gives broad participation in AI-driven 300mm and HBM capacity additions; Malaysia supercenter de-risks delivery into the upcycle.",
+      "neutral": "Order timing and quarterly lumpiness keep the stock range-bound near $312 until Q3 guidance ($1.08B rev, $2.40 EPS) is tested; flat tape today reflects no incremental information.",
+      "bear": "Export-control escalation or a pause in memory/foundry capex pushes the 2027 WFE number toward the low end and exposes the leverage-heavy balance sheet.",
+      "primaryCatalyst": "2027 WFE budget confirmations from leading-edge foundry and HBM makers; Q3 2026 guide execution.",
+      "primaryRisk": "Export-control changes or WFE order slippage delaying the assumed 2027 spend wave."
+    }
+  ]
+}

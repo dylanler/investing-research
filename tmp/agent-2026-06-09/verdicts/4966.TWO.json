@@ -1,0 +1,27 @@
+{
+  "symbol": "4966.TWO",
+  "company": "Parade Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 monthly revenue released: NT$1.307B, +3.03% MoM and +1.15% YoY (first modest YoY uptick), but Jan-May cumulative revenue still -2.9% YoY. Consumer/PC-centric interface IC demand remains soft per Q1 call and Morgan Stanley's gross-margin-miss note; Q2 guide of US$127-141M (GM 40-44%) unchanged. No new contracts, design wins, M&A, or capacity news. Today's +4.2% move appears flow-driven (TPEx tech rally), not fundamental.",
+  "sources": [
+    {"label": "Yahoo Taiwan - 4966.TWO monthly revenue table", "url": "https://tw.stock.yahoo.com/quote/4966.TWO/revenue"},
+    {"label": "SinoTrade - Parade-KY Q1 flat, Q2 revenue guided US$127-141M, GM 40-44%", "url": "https://www.sinotrade.com.tw/richclub/hotstock/%E8%AD%9C%E7%91%9E-KY-4966-%E5%81%9A%E4%BB%80%E9%BA%BC-%E6%B3%95%E8%AA%AA%E9%87%8D%E9%BB%9E%E6%9C%89%E5%93%AA%E4%BA%9B-Q1%E7%87%9F%E6%94%B6%E6%8C%81%E5%B9%B3-%E6%AF%9B%E5%88%A9%E7%8E%87%E6%89%BF%E5%A3%93-Q2%E7%87%9F%E6%94%B6%E7%9C%8B%E5%A5%BD%E5%9B%9E%E5%8D%87%E8%87%B31-27-1-41%E5%84%84%E7%BE%8E%E5%85%83%E4%B9%8B%E9%96%93-%E6%AF%9B%E5%88%A9%E7%8E%87%E7%82%BA40-%E8%87%B344-%E5%8D%80%E9%96%93-%E8%82%A1%E5%B8%82%E8%A9%B1%E9%A1%8C-69e88f909323d90b12e4153f"},
+    {"label": "Vocus - Morgan Stanley flags Q1 gross margin miss, weak consumer demand", "url": "https://vocus.cc/article/69eab454fd8978000122e81d"},
+    {"label": "Yahoo Finance quote 4966.TWO", "url": "https://finance.yahoo.com/quote/4966.TWO/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already cut it 10 ranks for indirect AI exposure after the YTD run; today's +4.2% came on flow, not fundamentals, and the flat May revenue print (-2.9% YoY cumulative) neither strengthens nor breaks the selective-exposure thesis, so rank 39 stands with mild negative drift.",
+      "bull": "PCIe/USB4 retimer and high-speed interface content gives genuine optionality on AI server and edge-device attach, and May revenue turning slightly positive YoY hints the consumer trough is in.",
+      "neutral": "Business remains dominated by PC/display Tcon and touch ICs with Q2 guided roughly flat (US$127-141M, GM 40-44%); AI-adjacent revenue is too small to make Parade a bottleneck name, justifying its low-30s/high-30s rank.",
+      "bear": "Consumer interface demand stays soft, gross margin keeps compressing (MS flagged the Q1 miss), and the +19% YTD rerating on flow leaves the stock exposed if TPEx momentum reverses with no AI catalyst to backstop it.",
+      "primaryCatalyst": "Evidence of meaningful PCIe Gen6 retimer or AI-server interface design wins, or June/Q2 revenue beating the US$127-141M guide.",
+      "primaryRisk": "Prolonged consumer/PC weakness and margin compression while the AI narrative fails to translate into revenue, unwinding the flow-driven rerating."
+    }
+  ]
+}

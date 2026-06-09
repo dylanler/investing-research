@@ -1,0 +1,40 @@
+{
+  "symbol": "6981.T",
+  "company": "Murata Manufacturing",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's +11.3% move to JPY 9,692 is a flow-driven rebound that almost exactly recoups the June 5-8 tech-sector selloff (stock fell ~6% on June 5 to ~JPY 9,695, then to JPY 8,711 by June 8) - a round trip back to the June 5 level, not a fundamental rerating. Checked candidate catalysts and ruled them out as new: Morgan Stanley's Overweight upgrade dates to Nov 2025; Goldman's 'MLCC supercycle to 2030 / pricing power via platform iteration' note is May 27, 2026; the 15-35% AI-server/auto MLCC price hikes took effect April 1; FY3/27 OP guidance of +34.8% was given April 30.",
+  "sources": [
+    {"label": "Meyka - Murata falls 6% on weak tech sector, June 5 2026", "url": "https://meyka.com/blog/murata-manufacturing-falls-6-on-weak-tech-sector-june-05-0506/"},
+    {"label": "BigGo Finance - Goldman Sachs: AI MLCC supercycle could extend to 2030 (May 27, 2026)", "url": "https://finance.biggo.com/news/KCJLaZ4BNl__-4_GHdDp"},
+    {"label": "Investing.com - Morgan Stanley upgrades Murata (dated Nov 25, 2025 - ruled out as new)", "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-downgrades-nvidia-supplier-ibiden-upgrades-murata-manufacturing-4378615"},
+    {"label": "Yahoo Finance quote 6981.T", "url": "https://finance.yahoo.com/quote/6981.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 62,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, an +11.3% single-day pop on zero new fundamentals erases the improved entry asymmetry that briefly existed after the June 5-8 selloff; the whipsaw itself is evidence of crowded, flow-dominated ownership at +191% YTD.",
+      "bull": "Murata is a genuine AI-PDN bottleneck: 40%+ MLCC share, 15-35% price hikes stuck since April 1, lead times stretched to ~20 weeks, and high-end capacity cannot expand before Q4 2026 - pricing power is real and persistent.",
+      "neutral": "Thesis intact but fully recognized; the stock round-tripped to its June 5 level, so neither the selloff discount nor today's bounce changes the fundamental setup - it remains a crowded benchmark name, not residual alpha.",
+      "bear": "$98B cap, +191% YTD, and 11% no-news daily swings imply momentum/passive ownership; any AI-capex digestion or MLCC pricing rollover in consumer/auto cyclicality compresses the multiple hard.",
+      "primaryCatalyst": "Q1 FY3/27 results (late July) confirming MLCC price-hike flow-through and AI power-module ramp toward the JPY50B FY26 target.",
+      "primaryRisk": "Crowding unwind: high-beta de-rating in an AI-hardware selloff with no valuation support after the ~3x YTD move."
+    },
+    {
+      "page": "companies",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the broad exposure/audit page the power-delivery thesis is unchanged and structurally supported (price hikes, 20-week lead times, GS supercycle-to-2030); today's +11.3% is a flow rebound recouping June 8 losses, and yesterday's verdict already marked it down for rerating - no new information to move again.",
+      "bull": "Board-level power and passives content per AI server keeps rising via platform iteration; Murata's VPD power-module mass production starts in 2026 with ~JPY50B targeted revenue, adding a second AI growth leg beyond MLCCs.",
+      "neutral": "Execution story is on track but already priced into a ~$98B cap; watch capacity additions (Philippines, Thailand, Japan; new high-end fab late 2026) versus demand to gauge whether pricing holds.",
+      "bear": "Roughly 90%+ of revenue is still non-AI (smartphones, auto, consumer) and cyclical; an MLCC inventory correction outside AI would swamp the AI power story.",
+      "primaryCatalyst": "Evidence of AI power-module design wins / VPD ramp and continued MLCC price-hike realization in the July earnings print.",
+      "primaryRisk": "Consumer/auto MLCC cycle rolling over while AI remains too small a revenue share to offset it."
+    }
+  ]
+}

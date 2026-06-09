@@ -1,0 +1,26 @@
+{
+  "symbol": "REH.AX",
+  "company": "Reece",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - Reece Limited (REH.AX) quote/news", "url": "https://finance.yahoo.com/quote/REH.AX/"},
+    {"label": "Reece Group investor centre (no new ASX announcements surfaced since Jun 6)", "url": "https://group.reece.com/investors"},
+    {"label": "Market Index - REH share price and broker coverage", "url": "https://www.marketindex.com.au/asx/reh"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 6 that Reece's plumbing/HVAC distribution network is actually aggregating water-intensive compute-site demand; a +2.5% day and +6.75% YTD is benign drift, not a re-rating that erodes residual alpha, so the rank-96 strict-screen placement stands as per yesterday's hold.",
+      "bull": "Reece's US branch roll-out and dominant ANZ plumbing/waterworks footprint position it as a quiet local aggregator if water-cooled data center builds accelerate, and at ~$6B cap it remains entirely un-owned as an AI name.",
+      "neutral": "It is a housing-cycle distributor first; FY26 EBIT guidance of A$520-540m already reflects cost inflation, and any compute-site revenue is currently too small to surface in disclosures.",
+      "bear": "The AI-bottleneck pathway is speculative with zero disclosed data-center contract evidence, the stock trades at a premium multiple (~30x), and sell-side is split (Goldman at Sell vs Morgan Stanley Overweight), leaving it exposed to a housing downcycle with no AI offset.",
+      "primaryCatalyst": "FY26 results on Aug 24, 2026, or any first disclosed waterworks/cooling supply win tied to a data center campus.",
+      "primaryRisk": "US and ANZ residential construction softness compresses margins while the compute-site thesis remains unevidenced, leaving a richly valued cyclical."
+    }
+  ]
+}

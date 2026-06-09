@@ -1,0 +1,53 @@
+{
+  "symbol": "FN",
+  "company": "Fabrinet",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamentals since June 6. Today's -8.9% move is flow-driven: profit-taking after recent record highs, technical sell signals, and broad weakness across optical communications names, with sentiment still soured by the already-known fiscal Q3 Datacom EML supply-constraint narrative (second-source Lumentum lasers qualified; supply relief expected more in the September quarter). 1.6T/Blackwell positioning and the 2M sq ft capacity build (on schedule for year-end 2026) are unchanged.",
+  "sources": [
+    {"label": "TipRanks - Why Fabrinet's Hot Stock Is Suddenly Sinking", "url": "https://www.tipranks.com/news/catalyst/why-fabrinets-hot-stock-is-suddenly-sinking"},
+    {"label": "Seeking Alpha - Fabrinet falls after Q3 results, analysts mull Datacom supply constraints", "url": "https://seekingalpha.com/news/4585626-fabrinet-falls-after-q3-results-analysts-mull-datacom-supply-constraints"},
+    {"label": "Investing.com - Fabrinet at 2026 Optical Fiber Conference transcript", "url": "https://www.investing.com/news/transcripts/fabrinet-at-2026-optical-fiber-conference-sustained-growth-amid-challenges-93CH-4567256"},
+    {"label": "Yahoo Finance - FN quote", "url": "https://finance.yahoo.com/quote/FN/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 75,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "An -8.9% flow-driven flush with the 1.6T/Blackwell manufacturing thesis intact improves asymmetry on an alpha list that penalizes post-rerating chase; YTD is now a modest +18.6%, so the prior crowding discount is partly worked off. FN stays peripheral to the core passive/power bottleneck stack, so the move up is small.",
+      "bull": "Sole-source-like share in 1.6T transceivers for NVIDIA Blackwell plus a 2M sq ft capacity build gives multi-year volume leverage; a 9% one-day discount on no new news is exactly the entry an alpha list should reward.",
+      "neutral": "FN is AI-optics adjacent rather than a passive/power bottleneck, so even improved asymmetry only justifies a modest re-rank on this page.",
+      "bear": "Datacom EML supply constraints linger into the September quarter and customer concentration in NVIDIA means any hyperscaler optics digestion hits hard; the technical breakdown could extend.",
+      "primaryCatalyst": "EML supply relief (Lumentum second source) flowing through the September quarter and 1.6T ramp volumes.",
+      "primaryRisk": "Datacom supply constraints persisting or NVIDIA optics demand digestion turning the flow-driven sell-off into a fundamental one."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 92,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "Yesterday's move down was driven by crowding and the rerated YTD; today's -8.9% washout on no new fundamentals partially de-crowds the name and restores some latent asymmetry, warranting a small reversal at the margin. It remains a widely-owned, well-understood optical AI beneficiary, so it stays deep in the list.",
+      "bull": "If the flush shakes out momentum holders, FN's 100% 1.6T share for Blackwell and on-schedule capacity expansion make it cheaper hidden-leverage on the 1.6T transition than the consensus label implies.",
+      "neutral": "One down day does not make a consensus optical name under-owned; the connectivity & photonics thesis and Medium conviction are unchanged.",
+      "bear": "Crowded ownership cuts both ways: continued optics-sector de-risking could compound the technical damage regardless of fundamentals.",
+      "primaryCatalyst": "800G/1.6T manufacturing volumes and visible supply improvement in the September quarter.",
+      "primaryRisk": "Crowding unwind across optical AI names extending the drawdown; margin pressure if constrained Datacom mix persists."
+    },
+    {
+      "page": "companies",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Hold at rank 15: the -8.9% drop is flow-driven and the scale-out optics thesis (1.6T, CPO-adjacent, Blackwell transceivers) is intact, which slightly improves the score, but no new fundamental evidence justifies leapfrogging names with more direct bottleneck criticality.",
+      "bull": "Record manufacturing position in 1.6T transceivers, robust and increasing demand per management at OFC 2026, and the year-end 2026 capacity completion underpin the scale-out bandwidth thesis at a now-cheaper price.",
+      "neutral": "YTD is down to +18.6% after today, easing the prior rerating concern flagged in the June 8 audit; setup is better but the evidence set is unchanged.",
+      "bear": "Operating cash flow softness, higher capex, and Datacom supply constraints flagged around fiscal Q3 remain the live execution risks the page thesis already watches.",
+      "primaryCatalyst": "Fiscal Q4 (June quarter) results and September-quarter EML supply relief confirming the 1.6T ramp.",
+      "primaryRisk": "Execution/margin slippage in the 1.6T ramp or a sustained optical-sector demand reset."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "PRLB",
+  "company": "Proto Labs",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news. Only items in the window: a small director sale (Sven Wehrwein, 2,000 shares, ~$154K, transaction dated June 4 and reported around June 5-6) and an upcoming Craig-Hallum-hosted investor meeting in Toronto/Montreal. No earnings, contracts, design wins, M&A, capacity news, or analyst target changes. Backdrop unchanged: Q1 2026 record revenue $139.3M (+10.4% y/y), adj EPS $0.54, cautious FY26 guide of 6-8% revenue growth; mean analyst price targets sit at or below the current $74.98 price.",
+  "sources": [
+    {"label": "GuruFocus - Insider sell: Sven Wehrwein sells 2,000 shares of PRLB", "url": "https://www.gurufocus.com/news/8902406/insider-sell-sven-wehrwein-sells-2000-shares-of-proto-labs-inc-prlb"},
+    {"label": "Benzinga - Proto Labs board member sold $154K in company stock", "url": "https://www.benzinga.com/insights/news/26/06/53031458/proto-labs-board-member-sold-154k-in-company-stock"},
+    {"label": "Yahoo Finance - Record CNC quarter and cautious 2026 guidance", "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-proto-labs-231145093.html"},
+    {"label": "MarketBeat - PRLB forecast and price targets", "url": "https://www.marketbeat.com/stocks/NYSE/PRLB/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's verdict already pushed PRLB down for the +46% YTD rerating without new AI-chain evidence; nothing genuinely new has emerged since June 6 (only a small director sale and a roadshow), so hold at rank 81 with mild negative drift on this strict latent-node screen.",
+      "bull": "On-demand digital manufacturing (CNC, 3D printing, injection molding) gives AI hardware builders a fast prototyping path for custom thermal and mechanical parts before incumbent supply chains scale; Q1 was a record CNC quarter with adj EPS at a five-year high.",
+      "neutral": "Solid execution but no disclosed AI-specific revenue or design wins; FY26 guidance of 6-8% growth is cautious, and at $74.98 the stock trades above the mean analyst target, leaving the latent-AI optionality fully theoretical and increasingly priced.",
+      "bear": "A +46% YTD run on a low-single-digit-growth prototyping business compresses residual alpha; insider selling at these levels and a thin two-analyst coverage base mean any macro-industrial slowdown or AI-prototyping disappointment hits an already-rich multiple.",
+      "primaryCatalyst": "Q2 2026 earnings (late July) showing AI/data-center-related order mix or a named design-win disclosure; near term, incremental visibility from the Craig-Hallum investor meetings.",
+      "primaryRisk": "Post-rerating crowding into a thesis with no confirmed AI revenue: if Q2 lands within the cautious guide with no AI evidence, the YTD gain unwinds toward sub-$60 analyst targets."
+    }
+  ]
+}

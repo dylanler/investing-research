@@ -1,0 +1,28 @@
+{
+  "symbol": "STX",
+  "company": "Seagate Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -4.35% decline (to $838.59) is flow-driven, part of a broader semiconductor/memory pullback that began June 5 after Broadcom's cautious AI outlook and a weak global smartphone-demand narrative dragged storage names (WDC down in sympathy). Pre-June-6 backdrop remains: strong AI/HAMR-led earnings, proposed $175M Huawei export settlement, $185.9M exchangeable-notes exchange, and a sell-side target race to $900-$1,000 (Evercore, Rosenblatt, BofA). Small director insider sells on June 2 and June 4 (1,000 shares each).",
+  "sources": [
+    {"label": "StockStory via Yahoo Finance - Seagate and Western Digital Stocks Trade Down", "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-western-digital-stocks-trade-094855499.html"},
+    {"label": "Kavout - What Triggered the Recent Semiconductor Sell-Off", "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"},
+    {"label": "Simply Wall St - Seagate up 8% after AI storage strength and Huawei settlement update", "url": "https://simplywall.st/stocks/us/tech/nasdaq-stx/seagate-technology-holdings/news/seagate-technology-stx-is-up-80-after-ai-storage-strength-an/amp"},
+    {"label": "24/7 Wall St - Rosenblatt sets $1,000 Seagate price target", "url": "https://247wallst.com/investing/2026/04/29/rosenblatt-sets-a-1000-seagate-price-target-is-this-the-most-bullish-hdd-call-of-2026/"},
+    {"label": "GuruFocus - Insider sell, Shankar Arumugavelu (June 4)", "url": "https://www.gurufocus.com/news/8902392/insider-sell-shankar-arumugavelu-sells-1000-shares-of-seagate-technology-holdings-plc-stx"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already marked it down for exhausted hidden alpha after a ~192% YTD rerating; today's -4.35% is a sector-wide flow move with the HAMR/AI-storage thesis intact, so it neither restores asymmetry meaningfully nor adds new negative evidence. Hold at rank 100 with mild drift down in score for maximal crowding (Street targets at $900-$1,000, top-pick consensus, director insider sells).",
+      "bull": "HAMR/Mozaic transition is real and supply-constrained: 30TB-to-40TB capacity jumps per drive widen the cost-per-TB moat, hyperscaler nearline demand outstrips supply, and ASPs keep rising; a 4% sector-driven dip is a healthier entry than last week's high.",
+      "neutral": "AI data-gravity exposure is genuine but fully discovered at a $187B market cap with consensus buy ratings; residual alpha now depends on continued beat-and-raise execution rather than market recognition, making this a momentum/quality story rather than a hidden-bottleneck one.",
+      "bear": "HDD is cyclical and Seagate's CEO has said new capacity 'takes too long' to build, which cuts both ways: if AI storage orders pause or the memory-sector downturn deepens, a stock that nearly tripled YTD on multiple expansion has a long way to mean-revert; insider directors are already trimming.",
+      "primaryCatalyst": "Next earnings/guidance with HAMR Mozaic 4+ qualification progress at additional hyperscalers and continued nearline ASP increases.",
+      "primaryRisk": "Crowded post-rerating positioning unwinds on any AI-capex digestion signal; sector-wide memory/semis selloff continues regardless of company execution."
+    }
+  ]
+}

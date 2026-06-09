@@ -1,0 +1,35 @@
+{
+  "symbol": "6997.T",
+  "company": "Nippon Chemi-Con",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "BigGo Finance - Nippon Chemi-Con YTD high on AI data center demand, new mid-term plan (Apr 16, 2026 - pre-window, confirms no fresh June catalyst)",
+      "url": "https://finance.biggo.com/news/Bma8k50BvbjfYyetEZI0"
+    },
+    {
+      "label": "Nippon Chemi-Con - Generative AI and aluminum electrolytic capacitors (company AI exposure page)",
+      "url": "https://www.chemi-con.co.jp/en/company/about/topics/ai.html"
+    },
+    {
+      "label": "Yahoo Finance quote 6997.T",
+      "url": "https://finance.yahoo.com/quote/6997.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "No material news since June 6 and only a +0.66% drift day; yesterday's verdict already priced the ~204% YTD rerating, so rank 7 holds. Small negative delta for continued residual-alpha decay: a $0.68B micro-cap that has tripled YTD with no new evidence this week is steadily less hidden and more crowded.",
+      "bull": "Direct bottleneck exposure to AI server VRM power delivery via high-capacity aluminum electrolytic and polymer caps, plus industry-first immersion-cooling-compatible capacitors; the new mid-term plan commits ~¥20B capex to AI data-center share with OPM target of 8%+ by FY3/29 off a 2.9% base, leaving large earnings leverage if execution lands.",
+      "neutral": "Thesis intact but fully discovered: the April-May mid-term-plan rerating is now in the price, next hard catalyst is the Jul 30 Q1 earnings, and the stock is consolidating rather than offering new information either way.",
+      "bear": "A 204% YTD move in a ~$0.68B name with thin float and passive/momentum crowding has compressed asymmetry; any wobble in AI server build rates or in converting ¥20B capex into margin (legacy OPM was sub-3%) triggers a violent de-rating, and March's share issuance shows dilution is a live funding tool.",
+      "primaryCatalyst": "Jul 30, 2026 Q1 FY3/27 earnings - first hard read on AI data-center capacitor mix and progress toward the 8%+ OPM mid-term target.",
+      "primaryRisk": "Crowding/rerating reversal in a micro-cap that has tripled YTD: execution slippage on capacity ramp or softer AI server orders would unwind the multiple faster than fundamentals support."
+    }
+  ]
+}

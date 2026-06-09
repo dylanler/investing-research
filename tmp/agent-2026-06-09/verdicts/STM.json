@@ -1,0 +1,80 @@
+{
+  "symbol": "STM",
+  "company": "STMicroelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6 for STMicroelectronics. The material catalyst (2026 data-center revenue target raised to ~$1B from 'nicely above $500M', potential doubling in 2027) was announced June 2 and is already in yesterday's verdicts. Since then: Mizuho raised its PT to $84 from $68 (Outperform) and the stock surged +6.1% on June 8 to $75.01, then fell -4.39% today to $71.72 on broad chip-sector profit-taking/retreat - flow-driven, not fundamental. BofA remains skeptical on execution of the data-center ambition. Separately, the Stabilus (STM.DE) listing on latent-ai-nodes-strict is a different company: FY2026 guidance reaffirmed (EUR1.1-1.3B revenue, 10-12% EBIT margin), buyback continuing - nothing material.",
+  "sources": [
+    {"label": "CoinCentral - STM data-center revenue target raised to $1B for 2026", "url": "https://coincentral.com/stmicroelectronics-stm-stock-data-center-revenue-target-raised-to-1-billion-for-2026/"},
+    {"label": "TradingKey - STM +6.7% on Jun 8 (Mizuho PT to $84)", "url": "https://www.tradingkey.com/news/market-movers/261953595-market-movers-stm-20260608"},
+    {"label": "Quiver Quantitative - STM slides as chip stocks retreat, profit-taking after AI data-center optimism", "url": "https://www.quiverquant.com/news/STMicroelectronics+slides+as+chip+stocks+retreat+after+sector+shock,+with+traders+taking+profits+after+recent+AI+data-center+optimism"},
+    {"label": "Yahoo Finance - STM quote", "url": "https://finance.yahoo.com/quote/STM/"},
+    {"label": "Stabilus Group press releases (STM.DE - guidance reaffirmed, buyback)", "url": "https://group.stabilus.com/news-and-events/press-releases"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already moved STM down for the +162% YTD rerating; today's -4.4% is flow-driven profit-taking after a +6.1% Mizuho-fueled pop, leaving the stock net higher than June 5, so no new asymmetry. Mizuho's $84 PT and the data-center story going consensus add crowding on this crowding-sensitive list - small negative drift, no second rank move without new evidence.",
+      "bull": "Data-center power and optical content heading to ~$1B of 2026 revenue with potential doubling in 2027 gives real, growing AI bottleneck exposure.",
+      "neutral": "Thesis intact but fully surfaced: a $63B cap, sell-side PT raises and a +162% YTD make this a recognized AI story, not a hidden one.",
+      "bear": "BofA flags execution risk on the 'ambitious' data-center target; auto/industrial cycle still dominates the revenue mix and a guide miss would unwind the rerating fast.",
+      "primaryCatalyst": "Q2 results and evidence of data-center revenue tracking to the $1B target.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any data-center execution slip or auto-cycle weakness."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "This listing is Stabilus SE (STM.DE), not STMicroelectronics: no material news since June 6 - FY2026 guidance reaffirmed and the buyback continues, so the speculative motion-control-for-robotics pathway is unchanged. Yesterday's down move on adjusted-score grounds stands; nothing new justifies another move.",
+      "bull": "-15% YTD, ongoing buyback and reaffirmed EUR1.1-1.3B guidance give a cheap, unloved entry into motion-control hardware if robotics/automation demand materializes.",
+      "neutral": "Stable Q2 EBIT margin despite auto weakness, but the AI/robotics linkage remains a pathway, not booked revenue.",
+      "bear": "Core gas-spring/damper business is auto-cyclical with currency headwinds; the robotics optionality may never convert to AI-chain revenue.",
+      "primaryCatalyst": "A named robotics or server-handling automation design win converting the latent pathway into orders.",
+      "primaryRisk": "Continued automotive end-market weakness eroding the base business before any AI-adjacent demand arrives."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict was removal for weak direct HBM/CPO/packaging/test relevance, and nothing since June 6 changes that - today's -4.4% is sector profit-taking, not new evidence. Hold the rank pending removal rather than re-litigating; small negative drift for added crowding after the Mizuho PT raise.",
+      "bull": "The raised $1B data-center target (power solutions plus optical cable products) gives more direct AI infrastructure exposure than the 'selective edge/power' thesis credits.",
+      "neutral": "Real but secondary AI content; on a node-directness lens STM sits behind HBM, advanced packaging and AI networking pure-plays.",
+      "bear": "+162% YTD and $63B cap mean the market already pays for the AI sliver while the auto/industrial majority of revenue remains cyclical.",
+      "primaryCatalyst": "Disclosure quantifying optical/power data-center wins with hyperscaler attach.",
+      "primaryRisk": "Removal/down-weighting as cleaner bottleneck names crowd it out of an actionable directness ranking."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday already moved STM down post-rerating; no new CPO-specific evidence since June 6 and today's -4.4% is flow-driven, so rank 75 with 'limited CPO directness' remains right. The optical data-center products mentioned in the June 2 raise are already reflected.",
+      "bull": "Silicon photonics and optical data-center products inside the $1B 2026 data-center ambition give latent CPO-adjacent optionality at a quality franchise.",
+      "neutral": "CPO directness is still limited versus dedicated photonics/packaging plays; STM is a broad power/MCU house with an AI sliver.",
+      "bear": "Auto/industrial cycle risk plus a +162% YTD rerating leaves little residual alpha if the optical ramp disappoints.",
+      "primaryCatalyst": "A named CPO or silicon-photonics engagement with a hyperscaler or switch vendor.",
+      "primaryRisk": "Auto/industrial downturn overwhelming the small optical/data-center contribution."
+    },
+    {
+      "page": "companies",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already priced the rerating; since June 6 there is only a sell-side PT raise and a flow-driven -4.4% pullback that still leaves the stock above its June 5 level. Power-delivery thesis unchanged - hold at rank 87.",
+      "bull": "Power-delivery content per AI server is rising and the company itself now guides data-center revenue to ~$1B in 2026 with a possible 2027 double.",
+      "neutral": "Positive AI exposure is real but recognized; the board-level power story is now consensus after the June 2 target raise and analyst upgrades.",
+      "bear": "192%-style rerating math has compressed: any wobble in power semis pricing or auto demand hits a now fully-valued multiple.",
+      "primaryCatalyst": "Q2 print confirming data-center mix shift and margin resilience.",
+      "primaryRisk": "Post-rerating multiple compression on cyclical auto/industrial softness."
+    }
+  ]
+}

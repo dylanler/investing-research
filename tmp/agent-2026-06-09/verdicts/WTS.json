@@ -1,0 +1,40 @@
+{
+  "symbol": "WTS",
+  "company": "Watts Water Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Fresh items are commentary only: a Seeking Alpha piece arguing the data-center premium (~26x forward EPS) is not supported by fundamentals, alongside earlier analyst PT moves (Stifel to $379 Buy, Barclays to $323 Equal Weight). The $0.63 quarterly dividend (payable June 15) was declared in May; Q1 record results (+21% revenue, EPS +34%, data-center-driven) and the Haws/Superior Boiler/Saudi Cast acquisitions predate the window. Day move +0.23% is drift.",
+  "sources": [
+    {"label": "Seeking Alpha - Data Center Angle Isn't Enough To Support This Valuation", "url": "https://seekingalpha.com/article/4913030-watts-water-technologies-data-center-angle-isnt-enough-to-support-this-valuation"},
+    {"label": "StockTitan - Watts Water Q1 EPS Rises 34%, Keeps 2026 Outlook", "url": "https://www.stocktitan.net/news/WTS/watts-water-technologies-reports-record-first-quarter-2026-o61bdm9pkj8d.html"},
+    {"label": "Business Wire - Watts Water Declares Quarterly Dividend", "url": "https://www.businesswire.com/news/home/20260504162282/en/Watts-Water-Technologies-Inc.-Declares-Quarterly-Dividend"},
+    {"label": "Yahoo Finance - Bull Case For WTS Could Change Following AI Data Center Cooling Expansion", "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-watts-water-technologies-150811623.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already repriced the adjusted-score gap; with no new evidence since June 6 and a +0.23% drift day, another move is unjustified. Small -1 for crowding drift: the data-center water/cooling angle is now widely covered by sell-side and retail media, eroding the 'quiet compounder' element of the latent-node thesis.",
+      "bull": "Data-center demand is showing up in real numbers (Q1 +21% revenue, EPS +34%) and water stewardship for high-density AI campuses remains an under-modeled, structural bottleneck Watts directly serves.",
+      "neutral": "At ~26x forward and consensus Hold with PT ~$333 vs $316, the easy rerating is largely done; the name compounds but residual alpha now depends on data-center revenue mix growing faster than the multiple implies.",
+      "bear": "The data-center narrative is becoming consensus on a stock that is mostly plumbing/commercial repair-and-replace; if AI capex cools or the data-center mix disappoints, the premium multiple compresses against conservative full-year guidance.",
+      "primaryCatalyst": "Q2 earnings showing data-center/cooling revenue acceleration or a guidance raise off the conservative 8-12% sales outlook.",
+      "primaryRisk": "Multiple compression as the now-popular data-center angle fails to move the revenue needle on a $9.9B diversified flow-control business."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Strict-screen pathway (valves, backflow prevention, drainage, water quality adapted to high-density facility water management) is unchanged; yesterday was a hold and nothing since June 6 alters the adapted-use evidence or AI-chain risk profile.",
+      "bull": "Q1 confirmed data-center growth is already flowing through organic sales, validating the adaptation pathway from generic flow/water-safety hardware to AI facility water management.",
+      "neutral": "Rank 44 on the strict list already reflects medium AI-chain attribution; no contracts or design wins specific to AI facilities were announced this window, so the evidence base is static.",
+      "bear": "Watts' AI exposure remains a thin slice of a broad plumbing/HVAC portfolio, and on a strict attribution lens the name could slide if purer facility-water plays surface with documented AI campus wins.",
+      "primaryCatalyst": "Disclosed AI/data-center facility contract wins or segment-level disclosure quantifying data-center water revenue.",
+      "primaryRisk": "Attribution risk: data-center demand proves too small a mix to distinguish WTS from generic construction-cycle exposure."
+    }
+  ]
+}

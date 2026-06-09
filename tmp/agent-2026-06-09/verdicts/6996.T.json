@@ -1,0 +1,26 @@
+{
+  "symbol": "6996.T",
+  "company": "Nichicon",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: a major US brokerage kept its Neutral rating on Nichicon but raised its price target from JPY 2,200 to JPY 4,000, citing capacitor strength in AI-server and automotive power. Today's +5.28% move to JPY 4,285 appears to be follow-through on that note - the stock now trades ABOVE the raised target with the rating still Neutral. No new contracts, capacity announcements, or earnings (FY3/26 results with capacitor segment OP up ~190% on AI/xEV were already public; next earnings Aug 11, 2026). The move is flow/analyst-recognition driven, not new fundamentals.",
+  "sources": [
+    {"label": "Minkabu - Nichicon (6996) quote, rating and target price news (Jun 8 US brokerage TP raise 2,200 to 4,000, Neutral)", "url": "https://minkabu.jp/stock/6996"},
+    {"label": "Kabutan - Nichicon (6996) news feed", "url": "https://kabutan.jp/stock/news?code=6996"},
+    {"label": "Yahoo Finance - Nichicon 6996.T quote", "url": "https://finance.yahoo.com/quote/6996.T/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 11,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive alpha list, a +5.3% pop driven by a sell-side TP hike (Neutral rating, stock now above the new JPY 4,000 target) at +158.6% YTD is discovery without new fundamentals - residual alpha shrinks and the 'underfollowed' leg of the thesis erodes. Yesterday's hold is overridden by genuinely new information: sell-side marking the name up confirms it is no longer hidden.",
+      "bull": "Sell-side validation of the AI-server capacitor thesis is arriving (TP nearly doubled), and the capacitor segment's ~190% OP jump shows real operating leverage into AI power demand; estimates could still chase fundamentals higher into the Aug 11 print.",
+      "neutral": "Thesis intact - electrolytic/film capacitor exposure to AI server power is real - but the easy rerating from obscurity is largely done; the stock now trades above the freshest street target with a Neutral rating attached.",
+      "bear": "A $1.8B small-cap up 158.6% YTD trading above a just-raised Neutral-rated target is a classic crowded post-rerating chase; any AI-server order digestion or margin disappointment at Aug 11 earnings invites a sharp de-rate with thin downside support.",
+      "primaryCatalyst": "Q1 FY3/27 earnings on Aug 11, 2026 confirming AI-server capacitor order momentum and margin expansion, or a ratings upgrade (not just TP) from major brokers.",
+      "primaryRisk": "Flow-driven retail/momentum crowding unwinding once the analyst-note pop fades; stock already above the raised target with no new fundamental data until August."
+    }
+  ]
+}

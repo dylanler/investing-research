@@ -1,0 +1,27 @@
+{
+  "symbol": "ALKAL.PA",
+  "company": "Kalray",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6. Latest disclosure was the June 3 voting-rights/share-count notice (15.4M shares as of May 29). Today's -7.4% move appears flow-driven profit-taking after a ~62% one-month / +812% YTD run in a $0.21B microcap, not fundamental. Standing overhangs unchanged: OpenChip may request issuance of new shares by July 31, 2026 to take a 51% majority stake (dilution/ownership-reset overhang); cash was EUR 2.9M at end-2025 with funding horizon stated only 'beyond June 30, 2026'; AGM scheduled June 29, 2026.",
+  "sources": [
+    {"label": "Yahoo Finance - Kalray ALKAL.PA news & quote", "url": "https://finance.yahoo.com/quote/ALKAL.PA/news/"},
+    {"label": "AInvest - Kalray's OpenChip warrant overhang could reset ownership and pressure shares", "url": "https://www.ainvest.com/news/kalray-openchip-warrant-overhang-reset-ownership-pressure-shares-2604/"},
+    {"label": "Finanzwire - Kalray voting rights and shares as of May 29, 2026", "url": "https://www.finanzwire.com/article/kalray-epa-alkal-kalray-announces-its-voting-rights-and-shares-as-of-may-29-2026-msih0dQC8fA"},
+    {"label": "Actusnews - Kalray FY2025 annual results (EBITDA EUR 6.2M, new scope)", "url": "https://www.actusnews.com/fr/telechargement/kalray/2026/04/23/97765-pr_kalray_fy2025_vfinal.pdf"}
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already applied the post-rerating crowding penalty (down); today's -7.4% is a flow-driven giveback with no new fundamentals and only trims a sliver of an +812% YTD run, so it does not materially restore asymmetry. The July 31 OpenChip 51% issuance option and thin cash runway cap the DPU-optionality upside, keeping this a hold with mild negative drift rather than a fresh downgrade.",
+      "bull": "Kalray remains one of the few listed pure-play DPU/data-processing assets in Europe with FY2025 swinging to positive EBITDA (EUR 6.2M) and a EUR 10M OpenChip cooperation agreement validating the technology; any new design win or AI-gigafactory contract could re-ignite the move.",
+      "neutral": "No news since June 6; the -7.4% day is profit-taking in a retail-momentum microcap after a 62% month, and the setup is unchanged until the June 29 AGM and the July 31 OpenChip warrant decision resolve the ownership question.",
+      "bear": "An +812% YTD rerating on a EUR 2.9M end-2025 cash position with a funding horizon barely past June 30, 2026 leaves the equity hostage to OpenChip's 51% issuance option - heavy dilution or a controlled takeover at terms unfavorable to minorities could erase most residual alpha.",
+      "primaryCatalyst": "OpenChip's decision by July 31, 2026 on exercising its right to subscribe new shares for a 51% majority stake (plus the June 29 AGM resolutions framing it).",
+      "primaryRisk": "Dilution/ownership reset from the OpenChip 51% issuance combined with a thin liquidity runway, against a position already rerated +812% YTD."
+    }
+  ]
+}

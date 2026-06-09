@@ -1,0 +1,26 @@
+{
+  "symbol": "ALNT",
+  "company": "Allient",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Only fresh item is an Argosy Investors Q1 letter (circulated ~Jun 5-8) disclosing they trimmed their ALNT position on valuation after the run. Backdrop: early-May Q1 2026 print (5% revenue growth, margin expansion, strong bookings in automation/data center/vehicle) and a late-May JPMorgan upgrade to Overweight (PT $80) are already in the price - stock now trades above that target at ~$85.80 after +29.6% in one month and +154% over 52 weeks. Today's -1.59% is flow-driven drift, not fundamental.",
+  "sources": [
+    {"label": "Insider Monkey - Argosy Investors trimmed ALNT in Q1 (incl. Jun 5 close, 1-mo +29.6%, 52-wk +154%)", "url": "https://www.insidermonkey.com/blog/heres-why-argosy-investors-trimmed-allient-alnt-1777116/"},
+    {"label": "Motley Fool - Allient Q1 2026 earnings transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/06/01/allient-alnt-q1-2026-earnings-transcript/"},
+    {"label": "Investing.com - JPMorgan upgrades Allient to Overweight, PT $80", "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-allient-stock-rating-on-growth-outlook-93CH-4708846"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No new fundamental evidence since June 6 and yesterday's hold already priced the YTD run; today's -1.6% is noise. Small negative delta because the 'still-manageable valuation' leg of the robotics thesis is eroding - the stock now trades above JPMorgan's fresh $80 target after +29.6% in a month, and a long-time holder (Argosy) is trimming on valuation.",
+      "bull": "Cleanest US-listed pure-play motion/actuation supplier with explicit humanoid content; Q1 showed real commercialization evidence (bookings up, margin expansion via STAN) so the rerating has fundamental support, and sell-side targets are still catching up.",
+      "neutral": "Thesis intact but fully discovered post-JPMorgan upgrade; at ~$1.5B cap and above street targets, the name needs new design wins or another beat to justify further rank gains. Hold at #7 is fair.",
+      "bear": "+154% in 52 weeks and trading above the most bullish recent target with humanoid revenue still small relative to industrial/vehicle base; any humanoid-sentiment unwind or industrial softness compresses the multiple fast, and holders are already taking profits.",
+      "primaryCatalyst": "Q2 2026 earnings/bookings and any named humanoid or robotics design-win announcement (Northland Growth Conference appearance June 23 is the near-term airing).",
+      "primaryRisk": "Valuation rerating reversal: stock above analyst targets after a +30% month, so multiple compression on any humanoid-theme cooldown or industrial order softness."
+    }
+  ]
+}

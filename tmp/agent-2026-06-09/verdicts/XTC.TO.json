@@ -1,0 +1,26 @@
+{
+  "symbol": "XTC.TO",
+  "company": "Exco Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material news since June 6, 2026. Only item in the window is the routine, previously declared quarterly dividend of C$0.105/share (record June 16, payable June 30). Last fundamental update remains the April 29, 2026 Q2 FY26 results: sales C$157.6M (-5% y/y on FX headwinds), net income C$5.8M incl. C$2.4M after-tax restructuring, Queretaro Large Mould facility closed effective March 31 with a C$1.0M accrual, while management flagged building large-mould order activity and backlogs.",
+  "sources": [
+    {"label": "Exco Technologies news page (dividend, releases)", "url": "https://www.excocorp.com/category/news/"},
+    {"label": "GlobeNewswire - Exco Results for Second Quarter Ended March 31, 2026", "url": "https://www.globenewswire.com/news-release/2026/04/29/3284344/0/en/Exco-Results-for-Second-Quarter-Ended-March-31-2026.html"},
+    {"label": "Yahoo Finance - XTC.TO quote", "url": "https://finance.yahoo.com/quote/XTC.TO/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "No new evidence since June 6 and only a +0.52% day move; the strict latent-node case (die-casting/extrusion tooling optionality into AI thermal housings and reshoring) is unchanged from yesterday's hold, so the rank stays put.",
+      "bull": "A US$0.21B under-followed TSX tooling name with rising large-mould backlogs and a completed cost-restructuring; any concrete win in thermal housings or reshoring tooling would be thesis-confirming and the stock is not crowded.",
+      "neutral": "Q2 showed sales down 5% with FX and restructuring drag offset by improving order momentum; the AI-adjacency remains a plausible but unproven pathway, and at +13.5% YTD the setup is neither stretched nor newly asymmetric.",
+      "bear": "Core exposure is cyclical automotive tooling with 4-5 year fixed-price contracts limiting pass-through; the AI thermal-housing angle stays speculative with no disclosed design wins, so the latent-node score may be optionality without a catalyst.",
+      "primaryCatalyst": "Q3 FY26 results (late July) confirming large-mould backlog conversion, or a disclosed tooling/components win tied to data-center thermal or reshoring programs.",
+      "primaryRisk": "Auto-cycle softness and FX headwinds persist while the AI-adjacent pathway never materializes into orders, leaving a small-cap value stock without the latent-node payoff."
+    }
+  ]
+}

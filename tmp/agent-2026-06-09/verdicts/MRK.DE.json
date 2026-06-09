@@ -1,0 +1,35 @@
+{
+  "symbol": "MRK.DE",
+  "company": "Merck KGaA",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investing.com - Merck KGaA Q1 2026 earnings call transcript (May 13, beat + raised guidance; semi materials double-digit organic)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-merck-kgaa-beats-q1-2026-expectations-stock-rises-6-93CH-4684993"
+    },
+    {
+      "label": "Speciality Chemicals Magazine - Merck inaugurates Kaohsiung Semiconductor Solutions megasite (Dec 2, 2025; EUR 500M, production starts 2026)",
+      "url": "https://www.specchemonline.com/news/merck-inaugurates-semiconductor-solutions-site"
+    },
+    {
+      "label": "Yahoo Finance - MRK.DE quote and latest headlines (no fresh material items since Jun 6)",
+      "url": "https://finance.yahoo.com/quote/MRK.DE/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's up-move already priced in the Q1 semiconductor-materials evidence (double-digit organic, raised FY guidance, Kaohsiung megasite ramping in 2026); nothing new has landed since Jun 6 and today's +0.5% is drift, so the rank stands. Note the listed thesis text ('negative YTD reset') is stale - the stock is +13.9% YTD, so further upgrades should wait for fresh Electronics datapoints rather than re-crediting old news.",
+      "bull": "Semiconductor materials franchise is growing low-double-digit organically on AI and advanced nodes, the EUR 500M Kaohsiung megasite starts production in 2026, and pharma-heavy ownership means the AI-materials angle remains under-appreciated at a EUR 138 conglomerate valuation.",
+      "neutral": "A diversified healthcare/life-science/electronics conglomerate where Electronics is only one of three legs; Q1 group revenue fell 2.8% y/y and Street fair-value estimates were recently trimmed on Healthcare, capping the read-through from the semi-materials story.",
+      "bear": "Healthcare declines and cautious analyst revisions (fair value cut toward EUR 112-127 by some) could drag the whole equity even if semiconductor materials execute, and a +14% YTD rerating has already consumed part of the residual asymmetry.",
+      "primaryCatalyst": "Q2 2026 Electronics segment print confirming sustained double-digit semiconductor-materials growth plus Kaohsiung ramp commentary.",
+      "primaryRisk": "Healthcare pipeline/franchise erosion overwhelming the Electronics story, with conglomerate structure muting the AI-materials alpha."
+    }
+  ]
+}

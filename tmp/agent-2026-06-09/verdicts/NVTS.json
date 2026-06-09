@@ -1,0 +1,53 @@
+{
+  "symbol": "NVTS",
+  "company": "Navitas Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "8-K disclosed issuance of 3,283,844 Class A earnout shares (June 4) under the SPAC business-combination agreement; 6,561,282 shares issued cumulatively with up to 10,000,000 possible if price targets hit before Oct 19, 2026. Stock fell ~9% June 9 (13.7% at intraday lows) on the dilution overhang plus profit-taking after the June 3 NVIDIA MGX 800VDC collaboration spike to a $34.17 52-week high. The NVIDIA MGX / 800V-to-6V GaNFast PDB showcase (Computex, June 2-5) keeps reinforcing AI data-center power relevance, but no quantified design-win revenue yet.",
+  "sources": [
+    {"label": "TipRanks - Why Navitas Semiconductor Stock Is Suddenly Sinking", "url": "https://www.tipranks.com/news/catalyst/why-navitas-semiconductor-stock-is-suddenly-sinking"},
+    {"label": "Investing.com - Why is Navitas Semiconductor stock sliding today?", "url": "https://www.investing.com/news/stock-market-news/why-is-navitas-semiconductor-stock-sliding-today-93CH-4728855"},
+    {"label": "StockTitan - NVTS 8-K: Navitas issues 3.28M contingent earnout shares", "url": "https://www.stocktitan.net/sec-filings/NVTS/8-k-navitas-semiconductor-corp-reports-material-event-45dfb9a0c62a.html"},
+    {"label": "Navitas PR - Collaboration with NVIDIA MGX ecosystem on 800 VDC AI infrastructure", "url": "https://navitassemi.com/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday already moved it down for the rerating; today's dilution-driven flush (-8.7%, ~35% off the $34.17 high) partially resets crowding, but the NVIDIA-halo retail attention killed the 'underfollowed' leg of the thesis and YTD is still +167%. Offsetting forces argue for hold with mild negative drift.",
+      "bull": "GaN/SiC power content rides the 800VDC AI rack transition via the NVIDIA MGX ecosystem, and the pullback restores some entry asymmetry after a parabolic spike.",
+      "neutral": "Earnout dilution (~5% of share count, known SPAC mechanics) is mechanical, not new economics; the name oscillates between momentum chase and flush without fresh fundamental data until next earnings.",
+      "bear": "Up to 10M total earnout shares before Oct 2026 creates persistent supply overhang, consensus sits at Hold with targets below the price, and the name is now a crowded retail AI-power proxy rather than a hidden bottleneck.",
+      "primaryCatalyst": "Quantified 800VDC design-win or revenue guidance converting the MGX collaboration into bookings.",
+      "primaryRisk": "Continued earnout share issuance plus momentum unwind in a crowded, heavily rerated name."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On the node map, the MGX 800VDC collaboration and the 800V-to-6V GaNFast PDB shown at Computex modestly increase the directness of Navitas's AI data-center power exposure versus the 'less direct than HBM/packaging' framing; the dilution 8-K is a flow issue, not a node-criticality issue. Hold with small positive drift after yesterday's down move.",
+      "bull": "800VDC rack architectures structurally favor GaN/SiC power stages, moving Navitas closer to the AI power-delivery critical path inside NVIDIA's ecosystem.",
+      "neutral": "It remains an ecosystem collaboration without confirmed volume content or revenue, so node centrality is improving on paper but unproven in silicon shipments.",
+      "bear": "Power delivery has multiple credible suppliers (Infineon, MPS, onsemi, Vicor), so Navitas's node is substitutable and far less chokepoint-like than HBM, CPO, or advanced packaging.",
+      "primaryCatalyst": "Named MGX partner slots or PDB volume orders confirming GaN content per AI rack.",
+      "primaryRisk": "Substitution by larger power-semi incumbents relegating Navitas to optionality rather than a bottleneck node."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 65,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "This page's stated risk - 'early-stage power adoption and dilution' - materialized via the June 4 earnout-share 8-K (up to 10M shares by Oct 2026), and the name still has no optical/cable/CPO-layer exposure. Reaffirms yesterday's removal call: down on an actionable CPO-alpha list.",
+      "bull": "If 800VDC power density becomes a binding constraint in AI factories, Navitas's GaN PDB (97.5% efficiency, 2100 W/in3 target) gives real optionality adjacent to the compute rack.",
+      "neutral": "The dilution is bounded and pre-disclosed SPAC mechanics; the stock can stabilize once earnout issuance completes in October 2026.",
+      "bear": "Zero CPO/optical relevance, materialized dilution overhang, +167% YTD rerating, and a Hold-rated analyst base make this the weakest asymmetry on a CPO-focused alpha page.",
+      "primaryCatalyst": "Completion of the earnout share schedule removing the supply overhang, paired with a concrete AI power design win.",
+      "primaryRisk": "Further earnout tranches into strength while the CPO thesis never applies to this name."
+    }
+  ]
+}

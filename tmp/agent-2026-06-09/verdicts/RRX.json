@@ -1,0 +1,40 @@
+{
+  "symbol": "RRX",
+  "company": "Regal Rexnord",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company news since June 6, 2026. The IPS leadership transition (Mark Klossner named EVP & President, succeeding retiring Jerry Morton) was announced June 1, outside the window. The ~$735M E-Pod data-center order book dates to the Feb 2026 Q4'25 release. Only new item is bullish fund-letter commentary recirculating June 8-9 (Yahoo/Insider Monkey), which raises visibility/crowding rather than adding fundamental evidence. Day move -0.71% is noise.",
+  "sources": [
+    {"label": "Insider Monkey / Yahoo Finance - What Makes Regal Rexnord (RRX) an Attractive Investment Choice (Jun 8-9, 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/makes-regal-rexnord-rrx-attractive-141015172.html"},
+    {"label": "StockTitan - Regal Rexnord names Mark Klossner EVP & President, IPS (Jun 1, 2026)", "url": "https://www.stocktitan.net/news/RRX/regal-rexnord-names-mark-klossner-evp-president-industrial-voijm9l660jb.html"},
+    {"label": "Business News Today - Regal Rexnord secures $735M in data center E-Pod orders (Feb 2026)", "url": "https://business-news-today.com/regal-rexnord-nyse-rrx-secures-735m-in-data-center-orders-as-e-pod-strategy-lifts-fy25-earnings/"},
+    {"label": "StockTitan RRX news feed (checked for Jun 6-9 items)", "url": "https://www.stocktitan.net/news/RRX/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 27 with slight negative drift: no new fundamental evidence since June 6, but recirculating bullish fund-letter coverage after a +43% YTD run erodes the 'hidden, under-owned' premise this residual-alpha page rewards. Yesterday was a hold and nothing today justifies a fresh move.",
+      "bull": "Delevan inductors/transformers plus the $735M E-Pod switchgear order book give RRX genuine tight-supply, central-node exposure that the market still files under 'cyclical industrial'.",
+      "neutral": "At $13.9B cap and +43% YTD, the AI-passives angle is partially priced; the stock drifts with industrial sentiment until E-Pod shipments start in early 2027.",
+      "bear": "Growing sell-side and fund-letter visibility means the mispricing is closing; any industrial-cycle wobble or E-Pod execution slip hits a name that has already rerated.",
+      "primaryCatalyst": "E-Pod data-center order momentum updates and initial shipment confirmation into early 2027; Delevan passives demand commentary.",
+      "primaryRisk": "Crowding after the YTD rerating - residual alpha decays as the AI angle becomes consensus."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 51: yesterday's verdict already moved the name down to reconcile with the adjusted score, and no information since June 6 changes its network position. Motors, drives, switchgear and power transmission remain a real but second-order node in cooling, robotics and data-center power.",
+      "bull": "The E-Pod switchgear push and data-center HVAC/automation demand keep upgrading RRX's centrality in the AI power chain beyond a pure industrial-recovery story.",
+      "neutral": "Thesis intact but unchanged - Regal is still more a cyclical industrial synergy story with AI optionality than a core AI node; rank 51 with Medium conviction fits.",
+      "bear": "If industrial recovery stalls or the CEO succession (Pinkham through June 30) introduces strategic drift, the AI-adjacent narrative will not carry a $13.9B mid-cap on its own.",
+      "primaryCatalyst": "Industrial recovery data, synergy delivery, and E-Pod/data-center order conversion through 2026.",
+      "primaryRisk": "Cyclical end-market softness plus leadership transition risk diluting execution on the data-center pivot."
+    }
+  ]
+}

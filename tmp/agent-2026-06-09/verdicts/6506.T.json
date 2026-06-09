@@ -1,0 +1,27 @@
+{
+  "symbol": "6506.T",
+  "company": "Yaskawa Electric",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Stock drifted -0.47% on June 9 (flow, not fundamental). Early-June UBS Buy rating adds sell-side visibility but no new evidence; the AI-robotics/semiconductor demand narrative dates to the April FY guidance (next earnings July 3, 2026).",
+  "sources": [
+    {"label": "Yahoo Finance quote 6506.T", "url": "https://finance.yahoo.com/quote/6506.T/"},
+    {"label": "Digitimes - Yaskawa sees AI robot, chip demand boost profits (April 2026)", "url": "https://www.digitimes.com/news/a20260413VL207/yaskawa-robot-robotics-demand-earnings.html"},
+    {"label": "Yaskawa FY results call script (April 2026)", "url": "https://www.yaskawa-global.com/wp-content/uploads/2026/04/254Q_script_E.pdf"},
+    {"label": "Yaskawa global news page (no fresh June releases)", "url": "https://www.yaskawa-global.com/category/news"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already priced the rerating penalty (adjusted-score rank 77 vs displayed 65); nothing new since June 6 and today's -0.47% drift does not change the setup. On a latency-alpha lens, a +28.8% YTD large-cap with a UBS Buy is well-discovered, not latent, so a small negative drift is warranted but no further rank move.",
+      "bull": "Servo motors and motion control are a genuine bottleneck for AI-enabled factories and humanoid robotics, and FY guidance calls for order growth driven by AI-related demand with ~10.3% operating margin.",
+      "neutral": "Known automation cyclical with the AI-robotics story already in the price after +29% YTD; next real catalyst is the July 3 earnings print, so the name marks time until then.",
+      "bear": "China capex remains the swing factor; if the AI-robotics order inflection disappoints at July earnings, the YTD rerating unwinds and the cyclical discount reasserts itself.",
+      "primaryCatalyst": "Q1 FY2026 earnings on July 3, 2026 confirming AI-driven order acceleration in robotics and motion control.",
+      "primaryRisk": "Crowded, well-covered large-cap cyclical whose AI narrative is consensus; China/auto capex softness or a guidance miss unwinds the rerating."
+    }
+  ]
+}

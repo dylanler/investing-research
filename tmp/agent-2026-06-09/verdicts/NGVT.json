@@ -1,0 +1,35 @@
+{
+  "symbol": "NGVT",
+  "company": "Ingevity",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Ingevity (NGVT) Q1 2026 Earnings Transcript - The Motley Fool (Jun 1, pre-window)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/06/01/ingevity-ngvt-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "Ingevity IR - News Releases (no releases in Jun 6-9 window)",
+      "url": "https://ir.ingevity.com/news-releases/default.aspx"
+    },
+    {
+      "label": "Ingevity 8-K - Ozark road markings sale to PPG closed Apr 15, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1653477/000165347726000021/exhibit991041526.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already pushed it down to reconcile the adjusted-score gap (rank ~49-50 vs old displayed 32); nothing new since June 6 and a +1.99% drift day does not change the strict-screen setup, so hold at the corrected rank with mild negative drift.",
+      "bull": "Post-divestiture Ingevity is a cleaner, deleveraging activated-carbon pure-play with $160M of cash proceeds and $300M buybacks by 2027; any concrete data-center filtration/adsorption or battery-adjacent design win would rerate a $2.3B under-followed name.",
+      "neutral": "Q1 FY2026 (sales $258M, net income $59.8M, guidance reaffirmed) landed June 1 and is already in the price; the AI pathway remains speculative optionality with no disclosed AI-infrastructure revenue, consistent with a deep rank-49 latent slot.",
+      "bear": "The portfolio reshaping concentrates the company on automotive emissions canisters and pavement technologies - arguably moving it further from any AI-compute bottleneck role - so the latent-node thesis may never activate while auto-cycle exposure dominates.",
+      "primaryCatalyst": "A named filtration/adsorption or battery-materials win tied to data-center or energy-storage infrastructure, or Q2 earnings showing growth in non-auto activated carbon applications.",
+      "primaryRisk": "Thesis stays latent: auto-driven activated carbon demand defines the stock and the strict AI screen eventually drops a name with no demonstrable AI linkage."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "WOLF",
+  "company": "Wolfspeed",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "June 8: GE Aerospace and Wolfspeed signed an MOU to accelerate high-voltage SiC adoption - supply of Wolfspeed's 10 kV MOSFET die plus joint standards for high-voltage power modules targeting solid-state transformers, industrial electrification, aerospace/defense, and faster time-to-power for AI; shares jumped ~13% Monday. June 9: stock fell -13.9%, essentially a full giveback of the MOU pop, attributed to execution-risk concerns around a non-binding MOU with no revenue attached - flow-driven mean reversion, not a fundamental break. Net price vs June 5 is roughly flat with incrementally better on-thesis evidence. Background (June 1-2, pre-window): dedicated Silicon Valley data-center solutions team, new 3.3 kV SiC module families, AI datacenter revenue +50% sequentially off a small base.",
+  "sources": [
+    {"label": "StreetInsider - GE Aerospace and Wolfspeed sign MOU for silicon carbide development", "url": "https://www.streetinsider.com/Corporate+News/GE+Aerospace+and+Wolfspeed+sign+MOU+for+silicon+carbide+development/26615085.html"},
+    {"label": "Yahoo Finance - GE Aerospace and Wolfspeed Collaborate to Accelerate High-Voltage SiC Adoption", "url": "https://finance.yahoo.com/sectors/technology/articles/ge-aerospace-wolfspeed-collaborate-accelerate-130000551.html"},
+    {"label": "Stocktwits - Wolfspeed GE Aerospace deal drives WOLF stock higher", "url": "https://stocktwits.com/news-articles/markets/equity/wolfspeed-ge-aerospace-deal-drives-wolf-stock-higher/cZ0vJhiR7Gj"},
+    {"label": "Wolfspeed - Dedicated Data Center Solutions Team launch", "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-launches-dedicated-data-center-solutions-team-in-silicon-valley/"},
+    {"label": "Yahoo Finance quote - WOLF", "url": "https://finance.yahoo.com/quote/WOLF/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "The GE Aerospace MOU is genuinely new evidence that the SiC strategic optionality this page tracks is real (10 kV die supply, module standards, AI time-to-power framing), and today's -13.9% is a flow-driven giveback that leaves price flat vs June 5 with better evidence - asymmetry modestly improved at rank 98.",
+      "bull": "GE MOU plus the new data-center solutions team and 3.3 kV modules show Wolfspeed converting distressed assets into AI/defense power relevance; at near-bottom rank the optionality is underpriced.",
+      "neutral": "The MOU is non-binding with no revenue commitment; net two-day price action is flat, so the setup is only marginally better than before the announcement.",
+      "bear": "Post-Chapter-11 equity remains fragile - dilution and balance-sheet distress can still overwhelm any strategic optionality, exactly as the page thesis warns.",
+      "primaryCatalyst": "MOU converting to a binding supply/standards agreement or a hyperscaler design win from the new data-center team",
+      "primaryRisk": "Further dilution or restructuring fallout wiping out common-equity upside"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 83,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "The GE MOU is high-voltage industrial/aero SiC - orthogonal to this page's CPO/HBM/advanced-packaging/test lens - so yesterday's removal call stands; +152% YTD on a $2.3B cap with no page-relevant evidence keeps the asymmetry poor.",
+      "bull": "If AI data-center power architectures (solid-state transformers, HVDC) become a recognized bottleneck adjacent to CPO power delivery, Wolfspeed gains tangential relevance.",
+      "neutral": "News flow is real but off-thesis for this list; the stock round-tripped the MOU pop, leaving the page-specific case unchanged.",
+      "bear": "Zero direct CPO/HBM/packaging exposure plus restructuring-tainted equity makes this the weakest holding on an actionable alpha list - removal remains correct.",
+      "primaryCatalyst": "Evidence of Wolfspeed SiC content in hyperscaler rack power architectures",
+      "primaryRisk": "Continued crowding into an off-thesis name that then unwinds on dilution news"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 43,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "GE MOU is directly on this page's thesis - high-voltage SiC for solid-state transformers and faster time-to-power is exactly the AI power-density scaling story - and the -13.9% flow-driven flush improves entry with the new evidence intact.",
+      "bull": "10 kV MOSFET standardization with GE Aerospace plus 50% sequential AI-datacenter revenue growth validates SiC as a power-density scaling lever before the market prices it.",
+      "neutral": "MOU is non-binding and AI datacenter revenue is off a tiny base; the two-day round-trip shows the market is unwilling to underwrite execution yet.",
+      "bear": "Very-high-risk balance sheet means any macro or SiC-pricing wobble forces dilution, and the +152% YTD already embeds substantial recovery hope.",
+      "primaryCatalyst": "Binding follow-on to the GE MOU or quantified AI data-center design wins at next earnings",
+      "primaryRisk": "Execution stumble on the new high-voltage roadmap while the post-restructuring capital structure remains stressed"
+    },
+    {
+      "page": "companies",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's call was removal until the post-restructuring dilution/utilization/profitability path clears, and a non-binding MOU with no revenue attached does not resolve any of those questions - no basis to reverse, no new negative either.",
+      "bull": "The GE partnership and data-center team are early proof the power-delivery content thesis can be rebuilt on credible anchor customers.",
+      "neutral": "Net price is flat vs pre-MOU and the balance-sheet questions that drove the removal call are untouched; today's -14% is noise around Monday's pop.",
+      "bear": "A 152% YTD rerating on a restructured equity with unresolved dilution overhang is exactly the post-rerating chase this page penalizes.",
+      "primaryCatalyst": "Clarity on post-restructuring share count, fab utilization, and a path to positive free cash flow",
+      "primaryRisk": "Equity dilution or covenant stress resurfacing and crushing the recovery premium"
+    }
+  ]
+}

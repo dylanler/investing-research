@@ -1,0 +1,52 @@
+{
+  "symbol": "DSCV.L",
+  "company": "discoverIE Group",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The dominant recent event remains the June 3 FY26 prelims (revenue +5% to GBP443.3m, adj EPS +4% to 40.3p, Q4 organic orders +14%, three acquisitions for GBP95m combined, dividend +4%, positive FY27 outlook with orders running ahead of sales), which was already incorporated into the June 8 verdicts. Today's -2.5% looks like post-results digestion/flow, not fundamental; sell-side targets (avg ~875-891p, Stifel/JPM at 1,000p) sit well above the 695p price.",
+  "sources": [
+    {"label": "LSE RNS - discoverIE Preliminary Results (3 Jun 2026)", "url": "https://www.londonstockexchange.com/news-article/DSCV/preliminary-results/17620487"},
+    {"label": "Proactive Investors - discoverIE starts new financial year strongly as orders surge", "url": "https://www.proactiveinvestors.co.uk/companies/news/1093349/discoverie-starts-new-financial-year-strongly-as-orders-surge-and-acquisitions-lift-growth-prospects-1093349.html"},
+    {"label": "StockAnalysis - DSCV analyst forecast and price targets", "url": "https://stockanalysis.com/quote/lon/DSCV/forecast/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's move up already priced in the June 3 prelims (Q4 orders +14%, orders ahead of sales into FY27); nothing genuinely new since June 6, and today's modest -2.5% give-back with the thesis intact slightly improves entry asymmetry rather than changing the rank case.",
+      "bull": "Q4 organic orders +14% and a strong start to FY27 confirm the order-recovery inflection in an underfollowed $0.93B power/connectivity name, with consensus targets ~25-30% above the current price.",
+      "neutral": "The results are now public and partly absorbed; YTD +17.6% is moderate, leaving residual alpha but no fresh catalyst until the AGM/Q1 trading update.",
+      "bear": "Adjusted operating profit grew only 1% and margin progress is slow; if the order surge fades or the GBP95m of acquisitions disappoint, the hidden-gem rerating stalls.",
+      "primaryCatalyst": "Q1/AGM trading update confirming orders still running ahead of sales, plus margin-target progress.",
+      "primaryRisk": "Industrial demand relapse or acquisition integration missteps undercutting the order-recovery narrative."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "The page's listed catalyst (order recovery) was validated by the June 3 prelims, but that evidence was already reflected in yesterday's hold; no new information since June 6 and a -2.5% drift day does not change network position.",
+      "bull": "Third consecutive quarter of organic order growth in Controls and broad demand pick-up across industrial/medical customers validate the quiet power-and-components compounding thesis.",
+      "neutral": "discoverIE remains a diversified industrial electronics compounder; edge-AI/electrification exposure is real but indirect, so it tracks industrial cycle recovery more than AI capex.",
+      "bear": "Only 1% adjusted operating profit growth and acquisition-led expansion into security dilute the AI-adjacency case; the name could stay a generic industrial recovery story.",
+      "primaryCatalyst": "Operating-margin target upgrade or further design-and-manufacture acquisitions in power/sensing niches.",
+      "primaryRisk": "Order momentum proving cyclical restock rather than structural electrification/edge-AI demand."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "The strict-screen pathway (custom sensing/control components adapted to coolant sensing and edge telemetry) is unaffected by anything since June 6; prelims confirm broad order recovery but offer no new AI-chain-specific evidence, so the speculative pathway score stands.",
+      "bull": "A healthier order book and three new acquisitions broaden the custom-electronics platform from which coolant-sensing/edge-telemetry adaptations could emerge.",
+      "neutral": "No disclosed AI-datacenter or liquid-cooling design wins; the pathway remains plausible-but-unproven, exactly as scored.",
+      "bear": "Security-market acquisitions suggest capital is being deployed away from AI-infrastructure adjacency, weakening the strict-pathway optionality.",
+      "primaryCatalyst": "A disclosed design win in datacenter sensing, power conversion, or liquid-cooling instrumentation.",
+      "primaryRisk": "The AI-adjacency pathway never materializes and the name remains a pure industrial cyclical on this strict screen."
+    }
+  ]
+}

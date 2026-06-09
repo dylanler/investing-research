@@ -1,0 +1,35 @@
+{
+  "symbol": "UMIC.BR",
+  "company": "Umicore",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "GlobeNewswire - Umicore transparency notifications by JP Morgan AM (Jun 3, pre-window)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306302/0/en/Umicore-Transparency-notifications-by-JP-Morgan-Asset-Management-Holdings-Inc.html"
+    },
+    {
+      "label": "Umicore newsroom (no new releases in Jun 6-9 window)",
+      "url": "https://www.umicore.com/en/media/newsroom/"
+    },
+    {
+      "label": "Yahoo Finance - Umicore (UMI.BR) quote and news",
+      "url": "https://finance.yahoo.com/quote/UMI.BR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already moved the name down to reconcile the adjusted-score gap; the only fresh disclosures since then are passive-holder 3% threshold filings (and those predate Jun 6), which add zero evidence for the latent AI-power/metal-circularity pathway. No new information and no price signal in the snapshot, so hold with mild drift down on the strict screen.",
+      "bull": "Battery materials plus best-in-class metals recycling gives optionality on datacenter backup power and critical-metal circularity if AI buildout tightens metal loops; restructuring and new CFO could reset the cost base before any such demand arrives.",
+      "neutral": "The AI linkage remains hypothetical, not contracted; recent newsflow is governance and passive-flow filings, leaving the strict-screen case unchanged at a low score with weak evidence.",
+      "bear": "Core EV battery-materials demand is still subdued (Q1 EPS miss, job cuts, paused Ontario plant), and the name could keep absorbing capital as a value trap with no AI revenue ever materializing.",
+      "primaryCatalyst": "Concrete datacenter/backup-power or AI-adjacent metals-recycling contract, or restructuring savings showing up in H1 2026 results (late July).",
+      "primaryRisk": "Continued EV battery-materials demand weakness forcing further guidance cuts, with the latent AI pathway never converting from narrative to revenue."
+    }
+  ]
+}

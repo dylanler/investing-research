@@ -1,0 +1,52 @@
+{
+  "symbol": "CGNX",
+  "company": "Cognex",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Investing.com - JPMorgan upgrades Cognex to Overweight, $75 target (May 26, 2026; predates window)",
+      "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-cognex-stock-rating-on-ai-growth-raises-target-to-75-93CH-4708855"
+    },
+    {
+      "label": "StockAnalysis - CGNX analyst forecast, consensus Buy, ~$76 avg target",
+      "url": "https://stockanalysis.com/stocks/cgnx/forecast/"
+    },
+    {
+      "label": "Yahoo Finance - CGNX press releases (no new releases since Jun 6)",
+      "url": "https://finance.yahoo.com/quote/CGNX/press-releases/"
+    },
+    {
+      "label": "Simply Wall St - Cognex earnings beat and AI vision systems recap",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-cgnx/cognex/news/is-cognexs-earnings-beat-and-new-ai-vision-systems-reshaping"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since Jun 6 and yesterday's verdict already reconciled the +64% YTD rerating; today's newsless -2.8% drift does not change the setup. The 'latent' character keeps eroding at the margin - four major sell-side upgrades (JPM, GS, KeyBanc, Bernstein) and a consensus Buy mean the factory-automation recovery is no longer hidden, justifying a small negative drift rather than a rank move.",
+      "bull": "Q1 beat with EBITDA margins up ~1,000bps to 26.9%, OneVision GA and In-Sight 3900/6900 edge-AI launches show the AI vision flywheel is real; salesforce transformation is reportedly doubling the customer base.",
+      "neutral": "Consensus Buy with ~$76 average target vs $60.65 price leaves modest upside, but all of that is now a well-telegraphed Street view rather than an under-owned insight.",
+      "bear": "At +64% YTD and 4 fresh upgrades, the capex-recovery alpha the thesis required has largely been harvested; any Q2 guidance wobble against 28-31% margin expectations triggers a sharp de-rate.",
+      "primaryCatalyst": "Q2 2026 results confirming 28-31% EBITDA margin guidance and continued logistics/electronics order momentum.",
+      "primaryRisk": "Crowded post-rerating positioning: a factory-automation capex pause or margin miss unwinds the multiple faster than fundamentals deteriorate."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "The page thesis already discounts the rerating and the indirect humanoid link, and nothing since Jun 6 changes either; yesterday's hold at this rank stands. Today's -2.8% pullback is too small to improve asymmetry meaningfully.",
+      "bull": "Machine vision is a genuine enabling layer for any robot that has to perceive parts; edge-AI In-Sight systems and OneVision broaden Cognex beyond classic inspection toward robot guidance.",
+      "neutral": "Cognex earns robotics exposure through factory and logistics vision, not humanoids; the score already reflects sensing purity without humanoid leverage.",
+      "bear": "Humanoid programs largely use commodity cameras plus in-house perception stacks, so the humanoid narrative never accrues to Cognex while the stock already prices an automation recovery.",
+      "primaryCatalyst": "A named design win embedding Cognex vision in a high-volume robotics or humanoid platform.",
+      "primaryRisk": "Robotics investors rotate to purer actuation/perception plays, leaving Cognex as rerated industrial cyclical beta."
+    }
+  ]
+}

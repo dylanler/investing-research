@@ -1,0 +1,39 @@
+{
+  "symbol": "NEO.TO",
+  "company": "Neo Performance Materials",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Yahoo Finance quote - NEO.TO",
+      "url": "https://finance.yahoo.com/quote/NEO.TO/"
+    },
+    {
+      "label": "Investing.com - Neo Performance Materials Q1 2026 earnings call transcript (beat + raised guidance, May event)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-neo-performance-materials-q1-2026-beats-forecasts-stock-dips-93CH-4681420"
+    },
+    {
+      "label": "Neo Performance Materials - Q1 2026 results press release",
+      "url": "https://www.neomaterials.com/neo-performance-materials-reports-first-quarter-2026-results/"
+    },
+    {
+      "label": "TipRanks - Neo starts heavy rare earth separation at Estonia Silmet plant (April announcement)",
+      "url": "https://www.tipranks.com/news/company-announcements/neo-starts-heavy-rare-earth-separation-production-at-estonia-silmet-plant"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already marked it down for the post-rerating chase (+80% YTD on a $1.05B cap), and no new fundamental information has emerged since June 6. Today's -4.85% dip is flow-driven profit-taking with the thesis intact, which marginally improves asymmetry but does not undo the rerating, so hold at #33 with a small positive drift.",
+      "bull": "Only Western-integrated rare-earth-magnet platform with Europe's first sintered magnet plant ramping through customer qualifications in 2026; Q1 EPS of $0.36 crushed estimates and full-year EBITDA guidance was raised to $100-110M, so the robotics/motor supply-chain thesis is being validated by actual numbers.",
+      "neutral": "The fundamental story is real but is now well-discovered: +80% YTD has priced in most of the magnet-onshoring narrative, and a -4.85% no-news day suggests fast money rotating rather than a thesis change either way.",
+      "bear": "China's pause of export controls (until Nov 2026) deflates the scarcity premium that powered the rerating; if magnet pricing normalizes or the Estonia commercial ramp slips, an 80% YTD gainer has a long way to give back.",
+      "primaryCatalyst": "Commercial ramp and customer qualification wins at the Estonia permanent magnet plant in H2 2026, plus any new Western OEM magnet supply contracts.",
+      "primaryRisk": "Crowding unwind: post-rerating multiple compression if China keeps export controls paused and rare-earth scarcity pricing fades."
+    }
+  ]
+}

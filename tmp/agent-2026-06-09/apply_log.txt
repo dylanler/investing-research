@@ -1,0 +1,49 @@
+== ai-passives-alpha (region files) ==
+  - removed from ai-passives-alpha: COHR
+  ai-passives-alpha: 39/49 base scores adjusted
+  ai-passives-alpha: 46/50 base scores adjusted
+  + passives insert (Non-US): Sanyo Denki (6516.T) base 39.5
+== latent broad ==
+  - removed from latent-ai-nodes: FARO
+  latent-ai-nodes: 69/99 base scores adjusted
+  + latent insert: CCC Intelligent Solutions (CCC) base 73.4
+  + latent insert: John Wiley & Sons (WLY) base 73.5
+  + latent insert: Kingspan Group (KRX.IR) base 73.5
+== latent strict ==
+  - removed from latent-ai-nodes-strict: GRC, GTLS
+  latent-ai-nodes-strict: 51/98 base scores adjusted
+== semiconductor-ai-nodes ==
+  semiconductor-ai-nodes: 84/100 base scores adjusted
+== semiconductor-alpha-cpo ==
+  semiconductor-alpha-cpo: 99/120 base scores adjusted
+  + cpo watchlist insert: Techwing (089030.KQ)
+  + cpo watchlist insert: Micronics Japan (6871.T)
+== carbon-vs-silicon ==
+  carbon-vs-silicon: 7/8 scores adjusted
+== robotics ==
+  robotics: 41/50 alphas adjusted (runtime reranks)
+== scaling ==
+  - removed from scaling: POET
+  scaling: 31/49 residual scores adjusted (overlay re-sorts)
+== companies100 ==
+  - removed from companies: WOLF
+  companies: 73/99 scores adjusted
+== agentStockCases merge ==
+  agentStockCases: 3318 -> 3330 keys
+== labels & focus ==
+  label bump: app/page.tsx
+  label bump: app/companies/page.tsx
+  label bump: app/scaling/page.tsx
+  label bump: app/bottleneck/page.tsx
+  label bump: app/carbon-vs-silicon/page.tsx
+  label bump: app/carbon-vs-silicon/CarbonVsSiliconClient.tsx
+  label bump: app/ai-passives-alpha/page.tsx
+  label bump: app/ai-passives-alpha/AiPassivesAlphaClient.tsx
+  label bump: app/semiconductor-alpha-cpo/page.tsx
+  label bump: components/research/CurrentThesisAudit.tsx
+  label bump: components/research/StockCaseHover.tsx
+  label bump: app/signals/SignalsClient.tsx
+  focus text updated: app/ai-passives-alpha/AiPassivesAlphaClient.tsx
+  focus text updated: app/latent-ai-nodes/LatentAiNodesClient.tsx
+  focus text updated: app/semiconductor-ai-nodes/SemiconductorAiNodesClient.tsx
+  focus text updated: app/semiconductor-alpha-cpo/SemiconductorAlphaCpoClient.tsx

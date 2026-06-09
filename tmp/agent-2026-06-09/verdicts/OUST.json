@@ -1,0 +1,27 @@
+{
+  "symbol": "OUST",
+  "company": "Ouster",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Two-day valuation-driven de-rating, not thesis damage: President Capital downgraded OUST to neutral (PT $35) on Monday Jun 8, sending shares down ~15%; today's further -7.5% to $37.83 is profit-taking amplified by worries over a $100M at-the-market offering and recent CTO insider selling (per TipRanks). No new negative fundamental news; the underlying commercialization thesis (record Q1 with revenue +49% y/y, ARGUS counter-drone lidar deal, FieldAI/REV8 industrial-robot partnership, Stereolabs) is intact. Stock is now ~23% off its $49.39 52-week high but still +62% YTD.",
+  "sources": [
+    {"label": "TipRanks - Why Ouster Stock Is Suddenly Sinking Today", "url": "https://www.tipranks.com/news/catalyst/why-ouster-stock-is-suddenly-sinking-today"},
+    {"label": "MarketScreener - Ouster Shares Fall After President Capital Downgrade", "url": "https://www.marketscreener.com/news/ouster-shares-fall-after-president-capital-downgrade-ce7f5adad18cff27"},
+    {"label": "StockTitan - ARGUS Interception and Ouster strategic lidar agreement", "url": "https://www.stocktitan.net/news/OUST/argus-interception-and-ouster-announce-strategic-agreement-to-7y5gv91awmx1.html"},
+    {"label": "Simply Wall St - Ouster and FieldAI target industrial robot fleets with REV8 lidar", "url": "https://simplywall.st/stocks/us/tech/nasdaq-oust/ouster/news/ouster-and-fieldai-target-industrial-robot-fleets-with-rev8"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 20,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "This page's main knock on OUST was crowding and post-rerating chase; a ~23% two-day drawdown on valuation downgrades and dilution fears, with the humanoid/robotics sensor thesis fully intact (ARGUS, FieldAI/REV8, record Q1), partially unwinds that penalty and restores asymmetry. Modest move only: the $100M ATM and CTO selling are real mild negatives and the name is still up 62% YTD with Strong Buy consensus, so it remains well-owned.",
+      "bull": "Pure-play digital lidar with accelerating physical-AI design wins (REV8 color lidar, FieldAI industrial robots, ARGUS counter-UAS, Stereolabs humanoid channel), 49% y/y revenue growth at 43% gross margin and $175M cash/no debt - now buyable 23% below its highs.",
+      "neutral": "The sell-off is valuation/flow-driven, not fundamental; downgrades (President Capital, Cantor) are explicitly valuation calls while 2026 guidance is reaffirmed, so the stock likely consolidates until the next contract or earnings datapoint.",
+      "bear": "A $2.4B cap on ~$200M run-rate revenue still prices in flawless execution; the $100M ATM offering dilutes holders into weakness, insider selling signals a near-term top, and humanoid/defense lidar orders may be lumpier than the rerating assumed.",
+      "primaryCatalyst": "Q2 earnings and new REV8/defense design-win announcements converting the partnership pipeline into bookings.",
+      "primaryRisk": "Further multiple compression plus ATM dilution if momentum money keeps exiting a still-crowded, still-richly-valued name."
+    }
+  ]
+}

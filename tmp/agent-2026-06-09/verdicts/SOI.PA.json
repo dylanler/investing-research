@@ -1,0 +1,40 @@
+{
+  "symbol": "SOI.PA",
+  "company": "Soitec",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Today's -10.4% drop (EUR 156.45 -> 140.15) looks flow-driven: profit-taking on a parabolic +463% YTD AI-photonics re-rating, with sell-side Hold ratings and price targets sitting below the share price. Last fundamental datapoints predate the window: FY26 results (May 27) showed FCF EUR 63M vs ~EUR 6M consensus, Photonics-SOI crossing $100M earlier than expected (Morgan Stanley back-calculated ~$130M, +60-70%), but FY27 profitability flagged as pressured by low fab loading, FX and lower funding.",
+  "sources": [
+    {"label": "Investing.com - Soitec shares surge 14% on FY26 cash flow beat and AI photonics growth", "url": "https://www.investing.com/news/earnings/soitec-shares-surge-14-on-fy26-cash-flow-beat-and-ai-photonics-growth-4713703"},
+    {"label": "Investing.com - Why is Soitec stock down over 4% today? (profit-taking, analyst Holds below price)", "url": "https://www.investing.com/news/stock-market-news/why-is-soitec-stock-down-over-4-today-93CH-4710273"},
+    {"label": "Soitec - FY2026 full-year results press release", "url": "https://www.soitec.com/home/group/newsroom/press-releases/content/2026/05/27/soitec-reports-fiscal-2026-full-year-results"},
+    {"label": "MarketScreener - Soitec: Plenty of light, but still little profit", "url": "https://www.marketscreener.com/news/soitec-plenty-of-light-but-still-little-profit-ce7f58d3d088f420"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's down already priced the post-rerating crowding; at rank 94 there is little residual penalty left, and today's -10.4% flush with the photonics/wafer thesis intact marginally improves asymmetry rather than worsening it.",
+      "bull": "Photonics-SOI crossed $100M ahead of plan and grew 60-70% per Morgan Stanley's back-calculation, validating Soitec as a real consumable input to AI optical interconnect; FCF beat shows the RF-SOI downcycle is being managed.",
+      "neutral": "Core RF-SOI and automotive remain deeply depressed (Mobile Comms -41%), so the AI wafer story is carrying a still-shrinking overall revenue base; rank near the bottom of the list already reflects that.",
+      "bear": "After +463% YTD the stock prices a flawless photonics S-curve while FY27 profitability is guided down on low fab loading, FX and lower public funding; a momentum break can compound fast.",
+      "primaryCatalyst": "Q1 FY27 revenue print (guided ~+15% YoY cc) and Photonics-SOI run-rate confirmation on July 29.",
+      "primaryRisk": "Photonics order timing slips while RF-SOI/auto inventory correction lingers, deflating the only growth leg supporting the re-rating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "The 'hidden enabler' premise of this crowding-sensitive list is consumed: Morgan Stanley call-outs and retail photonics-monopoly write-ups made the substrate angle consensus, and yesterday's down already captured that; today's -10.4% no-news flush partially restores asymmetry, so hold with slight negative drift rather than a second consecutive down.",
+      "bull": "Soitec is effectively the merchant source of Photonics-SOI substrates for silicon photonics/CPO transceivers, a per-port consumable as optics attach rates rise; today's flush offers a slightly better entry into an intact structural thesis.",
+      "neutral": "Optionality is real but no longer hidden; at ~$6B cap and 463% YTD, the market already pays for the CPO substrate story, leaving rank 21 about right after yesterday's demotion.",
+      "bear": "A momentum unwind in a name where photonics is still a minority of revenue could overshoot down, and customer concentration plus the unresolved RF cycle mean the equity is far riskier than the substrate narrative implies.",
+      "primaryCatalyst": "New Photonics-SOI capacity or design-win disclosures tied to CPO/optical interconnect ramps at major foundry customers.",
+      "primaryRisk": "Crowded positioning unwinding faster than fundamentals build - today's -10.4% on no news shows the flow sensitivity of a post-parabolic register."
+    }
+  ]
+}

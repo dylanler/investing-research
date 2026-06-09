@@ -1,0 +1,27 @@
+{
+  "symbol": "2395.TW",
+  "company": "Advantech",
+  "caseDate": "undefined",
+  "newsSinceJun6": "No material company-specific news since June 6. The latest catalysts all predate the window: Computex 2026 edge-AI conference and World Partner Conference ran June 1-4, and a June 4 Digitimes piece detailed Advantech's edge-AI ecosystem/software strategy. Q1 record results (revenue NT$20.39B, +17% YoY, edge AI 20.5% of sales, 30% full-year target, new 100% cash dividend policy) were reported May 6. Today's +3.93% move (YTD now +70.9%) appears flow/momentum-driven post-Computex rather than fundamental.",
+  "sources": [
+    {"label": "BigGo Finance - Advantech Q1 2026 record revenue, edge AI 20.5%, dividend upgrade (May 6, 2026)", "url": "https://finance.biggo.com/news/TW_2395.TW_2026-05-06"},
+    {"label": "Digitimes - Advantech pushes ecosystem strategy as edge AI gains momentum (June 4, 2026)", "url": "https://www.digitimes.com/news/a20260604PD235/advantech-industrial-technology-software-infrastructure.html"},
+    {"label": "Digitimes - Advantech five-year edge AI roadmap, CEO-to-chair transition (May 14, 2026)", "url": "https://www.digitimes.com/news/a20260514PD234/advantech-hardware-software-2026-manufacturing.html"},
+    {"label": "Yahoo Finance quote - 2395.TW", "url": "https://finance.yahoo.com/quote/2395.TW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 80,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a latent/under-owned alpha list, a name the thesis already concedes is 'a recognized edge-computing supplier' rallying another +3.9% on post-Computex momentum (YTD +71%, up from +64% at yesterday's hold) with zero new fundamental evidence since June 6 is residual-alpha erosion, not discovery. The setup has shifted toward crowded post-rerating chase since yesterday's verdict.",
+      "bull": "Edge AI is tracking ahead of plan (20.5% of Q1 revenue vs 30% full-year target) and the new 75-80% cash payout plus NT$2 special dividend gives a shareholder-return floor under a structural physical-AI growth story.",
+      "neutral": "Q2 guidance (US$645-670M, 38-40% GM) implies steady but not accelerating growth; the stock is consolidating Computex enthusiasm and the thesis is intact but fully recognized at ~$13B market cap after a 71% YTD rerate.",
+      "bear": "At +71% YTD the edge-AI optionality is largely priced; component shortages temper margins, and any slip versus the 30% edge-AI mix target or an industrial-PC cycle stall would hit a now-crowded, momentum-held name hard.",
+      "primaryCatalyst": "Monthly revenue prints and H2 evidence that edge AI mix is on the path to the 30% target; follow-through design wins from Computex 2026 partner ecosystem.",
+      "primaryRisk": "Post-Computex momentum unwind: a richly rerated, well-owned name with no incremental news de-rating on any edge-AI mix miss or industrial demand wobble."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "symbol": "VSH",
+  "company": "Vishay Intertechnology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Flow/momentum-press coverage only: retail/momentum articles (Jun 8-9) revisiting the May 13 Q1 beat (rev $839.2M vs ~$823M est, Q2 guide $875-905M vs $857.8M Street) and the >20% AI data-center growth framing; routine $0.10 quarterly dividend (record Jun 18, payable Jun 29); GuruFocus flagged the stock as overvalued after the run. The 200A EV power-module launch was June 3, outside the window. Stock flat today (+0.09%) after the massive YTD rerating (+274.6%).",
+  "sources": [
+    {"label": "Quiver Quantitative - VSH jumps as investors revisit Q1 results and raised outlook", "url": "https://www.quiverquant.com/news/Vishay+Intertechnology+jumps+as+investors+revisit+upbeat+Q1+results,+raised+outlook,+and+shareholder-return+updates"},
+    {"label": "StockTitan - Vishay declares $0.10 quarterly dividend", "url": "https://www.stocktitan.net/news/VSH/vishay-intertechnology-declares-quarterly-fln8h41wt8a7.html"},
+    {"label": "GuruFocus - VSH up 11.6% but GF Value says overvalued", "url": "https://www.gurufocus.com/news/8897520/vishay-intertechnology-inc-vsh-stock-up-116-but-gf-value-says-overvalued-gf-score-62100"},
+    {"label": "TradingView/Zacks - Can AI demand become a meaningful growth engine for Vishay?", "url": "https://www.tradingview.com/news/zacks:3211a05d8094b:0-can-ai-demand-become-a-meaningful-growth-engine-for-vishay-stock/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved VSH down for the +274% YTD rerating; today brought no new fundamentals and a flat tape (+0.09%), so the crowding penalty is priced into the rank. Momentum-chaser coverage (Zacks, GuruFocus, StocksToTrade) keeps eroding the 'underfollowed' leg, hence small negative drift.",
+      "bull": "Tantalum/polymer/film/inductor exposure to AI server PDNs is genuinely bottleneck-critical, AI data-center revenue is guided to grow >20% off a sub-$100M base, and Itzehoe 12-inch capex adds real capacity into the cycle.",
+      "neutral": "Thesis intact but fully discovered: Q1 beat and raised Q2 guide are known, and at $8.8B cap with heavy retail-momentum coverage the name sits between hidden alpha and consensus AI-passives play.",
+      "bear": "A +274% YTD move on a low-margin cyclical (GAAP EPS $0.05 in Q1) leaves little residual alpha; any passives inventory wobble or AI-capex digestion triggers a sharp de-rating from a crowded base.",
+      "primaryCatalyst": "Q2 print (Aug) confirming the $875-905M guide and AI data-center revenue ramping >20%.",
+      "primaryRisk": "Momentum unwind in re-rated AI-passives names; valuation now embeds flawless execution from a historically cyclical business."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Network-centrality lens: Vishay's position in AI power chains (passives, discretes, current sense) is structurally unchanged and no new node-level information emerged since June 6; yesterday's down move already reconciled rank with the rerating, so hold.",
+      "bull": "Every AI power tree still runs through mundane passives and discretes; Vishay's breadth plus the Itzehoe 12-inch fab buildout deepens its centrality as power density per rack climbs.",
+      "neutral": "Centrality is real but commoditized at the edges; AI is still a small (sub-10%) slice of revenue, so the node matters more to the network map than the network does to Vishay's P&L yet.",
+      "bear": "The 'latent' label no longer fits a +274% YTD name with momentum coverage; if AI revenue stays a rounding error versus auto/industrial cyclicality, the node premium fades.",
+      "primaryCatalyst": "Evidence of AI data-center content per rack rising (power infrastructure and optical comms design wins flagged on Q1 call).",
+      "primaryRisk": "Auto/industrial end-market cyclicality swamping the AI signal; capacity adds hitting just as passives pricing normalizes."
+    },
+    {
+      "page": "companies",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Broad audit page already sits VSH at a measured rank 90 after yesterday's down move for the YTD rerating; with no fresh fundamentals and a flat day, there is nothing to re-litigate.",
+      "bull": "Board-level power and passives content scales with AI server unit growth; Q1 beat, raised Q2 guide, and $400-440M capex plan show management leaning into the cycle.",
+      "neutral": "Real but indirect AI exposure inside a diversified cyclical; the score correctly balances content gains against market-cap recognition already received.",
+      "bear": "After a ~4x YTD move, the alpha left at rank 90 is mostly mean-reversion risk; thin GAAP profitability gives little valuation support if the AI-passives narrative cools.",
+      "primaryCatalyst": "Q2 2026 results validating the raised revenue guide and AI-related revenue trajectory.",
+      "primaryRisk": "Post-rerating crowding unwind; passives pricing/inventory cycle turning before AI revenue is large enough to matter."
+    }
+  ]
+}

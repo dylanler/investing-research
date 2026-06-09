@@ -1,0 +1,39 @@
+{
+  "symbol": "PRY.MI",
+  "company": "Prysmian",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Yahoo Finance - PRY.MI quote", "url": "https://finance.yahoo.com/quote/PRY.MI/"},
+    {"label": "Yahoo Finance - PRY.MI news headlines", "url": "https://finance.yahoo.com/quote/PRY.MI/news/"},
+    {"label": "Techzine - Prysmian eyes EUR 4B M&A, hyperscaler deals (background, pre-Jun 6)", "url": "https://www.techzine.eu/news/infrastructure/141036/subsea-cable-maker-prysmian-eyes-e4b-ma-hyperscaler-deals/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "No new fundamental evidence since June 6; today's -4.2% with thesis intact marginally improves entry asymmetry, but at $49B cap, +58% YTD and broad sell-side recognition this is a consensus electrification name, not hidden passive-stack alpha, so rank 72 in the Monitor bucket still fits.",
+      "bull": "Grid/HVDC and data-center cabling demand is structurally supply-constrained, and pending long-term hyperscaler optical contracts could add a fresh leg of backlog the market has not fully priced.",
+      "neutral": "Quality bottleneck-adjacent exposure, but it is one step removed from the passive/power chip stack and already widely owned; the -4.2% dip only trims, not resets, the rerating.",
+      "bear": "At ~30x earnings after a ~150% 12-month run, any HVDC project slippage, copper-spread compression, or hyperscaler capex digestion triggers a sharp de-rating with crowded positioning amplifying the downside.",
+      "primaryCatalyst": "Signing of long-term hyperscaler optical/data-center supply contracts or new HVDC interconnect awards.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any grid-capex or data-center order softness."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Network centrality in power, grid and fiber cabling is unchanged and no new node-level information emerged since June 6; the thesis already discounts that Prysmian is increasingly recognized, so a flow-driven -4.2% day does not move its latent-node standing.",
+      "bull": "Prysmian sits across three AI-era chokepoints at once - HVDC transmission, grid distribution, and optical fiber - giving it rare multi-edge centrality if the hyperscaler framework deals land.",
+      "neutral": "Centrality is real but increasingly priced; +58% YTD means the market has largely found this node, capping incremental latency premium at Medium conviction.",
+      "bear": "If cable capacity additions industry-wide (and Prysmian's own expansion) outpace HVDC/data-center demand, the bottleneck premium erodes and the node loses its scarcity value.",
+      "primaryCatalyst": "EHV/HVDC interconnect awards and finalization of long-term hyperscaler fiber capacity agreements.",
+      "primaryRisk": "Loss of latency premium as the name becomes a fully consensus electrification holding."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "3034.TW",
+  "company": "Novatek Microelectronics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "May 2026 monthly revenue NT$9.412B, +2% MoM and +9.35% YoY (first YoY growth month; cumulative Jan-May still -6.8% YoY), driven by notebook large-size DDIC pull-ins and tablet LCD TDDI shipments, with mobile OLED flat and automotive slightly up. A consumer/display-cycle recovery signal, not AI-bottleneck evidence. No new AI design wins, M&A, capacity or regulatory news since June 6.",
+  "sources": [
+    {"label": "UDN: Novatek May revenue NT$9.412B, YoY and MoM growth, Q2 product lines warming", "url": "https://udn.com/news/story/7253/9548259"},
+    {"label": "TradingView/Quartr: Novatek Q4 met guidance; 2026 growth focus on AI and OLED products", "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:2760651:0-novatek-microelectronics-q4-results-met-guidance-with-margin-gains-2026-growth-to-focus-on-ai-and-oled-products/"},
+    {"label": "Yahoo Finance quote 3034.TW", "url": "https://finance.yahoo.com/quote/3034.TW/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 54,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Yesterday's removal case stands: Novatek's recovery (May revenue +9.35% YoY) is notebook/tablet display-cycle driven, not HBM/advanced-packaging/AI-networking exposure, so it has no claim to a top-55 node on an AI-bottleneck map. +31% YTD on a display-cycle name keeps eroding residual alpha; continue moving it down and out.",
+      "bull": "May revenue inflected to YoY growth and management's 2026 roadmap emphasizes AI and OLED products, so an edge-AI/automotive display SoC angle could re-emerge cheaply at ~13x-type fabless multiples.",
+      "neutral": "A fundamentally fine display-IC franchise in early cyclical recovery, but its AI linkage is indirect; on this page it is misclassified relative to true bottleneck nodes and should keep drifting toward removal.",
+      "bear": "Cumulative 5M revenue is still -6.8% YoY, the recovery rests on panel pull-ins that can reverse, and a 31% YTD rerating leaves the stock paying for a cycle, not an AI thesis.",
+      "primaryCatalyst": "Concrete AI-edge or automotive OLED design wins, or sustained monthly revenue YoY acceleration through Q3 2026.",
+      "primaryRisk": "Consumer/display demand pull-in reversal in H2 plus continued de-rating as the list purges low-relevance AI names."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 113,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Thesis 'Low CPO exposure' is confirmed by the May print: the recovery is notebook DDIC and tablet TDDI, with zero co-packaged-optics relevance; consistent with yesterday's remove call, keep pushing it off the CPO alpha list from rank 113.",
+      "bull": "If the display cycle keeps turning, the stock can work on its own merits (margin guidance 36-39% GM, OLED DDIC mix shift) independent of CPO.",
+      "neutral": "Nothing since June 6 changes its near-zero CPO linkage; at rank 113 it carries no actionable CPO alpha either way and is dead weight on the page.",
+      "bear": "A consumer/display-cycle name up 31% YTD on a CPO list is pure classification noise; flow-driven Taiwan tech beta could unwind on any panel demand wobble.",
+      "primaryCatalyst": "Any genuine optical I/O or silicon-photonics-adjacent product announcement (none evident).",
+      "primaryRisk": "Display/consumer cycle rollover; irrelevance to the CPO supply chain making the position untrackable as alpha."
+    }
+  ]
+}

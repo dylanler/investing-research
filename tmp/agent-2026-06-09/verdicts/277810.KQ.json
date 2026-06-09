@@ -1,0 +1,26 @@
+{
+  "symbol": "277810.KQ",
+  "company": "Rainbow Robotics",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. The story is price action: after an early-June blowoff (intraday ~845,000 KRW on June 2), the stock sold off ~25% to 610,000 by June 8 amid heavy volatility, then bounced +2.13% to 623,000 today on no identifiable catalyst. No new contracts, earnings, capacity, or Samsung announcements found; standing fundamentals remain Samsung's 35% controlling stake, the Future Robotics Office, and planned RB-Y1 deployment on Samsung lines.",
+  "sources": [
+    {"label": "Joongang Economy News - Rainbow Robotics 5-session volatility (June)", "url": "https://www.joongangenews.com/news/articleView.html?idxno=524112"},
+    {"label": "Samsung Newsroom - Samsung becomes largest shareholder in Rainbow Robotics", "url": "https://news.samsung.com/global/samsung-electronics-to-become-largest-shareholder-in-rainbow-robotics-accelerating-future-robot-development"},
+    {"label": "The Robot Report - Samsung stake increase and RB-Y1 factory deployment plans", "url": "https://www.therobotreport.com/samsung-increases-stake-in-rainbow-robotics-establishes-future-robotics-office/"}
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "The ~25% pullback from the June 2 blowoff partially de-crowds a name this page already penalizes as 'crowded and already repriced,' modestly improving asymmetry, but yesterday's verdict already incorporated the 610,000 print and today's +2.1% no-news bounce is drift, not new evidence.",
+      "bull": "Cleanest pure-play public humanoid name in Asia with Samsung as 35% controlling shareholder and a captive deployment channel (RB-Y1 on Samsung manufacturing lines); the drawdown from ~845,000 to ~623,000 restores some entry asymmetry if commercialization milestones land.",
+      "neutral": "Still +26% YTD at a $9.1B cap on minimal revenue; the sell-off mean-reverts hype rather than changing fundamentals, leaving the stock range-bound between Samsung-proxy flows and the absence of disclosed order economics.",
+      "bear": "Valuation remains divorced from revenue, the shareholder base is retail-heavy and flow-driven (intraday swings of 6-11% on no news), and any slip in Samsung's internal deployment timeline or a KOSDAQ robotics de-rating compresses the multiple fast.",
+      "primaryCatalyst": "Disclosed RB-Y1 supply/deployment order from Samsung with unit and revenue specifics, or Samsung Future Robotics Office roadmap announcements.",
+      "primaryRisk": "Crowded retail positioning unwinding further on no news; valuation reset toward fundamentals on a tiny revenue base."
+    }
+  ]
+}

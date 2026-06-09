@@ -1,0 +1,52 @@
+{
+  "symbol": "VRT",
+  "company": "Vertiv",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new fundamental news since June 6. Stock fell -5.31% on June 9 as part of a roughly -12% weekly pullback in AI data-center infrastructure names driven by valuation concerns (P/E ~74x vs ~37x peers), profit-taking after a 62% YTD run, and insider-selling headlines. The move looks flow-driven, not fundamental: sell-side raised targets into the drawdown (TD Cowen to $387, Mizuho to $380, Goldman to $352, Roth to $355, all Buy/Outperform) and the only firm-specific item was a routine $0.0625/share quarterly dividend declared June 3. FY26 guidance of $13.5-14.0B sales (29-31% organic growth) remains intact.",
+  "sources": [
+    {
+      "label": "TIKR - Vertiv fell 12% this week, analyst target raises and 2026 outlook",
+      "url": "https://www.tikr.com/blog/vertiv-fell-12-this-week-heres-where-the-stock-is-headed-in-2026"
+    },
+    {
+      "label": "Quiver Quant - Vertiv shares slide as investors reassess data-center cooling demand and competition risks",
+      "url": "https://www.quiverquant.com/news/Vertiv+shares+slide+as+investors+reassess+data-center+cooling+demand+and+competition+risks"
+    },
+    {
+      "label": "SEC 8-K (June 3, 2026) - Vertiv quarterly dividend declaration",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026040031/exhibit991vrt-q22026divide.htm"
+    },
+    {
+      "label": "Yahoo Finance - Vertiv valuation after multi-year gains and recent pullback",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/look-vertiv-holdings-vrt-valuation-151107984.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 73,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive alpha list, a -5.3% day inside a ~12% weekly washout with the bottleneck thesis fully intact (analysts raising targets into the drop, FY26 guidance unchanged) modestly improves residual asymmetry by flushing momentum money. It does not de-crowd a $115B name up 62% YTD, so the move up from rank 73 is small.",
+      "bull": "Forced/momentum sellers are exiting a structurally scarce power-and-cooling franchise while orders, guidance, and sell-side targets all point higher; the entry asymmetry is better than at any point since the rerating.",
+      "neutral": "A 5-12% pullback after a 62% YTD run is normal mean reversion in a crowded AI infrastructure trade; the name stays a rerated benchmark, not a hidden alpha source.",
+      "bear": "74x P/E versus ~37x for peers leaves no room for order-growth or margin slippage, and insider selling plus institutional trimming suggest smart money sees the rerating as complete.",
+      "primaryCatalyst": "Q2 earnings and order/backlog growth confirming the 29-31% organic-growth guide, which would re-arm the stock after the multiple compression.",
+      "primaryRisk": "Continued AI-infrastructure de-rating: as the most-owned pure play in the trade, VRT absorbs disproportionate outflows if the sector unwind extends."
+    },
+    {
+      "page": "companies",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the bottleneck-exposure lens, nothing changed fundamentally since June 6 - liquid cooling and power infrastructure scarcity is intact and guidance unchanged - so rank 17 holds; the flow-driven pullback only slightly improves the score's valuation balance after yesterday's move down.",
+      "bull": "Unchanged FY26 guide of $13.5-14.0B with 29-31% organic growth plus four target raises into the sell-off confirm the power-and-cooling bottleneck position is strengthening, now at a modestly cheaper price.",
+      "neutral": "The week's decline is valuation digestion, not a thesis event; bottleneck exposure, market cap, and YTD rerating are all roughly where yesterday's audit left them.",
+      "bear": "Investors are starting to reassess cooling-demand durability and competition risk; if liquid-cooling competition compresses pricing, the premium multiple unwinds faster than orders grow.",
+      "primaryCatalyst": "New hyperscaler/AI-factory capacity awards or Q2 order numbers demonstrating backlog acceleration in liquid cooling and power systems.",
+      "primaryRisk": "Execution and pricing pressure as competitors scale liquid-cooling capacity, eroding the scarce-bottleneck premium embedded in the 73.0 score."
+    }
+  ]
+}

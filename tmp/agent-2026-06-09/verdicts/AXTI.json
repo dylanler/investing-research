@@ -1,0 +1,29 @@
+{
+  "symbol": "AXTI",
+  "company": "AXT",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific fundamentals since June 6: no earnings (next report July 30), no contract or guidance news from AXT itself. The -13.6% June 9 flush (now ~35% off the early-June ~$120 high) is a de-rating/flow event: CEO Morris Young's Form 4 (197,498 shares sold June 1-2 at $107.70-$121.48, ~$22M, disclosed last week) deepened distribution fears after a +368% YTD parabolic run, amplified by circulating bear narratives - one industry stakeholder rejecting the InP-bottleneck thesis and a competitor's 7-year supply pact with Sumitomo Electric. Offsetting: Northland raised its PT to $125 from $90 on June 5, backlog >$100M, and the staged InP capacity doubling through 2027 (funded by the April $632.5M raise) remains on track. Judgment: today's move is predominantly flow-driven (insider-sale overhang + crowding unwind), with a minor fundamental-narrative component (bottleneck skepticism); the core 40%-share InP substrate thesis is questioned but not broken.",
+  "sources": [
+    {"label": "StockTitan - AXT CEO exercises options, sells 197,498 shares (Form 4)", "url": "https://www.stocktitan.net/sec-filings/AXTI/form-4-axt-inc-insider-trading-activity-c50b2c11d6ec.html"},
+    {"label": "TipRanks - AXT Stock Tumbles as Insiders Cash In", "url": "https://www.tipranks.com/news/catalyst/axt-stock-tumbles-as-insiders-cash-in"},
+    {"label": "Yahoo Finance - Why AXT Is Down 7.8% After $632.5M InP Expansion Equity Raise", "url": "https://finance.yahoo.com/markets/stocks/articles/why-axt-axti-down-7-130348546.html"},
+    {"label": "Seeking Alpha - AXT plans to double InP capacity again in 2027, Q2 GAAP EPS guide $0.05-$0.07", "url": "https://seekingalpha.com/news/4583540-axt-outlines-plans-to-double-indium-phosphide-capacity-again-in-2027-while-guiding-q2-gaap"},
+    {"label": "GuruFocus - AXTI Faces Caution Due to InP Supply Chain Concerns", "url": "https://www.gurufocus.com/news/8723624/axti-faces-caution-due-to-inp-supply-chain-concerns"},
+    {"label": "Yahoo Finance - AXTI quote", "url": "https://finance.yahoo.com/quote/AXTI/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's verdict already cut the name for post-rerating crowding, and today's -13.6% flush (~35% off the high) is exactly that de-rating playing out - it partially restores asymmetry on this crowding-sensitive alpha screen, so no second down-move. But the flush was triggered by CEO distribution and InP-bottleneck skepticism, not pure flow, so it doesn't earn an upgrade either.",
+      "bull": "AXT holds ~40% of the global InP substrate market feeding optical interconnects/CPO, carries a >$100M AI-tied backlog, and a fully funded capacity doubling through 2027; a 35% drawdown with the bottleneck position intact rebuilds asymmetric upside, and Northland just raised its PT to $125.",
+      "neutral": "Still +368% YTD at a $7.2B cap on roughly $100M annualized revenue; one washout day does not make the name hidden again, and the next hard datapoint is July 30 earnings, leaving the stock hostage to narrative flow until then.",
+      "bear": "The CEO sold ~$22M at the top right after a dilutive $632.5M raise, an industry stakeholder publicly rejected the InP-bottleneck premise, and a 7-year supply agreement went to competitor Sumitomo - if the bottleneck narrative cracks, an equity-financed capacity doubling becomes a margin and dilution trap.",
+      "primaryCatalyst": "Q2 earnings/guidance on July 30 confirming InP backlog conversion and 6-inch InP qualification with AI optical-interconnect customers.",
+      "primaryRisk": "The InP-bottleneck thesis deflates (customers dual-source via Sumitomo or design around InP) just as equity-funded capacity comes online, compounded by continued insider distribution."
+    }
+  ]
+}

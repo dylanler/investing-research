@@ -1,0 +1,40 @@
+{
+  "symbol": "SKYT",
+  "company": "SkyWater Technology",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. Structural overhang confirmed: SKYT is pinned to the IonQ acquisition (announced Jan 26, 2026; $35.00/share cash-and-stock, ~$1.8B; shareholders approved May 8; FTC second request issued Apr 24 extends HSR review; close still guided Q2/Q3 2026). At $35.23 vs the $35.00 deal value, today's -4.4% is merger-arb/flow-driven, tracking the IONQ stock-consideration leg, not fundamentals. Annual meeting June 10 is procedural and will be cancelled if the deal closes first.",
+  "sources": [
+    {"label": "IonQ to Acquire SkyWater Technology ($1.8B, $35/share) - IonQ press release", "url": "https://www.ionq.com/news/ionq-to-acquire-skywater-technology-creating-the-only-vertically-integrated-full-stack-quantum-platform-company"},
+    {"label": "SkyWater stockholders approve IonQ merger (May 8, 2026) - Business Wire", "url": "https://www.businesswire.com/news/home/20260508584062/en/SkyWater-Technology-Stockholders-Approve-Merger-Agreement-with-IonQ"},
+    {"label": "FTC Second Request on IonQ/SkyWater merger (Apr 24, 2026 8-K) - StockTitan", "url": "https://www.stocktitan.net/sec-filings/IONQ/8-k-ion-q-inc-reports-material-event-95659c3f0160.html"},
+    {"label": "SkyWater 2026 proxy: June 10 annual meeting amid pending IonQ merger - StockTitan", "url": "https://www.stocktitan.net/sec-filings/SKYT/def-14a-sky-water-technology-inc-definitive-proxy-statement-6f4f25a897ff.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 6,
+      "rankMove": "down",
+      "scoreDelta": -7,
+      "confidence": 0.85,
+      "rankRationale": "On an alpha list that rewards hidden, asymmetric bottleneck upside, SKYT no longer qualifies: it trades at $35.23 against a $35.00 takeover price, so standalone CPO/advanced-packaging upside is capped at deal consideration while an unresolved FTC second request leaves real deal-break downside. The asymmetry is inverted relative to the page's thesis.",
+      "bull": "The deal closes in Q2/Q3 2026 and the stock component gives some IONQ-linked upside; if the FTC blocks it, SkyWater keeps a strategically scarce US trusted-foundry franchise plus a likely break fee.",
+      "neutral": "Stock is a merger-arb stub pinned near $35; daily moves track IONQ shares and spread mechanics, not the CPO/packaging thesis the page is ranking.",
+      "bear": "FTC second request drags or kills the deal and the stock retraces a large part of its deal-driven YTD run, with the standalone story still loss-making (Q1 net loss widened to $12.3M).",
+      "primaryCatalyst": "FTC clearance / HSR waiting-period expiry enabling a Q2-Q3 2026 close",
+      "primaryRisk": "Deal break on antitrust review, removing the $35 floor and forcing a re-rate to standalone fundamentals"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 14,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.7,
+      "rankRationale": "The sovereign-AI foundry asset itself stays strategically relevant, but the page tracks investable equity leverage and SKYT's ticker is set to disappear into IonQ by Q2/Q3 2026 with value capped at the $35 cash-and-stock consideration; a watchlist slot at rank 14 overstates remaining leverage to the theme.",
+      "bull": "Until close, the stock leg of the consideration provides quantum/sovereign-compute optionality, and a deal break would leave a scarce US-flagged specialty foundry (Fab 25 doubled revenue to $160.7M in Q1) back in play standalone.",
+      "neutral": "Sovereign supply-chain fit is unchanged, but the equity now expresses merger-arb spread and IONQ beta rather than US specialty-foundry scaling exposure.",
+      "bear": "Deal closes and the listing is delisted with capped returns, or the FTC review stretches and the arb spread widens with no thesis-relevant payoff either way.",
+      "primaryCatalyst": "Merger completion or a definitive FTC outcome in Q2-Q3 2026",
+      "primaryRisk": "Ticker absorption into IonQ eliminates direct exposure; deal break re-prices the equity well below the $35 pin"
+    }
+  ]
+}

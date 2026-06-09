@@ -1,0 +1,27 @@
+{
+  "symbol": "UFPI",
+  "company": "UFP Industries",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "UFP Industries newsroom / filings (no releases since Jun 6)", "url": "https://www.ufpinvestor.com/news-filings-reports"},
+    {"label": "Stockanalysis.com UFPI overview - analyst consensus and recent actions", "url": "https://stockanalysis.com/stocks/ufpi/"},
+    {"label": "Sahm Capital - UFP packaging acquisition (John Rock, May 2026, pre-window)", "url": "https://www.sahmcapital.com/news/content/ufp-industries-acquisition-builds-packaging-scale-and-valuation-upside-potential-2026-05-06"},
+    {"label": "GuruFocus - Q1 2026 earnings call highlights (Apr 2026, pre-window)", "url": "https://www.gurufocus.com/news/8836318/ufp-industries-inc-ufpi-q1-2026-earnings-call-highlights-navigating-challenges-with-strategic-acquisitions-and-strong-liquidity"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the +2.81% day move is sub-threshold sector drift, not new evidence on the modular-industrial/packaging pathway. Yesterday's hold stands - the latent-node setup (under-owned, -9.6% YTD, $4.7B cap) is unchanged.",
+      "bull": "Pallet/packaging roll-up (John Rock, Berry Pallets) quietly scales the logistics-and-industrial-packaging footprint that would feed any modular data-center and industrial buildout, while the stock sits near YTD lows with a $103-111 consensus target ~25-33% above spot.",
+      "neutral": "Q1 revenue fell 8% with EPS $0.89 vs $1.30 and management guides demand to the lower end for 2026; the AI-adjacent thesis remains latent optionality on a cyclical construction-products business, with $25M of cost-outs the main self-help lever.",
+      "bear": "This is fundamentally a lumber/housing-cycle name; if construction demand stays weak through 2026 the AI-node pathway never activates and the stock tracks housing sentiment, not the compute supply chain.",
+      "primaryCatalyst": "Q2 2026 earnings (late July) showing packaging/industrial segment stabilization or evidence of data-center/modular construction demand in Site Built and Packaging segments",
+      "primaryRisk": "Prolonged weak lumber pricing and housing/construction demand keeps revenue and margins compressed regardless of any AI-infrastructure linkage"
+    }
+  ]
+}

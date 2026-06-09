@@ -1,0 +1,53 @@
+{
+  "symbol": "CAMT",
+  "company": "Camtek",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No new company-specific news since June 6. Controlling context: June 2 announcement of >$105M multi-system orders ($55M from a tier-1 OSAT for 2.5D/3D AI devices, >$50M Hawk systems from a leading HBM manufacturer, all 2027 delivery) spiked the stock ~15% to ~$187.5; since then shares have round-tripped essentially the entire move (now $165.15, near the pre-announcement ~$163), aided by a post-spike Stifel downgrade to Hold on valuation. Today's -2.09% looks like flow-driven digestion, not a fundamental break - the 2027 backlog evidence is intact while the rerating has unwound.",
+  "sources": [
+    {"label": "PR Newswire - Camtek receives over $105M multi-system orders from tier-1 OSAT and leading HBM manufacturer (Jun 2, 2026)", "url": "https://www.prnewswire.com/news-releases/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-osat-and-a-leading-hbm-manufacturer-302788351.html"},
+    {"label": "StockTitan - Camtek lands $105M+ AI inspection orders for 2027", "url": "https://www.stocktitan.net/news/CAMT/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-1o1lela3cgjb.html"},
+    {"label": "Yahoo Finance - Camtek up after securing US$105M in AI-focused inspection orders", "url": "https://finance.yahoo.com/markets/stocks/articles/camtek-camt-8-2-securing-091121157.html"},
+    {"label": "Investing.com - Cantor Fitzgerald maintains Camtek rating on packaging outlook; Stifel valuation downgrade context", "url": "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-maintains-camtek-stock-rating-on-packaging-outlook-93CH-4676481"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 4,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On a picks-and-shovels WFE list, the setup has improved since yesterday's hold: the stock has now fully round-tripped the June 2 order spike (back to ~pre-announcement $165) while carrying $105M of fresh 2027 HBM/OSAT backlog, so residual alpha per dollar of price is better than when the hold was issued at higher levels.",
+      "bull": "Hawk wins at a leading HBM maker plus a tier-1 OSAT order directly confirm inspection intensity scaling with HBM stacks and 2.5D/3D packaging, and the market is no longer paying for that confirmation after the retrace.",
+      "neutral": "The orders were announced June 2 and are 2027 deliveries; near-term estimates are unchanged and the stock is still up 43% YTD, so this is a modest asymmetry improvement, not a new thesis.",
+      "bear": "Advanced packaging capex is lumpy and concentrated; a pause in HBM equipment spend or OSAT digestion in 2H26 would hit a $8B-cap single-product-family story hard.",
+      "primaryCatalyst": "Further HBM4/2.5D inspection orders or Q2 earnings confirming backlog conversion and 2027 visibility.",
+      "primaryRisk": "HBM/advanced-packaging capex digestion compressing order momentum after the 2027 deliveries are booked."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 5,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, the post-spike unwind is the point: the +15% June 2 chase has fully reversed (peak ~$187.5 to $165.15) while the chiplet/HBM inspection evidence stands, so crowding is down and asymmetry is up versus yesterday's hold.",
+      "bull": "A near-complete round-trip of a fundamentally-driven spike leaves a smaller, less-owned inspection name priced as if the $105M 2027 backlog never happened.",
+      "neutral": "At 43% YTD and rank 5 with score 89.7, much of the advanced-packaging inspection story is already recognized; this is a +1-rank setup tweak, not a rediscovery.",
+      "bear": "Stifel's valuation downgrade signals the multiple is the constraint; if AI packaging capex sentiment sours, high-multiple mid-caps like CAMT de-rate faster than the megacaps.",
+      "primaryCatalyst": "New design-win or multi-system order announcements extending the HBM/Hawk franchise beyond the June 2 customers.",
+      "primaryRisk": "Crowding re-forms quickly on any bounce, capping alpha; advanced packaging capex cycle turning down."
+    },
+    {
+      "page": "companies",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Already rank 2 in the advanced packaging & substrates bucket with little headroom; the June 2 order book supports the packaging-scarcity thesis and the retrace is mildly favorable, but nothing since June 6 justifies displacing the top name.",
+      "bull": "$105M of 2027-delivery orders from a tier-1 OSAT and a leading HBM maker is direct evidence the packaging-scarcity bottleneck is converting into Camtek's order book.",
+      "neutral": "Round-trip to pre-announcement price with backlog intact keeps the risk/reward balanced at rank 2; YTD has cooled to 43% from the levels cited in yesterday's audit.",
+      "bear": "Order lumpiness cuts both ways - the next quarters could show an air pocket between the June 2 mega-orders and 2027 deliveries, pressuring a stock still up 43% YTD.",
+      "primaryCatalyst": "Q2 2026 results and order commentary validating sustained 2.5D/3D and HBM inspection demand.",
+      "primaryRisk": "Advanced packaging equipment order air pocket or HBM customer concentration disappointing against a rerated multiple."
+    }
+  ]
+}

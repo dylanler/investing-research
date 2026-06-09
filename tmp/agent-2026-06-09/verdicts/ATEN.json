@@ -1,0 +1,35 @@
+{
+  "symbol": "ATEN",
+  "company": "A10 Networks",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Ad-hoc-news: ATEN edges lower on NYSE amid quiet news flow",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/a10-networks-inc-stock-us00108j1097-aten-edges-lower-on-nyse-amid-quiet/69461153"
+    },
+    {
+      "label": "A10 Networks investor relations - news (no releases since Jun 6)",
+      "url": "https://investors.a10networks.com/news-events/news/default.aspx"
+    },
+    {
+      "label": "Yahoo Finance ATEN quote",
+      "url": "https://finance.yahoo.com/quote/ATEN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new contracts, guidance, or analyst moves since June 6; today's -1.9% is quiet-tape drift, not a setup change. On a crowding-sensitive alpha list, +75% YTD with no fresh fundamental evidence since the Q1 AI build-out disclosure argues for mild score decay, not a rank move beyond yesterday's hold.",
+      "bull": "Q1 showed 13.4% revenue growth with an AI infrastructure technology-partner win already at ~5% of revenue; reiterated 10-12% growth and 28-30% EBITDA margin guidance gives the AI-traffic security thesis real earnings support at a still-small $2.2B cap.",
+      "neutral": "Thesis intact but fully reflected in the +75% YTD rerating; sell-side stance is neutral-to-constructive with no dominant narrative, so the stock likely drifts until the next AI-customer revenue datapoint at Q2 earnings.",
+      "bear": "Residual alpha is thinning after the rerating; if AI build-out revenue proves lumpy or the single large AI customer pauses, a $2.2B cap pricing in sustained double-digit growth has meaningful downside.",
+      "primaryCatalyst": "Q2 2026 earnings showing AI infrastructure customer revenue scaling beyond the ~5% Q1 contribution, or a second named AI design win.",
+      "primaryRisk": "Post-rerating crowding: +75% YTD with no incremental evidence leaves the name vulnerable to multiple compression on any AI-spend lumpiness."
+    }
+  ]
+}

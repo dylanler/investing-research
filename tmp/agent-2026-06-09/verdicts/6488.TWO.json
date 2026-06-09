@@ -1,0 +1,52 @@
+{
+  "symbol": "6488.TWO",
+  "company": "GlobalWafers Co., Ltd.",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {
+      "label": "Digitimes (May 26, 2026): GlobalWafers to increase prices, targets 4Q26 square-wafer shipments, Asia capacity fully booked",
+      "url": "https://www.digitimes.com/news/a20260526PD214/globalwafers-shipments-wafer-capacity-asia.html"
+    },
+    {
+      "label": "SemiMedia: GlobalWafers plans silicon wafer price increases as AI and automotive demand recover",
+      "url": "https://www.semimedia.cc/globalwafers-plans-silicon-wafer-price-increases-as-ai-and-automotive-demand-recover/"
+    },
+    {
+      "label": "Digitimes (May 6, 2026): GlobalWafers outlines 2026 recovery path, tightening 12-inch wafer supply",
+      "url": "https://www.digitimes.com/news/a20260506PD221/globalwafers-2026-recovery-12-inch-wafer.html"
+    },
+    {
+      "label": "Yahoo Finance quote 6488.TWO",
+      "url": "https://finance.yahoo.com/quote/6488.TWO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No material news since June 6; the bottleneck case (12-inch wafers at full utilization, 2H26 price hikes, Asia capacity fully booked) was public by late May and is intact, so the node-criticality ranking holds. Today's +4.56% on no catalyst is drift, not new evidence, and the name already slipped from rank 22 to 25.",
+      "bull": "12-inch production running at full utilization with visibility into 3Q, Asia capacity fully booked, and management pushing 2H26 price increases - a genuine upstream supply constraint for AI fab and HBM capacity additions.",
+      "neutral": "Wafers are a real but indirect AI lever; consensus 2026 revenue/EPS estimates have actually been trimmed (NT$70.8b to NT$65.1b revenue), so the price-hike narrative is running ahead of reported numbers.",
+      "bear": "Up ~99% YTD with the stock now pricing in a full wafer-cycle recovery; any delay in price-hike acceptance by customers or a capex digestion pause hits a doubled stock hard.",
+      "primaryCatalyst": "Confirmation of 2H26 wafer ASP increases in customer contracts and monthly revenue prints showing the recovery flowing through.",
+      "primaryRisk": "Wafer cycle stalls or customers resist price hikes while the stock has already doubled, compressing the rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 9,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive alpha list, another +4.56% day with zero fresh news on top of +99% YTD further erodes the 'less glamorous, under-owned' premise that justified rank 9; yesterday's down call is extended, not reversed, by today's flow-driven action. CPO linkage was always indirect, so residual page-specific alpha is thin.",
+      "bull": "Materials levers stay cheap relative to optics names even after the run, and fully booked Asia capacity plus 2H26 price hikes give earnings support the CPO crowd is not focused on.",
+      "neutral": "Thesis intact but discovered: a doubled wafer stock is no longer hidden, and its connection to CPO/optical interconnect specifically is second-order at best.",
+      "bear": "Crowded post-rerating chase into an indirect CPO beneficiary; consensus 2026 EPS cuts (NT$21.26 to NT$18.54) mean the stock is rerating on narrative while estimates fall - classic negative-asymmetry setup.",
+      "primaryCatalyst": "2H26 contract price increases landing above expectations or new long-term agreements tied to advanced-packaging wafer demand.",
+      "primaryRisk": "Momentum unwind in a name up ~99% YTD with falling consensus estimates and only an indirect CPO link."
+    }
+  ]
+}

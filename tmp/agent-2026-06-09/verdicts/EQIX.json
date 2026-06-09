@@ -1,0 +1,28 @@
+{
+  "symbol": "EQIX",
+  "company": "Equinix",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Routine insider sale by CPO Brandi Morandi (3,726 shares, June 8) and a boilerplate Halper Sadeh fiduciary-duty investigation press release (June 5) are noise. Citi added EQIX to its Focus List on June 3 (pre-window, already in price). Backdrop unchanged: record Q1 2026, raised FY26 guidance on AI demand, ~60% of largest deals AI-tied, 8 of top 10 AI model providers expanding in-facility, liquid-cooling deployments +50% q/q. Stock flat today (-0.03%) after +39% YTD.",
+  "sources": [
+    {"label": "GuruFocus - Citi Focus List / Buy on EQIX (Jun 3)", "url": "https://www.gurufocus.com/news/8898454/equinix-eqix-receives-favorable-outlook-from-citi-analyst"},
+    {"label": "GuruFocus - Insider sale Brandi Morandi (Jun 8)", "url": "https://www.gurufocus.com/news/8906547/equinix-inc-eqix-insider-sell-brandi-morandi-sells-3726-shares"},
+    {"label": "PRNewswire - Halper Sadeh investigation (Jun 5)", "url": "https://www.prnewswire.com/news-releases/did-equinix-inc-insiders-breach-their-fiduciary-duties-to-shareholders-302792914.html"},
+    {"label": "Simply Wall St - EQIX valuation after raised AI-demand guidance", "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/a-look-at-equinix-eqix-valuation-after-raised-guidance-on-ai"},
+    {"label": "AI Consulting Network - Equinix Q1 2026 AI inference demand", "url": "https://www.theaiconsultingnetwork.com/blog/equinix-q1-2026-ai-inference-data-center-reit-cre-investors"}
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's verdict already moved EQIX up on the AI colocation evidence; nothing genuinely new has emerged since June 6 and the stock is flat today, so the setup is unchanged. The Citi Focus List add and the +39% YTD rerating slightly erode the under-owned residual alpha this page rewards, hence small negative drift rather than another move.",
+      "bull": "Equinix is a true physical bottleneck: 46 active builds across 32 markets, $4.1B 2026 capex, 8 of the top 10 AI model providers expanding in-facility, and liquid-cooling retrofits growing 50% q/q while AI-grade colocation supply stays scarce.",
+      "neutral": "Record Q1 and raised FY26 guidance are real but already disclosed and rewarded; at $104.6B market cap and +39% YTD with sell-side Focus List coverage, this is a well-followed mega-cap, not a hidden bottleneck play.",
+      "bear": "The rerating has front-run the fundamentals: any slowdown in AI inference colocation bookings, power-procurement delays, or REIT rate sensitivity hits a stock priced for continued beat-and-raise, and insiders are trimming.",
+      "primaryCatalyst": "Q2 2026 earnings and bookings update (AI deal mix, atNorth integration, capacity/power adds) plus any new hyperscaler or neocloud capacity commitments.",
+      "primaryRisk": "Crowding after the +39% YTD run; rate-driven REIT multiple compression or AI colocation bookings deceleration would unwind the rerating with little residual alpha cushion."
+    }
+  ]
+}

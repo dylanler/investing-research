@@ -1,0 +1,48 @@
+{
+  "symbol": "SENS.SW",
+  "company": "Sensirion Holding",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. Nearest items: Sensirion is exhibiting at Sensor+Test in Nuremberg (June 9-11, marketing, not material), and sell-side consensus shows a trimmed price target (~CHF 79.75-88.2 average across 5 analysts) versus the current CHF 80.8 print, i.e. the stock now trades roughly at consensus fair value after a +30% YTD run. FY2025 results (revenue CHF 342.4M, +29.2% lc) and 2026 guidance (CHF 335-360M, mid-to-high-teens EBITDA margin) are stale, pre-June 6 information. Day move -0.37% is noise.",
+  "sources": [
+    {
+      "label": "Sensirion press releases - FY2025 results and 2026 guidance",
+      "url": "https://sensirion.com/company/news/press-releases-and-news/article/strong-revenue-and-profitability-growth-amid-challenging-markets-underlining-sensirions-resilience-reinforced-momentum-for-longterm-strategic-growth"
+    },
+    {
+      "label": "MarketScreener - Sensirion analyst consensus and price targets",
+      "url": "https://www.marketscreener.com/quote/stock/SENSIRION-HOLDING-AG-42452451/consensus/"
+    },
+    {
+      "label": "Yahoo Finance - SENS.SW quote",
+      "url": "https://finance.yahoo.com/quote/SENS.SW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "No new design wins or contracts since June 6 and yesterday's verdict was already a hold; on this alpha lens the +30% YTD rerating without fresh fundamental evidence leaves the stock at roughly consensus fair value (CHF 80.8 vs ~CHF 88 average target), so residual alpha drifts slightly lower but nothing justifies a rank change.",
+      "bull": "Sensirion is the quality pure-play on the environmental-sensing measurement layer (flow, humidity, gas, CO2) feeding cooling/HVAC, robotics and edge AI; 2026 guidance of 5-12% lc growth with new SCD53 self-calibrating CO2 sensor extends the moat.",
+      "neutral": "FY2025 beat and 2026 guidance are fully in the price after a +30% YTD run; at ~CHF 80.8 the stock sits near sell-side fair value with no fresh catalysts between now and H1 results.",
+      "bear": "Mid-to-high-teens EBITDA margin guidance flags profitability plateauing; a CHF 1.6B small-cap trading at consensus target with auto/industrial cyclicality offers limited margin of safety if HVAC/auto demand softens.",
+      "primaryCatalyst": "H1 2026 results and new A2L/HVAC, medical or automotive BMS design-win announcements.",
+      "primaryRisk": "Post-rerating multiple compression: priced near consensus fair value after +30% YTD, so any guidance wobble de-rates the stock."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Watchlist fit (sensors for thermal/industrial control, scientific_instruments bucket) is unchanged, there is zero new evidence since June 6, and the -0.37% day move is noise; yesterday's hold stands.",
+      "bull": "Thermal/industrial control sensing exposure (gas chromatographs, methane emission programs, BMS) keeps Sensirion relevant to the scaling buildout's monitoring layer.",
+      "neutral": "Low score (41) and rank 26 already reflect that this is a peripheral, optionality-only scaling play; nothing this week alters that placement.",
+      "bear": "Sensirion's datacenter/AI-infrastructure linkage is indirect; if the scaling list tightens toward direct compute bottlenecks, a niche Swiss environmental-sensor name is an early cut candidate.",
+      "primaryCatalyst": "Concrete datacenter-cooling or industrial thermal-management design win that hardens the currently loose scaling linkage.",
+      "primaryRisk": "Thesis dilution: exposure to AI scaling remains thematic rather than contract-backed."
+    }
+  ]
+}

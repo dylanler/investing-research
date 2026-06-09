@@ -1,0 +1,40 @@
+{
+  "symbol": "FLEX",
+  "company": "Flex",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "S&P Dow Jones announced (Jun 5 after close) that Flex joins the S&P 500 effective Jun 22, 2026, replacing Campbell's, alongside Marvell. The stock's reaction was muted on Jun 8 and it fell -3.5% on Jun 9 amid sector-wide profit-taking after Broadcom's earnings soured semi/EMS sentiment. Context: Barclays raised its PT to $203 (Jun 4) and Flex showed a 110 kW power shelf for NVIDIA Vera Rubin NVL72 plus a 30 kW CESS at COMPUTEX (Jun 2-5), confirming the 800V rack-power thesis. EVP/GC sold ~$5.1M of stock Jun 5. Index inclusion is a flow/recognition event, not new fundamentals: it guarantees passive forced buying into Jun 22 but formally ends the under-owned, hidden-alpha character of the name.",
+  "sources": [
+    {"label": "CNBC - Marvell and Flex to join S&P 500, replacing Pool and Campbell's", "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html"},
+    {"label": "TipRanks - Inclusion in S&P 500 Index Fails to Move Flex Stock", "url": "https://www.tipranks.com/news/inclusion-in-sp-500-index-fails-to-move-flex-stock-flex"},
+    {"label": "ts2.tech - Flex grabs S&P 500 spot but shares drop", "url": "https://ts2.tech/en/flex-grabs-sp-500-spot-but-shares-drop/"},
+    {"label": "Yahoo Finance - FLEX quote", "url": "https://finance.yahoo.com/quote/FLEX/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 70,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "Genuinely new since yesterday's down-call: confirmed S&P 500 inclusion (effective Jun 22) is the terminal recognition event for an alpha list - passive/index ownership becomes mandatory, ending any residual under-owned character on top of a 128% YTD rerating. Today's -3.5% is post-announcement digestion, not a thesis-restoring dislocation.",
+      "bull": "Vera Rubin NVL72 110 kW power shelf and CESS unveiled at COMPUTEX confirm Flex is a real 800V rack-power bottleneck supplier, and forced index buying into Jun 22 gives near-term flow support.",
+      "neutral": "Fundamentals intact and Barclays' $203 PT shows sell-side conviction, but at $53B cap and S&P 500 membership the name is now a consensus AI-power proxy; expected alpha converges toward beta.",
+      "bear": "Muted reaction to inclusion news plus a -3.5% giveback and a $5M insider sale suggest the rerating is exhausted; any Rubin ramp delay or EMS margin pressure hits a now fully-discovered, crowded name hard.",
+      "primaryCatalyst": "S&P 500 inclusion flows into Jun 22 and Rubin NVL72 power-shelf order momentum",
+      "primaryRisk": "Post-inclusion flow reversal and multiple compression on a fully rerated, newly crowded benchmark name"
+    },
+    {
+      "page": "companies",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "At rank 91 the crowding discount is already largely applied after yesterday's down-move; the S&P 500 inclusion adds crowding but COMPUTEX's Vera Rubin power-shelf reveal simultaneously validates the physical-deployment thesis, so the two roughly offset - hold with minor drift.",
+      "bull": "The 110 kW NVL72 power shelf and capacitive energy storage launches deepen Flex's grid-to-chip integration moat exactly where the data-center deployment thesis sits.",
+      "neutral": "Real, executing AI deployment exposure, but already recognized at $53B and 128% YTD; index inclusion converts it into core institutional holding rather than a discovery candidate.",
+      "bear": "EMS-style margins and cyclicality mean the AI rack-power narrative carries a multiple it has not historically supported; sector-wide profit-taking (Broadcom fallout) shows how fast sentiment can drain.",
+      "primaryCatalyst": "Rubin-generation rack-power design wins converting to revenue in FY27 guidance",
+      "primaryRisk": "Execution/margin disappointment in systems integration while the stock prices in flawless AI ramp"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "symbol": "SNPS",
+  "company": "Synopsys",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material new news since June 6. The recent catalyst cluster all predates the window: Q2 FY26 beat-and-raise reported May 27 (stock fell ~8.6% despite raised full-year guidance), Elliott cooperation agreement adding Jesse Cohn to the board (announced May 27, effective June 1), and the expanded Samsung Foundry AI-EDA/IP collaboration across 2nm/3DIC announced at SAFE 2026 in late May. Today's -2.73% is continuation of post-earnings de-rating drift, not a new fundamental event; no fresh downgrades or contract news found for June 8-9.",
+  "sources": [
+    {"label": "Sherwood News - Synopsys drops despite better-than-expected Q2 and guidance boost", "url": "https://sherwood.news/markets/synopsys-q2-2026-earnings-report-eda/"},
+    {"label": "Bloomberg - Synopsys settles with Elliott, names Jesse Cohn to board", "url": "https://www.bloomberg.com/news/articles/2026-05-27/synopsys-settles-with-elliott-names-firm-s-jesse-cohn-to-board"},
+    {"label": "PR Newswire - Synopsys appoints Jesse Cohn to Board of Directors", "url": "https://www.prnewswire.com/news-releases/synopsys-appoints-jesse-cohn-to-board-of-directors-302783338.html"},
+    {"label": "DCD - Synopsys extends Samsung Foundry partnership for AI and multi-die designs", "url": "https://www.datacenterdynamics.com/en/news/synopsys-extends-partnership-with-samsung-foundry-to-support-ai-and-multi-die-chip-designs/"},
+    {"label": "Yahoo Finance - SNPS quote", "url": "https://finance.yahoo.com/quote/SNPS/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Yesterday's hold stands: nothing genuinely new since June 6, and on a crowding-sensitive alpha list an $87B, fully discovered EDA duopolist does not gain hidden-bottleneck status. The continued post-earnings sell-off against a beat-and-raise modestly improves entry asymmetry, worth a small positive drift but not a rank move.",
+      "bull": "Beat-and-raise Q2 with 42% revenue growth, Elliott on the board pushing value realization, and Samsung 2nm/3DIC expansion deepen the verification/chiplet moat just as the stock de-rates ~9% off the print.",
+      "neutral": "Quality bottleneck exposure is real but fully priced into consensus Buy ratings and a $560 average target; alpha here is mean-reversion beta, not discovery.",
+      "bear": "Post-earnings distribution despite good numbers signals positioning fatigue; Ansys integration debt load and China/regulatory exposure cap multiple recovery.",
+      "primaryCatalyst": "Elliott-driven margin/portfolio actions or a photonics/chiplet design-win disclosure that re-rates the AI-attach narrative.",
+      "primaryRisk": "Continued multiple compression in design software as investors rotate to harder physical bottlenecks (HBM, packaging, power)."
+    },
+    {
+      "page": "companies",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "This page already moved SNPS up yesterday on the EDA/IP exposure evidence; no new information since June 6 justifies moving again. Today's -2.7% drift deepens the negative-YTD reset against raised guidance, which keeps the setup mildly improving but only warrants a small drift delta at the current rank.",
+      "bull": "Raised FY guidance, Samsung Foundry 2nm/3DIC certification breadth, and activist board oversight give fundamental support while the stock sits -4% YTD, an unusual reset for a structural AI design-complexity winner.",
+      "neutral": "Design-validation exposure is durable but the rerating-versus-fundamentals gap is modest; rank 50 already reflects the balanced bottleneck-vs-discovery tradeoff.",
+      "bear": "If hyperscaler custom-silicon programs consolidate or China revenue restrictions tighten, the raised guidance becomes the high-water mark and the de-rating proves fundamental rather than flow-driven.",
+      "primaryCatalyst": "Evidence of AI-driven EDA seat/IP pull-through in Q3 commentary or new foundry-node certification wins.",
+      "primaryRisk": "Ansys integration execution and leverage limiting buyback/margin flexibility during a software de-rating cycle."
+    }
+  ]
+}

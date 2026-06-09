@@ -1,0 +1,40 @@
+{
+  "symbol": "5347.TWO",
+  "company": "Vanguard International Semiconductor",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6. The last major item is pre-window: TSMC's May 15 announcement to sell 152M VIS shares (8.1%, ~US$850M block trade), cutting its stake from ~27.1% to ~19% while explicitly preserving interposer outsourcing and GaN technology licensing to VIS. That overhang has been absorbed (stock sits ~13% below its May 7 all-time high of TWD 185.5). June 9's +2.9% move is below the 5% threshold and looks flow-driven Taiwan-semis beta ahead of the ~June 10 May monthly revenue release.",
+  "sources": [
+    {"label": "TSMC press release - sale of 8.1% of VIS", "url": "https://pr.tsmc.com/english/news/3314"},
+    {"label": "TrendForce - TSMC plans to sell 8.1% stake in Vanguard (May 15, 2026)", "url": "https://www.trendforce.com/news/2026/05/15/news-tsmc-plans-to-sell-8-1-stake-in-vanguard-to-focus-resources-on-core-businesses/"},
+    {"label": "Investing.com - VIS shares slide after TSMC trims stake", "url": "https://uk.investing.com/news/stock-market-news/vanguard-intl-semiconductor-shares-slide-after-tsmc-trims-stake-4684008"},
+    {"label": "Yahoo Finance quote 5347.TWO", "url": "https://finance.yahoo.com/quote/5347.TWO/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the manufacturing-tollgate lens nothing changed since June 6: VIS keeps TSMC interposer outsourcing, GaN licensing, and the VSMC 12-inch Singapore JV (first output 2027), and a +2.9% no-news day does not alter node positioning. Yesterday's hold stands.",
+      "bull": "Structural interposer outsourcing from TSMC plus GaN licensing makes VIS a quiet capacity relief valve for advanced packaging, with VSMC 12-inch capacity layering on from 2027.",
+      "neutral": "Specialty 8-inch foundry economics (PMIC, drivers) dominate the P&L today; the AI-adjacent interposer/photonics story is real but still a small revenue slice.",
+      "bear": "Mature-node pricing pressure from Chinese foundries and a slow VSMC ramp could leave VIS a commodity specialty foundry trading at an AI-narrative multiple.",
+      "primaryCatalyst": "May monthly revenue (~June 10) and any quantification of interposer/advanced-packaging volumes at the Aug 4 results.",
+      "primaryRisk": "Mature-node price war re-intensifying and diluting the tollgate premium."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Alpha lens: +74% YTD with no new fundamental evidence since June 6 means residual alpha keeps compressing, but the stock is already ~13% off its May 7 high, the TSMC block overhang cleared pre-window, and the page already dropped it from 19 to 32 - today's +2.9% drift does not justify another move beyond yesterday's hold.",
+      "bull": "TSMC selling down to 19% while contractually retaining interposer outsourcing improves float and institutional access just as advanced-packaging demand outruns capacity; the post-block pullback restored some asymmetry.",
+      "neutral": "The name has rerated from hidden specialty foundry to recognized AI-packaging derivative; at ~$11B cap and 74% YTD, remaining upside depends on interposer/photonics revenue actually showing up, not on discovery.",
+      "bear": "This is now a consensus AI-packaging proxy; any soft monthly revenue print or VSMC capex/ramp slippage hits a stock priced for flawless execution, and TSMC's sale caps the strategic-takeout angle.",
+      "primaryCatalyst": "May/June monthly revenue confirming the PMIC-plus-interposer recovery, or a named advanced-packaging capacity expansion.",
+      "primaryRisk": "Crowding unwind: a flow-driven Taiwan-semis pullback hits recent reraters like VIS hardest absent new evidence."
+    }
+  ]
+}

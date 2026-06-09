@@ -1,0 +1,27 @@
+{
+  "symbol": "603986.SS",
+  "company": "GigaDevice",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No company-specific news since June 6. Today's +5.59% move (to CNY 500.5, YTD +112%) is a continuation of the China memory-sector melt-up: GigaDevice was the highest-turnover A-share on June 4 (+7%), Morgan Stanley sharply raised its target on May 29 citing a 'legacy memory super-cycle', and Q1 2026 results (revenue +120%, net income +510%) plus NOR/niche-DRAM price hikes through 2026 are all pre-June-6, well-disseminated information. Today's move looks flow/momentum-driven within a known fundamental upcycle, not new evidence.",
+  "sources": [
+    {"label": "Sina Finance (Jun 4): memory stocks rally, GigaDevice tops A-share turnover, price-hike trend seen lasting all year", "url": "https://finance.sina.com.cn/jjxw/2026-06-04/doc-iniahaip2470238.shtml"},
+    {"label": "Sina Finance (May 29): Morgan Stanley calls legacy memory super-cycle, big GigaDevice target hike", "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-05-29/doc-inhzpsps8036278.shtml"},
+    {"label": "CLS.cn: AI compute demand drives memory-chip stocks, GigaDevice H-shares +8%", "url": "https://www.cls.cn/detail/2293272"},
+    {"label": "DigiTimes (May 21): GigaDevice sees niche DRAM and NAND prices rising through 2026", "url": "https://www.digitimes.com/news/a20260521VL208/gigadevice-dram-nand-2026-niche.html"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 86,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On a crowding-sensitive CPO alpha page, another +5.6% day on top of +112% YTD with zero new fundamental evidence since June 6 further erodes residual alpha; the name is now the most-traded, most-upgraded face of the China memory trade and has little direct optical-interconnect exposure anyway.",
+      "bull": "China's only design house spanning NOR, SLC NAND and specialty DRAM in a memory upcycle with contract prices rising through 2026; Q1 net income +510% shows the pricing leverage is real, and localization tailwinds persist.",
+      "neutral": "Fundamentals are genuinely strong but fully broadcast: sell-side targets raised, record A-share turnover, and price-hike expectations already embedded in a 112% YTD double; thesis intact, alpha mostly harvested.",
+      "bear": "A consensus-owned momentum name on a niche-memory cycle that can roll over fast; inventory revaluation gains reverse on any price flattening, and the stock has no real claim on the CPO/optical bottleneck this page is built around.",
+      "primaryCatalyst": "Continued NOR/niche-DRAM/SLC NAND contract price hikes plus Q2 2026 earnings confirming the super-cycle run-rate.",
+      "primaryRisk": "Memory price momentum stalling or a China retail-flow unwind compressing a crowded, rerated multiple."
+    }
+  ]
+}

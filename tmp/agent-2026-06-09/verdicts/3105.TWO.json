@@ -1,0 +1,41 @@
+{
+  "symbol": "3105.TWO",
+  "company": "WIN Semiconductors",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 9: stock locked limit-up +9.97% to TWD 496.5 on SpaceX IPO / LEO-satellite speculation (satellite products cited at 30-40% of revenue; third limit-up of the week, ~+22% weekly, heavy retail margin at ~44% usage). Fundamental kicker: May 2026 consolidated revenue NT$1.755B, +40.3% YoY and +1.2% MoM, highest since May 2022 and fourth consecutive month above +30% YoY growth. No new CPO design wins, capacity announcements, or AI-node-specific contracts disclosed; local brokers explicitly flagged the move as theme-driven chase risk.",
+  "sources": [
+    {"label": "CMoney - limit-up 496.5 on SpaceX LEO + AI optical comm theme, 4 straight months >30% YoY revenue", "url": "https://cmnews.com.tw/article/cmoneyairesearcher-1aa290d4-63a5-11f1-ac5a-2e71f011c258"},
+    {"label": "Liberty Times - SpaceX IPO theme fires WIN Semi to limit-up; brokers warn on chasing", "url": "https://ec.ltn.com.tw/article/breakingnews/5465629"},
+    {"label": "Yahoo TW - May 2026 revenue NT$1.755B, +40.3% YoY announcement", "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E6%87%8B-2026%E5%B9%B45%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B617-55%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E40-065306083.html"},
+    {"label": "Yahoo TW - SpaceX IPO ignition: WIN Semi 3 limit-ups, +22% in a week", "url": "https://tw.stock.yahoo.com/news/spacex-ipo%E9%BB%9E%E7%81%AB-%E9%80%99%E6%AA%94%E4%BD%8E%E8%BB%8C%E8%A1%9B%E6%98%9F-%E9%A3%86%E6%9C%AC%E9%80%B1%E7%AC%AC2%E6%A0%B9%E6%BC%B2%E5%81%9C%E7%8B%82%E7%82%B8400%E5%84%84%E5%85%83-%E7%A9%A9%E6%87%8B%E8%A1%9D%E9%80%A33%E6%BC%B222-084000584.html"},
+    {"label": "UDN Money - May revenue detail (+1.2% MoM)", "url": "https://money.udn.com/money/story/5607/9548816"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 79,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.7,
+      "rankRationale": "On a manufacturing-tollgate alpha list, today's limit-up is driven by SpaceX IPO satellite speculation, not AI-node or packaging bottleneck evidence; +177% YTD plus a flow-driven +10% day with 44% retail margin usage leaves little residual, under-owned alpha at rank 79.",
+      "bull": "May revenue +40.3% YoY, the fourth straight month above +30%, with Q1 margin recovering to 12% shows the GaAs cycle has genuinely turned; AI optical-comm (VCSEL/laser) volumes give a real, durable second engine beyond handsets.",
+      "neutral": "The fundamental acceleration is real but the stock has nearly tripled YTD and trades on a SpaceX IPO narrative; rank should drift down on this list until AI-datacenter-specific revenue is disclosed, even if the business keeps beating.",
+      "bear": "GaAs RF is a cyclical, handset-heavy business masquerading as an AI tollgate; if the SpaceX IPO theme fades or satellite orders disappoint, a 44%-margin-financed retail base unwinds fast and the stock retraces toward pre-theme levels.",
+      "primaryCatalyst": "Disclosure of AI data-center optical/laser revenue mix or a named hyperscaler/transceiver design win that converts the theme into bottleneck evidence.",
+      "primaryRisk": "SpaceX IPO theme deflation triggering a margin-call-driven unwind in a name up 177% YTD on largely thematic flows."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 98,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "This page already flags 'direct CPO evidence limited,' and nothing since Jun 6 adds CPO substance - the limit-up is LEO-satellite/SpaceX flow; on a crowding-sensitive CPO alpha list, a 10% theme-driven spike on top of +177% YTD strictly reduces asymmetry.",
+      "bull": "If CPO/optical transceiver volumes scale, WIN's compound-semi foundry (lasers, photodiodes, RF) is a plausible hidden supplier, and the revenue acceleration shows it can monetize optical demand when it appears.",
+      "neutral": "Revenue momentum is strong but attribution is satellite/RF/handset, not CPO; hold the cautious stance and demand named CPO-chain evidence before crediting the thesis - today's move changes price, not proof.",
+      "bear": "WIN is now a crowded retail momentum vehicle priced for satellite and AI narratives simultaneously; with no disclosed CPO content, this list is paying theme premium for zero incremental CPO optionality, the worst alpha setup on the page.",
+      "primaryCatalyst": "A verifiable CPO or silicon-photonics-adjacent order (laser/EML/PD foundry win for a transceiver or CPO vendor) named by the company or a credible supply-chain source.",
+      "primaryRisk": "Crowding unwind: limit-up buy queues and high margin usage reverse violently once the SpaceX IPO catalyst passes, dragging the name down regardless of CPO fundamentals."
+    }
+  ]
+}

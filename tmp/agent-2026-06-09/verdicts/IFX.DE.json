@@ -1,0 +1,80 @@
+{
+  "symbol": "IFX.DE",
+  "company": "Infineon Technologies",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Jun 8: Infineon announced it will transfer backend production (wafer sawing, assembly, test) from Tijuana, Mexico to other sites over the coming years, exploring a possible site sale - a minor footprint/cost optimization, not thesis-changing. No earnings, contracts, M&A or analyst moves found in the Jun 6-9 window; the ams Osram sensor deal (EUR 570M) dates to Feb 4 and the NVIDIA MGX AI Factory / Jetson Thor TPM items were Jun 3. Today's -3.3% move has no identifiable fundamental driver and looks like flow-driven profit-taking after a ~98% YTD run.",
+  "sources": [
+    {"label": "Infineon press release - Tijuana backend transfer (Jun 2026)", "url": "https://www.infineon.com/press-release/2026/infxx202606-105"},
+    {"label": "Evertiq - Infineon to transfer backend production out of Tijuana (Jun 8, 2026)", "url": "https://evertiq.com/design/2026-06-08-infineon-to-transfer-backend-production-out-of-tijuana-over-coming-years"},
+    {"label": "ad-hoc-news - Infineon: AI sensor deal, earnings and profit-taking", "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/infineon-technologies-stock-de0006231004-ai-sensor-deal-earnings-and/69350425"},
+    {"label": "Evertiq - Infineon to acquire ams OSRAM non-optical sensor portfolio (Feb 4, 2026)", "url": "https://evertiq.com/design/2026-02-04-infineon-to-acquire-non-optical-sensor-portfolio-from-ams-osram"},
+    {"label": "Infineon investor news (FY26 outlook >EUR 16B, AI DC revenue EUR 1.5B FY26 -> EUR 2.5B FY27)", "url": "https://www.infineon.com/about/investor"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 19: the -3.3% pullback with the power-delivery thesis intact marginally improves asymmetry on this alpha list, but a ~98% YTD rerating still caps residual alpha and nothing since Jun 6 changes the setup versus yesterday's hold.",
+      "bull": "AI data-center power revenue guided EUR 1.5B FY26 to EUR 2.5B FY27 with capex raised to EUR 2.7B; the MGX rack-power role makes Infineon the most direct power-semis bottleneck name on the page.",
+      "neutral": "Large-cap (~$114B), well-covered and increasingly consensus; Tijuana footprint optimization is a minor cost positive that does not alter the alpha math.",
+      "bear": "After nearly doubling YTD, any industrial/auto cycle wobble or AI-capex digestion hits a stock priced for continued beats; passive/AI-basket crowding amplifies drawdowns like today's.",
+      "primaryCatalyst": "Q3 FY26 results and AI data-center revenue trajectory toward the EUR 2.5B FY27 target",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any AI-capex or auto-cycle disappointment"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 59: the page already discounts Infineon as too large and well-known for early latent alpha, and nothing in the Jun 6-9 window (only a minor Tijuana backend transfer) changes that classification.",
+      "bull": "Power conversion content per AI rack keeps rising and Infineon sits inside NVIDIA's MGX power-delivery architecture, so the node-centrality is real and compounding.",
+      "neutral": "Medium conviction is right: essential power chips and MCUs, but at ~$114B market cap the latency is gone - the market has found this node.",
+      "bear": "A name up ~98% YTD on a latent-nodes list has consumed its discovery premium; further upside depends on execution, not re-discovery.",
+      "primaryCatalyst": "Data-center power-supply design wins and industrial/auto demand recovery broadening the story",
+      "primaryRisk": "Valuation already embeds the AI power narrative, leaving little latent upside"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 49: yesterday's down move already repriced the post-rerating crowding versus more direct HBM/packaging/test bottlenecks, and no new evidence since Jun 6 justifies moving again one day later.",
+      "bull": "Power semis are a genuine AI bottleneck adjacency, and the MGX ecosystem role plus rising AI DC revenue guidance keeps Infineon relevant on this map.",
+      "neutral": "Analog/power/RF tier exposure is real but indirect; the Tijuana backend consolidation is operational housekeeping, not a node upgrade.",
+      "bear": "Less direct than CPO/HBM/advanced-packaging names while carrying full auto/industrial cycle exposure after a 98% YTD run.",
+      "primaryCatalyst": "Evidence of AI data-center power revenue beating the EUR 1.5B FY26 guide",
+      "primaryRisk": "Cycle-exposed revenue mix dilutes the AI bottleneck signal relative to purer nodes"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 71: on a CPO/optical-interconnect lens Infineon remains a power-density beneficiary rather than a pure play, yesterday's down already captured the rerating, and nothing since Jun 6 touches the optical thesis.",
+      "bull": "Higher rack power density from CPO-era systems directly grows Infineon's power-stage content, giving it second-order leverage to the page's theme.",
+      "neutral": "No optical interconnect exposure was added this window; rank 71 fairly reflects an adjacent beneficiary, not a bottleneck owner.",
+      "bear": "Zero direct CPO content means the stock can fully miss the optical-interconnect rerating while still carrying auto/industrial cyclicality.",
+      "primaryCatalyst": "AI rack power-density upgrades pulling forward power-semiconductor content",
+      "primaryRisk": "Industrial/auto cycle downturn with no offsetting optical-interconnect exposure"
+    },
+    {
+      "page": "companies",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Hold at 80: yesterday's down already penalized the YTD rerating on this board-level power list; today's -3.3% flow-driven dip with thesis intact plus the minor Tijuana cost optimization slightly improves the setup but does not warrant reversing within a day.",
+      "bull": "Power-delivery content per AI server keeps compounding and Infineon's capacity expansion (EUR 2.7B capex) positions it to capture the PDN buildout.",
+      "neutral": "AI relevance is real but the company is large, recognized, and diversified across slower auto/industrial end markets; alpha here is residual, not hidden.",
+      "bear": "Post-rerating large-cap with passive ownership; an AI-capex digestion phase would compress both the multiple and the power-semis growth narrative.",
+      "primaryCatalyst": "AI data-center power revenue ramp toward EUR 2.5B in FY27",
+      "primaryRisk": "YTD rerating leaves little hidden alpha if execution or the auto cycle disappoints"
+    }
+  ]
+}

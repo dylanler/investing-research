@@ -1,0 +1,41 @@
+{
+  "symbol": "GLW",
+  "company": "Corning Incorporated",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "Corning signed a multiyear, multibillion-dollar optical fiber agreement with Amazon (~Jun 8) to supply US AI data centers - its third hyperscaler megadeal of 2026 after Meta and Nvidia - sending shares +5.6% on Jun 8. Today's -9.35% (to ~$170) found no new fundamental negative: it reads as flow-driven profit-taking / AI-trade unwind on a ~95x TTM P/E name that already fell 10.1% on Jun 5, amid valuation downgrades (JPMorgan to neutral, Zacks to hold) and >$33M of insider selling over 90 days. Q2 guidance carries a ~$30M solar-shutdown cost headwind, but the AI fiber bottleneck thesis is intact and arguably strengthened.",
+  "sources": [
+    {"label": "TradingKey - GLW +5.55% on Jun 8 (Amazon deal)", "url": "https://www.tradingkey.com/news/market-movers/261953502-market-movers-glw-20260608"},
+    {"label": "Business News Today - Corning jumps as Amazon locks in AI data center fiber", "url": "https://business-news-today.com/corning-glw-jumps-as-amazon-becomes-the-latest-tech-giant-to-lock-in-its-ai-data-center-fiber/"},
+    {"label": "TradingKey - GLW -10.11% on Jun 5", "url": "https://www.tradingkey.com/news/market-movers/261950354-market-movers-glw-20260605"},
+    {"label": "Investing.com - JPMorgan downgrades Corning on valuation", "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-downgrades-corning-stock-rating-on-valuation-concerns-93CH-4618048"},
+    {"label": "ts2.tech - Corning wins Amazon AI fiber deal; next hurdle", "url": "https://ts2.tech/en/corning-wins-amazon-ai-fiber-deal-glw-faces-next-hurdle/"}
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 49,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new evidence since Jun 6 (third hyperscaler megadeal, Amazon) plus a -9.35% flow-driven flush with the thesis intact improves residual asymmetry at an already crowding-discounted rank 49; the ~17% give-back from recent highs de-crowds the trade somewhat.",
+      "bull": "Amazon joins Meta and Nvidia as locked-in multiyear fiber buyers, validating Corning as a contracted AI-connectivity bottleneck; an 18% core-sales, 30% core-EPS Q1 with mid-to-high-teens growth guided makes today's flush an asymmetry reset rather than a thesis break.",
+      "neutral": "Still up 87.5% YTD with a $161B cap and ~95x TTM P/E; the deal is real but the optical thesis is consensus, so the residual-alpha case rests on entry price, not discovery.",
+      "bear": "Three >9% daily swings in a week signal a momentum-crowded shareholder base unwinding; heavy insider selling, valuation downgrades and the solar-shutdown cost drag could compound if the AI-infra trade keeps de-rating.",
+      "primaryCatalyst": "Further hyperscaler fiber contracts or capacity expansions converting the Amazon/Meta/Nvidia pipeline into raised full-year guidance toward the $20B run-rate target.",
+      "primaryRisk": "Continued AI-trade de-rating compressing a ~95x multiple regardless of execution; crowded fast-money ownership amplifies downside."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "This page already ranks GLW near the bottom precisely because the optical thesis went mainstream; the Amazon megadeal makes it MORE consensus, not more latent, so the latency case is unchanged - the flow-driven sell-off only marginally improves entry.",
+      "bull": "If today's flush extends, a contracted triple-hyperscaler fiber supplier at a materially lower multiple could re-enter the asymmetric zone; network centrality in AI connectivity is now contractually proven.",
+      "neutral": "Strategically strong, fully discovered: low conviction at rank 99 correctly reflects a name that is core infrastructure but no longer an early node - new deal flow confirms rather than changes that.",
+      "bear": "A 270% one-year run with insider selling and valuation downgrades means the latency premium is fully spent; further hyperscaler wins are already the consensus expectation embedded in the price.",
+      "primaryCatalyst": "A new under-the-radar segment (e.g., specialty glass or co-packaged-optics adjacency) emerging as a second, unpriced AI lever.",
+      "primaryRisk": "Dead-money risk on this list: fully mainstream story where even good news no longer moves the latency case."
+    }
+  ]
+}

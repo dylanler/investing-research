@@ -1,0 +1,35 @@
+{
+  "symbol": "2360.TW",
+  "company": "Chroma ATE",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material company-specific news since June 6, 2026. Last fundamental catalysts remain late-April/early-May: record Q1 2026 (rev NT$11.8B +73% YoY, EPS NT$9.12), SLT adoption by NVIDIA/AMD/Google with a possible SLT forecast upgrade, and a CPO Insertion 4E (BER/signal test) pilot run scheduled to start in June 2026 - all already public and in the price. Today's -2.45% looks like flow-driven profit-taking after a +200% YTD run (+~38% in the past month), not a fundamental event. Sell-side is now unanimous Strong Buy (15 buys, 0 sells), confirming the name is no longer underfollowed.",
+  "sources": [
+    {
+      "label": "BigGo Finance - Chroma ATE Q1 2026 earnings call (record Q1, SLT upgrade considered, CPO Insertion 4E pilot June 2026)",
+      "url": "https://finance.biggo.com/news/TW_2360.TW_2026-04-30"
+    },
+    {
+      "label": "DIGITIMES - Chroma ATE record 1Q26 revenue/profit on AI server SLT and photonics orders",
+      "url": "https://www.digitimes.com/news/a20260504PD202/revenue-demand-slt-photonics-ai-server.html"
+    },
+    {
+      "label": "TradingView - TWSE:2360 quote and recent performance (pullback, 1M/1Y moves, analyst ratings)",
+      "url": "https://www.tradingview.com/symbols/TWSE-2360/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Yesterday's down move already penalized the ~200% YTD rerating and crowding; today's -2.45% drift brings no new information, and a 2-3% dip after a triple does not restore hidden-alpha asymmetry on a crowding-sensitive list. Unanimous Strong Buy coverage keeps eroding the 'underfollowed' premise, hence a small negative drift rather than another rank cut.",
+      "bull": "SLT design wins at all three top AI/HPC chip vendors (NVIDIA, AMD, Google) plus AI server power test make Chroma a genuine multi-vector test bottleneck; the June CPO Insertion 4E pilot could open a fourth leg before it is fully modeled.",
+      "neutral": "Fundamentals are excellent but fully broadcast - record Q1 and the SLT/CPO story are consensus, so the stock now trades on momentum and AI-capex beta rather than discovery alpha.",
+      "bear": "At ~$33B market cap after +200% YTD and 15/15 buy ratings, any AI-capex digestion or SLT order pushout triggers a sharp de-rating with little valuation support; residual alpha is largely spent.",
+      "primaryCatalyst": "Formal upward revision of the SLT forecast and/or CPO Insertion 4E pilot converting to volume purchase orders in H2 2026.",
+      "primaryRisk": "Crowded post-rerating positioning unwinding on any AI test-capex pause; consensus Strong Buy leaves no incremental buyer."
+    }
+  ]
+}

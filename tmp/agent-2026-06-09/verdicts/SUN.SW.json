@@ -1,0 +1,26 @@
+{
+  "symbol": "SUN.SW",
+  "company": "Sulzer",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Sulzer Q1 2026 order intake media release (Apr 13, latest company release; nothing newer found)", "url": "https://www.sulzer.com/en/shared/news/260413-order-intake-q1"},
+    {"label": "Yahoo Finance quote SUN.SW", "url": "https://finance.yahoo.com/quote/SUN.SW/"},
+    {"label": "Sulzer media relations page (no June 6-9 releases surfaced)", "url": "https://www.sulzer.com/en/about-us/media-relations"}
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "No new evidence on the latent AI-transfer pathway (coolant quality, water reuse, process control) since June 6; today's -2.2% drift on no news leaves the un-rerated setup intact, so hold at rank 27 with a small positive delta for marginally improved asymmetry.",
+      "bull": "Flat-to-negative YTD (-1.8%) means none of the data-center fluid-handling optionality is priced in; any disclosed coolant/water-reuse design win or H2 large-project conversion (2026 guide: EBITDA margin >16.5%) rerates a $6.5B name quickly.",
+      "neutral": "Sulzer remains a diversified flow-equipment business whose AI-chain exposure is inferred, not contracted; Q1 order intake was only 'moderate' and the next hard datapoint is July 24 H1 results.",
+      "bear": "The AI-transfer thesis stays speculative while peers (Munters, Ecolab/CoolIT, Vertiv) lock up actual AI data-center cooling orders, leaving Sulzer as an energy/industrial cyclical with no AI revenue line and H2-weighted project risk.",
+      "primaryCatalyst": "H1 2026 results on July 24 showing large-project order conversion or any named data-center cooling/water contract.",
+      "primaryRisk": "Continued moderate order intake and zero disclosed AI/data-center wins, confirming the latent pathway never converts to revenue."
+    }
+  ]
+}

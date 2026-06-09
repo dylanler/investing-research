@@ -1,0 +1,26 @@
+{
+  "symbol": "TPRO.MI",
+  "company": "Technoprobe",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": null,
+  "sources": [
+    {"label": "Investing.com - Why is Technoprobe stock surging today (May 15 Q1 beat + 2027 targets pulled forward, pre-Jun-6)", "url": "https://www.investing.com/news/stock-market-news/why-is-technoprobe-stock-surging-today-93CH-4691573"},
+    {"label": "Investing.com - UBS initiates Technoprobe at Buy, AI/HBM probe-card TAM (pre-Jun-6)", "url": "https://www.investing.com/news/stock-market-news/ubs-initiates-technoprobe-coverage-at-buy-highlights-aidriven-growth-4244392"},
+    {"label": "Yahoo Finance quote - TPRO.MI", "url": "https://finance.yahoo.com/quote/TPRO.MI/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "No material news since June 6 and today's -0.71% is noise; the May 15 guidance blowout and UBS initiation are already priced into rank 25. On an alpha lens, +136.7% YTD with full sell-side discovery keeps eroding the 'underfollowed outside Europe' leg, so hold with mild drift rather than a fresh move beyond yesterday's hold.",
+      "bull": "Near-monopoly position alongside FormFactor in advanced probe cards just as HBM and co-packaged-optics test intensity explodes; 2027 targets pulled into 2026 (EUR 950M-1.05B revenue, 44-46% EBITDA margin) show the AI test cycle is accelerating, not peaking.",
+      "neutral": "Thesis is intact and execution is excellent, but at $22.8B market cap and 136.7% YTD the scarcity story is now consensus; expected returns compress to earnings-delivery pace until the next guidance or HBM design-win datapoint.",
+      "bear": "Post-rerating chase at peak-cycle margins: any test-intensity normalization, customer concentration hiccup, or AI capex digestion triggers a sharp de-rate from a multiple that already discounts the 2027-pulled-forward targets.",
+      "primaryCatalyst": "First meaningful HBM probe-card revenue recognition / next quarterly print confirming the raised FY26 guidance run-rate.",
+      "primaryRisk": "Crowding after the 136% YTD rerating - customer concentration and test-cycle downturn against a fully discovered, richly valued name."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "300308.SZ",
+  "company": "Zhongji Innolight",
+  "caseDate": "2026-06-09",
+  "newsSinceJun6": "No material fundamental news since June 6. Only items: third-period restricted stock incentive vesting for 69 core employees (324,450 shares, ~CNY 415M, listed for circulation June 8 - trivial vs. ~$190B cap) and a notice for the 2026 second extraordinary shareholders' meeting. Known backdrop unchanged: Q1 revenue CNY 19.5B (+192% YoY), ~40%+ global 800G share and 50-70% 1.6T share, 6.4T NPO / 12.8T XPO in preparation. Today's +2.17% move is flow/drift, not news-driven.",
+  "sources": [
+    {"label": "Jiemian - Innolight unlocks CNY 415M restricted stock for 69 core employees (June 4-8)", "url": "https://m.jiemian.com/article/14538060.html"},
+    {"label": "STCN - Innolight employee incentive shares to list for circulation", "url": "https://www.stcn.com/article/detail/3944613.html"},
+    {"label": "Sina Finance - 300308 company announcements (incl. 2026 second EGM notice)", "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml"},
+    {"label": "Yahoo Finance quote 300308.SZ", "url": "https://finance.yahoo.com/quote/300308.SZ/"}
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 112,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Yesterday's verdict already moved it down for the discovered/crowded setup after an ~85% YTD run; since June 6 there is no genuinely new information, only an immaterial incentive-share unlock and another +2.17% of newsless drift, so a second consecutive demotion is not warranted. Small negative delta reflects continued rerating without fresh evidence eroding residual alpha at rank 112.",
+      "bull": "Dominant 800G (~40%+ share) and 1.6T (50-70% share) franchise with Q1 revenue up 192% and 6.4T NPO / 12.8T XPO pipeline keeps it the cash-flow king of AI optics; if 1.6T volumes beat in H2, estimates still have upside.",
+      "neutral": "The franchise is excellent but fully discovered at ~$190B cap and +89% YTD; on an alpha list rewarding hidden bottleneck names, it correctly sits deep in the table regardless of quality.",
+      "bear": "Crowded ownership plus CPO architecture transition risk: if hyperscalers shift to co-packaged optics faster than expected, the pluggable-module moat compresses just as the multiple peaks; insider/incentive share unlocks add marginal supply.",
+      "primaryCatalyst": "H2 2026 1.6T shipment ramp and Q2 earnings beating elevated expectations; tangible 6.4T NPO/XPO design wins.",
+      "primaryRisk": "Post-rerating de-rating - any hyperscaler capex digestion or faster-than-expected CPO substitution hits a crowded, +89% YTD position hard."
+    }
+  ]
+}
