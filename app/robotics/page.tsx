@@ -12,6 +12,8 @@ import {
   koidHoldings,
   koidMeta,
   mindmapNodes,
+  nextNvidiaPlays,
+  nextNvidiaTemplate,
   privateWatchlist,
   sourceLinks,
   thesisPillars,
@@ -24,16 +26,25 @@ import {
 	} from '@/data/robotics';
 
 type CategoryFilter = StackCategory | 'All';
-type TableMode = 'ranked' | 'koid' | 'crowd' | 'private' | 'sources';
+type TableMode = 'ranked' | 'nextnvidia' | 'koid' | 'crowd' | 'private' | 'sources';
 
 const categories: CategoryFilter[] = ['All', 'Builder', 'Actuation', 'Sensing', 'Edge AI', 'Warehouse', 'Materials', 'Demoted'];
 const tableModes: { id: TableMode; label: string }[] = [
   { id: 'ranked', label: 'Ranked Alpha' },
+  { id: 'nextnvidia', label: 'Next NVDA/MU/SNDK' },
   { id: 'koid', label: 'KOID Audit' },
   { id: 'crowd', label: 'Crowd Audit' },
   { id: 'private', label: 'Private Watch' },
   { id: 'sources', label: 'Sources' },
 ];
+
+const nextNvidiaTierColor: Record<string, string> = {
+  Elite: 'var(--accent)',
+  Strong: 'var(--accent)',
+  Credible: 'oklch(56% 0.12 85)',
+  Speculative: 'var(--ink-500)',
+  Unlikely: 'var(--ink-400)',
+};
 
 const categoryColors: Record<CategoryFilter | 'Center', string> = {
   All: 'var(--accent)',
@@ -806,6 +817,82 @@ export default function RoboticsPage() {
 	                          </td>
 	                        </tr>
                       ))}
+                    </tbody>
+                  </table>
+                </div>
+              </motion.div>
+            )}
+
+            {mode === 'nextnvidia' && (
+              <motion.div key="nextnvidia" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+                <div style={{ border: '1px solid var(--ink-100)', borderRadius: 8, padding: '16px 18px', marginBottom: 16, background: 'var(--surface-sunken)' }}>
+                  <div className="font-display" style={{ fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-lg)', marginBottom: 6 }}>{nextNvidiaTemplate.headline}</div>
+                  <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.5, marginBottom: 12 }}>{nextNvidiaTemplate.note}</p>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginBottom: 12 }}>
+                    {nextNvidiaTemplate.beats.map((beat, i) => (
+                      <span key={beat} style={{ fontFamily: 'monospace', fontSize: '0.7rem', fontWeight: 800, color: 'var(--ink-700)', border: '1px solid var(--ink-100)', borderRadius: 999, padding: '3px 9px' }}>{i + 1}. {beat}</span>
+                    ))}
+                  </div>
+                  <div style={{ display: 'grid', gap: 6 }}>
+                    {([['NVIDIA', nextNvidiaTemplate.archetypes.nvidia], ['Micron', nextNvidiaTemplate.archetypes.micron], ['SanDisk', nextNvidiaTemplate.archetypes.sandisk]] as const).map(([name, desc]) => (
+                      <div key={name} style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-600)', lineHeight: 1.45 }}>
+                        <span style={{ fontWeight: 900, color: 'var(--accent)' }}>{name}</span> — {desc}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 6 }}>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1180 }}>
+                    <thead>
+                      <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
+                        {['Rank', 'Company', 'Closest analog', 'Game-theory verdict', 'Win%', 'Cases', 'Potential'].map((heading) => (
+                          <th key={heading} style={{ padding: '10px 12px', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', borderBottom: '1px solid var(--ink-100)' }}>{heading}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[...nextNvidiaPlays].sort((a, b) => b.score - a.score).map((play) => {
+                        const company = humanoidAlphaCompanies.find((item) => item.ticker === play.ticker);
+                        return (
+                          <tr key={play.ticker} onClick={() => setSelectedTicker(play.ticker)} style={{ borderBottom: '1px solid var(--ink-100)', cursor: 'pointer', background: play.ticker === selectedCompany.ticker ? 'color-mix(in srgb, var(--accent) 7%, transparent)' : 'transparent' }}>
+                            <td style={{ padding: '12px', fontFamily: 'monospace', color: play.rank <= 5 ? 'var(--accent)' : 'var(--ink-400)', fontWeight: 900 }}>{play.rank}</td>
+                            <td style={{ padding: '12px', minWidth: 190 }}>
+                              <div style={{ color: 'var(--ink-950)', fontWeight: 900 }}>{company?.company ?? play.ticker}</div>
+                              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginTop: 4 }}>
+                                <span style={{ fontFamily: 'monospace', color: company ? categoryColors[company.category] : 'var(--ink-500)', fontSize: '0.76rem', fontWeight: 900 }}>{play.ticker}</span>
+                                {company && <span style={{ color: 'var(--ink-500)', fontSize: '0.72rem' }}>{company.category}</span>}
+                              </div>
+                            </td>
+                            <td style={{ padding: '12px', color: 'var(--ink-600)', fontSize: 'var(--text-sm)', minWidth: 170, lineHeight: 1.4 }}>{play.analog}</td>
+                            <td style={{ padding: '12px', minWidth: 340, lineHeight: 1.45 }}>
+                              <div style={{ fontWeight: 800, color: nextNvidiaTierColor[play.tier] ?? 'var(--ink-700)', fontSize: '0.74rem', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: 4 }}>{play.tier} · {play.verdict}</div>
+                              <div style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)' }}>{play.summary}</div>
+                            </td>
+                            <td style={{ padding: '12px', textAlign: 'right', fontFamily: 'monospace', color: 'var(--ink-700)', fontWeight: 800 }}>{play.winProbPct}%</td>
+                            <td style={{ padding: '12px' }}>
+                              <StockCaseHover
+                                page="robotics"
+                                company={company?.company ?? play.ticker}
+                                ticker={play.ticker}
+                                thesis={play.summary}
+                                bull={play.bull}
+                                neutral={play.playByPlay}
+                                bear={play.bear}
+                                category={company?.category ?? 'Demoted'}
+                                score={play.score}
+                                rank={play.rank}
+                                price={company ? formatPrice(company.price, company.currency) : '—'}
+                                marketCap={company ? formatCap(company.marketCapUsd) : '—'}
+                                ytd={company ? formatYtd(company.ytdReturnPct) : '—'}
+                                sources={sourceLinks.slice(0, 4).map((source) => ({ label: source.label, url: source.url }))}
+                              />
+                            </td>
+                            <td style={{ padding: '12px', textAlign: 'right' }}>
+                              <span className="font-display" style={{ color: nextNvidiaTierColor[play.tier] ?? 'var(--ink-600)', fontSize: 'var(--text-xl)', fontWeight: 900 }}>{play.score}</span>
+                            </td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>
