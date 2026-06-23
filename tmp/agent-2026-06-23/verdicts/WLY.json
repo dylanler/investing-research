@@ -1,0 +1,35 @@
+{
+  "symbol": "WLY",
+  "company": "John Wiley & Sons",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material: on June 16, 2026 Wiley reported its FY26 Q4/full-year - a self-described 'breakout year.' Record profitability (adj EBITDA margin 26.2% all-time high, adj EPS +15% to $4.19, FCF +55% to $195M), AI revenue +23% to $49M with recurring AI inflecting $1M->$8M and a FY27 AI guide of $50M+, plus new IQVIA/OpenEvidence partnerships and a completed Emerald Publishing acquisition. Stock rose ~1.25% on print.",
+  "sources": [
+    {
+      "label": "Wiley FY26 8-K / press release",
+      "url": "https://www.stocktitan.net/news/WLY/research-and-ai-momentum-record-margins-and-cash-flow-growth-p1bpcep7d3xg.html"
+    },
+    {
+      "label": "Wiley Q4 FY26 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/06/16/wiley-wly-q4-2026-earnings-transcript/"
+    },
+    {
+      "label": "Wiley FY26 'breakout year' (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/wiley-fy-2026-slides-record-margins-ai-momentum-drive-breakout-year-93CH-4745301"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 22,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.85,
+      "rankRationale": "Latent-AI-node lens directly validated: the buried scientific-corpus AI-licensing line is now visible and recurring (AI rev +23% to $49M, recurring $1M->$8M, FY27 $50M+ guide) plus IQVIA/OpenEvidence/Anthropic deals and record FCF. Under-covered thesis confirmed by hard numbers; rank up.",
+      "primaryCatalyst": "Recurring AI licensing inflection + new lab/healthcare partnerships and FY27 $50M+ AI guide",
+      "primaryRisk": "Core adj revenue flat ex-AI; AI licensing terms could compress as content commoditizes",
+      "bull": "One of three scale owners of rights-cleared peer-reviewed science; AI line now recurring with record margins/FCF and a clear FY27 ramp.",
+      "neutral": "AI line still small vs total; legacy publishing flat. Re-rating partly priced after +52% YTD.",
+      "bear": "AI revenue is lumpy/license-driven; frontier labs may push pricing or build around licensed corpora."
+    }
+  ]
+}

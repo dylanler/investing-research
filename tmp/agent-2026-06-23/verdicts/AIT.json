@@ -1,0 +1,27 @@
+{
+  "symbol": "AIT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q2 FY26 results (sales +8.4%, EPS $2.51) were late January; IRIS Factory Automation and Hydradyne acquisitions are ongoing prior items. The +3.7% move is flow-driven drift.",
+  "sources": [
+    {
+      "label": "AIT Q2 FY26 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000109563/000010956326000013/a8k1272026releaseexhibit991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the strict latent-node screen, nothing new since June 9 changes the motion/automation-distribution aggregation thesis; the +3.7% grind higher at ~28x is no-news drift. Prior verdict already reconciled rank — hold flat.",
+      "bull": "Automation/fluid-power distribution aggregates latent industrial+datacenter demand before OEMs are obvious; IRIS/Hydradyne deepen automation reach.",
+      "neutral": "Quality compounder but only tangential AI-node link; organic growth modest (~2.2%).",
+      "bear": "Distributor, not a chokepoint; rich ~28x multiple after +29% YTD on no incremental catalyst.",
+      "primaryCatalyst": "Automation M&A integration",
+      "primaryRisk": "Industrial demand softening; multiple compression"
+    }
+  ]
+}

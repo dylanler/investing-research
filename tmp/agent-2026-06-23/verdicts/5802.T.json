@@ -1,0 +1,57 @@
+{
+  "symbol": "5802.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Recent multicore-fiber items (industry MCF-standard collaboration with Fujikura/Corning; Optoscribe fan-in/fan-out deal) are Feb-March 2026. Stock hit an all-time high June 3; next earnings Aug 5. The +4.6% move since June 9 is sector flow, not a fresh catalyst.",
+  "sources": [
+    {
+      "label": "Sumitomo Electric - multicore fiber AI data center collaboration",
+      "url": "https://sumitomoelectric.com/press/2026/02/prs011"
+    },
+    {
+      "label": "optics.org - Optoscribe x Sumitomo Electric data centers",
+      "url": "https://optics.org/news/optoscribe-targets-data-centers-with-sumitomo-electric"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: power-cable/optical leverage intact but the name sits a step removed from the core passive/power bottleneck stack. No new evidence since June 9; +4.6% is flow. Asymmetry essentially unchanged; rank stands.",
+      "bull": "Power cable + multicore fiber + optical interconnect leverage to AI campuses.",
+      "neutral": "Conglomerate; one step removed from the core passive/power choke point.",
+      "bear": "Diversified end-markets dilute AI pure-play; ATH June 3.",
+      "primaryCatalyst": "Multicore fiber / power-cable AI demand",
+      "primaryRisk": "Conglomerate dilution of AI signal"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Connectivity/photonics: multicore-fiber and electrification exposure unchanged since June 9; MCF-standard and Optoscribe items are Feb-March news. Conglomerate complexity still tempers upside. Hold.",
+      "bull": "Multicore fiber leadership; grid/auto recovery optionality; telecom demand.",
+      "neutral": "Broad supplier; AI fiber is a slice of the mix.",
+      "bear": "Complexity caps re-rating; +88% YTD already moves it off-cheap.",
+      "primaryCatalyst": "Multicore fiber adoption in AI campuses",
+      "primaryRisk": "Conglomerate complexity"
+    },
+    {
+      "page": "companies",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master list, optical/networking bucket: down-move on rerating discipline already taken June 9; no new information since, only flow. Re-penalizing would double-count. Hold.",
+      "bull": "Scale-out optics + power leverage; sector pricing power read-through.",
+      "neutral": "Exposure flagged; no own catalyst.",
+      "bear": "Conglomerate; rerating captured.",
+      "primaryCatalyst": "800G/1.6T + power AI demand",
+      "primaryRisk": "Double-counting rerating"
+    }
+  ]
+}

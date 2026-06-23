@@ -1,0 +1,31 @@
+{
+  "symbol": "NOFR.TA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "One fresh operational milestone in window: Nofar's fully-owned 169 MW Iepuresti solar park in Romania (largest of its kind there, expandable to 400 MW) reached commercial operation in June 2026, estimated ~EUR 19M first-year revenue / ~EUR 16M EBITDA, with utility-scale storage integration underway; plus a 22 MW Israel solar/storage EPC agreement with Airengy. The -15.8% price move since June 9 is profit-taking/flow, separate from these positive fundamentals.",
+  "sources": [
+    {
+      "label": "Romania's largest PV park online, by Nofar (Romania Insider)",
+      "url": "https://www.romania-insider.com/nofar-solar-park-online-june-2026"
+    },
+    {
+      "label": "Airengy to build Nofar Energy Israel solar+storage",
+      "url": "https://www.megaproject.com/news/powerplant/airengy-to-establish-solar-energy-and-storage-projects-for-nofar-energy-israel"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.68,
+      "rankRationale": "On the test-time-scaling/power-buildout lens, bringing the 169 MW Romania park (->400 MW) into commercial operation with ~EUR 16M EBITDA plus new Israel solar+storage capacity is a real generation/electricity-bucket add. +2 fundamental credit (price drop ignored per mandate); not enough to leapfrog peers, so hold at 18.",
+      "bull": "New operational MW + storage build-out grows renewable generation feeding AI power demand.",
+      "neutral": "Small contribution vs total scaling-power basket; project, not structural shift.",
+      "bear": "Israeli-listed, leveraged developer; execution/financing and FX risk.",
+      "primaryCatalyst": "Romania 400 MW expansion + storage integration",
+      "primaryRisk": "Project financing / leverage / FX"
+    }
+  ]
+}

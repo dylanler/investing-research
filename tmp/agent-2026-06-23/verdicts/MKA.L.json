@@ -1,0 +1,31 @@
+{
+  "symbol": "MKA.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 22, 2026 Mkango (via HyProMag USA) issued a Texas Hub / Ironhead project update: increased projected magnet production capacity, started procurement of long-lead equipment, and is advancing feedstock aggregation and offtake talks toward H2 2027 commissioning. This is fresh, positive commercialization progress for the rare-earth-magnet recycling platform. Stock roughly flat (-1.1%).",
+  "sources": [
+    {
+      "label": "Mkango: HyProMag USA Texas Hub / US magnet platform update",
+      "url": "https://mkango.ca/news/hypromag-usa-advances-texas-hub-and-u.s-magnet-platform/"
+    },
+    {
+      "label": "Mkango: HyProMag USA project update",
+      "url": "https://mkango.ca/news/hypromag-usa-project-update-for-its-rare-earth-magnet-recycling-and-manufacturing-plants-in-the-united-states/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 5,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens treats permanent magnets as a pick-and-shovel bottleneck. The June 22 HyProMag USA update (raised capacity, long-lead equipment ordering, H2 2027 commissioning, offtake talks) is genuinely new commercialization evidence strengthening the recycling-capacity-coming-online thesis vs June 9 hold.",
+      "bull": "Non-obvious magnet pick-and-shovel with UK/German plants live and US Texas Hub advancing into long-lead procurement; offtake talks de-risk the ramp.",
+      "neutral": "Capacity is still pre-commissioning (H2 2027); cash burn warrants watching.",
+      "bear": "Microcap ($230M) pre-revenue on magnets; financing and timeline slippage risk.",
+      "primaryCatalyst": "Texas Hub commissioning and US magnet offtake agreements",
+      "primaryRisk": "Funding needs / commissioning delay before recycling capacity scales"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "HUBB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material but largely-anticipated: Hubbell completed its ~$3B NSI Industries acquisition on June 9, 2026 (electrical fittings/connectors, 15,000+ SKUs), funded by a $900M term loan, $1.9B senior notes and commercial paper, and reiterated AI-datacenter/utility-driven 2026 guidance with the deal accretive to adjusted EPS. The deal was known since early May, so closing is confirmatory rather than new. The +6.9% move is flow.",
+  "sources": [
+    {
+      "label": "Hubbell completes NSI acquisition (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/HUBB-N/pressreleases/2409578/hubbell-completes-nsi-acquisition-expands-electrical-solutions-portfolio/"
+    },
+    {
+      "label": "Hubbell issues senior notes to fund NSI (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/hubbell-issues-senior-notes-to-fund-nsi-acquisition"
+    },
+    {
+      "label": "Hubbell 8-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000048898/000119312526263819/d143835dex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Through the residual-alpha-vs-passives lens, the June 9 NSI close de-risks funding and deepens datacenter-adjacent electrical-components exposure, but the deal was telegraphed since early May and HUBB sits a step removed from the passive/power bottleneck core this page rewards. Closing is confirmatory; small positive delta, hold rank 49.",
+      "bull": "NSI close + financing locked, accretive to 2026 EPS; broadens datacenter electrical content.",
+      "neutral": "Quality compounder with AI-adjacent demand, but indirect to the passive bottleneck.",
+      "bear": "$2.8B+ new debt; deal already priced in; not the central node this page rewards.",
+      "primaryCatalyst": "NSI integration + datacenter/utility electrical demand",
+      "primaryRisk": "Integration/leverage drag; a step removed from the passive/power stack"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the latent under-covered AI supply-chain lens, the NSI close (June 9) and reiterated data-centre/utility-driven guidance modestly firm the power-&-grid thesis, but Hubbell is a $27B, widely-owned best-in-class supplier - the opposite of 'latent.' Constructive yet already discovered; small positive delta, hold rank 79.",
+      "bull": "Direct grid-hardening/data-center electrical exposure; NSI adds connector/fittings content.",
+      "neutral": "High-quality utility/electrical franchise with steady AI-adjacent tailwind.",
+      "bear": "Electrification thesis widely owned; $27B cap is far from under-covered/latent.",
+      "primaryCatalyst": "Data-center electrical demand + utility capex; NSI accretion",
+      "primaryRisk": "Crowded thesis; limited latent-alpha edge at this size"
+    }
+  ]
+}

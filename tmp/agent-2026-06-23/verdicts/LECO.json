@@ -1,0 +1,31 @@
+{
+  "symbol": "LECO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news in the June 9-23 window. Q1 2026 (record sales $1.12B, +11.7%, automation backlog strong, new RISE strategy) was reported April 30, before the window. On June 10 the stock fell ~4.6% on a sell-side note flagging a premium-to-historical valuation, which is flow/valuation commentary, not a fundamental change.",
+  "sources": [
+    {
+      "label": "LECO Q1 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059527/000005952726000010/leco-20260430xex99d1.htm"
+    },
+    {
+      "label": "LECO Q4 deep dive - automation guidance (StockStory)",
+      "url": "https://stockstory.org/us/stocks/nasdaq/leco/news/earnings-call/leco-q4-deep-dive-automation-and-cost-discipline-power-guidance-amid-choppy-volumes"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new evidence since June 9 linking Lincoln's welding-automation/additive franchise to AI compute-campus or robot-factory fabrication. Only a June 10 valuation-premium note and a routine price move. The latent-strict setup is unchanged, so prior hold stands at rank 62.",
+      "bull": "Welding/automation + additive could supply heavy fabrication for compute campuses and robot factories; strong automation backlog.",
+      "neutral": "Diversified industrial compounder; AI-campus linkage remains thematic/indirect, not contracted.",
+      "bear": "No AI-specific revenue; trades at a premium to history per June 10 sell-side commentary.",
+      "primaryCatalyst": "Automation/additive design win tied explicitly to data-center or robot-factory buildout.",
+      "primaryRisk": "Cyclical industrial volumes; AI link stays thematic with no order evidence."
+    }
+  ]
+}

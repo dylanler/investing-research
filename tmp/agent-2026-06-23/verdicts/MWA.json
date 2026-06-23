@@ -1,0 +1,44 @@
+{
+  "symbol": "MWA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific event since June 9: Q2 FY2026 (record revenue $384.4M, EPS $0.40 beat, record adj. EBITDA $97.2M, guidance raise) was reported May 5-6, before the window. The only fresh item is a June 21 sell-side note framing rising data-center/AI water-infrastructure demand and Sentryx/EchoShore digital growth, with a ~$32 fair-value gap; commentary, not a fundamental change.",
+  "sources": [
+    {
+      "label": "MWA undervalued on AI water demand (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-mwa/mueller-water-products/news/mueller-water-products-mwa-stock-could-be-189-undervalued-as"
+    },
+    {
+      "label": "Mueller Water Q2 2026 results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288300/14520/en/Mueller-Water-Products-Reports-2026-Second-Quarter-Results.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Thermal & water latent-node thesis (valves, hydrants, leak-detection/monitoring as AI campuses stress municipal water) gets soft reinforcement from June 21 AI-water-demand framing, but the only hard data (Q2 beat) predates June 9. +1 sentiment credit, no move.",
+      "bull": "AI/data-center water stress elevates strategic value of pipes, valves and Sentryx monitoring.",
+      "neutral": "Strong Q2 already known; AI linkage still narrative-driven.",
+      "bear": "Municipal-capex cyclicality; AI-water tie is indirect.",
+      "primaryCatalyst": "Data-center/municipal water capex",
+      "primaryRisk": "Municipal budget cyclicality"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.68,
+      "rankRationale": "Strict screen (water distribution, leak detection, smart-utility as AI campuses pressure municipal networks) unchanged; June 21 commentary mildly supports the AI-water linkage but adds no hard catalyst. A top-5 US#4 slot stays; +1 for steady narrative confirmation.",
+      "bull": "Smart-utility/leak-detection products gain relevance as AI campuses strain water grids.",
+      "neutral": "Top-5 already reflects the thesis; no fresh fundamental driver.",
+      "bear": "AI-campus water linkage remains speculative versus core municipal demand.",
+      "primaryCatalyst": "Smart-water adoption / digital platform growth",
+      "primaryRisk": "Slowing municipal infrastructure spend"
+    }
+  ]
+}

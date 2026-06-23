@@ -1,0 +1,31 @@
+{
+  "symbol": "SUN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent disclosures (Q1 order intake -8.6% YoY to CHF 853M, 2026 guidance confirmed at 1-5% organic order growth and ~16.5% EBITDA margin, with a stronger H2 expected) date to April and predate the window. Nothing touches the latent AI-transfer pathway (coolant quality, water reuse, process control).",
+  "sources": [
+    {
+      "label": "Sulzer Q1 2026 order intake (TradingView)",
+      "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3236814:0-sun-q1-2026-order-intake-fell-8-6-year-over-year-but-guidance-and-outlook-for-2026-remain-positive/"
+    },
+    {
+      "label": "Sulzer confirms moderate Q1 order intake",
+      "url": "https://www.sulzer.com/en/shared/news/260413-order-intake-q1"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent lens needs concrete evidence the fluid-engineering franchise actually plumbs into AI coolant/water-reuse/process-control. None has emerged since June 9; -5.6% drift on no news. Un-rerated speculative setup intact, hold.",
+      "bull": "Pumping/separation/purification IP is a plausible adjacency for data-center liquid-cooling loops and water reuse if demand crosses over.",
+      "neutral": "Industrial fluids name with confirmed but unexciting 2026 guidance; AI link remains a hypothesis, not a booked revenue stream.",
+      "bear": "Weak Q1 large-project orders, no AI-coolant evidence; the latent thesis may never convert and the name sits on generic industrial cyclicality.",
+      "primaryCatalyst": "A named data-center coolant/water-reuse or process-control design win or partnership.",
+      "primaryRisk": "Latent AI pathway never materializes; remains a plain industrial cyclical."
+    }
+  ]
+}

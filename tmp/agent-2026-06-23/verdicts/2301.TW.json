@@ -1,0 +1,40 @@
+{
+  "symbol": "2301.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. LITEON's COMPUTEX 2026 reveals (800VDC liquid-cooled power rack, 110kW power shelf, 280kW in-rack CDU) and the POET co-packaged-optics co-development were June 2-5, already reflected in the prior case; price is essentially flat since.",
+  "sources": [
+    {
+      "label": "LITEON COMPUTEX 2026 800VDC rack / 110kW shelf (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/liteon-technology-at-computex-2026-showcasing-an-endtoend-ai-capability-from-cloud-to-edge-302789868.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha vs passives lens: nothing new since June 9; COMPUTEX 110kW shelf already priced and stock flat. Page already tags it crowded/rerated; +34% YTD keeps compressing residual under-owned upside without fresh fundamentals. Hold.",
+      "bull": "Real AI server-power and 800VDC/110kW shelf positioning at GTC/COMPUTEX with a near-term ramp.",
+      "neutral": "Crowded/rerated benchmark; diversified electronics dilutes pure AI-power alpha.",
+      "bear": "Electronics-margin/cycle drag; the rerating leaves little residual alpha vs passives.",
+      "primaryCatalyst": "800VDC / 110kW power-shelf and CDU adoption",
+      "primaryRisk": "Electronics margin/cycle and crowding"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "CPO lens: POET optical-interposer co-development and COMPUTEX optical/power modules already in the prior case (Jun 2-5); no net-new since June 9 and price flat. Diversified electronics profile still dilutes pure CPO alpha. Hold; +34% YTD captures upside.",
+      "bull": "POET co-packaged-optics collaboration gives genuine optical-module optionality alongside power.",
+      "neutral": "CPO adjacency is real but secondary to a broad electronics mix; no fresh catalyst.",
+      "bear": "Not a pure semiconductor/CPO play; electronics cycle and margins dominate.",
+      "primaryCatalyst": "POET optical-module co-development",
+      "primaryRisk": "Electronics margin/cycle; impure CPO exposure"
+    }
+  ]
+}

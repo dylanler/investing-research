@@ -1,0 +1,31 @@
+{
+  "symbol": "OSK",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No award-grade catalyst, but incremental opportunity: in June Oshkosh Defense pursued a potential second-supplier role for the Marine Corps JLTV (citing ~20-24 month delays by sole supplier AM General) with its JLTV A1, and is gearing up for a Netherlands FMS sale. This is pipeline positioning, not a booked order. The June 1 ROGUE-Fires Block 2 autonomy award ($92M) predates the window.",
+  "sources": [
+    {
+      "label": "Oshkosh eyes potential Marine JLTV deal citing readiness gaps (Breaking Defense)",
+      "url": "https://breakingdefense.com/2026/06/oshkosh-eyes-potential-marine-jltv-deal-citing-growing-readiness-gaps-under-current-contract/"
+    },
+    {
+      "label": "Oshkosh Defense seeks to be second JLTV supplier for USMC (Fox 11)",
+      "url": "https://fox11online.com/news/local/oshkosh-defense-seeks-to-fill-usmcs-request-for-second-supplier-of-jltv"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent AI-node lens (compute-infra logistics/electrification proxy): the June Marine JLTV second-supplier pursuit + Netherlands FMS is positive pipeline but not a booked order and is only tangential to the compute-buildout thesis this strict screen rewards. Slight positive tilt; no rank change.",
+      "bull": "Electrified/autonomous specialty platforms; potential incremental JLTV volume and FMS demand.",
+      "neutral": "Defense pipeline is opportunity, not yet orders; AI-node linkage is a stretch.",
+      "bear": "Mapping to compute-infrastructure buildout is weak; cyclical specialty-vehicle exposure.",
+      "primaryCatalyst": "JLTV second-supplier award + autonomy programs",
+      "primaryRisk": "Award uncertainty; thin AI-node relevance"
+    }
+  ]
+}

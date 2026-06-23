@@ -1,0 +1,35 @@
+{
+  "symbol": "267260.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9; next earnings is scheduled Aug 26, 2026. The standing story (FY26 KRW4.4T revenue / ~$4.22B new-order guide, US Alabama plant expansion +50% UHV capacity) is unchanged from earlier in the year.",
+  "sources": [
+    {
+      "label": "Seoul Economic: HD Hyundai Electric $127M order at power expo",
+      "url": "https://en.sedaily.com/news/2026/05/07/hd-hyundai-electric-wins-127-million-order-at-north"
+    },
+    {
+      "label": "Yahoo Finance: HD Hyundai Electric quote/news",
+      "url": "https://finance.yahoo.com/quote/267260.KS/"
+    },
+    {
+      "label": "SeoulEconomicDaily: US transformer plant +50% capacity",
+      "url": "https://en.sedaily.com/news/2026/03/08/hd-hyundai-electric-breaks-ground-on-us-plant-expansion"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "No new fundamental evidence since June 9; flat price move. On a hidden-alpha list this remains a widely-covered 'emperor stock' grid/AI-power trade, the opposite of under-owned, and its distance from the passives-bottleneck stack is unchanged. Correctly penalized at rank 51; hold.",
+      "bull": "Grid-transformer bottleneck for AI datacenter power; strong order backlog; US capacity expansion.",
+      "neutral": "Real exposure but over-covered and farther from the passives core; rank reflects that.",
+      "bear": "Consensus AI-power trade, fully discovered; quiet until Aug 26 earnings.",
+      "primaryCatalyst": "Aug 26 earnings / US order momentum",
+      "primaryRisk": "Crowded, far from passives stack; no near-term catalyst"
+    }
+  ]
+}

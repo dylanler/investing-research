@@ -1,0 +1,35 @@
+{
+  "symbol": "WITH.HE",
+  "company": "WithSecure Oyj",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material listing-validity flag: WithSecure was taken private by a CVC / Risto Siilasmaa consortium (Diana BidCo) at EUR1.70/share; Diana BidCo gained title to minority shares on March 26, 2026 and the shares were delisted from Nasdaq Helsinki. The company also discontinued publishing outlook (May 2026). WITH.HE is no longer a tradable public equity, so the listing carries no live price/market-cap (context fields are null).",
+  "sources": [
+    {
+      "label": "WithSecure applies for Nasdaq Helsinki delisting",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bd6f7e37d157337d5e119f512460b1148&lang=en"
+    },
+    {
+      "label": "Diana BidCo gains title to minority shares; delisting",
+      "url": "https://in.marketscreener.com/news/diana-bidco-oy-has-gained-title-to-the-minority-shares-in-withsecure-corporation-and-the-withsecure-ce7e51dade8df721"
+    },
+    {
+      "label": "CVC/Siilasmaa EUR1.70 cash tender offer",
+      "url": "https://view.news.eu.nasdaq.com/view?id=b68a0bad30a879b9f183f1858a522ec0b&lang=en"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 29,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.78,
+      "rankRationale": "Test-time-scaling lens: the MDR/cyber-resilience thesis is fine, but WITH.HE was taken private (CVC/Siilasmaa, EUR1.70) and delisted from Nasdaq Helsinki on Mar 26, 2026 with no live price/cap. An uninvestable, stale listing should rank below tradable scaling peers. Move down.",
+      "bull": "MDR and enterprise cyber-resilience remain structurally relevant to AI-era security spending.",
+      "neutral": "Sound security franchise, but now private under CVC with no public liquidity or disclosure.",
+      "bear": "Delisted from Nasdaq Helsinki and taken private at EUR1.70; not a tradable equity and outlook discontinued — the listing is effectively dead.",
+      "primaryCatalyst": "AI-driven demand for managed detection / cyber resilience",
+      "primaryRisk": "Already delisted/taken private — no public investability or disclosure"
+    }
+  ]
+}

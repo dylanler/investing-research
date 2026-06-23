@@ -1,0 +1,48 @@
+{
+  "symbol": "ROG",
+  "company": "Rogers Corp",
+  "caseDate": "2026-06-23",
+  "newsSince": "B. Riley raised its ROG price target to $200 from $165 (Buy) on June 15, helping drive a +16% move since June 9 and a new 52-week high on June 22. Q1 design wins in automotive/radar (Asian OEM) ramp into H2 2026, while data-center materials remain mostly sampling/prototype with meaningful revenue not expected until late 2027. No M&A, guidance change, or fresh design win since June 9 beyond the sell-side upgrade.",
+  "sources": [
+    {
+      "label": "B. Riley PT raise / 52-week high (Markets Daily)",
+      "url": "https://www.themarketsdaily.com/2026/06/22/rogers-nyserog-sets-new-12-month-high-heres-what-happened.html"
+    },
+    {
+      "label": "ROG Q1 2026 earnings highlights (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rogers-corp-rog-q1-2026-071003468.html"
+    },
+    {
+      "label": "ROG news feed (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ROG/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 31,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "A June 15 sell-side PT hike to $200 plus a new 52-week high (now +78% YTD) confirms the name is no longer hidden/under-owned, eroding the residual-alpha premise this page rewards. No new fundamental win; data-center revenue still ~2027.",
+      "bull": "AI-adjacent thermal/laminate supplier with auto/radar design wins ramping H2 2026 and rising sell-side targets.",
+      "neutral": "Strong Q1 and an upgrade, but data-center revenue is years out and the stock has already re-rated hard.",
+      "bear": "Now widely flagged after a 52-week high; the under-owned mispricing this page prizes is gone.",
+      "primaryCatalyst": "Auto/radar design-win ramp into H2 2026",
+      "primaryRisk": "Crowding/re-rating eroding residual alpha"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Latent AI-node lens rewards the thermal/high-frequency/power-electronics link, which the B. Riley upgrade and ramping design wins modestly reinforce. Data-center exposure validated but distant (late 2027), so a small positive, not a rank move at #7.",
+      "bull": "Thermal-interface and high-frequency materials feed AI accelerators and power electronics; design wins ramping and targets rising.",
+      "neutral": "Real AI-supply-chain link, but the data-center contribution is still sampling/prototype until 2027.",
+      "bear": "Cyclical electronics demand and activist-sensitive sentiment after a large run.",
+      "primaryCatalyst": "Thermal/power-electronics demand into AI/data-center",
+      "primaryRisk": "Cyclical electronics softness; valuation"
+    }
+  ]
+}

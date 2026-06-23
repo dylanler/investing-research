@@ -1,0 +1,31 @@
+{
+  "symbol": "RSW.L",
+  "company": "Renishaw",
+  "caseDate": "2026-06-23",
+  "newsSince": "Renishaw reported a record 9M FY2026 trading update — revenue +9.5% reported / +13.5% constant-currency to £571.6m, growth in every segment and region, and a substantially expanded order book. Machine-calibration demand is being underpinned by semiconductor-equipment builders, and emerging products (Equator-X) are growing strongly. The company also held its Capital Markets Day in London on June 16, 2026.",
+  "sources": [
+    {
+      "label": "Renishaw record Q3/9M FY2026 (DirectorsTalk)",
+      "url": "https://www.directorstalkinterviews.com/renishaw-reports-record-q3-and-sustained-growth-in-9m-fy2026/4121250649"
+    },
+    {
+      "label": "Renishaw trading statement (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/renishaw--rsw/trading-statement/9553606"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 25,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "On the latent AI-supply-chain lens, a record 9M update (rev +13.5% cc, broad-based, expanding order book) with calibration demand explicitly driven by semiconductor-equipment builders directly validates the precision-metrology-into-AI-manufacturing thesis. A genuine fundamental improvement plus a June 16 CMD argues up vs peers.",
+      "bull": "Record 9M results; calibration demand from semiconductor-equipment makers ties metrology directly to the AI-fab buildout; order book expanding.",
+      "neutral": "Strong print, but the stock has already re-rated +43% YTD and metrology remains cyclical.",
+      "bear": "Often screened as a slow industrial; growth could normalize as the order book unwinds.",
+      "primaryCatalyst": "Semiconductor-equipment-driven calibration/metrology demand",
+      "primaryRisk": "Industrial cyclicality after a strong run"
+    }
+  ]
+}

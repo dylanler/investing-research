@@ -1,0 +1,52 @@
+{
+  "symbol": "QCOM",
+  "company": "Qualcomm",
+  "caseDate": "2026-06-23",
+  "newsSince": "Highly material AI-compute escalation. At its June 24 Investor Day (one day after this eval), Qualcomm detailed an annual-cadence AI200/AI250 data-center inference roadmap, updated a 200MW accelerator agreement ramping in H2 2026, and announced NVLink Fusion-compatible data-center CPUs. The ByteDance ASIC deal (millions of units) and reported ~$10B Tenstorrent acquisition talks further raise data-center directness.",
+  "sources": [
+    {
+      "label": "Qualcomm Investor Day to detail data-center plans (Yahoo Finance)",
+      "url": "https://ca.finance.yahoo.com/news/qualcomm-investor-day-detail-data-163411390.html"
+    },
+    {
+      "label": "AI200/AI250 rack-scale inference launch (DCD)",
+      "url": "https://www.datacenterdynamics.com/en/news/qualcomm-launches-ai200-and-ai250-chip-offering-targeting-inferencing-workloads-at-rack-scale/"
+    },
+    {
+      "label": "Qualcomm ByteDance ASIC deal / sector unwind (24/7 Wall St)",
+      "url": "https://247wallst.com/investing/2026/06/09/qualcomm-drops-8-on-bytedance-asic-deal-marvell-falls-10-as-custom-silicon-stocks-slide/"
+    },
+    {
+      "label": "Qualcomm reportedly eyeing Tenstorrent $10B (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-reportedly-eyeing-tenstorrent-050918276.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.74,
+      "rankRationale": "On the AI-node bottleneck lens, new evidence materially raises directness: Investor-Day AI200/AI250 rack-scale inference roadmap, a 200MW accelerator deal ramping H2'26, ByteDance ASICs, NVLink-Fusion CPUs and reported Tenstorrent talks move QCOM well beyond 'selective edge.' Re-rate up.",
+      "primaryCatalyst": "AI200/AI250 inference roadmap + 200MW deal + ByteDance ASICs",
+      "primaryRisk": "Execution/ramp risk; export-control exposure on China demand",
+      "bull": "Credible rack-scale inference roadmap, hyperscale ASIC wins and possible Tenstorrent deal turn QCOM into a direct AI-compute bottleneck name.",
+      "neutral": "Strong narrative but data-center revenue still early; Investor-Day targets need 2026-27 proof points.",
+      "bear": "Inference accelerators face Nvidia/AMD/Broadcom; ByteDance reliance carries export-control and concentration risk."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Through the co-packaged-optics lens, Qualcomm's data-center push (AI200/AI250, CPUs) strengthens AI-edge/inference optionality but it is still not a CPO/optical-cable play. Slightly less negative than the prior 'remove,' yet near the bottom of an actionable CPO ranking is appropriate.",
+      "primaryCatalyst": "AI-edge/data-center inference optionality (non-CPO)",
+      "primaryRisk": "No direct CPO/optical leverage; handset/China cycle",
+      "bull": "Expanding data-center silicon adds AI optionality that could one day attach to optical-interconnect ecosystems.",
+      "neutral": "Real AI momentum but irrelevant to the CPO/co-packaged-optics thesis this page screens for.",
+      "bear": "No co-packaged-optics content; handset cyclicality and China exposure dominate the standalone case here."
+    }
+  ]
+}

@@ -162,7 +162,7 @@ export default function CompaniesPage() {
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated June 9, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated June 23, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -225,7 +225,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: Yahoo Finance chart data refreshed June 9, 2026. Median YTD return by bucket.
+              Source: Yahoo Finance chart data refreshed June 23, 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -565,7 +565,7 @@ export default function CompaniesPage() {
                 &ldquo;The June 2026 tape says HBM (+237.4% median), storage/data (+200.0%), and advanced packaging (+164.0%) have already been discovered. The current alpha audit therefore keeps those theses, but moves more weight toward less-rerated power, cooling, and selected packaging bottlenecks.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Yahoo Finance chart data refreshed June 9, 2026
+                Source: Yahoo Finance chart data refreshed June 23, 2026
               </cite>
             </blockquote>
           </Reveal>
@@ -594,7 +594,7 @@ export default function CompaniesPage() {
       <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-2xl) var(--space-lg)' }}>
         <div className="max-w-5xl mx-auto">
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)' }}>
-            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed June 9, 2026 where a current public listing exists. Past performance does not guarantee future results.
+            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed June 23, 2026 where a current public listing exists. Past performance does not guarantee future results.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
             <Link href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</Link>

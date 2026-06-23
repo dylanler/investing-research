@@ -1,0 +1,31 @@
+{
+  "symbol": "PAL.VI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Palfinger continues routine APAC offshore-wind crane deliveries (e.g., Korea CTV) but reported no new earnings, guidance, contract, or M&A; next earnings are scheduled for July 28, 2026.",
+  "sources": [
+    {
+      "label": "Palfinger News (corporate)",
+      "url": "https://www.palfinger.com/worldwide/en/insights-news-and-events/news.html"
+    },
+    {
+      "label": "Palfinger AG (PAL.VI) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAL.VI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent AI-node lens: lifting/handling tie to robotics/datacenter-infra logistics stays indirect and speculative. No new contract, guidance or analyst catalyst since June 9; -1.7% drift is noise. Hold at 77 ahead of July 28 earnings.",
+      "bull": "Crane/handling systems offer optionality on maintenance robotics and modular datacenter/industrial logistics buildout.",
+      "neutral": "Quiet stretch with no AI-specific datapoints; back in ATX, awaiting July 28 H1 print.",
+      "bear": "Core lifting cyclical with only tenuous AI linkage; -3.6% YTD and weak macro cap the latent-node thesis.",
+      "primaryCatalyst": "July 28 H1 2026 results / order intake",
+      "primaryRisk": "Industrial-cycle softness; AI linkage too indirect to sustain rank"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "TPRO.MI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh fundamental news since June 9. The record Q1 2026 results and accelerated/raised 2026 targets (up to EUR1.05B sales, 44-46% EBITDA margin, ~38% of revenue AI-related) were disclosed May 14-15 and already captured by the June 8 verdict. The +18% move since June 9 is momentum/capacity-narrative reiteration, not a new catalyst (UBS 'buy' initiation dates to Sept 2025).",
+  "sources": [
+    {
+      "label": "Technoprobe surges 36% on Q1, raised targets (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/technoprobe-shares-surge-36-as-q1-profit-jumps-targets-accelerated-4691350"
+    },
+    {
+      "label": "Technoprobe shares surge on raised guidance (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/technoprobe-shares-surge-by-a-record-after-raising-guidance"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Through the CPO/advanced-packaging-test lens the probe-card scarcity thesis is intact, but no new fundamental evidence landed in the June 9-23 window. The +18% surge restates the May guidance raise already priced June 8; ~30% probe-card share and HBM/chiplet test demand keep it a hold, not a fresh upgrade.",
+      "bull": "~30% global probe-card share and ~38-50% AI revenue mix make it a genuine choke-point for testing AI/photonic devices; targets pulled forward to 2026.",
+      "neutral": "Strong setup but +180% YTD and a $28B cap have largely captured the upgraded targets; move since June 9 is sentiment.",
+      "bear": "Customer concentration, cyclicality and a steep valuation; any AI capex pause hits a high-multiple test name hard.",
+      "primaryCatalyst": "HBM/chiplet & photonic test demand; capacity doubling 2026-27",
+      "primaryRisk": "Customer concentration / cyclicality at a rich multiple"
+    }
+  ]
+}

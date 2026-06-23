@@ -1,0 +1,52 @@
+{
+  "symbol": "AMS.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The micro-LED 'slow-and-wide' AI optical-interconnect program advanced to product development in March 2026 (predates window, ~2030 revenue), and CES 2026 optical-sensing/microLED launches are older. Stock +6.2% since June 9 (+115% YTD) appears flow/recovery-driven, not news-driven.",
+  "sources": [
+    {
+      "label": "ams-OSRAM Q1 2026 results",
+      "url": "https://ams-osram.com/news/press-releases/q1-2026-results"
+    },
+    {
+      "label": "ams-OSRAM turnaround/AI photonics (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/ams-osram-earnings-call-highlights-turnaround-momentum"
+    },
+    {
+      "label": "ams OSRAM microLED AI optical interconnect (LEDinside)",
+      "url": "https://www.ledinside.com/products/2026/3/2026_03_23_03"
+    },
+    {
+      "label": "ams OSRAM microLED press release",
+      "url": "https://ams-osram.com/news/press-releases/microled"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Latent sensors/photonics lens: the AI-photonics development agreement (datacenter optics) modestly supports the edge-AI/datacom thesis, but it was disclosed at Q1 (May 7), not within this window. Turnaround on track, expectations still low. Slight positive tilt, rank holds; +6.2% is sentiment flow.",
+      "bull": "AI-photonics development deal opens a datacenter-optics path; restructuring delivering ahead of plan toward FCF in 2027.",
+      "neutral": "Optical-sensing recovery and AI optics are early; no fresh catalyst since June 9.",
+      "bear": "Balance-sheet scars and consumer/auto cycle still overhang the $2.4B name.",
+      "primaryCatalyst": "AI-photonics design-win conversion and deleveraging.",
+      "primaryRisk": "Industrial/auto optics demand and leverage."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 119,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: still not a direct co-packaged-optics cable/engine winner. The micro-LED interconnect program is the only CPO-relevant angle and it is unchanged since June 9 (prototype-stage, ~2030 revenue). Keeps it at the bottom of the list; no re-rank.",
+      "bull": "Micro-emitter interconnect IP could become CPO-relevant if 'slow-and-wide' optics gain traction.",
+      "neutral": "Optical expertise present but no direct CPO product/revenue today.",
+      "bear": "Indirect, distant, and competitively contested CPO exposure; balance-sheet overhang.",
+      "primaryCatalyst": "Micro-LED interconnect design-in milestones",
+      "primaryRisk": "No near-term CPO monetization; financing/cycle risk"
+    }
+  ]
+}

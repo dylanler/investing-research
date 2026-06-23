@@ -1,0 +1,47 @@
+{
+  "symbol": "NMAN.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No press releases or filings since June 9. Nederman's soft Q1 2026 (lower orders, deferred industrial capex, ~9% organic order decline), plus the Euro-Equip and Duroair acquisitions, all pre-date the window. The +2.2% move since Jun 9 is flow-level drift; the fabrication-adjacent filtration pathway remains latent, not inflecting.",
+  "sources": [
+    {
+      "label": "Nederman Q1 2026 weak orders, margin strength (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/nederman-holding-ab-balances-weak-orders-with-margin-strength"
+    },
+    {
+      "label": "Nederman Q1 2026 earnings call highlights (Investing.com)",
+      "url": "https://ca.investing.com/news/company-news/nederman-holding-ab-nhoxf-q1-2026-earnings-call-highlights-navigating-challenges-with--4572727"
+    },
+    {
+      "label": "Nederman holds margins amid weaker Q1 orders (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/nederman-holds-margins-amid-weaker-q1-orders-and-bets-on-energy-transition-growth"
+    },
+    {
+      "label": "Nederman Holding (NMAN.ST) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NMAN.ST/"
+    },
+    {
+      "label": "Nederman investor relations / earnings (Quartr)",
+      "url": "https://quartr.com/companies/nederman-holding_4505"
+    },
+    {
+      "label": "Nederman acquires Environmental Filtration Technologies (Cision)",
+      "url": "https://news.cision.com/nederman/r/nederman-acquires-us-group-environmental-filtration-technologies,c9303356"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No releases or filings since Jun 9; the latent-node setup is unchanged. The -23% YTD de-rating keeps Nederman un-crowded with filtration optionality (recycling, data centres, battery, defence) intact, but Q1's ~9% organic order decline shows the fabrication-adjacent pathway is still latent, not inflecting. Hold.",
+      "bull": "Cheap, under-owned industrial air-filtration play with structural exposure to data centres, batteries and recycling.",
+      "neutral": "Optionality intact but unrealized; orders soft and no AI-specific catalyst yet.",
+      "bear": "~9% organic order decline and -23% YTD signal cyclical weakness; AI/fab linkage remains speculative.",
+      "primaryCatalyst": "Order inflection from data-center/battery/recycling filtration demand",
+      "primaryRisk": "Continued industrial order softness with no AI driver materializing"
+    }
+  ]
+}

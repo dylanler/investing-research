@@ -1,0 +1,44 @@
+{
+  "symbol": "SIMO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9; the supportive datapoints (record Q1 2026 revenue ~$342M, Q2 guide +15-20% to ~$393-411M, MonTitan cloud-AI controller ramp, NAND prices up 55-60% q/q with multi-year shortage) all came from the late-April Q1 print and predate June 9. The +21.7% move since June 9 tracks the memory/NAND up-cycle rather than a new SIMO release.",
+  "sources": [
+    {
+      "label": "Silicon Motion Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/30/silicon-motion-simo-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "SIMO beats Q1 2026; NAND shortage + MonTitan ramp (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-silicon-motion-beats-q1-2026-forecasts-stock-surges-93CH-4645246"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 102,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Through the co-packaged-optics lens SIMO remains explicitly tangential - storage-controller optionality, not optical/cable content. Nothing since June 9 adds optical relevance, and the page should not reward a NAND-cycle move. Hold the deep-tail rank.",
+      "primaryCatalyst": "MonTitan/Boot Drive cloud-AI storage controllers; NAND shortage tightening.",
+      "primaryRisk": "No CPO/optical content; pure storage-cycle beta on this page.",
+      "bull": "AI-storage controller ramp and NAND scarcity drive content, a real data-layer beneficiary.",
+      "neutral": "Fundamentally improving but off-thesis for an optical/CPO page.",
+      "bear": "Zero optical relevance; belongs near the bottom of a CPO screen regardless of storage strength."
+    },
+    {
+      "page": "companies",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the master bottleneck list SIMO has genuine data-layer/AI-storage exposure (MonTitan cloud controllers, NAND shortage, share gains as makers outsource controllers). The thesis is structurally firmer, but the supportive data is the April print, not new since June 9, and the YTD re-rate is already extreme. Small positive tilt, hold rank.",
+      "primaryCatalyst": "Cloud AI controller ramp (MonTitan/Boot Drive) into a multi-year NAND shortage.",
+      "primaryRisk": "Storage cyclicality; crowding after a ~237% YTD run.",
+      "bull": "Agentic-workload data gravity plus NAND scarcity and controller-outsourcing share gains lift content and margin.",
+      "neutral": "Real AI-storage exposure but already heavily re-rated and crowding-sensitive.",
+      "bear": "Commodity-adjacent storage cycle; the easy money in the NAND up-leg may be made."
+    }
+  ]
+}

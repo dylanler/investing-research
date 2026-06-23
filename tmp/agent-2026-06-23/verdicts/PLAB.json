@@ -1,0 +1,44 @@
+{
+  "symbol": "PLAB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company news since June 9. Photronics' Q2 FY2026 results (reported May 28: revenue $210M flat YoY and below the ~$216M estimate, GAAP EPS $0.54 / non-GAAP $0.42, 31% gross margin, $330M FY26 capex reaffirmed, Q3 guide $207-215M) and the early-June Schall investigation were already reflected in the June 9 case.",
+  "sources": [
+    {
+      "label": "Photronics Q2 2026 results (StockTitan)",
+      "url": "https://www.stocktitan.net/news/PLAB/photronics-reports-second-quarter-2026-czjju7w2y1kd.html"
+    },
+    {
+      "label": "Photronics Q2 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/photronics-plab-q2-2026-earnings-transcript/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: post-miss derate already reflected; AI-fab/HBM capacity thesis operationally intact with $330M capex reaffirmed and Korea sub-8nm/Allen expansions on track. No new node-supply info since June 9 (Schall noise is legal, not operational), so hold.",
+      "bull": "High-end IC and FPD strength plus maintained capex keep photomask leverage to AI-fab/HBM capacity additions intact.",
+      "neutral": "Revenue flat YoY and below estimate; order timing soft with cautious Q3 guide.",
+      "bear": "IC revenue -5% YoY, mask pricing/cycle pressure and export-control exposure cloud near-term node demand.",
+      "primaryCatalyst": "AI-fab/HBM capacity additions and Korea/Allen expansion ramps",
+      "primaryRisk": "Order timing, mask pricing/cycle and export-control risk"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "CPO/materials lens: photomasks are a low-profile, cash-generative consumable levered to design complexity - a clean materials-bottleneck name. Prior down-move already trimmed it from rank 1; no new fundamentals since June 9, so hold rank 5 on this materials axis.",
+      "bull": "Cash-generative photomask supplier levered to rising design complexity at advanced/HBM nodes, less headline-sensitive than peers.",
+      "neutral": "Flat quarter and cautious guide, but capex and high-end mix preserve the bottleneck role.",
+      "bear": "Mask pricing/cycle risk and a softer IC quarter dent the consumable-bottleneck premium.",
+      "primaryCatalyst": "Design-complexity-driven high-end mask demand",
+      "primaryRisk": "Mask pricing/cycle downturn"
+    }
+  ]
+}

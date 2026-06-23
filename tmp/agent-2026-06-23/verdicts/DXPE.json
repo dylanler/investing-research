@@ -1,0 +1,31 @@
+{
+  "symbol": "DXPE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17, 2026 DXP completed the acquisition of General Repair Service (Minnesota; ~$12.2m sales, ~$1.6m adj EBITDA for TTM Mar-2026), a water/wastewater and industrial pump-and-blower distributor, funded with balance-sheet cash. It is DXP's fourth acquisition of 2026 - confirms the bolt-on flywheel but is immaterial in size.",
+  "sources": [
+    {
+      "label": "DXP Enterprises Announces Acquisition of General Repair Service (Morningstar/Business Wire)",
+      "url": "https://www.morningstar.com/news/business-wire/20260617519215/dxp-enterprises-inc-announces-acquisition-of-general-repair-service"
+    },
+    {
+      "label": "DXP Enterprises acquires General Repair Service (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/dxp-enterprises-acquires-general-repair-service-in-minnesota-93CH-4748571"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent screen: pumps/rotating-equipment/MRO distributor could aggregate fragmented cooling/water components. June 17 General Repair bolt-on (water/wastewater pumps) modestly reinforces the cooling/water aggregation pathway but is tiny (~$12m sales) - confirmation, not a step-change. Small positive drift, no re-rank; shares still well above consensus target on a +54% YTD.",
+      "bull": "Serial bolt-ons (4th in 2026) in pumps/water build a fragmented cooling/water aggregation platform relevant to data-center liquid cooling.",
+      "neutral": "AI/data-center spillover is still a speculative pathway, not evidenced order flow; acquisition is too small to move the thesis.",
+      "bear": "+54% YTD leaves shares ~well above consensus target; cooling/water demand spillover remains inferential, not in the numbers.",
+      "primaryCatalyst": "Continued water/cooling bolt-on M&A and any data-center liquid-cooling demand spillover",
+      "primaryRisk": "Rich valuation vs consensus and unproven AI-node demand linkage"
+    }
+  ]
+}

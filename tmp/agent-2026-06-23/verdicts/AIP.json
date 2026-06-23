@@ -1,0 +1,31 @@
+{
+  "symbol": "AIP",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new discrete catalyst since June 9. The Q1 2026 beat (ACV+royalties $92.8M, +39% YoY), the FY26 revenue guidance raise to $91-95M, and design wins (Renesas R-Car Gen5, Li Auto, NXP system-IP expansion) all predate June 9 and were in the prior case. Continued AI/NoC demand commentary is supportive but not new. The +24.3% move since June 9 is momentum/re-rating, not a fresh event.",
+  "sources": [
+    {
+      "label": "Arteris Q1 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001667011/000162828026034102/exhibit991q120268-k.htm"
+    },
+    {
+      "label": "Simply Wall St — AIP AI demand",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-aip/arteris/news/is-stronger-ai-demand-reshaping-arteris-aip-from-niche-ip-ve/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the test-time-scaling/complexity lens, NoC interconnect IP is a clean on-chip scaling bottleneck and the +39% royalty/ACV momentum and NXP/Renesas wins validate it — but those catalysts predate June 9, so only mild positive drift, no rank move.",
+      "bull": "NoC IP becomes core architecture as AI SoC complexity explodes; +39% ACV/royalties; widening automotive/edge design wins (NXP, Renesas).",
+      "neutral": "Strong thesis but catalysts already in price; +169% YTD, ~$2B cap, recent move is momentum not new news.",
+      "bear": "Tiny IP vendor, royalty timing lumpy, rich valuation after +169% YTD leaves little margin for execution slips.",
+      "primaryCatalyst": "Royalty ramp from AI-SoC design wins",
+      "primaryRisk": "Valuation/momentum reversal; lumpy licensing"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "3661.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 2 Alchip announced expanded use of AWS for cloud-based silicon execution (design through tape-out) - an infrastructure/workflow item, not a new design win. The custom-AI-silicon thesis (3nm in production, 2nm ecosystem) remains intact. No new guidance or marquee win disclosed since June 9; +2.9% move is flow.",
+  "sources": [
+    {
+      "label": "AI Magazine - Alchip leverages AWS for cloud silicon execution (Jun 2)",
+      "url": "https://aimagazine.com/globenewswire/3305256"
+    },
+    {
+      "label": "HPCwire - Alchip to showcase advanced AI ASIC at TSMC 2026 symposium",
+      "url": "https://www.hpcwire.com/off-the-wire/alchip-to-showcase-advanced-ai-asic-technologies-at-tsmc-2026-technology-symposium/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Node lens: 3nm-in-production / 2nm-ecosystem custom-ASIC thesis intact; Jun 2 AWS item is workflow, not a win. At only +20% YTD it is far less rerated/crowded than GUC, so residual alpha is modestly better. Hold rank, +1.",
+      "bull": "Leading-edge custom AI accelerators in volume; relatively un-rerated (+20% YTD) vs ASIC peers.",
+      "neutral": "AWS news incremental; awaiting next program disclosure.",
+      "bear": "Customer concentration; AI-project timing; ASIC theme crowded.",
+      "primaryCatalyst": "Next-gen 2nm AI accelerator program ramp",
+      "primaryRisk": "Customer concentration / program timing"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: custom-silicon/chiplets/SerDes/scale-up-fabric relevance reaffirmed by Jun 2 AWS tape-out partnership; optical attach indirect. Only +20% YTD leaves more residual alpha than GUC. Hold high rank, +1 on intact thesis.",
+      "bull": "Chiplet/SerDes/scale-up exposure to hyperscaler AI silicon; cleaner valuation than ASIC peers.",
+      "neutral": "Optical attach indirect; news incremental.",
+      "bear": "Customer concentration; AI project timing risk.",
+      "primaryCatalyst": "Hyperscaler 2nm/chiplet program win",
+      "primaryRisk": "Customer concentration / timing"
+    }
+  ]
+}

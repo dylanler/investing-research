@@ -1,0 +1,35 @@
+{
+  "symbol": "ESAB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Mitchell P. Rales appointed Executive Chair on June 10, formalizing the Rales/Kambeyanda leadership alignment. DA Davidson initiated coverage with a Buy and $130 PT on June 16, citing margin and accretion from the Eddyfi deal (closed June 2). Stock is +13.9% since June 9.",
+  "sources": [
+    {
+      "label": "ESAB names Executive Chair (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/ESAB/pressreleases/2453585/esab-names-executive-chair-aligns-leadership-with-incentives/"
+    },
+    {
+      "label": "ESAB rallies as Eddyfi deal fuels bullish target (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/esab-corporation-esab-news-2026_06_16/"
+    },
+    {
+      "label": "ESAB completes Eddyfi acquisition (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260602518627/en/ESAB-Corporation-Completes-Acquisition-of-Eddyfi-Technologies"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 34,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Genuinely new since June 9: Rales Executive Chair (Jun 10) and DA Davidson Buy/$130 PT (Jun 16). Eddyfi (NDT inspection, +$5B TAM) deepens the welding/fabrication latent-node case for reshoring. Modest positive; +14% move is price re-rating, not thesis change, so small score bump only.",
+      "bull": "Eddyfi adds $270M rev/$80M EBITDA and a $5B inspection TAM; sell-side initiating Buy; leadership aligned for transformation.",
+      "neutral": "Accretion real but priced in after +14% pop; updated FY guidance not yet given (next earnings call).",
+      "bear": "Late-cycle welding demand; integration/equity-financing dilution; latent-node link to compute is loose and indirect.",
+      "primaryCatalyst": "Q2 earnings call with updated FY guidance incorporating Eddyfi",
+      "primaryRisk": "Industrial demand softening and integration execution"
+    }
+  ]
+}

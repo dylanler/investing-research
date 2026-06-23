@@ -1,0 +1,44 @@
+{
+  "symbol": "FLEX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "S&P 500 inclusion became effective June 22 (announced June 5; already anticipated in the prior down-call). The planned tax-free spin-off of the Cloud & Power Infrastructure segment (announced May 5, targeted Q1 2027) and COMPUTEX Vera Rubin power-shelf reveal both predate June 9. No genuinely new fundamental catalyst since. Stock +3.0% since June 9.",
+  "sources": [
+    {
+      "label": "Flex to join S&P 500 effective June 22 (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/flex-to-join-sp-500-index-effective-june-22-93CH-4733874"
+    },
+    {
+      "label": "Flex announces Cloud & Power spin-off (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/flex-announces-intention-to-spin-off-its-cloud-and-power-infrastructure-segment-into-a-new-independent-publicly-traded-company-302763151.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "The S&P 500 inclusion that drove the Jun 9 down-call has now executed (effective Jun 22) - the terminal recognition/forced-passive-ownership event is complete, fully eroding under-owned character on this residual-alpha lens. Spin-off (May 5) predates window. Down-bias already applied; small further negative drift, hold rank.",
+      "bull": "800V Rubin rack power positions Flex at a real AI-power bottleneck; spin-off could surface a high-multiple AI pure-play.",
+      "neutral": "S&P inclusion + spin-off both already announced and largely priced after +138% YTD.",
+      "bear": "Now index-mandated and crowded; the alpha edge (under-ownership) is gone; +138% YTD leaves heavy re-rating risk on this page's lens.",
+      "primaryCatalyst": "SpinCo separation details (Q1 2027); Rubin power-shelf wins",
+      "primaryRisk": "Crowding/over-ownership unwind post index inclusion"
+    },
+    {
+      "page": "companies",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the broad bottleneck/physical-deployment lens, S&P inclusion (executed Jun 22) adds crowding but the COMPUTEX Vera Rubin 800V power-shelf validation offsets it - the two roughly cancel, as in the prior hold. Spin-off (May 5) predates window; nothing genuinely new since June 9. Hold.",
+      "bull": "Rack integration and 800V power-shelf for NVIDIA Rubin is scarce physical-deployment capacity; spin-off sharpens AI-infra focus.",
+      "neutral": "Deployment exposure real but execution/pricing-dependent; +138% YTD reflects much of it.",
+      "bear": "Contract-manufacturing margins thin; index inclusion adds crowding; capex cycle exposure.",
+      "primaryCatalyst": "Rubin power-shelf ramp; SpinCo value crystallization",
+      "primaryRisk": "Systems-integration execution/pricing and AI capex digestion"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "2330.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Since June 9 TSMC reaffirmed >30% USD revenue growth and lifted 2026 capex to ~$56B; leading-edge capacity is sold out through 2027 with demand exceeding supply ~25-30%, and 3nm price hikes of up to 15% are planned for 2H26 (plus 5-10% in 2027). Chairman Wei reiterated AI chip supply will lag demand 'for years.' This both confirms the chokepoint and resolves the prior 'no-price-hike' overhang in TSMC's favor.",
+  "sources": [
+    {
+      "label": "TrendForce - TSMC eyes up to 15% 3nm price hike in 2H26",
+      "url": "https://www.trendforce.com/news/2026/05/27/news-tsmc-reportedly-eyes-up-to-15-3nm-price-hike-in-2h26-further-5-10-seen-in-2027-amid-ai-asic-demand/"
+    },
+    {
+      "label": "SCMP - TSMC targets >30% revenue surge, ramps capex",
+      "url": "https://www.scmp.com/tech/big-tech/article/3350346/tsmc-targets-over-30-revenue-surge-2026-ramps-capex-amid-booming-ai-demand"
+    },
+    {
+      "label": "ThePlanetTools - Wei: AI chip shortage to last for years",
+      "url": "https://theplanettools.ai/blog/tsmc-ai-chip-supply-lag-demand-years-cc-wei-june-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Silicon-basket bottleneck lens: news since June 9 reinforces the manufacturing-chokepoint case - leading nodes sold out through 2027, demand exceeding supply 25-30%, and confirmed 3nm price hikes (up to 15% in 2H26) reversing the prior no-price-hike overhang and lifting margin trajectory. Rank 3 still fits; mild positive on thesis.",
+      "bull": "Sole leading-edge AI-chip bottleneck; sold out through 2027, +30% rev growth, $56B capex, now with confirmed pricing power.",
+      "neutral": "Crowded ~$2T mega-cap; thesis intact but much of the upside is consensus.",
+      "bear": "Export-rule/geopolitical overhang and a high base; AI capex cyclicality remains the tail risk.",
+      "primaryCatalyst": "3nm/2nm price hikes and AI/ASIC wafer demand into 2027",
+      "primaryRisk": "Export controls / geopolitics; AI capex digestion"
+    }
+  ]
+}

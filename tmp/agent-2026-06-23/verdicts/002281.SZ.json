@@ -1,0 +1,31 @@
+{
+  "symbol": "002281.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Modestly positive optics evidence, consistent with thesis: 800G modules now mass-shipped, 1.6T modules at small-batch delivery and in customer verification, and Accelink has sent 1.6T CPO optical-engine samples to overseas customers. No new earnings or named contract since June 9; the +27% since June 9 is largely flow into the optics melt-up.",
+  "sources": [
+    {
+      "label": "Accelink 800G mass shipped, 1.6T small batch",
+      "url": "https://www.moomoo.com/news/post/44059247/accelink-technologies-002281-sz-800g-optical-modules-have-been-mass"
+    },
+    {
+      "label": "Accelink high-speed module ramp & profitability",
+      "url": "https://news.futunn.com/en/post/72095537/accelink-technologies-002281-gradual-increase-in-high-speed-optical-module"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Master under-owned-bottleneck list: 1.6T small-batch + CPO optical-engine samples to overseas customers mildly strengthen the scale-out optics choke-point case vs June 9. But at 277% YTD and +27% since June 9 it is no longer under-owned, so the modest fundamental tick is offset; hold the rank.",
+      "bull": "800G volume, 1.6T ramping, 1.6T CPO engine sampled overseas; scale-out bandwidth choke point.",
+      "neutral": "Thesis confirmed but progress is incremental, no named DC win.",
+      "bear": "277% YTD, +27% since June 9; crowded, residual alpha thin, China-optics competition.",
+      "primaryCatalyst": "1.6T / CPO optical-engine adoption",
+      "primaryRisk": "Crowding / domestic optics competition"
+    }
+  ]
+}

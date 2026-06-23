@@ -1,0 +1,44 @@
+{
+  "symbol": "SIE.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new Siemens AG (parent) catalyst since June 9 - no new orders, capacity or guidance changes for the industrial parent. The widely-cited grid/data-center electrification guidance raises and record orderbook belong to separately-listed Siemens Energy, not SIE.DE. Stock +3.0% since June 9; structural automation/electrification tailwind intact but already core-owned.",
+  "sources": [
+    {
+      "label": "Siemens Energy raises mid-term outlook (Siemens Energy PR)",
+      "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-fulfills-all-commitments---and-increases-mid-term.html"
+    },
+    {
+      "label": "Siemens Energy: grid + data-center electricity crunch (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-catches-two-waves-grid-modernisation-and-the-data-center/69587083"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On a latent/under-covered AI-supply-chain lens Siemens is the antithesis: a $236B core-owned industrial-automation compounder, not a hidden node. Low conviction is correct. No new SIE.DE-specific evidence since June 9 to change its tail placement; hold.",
+      "primaryCatalyst": "Digital Industries recovery; factory-automation + industrial-software AI adjacency.",
+      "primaryRisk": "Mega-cap, fully-covered; no latent under-ownership; DI cyclicality.",
+      "bull": "Owns many AI deployment layers (automation, digital twin, electrification software) with durable cash flows.",
+      "neutral": "Great business, wrong page - too large and well-owned to be latent alpha.",
+      "bear": "No under-coverage edge; AI exposure is diluted across a vast industrial conglomerate."
+    },
+    {
+      "page": "companies",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Power/cooling/electrical bottleneck case (grid interconnect, switchgear, transformers, data-center electrification) remains intact. The strong grid/data-center guidance and record orderbook came from separately-listed Siemens Energy, not the parent, so it is not a clean SIE.DE catalyst. No new parent-level orders or guidance since June 9; hold.",
+      "primaryCatalyst": "Data-center electrification demand for grid connection, switchgear and transformers.",
+      "primaryRisk": "Bottleneck-exposure dilution within a diversified conglomerate; pricing/execution.",
+      "bull": "Direct exposure to the scarce power/cooling/electrical bottleneck via Smart Infrastructure and grid hardware.",
+      "neutral": "Bottleneck case intact but no fresh parent catalyst; the headline grid beat sits in Siemens Energy.",
+      "bear": "Conglomerate dilutes the bottleneck signal; the cleanest AI-grid leverage is in the spun-off energy unit."
+    }
+  ]
+}

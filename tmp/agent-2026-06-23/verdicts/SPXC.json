@@ -1,0 +1,31 @@
+{
+  "symbol": "SPXC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 18 SPX announced >$100M of HVAC manufacturing capacity expansion plus new data-center cooling products (Marley OlympusMAX fluid cooler), with management guiding ~50% data-center sales growth in 2026 and HVAC backlog up ~38% organically; the stock rose ~5%. The June 9 Wells Fargo conference reinforced the data-center cooling narrative. No M&A, earnings restatement, or guidance cut.",
+  "sources": [
+    {
+      "label": "SPXC up 5.2% on HVAC capacity expansion (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-spxc/spx-technologies/news/spx-technologies-spxc-is-up-52-after-expanding-hvac-capacity"
+    },
+    {
+      "label": "SPXC clearer data-center cooling play as backlog builds (Insider Monkey/Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-spx-technologies-spxc-becoming-191852273.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Latent lens rewards undiscovered supply-chain exposure. June 18 capacity expansion + DC cooling product launch and ~50% 2026 DC growth confirm real exposure, but the explicit data-center framing accelerates discovery, capping latent upside. Net mild positive, no peer re-rank.",
+      "bull": "DC cooling demand real; >$100M capacity add and +38% organic HVAC backlog validate the thesis.",
+      "neutral": "Exposure confirmed but increasingly consensus; cooling angle now widely modeled.",
+      "bear": "Discovery erodes the 'latent' premium; thermal is competitive vs purpose-built liquid-cooling peers.",
+      "primaryCatalyst": "Data-center HVAC backlog conversion and ~50% 2026 DC sales growth.",
+      "primaryRisk": "Loss of latency/discovery edge as the cooling story goes consensus."
+    }
+  ]
+}

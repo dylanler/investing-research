@@ -1,0 +1,35 @@
+{
+  "symbol": "KMT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news inside the June 9-23 window. Q3 FY26 results (EPS $0.77 vs $0.67 expected; sales +22%) and a raised FY26 outlook (sales $2.33-2.35B, adj. EPS $3.75-4.00) were reported May 6, pre-window. Surging tungsten pricing is boosting revenue/EPS but pressuring working capital and free cash flow; no new June data point.",
+  "sources": [
+    {
+      "label": "Kennametal lifts Q3 FY26, raises outlook (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/KMT/8-k-kennametal-inc-reports-material-event-4bc0d4f0f20f.html"
+    },
+    {
+      "label": "KMT Q3 2026 earnings report date 5/6/2026 (MarketBeat)",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-5-6-kennametal-inc-stock/"
+    },
+    {
+      "label": "Kennametal raises FY2026 guidance (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/kennametal-inc-raises-earnings-guidance-for-the-fiscal-year-2026-ce7d5cdddb89f32c"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply-chain lens: May 6 beat and raised FY guidance (aero/defense/energy tied to AI power generation) pre-date the window but keep the carbide-tooling/reshoring case intact. No new June catalyst; small positive carry on momentum still recent -> hold.",
+      "primaryCatalyst": "Raised FY26 guidance; aero/defense/AI-power-generation demand and pricing/share gains",
+      "primaryRisk": "Tungsten-price volatility pressuring working capital and free cash flow",
+      "bull": "Carbide tooling/wear materials enable reshoring of precision thermal/mechanical parts; pricing and defense orders lift margins.",
+      "neutral": "On-thesis latent industrial name with a guidance raise, but the catalyst predates the window and tungsten swings cloud cash flow.",
+      "bear": "Tungsten-driven revenue gains are partly inflationary and crimp FCF (~-30% of adj. net income); demand is cyclical."
+    }
+  ]
+}

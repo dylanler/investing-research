@@ -1,0 +1,31 @@
+{
+  "symbol": "GHH.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The June 2 interim results / H1 trading update (H1 revenue GBP81.9m +9.1% organic, record GBP167.3m order book +16.5%, net debt GBP37.0m, FY26 in line) and the subsequent ~18% de-rating were all known at the prior case. Nothing genuinely new since.",
+  "sources": [
+    {
+      "label": "G&H Interim Results RNS",
+      "url": "https://www.investegate.co.uk/announcement/rns/gooch-housego--ghh/interim-results/9595977"
+    },
+    {
+      "label": "G&H H1 revenue/order book on defence demand",
+      "url": "https://www.tipranks.com/news/company-announcements/gooch-housego-lifts-h1-revenue-and-order-book-on-defence-demand"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node lens: specialty photonics for sensing/inspection/quantum-edge thesis intact. No new RNS since the June 2 interims (record GBP167.3m order book, improving semiconductor backdrop); -0.6% is drift. Small positive carryover from cheaper post-washout entry. Hold.",
+      "primaryCatalyst": "Record order book and recovering industrial-laser/semiconductor demand on top of A&D strength.",
+      "primaryRisk": "Tariff-linked raw-material supply chain risk and lumpy project timing at a sub-cap photonics name.",
+      "bull": "Record GBP167.3m order book gives near-full FY26 cover; semiconductor recovery and A&D demand support latent photonics optionality.",
+      "neutral": "Diversified photonics with real recovery, but AI-specific exposure is indirect via sensing/inspection.",
+      "bear": "Post-results de-rating reflected margin/mix concerns; tariff supply risks and project lumpiness persist."
+    }
+  ]
+}

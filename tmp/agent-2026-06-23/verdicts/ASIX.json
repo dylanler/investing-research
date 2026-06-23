@@ -1,0 +1,31 @@
+{
+  "symbol": "ASIX",
+  "company": "AdvanSix",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Shares drifted softer (~$19.6) on a mixed chemicals backdrop; nylon remains in its trough while Plant Nutrients and acetone margins hold near cycle averages. Next hard catalyst is the next quarterly earnings print.",
+  "sources": [
+    {
+      "label": "AdvanSix June trading / outlook (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/advansix-inc-stock-us00773t1016-chemicals-player-under-pressure-as-june/69499778"
+    },
+    {
+      "label": "AdvanSix news feed (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ASIX/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node lens: the caprolactam/ammonium-sulfate chemistry-adaptable-to-industrial-inputs thesis is unchanged and still speculative; no new evidence since June 9 and nylon in trough. No basis to re-rank on this evidence-gated page.",
+      "bull": "Integrated nylon/ammonium-sulfate chemistry is a low-cost industrial-materials input with optionality into advanced manufacturing.",
+      "neutral": "Cyclical chemicals name with only an indirect, unproven latent-AI link.",
+      "bear": "Nylon trough and mixed end markets; no concrete AI-supply-chain catalyst.",
+      "primaryCatalyst": "Nylon/caprolactam cycle recovery and Plant Nutrients strength.",
+      "primaryRisk": "Prolonged nylon trough weighing on margins."
+    }
+  ]
+}

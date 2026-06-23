@@ -1,0 +1,31 @@
+{
+  "symbol": "INTT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh material company-specific news in the June 9-23 window. INTT's Q1 2026 print (revenue $33.9M, +27% YoY, returned to profit, raised FY26 revenue guide to $130-135M and backlog +35.5%) landed in early May, before the window. The only June item is a routine 18,000-share director equity grant (June 17) and an M&T loan-facility draw extension to Aug 28, 2026.",
+  "sources": [
+    {
+      "label": "inTEST Q1 2026 10-Q (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/INTT/10-q-intest-corp-quarterly-earnings-report-97557f34677f.html"
+    },
+    {
+      "label": "InTest lifts 2026 outlook (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/INTT/8-k-intest-corp-reports-material-event-4caba9e0a5ca.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply chain: thermal/test optionality for advanced packaging intact. The raised FY26 guide and +35% backlog already known pre-window; no new June catalyst. Tiny $0.23B cap keeps it speculative deep in the tail. Hold.",
+      "bull": "Backlog +35.5%, FY26 guide raised to $130-135M; operating leverage off a small base if advanced-packaging test demand broadens.",
+      "neutral": "Strong Q1 already in print; no fresh June data point to re-rate on this lens.",
+      "bear": "$0.23B micro-cap, semicap cyclicality, AI-node linkage indirect vs core semicap names.",
+      "primaryCatalyst": "Advanced-packaging burn-in/test demand broadening beyond core semicap.",
+      "primaryRisk": "Semicap cycle reversal on a thin revenue base."
+    }
+  ]
+}

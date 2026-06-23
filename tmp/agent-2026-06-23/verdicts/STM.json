@@ -1,0 +1,91 @@
+{
+  "symbol": "STM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 2 STMicroelectronics raised its 2026 data-center revenue ambition to ~$1B (from 'nicely above $500M') and flagged 2027 could double, on an extended AWS engagement and NVIDIA-co-developed 800VDC power portfolio; on June 16 it launched a $1.5B dual-tranche convertible bond and announced early redemption of its 2027 zero-coupon convert. Q1 GAAP gross margin was a weak 33.8% with ~100bps Q2 unused-capacity drag. (Note: STM.DE on latent-ai-nodes-strict is Stabilus SE, a different company - FY26 guidance reaffirmed, June 16 SBTi commitment, humanoid-robotics product wins; no re-rate.)",
+  "sources": [
+    {
+      "label": "STM lifts 2026 data-center revenue target to ~$1B (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/STM/pressreleases/2282966/stmicroelectronics-lifts-2026-data-center-revenue-target-on-surging-ai-demand/"
+    },
+    {
+      "label": "STM data-center revenue nears $1B (Investing.com)",
+      "url": "https://www.investing.com/analysis/stmicroelectronics-breaks-out-as-ai-datacenter-revenue-nears-1-billion-200681347"
+    },
+    {
+      "label": "STM raises DC guidance amid 89% net income drop (ActuIA)",
+      "url": "https://www.actuia.com/en/news/stmicroelectronics-raises-its-data-center-guidance-to-1-billion-by-2026-amid-an-89-drop-in-net-income/"
+    },
+    {
+      "label": "Stabilus (STM.DE) guidance/narrative (Yahoo/Simply Wall St)",
+      "url": "https://finance.yahoo.com/news/why-stabilus-xtra-stm-narrative-211223828.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens. June 2 DC revenue doubling to ~$1B is a genuine fundamental upgrade for power/control semis, but the name is increasingly discovered and weak 33.8% gross margin caps quality; small net positive without re-ranking vs secondary residual-alpha peers.",
+      "bull": "DC ambition doubled to ~$1B (2026), 2027 could double again; AWS + NVIDIA 800VDC anchor power-delivery content.",
+      "neutral": "Real AI tailwind offset by depressed margins and a more crowded setup; residual alpha shrinking.",
+      "bear": "33.8% GM and unused-capacity drag; auto/industrial cyclicality; DC story now consensus.",
+      "primaryCatalyst": "~$1B 2026 data-center revenue ramp via AWS/NVIDIA 800VDC power.",
+      "primaryRisk": "Structurally low gross margin and auto/industrial cycle weakness."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "This listing is Stabilus SE (STM.DE), not STMicroelectronics. FY26 guidance reaffirmed; June 16 SBTi commitment is immaterial; humanoid-robotics/automation product wins highlighted but no order quantification. Latent motion-control-for-robotics pathway unchanged; hold.",
+      "bull": "Reaffirmed FY26 guide; gripper/actuator portfolio gives optionality on humanoid robotics and automation.",
+      "neutral": "No quantified robotics revenue; thesis remains speculative and latent.",
+      "bear": "Auto/industrial-exposed cyclical; robotics is years from material contribution; soft FCF quarter.",
+      "primaryCatalyst": "Motion-control/gripper adoption in industrial automation and humanoid robotics.",
+      "primaryRisk": "Cyclical end-markets; robotics optionality may not monetize."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "AI-node-bottleneck lens favors HBM/advanced-packaging/test/networking directness. STM's ~$1B DC power ramp is positive but power/analog is adjacent, not a core node bottleneck; the June upgrade slightly firms relevance without changing its low-tier standing vs direct-node peers.",
+      "bull": "800VDC power-delivery for AI racks is mission-critical infrastructure; DC revenue doubling validates AI pull.",
+      "neutral": "Power/analog is AI-adjacent, not an advanced-node/packaging bottleneck.",
+      "bear": "Limited direct HBM/CPO/packaging/test exposure; remains a removal candidate on this lens.",
+      "primaryCatalyst": "800VDC AI power-delivery content with NVIDIA/AWS.",
+      "primaryRisk": "Weak direct AI-node bottleneck relevance vs packaging/test peers."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Co-packaged-optics lens: STM has limited CPO directness. June DC power news is unrelated to optical interconnect; nothing advances its CPO relevance. Auto/industrial cycle risk persists. Hold low on this page.",
+      "bull": "Quality broad-line semi with growing AI power-delivery content.",
+      "neutral": "No CPO/optical exposure; June news is power-side, not interconnect.",
+      "bear": "Minimal co-packaged-optics linkage; cyclical auto/industrial drag and soft margins.",
+      "primaryCatalyst": "Broader AI-infrastructure semi demand.",
+      "primaryRisk": "No meaningful CPO directness; cyclicality."
+    },
+    {
+      "page": "companies",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list, board-level power & passives bucket. June 2 doubling of DC revenue ambition is a real positive for power-delivery content, but the bottleneck is no longer hidden and margins are weak; small positive drift, no peer re-rank.",
+      "bull": "AI-server PDN/power-semi content scaling with ~$1B 2026 DC revenue; NVIDIA/AWS design pull.",
+      "neutral": "Exposure confirmed but increasingly discovered; quality capped by margin.",
+      "bear": "Low gross margin, cyclical auto/industrial base, crowding on the AI-power narrative.",
+      "primaryCatalyst": "Data-center power-delivery ramp.",
+      "primaryRisk": "Gross-margin compression and cyclical end-markets."
+    }
+  ]
+}

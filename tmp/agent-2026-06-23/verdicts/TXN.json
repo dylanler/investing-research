@@ -1,0 +1,61 @@
+{
+  "symbol": "TXN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Sentiment-driven activity since June 9 rather than a fresh fundamental disclosure. TXN surged ~7% around June 19-21 on a major Wall Street upgrade naming it a top semiconductor pick with raised price targets, reinforcing the data-center narrative (DC revenue ~+90% YoY, now ~10-11% of revenue, and a newly broken-out data-center segment). The bear caveat is that part of the DC surge reflects temporary pull-forward demand as rivals' foundry bottlenecks ease in 2H26.",
+  "sources": [
+    {
+      "label": "TXN +6.95% Jun 19-21, Wall Street upgrade (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261979749-market-movers-txn-20260621"
+    },
+    {
+      "label": "TXN adds data-center segment, guides above consensus (Fintool)",
+      "url": "https://fintool.com/news/texas-instruments-data-center-analog-chip-recovery"
+    },
+    {
+      "label": "TXN data-center revenue +90% YoY (TIKR)",
+      "url": "https://www.tikr.com/blog/texas-instruments-stock-up-58-this-year-as-data-center-revenue-grows-90-year-over-year-whats-next"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "No fresh fundamental disclosure since June 9 - the move is an analyst-upgrade/'top pick' rotation that further mainstreams the hidden-AI-power framing, eroding residual alpha on this crowding-sensitive page. Pull-forward risk is a real caveat. Small -1, hold rank 42.",
+      "bull": "Broad analog/power content benefits from AI data-center buildout; DC revenue ~+90% YoY now a distinct segment.",
+      "neutral": "Real AI exposure but story is now consensus after the upgrade wave; alpha mostly priced in.",
+      "bear": "Crowding intensifies on a +71% YTD mega-cap; DC surge partly pull-forward that reverses as rival foundry capacity frees up in 2H26.",
+      "primaryCatalyst": "Sustained data-center analog share gains",
+      "primaryRisk": "Pull-forward reversal; consensus crowding"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Through the AI-node bottleneck lens, analog/power remains second-order to HBM, advanced packaging and AI networking. The new DC segment disclosure is a mild positive but no new node-scarcity evidence since June 9; the upgrade is sentiment. Hold rank 72.",
+      "bull": "Internal 300mm capacity gives lead-time/cost edge; new data-center segment shows direct AI compute pull.",
+      "neutral": "Analog/power is supportive but not a true AI-node bottleneck; less direct than HBM/packaging/networking.",
+      "bear": "Not on the critical AI-node path; pull-forward demand and crowding limit incremental node-bottleneck alpha.",
+      "primaryCatalyst": "Direct data-center analog content growth",
+      "primaryRisk": "Indirect to the AI-node bottleneck; pull-forward"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Through the co-packaged-optics lens TXN has limited direct CPO alpha - it supplies power/analog content across infrastructure, not optics. No CPO-relevant news since June 9; the upgrade/DC story is orthogonal to CPO. Hold rank 94 to avoid churn.",
+      "bull": "Power/analog content rides overall optical/DC infrastructure growth, including CPO-era platforms.",
+      "neutral": "Peripheral to CPO; benefits are indirect via broad infrastructure spend.",
+      "bear": "No direct CPO exposure; industrial/auto cycle and post-run-up crowding dominate; limited CPO-specific alpha.",
+      "primaryCatalyst": "Broad DC/optical infrastructure power content",
+      "primaryRisk": "No direct CPO leverage; industrial/auto cycle"
+    }
+  ]
+}

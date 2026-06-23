@@ -1,0 +1,44 @@
+{
+  "symbol": "PDFS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new fundamentals since June 9. PDF Solutions announced its CONNECT 2026 conference (Oct 15-16) on June 2 and held its annual meeting June 16 (director elections, auditor, equity-plan top-up) - both routine. Consensus skews Buy with momentum, though average sell-side targets (~$54) remain below the +107% YTD stock.",
+  "sources": [
+    {
+      "label": "PDFS announces CONNECT 2026 (StockTitan)",
+      "url": "https://www.stocktitan.net/news/PDFS/pdf-solutions-announces-pdf-solutions-connect-2026-9ppdzmqd2nzr.html"
+    },
+    {
+      "label": "PDFS DEF 14A annual meeting (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/PDFS/def-14a-pdf-solutions-inc-definitive-proxy-statement-115c2d673ddd.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "CPO/alpha lens: PDFS is EDA/yield-analytics, not co-packaged-optics; theme fit is adjacent. No new fundamental news, only CONNECT/AGM housekeeping. Crowding asymmetry incrementally worse as stock sits well above ~$54 sell-side targets on +107% YTD; small negative, not a rank cut.",
+      "bull": "Exensio/DFI traction and AI-fab analytics demand support durable double-digit growth.",
+      "neutral": "Quiet news flow; momentum-driven rally outrunning fundamentals and price targets.",
+      "bear": "Single-bundle validation risk; valuation stretched ~30%+ above targets after a parabolic run.",
+      "primaryCatalyst": "DFI/eProbe adoption and analytics expansion",
+      "primaryRisk": "Crowding/valuation reset versus sell-side targets"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling lens: yield-analytics/process-data software is a credible enabler of larger fab output for AI compute. No fundamental change since June 9 (only conference/AGM news), so hold rank 7; the rich YTD is a separate re-rating input.",
+      "bull": "Process-data software scales with fab complexity and AI-chip volume, a structural tailwind.",
+      "neutral": "No new datapoints; thesis intact but priced for growth.",
+      "bear": "Indirect to compute scaling; valuation leaves little room for execution slips.",
+      "primaryCatalyst": "Fab data-analytics demand from AI capacity additions",
+      "primaryRisk": "Customer concentration / valuation"
+    }
+  ]
+}

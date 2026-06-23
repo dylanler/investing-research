@@ -1,0 +1,31 @@
+{
+  "symbol": "PRLB",
+  "company": "Proto Labs",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The record Q1 2026 results (revenue $139.3M, non-GAAP EPS $0.54, record CNC quarter) and cautious 2026 guidance (6-8% revenue growth, Q2 EPS $0.29-$0.37) plus a new CCO appointment were reported earlier (late April/early May) and predate the window.",
+  "sources": [
+    {
+      "label": "Proto Labs Q1 2026 earnings transcript (AOL)",
+      "url": "https://www.aol.com/articles/proto-labs-prlb-q1-2026-182303522.html"
+    },
+    {
+      "label": "Proto Labs record CNC quarter / 2026 guidance (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-proto-labs-231145093.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On this strict latent-node screen, no new AI-chain evidence since June 9; the rapid-manufacturing-for-thermal/mechanical-parts thesis is speculative and unchanged. Record Q1 and cautious 2026 guide predate the window. Hold at 80; +57% YTD limits hidden alpha but no new catalyst.",
+      "bull": "Record Q1 ($139.3M rev, CNC strength) plus potential to prototype custom thermal/mechanical AI hardware parts fast.",
+      "neutral": "Digital-manufacturing optionality is indirect to the AI supply chain; thesis remains latent, not proven.",
+      "bear": "Conservative 2026 guide (6-8% growth), Europe softness, A&D customer concentration; tepid 5-yr growth.",
+      "primaryCatalyst": "Custom rapid-manufacturing demand for AI thermal/mechanical components.",
+      "primaryRisk": "Macro/Europe softness and weak structural growth; speculative AI linkage."
+    }
+  ]
+}

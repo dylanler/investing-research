@@ -1,0 +1,31 @@
+{
+  "symbol": "APG",
+  "company": "APi Group",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 8-9, 2026 APi closed the Onyx-Fire Protection Services acquisition (~$190M annual revenue, inspection-first, asset-light, accretive) and raised 2026 guidance to net revenue $8.575-8.775B and adjusted EBITDA $1.165-1.225B. Management reiterates ~10-11% of 2026 revenue from the data-center end market. This is a directly on-thesis positive for a data-center-services lens.",
+  "sources": [
+    {
+      "label": "APi boosts 2026 outlook after Onyx-Fire acquisition",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/APG/pressreleases/2404935/api-group-boosts-2026-outlook-after-onyx-fire-acquisition/"
+    },
+    {
+      "label": "APi Group data-hall fit-out exposure",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-api-group-corporation-apg-132949954.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 30,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "On the latent under-covered AI supply-chain lens APG just delivered exactly the catalyst the thesis flagged: Onyx-Fire close (+~$190M, inspection-first, asset-light) and a raised 2026 guide, with ~10-11% revenue from data centers. Mandatory fire/life-safety inspection in dense data centers is under-screened, supporting an up move.",
+      "bull": "Accretive inspection-first M&A plus raised guide; ~10-11% revenue from data centers in an under-covered safety niche.",
+      "neutral": "Strong services franchise but only partly an AI-data-center pure play.",
+      "bear": "Modest YTD (+9%); data-center mix selective and tied to broader nondiscretionary services.",
+      "primaryCatalyst": "Onyx-Fire close + raised 2026 guidance; data-center inspection demand",
+      "primaryRisk": "Data-center exposure diluted within broad services portfolio"
+    }
+  ]
+}

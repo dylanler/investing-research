@@ -1,0 +1,70 @@
+{
+  "symbol": "AEHR",
+  "company": "Aehr Test Systems",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17, 2026 Aehr received a follow-on FOX-XP wafer-level burn-in production order from a major silicon-photonics customer (a global networking leader in data-center optical transceivers) for hyperscale AI/cloud data-center optical-interconnect screening, with the customer forecasting additional systems through the year as capacity ramps. This follows April's record $41M hyperscale-AI ASIC burn-in order and builds the WLBI/photonics backlog. The +9.6% move since June 9 partly reflects this and conference-driven attention.",
+  "sources": [
+    {
+      "label": "Aehr: follow-on silicon-photonics WLBI order (June 17, 2026)",
+      "url": "https://www.aehr.com/2026/06/aehr-receives-follow-on-order-from-major-silicon-photonics-customer-for-fully-automated-wafer-level-burn-in-system-for-hyperscale-data-center-optical-interconnect/"
+    },
+    {
+      "label": "StockTitan: Aehr lands follow-on FOX-XP order",
+      "url": "https://www.stocktitan.net/news/AEHR/aehr-receives-follow-on-order-from-major-silicon-photonics-customer-yu2d4uoisifw.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Latent AI-supply-chain lens: June 17 follow-on photonics WLBI order plus the April $41M hyperscale-AI order broaden AEHR beyond SiC into data-center optical-interconnect test, directly strengthening the AI-power/high-reliability thesis. Customer concentration still high, but evidence is improving. Nudge up.",
+      "primaryCatalyst": "Recurring hyperscale-AI burn-in orders (ASICs + silicon photonics)",
+      "primaryRisk": "High customer concentration; +366% YTD now well-discovered",
+      "bull": "WLBI for AI ASICs and silicon-photonics transceivers diversifies the customer base and ties Aehr directly to hyperscale AI capacity buildout.",
+      "neutral": "Real order momentum, but lumpy and concentrated; the latent-discovery premise is fading after a 4x run.",
+      "bear": "Customer concentration and order timing remain risky; valuation already prices a robust ramp."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "AI-node-bottleneck lens: WFE/test is a peripheral node, and the June 17 photonics order is positive but small relative to HBM/advanced-packaging chokepoints. Improving AI-test evidence justifies a touch more score, but it stays at the bottom of this direct-node tier.",
+      "primaryCatalyst": "AI/data-center burn-in capacity additions (ASICs + photonics)",
+      "primaryRisk": "Not a core fab/HBM bottleneck; order timing and export-control overhang",
+      "bull": "Rising AI/photonics burn-in bookings give Aehr a niche but growing role in AI capacity test.",
+      "neutral": "Positive orders, but test sits at the edge of the AI-node bottleneck versus HBM/packaging.",
+      "bear": "Tiny in node terms, highly cyclical, concentrated; ranks last in the direct-node tier."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 46,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "CPO lens: this is the most relevant page. June 17 silicon-photonics WLBI follow-on order for hyperscale data-center optical interconnect is direct, fresh evidence that photonics needs more wafer-level reliability screening - the exact 'test optionality' premise. Crowding noted, but new CPO-specific fundamentals warrant up.",
+      "primaryCatalyst": "Follow-on silicon-photonics wafer-level burn-in order (June 17) with multi-system forecast",
+      "primaryRisk": "Very high volatility; valuation rich after +366% YTD",
+      "bull": "As CPO/optical I/O scales, photonics transceivers need wafer-level burn-in - and Aehr just landed a follow-on production order for exactly that.",
+      "neutral": "Strong CPO read-through, but the once-hidden optionality is now well-covered after a huge run.",
+      "bear": "Order is unsized and concentrated; stock trades well above consensus targets."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "Test-time-scaling lens: burn-in/reliability test is only loosely connected to inference-scaling economics. The June 17 photonics order is fundamentally positive but barely moves the scaling thesis. Hold at #47 in the semis bucket.",
+      "primaryCatalyst": "AI-chip and photonics burn-in demand tied to compute buildout",
+      "primaryRisk": "Weak linkage to test-time-scaling thesis; concentrated, volatile name",
+      "bull": "More AI/optical silicon shipped means more burn-in test, an indirect scaling-capacity read.",
+      "neutral": "Order news is good but only tangential to the test-time-scaling lens; hold.",
+      "bear": "Minimal direct scaling relevance; speculative, low-conviction in this bucket."
+    }
+  ]
+}

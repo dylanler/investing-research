@@ -1,0 +1,31 @@
+{
+  "symbol": "STLTECH.NS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17 CRISIL revised Sterlite Technologies' outlook to Stable from Negative and reaffirmed all ratings; on June 18 the company filed audited standalone and consolidated FY26 (year-ended March 2026) financials pending AGM approval. Optical-fiber upcycle commentary tied to AI/hyperscale data-center demand continues. No new large order or earnings surprise in the window.",
+  "sources": [
+    {
+      "label": "Sterlite Technologies filings/insights (Screener)",
+      "url": "https://www.screener.in/company/STLTECH/consolidated/"
+    },
+    {
+      "label": "HFCL, Sterlite Tech moves amid 2026 rally (Business Standard)",
+      "url": "https://www.business-standard.com/amp/markets/news/hfcl-sterlite-tech-freeze-at-5-lower-circuit-after-massive-rally-in-2026-126060800397_1.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Test-time-scaling lens: networking bucket (fiber/optical transport for AI data movement). The June 17 CRISIL outlook upgrade to Stable removes a credit overhang and modestly de-risks the fiber-upcycle story, a mild fundamental positive. No order/earnings catalyst to re-rank vs networking peers.",
+      "bull": "CRISIL stable outlook + structural fiber upcycle from AI/hyperscale DC buildout support volumes.",
+      "neutral": "Outlook upgrade is incremental; no new large contract or earnings beat in-window.",
+      "bear": "Indirect AI-scaling linkage; commoditized fiber pricing and lumpy order flow limit durable alpha.",
+      "primaryCatalyst": "AI/data-center-driven optical fiber demand upcycle in India.",
+      "primaryRisk": "Fiber price competition and lumpy, low-margin order intake."
+    }
+  ]
+}

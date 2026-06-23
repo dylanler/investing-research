@@ -1,0 +1,31 @@
+{
+  "symbol": "MSA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 beat (EPS $1.99 vs $1.83) and the $555M Autronica fire/gas detection acquisition were reported in May and already in the prior mark; the deal still awaits a Q3 close. A +2.5% drift since June 9 reflects price, not fundamentals.",
+  "sources": [
+    {
+      "label": "MSA Safety Q1 2026 earnings transcript (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MSA-N/pressreleases/1719329/msa-safety-msa-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "MSA Safety Q1 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000066570/000006657026000010/ex991-earningspressrelease.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Strict latent screen: gas/flame-detection AI-adjacency unchanged. No new news since June 9; Autronica fixed-detection deal already in the mark. Routine PPE/sensor name with a thin compute pathway, so hold rank 38.",
+      "bull": "Autronica adds fixed fire/gas detection; data-center and autonomous-industrial sites need worker/asset safety sensors as compute build-out scales.",
+      "neutral": "Solid Q1 beat, reaffirmed mid-single-digit organic growth, but AI exposure is indirect and slow-moving.",
+      "bear": "Pathway to AI compute is tenuous and crowded; safety/PPE demand is broadly cyclical, not an AI bottleneck.",
+      "primaryCatalyst": "Autronica close (Q3) plus continued fixed-detection penetration at critical sites.",
+      "primaryRisk": "International recovery slips; AI-site relevance stays speculative."
+    }
+  ]
+}

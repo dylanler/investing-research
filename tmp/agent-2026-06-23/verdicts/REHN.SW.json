@@ -1,0 +1,31 @@
+{
+  "symbol": "REHN.SW",
+  "company": "Romande Energie",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Backdrop remains a structural Swiss power-demand tailwind (data centers ~6-8% of Swiss electricity today, potentially up to 15% by 2030), but this is sector-level, not a Romande Energie-specific catalyst or contract. Price essentially flat (-0.62%).",
+  "sources": [
+    {
+      "label": "Can Switzerland's power grid keep up with its data centres? (SWI swissinfo)",
+      "url": "https://www.swissinfo.ch/eng/swiss-ai/can-switzerlands-power-grid-keep-up-with-its-data-centres/90710181"
+    },
+    {
+      "label": "Romande Energie factsheet (Investis)",
+      "url": "https://romande-energie.dfs.investis.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Test-time-scaling/electricity bucket: the utility's exposure to rising Swiss power demand (data centers toward 15% of grid by 2030) is intact but unchanged this period. No company-specific contract or guidance shift. Flat price, no new evidence; prior hold stands.",
+      "primaryCatalyst": "Swiss electricity demand growth driven by AI/data-center load",
+      "primaryRisk": "Regulated-utility growth is slow; demand tailwind accrues grid-wide, not to RE alone",
+      "bull": "Leading Western-Switzerland utility positioned for structural power-demand and renewable build-out.",
+      "neutral": "Steady regulated utility; AI/data-center power tailwind is real but diffuse and gradual.",
+      "bear": "Small-cap regulated utility with limited pricing leverage to the scaling-driven electricity theme."
+    }
+  ]
+}

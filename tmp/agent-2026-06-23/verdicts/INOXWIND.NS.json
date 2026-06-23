@@ -1,0 +1,31 @@
+{
+  "symbol": "INOXWIND.NS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Order book crossed 4.5 GW as of June 2026 (incl. a 1,500 MW MoU with Inox Clean) and FY26 EBITDA-margin guidance was raised to 18-19%, with new nacelle/hub, transformer and planned blade capacity. The June 22 EGM approved the divestment of Inox Green Energy Services shares. Constructive for power-buildout exposure.",
+  "sources": [
+    {
+      "label": "Inox Wind Q2 FY26 earnings call / order book & guidance (Alpha Spread)",
+      "url": "https://www.alphaspread.com/security/nse/inoxwind/investor-relations/earnings-call/q2-2026"
+    },
+    {
+      "label": "Inox Wind company financials (Screener)",
+      "url": "https://www.screener.in/company/INOXWIND/consolidated/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 11,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Scaling/electricity lens rewards power-capacity buildout for AI compute. Order book >4.5 GW (June) plus raised FY26 EBITDA-margin guidance to 18-19% and new capacity strengthen the wind-equipment power-supply thesis - genuine fundamental improvement vs the June 8 hold. Modest +2; India wind is indirect AI-power exposure.",
+      "bull": "Record >4.5 GW order book, raised margin guidance and capacity expansion deliver multi-year power-equipment growth feeding grid/AI electricity demand.",
+      "neutral": "Strong order momentum, but execution/working-capital and -26% YTD reflect lingering balance-sheet skepticism.",
+      "bear": "Wind equipment is an indirect AI-power proxy; Indian renewables history of delays and the Inox Green overhang.",
+      "primaryCatalyst": "Order-book execution and margin delivery toward FY26 guidance",
+      "primaryRisk": "Project-execution slippage; capital-intensity and group-related-party risk"
+    }
+  ]
+}

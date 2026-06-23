@@ -1,0 +1,31 @@
+{
+  "symbol": "6996.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Nichicon notified customers of a broad ~10-15% price hike across its aluminum electrolytic capacitor line (Digitimes, June 17), citing AI-server order volumes exceeding existing capacity plus higher aluminum-foil/energy costs; the move is expected to trigger industry-wide capacitor price increases. This is genuine new fundamental evidence of pricing power and tight supply.",
+  "sources": [
+    {
+      "label": "Digitimes - Nichicon e-cap price hike / capacity",
+      "url": "https://www.digitimes.com/news/a20260617PD234/nichicon-aluminum-capacitor-price-capacity-expansion.html"
+    },
+    {
+      "label": "Gagadget - AI servers drive 15% capacitor price hike",
+      "url": "https://gagadget.com/en/715676-ai-servers-are-driving-a-15-price-hike-on-a-component-inside-almost-everything/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "New since Jun 9: a 10-15% across-the-board e-cap price hike on AI-server demand exceeding capacity - real pricing-power evidence that reinforces the tight-supply bottleneck leg. But at +154% YTD with sell-side already marking it up, the 'underfollowed' residual-alpha leg keeps eroding; the two roughly offset, so hold.",
+      "bull": "Confirmed pricing power: 10-15% e-cap price hike on AI-server shortage validates the central-node, tight-supply thesis with margin upside into 2H26.",
+      "neutral": "Real fundamental positive, but largely an industry-known dynamic and the stock has tripled; rerating already substantial.",
+      "bear": "At +154% YTD and now sell-side-flagged, the residual-alpha 'hidden' leg is gone; crowding risk dominates on this lens.",
+      "primaryCatalyst": "Capacitor price hikes flowing through 2H26 margins",
+      "primaryRisk": "Crowding / loss of underfollowed status; raw-material and FX cost inflation"
+    }
+  ]
+}

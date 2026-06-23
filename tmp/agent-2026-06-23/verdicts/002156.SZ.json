@@ -1,0 +1,31 @@
+{
+  "symbol": "002156.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Established thesis intact: Tongfu handles ~80% of AMD's assembly/test, the long-term AMD cooperation extends into 2026, and it is building hybrid-bonding HBM IP (30+ patent applications). No new contract, capacity, or guidance disclosure in the window.",
+  "sources": [
+    {
+      "label": "Tongfu underpins AMD advanced packaging",
+      "url": "https://www.digitimes.com/news/a20251031PD223/packaging-amd-tongfu-testing-gpu.html"
+    },
+    {
+      "label": "Tongfu hybrid-bonding HBM IP",
+      "url": "https://www.knowmade.com/technology-news/semiconductor-news/semiconductor-packaging-news/tongfu-microelectronics-is-investing-in-hybrid-bonding-intellectual-property-to-bolster-its-advanced-packaging-activities/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "AI-node bottleneck lens: OSAT/advanced-packaging tied to AMD compute is a direct chiplet/HBM-package choke point, supporting the June 8 up-call. No fresh company evidence since June 9, so the recent up-move is consolidated rather than extended; hold at the elevated rank. 73% YTD partly captures the catalyst.",
+      "bull": "~80% of AMD assembly/test; hybrid-bonding HBM IP; chiplet packaging is a 2027 choke point.",
+      "neutral": "Thesis intact but no new orders/capacity since June 9.",
+      "bear": "$16B cap, 73% YTD; AMD concentration and China-policy risk.",
+      "primaryCatalyst": "AMD MI-series chiplet/HBM packaging ramp",
+      "primaryRisk": "AMD dependence / export-control exposure"
+    }
+  ]
+}

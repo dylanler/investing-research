@@ -1,0 +1,57 @@
+{
+  "symbol": "LFUS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news in the June 9-23 window. The bullish data (Q1 2026 sales +19% to $657M, raised outlook, industrial +45% on grid/data-center plus the transformative Basler acquisition, May 14 Investor Day) all predates June 9 and was already reflected in the prior case. June price action is flow-driven.",
+  "sources": [
+    {
+      "label": "Littelfuse Q1 2026 results, raises outlook (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LFUS/pressreleases/1769520/littelfuse-delivers-strong-q1-2026-results-raises-outlook/"
+    },
+    {
+      "label": "Littelfuse 2026 Investor Day growth strategy (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LFUS/pressreleases/1956082/littelfuse-outlines-growth-strategy-at-2026-investor-day/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the residual-alpha-vs-passives lens, nothing new since June 9. The data-center/grid protection story is real but fully recognized (+80% YTD, rising HF ownership, Strong Buy consensus), so LFUS stays a crowded rerated benchmark rather than hidden alpha. Hold at rank 19.",
+      "bull": "Power protection + current-sense content rises with data-center power density; raised outlook, Basler accretion.",
+      "neutral": "Strategically important but already rerated; consensus has it.",
+      "bear": "+80% YTD, crowded ownership; little residual alpha left on a crowding-penalized list.",
+      "primaryCatalyst": "Data-center protection product ramp; further M&A synergy.",
+      "primaryRisk": "Crowding/valuation unwind on any industrial-cycle wobble."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Node is validated (industrial +45% on data-center/grid) but the 'latent' premise keeps eroding as the AI-power-protection story is now widely told. No new evidence June 9-23, so no further promotion; hold at rank 24.",
+      "bull": "Circuit protection/sensors scale with data-center power density and edge devices.",
+      "neutral": "Validated node, but discovery premium is gone.",
+      "bear": "Widely owned; latent thesis fading with Strong Buy consensus.",
+      "primaryCatalyst": "Power-semi recovery and data-center protection demand.",
+      "primaryRisk": "Loss of 'latent' status caps re-rating upside."
+    },
+    {
+      "page": "companies",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Master under-owned-bottleneck list: no new fundamental info since June 9. The audit already balanced genuine power-delivery/protection content against a fully recognized +80% YTD rerating at ~$11.8B cap. Hold at rank 40.",
+      "bull": "Board-level PDN, MLCC/inductor, power-semi content across AI servers.",
+      "neutral": "Real content, but valuation reflects it.",
+      "bear": "Bottleneck exposure no longer scarce/under-owned.",
+      "primaryCatalyst": "Power-component pricing/execution upside.",
+      "primaryRisk": "Multiple compression after the YTD run."
+    }
+  ]
+}

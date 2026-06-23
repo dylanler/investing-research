@@ -1,0 +1,87 @@
+{
+  "symbol": "MTSI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new fundamental news since June 9. The Q2 2026 beat (May 7), raised FY26 datacenter revenue (>60% growth), strong Q3 guide and early-June IMS SATCOM/optical launches were all in the prior cases. June sell-side momentum continued (Truist to $375, Evercore to $427), but these are PT moves, not thesis-changing events. The +3.8% move is price.",
+  "sources": [
+    {
+      "label": "MACOM Q2 2026 earnings transcript (Motley Fool, May 7)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/macom-mtsi-q2-2026-earnings-transcript/"
+    },
+    {
+      "label": "MACOM Q2 2026 beat on AI optical demand (Sahm Capital, June 4)",
+      "url": "https://www.sahmcapital.com/news/content/macom-technology-solutions-mtsi-is-down-67-after-ai-optical-demand-fuels-q2-2026-beat-has-the-bull-case-changed-2026-06-04"
+    },
+    {
+      "label": "MACOM IMS 2026 RF/optical SATCOM launches (StockTitan)",
+      "url": "https://www.stocktitan.net/news/MTSI/macom-ims-2026-product-announcements-for-aerospace-and-m9usvhriiolj.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Passives/power lens: MACOM is interconnect/optical, farther from the passive-power bottleneck stack. AI optical strength is real but orthogonal to this page; nothing new since June 9 touches passives, so hold in the monitor bucket at 66.",
+      "bull": "Datacenter optical demand >60% FY26 growth shows real AI pull, even if not a passives name.",
+      "neutral": "Strong AI exposure but sits adjacent to, not inside, the passive/power bottleneck.",
+      "bear": "Wrong page for the thesis; valuation rich after +113% YTD with no passives angle.",
+      "primaryCatalyst": "Continued AI optical-module ramp.",
+      "primaryRisk": "RF/industrial cyclicality; no passive-stack relevance."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Latent connectivity/photonics: Q2 beat plus raised >60% FY26 datacenter growth and a strong Q3 guide reinforce the optical/datacom leg, but it was already in the June 9 mark. Modest +1 score nod, no rank move at 37.",
+      "bull": "Optical/datacom and defense-RF demand compounding; raised FY26 datacenter outlook and margin expansion toward 60% gross.",
+      "neutral": "Strong fundamentals already reflected after a 113% YTD run; less AI crowding than mega-cap semis.",
+      "bear": "Cyclical RF/industrial mix and rich multiple leave little latent edge.",
+      "primaryCatalyst": "Datacenter optical revenue >60% FY26 growth; Q3 guide above consensus.",
+      "primaryRisk": "Multiple compression after a sharp run; RF/industrial cyclicality."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "AI-node bottleneck lens: analog/power/RF tier, less direct than HBM/advanced-packaging/AI-networking. June 9 already moved it up on AI-connectivity proximity; nothing new since bears on the compute bottleneck, so hold at 56.",
+      "bull": "AI optical/connectivity exposure with datacenter revenue >60% FY26 growth gives genuine AI-node adjacency.",
+      "neutral": "Real AI pull but indirect versus core HBM/packaging/networking bottleneck nodes.",
+      "bear": "Analog/power/RF tier is a secondary node; less leverage to the acute compute bottleneck.",
+      "primaryCatalyst": "Datacenter optical ramp deepening AI-node relevance.",
+      "primaryRisk": "Stays a peripheral node vs primary AI-compute chokepoints."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "CPO/optics lens: rank 2 on a crowding-sensitive list. 200G/lane interconnect thesis intact and the Q2 beat confirms AI optical pull, but growing sell-side attention (PTs to $375/$427/$450) shrinks residual alpha; offsets net to a hold.",
+      "bull": "Strong 200G/lane optical/copper interconnect exposure with a smaller cap than crowded optics winners; AI optical beat validates the lens.",
+      "neutral": "Thesis intact but sell-side crowding (multiple PT hikes) is compressing the residual edge that earns rank 2.",
+      "bear": "Crowding rising and stock up 113% YTD; CPO alpha thinning, execution/cyclical risk remains.",
+      "primaryCatalyst": "200G/lane CPO design wins and continued AI optical ramp.",
+      "primaryRisk": "Crowding erodes alpha; cyclical RF/industrial and execution risk."
+    },
+    {
+      "page": "companies",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Master list / EDA-test-timing bucket: design-validation framing is a loose fit. June 9 already down-ranked for the YTD rerating; no new design-validation/test news since, so hold at 80.",
+      "bull": "AI optical and connectivity strength supports the broad bottleneck-exposure case.",
+      "neutral": "Bucketed under EDA/test/timing where MACOM is only a tangential fit; fundamentals fine but already priced.",
+      "bear": "Rich after 113% YTD; weak fit to the design-validation bucket caps ranking.",
+      "primaryCatalyst": "Continued AI optical/datacenter growth.",
+      "primaryRisk": "YTD rerating leaves limited residual upside on this list."
+    }
+  ]
+}

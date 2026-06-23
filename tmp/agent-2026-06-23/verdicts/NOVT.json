@@ -1,0 +1,44 @@
+{
+  "symbol": "NOVT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The $1.2B (+$250M milestone) Riverpoint Medical acquisition was announced June 9, 2026 and was already fully captured in the prior June 9 verdict (medical mix rising to ~60%, consumables doubling to ~$300M, funded partly via a completed $300M equity raise). Nothing materially new has emerged in the two weeks since.",
+  "sources": [
+    {
+      "label": "Novanta announces Riverpoint Medical acquisition (BusinessWire, Jun 9)",
+      "url": "https://www.businesswire.com/news/home/20260609749750/en/Novanta-Inc.-Announces-Acquisition-of-Riverpoint-Medical"
+    },
+    {
+      "label": "Novanta buys Riverpoint Medical $1.2B cash (StockTitan)",
+      "url": "https://www.stocktitan.net/news/NOVT/novanta-inc-announces-acquisition-of-riverpoint-ob2gol9bv6tw.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI-node screen: Riverpoint deal (Jun 9) already encoded in the prior case and pushes mix toward medical consumables, diluting the photonics/motion AI-supply-chain angle this page rewards. No new evidence since; the rerating is captured separately. Hold rank 62.",
+      "bull": "Precision motion/photonics subsystems feed automation and medical robotics; quality franchise compounding.",
+      "neutral": "High-quality but increasingly medical-mix; AI-node linkage is indirect and valuation is rich.",
+      "bear": "Riverpoint pushes mix to ~60% medical/consumables, further away from the latent AI-supply-chain thesis.",
+      "primaryCatalyst": "Riverpoint accretion + photonics demand recovery",
+      "primaryRisk": "Integration/leverage (~2.7x) and dilution from $300M raise"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Humanoid-stack lens: the prior June 9 down-move already re-rated NOVT lower precisely because Riverpoint makes it ~60% medical, eroding robotics/actuation purity ('not a cheap hidden humanoid play'). No new evidence since, so the penalty is already in the rank. Hold 23.",
+      "bull": "Motion/encoder content can ride automation and surgical-robotics demand.",
+      "neutral": "Component supplier, not a humanoid pure-play; story now medical-led.",
+      "bear": "Post-Riverpoint the growth engine is surgical consumables, not robotics motion components.",
+      "primaryCatalyst": "Medical-robotics and automation content wins",
+      "primaryRisk": "Robotics purity dilution as medical mix rises"
+    }
+  ]
+}

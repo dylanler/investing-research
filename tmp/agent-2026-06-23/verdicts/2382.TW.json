@@ -1,0 +1,44 @@
+{
+  "symbol": "2382.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material news since June 9. The Q1 record (revenue NT$809.2B +66.6% YoY, AI servers >75% of server revenue, GB300 rack shipments doubling, triple-digit AI-server growth reiterated) was disclosed at the May 14 call; May revenue (+94% YoY) was already in the prior case. Price flat (-0.7%).",
+  "sources": [
+    {
+      "label": "Quanta Q1 2026 earnings call (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2382.TW_2026-05-14"
+    },
+    {
+      "label": "Quanta sees triple-digit AI server growth 2026 (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/quanta-sees-ai-server-sales-to-grow-triple-digits-in-2026-93CH-4714258"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold at 16. AI-server execution (GB300 ramp, >75% server mix) is fully consensus and ODM story well-broadcast; no new info since June 9. On this crowding-sensitive page residual alpha is thinner than top names but the central-node positioning is intact. No rank-changing event.",
+      "bull": "QCT one of two largest AI rack builders; GB300 orders 'unimaginable', triple-digit AI-server growth.",
+      "neutral": "Top-line confirmed but margins thin (4.78% GM); story fully priced in.",
+      "bear": "ODM thesis is consensus; <5% gross margin and memory-cost dilution cap residual alpha.",
+      "primaryCatalyst": "GB300/GB200 rack shipment ramp through 2026.",
+      "primaryRisk": "Gross-margin compression from memory costs / high-priced racks."
+    },
+    {
+      "page": "companies",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "On the deployment/systems-integration lens, May rev +94% YoY and Q1 +66.6% YoY confirm rack-integration capacity is converting to shipments, with CFO more bullish than 30 days prior. Incremental positive on deployment-bottleneck directness, not a rank-changing event.",
+      "bull": "Direct physical-deployment bottleneck exposure; rack integration converting to record shipments.",
+      "neutral": "Strong throughput but commoditized assembly margins.",
+      "bear": "Thin-margin integrator; pricing power limited vs upstream silicon bottlenecks.",
+      "primaryCatalyst": "Continued AI-server share gains / rack mix shift.",
+      "primaryRisk": "AI server OEM pricing / margin pressure."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "TTG.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Only routine RNS items around early June; the prior trading update reiterated 2026 underlying trading broadly in line with 2025 (ex ~GBP2m Plano last-time-buy benefit) and a 12% operating-margin target, with the board considering further cost actions. Next results September 2, 2026.",
+  "sources": [
+    {
+      "label": "TT Electronics trading update (Investegate RNS)",
+      "url": "https://www.investegate.co.uk/announcement/rns/tt-electronics--ttg/trading-update/9251850"
+    },
+    {
+      "label": "TT Electronics news (Stockopedia)",
+      "url": "https://www.stockopedia.com/share-prices/tt-electronics-LON:TTG/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Hidden current-sense/thin-film resistor content in AI-server power paths is unchanged; only routine RNS since June 9 and no fresh order/margin signal. Low-crowding microcap (-1.4% YTD) keeps an intact residual-alpha setup; hold the high-conviction rank 3.",
+      "bull": "Underfollowed UK passive/power-sensing supplier with current-sense and film-resistor content in AI-server power paths; minimal crowding, intact residual upside.",
+      "neutral": "Flat trading guidance, no fresh catalyst; thin liquidity and small float cap conviction.",
+      "bear": "2026 trading only 'broadly in line', margin recovery to 12% unproven; AI-content linkage indirect.",
+      "primaryCatalyst": "Margin recovery to 12% target; design wins in power conversion",
+      "primaryRisk": "Flat end-markets; thin AI attribution"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Sensors/power-conversion/EMS for regulated markets remains a speculative latent edge-AI candidate; no new aerospace/defense, medical or electrification wins since June 9. Evidence tier unchanged, so hold rank 17 on this under-covered supply-chain screen.",
+      "bull": "Sensors, power conversion and EMS for aerospace/defense and medical could migrate into edge-AI and thermal-control niches.",
+      "neutral": "Latent thesis with no confirming wins; flat guidance keeps it speculative.",
+      "bear": "No direct AI revenue line; margin pressure and cyclical industrial demand dominate the near term.",
+      "primaryCatalyst": "Aerospace/defense or electrification design win",
+      "primaryRisk": "Latent thesis stays latent; industrial softness"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Under the strict medium-evidence bar, nothing since June 9 raises or lowers the evidence tier (routine RNS only). Rugged-electronics/thermal-control migration remains qualitative; hold rank 23 rather than churn the strict screen.",
+      "bull": "Rugged sensors and power assemblies could find edge/thermal-control niches that survive the strict evidence bar over time.",
+      "neutral": "Qualitative setup; no quote snapshot and no fresh evidence keep it mid-pack on the strict screen.",
+      "bear": "Fails to clear a high evidence bar; AI linkage is inferential, end-markets cyclical.",
+      "primaryCatalyst": "Concrete rugged/edge-AI program disclosure",
+      "primaryRisk": "Evidence never firms under strict screen"
+    }
+  ]
+}

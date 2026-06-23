@@ -1,0 +1,44 @@
+{
+  "symbol": "WTS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental catalyst since June 9; June 19 coverage reiterated the AI-data-center water/cooling angle and recapped record Q1 (net sales $677M, +21% YoY, reported May 6) plus the Haws/Superior Boiler/Saudi Cast acquisitions. Stock +9.4% since prior refresh on continued data-center sentiment.",
+  "sources": [
+    {
+      "label": "Watts data-center water angle (Insider Monkey)",
+      "url": "https://www.insidermonkey.com/blog/why-watts-water-technologies-wts-has-a-direct-data-center-water-infrastructure-angle-1784816/"
+    },
+    {
+      "label": "Watts margin/data-center demand (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-targets-margin-strength-061225619.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Thermal/water node: continued data-center water/cooling commentary (June 19) reinforces the quiet flow-control compounder thesis, but it recaps the May-6 record Q1 rather than new evidence. Thesis intact and modestly affirmed since June 9; small positive, no rank change vs peers.",
+      "bull": "Data-center cooling/leak-prevention demand plus acquisitions broaden the AI-water TAM.",
+      "neutral": "Quality compounder, but data-center is still a modest slice; valuation richer after run.",
+      "bear": "Most AI-water upside arguably priced after +26% YTD and +9% move.",
+      "primaryCatalyst": "Data-center water/thermal content growth",
+      "primaryRisk": "Cyclical building/HVAC demand; multiple compression"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict adapted-use screen (valves/backflow/drainage/water-quality adapted to high-density facility water mgmt): the adapted-use evidence is unchanged since June 9 - June commentary is reiteration, not a new strict-pathway proof point. Hold stands.",
+      "bull": "Core flow/water-safety portfolio genuinely adaptable to dense facility water management.",
+      "neutral": "Adapted-use is plausible but still indirect under the strict lens.",
+      "bear": "AI-chain linkage remains inferential; no strict-pathway catalyst.",
+      "primaryCatalyst": "Smart valve/sensor adoption in dense facilities",
+      "primaryRisk": "Indirect AI exposure de-rated by strict screen"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "BMI",
+  "company": "Badger Meter",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The Q1 2026 miss (sales -9% y/y, EPS $0.93 vs $1.30) and the legal/credibility overhang were already absorbed in prior verdicts; the late-April UDlive close and midyear PRASA deployment remain on track. A June 8-K appears routine (dividend/administrative).",
+  "sources": [
+    {
+      "label": "Badger Meter Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/17/badger-meter-bmi-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "Badger Meter SEC 8-K (FY2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/9092/000119312526160389/bmi-ex99_pressrelease.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list: data-center water consumption keeps the smart-water/leak-detection sensor angle intact, but no fresh evidence since Jun 9. Q1 miss already priced. Hold rank, no fundamental delta.",
+      "bull": "DC water intensity + municipal resilience budgets revalue smart metering and software attach over time.",
+      "neutral": "Soft short-cycle municipal orders; full-year organic flat vs 2025 with H2-weighted pacing.",
+      "bear": "Q1 margin compression (17.4% vs 22.2%) plus legal overhang; weak utility-water demand persists.",
+      "primaryCatalyst": "Smart-water adoption and PRASA project deployment scaling H2.",
+      "primaryRisk": "Continued municipal order softness and margin slippage."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Strict latent-node screen (flow/water telemetry for liquid-cooling loops) is unchanged and unaffected by recent headlines. Prior verdict already absorbed the post-miss reset; no new evidence since Jun 9. Hold.",
+      "bull": "Flow/water telemetry could monitor liquid-cooling loops and water intensity in AI data centers.",
+      "neutral": "Cooling-loop linkage remains speculative; core demand is municipal, not AI.",
+      "bear": "AI-cooling attach is unproven; near-term fundamentals soft and credibility overhang lingers.",
+      "primaryCatalyst": "Validation of metering attach to liquid-cooling water loops.",
+      "primaryRisk": "Thesis stays qualitative with no AI-specific revenue."
+    }
+  ]
+}

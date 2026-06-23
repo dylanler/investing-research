@@ -1,0 +1,31 @@
+{
+  "symbol": "ROR.L",
+  "company": "Rotork",
+  "caseDate": "2026-06-23",
+  "newsSince": "Only a director share purchase on June 10, 2026 — a modest insider-confidence signal, not a material event. Next results are interim H1 on August 4, 2026; sentiment described as broadly neutral. No RNS, trading update, M&A, or guidance change since June 9.",
+  "sources": [
+    {
+      "label": "Rotork insider buying (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/rotork-plc-stock-gb00bvfnzh21-insider-buying-puts-actuator-specialist/69554272"
+    },
+    {
+      "label": "Rotork financial calendar",
+      "url": "https://www.rotork.com/en/investors/financial-calendar"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No material news since June 9; a June 10 director purchase is a minor confidence signal, not evidence. The strict latent-node thesis (actuators/flow control into coolant and water loops) is unchanged and the name remains un-rerated at -5.9% YTD, so residual alpha intact but not improved.",
+      "bull": "Capital-light, high-ROCE actuator/flow-control franchise with optionality into data-center coolant and water loops; insider buying.",
+      "neutral": "Quiet pre-results window; thesis unchanged ahead of Aug 4 interims.",
+      "bear": "Speculative AI link; no concrete data-center coolant orders disclosed.",
+      "primaryCatalyst": "Aug 4 interim results / water-infrastructure demand",
+      "primaryRisk": "Industrial cyclicality; thin AI linkage"
+    }
+  ]
+}

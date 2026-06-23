@@ -1,0 +1,31 @@
+{
+  "symbol": "KDK",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. Q1 2026 (revenue +74% to $1.8M, fleet to 28 driverless trucks, $90.2M cash, $37.9M operating loss), the $100M PIPE, and the Roehl Transport autonomous freight launch all predate the window and were in the prior down-move. -2.85% move is noise.",
+  "sources": [
+    {
+      "label": "Kodiak AI Q1 2026: 74% revenue growth, 28 driverless trucks (FreightWaves)",
+      "url": "https://www.freightwaves.com/news/kodiak-ai-q1-2026-earnings-28-driverless-trucks"
+    },
+    {
+      "label": "Kodiak AI Form 8-K Q1 2026 press release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001853138/000162828026032092/exhibit991-pressreleaseoff.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Humanoid-stack lens: not humanoid, an indirect real-world-autonomy proxy. Yesterday's verdict already moved it down for cap/crowding/indirectness. Q1, PIPE and Roehl launch all predate Jun 9; no new info in window. -2.9% is noise. Hold at the lowered rank.",
+      "primaryCatalyst": "Late-2026 driverless long-haul launch; fleet scaling (28 trucks) and new shippers (Roehl)",
+      "primaryRisk": "Deep operating loss ($37.9M/qtr), cash burn, dilution; only an indirect humanoid-stack proxy",
+      "bull": "Real-world autonomy at industrial scale; 74% revenue growth, expanding driverless fleet, fresh $100M PIPE runway.",
+      "neutral": "Useful autonomy proxy but not humanoid; commercialization still early and cash-burning.",
+      "bear": "-45% YTD, $1.2B cap with tiny revenue, $35M FCF loss/qtr; autonomy linkage to humanoid stack is indirect."
+    }
+  ]
+}

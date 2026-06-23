@@ -1,0 +1,27 @@
+{
+  "symbol": "6266.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news distinct from the broader advanced-packaging cycle since June 9; the move appears flow/sector-driven. (Note: feeds frequently conflate this small-cap ticker with TOWA 6315.) Thesis as an OSAT/packaging name tied to HBM/chiplet capacity is unchanged.",
+  "sources": [
+    {
+      "label": "Advanced-packaging / HBM packaging context (TrendForce memory wall)",
+      "url": "https://www.trendforce.com/insights/memory-wall"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.45,
+      "rankRationale": "OSAT/advanced-packaging relevance to HBM/chiplet capacity is intact, but a +34.7% move since June 9 and 131% YTD on no fresh company-specific evidence means rerating room is shrinking. Hold the rank with a slight negative drift for valuation/execution risk on a $0.46B name.",
+      "bull": "Leveraged small-cap exposure to HBM/chiplet advanced-packaging capacity build-out.",
+      "neutral": "Sector beta is carrying it; no idiosyncratic catalyst since June 9.",
+      "bear": "131% YTD on a tiny cap invites a sharp reversal if packaging-capex enthusiasm cools.",
+      "primaryCatalyst": "Advanced-packaging capacity orders tied to HBM ramp",
+      "primaryRisk": "Liquidity/valuation discovery risk after a parabolic move"
+    }
+  ]
+}

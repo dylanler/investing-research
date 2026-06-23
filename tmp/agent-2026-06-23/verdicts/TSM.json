@@ -1,0 +1,61 @@
+{
+  "symbol": "TSM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Constructive but largely incremental. On June 10 TSMC reported May revenue ~NT$417B (+30% YoY, monthly record), with the CEO calling AI demand 'extremely robust' and citing a shift toward agentic AI; YTD revenue ~+30%. The 2026 capex plan of ~$52-56B (70-80% advanced nodes, ~10-20% advanced packaging) and CoWoS scaling toward ~130-150k wpm by late 2026 remain on track. CoPoS pilot line completion targeted around June.",
+  "sources": [
+    {
+      "label": "TSMC May revenue +30% on AI demand (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260610VL218/tsmc-revenue-demand-capacity-2026.html"
+    },
+    {
+      "label": "TSMC May sales jump 30% (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/tsmc-s-monthly-sales-rise-30-thanks-to-sustained-ai-chip-demand"
+    },
+    {
+      "label": "TSMC CoPoS pilot line / advanced packaging (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "AI-node lens: May +30% YoY record and 'extremely robust' AI demand confirm the leading-edge/CoWoS tollgate, but TSM is already highly owned and the thesis is well known. Modest fundamental tick, capped by crowding/valuation discovery. Hold with slight positive drift.",
+      "bull": "Record May revenue, robust agentic-AI demand, and CoWoS scaling to ~130-150k wpm cement TSMC as the indispensable AI-node tollgate.",
+      "neutral": "Core AI winner but consensus mega-cap; upside largely discovered at $2.3T and +38% YTD.",
+      "bear": "Crowding, valuation discovery and geopolitical/capex concentration cap incremental alpha despite strong fundamentals.",
+      "primaryCatalyst": "Continued AI-driven leading-edge/CoWoS demand and 2nm ramp.",
+      "primaryRisk": "Geopolitical/Taiwan concentration and AI capex-cycle digestion."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "CPO/crowding lens: central SiPho/advanced-packaging manufacturing node but a global consensus holding, so residual alpha is thin. May revenue record and packaging-capacity progress are positive yet fully reflected. Hold with mild positive drift.",
+      "bull": "Owns the manufacturing layer for AI silicon and silicon photonics; CoPoS/advanced-packaging buildout adds optionality.",
+      "neutral": "Indispensable but maximally owned; little residual alpha on a crowding-sensitive lens.",
+      "bear": "Consensus mega-cap with geopolitical/capex concentration; no hidden CPO edge here.",
+      "primaryCatalyst": "Advanced-packaging/SiPho capacity ramp (CoWoS, CoPoS) supporting optical-module silicon.",
+      "primaryRisk": "Crowding and geopolitical concentration cap alpha."
+    },
+    {
+      "page": "companies",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "Under-owned-bottleneck master list: packaging-scarcity thesis intact and reinforced by the +89% 2026 CoWoS capacity path, advanced packaging passing ~10% of revenue, and the record May print. Prior verdict already moved it up; consolidate the move rather than chase, hold.",
+      "bull": "CoWoS/HBM-attach/advanced-substrate scarcity with strong YTD follow-through and a near-doubling of 2026 CoWoS capacity.",
+      "neutral": "Genuine packaging bottleneck exposure, but at $2.3T cap the scarcity premium is partly priced.",
+      "bear": "Mega-cap, well-owned name; leading-edge/CoWoS execution and pricing must keep delivering to justify the rerating.",
+      "primaryCatalyst": "CoWoS capacity near-doubling and advanced packaging exceeding 10% of revenue in 2026.",
+      "primaryRisk": "Packaging execution/pricing missteps or AI capex digestion."
+    }
+  ]
+}

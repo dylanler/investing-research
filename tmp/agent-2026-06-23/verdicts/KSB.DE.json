@@ -1,0 +1,31 @@
+{
+  "symbol": "KSB.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The largest single order in company history (>EUR150m for eight reactor coolant pumps, Eastern Europe nuclear) was announced March 2026, and FY25 (>EUR3B order intake and revenue) and the ~EUR100m liquid-DC-cooling 2030 ambition both predate the window. KSB remains a quiet name with no fresh June headlines.",
+  "sources": [
+    {
+      "label": "KSB record nuclear coolant-pump order",
+      "url": "https://impeller.net/magazin/ksb-receives-largest-order-in-the-companys-history/"
+    },
+    {
+      "label": "KSB quiet news-flow profile",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ksb-se-and-co-kgaa-vz-stock-de0006292030-pump-specialist-in-focus/69555225"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Strict latent AI-node lens: liquid-cooling/water-reuse pump thesis is real and articulated (mgmt targets ~EUR100m DC-cooling revenue by 2030 from ~zero). No new June catalyst, but the franchise is intact and well-placed at rank 13; +5.9% pop is sentiment, not news. Hold.",
+      "bull": "Pumps/valves are direct beneficiaries of liquid-cooling and water-reuse buildout; >EUR3B orders, record nuclear order, and an explicit DC-cooling revenue ramp give a credible AI-node pathway.",
+      "neutral": "DC-cooling is a small future slice of a broadly industrial/nuclear/water order book; thesis is early.",
+      "bear": "AI-cooling revenue is still ~zero today; bulk of demand is legacy industrial/process pumps unrelated to AI.",
+      "primaryCatalyst": "Disclosed DC liquid-cooling design wins or revenue toward the EUR100m/2030 target.",
+      "primaryRisk": "Slow conversion of the cooling opportunity; industrial capex cyclicality."
+    }
+  ]
+}

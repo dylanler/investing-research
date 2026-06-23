@@ -1,0 +1,31 @@
+{
+  "symbol": "HILS.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Only the ongoing mechanical £100m buyback (42,069 shares repurchased 8-12 June) and a confirmed switch to USD reporting beginning with H1 results, due Aug 12, 2026. No new AI-specific evidence for the galvanizing/facility-hardening pathway.",
+  "sources": [
+    {
+      "label": "Hill & Smith buyback update (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/hill-smith-cuts-share-count-further-as-100m-buyback-progresses"
+    },
+    {
+      "label": "Hill & Smith USD reporting switch (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/hill--smith-to-switch-reporting-currency-to-us-dollar-93CH-4749037"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold. On a strict latent-alpha screen nothing changed since June 9: only a mechanical buyback and a USD reporting switch. No new AI-specific evidence for the galvanizing/facility-hardening link, and a +30% YTD name at 52-wk highs keeps getting more discovered, not less.",
+      "bull": "USD reporting clarifies US data-centre/infra exposure; record galvanizing demand.",
+      "neutral": "Steady infra compounder; buyback supports EPS but no AI catalyst.",
+      "bear": "AI-node thesis is qualitative; rerating already done, discovery rising.",
+      "primaryCatalyst": "H1 results Aug 12 (first USD report)",
+      "primaryRisk": "No direct AI demand signal; crowding into a rerated name"
+    }
+  ]
+}

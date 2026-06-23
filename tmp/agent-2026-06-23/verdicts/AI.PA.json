@@ -1,0 +1,31 @@
+{
+  "symbol": "AI.PA",
+  "company": "Air Liquide",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new company-specific news since June 9. The SK hynix HBM advanced-packaging nitrogen contract (~EUR 200M, Cheongju P&T7) and the >$250M US semiconductor supply contract were both announced on/before June 3 and were already credited in the prior case. Today's tape drift toward the 52-week high adds no new fundamentals.",
+  "sources": [
+    {
+      "label": "Air Liquide SK hynix HBM investment (Jun 3)",
+      "url": "https://www.airliquide.com/group/press-releases-news/2026-06-03/air-liquide-announces-milestone-investment-south-korea-support-sk-hynixs-advanced-ai-memory-chip-0"
+    },
+    {
+      "label": "Air Liquide $250M+ US semiconductor contract",
+      "url": "https://www.nasdaq.com/press-release/air-liquide-signed-major-contract-support-semiconductor-industry-us-investment-more"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Fab-inputs bucket on the under-owned-bottleneck master list. SK hynix HBM gas deal and US fab contract were pre-Jun-9 and already credited; no new evidence. Large-cap pick-and-shovel exposure intact but priced. Hold vs peers.",
+      "bull": "Scarce high-purity electronics-gas supplier to HBM/leading-edge fabs; SK hynix + US fab wins compound the bottleneck thesis.",
+      "neutral": "Genuine but diffuse fab exposure inside a EUR119B diversified gases conglomerate; thesis already largely in the price.",
+      "bear": "Mega-cap dilutes pure AI-bottleneck signal; modest YTD re-rating leaves little residual alpha.",
+      "primaryCatalyst": "Further HBM/advanced-packaging gas supply wins as fabs ramp into 2027.",
+      "primaryRisk": "Semiconductor capex/pricing softness diluted across a broad industrial-gas base."
+    }
+  ]
+}

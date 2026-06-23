@@ -1,0 +1,31 @@
+{
+  "symbol": "MRAM",
+  "company": "Everspin Technologies",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 9, Everspin announced expected inclusion in the Russell 2000 Index (effective ~June 26-29, 2026), a passive-indexation/visibility event rather than a fundamental win. No new commercial contracts, earnings or guidance since June 9; the April $40M Navy microelectronics MRAM award predates the window. Stock is +136% YTD.",
+  "sources": [
+    {
+      "label": "Everspin to join Russell 2000 (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/everspin-technologies-set-join-russell-090000235.html"
+    },
+    {
+      "label": "Everspin Investor Relations",
+      "url": "https://investor.everspin.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: only event is Russell 2000 inclusion, a passive-crowding/visibility signal that runs against an alpha screen, not a robotics-demand catalyst. Edge MRAM is real but the stock has already exploded (+136% YTD, prior case already moved it down). Small negative drift.",
+      "bull": "Persistent, high-endurance edge MRAM fits robotics/edge-AI memory needs; $40M Navy win shows commercialization.",
+      "neutral": "Genuine edge-memory story but only indirect to the humanoid stack; tiny $0.59B cap.",
+      "bear": "+136% YTD plus Russell 2000 crowding; valuation outruns niche robotics relevance.",
+      "primaryCatalyst": "Edge-AI/industrial MRAM design wins beyond defense",
+      "primaryRisk": "Crowding and rerating after a parabolic run; small-cap volatility"
+    }
+  ]
+}

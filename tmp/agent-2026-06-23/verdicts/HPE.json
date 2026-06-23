@@ -1,0 +1,35 @@
+{
+  "symbol": "HPE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive since June 9: at HPE Discover 2026 (June 15-18) HPE shipped its first unified Juniper-based AI networking stack, raised its FY2026 cumulative 'Networks for AI' order target to $1.7-1.9B, cited AI backlog above $5B, and launched new QFX switches (UALink-capable, an AMD Helios rack tray, Trident5-based QFX5140 for inference) plus a Vera CPU ProLiant server. This deepens the AI-server/networking thesis on top of the pre-June-9 FQ2 guidance raise. The +2% move is benign.",
+  "sources": [
+    {
+      "label": "HPE Discover 2026 closes: Juniper AI networking stack (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318609/20260618/hpe-discover-2026-closes-juniper-integration-ships-ai-networking-stack.htm"
+    },
+    {
+      "label": "HPE pivots to AI networking at Discover 2026 (DataCenterKnowledge)",
+      "url": "https://www.datacenterknowledge.com/infrastructure/hpe-puts-networking-at-the-center-of-its-ai-strategy-at-discover-2026"
+    },
+    {
+      "label": "HPE new AI networking products at Discover (IT Pro)",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/hpe-unveils-a-raft-of-new-networking-products-for-ai-workloads-at-discover-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Through the residual-alpha-vs-passives lens, Discover 2026's Juniper AI-networking stack and raised $1.7-1.9B Networks-for-AI target plus >$5B AI backlog strengthen the thesis, but HPE remains a fully discovered, crowded +104% YTD AI-server trade far from the passive/power bottleneck core. Constructive fundamentals, but little residual alpha left; hold with a small positive delta.",
+      "bull": "Juniper AI-networking stack + raised AI order/backlog targets compound the AI-infra thesis.",
+      "neutral": "Strong execution but fully owned and richly rerated; thin residual alpha.",
+      "bear": "Crowded, +104% YTD, low-margin server mix; far from the passives/power bottleneck this page rewards.",
+      "primaryCatalyst": "Networks-for-AI order ramp to $1.7-1.9B; AI backlog >$5B conversion",
+      "primaryRisk": "Crowding/de-rating; commoditized server margins"
+    }
+  ]
+}

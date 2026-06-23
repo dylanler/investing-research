@@ -1,0 +1,61 @@
+{
+  "symbol": "COHU",
+  "company": "Cohu",
+  "caseDate": "2026-06-23",
+  "newsSince": "Cohu's AI/HPC momentum continued through June: a second multi-unit order for next-generation AI chip testing, follow-on HPC orders, and an FY26 HPC revenue outlook of $80-100M against a ~$750M AI compute TAM, with TD Cowen lifting its target to $80. Most of the order news clustered late May to mid-June; orders up 57% YoY. Stock +17% since June 9 (now consensus-tracked as an 'under-the-radar AI' name).",
+  "sources": [
+    {
+      "label": "Cohu lands 2nd AI chip test order, $65-80M HPC (StockTitan)",
+      "url": "https://www.stocktitan.net/news/COHU/cohu-receives-second-multi-unit-order-for-testing-next-generation-ai-f26odbelfftg.html"
+    },
+    {
+      "label": "Bull case for Cohu following upgraded HPC outlook (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-cohu/cohu/news/the-bull-case-for-cohu-cohu-could-change-following-upgraded"
+    },
+    {
+      "label": "Cohu's AI test gear winning orders (Finimize)",
+      "url": "https://finimize.com/content/cohu-asset-snapshot"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "On the AI-node bottleneck map, a fresh second multi-unit AI-chip test order plus raised $80-100M HPC outlook is a real datapoint - the order/regulatory catalyst the prior June 9 hold said was absent. Modest given low absolute relevance of test/WFE to the core node bottleneck.",
+      "bull": "AI/HPC test orders up 57% YoY; raised HPC guide; KGD/HBM/CPO test intensity rising.",
+      "neutral": "Test gear is a derivative, late-cycle bottleneck node; orders lumpy.",
+      "bear": "Small absolute HPC revenue; export-control and order-timing risk on a low-relevance node.",
+      "primaryCatalyst": "Second AI-chip test order + HPC guide raise",
+      "primaryRisk": "Order timing / export controls"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.68,
+      "rankRationale": "Crowding-sensitive lens already penalized this name down to 22 on discovery. Fresh AI orders/guide raise are a small positive offset, but +161% YTD and price through most raised $80 targets keep residual asymmetry thin - net near-neutral.",
+      "bull": "AI/HPC test design wins validate the theme; recurring revenue mix ~60%.",
+      "neutral": "Genuine orders but discovery phase largely complete; targets met.",
+      "bear": "Crowded after +161% YTD; single-bundle validation risk; price near consensus.",
+      "primaryCatalyst": "Multi-unit AI test orders",
+      "primaryRisk": "Crowding / valuation"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "On the test-time-scaling verification-layer lens, the second AI-chip test order and raised HPC outlook reinforce Cohu's role as the verification gear for scaled chip manufacturing - a modest fundamental positive supporting its strong rank 4.",
+      "bull": "Verification layer for AI chip manufacturing scaling; fresh AI test orders, raised HPC TAM.",
+      "neutral": "Cyclical equipment exposure; orders can be lumpy quarter to quarter.",
+      "bear": "Small cap at +161% YTD; profitability lags order wins ('orders, not profits yet').",
+      "primaryCatalyst": "AI/HPC test order momentum",
+      "primaryRisk": "Cyclicality / margin lag"
+    }
+  ]
+}

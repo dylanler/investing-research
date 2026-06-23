@@ -1,0 +1,31 @@
+{
+  "symbol": "BRC",
+  "company": "Brady",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material news since June 9. The June 8 CEO transition (Vineet Nargolwala — ex-Allegro/Sensata/Honeywell — succeeding Russell Shaller) was already in the prior 'up' verdict. Supportive backdrop unchanged: May 18 record adjusted EPS with raised FY26 guidance and the $1.4B Honeywell PSS acquisition (announced Apr 20). Stock recovered +13.5% since Jun 9.",
+  "sources": [
+    {
+      "label": "Brady taps Vineet Nargolwala as CEO (StockTitan)",
+      "url": "https://www.stocktitan.net/news/BRC/brady-corporation-announces-ceo-ab73vi609mve.html"
+    },
+    {
+      "label": "Brady SEC 8-K (FY2026) CEO transition press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000746598/000074659826000026/exhibit991pressrelease0608.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Strict latent-node screen: CEO transition already credited Jun 9; incoming CEO's sensing/semis pedigree plus raised FY26 guidance and the Honeywell PSS deal keep tilting Brady toward industrial-AI/robotics asset-ID this page rewards. No new evidence since, but the setup remains constructive. Hold near top, small positive drift.",
+      "bull": "Record adjusted EPS, raised FY26 guidance, $1.4B Honeywell PSS deal, and a sensing/semis CEO deepen the AI/robotics asset-ID angle.",
+      "neutral": "CEO change and recovery rally now reflected; PSS integration is the next test.",
+      "bear": "Complex PSS integration under a brand-new CEO; execution risk on a large acquisition.",
+      "primaryCatalyst": "Honeywell PSS close and integration; asset-ID demand in dense robotic/DC ops.",
+      "primaryRisk": "Integration missteps or leadership-transition disruption."
+    }
+  ]
+}

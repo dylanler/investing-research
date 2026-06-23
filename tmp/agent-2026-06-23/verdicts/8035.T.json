@@ -1,0 +1,57 @@
+{
+  "symbol": "8035.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "TEL posted record FY3/26 results and guided to double-digit CY2026 growth on AI/advanced-logic and HBM stacking. Material NEW negative: the US House Select Committee report and the MATCH Act are pushing to bring foreign WFE suppliers (TEL, ASML) under US-style countrywide China bans/licensing; China was still ~40% of TEL's mix, so this directly threatens a meaningful slice of orders.",
+  "sources": [
+    {
+      "label": "Tokyo Electron valuation / China export controls (Yahoo)",
+      "url": "https://finance.yahoo.com/news/tokyo-electron-tse-8035-valuation-031124073.html"
+    },
+    {
+      "label": "House China hawks urge bans on chipmaking equipment (The Hill)",
+      "url": "https://thehill.com/policy/technology/5545901-semiconductor-equipment-export-control/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "AI-node lens: record FY results and double-digit CY26 guidance keep the AI-fab/HBM thesis intact, but the NEW US legislative escalation (House report + MATCH Act) targeting WFE-to-China is a concrete order-book risk given ~40% China mix. Net slight negative on alpha after a +98% YTD melt-up that prepays the upside.",
+      "bull": "Record sales/income, double-digit CY26 growth on AI logic + HBM stacking; broadest WFE portfolio.",
+      "neutral": "AI capex thesis intact but fully recognized; price near record highs leaves little hidden alpha.",
+      "bear": "MATCH Act / countrywide China bans threaten ~40% of mix; at +98% YTD any China hit is unhedged.",
+      "primaryCatalyst": "AI/HBM capacity adds; CY26 order growth",
+      "primaryRisk": "US-led tightening of China WFE export controls"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.5,
+      "rankRationale": "CPO lens already flags TEL as 'not early or CPO-specific' with high-expectations risk. No new optical/packaging angle since Jun 9, and the fresh China export-control legislative push adds downside; the flow-driven melt-up makes it strictly more crowded. Slight negative.",
+      "bull": "Front-end breadth benefits from any AI-driven capacity build.",
+      "neutral": "No CPO-specific catalyst; relevance to this lens unchanged.",
+      "bear": "China-ban legislation plus record-high price compounds high-expectations risk with no CPO hook.",
+      "primaryCatalyst": "AI fab capacity build",
+      "primaryRisk": "China export controls; high expectations / crowding"
+    },
+    {
+      "page": "companies",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "Master-list pick-and-shovel lens: record results affirm upstream exposure, but the new US push to extend China WFE bans (House report + MATCH Act, ~40% China mix) is a genuine new downside to the bottleneck case. After a +98% YTD melt-up, alpha drifts slightly lower rather than resets.",
+      "bull": "Core upstream pick-and-shovel; record FY and double-digit CY26 guide on AI demand.",
+      "neutral": "Well-owned mega-cap; the demand thesis is fully in consensus.",
+      "bear": "Legislative China-WFE risk plus record valuation cap measured upside on the alpha lens.",
+      "primaryCatalyst": "AI-driven WFE order growth",
+      "primaryRisk": "China export-control escalation; valuation"
+    }
+  ]
+}

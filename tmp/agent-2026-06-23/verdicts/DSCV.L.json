@@ -1,0 +1,57 @@
+{
+  "symbol": "DSCV.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The FY (Mar-2026) prelims were released June 3 and the prior FY trading update (Q4 orders/sales acceleration across Magnetics & Controls and Sensing & Connectivity) earlier - both pre-June 9 and already in the prior cases.",
+  "sources": [
+    {
+      "label": "discoverIE Full Year Trading Update (company)",
+      "url": "https://discoverieplc.com/news-centre/news/news-details/2026/Full-Year-Trading-Update/default.aspx"
+    },
+    {
+      "label": "discoverIE Preliminary Results Preview (AskTraders)",
+      "url": "https://www.asktraders.com/analysis/discoverie-group-preliminary-results-preview/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Residual-alpha-vs-passives lens: under-followed power/connectivity supplier remains a high-conviction hidden gem at rank 4. June 3 prelims (order recovery, orders ahead of sales) already priced June 9; nothing new since. Thesis intact at small cap (~$0.9B) keeps the residual-alpha case but no fresh catalyst to re-rank. Hold.",
+      "bull": "Small-cap (~$0.9B), under-owned power & connectivity supplier with accelerating orders - high residual alpha vs crowded passives names.",
+      "neutral": "Order recovery confirmed but already in price after the June 3 prelims; no new datapoint since.",
+      "bear": "Industrial-cycle sensitivity and modest +18% YTD; AI exposure is indirect via edge/electrification rather than direct compute.",
+      "primaryCatalyst": "Order recovery, margin-target upgrade and bolt-on M&A",
+      "primaryRisk": "Industrial demand cyclicality"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI supply-chain lens: custom industrial sensing/power compounder can quietly supply edge-AI/electrification without AI branding - a strong fit. Prelims (Jun 3) confirm broad order recovery but predate June 9 and are priced. No new evidence, so hold the high-conviction rank.",
+      "bull": "Customised sensing + power niches feed edge-AI and electrification; orders growing organically for multiple quarters.",
+      "neutral": "Genuine latent exposure but diffused across many industrial end-markets; AI is one driver among several.",
+      "bear": "Cyclical industrial base; valuation has re-rated and AI tie is inferential.",
+      "primaryCatalyst": "Operating-margin target upgrade and continued order recovery",
+      "primaryRisk": "Industrial cycle and integration risk on acquisitions"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Strict screen: custom sensing/control adaptable to coolant sensing / edge telemetry - speculative pathway unchanged since June 9. Prelims confirm order recovery but give no AI-chain-specific evidence. Speculative-pathway score stands; hold.",
+      "bull": "Custom electronic components could be adapted to coolant sensing and edge-device telemetry in AI hardware.",
+      "neutral": "Adaptation pathway is qualitative; no direct AI-node design wins disclosed.",
+      "bear": "Strict AI-bottleneck purity is low; demand is broad-industrial, not compute-specific.",
+      "primaryCatalyst": "Design wins in coolant/edge telemetry sensing",
+      "primaryRisk": "Pathway remains speculative without AI-specific orders"
+    }
+  ]
+}

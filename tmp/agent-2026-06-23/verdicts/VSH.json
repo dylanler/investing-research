@@ -1,0 +1,57 @@
+{
+  "symbol": "VSH",
+  "company": "Vishay Intertechnology",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalysts since June 9. Q1'26 was reported May 13 (rev $839M, GM 21%, 1.34x book-to-bill, $1.6B backlog) and Q2 guide ($875-905M) was already public. Mid-June EV/industrial power product launches (high-voltage inductors, Gen 7 rectifiers, traction inverter module) are incremental, not estimate-moving.",
+  "sources": [
+    {
+      "label": "VSH Q1'26 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000103730/000010373026000037/exhibit99-1.htm"
+    },
+    {
+      "label": "VSH EV power launches (Jun 18)",
+      "url": "https://www.timothysykes.com/news/vishay-intertechnology-inc-vsh-news-2026_06_18/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Residual-alpha lens: no fresh fundamentals since Jun 9; backlog/book-to-bill unchanged. Direct passives-bottleneck exposure intact but increasingly covered, eroding the 'underfollowed' leg. No news = hold.",
+      "bull": "1.34x book-to-bill and $1.6B backlog confirm structural passives demand into AI/EV power chains; capacity adds support margin recovery.",
+      "neutral": "Strong order book offset by 21% gross margin and tariff/materials cost drag; no new catalyst since June 9.",
+      "bear": "Crowded after +291% YTD; coverage erodes 'underfollowed' edge and margins remain well below 31-33% targets.",
+      "primaryCatalyst": "Q2 print confirming backlog conversion and margin recovery",
+      "primaryRisk": "Tariff/materials cost pressure capping margin targets"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Network-centrality lens: Vishay's node position in AI power chains (passives, discretes, current-sense) is structurally unchanged and no node-level info emerged since June 9. Hold.",
+      "bull": "Broad power-component breadth makes Vishay a near-unavoidable node in AI server PDN and EV power stacks.",
+      "neutral": "Central but commoditized node; cyclical normalization, not a step-change. No new info.",
+      "bear": "Mundane-passives exposure is indirect AI leverage; cyclicality and pricing keep it medium-conviction.",
+      "primaryCatalyst": "Power-electronics demand and inventory normalization",
+      "primaryRisk": "Cyclical pricing/inventory swings"
+    },
+    {
+      "page": "companies",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Master-list lens: measured rank already reflects balanced AI-server PDN/MLCC/inductor exposure vs the YTD rerating. No fresh fundamentals to re-litigate. Hold.",
+      "bull": "Power-delivery content exposure with double-digit revenue growth and rising backlog.",
+      "neutral": "Positive but measured; execution on discrete power and passives pricing is the swing factor.",
+      "bear": "Far enough from the scarce-bottleneck core that crowding after the rerating caps incremental alpha.",
+      "primaryCatalyst": "Discrete-power and passives demand execution",
+      "primaryRisk": "Pricing/margin execution risk"
+    }
+  ]
+}

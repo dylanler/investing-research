@@ -1,0 +1,31 @@
+{
+  "symbol": "TT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The data-center cooling story (Stellar Energy and LiquidStack acquisitions, raised FY26 adjusted EPS guidance to $14.75-$14.95, record ~$10.7B backlog) was disclosed at Q1 earnings before the window. Nothing fresh on bottleneck capacity or orders since June 9.",
+  "sources": [
+    {
+      "label": "TT Q1 2026 earnings call summary (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-plc-q1-2026-005032179.html"
+    },
+    {
+      "label": "Morningstar: Trane earnings, data-center-led HVAC demand",
+      "url": "https://www.morningstar.com/company-reports/1478629-trane-technologies-earnings-booming-commercial-hvac-demand-led-by-data-centers"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new bottleneck or earnings signal since June 9; DC-cooling thesis (Stellar/LiquidStack, $10.7B backlog) already in the price and fully disseminated. Mega-cap power/cooling exposure stays a top-tier under-owned-bottleneck name, but residual alpha is fully recognized. Hold rank 7.",
+      "bull": "Liquid-cooling (LiquidStack) plus modular chiller plants (Stellar, $350M to $1B path) give scarce DC thermal bottleneck exposure with record backlog.",
+      "neutral": "Strong execution but story is consensus; $109B cap and +20% YTD leave limited residual alpha.",
+      "bear": "Fully disseminated DC-cooling narrative; valuation re-rated, any HVAC cycle softness pressures the multiple.",
+      "primaryCatalyst": "Liquid-cooling/modular chiller ramp converting backlog",
+      "primaryRisk": "Consensus crowding; commercial HVAC cycle"
+    }
+  ]
+}

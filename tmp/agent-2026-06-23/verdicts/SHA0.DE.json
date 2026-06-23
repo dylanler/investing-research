@@ -1,0 +1,35 @@
+{
+  "symbol": "SHA0.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The load-bearing catalysts - the Hexagon Robotics strategic partnership (rotary/strain-wave actuator supply plus a plan to deploy 1,000 AEON humanoids across Schaeffler factories by ~2032) and the Q1 2026 print (stable ~5% EBIT margin, ~30 prototype orders / 5 contracts, first series production in Q2 2026) - all predate June 9 and were already in the prior case. Stock drifted -4.5% since June 9.",
+  "sources": [
+    {
+      "label": "Schaeffler-Hexagon partnership (Schaeffler PR)",
+      "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88184987"
+    },
+    {
+      "label": "Schaeffler to deploy 1,000 Hexagon humanoids by 2032 (Robot Report)",
+      "url": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/"
+    },
+    {
+      "label": "Schaeffler Q1 2026 slides - humanoid push (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/schaeffler-q1-2026-slides-stable-margins-amid-humanoid-robotics-push-93CH-4658181"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the humanoid-stack page Schaeffler is a high-conviction actuation pick: direct Hexagon/AEON actuator supply + in-house factory deployment is among the page's strongest commercialization evidence. But the catalysts predate June 9 and were captured in the prior up-move; no fresh datapoint to extend, so hold the upgraded rank with a small positive tilt.",
+      "primaryCatalyst": "Hexagon AEON actuator supply + 1,000-robot factory deployment ramp through 2026-32.",
+      "primaryRisk": "Humanoid volumes/series-production timing slip; auto/industrial core cyclicality.",
+      "bull": "Direct, purest actuation play in the humanoid stack with both supply contract and captive factory deployment; ~50% of robot BOM is actuators.",
+      "neutral": "Strong stack fit but catalysts already known and priced; thin incremental news since June 9.",
+      "bear": "Humanoid revenue still tiny vs auto/industrial base; deployment timelines could slip and stock is a beta proxy."
+    }
+  ]
+}

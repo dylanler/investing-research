@@ -1,0 +1,44 @@
+{
+  "symbol": "5801.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 9 Furukawa resolved a routine absorption merger of wholly-owned subsidiary Furukawa FITEL Optical Components (effective Apr 1, 2027) - administrative, non-material - and carries FY2027 guidance (~¥1,460bn sales, ¥95bn OP). No fresh contract/capacity/guidance catalyst; the strong late-June move (+5.4% since June 9) is largely sympathy with Fujikura's AI-fiber re-rating.",
+  "sources": [
+    {
+      "label": "BigGo - Furukawa subsidiary absorption merger notice",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260609565981"
+    },
+    {
+      "label": "Simply Wall St - Furukawa FY2027 guidance",
+      "url": "https://simplywall.st/stocks/jp/capital-goods/tse-5801/furukawa-electric-shares/news/furukawa-electric-tse5801-stock-looks-fully-priced-after-new"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Connectivity/photonics exposure intact via optical fiber/cable, but the only June-9 item is an administrative subsidiary merger; no new order/capacity datapoint. The +5.4% move is Fujikura-sympathy flow on a +365% YTD name already flagged less-crowded-than-Fujikura. Hold.",
+      "bull": "Optics/fiber leverage to AI clusters; less crowded than Fujikura; sector pricing power read-through.",
+      "neutral": "No standalone catalyst; gains are sector sympathy; merger is administrative.",
+      "bear": "+365% YTD fully discovered; conglomerate; rides peers' news not its own.",
+      "primaryCatalyst": "Optical/fiber AI capex read-through",
+      "primaryRisk": "Crowded post-rerating, no own catalyst"
+    },
+    {
+      "page": "companies",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master under-owned-bottleneck list: optical/high-speed-networking exposure is real but fully flagged; the down-move for YTD rerating was already taken June 8. No new contract/capacity/guidance since then, just sector-sympathy digestion. Hold with slight drift down.",
+      "bull": "Scale-out optics/800G-1.6T exposure; sector pricing power confirmed by Fujikura guidance.",
+      "neutral": "Exposure real but flagged; no fresh own-name datapoint.",
+      "bear": "+365% YTD; bottleneck no longer scarce/under-owned.",
+      "primaryCatalyst": "800G/1.6T optical link demand",
+      "primaryRisk": "Rerating already captured"
+    }
+  ]
+}

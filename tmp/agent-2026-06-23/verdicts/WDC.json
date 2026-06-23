@@ -1,0 +1,52 @@
+{
+  "symbol": "WDC",
+  "company": "Western Digital",
+  "caseDate": "2026-06-23",
+  "newsSince": "Major positive fundamental shift. WDC's entire calendar-2026 HDD production is sold out, with firm POs from its top seven customers and multi-year long-term agreements extending into 2027 (two customers) and 2028 (one). Cloud is ~89% of revenue. Margins at records (FQ3'26 non-GAAP GM ~50.5%, FQ4 guide 51-52%, rev guide $3.65B ~40% YoY) on undersupply pricing. A wave of analyst PT hikes ($610-685; MS/JPM ~$650) and Computex 2026 AI-storage positioning drove the +30% move since June 9.",
+  "sources": [
+    {
+      "label": "WDC 2026 HDD production sold out (CEO)",
+      "url": "https://www.techradar.com/pro/were-pretty-much-sold-out-for-calendar-2026-western-digital-ceo-says-storage-firm-is-completely-sold-out-of-hdd-capacity-already-so-does-that-mean-more-price-rises-to-come"
+    },
+    {
+      "label": "MLQ: 2026 HDD sold out, record results",
+      "url": "https://mlq.ai/news/v2/western-digitals-2026-hdd-production-is-sold-out-as-ai-data-centers-drive-record-results/"
+    },
+    {
+      "label": "WDC analyst PT-hike wave",
+      "url": "https://stockstotrade.com/news/western-digital-corporation-wdc-news-2026_06_15/"
+    },
+    {
+      "label": "WDC FQ3'26 results 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026028878/a4ex991-pressreleaseq326.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 94,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha lens: sold-out 2026 HDD capacity, multi-year LTAs to 2028 and record margins are a real fundamental step-change, not just tape. Even as a 'monitor/benchmark' name farther from the passive/power core, the supply-tightness signal merits an up nudge on news, separate from the crowding/YTD penalty applied elsewhere.",
+      "bull": "Entire 2026 HDD output sold out, LTAs into 2028, record ~50%+ margins on undersupply pricing — a durable structural up-cycle.",
+      "neutral": "Powerful storage-cycle catalyst but WDC sits outside the passive/power bottleneck stack this page targets.",
+      "bear": "+259% YTD and $232B cap leave it crowded; storage is cyclical and farther from the page's core lens.",
+      "primaryCatalyst": "Sold-out 2026 HDD capacity + multi-year LTAs into 2028",
+      "primaryRisk": "Cyclical storage pricing reversal; crowded post-rerating"
+    },
+    {
+      "page": "companies",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "Master-list lens: data-layer/AI-storage thesis materially strengthened — 2026 sold out, LTAs to 2028, record margins and a broad analyst PT-hike wave. Fundamental confirmation supports an up move on the under-owned-bottleneck list, independent of the YTD-rerating penalty.",
+      "bull": "AI data-gravity translating into sold-out capacity, multi-year contracted demand and record margins — strongest storage backdrop in years.",
+      "neutral": "Clear AI-storage demand confirmation, but a $232B mega-cap is no longer under-owned.",
+      "bear": "Mega-cap and +259% YTD make it a late, crowded expression of the storage bottleneck.",
+      "primaryCatalyst": "Sold-out 2026 HDD + multi-year LTAs; record margins",
+      "primaryRisk": "Storage cyclicality and crowded mega-cap positioning"
+    }
+  ]
+}

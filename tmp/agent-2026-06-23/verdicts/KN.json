@@ -1,0 +1,31 @@
+{
+  "symbol": "KN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 results (revenue $153M, +16% y/y; EPS $0.27, +50% y/y) and Q2 guidance (revenue $152-162M; EPS $0.28-0.32) were reported April 23, pre-window. Design-win momentum in precision/MEMS and capacitors continues, but no new June catalyst.",
+  "sources": [
+    {
+      "label": "Knowles Q1 2026 earnings call transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/23/knowles-kn-q1-2026-earnings-call-transcript/"
+    },
+    {
+      "label": "Knowles (KN) latest news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/KN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply-chain lens: edge-voice/sensor and specialty-capacitor story stays a neglected component play. Q1 beat and Q2 guide pre-date the window; no new June catalyst. Prior up move already captured the adjusted-score gap -> hold.",
+      "primaryCatalyst": "Edge-AI device adoption; acoustic-sensor design wins; specialty capacitors",
+      "primaryRisk": "Speculative conviction; demand concentration and execution after a sharp run",
+      "bull": "Under-covered MEMS/acoustic and high-performance capacitor maker that gains as AI moves to edge devices.",
+      "neutral": "Strong recent results but speculative latent-node thesis; no fresh June data point.",
+      "bear": "+86% YTD prices in much of the edge-AI optionality; component demand can be lumpy."
+    }
+  ]
+}

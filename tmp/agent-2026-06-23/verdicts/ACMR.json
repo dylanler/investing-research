@@ -1,0 +1,60 @@
+{
+  "symbol": "ACMR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 16, 2026, ACM Research (Shanghai) held an investor event reporting Q1 newly-signed orders up ~65% YoY, and the company maintained its FY26 revenue guidance of $1.08-1.175B. This follows a strong Q1 (revenue +34%, shipments +53.6% YoY to $240.7M, gross margin above midpoint, led by ECP/advanced packaging). The +21% move since June 9 is partly fundamentally driven by the order-growth confirmation, which directly addresses the thesis's stated swing factor (order timing).",
+  "sources": [
+    {
+      "label": "ACM Research Q1 2026 earnings release (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001680062/000162828026031688/acmr-q12026xearningsreleas.htm"
+    },
+    {
+      "label": "ACM Research: strong order growth and guidance (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/acm-research-highlights-strong-order-growth-and-guidance"
+    },
+    {
+      "label": "Simply Wall St: ACMR analysis",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-acmr/acm-research"
+    },
+    {
+      "label": "ACM Research highlights strong order growth and guidance (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/acm-research-highlights-strong-order-growth-and-guidance"
+    },
+    {
+      "label": "ACMR jumps as Roth hikes PT to $125 (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/acm-research-inc-acmr-news-2026_06_18/"
+    },
+    {
+      "label": "ACM Research Q1 2026 earnings 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001680062/000162828026031688/acmr-q12026xearningsreleas.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 19,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Move up. June 16 IR event confirmed new orders +65% YoY — directly resolving the prior case's flagged swing factor (order timing) to the upside, with FY26 guide maintained. This is genuine fundamental confirmation of AI-driven cleaning/plating/advanced-packaging capex, not pure rerating; the +21% move is partly earned.",
+      "bull": "Orders +65% YoY, shipments +53.6%, ECP/advanced-packaging momentum on AI-node capex; guide intact.",
+      "neutral": "Strong order data offset by China policy/export-control overhang on a +120% YTD name.",
+      "bear": "Geopolitical/export-control risk; +120% YTD pricing in much of the order strength.",
+      "primaryCatalyst": "Continued order growth and tool acceptances driving FY26 to top of guide.",
+      "primaryRisk": "US-China export controls and China-customer capex timing."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 28,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.62,
+      "rankRationale": "Small-cap equipment exposure to foundry/process and advanced-packaging complexity strengthened: +65% YoY orders, +54% shipments, ECP/advanced-packaging leadership and reaffirmed guidance directly support the process-complexity angle this lens rewards. Up, tempered by acute China policy risk.",
+      "bull": "ECP/plating and advanced-packaging tooling ride rising process complexity tied to AI packaging.",
+      "neutral": "CPO linkage indirect; the read is via advanced packaging rather than optics integration.",
+      "bear": "Concentrated China exposure and policy risk dominate; valuation stretched after the run.",
+      "primaryCatalyst": "Advanced-packaging / ECP order momentum",
+      "primaryRisk": "China exposure and US export-control policy"
+    }
+  ]
+}

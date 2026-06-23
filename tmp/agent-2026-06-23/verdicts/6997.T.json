@@ -1,0 +1,31 @@
+{
+  "symbol": "6997.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No major company-specific event since June 9, but Nippon Chemi-Con (the world's largest Al electrolytic capacitor maker) benefits from the same industry price-hike cycle Nichicon launched on June 17 and is positioned to follow with its own increases. Company returned to profit growth and resumed its dividend on May 14, 2026; next earnings July 30.",
+  "sources": [
+    {
+      "label": "Digitimes - Nichicon e-cap price hike (industry-wide)",
+      "url": "https://www.digitimes.com/news/a20260617PD234/nichicon-aluminum-capacitor-price-capacity-expansion.html"
+    },
+    {
+      "label": "Investing.com - Nippon Chemi-Con",
+      "url": "https://www.investing.com/equities/nippon-chemi-con-corp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Industry-wide Al e-cap price hikes (Nichicon-led, Jun 17) plus restored profit/dividend support the direct AI-server VRM bottleneck thesis - a modest fundamental positive. Offset by relentless crowding decay: a $0.87B micro-cap up 255% YTD with no name-specific catalyst is steadily less hidden. Net hold.",
+      "bull": "Largest Al e-cap maker with direct AI-server VRM exposure rides an industry price-hike cycle; profit and dividend restored.",
+      "neutral": "Tailwind is industry-wide, not name-specific; 2026 catalyst leg intact but rerating already extreme.",
+      "bear": "Micro-cap up 255% YTD with no fresh company evidence - residual alpha thin and crowding risk high.",
+      "primaryCatalyst": "July 30 earnings; flow-through of capacitor price increases",
+      "primaryRisk": "Crowding / extreme YTD rerating into a thin micro-cap"
+    }
+  ]
+}

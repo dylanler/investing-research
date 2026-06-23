@@ -1,0 +1,27 @@
+{
+  "symbol": "NTG.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Only an Edison initiation/update report (~June 1) and a routine €0.29 ex-dividend (June 25). The +11.4% move on a ~$130M-cap name is illiquid noise, not a fundamental catalyst tied to AI thermal/enclosure materials.",
+  "sources": [
+    {
+      "label": "Edison report on Nabaltec",
+      "url": "https://www.newsfilecorp.com/release/299627/Edison-Issues-Report-on-Nabaltec-NTG"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent ceramic-fillers/specialty-alumina thesis (thermal, electrical insulation, enclosure materials) is unchanged since June 9. The +11% pop is micro-cap noise off an Edison note, not new AI-linked demand evidence. The strict-screen setup sits where the prior hold left it.",
+      "bull": "Specialty alumina and flame-retardant fillers have genuine thermal-management/electrical-insulation relevance to dense compute enclosures.",
+      "neutral": "Niche German specialty-chemicals name with diversified, mostly non-AI end markets.",
+      "bear": "AI exposure is speculative and indirect; tiny float makes price action unreliable as signal.",
+      "primaryCatalyst": "Design-ins of aluminas/fillers into AI thermal or enclosure applications",
+      "primaryRisk": "Cyclical refractory/ceramics demand; AI pathway never materializes"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "3436.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The 300mm wafer-bottleneck narrative strengthened since June 9: SUMCO shares hit an 18.5-year high on the AI-driven wafer-supply-squeeze outlook, Nomura raised its 2027+ 300mm demand forecast, and H2 2026 long-term-agreement (LTA) price revisions are now a sharpening catalyst expected to drive a FY2027 margin recovery. Near-term still shows an H1 operating loss; the rerating is forward-looking.",
+  "sources": [
+    {
+      "label": "BigGo Finance - SUMCO hits 18.5-year high on AI wafer squeeze",
+      "url": "https://finance.biggo.com/news/v0Qycp4B2jrwCtglokHP"
+    },
+    {
+      "label": "Yahoo Finance - Pre-earnings buying redefining SUMCO wafer demand narrative",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-earnings-buying-redefining-sumco-002022441.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 50,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: genuinely new evidence since Jun 9 (Nomura demand upgrade, 18.5yr high, H2 LTA price-revision catalyst) reinforces 300mm tightness for AI logic/HBM and supply discipline. Strengthens the choke-point thesis; +2 and edge up despite +164% YTD.",
+      "bull": "300mm structurally short into 2030; LTA price hikes lift FY27 margins; supply discipline (delayed fabs).",
+      "neutral": "H1 still loss-making; rerating is a FY27 story already partly priced.",
+      "bear": "+164% YTD; Chinese wafer price offensive; cyclical demand air-pocket risk.",
+      "primaryCatalyst": "H2 2026 300mm LTA price revisions",
+      "primaryRisk": "Chinese wafer oversupply / pricing offensive"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "CPO/co-packaged-optics lens treats wafers as indirect and cyclical. The same LTA/demand upgrade is real but several steps removed from the optics choke point, and +164% YTD already captures much upside. Hold; modest +1 only.",
+      "bull": "AI wafer tightness underpins the whole supply chain; pricing power returning.",
+      "neutral": "Indirect to CPO; cyclical wafer pricing/utilization.",
+      "bear": "Far from the optical-attach thesis; valuation discovery risk.",
+      "primaryCatalyst": "Blended LTA price increase",
+      "primaryRisk": "Wafer utilization / pricing cyclicality"
+    }
+  ]
+}

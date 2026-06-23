@@ -1,0 +1,31 @@
+{
+  "symbol": "KRX.IR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The DC-driven story (Advnsys FY25 revenue EUR1.66B +12%, trading profit +17%, backlog +24%, 2026 order intake running ~2x prior year, ~EUR300m EBITDA target for 2026) and the January decision to scrap the Advnsys IPO/keep it wholly owned both predate the window. H1 2026 results are the next catalyst.",
+  "sources": [
+    {
+      "label": "Bloomberg: Kingspan record revenue on DC boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/kingspan-generates-record-revenue-on-data-center-boom"
+    },
+    {
+      "label": "Irish Times: Kingspan axes Advnsys spin-out",
+      "url": "https://www.irishtimes.com/business/2026/01/07/kingspan-axes-spin-out-of-unit-riding-data-centres-boom/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI-node lens: Tate (raised floor/containment/DC airflow) is a genuinely dominant, under-screened hyperscale white-space franchise with orders running ~2x y/y. No new June news, but the structural setup remains intact and well-positioned. Hold rank 21 with a slight positive bias pending H1.",
+      "bull": "Tate/Advnsys is the de facto hyperscale raised-floor and containment standard; orders ~2x y/y, ~EUR300m EBITDA in 2026, target to double EBITDA in 4-5yrs, still priced as a construction cyclical.",
+      "neutral": "DC unit is small vs group; the rest is European insulated-panel cyclical that masks the AI-infra optionality.",
+      "bear": "Group remains macro-construction levered; the DC narrative may already be partly priced after the FY25 pop and IPO-scrap commentary.",
+      "primaryCatalyst": "H1 2026 results confirming doubled Advnsys order intake and growing standalone disclosure forcing a SOTP re-rate.",
+      "primaryRisk": "European construction downturn drags the consolidated multiple; hyperscale capex air-pocket."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "6723.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Renesas completed its acquisition of Oakland-based software firm Pictorus on June 18, a small tuck-in for its Renesas 365 development platform, and continues divesting its timing business to SiTime. Neither is material to the AI-node/passives bottleneck case; H1 FY2026 guidance (+18.9-21.2% revenue) was already known from April.",
+  "sources": [
+    {
+      "label": "Renesas completes Pictorus acquisition (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/renesas-completes-acquisition-of-software-firm-pictorus-93CH-4748628"
+    },
+    {
+      "label": "SiTime 8-K (Renesas timing asset deal)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001451809/000119312526037802/d35227dex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No passives/power bottleneck evidence since June 9. Pictorus is an embedded-software tuck-in, not a power/passive node. +8.2% move is flow recovering prior drawdown; Renesas stays in the monitor bucket, far from the polymer-cap/magnetics core.",
+      "bull": "Embedded/power MCU leverage to AI edge and auto recovery; 21% H1 revenue growth.",
+      "neutral": "Real AI-adjacent exposure but indirect to the passive/power choke point this list ranks.",
+      "bear": "Software M&A and timing divestiture dilute focus; +114% YTD leaves thin residual alpha.",
+      "primaryCatalyst": "Auto/industrial recovery + Renesas 365 platform traction",
+      "primaryRisk": "Auto/industrial cyclical inventory correction"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Nothing since June 9 raises node centrality. Pictorus (software) and the SiTime timing-asset divestiture do not touch HBM/packaging/test. Prior verdict already discounted indirectness; a flow-driven +8.2% is not node evidence. Hold.",
+      "bull": "Diversified analog/power/MCU with rising auto/IIoT demand into AI edge.",
+      "neutral": "AI exposure is selective and less direct than HBM/advanced-packaging/test names.",
+      "bear": "Indirect to the accelerator supply choke point; rich at +114% YTD.",
+      "primaryCatalyst": "Auto recovery and embedded AI design wins",
+      "primaryRisk": "Indirectness to the AI-accelerator bottleneck"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "CPO lens: still no co-packaged-optics/HBM/advanced-packaging relevance. June Pictorus deal and timing divestiture are CPO-irrelevant. Prior case flagged it for removal; nothing since June 9 changes the weak fit, so hold at the bottom of the list.",
+      "bull": "Power content adjacency and Wolfspeed restructuring linkage.",
+      "neutral": "Mostly embedded/auto; only loosely tied to optical interconnect.",
+      "bear": "Essentially zero direct CPO exposure; included for adjacency only.",
+      "primaryCatalyst": "Power/SiC demand into AI servers",
+      "primaryRisk": "No direct CPO leverage; auto/industrial cycle"
+    }
+  ]
+}

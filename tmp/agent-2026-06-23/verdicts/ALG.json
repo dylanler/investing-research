@@ -1,0 +1,31 @@
+{
+  "symbol": "ALG",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material news relevant to the AI-node thesis since June 9. A U.S. tariff cut on agricultural equipment (25%→15%) is a mild macro positive for cost structure but unrelated to the rights-of-way/physical-build-out pathway, and Q1 2026 showed Industrial Equipment net orders -11%. The +5.9% move is tariff/macro-driven.",
+  "sources": [
+    {
+      "label": "Simply Wall St — Alamo tariff cut",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-alg/alamo-group/news/alamo-group-alg-stock-could-be-231-undervalued-after-tariff"
+    },
+    {
+      "label": "Alamo Q1 2026 earnings call",
+      "url": "https://www.aol.com/articles/alamo-alg-q1-2026-earnings-192148977.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the strict latent-node screen, the ag-tariff cut helps margins but is not new evidence on the rights-of-way/physical-build-out pathway, and Industrial Equipment orders fell 11% in Q1. Nothing strengthens the latent AI-adjacency case; hold flat.",
+      "bull": "Vegetation/infrastructure-maintenance equipment could ride physical build-out adjacent to data-center/grid expansion; tariff relief aids margin.",
+      "neutral": "Very loose AI link; demand is governed by municipal/ag cycles, not compute build-out.",
+      "bear": "Industrial orders down 11%; management guides slowing 2026 industrial sales; thesis remains speculative.",
+      "primaryCatalyst": "Tariff relief; infrastructure spend",
+      "primaryRisk": "Industrial/ag demand softening"
+    }
+  ]
+}

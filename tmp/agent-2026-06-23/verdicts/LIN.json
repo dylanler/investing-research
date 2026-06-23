@@ -1,0 +1,31 @@
+{
+  "symbol": "LIN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material AI-relevant company news in the June 9-23 window. A widely-cited Blue Point low-carbon ammonia gas-supply contract (>$400M, Louisiana, 2029 startup) is dated June 23, 2025 and is industrial/clean-energy, not semiconductor or data-center. Q1 2026 (May 1) sales +8% predates the window. The electronics-gas-for-fabs thesis is unchanged.",
+  "sources": [
+    {
+      "label": "Linde Blue Point $400M ammonia gas contract (Yahoo)",
+      "url": "https://finance.yahoo.com/news/linde-secures-400m-contract-supply-065851715.html"
+    },
+    {
+      "label": "Linde AI infrastructure recurring-revenue analysis (Investing.com)",
+      "url": "https://www.investing.com/analysis/linde-ai-infrastructure-boom-fuels-recurring-revenue-for-industrial-gas-leader-200678482"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Upstream pick-and-shovel via electronics/semiconductor gases. No new AI-relevant evidence since June 9; the headline ammonia contract is non-AI and dated 2025. A near-flat day (+0.45%) and +20.7% YTD with near-unanimous Buys is continued rerating, not fresh fundamentals. Hold at rank 42.",
+      "bull": "Industrial-gas oligopoly with rising data-center cooling (LN2/CO2) and fab electronics-gas demand; long-term contracts.",
+      "neutral": "Mega-cap defensive compounder; AI exposure real but small share of mix.",
+      "bear": "$239B cap, +20.7% YTD, fully covered; limited scarce-bottleneck alpha.",
+      "primaryCatalyst": "Electronics-gas supply wins at leading-edge fabs; liquid-cooling gas demand.",
+      "primaryRisk": "Cyclical industrial volumes; valuation already reflects steady growth."
+    }
+  ]
+}

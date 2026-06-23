@@ -1,0 +1,27 @@
+{
+  "symbol": "CR",
+  "company": "Crane Company",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9, 2026. The most recent corporate events - Q1 2026 results with a raised FY adjusted-EPS outlook ($6.65-6.85) and 14% Aerospace backlog growth - were reported April 27, well before the window. The +7.5% move since June 9 is industrial-sector drift with no new AI-chain datapoint.",
+  "sources": [
+    {
+      "label": "Crane Q1 2026 earnings / guidance raise (gurufocus)",
+      "url": "https://www.gurufocus.com/news/8825860/crane-co-cr-q1-2026-earnings-call-highlights-strong-sales-growth-and-raised-eps-guidance-amid-challenges"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Strict latent-AI lens needs an AI-chain-relevant catalyst; there is none since June 9. The aerospace/flow cross-pollination thesis is speculative and unchanged; +7.5% is sub-threshold industrial drift, so hold with no fundamental delta.",
+      "bull": "High-reliability sensing/fluid/valve tech could migrate into datacenter cooling/control niches.",
+      "neutral": "Solid industrial with raised guide but only tangential, speculative AI linkage.",
+      "bear": "No direct AI-node exposure; inclusion rests on cross-pollination that hasn't materialized.",
+      "primaryCatalyst": "Potential cooling/control cross-pollination (unrealized)",
+      "primaryRisk": "Thesis stays speculative; no AI catalyst"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "SEM.VI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material event: B&C Holding's EUR 15.00/share voluntary takeover settled, lifting B&C to a 63.4% stake (from 57.3%), with settlement completed by June 26 and no extension period. The arb-pinned tender thesis flagged on June 9 has now resolved with the majority owner consolidating control; minority AI fluid-loop/elastomer optionality is effectively squeezed.",
+  "sources": [
+    {
+      "label": "Semperit B&C takeover - boards' statements (EQS News)",
+      "url": "https://www.eqs-news.com/news/corporate/semperit-statements-from-the-executive-board-and-supervisory-board-on-the-bc-takeover-bid-have-been-published/4a705e0e-eba9-4e1e-ac22-6ada1b40f2e9_en"
+    },
+    {
+      "label": "Semperit valuation gap in B&C bid (European Rubber Journal)",
+      "url": "https://www.european-rubber-journal.com/article/2099153/semperit-boards-outline-case-for-and-against-bandc-s-takeover-bid"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 68,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "Confirms the June 9 down case: B&C tender settled at 63.4%, no extension, by June 26. With a controlling owner consolidating and the float thinning, the latent elastomer/cooling-loop optionality is being cashed out from minorities; near-term upside capped at the EUR15 deal level. No AI fluid-loop evidence emerged. Edge it lower on a strict latent screen.",
+      "bull": "Elastomer/hose competence theoretically maps to cooling-loop sealing and vibration control.",
+      "neutral": "Takeover resolved at EUR15; price is deal-pinned, not thesis-driven.",
+      "bear": "63.4% controlling owner consolidating; minority optionality squeezed; AI fluid-loop thesis remains hypothetical with no design wins.",
+      "primaryCatalyst": "Possible squeeze-out / strategic redeployment of elastomer capacity",
+      "primaryRisk": "Minority freeze-out near deal price; optionality cashed out before any AI thesis crystallizes"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "3529.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The latest substantive update was the Q1 2026 earnings (reported in May): record revenue +20% YoY, licensing +58.6% YoY driven by 3nm AI-server-CPU licensing, with a strategic push toward system-level hardware security. Nothing new in the June 9-23 window.",
+  "sources": [
+    {
+      "label": "Design-Reuse - eMemory Q1 2026 earnings call highlights",
+      "url": "https://www.design-reuse.com/news/202530515-ememory-technology-inc-roco-3529-q1-2026-earnings-call-highlights-record-revenue-growth-and-strategic-expansion/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 51,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: embedded-memory IP has weak direct CPO/HBM/advanced-packaging/test relevance vs cleaner bottleneck names, and prior case flagged removal. No new evidence since Jun 9 (Q1 print was May); +85% YTD worsens asymmetry. Drift down, -1.",
+      "bull": "3nm AI-CPU licensing + PUF security ramp; high-margin royalty model.",
+      "neutral": "Useful ecosystem node but tangential to the optics choke point.",
+      "bear": "Single-bundle validation risk; weak direct CPO relevance; +85% YTD.",
+      "primaryCatalyst": "New advanced-node licensing / security adoption",
+      "primaryRisk": "Mispositioned vs cleaner bottleneck names"
+    }
+  ]
+}

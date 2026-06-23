@@ -1,0 +1,31 @@
+{
+  "symbol": "TRS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The structural impairment to the thesis - the March 16, 2026 completed divestiture of the entire Aerospace segment to PennAero (Tinicum/Blackstone) for ~$1.45B (~$1.2B net) - and the Q1 beat were both pre-cutoff and were already reflected in the June 9 down-move. TriMas ended Q1 with >$900M net cash earmarked for organic growth, M&A and buybacks.",
+  "sources": [
+    {
+      "label": "TriMas completes Aerospace divestiture (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260316453625/en/TriMas-Completes-the-Divestiture-of-TriMas-Aerospace"
+    },
+    {
+      "label": "TriMas Q1 2026 beat after $1.24B divestiture (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/trimas-q1-2026-slides-earnings-beat-follows-124b-divestiture-93CH-4650442"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "The June 9 down-move already corrected the stale 'precision aerospace fastener' pathway after the March 16 Aerospace divestiture removed those assets. No new evidence since June 9 to extend the move; remaining packaging/specialty business has only a weak strict-screen AI link. Hold at the already-reduced rank.",
+      "bull": ">$900M net cash post-divestiture funds buybacks and M&A that could rebuild a precision-components platform; Q1 beat.",
+      "neutral": "Cash-rich but the AI/robotics link is now thin post-aerospace sale; redeployment is unproven.",
+      "bear": "Core latent-node pathway (precision aerospace fasteners) was sold; remaining packaging/closures business has minimal AI-supply-chain relevance.",
+      "primaryCatalyst": "Redeployment of ~$1.2B proceeds into precision-component M&A/buybacks",
+      "primaryRisk": "Thesis structurally impaired after Aerospace divestiture"
+    }
+  ]
+}

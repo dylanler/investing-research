@@ -1,0 +1,35 @@
+{
+  "symbol": "TTMI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material activity since June 9. On June 17 TTM announced all-cash acquisitions of Swiss Technology Group AG (Zurich) and ILFA GmbH (Hannover), its first European foothold, adding advanced/rigid-flex and miniaturized PCB capacity for medical, A&D and industrial; expected to close Q3 2026 and be modestly accretive. Also June 17 Mini-Xinger RF achieved AEC-Q200 automotive qualification, and June 3 TTM upsized financing with a new $1.0B revolver and a $400M Term Loan B add-on.",
+  "sources": [
+    {
+      "label": "TTM to acquire STG and ILFA (GlobeNewswire, Jun 17 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313849/0/en/ttm-technologies-inc-to-acquire-privately-held-european-based-swiss-technology-group-ag-and-ilfa-gmbh.html"
+    },
+    {
+      "label": "TTM Mini-Xinger RF AEC-Q200 qualification (StockTitan)",
+      "url": "https://www.stocktitan.net/news/TTMI/ttm-technologies-achieves-aec-q200-qualification-for-mini-xinger-rf-cn6f3fmdvbg9.html"
+    },
+    {
+      "label": "TTM $1.0B revolver + $400M Term Loan B 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001116942/000119312526255711/d220132dex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Genuinely new: June 17 dual European PCB acquisitions (STG/ILFA, accretive Q3 close) plus a fresh $1.0B revolver/$400M TLB and AEC-Q200 qualification expand capacity and end-market reach. Fundamentally positive, but on this crowding-sensitive page the +200% YTD rerating still dominates, so only a small +1 and hold rank 64.",
+      "bull": "Record AI server/DC&Networking demand (+61% YoY segment), now adding European advanced/rigid-flex capacity and balance-sheet firepower for further M&A.",
+      "neutral": "Strong franchise and accretive deals, but the stock has already rerated ~3x YTD; alpha now mostly priced in.",
+      "bear": "Crowded Strong-Buy consensus at $22B cap; integration and leverage risk; any AI capex pause hits the rerated multiple hard.",
+      "primaryCatalyst": "STG/ILFA close + continued AI/DC PCB demand",
+      "primaryRisk": "Post-rerating crowding; M&A integration/leverage"
+    }
+  ]
+}

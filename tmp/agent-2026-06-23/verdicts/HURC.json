@@ -1,0 +1,31 @@
+{
+  "symbol": "HURC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific news since June 9. The Q2 FY26 print (sales +17%, orders +41% YoY, Americas orders +63%, gross margin +300bps to 22%, ~$50M net cash, no debt) was reported June 5 and was already incorporated into the June 9 'up' verdict.",
+  "sources": [
+    {
+      "label": "Hurco Q2 FY26 8-K (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/HURC/8-k-hurco-companies-inc-reports-material-event-24bb2a1be147.html"
+    },
+    {
+      "label": "Hurco Q2 8-K exhibit (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000315374/000110465926070810/hurc-20260605xex99d1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent-node lens: the June 5 order/margin inflection (+41% orders, +63% Americas, net cash ~36% of cap) was the basis for the June 9 up-move and is now priced. No fresh evidence since; the +2.2% drift adds nothing. Hold rank 21; thesis is machine-tool demand upturn, not direct AI-node proof.",
+      "bull": "US machine-tool demand inflecting; 5-axis mix richening; net cash ~$50M (36% of cap) gives downside asymmetry.",
+      "neutral": "Strong order print already digested; still loss-making at the net line; AI-node link is indirect/optional.",
+      "bear": "Microcap CNC vendor; AI-infra connection is speculative; Germany weak; cyclical machine-tool demand can reverse.",
+      "primaryCatalyst": "Sustained order/margin recovery converting to profitability",
+      "primaryRisk": "Cyclical machine-tool downturn; AI-node thesis never materializes"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "KRN.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The June 9 AGM (dividend raised to EUR2.80, +7.7%) was as-scripted and previously announced; Q1 order intake of EUR1,512m (+5.3% y/y) and confirmed FY26 targets (3-5% organic revenue growth, EBITDA margin 10.7-11.1%) predate the window.",
+  "sources": [
+    {
+      "label": "Krones AGM/dividend release",
+      "url": "https://www.krones.com/en/company/investor-relations/corporate-news-release-krones-continues-profitable-growth-path-and-increases-dividend-per-share.php"
+    },
+    {
+      "label": "Krones Q1 2026 order intake",
+      "url": "https://www.eqs-news.com/news/corporate/krones-starts-financial-year-with-strong-order-intake-and-confirms-financial-targets-for-2026/e2a42a79-8af5-4b2a-9ebd-796caf5703c8_en"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent AI-node lens: packaging-automation tie to precision assembly cells is thesis-stage and untouched by the as-scripted June 9 AGM. No new datapoint links Krones to the AI supply chain. Hold rank 66.",
+      "bull": "Strong Q1 orders (+5.3%) and confirmed FY26 targets show a resilient, well-run automation franchise on a de-rated multiple (YTD -16%).",
+      "neutral": "Solid beverage-packaging cyclical; AI-node relevance remains a speculative adjacency with no concrete evidence.",
+      "bear": "Core demand is food/beverage capex, not AI; the latent AI-node case is a stretch with no design wins or DC-adjacent contracts.",
+      "primaryCatalyst": "Any explicit move into precision assembly/inspection for electronics or DC hardware.",
+      "primaryRisk": "Beverage capex cyclicality; thesis never materializes into AI relevance."
+    }
+  ]
+}

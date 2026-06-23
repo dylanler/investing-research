@@ -1,0 +1,31 @@
+{
+  "symbol": "AMBQ",
+  "company": "Ambiq Micro",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 22, 2026 Ambiq filed an S-1 for a primary follow-on of 1.8M shares (+270k underwriter option), ~8.4-9.6% dilution and roughly $152M proceeds for edge-AI R&D and working capital. This follows a strong Q1 (net sales +59% YoY, $25.1M, Q2 guide $31-32M). The raise funds growth but is dilutive after a +177% YTD rerating.",
+  "sources": [
+    {
+      "label": "Ambiq plans 1.8M-share primary offering (S-1)",
+      "url": "https://www.stocktitan.net/sec-filings/AMBQ/s-1-ambiq-micro-inc-files-ipo-registration-statement-608552edd0cf.html"
+    },
+    {
+      "label": "Ambiq Micro S-1 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001500412/000119312526276706/d152097ds1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 30,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.65,
+      "rankRationale": "On the robotics stack AMBQ is a real ultra-low-power edge-AI node, but the June 22 primary follow-on (~8.4-9.6% dilution, $152M) after a +177% YTD rerating adds supply just as alpha was already pulled forward. Growth-funding is a mild offset, but dilution plus crowding argues lower alpha weight.",
+      "bull": "Strong edge-AI demand (+59% Q1, $31-32M Q2 guide); raise funds R&D for robotics/IoT.",
+      "neutral": "Technically relevant but small, lossmaking, and heavily re-rated.",
+      "bear": "Dilutive follow-on after +177% YTD signals issuance into strength; alpha largely pulled forward.",
+      "primaryCatalyst": "Edge-AI revenue ramp funded by new capital",
+      "primaryRisk": "Equity dilution and post-IPO crowding"
+    }
+  ]
+}

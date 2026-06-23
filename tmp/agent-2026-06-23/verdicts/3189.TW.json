@@ -1,0 +1,35 @@
+{
+  "symbol": "3189.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No thesis-changing news since June 9. Kinsus reported May monthly revenue (high-frequency confirmation of the AI ABF substrate up-cycle) and continues its NT$23.5B+ ABF capacity expansion, but Q1 flagged growth constrained 10-15% by raw-material shortages and margin gains tied to utilization, not price. The trajectory is confirmed, not newly hidden alpha.",
+  "sources": [
+    {
+      "label": "Kinsus May 2026 revenue update",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/kinsus-interconnect-tech-stock-tw0003189007-taiwan-shares-steady-after/69467620"
+    },
+    {
+      "label": "Kinsus Q1 2026 earnings (raw-material constraint)",
+      "url": "https://finance.biggo.com/news/TW_3189.TW_2026-04-07"
+    },
+    {
+      "label": "Kinsus US$744M ABF expansion",
+      "url": "https://www.digitimes.com/news/a20260202PD236/kinsus-abf-substrate-expansion-demand.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the packaging/substrate-scarcity master list the ABF bottleneck thesis is intact (capacity expansion, AI server/HPC ABF tight to 2026), and May revenue confirms the trajectory but adds no hidden alpha. June-9 already captured the +366% YTD rerating; raw-material-constrained growth caps near-term upside. Hold.",
+      "bull": "Tier-one ABF substrate node for AI/HPC; large capacity expansion; tight high-end ABF supply.",
+      "neutral": "Trajectory confirmed by May revenue; rerating already recognized; growth capped by material shortages.",
+      "bear": "+366% YTD with growth constrained 10-15% by raw-material shortages; little residual alpha.",
+      "primaryCatalyst": "High-end ABF/HPC substrate scarcity and capacity ramp",
+      "primaryRisk": "Raw-material constraints; valuation reset after huge rerating"
+    }
+  ]
+}

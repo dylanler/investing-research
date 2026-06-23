@@ -1,0 +1,31 @@
+{
+  "symbol": "PLXS",
+  "company": "Plexus",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The record Q2 FY26 results (revenue $1.164B, non-GAAP EPS $2.05), raised mid-teens+ FY26 revenue guidance, $355M record program wins, and the JPMorgan credit-facility expansion all predate the window and were already reflected in the prior case.",
+  "sources": [
+    {
+      "label": "Plexus Q2 FY26 8-K earnings release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000785786/000078578626000028/plxsf26q2er-ex991.htm"
+    },
+    {
+      "label": "StockTitan PLXS news feed",
+      "url": "https://www.stocktitan.net/news/PLXS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new fundamental evidence since June 9; record Q2 beat, raised FY26 guide and credit-facility expansion already priced. On this crowding-sensitive residual-alpha list the +92% YTD rerating keeps eroding hidden alpha, but no new catalyst warrants a move. Hold at 17.",
+      "bull": "Record revenue/EPS, mid-teens+ FY26 guide, $4.0B funnel and $355M program wins; clean AI cloud/network manufacturing proxy.",
+      "neutral": "Strong but well-flagged; +92% YTD leaves little residual alpha versus passives on this list.",
+      "bear": "Price above ~$277.50 median target; EMS multiple re-rated, crowding risk on an underfollowed-name screen.",
+      "primaryCatalyst": "FY26 mid-teens+ revenue growth and funnel-to-win conversion.",
+      "primaryRisk": "Valuation/crowding after large YTD rerating; cyclical EMS demand."
+    }
+  ]
+}

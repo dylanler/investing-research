@@ -1,0 +1,74 @@
+{
+  "symbol": "000660.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely fresh bottleneck evidence: on June 18, 2026 SK hynix shipped 12-layer HBM4E samples to major customers (16Gbps/pin, >20% power efficiency gain). Trade press reaffirmed SK hynix holds ~70% of Nvidia's HBM4 (Vera Rubin) allocation, above the prior ~50% market estimate, and management/SK chairman flagged the HBM4 shortage worsening in H2 2026 with the global wafer shortage persisting to ~2030. Q1 2026 was already record (reported Apr 23).",
+  "sources": [
+    {
+      "label": "SK hynix ships HBM4E samples",
+      "url": "https://windowsforum.com/threads/sk-hynix-ships-hbm4e-samples-faster-ai-memory-power-up-20.427579/"
+    },
+    {
+      "label": "SK hynix ~70% of Nvidia HBM4",
+      "url": "https://www.semicone.com/article-385.html"
+    },
+    {
+      "label": "SK hynix Q1 2026 record results",
+      "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: June 18 HBM4E 12-layer samples plus reaffirmed ~70% Nvidia HBM4 allocation and a worsening H2-2026 shortage genuinely strengthen the choke-point case vs June 9. But it's now ~$1T cap, 277% YTD, deeply crowded; fundamentals warrant only modest positive drift, not a re-rank.",
+      "bull": "Confirmed ~70% Nvidia HBM4 share; HBM4E samples out; HBM4 shortage worsens H2 2026; wafer scarcity to 2030.",
+      "neutral": "Bottleneck intact but consensus; price already embeds the supercycle.",
+      "bear": "~$1T cap, 277% YTD, top funds piled in; residual alpha largely gone, memory cyclicality lurks.",
+      "primaryCatalyst": "HBM4/HBM4E ramp into Vera Rubin",
+      "primaryRisk": "Crowding / memory-cycle reversal"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 104,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: SK hynix is only an indirect cluster-scale proxy here. HBM4E sample news doesn't change its co-packaged-optics relevance, and at ~$1T cap heavily re-rated it should stay below purer, less-crowded CPO names. No change to the indirect-proxy thesis since June 9.",
+      "bull": "HBM remains a gating item for the AI clusters that pull CPO demand.",
+      "neutral": "Indirect proxy; CPO read-through unchanged by HBM4E news.",
+      "bear": "Not a CPO supplier; massive cap and YTD leave no asymmetry on this lens.",
+      "primaryCatalyst": "Cluster-scale AI buildout",
+      "primaryRisk": "Indirect linkage / crowding"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Silicon-consumption basket: SK hynix remains the canonical direct HBM proxy and June 18 HBM4E samples plus the worsening shortage-to-2028+ backdrop reinforce that basket role. The page already took its re-rating discipline; fresh HBM evidence justifies only mild positive score drift, not a rank change.",
+      "bull": "Direct exposure to the fastest-growing silicon layer; shortage extends to 2030.",
+      "neutral": "Best-fit representative; already top-ranked on the theme.",
+      "bear": "Extreme re-rating; basket role doesn't immunize against a memory downcycle.",
+      "primaryCatalyst": "HBM attach to AI accelerators",
+      "primaryRisk": "Memory ASP rollover"
+    },
+    {
+      "page": "companies",
+      "currentRank": 79,
+      "rankMove": "down",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master under-owned-bottleneck list: HBM4E samples and ~70% Nvidia share confirm the thesis but SK hynix is now the opposite of under-owned — ~$1T cap, 277% YTD, top Wall Street funds crowding in. On this scarcity lens it should sit below less-rerated HBM-chain names (equipment, materials, test). Fundamentals net flat.",
+      "bull": "Strongest, most-confirmed AI-memory bottleneck exposure in the chain.",
+      "neutral": "Thesis intact but fully discovered by the market.",
+      "bear": "No under-ownership left; mega-cap crowding erodes residual alpha vs hidden peers.",
+      "primaryCatalyst": "HBM4 ramp",
+      "primaryRisk": "Loss of under-owned premium"
+    }
+  ]
+}

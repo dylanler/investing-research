@@ -1,0 +1,57 @@
+{
+  "symbol": "AIXA.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Limited new news since June 9: MIT Lincoln Laboratory ordered two Hyperion 300mm systems for GaN/2D-materials research (June 23) — incremental, research-scale, not high-volume commercial. The thesis-defining evidence (Lumentum G10-AsP InP orders for AI optical networks, the FY26 guidance raise to ~EUR 560M, ROHM G10-GaN partnership) all predate June 9. Stock essentially flat (+0.58%).",
+  "sources": [
+    {
+      "label": "Simply Wall St — Aixtron GaN/SiC AI orders",
+      "url": "https://simplywall.st/stocks/de/semiconductors/etr-aixa/aixtron-shares/news/aixtron-xtraaixa-is-up-77-after-ai-focused-gan-and-sic-tool"
+    },
+    {
+      "label": "AIXTRON FY26 guidance raise",
+      "url": "https://www.webdisclosure.com/press-release/aixtron-se-etr-aixa-aixtron-se-increases-fy-2026-guidance-and-reports-preliminary-q12026-figures-xdNX74Isy8R"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Compound-semi/advanced-materials latent node: the AI-optics InP and GaN power order flow keeps building (MIT Lincoln add June 23), modestly reinforcing the latent demand-aggregation case, but the major evidence predates June 9. Mild positive, no rank move.",
+      "bull": "MOCVD tool monopoly to AI-driven InP optics and GaN power; FY26 guide raised; broadening customer base (Lumentum, ROHM, MIT).",
+      "neutral": "Catalysts mostly already known by June 9; +183% YTD prices much of the optimism.",
+      "bear": "Cyclical SiC/GaN/LED capex; order lumpiness; sentiment-driven swings after a 2.8x YTD run.",
+      "primaryCatalyst": "AI-optics InP/GaN tool order ramp",
+      "primaryRisk": "Compound-semi capex cycle reversal"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On the AI-node bottleneck lens, the growing InP-for-AI-optics and GaN-power order book strengthens Aixtron's claim, but exposure stays indirect versus HBM/advanced-packaging/AI-networking names that define the upper ranks. Modest score uptick, hold rank.",
+      "bull": "Enabling tool for AI optical (InP) and power (GaN) — a quiet pick-and-shovel as both nodes scale with AI compute.",
+      "neutral": "Indirect vs HBM/packaging; an equipment supplier two steps from the AI rack.",
+      "bear": "Cyclicality and order timing make node-relevance less durable than direct interconnect/memory names.",
+      "primaryCatalyst": "InP/GaN MOCVD order momentum",
+      "primaryRisk": "Capex cycle; indirect exposure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.5,
+      "rankRationale": "This CPO/photonics lens is where Aixtron fits best — InP MOCVD feeds the lasers/optics behind co-packaged optics. Order flow keeps validating that leg, but the Lumentum evidence predates June 9 and the 'small, underfollowed' premise keeps eroding (+183% YTD). Net mild positive, hold.",
+      "bull": "Direct toolmaker to InP lasers underpinning CPO/800G+ optics; AI optical bandwidth demand is structural.",
+      "neutral": "Crowding is the offset: heavily followed after a 2.8x run; discovery largely done.",
+      "bear": "Photonics capex volatility; MIT order is research-scale, not the commercial laser leg this page ranks.",
+      "primaryCatalyst": "InP laser MOCVD orders for AI optics",
+      "primaryRisk": "Photonics/LED capex volatility; crowded ownership"
+    }
+  ]
+}

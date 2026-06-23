@@ -1,0 +1,44 @@
+{
+  "symbol": "DIOD",
+  "company": "Diodes Incorporated",
+  "caseDate": "2026-06-23",
+  "newsSince": "Incremental product news since June 9: Diodes launched several automotive power devices June 18-20 (AH3711Q Hall-effect latch, APK43070Q USB-C PD3.1 140W controller, DML1012ALDSQ 8mOhm smart load switch), extending its automotive power portfolio. Q2 guidance (~$435M revenue, +18.8% YoY) was set May 7. The +9.6% move since June 9 partly tracks this product cadence plus flow.",
+  "sources": [
+    {
+      "label": "DIOD expands automotive power portfolio (June 20) - Timothy Sykes",
+      "url": "https://www.timothysykes.com/news/diodesincorporated-diod-news-2026_06_20/"
+    },
+    {
+      "label": "Diodes repositioning power portfolio around automotive - Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-diod/diodes/news/is-diodes-diod-quietly-repositioning-its-power-portfolio-aro/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "On the AI-node bottleneck lens the June 18-20 product launches are automotive power, not AI/HBM/packaging - immaterial to this page. Prior remove case (weak direct AI-node relevance) stands; no AI-node evidence since June 9. Hold at the bottom.",
+      "primaryCatalyst": "Automotive power content growth - not AI-node relevant",
+      "primaryRisk": "No direct HBM/advanced-packaging/AI-networking exposure; broad cyclicality",
+      "bull": "New automotive power launches and +18.8% YoY Q2 guide show share gains in power management.",
+      "neutral": "Broad-line analog/discrete with auto momentum, but no direct AI compute-node bottleneck role.",
+      "bear": "Belongs off an AI-node alpha list; the new products are automotive, and +120% YTD worsens asymmetry."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 116,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Through the co-packaged-optics lens the June automotive power launches have zero CPO relevance. No optical/data-center evidence since June 9; prior remove case (low direct CPO link, broad-cycle exposure) unchanged. Hold at the bottom.",
+      "primaryCatalyst": "None CPO-relevant",
+      "primaryRisk": "No co-packaged-optics linkage; broad-cycle exposure",
+      "bull": "Diversified discrete/analog franchise with automotive power momentum.",
+      "neutral": "Solid broad-line supplier but no co-packaged-optics content for this list.",
+      "bear": "Low direct CPO link plus cyclical end-markets; cleaner optical bottleneck names dominate."
+    }
+  ]
+}

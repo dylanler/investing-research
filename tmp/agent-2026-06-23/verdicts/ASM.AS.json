@@ -1,0 +1,57 @@
+{
+  "symbol": "ASM.AS",
+  "company": "ASM International",
+  "caseDate": "2026-06-23",
+  "newsSince": "Constructive: Q1 2026 beat with a strong tone — AI cited as the main demand driver, customers accelerating AI-infra capacity, 1.4nm pilot-line production starting H2 2026, and management framing 2026 as a strong upcycle year at 2nm/1.4nm with H2>H1. ALD/epi intensity and GAA confirm the picks-and-shovels thesis. Stock +11% since June 9.",
+  "sources": [
+    {
+      "label": "ASM Q1 2026 earnings beat (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asm-international-q1-2026-beats-expectations-stock-jumps-93CH-4629789"
+    },
+    {
+      "label": "ASM 'stellar' forecasts (XTB)",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/asm-international-is-driving-the-european-tech-and-has-released-stellar-forecasts"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply chain: Q1 beat and 1.4nm/GAA upcycle confirm the ALD-intensity thesis, a modest positive. But ASM is already a well-recognized AI semicap beneficiary, so it is not truly latent on this lens; small uptick, hold near the tail.",
+      "bull": "ALD/epi intensity rises step-function at GAA and 1.4nm; structural content-per-wafer winner on AI capex.",
+      "neutral": "Already a consensus AI semicap name — limited 'hidden' aspect for a latent list.",
+      "bear": "Front-end capex cyclicality and rich valuation after a +79% YTD run.",
+      "primaryCatalyst": "1.4nm pilot ramp H2 2026 and GAA/ALD content gains.",
+      "primaryRisk": "WFE capex-cycle downturn."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "AI-node-bottleneck lens fits ASM best: Q1 beat plus 1.4nm pilot lines H2 2026 and GAA-driven ALD intensity directly tighten the advanced-node bottleneck. Fundamentally positive and confirms top-10 placement; uptick within the leaders.",
+      "bull": "ALD is a hard advanced-node bottleneck; AI-led 2nm/1.4nm and HBM/packaging spend drives content and pricing.",
+      "neutral": "High-quality but well-owned; much upside already in a +79% YTD.",
+      "bear": "Valuation and capex-cycle sensitivity if AI digestion slows.",
+      "primaryCatalyst": "GAA/1.4nm ALD content ramp and rising AI-chip capex.",
+      "primaryRisk": "Front-end capex-cycle reversal."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "CPO/technology-linkage lens: ALD/epi complexity rises at advanced nodes and ASM is engaged in advanced-packaging/heterogeneous integration that underpins photonics manufacturing. Q1 beat incrementally confirms the linkage; modest positive, mid-list rank still fits.",
+      "bull": "Advanced-node + heterogeneous-integration intensity supports the substrates and photonics packaging CPO needs.",
+      "neutral": "Linkage to co-packaged optics is real but indirect; richly valued.",
+      "bear": "Capex-cycle risk; CPO is a secondary, not core, driver.",
+      "primaryCatalyst": "Advanced-packaging/HI engagements and 1.4nm ALD ramp.",
+      "primaryRisk": "Front-end capex cycle."
+    }
+  ]
+}

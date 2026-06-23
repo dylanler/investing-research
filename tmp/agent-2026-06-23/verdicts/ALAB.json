@@ -1,0 +1,74 @@
+{
+  "symbol": "ALAB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Two notable items since June 9: (1) Scorpio X-Series 320-lane scale-up AI Fabric switch and expanded PCIe 6 P-Series now shipping/ramping to hyperscaler lead platforms targeting a ~$20B 2030 scale-up switching TAM — a genuine fundamental strengthening of node centrality; (2) added to the Nasdaq-100 effective June 22, which drives passive/benchmark buying (flow, not fundamentals). Q1 2026 revenue was a record $308.4M, +93% YoY, with Q2 guide $355-365M. The +17.4% move blends real scale-up momentum with index-inclusion flow.",
+  "sources": [
+    {
+      "label": "Astera Labs Q1 2026 results",
+      "url": "https://www.asteralabs.com/news/astera-labs-reports-first-quarter-2026-financial-results/"
+    },
+    {
+      "label": "Futurum — Astera Q1 FY26 scale-up switching ramp",
+      "url": "https://futurumgroup.com/insights/astera-labs-q1-fy-2026-earnings-highlight-scale-up-switching-ramp/"
+    },
+    {
+      "label": "StocksToTrade — ALAB Nasdaq-100 inclusion",
+      "url": "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_06_18/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 86,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the residual-alpha-vs-passives lens, June 22 Nasdaq-100 inclusion makes ALAB MORE owned by benchmark/passive funds, eroding the asymmetry this page rewards. Scorpio ramp is real but doesn't restore residual alpha at ~$70B cap. Slight negative.",
+      "bull": "Best-in-class PCIe 6 / scale-up fabric franchise; +93% YoY revenue still compounding fast.",
+      "neutral": "Great company, but index inclusion + $70B cap is the opposite of under-owned residual alpha.",
+      "bear": "Maximally passive-owned post Nasdaq-100; hyperscaler concentration; high P/S means little residual mispricing.",
+      "primaryCatalyst": "Scorpio scale-up switch ramp",
+      "primaryRisk": "Passive crowding; hyperscaler concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Scorpio X-Series 320-lane scale-up switch now shipping to hyperscaler lead platforms ($20B 2030 TAM) genuinely strengthens connectivity-node centrality since June 9. At rank 4 there is little room up, and the page's 'smaller visibility' tilt is offset by Nasdaq-100 fame — net real fundamental uptick, hold rank.",
+      "bull": "Scale-up fabric switching ramp opens a new multi-billion TAM beyond retimers; PCIe 6 leadership; +93% YoY.",
+      "neutral": "Node centrality clear; upside on this list capped at rank 4.",
+      "bear": "Now maximally visible at ~$70B; valuation/hyperscaler concentration risk on any AI capex pause.",
+      "primaryCatalyst": "Scorpio scale-up switching hyperscaler ramp",
+      "primaryRisk": "Hyperscaler capex/concentration; valuation"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On the CPO lens, the Scorpio scale-up switching ramp deepens rack-scale copper/optical transition exposure, but ALAB remains tangential to CPO cables proper and the page's stated risk (high P/S, hyperscaler concentration) is exactly what is being repriced. Slight positive, hold.",
+      "bull": "Owns the rack-scale connectivity transition where copper meets optics; scale-up TAM expanding.",
+      "neutral": "Adjacent to CPO, not a pure co-packaged-optics play.",
+      "bear": "High P/S and hyperscaler concentration; not a direct CPO supplier.",
+      "primaryCatalyst": "Rack-scale connectivity ramp",
+      "primaryRisk": "P/S compression; concentration"
+    },
+    {
+      "page": "companies",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "On the master under-owned-bottleneck list, the scale-up switch ramp is genuine bottleneck exposure, but Nasdaq-100 inclusion (June 22) directly erodes the 'under-owned' premise. The two roughly offset to a slight net positive; hold rank.",
+      "bull": "Central PCIe/CXL + scale-up fabric bottleneck in AI racks; rapid revenue compounding.",
+      "neutral": "Bottleneck real, but ownership no longer scarce post index inclusion.",
+      "bear": "Passive-crowded at $70B; rerated; concentration on a few hyperscalers.",
+      "primaryCatalyst": "Scale-out/scale-up fabric ramp",
+      "primaryRisk": "Crowding; AI capex cyclicality"
+    }
+  ]
+}

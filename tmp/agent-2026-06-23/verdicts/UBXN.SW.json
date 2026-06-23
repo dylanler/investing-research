@@ -1,0 +1,31 @@
+{
+  "symbol": "UBXN.SW",
+  "company": "u-blox",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Stock was flat (0.0% move). No earnings, design wins, or guidance updates have landed; prior coverage relates to older H1 results and historical capital markets days.",
+  "sources": [
+    {
+      "label": "u-blox earnings (companiesmarketcap)",
+      "url": "https://companiesmarketcap.com/u-blox/earnings/"
+    },
+    {
+      "label": "MarketScreener financial calendar",
+      "url": "https://www.marketscreener.com/quote/stock/U-BLOX-HOLDING-AG-366917/calendar/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No material news; flat price. Positioning/wireless edge-module thesis for the test-time-scaling/physical-AI lens is unchanged, but still loss-making (TTM net margin negative) with no fresh design-win evidence. Hold the long tail.",
+      "bull": "Edge positioning/wireless modules attach to robotic and physical-AI deployment; small-cap optionality on an industrial/automotive recovery.",
+      "neutral": "Niche semiconductor supplier with no fresh catalyst; thesis intact but unproven on scaling relevance.",
+      "bear": "Negative TTM net margin, $1.3B cap, no AI-specific traction; tangential to test-time scaling.",
+      "primaryCatalyst": "Automotive/industrial demand recovery lifting module volumes.",
+      "primaryRisk": "Continued losses and weak relevance to the scaling thesis."
+    }
+  ]
+}

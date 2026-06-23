@@ -1,0 +1,35 @@
+{
+  "symbol": "STRL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 9 Sterling Infrastructure announced and closed the acquisition of Stone Ridge Contracting, extending its E-Infrastructure footprint across the Pacific Northwest and Texas. This follows a May 4 record Q1 (revenue +92% to ~$826M) and a raised FY26 guide (revenue $3.7-3.8B, adjusted EPS $18.40-19.05), with backlog ~$3.8B and mission-critical work (data centers/semis) >90% of E-Infrastructure signed backlog. Stock +7% since June 9.",
+  "sources": [
+    {
+      "label": "Sterling Infrastructure 8-K, June 9 2026 press release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000087/a20260609ex991pressrelease.htm"
+    },
+    {
+      "label": "STRL up after raising 2026 outlook on AI-focused backlog shift (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-strl/sterling-infrastructure/news/sterling-infrastructure-strl-is-up-55-after-raising-2026-out"
+    },
+    {
+      "label": "STRL targets 25% revenue growth as data-center demand surges (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4558340-sterling-infrastructure-targets-25-percent-revenue-growth-for-2026-as-backlog-and-data-center"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "Latent lens: data-center site-prep beneficiary. June 9 Stone Ridge acquisition adds DC/civil capacity and geography, on top of raised FY26 guide and >90% mission-critical (DC/semi) backlog. Fundamental confirmation strong enough to move up vs latent peers despite the construction angle being partly discovered.",
+      "bull": "Stone Ridge expands DC site-dev capacity; backlog ~$3.8B, >90% mission-critical; FY26 guide raised.",
+      "neutral": "Construction angle being discovered but execution and backlog quality keep optionality.",
+      "bear": "Cyclical construction margins; data-center capex concentration; short-seller scrutiny.",
+      "primaryCatalyst": "Stone Ridge acquisition plus raised FY26 guidance on AI/DC backlog.",
+      "primaryRisk": "Data-center capex slowdown and construction-margin cyclicality."
+    }
+  ]
+}

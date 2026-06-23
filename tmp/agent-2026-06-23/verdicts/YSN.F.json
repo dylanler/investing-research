@@ -1,0 +1,31 @@
+{
+  "symbol": "YSN.F",
+  "company": "secunet",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The ~-9% move reflects a continued chart pullback / broader de-rating, not a fresh event. FY26 guidance (revenue EUR460-500M, EBIT EUR53-58M) was reaffirmed in May and Q1 (order intake +90%, book-to-bill 1.7x, record backlog; seasonal Q1 EBIT loss) was reported pre-window.",
+  "sources": [
+    {
+      "label": "secunet Q1 2026 - order intake nearly doubles",
+      "url": "https://www.secunet.com/en/about-us/press/article/konzernquartalsmitteilung-zum-31-maerz-2026"
+    },
+    {
+      "label": "secunet stock overview (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/secunet-security-networks-stock-quiet-chart-loud-expectations-in/68487402"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Scaling/sovereign-cybersecurity lens unchanged: no company-specific news June 9-23. Guidance reaffirmed in May; Q1's record order backlog (book-to-bill 1.7x) is constructive but pre-window. The -9% is a chart/de-rating move, not fundamentals. Hold.",
+      "primaryCatalyst": "Sovereign/regulated cyber demand; record backlog converting through 2026",
+      "primaryRisk": "Lumpy government order timing; rich multiple after prior run leaves room to de-rate",
+      "bull": "Order intake +90% and 1.7x book-to-bill underpin a reaffirmed EUR460-500M FY26 guide; sovereign-cyber tailwind.",
+      "neutral": "Seasonal Q1 EBIT loss and price pullback offset a strong backlog; story intact but no new catalyst.",
+      "bear": "Government order timing is lumpy; stock down ~23% over 90 days signals fading momentum."
+    }
+  ]
+}

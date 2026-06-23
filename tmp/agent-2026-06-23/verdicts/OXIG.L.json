@@ -1,0 +1,31 @@
+{
+  "symbol": "OXIG.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Oxford Instruments published its FY2026 Annual Report and notice of AGM around June 9, 2026, confirming the previously reported preliminary results: Advanced Technologies orders +28%, group gross margin lifted to ~51% post-NanoScience/quantum divestment, and FY2027 guidance targeting ~20% operating margin with high-teens AT growth. No genuinely new earnings or contract event since June 9; the report formalizes already-known prelims.",
+  "sources": [
+    {
+      "label": "OXIG Annual Report 2026 & AGM notice (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/prn/oxford-instruments--oxig/publication-of-annual-report-2026-and-notice-/9631976"
+    },
+    {
+      "label": "OXIG Preliminary Results (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/oxford-instruments--oxig/preliminary-results/9607756"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent AI-supply-chain lens: FY2026 report confirms Advanced Technologies orders +28% and margin uplift after quantum divestment, keeping the under-covered semi/metrology/cryogenics leverage intact. Confirmatory not new, so a small positive nudge; YTD re-rating handled separately.",
+      "bull": "AT orders +28%, ~51% gross margin and FY27 20% op-margin target give clean, under-owned exposure to AI-hardware R&D, metrology and compound-semi tools.",
+      "neutral": "Strong prelims now formalized in annual report; no fresh catalyst since June 9 and Imaging recovery still gradual.",
+      "bear": "Group revenue fell ~15% YoY post-divestments; cyclical scientific-tools demand and a +43% YTD run leave limited margin of safety.",
+      "primaryCatalyst": "Advanced Technologies order momentum and FY27 margin expansion",
+      "primaryRisk": "Cyclical/scientific-tools demand softness; rich valuation after strong YTD"
+    }
+  ]
+}

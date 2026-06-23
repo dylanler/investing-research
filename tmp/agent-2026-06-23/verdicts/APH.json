@@ -1,0 +1,44 @@
+{
+  "symbol": "APH",
+  "company": "Amphenol",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company fundamentals since June 9, but supportive sell-side flow: Evercore reiterated APH as a top AI-data-center infrastructure pick (June 11) and Barclays raised its target to $198 (June 8). The CCS (CommScope) fiber acquisition (closed January, ~$4.1B 2026 sales) integration remains on track. The +4.6% move since June 9 is re-rating/flow, not fresh evidence.",
+  "sources": [
+    {
+      "label": "Analyst raises APH PT on AI growth (Barclays/Evercore)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-raises-amphenol-aph-price-020531814.html"
+    },
+    {
+      "label": "Why APH is a core AI data-center picks-and-shovels supplier",
+      "url": "https://www.insidermonkey.com/blog/why-amphenol-aph-is-becoming-a-core-picks-and-shovels-supplier-for-ai-data-centers-1785228/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 82,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On a crowding-sensitive residual-alpha-vs-passives list APH is already bucketed 'Crowded / rerated benchmark' at ~$199B cap. Another flow-driven leg (analyst PT raises, +4.6%) with no new fundamentals is exactly the post-rerating chase this page penalizes, so it slips below smaller undiscovered bottleneck names.",
+      "bull": "Direct, hard-to-substitute interconnect backbone for dense AI racks with 2026 catalysts.",
+      "neutral": "Fundamentals strong but fully recognized; little residual alpha versus passives.",
+      "bear": "Crowded mega-cap; sell-side-driven rally is chase, not new evidence.",
+      "primaryCatalyst": "AI-rack interconnect demand (sell-side reiterations)",
+      "primaryRisk": "Crowding/rerating erodes residual alpha"
+    },
+    {
+      "page": "companies",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the under-owned-bottleneck master list APH's scale-out bandwidth/optics case (800G/1.6T, CCS fiber) is unchanged; June news is analyst flow, not fresh company fundamentals. Prior verdict was hold; today's move is flow, so hold at zero rather than down-rate for rerating (handled separately).",
+      "bull": "CCS fiber plus 800G/1.6T optical links make APH a total data-center connectivity solution.",
+      "neutral": "High-quality compounder but increasingly discovered as an AI connectivity play.",
+      "bear": "Mega-cap scale limits asymmetry; interconnect pricing/execution risk.",
+      "primaryCatalyst": "Scale-out optical/interconnect demand; CCS integration",
+      "primaryRisk": "Interconnect pricing and execution"
+    }
+  ]
+}

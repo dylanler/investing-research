@@ -1,0 +1,44 @@
+{
+  "symbol": "6971.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental news since June 9; the binary catalyst is the June 25 AGM. ISS and Glass Lewis back Oasis (remove Chairman Yamaguchi, appoint Okamura, JPY350B buyback); the board unanimously opposes. Outcome unknown as of June 23. Stock essentially flat (-0.94%).",
+  "sources": [
+    {
+      "label": "ISS/Glass Lewis back Oasis at Kyocera (Yahoo/Oasis)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oasis-welcomes-iss-glass-lewis-223000436.html"
+    },
+    {
+      "label": "Kyocera board rejects Oasis proposals ahead of AGM (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/kyocera-board-rejects-activist-oasiss-shareholder-proposals-ahead-of-june-agm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha/passives lens: tantalum/ceramic/specialty-capacitor bottleneck thesis unchanged. The ~28% leg is event-driven activist/AGM flow (ISS/Glass Lewis backing Oasis), not new passives evidence; June 25 vote is binary and unresolved. Hold at 0.",
+      "bull": "AVX-tight tantalum/ceramic/specialty-cap bottlenecks plus an activist catalyst that could unlock capital return.",
+      "neutral": "Recent leg is governance-event flow, not passives-specific evidence; AGM outcome pending.",
+      "bear": "Event-driven alpha is being consumed into June 25; vote could disappoint and reverse.",
+      "primaryCatalyst": "June 25 AGM: Oasis buyback/board proposals with proxy-advisor support.",
+      "primaryRisk": "AGM outcome binary; failed vote unwinds event premium."
+    },
+    {
+      "page": "companies",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master bottleneck lens: nothing since June 9 changes Kyocera's role in AI-server PDN, ceramic packages and substrates. Proxy-advisor backing for the activist slate modestly improves the capital-allocation overhang, but the June 25 vote is unresolved. Hold at 0.",
+      "bull": "AI-server ceramic packages, substrates and MLCC/inductor content plus potential governance-driven capital reform.",
+      "neutral": "Capital-allocation overhang partly addressed by activist pressure; vote still pending.",
+      "bear": "Conglomerate discount persists if board prevails; measured operational growth.",
+      "primaryCatalyst": "AGM-driven capital-allocation/governance change; AI-server component demand.",
+      "primaryRisk": "Activist push fails; capital-policy overhang reasserts."
+    }
+  ]
+}

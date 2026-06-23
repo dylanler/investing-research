@@ -1,0 +1,65 @@
+{
+  "symbol": "RMBS",
+  "company": "Rambus",
+  "caseDate": "2026-06-23",
+  "newsSince": "The -12% move since June 9 is sector-driven (the June 5 chip rout on Broadcom's soft AI outlook and a deepening memory-supply 'shock'), compounding April's Baird downgrade thesis that Rambus is a unit-driven royalty model that doesn't capture HBM pricing power in a shortage. No new RMBS-specific fundamental negative: Q1 product revenue +15%, Q2 guide $186-204M, industry-fastest HBM4E controller IP and LPDDR5X SOCAMM2 chipset launched, ex-AMD president Victor Peng on board.",
+  "sources": [
+    {
+      "label": "Rambus Q1 2026 results / Q2 outlook (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/RMBS/8-k-rambus-inc-reports-material-event-6ef4260478d6.html"
+    },
+    {
+      "label": "What triggered the semiconductor sell-off (Kavout)",
+      "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"
+    },
+    {
+      "label": "Rambus faces downside as memory momentum weakens (24/7 Wall St)",
+      "url": "https://247wallst.com/investing/2026/06/02/rambus-faces-downside-risk-as-memory-chip-momentum-weakens/"
+    },
+    {
+      "label": "Rambus Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/27/rambus-rmbs-q1-2026-earnings-transcript/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 63,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Residual-alpha-vs-passives lens: a -12% flow-driven flush with the HBM4E/memory-interface thesis intact further compresses YTD and unwinds the crowding that anchored prior holds. No RMBS-specific fundamental damage, so the de-rate is alpha-restorative, not thesis erosion. Extends prior 'up'.",
+      "primaryCatalyst": "Crowding/YTD compression restoring entry asymmetry with HBM4E IP intact",
+      "primaryRisk": "Unit-driven royalty model doesn't capture memory pricing power in a shortage (Baird thesis)",
+      "bull": "Sector flush hands a cheaper entry into intact HBM4E/SOCAMM2 franchise; residual alpha widens vs passives.",
+      "neutral": "Sell-off is flow, not fundamentals; asymmetry improves but memory-cycle risk remains.",
+      "bear": "Royalties slipping ($74M->$70M) and a shortage that lifts peers' pricing but not RMBS's units."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node-centrality lens (not entry asymmetry): the sector selloff doesn't change Rambus's standing as a memory-interface/controller-IP node that is less direct than HBM makers, advanced packaging and AI networking. HBM4E controller launch is incremental, not a centrality re-rate. Prior hold logic unchanged.",
+      "primaryCatalyst": "Industry-fastest HBM4E memory controller IP for AI accelerators",
+      "primaryRisk": "Node remains a step removed from the core HBM/packaging/networking bottleneck",
+      "bull": "Memory-interface IP touches essentially every AI accelerator; HBM4E keeps it on the roadmap.",
+      "neutral": "Relevant but indirect node; centrality unchanged by a flow-driven selloff.",
+      "bear": "Controller-IP layer is less load-bearing than HBM, CoWoS or AI networking on the bottleneck map."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 34,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Co-packaged-optics/alpha lens: the page's stated risk ('IP/product mix and memory cycle') is exactly what the tape is pricing, but the -12% is sector flow off the June chip rout, not a Rambus cycle break. Sharp sell-off with intact HBM/memory-interface thesis improves the alpha asymmetry. Extends prior 'up'.",
+      "primaryCatalyst": "HBM/memory-interface leverage into AI clusters; cheaper post-selloff entry",
+      "primaryRisk": "IP/product mix and memory-cycle timing",
+      "bull": "Flow-driven drawdown improves alpha entry while HBM4E/memory-interface optionality (incl. CPO read-through) stays intact.",
+      "neutral": "Indirect CPO beneficiary; asymmetry better post-flush but mix/cycle risk persists.",
+      "bear": "Memory-cycle and product-mix risk could turn a flow selloff into a fundamental re-rate."
+    }
+  ]
+}

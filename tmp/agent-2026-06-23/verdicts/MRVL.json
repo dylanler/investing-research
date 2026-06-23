@@ -1,0 +1,74 @@
+{
+  "symbol": "MRVL",
+  "company": "Marvell Technology",
+  "caseDate": "2026-06-23",
+  "newsSince": "Marvell joined the S&P 500 on June 22, 2026 (replacing Pool Corp), a forced-passive-buying event that maximizes ownership visibility. Fundamentals strong but already known: Q1 FY27 record revenue $2.418B (+28% y/y, May 27 beat), raised FY27/FY28 outlook, custom silicon targeted to scale past $10B by FY29, Teralynx T100 102.4Tbps switch debut and 5M+ coherent PICs shipped. Stock +214% YTD, +5% over the window.",
+  "sources": [
+    {
+      "label": "Marvell & Flex to join S&P 500 (CNBC)",
+      "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html"
+    },
+    {
+      "label": "Marvell S&P 500 inclusion analysis (24/7 Wall St)",
+      "url": "https://247wallst.com/investing/2026/06/11/marvell-just-ripped-57-in-a-month-will-the-june-22-sp-500-listing-be-a-sell-the-news-event/"
+    },
+    {
+      "label": "Marvell Q4 & FY2026 results (Investor Relations)",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1011/marvell-technology-inc-reports-fourth-quarter-and-fiscal-year-2026-financial-results"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha vs passives lens: MRVL sits outside the passives/power bottleneck stack and is parked as monitor/benchmark. June 22 S&P 500 inclusion adds forced passive crowding, the opposite of this page's alpha criterion, so it stays at the bottom with a small negative drift.",
+      "bull": "Best-in-class AI interconnect and custom silicon; central AI node with raised FY28 guide.",
+      "neutral": "Strong AI franchise but not a passive/power component.",
+      "bear": "S&P 500 inclusion maxes passive ownership; zero residual alpha for this list.",
+      "primaryCatalyst": "Custom XPU and 1.6T optics ramp",
+      "primaryRisk": "Maximum crowding; outside the passives bottleneck"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "AI-node bottleneck lens: custom-ASIC/interconnect centrality is intact (Teralynx T100, raised FY28 ~$16.5B guide, 5M+ PICs). But S&P 500 inclusion and a trillion-dollar narrative push visibility beyond the page's 'smaller than megacaps' lens, offsetting the node strength. Net hold one day after the prior up-move.",
+      "bull": "Direct custom-ASIC + 800G/1.6T interconnect node; raised FY27/FY28 guide and T100 switch debut.",
+      "neutral": "Node thesis intact but no longer 'smaller than megacaps' after S&P 500 entry.",
+      "bear": "Qualcomm entering custom ASICs; +214% YTD with maxed visibility erodes the under-the-radar edge.",
+      "primaryCatalyst": "Custom XPU + scale-out optics/switch ramp toward >$10B by FY29",
+      "primaryRisk": "Custom-ASIC competition (Qualcomm/Broadcom); embedded expectations"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Co-packaged-optics lens: this is MRVL's most direct fit (optical DSPs, CPO, AEC/AOC, 5M+ coherent PICs, NPO/CPO scale-up optics in raised guide). Optical leg strengthened by Q1 beat and T100; Qualcomm-ByteDance headline hits the custom-compute leg, not optics. Small positive on confirmed optics traction.",
+      "bull": "One of the most direct bridges across custom silicon, optical DSPs, CPO and AEC/AOC; 5M+ coherent PICs shipped.",
+      "neutral": "Optics franchise leading but large AI expectations already embedded.",
+      "bear": "+214% YTD; CPO timeline and competition could disappoint lofty expectations.",
+      "primaryCatalyst": "NPO/CPO scale-up optics and 1.6T DSP ramp",
+      "primaryRisk": "High embedded AI/custom-silicon expectations"
+    },
+    {
+      "page": "companies",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck master list: scale-out networking/CPO/800G-1.6T optics exposure is real but ownership visibility is now maximal. S&P 500 inclusion plus the trillion-dollar narrative keep crowding at a peak for this crowding-aware list; prior down-move already penalized the rerating. Hold near the bottom.",
+      "bull": "Scale-out bandwidth and optics exposure with record FY26 revenue and AI bookings.",
+      "neutral": "Genuine bottleneck content but no hidden alpha after the rerating.",
+      "bear": "+214% YTD and S&P 500 inclusion maximize ownership; opposite of scarce, under-owned exposure.",
+      "primaryCatalyst": "1.6T optical link and custom-compute execution",
+      "primaryRisk": "Maximum crowding/visibility; rich valuation"
+    }
+  ]
+}

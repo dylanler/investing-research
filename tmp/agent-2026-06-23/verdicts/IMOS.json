@@ -1,0 +1,44 @@
+{
+  "symbol": "IMOS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "ChipMOS reported May 2026 revenue of NT$2,384.3m (US$76.0m), +17.7% YoY though -3.1% MoM, citing a persistent AI-related memory demand/supply imbalance and ongoing footprint expansion under long-term supply agreements. Constructive for backend memory packaging/test, but not CPO-specific.",
+  "sources": [
+    {
+      "label": "ChipMOS May 2026 revenue +17.7% YoY (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/chipmos-reports-17-7-yoy-increase-in-may-2026-revenue-302796285.html"
+    },
+    {
+      "label": "ChipMOS May 2026 revenue (StockTitan)",
+      "url": "https://www.stocktitan.net/news/IMOS/chip-mos-reports-17-7-yo-y-increase-in-may-2026-dsg4pxca2ged.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 118,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Through a co-packaged-optics lens, ChipMOS has near-zero CPO exposure - it is memory/display OSAT. The +17.7% May revenue print is AI-memory driven, not optics-relevant, and the thesis already flags low CPO exposure. No CPO catalyst since June 9. Hold near the bottom.",
+      "bull": "AI memory demand/supply imbalance lifts backend volumes; long-term supply agreements and capacity adds support throughput.",
+      "neutral": "Healthy memory cycle, but irrelevant to the CPO thesis this page screens for.",
+      "bear": "No co-packaged-optics content; rank correctly sits at the page floor.",
+      "primaryCatalyst": "Any optical/CPO packaging engagement (none evident)",
+      "primaryRisk": "Memory/display cycle rollover; remains a non-CPO name"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Scaling lens rewards backend packaging/test capacity feeding AI compute. May revenue +17.7% YoY on an AI-memory imbalance plus footprint expansion under long-term agreements modestly confirms the test-time-scaling backend thesis. Small positive, but a routine monthly print - hold rank, +1 score.",
+      "bull": "AI-memory packaging/test demand and capacity expansion give direct backend exposure to the scaling buildout; +17.7% YoY revenue.",
+      "neutral": "Monthly revenue solid but MoM softened -3.1%; OSAT margins remain cyclical.",
+      "bear": "Commodity OSAT with memory-cycle beta; +115% YTD already prices much of the recovery.",
+      "primaryCatalyst": "Continued AI-memory packaging volume / capacity ramp",
+      "primaryRisk": "Memory cycle peak; pricing/utilization rollover"
+    }
+  ]
+}

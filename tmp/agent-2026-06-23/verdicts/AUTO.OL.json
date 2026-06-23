@@ -1,0 +1,39 @@
+{
+  "symbol": "AUTO.OL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. AutoStore's last disclosure was Q1 2026 results on April 23 (revenue $165.8M, order intake $179.4M, record backlog $570.6M, 72.7% gross margin), and it launched CubeVerse cloud/AI software earlier in the quarter — both already known at the June 9 case. Stock drifted +5.6% on no new evidence.",
+  "sources": [
+    {
+      "label": "AutoStore Q1 2026 results",
+      "url": "https://www.autostoresystem.com/reports-presentations/q1-results-2026"
+    },
+    {
+      "label": "Q1 2026 ad-hoc release",
+      "url": "https://news.cision.com/autostore-as/r/autostore--q1-2026-financial-results,c4338891"
+    },
+    {
+      "label": "AutoStore AI-driven fulfillment innovations (SDC Exec)",
+      "url": "https://www.sdcexec.com/warehousing/automation/news/22962141/autostore-autostore-launches-aidriven-fulfillment-innovations"
+    },
+    {
+      "label": "AutoStore Holdings (AUTO.OL) quote & news (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/AUTO.OL/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No new AI-orchestration or order evidence since June 9; Q1 (Apr 23) and CubeVerse were already known. The +5.6% drift is price, not thesis. Robotic cube-storage latent-node case unchanged versus warehouse-automation peers; hold rank.",
+      "bull": "Record $571M backlog with 2027 shipments and CubeVerse AI software lift the latent-orchestration value.",
+      "neutral": "High-margin executor but cyclical warehouse demand; thesis intact, no fresh catalyst.",
+      "bear": "Intense robotics competition and a derated multiple; +5.6% pop on no new data.",
+      "primaryCatalyst": "Warehouse-automation order rebound / software attach",
+      "primaryRisk": "Competitive intensity and capex-cycle sensitivity"
+    }
+  ]
+}

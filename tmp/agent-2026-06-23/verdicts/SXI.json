@@ -1,0 +1,31 @@
+{
+  "symbol": "SXI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The most recent event was the Q3 FY26 earnings call (~June 3), which showed 8% sales growth (6.5% organic), book-to-bill 1.05, grid sales +20%, Amran/Narayan integration progressing, and a portfolio tilt to electronics/engineering (~70% of sales). Nothing new ties reed sensors/magnetics to AI liquid-cooling or robotics in-window.",
+  "sources": [
+    {
+      "label": "Standex Q3 FY26 earnings highlights (Investing.com)",
+      "url": "https://ca.investing.com/news/company-news/standex-international-corp-sxi-q3-2026-earnings-call-highlights-strategic-shifts-and-growth--4605038"
+    },
+    {
+      "label": "Standex (SXI) news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/SXI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent lens: solid Q3 (grid +20%, B/B 1.05) confirms a healthy industrial, but no in-window evidence links reed sensors/magnetics to AI liquid-cooling instrumentation or robotics. +41% YTD rerating already runs ahead of any proven AI-chain content. Hold.",
+      "bull": "Reed/magnetics/electronics could feed liquid-cooling instrumentation and robotics sensing; grid momentum and acquisitions broaden the base.",
+      "neutral": "Quality multi-industrial executing well, but the AI/robotics sensor pathway is still a thesis without booked AI-chain revenue.",
+      "bear": "Big YTD rerating on broad industrial strength, not AI evidence; speculative latent link risks de-rating if AI content never appears.",
+      "primaryCatalyst": "A named liquid-cooling instrumentation or humanoid-robotics sensor/magnetics design win.",
+      "primaryRisk": "Multiple expansion without AI-chain confirmation; reverts to industrial-cyclical valuation."
+    }
+  ]
+}

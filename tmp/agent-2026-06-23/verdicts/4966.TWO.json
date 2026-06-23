@@ -1,0 +1,31 @@
+{
+  "symbol": "4966.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material news since June 9. Q1 FY2026 (reported earlier) was soft: revenue ~$126M (roughly flat YoY), net income ~$16.7M; Q2 guide $127-141M with 40-44% gross margin -- a modest, less-direct AI exposure profile. Stock fell ~4% since June 9.",
+  "sources": [
+    {
+      "label": "Parade Technologies Q1 2026 earnings call (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/4966.TWO/earnings/4966.TWO-Q1-2026-earnings_call-554655.html"
+    },
+    {
+      "label": "Parade Q1 2026 earnings highlights (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8811496/parade-technologies-ltd-roco4966-q1-2026-earnings-call-highlights-navigating-market-challenges-with-innovative-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 40,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the AI-node bottleneck lens, Parade's analog/retimer/touch mix is far less direct to HBM/CoWoS/CPO choke-points than peers, and Q1 was flat YoY with only modest Q2 guidance. No new evidence to upgrade the thesis; the June 9 down bias stands.",
+      "bull": "DisplayPort/PCIe retimer franchise; automotive DP-hub diversification; high-speed up ~50%.",
+      "neutral": "Solid niche but more PC/auto-display than core AI-infrastructure bottleneck.",
+      "bear": "Q1 revenue flat YoY, modest guide; least-direct AI-node exposure in the tier.",
+      "primaryCatalyst": "PCIe/retimer content gains in AI/server and automotive displays.",
+      "primaryRisk": "PC-cycle dependence; limited direct HBM/packaging/CPO leverage."
+    }
+  ]
+}

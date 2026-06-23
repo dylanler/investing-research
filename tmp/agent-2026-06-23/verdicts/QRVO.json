@@ -1,0 +1,44 @@
+{
+  "symbol": "QRVO",
+  "company": "Qorvo",
+  "caseDate": "2026-06-23",
+  "newsSince": "Merger-process news confirming the prior thesis. The Skyworks acquisition advanced: as of June 11 Qorvo obtained requisite noteholder consents to strip covenants, Skyworks reported early note-exchange participation, and an S-4 proxy/prospectus was filed. Terms remain $32.50 cash + 0.960 Skyworks share per Qorvo share, removing standalone optionality. No AI-node/CPO content change.",
+  "sources": [
+    {
+      "label": "Qorvo advances toward Skyworks acquisition, note amendments (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/qorvo-advances-toward-skyworks-acquisition-with-note-amendments"
+    },
+    {
+      "label": "Skyworks reports early participation in Qorvo note exchange (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/QRVO/425-qorvo-inc-business-combination-communication-5ce7f3c66a7a.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 91,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.66,
+      "rankRationale": "Consistent with the prior down call: QRVO has weak direct AI-node bottleneck exposure (no HBM/advanced-packaging/CPO leverage), and the advancing Skyworks merger (noteholder consents, S-4 filed) removes standalone optionality. Drift-sized down; no new AI-node evidence.",
+      "primaryCatalyst": "Skyworks merger synergies (RF scale, not AI-node)",
+      "primaryRisk": "No HBM/packaging leverage; deal/arb overhang caps optionality",
+      "bull": "Combined Skyworks-Qorvo RF scale and $500M+ synergies could fund longer-term infrastructure/edge optionality.",
+      "neutral": "RF/analog with negligible AI-node content; valuation now anchored to the merger arb.",
+      "bear": "Merger strips standalone optionality; handset/RF cyclicality and zero direct AI-node bottleneck exposure keep it sliding."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 74,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.64,
+      "rankRationale": "Through the CPO lens, QRVO is RF/analog with no co-packaged-optics leverage; the advancing Skyworks acquisition removes the independent infrastructure-optionality angle that prior thesis weakly flagged. Consistent with the 'remove' bias; drift-sized down.",
+      "primaryCatalyst": "Non-core infrastructure optionality (now subsumed by merger)",
+      "primaryRisk": "No CPO content; handset/RF cyclicality",
+      "bull": "Merged entity's broader analog/RF portfolio could surface niche optical-adjacent content over time.",
+      "neutral": "No CPO relevance today; investment case is the Skyworks deal, not the bottleneck thesis.",
+      "bear": "Zero co-packaged-optics leverage and deal-driven loss of standalone optionality argue for removal from actionable alpha."
+    }
+  ]
+}

@@ -1246,7 +1246,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated June 9, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated June 23, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"

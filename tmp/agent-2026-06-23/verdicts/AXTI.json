@@ -1,0 +1,31 @@
+{
+  "symbol": "AXTI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive since June 9: on June 11, 2026 AXT subsidiary Beijing Tongmei signed a binding long-term InP wafer supply agreement with Nanjing Casela for a fixed quantity through 2027 totaling RMB173M (~$25.4M), with monthly deliveries — directly validating AI/CPO indium-phosphide substrate demand. Offsetting: revenue remains gated by Chinese export permits (a Q4-2025 permit drought erased a quarter), and the prior +377% YTD ran into CEO-distribution/InP-skepticism flush at the Needham conference.",
+  "sources": [
+    {
+      "label": "AXT subsidiary InP long-term supply deal (Jun 11)",
+      "url": "https://www.tipranks.com/news/company-announcements/axt-subsidiary-signs-long-term-indium-phosphide-supply-deal"
+    },
+    {
+      "label": "AXT 8-K material event",
+      "url": "https://www.stocktitan.net/sec-filings/AXTI/8-k-axt-inc-reports-material-event-82b4d70264d6.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 33,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.5,
+      "rankRationale": "New June 11 binding InP supply deal (~$25.4M through 2027) is fresh validation of the CPO/optical-substrate bottleneck thesis, a genuine fundamental positive on this high-priority alpha screen. Tempered upgrade only: revenue is still gated by Chinese export permits and the name already ran +377% YTD.",
+      "bull": "Binding 2027 InP supply contract confirms AI-datacenter substrate demand; 6-inch InP capacity expanding.",
+      "neutral": "Demand strong but revenue hostage to China export-permit timing; valuation rich after huge run.",
+      "bear": "Export-permit drought can erase a quarter; +377% YTD, CEO distribution, single-bundle validation risk.",
+      "primaryCatalyst": "InP substrate demand for AI optical/CPO links",
+      "primaryRisk": "Chinese export-permit gating of revenue"
+    }
+  ]
+}

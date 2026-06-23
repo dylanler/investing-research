@@ -1,0 +1,47 @@
+{
+  "symbol": "AALB.AS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9; Aalberts has not issued an update since its FY2025 results cycle and next reports H1 in late summer. The hydronic flow-control / thermal-and-water data-center cooling thesis is unchanged, and the +3.7% move since June 9 is sympathy with the broader DC-cooling/electrification bid rather than a name-specific catalyst.",
+  "sources": [
+    {
+      "label": "TradingView: Aalberts joins AEX June 22; buyback to date",
+      "url": "https://www.tradingview.com/news/tradingview:117b0d818cd98:0-key-facts-aalberts-joins-aex-june-22-35-96m-buyback-to-date/"
+    },
+    {
+      "label": "Simply Wall St: Aalberts overview",
+      "url": "https://simplywall.st/stocks/nl/capital-goods/ams-aalb/aalberts-shares"
+    },
+    {
+      "label": "Aalberts IPS data centers",
+      "url": "https://aalberts-ips.us/vertical-markets/data-centers/"
+    },
+    {
+      "label": "Aalberts NV quote/profile (ChartMill)",
+      "url": "https://www.chartmill.com/stock/quote/AALB.AS/profile"
+    },
+    {
+      "label": "Aalberts data-centre piping (IPS)",
+      "url": "https://aalberts-ips.com/vertical/datacentres/"
+    },
+    {
+      "label": "Yahoo Finance AALB.AS",
+      "url": "https://finance.yahoo.com/quote/AALB.AS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Hold. No fundamental change since June 9 on the thermal/water hidden-bottleneck lens; AEX index inclusion (June 22) is a passive-flow event, not new alpha. Hydronic/data-centre cooling exposure intact but indirect; +3.7% drift is noise.",
+      "bull": "Hydronic flow control and thermal/surface tech indirectly levered to data-centre liquid cooling at a non-AI multiple; margins expanding.",
+      "neutral": "Diversified industrial; AI exposure real but small and indirect. Index inclusion does not change the thesis.",
+      "bear": "Cyclical residential/construction drag; AI-cooling link is thin and speculative for a core bottleneck case.",
+      "primaryCatalyst": "Data-centre hydronic/thermal demand pull-through",
+      "primaryRisk": "Cyclical construction/industrial softness"
+    }
+  ]
+}

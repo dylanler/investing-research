@@ -1,0 +1,35 @@
+{
+  "symbol": "WCC",
+  "company": "WESCO International",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive momentum: management raised FY2026 guidance (rev ~$24.9-25.6B, EBITDA ~$1.72B, ~20% EPS-growth target) citing strong data-center demand. On June 8, 2026 WESCO agreed to acquire Newark Engineering Group (Singapore), expanding data-center cooling and lifecycle services (closing Q3'26). Also a well-subscribed $1.5B bond sale; CFO David Schulz retired May 31 (succession underway).",
+  "sources": [
+    {
+      "label": "WCC raises 2026 guidance on data-center demand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-wesco-international-wcc-19-032421229.html"
+    },
+    {
+      "label": "WESCO to acquire Newark Engineering Group (Jun 8)",
+      "url": "https://www.prnewswire.com/news-releases/wesco-enters-into-definitive-agreement-to-acquire-newark-engineering-group-expanding-data-center-cooling-and-lifecycle-services-302794377.html"
+    },
+    {
+      "label": "WCC $1.5B bond sale / DC momentum",
+      "url": "https://finance.yahoo.com/news/assessing-wesco-international-wcc-valuation-050925322.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.76,
+      "rankRationale": "Latent-node lens: raised FY26 guide on data-center demand plus the June 8 Newark Engineering buy (DC cooling/lifecycle) directly strengthen the data-center electrical/distribution pathway. Quiet beneficiary thesis materially confirmed; move up.",
+      "bull": "Raised FY26 guide + Newark DC-cooling acquisition make WESCO a confirmed, scaling beneficiary of data-center electrical and grid buildouts.",
+      "neutral": "Strong DC demand and M&A offset by leverage and large scale that make it a later-stage, less-hidden play.",
+      "bear": "$17.5B cap and leverage (incl. $1.5B bond) limit the 'early/under-owned' angle; CFO transition adds execution noise.",
+      "primaryCatalyst": "Data-center electrical demand + Newark DC-cooling acquisition (Q3 close)",
+      "primaryRisk": "Leverage and scale dilute the latent/early-stage edge"
+    }
+  ]
+}

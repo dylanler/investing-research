@@ -1,0 +1,35 @@
+{
+  "symbol": "POET",
+  "company": "POET Technologies",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental company-specific news since June 9. The two binary events remain on the calendar: the June 26 redomicile/reincorporation shareholder vote (removes PFIC overhang, key catalyst) and the June 29 securities class-action lead-plaintiff deadline (overhang/risk). Q1 revenue was $0.50M with a $12.3M net loss; the ~$400M AI data-center production expansion plan is ongoing.",
+  "sources": [
+    {
+      "label": "POET US redomicile / PFIC clarity (StockTitan)",
+      "url": "https://www.stocktitan.net/news/POET/poet-technologies-provides-clarity-on-its-passive-foreign-investment-t41u8r8vgebh.html"
+    },
+    {
+      "label": "POET June crucible: redomicile vote and class action",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/poet-technologies-june-s-tightrope-between-a-shareholder-vote-and-a/69498017"
+    },
+    {
+      "label": "POET 6-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437424/000117184326002462/exh_991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.45,
+      "rankRationale": "On the CPO asymmetry lens, no new fundamental damage since June 9; the optionality thesis is intact into the June 26 redomicile vote (removes PFIC overhang, could unlock US institutional demand). Slight positive drift for catalyst proximity, but June 29 class-action deadline caps conviction. Hold at 11.",
+      "bull": "June 26 redomicile vote strips PFIC overhang; pure-play optical interposer/CPO optionality with very high upside if 800G engines scale.",
+      "neutral": "Pre-scale revenue (~$0.5M Q1); binary event-driven name where the vote and litigation define near-term path.",
+      "bear": "June 29 class-action lead-plaintiff deadline, customer/order uncertainty (Celestial/Marvell fallout) and disclosure risk; deep losses.",
+      "primaryCatalyst": "June 26 redomicile vote and ~$400M AI data-center capacity expansion.",
+      "primaryRisk": "Securities class action and pre-scale execution/order uncertainty."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "MELE.BR",
+  "company": "Melexis",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Melexis showcased ePowertrain sensing and protection ICs at PCIM 2026 (June 9-11, Nuremberg), routine product marketing rather than a guidance, contract or M&A event. No earnings or guidance change in the window.",
+  "sources": [
+    {
+      "label": "Melexis at PCIM 2026 (Auto-Innovations)",
+      "url": "https://www.auto-innovations.net/news/110444-power-electronics-sensing-advances-at-pcim-2026"
+    },
+    {
+      "label": "Melexis NV (MELE.BR) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MELE.BR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent-AI-nodes screen: thesis explicitly stops short of AI accelerators. Only event is a routine PCIM 2026 sensor showcase, no fundamental shift. Prior case already reconciled the rank down; moving again is churn.",
+      "bull": "Automotive magnetic/current sensing content rises with EV/ADAS; ICs could be repurposed for power/thermal sensing.",
+      "neutral": "Real sensor franchise but pathway to AI compute is indirect; no catalyst in window.",
+      "bear": "Not an AI-accelerator node; +38% YTD on auto recovery, not AI demand, on a strict latent screen.",
+      "primaryCatalyst": "EV content-per-vehicle growth and power/thermal sensing repurposing",
+      "primaryRisk": "Automotive cyclicality; no genuine AI-compute exposure"
+    }
+  ]
+}

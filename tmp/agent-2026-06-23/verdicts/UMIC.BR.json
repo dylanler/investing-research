@@ -1,0 +1,31 @@
+{
+  "symbol": "UMIC.BR",
+  "company": "Umicore",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The ~€1B adjusted-EBITDA 2026 guidance raise was announced April 30 (Q1 trading update) and predates June 9; the closed-loop battery recycling push is an ongoing strategic theme, not a new disclosure. Recent filings are passive-holder threshold notices.",
+  "sources": [
+    {
+      "label": "Umicore raises FY profit guidance (Investing.com)",
+      "url": "https://www.investing.com/news/earnings/umicore-shares-surge-after-company-raises-fullyear-profit-guidance-4655103"
+    },
+    {
+      "label": "Umicore Q1 2026 strong start (Umicore newsroom)",
+      "url": "https://www.umicore.com/en/media/newsroom/strong-start-of-the-year-sets-umicore-up-for-solid-2026-performance/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node screen: no fresh evidence since June 9 for the AI-power/metal-circularity pathway (guidance raise was April 30; recycling push is ongoing strategy). Battery materials remain a latent, non-AI-hardware tie. Hold on the strict screen.",
+      "bull": "Closed-loop recycling and specialty metals could become relevant to backup-power/metal-circularity in an AI-power buildout; ~€1B EBITDA target.",
+      "neutral": "Quality materials franchise but only a latent, indirect AI connection; no new catalyst.",
+      "bear": "Cooling battery/EV segment and metal-price dependence; AI-supply relevance remains speculative.",
+      "primaryCatalyst": "Metal circularity/backup-power demand from AI-infrastructure buildout (latent).",
+      "primaryRisk": "Soft EV/battery demand and metal-price swings; tenuous AI linkage."
+    }
+  ]
+}

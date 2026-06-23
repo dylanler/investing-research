@@ -1,0 +1,48 @@
+{
+  "symbol": "TSEM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Two material in-window catalysts. On June 15 Tower and IQE signed a multi-year Indium-Phosphide (InP) epiwafer supply deal for Tower's advanced silicon-photonics platforms and settled all IP disputes (worldwide porous-silicon license), securing supply for 200G/lane pluggables, 400G/lane modulators and optical-circuit-switch applications. On June 18 Tower and Marvell announced shipping over 5M coherent photonic ICs for AI data-center interconnect. These hard-wire Tower deeper into the AI optical supply chain and largely explain the +25% move.",
+  "sources": [
+    {
+      "label": "IQE/Tower multi-year InP epiwafer deal (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311514/0/en/IQE-and-Tower-Semiconductor-Announce-Multi-year-InP-epiwafer-Supply-Agreement.html"
+    },
+    {
+      "label": "Tower & Marvell ship 5M coherent PICs (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3313991/0/en/tower-semiconductor-and-marvell-ship-over-five-million-coherent-photonic-ics.html"
+    },
+    {
+      "label": "TSEM up after photonics deal & IP settlement (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-tsem/tower-semiconductor/news/tower-semiconductor-tsem-is-up-91-after-major-ai-photonics-d"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 24,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.8,
+      "rankRationale": "AI-node tollgate lens strengthens materially: InP epiwafer supply secured (IQE) plus 5M coherent-PIC volume shipped with Marvell for AI DCI validate Tower as a real optical-connectivity manufacturing node, on top of $1.3B 2027 contracted SiPho revenue and $290M prepayments. Fundamental step-up, move up.",
+      "bull": "Locked InP supply + proven 5M-unit coherent-PIC volume + $1.3B contracted 2027 revenue make Tower a hard-wired AI optical-interconnect tollgate.",
+      "neutral": "Specialty foundry leveraged to SiPho ramp; execution and capacity timing matter, but the AI-DCI demand is now demonstrably real.",
+      "bear": "+135% YTD prices in much of the SiPho story; specialty-foundry cyclicality and customer concentration (Marvell) remain risks.",
+      "primaryCatalyst": "SiPho/coherent-PIC volume ramp and conversion of $1.3B contracted 2027 revenue.",
+      "primaryRisk": "Specialty-foundry cycle, customer concentration, and a stretched valuation if photonics ramp slips."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "CPO/crowding lens: the IQE deal and 5M-PIC milestone deepen the SiPho franchise, but the photonics story is already widely discovered (PT doublings, ATHs, +25% pop), compressing residual alpha. Genuine fundamental improvement nets to a hold with positive drift rather than a rank chase.",
+      "bull": "Confirmed coherent-PIC volume and secured InP supply make Tower a credible co-packaged/optics manufacturing play with durable demand.",
+      "neutral": "Strong fundamentals, but the SiPho narrative is consensus now; alpha is in execution, not discovery.",
+      "bear": "Crowded, fully-discovered name after a 135% YTD run; limited residual edge on a crowding-sensitive lens.",
+      "primaryCatalyst": "Margin/mix uplift as high-value coherent-PIC and 400G modulator volume scales.",
+      "primaryRisk": "Crowding/valuation; alpha already harvested by the broad market."
+    }
+  ]
+}

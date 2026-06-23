@@ -1,0 +1,35 @@
+{
+  "symbol": "KGX.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No major new company-specific catalyst inside the June 9-23 window. The 35% ZIKOO Robotics equity stake and AI Smart Warehouse launch were announced with Q1 results on April 30 (pre-window). The only fresh item is Dematic's Pouch System launch in mid-June, an incremental product unveil rather than a financial event. The physical-AI intralogistics thesis remains intact.",
+  "sources": [
+    {
+      "label": "KION invests in ZIKOO Robotics (KION)",
+      "url": "https://www.kiongroup.com/en/News-Stories/KION-Stories/Automation/Article/KION-invests-in-ZIKOO-to-drive-AI-Warehouse-Automation.html"
+    },
+    {
+      "label": "Dematic Pouch System launch",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/new-automation-twist-dematic-pouch-system-targets-fashion-and-e-commerce/69548543"
+    },
+    {
+      "label": "KION Q1 2026 press release",
+      "url": "https://www.kiongroup.com/KION-Website-Main/Investor-Relations/Reports-Presentations/2026-Reports-Presentations/Q1-2026/3004_KION-GROUP-AG_Press-Release_Q1-2026.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply-chain lens: ZIKOO stake/AI Smart Warehouse pre-date the window; Dematic Pouch System is incremental. Physical-AI intralogistics build-out intact at a fresh low, marginally improving latent-node asymmetry. No new financial event -> hold.",
+      "primaryCatalyst": "Warehouse-automation/physical-AI build-out (ZIKOO ecosystem, Dematic)",
+      "primaryRisk": "European industrial/auto demand softness; project-business margin execution",
+      "bull": "Under-owned intralogistics play levered to physical-AI logistics; automation order book and ZIKOO ecosystem broaden the robotics angle.",
+      "neutral": "On-thesis but cyclical; no new window catalyst, the latent-node case rests on a multi-year automation ramp.",
+      "bear": "-41% YTD reflects weak EU/auto capex; intralogistics project margins and demand visibility remain shaky."
+    }
+  ]
+}

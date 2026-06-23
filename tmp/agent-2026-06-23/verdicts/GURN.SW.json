@@ -1,0 +1,31 @@
+{
+  "symbol": "GURN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 net sales (+25.1% cc, strong Wind Materials and Manufacturing Solutions) were reported in April; next results expected ~August 26. Only a +0.9% drift in the window.",
+  "sources": [
+    {
+      "label": "CompositesWorld - Gurit Q1 2026 +25% net sales",
+      "url": "https://www.compositesworld.com/news/gurit-reports-25-increase-in-q1-2026-net-sales-from-continued-operations"
+    },
+    {
+      "label": "StockAnalysis - Gurit Holding (SWX:GURN)",
+      "url": "https://stockanalysis.com/quote/swx/GURN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Strict latent lens: no new evidence since June 9; Q1 predates window, +0.9% drift. The +185% YTD rerating is wind-driven, with the AI composites/enclosure pathway still speculative. Nothing justifies moving on a strict list.",
+      "bull": "Composites know-how could feed lightweight enclosures/advanced-manufacturing cells; strong wind-driven momentum funds the optionality.",
+      "neutral": "Earnings rerating is real but wind-led; the AI-supply-chain angle is unproven and tangential.",
+      "bear": "AI-node linkage is purely qualitative on a +185% YTD micro-cap; no quote snapshot and a thin strict-list fit.",
+      "primaryCatalyst": "Composite/advanced-manufacturing adoption adjacent to AI hardware build-out.",
+      "primaryRisk": "Speculative AI thesis; micro-cap liquidity and wind-cycle concentration."
+    }
+  ]
+}

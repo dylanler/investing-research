@@ -1,0 +1,48 @@
+{
+  "symbol": "SMCI",
+  "company": "Super Micro Computer",
+  "caseDate": "2026-06-23",
+  "newsSince": "Materially negative. On June 9-10 SMCI launched a ~$7.0B dilutive equity/equity-linked financing to fund components for ~$39B of AI-server orders that are explicitly non-binding and cancellable. Goldman reiterated Sell and cut its PT to $26, flagging 27% single-customer concentration (~39% YTD) and eroding margins. The March DOJ export-control indictment of three associated individuals remains an overhang. Stock -16.4% since June 9.",
+  "sources": [
+    {
+      "label": "SMCI $7B raise funds $39B AI-server bet (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318176/20260610/super-micro-7-billion-equity-raise-smci-stock-sinks-dilution-funds-39-billion-ai-server-bet.htm"
+    },
+    {
+      "label": "Goldman Sell, $26 PT, concentration warning (Barchart)",
+      "url": "https://www.barchart.com/story/news/37026446/as-goldman-sachs-issues-a-warning-on-super-micro-computer-stock-should-you-risk-buying-the-dip"
+    },
+    {
+      "label": "DOJ export-control indictment context (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-smci/super-micro-computer/news/why-super-micro-computer-smci-is-down-64-after-doj-export-co/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 89,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.8,
+      "rankRationale": "On a passives/power-bottleneck lens SMCI was already peripheral, and the $7B dilutive raise plus cancellable $39B order book and Goldman's 27%-customer concentration warning directly attack the 'tight-supply, central-node' claim. Residual alpha vs passives names worsens.",
+      "bull": "$39B order pipeline signals real AI-server demand if it converts.",
+      "neutral": "Integrator margins thin; not a true passives/power bottleneck holder.",
+      "bear": "Dilution, cancellable orders, customer concentration, DOJ overhang compound.",
+      "primaryCatalyst": "Order book converting to firm, funded revenue",
+      "primaryRisk": "Single-customer cancellation stranding shortage-priced components"
+    },
+    {
+      "page": "companies",
+      "currentRank": 54,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.82,
+      "rankRationale": "This page's thesis says 'watch AI server platforms execution and pricing' and execution broke again: dilutive $7B raise, Goldman Sell to $26 on 27% concentration and margin erosion, non-binding $39B orders, DOJ overhang. New negative evidence justifies stepping down on the under-owned-bottleneck master list.",
+      "bull": "Cheaper post-selloff; scaled deployment exposure if demand holds.",
+      "neutral": "Commoditized integrator; pricing power and margins remain the swing factor.",
+      "bear": "Dilution plus concentration plus governance/export overhang erodes the bottleneck case.",
+      "primaryCatalyst": "Margin stabilization and firm-order conversion",
+      "primaryRisk": "Gross-margin erosion and order cancellation"
+    }
+  ]
+}

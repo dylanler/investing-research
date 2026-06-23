@@ -1,0 +1,57 @@
+{
+  "symbol": "CIEN",
+  "company": "Ciena",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific news since June 9. The material event - FQ2 2026 (rev $1.57B +40% YoY, EPS $1.64 vs $1.40 est, backlog +$600M seq to $7.7B, FY26 guide raised to $6.3B, first hyperscaler multi-rail/Hyper-Rail award) - was reported June 3 and is already captured in the June 9 prior cases. The +3.6% move since June 9 is flow/recovery from the post-print flush.",
+  "sources": [
+    {
+      "label": "Ciena FQ2 2026 results (BusinessWire, June 3)",
+      "url": "https://www.businesswire.com/news/home/20260603804542/en/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results"
+    },
+    {
+      "label": "Ciena FQ2 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha vs passives: the asymmetry-restoring flush and improved fundamentals (record $7.7B backlog, raised FY guide) were already actioned in the June 9 'up' move. Nothing new since; the recovery bounce partly closes that gap. Ciena stays peripheral to the passive/power stack. Hold.",
+      "bull": "Record backlog, raised FY26 to $6.3B, first hyperscaler multi-rail award; supply lagging demand.",
+      "neutral": "Strong AI-optical backbone story but peripheral to the passives/power bottleneck this page rewards.",
+      "bear": "Now full consensus AI-optical; +85% YTD, crowding-sensitive page penalizes the re-rating.",
+      "primaryCatalyst": "800G/1.6T transport + hyperscaler multi-rail rollout (2027)",
+      "primaryRisk": "Crowded consensus AI-optical name; valuation"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent lens: FQ2 made Ciena maximally non-latent (cloud ~46% of rev, full-consensus AI-optical story). No new info since June 9; the bounce does not re-hide the node. Small positive drift already reflected. Hold near list bottom.",
+      "bull": "AI-era optical transport is core; backlog and guide raise validate demand durability.",
+      "neutral": "Obvious optical thesis - no longer a hidden node, but fundamentally healthy.",
+      "bear": "Fully discovered; cloud concentration and rerating remove the latency this page seeks.",
+      "primaryCatalyst": "Cloud interconnect / 1.6T transport adoption",
+      "primaryRisk": "Thesis fully consensus; no latent edge left"
+    },
+    {
+      "page": "companies",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Under-owned-bottleneck master list: bottleneck evidence (record backlog, supply lagging demand, $6.3B guide, first hyperscaler multi-rail) was strong and already drove the June 9 'up' call. No new fundamentals since; recovery bounce partly executes the prior thesis. Hold.",
+      "bull": "Scale-out bandwidth/optics leader; record backlog and multi-rail award extend visibility into 2027.",
+      "neutral": "Genuine bandwidth bottleneck exposure but already a well-followed name.",
+      "bear": "+85% YTD rerating; networking pricing/execution and concentration risk.",
+      "primaryCatalyst": "Hyperscaler optical/multi-rail buildout",
+      "primaryRisk": "Re-rating + execution/pricing in optical transport"
+    }
+  ]
+}

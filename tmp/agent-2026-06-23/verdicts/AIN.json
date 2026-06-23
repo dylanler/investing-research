@@ -1,0 +1,31 @@
+{
+  "symbol": "AIN",
+  "company": "Albany International",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 beat (rev +7.8% YoY) and Q2 guidance (rev $335-345M, EPS $0.70-0.80) were issued late April/early May, ahead of the window. Defense/missile and LEAP composites momentum is real but pre-existing, and none of it connects engineered fabrics/composites to AI infrastructure.",
+  "sources": [
+    {
+      "label": "Albany Q2 2026 guidance (MarketBeat)",
+      "url": "https://www.marketbeat.com/instant-alerts/albany-international-nyseain-releases-q2-2026-earnings-guidance-2026-04-30/"
+    },
+    {
+      "label": "Albany Q1 2026 results (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/albany-international-q1-2026-slides-revenue-surges-8-as-margins-compress-93CH-4649849"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Latent under-covered AI supply-chain lens. The +35% YTD is aerospace/defense (LEAP, missiles)-driven, not AI infrastructure; no new evidence linking fabrics/composites to AI nodes. Residual latent-AI alpha quietly erodes. Hold with small negative drift.",
+      "bull": "Advanced composites/engineered fabrics could feed lightweight structures, filtration and thermal media for data-center/AI hardware buildouts.",
+      "neutral": "Strong fundamentals but the growth driver is aerospace/defense, leaving the AI-node pathway speculative.",
+      "bear": "No demonstrated AI-infrastructure revenue; latent thesis is a stretch and YTD re-rating has accrued elsewhere.",
+      "primaryCatalyst": "A concrete design win tying composites/filtration media to AI data-center or hardware supply.",
+      "primaryRisk": "Thesis remains aerospace/defense beta with no AI catalyst, eroding its place on a strict latent-AI list."
+    }
+  ]
+}

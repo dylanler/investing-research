@@ -1,0 +1,44 @@
+{
+  "symbol": "DPLM.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The strong H1 results (revenue +17% to GBP851m, adj operating profit +33%, Controls organic +26%) and the FY26 guidance upgrade (~12% organic, ~25% margin) were published May 19, 2026 and were already reflected in the June 9 prior case.",
+  "sources": [
+    {
+      "label": "Diploma Upgrades FY26 Guidance After Strong H1 Trading (DirectorsTalk)",
+      "url": "https://www.directorstalkinterviews.com/diploma-upgrades-fy26-guidance-after-strong-h1-trading/4121245161"
+    },
+    {
+      "label": "Diploma PLC Half Year Results (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/diploma--dplm/half-year-results-/9574224"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent under-covered AI supply-chain lens: Windy City Wire / Controls give real data-center distribution exposure, and Controls +26% organic supports it - but that H1 print (May 19) predates June 9 and was already in the prior case. No new evidence since; high-quality-compounder valuation still caps alpha. Hold.",
+      "bull": "Controls +26% organic and FY26 upgrade show data-center/low-voltage wiring demand; serial M&A compounder with strong cash conversion.",
+      "neutral": "Real but indirect data-center exposure inside a diversified distributor; premium rating limits residual alpha on this latent screen.",
+      "bear": "Rich compounder multiple (~30x+) leaves little under-coverage edge; Seals/Life Sciences organic still soft at +2%/+4%.",
+      "primaryCatalyst": "Continued North America data-center distribution and Controls organic growth",
+      "primaryRisk": "Premium valuation de-rating; soft Seals/Life Sciences segments"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict screen (aggregating hard-to-source seals/fluid-control + low-voltage wiring): pathway unchanged since June 9. H1 strength is pre-June 9 and already priced. No new AI-chain-specific evidence on the speculative aggregation route, so the strict-pathway score stands. Hold.",
+      "bull": "Seals + controls + wiring breadth could aggregate hard-to-source fluid-control / cabling components for AI infrastructure builds.",
+      "neutral": "Aggregation thesis is qualitative; no order-flow evidence tying Diploma directly to AI-node supply.",
+      "bear": "Premium multiple plus diversified end-markets dilute any strict AI-bottleneck purity; thesis remains speculative.",
+      "primaryCatalyst": "Specialist M&A extending fluid-control / wiring breadth",
+      "primaryRisk": "Thesis stays speculative with no AI-specific order evidence"
+    }
+  ]
+}

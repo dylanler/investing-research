@@ -1,0 +1,57 @@
+{
+  "symbol": "CLS",
+  "company": "Celestica",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific news since June 9. The catalysts - AMD Helios rack-scale collaboration, hyperscaler CPO 1.6T switch program (April 27, ramps 2027), DS6000 1.6TbE switch (OCP EMEA, May 13), and the raised FY26 outlook (~$19B rev, $10.15 EPS) - all predate the window and were captured in prior cases. The -4.79% move since June 9 is flow-driven (continued drawdown off the early-June peak), thesis intact.",
+  "sources": [
+    {
+      "label": "Celestica + AMD Helios collaboration (StockTitan)",
+      "url": "https://www.stocktitan.net/news/CLS/celestica-and-amd-announce-collaboration-to-advance-the-next-era-of-5lphkt3jzj74.html"
+    },
+    {
+      "label": "Celestica Q1 2026 results / CPO switch program (GlobeNewswire, Apr 27)",
+      "url": "https://www.globenewswire.com/news-release/2026/04/27/3282031/0/en/celestica-announces-first-quarter-2026-financial-results.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Residual-alpha lens: the ~24% drawdown with Helios/1.6T thesis intact already drove the June 9 move up from the bottom. No new news since; continued flow-driven softness keeps asymmetry modestly improved but no fundamental change. Hold.",
+      "bull": "Helios rack-scale (AMD), CPO 1.6T switch program ramping 2027; drawdown restores some asymmetry.",
+      "neutral": "Direct AI-server node but a crowded, rerated benchmark on this page.",
+      "bear": "+17% YTD off a sharp run; thesis fully discovered, Broadcom/customer-concentration overhang.",
+      "primaryCatalyst": "Helios/CPO 1.6T switch production ramp (2027)",
+      "primaryRisk": "Customer concentration; crowded direct-AI trade"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent lens: Celestica is precisely a discovered AI-server trade, hence its bottom-of-list rank and prior 'down'. No new info since June 9; drawdown does not re-hide it. Hold at the bottom; strong fundamentals already public.",
+      "bull": "Connectivity & Cloud ~80% of rev growing ~76% YoY; Helios/CPO programs extend runway.",
+      "neutral": "Strong AI server exposure that the market already fully recognizes.",
+      "bear": "Discovered trade; near list bottom on adjusted score, low latency/alpha residual.",
+      "primaryCatalyst": "Hyperscaler/AMD program ramps; margin expansion",
+      "primaryRisk": "Fully discovered; mix and concentration risk"
+    },
+    {
+      "page": "companies",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Master bottleneck list: YTD rerating largely unwound (~24% off the June 2 peak) on flows, not fundamentals - already actioned via the June 9 'up'. No new news since June 9; deployment/systems-integration thesis and raised FY26 guide intact. Hold.",
+      "bull": "Physical-deployment/systems-integration leader; FY26 raised to ~$19B rev, $10.15 EPS.",
+      "neutral": "Solid AI-infra manufacturing franchise after a flow-driven reset.",
+      "bear": "Low-margin EMS model; hyperscaler concentration; volatile sentiment.",
+      "primaryCatalyst": "AI rack/networking program ramps + margin expansion",
+      "primaryRisk": "Customer concentration; EMS margin profile"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "GRC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 results (revenue $176.6M +7.7%, record net income $17.8M) were reported in late April and predate the window; next earnings ~late July. The +7.8% move has no identifiable June catalyst.",
+  "sources": [
+    {
+      "label": "StockTitan - Gorman-Rupp Q1 record net income",
+      "url": "https://www.stocktitan.net/news/GRC/gorman-rupp-reports-first-quarter-2026-financial-me1wrufwn0im.html"
+    },
+    {
+      "label": "StockStory - Gorman-Rupp Q1 earnings recap",
+      "url": "https://stockstory.org/us/stocks/nyse/grc/news/earnings/q1-earnings-recap-gorman-rupp-nysegrc-tops-gas-and-liquid-handling-stocks"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered lens: no new evidence since June 9 on the water/cooling-pump-into-data-center pathway. Q1 beat predates window; +7.8% is catalyst-free drift. Speculative thesis intact but unproven, hold.",
+      "bull": "Pumping for cooling/water-handling is a quiet latent data-center infrastructure beneficiary if liquid-cooling adoption scales.",
+      "neutral": "Solid traditional industrial with record Q1, but data-center exposure remains speculative and unquantified.",
+      "bear": "Core demand is municipal/industrial; AI-cooling linkage is a narrative, not a disclosed revenue driver, after a +82% YTD run.",
+      "primaryCatalyst": "Liquid-cooling/data-center water-handling adoption and margin recovery.",
+      "primaryRisk": "Speculative AI linkage; municipal-cycle dependence and valuation."
+    }
+  ]
+}

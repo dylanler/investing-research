@@ -1,0 +1,44 @@
+{
+  "symbol": "AOSL",
+  "company": "Alpha & Omega Semiconductor",
+  "caseDate": "2026-06-23",
+  "newsSince": "Showcased AI/data-center power-management solutions at PCIM Expo (June 1). Latest print (fiscal Q3 FY26) was a small GAAP net loss with revenue roughly flat; Q4 guide ~$168M assumes a return to sequential growth and margin expansion. Management is upbeat on advanced-computing/inference power but flagged limited H2 CY26 PC visibility from seasonality and memory shortages. No fresh catalyst since June 9.",
+  "sources": [
+    {
+      "label": "AOSL Q3 FY26 results / Q4 guide (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/AOSL/8-k-alpha-omega-semiconductor-ltd-reports-material-event-0e4b53b9195e.html"
+    },
+    {
+      "label": "AOSL power-management solutions at PCIM 2026",
+      "url": "https://www.gurufocus.com/news/8893431/alpha-and-omega-semiconductor-aosl-showcases-advanced-power-management-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "On a node-bottleneck list AOSL is analog/power, indirect to HBM/CPO/packaging/test. Advanced-computing power tailwind is offset by H2 PC visibility caution and a Q3 net loss; no fresh evidence since prior case. Hold at zero on node centrality after a +122% YTD.",
+      "bull": "AI/data-center power demand and inference-driven higher power needs support content growth.",
+      "neutral": "Power semis are adjacent to, not central to, the AI-node bottleneck.",
+      "bear": "Q3 net loss, thin margins and weak H2 PC visibility cap the case after +122% YTD.",
+      "primaryCatalyst": "Data-center/inference power content",
+      "primaryRisk": "PC seasonality and memory-shortage demand drag"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "On the test-time-scaling lens AOSL fits as power semis / power management for compute. Inference-driven higher power requirements are supportive, but the Q3 loss and limited H2 CY26 visibility balance it; no material change since prior case, so hold.",
+      "bull": "Inference/test-time scaling raises rack power, favoring power-management content.",
+      "neutral": "Power-management fit is real but a commoditized, cyclical slice of the scaling theme.",
+      "bear": "Margins under pressure and demand visibility limited into H2 CY26.",
+      "primaryCatalyst": "Rising compute power density",
+      "primaryRisk": "Cyclical/PC exposure and margin pressure"
+    }
+  ]
+}

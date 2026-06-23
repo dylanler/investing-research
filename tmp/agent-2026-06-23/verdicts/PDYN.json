@@ -1,0 +1,35 @@
+{
+  "symbol": "PDYN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive catalysts since June 9. On June 8 Palladyne announced a partnership with Israel Aerospace Industries to manufacture/market HARPY-family loitering munitions in the US, and on June 17 it won two competitively selected U.S. Army contracts to develop and operationally validate SwarmOS and the Gremlin-X UAV under the Disruptive Applications BAA. Shares jumped ~16% and Northland raised its target to $15 from $10 (Outperform), shifting the story from demos to funded operational validation.",
+  "sources": [
+    {
+      "label": "Palladyne wins U.S. Army SwarmOS/Gremlin-X contracts (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260617353751/en/Palladyne-AI-Awarded-U.S.-Army-Contracts-for-SwarmOS-Autonomous-Swarm-Technology-and-Gremlin-X-Mini-Bomber-UAV-Under-Competitive-Disruptive-Applications-Program"
+    },
+    {
+      "label": "Palladyne-IAI loitering-munitions partnership (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260608494232/en/Palladyne-AI-and-IAI-Form-Partnership-to-Manufacture-and-Sell-Combat-Proven-Loitering-Munition-Systems-to-the-U.S.-Department-of-War"
+    },
+    {
+      "label": "Palladyne stock rises on Army contracts; Northland PT $15 (Benzinga)",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53246382/palladyne-ai-stock-rises-on-us-army-contracts-for-swarm-tech-and-mini-bomber-uav"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 14,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid/embodied-AI stack lens: prior case demoted PDYN for lacking commercialization. June 8 IAI partnership and June 17 dual U.S. Army SwarmOS/Gremlin-X awards convert the edge-autonomy thesis into funded operational validation; Northland PT to $15. Real fundamental upgrade for this defense-autonomy embodied-AI name.",
+      "bull": "Funded Army validation of SwarmOS + IAI munitions partnership move PDYN from concept to revenue path in edge autonomy; large training-exercise demos ahead.",
+      "neutral": "Contracts are early-stage R&D/validation, not large production orders yet; cash-burn small cap.",
+      "bear": "Tiny ~$0.33B cap, pre-scale revenue, program-timing and dilution risk; defense procurement slow to convert to recurring revenue.",
+      "primaryCatalyst": "U.S. Army SwarmOS/Gremlin-X validation and IAI loitering-munition partnership",
+      "primaryRisk": "Early-stage contracts; commercialization/funding timing and dilution"
+    }
+  ]
+}

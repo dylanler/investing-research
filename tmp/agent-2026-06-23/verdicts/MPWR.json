@@ -1,0 +1,74 @@
+{
+  "symbol": "MPWR",
+  "company": "Monolithic Power Systems",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental news since June 9. The Schall Law Firm fiduciary-duty investigation and the prior accounting-restatement/insider-selling context were already in the June 9 prior case; there has been no escalation, settlement or guidance change since. The ~-7% move since June 9 is governance/valuation-driven, not a thesis change.",
+  "sources": [
+    {
+      "label": "Schall Law Firm MPWR investigation (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/mpwr-investors-have-the-opportunity-to-join-investigation-of-monolithic-power-systems-inc-with-the-schall-law-firm-302793523.html"
+    },
+    {
+      "label": "Legal probe puts MPWR governance under review (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/legal-probe-puts-monolithic-power-171055111.html"
+    },
+    {
+      "label": "MPWR restatement & governance scrutiny (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mpwr/monolithic-power-systems/news/what-monolithic-power-systems-mpwrs-accounting-restatement-a"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Residual-alpha lens: governance overhang (Schall probe, restatement) persists but is not new since June 9. Crowded/rerated benchmark with maxed visibility; small negative drift for lingering governance risk, no second consecutive move.",
+      "bull": "High-current PDN around accelerators is a hard-to-substitute, direct-AI 2026 bottleneck.",
+      "neutral": "Thesis intact but crowded/rerated; governance noise without escalation.",
+      "bear": "Restatement + fiduciary probe + ~$380M peak insider selling cap residual alpha on a 52% YTD name.",
+      "primaryCatalyst": "Continued AI server power-density content gains",
+      "primaryRisk": "Governance/restatement litigation overhang at peak valuation"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "AI-node bottleneck lens cares about directness vs HBM/packaging/networking, which is unchanged. The Schall probe is governance noise that does not alter node-bottleneck directness; prior case already cut it on directness grounds.",
+      "bull": "Selective AI/edge/power exposure with real accelerator-adjacent content.",
+      "neutral": "Less direct than HBM, advanced packaging and AI-networking peers.",
+      "bear": "Power/analog tier sits a step removed from the core AI-node bottleneck.",
+      "primaryCatalyst": "Accelerator PDN content per socket",
+      "primaryRisk": "Lower directness than HBM/packaging leaders"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "CPO-specific lens: MPWR has low co-packaged-optics exposure, already demoted near the bottom. Governance headlines are consistent with that placement; no CPO-relevant change in window, little reason to move.",
+      "bull": "AI power-density beneficiary as optics modules raise board-level power needs.",
+      "neutral": "Indirect CPO read-through; mostly a power/analog play.",
+      "bear": "Minimal co-packaged-optics content; high valuation plus governance overhang.",
+      "primaryCatalyst": "Higher power delivery around CPO/optical line cards",
+      "primaryRisk": "Negligible direct CPO exposure"
+    },
+    {
+      "page": "companies",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Under-owned-bottleneck master list: board-level power & passives content thesis unchanged. Schall probe is incremental governance noise, not a thesis change; rerating already penalized. Hold.",
+      "bull": "AI server PDN, MLCC and inductor content compounds with accelerator ramps.",
+      "neutral": "Balanced bottleneck exposure vs already-rerated 52% YTD valuation.",
+      "bear": "Crowded rerating plus governance/restatement overhang limit scarce-alpha appeal.",
+      "primaryCatalyst": "Power-delivery content gains in AI servers",
+      "primaryRisk": "Valuation rerating and governance scrutiny"
+    }
+  ]
+}

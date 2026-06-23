@@ -1,0 +1,27 @@
+{
+  "symbol": "000990.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The continuing structural tailwind is Samsung/TSMC retreating from 200mm legacy capacity, which benefits DB HiTek's specialty 8-inch foundry, plus a planned SiC/GaN 200mm ramp in Q4 next year, but no new orders or guidance surfaced in the window.",
+  "sources": [
+    {
+      "label": "DB HiTek gains as Samsung/TSMC cut 8-inch",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202511110002"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "AI-node lens: DB HiTek is a specialty 200mm foundry tollgate, only indirectly tied to AI compute (power/display ICs). No fresh orders or node catalyst since June 9; legacy-retreat tailwind is structural but not AI-bottleneck-direct. After 105% YTD the mid-rank fits; hold with no fundamental change.",
+      "bull": "Beneficiary of Samsung/TSMC 8-inch retreat; SiC/GaN power ramp coming.",
+      "neutral": "Specialty foundry tollgate; only indirect AI-node exposure.",
+      "bear": "Not advanced-node/HBM/CPO direct; 105% YTD already prices the legacy squeeze.",
+      "primaryCatalyst": "Legacy 200mm supply tightening / SiC-GaN ramp",
+      "primaryRisk": "Analog-power cyclicality"
+    }
+  ]
+}

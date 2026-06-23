@@ -1,0 +1,44 @@
+{
+  "symbol": "WAF.DE",
+  "company": "Siltronic",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The relevant fundamental backdrop remains the Feb 12, 2026 FY26 guidance: sales mid-single-digit % below 2025 (EUR1,347M base), EBITDA margin 20-24%, EBIT significantly below prior year, with a subdued start and continued price pressure outside long-term agreements. 300mm end-markets grow while 200mm declines on power-segment destocking.",
+  "sources": [
+    {
+      "label": "Siltronic FY2026 guidance",
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-releases-its-guidance-for-financial-year-2026.html"
+    },
+    {
+      "label": "Simply Wall St: 2026 guidance valuation check",
+      "url": "https://simplywall.st/stocks/de/semiconductors/etr-waf/siltronic-shares/news/siltronic-xtrawaf-valuation-check-after-2026-guidance-for-lo"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node lens: 300mm wafers consumed by AI fab/HBM capacity remain relevant, but no new order-timing info since June 9 and FY26 guide stays soft (EBIT below prior, price pressure). Hold.",
+      "bull": "Leverage to AI-driven fab and HBM capacity additions; 300mm end-markets still growing.",
+      "neutral": "Structurally relevant wafer node but FY26 guide soft; recovery hinges on order timing.",
+      "bear": "Weak FY26 EBIT, price pressure ex-LTAs, FX drag and export-control risk cap near-term upside.",
+      "primaryCatalyst": "AI fab/HBM capacity additions lifting 300mm wafer orders",
+      "primaryRisk": "Pricing pressure / weak FY26 EBIT and export controls"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Test-time-scaling lens: upstream wafer-substrate supply is a genuine bottleneck, but no scaling-relevant news since June 9 and soft FY26 guidance persists. Prior down already captured the rerating; hold now.",
+      "bull": "Upstream wafer-substrate supply is a hard physical bottleneck under any scaling regime.",
+      "neutral": "Bottleneck intact but soft FY26 fundamentals; no fresh catalyst.",
+      "bear": "Weak EBIT, price pressure and cyclicality dim near-term scaling-bottleneck monetization.",
+      "primaryCatalyst": "Scaling-driven fab capacity tightening wafer supply",
+      "primaryRisk": "Soft FY26 guide and pricing pressure"
+    }
+  ]
+}

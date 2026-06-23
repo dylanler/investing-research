@@ -1,0 +1,31 @@
+{
+  "symbol": "CRL.MI",
+  "company": "CAREL Industries",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9, 2026. CAREL published its 2025 ESG Highlights (June 12) and a food-retail energy-efficiency white paper (June 19) - both immaterial to fundamentals. The data-center liquid-cooling controls (CDU/immersion, Redfish) thesis is intact but no new contract or guidance datapoint. Stock -1.7% since June 9.",
+  "sources": [
+    {
+      "label": "CAREL data center cooling direction (NaturalRefrigerants)",
+      "url": "https://naturalrefrigerants.com/news/part-1-after-decades-in-data-center-cooling-this-is-where-carel-sees-the-industry-headed-next/"
+    },
+    {
+      "label": "CAREL company site / news",
+      "url": "https://www.carel.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent-node lens fits CAREL well (still perceived as HVAC/refrigeration despite real datacenter liquid-cooling controls/CDU/immersion exposure). No material catalyst since June 9, so the high-conviction latent thesis is unchanged - hold at 8.",
+      "bull": "Under-recognized datacenter cooling-controls intelligence layer; CDU/immersion/Redfish products growing.",
+      "neutral": "Genuine but small-cap exposure; still mostly valued as HVAC/refrigeration automation.",
+      "bear": "Datacenter is a minority of mix; no fresh contract to confirm the latent re-rate.",
+      "primaryCatalyst": "Liquid-cooling/CDU controls adoption",
+      "primaryRisk": "Datacenter exposure stays minority of mix"
+    }
+  ]
+}

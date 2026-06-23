@@ -1,0 +1,48 @@
+{
+  "symbol": "HIMX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Q1 (reported May 8) was already in the prior case, but at/after COMPUTEX 2026 Himax disclosed fresh CPO and edge-AI traction: Gen1 CPO (1.6T/3.2T) now ready with small-quantity H2 2026 shipments and Gen2 (6.4T) nearing customer validation for AI data centers (with FOCI); a WiseEye smart-glasses design win with a 'leading brand' (MP later in 2026); and a T2000 ePaper timing-controller win in E Ink's 75-inch Kaleido platform. The -6.95% move is flow/de-crowding, not fundamental.",
+  "sources": [
+    {
+      "label": "Himax CPO collaboration with FOCI (QuiverQuant)",
+      "url": "https://www.quiverquant.com/news/Himax+Technologies,+Inc.+Reaffirms+Strategic+Collaboration+with+FOCI+Fiber+Optic+Communications+for+Co-Packaged+Optics+Development"
+    },
+    {
+      "label": "Himax Q1 2026 results / Q2 guidance (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/himax-technologies-inc-reports-first-102100700.html"
+    },
+    {
+      "label": "Himax Q1 earnings call highlights (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/HIMX/pressreleases/1821663/himax-technologies-q1-earnings-call-highlights/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 114,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "Through the co-packaged-optics lens, the prior 'low CPO exposure' dismissal is now somewhat stale: Gen1 CPO (1.6T/3.2T) is ready with H2 small-volume shipments and Gen2 (6.4T) is nearing AI-datacenter validation with FOCI. Modest up off rank 114; still indirect (silicon partner, not optics prime) so keep delta small.",
+      "bull": "Real CPO product roadmap (Gen1 shipping H2, Gen2 6.4T in validation) finally gives a direct datacenter-optics hook.",
+      "neutral": "CPO still small vs display core; partner role, revenue immaterial near-term.",
+      "bear": "Page thesis was 'low CPO exposure'; volumes unproven, display cycle dominates P&L.",
+      "primaryCatalyst": "Gen1 CPO small-quantity shipments H2 2026; Gen2 validation",
+      "primaryRisk": "CPO stays a minor partner line; display cyclicality"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the test-time-scaling/edge-AI lens, fundamentals firmed modestly: Q2 guide +10-13% q/q, WiseEye smart-glasses design win with a leading brand for H2 MP, and the E Ink T2000 win broaden non-driver edge-AI revenue. Constructive but incremental; hold rank 22 with a token positive delta.",
+      "bull": "WiseEye edge-AI design wins (smart glasses) plus automotive ramp drive H2 momentum.",
+      "neutral": "Edge-AI is a real but small slice of a display-heavy business.",
+      "bear": "Most upside is later-2026; display cycle and ASP pressure remain the swing factor.",
+      "primaryCatalyst": "Smart-glasses WiseEye MP and H2 automotive ramp",
+      "primaryRisk": "Display downcycle; edge-AI revenue stays immaterial near-term"
+    }
+  ]
+}

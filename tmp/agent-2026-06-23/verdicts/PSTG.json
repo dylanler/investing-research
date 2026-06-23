@@ -1,0 +1,44 @@
+{
+  "symbol": "PSTG",
+  "company": "Pure Storage",
+  "caseDate": "2026-06-23",
+  "newsSince": "Positive fundamental validation since the prior verdict. Pure Storage's Q3 FY26 beat (+16% YoY) exceeded its full-year 1-2 exabyte hyperscaler DirectFlash shipment plan, raised FY26 revenue guidance to ~$3.64B, and management signaled additional hyperscaler investments for FY27. The Meta co-engineering royalty stream carries near-100% margins.",
+  "sources": [
+    {
+      "label": "Pure Storage Q3 FY26 results +16% YoY, guidance raised (Futurum)",
+      "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/"
+    },
+    {
+      "label": "FY26 guide to $3.64B + FY27 hyperscaler investment (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4527900-pure-storage-raises-fy26-revenue-guidance-to-3_64b-and-signals-additional-hyperscaler"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 56,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.68,
+      "rankRationale": "Hyperscaler DirectFlash plan beaten, FY26 guide raised and FY27 hyperscaler investment signaled - the AI storage/data-path thesis is now validated, not speculative. With negative YTD, asymmetry on this crowding-sensitive list improves. Still farther from the passive/power core the page favors.",
+      "primaryCatalyst": "Hyperscaler DirectFlash wins + Meta near-100% margin royalties",
+      "primaryRisk": "Storage is adjacent, not core passive/power bottleneck",
+      "bull": "DirectFlash hyperscaler ramp beat plan; Meta royalty model lifts mix and margins, validating under-owned AI storage exposure.",
+      "neutral": "Solid execution but storage sits outside the page's passive/power bottleneck core.",
+      "bear": "Hyperscaler design wins are lumpy; product-revenue cyclicality and competition could compress the data-path thesis."
+    },
+    {
+      "page": "companies",
+      "currentRank": 52,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "On the under-owned-bottleneck master list, genuinely new hyperscaler/pricing data has arrived: Q3 beat, raised FY26 guide and FY27 hyperscaler signal advance the data-layer utilization thesis. Negative-YTD reset plus improving fundamentals support a step up.",
+      "primaryCatalyst": "Raised FY26 guidance + hyperscaler/agentic data-gravity ramp",
+      "primaryRisk": "Flash pricing and enterprise demand softness",
+      "bull": "Agentic data gravity plus hyperscaler DirectFlash wins make Pure a scarce data-layer bottleneck with improving margins.",
+      "neutral": "Execution on track; thesis advancing but storage still a competitive, capital-intensive layer.",
+      "bear": "Negative YTD reflects pricing/demand worries; hyperscaler revenue concentration adds volatility."
+    }
+  ]
+}

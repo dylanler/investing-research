@@ -64,7 +64,7 @@ export default function CurrentThesisAudit({
             textTransform: 'uppercase',
           }}
         >
-          Current Thesis Audit &middot; Updated June 9, 2026
+          Current Thesis Audit &middot; Updated June 23, 2026
         </div>
         <p
           style={{

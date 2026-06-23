@@ -1,0 +1,35 @@
+{
+  "symbol": "603986.SS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Memory supercycle is a genuine fundamental tailwind: DRAM contract prices up ~58-63% QoQ in Q2 2026 on top of a ~90-95% Q1 jump, with broad upswing across GigaDevice's DRAM, NOR Flash and SLC lines and strong 2026 DRAM procurement; HK shares hit new highs near/through HK$700 around June 9. But this is a memory-cycle re-rate, not optical/CPO exposure.",
+  "sources": [
+    {
+      "label": "GigaDevice 2026 DRAM procurement exceeds expectations (Futubull)",
+      "url": "https://news.futunn.com/en/post/71040807/gigadevice-603986-full-year-dram-procurement-volume-for-2026-exceeds"
+    },
+    {
+      "label": "DRAM price surge / memory shortage 2026 (TrendForce memory wall)",
+      "url": "https://www.trendforce.com/insights/memory-wall"
+    },
+    {
+      "label": "AI memory sold out, prices surge (CNBC)",
+      "url": "https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the co-packaged-optics lens GigaDevice is off-thesis with little optical-interconnect exposure, so the powerful DRAM/NOR memory-cycle tailwind (+58-63% QoQ DRAM) barely touches the CPO choke-point alpha. Real fundamental strength, wrong page; +172% YTD signals it is no longer hidden. Tiny up vs prior down, but stays near the bottom.",
+      "bull": "China memory localization plus a sold-out DRAM/HBM cycle lifts the whole memory franchise.",
+      "neutral": "Fundamentals improving but the CPO list rewards optical interconnect, which GigaDevice lacks.",
+      "bear": "171% YTD prices in the cycle; China memory glut/competition and a cyclical top are the asymmetric risks.",
+      "primaryCatalyst": "Sustained DRAM/NOR ASP increases and Changxin-linked capacity ramp",
+      "primaryRisk": "Memory cycle rollover after a parabolic run; no CPO relevance"
+    }
+  ]
+}

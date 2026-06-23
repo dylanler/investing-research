@@ -1,0 +1,31 @@
+{
+  "symbol": "TOM.OL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Around IFAT 2026 / PRSE, TOMRA unveiled an AI-native PolyPerception platform (raising its stake to a 51% majority) with new deep-learning GAINnext applications, and launched the AI-based FINDER metals-sorting system able to sort PCBs/E-scrap and recover non-ferrous metals. These make the 'sensor sorting recovers metals from accelerating hardware cycles' linkage more concrete, though still early. No 2026 guidance change.",
+  "sources": [
+    {
+      "label": "TOMRA launches AI-based FINDER",
+      "url": "https://www.tomra.com/waste-metal-recycling/media-center/news/2026/tomra-recycling-launches-the-new-finder"
+    },
+    {
+      "label": "TOMRA AI FINDER for metal recycling (AlCircle)",
+      "url": "https://www.alcircle.com/news/tomra-introduces-ai-based-finder-for-advanced-metal-recycling-operations-118153"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 83,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.5,
+      "rankRationale": "The AI-native PolyPerception majority stake and new AI FINDER (PCB/E-scrap and non-ferrous recovery) make the previously 'speculative and unproven' AI-chain linkage more concrete, marginally improving the strict-screen case vs June 9. Mild positive only; still a circular-economy story, not a core compute bottleneck.",
+      "bull": "AI-native sorting (FINDER, GAINnext) directly targets E-scrap/PCB and metals recovery, tying TOMRA to the hardware-replacement cycle.",
+      "neutral": "Product launches strengthen the narrative but flow through revenue slowly; AI link to compute campuses remains indirect.",
+      "bear": "-30% YTD reflects weak end-markets; recycling demand tie to AI hardware cycles is still tenuous and unproven.",
+      "primaryCatalyst": "AI sorting (FINDER/PolyPerception) for E-scrap & metals recovery",
+      "primaryRisk": "Weak end-market demand; AI-chain link remains indirect"
+    }
+  ]
+}

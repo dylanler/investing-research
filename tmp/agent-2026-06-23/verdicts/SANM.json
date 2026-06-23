@@ -1,0 +1,31 @@
+{
+  "symbol": "SANM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Sanmina's most recent catalyst was its Q2 FY2026 report (revenue ~$4.0B, EPS $3.16, beat; FY26 revenue guide raised to $13.7-14.3B on ZT Systems integration and AI/cloud infrastructure demand) but that was reported in late April, before the June 9 base case. Q3 (ending June 27) is not yet reported.",
+  "sources": [
+    {
+      "label": "Sanmina Q2 FY2026 - AI infrastructure surge (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/sanmina-q2-fy2026-slides-revenue-doubles-on-ai-infrastructure-surge-93CH-4640118"
+    },
+    {
+      "label": "SANM Q2 Deep Dive - ZT Systems & AI demand (StockStory)",
+      "url": "https://stockstory.org/us/stocks/nasdaq/sanm/news/earnings-call/sanm-q2-deep-dive-zt-systems-integration-and-ai-demand-propel-sanminas-growth"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Cluster-scale AI/cloud integration thesis intact since June 9; no new filing or guidance. The raised FY26 guide and ZT ramp predate the base case and are already in. +3% drift is flow, not new alpha. Q3 print (June 27) is the next event. Hold the rerated benchmark.",
+      "bull": "AI/cloud integration + ZT Systems adds $5-6B annual revenue; FY26 guide raised; IMS margins expanding.",
+      "neutral": "Strong thesis already priced after 57% YTD; Q3 print is the next swing factor.",
+      "bear": "Rerated to ~13.4B cap on macro/rate sensitivity; this page penalizes the crowding premium.",
+      "primaryCatalyst": "Q3 FY2026 results (June 27)",
+      "primaryRisk": "Rate-driven multiple compression / AI capex digestion"
+    }
+  ]
+}

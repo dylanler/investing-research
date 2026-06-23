@@ -1,0 +1,57 @@
+{
+  "symbol": "ONTO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new fundamental order data since June 9. The +16% two-week move was driven by analyst target hikes (B. Riley raised to $355, Oppenheimer to $370) and continued AI/advanced-packaging enthusiasm. The $240M+ HBM volume purchase agreement was announced Feb 2026 and the Dragonfly G5 HBM4 selection / June shipments were disclosed in April, so both predate the window.",
+  "sources": [
+    {
+      "label": "How the ONTO story is shifting as analysts lift targets (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/onto-innovation-onto-story-shifting-050459037.html"
+    },
+    {
+      "label": "Onto Innovation launches Dragonfly G5 inspection system (Investor Relations)",
+      "url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "AI-node bottleneck lens: WFE leverage to HBM4/advanced-packaging capacity intact, but the +16% move is target-hike sentiment, not new order timing. Prior case already cut 10->13 for the rerating; no fresh order evidence to move again. Price penalty applied separately. Hold 13.",
+      "bull": "Levered to AI-driven fab + HBM4 capacity; Dragonfly G5 / 3Di committed double-digit orders.",
+      "neutral": "Strong franchise but move is target-driven, not new bookings; expectations elevated.",
+      "bear": "Upside hinges on order timing and export-control risk into a high-expectation print.",
+      "primaryCatalyst": "HBM4 ramp + advanced-packaging capex",
+      "primaryRisk": "Order-timing/export-control; lofty expectations"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 18,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.62,
+      "rankRationale": "Co-packaged-optics/residual-alpha lens: a further +16% on analyst target sweeps (B.Riley $355, Oppenheimer $370) with no new evidence pushes price near targets, so the once-hidden advanced-packaging process-control story keeps de-hiding. Residual alpha shrinks further vs peers; soft fundamental tick down.",
+      "bull": "Advanced-packaging process control is a genuine CPO/AI-interconnect chokepoint.",
+      "neutral": "Thesis intact but increasingly consensus; alpha is being arbitraged away.",
+      "bear": "Crowded; price now near median targets on no new evidence, thin residual alpha.",
+      "primaryCatalyst": "Advanced-packaging/CPO inspection demand",
+      "primaryRisk": "Crowding; capex cycle and high expectations"
+    },
+    {
+      "page": "companies",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Under-owned-bottleneck master list: upstream metrology/inspection pick-and-shovel thesis is intact and execution confirmed, but the move is target-driven sentiment, not new fundamentals. Nothing new since June 9 to move rank either way; price rerating handled separately. Hold 31.",
+      "bull": "Scarce process-control exposure to leading-edge + advanced-packaging capacity.",
+      "neutral": "Execution good; valuation re-rated on 30%+ growth narrative.",
+      "bear": "Metrology/inspection pricing and capex-cycle execution risk.",
+      "primaryCatalyst": "30%+ 2026 revenue growth, advanced packaging",
+      "primaryRisk": "Capex cycle; execution and pricing"
+    }
+  ]
+}

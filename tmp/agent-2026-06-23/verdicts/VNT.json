@@ -1,0 +1,44 @@
+{
+  "symbol": "VNT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 FY26 (early May) restated guidance for the Teletrac divestiture with margin/FCF-conversion fundamentals unchanged; the Teletrac close was expected early June and is the known item. Shares up ~6% since June 9 on no fresh fundamental catalyst.",
+  "sources": [
+    {
+      "label": "Vontier Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/vontier-vnt-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "Vontier 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001786842/000162828026031651/a20260403-ex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI-node lens (speculative edge-data/device-network optionality): Teletrac divestiture close (early June) was pre-flagged at Q1; guidance fundamentals unchanged. No new contracts/capacity news. Hold.",
+      "bull": "Device networks, diagnostics and fueling could become edge-data infrastructure; portfolio refocus and Teletrac exit sharpen the story.",
+      "neutral": "Restated guidance keeps underlying margin/FCF intact; AI angle remains early and non-consensus.",
+      "bear": "AI/edge case is speculative and unproven; -19% YTD reflects cyclical mobility/fueling exposure, not AI demand.",
+      "primaryCatalyst": "Diagnostics software / connected-device monetization that validates the edge-data thesis.",
+      "primaryRisk": "Mobility/fueling cyclicality; AI optionality never materializes into revenue."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent-screen (mobility/sensing/fueling/environmental supporting energy-managed campuses): pathway unchanged; no contracts, guidance, or capacity news since June 9 beyond the pre-known Teletrac close. Hold.",
+      "bull": "Sensing/environmental and fueling franchises could underpin energy-managed industrial campuses; clean balance after divestiture.",
+      "neutral": "Strict screen still tolerant of the speculative AI link; nothing new to re-rate on.",
+      "bear": "Strict AI-supply-chain relevance is thin; remains a cyclical industrial with weak YTD.",
+      "primaryCatalyst": "Concrete energy-management/industrial-campus design wins.",
+      "primaryRisk": "Thesis stays purely conceptual; macro/cyclical drag persists."
+    }
+  ]
+}

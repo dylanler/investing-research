@@ -1,0 +1,31 @@
+{
+  "symbol": "002371.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Structural setup unchanged: China equipment-localization leader with 2026 revenue guided ~46.8-52.0B RMB on domestic fab buildout; remains on the US Entity List (Dec 2024) creating both a localization moat and a US-component supply risk. No new orders or guidance in the window.",
+  "sources": [
+    {
+      "label": "NAURA 2026 revenue/net-profit consensus",
+      "url": "https://www.itiger.com/news/1191769209"
+    },
+    {
+      "label": "NAURA core-segment growth & geopolitical moat",
+      "url": "https://swisstransparentportfolio.substack.com/p/50-yoy-surge-in-core-segment-sales"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "CPO/foundry-capex lens: NAURA is an indirect wafer-equipment proxy whose China-localization scarcity remains intact, and at only 57% YTD it is the least re-rated of this batch's China names. No fresh evidence since June 9; the June 8 hold still fits, so hold.",
+      "bull": "China equipment-localization moat; strong 2026 guide; Entity List forces domestic adoption.",
+      "neutral": "Indirect CPO/capex exposure; thesis steady, no new catalyst.",
+      "bear": "$80B cap; policy/export-control and valuation-discovery risk on US-origin components.",
+      "primaryCatalyst": "China fab capex / domestic-tool share gains",
+      "primaryRisk": "Export controls on US-origin subsystems"
+    }
+  ]
+}

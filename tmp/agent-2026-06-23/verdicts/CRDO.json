@@ -1,0 +1,61 @@
+{
+  "symbol": "CRDO",
+  "company": "Credo Technology",
+  "caseDate": "2026-06-23",
+  "newsSince": "Credo's fundamental catalyst - the June 1 FY26 Q4 beat (EPS $1.16 vs $0.98; record $1.34B FY26 revenue, +206% YoY) and FY27 guide with optical portfolio >$600M - predates the June 9 window and was already in the prior case. Since June 9 the news is sentiment/discovery: a wave of analyst PT hikes (Needham $275, Roth $300) and disclosure that Credo is engaged with 5 of 6 hyperscalers. Stock +15% to fresh highs.",
+  "sources": [
+    {
+      "label": "CRDO draws bullish targets after AI quarter (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/credo-technology-group-holding-ltd-crdo-news-2026_06_17/"
+    },
+    {
+      "label": "Credo earns new analyst upgrade, shares climb to peak (Insider Monkey)",
+      "url": "https://www.insidermonkey.com/blog/credo-technology-crdo-earns-new-analyst-upgrade-shares-climb-to-fresh-peak-1787119/"
+    },
+    {
+      "label": "Credo Q4 FY26 record results (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-ltd-050039141.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "This page rewards picks-and-shovels with low visibility. Fundamentals are excellent but the FY26 beat/FY27 guide predate June 9; post-window flow is PT hikes and the 5-of-6 hyperscaler disclosure, which mark completed discovery, not fresh fundamentals. Consensus-owned at $51B - hold, no delta.",
+      "bull": "AEC/optical DSP leader; 5 of 6 hyperscalers; FY27 optical >$600M; +206% FY26 revenue.",
+      "neutral": "Best-in-class execution but now fully discovered with PTs $275-300.",
+      "bear": "Revenue concentration; consensus-owned $51B cap; residual hidden alpha shrinking.",
+      "primaryCatalyst": "FY27 optical ramp / hyperscaler breadth",
+      "primaryRisk": "Crowding / customer concentration"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "CPO lens already took the crowding penalty (slid 21->42, flags 'high multiple after repricing'). No new fundamental since June 1; mid-June PT hikes/hyperscaler note are sentiment. DustPhotonics SiPho/CPO option intact. Don't double-count - hold.",
+      "bull": "Cable/connectivity pure play; DustPhotonics adds SiPho/CPO optionality; optical ramping.",
+      "neutral": "On-theme but already re-rated; asymmetry largely captured.",
+      "bear": "High multiple after repricing; revenue concentration on a crowded screen.",
+      "primaryCatalyst": "DustPhotonics SiPho/CPO optionality",
+      "primaryRisk": "High multiple / crowding"
+    },
+    {
+      "page": "companies",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.76,
+      "rankRationale": "On the master bottleneck list the AEC/optical-DSP/scale-out exposure is intact and arguably strengthened by FY27 guidance - but all that news predates June 9 and the rank already balances it against the $51B cap and rerating. Mid-June PT hikes nudge valuation recognition only - hold.",
+      "bull": "Scale-out bandwidth via AECs and 800G/1.6T optical DSPs; strong FY27 guide.",
+      "neutral": "Bottleneck exposure intact but already priced after +89% YTD.",
+      "bear": "High multiple; concentration; less hidden alpha post-rerate.",
+      "primaryCatalyst": "AEC + optical scale-out demand",
+      "primaryRisk": "Valuation / concentration"
+    }
+  ]
+}

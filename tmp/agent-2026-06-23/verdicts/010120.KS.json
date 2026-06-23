@@ -1,0 +1,44 @@
+{
+  "symbol": "010120.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The string of U.S. data-center power wins (e.g. ~$70M big-tech order, ~$75M transformer deal, $300bn-won hyperscale project) were all disclosed April-May 2026 and are in the thesis. The +5.9% move since June 9 is a flow bounce within a drawdown from the May peak, not a new catalyst.",
+  "sources": [
+    {
+      "label": "LS Electric lands $70M US data-center power deal (Korea Herald)",
+      "url": "https://www.koreaherald.com/article/10710836"
+    },
+    {
+      "label": "LS Electric North America data-center power equipment project (TradingView/Reuters)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN40U0A0:0-ls-electric-co-ltd-announces-north-america-data-center-power-equipment-supply-project/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Residual-alpha lens: real data-center switchgear/transformer demand, but the order flow is April-May and already known; nothing new since June 9. At +136% YTD with ~18 buy ratings the name is no longer under-owned enough to re-rank up on a flow bounce. Hold.",
+      "bull": "Repeat US hyperscale power wins (switchgear, EHV transformers) tie it directly to the AI data-center power bottleneck.",
+      "neutral": "Farther from the pure passive/power stack; demand strong but well-discovered after +136% YTD.",
+      "bear": "Crowded, multiple buy ratings; no new catalyst since June 9 to restore asymmetry.",
+      "primaryCatalyst": "Additional US/Asia data-center power equipment orders",
+      "primaryRisk": "Crowding; project timing and competition in grid equipment"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Latent/under-covered power-&-grid lens: LS Electric is the Korean infra play on data-center power and grid automation with overseas-expansion optionality. The US order momentum supports the theme but is unchanged since June 9. Conviction medium; hold rank.",
+      "bull": "Korea/Asia data-center power + grid automation + overseas (US) expansion; less global coverage than US peers.",
+      "neutral": "Increasingly covered after repeated US wins; latent-discovery edge is narrowing.",
+      "bear": "Power & grid is becoming a consensus AI trade; +136% YTD reduces the under-followed premium.",
+      "primaryCatalyst": "Overseas data-center power expansion / new grid-automation wins",
+      "primaryRisk": "Loss of under-coverage premium; execution on overseas projects"
+    }
+  ]
+}

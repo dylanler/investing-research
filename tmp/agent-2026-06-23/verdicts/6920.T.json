@@ -1,0 +1,44 @@
+{
+  "symbol": "6920.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental catalyst since June 9. The FY2026 order forecast (raised to JPY170-220B, but below heightened expectations) and the operating-profit hike to JPY100B were the early-June earnings already captured in the June 9 case; the +28% move since then is a sector/flow rebound. AI/2nm supercycle and EUV mask-blank inspection monopoly remain intact.",
+  "sources": [
+    {
+      "label": "Lasertec order outlook disappoints despite profit hike (BigGo)",
+      "url": "https://finance.biggo.com/news/7-FLHJwBQSGUzTlwzKt7"
+    },
+    {
+      "label": "Lasertec revises order outlook upward on AI demand (Futu)",
+      "url": "https://news.futunn.com/en/post/73910938/lasertec-revises-its-order-outlook-upward-with-euv-inspection-equipment"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node lens: EUV mask-blank inspection monopoly and 2nm/High-NA WFE thesis unchanged since June 9. Order outlook raise was below expectations but already in the score; +28% since June 9 is flow, not new evidence. Hold.",
+      "bull": "100% share in EUV photomask-blank inspection; order backlog near record on 2nm/High-NA migration through 2030.",
+      "neutral": "Order forecast raised but below heightened expectations; cyclical FY26 sales dip already known.",
+      "bear": "Lumpy order timing, export-control risk, and a steep 20%+ FY26 sales decline could disappoint a crowded book.",
+      "primaryCatalyst": "High-NA EUV mask inspection ramp / order-book re-acceleration into CY26-27.",
+      "primaryRisk": "Order timing volatility and China export-control exposure."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "CPO/metrology lens: Lasertec is an indirect inspection play, not co-packaged optics. No new window evidence; +28% since June 9 marginally erodes residual asymmetry on a heavily-covered former retail darling. Hold with slight negative drift.",
+      "bull": "Scarce, monopoly metrology gate to advanced lithography; indispensable to leading-edge yield.",
+      "neutral": "Only indirectly tied to CPO; richly owned and well covered.",
+      "bear": "+28% no-news rebound consumes mispricing on this crowding-sensitive list.",
+      "primaryCatalyst": "Advanced-node inspection demand from foundry capex.",
+      "primaryRisk": "Semicap spending volatility and crowded positioning."
+    }
+  ]
+}

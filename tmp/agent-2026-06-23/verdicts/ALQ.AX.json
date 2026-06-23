@@ -1,0 +1,31 @@
+{
+  "symbol": "ALQ.AX",
+  "company": "ALS",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company news since June 9. FY2026 results (underlying NPAT +24% to A$363M, rev +11% to A$3.3B, final dividend +17%) were the prior driver. The only fresh item is S&P/ASX 50 inclusion (effective June 22), a passive-flow/crowding event that raises ownership but adds no AI-verification evidence.",
+  "sources": [
+    {
+      "label": "ALS FY2026 performance overview (Kalkine)",
+      "url": "https://kalkine.com.au/news/industrials/als-asxalq-how-this-asx-testing-services-stock-quietly-winning-investors"
+    },
+    {
+      "label": "ALS Limited (ASX:ALQ) profile (Listcorp)",
+      "url": "https://www.listcorp.com/asx/alq/als-limited"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent-AI lens, testing/inspection theme. Strong FY2026 results but commodities/life-sciences driven, not AI verification. ASX 50 inclusion (eff Jun 22) is passive-flow crowding, not AI evidence. Small negative drift; hold after prior down-move.",
+      "bull": "Global testing/inspection leader could verify coolants, water, materials and emissions for AI data-center buildouts; record FY2026 profitability.",
+      "neutral": "Quality TIC compounder, but the AI-infrastructure verification pathway is latent and unproven in the numbers.",
+      "bear": "Growth is commodities-led; ASX 50 inclusion raises crowding/ownership without any AI catalyst, eroding residual latent-AI alpha.",
+      "primaryCatalyst": "Explicit AI-data-center environmental/materials testing mandates that materialize the latent thesis.",
+      "primaryRisk": "Remains a commodities-cycle TIC name with rising passive crowding and no AI-node evidence."
+    }
+  ]
+}

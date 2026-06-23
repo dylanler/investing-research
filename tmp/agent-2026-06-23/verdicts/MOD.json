@@ -1,0 +1,44 @@
+{
+  "symbol": "MOD",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental information since June 9. The >$4B 2027-2029 AI data-center cooling agreement (with $165M upfront) and the Q4 FY26 results (sales +47%, FY26 adj. EPS $5.02, ~5-year visibility) were early-June and already in the prior case. Stock roughly flat (+1.0%) since June 9.",
+  "sources": [
+    {
+      "label": "Simply Wall St: Modine $4B AI cooling deal",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-mod/modine-manufacturing/news/why-modine-manufacturing-mod-is-down-94-after-securing-a-4-b"
+    },
+    {
+      "label": "Modine: Q4 fiscal 2026 results",
+      "url": "https://investors.modine.com/news/news-details/2026/Modine-Reports-Fourth-Quarter-Fiscal-2026-Results/default.aspx"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha lens: nothing new since June 9. The $4B backlog and Q4 beat were already chased; +100% YTD with multiple PT raises keeps it a fully rerated, crowded benchmark, not residual alpha. Hold in the rerated-benchmark bucket.",
+      "bull": "$4B contracted cooling backlog and ~5-year visibility; chiller capacity ramping (~20 lines by FY28) on hyperscale demand.",
+      "neutral": "Strategically important but the rerate has happened; crowded, well-covered name.",
+      "bear": "+100% YTD prices in the cooling boom; execution on capacity ramp must deliver.",
+      "primaryCatalyst": "Incremental hyperscale cooling orders and chiller-line ramp",
+      "primaryRisk": "Already-rerated valuation; data-center cooling competition/oversupply"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent lens: direct data-center cooling leverage but the market now recognizes it, reducing hiddenness. No new fundamentals since June 9 (the $4B deal is prior). Alpha now depends on execution and whether cooling stays undersupplied. Hold.",
+      "bull": "Clear AI-infrastructure cooling leverage with multi-year contracted demand and long-term customer agreements.",
+      "neutral": "Relevance high but hiddenness low post-rerate; execution-dependent.",
+      "bear": "Well-recognized story; latent-alpha edge largely gone.",
+      "primaryCatalyst": "Long-term cooling agreements and capacity execution",
+      "primaryRisk": "Reduced hiddenness; cooling demand normalizing"
+    }
+  ]
+}

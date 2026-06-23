@@ -1,0 +1,44 @@
+{
+  "symbol": "2408.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Thesis intact but no genuinely new evidence since June 9. Nanya reiterates DRAM shortage through 2028, HBM rising to ~10% of DRAM output (from 7%) crowding out commodity DRAM, a new fab (45k wpm, 20k wpm 12-inch by 1H28) and custom AI-memory trials with results due 2H26 — all disclosed by March. The +25% move is a flow/cycle bounce.",
+  "sources": [
+    {
+      "label": "Nanya: DRAM shortage to last through 2028 (Taipei Times)",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/05/2003853263"
+    },
+    {
+      "label": "Nanya custom AI memory trial, results 2H26 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/03/06/news-nanya-tech-reportedly-starts-custom-ai-memory-trial-progress-set-to-show-in-h2-2026/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Memory-tier bottleneck (HBM crowding out commodity DRAM, shortage to 2028) is fully intact but well-broadcast; the +25% move since June 9 is a flow/cycle bounce, not new evidence. Custom AI-memory trial results are a 2H26 catalyst, not yet de-risked. Hold.",
+      "bull": "DRAM shortage to 2028, HBM crowd-out lifts commodity pricing; custom AI memory optionality H2 2026.",
+      "neutral": "Cyclical beneficiary, but not an HBM3E/HBM4 leader; alpha already broadcast.",
+      "bear": "Commodity-DRAM cycle and capex-timing risk; +120% YTD prices in much of the upcycle.",
+      "primaryCatalyst": "Custom AI memory trial-production results in 2H26.",
+      "primaryRisk": "Commodity memory cycle reversal / capex digestion."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the CPO lens this is a memory-cycle recovery story, not CPO/optical-interconnect alpha. No CPO-relevant news since June 9; the price spike reflects DRAM-cycle flow. Low directness keeps it near the bottom. Hold.",
+      "bull": "HBM/server-DRAM tightness; broad memory upcycle.",
+      "neutral": "No CPO relevance; pure memory-cycle play.",
+      "bear": "Commodity memory cycle + valuation after +120% YTD; not a packaging/optics bottleneck.",
+      "primaryCatalyst": "Memory pricing momentum.",
+      "primaryRisk": "Commodity memory cycle; zero CPO directness."
+    }
+  ]
+}

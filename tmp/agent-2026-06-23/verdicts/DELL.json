@@ -1,0 +1,31 @@
+{
+  "symbol": "DELL",
+  "company": "Dell Technologies",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental company news since June 9. Continued Silver Lake / Egon Durban insider sales (June 10 ~$9.4M; June 12 ~$15.9M) extend the known supply overhang. The Q1 FY27 print (May 28: record $43.8B revenue, $16.1B AI servers, $24.4B AI orders, $43B backlog, raised FY27 to $60B AI servers) is pre-June 9 and the +12.95% move since June 9 is flow recovering the prior washout.",
+  "sources": [
+    {
+      "label": "Dell Q1 FY27 results (May 28) - Dell newsroom",
+      "url": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~05~dell-technologies-delivers-first-quarter-fiscal-2027-financial-results.htm"
+    },
+    {
+      "label": "Silver Lake / Egon Durban Dell share sales (June 12) - Investing.com",
+      "url": "https://m.uk.investing.com/news/insider-trading-news/silver-lake-partners-iv-sells-159m-dell-shares-director-egon-durban-93CH-4731688?ampMode=1"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On the residual-alpha-vs-passives lens DELL is a fully-discovered AI-server beneficiary, not a passive/power bottleneck. The intact $43B backlog thesis is unchanged, but continued Silver Lake selling (June 10-12) is an ongoing supply overhang and the +13% bounce recoups the washout that improved its June 9 asymmetry. Small negative fundamental drift; benchmark/monitor placement holds.",
+      "primaryCatalyst": "$60B FY27 AI-server guide; $43B backlog",
+      "primaryRisk": "Silver Lake supply overhang; thin AI-server margins; peripheral to a passives list",
+      "bull": "Record AI backlog and raised FY27 AI-server guide keep the demand thesis fully intact.",
+      "neutral": "Great AI-server story but crowded, discovered, and only adjacent to this page's passive/power bottleneck focus.",
+      "bear": "Persistent Silver Lake selling, low AI-server margins, and a +237% YTD leave little residual alpha here."
+    }
+  ]
+}

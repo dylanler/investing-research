@@ -1,0 +1,31 @@
+{
+  "symbol": "HXL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material AI-node news since June 9. Hexcel signed a long-term composite-materials partnership with Deutsche Aircraft for the D328eco turboprop (announced at ILA Berlin) and debuted at Eurosatory in Paris on June 11. Both are aerospace/defense items, not AI-infrastructure evidence.",
+  "sources": [
+    {
+      "label": "Deutsche Aircraft–Hexcel D328eco partnership",
+      "url": "https://www.streetinsider.com/Corporate+News/Deutsche+Aircraft+partners+with+Hexcel+for+D328eco+composite+materials/26637690.html"
+    },
+    {
+      "label": "Hexcel newsroom",
+      "url": "https://www.hexcel.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Strict screen: the D328eco partnership and Eurosatory debut are aerospace/defense wins with no AI-node read-through. Robotics/compute-structure thesis remains theoretical. +5.2% move is aerospace-recovery flow, not new node evidence. Hold rank 95; no fundamental shift for this lens.",
+      "bull": "Carbon-fiber moat could feed robotics/lightweight compute structures; aerospace recovery + new D328eco program lengthen demand.",
+      "neutral": "Composites story is real but AI-node exposure is indirect; aerospace cycle, not AI, drives the print.",
+      "bear": "On a strict AI-node screen this is a commercial-aerospace play; rich aerospace re-rating leaves thin residual alpha.",
+      "primaryCatalyst": "Robotics/aero-compute composite adoption proving an AI-node link",
+      "primaryRisk": "Pure aerospace-cycle exposure with no genuine AI-node catalyst"
+    }
+  ]
+}

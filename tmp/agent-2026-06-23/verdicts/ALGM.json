@@ -1,0 +1,44 @@
+{
+  "symbol": "ALGM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material thesis-relevant news since June 9. The only item is the June 18 appointment of Brian White to the board (governance, not fundamental). The record Data Center quarter and FY26 results (sales +23% to $890M) were the May 7 report, already known. The +22.1% move is a sector/sentiment giveback-and-rebound, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "Allegro board appointment (June 18)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3314097/0/en/allegro-microsystems-appoints-brian-white-to-its-board-of-directors.html"
+    },
+    {
+      "label": "Allegro FY/Q4 2026 results",
+      "url": "https://investors.allegromicro.com/news-releases/news-release-details/allegro-microsystems-reports-first-quarter-2026-results"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the AI-node bottleneck lens, only a board appointment since June 9 — immaterial. ALGM stays an indirect analog/power/sensor play versus HBM/packaging/networking names that anchor this list; the +22% move is flow, not node-relevance. Hold flat.",
+      "bull": "Record data-center quarter shows real AI-power sensing pull; analog content rising with electrification.",
+      "neutral": "Indirect AI exposure; auto/industrial dominate the mix.",
+      "bear": "Auto-cycle sensitivity; less hidden after +112% YTD; furthest from the page's core bottlenecks.",
+      "primaryCatalyst": "Data-center current-sensing content",
+      "primaryRisk": "Auto cycle; indirect AI exposure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO lens, ALGM has low relevance — power/sensors for auto/industrial — and nothing since June 9 (only a board addition) changes that. Prior down move already priced post-run crowding; hold flat.",
+      "bull": "Some data-center power-sensing tailwind; quality analog franchise.",
+      "neutral": "Minimal CPO linkage; thesis fit is weak by design.",
+      "bear": "Auto cycle; far from co-packaged-optics bottleneck; richly valued after +112% YTD.",
+      "primaryCatalyst": "Data-center power content",
+      "primaryRisk": "Auto cycle; negligible CPO exposure"
+    }
+  ]
+}

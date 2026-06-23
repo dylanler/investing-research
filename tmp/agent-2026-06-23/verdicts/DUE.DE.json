@@ -1,0 +1,31 @@
+{
+  "symbol": "DUE.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent events (May AGM with dividend hike to EUR0.80 and new CFO, and a late-May medium-term target / 2026 guidance update with order-intake forecast adjustment) all predate June 9 and were in the prior case.",
+  "sources": [
+    {
+      "label": "Dürr AG updates guidance after solid start to 2026 (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/duerr-ag-stock-de0005565204-automation-specialist-updates-guidance/69415593"
+    },
+    {
+      "label": "Dürr AG AGM backs higher dividend and new CFO (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/duerr-ag-stock-de0005565204-agm-backs-higher-dividend-and-new-cfo-as/69473340"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Strict latent screen: factory automation / environmental / surface-processing could support reshored hardware production - thesis intact. No new news since June 9 (AGM and late-May guidance update already priced). Continued -18% YTD drawdown marginally improves asymmetry but is a price effect, not fundamental, so hold per the screen's rules.",
+      "bull": "Automation, environmental and surface-processing tech are picks-and-shovels for reshored component/hardware manufacturing.",
+      "neutral": "Deep auto-paint-shop exposure makes the AI-reshoring tie indirect; backlog solid but end-demand macro-sensitive.",
+      "bear": "-18% YTD on weak auto/European capex; order-intake forecast trimmed and restructuring underway signal soft demand.",
+      "primaryCatalyst": "Reshoring-driven factory automation orders",
+      "primaryRisk": "Weak automotive/European capex cycle and order-intake softness"
+    }
+  ]
+}

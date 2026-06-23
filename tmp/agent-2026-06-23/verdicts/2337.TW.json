@@ -1,0 +1,35 @@
+{
+  "symbol": "2337.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The memory super-cycle deepened in TSMC's favor for niche memory: Macronix reports strong NOR demand for AI servers/HPC, has shifted to monthly NAND pricing amid a 'massive shortage,' guides full capacity utilization in 2H26, and ended a ten-quarter losing streak in Q1 (GM 40.8%, NAND rev +382% YoY on Samsung's MLC exit). On June 8 it announced ASIL-D/ISO-21434 certification of its ArmorFlash MX78 secure NOR for AI/edge/auto.",
+  "sources": [
+    {
+      "label": "TrendForce - Macronix NAND +382% YoY, monthly pricing",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-macronix-nand-revenue-jumps-382-yoy-on-samsungs-mlc-exit-shifts-to-monthly-pricing-amid-deepening-crunch/"
+    },
+    {
+      "label": "BigGo - Macronix ends 10-quarter losing streak, full load 2H26",
+      "url": "https://finance.biggo.com/news/5nS3zp0BLfE1EzqPutm5"
+    },
+    {
+      "label": "PR Newswire - ArmorFlash MX78 ASIL-D certification (Jun 8)",
+      "url": "https://www.prnewswire.com/news-releases/macronix-secure-nor-flash-memory-family-certified-for-vehicle-safety-cybersecurity-302793870.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "AI-node bottleneck lens: the NAND/NOR shortage that broadens the memory chokepoint into niche flash is genuinely strengthening - monthly pricing, full 2H26 load, NAND +382% YoY, plus the June 8 secure-NOR ASIL-D win for AI/edge. This is fresh fundamental evidence, not just price, supporting a modest up from a low rank-98 slot.",
+      "bull": "NOR/SLC-NAND shortage with monthly price hikes and Samsung MLC exit; capacity full into 2H26; profitability inflection after 10 down quarters.",
+      "neutral": "Small ($8.8B) niche-memory player; capacity capped ~25k wpm so upside is price- not volume-led.",
+      "bear": "Notoriously cyclical memory at +297% YTD; valuation discovery already steep and a price reversal would bite.",
+      "primaryCatalyst": "Monthly NOR/NAND price hikes and full 2H26 utilization",
+      "primaryRisk": "Memory-cycle rollover; capacity cap limits volume upside"
+    }
+  ]
+}

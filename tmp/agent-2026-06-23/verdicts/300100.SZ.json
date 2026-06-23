@@ -1,0 +1,35 @@
+{
+  "symbol": "300100.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material catalyst in the window: Shuanglin's 100,000-unit planetary roller-screw line is scheduled to begin mass production in June 2026 with first sample deliveries (vs only ~1,500 units in 2025), and the Wuxi Kezhi second-gen machine-tool factory comes online (~40 units/month). It has delivered multiple prototype rounds of joint modules/dexterous hands to leading domestic humanoid OEMs with customer approval — direct evidence the actuation-stack scale-up is real.",
+  "sources": [
+    {
+      "label": "Futubull: Ningbo Shuanglin (300100) news flow",
+      "url": "https://www.futunn.com/en/stock/300100-SZ/news/news"
+    },
+    {
+      "label": "Futubull: Shuanglin main-business improvement, screw growth curve",
+      "url": "https://news.futunn.com/en/post/55087405/ningbo-shuanglin-auto-parts-300100-main-business-profit-improvement-creating"
+    },
+    {
+      "label": "AIGBK: Shuanglin humanoid robot business progress",
+      "url": "https://www.aigbk.com/article/shuanglin_gufen_humanoid_robot_business_progress/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "No new fundamental evidence since June 9. Roller-screw line still in customer verification with no designation, so the body-stack component thesis is unproven but unchanged; -5% move is noise. Hold pending a design-win catalyst.",
+      "bull": "Roller-screw/actuation candidate for humanoid body-stack with large rerating room after a big YTD pullback (-24%).",
+      "neutral": "Component thesis unconfirmed - still in verification, no designation; auto-parts core dominates.",
+      "bear": "No humanoid design win secured; remains an auto-parts supplier with speculative robot optionality.",
+      "primaryCatalyst": "Roller-screw customer designation / humanoid design win.",
+      "primaryRisk": "Verification fails or designation slips; thesis stays speculative."
+    }
+  ]
+}

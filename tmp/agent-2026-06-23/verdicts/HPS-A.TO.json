@@ -1,0 +1,31 @@
+{
+  "symbol": "HPS-A.TO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The catalysts (Q1 reported May 5: record $265M sales +31.5%, backlog +94.6% YoY, AI-datacenter-driven demand, gross margin 30.1%) predate the June 9 baseline. The +14.49% move is flow/momentum, not new information.",
+  "sources": [
+    {
+      "label": "Hammond Power Q1 2026 results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288375/0/en/hammond-power-solutions-reports-first-quarter-2026-financial-results.html"
+    },
+    {
+      "label": "Hammond Power record 2025 sales / backlog (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/HMDPF/pressreleases/872998/hammond-power-solutions-posts-record-2025-sales-as-backlog-and-us-demand-surge/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Hold the high-conviction #5 on the latent under-covered AI supply-chain lens. No new company news since June 9; the record Q1 (+31.5% sales, backlog +94.6%, AI-datacenter-driven) was already known. Direct transformer-shortage/data-centre exposure keeps the thesis intact, but the +14.5% pop signals it is getting more discovered, capping incremental fundamental delta at 0.",
+      "bull": "Direct transformer-shortage play; backlog +94.6% YoY gives strong AI-datacenter revenue visibility.",
+      "neutral": "Best-in-class niche power supplier; thesis intact but now well-flagged.",
+      "bear": "Small-cap, sharply rerated (+111% YTD); discovery rising, less 'latent' than the page wants.",
+      "primaryCatalyst": "Transformer backlog conversion; US data-centre/custom-engineered demand",
+      "primaryRisk": "Capacity/lead-time constraints; momentum unwind in a crowded small-cap"
+    }
+  ]
+}

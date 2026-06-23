@@ -1,0 +1,31 @@
+{
+  "symbol": "VLX.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental results yet: Volex scheduled its FY26 (year-ended 31 March 2026) preliminary results for June 25, 2026 — two days out — so the catalyst is pending, not delivered. The standing story is H1 FY26 group revenue +12.7% with data-center sales up ~80%, and acquisitions remain core to strategy. Shares roughly flat since June 9.",
+  "sources": [
+    {
+      "label": "Volex Notice of Results, FY26 prelims 25 Jun 2026 (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/volex--vlx/notice-of-results/9586157"
+    },
+    {
+      "label": "Volex Investors",
+      "url": "https://www.volex.com/investors"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent AI-node lens: neglected AIM interconnect maker into 400G/800G/1.6T DC links. FY26 prelims land Jun 25 (pending, not yet out); H1 DC sales +80% supports the thesis. Slight + for imminent catalyst with strong DC momentum; no confirmed shift yet.",
+      "bull": "Data-center sales up ~80% in H1; 1.6T copper interconnect ramp and FY26 prelims (Jun 25) could confirm margin-target delivery.",
+      "neutral": "Strong DC growth but diversified industrial/EV base; results not yet released, so re-rate is unconfirmed.",
+      "bear": "+42% YTD prices in a lot; AIM liquidity, acquisition-led model, and any results miss could de-rate quickly.",
+      "primaryCatalyst": "FY26 preliminary results on June 25 confirming data-center growth and operating-margin target.",
+      "primaryRisk": "Results disappoint on margins/guidance; hyperscale order timing or copper-vs-optics substitution."
+    }
+  ]
+}

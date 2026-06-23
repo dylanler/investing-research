@@ -1,0 +1,35 @@
+{
+  "symbol": "2449.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive. KYEC raised FY2026 capex from NT$39.4B to NT$50B (record), targeting CoWoS-package, custom-ASIC and next-gen-memory testers; its Singapore (Ang Mo Kio) test fab went live May 22, 2026; management frames testing as its own bottleneck (AI-chip power 3kW->8kW lengthens test cycles) with custom-ASIC demand from AWS/Google/Meta/Microsoft broadening beyond NVDA. Stock +13.2% since June 9.",
+  "sources": [
+    {
+      "label": "AI chip testing demand transforms KYEC (TVBS)",
+      "url": "https://news.tvbs.com.tw/english/3177612"
+    },
+    {
+      "label": "KYEC Singapore facility inauguration (Singapore EDB)",
+      "url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/kyec-opens-singapore-facility-marking-global-expansion.html"
+    },
+    {
+      "label": "KYEC ramps Singapore expansion amid AI test surge (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20251222PD210/expansion-king-yuan-testing-kyec-ai-chip.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 15,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.78,
+      "rankRationale": "Fresh evidence strengthens the OSAT/test-bottleneck thesis: record NT$50B capex (up from NT$39.4B) for CoWoS/ASIC/memory testers, Singapore fab live May 22, and longer AI-chip test cycles (3kW->8kW) turning test capacity into its own choke-point, with AWS/Google/Meta/MSFT ASICs broadening demand beyond Nvidia. Directly raises node-criticality vs peers.",
+      "bull": "Test-as-bottleneck confirmed; record capex, Singapore capacity live, custom-ASIC customer diversification beyond NVDA; only +23% YTD.",
+      "neutral": "High-conviction but capex ramp must convert to utilization and pricing.",
+      "bear": "Capex-heavy at cycle peak; utilization sensitive to AI-chip volume timing.",
+      "primaryCatalyst": "CoWoS/custom-ASIC test capacity ramp + Singapore fab utilization.",
+      "primaryRisk": "Heavy capex outrunning utilization if AI-chip volumes slip."
+    }
+  ]
+}

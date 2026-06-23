@@ -1,0 +1,44 @@
+{
+  "symbol": "VPG",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh fundamental news since June 9 — continued momentum re-rating: VPG hit a new all-time high on June 17 (~+33.6% in one month, +244% YTD), driven by the standing humanoid-robotics/physical-AI picks-and-shovels narrative (Q1 book-to-bill 1.21, $1.0M humanoid orders booked, a fourth developer in early engineering talks). The fundamental story is unchanged from the May Q1 print; the move is crowding/sentiment, not new catalysts.",
+  "sources": [
+    {
+      "label": "VPG hits new all-time high (Benzinga, Jun)",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53149768/vishay-precision-group-stock-hits-a-new-all-time-high-thursday-whats-driving-the-action"
+    },
+    {
+      "label": "VPG benefiting from robotics growth (Insider Monkey/Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-precision-group-vpg-benefiting-141953105.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: VPG made a new ATH Jun 17 (+33.6%/mo), but on no new fundamentals beyond the May Q1 humanoid story. Crowding keeps eroding residual alpha on this crowding-sensitive list; small negative drift, consistent with the prior 'rerated benchmark' bucket. Hold.",
+      "bull": "Profitable physical-AI/humanoid picks-and-shovels; book-to-bill 1.21, manufacturing rebound, multiple humanoid developers engaging.",
+      "neutral": "Real but tiny humanoid revenue ($1.0M booked); thesis intact yet fully recognized after +244% YTD.",
+      "bear": "+244% YTD prices in years of humanoid hope; any sentiment reversal de-rates a small-cap fast — residual alpha nearly gone.",
+      "primaryCatalyst": "Humanoid orders scaling materially (multiple developers moving from engineering to volume).",
+      "primaryRisk": "Crowding/momentum unwind; humanoid revenue stays immaterial relative to the multiple."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: force/current-sensing relevant to hands and balance and the developer pipeline grew, but it's the same Q1 narrative — no new fundamental catalyst since Jun 9, just a new ATH. Prior verdict already moved it down for crowding/rerating; respect and hold.",
+      "bull": "Force-sensing is core to humanoid hands/balance; engaged with multiple humanoid OEMs as the segment begins scaling later in 2026.",
+      "neutral": "Genuine robotics exposure but humanoid revenue still nominal; valuation captures the optionality.",
+      "bear": "Already capitulated upward; force-sensing faces alternatives and the AI-robotics premium is fragile at this multiple.",
+      "primaryCatalyst": "Conversion of humanoid engineering engagements into scaled production orders.",
+      "primaryRisk": "Humanoid timelines slip; rich valuation unwinds on any robotics-hype cooling."
+    }
+  ]
+}

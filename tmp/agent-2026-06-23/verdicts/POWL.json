@@ -1,0 +1,44 @@
+{
+  "symbol": "POWL",
+  "company": "Powell Industries",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The record Q2 FY26 results (revenue $297M, orders +97% to $490M, backlog $1.8B +33%) and the $400M+ behind-the-meter data-center mega order (largest in company history, flowing through FY2028) were reported in early May and were already in the prior case.",
+  "sources": [
+    {
+      "label": "Powell Q2 FY26 8-K earnings (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000080420/000008042026000063/ex991-powlq2xfy2026earning.htm"
+    },
+    {
+      "label": "Powell $400M+ data-center mega order (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4586469-powell-outlines-70m-100m-capacity-option-as-it-lands-400m-data-center-mega-order"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On this crowding-sensitive list, record backlog and the $400M+ data-center order are already known and the +157% YTD rerating has consumed most residual alpha (crowded/rerated bucket). No new catalyst since June 9; prior small nudge up stands. Hold at 47.",
+      "bull": "Record $1.8B backlog, $400M+ data-center mega order through FY28; switchgear bottleneck for AI power buildouts.",
+      "neutral": "Strategically central but already richly rerated (+157% YTD); fresh alpha limited on a passives-residual screen.",
+      "bear": "Crowded, fully-priced; order timing/capacity-expansion execution and project lumpiness.",
+      "primaryCatalyst": "Data-center electrical-room backlog conversion and capacity expansion.",
+      "primaryRisk": "Valuation/crowding and project execution after large rerating."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the latent under-covered AI supply-chain lens, switchgear is a genuine data-center power bottleneck and Powell's exposure is direct, but the large run makes it less hidden. No new evidence since June 9; thesis unchanged. Hold at 51.",
+      "bull": "Direct switchgear bottleneck in data-center power delivery; record orders/backlog and capacity-add optionality.",
+      "neutral": "Real exposure but increasingly well-covered; latent-alpha edge eroding as story becomes consensus.",
+      "bear": "+157% YTD lowers fresh alpha; cyclical end-markets and lumpy mega-order timing.",
+      "primaryCatalyst": "Behind-the-meter on-site generation/electrical-room orders for AI sites.",
+      "primaryRisk": "Reduced under-coverage; valuation and order cadence."
+    }
+  ]
+}

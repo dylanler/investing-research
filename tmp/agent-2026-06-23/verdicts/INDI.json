@@ -1,0 +1,44 @@
+{
+  "symbol": "INDI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 10, 2026 indie launched the iND881 edge-AI SoC (NPU + DSP + quad-core A53), explicitly targeting automotive smart cameras AND robotics/humanoid perception (AMRs, multi-modal IR/ToF/radar/LiDAR), ASIL-B, sampling now. Q2 revenue guided $59-65m. Stock fell ~5% on flow/insider activity, not fundamentals.",
+  "sources": [
+    {
+      "label": "indie launches iND881 edge AI SoC for automotive & humanoids (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260610914545/en/indie-Launches-Edge-AI-SoC-to-Power-Smarter-Perception-Systems-for-Automotive-and-Humanoids"
+    },
+    {
+      "label": "iND881 launch (RoboticsTomorrow)",
+      "url": "https://www.roboticstomorrow.com/news/2026/06/10/indie-launches-edge-ai-soc-to-power-smarter-perception-systems-for-automotive-and-humanoids/26696/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "AI-node lens screens for HBM/advanced-packaging/AI-networking proximity, where indie is indirect. The iND881 is an edge perception SoC, not a datacenter AI-node play, so it does not close the page-specific relevance gap flagged at June 9. No node-relevant catalyst. Hold low.",
+      "bull": "New edge-AI SoC adds AI compute content; analog/power/RF breadth could ride broader AI/edge demand.",
+      "neutral": "Edge-AI launch is real but tangential to datacenter AI-node bottleneck; still a small-cap automotive name.",
+      "bear": "No HBM/CPO/advanced-packaging exposure; consensus 2026 loss and edge focus leave it a poor fit for this page.",
+      "primaryCatalyst": "Edge-AI/perception design wins scaling to revenue",
+      "primaryRisk": "Remains peripheral to the AI-node bottleneck; profitability slip"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 17,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "The June 10 iND881 edge-AI SoC explicitly targets humanoid/robotics perception (AMRs, multi-modal radar/LiDAR/ToF, ASIL-B) - the cleanest on-thesis evidence for this page's perception-silicon play in months. Reverses some of the June 8 down-move; modest +2 on a fresh, page-relevant product, sampling not yet revenue.",
+      "bull": "Purpose-built perception SoC for humanoids/AMRs validates the perception-silicon thesis; multi-modal sensing breadth and automotive qualification.",
+      "neutral": "Strong on-thesis product, but sampling-stage with no named robotics customer or revenue yet.",
+      "bear": "Robotics demand is forward-looking; core business is still automotive ADAS, and the chip mainly addresses smart cameras.",
+      "primaryCatalyst": "iND881 robotics/humanoid design wins converting to volume",
+      "primaryRisk": "Humanoid TAM slow to materialize; auto-cycle weakness dominates"
+    }
+  ]
+}

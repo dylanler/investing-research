@@ -1,0 +1,31 @@
+{
+  "symbol": "003021.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Zhaowei completed an A+H dual listing (02692.HK) on March 9, 2026, and entered embodied AI with 17-DOF dexterous hands (Nov 2025) and the DM17/LM06 series (mid-2025) - all prior to the refresh window. The -13% move since June 9 (-23.9% YTD) is price/sentiment, not a disclosed fundamental event; commentary continues to flag near-term growth softness.",
+  "sources": [
+    {
+      "label": "Zhaowei (003021) news flow - Futubull",
+      "url": "https://www.futunn.com/en/stock/003021-SZ/news/news"
+    },
+    {
+      "label": "Zhaowei robotics / dexterous-hand products (company)",
+      "url": "https://www.zwgearbox.com/robots"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: precision-motion/gearbox name with dexterous-hand optionality and modest cap. No new fundamental catalyst since June 9; the -13% drop is sentiment, not news, and growth-softness flags persist. Don't up-rank on the dip alone. Hold.",
+      "bull": "Cleaner setup than Japan reducer leaders: modest cap, down YTD; precision gearbox + dexterous-hand second growth curve into humanoids.",
+      "neutral": "Embodied-AI revenue still nascent; core business growth has stumbled, so the robot story is mostly optionality.",
+      "bear": "Sharp drawdown and weak near-term growth suggest the humanoid premium is unwinding; execution unproven at scale.",
+      "primaryCatalyst": "Humanoid dexterous-hand / actuator module order wins",
+      "primaryRisk": "Core-business growth deceleration; humanoid optionality re-rating lower"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "SYM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No major new fundamental catalyst since June 9. The Walmart Advanced Systems acquisition, ~$22.3B backlog, 400-APD multi-year commitment, and GreenBox/Exol Dallas+Chicago expansion were established in the Q1/Q4 cycle; recent action is sentiment-driven (TD Cowen PT to $75) and the -8.6% move is flow. Thesis intact, no fresh evidence.",
+  "sources": [
+    {
+      "label": "Symbotic up 20.6% after Walmart robotics acquisition (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-sym/symbotic/news/symbotic-sym-is-up-206-after-acquiring-walmart-robotics-and"
+    },
+    {
+      "label": "Walmart robotics deal could add $5B to backlog (AInvest)",
+      "url": "https://www.ainvest.com/news/walmart-robotics-deal-add-5-billion-symbotic-backlog-stock-proof-2606/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the humanoid-stack lens SYM remains a warehouse-robotics pure-play, not a humanoid name. No new June evidence; the prior up-move already captured Walmart/backlog commercialization. -8.6% is flow at $23B cap. Hold at 26.",
+      "bull": "AI-moat warehouse automation, $22B+ backlog, Walmart 400-APD commitment and GreenBox/Exol expansion give durable deployment runway.",
+      "neutral": "Excellent robotics business but not a humanoid play; large and well-covered, so early-alpha asymmetry is limited on this lens.",
+      "bear": "Heavy Walmart concentration, lumpy systems revenue, and a $23B cap with -40% YTD signal a name still proving second-half acceleration.",
+      "primaryCatalyst": "GreenBox/Exol multi-site ramp and second-half deployment acceleration",
+      "primaryRisk": "Walmart customer concentration and deployment-execution timing"
+    }
+  ]
+}

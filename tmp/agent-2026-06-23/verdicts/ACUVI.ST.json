@@ -1,0 +1,31 @@
+{
+  "symbol": "ACUVI.ST",
+  "company": "Acuvi",
+  "caseDate": "2026-06-23",
+  "newsSince": "No clearly new company-specific news since June 9. Acuvi's identifiable 2026 catalysts (a strategic development order from a Formula 1 customer, a ~$1.9M US-defense order over 30 months, and the Q1 2026 cost-pressure earnings call) all date to earlier in the year and appear already reflected. The ~3% drift since June 9 is consistent with low-liquidity micro-cap noise, not a fundamental change.",
+  "sources": [
+    {
+      "label": "Acuvi: $1.9M US defense order",
+      "url": "https://news.cision.com/acuvi-ab/r/acuvi-receives-order-of-1-9-musd-from-us-based-defense-customer,c4331634"
+    },
+    {
+      "label": "Investing.com: Acuvi Q1 2026 earnings call",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-acuvi-q1-2026-sees-stock-drop-amid-cost-pressures-93CH-4641793"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Humanoid-stack lens: precision-motion actuation is a credible hidden-gem if content expands into hands/grippers, but no new robotics design wins since June 9 to validate the thesis. Q1 showed cost pressure; thesis intact, no fresh catalyst. Hold at #4.",
+      "primaryCatalyst": "Precision-motion content win into humanoid hands/grippers/sensors",
+      "primaryRisk": "Q1 cost pressure, $40M micro-cap liquidity, no robotics design-win proof yet",
+      "bull": "Genuine actuation-purity micro-cap; precision piezo motion could plug directly into humanoid hands and compact robot modules.",
+      "neutral": "Thesis remains relevant but unproven in robotics; current orders are F1/defense/medtech, not humanoids.",
+      "bear": "Tiny illiquid cap, -30% YTD, Q1 cost pressure; humanoid actuation content remains aspirational."
+    }
+  ]
+}

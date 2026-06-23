@@ -1,0 +1,31 @@
+{
+  "symbol": "2313.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new thesis-changing catalyst since June 9. The relevant data points (record Q1 driven by LEO satellite/AI PCB, and the May 28 shareholder-meeting guidance that AI infrastructure will drive sharp 2027-2028 revenue/profit gains) are pre-window and already priced. The stock fell ~12% over the two weeks as the satellite-narrative momentum unwound.",
+  "sources": [
+    {
+      "label": "DIGITIMES - Compeq AI infra to drive 2027-2028 gains",
+      "url": "https://www.digitimes.com/news/a20260528PD236/compeq-manufacturing-infrastructure-revenue-2028-profit.html"
+    },
+    {
+      "label": "DIGITIMES - Compeq key supplier in AI and LEO satellite boom",
+      "url": "https://www.digitimes.com/news/a20260511PD233/2026-compeq-manufacturing-revenue-shipments-demand.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha lens: no fresh bottleneck evidence since June 9; the satellite/AI-PCB narrative that drove the prior limit-up has unwound (-12%). Thesis is unchanged but the hidden-upside case remains thin at +157% YTD with the prior down verdict already digesting the crowding. Small thesis fade, hold rank.",
+      "bull": "Core LEO-satellite and AI-server HDI/PCB supplier; AI infra to lift complexity, reliability and gross margins into 2027-2028.",
+      "neutral": "Real AI/satellite content, but the big 2027-2028 payoff is back-end-loaded and the May guidance is already known.",
+      "bear": "Underfollowed name was repriced on a satellite-news momentum spike; +157% YTD with no fresh catalyst leaves little residual alpha.",
+      "primaryCatalyst": "Ramp of AI-server and LEO satellite HDI orders into 2027",
+      "primaryRisk": "Momentum unwind; payoff deferred to 2027-2028"
+    }
+  ]
+}

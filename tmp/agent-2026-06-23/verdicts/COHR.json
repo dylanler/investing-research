@@ -1,0 +1,74 @@
+{
+  "symbol": "COHR",
+  "company": "Coherent",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 16, 2026, Coherent signed a CHIPS Act letter of intent for up to $50M to double facility space and quadruple wafer output at its Sherman, TX 6-inch InP fab, paired with an NVIDIA groundbreaking ceremony. This directly addresses the capacity bottleneck behind its datacenter optics franchise (backlog booked into 2028, 1.6T ramping, 6-inch InP doubling ahead of plan). Stock +10% since June 9; analyst targets mostly raised in May post-Q3.",
+  "sources": [
+    {
+      "label": "Coherent CHIPS LOI press release",
+      "url": "https://www.coherent.com/news/press-releases/a-chip-letter-of-intent-for-50m-to-expand-world-leading-manufacturing-facility-for-ai-infrastructure"
+    },
+    {
+      "label": "COHR up 7.5% on CHIPS-backed Texas photonics expansion (Yahoo)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coherent-cohr-7-5-chips-081002761.html"
+    },
+    {
+      "label": "Coherent 1.6T ramp, InP capacity doubles ahead of schedule (BigGo)",
+      "url": "https://finance.biggo.com/news/bSLDAJ4BYH_ypPqOjpOa"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "This page rewards undiscovered nodes. The CHIPS+NVIDIA groundbreaking is a positive fundamental but it only deepens COHR's well-covered, $77B, NVIDIA-anointed status - the opposite of latent. Thesis ('far from undiscovered') is reinforced, so hold low.",
+      "bull": "AI optics bottleneck play with NVIDIA equity backing and CHIPS-funded capacity; backlog into 2028.",
+      "neutral": "Real beneficiary but heavily covered; latency-of-discovery is the page's metric, not fundamentals.",
+      "bear": "Fully discovered $77B cap at +102% YTD; no residual latent alpha on this lens.",
+      "primaryCatalyst": "CHIPS InP fab expansion with NVIDIA",
+      "primaryRisk": "Already consensus-owned; zero latency"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 10,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.82,
+      "rankRationale": "On the AI-node bottleneck lens the June 16 CHIPS LOI quadrupling InP wafer capacity (ahead of schedule, NVIDIA-tied) directly relieves the supply constraint gating 800G/1.6T optics demand booked into 2028 - a genuine fundamental improvement, not flow.",
+      "bull": "InP/EML upstream chokepoint for 800G/1.6T; CHIPS-funded 4x wafer capacity; backlog to 2028.",
+      "neutral": "Capacity build de-risks demand but execution and ramp timing remain.",
+      "bear": "Less direct than HBM/packaging; capex-heavy ramp could pressure near-term margins.",
+      "primaryCatalyst": "4x InP wafer capacity expansion",
+      "primaryRisk": "Capacity build execution risk"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 7,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.85,
+      "rankRationale": "Most on-thesis page. The stated risk - 'large recent rerating / capacity build risk' - was materially de-risked: CHIPS LOI funds the InP expansion and NVIDIA groundbreaking validates CPO/optics demand directly at the constraint this lens measures.",
+      "bull": "NVIDIA-validated CPO/silicon-photonics with funded 4x InP capacity removing the key supply risk.",
+      "neutral": "On-thesis leader but priced rich after +102% YTD.",
+      "bear": "Repeat-order and CPO-architecture-adoption timing still unproven at scale.",
+      "primaryCatalyst": "CHIPS-funded InP capacity + NVIDIA",
+      "primaryRisk": "Execution on capacity ramp"
+    },
+    {
+      "page": "companies",
+      "currentRank": 43,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.8,
+      "rankRationale": "On the under-owned-bottleneck master list the scale-out optics thesis strengthened: CHIPS-funded capacity addition (June 16) attacks the exact lasers/components execution risk the listing flags, with NVIDIA validation extending visibility to 2028.",
+      "bull": "Scale-out optics chokepoint with funded capacity and NVIDIA partnership; multi-year backlog.",
+      "neutral": "Strong follow-through but large cap dilutes hidden-alpha scoring here.",
+      "bear": "+102% YTD leaves less under-owned alpha; rerating largely complete.",
+      "primaryCatalyst": "InP capacity expansion announcement",
+      "primaryRisk": "Pricing/execution on optical components"
+    }
+  ]
+}

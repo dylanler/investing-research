@@ -1,0 +1,73 @@
+{
+  "symbol": "NVTS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The NVIDIA MGX 800VDC collaboration (June 3, ceremony May 29), the 800V-to-6V GaNFast PDB at Computex (June 2-5), and the $250m S-3 shelf / earnout-share dilution risk were all already captured in the June 9 case. The -4.81% move since prev is a flow/dilution-driven flush, not new news.",
+  "sources": [
+    {
+      "label": "Navitas NVIDIA MGX 800VDC release",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306044/0/en/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure.html"
+    },
+    {
+      "label": "Navitas MGX (StockTitan)",
+      "url": "https://www.stocktitan.net/news/NVTS/navitas-collaborates-with-nvidia-mgxtm-ecosystem-to-accelerate-800-d7ogaueemitr.html"
+    },
+    {
+      "label": "Navitas/NVIDIA MGX 800VDC",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306044/0/en/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure.html"
+    },
+    {
+      "label": "Navitas 8-K (earnout shares)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001821769/000110465926055620/tm2613492d1_ex99-1.htm"
+    },
+    {
+      "label": "GlobeNewswire - Navitas/NVIDIA MGX 800VDC",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306044/0/en/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure.html"
+    },
+    {
+      "label": "Navitas 800V-6V PDB at GTC/Computex",
+      "url": "https://navitassemi.com/navitas-debuts-revolutionary-800-v-6-v-power-delivery-board-at-nvidia-gtc-2026/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Residual-alpha lens: the NVIDIA-MGX halo and retail attention already killed the 'underfollowed' leg; +160% YTD leaves it not as mispriced as top residual names. No new news since June 9; today's flush partially resets crowding. Offsetting forces - hold.",
+      "bull": "GaN/SiC power in tight supply with direct NVIDIA 800V data-center pull.",
+      "neutral": "Exposure real but now well-followed via the NVIDIA halo.",
+      "bear": "+160% YTD and retail attention erased the under-owned premise; dilution overhang.",
+      "primaryCatalyst": "800VDC rack power-density adoption",
+      "primaryRisk": "Shelf/earnout dilution; early-stage adoption"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "MGX 800VDC and the 800V-to-6V GaNFast PDB modestly raised AI data-center power directness, but that was already credited June 9. No new node-criticality evidence since; dilution is a flow issue. Hold rank 35 on the node map.",
+      "bull": "GaN power-delivery directly enables 800V AI rack architecture, beyond generic analog/power.",
+      "neutral": "More direct than before but still downstream of HBM/packaging criticality.",
+      "bear": "Power optionality not yet at volume; dilution risk; less critical than memory/packaging nodes.",
+      "primaryCatalyst": "GaNFast PDB design-ins on MGX",
+      "primaryRisk": "Adoption timing and dilution"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.76,
+      "rankRationale": "Power/compound-semi optionality with no optical/cable/CPO-layer exposure; the June 4 earnout-share 8-K already materialized this page's stated dilution risk and triggered the June 9 down move. No new info since - the down call stands, hold at the lowered rank 63.",
+      "bull": "AI power-density optionality with NVIDIA pull.",
+      "neutral": "Off-thesis for a CPO list; power not optics.",
+      "bear": "No CPO/optical layer; dilution overhang; belongs low on an actionable CPO-alpha list.",
+      "primaryCatalyst": "800V power adoption (tangential to CPO)",
+      "primaryRisk": "Dilution; zero optical/cable exposure"
+    }
+  ]
+}

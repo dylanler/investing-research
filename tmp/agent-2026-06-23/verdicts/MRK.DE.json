@@ -1,0 +1,31 @@
+{
+  "symbol": "MRK.DE",
+  "company": "Merck KGaA",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Kaohsiung semiconductor megasite inauguration, Shizuoka AMDC investment and the May 1 Electronics CEO appointment all predate the window; no new Electronics/semiconductor-materials datapoint or guidance change has landed since June 9. Stock is -2.3% over the window, drift.",
+  "sources": [
+    {
+      "label": "Merck KGaA Kaohsiung megasite inauguration (EMD)",
+      "url": "https://www.emdgroup.com/en/news/inauguration-kaohsiung-megasite.html"
+    },
+    {
+      "label": "Merck KGaA (MRK.DE) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MRK.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Under-owned-bottleneck master list: upstream fab-materials (thin films, formulation, specialty gases) exposure is a genuine pick-and-shovel bottleneck. Prior up-move already priced the Q1 semis-materials strength and Kaohsiung ramp; nothing new since June 9, so the rank stands. Listed 'negative YTD reset' thesis text is stale (+11% YTD).",
+      "bull": "Kaohsiung megasite and AI-driven Thin Films demand drive leading-edge materials exposure; diversified pharma/life-science ballast.",
+      "neutral": "Scarce upstream bottleneck but diluted within a large diversified conglomerate.",
+      "bear": "Electronics is a minority of a pharma-heavy mix; +11% YTD lags semis peers, materials pricing watch.",
+      "primaryCatalyst": "AI-driven Thin Films/specialty-materials demand and Kaohsiung ramp",
+      "primaryRisk": "Conglomerate dilution; semiconductor-materials pricing and capex cyclicality"
+    }
+  ]
+}

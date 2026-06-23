@@ -1,0 +1,31 @@
+{
+  "symbol": "GNE.NZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The February 2026 capital-acceleration update and maintained FY EBITDAF guidance (NZ$490m-520m) predate the window; only a +3.59% drift, no identifiable catalyst.",
+  "sources": [
+    {
+      "label": "Genesis Energy news",
+      "url": "https://www.genesisenergy.co.nz/about/news"
+    },
+    {
+      "label": "Stockopedia - Genesis Energy (NZE:GNE)",
+      "url": "https://www.stockopedia.com/share-prices/genesis-energy-NZE:GNE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling/power-demand lens: NZ utility with no AI-specific data-center power catalyst since June 9. Generic electricity exposure, no new evidence; +3.59% is benign drift. Hold the long tail.",
+      "bull": "Diversified NZ generation (1200MW Huntly + hydro/wind) gives baseload power-demand optionality if AI electricity load broadens.",
+      "neutral": "Stable regulated utility; no AI-specific demand signal, consensus rating is Hold.",
+      "bear": "No data-center/AI catalyst; NZ-domestic demand and hydrology drive earnings, weak fit for a scaling watchlist.",
+      "primaryCatalyst": "Broad electricity-demand growth from compute load.",
+      "primaryRisk": "No direct AI exposure; NZ regulatory/hydrology sensitivity."
+    }
+  ]
+}

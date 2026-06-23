@@ -1,0 +1,31 @@
+{
+  "symbol": "LEHN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news in the June 9-23 window. Most recent reported numbers are soft: Q1 2026 revenue ~CHF75.7m (-6.5% y/y) with net income down ~58%, and FY revenue down ~6.3% y/y. No AI-specific design win or demand catalyst has emerged to justify the +57.9% YTD re-rating.",
+  "sources": [
+    {
+      "label": "LEM Holding - why earnings flatter than they seem (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-lem-holdings-vtx-lehn-124047046.html"
+    },
+    {
+      "label": "LEM Holding investor information",
+      "url": "https://www.lem.com/en/investors"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 41,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.55,
+      "rankRationale": "Latent-strict rewards under-covered AI-supply evidence; LEM has none, and its most recent fundamentals are deteriorating (Q1 rev -6.5%, NI -58%) against a +57.9% YTD melt-up. No fresh catalyst since June 9, so the thesis weakens modestly versus peers; small negative drift on this lens.",
+      "bull": "Current/voltage sensing could feed HV power monitoring and robotics if AI-power demand materializes.",
+      "neutral": "Niche sensor leader but cyclically exposed; AI demand is prospective, not present.",
+      "bear": "Revenue and margins shrinking while shares ran +58% YTD with no AI-specific evidence.",
+      "primaryCatalyst": "Sensor design win in data-center power monitoring or robotics.",
+      "primaryRisk": "Continued earnings decline de-rating a heavily-run, small-cap name."
+    }
+  ]
+}

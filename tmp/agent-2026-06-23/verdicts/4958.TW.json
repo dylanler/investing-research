@@ -1,0 +1,31 @@
+{
+  "symbol": "4958.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new news since June 9. The June 5 May-revenue report (2026 high, server/optical shipments ~2.5x YoY, IC-substrate sales +~80% YoY) was already public and explicitly cited in the June 9 verdict. Prior catalysts (NT$100B 2-year capex, ~70% AI revenue, 10 new factories, Thailand ramp) all predate June 9.",
+  "sources": [
+    {
+      "label": "Zhen Ding strongest May revenue on server/optical surge (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260605PD242/zhen-ding-revenue-shipments-2026-ic-substrate.html"
+    },
+    {
+      "label": "Zhen Ding ~70% AI revenue, NT$100B capex (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260312PD235/revenue-zhen-ding-pcb-2026-demand.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 87,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the residual-alpha-vs-passives lens, no new fundamental evidence since June 9 (May revenue was already public on June 5). +318% YTD at $21B cap with another news-free pop is rerating chase, not fresh mispricing; crowding penalty deepens slightly, extending the June 9 down call.",
+      "bull": "AI now ~70% of revenue; record server/optical/IC-substrate momentum; aggressive capacity adds.",
+      "neutral": "All catalysts public; the story is fully discovered after +318% YTD.",
+      "bear": "Extreme YTD rerating leaves no hidden/under-owned alpha on a crowding-sensitive list.",
+      "primaryCatalyst": "Continued AI-server/optical PCB and IC-substrate ramp.",
+      "primaryRisk": "Positioning/crowding unwind; PCB ASP and capex-digestion risk."
+    }
+  ]
+}

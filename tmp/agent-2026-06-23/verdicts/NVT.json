@@ -1,0 +1,47 @@
+{
+  "symbol": "NVT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The June 1 Siemens reference architecture for NVIDIA DSX Vera Rubin NVL72 (nVent power/cooling-aligned) and Q1 2026 results (+53% sales) were already captured in the June 9 case. The +4.59% move since prev is recovery from the June pullback, not new news.",
+  "sources": [
+    {
+      "label": "nVent NVIDIA/Siemens blueprint (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-nvt/nvent-electric/news/nvidia-alliance-puts-nvent-at-center-of-ai-data-center-build"
+    },
+    {
+      "label": "nVent IR press releases",
+      "url": "https://investors.nvent.com/press-releases/"
+    },
+    {
+      "label": "nVent/NVIDIA/Siemens AI DC blueprint",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-nvt/nvent-electric/news/nvidia-alliance-puts-nvent-at-center-of-ai-data-center-build"
+    },
+    {
+      "label": "nVent Q1 2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001720635/000162828026029098/q12026nvtpressrelease.htm"
+    },
+    {
+      "label": "Insider Monkey - nVent liquid cooling AI case",
+      "url": "https://www.insidermonkey.com/blog/how-nvent-electric-nvt-is-building-its-ai-data-center-case-around-liquid-cooling-infrastructure-1783757/"
+    },
+    {
+      "label": "nVent Q1 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001720635/000162828026029098/q12026nvtpressrelease.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.82,
+      "rankRationale": "Power/cooling/electrical bottleneck (>2GW liquid cooling deployed, NVL72-aligned reference design) is real but fully recognized: Strong Buy consensus, $185-190 PTs. Nothing new since June 9; the June 1 Siemens/NVIDIA design and Q1 beat already priced. Hold rank 10.",
+      "bull": "Liquid-cooling + power-distribution choke-point for 800V/NVL72 racks; Avail EPG deal gives end-to-end stack.",
+      "neutral": "Bottleneck exposure real but consensus and PTs already reflect it.",
+      "bear": "+60% YTD and Strong Buy consensus leave little under-owned alpha.",
+      "primaryCatalyst": "Vera Rubin NVL72 power/cooling content per rack",
+      "primaryRisk": "Crowding; data-center capex digestion"
+    }
+  ]
+}

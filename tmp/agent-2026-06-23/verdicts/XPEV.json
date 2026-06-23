@@ -1,0 +1,31 @@
+{
+  "symbol": "XPEV",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 10, 2026 (post-June 9) CEO He Xiaopeng took direct personal control of the robotics unit and reaffirmed mass production of the IRON humanoid by Q4 2026, with customer deliveries starting 2027. Stock fell ~16% since the prior refresh on EV-side pressure (Q1 revenue -17.6% YoY) despite the robotics commitment.",
+  "sources": [
+    {
+      "label": "He Xiaopeng takes control of robotics, IRON mass production (Crypto Briefing)",
+      "url": "https://cryptobriefing.com/xpeng-iron-humanoid-robots-mass-production/"
+    },
+    {
+      "label": "XPeng Q1 2026 earnings / Physical AI pivot (BigGo)",
+      "url": "https://finance.biggo.com/news/US_XPEV_2026-05-28"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 18,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: CEO taking direct control of robotics (June 10) and reaffirming IRON Q4-2026 mass production is a genuine post-June-9 commitment signal for the stack thesis. Deliveries slip to 2027 tempers it, but direct fit + under-ownership argue for more alpha weight vs prior 'up' call.",
+      "bull": "CEO-led robotics push, ~200-DOF IRON with VLA 2.0, dedicated 1.2M sq ft factory, Q4 mass production.",
+      "neutral": "IRON real but stock still mostly EV/autonomy; deliveries only 2027.",
+      "bear": "Core EV revenue -17.6% YoY; robotics monetization years out, capital-intensive.",
+      "primaryCatalyst": "IRON mass-production start Q4 2026",
+      "primaryRisk": "EV margin pressure funding robotics; delivery slippage"
+    }
+  ]
+}

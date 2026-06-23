@@ -1,0 +1,31 @@
+{
+  "symbol": "BCVN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Bucher's last update was Q1 2026 (soft demand: group order intake -8.9%, sales -7.3%, Kuhn ag weak on low milk prices; Municipal and Hydraulics positive; full-year 2026 outlook confirmed) — already known at the June 9 case. Flat tape (0.0%) since June 9.",
+  "sources": [
+    {
+      "label": "Bucher confirms 2026 outlook amid modest Q1",
+      "url": "https://www.tipranks.com/news/company-announcements/bucher-industries-holds-2026-outlook-despite-softer-first-quarter-demand"
+    },
+    {
+      "label": "Bucher Q1 ad-hoc release",
+      "url": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/modest-demand-in-the-first-quarter-outlook-for-2026-confirmed/3e5f3f54-7e1f-4c67-9c9e-e7bc8b8e307e_en"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No new AI-adjacent evidence since June 9 and a flat tape (0.0%). The strict-screen case (hydraulics into automated construction/industrial equipment) is unchanged; soft Q1 with confirmed outlook was already known. Drift-only, so the rank should not move.",
+      "bull": "Bucher Hydraulics and Municipal positive; hydraulics could feed automated construction equipment.",
+      "neutral": "Diversified industrial with confirmed 2026 outlook; very indirect AI linkage.",
+      "bear": "Group order intake -8.9% on weak Kuhn ag demand; tenuous latent-AI tie.",
+      "primaryCatalyst": "Hydraulics demand for automation/industrial equipment",
+      "primaryRisk": "Ag-equipment downturn dragging group order intake"
+    }
+  ]
+}

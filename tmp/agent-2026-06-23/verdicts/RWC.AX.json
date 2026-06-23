@@ -1,0 +1,31 @@
+{
+  "symbol": "RWC.AX",
+  "company": "Reliance Worldwide",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. The recent +8.5% move reflects a buyback-supported, value-buying bounce (further A$120M on-market buyback) rather than fresh news. The relevant fundamentals (weak H1 FY2026 with sales -4.6% and adjusted EBITDA -22.5%, guidance for a stronger H2, Mexico facility, copper-out-by-FY2029 plan) predate the window.",
+  "sources": [
+    {
+      "label": "RWC buyback-supported bounce (Kalkine)",
+      "url": "https://kalkine.com.au/news/industrials/reliance-worldwide-asxrwc-shares-bounce-on-buyback-support-and-recovery-hopes"
+    },
+    {
+      "label": "RWC ASX announcements",
+      "url": "https://www.rwc.com/investors/asx-announcements"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "No company-specific news since June 9; the +8.5% move is a buyback/value-buying bounce, not evidence for the water-loop/rapid-build pathway, in a name still -7.5% YTD. The strict latent-node optionality is unchanged, so yesterday's hold stands.",
+      "bull": "Plumbing/flow-control products with optionality into data-center water loops and rapid facility construction; A$120M buyback supports the floor.",
+      "neutral": "Buyback bounce, but weak H1 demand and only a hoped-for H2 recovery; AI link is speculative.",
+      "bear": "Soft H1 (sales -4.6%, EBITDA -22.5%); residential/repair end-markets dominate, with no concrete data-center demand.",
+      "primaryCatalyst": "H2 FY2026 recovery; data-center water-loop optionality",
+      "primaryRisk": "Weak end-market demand; tenuous AI linkage"
+    }
+  ]
+}

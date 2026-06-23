@@ -1,0 +1,31 @@
+{
+  "symbol": "PWR",
+  "company": "Quanta Services",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive. Quanta reported a record ~$48.5B backlog and lifted its full-year outlook, formed the Hyosung Hico Breaker JV to build high-voltage circuit breakers at its PA facility (late-2026 start), and shares rose ~4.2% on June 22 on the manufacturing-expansion news, reinforcing the data-center-driven transmission/substation demand thesis.",
+  "sources": [
+    {
+      "label": "Quanta record backlog and lifted outlook (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-pwr-reports-record-050612906.html"
+    },
+    {
+      "label": "PWR +4.2% Jun 22 manufacturing expansion (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261982445-market-movers-pwr-20260622"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Record $48.5B backlog, lifted outlook and the Hyosung HV-breaker JV are real fundamental positives, but on this passive-stack-alpha lens PWR is a $108B, +63% YTD consensus transmission name in the Monitor bucket - far from hidden passive-component alpha. Small positive only; bottom-of-page placement fits.",
+      "primaryCatalyst": "Record backlog + HV circuit-breaker JV + data-center power demand",
+      "primaryRisk": "Large-cap consensus; execution/margin risk on mega-backlog",
+      "bull": "Record backlog and breaker JV deepen Quanta's grip on grid buildout serving AI data-center power demand beyond 2030.",
+      "neutral": "Strong order book but a widely-owned electrification contractor, not under-the-radar passive-stack alpha.",
+      "bear": "+63% YTD prices in much; large-project execution, labor and uneven utility/AI capex could dilute margins."
+    }
+  ]
+}

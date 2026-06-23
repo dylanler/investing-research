@@ -1,0 +1,44 @@
+{
+  "symbol": "SENS.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Sensirion continued routine product cadence (SCD43 CO2 sensor, SEN62 environmental platform, SHT40/41 humidity/temp sensors) and reiterated mid-term guidance with FX headwinds noted; none of these are new since June 9 and none change guidance. No new design win disclosed.",
+  "sources": [
+    {
+      "label": "Sensirion company news / product launches",
+      "url": "https://sensirion.com/company/news"
+    },
+    {
+      "label": "Sensirion Holding latest news (MarketScreener)",
+      "url": "https://www.marketscreener.com/quote/stock/SENSIRION-HOLDING-AG-42452451/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "High-conviction sensors-as-measurement-layer thesis unchanged since June 8. Product cadence (CO2/humidity/HVAC sensors) is routine, not new design wins; mid-term guide reiterated. +2.4% drift is flow. No new evidence strengthens the cooling/HVAC/edge-AI measurement case; hold at #10.",
+      "bull": "Measurement layer for cooling, HVAC, robotics and edge AI; quality niche sensor franchise with A2L/HVAC and medical/auto design-win pipeline.",
+      "neutral": "Quality compounder, but no fresh catalyst; FX headwinds dampen reported growth.",
+      "bear": "33% YTD rerating prices much of the quality; small ($1.7B) and cyclically exposed to industrial sensing.",
+      "primaryCatalyst": "New HVAC/medical/auto design win or H1 results",
+      "primaryRisk": "FX drag and industrial/auto sensing demand softness"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the test-time-scaling lens Sensirion is a thermal/industrial-control sensor proxy, a tangential fit. No news since June 8 hold; product launches are routine. Nothing changes the scaling-relevance of its sensing portfolio; hold at #24.",
+      "bull": "Sensors for thermal/industrial control feed datacenter and HVAC monitoring buildout.",
+      "neutral": "Peripheral to the core scaling thesis; scientific-instruments bucket.",
+      "bear": "Only indirectly levered to compute scaling; lower-conviction fit than core names.",
+      "primaryCatalyst": "Datacenter/thermal sensing design wins",
+      "primaryRisk": "Tangential to AI scaling; industrial cyclicality"
+    }
+  ]
+}

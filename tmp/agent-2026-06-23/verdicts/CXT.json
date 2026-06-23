@@ -1,0 +1,31 @@
+{
+  "symbol": "CXT",
+  "company": "Crane NXT",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental news since June 9. The +18.6% move since June 9 is a recovery/institutional-flow bounce off an oversold ~$38 base; the raised 2026 sales guidance (+15-17%), maintained $4.10-4.40 EPS, and backlog of $649M (+18.5% YoY) all came with the early-May Q1 print, and the Antares Vision deal closed Mar 31 - all pre-June 9.",
+  "sources": [
+    {
+      "label": "Crane NXT Q1 2026 - sales +17%, EPS $4.10-4.40 guide - StockTitan",
+      "url": "https://www.stocktitan.net/news/CXT/crane-nxt-reports-first-quarter-2026-i0rg2npz6eue.html"
+    },
+    {
+      "label": "CXT institutional rush / backlog $649M - Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-cxt/crane-nxt/news/does-crane-nxts-cxt-institutional-rush-reveal-a-deeper-edge/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the strict latent-nodes lens the authentication/sensing/secure-transaction thesis is intact and unchanged. The +18.6% bounce since June 9 is flow recovering the prior oversold discount - it removes some of the cheapness asymmetry the June 9 case credited, but it is not fresh negative fundamental news. Net hold, scoreDelta 0.",
+      "primaryCatalyst": "Authentication / anti-counterfeit / secure transaction demand; backlog +18.5%",
+      "primaryRisk": "AI linkage is thematic; bounce already recouped the oversold discount",
+      "bull": "Raised 2026 sales guide, +18.5% backlog and Antares Vision broaden the authentication/sensing franchise.",
+      "neutral": "Solid niche infrastructure name; AI-node tie is latent and the cheapness edge has partly closed on the bounce.",
+      "bear": "Currency/payment-tech cyclicality with only indirect AI exposure; the easy re-rating from the lows is done."
+    }
+  ]
+}

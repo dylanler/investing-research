@@ -1,0 +1,73 @@
+{
+  "symbol": "MCHP",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material news since June 9. The recovery print (Q4 FY26 sales $1.31B, +35% YoY; June-quarter guide ~$1.456B midpoint; data-center connectivity wins) was the early-May earnings already reflected in the prior case, and the DCS ~$500M guide/price hikes were June 1 items. The +2.9% move since June 9 is recovery-story momentum, not a fresh catalyst.",
+  "sources": [
+    {
+      "label": "Microchip Q4/FY26 results, data-center wins",
+      "url": "https://futurumgroup.com/insights/microchip-technology-q4-fy-2026-revenue-beats-consensus-with-data-center-wins/"
+    },
+    {
+      "label": "Microchip Q4 FY26 press release",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1387/microchip-technology-announces-financial-results-for-fourth-quarter-and-fiscal-year-2026"
+    },
+    {
+      "label": "Microchip DCS business targets ~$500M 2026 revenue (Jun 1)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/01/3304718/0/en/microchip-provides-data-center-solutions-business-unit-revenue-information.html"
+    },
+    {
+      "label": "Microchip TimePictra 12 timing-software launch",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/how-microchips-timepictra-12-software-pivot-at-microchip-tec"
+    },
+    {
+      "label": "StockTitan: Microchip DCS unit $500M 2026 revenue",
+      "url": "https://www.stocktitan.net/news/MCHP/microchip-provides-data-center-solutions-business-unit-revenue-k4wb0dlbheds.html"
+    },
+    {
+      "label": "Futurum: Microchip Q4 FY26 beats with data center wins",
+      "url": "https://futurumgroup.com/insights/microchip-technology-q4-fy-2026-revenue-beats-consensus-with-data-center-wins/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha lens: nothing new since June 9. DCS guide and price hikes already chased; +45% YTD leaves little residual alpha for a secondary name. TimePictra 12 is incremental. Stays a balanced-but-not-mispriced secondary residual-alpha holding.",
+      "bull": "DCS connectivity/power content compounding ~65% in 2026; tight supply and embedded breadth give durable AI-adjacent leverage.",
+      "neutral": "Solid recovery story but already well-covered and rerated; limited residual mispricing.",
+      "bear": "+45% YTD prices in the recovery; broad cyclical embedded exposure caps residual alpha.",
+      "primaryCatalyst": "Continued DCS revenue ramp and bookings recovery",
+      "primaryRisk": "Cyclical embedded demand wobble after a sharp rerate"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node bottleneck lens: MCHP is indirect (analog/power/RF), not HBM/advanced-packaging/networking. No node-relevance news since June 9; TimePictra is timing software. Prior down-move already reflected indirect exposure post-run. Hold.",
+      "bull": "Power and timing content rides AI-server buildout; data-center connectivity wins broaden node adjacency.",
+      "neutral": "AI-adjacent but a step removed from the true node bottleneck.",
+      "bear": "Not a node choke-point; broad analog cyclicality dominates the story.",
+      "primaryCatalyst": "Data-center power/connectivity design wins",
+      "primaryRisk": "Indirect node exposure limits bottleneck alpha"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Co-packaged-optics lens: MCHP is peripheral (infra controls/timing content), not a primary CPO play. The June TimePictra 12 timing-software launch is sync/control, not CPO-relevant. No change to its peripheral position since June 9. Hold.",
+      "bull": "Timing/sync content sits adjacent to high-speed optical infrastructure buildout.",
+      "neutral": "Embedded/analog supplier with only tangential CPO linkage.",
+      "bear": "Not a co-packaged-optics alpha candidate; broad cyclical exposure.",
+      "primaryCatalyst": "Timing-network content attach in optical infrastructure",
+      "primaryRisk": "Peripheral to the CPO supply chain"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "002979.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The relevant catalysts (CES 2026 dexterous-hand/frameless-motor wins, entry into 80%+ of Chinese humanoid supply chains, FY26 guidance of 20-30% revenue and 30-50% net-profit growth) were all disclosed earlier in 2026 and are already in the thesis. Stock essentially flat (-1.8%) since the last refresh.",
+  "sources": [
+    {
+      "label": "Leadshine CES 2026 robotics supply-chain entry (PRNewswire)",
+      "url": "http://www.prnewswire.com/news-releases/leadshine-achieves-great-success-at-ces-2026-entering-us-and-european-robotics-supply-chain-302660601.html"
+    },
+    {
+      "label": "Leadshine 2025 Annual / 2026 Q1 report",
+      "url": "https://www.leadshine.com/newsEvent/details/leadshine-2025-annual-report-&-2026-q1-report:-accelerating-the-growth-flywheel,-revenue-hits-new-highs.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens: Leadshine remains a near-pure motion-control/actuation supplier (motors, joints, dexterous hands) with broad China design-win penetration and a still-modest $2.5B cap. No new evidence since June 9; CES wins and FY26 growth guidance already in thesis. Hold.",
+      "bull": "Pure actuation play (FM frameless motors, DH dexterous hands) inside 80%+ of China humanoids; small cap leaves alpha; FY26 guides 30-50% profit growth.",
+      "neutral": "Strong positioning already priced after +28% YTD; needs order/revenue conversion to re-rate further.",
+      "bear": "China humanoid demand is forward-looking; component pricing competition and execution risk if volumes slip.",
+      "primaryCatalyst": "Volume humanoid component orders / 2026 revenue conversion",
+      "primaryRisk": "China humanoid demand and margin compression"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "6315.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material catalyst since June 9. May 2026 results showed a profit decline but management signaled a strong rebound and a higher dividend; FY2026 outlook is explicitly tied to HBM, AI accelerators, advanced packaging and panel-level packaging (PLP) demand. The +11.4% move since June 9 is sector/flow-driven.",
+  "sources": [
+    {
+      "label": "TOWA Corporation 6315 quote/news (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/6315.T/"
+    },
+    {
+      "label": "TOWA (TSE:6315) analysis (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6315/towa-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling/semiconductors bucket: TOWA's molding/packaging equipment ties FY2026 directly to HBM, AI accelerators, advanced packaging and PLP, supporting the high rank #2. No new fundamentals since June 9 (+11.4% is flow), and a soft prior quarter with promised rebound argues to hold rather than add at the top.",
+      "bull": "Compression-molding/PLP leader directly levered to HBM and AI advanced-packaging capacity.",
+      "neutral": "Outlook strong but recent profit dip; current rank already reflects the thesis.",
+      "bear": "Lumpy equipment orders and a recent earnings decline against a 38% YTD run.",
+      "primaryCatalyst": "PLP / advanced-packaging molding orders as HBM and accelerators scale",
+      "primaryRisk": "Equipment-order lumpiness and capex digestion after the run-up"
+    }
+  ]
+}

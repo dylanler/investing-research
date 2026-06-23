@@ -1,0 +1,31 @@
+{
+  "symbol": "TEJASNET.NS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No confirmed new material order since June 9. The stock saw a large volume surge and +14.7% move, but searches surface only a June 3 volume spike and prior-cycle BSNL/Bharatnet/NEC wins; the FY2026 Q1 revenue collapse (down ~87% YoY on PO timing delays) remains the salient fundamental backdrop. Move appears flow/momentum-driven.",
+  "sources": [
+    {
+      "label": "Tejas Networks $900M BSNL 4G/5G order (Light Reading)",
+      "url": "https://www.lightreading.com/2g-3g-4g/indian-vendor-tejas-receives-900m-ran-order-its-largest-ever"
+    },
+    {
+      "label": "Tejas Networks volume surge / buy signals (MarketsMojo)",
+      "url": "https://www.marketsmojo.com/news/stocks-in-action/tejas-networks-ltd-sees-exceptional-volume-surge-amid-strong-buy-signals-4033845"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.45,
+      "rankRationale": "Test-time-scaling lens via sovereign telecom build-outs: no confirmed new order since June 9, and the +14.7% pop looks flow/volume-driven, not a fresh fundamental win. Lumpy BSNL/Bharatnet revenue and recent ~87% YoY revenue collapse on PO timing keep conviction low. Hold at 39.",
+      "bull": "Sovereign India telecom build-out (BSNL 4G/5G, Bharatnet 3) and NEC Massive MIMO give a domestic-supply tailwind in compute-factory networking.",
+      "neutral": "Networking-equipment exposure to sovereign build-outs, but only loosely tied to the AI test-time-scaling thesis.",
+      "bear": "Severe revenue lumpiness and PO-timing-driven shortfalls; recent quarter swung to a loss, and the rally lacks a confirmed fresh catalyst.",
+      "primaryCatalyst": "BSNL expansion / Bharatnet Phase 3 order conversion",
+      "primaryRisk": "Order-timing volatility and concentrated government-customer dependence"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "002472.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Thesis unchanged: RV/harmonic reducer and planetary-roller-screw supplier into Tesla Optimus and Unitree humanoids, gaining share vs Nabtesco. The -9.6% move since June 9 and -13.7% YTD reflect China humanoid-chain profit-taking/beta, with no negative company-specific catalyst found.",
+  "sources": [
+    {
+      "label": "Shuanghuan reducers to Optimus & Unitree",
+      "url": "https://jamestown.org/new-gains-in-prc-robotics-software-hardware/"
+    },
+    {
+      "label": "Shuanghuan-Xinjian planetary roller screw collaboration",
+      "url": "https://www.futunn.com/en/stock/002472-SZ/news/news"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Humanoid-stack lens: gear/driveline plus planetary-roller-screw exposure into Optimus/Unitree keeps it relevant to the actuation joint stack, but it is larger than the best KOID-hidden names. No fresh news since June 9 and the drawdown is price/beta, not fundamentals; hold on the thesis.",
+      "bull": "RV/harmonic reducers + PRS into Tesla Optimus & Unitree; share gains vs Nabtesco.",
+      "neutral": "Actuation purity intact; no new commercialization milestone since June 9.",
+      "bear": "$5.3B cap larger than hidden peers; humanoid timelines and China-chain beta are volatile.",
+      "primaryCatalyst": "Optimus/Unitree volume ramp and PRS qualification",
+      "primaryRisk": "Humanoid commercialization delay / mega-cap dilution of purity"
+    }
+  ]
+}

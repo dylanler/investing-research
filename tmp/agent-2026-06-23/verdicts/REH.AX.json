@@ -1,0 +1,35 @@
+{
+  "symbol": "REH.AX",
+  "company": "Reece",
+  "caseDate": "2026-06-23",
+  "newsSince": "Sentiment deteriorated since early June: consensus FY26 EPS cut from A$0.525 to A$0.441 and price targets trimmed (A$15.30 to ~A$10-11.82) on US (Morsco) weakness, with US EBIT margins falling from 5.1% to 3.6% over three half-years amid softening US residential construction and rising labour costs. The +10% price bounce since June 9 is a partial recovery off a sharp drawdown, not a fundamental improvement.",
+  "sources": [
+    {
+      "label": "Reece FY26 outlook & US Morsco margin pressure (Montgomery)",
+      "url": "https://www.montinvest.com/investor-insights/insights/reece-a-tough-outlook-anticipated-for-fiscal-2026"
+    },
+    {
+      "label": "Reece slides on US housing weakness (Kalkine)",
+      "url": "https://kalkine.com.au/news/general-news/reece-asxreh-slides-6-on-us-housing-weakness-and-construction-macro-softening"
+    },
+    {
+      "label": "Reece (ASX:REH) Simply Wall St",
+      "url": "https://simplywall.st/stocks/au/capital-goods/asx-reh/reece-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 94,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent lens: FY26 EPS and target cuts on US (Morsco) margin erosion and weak US residential construction undercut the already-thin plumbing/HVAC compute-aggregator thesis. Core demand softening makes the data-center water-site repurposing story less credible, not more. Fundamentals weakening modestly.",
+      "primaryCatalyst": "Plumbing/HVAC distribution aggregating water-intensive compute-site demand",
+      "primaryRisk": "US (Morsco) margin compression and softening residential construction",
+      "bull": "Dominant ANZ plumbing distributor; buyback; eventual data-center water/HVAC fit-out optionality.",
+      "neutral": "Quality distributor but cyclically pressured; no evidence of compute-site demand capture.",
+      "bear": "US EBIT margins down 5.1%->3.6%, EPS cuts, housing weakness; latent-AI tie is purely speculative."
+    }
+  ]
+}

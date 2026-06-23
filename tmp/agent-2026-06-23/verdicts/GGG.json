@@ -1,0 +1,31 @@
+{
+  "symbol": "GGG",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Q1 revenue/operating-income miss and the May 21 Valco Melton acquisition ($447M cash, ~14x EBITDA, closing Q3) both predate the window and were in the prior case. Nothing new since.",
+  "sources": [
+    {
+      "label": "Graco Q1 earnings vs peers",
+      "url": "https://stockstory.org/us/stocks/nyse/ggg/news/earnings/q1-earnings-highlights-graco-nyseggg-vs-the-rest-of-the-gas-and-liquid-handling-stocks"
+    },
+    {
+      "label": "Graco to acquire Valco Melton 8-K",
+      "url": "https://www.stocktitan.net/sec-filings/GGG/8-k-graco-inc-reports-material-event-60c64f9864ff.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node lens: precision fluid-handling could touch coolant/thermal-fluid handling, but the thesis is unchanged. Q1 miss and Valco Melton deal predate June 9 and were in the prior case; -0.8% is drift. No new info. Hold.",
+      "primaryCatalyst": "Precision fluid metering/dispensing optionality for data-center coolant and thermal-fluid handling.",
+      "primaryRisk": "Soft industrial demand (Q1 revenue/operating-income miss) and only indirect AI exposure.",
+      "bull": "Best-in-class fluid-handling franchise plus Valco Melton adds adhesives/inspection adjacency.",
+      "neutral": "High-quality industrial compounder but AI-coolant linkage remains speculative and unproven in numbers.",
+      "bear": "Cyclical industrial softness, a recent guidance miss, and no direct AI revenue line yet."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "symbol": "NCC.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 11, 2026 NCC Group released H1 FY26 interim results and concluded its strategic review: it ruled out a sale and will remain a listed pure-play cyber security business. The Escode disposal completed May 29 for £262.8m net, leaving ~£230m net cash; the board announced a ~£185m capital return (£170m tender + £15m buyback, after an earlier £40m buyback). Cyber revenue grew 5.9% cc to £118.4m, group adjusted EBITDA +27.7%, record cyber gross margin 38.4%, three consecutive quarters of cyber growth. The stock fell ~13% as the sale process ended, but the underlying pure-play cyber thesis and balance sheet strengthened.",
+  "sources": [
+    {
+      "label": "NCC H1 FY26 interim results (RNS/PDF)",
+      "url": "https://www.nccgroup.com/media/fvle0btz/ncc-interims-h1-fy26-110626.pdf"
+    },
+    {
+      "label": "Conclusion of the Cyber Strategic Review (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/ncc-group--ncc/conclusion-of-the-cyber-strategic-review/9612473"
+    },
+    {
+      "label": "NCC selected for OpenAI Daybreak (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/ncc-group-selected-to-join-openai-daybreak-cyber-partner-programme-ce7f5fdadb81fe24"
+    },
+    {
+      "label": "NCC H1 FY26 interim results (RNS/Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/ncc-group--ncc/unaudited-interim-results/9612591"
+    },
+    {
+      "label": "NCC H1 FY26 interims PDF",
+      "url": "https://www.nccgroup.com/media/fvle0btz/ncc-interims-h1-fy26-110626.pdf"
+    },
+    {
+      "label": "NCC concludes strategic review, remains listed (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/ncc-group-concludes-strategic-review-and-remains-listed-ce7f5cd9d188ff23"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "H1 FY26 (Jun 11): cyber rev +5.9%, EBITDA +27.7%, Escode sold for GBP262.8m -> pure-play cyber-assurance with ~GBP230m net cash + GBP185m returns. Modestly strengthens the IT-security choke-point thesis this watchlist rewards. -12.9% move is sell-the-news, not thesis damage; hold rank, small fundamental uptick.",
+      "bull": "Pure-play cyber pivot complete; three straight quarters of cyber growth, EBITDA margins +3.2pts, fortress balance sheet (~GBP230m net cash) funding GBP185m of returns.",
+      "neutral": "Solid execution but small-cap (~$0.5B) and assurance/testing is only loosely a scaling/test-time bottleneck; FY guidance only mid-to-low single-digit.",
+      "bear": "Post-disposal NCC is a shrunken pure-play with mid-single-digit growth; -12.9% drop signals the market doubts the re-rate, and AI-scaling relevance is tenuous.",
+      "primaryCatalyst": "Pure-play cyber re-rating + GBP185m capital return execution",
+      "primaryRisk": "Cyber demand softens; thin AI-scaling linkage caps multiple"
+    }
+  ]
+}

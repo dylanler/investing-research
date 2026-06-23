@@ -1,0 +1,31 @@
+{
+  "symbol": "5803.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "MATERIAL: on June 19, 2026 Fujikura unexpectedly raised FY operating-income guidance to ~¥310bn from ¥211bn, citing optical-fiber price increases and strong AI-hyperscaler demand; shares hit limit-up (+44% since June 9). The earlier ¥300bn / ~3x capacity-triple plan and US subsidiary (Delaware) are March-2026 news being executed. The guidance beat confirms AI-fiber pricing power for the sector.",
+  "sources": [
+    {
+      "label": "Bloomberg - Fujikura shares surge on profit outlook hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-19/fujikura-shares-set-to-soar-as-outlook-hike-calms-market-jitters"
+    },
+    {
+      "label": "DCD - Fujikura to triple fiber output, $2bn investment",
+      "url": "https://www.datacenterdynamics.com/en/news/fujikura-to-triple-optical-fiber-production-as-part-of-2bn-investment/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "Fundamentals genuinely improved: the June 19 guidance hike (OP ¥310bn vs ¥211bn) on AI-fiber pricing power is a real positive datapoint, so +2 on the thesis. But this page's lens treats Fujikura as the discovered 'control,' and a +44% limit-up exhausts the latent/under-covered angle entirely. Net hold on rank despite the fundamental tick.",
+      "bull": "Guidance hike confirms fiber pricing power + AI demand; ~3x capacity + US plant locks multi-year volume.",
+      "neutral": "Strong fundamentals but the crowd has fully discovered the name; control, not fresh alpha.",
+      "bear": "+44% in two weeks on top of +111% YTD; any pricing normalization de-rates hard.",
+      "primaryCatalyst": "FY guidance hike / fiber pricing power",
+      "primaryRisk": "Crowded; pricing normalization"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "EKI.PA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. FY25 results (revenue EUR105m, -11%) were March 11; the PTM (Photonic Transport Modular) DCI roadmap, SASE push and Orange 800G/757km demo were already disclosed. Nothing new since the prior case.",
+  "sources": [
+    {
+      "label": "Ekinops FY2025 results",
+      "url": "https://www.prnewswire.com/news-releases/fy-2025-results-105-m-in-revenue-10-0-ebitda-margin-302711432.html"
+    },
+    {
+      "label": "Ekinops Orange 800G demo",
+      "url": "https://www.ekinops.com/news/technologies/ekinops-achieves-800-gbit-s-optical-transmission-over-nearly-800-km-on-orange-long-distance-network"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling/networking lens: optical transport + emerging PTM DCI line keep a thin scaling-infrastructure tie, but revenue is shrinking and the DCI product won't commercialize until end-2026. No new info since June 9; -6.6% is flow. Hold.",
+      "primaryCatalyst": "PTM DCI transponder line (end-2026 launch) plus SASE expansion under the Bridge plan.",
+      "primaryRisk": "Sub-$100M micro-cap with declining revenue (-11% FY25) and execution risk on unproven new lines.",
+      "bull": "DCI-focused PTM platform and 800G demos position a tiny optical name for AI interconnect demand.",
+      "neutral": "Real but distant DCI exposure; current numbers contracting, scaling fit is peripheral.",
+      "bear": "Falling revenue, micro-cap liquidity, and DCI revenue not landing until late 2026 leave the thesis speculative."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "ARBE",
+  "company": "Arbe Robotics",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. The standing flow remains the CES 2026 NVIDIA-powered AI radar platform, a Hirain LRR610 Level-4 design win in China (SOP Dec 2026), and a Q1 2026 revenue jump off a tiny base. The -18% move since June 9 is micro-cap noise with no negative news identified.",
+  "sources": [
+    {
+      "label": "Arbe + NVIDIA AI radar platform (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/arbe-combines-market-leading-radar-solution-with-powerful-nvidia-ai-computing-creating-advanced-platform-for-ai-based-driving-302652551.html"
+    },
+    {
+      "label": "Arbe Q1 2026 results / radar strategy (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/arbe-robotics-posts-q1-2026-revenue-jump-and-expands-radar-systems-strategy"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "Humanoid-stack lens: ARBE is radar-perception optionality, not a humanoid supplier. NVIDIA platform + China L4 design win keep the redundant-sensing thesis alive, but no fresh catalyst since June 9 and ~$90M cap on tiny revenue. Hold; slight trim for unchanged-yet-rich speculative beta.",
+      "bull": "Radar redundancy becomes essential as robots/AVs leave controlled demos; NVIDIA platform + China L4 win seed the chipset funnel.",
+      "neutral": "Real design wins but revenue still negligible; story-stock optionality at a sub-$100M cap.",
+      "bear": "No humanoid traction yet, cash burn, dilution risk; -42% YTD signals fading patience.",
+      "primaryCatalyst": "Conversion of NVIDIA/Hirain design wins into chipset SOP volume (Dec 2026).",
+      "primaryRisk": "Cash burn and dilution at a micro-cap with negligible revenue."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "symbol": "KLAC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The only window events are a 10-for-1 stock split effective June 12 and a ~21% dividend hike, both cosmetic/capital-return items the page lens already flagged as flow-chase. The ~-88.5% reported move is purely the split adjustment, not a fundamental change. Process-control demand for AI fabs/HBM and advanced packaging remains the underlying driver; no new orders, guidance change, or export-control news in the window.",
+  "sources": [
+    {
+      "label": "KLA 10-for-1 split & dividend (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/kla-corporation-announces-ten-to-one-stock-split-and-quarterly-cash-dividend-payment-302766137.html"
+    },
+    {
+      "label": "KLA split/dividend/guidance (Ainvest)",
+      "url": "https://www.ainvest.com/news/kla-corporation-announces-10-1-stock-split-higher-dividend-guidance-2027-2606/"
+    },
+    {
+      "label": "KLAC stock fell 7% after split (TIKR)",
+      "url": "https://www.tikr.com/blog/kla-corporation-stock-fell-7-this-week-right-after-its-10-for-1-split-heres-where-the-stock-could-go-in-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "AI-node bottleneck lens: process-control intensity at 2nm/GAA and HBM keeps the node case intact. June 12 split and dividend hike are cosmetic, not fundamental; prior cases already de-rated for the split-flow spike. No new node-relevant news -> hold.",
+      "primaryCatalyst": "Process-control intensity rising at 2nm/GAA and HBM capacity adds",
+      "primaryRisk": "Export-control exposure; order-timing/capex-cycle volatility",
+      "bull": "Indispensable inspection/metrology gatekeeper for leading-edge AI fabs and HBM yield; demand multi-year.",
+      "neutral": "Real bottleneck exposure but mature, well-owned mega-cap; split/dividend add nothing to the node thesis.",
+      "bear": "Steep YTD re-rating and crowded ownership leave little hidden alpha; export-control and cycle risk persist."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Co-packaged-optics/crowding-sensitive alpha lens: prior verdict already moved KLA down for the June 8 split-flow pop. The June 12 split and dividend are confirmation, not new fundamental evidence on photonics/packaging yield. Discovery already high; no further move warranted -> hold.",
+      "primaryCatalyst": "Silicon-photonics/advanced-packaging yield-control demand",
+      "primaryRisk": "High valuation, capex cycle, crowded flow-chase",
+      "bull": "Metrology/inspection is essential to CPO and advanced-packaging yield ramps as optics move on-package.",
+      "neutral": "CPO exposure is indirect and discovery is high; the split is pure flow, not residual alpha.",
+      "bear": "Cosmetic-catalyst pop into a crowded mega-cap shrinks residual alpha on a CPO-purity screen."
+    },
+    {
+      "page": "companies",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Under-owned-bottleneck master list: prior verdict already moved KLA down for the YTD re-rating and recognition. Split/dividend in the window are capital-return cosmetics with no fundamental shift; re-penalizing would double-count. Pick-and-shovel exposure intact -> hold.",
+      "primaryCatalyst": "Leading-edge capacity adds drive process-control input demand",
+      "primaryRisk": "Valuation/recognition risk; inspection-metrology pricing and execution",
+      "bull": "Best-in-class process-control franchise riding AI fab and HBM capacity; durable pricing.",
+      "neutral": "Quality bottleneck name but already widely recognized and richly valued; measured upside.",
+      "bear": "Well-discovered at a $321B cap; alpha from scarce bottleneck exposure largely captured."
+    }
+  ]
+}

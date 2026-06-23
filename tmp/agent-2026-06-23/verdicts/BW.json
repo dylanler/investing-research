@@ -1,0 +1,31 @@
+{
+  "symbol": "BW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The headline $2.4B Base Electron / Applied Digital full-NTP power project was announced March 4, 2026, and a securities-fraud class action alleging concealed contract risks was filed in May 2026 - both predate the window. The +6.3% move since June 9 is price/sentiment, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "B&W full NTP on $2.4B Base Electron project (Mar 4, 2026)",
+      "url": "https://www.babcock.com/home/about/corporate/news/babcock-and-wilcox-receives-full-notice-to-proceed-on-24-billion-power-generation-project-for-base-electron-to-supply-power-to-applied-digital-ai-factory-campuses"
+    },
+    {
+      "label": "B&W securities fraud lawsuit over $2.4B AI contract",
+      "url": "https://www.tipranks.com/news/class-action/babcock-wilcox-enterprises-faces-securities-lawsuit-over-alleged-omissions-tied-to-2-4-billion-ai-power-contract"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Power systems / thermal infrastructure fit intact. The $2.4B Base Electron data-center power deal (Mar 4) and the related securities suit both predate the window; nothing new June 9-23. Hold rank on the electricity scaling basket; +6.3% move is price-only.",
+      "bull": "1.2GW Base Electron NTP plus prior 1GW Applied Digital give multi-year AI-power backlog visibility into 2028.",
+      "neutral": "Order book is known; execution and a pending fraud suit cap incremental upside this window.",
+      "bear": "Securities class action alleging concealed contract risks; design-build execution and gas-turbine supply chain risk.",
+      "primaryCatalyst": "AI data-center power backlog conversion to revenue",
+      "primaryRisk": "Securities litigation / contract execution risk"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "CEVA",
+  "company": "CEVA",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 results (record licensing in 3 years, AI >20% of licensing, Bluetooth HDT RF win, Renesas R-Car V4H in 2026 Toyota RAV4) were reported May 11, well before the window. The +8% move since June 9 is flow/momentum, not new fundamentals.",
+  "sources": [
+    {
+      "label": "CEVA Q1 2026 results (PRNewswire, May 11)",
+      "url": "https://www.prnewswire.com/news-releases/ceva-inc-announces-first-quarter-2026-financial-results-302767706.html"
+    },
+    {
+      "label": "CEVA Bluetooth HDT RF design win (StockTitan)",
+      "url": "https://www.stocktitan.net/news/CEVA/ceva-advances-full-stack-wireless-vision-with-next-generation-atf6z6syx3ad.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 109,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Through the co-packaged-optics lens CEVA has no direct CPO/optical relevance; it is a small wireless/edge-AI IP licensor. No news since June 9 changes that. Prior case flagged it for removal; nothing fundamental rehabilitates the CPO fit. Hold.",
+      "bull": "Record licensing quarter and edge-AI design wins (RAV4, NXP SDV) show IP traction.",
+      "neutral": "Real IP business but with no CPO/optical interconnect exposure relevant to this page.",
+      "bear": "Tiny $1.3B cap, +108% YTD, zero co-packaged-optics linkage; lumpy royalty model.",
+      "primaryCatalyst": "Edge-AI / connectivity IP licensing momentum",
+      "primaryRisk": "No CPO relevance; licensing revenue lumpiness"
+    }
+  ]
+}

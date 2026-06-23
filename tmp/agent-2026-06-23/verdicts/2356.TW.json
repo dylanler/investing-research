@@ -1,0 +1,31 @@
+{
+  "symbol": "2356.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The bullish data points - record Q1 (NT$200.3B, +27.6% YoY; servers >50% of revenue), record March monthly print, and 2026 AI-server growth set to surpass 2025 - are mid-May vintage and already priced. The stock drifted -6% over the two weeks.",
+  "sources": [
+    {
+      "label": "BigGo - Inventec Q1 2026 record, servers >50% of revenue",
+      "url": "https://finance.biggo.com/news/TW_2356.TW_2026-05-12"
+    },
+    {
+      "label": "DIGITIMES - Inventec strong AI/general server demand through 2028",
+      "url": "https://www.digitimes.com/news/a20260512PD243/inventec-2026-2028-demand-growth.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha lens: no fresh post-June-9 evidence; the record Q1, >50% server mix and 2026>2025 AI-server guidance are mid-May and already priced. At +48% YTD with a modest two-week pullback the setup is unchanged from the prior hold; balanced AI exposure keeps rank 14 in the secondary bucket.",
+      "bull": "AI-server ODM with servers now >50% of revenue and 2026 AI growth set to exceed 2025; demand visibility through 2028.",
+      "neutral": "Solid AI exposure but ODM economics are thin and the story is already well known.",
+      "bear": "China clients are >50% of AI-server revenue (concentration/policy risk); little fresh catalyst to extend residual alpha.",
+      "primaryCatalyst": "AI-server shipment ramp and rising server mix",
+      "primaryRisk": "ODM margin pressure; China-customer concentration"
+    }
+  ]
+}

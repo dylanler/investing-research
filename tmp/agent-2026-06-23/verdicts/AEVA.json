@@ -1,0 +1,31 @@
+{
+  "symbol": "AEVA",
+  "company": "Aeva",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. Aeva's headline wins (exclusive European OEM L3 production contract, NVIDIA DRIVE Hyperion reference sensor, Daimler Truck, a top-5 OEM JDP, Forterra defense) all predate June 9 and are reflected in the +92% YTD run. The most recent dated events are a June 3 follow-on equity offering (dilution) and a June 9-12 ITS America showcase of its CityOS platform - neither a new fundamental catalyst. The +10% move since June 9 is momentum, not fresh news.",
+  "sources": [
+    {
+      "label": "BusinessWire: Aeva launches follow-on offering (June 3)",
+      "url": "https://www.businesswire.com/news/home/20260603397003/en/Aeva-Technologies-Inc.-Launches-Proposed-Follow-On-Offering"
+    },
+    {
+      "label": "Aeva: exclusive global production contract from top European OEM",
+      "url": "https://www.aeva.com/press/aeva-wins-exclusive-global-production-contract-from-top-european-passenger-oem/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid/physical-AI sensing lens: strong 4D LiDAR design-win stack (NVIDIA Hyperion, European OEM L3, Daimler) but all predate June 9 and are priced in; the only fresh items are a June 3 dilutive raise and a minor June 9-12 conference showcase. No new fundamental shift - hold at #21.",
+      "primaryCatalyst": "4D LiDAR ramp into OEM L3 production and physical-AI/NVIDIA Hyperion adoption",
+      "primaryRisk": "Stock has already moved (+92% YTD); 2026 revenue still only $30-36M; recent dilution",
+      "bull": "FMCW 4D LiDAR is a differentiated physical-AI sensing platform with marquee OEM, NVIDIA, and Daimler wins extending into robotics/industrial.",
+      "neutral": "Great sensing story, but the wins are known and 2026 revenue is tiny relative to the rerating.",
+      "bear": "Crowded after a big run, pre-scale revenue, fresh equity dilution; valuation prices much future success."
+    }
+  ]
+}

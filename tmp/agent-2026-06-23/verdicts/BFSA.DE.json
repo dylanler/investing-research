@@ -1,0 +1,47 @@
+{
+  "symbol": "BFSA.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material AI-chain news since June 9. Recent items reiterate FY2025 record results (adj. EBITDA EUR 243M) and a 2026 growth outlook driven by higher US EAF steel-dust volumes, offset by a higher zinc treatment charge (~$100-130/t vs $80/t in 2025). The -5.5% move likely reflects the June 17 ex-dividend and zinc/TC noise, not new fundamentals.",
+  "sources": [
+    {
+      "label": "Befesa earnings update & recycling outlook (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-earnings-update-and-recycling-outlook/69395616"
+    },
+    {
+      "label": "Befesa record 2025 performance (Recycling Today)",
+      "url": "https://www.recyclingtoday.com/news/befesa-sees-record-performance-in-2025/"
+    },
+    {
+      "label": "Befesa AGM agenda & capital-return plans",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-agm-agenda-and-capital-return-plans-move/69390318"
+    },
+    {
+      "label": "Befesa AGM agenda and capital return - ad-hoc-news",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-agm-agenda-and-capital-return-plans-move/69390318"
+    },
+    {
+      "label": "Befesa record 2025 performance - Recycling Today",
+      "url": "https://www.recyclingtoday.com/news/befesa-sees-record-performance-in-2025/"
+    },
+    {
+      "label": "Befesa Q1 results and guidance (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/befesa-reports-improved-margins-despite-lower-volumes-in-first-quarter-93CH-4647784"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold rank 7. No new fundamental information since June 9; the -5.5% drift is ex-dividend/flow noise post the routine June 16 AGM. The latent metals-circularity-for-AI-build-out node is intact and marginally cheaper - no thesis-changing evidence to move the rank.",
+      "bull": "Steel-dust/aluminum-residue recycling leverages metal circularity as AI build-out lifts EAF steel and metal demand; record 2025 EBITDA.",
+      "neutral": "Solid circular-economy compounder but the AI link is indirect and speculative.",
+      "bear": "Higher 2026 zinc treatment charge (~$100-130/t vs $80) pressures margins; AI tie is tenuous.",
+      "primaryCatalyst": "Higher US EAF steel-dust volumes from new steelmaker contracts.",
+      "primaryRisk": "Zinc treatment-charge and metals-price volatility."
+    }
+  ]
+}

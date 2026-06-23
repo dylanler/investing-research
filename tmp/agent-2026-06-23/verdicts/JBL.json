@@ -1,0 +1,35 @@
+{
+  "symbol": "JBL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material: On June 17, 2026 Jabil reported Q3 FY2026 (revenue $8.8B +12% YoY, core EPS $3.16 +24%, beat consensus) and raised FY26 guidance to ~$35B revenue (from $34B), core EPS $12.70, FCF >$1.4B. AI-related revenue now expected ~$13.6B in FY26 (+50% YoY, $500M above March outlook), Cloud & Data Center $10.9B (+47%). Stock jumped ~10% post-print toward the top of its 52-week range.",
+  "sources": [
+    {
+      "label": "Jabil Q3 FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000898293/000162828026043719/jbl-20260617ex991.htm"
+    },
+    {
+      "label": "Jabil Q3 FY2026 slides: AI +50%, outlook raised (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/jabil-q3-fy2026-slides-ai-revenue-surges-50-outlook-raised-93CH-4747596"
+    },
+    {
+      "label": "Jabil lifts outlook on AI data-center demand (ts2.tech)",
+      "url": "https://ts2.tech/en/jabil-lifts-outlook-on-strong-ai-data-center-demand-shares-rise/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens: June 17 beat-and-raise (FY26 to ~$35B, AI rev ~$13.6B +50%) is a clear fundamental positive (+2) confirming central-node franchise quality. But the prior 'crowded/rerated' call holds: stock +10% post-print near 52-wk highs erodes residual alpha, so no rank move on this page.",
+      "bull": "AI revenue ~$13.6B (+50% YoY, $500M above March), Cloud/DC $10.9B (+47%); FY26 raised to ~$35B; grid-to-rack power and liquid cooling central node.",
+      "neutral": "Strong print, but the thesis here is residual alpha vs passives, and the stock has already rerated hard.",
+      "bear": "+54% YTD, spot near 52-wk high and well above PT; crowded/rerated leaves limited residual alpha on this lens.",
+      "primaryCatalyst": "Continued AI data-center capacity ramp and FY27 guidance.",
+      "primaryRisk": "Crowded, rerated valuation; AI-capex digestion / customer concentration."
+    }
+  ]
+}

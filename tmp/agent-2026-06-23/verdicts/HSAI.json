@@ -1,0 +1,35 @@
+{
+  "symbol": "HSAI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No clearly new company-specific catalyst since June 9. The robotics/physical-AI evidence (Q1 reported May 19: record 471,723-unit shipments +30% YoY, 4th straight GAAP-profitable quarter, reaffirmed 3-3.5M unit FY26 guide, Mercedes L3 supplier, Kosmo/SGI spatial-intelligence launch, robotics wins incl. Zelos 200k Robovans and NIU FTX) predates the baseline. The -12.85% move is flow, not new bad news.",
+  "sources": [
+    {
+      "label": "Hesai Q1 2026 results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/05/19/3297198/0/en/Hesai-Group-Reports-First-Quarter-2026-Unaudited-Financial-Results.html"
+    },
+    {
+      "label": "Hesai Picasso 6D / spatial intelligence & physical AI",
+      "url": "https://www.hesaitech.com/hesai-unveils-picasso-6d-full-color-spad-soc-next-gen-etx-and-innovations-in-spatial-intelligence-and-physical-ai/"
+    },
+    {
+      "label": "Hesai Q1 2026 earnings call transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Hold #11 on the humanoid/robotics-stack lens. The concrete robotics evidence (Kosmo/SGI, Zelos 200k Robovan win, NIU FTX, KargoBot 6D) and GAAP profitability remain best-in-class for a sensing pure-play, but it was already captured in the June 8 up-move. No new catalyst since June 9; the -12.85% drop is flow, so no fundamental delta.",
+      "bull": "Concrete robotics design wins (Zelos 200k, NIU, KargoBot) + Kosmo/SGI give real physical-AI optionality; GAAP profitable.",
+      "neutral": "Strong execution but robotics revenue still small vs ADAS core.",
+      "bear": "-33% YTD; US listing/geopolitical overhang; SGI revenue immaterial near-term.",
+      "primaryCatalyst": "Kosmo demo shipments + robotics design-win ramp H2 2026",
+      "primaryRisk": "China-ADR policy risk; robotics monetization slower than guided"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "SMHN.DE",
+  "company": "SÜSS MicroTec",
+  "caseDate": "2026-06-23",
+  "newsSince": "SÜSS MicroTec joined the MDAX for the first time on June 22 via the Fast Entry rule (an index-flow event, not a fundamental change). Berenberg raised its PT to €125 (Buy), citing record order intake and the new XBC300 Gen2 D2W hybrid-bonding platform; management targets above-market growth with a 20-22% EBIT margin. Stock +5% since June 9, largely flow-driven.",
+  "sources": [
+    {
+      "label": "SUSS MicroTec MDAX inclusion June 22 (company)",
+      "url": "https://www.suss.com/en/news/corporate-news/2026/shares-of-suss-microtec-se-are-being-included-in-the-mdax-for-the-first-time"
+    },
+    {
+      "label": "Berenberg lifts PT to €125 after MDAX entry (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/suess-microtec-aktie-berenberg-hebt-kursziel-nach-mdax-aufstieg-an/69592476"
+    },
+    {
+      "label": "XBC300 Gen2 D2W hybrid-bonding platform (webdisclosure)",
+      "url": "https://www.webdisclosure.com/article/suss-microtec-ag-etr-smhn-suss-microtec-launches-xbc300-gen2-d2w-hybrid-bonding-platform-Hn9fP1d0Do5"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "On the latent under-covered AI-supply-chain lens, the hybrid-bonding/advanced-packaging tool role is intact and slightly strengthened by the XBC300 Gen2 launch and record orders. But MDAX inclusion is a flow event that reduces 'latent/under-covered' status, so net mild positive only.",
+      "bull": "Hybrid-bonding leader levered to AI advanced-packaging capex; record orders, PT raised to €125.",
+      "neutral": "Strong tool franchise but now far less under-covered post-MDAX entry.",
+      "bear": "136% YTD; ~45% above fair-value estimates; small cap, lumpy orders.",
+      "primaryCatalyst": "Hybrid-bonding/advanced-packaging order ramp",
+      "primaryRisk": "Valuation reset if packaging capex slows"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "On the test-time-scaling lens, advanced-packaging and lithography process tools stay relevant to AI compute scaling; XBC300 Gen2 and record orders are incrementally supportive. MDAX inclusion is flow, not fundamentals, so role in the semiconductor bucket is unchanged with a small positive drift.",
+      "bull": "Bonding/litho tools enable the chiplet/HBM stack that underpins scaling.",
+      "neutral": "Indirect scaling exposure; capex-cycle dependent.",
+      "bear": "Rich multiple after 136% YTD; order timing volatile.",
+      "primaryCatalyst": "Advanced-packaging capacity additions",
+      "primaryRisk": "Semicap capex air-pocket"
+    }
+  ]
+}

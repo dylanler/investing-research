@@ -1,0 +1,44 @@
+{
+  "symbol": "SLAB",
+  "company": "Silicon Labs",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The Texas Instruments all-cash acquisition at $231.00/share (signed Feb 4, 2026; ~$7.5B EV; shareholder-approved; close expected 1H 2027) remains the only relevant fact, capping upside at the ~5% arb spread vs the $219.25 price.",
+  "sources": [
+    {
+      "label": "TI to acquire Silicon Labs (Silabs IR)",
+      "url": "https://news.silabs.com/2026-02-04-Texas-Instruments-to-acquire-Silicon-Labs"
+    },
+    {
+      "label": "TI–SLAB merger terms & risks (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/TXN/425-silicon-laboratories-inc-business-combination-communication-4290641e5310.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 90,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.85,
+      "rankRationale": "On the AI-node bottleneck lens, SLAB is a deal-locked analog/RF name with no residual node alpha: TI buyout at $231 caps it at a ~5% arb spread, not bottleneck upside. No news since June 9; continue de-ranking toward removal.",
+      "bull": "Defined $231 cash floor; downside protected if deal closes 1H 2027.",
+      "neutral": "Pure merger-arb; price tracks spread, decoupled from AI-node fundamentals.",
+      "bear": "No residual AI-node alpha; antitrust/close-timing risk on a sub-6% spread.",
+      "primaryCatalyst": "TI deal close (1H 2027)",
+      "primaryRisk": "Regulatory delay/break on the arb spread"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 100,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.85,
+      "rankRationale": "On the CPO lens SLAB has no co-packaged-optics relevance and is now a capped merger-arb stub; weak direct CPO/optical exposure plus the $231 ceiling leaves no residual alpha. Keep de-ranking toward removal.",
+      "bull": "$231 cash floor caps downside while deal pending.",
+      "neutral": "Arb stub with no CPO linkage; flow- not thesis-driven.",
+      "bear": "Zero co-packaged-optics relevance; belongs off the actionable list.",
+      "primaryCatalyst": "TI deal close",
+      "primaryRisk": "Deal break with no standalone CPO thesis to fall back on"
+    }
+  ]
+}

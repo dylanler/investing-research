@@ -1,0 +1,31 @@
+{
+  "symbol": "VGO.WA",
+  "company": "VIGO Photonics",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Recent catalysts (the ~PLN200M PCO defense framework and the $8.4M InfraRed Associates acquisition) were Q1 2026 events. The -14.8% drop since June 9 appears to be a thin-volume pullback with no fundamental trigger.",
+  "sources": [
+    {
+      "label": "VIGO acquires InfraRed Associates (Notes From Poland)",
+      "url": "https://notesfrompoland.com/2026/03/27/polish-electronics-firm-vigo-photonics-acquires-us-rival-infrared-associates-for-8-4m/"
+    },
+    {
+      "label": "VIGO-PCO defense partnership",
+      "url": "https://vigophotonics.com/strategic-partnership-for-security-vigo-photonics-s-a-and-pco-s-a-jointly-strengthen-polands-defense-capabilities/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Test-time-scaling lens (scientific_instruments bucket): IR-detector/photonics leverage is real but demand is driven by defense and industrial sensing, not AI inference scaling. No news since June 9; the sharp drop has no fundamental trigger. Hold at 19.",
+      "bull": "Vertically integrated MWIR/LWIR detector maker with growing defense backlog and a US foothold via InfraRed Associates.",
+      "neutral": "Niche photonics franchise; the AI test-time-scaling thesis link is weak versus its defense/industrial core.",
+      "bear": "$0.12B micro-cap, illiquid Warsaw listing, lumpy defense revenue; minimal direct AI-compute exposure.",
+      "primaryCatalyst": "Ramp of PCO defense framework and US detector expansion",
+      "primaryRisk": "Thin liquidity; defense-order timing; weak AI tie-in"
+    }
+  ]
+}

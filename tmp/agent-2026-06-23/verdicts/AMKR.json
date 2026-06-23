@@ -1,0 +1,73 @@
+{
+  "symbol": "AMKR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "MATERIAL: Amkor and TSMC signed a 10-year framework (announced ~June 16) for TSMC to procure advanced packaging/test from Amkor's Peoria, Arizona campus, making it the first high-volume US advanced-packaging OSAT (production ~2028; CoWoS/3D-IC). Amkor also secured 67 more acres. Stock +22.5% since June 9. This anchors a durable US advanced-packaging franchise directly in the CoWoS/HBM bottleneck.",
+  "sources": [
+    {
+      "label": "TSMC-Amkor 10-yr partnership (Amkor PR/BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260616574153/en/TSMC-and-Amkor-Technology-Announce-Long-Term-Partnership-to-Accelerate-Advanced-Packaging-in-the-United-States"
+    },
+    {
+      "label": "TSMC-Amkor 10-yr deal (Focus Taiwan)",
+      "url": "https://focustaiwan.tw/sci-tech/202606180014"
+    },
+    {
+      "label": "Amkor Q1 2026 beat (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/amkor-q1-2026-slides-27-revenue-surge-advanced-packaging-drives-beat-93CH-4640082"
+    },
+    {
+      "label": "TrendForce: TSMC-Amkor 10-year Arizona pact",
+      "url": "https://www.trendforce.com/news/2026/06/17/news-tsmc-amkor-forge-10-year-arizona-advanced-packaging-partnership-to-complete-the-u-s-chip-supply-chain/"
+    },
+    {
+      "label": "Why AMKR up 18.8% on TSMC Arizona deal (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amkor-technology-amkr-18-091442461.html"
+    },
+    {
+      "label": "TSMC and Amkor sign 10-year Arizona deal (Yahoo)",
+      "url": "https://finance.yahoo.com/technology/articles/tsmc-amkor-sign-10-advanced-192051574.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 6,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.8,
+      "rankRationale": "AI-node bottleneck lens materially strengthened: the June 16 10-year TSMC partnership locks Amkor in as the US domestic advanced-packaging/test choke-point partner (CoWoS/3D-IC). This is a genuine thesis-strengthening contract, not flow, justifying an up-move and a real score bump despite the +22% run.",
+      "bull": "Decade-long TSMC tie makes Amkor the structural US CoWoS/3D-IC packaging gateway for AI silicon.",
+      "neutral": "Strategic framework; volume/margin accretion mostly 2028+.",
+      "bear": "Big move already prices much of it; OSAT cyclicality and capex intensity remain.",
+      "primaryCatalyst": "Ramp of Arizona advanced-packaging campus under the TSMC agreement.",
+      "primaryRisk": "OSAT pricing/cyclicality and execution on capacity build-out."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 9,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "Co-packaged-optics lens: advanced packaging is upstream of CPO/optical-engine integration, and the TSMC Arizona pact entrenches Amkor in that flow. The 60.9% YTD 'less-crowded' edge had been fading, but the deal materially re-strengthens the packaging-leverage thesis. Up-move on confirmed structural demand.",
+      "bull": "Packaging/test is where optical engines co-integrate; TSMC anchor secures long-run AI-chiplet/optical packaging share.",
+      "neutral": "CPO linkage is indirect; benefit accrues via broader advanced-packaging volume.",
+      "bear": "Crowding rising after the run; CPO monetization for Amkor specifically is not yet contractual.",
+      "primaryCatalyst": "Advanced-packaging volume tied to AI optical/chiplet integration",
+      "primaryRisk": "Pricing/cyclicality; CPO upside still optionality, not booked"
+    },
+    {
+      "page": "companies",
+      "currentRank": 9,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.8,
+      "rankRationale": "Under-owned-bottleneck master list: advanced packaging/substrate scarcity is a core thesis, and the 10-yr TSMC Arizona framework converts Amkor's positioning from cyclical OSAT to a structurally anchored chokepoint franchise. Clear fundamental strengthening of scarce bottleneck exposure; earns an up-move.",
+      "bull": "CoWoS/HBM-attach/advanced-substrate scarcity with a 10-yr TSMC US anchor — durable bottleneck ownership.",
+      "neutral": "Confirms scarcity thesis; revenue inflection is multi-year.",
+      "bear": "+102% YTD and +22% week compress entry asymmetry; ramp/capex execution risk.",
+      "primaryCatalyst": "TSMC US advanced-packaging partnership scaling",
+      "primaryRisk": "Capex/timeline and OSAT pricing cyclicality"
+    }
+  ]
+}

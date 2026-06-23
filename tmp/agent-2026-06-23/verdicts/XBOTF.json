@@ -1,0 +1,31 @@
+{
+  "symbol": "XBOTF",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Onconetix reverse-takeover Nasdaq listing (parent retains 75-90%) is still pending close by October 2026, and the Las Vegas facility relocation was on track for end-June; stock fell ~9% with no new fundamental catalyst.",
+  "sources": [
+    {
+      "label": "Realbotix Nasdaq listing update (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260519598336/en/Realbotix-Provides-Update-on-Nasdaq-Listing"
+    },
+    {
+      "label": "Realbotix-Onconetix RTO (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ONCO/realbotix-provides-update-on-nasdaq-654lttj6586r.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 3,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "Humanoid-stack lens: no new commercialization evidence since June 9 - RTO still pending (Oct), relocation in progress, revenue tiny ($0.35M/qtr, net loss). The directness is real but micro-cap scale, -42% YTD and dilution/execution risk keep it below purer, better-capitalized humanoid builders.",
+      "bull": "Directest deployed social-robot micro-cap with a Nasdaq path via Onconetix.",
+      "neutral": "Real but tiny; thesis intact yet commercialization unproven.",
+      "bear": "$40M cap, deep losses, RTO/dilution risk; alpha is mostly humanoid beta.",
+      "primaryCatalyst": "Nasdaq RTO close; first scaled deployments",
+      "primaryRisk": "RTO failure / dilution / cash burn"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "AEIS",
+  "company": "Advanced Energy Industries",
+  "caseDate": "2026-06-23",
+  "newsSince": "Around June 5 Advanced Energy launched its ADH 800V DC-DC converters for AI data-center rack power (8kW peak, 98.2% peak efficiency, megawatt-capable rack solutions), and on ~June 14 filed an omnibus shelf registration and announced redemption of its remaining 2.50% 2028 convertible notes. Management targets 2026 data-center revenue growth in the mid-30s%. The 800V optionality was largely known on June 9; the +18% move since June 9 reflects renewed AI-power enthusiasm and the financing/capital-structure actions more than a new fundamental shift.",
+  "sources": [
+    {
+      "label": "StockTitan: AEIS 800V DC AI data-center converters",
+      "url": "https://www.stocktitan.net/news/AEIS/advanced-energy-introduces-800-v-dc-converters-for-next-generation-24ffaf2dghic.html"
+    },
+    {
+      "label": "Sahm Capital: AEIS up 20% after shelf filing and 800V launch",
+      "url": "https://www.sahmcapital.com/news/content/advanced-energy-industries-aeis-is-up-202-after-shelf-filing-and-800-v-ai-power-launch-has-the-bull-case-changed-2026-06-14"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: the ~June 5 800V AI rack-power launch makes the optionality more concrete, a mild fundamental positive. But +66% YTD, $15B mid-cap visibility and the convert-redemption/shelf financing mean residual alpha is largely captured. Hold in the Monitor/benchmark bucket with a small uptick.",
+      "primaryCatalyst": "ADH 800V DC-DC platform for megawatt AI rack power; data-center growth mid-30s%",
+      "primaryRisk": "Already-rerated mid-cap; shelf filing signals potential dilution overhang",
+      "bull": "800V/megawatt-rack power conversion positions AEIS as a hard-to-substitute AI-rack power supplier as racks move to higher-voltage architectures.",
+      "neutral": "Real AI-power optionality, but +66% YTD and mid-cap visibility mean much is priced; financing actions add an overhang.",
+      "bear": "Crowded AI-power trade; shelf registration hints at dilution and the rerating leaves limited residual alpha."
+    }
+  ]
+}

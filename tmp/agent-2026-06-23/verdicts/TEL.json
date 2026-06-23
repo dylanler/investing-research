@@ -1,0 +1,44 @@
+{
+  "symbol": "TEL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. The strong data points (record ~$5.1B orders, fiscal-2026 AI revenue raised by $150M into H2, passive-optical/CPO-connectivity acquisition) came with Q2 earnings on April 22, pre-window. Optical/high-speed interconnect thesis remains intact and unchanged. -2.3% move is flow at -11.7% YTD.",
+  "sources": [
+    {
+      "label": "TE Connectivity record $5.1B orders as AI accelerates (Fintool)",
+      "url": "https://fintool.com/news/te-connectivity-record-orders-ai-surge"
+    },
+    {
+      "label": "TE Connectivity Q2 FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001385157/000110465926046285/tel-20260422xex99d1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: balanced AI supply-chain exposure but not as mispriced as top residual names. No new evidence since June 9 (record orders/AI raise were April). -11.7% YTD improves entry but adds no fundamental alpha. Hold at 75.",
+      "bull": "Record orders and rising AI data-center backlog into 2027, plus CPO/passive-optical acquisition, give durable interconnect demand.",
+      "neutral": "High-reliability connectors and sensing, AI-adjacent central node, but less mispriced than the top residual-alpha names.",
+      "bear": "$60B mega-cap with diversified industrial/transport mix dilutes pure AI-bottleneck signal; -11.7% YTD reflects mixed end-markets.",
+      "primaryCatalyst": "H2 AI data-center revenue ramp ($150M raise) and 2027 backlog",
+      "primaryRisk": "Industrial/auto cyclicality diluting AI mix"
+    },
+    {
+      "page": "companies",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master under-owned-bottleneck list, optical/high-speed networking bucket: 800G/1.6T and CPO copper-in-rack story intact, but record orders and AI raise predate June 9 and no new design-win/capacity news since. Today's drift changes nothing. Hold at 14.",
+      "bull": "Scale-out bandwidth, 800G/1.6T optical links and copper-workhorse-plus-CPO positioning win new programs with 2027 backlog visibility.",
+      "neutral": "Genuine scale-out interconnect exposure already reflected in the prior up-move; thesis intact at rank 14.",
+      "bear": "Large diversified base means AI is a minority of revenue; -11.7% YTD shows the rerating is contested.",
+      "primaryCatalyst": "High-speed connector/optical design wins and CPO connectivity adoption",
+      "primaryRisk": "Execution and pricing in high-speed interconnects amid competition"
+    }
+  ]
+}

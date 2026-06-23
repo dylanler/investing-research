@@ -1,0 +1,31 @@
+{
+  "symbol": "XTC.TO",
+  "company": "Exco Technologies",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q2 FY26 results (sales C$157.6M, -5% y/y; EPS C$0.15; Large Mould Mexico closure restructuring) were reported April 29, and a $0.105 dividend (June 30 pay) is routine - all pre-window. The -2.9% move is noise.",
+  "sources": [
+    {
+      "label": "Exco Q2 FY26 results (Apr 29)",
+      "url": "https://www.globenewswire.com/news-release/2026/04/29/3284344/0/en/Exco-Results-for-Second-Quarter-Ended-March-31-2026.html"
+    },
+    {
+      "label": "Exco Technologies news",
+      "url": "https://www.excocorp.com/category/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "Strict latent-node lens: die-casting/extrusion tooling optionality into AI thermal housings/reshoring is unchanged. Q2 (auto-exposed, sales -5%) and dividend are pre-window; no new AI-chain evidence. Rank 31 holds.",
+      "primaryCatalyst": "Reshoring tooling demand; H2 mold-program ramp post-restructuring",
+      "primaryRisk": "Auto-cyclical demand and FX drag; AI-thermal link remains speculative",
+      "bull": "Restructuring (Mexico closure) should lift H2 margins; cheap tooling/components play with reshoring optionality.",
+      "neutral": "Auto-tied cyclical with only a tenuous AI-thermal angle; sales declining.",
+      "bear": "No real AI revenue; auto end-market softness and FX continue to pressure the top line."
+    }
+  ]
+}

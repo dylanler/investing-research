@@ -1,0 +1,40 @@
+{
+  "symbol": "CTS",
+  "company": "CTS",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. 2026 guidance (revenue $560-580M, adj EPS $2.30-2.45) was set with FY25 results in February; M&A framework (60-80% of FCF) unchanged. The -1.0% move since June 9 is drift on a continued YTD re-rating (+49.7%).",
+  "sources": [
+    {
+      "label": "CTS 2026 guidance / margins / cash flow - StockTitan",
+      "url": "https://www.stocktitan.net/sec-filings/CTS/8-k-cts-corp-reports-material-event-62fa83c50ba4.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "On the residual-alpha-vs-passives lens, the passive/power-sensing bottleneck thesis is intact with no fresh fundamental evidence since June 9. The continued YTD re-rating (+49.7%) without new news keeps eroding residual alpha on this crowding-sensitive list - small negative delta, but conviction and rank-2 placement hold.",
+      "primaryCatalyst": "Data-center power-sensing / current-sensing content growth",
+      "primaryRisk": "Crowding/re-rating erodes residual alpha absent fresh catalysts",
+      "bull": "Direct passive + current-sensing supplier to data-center power, lower crowding than mega-caps, M&A optionality.",
+      "neutral": "Thesis intact but increasingly discovered; needs a fundamental print to re-extend the residual edge.",
+      "bear": "+49.7% YTD on no new news leaves little residual alpha; a soft print would compress the premium fast."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "On the latent under-covered supply-chain screen, the edge-sensing/thermal-monitoring/industrial-automation pathway has no new confirming or refuting evidence since June 9. This centrality screen is less crowding-sensitive than the alpha list, so the -1.0% drift is immaterial. Hold at 12.",
+      "primaryCatalyst": "Edge sensing / thermal monitoring pull from AI infrastructure",
+      "primaryRisk": "Latent pathway remains 'could support', not yet confirmed in numbers",
+      "bull": "Sensors, filters, connectivity components map cleanly onto edge-sensing and thermal-monitoring needs.",
+      "neutral": "Plausible latent node but unconfirmed; story flat since June 9.",
+      "bear": "AI linkage stays indirect; industrial/auto cyclicality dominates the actual revenue mix."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "ATOM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Atomera announced (early June 2026) an MST breakthrough for GaN-on-Silicon RF, cutting parasitic interface charge >10x and improving linearity ~1000x, with third-party validation. This is incremental technical progress aimed at 5G/6G RF, not a new license or revenue event.",
+  "sources": [
+    {
+      "label": "BigGo Finance: Atomera positions MST for AI chips, 2026 deals",
+      "url": "https://finance.biggo.com/news/ngCUV5wBq7sy_YQMsIyD"
+    },
+    {
+      "label": "Atomera MST-enabled GaN-on-Si devices (Semiconductor Today)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/atomera-050626.shtml"
+    },
+    {
+      "label": "Atomera GaN-on-Silicon RF breakthrough (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/atomera-breakthrough-targets-broader-rf-200500643.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: Atomera is a materials-IP edge-AI story with no robotics relevance and no new commercialization evidence since June 9. Prior case flagged for removal (+231% YTD, $0.32B cap, too indirect). Thesis remains weak; mild negative drift for persistent over-extension on the wrong lens.",
+      "bull": "MST could enable GAA/edge-AI nodes if a major foundry licenses it.",
+      "neutral": "Pre-revenue optionality; no robotics tie at all.",
+      "bear": "+231% YTD micro-cap; speculative, no signed commercial deal; off-lens for robotics.",
+      "primaryCatalyst": "New foundry commercial license",
+      "primaryRisk": "Pre-revenue, valuation, no robotics relevance"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "6526.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material news since June 9. FY ended Mar-2026 showed higher sales (¥200.8B) but lower net income (¥8.7B); FY2027 guidance modest (¥215B sales). The key catalyst — the March 2026 Arm Total Design / TSMC partnership for AI-datacenter custom accelerators and server CPUs — predates the window.",
+  "sources": [
+    {
+      "label": "Socionext FY2026 results / FY2027 guidance (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6526/socionext-shares"
+    },
+    {
+      "label": "Socionext (6526.T) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/6526.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 32,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "AI-node bottleneck lens: custom ASIC / SerDes IP / chiplets with Arm Total Design + TSMC for AI-datacenter accelerators sits closer to the 2027 compute bottleneck than rank 32 implies — consistent with prior June 9 'up' call. No new catalyst in window and net income fell YoY, so only a modest +1.",
+      "bull": "Custom AI silicon, SerDes IP and Arm/TSMC datacenter-accelerator partnership give direct scale-up-fabric / chiplet exposure.",
+      "neutral": "Evidence mostly category-level; FY2027 guidance unexciting; +15% YTD already reflects some optimism.",
+      "bear": "FY2026 net income fell YoY; design-win revenue lumpy; less direct than HBM/advanced-packaging names.",
+      "primaryCatalyst": "Custom AI-accelerator/server-CPU design-win disclosures via Arm Total Design.",
+      "primaryRisk": "Lumpy ASIC ramp; margin pressure as net income already declined."
+    }
+  ]
+}

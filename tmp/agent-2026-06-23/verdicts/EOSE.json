@@ -1,0 +1,39 @@
+{
+  "symbol": "EOSE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely new since June 9: a binding Master Supply Agreement with CAPAC Energy establishing an exclusive long-duration-storage partnership in the DACH region through 2031 with a 750 MWh commitment and a pathway to 2 GWh. This is a new commercial proof point for the long-duration storage thesis. Stock +8.4% since June 9 but still -47.7% YTD.",
+  "sources": [
+    {
+      "label": "QuiverQuant: Eos secures $22.7M DOE loan advance",
+      "url": "https://www.quiverquant.com/news/Eos+Energy+Enterprises+Secures+$22.7+Million+Loan+Advance+from+DOE+to+Expand+Manufacturing+Capabilities"
+    },
+    {
+      "label": "Eos Energy second DOE funding (investor relations)",
+      "url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-announces-second-funding-under-its-department-energy"
+    },
+    {
+      "label": "Eos lands 750 MWh Germany (CAPAC) storage deal",
+      "url": "https://www.stocktitan.net/news/EOSE/eos-energy-enterprises-establishes-strategic-entry-into-germany-mvli0yodpemn.html"
+    },
+    {
+      "label": "Eos $68.3M first DOE loan funding",
+      "url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-announces-683-million-first-funding-its-3035-million"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "No new evidence since June 9 on the long-duration-storage optionality this watchlist tracks. DOE funding/MOU items are older. -48% YTD reflects an unproven ramp; an +8.4% bounce does not change the test-time-scaling power-supply thesis. Hold rank 25.",
+      "bull": "Zinc LDES with DOE-backed capacity could supply firming for AI-driven grid load growth.",
+      "neutral": "Optionality only; execution and cash burn unresolved.",
+      "bear": "Down ~48% YTD; dilution risk and uncertain bookings-to-revenue conversion.",
+      "primaryCatalyst": "Project AMAZE line 2 ramp; MOU-to-order conversion",
+      "primaryRisk": "Cash burn/dilution; storage demand timing"
+    }
+  ]
+}

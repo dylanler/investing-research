@@ -1,0 +1,31 @@
+{
+  "symbol": "8046.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. Industry backdrop remains strong: ABF substrate continues to sell out across Unimicron/Kinsus/Nan Ya PCB on AI-chip demand, and Nan Ya is ramping capacity. 1Q26 revenue NT$11.2B (+32% YoY), EPS NT$2.03; FY26 consensus ~NT$58.4B / EPS NT$14.91.",
+  "sources": [
+    {
+      "label": "Digitimes - ABF substrate sells out (Unimicron/Kinsus/Nan Ya)",
+      "url": "https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html"
+    },
+    {
+      "label": "Digitimes - Nan Ya PCB to ramp ABF capacity",
+      "url": "https://www.digitimes.com/news/a20260515PD221/nan-ya-pcb-demand-capacity-chips.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Master-list packaging-scarcity lens: ABF tightness and capacity ramp are real but already-known, with no new name-specific evidence since Jun 9 and price essentially flat on the period. At +284% YTD with sell-side targets already lofty, this is a crowding signal, not fresh hidden bottleneck alpha. Hold.",
+      "bull": "ABF substrate sold out; capacity ramp into structural AI-GPU/networking demand; 1Q26 rev +32%.",
+      "neutral": "Strong but consensus demand; rerating already extreme and monthly revenue trends in-line.",
+      "bear": "+284% YTD on a known sell-out narrative - residual alpha compressed, ABF execution/pricing risk.",
+      "primaryCatalyst": "ABF capacity ramp; AI-GPU substrate demand",
+      "primaryRisk": "Crowding / extreme YTD rerating; substrate yield and pricing execution"
+    }
+  ]
+}

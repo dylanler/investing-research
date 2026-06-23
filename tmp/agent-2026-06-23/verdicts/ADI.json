@@ -1,0 +1,57 @@
+{
+  "symbol": "ADI",
+  "company": "Analog Devices",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. ADI's record Q2 FY26 (revenue +37% y/y, data-center comms +90%), the raised Q3 guide, and the closed $1.5B Empower Semiconductor acquisition all predate June 9 and were already in the prior verdict's tape. The ~+1% move since June 9 is benign.",
+  "sources": [
+    {
+      "label": "Futurum: ADI Q2 FY26 AI data-center/power demand",
+      "url": "https://futurumgroup.com/insights/analog-devices-q2-fy-2026-earnings-show-ai-linked-data-center-power-demand/"
+    },
+    {
+      "label": "Simply Wall St: ADI buys Empower for bigger AI-power role",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/analog-devices-buy-of-empower-targets-bigger-role-in-ai-powe"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens: $200B mega-cap, +49% YTD, Buy consensus and post-earnings/Empower rerating already in the tape leave little hidden alpha. No new news since June 9. Hold at #40 in the secondary residual bucket.",
+      "primaryCatalyst": "Empower-driven AI-rack power management ramp",
+      "primaryRisk": "Mega-cap with consensus already long; residual alpha largely captured",
+      "bull": "Empower closes the AI vertical-power gap; data-center comms +90% gives a real, durable AI tailwind on a high-quality analog franchise.",
+      "neutral": "Great franchise but $200B cap and +49% YTD mean the AI-power story is well-owned, not mispriced.",
+      "bear": "Little residual alpha left after the rerating; industrial-cycle exposure caps upside surprise."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node-bottleneck lens: analog/power/RF is selective, less-direct AI-node exposure than HBM, advanced packaging or AI networking. No new node-relevant news since June 9; prior down-move already priced the crowding. Hold at #71.",
+      "primaryCatalyst": "Vertical/intermediate-bus power adoption for AI compute racks",
+      "primaryRisk": "Not a core AI-node bottleneck; analog content trails HBM/packaging/networking",
+      "bull": "48/54V intermediate-bus modules and first vertical-power customer give incremental AI-node power content.",
+      "neutral": "AI-adjacent but not a primary node chokepoint; ranks appropriately in the lower analog tier.",
+      "bear": "AI exposure is indirect; demand is partly industrial-cycle, not pure node bottleneck."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Co-packaged-optics lens: a quality analog/power franchise with no early CPO exposure. No CPO-relevant news since June 9; prior cut already reflected the no-CPO argument. Hold at #96.",
+      "primaryCatalyst": "None CPO-specific; power-management leverage to optical-heavy AI racks is indirect",
+      "primaryRisk": "No early CPO content; ranked low on this lens by design",
+      "bull": "Power/signal-chain content sits adjacent to optical AI infrastructure, an indirect CPO read-through.",
+      "neutral": "Solid franchise but essentially zero direct co-packaged-optics exposure for this lens.",
+      "bear": "Irrelevant to the CPO transition; belongs in the analog/power tail here."
+    }
+  ]
+}

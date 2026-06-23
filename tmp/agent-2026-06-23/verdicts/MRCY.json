@@ -1,0 +1,31 @@
+{
+  "symbol": "MRCY",
+  "company": "Mercury Systems",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The record backlog ($1.50B), bookings and earnings beat plus raised outlook were from the prior quarter and already known; the Jefferies PT raise to $105 (June 1) and the $60M/$12.3M contract wins predate the window. Stock hit an all-time high (~$122) on June 15 on momentum, not fresh news.",
+  "sources": [
+    {
+      "label": "Mercury Systems record backlog & beat (Yahoo)",
+      "url": "https://finance.yahoo.com/news/investors-may-respond-mercury-systems-011157572.html"
+    },
+    {
+      "label": "Mercury Systems Press Releases (IR)",
+      "url": "https://ir.mrcy.com/press-releases"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply chain: defense/space/edge compute thesis (rugged edge processing, RF, mission-compute with AMD Versal FPGAs) intact and still under-covered. No new datapoint since June 9; record backlog already priced. Operating turnaround keeps conviction speculative. Hold.",
+      "bull": "Defense AI needs deployable edge compute and sensor processing; record $1.5B backlog and improving margins support a turnaround.",
+      "neutral": "Strategically relevant but execution-show-me; backlog already reflected in price.",
+      "bear": "Prior execution issues keep the crowd skeptical; +49% YTD near all-time high embeds the recovery.",
+      "primaryCatalyst": "Defense electronics recovery and edge-AI module ramp",
+      "primaryRisk": "Operating-turnaround execution and mix shift off low-margin legacy"
+    }
+  ]
+}

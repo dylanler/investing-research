@@ -1,0 +1,35 @@
+{
+  "symbol": "CMI",
+  "company": "Cummins",
+  "caseDate": "2026-06-23",
+  "newsSince": "Materially positive new catalyst: on June 16 Circe Energy ordered ~2 GW of Cummins natural-gas generation (HSK78/QSK60 gensets) for a West Texas AI data-center campus and future North American deployments, deliveries 2026-2030. Cummins also raised 2026 revenue guidance to +8% to +11% (EBITDA margin 17-18%), lifted its 2030 revenue target to $45-50B, and announced a new 4 MW natural-gas engine purpose-built for data-center power. This concretely strengthens the AI-power thesis; +6% move since June 9.",
+  "sources": [
+    {
+      "label": "Cummins +9.3% on 2 GW Circe Energy AI data-center deal (Simply Wall St, June 19)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-cmi/cummins/news/cummins-cmi-is-up-93-after-2-gw-ai-data-center-power-deal-wi"
+    },
+    {
+      "label": "Cummins natural gas generators to power West Texas data centers (Cummins IR)",
+      "url": "https://investor.cummins.com/news/detail/697/cummins-natural-gas-generators-to-power-large-scale-data"
+    },
+    {
+      "label": "Cummins data-center power shift (TheStreet)",
+      "url": "https://www.thestreet.com/investing/stocks/cmi-cummins-stock-eye-catching-move-amid-ai-power-demand"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 62,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "Residual-alpha vs passives: a concrete 2 GW AI data-center gas-gen order (Circe), raised 2026 and 2030 guidance, and a dedicated 4 MW data-center engine pull Cummins meaningfully closer to the power-bottleneck core this page rewards - more than 'Monitor/benchmark' implies. Genuine fundamental step-up warrants a move up.",
+      "bull": "2 GW AI campus order + new 4 MW DC engine + raised 2026/2030 guidance make onsite-power exposure concrete and durable.",
+      "neutral": "Real, growing AI-power demand but still a diversified industrial, not a pure bottleneck pure-play.",
+      "bear": "$98B cap, +36% YTD already prices much of the AI-power optionality; cyclical truck/engine core.",
+      "primaryCatalyst": "2 GW Circe order + 4 MW data-center natural-gas engine ramp",
+      "primaryRisk": "Diversified-industrial dilution; AI-power optionality partly priced"
+    }
+  ]
+}

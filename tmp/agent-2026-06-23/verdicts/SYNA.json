@@ -1,0 +1,44 @@
+{
+  "symbol": "SYNA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Incremental edge-AI momentum: Accton/Gallopwave UAV edge-AI MoU (Jun 3), Astra SL2600 design wins ahead of plan, and the Astra SL2610 Coralboard launch with Google Research at Google I/O (Rosenblatt PT to $180). All slightly pre- or around June 9; nothing new since alters the weak HBM/packaging/CPO bottleneck relevance.",
+  "sources": [
+    {
+      "label": "Synaptics edge-AI UAV partnerships (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/is-synaptics-syna-quietly-redefining-its-iot-edge-strategy-through-new-uav-ai-partnerships-2026-06-11"
+    },
+    {
+      "label": "Synaptics bullish targets as edge-AI deals build (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/synaptics-incorporated-syna-news-2026_06_08/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "AI-node lens favors HBM/packaging/networking chokepoints; SYNA's edge-AI Astra/Coralboard wins are real but tangential to the node bottleneck. +79% YTD and accelerating PT raises ($155-180) signal crowding. No node-relevant change since June 9. Hold at 64.",
+      "bull": "Astra edge-AI design wins ahead of plan, Google Coralboard and UAV MoU build a credible edge-inference franchise ramping into 2027.",
+      "neutral": "Genuine edge-AI optionality but only selective AI exposure; less direct than HBM, advanced packaging or AI networking names.",
+      "bear": "+79% YTD and rising PTs imply crowding; core IoT/consumer cyclicality and no HBM/packaging chokepoint leave thin node-bottleneck alpha.",
+      "primaryCatalyst": "Astra edge-AI design-win ramp (robotics/semi-custom) from 2027",
+      "primaryRisk": "IoT/consumer demand cyclicality and valuation crowding"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 111,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the co-packaged-optics lens SYNA has essentially no CPO exposure; the June edge-AI/UAV/Coralboard news is unrelated to optical interconnect. Prior remove call stands structurally; +79% YTD worsens asymmetry. Hold low at 111.",
+      "bull": "Edge-AI franchise momentum could broaden the IoT TAM and provide optionality adjacent to AI buildouts.",
+      "neutral": "Edge-AI optionality with low CPO exposure; not part of the co-packaged-optics bottleneck.",
+      "bear": "No meaningful CPO/optical link, +79% YTD and small $5.2B cap make it a poor fit for a scarce co-packaged-optics alpha basket.",
+      "primaryCatalyst": "Edge-AI device design-win ramp",
+      "primaryRisk": "No CPO relevance; consumer/IoT cyclicality"
+    }
+  ]
+}

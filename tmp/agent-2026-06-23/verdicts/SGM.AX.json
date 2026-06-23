@@ -1,0 +1,31 @@
+{
+  "symbol": "SGM.AX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material event: on June 17, 2026 Sims upgraded FY26 underlying Group EBIT guidance to AUD 420-435M from AUD 350-400M, citing favourable non-ferrous markets, improved ferrous trading, and stronger North America Metals and SA Recycling second-half earnings; Sims Lifecycle Services EBIT now seen at AUD 170-175M. The upgrade is scrap-market-driven, not AI-circularity-driven.",
+  "sources": [
+    {
+      "label": "Sims upgrades FY26 guidance on improved trading (Kalkine)",
+      "url": "https://kalkine.com.au/news/mining/sims-asxsgm-upgrades-fy26-guidance-following-improved-trading-conditions"
+    },
+    {
+      "label": "Sims reports improved earnings expectations (Recycling Today)",
+      "url": "https://www.recyclingtoday.com/news/sims-metal-electronics-recycling-earnings-2026-good-outlook-australia-usa/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "New June 17 FY26 EBIT upgrade (AUD 420-435M vs 350-400M) is a genuine fundamental positive, but driven by ferrous/non-ferrous scrap markets and Lifecycle Services, not AI-hardware circularity. It strengthens the company without strengthening the AI-node alpha thesis; the further run also erodes 'latent' character. Small +1 for the beat; hold rank on a strict screen.",
+      "bull": "FY26 EBIT guidance raised ~15%; Lifecycle Services e-waste arm offers genuine AI-hardware circularity optionality as datacenter materials scale.",
+      "neutral": "Earnings beat is real but commodity-market-led; AI-circularity remains a secondary thread.",
+      "bear": "+51% YTD pushes valuation; the upgrade is scrap-cycle-driven, weakening the 'latent/under-followed AI node' character on a strict screen.",
+      "primaryCatalyst": "FY26 results confirming raised EBIT; Lifecycle/e-waste growth tied to datacenter refresh",
+      "primaryRisk": "Scrap-price cyclicality reversing; AI-circularity thesis is indirect"
+    }
+  ]
+}

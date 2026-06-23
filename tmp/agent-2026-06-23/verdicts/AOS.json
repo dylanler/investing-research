@@ -1,0 +1,39 @@
+{
+  "symbol": "AOS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material AI-node-relevant news since June 9. On June 22 A.O. Smith announced Executive Chairman Kevin Wheeler will retire July 1, with CEO Stephen Shafer elected chairman — routine governance. FY2026 EPS guidance was lowered earlier (Q1, China weakness) to $3.60-3.90, predating the window. Stock -1.8% since June 9 (-15% YTD).",
+  "sources": [
+    {
+      "label": "AOS chairman transition (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/kevin-wheeler-to-retire-as-executive-chairman-president-and-ceo-stephen-shafer-named-chairman-302806975.html"
+    },
+    {
+      "label": "AOS trims 2026 guidance on China (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/AOS/8-k-smith-a-o-corp-reports-material-event-f035b9539c7c.html"
+    },
+    {
+      "label": "A.O. Smith 8-K (June 22, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000091142/000009114226000091/a06222026exhibit991.htm"
+    },
+    {
+      "label": "A.O. Smith Q1 2026 results, lowered outlook",
+      "url": "https://investor.aosmith.com/news-releases/news-release-details/o-smith-reports-first-quarter-2026-results-and-lowers-full-year"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent-node lens: no new evidence for or against the heat-reuse/facility-water-treatment AI pathway since June 9. The June 22 chairman transition is routine governance and the China guidance cut hits core residential, not the AI-node thesis. -1.8% drift is noise. Hold at 35.",
+      "bull": "Water-heating/treatment and heat-reuse could find a niche in datacenter campuses long-term.",
+      "neutral": "AI-node linkage purely latent; recent news is governance and China, off-thesis.",
+      "bear": "China consumer weakness and guidance cut weigh on the core; no datacenter demand signal.",
+      "primaryCatalyst": "Datacenter heat-reuse/water-treatment adoption (speculative).",
+      "primaryRisk": "Prolonged China slowdown pressuring the core business."
+    }
+  ]
+}

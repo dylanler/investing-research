@@ -1,0 +1,70 @@
+{
+  "symbol": "LITE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news in the June 9-23 window. Q3 FY26 earnings (May 6: revenue $808M, +90%) and the incremental multi-hundred-million CPO order (deliverable H1 CY2027) were disclosed before June 9. The only June item is a June 11 J.P. Morgan Overweight reiteration arguing CPO-adoption fears are overstated, which is sell-side opinion, not new fundamentals.",
+  "sources": [
+    {
+      "label": "Lumentum Q3 FY26 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/lumentum-lite-q3-2026-earnings-transcript/"
+    },
+    {
+      "label": "Nvidia optics shift puts Lumentum at center of AI data centers (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-optics-shift-puts-lumentum-061120526.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the passives/power-bottleneck lens LITE remains peripheral (optics, not passives) and fully discovered after +115% YTD and the NVIDIA tie-up. No new evidence since June 9; June 11 JPM note is sell-side noise. Hold at rank 60.",
+      "bull": "AI networking optics/datacom leverage with NVIDIA backing.",
+      "neutral": "Strong AI exposure but off the passive/power-bottleneck core.",
+      "bear": "+115% YTD, widely owned; far from this list's bottleneck thesis.",
+      "primaryCatalyst": "CPO/ELS ramp into NVIDIA platforms.",
+      "primaryRisk": "Crowding; not the residual alpha this page seeks."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latency lens penalizes discovery, and LITE is fully screened by investors (index adds, broad buy ratings, NVIDIA $2B). No new June 9-23 information makes the node latent again; hold at rank 90.",
+      "bull": "Clear AI datacom optics optionality; record Q4 guide.",
+      "neutral": "Good business, zero discovery premium left.",
+      "bear": "Everyone already owns the optics-AI story.",
+      "primaryCatalyst": "Datacom/coherent/CPO demand.",
+      "primaryRisk": "No latent edge; valuation rich."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO-specific lens LITE retains the highest centrality of its four listings (NVIDIA $2B cash, purchase commitments, dedicated US fab, multi-hundred-M CPO order). But that evidence is pre-June 9; nothing new in the window (June 11 JPM reiteration only). Prior 'up' is captured at rank 41, so hold now.",
+      "bull": "Most direct NVIDIA laser/ELS/CPO candidate with cash investment, commitments and CPO order to H1 CY2027.",
+      "neutral": "Central CPO play but already heavily rerated.",
+      "bear": "Very large recent rerating; customer-concentration and capacity-ramp risk.",
+      "primaryCatalyst": "Additional CPO/ELS design wins and capacity online.",
+      "primaryRisk": "NVIDIA single-customer dependence; CPO timing slippage."
+    },
+    {
+      "page": "companies",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Master list: scale-out bandwidth/optics content is genuine but the +115% YTD rerating is fully recognized. No new fundamental news since June 9, so hold at rank 45 with no drift.",
+      "bull": "800G/1.6T optical links, CPO and lasers with NVIDIA backing.",
+      "neutral": "Strong content, valuation reflects it.",
+      "bear": "Rerated optics name; scarce-bottleneck alpha mostly harvested.",
+      "primaryCatalyst": "Optical-component/laser execution and pricing.",
+      "primaryRisk": "Multiple compression after a 2x year."
+    }
+  ]
+}

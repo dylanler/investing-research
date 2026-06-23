@@ -1,0 +1,31 @@
+{
+  "symbol": "AVT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Avnet's last report was Q3 FY2026 on April 29 (record electronic-components sales, EPS $1.14 vs $1.01 prior, +12.9%) — already known at the June 9 case. The stock drifted +5.2% since June 9 and is up a striking +85% YTD, but on no fresh fundamental data.",
+  "sources": [
+    {
+      "label": "Avnet Q3 FY2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000008858/000000885826000040/avt-20260429xex99d1.htm"
+    },
+    {
+      "label": "Avnet Q3 2026 earnings transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-avt-q3-2026-earnings-181043282.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "No new AI design-win or inventory-reset evidence since June 9; Q3 (Apr 29) was already known. Distribution is a lower-uniqueness, second-derivative AI play; the +85% YTD is sharp but reflects no fresh latent-node catalyst. Hold the speculative rank.",
+      "bull": "Component-cycle recovery and record components sales give AI-adjacent volume leverage.",
+      "neutral": "Broad-line distributor with thin strategic uniqueness; no fresh AI design wins.",
+      "bear": "Low-margin distribution, big +85% YTD run, commoditized role in the AI stack.",
+      "primaryCatalyst": "Component inventory reset / cycle upturn",
+      "primaryRisk": "Margin pressure and weak strategic differentiation"
+    }
+  ]
+}

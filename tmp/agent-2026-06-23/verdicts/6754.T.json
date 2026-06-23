@@ -1,0 +1,27 @@
+{
+  "symbol": "6754.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. FY2026 guidance (revenue +19%, OP +35%, backlog +40% on data-center/QA demand) was disclosed in the April/May FY2025 results; the next earnings report is July 23, 2026.",
+  "sources": [
+    {
+      "label": "Anritsu FY2026 guidance, shares +5.8% (Investing.com)",
+      "url": "https://uk.investing.com/news/earnings/anritsu-shares-rise-58-on-stronger-fiscal-2026-guidance-93CH-4632713"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Test & measurement lens: no new evidence since June 9; strong FY2026 guidance and +40% backlog were already in the prior case. +4.7% move is flow into the July 23 print. Design-validation bottleneck intact but +96% YTD limits residual alpha; hold.",
+      "bull": "Data-center/800G and QA orders drive +19% revenue guide; backlog +40% supports H1.",
+      "neutral": "Scarce test/validation exposure, but rerating has narrowed the discount.",
+      "bear": "Small-cap (~$3.4B), lumpy T&M orders; rich after +96% YTD.",
+      "primaryCatalyst": "July 23 earnings; data-center T&M order momentum",
+      "primaryRisk": "Order lumpiness / T&M pricing and execution"
+    }
+  ]
+}

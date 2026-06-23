@@ -1,0 +1,35 @@
+{
+  "symbol": "300308.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Since June 9, Innolight hit an all-time high (CNY 1,368.50 on Jun 18) and a ProShares 2x-leveraged single-stock ETF (Ultra Innolight) was filed in the US, while Goldman reiterated bullish optical-interconnect TAM ($15B to ~$154B by 2027/28). These are mostly recognition/flow events; the genuine fundamental anchor (Q1 rev +192%, CPO/silicon-photonics mass-production lead, ~6-month edge) was already known.",
+  "sources": [
+    {
+      "label": "Goldman raises Innolight target / optical TAM 9x",
+      "url": "https://finance.biggo.com/news/W6DUmZ0B-x-dxYpb0XI7"
+    },
+    {
+      "label": "ProShares 2x leveraged Innolight ETF",
+      "url": "https://tubex.chat/en/article/proshares-launches-2x-leveraged-etf-on-chinas-optical-module-leader-innolight-ce-b41417"
+    },
+    {
+      "label": "Innolight 800G/1.6T silicon photonics & CPO",
+      "url": "http://en.c114.com.cn/578/a1265052.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 113,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO lens Innolight has genuine choke-point leadership (silicon photonics now >half of 800G/1.6T, first CPO mass line). But this page penalizes discovered/crowded names; +110% YTD, ATH and a 2x ETF launch confirm it is widely owned, not hidden. Real CPO progress earns a small +, rank holds low.",
+      "bull": "Clearest CPO/silicon-photonics mass-production leader; optical-interconnect TAM expanding ~9x; Q1 profit topped all of 2024.",
+      "neutral": "Bottleneck thesis intact and strengthening, but recognition (Goldman, ETF, ATH) is catching up fast.",
+      "bear": "+110% YTD, leveraged ETF and retail crowding signal a discovered, momentum-driven name with valuation/cycle risk.",
+      "primaryCatalyst": "1.6T/CPO ramp and AI optical TAM expansion",
+      "primaryRisk": "Crowding/valuation unwind; single-bundle validation risk"
+    }
+  ]
+}

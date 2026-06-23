@@ -1,0 +1,31 @@
+{
+  "symbol": "TNC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The ERP-rollout securities-fraud investigation (Feb 24 disclosure, ~$30M lost sales, >$20M remediation, ~23% drop) remains an open overhang. The autonomous-robotics products (X16 SWEEP, X2 ROVR SCRUB) and $250M-robotics-by-2028 goal were all announced pre-cutoff. June 15 dividend was routine.",
+  "sources": [
+    {
+      "label": "TNC ERP probe / robot scrubber (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tennant-compact-robot-scrubber-erp-011835184.html"
+    },
+    {
+      "label": "TNC securities-fraud investigation (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/tnc-securities-fraud-investigation-tennant-company-is-being-investigated-after-erp-system-issues-lead-to-23-stock-drop-302718248.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Nothing genuinely new since June 9. The autonomous-cleaning-to-facility-robotics pathway is intact (ROVR portfolio, $250M robotics-by-2028 goal) but the open ERP securities-fraud probe is a lingering management-credibility overhang; small negative drift, no rank change on this strict screen.",
+      "bull": "Expanding ROVR autonomous-scrubber portfolio and $250M robotics target give a credible path from cleaning to facility robotics.",
+      "neutral": "Robotics is still a small slice; ERP disruption and the legal probe cap re-rating until resolved.",
+      "bear": "Securities-fraud investigation over ERP failure raises management-credibility and litigation risk; AI/robotics link is thin.",
+      "primaryCatalyst": "ROVR autonomous-robotics revenue ramp",
+      "primaryRisk": "Open ERP securities-fraud probe / management credibility"
+    }
+  ]
+}

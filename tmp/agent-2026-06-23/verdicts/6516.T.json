@@ -1,0 +1,31 @@
+{
+  "symbol": "6516.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent item is a May 2026 launch of low-noise 40mm DC San Ace fans; no AI-server-specific design win or guidance change in the window.",
+  "sources": [
+    {
+      "label": "Sanyo Denki San Ace product site",
+      "url": "https://products.sanyodenki.com/en/sanace/"
+    },
+    {
+      "label": "Sanyo Denki (6516.T) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/6516.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Passives-vs-alpha lens: thesis intact and still under-followed — San Ace high-static-pressure fans gain content per rack as liquid cooling scales (sidecars/CDUs still need fans). Trades ~26x PE vs 80-180x cooling peers, no sell-side AI narrative. No news since June 9; nudge +1 on durable residual alpha.",
+      "bull": "Cheapest AI-cooling play (~26x vs peers 80-180x); fan content per rack rising with liquid-cooling sidecars; new low-noise fans extend product edge.",
+      "neutral": "Cooling buried in 3-segment conglomerate; no AI re-rating catalyst yet despite stock already doubling.",
+      "bear": "+68% YTD pulls forward upside; component-level winner with no direct contract disclosure; industrial cyclicality.",
+      "primaryCatalyst": "Recognition of San Ace AI-server fan content / re-rating toward thermal peers.",
+      "primaryRisk": "No AI narrative attaches; conglomerate discount persists."
+    }
+  ]
+}

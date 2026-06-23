@@ -1,0 +1,31 @@
+{
+  "symbol": "UFPI",
+  "company": "UFP Industries",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Q1 2026 results (Apr 29; sales -8%, EPS $0.89), the MoistureShield (~$56M) and Berry Pallets acquisitions, and the +3% dividend all predate June 9. The +2.1% move is sub-threshold sector drift.",
+  "sources": [
+    {
+      "label": "UFP Q1 2026 results",
+      "url": "https://www.ufpinvestor.com/news-releases/news-release-details/ufp-industries-announces-first-quarter-2026-results"
+    },
+    {
+      "label": "UFP Q1 2026 earnings highlights (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8836318/ufp-industries-inc-ufpi-q1-2026-earnings-call-highlights-navigating-challenges-with-strategic-acquisitions-and-strong-liquidity"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Strict latent-node screen: no new evidence on the modular-industrial/packaging pathway since June 9. The packaging/composite-decking and pallet expansion is real but ordinary construction-materials capacity, not AI-supply-chain. Under-owned, -7.5% YTD setup unchanged.",
+      "bull": "Packaging + composites + pallet network could quietly serve modular industrial/datacenter logistics build-out; decking output doubling by 2027.",
+      "neutral": "Solid materials franchise but only a latent/tangential AI tie; weak residential demand caps near-term.",
+      "bear": "Cyclical construction exposure (Q1 sales -8%) with no concrete AI-infrastructure linkage.",
+      "primaryCatalyst": "Modular-industrial/datacenter-adjacent packaging and logistics demand.",
+      "primaryRisk": "Residential-construction softness and no real AI-supply-chain pull."
+    }
+  ]
+}

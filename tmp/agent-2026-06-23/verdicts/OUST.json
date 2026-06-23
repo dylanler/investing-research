@@ -1,0 +1,31 @@
+{
+  "symbol": "OUST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely new, fundamentally positive catalysts since June 9: on June 15 Ouster expanded its Benchmark Electronics manufacturing partnership to support >100,000 REV8 units/year over a 10-year horizon, and on June 17 signed a strategic high-volume supply agreement with AIM Intelligent Machines to equip AI-powered heavy earthmoving fleets with REV8 native-color lidar. The +21.6% move is news-driven. (A small director insider sale ~$79k is immaterial.)",
+  "sources": [
+    {
+      "label": "Ouster & AIM Intelligent Machines strategic agreement (BusinessWire, Jun 17)",
+      "url": "https://www.businesswire.com/news/home/20260617199530/en/Ouster-and-AIM-Intelligent-Machines-Announce-Strategic-Agreement-for-Digital-Lidar-to-Equip-AI-Powered-Heavy-Earthmoving-Equipment-Following-the-Release-of-REV8-with-Native-Color"
+    },
+    {
+      "label": "Ouster expands Benchmark partnership for REV8 scale-up (QuiverQuant)",
+      "url": "https://www.quiverquant.com/news/Ouster+shares+jump+as+company+expands+Benchmark+manufacturing+partnership+for+REV8+lidar+scale-up"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 20,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.66,
+      "rankRationale": "Humanoid/robotics-stack lens: two fresh June deals add real commercialization - Benchmark scale to >100k REV8/yr (10-yr) and an AIM high-volume supply pact for AI heavy machinery - converting generic humanoid beta into bookable sensor volume the prior hold lacked. Positive on fundamentals; rerating penalty applied separately.",
+      "bull": "REV8 native-color lidar with locked-in 100k+/yr capacity and AIM volume supply; widening physical-AI/robotics sensor demand.",
+      "neutral": "Crowd favorite already re-rated; still unprofitable on ~$170M revenue.",
+      "bear": "Valuation/momentum extended; lidar competition and design-win durability unproven.",
+      "primaryCatalyst": "REV8 scale-up + AIM/heavy-machinery and robotics design wins",
+      "primaryRisk": "Crowding/valuation and path-to-profitability"
+    }
+  ]
+}

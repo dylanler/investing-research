@@ -1,0 +1,44 @@
+{
+  "symbol": "ICHR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific news since June 9. Latest print is Q1 2026 (reported May 4): revenue $256.1M (+15% q/q), Q2 guidance $290-310M (+17% q/q midpoint), gross margin improving to 13-14%. The +28.7% move since June 9 is WFE-beta re-rating, not fresh ICHR-specific bottleneck evidence.",
+  "sources": [
+    {
+      "label": "Ichor Q1 2026 results (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260504264377/en/Ichor-Holdings-Ltd.-Announces-First-Quarter-2026-Financial-Results"
+    },
+    {
+      "label": "Ichor Q1 2026 8-K exhibit (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652535/000165253526000028/ex-991_26q1xearnings.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node bottleneck lens: no new ICHR-specific evidence since the June 9 down verdict. The +28.7% pop is sector-beta/WFE re-rating, not bottleneck-criticality proof. As a gas-panel/subsystem integrator ICHR sits low on node-criticality. Hold rank 74; re-rating penalty handled separately.",
+      "bull": "Levered to AI fab/HBM capacity adds; Q2 guide +17% q/q with margin recovery signals upcycle ramp.",
+      "neutral": "Subsystem integrator with thin ~13% gross margins; demand real but bottleneck position is not differentiated.",
+      "bear": "Commodity gas-panel content, low margins, export-control exposure; +351% YTD leaves no margin of safety.",
+      "primaryCatalyst": "WFE upcycle driving volume leverage and margin expansion",
+      "primaryRisk": "Margin disappointment / WFE order timing; valuation air-pocket after 4x YTD"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "CPO/optical-interconnect lens: ICHR is WFE-subsystem exposure, not co-packaged-optics. No new news since June 9; nothing touches the optical/HBM-package thesis. Single-bundle validation risk and post-rally crowding intact. Hold rank 60.",
+      "bull": "Indirect beneficiary of advanced-node/HBM capex that underpins CPO supply chains.",
+      "neutral": "Not an optical pure play; WFE fluid/gas delivery is one step removed from the CPO bottleneck.",
+      "bear": "Off-thesis for a CPO lens; single-customer bundle concentration; valuation stretched after 4x YTD.",
+      "primaryCatalyst": "Advanced-packaging capex lifting subsystem demand",
+      "primaryRisk": "Customer concentration / single-bundle qualification risk"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "symbol": "ATS.TO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "ATS Corp: Q4 FY2026 (reported May 28, pre-window) showed revenue $747M and adjusted EBITDA $102.5M up YoY but order bookings ($704M) and backlog ($1,958M) down YoY; only a June 16 Stifel conference appearance since June 9 (non-material). SEPARATELY, the 'companies' listing here is AT&S (Austrian IC substrates): on June 15 AT&S secured an AMD deal plus another top customer, committing EUR1.5-2.0B to expand AI IC-substrate capacity (Kulim + Chongqing) and RAISED FY2026/27 guidance to 45-55% revenue growth (from 30-35%) and 32-37% EBITDA margin.",
+  "sources": [
+    {
+      "label": "ATS Q4 FY2026 press release (BusinessWire/SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001394832/000139483226000017/ats-pressreleasexfy26q4.htm"
+    },
+    {
+      "label": "TNGlobal: AT&S secures AMD deal, EUR2B capacity expansion",
+      "url": "https://technode.global/2026/06/15/austrias-ats-secures-amd-deal-to-invest-e2b-to-expand-chip-capacity-in-malaysia-china/"
+    },
+    {
+      "label": "EQS: AT&S expands capacity for AI substrates, raises outlook",
+      "url": "https://www.eqs-news.com/news/ad-hoc/ats-austria-technologie-systemtechnik-ag-ats-expands-capacity-for-ai-substrates/a0e98eba-3a59-4898-b839-0ff7580adfa8_en"
+    },
+    {
+      "label": "ATS Corp FY2026 results (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/ATS/6-k-ats-corp-ats-current-report-foreign-issuer-99549be45c73.html"
+    },
+    {
+      "label": "AT&S secures AMD deal, EUR2B expansion (TechNode)",
+      "url": "https://technode.global/2026/06/15/austrias-ats-secures-amd-deal-to-invest-e2b-to-expand-chip-capacity-in-malaysia-china/"
+    },
+    {
+      "label": "AT&S raises 2026/27 outlook on AI substrates (AT&S IR)",
+      "url": "https://ats.net/en/ir-news/ats-expands-ai-substrate-capacity-in-kulim-and-increases-outlook-for-2026-27/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent industrial-automation lens (ATS Corp): Q4 (May 28) showed EBITDA growth but softer bookings/backlog YoY; only a non-material conference appearance since June 9. AI-factory implementation thesis intact but no new evidence. Hold.",
+      "bull": "Custom automation is the build layer for AI-enabled factories/life sciences; EBITDA growing.",
+      "neutral": "Order bookings/backlog declined YoY; flat YTD, no new catalyst.",
+      "bear": "Order softness signals demand digestion; AI tie is indirect.",
+      "primaryCatalyst": "Order recovery in EV/battery and life sciences",
+      "primaryRisk": "Backlog erosion, project timing"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict lens (ATS Corp): the AI-hardware-adjacent assembly-line pathway stays speculative with medium evidence; nothing since June 9 advances it. Softer Q4 bookings argue against momentum. Hold.",
+      "bull": "Could become a platform for AI-hardware-adjacent assembly lines if order mix shifts.",
+      "neutral": "Speculative pathway; flat price, no new proof points.",
+      "bear": "Declining bookings/backlog; AI-hardware adjacency unproven.",
+      "primaryCatalyst": "Win AI-hardware assembly programs",
+      "primaryRisk": "Speculative thesis, order softness"
+    },
+    {
+      "page": "companies",
+      "currentRank": 51,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "NOTE: this listing is AT&S (Austrian IC substrates), not ATS Corp. June 15 AMD deal + second top customer + EUR1.5-2.0B capacity commitment and a sharp FY26/27 guidance raise (rev 45-55% from 30-35%) is genuine new confirmation of the advanced-substrate scarcity thesis since June 9 — the bottleneck case strengthened, partly offsetting the prior crowding penalty.",
+      "bull": "AMD-anchored EUR2B substrate capacity expansion; guidance raised to 45-55% rev growth, 32-37% EBITDA margin.",
+      "neutral": "Capacity sold against long-term customer agreements; +580% YTD already extreme.",
+      "bear": "Massive run-up and heavy capex; execution/financing risk on a leveraged ramp.",
+      "primaryCatalyst": "AMD/AI substrate capacity ramp, raised guidance",
+      "primaryRisk": "Execution and capex/financing risk after a huge rerating"
+    }
+  ]
+}

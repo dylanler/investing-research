@@ -1,0 +1,31 @@
+{
+  "symbol": "ITRI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Modestly positive: On June 15, 2026 Itron announced a deal with Watercare Services (NZ's largest water utility) to deploy 100,000 Intelis digital water meters within a broader plan to connect nearly half a million smart meters across Auckland — one of NZ's largest smart-water upgrades. Reinforces the grid/water-analytics attach thesis; consistent with FY26 revenue guide of $2.35-2.45B. No negative developments.",
+  "sources": [
+    {
+      "label": "Itron-Watercare 100k smart water meters (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ITRI/itron-collaborates-with-watercare-services-for-new-zealand-s-largest-kq778yemllsw.html"
+    },
+    {
+      "label": "Itron global smart-water push (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-itri/itron/news/itrons-global-smart-water-push-highlights-grid-edge-software"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Latent AI-power-bottleneck lens: Itron's grid-edge telemetry/demand-response thesis is core to this page. The Auckland 100k-meter water win is a real but incremental design proof point (+1), supporting the high-conviction rank-4 standing without warranting a bigger move.",
+      "bull": "AMI 2.0 replacement cycle, grid-modernization spend, water/energy analytics attach; Auckland 500k-meter program adds proof.",
+      "neutral": "Single regional water deal is incremental, not transformational, to a $3.6B-cap, $2.4B-revenue base.",
+      "bear": "-13.7% YTD, utility capex timing risk; AI-power linkage is a derived rather than direct beneficiary.",
+      "primaryCatalyst": "AMI 2.0 cycle and grid-edge software attach driving margins.",
+      "primaryRisk": "Utility deployment timing/budget delays."
+    }
+  ]
+}

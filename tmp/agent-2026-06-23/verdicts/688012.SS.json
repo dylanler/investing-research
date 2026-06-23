@@ -1,0 +1,39 @@
+{
+  "symbol": "688012.SS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No clearly dated new material company news in the June 9-23 window. AMEC remains an entrenched dielectric/TSV etch supplier (sub-5nm) with GaN MOCVD optionality (Prismo UniMax 100-chamber milestone, but that is mini-LED, not core AI etch, and timing is not new). The large +30.4% move since June 9 reflects China-equipment re-rating/flow rather than a fresh catalyst.",
+  "sources": [
+    {
+      "label": "AMEC - Prismo UniMax 100-chamber milestone (GaN MOCVD)",
+      "url": "https://www.amec-inc.com/en/index/Lists/show/catid/97/id/176.html"
+    },
+    {
+      "label": "Wikipedia - Advanced Micro-Fabrication Equipment",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
+    },
+    {
+      "label": "Asia Times - China 50% domestic chip-tools drive lifts stocks",
+      "url": "https://asiatimes.com/2026/01/chinas-50-domestic-chips-tools-drive-lifts-stocks-faces-limits/"
+    },
+    {
+      "label": "Futubull - AMEC 688012 stable performance, expanding portfolio",
+      "url": "https://news.futunn.com/en/post/71156375/amec-688012-stable-performance-with-continuously-expanding-product-portfolio"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Hold. AI-driven advanced-node/HBM/300mm etch spend and compound-semi/photonic-processing optionality remain relevant, but no fresh CPO-specific news landed since June 9. The sharp +30.4% pop is China-localization re-rating flow; rank 27 already captures most of the upside.",
+      "bull": "China-localization tailwind; sub-5nm dielectric/TSV etch entrenchment; GaN/photonic MOCVD optionality fits CPO.",
+      "neutral": "Strong domestic node but already up sharply; CPO link is optionality, not core.",
+      "bear": "+30.4% since June 9 with no new catalyst; China policy/competition risk; valuation discovery largely done.",
+      "primaryCatalyst": "China advanced-node etch localization + compound-semi tools",
+      "primaryRisk": "China policy and domestic competition"
+    }
+  ]
+}

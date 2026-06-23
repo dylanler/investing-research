@@ -1,0 +1,31 @@
+{
+  "symbol": "084370.KQ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No company-specific order announced since June 9, but Eugene rallied (~+10%) on a broad Korean WFE sector move tied to improving Samsung (~KRW110T) and SK hynix (~KRW21T) capex visibility for HBM/next-gen DRAM/multi-layer NAND. Q1 2026 was strong (revenue +32%, operating profit +75%, net +116% YoY) as a sole-supplier of ALD/CVD batch furnaces to Samsung/SK hynix.",
+  "sources": [
+    {
+      "label": "Korea chip-equipment rally on HBM/DRAM capex (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/06/04/chip-equipment-stocks-surge-as-samsung-sk-hynix-take-a"
+    },
+    {
+      "label": "Eugene Technology profile/financials (stockanalysis)",
+      "url": "https://stockanalysis.com/quote/kosdaq/084370/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: improving Samsung/SK hynix front-end capex visibility (HBM/DRAM/NAND) plus Eugene's Q1 (OP +75% YoY) as sole-source ALD/CVD furnace supplier are genuine thesis support, not just the +10% pop. Modest up; no specific new order, +89% YTD tempers.",
+      "bull": "Sole-source deposition furnaces levered directly to Korean memory/HBM capex acceleration; order momentum should follow capex.",
+      "neutral": "Move is largely sector flow; no company order yet and +89% YTD compresses upside.",
+      "bear": "Memory-capex timing risk and export-control overhang; concentrated Samsung/SK hynix customer base.",
+      "primaryCatalyst": "Samsung/SK hynix HBM and DRAM front-end capex orders",
+      "primaryRisk": "Order timing and memory cycle/export controls"
+    }
+  ]
+}

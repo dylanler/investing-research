@@ -1,0 +1,44 @@
+{
+  "symbol": "3231.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Wistron continues to ramp AI server/rack integration: a June 5 Taipei Times piece details its move beyond assembly into 'super integration' (compute, networking, cooling, power, advanced packaging), and its US plant is set to begin shipments by end of Q2 2026. May/Q1 prints confirm AI is ~79% of sales. No negative surprises; incremental confirmation of the deployment thesis. Price -4.2% since June 9 is flow, not news.",
+  "sources": [
+    {
+      "label": "Taipei Times - AI boom pushes server makers beyond assembly: Wistron (Jun 5)",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858540"
+    },
+    {
+      "label": "Digitimes - Wistron profit triples on server surge",
+      "url": "https://www.digitimes.com/news/a20260509PD205/wistron-profit-revenue-growth-shipments.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha lens: Jun 5 'super integration' framing + US-plant Q2 shipment start incrementally confirm the AI-server/rack thesis, but only +2.3% YTD vs strong AI mix means the alpha was already intact, not newly mispriced. Hold rank; modest +1 on fundamentals.",
+      "bull": "AI is ~79% of sales; super-integration role lifts content/margin per rack; US capacity de-risks tariffs.",
+      "neutral": "Confirmation, not surprise; OEM pricing/competition caps multiple.",
+      "bear": "Thin assembler margins; AI-server pricing pressure and customer concentration.",
+      "primaryCatalyst": "US plant shipment ramp + continued AI-server mix gains",
+      "primaryRisk": "OEM margin compression / pricing competition"
+    },
+    {
+      "page": "companies",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck master list: rack-integration/deployment exposure reaffirmed by the Jun 5 super-integration story and US-plant ramp. Genuine but incremental; rank already reflects deployment relevance. Hold with +1 fundamentals.",
+      "bull": "Scarce large-scale rack/system integration capacity at AI scale.",
+      "neutral": "Deployment exposure real but commoditizing; not a hard choke point.",
+      "bear": "Shell/integration is the least defensible layer of the stack.",
+      "primaryCatalyst": "Super-integration content gains; US ramp",
+      "primaryRisk": "Commoditization of system integration"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "MTRN.TA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The latest disclosures are the January CES Dolphin EON launch and the Q4 2025 strategic-refocus call, both well before the window. The -6.8% move since June 9 is price/flow on a $80M micro-cap, not a fundamental event.",
+  "sources": [
+    {
+      "label": "Maytronics Dolphin EON launch (GlobeNewswire, Jan 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/01/05/3212409/0/en/Maytronics-Debuts-Dolphin-EON-The-World-s-Most-Meticulous-Pool-Cleaning-Robot.html"
+    },
+    {
+      "label": "Maytronics Q4 2025 earnings call (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-maytronics-q4-2025-reveals-strategic-shift-amid-challenges-93CH-4623887"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Test-time-scaling/robotics bucket: consumer pool robots are a thin physical-AI proxy. No news since June 9; EON launch and Q4 refocus already known. Adjusted rank ~13 vs displayed 12 unchanged, so hold.",
+      "bull": "Dolphin EON line and robotics-only refocus deepen consumer-automation/physical-AI positioning at a beaten-down micro-cap valuation.",
+      "neutral": "Real autonomous-cleaning robotics, but consumer pool niche is far from compute-scaling theses.",
+      "bear": "Deep -44% YTD, $80M cap, soft demand; robotics relevance to scaling is tangential.",
+      "primaryCatalyst": "EON ramp and execution on the cost/procurement turnaround plan.",
+      "primaryRisk": "Consumer-discretionary weakness; micro-cap liquidity and margin pressure."
+    }
+  ]
+}

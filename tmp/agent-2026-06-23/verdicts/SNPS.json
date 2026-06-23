@@ -1,0 +1,48 @@
+{
+  "symbol": "SNPS",
+  "company": "Synopsys",
+  "caseDate": "2026-06-23",
+  "newsSince": "Positive operational momentum. FQ2 2026 came in strong (~$2.28B revenue) with a raised FY26 outlook on post-Ansys software scale, and in June Synopsys launched its first Multiphysics Fusion solutions (Ansys signoff + AI design tools + NVIDIA GPU acceleration), with early wins; shares jumped ~5.4% on June 17. Still a large (~$90B), well-discovered EDA name.",
+  "sources": [
+    {
+      "label": "Synopsys jumps on raised FY26 outlook + Ansys momentum (QuiverQuant)",
+      "url": "https://www.quiverquant.com/news/Synopsys+jumps+as+investors+focus+on+raised+FY2026+outlook+and+Ansys-integration+momentum"
+    },
+    {
+      "label": "Multiphysics Fusion launch, +5.41% Jun 17 (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261973854-market-movers-snps-20260617"
+    },
+    {
+      "label": "Multiphysics Fusion / Ansys integration (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-snps/synopsys/news/synopsys-snps-stock-could-be-187-undervalued-after-multiphys"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "On the crowding-sensitive CPO lens, an ~$90B fully-discovered EDA duopolist gains no hidden-bottleneck status from the Multiphysics Fusion launch. The beat-and-raise plus a still-negative YTD modestly improve entry asymmetry, worth a small positive drift but not a rank move.",
+      "bull": "Photonics/chiplet verification + Ansys multiphysics deepen design-flow moat.",
+      "neutral": "Quality compounder, but large and well-owned; limited residual CPO alpha.",
+      "bear": "Integration/regulatory and valuation overhang on a discovered name.",
+      "primaryCatalyst": "Multiphysics Fusion / Ansys cross-sell traction",
+      "primaryRisk": "EDA spending normalization or integration friction"
+    },
+    {
+      "page": "companies",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.75,
+      "rankRationale": "On the under-owned-bottleneck master list, the raised FY26 outlook and June Multiphysics Fusion launch reinforce design-validation exposure against a still-negative YTD reset. Page already moved SNPS up; no need to move again, but the improving setup against a beat-and-raise warrants a small positive drift.",
+      "bull": "EDA/IP duopoly plus AI-chip complexity tailwind and Ansys multiphysics upsell.",
+      "neutral": "Core bottleneck but heavily covered; modest residual alpha.",
+      "bear": "Valuation and Ansys-integration execution risk.",
+      "primaryCatalyst": "FY26 guide raise / Ansys synergy capture",
+      "primaryRisk": "Design-activity slowdown or integration drag"
+    }
+  ]
+}

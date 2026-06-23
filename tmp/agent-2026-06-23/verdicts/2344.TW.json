@@ -1,0 +1,35 @@
+{
+  "symbol": "2344.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The DRAM super-cycle intensified: TrendForce sees Q2 mainstream DRAM contract prices up 58-63% QoQ with the rally extending into 2027; Winbond's capacity is sold out through 2027 and it now projects the DRAM supply gap to extend beyond 2028, with record monthly revenue prints. On June 2, Winbond hit limit-up to record highs alongside Nanya on foreign-broker upgrades; it then ran another ~35% over the two weeks to +133% YTD.",
+  "sources": [
+    {
+      "label": "BigGo - Nanya & Winbond hit limit-up, foreign brokers upgrade",
+      "url": "https://finance.biggo.com/news/FiAmhp4BoicNoOgC7kCY"
+    },
+    {
+      "label": "TrendForce - Winbond DRAM ~4x by June 2026, booked through 2027",
+      "url": "https://www.trendforce.com/news/2026/02/11/news-winbond-expects-dram-prices-to-jump-nearly-4x-by-june-2026-capacity-booked-through-2027/"
+    },
+    {
+      "label": "DIGITIMES - Winbond two-year sell-out, $1.35B capex",
+      "url": "https://www.digitimes.com/news/a20260211PD214/winbond-capex-dram-nand-flash-demand.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "AI-node bottleneck lens: HBM crowding out commodity DRAM keeps tightening Winbond's niche/specialty DRAM - Q2 contract prices +58-63% QoQ, capacity sold out through 2027 and supply gap now projected beyond 2028. That is fresh, thesis-strengthening evidence (not just the price spike), supporting a modest up from rank 88.",
+      "bull": "Specialty DRAM/NOR sold out through 2027, supply gap to 2028+; record monthly revenue as HBM crowds out commodity DRAM.",
+      "neutral": "Bottleneck is real but Winbond is a price-taker in a famously cyclical market; much is now priced.",
+      "bear": "+133% YTD and a +35% two-week limit-up run on broker upgrades; memory rerating leaves it exposed to any cycle wobble.",
+      "primaryCatalyst": "Specialty-DRAM/NOR contract price hikes into 2027-2028",
+      "primaryRisk": "Memory-cycle reversal; valuation already discounts tightness"
+    }
+  ]
+}

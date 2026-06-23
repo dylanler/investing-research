@@ -1,0 +1,31 @@
+{
+  "symbol": "DY",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The relevant catalysts (Q1 FY27 reported May 27 with +56% revenue, record $11.9B backlog, raised FY27 guidance, Power Solutions data-center exposure) all predate the June 9 window and were already in the prior case. Q2 FY27 guide of $1.94-2.01B was issued with that release.",
+  "sources": [
+    {
+      "label": "Dycom Q1 FY27 earnings 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000067215/000006721525000028/dyfy2026q1earningsreleasee.htm"
+    },
+    {
+      "label": "Simply Wall St DY analysis",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-dy/dycom-industries"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI-supply-chain lens: fiber backhaul/DCI thesis intact and strengthening (record backlog, data-center capex), but the Q1 beat and raised guide predate June 9 and were in the prior case. No new info since; +4.3% move is flow. Hold.",
+      "primaryCatalyst": "Continued AI/data-center fiber buildout and carrier capex recovery feeding record backlog.",
+      "primaryRisk": "Carrier capex cyclicality and labor/execution margin slippage on a low-multiple services model.",
+      "bull": "Record $11.9B backlog (+46%) and 2.2x book-to-bill give multi-quarter visibility on AI-era fiber/DCI demand.",
+      "neutral": "Strong fundamentals but a services-multiple, not a tech re-rate; latent-node fit is indirect connectivity exposure.",
+      "bear": "Cyclical carrier capex and thin margins; consensus Strong Buy leaves limited under-coverage edge."
+    }
+  ]
+}

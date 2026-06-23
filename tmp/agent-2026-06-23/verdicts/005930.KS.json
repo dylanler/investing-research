@@ -1,0 +1,57 @@
+{
+  "symbol": "005930.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Core positive HBM4/foundry catalysts (June 8 Huang bilateral on HBM4E volume + HBM5 + Groq LP40 foundry; June 5 Vera Rubin HBM4 certification; May 29 12-layer HBM4E samples) were already digested in the June 9 verdict. New since: on June 18 rival SK Hynix shipped 12-layer HBM4E samples ahead of schedule, tightening the race, with SK Hynix still holding ~60-70% of Vera Rubin HBM4 allocation - a mild competitive headwind. No Samsung-specific new positive in the window.",
+  "sources": [
+    {
+      "label": "SK hynix ships 12-layer HBM4E ahead of schedule, tightens race (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318633/20260619/sk-hynix-ships-12-layer-hbm4e-samples-ahead-schedule-tightening-race-samsung.htm"
+    },
+    {
+      "label": "Samsung shipping HBM4 for Vera Rubin; HBM5/foundry talks (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260609PD200/samsung-nvidia-chips-sk-hynix-business.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "AI-node bottleneck lens: positive HBM4/foundry legs already rewarded with a 51->31 jump pre-refresh; the only genuinely new datapoint is June 18 SK Hynix HBM4E shipping ahead of schedule (SK Hynix still ~60-70% of Vera Rubin HBM4), a mild relative negative. Size/complexity cap alpha. Hold, small -1.",
+      "bull": "Certified Vera Rubin HBM4 supplier shipping 12-layer HBM4E; HBM5 + Groq LP40 foundry talks add optionality.",
+      "neutral": "Improving AI linkage offset by conglomerate complexity and a +141% YTD that already prices the rebound.",
+      "bear": "SK Hynix is shipping HBM4E ahead of schedule and holds the dominant Rubin allocation; Samsung remains the #3 catching up.",
+      "primaryCatalyst": "HBM4E volume ramp + Samsung Foundry winning Groq LP40",
+      "primaryRisk": "Losing the HBM/foundry race to SK Hynix/TSMC; memory-cycle timing"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Co-packaged-optics lens: Samsung is a tangential HBM/foundry/IDM holding here; none of the new flow (HBM4E, foundry-Groq, SK Hynix sampling) touches CPO/connectivity. Nothing new in this lens since June 9. Hold near the bottom of the list.",
+      "bull": "Memory/foundry scale could theoretically support optical-IO packaging over time.",
+      "neutral": "Real news is all HBM/foundry, off-lens for co-packaged optics; no incremental CPO signal.",
+      "bear": "Not a CPO-connectivity pure play; crowding-sensitive list rightly keeps it tangential.",
+      "primaryCatalyst": "Direct CPO/optical-interconnect program (none yet)",
+      "primaryRisk": "Remains off-thesis on this page; memory-cycle/foundry execution"
+    },
+    {
+      "page": "companies",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Under-owned-bottleneck master list: HBM4 certification + HBM5/foundry optionality sit squarely in the HBM & AI-memory bucket and were already credited June 9. New June 18 SK Hynix HBM4E lead is a competitive offset; net flat after a +141% YTD rerating. Hold.",
+      "bull": "Direct AI-memory bottleneck exposure; Rubin-era bandwidth demand plus foundry optionality.",
+      "neutral": "Bottleneck exposure real but crowded at +141% YTD; news is incremental, not thesis-changing.",
+      "bear": "Crowding at extreme YTD; SK Hynix's allocation lead and sampling pace cap Samsung's HBM upside.",
+      "primaryCatalyst": "HBM4/4E share gains and foundry wins",
+      "primaryRisk": "Crowding/rerating; ceding HBM leadership to SK Hynix"
+    }
+  ]
+}

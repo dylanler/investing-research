@@ -1,0 +1,31 @@
+{
+  "symbol": "VACN.SW",
+  "company": "VAT Group",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental disclosure since June 9. Items are a trade-show presence (Silicon Saxony Days, June 15-17) and reiterated 2026-ramp guidance (targeting record orders/sales/FCF, ~33.5% EBITDA margin) that was already communicated; no fresh order or earnings data. The +9.9% move tracks the broad semicap rally rather than a company-specific catalyst.",
+  "sources": [
+    {
+      "label": "VAT Group positions for 2026 ramp (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/vat-group-ag-positions-for-2026-semiconductor-ramp"
+    },
+    {
+      "label": "VAT at Silicon Saxony Days 2026 (VAT Group)",
+      "url": "https://www.vatgroup.com/news/events/silicon-saxony-days-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered AI supply chain: VAT is the dominant vacuum-valve monopoly (>70% share) levered to advanced-node intensity. Only fresh items are a trade show and reiterated 2026-ramp guidance - a soft positive backdrop, not a new datapoint. Quality/discovery cap alpha.",
+      "bull": "Near-monopoly vacuum-valve supplier to semicap; 2026 ramp targeting record orders/sales/FCF and rising advanced-node intensity.",
+      "neutral": "Strategically vital but well-discovered and richly valued; aftermarket adds stability without surprise.",
+      "bear": "High-quality valuation and broad semicap discovery limit residual alpha; cyclical capex exposure.",
+      "primaryCatalyst": "Semicap capex up-cycle and advanced-node intensity driving valve content.",
+      "primaryRisk": "Premium valuation and crowding cap upside; capex cyclicality."
+    }
+  ]
+}

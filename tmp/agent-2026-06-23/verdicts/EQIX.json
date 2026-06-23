@@ -1,0 +1,43 @@
+{
+  "symbol": "EQIX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely new since June 9: Equinix agreed to a deal where CPP Investments invests ~US$1.6B for ~60% of atNorth (Equinix retains ~40%), funding rapid scaling of Nordic, liquid-cooling-enabled AI/HPC capacity (8 operational DCs, ~1 GW secured power); described as immediately AFFO-accretive on close. Supports the AI data-center deployment thesis. Stock +5.9% since June 9.",
+  "sources": [
+    {
+      "label": "Simply Wall St: Equinix valuation after raised guidance on AI DC demand",
+      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/a-look-at-equinix-eqix-valuation-after-raised-guidance-on-ai"
+    },
+    {
+      "label": "Equinix 8-K: Gemini/atNorth (CPP Investments JV) press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000051/a2026-geminipressreleasexf.htm"
+    },
+    {
+      "label": "Barchart: Equinix becoming a key stop in the AI supply chain",
+      "url": "https://www.barchart.com/story/news/2544143/equinix-is-now-becoming-a-key-stop-in-the-ai-supply-chain-how-to-play-eqix-stock-here"
+    },
+    {
+      "label": "Equinix / CPP atNorth ~US$1.6B agreement (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000051/a2026-geminipressreleasexf.htm"
+    },
+    {
+      "label": "Equinix newsroom",
+      "url": "https://newsroom.equinix.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Nothing new since June 9 — guidance raise, atNorth JV and Citi Focus List add were already in the prior case. On this under-owned-bottleneck list the continued +5.9% rerating (now +47% YTD) further erodes the residual alpha the page rewards, so slight negative drift; hold rank 66.",
+      "bull": "~60% of largest deals AI-tied, raised FY26 guide and atNorth high-density expansion entrench colocation scarcity.",
+      "neutral": "Quality bottleneck but widely owned and richly valued; power/capacity constraints cut both ways.",
+      "bear": "Mega-cap REIT at +47% YTD; under-owned thesis largely exhausted; expansion-cost drag.",
+      "primaryCatalyst": "AI colocation bookings; xScale/atNorth capacity adds",
+      "primaryRisk": "Crowding/valuation; power and build-cost constraints"
+    }
+  ]
+}

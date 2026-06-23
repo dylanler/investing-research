@@ -1,0 +1,60 @@
+{
+  "symbol": "AAOI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material catalyst since June 9 beyond what was already in the prior case. AAOI's raised FY outlook (~$1.1B), $324M advanced-node backlog, and 800G/1.6T capacity ramp in Taiwan/Texas were already disclosed and reflected pre-June 9. The -6% move since June 9 is a continuation of profit-taking/rerating unwind from the May 13 high; >50% YoY diluted-share growth from aggressive ATM raises remains the structural overhang.",
+  "sources": [
+    {
+      "label": "StocksToTrade: AAOI surges on AI datacenter ramp",
+      "url": "https://stockstotrade.com/news/applied-optoelectronics-inc-aaoi-news-2026_06_01-2/"
+    },
+    {
+      "label": "Simply Wall St: AAOI valuation after 800G/1.6T orders",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-aaoi/applied-optoelectronics/news/applied-optoelectronics-aaoi-valuation-after-major-800g-and"
+    },
+    {
+      "label": "AAOI story shifting with big transceiver orders (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-story-shifting-150817310.html"
+    },
+    {
+      "label": "AAOI overview (StockTitan)",
+      "url": "https://www.stocktitan.net/overview/AAOI/"
+    },
+    {
+      "label": "Simply Wall St — AAOI 800G/1.6T orders",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-aaoi/applied-optoelectronics/news/applied-optoelectronics-aaoi-valuation-after-major-800g-and"
+    },
+    {
+      "label": "Investing.com — AAOI $53M 800G order",
+      "url": "https://www.investing.com/news/company-news/applied-optoelectronics-secures-53m-order-for-800g-transceivers-93CH-4577918"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 115,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Hold near the bottom on the CPO lens. No new evidence since June 9; AAOI is a discovered, +286% YTD merchant transceiver name not directly levered to the co-packaged-optics/package bottleneck. A -6% pullback trims chase risk but does not make it hidden or CPO-direct.",
+      "bull": "Verified 800G/1.6T hyperscale order book and 1.6T ramp keep it tied to scale-out optics demand.",
+      "neutral": "Strong demand but transceiver merchant, not CPO-native; already widely discovered.",
+      "bear": "Heavy ATM dilution, customer concentration, and +286% YTD crowding; low CPO alpha.",
+      "primaryCatalyst": "1.6T shipment ramp / Oracle qualification",
+      "primaryRisk": "ATM dilution and single-customer concentration"
+    },
+    {
+      "page": "companies",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.62,
+      "rankRationale": "Scale-out optics thesis strengthened: confirmed $200M+ 1.6T order plus $124M 800G book and Rosenblatt PT to $140. But fresh up-to-$600M ATM offsets per-share asymmetry vs the prior 'up' case. Net mild positive on the master bottleneck list.",
+      "bull": "Verified 1.6T/800G order book and hyperscale relationships make AAOI a real scale-out bandwidth bottleneck play.",
+      "neutral": "Order momentum genuine but repeatedly funded by equity issuance, capping per-share upside.",
+      "bear": "Up-to-$600M ATM stacked on prior programs dilutes the +286% YTD rerating; execution/pricing risk high.",
+      "primaryCatalyst": "1.6T order ramp and additional hyperscale wins",
+      "primaryRisk": "Aggressive ATM dilution and transceiver pricing"
+    }
+  ]
+}

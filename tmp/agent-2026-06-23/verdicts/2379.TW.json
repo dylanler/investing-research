@@ -1,0 +1,44 @@
+{
+  "symbol": "2379.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No bottleneck-changing news since June 9. May revenue NT$12.5B (double-digit YoY) and analyst price-target bumps (to ~NT$600) are incremental; OpenTitan root-of-trust membership is strategic but not a near-term driver. The +32.6% spike to all-time high is flow/revenue-print driven, not a new bottleneck position.",
+  "sources": [
+    {
+      "label": "Realtek price-target update (Simply Wall St)",
+      "url": "https://simplywall.st/community/narratives/tw/semiconductors/twse-2379/realtek-semiconductor-shares/tg9g35u9-ai-and-wi-fi-7-tech-will-open-new-market-frontiers/updates/23-analysts-have-lifted-their-price-target-for-realtek-semicond"
+    },
+    {
+      "label": "Realtek May 2026 revenue update (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/realtek-semiconductor-stock-tw0002379005-may-revenue-update-and/69490315"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 59,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On node-criticality, Realtek remains analog/RF/edge, not HBM/packaging/AI-networking core. The +32.6% surge since June 9 is a revenue-print/flow move (May rev +double-digit, PT bumps), not a new bottleneck position, further eroding residual alpha and confirming the prior de-rank.",
+      "bull": "AI/automotive Ethernet + Wi-Fi 7 growth; OpenTitan RoT optionality for datacenter security.",
+      "neutral": "Solid franchise but indirect to the 2027 compute bottleneck.",
+      "bear": "Low directness vs HBM/packaging/AI-networking; +77% YTD on PC/networking-cycle beta with no choke-point.",
+      "primaryCatalyst": "Automotive Ethernet + AI edge revenue ramp.",
+      "primaryRisk": "PC/networking cycle; minimal bottleneck criticality."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 67,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "On the CPO lens Realtek has weak direct CPO/HBM/packaging/test relevance; prior verdict was removal. The post-June-9 spike (revenue-driven) and PT hikes worsen the asymmetry without adding any CPO-relevant catalyst. De-rank stands.",
+      "bull": "Networking chip exposure; broad connectivity portfolio.",
+      "neutral": "Not a CPO bottleneck; edge networking is tangential.",
+      "bear": "No CPO directness; valuation re-rated on flow, not optical-interconnect alpha.",
+      "primaryCatalyst": "None CPO-specific.",
+      "primaryRisk": "Mispriced as a CPO play; cleaner bottleneck names dominate."
+    }
+  ]
+}

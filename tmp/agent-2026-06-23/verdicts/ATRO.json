@@ -1,0 +1,39 @@
+{
+  "symbol": "ATRO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Astronics announced a 20% Class B stock distribution (June 1, record June 15) and received a ~$44.7M U.S. Army purchase order for TS-4549/T radio test sets (full-rate production). Q1 (reported earlier) showed record bookings of $290.4M and $734.3M backlog. News is defense/aerospace-driven.",
+  "sources": [
+    {
+      "label": "Investing.com: Astronics $44.7M Army radio-test order",
+      "url": "https://www.investing.com/news/company-news/astronics-receives-447m-us-army-order-for-radio-test-sets-93CH-4713158"
+    },
+    {
+      "label": "Yahoo: Astronics Class B distribution/shelf filings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/astronics-class-b-distribution-shelf-080846286.html"
+    },
+    {
+      "label": "Astronics 8-K June 1 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000008063/000000806326000032/a060126exhibit991.htm"
+    },
+    {
+      "label": "Astronics up on new Army radio test order (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-atro/astronics/news/astronics-atro-is-up-52-after-new-army-radio-test-order-and/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-AI lens: the speculative pathway is aerospace power/test adapting to rugged edge compute. New items (Class B distribution, $44.7M Army test order) are capital-structure/defense events, not evidence for the rugged-edge-compute adaptation. Hold; +84% YTD is defense-driven, not new AI alpha.",
+      "bull": "Strong aerospace backlog ($734M) and test-systems franchise; record bookings.",
+      "neutral": "Defense/aerospace tailwind real but off the strict AI-adjacency pathway.",
+      "bear": "Rugged-edge-compute thesis remains speculative; +84% YTD on aerospace, not AI.",
+      "primaryCatalyst": "Aerospace recovery, test-systems orders",
+      "primaryRisk": "AI-adjacency pathway unproven; aerospace cyclicality"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "EPI-A.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The June 8 Capital Markets Day is already in the June 9 case. New since: a Heidelberg Materials order to deploy autonomous driverless haul trucks at an Australian quarry. However, CMD coverage emphasized SLOWING automation adoption (3,900 driverless machines vs 3,100 in 2024, only +26%, decelerating) and reduced mining-house capex appetite — a mild offset to the bullish prior framing.",
+  "sources": [
+    {
+      "label": "International Mining: Epiroc CMD outlines automation/electrification advances",
+      "url": "https://im-mining.com/2026/06/08/epiroc-capital-markets-day-outlines-automation-electrification-advances/"
+    },
+    {
+      "label": "Epiroc pre-result mail Q2 2026 (results Jul 17)",
+      "url": "https://www.epirocgroup.com/content/dam/epiroc/corporate/documents/quarterly-results-presentations-/2026-q2/2026-06-14%20Pre-result%20mail%20Q2%202026%20f%C3%B6r%20web.pdf"
+    },
+    {
+      "label": "Epiroc CMD 2026 — automation adoption slowing",
+      "url": "https://im-mining.com/2026/06/08/epiroc-capital-markets-day-outlines-automation-electrification-advances/"
+    },
+    {
+      "label": "Epiroc Q2 2026 pre-result note",
+      "url": "https://www.epirocgroup.com/content/dam/epiroc/corporate/documents/quarterly-results-presentations-/2026-q2/2026-06-14%20Pre-result%20mail%20Q2%202026%20f%C3%B6r%20web.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "The June 8 CMD that drove the prior 'up' case is now stale; nothing new since June 9 and Q2 isn't until July 17. CMD recaps flag decelerating autonomy adoption (~26% machine growth), a mild qualitative softening of the AI-metals-productivity thesis. Hold rank 82.",
+      "bull": "3,900 driverless machines + Ericsson 5G GTM and quarrying autonomy ride AI-driven metals/productivity demand.",
+      "neutral": "Quality automation franchise but adoption is decelerating and link to AI is indirect.",
+      "bear": "Mining capex caution and slowing autonomy uptake cap the latent-node upside; +25% YTD.",
+      "primaryCatalyst": "Q2 results (Jul 17); automation/electrification order intake",
+      "primaryRisk": "Mining-house capex pullback; decelerating autonomy adoption"
+    }
+  ]
+}

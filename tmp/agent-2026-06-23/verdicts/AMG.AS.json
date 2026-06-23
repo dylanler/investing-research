@@ -1,0 +1,35 @@
+{
+  "symbol": "AMG.AS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "AMG opened a new chrome-metal facility in New Castle, PA (June 17, up to 6,500 t/yr) and earlier acquired Zinnwald Lithium (May 14). FY2026 adjusted EBITDA guidance of $210-240M maintained, with Q1 vanadium revenue +18% to $181M. These strengthen the broad critical-materials franchise but not specifically the energy-storage-adjacent-to-compute pathway.",
+  "sources": [
+    {
+      "label": "AMG chrome metal facility (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313455/0/en/AMG-Opens-a-New-Chrome-Metal-Facility-and-Becomes-the-Sole-US-Producer.html"
+    },
+    {
+      "label": "AMG Q1 2026 results",
+      "url": "https://amg-nv.com/investors/press-release/amg-reports-better-than-expected-first-quarter-2026-results/"
+    },
+    {
+      "label": "AMG investor page / press releases",
+      "url": "https://amg-nv.com/investors/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent-node lens: the June 17 chrome facility is a US critical-materials positive but does not touch the vanadium/lithium energy-storage-adjacent-to-compute pathway this screen rates. No new evidence strengthening or weakening that link since June 9. +3% drift is noise. Hold.",
+      "bull": "Vanadium-flow-battery and battery-grade lithium ramp could feed datacenter-adjacent storage; sole US chrome producer adds strategic value.",
+      "neutral": "Compute linkage stays indirect/speculative; latest news is chrome, off-thesis.",
+      "bear": "No demonstrated compute pull-through; small $1.5B name dependent on commodity cycles.",
+      "primaryCatalyst": "Bitterfeld battery-grade lithium hydroxide commercial production ramp.",
+      "primaryRisk": "Commodity price swings and weak/indirect AI-demand connection."
+    }
+  ]
+}

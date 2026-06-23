@@ -1,0 +1,53 @@
+{
+  "symbol": "CAMT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The $105M+ multi-system orders from a tier-1 OSAT and a leading HBM maker (Hawk systems, 2027 delivery) were announced June 2, 2026, ahead of the window and already captured in the June 9 verdict. Stock essentially flat (+1.9%) since.",
+  "sources": [
+    {
+      "label": "Camtek $105M+ multi-system OSAT/HBM orders (Jun 2, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-osat-and-a-leading-hbm-manufacturer-302788351.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node bottleneck lens: Hawk metrology for HBM/2.5D-3D OSAT is a genuine packaging chokepoint, but the $105M order (Jun 2) is pre-window and priced. No fresh evidence since June 9; flat tape. Hold rank 3 among picks-and-shovels WFE.",
+      "bull": "$105M HBM/OSAT 2027 backlog confirms Hawk is designed-in at advanced-packaging chokepoints; smaller-cap leverage to AI attach.",
+      "neutral": "Strong order but already announced and largely priced; awaiting next datapoint.",
+      "bear": "Advanced-packaging capex is cyclical and customer-concentrated; +48% YTD leaves less margin of safety.",
+      "primaryCatalyst": "2027 HBM/advanced-packaging inspection backlog conversion",
+      "primaryRisk": "Advanced-packaging capex cycle / customer concentration"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "CPO/chiplet-complexity lens: top inspection beneficiary of advanced-packaging and chiplet complexity. Post-Jun 2 spike has settled; no new evidence in-window so crowding/asymmetry argument from June 9 stands. Hold rank 1.",
+      "bull": "Best-positioned small-cap inspection name as chiplet/CPO complexity raises metrology intensity per package.",
+      "neutral": "Order spike has been digested; thesis intact but no fresh catalyst since June 9.",
+      "bear": "Rank 1 leaves no headroom; cyclical packaging capex could compress orders.",
+      "primaryCatalyst": "Chiplet/CPO-driven inspection intensity growth",
+      "primaryRisk": "Advanced packaging capex cycle"
+    },
+    {
+      "page": "companies",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list: advanced-packaging & substrate scarcity exposure remains strong, but at rank 2 there is little headroom and the supporting $105M order predates the window. Nothing since June 9 justifies displacing the top name. Hold.",
+      "bull": "Scarce, designed-in exposure to CoWoS/HBM-attach inspection - a real packaging bottleneck.",
+      "neutral": "Already richly ranked; June 2 order book supports but does not extend the thesis.",
+      "bear": "Cyclical packaging capex; rerating after +48% YTD limits incremental alpha.",
+      "primaryCatalyst": "Advanced-packaging/HBM attach scarcity",
+      "primaryRisk": "Packaging capex cycle / valuation rerating"
+    }
+  ]
+}

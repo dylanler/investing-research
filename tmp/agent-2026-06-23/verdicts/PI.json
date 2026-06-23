@@ -1,0 +1,31 @@
+{
+  "symbol": "PI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Impinj's last events were Q1 2026 results and a strong Q2 (June-quarter) guide ($103-106M) issued in late April, plus the ongoing Gen2X protocol ramp. No new earnings, contract, or guidance change in the last two weeks; the prior export-control concern is not a new development.",
+  "sources": [
+    {
+      "label": "Impinj Q1 2026 / Q2 guidance 8-K (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/PI/8-k-impinj-inc-reports-material-event-be2f95e75e8f.html"
+    },
+    {
+      "label": "Impinj (PI) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 107,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "CPO/alpha lens: prior case flagged PI for removal given weak direct CPO/HBM/advanced-packaging relevance - it is RAIN RFID/IoT-edge, off-theme. No new fundamental news since June 9, so hold the low rank; Q2 guide was an April datapoint already digested.",
+      "bull": "Record endpoint-IC bookings and Gen2X ramp support an H2 profit inflection; -29% YTD lowers the bar.",
+      "neutral": "No fresh catalyst; off-theme for the co-packaged-optics bottleneck screen.",
+      "bear": "Not a CPO/HBM/packaging bottleneck name; retail/logistics RFID adoption and demand visibility remain weak.",
+      "primaryCatalyst": "Gen2X ramp and endpoint-IC booking strength",
+      "primaryRisk": "Off-theme vs CPO lens; soft RFID/retail demand"
+    }
+  ]
+}

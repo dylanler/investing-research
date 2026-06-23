@@ -1,0 +1,31 @@
+{
+  "symbol": "ALNT",
+  "company": "Allient",
+  "caseDate": "2026-06-23",
+  "newsSince": "No hard contract/order news since June 9. Allient is exhibiting at Automate 2026 (Jun 22-25, Chicago), showcasing frameless torque and axial-flux (ElectroFlux/MegaFlux/SA Series) motors targeted at humanoid platforms plus an integrated IPC controller + Pyxmos servo ecosystem. This is product/visibility reinforcement of the humanoid-actuation thesis, not a disclosed design win; the +11% move reflects rising humanoid sentiment.",
+  "sources": [
+    {
+      "label": "Allient at Automate 2026 (Unmanned Systems Tech)",
+      "url": "https://www.unmannedsystemstechnology.com/2026/06/allient-to-present-advanced-motion-control-automation-technologies-at-automate-2026/"
+    },
+    {
+      "label": "Allient humanoid motor-selection whitepaper (RoboticsTomorrow)",
+      "url": "https://www.roboticstomorrow.com/news/2026/04/23/allient-inc-publishes-new-whitepaper-on-motor-selection-for-humanoid-robotics-systems/26473"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens, actuation purity. Automate 2026 reinforces explicit humanoid motor content (frameless/axial-flux + integrated ecosystem), incrementally strengthening the actuation thesis, but no contract disclosed. Slight positive; rank vs robotics peers holds.",
+      "bull": "Clean US-listed motion-control supplier with explicit humanoid actuator content (frameless/axial-flux) and an integrating controller/servo ecosystem.",
+      "neutral": "Real humanoid-relevant product showcase, but revenue still skews to legacy motion/automation; humanoid is optionality.",
+      "bear": "+74% YTD prices in humanoid hope ahead of hard orders; visibility events aren't design wins.",
+      "primaryCatalyst": "A named humanoid OEM actuator design win or volume supply agreement.",
+      "primaryRisk": "Humanoid demand slips to out-years while valuation already reflects the narrative."
+    }
+  ]
+}

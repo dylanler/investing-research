@@ -1,0 +1,95 @@
+{
+  "symbol": "AVGO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Broadcom reported record Q2 FY2026 results (June 3, just before the window) with AI semiconductor revenue more than doubling to $10.8B; management guided Q3 consolidated revenue +84% YoY to ~$29.4B and AI revenue tripling to ~$16B, and reiterated >$100B FY2027 AI-revenue guidance across six custom-ASIC customers (Anthropic, Google, Meta, OpenAI, plus two). The post-earnings de-rating left the stock ~20% off highs with the thesis accelerating.",
+  "sources": [
+    {
+      "label": "Broadcom Q2 FY2026 results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "label": "CNBC: AVGO Q2 2026 earnings",
+      "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
+    },
+    {
+      "label": "Broadcom Q2 FY2026 results (Broadcom IR)",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "label": "Broadcom AVGO Q2 2026 earnings (CNBC)",
+      "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
+    },
+    {
+      "label": "Broadcom AI chip revenue doubled, $100B in 2027 (TIKR)",
+      "url": "https://www.tikr.com/blog/broadcoms-ai-chip-revenue-just-doubled-year-over-year-and-the-ceo-says-100-billion-is-coming-in-2027"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "On the residual-alpha-vs-passives lens nothing changed since June 9: a $1.8T benchmark mega-cap cannot become under-owned or hidden. No new catalyst; the post-earnings facts were already priced into the June 9 hold. Stays a monitor/benchmark name.",
+      "bull": "Best-in-class custom-ASIC + scale-up networking franchise.",
+      "neutral": "Real AI exposure but it is the index, not residual alpha vs passives.",
+      "bear": "Mega-cap, widely owned, far from the passive/power bottleneck.",
+      "primaryCatalyst": "AI XPU/networking ramp to FY27 >$100B",
+      "primaryRisk": "Crowding; cannot be 'under-owned'"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 20,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.75,
+      "rankRationale": "On the AI-node-bottleneck lens the thesis is intact and accelerating: custom ASIC + scale-up Ethernet revenue tripling to ~$16B in Q3 (+~200% y/y) and >$100B FY27 AI target reiterated, while the stock de-rated post-earnings. Sell-off with thesis strengthening improves node-relevance asymmetry; continue up.",
+      "bull": "Primary custom-ASIC design partner to six hyperscalers; AI revenue tripling to $16B and >$100B FY27 target.",
+      "neutral": "High market cap and visibility cap the early-alpha score even as the node thesis accelerates.",
+      "bear": "Heavy customer concentration; 'chips-only' shift narrows system-level capture; lofty FY27 number must be hit.",
+      "primaryCatalyst": "Custom XPU/ASIC and scale-up fabric ramp to $16B/qtr",
+      "primaryRisk": "Hyperscaler concentration; FY27 AI target execution"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "The page's own thesis concedes AVGO's CPO alpha is 'not undiscovered'; nothing since June 9 makes the consensus ecosystem anchor under-owned vs smaller CPO pure-plays. -2.2% drift only. Hold the low rank on this crowding-sensitive lens.",
+      "bull": "CPO platform leader and ecosystem anchor for AI networking.",
+      "neutral": "Alpha comes from share gains, not from being undiscovered.",
+      "bear": "Large-cap valuation, customer concentration, consensus ownership.",
+      "primaryCatalyst": "AI networking/CPO share gains",
+      "primaryRisk": "Valuation and concentration"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Already rank 1 on the silicon-consumption basket and the quarter validated it (AI silicon $10.8B to guided ~$16B/qtr). No new data since June 9; the de-rating changes price, not theme leadership. Cleanest dual silicon-consumption proxy (ASIC + interconnect); hold the top slot.",
+      "bull": "Two fast-growing silicon needs at once: custom accelerators + AI networking.",
+      "neutral": "Best basket proxy but already at rank 1, limited room to rise.",
+      "bear": "Mega-cap; any AI-capex air-pocket hits the proxy hardest.",
+      "primaryCatalyst": "AI silicon consumption +~200% y/y",
+      "primaryRisk": "AI-capex cyclicality"
+    },
+    {
+      "page": "companies",
+      "currentRank": 49,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "On the master bottleneck list the optics/high-speed-networking thesis is intact and accelerating (AI revenue doubling, guided to triple), and YTD is only +10% with the stock ~20% off highs after the post-earnings flush. The setup that drove June 9's up-move persists; continue up modestly.",
+      "bull": "Scale-out bandwidth/optics exposure accelerating; AI revenue tripling guidance; YTD reset to +10% improves entry.",
+      "neutral": "Mega-cap status limits the under-owned-bottleneck premium this list prizes.",
+      "bear": "Customer concentration and 'chips-only' shift; networking execution and pricing must hold.",
+      "primaryCatalyst": "AI networking/custom silicon ramp",
+      "primaryRisk": "Concentration; competitive pricing in optics/networking"
+    }
+  ]
+}

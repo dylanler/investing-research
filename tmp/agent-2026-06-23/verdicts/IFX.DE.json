@@ -1,0 +1,91 @@
+{
+  "symbol": "IFX.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Two new June items. Positive: on June 2 Infineon launched system-level AI data-center power solutions (18kW/30kW PSU designs) and joined NVIDIA's MGX 800VDC ecosystem, reiterating €1.5B FY26 / €2.5B FY27 AI data-center revenue targets ahead of the July 2 Dresden Module 4 opening. Negative: China's Supreme People's Court upheld a sales injunction barring Infineon's GaN products in China (Innoscience patents; ~RMB10M damages), which Infineon calls 'very limited' as only a small slice of its GaN portfolio is affected.",
+  "sources": [
+    {
+      "label": "Infineon AI data-center PSU launch (Jun 2)",
+      "url": "https://www.infineon.com/market-news/2026/infpss202606-094"
+    },
+    {
+      "label": "Infineon joins NVIDIA MGX 800VDC ecosystem",
+      "url": "https://www.astutegroup.com/news/general/infineon-expands-manufacturing-investment-as-ai-data-centre-demand-reshapes-power-chip-supply/"
+    },
+    {
+      "label": "China Supreme Court GaN injunction (Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/chinas-top-court-bars-infineon-from-selling-gan-power-chips-in-china"
+    },
+    {
+      "label": "Innoscience SPC injunction confirmation",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/innoscience-infineon-150626.shtml"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens: the June 2 AI-PSU launches + NVIDIA MGX 800VDC win reinforce the power-delivery thesis (€1.5B FY26 / €2.5B FY27 AI target), modestly offset by the China GaN ban (company: 'very limited'). Net mildly positive but ~110% YTD caps residual alpha. Hold 20, +1.",
+      "bull": "Direct AI-rack power-delivery winner; NVIDIA 800VDC ecosystem; €2.5B FY27 AI target; Dresden M4 ramps July.",
+      "neutral": "AI-power catalysts real but partly offset by China GaN ban; large-cap so residual alpha is thin.",
+      "bear": "GaN China injunction signals IP/competitive risk; +110% YTD leaves little un-priced alpha for a passives-beating list.",
+      "primaryCatalyst": "AI data-center power ramp (NVIDIA MGX, Dresden M4) hitting €2.5B FY27",
+      "primaryRisk": "Auto/industrial cycle weakness; GaN IP losses widening beyond China"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: new AI data-center PSU designs and the NVIDIA MGX 800VDC membership strengthen the power-conversion bottleneck thesis; GaN China ban is a contained offset. Too large/known for max early alpha, so +1 only. Hold rank 64.",
+      "bull": "Power-conversion content per AI rack rising; concrete 18-30kW PSU reference designs; €1.5B FY26 AI revenue.",
+      "neutral": "Genuine node exposure but mega-cap and well-covered; GaN setback trims the wide-bandgap optionality.",
+      "bear": "Too large/known for latent-alpha purity; GaN China exclusion dents a 58%-growth product line.",
+      "primaryCatalyst": "800VDC/AI rack power ramp; Dresden Module 4 silicon-MOSFET ramp",
+      "primaryRisk": "China GaN exclusion plus auto/industrial cyclicality"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "AI-node bottleneck lens: analog/power/RF tier is less direct than HBM/packaging/test, but June's AI-PSU launches + NVIDIA 800VDC win sharpen the AI-rack power claim. GaN China ban is a modest offset. Net +1; not enough to outrank more direct bottleneck names. Hold 49.",
+      "bull": "Credible AI-rack power content with named NVIDIA design wins; €2.5B FY27 AI target.",
+      "neutral": "Power is adjacent to, not the core of, the HBM/packaging compute bottleneck.",
+      "bear": "Less direct than memory/packaging names; GaN China ban and auto cycle weigh.",
+      "primaryCatalyst": "AI data-center power-delivery design wins ramping to volume",
+      "primaryRisk": "Indirect bottleneck position; GaN/auto headwinds"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.64,
+      "rankRationale": "CPO/optical-interconnect lens: Infineon is a power-density beneficiary, not an optical-interconnect pure play. June's news is all power/PSU and GaN-IP, none of which touches co-packaged optics. No change to the CPO thesis. Hold rank 69.",
+      "bull": "Higher rack power density indirectly raises the value of efficient power delivery alongside optical links.",
+      "neutral": "Off-axis for a CPO lens; power content is real but not the optical bottleneck.",
+      "bear": "Not an optical-interconnect play; GaN China ban adds noise without CPO relevance.",
+      "primaryCatalyst": "Power-density scaling alongside 800VDC AI racks",
+      "primaryRisk": "No CPO exposure; auto/industrial cycle and GaN IP risk"
+    },
+    {
+      "page": "companies",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Under-owned-bottleneck master list (board-level power/passives): June AI-PSU launches + NVIDIA MGX win validate the AI-server PDN thesis; GaN China ban is a contained offset (company: 'very limited'). Mildly positive but +110% YTD makes it less hidden. Hold rank 76, +1.",
+      "bull": "AI server PDN/power-semi content scaling with 800VDC racks; concrete NVIDIA ecosystem role; €2.5B FY27 AI target.",
+      "neutral": "Bottleneck exposure intact but increasingly recognized; GaN setback offsets some upside.",
+      "bear": "Less-hidden mega-cap after big re-rating; GaN China exclusion; auto/industrial pricing risk.",
+      "primaryCatalyst": "AI server power-delivery ramp (Dresden M4, NVIDIA 800VDC)",
+      "primaryRisk": "GaN IP losses and auto/industrial cycle pressuring power-semi execution"
+    }
+  ]
+}

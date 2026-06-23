@@ -1,0 +1,31 @@
+{
+  "symbol": "3711.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Materially positive: ASE raised its 2026 capex a second time, from ~$7B to ~$8.5B (+20%+), lifted its LEAP advanced-packaging revenue target by >10% to over $3.5B, and said AI/CoWoS advanced-packaging revenue will beat initial expectations by >$250M on strong demand and TSMC packaging outsourcing. Fundamentals clearly strengthened, but the +16% move since June 9 and +156% YTD show much is already priced.",
+  "sources": [
+    {
+      "label": "BigGo Finance - ASE raises capex to $8.5B, lifts LEAP target",
+      "url": "https://finance.biggo.com/news/Avov3J0BNl__-4_GwWaF"
+    },
+    {
+      "label": "Digitimes - ASE advanced packaging/testing revenue to rise $1B in 2026",
+      "url": "https://www.digitimes.com/news/a20251031PD246/ase-advanced-packaging-revenue-testing-2026.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: the capex hike to ~$8.5B, +10% LEAP target raise and >$250M CoWoS beat genuinely strengthen the advanced-packaging bottleneck (+2 fundamentals). But +156% YTD, +16% spike and consensus Strong-Buy status mean the news is largely consumed; unpriced asymmetry shrank, so hold rank.",
+      "bull": "Capex raised twice; LEAP >$3.5B; CoWoS beating on TSMC outsourcing - structural packaging choke point.",
+      "neutral": "Strong fundamentals but now consensus and richly valued.",
+      "bear": "+156% YTD; valuation flags; H1 de-stocking; news already in the price.",
+      "primaryCatalyst": "CoWoS/LEAP capacity ramp beating targets",
+      "primaryRisk": "Consensus crowding / multiple already rerated"
+    }
+  ]
+}

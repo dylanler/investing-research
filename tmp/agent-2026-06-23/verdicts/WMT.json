@@ -1,0 +1,31 @@
+{
+  "symbol": "WMT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. FY2027 guidance (net sales +3.5-4.5% cc, adj EPS $2.75-2.85) and the prior quarter were already digested; next earnings is August 20, 2026.",
+  "sources": [
+    {
+      "label": "Walmart FY26 8-K / financial results",
+      "url": "https://stock.walmart.com/financial-information/financial-results"
+    },
+    {
+      "label": "Walmart earnings date (MarketBeat)",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WMT/earnings/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Carbon-consumption basket lens: WMT remains a mature, consensus, already-institutionally-owned household-spend proxy. Nothing new since June 9 (guidance/Q1 digested, next print Aug 20), so the low-alpha defensive role is unchanged.",
+      "bull": "Durable grocery/pharmacy traffic, defensive FY27 guide, AI/automation cost lever.",
+      "neutral": "Solid compounder but consensus-owned with little residual alpha vs the basket.",
+      "bear": "Mega-cap, fully owned; minimal asymmetry and no carbon-vs-silicon catalyst.",
+      "primaryCatalyst": "Aug 20 Q2 print / comp-sales momentum",
+      "primaryRisk": "Consumer-spend softening; valuation already full"
+    }
+  ]
+}

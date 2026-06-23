@@ -1,0 +1,70 @@
+{
+  "symbol": "6963.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental catalyst since June 9. The June 3 750V SiC MOSFET BBU design win for +/-400V HVDC AI servers and the GS-endorsed AI/DC growth target were already in the June 9 cases. The DENSO takeover bid was withdrawn back in March. +3.85% move is modest; rerating already consumed per prior verdicts.",
+  "sources": [
+    {
+      "label": "ROHM 750V SiC MOSFET adopted in AI-server BBU (Semiconductor Today)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/rohm-040626.shtml"
+    },
+    {
+      "label": "ROHM SiC BBU / HVDC AI servers (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306369/0/en/rohm-s-sic-mosfet-adopted-in-bbu-for-ai-servers-as-hvdc-architectures-advance.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha/passives lens: current-sense/resistor exposure unchanged; the GS-upgrade recognition event was already marked down June 9. No new passives-specific evidence since. +130% YTD remains crowded. Hold at 0 after the prior down.",
+      "bull": "Tight-supply current-sense and chip-resistor content rising with AI server density.",
+      "neutral": "GS upgrade and rerating already priced; nothing new on passives since June 9.",
+      "bear": "+139% YTD on a crowding-sensitive list; residual mispricing largely consumed.",
+      "primaryCatalyst": "AI-server power-node content gains in resistors/current sense.",
+      "primaryRisk": "Crowded ownership; SiC pricing/auto-cycle drag on the broader story."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Network-centrality lens: the June 3 HVDC/BBU SiC design win that raised ROHM's directness to the DC power node is already in the score. No fresh window evidence; +3.85% is minor. Hold rather than whipsaw after the June 9 hold.",
+      "bull": "750V SiC into +/-400V HVDC AI-server BBUs gives a real, growing DC-power-node foothold.",
+      "neutral": "Design win already priced; less direct than HBM/packaging/networking names.",
+      "bear": "Analog/power is a step removed from the core AI-node bottleneck; SiC margins still recovering.",
+      "primaryCatalyst": "HVDC AI-server SiC adoption scaling toward FY30 DC targets.",
+      "primaryRisk": "SiC oversupply/pricing and auto-cycle softness."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: ROHM is power/SiC, not co-packaged optics; flagged for removal June 8 on weak direct CPO/HBM/packaging relevance. No new window evidence changes that. Hold at the bottom of the list.",
+      "bull": "Strong SiC power franchise with AI-server BBU traction.",
+      "neutral": "Essentially no CPO relevance; sits low for a reason.",
+      "bear": "Weak direct optics/packaging fit; high YTD worsens asymmetry on this lens.",
+      "primaryCatalyst": "None CPO-specific.",
+      "primaryRisk": "SiC pricing and auto cycle."
+    },
+    {
+      "page": "companies",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Master under-owned-bottleneck lens: board-level power thesis is now consensus (doubled GS target, +139% YTD) and was marked down June 9 on that. No genuinely new info since, so no further move; hold at 0.",
+      "bull": "Power-delivery/SiC content into AI servers with a validated HVDC design win.",
+      "neutral": "Bottleneck exposure now recognized and priced; new-info pulse has faded.",
+      "bear": "Under-owned-bottleneck edge largely gone at +139% YTD; execution/pricing risk remains.",
+      "primaryCatalyst": "Sustained SiC AI-server adoption and earnings rebound.",
+      "primaryRisk": "Pricing pressure and power-device execution."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "symbol": "BDC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 18, 2026 Belden launched a new suite of IT/OT network products (incl. LioN-X IO-Link Masters). More materially, Belden has a definitive agreement to acquire RUCKUS Networks for ~$1.85B cash (~13x 2026E adj. EBITDA), targeting a 2H26 close, which extends its reach into enterprise/wireless networking. Q2-26 guidance ($735-750M revenue, $1.53-1.63 GAAP EPS) reaffirms AI/IT-OT data-layer momentum.",
+  "sources": [
+    {
+      "label": "Belden IT/OT network solutions launch (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8922692/belden-bdc-introduces-advanced-itot-network-solutions"
+    },
+    {
+      "label": "Belden RUCKUS $1.85B acquisition (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000913142/000091314226000020/finalprojectrocketpressrel.htm"
+    },
+    {
+      "label": "Belden Q1 2026 results & guidance",
+      "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "Belden to acquire RUCKUS Networks ($1.85B)",
+      "url": "https://www.businesswire.com/news/home/20260430190021/en/Belden-to-Acquire-RUCKUS-Networks-from-Vistance-Networks-Accelerating-its-Transformation-into-a-Full-Stack-Networking-Solutions-Provider"
+    },
+    {
+      "label": "GuruFocus - Belden advanced IT/OT network solutions",
+      "url": "https://www.gurufocus.com/news/8922692/belden-bdc-introduces-advanced-itot-network-solutions"
+    },
+    {
+      "label": "Belden Q1 2026 results",
+      "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-First-Quarter-2026-Results/default.aspx"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold rank 1. IT/OT-convergence/edge-AI data-layer thesis intact. No new catalyst since June 9; RUCKUS deal and Q1/Q2 numbers already priced into prior case. +8% move is sentiment, not fresh evidence. Long tail of latent-node thesis unchanged.",
+      "bull": "RUCKUS adds full-stack IT/OT networking; data-center/edge cabling demand and solutions mix lift margins.",
+      "neutral": "Quality compounder but no new datapoint since June 9; deal still pending regulatory close.",
+      "bear": "RUCKUS integration/regulatory risk; AI-data-layer link is indirect vs core-bottleneck names.",
+      "primaryCatalyst": "RUCKUS close (H2-26) + edge/data-center networking demand",
+      "primaryRisk": "Acquisition integration / regulatory delay"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "SWKS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Incremental M&A/financing news, no AI-node operational catalyst. On June 11 Skyworks reported strong participation in the Qorvo notes exchange (~89-93% tendered), stripping restrictive covenants. China SAMR review entered Phase II and management is now hopeful the ~$22B Qorvo merger closes late 2026 vs early 2027 (>$500M synergies). RF/analog exposure to AI/CPO/HBM remains thin.",
+  "sources": [
+    {
+      "label": "Skyworks Qorvo notes exchange (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/skyworks-reports-strong-participation-in-qorvo-notes-exchange"
+    },
+    {
+      "label": "Qorvo merger resets debt covenants (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-merger-skyworks-resets-debt-090625215.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 92,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "AI-node bottleneck lens: SWKS has weak direct HBM/advanced-packaging/AI-networking relevance. June news is merger/financing flow, not AI-node evidence. Prior verdict already flagged for removal; stays at the bottom with mild negative drift.",
+      "bull": "Combined Skyworks-Qorvo creates a $22B RF/analog leader with >$500M synergies and possible 2026 close.",
+      "neutral": "Mobile-concentrated RF/analog franchise; AI/edge exposure is selective and indirect, far from the HBM/packaging bottleneck.",
+      "bear": "No AI-node relevance; merger integration risk and mobile cyclicality dominate the story for an AI-node ranking.",
+      "primaryCatalyst": "Qorvo merger close and synergy capture; any genuine AI/datacenter design win.",
+      "primaryRisk": "Antitrust delay/integration risk; persistent lack of AI-node relevance keeps it bottom-tier."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 75,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Co-packaged-optics lens: essentially no datacenter optical/cable exposure. June Qorvo-financing progress is irrelevant to CPO. Prior case flagged removal on weak CPO/HBM/packaging/test relevance; mild negative drift, hold at bottom.",
+      "bull": "Scale from the Qorvo deal could fund adjacency moves over time.",
+      "neutral": "RF/analog with limited optical relevance; CPO thesis does not run through this name.",
+      "bear": "Cleaner CPO bottleneck names dominate; SWKS adds no co-packaged-optics alpha and carries mobile concentration risk.",
+      "primaryCatalyst": "An unexpected datacenter optical/connectivity content win.",
+      "primaryRisk": "Zero CPO relevance; remains a removal candidate vs purer optics names."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "symbol": "ACM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Positive flow for AECOM: selected to the UK Government's $4.7B CPS2 construction-professional-services framework (June 22), won a wide-ranging US Department of Homeland Security contract, and is leaning into proprietary AI tools on major infrastructure work. This follows a May 2026 report with a second consecutive FY2026 guidance raise, record backlog and expanding margins; the +AI-driven power/data-center design and permitting backlog supports the engineering-bottleneck thesis. Stock down ~28% YTD.",
+  "sources": [
+    {
+      "label": "AECOM: nationwide DHS critical-infrastructure contract",
+      "url": "https://aecom.com/press-releases/aecom-awarded-nationwide-u-s-department-of-homeland-security-contract-to-support-critical-infrastructure-modernization/"
+    },
+    {
+      "label": "Construction Dive: AECOM profit boost from data centers, defense",
+      "url": "https://www.constructiondive.com/news/aecom-profit-boost-data-center-defense-spending/820031/"
+    },
+    {
+      "label": "Simply Wall St: AECOM valuation after raised 2026 guidance and contract wins",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-acm/aecom/news/a-look-at-aecom-acm-valuation-after-raised-2026-guidance-and/amp"
+    },
+    {
+      "label": "AECOM joins $4.7B UK CPS2 framework (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8924866/aecom-acm-secures-position-in-47b-uk-construction-services-framework"
+    },
+    {
+      "label": "AECOM undervalued after DHS contract and AI push (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-acm/aecom/news/aecom-acm-stock-could-be-35-undervalued-after-dhs-contract-a/amp"
+    },
+    {
+      "label": "Insider Monkey — AECOM DHS nationwide contract",
+      "url": "https://www.insidermonkey.com/blog/aecom-acm-secures-us-dhs-nationwide-infrastructure-modernization-contract-1781266/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 74,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "Latent AI-node lens: engineering/permitting capacity is a genuine hidden bottleneck for power/DC projects. Record $26.2B backlog, 1.2 design book-to-burn, raised FY guidance and record design pipeline materially strengthen the case. The -28% YTD makes a fundamentally improving DC-design platform look under-owned — up.",
+      "bull": "Record backlog + raised guidance; capital-light DC design fees across power/cooling/grid/permitting.",
+      "neutral": "Large, diversified consultancy; DC is one of several end-markets.",
+      "bear": "Government/infrastructure exposure; -28% YTD reflects funding/sentiment overhang.",
+      "primaryCatalyst": "AI-DC design pipeline conversion; backlog burn at higher margins.",
+      "primaryRisk": "Public-sector budget/funding cuts; project-timing slippage."
+    }
+  ]
+}

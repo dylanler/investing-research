@@ -1,0 +1,27 @@
+{
+  "symbol": "4063.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Only fresh item since June 9 is a mid-June plan to commit capital to a new rare-earth smelter in Japan (critical-minerals/supply-chain resilience) -- not core to the AI-node wafer/photoresist bottleneck thesis. Next earnings July 23, 2026. No material AI-node-specific news.",
+  "sources": [
+    {
+      "label": "Shin-Etsu valuation after rare-earth smelter plan (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/materials/tse-4063/shin-etsu-chemical-shares/news/shin-etsu-chemical-tse4063-stock-valuation-after-new-rare-ea"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the AI-node bottleneck lens, the only news (rare-earth smelter) is off-thesis for wafers/photoresist/quartz. Core wafer-and-materials choke-point remains relevant but rank 46 at +48% YTD / $84B cap already captures it. No fundamental change vs June 9 -- hold.",
+      "bull": "Leading silicon-wafer/photomask-blank/photoresist supplier levered to AI fab and HBM capacity.",
+      "neutral": "Diversified chemicals giant; AI-node exposure diluted by PVC/rare-earth/other segments.",
+      "bear": "Largest cap in the cohort; wafer demand cyclicality and order-timing risk.",
+      "primaryCatalyst": "AI-driven wafer/material demand from fab and HBM capacity adds.",
+      "primaryRisk": "Memory/wafer cycle timing; diversification dilutes pure AI-node beta."
+    }
+  ]
+}

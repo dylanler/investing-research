@@ -1,0 +1,31 @@
+{
+  "symbol": "6506.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No NEW material company-specific news since June 9. The relevant items predate the window: FY2025 results (Apr 10) and FY2026 guidance for +26.8% operating-profit growth, with management flagging an AI-semiconductor-driven ~20% Q4 order surge in Motion Control. Next earnings Jul 3, 2026.",
+  "sources": [
+    {
+      "label": "Yaskawa FY2025 earnings call / FY2026 guidance (BigGo Finance)",
+      "url": "https://finance.biggo.com/news/JP_6506.T_2026-04-10"
+    },
+    {
+      "label": "Yaskawa Electric earnings (Investing.com)",
+      "url": "https://www.investing.com/equities/yaskawa-electric-corp.-earnings"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Latent-alpha lens: Yaskawa is explicitly an 'obvious beneficiary' / known automation cyclical, so the AI linkage is not hidden. No new evidence since June 9; the AI-capex Motion Control tailwind was already public from the April call. Hold the tail rank ~80.",
+      "bull": "FY2026 guidance +26.8% OP; AI-semi capex lifting Motion Control orders; servo/robot recovery and China rebound optionality.",
+      "neutral": "Cyclical recovery already in guidance; AI exposure indirect and widely known; awaiting Jul 3 print.",
+      "bear": "Large-project robotics carry low value-add; cyclicality and crowded automation narrative cap latent alpha at +44% YTD.",
+      "primaryCatalyst": "Jul 3 Q1 print / continued AI-driven Motion Control order momentum.",
+      "primaryRisk": "Automation cyclicality; low-margin large robotics projects."
+    }
+  ]
+}

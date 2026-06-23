@@ -1,0 +1,31 @@
+{
+  "symbol": "TEX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. Q1 2026 (reported early May) showed Aerials orders +46% to ~$971M but Q4 Aerials margin at just 2.6%, ~$60M incremental 2026 tariff headwind, and an ongoing strategic review of the Aerials business; REV Group integration continues. FY26 EPS guide $4.50-5.00. Nothing new in the latent-AI-node thesis.",
+  "sources": [
+    {
+      "label": "Terex Q1 2026 8-K earnings release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000097216/000009721626000078/terexearningsreleaseexq1-26.htm"
+    },
+    {
+      "label": "Terex FY2026 earnings guidance (Daily Political)",
+      "url": "https://www.dailypolitical.com/2026/05/03/terex-nysetex-issues-fy-2026-earnings-guidance.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "Strict latent-AI-node lens (lifting/material handling into AI-driven industrial construction): no new evidence since June 9 strengthens or weakens the pathway. Strong Aerials orders (+46%) offset by 2.6% margins, ~$60M tariff drag and Aerials strategic review. Tangential AI link. Hold at 88.",
+      "bull": "Aerials orders +46% and material-handling/port equipment could ride data-center and industrial construction buildouts.",
+      "neutral": "Cranes/aerial/material-handling could benefit from automated logistics, but the AI-node connection is indirect and latent.",
+      "bear": "Thin Aerials margins (2.6%), ~$60M tariff headwind, REV integration risk and an Aerials strategic review cloud the construction-cyclical thesis.",
+      "primaryCatalyst": "Industrial/data-center construction demand lifting Aerials and cranes",
+      "primaryRisk": "Tariff headwinds, thin margins and Aerials divestiture uncertainty"
+    }
+  ]
+}

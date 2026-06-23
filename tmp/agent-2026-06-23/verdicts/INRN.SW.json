@@ -1,0 +1,31 @@
+{
+  "symbol": "INRN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new fundamental change since June 9. The June 12 AGM approved an unchanged CHF32 dividend, long-serving CFO Heinz Hossli departs end-June 2026 (succession underway), and Berenberg upgraded to Buy on a warehouse-automation inflection. Underlying 2025 order-intake rebound (+5.0%, +9.2% local) was previously reported.",
+  "sources": [
+    {
+      "label": "Berenberg upgrades Interroll to Buy on automation inflection (Investing.com)",
+      "url": "https://www.investing.com/news/analyst-ratings/berenberg-upgrades-interroll-stock-to-buy-on-warehouse-automation-inflection-93CH-4172045"
+    },
+    {
+      "label": "Interroll order-intake rebound / 2025 profitability (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/interroll-lifts-orders-and-defends-margins-as-e-commerce-and-asia-recover"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent pick-and-shovel for logistics automation feeding AI warehouse orchestration. Since June 9 only an AGM, a CFO departure and a Berenberg upgrade - sentiment/governance, not a fundamental order or margin shift. The automation/e-commerce recovery thesis is intact but unchanged. Hold.",
+      "bull": "Warehouse-automation/e-commerce recovery and order-intake rebound; Berenberg Buy; high-equity balance sheet and material-flow exposure to AI logistics.",
+      "neutral": "Recovery underway but margins still pressured; CFO transition adds near-term uncertainty.",
+      "bear": "Europe industrial/automotive soft, -40% YTD, and the AI-orchestration tie is adjacency; margin headwinds persist.",
+      "primaryCatalyst": "Sustained order-intake acceleration and sorter/automation project wins",
+      "primaryRisk": "Margin pressure and weak European industrial demand; CFO transition"
+    }
+  ]
+}

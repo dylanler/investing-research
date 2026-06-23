@@ -1,0 +1,31 @@
+{
+  "symbol": "600703.SS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "MATERIAL: multiple limit-ups (June 15, 16, 22) on genuine catalysts - SiC entering tier-1 automaker supply chains (Chongqing Sanan substrates feeding the ST JV), AI optical-chip ramp (400G/800G in volume shipment, 1.6T sampled to customers for validation), executive Lin Zhiqiang buying 1M shares June 12, plus >¥166m Q1 govt subsidies. This is fresh fundamental support, not pure flow.",
+  "sources": [
+    {
+      "label": "Sina - Sanan June 22 limit-up analysis (SiC + AI optical + insider buy)",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-06-22/doc-iniefuxv2297781.shtml"
+    },
+    {
+      "label": "Sina - Sanan June 16 limit-up (SiC + MiniLED + AI optical chip)",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-06-16/doc-inicqhiw6337941.shtml"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 64,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO/compound-semis lens this is a clear fundamental shift since June 9: 800G optical chips in volume and 1.6T sampled to customers is direct CPO-adjacent alpha, plus SiC into tier-1 auto chains and insider buying. The 'single-bundle validation' flag eases. +3 and up vs watchlist peers; only +38% YTD leaves room.",
+      "bull": "1.6T optical-chip sampling + 800G volume = direct CPO supply alpha; SiC into auto; insider buying.",
+      "neutral": "Multi-segment (LED/SiC/optical) dilutes pure CPO read; A-share flow amplifies.",
+      "bear": "Limit-ups partly momentum; govt-subsidy-dependent earnings; 1.6T still at validation stage.",
+      "primaryCatalyst": "1.6T/800G AI optical-chip ramp",
+      "primaryRisk": "Validation slippage / subsidy reliance"
+    }
+  ]
+}

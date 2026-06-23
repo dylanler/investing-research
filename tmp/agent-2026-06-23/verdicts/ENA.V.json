@@ -1,0 +1,35 @@
+{
+  "symbol": "ENA.V",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The Sivers/O-Net/Enablence co-packaged-optics external-light-source collaboration that anchors its CPO thesis was announced in March 2026, not in the June 9-23 window. The -11.9% move is noise on a microcap still up ~475% YTD.",
+  "sources": [
+    {
+      "label": "Sivers/O-Net/Enablence ELS for AI datacenters (PR Newswire, Mar 2026)",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-o-net-and-enablence-technologies-announce-external-light-sources-for-ai-datacenters-302715690.html"
+    },
+    {
+      "label": "Compound Semiconductor coverage of the partnership",
+      "url": "https://compoundsemiconductor.net/article/123781/Sivers_O-Net_and_Enablence_partner_on_ELS_for_AI_data_centres"
+    },
+    {
+      "label": "Sivers/O-Net/Enablence ELS CPO partnership (Mar 2026)",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-o-net-and-enablence-technologies-announce-external-light-sources-for-ai-datacenters-302715690.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "No new CPO/photonics evidence since June 9; the ELS partnership dates to March. On this crowding-sensitive lens the ~475% YTD already prices the single-bundle story, and a -11.9% pullback is liquidity noise, not a thesis change. Hold rank 23.",
+      "bull": "Validated NxN coupler design-in to an AI-datacenter ELS module gives optionality on a real CPO supply-chain ramp.",
+      "neutral": "Genuine theme but single-bundle, pre-revenue microcap; nothing new in the window.",
+      "bear": "Up ~475% YTD on one partnership; microcap liquidity and validation risk dominate.",
+      "primaryCatalyst": "ELS/CPO module qualification and first volume orders",
+      "primaryRisk": "Single-bundle validation failure and microcap liquidity"
+    }
+  ]
+}

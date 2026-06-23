@@ -1,0 +1,44 @@
+{
+  "symbol": "IPGP",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh material company-specific news in the June 9-23 window. IPG's Q1 2026 results (revenue +16.6% to $265.5M, TRUMPF patent dispute settled for ~$13.5M) and Q2 guide ($260-290M, 37-40% adj GM with ~150bp tariff headwind) were disclosed at the early-May earnings call. Management flagged tougher 2H26 comps. Nothing new since June 9.",
+  "sources": [
+    {
+      "label": "IPGP Q1 2026 results / TRUMPF settlement (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/IPGP/8-k-ipg-photonics-corp-reports-material-event-cb30deb766b0.html"
+    },
+    {
+      "label": "IPGP Q1 2026 earnings transcript (AOL)",
+      "url": "https://www.aol.com/articles/ipg-photonics-ipgp-q1-2026-190457111.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent AI supply-chain lens: photonics/precision-manufacturing optionality intact. Q1 beat and TRUMPF settlement already digested pre-window; tougher 2H26 comps flagged. No new June catalyst to move the rank-9 standing on this page.",
+      "bull": "Industrial laser cycle recovering (+16.6% Q1); photonics expertise gives AI-manufacturing optionality; litigation overhang cleared.",
+      "neutral": "Earnings news pre-dates window; nothing new since June 9.",
+      "bear": "Tougher 2H26 comps, ~150bp tariff GM drag, industrial cycle exposure; AI linkage indirect.",
+      "primaryCatalyst": "Industrial capex recovery and laser-automation demand.",
+      "primaryRisk": "Industrial laser cycle softening into 2H26 against hard comps."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Co-packaged-optics lens: IPG still lacks a direct CPO data-center revenue path vs COHR/LITE/MTSI. No new CPO evidence since the June 9 verdict that already moved it down. Industrial-laser identity unchanged. Hold at rank 35.",
+      "bull": "Deep photonics IP could eventually feed CPO/datacom adjacencies.",
+      "neutral": "No CPO design-win or product evidence emerged in the window.",
+      "bear": "Revenue remains industrial-laser-driven; CPO path far less direct than pure datacom optics peers.",
+      "primaryCatalyst": "A concrete CPO/datacom photonics revenue path.",
+      "primaryRisk": "Stays a peripheral name on a pure-CPO lens."
+    }
+  ]
+}

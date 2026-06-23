@@ -1,0 +1,73 @@
+{
+  "symbol": "BESI.AS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "At its June 18, 2026 Investor Day, BE Semiconductor raised its long-term revenue target to EUR 1.7-2.2B (from EUR 1.5-1.9B), tied to 2.5D AI/datacenter and photonics demand and new hybrid-bonding use cases in logic, memory and co-packaged optics. Q1 2026 orders more than doubled YoY to EUR 269.7M, with hybrid-bonding unit demand above prior peaks and adoption expanding to ~20 customers. Materially strengthens the advanced-packaging/CPO bottleneck thesis.",
+  "sources": [
+    {
+      "label": "BESI raises long-term targets at 2026 Investor Day (company)",
+      "url": "https://www.besi.com/investor-relations/press-releases/details/be-semiconductor-industries-nv-increases-long-term-financial-targets-at-2026-investor-day/"
+    },
+    {
+      "label": "BESI raises revenue & margin targets (Global Banking & Finance)",
+      "url": "https://www.globalbankingandfinance.com/besi-raises-long-term-revenue-margin-targets-demand/"
+    },
+    {
+      "label": "BESI turning hybrid bonding into AI packaging growth (Yahoo/Insider Monkey)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/semiconductor-industries-besiy-turning-hybrid-161027312.html"
+    },
+    {
+      "label": "Besi raises long-term targets at 2026 Investor Day (Jun 18)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/semiconductor-industries-besiy-turning-hybrid-161027312.html"
+    },
+    {
+      "label": "Besi orders double on hybrid-bonding demand",
+      "url": "https://bits-chips.com/article/besi-sees-orders-double-on-hybrid-bonding-demand/"
+    },
+    {
+      "label": "BESI raises long-term targets at 2026 Investor Day - Besi IR",
+      "url": "https://www.besi.com/investor-relations/press-releases/details/be-semiconductor-industries-nv-increases-long-term-financial-targets-at-2026-investor-day/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 93,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.8,
+      "rankRationale": "June 18 Investor Day raised long-term revenue (EUR 1.7-2.2B) and margin (45% floor) targets on 2.5D AI/photonics and hybrid bonding. Genuine fundamental upgrade strengthens the advanced-packaging node thesis; move up even though the angle is well-known at $29B cap.",
+      "bull": "Raised long-term targets confirm hybrid bonding is the bottleneck enabler for AI chiplets; 20+ customers, orders doubling.",
+      "neutral": "Thesis well-identified; upgrade firms the structural case but visibility is already high.",
+      "bear": "99% YTD/$29B cap prices a lot of the ramp; advanced-packaging order cycles can be lumpy.",
+      "primaryCatalyst": "Hybrid-bonding adoption across logic/memory/CPO",
+      "primaryRisk": "Valuation; packaging-equipment cyclicality"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 7,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.82,
+      "rankRationale": "On the AI-node bottleneck lens the Investor Day target raise (revenue to EUR 2.2B top end, margin floor to 45%) on HBM/2.5D/chiplet packaging materially strengthens the choke-point case. Top-tier OSAT/packaging enabler earns a move up from rank 7.",
+      "bull": "Hybrid bonding is a hard-to-substitute bottleneck for HBM and chiplet stacking; raised targets validate the ramp.",
+      "neutral": "Already a top-10 pick; upgrade reinforces rather than transforms the standing.",
+      "bear": "Megacap-adjacent visibility means upside may be largely in the price after a 99% YTD run.",
+      "primaryCatalyst": "HBM/chiplet hybrid-bonding tool ramp",
+      "primaryRisk": "Cycle timing; concentrated customer base"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 15,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.83,
+      "rankRationale": "Most direct beneficiary of the news on the CPO lens: the Investor Day explicitly named co-packaged optics and photonic integration as a new hybrid-bonding use case driving the higher long-term targets. This is fresh, dated evidence firming the photonic-integration enabler thesis; move up.",
+      "bull": "Management explicitly ties raised targets to CPO/photonic-integration hybrid bonding, a direct choke-point for optical AI interconnect.",
+      "neutral": "CPO ramp is multi-year; BESI captures it via tool sales rather than optics itself.",
+      "bear": "CPO adoption timing uncertain; current valuation leaves little margin for slippage.",
+      "primaryCatalyst": "Co-packaged-optics hybrid-bonding adoption",
+      "primaryRisk": "CPO ramp delays; advanced-packaging cycle"
+    }
+  ]
+}

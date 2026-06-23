@@ -1,0 +1,44 @@
+{
+  "symbol": "3044.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new thesis-changing datapoint since June 9; the record 1Q26 print (server/memory + Apple, PCB order overflow, AI infrastructure demand) was already reported May 11-12 and captured in the prior June-9 up-move. May monthly revenue continues the record trajectory but adds confirmation, not new alpha.",
+  "sources": [
+    {
+      "label": "Apple/AI server demand power Tripod record 1Q26",
+      "url": "https://www.digitimes.com/news/a20260511VL212/tripod-pcb-ai-server-demand-apple.html"
+    },
+    {
+      "label": "Tripod 2026 capex for Vietnam/China expansion",
+      "url": "https://www.digitimes.com/news/a20260121PD242/tripod-pcb-vietnam-expansion-2026.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the residual-alpha lens Tripod still screens as fundamentals-outrunning-recognition: server/networking PCB order-overflow and accelerating revenue confirm the tight-supply central-node thesis at a moderate +70% YTD. No genuinely new datapoint since the June-9 up-move, so hold with a small + as the thesis stays intact.",
+      "bull": "Server/AI + Apple PCB order overflow; record 1Q26; tight-supply central node, still under-followed.",
+      "neutral": "Record print already known; growth confirmation rather than new evidence.",
+      "bear": "Cyclical PCB exposure; momentum could fade if AI server build digests.",
+      "primaryCatalyst": "AI server/networking PCB tight supply and capacity expansion",
+      "primaryRisk": "PCB cycle / order-overflow normalization"
+    },
+    {
+      "page": "companies",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the master bottleneck list Tripod sits at a high rank #3; the record 1Q26 confirmed the HDI/boards execution leg this page told us to watch, but it is confirmation, not thesis-changing, and was already priced into the June-9 hold. Moderate +70% YTD keeps risk/reward balanced; hold.",
+      "bull": "Top-tier HDI/PCB scarcity beneficiary; record results; relatively measured YTD vs substrate peers.",
+      "neutral": "Already high rank; execution confirmed but no new bottleneck evidence.",
+      "bear": "Rank #3 leaves little upside if AI server PCB demand or pricing softens.",
+      "primaryCatalyst": "Sustained AI server/HDI PCB demand and pricing",
+      "primaryRisk": "Pricing/execution slip; PCB cycle downturn"
+    }
+  ]
+}

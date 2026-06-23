@@ -1,0 +1,44 @@
+{
+  "symbol": "3105.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. Win is the largest GaAs foundry with Q1 sharp recovery (EPS NT$1.26 vs ~0) and SpaceX satellite (inter-satellite/D2C) products set for first meaningful 2026 profit contribution, but the +192% YTD surge is driven by SpaceX-IPO proxy speculation, not AI-node/CPO bottleneck evidence.",
+  "sources": [
+    {
+      "label": "SpaceX IPO Taiwan proxy stocks (Win Semi GaAs/D2C)",
+      "url": "https://aciemind.com/en/en/posts/taiwan-spacex-stocks-guide"
+    },
+    {
+      "label": "Win Semi 1Q26 recovery overview",
+      "url": "https://simplywall.st/stocks/tw/semiconductors/tpex-3105/win-semiconductors-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the manufacturing-tollgate lens Win's +192% YTD is SpaceX-IPO/satellite speculation and RF recovery, not AI-node or packaging bottleneck evidence. No new AI-relevant catalyst since June 9; flow-driven, retail-heavy crowding leaves little residual under-owned alpha. Continue down.",
+      "bull": "World's largest GaAs foundry; SpaceX satellite/D2C first profit in 2026; sharp RF margin recovery.",
+      "neutral": "Real RF/satellite tollgate, but tangential to AI-compute bottleneck.",
+      "bear": "Speculative SpaceX-IPO proxy; +192% YTD with high retail margin usage; RF-cycle exposure.",
+      "primaryCatalyst": "SpaceX/satellite RF ramp; GaAs RF recovery",
+      "primaryRisk": "Speculative unwind; RF cycle; weak AI-node linkage"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 101,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the CPO lens Win is a compound-semi/RF foundry with limited direct co-packaged-optics evidence; photonics linkage is speculative. After +192% YTD with no new CPO datapoint since June 9, valuation/cycle and speculation risk dominate cleaner photonics/substrate names. Stays low and drifting down.",
+      "bull": "Could touch photonics/RF for optical; specialty compound-semi capacity is scarce.",
+      "neutral": "Indirect CPO linkage; mainly RF/satellite-driven.",
+      "bear": "Limited direct CPO evidence; RF cycle plus speculative rerating risk.",
+      "primaryCatalyst": "Photonics/RF capacity tightness",
+      "primaryRisk": "RF cycle; speculative valuation reset"
+    }
+  ]
+}

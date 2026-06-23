@@ -1,0 +1,40 @@
+{
+  "symbol": "6762.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. TDK's record FY3/2026 results, raised guidance, and AI-pivot capex plan (¥900B capex, 25-30% AI-DC CAGR target) were all disclosed at the April 28 FY briefing; the +2.8% move since June 9 is flow.",
+  "sources": [
+    {
+      "label": "TDK FY2026 slides: record profits, AI pivot (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/tdk-fy-2026-slides-record-profits-ai-pivot-amid-muted-stock-reaction-93CH-4640689"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha lens: no fundamental news since June 9; AI-DC capex/pivot was an April event. A +2.8% flow day pushes YTD to ~75% on a crowding-sensitive list. MLCC/inductor power-topology bottleneck intact but at ~$45B cap far less hidden than Tier A. Hold.",
+      "bull": "MLCC/inductor/film-cap content across the AI-DC power-delivery chain; ¥900B capex, 25-30% CAGR target.",
+      "neutral": "Core thesis solid but increasingly consensus; rerating consuming asymmetry.",
+      "bear": "+75% YTD, $45B cap, well-covered; limited residual alpha vs hidden peers.",
+      "primaryCatalyst": "AI-DC power-component capacity ramp",
+      "primaryRisk": "Crowding; consumer/components cycle"
+    },
+    {
+      "page": "companies",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Broad board-level power/passives lens: no genuinely new info since June 9, only a +2.8% flow day. AI server PDN/MLCC/inductor positioning remains a credible bottleneck but the YTD rerating was already marked. Hold at 57.",
+      "bull": "Deep power-delivery content in AI servers; record earnings and rising capex.",
+      "neutral": "Quality compounder; rerating already reflects the AI tailwind.",
+      "bear": "Large, well-owned; cyclical consumer/components exposure remains.",
+      "primaryCatalyst": "AI server power-delivery content growth",
+      "primaryRisk": "Components/consumer cyclicality and FX"
+    }
+  ]
+}

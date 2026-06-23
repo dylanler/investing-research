@@ -1,0 +1,43 @@
+{
+  "symbol": "ENS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Incrementally positive. EnerSys launched the DataSafe Noir Lithium system for data-center power on June 9 and used its June 11 NYSE Investor Day to detail a data-center/lithium and BESS roadmap, though management guides meaningful revenue contribution only from FY2028. Q4 FY26 results (EPS beat, stock +10%) were May 20-21, pre-window. Stock essentially flat (+0.2%) since June 9.",
+  "sources": [
+    {
+      "label": "EnerSys Q4/FY26 results (investor relations)",
+      "url": "https://investor.enersys.com/news/news-details/2026/EnerSys-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx"
+    },
+    {
+      "label": "EnerSys Q4 2026 earnings call highlights (DataSafe Noir lithium DC product, Investor Day)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/enersys-ens-q4-2026-earnings-230042358.html"
+    },
+    {
+      "label": "Investing.com: EnerSys earnings up next - can data centers offset motive power drag",
+      "url": "https://www.investing.com/news/earnings/enersys-earnings-up-next-can-data-centers-offset-motive-power-drag-93CH-4701631"
+    },
+    {
+      "label": "EnerSys Investor Day June 11 / record FY results",
+      "url": "https://investor.enersys.com/overview/default.aspx"
+    },
+    {
+      "label": "EnerSys data-center backup battery monitoring",
+      "url": "https://www.stocktitan.net/news/ENS/ener-sys-technology-advances-data-centre-backup-power-9kg1dkg3kzds.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "June 9 DataSafe Noir lithium DC launch + June 11 Investor Day roadmap give modest new evidence on exactly this page's 'resilient/backup power for AI data centers' thesis, reinforcing the under-owned reliability angle. Revenue is FY2028+ so impact is small; already rank 2, so hold with a slight score bump.",
+      "bull": "30%+ DC UPS capacity growth plus a new lithium DC product line extends the under-the-radar AI-power franchise.",
+      "neutral": "DC/lithium tailwind real but revenue contribution is years out; motive-power core still drags.",
+      "bear": "FY26 net income fell ~19%; DC lithium revenue not until FY2028; +51% YTD already prices optimism.",
+      "primaryCatalyst": "DataSafe Noir lithium DC orders; UPS refresh cycle",
+      "primaryRisk": "Motive-power weakness; delayed DC lithium ramp; 45X credit dependence"
+    }
+  ]
+}

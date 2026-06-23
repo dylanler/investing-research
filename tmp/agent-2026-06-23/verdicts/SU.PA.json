@@ -1,0 +1,57 @@
+{
+  "symbol": "SU.PA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Schneider Electric began global shipments of its Uniflair XCA air-cooled/free-cooling chillers (for high-density liquid-cooled AI environments) in June 2026, and announced a Foxconn partnership to co-develop AI data-center power, cooling and energy-management hardware with first joint products later this year, complementing its Motivair liquid-cooling acquisition. (The $1.9B Switch supply agreement dates to Nov 2025, outside the window.) Confirming execution, not a re-rating event.",
+  "sources": [
+    {
+      "label": "Schneider & Foxconn partner to power data centres (Energy Digital)",
+      "url": "https://energydigital.com/news/schneider-electric-foxconn-join-up-to-power-data-centres"
+    },
+    {
+      "label": "How Schneider is preparing data centres for AI heat loads / Uniflair XCA (Data Centre Magazine)",
+      "url": "https://datacentremagazine.com/news/how-schneider-electric-is-preparing-data-centres-for-ai-heat-loads"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens. June Uniflair XCA chiller shipment start and the Foxconn AI-DC hardware JV are execution confirmation, but the name sits in the crowded/rerated-benchmark bucket with Strong Buy consensus, so residual alpha stays thin; small positive drift, no re-rank.",
+      "bull": "Uniflair XCA shipping + Foxconn JV deepen the integrated AI power/cooling reference architecture.",
+      "neutral": "Strategically central but fully discovered; residual alpha vs passives limited.",
+      "bear": "Crowded, already rerated; bottleneck premium captured by the market.",
+      "primaryCatalyst": "Uniflair XCA ramp and Foxconn AI-DC hardware partnership.",
+      "primaryRisk": "Crowding leaves little residual alpha; DC capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 101,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Latent lens, explicitly included as a negative-control: the crowd has already found Schneider. June Uniflair XCA shipments and the Foxconn JV reinforce that it is a direct, well-known AI-infra winner, not a latent/undiscovered node. Hold at the bottom as designed.",
+      "bull": "Direct AI power-and-cooling winner with broad data-center exposure and new chiller/JV launches.",
+      "neutral": "By design a discovered negative-control; latent screen value is as a benchmark.",
+      "bear": "Fully discovered, low conviction; offers no latency/discovery edge for this screen.",
+      "primaryCatalyst": "Data-center power/cooling demand and SE Asia buildout.",
+      "primaryRisk": "Already crowded; no latent discovery upside on this lens."
+    },
+    {
+      "page": "companies",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list, power/cooling/electrical execution lens. June Uniflair XCA shipment start and the Foxconn AI-DC JV are confirming execution on the grid/cooling thesis, consistent with last case's +1 execution drift; positive but not enough to re-rank vs power/cooling peers.",
+      "bull": "Uniflair XCA shipping, Foxconn JV and Motivair integration extend end-to-end AI power+liquid-cooling leadership.",
+      "neutral": "Execution confirms thesis; no fundamental shock to reorder peers.",
+      "bear": "High-quality but premium-valued; growth depends on sustained DC capex.",
+      "primaryCatalyst": "Integrated AI power + liquid-cooling product ramp (Uniflair/Motivair/Foxconn).",
+      "primaryRisk": "Data-center capex cyclicality and valuation."
+    }
+  ]
+}

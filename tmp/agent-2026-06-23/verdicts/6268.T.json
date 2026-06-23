@@ -1,0 +1,31 @@
+{
+  "symbol": "6268.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No confirmed material company-specific news since June 9 (apparent Harmonic Drive merger/acquisition chatter traces to historical/aggregator items, not a new 2026 deal). Story unchanged: ~35% global share in RV reducers, real humanoid/cobot reduction-gear exposure, but well-discovered. Move since June 9 (+6%) is modest and sector-driven.",
+  "sources": [
+    {
+      "label": "Nabtesco precision reduction gears / robot business",
+      "url": "https://www.nabtesco.com/en/products/robot/"
+    },
+    {
+      "label": "Nabtesco / Harmonic Drive stake history (MarketScreener)",
+      "url": "https://www.marketscreener.com/quote/stock/NABTESCO-CORPORATION-6496668/news/Nabtesco-Closes-357-Million-Sale-of-Partial-Stake-in-Harmonic-Drive-Systems-40960527/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Genuine humanoid-actuation exposure via #1 RV-reducer position, but already well-discovered and only +6% since June 9 with no fresh catalyst. Rank stays consistent with evidence/risk-reward; no new humanoid order or capacity news to re-rate the alpha thesis.",
+      "bull": "Critical actuation chokepoint; RV-reducer capacity doubling positions it for humanoid volume.",
+      "neutral": "Real but well-known exposure; reducer content per humanoid still uncertain.",
+      "bear": "Industrial/auto cyclicality dominates near-term; humanoid revenue remains immaterial.",
+      "primaryCatalyst": "Named humanoid actuator design wins and capacity ramp",
+      "primaryRisk": "Industrial-robot cycle softness; humanoid timeline slips"
+    }
+  ]
+}

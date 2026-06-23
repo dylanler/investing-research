@@ -1,0 +1,35 @@
+{
+  "symbol": "KOMN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "The fresh item in the window is the announced departure of CFO Christian Mader at end-June 2026 (joining another Swiss industrial), with Andreas Weibel stepping in on an interim basis - a mild governance/execution overhang during an ongoing restructuring. No formal profit warning surfaced; the sharp ~-20% drop since June 9 in this micro-cap ($0.33B) looks largely sentiment/liquidity-driven amid weak European auto-wire demand. The CHF25M cost-cut and Asia localization plans continue.",
+  "sources": [
+    {
+      "label": "Komax CFO Christian Mader to leave (EQS News)",
+      "url": "https://www.eqs-news.com/news/ad-hoc/cfo-christian-mader-to-leave-the-komax-group/c95f9ccb-601d-4c1d-8f43-2c63c36ae049"
+    },
+    {
+      "label": "Komax CFO to depart at June-end (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/komax-cfo-to-depart-at-june-end-ce7e58dbd880f72c"
+    },
+    {
+      "label": "Komax reduces costs, positive operating result (Komax)",
+      "url": "https://www.komaxgroup.com/en/media-releases/komax-group-significantly-reduces-costs-and-achieves-positive-operating-result"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.5,
+      "rankRationale": "Latent under-covered AI supply-chain lens: wire-processing automation thesis intact, but the end-June CFO departure adds a mild governance/execution overhang mid-restructuring. Price slide is handled by the separate re-rating penalty; small negative fundamental delta, no profit warning -> hold.",
+      "primaryCatalyst": "Wire-harness automation for robotics/power/industrial; CHF25M cost-out and Asia localization",
+      "primaryRisk": "CFO transition mid-restructuring; weak European auto-wire demand; micro-cap illiquidity",
+      "bull": "Niche wire-processing automation leader leveraged to robotics/power harness volumes once auto capex recovers.",
+      "neutral": "Restructuring and Asia push are credible but slow; CFO change adds near-term uncertainty.",
+      "bear": "Subdued auto-wire investment, -34% YTD, leadership churn and tiny float keep the strict screen fragile."
+    }
+  ]
+}

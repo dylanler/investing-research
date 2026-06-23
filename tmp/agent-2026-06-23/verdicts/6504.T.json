@@ -1,0 +1,47 @@
+{
+  "symbol": "6504.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Fuji Electric continues to build out DC-relevant power capacity: a new Malaysia factory building with construction starting June 2026 (operation Oct 2026), Tsukuba switchboard/power-supply capacity expansion to ~1.7x (construction Sept 2026), Kobe expansion to ~1.5x (Oct 2026), and SiC lines ramping in FY2026 with module sales targeted to more than double. Most plans were disclosed pre-June 6, but the Malaysia construction start is a fresh execution milestone.",
+  "sources": [
+    {
+      "label": "Fuji Electric expands overseas switchboard capacity for DC business",
+      "url": "https://www.fujielectric.com/about/news/detail/1205811_5357.html"
+    },
+    {
+      "label": "Fuji Electric Tsukuba switchboard/power-supply capacity expansion",
+      "url": "https://www.fujielectric.com/about/news/detail/1205619_5357.html"
+    },
+    {
+      "label": "Fuji Electric 3D-wiring SiC module, ~50% volume/loss reduction (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/fuji-electric-contributing-to-improve-the-driving-range-of-electrified-vehicles-developing-a-thre-ce7f5dd3dc8df421"
+    },
+    {
+      "label": "Fuji Electric ejector cooling for data centers & FY26 strategy (note.com)",
+      "url": "https://note.com/dsharing/n/ndfda912d9912?hl=en-US"
+    },
+    {
+      "label": "Fuji Electric: power semiconductors news",
+      "url": "https://www.fujielectric.com/products/semiconductors_devices/semiconductor/news_list/index.html"
+    },
+    {
+      "label": "Fuji Electric: Malaysia switchboard capacity expansion",
+      "url": "https://www.fujielectric.com/about/news/detail/1205811_5357.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Residual-alpha-vs-passives lens: power-semis + DC switchboard/power-supply capacity expansions (Malaysia, Tsukuba 1.7x, Kobe 1.5x) and SiC doubling are real bottleneck adjacency, but all predate June 9 and are already reflected. Bucketed 'secondary' - genuine adjacency, only modest mispricing. Hold rank 37.",
+      "bull": "DC switchboard capacity expansions plus SiC module sales doubling tie directly to AI power-delivery demand; multiple capacity adds coming online late 2026.",
+      "neutral": "Real bottleneck adjacency but not as mispriced as top residual-alpha names; catalysts already disclosed.",
+      "bear": "Power-systems story increasingly understood; modest residual alpha; execution/ramp risk on new capacity.",
+      "primaryCatalyst": "DC switchboard/SiC capacity ramps reaching full operation in 2H26",
+      "primaryRisk": "Ramp execution; modest mispricing leaves limited alpha"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "symbol": "ARM",
+  "company": "Arm Holdings",
+  "caseDate": "2026-06-23",
+  "newsSince": "Constructive June momentum: on/around June 12 multiple banks (Wells Fargo, Barclays, Mizuho to $500, BofA) raised targets on agentic-AI CPU demand; AGI CPU (Arm's first in-house chip) order book exceeded $2B across FY27/28 with Oracle, ByteDance, Meta, OpenAI and Supermicro server wins. Offsetting overhang: an FTC antitrust probe into Arm's licensing practices (disclosed mid-May) remains open. Stock +13.9% since June 9.",
+  "sources": [
+    {
+      "label": "ARM server deals / PT hikes (StocksToTrade, Jun 12)",
+      "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_06_12/"
+    },
+    {
+      "label": "Arm AGI CPU launch (Arm Newsroom)",
+      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch"
+    },
+    {
+      "label": "FTC antitrust probe into Arm (Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/us-ftc-reportedly-launches-antitrust-probe-into-arm-following-its-launch-of-its-own-agi-cpu-regulators-investigate-if-chip-designer-is-restricting-architecture-access-to-rivals"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "AI-node-bottleneck lens: ARM's AGI-CPU order book >$2B and server wins improve fundamentals, but its directness to the true HBM/advanced-packaging/CPO bottleneck is unchanged. Modest positive; stays mid-pack vs. more direct picks-and-shovels names on this page.",
+      "bull": "Own-silicon AGI CPU adds a high-margin revenue leg on top of pervasive datacenter IP royalties.",
+      "neutral": "Bottleneck exposure is indirect; richly valued after a 222% YTD re-rating.",
+      "bear": "FTC antitrust probe and extreme valuation cap asymmetry; not a node-bottleneck pure play.",
+      "primaryCatalyst": "AGI CPU order-book growth and hyperscaler/server design wins.",
+      "primaryRisk": "FTC antitrust investigation into licensing practices."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "CPO lens: ARM has essentially no co-packaged-optics exposure; AGI-CPU/server news is bottom-of-stack compute IP, not optical interconnect. Nothing changes its remote placement on this list. Hold near the tail.",
+      "bull": "Ubiquitous CPU IP sits adjacent to every optically-interconnected AI rack it never builds.",
+      "neutral": "No direct CPO content; ranking is correctly remote on this lens.",
+      "bear": "Zero co-packaged-optics linkage plus very high valuation; FTC overhang.",
+      "primaryCatalyst": "Halo from AI datacenter buildout that consumes CPO.",
+      "primaryRisk": "Valuation and FTC probe with no CPO offset."
+    },
+    {
+      "page": "companies",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck master list: prior June 9 'up' already captured the asymmetry restored by the flow-driven washout. June PT hikes and >$2B AGI-CPU bookings confirm execution, but the name is now well-followed and re-rated, limiting hidden alpha. Small positive; hold.",
+      "bull": "Record FY26 plus a scaling own-chip business; licensing + silicon dual engine on AI server demand.",
+      "neutral": "Far from under-owned now; 222% YTD leaves little residual hidden alpha for this page.",
+      "bear": "FTC antitrust probe and stretched multiple; broad-alpha edge largely arbitraged away.",
+      "primaryCatalyst": "Pricing/execution on AI-server CPU IP and AGI-CPU ramp.",
+      "primaryRisk": "FTC antitrust action and valuation de-rating."
+    }
+  ]
+}

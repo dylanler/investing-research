@@ -1,0 +1,31 @@
+{
+  "symbol": "KAI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. Record Q1 (bookings +25% to $321M, EPS $2.84 beat), the 157M EUR voestalpine BOHLER Profil acquisition close (Apr 30) with raised revenue / trimmed EPS guidance, and the $50M buyback (May 21) all predate the window and were in the prior hold.",
+  "sources": [
+    {
+      "label": "Kadant latest news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/KAI/"
+    },
+    {
+      "label": "Kadant investor relations",
+      "url": "https://investor.kadant.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Latent strict screen: fluid handling/filtration is a speculative water-reuse/thermal-process pathway, not a confirmed AI node. Record Q1, Profil close and buyback all predate Jun 9. No new releases/contracts/analyst moves in the window; +3.9% is noise. Strict capability claim unchanged.",
+      "primaryCatalyst": "Speculative redirect of process-fluid systems to data-center water reuse/thermal control",
+      "primaryRisk": "No direct AI revenue; pulp/paper/industrial cyclicality; Profil EPS dilution",
+      "bull": "Record bookings +25%, Profil acquisition expands industrial processing; optionality to data-center water/thermal.",
+      "neutral": "Quality industrial compounder but AI-node link is speculative on the strict screen; news predates window.",
+      "bear": "Core demand is pulp/paper/industrial; AI exposure is a thesis, not revenue; acquisition dilutes FY26 EPS ~$0.20."
+    }
+  ]
+}

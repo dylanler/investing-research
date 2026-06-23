@@ -1,0 +1,31 @@
+{
+  "symbol": "NOVN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific event since June 9; only incremental data flow. The substantive 2026 items (Avidity ~$12B and Synnovation ~$2B acquisitions, FDA approvals of Rhapsido, Vanrafia and Fabhalta in C3G, reaffirmed FY2026 guidance) predate the window. Nothing changes the consumption-proxy thesis on this page.",
+  "sources": [
+    {
+      "label": "Novartis Avidity $12B acquisition (BioSpace)",
+      "url": "https://www.biospace.com/deals/novartis-to-bolster-neuromuscular-pipeline-with-12b-avidity-acquisition"
+    },
+    {
+      "label": "Novartis Q1 FY2026 results / guidance reaffirmed",
+      "url": "https://www.novartis.com/news/media-releases/novartis-delivered-strong-growth-priority-brands-and-launches-q1-fy-2026-guidance-reaffirmed"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Carbon-based human-consumption basket: Novartis remains a mature, consensus, institutionally-owned pharma proxy. Pipeline/M&A items predate June 9 and don't add residual alpha to this silicon-vs-carbon lens. Hold at 5, 0.",
+      "bull": "Strong launch portfolio + Avidity RNA pipeline underpin durable pharma consumption.",
+      "neutral": "Already consensus and fully owned; low incremental alpha here.",
+      "bear": "Historic patent cliffs ahead; defensive, low-beta to the AI thesis.",
+      "primaryCatalyst": "Priority-brand launches / Avidity integration",
+      "primaryRisk": "Patent-cliff erosion"
+    }
+  ]
+}

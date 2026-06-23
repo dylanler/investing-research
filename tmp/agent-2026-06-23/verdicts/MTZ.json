@@ -1,0 +1,31 @@
+{
+  "symbol": "MTZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The record $20.3bn 18-month backlog, raised FY26 guidance ($17.5bn revenue) and AI/data-center-driven grid demand were all reported with Q1 results in late April/early May and already in the June 8 prior case. The +12.5% move since June 9 is price/flow, not a new event.",
+  "sources": [
+    {
+      "label": "MasTec Q1 2026 results, raised FY26 guidance (IR)",
+      "url": "https://investors.mastec.com/news-releases/news-release-details/mastec-reports-first-quarter-2026-results-and-increases-full"
+    },
+    {
+      "label": "MasTec record backlog & raised outlook (Sahm Capital, May 25)",
+      "url": "https://www.sahmcapital.com/news/content/does-mastecs-record-backlog-and-raised-2026-outlook-reshape-the-bull-case-for-mtz-2026-05-25"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Latent connectivity/services: grid/fiber/power construction is a genuine AI-campus bottleneck. Record $20.3bn backlog and raised FY26 guide reinforce it but were in the June 8 mark; no new news since June 9. Broad, cyclical, not pure-AI, so hold at 69.",
+      "bull": "Record 18-month backlog ($20.3bn, +28% YoY) and raised FY26 guidance, fed by AI-data-center grid modernization and power-delivery demand.",
+      "neutral": "Strong infrastructure story with real AI-campus power/fiber exposure, but broad and cyclical rather than a pure AI play.",
+      "bear": "Up 74% YTD; backlog conversion carries cost-overrun/cancellation execution risk and the AI piece is diluted across segments.",
+      "primaryCatalyst": "Backlog conversion and continued AI/data-center grid and power-delivery awards.",
+      "primaryRisk": "Project delays/cancellations or cost overruns turning backlog into weaker earnings."
+    }
+  ]
+}

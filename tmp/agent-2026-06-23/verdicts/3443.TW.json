@@ -1,0 +1,40 @@
+{
+  "symbol": "3443.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh company-specific catalyst since June 9 for GUC. The AI-ASIC design-services theme remains consensus (TrendForce and others repeatedly flag GUC/Alchip/MediaTek as the obvious beneficiaries), and Q1 results (revenue +63% YoY) were already known. The +9.6% move since June 9 is flow on top of a +116% YTD rerating, with no new design win or guidance disclosed.",
+  "sources": [
+    {
+      "label": "Smartkarma - GUC 1Q net income beats",
+      "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/global-unichip-3443-earnings-1q-net-income-surpasses-expectations-with-nt1-65b-reported/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Node-centrality lens: GUC's TSMC-affiliated custom-ASIC turnkey position is unchanged; no new design wins, capacity, or guidance since Jun 9. The +9.6% pop is flow, not news. 'Selective, less direct than HBM/packaging' placement stands. Hold, delta 0.",
+      "bull": "TSMC-affiliated turnkey ASIC; 3nm-and-below mix rising; hyperscaler custom-silicon demand.",
+      "neutral": "No new evidence; thesis already understood.",
+      "bear": "Customer/project concentration; +116% YTD; theme is consensus.",
+      "primaryCatalyst": "New advanced-node ASIC design win",
+      "primaryRisk": "Project concentration / timing slippage"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 24,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Crowding-sensitive alpha lens: AI-ASIC design-services is now consensus and GUC has rerated +116% YTD to ~$20B with zero new fundamental evidence since Jun 9. Residual alpha keeps shrinking; continue the prior down-drift. -1.",
+      "bull": "Structural custom-silicon tailwind; TSMC backing.",
+      "neutral": "Strong franchise but fully discovered.",
+      "bear": "Consensus crowding; rich valuation; no fresh catalyst to justify another leg.",
+      "primaryCatalyst": "Surprise marquee hyperscaler win",
+      "primaryRisk": "Crowded positioning / multiple compression"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "5347.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new disclosure since June 9; the +15.8% move is largely specialty-foundry/sector flow. The relevant fundamentals remain May news: VSMC Singapore JV capacity trimmed to 44k wpm (from 55k) due to added interposer/complexity but first phase sold out under LTAs, with the fab seen fully loaded earlier than 2029, plus TSMC interposer outsourcing and GaN licensing.",
+  "sources": [
+    {
+      "label": "Taipei Times - Vanguard adjusting new fab plans",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/05/06/2003856810"
+    },
+    {
+      "label": "SEC 8-K - VIS/NXP VSMC JV",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001413447/000141344724000066/visandnxptoestablishajoint.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Manufacturing-tollgate lens unchanged since June 9: same VSMC 12-inch Singapore JV (first output 2027), TSMC interposer outsourcing, GaN licensing. A +15.8% no-news move is flow, not node repositioning. Hold.",
+      "bull": "Interposer outsourcing from TSMC + GaN make VIS a specialty AI-supply tollgate; VSMC sold-out phase 1.",
+      "neutral": "Specialty foundry, not advanced-node; capacity trimmed; upside priced after +102% YTD.",
+      "bear": "Mature-node pricing/geopolitics; VSMC ramp is 2027+; flow-driven rerate.",
+      "primaryCatalyst": "Interposer/VSMC capacity loading",
+      "primaryRisk": "Mature-node pricing + geopolitical risk"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 32,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "On the CPO lens VIS's TSMC interposer outsourcing is the most direct alpha vector; the May VSMC sold-out/added-interposer commentary keeps the advanced-packaging tollgate intact and modestly de-risks the 'single-bundle validation' flag. Small up vs CPO peers; no new disclosure since June 9.",
+      "bull": "Interposer capacity is a packaging bottleneck for CPO/HBM; sold-out LTAs validate demand pull.",
+      "neutral": "Indirect CPO play; benefits flow through TSMC, not VIS-branded optics.",
+      "bear": "Interposer is commodity-ish; capacity cut signals execution complexity; +102% YTD.",
+      "primaryCatalyst": "Interposer capacity ramp for advanced packaging",
+      "primaryRisk": "Single-bundle validation / execution risk"
+    }
+  ]
+}

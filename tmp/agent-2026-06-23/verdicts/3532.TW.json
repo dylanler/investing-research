@@ -1,0 +1,31 @@
+{
+  "symbol": "3532.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No confirmed company-specific announcement explains the +31% move since June 9. Formosa Sumco (Taiwan JV affiliated with Japan's SUMCO) is riding the same industry-wide 300mm/silicon-wafer tightness and price-hike narrative as its parent (Nomura demand upgrade, projected >20% shortage through 2030). The spike appears momentum/flow-led rather than driven by a disclosed catalyst.",
+  "sources": [
+    {
+      "label": "Semiecosystem (Lapedus) - Silicon wafer upturn, higher prices",
+      "url": "https://marklapedus.substack.com/p/silicon-wafer-upturn-higher"
+    },
+    {
+      "label": "TrendForce - SUMCO delays two wafer fabs amid market shift",
+      "url": "https://www.trendforce.com/news/2026/04/06/news-sumco-delays-construction-of-two-silicon-wafer-fabs-amid-market-shift/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.45,
+      "rankRationale": "Test-time-scaling / silicon-consumption basket: the industry wafer-tightness thesis genuinely strengthened (300mm price hikes, >20% shortage to 2030), modestly improving the silicon-supply case. But the +31% spike is momentum with no disclosed company catalyst; I do not reward the price move. Hold, +1.",
+      "bull": "AI capacity needs more wafers; tightening supply lifts pricing for all 12-inch suppliers.",
+      "neutral": "Small specialist supplier riding parent SUMCO's narrative; no own catalyst.",
+      "bear": "+285% YTD; +31% spike is flow; China wafer price offensive; thin direct AI link.",
+      "primaryCatalyst": "300mm wafer price hikes flowing to Taiwan suppliers",
+      "primaryRisk": "Momentum unwind / Chinese wafer oversupply"
+    }
+  ]
+}

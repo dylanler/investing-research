@@ -1,0 +1,44 @@
+{
+  "symbol": "KARN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The 2026 EBIT-margin guidance cut to 8-10% (weaker high-margin Automated Products, higher cost base, H1 EBIT ~60% of prior year) was already known and explicitly referenced in the June 9 prior case. Order/revenue growth guide of 15-20% intact; +1.1% move is noise.",
+  "sources": [
+    {
+      "label": "Kardex cuts 2026 EBIT margin guidance (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/kardex-cuts-2026-ebit-margin-guidance-as-growth-investments-weigh-on-profits"
+    },
+    {
+      "label": "Kardex 2026 guidance and business update (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/ch/capital-goods/vtx-karn/kardex-holding-shares/news/kardex-holding-swxkarn-stock-valuation-after-2026-guidance-a"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Latent under-covered AI supply chain: focused warehouse-automation/shuttle/light-goods asset, AI-levered via orchestration software. Margin-cut already absorbed before Jun 9; no new info in window. Top-line guide 15-20% supports the automation-cycle thesis. Hold.",
+      "primaryCatalyst": "Intralogistics automation cycle; bookings momentum (FY25 +24%); light-goods robotics expansion",
+      "primaryRisk": "2026 EBIT margin cut to 8-10% on growth investments; H1 EBIT ~60% of prior year",
+      "bull": "Reshoring/labor-scarcity drives 15-20% order/revenue growth guide; robotics-levered automation pure-play.",
+      "neutral": "Strong top-line but margin reset; AI link is via orchestration software, not platform exposure.",
+      "bear": "Margin guidance cut, -18% YTD, heavy opex investment compresses near-term profit; not an AI platform."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Strict screen: ASRS supporting secure-parts-logistics/robotics-enabled facilities is a capability claim untouched by the margin cut (a P&L event), and the page already took a ~20-place demotion. Re-penalizing for known earnings news would double-count near the screen bottom. Hold.",
+      "primaryCatalyst": "ASRS as backbone for secure parts logistics / robotics-enabled facilities",
+      "primaryRisk": "Speculative AI linkage; margin pressure; -18% YTD; not on US screen tier",
+      "bull": "Automated storage/retrieval is foundational to robotics-enabled facilities; durable intralogistics demand.",
+      "neutral": "Capability claim intact but speculative; bottom-of-screen rank already reflects the discount.",
+      "bear": "AI-node pathway is a thesis not revenue; margin cut and weak Automated Products segment weigh."
+    }
+  ]
+}

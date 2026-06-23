@@ -1,0 +1,31 @@
+{
+  "symbol": "6525.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Strongest signal in batch. Stock +18.55% since June 9 (+55.84% YTD). FY March-2027 revenue growth now expected to exceed 20% on AI/DRAM strength; Kokusai holds ~70% global batch-ALD share, a primary equipment supplier into SK Hynix M15X and Samsung P4 HBM4 lines ramping H2 2026. No single discrete press release, but the HBM4 ramp evidence has firmed materially.",
+  "sources": [
+    {
+      "label": "Kokusai 6525 Q1 FY2026 earnings call (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/6525.T/earnings/6525.T-Q1-2026-earnings_call-345717.html"
+    },
+    {
+      "label": "Kokusai Electric overview / ALD share (Bitget)",
+      "url": "https://www.bitget.com/stock/tse-6525/what-is"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 20,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Page is a CPO lens — imperfect fit (Kokusai is batch-ALD wafer equipment, not co-packaged optics) — but its choke-point alpha firmed: FY3/27 growth now guided >20%, 70% ALD share feeding SK Hynix M15X + Samsung P4 HBM4 lines. Prior June 9 'hold' is overtaken by the HBM4 ramp; move up +3.",
+      "bull": "70% batch-ALD monopoly into HBM4; FY3/27 revenue growth now >20%; SK Hynix/Samsung HBM4 lines mass-produce H2 2026 — purest HBM equipment play.",
+      "neutral": "Strong but partly priced after +56% YTD; not a true CPO/optics name on this page.",
+      "bear": "Single-bundle/validation risk; DRAM-capex cyclicality; rich move pulls forward HBM4 upside.",
+      "primaryCatalyst": "SK Hynix M15X / Samsung P4 HBM4 ALD order ramp through H2 2026.",
+      "primaryRisk": "DRAM capex digestion or HBM4 line delays."
+    }
+  ]
+}

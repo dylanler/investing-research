@@ -1,0 +1,44 @@
+{
+  "symbol": "2317.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17 Bull and Foxconn announced European production of NVIDIA Vera Rubin NVL72 platforms, extending the Rubin rack-integration story into Europe. Foxconn continues to guide ~NT$11T (+36%) FY2026 revenue with AI servers set to roughly double and ~40% global share of AI rack assembly. Incrementally confirmatory, not a step-change.",
+  "sources": [
+    {
+      "label": "Hon Hai / Bull - European Vera Rubin NVL72 (Jun 17)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313162/0/en/bull-and-foxconn-advance-european-ai-infrastructure-with-nvidia-vera-rubin-nvl72-platform-built-in-europe.html"
+    },
+    {
+      "label": "Cryptobriefing - Hon Hai revenue +34% on Nvidia server demand",
+      "url": "https://cryptobriefing.com/hon-hai-foxconn-revenue-nvidia-ai-servers/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Residual-alpha lens: the June 17 Bull/Foxconn European Rubin deal is fresh but incremental - it confirms, not expands, the rack-buildout thesis. As a $119B near-consensus Buy mega-cap it carries balanced rather than scarce/mispriced exposure. Rank 18 in the secondary bucket still fits; no thesis change.",
+      "bull": "Single biggest beneficiary of GB200/Rubin rack cycle; ~40% AI-rack share, NT$11T target, now extending Rubin builds into Europe.",
+      "neutral": "Strong AI exposure diluted by huge legacy assembly base; story is well covered and largely priced.",
+      "bear": "Mega-cap, near-unanimous Buy, thin margins; little hidden residual alpha versus smaller bottleneck names.",
+      "primaryCatalyst": "Rubin NVL72 rack ramp and European capacity",
+      "primaryRisk": "Thin assembly margins; demand-pull-in / mix risk"
+    },
+    {
+      "page": "companies",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Deployment/systems-integration lens: the June 17 European Vera Rubin NVL72 partnership with Bull is genuinely new versus the June 9 verdict and adds concrete evidence to the rack-integration/data-center-shell thesis. Mild positive drift; rank holds given size and modest YTD already reflect the role.",
+      "bull": "Dominant AI-rack integrator scaling Rubin builds globally and now in Europe; physical-deployment chokepoint with ~40% share.",
+      "neutral": "Execution and pricing on server assembly is the swing factor; exposure is broad rather than scarce.",
+      "bear": "Commoditized assembly economics; benefit concentrated in a few hyperscaler programs.",
+      "primaryCatalyst": "Vera Rubin NVL72 production ramp (incl. Europe)",
+      "primaryRisk": "Assembly margin compression; customer concentration"
+    }
+  ]
+}

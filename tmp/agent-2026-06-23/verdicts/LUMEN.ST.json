@@ -1,0 +1,31 @@
+{
+  "symbol": "LUMEN.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. LumenRadio's last report was Q1 2026 (April 23); the company reiterated its long-term goal to double revenue to SEK500M by 2030. A ~$80M micro-cap with no fresh catalysts; the small price drift is illiquidity, not news.",
+  "sources": [
+    {
+      "label": "LumenRadio (LUMEN.ST) Yahoo Finance quote/news",
+      "url": "https://finance.yahoo.com/quote/LUMEN.ST/"
+    },
+    {
+      "label": "LumenRadio Q1 2026 results (Apr 23)",
+      "url": "https://www.marketscreener.com/news/lumenradio-ab-reports-earnings-results-for-the-first-quarter-ended-march-31-2026-ce7f59dfdf8ef526"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Test-time-scaling/compute-factory networking lens: tiny $80M industrial-wireless/edge-control name. No news since June 9; Q1 was April. Watchlist fit unchanged. Long-tail hold, no basis to re-rank.",
+      "bull": "Niche industrial wireless connectivity for edge control.",
+      "neutral": "Micro-cap optionality, illiquid, only loosely AI-scaling adjacent.",
+      "bear": "Tiny, illiquid, peripheral to the compute-scaling thesis.",
+      "primaryCatalyst": "Industrial IoT / edge-control design wins",
+      "primaryRisk": "Micro-cap liquidity; weak AI linkage"
+    }
+  ]
+}

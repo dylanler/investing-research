@@ -1,0 +1,74 @@
+{
+  "symbol": "MU",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new confirmed fundamentals since June 9: Micron reports Q3 FY2026 on June 24 (after this eval), so the +15.3% move is pre-earnings run-up. Pre-print commentary reaffirms HBM sold out through 2026 with pricing locked, HBM4 36GB 12-Hi in volume production for Nvidia Vera Rubin, ~$500/stack (+~30% vs HBM3E), and tightness expected beyond CY2026; sell-side expects record ~81% gross margin. Thesis intact/strengthening but the print itself is an unrealized catalyst and risk.",
+  "sources": [
+    {
+      "label": "Micron HBM4 high-volume production (IR)",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+    },
+    {
+      "label": "Micron Q3 FY2026 earnings preview (IG)",
+      "url": "https://www.ig.com/en/news-and-trade-ideas/micron-q3-fy2026-earnings-preview-260623"
+    },
+    {
+      "label": "Micron sold-out HBM bull case (Investing.com)",
+      "url": "https://www.investing.com/analysis/microns-soldout-hbm-supply-makes-the-bull-case-hard-to-dismiss-200681391"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "On the passives/power-bottleneck lens MU stays peripheral: HBM/memory is direct-AI, not passive-component scarcity. Pre-earnings hype and reaffirmed sold-out pricing don't move this page's lens; a $1.2T mega-cap remains far from hidden. Hold.",
+      "bull": "Sold-out HBM through 2026, locked pricing, HBM4 ramp; durable memory cash flows.",
+      "neutral": "Real AI exposure but tangential to passive/power scarcity basket.",
+      "bear": "Mega-cap, fully discovered; June 24 print could disappoint vs ~81% GM bar.",
+      "primaryCatalyst": "June 24 Q3 print / HBM4 revenue mix",
+      "primaryRisk": "Memory-cycle pricing reversal / DRAM glut"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.82,
+      "rankRationale": "Node-centrality reaffirmed: HBM sold out 2026, pricing locked, HBM4 in volume for Vera Rubin, tightness beyond CY2026. Reinforces but doesn't extend the Jun 5/9 case; the June 24 print is an unrealized catalyst, so +1 not a move at rank 18.",
+      "bull": "HBM4 volume ramp + locked pricing make MU a structural AI-node bottleneck winner.",
+      "neutral": "Most positives already captured at rank 18; print not yet realized.",
+      "bear": "Rubin memory-config-cut volume risk; cyclical pricing peak.",
+      "primaryCatalyst": "HBM4 revenue contribution at Q3 print",
+      "primaryRisk": "2027 capacity additions / pricing rollover"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 103,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "On the co-packaged-optics lens MU is only indirect via larger AI clusters; no CPO-specific catalyst since June 9. HBM strength helps cluster scale but not optical content. Hold near bottom.",
+      "bull": "Bigger AI clusters need more memory, indirectly lifting optical interconnect.",
+      "neutral": "No direct CPO content; relevance second-order.",
+      "bear": "Zero co-packaged-optics exposure; ranked appropriately low.",
+      "primaryCatalyst": "AI cluster scale-out",
+      "primaryRisk": "Memory pricing cycle"
+    },
+    {
+      "page": "companies",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.8,
+      "rankRationale": "Master under-owned-bottleneck list: HBM & AI-memory bucket thesis intact, with reaffirmed sold-out/locked pricing and HBM4 ramp. Supplier-execution watch-item now de-risking ahead of June 24, warranting a small +1; not enough for a rank move on a $1.2T discovered name.",
+      "bull": "Scarce HBM bottleneck with sold-out capacity and locked pricing into 2026.",
+      "neutral": "Fundamentally strong but heavily owned and re-rated.",
+      "bear": "Rubin memory-config overhang; pricing-cycle risk at print.",
+      "primaryCatalyst": "June 24 earnings / HBM4 mix",
+      "primaryRisk": "HBM supplier-execution / pricing reversal"
+    }
+  ]
+}

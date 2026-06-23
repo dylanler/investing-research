@@ -1,0 +1,31 @@
+{
+  "symbol": "IMI.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Q1 trading update (5% organic growth, FY26 guidance reconfirmed, adj EPS GBP1.36-1.42) and the GBP225m Truflo Marine divestiture both predate the window; H1 results are not due until July 31, 2026. Only routine insider/buyback RNS activity since.",
+  "sources": [
+    {
+      "label": "IMI reconfirms 2026 guidance (Directors Talk)",
+      "url": "https://www.directorstalkinterviews.com/imi-reconfirms-2026-guidance-after-strong-first-quarter-organic-growth/4121251247"
+    },
+    {
+      "label": "IMI Q1 2026 trading update (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-imi-plc-q1-2026-shows-strong-growth-and-positive-outlook-93CH-4679121"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict screen demands hard, latent AI-supply-chain evidence. IMI's precision fluid-control AI/cooling angle is still qualitative; no new contract, capacity or cooling design win since June 9. Q1/Truflo are pre-window. No change to the strict evidence level. Hold.",
+      "bull": "Precision valves/fluid control could feed liquid-cooling and industrial automation; steady mid-single-digit organic compounder with guidance reconfirmed.",
+      "neutral": "Solid industrial, but AI-node linkage remains thematic, not proven; H1 results July 31 are the next real catalyst.",
+      "bear": "On a strict latent-AI screen this is a generic quality industrial; the cooling/AI tie is inferred, not evidenced.",
+      "primaryCatalyst": "H1 results (Jul 31) / a cited cooling or datacenter design win",
+      "primaryRisk": "No concrete AI-node exposure surfaces, fails the strict relevance test"
+    }
+  ]
+}

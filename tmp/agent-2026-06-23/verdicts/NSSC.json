@@ -1,0 +1,31 @@
+{
+  "symbol": "NSSC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The last event was the Q3 FY2026 print on May 4 (revenue +12% to $49.2M but a small net loss vs. prior-year profit on margin/mix), plus a routine $0.15 quarterly dividend. The +9% move since June 9 is flow/noise with no AI-campus security demand catalyst.",
+  "sources": [
+    {
+      "label": "NAPCO Q3 FY2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000069633/000110465926054691/nssc-20260430xex99d1.htm"
+    },
+    {
+      "label": "NAPCO Q3 FY2026 results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/napco-security-technologies-inc-reports-110000558.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "No new latent AI-facility datapoint since June 9. Q3 (May 4) was recurring-revenue-driven physical security, not compute-campus access control; the +9% bounce is flow. The strict-screen thesis is unchanged, so hold where the prior down-move left it.",
+      "bull": "Recurring service revenue (Starlink fire radios, MVP cloud access, copper-to-cellular) grows margin; could serve high-security edge sites.",
+      "neutral": "Solid recurring-revenue security vendor, but no demonstrated AI-campus pull-through.",
+      "bear": "Q3 swung to a net loss; physical security has no real AI-node criticality, so it does not belong high on a strict latent screen.",
+      "primaryCatalyst": "Recurring-revenue mix and any data-center access-control wins",
+      "primaryRisk": "No AI-facility demand materializes; remains a generic security name"
+    }
+  ]
+}

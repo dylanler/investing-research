@@ -1,0 +1,70 @@
+{
+  "symbol": "ON",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new material catalyst since June 9. The NVIDIA 800VDC/MGX collaboration and the GaNEXUS GaN portfolio launch were dated June 6 and June 10 respectively and were substantially captured in the June 9 verdicts. The GaNEXUS launch is marginally fresh but was pre-signaled and is largely a productization of the already-disclosed power-bottleneck narrative.",
+  "sources": [
+    {
+      "label": "onsemi collaborates with NVIDIA on 800 VDC power (onsemi)",
+      "url": "https://www.onsemi.com/company/news-media/press-announcements/en/onsemi-collaborates-with-nvidia-to-accelerate-transition-to-800-vdc-power-solutions-for-next-generation-ai-data-centers"
+    },
+    {
+      "label": "onsemi launches GaNEXUS GaN power portfolio (Semiconductor Today, Jun 10)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/onsemi-100626.shtml"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Residual-alpha-vs-passives lens: the NVIDIA 800VDC + GaNEXUS power-bottleneck evidence that drove the prior up-move is now public and partly priced; the GaNEXUS launch (Jun 10) is only marginally incremental. With no new flush and asymmetry vs peers unchanged, hold rank 35.",
+      "bull": "GaN/SiC power content in NVIDIA MGX/800VDC AI racks is a scarce, central power-delivery node.",
+      "neutral": "Real AI-power optionality but already re-rated; auto/industrial base still cyclical.",
+      "bear": "Power-bottleneck story now widely owned; residual alpha vs passives is thinning.",
+      "primaryCatalyst": "800VDC/GaNEXUS AI-datacenter design-ins",
+      "primaryRisk": "Auto/industrial cycle and pricing pressure"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: the NVIDIA MGX/800VDC tie + GaNEXUS already lifted ON in the prior case as a directness upgrade. No new node-adjacency evidence since June 9; the directness gain is captured. ON remains analog/power, indirect to HBM/packaging. Hold 81.",
+      "bull": "MGX/800VDC ecosystem tie gives concrete AI-rack power adjacency.",
+      "neutral": "Power/analog exposure is real but a step removed from the AI-node bottleneck.",
+      "bear": "Less direct than HBM, advanced packaging and AI-networking names on this page.",
+      "primaryCatalyst": "AI-datacenter power content ramp",
+      "primaryRisk": "Indirectness to leading-edge AI nodes"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Co-packaged-optics lens: ON is power/SiC, not CPO. The June power news is orthogonal to optical interconnect, so it does not improve standing on this page. No new CPO-relevant evidence since June 9. Hold rank 84.",
+      "bull": "Power/SiC optionality for industrial AI buildout.",
+      "neutral": "Tangential to the co-packaged-optics thesis this page screens for.",
+      "bear": "Not CPO-focused; power news adds nothing through this specific lens.",
+      "primaryCatalyst": "Broad AI-power demand",
+      "primaryRisk": "Auto/industrial cycle; no CPO leverage"
+    },
+    {
+      "page": "companies",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Under-owned-bottleneck master list: this page's thesis is power-delivery content, and the NVIDIA 800VDC + GaNEXUS evidence already drove the prior up-move. No genuinely new evidence since June 9; asymmetry vs peers is now neutral. Hold rank 71.",
+      "bull": "Direct power-delivery content into AI racks via MGX/800VDC.",
+      "neutral": "Solid power franchise but story now recognized; YTD +109% rich.",
+      "bear": "Execution and pricing in power semis; cyclical end-markets.",
+      "primaryCatalyst": "800VDC/GaN content wins",
+      "primaryRisk": "Power-semi pricing and cycle"
+    }
+  ]
+}

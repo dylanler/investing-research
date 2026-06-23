@@ -1,0 +1,35 @@
+{
+  "symbol": "JEN.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Only routine/minor items since June 9: AGM June 9 confirmed a 0.40 EUR dividend and re-elected the supervisory board chair; Brian Soller named president of Jenoptik Optical Systems LLC (June 11) and new photonics group leadership starts Aug 1. The needle-moving event (Q1 order intake +74% with a major semiconductor order, May 12) predates the window.",
+  "sources": [
+    {
+      "label": "Results of the 2026 AGM (Jenoptik, June 9)",
+      "url": "https://www.jenoptik.com/news/pressreleases/2026/06/09/results-of-the-2026-agm"
+    },
+    {
+      "label": "Brian Soller named president of Jenoptik Optical Systems LLC (June 11)",
+      "url": "https://www.jenoptik.us/news/press-releases/2026/06/11/brian-soller-new-president-jenoptik-optical-systems-llc"
+    },
+    {
+      "label": "Q1 2026 results - 356.9M order intake (Jenoptik, May 12)",
+      "url": "https://www.jenoptik.de/news/pressemitteilungen/2026/05/12/ergebnisse-q1-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling lens: photonics/metrology is a tangential scaling enabler. Only routine news since Jun 9 (AGM, leadership), so hold. Slight +1 for durable semicap order momentum (Q1 intake +74%, major chip order) underpinning the +8.2% move, but that catalyst predates the window.",
+      "primaryCatalyst": "Semiconductor & Advanced Manufacturing order momentum (Q1 intake +74%)",
+      "primaryRisk": "Indirect scaling linkage; +132% YTD leaves little residual asymmetry",
+      "bull": "Quiet semicap/photonics beneficiary; Q1 order intake +74% YoY on a major semiconductor order; FY26 EBITDA margin guide 19-21%.",
+      "neutral": "Low-rank tangential scaling name; strong order book but only routine news since June 9.",
+      "bear": "+132% YTD re-rating, small-cap, and scaling linkage is indirect; lumpy single-order intake."
+    }
+  ]
+}

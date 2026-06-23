@@ -1,0 +1,31 @@
+{
+  "symbol": "6645.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No discrete material news in the window; stock flat (+0.31%) since June 9. Recent context (pre-window): upgraded guidance with FY2026 targeting ~7% sales growth and ~7.6% OP margin, IA sales +12%, NEXT 2025 restructuring beginning to lift gross margin, plus a Dassault Systemes virtual-twin partnership extending the GEMBA DX / IT-OT story.",
+  "sources": [
+    {
+      "label": "OMRON upgraded guidance / restructuring (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6645/omron-shares/news/assessing-omron-tse6645-valuation-after-upgraded-guidance-an/amp"
+    },
+    {
+      "label": "OMRON virtual-twin / Dassault push (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/omron-tse-6645-virtual-twin-190333801.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Latent-AI lens: restructuring turnaround (NEXT 2025) and IT/OT virtual-twin optionality are genuine, but the thesis itself concedes the AI linkage 'is not hidden,' limiting latent alpha. No new catalyst in window; small +1 for restructuring traction and upgraded guidance.",
+      "bull": "Upgraded guidance, IA sales +12%, restructuring lifting margins; Dassault virtual-twin/GEMBA DX adds data-driven AI-deployment angle.",
+      "neutral": "Turnaround real but AI exposure overt, not latent; flat since June 9; medium conviction.",
+      "bear": "Restructuring costs still weigh; factory-automation cyclicality; +44% YTD limits residual upside.",
+      "primaryCatalyst": "Restructuring margin recovery / Sysmac + virtual-twin adoption.",
+      "primaryRisk": "IAB cyclicality; one-time reform costs; indirect AI linkage."
+    }
+  ]
+}

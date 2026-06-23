@@ -1,0 +1,65 @@
+{
+  "symbol": "LSCC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No NEW material news since June 9. The ~$1.65B AMI acquisition (cash+stock, $1.15B financing, expected Q3 2026 close) was announced May 4 and is established context. June price action is AI-trade flow/profit-taking, not fundamental. Strong 2Q26 outlook and multiple bank PTs ($140-165) reflect coverage, not new alpha.",
+  "sources": [
+    {
+      "label": "Lattice to acquire AMI for $1.65B (May 4)",
+      "url": "https://www.businesswire.com/news/home/20260504116990/en/Lattice-to-Acquire-AMI-Creating-the-Industrys-Most-Complete-Secure-Management-and-Control-Platform"
+    },
+    {
+      "label": "LSCC Q1 FY26 results / AMI setup",
+      "url": "https://futurumgroup.com/insights/lattice-semiconductor-q1-fy-2026-results-set-up-ami-acquisition/"
+    },
+    {
+      "label": "Lattice to acquire AMI in $1.65B deal (May 4)",
+      "url": "https://www.datacenterdynamics.com/en/news/lattice-semiconductor-to-acquire-ami-in-165bn-cash-and-stock-deal/"
+    },
+    {
+      "label": "LSCC down 6% on AMI financing / balance-sheet bet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-down-6-061129458.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "AI-node lens: LSCC stays a selective, indirect AI/edge/power node, less direct than HBM/packaging/networking. The AMI deal (May 4) broadens server platform-control content but predates June 9. No new node-relevance evidence; hold.",
+      "bull": "AMI adds platform firmware/manageability content for AI servers; low-power FPGA control plane.",
+      "neutral": "Indirect AI node; recovery + acquisition story largely priced.",
+      "bear": "+85% YTD, integration risk on AMI, high multiple.",
+      "primaryCatalyst": "AI-server control-plane attach + AMI synergies",
+      "primaryRisk": "Integration/financing risk; industrial recovery pace"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "CPO lens: control-plane/edge-inference optionality, not a co-packaged-optics bottleneck. AMI deal is pre-June 9; multiple bank PTs in the $140-165 zone show coverage is no longer under-owned. No fresh CPO catalyst; hold.",
+      "bull": "Secure system-control optionality alongside CPO buildouts.",
+      "neutral": "Not a CPO chokepoint; crowded post-Computex coverage.",
+      "bear": "Indirect to CPO; valuation full; AMI dilution.",
+      "primaryCatalyst": "AI-server design wins",
+      "primaryRisk": "Consumer/industrial recovery; AMI execution"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Humanoid-stack lens: good company, weak hidden-alpha setup after the run ($20B cap, +85% YTD, edge-AI not humanoid-pure). June 9 already moved it down for crowding/scale. No new robotics-specific evidence since; hold.",
+      "bull": "Edge-AI/power-efficient silicon relevant to robotics compute.",
+      "neutral": "Tangential to humanoid stack; rerated.",
+      "bear": "Not a direct humanoid play; large cap, crowded.",
+      "primaryCatalyst": "Edge-AI compute adoption",
+      "primaryRisk": "Crowding / rerating after big move"
+    }
+  ]
+}

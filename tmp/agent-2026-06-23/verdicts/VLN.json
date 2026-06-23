@@ -1,0 +1,44 @@
+{
+  "symbol": "VLN",
+  "company": "Valens Semiconductor",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 20 Valens announced its HDBaseT chipsets power Barco's new ClickShare USB-C Extension-over-CAT kit, a pro-AV connectivity design win (no disclosed revenue), driving a ~12% pop. This is strategic validation of high-speed connectivity silicon, but it is AV/automotive (HDBaseT/A-PHY) rather than data-center co-packaged optics, reinforcing the CPO thesis gap.",
+  "sources": [
+    {
+      "label": "Valens wins Barco ClickShare deal (Timothy Sykes, June 20)",
+      "url": "https://www.timothysykes.com/news/valenssemiconductorltd-vln-news-2026_06_20/"
+    },
+    {
+      "label": "Valens 4th VA7000 MIPI A-PHY design win",
+      "url": "https://www.prnewswire.com/news-releases/valens-semiconductor-secures-4th-va7000-mipi-a-phy-design-win-with-a-premium-carmaker-serving-the-chinese-market-302653778.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 108,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "CPO lens: the June 20 Barco ClickShare win is pro-AV HDBaseT, not data-center co-packaged optics. It reinforces, rather than closes, the thesis gap that Valens' wins are AV/automotive A-PHY, not DC CPO. No CPO-specific evidence; hold at 108.",
+      "bull": "Marquee Barco AV win plus 4 A-PHY automotive design wins validate high-speed connectivity IP and a strong balance sheet.",
+      "neutral": "Wins are real but AV/automotive; the data-center CPO link remains absent.",
+      "bear": "Tiny $0.26B cap; no data-center CPO evidence; AV/auto SoP revenue years out.",
+      "primaryCatalyst": "Conversion of A-PHY/AV design wins into volume revenue",
+      "primaryRisk": "No data-center CPO traction; micro-cap adoption risk"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling lens (semiconductors bucket, high-speed connectivity silicon): the June 20 Barco HDBaseT win modestly validates the connectivity-silicon thesis and revenue diversification beyond automotive. No revenue disclosed and AI-scaling tie is indirect, so only +1; hold at 5.",
+      "bull": "Diversifying high-speed connectivity wins (Barco AV + 4 automotive A-PHY) broaden the addressable market beyond a single end-market.",
+      "neutral": "Strategic validation but undisclosed revenue and only an indirect link to AI test-time scaling.",
+      "bear": "Tiny cap with modest revenue base; design wins slow to monetize; weak direct AI-compute exposure.",
+      "primaryCatalyst": "Design-win-to-revenue conversion across AV and automotive",
+      "primaryRisk": "Slow monetization; loose AI-scaling linkage"
+    }
+  ]
+}

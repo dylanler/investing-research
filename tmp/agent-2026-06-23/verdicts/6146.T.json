@@ -1,0 +1,44 @@
+{
+  "symbol": "6146.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9; sentiment stays a near-unanimous Strong Buy. Structural story intact: ~70-80% share in dicing/grinding feeding HBM wafer-thinning and stealth dicing, with HBM4 scaling in 2026 expected to drive recurring high-margin consumable (blade) revenue. The +15.9% move since June 9 is flow/sector-driven, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "Disco advanced-packaging opportunities (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/disco-highlights-opportunities-in-advanced-packaging-93CH-4420690"
+    },
+    {
+      "label": "Disco — leader in cutting/grinding/polishing (SemiAnalysis)",
+      "url": "https://newsletter.semianalysis.com/p/disco-corporation-the-world-leader"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Node-centrality unchanged: near-monopoly dicing/grinding remains a real AI-node choke point feeding HBM thinning and chiplet packaging, and HBM4 scaling supports recurring blade revenue. A +15.9% flow-driven pop with no new fundamentals does not move the node rank; YTD now 62% leaves little re-rate room.",
+      "bull": "Indispensable ~70-80% share toolmaker; HBM4 thinning/stealth-dicing volume lifts consumables.",
+      "neutral": "Structural winner but fully recognized; the move since June 9 is price, not news.",
+      "bear": "62% YTD and Strong-Buy consensus leave it crowded and exposed to any WFE-capex air-pocket.",
+      "primaryCatalyst": "HBM4 ramp lifting recurring blade/consumable revenue",
+      "primaryRisk": "Crowded positioning; cyclical pullback in advanced-packaging capex"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 66,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On this crowding-sensitive list Disco is already flagged 'well recognized / high expectations.' A +15.9% no-news rally with YTD swelling to 62% and no fresh CPO/photonics-dicing evidence keeps eroding residual alpha, extending the prior down-move on positioning rather than thesis change.",
+      "bull": "Also dices/thins photonics and CPO substrates, a real adjacency to optical interconnect.",
+      "neutral": "Quality is undisputed but consensus and valuation leave thin residual alpha here.",
+      "bear": "Most crowded toolmaker on the list; any expectations reset hits a 62%-YTD name hardest.",
+      "primaryCatalyst": "CPO/photonics packaging volume driving dicing/grinding demand",
+      "primaryRisk": "High expectations unwind; alpha already discounted"
+    }
+  ]
+}

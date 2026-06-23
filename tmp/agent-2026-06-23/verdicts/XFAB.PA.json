@@ -1,0 +1,31 @@
+{
+  "symbol": "XFAB.PA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental catalyst since June 9. The large YTD/recent move reflects a retail/social-media-driven spike (shares ran up to ~76% intraday on June 3); fundamentally Q1 2026 revenue fell 4% YoY at ~$196M, capacity utilization is low (~60%) with headcount cuts, though Microsystems/Photonics (+42%) and Wide-Bandgap SiC/GaN (+152% to $15.1M) are bright spots.",
+  "sources": [
+    {
+      "label": "X-FAB GaN momentum (Power Electronics News)",
+      "url": "https://www.powerelectronicsnews.com/x-fab-seizes-gan-momentum-amid-tsmcs-strategic-withdrawal/"
+    },
+    {
+      "label": "X-FAB Yahoo Finance quote/news",
+      "url": "https://finance.yahoo.com/quote/XFAB.PA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "Scaling/edge-compute foundry lens: the alpha case did NOT strengthen since June 9 - the move was retail/social-media-driven (June 3 spike) while Q1 rev fell 4% YoY and utilization is ~60%. Wide-bandgap +152% is a real but small offset; specialty-foundry thesis intact, fundamentals slightly softer.",
+      "bull": "Pure-play SiC/GaN + photonics specialty foundry; WBG revenue +152%.",
+      "neutral": "Thesis intact but recent move is sentiment, not earned by fundamentals.",
+      "bear": "Q1 rev -4% YoY, ~60% utilization, headcount cuts; frothy retail-driven +82% YTD.",
+      "primaryCatalyst": "Wide-bandgap/photonics ramp; auto-edge recovery",
+      "primaryRisk": "Underutilization; sentiment unwind"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "MATW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new news since June 9. The strategic-alternatives review remains ongoing, the SGK/warehouse/European-packaging divestitures and $300M note redemption were earlier-FY events, and energy-storage continues to see strong customer interest (incl. data-center storage/ultracapacitors) but ongoing operational challenges. The +2.7% move is drift, not a catalyst.",
+  "sources": [
+    {
+      "label": "Matthews Q2 FY26 results / debt reduction",
+      "url": "https://www.matw.com/investors/news-events/press-releases/detail/310/matthews-international-reports-results-for-fiscal-2026"
+    },
+    {
+      "label": "Matthews update on actions to create shareholder value",
+      "url": "https://www.prnewswire.com/news-releases/matthews-international-provides-update-on-actions-to-create-shareholder-value-and-addresses-director-nominations-302634834.html"
+    },
+    {
+      "label": "Matthews Q2 FY2026 results",
+      "url": "https://www.matw.com/investors/news-events/press-releases/detail/310/matthews-international-reports-results-for-fiscal-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent-node lens: energy-storage/dry-electrode process work offers thin manufacturing-infrastructure optionality, but energy-storage remains challenged. No news since June 9; June 9 already reconciled it to the adjusted-score rank. Hold the long tail.",
+      "bull": "Dry-electrode/energy-storage process IP plus a $100M+ Industrial Tech backlog.",
+      "neutral": "Sum-of-parts story; energy-storage demand still soft.",
+      "bear": "Sub-$1B cap, energy-storage challenged, weak AI linkage.",
+      "primaryCatalyst": "Energy-storage process tech ramp / Industrial Tech backlog",
+      "primaryRisk": "Energy-storage softness; thin AI relevance"
+    }
+  ]
+}

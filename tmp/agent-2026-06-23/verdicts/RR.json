@@ -1,0 +1,35 @@
+{
+  "symbol": "RR",
+  "company": "Richtech Robotics",
+  "caseDate": "2026-06-23",
+  "newsSince": "News flow is marketing/conference-led: selected as a featured exhibitor in the first Humanoid Pavilion at Automate 2026 (DEX humanoid, AI pallet-jack debut, June 24 keynote on NVIDIA-powered DEX). The fundamental backdrop is heavy dilution — a ~$38.7M January placement, ~$71.6M ATM, and a shelf for up to $200M — against tiny revenue (~$5M) and continued losses; stock -41% YTD and -11% since June 9. No transformational contract.",
+  "sources": [
+    {
+      "label": "Richtech in Automate 2026 Humanoid Pavilion (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313360/0/en/richtech-robotics-selected-as-featured-exhibitor-in-first-ever-humanoid-pavilion-at-automate-2026.html"
+    },
+    {
+      "label": "Richtech AI pallet jack debut (StockTitan)",
+      "url": "https://www.stocktitan.net/news/RR/richtech-robotics-to-debut-latest-ai-driven-pallet-jack-robot-during-dnr311qfmpc5.html"
+    },
+    {
+      "label": "Richtech capital raises / shelf (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-rr/richtech-robotics/past"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 6,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "On the humanoid-stack lens, the only news is conference/marketing (Automate Humanoid Pavilion, DEX, pallet-jack) — promotional, not commercialization. Against ~$5M revenue, ongoing losses, and a $200M shelf/ATM dilution overhang, builder-purity and commercialization evidence argue for lower alpha weight vs peers.",
+      "bull": "Direct small-cap humanoid platform with NVIDIA Isaac/Jetson Thor positioning and DEX showcased at Automate 2026.",
+      "neutral": "Visible at the marquee humanoid event, but revenue is tiny and the story is still demo-stage.",
+      "bear": "Persistent losses and a $200M shelf/ATM dilution overhang; conference buzz without contract wins; -41% YTD.",
+      "primaryCatalyst": "DEX commercialization / RaaS contract wins",
+      "primaryRisk": "Dilution from shelf/ATM; demo-stage, sub-scale revenue"
+    }
+  ]
+}

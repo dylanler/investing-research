@@ -1,0 +1,48 @@
+{
+  "symbol": "INTC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Fresh since June 9: on June 22, 2026 INTC surged ~10-11% to a 52-week high on reports Apple will design/manufacture chips with Intel in the U.S. (touted by the U.S. president), a second prospective foundry anchor after the earlier Google-TPU/18A and Nvidia-EMIB-eval news. Up ~25% since June 9; analysts (Benzinga) flag a 'meme-stock' dynamic, and Apple deal terms are unconfirmed.",
+  "sources": [
+    {
+      "label": "Intel soars on Apple foundry deal report (Timothy Sykes)",
+      "url": "https://www.timothysykes.com/news/intel-corporation-intc-news-2026_06_22/"
+    },
+    {
+      "label": "Intel hits 52-week high; 'meme stock' caution (Benzinga)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60008008/intels-apple-driven-surge-gets-a-harsh-verdict-its-becoming-a-meme-stock"
+    },
+    {
+      "label": "Intel +12% on Google TPU order, Hitachi pact, Nvidia eval (Phemex)",
+      "url": "https://phemex.com/academy/intc-surges-on-google-tpu-order-and-hitachi-ai-pact"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "AI-node lens: the Apple foundry report is a second prospective external anchor on 18A after the Google-TPU/Nvidia-EMIB validation, further answering this page's knock that external-foundry revenue is small. But it is unconfirmed, dated 2028+, on still-negative foundry margins, and a ~25% run since June 9 (52-week high) more than prices it. Small +1, hold rank.",
+      "bull": "Apple joining Google/Nvidia on 18A turns foundry option value into multiple anchor signals; 18A-P in risk production reclaims leading-edge credibility.",
+      "neutral": "Customer wins are 2028-dated and partly unconfirmed; foundry still loss-making and the stock has front-run the news.",
+      "bear": "+263% YTD, 52-week high and 'meme-stock' flow; alpha already paid, execution/yield risk remains on a turnaround.",
+      "primaryCatalyst": "Confirmed/expanded external 18A foundry orders (Apple, Google, Nvidia)",
+      "primaryRisk": "Foundry margins stay negative; deals slip or disappoint; crowded re-rating unwinds"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 105,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: the Apple/foundry news validates the advanced-packaging/foundry leg but adds nothing on silicon-photonics/CPO, which is the half this page screens for. Stock still trades entirely on the foundry/CPU turnaround as the thesis warns, and it is now the most crowded semis name after a 52-week-high run. Hold.",
+      "bull": "EMIB/advanced-packaging momentum (Nvidia eval, ~90% yields) plus Apple/Google interest underpins the packaging half of the thesis.",
+      "neutral": "Packaging leg validated; silicon-photonics/CPO leg still unproven and not the driver of the stock.",
+      "bear": "No CPO-specific catalyst; valuation/crowding extreme at 52-week highs on a turnaround narrative.",
+      "primaryCatalyst": "A concrete silicon-photonics/CPO program (none yet)",
+      "primaryRisk": "CPO leg never materializes; foundry-execution and crowded-trade unwind"
+    }
+  ]
+}

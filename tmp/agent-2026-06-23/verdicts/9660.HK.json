@@ -1,0 +1,31 @@
+{
+  "symbol": "9660.HK",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material negative: Horizon Robotics shares fell sharply (~-18.5% since June 9, near 52-week lows) as the company reported widening losses and continued cash burn, with significant insider selling over the prior three months. Profitability pressures are mounting; the August 27 earnings will be a key turnaround test.",
+  "sources": [
+    {
+      "label": "Meyka - Horizon Robotics slides on profitability pressure",
+      "url": "https://meyka.com/blog/horizon-robotics-9660hk-slides-67-as-profitability-pressures-mount-1505/"
+    },
+    {
+      "label": "Yahoo Finance - Horizon Robotics news",
+      "url": "https://finance.yahoo.com/quote/9660.HK/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: NEW fundamental deterioration since Jun 9 - widening losses, continued cash burn, and significant insider selling drove a ~-18.5% drop. This dents the edge-AI commercialization case the prior up-call relied on; the pullback is now signal, not just opportunity. Down.",
+      "bull": "Leading China edge-AI ADAS platform; deep pullback (-56% YTD) and physical-AI optionality if losses inflect.",
+      "neutral": "Not a pure humanoid name; valuation cheaper but no proof of profit inflection yet.",
+      "bear": "Widening losses, cash burn, and insider selling undercut the commercialization thesis; -18.5% since Jun 9.",
+      "primaryCatalyst": "Aug 27 earnings; design-win / margin inflection",
+      "primaryRisk": "Persistent losses, cash burn, insider selling, China-tech sentiment"
+    }
+  ]
+}

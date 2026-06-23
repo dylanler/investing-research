@@ -1,0 +1,31 @@
+{
+  "symbol": "2395.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material fundamental news since June 9. June activity (Edge AI Conference Jun 1, COMPUTEX keynote Jun 4, NVIDIA Jetson Thor / physical-AI showcase, Intel Core Ultra Series 3 edge-AI partnership) is promotional/product positioning, not a guidance or contract inflection. Price flat (-0.4%).",
+  "sources": [
+    {
+      "label": "Advantech Edge AI / COMPUTEX 2026 integration (Advantech)",
+      "url": "https://www.advantech.com/en-us/resources/news/advantech-integrates-world-partner-conference-with-computex-to-strengthen-global-edge-ai-ecosystem-connectivity"
+    },
+    {
+      "label": "Advantech NVIDIA GTC 2026 Jetson Thor showcase (Advantech)",
+      "url": "https://www.advantech.com/en-us/resources/news/advantech-to-showcase-edge-ai-and-physical-ai-innovations-at-nvidia-gtc-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Hold. Advantech remains a well-positioned but already-recognized edge-computing/industrial-PC supplier; June Edge AI conference, Jetson Thor and Intel partnerships are positioning announcements, not a new bottleneck or guidance inflection. Latent/under-covered premise only partly holds at +70% YTD.",
+      "bull": "Edge AI + physical-AI/robotics (ROS2, WEDA) leverage; Jetson Thor and Intel edge wins.",
+      "neutral": "Established IPC franchise; AI exposure real but diffuse, tied to IPC cycle.",
+      "bear": "Already a recognized edge supplier; +70% YTD reduces 'latent' asymmetry, industrial cycle risk.",
+      "primaryCatalyst": "Industrial PC cycle recovery + edge-AI box adoption.",
+      "primaryRisk": "Industrial automation demand softness; no choke-point ownership."
+    }
+  ]
+}

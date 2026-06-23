@@ -1,0 +1,31 @@
+{
+  "symbol": "ALFA.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The FreeWaterLoop data-center liquid-cooling launch was March 4, 2026 at Data Center World London (already known), and Q1 2026 results were in April. The +3.0% move is flow-driven.",
+  "sources": [
+    {
+      "label": "Alfa Laval FreeWaterLoop launch (March 4)",
+      "url": "https://www.alfalaval.com/media/news/investors/2026/alfa-laval-launches-freewaterloop-to-support-efficient-data-center-cooling/"
+    },
+    {
+      "label": "Simply Wall St — Alfa Laval data-center moves",
+      "url": "https://simplywall.st/stocks/se/capital-goods/sto-alfa/alfa-laval-shares/news/alfa-laval-extends-energy-transition-role-with-data-center-a"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the thermal/cooling latent-node lens, nothing new since June 9 — FreeWaterLoop launched in March and data-center order intake (SEK 2.0B→2.5B) was the April Q1 update. Already a large, well-watched industrial; thesis unchanged. Hold flat.",
+      "bull": "Heat-exchanger/fluid leader directly levered to data-center liquid cooling; DC order intake +25%.",
+      "neutral": "Real DC exposure but a large diversified industrial; cooling is a small slice; already discovered.",
+      "bear": "Cyclical industrial with currency headwinds; DC orders still small vs total; +17% YTD prices the optimism.",
+      "primaryCatalyst": "Data-center liquid-cooling order ramp",
+      "primaryRisk": "Industrial cycle; FX headwinds"
+    }
+  ]
+}

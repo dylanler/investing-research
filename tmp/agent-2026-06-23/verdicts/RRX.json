@@ -1,0 +1,44 @@
+{
+  "symbol": "RRX",
+  "company": "Regal Rexnord",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst since June 9. The relevant fundamentals predate the window: ~$735M of E-Pod data-center orders (first shipments early 2027) and 2026 EPS guidance of $5.29–$6.09 that management itself framed as a 'more measured/soft' approach. Stock +4% since June 9 and +52% YTD on data-center optimism, not fresh news.",
+  "sources": [
+    {
+      "label": "RRX $735M data-center E-Pod orders (BizTimes)",
+      "url": "https://biztimes.com/regal-rexnord-secures-735-million-worth-of-orders-for-new-data-center-product/"
+    },
+    {
+      "label": "RRX soft guidance vs data-center orders (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rrx/regal-rexnord/news/what-regal-rexnord-rrxs-soft-guidance-and-surging-data-cente"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "No new fundamental evidence since June 9. After +52% YTD and recurring bullish data-center coverage, the inductor/transformer-proxy 'hidden, under-owned' premise this residual-alpha page rewards keeps eroding at the margin, so a small negative drift, not a rank move.",
+      "bull": "Delevan inductor/transformer proxy with $735M E-Pod data-center backlog shipping early 2027.",
+      "neutral": "Data-center wins real but well-known; 2026 guidance is deliberately conservative.",
+      "bear": "Up 52% YTD and widely covered — no longer the hidden residual-alpha name this page seeks.",
+      "primaryCatalyst": "E-Pod data-center shipments from early 2027",
+      "primaryRisk": "Crowded; soft 2026 guidance; rare-earth/tariff headwinds"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Latent AI-node lens already discounts RRX as more cyclical-industrial than AI. The $735M E-Pod data-center backlog is positive but pre-dates the window and is shipping-deferred to 2027, while soft guidance offsets. No new catalyst since June 9 — hold at #53.",
+      "bull": "Motors/drives/power transmission feed cooling, robotics and factory automation; sizeable data-center switchgear backlog.",
+      "neutral": "Synergy and data-center HVAC story intact, but realization is a 2027 event.",
+      "bear": "Largely a cyclical-industrial synergy story with rare-earth and tariff headwinds; AI link diluted.",
+      "primaryCatalyst": "Data-center HVAC/automation demand; synergy delivery",
+      "primaryRisk": "Industrial cyclicality; deferred backlog conversion"
+    }
+  ]
+}

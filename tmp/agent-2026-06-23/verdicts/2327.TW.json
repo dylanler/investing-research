@@ -1,0 +1,44 @@
+{
+  "symbol": "2327.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental catalyst since June 9 beyond price action. Q1 (record NT$38.2B revenue, net income +45%, AI mix ~15%, repeated MLCC/tantalum price hikes) was reported in April and is fully consensus. The stock ran another ~23% in two weeks to +323% YTD, making it one of the largest TWSE names - intensifying crowding without fresh bottleneck evidence.",
+  "sources": [
+    {
+      "label": "Passive-components.eu - Yageo Q1 2026 results",
+      "url": "https://passive-components.eu/yageo-q1-2026-results-ai-servers-and-pricing-power-behind-a-moderate-q2-outlook/"
+    },
+    {
+      "label": "BigGo - Yageo AI revenue hits 15%, chairman hosts summit",
+      "url": "https://finance.biggo.com/news/pit90p0BaoGGrU-I5BMp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 71,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Crowding-sensitive residual-alpha lens: no new fundamentals since June 9, yet another +23% run to +323% YTD makes it a mega-cap consensus name. The MLCC/pricing-power story is real but fully owned; residual alpha keeps compressing from the already-crowded benchmark slot. Thesis-driven down.",
+      "bull": "Record Q1, real MLCC/tantalum pricing power, AI mix to exceed 15%; high-end passive undersupply persists.",
+      "neutral": "Genuine pricing power, but it is now consensus and the price has captured it.",
+      "bear": "+323% YTD, top-10 TWSE name, no fresh catalyst - textbook over-owned, low-residual-alpha setup.",
+      "primaryCatalyst": "Continued MLCC/tantalum price hikes into AI servers",
+      "primaryRisk": "Crowding unwind; passive-component cycle peaking"
+    },
+    {
+      "page": "companies",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Board-level power/passives lens: the record Q1 (+47%/+45%) and confirmed pricing power are the execution evidence the thesis asked to watch, but nothing new arrived since June 9 - it is the same April print. On this broader lens the validated power-delivery content keeps rank steady; no incremental shift.",
+      "bull": "Power-delivery content (MLCC/inductors) scaling with AI server PDN; demonstrated pricing power and record backlog.",
+      "neutral": "Strong execution already validated and priced; growth rate likely moderates into Q2.",
+      "bear": "Cyclical passives at peak multiples; little upside left after the rerating.",
+      "primaryCatalyst": "AI-server PDN content gains and price increases",
+      "primaryRisk": "Passive-component down-cycle; margin normalization"
+    }
+  ]
+}

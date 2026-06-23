@@ -1,0 +1,48 @@
+{
+  "symbol": "UCTT",
+  "company": "Ultra Clean Holdings",
+  "caseDate": "2026-06-23",
+  "newsSince": "+22.6% since June 9, driven by a sector-wide AI WFE rally and an Oppenheimer price-target hike to $115 (Outperform, reiterated) citing stronger/longer AI-driven semi demand; stock hit a 52-week high ($104.93) on June 11. No company-specific operational news (earnings/contracts) since June 9 - the $140-145B 2026 WFE / 15%+ 2027 framing was already from the Q1 call.",
+  "sources": [
+    {
+      "label": "Oppenheimer PT hike to $115 (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/ultra-clean-holdings-inc-uctt-news-2026_06_11/"
+    },
+    {
+      "label": "UCTT surges 13.1% in sector rally (Alphastreet)",
+      "url": "https://news.alphastreet.com/ultra-clean-holdings-surges-13-1-amid-sector-wide-rally/amp/"
+    },
+    {
+      "label": "UCTT 230% YTD analysis (TIKR)",
+      "url": "https://www.tikr.com/blog/ultra-clean-holdings-stock-has-surged-230-in-2026-is-uctt-still-worth-buying-at-105"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: only fresh datapoint is an Oppenheimer Outperform/$115 reiterating a longer AI-WFE cycle - a modest positive on order-timing optionality. Not a new fundamental shift; WFE framing was already from Q1. Sentiment/price rerating is scored separately.",
+      "bull": "Levered to AI fab + HBM capacity adds; analyst upgrade extends the WFE up-cycle into 2027 (15%+ growth signaled).",
+      "neutral": "Thesis intact but fully consensus after +312% YTD; upgrade adds little new information.",
+      "bear": "Subsystem integrator with thin margins; any AI-capex air-pocket hits order timing hardest at this valuation.",
+      "primaryCatalyst": "Longer/larger 2026-27 WFE cycle and AI/HBM capacity additions.",
+      "primaryRisk": "Order-timing/cyclical air-pocket and export-control exposure."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "CPO lens: UCTT is generic WFE subsystem supply, not direct to co-packaged-optics/HBM/package-test bottlenecks. Analyst upgrade is theme-level, not CPO-specific, and crowding after the run reduces asymmetry. No CPO-relevant fundamental change.",
+      "bull": "Broad WFE exposure rides advanced-node/HBM capacity; longer-cycle analyst view supports demand.",
+      "neutral": "Attractive theme but limited direct CPO linkage; asymmetry compressed by valuation and crowding.",
+      "bear": "Single-bundle validation risk and no direct optics/packaging tie make CPO alpha low here.",
+      "primaryCatalyst": "Advanced-node/HBM capacity buildout pulling subsystem demand.",
+      "primaryRisk": "Crowded, valuation-rich, indirect to the CPO bottleneck."
+    }
+  ]
+}

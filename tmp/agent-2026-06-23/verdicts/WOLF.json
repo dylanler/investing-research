@@ -1,0 +1,61 @@
+{
+  "symbol": "WOLF",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely new evidence post-June 9: around June 18-19 Wolfspeed rolled out 5th-gen 200mm SiC MOSFETs and new 3.3kV SiC power-module families explicitly targeting AI data centers, grid-scale and solid-state transformers, and the GE Aerospace high-voltage SiC MOU was reframed; stock spiked ~+15% one day. Balance sheet still distressed (net loss -$519.6M, negative FCF) post Sept-2025 Ch.11 emergence; +168% YTD on a $2.7B cap.",
+  "sources": [
+    {
+      "label": "Wolfspeed AI/aerospace catalysts (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/wolfspeed-inc-new-wolf-news-2026_06_18/"
+    },
+    {
+      "label": "GE Aerospace-Wolfspeed deal (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ge-aerospace-wolfspeed-deal-reframes-043252731.html"
+    },
+    {
+      "label": "Wolfspeed restructuring completion",
+      "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-successfully-completes-financial-restructuring-emerges-as-financially-stronger-company-well-positioned-in-silicon-carbide-market/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Latent power/component node: new 3.3kV AI-data-center SiC modules + Gen-5 200mm MOSFETs strengthen the strategic optionality this page tracks since June 9, but distress (negative FCF, -$520M loss) still overwhelms it. Modest fundamental tick; stays deep in tail.",
+      "bull": "Real new AI-datacenter SiC product cadence + GE MOU validate the power-conversion node.",
+      "neutral": "Optionality is real but balance-sheet fragility caps any rerating.",
+      "bear": "Post-bankruptcy equity, -168% YTD froth, Chinese SiC share gains erode moat.",
+      "primaryCatalyst": "3.3kV/Gen-5 SiC design wins; SiC demand recovery",
+      "primaryRisk": "Liquidity/dilution; Chinese SiC competition"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 86,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "CPO/HBM/advanced-packaging/test lens: the new SiC modules and GE MOU are high-voltage power, orthogonal to co-packaged optics. No page-relevant evidence since June 9; +168% YTD on a $2.7B distressed cap keeps asymmetry poor here, so removal bias stands.",
+      "bull": "AI-power optionality could tangentially benefit datacenter buildout.",
+      "neutral": "Power SiC, not optics/packaging - wrong lens for this page.",
+      "bear": "No CPO relevance, distressed balance sheet, frothy YTD.",
+      "primaryCatalyst": "None page-relevant",
+      "primaryRisk": "Restructuring/equity wipe risk"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 41,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Test-time/scaling power-density lens: new 3.3kV SiC modules for AI data centers and solid-state transformers plus Gen-5 200mm MOSFETs are directly on-thesis (faster time-to-power) - genuinely new since June 9, modestly strengthening the AI-power-density scaling case despite the speculative balance sheet.",
+      "bull": "SiC for solid-state transformers/AI power exactly matches the scaling power-density story.",
+      "neutral": "On-thesis product news, but tiny cap and distress limit conviction.",
+      "bear": "Negative FCF; demand recovery still unproven; Chinese SiC pressure.",
+      "primaryCatalyst": "AI-datacenter SiC module adoption",
+      "primaryRisk": "Balance-sheet/liquidity risk"
+    }
+  ]
+}

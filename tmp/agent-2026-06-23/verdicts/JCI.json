@@ -1,0 +1,31 @@
+{
+  "symbol": "JCI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The data-center cooling thrust (second AI Factory air-cooled reference design guide May 5, NVIDIA collaboration, FY26 EPS guide to $4.70 with ~11% backlog growth) all predates June 9 and was already embedded in the prior hold.",
+  "sources": [
+    {
+      "label": "JCI second data center reference design guide (PRNewswire, May 5)",
+      "url": "https://www.prnewswire.com/news-releases/johnson-controls-releases-second-data-center-reference-design-guide-to-advance-industrialscale-ai-factory-cooling-302762779.html"
+    },
+    {
+      "label": "Data center cooling drives JCI growth (Facilities Dive)",
+      "url": "https://www.facilitiesdive.com/news/data-center-cooling-drives-johnson-controls-growth/804990/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Master under-owned-bottleneck list: liquid-cooling/grid/switchgear exposure intact and the record-backlog quarter plus AI Factory design guides were already in the hold. No fresh Jun 9-23 catalyst; -2.7% drift is noise. Bottleneck thesis increasingly recognized, capping residual alpha at this rank.",
+      "primaryCatalyst": "Data-center thermal management ramp (AI Factory guides, NVIDIA collab)",
+      "primaryRisk": "Cooling/controls story now well-understood; PT only ~5% above spot",
+      "bull": "Scarce gigawatt-scale data-center cooling and grid/electrical exposure; backlog +11%, FY26 EPS raised to $4.70.",
+      "neutral": "High-quality bottleneck name but the AI-cooling re-rating is largely priced; +17.5% YTD.",
+      "bear": "Mean PT only ~5% above spot; cyclical building-controls demand and execution risk on cooling rollout."
+    }
+  ]
+}

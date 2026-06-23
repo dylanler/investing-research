@@ -1,0 +1,60 @@
+{
+  "symbol": "NEX.PA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Nexans inaugurated its new cable-laying vessel CLV Nexans Electra in Oslo on June 18, 2026 (13,500t turntable capacity, lays four cables simultaneously), expanding subsea installation capacity into a record HV subsea demand backdrop driven by offshore wind, interconnectors and data-center power. Nexans continues to position as the only player able to serve HV/MV/LV needs for >1GW data-center sites. Modestly supportive of the grid/power-bottleneck thesis.",
+  "sources": [
+    {
+      "label": "Nexans inaugurates CLV Electra; data-center positioning (Q1 2026 PR)",
+      "url": "https://www.globenewswire.com/news-release/2026/04/28/3282204/0/en/nexans-q1-2026-solid-start-to-2026.html"
+    },
+    {
+      "label": "Nexans News & Media Room",
+      "url": "https://www.nexans.com/news-media-room/news/"
+    },
+    {
+      "label": "Nexans Electra cable-laying vessel commissioned (OceanNews)",
+      "url": "https://oceannews.com/news/subsea-cable/nexans-electra-joins-fleet-as-one-of-the-worlds-most-advanced-cable-laying-vessels"
+    },
+    {
+      "label": "Nexans Q1 2026 financial information",
+      "url": "https://www.nexans.com/regulated-informations/first-quarter-2026-financial-information/"
+    },
+    {
+      "label": "Nexans Electra cable-laying vessel enters service (OceanNews)",
+      "url": "https://oceannews.com/news/subsea-cable/nexans-electra-joins-fleet-as-one-of-the-worlds-most-advanced-cable-laying-vessels"
+    },
+    {
+      "label": "Nexans 525kV HVDC solution (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/flagship-backbone-cables-how-nexans-525-kv-hvdc-solution-targets-the/69548213"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Grid/data-center cabling backdrop strong (Electra live, EUR7.7B backlog, DC call-offs) but nothing new since June 9. Still one step removed from the passive/power bottleneck stack this list rewards, so hold at 65 with no fresh catalyst.",
+      "bull": "Record transmission backlog + new CLV capacity; data-center power demand a structural tailwind.",
+      "neutral": "Real AI exposure but indirect vs core passive/power-bottleneck names.",
+      "bear": "Project lumpiness/execution; farther from the choke-point this page targets.",
+      "primaryCatalyst": "New HVDC/subsea award or data-center framework expansion",
+      "primaryRisk": "Project delays / margin slippage on large transmission jobs"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent power-&-grid node thesis intact and supported by Electra commissioning and DC-driven Q1 grid growth, but no new evidence since June 9 to re-rate. Electrification/grid-cable scarcity narrative unchanged; hold at 47.",
+      "bull": "Electrification + grid-cable scarcity underpin AI data-center power buildout; less obvious than US electricals.",
+      "neutral": "Story unfolding but no inflection since June 9.",
+      "bear": "Cyclical/project exposure; not pure AI choke-point.",
+      "primaryCatalyst": "Grid-cable demand tightening; mix shift to electrification margins",
+      "primaryRisk": "Order-flow cyclicality and copper/input cost swings"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "6770.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 22, JPMorgan upgraded Powerchip to Overweight and doubled its PT to NT$100, citing sharp memory-foundry pricing improvement, the Micron HBM-packaging partnership, and silicon-capacitor/3D AI Foundry opportunities; it raised 2027 EPS estimates 85% and sees gross margin expanding to ~47% by end-2027 from 10% in Q1 2026. Q1 had already returned to profit and the 3D WoW DRAM foundry was showcased at Computex (late May).",
+  "sources": [
+    {
+      "label": "Powerchip rallies after JPMorgan upgrade, PT doubled (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/taiwans-powerchip-rallies-after-jpmorgan-upgrades-rating-doubles-price-target-4751725"
+    },
+    {
+      "label": "Powerchip 3D AI Foundry / 3D WoW DRAM at Computex (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD201/3d-dram-2026-packaging-bandwidth.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 86,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.6,
+      "rankRationale": "AI-node lens: the June 22 JPM Overweight (+85% 2027 EPS, GM to ~47%) crystallizes a real shift toward memory-foundry pricing power and Micron HBM packaging plus the 3D WoW DRAM/Si-cap stack shown at Computex. This is node-centric evidence strengthening the memory/packaging bottleneck case, not pure flow.",
+      "bull": "3D WoW DRAM stacking, Micron HBM-packaging tie-up and memory-foundry pricing reposition PSMC into the AI-memory/packaging bottleneck with steep margin expansion.",
+      "neutral": "Promising AI-foundry pivot but still execution-stage; sell-side, not yet results.",
+      "bear": "Mature-node/memory cycle risk; +87% YTD already prices much optimism; thesis hinges on Micron ramp.",
+      "primaryCatalyst": "Micron HBM packaging + 3D AI Foundry ramp; memory pricing",
+      "primaryRisk": "Memory/mature-node cycle and execution on HBM/3D timelines"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 110,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "CPO lens: PSMC remains low direct co-packaged-optics exposure, so the June 22 JPM upgrade and 3D AI Foundry news barely move this page. The Si-cap/interposer angle is mildly optics-adjacent, supporting a small +1, but it stays near the bottom as a foundry/memory name.",
+      "bull": "Si-cap integrated passives and interposer/3D packaging give faint optical-interconnect adjacency.",
+      "neutral": "Foundry/memory story improving but CPO exposure stays minimal.",
+      "bear": "Not a CPO play; mature-node/memory cyclicality dominates.",
+      "primaryCatalyst": "Advanced-packaging/Si-cap capacity build",
+      "primaryRisk": "Low direct CPO relevance; memory cycle"
+    }
+  ]
+}

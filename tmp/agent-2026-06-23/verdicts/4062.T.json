@@ -1,0 +1,44 @@
+{
+  "symbol": "4062.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Ibiden hit an all-time high on June 17, 2026 (+31% since June 9). The fundamental drivers (FY record results, ~70-80% AI-server substrate share, ¥500B capex / 2.5x capacity plan, Nvidia ties) were disclosed pre-June 9. Newer items are sell-side: Bernstein upgraded to Outperform and Morgan Stanley to Overweight on Nvidia substrate growth -- sentiment/flow, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "Ibiden FY operating income / earnings alert (Smartkarma)",
+      "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/ibiden-co-ltd-4062-earnings-fy-operating-income-forecast-maintained-misses-estimates/"
+    },
+    {
+      "label": "Ibiden to invest ¥500B in IC package substrate capacity (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/IBIDF/pressreleases/10864/ibiden-to-invest-500-billion-in-expanding-ic-package-substrate-capacity-for-ai-and-high-performance-servers/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 85,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On the residual-alpha-vs-passives lens, a +31% melt-up to an ATH on no new fundamental evidence (just sell-side upgrades) on top of +240% YTD and a $46B cap further compresses hidden/under-owned upside. Crowding penalty deepens beyond the June 9 down call.",
+      "bull": "Best-in-class AI substrate franchise; analyst upgrades signal more institutional demand.",
+      "neutral": "Story is fully discovered; upgrades chase price, not new fundamentals.",
+      "bear": "+240% YTD, $46B cap, ATH -- essentially zero residual/under-owned alpha left on a crowding-sensitive list.",
+      "primaryCatalyst": "Continued AI-server substrate capacity ramp into 2027.",
+      "primaryRisk": "Crowding/positioning unwind; substrate ASP normalization."
+    },
+    {
+      "page": "companies",
+      "currentRank": 23,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the master bottleneck list, the substrate scarcity is real and high-quality, but the news-free +31% pop to an ATH extends rerating without new fundamental evidence beyond known capex/share. Bottleneck-vs-rerating balance pushes residual score modestly lower again.",
+      "bull": "Dominant high-end AI substrate share (~70-80%); record FY results; capacity 2.5x by FY28.",
+      "neutral": "Premier asset but priced for it after +240% YTD; only sell-side news since June 9.",
+      "bear": "Valuation extended; substrate supply catching up could pressure pricing.",
+      "primaryCatalyst": "AI substrate capacity expansion and Nvidia demand.",
+      "primaryRisk": "Rerating fatigue; ASP/competition risk as supply expands."
+    }
+  ]
+}

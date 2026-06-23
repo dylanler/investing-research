@@ -1,0 +1,44 @@
+{
+  "symbol": "ZBRA",
+  "company": "Zebra Technologies",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The ZONE 2026 launches (Nucleus, Workcloud BI/AI suite) were announced June 2 - pre-window and frontline software, not robotics - and the beat-and-raise quarter (April-end, sales $1.50B, adj EPS $4.75) predates the window. The +4% June 22 pop is sentiment, not a new fundamental event.",
+  "sources": [
+    {
+      "label": "Zebra ZONE 2026 DNA software launch (Jun 2)",
+      "url": "https://www.businesswire.com/news/home/20260602035366/en/Zebra-Technologies-Empowers-Frontline-Workers-with-New-DNA-Software-Platforms-and-AI-Powered-Solutions"
+    },
+    {
+      "label": "Zebra news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ZBRA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Latent-AI-node (sensors/operational-data) lens: the Nucleus/Workcloud AI launches (Jun 2, just pre-window) modestly reinforce the data-capture-feeds-AI thesis, on top of a prior beat-and-raise. Constructive but not a fresh in-window catalyst; small +1.",
+      "primaryCatalyst": "Machine vision, RFID and Nucleus/Workcloud AI software monetizing operational data",
+      "primaryRisk": "Warehouse/retail capex recovery still uneven; large cap with cyclical exposure",
+      "bull": "Beat-and-raise quarter plus new AI software (Nucleus, Workcloud BI) deepen Zebra's role supplying clean operational data for AI.",
+      "neutral": "Endpoints/data-capture thesis intact but hinges on a warehouse-spend recovery that is only partial.",
+      "bear": "Hardware demand remains cyclical; software is early and won't quickly offset capex softness."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 19,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens: nothing since June 9 rebuilds the robotics case. The Skild sale stripped direct robotics upside and the recent ZONE news is frontline software, not robotics. Continue migrating the name down/off this page.",
+      "primaryCatalyst": "None direct; residual Apera AI venture stake is not a robotics thesis",
+      "primaryRisk": "Skild divestiture removed direct robotics exposure; no humanoid-stack catalyst",
+      "bull": "Skild sale validated the asset's value; Zebra retains adjacent machine-vision/automation capability.",
+      "neutral": "Robotics is no longer a direct driver post-Skild; name belongs lower on a humanoid-stack page.",
+      "bear": "Skild divestiture removed direct robotics upside; recent launches are frontline software, not robotics."
+    }
+  ]
+}

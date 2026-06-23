@@ -1,0 +1,61 @@
+{
+  "symbol": "ASX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Continued strong run (+14% since June 9, multiple up-days mid-June) on advanced-packaging/CoWoS optimism and a new automated panel-level packaging line. May monthly revenue confirmed strong double-digit YoY growth led by Assembly/Testing/Materials; advanced-packaging revenue guided to grow ~10% to over $3.5B in 2026.",
+  "sources": [
+    {
+      "label": "AlphaPilot: ASE forecasts $3.5B advanced packaging revenue 2026",
+      "url": "https://www.alphapilot.tech/discover/ase-technology-forecasts-3-5-billion-advanced-packaging-revenue-by-2026-amid-ai-demand"
+    },
+    {
+      "label": "TradingKey: ASX +6.96% on Jun 22",
+      "url": "https://www.tradingkey.com/news/market-movers/261982446-market-movers-asx-20260622"
+    },
+    {
+      "label": "Seeking Alpha: ASE next era of advanced packaging",
+      "url": "https://seekingalpha.com/article/4887324-ase-technology-stock-next-era-of-advanced-packaging-here"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "AI-node lens: OSAT/packaging is selective AI exposure, less direct than HBM/networking. May revenue and panel-level packaging line are real confirmation, but most of the +14% since June 9 is momentum, not new node-bottleneck alpha. Minor positive.",
+      "bull": "CoWoS overflow from TSMC, panel-level packaging line, strong May revenue.",
+      "neutral": "Real confirmation but largely priced; +137% YTD already.",
+      "bear": "OSAT cyclicality; node exposure indirect vs HBM/advanced packaging leaders.",
+      "primaryCatalyst": "TSMC CoWoS outsourcing ramp",
+      "primaryRisk": "OSAT cyclicality, margin pressure, rerating"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "CPO lens: ASX is the packaging/test gateway for chiplets and optical modules. Panel-level packaging line and CoWoS-like capability for next-gen accelerators modestly strengthen the optical-module assembly case since June 9; size/cyclicality still cap the score.",
+      "bull": "Gateway for chiplet + optical-module integration; new panel-level line scales capacity.",
+      "neutral": "CPO linkage real but indirect; recent gains mostly priced.",
+      "bear": "Cyclical OSAT margins; not a pure CPO play.",
+      "primaryCatalyst": "Optical-module/chiplet packaging wins",
+      "primaryRisk": "Cyclicality, margin compression"
+    },
+    {
+      "page": "companies",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck lens: packaging-scarcity thesis confirmed by strong May print and panel-level line, but at +137% YTD/$96B cap the name has clearly rerated. Prior verdict already held after the May data; modest positive on confirmation, not enough for a rank move.",
+      "bull": "Direct advanced-packaging/substrate scarcity beneficiary; raised guidance.",
+      "neutral": "Thesis confirmed but largely captured by the rerating.",
+      "bear": "+137% YTD; valuation discovery and OSAT cyclicality limit further alpha.",
+      "primaryCatalyst": "Advanced-packaging capacity sold out into AI demand",
+      "primaryRisk": "Crowding, cyclical downturn"
+    }
+  ]
+}

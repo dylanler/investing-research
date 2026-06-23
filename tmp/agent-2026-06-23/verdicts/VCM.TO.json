@@ -1,0 +1,31 @@
+{
+  "symbol": "VCM.TO",
+  "company": "Vecima Networks",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent catalyst was Q3 FY2026 results on May 14 (revenue CAD64.8M, raised FY2026 outlook to +22.5%-30% revenue, more vCMTS/DOCSIS 4.0 wins), all pre-window. The +1.6% move since June 9 is noise.",
+  "sources": [
+    {
+      "label": "Vecima Q3 FY2026 results (LightReading)",
+      "url": "https://www.lightreading.com/cable-technology/vecima-secures-more-vcmts-wins-ups-revenue-guidance"
+    },
+    {
+      "label": "Vecima News Releases",
+      "url": "https://vecima.com/investor-relations/news-releases/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent under-covered supply chain: small, underfollowed broadband/fiber-access play with DOCSIS 4.0/vCMTS momentum, but the AI-node tie is indirect (edge backhaul, not compute bottleneck). No news since June 9; raised guidance was May 14. Hold at 39.",
+      "bull": "Underfollowed micro-cap; raised FY26 guidance, expanding vCMTS Tier-1 trials and new EU wins ride a multi-year cable upgrade cycle.",
+      "neutral": "Real broadband-access franchise but only a loose, indirect AI-node connection; revenue lumpy quarter to quarter.",
+      "bear": "$0.22B cap, cable-capex cyclical, not a true AI-compute bottleneck; AI-node placement is a stretch.",
+      "primaryCatalyst": "vCMTS/DOCSIS 4.0 deployment ramp from qualification to volume",
+      "primaryRisk": "Cable-capex cyclicality; tenuous AI linkage"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "009150.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The ~$1B (1.557tn won) silicon-capacitor supply deal with a U.S. AI-chip developer was disclosed May 20, and the iM Securities target hike to KRW 2.3M (the June driver) was already captured in the June 9 verdict. Stock is roughly flat (+1.0%) since the refresh after a >1,000% / +637% YTD run.",
+  "sources": [
+    {
+      "label": "SEM still undervalued after 1,000% rally; iM lifts target to 2.3M won (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/06/09/samsung-electro-mechanics-still-undervalued-after-1000"
+    },
+    {
+      "label": "SEM secures ~$1B silicon-capacitor supply contract (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260525PR200/semco-silicon-capacitor-component-business.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha-vs-passives lens: a +637% YTD, well-covered name whose recent moves were target-hike/flow driven, not new evidence. No fresh fundamental catalyst since June 9; the prior 'down' (post-rerating chase) posture stands. Crowding keeps residual alpha thin - small -1, hold near bottom.",
+      "bull": "Genuine AI-server MLCC + silicon-capacitor bottleneck supplier with a $1B multi-year contract; world #2 MLCC.",
+      "neutral": "Thesis intact but >1,000% rally and broad sell-side coverage leave little residual alpha vs passives.",
+      "bear": "Extreme crowding/rerating; recent pops are target hikes, not new orders - asymmetry is poor on this page.",
+      "primaryCatalyst": "New AI-server MLCC / silicon-capacitor design wins",
+      "primaryRisk": "Crowding and mean-reversion after a 10x run"
+    }
+  ]
+}

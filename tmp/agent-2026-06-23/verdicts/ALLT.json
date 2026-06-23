@@ -1,0 +1,31 @@
+{
+  "symbol": "ALLT",
+  "company": "Allot",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company news since June 9. Q1 2026 (rev +14% YoY, SECaaS ARR +59% to $33.7M, GAAP operating income positive, FY guidance $113-117M reaffirmed, SECaaS growth raised to 40%+) was reported in early May. Mid-June items are minor governance/insider events (a board-member resignation and an executive stock move), not fundamental.",
+  "sources": [
+    {
+      "label": "Allot Q1 2026 results (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/allot-first-quarter-2026-results-revenue-growth-accelerates-to-14-yoy-with-increased-margins-302769377.html"
+    },
+    {
+      "label": "Allot Q1 2026 slides (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/allot-q1-2026-slides-cybersecurity-push-drives-14-revenue-growth-93CH-4681048"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Test-time-scaling lens via network-intelligence/traffic-control. Operating trajectory is improving (SECaaS-led growth, turned GAAP-profitable) but all reported pre-Jun-9; mid-June board/insider items are immaterial. No new catalyst; hold vs peers.",
+      "bull": "Three straight quarters of double-digit growth, SECaaS ARR +59%, now GAAP-profitable with strong cash flow.",
+      "neutral": "Improving security software story, but the AI/test-time-scaling linkage is thematic rather than direct.",
+      "bear": "Sub-$0.35B cap with -24% YTD; network-intelligence relevance to AI scaling is loose and board churn adds noise.",
+      "primaryCatalyst": "Continued SECaaS ARR acceleration and operating-margin expansion through 2026.",
+      "primaryRisk": "Telco-capex dependence and tenuous AI-scaling fit limit re-rating; governance turnover."
+    }
+  ]
+}

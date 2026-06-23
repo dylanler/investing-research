@@ -1,0 +1,48 @@
+{
+  "symbol": "PRY.MI",
+  "company": "Prysmian",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive flow. Prysmian was awarded a ~£2bn Eastern Green Link 4 HVDC contract (640km+ cable for a 2GW UK subsea interconnector) and unveiled a new 525kV 90C HVDC cable standard. Q1 2026 showed transmission-segment margin expansion to 20.1% with FY26 EBITDA guidance reaffirmed, validating the grid/interconnect bottleneck thesis.",
+  "sources": [
+    {
+      "label": "Eastern Green Link 4 £2bn HVDC award (IndustryEMEA)",
+      "url": "https://www.industryemea.com/news/106170-eastern-green-link-4-awards-%C2%A32bn-hvdc-cable-contract-to-prysmian"
+    },
+    {
+      "label": "Prysmian Q1 2026 margin expansion / data center (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/prysmian-q1-2026-slides-margin-expansion-accelerates-on-data-center-push-93CH-4648257"
+    },
+    {
+      "label": "EGL4 contract detail (Wirenet)",
+      "url": "https://wirenet.org/industry-news/prysmian-secures-2-billion-hvdc-cable-contract-for-eastern-green-link-4/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "EGL4 £2bn HVDC award and Q1 transmission margin step-up are genuine fundamental wins, but on this passive-stack-alpha lens Prysmian remains a $51B consensus electrification name in the Monitor bucket, far from hidden passive-component alpha. Small positive only.",
+      "primaryCatalyst": "EGL4 £2bn HVDC backlog + transmission margin expansion",
+      "primaryRisk": "Already-consensus large-cap; thin passive-stack edge",
+      "bull": "£2bn EGL4 win and 20.1% transmission margins confirm grid-bottleneck pricing power and multi-year HVDC backlog visibility.",
+      "neutral": "Strong order/margin news but well-recognized by sell-side; limited residual alpha vs passives at $51B cap.",
+      "bear": "Consensus electrification trade at +65% YTD; crowding and execution on mega-projects cap incremental upside."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 54,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "On the latent under-covered AI-supply-chain lens, the EGL4 HVDC award plus 20.1% transmission margins directly validate the grid/fiber bottleneck catalysts and improve conviction. Net positive, though increasing data-center-supplier recognition erodes the latent angle.",
+      "primaryCatalyst": "EGL4 HVDC award + grid interconnect/data-center cable demand",
+      "primaryRisk": "Losing 'latent' status as DC-supplier recognition grows",
+      "bull": "Record HVDC backlog and margin leverage make Prysmian a core AI-era power/grid supply node with multi-year visibility.",
+      "neutral": "Catalysts firing as expected; thesis intact but increasingly priced as electrification consensus.",
+      "bear": "No longer under-covered; +65% YTD and large cap leave little latent re-rating room."
+    }
+  ]
+}

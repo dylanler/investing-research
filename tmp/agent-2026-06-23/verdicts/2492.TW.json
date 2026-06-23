@@ -1,0 +1,47 @@
+{
+  "symbol": "2492.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "At its June 12 AGM Walsin's management reiterated that AI-server demand is unquenchable and passive-component supply tightness will persist into 2028, and is tripling capex to ~NT$3B to expand MLCC/resistor capacity 10-15%. Industry-wide, June saw Samsung Electro-Mechanics suspend MLCC quotes and high-cap AI-server MLCC spot prices up 50-60%, confirming the bottleneck pricing cycle. This is genuine fundamental reinforcement, though the stock is now +363% YTD and limit-up since June 9.",
+  "sources": [
+    {
+      "label": "BigGo: Walsin CEO AI demand unquenchable, crunch to 2028",
+      "url": "https://finance.biggo.com/news/2TUNwZ4BHDAP3F-7ILW3"
+    },
+    {
+      "label": "Digitimes: Walsin pricing power from AI demand",
+      "url": "https://www.digitimes.com/news/a20260603PD231/walsin-mlcc-price-electronics-demand.html"
+    },
+    {
+      "label": "passive-components.eu: MLCC price increases as AI outpaces supply",
+      "url": "https://passive-components.eu/mlcc-manufacturers-consider-price-increase-as-ai-demand-outpaces-supply/"
+    },
+    {
+      "label": "BigGo: Walsin CEO AI demand, supply crunch to 2028",
+      "url": "https://finance.biggo.com/news/2TUNwZ4BHDAP3F-7ILW3"
+    },
+    {
+      "label": "DigiTimes: Walsin gains pricing power from AI demand",
+      "url": "https://www.digitimes.com/news/a20260603PD231/walsin-mlcc-price-electronics-demand.html"
+    },
+    {
+      "label": "BigGo: Goldman flags MLCC as next memory-like surge",
+      "url": "https://finance.biggo.com/news/9brVh54BtCxy99G5XYjq"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "AGM (Jun 12) + June MLCC price action (Samsung Electro-Mechanics quote freeze, +50-60% high-cap AI MLCC, capex tripled to NT$3B, crunch to 2028) genuinely strengthen the bottleneck thesis. But on a residual-alpha page this is now consensus and richly priced; thesis-in-the-price, so hold rank vs peers.",
+      "bull": "Confirmed multi-year AI MLCC supply crunch to 2028; pricing power and tripled capex make Walsin a core passive bottleneck beneficiary.",
+      "neutral": "Bottleneck real but now widely recognized; +363% YTD means the alpha is largely captured.",
+      "bear": "Hidden-gem premise gone; crowded, momentum-driven, vulnerable to any demand-pull-forward unwind.",
+      "primaryCatalyst": "AI-server MLCC price hikes sustaining through 2H26-2028.",
+      "primaryRisk": "Crowding/demand pull-forward reversal after a parabolic run."
+    }
+  ]
+}

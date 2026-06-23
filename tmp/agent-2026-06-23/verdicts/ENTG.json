@@ -1,0 +1,69 @@
+{
+  "symbol": "ENTG",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Materially positive. On June 11 Entegris disclosed an EUV photoresist cross-licensing pact with JSR and Inpria that ends a patent challenge and aligns next-gen EUV materials, and a wave of analyst price-target hikes followed (Mizuho to $180 Outperform, plus Goldman Sachs, UBS and Deutsche Bank), driving a ~25% advance since June 9. Q2 FY26 results are due June 27 (guide $815-845M). HBM/advanced-packaging exposure (>$100M run-rate) reiterated as a growth driver.",
+  "sources": [
+    {
+      "label": "Timothy Sykes: Entegris climbs as analyst boost, EUV deal fire up AI chip story (Jun 18)",
+      "url": "https://www.timothysykes.com/news/entegris-inc-entg-news-2026_06_18/"
+    },
+    {
+      "label": "StocksToTrade: Entegris powers higher on EUV deal and target hike (Jun 11)",
+      "url": "https://stockstotrade.com/news/entegris-inc-entg-news-2026_06_11/"
+    },
+    {
+      "label": "Entegris Q1 2026 earnings transcript (HBM/advanced packaging detail)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/30/entegris-entg-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "ENTG Mizuho hike + JSR/Inpria EUV deal (Jun 18)",
+      "url": "https://stockstotrade.com/news/entegris-inc-entg-news-2026_06_18-2/"
+    },
+    {
+      "label": "Entegris Q1 2026 results / Q2 guidance",
+      "url": "https://s205.q4cdn.com/144974603/files/doc_financials/2026/q1/ENTG_Q126_Earnings_Release.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 29,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Genuinely new since June 9: a June 11 JSR/Inpria EUV cross-license removes a patent overhang and locks Entegris into next-gen AI-node photoresist materials, with broad analyst PT hikes. This strengthens the AI-fab/HBM materials bottleneck case the prior 'hold' lacked. Move up.",
+      "bull": "EUV materials cross-license + HBM slurry/advanced-packaging exposure entrench it in AI-node WFE upcycle; multiple PT raises.",
+      "neutral": "Strong setup but +87% YTD; Q2 print June 27 must confirm order acceleration.",
+      "bear": "~25% pop in two weeks; leverage and capex-cycle risk if WFE upcycle stalls.",
+      "primaryCatalyst": "Q2 FY26 results (Jun 27); EUV materials ramp; HBM packaging pull",
+      "primaryRisk": "Export-control exposure; leverage; post-rerating disappointment"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "The EUV cross-license is real new picks-and-shovels evidence, lifting score. But this crowding-sensitive lens penalizes chase: ~25% in two weeks on a +87% YTD name consumes much of the under-owned residual, so the bottleneck-strengthening is offset by reduced asymmetry — net small positive, hold rank 19.",
+      "bull": "Materials purity + EUV/advanced-packaging consumables are scarce, sticky AI-node bottleneck exposure.",
+      "neutral": "Thesis improved but the easy alpha has been chased after the June rerating.",
+      "bear": "Crowding-sensitive list: buying after a 25% spike is exactly the chase this page discounts.",
+      "primaryCatalyst": "EUV materials wins; advanced-packaging consumables share",
+      "primaryRisk": "Crowding/valuation after rerating; capex cyclicality"
+    },
+    {
+      "page": "companies",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "New EUV cross-license and analyst upgrades strengthen the upstream pick-and-shovel thesis on this master under-owned-bottleneck list, justifying a score bump vs the June 9 'hold'. The +87% YTD rerating tempers it, so a modest positive without a rank jump.",
+      "bull": "Sole/critical supplier of contamination-control and EUV materials to leading-edge AI fabs; durable franchise.",
+      "neutral": "Bottleneck is genuine but increasingly recognized as YTD rerates.",
+      "bear": "Under-owned residual eroding fast; leverage and pricing-execution watch items.",
+      "primaryCatalyst": "Leading-edge capacity adds; EUV materials adoption",
+      "primaryRisk": "Rerating reduces scarcity premium; contamination-control execution"
+    }
+  ]
+}

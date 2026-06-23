@@ -1,0 +1,31 @@
+{
+  "symbol": "TWIN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. Q3 FY26 results (net income $3.3m / $0.23 EPS, backlog $179.5m, defense backlog +~20% and ~15% of total, Marine & Propulsion sales +20%, gross margin 28.1%) were reported before the window. No fresh order, contract or guidance announcement since June 9.",
+  "sources": [
+    {
+      "label": "Twin Disc Q3 2026 earnings transcript (AOL)",
+      "url": "https://www.aol.com/articles/twin-disc-twin-q3-2026-141336000.html"
+    },
+    {
+      "label": "Twin Disc (TWIN) overview (StockAnalysis)",
+      "url": "https://stockanalysis.com/stocks/twin/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Latent spillover thesis (transmissions/clutches into robotics-automation and specialty-cooling machinery) is unchanged; no new fundamental evidence since June 9 and the strong Q3 print predates the window. The +11% move and +38% YTD is price, not news; hold the strict-screen rank 6.",
+      "bull": "Growing backlog ($179.5m) with defense up ~20% and Veth/marine strength; control/transmission tech could spill into robotics-automation machinery.",
+      "neutral": "Healthy recovery, but AI/robotics linkage is inferential and the strict screen demands harder evidence.",
+      "bear": "Microcap with no direct AI revenue; cyclical marine/industrial demand and thin liquidity dominate fundamentals.",
+      "primaryCatalyst": "Defense backlog conversion; robotics-automation spillover",
+      "primaryRisk": "Latent AI link unproven; marine/industrial cyclicality"
+    }
+  ]
+}

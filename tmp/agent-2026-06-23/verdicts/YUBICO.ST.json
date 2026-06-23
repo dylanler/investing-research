@@ -1,0 +1,31 @@
+{
+  "symbol": "YUBICO.ST",
+  "company": "Yubico",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 (net sales -23.1% to SEK479.3M, ARR +11% to SEK383.5M, subscription +13.8%), the OpenAI YubiKey partnership (Apr 30), permanent CEO Jerrod Chong (May 4), and a ~45-person reorg (SEK95M savings) all predate the window.",
+  "sources": [
+    {
+      "label": "Yubico Interim report Jan-Mar 2026",
+      "url": "https://investors.yubico.com/en/interim-report-january-march-2026/"
+    },
+    {
+      "label": "Yubico Q1 2026 presentation (May 5)",
+      "url": "https://investors.yubico.com/en/wp-content/uploads/sites/2/2026/05/Presentation-Interim-Report-Q1-2026.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Scaling/identity-for-agentic-workflows lens: no new evidence June 9-23. Q1 (sales -23%, but ARR +11% and OpenAI YubiKey deal), new CEO, and reorg are all pre-window. Subscription/ARR shift is the right direction but already known. Hold rank 16.",
+      "primaryCatalyst": "Subscription/ARR shift and OpenAI YubiKey channel as agentic auth scales",
+      "primaryRisk": "Hardware sales contraction (-23%) and FX; transition risk under new CEO",
+      "bull": "ARR +11% and the OpenAI ChatGPT YubiKey partnership position Yubico for agentic-identity demand; SEK95M cost-out aids margins.",
+      "neutral": "Recurring lines growing but total sales down 23%; story is a turnaround mid-transition.",
+      "bear": "Sharp top-line decline, currency headwinds and CEO transition; YTD -24% reflects fading hardware demand."
+    }
+  ]
+}

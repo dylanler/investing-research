@@ -1,0 +1,65 @@
+{
+  "symbol": "LRCX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental news since June 9. The record fiscal-Q3 print, the WFE-market raise to ~$140B, and the >50% advanced-packaging growth outlook were the April 22 earnings, already in the prior case. The +14% move since June 9 is a string of analyst price-target raises (Barclays and others) and AI-capex momentum, not a fresh thesis shift; China remains ~34% of revenue.",
+  "sources": [
+    {
+      "label": "Lam Q3 FY26 results, WFE raised to $140B",
+      "url": "https://finance.biggo.com/news/US_LRCX_2026-04-22"
+    },
+    {
+      "label": "LRCX Barclays price-target boost (June)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-receives-price-011116006.html"
+    },
+    {
+      "label": "New US-China chip export curbs impact on LRCX",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-china-chip-export-curbs-221046034.html"
+    },
+    {
+      "label": "Lam WFE outlook may be bigger than expected ($140B)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-wfe-080825408.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "AI-node bottleneck lens: etch/deposition centrality to AI fab + HBM confirmed by the $140B WFE raise, but export curbs hit the exact China risk the thesis flags. Both predate June 9 and roughly offset. No new node-criticality info, so hold.",
+      "bull": "Mid-30s% SAM share; indispensable to advanced-node and HBM capacity adds.",
+      "neutral": "Node-critical but cyclical and export-exposed; valuation rich after +102% YTD.",
+      "bear": "~34% China revenue under tightening curbs; WFE cyclicality.",
+      "primaryCatalyst": "AI/HBM fab capacity additions",
+      "primaryRisk": "China export controls / WFE downcycle"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "CPO lens: only an indirect beneficiary via HBM/foundry/advanced-interconnect capex. June 9 already cut it for crowding (+102% YTD, ~$466B cap) and export drag. No new CPO-relevant evidence since; residual asymmetry stays thin but a second consecutive demotion isn't warranted.",
+      "bull": "Advanced-packaging/interconnect capex tailwind as HBM scales.",
+      "neutral": "Indirect CPO read-through; mega-cap with little hidden alpha.",
+      "bear": "Not a CPO bottleneck; crowded, export-exposed.",
+      "primaryCatalyst": "Advanced-packaging capacity buildout",
+      "primaryRisk": "Memory/foundry capex cycle; China curbs"
+    },
+    {
+      "page": "companies",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Under-owned-bottleneck master list, fab-tools bucket. June 9 already demoted for the YTD rerating; the only genuinely new items (WFE $140B positive vs. China curb negative) offset, so no second consecutive demotion. Hold.",
+      "bull": "Pick-and-shovel exposure to all leading-edge and HBM capacity.",
+      "neutral": "Strong franchise, fully recognized after the run.",
+      "bear": "Stretched valuation; China export overhang.",
+      "primaryCatalyst": "Leading-edge capacity expansion",
+      "primaryRisk": "Export controls; capex cyclicality"
+    }
+  ]
+}

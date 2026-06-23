@@ -1,0 +1,47 @@
+{
+  "symbol": "NEO.TO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "In June 2026 Neo Performance Materials formally inaugurated Europe's largest permanent-magnet plant in Estonia (built in <500 days), shipped first magnet samples to a motor customer, and was awarded a new rare-earth permanent-magnet supply contract; it also declared a $0.10 dividend (ex-date June 22). This follows April's heavy-rare-earth separation line commissioning at Silmet. These are genuine commercialization milestones for the ex-China magnet supply chain feeding motors/robotics.",
+  "sources": [
+    {
+      "label": "Neo opens Narva NdFeB magnet facility (ProjectBlue)",
+      "url": "https://projectblue.com/blue/news-analysis/1321/neo-performance-materials-opens-narva-ndfeb-magnet-production-facility"
+    },
+    {
+      "label": "Neo ships magnet samples to motor customer",
+      "url": "https://www.neomaterials.com/neo-ships-magnet-samples-motor-customer/"
+    },
+    {
+      "label": "Neo Q1 2026 earnings transcript (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-neo-performance-materials-q1-2026-beats-forecasts-stock-dips-93CH-4681420"
+    },
+    {
+      "label": "Neo Estonia magnet plant (Mining.com)",
+      "url": "https://www.mining.com/neo-performance-opens-europes-first-rare-earth-magnet-plant/"
+    },
+    {
+      "label": "Neo opens Europe's largest magnet facility (InvestorNews)",
+      "url": "https://investornews.com/critical-minerals-rare-earths/neo-performance-materials-opens-europes-largest-magnet-facility-europes-landmark-critical-minerals-project/"
+    },
+    {
+      "label": "Neo wins traction motor award in Europe (Neo Materials)",
+      "url": "https://www.neomaterials.com/neo-wins-traction-motor-award-europe/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No new news since June 9. Magnet supply-chain relevance to humanoid motors intact but indirect; +106% YTD, $1.1B cap means crowding/scale already argue for modest weight per prior case. Nothing inflects the humanoid-stack alpha, hold.",
+      "bull": "Only ex-China NdFeB magnet maker scaling in Europe; structural motor-magnet supply node for robotics/EV.",
+      "neutral": "Relevant but indirect to humanoids; large prior move already prices much of the story.",
+      "bear": "Rare-earth price/tariff swings, large cap and crowding cut alpha vs pure humanoid-stack names.",
+      "primaryCatalyst": "New Tier-1 magnet supply contracts / Estonia ramp milestones",
+      "primaryRisk": "Rare-earth price normalization or China export-policy reversal"
+    }
+  ]
+}

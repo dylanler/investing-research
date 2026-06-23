@@ -1,0 +1,31 @@
+{
+  "symbol": "VECO",
+  "company": "Veeco Instruments",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The defining catalyst was the early-May Q1 print plus >$250M in multi-customer ion-beam/MOCVD/wet-etch orders for InP laser/silicon-photonics capacity (deliveries 2026 accelerating 2027) with FY2026 guidance reaffirmed ($740-800M rev). The +11.6% move since June 9 is sector momentum, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "Veeco $250M+ AI datacom laser tool orders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/veeco-instruments-veco-15-8-141630416.html"
+    },
+    {
+      "label": "Veeco Q1 2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000103145/000110465926055640/veco-20260505xex99d1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "CPO lens: the May >$250M InP-laser/silicon-photonics deposition order book directly eases the optical-interconnect capacity bottleneck feeding co-packaged optics, supporting a top-3 picks-and-shovels rank. No new June catalyst, so only a modest +1 to reflect order-book durability.",
+      "bull": "Dominant ion-beam/MOCVD tools for InP laser capacity; >$250M booked orders ramp into 2027 as hyperscalers shift to optical interconnects.",
+      "neutral": "Strong CPO-adjacent franchise but order book already disclosed; needs follow-on bookings to re-rate further.",
+      "bear": "Tool-cycle cyclicality and customer concentration; +145% YTD already prices much of the upside.",
+      "primaryCatalyst": "Follow-on InP/silicon-photonics tool orders into 2027 deliveries",
+      "primaryRisk": "Tool-cycle reversal and customer concentration"
+    }
+  ]
+}

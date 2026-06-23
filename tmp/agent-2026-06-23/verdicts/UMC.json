@@ -1,0 +1,65 @@
+{
+  "symbol": "UMC",
+  "company": "United Microelectronics",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material. UMC formally notified customers of selective wafer price hikes for H2 2026 (~10% on some products, effective July) with broader/larger increases planned for 2027, citing tight mature-node utilization, raw-material/energy cost inflation, and AI-related demand support across communications/industrial/consumer; clients have limited alternative capacity. UMC also booked a non-operating gain disposing Novatek shares via exchangeable bonds. Stock surged (+33% since June 9), partly on heavy call-option activity.",
+  "sources": [
+    {
+      "label": "UMC formal H2 2026 price hike notice (BigGo)",
+      "url": "https://finance.biggo.com/news/Dxizmp0B5edQG9E411si"
+    },
+    {
+      "label": "UMC selective 2H26 hikes, broader 2027 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/05/28/news-umc-reportedly-to-raise-prices-selectively-in-2h26-with-broader-and-potentially-larger-increases-in-2027/"
+    },
+    {
+      "label": "UMC Novatek disposal / dividend (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/united-microelectronics-adjusts-dividend-and-books-gain-on-novatek-disposal-as-profits-surge"
+    },
+    {
+      "label": "UMC +14.18% Jun 22 movers (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261982565-market-movers-umc-20260622"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 83,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "AI-node tollgate lens: formal H2-26 wafer price hikes with broader 2027 increases and high utilization directly raise pricing power on the mature-node tollgate the thesis prices in - a real fundamental positive, not just rerating. AI-adjacent demand supports volumes.",
+      "bull": "Confirmed pricing power into 2027 plus tight mature-node utilization improves margins on a key AI-supply tollgate.",
+      "neutral": "Mature-node foundry; hikes are selective in 2H26 and partly cost-pass-through.",
+      "bear": "Geopolitical/China-capacity risk and a part-options-driven run cloud the durability of the move.",
+      "primaryCatalyst": "Formal H2-2026/2027 wafer price increases on tight capacity.",
+      "primaryRisk": "Mature-node oversupply from China and geopolitical exposure."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 56,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.65,
+      "rankRationale": "CPO lens: the explicit risk flagged was 'mature-node pricing' - now materially improved by formal H2-26/2027 hikes and tight utilization. Limited direct CPO/silicon-photonics linkage caps the move, but the value-oriented setup strengthens on confirmed pricing power.",
+      "bull": "Pricing-power inflection de-risks the mature-node margin worry; specialty/silicon-photonics capacity offers optionality.",
+      "neutral": "Value foundry with limited direct CPO exposure; benefit is margin/pricing, not packaging bottleneck.",
+      "bear": "Indirect to CPO/HBM/package-test; pricing gains may erode if China capacity loosens.",
+      "primaryCatalyst": "Confirmed wafer price hikes lifting specialty/mature-node margins.",
+      "primaryRisk": "Limited CPO linkage; mature-node pricing reversal risk."
+    },
+    {
+      "page": "companies",
+      "currentRank": 78,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list: UMC is a pick-and-shovel foundry whose capacity-execution/pricing watch-item just resolved positively - formal H2-26 hikes, broader 2027 increases, tight utilization plus a Novatek disposal gain. Genuine fundamental improvement beyond the YTD rerating.",
+      "bull": "Confirmed pricing power + high utilization + balance-sheet gain validate the upstream tollgate thesis.",
+      "neutral": "Large, recognized foundry; AI exposure is indirect via mature-node demand.",
+      "bear": "Geopolitical risk and a partly options-fueled surge temper the fundamental signal after +238% YTD.",
+      "primaryCatalyst": "H2-2026/2027 wafer price hikes on tight mature-node capacity.",
+      "primaryRisk": "China mature-node capacity and geopolitical/cyclical exposure."
+    }
+  ]
+}

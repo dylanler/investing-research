@@ -1,0 +1,48 @@
+{
+  "symbol": "042700.KQ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 8 Hanmi won its first HBM4-generation TC Bonder 4.5 'Griffin' order from SK Hynix (~44.2bn won, ~15 units, ~7.7% of FY25 revenue), its first Griffin contract and first SK Hynix bonder order in five months. Analysts (e.g. Sangsangin) now model a sharp Q2 rebound (~227.6bn won revenue, ~110bn won OP). Caveat: SK Hynix continues to diversify to Hanwha/ASMPT, so the prior decade-long exclusivity is not restored. This validation was NOT reflected in the June 8 prior case, which cited only generic OSAT relevance.",
+  "sources": [
+    {
+      "label": "SK hynix places 44.2bn won TC Bonder order with Hanmi, accelerating HBM4 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/06/09/news-sk-hynix-reportedly-places-44-2bn-won-tc-bonder-order-with-hanmi-accelerating-hbm4-ramp-up/"
+    },
+    {
+      "label": "Hanmi wins first HBM4 TC bonder (Griffin) order from SK hynix (The Elec)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "SK hynix orders Hanmi TC Bonder 4.5 Griffin, $28.7M first Griffin contract (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318013/20260609/sk-hynix-orders-hanmi-tc-bonder-45-griffin-hbm4-first-griffin-contract-worth-287m.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.75,
+      "rankRationale": "AI-node bottleneck lens: the first HBM4-gen Griffin order from SK Hynix is hard new evidence that Hanmi's advanced-packaging/TC-bonder choke-point thesis is converting to revenue (analysts model a sharp Q2 rebound), and it wasn't credited in the June 8 prior case. Already #1 so no rank room up; reinforce with +2. Only +4.5% YTD = uncrowded.",
+      "bull": "First HBM4 Griffin order validates the TC-bonder bottleneck; Q2 rebound modeled; low +4.5% YTD leaves alpha despite #1 rank.",
+      "neutral": "Single-customer concentration on SK Hynix; order is one quarter's proof, not a multi-year lock-in.",
+      "bear": "SK Hynix keeps diversifying to Hanwha/ASMPT; the decade-long exclusivity is gone and competition is structural.",
+      "primaryCatalyst": "Follow-on HBM4/HBM5 bonder orders + Q2 earnings rebound",
+      "primaryRisk": "SK Hynix supplier diversification erodes share"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "CPO lens: Hanmi is a packaging/HBM-equipment node, not a co-packaged-optics pure play, so the HBM4 Griffin win is only tangential to this list's connectivity thesis. It modestly de-risks the 'under-discovery/upside' question that flagged it as a watchlist name - small +1, hold rank.",
+      "bull": "Concrete HBM4 bonder order strengthens the ecosystem-node case and reduces validation risk.",
+      "neutral": "Adjacent to CPO via advanced packaging but not optical-interconnect content; off the page's core lens.",
+      "bear": "Single-bundle validation risk and SK Hynix concentration remain; not a CPO connectivity play.",
+      "primaryCatalyst": "Advanced-packaging content tied to optical-IO / chiplet ramps",
+      "primaryRisk": "Customer concentration; tangential to co-packaged optics"
+    }
+  ]
+}

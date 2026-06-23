@@ -1,0 +1,31 @@
+{
+  "symbol": "005380.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Hyundai Motor Group completed its acquisition of SoftBank's remaining ~9.65% stake in Boston Dynamics for ~$325M (board approval ~June 22), taking 100% ownership as Atlas moves to commercial deployment (Hyundai RMAC and Google DeepMind, fully committed for 2026). This modestly strengthens the humanoid-builder proof point but does not change Hyundai's character as a large, already-rerated auto stock. The -20% price move since June 9 is profit-taking/flow after a +114% YTD run, not a fundamental deterioration.",
+  "sources": [
+    {
+      "label": "Hyundai completes Boston Dynamics acquisition (Hyundai Newsroom)",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-completes-acquisition-of-boston-dynamics-from-softbank-0000000516"
+    },
+    {
+      "label": "Hyundai acquires SoftBank 9.6% Boston Dynamics stake (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/06/19/hyundai-motor-group-acquires-softbanks-96-percent-stake-in"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens: full 100% Boston Dynamics ownership (June 22) as Atlas commercializes is a genuine but small positive to the builder thesis. Still a $92B auto stock that has already rerated (+71% YTD), so prior 'down' bias holds - nudge score +1, no rank change. Atlas remains best humanoid proof point but exposure is indirect.",
+      "bull": "Now 100% owns Boston Dynamics; Atlas is a top humanoid proof point with committed 2026 deployments and a 30k-unit/yr US robotics plant planned.",
+      "neutral": "Humanoid is tiny vs the auto P&L; consolidation adds control but not near-term earnings.",
+      "bear": "Large, indirect, already-rerated auto stock; humanoid optionality diluted by auto cyclicality and tariff overhang.",
+      "primaryCatalyst": "Atlas commercial deployment scale-up / robotics plant ramp",
+      "primaryRisk": "Auto-cycle and tariffs dominate; humanoid value buried in a megacap"
+    }
+  ]
+}

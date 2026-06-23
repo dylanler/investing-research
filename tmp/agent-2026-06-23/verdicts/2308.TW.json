@@ -1,0 +1,57 @@
+{
+  "symbol": "2308.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No net-new material news since June 9; the ~-14% move is a pullback from the prior rerating. May revenue +43.65% YoY was already captured in the June 9 case, and Q1 2026 results (record 37% gross margin, EPS +101% YoY, AI data-center capex from top-4 CSPs up ~60%) pre-date the window. Delta showed 800VDC power/liquid-cooling/microgrid solutions at NVIDIA GTC 2026.",
+  "sources": [
+    {
+      "label": "Delta says May revenue +43.65% YoY (TradingView/Reuters)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42H0JN:0-delta-electronics-says-may-revenue-up-43-65-y-y/"
+    },
+    {
+      "label": "Delta Q1 2026 record 37% GM, EPS +101% (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2308.TW_2026-04-30"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Residual-alpha vs passives lens: no new evidence since June 9; the -14% is a rerating pullback, not a thesis change, so do not up-rank on the fall. Already tagged crowded/rerated; at ~$198B cap and +109% YTD, under-owned residual upside stays minimal. Hold.",
+      "bull": "Rubin-era rack power and AI server power shelves with top-4 CSP capex up ~60% YoY.",
+      "neutral": "Fundamentally strong but fully recognized; crowded/rerated benchmark with shrinking residual alpha.",
+      "bear": "~$198B cap leaves little under-owned upside; cyclicality if AI capex moderates.",
+      "primaryCatalyst": "Rubin-era rack power and 800VDC adoption",
+      "primaryRisk": "Crowding and AI-capex deceleration"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Latent/under-covered lens: Delta is deeply relevant to data-center power and cooling but is no longer an undiscovered supplier, and nothing since June 9 changes its coverage status. The -14% pullback is not new fundamental evidence. Hold.",
+      "bull": "Power & cooling leadership levered to AI data-center buildout and liquid cooling.",
+      "neutral": "Well-covered, large-cap; latent-discovery premium gone.",
+      "bear": "Mega-cap, highly tracked; little latency left to exploit.",
+      "primaryCatalyst": "AI server power, liquid cooling, industrial automation",
+      "primaryRisk": "Loss of under-coverage; capex cyclicality"
+    },
+    {
+      "page": "companies",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Master under-owned-bottleneck list: no new evidence since June 9 (May +43.65% YoY already captured); the -14% pullback is rerating noise, not deterioration, so hold rather than up-rank on the fall. Power/cooling bottleneck exposure intact but recognition is high at +109% YTD.",
+      "bull": "Scarce grid/power/thermal bottleneck exposure with record 37% GM and strong AI-driven revenue acceleration.",
+      "neutral": "Bottleneck scarcity offset by high recognition and a steep rerating.",
+      "bear": "Valuation prices much of the AI-power upside; margin/pricing execution must keep pace with capex.",
+      "primaryCatalyst": "Power supplies, thermal management, grid/switchgear demand",
+      "primaryRisk": "Margin/pricing execution and rerated valuation"
+    }
+  ]
+}

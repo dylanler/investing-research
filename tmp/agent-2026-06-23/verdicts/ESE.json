@@ -1,0 +1,31 @@
+{
+  "symbol": "ESE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q2 beat and raised FY guidance ($8.00-8.25 adj EPS) was May 7, and the $2.35B Megger acquisition was announced April 15 (closes early FY27) - both predate the window. Only routine analyst reaffirmations (Buy, ~$350 PT) since.",
+  "sources": [
+    {
+      "label": "ESCO Technologies near fair value after Megger (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-ese/esco-technologies/news/esco-technologies-ese-stock-near-fair-value-after-megger-dea"
+    },
+    {
+      "label": "ESCO Q2 2026 earnings beat and raised guidance (Chartmill)",
+      "url": "https://www.chartmill.com/news/ESE/Chartmill-41363-ESCO-TECHNOLOGIES-INC-NYSEESE-Kicks-Off-Fiscal-2026-with-Strong-Earnings-Beat-and-Raised-Guidance"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Nothing new since June 9 on the sensors/measurement latent-node lens; Q2 beat (May 7) and Megger deal (Apr 15) already in the price and prior case. +13.8% move is re-rating, not fresh evidence. Megger tilts mix toward utility/A&D test - supportive but already known. Hold.",
+      "bull": "Megger ($590M rev, $60M synergies) pushes ~85% of pro-forma rev to high-growth utility/A&D; strong Q2 organic +12.8%, FY EPS raised to $8.00-8.25.",
+      "neutral": "Megger doesn't close until early FY27; valuation at fair value after +75% YTD; test/shielding link to compute is adjacent not central.",
+      "bear": "Equity-funded $2.35B deal dilutes; integration/regulatory risk; rich multiple leaves little margin for a miss.",
+      "primaryCatalyst": "Megger closing and accretion confirmation; A&D production recovery",
+      "primaryRisk": "Megger integration/regulatory delay; multiple compression"
+    }
+  ]
+}

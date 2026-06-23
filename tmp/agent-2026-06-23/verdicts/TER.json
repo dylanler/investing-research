@@ -1,0 +1,57 @@
+{
+  "symbol": "TER",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive: Teradyne secured its first multisystem PRODUCTION test orders for merchant GPUs (new datapoint) and continues HBM4/DRAM and TSMC traction; AI is ~70% of Q1 revenue. The Tokyo Electron KGD chiplet test-cell collaboration was formalized, and Nasdaq-100 inclusion (effective Jun 22) drove a +7% Jun 20 pop (technical/passive flow, not fundamental).",
+  "sources": [
+    {
+      "label": "Teradyne TER +7.19% on Jun 20 / Nasdaq-100 inclusion (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261979285-market-movers-ter-20260620"
+    },
+    {
+      "label": "TER rides strong semiconductor test segment (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ter-rides-strong-semiconductor-test-155600983.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 55,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "AI-node test-intensity lens: first multisystem PRODUCTION test orders for merchant GPUs plus HBM4/TSMC traction are genuine new fundamental evidence (vs prior product-announcement-only). I exclude the Nasdaq-100/passive flow from scoring. +104% YTD caps upside. Modest up.",
+      "bull": "First production GPU multisystem test wins, HBM4/DRAM and TSMC traction; AI ~70% of revenue makes TER a rising test-intensity chokepoint.",
+      "neutral": "Levered to AI fab/HBM capacity additions, but upside hinges on order timing and export-control risk.",
+      "bear": "+104% YTD, insider selling and Q2 guided sequentially lower; much of the move is Nasdaq-100 passive flow, not durable alpha.",
+      "primaryCatalyst": "Production GPU/HBM4 test-order ramp and SoC test intensity",
+      "primaryRisk": "Test-cycle/order timing and export-control exposure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Co-packaged-optics lens: TER's CPO link is indirect; the new GPU-production-test and Tokyo Electron KGD wins strengthen test demand but not the optical interconnect angle (Photon 100 silicon-photonics tester is the only direct CPO tie). Tiny positive; +104% YTD leaves thin residual alpha. Near-hold.",
+      "bull": "Photon 100 silicon-photonics tester gives a real CPO-adjacent foothold as co-packaged optics scale into test.",
+      "neutral": "AI/advanced-packaging test demand with only an indirect CPO link; the new wins are chiplet KGD, not optics.",
+      "bear": "+104% YTD and $66B cap leave thin residual alpha on a crowding-sensitive CPO list; CPO exposure stays indirect.",
+      "primaryCatalyst": "Silicon-photonics (Photon 100) test adoption for CPO",
+      "primaryRisk": "Customer concentration and indirect CPO linkage"
+    },
+    {
+      "page": "companies",
+      "currentRank": 74,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Master bottleneck list, EDA/test/timing bucket: first production GPU multisystem test orders and HBM4/TSMC traction are genuine new design-validation evidence since June 9, beyond the prior KGD product news. Exclude Nasdaq-100 passive flow. +104% YTD limits room but thesis strengthens. Modest up.",
+      "bull": "Production GPU and HBM test wins confirm rising AI-chip verification intensity; TER is a scarce test-and-probe chokepoint.",
+      "neutral": "Design-validation exposure with strong YTD follow-through; watch test and robotics execution and pricing.",
+      "bear": "Insider sales, sequentially lower Q2 guide and +104% YTD mean much upside is priced; passive-flow froth from index inclusion.",
+      "primaryCatalyst": "GPU/HBM4 production test-order conversion",
+      "primaryRisk": "Order timing, robotics-segment drag and valuation"
+    }
+  ]
+}

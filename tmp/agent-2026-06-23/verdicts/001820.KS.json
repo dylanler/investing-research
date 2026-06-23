@@ -1,0 +1,31 @@
+{
+  "symbol": "001820.KS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The MLCC AI-server shortage tailwind is real but industry-wide (Samsung Electro-Mechanics, Taiwan makers rising together); Samwha's company-specific moves and 52-week highs were in May. Q1 MLCC sales +24.2% YoY was already reported.",
+  "sources": [
+    {
+      "label": "Samwha hits upper limit on MLCC optimism",
+      "url": "https://www.ajupress.com/view/20260523165670933"
+    },
+    {
+      "label": "MLCC shortages return on AI server demand",
+      "url": "https://www.astutegroup.com/news/general/mlcc-shortages-return-as-ai-server-demand-strains-capacity/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "AI-passives residual-alpha lens: balanced MLCC/passive exposure but the tailwind is industry-wide, not Samwha-specific, and at 371% YTD it is no longer mispriced vs top residual-alpha names. No fresh company evidence since June 9; the Monitor/benchmark slot still fits, so hold.",
+      "bull": "Tight MLCC supply, AI/robotics/auto demand; underfollowed central passive node.",
+      "neutral": "Real tailwind but shared across the MLCC value chain.",
+      "bear": "371% YTD; retail-crowded benchmark name, residual alpha compressed.",
+      "primaryCatalyst": "AI-server MLCC shortage / Yongin capacity ramp",
+      "primaryRisk": "Crowding / commodity passive pricing"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "AMAT",
+  "company": "Applied Materials",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new earnings since the May 15 Q2 FY26 print, but mid-June commentary reaffirmed raised CY2026 guidance (semi equipment to grow >30%, advanced packaging revenue >50%) on the AI fab/HBM build-out and a 25-year record gross margin. The +17.7% move since June 9 is largely flow/re-rating rather than fresh evidence.",
+  "sources": [
+    {
+      "label": "AMAT Q2 FY26 results (IR)",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results"
+    },
+    {
+      "label": "AMAT record-margin / CY26 guide analysis",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261975205-amat-applied-materials-record-margin-buy-analysis-june-2026-tradingkey"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Raised CY26 guide (equipment >30%, packaging >50%) reaffirms direct leading-edge/HBM-capacity bottleneck exposure, a small fundamental positive on a node list. But it is widely owned and the +17.7% pop is mostly flow; no new evidence since prior case, so only a modest fundamental tick, not a rank shift.",
+      "bull": "Packaging >50% growth and equipment >30% in CY26 tie AMAT directly to AI fab and HBM capacity adds.",
+      "neutral": "Strong but well-known beneficiary; node-bottleneck centrality already priced and crowded.",
+      "bear": "+118% YTD and order-timing/export-control risk leave little residual alpha on a node list.",
+      "primaryCatalyst": "CY26 equipment/packaging growth tied to AI/HBM capex",
+      "primaryRisk": "Order timing and China export controls"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Through a CPO lens AMAT is an indirect foundry/advanced-packaging capex play, not an optics name. Raised packaging guide is a mild positive, but the page already flags it 'widely owned'; flow-driven pop adds no CPO-specific evidence, so hold with only a small fundamental tick.",
+      "bull": "Advanced-packaging capex >50% growth supports the optical/packaging build adjacent to CPO.",
+      "neutral": "Tooling exposure is one step removed from co-packaged-optics; widely owned.",
+      "bear": "Capex cyclicality and China restrictions cap asymmetry; no CPO-specific catalyst.",
+      "primaryCatalyst": "Advanced-packaging capex growth",
+      "primaryRisk": "Capex cycle and China restrictions"
+    },
+    {
+      "page": "companies",
+      "currentRank": 62,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the under-owned-bottleneck master list AMAT is a core pick-and-shovel input. Reaffirmed CY26 equipment >30% / packaging >50% guide and record margins are a small fundamental positive; prior case already cut it for YTD/cap rerating, so do not double-count, hold with a modest tick.",
+      "bull": "Leading-edge logic, DRAM and advanced packaging leadership underpin multi-year AI capex tailwind.",
+      "neutral": "Scarce-input thesis intact but largely discovered after a +118% YTD rerating.",
+      "bear": "Equipment pricing/execution and cyclicality could disappoint a richly recognized cap.",
+      "primaryCatalyst": "Multi-year AI fab/packaging capex",
+      "primaryRisk": "Equipment cycle and pricing execution"
+    }
+  ]
+}

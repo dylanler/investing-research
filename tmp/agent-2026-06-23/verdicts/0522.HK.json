@@ -1,0 +1,31 @@
+{
+  "symbol": "0522.HK",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 8, 2026 ASMPT secured a repeat order for eight chip-to-wafer (C2W) Thermo-Compression Bonding tools from a leading IDM for advanced client/datacentre CPUs, building on Firebird TCB HVM use since 2024. Q1 2026 revenue rose 32% YoY to $507.9M with bookings up 71.6% to $727M, AI-driven. This strengthens the advanced-packaging/chiplet bottleneck case.",
+  "sources": [
+    {
+      "label": "ASMPT repeat C2W TCB order (press release)",
+      "url": "https://www.asmpt.com/en/news-center/press-releases/asmpt-secures-repeat-chip-to-wafer-tcb-orders-from-leading-logic-semiconductor-manufacturer/"
+    },
+    {
+      "label": "ASMPT Q1 2026 results",
+      "url": "https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-2026-first-quarter-results/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 31,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.68,
+      "rankRationale": "New since Jun 9: repeat C2W TCB order (Jun 8) for advanced CPUs plus Q1 bookings +71.6%. TCB/advanced packaging is core to the CPO/AI-connectivity adjacency lens, reinforcing the choke-point thesis. Modest up despite 140% YTD, which already prices much upside.",
+      "bull": "Firebird/TCB sole-source momentum into HBM, chiplet and now advanced CPUs; bookings +71.6% signal a multi-quarter order cycle.",
+      "neutral": "Strong orders but +140% YTD and $9.4B cap leave thinner asymmetry; single-bundle validation risk persists.",
+      "bear": "Lumpy WFE order book; advanced-packaging competition (besi, others) and a sharp rerating cap residual alpha.",
+      "primaryCatalyst": "Repeat TCB tool orders / HBM and chiplet packaging ramp",
+      "primaryRisk": "Order lumpiness and rerated valuation"
+    }
+  ]
+}

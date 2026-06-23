@@ -1,0 +1,31 @@
+{
+  "symbol": "RDX.AX",
+  "company": "Redox",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent reported event was 1H FY26 results (revenue A$673.6m +6.6%, net income A$43.8m +8.9%) released earlier in 2026; the coolants/water-treatment chemistry pathway to AI compute remains speculative with no new evidence.",
+  "sources": [
+    {
+      "label": "Redox 1H FY26 financials (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/au/capital-goods/asx-rdx/redox-shares"
+    },
+    {
+      "label": "Redox (ASX:RDX) Market Index",
+      "url": "https://www.marketindex.com.au/asx/rdx"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Strict latent lens: no new evidence the chemical-distribution book is supplying coolants/water-treatment to compute sites. Solid but generic 1H growth doesn't validate the speculative AI-input pathway. Prior 'down' was a price/alpha-compression call (now applied separately); fundamentally a hold.",
+      "primaryCatalyst": "Coolant/water-treatment chemistry demand if compute build-out sources new suppliers",
+      "primaryRisk": "Diversified industrial distributor; AI linkage remains unproven",
+      "bull": "Largest AU chemical distributor with steady mid-single-digit growth; optionality on data-center coolant/water chemistry.",
+      "neutral": "Healthy distributor but AI-node read-through is conjecture; no contracts disclosed.",
+      "bear": "Cyclical industrial chemical book with no demonstrated compute-site exposure."
+    }
+  ]
+}

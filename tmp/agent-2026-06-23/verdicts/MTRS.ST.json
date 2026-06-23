@@ -1,0 +1,44 @@
+{
+  "symbol": "MTRS.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The headline SEK ~2bn US AI data-center cooling order was announced April 24 and books into Q2 intake; it pre-dates the prior cases and is already in the thesis. The -14% move since June 9 is price/flow, not a new fundamental event.",
+  "sources": [
+    {
+      "label": "Munters wins SEK 2.0bn modular AI cooling order (Apr 24)",
+      "url": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-wins-order-of-bsek-2.0-for-a-modular-ai-cooling-solution"
+    },
+    {
+      "label": "Munters lands SEK 2bn US AI data center cooling order (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/munters-lands-sek-2-billion-u-s-ai-data-center-cooling-order"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "Latent thermal/water node: data-center cooling angle is now visible, not latent. Q1 order intake +32% and the SEK 2bn AI order are known and in the mark; no new news since June 9. Margin slippage caps upside, so hold rank 36.",
+      "bull": "Surging DCT order intake (+32% Q1), SEK 2bn AI modular-cooling win and a CDU/CRAH platform position Munters as a scaled liquid-cooling enabler.",
+      "neutral": "Demand is exceptional but earnings/margins weakened in Q1; data-center exposure now well covered.",
+      "bear": "Cooling angle is no longer under-followed; margin pressure and rich expectations limit residual alpha.",
+      "primaryCatalyst": "Q2 order intake booking the SEK 2bn AI order; liquid-cooling capacity scale-up.",
+      "primaryRisk": "Margin erosion as mix shifts; execution on rapid DCT capacity expansion."
+    },
+    {
+      "page": "companies",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Master bottleneck list: already rank 1, so no upside move possible. Cooling/air-treatment bottleneck thesis fully intact with the SEK 2bn AI order; a -14% flow-driven reset improves risk/reward and supports holding the top slot.",
+      "bull": "Scarce, scaled exposure to the data-center cooling bottleneck; record AI orders and a deep negative-YTD reset improve entry risk/reward at the top slot.",
+      "neutral": "Best-positioned cooling name on the list, but Q1 margin softness tempers the top-rank conviction.",
+      "bear": "Top-ranked into margin weakness; any DCT order or pricing wobble would challenge the #1 slot.",
+      "primaryCatalyst": "Continued record data-center cooling order intake and liquid-cooling scale.",
+      "primaryRisk": "Margin slippage or order lumpiness undermining the bottleneck premium."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "symbol": "6415.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Silergy posted strong March 2026 results (revenue NT$1.78B, +12% YoY; net profit attributable +97% YoY) and analysts model ~41% EPS / ~22% revenue annual growth, reflecting a power-IC cyclical recovery. The stock is up ~22% since June 9 and ~248% YTD. Recovery is real but in general power-management/consumer-industrial ICs, not in CPO/HBM/advanced-packaging bottlenecks.",
+  "sources": [
+    {
+      "label": "Silergy Gen4 ramps early as AI/auto demand drive 2026 growth (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260518PD234/silergy-growth-2026-demand-revenue.html"
+    },
+    {
+      "label": "Silergy strong May revenue +30.6% YoY (Smartkarma)",
+      "url": "https://www.smartkarma.com/insights/silergy-6415-tt-strong-may-revenue-growth-of-30-6-yoy"
+    },
+    {
+      "label": "Silergy Gen4 ramps early as AI/auto demand drives 2026 growth >20% (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260518PD234/silergy-growth-2026-demand-revenue.html"
+    },
+    {
+      "label": "Silergy 6415 strong May revenue +30.6% YoY (Smartkarma)",
+      "url": "https://www.smartkarma.com/insights/silergy-6415-tt-strong-may-revenue-growth-of-30-6-yoy"
+    },
+    {
+      "label": "Yahoo Finance: Silergy quote/news",
+      "url": "https://finance.yahoo.com/quote/6415.TW/"
+    },
+    {
+      "label": "Silergy March 2026 revenue/profit (BigGo Finance)",
+      "url": "https://finance.biggo.com/news/twse_major_6415_1150422_161515"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 120,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.7,
+      "rankRationale": "On the CPO lens Silergy is a power-IC analog name with weak direct co-packaged-optics/HBM/advanced-packaging relevance; prior case flagged it for removal. No CPO-relevant news since June 9, while +248% YTD worsens the asymmetry. Down on this page; thesis fit remains poor.",
+      "bull": "High-growth analog/power-IC franchise; Q1 net income more than doubled, ~40% EPS CAGR modeled.",
+      "neutral": "Strong business, wrong page — minimal CPO/optical-engine exposure.",
+      "bear": "+248% YTD with no CPO linkage; consumer/industrial cycle risk and steep valuation.",
+      "primaryCatalyst": "Analog/power-IC content gains (not CPO-specific)",
+      "primaryRisk": "Valuation; consumer/industrial cycle; no CPO bottleneck role"
+    }
+  ]
+}

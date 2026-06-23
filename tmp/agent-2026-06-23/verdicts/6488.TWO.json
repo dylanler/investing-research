@@ -1,0 +1,60 @@
+{
+  "symbol": "6488.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "GlobalWafers' Q1 2026 was soft (revenue NT$13.99B, -3.6% QoQ / -10.3% YoY, GM 20.8%), but management guided FY26 to exceed FY25 with 12-inch wafer pricing improvement anticipated in 2H 2026, and chair Doris Hsu reiterated that AI/HPC and advanced-packaging complexity sustain long-term demand for advanced 12-inch silicon wafers. A genuine 2H pricing-inflection signal supports the AI-fab wafer bottleneck case.",
+  "sources": [
+    {
+      "label": "GlobalWafers price increase, Asia capacity fully booked, square wafers 4Q26 (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD214/globalwafers-shipments-wafer-capacity-asia.html"
+    },
+    {
+      "label": "GlobalWafers phased GaN capacity expansion (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD218/globalwafers-gan-sic-demand-12-inch.html"
+    },
+    {
+      "label": "GlobalWafers sees 1Q26 wafer prices bottoming, capacity boosts revenue (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260312PD208/globalwafers-capacity-revenue-silicon-wafer-demand.html"
+    },
+    {
+      "label": "GlobalWafers 6488 IR earnings summary & outlook (Quartr)",
+      "url": "https://quartr.com/companies/globalwafers-co-ltd_15575"
+    },
+    {
+      "label": "SemiMedia: GlobalWafers H2 price increases (May 28, 2026)",
+      "url": "https://www.semimedia.cc/21097.html"
+    },
+    {
+      "label": "DigiTimes: tightening 12-inch wafer supply",
+      "url": "https://www.digitimes.com/news/a20260506PD221/globalwafers-2026-recovery-12-inch-wafer.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 34,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "Since Jun 9: H2 12-inch price hikes, tightening supply, rising long-term agreements and 300mm capacity push for AI/power chips materially confirm the AI-fab/HBM wafer-capacity bottleneck thesis. Pricing power inflecting upward is a genuine alpha-positive on the AI-nodes lens despite +151% YTD.",
+      "bull": "12-inch supply tight; H2 price hikes + LTAs = pricing power inflection directly levered to AI/HBM fab build-out.",
+      "neutral": "Cyclical materials name; pricing recovery real but margins still ramping with capacity costs.",
+      "bear": "+151% YTD and at all-time highs; wafer demand is cyclical and capex-heavy if AI build slows.",
+      "primaryCatalyst": "H2 2026 12-inch wafer price increases / LTAs",
+      "primaryRisk": "Wafer cycle reversal; capex overbuild"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "CPO lens: wafers are an indirect, 'less-glamorous' lever to the semiconductor buildout, only loosely tied to co-packaged optics. Tightening capacity and H2 pricing modestly strengthen the materials case (small +1) but indirectness and +150% YTD argue against moving up the rank. Hold at 13.",
+      "bull": "Materials choke point with restored pricing power; fully-booked capacity underpins the whole AI build, including optics-bearing packages.",
+      "neutral": "Real bottleneck but only indirectly tied to the CPO/HBM/package/test focus of this page.",
+      "bear": "Cycle- and capex-exposed; CPO relevance is indirect; valuation rich after a large run.",
+      "primaryCatalyst": "Wafer price hikes / square-wafer and GaN ramp",
+      "primaryRisk": "Wafer cycle and capex; indirect CPO linkage"
+    }
+  ]
+}

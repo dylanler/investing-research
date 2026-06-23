@@ -1,0 +1,74 @@
+{
+  "symbol": "KLIC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific catalyst inside the June 9-23 window. The strong Q2 FY26 beat (EPS $0.79 vs $0.67; revenue $242.6M; June-quarter guide $310M, +28% q/q) and the TCB capacity-expansion plan were reported May 7 and mid-May, both pre-window. The ~+24% move since June 9 is momentum/re-rating continuation, not fresh news. The fluxless thermo-compression/advanced-packaging story is real but already disclosed.",
+  "sources": [
+    {
+      "label": "KLIC Q2 FY26 earnings beat (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kulicke-and-soffa-q2-2026-earnings-beat-forecasts-93CH-4668092"
+    },
+    {
+      "label": "KLIC Q2F26 demand surge slides (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/kulicke--soffa-q2f26-slides-demand-surge-drives-21-revenue-jump-93CH-4668305"
+    },
+    {
+      "label": "KLIC up after TCB capacity expansion (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/why-kulicke-and-soffa-klic-is-up-61-after-ai-focused-thermo-compression-capacity-expansion-plan-2026-05-15"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "AI-node bottleneck lens: TCB/fluxless thermo-compression for HBM/advanced packaging is genuinely node-relevant and the May guide ($310M, +28% q/q) confirms a ramp. But that news pre-dates the window and is largely priced after +163% YTD; small positive carry, no new June catalyst -> hold.",
+      "primaryCatalyst": "TCB capacity expansion targeting ~$400M annual TCB sales by FY27",
+      "primaryRisk": "Packaging-cycle volatility; valuation after +163% YTD",
+      "bull": "Fluxless TCB is becoming a central growth engine for AI/HBM advanced packaging across OSATs, foundries, IDMs.",
+      "neutral": "Real but indirect node exposure; the earnings/TCB ramp is known and the move predates the window.",
+      "bear": "OSAT/packaging is cyclical and KLIC is less direct than HBM/networking names; rich after a sharp run."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 106,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "CPO/crowding-sensitive lens: packaging-tool exposure is narrow and cyclically volatile. Strong May TCB momentum supports the growth case but is pre-window and well-flagged; residual alpha already discounted by rank/valuation. Small positive, no new June evidence -> hold.",
+      "primaryCatalyst": "Advanced-packaging/TCB demand from AI chip assembly",
+      "primaryRisk": "Packaging cycle; narrow CPO relevance",
+      "bull": "TCB ramp gives packaging-tool leverage to AI advanced-packaging build-out.",
+      "neutral": "Indirect to CPO; cyclical packaging exposure with momentum already in the price.",
+      "bear": "Low on a CPO-purity screen; cyclically volatile packaging tool with limited photonics tie-in."
+    },
+    {
+      "page": "robotics",
+      "currentRank": 34,
+      "rankMove": "down",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Humanoid-stack lens: KLIC is a semicap/packaging-cycle name with effectively no humanoid/robotics purity. Continued down is purity discipline, not news; at rank 34 it still sits above where off-thesis peers belong. No robotics-relevant catalyst -> down on purity.",
+      "primaryCatalyst": "None robotics-specific; AI semiconductor-cycle exposure only",
+      "primaryRisk": "Off-thesis for humanoid stack; semicap cyclicality",
+      "bull": "Tangential robotics read-through via AI chip packaging demand.",
+      "neutral": "Effectively a semicap name on a humanoid page; ranking should reflect low purity.",
+      "bear": "No humanoid/robotics product exposure; over-ranked relative to pure-play peers."
+    },
+    {
+      "page": "companies",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck master list: prior verdict already applied the re-rating discount. Strong YTD follow-through and the May TCB/earnings beat are pre-window and recognized; +163% YTD keeps eroding hidden alpha at a $6.6B cap. No new June news -> hold.",
+      "primaryCatalyst": "Assembly/packaging equipment demand from AI build-out",
+      "primaryRisk": "Packaging-cycle volatility; valuation after sharp re-rating",
+      "bull": "Pick-and-shovel packaging tools with accelerating TCB mix and rising utilization.",
+      "neutral": "Bottleneck exposure is real but increasingly recognized after a large YTD move.",
+      "bear": "Cyclical packaging name; much of the upside captured, leaving thinner residual alpha."
+    }
+  ]
+}

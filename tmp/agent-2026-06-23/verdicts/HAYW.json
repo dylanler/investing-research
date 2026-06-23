@@ -1,0 +1,31 @@
+{
+  "symbol": "HAYW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. FY2026 guidance (sales ~+4%, adj EPS $0.82-0.86) was introduced with Q4/FY2025 results on Feb 25 and predates the window. Essentially flat (+0.44%) with no catalyst.",
+  "sources": [
+    {
+      "label": "Investor.hayward.com - Q4 FY2025 results & 2026 guidance",
+      "url": "https://investor.hayward.com/investor-news/news-details/2026/Hayward-Holdings-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results-and-Introduces-2026-Guidance/default.aspx"
+    },
+    {
+      "label": "Simply Wall St - HAYW valuation after 2025 results",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-hayw/hayward-holdings/news/a-look-at-hayward-holdings-hayw-valuation-after-2025-results"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Strict latent lens: no new evidence since June 9 on the pool-pump/filtration-into-liquid-management pathway. Guidance predates window; flat +0.44% move, no catalyst. Latent optionality neither validated nor eroded. Hold stands.",
+      "bull": "Pump/controls/filtration IP could adapt to liquid-management and heat-exchange niches as data-center cooling scales.",
+      "neutral": "Stable pool-equipment franchise with margin execution, but the AI pathway is wholly speculative and not pursued.",
+      "bear": "Pure consumer-pool cyclical with -6% YTD; the liquid-cooling adaptation is a stretch with no disclosed strategy.",
+      "primaryCatalyst": "Pivot of flow-control IP toward cooling/heat-exchange niches.",
+      "primaryRisk": "Pool-demand cyclicality; no real AI exposure to validate latent thesis."
+    }
+  ]
+}

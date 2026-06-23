@@ -1,0 +1,31 @@
+{
+  "symbol": "603662.SS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. Keli has completed development of six-axis force/torque sensor product series for humanoid wrists/ankles and industrial/collaborative arm ends and supplies torque/6D sensors to Siasun-type customers, but these are continuations of an existing commercialization arc rather than a fresh catalyst.",
+  "sources": [
+    {
+      "label": "Keli 603662 six-axis force/torque sensor product series (moomoo)",
+      "url": "https://www.moomoo.com/news/post/44619756/keli-sensing-technology-603662-sh-the-company-has-completed-the"
+    },
+    {
+      "label": "Keli 603662 6D force/torque sensors (Futubull)",
+      "url": "https://news.futunn.com/en/post/51666084/keli-sensing-technology-603662-sh-six-dimensional-force-torque-sensors"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Force-sensing angle the humanoid crowd underweights remains intact; flat price (-0.2% YTD) keeps under-ownership/rerating room vs over-extended peers. No fresh catalyst since June 9, so the prior up-case has largely played out; nudge up only, not a re-rate.",
+      "bull": "Differentiated 6D force/torque exposure, completed product series, deep under-ownership, no YTD froth to unwind.",
+      "neutral": "Real stack fit but commercialization is incremental; alpha already partly captured at score 76.7.",
+      "bear": "China component competition intensifies; force-sensing content per robot stays small and ASP-pressured.",
+      "primaryCatalyst": "Design-win/volume orders into a named humanoid program",
+      "primaryRisk": "Commoditization of force sensors and China price competition"
+    }
+  ]
+}

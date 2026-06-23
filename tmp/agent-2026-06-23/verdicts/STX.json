@@ -1,0 +1,35 @@
+{
+  "symbol": "STX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Seagate confirmed nearline HDD capacity is essentially sold out/allocated through calendar 2027 as Mozaic 4+ HAMR scales to 44TB drives, with management citing AI-driven data-gravity demand. Recent quarter delivered record gross margins and ~44% revenue growth, with Q4 FY26 non-GAAP EPS guidance ~$5.00 (well above consensus). Multiple PT raises (JPMorgan $920, BofA $1,000, street-high ~$1,150). Strongly positive but heavily discovered (+21% since June 9).",
+  "sources": [
+    {
+      "label": "Seagate sold out through 2027 as AI reshapes HDD demand (Yahoo/Trefis)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-sold-2027-ai-reshapes-152610054.html"
+    },
+    {
+      "label": "Seagate CEO on AI data demand; BofA raises PT (TheStreet)",
+      "url": "https://www.thestreet.com/investing/stocks/seagate-ceo-drops-eye-opening-message-on-exploding-ai-data-and-storage-demand-as-bofa-raises-seagate-stock-price-target"
+    },
+    {
+      "label": "STX valuation after Mozaic 4+ HAMR rollout (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-stx/seagate-technology-holdings/news/assessing-seagate-technology-holdings-stx-valuation-after-mo"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list, storage & AI data-platforms bucket. Capacity sold out through 2027, 44TB HAMR scaling, record margins and an above-consensus Q4 guide are clear fundamental positives; but hidden alpha is exhausted and the name is heavily covered, so a positive score drift without a peer re-rank fits the lens.",
+      "bull": "Nearline allocated through CY2027; Mozaic 4+ HAMR at 44TB; record margins; Q4 EPS guide ~$5 beats consensus.",
+      "neutral": "Fundamentals excellent but fully discovered; bottleneck no longer under-owned.",
+      "bear": "HDD cyclicality, demand pull-forward risk, top-pick crowding and insider selling.",
+      "primaryCatalyst": "HAMR capacity sold out through 2027 on AI data-gravity demand.",
+      "primaryRisk": "Cyclical reversal / demand pull-forward once the upcycle peaks."
+    }
+  ]
+}

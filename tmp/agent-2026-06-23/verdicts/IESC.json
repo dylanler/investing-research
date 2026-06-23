@@ -1,0 +1,31 @@
+{
+  "symbol": "IESC",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new news since June 9. The standout fiscal Q2 print (revenue $974M +17%, net income +56% to $109.9M, backlog ~$3.9B +62%, Communications +35% on data-center demand, Gulf Island acquisition) was reported in early May and was already reflected in the June 8 prior case.",
+  "sources": [
+    {
+      "label": "IES Holdings Q2 FY26 8-K (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/IESC/8-k-ies-holdings-inc-reports-material-event-09a90e962da9.html"
+    },
+    {
+      "label": "IES Holdings Q2 FY26 press release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001048268/000104826826000087/q22026pressrelease-mar.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Latent AI-node lens: data-center electrical contracting is a real bottleneck and the +62% backlog / Comms +35% print is the basket's strongest demand signal, but it pre-dates June 9 and is largely priced. Slight +1 for backlog durability vs peers; not enough to move rank. Hold 72.",
+      "bull": "$3.9B backlog (+62%) and Comms +35% give multi-year data-center electrical visibility; net income +56%.",
+      "neutral": "Strong but already-known print; +81% YTD reflects much of it; AI link is via data-center construction, not silicon.",
+      "bear": "Contractor margins are project-cyclical; backlog conversion risk; crowded data-center trade.",
+      "primaryCatalyst": "Continued data-center electrical backlog growth and conversion",
+      "primaryRisk": "Data-center capex digestion / project margin slippage"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "TDY",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material: Teledyne reported record Q1 2026 sales with margin expansion and a guidance RAISE (released June 16), driven by FLIR Defense infrared imaging, surveillance and unmanned systems; new European defense contracts and an $11.2M U.S. Army CBRN drone award (Jun 4). It also filed a $2.63B shelf for an ESOP-related share offering.",
+  "sources": [
+    {
+      "label": "Teledyne Q1 2026 8-K earnings release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000024/q1-2026earningsrelease.htm"
+    },
+    {
+      "label": "Teledyne record Q1, higher guidance, $2.63B shelf (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-tdy/teledyne-technologies/news/should-teledynes-record-q1-higher-guidance-and-263-billion-s/amp"
+    },
+    {
+      "label": "Teledyne FLIR $11.2M Army CBRN drone contract (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8901082/teledyne-tdy-secures-112-million-army-contract-for-advanced-drone-systems"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.65,
+      "rankRationale": "Latent sensor/imaging-into-AI lens: record Q1 (June 16) with a guidance raise on infrared imaging/defense sensing plus the Army CBRN drone win are genuine new fundamental evidence strengthening the sensors-feed-AI thesis. Offset by $28.5B cap and a dilutive $2.63B shelf. Modest up.",
+      "bull": "Record Q1 and raised guidance confirm defense-sensing and machine-vision strength; FLIR/e2v imaging assets are a durable data-generation node for AI.",
+      "neutral": "High-quality sensor franchise but large, well-covered and richly valued, limiting early-alpha asymmetry.",
+      "bear": "$28.5B cap, +19% YTD and a $2.63B share shelf dilute upside; sensor-AI linkage is indirect versus core compute bottlenecks.",
+      "primaryCatalyst": "Defense imaging demand and continued guidance upside",
+      "primaryRisk": "Equity dilution from the $2.63B shelf; size limits asymmetry"
+    }
+  ]
+}

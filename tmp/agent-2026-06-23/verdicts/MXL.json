@@ -1,0 +1,57 @@
+{
+  "symbol": "MXL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental event specific to June 9-23; the +23.5% move is momentum/analyst flow. The supportive catalysts (Washington 200G TIA availability Apr 30 for 1.6T AI-optics, Panther V storage accelerator, plus Benchmark Buy $125 / Stifel Buy $105 / Northland Outperform $110 initiations) largely predate or straddle June 9. AI-optical/interconnect thesis intact; turnaround and customer concentration remain the watch-items.",
+  "sources": [
+    {
+      "label": "MaxLinear Washington 200G TIA (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260430079710/en/MaxLinear-Announces-Availability-of-Washington-200G-TIA-for-Next-Generation-AI-Data-Center-Connectivity"
+    },
+    {
+      "label": "MXL rallies on AI/5G analyst backing (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/maxlinear-inc-mxl-news-2026_06_03/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "On the AI-node-bottleneck lens MXL's analog/RF/edge content stays indirect versus HBM/packaging/networking cores; no new fundamental event in window makes it more central. Stays near bottom at 99. Hold, 0.",
+      "bull": "Optical/interconnect content could ride AI networking buildout.",
+      "neutral": "Indirect exposure keeps it peripheral to the node bottleneck.",
+      "bear": "Turnaround story, customer concentration, far from HBM/packaging core.",
+      "primaryCatalyst": "1.6T optical content ramp",
+      "primaryRisk": "Customer concentration / execution"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Most CPO-relevant listing: 200G/lane Washington TIA for 1.6T optical modules (mass production H2'26) plus sustained Buy-side backing keep the co-packaged-optics thesis intact and mildly reinforced. No fresh in-window catalyst, so +1 sentiment, hold at 36.",
+      "bull": "200G TIA + 1.6T optics positions MXL in the AI-interconnect/CPO content wave.",
+      "neutral": "Analyst optimism mostly priced; H2'26 ramp not yet revenue.",
+      "bear": "Small-cap execution risk; optical wins still early.",
+      "primaryCatalyst": "Washington 200G TIA mass production H2'26",
+      "primaryRisk": "Turnaround / customer concentration"
+    },
+    {
+      "page": "companies",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Master-list bucket (EDA, test & timing / design-validation) remains a poor fit for a connectivity-analog name; nothing in window strengthens or breaks that. The AI-optical momentum lives on the CPO page, not here. Hold at 96.",
+      "bull": "Broad AI/networking analog optionality if interconnect content expands.",
+      "neutral": "Bucket misclassification limits page relevance.",
+      "bear": "Turnaround, concentration; weak fit to test/timing bucket.",
+      "primaryCatalyst": "AI networking content pull",
+      "primaryRisk": "Execution / classification mismatch"
+    }
+  ]
+}

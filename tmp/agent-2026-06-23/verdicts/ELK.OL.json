@@ -1,0 +1,31 @@
+{
+  "symbol": "ELK.OL",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 23 Elkem's former Silicones division was rebranded Bluestar Silicones, following the April 30 close of the majority-stake divestiture to Bluestar. This is a cosmetic confirmation of the structural exit, not new substance, but it reinforces that the silicones leg of this page's thesis is now largely outside Elkem.",
+  "sources": [
+    {
+      "label": "Elkem Silicones becomes Bluestar Silicones",
+      "url": "http://www.prnewswire.com/news-releases/elkem-silicones-becomes-bluestar-silicones-unveiling-its-identity-for-the-next-chapter-302806735.html"
+    },
+    {
+      "label": "Elkem transaction page",
+      "url": "https://www.elkem.com/transaction/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node lens: the June 23 Bluestar rebrand confirms the silicones division (half this page's thermal/sealing/battery thesis) is now divested. Prior case already moved it down; rebrand is cosmetic but keeps hollowing the AI-pathway story. Small negative drift.",
+      "primaryCatalyst": "Residual carbon/specialty-materials exposure if thermal/battery demand spills beyond incumbents.",
+      "primaryRisk": "Silicones divestiture removes the core leg of the latent thermal/sealing AI-materials thesis.",
+      "bull": "Slimmed metals/materials/carbon focus could still serve thermal and battery-adjacent niches.",
+      "neutral": "Post-divestiture Elkem is a cyclical commodity-materials story with only tangential AI optionality.",
+      "bear": "The very silicones unit the page leaned on is gone; remaining business is low-margin cyclical metals/carbon."
+    }
+  ]
+}

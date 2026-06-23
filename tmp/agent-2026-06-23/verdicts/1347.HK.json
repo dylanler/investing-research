@@ -1,0 +1,31 @@
+{
+  "symbol": "1347.HK",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Hua Hong posted a Q1 2026 beat with raised guidance (stock jumped ~12% on the print), a faster-than-expected Fab9A ramp, Fab9B construction starting in 2026, and the Huali Micro (HLMC) acquisition accepted by the SSE and expected to close in H2 2026. Q1 capex was ~$924.9M for 12-inch expansion; Q2 guided to $690-700M revenue with 14-16% GM, supported by AI-driven demand and tight 12-inch supply/pricing power.",
+  "sources": [
+    {
+      "label": "Hua Hong Q1 beat and raised guidance (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hua-hong-semiconductor-sehk-1347-090929775.html"
+    },
+    {
+      "label": "Hua Hong valuation after Q1 growth & capacity plans (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/hk/semiconductors/hkg-1347/hua-hong-semiconductor-shares/news/assessing-hua-hong-semiconductors-valuation-after-q1-growth"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.58,
+      "rankRationale": "Fundamentals improved since June 9 (Q1 beat + raised guide, faster Fab9A ramp, Huali Micro deal progressing, 12-inch pricing power), but on the CPO lens Hua Hong's direct co-packaged-optics exposure is low. Slight up only; +105% YTD and mature-node pricing risk cap CPO-relevant alpha.",
+      "bull": "12-inch capacity ramp, raised guide and tight specialty supply lift pricing; Huali Micro adds scale.",
+      "neutral": "Strong foundry execution but minimal direct CPO/photonics relevance; rerated +105% YTD.",
+      "bear": "China mature-node pricing pressure and capex intensity; CPO exposure is peripheral.",
+      "primaryCatalyst": "12-inch capacity ramp, pricing power and Huali Micro close",
+      "primaryRisk": "China mature-node pricing and capex intensity"
+    }
+  ]
+}

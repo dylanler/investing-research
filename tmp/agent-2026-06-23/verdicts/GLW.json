@@ -1,0 +1,48 @@
+{
+  "symbol": "GLW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Since June 9, the Amazon 'third hyperscaler' fiber deal (announced Jun 8) was already in the prior case, but incremental positives have firmed: an explicit 10x U.S. optical-capacity expansion (three new NC/TX plants, 3,000+ jobs), CEO June-12 commentary on customer risk-sharing provisions, and a wave of analyst PT raises (Truist to $205, UBS to $228). The +10.87% move is largely continued re-rating of known deals rather than a fresh catalyst.",
+  "sources": [
+    {
+      "label": "RCR Wireless - Corning as key AI infra supplier (Jun 11)",
+      "url": "https://www.rcrwireless.com/20260611/connectivity/corning-ai-infra"
+    },
+    {
+      "label": "EBC - Corning AI optical Nvidia/Amazon/Meta focus",
+      "url": "https://www.ebc.com/forex/glw-stock-corning-ai-optical-nvidia-amazon-meta"
+    },
+    {
+      "label": "TIKR - Corning rose 11% on Amazon AI fiber deal",
+      "url": "https://www.tikr.com/blog/corning-rose-11-today-on-amazons-ai-fiber-deal-heres-where-the-stock-could-head-in-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Residual-alpha lens: the 10x capacity plan and PT raises confirm thesis but are now consensus, eroding the under-owned residual. Amazon deal already priced in prior case; +10.87% bounce de-crowds little. Mild fundamental confirm only.",
+      "bull": "Three locked-in hyperscaler fiber megadeals plus 10x capacity buildout cement Corning as the AI optical-connectivity bottleneck supplier.",
+      "neutral": "Strong thesis, but the residual-vs-passives edge shrinks as deals and PT raises become consensus.",
+      "bear": "Now fully mainstream and possibly 40% overvalued; capex/factory-delay execution risk and order-timing volatility if AI buildout slows.",
+      "primaryCatalyst": "10x optical capacity ramp and additional hyperscaler fiber commitments.",
+      "primaryRisk": "Crowded re-rating; factory-ramp delays and AI-capex timing volatility."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 102,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Latent under-covered lens cuts against GLW: thesis itself notes connectivity is now mainstream after Nvidia/Corning news, not early alpha. Fresh PT raises and 10x plan push it further into consensus, eroding latent-node fit.",
+      "bull": "Optical/photonics demand has structural multi-year runway via three megadeals and capacity expansion.",
+      "neutral": "Strategically strong but no longer an under-covered latent name; conviction is rightly Low here.",
+      "bear": "Fully discovered and widely owned; offers no residual latent edge on an under-coverage list.",
+      "primaryCatalyst": "Continued hyperscaler optical deals and capacity ramp.",
+      "primaryRisk": "Loss of latent/under-coverage premium as the name becomes consensus AI infra."
+    }
+  ]
+}

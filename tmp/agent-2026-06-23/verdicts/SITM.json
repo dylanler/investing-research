@@ -1,0 +1,48 @@
+{
+  "symbol": "SITM",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The constructive items (Q1 2026 revenue $113.6M up ~88% y/y, comms/datacenter +158% y/y, 2026 growth guide raised to >=80% with ~$140-150M Q2, CPO timing-content up to 3x, pending ~$1.5B-cash Renesas timing acquisition on track) are all from the early-May print or earlier. The only incremental items are the early-June EVP insider sales (June 3-4) already noted in the prior case.",
+  "sources": [
+    {
+      "label": "SiTime Q1 FY2026: AI inference drives timing content (Futurum)",
+      "url": "https://futurumgroup.com/insights/sitime-q1-fy-2026-ai-inference-demand-drives-timing-content-expansion/"
+    },
+    {
+      "label": "SiTime EVP insider sale $1.41M (Investing.com)",
+      "url": "https://m.investing.com/news/insider-trading-news/sitime-evp-fariborz-assaderaghi-sells-141m-in-company-stock-93CH-4729483"
+    },
+    {
+      "label": "SiTime to acquire Renesas timing business (SiTime PR)",
+      "url": "https://www.sitime.com/company/newsroom/press-release/sitime-acquire-renesas-timing-business"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "On the CPO lens SiTime is a legitimate-but-indirect beneficiary: management flags timing content up to 3x in some CPO switch designs. That datapoint is already known and pre-June 9; no new evidence either way since then, so hold. Insider-sale cluster and convert/financing overhang cap upside near $700-720.",
+      "primaryCatalyst": "Timing content scaling up to ~3x in CPO/AI-datacenter switch designs.",
+      "primaryRisk": "Indirect CPO exposure; high multiple; timing-cycle and financing overhang.",
+      "bull": "AI-datacenter timing demand and CPO content multiplier give a real, if indirect, optical-link tailwind.",
+      "neutral": "Solid timing franchise but only indirect to CPO and richly valued; no fresh catalyst.",
+      "bear": "Premium multiple plus insider selling and Renesas-deal financing overhang skew risk to the downside."
+    },
+    {
+      "page": "companies",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the master bottleneck list the timing/test-and-validation thesis is intact and structurally strong (comms/datacenter +158% y/y). The only incremental signals since June 6 are the early-June EVP insider sales and Renesas-deal financing overhang, which marginally soften sentiment but are not new evidence on the timing-execution thesis. Hold.",
+      "primaryCatalyst": "AI chip complexity lifting timing/verification content; Renesas timing acquisition.",
+      "primaryRisk": "Insider selling, ~$1.5B cash acquisition financing, rich multiple.",
+      "bull": "MEMS timing share gains plus Renesas deal expand a scarce AI-infrastructure verification/timing franchise.",
+      "neutral": "Strong franchise, but insider sales and deal-financing overhang offset a fully re-rated multiple.",
+      "bear": "High multiple meets insider selling and integration/financing risk from a large acquisition."
+    }
+  ]
+}

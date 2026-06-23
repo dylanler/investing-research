@@ -1,0 +1,31 @@
+{
+  "symbol": "6951.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. FY ended March 2026 results are out; trailing 12M still carry an ~JPY8.5B one-off loss and negative earnings growth. The +7.2% move is a modest sector lift with no new fundamental driver.",
+  "sources": [
+    {
+      "label": "JEOL earnings / one-off loss (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6951/jeol-shares/past"
+    },
+    {
+      "label": "JEOL IR financial results",
+      "url": "https://www.jeol.com/ir/financial_results/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling lens: JEOL is scientific instrumentation/metrology, only loosely tied to the scaling thesis. No new evidence since June 8 down-move; one-off loss and soft earnings persist. Hold the long tail at scoreDelta 0.",
+      "bull": "Electron-microscope/metrology and EB lithography franchise with semiconductor adjacency.",
+      "neutral": "Quiet; loose fit to scaling; earnings still digesting a large one-off charge.",
+      "bear": "Negative earnings growth and weak profitability; peripheral to the AI-compute bottleneck.",
+      "primaryCatalyst": "Semiconductor instrument / EB lithography order recovery.",
+      "primaryRisk": "Cyclical instrument demand and depressed margins."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "IQE.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material: On June 15, 2026 IQE and Tower Semiconductor announced a multi-year InP epiwafer supply agreement for silicon-photonics platforms serving AI-driven data-center infrastructure (200Gb/lane pluggables, 400Gb/lane modulator prototyping, optical-circuit-switches), with minimum purchase/supply commitments. The deal also settles the prior IP dispute, granting IQE a royalty-free license for certain porous-silicon patents.",
+  "sources": [
+    {
+      "label": "IQE-Tower multi-year InP epiwafer supply agreement (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311514/0/en/IQE-and-Tower-Semiconductor-Announce-Multi-year-InP-epiwafer-Supply-Agreement.html"
+    },
+    {
+      "label": "IQE corporate press release",
+      "url": "https://www.iqep.com/media/press-releases/2026/iqe-and-tower-semiconductor-announce-multi-year-inp-epiwafer-supply-agreement/"
+    },
+    {
+      "label": "Semiconductor Today coverage",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/iqe-tower-150626.shtml"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 48,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Test-time-scaling lens rewards upstream epitaxy bottleneck exposure. The June 15 Tower InP deal turns IQE's AI-datacenter-optics thesis from latent to contracted (minimum commitments) and clears the IP overhang. A genuine fundamental upgrade for a name sitting near the bottom of this page; move up.",
+      "bull": "Multi-year InP epiwafer commitments tied to AI-datacenter optics (200/400Gb pluggables, OCS); IP dispute settled; scarce scaled epitaxy supply.",
+      "neutral": "Volumes/revenue magnitude not quantified; epitaxy is upstream and cyclical.",
+      "bear": "Score 13 reflects weak fundamentals/cash needs; +867% YTD signals extreme re-rating risk unrelated to this fundamental note.",
+      "primaryCatalyst": "Ramp of Tower InP epiwafer volumes for AI optical connectivity.",
+      "primaryRisk": "Thin balance sheet / cash burn at a sub-$1B cap; deal revenue slow to materialize."
+    }
+  ]
+}

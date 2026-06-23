@@ -1,0 +1,31 @@
+{
+  "symbol": "429A.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Recent disclosures (Jan: $15.2M Texas Round Rock grant + ~$223M expansion to 12nm; EUV capacity in Dresden/Tokyo; IBM 2nm/High-NA JDA) all predate June 9. The +19% move came on no fresh fundamental news.",
+  "sources": [
+    {
+      "label": "Texas grant for Tekscend Photomask expansion (FinancialContent)",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-14-texas-bolsters-semiconductor-sovereignty-with-152-million-grant-for-tekscend-photomask-expansion"
+    },
+    {
+      "label": "Tekscend Photomask stock analysis (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/semiconductors/tse-429a/tekscend-photomask-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the test-time-scaling lens, photomask/reticle capacity is a real infrastructure choke-point for advanced-node ramps, and rank 3 reflects that. No new fundamental evidence since June 9 (expansion/IBM JDA pre-dated it); +19% was news-free flow. Hold at rank 3.",
+      "bull": "Photomask bottleneck for 2nm/High-NA; Texas+Dresden+Tokyo EUV expansion; IBM JDA.",
+      "neutral": "Spun-off Toppan unit; small float; expansion story already known.",
+      "bear": "$2.8B cap, thin liquidity; +43% YTD with no new catalyst; capex execution risk.",
+      "primaryCatalyst": "EUV/High-NA photomask capacity ramp for 2nm logic.",
+      "primaryRisk": "Capex execution and node-transition timing; small-cap volatility."
+    }
+  ]
+}

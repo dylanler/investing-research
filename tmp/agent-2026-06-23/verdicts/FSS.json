@@ -1,0 +1,27 @@
+{
+  "symbol": "FSS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 12, 2026 Federal Signal announced a definitive agreement to acquire certain assets of Western Technology (Bremerton, WA), a maker of portable explosion-protected lighting for industrial, petrochemical and aerospace/defense uses, expanding its Safety & Security Systems group. Small bolt-on consistent with its inorganic-growth strategy; no clear AI-campus linkage.",
+  "sources": [
+    {
+      "label": "FSS to acquire assets of Western Technology (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8914605/fss-secures-agreement-to-acquire-assets-of-western-technology?mobile=true"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node lens: the June 12 Western Technology bolt-on is a small SSS lighting tuck-in with no AI-campus or autonomous-site evidence, so it is not AI-evidence-grade. The safety/warning-equipment-to-AI-site pathway is still speculative; June 9 hold stands.",
+      "bull": "Acquisitive industrial safety platform that could touch critical AI-campus sites.",
+      "neutral": "Solid industrials compounder, but AI linkage remains a stretch.",
+      "bear": "No concrete AI/datacenter revenue; classic industrial cyclical.",
+      "primaryCatalyst": "M&A-driven SSS expansion / critical-site demand",
+      "primaryRisk": "Industrial cycle; no real AI tie-in materializes"
+    }
+  ]
+}

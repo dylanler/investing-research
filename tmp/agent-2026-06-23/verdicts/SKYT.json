@@ -1,0 +1,48 @@
+{
+  "symbol": "SKYT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The defining facts are unchanged: SkyWater is being acquired by IonQ at $35.00/share ($15.00 cash + $20.00 IonQ stock, collar-set exchange ratio), implying ~$1.8B equity value, with an FTC Second Request (issued April 24) extending the HSR review; both companies still target a Q2/Q3 2026 close. At $36.40 the stock sits modestly above the $35 reference, reflecting IonQ-stock appreciation lifting the stock component and/or deal-close optimism.",
+  "sources": [
+    {
+      "label": "IonQ to acquire SkyWater at $35/share (StockTitan 425)",
+      "url": "https://www.stocktitan.net/sec-filings/SKYT/425-sky-water-technology-inc-business-combination-communication-794ad4b7b917.html"
+    },
+    {
+      "label": "FTC Second Request extends SkyWater-IonQ review (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/SKYT/8-k-sky-water-technology-inc-reports-material-event-511ee6e81335.html"
+    },
+    {
+      "label": "FTC delays IonQ-SkyWater into Q2/Q3 2026 (TipRanks)",
+      "url": "https://www.tipranks.com/news/ionq-skywater-deal-faces-ftc-delay-after-second-request-timeline-uncertain"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 12,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "On an alpha screen rewarding hidden, asymmetric CPO/advanced-packaging upside, SKYT no longer fits: it is a pending IonQ takeover at a $35 reference ($15 cash + $20 IonQ stock). Standalone foundry/CPO upside is capped/converted into a merger-arb-plus-IonQ-equity bet, while an unresolved FTC Second Request leaves deal-break downside. With the stock at $36.40 (above reference), asymmetry stays inverted vs the page's thesis.",
+      "primaryCatalyst": "IonQ deal close (Q2/Q3 2026) with rising IonQ stock lifting the stock-component value above $35.",
+      "primaryRisk": "FTC Second Request / antitrust block; IonQ share decline shrinking the stock component.",
+      "bull": "Deal closes; IonQ-stock leg appreciates, paying above the $35 reference - low standalone risk.",
+      "neutral": "Now a merger-arb/IonQ-equity proxy, not a clean specialty-foundry alpha bet.",
+      "bear": "FTC could block or force remedies; a deal break or IonQ-stock fall reprices toward standalone value."
+    },
+    {
+      "page": "scaling",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the test-time-scaling/sovereign-AI-supply-chain lens, US specialty-foundry leverage (Fab 25, 400k wafer-starts/yr) is a real strategic fit. But the name is now a pending IonQ acquisition with an open FTC Second Request, which converts it from a standalone scaling-supply story into a deal-arb situation and caps independent upside. Hold rank with a small negative tilt for the regulatory overhang.",
+      "primaryCatalyst": "Sovereign US foundry capacity (Fab 25) feeding domestic AI/quantum supply chains.",
+      "primaryRisk": "Pending IonQ merger + FTC Second Request caps standalone scaling thesis; deal uncertainty.",
+      "bull": "Scarce US pure-play specialty foundry with expanded capacity, strategically vital to sovereign AI supply.",
+      "neutral": "Strong sovereign-supply fit, but the IonQ deal/FTC review now drives the equity, not fundamentals.",
+      "bear": "Standalone scaling thesis is moot under a takeover; FTC review adds deal-break overhang."
+    }
+  ]
+}

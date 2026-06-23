@@ -1,0 +1,56 @@
+{
+  "symbol": "ENR.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new fundamental catalyst since June 9. The FY26 guidance raise (rev growth to 14-16%, margin 10-12%, record EUR17.7bn Q2 orders, EUR154bn backlog, 5GW of data-center orders) was the May 12 Q2 release, and the Camlin Group digital-grid acquisition was announced ~June 2-5 — both pre-date June 9 and were already in the prior case. The +9.6% move since June 9 is the flow-driven dip the June 9 case flagged reversing.",
+  "sources": [
+    {
+      "label": "Siemens Energy Q2 FY26 earnings release / guidance raise (May 12)",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q2-fy-2026.html"
+    },
+    {
+      "label": "Siemens Energy to acquire Camlin Group (digital grid)",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/Siemens_Energy_expands_capabilities_with_Camlin_Group_acquisition.html"
+    },
+    {
+      "label": "Finimize: Siemens Energy raised 2026 forecast as data centers drive demand",
+      "url": "https://finimize.com/content/siemens-energy-raised-its-2026-forecast-as-data-centers-drive-demand"
+    },
+    {
+      "label": "Siemens Energy record orders / raised guidance",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-no-cancellations-just-a-demand-crunch-as-grid-and-data/69587436"
+    },
+    {
+      "label": "Siemens Energy raised mid-term outlook",
+      "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-fulfills-all-commitments---and-increases-mid-term.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.55,
+      "rankRationale": "Prior case lifted ENR on a flow-driven dip vs raised guidance/record AI-grid orders. Since June 9 the dip has reversed (+9.6%) with no new fundamentals, so the residual-alpha-vs-crowding asymmetry this list rewards has largely closed. Slight negative drift; hold the monitor-bucket rank.",
+      "bull": "EUR154bn backlog, 1.72 grid book-to-bill and 5GW of data-center orders give multi-year AI-power visibility.",
+      "neutral": "Real grid bottleneck, but the stock has already rerated and the June dip has recovered.",
+      "bear": "+32% YTD on a EUR164bn cap; crowded AI-power trade with little residual alpha left.",
+      "primaryCatalyst": "Continued record grid/data-center order intake; Camlin close",
+      "primaryRisk": "Crowding/valuation; gas-turbine and wind-margin execution"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "No new evidence since June 9; the guidance raise and Camlin deal pre-date the window. On the latent-node lens Siemens Energy is no longer 'latent' — it has fully rerated around grid/power scarcity, exactly as the thesis caveats. Hold rank 82.",
+      "bull": "Grid backlog and turbine demand are durable AI-power tailwinds.",
+      "neutral": "Strong franchise but widely recognized as an AI-power name now.",
+      "bear": "Already rerated; limited under-coverage left for a latent-node screen.",
+      "primaryCatalyst": "Grid/transmission backlog conversion",
+      "primaryRisk": "Mega-cap, no longer under-owned; cyclicality"
+    }
+  ]
+}

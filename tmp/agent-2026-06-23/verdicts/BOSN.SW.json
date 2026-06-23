@@ -1,0 +1,31 @@
+{
+  "symbol": "BOSN.SW",
+  "company": "Bossard",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 sales rose 6.5% in local currency (+0.6% reported) with stabilizing demand across regions, but Bossard reiterated a subdued H1 2026 outlook; nothing fresh on AI-enclosure or robotics fastener demand.",
+  "sources": [
+    {
+      "label": "Bossard sees promising growth in Q1 2026 (Fastener + Fixing)",
+      "url": "https://fastenerandfixing.com/industry-news/bossard-sees-promising-growth-in-q1-2026/"
+    },
+    {
+      "label": "Bossard Investor Relations news",
+      "url": "https://ir.bossard.com/news-events/news"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent-node screen: the modular-enclosure/robotics fastener-demand pathway is unchanged and speculative. No fresh evidence since Jun 9; a strong +10% day pushing YTD to +25.6% with no new AI-demand signal is alpha decay, not a re-rank. Hold.",
+      "bull": "Fastener distribution + engineering could aggregate hidden demand for modular DC enclosures and robotics.",
+      "neutral": "Demand stabilizing but cyclical; AI linkage remains a qualitative inference.",
+      "bear": "Subdued H1 outlook and no AI-specific catalyst; YTD re-rating raises the bar.",
+      "primaryCatalyst": "Evidence of fastener/logistics attach to DC enclosure and robotics builds.",
+      "primaryRisk": "Industrial cyclicality; AI thesis stays unproven."
+    }
+  ]
+}

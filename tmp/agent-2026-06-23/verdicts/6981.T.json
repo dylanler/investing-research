@@ -1,0 +1,48 @@
+{
+  "symbol": "6981.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Genuinely new window news: Murata (world's largest MLCC supplier, 40%+ share) will impose comprehensive AI-server and high-end auto MLCC price increases of 10-40% effective July 1; Goldman calls MLCCs the 3rd-largest AI-server cost in a just-beginning supercycle, with a structural deficit widening to 2030 and Murata's new high-end capacity not online before Q4 2026. Stock +13.6% over the window.",
+  "sources": [
+    {
+      "label": "Murata/Taiyo Yuden MLCC price hikes, GS supercycle (TradingKey)",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261967164-mlcc-taiyo-yuden-tradingkey"
+    },
+    {
+      "label": "MLCC manufacturers consider price increase as AI demand outpaces supply (Passive Components)",
+      "url": "https://passive-components.eu/mlcc-manufacturers-consider-price-increase-as-ai-demand-outpaces-supply/"
+    },
+    {
+      "label": "Murata AI-server power modules mass production 2026 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2025/12/17/news-murata-reportedly-to-mass-produce-ai-server-power-modules-in-2026-targets-%C2%A550b-by-fy27"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Passives-alpha lens: the July-1 10-40% AI-server/auto MLCC price hikes plus GS structural-deficit framing are genuinely new and strengthen the pricing/bottleneck case. But on this crowding-sensitive 'rerated benchmark' list at +230% YTD the residual alpha is largely consumed. Small +1, hold rank.",
+      "bull": "40%+ MLCC share; 10-40% AI-server/auto price hikes from July 1; structural deficit to 2030; AI-server power modules ramping.",
+      "neutral": "Pricing power is now consensus/priced; +230% YTD leaves thin residual edge.",
+      "bear": "Crowded, flow-dominated ownership; +13.6% pop on a name already up 230% YTD invites whipsaw.",
+      "primaryCatalyst": "July-1 MLCC price hikes and AI-server power-module/MLCC content growth.",
+      "primaryRisk": "Crowding and AI-capex sensitivity; new capacity arriving late-2026 caps near-term tightness narrative."
+    },
+    {
+      "page": "companies",
+      "currentRank": 84,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.6,
+      "rankRationale": "Master bottleneck lens: the confirmed July-1 10-40% AI-server MLCC price hikes plus GS supercycle/structural-deficit evidence are new fundamental support for the power-delivery/pricing thesis (vs the June 9 hold), and rank 84 understates the scarce pricing-power bottleneck. Up, +2.",
+      "bull": "Dominant MLCC supplier capturing AI-server pricing power with 10-40% hikes into a multi-year structural deficit.",
+      "neutral": "Validated pricing power but mega-cap ($138B) and +230% YTD temper the under-owned-bottleneck score.",
+      "bear": "Crowded mega-cap; late-2026 capacity additions and any AI-capex digestion could deflate ASP gains.",
+      "primaryCatalyst": "July-1 MLCC price increases and AI-server MLCC/power-module demand 3.3x by FY30.",
+      "primaryRisk": "Pricing/execution risk and crowded positioning at high YTD."
+    }
+  ]
+}

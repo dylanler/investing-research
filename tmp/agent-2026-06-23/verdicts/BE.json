@@ -1,0 +1,47 @@
+{
+  "symbol": "BE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Bloom Energy rallied to record highs (+~40% over six sessions; $93B cap, +232% YTD), driven by a U.S. FERC directive to grid operators, Bloom's mid-year AI Data Center Power Report, and the Oracle agreement to deploy up to 2.8GW of Bloom fuel cells (1.2GW already in deployment). Q1 2026 beat with $751M revenue and $70.7M net income. Thesis is genuinely strengthening on AI-power demand, but the name has fully rerated and remains a crowded benchmark on the residual-alpha page.",
+  "sources": [
+    {
+      "label": "Bloom Energy $5B AI deal + Wyoming offtake (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bloom-energy-lands-5-billion-191102765.html"
+    },
+    {
+      "label": "Bloom Energy AI power deals pile up (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/bloom-energy-corporation-be-news-2026_06_18/"
+    },
+    {
+      "label": "Bloom near record on AI power demand (InvestorIdeas)",
+      "url": "https://www.investorideas.com/news/2026/renewable-energy/06221-bloom-energy-record-ai-power-fuel-cell.asp"
+    },
+    {
+      "label": "Bloom Energy near record on AI power demand",
+      "url": "https://www.investorideas.com/news/2026/renewable-energy/06221-bloom-energy-record-ai-power-fuel-cell.asp"
+    },
+    {
+      "label": "Bloom-Brookfield $5B partnership (2025)",
+      "url": "https://www.datacenterdynamics.com/en/news/bloom-energy-signs-5bn-partnership-with-brookfield-to-deploy-fuel-cell-tech-across-ai-data-centers/"
+    },
+    {
+      "label": "Bloom Energy record near AI power demand - InvestorIdeas",
+      "url": "https://www.investorideas.com/news/2026/renewable-energy/06221-bloom-energy-record-ai-power-fuel-cell.asp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "On a residual-alpha-vs-passives lens, the Brookfield/Oracle news is real but only confirms the crowded/rerated-benchmark bucket: +232% YTD, ~$93B cap, score already 0 at rank 100. No untapped residual alpha; hold the demoted floor.",
+      "bull": "Bankable SOFC onsite power is the fastest grid-bottleneck workaround; multi-GW Oracle/AEP/Brookfield backlog.",
+      "neutral": "Thesis right, price ahead of it: ~$93B cap fully discounts the AI-power option already.",
+      "bear": "+232% YTD leaves no residual alpha vs passives; any AI-capex wobble or gas-policy shift hits hard.",
+      "primaryCatalyst": "Backlog conversion and 2GW capacity ramp execution.",
+      "primaryRisk": "Crowding/valuation; dependence on continued hyperscaler power scramble."
+    }
+  ]
+}

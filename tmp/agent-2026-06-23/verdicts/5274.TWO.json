@@ -1,0 +1,31 @@
+{
+  "symbol": "5274.TWO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No fresh standalone catalyst since June 9. Q1 record results (EPS NT$37.4, +59% YoY, GM ~69%) were reported June 1, pre-window. AST2700 12nm BMC is in volume shipment at materially higher ASP, order book stretches into 2027, and management guides Q4 supply bottlenecks easing. Stock hit an all-time high May 29; move since June 9 is a modest +3.6%.",
+  "sources": [
+    {
+      "label": "BigGo - ASPEED Q1 FY2026 earnings call",
+      "url": "https://finance.biggo.com/news/TW_5274.TW_2026-06-01"
+    },
+    {
+      "label": "Digitimes - ASPEED AI server BMC tracker",
+      "url": "https://www.digitimes.com/news/a20260512VL207/taiwan-monthly-tracker-aspeed-ai-server-demand-market.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the AI-node bottleneck lens BMC is a near-monopoly choke point; AST2700 12nm volume ramp at higher ASP and an order book into 2027 mildly reinforce the thesis since June 9, but this was largely known (Q1 report June 1) and +155% YTD already prices it. Prior down stands; small upward fundamental tick.",
+      "bull": "BMC near-monopoly; AST2700 higher-ASP ramp + 2027 order book; Q4 bottleneck easing unlocks volume.",
+      "neutral": "Strong but discovered; ATH May 29; not a direct HBM/CPO/packaging choke point.",
+      "bear": "+155% YTD prices the AI-server cycle; ASP/GM gives back in H2; cyclical single-product exposure.",
+      "primaryCatalyst": "AST2700 volume ramp + Q4 supply easing",
+      "primaryRisk": "AI-server cycle/valuation reset"
+    }
+  ]
+}

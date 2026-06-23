@@ -1,0 +1,35 @@
+{
+  "symbol": "BOY.L",
+  "company": "Bodycote",
+  "caseDate": "2026-06-23",
+  "newsSince": "MATERIAL: Apollo Global Management confirmed on/before the June 19 PUSU deadline that it will NOT make a firm offer (conditional 885p cash + 16.1p dividend proposal revealed May 22). Shares fell ~9-10% to ~751p; Apollo is barred from re-approaching for six months under the Takeover Code. The takeover floor that anchored the prior 'up' asymmetry case is now removed.",
+  "sources": [
+    {
+      "label": "Bodycote shares fall ~9% as Apollo walks away (Proactive Investors)",
+      "url": "https://www.proactiveinvestors.com/companies/news/1093510/bodycote-shares-fall-9-as-apollo-walks-away-from-takeover-approach-1093510.html"
+    },
+    {
+      "label": "Bodycote reaffirms standalone strategy as Apollo walks away (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/bodycote-reaffirms-standalone-strategy-as-apollo-walks-away-from-takeover"
+    },
+    {
+      "label": "Apollo backs out of $2bn Bodycote pursuit (Reuters via Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/apollo-backs-out-of-2-billion-takeover-pursuit-of-uks-bodycote-4727874"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 10,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.78,
+      "rankRationale": "Strict latent-node screen: prior 'up' was built on a live 885p bid marking intrinsic value ~25% above market. Apollo formally walked away by Jun 19 and is locked out 6 months, removing that floor. Thermal-processing AI thesis intact but the deal-driven asymmetry that earned the upgrade is gone. Down-rank.",
+      "bull": "Apollo's 885p approach validated deep value; thermal-processing thesis (liquid loops, robotics, automation) untouched.",
+      "neutral": "Standalone story unchanged; trades near pre-bid level with no operational deterioration.",
+      "bear": "Bid floor removed, no re-approach for 6 months; M&A optionality that drove the upgrade has evaporated.",
+      "primaryCatalyst": "Renewed bid interest after the 6-month lockout or self-help margin recovery.",
+      "primaryRisk": "De-rating now the takeover premium is gone; cyclical end-market softness."
+    }
+  ]
+}

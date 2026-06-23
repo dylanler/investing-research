@@ -1,0 +1,31 @@
+{
+  "symbol": "GDS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material governance overhang: on May 20, 2026 GDS disclosed the resignation of independent director and Audit Committee chair Lim Ah Doo (personal reasons) and the ADS fell ~9.3%; Pomerantz LLP then announced securities-fraud investigations on behalf of investors (June 9, 16 and 18). TD Cowen trimmed its PT to $36 (from $37, Buy). The -11.6% move reflects this overhang, not new operational data.",
+  "sources": [
+    {
+      "label": "Pomerantz investigates GDS Holdings (PR Newswire, June 18)",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-gds-holdings-limited---gds-302802889.html"
+    },
+    {
+      "label": "GDS overview / analyst activity (StockTitan)",
+      "url": "https://www.stocktitan.net/overview/GDS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 20,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.65,
+      "rankRationale": "New negative evidence since June 9: audit-committee-chair resignation plus multiple securities-fraud investigations (Pomerantz) inject governance/disclosure risk into a China data-center name, directly weakening the under-owned physical-deployment thesis. This is a thesis event, not a flow dip; move down with a fundamental cut.",
+      "bull": "China AI-capex/compute-network buildout and record bookings underpin data-center demand.",
+      "neutral": "Cheap on cap/YTD but now carries governance/legal overhang.",
+      "bear": "Audit-chair exit and securities investigations raise disclosure/governance red flags; China/ADS risk.",
+      "primaryCatalyst": "China national compute-network and AI capex spend",
+      "primaryRisk": "Securities investigation / governance and audit-committee turnover"
+    }
+  ]
+}

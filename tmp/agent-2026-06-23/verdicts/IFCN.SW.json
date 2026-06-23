@@ -1,0 +1,31 @@
+{
+  "symbol": "IFCN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new news since June 9. INFICON's Q1 2026 (sales $181.0M +14.4%, Semiconductor & Vacuum Coating +23.5%, book-to-bill >1) and the accompanying FY26 guidance raise (sales to $710-750M, op margin 18-20%) were reported in late April. The +11.2% move since June 9 is re-rating, not fresh news.",
+  "sources": [
+    {
+      "label": "INFICON Q1 2026 / guidance raise",
+      "url": "https://www.inficon.com/en/news/inficon-reports-strong-first-quarter-and-raises-guidance"
+    },
+    {
+      "label": "INFICON lifts 2026 outlook (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/inficon-lifts-2026-outlook-after-strong-first-quarter"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: high-quality process-sensing/leak-detection exposure to fab process-control intensity. Q1 beat + guidance raise already pre-date June 9 and are priced; the +11.2% move is re-rating. No fresh evidence since. Hold rank 78.",
+      "bull": "Semicap process-control intensity rising; semi segment +23.5%, book-to-bill >1, FY26 guidance raised.",
+      "neutral": "Best-in-class but expensive; the upgrade is already known and embedded in price.",
+      "bear": "Rich multiple after +71% YTD caps residual alpha; sensing is enabling, not a hard bottleneck.",
+      "primaryCatalyst": "Sustained semicap recovery lifting process-control content per fab",
+      "primaryRisk": "Valuation compression if semicap orders cool"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "NOEJ.DE",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The substantive 2026 events (water-management divestment of ~EUR 650M leaving NORMA net-debt-free, Q1 margin improvement, ~EUR 52.8M buyback, FY2026 guidance of 0-2% sales growth and 2-4% adj. EBIT margin) all predate the window. No new evidence linking its fluid connectors/clamps to AI liquid-cooling or data-center demand.",
+  "sources": [
+    {
+      "label": "NORMA Group Q1 2026 / guidance (webdisclosure)",
+      "url": "https://www.webdisclosure.com/press-release/norma-group-ag-etr-noej-norma-group-improves-profitability-in-the-first-quarter-of-2026-industry-applications-generates-organic-growth-NsfuRl66TOz"
+    },
+    {
+      "label": "NORMA Group press releases",
+      "url": "https://www.normagroup.com/global/en/news/press-releases"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Strict latent-node thesis (engineered joining/fluid connectors usable in liquid loops and compact manifolds) is unchanged with no in-window evidence tying NORMA to AI liquid-cooling or data-center demand. Balance-sheet cleanup is old news. Hold at 16, 0.",
+      "bull": "Net-debt-free post-divestment; connectors could serve liquid-cooling manifolds.",
+      "neutral": "AI/data-center linkage remains speculative; soft auto demand.",
+      "bear": "Core end-markets (auto/industrial) cyclical; thin FY EBIT margin guide.",
+      "primaryCatalyst": "Liquid-cooling/industrial connector demand",
+      "primaryRisk": "Automotive demand softness / FX"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "688256.SS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new June 9-23 fundamental catalyst; the ~+11% move tracks the China domestic-AI-chip theme (Cambricon's ~500k accelerator target for 2026, ByteDance as largest customer, potential Alibaba expansion). Production still hinges on SMIC capacity where top-chip yields are ~20%, a persistent constraint. Nothing name-specific changed in the window.",
+  "sources": [
+    {
+      "label": "Smartkarma - Cambricon prelim revenue surge",
+      "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/cambricon-technologies-ltd-688256-earnings-prelim-revenue-surges-up-to-496-driven-by-ai-demand/"
+    },
+    {
+      "label": "stockanalysis.com - Cambricon Technologies",
+      "url": "https://stockanalysis.com/quote/sha/688256/"
+    },
+    {
+      "label": "Tom's Hardware - Cambricon targets 500,000 AI chips in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/cambricon-targets-500000-ai-chips-in-2026-as-china-accelerates-domestic-hardware-push"
+    },
+    {
+      "label": "Bloomberg - Cambricon aims to triple output to replace Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2025-12-04/cambricon-aims-to-triple-chip-output-to-replace-nvidia-in-china"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 117,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Down on the CPO lens. Cambricon is an AI-compute (chip) name with little direct link to CPO/silicon-photonics/optical-connectivity bottlenecks, and after +51% YTD and an extreme valuation it is far from hidden. No fresh evidence since June 9; the +11.3% pop is momentum, reinforcing low residual CPO alpha at rank 117.",
+      "bull": "China's leading Nvidia-substitute AI accelerator; export-control tailwind; explosive revenue growth.",
+      "neutral": "Strong compute story but tangential to the CPO/connectivity thesis this page scores.",
+      "bear": "Extreme PE; not a CPO/photonics name; sanctioned-supply and single-bundle validation risk; +51% YTD discovered.",
+      "primaryCatalyst": "China domestic AI-accelerator demand under export bans",
+      "primaryRisk": "Valuation; not CPO-direct; supply/sanction validation risk"
+    }
+  ]
+}

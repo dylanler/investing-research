@@ -1,0 +1,31 @@
+{
+  "symbol": "TRMB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "In early June 2026 Trimble launched a cloud-native AI-powered Transportation Management System (ML for freight planning, carrier vetting, predictive ETA). FY26 guidance remains a beat-and-raise ($3.84-$3.92B revenue, adj EPS $3.47-$3.64), but the stock printed a fresh 52-week low near $49 amid continued analyst PT cuts (Barclays to $79, Oppenheimer to $80, Piper to $87) and soft sentiment. No fundamental deterioration disclosed.",
+  "sources": [
+    {
+      "label": "Trimble AI transportation platform (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-trmb/trimble/news/what-trimble-trmbs-new-ai-transportation-platform-means-for"
+    },
+    {
+      "label": "Trimble hits 52-week low at $48.90 (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/trimble-stock-hits-52week-low-at-489-usd-93CH-4748118"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "The geospatial/sensors-feeding-AI thesis is unchanged; the new AI TMS is incremental and supportive, and FY guidance stayed a beat-and-raise. But continued sell-side de-rating to a fresh 52-wk low signals eroding sentiment without a positive surprise; mild negative drift, hold rank on this page (price weakness is not itself a fundamental down-rate).",
+      "bull": "Beat-and-raise FY26 guide plus new AI-native TMS; precise geo/positioning data is a real input to construction/logistics AI.",
+      "neutral": "Solid franchise but 'not an AI narrative stock'; subscription mix shift is gradual and sentiment is weak.",
+      "bear": "Fresh 52-wk low and a string of PT cuts to ~$79-87; market doubts growth/margin trajectory despite raised guide.",
+      "primaryCatalyst": "Subscription mix shift; AI TMS / construction-automation adoption",
+      "primaryRisk": "Continued multiple de-rating; soft construction/transport demand"
+    }
+  ]
+}

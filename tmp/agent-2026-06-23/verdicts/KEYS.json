@@ -1,0 +1,44 @@
+{
+  "symbol": "KEYS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The record Q2 (orders +56% to $2.05B, revenue +31% to $1.72B, AI-related revenue already exceeding all of FY25), the FY revenue-growth raise to high-20s%, and analyst PT hikes (JPM $390, Citi $396, Truist $376) all predate the window. The +7.3% move is continued re-rating, not fresh news.",
+  "sources": [
+    {
+      "label": "Keysight Q2 2026: orders +56%, AI business doubles, raises FY outlook (BigGo)",
+      "url": "https://finance.biggo.com/news/US_KEYS_2026-05-19"
+    },
+    {
+      "label": "Keysight Q2 2026 earnings beat (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-keysight-technologies-q2-2026-beats-earnings-expectations-93CH-4699861"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "Latent AI supply-chain lens: high-quality test/validation tollbooth, but the page concedes the market already understands the role. Blowout Q2 and guidance raise predate Jun 9; no new info in window. +7.3% move is re-rating, not fresh fundamental news. Hold.",
+      "primaryCatalyst": "AI-networking/800G-1.6T validation demand; AI revenue already > full FY25 in H1",
+      "primaryRisk": "Tollbooth role well-understood; +72% YTD compresses residual alpha",
+      "bull": "Orders +56%, AI test demand surging, FY guide raised to high-20s% growth; durable design-validation moat.",
+      "neutral": "Best-in-class test franchise but the AI re-rating is recognized; +72% YTD limits asymmetry.",
+      "bear": "Crowded/understood name at +72% YTD; large cap with the bottleneck story already priced."
+    },
+    {
+      "page": "companies",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.78,
+      "rankRationale": "Master under-owned-bottleneck list: yesterday's verdict already pushed KEYS down for the post-Q2 re-rating. No new info since the window opened; the +7.3% move continues the rerating rather than adding fundamental asymmetry. Crowding-adjusted low rank stands; hold.",
+      "primaryCatalyst": "AI chip-complexity and 1.6T interconnect validation; record Q2 orders",
+      "primaryRisk": "EDA/test/timing bottleneck now broadly recognized; minimal under-ownership left",
+      "bull": "Record orders and AI test demand; raised FY outlook reinforces the tollbooth thesis.",
+      "neutral": "Strong fundamentals but low on the under-owned list because the story is already understood.",
+      "bear": "+72% YTD and large cap leave little residual alpha for an under-owned-bottleneck screen."
+    }
+  ]
+}

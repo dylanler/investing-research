@@ -1,0 +1,31 @@
+{
+  "symbol": "BRG.OL",
+  "company": "Borregaard",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new AI-chain evidence since June 9. The 2026 volume guidance (BioSolutions ~340k tonnes, higher BioMaterials volumes, Fine Chemicals pricing ~flat) and softer Q1 (sales NOK2,005m, net income NOK182m, slightly lower BioMaterials pricing on mix) were already known; the speculative biopolymer/dispersant pathway is unchanged.",
+  "sources": [
+    {
+      "label": "Borregaard valuation after 2026 sales volume guidance (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/no/materials/ob-brg/borregaard-shares/news/a-look-at-borregaard-obbrg-valuation-after-detailed-2026-sal"
+    },
+    {
+      "label": "Borregaard valuation after softer Q1 earnings (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/borregaard-ob-brg-valuation-softer-151306554.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent-node screen: no new AI-chain evidence to justify a re-rank; the biopolymer/dispersant/process-chemistry pathway remains speculative and unchanged. Softer Q1 already known. Hold.",
+      "bull": "Specialty cellulose/biopolymers could feed binders, dispersants and sustainable process chemistry in advanced manufacturing.",
+      "neutral": "BioSolutions volume growth steady but AI linkage is highly indirect.",
+      "bear": "Softer Q1, BioMaterials pricing pressure on mix; no AI-specific demand driver.",
+      "primaryCatalyst": "Evidence of biopolymer use in AI-supply-chain process chemistry.",
+      "primaryRisk": "Pricing/mix pressure with no AI-linked demand catalyst."
+    }
+  ]
+}

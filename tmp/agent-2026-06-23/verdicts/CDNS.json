@@ -1,0 +1,44 @@
+{
+  "symbol": "CDNS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On/around June 9 Cadence expanded its collaboration with Intel Foundry to optimize the 14A process using agentic-AI EDA and Design IP - a genuine in-window design-win-adjacent datapoint. The ChipStack AI Super Agent (Level-5 'virtual engineer' with NVIDIA) was unveiled June 1 at Computex (just pre-window). Several PT raises (e.g., Stifel to $432). Stock -2% since June 9 on flow.",
+  "sources": [
+    {
+      "label": "Cadence expands Intel Foundry 14A partnership (Jun 9, 2026)",
+      "url": "https://www.gurufocus.com/news/8907921/cadence-design-systems-cdns-expands-partnership-with-intel-foundry"
+    },
+    {
+      "label": "Cadence unveils ChipStack AI Super Agent virtual engineer with NVIDIA",
+      "url": "https://www.businesswire.com/news/home/20260531072918/en/Cadence-Unveils-Industrys-First-Fully-Autonomous-Virtual-Engineer-for-Chip-Design-powered-by-NVIDIA"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "CPO/chiplet-complexity lens: Intel Foundry 14A expansion (~Jun 9) is a modest fresh positive for EDA design-complexity exposure, but discovery is already high (ATH, multiple PT raises into $432) on this crowding-sensitive list. Small positive for the in-window deal, no rank move.",
+      "bull": "Intel 14A agentic-EDA collaboration plus ChipStack Level-5 autonomy extend Cadence's design-complexity moat into chiplet/photonic flows.",
+      "neutral": "Incrementally positive but discovery already elevated; news largely priced into the ATH.",
+      "bear": "Rich valuation and crowded EDA/AI trade; modest -2% giveback signals stretched positioning.",
+      "primaryCatalyst": "Agentic-EDA / Intel Foundry design wins",
+      "primaryRisk": "Valuation and AI/EDA cycle crowding"
+    },
+    {
+      "page": "companies",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Under-owned-bottleneck master list, EDA/test/timing bucket: Intel Foundry 14A expansion (~Jun 9) reinforces the design-validation bottleneck thesis - a genuine in-window datapoint. Small positive; no rank move. (Page thesis 'negative ytd reset' is stale - YTD is +23%.)",
+      "bull": "Duopoly EDA with agentic-AI (ChipStack) and fresh Intel 14A engagement deepens the design-validation chokepoint.",
+      "neutral": "Positive but incremental; broad bucket and elevated valuation cap the move.",
+      "bear": "Valuation rich; AI/EDA cycle and competition could compress multiple.",
+      "primaryCatalyst": "Agentic-EDA adoption / foundry design wins",
+      "primaryRisk": "Valuation / AI-EDA cycle"
+    }
+  ]
+}

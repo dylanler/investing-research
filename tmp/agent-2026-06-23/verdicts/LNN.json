@@ -1,0 +1,31 @@
+{
+  "symbol": "LNN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news in the June 9-23 window. Q2 FY26 (ended Feb 28) missed badly (EPS $1.15 vs ~$1.60 est, revenue -7% y/y) but was reported before this window; Q3 FY26 results are scheduled for July 2, 2026, after this refresh. No new data on the irrigation-telemetry / water-management thesis.",
+  "sources": [
+    {
+      "label": "Lindsay Q3 FY26 earnings set for July 2 (StockTitan)",
+      "url": "https://www.stocktitan.net/news/LNN/lindsay-corporation-announces-third-quarter-fiscal-2026-earnings-muumjxtysexs.html"
+    },
+    {
+      "label": "Lindsay Q2 earnings miss, revenue -7% y/y (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lindsay-q2-earnings-miss-estimates-132500382.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No material news in the June 9-23 window; Q3 print is not until July 2. The latent-strict thesis (irrigation telemetry, remote monitoring, scarce-water site-management know-how) is unchanged. YTD -2.56% means no rerating chase to penalize, so rank 1 stands ahead of the catalyst.",
+      "bull": "Water-efficiency/telemetry know-how could become scarce site-management capability for water-stressed compute campuses.",
+      "neutral": "Pure ag-irrigation/infrastructure today; AI-water linkage is latent, not realized.",
+      "bear": "Q2 miss (-53% EPS, rev -7%) shows soft core demand; AI angle remains speculative.",
+      "primaryCatalyst": "July 2 Q3 print; data-center water-management pilot or MENA project progress.",
+      "primaryRisk": "Weak ag cycle and another earnings miss with no AI catalyst."
+    }
+  ]
+}

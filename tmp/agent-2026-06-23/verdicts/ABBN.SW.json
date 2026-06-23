@@ -1,0 +1,86 @@
+{
+  "symbol": "ABBN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "ABB continued to advance data-center electrification: a partnership with VoltaGrid for stable AI data-center power and an NVIDIA 800V DC architecture collaboration (1MW rack support) reinforce its grid/power positioning. The SoftBank divestiture of ABB Robotics ($5.375B) remains on track to close mid-to-late 2026, with Robotics head Sami Atiya departing by end-2026 — structurally eroding ABB's robotics exposure. Q1 data-center electrification orders ($2.4B) already exceeded full-year 2025.",
+  "sources": [
+    {
+      "label": "Simply Wall St: ABB-NVIDIA tie-up / AI data center valuation",
+      "url": "https://simplywall.st/stocks/ch/capital-goods/vtx-abbn/abb-shares/news/abb-nvidia-tie-up-puts-ai-data-center-valuation-in-focus"
+    },
+    {
+      "label": "Futurum: ABB Q1 FY2026 driven by data center & grid demand",
+      "url": "https://futurumgroup.com/insights/abb-q1-fy-2026-earnings-driven-by-data-center-and-grid-demand/"
+    },
+    {
+      "label": "ABB: divest Robotics to SoftBank",
+      "url": "https://new.abb.com/news/detail/129685/abb-to-divest-robotics-division-to-softbank-group"
+    },
+    {
+      "label": "ABB Q1 FY2026 driven by data center & grid demand (Futurum)",
+      "url": "https://futurumgroup.com/insights/abb-q1-fy-2026-earnings-driven-by-data-center-and-grid-demand/"
+    },
+    {
+      "label": "ABB reshapes AI data center focus as robotics move nears SoftBank (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/abb-reshapes-ai-data-center-141353674.html"
+    },
+    {
+      "label": "ABB to divest Robotics to SoftBank (ABB news)",
+      "url": "https://new.abb.com/news/detail/129685/abb-to-divest-robotics-division-to-softbank-group"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Passives/power lens: no new evidence since June 9. ABB stays a well-owned ~$198B benchmark name far from the passive/power-component bottleneck core; the +6.9% drift is price, not residual-alpha change. Hold near rank 58.",
+      "bull": "Triple-digit DC electrification order growth; raised 2026 outlook.",
+      "neutral": "Strong AI exposure but mega-cap and well-discovered; not the passive choke-point.",
+      "bear": "Crowded benchmark; little residual alpha vs passives at this size.",
+      "primaryCatalyst": "Continued DC electrification order momentum",
+      "primaryRisk": "Crowding/de-rating as a consensus AI-power name"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Latent lens: ABB is too large, too covered and too explicitly tagged to electrification/automation to be early alpha. No new evidence since June 9 changes that. Stays low-conviction at rank 95. Hold.",
+      "bull": "Deep electrification/grid backlog with AI-DC pull-through.",
+      "neutral": "Quality compounder but fully covered — opposite of latent.",
+      "bear": "$198B and consensus-owned; no hidden-supply-chain edge.",
+      "primaryCatalyst": "Electrification backlog conversion",
+      "primaryRisk": "No latency left — name is broadly held"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 38,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid/robotics lens: SoftBank divestiture (~$5.375B, closing 2026) is now firm and abandons the spin-off route — ABB's claim on a robotics-stack list weakens structurally as Robotics exits the consolidated entity. Down-drift continues, now on confirmed deal rather than rumor.",
+      "bull": "Robotics still consolidated until close; SoftBank ownership could re-energize the unit.",
+      "neutral": "Deal pending regulatory approval; ABB retains motion/automation exposure.",
+      "bear": "Post-close, ABB is no longer a robotics pure-play — minimal humanoid-stack relevance.",
+      "primaryCatalyst": "None robotics-positive; deal removes the unit.",
+      "primaryRisk": "Robotics divestiture strips robotics-list rationale."
+    },
+    {
+      "page": "companies",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Master list: electrification-bottleneck thesis (grid, switchgear, DC power) fully intact but unchanged since June 9 — Q1 strength was already known. +6.9% is price, not new evidence. Hold rank 18.",
+      "bull": "Triple-digit DC electrification orders; raised outlook; scarce power-bottleneck exposure.",
+      "neutral": "Strong but consensus AI-power name; valuation now reflects it.",
+      "bear": "Mega-cap crowding limits incremental bottleneck alpha.",
+      "primaryCatalyst": "DC electrification order conversion",
+      "primaryRisk": "De-rating if DC order growth normalizes"
+    }
+  ]
+}

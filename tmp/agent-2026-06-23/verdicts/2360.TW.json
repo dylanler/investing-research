@@ -1,0 +1,27 @@
+{
+  "symbol": "2360.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Latest substantive prints (record Q1 NT$11.8B +73% YoY driven by AI server power test + SLT, CPO test pilot for the 4th insertion in June) were already disclosed at the April 30 Q1 call. The -5.2% drift since June 9 carries no new information.",
+  "sources": [
+    {
+      "label": "Chroma ATE Q1 2026 earnings call summary (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2360.TW_2026-04-30"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "No new news since June 9; AI power-test/SLT/CPO-test story (Q1 record) already known and unanimous Strong Buy coverage keeps eroding the 'underfollowed' residual-alpha premise on this crowding-sensitive page. ~185% YTD leaves little hidden asymmetry. Hold.",
+      "bull": "Direct AI-server power test + SLT + CPO test pilot; choke-point test equipment with NVDA/AMD/GOOG adoption.",
+      "neutral": "Execution is real but fully consensus; residual alpha thin after a triple.",
+      "bear": "185% YTD and unanimous coverage; no longer underfollowed, vulnerable to any AI-capex test slowdown.",
+      "primaryCatalyst": "CPO test insertions ramping into 2H26.",
+      "primaryRisk": "Crowded ownership / coverage saturation erodes hidden-alpha thesis."
+    }
+  ]
+}

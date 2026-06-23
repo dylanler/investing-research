@@ -1,0 +1,57 @@
+{
+  "symbol": "ASML",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. Q1 2026 results and 2026 guidance raise (now EUR36-40B) were April; the Musk Terafab headline that drove the early-June rerating remains unsigned. ASML is essentially flat since June 9 (+0.08%).",
+  "sources": [
+    {
+      "label": "InsiderFinance: ASML bookings surge, lifts 2026 guidance",
+      "url": "https://www.insiderfinance.io/news/asml-earnings-bookings-surge-lifts-2026-guidance"
+    },
+    {
+      "label": "CNBC: ASML Q1 2026 earnings",
+      "url": "https://www.cnbc.com/2026/04/15/asml-q1-2026-earnings-report.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node lens: monopoly EUV choke point intact but score already capped for crowding/valuation discovery. No new signed orders or guidance change since June 9; the Terafab catalyst stays a headline. No fresh alpha to add.",
+      "bull": "Irreplaceable EUV/High-NA monopoly; raised 2026 sales guidance EUR36-40B; AI capex tailwind multi-year.",
+      "neutral": "Thesis intact but fully discounted; flat since June 9, no new orders.",
+      "bear": "+53% YTD, record $687B cap; crowding and China-restriction overhang cap residual alpha.",
+      "primaryCatalyst": "Signed advanced-node/Terafab order conversion",
+      "primaryRisk": "China export restrictions, capex-cycle digestion"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "CPO lens: ASML's link to co-packaged optics is indirect (via advanced nodes/packaging flows). Nothing since June 9 changes that linkage; ranked deep at 70, choke-point centrality intact but residual CPO alpha unchanged.",
+      "bull": "Lithography enables every advanced node feeding CPO/packaging roadmaps.",
+      "neutral": "CPO exposure indirect; no new evidence either way since June 9.",
+      "bear": "Not a direct optics play; size and crowding limit alpha on this lens.",
+      "primaryCatalyst": "Advanced-node demand pull-through to packaging",
+      "primaryRisk": "Indirect CPO exposure, capex cyclicality"
+    },
+    {
+      "page": "companies",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Under-owned-bottleneck lens penalizes names that have already rerated; ASML has (+53% YTD, record cap). No new bottleneck evidence since June 9, so no basis to re-rate the residual alpha higher; hold the prior down-positioning.",
+      "bull": "Scarcest pick-and-shovel choke point in the AI supply chain.",
+      "neutral": "Bottleneck real but no longer under-owned; thesis stable.",
+      "bear": "Record market cap on an unsigned headline; minimal residual alpha for this list.",
+      "primaryCatalyst": "Backlog/order conversion",
+      "primaryRisk": "Already rerated; valuation discovery"
+    }
+  ]
+}

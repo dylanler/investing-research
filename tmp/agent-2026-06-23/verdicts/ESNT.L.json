@@ -1,0 +1,31 @@
+{
+  "symbol": "ESNT.L",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material thesis news since June 9. Only routine items: a major-holdings (TR-1) notification on June 10 and a June 16 directorate change appointing Sharmila Nebhrajani as an independent NED (effective June 29). The May 20 Boteco acquisition and AGM update remain the last material items.",
+  "sources": [
+    {
+      "label": "Essentra directorate change RNS (Ticker.app)",
+      "url": "https://www.ticker.app/lse/ESNT/rns/2026-06-16/Directorate-change/3780I"
+    },
+    {
+      "label": "Essentra holdings notification (TradingView)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026-06-10:newsml_RSJ7554Ha:0-reg-essentra-plc-holding-s-in-company/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Only governance housekeeping since June 9 (NED appointment Jun 16, TR-1 Jun 10) - immaterial to the components/protection latent-node thesis. Boteco deal and AGM update predate the window. -1.4% drift on a -14% YTD base leaves the strict-screen setup unchanged. Hold.",
+      "bull": "Cheap micro-cap components catalogue; Boteco bolt-on expands protection range; turnaround optionality.",
+      "neutral": "Tiny $0.3B cap, thin liquidity; component link to modular compute/facility supply is speculative.",
+      "bear": "Weak industrial demand, margin pressure, no concrete AI/compute revenue evidence; -14% YTD reflects soft fundamentals.",
+      "primaryCatalyst": "H1 trading update; Boteco integration",
+      "primaryRisk": "Industrial destocking and margin compression"
+    }
+  ]
+}

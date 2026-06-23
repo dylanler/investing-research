@@ -1,0 +1,31 @@
+{
+  "symbol": "RBC",
+  "company": "RBC Bearings",
+  "caseDate": "2026-06-23",
+  "newsSince": "RBC's fiscal momentum remains strong: backlog crossed $1B for the first time (mostly aerospace & defense), and management confirmed substantially increased content on the GTF Advantage engine ramping from CY2026 through 2030. All material catalysts are aerospace/defense-driven, not robotics or automated-manufacturing driven.",
+  "sources": [
+    {
+      "label": "RBC Q1 FY2026 earnings call highlights (Yahoo)",
+      "url": "https://finance.yahoo.com/news/rbc-bearings-inc-rbc-q1-071459542.html"
+    },
+    {
+      "label": "RBC Bearings FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001324948/000121390026012574/ea027571601ex99-1_rbcbear.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Strict latent screen: backlog >$1B and GTF Advantage content gains are real but purely aerospace/defense, orthogonal to the robotics/automated-manufacturing repurposing thesis this page tests. No evidence the precision-bearing footprint is feeding the AI-node bottleneck. Prior hold stands.",
+      "primaryCatalyst": "Aerospace/defense backlog and GTF content ramp",
+      "primaryRisk": "Thesis is A&D-driven, not latent-AI; no robotics linkage",
+      "bull": "Record backlog, GTF Advantage content ramp, A&D aftermarket +22.6% give durable high-margin compounding.",
+      "neutral": "Strong cyclical exec, but no read-through to the AI-node/robotics latent pathway the screen prices.",
+      "bear": "Pure defense/aero cyclical; if AI-node thesis is the lens, RBC has zero incremental relevance."
+    }
+  ]
+}

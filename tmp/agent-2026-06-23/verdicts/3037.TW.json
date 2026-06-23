@@ -1,0 +1,48 @@
+{
+  "symbol": "3037.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Bullish but largely confirmatory since June 9: Unimicron targets a record 2026 on AI ABF + system-board demand (Jun 1 Taiwan News / DigiTimes), raised 2026 capex to a record NT$34B, with AI now ~60% of ABF revenue; BofA upgraded to Buy and Bernstein names it a top Taiwan AI pick. ABF tight-supply is now guided to persist through 2028.",
+  "sources": [
+    {
+      "label": "Unimicron targets record 2026 on AI / ABF push",
+      "url": "https://www.taiwannews.com.tw/news/6373911"
+    },
+    {
+      "label": "BofA upgrades Unimicron to Buy",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-securities-upgrades-unimicron-stock-to-buy-on-ai-growth-prospects-93CH-4398316"
+    },
+    {
+      "label": "ABF substrate sold out (Unimicron/Kinsus/Nan Ya)",
+      "url": "https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 91,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the residual-alpha-vs-passives lens the hidden/under-owned premise keeps eroding: +345% YTD, BofA Buy upgrade and Bernstein top-pick status make it consensus, and it trades ~2x MS's bull-case NT$500 target. Strong ABF tailwind is real but fully recognized; crowding pushes it down on this lens.",
+      "bull": "ABF sold out through 2028; record 2026 target; AI ~60% of ABF revenue.",
+      "neutral": "Thesis intact but now consensus; sell-side targets already exceeded.",
+      "bear": "+345% YTD trades ~2x bull-case target; zero residual hidden alpha; flow-driven.",
+      "primaryCatalyst": "ABF tight supply through 2028 / capacity ramp",
+      "primaryRisk": "Crowding/valuation reset; flow reversal"
+    },
+    {
+      "page": "companies",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "On the packaging/substrate-scarcity master list the bottleneck thesis is intact and modestly strengthening: ABF sold-out guidance extended through 2028, record capex, AI mix rising to ~60%. That is genuine choke-point reinforcement (vs pure price), warranting a small + while rank holds given already-high recognition.",
+      "bull": "Central ABF/advanced-substrate scarcity node; demand visibility to 2028; record capex backs supply.",
+      "neutral": "Bottleneck strong but rerating has priced much of it; execution/pricing to watch.",
+      "bear": "Substrate scarcity could ease faster than guided; +345% YTD leaves little margin for error.",
+      "primaryCatalyst": "ABF/HBM-attach substrate scarcity and capacity ramp",
+      "primaryRisk": "Substrate oversupply or AI capex air-pocket"
+    }
+  ]
+}

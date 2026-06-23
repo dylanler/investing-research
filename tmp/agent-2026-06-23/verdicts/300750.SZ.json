@@ -1,0 +1,27 @@
+{
+  "symbol": "300750.SZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The flagship humanoid-on-the-battery-line deployment (Xiaomo, Spirit AI) dates to December 2025; no fresh robotics milestone in the June window.",
+  "sources": [
+    {
+      "label": "CATL humanoid robot battery line (Dec 2025)",
+      "url": "https://www.scmp.com/tech/big-tech/article/3336939/chinas-catl-marks-trailblazing-deployment-humanoid-robots-scale-factory-floor"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the humanoid-stack lens CATL is a deployer/proof point, not a robotics pure-play. No new humanoid evidence since June 9; the Xiaomo line is a Dec-2025 datapoint. $268B battery mega-cap with thin humanoid signal stays mid-pack; hold, no fundamental change.",
+      "bull": "Real at-scale humanoid deployment in high-volume manufacturing; backs Spirit AI; demand-side validation of embodied AI.",
+      "neutral": "Mega-cap battery business where humanoids are marginal to the P&L; robotics beta only.",
+      "bear": "Robotics is immaterial to a battery giant; rank reflects narrative, not economics.",
+      "primaryCatalyst": "Broader humanoid factory rollout / Spirit AI scaling",
+      "primaryRisk": "Robotics remains a rounding error vs battery cycle"
+    }
+  ]
+}

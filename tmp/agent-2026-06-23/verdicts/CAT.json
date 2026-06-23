@@ -1,0 +1,31 @@
+{
+  "symbol": "CAT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new contract announcements in-window, but on June 22 CAT closed above $1,000 for the first time as management flagged a record ~$63B enterprise backlog (up ~79% y/y), driven by data-center Power & Energy demand. The marquee orders (AIP/Boyd 2GW Monarch, Joule/Wheeler 4GW Utah) were announced in January 2026 and predate the window.",
+  "sources": [
+    {
+      "label": "Caterpillar hits record high on AI data-center power demand",
+      "url": "https://www.ebc.com/forex/cat-stock-record-high-ai-power-demand"
+    },
+    {
+      "label": "Caterpillar 2GW alliance with AIP / Boyd CAT (Jan 2026)",
+      "url": "https://investors.caterpillar.com/news/news-details/2026/American-Intelligence--Power-Forms-Strategic-Alliance-with-Caterpillar-and-Boyd-CAT-to-Deploy-2-Gigawatts-of-Dedicated-Power-for-Hyperscale-AI-Infrastructure/default.aspx"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "Residual-alpha-vs-passives lens: record ~$63B backlog (+79% y/y) from data-center gensets is a real fundamental datapoint, but marquee orders predate the window and CAT remains a $457B diversified benchmark name far from the passive bottleneck. Tiny positive for backlog confirmation; hold rank.",
+      "bull": "Record $63B backlog with Power & Energy as lead driver confirms structural AI-genset demand pull-through.",
+      "neutral": "Backlog reflects already-announced orders; mega-cap diversification dilutes the AI-power signal.",
+      "bear": "+66% YTD and record-high price; far from the passive/power bottleneck stack, residual alpha thin.",
+      "primaryCatalyst": "Record data-center genset backlog conversion",
+      "primaryRisk": "Cyclicality / mega-cap dilution of AI exposure"
+    }
+  ]
+}

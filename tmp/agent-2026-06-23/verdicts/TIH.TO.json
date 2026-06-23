@@ -1,0 +1,31 @@
+{
+  "symbol": "TIH.TO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17, 2026 Toromont disclosed that its Power Systems unit (AVL Manufacturing) received confirmation of ~CAD$1 billion of firm orders for power generation/storage enclosures, primarily for data-center applications, with delivery substantially in 2027. The orders require incremental capacity beyond 2026; the company is acquiring land for a new Hamilton, Ontario facility and ramping Charlotte, NC production. This is the first hard data-center demand evidence behind the thesis.",
+  "sources": [
+    {
+      "label": "Toromont Power Systems update (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CAT-N/pressreleases/2524409/toromont-announces-update-on-power-systems-business/"
+    },
+    {
+      "label": "Toromont power systems update (Newswire)",
+      "url": "https://www.newswire.ca/news-releases/toromont-announces-update-on-power-systems-business-891034075.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 93,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.74,
+      "rankRationale": "June 17 AVL update converts the speculative 'equipment/service supports compute campuses' pathway into ~C$1B of firm data-center enclosure orders (2027 delivery) plus new-facility capex. First tangible AI-chain evidence since June 9; lifts residual latent alpha on this strict screen.",
+      "bull": "~C$1B firm data-center enclosure backlog + capacity expansion is hard, near-monopoly Cat-dealer-adjacent exposure to compute-campus power buildout.",
+      "neutral": "Real order but delivery mostly 2027; AVL is a minority of the group and stock already at 52-wk high near consensus target.",
+      "bear": "+41% YTD leaves little margin of safety; data-center enclosure demand is cyclical and a single large order can be lumpy.",
+      "primaryCatalyst": "~C$1B AVL data-center enclosure order book, 2027 delivery",
+      "primaryRisk": "Cyclical/lumpy power-systems orders; rich valuation"
+    }
+  ]
+}

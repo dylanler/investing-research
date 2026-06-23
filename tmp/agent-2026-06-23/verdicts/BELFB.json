@@ -1,0 +1,47 @@
+{
+  "symbol": "BELFB",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new fundamental catalyst since June 9. JPMorgan initiated coverage at Overweight on June 3 (just before the window), Bel Fuse was cited by Tema ETFs' CIO as an AI-power/grid-upgrade beneficiary, and a $0.07 dividend (ex-date Jul 15) was declared. Q1 2026 showed 17% sales growth with strength in defense/aerospace and AI data solutions, but that is prior-quarter context.",
+  "sources": [
+    {
+      "label": "Bel Fuse AI/defense growth, book-to-bill 1.3 (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4553485-bel-fuse-anticipates-continued-growth-in-aerospace-defense-space-and-ai-for-2026-as-book-to"
+    },
+    {
+      "label": "Bel Fuse dataMate acquisition (StockTitan)",
+      "url": "https://www.stocktitan.net/news/BELFA/bel-fuse-inc-announces-acquisition-of-data-mate-an-advanced-ethernet-7d3r0j33f4sk.html"
+    },
+    {
+      "label": "Bel Fuse 2026 outlook (AI/power, book-to-bill)",
+      "url": "https://seekingalpha.com/news/4553485-bel-fuse-anticipates-continued-growth-in-aerospace-defense-space-and-ai-for-2026-as-book-to"
+    },
+    {
+      "label": "Bel Fuse acquires dataMate",
+      "url": "https://www.stocktitan.net/news/BELFA/bel-fuse-inc-announces-acquisition-of-data-mate-an-advanced-ethernet-7d3r0j33f4sk.html"
+    },
+    {
+      "label": "Bel Fuse acquires dataMate - StockTitan",
+      "url": "https://www.stocktitan.net/news/BELFA/bel-fuse-inc-announces-acquisition-of-data-mate-an-advanced-ethernet-7d3r0j33f4sk.html"
+    },
+    {
+      "label": "Bel Fuse Q1 2026 earnings call - Benzinga",
+      "url": "https://www.benzinga.com/insights/news/26/04/52171684/bel-fuse-q1-2026-earnings-call-transcript"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Hold rank 39 in the crowded/rerated bucket. No new fundamentals since June 9; Q1, realignment and the May raise already known. Rack-power/magnetics exposure is sound but +73% YTD leaves little residual alpha vs passives. No-news +8.6% pop is not thesis-changing.",
+      "bull": "AI server power supplies, magnetics and OCP racks ride 48V/800VDC buildout; defense/AI bookings strong.",
+      "neutral": "Good operator, but already rerated; residual alpha thin on this page.",
+      "bear": "+73% YTD and a recent equity raise dilute asymmetry; small-cap, lumpy book.",
+      "primaryCatalyst": "Q2 print confirming AI/data-solutions power momentum",
+      "primaryRisk": "Crowding/valuation after the YTD rerating"
+    }
+  ]
+}

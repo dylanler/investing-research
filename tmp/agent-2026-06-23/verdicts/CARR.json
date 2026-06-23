@@ -1,0 +1,44 @@
+{
+  "symbol": "CARR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The data-center cooling pivot (Q1 +500% DC orders, ZutaCore stake, $1.5B 2026 DC target, Riello divestiture, ~3,000 job cuts) was disclosed with Q1 results earlier in 2026 and reaffirmed at conferences. Stock essentially flat (-0.4%) since June 9.",
+  "sources": [
+    {
+      "label": "Carrier Q1 beat driven by surging data-center orders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carrier-global-carr-9-1-141544440.html"
+    },
+    {
+      "label": "Carrier reshapes portfolio toward data-center cooling and buybacks",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-carr/carrier-global/news/carrier-global-reshapes-portfolio-toward-data-center-cooling"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: cooling/thermal exposure is real but Carrier sits farther from the passive/power bottleneck stack and the DC-cooling story is already known. No new evidence June 9-23; flat tape removes the prior crowding penalty's catalyst. Hold rank 57.",
+      "bull": "DC cooling orders surging (+500% Q1); ZutaCore liquid-cooling optionality; portfolio focus on high-margin climate.",
+      "neutral": "Story fully disclosed; megacap (~$59B) limits residual alpha vs passives.",
+      "bear": "AI-cooling exposure diluted in a large diversified HVAC franchise; +33% YTD already rewards the pivot.",
+      "primaryCatalyst": "Data-center liquid-cooling order ramp",
+      "primaryRisk": "Cyclical commercial HVAC / diluted AI exposure"
+    },
+    {
+      "page": "companies",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Under-owned-bottleneck list: power/cooling/electrical bottleneck thesis intact - DC cooling demand and QuantumLeap/ZutaCore stack remain central - but no new evidence since June 9. Rank 8 balances bottleneck exposure against valuation recognition. Hold.",
+      "bull": "Direct play on data-center thermal bottleneck with $1.5B 2026 DC target and liquid-cooling stack.",
+      "neutral": "Thesis reaffirmed at conferences, no fresh datapoint; rank already reflects recognition.",
+      "bear": "Large-cap dilution of the bottleneck; rerating risk after +33% YTD.",
+      "primaryCatalyst": "Data-center cooling demand / liquid-cooling adoption",
+      "primaryRisk": "HVAC cyclicality / valuation rerating"
+    }
+  ]
+}

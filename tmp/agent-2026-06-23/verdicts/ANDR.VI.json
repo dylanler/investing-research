@@ -1,0 +1,35 @@
+{
+  "symbol": "ANDR.VI",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The record Q1 2026 order intake of EUR 3.6B (hydropower +230% incl. 3GW Saidongar pumped-storage) and unchanged FY guidance (EUR 8.0-8.3B revenue) were reported in April and already known; management framed Q1 as timing-driven. Stock +3.8% since June 9 on no new catalyst.",
+  "sources": [
+    {
+      "label": "Andritz Hydro newsroom",
+      "url": "https://www.andritz.com/newsroom-en/hydro"
+    },
+    {
+      "label": "ANDRITZ Q1 2026 record order intake",
+      "url": "https://www.andritz.com/newsroom-en/news/2026-04-29-results-q1-2026-group"
+    },
+    {
+      "label": "Water Power: Andritz Q1 2026 hydro surge",
+      "url": "https://www.waterpowermagazine.com/news/andritz-hydropower-surge-drives-record-e3-6bn-order-intake-in-q1-2026/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "Strict latent-node lens: no new evidence since June 9 connecting Andritz's hydro/pumps/process-automation to constrained datacenter power/water. Recent hydro orders predate the window and were in Q1 intake. +3.8% drift is flow. Hold at 84 on this demanding screen.",
+      "bull": "Power/water systems and pumped storage could indirectly support datacenter power ecosystems.",
+      "neutral": "Diversified industrial; AI linkage remains thin and indirect.",
+      "bear": "No datacenter-specific demand signal; classic capital-goods cyclical.",
+      "primaryCatalyst": "Power-grid/pumped-storage orders tied to load growth.",
+      "primaryRisk": "Capital-goods cyclicality; no direct AI exposure."
+    }
+  ]
+}

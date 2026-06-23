@@ -1,0 +1,52 @@
+{
+  "symbol": "ANET",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Arista launched its 1.6T 7060XE7 portfolio for AI fabrics on June 9, with endorsements from Meta, Microsoft (Azure Maia), and Oracle and an AMD scale-out collaboration — 100 Tb/s aggregate and ~60% lower interconnect power via Linear Pluggable Optics. This confirms/extends the AI-Ethernet thesis already cited in the prior 'up' case. Stock +7.6% since June 9.",
+  "sources": [
+    {
+      "label": "Arista raises AI Ethernet outlook (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-anet/arista-networks/news/how-investors-may-respond-to-arista-networks-anet-raising-ai"
+    },
+    {
+      "label": "Arista doubles 2026 AI target (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-anet/arista-networks/news/arista-doubles-2026-ai-target-as-open-ethernet-role-expands"
+    },
+    {
+      "label": "Arista 1.6T portfolio press release",
+      "url": "https://www.arista.com/en/company/news/press-release/24102-pr-20260609"
+    },
+    {
+      "label": "StockTitan: Arista 1.6T with Meta/Microsoft ties",
+      "url": "https://www.stocktitan.net/news/ANET/arista-introduces-next-generation-1-6terabit-portfolio-for-ai-lo9sf3ahqmli.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Residual-alpha-vs-passives lens: ANET's AI-networking thesis is strong but the catalysts (raised AI Ethernet guide, 1.6T launch) are already known and were captured pre-June 9. The +7.6% bounce removes some of the asymmetry the prior case credited. It remains a $207B widely-owned benchmark far from the passive/power core. Hold.",
+      "bull": "Open-Ethernet share gains as AI clusters shift off InfiniBand; AI revenue more than doubling in 2026.",
+      "neutral": "Catalyst already priced; name sits far from this page's passive/power bottleneck.",
+      "bear": "Heavily owned $207B benchmark with Meta/Microsoft concentration; little residual alpha here.",
+      "primaryCatalyst": "AI Ethernet revenue ramp toward the raised ~$3.25B target.",
+      "primaryRisk": "Hyperscaler capex concentration and crowding."
+    },
+    {
+      "page": "companies",
+      "currentRank": 24,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck list, optical/high-speed-networking bucket: the prior 'up' premise is now confirmed — the 1.6T 7060XE7 launch (Jun 9) with Meta/Microsoft/Oracle/AMD endorsements strengthens the scale-out bandwidth/optics thesis. Fundamental support firmer; sustain the up-move.",
+      "bull": "1.6T rack-scale systems with LPO and broad hyperscaler endorsement deepen scale-out fabric leadership.",
+      "neutral": "Thesis confirmed rather than transformed; demand was already expected.",
+      "bear": "White-box/merchant-silicon competition and customer concentration (Meta/Microsoft).",
+      "primaryCatalyst": "1.6T AI-Ethernet ramp and AMD scale-out NIC collaboration",
+      "primaryRisk": "Hyperscaler in-house/white-box switching encroachment"
+    }
+  ]
+}

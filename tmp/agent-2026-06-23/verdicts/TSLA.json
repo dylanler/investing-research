@@ -1,0 +1,31 @@
+{
+  "symbol": "TSLA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific catalyst since June 9. Q1 2026 results (revenue $22.4B, +16% YoY) were April; robotaxi service expanded to Dallas/Houston with paid miles roughly doubling sequentially; Optimus large-scale factory prep begun at Fremont with a next-gen unveiling targeted for late-July/August; 2026 capex raised to >$25B. All pre-window, so no fresh fundamental signal for the robotics ranking.",
+  "sources": [
+    {
+      "label": "Tesla signals >$25B capex, Optimus late-Jul/Aug, robotaxi expansion (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4578385-tesla-signals-over-25b-2025minus-2026-capex-as-it-targets-optimus-production-by-late-july"
+    },
+    {
+      "label": "Tesla Q1 2026 earnings report (CNBC)",
+      "url": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens: Tesla is the obvious, not hidden, humanoid name. No new in-window catalyst (Optimus unveiling still targeted late-July/Aug; robotaxi expansion already known). At $1.45T cap with -12% YTD, generic humanoid beta still outweighs hidden-alpha purity. Hold.",
+      "bull": "Largest-scale humanoid effort with a dedicated Fremont Optimus line and a late-summer next-gen unveiling that could re-rate the robotics narrative.",
+      "neutral": "Essential humanoid infrastructure exposure but fully obvious and richly valued; robotaxi progress real but priced as option value.",
+      "bear": "$1.45T cap leaves little hidden alpha; Optimus commercialization unproven and EV core under pressure (-12% YTD).",
+      "primaryCatalyst": "Late-July/August next-gen Optimus unveiling and first large-scale production line.",
+      "primaryRisk": "Optimus/robotaxi commercialization slips while valuation stays demanding."
+    }
+  ]
+}

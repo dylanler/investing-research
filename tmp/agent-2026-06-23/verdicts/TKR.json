@@ -1,0 +1,31 @@
+{
+  "symbol": "TKR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The re-rating drivers (Q1 beat, raised FY26 EPS to $4.70-$5.20, May Investor Day 2028 targets, Bijur Delimon acquisition closed March, and an active acquisition pipeline incl. humanoid-robotics interest) are all pre-cutoff and were captured by the June 9 verdict.",
+  "sources": [
+    {
+      "label": "Timken Q1 2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000098362/000009836226000029/tkrq12026exhibit991.htm"
+    },
+    {
+      "label": "Timken humanoid robotics M&A focus (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-tkr/timken/news/the-bull-case-for-timken-tkr-could-change-following-new-buyb/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No fresh fundamental evidence since June 9. The bearings/motion-into-robotics thesis is already well-supported by the known Q1 blowout, raised FY guidance and humanoid-robotics M&A pipeline; nothing new strengthens or weakens the alpha case, so hold on this strict screen.",
+      "bull": "Industrial Motion at segment-record +12%; explicit humanoid-robotics M&A pipeline makes TKR a real precision-motion bottleneck play.",
+      "neutral": "Robotics exposure is embedded and small today; rerating already reflects raised guidance and sell-side upgrades.",
+      "bear": "+62% YTD and crowded sell-side leave the name fully valued; robotics revenue is still aspirational.",
+      "primaryCatalyst": "Humanoid-robotics M&A / Industrial Motion growth",
+      "primaryRisk": "Stretched valuation after +62% YTD; cyclicality"
+    }
+  ]
+}

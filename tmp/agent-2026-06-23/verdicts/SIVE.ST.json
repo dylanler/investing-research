@@ -1,0 +1,35 @@
+{
+  "symbol": "SIVE.ST",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "One incremental governance item since June 9: on June 15 the board withdrew agenda items 14-16 from the 2026 AGM amid a boardroom reset - Vice Chairman Tomas Duffy and founders Erik Fallstrom and Keith Halsey resigned, with Joakim Nideborn and Helena Svancar joining. The core thesis driver, the June 2 GlobalFoundries collaboration (Sivers laser arrays into GF silicon-photonics / SCALE CPO/LPO reference designs), predates June 9. Stock +14.4% since June 9.",
+  "sources": [
+    {
+      "label": "Sivers & GlobalFoundries advance AI data-center optics (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/sivers--globalfoundries-advance-ai-data-center-optical-solutions-302788035.html"
+    },
+    {
+      "label": "Sivers withdraws AGM agenda items 14-16 (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-withdraws-items-from-the-agenda-of-the-2026-annual-general-meeting-302800031.html"
+    },
+    {
+      "label": "Sivers boardroom reset fuels surge (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sivers-semiconductors-boardroom-reset-fuels-43-percent-monthly-surge-as/69602616"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.5,
+      "rankRationale": "On the CPO/photonics alpha lens the GF laser-array-into-SCALE collaboration is exactly the thesis - small-cap, high-leverage CPO exposure. But the GF deal predates June 9 and the only new item, the June 15 AGM withdrawal and board resignations (founders + vice-chair out), is a governance flag that re-opens execution/validation risk on a ~1,945% YTD single-bundle name. Hold with a small negative tilt.",
+      "primaryCatalyst": "GlobalFoundries silicon-photonics/SCALE CPO/LPO reference-design wins for Sivers laser arrays.",
+      "primaryRisk": "Board turmoil/governance, single-bundle validation risk, extreme YTD re-rate.",
+      "bull": "GF partnership puts Sivers lasers into a leading CPO platform - asymmetric optical-bottleneck upside for a $3B-cap name.",
+      "neutral": "Right thesis, but a fresh board reset and parabolic move offset the GF optionality.",
+      "bear": "Founder/vice-chair exits and withdrawn AGM items raise governance risk on a thinly-validated, hyper-extended stock."
+    }
+  ]
+}

@@ -166,7 +166,7 @@ async function loadReportData(): Promise<ReportData> {
     tag: 'YF',
     title: 'Yahoo Finance chart endpoint',
     url: 'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d',
-    usedFor: 'June 9, 2026 latest prices and YTD return refresh for public stock-exposure proxies.',
+    usedFor: 'June 23, 2026 latest prices and YTD return refresh for public stock-exposure proxies.',
   });
 
   const humanTotalPce = sum(humanPartition.map((row) => row.spend2025));

@@ -1,0 +1,31 @@
+{
+  "symbol": "PWH.AX",
+  "company": "PWR Holdings",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Australian Retirement Trust lifted its stake to 6.23% (filed June 12), a mild ownership signal. The latest hard catalyst remains the January 2026 US$9.1M US-government aerospace cooling follow-on, already in the score. (Note: a June 1 'Peter Warren Automotive' guidance cut relates to a different ASX:PWR ticker, not PWR Holdings.)",
+  "sources": [
+    {
+      "label": "Australian Retirement Trust lifts PWR Holdings stake to 6.23% (Kalkine)",
+      "url": "https://kalkine.com.au/news/announcements/australian-retirement-trust-lifts-pwr-holdings-stake-to-623-after-series-of-on-market-trades"
+    },
+    {
+      "label": "PWR Holdings US$9.1M aerospace follow-on (Proactive)",
+      "url": "https://www.proactiveinvestors.com/companies/news/1085457/pwr-gains-6-3-after-securing-a-us-9-1-million-us-government-follow-on-contract-1085457.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "No material company news; the institutional stake increase is a mild signal, not a thermal-thesis catalyst. The pre-discovery motorsport/aerospace-to-datacenter cooling asymmetry is neither newly validated nor crowded, so the strict-screen #2 / Non-US#1 placement holds.",
+      "primaryCatalyst": "Repurposing aerospace/motorsport cooling for data-center thermal",
+      "primaryRisk": "Buyer discovery hasn't happened; thesis remains speculative",
+      "bull": "Proven high-performance heat-exchanger IP and defense/aerospace wins could be discovered by data-center thermal buyers before peers.",
+      "neutral": "No catalyst since January; quality micro-cap thermal optionality awaiting validation.",
+      "bear": "Niche motorsport/aerospace revenue base; data-center cooling pivot is unproven and small-cap illiquid."
+    }
+  ]
+}

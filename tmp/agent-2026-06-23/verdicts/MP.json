@@ -1,0 +1,31 @@
+{
+  "symbol": "MP",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 22, 2026 China's Ministry of Commerce added MP Materials (and USA Rare Earth) to its export control list, barring Chinese exporters from supplying dual-use items to MP. As a US-domestic, Pentagon-backed (~15% owned) producer this is largely symbolic for sales but reinforces the strategic-independence narrative; MP rose ~10% since June 9 amid a sector rally on escalating China tensions. Prior DoD/Apple deals are 2025 history.",
+  "sources": [
+    {
+      "label": "StockTitan: China adds MP Materials to export control list (June 2026)",
+      "url": "https://www.stocktitan.net/articles/china-rare-earth-export-controls-mp-usa-rare-earth-june-2026"
+    },
+    {
+      "label": "MP Materials: DoD public-private partnership",
+      "url": "https://mpmaterials.com/news/mp-materials-announces-transformational-public-private-partnership-with-the-department-of-defense-to-accelerate-u-s-rare-earth-magnet-independence/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "Humanoid-stack lens treats magnets as a physical-AI bottleneck and MP as the liquid strategic-materials proxy beside Mkango. China's June 22 export-control listing + sector rally sharpen the domestic-bottleneck value (restricts MP's inputs, not its US sales) and validate the choke-point thesis vs June 9 hold.",
+      "bull": "Only fully integrated US rare-earth magnet producer, Pentagon-backed with above-market price floor; China escalation underscores its strategic-bottleneck value.",
+      "neutral": "Listing is symbolic for a domestic producer; the move is partly sector beta, not company-specific gain.",
+      "bear": "Less hidden than micro-cap peers; trade-war volatility and input restrictions add policy risk.",
+      "primaryCatalyst": "US rare-earth-independence policy and 10X magnet capacity ramp",
+      "primaryRisk": "China retaliation on inputs; trade-policy volatility and execution on capacity"
+    }
+  ]
+}

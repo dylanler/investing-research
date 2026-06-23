@@ -1,0 +1,31 @@
+{
+  "symbol": "ETN",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The Q1 record print (EPS $2.22, +17% sales, data-center orders +240%, $19.6B committed orders) was reported in early May, and the NVIDIA Beam Rubin DSX collaboration and Boyd Thermal liquid-cooling deal were already known. Stock +2.7% since June 9.",
+  "sources": [
+    {
+      "label": "Eaton surged on data-center power demand (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-surged-accelerated-demand-135055504.html"
+    },
+    {
+      "label": "Eaton record Q4/2026 outlook (Eaton)",
+      "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-fourth-quarter-2025-results.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "No fresh fundamental news since June 9 on the grid/switchgear bottleneck. The +240% data-center order growth, $19.6B backlog and NVIDIA Beam Rubin DSX / Boyd Thermal cooling were already in the prior up-call. +2.7% move is drift; the YTD-compression asymmetry that drove the Jun 9 upgrade is now largely captured. Hold.",
+      "bull": "Electrical Americas orders +60% (data-center +240%), 48% backlog growth, NVIDIA HVDC partnership and Boyd liquid-cooling deepen grid-to-chip exposure.",
+      "neutral": "Megatrend fully recognized; YTD +26% leaves less residual under-ownership; execution-dependent backlog conversion.",
+      "bear": "Crowded power-bottleneck trade; data-center capex digestion risk; rich multiple vs. cyclical industrial base.",
+      "primaryCatalyst": "Q2 orders/backlog and raised guidance; NVIDIA Rubin ramp",
+      "primaryRisk": "AI capex pause or order normalization"
+    }
+  ]
+}

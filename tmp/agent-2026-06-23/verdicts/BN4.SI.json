@@ -1,0 +1,31 @@
+{
+  "symbol": "BN4.SI",
+  "company": "Keppel",
+  "caseDate": "2026-06-23",
+  "newsSince": "The catalyst on this name — Keppel Data Centre Fund III securing land for a 60MW greenfield AI data center in Ansan, South Korea (KDCF III ~73% SPV stake, construction permits and power approvals in hand, RFS by 2030) — was the June 9 announcement already incorporated into the prior 'up' verdict. No genuinely new on-thesis evidence since then.",
+  "sources": [
+    {
+      "label": "Keppel enters South Korea DC market, 60MW Ansan facility (DCD)",
+      "url": "https://www.datacenterdynamics.com/en/news/keppel-to-enter-south-korean-data-center-market-plans-60mw-facility-in-seoul/"
+    },
+    {
+      "label": "Keppel secures land for DC development in South Korea (Yahoo Finance)",
+      "url": "https://sg.finance.yahoo.com/news/keppel-secures-land-data-centre-154610471.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Under-owned-bottleneck master list: the Ansan DC pipeline (power approvals in hand) is exactly the physical-deployment exposure this page rewards, but it was the Jun 9 catalyst already credited in the prior 'up'. No new evidence since; hold the gain.",
+      "bull": "Ansan extends DC development pipeline into Korea with power secured; Seoul metro DC demand ~2.3GW by 2030.",
+      "neutral": "Catalyst now known and partly reflected; RFS not until 2030, long monetization lead.",
+      "bear": "Stock +5.7% since Jun 9 starts to re-rate the news; broad conglomerate dilutes pure DC exposure.",
+      "primaryCatalyst": "Execution and expansion of the Korea/Asia data-center development pipeline.",
+      "primaryRisk": "Long build timeline and capital intensity; conglomerate discount."
+    }
+  ]
+}

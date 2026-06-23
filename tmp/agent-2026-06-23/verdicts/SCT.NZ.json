@@ -1,0 +1,31 @@
+{
+  "symbol": "SCT.NZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. The most recent event was 1H FY2026 results (revenue NZ$128.2m up 5.3%, net income ~NZ$4.34m flat, margin slipped to 3.4%) reported earlier in the period; no new NZX contract, guidance or order announcement since June 9.",
+  "sources": [
+    {
+      "label": "Scott Technology - Simply Wall St (1H FY26 results)",
+      "url": "https://simplywall.st/stocks/nz/capital-goods/nzx-sct/scott-technology-shares"
+    },
+    {
+      "label": "Scott Technology NZX announcements (BusinessDesk)",
+      "url": "https://businessdesk.co.nz/company/scott-technology"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Industrial automation/robotics scaling fit unchanged since June 8 hold. 1H results were flat-to-soft (margin down to 3.4%), no new order or guidance, -3% day move is no-news drift. Nothing new strengthens or weakens the physical-AI scaling case; hold at #6.",
+      "bull": "Meat-processing/mining-lab/materials-handling automation franchise with real deployed robotics revenue.",
+      "neutral": "Small-cap ($0.13B) automation house growing low single digits; thesis static.",
+      "bear": "Margin compression in 1H, -12% YTD; not a pure AI-scaling play, more legacy industrial automation.",
+      "primaryCatalyst": "New automation contract / FY26 order book update",
+      "primaryRisk": "Margin erosion from cost inflation; cyclical capex demand"
+    }
+  ]
+}

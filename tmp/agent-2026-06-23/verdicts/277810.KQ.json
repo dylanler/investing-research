@@ -1,0 +1,39 @@
+{
+  "symbol": "277810.KQ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Two offsetting developments since June 9: (1) prosecutors raided Samsung Electronics HQ on June 11 in an insider-trading probe tied to Rainbow becoming a Samsung subsidiary, and questioned founder Oh Jun-ho — a governance/overhang negative; (2) on June 15 Rainbow placed its RB-Y1 mobile dual-arm robot in a Coupang fulfillment center for a pilot, its first reported move from lab to a live commercial floor — a genuine commercialization data point.",
+  "sources": [
+    {
+      "label": "TechTimes: Rainbow RB-Y1 in Coupang warehouse",
+      "url": "https://www.techtimes.com/articles/318386/20260615/samsung-backed-rainbow-robotics-puts-its-dual-arm-robot-work-coupang-warehouse.htm"
+    },
+    {
+      "label": "Seoul Economic: Prosecutors raid Samsung over Rainbow insider trading",
+      "url": "https://en.sedaily.com/society/2026/06/11/prosecutors-raid-samsung-electronics-hq-over-rainbow"
+    },
+    {
+      "label": "SeoulEconomicDaily: prosecutors raid Samsung over Rainbow insider probe",
+      "url": "https://en.sedaily.com/society/2026/06/11/prosecutors-raid-samsung-electronics-hq-over-rainbow"
+    },
+    {
+      "label": "TechTimes: RB-Y1 dual-arm robot in Coupang warehouse",
+      "url": "https://www.techtimes.com/articles/318386/20260615/samsung-backed-rainbow-robotics-puts-its-dual-arm-robot-work-coupang-warehouse.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Mixed since June 9: Coupang RB-Y1 pilot is a genuine commercialization positive, offset by a Samsung-stake insider-trading raid that pressures sentiment (overhang is on Samsung, not Rainbow's tech). Net neutral to thesis; still a crowded, already-repriced direct humanoid name. Hold.",
+      "bull": "Samsung-backed direct humanoid builder with live warehouse deployment (Coupang); strategic factory-automation roadmap to 2030.",
+      "neutral": "Real commercialization progress but offset by governance noise; valuation already rich.",
+      "bear": "Insider-trading probe clouds the Samsung relationship; crowded, expensive direct-humanoid beta.",
+      "primaryCatalyst": "Scaling RB-Y1 deployments and Samsung factory robotics rollout.",
+      "primaryRisk": "Governance/legal overhang and stretched valuation."
+    }
+  ]
+}

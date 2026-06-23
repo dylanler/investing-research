@@ -1,0 +1,31 @@
+{
+  "symbol": "WJX.TO",
+  "company": "Wajax",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. Q1 2026 results (revenue -9.5% to C$502.1M, gross margin +150bps to 20.6%) were reported May 4, and the Q2 dividend ($0.35) was declared with a June 15 record date - both pre-window. A +0.36% move on a sleepy C$0.47B distributor reflects nothing new.",
+  "sources": [
+    {
+      "label": "Wajax Q1 2026 results (May 4)",
+      "url": "https://investors.wajax.com/2026-05-04-WAJAX-ANNOUNCES-2026-FIRST-QUARTER-RESULTS"
+    },
+    {
+      "label": "Wajax press releases (Yahoo)",
+      "url": "https://ca.finance.yahoo.com/quote/WJX.TO/press-releases/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.8,
+      "rankRationale": "Strict latent-node lens: the AI-supply-chain link (pumps/MRO/service optionality into reshoring) is thin and unchanged. No new evidence since June 9; Q1 and dividend both pre-window. Rank 61 stands.",
+      "primaryCatalyst": "Canadian industrial reshoring / backlog conversion",
+      "primaryRisk": "No durable AI-chain exposure; cyclical equipment demand softening",
+      "bull": "Diversified industrial distributor with improving gross margin and solid backlog; cheap C$0.47B name.",
+      "neutral": "Sleepy distributor; AI-node tie is qualitative optionality, not a real revenue driver.",
+      "bear": "Revenue declining (-9.5% Q1); no AI exposure to justify a strict latent-node slot."
+    }
+  ]
+}

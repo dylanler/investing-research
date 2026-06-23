@@ -1,0 +1,44 @@
+{
+  "symbol": "7735.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new single contract since June 9, but SCREEN's FY3/27 guidance (sales +19.7% to JPY725B, OP +22.4%) reaffirms strong AI-driven HBM/DDR/foundry and OLED capex, supporting the memory-capex linkage. Shares are caught in the same US legislative export-control push aimed at WFE sales to China (House Select Committee / MATCH Act).",
+  "sources": [
+    {
+      "label": "Yahoo Finance - SCREEN Holdings",
+      "url": "https://finance.yahoo.com/quote/7735.T/"
+    },
+    {
+      "label": "House China hawks urge bans on chipmaking equipment (The Hill)",
+      "url": "https://thehill.com/policy/technology/5545901-semiconductor-equipment-export-control/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.55,
+      "rankRationale": "AI-node lens: FY3/27 guidance reaffirming HBM/DDR/foundry capex keeps SCREEN a direct memory-capex beneficiary, a modest fundamental positive vs Jun 9. But the new US export-control legislative push (MATCH Act) is an emerging China-WFE risk; +102% YTD already prices the upside, so hold.",
+      "bull": "FY3/27 guide +20% sales confirms AI-fab/HBM capex ramp; ~45% share in cleaning tools makes SCREEN a direct AI-node beneficiary.",
+      "neutral": "Guidance reaffirms a known thesis; melt-up since Jun 9 is largely sector flow rather than new orders.",
+      "bear": "US legislative push to extend China WFE bans threatens order book; expectations now elevated at +102% YTD.",
+      "primaryCatalyst": "HBM/DDR capacity adds; next quarterly orders",
+      "primaryRisk": "US/Japan China export-control tightening; capex-cycle timing"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "CPO lens: SCREEN is an indirect cleaning/process-complexity beneficiary, not optics-specific. FY3/27 guidance is supportive of front-end intensity but offers no new co-packaged-optics angle since Jun 9. Hold; the melt-up makes it more crowded, not more CPO-relevant.",
+      "bull": "Process-complexity at advanced nodes/packaging keeps cleaning demand structurally high.",
+      "neutral": "No CPO-specific catalyst; relevance to this lens is indirect and unchanged.",
+      "bear": "Pure capex-cycle name with no optical/packaging hook; +102% YTD adds crowding.",
+      "primaryCatalyst": "Advanced-node and packaging process intensity",
+      "primaryRisk": "Capex cycle; no direct CPO exposure"
+    }
+  ]
+}

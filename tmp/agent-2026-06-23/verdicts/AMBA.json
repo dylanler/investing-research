@@ -1,0 +1,57 @@
+{
+  "symbol": "AMBA",
+  "company": "Ambarella",
+  "caseDate": "2026-06-23",
+  "newsSince": "Ambarella held its inaugural quarterly Industry Analyst Briefing on June 4 to showcase its edge-AI portfolio across automotive, IoT, physical security and robotics, reinforcing the >$800M, 10-year Hanwha edge-AI SoC agreement. In recent days a GoPro patent win against Insta360 created a modest overhang for the action-camera partner ecosystem. Net: edge-AI momentum intact, no company-specific fundamental break.",
+  "sources": [
+    {
+      "label": "Ambarella edge-AI analyst briefing reframes GTM",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/did-ambarella-edge-ai-analyst-051336579.html"
+    },
+    {
+      "label": "GoPro/Insta360 patent overhang on AMBA ecosystem",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amba/ambarella/news/is-gopros-win-casting-a-longer-shadow-on-ambarellas-amba-edg/amp"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On a node-bottleneck list AMBA still has no direct HBM/CPO/advanced-packaging/test exposure; edge-AI/analyst-briefing news does not create compute-node centrality. Pending-removal posture stands; nothing since prior case changes node relevance, so hold at zero.",
+      "bull": "Edge-AI/auto SoC momentum and Hanwha deal show end-market traction.",
+      "neutral": "Edge inference is adjacent to, not part of, the AI-node bottleneck this page ranks.",
+      "bear": "No HBM/CPO/packaging/test centrality; -10% YTD reflects cyclical demand, not scarcity.",
+      "primaryCatalyst": "Edge-AI/automotive SoC ramp",
+      "primaryRisk": "Lacks direct AI-node bottleneck exposure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 79,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Through a co-packaged-optics lens AMBA remains weakly relevant: no optical/CPO evidence emerged since prior case. Analyst briefing and GoPro overhang are not CPO-chain news, so hold at zero rather than double-count the prior remove case.",
+      "bull": "Useful edge-AI ecosystem node with broadening end markets.",
+      "neutral": "Watchlist name; no co-packaged-optics linkage.",
+      "bear": "Single-bundle validation risk and zero CPO relevance limit fit on this page.",
+      "primaryCatalyst": "Edge-AI design wins",
+      "primaryRisk": "Weak CPO-chain relevance"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the humanoid/robotics stack AMBA is a strong fit for local perception under power/latency limits. June 4 analyst briefing explicitly highlighted robotics, and the Hanwha edge-AI deal spans robotics, a modest positive. GoPro overhang is camera-specific, not robotics, so a small fundamental tick within a hold.",
+      "bull": "Power/latency-efficient edge perception plus robotics-focused Hanwha SoC deal fit humanoid stack.",
+      "neutral": "More discovered than ARBE but still less crowded than NVDA/QCOM in robotics.",
+      "bear": "Camera-ecosystem patent noise and IoT cyclicality could weigh on sentiment.",
+      "primaryCatalyst": "Edge perception SoCs for robotics (Hanwha)",
+      "primaryRisk": "Demand cyclicality / patent ecosystem noise"
+    }
+  ]
+}

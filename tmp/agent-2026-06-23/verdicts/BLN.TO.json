@@ -1,0 +1,35 @@
+{
+  "symbol": "BLN.TO",
+  "company": "Blackline Safety",
+  "caseDate": "2026-06-23",
+  "newsSince": "Decisive: on June 15, 2026 shareholders APPROVED the plan of arrangement with a Francisco Partners affiliate (Apollo Purchaser) — C$9.00 cash per share plus one CVR worth up to C$0.50 tied to an FY2027 ARR target. Deal proceeds to closing; the stock delists on completion. The arbitrage spread is now essentially fully realized.",
+  "sources": [
+    {
+      "label": "Blackline shareholders approve arrangement (BusinessWire, Jun 15)",
+      "url": "https://www.businesswire.com/news/home/20260615573442/en/Blackline-Safety-Shareholders-Approve-Arrangement-with-Francisco-Partners"
+    },
+    {
+      "label": "Proxy advisors recommend FOR (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260604758725/en/Two-Leading-Independent-Proxy-Advisory-Firms-Recommend-Shareholders-Vote-FOR-the-Arrangement-with-Francisco-Partners"
+    },
+    {
+      "label": "Blackline Q2 2026 + transaction update (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260610185221/en/Blackline-Safety-Announces-Q2-2026-Results-and-Provides-Update-on-Francisco-Partners-Transaction"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 90,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.9,
+      "rankRationale": "Strict latent-alpha lens: the June 15 shareholder approval removes the last conditionality — at C$9.03 vs C$9.00 cash + ~C$0.50 CVR stub, the name is terminally capped and delists on close. No latent AI-supply-chain optionality can be expressed once private; decisive down on this evidence-gated page.",
+      "bull": "Deal-certain: C$9.00 cash plus a CVR worth up to C$0.50 on an FY27 ARR hurdle offers a small risk-light stub.",
+      "neutral": "Pure merger-arb now; upside is fixed at the cash price with only the CVR optionality.",
+      "bear": "Latent AI-node thesis is moot — shareholders approved the take-private and the stock delists on close.",
+      "primaryCatalyst": "Deal close and the CVR FY2027 ARR payout.",
+      "primaryRisk": "CVR expires worthless if the FY2027 ARR target is missed."
+    }
+  ]
+}

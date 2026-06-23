@@ -1,0 +1,40 @@
+{
+  "symbol": "3034.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The relevant datapoint remains Q1 2026 (reported early May): sequential recovery led by SoC/large driver ICs with strong Q2 double-digit growth guidance, but the recovery is notebook/tablet/TV display-cycle driven, not HBM/advanced-packaging/AI-networking.",
+  "sources": [
+    {
+      "label": "Novatek FY25 results & Q1/Q2 2026 outlook",
+      "url": "https://finance.biggo.com/news/twse_major_3034_1150206_163705"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 53,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "On the AI-node bottleneck lens Novatek has no claim to a top-55 node: the recovery is display-cycle (notebook/tablet/TV DDIC + SoC), not HBM/advanced-packaging/AI-networking. No new AI-relevant evidence since June 9; +48% YTD on a display name keeps eroding residual alpha. Continue down/out.",
+      "bull": "Strong Q2 double-digit guidance; high-end SoC/display IC recovery; cash-rich, well-run.",
+      "neutral": "Cyclical recovery confirmed but display-led, with no AI-bottleneck exposure.",
+      "bear": "Consumer/display-cycle name mis-ranked on an AI-node map; rerating outpaces the thesis.",
+      "primaryCatalyst": "Display upgrade cycle / new high-end SoC products",
+      "primaryRisk": "Consumer/display-cycle downturn; no AI choke-point lever"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 112,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "On the CPO lens Novatek has effectively zero co-packaged-optics/silicon-photonics relevance; it is a display/consumer IC house. No new evidence since June 9 and +48% YTD worsens the asymmetry versus cleaner photonics/substrate names. Stays a remove candidate near the bottom.",
+      "bull": "Profitable, recovering display IC franchise with Q2 momentum.",
+      "neutral": "No CPO/HBM/packaging relevance; cycle recovery only.",
+      "bear": "Weakest-relevance name on a CPO list; should be removed from actionable alpha.",
+      "primaryCatalyst": "Display cycle recovery",
+      "primaryRisk": "No optical/CPO lever; consumer-cycle exposure"
+    }
+  ]
+}

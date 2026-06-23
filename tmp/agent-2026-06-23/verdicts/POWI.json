@@ -1,0 +1,57 @@
+{
+  "symbol": "POWI",
+  "company": "Power Integrations",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new material company-specific news since June 9. The NVIDIA Kyber 800VDC ultra-slim auxiliary PSU reference designs (1,700V PowiGaN InnoMux-2) were announced June 1, predate the window and were already in the prior case. Routine AGM/say-on-pay vote passed; no new guidance.",
+  "sources": [
+    {
+      "label": "Power Integrations Kyber 800VDC PSU designs (IR, June 1)",
+      "url": "https://investors.power.com/news/news-details/2026/Power-Integrations-Unveils-Space-Saving-Ultra-Slim-Auxiliary-PSU-Reference-Designs-for-NVIDIA-Kyber-800-VDC-AI-Data-Center/default.aspx"
+    },
+    {
+      "label": "PowiGaN for AI data centers",
+      "url": "https://www.power.com/ai-data-center"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "No genuinely new info since June 1 Kyber 800VDC designs, already reflected. On this residual-alpha list the +120% YTD rerating limits hidden alpha; direct power-bottleneck exposure stays attractive but no new catalyst justifies a second consecutive move. Hold at 15.",
+      "bull": "1,700V PowiGaN positions POWI in NVIDIA 800VDC AI rack power; direct, AI-adjacent bottleneck content.",
+      "neutral": "Design-in optionality real but already priced after a +120% YTD run; residual alpha thinning.",
+      "bear": "Industrial/consumer power cycle exposure; supply-risk downgrade flagged; rich valuation.",
+      "primaryCatalyst": "800VDC/Kyber GaN content ramp into AI data-center power.",
+      "primaryRisk": "Consumer/industrial cyclicality and valuation after large rerating."
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "Through the AI-node-bottleneck lens POWI remains analog/power, less direct than HBM, advanced packaging or AI networking nodes. Nothing since June 1 changes node centrality; prior verdict already demoted it. Hold at 87.",
+      "bull": "GaN power content gains relevance as 800VDC AI racks scale; differentiated high-voltage IP.",
+      "neutral": "Adjacent to the core AI-node bottleneck, not on the critical HBM/packaging path.",
+      "bear": "Power/analog cyclicality; not a direct compute-supply chokepoint on this page.",
+      "primaryCatalyst": "AI data-center 800VDC GaN adoption.",
+      "primaryRisk": "Limited node centrality versus HBM/packaging/networking peers."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "On the co-packaged-optics lens the CPO-specific link stays weak; data-center power matters but is not optics content. No new CPO-relevant evidence since June 1; page already demoted POWI. Hold at 93, no compounding.",
+      "bull": "Data-center power demand rises alongside CPO buildouts, indirect tailwind.",
+      "neutral": "Power exposure real but tangential to the co-packaged-optics thesis.",
+      "bear": "No CPO content; industrial/consumer power cycle drives the stock, not optics.",
+      "primaryCatalyst": "Broad AI data-center power capex.",
+      "primaryRisk": "Weak/absent CPO linkage on this specialized page."
+    }
+  ]
+}

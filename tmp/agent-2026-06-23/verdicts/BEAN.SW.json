@@ -1,0 +1,47 @@
+{
+  "symbol": "BEAN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "In June 2026 Belimo launched the Energy Valve 4 (integrated thermal-energy monitoring) and cited strong Q1 momentum driven by data-center adoption, prompting an outlook upgrade; it is also opening a Danbury, CT data-center cooling Application Center in 2026. Reinforces the data-center/liquid-cooling HVAC thesis, but the name is well-covered and richly valued.",
+  "sources": [
+    {
+      "label": "Belimo Energy Valve 4 (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/quiet-efficiency-in-hvac-control-belimo-energy-valve-4-sets-a-data-driven/69544673"
+    },
+    {
+      "label": "Belimo higher target from AI data-center cooling (Finimize)",
+      "url": "https://finimize.com/content/belimo-gets-a-higher-target-price-from-ai-data-center-cooling"
+    },
+    {
+      "label": "Belimo data-center cooling target/momentum",
+      "url": "https://finimize.com/content/belimo-gets-a-higher-target-price-from-ai-data-center-cooling"
+    },
+    {
+      "label": "Belimo MS upgrade on data-center cooling - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/belimo-jumps-8-as-morgan-stanley-upgrades-stock-on-fy25-data-center-boost-4741375"
+    },
+    {
+      "label": "Belimo jumps 8% on MS upgrade (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/belimo-jumps-8-as-morgan-stanley-upgrades-stock-on-fy25-data-center-boost-4741375"
+    },
+    {
+      "label": "Belimo higher target on AI DC cooling (Finimize)",
+      "url": "https://finimize.com/content/belimo-gets-a-higher-target-price-from-ai-data-center-cooling"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 44,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.7,
+      "rankRationale": "Move up from 44. June 15 MS Overweight (CHF1,100) quantifies the DC liquid-cooling thesis: 17% of sales, >50% of growth, valves/sensors with possibly shorter replacement cycles. Genuine fundamental firming of the thermal latent-node case; offsets the prior down-rate.",
+      "bull": "Hyperscaler liquid-cooling lifts valve/sensor attach and replacement cycles; DC drives most of Belimo's growth.",
+      "neutral": "Quality compounder, but the upgrade also raises awareness and valuation, capping latent-alpha.",
+      "bear": "At ~CHF916 already near MS target; rich multiple leaves little margin if DC capex moderates.",
+      "primaryCatalyst": "DC-cooling revenue mix accelerating per MS upgrade",
+      "primaryRisk": "Valuation/awareness erodes the latent-discovery edge"
+    }
+  ]
+}

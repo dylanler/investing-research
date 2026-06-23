@@ -1,0 +1,69 @@
+{
+  "symbol": "AMD",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new fundamental catalyst since June 9; the OpenAI 6GW/Oracle 50k-GPU deals and MI400/MI450 ramp (with Meta committing up to 6GW and MI450 customer forecasts exceeding expectations) were already in the prior case. Stock +9.6% since June 9 (+133% YTD) on continued AI-deal momentum and sector flow, not node-specific news.",
+  "sources": [
+    {
+      "label": "AMD MI400 lineup (DCD)",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/"
+    },
+    {
+      "label": "AMD Instinct roadmap (IR)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1201/amd-accelerates-pace-of-data-center-ai-innovation-and-leadership-with-expanded-amd-instinct-gpu-roadmap"
+    },
+    {
+      "label": "AMD Q1 2026 results (IR)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "AMD-Oracle 50k GPU agreement",
+      "url": "https://finance.yahoo.com/news/amd-and-oracle-announce-agreement-for-50000-gpus-as-ai-deal-spree-continues-121807781.html"
+    },
+    {
+      "label": "S&P Global: AMD next-gen AI chips 2026",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/amd-s-next-generation-ai-chips-set-to-power-2026-data-center-growth"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.7,
+      "rankRationale": "AI-node bottleneck lens unchanged since June 9: second-source MI400/OpenAI ramp intact, no fresh node-specific evidence. The +9.6% rebound is sector flow that erodes the entry-asymmetry the prior case credited; at $857B and +133% YTD it stays the crowded Nvidia-alternative. Hold.",
+      "bull": "MI450/Helios 2H26 ramp plus OpenAI 6GW deal gives durable second-source accelerator demand.",
+      "neutral": "Roadmap known since CES; recent move is flow, thesis flat vs June 9.",
+      "bear": "Most-owned Nvidia alternative; software/platform gap and margin conversion still unproven at $857B cap.",
+      "primaryCatalyst": "MI450/Helios 2H26 production ramp and hyperscaler design wins.",
+      "primaryRisk": "Crowding and ROCm software gap limiting margin capture."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "CPO lens: AMD has scale-up fabric/SerDes relevance but no direct co-packaged-optics monetization, and nothing changed on that front since June 9. Indirect beneficiary only; rank 85 already reflects the weaker CPO linkage. Hold.",
+      "bull": "Open scale-up fabric (UALink/Ethernet) adoption pulls AMD into optical interconnect demand over time.",
+      "neutral": "No direct CPO catalyst; AMD remains a derivative play on this page.",
+      "bear": "Network/optics names monetize CPO far more directly than AMD.",
+      "primaryCatalyst": "Broader open scale-up fabric standardization.",
+      "primaryRisk": "CPO value accrues to optics/switch vendors, not the accelerator."
+    },
+    {
+      "page": "companies",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "Master under-owned-bottleneck list: AMD is the opposite of under-owned at $857B / +133% YTD with consensus accelerator demand. No new bottleneck-scarcity evidence since June 9; the +9.6% bounce reverses some of the asymmetry the prior hold credited. Stays low on this list.",
+      "bull": "Genuine second-source accelerator scarcity if MI400 ramps cleanly.",
+      "neutral": "Thesis intact but heavily owned; alpha score rewards scarcity AMD lacks.",
+      "bear": "Cap concentration and crowding cap residual alpha on this lens.",
+      "primaryCatalyst": "MI400 supply ramp converting into share gains.",
+      "primaryRisk": "Over-ownership leaves little under-the-radar alpha."
+    }
+  ]
+}

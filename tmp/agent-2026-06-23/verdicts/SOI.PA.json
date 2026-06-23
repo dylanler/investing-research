@@ -1,0 +1,48 @@
+{
+  "symbol": "SOI.PA",
+  "company": "Soitec",
+  "caseDate": "2026-06-23",
+  "newsSince": "Negative, news-driven. The -14% move since June 9 was driven by a Jefferies downgrade to Underperform with an €85 PT (~40% below the prior €140.15 close), citing an ~85% EV/EBITDA premium to optical peers and pushing back on Co-Packaged-Optics step-change hopes (Photonics-SOI growth seen at only 30-40% through FY30). Jefferies also flags stuck RF-SOI inventory (~2M wafers) and falling handset units, with FY27 profitability pressured by low fab loading, FX and lower funding.",
+  "sources": [
+    {
+      "label": "Soitec -13% on Jefferies downgrade, €85 PT (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/soitec-stock-plunges-13-on-jefferies-downgrade-over-fy27-valuation-4734492"
+    },
+    {
+      "label": "Jefferies cut detail, photonics/CPO pushback (Meyka)",
+      "url": "https://meyka.com/blog/soitec-sa-stock-drops-13-as-jefferies-cuts-rating-sets-e85-price-target-with-39-35-downside/"
+    },
+    {
+      "label": "FY26 results / Photonics-SOI >$100M context (Investing.com)",
+      "url": "https://www.investing.com/news/earnings/soitec-shares-surge-14-on-fy26-cash-flow-beat-and-ai-photonics-growth-4713703"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 79,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.7,
+      "rankRationale": "Contrary to the prior 'no-news flush' read, the -14% was a Jefferies Underperform downgrade (€85 PT) attacking valuation and CPO step-change hopes, with stuck RF-SOI inventory and weak handsets pressuring FY27 fab loading. On the AI-node materials lens that is a real negative, warranting a step down.",
+      "bull": "Photonics-SOI crossed $100M, levered to AI fab/HBM substrate demand.",
+      "neutral": "AI-substrate optionality real but small vs RF-SOI cyclical drag.",
+      "bear": "Jefferies Underperform; FY27 hit by low fab loading, FX, weak handsets.",
+      "primaryCatalyst": "Photonics-SOI / CPO substrate ramp",
+      "primaryRisk": "RF-SOI inventory glut and FY27 margin compression"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 10,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.72,
+      "rankRationale": "On the CPO lens this is the most direct hit: Jefferies explicitly pushed back on the Co-Packaged-Optics step-change for Photonics-SOI (only 30-40% growth through FY30) while cutting to Underperform at €85 on an 85% peer premium. The 'hidden enabler' substrate thesis is challenged on its own terms; step down.",
+      "bull": "Engineered substrates remain a structural enabler for silicon photonics/CPO.",
+      "neutral": "Photonics-SOI growing but slower step-change than bulls assumed.",
+      "bear": "Jefferies Underperform; 85% EV/EBITDA premium; CPO upside questioned.",
+      "primaryCatalyst": "Photonics-SOI design wins into CPO platforms",
+      "primaryRisk": "Valuation derate as CPO step-change is repriced lower"
+    }
+  ]
+}

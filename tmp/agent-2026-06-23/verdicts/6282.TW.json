@@ -1,0 +1,31 @@
+{
+  "symbol": "6282.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Record Q1 2026 consolidated revenue on enterprise/data-center power demand, but management flagged muted near-term profit from product-mix shifts and delayed high-power shipments. The OmniOn/Kinpo AI-power-supply tie-up (reported ~May 12) supports the AI-power positioning but largely predates June 9; the recent price action is theme-driven, not fresh fundamentals.",
+  "sources": [
+    {
+      "label": "AcBel teams with OmniOn and Kinpo for AI power-supply market (DIGITIMES)",
+      "url": "https://www.digitimes.com/news/a20260512PD223/acbel-kinpo-market-revenue-high-power.html"
+    },
+    {
+      "label": "AcBel Polytech quote/news (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/6282.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.5,
+      "rankRationale": "Residual-alpha-vs-passives lens: the hidden-gem premise keeps eroding as the AI-power story becomes consensus (limit-up, retail coverage, OmniOn/Kinpo JV already public). Record Q1 revenue is offset by muted margins and delayed high-power shipments, so no new fundamental edge since June 9; hold after the prior down-move.",
+      "bull": "Server/high-density power supplier with OmniOn IP and Kinpo scale aimed at AI data-center power.",
+      "neutral": "Top-line AI demand real, but margin/mix and shipment timing cap the alpha.",
+      "bear": "Crowded theme trade; 40% YTD with delayed high-power shipments leaves earnings risk.",
+      "primaryCatalyst": "High-power AI rack PSU/PDU shipments converting to margin",
+      "primaryRisk": "Margin compression and slipping high-power shipment timing"
+    }
+  ]
+}

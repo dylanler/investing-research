@@ -1,0 +1,31 @@
+{
+  "symbol": "4004.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17, 2026 Resonac disclosed that the Japan Patent Office upheld its patent (No. 7687499) on a liquid encapsulant for 2.5D AI semiconductor packages after a third-party opposition. This is a modest but genuine reinforcement of its moat in AI backend underfill/encapsulation materials; broader US-JOINT / APLIC panel-level interposer work was already public pre-June.",
+  "sources": [
+    {
+      "label": "Resonac patent on liquid encapsulant for AI packages upheld (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/resonac-patent-on-liquid-encapsulant-for-ai-semiconductor-packages-upheld-a-key-technology-suppor-ce7f5cdcd880f524"
+    },
+    {
+      "label": "Resonac wins Japan patent ruling on 2.5D AI chip material (IBTimes JP)",
+      "url": "https://jp.ibtimes.com/resonac-wins-japan-patent-ruling-25d-ai-chip-material-101701"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "On the master under-owned-bottleneck list, the June 17 upheld 2.5D AI-encapsulant patent is a small, genuine reinforcement of advanced-packaging-materials scarcity exposure vs peers, but +172% YTD already prices much of it. Mild positive, not enough to move rank vs bucket.",
+      "bull": "Patent win defends a real choke-point in 2.5D/AI underfill; broad packaging-materials franchise (US-JOINT, glass substrates, APLIC).",
+      "neutral": "Incremental IP news on a name already up 172% YTD; capex/consortium story largely known.",
+      "bear": "+172% YTD leaves little asymmetry; packaging/chemicals pricing and China supply-chain risk remain.",
+      "primaryCatalyst": "AI 2.5D/glass-substrate packaging-material ramp and consortium wins.",
+      "primaryRisk": "Rerating exhaustion; chemicals segment pricing and China exposure."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "SFSN.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. The Harald Zahn GmbH acquisition was effective April 1 (pre-base-case); UBS reiterated Buy; H1 2026 results are not yet reported. Stock +5.7% day move is flow/no-news. The strict latent-node case (precision fasteners feeding compact mechanical assemblies/automation hardware) is unchanged.",
+  "sources": [
+    {
+      "label": "SFS Group investor relations",
+      "url": "https://www.sfs.com/ch/en/investors/"
+    },
+    {
+      "label": "SFS Group receives Buy from UBS (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SFSLF/pressreleases/37218874/sfs-group-ag-sfsn-receives-a-buy-from-ubs/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Same as June 9: no material news, the precision-fasteners-into-automation-hardware case is unchanged. Harald Zahn deal (Apr 1) and UBS Buy predate the base case; H1 print not yet out. +5.7% is no-news drift. No basis to re-rank on a strict latent screen; hold at #67.",
+      "bull": "Precision fastener/component leader supporting compact mechanical assemblies and automation/robotics hardware; Strong Buy consensus.",
+      "neutral": "Quality industrial compounder, but AI-node linkage is indirect and unchanged.",
+      "bear": "Construction/auto end-market exposure; AI-hardware fastener demand is a thin, latent thread on a strict screen.",
+      "primaryCatalyst": "H1 2026 results; automation/robotics hardware design wins",
+      "primaryRisk": "Construction/industrial cyclicality; weak direct AI linkage"
+    }
+  ]
+}

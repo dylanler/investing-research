@@ -1,0 +1,47 @@
+{
+  "symbol": "MBLY",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material news since June 9: on June 16 Mobileye announced a strategic pivot to a vertically integrated robotaxi business it will own/operate (an initial ~100-vehicle US fleet in 2027, scaling toward ~17,000). This is a capital-intensive AV-operations shift, distinct from the Mentee humanoid/physical-AI thesis the robotics rank was built on, and lands amid a hardening competitive backdrop (Stellantis-Wayve-Uber L4 MOU, China robotaxi dominance) that reinforces the earlier Jefferies Underperform/$8-target case. Stock -13.2% since June 9 to ~$8.10.",
+  "sources": [
+    {
+      "label": "Mobileye to establish vertically integrated robotaxi business (June 16)",
+      "url": "https://www.mobileye.com/news/mobileye-to-establish-vertically-integrated-robotaxi-business/"
+    },
+    {
+      "label": "Mobileye US robotaxi launch puts it on both sides of AV business (TechCrunch, June 16)",
+      "url": "https://techcrunch.com/2026/06/16/mobileye-us-robotaxi-launch-will-put-it-on-both-sides-of-the-av-business/"
+    },
+    {
+      "label": "Stellantis-Wayve-Uber L4 MOU / robotaxi landscape (June)",
+      "url": "https://insideevs.com/news/799037/stellantis-uber-robotaxi-wayve-global/"
+    },
+    {
+      "label": "Mobileye to establish vertically integrated robotaxi business (Jun 16)",
+      "url": "https://www.mobileye.com/news/mobileye-to-establish-vertically-integrated-robotaxi-business/"
+    },
+    {
+      "label": "MBLY tumbles on Jefferies Underperform / $8 PT",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-sent-mobileye-stock-203914509.html"
+    },
+    {
+      "label": "Mobileye stock hit as robotaxi rivals turn up heat",
+      "url": "https://www.tipranks.com/news/catalyst/mobileye-stock-hit-as-robotaxi-rivals-turn-up-heat"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 9,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.7,
+      "rankRationale": "Humanoid-stack lens. June 16 pivot to OWN/operate robotaxi fleets is capital-heavy, execution-risky and dilutes focus from the asset-light Mentee physical-AI/humanoid thesis this listing rests on. Jefferies Underperform/$8 PT, ~$1.35B cash vs ~$850M+ fleet capex. June 9 moved it UP; reverse to down.",
+      "bull": "Mentee humanoid stack + AD IP still real physical-AI optionality if robotaxi economics work.",
+      "neutral": "Strategic bet could justify premium but is years out and unproven.",
+      "bear": "Late, cash-light robotaxi operator; capital intensity dilutes humanoid focus; $40k+$0.20/mi model unproven.",
+      "primaryCatalyst": "2027 robotaxi launch / Mentee humanoid milestones",
+      "primaryRisk": "Capital depletion, fleet-economics failure, robotaxi competition"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "FIX",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new fundamental news since June 9. UBS raised its PT to $2,125 (Buy) on June 8, just before the window, citing data-center-led demand persisting into 2027 and a $12.45B backlog (up from $6.89B). Stock +8.0% since June 9 on continued momentum.",
+  "sources": [
+    {
+      "label": "UBS raises Comfort Systems PT to $2,125 / backlog $12.45B (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/comfort-systems-highlights-strong-backlog-and-financial-resilience"
+    },
+    {
+      "label": "FIX backlog and data-center demand (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/fixs-backlog-data-center-demand-144700302.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No new fundamental information since June 9; the $12.45B backlog and UBS $2,125 PT (Jun 8) predate the window. On this residual-alpha lens FIX sits in the Monitor/benchmark bucket - strong but crowded (90% Strong Buy, +97% YTD) and outside the core passive/power stack. +8% is momentum, not thesis change. Hold.",
+      "bull": "Backlog nearly doubled to $12.45B on AI/cloud data-center HVAC; modular/prefab capacity scaling; demand visibility into 2027.",
+      "neutral": "Already widely owned and richly valued after +97% YTD; HVAC-construction sits adjacent to, not inside, the power bottleneck.",
+      "bear": "Extreme crowding, stretched technicals/valuation, insider selling; data-center construction cycle could roll over.",
+      "primaryCatalyst": "Continued backlog conversion and data-center bookings",
+      "primaryRisk": "Crowding/valuation unwind; data-center construction slowdown"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "6752.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "On June 17, Panasonic confirmed its De Soto (Kansas) and Japanese lines will be repurposed to make AI data-center batteries, with ~$2.2-3B capex through FY2029 and a data-center sales target of $6.2B by FY2029. This is incremental execution on the June 8 Investors Day plan (polymer-cap >2x capacity, CBUs, supercapacitors) already captured in the prior verdict, not net-new information.",
+  "sources": [
+    {
+      "label": "Panasonic De Soto shift to AI data-center batteries (Kansas Reflector)",
+      "url": "https://kansasreflector.com/2026/06/17/panasonic-to-shift-some-kansas-production-lines-to-make-ai-data-center-batteries/"
+    },
+    {
+      "label": "Panasonic $2B data-center battery push (ESS News)",
+      "url": "https://www.ess-news.com/2026/06/08/panasonic-to-invest-2-billion-in-data-center-battery-push-ramp-up-us-manufacturing/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "June 17 De Soto/Japan line conversion executes the June 8 Investors Day plan (CBUs, supercaps, polymer-cap >2x) the prior verdict already down-ranked for being consumed by the market. Reinforces the passives/power thesis but adds no fresh hidden alpha; rerating already priced. Hold at 9.",
+      "bull": "Polymer-tantalum/CBU/supercap capacity doubling directly serves AI server power stability; explicit $6.2B DC target.",
+      "neutral": "Thesis confirmed but now front-page AI-infra consensus; +104% YTD.",
+      "bear": "Residual alpha largely consumed; conglomerate dilutes pure passives leverage.",
+      "primaryCatalyst": "Data-center battery/CBU ramp and capacity doubling",
+      "primaryRisk": "Crowded consensus; capex execution and DC demand timing"
+    }
+  ]
+}

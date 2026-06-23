@@ -1,0 +1,44 @@
+{
+  "symbol": "2454.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive. On June 22-23, MediaTek reportedly won the exclusive Google TPU v9 'Triggerfish' contract via its 336G proprietary SerDes (Google's 448G hit signal-integrity/power/thermal issues; Broadcom temporarily lost ground), at ~+30% unit pricing and 1-2M extra units on top of 4-5M Humufish; it also signaled broad 10-20% price hikes. 2026 AI-ASIC revenue forecast lifted to ~$2B, targeting 10-15% ASIC share by 2027.",
+  "sources": [
+    {
+      "label": "MediaTek wins TPU v9 on SerDes shift, +10-20% pricing (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/06/23/news-mediatek-seen-raising-prices-10-20-reportedly-wins-tpu-v9-orders-on-serdes-shift/"
+    },
+    {
+      "label": "MediaTek ASIC revenue may overtake smartphone chips on Google TPU (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260427PD208/mediatek-asic-revenue-google-tpu.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 75,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.74,
+      "rankRationale": "New evidence challenges the prior 'analog/edge, low-directness' framing: June 22-23 TPU v9 Triggerfish exclusive win (336G SerDes, +30% price, +1-2M units) plus AI-ASIC revenue raised to ~$2B materially upgrades MediaTek's AI-accelerator/datacenter directness on this node-criticality list. Up from the de-rank.",
+      "bull": "Exclusive TPU v9 Triggerfish win on 336G SerDes; AI-ASIC rev ~$2B 2026, targeting 10-15% ASIC share; Broadcom lost ground.",
+      "neutral": "Still smartphone-led; ASIC is fast-growing but a minority of revenue at +208% YTD.",
+      "bear": "Single-customer (Google) ASIC concentration; consumer cycle; extreme YTD re-rating.",
+      "primaryCatalyst": "TPU v9 Triggerfish/Humufish volume ramp + ASIC customer diversification.",
+      "primaryRisk": "Google design-revision/sole-customer risk; consumer SoC cycle."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "On the CPO-specific lens MediaTek is still a self-admitted CPO 'latecomer' (Ayar Labs stake a placeholder, demand ~2028-29). The TPU v9 ASIC win is interconnect/ASIC alpha, not co-packaged-optics, so only a slight positive here; it remains AI-edge/ASIC optionality rather than a primary CPO bottleneck.",
+      "bull": "Datacenter SerDes/ASIC momentum gives optionality adjacent to optical interconnect.",
+      "neutral": "ASIC win is real but not CPO-specific; CPO remains 2028-29.",
+      "bear": "Self-described CPO latecomer; no primary CPO bottleneck position, +208% YTD.",
+      "primaryCatalyst": "High-speed SerDes leadership feeding into optical-interconnect roadmap.",
+      "primaryRisk": "CPO demand not material until 2028-29; not a primary CPO play."
+    }
+  ]
+}

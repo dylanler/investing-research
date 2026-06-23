@@ -1,0 +1,35 @@
+{
+  "symbol": "MDA.TO",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material in-window M&A: on June 19, 2026 MDA agreed to acquire US smallsat builder Blue Canyon Technologies (from RTX/Raytheon) for US$620m all-cash, adding ~US$3.5B to pipeline and a US defense foothold; on June 2 MDA was selected by BAE for the U.S. SSC MEO Epoch 2 missile-warning constellation. These build on a strong Q1 2026 (revenue $464.1m, +32%; adj. EBITDA $90.6m; $3.7B backlog; FY26 guide $1.7-1.9B).",
+  "sources": [
+    {
+      "label": "MDA to acquire Blue Canyon Technologies ($620m)",
+      "url": "https://mda.space/article/mda-space-announces-definitive-agreement-to-acquire-us-based-blue-canyon-technologies-llc"
+    },
+    {
+      "label": "MDA selected by BAE for SSC MEO Epoch 2",
+      "url": "https://mda.space/article/mda-space-selected-by-bae-systems-for-u.s.-space-systems-command-meo-epoch2-constellation"
+    },
+    {
+      "label": "MDA Q1 2026 results",
+      "url": "https://www.prnewswire.com/news-releases/mda-space-reports-first-quarter-2026-results-302764804.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 34,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "Latent AI-node lens: space data/robotics/geointelligence are high-value AI inputs. The $620m Blue Canyon deal (US smallsat foothold, +$3.5B pipeline) plus the BAE/SSC Epoch 2 win are concrete, in-window strategic catalysts that deepen the defense/space/edge node. Move up vs peers on rank 34.",
+      "bull": "Q1 revenue +32%, $3.7B backlog, $40B pipeline; Blue Canyon adds US defense access and smallsat scale; ge/ robotics franchises feed AI/geointel demand under-covered by US investors.",
+      "neutral": "Backlog is converting fast but declining y/y; the AI-input angle is real yet indirect vs core space-systems revenue.",
+      "bear": "Acquisition integration/financing risk after +101% YTD; backlog down to $3.7B from $4.8B; valuation rich and dependent on program execution.",
+      "primaryCatalyst": "Blue Canyon close + US defense program wins; Telesat Lightspeed/Globalstar ramp converting backlog.",
+      "primaryRisk": "Integration/leverage risk and program timing; rich valuation after doubling YTD."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "WIE.VI",
+  "company": "Wienerberger",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new company-specific news since June 9. Backdrop: soft Q1'26 (revenue -7% YoY to EUR1,025M, operating EBITDA -26% to EUR97M on weather/volume); FY26 guide ~EUR810M EBITDA (incl. Italcer, EUR30M energy headwind); no structural residential-construction recovery expected. The March 19 NEWS Group (Nordic water-management) acquisition modestly supports the strict water-reuse pathway but predates June 9.",
+  "sources": [
+    {
+      "label": "Wienerberger acquires NEWS Group (water mgmt)",
+      "url": "https://www.wienerberger.com/en/media/press-releases/2026/20260319-NEWS-Group.html"
+    },
+    {
+      "label": "Wienerberger FY2025/2026 outlook",
+      "url": "https://www.investing.com/news/company-news/wienerberger-fy-2025-slides-strong-cash-flow-despite-q4-miss-93CH-4520705"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Strict latent lens: water-reuse/resilient-campus piping pathway is unchanged since June 9 (NEWS Group water-mgmt deal predates the window). Soft Q1 and no construction recovery offset the qualitative AI-adjacency; nothing new to move the strict screen. Hold.",
+      "bull": "Pipes, building-envelope and Nordic water-management (NEWS Group) products could feed water-reuse and resilient industrial/data-center campuses.",
+      "neutral": "AI-adjacency is qualitative and remote; core construction demand is weak with no structural recovery.",
+      "bear": "-23% YTD reflects depressed residential construction; AI linkage is speculative and indirect on a strict screen.",
+      "primaryCatalyst": "Water-reuse / resilient-campus demand for piping and envelope products",
+      "primaryRisk": "Weak construction cycle; AI linkage too indirect for a strict screen"
+    }
+  ]
+}

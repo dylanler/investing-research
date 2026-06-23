@@ -1,0 +1,31 @@
+{
+  "symbol": "LASR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Within the window, nLIGHT showcased its production-stage 70kW HADES high-energy-laser weapon module at Eurosatory 2026 (Paris, June 15-19) and expanded Italian operations, reinforcing its directed-energy/defense pivot. This is positioning/marketing, not a new contract. Q1 2026 (revenue $80.2m, A&D revenue +69%) and the strategic pivot away from low-margin industrial cutting predate the window.",
+  "sources": [
+    {
+      "label": "nLIGHT at Eurosatory 2026 (70kW HADES)",
+      "url": "https://www.stocktitan.net/news/LASR/n-light-inc-announces-participation-in-eurosatory-2026-defense-1lv2hacimxqe.html"
+    },
+    {
+      "label": "Optics.org: nLIGHT record sales, laser-weapon demand",
+      "url": "https://optics.org/news/17/3/6"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "CPO/advanced-packaging alpha lens: nLIGHT's narrative is increasingly directed-energy/defense (Eurosatory HADES) rather than CPO/silicon-photonics/optical-DSP supply chain. The defense pivot is good for the company but dilutes the photonics-for-AI-connectivity thesis this page screens for. Hold rank 8 with a modest negative on lens fit.",
+      "bull": "Production-stage 70kW HADES, A&D revenue +69%, and Golden Dome/HELSI-2 exposure give a strong multi-year defense-laser growth runway; photonics IP underpins both defense and datacom optics.",
+      "neutral": "Strong company, but its momentum is defense lasers; CPO/AI-optics relevance is secondary and indirect.",
+      "bear": "After +66% YTD the easy re-rating is done; the directed-energy story is further from the CPO/HBM/package bottleneck this screen prizes, raising lens-mismatch and single-program concentration risk.",
+      "primaryCatalyst": "A named directed-energy production contract (HADES/Golden Dome) or a datacom/CPO laser design win.",
+      "primaryRisk": "Defense program timing/lumpiness and valuation after a 66% YTD run; CPO exposure thinner than rank implies."
+    }
+  ]
+}

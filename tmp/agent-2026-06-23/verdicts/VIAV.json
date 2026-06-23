@@ -1,0 +1,31 @@
+{
+  "symbol": "VIAV",
+  "company": "VIAVI Solutions",
+  "caseDate": "2026-06-23",
+  "newsSince": "S&P Dow Jones added VIAVI to the S&P MidCap 400 in the June 22 rebalance (announced ~June 12), an index/flow event rather than a fundamental shift. Underlying Q3 FY2026 (April) data-center strength continues: 800G high-volume, 1.6T/CPO ramping. The +8.8% move since June 9 reflects index-inclusion flows plus sustained DC demand.",
+  "sources": [
+    {
+      "label": "VIAV S&P MidCap 400 inclusion / momentum",
+      "url": "https://www.timothysykes.com/news/viavi-solutions-inc-viav-news-2026_06_12/"
+    },
+    {
+      "label": "VIAVI Q3 FY2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026028392/viavq3fy268-kex991.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.7,
+      "rankRationale": "Latent AI-supply-chain lens: VIAVI is the optical/network-test tollbooth on 800G volume and 1.6T/CPO verification, validated by +43% Q3 revenue and DC strength. S&P MidCap 400 add (June 22) is flow not fundamentals, so only +1; thesis intact, hold at 20.",
+      "bull": "Tollbooth on every optical-interconnect upgrade; 800G at volume, 1.6T/CPO ramping; +43% YoY DC-led revenue and broadening TAM.",
+      "neutral": "Index-inclusion flows boosted the tape; fundamentals strong but increasingly well-recognized.",
+      "bear": "+178% YTD and S&P add raise the de-rating risk; telecom recovery still uneven outside data center.",
+      "primaryCatalyst": "1.6T/CPO test ramp and multi-year optical upgrade cycle",
+      "primaryRisk": "Crowding/de-rating after sharp run; telecom softness"
+    }
+  ]
+}

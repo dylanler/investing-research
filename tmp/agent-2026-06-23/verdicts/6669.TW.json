@@ -1,0 +1,48 @@
+{
+  "symbol": "6669.TW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Stock -11.79% since June 9 (still +213% YTD). Q1 2026 was a record (revenue NT$276.5B, +62% YoY; EPS NT$75.95) and Vera Rubin NVL72 readiness is confirmed, but the new negatives are margin compression (gross margin ~9% on memory/GPU cost inflation) and intensifying Foxconn competition in AI servers. No fresh positive catalyst since June 9; May monthly revenue print still the next watch item.",
+  "sources": [
+    {
+      "label": "Wiwynn Q1 2026 results",
+      "url": "https://www.wiwynn.com/news/wiwynn-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Nvidia server maker Wiwynn sees AI bottlenecks beyond memory (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/nvidia-server-maker-wiwynn-expects-ai-bottlenecks-beyond-memory"
+    },
+    {
+      "label": "Wiwynn expands US capacity amid AI server boom (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260525VL214/wiwynn-ai-server-power-supply-capacity-expansion.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Crowding-sensitive residual-alpha lens: Wiwynn sits in the 'crowded / rerated benchmark' bucket after +213% YTD, so even strong AI exposure yields little residual alpha. New negatives (gross margin ~9%, Foxconn competition) slightly weaken the alpha case; small -1, hold the rank.",
+      "bull": "Direct NVIDIA Vera Rubin NVL72 exposure; record Q1 (rev +62% YoY); triple-digit AI CAGR; US capacity expansion.",
+      "neutral": "Already rerated/crowded — strategically vital but no residual alpha left on this page.",
+      "bear": "Gross margin compressed to ~9% on memory/GPU cost inflation; Foxconn entering AI servers; -12% since June 9.",
+      "primaryCatalyst": "May/upcoming monthly revenue prints and Rubin NVL72 ramp.",
+      "primaryRisk": "Margin compression and ODM pricing competition from Foxconn."
+    },
+    {
+      "page": "companies",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Systems-integration lens: physical-deployment thesis (Rubin NVL72 racks, liquid cooling, US capacity) intact and confirmed, but it predates the window and was already priced. New margin-compression and Foxconn-competition signals are a modest fundamental negative; -1, hold rank.",
+      "bull": "Rack integration + liquid-cooled AI-server deployment for top hyperscalers; record Q1 and US capacity build secure the bottleneck role.",
+      "neutral": "Deployment thesis confirmed but fully reflected after +213% YTD; alpha rewards scarcity, not crowding.",
+      "bear": "~9% gross margin and rising NAND/DRAM/GPU costs squeeze ODM economics; Foxconn competition pressures share/pricing.",
+      "primaryCatalyst": "Vera Rubin NVL72 production-scale deployment ramp.",
+      "primaryRisk": "ODM margin compression and AI-server pricing competition."
+    }
+  ]
+}

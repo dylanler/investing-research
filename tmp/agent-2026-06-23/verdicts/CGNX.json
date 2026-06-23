@@ -1,0 +1,44 @@
+{
+  "symbol": "CGNX",
+  "company": "Cognex",
+  "caseDate": "2026-06-23",
+  "newsSince": "Incremental product/visibility news: CEO Matt Moschner gave the Automate 2026 opening keynote (June 22) on AI/robotics in automation, and Cognex is promoting its OneVision cloud platform plus In-Sight 3900/6900 edge-AI vision. No new financial guidance; Q2 2026 guide ($280M-$300M) was already set. Mildly positive narrative reinforcement, not a fundamental shift.",
+  "sources": [
+    {
+      "label": "Cognex CEO Automate 2026 keynote (PRNewswire, June 16)",
+      "url": "https://www.prnewswire.com/news-releases/cognex-ceo-to-join-ai-and-robotics-leaders-at-automate-2026-opening-keynote-on-the-future-of-automation-302798228.html"
+    },
+    {
+      "label": "Cognex OneVision AI platform launch (StockTitan)",
+      "url": "https://www.stocktitan.net/news/CGNX/cognex-introduces-one-vision-a-breakthrough-cloud-platform-for-ai-4d39u82c6uxb.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.65,
+      "rankRationale": "Latent industrial-AI vision node. OneVision/edge-AI launches and the Automate keynote modestly reinforce the AI-vision endpoint thesis, but the +75% YTD means it is increasingly discovered, not latent. Small positive drift, no rank move.",
+      "bull": "AI-vision platform (OneVision, In-Sight edge AI) plus Q1 +24% rev growth signals automation-capex recovery.",
+      "neutral": "Quality machine-vision franchise but cyclical and partly re-rated.",
+      "bear": "+75% YTD erodes the latent-discovery edge; factory-automation recovery still macro-dependent.",
+      "primaryCatalyst": "Factory automation capex recovery + AI-vision adoption",
+      "primaryRisk": "Cyclical automation demand; crowd already returning"
+    },
+    {
+      "page": "robotics",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "On the humanoid-stack lens the link stays indirect: Cognex is factory/industrial machine vision, not a humanoid component. Automate keynote and OneVision are industrial-automation stories, not humanoid wins. Page thesis already discounts the rerating. Hold.",
+      "bull": "Machine-vision IP could feed robot perception over time; AI-vision platform launched.",
+      "neutral": "Vision matters to robotics but Cognex's exposure is industrial, not humanoid.",
+      "bear": "Indirect humanoid link, +75% YTD rerating; no humanoid design wins disclosed.",
+      "primaryCatalyst": "Vision content in broader robotics/automation",
+      "primaryRisk": "Indirect humanoid exposure; valuation re-rated"
+    }
+  ]
+}

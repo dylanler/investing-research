@@ -1,0 +1,31 @@
+{
+  "symbol": "VLTSA.PA",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Voltalia's headline catalyst — a 322 MW grid-connection (CUST) at Brazil's Pecém complex to court hyperscale data-center demand — was announced June 8, so it is already embedded in the June 9 prior case rather than being new. No fresh signed PPAs, guidance, or financing have followed; the stock fell ~6.5% since June 9 amid execution-uncertainty skepticism (discussions, not contracts).",
+  "sources": [
+    {
+      "label": "Voltalia secures 322 MW Pecém grid connection (GlobeNewswire, Jun 8)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/08/3308339/0/en/Voltalia-secures-322-megawatt-grid-connection-in-Pec%C3%A9m-to-support-large-scale-data-center-projects.html"
+    },
+    {
+      "label": "Voltalia targets data-center growth (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/voltalia-targets-data-center-growth-150949762.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Scaling electricity bucket: the Pecém 322MW data-center grid win predates Jun 9 (Jun 8 PR), so no new catalyst this window. Discussions remain pre-PPA with execution risk; renewable-developer power-bottleneck fit unchanged. Hold.",
+      "bull": "322MW Pecém connection gives a concrete point to sell low-carbon power to Brazilian data centers; renewable developer leveraged to AI power demand.",
+      "neutral": "Grid capacity is optionality, not committed revenue; commercial talks ongoing with no signed PPAs or capex yet.",
+      "bear": "Pure developer with thin margins and leverage; data-center PPAs unproven, timing/pricing uncertain, stock down YTD.",
+      "primaryCatalyst": "Signed hyperscale/data-center PPAs converting the 322MW connection into committed revenue.",
+      "primaryRisk": "Talks fail to convert to contracts; financing/leverage pressure on a sub-scale developer."
+    }
+  ]
+}

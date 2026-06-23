@@ -1,0 +1,31 @@
+{
+  "symbol": "GF.SW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No genuinely new AI-evidence-grade news since June 9. The LiquidCore product, the GF+Rittal full-scope polymer cooling loop for NETMOUNTAINS' 66kW high-density Velbert data center, and the direct-liquid-cooling white paper were all published Feb-Mar 2026, predating the prior case. Recent coverage is a re-surfacing of that earlier material.",
+  "sources": [
+    {
+      "label": "GF + Rittal NETMOUNTAINS full-scope cooling (gfps.com)",
+      "url": "https://www.gfps.com/en-at/about-us/media-center/news-details.html/news/gfps/2026/hq/from-chiller-to-chip-gf-and-rittal-deliver-full-scope-polymer-cooling-infrastructure"
+    },
+    {
+      "label": "AI data centers: polymer piping in DLC white paper (gfps.com)",
+      "url": "https://www.gfps.com/com/en/about-us/media-center/news-details.html/news/gfps/2026/hq/ai-data-centers-why-polymer-piping-matters-in-direct-liquid-cooling"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "The polymer-piping-into-direct-liquid-cooling pathway (LiquidCore, GF+Rittal high-density DC reference) is intact, but those disclosures are Feb-Mar 2026 and predate June 9, so they are not new evidence. -21% YTD keeps asymmetry attractive; flat price, nothing genuinely new this period. June 9 hold stands.",
+      "bull": "LiquidCore polymer chip-to-chiller cooling positions GF as a latent AI-datacenter DLC supplier.",
+      "neutral": "Real DLC product/reference exists but contribution is small vs the whole company; no new wins this window.",
+      "bear": "Industrial flow-solutions cyclical; AI-cooling revenue still immaterial; -21% YTD reflects core demand softness.",
+      "primaryCatalyst": "Hyperscale/colo adoption of polymer direct-liquid-cooling loops",
+      "primaryRisk": "Core industrial/automotive demand weakness; AI mix stays small"
+    }
+  ]
+}

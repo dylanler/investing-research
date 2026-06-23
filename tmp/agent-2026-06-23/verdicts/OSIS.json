@@ -1,0 +1,31 @@
+{
+  "symbol": "OSIS",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Modestly positive new order flow since June 9: on June 17 OSI's Security division won a ~$50M maintenance/services order for Rapiscan systems plus CertScan support, and early-June disclosures cited additional orders (~$19M NII, $12M and $10M optoelectronics). These are incremental to the already-known record ~$1.9B backlog. The $235M homeland-defense radar award (April) and Q3 results (May 4) predate the window.",
+  "sources": [
+    {
+      "label": "OSI Systems wins $50M security services order (StockTitan, Jun 17)",
+      "url": "https://www.stocktitan.net/news/OSIS/osi-systems-receives-50-million-services-order-for-security-ovss75kntzku.html"
+    },
+    {
+      "label": "OSIS new security and semi orders (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-osis/osi-systems/news/do-osi-systems-osis-new-security-and-semi-orders-reveal-a-du"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 12,
+      "rankMove": "up",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Latent AI-node / sensors-&-security lens: fresh June 17 ~$50M Rapiscan services order plus early-June NII/opto orders extend the under-priced backlog story while YTD is still -14%, so under-owned imaging-data asymmetry improves modestly vs peers. Small positive; orders are incremental, not transformational.",
+      "bull": "Record ~$1.9B backlog, steady security/border orders, software/CertScan attach; AI inference can lift inspection throughput.",
+      "neutral": "Solid order flow but each award is modest; not priced as an AI platform (which is the upside).",
+      "bear": "Lumpy government timing; margin/timing headwinds and negative YTD reflect spending uncertainty.",
+      "primaryCatalyst": "Border/port modernization + software attach",
+      "primaryRisk": "Order timing and government budget cyclicality"
+    }
+  ]
+}

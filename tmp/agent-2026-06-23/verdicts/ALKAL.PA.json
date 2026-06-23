@@ -1,0 +1,31 @@
+{
+  "symbol": "ALKAL.PA",
+  "company": "Kalray",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new profit warning or fundamental disclosure since June 9; the -21.8% move is a speculative unwind in a hyper-volatile EUR0.16B micro-cap (52-wk range 0.47-16.00, +613% YTD). The standing overhang is structural: thin cash (~EUR2.9M end-2025), a stated funding horizon only 'beyond June 30, 2026,' and OpenChip warrants/capital-increase mechanism that dilutes toward 51% ownership.",
+  "sources": [
+    {
+      "label": "Kalray FY2025 revenue/EBITDA & funding update (Actusnews, Jan 2026)",
+      "url": "https://www.actusnews.com/en/kalray/pr/2026/01/13/fourfold-increase-in-revenue-on-a-comparable-scope-and-confirmation-of-a-strongly-positive-ebitda-in-2025"
+    },
+    {
+      "label": "Kalray dilution/funding analysis (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/kalray-is-this-really-reasonable-ce7e5cdadd8ff422"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 45,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.6,
+      "rankRationale": "Test-time-scaling lens via DPU optionality. No fresh fundamental catalyst; the sharp drop is speculative unwind, but the persistent dilution overhang (OpenChip path to 51%) plus tight cash runway weakens the fundamental setup vs scaling peers. Modest negative.",
+      "bull": "Patented DPU/data-processing IP offers genuine inference-offload optionality if OpenChip backing scales it commercially.",
+      "neutral": "Real DPU tech but tiny, pre-scale revenue inside a cash-light micro-cap whose tape is detached from fundamentals.",
+      "bear": "Severe dilution mechanism toward 51%, ~EUR2.9M cash and a runway only just past June 30 2026; equity value is highly impaired.",
+      "primaryCatalyst": "A funded OpenChip-backed DPU design win or capital injection that extends runway without punitive dilution.",
+      "primaryRisk": "Dilutive capital raise / warrant exercise and cash exhaustion crushing per-share value."
+    }
+  ]
+}

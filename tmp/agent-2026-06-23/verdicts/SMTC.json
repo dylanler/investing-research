@@ -1,0 +1,61 @@
+{
+  "symbol": "SMTC",
+  "company": "Semtech",
+  "caseDate": "2026-06-23",
+  "newsSince": "Positive but increasingly discovered. Early-June FQ1 was a record: revenue +16% y/y to ~$291M, non-GAAP EPS $0.51 (+34%), data-center revenue a record $71.6M on 800G with early 1.6T/LPO/LRO/CopperEdge traction. On June 17 Semtech launched 224 Gbps optical chips for AI/hyperscale data centers; analysts (UBS, others) raised PTs. Stock +4.4% since June 9.",
+  "sources": [
+    {
+      "label": "224 Gbps AI optical chip launch (Sahm/Simply Wall St)",
+      "url": "https://www.sahmcapital.com/news/content/the-bull-case-for-semtech-smtc-could-change-following-its-224-gbps-ai-optical-chip-launch-2026-06-17"
+    },
+    {
+      "label": "Record Q1: 800G optics, $71.6M data center (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-record-quarter-puts-800g-010943545.html"
+    },
+    {
+      "label": "Q1 earnings/valuation, PT raises (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/assessing-semtech-smtc-valuation-after-strong-q1-earnings-and-upbeat-guidance-2026-06-04"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "On the latent AI-supply-chain lens, the 224 Gbps optical chip launch (June 17) plus record data-center revenue extend Semtech's high-speed signal-chain optionality well beyond the LoRa/IoT framing. New, company-specific evidence supports an up move, tempered by 119% YTD reducing latency.",
+      "bull": "800G/1.6T optical and 224 Gbps chip ramp give real AI-network connectivity exposure.",
+      "neutral": "Turnaround intact but balance sheet still healing.",
+      "bear": "Speculative tag; product-cycle and execution risk after 119% YTD.",
+      "primaryCatalyst": "1.6T / 224 Gbps optical ramp into hyperscalers",
+      "primaryRisk": "Design-win slippage or LoRa softness"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 51,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.75,
+      "rankRationale": "Page calls SMTC 'less direct than HBM/packaging/networking,' but FQ1 (record $71.6M data center on 800G FiberEdge/Tri-Edge and CopperEdge ACCs) plus the June-17 224 Gbps launch show genuine, direct AI-network-bottleneck exposure that rank 51 still understates.",
+      "bull": "Direct 800G/1.6T optical and copper ACC content ramping into AI racks.",
+      "neutral": "Higher-direct than thesis implies, but mid-pack vs HBM/packaging leaders.",
+      "bear": "Cyclical analog/RF base; valuation full after big YTD.",
+      "primaryCatalyst": "1.6T optical and CopperEdge ramp",
+      "primaryRisk": "Hyperscaler order timing"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "On the crowding-sensitive CPO lens, the 224 Gbps launch and record optics print confirm the thesis but it is now fully discovered: multiple PT raises to ~$200-225, rich forward multiple, prior insider selling. Fundamentals beat, residual asymmetry is thin, so hold near the top rather than push higher.",
+      "bull": "Best-in-class small-cap signal-integrity/optical leverage to AI networking.",
+      "neutral": "Thesis confirmed but largely priced; residual alpha shrinking.",
+      "bear": "60x-type forward multiple, insider sales, crowding into the name.",
+      "primaryCatalyst": "1.6T/CPO content win confirmation",
+      "primaryRisk": "Valuation derate as the discovery narrative matures"
+    }
+  ]
+}

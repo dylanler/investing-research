@@ -1,0 +1,65 @@
+{
+  "symbol": "6857.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No new June 9-23 order/contract/guidance news. The structural HBM4/2nm test narrative (70% capacity expansion in 2026, 10,000 systems/yr by 2028, FY-Mar-2027 guidance ~+25% sales) all stem from the May fiscal-year report, which predates this window. The +19% move since June 9 is sector-flow/Nikkei AI re-rating, not a name-specific catalyst.",
+  "sources": [
+    {
+      "label": "Digitimes - Advantest ATE lead times tight on AI/HBM",
+      "url": "https://www.digitimes.com/news/a20260116PD217/demand-advantest-equipment-hbm-2026.html"
+    },
+    {
+      "label": "Digitimes - Advantest beats on AI chip testing, cautious outlook",
+      "url": "https://www.digitimes.com/news/a20260501VL206/advantest-earnings-outlook-revenue-testing.html"
+    },
+    {
+      "label": "Advantest investor relations - forecast",
+      "url": "https://www.advantest.com/en/investors/financial-highlights/forecast/"
+    },
+    {
+      "label": "Advantest Q1-2026 earnings call - Alpha Spread",
+      "url": "https://www.alphaspread.com/security/tse/6857/investor-relations/earnings-call/q1-2026"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 17,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.75,
+      "rankRationale": "Hold. Node criticality unchanged: near-monopoly AI/HBM SoC test (66% share, >6mo lead times, +70% capacity build) keeps Advantest a genuine bottleneck. But the +19.4% since June 9 is flow with no new order/guidance, so the bottleneck case is intact, not stronger.",
+      "bull": "AI/HBM test near-monopoly; HBM4/HBM4E stack-up multiplies test intensity; +25% FY27 sales guide; +70% capacity build.",
+      "neutral": "Genuine bottleneck but well-discovered; recent move is sector flow.",
+      "bear": "ATE is cyclical; cautious outlook dented shares on results; export-control risk to China.",
+      "primaryCatalyst": "HBM4/HBM4E ramp and tester capacity additions",
+      "primaryRisk": "ATE cycle turn and China export controls"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 45,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.6,
+      "rankRationale": "Down slightly. On a CPO-specific lens the optical/advanced-package test angle is secondary, and a +19.4% flow-driven run since June 9 on zero CPO news erodes the little residual asymmetry rank 45 had. The page's own risk - high AI expectations - just got more expensive.",
+      "bull": "Optical/advanced-package test expands as CPO scales; test leadership extends into co-packaged optics.",
+      "neutral": "CPO is a peripheral revenue lever vs core SoC/HBM test.",
+      "bear": "No CPO-specific catalyst; rich valuation amplifies disappointment risk on a CPO-purity lens.",
+      "primaryCatalyst": "Advanced-package/optical test attach",
+      "primaryRisk": "High AI expectations; CPO is secondary to the thesis"
+    },
+    {
+      "page": "companies",
+      "currentRank": 32,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.65,
+      "rankRationale": "Down. This page rewards bottleneck exposure that has NOT already rerated; +19.4% since June 9 with YTD now +48.4% and no new evidence keeps narrowing the discovery discount. The pick-and-shovel thesis is real but increasingly priced.",
+      "bull": "Best pure pick-and-shovel on AI test; durable pricing power and share gains.",
+      "neutral": "Still a quality bottleneck, just less under-owned.",
+      "bear": "+48% YTD with no fresh catalyst shrinks the under-owned-bottleneck premium this page targets.",
+      "primaryCatalyst": "Sustained AI/HBM test demand",
+      "primaryRisk": "Crowding / discovery discount fully closing"
+    }
+  ]
+}

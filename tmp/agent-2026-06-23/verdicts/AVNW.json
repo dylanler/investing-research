@@ -1,0 +1,31 @@
+{
+  "symbol": "AVNW",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive since June 9: on June 22, 2026 Aviat announced Nextlink Internet expanded its BEAD-funded buildout, deploying Aviat microwave, E-Band and multi-band systems across thousands of sites in 12 states, with aggregate order value of $25-30M (per a June 3 8-K). For a ~$260M micro-cap this is a meaningful demand/backlog signal; the stock rose +9.15% since June 9. Q3 FY26 (Mar quarter) had shown $100M revenue and a small net loss with FY guidance trimmed.",
+  "sources": [
+    {
+      "label": "Aviat expands Nextlink BEAD deal (Jun 22, 2026)",
+      "url": "https://www.stocktitan.net/news/AVNW/nextlink-internet-expands-agreement-with-aviat-networks-to-power-qgn8ypothknn.html"
+    },
+    {
+      "label": "Aviat Q3 FY2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001377789/000162828026029801/fy26q3pressrelease.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 36,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.55,
+      "rankRationale": "New June 22 Nextlink BEAD expansion ($25-30M aggregate across 12 states) is a genuine post-June-9 demand win for a $260M micro-cap, modestly strengthening the resilient-network-links scaling thesis after a soft Q3. Small upgrade; still loss-making, so not a large move.",
+      "bull": "Expanded BEAD-funded microwave/E-band orders add backlog and validate rural-broadband demand.",
+      "neutral": "Win helps but Q3 posted a net loss and FY guide was trimmed; lumpy timing.",
+      "bear": "Sub-$300M micro-cap, single-customer order, recent losses and YTD -5%.",
+      "primaryCatalyst": "BEAD-funded microwave/E-band buildouts",
+      "primaryRisk": "Order timing lumpiness and thin profitability"
+    }
+  ]
+}

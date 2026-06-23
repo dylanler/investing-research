@@ -1,0 +1,48 @@
+{
+  "symbol": "VRT",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "Material positive developments in the window: Vertiv completed its acquisition of Italian heat-exchange specialist ThermoKey S.p.A. on June 12 (after the prior Strategic Thermal Labs deal), expanding its EMEA thermal/heat-rejection portfolio for AI data centers. It also held a 2026 Investor Conference laying out long-term growth through 2030, reinforced the FY26 sales guidance raised earlier in Q2, and drew fresh analyst PT raises (RBC $435 outperform, Mizuho $380) against a ~$15B backlog and ongoing NVIDIA cooling/power co-development. Shares +12% since June 9.",
+  "sources": [
+    {
+      "label": "Vertiv completes ThermoKey acquisition (PRNewswire, Jun 12)",
+      "url": "https://www.prnewswire.com/news-releases/vertiv-completes-acquisition-of-thermokey-expanding-heat-rejection-portfolio-for-ai-data-centers-302798971.html"
+    },
+    {
+      "label": "Vertiv 8-K Jun 12 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026042641/exhibit991vrt-q220266122026.htm"
+    },
+    {
+      "label": "Vertiv $15B backlog, liquid-cooling dominance (Seeking Alpha)",
+      "url": "https://seekingalpha.com/article/4890719-vertiv-holdings-the-15-billion-backlog-liquid-cooling-dominance-and-the-ai-infrastructure-trade-wall-street-is-still-underpricing"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "Residual-alpha-vs-passives lens: ThermoKey close (Jun 12), 2030 investor-day roadmap and PT raises are genuinely positive fundamentals, but on this crowding-sensitive list a $125B name +85% YTD that ran +12% since Jun 9 is re-crowding, not de-crowding. Strong fundamentals only modestly help residual asymmetry. Small +.",
+      "bull": "ThermoKey + Strategic Thermal Labs deepen thermal stack; ~$15B backlog, raised FY26 guide, 2030 roadmap, NVIDIA co-development.",
+      "neutral": "Bottleneck thesis fully intact, but it is consensus and crowded after +85% YTD at a $125B cap.",
+      "bear": "On a residual-alpha screen the easy money is gone; +12% in two weeks adds momentum money, hurting asymmetry.",
+      "primaryCatalyst": "Q2 print confirming raised guidance and backlog growth from AI-factory liquid-cooling demand.",
+      "primaryRisk": "Crowding unwind / AI-capex digestion; multiple compression on a heavily-owned name."
+    },
+    {
+      "page": "companies",
+      "currentRank": 16,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "Under-owned-bottleneck master list (power/cooling/electrical): clear fundamental progress since Jun 9 — ThermoKey acquisition closed Jun 12, 2026 investor day with 2030 roadmap, FY26 guidance reinforced, PT raises, ~$15B backlog. On a fundamentals-first lens this strengthens execution; move up vs peers.",
+      "bull": "Liquid-cooling/power leader for AI factories; ThermoKey+STL expand thermal chain, ~$15B backlog, raised guide, 2030 growth roadmap, NVIDIA partnership.",
+      "neutral": "Bottleneck exposure scarce and strengthening, but valuation embeds heavy AI-capex assumptions.",
+      "bear": "Execution and pricing must keep delivering into a $125B cap; AI-capex pause would hit hard.",
+      "primaryCatalyst": "Q2 results confirming raised FY26 guidance; thermal-portfolio integration and backlog conversion.",
+      "primaryRisk": "AI data-center capex slowdown; competitive pricing pressure in cooling/power."
+    }
+  ]
+}

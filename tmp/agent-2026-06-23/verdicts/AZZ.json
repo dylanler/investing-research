@@ -1,0 +1,44 @@
+{
+  "symbol": "AZZ",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material company-specific news since June 9. AZZ's last report was FY2026 full-year results on April 22 (sales $1.65B +4.6%, Metal Coatings $758.7M +14.1%, FY27 guide reiterated up to $1.775B sales / $400M EBITDA) — already known at the June 9 case. Stock rose +8.25% since June 9 on no fresh fundamental data.",
+  "sources": [
+    {
+      "label": "AZZ FY2026 Q4/full-year results",
+      "url": "https://www.stocktitan.net/news/AZZ/azz-inc-reports-fourth-quarter-and-fiscal-year-2026-full-year-vnmrb21b1wa3.html"
+    },
+    {
+      "label": "AZZ Q4 FY26 earnings 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000008947/000000894726000069/exhibit991q4fy26earningsre.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "No new evidence since June 9; FY26 results (Apr 22) and FY27 guide were already known. Second-derivative electrification/grid-protection thesis (galvanizing for substations, DC steel) unchanged. The +8.25% pop is price, not a thesis shift; hold the latent-node rank.",
+      "bull": "Galvanizing demand from grid/transmission and AI-datacenter steel; Metal Coatings +14%.",
+      "neutral": "Solid second-derivative electrification play, but indirect AI link and modest growth.",
+      "bear": "Cyclical construction exposure; rerated +42% YTD on no fresh catalyst.",
+      "primaryCatalyst": "Grid/transmission and datacenter infrastructure buildout",
+      "primaryRisk": "Construction-cycle and volume sensitivity"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.55,
+      "rankRationale": "June 9 already nudged it down at the top of the strict screen for rerating-without-evidence. Since then still no new fundamental data; the +8.25% drift continues the price-only run. On the strict residual-asymmetry lens the latent claim is unchanged, not freshly eroded, so hold at rank 4.",
+      "bull": "Hot-dip galvanizing/coil coating protects steel as compute becomes more physical infrastructure.",
+      "neutral": "Quality electrification proxy, but AI link is indirect and well-flagged.",
+      "bear": "At a top-4 strict slot, +42% YTD rerating with no new evidence dilutes the 'latent' premium.",
+      "primaryCatalyst": "Distributed electrification/infrastructure coating demand",
+      "primaryRisk": "Rerating outpacing fundamental evidence"
+    }
+  ]
+}

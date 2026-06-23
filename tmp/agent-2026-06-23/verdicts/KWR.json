@@ -1,0 +1,31 @@
+{
+  "symbol": "KWR",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "No material new company-specific news since June 9. Q1 2026 results (sales $480.5m, +8% y/y; EPS $1.13; adj. EBITDA $72.5m, +5%; a new $20-30m cost-savings program; credit facility extended to 2031) were reported in early May and predate the window. Management flagged temporary Q2 gross-margin pressure from higher Middle East input costs.",
+  "sources": [
+    {
+      "label": "Quaker Houghton Q1 2026 results (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/quaker-houghton-announces-first-quarter-2026-results-302758985.html"
+    },
+    {
+      "label": "KWR Q1 2026 earnings call highlights",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-quaker-houghton-q1-2026-results-show-resilience-93CH-4653520"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Strict latent AI-node lens: process-fluids/coolant-adjacent AI pathway is speculative and unchanged. Q1 was a pre-window in-line print; flagged Q2 input-cost/margin pressure is a mild negative but not AI-node relevant. Back-of-list rank 97 stays appropriate for thesis-stage evidence.",
+      "bull": "Resilient metalworking-fluids leader with 8% sales growth, new-business wins, and a fresh cost-savings program; coolant chemistry is an adjacency to thermal/industrial buildout.",
+      "neutral": "Steady specialty-chemicals cyclical; AI-node relevance is tenuous and unproven.",
+      "bear": "Demand is tied to steel/auto/metalworking cycles, not AI; Q2 margins pressured by Middle East input costs; no concrete AI linkage.",
+      "primaryCatalyst": "Cost-savings execution and any explicit data-center/coolant chemistry program.",
+      "primaryRisk": "Input-cost/margin squeeze and industrial-cycle softness; AI thesis never materializes."
+    }
+  ]
+}

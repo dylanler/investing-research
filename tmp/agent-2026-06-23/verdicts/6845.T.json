@@ -1,0 +1,39 @@
+{
+  "symbol": "6845.T",
+  "company": "",
+  "caseDate": "2026-06-23",
+  "newsSince": "In May 2026 Azbil announced a ¥20B (32M-share, ~6.2%) buyback plus higher ordinary and commemorative dividends and FY2027 guidance (rev ¥315B, profit ¥35.3B), and actively repurchased shares through late May. No new building-automation/data-center contract news in the June 9-23 window; the ~+10% move reads as buyback support plus general re-rating.",
+  "sources": [
+    {
+      "label": "Simply Wall St - Azbil FY2026 results",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6845/azbil-shares/news/azbil-tse6845-margin-decline-versus-growth-story-comes-into"
+    },
+    {
+      "label": "Azbil earnings update / automation outlook",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/azbil-corp-stock-jp3937200008-earnings-update-and-automation-outlook/69350109"
+    },
+    {
+      "label": "Simply Wall St - Azbil buyback & dividend hike",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6845/azbil-shares/news/azbil-tse6845-is-up-65-after-announcing-major-buyback-and-hi"
+    },
+    {
+      "label": "TipRanks - Azbil ¥20B buyback progress",
+      "url": "https://www.tipranks.com/news/company-announcements/azbil-reports-early-progress-on-20-billion-share-buyback-program"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.6,
+      "rankRationale": "Hold. No new evidence since June 9; only post-May-13-results flow. Building automation remains a real but indirect thermal/facility node for data-center efficiency. Still mostly priced as a Japanese control co, so the latent-node discount persists; nothing changed the case either way.",
+      "bull": "BA segment strong; facility energy-efficiency demand grows with data-center buildout; still under-covered as a latent thermal node.",
+      "neutral": "Indirect exposure; valued as a Japan control company; modest revenue growth.",
+      "bear": "FY2026 revenue/earnings dipped slightly; +9.95% move is flow, not fundamentals; data-center linkage is thin.",
+      "primaryCatalyst": "Building automation retrofit + data-center facility efficiency demand",
+      "primaryRisk": "Margin decline; only indirect AI exposure"
+    }
+  ]
+}
