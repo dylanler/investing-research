@@ -113,7 +113,7 @@ function StockCard({ stock, sector }: { stock: BottleneckStock; sector: Bottlene
       style={{
         border: '1px solid var(--ink-100)',
         borderRadius: 18,
-        background: 'white',
+        background: 'var(--surface-raised)',
         padding: 'var(--space-md)',
         display: 'grid',
         gap: 'var(--space-sm)',
@@ -360,8 +360,8 @@ export default function BottleneckSectorBaskets() {
               border: '1px solid var(--ink-100)',
               borderRadius: 20,
               padding: 'var(--space-md)',
-              background: 'white',
-              boxShadow: '0 14px 30px rgba(15, 23, 42, 0.04)',
+              background: 'var(--surface-raised)',
+              boxShadow: '0 14px 30px oklch(0% 0 0 / 0.25)',
             }}
           >
             <div
@@ -399,7 +399,7 @@ export default function BottleneckSectorBaskets() {
             borderRadius: 24,
             padding: 'var(--space-lg)',
             background:
-              'linear-gradient(180deg, rgba(255,255,255,0.95), rgba(248,250,252,0.95))',
+              'linear-gradient(180deg, var(--surface-raised), var(--surface-sunken))',
           }}
         >
           <div
@@ -475,10 +475,10 @@ export default function BottleneckSectorBaskets() {
               <div
                 key={item.title}
                 style={{
-                  border: '1px solid rgba(15,23,42,0.06)',
+                  border: '1px solid var(--ink-100)',
                   borderRadius: 18,
                   padding: 'var(--space-md)',
-                  background: 'rgba(255,255,255,0.8)',
+                  background: 'var(--surface-raised)',
                 }}
               >
                 <div
@@ -512,7 +512,7 @@ export default function BottleneckSectorBaskets() {
           border: '1px solid var(--ink-100)',
           borderRadius: 24,
           padding: 'var(--space-lg)',
-          background: 'white',
+          background: 'var(--surface-raised)',
           marginBottom: 'var(--space-3xl)',
         }}
       >
@@ -607,7 +607,7 @@ export default function BottleneckSectorBaskets() {
       <div
         style={{
           border: `1px solid ${selectedTheme.border}`,
-          background: `linear-gradient(180deg, ${selectedTheme.wash}, rgba(255,255,255,0.96))`,
+          background: `linear-gradient(180deg, ${selectedTheme.wash}, var(--surface-raised))`,
           borderRadius: 28,
           padding: 'var(--space-xl)',
           marginBottom: 'var(--space-lg)',
@@ -625,7 +625,7 @@ export default function BottleneckSectorBaskets() {
                 gap: 8,
                 padding: '4px 10px',
                 borderRadius: 999,
-                background: 'white',
+                background: 'var(--surface-raised)',
                 color: selectedTheme.accent,
                 border: `1px solid ${selectedTheme.border}`,
                 fontSize: '11px',
@@ -665,8 +665,8 @@ export default function BottleneckSectorBaskets() {
             style={{
               minWidth: 240,
               borderRadius: 20,
-              background: 'rgba(255,255,255,0.88)',
-              border: '1px solid rgba(15,23,42,0.08)',
+              background: 'var(--surface-raised)',
+              border: '1px solid var(--ink-200)',
               padding: 'var(--space-md)',
             }}
           >
@@ -687,8 +687,8 @@ export default function BottleneckSectorBaskets() {
             <div
               key={item.label}
               style={{
-                background: 'rgba(255,255,255,0.86)',
-                border: '1px solid rgba(15,23,42,0.08)',
+                background: 'var(--surface-raised)',
+                border: '1px solid var(--ink-200)',
                 borderRadius: 20,
                 padding: 'var(--space-md)',
               }}
@@ -743,8 +743,8 @@ export default function BottleneckSectorBaskets() {
                   gap: 8,
                   padding: '8px 12px',
                   borderRadius: 999,
-                  border: '1px solid rgba(15,23,42,0.08)',
-                  background: 'white',
+                  border: '1px solid var(--ink-200)',
+                  background: 'var(--surface-raised)',
                   color: 'var(--ink-700)',
                   fontSize: 'var(--text-sm)',
                   textDecoration: 'none',
@@ -762,7 +762,7 @@ export default function BottleneckSectorBaskets() {
           style={{
             border: '1px solid var(--ink-100)',
             borderRadius: 24,
-            background: 'white',
+            background: 'var(--surface-raised)',
             padding: 'var(--space-lg)',
           }}
         >
@@ -802,7 +802,7 @@ export default function BottleneckSectorBaskets() {
           style={{
             border: '1px solid var(--ink-100)',
             borderRadius: 24,
-            background: 'white',
+            background: 'var(--surface-raised)',
             padding: 'var(--space-lg)',
           }}
         >

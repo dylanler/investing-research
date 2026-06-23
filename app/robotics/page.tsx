@@ -1024,7 +1024,7 @@ export default function RoboticsPage() {
         </div>
       </section>
 
-      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--ink-950)', color: 'white' }}>
+      <section style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'linear-gradient(135deg, oklch(24% 0.05 255), oklch(13% 0.02 250))', color: 'white' }}>
         <div className="max-w-5xl mx-auto">
           <Reveal>
             <div style={{ color: 'oklch(78% 0.12 220)', fontSize: 'var(--text-xs)', fontWeight: 900, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 'var(--space-sm)' }}>Bottom Line</div>

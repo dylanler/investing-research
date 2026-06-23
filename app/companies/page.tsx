@@ -269,7 +269,7 @@ export default function CompaniesPage() {
                     if (!payload?.length) return null;
                     const d = payload[0].payload;
                     return (
-                      <div style={{ background: '#fff', border: '1px solid oklch(85% 0.008 60)', padding: 8, borderRadius: 2, fontSize: 12 }}>
+                      <div style={{ background: 'var(--surface-overlay)', border: '1px solid var(--ink-200)', padding: 8, borderRadius: 2, fontSize: 12 }}>
                         <div style={{ fontWeight: 600, color: 'var(--ink-900)' }}>{d.company} ({d.ticker})</div>
                         <div style={{ color: 'var(--ink-500)' }}>{d.bucket}</div>
                         <div style={{ color: d.y >= 0 ? 'oklch(45% 0.12 155)' : 'oklch(50% 0.15 25)', fontWeight: 600 }}>{d.y > 0 ? '+' : ''}{d.y}% YTD</div>

@@ -1515,7 +1515,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                   ...panelStyle,
                   padding: 'clamp(24px, 4vw, 40px)',
                   background:
-                    'linear-gradient(145deg, oklch(100% 0 0 / 0.92), oklch(98% 0.008 70 / 0.98))',
+                    'linear-gradient(145deg, var(--surface-raised), var(--surface-sunken))',
                 }}
               >
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
@@ -1583,8 +1583,8 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                     style={{
                       padding: 16,
                       borderRadius: 18,
-                      background: 'oklch(98% 0.01 70 / 0.9)',
-                      border: '1px solid oklch(86% 0.05 72)',
+                      background: 'oklch(68% 0.13 72 / 0.10)',
+                      border: '1px solid oklch(68% 0.13 72 / 0.32)',
                     }}
                   >
                     <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 8 }}>
@@ -1602,8 +1602,8 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                     style={{
                       padding: 16,
                       borderRadius: 18,
-                      background: 'oklch(98% 0.01 250 / 0.9)',
-                      border: '1px solid oklch(84% 0.04 250)',
+                      background: 'oklch(62% 0.15 255 / 0.10)',
+                      border: '1px solid oklch(62% 0.15 255 / 0.32)',
                     }}
                   >
                     <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 8 }}>

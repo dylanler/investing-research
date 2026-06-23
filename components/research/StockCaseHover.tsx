@@ -174,22 +174,22 @@ export default function StockCaseHover(props: StockCaseHoverProps) {
             left: position.x,
             width: 'min(21rem, 82vw)',
             zIndex: 200,
-            border: '1px solid rgba(15, 78, 133, 0.18)',
+            border: '1px solid var(--ink-200)',
             borderRadius: 8,
-            background: 'rgba(255, 255, 255, 0.98)',
-            boxShadow: '0 20px 45px rgba(16, 35, 55, 0.18)',
-            color: '#25313d',
+            background: 'var(--surface-overlay)',
+            boxShadow: '0 20px 45px oklch(0% 0 0 / 0.35)',
+            color: 'var(--ink-800)',
             padding: '0.72rem',
             textAlign: 'left',
             whiteSpace: 'normal',
             pointerEvents: 'none',
           }}
         >
-          <span style={{ display: 'block', fontSize: '0.68rem', fontWeight: 800, color: '#0f4e85', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+          <span style={{ display: 'block', fontSize: '0.68rem', fontWeight: 800, color: 'var(--accent)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             {agentCase?.caseDate ?? RESEARCH_DATE}{rankMove ? ` | ${rankMove}` : ''}
           </span>
           {agentCase?.rankRationale ? (
-            <span style={{ display: 'block', marginTop: '0.36rem', fontSize: '0.72rem', color: '#6d7883', lineHeight: 1.45 }}>
+            <span style={{ display: 'block', marginTop: '0.36rem', fontSize: '0.72rem', color: 'var(--ink-500)', lineHeight: 1.45 }}>
               {shorten(agentCase.rankRationale, 180)}
             </span>
           ) : null}
@@ -202,7 +202,7 @@ export default function StockCaseHover(props: StockCaseHoverProps) {
           <span style={{ display: 'block', marginTop: '0.36rem', fontSize: '0.78rem', lineHeight: 1.45 }}>
             <strong>Bear:</strong> {cases.bear}
           </span>
-          <span style={{ display: 'block', marginTop: '0.48rem', fontSize: '0.68rem', color: '#6d7883' }}>
+          <span style={{ display: 'block', marginTop: '0.48rem', fontSize: '0.68rem', color: 'var(--ink-500)' }}>
             Sources: {sources.map((source) => source.label ?? hostName(source.url)).join(' | ')}
           </span>
         </span>
