@@ -1,0 +1,56 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 38. July context shows score 70.3, move since prior +8.9%, YTD -18.1%, market cap $4.26B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "DC water intensity + municipal resilience budgets revalue smart metering and software attach over time.",
+      "neutral": "Soft short-cycle municipal orders; full-year organic flat vs 2025 with H2-weighted pacing.",
+      "bear": "Q1 margin compression (17.4% vs 22.2%) plus legal overhang; weak utility-water demand persists.",
+      "primaryCatalyst": "Smart-water adoption and PRASA project deployment scaling H2.",
+      "primaryRisk": "Continued municipal order softness and margin slippage."
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 8. July context shows score 74.3, move since prior +8.9%, YTD -18.1%, market cap $4.26B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Flow/water telemetry could monitor liquid-cooling loops and water intensity in AI data centers.",
+      "neutral": "Cooling-loop linkage remains speculative; core demand is municipal, not AI.",
+      "bear": "AI-cooling attach is unproven; near-term fundamentals soft and credibility overhang lingers.",
+      "primaryCatalyst": "Validation of metering attach to liquid-cooling water loops.",
+      "primaryRisk": "Thesis stays qualitative with no AI-specific revenue."
+    }
+  ],
+  "symbol": "BMI",
+  "company": "Badger Meter",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Badger Meter Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/17/badger-meter-bmi-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "Badger Meter SEC 8-K (FY2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/9092/000119312526160389/bmi-ex99_pressrelease.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BMI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "BMI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BMI/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Badger Meter (BMI) across latent-ai-nodes, latent-ai-nodes-strict: market cap $4.26B, move since prior +8.9%, YTD -18.1%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

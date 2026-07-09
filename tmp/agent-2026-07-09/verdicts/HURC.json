@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 20. July context shows score 71.0, move since prior -0.8%, YTD +33.4%, market cap $0.14B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "US machine-tool demand inflecting; 5-axis mix richening; net cash ~$50M (36% of cap) gives downside asymmetry.",
+      "neutral": "Strong order print already digested; still loss-making at the net line; AI-node link is indirect/optional.",
+      "bear": "Microcap CNC vendor; AI-infra connection is speculative; Germany weak; cyclical machine-tool demand can reverse.",
+      "primaryCatalyst": "Sustained order/margin recovery converting to profitability",
+      "primaryRisk": "Cyclical machine-tool downturn; AI-node thesis never materializes"
+    }
+  ],
+  "symbol": "HURC",
+  "company": "Hurco",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Hurco Q2 FY26 8-K (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/HURC/8-k-hurco-companies-inc-reports-material-event-24bb2a1be147.html"
+    },
+    {
+      "label": "Hurco Q2 8-K exhibit (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000315374/000110465926070810/hurc-20260605xex99d1.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/HURC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "HURC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/HURC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Hurco (HURC) across latent-ai-nodes-strict: market cap $0.14B, move since prior -0.8%, YTD +33.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

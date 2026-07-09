@@ -1,0 +1,101 @@
+{
+  "symbol": "005930.KS",
+  "company": "Samsung Electronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 81 hold (+0); down 10.3% since the prior refresh. semiconductor-ai-nodes: rank 25 hold (+0); down 10.3% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 005930.KS",
+      "url": "https://finance.yahoo.com/quote/005930.KS/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "SK hynix ships 12-layer HBM4E ahead of schedule, tightens race (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318633/20260619/sk-hynix-ships-12-layer-hbm4e-samples-ahead-schedule-tightening-race-samsung.htm"
+    },
+    {
+      "label": "Samsung shipping HBM4 for Vera Rubin; HBM5/foundry talks (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260609PD200/samsung-nvidia-chips-sk-hynix-business.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "005930.KS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/005930.KS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Samsung HBM/logic optionality is improving but still faces HBM execution/share uncertainty and megacap recognition.",
+      "bull": "HBM and conventional memory tightness remain central to AI accelerator availability and system cost.",
+      "neutral": "Current snapshot: move since prior -10.3%, YTD +116.3%, market cap about $1402.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Crowded ownership, memory-cycle reversal and share loss between HBM suppliers.",
+      "primaryCatalyst": "HBM qualification, pricing, capacity allocation and AI-memory contract visibility",
+      "primaryRisk": "Crowded ownership, memory-cycle reversal and share loss between HBM suppliers."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Samsung Electronics through HBM / foundry / IDM; AI memory and foundry exposure; less pure CPO connectivity. The stock is down 10.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Memory/foundry scale could theoretically support optical-IO packaging over time.",
+      "neutral": "Real news is all HBM/foundry, off-lens for co-packaged optics; no incremental CPO signal.",
+      "bear": "Not a CPO-connectivity pure play; crowding-sensitive list rightly keeps it tangential.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Memory cycle and foundry execution"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Samsung Electronics through memory; Memory rebound plus HBM4/SOCAMM2/NVIDIA Vera Rubin evidence and foundry optionality. Size and conglomerate complexity cap alpha despite improving AI linkage. The stock is down 10.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Certified Vera Rubin HBM4 supplier shipping 12-layer HBM4E; HBM5 + Groq LP40 foundry talks add optionality.",
+      "neutral": "Improving AI linkage offset by conglomerate complexity and a +141% YTD that already prices the rebound.",
+      "bear": "SK Hynix is shipping HBM4E ahead of schedule and holds the dominant Rubin allocation; Samsung remains the #3 catching up.",
+      "primaryCatalyst": "HBM/DRAM supply tightness and contracted AI memory demand",
+      "primaryRisk": "Losing the HBM/foundry race to SK Hynix/TSMC; memory-cycle timing"
+    }
+  ]
+}

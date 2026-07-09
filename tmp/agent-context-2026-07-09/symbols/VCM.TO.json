@@ -1,0 +1,32 @@
+{
+ "symbol": "VCM.TO",
+ "asOf": "2026-07-09",
+ "company": "Vecima Networks",
+ "currency": "CAD",
+ "priceToday": 12.67,
+ "pricePrev": 13.07,
+ "moveSincePrevPct": -3.06,
+ "ytdReturnPct": 21.83,
+ "marketCapUsdB": 0.22,
+ "quoteUrl": "https://finance.yahoo.com/quote/VCM.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 43,
+   "ticker": "VCM.TO",
+   "company": "Vecima Networks",
+   "score": 70.0,
+   "thesis": "Distributed AI and edge compute need upgraded broadband/fiber access; Vecima is small, technical and underfollowed.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "TSX",
+   "ytd": 21.83,
+   "conviction": "Speculative",
+   "catalysts": "DOCSIS 4.0 rollouts; vCMTS adoption; customer transition from qualification to deployment.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 33 is 4 places worse than displayed rank 29; adjusted score 70.0; YTD +26.0%; market cap $239M; Vecima Networks remains tied to connectivity & photonics through Cable/fiber access and cloud-native broadband platforms. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

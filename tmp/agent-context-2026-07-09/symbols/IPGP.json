@@ -1,0 +1,49 @@
+{
+ "symbol": "IPGP",
+ "asOf": "2026-07-09",
+ "company": "IPGP",
+ "currency": "USD",
+ "priceToday": 102.28,
+ "pricePrev": 109.29,
+ "moveSincePrevPct": -6.41,
+ "ytdReturnPct": 36.66,
+ "marketCapUsdB": 4.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/IPGP/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 9,
+   "ticker": "IPGP",
+   "company": "IPG Photonics",
+   "score": 78.7,
+   "thesis": "Fiber lasers are not an AI model, but advanced manufacturing, photonics and sensor systems can pull IPG into AI-enabled industrial production.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NASDAQ",
+   "ytd": 36.66,
+   "conviction": "Medium",
+   "catalysts": "Industrial capex recovery; laser welding/cutting automation; photonics optionality.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 12 is 3 places worse than displayed rank 9; adjusted score 78.0; YTD +48.7%; market cap $4.6B; IPG Photonics remains tied to connectivity & photonics through Fiber lasers and amplifiers for precision manufacturing. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 39,
+   "ticker": "IPGP",
+   "company": "IPG Photonics",
+   "score": 71.0,
+   "thesis": "Photonics expertise, but CPO data-center revenue path less direct than COHR/LITE/MTSI.",
+   "category": "Photonics/lasers",
+   "ytd": 36.66,
+   "mcapB": 4.34,
+   "risk": "Industrial laser cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: IPG still lacks a direct CPO data-center revenue path vs COHR/LITE/MTSI. No new CPO evidence since the June 9 verdict that already moved it down. Industrial-laser identity unchanged. Hold at rank 35."
+   }
+  }
+ ]
+}

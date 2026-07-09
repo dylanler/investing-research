@@ -1,0 +1,35 @@
+{
+  "symbol": "LUMEN.ST",
+  "company": "LumenRadio",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. LumenRadio (LUMEN.ST) now screens at $0.08B market cap, -1.9% since the prior refresh and +8.4% YTD. Page thesis remains: Industrial wireless connectivity / edge control",
+  "sources": [
+    {
+      "label": "LUMEN.ST quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/LUMEN.ST/"
+    },
+    {
+      "label": "LumenRadio (LUMEN.ST) Yahoo Finance quote/news",
+      "url": "https://finance.yahoo.com/quote/LUMEN.ST/"
+    },
+    {
+      "label": "LumenRadio Q1 2026 results (Apr 23)",
+      "url": "https://www.marketscreener.com/news/lumenradio-ab-reports-earnings-results-for-the-first-quarter-ended-march-31-2026-ce7f59dfdf8ef526"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 33. July market-data refresh shows move since prior -1.9%, YTD +8.4%, market cap $0.08B. Thesis: Industrial wireless connectivity / edge control. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Niche industrial wireless connectivity for edge control.",
+      "neutral": "Micro-cap optionality, illiquid, only loosely AI-scaling adjacent.",
+      "bear": "Tiny, illiquid, peripheral to the compute-scaling thesis.",
+      "primaryCatalyst": "Industrial IoT / edge-control design wins",
+      "primaryRisk": "Micro-cap liquidity; weak AI linkage"
+    }
+  ]
+}

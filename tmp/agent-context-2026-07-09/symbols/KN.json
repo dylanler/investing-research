@@ -1,0 +1,32 @@
+{
+ "symbol": "KN",
+ "asOf": "2026-07-09",
+ "company": "Knowles",
+ "currency": "USD",
+ "priceToday": 35.03,
+ "pricePrev": 40.64,
+ "moveSincePrevPct": -13.8,
+ "ytdReturnPct": 59.59,
+ "marketCapUsdB": 2.95,
+ "quoteUrl": "https://finance.yahoo.com/quote/KN/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 34,
+   "ticker": "KN",
+   "company": "Knowles",
+   "score": 71.8,
+   "thesis": "Edge voice and sensor capture could become more valuable as AI moves to devices; Knowles remains a neglected component story.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NYSE",
+   "ytd": 59.59,
+   "conviction": "Speculative",
+   "catalysts": "Edge-AI devices; acoustic sensor wins; specialty capacitors.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 23 is 17 places better than displayed rank 40; adjusted score 73.0; YTD +74.1%; market cap $3.3B; Knowles remains tied to sensors & measurement through MEMS microphones, capacitors and acoustic interfaces. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

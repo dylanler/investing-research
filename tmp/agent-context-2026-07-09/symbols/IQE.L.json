@@ -1,0 +1,29 @@
+{
+ "symbol": "IQE.L",
+ "asOf": "2026-07-09",
+ "company": "IQE plc",
+ "currency": "GBp",
+ "priceToday": 38.99,
+ "pricePrev": 49.8,
+ "moveSincePrevPct": -21.71,
+ "ytdReturnPct": 657.09,
+ "marketCapUsdB": 0.8,
+ "quoteUrl": "https://finance.yahoo.com/quote/IQE.L/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 47,
+   "ticker": "IQE.L",
+   "company": "IQE plc",
+   "score": 13.0,
+   "thesis": "Epitaxy materials stack; upstream bottleneck exposure",
+   "bucket": "semiconductors",
+   "ytd": 657.09,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 48 is 1 places better than displayed rank 49; adjusted score 13.0; YTD +778.6%; market cap $788M; Scaling watchlist fit is Epitaxy materials stack; upstream bottleneck exposure; bucket semiconductors; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

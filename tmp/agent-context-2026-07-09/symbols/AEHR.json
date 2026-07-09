@@ -1,0 +1,80 @@
+{
+ "symbol": "AEHR",
+ "asOf": "2026-07-09",
+ "company": "Aehr Test Systems",
+ "currency": "USD",
+ "priceToday": 67.89,
+ "pricePrev": 103.0,
+ "moveSincePrevPct": -34.09,
+ "ytdReturnPct": 206.36,
+ "marketCapUsdB": 2.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/AEHR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 85,
+   "ticker": "AEHR",
+   "company": "Aehr Test Systems",
+   "score": 58.8,
+   "thesis": "Burn-in/test could matter for high-reliability SiC and power devices around data-center power, but customer concentration is high.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "NASDAQ",
+   "ytd": 206.36,
+   "conviction": "Speculative",
+   "catalysts": "SiC recovery; AI power devices; new customer wins.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 95 is 4 places better than displayed rank 99; adjusted score 51.9; YTD +331.3%; market cap $3.0B; Aehr received a record $41 million hyperscale AI customer order in April 2026, improving direct AI evidence but also making the stock much more discovered. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 99,
+   "ticker": "AEHR",
+   "company": "Aehr Test Systems",
+   "score": 37.1,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 206.36,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node-bottleneck lens: WFE/test is a peripheral node, and the June 17 photonics order is positive but small relative to HBM/advanced-packaging chokepoints. Improving AI-test evidence justifies a touch more score, but it stays at the bottom of this direct-node tier."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 28,
+   "ticker": "AEHR",
+   "company": "Aehr Test Systems",
+   "score": 75.9,
+   "thesis": "Small-cap test optionality if photonics/power devices require more wafer-level reliability screening.",
+   "category": "Test / reliability",
+   "ytd": 206.36,
+   "mcapB": 2.13,
+   "risk": "Very high volatility and customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "CPO lens: this is the most relevant page. June 17 silicon-photonics WLBI follow-on order for hyperscale data-center optical interconnect is direct, fresh evidence that photonics needs more wafer-level reliability screening - the exact 'test optionality' premise. Crowding noted, but new CPO-specific fundamentals warrant up."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 43,
+   "ticker": "AEHR",
+   "company": "Aehr Test Systems",
+   "score": 24.2,
+   "thesis": "Burn-in / reliability testing for power and AI-adjacent chips",
+   "bucket": "semiconductors",
+   "ytd": 206.36,
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Test-time-scaling lens: burn-in/reliability test is only loosely connected to inference-scaling economics. The June 17 photonics order is fundamentally positive but barely moves the scaling thesis. Hold at #47 in the semis bucket."
+   }
+  }
+ ]
+}

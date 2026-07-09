@@ -1,0 +1,35 @@
+{
+  "symbol": "003021.SZ",
+  "company": "Shenzhen Zhaowei Machinery",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Shenzhen Zhaowei Machinery (003021.SZ) now screens at $3.19B market cap, -6.5% since the prior refresh and -28.9% YTD. Page thesis remains: KOID surfaces Zhaowei as a less-obvious precision-motion candidate. The setup is cleaner than the Japan reducer leaders because the market cap is still modest and the stock is down YTD.",
+  "sources": [
+    {
+      "label": "003021.SZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/003021.SZ/"
+    },
+    {
+      "label": "Zhaowei (003021) news flow - Futubull",
+      "url": "https://www.futunn.com/en/stock/003021-SZ/news/news"
+    },
+    {
+      "label": "Zhaowei robotics / dexterous-hand products (company)",
+      "url": "https://www.zwgearbox.com/robots"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 0. July market-data refresh shows move since prior -6.5%, YTD -28.9%, market cap $3.19B. Thesis: KOID surfaces Zhaowei as a less-obvious precision-motion candidate. The setup is cleaner than the Japan reducer leaders because the market cap is still modest and the stock is down YTD.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Cleaner setup than Japan reducer leaders: modest cap, down YTD; precision gearbox + dexterous-hand second growth curve into humanoids.",
+      "neutral": "Embodied-AI revenue still nascent; core business growth has stumbled, so the robot story is mostly optionality.",
+      "bear": "Sharp drawdown and weak near-term growth suggest the humanoid premium is unwinding; execution unproven at scale.",
+      "primaryCatalyst": "Humanoid dexterous-hand / actuator module order wins",
+      "primaryRisk": "Core-business growth deceleration; humanoid optionality re-rating lower"
+    }
+  ]
+}

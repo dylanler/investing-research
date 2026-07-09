@@ -1,0 +1,32 @@
+{
+ "symbol": "INTT",
+ "asOf": "2026-07-09",
+ "company": "inTEST Corporation",
+ "currency": "USD",
+ "priceToday": 14.49,
+ "pricePrev": 17.69,
+ "moveSincePrevPct": -18.09,
+ "ytdReturnPct": 92.18,
+ "marketCapUsdB": 0.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/INTT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 31,
+   "ticker": "INTT",
+   "company": "inTEST Corporation",
+   "score": 72.3,
+   "thesis": "Tiny supplier of thermal/test capability: high optionality if AI chip packaging and burn-in/test demand broadens beyond the obvious semicap names.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "NYSE American",
+   "ytd": 92.18,
+   "conviction": "Speculative",
+   "catalysts": "Semicap recovery; advanced packaging test; operating leverage from small revenue base.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 29 is 16 places better than displayed rank 45; adjusted score 71.8; YTD +107.3%; market cap $184M; inTEST Corporation remains tied to semi/advanced materials through Thermal process and semiconductor test equipment. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

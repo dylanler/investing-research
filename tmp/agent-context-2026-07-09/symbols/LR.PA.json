@@ -1,0 +1,66 @@
+{
+ "symbol": "LR.PA",
+ "asOf": "2026-07-09",
+ "company": "Legrand",
+ "currency": "EUR",
+ "priceToday": 143.075,
+ "pricePrev": 146.8,
+ "moveSincePrevPct": -2.54,
+ "ytdReturnPct": 11.95,
+ "marketCapUsdB": 42.5,
+ "quoteUrl": "https://finance.yahoo.com/quote/LR.PA/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 27,
+   "ticker": "LR",
+   "company": "Legrand",
+   "score": 49.4,
+   "thesis": "Busway, PDU and electrical distribution leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "EPA: LR",
+   "ytd": 11.95,
+   "mcapB": 42.5,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new evidence since June 9; data-center M&A and FY26 guide were Q1 news already chased. The +6.2% pop is momentum, not fresh thesis change. A $46B well-covered name sits correctly in the secondary residual bucket, farther from the scarcest passive/power chokepoints."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 89,
+   "ticker": "LR.PA",
+   "company": "Legrand",
+   "score": 58.0,
+   "thesis": "Data-center electrical and building systems are core to Legrand, but the market increasingly recognizes this exposure.",
+   "theme": "Power & Grid",
+   "exchange": "Euronext Paris",
+   "ytd": 11.95,
+   "conviction": "Medium",
+   "catalysts": "Data-center products; building electrification; energy efficiency.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 81 is 3 places better than displayed rank 84; adjusted score 58.0; YTD +9.6%; market cap $44.4B; Legrand remains tied to power & grid through Electrical infrastructure, racks and building systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 4,
+   "ticker": "LR",
+   "company": "Legrand",
+   "score": 85.0,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical distribution and cabling execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 11.95,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: power/cooling/electrical bucket. Audit already balanced electrical-distribution bottleneck vs. rerating. No regulated news since June 9; nothing to re-rank intra-bucket. Hold rank 4."
+   }
+  }
+ ]
+}

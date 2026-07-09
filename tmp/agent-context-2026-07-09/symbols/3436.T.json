@@ -1,0 +1,47 @@
+{
+ "symbol": "3436.T",
+ "asOf": "2026-07-09",
+ "company": "3436.T",
+ "currency": "JPY",
+ "priceToday": 4544.0,
+ "pricePrev": 3830.0,
+ "moveSincePrevPct": 18.64,
+ "ytdReturnPct": 213.6,
+ "marketCapUsdB": 11.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/3436.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 60,
+   "ticker": "3436.T",
+   "company": "SUMCO",
+   "score": 53.0,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 213.6,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "AI-node bottleneck lens: genuinely new evidence since Jun 9 (Nomura demand upgrade, 18.5yr high, H2 LTA price-revision catalyst) reinforces 300mm tightness for AI logic/HBM and supply discipline. Strengthens the choke-point thesis; +2 and edge up despite +164% YTD."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 67,
+   "ticker": "3436.T",
+   "company": "SUMCO",
+   "score": 56.3,
+   "thesis": "Wafer materials exposure; indirect and cyclical.",
+   "category": "Materials",
+   "ytd": 213.6,
+   "mcapB": 11.04,
+   "risk": "Wafer pricing and utilization",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "SUMCO should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 73, 143.1% YTD, $8.8B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

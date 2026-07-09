@@ -1,0 +1,30 @@
+{
+ "symbol": "6590.T",
+ "asOf": "2026-07-09",
+ "company": "Shibaura Mechatronics",
+ "currency": "JPY",
+ "priceToday": 5300.0,
+ "pricePrev": 4655.0,
+ "moveSincePrevPct": 13.86,
+ "ytdReturnPct": 36.81,
+ "marketCapUsdB": 2.43,
+ "quoteUrl": "https://finance.yahoo.com/quote/6590.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 32,
+   "ticker": "6590.T",
+   "company": "Shibaura Mechatronics",
+   "score": 63.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "OSAT / packaging",
+   "ytd": 36.81,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Shibaura Mechatronics should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 20, 21.2% YTD, $2.1B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

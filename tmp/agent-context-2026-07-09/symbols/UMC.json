@@ -1,0 +1,63 @@
+{
+ "symbol": "UMC",
+ "asOf": "2026-07-09",
+ "company": "UMC",
+ "currency": "USD",
+ "priceToday": 24.73,
+ "pricePrev": 26.545,
+ "moveSincePrevPct": -6.84,
+ "ytdReturnPct": 215.43,
+ "marketCapUsdB": 62.05,
+ "quoteUrl": "https://finance.yahoo.com/quote/UMC/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 76,
+   "ticker": "UMC",
+   "company": "United Microelectronics",
+   "score": 49.1,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 215.43,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "AI-node tollgate lens: formal H2-26 wafer price hikes with broader 2027 increases and high utilization directly raise pricing power on the mature-node tollgate the thesis prices in - a real fundamental positive, not just rerating. AI-adjacent demand supports volumes."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 49,
+   "ticker": "UMC / 2303.TW",
+   "company": "United Microelectronics",
+   "score": 63.0,
+   "thesis": "Specialty/mature process capacity; limited direct CPO but value-oriented.",
+   "category": "Foundry / specialty",
+   "ytd": 215.43,
+   "mcapB": 62.05,
+   "risk": "Mature-node pricing",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "United Microelectronics should move down because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity is either less hidden after 155.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 49 implies."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 75,
+   "ticker": "UMC",
+   "company": "UMC",
+   "score": 49.8,
+   "thesis": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch mature-node foundry capacity execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 215.43,
+   "auditNote": "Under-owned-bottleneck master list: UMC is a pick-and-shovel foundry whose capacity-execution/pricing watch-item just resolved positively - formal H2-26 hikes, broader 2027 increases, tight utilizatio",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Under-owned-bottleneck master list: UMC is a pick-and-shovel foundry whose capacity-execution/pricing watch-item just resolved positively - formal H2-26 hikes, broader 2027 increases, tight utilization plus a Novatek disposal gain. Genuine fundamental improvement beyond the YTD rerating."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 61. July context shows score 66.0, move since prior +2.5%, YTD +12.9%, market cap $0.48B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Diversified industrial distributor with improving gross margin and solid backlog; cheap C$0.47B name.",
+      "neutral": "Sleepy distributor; AI-node tie is qualitative optionality, not a real revenue driver.",
+      "bear": "Revenue declining (-9.5% Q1); no AI exposure to justify a strict latent-node slot.",
+      "primaryCatalyst": "Canadian industrial reshoring / backlog conversion",
+      "primaryRisk": "No durable AI-chain exposure; cyclical equipment demand softening"
+    }
+  ],
+  "symbol": "WJX.TO",
+  "company": "Wajax",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Wajax Q1 2026 results (May 4)",
+      "url": "https://investors.wajax.com/2026-05-04-WAJAX-ANNOUNCES-2026-FIRST-QUARTER-RESULTS"
+    },
+    {
+      "label": "Wajax press releases (Yahoo)",
+      "url": "https://ca.finance.yahoo.com/quote/WJX.TO/press-releases/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/WJX.TO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "WJX.TO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/WJX.TO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Wajax (WJX.TO) across latent-ai-nodes-strict: market cap $0.48B, move since prior +2.5%, YTD +12.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

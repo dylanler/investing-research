@@ -1,0 +1,81 @@
+{
+ "symbol": "MU",
+ "asOf": "2026-07-09",
+ "company": "Micron Technology",
+ "currency": "USD",
+ "priceToday": 948.8,
+ "pricePrev": 1073.88,
+ "moveSincePrevPct": -11.65,
+ "ytdReturnPct": 200.81,
+ "marketCapUsdB": 1072.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/MU/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 81,
+   "ticker": "MU",
+   "company": "Micron Technology",
+   "score": 14.4,
+   "thesis": "HBM and memory leverage; direct-AI, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: MU",
+   "ytd": 200.81,
+   "mcapB": 1072.0,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the passives/power-bottleneck lens MU stays peripheral: HBM/memory is direct-AI, not passive-component scarcity. Pre-earnings hype and reaffirmed sold-out pricing don't move this page's lens; a $1.2T mega-cap remains far from hidden. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 17,
+   "ticker": "MU",
+   "company": "Micron Technology",
+   "score": 70.0,
+   "thesis": "HBM and data-center memory cash flow with public revenue/margin acceleration and contracted HBM supply visibility; less crowded than GPU leaders but increasingly discovered.",
+   "tier": "memory",
+   "ytd": 200.81,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Node-centrality reaffirmed: HBM sold out 2026, pricing locked, HBM4 in volume for Vera Rubin, tightness beyond CY2026. Reinforces but doesn't extend the Jun 5/9 case; the June 24 print is an unrealized catalyst, so +1 not a move at rank 18."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 98,
+   "ticker": "MU",
+   "company": "Micron Technology",
+   "score": 44.8,
+   "thesis": "AI memory demand strong; CPO is indirect via larger AI clusters.",
+   "category": "HBM / memory",
+   "ytd": 200.81,
+   "mcapB": 1072.0,
+   "risk": "Memory cycle, capex, pricing",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the co-packaged-optics lens MU is only indirect via larger AI clusters; no CPO-specific catalyst since June 9. HBM strength helps cluster scale but not optical content. Hold near bottom."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 81,
+   "ticker": "MU",
+   "company": "Micron Technology",
+   "score": 46.5,
+   "thesis": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm supplier execution and pricing.",
+   "bucket": "HBM & AI memory",
+   "ytd": 200.81,
+   "auditNote": "Current thesis audit (2026-06-08): HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exp",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: HBM & AI-memory bucket thesis intact, with reaffirmed sold-out/locked pricing and HBM4 ramp. Supplier-execution watch-item now de-risking ahead of June 24, warranting a small +1; not enough for a rank move on a $1.2T discovered name."
+   }
+  }
+ ]
+}

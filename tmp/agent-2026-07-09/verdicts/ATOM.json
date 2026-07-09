@@ -1,0 +1,39 @@
+{
+  "symbol": "ATOM",
+  "company": "Atomera",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Atomera (ATOM) now screens at $0.29B market cap, -12.7% since the prior refresh and +189.0% YTD. Page thesis remains: Too indirect and already up too much.",
+  "sources": [
+    {
+      "label": "ATOM quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ATOM/"
+    },
+    {
+      "label": "BigGo Finance: Atomera positions MST for AI chips, 2026 deals",
+      "url": "https://finance.biggo.com/news/ngCUV5wBq7sy_YQMsIyD"
+    },
+    {
+      "label": "Atomera MST-enabled GaN-on-Si devices (Semiconductor Today)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/atomera-050626.shtml"
+    },
+    {
+      "label": "Atomera GaN-on-Silicon RF breakthrough (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/atomera-breakthrough-targets-broader-rf-200500643.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 37,
+      "rankMove": "remove",
+      "scoreDelta": -4,
+      "confidence": 0.61,
+      "rankRationale": "Robotics hidden-gem lens: Remove from active alpha weight at current rank 37. July market-data refresh shows move since prior -12.7%, YTD +189.0%, market cap $0.29B. Thesis: Too indirect and already up too much.. Score delta -4; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "MST could enable GAA/edge-AI nodes if a major foundry licenses it.",
+      "neutral": "Pre-revenue optionality; no robotics tie at all.",
+      "bear": "+231% YTD micro-cap; speculative, no signed commercial deal; off-lens for robotics.",
+      "primaryCatalyst": "New foundry commercial license",
+      "primaryRisk": "Pre-revenue, valuation, no robotics relevance"
+    }
+  ]
+}

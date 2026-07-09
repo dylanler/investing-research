@@ -1,0 +1,50 @@
+{
+ "symbol": "DPLM.L",
+ "asOf": "2026-07-09",
+ "company": "Diploma",
+ "currency": "GBp",
+ "priceToday": 6745.0,
+ "pricePrev": 7090.0,
+ "moveSincePrevPct": -4.87,
+ "ytdReturnPct": 27.38,
+ "marketCapUsdB": 12.95,
+ "quoteUrl": "https://finance.yahoo.com/quote/DPLM.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 75,
+   "ticker": "DPLM.L",
+   "company": "Diploma",
+   "score": 62.3,
+   "thesis": "Windy City Wire and controls exposure touch data-center infrastructure, but Diploma’s high-quality compounder valuation reduces alpha.",
+   "theme": "Distribution/Services",
+   "exchange": "LSE",
+   "ytd": 27.38,
+   "conviction": "Medium",
+   "catalysts": "Controls growth; specialist M&A; North America data-center distribution.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 67; adjusted score 63.0; YTD +33.3%; market cap $12.6B; Diploma remains tied to distribution/services through Technical distribution in controls, seals and life sciences. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 50,
+   "ticker": "DPLM.L",
+   "company": "Diploma",
+   "score": 67.0,
+   "thesis": "Seals, controls and life-science/industrial distribution could aggregate hard-to-source fluid-control components",
+   "theme": "Seals/controls distribution",
+   "exchange": "LSE",
+   "regionRank": "Non-US#22",
+   "ytd": 27.38,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen (aggregating hard-to-source seals/fluid-control + low-voltage wiring): pathway unchanged since June 9. H1 strength is pre-June 9 and already priced. No new AI-chain-specific evidence on the speculative aggregation route, so the strict-pathway score stands. Hold."
+   }
+  }
+ ]
+}

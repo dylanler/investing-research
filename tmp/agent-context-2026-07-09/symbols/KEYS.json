@@ -1,0 +1,48 @@
+{
+ "symbol": "KEYS",
+ "asOf": "2026-07-09",
+ "company": "Keysight Technologies",
+ "currency": "USD",
+ "priceToday": 317.24,
+ "pricePrev": 355.83,
+ "moveSincePrevPct": -10.85,
+ "ytdReturnPct": 53.56,
+ "marketCapUsdB": 54.64,
+ "quoteUrl": "https://finance.yahoo.com/quote/KEYS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 65,
+   "ticker": "KEYS",
+   "company": "Keysight Technologies",
+   "score": 64.2,
+   "thesis": "AI hardware and networks need test/validation; Keysight is a high-quality tollbooth, but the market already understands its semicap/test role.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NYSE",
+   "ytd": 53.56,
+   "conviction": "Medium",
+   "catalysts": "800G/1.6T; chip design validation; telecom recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent AI supply-chain lens: high-quality test/validation tollbooth, but the page concedes the market already understands the role. Blowout Q2 and guidance raise predate Jun 9; no new info in window. +7.3% move is re-rating, not fresh fundamental news. Hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 77,
+   "ticker": "KEYS",
+   "company": "Keysight Technologies",
+   "score": 49.0,
+   "thesis": "Design-validation exposure. Strong ytd follow-through; watch test and measurement execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 53.56,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: yesterday's verdict already pushed KEYS down for the post-Q2 re-rating. No new info since the window opened; the +7.3% move continues the rerating rather than adding fundamental asymmetry. Crowding-adjusted low rank stands; hold."
+   }
+  }
+ ]
+}

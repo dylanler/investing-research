@@ -1,0 +1,47 @@
+{
+ "symbol": "2379.TW",
+ "asOf": "2026-07-09",
+ "company": "Realtek Semiconductor",
+ "currency": "TWD",
+ "priceToday": 840.0,
+ "pricePrev": 863.0,
+ "moveSincePrevPct": -2.67,
+ "ytdReturnPct": 72.31,
+ "marketCapUsdB": 12.49,
+ "quoteUrl": "https://finance.yahoo.com/quote/2379.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 66,
+   "ticker": "2379.TW",
+   "company": "Realtek Semiconductor",
+   "score": 51.1,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 72.31,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On node-criticality, Realtek remains analog/RF/edge, not HBM/packaging/AI-networking core. The +32.6% surge since June 9 is a revenue-print/flow move (May rev +double-digit, PT bumps), not a new bottleneck position, further eroding residual alpha and confirming the prior de-rank."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 69,
+   "ticker": "2379.TW",
+   "company": "Realtek Semiconductor",
+   "score": 55.8,
+   "thesis": "Networking chip exposure, but low CPO directness.",
+   "category": "Networking / edge",
+   "ytd": 72.31,
+   "mcapB": 12.49,
+   "risk": "PC/networking cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Realtek Semiconductor should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 22.3% YTD and $10.4B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "symbol": "SMCI",
+  "company": "Super Micro Computer",
+  "caseDate": "2026-07-09",
+  "newsSince": "-16.6% since prior, -9.0% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved -16.6% since the prior snapshot and YTD return is -9.0%; verdict: down with scoreDelta -5.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for SMCI",
+      "url": "https://finance.yahoo.com/quote/SMCI/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "SMCI $7B raise funds $39B AI-server bet (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318176/20260610/super-micro-7-billion-equity-raise-smci-stock-sinks-dilution-funds-39-billion-ai-server-bet.htm"
+    },
+    {
+      "label": "Goldman Sell, $26 PT, concentration warning (Barchart)",
+      "url": "https://www.barchart.com/story/news/37026446/as-goldman-sachs-issues-a-warning-on-super-micro-computer-stock-should-you-risk-buying-the-dip"
+    },
+    {
+      "label": "DOJ export-control indictment context (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-smci/super-micro-computer/news/why-super-micro-computer-smci-is-down-64-after-doj-export-co/amp"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SMCI/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 60,
+      "rankMove": "down",
+      "scoreDelta": -5,
+      "confidence": 0.72,
+      "rankRationale": "Server-platform demand is real, but execution, dilution, concentration and margin risks are exactly the watch-items breaking against it.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior -16.6%, YTD -9.0%, market cap about $17.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 96. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -16.6% since the prior refresh, -9.0% YTD. Prior frame: On a passives/power-bottleneck lens SMCI was already peripheral, and the $7B dilutive raise plus cancellable $39B order book and Goldman's 27%-customer concentration warning directly attack the 'tight-supply, central-node' claim. Residual alpha vs passives names worsens.",
+      "bull": "$39B order pipeline signals real AI-server demand if it converts.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 96, score 1.0, -16.6% since prior, -9.0% YTD.",
+      "bear": "Dilution, cancellable orders, customer concentration, DOJ overhang compound.",
+      "primaryCatalyst": "Order book converting to firm, funded revenue",
+      "primaryRisk": "Single-customer cancellation stranding shortage-priced components"
+    }
+  ]
+}

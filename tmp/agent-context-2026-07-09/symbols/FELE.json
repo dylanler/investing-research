@@ -1,0 +1,32 @@
+{
+ "symbol": "FELE",
+ "asOf": "2026-07-09",
+ "company": "Franklin Electric",
+ "currency": "USD",
+ "priceToday": 101.26,
+ "pricePrev": 104.33,
+ "moveSincePrevPct": -2.94,
+ "ytdReturnPct": 4.39,
+ "marketCapUsdB": 4.65,
+ "quoteUrl": "https://finance.yahoo.com/quote/FELE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 16,
+   "ticker": "FELE",
+   "company": "Franklin Electric",
+   "score": 71.7,
+   "thesis": "Groundwater, fueling, and pumping systems could serve water-constrained compute campuses or edge facilities",
+   "theme": "Pumps/water systems",
+   "exchange": "NASDAQ",
+   "regionRank": "US#8",
+   "ytd": 4.39,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing material since June 9 on the water/pumping-for-compute latent-node lens. Oklahoma CDU/liquid-cooling ramp predates June 6 and is already in the prior hold; +1.8% is drift, not new evidence. Thesis quietly intact - small CDU optionality but no fresh catalyst. Hold."
+   }
+  }
+ ]
+}

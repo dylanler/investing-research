@@ -1,0 +1,47 @@
+{
+ "symbol": "5347.TWO",
+ "asOf": "2026-07-09",
+ "company": "Vanguard International Semiconductor",
+ "currency": "TWD",
+ "priceToday": 173.0,
+ "pricePrev": 186.5,
+ "moveSincePrevPct": -7.24,
+ "ytdReturnPct": 87.43,
+ "marketCapUsdB": 10.22,
+ "quoteUrl": "https://finance.yahoo.com/quote/5347.TWO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 57,
+   "ticker": "5347.TWO",
+   "company": "Vanguard International Semiconductor",
+   "score": 53.2,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 87.43,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Manufacturing-tollgate lens unchanged since June 9: same VSMC 12-inch Singapore JV (first output 2027), TSMC interposer outsourcing, GaN licensing. A +15.8% no-news move is flow, not node repositioning. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 32,
+   "ticker": "5347.TWO",
+   "company": "Vanguard International Semiconductor",
+   "score": 74.3,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "Foundry / specialty",
+   "ytd": 87.43,
+   "mcapB": 10.22,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Vanguard International Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 19, 69.6% YTD, $11.0B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

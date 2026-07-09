@@ -1,0 +1,80 @@
+{
+  "symbol": "SKYT",
+  "company": "SkyWater Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 19 remove (-6); down 8.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "SKYT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SKYT/"
+    },
+    {
+      "label": "IonQ to acquire SkyWater at $35/share (StockTitan 425)",
+      "url": "https://www.stocktitan.net/sec-filings/SKYT/425-sky-water-technology-inc-business-combination-communication-794ad4b7b917.html"
+    },
+    {
+      "label": "FTC Second Request extends SkyWater-IonQ review (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/SKYT/8-k-sky-water-technology-inc-reports-material-event-511ee6e81335.html"
+    },
+    {
+      "label": "FTC delays IonQ-SkyWater into Q2/Q3 2026 (TipRanks)",
+      "url": "https://www.tipranks.com/news/ionq-skywater-deal-faces-ftc-delay-after-second-request-timeline-uncertain"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "SKYT Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/SKYT/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 13. July market-data refresh shows move since prior -8.5%, YTD +48.6%, market cap $1.72B. Thesis: US specialty foundry leverage in sovereign AI supply chains. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Scarce US pure-play specialty foundry with expanded capacity, strategically vital to sovereign AI supply.",
+      "neutral": "Strong sovereign-supply fit, but the IonQ deal/FTC review now drives the equity, not fundamentals.",
+      "bear": "Standalone scaling thesis is moot under a takeover; FTC review adds deal-break overhang.",
+      "primaryCatalyst": "Sovereign US foundry capacity (Fab 25) feeding domestic AI/quantum supply chains.",
+      "primaryRisk": "Pending IonQ merger + FTC Second Request caps standalone scaling thesis; deal uncertainty."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 19,
+      "rankMove": "remove",
+      "scoreDelta": -6,
+      "confidence": 0.82,
+      "rankRationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise.",
+      "bull": "Deal closes; IonQ-stock leg appreciates, paying above the $35 reference - low standalone risk.",
+      "neutral": "Now a merger-arb/IonQ-equity proxy, not a clean specialty-foundry alpha bet.",
+      "bear": "FTC could block or force remedies; a deal break or IonQ-stock fall reprices toward standalone value.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Single-bundle validation risk"
+    }
+  ]
+}

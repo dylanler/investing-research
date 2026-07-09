@@ -1,0 +1,59 @@
+{
+  "symbol": "LASR",
+  "company": "LASR",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 11 hold (+0); down 11.4% since the prior refresh.",
+  "sources": [
+    {
+      "label": "nLIGHT at Eurosatory 2026 (70kW HADES)",
+      "url": "https://www.stocktitan.net/news/LASR/n-light-inc-announces-participation-in-eurosatory-2026-defense-1lv2hacimxqe.html"
+    },
+    {
+      "label": "Optics.org: nLIGHT record sales, laser-weapon demand",
+      "url": "https://optics.org/news/17/3/6"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "LASR Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/LASR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits nLIGHT through Photonics / lasers; Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base. The stock is down 11.4% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Production-stage 70kW HADES, A&D revenue +69%, and Golden Dome/HELSI-2 exposure give a strong multi-year defense-laser growth runway; photonics IP underpins both defense and datacom optics.",
+      "neutral": "Strong company, but its momentum is defense lasers; CPO/AI-optics relevance is secondary and indirect.",
+      "bear": "After +66% YTD the easy re-rating is done; the directed-energy story is further from the CPO/HBM/package bottleneck this screen prizes, raising lens-mismatch and single-program concentration risk.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Single-bundle validation risk"
+    }
+  ]
+}

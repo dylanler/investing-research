@@ -1,0 +1,118 @@
+{
+  "symbol": "KLIC",
+  "company": "Kulicke & Soffa",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 106 hold (+0); down 16.9% since the prior refresh. semiconductor-ai-nodes: rank 68 hold (+0); down 16.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "KLIC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KLIC/"
+    },
+    {
+      "label": "KLIC Q2 FY26 earnings beat (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kulicke-and-soffa-q2-2026-earnings-beat-forecasts-93CH-4668092"
+    },
+    {
+      "label": "KLIC Q2F26 demand surge slides (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/kulicke--soffa-q2f26-slides-demand-surge-drives-21-revenue-jump-93CH-4668305"
+    },
+    {
+      "label": "KLIC up after TCB capacity expansion (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/why-kulicke-and-soffa-klic-is-up-61-after-ai-focused-thermo-compression-capacity-expansion-plan-2026-05-15"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "KLIC Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/KLIC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 34. July market-data refresh shows move since prior -16.9%, YTD +115.6%, market cap $5.46B. Thesis: More AI semiconductor-cycle exposure than humanoid exposure.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Tangential robotics read-through via AI chip packaging demand.",
+      "neutral": "Effectively a semicap name on a humanoid page; ranking should reflect low purity.",
+      "bear": "No humanoid/robotics product exposure; over-ranked relative to pure-play peers.",
+      "primaryCatalyst": "None robotics-specific; AI semiconductor-cycle exposure only",
+      "primaryRisk": "Off-thesis for humanoid stack; semicap cyclicality"
+    },
+    {
+      "page": "companies",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Packaging equipment leverage is valid but the YTD move and cyclicality keep it stable.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -16.9%, YTD +115.6%, market cap about $5.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 106,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Kulicke and Soffa through Packaging equipment; Packaging tool exposure, but narrower and cyclically volatile. The stock is down 16.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "TCB ramp gives packaging-tool leverage to AI advanced-packaging build-out.",
+      "neutral": "Indirect to CPO; cyclical packaging exposure with momentum already in the price.",
+      "bear": "Low on a CPO-purity screen; cyclically volatile packaging tool with limited photonics tie-in.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Packaging cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Kulicke & Soffa through OSAT / packaging; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 16.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Fluxless TCB is becoming a central growth engine for AI/HBM advanced packaging across OSATs, foundries, IDMs.",
+      "neutral": "Real but indirect node exposure; the earnings/TCB ramp is known and the move predates the window.",
+      "bear": "OSAT/packaging is cyclical and KLIC is less direct than HBM/networking names; rich after a sharp run.",
+      "primaryCatalyst": "HBM/chiplet packaging capacity additions and customer awards",
+      "primaryRisk": "Packaging-cycle volatility; valuation after +163% YTD"
+    }
+  ]
+}

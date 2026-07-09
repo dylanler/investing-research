@@ -1,0 +1,32 @@
+{
+ "symbol": "SPXC",
+ "asOf": "2026-07-09",
+ "company": "SPX Technologies",
+ "currency": "USD",
+ "priceToday": 213.56,
+ "pricePrev": 241.6,
+ "moveSincePrevPct": -11.61,
+ "ytdReturnPct": 5.07,
+ "marketCapUsdB": 11.52,
+ "quoteUrl": "https://finance.yahoo.com/quote/SPXC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 63,
+   "ticker": "SPXC",
+   "company": "SPX Technologies",
+   "score": 64.5,
+   "thesis": "Data-center HVAC exposure is real, but the market has increasingly identified SPX as a cooling beneficiary, lowering discovery upside.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": 5.07,
+   "conviction": "Medium",
+   "catalysts": "HVAC backlog; data-center cooling demand; bolt-on acquisitions.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 55 is 7 places better than displayed rank 62; adjusted score 65.0; YTD +13.1%; market cap $11.4B; SPX Technologies remains tied to thermal & water through HVAC, cooling towers and detection/measurement. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

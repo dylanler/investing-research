@@ -1,0 +1,29 @@
+{
+ "symbol": "PNG.V",
+ "asOf": "2026-07-09",
+ "company": "Kraken Robotics",
+ "currency": "CAD",
+ "priceToday": 6.05,
+ "pricePrev": 7.29,
+ "moveSincePrevPct": -17.01,
+ "ytdReturnPct": -10.9,
+ "marketCapUsdB": 1.32,
+ "quoteUrl": "https://finance.yahoo.com/quote/PNG.V/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 21,
+   "ticker": "PNG.V",
+   "company": "Kraken Robotics",
+   "score": 47.0,
+   "thesis": "Autonomous sensing and robotics systems",
+   "bucket": "robotics",
+   "ytd": -10.9,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 22 is 3 places worse than displayed rank 19; adjusted score 47.0; YTD +8.2%; market cap $1.8B; Scaling watchlist fit is Autonomous sensing and robotics systems; bucket robotics; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

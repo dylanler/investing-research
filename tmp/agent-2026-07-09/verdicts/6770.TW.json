@@ -1,0 +1,72 @@
+{
+  "symbol": "6770.TW",
+  "company": "Powerchip Semiconductor",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 109 hold (+0); down 9.5% since the prior refresh. semiconductor-ai-nodes: rank 85 hold (+0); down 9.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Powerchip rallies after JPMorgan upgrade, PT doubled (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/taiwans-powerchip-rallies-after-jpmorgan-upgrades-rating-doubles-price-target-4751725"
+    },
+    {
+      "label": "Powerchip 3D AI Foundry / 3D WoW DRAM at Computex (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD201/3d-dram-2026-packaging-bandwidth.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "6770.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/6770.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 109,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Powerchip Semiconductor through Foundry/memory; Low CPO direct exposure. The stock is down 9.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Si-cap integrated passives and interposer/3D packaging give faint optical-interconnect adjacency.",
+      "neutral": "Foundry/memory story improving but CPO exposure stays minimal.",
+      "bear": "Not a CPO play; mature-node/memory cyclicality dominates.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Mature-node/memory cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Powerchip Semiconductor Manufacturing through memory; HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks. The stock is down 9.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "3D WoW DRAM stacking, Micron HBM-packaging tie-up and memory-foundry pricing reposition PSMC into the AI-memory/packaging bottleneck with steep margin expansion.",
+      "neutral": "Promising AI-foundry pivot but still execution-stage; sell-side, not yet results.",
+      "bear": "Mature-node/memory cycle risk; +87% YTD already prices much optimism; thesis hinges on Micron ramp.",
+      "primaryCatalyst": "HBM/DRAM supply tightness and contracted AI memory demand",
+      "primaryRisk": "Memory/mature-node cycle and execution on HBM/3D timelines"
+    }
+  ]
+}

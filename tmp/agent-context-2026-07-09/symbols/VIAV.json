@@ -1,0 +1,32 @@
+{
+ "symbol": "VIAV",
+ "asOf": "2026-07-09",
+ "company": "VIAVI Solutions",
+ "currency": "USD",
+ "priceToday": 40.7,
+ "pricePrev": 50.48,
+ "moveSincePrevPct": -19.37,
+ "ytdReturnPct": 124.24,
+ "marketCapUsdB": 10.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/VIAV/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 14,
+   "ticker": "VIAV",
+   "company": "VIAVI Solutions",
+   "score": 77.6,
+   "thesis": "Every AI cluster and interconnect needs verification; VIAVI is a tollbooth on optical/network testing rather than a chip hype name.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NASDAQ",
+   "ytd": 124.24,
+   "conviction": "High",
+   "catalysts": "800G/1.6T testing; telecom recovery; data-center ecosystem assurance.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 21 is 12 places better than displayed rank 33; adjusted score 73.1; YTD +168.6%; market cap $12.0B; VIAVI Solutions remains tied to connectivity & photonics through Optical test, assurance and timing for networks/data centers. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

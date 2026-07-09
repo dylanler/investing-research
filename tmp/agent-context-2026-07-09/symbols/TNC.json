@@ -1,0 +1,32 @@
+{
+ "symbol": "TNC",
+ "asOf": "2026-07-09",
+ "company": "Tennant",
+ "currency": "USD",
+ "priceToday": 85.6,
+ "pricePrev": 88.79,
+ "moveSincePrevPct": -3.59,
+ "ytdReturnPct": 15.74,
+ "marketCapUsdB": 1.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/TNC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 90,
+   "ticker": "TNC",
+   "company": "Tennant",
+   "score": 59.8,
+   "thesis": "Industrial cleaning machines and autonomous floor-cleaning platforms could evolve into facility robotics for high-security campuses",
+   "theme": "Autonomous cleaning/industrial robotics",
+   "exchange": "NASDAQ",
+   "regionRank": "US#43",
+   "ytd": 15.74,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing genuinely new since June 9. The autonomous-cleaning-to-facility-robotics pathway is intact (ROVR portfolio, $250M robotics-by-2028 goal) but the open ERP securities-fraud probe is a lingering management-credibility overhang; small negative drift, no rank change on this strict screen."
+   }
+  }
+ ]
+}

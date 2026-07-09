@@ -1,0 +1,76 @@
+{
+  "symbol": "ENR.DE",
+  "company": "ENR.DE",
+  "caseDate": "2026-07-09",
+  "newsSince": "-4.6% since prior, +26.2% YTD. July 9 context refresh for ENR.DE (ENR.DE) across latent-ai-nodes: market cap $147.84B, move since prior -4.6%, YTD +26.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Siemens Energy Q2 FY26 earnings release / guidance raise (May 12)",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q2-fy-2026.html"
+    },
+    {
+      "label": "Siemens Energy to acquire Camlin Group (digital grid)",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/Siemens_Energy_expands_capabilities_with_Camlin_Group_acquisition.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ENR.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "ENR.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ENR.DE/"
+    },
+    {
+      "label": "Finimize: Siemens Energy raised 2026 forecast as data centers drive demand",
+      "url": "https://finimize.com/content/siemens-energy-raised-its-2026-forecast-as-data-centers-drive-demand"
+    },
+    {
+      "label": "Siemens Energy record orders / raised guidance",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-no-cancellations-just-a-demand-crunch-as-grid-and-data/69587436"
+    },
+    {
+      "label": "Siemens Energy raised mid-term outlook",
+      "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-fulfills-all-commitments---and-increases-mid-term.html"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 88. July context shows score 58.1, move since prior -4.6%, YTD +26.2%, market cap $147.84B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Grid backlog and turbine demand are durable AI-power tailwinds.",
+      "neutral": "Strong franchise but widely recognized as an AI-power name now.",
+      "bear": "Already rerated; limited under-coverage left for a latent-node screen.",
+      "primaryCatalyst": "Grid/transmission backlog conversion",
+      "primaryRisk": "Mega-cap, no longer under-owned; cyclicality"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 98,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 98. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -4.6% since the prior refresh, +26.2% YTD. Prior frame: Prior case lifted ENR on a flow-driven dip vs raised guidance/record AI-grid orders. Since June 9 the dip has reversed (+9.6%) with no new fundamentals, so the residual-alpha-vs-crowding asymmetry this list rewards has largely closed. Slight negative drift; hold the monitor-bucket rank.",
+      "bull": "EUR154bn backlog, 1.72 grid book-to-bill and 5GW of data-center orders give multi-year AI-power visibility.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 98, score 0.6, -4.6% since prior, +26.2% YTD.",
+      "bear": "+32% YTD on a EUR164bn cap; crowded AI-power trade with little residual alpha left.",
+      "primaryCatalyst": "Continued record grid/data-center order intake; Camlin close",
+      "primaryRisk": "Crowding/valuation; gas-turbine and wind-margin execution"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "symbol": "HUBB",
+  "company": "HUBB",
+  "caseDate": "2026-07-09",
+  "newsSince": "-7.7% since prior, +3.8% YTD. July 9 context refresh for HUBB (HUBB) across latent-ai-nodes: market cap $25.30B, move since prior -7.7%, YTD +3.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Hubbell completes NSI acquisition (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/HUBB-N/pressreleases/2409578/hubbell-completes-nsi-acquisition-expands-electrical-solutions-portfolio/"
+    },
+    {
+      "label": "Hubbell issues senior notes to fund NSI (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/hubbell-issues-senior-notes-to-fund-nsi-acquisition"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/HUBB/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "HUBB quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/HUBB/"
+    },
+    {
+      "label": "Hubbell 8-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000048898/000119312526263819/d143835dex991.htm"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 82. July context shows score 60.6, move since prior -7.7%, YTD +3.8%, market cap $25.30B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Direct grid-hardening/data-center electrical exposure; NSI adds connector/fittings content.",
+      "neutral": "High-quality utility/electrical franchise with steady AI-adjacent tailwind.",
+      "bear": "Electrification thesis widely owned; $27B cap is far from under-covered/latent.",
+      "primaryCatalyst": "Data-center electrical demand + utility capex; NSI accretion",
+      "primaryRisk": "Crowded thesis; limited latent-alpha edge at this size"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 50,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 50. July context does not change the page placement: -7.7% since the prior refresh, +3.8% YTD. Prior frame: Through the residual-alpha-vs-passives lens, the June 9 NSI close de-risks funding and deepens datacenter-adjacent electrical-components exposure, but the deal was telegraphed since early May and HUBB sits a step removed from the passive/power bottleneck core this page rewards. Closing is confirmatory; small positive delta, hold rank 49.",
+      "bull": "NSI close + financing locked, accretive to 2026 EPS; broadens datacenter electrical content.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 50, score 32.4, -7.7% since prior, +3.8% YTD.",
+      "bear": "$2.8B+ new debt; deal already priced in; not the central node this page rewards.",
+      "primaryCatalyst": "NSI integration + datacenter/utility electrical demand",
+      "primaryRisk": "Integration/leverage drag; a step removed from the passive/power stack"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 2. July context shows score 79.5, move since prior +3.1%, YTD +13.6%, market cap $3.55B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Record adjusted EPS, raised FY26 guidance, $1.4B Honeywell PSS deal, and a sensing/semis CEO deepen the AI/robotics asset-ID angle.",
+      "neutral": "CEO change and recovery rally now reflected; PSS integration is the next test.",
+      "bear": "Complex PSS integration under a brand-new CEO; execution risk on a large acquisition.",
+      "primaryCatalyst": "Honeywell PSS close and integration; asset-ID demand in dense robotic/DC ops.",
+      "primaryRisk": "Integration missteps or leadership-transition disruption."
+    }
+  ],
+  "symbol": "BRC",
+  "company": "Brady",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Brady taps Vineet Nargolwala as CEO (StockTitan)",
+      "url": "https://www.stocktitan.net/news/BRC/brady-corporation-announces-ceo-ab73vi609mve.html"
+    },
+    {
+      "label": "Brady SEC 8-K (FY2026) CEO transition press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000746598/000074659826000026/exhibit991pressrelease0608.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BRC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "BRC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BRC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Brady (BRC) across latent-ai-nodes-strict: market cap $3.55B, move since prior +3.1%, YTD +13.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

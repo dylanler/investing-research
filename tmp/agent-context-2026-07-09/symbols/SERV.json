@@ -1,0 +1,42 @@
+{
+ "symbol": "SERV",
+ "asOf": "2026-07-09",
+ "company": "Serve Robotics",
+ "currency": "USD",
+ "priceToday": 5.89,
+ "pricePrev": 6.56,
+ "moveSincePrevPct": -10.21,
+ "ytdReturnPct": -50.21,
+ "marketCapUsdB": 0.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/SERV/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 2,
+   "ticker": "SERV",
+   "company": "Serve Robotics",
+   "score": 85.6,
+   "thesis": "Not humanoid, but a deployed physical-AI fleet with Ouster sensors, NVIDIA compute, and hard urban autonomy problems.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Deployed physical-AI fleet thesis intact; laundry/NoScrubs vertical was announced June 2-4 and already in the June 9 #2 hold. No new evidence since. -5.7% is flow; dilution from the May 11 offering and widening losses at a $0.56B cap still argue against pushing to #1. Hold at #2."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 14,
+   "ticker": "SERV",
+   "company": "Serve Robotics",
+   "score": 50.0,
+   "thesis": "Autonomous delivery optionality",
+   "bucket": "robotics",
+   "ytd": -50.21,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 20 is 3 places worse than displayed rank 17; adjusted score 47.0; YTD -35.7%; market cap $648M; Scaling watchlist fit is Autonomous delivery optionality; bucket robotics; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

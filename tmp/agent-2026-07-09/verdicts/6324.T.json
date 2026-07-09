@@ -1,0 +1,43 @@
+{
+  "symbol": "6324.T",
+  "company": "Harmonic Drive Systems",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Harmonic Drive Systems (6324.T) now screens at $5.19B market cap, -2.5% since the prior refresh and +95.6% YTD. Page thesis remains: One of the most important actuator suppliers, but no longer hidden.",
+  "sources": [
+    {
+      "label": "6324.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/6324.T/"
+    },
+    {
+      "label": "Harmonic Drive lifts full-year forecast (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/harmonic-drive-systems-lifts-full-year-forecast-on-strong-robot-and-chip-equipment-demand"
+    },
+    {
+      "label": "Harmonic Drive FY March 2026 results (BigGo)",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260511521357"
+    },
+    {
+      "label": "Harmonic Drive 6324 Q4 2026 earnings (Quartr)",
+      "url": "https://quartr.com/events/harmonic-drive-systems-inc-6324-q4-2026_F9xDWNfe"
+    },
+    {
+      "label": "33% North American capacity expansion near Massachusetts",
+      "url": "https://www.hdinresearch.com/news/1559"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 25. July market-data refresh shows move since prior -2.5%, YTD +95.6%, market cap $5.19B. Thesis: One of the most important actuator suppliers, but no longer hidden.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Dominant high-end reducer share; humanoid joint demand could expand TAM an order of magnitude; FY27 guide for +14% sales, op income +141%.",
+      "neutral": "Best-in-class actuator monopoly already widely recognized; growth largely in the price after +100% YTD.",
+      "bear": "+100% YTD and $5.1B cap leave little margin for error; humanoid ramp timing uncertain; the name is now consensus, not hidden.",
+      "primaryCatalyst": "Humanoid actuator volume orders / FY27 guidance delivery",
+      "primaryRisk": "Crowding and rich valuation; humanoid demand slippage"
+    }
+  ]
+}

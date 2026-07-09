@@ -1,0 +1,47 @@
+{
+ "symbol": "6488.TWO",
+ "asOf": "2026-07-09",
+ "company": "6488.TW",
+ "currency": "TWD",
+ "priceToday": 1350.0,
+ "pricePrev": 1010.0,
+ "moveSincePrevPct": 33.66,
+ "ytdReturnPct": 234.99,
+ "marketCapUsdB": 18.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/6488.TWO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 45,
+   "ticker": "6488.TWO",
+   "company": "GlobalWafers",
+   "score": 59.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 234.99,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "GlobalWafers should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 22, 90.6% YTD, $12.3B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 24,
+   "ticker": "6488.TW",
+   "company": "GlobalWafers",
+   "score": 78.5,
+   "thesis": "Less glamorous materials lever to semiconductor build-out; CPO indirect.",
+   "category": "Materials / wafers",
+   "ytd": 234.99,
+   "mcapB": 18.29,
+   "risk": "Wafer cycle and capex",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "GlobalWafers should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after 90.6% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 11 implies."
+   }
+  }
+ ]
+}

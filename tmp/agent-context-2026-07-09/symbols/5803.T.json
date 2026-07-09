@@ -1,0 +1,32 @@
+{
+ "symbol": "5803.T",
+ "asOf": "2026-07-09",
+ "company": "Fujikura",
+ "currency": "JPY",
+ "priceToday": 4938.0,
+ "pricePrev": 6487.0,
+ "moveSincePrevPct": -23.88,
+ "ytdReturnPct": 60.63,
+ "marketCapUsdB": 55.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/5803.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 95,
+   "ticker": "5803.T",
+   "company": "Fujikura",
+   "score": 55.7,
+   "thesis": "Fujikura is a textbook example of an under-the-radar AI-infra supplier that the crowd has now discovered; useful as a control, not a fresh-alpha name.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "Tokyo",
+   "ytd": 60.63,
+   "conviction": "Low",
+   "catalysts": "Optical capacity; AI cluster cabling; factory expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 90 is 10 places worse than displayed rank 80; adjusted score 55.0; YTD +43.2%; market cap $48.7B; Fujikura remains tied to connectivity & photonics through Optical fiber, cabling and data-center connectivity. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+  "symbol": "MKSI",
+  "company": "MKSI",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 33 hold (+0); down 10.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Investing.com: MKS Q1 2026 beats forecasts",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-mks-instruments-q1-2026-beats-forecasts-stock-jumps-93CH-4685741"
+    },
+    {
+      "label": "MKS 8-K Q1 FY2026 results (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001049502/000119312526209140/mksi-ex99_1.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MKSI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "MKSI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MKSI/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "MKSI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/MKSI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 47. July context shows score 68.6, move since prior -10.2%, YTD +107.5%, market cap $23.60B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Vacuum/photonics/process-control and advanced-packaging tools lever AI fab and HBM capacity; Atotech deleveraging optionality.",
+      "neutral": "Cycle/leverage concerns persist; sharp run-up already discounts recovery.",
+      "bear": "Leverage and order-timing risk; +131% YTD compresses residual upside.",
+      "primaryCatalyst": "Semicap/HBM capex upcycle and Atotech carve-out",
+      "primaryRisk": "Leverage and lumpy WFE order timing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits MKS Instruments through wafer fab equipment; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 10.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Direct leverage to AI-driven fab/HBM capacity additions via core WFE subsystems; capacity expansion supports share gains.",
+      "neutral": "Thesis intact but order timing and export-control overhang temper conviction.",
+      "bear": "Export-control exposure and WFE cyclicality could clip the AI-capex tailwind.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Export-control restrictions and order-timing volatility"
+    }
+  ]
+}

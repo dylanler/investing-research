@@ -1,0 +1,48 @@
+{
+ "symbol": "MKSI",
+ "asOf": "2026-07-09",
+ "company": "MKSI",
+ "currency": "USD",
+ "priceToday": 349.39,
+ "pricePrev": 388.91,
+ "moveSincePrevPct": -10.16,
+ "ytdReturnPct": 107.53,
+ "marketCapUsdB": 23.6,
+ "quoteUrl": "https://finance.yahoo.com/quote/MKSI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 47,
+   "ticker": "MKSI",
+   "company": "MKS Instruments",
+   "score": 68.6,
+   "thesis": "A foundational supplier to semiconductor manufacturing and packaging; less loved because of leverage/cycle concerns, but highly exposed to advanced-node capacity.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "NASDAQ",
+   "ytd": 107.53,
+   "conviction": "Medium",
+   "catalysts": "Semicap recovery; Atotech deleveraging/carve-out; packaging demand.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 30 is 12 places better than displayed rank 42; adjusted score 71.3; YTD +85.4%; market cap $20.4B; MKS Instruments remains tied to semi/advanced materials through Vacuum, photonics, process control and advanced packaging tools. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 33,
+   "ticker": "MKSI",
+   "company": "MKS Instruments",
+   "score": 63.1,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 107.53,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: WFE-exposure thesis intact and marginally well-supported by the $165-180B 2027 WFE framing and Malaysia ramp, but none of that is new since June 9. Small positive drift, no re-rank; export-control risk is a standing caveat."
+   }
+  }
+ ]
+}

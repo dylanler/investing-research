@@ -1,0 +1,29 @@
+{
+ "symbol": "FSECURE.HE",
+ "asOf": "2026-07-09",
+ "company": "F-Secure",
+ "currency": "EUR",
+ "priceToday": 1.956,
+ "pricePrev": 1.988,
+ "moveSincePrevPct": -1.61,
+ "ytdReturnPct": 1.35,
+ "marketCapUsdB": 0.41,
+ "quoteUrl": "https://finance.yahoo.com/quote/FSECURE.HE/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 31,
+   "ticker": "FSECURE.HE",
+   "company": "F-Secure",
+   "score": 38.0,
+   "thesis": "Endpoint and consumer/business security",
+   "bucket": "it_security",
+   "ytd": 1.35,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 31; adjusted score 38.0; YTD +9.8%; market cap $446M; Scaling watchlist fit is Endpoint and consumer/business security; bucket it_security; tags security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

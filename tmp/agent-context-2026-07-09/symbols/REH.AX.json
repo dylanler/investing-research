@@ -1,0 +1,32 @@
+{
+ "symbol": "REH.AX",
+ "asOf": "2026-07-09",
+ "company": "Reece",
+ "currency": "AUD",
+ "priceToday": 15.79,
+ "pricePrev": 15.7,
+ "moveSincePrevPct": 0.57,
+ "ytdReturnPct": 18.37,
+ "marketCapUsdB": 7.01,
+ "quoteUrl": "https://finance.yahoo.com/quote/REH.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 95,
+   "ticker": "REH.AX",
+   "company": "Reece",
+   "score": 56.6,
+   "thesis": "Plumbing and HVAC distribution could become a local bottleneck aggregator for water-intensive compute sites",
+   "theme": "Plumbing/HVAC distribution",
+   "exchange": "ASX",
+   "regionRank": "Non-US#48",
+   "ytd": 18.37,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Strict latent lens: FY26 EPS and target cuts on US (Morsco) margin erosion and weak US residential construction undercut the already-thin plumbing/HVAC compute-aggregator thesis. Core demand softening makes the data-center water-site repurposing story less credible, not more. Fundamentals weakening modestly."
+   }
+  }
+ ]
+}

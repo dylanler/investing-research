@@ -1,0 +1,35 @@
+{
+  "symbol": "OUST",
+  "company": "Ouster",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Ouster (OUST) now screens at $2.92B market cap, -6.2% since the prior refresh and +85.8% YTD. Page thesis remains: Excellent humanoid sensor exposure after StereoLabs, but it is now the crowd favorite and has rerated meaningfully.",
+  "sources": [
+    {
+      "label": "OUST quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/OUST/"
+    },
+    {
+      "label": "Ouster & AIM Intelligent Machines strategic agreement (BusinessWire, Jun 17)",
+      "url": "https://www.businesswire.com/news/home/20260617199530/en/Ouster-and-AIM-Intelligent-Machines-Announce-Strategic-Agreement-for-Digital-Lidar-to-Equip-AI-Powered-Heavy-Earthmoving-Equipment-Following-the-Release-of-REV8-with-Native-Color"
+    },
+    {
+      "label": "Ouster expands Benchmark partnership for REV8 scale-up (QuiverQuant)",
+      "url": "https://www.quiverquant.com/news/Ouster+shares+jump+as+company+expands+Benchmark+manufacturing+partnership+for+REV8+lidar+scale-up"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 20. July market-data refresh shows move since prior -6.2%, YTD +85.8%, market cap $2.92B. Thesis: Excellent humanoid sensor exposure after StereoLabs, but it is now the crowd favorite and has rerated meaningfully.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "REV8 native-color lidar with locked-in 100k+/yr capacity and AIM volume supply; widening physical-AI/robotics sensor demand.",
+      "neutral": "Crowd favorite already re-rated; still unprofitable on ~$170M revenue.",
+      "bear": "Valuation/momentum extended; lidar competition and design-win durability unproven.",
+      "primaryCatalyst": "REV8 scale-up + AIM/heavy-machinery and robotics design wins",
+      "primaryRisk": "Crowding/valuation and path-to-profitability"
+    }
+  ]
+}

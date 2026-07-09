@@ -1,0 +1,47 @@
+{
+ "symbol": "6920.T",
+ "asOf": "2026-07-09",
+ "company": "6920.T",
+ "currency": "JPY",
+ "priceToday": 43020.0,
+ "pricePrev": 52000.0,
+ "moveSincePrevPct": -17.27,
+ "ytdReturnPct": 35.67,
+ "marketCapUsdB": 26.48,
+ "quoteUrl": "https://finance.yahoo.com/quote/6920.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 30,
+   "ticker": "6920.T",
+   "company": "Lasertec",
+   "score": 64.0,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 35.67,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: EUV mask-blank inspection monopoly and 2nm/High-NA WFE thesis unchanged since June 9. Order outlook raise was below expectations but already in the score; +28% since June 9 is flow, not new evidence. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 30,
+   "ticker": "6920.T",
+   "company": "Lasertec",
+   "score": 75.2,
+   "thesis": "Mask/yield control for advanced lithography, indirect but scarce.",
+   "category": "Metrology / inspection",
+   "ytd": 35.67,
+   "mcapB": 26.48,
+   "risk": "Semicap spending volatility",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/metrology lens: Lasertec is an indirect inspection play, not co-packaged optics. No new window evidence; +28% since June 9 marginally erodes residual asymmetry on a heavily-covered former retail darling. Hold with slight negative drift."
+   }
+  }
+ ]
+}

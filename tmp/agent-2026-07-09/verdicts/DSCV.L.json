@@ -1,0 +1,77 @@
+{
+  "symbol": "DSCV.L",
+  "company": "discoverIE Group",
+  "caseDate": "2026-07-09",
+  "newsSince": "-7.2% since prior, +9.3% YTD. July 9 context refresh for discoverIE Group (DSCV.L) across latent-ai-nodes, latent-ai-nodes-strict: market cap $0.93B, move since prior -7.2%, YTD +9.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "discoverIE Full Year Trading Update (company)",
+      "url": "https://discoverieplc.com/news-centre/news/news-details/2026/Full-Year-Trading-Update/default.aspx"
+    },
+    {
+      "label": "discoverIE Preliminary Results Preview (AskTraders)",
+      "url": "https://www.asktraders.com/analysis/discoverie-group-preliminary-results-preview/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/DSCV.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "DSCV.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/DSCV.L/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 13. July context shows score 78.0, move since prior -7.2%, YTD +9.3%, market cap $0.93B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Customised sensing + power niches feed edge-AI and electrification; orders growing organically for multiple quarters.",
+      "neutral": "Genuine latent exposure but diffused across many industrial end-markets; AI is one driver among several.",
+      "bear": "Cyclical industrial base; valuation has re-rated and AI tie is inferential.",
+      "primaryCatalyst": "Operating-margin target upgrade and continued order recovery",
+      "primaryRisk": "Industrial cycle and integration risk on acquisitions"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 14. July context shows score 72.0, move since prior -7.2%, YTD +9.3%, market cap $0.93B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Custom electronic components could be adapted to coolant sensing and edge-device telemetry in AI hardware.",
+      "neutral": "Adaptation pathway is qualitative; no direct AI-node design wins disclosed.",
+      "bear": "Strict AI-bottleneck purity is low; demand is broad-industrial, not compute-specific.",
+      "primaryCatalyst": "Design wins in coolant/edge telemetry sensing",
+      "primaryRisk": "Pathway remains speculative without AI-specific orders"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 5. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -7.2% since the prior refresh, +9.3% YTD. Prior frame: Residual-alpha-vs-passives lens: under-followed power/connectivity supplier remains a high-conviction hidden gem at rank 4. June 3 prelims (order recovery, orders ahead of sales) already priced June 9; nothing new since. Thesis intact at small cap (~$0.9B) keeps the residual-alpha case but no fresh catalyst to re-rank. Hold.",
+      "bull": "Small-cap (~$0.9B), under-owned power & connectivity supplier with accelerating orders - high residual alpha vs crowded passives names.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 5, score 82.3, -7.2% since prior, +9.3% YTD.",
+      "bear": "Industrial-cycle sensitivity and modest +18% YTD; AI exposure is indirect via edge/electrification rather than direct compute.",
+      "primaryCatalyst": "Order recovery, margin-target upgrade and bolt-on M&A",
+      "primaryRisk": "Industrial demand cyclicality"
+    }
+  ]
+}

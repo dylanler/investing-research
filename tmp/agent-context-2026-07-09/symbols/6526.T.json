@@ -1,0 +1,30 @@
+{
+ "symbol": "6526.T",
+ "asOf": "2026-07-09",
+ "company": "Socionext",
+ "currency": "JPY",
+ "priceToday": 2663.5,
+ "pricePrev": 2615.0,
+ "moveSincePrevPct": 1.85,
+ "ytdReturnPct": 17.23,
+ "marketCapUsdB": 3.12,
+ "quoteUrl": "https://finance.yahoo.com/quote/6526.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 37,
+   "ticker": "6526.T",
+   "company": "Socionext",
+   "score": 62.6,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 17.23,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Socionext should move up because custom AI silicon, chiplets, SerDes IP, EDA and scale-up fabrics is more directly connected to the 2027 AI compute bottleneck than its current rank 24 implies, with mostly category-level evidence; 8.1% YTD and $3.0B market cap do not fully offset the catalyst."
+   }
+  }
+ ]
+}

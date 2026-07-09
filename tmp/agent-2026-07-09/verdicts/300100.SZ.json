@@ -1,0 +1,43 @@
+{
+  "symbol": "300100.SZ",
+  "company": "Shuanglin Co.",
+  "caseDate": "2026-07-09",
+  "newsSince": "Shuanglin's humanoid component case improved but remains pre-designation: 2025 revenue was RMB 5.484B, it has built a 1,500-set trial line for inverted planetary roller screws, and a 100,000-unit mass-production line was scheduled for June 2026. The caveat is that products had not yet received formal designated supply contracts in the cited filings/articles.",
+  "sources": [
+    {
+      "label": "Gasgoo on Shuanglin 2025 results and robotics line",
+      "url": "https://autonews.gasgoo.com/articles/news/shuanglin-corp-2025-revenue-5484-billion-yuan-robotics-business-poised-for-takeoff-2036804563502268416"
+    },
+    {
+      "label": "STCN on 100k robot screw production line",
+      "url": "https://stcn.com/article/detail/3696136.html"
+    },
+    {
+      "label": "300100.SZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/300100.SZ/"
+    },
+    {
+      "label": "Futubull: Ningbo Shuanglin (300100) news flow",
+      "url": "https://www.futunn.com/en/stock/300100-SZ/news/news"
+    },
+    {
+      "label": "Futubull: Shuanglin main-business improvement, screw growth curve",
+      "url": "https://news.futunn.com/en/post/55087405/ningbo-shuanglin-auto-parts-300100-main-business-profit-improvement-creating"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "up",
+      "scoreDelta": 5,
+      "confidence": 0.68,
+      "rankRationale": "The 100k-unit roller-screw line is a real capacity signal for humanoid linear joints, and the sample pipeline validates the automotive-to-robotics transition. Keep the upgrade measured because formal designated supply contracts are still missing.",
+      "bull": "Roller-screw/actuation candidate for humanoid body-stack with large rerating room after a big YTD pullback (-24%).",
+      "neutral": "Component thesis unconfirmed - still in verification, no designation; auto-parts core dominates.",
+      "bear": "No humanoid design win secured; remains an auto-parts supplier with speculative robot optionality.",
+      "primaryCatalyst": "Roller-screw customer designation / humanoid design win.",
+      "primaryRisk": "Verification fails or designation slips; thesis stays speculative."
+    }
+  ]
+}

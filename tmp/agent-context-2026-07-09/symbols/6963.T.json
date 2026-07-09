@@ -1,0 +1,81 @@
+{
+ "symbol": "6963.T",
+ "asOf": "2026-07-09",
+ "company": "ROHM",
+ "currency": "JPY",
+ "priceToday": 5556.0,
+ "pricePrev": 5444.0,
+ "moveSincePrevPct": 2.06,
+ "ytdReturnPct": 143.95,
+ "marketCapUsdB": 14.24,
+ "quoteUrl": "https://finance.yahoo.com/quote/6963.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 48,
+   "ticker": "6963",
+   "company": "ROHM",
+   "score": 32.7,
+   "thesis": "Current sense and resistor exposure; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TSE: 6963",
+   "ytd": 143.95,
+   "mcapB": 14.24,
+   "revisionNote": "On a residual-alpha, crowding-sensitive list, a headline Goldman upgrade (PT to JPY 6,500) plus an 8.9% follow-through day on top of +130% YTD is a recognition event that consumes the remaining mispricing; no new passives/resistor-specific evidence arrived.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha/passives lens: current-sense/resistor exposure unchanged; the GS-upgrade recognition event was already marked down June 9. No new passives-specific evidence since. +130% YTD remains crowded. Hold at 0 after the prior down."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 87,
+   "ticker": "6963.T",
+   "company": "Rohm",
+   "score": 46.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 143.95,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Network-centrality lens: the June 3 HVDC/BBU SiC design win that raised ROHM's directness to the DC power node is already in the score. No fresh window evidence; +3.85% is minor. Hold rather than whipsaw after the June 9 hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 101,
+   "ticker": "6963.T",
+   "company": "ROHM",
+   "score": 44.2,
+   "thesis": "Power semi, not CPO.",
+   "category": "Power / SiC",
+   "ytd": 143.95,
+   "mcapB": 14.24,
+   "risk": "SiC pricing and auto cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "ROHM should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 111.4% YTD and $12.6B market cap worsen the asymmetry."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 70,
+   "ticker": "6963",
+   "company": "ROHM",
+   "score": 51.8,
+   "thesis": "Power-delivery content exposure. Strong ytd follow-through; watch power devices execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 143.95,
+   "auditNote": "The board-level power thesis is now consensus: a doubled Goldman target, an 8.9% day and +130% YTD mean the scarce, unrecognized bottleneck exposure this alpha score rewards has been priced; the genui",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck lens: board-level power thesis is now consensus (doubled GS target, +139% YTD) and was marked down June 9 on that. No genuinely new info since, so no further move; hold at 0."
+   }
+  }
+ ]
+}

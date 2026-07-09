@@ -1,0 +1,47 @@
+{
+ "symbol": "INTC",
+ "asOf": "2026-07-09",
+ "company": "INTC",
+ "currency": "USD",
+ "priceToday": 110.24,
+ "pricePrev": 133.97,
+ "moveSincePrevPct": -17.71,
+ "ytdReturnPct": 179.94,
+ "marketCapUsdB": 554.07,
+ "quoteUrl": "https://finance.yahoo.com/quote/INTC/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 96,
+   "ticker": "INTC",
+   "company": "Intel",
+   "score": 40.6,
+   "thesis": "Foundry and advanced-packaging option value, but external foundry revenue is still small and the segment is loss-making; alpha is turnaround rather than clean AI bottleneck exposure.",
+   "tier": "foundry",
+   "ytd": 179.94,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: the Apple foundry report is a second prospective external anchor on 18A after the Google-TPU/Nvidia-EMIB validation, further answering this page's knock that external-foundry revenue is small. But it is unconfirmed, dated 2028+, on still-negative foundry margins, and a ~25% run since June 9 (52-week high) more than prices it. Small +1, hold rank."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 102,
+   "ticker": "INTC",
+   "company": "Intel",
+   "score": 43.7,
+   "thesis": "Silicon photonics and advanced packaging optionality, but stock is dominated by foundry/CPU turnaround.",
+   "category": "Foundry / IDM",
+   "ytd": 179.94,
+   "mcapB": 554.07,
+   "risk": "Foundry turnaround and manufacturing execution",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: the Apple/foundry news validates the advanced-packaging/foundry leg but adds nothing on silicon-photonics/CPO, which is the half this page screens for. Stock still trades entirely on the foundry/CPU turnaround as the thesis warns, and it is now the most crowded semis name after a 52-week-high run. Hold."
+   }
+  }
+ ]
+}

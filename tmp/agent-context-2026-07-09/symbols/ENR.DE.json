@@ -1,0 +1,50 @@
+{
+ "symbol": "ENR.DE",
+ "asOf": "2026-07-09",
+ "company": "ENR.DE",
+ "currency": "EUR",
+ "priceToday": 154.96,
+ "pricePrev": 162.5,
+ "moveSincePrevPct": -4.64,
+ "ytdReturnPct": 26.19,
+ "marketCapUsdB": 147.84,
+ "quoteUrl": "https://finance.yahoo.com/quote/ENR.DE/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 98,
+   "ticker": "ENR",
+   "company": "Siemens Energy",
+   "score": 0.6,
+   "thesis": "Utility and power bottleneck exposure; bottleneck, AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "XETRA: ENR",
+   "ytd": 26.19,
+   "mcapB": 147.84,
+   "revisionNote": "On this crowding-sensitive alpha list, a -5.9% flow-driven drop (Siemens AG block-sale overhang, activist noise, profit-taking) against freshly raised guidance and record AI-driven grid orders improves residual asymmetry; rank 97 in the monitor bucket now overstates the crowding discount.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Prior case lifted ENR on a flow-driven dip vs raised guidance/record AI-grid orders. Since June 9 the dip has reversed (+9.6%) with no new fundamentals, so the residual-alpha-vs-crowding asymmetry this list rewards has largely closed. Slight negative drift; hold the monitor-bucket rank."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 88,
+   "ticker": "ENR.DE",
+   "company": "Siemens Energy",
+   "score": 58.1,
+   "thesis": "AI power demand helps grid/turbine suppliers, but Siemens Energy has already rerated around grid and power scarcity.",
+   "theme": "Power & Grid",
+   "exchange": "Xetra",
+   "ytd": 26.19,
+   "conviction": "Medium",
+   "catalysts": "Grid backlog; turbine demand; power-system bottlenecks.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 84 is 2 places better than displayed rank 86; adjusted score 57.0; YTD +28.4%; market cap $156.6B; Siemens Energy remains tied to power & grid through Grid equipment, gas turbines and transmission systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

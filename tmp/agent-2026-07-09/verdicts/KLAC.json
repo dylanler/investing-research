@@ -1,0 +1,105 @@
+{
+  "symbol": "KLAC",
+  "company": "KLA",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 59 hold (+0); down 9.9% since the prior refresh. semiconductor-ai-nodes: rank 56 hold (+0); down 9.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for KLAC",
+      "url": "https://finance.yahoo.com/quote/KLAC/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "KLA 10-for-1 split & dividend (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/kla-corporation-announces-ten-to-one-stock-split-and-quarterly-cash-dividend-payment-302766137.html"
+    },
+    {
+      "label": "KLA split/dividend/guidance (Ainvest)",
+      "url": "https://www.ainvest.com/news/kla-corporation-announces-10-1-stock-split-higher-dividend-guidance-2027-2606/"
+    },
+    {
+      "label": "KLAC stock fell 7% after split (TIKR)",
+      "url": "https://www.tikr.com/blog/kla-corporation-stock-fell-7-this-week-right-after-its-10-for-1-split-heres-where-the-stock-could-go-in-2026"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "KLAC Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/KLAC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Inspection/metrology bottleneck remains high quality but already broadly owned.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -9.9%, YTD +73.5%, market cap about $288.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits KLA through Metrology / inspection; Advanced packaging and silicon photonics yield control can drive demand, but discovery is high. The stock is down 9.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Metrology/inspection is essential to CPO and advanced-packaging yield ramps as optics move on-package.",
+      "neutral": "CPO exposure is indirect and discovery is high; the split is pure flow, not residual alpha.",
+      "bear": "Cosmetic-catalyst pop into a crowded mega-cap shrinks residual alpha on a CPO-purity screen.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "High valuation, capex cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits KLA through wafer fab equipment; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 9.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Indispensable inspection/metrology gatekeeper for leading-edge AI fabs and HBM yield; demand multi-year.",
+      "neutral": "Real bottleneck exposure but mature, well-owned mega-cap; split/dividend add nothing to the node thesis.",
+      "bear": "Steep YTD re-rating and crowded ownership leave little hidden alpha; export-control and cycle risk persist.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Export-control exposure; order-timing/capex-cycle volatility"
+    }
+  ]
+}

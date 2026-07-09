@@ -1,0 +1,32 @@
+{
+ "symbol": "TKR",
+ "asOf": "2026-07-09",
+ "company": "Timken",
+ "currency": "USD",
+ "priceToday": 137.23,
+ "pricePrev": 139.61,
+ "moveSincePrevPct": -1.7,
+ "ytdReturnPct": 59.03,
+ "marketCapUsdB": 9.54,
+ "quoteUrl": "https://finance.yahoo.com/quote/TKR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 29,
+   "ticker": "TKR",
+   "company": "Timken",
+   "score": 69.2,
+   "thesis": "Bearings and motion products could be used in robotics, automated warehouses, cooling equipment and specialty manufacturing",
+   "theme": "Bearings/motion",
+   "exchange": "NYSE",
+   "regionRank": "US#15",
+   "ytd": 59.03,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No fresh fundamental evidence since June 9. The bearings/motion-into-robotics thesis is already well-supported by the known Q1 blowout, raised FY guidance and humanoid-robotics M&A pipeline; nothing new strengthens or weakens the alpha case, so hold on this strict screen."
+   }
+  }
+ ]
+}

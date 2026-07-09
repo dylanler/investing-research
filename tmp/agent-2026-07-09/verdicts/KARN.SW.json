@@ -1,0 +1,56 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 42. July context shows score 70.0, move since prior +4.3%, YTD -14.9%, market cap $2.39B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Reshoring/labor-scarcity drives 15-20% order/revenue growth guide; robotics-levered automation pure-play.",
+      "neutral": "Strong top-line but margin reset; AI link is via orchestration software, not platform exposure.",
+      "bear": "Margin guidance cut, -18% YTD, heavy opex investment compresses near-term profit; not an AI platform.",
+      "primaryCatalyst": "Intralogistics automation cycle; bookings momentum (FY25 +24%); light-goods robotics expansion",
+      "primaryRisk": "2026 EBIT margin cut to 8-10% on growth investments; H1 EBIT ~60% of prior year"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 72. July context shows score 64.3, move since prior +4.3%, YTD -14.9%, market cap $2.39B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Automated storage/retrieval is foundational to robotics-enabled facilities; durable intralogistics demand.",
+      "neutral": "Capability claim intact but speculative; bottom-of-screen rank already reflects the discount.",
+      "bear": "AI-node pathway is a thesis not revenue; margin cut and weak Automated Products segment weigh.",
+      "primaryCatalyst": "ASRS as backbone for secure parts logistics / robotics-enabled facilities",
+      "primaryRisk": "Speculative AI linkage; margin pressure; -18% YTD; not on US screen tier"
+    }
+  ],
+  "symbol": "KARN.SW",
+  "company": "Kardex",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Kardex cuts 2026 EBIT margin guidance (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/kardex-cuts-2026-ebit-margin-guidance-as-growth-investments-weigh-on-profits"
+    },
+    {
+      "label": "Kardex 2026 guidance and business update (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/ch/capital-goods/vtx-karn/kardex-holding-shares/news/kardex-holding-swxkarn-stock-valuation-after-2026-guidance-a"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KARN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "KARN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KARN.SW/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Kardex (KARN.SW) across latent-ai-nodes, latent-ai-nodes-strict: market cap $2.39B, move since prior +4.3%, YTD -14.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

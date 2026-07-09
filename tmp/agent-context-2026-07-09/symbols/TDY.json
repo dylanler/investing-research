@@ -1,0 +1,32 @@
+{
+ "symbol": "TDY",
+ "asOf": "2026-07-09",
+ "company": "Teledyne Technologies",
+ "currency": "USD",
+ "priceToday": 639.51,
+ "pricePrev": 618.37,
+ "moveSincePrevPct": 3.42,
+ "ytdReturnPct": 23.27,
+ "marketCapUsdB": 29.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/TDY/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 57,
+   "ticker": "TDY",
+   "company": "Teledyne Technologies",
+   "score": 66.3,
+   "thesis": "Teledyne owns sensor/imaging assets that feed AI models in defense, industrial and scientific markets; size and valuation reduce early-alpha asymmetry.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NYSE",
+   "ytd": 23.27,
+   "conviction": "Medium",
+   "catalysts": "Defense sensing; machine vision; scientific instrumentation recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 56 is 8 places worse than displayed rank 48; adjusted score 65.0; YTD +18.0%; market cap $28.4B; Teledyne Technologies remains tied to sensors & measurement through Imaging sensors, instrumentation and defense/aerospace electronics. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

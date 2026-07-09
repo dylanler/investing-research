@@ -1,0 +1,48 @@
+{
+ "symbol": "CARR",
+ "asOf": "2026-07-09",
+ "company": "Carrier Global",
+ "currency": "USD",
+ "priceToday": 66.74,
+ "pricePrev": 70.9,
+ "moveSincePrevPct": -5.87,
+ "ytdReturnPct": 24.7,
+ "marketCapUsdB": 57.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/CARR/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 58,
+   "ticker": "CARR",
+   "company": "Carrier Global",
+   "score": 27.8,
+   "thesis": "Cooling and thermal management leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NYSE: CARR",
+   "ytd": 24.7,
+   "mcapB": 57.04,
+   "revisionNote": "On a crowding-sensitive residual-alpha list, a +4.7% pop on conference talk with zero new fundamental evidence, stacked on +31.8% YTD, consumes residual alpha rather than creating it; the name is already flagged as farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: cooling/thermal exposure is real but Carrier sits farther from the passive/power bottleneck stack and the DC-cooling story is already known. No new evidence June 9-23; flat tape removes the prior crowding penalty's catalyst. Hold rank 57."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 9,
+   "ticker": "CARR",
+   "company": "Carrier Global",
+   "score": 81.2,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch hvac and thermal systems execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 24.7,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck list: power/cooling/electrical bottleneck thesis intact - DC cooling demand and QuantumLeap/ZutaCore stack remain central - but no new evidence since June 9. Rank 8 balances bottleneck exposure against valuation recognition. Hold."
+   }
+  }
+ ]
+}

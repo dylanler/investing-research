@@ -1,0 +1,31 @@
+{
+ "symbol": "0522.HK",
+ "asOf": "2026-07-09",
+ "company": "0522.HK",
+ "currency": "HKD",
+ "priceToday": 197.9,
+ "pricePrev": 194.7,
+ "moveSincePrevPct": 1.64,
+ "ytdReturnPct": 143.72,
+ "marketCapUsdB": 10.42,
+ "quoteUrl": "https://finance.yahoo.com/quote/0522.HK/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 31,
+   "ticker": "0522.HK",
+   "company": "ASMPT",
+   "score": 74.9,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "Packaging / equipment",
+   "ytd": 143.72,
+   "mcapB": 10.42,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "ASMPT should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 35, 109.2% YTD, $9.4B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

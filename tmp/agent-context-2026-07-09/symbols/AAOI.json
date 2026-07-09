@@ -1,0 +1,47 @@
+{
+ "symbol": "AAOI",
+ "asOf": "2026-07-09",
+ "company": "Applied Optoelectronics",
+ "currency": "USD",
+ "priceToday": 114.44,
+ "pricePrev": 151.317,
+ "moveSincePrevPct": -24.37,
+ "ytdReturnPct": 188.99,
+ "marketCapUsdB": 9.18,
+ "quoteUrl": "https://finance.yahoo.com/quote/AAOI/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 112,
+   "ticker": "AAOI",
+   "company": "Applied Optoelectronics",
+   "score": 33.2,
+   "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+   "category": "Optical modules",
+   "ytd": 188.99,
+   "mcapB": 9.18,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold near the bottom on the CPO lens. No new evidence since June 9; AAOI is a discovered, +286% YTD merchant transceiver name not directly levered to the co-packaged-optics/package bottleneck. A -6% pullback trims chase risk but does not make it hidden or CPO-direct."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 79,
+   "ticker": "AAOI",
+   "company": "Applied Optoelectronics",
+   "score": 46.7,
+   "thesis": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transceivers and lasers execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 188.99,
+   "auditNote": "A sharp -15% one-day flush against at most ~4-5% real dilution from the ATM improves per-share asymmetry while the scale-out optics thesis (verified 800G/1.6T order book, 650k units/month ramp, July 1",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Scale-out optics thesis strengthened: confirmed $200M+ 1.6T order plus $124M 800G book and Rosenblatt PT to $140. But fresh up-to-$600M ATM offsets per-share asymmetry vs the prior 'up' case. Net mild positive on the master bottleneck list."
+   }
+  }
+ ]
+}

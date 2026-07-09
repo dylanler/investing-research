@@ -1,0 +1,35 @@
+{
+  "symbol": "STLTECH.NS",
+  "company": "Sterlite Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Sterlite Technologies (STLTECH.NS) now screens at $3.16B market cap, -15.4% since the prior refresh and +401.5% YTD. Page thesis remains: Fiber and optical transport for AI data movement",
+  "sources": [
+    {
+      "label": "STLTECH.NS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/STLTECH.NS/"
+    },
+    {
+      "label": "Sterlite Technologies filings/insights (Screener)",
+      "url": "https://www.screener.in/company/STLTECH/consolidated/"
+    },
+    {
+      "label": "HFCL, Sterlite Tech moves amid 2026 rally (Business Standard)",
+      "url": "https://www.business-standard.com/amp/markets/news/hfcl-sterlite-tech-freeze-at-5-lower-circuit-after-massive-rally-in-2026-126060800397_1.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 48,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.61,
+      "rankRationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 48. July market-data refresh shows move since prior -15.4%, YTD +401.5%, market cap $3.16B. Thesis: Fiber and optical transport for AI data movement. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "CRISIL stable outlook + structural fiber upcycle from AI/hyperscale DC buildout support volumes.",
+      "neutral": "Outlook upgrade is incremental; no new large contract or earnings beat in-window.",
+      "bear": "Indirect AI-scaling linkage; commoditized fiber pricing and lumpy order flow limit durable alpha.",
+      "primaryCatalyst": "AI/data-center-driven optical fiber demand upcycle in India.",
+      "primaryRisk": "Fiber price competition and lumpy, low-margin order intake."
+    }
+  ]
+}

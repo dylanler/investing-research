@@ -1,0 +1,47 @@
+{
+ "symbol": "SIMO",
+ "asOf": "2026-07-09",
+ "company": "Silicon Motion",
+ "currency": "USD",
+ "priceToday": 313.3,
+ "pricePrev": 316.63,
+ "moveSincePrevPct": -1.05,
+ "ytdReturnPct": 234.15,
+ "marketCapUsdB": 10.62,
+ "quoteUrl": "https://finance.yahoo.com/quote/SIMO/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 105,
+   "ticker": "SIMO",
+   "company": "Silicon Motion",
+   "score": 43.1,
+   "thesis": "AI storage optionality but not optical/cable.",
+   "category": "Storage controllers",
+   "ytd": 234.15,
+   "mcapB": 10.62,
+   "risk": "Storage cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the co-packaged-optics lens SIMO remains explicitly tangential - storage-controller optionality, not optical/cable content. Nothing since June 9 adds optical relevance, and the page should not reward a NAND-cycle move. Hold the deep-tail rank."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 92,
+   "ticker": "SIMO",
+   "company": "Silicon Motion",
+   "score": 38.9,
+   "thesis": "Data-layer utilization exposure. Strong ytd follow-through; watch ssd controllers execution and pricing.",
+   "bucket": "Storage & AI data platforms",
+   "ytd": 234.15,
+   "auditNote": "Current thesis audit (2026-06-08): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the master bottleneck list SIMO has genuine data-layer/AI-storage exposure (MonTitan cloud controllers, NAND shortage, share gains as makers outsource controllers). The thesis is structurally firmer, but the supportive data is the April print, not new since June 9, and the YTD re-rate is already extreme. Small positive tilt, hold rank."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "SENS.SW",
+ "asOf": "2026-07-09",
+ "company": "Sensirion Holding",
+ "currency": "CHF",
+ "priceToday": 78.1,
+ "pricePrev": 82.7,
+ "moveSincePrevPct": -5.56,
+ "ytdReturnPct": 25.97,
+ "marketCapUsdB": 1.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/SENS.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 12,
+   "ticker": "SENS.SW",
+   "company": "Sensirion",
+   "score": 78.3,
+   "thesis": "Environmental sensors are the measurement layer for cooling, HVAC, robotics and edge AI; Sensirion is a high-quality niche sensor company.",
+   "theme": "Sensors & Measurement",
+   "exchange": "SIX",
+   "ytd": 25.97,
+   "conviction": "High",
+   "catalysts": "A2L/HVAC sensors; industrial sensing; medical/auto design wins.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 9 is 3 places worse than displayed rank 6; adjusted score 79.0; YTD +30.8%; market cap $1.6B; Sensirion remains tied to sensors & measurement through Flow, humidity, gas and environmental sensors. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 26,
+   "ticker": "SENS.SW",
+   "company": "Sensirion Holding",
+   "score": 41.0,
+   "thesis": "Sensors for thermal/industrial control",
+   "bucket": "scientific_instruments",
+   "ytd": 25.97,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 25 is 2 places worse than displayed rank 23; adjusted score 41.0; YTD +30.8%; market cap $1.6B; Scaling watchlist fit is Sensors for thermal/industrial control; bucket scientific_instruments; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

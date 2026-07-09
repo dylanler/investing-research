@@ -1,0 +1,48 @@
+{
+ "symbol": "FLEX",
+ "asOf": "2026-07-09",
+ "company": "Flex",
+ "currency": "USD",
+ "priceToday": 133.37,
+ "pricePrev": 152.16,
+ "moveSincePrevPct": -12.35,
+ "ytdReturnPct": 109.44,
+ "marketCapUsdB": 48.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/FLEX/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 73,
+   "ticker": "FLEX",
+   "company": "Flex",
+   "score": 19.1,
+   "thesis": "800V rack power for NVIDIA Rubin AI infrastructure; bottleneck, direct-AI, near-term-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: FLEX",
+   "ytd": 109.44,
+   "mcapB": 48.87,
+   "revisionNote": "Genuinely new since yesterday's down-call: confirmed S&P 500 inclusion (effective Jun 22) is the terminal recognition event for an alpha list - passive/index ownership becomes mandatory, ending any residual under-owned character on top of a 128% YTD rerating. Today's -3.5% is post-announcement diges",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The S&P 500 inclusion that drove the Jun 9 down-call has now executed (effective Jun 22) - the terminal recognition/forced-passive-ownership event is complete, fully eroding under-owned character on this residual-alpha lens. Spin-off (May 5) predates window. Down-bias already applied; small further negative drift, hold rank."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 90,
+   "ticker": "FLEX",
+   "company": "Flex",
+   "score": 40.3,
+   "thesis": "Physical deployment exposure. Positive but measured ytd; watch systems manufacturing and integration execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 109.44,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the broad bottleneck/physical-deployment lens, S&P inclusion (executed Jun 22) adds crowding but the COMPUTEX Vera Rubin 800V power-shelf validation offsets it - the two roughly cancel, as in the prior hold. Spin-off (May 5) predates window; nothing genuinely new since June 9. Hold."
+   }
+  }
+ ]
+}

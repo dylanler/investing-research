@@ -1,0 +1,32 @@
+{
+ "symbol": "AUTO.OL",
+ "asOf": "2026-07-09",
+ "company": "AutoStore Holdings",
+ "currency": "NOK",
+ "priceToday": 11.5,
+ "pricePrev": 12.22,
+ "moveSincePrevPct": -5.89,
+ "ytdReturnPct": -4.56,
+ "marketCapUsdB": 4.18,
+ "quoteUrl": "https://finance.yahoo.com/quote/AUTO.OL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 54,
+   "ticker": "AUTO.OL",
+   "company": "AutoStore Holdings",
+   "score": 67.7,
+   "thesis": "Robotic cube storage becomes more valuable with AI orchestration; the stock’s prior derating creates asymmetry but competition remains intense.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "Oslo",
+   "ytd": -4.56,
+   "conviction": "Medium",
+   "catalysts": "Warehouse automation rebound; software optimization; retail/logistics projects.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 47 is 9 places worse than displayed rank 38; adjusted score 67.0; YTD -2.4%; market cap $4.5B; AutoStore Holdings remains tied to industrial automation & robotics through Cube-storage robotics for warehouses. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

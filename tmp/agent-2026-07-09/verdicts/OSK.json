@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 53. July context shows score 66.6, move since prior -1.5%, YTD +5.8%, market cap $8.72B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Electrified/autonomous specialty platforms; potential incremental JLTV volume and FMS demand.",
+      "neutral": "Defense pipeline is opportunity, not yet orders; AI-node linkage is a stretch.",
+      "bear": "Mapping to compute-infrastructure buildout is weak; cyclical specialty-vehicle exposure.",
+      "primaryCatalyst": "JLTV second-supplier award + autonomy programs",
+      "primaryRisk": "Award uncertainty; thin AI-node relevance"
+    }
+  ],
+  "symbol": "OSK",
+  "company": "Oshkosh",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Oshkosh eyes potential Marine JLTV deal citing readiness gaps (Breaking Defense)",
+      "url": "https://breakingdefense.com/2026/06/oshkosh-eyes-potential-marine-jltv-deal-citing-growing-readiness-gaps-under-current-contract/"
+    },
+    {
+      "label": "Oshkosh Defense seeks to be second JLTV supplier for USMC (Fox 11)",
+      "url": "https://fox11online.com/news/local/oshkosh-defense-seeks-to-fill-usmcs-request-for-second-supplier-of-jltv"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/OSK/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "OSK quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/OSK/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Oshkosh (OSK) across latent-ai-nodes-strict: market cap $8.72B, move since prior -1.5%, YTD +5.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

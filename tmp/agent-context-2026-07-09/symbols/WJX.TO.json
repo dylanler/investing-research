@@ -1,0 +1,32 @@
+{
+ "symbol": "WJX.TO",
+ "asOf": "2026-07-09",
+ "company": "Wajax",
+ "currency": "CAD",
+ "priceToday": 31.2,
+ "pricePrev": 30.43,
+ "moveSincePrevPct": 2.53,
+ "ytdReturnPct": 12.88,
+ "marketCapUsdB": 0.48,
+ "quoteUrl": "https://finance.yahoo.com/quote/WJX.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 61,
+   "ticker": "WJX.TO",
+   "company": "Wajax",
+   "score": 66.0,
+   "thesis": "Industrial equipment distribution could capture fragmented pumps, powertrain, MRO and service demand in secondary markets",
+   "theme": "Industrial distribution",
+   "exchange": "TSX",
+   "regionRank": "Non-US#27",
+   "ytd": 12.88,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: the AI-supply-chain link (pumps/MRO/service optionality into reshoring) is thin and unchanged. No new evidence since June 9; Q1 and dividend both pre-window. Rank 61 stands."
+   }
+  }
+ ]
+}

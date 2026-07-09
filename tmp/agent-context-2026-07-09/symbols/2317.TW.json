@@ -1,0 +1,48 @@
+{
+ "symbol": "2317.TW",
+ "asOf": "2026-07-09",
+ "company": "Hon Hai Precision (Foxconn)",
+ "currency": "TWD",
+ "priceToday": 237.5,
+ "pricePrev": 259.5,
+ "moveSincePrevPct": -8.48,
+ "ytdReturnPct": 2.37,
+ "marketCapUsdB": 103.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/2317.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 18,
+   "ticker": "2317",
+   "company": "Hon Hai Precision / Foxconn",
+   "score": 60.9,
+   "thesis": "Rubin racks, modular AI data-center buildout; tight-supply, direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TWSE: 2317",
+   "ytd": 2.37,
+   "mcapB": 103.19,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: the June 17 Bull/Foxconn European Rubin deal is fresh but incremental - it confirms, not expands, the rack-buildout thesis. As a $119B near-consensus Buy mega-cap it carries balanced rather than scarce/mispriced exposure. Rank 18 in the secondary bucket still fits; no thesis change."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 52,
+   "ticker": "2317",
+   "company": "Hon Hai Precision (Foxconn)",
+   "score": 58.1,
+   "thesis": "Physical deployment exposure. Negative ytd reset; watch electronics manufacturing and server assembly execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 2.37,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Deployment/systems-integration lens: the June 17 European Vera Rubin NVL72 partnership with Bull is genuinely new versus the June 9 verdict and adds concrete evidence to the rack-integration/data-center-shell thesis. Mild positive drift; rank holds given size and modest YTD already reflect the role."
+   }
+  }
+ ]
+}

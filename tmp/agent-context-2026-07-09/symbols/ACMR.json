@@ -1,0 +1,47 @@
+{
+ "symbol": "ACMR",
+ "asOf": "2026-07-09",
+ "company": "ACM Research",
+ "currency": "USD",
+ "priceToday": 98.07,
+ "pricePrev": 98.61,
+ "moveSincePrevPct": -0.55,
+ "ytdReturnPct": 118.52,
+ "marketCapUsdB": 6.8,
+ "quoteUrl": "https://finance.yahoo.com/quote/ACMR/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 20,
+   "ticker": "ACMR",
+   "company": "ACM Research",
+   "score": 68.6,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 118.52,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Move up. June 16 IR event confirmed new orders +65% YoY — directly resolving the prior case's flagged swing factor (order timing) to the upside, with FY26 guide maintained. This is genuine fundamental confirmation of AI-driven cleaning/plating/advanced-packaging capex, not pure rerating; the +21% move is partly earned."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 26,
+   "ticker": "ACMR",
+   "company": "ACM Research",
+   "score": 76.6,
+   "thesis": "Small-cap equipment exposure to foundry/process complexity; high geopolitical risk.",
+   "category": "Wafer equipment",
+   "ytd": 118.52,
+   "mcapB": 6.8,
+   "risk": "China exposure and policy risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "ACM Research should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 31, 79.5% YTD, $5.6B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

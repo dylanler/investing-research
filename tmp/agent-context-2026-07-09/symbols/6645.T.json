@@ -1,0 +1,32 @@
+{
+ "symbol": "6645.T",
+ "asOf": "2026-07-09",
+ "company": "OMRON",
+ "currency": "JPY",
+ "priceToday": 5866.0,
+ "pricePrev": 5764.0,
+ "moveSincePrevPct": 1.77,
+ "ytdReturnPct": 46.8,
+ "marketCapUsdB": 7.38,
+ "quoteUrl": "https://finance.yahoo.com/quote/6645.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 76,
+   "ticker": "6645.T",
+   "company": "OMRON",
+   "score": 61.9,
+   "thesis": "Factory automation can become an AI deployment layer; Omron’s restructuring creates turnaround optionality but the AI linkage is not hidden.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "Tokyo",
+   "ytd": 46.8,
+   "conviction": "Medium",
+   "catalysts": "IAB recovery; sensor/control upgrades; restructuring benefits.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 71 is 13 places worse than displayed rank 58; adjusted score 62.0; YTD +46.7%; market cap $7.5B; OMRON remains tied to industrial automation & robotics through Sensing, control and factory automation. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

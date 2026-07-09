@@ -1,0 +1,32 @@
+{
+ "symbol": "NMAN.ST",
+ "asOf": "2026-07-09",
+ "company": "Nederman",
+ "currency": "SEK",
+ "priceToday": 124.2,
+ "pricePrev": 127.8,
+ "moveSincePrevPct": -2.82,
+ "ytdReturnPct": -24.73,
+ "marketCapUsdB": 0.5,
+ "quoteUrl": "https://finance.yahoo.com/quote/NMAN.ST/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 38,
+   "ticker": "NMAN.ST",
+   "company": "Nederman",
+   "score": 68.0,
+   "thesis": "Industrial air filtration and extraction could matter for fabrication-adjacent workshops and facility cleanliness without fab exposure",
+   "theme": "Air filtration",
+   "exchange": "Nasdaq Stockholm",
+   "regionRank": "Non-US#17",
+   "ytd": -24.73,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No releases or filings since Jun 9; the latent-node setup is unchanged. The -23% YTD de-rating keeps Nederman un-crowded with filtration optionality (recycling, data centres, battery, defence) intact, but Q1's ~9% organic order decline shows the fabrication-adjacent pathway is still latent, not inflecting. Hold."
+   }
+  }
+ ]
+}

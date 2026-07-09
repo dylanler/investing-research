@@ -1,0 +1,35 @@
+{
+  "symbol": "YUBICO.ST",
+  "company": "Yubico",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Yubico (YUBICO.ST) now screens at $0.53B market cap, +2.6% since the prior refresh and -22.2% YTD. Page thesis remains: Identity/authentication for agentic workflows",
+  "sources": [
+    {
+      "label": "YUBICO.ST quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/YUBICO.ST/"
+    },
+    {
+      "label": "Yubico Interim report Jan-Mar 2026",
+      "url": "https://investors.yubico.com/en/interim-report-january-march-2026/"
+    },
+    {
+      "label": "Yubico Q1 2026 presentation (May 5)",
+      "url": "https://investors.yubico.com/en/wp-content/uploads/sites/2/2026/05/Presentation-Interim-Report-Q1-2026.pdf"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 15. July market-data refresh shows move since prior +2.6%, YTD -22.2%, market cap $0.53B. Thesis: Identity/authentication for agentic workflows. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "ARR +11% and the OpenAI ChatGPT YubiKey partnership position Yubico for agentic-identity demand; SEK95M cost-out aids margins.",
+      "neutral": "Recurring lines growing but total sales down 23%; story is a turnaround mid-transition.",
+      "bear": "Sharp top-line decline, currency headwinds and CEO transition; YTD -24% reflects fading hardware demand.",
+      "primaryCatalyst": "Subscription/ARR shift and OpenAI YubiKey channel as agentic auth scales",
+      "primaryRisk": "Hardware sales contraction (-23%) and FX; transition risk under new CEO"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "symbol": "VLN",
+ "asOf": "2026-07-09",
+ "company": "Valens Semiconductor",
+ "currency": "USD",
+ "priceToday": 2.04,
+ "pricePrev": 2.18,
+ "moveSincePrevPct": -6.42,
+ "ytdReturnPct": 30.77,
+ "marketCapUsdB": 0.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/VLN/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 108,
+   "ticker": "VLN",
+   "company": "Valens Semiconductor",
+   "score": 37.8,
+   "thesis": "Connectivity know-how but data-center CPO evidence limited.",
+   "category": "High-speed connectivity",
+   "ytd": 30.77,
+   "mcapB": 0.26,
+   "risk": "Tiny cap, product adoption",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: the June 20 Barco ClickShare win is pro-AV HDBaseT, not data-center co-packaged optics. It reinforces, rather than closes, the thesis gap that Valens' wins are AV/automotive A-PHY, not DC CPO. No CPO-specific evidence; hold at 108."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 5,
+   "ticker": "VLN",
+   "company": "Valens Semiconductor",
+   "score": 70.0,
+   "thesis": "High-speed connectivity silicon",
+   "bucket": "semiconductors",
+   "ytd": 30.77,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 6 is 1 places better than displayed rank 7; adjusted score 67.5; YTD +44.2%; market cap $237M; Scaling watchlist fit is High-speed connectivity silicon; bucket semiconductors; tags none. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

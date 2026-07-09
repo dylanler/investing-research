@@ -1,0 +1,32 @@
+{
+ "symbol": "BEAN.SW",
+ "asOf": "2026-07-09",
+ "company": "Belimo Holding",
+ "currency": "CHF",
+ "priceToday": 801.5,
+ "pricePrev": 916.0,
+ "moveSincePrevPct": -12.5,
+ "ytdReturnPct": -1.72,
+ "marketCapUsdB": 13.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/BEAN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 40,
+   "ticker": "BEAN.SW",
+   "company": "Belimo Holding",
+   "score": 70.1,
+   "thesis": "Belimo is a superb HVAC control compounder with data-center relevance, but valuation and growing market awareness reduce alpha.",
+   "theme": "Thermal & Water",
+   "exchange": "SIX",
+   "ytd": -1.72,
+   "conviction": "Medium",
+   "catalysts": "Data-center HVAC growth; U.S. building controls; energy-efficiency regulation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 44 is 8 places worse than displayed rank 36; adjusted score 68.0; YTD +11.0%; market cap $13.9B; Belimo Holding remains tied to thermal & water through HVAC actuators, valves, sensors and meters. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

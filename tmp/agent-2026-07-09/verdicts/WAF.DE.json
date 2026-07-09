@@ -1,0 +1,72 @@
+{
+  "symbol": "WAF.DE",
+  "company": "Siltronic",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 40 hold (+0); down 0.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Siltronic FY2026 guidance",
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-releases-its-guidance-for-financial-year-2026.html"
+    },
+    {
+      "label": "Simply Wall St: 2026 guidance valuation check",
+      "url": "https://simplywall.st/stocks/de/semiconductors/etr-waf/siltronic-shares/news/siltronic-xtrawaf-valuation-check-after-2026-guidance-for-lo"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "WAF.DE Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/WAF.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Test-time-scaling lens: upstream wafer-substrate supply is a genuine bottleneck, but no scaling-relevant news since June 9 and soft FY26 guidance persists. Prior down already captured the rerating; hold now.",
+      "bull": "Upstream wafer-substrate supply is a hard physical bottleneck under any scaling regime.",
+      "neutral": "Bottleneck intact but soft FY26 fundamentals; no fresh catalyst.",
+      "bear": "Weak EBIT, price pressure and cyclicality dim near-term scaling-bottleneck monetization.",
+      "primaryCatalyst": "Scaling-driven fab capacity tightening wafer supply",
+      "primaryRisk": "Soft FY26 guide and pricing pressure"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Siltronic through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 0.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Leverage to AI-driven fab and HBM capacity additions; 300mm end-markets still growing.",
+      "neutral": "Structurally relevant wafer node but FY26 guide soft; recovery hinges on order timing.",
+      "bear": "Weak FY26 EBIT, price pressure ex-LTAs, FX drag and export-control risk cap near-term upside.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Pricing pressure / weak FY26 EBIT and export controls"
+    }
+  ]
+}

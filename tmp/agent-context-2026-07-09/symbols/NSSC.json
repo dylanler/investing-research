@@ -1,0 +1,32 @@
+{
+ "symbol": "NSSC",
+ "asOf": "2026-07-09",
+ "company": "NAPCO Security Technologies",
+ "currency": "USD",
+ "priceToday": 38.08,
+ "pricePrev": 38.21,
+ "moveSincePrevPct": -0.34,
+ "ytdReturnPct": -7.97,
+ "marketCapUsdB": 1.36,
+ "quoteUrl": "https://finance.yahoo.com/quote/NSSC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 58,
+   "ticker": "NSSC",
+   "company": "NAPCO Security Technologies",
+   "score": 66.0,
+   "thesis": "Access control, alarms and locking systems could serve higher-security compute campuses/edge sites without being core AI hardware",
+   "theme": "Physical security",
+   "exchange": "NASDAQ",
+   "regionRank": "US#33",
+   "ytd": -7.97,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new latent AI-facility datapoint since June 9. Q3 (May 4) was recurring-revenue-driven physical security, not compute-campus access control; the +9% bounce is flow. The strict-screen thesis is unchanged, so hold where the prior down-move left it."
+   }
+  }
+ ]
+}

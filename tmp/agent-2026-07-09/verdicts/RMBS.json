@@ -1,0 +1,105 @@
+{
+  "symbol": "RMBS",
+  "company": "RMBS",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 36 hold (+0); down 15.5% since the prior refresh. semiconductor-ai-nodes: rank 70 hold (+0); down 15.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Rambus Q1 2026 results / Q2 outlook (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/RMBS/8-k-rambus-inc-reports-material-event-6ef4260478d6.html"
+    },
+    {
+      "label": "What triggered the semiconductor sell-off (Kavout)",
+      "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"
+    },
+    {
+      "label": "Rambus faces downside as memory momentum weakens (24/7 Wall St)",
+      "url": "https://247wallst.com/investing/2026/06/02/rambus-faces-downside-risk-as-memory-chip-momentum-weakens/"
+    },
+    {
+      "label": "Rambus Q1 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/27/rambus-rmbs-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/RMBS/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "RMBS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/RMBS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 64. July context does not change the page placement: -15.5% since the prior refresh, +10.4% YTD. Prior frame: Residual-alpha-vs-passives lens: a -12% flow-driven flush with the HBM4E/memory-interface thesis intact further compresses YTD and unwinds the crowding that anchored prior holds. No RMBS-specific fundamental damage, so the de-rate is alpha-restorative, not thesis erosion. Extends prior 'up'.",
+      "bull": "Sector flush hands a cheaper entry into intact HBM4E/SOCAMM2 franchise; residual alpha widens vs passives.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 64, score 24.3, -15.5% since prior, +10.4% YTD.",
+      "bear": "Royalties slipping ($74M->$70M) and a shortage that lifts peers' pricing but not RMBS's units.",
+      "primaryCatalyst": "Crowding/YTD compression restoring entry asymmetry with HBM4E IP intact",
+      "primaryRisk": "Unit-driven royalty model doesn't capture memory pricing power in a shortage (Baird thesis)"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Rambus through Memory interface/IP; HBM and memory-interface leverage into AI clusters, indirect CPO benefit. The stock is down 15.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Flow-driven drawdown improves alpha entry while HBM4E/memory-interface optionality (incl. CPO read-through) stays intact.",
+      "neutral": "Indirect CPO beneficiary; asymmetry better post-flush but mix/cycle risk persists.",
+      "bear": "Memory-cycle and product-mix risk could turn a flow selloff into a fundamental re-rate.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "IP/product mix and memory cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Rambus through custom ASIC / interconnect; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 15.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Memory-interface IP touches essentially every AI accelerator; HBM4E keeps it on the roadmap.",
+      "neutral": "Relevant but indirect node; centrality unchanged by a flow-driven selloff.",
+      "bear": "Controller-IP layer is less load-bearing than HBM, CoWoS or AI networking on the bottleneck map.",
+      "primaryCatalyst": "AI networking/custom-silicon platform wins",
+      "primaryRisk": "Node remains a step removed from the core HBM/packaging/networking bottleneck"
+    }
+  ]
+}

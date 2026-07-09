@@ -1,0 +1,27 @@
+{
+ "symbol": "ALNT",
+ "asOf": "2026-07-09",
+ "company": "Allient",
+ "currency": "USD",
+ "priceToday": 86.65,
+ "pricePrev": 96.17,
+ "moveSincePrevPct": -9.9,
+ "ytdReturnPct": 55.9,
+ "marketCapUsdB": 1.47,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALNT/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 7,
+   "ticker": "ALNT",
+   "company": "Allient",
+   "score": 78.0,
+   "thesis": "One of the cleaner US-listed motion-control suppliers with explicit humanoid robotics content and still-manageable valuation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #8 and alpha score 82. Should hold because $1.5B cap, +56.9% YTD, Actuation purity, and commercialization evidence now matter more than generic humanoid beta. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

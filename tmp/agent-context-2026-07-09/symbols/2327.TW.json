@@ -1,0 +1,48 @@
+{
+ "symbol": "2327.TW",
+ "asOf": "2026-07-09",
+ "company": "Yageo",
+ "currency": "TWD",
+ "priceToday": 900.0,
+ "pricePrev": 1020.0,
+ "moveSincePrevPct": -11.76,
+ "ytdReturnPct": 273.44,
+ "marketCapUsdB": 66.91,
+ "quoteUrl": "https://finance.yahoo.com/quote/2327.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 72,
+   "ticker": "2327",
+   "company": "Yageo",
+   "score": 20.2,
+   "thesis": "Resistors, current sense, MLCC and KO-CAP exposure; bottleneck, direct-AI, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "TWSE: 2327",
+   "ytd": 273.44,
+   "mcapB": 66.91,
+   "revisionNote": "Crowding-sensitive residual-alpha lens: no new fundamentals since June 9, yet another +23% run to +323% YTD makes it a mega-cap consensus name. The MLCC/pricing-power story is real but fully owned; residual alpha keeps compressing from the already-crowded benchmark slot. Thesis-driven down.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Crowding-sensitive residual-alpha lens: no new fundamentals since June 9, yet another +23% run to +323% YTD makes it a mega-cap consensus name. The MLCC/pricing-power story is real but fully owned; residual alpha keeps compressing from the already-crowded benchmark slot. Thesis-driven down."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 86,
+   "ticker": "2327",
+   "company": "Yageo",
+   "score": 43.8,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch passive components execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 273.44,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Board-level power/passives lens: the record Q1 (+47%/+45%) and confirmed pricing power are the execution evidence the thesis asked to watch, but nothing new arrived since June 9 - it is the same April print. On this broader lens the validated power-delivery content keeps rank steady; no incremental shift."
+   }
+  }
+ ]
+}

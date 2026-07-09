@@ -1,0 +1,32 @@
+{
+ "symbol": "DCI",
+ "asOf": "2026-07-09",
+ "company": "Donaldson",
+ "currency": "USD",
+ "priceToday": 87.68,
+ "pricePrev": 85.38,
+ "moveSincePrevPct": 2.69,
+ "ytdReturnPct": -2.5,
+ "marketCapUsdB": 10.16,
+ "quoteUrl": "https://finance.yahoo.com/quote/DCI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 30,
+   "ticker": "DCI",
+   "company": "Donaldson",
+   "score": 69.2,
+   "thesis": "Air/liquid filtration could extend into coolant cleanliness, facility air quality, and industrial process protection",
+   "theme": "Filtration",
+   "exchange": "NYSE",
+   "regionRank": "US#16",
+   "ytd": -2.5,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the strict latent-nodes lens the cooling/filtration pathway was upgraded June 9 on the June 2 print confirming actual data-center liquid-cooling wins and 20%+ disk-drive filtration growth. That catalyst is now in the base; no new evidence since June 9 and a -0.7% drift day. Hold the gain at 29; the thesis remains validated and uncrowded."
+   }
+  }
+ ]
+}

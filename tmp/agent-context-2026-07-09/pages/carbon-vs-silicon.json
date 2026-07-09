@@ -1,0 +1,130 @@
+[
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 1,
+  "ticker": "NASDAQ: AVGO",
+  "company": "Broadcom",
+  "score": 77.8,
+  "thesis": "Strong exposure to two fast-growing silicon needs at once: custom accelerators and AI networking/interconnect.",
+  "theme": "Silicon / AI-cluster consumption",
+  "ytd": 11.81,
+  "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Already rank 1 on the silicon-consumption basket and the quarter validated it (AI silicon $10.8B to guided ~$16B/qtr). No new data since June 9; the de-rating changes price, not theme leadership. Cleanest dual silicon-consumption proxy (ASIC + interconnect); hold the top slot."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 2,
+  "ticker": "NASDAQ: NVDA",
+  "company": "NVIDIA",
+  "score": 74.5,
+  "thesis": "The clearest listed proxy for the single largest silicon-basket bucket: high-end accelerators and AI-system demand.",
+  "theme": "Silicon / AI-cluster consumption",
+  "ytd": 8.09,
+  "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Clearest listed proxy for the high-end-accelerator silicon bucket; Korea GW-scale sovereign commitments already supported the score on June 9 and no fresh consumption datapoint has landed. Rank 2 already prices proxy status. Hold."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 3,
+  "ticker": "TWSE: 2330 / NYSE ADR: TSM",
+  "company": "TSMC",
+  "score": 73.0,
+  "thesis": "A core manufacturing bottleneck for the compute-heavy side of the silicon basket, especially leading-edge AI chips.",
+  "theme": "Silicon / AI-cluster consumption",
+  "ytd": 52.37,
+  "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Silicon-basket bottleneck lens: news since June 9 reinforces the manufacturing-chokepoint case - leading nodes sold out through 2027, demand exceeding supply 25-30%, and confirmed 3nm price hikes (up to 15% in 2H26) reversing the prior no-price-hike overhang and lifting margin trajectory. Rank 3 still fits; mild positive on thesis."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 4,
+  "ticker": "KRX: 000660",
+  "company": "SK hynix",
+  "score": 65.9,
+  "thesis": "Direct exposure to the fastest-growing memory layer in the silicon basket: HBM attached to AI accelerators.",
+  "theme": "Silicon / AI-cluster consumption",
+  "ytd": 222.9,
+  "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Silicon-consumption basket: SK hynix remains the canonical direct HBM proxy and June 18 HBM4E samples plus the worsening shortage-to-2028+ backdrop reinforce that basket role. The page already took its re-rating discipline; fresh HBM evidence justifies only mild positive score drift, not a rank change."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 5,
+  "ticker": "SIX: NOVN / NYSE: NVS",
+  "company": "Novartis",
+  "score": 32.7,
+  "thesis": "Another direct proxy for the large and growing pharmaceutical component of the human consumption basket.",
+  "theme": "Human / carbon-based consumption",
+  "ytd": 15.19,
+  "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Carbon-based human-consumption basket: Novartis remains a mature, consensus, institutionally-owned pharma proxy. Pipeline/M&A items predate June 9 and don't add residual alpha to this silicon-vs-carbon lens. Hold at 5, 0."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 6,
+  "ticker": "SIX: NESN",
+  "company": "Nestlé",
+  "score": 32.0,
+  "thesis": "A diversified way to express everyday food-and-beverage demand, with additional exposure to nutrition and pet categories.",
+  "theme": "Human / carbon-based consumption",
+  "ytd": 8.62,
+  "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Carbon-side consumption proxy: nothing thesis-changing since June 9. Waters auction still open with buyers weighing liabilities; leadership reshuffle already known. Defensive demand basket consensus and fully owned, so alpha stays muted; hold the rank."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 7,
+  "ticker": "NYSE: WMT",
+  "company": "Walmart",
+  "score": 27.7,
+  "thesis": "A broad proxy for recurring household spend, especially groceries, everyday goods, and pharmacy-led traffic.",
+  "theme": "Human / carbon-based consumption",
+  "ytd": 0.3,
+  "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Carbon-consumption basket lens: WMT remains a mature, consensus, already-institutionally-owned household-spend proxy. Nothing new since June 9 (guidance/Q1 digested, next print Aug 20), so the low-alpha defensive role is unchanged."
+  }
+ },
+ {
+  "page": "carbon-vs-silicon",
+  "rank": 8,
+  "ticker": "NYSE: LLY",
+  "company": "Eli Lilly",
+  "score": 24.4,
+  "thesis": "Direct proxy for one of the biggest current human-goods lines: pharmaceutical and medical-product consumption.",
+  "theme": "Human / carbon-based consumption",
+  "ytd": 12.54,
+  "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Silicon-consumption-vs-human-goods lens: LLY is the human/pharma-consumption proxy. The June 8 ACHIEVE data was already captured in the June 9 case; no new evidence after June 9. On this alpha-weighted page LLY remains the definition of consensus ($984B cap, fully owned), so rank 8 holds with no further drift."
+  }
+ }
+]

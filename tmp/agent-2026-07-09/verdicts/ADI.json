@@ -1,0 +1,97 @@
+{
+  "symbol": "ADI",
+  "company": "Analog Devices",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 99 hold (+0); down 5.6% since the prior refresh. semiconductor-ai-nodes: rank 77 hold (+0); down 5.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Futurum: ADI Q2 FY26 AI data-center/power demand",
+      "url": "https://futurumgroup.com/insights/analog-devices-q2-fy-2026-earnings-show-ai-linked-data-center-power-demand/"
+    },
+    {
+      "label": "Simply Wall St: ADI buys Empower for bigger AI-power role",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/analog-devices-buy-of-empower-targets-bigger-role-in-ai-powe"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ADI/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ADI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ADI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 42. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -5.6% since the prior refresh, +40.8% YTD. Prior frame: Residual-alpha-vs-passives lens: $200B mega-cap, +49% YTD, Buy consensus and post-earnings/Empower rerating already in the tape leave little hidden alpha. No new news since June 9. Hold at #40 in the secondary residual bucket.",
+      "bull": "Empower closes the AI vertical-power gap; data-center comms +90% gives a real, durable AI tailwind on a high-quality analog franchise.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 42, score 37.0, -5.6% since prior, +40.8% YTD.",
+      "bear": "Little residual alpha left after the rerating; industrial-cycle exposure caps upside surprise.",
+      "primaryCatalyst": "Empower-driven AI-rack power management ramp",
+      "primaryRisk": "Mega-cap with consensus already long; residual alpha largely captured"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Analog Devices through Analog / power; Quality analog franchise but not early CPO exposure. The stock is down 5.6% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Power/signal-chain content sits adjacent to optical AI infrastructure, an indirect CPO read-through.",
+      "neutral": "Solid franchise but essentially zero direct co-packaged-optics exposure for this lens.",
+      "bear": "Irrelevant to the CPO transition; belongs in the analog/power tail here.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Industrial cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Analog Devices through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 5.6% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "48/54V intermediate-bus modules and first vertical-power customer give incremental AI-node power content.",
+      "neutral": "AI-adjacent but not a primary node chokepoint; ranks appropriately in the lower analog tier.",
+      "bear": "AI exposure is indirect; demand is partly industrial-cycle, not pure node bottleneck.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Not a core AI-node bottleneck; analog content trails HBM/packaging/networking"
+    }
+  ]
+}

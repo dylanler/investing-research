@@ -1,0 +1,32 @@
+{
+ "symbol": "ELK.OL",
+ "asOf": "2026-07-09",
+ "company": "Elkem",
+ "currency": "NOK",
+ "priceToday": 30.4,
+ "pricePrev": 31.58,
+ "moveSincePrevPct": -3.74,
+ "ytdReturnPct": -0.59,
+ "marketCapUsdB": 1.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/ELK.OL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 64,
+   "ticker": "ELK.OL",
+   "company": "Elkem",
+   "score": 65.8,
+   "thesis": "Silicones and carbon solutions could support thermal, sealing or battery-adjacent materials if demand spills outside incumbents",
+   "theme": "Silicones/carbon materials",
+   "exchange": "Oslo",
+   "regionRank": "Non-US#29",
+   "ytd": -0.59,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: the June 23 Bluestar rebrand confirms the silicones division (half this page's thermal/sealing/battery thesis) is now divested. Prior case already moved it down; rebrand is cosmetic but keeps hollowing the AI-pathway story. Small negative drift."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "OSK",
+ "asOf": "2026-07-09",
+ "company": "Oshkosh",
+ "currency": "USD",
+ "priceToday": 139.94,
+ "pricePrev": 142.055,
+ "moveSincePrevPct": -1.49,
+ "ytdReturnPct": 5.84,
+ "marketCapUsdB": 8.72,
+ "quoteUrl": "https://finance.yahoo.com/quote/OSK/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 53,
+   "ticker": "OSK",
+   "company": "Oshkosh",
+   "score": 66.6,
+   "thesis": "Electrified, autonomous and specialty platforms could map to physical logistics and construction of new compute infrastructure",
+   "theme": "Specialty vehicles/electrification",
+   "exchange": "NYSE",
+   "regionRank": "US#30",
+   "ytd": 5.84,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent AI-node lens (compute-infra logistics/electrification proxy): the June Marine JLTV second-supplier pursuit + Netherlands FMS is positive pipeline but not a booked order and is only tangential to the compute-buildout thesis this strict screen rewards. Slight positive tilt; no rank change."
+   }
+  }
+ ]
+}

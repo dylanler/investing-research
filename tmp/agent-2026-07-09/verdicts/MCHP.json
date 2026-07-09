@@ -1,0 +1,113 @@
+{
+  "symbol": "MCHP",
+  "company": "Microchip Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 92 hold (+0); down 8.9% since the prior refresh. semiconductor-ai-nodes: rank 88 hold (+0); down 8.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Microchip Q4/FY26 results, data-center wins",
+      "url": "https://futurumgroup.com/insights/microchip-technology-q4-fy-2026-revenue-beats-consensus-with-data-center-wins/"
+    },
+    {
+      "label": "Microchip Q4 FY26 press release",
+      "url": "https://ir.microchip.com/news-events/press-releases/detail/1387/microchip-technology-announces-financial-results-for-fourth-quarter-and-fiscal-year-2026"
+    },
+    {
+      "label": "Microchip DCS business targets ~$500M 2026 revenue (Jun 1)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/01/3304718/0/en/microchip-provides-data-center-solutions-business-unit-revenue-information.html"
+    },
+    {
+      "label": "Microchip TimePictra 12 timing-software launch",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/how-microchips-timepictra-12-software-pivot-at-microchip-tec"
+    },
+    {
+      "label": "StockTitan: Microchip DCS unit $500M 2026 revenue",
+      "url": "https://www.stocktitan.net/news/MCHP/microchip-provides-data-center-solutions-business-unit-revenue-k4wb0dlbheds.html"
+    },
+    {
+      "label": "Futurum: Microchip Q4 FY26 beats with data center wins",
+      "url": "https://futurumgroup.com/insights/microchip-technology-q4-fy-2026-revenue-beats-consensus-with-data-center-wins/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MCHP/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "MCHP Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/MCHP/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 35. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -8.9% since the prior refresh, +31.5% YTD. Prior frame: Residual-alpha lens: nothing new since June 9. DCS guide and price hikes already chased; +45% YTD leaves little residual alpha for a secondary name. TimePictra 12 is incremental. Stays a balanced-but-not-mispriced secondary residual-alpha holding.",
+      "bull": "DCS connectivity/power content compounding ~65% in 2026; tight supply and embedded breadth give durable AI-adjacent leverage.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 35, score 41.4, -8.9% since prior, +31.5% YTD.",
+      "bear": "+45% YTD prices in the recovery; broad cyclical embedded exposure caps residual alpha.",
+      "primaryCatalyst": "Continued DCS revenue ramp and bookings recovery",
+      "primaryRisk": "Cyclical embedded demand wobble after a sharp rerate"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 92,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Microchip Technology through Embedded / analog; Infrastructure controls and timing content, not a primary CPO alpha candidate. The stock is down 8.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Timing/sync content sits adjacent to high-speed optical infrastructure buildout.",
+      "neutral": "Embedded/analog supplier with only tangential CPO linkage.",
+      "bear": "Not a co-packaged-optics alpha candidate; broad cyclical exposure.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Broad cyclical exposure"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Microchip Technology through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 8.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Power and timing content rides AI-server buildout; data-center connectivity wins broaden node adjacency.",
+      "neutral": "AI-adjacent but a step removed from the true node bottleneck.",
+      "bear": "Not a node choke-point; broad analog cyclicality dominates the story.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Indirect node exposure limits bottleneck alpha"
+    }
+  ]
+}

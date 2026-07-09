@@ -1,0 +1,43 @@
+{
+  "symbol": "EOSE",
+  "company": "Eos Energy Enterprises",
+  "caseDate": "2026-07-09",
+  "newsSince": "Eos is raising capital for Frontier Power USA: a $75M direct equity/warrant offering closed July 1 and a rights offering began July 2 to raise up to $150M. FPUSA selected four Texas projects totaling 920 MWh for Eos Z3 technology. The commercial evidence is real, but the financing path is dilutive and execution-heavy.",
+  "sources": [
+    {
+      "label": "Eos $75M offering for Frontier Power USA",
+      "url": "https://www.globenewswire.com/news-release/2026/06/30/3319573/0/en/Eos-Announces-Pricing-of-Registered-Direct-Offering-of-Common-Stock-and-Warrants-to-Fund-Investment-in-Frontier-Power-USA.html"
+    },
+    {
+      "label": "Eos rights offering",
+      "url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-announces-commencement-rights-offering"
+    },
+    {
+      "label": "EOSE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/EOSE/"
+    },
+    {
+      "label": "QuiverQuant: Eos secures $22.7M DOE loan advance",
+      "url": "https://www.quiverquant.com/news/Eos+Energy+Enterprises+Secures+$22.7+Million+Loan+Advance+from+DOE+to+Expand+Manufacturing+Capabilities"
+    },
+    {
+      "label": "Eos Energy second DOE funding (investor relations)",
+      "url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-announces-second-funding-under-its-department-energy"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 17,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.66,
+      "rankRationale": "The 920MWh FPUSA project selection supports the grid-storage thesis, but the immediate evidence is dominated by equity/warrant dilution and external financing dependency. Move down modestly on capital-structure risk.",
+      "bull": "Zinc LDES with DOE-backed capacity could supply firming for AI-driven grid load growth.",
+      "neutral": "Optionality only; execution and cash burn unresolved.",
+      "bear": "Down ~48% YTD; dilution risk and uncertain bookings-to-revenue conversion.",
+      "primaryCatalyst": "Project AMAZE line 2 ramp; MOU-to-order conversion",
+      "primaryRisk": "Cash burn/dilution; storage demand timing"
+    }
+  ]
+}

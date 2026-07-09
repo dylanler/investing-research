@@ -1,0 +1,29 @@
+{
+ "symbol": "VGO.WA",
+ "asOf": "2026-07-09",
+ "company": "VIGO Photonics",
+ "currency": "PLN",
+ "priceToday": 560.0,
+ "pricePrev": 506.0,
+ "moveSincePrevPct": 10.67,
+ "ytdReturnPct": 18.64,
+ "marketCapUsdB": 0.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/VGO.WA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 19,
+   "ticker": "VGO.WA",
+   "company": "VIGO Photonics",
+   "score": 47.0,
+   "thesis": "Photonics and infrared detector leverage",
+   "bucket": "scientific_instruments",
+   "ytd": 18.64,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 19 is 1 places worse than displayed rank 18; adjusted score 47.0; YTD +23.3%; market cap $147M; Scaling watchlist fit is Photonics and infrared detector leverage; bucket scientific_instruments; tags packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

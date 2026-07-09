@@ -1,0 +1,66 @@
+{
+ "symbol": "SU.PA",
+ "asOf": "2026-07-09",
+ "company": "Schneider Electric",
+ "currency": "EUR",
+ "priceToday": 268.25,
+ "pricePrev": 279.5,
+ "moveSincePrevPct": -4.03,
+ "ytdReturnPct": 13.16,
+ "marketCapUsdB": 169.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/SU.PA/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 45,
+   "ticker": "SU",
+   "company": "Schneider Electric",
+   "score": 35.5,
+   "thesis": "AI factory power and cooling reference architecture; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "EPA: SU",
+   "ytd": 13.16,
+   "mcapB": 169.68,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens. June Uniflair XCA chiller shipment start and the Foxconn AI-DC hardware JV are execution confirmation, but the name sits in the crowded/rerated-benchmark bucket with Strong Buy consensus, so residual alpha stays thin; small positive drift, no re-rank."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 101,
+   "ticker": "SU.PA",
+   "company": "Schneider Electric",
+   "score": 46.0,
+   "thesis": "Schneider is a direct AI infrastructure winner, but the crowd has clearly found it; included as a negative-control for the alpha screen.",
+   "theme": "Power & Grid",
+   "exchange": "Euronext Paris",
+   "ytd": 13.16,
+   "conviction": "Low",
+   "catalysts": "Data-center power/cooling demand; Southeast Asia buildout; services.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 99 is 3 places worse than displayed rank 96; adjusted score 46.0; YTD +14.1%; market cap $173.6B; Schneider Electric remains tied to power & grid through Energy management, data-center power and cooling infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 10,
+   "ticker": "SU",
+   "company": "Schneider Electric",
+   "score": 79.4,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical infrastructure and data-center gear execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 13.16,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list, power/cooling/electrical execution lens. June Uniflair XCA shipment start and the Foxconn AI-DC JV are confirming execution on the grid/cooling thesis, consistent with last case's +1 execution drift; positive but not enough to re-rank vs power/cooling peers."
+   }
+  }
+ ]
+}

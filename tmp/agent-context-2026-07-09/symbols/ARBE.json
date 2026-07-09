@@ -1,0 +1,27 @@
+{
+ "symbol": "ARBE",
+ "asOf": "2026-07-09",
+ "company": "Arbe Robotics",
+ "currency": "USD",
+ "priceToday": 0.7111,
+ "pricePrev": 0.7,
+ "moveSincePrevPct": 1.59,
+ "ytdReturnPct": -40.74,
+ "marketCapUsdB": 0.09,
+ "quoteUrl": "https://finance.yahoo.com/quote/ARBE/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 1,
+   "ticker": "ARBE",
+   "company": "Arbe Robotics",
+   "score": 85.4,
+   "thesis": "Tiny public float exposure to radar perception. Not a pure humanoid supplier yet, but radar redundancy becomes more valuable as robots leave controlled demos.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #3 and alpha score 92. Should hold because $151M cap, -26.4% YTD, Sensing purity, and commercialization evidence now matter more than generic humanoid beta. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

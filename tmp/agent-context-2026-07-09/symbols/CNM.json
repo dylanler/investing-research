@@ -1,0 +1,50 @@
+{
+ "symbol": "CNM",
+ "asOf": "2026-07-09",
+ "company": "Core & Main",
+ "currency": "USD",
+ "priceToday": 45.59,
+ "pricePrev": 46.725,
+ "moveSincePrevPct": -2.43,
+ "ytdReturnPct": -14.64,
+ "marketCapUsdB": 8.82,
+ "quoteUrl": "https://finance.yahoo.com/quote/CNM/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 78,
+   "ticker": "CNM",
+   "company": "Core & Main",
+   "score": 61.4,
+   "thesis": "Data-center water constraints could increase the value of water infrastructure distribution, but the AI linkage is indirect.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": -14.64,
+   "conviction": "Medium",
+   "catalysts": "Municipal water capex; industrial water projects; bolt-on M&A.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 72 is 3 places worse than displayed rank 69; adjusted score 62.0; YTD -2.3%; market cap $10.2B; Core & Main remains tied to thermal & water through Water, wastewater and storm-drainage distribution. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 56,
+   "ticker": "CNM",
+   "company": "Core & Main",
+   "score": 66.1,
+   "thesis": "Waterworks distribution and smart utility offerings could matter as AI campuses strain water infrastructure",
+   "theme": "Waterworks distribution",
+   "exchange": "NYSE",
+   "regionRank": "US#32",
+   "ytd": -14.64,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen: the near-dated binary print (June 10) that the prior case awaited landed soft - EPS beat but flat revenue, guidance merely reaffirmed, declines in PVF and storm drainage. It did not validate a waterworks-distribution AI pathway. Removes the positive-drift catalyst; small negative tilt, hold."
+   }
+  }
+ ]
+}

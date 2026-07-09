@@ -1,0 +1,35 @@
+{
+  "symbol": "8147.TWO",
+  "company": "Nextronics Engineering",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Nextronics Engineering (8147.TWO) now screens at $0.20B market cap, +2.4% since the prior refresh and +39.4% YTD. Page thesis remains: A small, overlooked connector/mechanism supplier with explicit humanoid solution pages.",
+  "sources": [
+    {
+      "label": "8147.TWO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/8147.TWO/"
+    },
+    {
+      "label": "Nextronics - humanoid robot industry pages",
+      "url": "https://www.nextrongroup.com/news/web-news-industry/humanoid-robots-industry-news"
+    },
+    {
+      "label": "Yahoo Finance - Nextronics Engineering",
+      "url": "https://finance.yahoo.com/quote/8147.TWO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 22. July market-data refresh shows move since prior +2.4%, YTD +39.4%, market cap $0.20B. Thesis: A small, overlooked connector/mechanism supplier with explicit humanoid solution pages.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Tiny ($0.2B) overlooked connector supplier with explicit humanoid design wins - high optionality if humanoid ramps.",
+      "neutral": "Thesis unchanged; need commercialization evidence beyond positioning to re-rate.",
+      "bear": "Micro-cap with thin liquidity and unproven humanoid revenue; story-driven exposure.",
+      "primaryCatalyst": "Humanoid connector design wins; Aug 12 earnings",
+      "primaryRisk": "Humanoid timing slip; micro-cap liquidity / execution"
+    }
+  ]
+}

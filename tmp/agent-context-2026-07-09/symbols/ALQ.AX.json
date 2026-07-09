@@ -1,0 +1,32 @@
+{
+ "symbol": "ALQ.AX",
+ "asOf": "2026-07-09",
+ "company": "ALS",
+ "currency": "AUD",
+ "priceToday": 22.24,
+ "pricePrev": 22.61,
+ "moveSincePrevPct": -1.64,
+ "ytdReturnPct": 0.82,
+ "marketCapUsdB": 8.06,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALQ.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 77,
+   "ticker": "ALQ.AX",
+   "company": "ALS",
+   "score": 63.6,
+   "thesis": "Testing, certification and environmental analysis could verify coolants, water quality, materials and emissions for new infrastructure",
+   "theme": "Testing/inspection",
+   "exchange": "ASX",
+   "regionRank": "Non-US#41",
+   "ytd": 0.82,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-AI lens, testing/inspection theme. Strong FY2026 results but commodities/life-sciences driven, not AI verification. ASX 50 inclusion (eff Jun 22) is passive-flow crowding, not AI evidence. Small negative drift; hold after prior down-move."
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "symbol": "KLIC",
+ "asOf": "2026-07-09",
+ "company": "Kulicke & Soffa",
+ "currency": "USD",
+ "priceToday": 104.23,
+ "pricePrev": 125.375,
+ "moveSincePrevPct": -16.87,
+ "ytdReturnPct": 115.57,
+ "marketCapUsdB": 5.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/KLIC/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 68,
+   "ticker": "KLIC",
+   "company": "Kulicke & Soffa",
+   "score": 50.9,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "OSAT / packaging",
+   "ytd": 115.57,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: TCB/fluxless thermo-compression for HBM/advanced packaging is genuinely node-relevant and the May guide ($310M, +28% q/q) confirms a ramp. But that news pre-dates the window and is largely priced after +163% YTD; small positive carry, no new June catalyst -> hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 106,
+   "ticker": "KLIC",
+   "company": "Kulicke and Soffa",
+   "score": 42.3,
+   "thesis": "Packaging tool exposure, but narrower and cyclically volatile.",
+   "category": "Packaging equipment",
+   "ytd": 115.57,
+   "mcapB": 5.46,
+   "risk": "Packaging cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Kulicke and Soffa should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 107, 112.0% YTD, $5.4B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 34,
+   "ticker": "KLIC",
+   "company": "Kulicke & Soffa",
+   "score": 41.1,
+   "thesis": "More AI semiconductor-cycle exposure than humanoid exposure.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Humanoid-stack lens: KLIC is a semicap/packaging-cycle name with effectively no humanoid/robotics purity. Continued down is purity discipline, not news; at rank 34 it still sits above where off-thesis peers belong. No robotics-relevant catalyst -> down on purity."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 43,
+   "ticker": "KLIC",
+   "company": "Kulicke & Soffa",
+   "score": 60.7,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch assembly and packaging equipment execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 115.57,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: prior verdict already applied the re-rating discount. Strong YTD follow-through and the May TCB/earnings beat are pre-window and recognized; +163% YTD keeps eroding hidden alpha at a $6.6B cap. No new June news -> hold."
+   }
+  }
+ ]
+}

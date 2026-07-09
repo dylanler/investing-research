@@ -1,0 +1,39 @@
+{
+  "symbol": "JCI",
+  "company": "Johnson Controls",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Power, cooling & electrical thesis. For this stock, price moved -2.1% since the prior snapshot and YTD return is +14.7%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for JCI",
+      "url": "https://finance.yahoo.com/quote/JCI/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power/cooling demand is stronger, but JCI is a large discovered controls/cooling name; hold with positive drift.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -2.1%, YTD +14.7%, market cap about $85.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    }
+  ]
+}

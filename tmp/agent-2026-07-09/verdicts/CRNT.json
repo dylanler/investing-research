@@ -1,0 +1,35 @@
+{
+  "symbol": "CRNT",
+  "company": "Ceragon Networks",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Ceragon Networks (CRNT) now screens at $0.26B market cap, -12.6% since the prior refresh and +5.9% YTD. Page thesis remains: Wireless backhaul and network densification",
+  "sources": [
+    {
+      "label": "CRNT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/CRNT/"
+    },
+    {
+      "label": "Ceragon lifts 2026 outlook on backlog (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRNT/pressreleases/36964501/ceragon-networks-lifts-2026-outlook-after-north-american-order-deferral-boosts-backlog/"
+    },
+    {
+      "label": "Ceragon Q1 2026 earnings transcript (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRNT-Q/pressreleases/2023575/ceragon-crnt-q1-2026-earnings-transcript/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 37. July market-data refresh shows move since prior -12.6%, YTD +5.9%, market cap $0.26B. Thesis: Wireless backhaul and network densification. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "India bookings strong (~$100M floor); FR2 tier-1 PoC; Europe upside post-Nokia divestiture.",
+      "neutral": "Solid but low-margin backhaul; only tangential to AI-scaling buildout.",
+      "bear": "Micro-cap ($260M), thin ~7% op margins; backhaul demand cyclical and competitive.",
+      "primaryCatalyst": "India/Europe backhaul order momentum",
+      "primaryRisk": "Thin margins / cyclical demand"
+    }
+  ]
+}

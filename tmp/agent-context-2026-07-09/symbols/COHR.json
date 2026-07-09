@@ -1,0 +1,81 @@
+{
+ "symbol": "COHR",
+ "asOf": "2026-07-09",
+ "company": "Coherent",
+ "currency": "USD",
+ "priceToday": 317.05,
+ "pricePrev": 390.8,
+ "moveSincePrevPct": -18.87,
+ "ytdReturnPct": 63.15,
+ "marketCapUsdB": 62.03,
+ "quoteUrl": "https://finance.yahoo.com/quote/COHR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 86,
+   "ticker": "COHR",
+   "company": "Coherent",
+   "score": 58.7,
+   "thesis": "A real optical/laser AI infrastructure beneficiary, but far from undiscovered; alpha depends on sustained optical scarcity.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NYSE",
+   "ytd": 63.15,
+   "conviction": "Medium",
+   "catalysts": "AI datacom transceivers; lasers; manufacturing leverage.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "This page rewards undiscovered nodes. The CHIPS+NVIDIA groundbreaking is a positive fundamental but it only deepens COHR's well-covered, $77B, NVIDIA-anointed status - the opposite of latent. Thesis ('far from undiscovered') is reinforced, so hold low."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 10,
+   "ticker": "COHR",
+   "company": "Coherent",
+   "score": 80.2,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 63.15,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the AI-node bottleneck lens the June 16 CHIPS LOI quadrupling InP wafer capacity (ahead of schedule, NVIDIA-tied) directly relieves the supply constraint gating 800G/1.6T optics demand booked into 2028 - a genuine fundamental improvement, not flow."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 4,
+   "ticker": "COHR",
+   "company": "Coherent",
+   "score": 92.1,
+   "thesis": "NVIDIA partnership validates datacenter optics; upside depends on capacity, margins and repeat orders.",
+   "category": "Photonics / CPO",
+   "ytd": 63.15,
+   "mcapB": 62.03,
+   "risk": "Large recent rerating; execution/capacity build risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Most on-thesis page. The stated risk - 'large recent rerating / capacity build risk' - was materially de-risked: CHIPS LOI funds the InP expansion and NVIDIA groundbreaking validates CPO/optics demand directly at the constraint this lens measures."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 35,
+   "ticker": "COHR",
+   "company": "Coherent",
+   "score": 63.0,
+   "thesis": "Scale-out bandwidth and optics exposure. Strong ytd follow-through; watch optical components and lasers execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 63.15,
+   "auditNote": "On the under-owned-bottleneck master list the scale-out optics thesis strengthened: CHIPS-funded capacity addition (June 16) attacks the exact lasers/components execution risk the listing flags, with ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the under-owned-bottleneck master list the scale-out optics thesis strengthened: CHIPS-funded capacity addition (June 16) attacks the exact lasers/components execution risk the listing flags, with NVIDIA validation extending visibility to 2028."
+   }
+  }
+ ]
+}

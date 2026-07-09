@@ -1,0 +1,31 @@
+{
+ "symbol": "ENA.V",
+ "asOf": "2026-07-09",
+ "company": "Enablence Technologies",
+ "currency": "CAD",
+ "priceToday": 6.71,
+ "pricePrev": 10.4,
+ "moveSincePrevPct": -35.48,
+ "ytdReturnPct": 270.72,
+ "marketCapUsdB": 0.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/ENA.V/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 9,
+   "ticker": "ENA.V",
+   "company": "Enablence Technologies",
+   "score": 86.6,
+   "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+   "category": "Photonics / CPO",
+   "ytd": 270.72,
+   "mcapB": 0.13,
+   "risk": "Microcap/liquidity and single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Enablence Technologies should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 567.4% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 74 implies."
+   }
+  }
+ ]
+}

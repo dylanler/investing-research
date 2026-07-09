@@ -1,0 +1,32 @@
+{
+ "symbol": "IESC",
+ "asOf": "2026-07-09",
+ "company": "IES Holdings",
+ "currency": "USD",
+ "priceToday": 619.29,
+ "pricePrev": 737.02,
+ "moveSincePrevPct": -15.97,
+ "ytdReturnPct": 52.19,
+ "marketCapUsdB": 12.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/IESC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 72,
+   "ticker": "IESC",
+   "company": "IES Holdings",
+   "score": 63.0,
+   "thesis": "Electrical contracting is critical for data-center expansion; the small-cap angle is attractive but performance has already drawn attention.",
+   "theme": "Data Center Services",
+   "exchange": "NASDAQ",
+   "ytd": 52.19,
+   "conviction": "Medium",
+   "catalysts": "Data-center electrical projects; residential/commercial mix shift; margin strength.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 69 is 3 places better than displayed rank 72; adjusted score 62.6; YTD +80.6%; market cap $14.6B; IES Holdings remains tied to data center services through Electrical contracting and infrastructure services. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

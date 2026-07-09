@@ -1,0 +1,32 @@
+{
+ "symbol": "ESNT.L",
+ "asOf": "2026-07-09",
+ "company": "Essentra",
+ "currency": "GBp",
+ "priceToday": 81.747,
+ "pricePrev": 82.4,
+ "moveSincePrevPct": -0.79,
+ "ytdReturnPct": -14.85,
+ "marketCapUsdB": 0.32,
+ "quoteUrl": "https://finance.yahoo.com/quote/ESNT.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 57,
+   "ticker": "ESNT.L",
+   "company": "Essentra",
+   "score": 66.0,
+   "thesis": "A catalogue of components, caps, fasteners and protection products could matter in modular hardware/facility supply chains",
+   "theme": "Industrial components",
+   "exchange": "LSE",
+   "regionRank": "Non-US#25",
+   "ytd": -14.85,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Only governance housekeeping since June 9 (NED appointment Jun 16, TR-1 Jun 10) - immaterial to the components/protection latent-node thesis. Boteco deal and AGM update predate the window. -1.4% drift on a -14% YTD base leaves the strict-screen setup unchanged. Hold."
+   }
+  }
+ ]
+}

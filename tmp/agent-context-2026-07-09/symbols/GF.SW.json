@@ -1,0 +1,32 @@
+{
+ "symbol": "GF.SW",
+ "asOf": "2026-07-09",
+ "company": "Georg Fischer",
+ "currency": "CHF",
+ "priceToday": 43.62,
+ "pricePrev": 42.5,
+ "moveSincePrevPct": 2.64,
+ "ytdReturnPct": -19.15,
+ "marketCapUsdB": 4.58,
+ "quoteUrl": "https://finance.yahoo.com/quote/GF.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 51,
+   "ticker": "GF.SW",
+   "company": "Georg Fischer",
+   "score": 66.7,
+   "thesis": "Piping and flow solutions could map into industrial coolant/water networks if hyperscale standards spill into adjacent markets",
+   "theme": "Flow solutions",
+   "exchange": "SIX",
+   "regionRank": "Non-US#23",
+   "ytd": -19.15,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The polymer-piping-into-direct-liquid-cooling pathway (LiquidCore, GF+Rittal high-density DC reference) is intact, but those disclosures are Feb-Mar 2026 and predate June 9, so they are not new evidence. -21% YTD keeps asymmetry attractive; flat price, nothing genuinely new this period. June 9 hold stands."
+   }
+  }
+ ]
+}

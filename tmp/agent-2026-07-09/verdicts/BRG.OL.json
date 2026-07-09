@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 70. July context shows score 64.6, move since prior +4.2%, YTD -23.6%, market cap $1.53B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Specialty cellulose/biopolymers could feed binders, dispersants and sustainable process chemistry in advanced manufacturing.",
+      "neutral": "BioSolutions volume growth steady but AI linkage is highly indirect.",
+      "bear": "Softer Q1, BioMaterials pricing pressure on mix; no AI-specific demand driver.",
+      "primaryCatalyst": "Evidence of biopolymer use in AI-supply-chain process chemistry.",
+      "primaryRisk": "Pricing/mix pressure with no AI-linked demand catalyst."
+    }
+  ],
+  "symbol": "BRG.OL",
+  "company": "Borregaard",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Borregaard valuation after 2026 sales volume guidance (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/no/materials/ob-brg/borregaard-shares/news/a-look-at-borregaard-obbrg-valuation-after-detailed-2026-sal"
+    },
+    {
+      "label": "Borregaard valuation after softer Q1 earnings (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/borregaard-ob-brg-valuation-softer-151306554.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BRG.OL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "BRG.OL quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BRG.OL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Borregaard (BRG.OL) across latent-ai-nodes-strict: market cap $1.53B, move since prior +4.2%, YTD -23.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

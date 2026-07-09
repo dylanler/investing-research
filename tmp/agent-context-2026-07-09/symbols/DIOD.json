@@ -1,0 +1,47 @@
+{
+ "symbol": "DIOD",
+ "asOf": "2026-07-09",
+ "company": "Diodes Incorporated",
+ "currency": "USD",
+ "priceToday": 92.77,
+ "pricePrev": 113.25,
+ "moveSincePrevPct": -18.08,
+ "ytdReturnPct": 80.38,
+ "marketCapUsdB": 4.79,
+ "quoteUrl": "https://finance.yahoo.com/quote/DIOD/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 90,
+   "ticker": "DIOD",
+   "company": "Diodes Inc.",
+   "score": 43.9,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 80.38,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Diodes Inc. should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 103.5% YTD and $4.3B market cap worsen the asymmetry."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 116,
+   "ticker": "DIOD",
+   "company": "Diodes Incorporated",
+   "score": 29.6,
+   "thesis": "Low direct CPO link.",
+   "category": "Discrete/analog",
+   "ytd": 80.38,
+   "mcapB": 4.79,
+   "risk": "Broad-cycle exposure",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Diodes Incorporated should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 103.5% YTD and $4.3B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

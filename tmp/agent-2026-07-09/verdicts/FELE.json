@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 16. July context shows score 71.7, move since prior -2.9%, YTD +4.4%, market cap $4.65B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "CDU/liquid-cooling line for data centers; record 2026 capex +20%; $160M new-product revenue target by 2028 with data-center channel growth.",
+      "neutral": "Data-center revenue still nascent vs. core water/fueling base; +8% YTD; conference disclosure already priced.",
+      "bear": "Cyclical groundwater/fueling demand; CDU is small and unproven contributor; tariff/ag headwinds.",
+      "primaryCatalyst": "Oklahoma CDU ramp orders; Q2 print",
+      "primaryRisk": "Core pumping demand softness and slow CDU uptake"
+    }
+  ],
+  "symbol": "FELE",
+  "company": "Franklin Electric",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Franklin Electric talks data-center liquid cooling (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-electric-talks-growth-margin-003834690.html"
+    },
+    {
+      "label": "Franklin Electric $100 PT maintained, DA Davidson (Investing.com)",
+      "url": "https://m.in.investing.com/news/stock-market-news/franklin-electric-stock-price-target-maintained-at-100-by-da-davidson-93CH-5457535"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/FELE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "FELE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/FELE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Franklin Electric (FELE) across latent-ai-nodes-strict: market cap $4.65B, move since prior -2.9%, YTD +4.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

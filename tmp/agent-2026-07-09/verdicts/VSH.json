@@ -1,0 +1,77 @@
+{
+  "symbol": "VSH",
+  "company": "Vishay Intertechnology",
+  "caseDate": "2026-07-09",
+  "newsSince": "-29.1% since prior, +175.9% YTD. July 9 context refresh for Vishay Intertechnology (VSH) across latent-ai-nodes: market cap $6.47B, move since prior -29.1%, YTD +175.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "VSH Q1'26 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000103730/000010373026000037/exhibit99-1.htm"
+    },
+    {
+      "label": "VSH EV power launches (Jun 18)",
+      "url": "https://www.timothysykes.com/news/vishay-intertechnology-inc-vsh-news-2026_06_18/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/VSH/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "VSH quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/VSH/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 89,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.72,
+      "rankRationale": "The broad MLCC/passives shortage plus a large pullback improves the risk/reward for a lower-ranked power-delivery name.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -29.1%, YTD +175.9%, market cap about $6.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 45. July context shows score 68.7, move since prior -29.1%, YTD +175.9%, market cap $6.47B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Broad power-component breadth makes Vishay a near-unavoidable node in AI server PDN and EV power stacks.",
+      "neutral": "Central but commoditized node; cyclical normalization, not a step-change. No new info.",
+      "bear": "Mundane-passives exposure is indirect AI leverage; cyclicality and pricing keep it medium-conviction.",
+      "primaryCatalyst": "Power-electronics demand and inventory normalization",
+      "primaryRisk": "Cyclical pricing/inventory swings"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 8,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.76,
+      "rankRationale": "The AI/passives backlog thesis is intact, but July brought real capital-structure overhang: the $750M equity raise and 2030 converts becoming eligible for conversion explain the -29% move and make the drawdown less clean as an alpha-restoring flush. Move down despite strong book-to-bill.",
+      "bull": "1.34x book-to-bill and $1.6B backlog confirm structural passives demand into AI/EV power chains; capacity adds support margin recovery.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 8, score 72.3, -29.1% since prior, +175.9% YTD.",
+      "bear": "Crowded after +291% YTD; coverage erodes 'underfollowed' edge and margins remain well below 31-33% targets.",
+      "primaryCatalyst": "Q2 print confirming backlog conversion and margin recovery",
+      "primaryRisk": "Tariff/materials cost pressure capping margin targets"
+    }
+  ]
+}

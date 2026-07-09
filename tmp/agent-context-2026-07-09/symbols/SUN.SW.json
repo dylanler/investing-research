@@ -1,0 +1,32 @@
+{
+ "symbol": "SUN.SW",
+ "asOf": "2026-07-09",
+ "company": "Sulzer",
+ "currency": "CHF",
+ "priceToday": 138.7,
+ "pricePrev": 140.6,
+ "moveSincePrevPct": -1.35,
+ "ytdReturnPct": -8.63,
+ "marketCapUsdB": 5.79,
+ "quoteUrl": "https://finance.yahoo.com/quote/SUN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 23,
+   "ticker": "SUN.SW",
+   "company": "Sulzer",
+   "score": 70.6,
+   "thesis": "Pumping, mixing, separation and purification could transfer into coolant quality, water reuse and process-control niches",
+   "theme": "Fluid engineering",
+   "exchange": "SIX",
+   "regionRank": "Non-US#11",
+   "ytd": -8.63,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens needs concrete evidence the fluid-engineering franchise actually plumbs into AI coolant/water-reuse/process-control. None has emerged since June 9; -5.6% drift on no news. Un-rerated speculative setup intact, hold."
+   }
+  }
+ ]
+}

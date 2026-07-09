@@ -1,0 +1,35 @@
+{
+  "symbol": "ARBE",
+  "company": "Arbe Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Arbe Robotics (ARBE) now screens at $0.09B market cap, +1.6% since the prior refresh and -40.7% YTD. Page thesis remains: Tiny public float exposure to radar perception. Not a pure humanoid supplier yet, but radar redundancy becomes more valuable as robots leave controlled demos.",
+  "sources": [
+    {
+      "label": "ARBE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ARBE/"
+    },
+    {
+      "label": "Arbe + NVIDIA AI radar platform (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/arbe-combines-market-leading-radar-solution-with-powerful-nvidia-ai-computing-creating-advanced-platform-for-ai-based-driving-302652551.html"
+    },
+    {
+      "label": "Arbe Q1 2026 results / radar strategy (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/arbe-robotics-posts-q1-2026-revenue-jump-and-expands-radar-systems-strategy"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 1. July market-data refresh shows move since prior +1.6%, YTD -40.7%, market cap $0.09B. Thesis: Tiny public float exposure to radar perception. Not a pure humanoid supplier yet, but radar redundancy becomes more valuable as robots leave controlled demos.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Radar redundancy becomes essential as robots/AVs leave controlled demos; NVIDIA platform + China L4 win seed the chipset funnel.",
+      "neutral": "Real design wins but revenue still negligible; story-stock optionality at a sub-$100M cap.",
+      "bear": "No humanoid traction yet, cash burn, dilution risk; -42% YTD signals fading patience.",
+      "primaryCatalyst": "Conversion of NVIDIA/Hirain design wins into chipset SOP volume (Dec 2026).",
+      "primaryRisk": "Cash burn and dilution at a micro-cap with negligible revenue."
+    }
+  ]
+}

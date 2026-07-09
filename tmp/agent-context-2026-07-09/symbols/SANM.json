@@ -1,0 +1,32 @@
+{
+ "symbol": "SANM",
+ "asOf": "2026-07-09",
+ "company": "SANM",
+ "currency": "USD",
+ "priceToday": 209.56,
+ "pricePrev": 250.55,
+ "moveSincePrevPct": -16.36,
+ "ytdReturnPct": 31.56,
+ "marketCapUsdB": 11.23,
+ "quoteUrl": "https://finance.yahoo.com/quote/SANM/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 30,
+   "ticker": "SANM",
+   "company": "Sanmina",
+   "score": 47.8,
+   "thesis": "Cluster-scale AI/cloud manufacturing and integration; tight-supply, direct-AI, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: SANM",
+   "ytd": 31.56,
+   "mcapB": 11.23,
+   "revisionNote": "A -5.26% one-day sell-off driven purely by the 30-year yield breaching 5% — not by any crack in the AI/cloud integration thesis — trims the rerating premium this alpha page penalizes and modestly improves entry asymmetry versus yesterday's hold at a higher price.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Cluster-scale AI/cloud integration thesis intact since June 9; no new filing or guidance. The raised FY26 guide and ZT ramp predate the base case and are already in. +3% drift is flow, not new alpha. Q3 print (June 27) is the next event. Hold the rerated benchmark."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "SEM.VI",
+ "asOf": "2026-07-09",
+ "company": "Semperit",
+ "currency": "EUR",
+ "priceToday": 14.85,
+ "pricePrev": 15.2,
+ "moveSincePrevPct": -2.3,
+ "ytdReturnPct": 20.73,
+ "marketCapUsdB": 0.35,
+ "quoteUrl": "https://finance.yahoo.com/quote/SEM.VI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 79,
+   "ticker": "SEM.VI",
+   "company": "Semperit",
+   "score": 63.5,
+   "thesis": "Industrial hoses and elastomer products could be adapted for fluid loops, sealing and vibration control",
+   "theme": "Elastomers/hoses",
+   "exchange": "Vienna",
+   "regionRank": "Non-US#43",
+   "ytd": 20.73,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Confirms the June 9 down case: B&C tender settled at 63.4%, no extension, by June 26. With a controlling owner consolidating and the float thinning, the latent elastomer/cooling-loop optionality is being cashed out from minorities; near-term upside capped at the EUR15 deal level. No AI fluid-loop evidence emerged. Edge it lower on a strict latent screen."
+   }
+  }
+ ]
+}

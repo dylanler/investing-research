@@ -1,0 +1,59 @@
+{
+  "symbol": "VECO",
+  "company": "Veeco Instruments",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 1 hold (+1); down 27.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Veeco $250M+ AI datacom laser tool orders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/veeco-instruments-veco-15-8-141630416.html"
+    },
+    {
+      "label": "Veeco Q1 2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000103145/000110465926055640/veco-20260505xex99d1.htm"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "VECO Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/VECO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Veeco Instruments through Compound / equipment; Small-cap picks-and-shovels exposure to compound semis, photonics and advanced packaging. The stock is down 27.0% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Dominant ion-beam/MOCVD tools for InP laser capacity; >$250M booked orders ramp into 2027 as hyperscalers shift to optical interconnects.",
+      "neutral": "Strong CPO-adjacent franchise but order book already disclosed; needs follow-on bookings to re-rate further.",
+      "bear": "Tool-cycle cyclicality and customer concentration; +145% YTD already prices much of the upside.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Tool cycle and concentration"
+    }
+  ]
+}

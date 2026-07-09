@@ -1,0 +1,31 @@
+{
+ "symbol": "CEVA",
+ "asOf": "2026-07-09",
+ "company": "CEVA",
+ "currency": "USD",
+ "priceToday": 44.56,
+ "pricePrev": 46.38,
+ "moveSincePrevPct": -3.92,
+ "ytdReturnPct": 98.75,
+ "marketCapUsdB": 1.24,
+ "quoteUrl": "https://finance.yahoo.com/quote/CEVA/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 110,
+   "ticker": "CEVA",
+   "company": "CEVA",
+   "score": 34.4,
+   "thesis": "Small IP company; not CPO-related.",
+   "category": "IP/connectivity",
+   "ytd": 98.75,
+   "mcapB": 1.24,
+   "risk": "IP adoption volatility",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "CEVA should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 103.7% YTD and $1.3B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

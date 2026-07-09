@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 73. July context shows score 64.3, move since prior -0.9%, YTD +14.2%, market cap $12.41B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "High-reliability sensing/fluid/valve tech could migrate into datacenter cooling/control niches.",
+      "neutral": "Solid industrial with raised guide but only tangential, speculative AI linkage.",
+      "bear": "No direct AI-node exposure; inclusion rests on cross-pollination that hasn't materialized.",
+      "primaryCatalyst": "Potential cooling/control cross-pollination (unrealized)",
+      "primaryRisk": "Thesis stays speculative; no AI catalyst"
+    }
+  ],
+  "symbol": "CR",
+  "company": "Crane Company",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Crane Q1 2026 earnings / guidance raise (gurufocus)",
+      "url": "https://www.gurufocus.com/news/8825860/crane-co-cr-q1-2026-earnings-call-highlights-strong-sales-growth-and-raised-eps-guidance-amid-challenges"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/CR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "CR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/CR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Crane Company (CR) across latent-ai-nodes-strict: market cap $12.41B, move since prior -0.9%, YTD +14.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "6146.T",
+ "asOf": "2026-07-09",
+ "company": "Disco",
+ "currency": "JPY",
+ "priceToday": 71510.0,
+ "pricePrev": 82870.0,
+ "moveSincePrevPct": -13.71,
+ "ytdReturnPct": 39.94,
+ "marketCapUsdB": 48.09,
+ "quoteUrl": "https://finance.yahoo.com/quote/6146.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 28,
+   "ticker": "6146.T",
+   "company": "Disco",
+   "score": 65.4,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "OSAT / packaging",
+   "ytd": 39.94,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Node-centrality unchanged: near-monopoly dicing/grinding remains a real AI-node choke point feeding HBM thinning and chiplet packaging, and HBM4 scaling supports recurring blade revenue. A +15.9% flow-driven pop with no new fundamentals does not move the node rank; YTD now 62% leaves little re-rate room."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 68,
+   "ticker": "6146.T",
+   "company": "Disco",
+   "score": 55.8,
+   "thesis": "Critical for thinning/dicing advanced packages and photonics, but well recognized.",
+   "category": "Packaging / equipment",
+   "ytd": 39.94,
+   "mcapB": 48.09,
+   "risk": "High expectations",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On this crowding-sensitive list Disco is already flagged 'well recognized / high expectations.' A +15.9% no-news rally with YTD swelling to 62% and no fresh CPO/photonics-dicing evidence keeps eroding residual alpha, extending the prior down-move on positioning rather than thesis change."
+   }
+  }
+ ]
+}

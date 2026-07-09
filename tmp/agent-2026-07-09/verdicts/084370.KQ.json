@@ -1,0 +1,59 @@
+{
+  "symbol": "084370.KQ",
+  "company": "Eugene Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 38 up (+3); down 9.3% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Korea chip-equipment rally on HBM/DRAM capex (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/06/04/chip-equipment-stocks-surge-as-samsung-sk-hynix-take-a"
+    },
+    {
+      "label": "Eugene Technology profile/financials (stockanalysis)",
+      "url": "https://stockanalysis.com/quote/kosdaq/084370/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "084370.KQ Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/084370.KQ/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 38,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.82,
+      "rankRationale": "Move up: AI-node bottleneck lens rewards direct bottleneck exposure, and Eugene Technology combines levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. with improved entry after a -9.3% post-refresh move. Score bump is capped by +71.7% YTD and wafer fab equipment.",
+      "bull": "Sole-source deposition furnaces levered directly to Korean memory/HBM capex acceleration; order momentum should follow capex.",
+      "neutral": "Move is largely sector flow; no company order yet and +89% YTD compresses upside.",
+      "bear": "Memory-capex timing risk and export-control overhang; concentrated Samsung/SK hynix customer base.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Order timing and memory cycle/export controls"
+    }
+  ]
+}

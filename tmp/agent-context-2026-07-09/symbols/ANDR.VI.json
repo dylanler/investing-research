@@ -1,0 +1,32 @@
+{
+ "symbol": "ANDR.VI",
+ "asOf": "2026-07-09",
+ "company": "Andritz",
+ "currency": "EUR",
+ "priceToday": 72.4,
+ "pricePrev": 79.2,
+ "moveSincePrevPct": -8.59,
+ "ytdReturnPct": 8.46,
+ "marketCapUsdB": 8.31,
+ "quoteUrl": "https://finance.yahoo.com/quote/ANDR.VI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 84,
+   "ticker": "ANDR.VI",
+   "company": "Andritz",
+   "score": 63.0,
+   "thesis": "Hydro, pumps, process automation and industrial systems could help constrained power/water ecosystems outside direct AI hardware",
+   "theme": "Process/hydro systems",
+   "exchange": "Vienna",
+   "regionRank": "Non-US#45",
+   "ytd": 8.46,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: no new evidence since June 9 connecting Andritz's hydro/pumps/process-automation to constrained datacenter power/water. Recent hydro orders predate the window and were in Q1 intake. +3.8% drift is flow. Hold at 84 on this demanding screen."
+   }
+  }
+ ]
+}

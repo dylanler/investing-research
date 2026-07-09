@@ -1,0 +1,50 @@
+{
+ "symbol": "WTS",
+ "asOf": "2026-07-09",
+ "company": "Watts Water Technologies",
+ "currency": "USD",
+ "priceToday": 348.05,
+ "pricePrev": 348.98,
+ "moveSincePrevPct": -0.27,
+ "ytdReturnPct": 24.94,
+ "marketCapUsdB": 11.93,
+ "quoteUrl": "https://finance.yahoo.com/quote/WTS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 29,
+   "ticker": "WTS",
+   "company": "Watts Water Technologies",
+   "score": 72.9,
+   "thesis": "AI data centers need water stewardship and thermal control; Watts is a quiet water/flow control compounder.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": 24.94,
+   "conviction": "Medium",
+   "catalysts": "Data-center water constraints; smart valve/sensor adoption; building efficiency regulation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 24 is 8 places worse than displayed rank 16; adjusted score 73.0; YTD +13.2%; market cap $9.9B; Watts Water Technologies remains tied to thermal & water through Valves, sensors and water/thermal controls. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 41,
+   "ticker": "WTS",
+   "company": "Watts Water Technologies",
+   "score": 68.0,
+   "thesis": "Valves, backflow prevention, drainage, water quality and HVAC/hot water controls could be adapted for high-density facility water management",
+   "theme": "Flow/water safety",
+   "exchange": "NYSE",
+   "regionRank": "US#23",
+   "ytd": 24.94,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict adapted-use screen (valves/backflow/drainage/water-quality adapted to high-density facility water mgmt): the adapted-use evidence is unchanged since June 9 - June commentary is reiteration, not a new strict-pathway proof point. Hold stands."
+   }
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "symbol": "PI",
+  "company": "Impinj",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 107 hold (+0); up 13.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Impinj Q1 2026 / Q2 guidance 8-K (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/PI/8-k-impinj-inc-reports-material-event-be2f95e75e8f.html"
+    },
+    {
+      "label": "Impinj (PI) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PI/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "PI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/PI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 107,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Impinj through RFID/edge; Different AI/IoT edge theme; not CPO. The stock is up 13.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Record endpoint-IC bookings and Gen2X ramp support an H2 profit inflection; -29% YTD lowers the bar.",
+      "neutral": "No fresh catalyst; off-theme for the co-packaged-optics bottleneck screen.",
+      "bear": "Not a CPO/HBM/packaging bottleneck name; retail/logistics RFID adoption and demand visibility remain weak.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Retail/logistics adoption"
+    }
+  ]
+}

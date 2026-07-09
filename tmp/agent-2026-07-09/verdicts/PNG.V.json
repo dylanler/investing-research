@@ -1,0 +1,35 @@
+{
+  "symbol": "PNG.V",
+  "company": "Kraken Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Kraken Robotics (PNG.V) now screens at $1.32B market cap, -17.0% since the prior refresh and -10.9% YTD. Page thesis remains: Autonomous sensing and robotics systems",
+  "sources": [
+    {
+      "label": "PNG.V quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/PNG.V/"
+    },
+    {
+      "label": "Kraken Robotics $35M SeaPower battery sales (Jan 2026)",
+      "url": "https://www.krakenrobotics.com/news-releases/kraken-robotics-announces-35-million-in-seapower-battery-sales/"
+    },
+    {
+      "label": "Kraken Robotics press releases",
+      "url": "https://www.krakenrobotics.com/press-releases/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 21. July market-data refresh shows move since prior -17.0%, YTD -10.9%, market cap $1.32B. Thesis: Autonomous sensing and robotics systems. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "35% YoY Q1 revenue growth, $165-175M FY26 guide, subsea battery/SAS demand plus Covelya scale-up; defense UUV tailwind.",
+      "neutral": "Solid execution but physical-AI/scaling link is indirect; no new datapoint moves the thesis this cycle.",
+      "bear": "Modest +7% YTD, integration risk on $615M Covelya deal; lumpy defense order timing.",
+      "primaryCatalyst": "Covelya close (end-Q2) and continued SeaPower/UUV order momentum.",
+      "primaryRisk": "Acquisition integration and order lumpiness ahead of Aug 20 print."
+    }
+  ]
+}

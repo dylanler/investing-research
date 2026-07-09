@@ -1,0 +1,32 @@
+{
+ "symbol": "SFSN.SW",
+ "asOf": "2026-07-09",
+ "company": "SFS Group",
+ "currency": "CHF",
+ "priceToday": 133.0,
+ "pricePrev": 133.6,
+ "moveSincePrevPct": -0.45,
+ "ytdReturnPct": 17.49,
+ "marketCapUsdB": 6.48,
+ "quoteUrl": "https://finance.yahoo.com/quote/SFSN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 67,
+   "ticker": "SFSN.SW",
+   "company": "SFS Group",
+   "score": 65.0,
+   "thesis": "Precision fasteners and components could support compact mechanical assemblies and automation hardware",
+   "theme": "Precision fasteners",
+   "exchange": "SIX",
+   "regionRank": "Non-US#32",
+   "ytd": 17.49,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Same as June 9: no material news, the precision-fasteners-into-automation-hardware case is unchanged. Harald Zahn deal (Apr 1) and UBS Buy predate the base case; H1 print not yet out. +5.7% is no-news drift. No basis to re-rank on a strict latent screen; hold at #67."
+   }
+  }
+ ]
+}

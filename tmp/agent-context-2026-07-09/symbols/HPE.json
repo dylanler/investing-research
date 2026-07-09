@@ -1,0 +1,32 @@
+{
+ "symbol": "HPE",
+ "asOf": "2026-07-09",
+ "company": "Hewlett Packard Enterprise",
+ "currency": "USD",
+ "priceToday": 44.67,
+ "pricePrev": 49.615,
+ "moveSincePrevPct": -9.97,
+ "ytdReturnPct": 84.82,
+ "marketCapUsdB": 59.15,
+ "quoteUrl": "https://finance.yahoo.com/quote/HPE/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 77,
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise",
+   "score": 15.9,
+   "thesis": "AI server and networking platform; AI-adjacent.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: HPE",
+   "ytd": 84.82,
+   "mcapB": 59.15,
+   "revisionNote": "Two-day, ~13% flow-driven dump (-27% from the June 2 high) with the fundamental thesis actually strengthened by the FQ2 guidance raise improves residual asymmetry versus yesterday's hold, which predated today's leg down. Still only a modest up: on a passives-alpha lens HPE remains a fully discovered",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the residual-alpha-vs-passives lens, Discover 2026's Juniper AI-networking stack and raised $1.7-1.9B Networks-for-AI target plus >$5B AI backlog strengthen the thesis, but HPE remains a fully discovered, crowded +104% YTD AI-server trade far from the passive/power bottleneck core. Constructive fundamentals, but little residual alpha left; hold with a small positive delta."
+   }
+  }
+ ]
+}

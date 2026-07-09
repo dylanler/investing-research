@@ -1,0 +1,32 @@
+{
+ "symbol": "MELE.BR",
+ "asOf": "2026-07-09",
+ "company": "Melexis",
+ "currency": "EUR",
+ "priceToday": 77.1,
+ "pricePrev": 81.25,
+ "moveSincePrevPct": -5.11,
+ "ytdReturnPct": 31.23,
+ "marketCapUsdB": 3.54,
+ "quoteUrl": "https://finance.yahoo.com/quote/MELE.BR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 69,
+   "ticker": "MELE.BR",
+   "company": "Melexis",
+   "score": 64.7,
+   "thesis": "Magnetic/current/position sensor ICs for automotive could be repurposed for power and thermal sensing, but not AI accelerators",
+   "theme": "Automotive sensors",
+   "exchange": "Euronext Brussels",
+   "regionRank": "Non-US#34",
+   "ytd": 31.23,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-AI-nodes screen: thesis explicitly stops short of AI accelerators. Only event is a routine PCIM 2026 sensor showcase, no fundamental shift. Prior case already reconciled the rank down; moving again is churn."
+   }
+  }
+ ]
+}

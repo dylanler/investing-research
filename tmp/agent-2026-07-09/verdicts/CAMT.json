@@ -1,0 +1,97 @@
+{
+  "symbol": "CAMT",
+  "company": "Camtek",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 5 hold (+0); down 18.2% since the prior refresh. semiconductor-ai-nodes: rank 3 hold (+0); down 18.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for CAMT",
+      "url": "https://finance.yahoo.com/quote/CAMT/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Camtek $105M+ multi-system OSAT/HBM orders (Jun 2, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-osat-and-a-leading-hbm-manufacturer-302788351.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "CAMT Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/CAMT/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Advanced-packaging inspection remains scarce and the July selloff improves entry, but rank 2 already reflects the bottleneck; hold rather than force a top-slot reshuffle.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior -18.2%, YTD +21.3%, market cap about $6.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Camtek through Metrology / inspection; Smaller inspection beneficiary of advanced packaging/AI chiplet complexity. The stock is down 18.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Best-positioned small-cap inspection name as chiplet/CPO complexity raises metrology intensity per package.",
+      "neutral": "Order spike has been digested; thesis intact but no fresh catalyst since June 9.",
+      "bear": "Rank 1 leaves no headroom; cyclical packaging capex could compress orders.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Advanced packaging capex cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Camtek through wafer fab equipment; picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps. The stock is down 18.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "$105M HBM/OSAT 2027 backlog confirms Hawk is designed-in at advanced-packaging chokepoints; smaller-cap leverage to AI attach.",
+      "neutral": "Strong order but already announced and largely priced; awaiting next datapoint.",
+      "bear": "Advanced-packaging capex is cyclical and customer-concentrated; +48% YTD leaves less margin of safety.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Advanced-packaging capex cycle / customer concentration"
+    }
+  ]
+}

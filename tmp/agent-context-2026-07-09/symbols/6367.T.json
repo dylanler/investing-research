@@ -1,0 +1,30 @@
+{
+ "symbol": "6367.T",
+ "asOf": "2026-07-09",
+ "company": "Daikin Industries",
+ "currency": "JPY",
+ "priceToday": 25175.0,
+ "pricePrev": 23630.0,
+ "moveSincePrevPct": 6.54,
+ "ytdReturnPct": 24.32,
+ "marketCapUsdB": 45.12,
+ "quoteUrl": "https://finance.yahoo.com/quote/6367.T/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 8,
+   "ticker": "6367",
+   "company": "Daikin Industries",
+   "score": 83.6,
+   "thesis": "Infrastructure bottleneck exposure. Negative ytd reset; watch hvac and thermal systems execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 24.32,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: cooling/thermal exposure is real but the DC-cooling narrative (FUSION30, Chilldyne, CDU, dedicated DC unit) is now consensus at a $42B cap. No new catalyst since June 9; residual alpha keeps eroding without justifying a rank cut. Mild negative delta, hold rank 5."
+   }
+  }
+ ]
+}

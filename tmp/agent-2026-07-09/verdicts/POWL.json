@@ -1,0 +1,64 @@
+{
+  "symbol": "POWL",
+  "company": "POWL",
+  "caseDate": "2026-07-09",
+  "newsSince": "-23.0% since prior, +97.3% YTD. July 9 context refresh for POWL (POWL) across latent-ai-nodes: market cap $9.04B, move since prior -23.0%, YTD +97.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Powell Q2 FY26 8-K earnings (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000080420/000008042026000063/ex991-powlq2xfy2026earning.htm"
+    },
+    {
+      "label": "Powell $400M+ data-center mega order (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4586469-powell-outlines-70m-100m-capacity-option-as-it-lands-400m-data-center-mega-order"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/POWL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "POWL quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/POWL/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 37. July context shows score 71.1, move since prior -23.0%, YTD +97.3%, market cap $9.04B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Direct switchgear bottleneck in data-center power delivery; record orders/backlog and capacity-add optionality.",
+      "neutral": "Real exposure but increasingly well-covered; latent-alpha edge eroding as story becomes consensus.",
+      "bear": "+157% YTD lowers fresh alpha; cyclical end-markets and lumpy mega-order timing.",
+      "primaryCatalyst": "Behind-the-meter on-site generation/electrical-room orders for AI sites.",
+      "primaryRisk": "Reduced under-coverage; valuation and order cadence."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 44. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -23.0% since the prior refresh, +97.3% YTD. Prior frame: On this crowding-sensitive list, record backlog and the $400M+ data-center order are already known and the +157% YTD rerating has consumed most residual alpha (crowded/rerated bucket). No new catalyst since June 9; prior small nudge up stands. Hold at 47.",
+      "bull": "Record $1.8B backlog, $400M+ data-center mega order through FY28; switchgear bottleneck for AI power buildouts.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 44, score 36.0, -23.0% since prior, +97.3% YTD.",
+      "bear": "Crowded, fully-priced; order timing/capacity-expansion execution and project lumpiness.",
+      "primaryCatalyst": "Data-center electrical-room backlog conversion and capacity expansion.",
+      "primaryRisk": "Valuation/crowding and project execution after large rerating."
+    }
+  ]
+}

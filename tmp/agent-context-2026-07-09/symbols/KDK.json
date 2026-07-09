@@ -1,0 +1,27 @@
+{
+ "symbol": "KDK",
+ "asOf": "2026-07-09",
+ "company": "Kodiak AI",
+ "currency": "USD",
+ "priceToday": 5.09,
+ "pricePrev": 5.96,
+ "moveSincePrevPct": -14.6,
+ "ytdReturnPct": -53.0,
+ "marketCapUsdB": 1.03,
+ "quoteUrl": "https://finance.yahoo.com/quote/KDK/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 13,
+   "ticker": "KDK",
+   "company": "Kodiak AI",
+   "score": 72.6,
+   "thesis": "Not humanoid, but a useful proxy for real-world autonomy under industrial constraints.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #17 and alpha score 78. Should move down because $1.3B cap, -40.5% YTD, Warehouse purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

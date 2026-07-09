@@ -1,0 +1,47 @@
+{
+ "symbol": "TSEM",
+ "asOf": "2026-07-09",
+ "company": "Tower Semiconductor",
+ "currency": "USD",
+ "priceToday": 216.7,
+ "pricePrev": 285.17,
+ "moveSincePrevPct": -24.01,
+ "ytdReturnPct": 78.0,
+ "marketCapUsdB": 26.07,
+ "quoteUrl": "https://finance.yahoo.com/quote/TSEM/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 14,
+   "ticker": "TSEM",
+   "company": "Tower Semiconductor",
+   "score": 72.2,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 78.0,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "AI-node tollgate lens strengthens materially: InP epiwafer supply secured (IQE) plus 5M coherent-PIC volume shipped with Marvell for AI DCI validate Tower as a real optical-connectivity manufacturing node, on top of $1.3B 2027 contracted SiPho revenue and $290M prepayments. Fundamental step-up, move up."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 45,
+   "ticker": "TSEM",
+   "company": "Tower Semiconductor",
+   "score": 68.2,
+   "thesis": "Specialty foundry processes can host photonics/RF/analog blocks for optical modules.",
+   "category": "Foundry / specialty",
+   "ytd": 78.0,
+   "mcapB": 26.07,
+   "risk": "Specialty foundry cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/crowding lens: the IQE deal and 5M-PIC milestone deepen the SiPho franchise, but the photonics story is already widely discovered (PT doublings, ATHs, +25% pop), compressing residual alpha. Genuine fundamental improvement nets to a hold with positive drift rather than a rank chase."
+   }
+  }
+ ]
+}

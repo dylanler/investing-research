@@ -1,0 +1,81 @@
+{
+ "symbol": "ON",
+ "asOf": "2026-07-09",
+ "company": "onsemi",
+ "currency": "USD",
+ "priceToday": 93.79,
+ "pricePrev": 118.42,
+ "moveSincePrevPct": -20.8,
+ "ytdReturnPct": 65.41,
+ "marketCapUsdB": 36.5,
+ "quoteUrl": "https://finance.yahoo.com/quote/ON/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 34,
+   "ticker": "ON",
+   "company": "ON Semiconductor",
+   "score": 41.9,
+   "thesis": "Broad power semiconductor leverage; tight-supply, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NASDAQ: ON",
+   "ytd": 65.41,
+   "mcapB": 36.5,
+   "revisionNote": "On a residual-alpha page, a -6.3% flow-driven flush paired with genuinely new power-bottleneck evidence (NVIDIA 800VDC collaboration, GaNEXUS launch) improves asymmetry versus rank-37 peers that only de-rated.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: the NVIDIA 800VDC + GaNEXUS power-bottleneck evidence that drove the prior up-move is now public and partly priced; the GaNEXUS launch (Jun 10) is only marginally incremental. With no new flush and asymmetry vs peers unchanged, hold rank 35."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 80,
+   "ticker": "ON",
+   "company": "ON Semiconductor",
+   "score": 48.8,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 65.41,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: the NVIDIA MGX/800VDC tie + GaNEXUS already lifted ON in the prior case as a directness upgrade. No new node-adjacency evidence since June 9; the directness gain is captured. ON remains analog/power, indirect to HBM/packaging. Hold 81."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 80,
+   "ticker": "ON",
+   "company": "onsemi",
+   "score": 51.0,
+   "thesis": "Power and industrial AI optionality but not CPO-focused.",
+   "category": "Power / SiC",
+   "ytd": 65.41,
+   "mcapB": 36.5,
+   "risk": "Auto/industrial cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: ON is power/SiC, not CPO. The June power news is orthogonal to optical interconnect, so it does not improve standing on this page. No new CPO-relevant evidence since June 9. Hold rank 84."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 71,
+   "ticker": "ON",
+   "company": "onsemi",
+   "score": 51.8,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch power semiconductors execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 65.41,
+   "auditNote": "This page's thesis is power-delivery content, and the NVIDIA 800VDC collaboration plus GaNEXUS launch is exactly that evidence arriving while the stock gives back 6.3% on macro flow - asymmetry improv",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: this page's thesis is power-delivery content, and the NVIDIA 800VDC + GaNEXUS evidence already drove the prior up-move. No genuinely new evidence since June 9; asymmetry vs peers is now neutral. Hold rank 71."
+   }
+  }
+ ]
+}

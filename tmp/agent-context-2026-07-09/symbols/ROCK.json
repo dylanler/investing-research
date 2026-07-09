@@ -1,0 +1,32 @@
+{
+ "symbol": "ROCK",
+ "asOf": "2026-07-09",
+ "company": "Gibraltar Industries",
+ "currency": "USD",
+ "priceToday": 41.26,
+ "pricePrev": 39.85,
+ "moveSincePrevPct": 3.54,
+ "ytdReturnPct": -17.71,
+ "marketCapUsdB": 1.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/ROCK/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 97,
+   "ticker": "ROCK",
+   "company": "Gibraltar Industries",
+   "score": 54.0,
+   "thesis": "Building, renewable and infrastructure products could be repurposed into non-obvious facility components",
+   "theme": "Infrastructure products",
+   "exchange": "NASDAQ",
+   "regionRank": "US#48",
+   "ytd": -17.71,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: nothing since June 9 strengthens or weakens the AI-node pathway. Gibraltar's renewables/infrastructure/building products show no evidence of repurposing into compute-facility components. Prior hold stands; YTD -20% drawdown is a separate price input."
+   }
+  }
+ ]
+}

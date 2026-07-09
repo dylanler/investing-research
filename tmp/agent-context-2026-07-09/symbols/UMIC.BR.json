@@ -1,0 +1,32 @@
+{
+ "symbol": "UMIC.BR",
+ "asOf": "2026-07-09",
+ "company": "Umicore",
+ "currency": "",
+ "priceToday": null,
+ "pricePrev": null,
+ "moveSincePrevPct": null,
+ "ytdReturnPct": null,
+ "marketCapUsdB": null,
+ "quoteUrl": "https://finance.yahoo.com/quote/UMIC.BR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 71,
+   "ticker": "UMIC.BR",
+   "company": "Umicore",
+   "score": 64.4,
+   "thesis": "Battery materials and recycling could become relevant to backup power and metal circularity without being current AI hardware",
+   "theme": "Battery/recycling materials",
+   "exchange": "Euronext Brussels",
+   "regionRank": "Non-US#36",
+   "ytd": null,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node screen: no fresh evidence since June 9 for the AI-power/metal-circularity pathway (guidance raise was April 30; recycling push is ongoing strategy). Battery materials remain a latent, non-AI-hardware tie. Hold on the strict screen."
+   }
+  }
+ ]
+}

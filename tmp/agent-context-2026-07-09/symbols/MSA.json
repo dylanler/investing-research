@@ -1,0 +1,32 @@
+{
+ "symbol": "MSA",
+ "asOf": "2026-07-09",
+ "company": "MSA Safety",
+ "currency": "USD",
+ "priceToday": 167.41,
+ "pricePrev": 164.6,
+ "moveSincePrevPct": 1.71,
+ "ytdReturnPct": 3.19,
+ "marketCapUsdB": 6.2,
+ "quoteUrl": "https://finance.yahoo.com/quote/MSA/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 39,
+   "ticker": "MSA",
+   "company": "MSA Safety",
+   "score": 68.0,
+   "thesis": "Gas detection, flame detection and worker safety could support critical compute/factory sites and autonomous-industrial safety",
+   "theme": "Safety sensors/PPE",
+   "exchange": "NYSE",
+   "regionRank": "US#22",
+   "ytd": 3.19,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent screen: gas/flame-detection AI-adjacency unchanged. No new news since June 9; Autronica fixed-detection deal already in the mark. Routine PPE/sensor name with a thin compute pathway, so hold rank 38."
+   }
+  }
+ ]
+}

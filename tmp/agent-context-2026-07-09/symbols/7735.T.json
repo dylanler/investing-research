@@ -1,0 +1,47 @@
+{
+ "symbol": "7735.T",
+ "asOf": "2026-07-09",
+ "company": "SCREEN Holdings",
+ "currency": "JPY",
+ "priceToday": 17750.0,
+ "pricePrev": 16150.0,
+ "moveSincePrevPct": 9.91,
+ "ytdReturnPct": 121.88,
+ "marketCapUsdB": 22.2,
+ "quoteUrl": "https://finance.yahoo.com/quote/7735.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 50,
+   "ticker": "7735.T",
+   "company": "SCREEN Holdings",
+   "score": 56.2,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 121.88,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: FY3/27 guidance reaffirming HBM/DDR/foundry capex keeps SCREEN a direct memory-capex beneficiary, a modest fundamental positive vs Jun 9. But the new US export-control legislative push (MATCH Act) is an emerging China-WFE risk; +102% YTD already prices the upside, so hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 34,
+   "ticker": "7735.T",
+   "company": "SCREEN Holdings",
+   "score": 72.6,
+   "thesis": "Cleaning/process complexity beneficiary; indirect CPO.",
+   "category": "Wafer equipment",
+   "ytd": 121.88,
+   "mcapB": 22.2,
+   "risk": "Capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "SCREEN Holdings should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 17, 47.0% YTD, $15.6B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

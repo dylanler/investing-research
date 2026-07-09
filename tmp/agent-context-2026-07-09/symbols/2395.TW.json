@@ -1,0 +1,32 @@
+{
+ "symbol": "2395.TW",
+ "asOf": "2026-07-09",
+ "company": "Advantech",
+ "currency": "TWD",
+ "priceToday": 540.0,
+ "pricePrev": 487.5,
+ "moveSincePrevPct": 10.77,
+ "ytdReturnPct": 88.48,
+ "marketCapUsdB": 13.41,
+ "quoteUrl": "https://finance.yahoo.com/quote/2395.TW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 92,
+   "ticker": "2395.TW",
+   "company": "Advantech",
+   "score": 56.9,
+   "thesis": "Edge AI needs rugged industrial computers; Advantech is well positioned, but it is already a recognized edge-computing supplier.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "TWSE",
+   "ytd": 88.48,
+   "conviction": "Medium",
+   "catalysts": "Edge AI boxes; factory IoT; industrial PC cycle recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 80 is 6 places worse than displayed rank 74; adjusted score 59.0; YTD +64.4%; market cap $13.7B; Advantech remains tied to industrial automation & robotics through Industrial computers, edge devices and IoT platforms. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

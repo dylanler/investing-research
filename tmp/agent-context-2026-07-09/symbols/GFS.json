@@ -1,0 +1,63 @@
+{
+ "symbol": "GFS",
+ "asOf": "2026-07-09",
+ "company": "GlobalFoundries",
+ "currency": "USD",
+ "priceToday": 67.97,
+ "pricePrev": 83.8,
+ "moveSincePrevPct": -18.89,
+ "ytdReturnPct": 84.35,
+ "marketCapUsdB": 37.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/GFS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 18,
+   "ticker": "GFS",
+   "company": "GlobalFoundries",
+   "score": 69.6,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 84.35,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "New evidence since June 9 strengthens the manufacturing-tollgate case: three AI-design/photonics/secure-EU-mfg partnerships, a $375M Commerce quantum LOI (with ~1% equity stake) and the closed Synopsys Processor IP deal broaden the node/IP moat. Modest up-tick; specialty (not leading-edge) foundry caps how high it sits in the node hierarchy."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 18,
+   "ticker": "GFS",
+   "company": "GlobalFoundries",
+   "score": 81.3,
+   "thesis": "Specialty foundry and silicon photonics-adjacent processes can benefit as optical engines scale.",
+   "category": "Foundry / specialty",
+   "ytd": 84.35,
+   "mcapB": 37.3,
+   "risk": "Utilization and foundry cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "CPO lens: a new explicit silicon-photonics partnership (alongside AI-design and secure-EU-mfg deals) directly reinforces GF's photonics-adjacent thesis for scaling optical engines. This is the kind of page-specific evidence that warrants a small positive move/score on the CPO list despite the prior hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 55,
+   "ticker": "GFS",
+   "company": "GlobalFoundries",
+   "score": 56.3,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch specialty foundry capacity execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 84.35,
+   "auditNote": "On the master list, the cluster of post-June-9 catalysts (quantum funding LOI + ~1% gov't stake, Synopsys IP close, three partnerships, first dividend) is genuinely new fundamental evidence improving ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the master list, the cluster of post-June-9 catalysts (quantum funding LOI + ~1% gov't stake, Synopsys IP close, three partnerships, first dividend) is genuinely new fundamental evidence improving the pick-and-shovel case, so a small up-move is warranted even after the ~127% YTD rerating, which the pipeline penalizes separately."
+   }
+  }
+ ]
+}

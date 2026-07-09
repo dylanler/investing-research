@@ -1,0 +1,27 @@
+{
+ "symbol": "TSLA",
+ "asOf": "2026-07-09",
+ "company": "Tesla",
+ "currency": "USD",
+ "priceToday": 394.06,
+ "pricePrev": 384.91,
+ "moveSincePrevPct": 2.38,
+ "ytdReturnPct": -10.05,
+ "marketCapUsdB": 1480.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/TSLA/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 41,
+   "ticker": "TSLA",
+   "company": "Tesla",
+   "score": 12.7,
+   "thesis": "Obvious humanoid narrative, not hidden alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #49 and alpha score 8. Should hold because $1.54T cap, -6.7% YTD, Builder purity, and commercialization evidence now matter more than generic humanoid beta. KOID influence: fund rank #26, 1.87% weight, Demoted, Direct humanoid. It is essential infrastructure exposure, but not a hidden-gem alpha expression."
+   }
+  }
+ ]
+}

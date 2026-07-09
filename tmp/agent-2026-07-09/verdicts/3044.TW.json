@@ -1,0 +1,72 @@
+{
+  "symbol": "3044.TW",
+  "company": "Tripod Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "-15.5% since prior, +43.5% YTD. Since the June 23 refresh, July market and web research updated the Advanced packaging & substrates thesis. For this stock, price moved -15.5% since the prior snapshot and YTD return is +43.5%; verdict: up with scoreDelta 3.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 3044.TW",
+      "url": "https://finance.yahoo.com/quote/3044.TW/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Apple/AI server demand power Tripod record 1Q26",
+      "url": "https://www.digitimes.com/news/a20260511VL212/tripod-pcb-ai-server-demand-apple.html"
+    },
+    {
+      "label": "Tripod 2026 capex for Vietnam/China expansion",
+      "url": "https://www.digitimes.com/news/a20260121PD242/tripod-pcb-vietnam-expansion-2026.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/3044.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 3,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "HDI/PCB packaging scarcity is confirmed and the sharp pullback restores some hidden-alpha asymmetry versus more discovered substrate peers.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior -15.5%, YTD +43.5%, market cap about $7.8B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 37. July context does not change the page placement: -15.5% since the prior refresh, +43.5% YTD. Prior frame: On the residual-alpha lens Tripod still screens as fundamentals-outrunning-recognition: server/networking PCB order-overflow and accelerating revenue confirm the tight-supply central-node thesis at a moderate +70% YTD. No genuinely new datapoint since the June-9 up-move, so hold with a small + as the thesis stays intact.",
+      "bull": "Server/AI + Apple PCB order overflow; record 1Q26; tight-supply central node, still under-followed.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 37, score 40.2, -15.5% since prior, +43.5% YTD.",
+      "bear": "Cyclical PCB exposure; momentum could fade if AI server build digests.",
+      "primaryCatalyst": "AI server/networking PCB tight supply and capacity expansion",
+      "primaryRisk": "PCB cycle / order-overflow normalization"
+    }
+  ]
+}

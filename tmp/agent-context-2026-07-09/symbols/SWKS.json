@@ -1,0 +1,47 @@
+{
+ "symbol": "SWKS",
+ "asOf": "2026-07-09",
+ "company": "Skyworks Solutions",
+ "currency": "USD",
+ "priceToday": 58.49,
+ "pricePrev": 72.905,
+ "moveSincePrevPct": -19.77,
+ "ytdReturnPct": -9.18,
+ "marketCapUsdB": 8.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/SWKS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 94,
+   "ticker": "SWKS",
+   "company": "Skyworks Solutions",
+   "score": 41.6,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": -9.18,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "AI-node bottleneck lens: SWKS has weak direct HBM/advanced-packaging/AI-networking relevance. June news is merger/financing flow, not AI-node evidence. Prior verdict already flagged for removal; stays at the bottom with mild negative drift."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 78,
+   "ticker": "SWKS",
+   "company": "Skyworks Solutions",
+   "score": 52.0,
+   "thesis": "Limited data-center optical/cable exposure.",
+   "category": "RF / analog",
+   "ytd": -9.18,
+   "mcapB": 8.87,
+   "risk": "Mobile concentration",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Skyworks Solutions should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 17.0% YTD and $11.3B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "symbol": "IMOS",
+ "asOf": "2026-07-09",
+ "company": "ChipMOS Technologies",
+ "currency": "USD",
+ "priceToday": 68.07,
+ "pricePrev": 65.935,
+ "moveSincePrevPct": 3.24,
+ "ytdReturnPct": 122.89,
+ "marketCapUsdB": 2.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/IMOS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 118,
+   "ticker": "IMOS",
+   "company": "ChipMOS Technologies",
+   "score": 25.3,
+   "thesis": "Small OSAT; low CPO-specific exposure.",
+   "category": "OSAT/Packaging",
+   "ytd": 122.89,
+   "mcapB": 2.29,
+   "risk": "Memory/display cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through a co-packaged-optics lens, ChipMOS has near-zero CPO exposure - it is memory/display OSAT. The +17.7% May revenue print is AI-memory driven, not optics-relevant, and the thesis already flags low CPO exposure. No CPO catalyst since June 9. Hold near the bottom."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 25,
+   "ticker": "IMOS",
+   "company": "ChipMOS Technologies",
+   "score": 42.8,
+   "thesis": "Backend packaging and test exposure",
+   "bucket": "semiconductors",
+   "ytd": 122.89,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 24 is 3 places better than displayed rank 27; adjusted score 43.6; YTD +84.9%; market cap $2.2B; Scaling watchlist fit is Backend packaging and test exposure; bucket semiconductors; tags packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "PDYN",
+ "asOf": "2026-07-09",
+ "company": "Palladyne AI",
+ "currency": "USD",
+ "priceToday": 5.67,
+ "pricePrev": 6.495,
+ "moveSincePrevPct": -12.7,
+ "ytdReturnPct": 20.13,
+ "marketCapUsdB": 0.27,
+ "quoteUrl": "https://finance.yahoo.com/quote/PDYN/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 14,
+   "ticker": "PDYN",
+   "company": "Palladyne AI",
+   "score": 74.6,
+   "thesis": "The old Sarcos robotics story has shifted into defense autonomy. It is not humanoid, but it is embodied AI with small-cap optionality.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #23 and alpha score 73. Should move down because $347M cap, +51.9% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "NOFR.TA",
+ "asOf": "2026-07-09",
+ "company": "O.Y. Nofar Energy",
+ "currency": "ILA",
+ "priceToday": 22700.0,
+ "pricePrev": 20390.0,
+ "moveSincePrevPct": 11.33,
+ "ytdReturnPct": 84.55,
+ "marketCapUsdB": null,
+ "quoteUrl": "https://finance.yahoo.com/quote/NOFR.TA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 18,
+   "ticker": "NOFR.TA",
+   "company": "O.Y. Nofar Energy",
+   "score": null,
+   "thesis": "Power build-out and renewable generation",
+   "bucket": "electricity",
+   "ytd": null,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 23 is 1 places worse than displayed rank 22; adjusted score 46.7; YTD +91.3%; market cap $3.1B; Scaling watchlist fit is Power build-out and renewable generation; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+  "symbol": "MTSI",
+  "company": "MACOM Technology Solutions",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 3 hold (+0); down 17.9% since the prior refresh. semiconductor-ai-nodes: rank 53 hold (+0); down 17.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "MACOM Q2 2026 earnings transcript (Motley Fool, May 7)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/macom-mtsi-q2-2026-earnings-transcript/"
+    },
+    {
+      "label": "MACOM Q2 2026 beat on AI optical demand (Sahm Capital, June 4)",
+      "url": "https://www.sahmcapital.com/news/content/macom-technology-solutions-mtsi-is-down-67-after-ai-optical-demand-fuels-q2-2026-beat-has-the-bull-case-changed-2026-06-04"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MTSI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "MTSI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MTSI/"
+    },
+    {
+      "label": "MACOM IMS 2026 RF/optical SATCOM launches (StockTitan)",
+      "url": "https://www.stocktitan.net/news/MTSI/macom-ims-2026-product-announcements-for-aerospace-and-m9usvhriiolj.html"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "MTSI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/MTSI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 82,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "RF/optical semiconductor exposure is useful but still a loose fit for design-validation.",
+      "bull": "EDA, timing and test complexity rises with custom accelerators, HBM and advanced packaging.",
+      "neutral": "Current snapshot: move since prior -17.9%, YTD +74.5%, market cap about $23.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "High multiples and slower conversion of AI design complexity into incremental revenue.",
+      "primaryCatalyst": "Custom accelerator tape-outs, HBM/GPU test wins and design-complexity growth",
+      "primaryRisk": "High multiples and slower conversion of AI design complexity into incremental revenue."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 26. July context shows score 73.4, move since prior -17.9%, YTD +74.5%, market cap $23.29B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Optical/datacom and defense-RF demand compounding; raised FY26 datacenter outlook and margin expansion toward 60% gross.",
+      "neutral": "Strong fundamentals already reflected after a 113% YTD run; less AI crowding than mega-cap semis.",
+      "bear": "Cyclical RF/industrial mix and rich multiple leave little latent edge.",
+      "primaryCatalyst": "Datacenter optical revenue >60% FY26 growth; Q3 guide above consensus.",
+      "primaryRisk": "Multiple compression after a sharp run; RF/industrial cyclicality."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 65. July context does not change the page placement: -17.9% since the prior refresh, +74.5% YTD. Prior frame: Passives/power lens: MACOM is interconnect/optical, farther from the passive-power bottleneck stack. AI optical strength is real but orthogonal to this page; nothing new since June 9 touches passives, so hold in the monitor bucket at 66.",
+      "bull": "Datacenter optical demand >60% FY26 growth shows real AI pull, even if not a passives name.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 65, score 23.9, -17.9% since prior, +74.5% YTD.",
+      "bear": "Wrong page for the thesis; valuation rich after +113% YTD with no passives angle.",
+      "primaryCatalyst": "Continued AI optical-module ramp.",
+      "primaryRisk": "RF/industrial cyclicality; no passive-stack relevance."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits MACOM Technology Solutions through RF / photonics; Strong 200G/lane optical/copper interconnect exposure with smaller market cap than the already-crowded optics winners. The stock is down 17.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Strong 200G/lane optical/copper interconnect exposure with a smaller cap than crowded optics winners; AI optical beat validates the lens.",
+      "neutral": "Thesis intact but sell-side crowding (multiple PT hikes) is compressing the residual edge that earns rank 2.",
+      "bear": "Crowding rising and stock up 113% YTD; CPO alpha thinning, execution/cyclical risk remains.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Cyclical RF/industrial and execution risk"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits MACOM Technology Solutions through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 17.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI optical/connectivity exposure with datacenter revenue >60% FY26 growth gives genuine AI-node adjacency.",
+      "neutral": "Real AI pull but indirect versus core HBM/packaging/networking bottleneck nodes.",
+      "bear": "Analog/power/RF tier is a secondary node; less leverage to the acute compute bottleneck.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Stays a peripheral node vs primary AI-compute chokepoints."
+    }
+  ]
+}

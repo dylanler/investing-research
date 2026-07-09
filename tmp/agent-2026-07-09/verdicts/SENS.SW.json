@@ -1,0 +1,56 @@
+{
+  "symbol": "SENS.SW",
+  "company": "Sensirion Holding",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Sensirion Holding (SENS.SW) across latent-ai-nodes: market cap $1.59B, move since prior -5.6%, YTD +26.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Sensirion company news / product launches",
+      "url": "https://sensirion.com/company/news"
+    },
+    {
+      "label": "Sensirion Holding latest news (MarketScreener)",
+      "url": "https://www.marketscreener.com/quote/stock/SENSIRION-HOLDING-AG-42452451/news/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SENS.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "SENS.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SENS.SW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 26. July market-data refresh shows move since prior -5.6%, YTD +26.0%, market cap $1.59B. Thesis: Sensors for thermal/industrial control. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Sensors for thermal/industrial control feed datacenter and HVAC monitoring buildout.",
+      "neutral": "Peripheral to the core scaling thesis; scientific-instruments bucket.",
+      "bear": "Only indirectly levered to compute scaling; lower-conviction fit than core names.",
+      "primaryCatalyst": "Datacenter/thermal sensing design wins",
+      "primaryRisk": "Tangential to AI scaling; industrial cyclicality"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 12. July context shows score 78.3, move since prior -5.6%, YTD +26.0%, market cap $1.59B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Measurement layer for cooling, HVAC, robotics and edge AI; quality niche sensor franchise with A2L/HVAC and medical/auto design-win pipeline.",
+      "neutral": "Quality compounder, but no fresh catalyst; FX headwinds dampen reported growth.",
+      "bear": "33% YTD rerating prices much of the quality; small ($1.7B) and cyclically exposed to industrial sensing.",
+      "primaryCatalyst": "New HVAC/medical/auto design win or H1 results",
+      "primaryRisk": "FX drag and industrial/auto sensing demand softness"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "NVMI",
+ "asOf": "2026-07-09",
+ "company": "Nova",
+ "currency": "USD",
+ "priceToday": 451.99,
+ "pricePrev": 530.9,
+ "moveSincePrevPct": -14.86,
+ "ytdReturnPct": 30.13,
+ "marketCapUsdB": 14.38,
+ "quoteUrl": "https://finance.yahoo.com/quote/NVMI/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 7,
+   "ticker": "NVMI",
+   "company": "Nova",
+   "score": 83.3,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "wafer fab equipment",
+   "ytd": 30.13,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "WFE/metrology tier case (process-control intensity at advanced logic, HBM/DRAM, advanced packaging) is unchanged. Only the routine June 18 AGM since June 9. The +53% YTD rerating slowly consumes residual upside but no fundamental change. Hold at 5."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 17,
+   "ticker": "NVMI",
+   "company": "Nova",
+   "score": 81.4,
+   "thesis": "Underrated metrology beneficiary of complex advanced nodes, packaging, HBM and photonics yields.",
+   "category": "Metrology / inspection",
+   "ytd": 30.13,
+   "mcapB": 14.38,
+   "risk": "Capex volatility",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Metrology beneficiary of advanced nodes, packaging, HBM and photonics yields. No new info since June 9; the 'underrated' leg keeps eroding with PT raises and the YTD move, but with zero fresh catalyst, hold rather than cut on this crowding-sensitive list."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 22,
+   "ticker": "NVMI",
+   "company": "Nova",
+   "score": 69.4,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch metrology for semiconductor manufacturing execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 30.13,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Fab-tools pick-and-shovel bottleneck already balanced against YTD rerating in the June 8 audit. Only the routine AGM since June 9; no new fundamental evidence. Rank 22 in the fab-tools bucket still fits. Hold."
+   }
+  }
+ ]
+}

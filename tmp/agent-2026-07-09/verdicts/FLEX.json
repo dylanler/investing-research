@@ -1,0 +1,72 @@
+{
+  "symbol": "FLEX",
+  "company": "Flex",
+  "caseDate": "2026-07-09",
+  "newsSince": "-12.3% since prior, +109.4% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved -12.3% since the prior snapshot and YTD return is +109.4%; verdict: hold with scoreDelta 0.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for FLEX",
+      "url": "https://finance.yahoo.com/quote/FLEX/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Flex to join S&P 500 effective June 22 (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/flex-to-join-sp-500-index-effective-june-22-93CH-4733874"
+    },
+    {
+      "label": "Flex announces Cloud & Power spin-off (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/flex-announces-intention-to-spin-off-its-cloud-and-power-infrastructure-segment-into-a-new-independent-publicly-traded-company-302763151.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/FLEX/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Manufacturing/integration exposure remains valid but S&P inclusion and rerating reduce hiddenness.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior -12.3%, YTD +109.4%, market cap about $48.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 73. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -12.3% since the prior refresh, +109.4% YTD. Prior frame: The S&P 500 inclusion that drove the Jun 9 down-call has now executed (effective Jun 22) - the terminal recognition/forced-passive-ownership event is complete, fully eroding under-owned character on this residual-alpha lens. Spin-off (May 5) predates window. Down-bias already applied; small further negative drift, hold rank.",
+      "bull": "800V Rubin rack power positions Flex at a real AI-power bottleneck; spin-off could surface a high-multiple AI pure-play.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 73, score 19.1, -12.3% since prior, +109.4% YTD.",
+      "bear": "Now index-mandated and crowded; the alpha edge (under-ownership) is gone; +138% YTD leaves heavy re-rating risk on this page's lens.",
+      "primaryCatalyst": "SpinCo separation details (Q1 2027); Rubin power-shelf wins",
+      "primaryRisk": "Crowding/over-ownership unwind post index inclusion"
+    }
+  ]
+}

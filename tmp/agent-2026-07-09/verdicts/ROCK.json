@@ -1,0 +1,39 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 97. July context shows score 54.0, move since prior +3.5%, YTD -17.7%, market cap $1.30B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Diversified infrastructure/renewables maker with optional fit for data-center facility hardware.",
+      "neutral": "No AI-node evidence; building-products cyclical with weak YTD.",
+      "bear": "Residential roofing/solar exposure with -20% YTD; latent-AI tie is purely hypothetical.",
+      "primaryCatalyst": "Infrastructure/renewable products repurposed into non-obvious facility components",
+      "primaryRisk": "Core demand is residential/roofing/solar racking, unrelated to AI compute sites"
+    }
+  ],
+  "symbol": "ROCK",
+  "company": "Gibraltar Industries",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ROCK/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ROCK quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ROCK/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Gibraltar Industries (ROCK) across latent-ai-nodes-strict: market cap $1.30B, move since prior +3.5%, YTD -17.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

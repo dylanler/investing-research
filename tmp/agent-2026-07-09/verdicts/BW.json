@@ -1,0 +1,43 @@
+{
+  "symbol": "BW",
+  "company": "Babcock & Wilcox",
+  "caseDate": "2026-07-09",
+  "newsSince": "Babcock & Wilcox has one of the most direct new scaling links: Q1 2026 revenue rose 44% to $214.4M, bookings reached $2.5B, backlog reached $2.7B, and the Base Electron project ties 1.2 GW of dedicated gas generation to Applied Digital AI data centers. The bear case is a $79.6M GAAP loss driven by warrant revaluation and fresh equity dilution.",
+  "sources": [
+    {
+      "label": "B&W Q1 2026 results",
+      "url": "https://www.babcock.com/home/about/corporate/news/babcock-and-wilcox-enterprises-reports-first-quarter-2026-results"
+    },
+    {
+      "label": "BW Q1 2026 10-Q summary with Base Electron project",
+      "url": "https://www.stocktitan.net/sec-filings/BW/10-q-babcock-wilcox-enterprises-inc-quarterly-earnings-report-174a5db48d8e.html"
+    },
+    {
+      "label": "BW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BW/"
+    },
+    {
+      "label": "B&W full NTP on $2.4B Base Electron project (Mar 4, 2026)",
+      "url": "https://www.babcock.com/home/about/corporate/news/babcock-and-wilcox-receives-full-notice-to-proceed-on-24-billion-power-generation-project-for-base-electron-to-supply-power-to-applied-digital-ai-factory-campuses"
+    },
+    {
+      "label": "B&W securities fraud lawsuit over $2.4B AI contract",
+      "url": "https://www.tipranks.com/news/class-action/babcock-wilcox-enterprises-faces-securities-lawsuit-over-alleged-omissions-tied-to-2-4-billion-ai-power-contract"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 29,
+      "rankMove": "up",
+      "scoreDelta": 6,
+      "confidence": 0.7,
+      "rankRationale": "The 1.2GW AI-data-center power project and $2.7B backlog are directly on scaling/power. The stock's drawdown reflects dilution and warrant accounting, but the thesis relevance improved enough to move it up from a low rank.",
+      "bull": "1.2GW Base Electron NTP plus prior 1GW Applied Digital give multi-year AI-power backlog visibility into 2028.",
+      "neutral": "Order book is known; execution and a pending fraud suit cap incremental upside this window.",
+      "bear": "Securities class action alleging concealed contract risks; design-build execution and gas-turbine supply chain risk.",
+      "primaryCatalyst": "AI data-center power backlog conversion to revenue",
+      "primaryRisk": "Securities litigation / contract execution risk"
+    }
+  ]
+}

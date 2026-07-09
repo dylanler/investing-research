@@ -1,0 +1,47 @@
+{
+ "symbol": "SLAB",
+ "asOf": "2026-07-09",
+ "company": "Silicon Labs",
+ "currency": "USD",
+ "priceToday": 218.32,
+ "pricePrev": 219.3,
+ "moveSincePrevPct": -0.45,
+ "ytdReturnPct": 65.48,
+ "marketCapUsdB": 7.21,
+ "quoteUrl": "https://finance.yahoo.com/quote/SLAB/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 91,
+   "ticker": "SLAB",
+   "company": "Silicon Labs",
+   "score": 43.5,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 65.48,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the AI-node bottleneck lens, SLAB is a deal-locked analog/RF name with no residual node alpha: TI buyout at $231 caps it at a ~5% arb spread, not bottleneck upside. No news since June 9; continue de-ranking toward removal."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 104,
+   "ticker": "SLAB",
+   "company": "Silicon Labs",
+   "score": 43.4,
+   "thesis": "Edge/IoT recovery rather than CPO.",
+   "category": "IoT / edge",
+   "ytd": 65.48,
+   "mcapB": 7.21,
+   "risk": "IoT cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Silicon Labs should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 65.4% YTD and $7.2B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

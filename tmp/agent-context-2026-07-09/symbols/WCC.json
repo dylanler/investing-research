@@ -1,0 +1,32 @@
+{
+ "symbol": "WCC",
+ "asOf": "2026-07-09",
+ "company": "WESCO International",
+ "currency": "USD",
+ "priceToday": 316.15,
+ "pricePrev": 359.72,
+ "moveSincePrevPct": -12.11,
+ "ytdReturnPct": 25.4,
+ "marketCapUsdB": 15.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/WCC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 59,
+   "ticker": "WCC",
+   "company": "WESCO International",
+   "score": 65.5,
+   "thesis": "A distributor of electrical and communications parts can quietly benefit from data-center/grid builds, though leverage and scale make it less early.",
+   "theme": "Distribution/Services",
+   "exchange": "NYSE",
+   "ytd": 25.4,
+   "conviction": "Medium",
+   "catalysts": "Data-center electrical supply; utility modernization; broadband build.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 73 is 3 places worse than displayed rank 70; adjusted score 62.0; YTD +40.1%; market cap $17.3B; WESCO International remains tied to distribution/services through Electrical, communications and utility distribution. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

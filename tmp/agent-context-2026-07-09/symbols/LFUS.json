@@ -1,0 +1,66 @@
+{
+ "symbol": "LFUS",
+ "asOf": "2026-07-09",
+ "company": "Littelfuse",
+ "currency": "USD",
+ "priceToday": 401.56,
+ "pricePrev": 471.35,
+ "moveSincePrevPct": -14.81,
+ "ytdReturnPct": 52.95,
+ "marketCapUsdB": 10.15,
+ "quoteUrl": "https://finance.yahoo.com/quote/LFUS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 20,
+   "ticker": "LFUS",
+   "company": "Littelfuse",
+   "score": 59.1,
+   "thesis": "Power protection and current-sense exposure; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: LFUS",
+   "ytd": 52.95,
+   "mcapB": 10.15,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the residual-alpha-vs-passives lens, nothing new since June 9. The data-center/grid protection story is real but fully recognized (+80% YTD, rising HF ownership, Strong Buy consensus), so LFUS stays a crowded rerated benchmark rather than hidden alpha. Hold at rank 19."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 28,
+   "ticker": "LFUS",
+   "company": "Littelfuse",
+   "score": 73.3,
+   "thesis": "Circuit protection and sensors become more important as data-center power density and edge devices scale, but LFUS is still viewed as a cyclical industrial/electronics compounder.",
+   "theme": "Power & Components",
+   "exchange": "NASDAQ",
+   "ytd": 52.95,
+   "conviction": "Medium",
+   "catalysts": "Power semiconductor recovery; data-center protection products; industrial rebound.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Node is validated (industrial +45% on data-center/grid) but the 'latent' premise keeps eroding as the AI-power-protection story is now widely told. No new evidence June 9-23, so no further promotion; hold at rank 24."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 42,
+   "ticker": "LFUS",
+   "company": "Littelfuse",
+   "score": 60.8,
+   "thesis": "Power-delivery content exposure. Strong ytd follow-through; watch protection and power components execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 52.95,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: no new fundamental info since June 9. The audit already balanced genuine power-delivery/protection content against a fully recognized +80% YTD rerating at ~$11.8B cap. Hold at rank 40."
+   }
+  }
+ ]
+}

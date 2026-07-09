@@ -1,0 +1,32 @@
+{
+ "symbol": "DELL",
+ "asOf": "2026-07-09",
+ "company": "Dell Technologies",
+ "currency": "USD",
+ "priceToday": 431.97,
+ "pricePrev": 433.465,
+ "moveSincePrevPct": -0.34,
+ "ytdReturnPct": 238.0,
+ "marketCapUsdB": 279.11,
+ "quoteUrl": "https://finance.yahoo.com/quote/DELL/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 87,
+   "ticker": "DELL",
+   "company": "Dell Technologies",
+   "score": 5.9,
+   "thesis": "AI server beneficiary; AI-adjacent.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: DELL",
+   "ytd": 238.0,
+   "mcapB": 279.11,
+   "revisionNote": "Yesterday's downgrade was purely rerating discipline; today's -7.5% flow-driven washout (sector de-grossing plus Silver Lake supply overhang, ~20% off the post-earnings high in a week) with the $51.3B AI backlog thesis fully intact partially restores asymmetry. Only a modest move up: at $241B cap an",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the residual-alpha-vs-passives lens DELL is a fully-discovered AI-server beneficiary, not a passive/power bottleneck. The intact $43B backlog thesis is unchanged, but continued Silver Lake selling (June 10-12) is an ongoing supply overhang and the +13% bounce recoups the washout that improved its June 9 asymmetry. Small negative fundamental drift; benchmark/monitor placement holds."
+   }
+  }
+ ]
+}

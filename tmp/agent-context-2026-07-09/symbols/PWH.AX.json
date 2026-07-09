@@ -1,0 +1,32 @@
+{
+ "symbol": "PWH.AX",
+ "asOf": "2026-07-09",
+ "company": "PWR Holdings",
+ "currency": "AUD",
+ "priceToday": 8.56,
+ "pricePrev": 8.08,
+ "moveSincePrevPct": 5.94,
+ "ytdReturnPct": 8.35,
+ "marketCapUsdB": 0.57,
+ "quoteUrl": "https://finance.yahoo.com/quote/PWH.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 3,
+   "ticker": "PWH.AX",
+   "company": "PWR Holdings",
+   "score": 79.0,
+   "thesis": "Motorsport/aerospace heat exchangers and electronics cooling could be repurposed before data-center buyers discover them",
+   "theme": "Thermal systems",
+   "exchange": "ASX",
+   "regionRank": "Non-US#1",
+   "ytd": 8.35,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No material company news; the institutional stake increase is a mild signal, not a thermal-thesis catalyst. The pre-discovery motorsport/aerospace-to-datacenter cooling asymmetry is neither newly validated nor crowded, so the strict-screen #2 / Non-US#1 placement holds."
+   }
+  }
+ ]
+}

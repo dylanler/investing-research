@@ -1,0 +1,30 @@
+{
+ "symbol": "4186.T",
+ "asOf": "2026-07-09",
+ "company": "Tokyo Ohka Kogyo",
+ "currency": "JPY",
+ "priceToday": 10125.0,
+ "pricePrev": 10905.0,
+ "moveSincePrevPct": -7.15,
+ "ytdReturnPct": 68.61,
+ "marketCapUsdB": 8.07,
+ "quoteUrl": "https://finance.yahoo.com/quote/4186.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 41,
+   "ticker": "4186.T",
+   "company": "Tokyo Ohka Kogyo",
+   "score": 60.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 68.61,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Tokyo Ohka Kogyo should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 38, 61.5% YTD, $7.7B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

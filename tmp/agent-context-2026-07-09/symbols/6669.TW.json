@@ -1,0 +1,48 @@
+{
+ "symbol": "6669.TW",
+ "asOf": "2026-07-09",
+ "company": "Wiwynn",
+ "currency": "TWD",
+ "priceToday": 5040.0,
+ "pricePrev": 4675.0,
+ "moveSincePrevPct": 7.81,
+ "ytdReturnPct": 12.5,
+ "marketCapUsdB": 29.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/6669.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 31,
+   "ticker": "6669",
+   "company": "Wiwynn",
+   "score": 44.0,
+   "thesis": "Direct NVIDIA Rubin AI infrastructure exposure; tight-supply, direct-AI, underfollowed, near-term-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "TWSE: 6669",
+   "ytd": 12.5,
+   "mcapB": 29.19,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Crowding-sensitive residual-alpha lens: Wiwynn sits in the 'crowded / rerated benchmark' bucket after +213% YTD, so even strong AI exposure yields little residual alpha. New negatives (gross margin ~9%, Foxconn competition) slightly weaken the alpha case; small -1, hold the rank."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 51,
+   "ticker": "6669",
+   "company": "Wiwynn",
+   "score": 58.2,
+   "thesis": "Physical deployment exposure. Positive but measured ytd; watch ai server oem execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 12.5,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Systems-integration lens: physical-deployment thesis (Rubin NVL72 racks, liquid cooling, US capacity) intact and confirmed, but it predates the window and was already priced. New margin-compression and Foxconn-competition signals are a modest fundamental negative; -1, hold rank."
+   }
+  }
+ ]
+}

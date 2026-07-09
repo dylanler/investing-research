@@ -1,0 +1,39 @@
+{
+  "symbol": "SHA0.DE",
+  "company": "Schaeffler",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Schaeffler (SHA0.DE) now screens at $9.34B market cap, -7.5% since the prior refresh and -4.8% YTD. Page thesis remains: One of the strongest new evidence upgrades: a direct Humanoid partnership and actuator supply/deployment pathway.",
+  "sources": [
+    {
+      "label": "SHA0.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SHA0.DE/"
+    },
+    {
+      "label": "Schaeffler-Hexagon partnership (Schaeffler PR)",
+      "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88184987"
+    },
+    {
+      "label": "Schaeffler to deploy 1,000 Hexagon humanoids by 2032 (Robot Report)",
+      "url": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/"
+    },
+    {
+      "label": "Schaeffler Q1 2026 slides - humanoid push (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/schaeffler-q1-2026-slides-stable-margins-amid-humanoid-robotics-push-93CH-4658181"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 15,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 15. July market-data refresh shows move since prior -7.5%, YTD -4.8%, market cap $9.34B. Thesis: One of the strongest new evidence upgrades: a direct Humanoid partnership and actuator supply/deployment pathway.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Direct, purest actuation play in the humanoid stack with both supply contract and captive factory deployment; ~50% of robot BOM is actuators.",
+      "neutral": "Strong stack fit but catalysts already known and priced; thin incremental news since June 9.",
+      "bear": "Humanoid revenue still tiny vs auto/industrial base; deployment timelines could slip and stock is a beta proxy.",
+      "primaryCatalyst": "Hexagon AEON actuator supply + 1,000-robot factory deployment ramp through 2026-32.",
+      "primaryRisk": "Humanoid volumes/series-production timing slip; auto/industrial core cyclicality."
+    }
+  ]
+}

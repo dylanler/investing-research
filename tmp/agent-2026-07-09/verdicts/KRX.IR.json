@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 21. July context shows score 74.2, move since prior -5.6%, YTD +5.0%, market cap $16.81B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Tate/Advnsys is the de facto hyperscale raised-floor and containment standard; orders ~2x y/y, ~EUR300m EBITDA in 2026, target to double EBITDA in 4-5yrs, still priced as a construction cyclical.",
+      "neutral": "DC unit is small vs group; the rest is European insulated-panel cyclical that masks the AI-infra optionality.",
+      "bear": "Group remains macro-construction levered; the DC narrative may already be partly priced after the FY25 pop and IPO-scrap commentary.",
+      "primaryCatalyst": "H1 2026 results confirming doubled Advnsys order intake and growing standalone disclosure forcing a SOTP re-rate.",
+      "primaryRisk": "European construction downturn drags the consolidated multiple; hyperscale capex air-pocket."
+    }
+  ],
+  "symbol": "KRX.IR",
+  "company": "Kingspan Group",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Bloomberg: Kingspan record revenue on DC boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/kingspan-generates-record-revenue-on-data-center-boom"
+    },
+    {
+      "label": "Irish Times: Kingspan axes Advnsys spin-out",
+      "url": "https://www.irishtimes.com/business/2026/01/07/kingspan-axes-spin-out-of-unit-riding-data-centres-boom/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KRX.IR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "KRX.IR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KRX.IR/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Kingspan Group (KRX.IR) across latent-ai-nodes: market cap $16.81B, move since prior -5.6%, YTD +5.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

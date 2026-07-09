@@ -1,0 +1,65 @@
+{
+ "symbol": "TXN",
+ "asOf": "2026-07-09",
+ "company": "Texas Instruments",
+ "currency": "USD",
+ "priceToday": 301.32,
+ "pricePrev": 303.83,
+ "moveSincePrevPct": -0.83,
+ "ytdReturnPct": 69.74,
+ "marketCapUsdB": 274.23,
+ "quoteUrl": "https://finance.yahoo.com/quote/TXN/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 46,
+   "ticker": "TXN",
+   "company": "Texas Instruments",
+   "score": 34.3,
+   "thesis": "Broad analog and power exposure; AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NASDAQ: TXN",
+   "ytd": 69.74,
+   "mcapB": 274.23,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No fresh fundamental disclosure since June 9 - the move is an analyst-upgrade/'top pick' rotation that further mainstreams the hidden-AI-power framing, eroding residual alpha on this crowding-sensitive page. Pull-forward risk is a real caveat. Small -1, hold rank 42."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 78,
+   "ticker": "TXN",
+   "company": "Texas Instruments",
+   "score": 49.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 69.74,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the AI-node bottleneck lens, analog/power remains second-order to HBM, advanced packaging and AI networking. The new DC segment disclosure is a mild positive but no new node-scarcity evidence since June 9; the upgrade is sentiment. Hold rank 72."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 97,
+   "ticker": "TXN",
+   "company": "Texas Instruments",
+   "score": 44.9,
+   "thesis": "Supplies power/analog content across infrastructure; limited direct alpha from CPO.",
+   "category": "Analog / power",
+   "ytd": 69.74,
+   "mcapB": 274.23,
+   "risk": "Industrial/auto cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the co-packaged-optics lens TXN has limited direct CPO alpha - it supplies power/analog content across infrastructure, not optics. No CPO-relevant news since June 9; the upgrade/DC story is orthogonal to CPO. Hold rank 94 to avoid churn."
+   }
+  }
+ ]
+}

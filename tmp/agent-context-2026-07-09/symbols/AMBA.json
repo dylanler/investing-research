@@ -1,0 +1,60 @@
+{
+ "symbol": "AMBA",
+ "asOf": "2026-07-09",
+ "company": "Ambarella",
+ "currency": "USD",
+ "priceToday": 74.74,
+ "pricePrev": 67.36,
+ "moveSincePrevPct": 10.96,
+ "ytdReturnPct": -0.56,
+ "marketCapUsdB": 3.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMBA/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 72,
+   "ticker": "AMBA",
+   "company": "Ambarella",
+   "score": 50.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": -0.56,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On a node-bottleneck list AMBA still has no direct HBM/CPO/advanced-packaging/test exposure; edge-AI/analyst-briefing news does not create compute-node centrality. Pending-removal posture stands; nothing since prior case changes node relevance, so hold at zero."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 85,
+   "ticker": "AMBA",
+   "company": "Ambarella",
+   "score": 49.8,
+   "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+   "category": "Edge AI",
+   "ytd": -0.56,
+   "mcapB": 3.19,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through a co-packaged-optics lens AMBA remains weakly relevant: no optical/CPO evidence emerged since prior case. Analyst briefing and GoPro overhang are not CPO-chain news, so hold at zero rather than double-count the prior remove case."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 8,
+   "ticker": "AMBA",
+   "company": "Ambarella",
+   "score": 78.8,
+   "thesis": "Robots need local perception under power and latency constraints. AMBA is more discovered than ARBE, but still less crowded than NVIDIA/Qualcomm.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #10 and alpha score 82. Should hold because $2.8B cap, -8.6% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

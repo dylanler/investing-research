@@ -1,0 +1,72 @@
+{
+  "symbol": "3436.T",
+  "company": "3436.T",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 67 hold (-2); up 18.6% since the prior refresh. semiconductor-ai-nodes: rank 60 hold (-2); up 18.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "BigGo Finance - SUMCO hits 18.5-year high on AI wafer squeeze",
+      "url": "https://finance.biggo.com/news/v0Qycp4B2jrwCtglokHP"
+    },
+    {
+      "label": "Yahoo Finance - Pre-earnings buying redefining SUMCO wafer demand narrative",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-earnings-buying-redefining-sumco-002022441.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "3436.T Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/3436.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits SUMCO through Materials; Wafer materials exposure; indirect and cyclical. The stock is up 18.6% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "AI wafer tightness underpins the whole supply chain; pricing power returning.",
+      "neutral": "Indirect to CPO; cyclical wafer pricing/utilization.",
+      "bear": "Far from the optical-attach thesis; valuation discovery risk.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Wafer pricing and utilization"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits SUMCO through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is up 18.6% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "300mm structurally short into 2030; LTA price hikes lift FY27 margins; supply discipline (delayed fabs).",
+      "neutral": "H1 still loss-making; rerating is a FY27 story already partly priced.",
+      "bear": "+164% YTD; Chinese wafer price offensive; cyclical demand air-pocket risk.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Chinese wafer oversupply / pricing offensive"
+    }
+  ]
+}

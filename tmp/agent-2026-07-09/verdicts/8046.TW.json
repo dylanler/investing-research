@@ -1,0 +1,39 @@
+{
+  "symbol": "8046.TW",
+  "company": "Nan Ya PCB",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Advanced packaging & substrates thesis. For this stock, price moved +33.7% since the prior snapshot and YTD return is +412.7%; verdict: down with scoreDelta -2.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 8046.TW",
+      "url": "https://finance.yahoo.com/quote/8046.TW/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 67,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Nan Ya PCB has real ABF/PCB leverage, but the latest positive move into an already huge rerating reduces residual alpha.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior +33.7%, YTD +412.7%, market cap about $17.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    }
+  ]
+}

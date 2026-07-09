@@ -1,0 +1,56 @@
+{
+  "symbol": "MTRS.ST",
+  "company": "Munters",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Munters (MTRS.ST) across latent-ai-nodes: market cap $3.27B, move since prior -6.2%, YTD -16.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Munters wins SEK 2.0bn modular AI cooling order (Apr 24)",
+      "url": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-wins-order-of-bsek-2.0-for-a-modular-ai-cooling-solution"
+    },
+    {
+      "label": "Munters lands SEK 2bn US AI data center cooling order (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/munters-lands-sek-2-billion-u-s-ai-data-center-cooling-order"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MTRS.ST/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "MTRS.ST quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MTRS.ST/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Still the cleanest under-owned cooling bottleneck; July power/cooling evidence reinforces the top-rank thesis, but rank 1 leaves no move headroom.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -6.2%, YTD -16.6%, market cap about $3.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 39. July context shows score 70.2, move since prior -6.2%, YTD -16.6%, market cap $3.27B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Surging DCT order intake (+32% Q1), SEK 2bn AI modular-cooling win and a CDU/CRAH platform position Munters as a scaled liquid-cooling enabler.",
+      "neutral": "Demand is exceptional but earnings/margins weakened in Q1; data-center exposure now well covered.",
+      "bear": "Cooling angle is no longer under-followed; margin pressure and rich expectations limit residual alpha.",
+      "primaryCatalyst": "Q2 order intake booking the SEK 2bn AI order; liquid-cooling capacity scale-up.",
+      "primaryRisk": "Margin erosion as mix shifts; execution on rapid DCT capacity expansion."
+    }
+  ]
+}

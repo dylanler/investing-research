@@ -1,0 +1,27 @@
+{
+ "symbol": "XPEV",
+ "asOf": "2026-07-09",
+ "company": "XPeng",
+ "currency": "USD",
+ "priceToday": 13.27,
+ "pricePrev": 13.015,
+ "moveSincePrevPct": 1.96,
+ "ytdReturnPct": -35.05,
+ "marketCapUsdB": 12.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/XPEV/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 18,
+   "ticker": "XPEV",
+   "company": "XPeng",
+   "score": 66.8,
+   "thesis": "IRON is real enough to include, but the stock is still mostly an EV/autonomy business.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Current robotics rank #18 and alpha score 78. Should move up because $15.1B cap, -22.5% YTD, Builder purity, and commercialization evidence now matter more than generic humanoid beta. KOID influence: fund rank #48, 1.41% weight, Alpha candidate, Direct humanoid. The combination of direct stack fit, under-ownership, and still-plausible rerating room argues for more alpha weight."
+   }
+  }
+ ]
+}

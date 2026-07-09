@@ -1,0 +1,30 @@
+{
+ "symbol": "002156.SZ",
+ "asOf": "2026-07-09",
+ "company": "Tongfu Microelectronics",
+ "currency": "CNY",
+ "priceToday": 72.17,
+ "pricePrev": 68.42,
+ "moveSincePrevPct": 5.48,
+ "ytdReturnPct": 82.52,
+ "marketCapUsdB": 15.24,
+ "quoteUrl": "https://finance.yahoo.com/quote/002156.SZ/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 29,
+   "ticker": "002156.SZ",
+   "company": "Tongfu Microelectronics",
+   "score": 64.2,
+   "thesis": "public outsourced semiconductor assembly/test provider added because AMD filings identify the ATMP joint ventures with Tongfu; upside linked to AMD compute demand and packaging/test capacity.",
+   "tier": "OSAT / packaging",
+   "ytd": 82.52,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Tongfu Microelectronics should move up because HBM/chiplet advanced packaging and OSAT capacity is more directly connected to the 2027 AI compute bottleneck than its current rank 26 implies, with current company-specific evidence; 57.5% YTD and $15.0B market cap do not fully offset the catalyst."
+   }
+  }
+ ]
+}

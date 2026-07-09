@@ -1,0 +1,32 @@
+{
+ "symbol": "TWIN",
+ "asOf": "2026-07-09",
+ "company": "Twin Disc",
+ "currency": "USD",
+ "priceToday": 21.25,
+ "pricePrev": 22.43,
+ "moveSincePrevPct": -5.26,
+ "ytdReturnPct": 31.17,
+ "marketCapUsdB": 0.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/TWIN/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 6,
+   "ticker": "TWIN",
+   "company": "Twin Disc",
+   "score": 76.4,
+   "thesis": "Transmissions, clutches and control systems could benefit from robotics, automation and specialty cooling machinery spillovers",
+   "theme": "Power transmission",
+   "exchange": "NASDAQ",
+   "regionRank": "US#5",
+   "ytd": 31.17,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent spillover thesis (transmissions/clutches into robotics-automation and specialty-cooling machinery) is unchanged; no new fundamental evidence since June 9 and the strong Q3 print predates the window. The +11% move and +38% YTD is price, not news; hold the strict-screen rank 6."
+   }
+  }
+ ]
+}

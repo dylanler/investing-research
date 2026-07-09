@@ -1,0 +1,72 @@
+{
+  "symbol": "3231.TW",
+  "company": "Wistron",
+  "caseDate": "2026-07-09",
+  "newsSince": "-8.8% since prior, -6.8% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved -8.8% since the prior snapshot and YTD return is -6.8%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 3231.TW",
+      "url": "https://finance.yahoo.com/quote/3231.TW/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Taipei Times - AI boom pushes server makers beyond assembly: Wistron (Jun 5)",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858540"
+    },
+    {
+      "label": "Digitimes - Wistron profit triples on server surge",
+      "url": "https://www.digitimes.com/news/a20260509PD205/wistron-profit-revenue-growth-shipments.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/3231.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Wistron remains a credible deployment beneficiary with a modest reset, but no new catalyst warrants re-rank.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior -8.8%, YTD -6.8%, market cap about $15.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 14. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -8.8% since the prior refresh, -6.8% YTD. Prior frame: Residual-alpha lens: Jun 5 'super integration' framing + US-plant Q2 shipment start incrementally confirm the AI-server/rack thesis, but only +2.3% YTD vs strong AI mix means the alpha was already intact, not newly mispriced. Hold rank; modest +1 on fundamentals.",
+      "bull": "AI is ~79% of sales; super-integration role lifts content/margin per rack; US capacity de-risks tariffs.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 14, score 65.8, -8.8% since prior, -6.8% YTD.",
+      "bear": "Thin assembler margins; AI-server pricing pressure and customer concentration.",
+      "primaryCatalyst": "US plant shipment ramp + continued AI-server mix gains",
+      "primaryRisk": "OEM margin compression / pricing competition"
+    }
+  ]
+}

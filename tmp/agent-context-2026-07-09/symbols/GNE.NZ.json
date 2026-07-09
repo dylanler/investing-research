@@ -1,0 +1,29 @@
+{
+ "symbol": "GNE.NZ",
+ "asOf": "2026-07-09",
+ "company": "Genesis Energy",
+ "currency": "NZD",
+ "priceToday": 2.58,
+ "pricePrev": 2.6,
+ "moveSincePrevPct": -0.77,
+ "ytdReturnPct": 7.5,
+ "marketCapUsdB": 1.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/GNE.NZ/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 11,
+   "ticker": "GNE.NZ",
+   "company": "Genesis Energy",
+   "score": 55.0,
+   "thesis": "Utility / power demand exposure",
+   "bucket": "electricity",
+   "ytd": 7.5,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 12 is 2 places worse than displayed rank 10; adjusted score 55.0; YTD +7.1%; market cap $1.7B; Scaling watchlist fit is Utility / power demand exposure; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

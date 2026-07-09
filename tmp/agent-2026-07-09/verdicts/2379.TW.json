@@ -1,0 +1,72 @@
+{
+  "symbol": "2379.TW",
+  "company": "Realtek Semiconductor",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 69 hold (+0); down 2.7% since the prior refresh. semiconductor-ai-nodes: rank 66 hold (+0); down 2.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Realtek price-target update (Simply Wall St)",
+      "url": "https://simplywall.st/community/narratives/tw/semiconductors/twse-2379/realtek-semiconductor-shares/tg9g35u9-ai-and-wi-fi-7-tech-will-open-new-market-frontiers/updates/23-analysts-have-lifted-their-price-target-for-realtek-semicond"
+    },
+    {
+      "label": "Realtek May 2026 revenue update (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/realtek-semiconductor-stock-tw0002379005-may-revenue-update-and/69490315"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "2379.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/2379.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Realtek Semiconductor through Networking / edge; Networking chip exposure, but low CPO directness. The stock is down 2.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Networking chip exposure; broad connectivity portfolio.",
+      "neutral": "Not a CPO bottleneck; edge networking is tangential.",
+      "bear": "No CPO directness; valuation re-rated on flow, not optical-interconnect alpha.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "PC/networking cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Realtek Semiconductor through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 2.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI/automotive Ethernet + Wi-Fi 7 growth; OpenTitan RoT optionality for datacenter security.",
+      "neutral": "Solid franchise but indirect to the 2027 compute bottleneck.",
+      "bear": "Low directness vs HBM/packaging/AI-networking; +77% YTD on PC/networking-cycle beta with no choke-point.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "PC/networking cycle; minimal bottleneck criticality."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 63. July context shows score 66.0, move since prior -3.8%, YTD +2.5%, market cap $3.70B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Record bookings +25%, Profil acquisition expands industrial processing; optionality to data-center water/thermal.",
+      "neutral": "Quality industrial compounder but AI-node link is speculative on the strict screen; news predates window.",
+      "bear": "Core demand is pulp/paper/industrial; AI exposure is a thesis, not revenue; acquisition dilutes FY26 EPS ~$0.20.",
+      "primaryCatalyst": "Speculative redirect of process-fluid systems to data-center water reuse/thermal control",
+      "primaryRisk": "No direct AI revenue; pulp/paper/industrial cyclicality; Profil EPS dilution"
+    }
+  ],
+  "symbol": "KAI",
+  "company": "Kadant",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Kadant latest news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/KAI/"
+    },
+    {
+      "label": "Kadant investor relations",
+      "url": "https://investor.kadant.com/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KAI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "KAI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KAI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Kadant (KAI) across latent-ai-nodes-strict: market cap $3.70B, move since prior -3.8%, YTD +2.5%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

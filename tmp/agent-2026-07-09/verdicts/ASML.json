@@ -1,0 +1,101 @@
+{
+  "symbol": "ASML",
+  "company": "ASML Holding",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 72 hold (+0); down 0.7% since the prior refresh. semiconductor-ai-nodes: rank 39 hold (+0); down 0.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for ASML",
+      "url": "https://finance.yahoo.com/quote/ASML/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "InsiderFinance: ASML bookings surge, lifts 2026 guidance",
+      "url": "https://www.insiderfinance.io/news/asml-earnings-bookings-surge-lifts-2026-guidance"
+    },
+    {
+      "label": "CNBC: ASML Q1 2026 earnings",
+      "url": "https://www.cnbc.com/2026/04/15/asml-q1-2026-earnings-report.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ASML Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ASML/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 78,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.71,
+      "rankRationale": "Lithography is the ultimate bottleneck, but ASML is a consensus megacap and July valuation reset argues lower residual alpha.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -0.7%, YTD +52.0%, market cap about $681.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 72,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits ASML Holding through Wafer equipment; Irreplaceable lithography choke point; CPO is indirect via advanced nodes and packaging flows. The stock is down 0.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Lithography enables every advanced node feeding CPO/packaging roadmaps.",
+      "neutral": "CPO exposure indirect; no new evidence either way since June 9.",
+      "bear": "Not a direct optics play; size and crowding limit alpha on this lens.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "China restrictions and capex cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits ASML Holding through wafer fab equipment; core AI winner, but already highly owned; score is capped by crowding and valuation discovery. The stock is down 0.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Irreplaceable EUV/High-NA monopoly; raised 2026 sales guidance EUR36-40B; AI capex tailwind multi-year.",
+      "neutral": "Thesis intact but fully discounted; flat since June 9, no new orders.",
+      "bear": "+53% YTD, record $687B cap; crowding and China-restriction overhang cap residual alpha.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "China export restrictions, capex-cycle digestion"
+    }
+  ]
+}

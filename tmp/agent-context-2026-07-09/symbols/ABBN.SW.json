@@ -1,0 +1,79 @@
+{
+ "symbol": "ABBN.SW",
+ "asOf": "2026-07-09",
+ "company": "ABB",
+ "currency": "CHF",
+ "priceToday": 84.68,
+ "pricePrev": 86.1,
+ "moveSincePrevPct": -1.65,
+ "ytdReturnPct": 38.28,
+ "marketCapUsdB": 196.58,
+ "quoteUrl": "https://finance.yahoo.com/quote/ABBN.SW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 59,
+   "ticker": "ABBN",
+   "company": "ABB",
+   "score": 27.4,
+   "thesis": "Grid and electrification bottleneck exposure; bottleneck, AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "SWX: ABBN",
+   "ytd": 38.28,
+   "mcapB": 196.58,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Passives/power lens: no new evidence since June 9. ABB stays a well-owned ~$198B benchmark name far from the passive/power-component bottleneck core; the +6.9% drift is price, not residual-alpha change. Hold near rank 58."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 99,
+   "ticker": "ABBN.SW",
+   "company": "ABB",
+   "score": 52.0,
+   "thesis": "ABB is strategically relevant to electrification and automation, but it is too large, too covered and too explicitly linked to automation for early alpha.",
+   "theme": "Power & Grid",
+   "exchange": "SIX",
+   "ytd": 38.28,
+   "conviction": "Low",
+   "catalysts": "Electrification backlog; drives/robotics; energy efficiency.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 94 is 7 places worse than displayed rank 87; adjusted score 52.0; YTD +35.0%; market cap $189.3B; ABB remains tied to power & grid through Electrification, drives, automation and robotics. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 38,
+   "ticker": "ABBN.SW",
+   "company": "ABB",
+   "score": 24.9,
+   "thesis": "Great robotics company, poor hidden-alpha candidate.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Humanoid/robotics lens: SoftBank divestiture (~$5.375B, closing 2026) is now firm and abandons the spin-off route — ABB's claim on a robotics-stack list weakens structurally as Robotics exits the consolidated entity. Down-drift continues, now on confirmed deal rather than rumor."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 18,
+   "ticker": "ABBN",
+   "company": "ABB",
+   "score": 72.7,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical systems and automation execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 38.28,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master list: electrification-bottleneck thesis (grid, switchgear, DC power) fully intact but unchanged since June 9 — Q1 strength was already known. +6.9% is price, not new evidence. Hold rank 18."
+   }
+  }
+ ]
+}

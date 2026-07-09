@@ -1,0 +1,32 @@
+{
+ "symbol": "TIH.TO",
+ "asOf": "2026-07-09",
+ "company": "Toromont",
+ "currency": "CAD",
+ "priceToday": 228.08,
+ "pricePrev": 239.89,
+ "moveSincePrevPct": -4.92,
+ "ytdReturnPct": 35.92,
+ "marketCapUsdB": 12.83,
+ "quoteUrl": "https://finance.yahoo.com/quote/TIH.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 89,
+   "ticker": "TIH.TO",
+   "company": "Toromont",
+   "score": 60.5,
+   "thesis": "Equipment distribution/service could support remote construction, logistics and energy projects around compute campuses",
+   "theme": "Equipment/service",
+   "exchange": "TSX",
+   "regionRank": "Non-US#47",
+   "ytd": 35.92,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "June 17 AVL update converts the speculative 'equipment/service supports compute campuses' pathway into ~C$1B of firm data-center enclosure orders (2027 delivery) plus new-facility capex. First tangible AI-chain evidence since June 9; lifts residual latent alpha on this strict screen."
+   }
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "ONTO",
+ "asOf": "2026-07-09",
+ "company": "Onto Innovation",
+ "currency": "USD",
+ "priceToday": 291.45,
+ "pricePrev": 317.565,
+ "moveSincePrevPct": -8.22,
+ "ytdReturnPct": 75.71,
+ "marketCapUsdB": 14.5,
+ "quoteUrl": "https://finance.yahoo.com/quote/ONTO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 13,
+   "ticker": "ONTO",
+   "company": "Onto Innovation",
+   "score": 73.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 75.71,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: WFE leverage to HBM4/advanced-packaging capacity intact, but the +16% move is target-hike sentiment, not new order timing. Prior case already cut 10->13 for the rerating; no fresh order evidence to move again. Price penalty applied separately. Hold 13."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 21,
+   "ticker": "ONTO",
+   "company": "Onto Innovation",
+   "score": 80.1,
+   "thesis": "Advanced packaging process control is a CPO/AI interconnect choke point.",
+   "category": "Metrology / inspection",
+   "ytd": 75.71,
+   "mcapB": 14.5,
+   "risk": "Capex cycle and high expectations",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Co-packaged-optics/residual-alpha lens: a further +16% on analyst target sweeps (B.Riley $355, Oppenheimer $370) with no new evidence pushes price near targets, so the once-hidden advanced-packaging process-control story keeps de-hiding. Residual alpha shrinks further vs peers; soft fundamental tick down."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 31,
+   "ticker": "ONTO",
+   "company": "Onto Innovation",
+   "score": 65.4,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch metrology and inspection execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 75.71,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: upstream metrology/inspection pick-and-shovel thesis is intact and execution confirmed, but the move is target-driven sentiment, not new fundamentals. Nothing new since June 9 to move rank either way; price rerating handled separately. Hold 31."
+   }
+  }
+ ]
+}

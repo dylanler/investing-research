@@ -1,0 +1,76 @@
+{
+  "symbol": "AOSL",
+  "company": "Alpha & Omega Semiconductor",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 61 hold (+0); down 18.3% since the prior refresh.",
+  "sources": [
+    {
+      "label": "AOSL quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AOSL/"
+    },
+    {
+      "label": "AOSL Q3 FY26 results / Q4 guide (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/AOSL/8-k-alpha-omega-semiconductor-ltd-reports-material-event-0e4b53b9195e.html"
+    },
+    {
+      "label": "AOSL power-management solutions at PCIM 2026",
+      "url": "https://www.gurufocus.com/news/8893431/alpha-and-omega-semiconductor-aosl-showcases-advanced-power-management-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AOSL Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AOSL/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 24. July market-data refresh shows move since prior -18.3%, YTD +80.9%, market cap $1.30B. Thesis: Power semiconductors and power management. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Inference/test-time scaling raises rack power, favoring power-management content.",
+      "neutral": "Power-management fit is real but a commoditized, cyclical slice of the scaling theme.",
+      "bear": "Margins under pressure and demand visibility limited into H2 CY26.",
+      "primaryCatalyst": "Rising compute power density",
+      "primaryRisk": "Cyclical/PC exposure and margin pressure"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Alpha and Omega Semiconductor through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 18.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI/data-center power demand and inference-driven higher power needs support content growth.",
+      "neutral": "Power semis are adjacent to, not central to, the AI-node bottleneck.",
+      "bear": "Q3 net loss, thin margins and weak H2 PC visibility cap the case after +122% YTD.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "PC seasonality and memory-shortage demand drag"
+    }
+  ]
+}

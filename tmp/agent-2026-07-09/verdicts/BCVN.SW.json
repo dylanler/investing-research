@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 76. July context shows score 64.0, move since prior +4.1%, YTD +18.9%, market cap $12.62B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Bucher Hydraulics and Municipal positive; hydraulics could feed automated construction equipment.",
+      "neutral": "Diversified industrial with confirmed 2026 outlook; very indirect AI linkage.",
+      "bear": "Group order intake -8.9% on weak Kuhn ag demand; tenuous latent-AI tie.",
+      "primaryCatalyst": "Hydraulics demand for automation/industrial equipment",
+      "primaryRisk": "Ag-equipment downturn dragging group order intake"
+    }
+  ],
+  "symbol": "BCVN.SW",
+  "company": "Bucher Industries",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Bucher confirms 2026 outlook amid modest Q1",
+      "url": "https://www.tipranks.com/news/company-announcements/bucher-industries-holds-2026-outlook-despite-softer-first-quarter-demand"
+    },
+    {
+      "label": "Bucher Q1 ad-hoc release",
+      "url": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/modest-demand-in-the-first-quarter-outlook-for-2026-confirmed/3e5f3f54-7e1f-4c67-9c9e-e7bc8b8e307e_en"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BCVN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "BCVN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BCVN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Bucher Industries (BCVN.SW) across latent-ai-nodes-strict: market cap $12.62B, move since prior +4.1%, YTD +18.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

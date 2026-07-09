@@ -1,0 +1,105 @@
+{
+  "symbol": "WOLF",
+  "company": "Wolfspeed",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 75 remove (-6); down 29.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Wolfspeed Q2 FY2026 results",
+      "url": "https://www.businesswire.com/news/home/20260204660401/en/Wolfspeed-Reports-Financial-Results-for-the-Second-Quarter-of-Fiscal-2026"
+    },
+    {
+      "label": "Wolfspeed AI/aerospace catalysts (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/wolfspeed-inc-new-wolf-news-2026_06_18/"
+    },
+    {
+      "label": "GE Aerospace-Wolfspeed deal (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/ge-aerospace-wolfspeed-deal-reframes-043252731.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/WOLF/"
+    },
+    {
+      "label": "WOLF quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/WOLF/"
+    },
+    {
+      "label": "Wolfspeed restructuring completion",
+      "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-successfully-completes-financial-restructuring-emerges-as-financially-stronger-company-well-positioned-in-silicon-carbide-market/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "WOLF Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/WOLF/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 27,
+      "rankMove": "down",
+      "scoreDelta": -5,
+      "confidence": 0.68,
+      "rankRationale": "AI power-density relevance is real, but Chapter 11/fresh-start risk and the extreme post-bankruptcy rerating overwhelm the hidden-alpha setup. Keep it on page only as speculative SiC optionality.",
+      "bull": "SiC for solid-state transformers/AI power exactly matches the scaling power-density story.",
+      "neutral": "On-thesis product news, but tiny cap and distress limit conviction.",
+      "bear": "Negative FCF; demand recovery still unproven; Chinese SiC pressure.",
+      "primaryCatalyst": "AI-datacenter SiC module adoption",
+      "primaryRisk": "Balance-sheet/liquidity risk"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Latent AI-node lens: risk/reward deserves less rank weight at current rank 94. July context shows score 55.8, move since prior -29.1%, YTD +89.4%, market cap $1.86B. Score delta -1; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Real new AI-datacenter SiC product cadence + GE MOU validate the power-conversion node.",
+      "neutral": "Optionality is real but balance-sheet fragility caps any rerating.",
+      "bear": "Post-bankruptcy equity, -168% YTD froth, Chinese SiC share gains erode moat.",
+      "primaryCatalyst": "3.3kV/Gen-5 SiC design wins; SiC demand recovery",
+      "primaryRisk": "Liquidity/dilution; Chinese SiC competition"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 75,
+      "rankMove": "remove",
+      "scoreDelta": -6,
+      "confidence": 0.82,
+      "rankRationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise.",
+      "bull": "AI-power optionality could tangentially benefit datacenter buildout.",
+      "neutral": "Power SiC, not optics/packaging - wrong lens for this page.",
+      "bear": "No CPO relevance, distressed balance sheet, frothy YTD.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Restructuring/balance-sheet risk"
+    }
+  ]
+}

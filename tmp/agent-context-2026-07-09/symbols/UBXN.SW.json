@@ -1,0 +1,29 @@
+{
+ "symbol": "UBXN.SW",
+ "asOf": "2026-07-09",
+ "company": "u-blox",
+ "currency": "CHF",
+ "priceToday": 134.4,
+ "pricePrev": 134.4,
+ "moveSincePrevPct": 0.0,
+ "ytdReturnPct": 0.0,
+ "marketCapUsdB": null,
+ "quoteUrl": "https://finance.yahoo.com/quote/UBXN.SW/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 23,
+   "ticker": "UBXN.SW",
+   "company": "u-blox",
+   "score": null,
+   "thesis": "Positioning and wireless modules for edge/robotic deployment",
+   "bucket": "semiconductors",
+   "ytd": null,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 14 is 1 places worse than displayed rank 13; adjusted score 53.0; YTD -0.4%; market cap $1.3B; Scaling watchlist fit is Positioning and wireless modules for edge/robotic deployment; bucket semiconductors; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

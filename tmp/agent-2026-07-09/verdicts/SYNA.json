@@ -1,0 +1,72 @@
+{
+  "symbol": "SYNA",
+  "company": "Synaptics",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 111 hold (+0); down 9.0% since the prior refresh. semiconductor-ai-nodes: rank 67 hold (+0); down 9.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Synaptics edge-AI UAV partnerships (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/is-synaptics-syna-quietly-redefining-its-iot-edge-strategy-through-new-uav-ai-partnerships-2026-06-11"
+    },
+    {
+      "label": "Synaptics bullish targets as edge-AI deals build (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/synaptics-incorporated-syna-news-2026_06_08/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "SYNA Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/SYNA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 111,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Synaptics through Edge AI/IoT; Edge AI optionality, low CPO exposure. The stock is down 9.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Edge-AI franchise momentum could broaden the IoT TAM and provide optionality adjacent to AI buildouts.",
+      "neutral": "Edge-AI optionality with low CPO exposure; not part of the co-packaged-optics bottleneck.",
+      "bear": "No meaningful CPO/optical link, +79% YTD and small $5.2B cap make it a poor fit for a scarce co-packaged-optics alpha basket.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "IoT and consumer cycles"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Synaptics through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 9.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Astra edge-AI design wins ahead of plan, Google Coralboard and UAV MoU build a credible edge-inference franchise ramping into 2027.",
+      "neutral": "Genuine edge-AI optionality but only selective AI exposure; less direct than HBM, advanced packaging or AI networking names.",
+      "bear": "+79% YTD and rising PTs imply crowding; core IoT/consumer cyclicality and no HBM/packaging chokepoint leave thin node-bottleneck alpha.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "IoT/consumer demand cyclicality and valuation crowding"
+    }
+  ]
+}

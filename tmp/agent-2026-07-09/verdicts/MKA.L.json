@@ -1,0 +1,35 @@
+{
+  "symbol": "MKA.L",
+  "company": "Mkango Resources",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Mkango Resources (MKA.L) now screens at $0.21B market cap, -11.3% since the prior refresh and -19.6% YTD. Page thesis remains: Humanoid motors need permanent magnets. Mkango is a non-obvious pick-and-shovel with recycling capacity coming online rather than a robot demo stock.",
+  "sources": [
+    {
+      "label": "MKA.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MKA.L/"
+    },
+    {
+      "label": "Mkango: HyProMag USA Texas Hub / US magnet platform update",
+      "url": "https://mkango.ca/news/hypromag-usa-advances-texas-hub-and-u.s-magnet-platform/"
+    },
+    {
+      "label": "Mkango: HyProMag USA project update",
+      "url": "https://mkango.ca/news/hypromag-usa-project-update-for-its-rare-earth-magnet-recycling-and-manufacturing-plants-in-the-united-states/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 5. July market-data refresh shows move since prior -11.3%, YTD -19.6%, market cap $0.21B. Thesis: Humanoid motors need permanent magnets. Mkango is a non-obvious pick-and-shovel with recycling capacity coming online rather than a robot demo stock.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Non-obvious magnet pick-and-shovel with UK/German plants live and US Texas Hub advancing into long-lead procurement; offtake talks de-risk the ramp.",
+      "neutral": "Capacity is still pre-commissioning (H2 2027); cash burn warrants watching.",
+      "bear": "Microcap ($230M) pre-revenue on magnets; financing and timeline slippage risk.",
+      "primaryCatalyst": "Texas Hub commissioning and US magnet offtake agreements",
+      "primaryRisk": "Funding needs / commissioning delay before recycling capacity scales"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+ "symbol": "2308.TW",
+ "asOf": "2026-07-09",
+ "company": "Delta Electronics",
+ "currency": "TWD",
+ "priceToday": 1880.0,
+ "pricePrev": 2080.0,
+ "moveSincePrevPct": -9.62,
+ "ytdReturnPct": 88.94,
+ "marketCapUsdB": 195.09,
+ "quoteUrl": "https://finance.yahoo.com/quote/2308.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 55,
+   "ticker": "2308",
+   "company": "Delta Electronics",
+   "score": 30.2,
+   "thesis": "AI server power shelves and Rubin-era rack power; bottleneck, direct-AI, underfollowed, near-term-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "TWSE: 2308",
+   "ytd": 88.94,
+   "mcapB": 195.09,
+   "revisionNote": "On a crowding-sensitive alpha list, a +7.1% single-day pop on a widely watched monthly revenue print extends the rerating without revealing anything hidden; at +142.7% YTD and ~$199B cap, residual under-owned upside shrinks further even though the news is fundamentally good.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha vs passives lens: no new evidence since June 9; the -14% is a rerating pullback, not a thesis change, so do not up-rank on the fall. Already tagged crowded/rerated; at ~$198B cap and +109% YTD, under-owned residual upside stays minimal. Hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 91,
+   "ticker": "2308.TW",
+   "company": "Delta Electronics",
+   "score": 57.4,
+   "thesis": "Delta is deeply relevant to data-center power and cooling, but it is no longer an undiscovered AI-infrastructure supplier.",
+   "theme": "Power & Components",
+   "exchange": "TWSE",
+   "ytd": 88.94,
+   "conviction": "Medium",
+   "catalysts": "AI server power; liquid cooling; industrial automation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 89 is 4 places better than displayed rank 93; adjusted score 55.6; YTD +126.6%; market cap $189.4B; Delta Electronics remains tied to power & components through Power supplies, thermal management and industrial automation. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 38,
+   "ticker": "2308",
+   "company": "Delta Electronics",
+   "score": 61.7,
+   "thesis": "Infrastructure bottleneck exposure. Strong ytd follow-through; watch power supplies and thermal management execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 88.94,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: no new evidence since June 9 (May +43.65% YoY already captured); the -14% pullback is rerating noise, not deterioration, so hold rather than up-rank on the fall. Power/cooling bottleneck exposure intact but recognition is high at +109% YTD."
+   }
+  }
+ ]
+}

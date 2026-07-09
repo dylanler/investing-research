@@ -1,0 +1,72 @@
+{
+  "symbol": "2382.TW",
+  "company": "Quanta Computer",
+  "caseDate": "2026-07-09",
+  "newsSince": "+0.3% since prior, +34.8% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved +0.3% since the prior snapshot and YTD return is +34.8%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 2382.TW",
+      "url": "https://finance.yahoo.com/quote/2382.TW/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Quanta Q1 2026 earnings call (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2382.TW_2026-05-14"
+    },
+    {
+      "label": "Quanta sees triple-digit AI server growth 2026 (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/quanta-sees-ai-server-sales-to-grow-triple-digits-in-2026-93CH-4714258"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/2382.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Quanta server shipment momentum supports the thesis; YTD recognition prevents an up-move.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior +0.3%, YTD +34.8%, market cap about $45.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 16. July context does not change the page placement: +0.3% since the prior refresh, +34.8% YTD. Prior frame: Hold at 16. AI-server execution (GB300 ramp, >75% server mix) is fully consensus and ODM story well-broadcast; no new info since June 9. On this crowding-sensitive page residual alpha is thinner than top names but the central-node positioning is intact. No rank-changing event.",
+      "bull": "QCT one of two largest AI rack builders; GB300 orders 'unimaginable', triple-digit AI-server growth.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 16, score 63.2, +0.3% since prior, +34.8% YTD.",
+      "bear": "ODM thesis is consensus; <5% gross margin and memory-cost dilution cap residual alpha.",
+      "primaryCatalyst": "GB300/GB200 rack shipment ramp through 2026.",
+      "primaryRisk": "Gross-margin compression from memory costs / high-priced racks."
+    }
+  ]
+}

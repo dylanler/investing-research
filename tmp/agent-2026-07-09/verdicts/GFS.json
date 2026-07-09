@@ -1,0 +1,101 @@
+{
+  "symbol": "GFS",
+  "company": "GlobalFoundries",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 18 hold (+0); down 18.9% since the prior refresh. semiconductor-ai-nodes: rank 18 hold (+0); down 18.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for GFS",
+      "url": "https://finance.yahoo.com/quote/GFS/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "GlobalFoundries stock surge / partnerships & quantum funding (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8803702/globalfoundries-gfs-sees-stock-surge-amid-market-dynamics"
+    },
+    {
+      "label": "GFS news & updates (StockTitan)",
+      "url": "https://www.stocktitan.net/news/GFS/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "GFS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/GFS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Government/partnership support helps specialty foundry optionality; the large YTD rerating keeps it from moving again.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -18.9%, YTD +84.3%, market cap about $37.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits GlobalFoundries through Foundry / specialty; Specialty foundry and silicon photonics-adjacent processes can benefit as optical engines scale. The stock is down 18.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "New silicon-photonics partnership validates GF as a CPO/optical-engine foundry beneficiary.",
+      "neutral": "Photonics is a real but still-emerging slice of GF's specialty mix.",
+      "bear": "CPO ramp timing uncertain; foundry cycle and rich YTD temper upside.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Utilization and foundry cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits GlobalFoundries through foundry; manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk. The stock is down 18.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Quantum/quantum-mfg funding, processor IP, and new AI/photonics partnerships deepen the specialty-foundry tollgate.",
+      "neutral": "Specialty (non-leading-edge) foundry with improving strategic optionality; first dividend signals maturity.",
+      "bear": "Utilization/foundry-cycle risk; ~127% YTD leaves limited cheap entry; not leading-edge AI logic.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Foundry utilization / mature-node pricing cycle"
+    }
+  ]
+}

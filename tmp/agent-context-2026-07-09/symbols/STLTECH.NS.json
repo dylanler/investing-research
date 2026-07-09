@@ -1,0 +1,29 @@
+{
+ "symbol": "STLTECH.NS",
+ "asOf": "2026-07-09",
+ "company": "Sterlite Technologies",
+ "currency": "INR",
+ "priceToday": 514.0,
+ "pricePrev": 607.3,
+ "moveSincePrevPct": -15.36,
+ "ytdReturnPct": 401.46,
+ "marketCapUsdB": 3.16,
+ "quoteUrl": "https://finance.yahoo.com/quote/STLTECH.NS/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 48,
+   "ticker": "STLTECH.NS",
+   "company": "Sterlite Technologies",
+   "score": -3.6,
+   "thesis": "Fiber and optical transport for AI data movement",
+   "bucket": "networking",
+   "ytd": 401.46,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 50 is 2 places worse than displayed rank 48; adjusted score -4.5; YTD +473.9%; market cap $3.1B; Scaling watchlist fit is Fiber and optical transport for AI data movement; bucket networking; tags compute_factory,packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

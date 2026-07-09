@@ -1,0 +1,32 @@
+{
+ "symbol": "TWEKA.AS",
+ "asOf": "2026-07-09",
+ "company": "TKH Group",
+ "currency": "EUR",
+ "priceToday": 42.62,
+ "pricePrev": 43.3,
+ "moveSincePrevPct": -1.57,
+ "ytdReturnPct": 14.32,
+ "marketCapUsdB": 2.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/TWEKA.AS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 7,
+   "ticker": "TWEKA.AS",
+   "company": "TKH Group",
+   "score": 80.0,
+   "thesis": "A Dutch portfolio of machine vision, connectivity and electrification assets; the planned separation can crystallize hidden AI-adjacent value.",
+   "theme": "Connectivity & Automation",
+   "exchange": "Euronext Amsterdam",
+   "ytd": 14.32,
+   "conviction": "High",
+   "catalysts": "Automation/electrification separation; non-core divestments; machine-vision recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 6 is 2 places worse than displayed rank 4; adjusted score 80.0; YTD +17.4%; market cap $2.2B; TKH Group remains tied to connectivity & automation through Vision systems, fiber/connectivity and electrification assets. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

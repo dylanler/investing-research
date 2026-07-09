@@ -1,0 +1,30 @@
+{
+ "symbol": "EQIX",
+ "asOf": "2026-07-09",
+ "company": "Equinix",
+ "currency": "USD",
+ "priceToday": 1015.97,
+ "pricePrev": 1121.82,
+ "moveSincePrevPct": -9.44,
+ "ytdReturnPct": 32.96,
+ "marketCapUsdB": 100.89,
+ "quoteUrl": "https://finance.yahoo.com/quote/EQIX/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 68,
+   "ticker": "EQIX",
+   "company": "Equinix",
+   "score": 52.5,
+   "thesis": "Physical deployment exposure. Strong ytd follow-through; watch colocation and data-center operator execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 32.96,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing new since June 9 — guidance raise, atNorth JV and Citi Focus List add were already in the prior case. On this under-owned-bottleneck list the continued +5.9% rerating (now +47% YTD) further erodes the residual alpha the page rewards, so slight negative drift; hold rank 66."
+   }
+  }
+ ]
+}

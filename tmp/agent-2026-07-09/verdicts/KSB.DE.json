@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 10. July context shows score 73.4, move since prior -3.0%, YTD -7.0%, market cap $1.79B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Pumps/valves are direct beneficiaries of liquid-cooling and water-reuse buildout; >EUR3B orders, record nuclear order, and an explicit DC-cooling revenue ramp give a credible AI-node pathway.",
+      "neutral": "DC-cooling is a small future slice of a broadly industrial/nuclear/water order book; thesis is early.",
+      "bear": "AI-cooling revenue is still ~zero today; bulk of demand is legacy industrial/process pumps unrelated to AI.",
+      "primaryCatalyst": "Disclosed DC liquid-cooling design wins or revenue toward the EUR100m/2030 target.",
+      "primaryRisk": "Slow conversion of the cooling opportunity; industrial capex cyclicality."
+    }
+  ],
+  "symbol": "KSB.DE",
+  "company": "KSB",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "KSB record nuclear coolant-pump order",
+      "url": "https://impeller.net/magazin/ksb-receives-largest-order-in-the-companys-history/"
+    },
+    {
+      "label": "KSB quiet news-flow profile",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ksb-se-and-co-kgaa-vz-stock-de0006292030-pump-specialist-in-focus/69555225"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KSB.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "KSB.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KSB.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for KSB (KSB.DE) across latent-ai-nodes-strict: market cap $1.79B, move since prior -3.0%, YTD -7.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

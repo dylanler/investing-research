@@ -1,0 +1,48 @@
+{
+ "symbol": "VRT",
+ "asOf": "2026-07-09",
+ "company": "Vertiv",
+ "currency": "USD",
+ "priceToday": 317.81,
+ "pricePrev": 323.17,
+ "moveSincePrevPct": -1.66,
+ "ytdReturnPct": 80.97,
+ "marketCapUsdB": 122.07,
+ "quoteUrl": "https://finance.yahoo.com/quote/VRT/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 71,
+   "ticker": "VRT",
+   "company": "Vertiv",
+   "score": 20.5,
+   "thesis": "Liquid cooling and power infrastructure for AI factories; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: VRT",
+   "ytd": 80.97,
+   "mcapB": 122.07,
+   "revisionNote": "On this crowding-sensitive alpha list, a -5.3% day inside a ~12% weekly washout with the bottleneck thesis fully intact (analysts raising targets into the drop, FY26 guidance unchanged) modestly improves residual asymmetry by flushing momentum money. It does not de-crowd a $115B name up 62% YTD, so ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: ThermoKey close (Jun 12), 2030 investor-day roadmap and PT raises are genuinely positive fundamentals, but on this crowding-sensitive list a $125B name +85% YTD that ran +12% since Jun 9 is re-crowding, not de-crowding. Strong fundamentals only modestly help residual asymmetry. Small +."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 14,
+   "ticker": "VRT",
+   "company": "Vertiv",
+   "score": 75.8,
+   "thesis": "Infrastructure bottleneck exposure. Strong ytd follow-through; watch power and cooling systems execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 80.97,
+   "auditNote": "Under-owned-bottleneck master list (power/cooling/electrical): clear fundamental progress since Jun 9 — ThermoKey acquisition closed Jun 12, 2026 investor day with 2030 roadmap, FY26 guidance reinforc",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Under-owned-bottleneck master list (power/cooling/electrical): clear fundamental progress since Jun 9 — ThermoKey acquisition closed Jun 12, 2026 investor day with 2030 roadmap, FY26 guidance reinforced, PT raises, ~$15B backlog. On a fundamentals-first lens this strengthens execution; move up vs peers."
+   }
+  }
+ ]
+}

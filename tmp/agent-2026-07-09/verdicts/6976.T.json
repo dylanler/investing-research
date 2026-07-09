@@ -1,0 +1,47 @@
+{
+  "symbol": "6976.T",
+  "company": "6976.T",
+  "caseDate": "2026-07-09",
+  "newsSince": "-13.3% since prior, +299.7% YTD. Genuinely new window news: a June 15 MLCC-sector rally (Taiyo Yuden +23%) and a June 17 Digitimes report that it is boosting AI-server MLCC capacity while resisting some price hikes; Goldman frames MLCCs as the 3rd-largest AI-server cost with a widening structural deficit to 2030. Thesis-supportive but the stock is +361% YTD and gave back ground (-5.8%) over the window.",
+  "sources": [
+    {
+      "label": "Taiyo Yuden to boost AI-server MLCC capacity (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260617VL218/taiyo-yuden-mlcc-price-ai-server-production.html"
+    },
+    {
+      "label": "MLCC concept stocks surge; Taiyo Yuden +23% (TradingKey)",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261967164-mlcc-taiyo-yuden-tradingkey"
+    },
+    {
+      "label": "Goldman: MLCCs AI's next bottleneck (BigGo)",
+      "url": "https://finance.biggo.com/news/9brVh54BtCxy99G5XYjq"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6976.T/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 76. July context does not change the page placement: -13.3% since the prior refresh, +299.7% YTD. Prior frame: Passives-alpha lens: new evidence (June 17 AI-server MLCC capacity build, GS structural-deficit-to-2030 framing) genuinely strengthens the inductor/MLCC bottleneck thesis. But at +361% YTD on a crowding-sensitive 'rerated benchmark' list the residual alpha is thin. Small +1, hold rank.",
+      "bull": "AI-server MLCC sales up 80%+, structural deficit widening to 2030, capacity expansion and price support.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 76, score 17.0, -13.3% since prior, +299.7% YTD.",
+      "bear": "Crowded, flow-dominated benchmark; resisting price hikes caps near-term ASP upside; sharp whipsaws.",
+      "primaryCatalyst": "AI-server MLCC capacity ramp and tightening high-cap supply/demand.",
+      "primaryRisk": "Post-rerating chase reversing on any AI-capex pause."
+    }
+  ]
+}

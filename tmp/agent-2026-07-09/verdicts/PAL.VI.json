@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 75,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 75. July context shows score 64.0, move since prior -1.1%, YTD -4.6%, market cap $1.41B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Crane/handling systems offer optionality on maintenance robotics and modular datacenter/industrial logistics buildout.",
+      "neutral": "Quiet stretch with no AI-specific datapoints; back in ATX, awaiting July 28 H1 print.",
+      "bear": "Core lifting cyclical with only tenuous AI linkage; -3.6% YTD and weak macro cap the latent-node thesis.",
+      "primaryCatalyst": "July 28 H1 2026 results / order intake",
+      "primaryRisk": "Industrial-cycle softness; AI linkage too indirect to sustain rank"
+    }
+  ],
+  "symbol": "PAL.VI",
+  "company": "Palfinger",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Palfinger News (corporate)",
+      "url": "https://www.palfinger.com/worldwide/en/insights-news-and-events/news.html"
+    },
+    {
+      "label": "Palfinger AG (PAL.VI) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PAL.VI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "PAL.VI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/PAL.VI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Palfinger (PAL.VI) across latent-ai-nodes-strict: market cap $1.41B, move since prior -1.1%, YTD -4.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

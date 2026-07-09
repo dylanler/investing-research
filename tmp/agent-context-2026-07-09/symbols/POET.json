@@ -1,0 +1,31 @@
+{
+ "symbol": "POET",
+ "asOf": "2026-07-09",
+ "company": "POET Technologies",
+ "currency": "USD",
+ "priceToday": 8.51,
+ "pricePrev": 11.0,
+ "moveSincePrevPct": -22.64,
+ "ytdReturnPct": 18.85,
+ "marketCapUsdB": 1.58,
+ "quoteUrl": "https://finance.yahoo.com/quote/POET/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 15,
+   "ticker": "POET",
+   "company": "POET Technologies",
+   "score": 83.1,
+   "thesis": "Pure-play optical interposer/CPO optionality with very high upside and very high execution/disclosure risk.",
+   "category": "Photonics / CPO",
+   "ytd": 18.85,
+   "mcapB": 1.58,
+   "risk": "Pre-scale revenue, volatility, customer/order uncertainty",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the CPO asymmetry lens, no new fundamental damage since June 9; the optionality thesis is intact into the June 26 redomicile vote (removes PFIC overhang, could unlock US institutional demand). Slight positive drift for catalyst proximity, but June 29 class-action deadline caps conviction. Hold at 11."
+   }
+  }
+ ]
+}

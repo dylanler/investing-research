@@ -1,0 +1,48 @@
+{
+ "symbol": "ANET",
+ "asOf": "2026-07-09",
+ "company": "Arista Networks",
+ "currency": "USD",
+ "priceToday": 181.05,
+ "pricePrev": 164.28,
+ "moveSincePrevPct": 10.21,
+ "ytdReturnPct": 35.52,
+ "marketCapUsdB": 227.97,
+ "quoteUrl": "https://finance.yahoo.com/quote/ANET/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 90,
+   "ticker": "ANET",
+   "company": "Arista Networks",
+   "score": 3.6,
+   "thesis": "AI cluster networking; direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: ANET",
+   "ytd": 35.52,
+   "mcapB": 227.97,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: ANET's AI-networking thesis is strong but the catalysts (raised AI Ethernet guide, 1.6T launch) are already known and were captured pre-June 9. The +7.6% bounce removes some of the asymmetry the prior case credited. It remains a $207B widely-owned benchmark far from the passive/power core. Hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 21,
+   "ticker": "ANET",
+   "company": "Arista Networks",
+   "score": 69.8,
+   "thesis": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch ethernet switches for ai clusters execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 35.52,
+   "auditNote": "Under-owned-bottleneck list, optical/high-speed-networking bucket: the prior 'up' premise is now confirmed — the 1.6T 7060XE7 launch (Jun 9) with Meta/Microsoft/Oracle/AMD endorsements strengthens the",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Under-owned-bottleneck list, optical/high-speed-networking bucket: the prior 'up' premise is now confirmed — the 1.6T 7060XE7 launch (Jun 9) with Meta/Microsoft/Oracle/AMD endorsements strengthens the scale-out bandwidth/optics thesis. Fundamental support firmer; sustain the up-move."
+   }
+  }
+ ]
+}

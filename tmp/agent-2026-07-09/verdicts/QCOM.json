@@ -1,0 +1,80 @@
+{
+  "symbol": "QCOM",
+  "company": "Qualcomm",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 83 hold (+0); down 7.8% since the prior refresh. semiconductor-ai-nodes: rank 34 hold (+0); down 7.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Qualcomm Investor Day to detail data-center plans (Yahoo Finance)",
+      "url": "https://ca.finance.yahoo.com/news/qualcomm-investor-day-detail-data-163411390.html"
+    },
+    {
+      "label": "AI200/AI250 rack-scale inference launch (DCD)",
+      "url": "https://www.datacenterdynamics.com/en/news/qualcomm-launches-ai200-and-ai250-chip-offering-targeting-inferencing-workloads-at-rack-scale/"
+    },
+    {
+      "label": "Qualcomm ByteDance ASIC deal / sector unwind (24/7 Wall St)",
+      "url": "https://247wallst.com/investing/2026/06/09/qualcomm-drops-8-on-bytedance-asic-deal-marvell-falls-10-as-custom-silicon-stocks-slide/"
+    },
+    {
+      "label": "Qualcomm reportedly eyeing Tenstorrent $10B (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-reportedly-eyeing-tenstorrent-050918276.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "QCOM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/QCOM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Qualcomm through Mobile / edge AI; AI-edge optionality, but not a CPO cable play. The stock is down 7.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Expanding data-center silicon adds AI optionality that could one day attach to optical-interconnect ecosystems.",
+      "neutral": "Real AI momentum but irrelevant to the CPO/co-packaged-optics thesis this page screens for.",
+      "bear": "No co-packaged-optics content; handset cyclicality and China exposure dominate the standalone case here.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Handset cycle and China exposure"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Qualcomm through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 7.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Credible rack-scale inference roadmap, hyperscale ASIC wins and possible Tenstorrent deal turn QCOM into a direct AI-compute bottleneck name.",
+      "neutral": "Strong narrative but data-center revenue still early; Investor-Day targets need 2026-27 proof points.",
+      "bear": "Inference accelerators face Nvidia/AMD/Broadcom; ByteDance reliance carries export-control and concentration risk.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Execution/ramp risk; export-control exposure on China demand"
+    }
+  ]
+}

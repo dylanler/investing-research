@@ -1,0 +1,63 @@
+{
+  "symbol": "603986.SS",
+  "company": "GigaDevice",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 96 hold (-1); up 3.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "GigaDevice 2026 DRAM procurement exceeds expectations (Futubull)",
+      "url": "https://news.futunn.com/en/post/71040807/gigadevice-603986-full-year-dram-procurement-volume-for-2026-exceeds"
+    },
+    {
+      "label": "DRAM price surge / memory shortage 2026 (TrendForce memory wall)",
+      "url": "https://www.trendforce.com/insights/memory-wall"
+    },
+    {
+      "label": "AI memory sold out, prices surge (CNBC)",
+      "url": "https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "603986.SS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/603986.SS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 96,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits GigaDevice through Memory / MCU; China semi localization; little optical interconnect exposure. The stock is up 3.5% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "China memory localization plus a sold-out DRAM/HBM cycle lifts the whole memory franchise.",
+      "neutral": "Fundamentals improving but the CPO list rewards optical interconnect, which GigaDevice lacks.",
+      "bear": "171% YTD prices in the cycle; China memory glut/competition and a cyclical top are the asymmetric risks.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "China cycles and competition"
+    }
+  ]
+}

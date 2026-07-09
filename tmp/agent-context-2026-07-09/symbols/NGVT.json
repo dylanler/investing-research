@@ -1,0 +1,32 @@
+{
+ "symbol": "NGVT",
+ "asOf": "2026-07-09",
+ "company": "Ingevity",
+ "currency": "USD",
+ "priceToday": 71.53,
+ "pricePrev": 72.38,
+ "moveSincePrevPct": -1.17,
+ "ytdReturnPct": 19.04,
+ "marketCapUsdB": 2.55,
+ "quoteUrl": "https://finance.yahoo.com/quote/NGVT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 55,
+   "ticker": "NGVT",
+   "company": "Ingevity",
+   "score": 66.3,
+   "thesis": "Activated carbon and specialty materials could support filtration, adsorption, coatings or battery-adjacent infrastructure niches",
+   "theme": "Specialty chemicals/carbon",
+   "exchange": "NYSE",
+   "regionRank": "US#31",
+   "ytd": 19.04,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No material company-specific news since Jun 9 (Q1 was 1 Jun; 11 Jun fireside added nothing). The strict-screen latent thesis — activated carbon/specialty materials as a possible filtration/adsorption/battery-adjacent node — is unchanged; hybrid-vehicle carbon mix is a steady tailwind, not an AI-node inflection. Hold at corrected rank."
+   }
+  }
+ ]
+}

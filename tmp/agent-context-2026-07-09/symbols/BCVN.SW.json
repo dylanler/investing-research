@@ -1,0 +1,32 @@
+{
+ "symbol": "BCVN.SW",
+ "asOf": "2026-07-09",
+ "company": "Bucher Industries",
+ "currency": "CHF",
+ "priceToday": 122.8,
+ "pricePrev": 118.0,
+ "moveSincePrevPct": 4.07,
+ "ytdReturnPct": 18.88,
+ "marketCapUsdB": 12.62,
+ "quoteUrl": "https://finance.yahoo.com/quote/BCVN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 76,
+   "ticker": "BCVN.SW",
+   "company": "Bucher Industries",
+   "score": 64.0,
+   "thesis": "Hydraulics and specialty machinery could support automated construction, industrial equipment and facility operations",
+   "theme": "Hydraulics/machinery",
+   "exchange": "SIX",
+   "regionRank": "Non-US#40",
+   "ytd": 18.88,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new AI-adjacent evidence since June 9 and a flat tape (0.0%). The strict-screen case (hydraulics into automated construction/industrial equipment) is unchanged; soft Q1 with confirmed outlook was already known. Drift-only, so the rank should not move."
+   }
+  }
+ ]
+}

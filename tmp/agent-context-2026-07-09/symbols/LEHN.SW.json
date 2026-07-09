@@ -1,0 +1,32 @@
+{
+ "symbol": "LEHN.SW",
+ "asOf": "2026-07-09",
+ "company": "LEM Holding",
+ "currency": "CHF",
+ "priceToday": 411.0,
+ "pricePrev": 454.0,
+ "moveSincePrevPct": -9.47,
+ "ytdReturnPct": 42.96,
+ "marketCapUsdB": 0.61,
+ "quoteUrl": "https://finance.yahoo.com/quote/LEHN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 54,
+   "ticker": "LEHN.SW",
+   "company": "LEM Holding",
+   "score": 66.5,
+   "thesis": "Current and voltage sensors could become useful in high-voltage power monitoring and robotics, before AI-specific demand appears",
+   "theme": "Current sensing",
+   "exchange": "SIX",
+   "regionRank": "Non-US#24",
+   "ytd": 42.96,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Latent-strict rewards under-covered AI-supply evidence; LEM has none, and its most recent fundamentals are deteriorating (Q1 rev -6.5%, NI -58%) against a +57.9% YTD melt-up. No fresh catalyst since June 9, so the thesis weakens modestly versus peers; small negative drift on this lens."
+   }
+  }
+ ]
+}

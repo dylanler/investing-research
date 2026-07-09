@@ -1,0 +1,32 @@
+{
+ "symbol": "BFSA.DE",
+ "asOf": "2026-07-09",
+ "company": "Befesa",
+ "currency": "EUR",
+ "priceToday": 31.45,
+ "pricePrev": 32.4,
+ "moveSincePrevPct": -2.93,
+ "ytdReturnPct": 4.97,
+ "marketCapUsdB": 1.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/BFSA.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 7,
+   "ticker": "BFSA.DE",
+   "company": "Befesa",
+   "score": 75.7,
+   "thesis": "Steel dust and aluminum residue recycling could matter as AI build-out increases metal circularity demand",
+   "theme": "Metals recycling",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#2",
+   "ytd": 4.97,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank 7. No new fundamental information since June 9; the -5.5% drift is ex-dividend/flow noise post the routine June 16 AGM. The latent metals-circularity-for-AI-build-out node is intact and marginally cheaper - no thesis-changing evidence to move the rank."
+   }
+  }
+ ]
+}

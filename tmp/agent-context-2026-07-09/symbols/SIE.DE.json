@@ -1,0 +1,48 @@
+{
+ "symbol": "SIE.DE",
+ "asOf": "2026-07-09",
+ "company": "Siemens",
+ "currency": "EUR",
+ "priceToday": 271.7,
+ "pricePrev": 272.25,
+ "moveSincePrevPct": -0.2,
+ "ytdReturnPct": 12.69,
+ "marketCapUsdB": 238.32,
+ "quoteUrl": "https://finance.yahoo.com/quote/SIE.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 100,
+   "ticker": "SIE.DE",
+   "company": "Siemens",
+   "score": 50.0,
+   "thesis": "Siemens owns many AI deployment layers but is already a core global industrial-automation compounder.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "Xetra",
+   "ytd": 12.69,
+   "conviction": "Low",
+   "catalysts": "Digital Industries recovery; electrification; industrial software.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 97 is 8 places worse than displayed rank 89; adjusted score 50.0; YTD +11.2%; market cap $235.9B; Siemens remains tied to industrial automation & robotics through Automation, digital industries and electrification software/hardware. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 12,
+   "ticker": "SIE",
+   "company": "Siemens",
+   "score": 78.0,
+   "thesis": "Infrastructure bottleneck exposure. Negative ytd reset; watch electrical and industrial systems execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 12.69,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Power/cooling/electrical bottleneck case (grid interconnect, switchgear, transformers, data-center electrification) remains intact. The strong grid/data-center guidance and record orderbook came from separately-listed Siemens Energy, not the parent, so it is not a clean SIE.DE catalyst. No new parent-level orders or guidance since June 9; hold."
+   }
+  }
+ ]
+}

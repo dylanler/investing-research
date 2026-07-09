@@ -1,0 +1,47 @@
+{
+ "symbol": "SOI.PA",
+ "asOf": "2026-07-09",
+ "company": "SOI.PA",
+ "currency": "EUR",
+ "priceToday": 104.9,
+ "pricePrev": 120.4,
+ "moveSincePrevPct": -12.87,
+ "ytdReturnPct": 321.79,
+ "marketCapUsdB": 4.77,
+ "quoteUrl": "https://finance.yahoo.com/quote/SOI.PA/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 82,
+   "ticker": "SOI.PA",
+   "company": "Soitec",
+   "score": 48.6,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 321.79,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Contrary to the prior 'no-news flush' read, the -14% was a Jefferies Underperform downgrade (€85 PT) attacking valuation and CPO step-change hopes, with stuck RF-SOI inventory and weak handsets pressuring FY27 fab loading. On the AI-node materials lens that is a real negative, warranting a step down."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 14,
+   "ticker": "SOI.PA",
+   "company": "Soitec",
+   "score": 83.6,
+   "thesis": "Engineered substrates are a hidden enabler for silicon photonics and RF; smaller cap with optical substrate optionality.",
+   "category": "Materials / substrates",
+   "ytd": 321.79,
+   "mcapB": 4.77,
+   "risk": "RF cycle, customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the CPO lens this is the most direct hit: Jefferies explicitly pushed back on the Co-Packaged-Optics step-change for Photonics-SOI (only 30-40% growth through FY30) while cutting to Underperform at €85 on an 85% peer premium. The 'hidden enabler' substrate thesis is challenged on its own terms; step down."
+   }
+  }
+ ]
+}

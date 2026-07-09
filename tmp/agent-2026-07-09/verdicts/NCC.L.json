@@ -1,0 +1,43 @@
+{
+  "symbol": "NCC.L",
+  "company": "NCC Group plc",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. NCC Group plc (NCC.L) now screens at $0.52B market cap, +11.5% since the prior refresh and +2.7% YTD. Page thesis remains: Cyber assurance and security testing",
+  "sources": [
+    {
+      "label": "NCC.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NCC.L/"
+    },
+    {
+      "label": "NCC H1 FY26 interim results (RNS/PDF)",
+      "url": "https://www.nccgroup.com/media/fvle0btz/ncc-interims-h1-fy26-110626.pdf"
+    },
+    {
+      "label": "Conclusion of the Cyber Strategic Review (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/ncc-group--ncc/conclusion-of-the-cyber-strategic-review/9612473"
+    },
+    {
+      "label": "NCC selected for OpenAI Daybreak (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/ncc-group-selected-to-join-openai-daybreak-cyber-partner-programme-ce7f5fdadb81fe24"
+    },
+    {
+      "label": "NCC H1 FY26 interim results (RNS/Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/ncc-group--ncc/unaudited-interim-results/9612591"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 32. July market-data refresh shows move since prior +11.5%, YTD +2.7%, market cap $0.52B. Thesis: Cyber assurance and security testing. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Pure-play cyber pivot complete; three straight quarters of cyber growth, EBITDA margins +3.2pts, fortress balance sheet (~GBP230m net cash) funding GBP185m of returns.",
+      "neutral": "Solid execution but small-cap (~$0.5B) and assurance/testing is only loosely a scaling/test-time bottleneck; FY guidance only mid-to-low single-digit.",
+      "bear": "Post-disposal NCC is a shrunken pure-play with mid-single-digit growth; -12.9% drop signals the market doubts the re-rate, and AI-scaling relevance is tenuous.",
+      "primaryCatalyst": "Pure-play cyber re-rating + GBP185m capital return execution",
+      "primaryRisk": "Cyber demand softens; thin AI-scaling linkage caps multiple"
+    }
+  ]
+}

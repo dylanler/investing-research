@@ -1,0 +1,46 @@
+{
+ "symbol": "PDFS",
+ "asOf": "2026-07-09",
+ "company": "PDF Solutions",
+ "currency": "USD",
+ "priceToday": 52.42,
+ "pricePrev": 60.89,
+ "moveSincePrevPct": -13.91,
+ "ytdReturnPct": 77.39,
+ "marketCapUsdB": 2.16,
+ "quoteUrl": "https://finance.yahoo.com/quote/PDFS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 37,
+   "ticker": "PDFS",
+   "company": "PDF Solutions",
+   "score": 71.8,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "EDA / analytics",
+   "ytd": 77.39,
+   "mcapB": 2.16,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/alpha lens: PDFS is EDA/yield-analytics, not co-packaged-optics; theme fit is adjacent. No new fundamental news, only CONNECT/AGM housekeeping. Crowding asymmetry incrementally worse as stock sits well above ~$54 sell-side targets on +107% YTD; small negative, not a rank cut."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 7,
+   "ticker": "PDFS",
+   "company": "PDF Solutions",
+   "score": 61.8,
+   "thesis": "Yield analytics / process data software for fabs",
+   "bucket": "semiconductors",
+   "ytd": 77.39,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 8 is 6 places better than displayed rank 14; adjusted score 61.1; YTD +90.5%; market cap $2.4B; Scaling watchlist fit is Yield analytics / process data software for fabs; bucket semiconductors; tags none. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "ALKAL.PA",
+ "asOf": "2026-07-09",
+ "company": "Kalray",
+ "currency": "EUR",
+ "priceToday": 8.32,
+ "pricePrev": 8.76,
+ "moveSincePrevPct": -5.02,
+ "ytdReturnPct": 577.52,
+ "marketCapUsdB": 0.17,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALKAL.PA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 45,
+   "ticker": "ALKAL.PA",
+   "company": "Kalray",
+   "score": 18.6,
+   "thesis": "Data-processing / DPU-style optionality",
+   "bucket": "semiconductors",
+   "ytd": 577.52,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 49 is 1 places better than displayed rank 50; adjusted score 12.0; YTD +885.3%; market cap $211M; Scaling watchlist fit is Data-processing / DPU-style optionality; bucket semiconductors; tags none. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

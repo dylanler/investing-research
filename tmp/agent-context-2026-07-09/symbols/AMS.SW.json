@@ -1,0 +1,49 @@
+{
+ "symbol": "AMS.SW",
+ "asOf": "2026-07-09",
+ "company": "AMS.SW",
+ "currency": "CHF",
+ "priceToday": 18.41,
+ "pricePrev": 18.56,
+ "moveSincePrevPct": -0.81,
+ "ytdReturnPct": 113.7,
+ "marketCapUsdB": 2.42,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMS.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 27,
+   "ticker": "AMS.SW",
+   "company": "ams-OSRAM",
+   "score": 73.4,
+   "thesis": "Optical sensing/emitters can feed edge AI, robotics and datacom, while balance-sheet and consumer-cycle scars keep expectations low.",
+   "theme": "Sensors & Photonics",
+   "exchange": "SIX",
+   "ytd": 113.7,
+   "conviction": "Speculative",
+   "catalysts": "Portfolio deleveraging; optical sensing recovery; automotive/industrial design wins.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 19 is 6 places better than displayed rank 25; adjusted score 74.0; YTD +105.1%; market cap $2.2B; ams-OSRAM remains tied to sensors & photonics through Optical emitters, sensors and illumination components. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 119,
+   "ticker": "AMS.SW",
+   "company": "ams OSRAM",
+   "score": 23.0,
+   "thesis": "Optical components expertise but not a direct CPO cable winner yet.",
+   "category": "Optoelectronics/sensors",
+   "ytd": 113.7,
+   "mcapB": 2.42,
+   "risk": "Balance sheet and industrial/auto optics cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: still not a direct co-packaged-optics cable/engine winner. The micro-LED interconnect program is the only CPO-relevant angle and it is unchanged since June 9 (prototype-stage, ~2030 revenue). Keeps it at the bottom of the list; no re-rank."
+   }
+  }
+ ]
+}

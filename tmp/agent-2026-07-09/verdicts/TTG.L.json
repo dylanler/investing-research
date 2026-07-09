@@ -1,0 +1,77 @@
+{
+  "symbol": "TTG.L",
+  "company": "TT Electronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "+1.0% since prior, -0.3% YTD. July 9 context refresh for TT Electronics (TTG.L) across latent-ai-nodes, latent-ai-nodes-strict: market cap $0.28B, move since prior +1.0%, YTD -0.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "TT Electronics trading update (Investegate RNS)",
+      "url": "https://www.investegate.co.uk/announcement/rns/tt-electronics--ttg/trading-update/9251850"
+    },
+    {
+      "label": "TT Electronics news (Stockopedia)",
+      "url": "https://www.stockopedia.com/share-prices/tt-electronics-LON:TTG/news/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/TTG.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "TTG.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TTG.L/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 19. July context shows score 75.0, move since prior +1.0%, YTD -0.3%, market cap $0.28B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Sensors, power conversion and EMS for aerospace/defense and medical could migrate into edge-AI and thermal-control niches.",
+      "neutral": "Latent thesis with no confirming wins; flat guidance keeps it speculative.",
+      "bear": "No direct AI revenue line; margin pressure and cyclical industrial demand dominate the near term.",
+      "primaryCatalyst": "Aerospace/defense or electrification design win",
+      "primaryRisk": "Latent thesis stays latent; industrial softness"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 22. July context shows score 71.0, move since prior +1.0%, YTD -0.3%, market cap $0.28B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Rugged sensors and power assemblies could find edge/thermal-control niches that survive the strict evidence bar over time.",
+      "neutral": "Qualitative setup; no quote snapshot and no fresh evidence keep it mid-pack on the strict screen.",
+      "bear": "Fails to clear a high evidence bar; AI linkage is inferential, end-markets cyclical.",
+      "primaryCatalyst": "Concrete rugged/edge-AI program disclosure",
+      "primaryRisk": "Evidence never firms under strict screen"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 3. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: +1.0% since the prior refresh, -0.3% YTD. Prior frame: Hidden current-sense/thin-film resistor content in AI-server power paths is unchanged; only routine RNS since June 9 and no fresh order/margin signal. Low-crowding microcap (-1.4% YTD) keeps an intact residual-alpha setup; hold the high-conviction rank 3.",
+      "bull": "Underfollowed UK passive/power-sensing supplier with current-sense and film-resistor content in AI-server power paths; minimal crowding, intact residual upside.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 3, score 91.9, +1.0% since prior, -0.3% YTD.",
+      "bear": "2026 trading only 'broadly in line', margin recovery to 12% unproven; AI-content linkage indirect.",
+      "primaryCatalyst": "Margin recovery to 12% target; design wins in power conversion",
+      "primaryRisk": "Flat end-markets; thin AI attribution"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "REHN.SW",
+ "asOf": "2026-07-09",
+ "company": "Romande Energie",
+ "currency": "CHF",
+ "priceToday": 49.3,
+ "pricePrev": 48.4,
+ "moveSincePrevPct": 1.86,
+ "ytdReturnPct": 14.12,
+ "marketCapUsdB": 1.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/REHN.SW/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 10,
+   "ticker": "REHN.SW",
+   "company": "Romande Energie",
+   "score": 55.0,
+   "thesis": "Utility exposure to electricity demand growth",
+   "bucket": "electricity",
+   "ytd": 14.12,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 11; adjusted score 55.0; YTD +10.4%; market cap $1.6B; Scaling watchlist fit is Utility exposure to electricity demand growth; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

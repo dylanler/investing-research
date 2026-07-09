@@ -1,0 +1,32 @@
+{
+ "symbol": "2360.TW",
+ "asOf": "2026-07-09",
+ "company": "Chroma ATE",
+ "currency": "TWD",
+ "priceToday": 1820.0,
+ "pricePrev": 2265.0,
+ "moveSincePrevPct": -19.65,
+ "ytdReturnPct": 128.64,
+ "marketCapUsdB": 25.89,
+ "quoteUrl": "https://finance.yahoo.com/quote/2360.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 23,
+   "ticker": "2360",
+   "company": "Chroma ATE",
+   "score": 51.3,
+   "thesis": "Power electronics and test infrastructure; underfollowed.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TWSE: 2360",
+   "ytd": 128.64,
+   "mcapB": 25.89,
+   "revisionNote": "Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new news since June 9; AI power-test/SLT/CPO-test story (Q1 record) already known and unanimous Strong Buy coverage keeps eroding the 'underfollowed' residual-alpha premise on this crowding-sensitive page. ~185% YTD leaves little hidden asymmetry. Hold."
+   }
+  }
+ ]
+}

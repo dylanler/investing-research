@@ -1,0 +1,105 @@
+{
+  "symbol": "TSM",
+  "company": "TSMC",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 73 hold (+0); down 1.3% since the prior refresh. semiconductor-ai-nodes: rank 35 hold (+0); down 1.3% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for TSM",
+      "url": "https://finance.yahoo.com/quote/TSM/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "TSMC May revenue +30% on AI demand (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260610VL218/tsmc-revenue-demand-capacity-2026.html"
+    },
+    {
+      "label": "TSMC May sales jump 30% (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/tsmc-s-monthly-sales-rise-30-thanks-to-sustained-ai-chip-demand"
+    },
+    {
+      "label": "TSMC CoPoS pilot line / advanced packaging (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "TSM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/TSM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.65,
+      "rankRationale": "TSMC is central to CoWoS and foundry scarcity, but it is a global consensus AI name and appropriately low for hidden alpha.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior -1.3%, YTD +36.7%, market cap about $2477.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 73,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits TSMC through Foundry / logic; Central manufacturing node for AI silicon and silicon photonics, but a global consensus holding. The stock is down 1.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Owns the manufacturing layer for AI silicon and silicon photonics; CoPoS/advanced-packaging buildout adds optionality.",
+      "neutral": "Indispensable but maximally owned; little residual alpha on a crowding-sensitive lens.",
+      "bear": "Consensus mega-cap with geopolitical/capex concentration; no hidden CPO edge here.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Geopolitical and capex concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Taiwan Semiconductor Manufacturing through foundry; core AI winner, but already highly owned; score is capped by crowding and valuation discovery. The stock is down 1.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Record May revenue, robust agentic-AI demand, and CoWoS scaling to ~130-150k wpm cement TSMC as the indispensable AI-node tollgate.",
+      "neutral": "Core AI winner but consensus mega-cap; upside largely discovered at $2.3T and +38% YTD.",
+      "bear": "Crowding, valuation discovery and geopolitical/capex concentration cap incremental alpha despite strong fundamentals.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Geopolitical/Taiwan concentration and AI capex-cycle digestion."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "AMKR",
+ "asOf": "2026-07-09",
+ "company": "Amkor Technology",
+ "currency": "USD",
+ "priceToday": 66.91,
+ "pricePrev": 87.055,
+ "moveSincePrevPct": -23.14,
+ "ytdReturnPct": 55.89,
+ "marketCapUsdB": 16.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMKR/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 5,
+   "ticker": "AMKR",
+   "company": "Amkor Technology",
+   "score": 84.9,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "OSAT / packaging",
+   "ytd": 55.89,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "AI-node bottleneck lens materially strengthened: the June 16 10-year TSMC partnership locks Amkor in as the US domestic advanced-packaging/test choke-point partner (CoWoS/3D-IC). This is a genuine thesis-strengthening contract, not flow, justifying an up-move and a real score bump despite the +22% run."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 8,
+   "ticker": "AMKR",
+   "company": "Amkor Technology",
+   "score": 87.4,
+   "thesis": "Packaging/test leverage to AI chiplets and optical modules, less crowded than front-end equipment.",
+   "category": "Packaging / OSAT",
+   "ytd": 55.89,
+   "mcapB": 16.59,
+   "risk": "OSAT cyclicality and pricing",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Co-packaged-optics lens: advanced packaging is upstream of CPO/optical-engine integration, and the TSMC Arizona pact entrenches Amkor in that flow. The 60.9% YTD 'less-crowded' edge had been fading, but the deal materially re-strengthens the packaging-leverage thesis. Up-move on confirmed structural demand."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 7,
+   "ticker": "AMKR",
+   "company": "Amkor Technology",
+   "score": 84.2,
+   "thesis": "Packaging scarcity exposure. Positive but measured ytd; watch osat and packaging execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 55.89,
+   "auditNote": "Under-owned-bottleneck master list: advanced packaging/substrate scarcity is a core thesis, and the 10-yr TSMC Arizona framework converts Amkor's positioning from cyclical OSAT to a structurally ancho",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Under-owned-bottleneck master list: advanced packaging/substrate scarcity is a core thesis, and the 10-yr TSMC Arizona framework converts Amkor's positioning from cyclical OSAT to a structurally anchored chokepoint franchise. Clear fundamental strengthening of scarce bottleneck exposure; earns an up-move."
+   }
+  }
+ ]
+}

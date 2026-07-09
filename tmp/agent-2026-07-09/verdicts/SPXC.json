@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 63. July context shows score 64.5, move since prior -11.6%, YTD +5.1%, market cap $11.52B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "DC cooling demand real; >$100M capacity add and +38% organic HVAC backlog validate the thesis.",
+      "neutral": "Exposure confirmed but increasingly consensus; cooling angle now widely modeled.",
+      "bear": "Discovery erodes the 'latent' premium; thermal is competitive vs purpose-built liquid-cooling peers.",
+      "primaryCatalyst": "Data-center HVAC backlog conversion and ~50% 2026 DC sales growth.",
+      "primaryRisk": "Loss of latency/discovery edge as the cooling story goes consensus."
+    }
+  ],
+  "symbol": "SPXC",
+  "company": "SPX Technologies",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "SPXC up 5.2% on HVAC capacity expansion (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-spxc/spx-technologies/news/spx-technologies-spxc-is-up-52-after-expanding-hvac-capacity"
+    },
+    {
+      "label": "SPXC clearer data-center cooling play as backlog builds (Insider Monkey/Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-spx-technologies-spxc-becoming-191852273.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SPXC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "SPXC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SPXC/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for SPX Technologies (SPXC) across latent-ai-nodes: market cap $11.52B, move since prior -11.6%, YTD +5.1%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

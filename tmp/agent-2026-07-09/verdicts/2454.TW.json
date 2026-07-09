@@ -1,0 +1,72 @@
+{
+  "symbol": "2454.TW",
+  "company": "MediaTek",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 87 hold (-1); down 13.4% since the prior refresh. semiconductor-ai-nodes: rank 64 hold (-1); down 13.4% since the prior refresh.",
+  "sources": [
+    {
+      "label": "MediaTek wins TPU v9 on SerDes shift, +10-20% pricing (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/06/23/news-mediatek-seen-raising-prices-10-20-reportedly-wins-tpu-v9-orders-on-serdes-shift/"
+    },
+    {
+      "label": "MediaTek ASIC revenue may overtake smartphone chips on Google TPU (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260427PD208/mediatek-asic-revenue-google-tpu.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "2454.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/2454.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 87,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits MediaTek through Mobile / edge AI; AI edge and ASIC optionality, not primary CPO. The stock is down 13.4% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "Datacenter SerDes/ASIC momentum gives optionality adjacent to optical interconnect.",
+      "neutral": "ASIC win is real but not CPO-specific; CPO remains 2028-29.",
+      "bear": "Self-described CPO latecomer; no primary CPO bottleneck position, +208% YTD.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Consumer cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 64,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits MediaTek through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 13.4% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "Exclusive TPU v9 Triggerfish win on 336G SerDes; AI-ASIC rev ~$2B 2026, targeting 10-15% ASIC share; Broadcom lost ground.",
+      "neutral": "Still smartphone-led; ASIC is fast-growing but a minority of revenue at +208% YTD.",
+      "bear": "Single-customer (Google) ASIC concentration; consumer cycle; extreme YTD re-rating.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Google design-revision/sole-customer risk; consumer SoC cycle."
+    }
+  ]
+}

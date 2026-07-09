@@ -1,0 +1,35 @@
+{
+  "symbol": "SCT.NZ",
+  "company": "Scott Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Scott Technology (SCT.NZ) now screens at $0.13B market cap, +9.1% since the prior refresh and -4.5% YTD. Page thesis remains: Industrial automation and robotics systems",
+  "sources": [
+    {
+      "label": "SCT.NZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SCT.NZ/"
+    },
+    {
+      "label": "Scott Technology - Simply Wall St (1H FY26 results)",
+      "url": "https://simplywall.st/stocks/nz/capital-goods/nzx-sct/scott-technology-shares"
+    },
+    {
+      "label": "Scott Technology NZX announcements (BusinessDesk)",
+      "url": "https://businessdesk.co.nz/company/scott-technology"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 6. July market-data refresh shows move since prior +9.1%, YTD -4.5%, market cap $0.13B. Thesis: Industrial automation and robotics systems. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Meat-processing/mining-lab/materials-handling automation franchise with real deployed robotics revenue.",
+      "neutral": "Small-cap ($0.13B) automation house growing low single digits; thesis static.",
+      "bear": "Margin compression in 1H, -12% YTD; not a pure AI-scaling play, more legacy industrial automation.",
+      "primaryCatalyst": "New automation contract / FY26 order book update",
+      "primaryRisk": "Margin erosion from cost inflation; cyclical capex demand"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "300100.SZ",
+ "asOf": "2026-07-09",
+ "company": "Shuanglin Co.",
+ "currency": "CNY",
+ "priceToday": 25.52,
+ "pricePrev": 30.0,
+ "moveSincePrevPct": -14.93,
+ "ytdReturnPct": -35.1,
+ "marketCapUsdB": 2.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/300100.SZ/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 0,
+   "ticker": "300100.SZ",
+   "company": "Shuanglin Co.",
+   "score": 75.6,
+   "thesis": "Shuanglin is not the cleanest proof-point name, but KOID flags it as a body-stack component candidate with strong rerating room after a large YTD pullback.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #13 and alpha score 81. Should hold because $2.7B cap, -19.0% YTD, Actuation purity, and commercialization evidence now matter more than generic humanoid beta. KOID influence: fund rank #44, 1.58% weight, Alpha candidate, Core component. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

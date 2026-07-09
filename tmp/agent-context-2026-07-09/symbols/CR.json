@@ -1,0 +1,32 @@
+{
+ "symbol": "CR",
+ "asOf": "2026-07-09",
+ "company": "Crane Company",
+ "currency": "USD",
+ "priceToday": 214.13,
+ "pricePrev": 216.125,
+ "moveSincePrevPct": -0.92,
+ "ytdReturnPct": 14.18,
+ "marketCapUsdB": 12.41,
+ "quoteUrl": "https://finance.yahoo.com/quote/CR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 73,
+   "ticker": "CR",
+   "company": "Crane Company",
+   "score": 64.3,
+   "thesis": "Aerospace electronics, sensing, fluid management and valves could cross-pollinate into high-reliability cooling/control niches",
+   "theme": "Aerospace/flow systems",
+   "exchange": "NYSE",
+   "regionRank": "US#36",
+   "ytd": 14.18,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-AI lens needs an AI-chain-relevant catalyst; there is none since June 9. The aerospace/flow cross-pollination thesis is speculative and unchanged; +7.5% is sub-threshold industrial drift, so hold with no fundamental delta."
+   }
+  }
+ ]
+}

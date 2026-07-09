@@ -1,0 +1,55 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 35. July context shows score 68.3, move since prior +2.5%, YTD -12.9%, market cap $8.20B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Water-heating/treatment and heat-reuse could find a niche in datacenter campuses long-term.",
+      "neutral": "AI-node linkage purely latent; recent news is governance and China, off-thesis.",
+      "bear": "China consumer weakness and guidance cut weigh on the core; no datacenter demand signal.",
+      "primaryCatalyst": "Datacenter heat-reuse/water-treatment adoption (speculative).",
+      "primaryRisk": "Prolonged China slowdown pressuring the core business."
+    }
+  ],
+  "symbol": "AOS",
+  "company": "A. O. Smith",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "AOS chairman transition (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/kevin-wheeler-to-retire-as-executive-chairman-president-and-ceo-stephen-shafer-named-chairman-302806975.html"
+    },
+    {
+      "label": "AOS trims 2026 guidance on China (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/AOS/8-k-smith-a-o-corp-reports-material-event-f035b9539c7c.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/AOS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "AOS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AOS/"
+    },
+    {
+      "label": "A.O. Smith 8-K (June 22, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000091142/000009114226000091/a06222026exhibit991.htm"
+    },
+    {
+      "label": "A.O. Smith Q1 2026 results, lowered outlook",
+      "url": "https://investor.aosmith.com/news-releases/news-release-details/o-smith-reports-first-quarter-2026-results-and-lowers-full-year"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for A. O. Smith (AOS) across latent-ai-nodes-strict: market cap $8.20B, move since prior +2.5%, YTD -12.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "RR",
+ "asOf": "2026-07-09",
+ "company": "Richtech Robotics",
+ "currency": "USD",
+ "priceToday": 1.81,
+ "pricePrev": 2.065,
+ "moveSincePrevPct": -12.35,
+ "ytdReturnPct": -47.99,
+ "marketCapUsdB": 0.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/RR/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 6,
+   "ticker": "RR",
+   "company": "Richtech Robotics",
+   "score": 76.8,
+   "thesis": "A direct small-cap humanoid and service-robot platform with NVIDIA Isaac/Jetson Thor positioning.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #5 and alpha score 88. Should move down because $709M cap, -30.0% YTD, Builder purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

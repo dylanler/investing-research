@@ -1,0 +1,32 @@
+{
+ "symbol": "ENS",
+ "asOf": "2026-07-09",
+ "company": "EnerSys",
+ "currency": "USD",
+ "priceToday": 199.68,
+ "pricePrev": 227.275,
+ "moveSincePrevPct": -12.14,
+ "ytdReturnPct": 32.48,
+ "marketCapUsdB": 7.53,
+ "quoteUrl": "https://finance.yahoo.com/quote/ENS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 2,
+   "ticker": "ENS",
+   "company": "EnerSys",
+   "score": 84.6,
+   "thesis": "AI data centers need resilient power, ride-through and backup energy; EnerSys is a power reliability supplier that is not generally treated as an AI stock.",
+   "theme": "Power & Grid",
+   "exchange": "NYSE",
+   "ytd": 32.48,
+   "conviction": "High",
+   "catalysts": "UPS refresh cycle; grid constraints; reserve-power margin expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 2; adjusted score 84.0; YTD +51.5%; market cap $8.0B; EnerSys remains tied to power & grid through Batteries, UPS backup and stored-energy systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

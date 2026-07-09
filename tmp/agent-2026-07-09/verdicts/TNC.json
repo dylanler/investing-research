@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 90,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 90. July context shows score 59.8, move since prior -3.6%, YTD +15.7%, market cap $1.51B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Expanding ROVR autonomous-scrubber portfolio and $250M robotics target give a credible path from cleaning to facility robotics.",
+      "neutral": "Robotics is still a small slice; ERP disruption and the legal probe cap re-rating until resolved.",
+      "bear": "Securities-fraud investigation over ERP failure raises management-credibility and litigation risk; AI/robotics link is thin.",
+      "primaryCatalyst": "ROVR autonomous-robotics revenue ramp",
+      "primaryRisk": "Open ERP securities-fraud probe / management credibility"
+    }
+  ],
+  "symbol": "TNC",
+  "company": "Tennant",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "TNC ERP probe / robot scrubber (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tennant-compact-robot-scrubber-erp-011835184.html"
+    },
+    {
+      "label": "TNC securities-fraud investigation (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/tnc-securities-fraud-investigation-tennant-company-is-being-investigated-after-erp-system-issues-lead-to-23-stock-drop-302718248.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/TNC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "TNC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TNC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Tennant (TNC) across latent-ai-nodes-strict: market cap $1.51B, move since prior -3.6%, YTD +15.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

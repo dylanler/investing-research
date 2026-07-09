@@ -1,0 +1,39 @@
+{
+  "symbol": "6754.T",
+  "company": "Anritsu",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the EDA, test & timing thesis. For this stock, price moved -8.7% since the prior snapshot and YTD return is +78.8%; verdict: hold with scoreDelta 0.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 6754.T",
+      "url": "https://finance.yahoo.com/quote/6754.T/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Anritsu’s test thesis is intact, but strong YTD and no fresh catalyst keep it unchanged.",
+      "bull": "EDA, timing and test complexity rises with custom accelerators, HBM and advanced packaging.",
+      "neutral": "Current snapshot: move since prior -8.7%, YTD +78.8%, market cap about $3.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "High multiples and slower conversion of AI design complexity into incremental revenue.",
+      "primaryCatalyst": "Custom accelerator tape-outs, HBM/GPU test wins and design-complexity growth",
+      "primaryRisk": "High multiples and slower conversion of AI design complexity into incremental revenue."
+    }
+  ]
+}

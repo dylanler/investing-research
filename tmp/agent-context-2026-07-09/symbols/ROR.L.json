@@ -1,0 +1,32 @@
+{
+ "symbol": "ROR.L",
+ "asOf": "2026-07-09",
+ "company": "Rotork",
+ "currency": "GBp",
+ "priceToday": 291.6,
+ "pricePrev": 306.2,
+ "moveSincePrevPct": -4.77,
+ "ytdReturnPct": -10.39,
+ "marketCapUsdB": 3.32,
+ "quoteUrl": "https://finance.yahoo.com/quote/ROR.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 12,
+   "ticker": "ROR.L",
+   "company": "Rotork",
+   "score": 73.0,
+   "thesis": "Actuators and flow-control systems could fit coolant, water and industrial control loops",
+   "theme": "Flow control/actuators",
+   "exchange": "LSE",
+   "regionRank": "Non-US#6",
+   "ytd": -10.39,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No material news since June 9; a June 10 director purchase is a minor confidence signal, not evidence. The strict latent-node thesis (actuators/flow control into coolant and water loops) is unchanged and the name remains un-rerated at -5.9% YTD, so residual alpha intact but not improved."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "AEVA",
+ "asOf": "2026-07-09",
+ "company": "Aeva",
+ "currency": "USD",
+ "priceToday": 21.5,
+ "pricePrev": 24.315,
+ "moveSincePrevPct": -11.58,
+ "ytdReturnPct": 68.63,
+ "marketCapUsdB": 1.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/AEVA/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 21,
+   "ticker": "AEVA",
+   "company": "Aeva",
+   "score": 62.7,
+   "thesis": "Strong physical-AI sensing story, but the stock has already moved.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #32 and alpha score 63. Should move down because $1.6B cap, +81.1% YTD, Sensing purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

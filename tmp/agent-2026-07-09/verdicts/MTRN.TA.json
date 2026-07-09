@@ -1,0 +1,35 @@
+{
+  "symbol": "MTRN.TA",
+  "company": "Maytronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Maytronics (MTRN.TA) now screens at n/a market cap, +4.8% since the prior refresh and -41.2% YTD. Page thesis remains: Robotic systems / consumer automation",
+  "sources": [
+    {
+      "label": "MTRN.TA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MTRN.TA/"
+    },
+    {
+      "label": "Maytronics Dolphin EON launch (GlobeNewswire, Jan 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/01/05/3212409/0/en/Maytronics-Debuts-Dolphin-EON-The-World-s-Most-Meticulous-Pool-Cleaning-Robot.html"
+    },
+    {
+      "label": "Maytronics Q4 2025 earnings call (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-maytronics-q4-2025-reveals-strategic-shift-amid-challenges-93CH-4623887"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 28. July market-data refresh shows move since prior +4.8%, YTD -41.2%, market cap n/a. Thesis: Robotic systems / consumer automation. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Dolphin EON line and robotics-only refocus deepen consumer-automation/physical-AI positioning at a beaten-down micro-cap valuation.",
+      "neutral": "Real autonomous-cleaning robotics, but consumer pool niche is far from compute-scaling theses.",
+      "bear": "Deep -44% YTD, $80M cap, soft demand; robotics relevance to scaling is tangential.",
+      "primaryCatalyst": "EON ramp and execution on the cost/procurement turnaround plan.",
+      "primaryRisk": "Consumer-discretionary weakness; micro-cap liquidity and margin pressure."
+    }
+  ]
+}

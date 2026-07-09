@@ -1,0 +1,30 @@
+{
+ "symbol": "5274.TWO",
+ "asOf": "2026-07-09",
+ "company": "ASPEED Technology",
+ "currency": "TWD",
+ "priceToday": 13665.0,
+ "pricePrev": 18505.0,
+ "moveSincePrevPct": -26.16,
+ "ytdReturnPct": 107.19,
+ "marketCapUsdB": 18.64,
+ "quoteUrl": "https://finance.yahoo.com/quote/5274.TWO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 19,
+   "ticker": "5274.TW",
+   "company": "ASPEED Technology",
+   "score": 68.8,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 107.19,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "ASPEED Technology should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 141.6% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 23 implies."
+   }
+  }
+ ]
+}

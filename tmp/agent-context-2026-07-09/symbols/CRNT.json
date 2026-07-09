@@ -1,0 +1,29 @@
+{
+ "symbol": "CRNT",
+ "asOf": "2026-07-09",
+ "company": "Ceragon Networks",
+ "currency": "USD",
+ "priceToday": 2.32,
+ "pricePrev": 2.655,
+ "moveSincePrevPct": -12.62,
+ "ytdReturnPct": 5.94,
+ "marketCapUsdB": 0.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/CRNT/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 37,
+   "ticker": "CRNT",
+   "company": "Ceragon Networks",
+   "score": 34.0,
+   "thesis": "Wireless backhaul and network densification",
+   "bucket": "networking",
+   "ytd": 5.94,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 37 is 2 places worse than displayed rank 35; adjusted score 34.0; YTD +36.1%; market cap $260M; Scaling watchlist fit is Wireless backhaul and network densification; bucket networking; tags compute_factory. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

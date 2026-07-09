@@ -1,0 +1,32 @@
+{
+ "symbol": "ITRI",
+ "asOf": "2026-07-09",
+ "company": "Itron",
+ "currency": "USD",
+ "priceToday": 84.05,
+ "pricePrev": 81.65,
+ "moveSincePrevPct": 2.94,
+ "ytdReturnPct": -11.03,
+ "marketCapUsdB": 3.73,
+ "quoteUrl": "https://finance.yahoo.com/quote/ITRI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 4,
+   "ticker": "ITRI",
+   "company": "Itron",
+   "score": 83.5,
+   "thesis": "The AI power bottleneck increases the value of granular grid telemetry; Itron owns installed endpoints and software needed for demand response and grid visibility.",
+   "theme": "Power & Grid",
+   "exchange": "NASDAQ",
+   "ytd": -11.03,
+   "conviction": "High",
+   "catalysts": "AMI rollouts; utility resilience spending; water/energy analytics attach.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 5 is 2 places better than displayed rank 7; adjusted score 82.0; YTD -13.4%; market cap $3.6B; Itron remains tied to power & grid through Smart meters, grid endpoints and utility data networks. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

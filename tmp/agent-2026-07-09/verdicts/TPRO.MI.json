@@ -1,0 +1,59 @@
+{
+  "symbol": "TPRO.MI",
+  "company": "Technoprobe",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 29 hold (+0); down 12.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Technoprobe surges 36% on Q1, raised targets (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/technoprobe-shares-surge-36-as-q1-profit-jumps-targets-accelerated-4691350"
+    },
+    {
+      "label": "Technoprobe shares surge on raised guidance (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/technoprobe-shares-surge-by-a-record-after-raising-guidance"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "TPRO.MI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/TPRO.MI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Technoprobe through Test / probe; Probe-card scarcity for complex AI/photonic devices; underfollowed outside Europe. The stock is down 12.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "~30% global probe-card share and ~38-50% AI revenue mix make it a genuine choke-point for testing AI/photonic devices; targets pulled forward to 2026.",
+      "neutral": "Strong setup but +180% YTD and a $28B cap have largely captured the upgraded targets; move since June 9 is sentiment.",
+      "bear": "Customer concentration, cyclicality and a steep valuation; any AI capex pause hits a high-multiple test name hard.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Customer concentration and cyclicality"
+    }
+  ]
+}

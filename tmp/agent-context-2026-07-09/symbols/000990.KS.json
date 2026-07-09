@@ -1,0 +1,30 @@
+{
+ "symbol": "000990.KS",
+ "asOf": "2026-07-09",
+ "company": "DB HiTek",
+ "currency": "KRW",
+ "priceToday": 116700.0,
+ "pricePrev": 151100.0,
+ "moveSincePrevPct": -22.77,
+ "ytdReturnPct": 58.34,
+ "marketCapUsdB": 3.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/000990.KS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 79,
+   "ticker": "000990.KS",
+   "company": "DB HiTek",
+   "score": 48.8,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 58.34,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "DB HiTek should move down because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity is either less hidden after 115.5% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 91 implies."
+   }
+  }
+ ]
+}

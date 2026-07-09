@@ -1,0 +1,113 @@
+{
+  "symbol": "AMD",
+  "company": "AMD",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 88 hold (+0); down 1.1% since the prior refresh. semiconductor-ai-nodes: rank 42 hold (+0); down 1.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for AMD",
+      "url": "https://finance.yahoo.com/quote/AMD/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "AMD MI400 lineup (DCD)",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/"
+    },
+    {
+      "label": "AMD Instinct roadmap (IR)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1201/amd-accelerates-pace-of-data-center-ai-innovation-and-leadership-with-expanded-amd-instinct-gpu-roadmap"
+    },
+    {
+      "label": "AMD Q1 2026 results (IR)",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "AMD-Oracle 50k GPU agreement",
+      "url": "https://finance.yahoo.com/news/amd-and-oracle-announce-agreement-for-50000-gpus-as-ai-deal-spree-continues-121807781.html"
+    },
+    {
+      "label": "S&P Global: AMD next-gen AI chips 2026",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/amd-s-next-generation-ai-chips-set-to-power-2026-data-center-growth"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AMD Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AMD/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 93,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.71,
+      "rankRationale": "Accelerator optionality is now widely owned after a large YTD move; scarce exposure is not under-owned.",
+      "bull": "Compute platforms and IP remain strategically central to AI capacity.",
+      "neutral": "Current snapshot: move since prior -1.1%, YTD +131.5%, market cap about $843.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Megacap consensus ownership, hyperscaler margin scrutiny and custom-silicon competition.",
+      "primaryCatalyst": "Next accelerator/platform launch and hyperscaler design wins",
+      "primaryRisk": "Megacap consensus ownership, hyperscaler margin scrutiny and custom-silicon competition."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Advanced Micro Devices through AI compute; Potential beneficiary if open AI platform scale-up fabrics broaden; less direct CPO monetization than network/optics names. The stock is down 1.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Open scale-up fabric (UALink/Ethernet) adoption pulls AMD into optical interconnect demand over time.",
+      "neutral": "No direct CPO catalyst; AMD remains a derivative play on this page.",
+      "bear": "Network/optics names monetize CPO far more directly than AMD.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "AI accelerator competition and margins"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Advanced Micro Devices through AI accelerator; Second-source AI accelerator and EPYC exposure with Meta/AWS/Google/Microsoft/Tencent deployments and Samsung HBM collaboration. Alpha depends on closing the software/platform gap and converting MI demand into margin. The stock is down 1.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "MI450/Helios 2H26 ramp plus OpenAI 6GW deal gives durable second-source accelerator demand.",
+      "neutral": "Roadmap known since CES; recent move is flow, thesis flat vs June 9.",
+      "bear": "Most-owned Nvidia alternative; software/platform gap and margin conversion still unproven at $857B cap.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Crowding and ROCm software gap limiting margin capture."
+    }
+  ]
+}

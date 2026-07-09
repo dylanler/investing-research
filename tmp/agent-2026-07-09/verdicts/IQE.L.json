@@ -1,0 +1,39 @@
+{
+  "symbol": "IQE.L",
+  "company": "IQE plc",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. IQE plc (IQE.L) now screens at $0.80B market cap, -21.7% since the prior refresh and +657.1% YTD. Page thesis remains: Epitaxy materials stack; upstream bottleneck exposure",
+  "sources": [
+    {
+      "label": "IQE.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/IQE.L/"
+    },
+    {
+      "label": "IQE-Tower multi-year InP epiwafer supply agreement (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311514/0/en/IQE-and-Tower-Semiconductor-Announce-Multi-year-InP-epiwafer-Supply-Agreement.html"
+    },
+    {
+      "label": "IQE corporate press release",
+      "url": "https://www.iqep.com/media/press-releases/2026/iqe-and-tower-semiconductor-announce-multi-year-inp-epiwafer-supply-agreement/"
+    },
+    {
+      "label": "Semiconductor Today coverage",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/iqe-tower-150626.shtml"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 47,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.61,
+      "rankRationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 47. July market-data refresh shows move since prior -21.7%, YTD +657.1%, market cap $0.80B. Thesis: Epitaxy materials stack; upstream bottleneck exposure. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Multi-year InP epiwafer commitments tied to AI-datacenter optics (200/400Gb pluggables, OCS); IP dispute settled; scarce scaled epitaxy supply.",
+      "neutral": "Volumes/revenue magnitude not quantified; epitaxy is upstream and cyclical.",
+      "bear": "Score 13 reflects weak fundamentals/cash needs; +867% YTD signals extreme re-rating risk unrelated to this fundamental note.",
+      "primaryCatalyst": "Ramp of Tower InP epiwafer volumes for AI optical connectivity.",
+      "primaryRisk": "Thin balance sheet / cash burn at a sub-$1B cap; deal revenue slow to materialize."
+    }
+  ]
+}

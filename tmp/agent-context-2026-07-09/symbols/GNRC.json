@@ -1,0 +1,32 @@
+{
+ "symbol": "GNRC",
+ "asOf": "2026-07-09",
+ "company": "Generac",
+ "currency": "USD",
+ "priceToday": 236.61,
+ "pricePrev": 278.83,
+ "moveSincePrevPct": -15.14,
+ "ytdReturnPct": 67.69,
+ "marketCapUsdB": 13.93,
+ "quoteUrl": "https://finance.yahoo.com/quote/GNRC/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 69,
+   "ticker": "GNRC",
+   "company": "Generac",
+   "score": 20.8,
+   "thesis": "Power resilience and backup power; tight-supply, underfollowed.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: GNRC",
+   "ytd": 67.69,
+   "mcapB": 13.93,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-vs-passives power lens: June 18 Belvidere large-MW packaging acquisition is a fresh, modest fundamental confirm of the data-center power C&I pivot. Offsets the eroding 'underfollowed' leg flagged prior; not large enough to re-rank in the bucket."
+   }
+  }
+ ]
+}

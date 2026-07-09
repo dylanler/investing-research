@@ -1,0 +1,72 @@
+{
+  "symbol": "2408.TW",
+  "company": "Nanya Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 95 hold (+0); down 4.2% since the prior refresh. semiconductor-ai-nodes: rank 89 hold (+0); down 4.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Nanya: DRAM shortage to last through 2028 (Taipei Times)",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/05/2003853263"
+    },
+    {
+      "label": "Nanya custom AI memory trial, results 2H26 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/03/06/news-nanya-tech-reportedly-starts-custom-ai-memory-trial-progress-set-to-show-in-h2-2026/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "2408.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/2408.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Nanya Technology through Memory; Memory recovery rather than CPO alpha. The stock is down 4.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "HBM/server-DRAM tightness; broad memory upcycle.",
+      "neutral": "No CPO relevance; pure memory-cycle play.",
+      "bear": "Commodity memory cycle + valuation after +120% YTD; not a packaging/optics bottleneck.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Commodity memory cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Nanya Technology through memory; HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks. The stock is down 4.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "DRAM shortage to 2028, HBM crowd-out lifts commodity pricing; custom AI memory optionality H2 2026.",
+      "neutral": "Cyclical beneficiary, but not an HBM3E/HBM4 leader; alpha already broadcast.",
+      "bear": "Commodity-DRAM cycle and capex-timing risk; +120% YTD prices in much of the upcycle.",
+      "primaryCatalyst": "HBM/DRAM supply tightness and contracted AI memory demand",
+      "primaryRisk": "Commodity memory cycle reversal / capex digestion."
+    }
+  ]
+}

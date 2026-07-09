@@ -1,0 +1,76 @@
+{
+  "symbol": "VRT",
+  "company": "Vertiv",
+  "caseDate": "2026-07-09",
+  "newsSince": "-1.7% since prior, +81.0% YTD. Since the June 23 refresh, July market and web research updated the Power, cooling & electrical thesis. For this stock, price moved -1.7% since the prior snapshot and YTD return is +81.0%; verdict: down with scoreDelta -3.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for VRT",
+      "url": "https://finance.yahoo.com/quote/VRT/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Vertiv completes ThermoKey acquisition (PRNewswire, Jun 12)",
+      "url": "https://www.prnewswire.com/news-releases/vertiv-completes-acquisition-of-thermokey-expanding-heat-rejection-portfolio-for-ai-data-centers-302798971.html"
+    },
+    {
+      "label": "Vertiv 8-K Jun 12 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026042641/exhibit991vrt-q220266122026.htm"
+    },
+    {
+      "label": "Vertiv $15B backlog, liquid-cooling dominance (Seeking Alpha)",
+      "url": "https://seekingalpha.com/article/4890719-vertiv-holdings-the-15-billion-backlog-liquid-cooling-dominance-and-the-ai-infrastructure-trade-wall-street-is-still-underpricing"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/VRT/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 14,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.68,
+      "rankRationale": "Fundamentals remain excellent, but Vertiv is now a consensus AI-infrastructure winner with a large YTD move; residual under-owned alpha compresses.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -1.7%, YTD +81.0%, market cap about $122.1B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 71. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -1.7% since the prior refresh, +81.0% YTD. Prior frame: Residual-alpha-vs-passives lens: ThermoKey close (Jun 12), 2030 investor-day roadmap and PT raises are genuinely positive fundamentals, but on this crowding-sensitive list a $125B name +85% YTD that ran +12% since Jun 9 is re-crowding, not de-crowding. Strong fundamentals only modestly help residual asymmetry. Small +.",
+      "bull": "ThermoKey + Strategic Thermal Labs deepen thermal stack; ~$15B backlog, raised FY26 guide, 2030 roadmap, NVIDIA co-development.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 71, score 20.5, -1.7% since prior, +81.0% YTD.",
+      "bear": "On a residual-alpha screen the easy money is gone; +12% in two weeks adds momentum money, hurting asymmetry.",
+      "primaryCatalyst": "Q2 print confirming raised guidance and backlog growth from AI-factory liquid-cooling demand.",
+      "primaryRisk": "Crowding unwind / AI-capex digestion; multiple compression on a heavily-owned name."
+    }
+  ]
+}

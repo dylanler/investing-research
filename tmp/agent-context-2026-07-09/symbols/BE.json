@@ -1,0 +1,32 @@
+{
+ "symbol": "BE",
+ "asOf": "2026-07-09",
+ "company": "Bloom Energy",
+ "currency": "USD",
+ "priceToday": 254.29,
+ "pricePrev": 327.32,
+ "moveSincePrevPct": -22.31,
+ "ytdReturnPct": 157.67,
+ "marketCapUsdB": 77.05,
+ "quoteUrl": "https://finance.yahoo.com/quote/BE/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 92,
+   "ticker": "BE",
+   "company": "Bloom Energy",
+   "score": 3.3,
+   "thesis": "Onsite generation as grid bottleneck workaround; bottleneck, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: BE",
+   "ytd": 157.67,
+   "mcapB": 77.05,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On a residual-alpha-vs-passives lens, the Brookfield/Oracle news is real but only confirms the crowded/rerated-benchmark bucket: +232% YTD, ~$93B cap, score already 0 at rank 100. No untapped residual alpha; hold the demoted floor."
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "symbol": "AVGO",
+ "asOf": "2026-07-09",
+ "company": "Broadcom",
+ "currency": "USD",
+ "priceToday": 388.69,
+ "pricePrev": 384.13,
+ "moveSincePrevPct": 1.19,
+ "ytdReturnPct": 11.81,
+ "marketCapUsdB": 1849.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/AVGO/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 94,
+   "ticker": "AVGO",
+   "company": "Broadcom",
+   "score": 1.7,
+   "thesis": "Scale-up networking and custom AI ASICs; direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: AVGO",
+   "ytd": 11.81,
+   "mcapB": 1849.0,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the residual-alpha-vs-passives lens nothing changed since June 9: a $1.8T benchmark mega-cap cannot become under-owned or hidden. No new catalyst; the post-earnings facts were already priced into the June 9 hold. Stays a monitor/benchmark name."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 24,
+   "ticker": "AVGO",
+   "company": "Broadcom",
+   "score": 67.7,
+   "thesis": "Custom AI accelerators, Ethernet networking and infrastructure software cash flow. Strong platform, but high market cap, customer concentration and visibility reduce early-alpha score.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 11.81,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the AI-node-bottleneck lens the thesis is intact and accelerating: custom ASIC + scale-up Ethernet revenue tripling to ~$16B in Q3 (+~200% y/y) and >$100B FY27 AI target reiterated, while the stock de-rated post-earnings. Sell-off with thesis strengthening improves node-relevance asymmetry; continue up."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 93,
+   "ticker": "AVGO",
+   "company": "Broadcom",
+   "score": 46.0,
+   "thesis": "CPO platform leader and ecosystem anchor; alpha mostly from continued AI networking share rather than being undiscovered.",
+   "category": "AI ASIC / networking",
+   "ytd": 11.81,
+   "mcapB": 1849.0,
+   "risk": "Large-cap valuation and customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The page's own thesis concedes AVGO's CPO alpha is 'not undiscovered'; nothing since June 9 makes the consensus ecosystem anchor under-owned vs smaller CPO pure-plays. -2.2% drift only. Hold the low rank on this crowding-sensitive lens."
+   }
+  },
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 1,
+   "ticker": "NASDAQ: AVGO",
+   "company": "Broadcom",
+   "score": 77.8,
+   "thesis": "Strong exposure to two fast-growing silicon needs at once: custom accelerators and AI networking/interconnect.",
+   "theme": "Silicon / AI-cluster consumption",
+   "ytd": 11.81,
+   "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Already rank 1 on the silicon-consumption basket and the quarter validated it (AI silicon $10.8B to guided ~$16B/qtr). No new data since June 9; the de-rating changes price, not theme leadership. Cleanest dual silicon-consumption proxy (ASIC + interconnect); hold the top slot."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 46,
+   "ticker": "AVGO",
+   "company": "Broadcom",
+   "score": 60.0,
+   "thesis": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch custom silicon and networking execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 11.81,
+   "auditNote": "On the master bottleneck list the optics/high-speed-networking thesis is intact and accelerating (AI revenue doubling, guided to triple), and YTD is only +10% with the stock ~20% off highs after the p",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the master bottleneck list the optics/high-speed-networking thesis is intact and accelerating (AI revenue doubling, guided to triple), and YTD is only +10% with the stock ~20% off highs after the post-earnings flush. The setup that drove June 9's up-move persists; continue up modestly."
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+  "symbol": "6266.T",
+  "company": "TOWA",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 21 hold (+0); down 1.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Advanced-packaging / HBM packaging context (TrendForce memory wall)",
+      "url": "https://www.trendforce.com/insights/memory-wall"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "6266.T Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/6266.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits TOWA through OSAT / packaging; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 1.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Leveraged small-cap exposure to HBM/chiplet advanced-packaging capacity build-out.",
+      "neutral": "Sector beta is carrying it; no idiosyncratic catalyst since June 9.",
+      "bear": "131% YTD on a tiny cap invites a sharp reversal if packaging-capex enthusiasm cools.",
+      "primaryCatalyst": "HBM/chiplet packaging capacity additions and customer awards",
+      "primaryRisk": "Liquidity/valuation discovery risk after a parabolic move"
+    }
+  ]
+}

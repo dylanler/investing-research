@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 48. July context shows score 67.0, move since prior +1.0%, YTD -4.4%, market cap $2.07B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Vegetation/infrastructure-maintenance equipment could ride physical build-out adjacent to data-center/grid expansion; tariff relief aids margin.",
+      "neutral": "Very loose AI link; demand is governed by municipal/ag cycles, not compute build-out.",
+      "bear": "Industrial orders down 11%; management guides slowing 2026 industrial sales; thesis remains speculative.",
+      "primaryCatalyst": "Tariff relief; infrastructure spend",
+      "primaryRisk": "Industrial/ag demand softening"
+    }
+  ],
+  "symbol": "ALG",
+  "company": "Alamo Group",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Simply Wall St — Alamo tariff cut",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-alg/alamo-group/news/alamo-group-alg-stock-could-be-231-undervalued-after-tariff"
+    },
+    {
+      "label": "Alamo Q1 2026 earnings call",
+      "url": "https://www.aol.com/articles/alamo-alg-q1-2026-earnings-192148977.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ALG/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ALG quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ALG/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Alamo Group (ALG) across latent-ai-nodes-strict: market cap $2.07B, move since prior +1.0%, YTD -4.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

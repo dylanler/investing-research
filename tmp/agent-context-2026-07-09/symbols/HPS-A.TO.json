@@ -1,0 +1,32 @@
+{
+ "symbol": "HPS-A.TO",
+ "asOf": "2026-07-09",
+ "company": "HPS.A.TO",
+ "currency": "CAD",
+ "priceToday": 315.9,
+ "pricePrev": 344.72,
+ "moveSincePrevPct": -8.36,
+ "ytdReturnPct": 94.4,
+ "marketCapUsdB": 2.66,
+ "quoteUrl": "https://finance.yahoo.com/quote/HPS-A.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 5,
+   "ticker": "HPS.A.TO",
+   "company": "Hammond Power Solutions",
+   "score": 82.7,
+   "thesis": "Small enough to remain underfollowed, but directly exposed to transformer shortages, electrification and data-centre expansion.",
+   "theme": "Power & Grid",
+   "exchange": "TSX",
+   "ytd": 94.4,
+   "conviction": "High",
+   "catalysts": "Transformer backlog; U.S. data-centre/custom-engineered demand; capacity expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 3 is 11 places better than displayed rank 14; adjusted score 82.8; YTD +92.6%; market cap $2.8B; Hammond Power Solutions reported record 2025 sales and backlog growth with management citing data-centre expansion and electrification. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

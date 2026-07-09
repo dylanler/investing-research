@@ -1,0 +1,32 @@
+{
+ "symbol": "APG",
+ "asOf": "2026-07-09",
+ "company": "APi Group",
+ "currency": "USD",
+ "priceToday": 41.47,
+ "pricePrev": 42.31,
+ "moveSincePrevPct": -1.99,
+ "ytdReturnPct": 6.42,
+ "marketCapUsdB": 17.97,
+ "quoteUrl": "https://finance.yahoo.com/quote/APG/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 25,
+   "ticker": "APG",
+   "company": "APi Group",
+   "score": 73.4,
+   "thesis": "Safety, suppression and inspection services are mandatory in high-density data centers but usually ignored in AI supply-chain screens.",
+   "theme": "Data Center Services",
+   "exchange": "NYSE",
+   "ytd": 6.42,
+   "conviction": "Medium",
+   "catalysts": "Data-center service contracts; inspection/monitoring digitization; margin expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 35 is 7 places worse than displayed rank 28; adjusted score 70.0; YTD +8.3%; market cap $18.3B; APi Group remains tied to data center services through Fire/life safety and specialty services for critical facilities. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

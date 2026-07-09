@@ -1,0 +1,31 @@
+{
+ "symbol": "6415.TW",
+ "asOf": "2026-07-09",
+ "company": "Silergy",
+ "currency": "TWD",
+ "priceToday": 523.0,
+ "pricePrev": 645.0,
+ "moveSincePrevPct": -18.91,
+ "ytdReturnPct": 181.94,
+ "marketCapUsdB": 6.76,
+ "quoteUrl": "https://finance.yahoo.com/quote/6415.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 120,
+   "ticker": "6415.TW",
+   "company": "Silergy",
+   "score": 18.1,
+   "thesis": "Power ICs, not CPO-specific.",
+   "category": "Power management",
+   "ytd": 181.94,
+   "mcapB": 6.76,
+   "risk": "Consumer/industrial cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Silergy should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 182.5% YTD and $7.2B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

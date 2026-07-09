@@ -1,0 +1,27 @@
+{
+ "symbol": "XBOTF",
+ "asOf": "2026-07-09",
+ "company": "Realbotix",
+ "currency": "USD",
+ "priceToday": 0.2513,
+ "pricePrev": 0.1901,
+ "moveSincePrevPct": 32.19,
+ "ytdReturnPct": -23.17,
+ "marketCapUsdB": 0.06,
+ "quoteUrl": "https://finance.yahoo.com/quote/XBOTF/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 3,
+   "ticker": "XBOTF",
+   "company": "Realbotix",
+   "score": 83.1,
+   "thesis": "The directest micro-cap humanoid exposure in the list, with real deployed social robots and a pending Nasdaq path through Onconetix.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #2 and alpha score 92. Should move down because $47M cap, -35.8% YTD, Builder purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

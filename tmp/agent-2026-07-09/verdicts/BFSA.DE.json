@@ -1,0 +1,63 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 7. July context shows score 75.7, move since prior -2.9%, YTD +5.0%, market cap $1.46B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Steel-dust/aluminum-residue recycling leverages metal circularity as AI build-out lifts EAF steel and metal demand; record 2025 EBITDA.",
+      "neutral": "Solid circular-economy compounder but the AI link is indirect and speculative.",
+      "bear": "Higher 2026 zinc treatment charge (~$100-130/t vs $80) pressures margins; AI tie is tenuous.",
+      "primaryCatalyst": "Higher US EAF steel-dust volumes from new steelmaker contracts.",
+      "primaryRisk": "Zinc treatment-charge and metals-price volatility."
+    }
+  ],
+  "symbol": "BFSA.DE",
+  "company": "Befesa",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Befesa earnings update & recycling outlook (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-earnings-update-and-recycling-outlook/69395616"
+    },
+    {
+      "label": "Befesa record 2025 performance (Recycling Today)",
+      "url": "https://www.recyclingtoday.com/news/befesa-sees-record-performance-in-2025/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BFSA.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "BFSA.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BFSA.DE/"
+    },
+    {
+      "label": "Befesa AGM agenda & capital-return plans",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-agm-agenda-and-capital-return-plans-move/69390318"
+    },
+    {
+      "label": "Befesa AGM agenda and capital return - ad-hoc-news",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/befesa-s-a-stock-lu1704650164-agm-agenda-and-capital-return-plans-move/69390318"
+    },
+    {
+      "label": "Befesa record 2025 performance - Recycling Today",
+      "url": "https://www.recyclingtoday.com/news/befesa-sees-record-performance-in-2025/"
+    },
+    {
+      "label": "Befesa Q1 results and guidance (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/befesa-reports-improved-margins-despite-lower-volumes-in-first-quarter-93CH-4647784"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Befesa (BFSA.DE) across latent-ai-nodes-strict: market cap $1.46B, move since prior -2.9%, YTD +5.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

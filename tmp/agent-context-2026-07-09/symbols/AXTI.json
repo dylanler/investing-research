@@ -1,0 +1,31 @@
+{
+ "symbol": "AXTI",
+ "asOf": "2026-07-09",
+ "company": "AXT",
+ "currency": "USD",
+ "priceToday": 60.12,
+ "pricePrev": 78.635,
+ "moveSincePrevPct": -23.55,
+ "ytdReturnPct": 258.71,
+ "marketCapUsdB": 3.93,
+ "quoteUrl": "https://finance.yahoo.com/quote/AXTI/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 23,
+   "ticker": "AXTI",
+   "company": "AXT",
+   "score": 78.9,
+   "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+   "category": "Materials / substrates",
+   "ytd": 258.71,
+   "mcapB": 3.93,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "New June 11 binding InP supply deal (~$25.4M through 2027) is fresh validation of the CPO/optical-substrate bottleneck thesis, a genuine fundamental positive on this high-priority alpha screen. Tempered upgrade only: revenue is still gated by Chinese export permits and the name already ran +377% YTD."
+   }
+  }
+ ]
+}

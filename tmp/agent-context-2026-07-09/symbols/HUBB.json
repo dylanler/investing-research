@@ -1,0 +1,50 @@
+{
+ "symbol": "HUBB",
+ "asOf": "2026-07-09",
+ "company": "HUBB",
+ "currency": "USD",
+ "priceToday": 480.5,
+ "pricePrev": 520.335,
+ "moveSincePrevPct": -7.66,
+ "ytdReturnPct": 3.77,
+ "marketCapUsdB": 25.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/HUBB/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 50,
+   "ticker": "HUBB",
+   "company": "Hubbell",
+   "score": 32.4,
+   "thesis": "Electrical distribution bottleneck exposure; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NYSE: HUBB",
+   "ytd": 3.77,
+   "mcapB": 25.3,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the residual-alpha-vs-passives lens, the June 9 NSI close de-risks funding and deepens datacenter-adjacent electrical-components exposure, but the deal was telegraphed since early May and HUBB sits a step removed from the passive/power bottleneck core this page rewards. Closing is confirmatory; small positive delta, hold rank 49."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 82,
+   "ticker": "HUBB",
+   "company": "Hubbell",
+   "score": 60.6,
+   "thesis": "Hubbell is a best-in-class utility/electrical supplier, but the electrification thesis is already widely owned.",
+   "theme": "Power & Grid",
+   "exchange": "NYSE",
+   "ytd": 3.77,
+   "conviction": "Medium",
+   "catalysts": "Grid hardening; data-center electrical demand; utility capex.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 78; adjusted score 60.0; YTD +4.8%; market cap $25.6B; Hubbell remains tied to power & grid through Electrical and utility components. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

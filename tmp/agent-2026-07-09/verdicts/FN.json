@@ -1,0 +1,77 @@
+{
+  "symbol": "FN",
+  "company": "Fabrinet",
+  "caseDate": "2026-07-09",
+  "newsSince": "-17.7% since prior, +0.1% YTD. Move down. Fabrinet remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers.",
+  "sources": [
+    {
+      "label": "FN Q3 FY26 8-K earnings release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000014/fn-2026504xex991q326.htm"
+    },
+    {
+      "label": "FN optical communications revenues accelerate (TradingView/Zacks)",
+      "url": "https://www.tradingview.com/news/zacks:a10615093094b:0-fn-s-optical-communications-revenues-accelerate-what-s-ahead/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/FN/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "FN quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/FN/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 16,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Fabrinet’s optics manufacturing capacity is scarce and the selloff restores some asymmetry without breaking the thesis.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -17.7%, YTD +0.1%, market cap about $22.1B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 96,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.75,
+      "rankRationale": "Move down. Fabrinet remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers.",
+      "bull": "Optical-equipment exposure to AI/datacom with record fiscal Q3.",
+      "neutral": "Latent-alpha premise undercut by broad ownership and sell-side coverage.",
+      "bear": "Crowded name; little hidden asymmetry left.",
+      "primaryCatalyst": "800G/1.6T manufacturing; customer demand; margin stability.",
+      "primaryRisk": "The AI linkage may remain indirect, already priced, or swamped by the core industrial cycle."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 74,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 74. July context does not change the page placement: -17.7% since the prior refresh, +0.1% YTD. Prior frame: No new fundamentals since June 9; the -1.2% drift is noise. FN remains peripheral to the core passive/power bottleneck stack on this list, and the prior small up-move (de-crowding flush) is already reflected. Optics-manufacturing thesis intact but not central here.",
+      "bull": "1.6T/Blackwell transceiver and DCI manufacturing leverage with record telecom revenue.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 74, score 18.3, -17.7% since prior, +0.1% YTD.",
+      "bear": "Customer-concentration and AI-capex cyclicality; not a true passives bottleneck.",
+      "primaryCatalyst": "800G/1.6T and DCI volume ramp",
+      "primaryRisk": "Hyperscaler order timing / customer concentration"
+    }
+  ]
+}

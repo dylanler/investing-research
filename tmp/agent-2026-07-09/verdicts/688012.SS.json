@@ -1,0 +1,67 @@
+{
+  "symbol": "688012.SS",
+  "company": "688012.SS",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 38 hold (-1); up 26.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "AMEC - Prismo UniMax 100-chamber milestone (GaN MOCVD)",
+      "url": "https://www.amec-inc.com/en/index/Lists/show/catid/97/id/176.html"
+    },
+    {
+      "label": "Wikipedia - Advanced Micro-Fabrication Equipment",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
+    },
+    {
+      "label": "Asia Times - China 50% domestic chip-tools drive lifts stocks",
+      "url": "https://asiatimes.com/2026/01/chinas-50-domestic-chips-tools-drive-lifts-stocks-faces-limits/"
+    },
+    {
+      "label": "Futubull - AMEC 688012 stable performance, expanding portfolio",
+      "url": "https://news.futunn.com/en/post/71156375/amec-688012-stable-performance-with-continuously-expanding-product-portfolio"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "688012.SS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/688012.SS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits AMEC through Equipment; Domestic tools and compound semiconductor/photonic processing optionality. The stock is up 26.9% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "China-localization tailwind; sub-5nm dielectric/TSV etch entrenchment; GaN/photonic MOCVD optionality fits CPO.",
+      "neutral": "Strong domestic node but already up sharply; CPO link is optionality, not core.",
+      "bear": "+30.4% since June 9 with no new catalyst; China policy/competition risk; valuation discovery largely done.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "China policy and competition"
+    }
+  ]
+}

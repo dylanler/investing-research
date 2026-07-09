@@ -1,0 +1,32 @@
+{
+ "symbol": "CAT",
+ "asOf": "2026-07-09",
+ "company": "CAT",
+ "currency": "USD",
+ "priceToday": 948.08,
+ "pricePrev": 991.715,
+ "moveSincePrevPct": -4.4,
+ "ytdReturnPct": 58.43,
+ "marketCapUsdB": 436.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/CAT/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 68,
+   "ticker": "CAT",
+   "company": "Caterpillar",
+   "score": 21.3,
+   "thesis": "Gensets and power equipment for data-center deployment; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: CAT",
+   "ytd": 58.43,
+   "mcapB": 436.68,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: record ~$63B backlog (+79% y/y) from data-center gensets is a real fundamental datapoint, but marquee orders predate the window and CAT remains a $457B diversified benchmark name far from the passive bottleneck. Tiny positive for backlog confirmation; hold rank."
+   }
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "symbol": "RRX",
+ "asOf": "2026-07-09",
+ "company": "Regal Rexnord",
+ "currency": "USD",
+ "priceToday": 208.44,
+ "pricePrev": 221.96,
+ "moveSincePrevPct": -6.09,
+ "ytdReturnPct": 42.67,
+ "marketCapUsdB": 13.88,
+ "quoteUrl": "https://finance.yahoo.com/quote/RRX/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 29,
+   "ticker": "RRX",
+   "company": "Regal Rexnord",
+   "score": 48.6,
+   "thesis": "Delevan inductors and transformers proxy; tight-supply, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "NYSE: RRX",
+   "ytd": 42.67,
+   "mcapB": 13.88,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new fundamental evidence since June 9. After +52% YTD and recurring bullish data-center coverage, the inductor/transformer-proxy 'hidden, under-owned' premise this residual-alpha page rewards keeps eroding at the margin, so a small negative drift, not a rank move."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 56,
+   "ticker": "RRX",
+   "company": "Regal Rexnord",
+   "score": 67.0,
+   "thesis": "Motors, drives and power transmission are needed in cooling, robotics and factory automation; Regal is more of a cyclical industrial synergy story than an AI story.",
+   "theme": "Power & Components",
+   "exchange": "NYSE",
+   "ytd": 42.67,
+   "conviction": "Medium",
+   "catalysts": "Industrial recovery; synergy delivery; data-center HVAC and automation demand.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 52 is 11 places worse than displayed rank 41; adjusted score 67.0; YTD +43.9%; market cap $13.6B; Regal Rexnord remains tied to power & components through Motors, power transmission and automation components. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 95,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Latent AI-node lens: risk/reward deserves less rank weight at current rank 95. July context shows score 55.7, move since prior -23.9%, YTD +60.6%, market cap $55.00B. Score delta -1; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Guidance hike confirms fiber pricing power + AI demand; ~3x capacity + US plant locks multi-year volume.",
+      "neutral": "Strong fundamentals but the crowd has fully discovered the name; control, not fresh alpha.",
+      "bear": "+44% in two weeks on top of +111% YTD; any pricing normalization de-rates hard.",
+      "primaryCatalyst": "FY guidance hike / fiber pricing power",
+      "primaryRisk": "Crowded; pricing normalization"
+    }
+  ],
+  "symbol": "5803.T",
+  "company": "Fujikura",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Bloomberg - Fujikura shares surge on profit outlook hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-19/fujikura-shares-set-to-soar-as-outlook-hike-calms-market-jitters"
+    },
+    {
+      "label": "DCD - Fujikura to triple fiber output, $2bn investment",
+      "url": "https://www.datacenterdynamics.com/en/news/fujikura-to-triple-optical-fiber-production-as-part-of-2bn-investment/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/5803.T/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "5803.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/5803.T/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Fujikura (5803.T) across latent-ai-nodes: market cap $55.00B, move since prior -23.9%, YTD +60.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

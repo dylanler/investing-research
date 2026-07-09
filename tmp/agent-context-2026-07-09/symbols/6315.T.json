@@ -1,0 +1,29 @@
+{
+ "symbol": "6315.T",
+ "asOf": "2026-07-09",
+ "company": "TOWA Corporation",
+ "currency": "JPY",
+ "priceToday": 2993.0,
+ "pricePrev": 3155.0,
+ "moveSincePrevPct": -5.13,
+ "ytdReturnPct": 30.93,
+ "marketCapUsdB": 1.55,
+ "quoteUrl": "https://finance.yahoo.com/quote/6315.T/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 2,
+   "ticker": "6315.T",
+   "company": "TOWA Corporation",
+   "score": 85.0,
+   "thesis": "Packaging/molding equipment for semiconductor backend",
+   "bucket": "semiconductors",
+   "ytd": 30.93,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 2; adjusted score 85.0; YTD +26.7%; market cap $1.5B; TOWA explicitly ties FY2026 market outlook to HBM, AI accelerators, advanced packaging and PLP demand. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

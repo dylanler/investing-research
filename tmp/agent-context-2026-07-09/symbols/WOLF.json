@@ -1,0 +1,64 @@
+{
+ "symbol": "WOLF",
+ "asOf": "2026-07-09",
+ "company": "Wolfspeed",
+ "currency": "USD",
+ "priceToday": 35.86,
+ "pricePrev": 50.55,
+ "moveSincePrevPct": -29.06,
+ "ytdReturnPct": 89.43,
+ "marketCapUsdB": 1.86,
+ "quoteUrl": "https://finance.yahoo.com/quote/WOLF/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 94,
+   "ticker": "WOLF",
+   "company": "Wolfspeed",
+   "score": 55.8,
+   "thesis": "SiC power devices could support high-efficiency power conversion, but financial distress overwhelms the strategic optionality.",
+   "theme": "Power & Components",
+   "exchange": "NYSE",
+   "ytd": 89.43,
+   "conviction": "Speculative",
+   "catalysts": "Restructuring; SiC demand recovery; asset monetization.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent power/component node: new 3.3kV AI-data-center SiC modules + Gen-5 200mm MOSFETs strengthen the strategic optionality this page tracks since June 9, but distress (negative FCF, -$520M loss) still overwhelms it. Modest fundamental tick; stays deep in tail."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 75,
+   "ticker": "WOLF",
+   "company": "Wolfspeed",
+   "score": 52.3,
+   "thesis": "AI power optionality exists, but restructuring and equity risk dominate.",
+   "category": "Materials / SiC",
+   "ytd": 89.43,
+   "mcapB": 1.86,
+   "risk": "Restructuring/balance-sheet risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "CPO/HBM/advanced-packaging/test lens: the new SiC modules and GE MOU are high-voltage power, orthogonal to co-packaged optics. No page-relevant evidence since June 9; +168% YTD on a $2.7B distressed cap keeps asymmetry poor here, so removal bias stands."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 27,
+   "ticker": "WOLF",
+   "company": "Wolfspeed",
+   "score": 40.0,
+   "thesis": "Power semiconductors for AI power-density growth; very high risk",
+   "bucket": "semiconductors",
+   "ytd": 89.43,
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Test-time/scaling power-density lens: new 3.3kV SiC modules for AI data centers and solid-state transformers plus Gen-5 200mm MOSFETs are directly on-thesis (faster time-to-power) - genuinely new since June 9, modestly strengthening the AI-power-density scaling case despite the speculative balance sheet."
+   }
+  }
+ ]
+}

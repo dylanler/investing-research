@@ -1,0 +1,48 @@
+{
+ "symbol": "3231.TW",
+ "asOf": "2026-07-09",
+ "company": "Wistron",
+ "currency": "TWD",
+ "priceToday": 144.5,
+ "pricePrev": 158.5,
+ "moveSincePrevPct": -8.83,
+ "ytdReturnPct": -6.77,
+ "marketCapUsdB": 15.73,
+ "quoteUrl": "https://finance.yahoo.com/quote/3231.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 14,
+   "ticker": "3231",
+   "company": "Wistron",
+   "score": 65.8,
+   "thesis": "AI supercomputing and server manufacturing leverage; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "TWSE: 3231",
+   "ytd": -6.77,
+   "mcapB": 15.73,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: Jun 5 'super integration' framing + US-plant Q2 shipment start incrementally confirm the AI-server/rack thesis, but only +2.3% YTD vs strong AI mix means the alpha was already intact, not newly mispriced. Hold rank; modest +1 on fundamentals."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 34,
+   "ticker": "3231",
+   "company": "Wistron",
+   "score": 64.0,
+   "thesis": "Physical deployment exposure. Negative ytd reset; watch ai server oem execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": -6.77,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: rack-integration/deployment exposure reaffirmed by the Jun 5 super-integration story and US-plant ramp. Genuine but incremental; rank already reflects deployment relevance. Hold with +1 fundamentals."
+   }
+  }
+ ]
+}

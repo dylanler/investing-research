@@ -1,0 +1,32 @@
+{
+ "symbol": "KSB.DE",
+ "asOf": "2026-07-09",
+ "company": "KSB",
+ "currency": "EUR",
+ "priceToday": 902.0,
+ "pricePrev": 930.0,
+ "moveSincePrevPct": -3.01,
+ "ytdReturnPct": -7.01,
+ "marketCapUsdB": 1.79,
+ "quoteUrl": "https://finance.yahoo.com/quote/KSB.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 10,
+   "ticker": "KSB.DE",
+   "company": "KSB",
+   "score": 73.4,
+   "thesis": "Industrial pumps and valves could become critical as liquid cooling and water reuse component demand fragments",
+   "theme": "Pumps/valves",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#4",
+   "ytd": -7.01,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent AI-node lens: liquid-cooling/water-reuse pump thesis is real and articulated (mgmt targets ~EUR100m DC-cooling revenue by 2030 from ~zero). No new June catalyst, but the franchise is intact and well-placed at rank 13; +5.9% pop is sentiment, not news. Hold."
+   }
+  }
+ ]
+}

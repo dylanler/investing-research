@@ -1,0 +1,43 @@
+{
+  "symbol": "277810.KQ",
+  "company": "Rainbow Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Rainbow Robotics (277810.KQ) now screens at $5.82B market cap, -14.3% since the prior refresh and -12.7% YTD. Page thesis remains: Direct exposure and strategically important, but crowded and already repriced.",
+  "sources": [
+    {
+      "label": "277810.KQ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/277810.KQ/"
+    },
+    {
+      "label": "TechTimes: Rainbow RB-Y1 in Coupang warehouse",
+      "url": "https://www.techtimes.com/articles/318386/20260615/samsung-backed-rainbow-robotics-puts-its-dual-arm-robot-work-coupang-warehouse.htm"
+    },
+    {
+      "label": "Seoul Economic: Prosecutors raid Samsung over Rainbow insider trading",
+      "url": "https://en.sedaily.com/society/2026/06/11/prosecutors-raid-samsung-electronics-hq-over-rainbow"
+    },
+    {
+      "label": "SeoulEconomicDaily: prosecutors raid Samsung over Rainbow insider probe",
+      "url": "https://en.sedaily.com/society/2026/06/11/prosecutors-raid-samsung-electronics-hq-over-rainbow"
+    },
+    {
+      "label": "TechTimes: RB-Y1 dual-arm robot in Coupang warehouse",
+      "url": "https://www.techtimes.com/articles/318386/20260615/samsung-backed-rainbow-robotics-puts-its-dual-arm-robot-work-coupang-warehouse.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 28. July market-data refresh shows move since prior -14.3%, YTD -12.7%, market cap $5.82B. Thesis: Direct exposure and strategically important, but crowded and already repriced.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Samsung-backed direct humanoid builder with live warehouse deployment (Coupang); strategic factory-automation roadmap to 2030.",
+      "neutral": "Real commercialization progress but offset by governance noise; valuation already rich.",
+      "bear": "Insider-trading probe clouds the Samsung relationship; crowded, expensive direct-humanoid beta.",
+      "primaryCatalyst": "Scaling RB-Y1 deployments and Samsung factory robotics rollout.",
+      "primaryRisk": "Governance/legal overhang and stretched valuation."
+    }
+  ]
+}

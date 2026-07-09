@@ -1,0 +1,31 @@
+{
+  "symbol": "300750.SZ",
+  "company": "CATL",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. CATL (300750.SZ) now screens at $253.63B market cap, -4.3% since the prior refresh and -0.5% YTD. Page thesis remains: Important proof of humanoids in battery factories, but the stock is a mega-cap battery business.",
+  "sources": [
+    {
+      "label": "300750.SZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/300750.SZ/"
+    },
+    {
+      "label": "CATL humanoid robot battery line (Dec 2025)",
+      "url": "https://www.scmp.com/tech/big-tech/article/3336939/chinas-catl-marks-trailblazing-deployment-humanoid-robots-scale-factory-floor"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 39. July market-data refresh shows move since prior -4.3%, YTD -0.5%, market cap $253.63B. Thesis: Important proof of humanoids in battery factories, but the stock is a mega-cap battery business.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Real at-scale humanoid deployment in high-volume manufacturing; backs Spirit AI; demand-side validation of embodied AI.",
+      "neutral": "Mega-cap battery business where humanoids are marginal to the P&L; robotics beta only.",
+      "bear": "Robotics is immaterial to a battery giant; rank reflects narrative, not economics.",
+      "primaryCatalyst": "Broader humanoid factory rollout / Spirit AI scaling",
+      "primaryRisk": "Robotics remains a rounding error vs battery cycle"
+    }
+  ]
+}

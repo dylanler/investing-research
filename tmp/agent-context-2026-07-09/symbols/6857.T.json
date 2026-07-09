@@ -1,0 +1,63 @@
+{
+ "symbol": "6857.T",
+ "asOf": "2026-07-09",
+ "company": "Advantest",
+ "currency": "JPY",
+ "priceToday": 29160.0,
+ "pricePrev": 31430.0,
+ "moveSincePrevPct": -7.22,
+ "ytdReturnPct": 37.71,
+ "marketCapUsdB": 131.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/6857.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 22,
+   "ticker": "6857.T",
+   "company": "Advantest",
+   "score": 68.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 37.71,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold. Node criticality unchanged: near-monopoly AI/HBM SoC test (66% share, >6mo lead times, +70% capacity build) keeps Advantest a genuine bottleneck. But the +19.4% since June 9 is flow with no new order/guidance, so the bottleneck case is intact, not stronger."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 47,
+   "ticker": "6857.T",
+   "company": "Advantest",
+   "score": 65.6,
+   "thesis": "AI chip and HBM test leader; CPO is secondary via optical/advanced package test expansion.",
+   "category": "Test / ATE",
+   "ytd": 37.71,
+   "mcapB": 131.87,
+   "risk": "ATE cycle and high AI expectations",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Down slightly. On a CPO-specific lens the optical/advanced-package test angle is secondary, and a +19.4% flow-driven run since June 9 on zero CPO news erodes the little residual asymmetry rank 45 had. The page's own risk - high AI expectations - just got more expensive."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 33,
+   "ticker": "6857",
+   "company": "Advantest",
+   "score": 64.3,
+   "thesis": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch semiconductor test equipment execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 37.71,
+   "auditNote": "Down. This page rewards bottleneck exposure that has NOT already rerated; +19.4% since June 9 with YTD now +48.4% and no new evidence keeps narrowing the discovery discount. The pick-and-shovel thesis",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Down. This page rewards bottleneck exposure that has NOT already rerated; +19.4% since June 9 with YTD now +48.4% and no new evidence keeps narrowing the discovery discount. The pick-and-shovel thesis is real but increasingly priced."
+   }
+  }
+ ]
+}

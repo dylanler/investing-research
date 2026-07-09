@@ -1,0 +1,92 @@
+{
+  "symbol": "SITM",
+  "company": "SiTime",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 58 hold (+0); down 14.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for SITM",
+      "url": "https://finance.yahoo.com/quote/SITM/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "SiTime Q1 FY2026: AI inference drives timing content (Futurum)",
+      "url": "https://futurumgroup.com/insights/sitime-q1-fy-2026-ai-inference-demand-drives-timing-content-expansion/"
+    },
+    {
+      "label": "SiTime EVP insider sale $1.41M (Investing.com)",
+      "url": "https://m.investing.com/news/insider-trading-news/sitime-evp-fariborz-assaderaghi-sells-141m-in-company-stock-93CH-4729483"
+    },
+    {
+      "label": "SiTime to acquire Renesas timing business (SiTime PR)",
+      "url": "https://www.sitime.com/company/newsroom/press-release/sitime-acquire-renesas-timing-business"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "SITM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/SITM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Timing chips are AI-infrastructure relevant but the signal remains indirect and rerated.",
+      "bull": "EDA, timing and test complexity rises with custom accelerators, HBM and advanced packaging.",
+      "neutral": "Current snapshot: move since prior -14.0%, YTD +65.5%, market cap about $18.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "High multiples and slower conversion of AI design complexity into incremental revenue.",
+      "primaryCatalyst": "Custom accelerator tape-outs, HBM/GPU test wins and design-complexity growth",
+      "primaryRisk": "High multiples and slower conversion of AI design complexity into incremental revenue."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits SiTime through Timing / infrastructure; Timing matters for AI/optical links; smaller but still indirect. The stock is down 14.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI-datacenter timing demand and CPO content multiplier give a real, if indirect, optical-link tailwind.",
+      "neutral": "Solid timing franchise but only indirect to CPO and richly valued; no fresh catalyst.",
+      "bear": "Premium multiple plus insider selling and Renesas-deal financing overhang skew risk to the downside.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "High multiple; timing cycle"
+    }
+  ]
+}

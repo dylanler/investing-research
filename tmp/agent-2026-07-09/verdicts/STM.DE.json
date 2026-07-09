@@ -1,0 +1,35 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 46. July context shows score 67.0, move since prior n/a, YTD n/a, market cap n/a. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Stabilus owns relevant automation/robotics capability: Gas springs, dampers and electromechanical motion could support robotics, server-handling aids and automation hardware",
+      "neutral": "July rank 46 with score 67.0; refreshed market data is not a valuation model.",
+      "bear": "The adapted-use pathway may never become visible, and strict-list alpha fades if the stock rerates without AI-specific evidence.",
+      "primaryCatalyst": "Gas springs, dampers and electromechanical motion could support robotics, server-handling aids and automation hardware",
+      "primaryRisk": "The adapted-use pathway may never become visible, and strict-list alpha fades if the stock rerates without AI-specific evidence."
+    }
+  ],
+  "symbol": "STM.DE",
+  "company": "Stabilus",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/STM.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Stabilus (STM.DE) across latent-ai-nodes-strict: market cap n/a, move since prior n/a, YTD n/a. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

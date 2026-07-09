@@ -1,0 +1,43 @@
+{
+  "symbol": "6997.T",
+  "company": "Nippon Chemi-Con",
+  "caseDate": "2026-07-09",
+  "newsSince": "-26.6% since prior, +160.8% YTD. No major company-specific event since June 9, but Nippon Chemi-Con (the world's largest Al electrolytic capacitor maker) benefits from the same industry price-hike cycle Nichicon launched on June 17 and is positioned to follow with its own increases. Company returned to profit growth and resumed its dividend on May 14, 2026; next earnings July 30.",
+  "sources": [
+    {
+      "label": "Digitimes - Nichicon e-cap price hike (industry-wide)",
+      "url": "https://www.digitimes.com/news/a20260617PD234/nichicon-aluminum-capacitor-price-capacity-expansion.html"
+    },
+    {
+      "label": "Investing.com - Nippon Chemi-Con",
+      "url": "https://www.investing.com/equities/nippon-chemi-con-corp"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6997.T/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 6,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.78,
+      "rankRationale": "Nippon Chemi-Con gets a genuine thesis upgrade: aluminum-cap price hikes, JCR stable-outlook support, and AI-server demand directly reinforce the VRM capacitor bottleneck. The -26% tape de-crowds a still-direct small-cap exposure, so move up despite prior YTD crowding.",
+      "bull": "Largest Al e-cap maker with direct AI-server VRM exposure rides an industry price-hike cycle; profit and dividend restored.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 6, score 76.6, -26.6% since prior, +160.8% YTD.",
+      "bear": "Micro-cap up 255% YTD with no fresh company evidence - residual alpha thin and crowding risk high.",
+      "primaryCatalyst": "July 30 earnings; flow-through of capacitor price increases",
+      "primaryRisk": "Crowding / extreme YTD rerating into a thin micro-cap"
+    }
+  ]
+}

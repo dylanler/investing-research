@@ -1,0 +1,59 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 1. July context shows score 84.7, move since prior -10.6%, YTD -10.2%, market cap $4.66B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "RUCKUS adds full-stack IT/OT networking; data-center/edge cabling demand and solutions mix lift margins.",
+      "neutral": "Quality compounder but no new datapoint since June 9; deal still pending regulatory close.",
+      "bear": "RUCKUS integration/regulatory risk; AI-data-layer link is indirect vs core-bottleneck names.",
+      "primaryCatalyst": "RUCKUS close (H2-26) + edge/data-center networking demand",
+      "primaryRisk": "Acquisition integration / regulatory delay"
+    }
+  ],
+  "symbol": "BDC",
+  "company": "Belden",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Belden IT/OT network solutions launch (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8922692/belden-bdc-introduces-advanced-itot-network-solutions"
+    },
+    {
+      "label": "Belden RUCKUS $1.85B acquisition (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000913142/000091314226000020/finalprojectrocketpressrel.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BDC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "BDC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BDC/"
+    },
+    {
+      "label": "Belden Q1 2026 results & guidance",
+      "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "label": "Belden to acquire RUCKUS Networks ($1.85B)",
+      "url": "https://www.businesswire.com/news/home/20260430190021/en/Belden-to-Acquire-RUCKUS-Networks-from-Vistance-Networks-Accelerating-its-Transformation-into-a-Full-Stack-Networking-Solutions-Provider"
+    },
+    {
+      "label": "GuruFocus - Belden advanced IT/OT network solutions",
+      "url": "https://www.gurufocus.com/news/8922692/belden-bdc-introduces-advanced-itot-network-solutions"
+    },
+    {
+      "label": "Belden Q1 2026 results",
+      "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-First-Quarter-2026-Results/default.aspx"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Belden (BDC) across latent-ai-nodes: market cap $4.66B, move since prior -10.6%, YTD -10.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

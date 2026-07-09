@@ -1,0 +1,32 @@
+{
+ "symbol": "001820.KS",
+ "asOf": "2026-07-09",
+ "company": "Samwha Capacitor",
+ "currency": "KRW",
+ "priceToday": 101100.0,
+ "pricePrev": 142000.0,
+ "moveSincePrevPct": -28.8,
+ "ytdReturnPct": 235.32,
+ "marketCapUsdB": 0.78,
+ "quoteUrl": "https://finance.yahoo.com/quote/001820.KS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 75,
+   "ticker": "001820",
+   "company": "Samwha Capacitor",
+   "score": 17.8,
+   "thesis": "MLCC and passive exposure; tight-supply, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "KRX: 001820",
+   "ytd": 235.32,
+   "mcapB": 0.78,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-passives residual-alpha lens: balanced MLCC/passive exposure but the tailwind is industry-wide, not Samwha-specific, and at 371% YTD it is no longer mispriced vs top residual-alpha names. No fresh company evidence since June 9; the Monitor/benchmark slot still fits, so hold."
+   }
+  }
+ ]
+}

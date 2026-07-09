@@ -1,0 +1,32 @@
+{
+ "symbol": "HILS.L",
+ "asOf": "2026-07-09",
+ "company": "Hill & Smith",
+ "currency": "GBp",
+ "priceToday": 2840.0,
+ "pricePrev": 2805.0,
+ "moveSincePrevPct": 1.25,
+ "ytdReturnPct": 31.79,
+ "marketCapUsdB": 3.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/HILS.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 43,
+   "ticker": "HILS.L",
+   "company": "Hill & Smith",
+   "score": 67.3,
+   "thesis": "Galvanizing and engineered infrastructure products could support physical-network and facility hardening",
+   "theme": "Infrastructure/galvanizing",
+   "exchange": "LSE",
+   "regionRank": "Non-US#19",
+   "ytd": 31.79,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold. On a strict latent-alpha screen nothing changed since June 9: only a mechanical buyback and a USD reporting switch. No new AI-specific evidence for the galvanizing/facility-hardening link, and a +30% YTD name at 52-wk highs keeps getting more discovered, not less."
+   }
+  }
+ ]
+}

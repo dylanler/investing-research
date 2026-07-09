@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 57,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 57. July context shows score 66.0, move since prior -0.8%, YTD -14.8%, market cap $0.32B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Cheap micro-cap components catalogue; Boteco bolt-on expands protection range; turnaround optionality.",
+      "neutral": "Tiny $0.3B cap, thin liquidity; component link to modular compute/facility supply is speculative.",
+      "bear": "Weak industrial demand, margin pressure, no concrete AI/compute revenue evidence; -14% YTD reflects soft fundamentals.",
+      "primaryCatalyst": "H1 trading update; Boteco integration",
+      "primaryRisk": "Industrial destocking and margin compression"
+    }
+  ],
+  "symbol": "ESNT.L",
+  "company": "Essentra",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Essentra directorate change RNS (Ticker.app)",
+      "url": "https://www.ticker.app/lse/ESNT/rns/2026-06-16/Directorate-change/3780I"
+    },
+    {
+      "label": "Essentra holdings notification (TradingView)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026-06-10:newsml_RSJ7554Ha:0-reg-essentra-plc-holding-s-in-company/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ESNT.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ESNT.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ESNT.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Essentra (ESNT.L) across latent-ai-nodes-strict: market cap $0.32B, move since prior -0.8%, YTD -14.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

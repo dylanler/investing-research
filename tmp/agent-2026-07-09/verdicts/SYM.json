@@ -1,0 +1,35 @@
+{
+  "symbol": "SYM",
+  "company": "Symbotic",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Symbotic (SYM) now screens at $25.16B market cap, +7.2% since the prior refresh and -35.7% YTD. Page thesis remains: Excellent robotics business, poor humanoid alpha because it is large, known, and not a humanoid company.",
+  "sources": [
+    {
+      "label": "SYM quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SYM/"
+    },
+    {
+      "label": "Symbotic up 20.6% after Walmart robotics acquisition (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-sym/symbotic/news/symbotic-sym-is-up-206-after-acquiring-walmart-robotics-and"
+    },
+    {
+      "label": "Walmart robotics deal could add $5B to backlog (AInvest)",
+      "url": "https://www.ainvest.com/news/walmart-robotics-deal-add-5-billion-symbotic-backlog-stock-proof-2606/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 26,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 26. July market-data refresh shows move since prior +7.2%, YTD -35.7%, market cap $25.16B. Thesis: Excellent robotics business, poor humanoid alpha because it is large, known, and not a humanoid company.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "AI-moat warehouse automation, $22B+ backlog, Walmart 400-APD commitment and GreenBox/Exol expansion give durable deployment runway.",
+      "neutral": "Excellent robotics business but not a humanoid play; large and well-covered, so early-alpha asymmetry is limited on this lens.",
+      "bear": "Heavy Walmart concentration, lumpy systems revenue, and a $23B cap with -40% YTD signal a name still proving second-half acceleration.",
+      "primaryCatalyst": "GreenBox/Exol multi-site ramp and second-half deployment acceleration",
+      "primaryRisk": "Walmart customer concentration and deployment-execution timing"
+    }
+  ]
+}

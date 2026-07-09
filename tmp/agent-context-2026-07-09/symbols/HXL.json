@@ -1,0 +1,32 @@
+{
+ "symbol": "HXL",
+ "asOf": "2026-07-09",
+ "company": "Hexcel",
+ "currency": "USD",
+ "priceToday": 98.53,
+ "pricePrev": 97.7,
+ "moveSincePrevPct": 0.85,
+ "ytdReturnPct": 28.16,
+ "marketCapUsdB": 7.43,
+ "quoteUrl": "https://finance.yahoo.com/quote/HXL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 93,
+   "ticker": "HXL",
+   "company": "Hexcel",
+   "score": 57.4,
+   "thesis": "Carbon fiber and lightweight composites could enable advanced robotics, aerospace compute platforms and thermal/mechanical structures",
+   "theme": "Composites",
+   "exchange": "NYSE",
+   "regionRank": "US#45",
+   "ytd": 28.16,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen: the D328eco partnership and Eurosatory debut are aerospace/defense wins with no AI-node read-through. Robotics/compute-structure thesis remains theoretical. +5.2% move is aerospace-recovery flow, not new node evidence. Hold rank 95; no fundamental shift for this lens."
+   }
+  }
+ ]
+}

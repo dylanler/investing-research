@@ -1,0 +1,32 @@
+{
+ "symbol": "GGG",
+ "asOf": "2026-07-09",
+ "company": "Graco",
+ "currency": "USD",
+ "priceToday": 73.23,
+ "pricePrev": 75.185,
+ "moveSincePrevPct": -2.6,
+ "ytdReturnPct": -11.39,
+ "marketCapUsdB": 12.15,
+ "quoteUrl": "https://finance.yahoo.com/quote/GGG/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 21,
+   "ticker": "GGG",
+   "company": "Graco",
+   "score": 71.0,
+   "thesis": "Precision equipment to move, meter, control and dispense fluids/powders could support future coolant, sealant or thermal-fluid handling",
+   "theme": "Fluid handling",
+   "exchange": "NYSE",
+   "regionRank": "US#12",
+   "ytd": -11.39,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: precision fluid-handling could touch coolant/thermal-fluid handling, but the thesis is unchanged. Q1 miss and Valco Melton deal predate June 9 and were in the prior case; -0.8% is drift. No new info. Hold."
+   }
+  }
+ ]
+}

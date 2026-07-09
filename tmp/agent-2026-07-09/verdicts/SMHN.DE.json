@@ -1,0 +1,64 @@
+{
+  "symbol": "SMHN.DE",
+  "company": "S\\u00dcSS MicroTec",
+  "caseDate": "2026-07-09",
+  "newsSince": "Lower residual-alpha bias due to category obviousness and crowding.",
+  "sources": [
+    {
+      "label": "SÜSS investor relations",
+      "url": "https://www.suss.com/en/investor-relations"
+    },
+    {
+      "label": "SUSS MicroTec MDAX inclusion June 22 (company)",
+      "url": "https://www.suss.com/en/news/corporate-news/2026/shares-of-suss-microtec-se-are-being-included-in-the-mdax-for-the-first-time"
+    },
+    {
+      "label": "Berenberg lifts PT to €125 after MDAX entry (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/suess-microtec-aktie-berenberg-hebt-kursziel-nach-mdax-aufstieg-an/69592476"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SMHN.DE/"
+    },
+    {
+      "label": "SMHN.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SMHN.DE/"
+    },
+    {
+      "label": "XBC300 Gen2 D2W hybrid-bonding platform (webdisclosure)",
+      "url": "https://www.webdisclosure.com/article/suss-microtec-ag-etr-smhn-suss-microtec-launches-xbc300-gen2-d2w-hybrid-bonding-platform-Hn9fP1d0Do5"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 35. July market-data refresh shows move since prior -15.4%, YTD +99.8%, market cap $1.91B. Thesis: Advanced packaging and lithography process tools. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Bonding/litho tools enable the chiplet/HBM stack that underpins scaling.",
+      "neutral": "Indirect scaling exposure; capex-cycle dependent.",
+      "bear": "Rich multiple after 136% YTD; order timing volatile.",
+      "primaryCatalyst": "Advanced-packaging capacity additions",
+      "primaryRisk": "Semicap capex air-pocket"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 81,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.76,
+      "rankRationale": "Lower residual-alpha bias due to category obviousness and crowding.",
+      "bull": "Hybrid-bonding leader levered to AI advanced-packaging capex; record orders, PT raised to €125.",
+      "neutral": "Strong tool franchise but now far less under-covered post-MDAX entry.",
+      "bear": "136% YTD; ~45% above fair-value estimates; small cap, lumpy orders.",
+      "primaryCatalyst": "Hybrid bonding and advanced packaging capex.",
+      "primaryRisk": "Semicap capex air-pocket and valuation/crowding."
+    }
+  ]
+}

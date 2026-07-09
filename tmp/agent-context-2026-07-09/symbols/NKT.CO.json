@@ -1,0 +1,32 @@
+{
+ "symbol": "NKT.CO",
+ "asOf": "2026-07-09",
+ "company": "NKT",
+ "currency": "DKK",
+ "priceToday": 948.5,
+ "pricePrev": 1013.0,
+ "moveSincePrevPct": -6.37,
+ "ytdReturnPct": 15.11,
+ "marketCapUsdB": 7.83,
+ "quoteUrl": "https://finance.yahoo.com/quote/NKT.CO/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 63,
+   "ticker": "NKT",
+   "company": "NKT",
+   "score": 24.5,
+   "thesis": "Underfollowed high-voltage cable exposure; bottleneck, underfollowed, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "CPH: NKT",
+   "ytd": 15.11,
+   "mcapB": 7.83,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-passives lens: no fresh news since Jun 9; record EUR13.5B backlog and the EGL3/Scotland HVDC wins were already in the prior hold. NKT stays a grid/TSO name one step from the AI passive/power core this page rewards, so the thesis is unchanged -> hold rank 61, scoreDelta 0."
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "ALKAL.PA",
+  "company": "Kalray",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Kalray (ALKAL.PA) now screens at $0.17B market cap, -5.0% since the prior refresh and +577.5% YTD. Page thesis remains: Data-processing / DPU-style optionality",
+  "sources": [
+    {
+      "label": "ALKAL.PA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ALKAL.PA/"
+    },
+    {
+      "label": "Kalray FY2025 revenue/EBITDA & funding update (Actusnews, Jan 2026)",
+      "url": "https://www.actusnews.com/en/kalray/pr/2026/01/13/fourfold-increase-in-revenue-on-a-comparable-scope-and-confirmation-of-a-strongly-positive-ebitda-in-2025"
+    },
+    {
+      "label": "Kalray dilution/funding analysis (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/kalray-is-this-really-reasonable-ce7e5cdadd8ff422"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 45,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.61,
+      "rankRationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 45. July market-data refresh shows move since prior -5.0%, YTD +577.5%, market cap $0.17B. Thesis: Data-processing / DPU-style optionality. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Patented DPU/data-processing IP offers genuine inference-offload optionality if OpenChip backing scales it commercially.",
+      "neutral": "Real DPU tech but tiny, pre-scale revenue inside a cash-light micro-cap whose tape is detached from fundamentals.",
+      "bear": "Severe dilution mechanism toward 51%, ~EUR2.9M cash and a runway only just past June 30 2026; equity value is highly impaired.",
+      "primaryCatalyst": "A funded OpenChip-backed DPU design win or capital injection that extends runway without punitive dilution.",
+      "primaryRisk": "Dilutive capital raise / warrant exercise and cash exhaustion crushing per-share value."
+    }
+  ]
+}

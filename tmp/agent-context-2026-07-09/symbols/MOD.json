@@ -1,0 +1,50 @@
+{
+ "symbol": "MOD",
+ "asOf": "2026-07-09",
+ "company": "MOD",
+ "currency": "USD",
+ "priceToday": 235.62,
+ "pricePrev": 281.435,
+ "moveSincePrevPct": -16.28,
+ "ytdReturnPct": 67.33,
+ "marketCapUsdB": 12.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/MOD/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 43,
+   "ticker": "MOD",
+   "company": "Modine",
+   "score": 36.0,
+   "thesis": "Thermal and cooling systems for high-density compute; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: MOD",
+   "ytd": 67.33,
+   "mcapB": 12.44,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: nothing new since June 9. The $4B backlog and Q4 beat were already chased; +100% YTD with multiple PT raises keeps it a fully rerated, crowded benchmark, not residual alpha. Hold in the rerated-benchmark bucket."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 52,
+   "ticker": "MOD",
+   "company": "Modine Manufacturing",
+   "score": 68.0,
+   "thesis": "The business has clear data-center cooling leverage, but the market now recognizes it; alpha depends on execution and whether cooling remains undersupplied.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": 67.33,
+   "conviction": "Medium",
+   "catalysts": "AI infrastructure orders; spin/simplification; long-term customer agreements.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 54 is 19 places better than displayed rank 73; adjusted score 66.6; YTD +95.5%; market cap $14.5B; Modine has direct AI infrastructure cooling orders, making relevance high but also reducing hiddenness. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

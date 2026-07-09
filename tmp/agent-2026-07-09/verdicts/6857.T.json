@@ -1,0 +1,109 @@
+{
+  "symbol": "6857.T",
+  "company": "Advantest",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 47 hold (+0); down 7.2% since the prior refresh. semiconductor-ai-nodes: rank 22 hold (+0); down 7.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 6857.T",
+      "url": "https://finance.yahoo.com/quote/6857.T/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Digitimes - Advantest ATE lead times tight on AI/HBM",
+      "url": "https://www.digitimes.com/news/a20260116PD217/demand-advantest-equipment-hbm-2026.html"
+    },
+    {
+      "label": "Digitimes - Advantest beats on AI chip testing, cautious outlook",
+      "url": "https://www.digitimes.com/news/a20260501VL206/advantest-earnings-outlook-revenue-testing.html"
+    },
+    {
+      "label": "Advantest investor relations - forecast",
+      "url": "https://www.advantest.com/en/investors/financial-highlights/forecast/"
+    },
+    {
+      "label": "Advantest Q1-2026 earnings call - Alpha Spread",
+      "url": "https://www.alphaspread.com/security/tse/6857/investor-relations/earnings-call/q1-2026"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "6857.T Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/6857.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "HBM/GPU test leverage is real; prior rerating penalty still stands.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -7.2%, YTD +37.7%, market cap about $131.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Advantest through Test / ATE; AI chip and HBM test leader; CPO is secondary via optical/advanced package test expansion. The stock is down 7.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Optical/advanced-package test expands as CPO scales; test leadership extends into co-packaged optics.",
+      "neutral": "CPO is a peripheral revenue lever vs core SoC/HBM test.",
+      "bear": "No CPO-specific catalyst; rich valuation amplifies disappointment risk on a CPO-purity lens.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "ATE cycle and high AI expectations"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Advantest through wafer fab equipment; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 7.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI/HBM test near-monopoly; HBM4/HBM4E stack-up multiplies test intensity; +25% FY27 sales guide; +70% capacity build.",
+      "neutral": "Genuine bottleneck but well-discovered; recent move is sector flow.",
+      "bear": "ATE is cyclical; cautious outlook dented shares on results; export-control risk to China.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "ATE cycle turn and China export controls"
+    }
+  ]
+}

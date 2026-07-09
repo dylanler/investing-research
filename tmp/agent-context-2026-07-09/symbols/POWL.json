@@ -1,0 +1,50 @@
+{
+ "symbol": "POWL",
+ "asOf": "2026-07-09",
+ "company": "POWL",
+ "currency": "USD",
+ "priceToday": 231.85,
+ "pricePrev": 301.11,
+ "moveSincePrevPct": -23.0,
+ "ytdReturnPct": 97.31,
+ "marketCapUsdB": 9.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/POWL/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 44,
+   "ticker": "POWL",
+   "company": "Powell Industries",
+   "score": 36.0,
+   "thesis": "Switchgear and power distribution for AI buildouts; bottleneck, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: POWL",
+   "ytd": 97.31,
+   "mcapB": 9.04,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On this crowding-sensitive list, record backlog and the $400M+ data-center order are already known and the +157% YTD rerating has consumed most residual alpha (crowded/rerated bucket). No new catalyst since June 9; prior small nudge up stands. Hold at 47."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 37,
+   "ticker": "POWL",
+   "company": "Powell Industries",
+   "score": 71.1,
+   "thesis": "Switchgear is a bottleneck in data-center power delivery; Powell has real exposure, but the stock has already had a large run, lowering fresh alpha.",
+   "theme": "Power & Grid",
+   "exchange": "NASDAQ",
+   "ytd": 97.31,
+   "conviction": "Medium",
+   "catalysts": "Utility/commercial backlog; data-center electrical rooms; capacity expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 50 is 7 places better than displayed rank 57; adjusted score 67.0; YTD +149.9%; market cap $10.4B; Powell reported Q2 FY2026 orders up sharply and a post-quarter data-center order above $400 million, making the AI-power thesis direct but less hidden. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

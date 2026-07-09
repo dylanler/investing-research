@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 9. July context shows score 74.0, move since prior +3.9%, YTD +6.4%, market cap $0.13B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Specialty alumina and flame-retardant fillers have genuine thermal-management/electrical-insulation relevance to dense compute enclosures.",
+      "neutral": "Niche German specialty-chemicals name with diversified, mostly non-AI end markets.",
+      "bear": "AI exposure is speculative and indirect; tiny float makes price action unreliable as signal.",
+      "primaryCatalyst": "Design-ins of aluminas/fillers into AI thermal or enclosure applications",
+      "primaryRisk": "Cyclical refractory/ceramics demand; AI pathway never materializes"
+    }
+  ],
+  "symbol": "NTG.DE",
+  "company": "Nabaltec",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Edison report on Nabaltec",
+      "url": "https://www.newsfilecorp.com/release/299627/Edison-Issues-Report-on-Nabaltec-NTG"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/NTG.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "NTG.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NTG.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Nabaltec (NTG.DE) across latent-ai-nodes-strict: market cap $0.13B, move since prior +3.9%, YTD +6.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

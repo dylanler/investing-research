@@ -1,0 +1,35 @@
+{
+  "symbol": "NOFR.TA",
+  "company": "O.Y. Nofar Energy",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. O.Y. Nofar Energy (NOFR.TA) now screens at n/a market cap, +11.3% since the prior refresh and +84.5% YTD. Page thesis remains: Power build-out and renewable generation",
+  "sources": [
+    {
+      "label": "NOFR.TA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NOFR.TA/"
+    },
+    {
+      "label": "Romania's largest PV park online, by Nofar (Romania Insider)",
+      "url": "https://www.romania-insider.com/nofar-solar-park-online-june-2026"
+    },
+    {
+      "label": "Airengy to build Nofar Energy Israel solar+storage",
+      "url": "https://www.megaproject.com/news/powerplant/airengy-to-establish-solar-energy-and-storage-projects-for-nofar-energy-israel"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 18. July market-data refresh shows move since prior +11.3%, YTD +84.5%, market cap n/a. Thesis: Power build-out and renewable generation. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "New operational MW + storage build-out grows renewable generation feeding AI power demand.",
+      "neutral": "Small contribution vs total scaling-power basket; project, not structural shift.",
+      "bear": "Israeli-listed, leveraged developer; execution/financing and FX risk.",
+      "primaryCatalyst": "Romania 400 MW expansion + storage integration",
+      "primaryRisk": "Project financing / leverage / FX"
+    }
+  ]
+}

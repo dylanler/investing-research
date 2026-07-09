@@ -1,0 +1,32 @@
+{
+ "symbol": "RSW.L",
+ "asOf": "2026-07-09",
+ "company": "Renishaw",
+ "currency": "GBp",
+ "priceToday": 4690.0,
+ "pricePrev": 5065.0,
+ "moveSincePrevPct": -7.4,
+ "ytdReturnPct": 32.11,
+ "marketCapUsdB": 4.93,
+ "quoteUrl": "https://finance.yahoo.com/quote/RSW.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 22,
+   "ticker": "RSW.L",
+   "company": "Renishaw",
+   "score": 74.1,
+   "thesis": "AI-enabled manufacturing and robotics require precision measurement; Renishaw is strategic but often screened as a slow industrial metrology name.",
+   "theme": "Sensors & Measurement",
+   "exchange": "LSE",
+   "ytd": 32.11,
+   "conviction": "Medium",
+   "catalysts": "Metrology recovery; robotics/automation design wins; additive manufacturing.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 28 is 7 places worse than displayed rank 21; adjusted score 72.0; YTD +45.9%; market cap $5.1B; Renishaw remains tied to sensors & measurement through Precision metrology, encoders and additive manufacturing. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "ATEN",
+ "asOf": "2026-07-09",
+ "company": "A10 Networks",
+ "currency": "USD",
+ "priceToday": 37.09,
+ "pricePrev": 34.262,
+ "moveSincePrevPct": 8.25,
+ "ytdReturnPct": 113.78,
+ "marketCapUsdB": 2.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/ATEN/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 42,
+   "ticker": "ATEN",
+   "company": "A10 Networks",
+   "score": 25.4,
+   "thesis": "Network security and application delivery for AI-heavy traffic",
+   "bucket": "it_security",
+   "ytd": 113.78,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 42 is 1 places better than displayed rank 43; adjusted score 27.1; YTD +78.6%; market cap $2.2B; Scaling watchlist fit is Network security and application delivery for AI-heavy traffic; bucket it_security; tags security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "OUST",
+ "asOf": "2026-07-09",
+ "company": "Ouster",
+ "currency": "USD",
+ "priceToday": 43.41,
+ "pricePrev": 46.285,
+ "moveSincePrevPct": -6.21,
+ "ytdReturnPct": 85.75,
+ "marketCapUsdB": 2.92,
+ "quoteUrl": "https://finance.yahoo.com/quote/OUST/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 20,
+   "ticker": "OUST",
+   "company": "Ouster",
+   "score": 65.5,
+   "thesis": "Excellent humanoid sensor exposure after StereoLabs, but it is now the crowd favorite and has rerated meaningfully.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #31 and alpha score 64. Should hold because $2.6B cap, +74.9% YTD, Sensing purity, and commercialization evidence now matter more than generic humanoid beta. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

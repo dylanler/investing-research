@@ -1,0 +1,47 @@
+{
+ "symbol": "CRUS",
+ "asOf": "2026-07-09",
+ "company": "Cirrus Logic",
+ "currency": "USD",
+ "priceToday": 146.79,
+ "pricePrev": 157.19,
+ "moveSincePrevPct": -6.62,
+ "ytdReturnPct": 22.66,
+ "marketCapUsdB": 7.49,
+ "quoteUrl": "https://finance.yahoo.com/quote/CRUS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 95,
+   "ticker": "CRUS",
+   "company": "Cirrus Logic",
+   "score": 41.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 22.66,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the AI-node bottleneck lens CRUS remains peripheral: no HBM/advanced-packaging exposure and the Apple Face ID/manufacturing news (Mar 26) doesn't address data-center AI nodes and is pre-June 9 anyway. No new evidence since June 9; removal case from prior verdict stands. Hold near the bottom."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 90,
+   "ticker": "CRUS",
+   "company": "Cirrus Logic",
+   "score": 47.9,
+   "thesis": "Low data-center optical exposure.",
+   "category": "Mixed-signal",
+   "ytd": 22.66,
+   "mcapB": 7.49,
+   "risk": "Customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Cirrus Logic should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 38.4% YTD and $8.8B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

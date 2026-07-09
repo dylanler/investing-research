@@ -1,0 +1,32 @@
+{
+ "symbol": "PWR",
+ "asOf": "2026-07-09",
+ "company": "PWR",
+ "currency": "USD",
+ "priceToday": 666.33,
+ "pricePrev": 717.635,
+ "moveSincePrevPct": -7.15,
+ "ytdReturnPct": 51.55,
+ "marketCapUsdB": 99.99,
+ "quoteUrl": "https://finance.yahoo.com/quote/PWR/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 95,
+   "ticker": "PWR",
+   "company": "Quanta Services",
+   "score": 1.7,
+   "thesis": "Electrical transmission/substation buildout exposure; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: PWR",
+   "ytd": 51.55,
+   "mcapB": 99.99,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Record $48.5B backlog, lifted outlook and the Hyosung HV-breaker JV are real fundamental positives, but on this passive-stack-alpha lens PWR is a $108B, +63% YTD consensus transmission name in the Monitor bucket - far from hidden passive-component alpha. Small positive only; bottom-of-page placement fits."
+   }
+  }
+ ]
+}

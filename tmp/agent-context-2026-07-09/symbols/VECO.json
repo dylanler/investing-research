@@ -1,0 +1,31 @@
+{
+ "symbol": "VECO",
+ "asOf": "2026-07-09",
+ "company": "Veeco Instruments",
+ "currency": "USD",
+ "priceToday": 54.47,
+ "pricePrev": 74.66,
+ "moveSincePrevPct": -27.04,
+ "ytdReturnPct": 78.36,
+ "marketCapUsdB": 3.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/VECO/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 1,
+   "ticker": "VECO",
+   "company": "Veeco Instruments",
+   "score": 95.1,
+   "thesis": "Small-cap picks-and-shovels exposure to compound semis, photonics and advanced packaging.",
+   "category": "Compound / equipment",
+   "ytd": 78.36,
+   "mcapB": 3.26,
+   "risk": "Tool cycle and concentration",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Veeco Instruments should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 5, 99.9% YTD, $3.8B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

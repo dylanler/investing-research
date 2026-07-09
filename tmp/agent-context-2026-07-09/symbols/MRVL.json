@@ -1,0 +1,81 @@
+{
+ "symbol": "MRVL",
+ "asOf": "2026-07-09",
+ "company": "Marvell Technology",
+ "currency": "USD",
+ "priceToday": 231.71,
+ "pricePrev": 281.63,
+ "moveSincePrevPct": -17.73,
+ "ytdReturnPct": 159.21,
+ "marketCapUsdB": 260.82,
+ "quoteUrl": "https://finance.yahoo.com/quote/MRVL/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 100,
+   "ticker": "MRVL",
+   "company": "Marvell Technology",
+   "score": 0.0,
+   "thesis": "AI interconnect and custom silicon; direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: MRVL",
+   "ytd": 159.21,
+   "mcapB": 260.82,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha vs passives lens: MRVL sits outside the passives/power bottleneck stack and is parked as monitor/benchmark. June 22 S&P 500 inclusion adds forced passive crowding, the opposite of this page's alpha criterion, so it stays at the bottom with a small negative drift."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 11,
+   "ticker": "MRVL",
+   "company": "Marvell Technology",
+   "score": 78.1,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 159.21,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: custom-ASIC/interconnect centrality is intact (Teralynx T100, raised FY28 ~$16.5B guide, 5M+ PICs). But S&P 500 inclusion and a trillion-dollar narrative push visibility beyond the page's 'smaller than megacaps' lens, offsetting the node strength. Net hold one day after the prior up-move."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 33,
+   "ticker": "MRVL",
+   "company": "Marvell Technology",
+   "score": 73.2,
+   "thesis": "One of the most direct semiconductor bridges between custom AI silicon, optical DSPs, CPO and AEC/AOC.",
+   "category": "AI ASIC / networking",
+   "ytd": 159.21,
+   "mcapB": 260.82,
+   "risk": "Large AI/custom-silicon expectations already embedded",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: this is MRVL's most direct fit (optical DSPs, CPO, AEC/AOC, 5M+ coherent PICs, NPO/CPO scale-up optics in raised guide). Optical leg strengthened by Q1 beat and T100; Qualcomm-ByteDance headline hits the custom-compute leg, not optics. Small positive on confirmed optics traction."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 97,
+   "ticker": "MRVL",
+   "company": "Marvell Technology",
+   "score": 33.4,
+   "thesis": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch networking silicon and custom compute execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 159.21,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: scale-out networking/CPO/800G-1.6T optics exposure is real but ownership visibility is now maximal. S&P 500 inclusion plus the trillion-dollar narrative keep crowding at a peak for this crowding-aware list; prior down-move already penalized the rerating. Hold near the bottom."
+   }
+  }
+ ]
+}

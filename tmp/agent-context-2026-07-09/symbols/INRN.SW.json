@@ -1,0 +1,32 @@
+{
+ "symbol": "INRN.SW",
+ "asOf": "2026-07-09",
+ "company": "Interroll",
+ "currency": "CHF",
+ "priceToday": 1308.0,
+ "pricePrev": 1340.0,
+ "moveSincePrevPct": -2.39,
+ "ytdReturnPct": -42.0,
+ "marketCapUsdB": 1.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/INRN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 46,
+   "ticker": "INRN.SW",
+   "company": "Interroll",
+   "score": 68.6,
+   "thesis": "AI warehouse orchestration needs reliable physical flow; Interroll is a pick-and-shovel for logistics automation.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "SIX",
+   "ytd": -42.0,
+   "conviction": "Medium",
+   "catalysts": "Warehouse automation recovery; sorter projects; robotics integration.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 41 is 7 places worse than displayed rank 34; adjusted score 68.0; YTD -35.2%; market cap $1.7B; Interroll remains tied to industrial automation & robotics through Conveyor, sorter and material-flow systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

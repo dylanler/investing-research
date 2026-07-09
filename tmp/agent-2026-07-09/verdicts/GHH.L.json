@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 11. July context shows score 73.3, move since prior -10.9%, YTD +33.5%, market cap $0.32B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Record GBP167.3m order book gives near-full FY26 cover; semiconductor recovery and A&D demand support latent photonics optionality.",
+      "neutral": "Diversified photonics with real recovery, but AI-specific exposure is indirect via sensing/inspection.",
+      "bear": "Post-results de-rating reflected margin/mix concerns; tariff supply risks and project lumpiness persist.",
+      "primaryCatalyst": "Record order book and recovering industrial-laser/semiconductor demand on top of A&D strength.",
+      "primaryRisk": "Tariff-linked raw-material supply chain risk and lumpy project timing at a sub-cap photonics name."
+    }
+  ],
+  "symbol": "GHH.L",
+  "company": "Gooch & Housego",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "G&H Interim Results RNS",
+      "url": "https://www.investegate.co.uk/announcement/rns/gooch-housego--ghh/interim-results/9595977"
+    },
+    {
+      "label": "G&H H1 revenue/order book on defence demand",
+      "url": "https://www.tipranks.com/news/company-announcements/gooch-housego-lifts-h1-revenue-and-order-book-on-defence-demand"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/GHH.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "GHH.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/GHH.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Gooch & Housego (GHH.L) across latent-ai-nodes-strict: market cap $0.32B, move since prior -10.9%, YTD +33.5%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

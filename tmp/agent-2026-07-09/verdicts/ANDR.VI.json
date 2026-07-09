@@ -1,0 +1,51 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 84. July context shows score 63.0, move since prior -8.6%, YTD +8.5%, market cap $8.31B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Power/water systems and pumped storage could indirectly support datacenter power ecosystems.",
+      "neutral": "Diversified industrial; AI linkage remains thin and indirect.",
+      "bear": "No datacenter-specific demand signal; classic capital-goods cyclical.",
+      "primaryCatalyst": "Power-grid/pumped-storage orders tied to load growth.",
+      "primaryRisk": "Capital-goods cyclicality; no direct AI exposure."
+    }
+  ],
+  "symbol": "ANDR.VI",
+  "company": "Andritz",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Andritz Hydro newsroom",
+      "url": "https://www.andritz.com/newsroom-en/hydro"
+    },
+    {
+      "label": "ANDRITZ Q1 2026 record order intake",
+      "url": "https://www.andritz.com/newsroom-en/news/2026-04-29-results-q1-2026-group"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ANDR.VI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ANDR.VI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ANDR.VI/"
+    },
+    {
+      "label": "Water Power: Andritz Q1 2026 hydro surge",
+      "url": "https://www.waterpowermagazine.com/news/andritz-hydropower-surge-drives-record-e3-6bn-order-intake-in-q1-2026/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Andritz (ANDR.VI) across latent-ai-nodes-strict: market cap $8.31B, move since prior -8.6%, YTD +8.5%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

@@ -1,0 +1,50 @@
+{
+ "symbol": "MWA",
+ "asOf": "2026-07-09",
+ "company": "Mueller Water Products",
+ "currency": "USD",
+ "priceToday": 24.75,
+ "pricePrev": 25.88,
+ "moveSincePrevPct": -4.37,
+ "ytdReturnPct": 3.38,
+ "marketCapUsdB": 4.27,
+ "quoteUrl": "https://finance.yahoo.com/quote/MWA/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 44,
+   "ticker": "MWA",
+   "company": "Mueller Water Products",
+   "score": 68.7,
+   "thesis": "Data-center and municipal water stress makes resilient pipes, valves and monitoring more strategic than the market usually assumes.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": 3.38,
+   "conviction": "Medium",
+   "catalysts": "Municipal capex; leak detection; industrial water projects.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 42 is 8 places better than displayed rank 50; adjusted score 68.0; YTD +6.0%; market cap $4.0B; Mueller Water Products remains tied to thermal & water through Water infrastructure valves, hydrants and monitoring. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 5,
+   "ticker": "MWA",
+   "company": "Mueller Water Products",
+   "score": 77.7,
+   "thesis": "Water distribution, leak detection and smart utility products could be relevant as AI campuses pressure municipal water networks",
+   "theme": "Water infrastructure",
+   "exchange": "NYSE",
+   "regionRank": "US#4",
+   "ytd": 3.38,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen (water distribution, leak detection, smart-utility as AI campuses pressure municipal networks) unchanged; June 21 commentary mildly supports the AI-water linkage but adds no hard catalyst. A top-5 US#4 slot stays; +1 for steady narrative confirmation."
+   }
+  }
+ ]
+}

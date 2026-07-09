@@ -1,0 +1,29 @@
+{
+ "symbol": "MTRN.TA",
+ "asOf": "2026-07-09",
+ "company": "Maytronics",
+ "currency": "ILA",
+ "priceToday": 234.4,
+ "pricePrev": 223.6,
+ "moveSincePrevPct": 4.83,
+ "ytdReturnPct": -41.16,
+ "marketCapUsdB": null,
+ "quoteUrl": "https://finance.yahoo.com/quote/MTRN.TA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 28,
+   "ticker": "MTRN.TA",
+   "company": "Maytronics",
+   "score": null,
+   "thesis": "Robotic systems / consumer automation",
+   "bucket": "robotics",
+   "ytd": null,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 13 is 1 places worse than displayed rank 12; adjusted score 53.0; YTD -39.3%; market cap $91M; Scaling watchlist fit is Robotic systems / consumer automation; bucket robotics; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

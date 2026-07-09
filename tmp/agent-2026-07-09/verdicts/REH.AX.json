@@ -1,0 +1,51 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 95,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 95. July context shows score 56.6, move since prior +0.6%, YTD +18.4%, market cap $7.01B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Dominant ANZ plumbing distributor; buyback; eventual data-center water/HVAC fit-out optionality.",
+      "neutral": "Quality distributor but cyclically pressured; no evidence of compute-site demand capture.",
+      "bear": "US EBIT margins down 5.1%->3.6%, EPS cuts, housing weakness; latent-AI tie is purely speculative.",
+      "primaryCatalyst": "Plumbing/HVAC distribution aggregating water-intensive compute-site demand",
+      "primaryRisk": "US (Morsco) margin compression and softening residential construction"
+    }
+  ],
+  "symbol": "REH.AX",
+  "company": "Reece",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Reece FY26 outlook & US Morsco margin pressure (Montgomery)",
+      "url": "https://www.montinvest.com/investor-insights/insights/reece-a-tough-outlook-anticipated-for-fiscal-2026"
+    },
+    {
+      "label": "Reece slides on US housing weakness (Kalkine)",
+      "url": "https://kalkine.com.au/news/general-news/reece-asxreh-slides-6-on-us-housing-weakness-and-construction-macro-softening"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/REH.AX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "REH.AX quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/REH.AX/"
+    },
+    {
+      "label": "Reece (ASX:REH) Simply Wall St",
+      "url": "https://simplywall.st/stocks/au/capital-goods/asx-reh/reece-shares"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Reece (REH.AX) across latent-ai-nodes-strict: market cap $7.01B, move since prior +0.6%, YTD +18.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

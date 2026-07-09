@@ -1,0 +1,32 @@
+{
+ "symbol": "KMT",
+ "asOf": "2026-07-09",
+ "company": "Kennametal",
+ "currency": "USD",
+ "priceToday": 33.11,
+ "pricePrev": 35.39,
+ "moveSincePrevPct": -6.44,
+ "ytdReturnPct": 14.21,
+ "marketCapUsdB": 2.52,
+ "quoteUrl": "https://finance.yahoo.com/quote/KMT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 42,
+   "ticker": "KMT",
+   "company": "Kennametal",
+   "score": 67.6,
+   "thesis": "Carbide tooling and wear-resistant materials could enable reshoring of precision thermal/mechanical components",
+   "theme": "Cutting tools/materials",
+   "exchange": "NYSE",
+   "regionRank": "US#24",
+   "ytd": 14.21,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent under-covered AI supply-chain lens: May 6 beat and raised FY guidance (aero/defense/energy tied to AI power generation) pre-date the window but keep the carbide-tooling/reshoring case intact. No new June catalyst; small positive carry on momentum still recent -> hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "ISRG",
+ "asOf": "2026-07-09",
+ "company": "Intuitive Surgical",
+ "currency": "USD",
+ "priceToday": 415.1,
+ "pricePrev": 400.77,
+ "moveSincePrevPct": 3.58,
+ "ytdReturnPct": -26.14,
+ "marketCapUsdB": 147.01,
+ "quoteUrl": "https://finance.yahoo.com/quote/ISRG/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 36,
+   "ticker": "ISRG",
+   "company": "Intuitive Surgical",
+   "score": 30.6,
+   "thesis": "World-class robotics company, but not humanoid and not hidden.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Current robotics rank #44 and alpha score 27. Should hold because $148.3B cap, -25.5% YTD, Demoted purity, and commercialization evidence now matter more than generic humanoid beta. The current rank remains broadly consistent with the evidence and risk/reward."
+   }
+  }
+ ]
+}

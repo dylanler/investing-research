@@ -1,0 +1,64 @@
+{
+  "symbol": "RRX",
+  "company": "Regal Rexnord",
+  "caseDate": "2026-07-09",
+  "newsSince": "-6.1% since prior, +42.7% YTD. July 9 context refresh for Regal Rexnord (RRX) across latent-ai-nodes: market cap $13.88B, move since prior -6.1%, YTD +42.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "RRX $735M data-center E-Pod orders (BizTimes)",
+      "url": "https://biztimes.com/regal-rexnord-secures-735-million-worth-of-orders-for-new-data-center-product/"
+    },
+    {
+      "label": "RRX soft guidance vs data-center orders (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rrx/regal-rexnord/news/what-regal-rexnord-rrxs-soft-guidance-and-surging-data-cente"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/RRX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "RRX quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/RRX/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 56. July context shows score 67.0, move since prior -6.1%, YTD +42.7%, market cap $13.88B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Motors/drives/power transmission feed cooling, robotics and factory automation; sizeable data-center switchgear backlog.",
+      "neutral": "Synergy and data-center HVAC story intact, but realization is a 2027 event.",
+      "bear": "Largely a cyclical-industrial synergy story with rare-earth and tariff headwinds; AI link diluted.",
+      "primaryCatalyst": "Data-center HVAC/automation demand; synergy delivery",
+      "primaryRisk": "Industrial cyclicality; deferred backlog conversion"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 29. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -6.1% since the prior refresh, +42.7% YTD. Prior frame: No new fundamental evidence since June 9. After +52% YTD and recurring bullish data-center coverage, the inductor/transformer-proxy 'hidden, under-owned' premise this residual-alpha page rewards keeps eroding at the margin, so a small negative drift, not a rank move.",
+      "bull": "Delevan inductor/transformer proxy with $735M E-Pod data-center backlog shipping early 2027.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 29, score 48.6, -6.1% since prior, +42.7% YTD.",
+      "bear": "Up 52% YTD and widely covered — no longer the hidden residual-alpha name this page seeks.",
+      "primaryCatalyst": "E-Pod data-center shipments from early 2027",
+      "primaryRisk": "Crowded; soft 2026 guidance; rare-earth/tariff headwinds"
+    }
+  ]
+}

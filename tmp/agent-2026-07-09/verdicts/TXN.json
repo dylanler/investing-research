@@ -1,0 +1,101 @@
+{
+  "symbol": "TXN",
+  "company": "Texas Instruments",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 97 hold (+0); down 0.8% since the prior refresh. semiconductor-ai-nodes: rank 78 hold (+0); down 0.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "TXN +6.95% Jun 19-21, Wall Street upgrade (TradingKey)",
+      "url": "https://www.tradingkey.com/news/market-movers/261979749-market-movers-txn-20260621"
+    },
+    {
+      "label": "TXN adds data-center segment, guides above consensus (Fintool)",
+      "url": "https://fintool.com/news/texas-instruments-data-center-analog-chip-recovery"
+    },
+    {
+      "label": "TXN data-center revenue +90% YoY (TIKR)",
+      "url": "https://www.tikr.com/blog/texas-instruments-stock-up-58-this-year-as-data-center-revenue-grows-90-year-over-year-whats-next"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/TXN/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "TXN Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/TXN/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 46. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -0.8% since the prior refresh, +69.7% YTD. Prior frame: No fresh fundamental disclosure since June 9 - the move is an analyst-upgrade/'top pick' rotation that further mainstreams the hidden-AI-power framing, eroding residual alpha on this crowding-sensitive page. Pull-forward risk is a real caveat. Small -1, hold rank 42.",
+      "bull": "Broad analog/power content benefits from AI data-center buildout; DC revenue ~+90% YoY now a distinct segment.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 46, score 34.3, -0.8% since prior, +69.7% YTD.",
+      "bear": "Crowding intensifies on a +71% YTD mega-cap; DC surge partly pull-forward that reverses as rival foundry capacity frees up in 2H26.",
+      "primaryCatalyst": "Sustained data-center analog share gains",
+      "primaryRisk": "Pull-forward reversal; consensus crowding"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 97,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Texas Instruments through Analog / power; Supplies power/analog content across infrastructure; limited direct alpha from CPO. The stock is down 0.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Power/analog content rides overall optical/DC infrastructure growth, including CPO-era platforms.",
+      "neutral": "Peripheral to CPO; benefits are indirect via broad infrastructure spend.",
+      "bear": "No direct CPO exposure; industrial/auto cycle and post-run-up crowding dominate; limited CPO-specific alpha.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Industrial/auto cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Texas Instruments through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 0.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Internal 300mm capacity gives lead-time/cost edge; new data-center segment shows direct AI compute pull.",
+      "neutral": "Analog/power is supportive but not a true AI-node bottleneck; less direct than HBM/packaging/networking.",
+      "bear": "Not on the critical AI-node path; pull-forward demand and crowding limit incremental node-bottleneck alpha.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Indirect to the AI-node bottleneck; pull-forward"
+    }
+  ]
+}

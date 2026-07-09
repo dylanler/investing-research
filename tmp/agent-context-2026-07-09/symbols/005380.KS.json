@@ -1,0 +1,27 @@
+{
+ "symbol": "005380.KS",
+ "asOf": "2026-07-09",
+ "company": "Hyundai Motor",
+ "currency": "KRW",
+ "priceToday": 445500.0,
+ "pricePrev": 511000.0,
+ "moveSincePrevPct": -12.82,
+ "ytdReturnPct": 49.25,
+ "marketCapUsdB": 76.8,
+ "quoteUrl": "https://finance.yahoo.com/quote/005380.KS/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 40,
+   "ticker": "005380.KS",
+   "company": "Hyundai Motor",
+   "score": 18.0,
+   "thesis": "Atlas is one of the best humanoid proof points, but Hyundai is a large auto stock that has already rerated.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #48 and alpha score 10. Should move down because $110.0B cap, +114.1% YTD, Builder purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

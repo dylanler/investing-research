@@ -1,0 +1,68 @@
+{
+  "symbol": "6762.T",
+  "company": "TDK",
+  "caseDate": "2026-07-09",
+  "newsSince": "-14.2% since prior, +50.3% YTD. Since the June 23 refresh, July market and web research updated the Board-level power & passives thesis. For this stock, price moved -14.2% since the prior snapshot and YTD return is +50.3%; verdict: up with scoreDelta 3.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 6762.T",
+      "url": "https://finance.yahoo.com/quote/6762.T/"
+    },
+    {
+      "label": "DRAMeXchange/TrendForce: AI high-end MLCC book-to-bill at post-pandemic highs",
+      "url": "https://dramexchange.com/WeeklyResearch/Post/2/12759.html"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "TDK FY2026 slides: record profits, AI pivot (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/tdk-fy-2026-slides-record-profits-ai-pivot-amid-muted-stock-reaction-93CH-4640689"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6762.T/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 57,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "Passives and power components are gaining direct AI-server scarcity evidence; July selloff improves entry despite YTD recognition.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -14.2%, YTD +50.3%, market cap about $42.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 7. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -14.2% since the prior refresh, +50.3% YTD. Prior frame: Residual-alpha lens: no fundamental news since June 9; AI-DC capex/pivot was an April event. A +2.8% flow day pushes YTD to ~75% on a crowding-sensitive list. MLCC/inductor power-topology bottleneck intact but at ~$45B cap far less hidden than Tier A. Hold.",
+      "bull": "MLCC/inductor/film-cap content across the AI-DC power-delivery chain; ¥900B capex, 25-30% CAGR target.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 7, score 76.3, -14.2% since prior, +50.3% YTD.",
+      "bear": "+75% YTD, $45B cap, well-covered; limited residual alpha vs hidden peers.",
+      "primaryCatalyst": "AI-DC power-component capacity ramp",
+      "primaryRisk": "Crowding; consumer/components cycle"
+    }
+  ]
+}

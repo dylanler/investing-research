@@ -1,0 +1,51 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 18. July context shows score 71.5, move since prior -8.0%, YTD -8.9%, market cap $1.52B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Apollo's 885p approach validated deep value; thermal-processing thesis (liquid loops, robotics, automation) untouched.",
+      "neutral": "Standalone story unchanged; trades near pre-bid level with no operational deterioration.",
+      "bear": "Bid floor removed, no re-approach for 6 months; M&A optionality that drove the upgrade has evaporated.",
+      "primaryCatalyst": "Renewed bid interest after the 6-month lockout or self-help margin recovery.",
+      "primaryRisk": "De-rating now the takeover premium is gone; cyclical end-market softness."
+    }
+  ],
+  "symbol": "BOY.L",
+  "company": "Bodycote",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Bodycote shares fall ~9% as Apollo walks away (Proactive Investors)",
+      "url": "https://www.proactiveinvestors.com/companies/news/1093510/bodycote-shares-fall-9-as-apollo-walks-away-from-takeover-approach-1093510.html"
+    },
+    {
+      "label": "Bodycote reaffirms standalone strategy as Apollo walks away (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/bodycote-reaffirms-standalone-strategy-as-apollo-walks-away-from-takeover"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/BOY.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "BOY.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/BOY.L/"
+    },
+    {
+      "label": "Apollo backs out of $2bn Bodycote pursuit (Reuters via Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/apollo-backs-out-of-2-billion-takeover-pursuit-of-uks-bodycote-4727874"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Bodycote (BOY.L) across latent-ai-nodes-strict: market cap $1.52B, move since prior -8.0%, YTD -8.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

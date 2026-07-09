@@ -1,0 +1,30 @@
+{
+ "symbol": "NOVN.SW",
+ "asOf": "2026-07-09",
+ "company": "Novartis",
+ "currency": "CHF",
+ "priceToday": 124.98,
+ "pricePrev": 123.42,
+ "moveSincePrevPct": 1.26,
+ "ytdReturnPct": 15.19,
+ "marketCapUsdB": 295.9,
+ "quoteUrl": "https://finance.yahoo.com/quote/NOVN.SW/",
+ "listings": [
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 5,
+   "ticker": "SIX: NOVN / NYSE: NVS",
+   "company": "Novartis",
+   "score": 32.7,
+   "thesis": "Another direct proxy for the large and growing pharmaceutical component of the human consumption basket.",
+   "theme": "Human / carbon-based consumption",
+   "ytd": 15.19,
+   "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Carbon-based human-consumption basket: Novartis remains a mature, consensus, institutionally-owned pharma proxy. Pipeline/M&A items predate June 9 and don't add residual alpha to this silicon-vs-carbon lens. Hold at 5, 0."
+   }
+  }
+ ]
+}

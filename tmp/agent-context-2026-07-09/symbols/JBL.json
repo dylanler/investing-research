@@ -1,0 +1,32 @@
+{
+ "symbol": "JBL",
+ "asOf": "2026-07-09",
+ "company": "Jabil",
+ "currency": "USD",
+ "priceToday": 325.21,
+ "pricePrev": 371.12,
+ "moveSincePrevPct": -12.37,
+ "ytdReturnPct": 35.28,
+ "marketCapUsdB": 34.08,
+ "quoteUrl": "https://finance.yahoo.com/quote/JBL/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 24,
+   "ticker": "JBL",
+   "company": "Jabil",
+   "score": 51.0,
+   "thesis": "Grid-to-rack power, liquid cooling, AI infra manufacturing; bottleneck, direct-AI, near-term-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: JBL",
+   "ytd": 35.28,
+   "mcapB": 34.08,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: June 17 beat-and-raise (FY26 to ~$35B, AI rev ~$13.6B +50%) is a clear fundamental positive (+2) confirming central-node franchise quality. But the prior 'crowded/rerated' call holds: stock +10% post-print near 52-wk highs erodes residual alpha, so no rank move on this page."
+   }
+  }
+ ]
+}

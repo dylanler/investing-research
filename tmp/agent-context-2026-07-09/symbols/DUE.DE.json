@@ -1,0 +1,32 @@
+{
+ "symbol": "DUE.DE",
+ "asOf": "2026-07-09",
+ "company": "Dürr",
+ "currency": "EUR",
+ "priceToday": 17.52,
+ "pricePrev": 18.66,
+ "moveSincePrevPct": -6.11,
+ "ytdReturnPct": -23.16,
+ "marketCapUsdB": 1.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/DUE.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 27,
+   "ticker": "DUE.DE",
+   "company": "Dürr",
+   "score": 69.6,
+   "thesis": "Factory automation, environmental systems and surface processing could support reshored hardware/component production",
+   "theme": "Automation/process tech",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#13",
+   "ytd": -23.16,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent screen: factory automation / environmental / surface-processing could support reshored hardware production - thesis intact. No new news since June 9 (AGM and late-May guidance update already priced). Continued -18% YTD drawdown marginally improves asymmetry but is a price effect, not fundamental, so hold per the screen's rules."
+   }
+  }
+ ]
+}

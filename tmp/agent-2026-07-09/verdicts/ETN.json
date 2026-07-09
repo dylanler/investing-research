@@ -1,0 +1,39 @@
+{
+  "symbol": "ETN",
+  "company": "Eaton",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Power, cooling & electrical thesis. For this stock, price moved -3.0% since the prior snapshot and YTD return is +22.1%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for ETN",
+      "url": "https://finance.yahoo.com/quote/ETN/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Grid/switchgear exposure remains high quality; size and broad consensus keep the score capped.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -3.0%, YTD +22.1%, market cap about $155.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    }
+  ]
+}

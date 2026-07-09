@@ -1,0 +1,32 @@
+{
+ "symbol": "XTC.TO",
+ "asOf": "2026-07-09",
+ "company": "Exco Technologies",
+ "currency": "CAD",
+ "priceToday": 7.57,
+ "pricePrev": 7.62,
+ "moveSincePrevPct": -0.66,
+ "ytdReturnPct": 10.83,
+ "marketCapUsdB": 0.2,
+ "quoteUrl": "https://finance.yahoo.com/quote/XTC.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 32,
+   "ticker": "XTC.TO",
+   "company": "Exco Technologies",
+   "score": 69.0,
+   "thesis": "Die-casting tooling, extrusion tools and engineered components could support thermal housings and industrial reshoring",
+   "theme": "Tooling/components",
+   "exchange": "TSX",
+   "regionRank": "Non-US#14",
+   "ytd": 10.83,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: die-casting/extrusion tooling optionality into AI thermal housings/reshoring is unchanged. Q2 (auto-exposed, sales -5%) and dividend are pre-window; no new AI-chain evidence. Rank 31 holds."
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "VLTSA.PA",
+ "asOf": "2026-07-09",
+ "company": "Voltalia",
+ "currency": "EUR",
+ "priceToday": 7.15,
+ "pricePrev": 7.36,
+ "moveSincePrevPct": -2.85,
+ "ytdReturnPct": -12.43,
+ "marketCapUsdB": 1.08,
+ "quoteUrl": "https://finance.yahoo.com/quote/VLTSA.PA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 8,
+   "ticker": "VLTSA.PA",
+   "company": "Voltalia",
+   "score": 55.0,
+   "thesis": "Renewable power developer",
+   "bucket": "electricity",
+   "ytd": -12.43,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 9; adjusted score 55.0; YTD -3.6%; market cap $1.2B; Scaling watchlist fit is Renewable power developer; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

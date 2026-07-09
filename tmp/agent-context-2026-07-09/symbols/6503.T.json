@@ -1,0 +1,32 @@
+{
+ "symbol": "6503.T",
+ "asOf": "2026-07-09",
+ "company": "Mitsubishi Electric",
+ "currency": "JPY",
+ "priceToday": 5783.0,
+ "pricePrev": 6104.0,
+ "moveSincePrevPct": -5.26,
+ "ytdReturnPct": 20.73,
+ "marketCapUsdB": 75.42,
+ "quoteUrl": "https://finance.yahoo.com/quote/6503.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 40,
+   "ticker": "6503",
+   "company": "Mitsubishi Electric",
+   "score": 39.1,
+   "thesis": "Electrical equipment and automation leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TSE: 6503",
+   "ytd": 20.73,
+   "mcapB": 75.42,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: early-June FY27 guidance, Semikron Danfoss power-module standard and June 28 power-semi data service are real power-electronics/automation positives, but Mitsubishi is bucketed 'secondary' - farther from the passive/power-supply bottleneck stack. $78B mega-cap; incremental, not thesis-changing. Hold rank 38."
+   }
+  }
+ ]
+}

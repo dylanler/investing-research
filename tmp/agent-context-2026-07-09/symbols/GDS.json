@@ -1,0 +1,30 @@
+{
+ "symbol": "GDS",
+ "asOf": "2026-07-09",
+ "company": "GDS Holdings",
+ "currency": "USD",
+ "priceToday": 32.82,
+ "pricePrev": 31.975,
+ "moveSincePrevPct": 2.64,
+ "ytdReturnPct": -14.4,
+ "marketCapUsdB": 6.14,
+ "quoteUrl": "https://finance.yahoo.com/quote/GDS/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 25,
+   "ticker": "GDS",
+   "company": "GDS Holdings",
+   "score": 67.6,
+   "thesis": "Physical deployment exposure. Positive but measured ytd; watch data-center operator execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": -14.4,
+   "auditNote": "New negative evidence since June 9: audit-committee-chair resignation plus multiple securities-fraud investigations (Pomerantz) inject governance/disclosure risk into a China data-center name, directl",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "New negative evidence since June 9: audit-committee-chair resignation plus multiple securities-fraud investigations (Pomerantz) inject governance/disclosure risk into a China data-center name, directly weakening the under-owned physical-deployment thesis. This is a thesis event, not a flow dip; move down with a fundamental cut."
+   }
+  }
+ ]
+}

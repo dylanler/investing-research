@@ -1,0 +1,63 @@
+{
+ "symbol": "AMAT",
+ "asOf": "2026-07-09",
+ "company": "Applied Materials",
+ "currency": "USD",
+ "priceToday": 570.5,
+ "pricePrev": 589.02,
+ "moveSincePrevPct": -3.14,
+ "ytdReturnPct": 112.18,
+ "marketCapUsdB": 574.03,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMAT/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 73,
+   "ticker": "AMAT",
+   "company": "Applied Materials",
+   "score": 49.9,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 112.18,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Raised CY26 guide (equipment >30%, packaging >50%) reaffirms direct leading-edge/HBM-capacity bottleneck exposure, a small fundamental positive on a node list. But it is widely owned and the +17.7% pop is mostly flow; no new evidence since prior case, so only a modest fundamental tick, not a rank shift."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 65,
+   "ticker": "AMAT",
+   "company": "Applied Materials",
+   "score": 57.0,
+   "thesis": "Advanced packaging/foundry capex beneficiary, but widely owned.",
+   "category": "Wafer equipment",
+   "ytd": 112.18,
+   "mcapB": 574.03,
+   "risk": "Capex cycle and China restrictions",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through a CPO lens AMAT is an indirect foundry/advanced-packaging capex play, not an optics name. Raised packaging guide is a mild positive, but the page already flags it 'widely owned'; flow-driven pop adds no CPO-specific evidence, so hold with only a small fundamental tick."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 62,
+   "ticker": "AMAT",
+   "company": "Applied Materials",
+   "score": 54.4,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch semiconductor equipment execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 112.18,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the under-owned-bottleneck master list AMAT is a core pick-and-shovel input. Reaffirmed CY26 equipment >30% / packaging >50% guide and record margins are a small fundamental positive; prior case already cut it for YTD/cap rerating, so do not double-count, hold with a modest tick."
+   }
+  }
+ ]
+}

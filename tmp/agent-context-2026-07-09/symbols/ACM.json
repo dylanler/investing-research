@@ -1,0 +1,32 @@
+{
+ "symbol": "ACM",
+ "asOf": "2026-07-09",
+ "company": "AECOM",
+ "currency": "USD",
+ "priceToday": 67.89,
+ "pricePrev": 69.2,
+ "moveSincePrevPct": -1.89,
+ "ytdReturnPct": -29.57,
+ "marketCapUsdB": 8.72,
+ "quoteUrl": "https://finance.yahoo.com/quote/ACM/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 69,
+   "ticker": "ACM",
+   "company": "AECOM",
+   "score": 63.7,
+   "thesis": "Engineering and permitting capacity is a hidden bottleneck in power/data-center projects; AECOM is high quality but large and diversified.",
+   "theme": "Data Center Services",
+   "exchange": "NYSE",
+   "ytd": -29.57,
+   "conviction": "Medium",
+   "catalysts": "Power/grid design; environmental permitting; data-center campus services.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 76 is 15 places worse than displayed rank 61; adjusted score 61.0; YTD -26.5%; market cap $9.1B; AECOM remains tied to data center services through Engineering/design for infrastructure and critical facilities. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

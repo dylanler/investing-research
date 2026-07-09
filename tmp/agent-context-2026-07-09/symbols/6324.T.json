@@ -1,0 +1,27 @@
+{
+ "symbol": "6324.T",
+ "asOf": "2026-07-09",
+ "company": "Harmonic Drive Systems",
+ "currency": "JPY",
+ "priceToday": 7510.0,
+ "pricePrev": 7700.0,
+ "moveSincePrevPct": -2.47,
+ "ytdReturnPct": 95.57,
+ "marketCapUsdB": 5.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/6324.T/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 25,
+   "ticker": "6324.T",
+   "company": "Harmonic Drive Systems",
+   "score": 57.4,
+   "thesis": "One of the most important actuator suppliers, but no longer hidden.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #35 and alpha score 50. Should move down because $4.2B cap, +86.5% YTD, Actuation purity, and commercialization evidence now matter more than generic humanoid beta. KOID influence: fund rank #3, 2.83% weight, Demoted, Core component. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

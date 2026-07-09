@@ -1,0 +1,30 @@
+{
+ "symbol": "WMT",
+ "asOf": "2026-07-09",
+ "company": "Walmart",
+ "currency": "USD",
+ "priceToday": 113.1,
+ "pricePrev": 119.49,
+ "moveSincePrevPct": -5.35,
+ "ytdReturnPct": 0.3,
+ "marketCapUsdB": 904.75,
+ "quoteUrl": "https://finance.yahoo.com/quote/WMT/",
+ "listings": [
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 7,
+   "ticker": "NYSE: WMT",
+   "company": "Walmart",
+   "score": 27.7,
+   "thesis": "A broad proxy for recurring household spend, especially groceries, everyday goods, and pharmacy-led traffic.",
+   "theme": "Human / carbon-based consumption",
+   "ytd": 0.3,
+   "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Carbon-consumption basket lens: WMT remains a mature, consensus, already-institutionally-owned household-spend proxy. Nothing new since June 9 (guidance/Q1 digested, next print Aug 20), so the low-alpha defensive role is unchanged."
+   }
+  }
+ ]
+}

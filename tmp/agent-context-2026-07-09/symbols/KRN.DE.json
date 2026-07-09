@@ -1,0 +1,32 @@
+{
+ "symbol": "KRN.DE",
+ "asOf": "2026-07-09",
+ "company": "Krones",
+ "currency": "EUR",
+ "priceToday": 107.6,
+ "pricePrev": 114.2,
+ "moveSincePrevPct": -5.78,
+ "ytdReturnPct": -20.88,
+ "marketCapUsdB": 4.11,
+ "quoteUrl": "https://finance.yahoo.com/quote/KRN.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 66,
+   "ticker": "KRN.DE",
+   "company": "Krones",
+   "score": 65.0,
+   "thesis": "High-throughput automation and process engineering could be adapted to precision assembly/inspection cells",
+   "theme": "Packaging automation",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#31",
+   "ytd": -20.88,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent AI-node lens: packaging-automation tie to precision assembly cells is thesis-stage and untouched by the as-scripted June 9 AGM. No new datapoint links Krones to the AI supply chain. Hold rank 66."
+   }
+  }
+ ]
+}

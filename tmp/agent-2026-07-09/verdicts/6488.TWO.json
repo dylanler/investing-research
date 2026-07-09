@@ -1,0 +1,88 @@
+{
+  "symbol": "6488.TWO",
+  "company": "6488.TW",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 24 hold (-2); up 33.7% since the prior refresh. semiconductor-ai-nodes: rank 45 hold (-2); up 33.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "GlobalWafers price increase, Asia capacity fully booked, square wafers 4Q26 (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD214/globalwafers-shipments-wafer-capacity-asia.html"
+    },
+    {
+      "label": "GlobalWafers phased GaN capacity expansion (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260526PD218/globalwafers-gan-sic-demand-12-inch.html"
+    },
+    {
+      "label": "GlobalWafers sees 1Q26 wafer prices bottoming, capacity boosts revenue (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260312PD208/globalwafers-capacity-revenue-silicon-wafer-demand.html"
+    },
+    {
+      "label": "GlobalWafers 6488 IR earnings summary & outlook (Quartr)",
+      "url": "https://quartr.com/companies/globalwafers-co-ltd_15575"
+    },
+    {
+      "label": "SemiMedia: GlobalWafers H2 price increases (May 28, 2026)",
+      "url": "https://www.semimedia.cc/21097.html"
+    },
+    {
+      "label": "DigiTimes: tightening 12-inch wafer supply",
+      "url": "https://www.digitimes.com/news/a20260506PD221/globalwafers-2026-recovery-12-inch-wafer.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "6488.TWO Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/6488.TWO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits GlobalWafers through Materials / wafers; Less glamorous materials lever to semiconductor build-out; CPO indirect. The stock is up 33.7% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "Materials choke point with restored pricing power; fully-booked capacity underpins the whole AI build, including optics-bearing packages.",
+      "neutral": "Real bottleneck but only indirectly tied to the CPO/HBM/package/test focus of this page.",
+      "bear": "Cycle- and capex-exposed; CPO relevance is indirect; valuation rich after a large run.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Wafer cycle and capex"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits GlobalWafers through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is up 33.7% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "12-inch supply tight; H2 price hikes + LTAs = pricing power inflection directly levered to AI/HBM fab build-out.",
+      "neutral": "Cyclical materials name; pricing recovery real but margins still ramping with capacity costs.",
+      "bear": "+151% YTD and at all-time highs; wafer demand is cyclical and capex-heavy if AI build slows.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Wafer cycle reversal; capex overbuild"
+    }
+  ]
+}

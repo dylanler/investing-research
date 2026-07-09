@@ -1,0 +1,31 @@
+{
+ "symbol": "002371.SZ",
+ "asOf": "2026-07-09",
+ "company": "002371.SZ",
+ "currency": "CNY",
+ "priceToday": 878.43,
+ "pricePrev": 747.49,
+ "moveSincePrevPct": 17.52,
+ "ytdReturnPct": 85.12,
+ "marketCapUsdB": 86.14,
+ "quoteUrl": "https://finance.yahoo.com/quote/002371.SZ/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 46,
+   "ticker": "002371.SZ",
+   "company": "NAURA Technology",
+   "score": 68.1,
+   "thesis": "China equipment localization scarcity; indirect CPO/foundry capex exposure.",
+   "category": "Wafer equipment",
+   "ytd": 85.12,
+   "mcapB": 86.14,
+   "risk": "Policy, valuation, export controls",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "NAURA Technology should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 33, 23.4% YTD, $64.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

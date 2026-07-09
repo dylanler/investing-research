@@ -1,0 +1,77 @@
+{
+  "symbol": "CIEN",
+  "company": "Ciena",
+  "caseDate": "2026-07-09",
+  "newsSince": "-3.4% since prior, +79.2% YTD. Move down. Ciena remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers.",
+  "sources": [
+    {
+      "label": "Ciena FQ2 2026 results (BusinessWire, June 3)",
+      "url": "https://www.businesswire.com/news/home/20260603804542/en/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results"
+    },
+    {
+      "label": "Ciena FQ2 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000936395/000162828026040614/ex9912026q2earningspressre.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/CIEN/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "CIEN quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/CIEN/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 26,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.68,
+      "rankRationale": "Ciena added concrete AI-networking product evidence around 1.6T coherent, hyper-rail photonics and automation after prior crowding concerns.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -3.4%, YTD +79.2%, market cap about $62.4B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.75,
+      "rankRationale": "Move down. Ciena remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers.",
+      "bull": "AI-era optical transport is core; backlog and guide raise validate demand durability.",
+      "neutral": "Obvious optical thesis - no longer a hidden node, but fundamentally healthy.",
+      "bear": "Fully discovered; cloud concentration and rerating remove the latency this page seeks.",
+      "primaryCatalyst": "800G/1.6T transport; cloud interconnect; telecom recovery.",
+      "primaryRisk": "The AI linkage may remain indirect, already priced, or swamped by the core industrial cycle."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 80. July context does not change the page placement: -3.4% since the prior refresh, +79.2% YTD. Prior frame: Residual-alpha vs passives: the asymmetry-restoring flush and improved fundamentals (record $7.7B backlog, raised FY guide) were already actioned in the June 9 'up' move. Nothing new since; the recovery bounce partly closes that gap. Ciena stays peripheral to the passive/power stack. Hold.",
+      "bull": "Record backlog, raised FY26 to $6.3B, first hyperscaler multi-rail award; supply lagging demand.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 80, score 14.6, -3.4% since prior, +79.2% YTD.",
+      "bear": "Now full consensus AI-optical; +85% YTD, crowding-sensitive page penalizes the re-rating.",
+      "primaryCatalyst": "800G/1.6T transport + hyperscaler multi-rail rollout (2027)",
+      "primaryRisk": "Crowded consensus AI-optical name; valuation"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "VGO.WA",
+  "company": "VIGO Photonics",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. VIGO Photonics (VGO.WA) now screens at $0.13B market cap, +10.7% since the prior refresh and +18.6% YTD. Page thesis remains: Photonics and infrared detector leverage",
+  "sources": [
+    {
+      "label": "VGO.WA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/VGO.WA/"
+    },
+    {
+      "label": "VIGO acquires InfraRed Associates (Notes From Poland)",
+      "url": "https://notesfrompoland.com/2026/03/27/polish-electronics-firm-vigo-photonics-acquires-us-rival-infrared-associates-for-8-4m/"
+    },
+    {
+      "label": "VIGO-PCO defense partnership",
+      "url": "https://vigophotonics.com/strategic-partnership-for-security-vigo-photonics-s-a-and-pco-s-a-jointly-strengthen-polands-defense-capabilities/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 19. July market-data refresh shows move since prior +10.7%, YTD +18.6%, market cap $0.13B. Thesis: Photonics and infrared detector leverage. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Vertically integrated MWIR/LWIR detector maker with growing defense backlog and a US foothold via InfraRed Associates.",
+      "neutral": "Niche photonics franchise; the AI test-time-scaling thesis link is weak versus its defense/industrial core.",
+      "bear": "$0.12B micro-cap, illiquid Warsaw listing, lumpy defense revenue; minimal direct AI-compute exposure.",
+      "primaryCatalyst": "Ramp of PCO defense framework and US detector expansion",
+      "primaryRisk": "Thin liquidity; defense-order timing; weak AI tie-in"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+ "symbol": "IFX.DE",
+ "asOf": "2026-07-09",
+ "company": "Infineon Technologies",
+ "currency": "EUR",
+ "priceToday": 72.32,
+ "pricePrev": 80.56,
+ "moveSincePrevPct": -10.23,
+ "ytdReturnPct": 89.0,
+ "marketCapUsdB": 118.27,
+ "quoteUrl": "https://finance.yahoo.com/quote/IFX.DE/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 19,
+   "ticker": "IFX",
+   "company": "Infineon Technologies",
+   "score": 60.7,
+   "thesis": "Power semis and energy efficiency exposure; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "XETRA: IFX",
+   "ytd": 89.0,
+   "mcapB": 118.27,
+   "revisionNote": "Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: the June 2 AI-PSU launches + NVIDIA MGX 800VDC win reinforce the power-delivery thesis (€1.5B FY26 / €2.5B FY27 AI target), modestly offset by the China GaN ban (company: 'very limited'). Net mildly positive but ~110% YTD caps residual alpha. Hold 20, +1."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 58,
+   "ticker": "IFX.DE",
+   "company": "Infineon Technologies",
+   "score": 65.8,
+   "thesis": "Infineon’s power chips and controllers are essential to efficient power conversion and edge devices, but it is too large and known for maximum early alpha.",
+   "theme": "Power & Components",
+   "exchange": "Xetra",
+   "ytd": 89.0,
+   "conviction": "Medium",
+   "catalysts": "Data-center power supplies; industrial power semis; automotive recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 64 is 13 places better than displayed rank 77; adjusted score 64.0; YTD +104.5%; market cap $117.3B; Infineon Technologies remains tied to power & components through Power semiconductors, microcontrollers and sensors. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 48,
+   "ticker": "IFX.DE",
+   "company": "Infineon Technologies",
+   "score": 57.8,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 89.0,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: analog/power/RF tier is less direct than HBM/packaging/test, but June's AI-PSU launches + NVIDIA 800VDC win sharpen the AI-rack power claim. GaN China ban is a modest offset. Net +1; not enough to outrank more direct bottleneck names. Hold 49."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 66,
+   "ticker": "IFX.DE",
+   "company": "Infineon Technologies",
+   "score": 56.5,
+   "thesis": "Power density beneficiary, not optical interconnect pure play.",
+   "category": "Power / automotive",
+   "ytd": 89.0,
+   "mcapB": 118.27,
+   "risk": "Industrial/auto cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/optical-interconnect lens: Infineon is a power-density beneficiary, not an optical-interconnect pure play. June's news is all power/PSU and GaN-IP, none of which touches co-packaged optics. No change to the CPO thesis. Hold rank 69."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 76,
+   "ticker": "IFX",
+   "company": "Infineon Technologies",
+   "score": 49.2,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch power semiconductors execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 89.0,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list (board-level power/passives): June AI-PSU launches + NVIDIA MGX win validate the AI-server PDN thesis; GaN China ban is a contained offset (company: 'very limited'). Mildly positive but +110% YTD makes it less hidden. Hold rank 76, +1."
+   }
+  }
+ ]
+}

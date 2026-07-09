@@ -1,0 +1,72 @@
+{
+  "symbol": "PLAB",
+  "company": "Photronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 6 hold (+1); down 11.6% since the prior refresh. semiconductor-ai-nodes: rank 65 hold (+1); down 11.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Photronics Q2 2026 results (StockTitan)",
+      "url": "https://www.stocktitan.net/news/PLAB/photronics-reports-second-quarter-2026-czjju7w2y1kd.html"
+    },
+    {
+      "label": "Photronics Q2 2026 earnings transcript (Motley Fool)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/photronics-plab-q2-2026-earnings-transcript/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "PLAB Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/PLAB/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Photronics through Materials / photomasks; Low-profile cash-generative photomask supplier; levered to design complexity more than headlines. The stock is down 11.6% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Cash-generative photomask supplier levered to rising design complexity at advanced/HBM nodes, less headline-sensitive than peers.",
+      "neutral": "Flat quarter and cautious guide, but capex and high-end mix preserve the bottleneck role.",
+      "bear": "Mask pricing/cycle risk and a softer IC quarter dent the consumable-bottleneck premium.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Mask pricing/cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Photronics through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 11.6% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "High-end IC and FPD strength plus maintained capex keep photomask leverage to AI-fab/HBM capacity additions intact.",
+      "neutral": "Revenue flat YoY and below estimate; order timing soft with cautious Q3 guide.",
+      "bear": "IC revenue -5% YoY, mask pricing/cycle pressure and export-control exposure cloud near-term node demand.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Order timing, mask pricing/cycle and export-control risk"
+    }
+  ]
+}

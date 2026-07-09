@@ -1,0 +1,30 @@
+{
+ "symbol": "2330.TW",
+ "asOf": "2026-07-09",
+ "company": "TSMC",
+ "currency": "TWD",
+ "priceToday": 2415.0,
+ "pricePrev": 2490.0,
+ "moveSincePrevPct": -3.01,
+ "ytdReturnPct": 52.37,
+ "marketCapUsdB": 1983.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/2330.TW/",
+ "listings": [
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 3,
+   "ticker": "TWSE: 2330 / NYSE ADR: TSM",
+   "company": "TSMC",
+   "score": 73.0,
+   "thesis": "A core manufacturing bottleneck for the compute-heavy side of the silicon basket, especially leading-edge AI chips.",
+   "theme": "Silicon / AI-cluster consumption",
+   "ytd": 52.37,
+   "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Silicon-basket bottleneck lens: news since June 9 reinforces the manufacturing-chokepoint case - leading nodes sold out through 2027, demand exceeding supply 25-30%, and confirmed 3nm price hikes (up to 15% in 2H26) reversing the prior no-price-hike overhang and lifting margin trajectory. Rank 3 still fits; mild positive on thesis."
+   }
+  }
+ ]
+}

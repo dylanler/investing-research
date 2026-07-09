@@ -1,0 +1,65 @@
+{
+ "symbol": "POWI",
+ "asOf": "2026-07-09",
+ "company": "Power Integrations",
+ "currency": "USD",
+ "priceToday": 66.46,
+ "pricePrev": 82.16,
+ "moveSincePrevPct": -19.11,
+ "ytdReturnPct": 78.18,
+ "marketCapUsdB": 3.7,
+ "quoteUrl": "https://finance.yahoo.com/quote/POWI/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 13,
+   "ticker": "POWI",
+   "company": "Power Integrations",
+   "score": 66.1,
+   "thesis": "High-efficiency power conversion; tight-supply, AI-adjacent, underfollowed, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "NASDAQ: POWI",
+   "ytd": 78.18,
+   "mcapB": 3.7,
+   "revisionNote": "Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No genuinely new info since June 1 Kyber 800VDC designs, already reflected. On this residual-alpha list the +120% YTD rerating limits hidden alpha; direct power-bottleneck exposure stays attractive but no new catalyst justifies a second consecutive move. Hold at 15."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 84,
+   "ticker": "POWI",
+   "company": "Power Integrations",
+   "score": 47.8,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 78.18,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Through the AI-node-bottleneck lens POWI remains analog/power, less direct than HBM, advanced packaging or AI networking nodes. Nothing since June 1 changes node centrality; prior verdict already demoted it. Hold at 87."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 89,
+   "ticker": "POWI",
+   "company": "Power Integrations",
+   "score": 48.6,
+   "thesis": "Data-center power is relevant but CPO-specific link is weak.",
+   "category": "Power / analog",
+   "ytd": 78.18,
+   "mcapB": 3.7,
+   "risk": "Industrial/consumer power cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the co-packaged-optics lens the CPO-specific link stays weak; data-center power matters but is not optics content. No new CPO-relevant evidence since June 1; page already demoted POWI. Hold at 93, no compounding."
+   }
+  }
+ ]
+}

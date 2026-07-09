@@ -1,0 +1,48 @@
+{
+ "symbol": "3037.TW",
+ "asOf": "2026-07-09",
+ "company": "Unimicron",
+ "currency": "TWD",
+ "priceToday": 875.0,
+ "pricePrev": 974.0,
+ "moveSincePrevPct": -10.16,
+ "ytdReturnPct": 299.54,
+ "marketCapUsdB": 42.23,
+ "quoteUrl": "https://finance.yahoo.com/quote/3037.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 89,
+   "ticker": "3037",
+   "company": "Unimicron",
+   "score": 3.9,
+   "thesis": "High-layer boards and substrate exposure; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "TWSE: 3037",
+   "ytd": 299.54,
+   "mcapB": 42.23,
+   "revisionNote": "On a crowding-sensitive residual-alpha list, another +6.4% flow-driven pop with zero new fundamental evidence on top of +342% YTD further erodes the hidden/under-owned premise; the stock now trades at ~2x Morgan Stanley's bullish NT$500 target, so the rerating has outrun even the bull-case sell side",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the residual-alpha-vs-passives lens the hidden/under-owned premise keeps eroding: +345% YTD, BofA Buy upgrade and Bernstein top-pick status make it consensus, and it trades ~2x MS's bull-case NT$500 target. Strong ABF tailwind is real but fully recognized; crowding pushes it down on this lens."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 73,
+   "ticker": "3037",
+   "company": "Unimicron",
+   "score": 51.0,
+   "thesis": "Packaging scarcity exposure. Very strong ytd rerating; watch abf substrates and pcbs execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 299.54,
+   "auditNote": "Current thesis audit (2026-06-08): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the packaging/substrate-scarcity master list the bottleneck thesis is intact and modestly strengthening: ABF sold-out guidance extended through 2028, record capex, AI mix rising to ~60%. That is genuine choke-point reinforcement (vs pure price), warranting a small + while rank holds given already-high recognition."
+   }
+  }
+ ]
+}

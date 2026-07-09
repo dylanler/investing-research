@@ -1,0 +1,39 @@
+{
+  "symbol": "PDYN",
+  "company": "Palladyne AI",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Palladyne AI (PDYN) now screens at $0.27B market cap, -12.7% since the prior refresh and +20.1% YTD. Page thesis remains: The old Sarcos robotics story has shifted into defense autonomy. It is not humanoid, but it is embodied AI with small-cap optionality.",
+  "sources": [
+    {
+      "label": "PDYN quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/PDYN/"
+    },
+    {
+      "label": "Palladyne wins U.S. Army SwarmOS/Gremlin-X contracts (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260617353751/en/Palladyne-AI-Awarded-U.S.-Army-Contracts-for-SwarmOS-Autonomous-Swarm-Technology-and-Gremlin-X-Mini-Bomber-UAV-Under-Competitive-Disruptive-Applications-Program"
+    },
+    {
+      "label": "Palladyne-IAI loitering-munitions partnership (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260608494232/en/Palladyne-AI-and-IAI-Form-Partnership-to-Manufacture-and-Sell-Combat-Proven-Loitering-Munition-Systems-to-the-U.S.-Department-of-War"
+    },
+    {
+      "label": "Palladyne stock rises on Army contracts; Northland PT $15 (Benzinga)",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53246382/palladyne-ai-stock-rises-on-us-army-contracts-for-swarm-tech-and-mini-bomber-uav"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 14. July market-data refresh shows move since prior -12.7%, YTD +20.1%, market cap $0.27B. Thesis: The old Sarcos robotics story has shifted into defense autonomy. It is not humanoid, but it is embodied AI with small-cap optionality.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Funded Army validation of SwarmOS + IAI munitions partnership move PDYN from concept to revenue path in edge autonomy; large training-exercise demos ahead.",
+      "neutral": "Contracts are early-stage R&D/validation, not large production orders yet; cash-burn small cap.",
+      "bear": "Tiny ~$0.33B cap, pre-scale revenue, program-timing and dilution risk; defense procurement slow to convert to recurring revenue.",
+      "primaryCatalyst": "U.S. Army SwarmOS/Gremlin-X validation and IAI loitering-munition partnership",
+      "primaryRisk": "Early-stage contracts; commercialization/funding timing and dilution"
+    }
+  ]
+}

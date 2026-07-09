@@ -1,0 +1,48 @@
+{
+ "symbol": "SMCI",
+ "asOf": "2026-07-09",
+ "company": "Super Micro Computer",
+ "currency": "USD",
+ "priceToday": 28.17,
+ "pricePrev": 33.765,
+ "moveSincePrevPct": -16.57,
+ "ytdReturnPct": -9.01,
+ "marketCapUsdB": 17.61,
+ "quoteUrl": "https://finance.yahoo.com/quote/SMCI/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 96,
+   "ticker": "SMCI",
+   "company": "Super Micro Computer",
+   "score": 1.0,
+   "thesis": "Direct AI server and rack integration; tight-supply, direct-AI, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: SMCI",
+   "ytd": -9.01,
+   "mcapB": 17.61,
+   "revisionNote": "On a passives/power-bottleneck lens SMCI was already peripheral, and the $7B dilutive raise plus cancellable $39B order book and Goldman's 27%-customer concentration warning directly attack the 'tight-supply, central-node' claim. Residual alpha vs passives names worsens.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On a passives/power-bottleneck lens SMCI was already peripheral, and the $7B dilutive raise plus cancellable $39B order book and Goldman's 27%-customer concentration warning directly attack the 'tight-supply, central-node' claim. Residual alpha vs passives names worsens."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 60,
+   "ticker": "SMCI",
+   "company": "Super Micro Computer",
+   "score": 54.5,
+   "thesis": "Physical deployment exposure. Negative ytd reset; watch ai server platforms execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": -9.01,
+   "auditNote": "This page's thesis says 'watch AI server platforms execution and pricing' and execution broke again: dilutive $7B raise, Goldman Sell to $26 on 27% concentration and margin erosion, non-binding $39B o",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "This page's thesis says 'watch AI server platforms execution and pricing' and execution broke again: dilutive $7B raise, Goldman Sell to $26 on 27% concentration and margin erosion, non-binding $39B orders, DOJ overhang. New negative evidence justifies stepping down on the under-owned-bottleneck master list."
+   }
+  }
+ ]
+}

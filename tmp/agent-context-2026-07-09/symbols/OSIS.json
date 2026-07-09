@@ -1,0 +1,32 @@
+{
+ "symbol": "OSIS",
+ "asOf": "2026-07-09",
+ "company": "OSI Systems",
+ "currency": "USD",
+ "priceToday": 217.42,
+ "pricePrev": 218.655,
+ "moveSincePrevPct": -0.56,
+ "ytdReturnPct": -14.93,
+ "marketCapUsdB": 3.72,
+ "quoteUrl": "https://finance.yahoo.com/quote/OSIS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 11,
+   "ticker": "OSIS",
+   "company": "OSI Systems",
+   "score": 78.3,
+   "thesis": "Security/scanning hardware creates high-value imaging data; AI inference can improve inspection throughput without OSI being priced as an AI platform.",
+   "theme": "Sensors & Security",
+   "exchange": "NASDAQ",
+   "ytd": -14.93,
+   "conviction": "Medium",
+   "catalysts": "Port/security modernization; defense and border spending; software attach.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 13 is 3 places worse than displayed rank 10; adjusted score 77.0; YTD -17.6%; market cap $3.3B; OSI Systems remains tied to sensors & security through Inspection, imaging and security scanning systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

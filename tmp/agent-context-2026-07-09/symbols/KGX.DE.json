@@ -1,0 +1,32 @@
+{
+ "symbol": "KGX.DE",
+ "asOf": "2026-07-09",
+ "company": "KION Group",
+ "currency": "EUR",
+ "priceToday": 41.74,
+ "pricePrev": 40.92,
+ "moveSincePrevPct": 2.0,
+ "ytdReturnPct": -40.2,
+ "marketCapUsdB": 5.78,
+ "quoteUrl": "https://finance.yahoo.com/quote/KGX.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 44,
+   "ticker": "KGX.DE",
+   "company": "KION Group",
+   "score": 67.2,
+   "thesis": "Forklifts, warehouse automation and supply-chain systems could benefit from physical AI logistics build-out",
+   "theme": "Intralogistics",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#20",
+   "ytd": -40.2,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent under-covered AI supply-chain lens: ZIKOO stake/AI Smart Warehouse pre-date the window; Dematic Pouch System is incremental. Physical-AI intralogistics build-out intact at a fresh low, marginally improving latent-node asymmetry. No new financial event -> hold."
+   }
+  }
+ ]
+}

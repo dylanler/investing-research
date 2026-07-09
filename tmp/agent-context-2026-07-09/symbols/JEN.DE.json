@@ -1,0 +1,29 @@
+{
+ "symbol": "JEN.DE",
+ "asOf": "2026-07-09",
+ "company": "JEN.DE",
+ "currency": "EUR",
+ "priceToday": 39.8,
+ "pricePrev": 47.2,
+ "moveSincePrevPct": -15.68,
+ "ytdReturnPct": 96.06,
+ "marketCapUsdB": 2.83,
+ "quoteUrl": "https://finance.yahoo.com/quote/JEN.DE/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 40,
+   "ticker": "JEN.F",
+   "company": "Jenoptik",
+   "score": 32.6,
+   "thesis": "Optical systems, metrology, photonics",
+   "bucket": "scientific_instruments",
+   "ytd": 96.1,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 41 is 1 places worse than displayed rank 40; adjusted score 30.0; YTD +121.7%; market cap $2.9B; Scaling watchlist fit is Optical systems, metrology, photonics; bucket scientific_instruments; tags packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

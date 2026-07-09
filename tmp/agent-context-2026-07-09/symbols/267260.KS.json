@@ -1,0 +1,32 @@
+{
+ "symbol": "267260.KS",
+ "asOf": "2026-07-09",
+ "company": "HD Hyundai Electric",
+ "currency": "KRW",
+ "priceToday": 815000.0,
+ "pricePrev": 949000.0,
+ "moveSincePrevPct": -14.12,
+ "ytdReturnPct": -0.49,
+ "marketCapUsdB": 20.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/267260.KS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 52,
+   "ticker": "267260",
+   "company": "HD Hyundai Electric",
+   "score": 31.4,
+   "thesis": "Grid bottleneck transformer exposure; bottleneck, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "KRX: 267260",
+   "ytd": -0.49,
+   "mcapB": 20.51,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new fundamental evidence since June 9; flat price move. On a hidden-alpha list this remains a widely-covered 'emperor stock' grid/AI-power trade, the opposite of under-owned, and its distance from the passives-bottleneck stack is unchanged. Correctly penalized at rank 51; hold."
+   }
+  }
+ ]
+}

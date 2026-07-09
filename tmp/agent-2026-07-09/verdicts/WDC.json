@@ -1,0 +1,80 @@
+{
+  "symbol": "WDC",
+  "company": "Western Digital",
+  "caseDate": "2026-07-09",
+  "newsSince": "-18.0% since prior, +193.2% YTD. Since the June 23 refresh, July market and web research updated the Storage & AI data platforms thesis. For this stock, price moved -18.0% since the prior snapshot and YTD return is +193.2%; verdict: up with scoreDelta 4.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for WDC",
+      "url": "https://finance.yahoo.com/quote/WDC/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "WDC 2026 HDD production sold out (CEO)",
+      "url": "https://www.techradar.com/pro/were-pretty-much-sold-out-for-calendar-2026-western-digital-ceo-says-storage-firm-is-completely-sold-out-of-hdd-capacity-already-so-does-that-mean-more-price-rises-to-come"
+    },
+    {
+      "label": "MLQ: 2026 HDD sold out, record results",
+      "url": "https://mlq.ai/news/v2/western-digitals-2026-hdd-production-is-sold-out-as-ai-data-centers-drive-record-results/"
+    },
+    {
+      "label": "WDC analyst PT-hike wave",
+      "url": "https://stockstotrade.com/news/western-digital-corporation-wdc-news-2026_06_15/"
+    },
+    {
+      "label": "WDC FQ3'26 results 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026028878/a4ex991-pressreleaseq326.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/WDC/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.72,
+      "rankRationale": "AI data gravity and storage shortage evidence remain strong; the sharp pullback makes the low-ranked storage bottleneck more attractive.",
+      "bull": "AI data gravity and inference workloads increase demand for high-performance storage and data platforms.",
+      "neutral": "Current snapshot: move since prior -18.0%, YTD +193.2%, market cap about $220.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis.",
+      "primaryCatalyst": "Hyperscaler storage wins, NAND/HDD capacity tightness and AI data platform growth",
+      "primaryRisk": "Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 86,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 86. crowding, YTD rerating, or a risk-led drawdown trims residual alpha: -18.0% since the prior refresh, +193.2% YTD. Prior frame: Residual-alpha lens: sold-out 2026 HDD capacity, multi-year LTAs to 2028 and record margins are a real fundamental step-change, not just tape. Even as a 'monitor/benchmark' name farther from the passive/power core, the supply-tightness signal merits an up nudge on news, separate from the crowding/YTD penalty applied elsewhere.",
+      "bull": "Entire 2026 HDD output sold out, LTAs into 2028, record ~50%+ margins on undersupply pricing — a durable structural up-cycle.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 86, score 6.6, -18.0% since prior, +193.2% YTD.",
+      "bear": "+259% YTD and $232B cap leave it crowded; storage is cyclical and farther from the page's core lens.",
+      "primaryCatalyst": "Sold-out 2026 HDD capacity + multi-year LTAs into 2028",
+      "primaryRisk": "Cyclical storage pricing reversal; crowded post-rerating"
+    }
+  ]
+}

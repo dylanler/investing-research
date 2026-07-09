@@ -1,0 +1,27 @@
+{
+ "symbol": "HSAI",
+ "asOf": "2026-07-09",
+ "company": "Hesai",
+ "currency": "USD",
+ "priceToday": 16.37,
+ "pricePrev": 16.055,
+ "moveSincePrevPct": 1.96,
+ "ytdReturnPct": -32.02,
+ "marketCapUsdB": 2.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/HSAI/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 11,
+   "ticker": "HSAI",
+   "company": "Hesai",
+   "score": 74.7,
+   "thesis": "Hesai is less hidden than ARBE, but the production-capacity and humanoid/robotics customer evidence is unusually concrete.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Current robotics rank #14 and alpha score 81. Should move up because $3.3B cap, -20.4% YTD, Sensing purity, and commercialization evidence now matter more than generic humanoid beta. The combination of direct stack fit, under-ownership, and still-plausible rerating room argues for more alpha weight."
+   }
+  }
+ ]
+}

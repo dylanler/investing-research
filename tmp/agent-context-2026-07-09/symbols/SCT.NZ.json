@@ -1,0 +1,29 @@
+{
+ "symbol": "SCT.NZ",
+ "asOf": "2026-07-09",
+ "company": "Scott Technology",
+ "currency": "NZD",
+ "priceToday": 2.76,
+ "pricePrev": 2.53,
+ "moveSincePrevPct": 9.09,
+ "ytdReturnPct": -4.5,
+ "marketCapUsdB": 0.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/SCT.NZ/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 6,
+   "ticker": "SCT.NZ",
+   "company": "Scott Technology",
+   "score": 63.0,
+   "thesis": "Industrial automation and robotics systems",
+   "bucket": "robotics",
+   "ytd": -4.5,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 7 is 1 places worse than displayed rank 6; adjusted score 63.0; YTD -15.9%; market cap $125M; Scaling watchlist fit is Industrial automation and robotics systems; bucket robotics; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

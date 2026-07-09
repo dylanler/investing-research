@@ -1,0 +1,50 @@
+{
+ "symbol": "PRY.MI",
+ "asOf": "2026-07-09",
+ "company": "Prysmian",
+ "currency": "EUR",
+ "priceToday": 136.35,
+ "pricePrev": 148.35,
+ "moveSincePrevPct": -8.09,
+ "ytdReturnPct": 51.7,
+ "marketCapUsdB": 47.89,
+ "quoteUrl": "https://finance.yahoo.com/quote/PRY.MI/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 70,
+   "ticker": "PRY",
+   "company": "Prysmian",
+   "score": 20.5,
+   "thesis": "Grid and interconnect cabling for power bottlenecks; bottleneck, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "BIT: PRY",
+   "ytd": 51.7,
+   "mcapB": 47.89,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "EGL4 £2bn HVDC award and Q1 transmission margin step-up are genuine fundamental wins, but on this passive-stack-alpha lens Prysmian remains a $51B consensus electrification name in the Monitor bucket, far from hidden passive-component alpha. Small positive only."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 48,
+   "ticker": "PRY.MI",
+   "company": "Prysmian",
+   "score": 68.4,
+   "thesis": "Cables are a core AI-era bottleneck across grid and fiber, but Prysmian is increasingly recognized as an electrification/data-center supplier.",
+   "theme": "Power & Grid",
+   "exchange": "Borsa Italiana",
+   "ytd": 51.7,
+   "conviction": "Medium",
+   "catalysts": "Grid interconnections; fiber demand; EHV/HVDC projects.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 53 is 2 places better than displayed rank 55; adjusted score 67.0; YTD +65.4%; market cap $49.0B; Prysmian remains tied to power & grid through Power cables, fiber and grid interconnect infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "005930.KS",
+ "asOf": "2026-07-09",
+ "company": "Samsung Electronics",
+ "currency": "KRW",
+ "priceToday": 278000.0,
+ "pricePrev": 310000.0,
+ "moveSincePrevPct": -10.32,
+ "ytdReturnPct": 116.34,
+ "marketCapUsdB": 1402.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/005930.KS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 25,
+   "ticker": "005930.KS",
+   "company": "Samsung Electronics",
+   "score": 66.9,
+   "thesis": "Memory rebound plus HBM4/SOCAMM2/NVIDIA Vera Rubin evidence and foundry optionality. Size and conglomerate complexity cap alpha despite improving AI linkage.",
+   "tier": "memory",
+   "ytd": 116.34,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: positive HBM4/foundry legs already rewarded with a 51->31 jump pre-refresh; the only genuinely new datapoint is June 18 SK Hynix HBM4E shipping ahead of schedule (SK Hynix still ~60-70% of Vera Rubin HBM4), a mild relative negative. Size/complexity cap alpha. Hold, small -1."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 81,
+   "ticker": "005930.KS",
+   "company": "Samsung Electronics",
+   "score": 50.4,
+   "thesis": "AI memory and foundry exposure; less pure CPO connectivity.",
+   "category": "HBM / foundry / IDM",
+   "ytd": 116.34,
+   "mcapB": 1402.46,
+   "risk": "Memory cycle and foundry execution",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: Samsung is a tangential HBM/foundry/IDM holding here; none of the new flow (HBM4E, foundry-Groq, SK Hynix sampling) touches CPO/connectivity. Nothing new in this lens since June 9. Hold near the bottom of the list."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 58,
+   "ticker": "005930",
+   "company": "Samsung Electronics",
+   "score": 55.7,
+   "thesis": "Direct AI-memory bottleneck exposure. Strong ytd follow-through; watch hbm, memory, and advanced logic execution and pricing.",
+   "bucket": "HBM & AI memory",
+   "ytd": 116.34,
+   "auditNote": "Current thesis audit (2026-06-08): HBM capacity, Rubin-era memory bandwidth, AI 2027 compute intensity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exp",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: HBM4 certification + HBM5/foundry optionality sit squarely in the HBM & AI-memory bucket and were already credited June 9. New June 18 SK Hynix HBM4E lead is a competitive offset; net flat after a +141% YTD rerating. Hold."
+   }
+  }
+ ]
+}

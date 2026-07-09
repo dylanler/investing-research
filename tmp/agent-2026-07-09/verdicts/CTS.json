@@ -1,0 +1,64 @@
+{
+  "symbol": "CTS",
+  "company": "CTS",
+  "caseDate": "2026-07-09",
+  "newsSince": "-11.2% since prior, +34.7% YTD. July 9 context refresh for CTS (CTS) across latent-ai-nodes-strict: market cap $1.73B, move since prior -11.2%, YTD +34.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "CTS 2026 guidance / margins / cash flow - StockTitan",
+      "url": "https://www.stocktitan.net/sec-filings/CTS/8-k-cts-corp-reports-material-event-62fa83c50ba4.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/CTS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "CTS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/CTS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 13. July context shows score 73.0, move since prior -11.2%, YTD +34.7%, market cap $1.73B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Sensors, filters, connectivity components map cleanly onto edge-sensing and thermal-monitoring needs.",
+      "neutral": "Plausible latent node but unconfirmed; story flat since June 9.",
+      "bear": "AI linkage stays indirect; industrial/auto cyclicality dominates the actual revenue mix.",
+      "primaryCatalyst": "Edge sensing / thermal monitoring pull from AI infrastructure",
+      "primaryRisk": "Latent pathway remains 'could support', not yet confirmed in numbers"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 2. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -11.2% since the prior refresh, +34.7% YTD. Prior frame: On the residual-alpha-vs-passives lens, the passive/power-sensing bottleneck thesis is intact with no fresh fundamental evidence since June 9. The continued YTD re-rating (+49.7%) without new news keeps eroding residual alpha on this crowding-sensitive list - small negative delta, but conviction and rank-2 placement hold.",
+      "bull": "Direct passive + current-sensing supplier to data-center power, lower crowding than mega-caps, M&A optionality.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 2, score 98.5, -11.2% since prior, +34.7% YTD.",
+      "bear": "+49.7% YTD on no new news leaves little residual alpha; a soft print would compress the premium fast.",
+      "primaryCatalyst": "Data-center power-sensing / current-sensing content growth",
+      "primaryRisk": "Crowding/re-rating erodes residual alpha absent fresh catalysts"
+    }
+  ]
+}

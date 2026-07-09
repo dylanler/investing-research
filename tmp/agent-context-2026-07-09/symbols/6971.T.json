@@ -1,0 +1,48 @@
+{
+ "symbol": "6971.T",
+ "asOf": "2026-07-09",
+ "company": "Kyocera",
+ "currency": "JPY",
+ "priceToday": 3726.0,
+ "pricePrev": 3593.0,
+ "moveSincePrevPct": 3.7,
+ "ytdReturnPct": 66.97,
+ "marketCapUsdB": 30.6,
+ "quoteUrl": "https://finance.yahoo.com/quote/6971.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 28,
+   "ticker": "6971",
+   "company": "Kyocera",
+   "score": 49.2,
+   "thesis": "AVX-taut bottlenecks across tantalum, ceramic and specialty capacitors; bottleneck, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TSE: 6971",
+   "ytd": 66.97,
+   "mcapB": 30.6,
+   "revisionNote": "On a crowding-sensitive residual-alpha list, the latest ~28% 30-day leg is driven by a heavily publicized activist/AGM event (ISS and Glass Lewis backing Oasis), not by new passives or ceramic-package bottleneck evidence - residual alpha is being consumed by event-driven flows into June 25.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha/passives lens: tantalum/ceramic/specialty-capacitor bottleneck thesis unchanged. The ~28% leg is event-driven activist/AGM flow (ISS/Glass Lewis backing Oasis), not new passives evidence; June 25 vote is binary and unresolved. Hold at 0."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 39,
+   "ticker": "6971",
+   "company": "Kyocera",
+   "score": 61.5,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch ceramics, substrates, and components execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 66.97,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master bottleneck lens: nothing since June 9 changes Kyocera's role in AI-server PDN, ceramic packages and substrates. Proxy-advisor backing for the activist slate modestly improves the capital-allocation overhang, but the June 25 vote is unresolved. Hold at 0."
+   }
+  }
+ ]
+}

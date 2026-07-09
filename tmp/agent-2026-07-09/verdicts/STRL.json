@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 70,
+      "rankMove": "down",
+      "scoreDelta": -1,
+      "confidence": 0.75,
+      "rankRationale": "Latent AI-node lens: risk/reward deserves less rank weight at current rank 70. July context shows score 63.4, move since prior -26.5%, YTD +107.0%, market cap $20.69B. Score delta -1; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Stone Ridge expands DC site-dev capacity; backlog ~$3.8B, >90% mission-critical; FY26 guide raised.",
+      "neutral": "Construction angle being discovered but execution and backlog quality keep optionality.",
+      "bear": "Cyclical construction margins; data-center capex concentration; short-seller scrutiny.",
+      "primaryCatalyst": "Stone Ridge acquisition plus raised FY26 guidance on AI/DC backlog.",
+      "primaryRisk": "Data-center capex slowdown and construction-margin cyclicality."
+    }
+  ],
+  "symbol": "STRL",
+  "company": "Sterling Infrastructure",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Sterling Infrastructure 8-K, June 9 2026 press release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000087/a20260609ex991pressrelease.htm"
+    },
+    {
+      "label": "STRL up after raising 2026 outlook on AI-focused backlog shift (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-strl/sterling-infrastructure/news/sterling-infrastructure-strl-is-up-55-after-raising-2026-out"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/STRL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "STRL quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/STRL/"
+    },
+    {
+      "label": "STRL targets 25% revenue growth as data-center demand surges (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4558340-sterling-infrastructure-targets-25-percent-revenue-growth-for-2026-as-backlog-and-data-center"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Sterling Infrastructure (STRL) across latent-ai-nodes: market cap $20.69B, move since prior -26.5%, YTD +107.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

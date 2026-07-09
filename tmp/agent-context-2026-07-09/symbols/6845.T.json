@@ -1,0 +1,32 @@
+{
+ "symbol": "6845.T",
+ "asOf": "2026-07-09",
+ "company": "Azbil",
+ "currency": "JPY",
+ "priceToday": 1685.0,
+ "pricePrev": 1701.5,
+ "moveSincePrevPct": -0.97,
+ "ytdReturnPct": 18.37,
+ "marketCapUsdB": 5.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/6845.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 64,
+   "ticker": "6845.T",
+   "company": "Azbil",
+   "score": 64.3,
+   "thesis": "Building automation and control systems are key to efficient data-center/facility operations, but Azbil is still mostly valued as a Japanese control company.",
+   "theme": "Thermal & Water",
+   "exchange": "Tokyo",
+   "ytd": 18.37,
+   "conviction": "Medium",
+   "catalysts": "Building automation; lifeline metering; energy efficiency retrofits.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 59 is 4 places better than displayed rank 63; adjusted score 64.0; YTD +10.8%; market cap $5.1B; Azbil remains tied to thermal & water through Building automation, measurement/control and lifeline systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

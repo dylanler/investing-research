@@ -1,0 +1,72 @@
+{
+  "symbol": "APH",
+  "company": "Amphenol",
+  "caseDate": "2026-07-09",
+  "newsSince": "-1.9% since prior, +13.2% YTD. Since the June 23 refresh, July market and web research updated the Optical & high-speed networking thesis. For this stock, price moved -1.9% since the prior snapshot and YTD return is +13.2%; verdict: hold with scoreDelta 0.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for APH",
+      "url": "https://finance.yahoo.com/quote/APH/"
+    },
+    {
+      "label": "Yahoo Finance: optical transceiver market doubling on 800G/1.6T AI demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/optical-transceiver-market-set-double-104800250.html"
+    },
+    {
+      "label": "Ciena press release: AI networking and 1.6T coherent innovations",
+      "url": "https://www.nasdaq.com/press-release/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-high-speed"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Analyst raises APH PT on AI growth (Barclays/Evercore)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-raises-amphenol-aph-price-020531814.html"
+    },
+    {
+      "label": "Why APH is a core AI data-center picks-and-shovels supplier",
+      "url": "https://www.insidermonkey.com/blog/why-amphenol-aph-is-becoming-a-core-picks-and-shovels-supplier-for-ai-data-centers-1785228/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/APH/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Optical & high-speed networking lens: July evidence strengthened the bottleneck case, but current rank 29, YTD +13.2% and crowding discipline determine the hold call.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -1.9%, YTD +13.2%, market cap about $194.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 83,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 83. July context does not change the page placement: -1.9% since the prior refresh, +13.2% YTD. Prior frame: On a crowding-sensitive residual-alpha-vs-passives list APH is already bucketed 'Crowded / rerated benchmark' at ~$199B cap. Another flow-driven leg (analyst PT raises, +4.6%) with no new fundamentals is exactly the post-rerating chase this page penalizes, so it slips below smaller undiscovered bottleneck names.",
+      "bull": "Direct, hard-to-substitute interconnect backbone for dense AI racks with 2026 catalysts.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 83, score 9.9, -1.9% since prior, +13.2% YTD.",
+      "bear": "Crowded mega-cap; sell-side-driven rally is chase, not new evidence.",
+      "primaryCatalyst": "AI-rack interconnect demand (sell-side reiterations)",
+      "primaryRisk": "Crowding/rerating erodes residual alpha"
+    }
+  ]
+}

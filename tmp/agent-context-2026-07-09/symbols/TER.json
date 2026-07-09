@@ -1,0 +1,63 @@
+{
+ "symbol": "TER",
+ "asOf": "2026-07-09",
+ "company": "Teradyne",
+ "currency": "USD",
+ "priceToday": 351.57,
+ "pricePrev": 424.635,
+ "moveSincePrevPct": -17.21,
+ "ytdReturnPct": 69.38,
+ "marketCapUsdB": 55.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/TER/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 51,
+   "ticker": "TER",
+   "company": "Teradyne",
+   "score": 55.6,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 69.38,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "AI-node test-intensity lens: first multisystem PRODUCTION test orders for merchant GPUs plus HBM4/TSMC traction are genuine new fundamental evidence (vs prior product-announcement-only). I exclude the Nasdaq-100/passive flow from scoring. +104% YTD caps upside. Modest up."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 79,
+   "ticker": "TER",
+   "company": "Teradyne",
+   "score": 51.5,
+   "thesis": "AI/advanced packaging test demand, indirect CPO link.",
+   "category": "Test equipment",
+   "ytd": 69.38,
+   "mcapB": 55.04,
+   "risk": "Test cycle, customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: TER's CPO link is indirect; the new GPU-production-test and Tokyo Electron KGD wins strengthen test demand but not the optical interconnect angle (Photon 100 silicon-photonics tester is the only direct CPO tie). Tiny positive; +104% YTD leaves thin residual alpha. Near-hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 74,
+   "ticker": "TER",
+   "company": "Teradyne",
+   "score": 50.9,
+   "thesis": "Design-validation exposure. Strong ytd follow-through; watch semiconductor test and robotics execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 69.38,
+   "auditNote": "Master bottleneck list, EDA/test/timing bucket: first production GPU multisystem test orders and HBM4/TSMC traction are genuine new design-validation evidence since June 9, beyond the prior KGD produc",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Master bottleneck list, EDA/test/timing bucket: first production GPU multisystem test orders and HBM4/TSMC traction are genuine new design-validation evidence since June 9, beyond the prior KGD product news. Exclude Nasdaq-100 passive flow. +104% YTD limits room but thesis strengthens. Modest up."
+   }
+  }
+ ]
+}

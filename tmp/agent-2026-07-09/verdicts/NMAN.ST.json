@@ -1,0 +1,63 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 38. July context shows score 68.0, move since prior -2.8%, YTD -24.7%, market cap $0.50B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Cheap, under-owned industrial air-filtration play with structural exposure to data centres, batteries and recycling.",
+      "neutral": "Optionality intact but unrealized; orders soft and no AI-specific catalyst yet.",
+      "bear": "~9% organic order decline and -23% YTD signal cyclical weakness; AI/fab linkage remains speculative.",
+      "primaryCatalyst": "Order inflection from data-center/battery/recycling filtration demand",
+      "primaryRisk": "Continued industrial order softness with no AI driver materializing"
+    }
+  ],
+  "symbol": "NMAN.ST",
+  "company": "Nederman",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Nederman Q1 2026 weak orders, margin strength (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/nederman-holding-ab-balances-weak-orders-with-margin-strength"
+    },
+    {
+      "label": "Nederman Q1 2026 earnings call highlights (Investing.com)",
+      "url": "https://ca.investing.com/news/company-news/nederman-holding-ab-nhoxf-q1-2026-earnings-call-highlights-navigating-challenges-with--4572727"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/NMAN.ST/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "NMAN.ST quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NMAN.ST/"
+    },
+    {
+      "label": "Nederman holds margins amid weaker Q1 orders (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/nederman-holds-margins-amid-weaker-q1-orders-and-bets-on-energy-transition-growth"
+    },
+    {
+      "label": "Nederman Holding (NMAN.ST) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NMAN.ST/"
+    },
+    {
+      "label": "Nederman investor relations / earnings (Quartr)",
+      "url": "https://quartr.com/companies/nederman-holding_4505"
+    },
+    {
+      "label": "Nederman acquires Environmental Filtration Technologies (Cision)",
+      "url": "https://news.cision.com/nederman/r/nederman-acquires-us-group-environmental-filtration-technologies,c9303356"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Nederman (NMAN.ST) across latent-ai-nodes-strict: market cap $0.50B, move since prior -2.8%, YTD -24.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

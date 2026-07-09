@@ -1,0 +1,32 @@
+{
+ "symbol": "6841.T",
+ "asOf": "2026-07-09",
+ "company": "Yokogawa Electric",
+ "currency": "JPY",
+ "priceToday": 5439.0,
+ "pricePrev": 5535.0,
+ "moveSincePrevPct": -1.73,
+ "ytdReturnPct": 5.41,
+ "marketCapUsdB": 9.1,
+ "quoteUrl": "https://finance.yahoo.com/quote/6841.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 66,
+   "ticker": "6841.T",
+   "company": "Yokogawa Electric",
+   "score": 64.0,
+   "thesis": "Industrial data/control systems become the interface for autonomous operations and industrial AI; Yokogawa is diversified and not a pure AI play.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "Tokyo",
+   "ytd": 5.41,
+   "conviction": "Medium",
+   "catalysts": "Process automation upgrades; cybersecurity/DX; energy efficiency projects.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 61 is 12 places worse than displayed rank 49; adjusted score 64.0; YTD -4.2%; market cap $8.2B; Yokogawa Electric remains tied to industrial automation & robotics through Industrial control, measurement and plant data systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

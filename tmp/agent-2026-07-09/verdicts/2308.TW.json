@@ -1,0 +1,77 @@
+{
+  "symbol": "2308.TW",
+  "company": "Delta Electronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "-9.6% since prior, +88.9% YTD. July 9 context refresh for Delta Electronics (2308.TW) across latent-ai-nodes: market cap $195.09B, move since prior -9.6%, YTD +88.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Delta says May revenue +43.65% YoY (TradingView/Reuters)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42H0JN:0-delta-electronics-says-may-revenue-up-43-65-y-y/"
+    },
+    {
+      "label": "Delta Q1 2026 record 37% GM, EPS +101% (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2308.TW_2026-04-30"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/2308.TW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "2308.TW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/2308.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 38, YTD +88.9% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -9.6%, YTD +88.9%, market cap about $195.1B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 91. July context shows score 57.4, move since prior -9.6%, YTD +88.9%, market cap $195.09B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Power & cooling leadership levered to AI data-center buildout and liquid cooling.",
+      "neutral": "Well-covered, large-cap; latent-discovery premium gone.",
+      "bear": "Mega-cap, highly tracked; little latency left to exploit.",
+      "primaryCatalyst": "AI server power, liquid cooling, industrial automation",
+      "primaryRisk": "Loss of under-coverage; capex cyclicality"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 55. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -9.6% since the prior refresh, +88.9% YTD. Prior frame: Residual-alpha vs passives lens: no new evidence since June 9; the -14% is a rerating pullback, not a thesis change, so do not up-rank on the fall. Already tagged crowded/rerated; at ~$198B cap and +109% YTD, under-owned residual upside stays minimal. Hold.",
+      "bull": "Rubin-era rack power and AI server power shelves with top-4 CSP capex up ~60% YoY.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 55, score 30.2, -9.6% since prior, +88.9% YTD.",
+      "bear": "~$198B cap leaves little under-owned upside; cyclicality if AI capex moderates.",
+      "primaryCatalyst": "Rubin-era rack power and 800VDC adoption",
+      "primaryRisk": "Crowding and AI-capex deceleration"
+    }
+  ]
+}

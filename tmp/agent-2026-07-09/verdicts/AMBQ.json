@@ -1,0 +1,35 @@
+{
+  "symbol": "AMBQ",
+  "company": "Ambiq Micro",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Ambiq Micro (AMBQ) now screens at $1.98B market cap, -2.9% since the prior refresh and +169.9% YTD. Page thesis remains: Technically relevant, but the post-IPO rerating has already pulled forward a lot of alpha.",
+  "sources": [
+    {
+      "label": "AMBQ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AMBQ/"
+    },
+    {
+      "label": "Ambiq plans 1.8M-share primary offering (S-1)",
+      "url": "https://www.stocktitan.net/sec-filings/AMBQ/s-1-ambiq-micro-inc-files-ipo-registration-statement-608552edd0cf.html"
+    },
+    {
+      "label": "Ambiq Micro S-1 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001500412/000119312526276706/d152097ds1.htm"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 30. July market-data refresh shows move since prior -2.9%, YTD +169.9%, market cap $1.98B. Thesis: Technically relevant, but the post-IPO rerating has already pulled forward a lot of alpha.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Strong edge-AI demand (+59% Q1, $31-32M Q2 guide); raise funds R&D for robotics/IoT.",
+      "neutral": "Technically relevant but small, lossmaking, and heavily re-rated.",
+      "bear": "Dilutive follow-on after +177% YTD signals issuance into strength; alpha largely pulled forward.",
+      "primaryCatalyst": "Edge-AI revenue ramp funded by new capital",
+      "primaryRisk": "Equity dilution and post-IPO crowding"
+    }
+  ]
+}

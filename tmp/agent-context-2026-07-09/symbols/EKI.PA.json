@@ -1,0 +1,29 @@
+{
+ "symbol": "EKI.PA",
+ "asOf": "2026-07-09",
+ "company": "Ekinops",
+ "currency": "EUR",
+ "priceToday": 2.415,
+ "pricePrev": 2.83,
+ "moveSincePrevPct": -14.66,
+ "ytdReturnPct": 25.78,
+ "marketCapUsdB": 0.08,
+ "quoteUrl": "https://finance.yahoo.com/quote/EKI.PA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 34,
+   "ticker": "EKI.PA",
+   "company": "Ekinops",
+   "score": 37.0,
+   "thesis": "Optical transport/access infrastructure",
+   "bucket": "networking",
+   "ytd": 25.78,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 35 is 9 places worse than displayed rank 26; adjusted score 36.1; YTD +63.8%; market cap $98M; Scaling watchlist fit is Optical transport/access infrastructure; bucket networking; tags compute_factory,packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

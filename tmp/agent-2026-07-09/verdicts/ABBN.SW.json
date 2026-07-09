@@ -1,0 +1,106 @@
+{
+  "symbol": "ABBN.SW",
+  "company": "ABB",
+  "caseDate": "2026-07-09",
+  "newsSince": "-1.6% since prior, +38.3% YTD. July 9 context refresh for ABB (ABBN.SW) across latent-ai-nodes: market cap $196.58B, move since prior -1.6%, YTD +38.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Simply Wall St: ABB-NVIDIA tie-up / AI data center valuation",
+      "url": "https://simplywall.st/stocks/ch/capital-goods/vtx-abbn/abb-shares/news/abb-nvidia-tie-up-puts-ai-data-center-valuation-in-focus"
+    },
+    {
+      "label": "Futurum: ABB Q1 FY2026 driven by data center & grid demand",
+      "url": "https://futurumgroup.com/insights/abb-q1-fy-2026-earnings-driven-by-data-center-and-grid-demand/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ABBN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "ABBN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ABBN.SW/"
+    },
+    {
+      "label": "ABB: divest Robotics to SoftBank",
+      "url": "https://new.abb.com/news/detail/129685/abb-to-divest-robotics-division-to-softbank-group"
+    },
+    {
+      "label": "ABB Q1 FY2026 driven by data center & grid demand (Futurum)",
+      "url": "https://futurumgroup.com/insights/abb-q1-fy-2026-earnings-driven-by-data-center-and-grid-demand/"
+    },
+    {
+      "label": "ABB reshapes AI data center focus as robotics move nears SoftBank (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/abb-reshapes-ai-data-center-141353674.html"
+    },
+    {
+      "label": "ABB to divest Robotics to SoftBank (ABB news)",
+      "url": "https://new.abb.com/news/detail/129685/abb-to-divest-robotics-division-to-softbank-group"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 38,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 38. July market-data refresh shows move since prior -1.6%, YTD +38.3%, market cap $196.58B. Thesis: Great robotics company, poor hidden-alpha candidate.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Robotics still consolidated until close; SoftBank ownership could re-energize the unit.",
+      "neutral": "Deal pending regulatory approval; ABB retains motion/automation exposure.",
+      "bear": "Post-close, ABB is no longer a robotics pure-play — minimal humanoid-stack relevance.",
+      "primaryCatalyst": "None robotics-positive; deal removes the unit.",
+      "primaryRisk": "Robotics divestiture strips robotics-list rationale."
+    },
+    {
+      "page": "companies",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 18, YTD +38.3% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -1.6%, YTD +38.3%, market cap about $196.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 99. July context shows score 52.0, move since prior -1.6%, YTD +38.3%, market cap $196.58B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Deep electrification/grid backlog with AI-DC pull-through.",
+      "neutral": "Quality compounder but fully covered — opposite of latent.",
+      "bear": "$198B and consensus-owned; no hidden-supply-chain edge.",
+      "primaryCatalyst": "Electrification backlog conversion",
+      "primaryRisk": "No latency left — name is broadly held"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 59. July context does not change the page placement: -1.6% since the prior refresh, +38.3% YTD. Prior frame: Passives/power lens: no new evidence since June 9. ABB stays a well-owned ~$198B benchmark name far from the passive/power-component bottleneck core; the +6.9% drift is price, not residual-alpha change. Hold near rank 58.",
+      "bull": "Triple-digit DC electrification order growth; raised 2026 outlook.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 59, score 27.4, -1.6% since prior, +38.3% YTD.",
+      "bear": "Crowded benchmark; little residual alpha vs passives at this size.",
+      "primaryCatalyst": "Continued DC electrification order momentum",
+      "primaryRisk": "Crowding/de-rating as a consensus AI-power name"
+    }
+  ]
+}

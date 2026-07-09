@@ -1,0 +1,32 @@
+{
+ "symbol": "6817.T",
+ "asOf": "2026-07-09",
+ "company": "Sumida",
+ "currency": "JPY",
+ "priceToday": 1350.0,
+ "pricePrev": 1394.0,
+ "moveSincePrevPct": -3.16,
+ "ytdReturnPct": 16.78,
+ "marketCapUsdB": 0.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/6817.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 1,
+   "ticker": "6817",
+   "company": "Sumida",
+   "score": 100.0,
+   "thesis": "Magnetics and inductors for power conversion; tight-supply, AI-adjacent, hidden-gem, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "TSE: 6817",
+   "ytd": 16.78,
+   "mcapB": 0.3,
+   "revisionNote": "Direct passive/power bottleneck supplier with lower crowding and better residual upside.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Already rank 1, no upside available. No new bottleneck evidence since June 9; the -8% pullback (thesis-intact) marginally improves entry asymmetry on this hidden-gem list. Direct magnetics/power-inductor supplier with low crowding and a tiny ~$0.3B cap keeps it at the top."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "6770.TW",
+ "asOf": "2026-07-09",
+ "company": "Powerchip Semiconductor",
+ "currency": "TWD",
+ "priceToday": 71.1,
+ "pricePrev": 78.6,
+ "moveSincePrevPct": -9.54,
+ "ytdReturnPct": 68.88,
+ "marketCapUsdB": 9.45,
+ "quoteUrl": "https://finance.yahoo.com/quote/6770.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 85,
+   "ticker": "6770.TW",
+   "company": "Powerchip Semiconductor Manufacturing",
+   "score": 47.6,
+   "thesis": "HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks.",
+   "tier": "memory",
+   "ytd": 68.88,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Powerchip Semiconductor Manufacturing should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 72, 60.3% YTD, $9.6B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 109,
+   "ticker": "6770.TW",
+   "company": "Powerchip Semiconductor",
+   "score": 34.5,
+   "thesis": "Low CPO direct exposure.",
+   "category": "Foundry/memory",
+   "ytd": 68.88,
+   "mcapB": 9.45,
+   "risk": "Mature-node/memory cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Powerchip Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 102, 60.3% YTD, $9.6B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

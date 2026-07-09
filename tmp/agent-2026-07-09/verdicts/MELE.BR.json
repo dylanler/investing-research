@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 69. July context shows score 64.7, move since prior -5.1%, YTD +31.2%, market cap $3.54B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Automotive magnetic/current sensing content rises with EV/ADAS; ICs could be repurposed for power/thermal sensing.",
+      "neutral": "Real sensor franchise but pathway to AI compute is indirect; no catalyst in window.",
+      "bear": "Not an AI-accelerator node; +38% YTD on auto recovery, not AI demand, on a strict latent screen.",
+      "primaryCatalyst": "EV content-per-vehicle growth and power/thermal sensing repurposing",
+      "primaryRisk": "Automotive cyclicality; no genuine AI-compute exposure"
+    }
+  ],
+  "symbol": "MELE.BR",
+  "company": "Melexis",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Melexis at PCIM 2026 (Auto-Innovations)",
+      "url": "https://www.auto-innovations.net/news/110444-power-electronics-sensing-advances-at-pcim-2026"
+    },
+    {
+      "label": "Melexis NV (MELE.BR) Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MELE.BR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "MELE.BR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MELE.BR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Melexis (MELE.BR) across latent-ai-nodes-strict: market cap $3.54B, move since prior -5.1%, YTD +31.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "GURN.SW",
+ "asOf": "2026-07-09",
+ "company": "Gurit",
+ "currency": "CHF",
+ "priceToday": 39.3,
+ "pricePrev": 33.6,
+ "moveSincePrevPct": 16.96,
+ "ytdReturnPct": 233.05,
+ "marketCapUsdB": 0.22,
+ "quoteUrl": "https://finance.yahoo.com/quote/GURN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 91,
+   "ticker": "GURN.SW",
+   "company": "Gurit",
+   "score": 58.7,
+   "thesis": "Composite materials expertise could support lightweight structures, enclosures and advanced manufacturing cells",
+   "theme": "Composites",
+   "exchange": "SIX",
+   "regionRank": "Non-US#49",
+   "ytd": 233.05,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: no new evidence since June 9; Q1 predates window, +0.9% drift. The +185% YTD rerating is wind-driven, with the AI composites/enclosure pathway still speculative. Nothing justifies moving on a strict list."
+   }
+  }
+ ]
+}

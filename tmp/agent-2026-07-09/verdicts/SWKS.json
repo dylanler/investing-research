@@ -1,0 +1,72 @@
+{
+  "symbol": "SWKS",
+  "company": "Skyworks Solutions",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 78 hold (+1); down 19.8% since the prior refresh. semiconductor-ai-nodes: rank 94 down (-4); down 19.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Skyworks Qorvo notes exchange (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/skyworks-reports-strong-participation-in-qorvo-notes-exchange"
+    },
+    {
+      "label": "Qorvo merger resets debt covenants (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-merger-skyworks-resets-debt-090625215.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "SWKS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/SWKS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 78,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Skyworks Solutions through RF / analog; Limited data-center optical/cable exposure. The stock is down 19.8% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Scale from the Qorvo deal could fund adjacency moves over time.",
+      "neutral": "RF/analog with limited optical relevance; CPO thesis does not run through this name.",
+      "bear": "Cleaner CPO bottleneck names dominate; SWKS adds no co-packaged-optics alpha and carries mobile concentration risk.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Mobile concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 94,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.82,
+      "rankRationale": "Move down: the thematic linkage is still present, but -9.2% YTD, -19.8% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names.",
+      "bull": "Combined Skyworks-Qorvo creates a $22B RF/analog leader with >$500M synergies and possible 2026 close.",
+      "neutral": "Mobile-concentrated RF/analog franchise; AI/edge exposure is selective and indirect, far from the HBM/packaging bottleneck.",
+      "bear": "No AI-node relevance; merger integration risk and mobile cyclicality dominate the story for an AI-node ranking.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Antitrust delay/integration risk; persistent lack of AI-node relevance keeps it bottom-tier."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "symbol": "AEHR",
+  "company": "Aehr Test Systems",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 28 hold (+0); down 34.1% since the prior refresh. semiconductor-ai-nodes: rank 99 down (-4); down 34.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Aehr July 2026 results date",
+      "url": "https://www.aehr.com/2026/07/aehr-test-systems-to-announce-fiscal-2026-fourth-quarter-and-full-year-financial-results-on-july-14-2026/"
+    },
+    {
+      "label": "Aehr: follow-on silicon-photonics WLBI order (June 17, 2026)",
+      "url": "https://www.aehr.com/2026/06/aehr-receives-follow-on-order-from-major-silicon-photonics-customer-for-fully-automated-wafer-level-burn-in-system-for-hyperscale-data-center-optical-interconnect/"
+    },
+    {
+      "label": "StockTitan: Aehr lands follow-on FOX-XP order",
+      "url": "https://www.stocktitan.net/news/AEHR/aehr-receives-follow-on-order-from-major-silicon-photonics-customer-yu2d4uoisifw.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/AEHR/"
+    },
+    {
+      "label": "AEHR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AEHR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AEHR Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AEHR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 43,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.64,
+      "rankRationale": "The silicon-photonics follow-on order is directly tied to hyperscale AI optical interconnect reliability testing. Upgrade modestly because the financial proof waits until July 14 and the stock has already had a large run.",
+      "bull": "More AI/optical silicon shipped means more burn-in test, an indirect scaling-capacity read.",
+      "neutral": "Order news is good but only tangential to the test-time-scaling lens; hold.",
+      "bear": "Minimal direct scaling relevance; speculative, low-conviction in this bucket.",
+      "primaryCatalyst": "AI-chip and photonics burn-in demand tied to compute buildout",
+      "primaryRisk": "Weak linkage to test-time-scaling thesis; concentrated, volatile name"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 85,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.82,
+      "rankRationale": "A record hyperscale-AI burn-in order plus a triple-digit YTD move makes AEHR less residual-alpha and more direct semicap AI beta.",
+      "bull": "WLBI for AI ASICs and silicon-photonics transceivers diversifies the customer base and ties Aehr directly to hyperscale AI capacity buildout.",
+      "neutral": "Real order momentum, but lumpy and concentrated; the latent-discovery premise is fading after a 4x run.",
+      "bear": "Customer concentration and order timing remain risky; valuation already prices a robust ramp.",
+      "primaryCatalyst": "July 14 FY2026 results and conversion of AI burn-in demand into FY2027 revenue.",
+      "primaryRisk": "Customer concentration and direct-AI crowding."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Aehr Test Systems through Test / reliability; Small-cap test optionality if photonics/power devices require more wafer-level reliability screening. The stock is down 34.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "As CPO/optical I/O scales, photonics transceivers need wafer-level burn-in - and Aehr just landed a follow-on production order for exactly that.",
+      "neutral": "Strong CPO read-through, but the once-hidden optionality is now well-covered after a huge run.",
+      "bear": "Order is unsized and concentrated; stock trades well above consensus targets.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Very high volatility and customer concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 99,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.82,
+      "rankRationale": "Move down: the thematic linkage is still present, but +206.4% YTD, -34.1% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names.",
+      "bull": "Rising AI/photonics burn-in bookings give Aehr a niche but growing role in AI capacity test.",
+      "neutral": "Positive orders, but test sits at the edge of the AI-node bottleneck versus HBM/packaging.",
+      "bear": "Tiny in node terms, highly cyclical, concentrated; ranks last in the direct-node tier.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Not a core fab/HBM bottleneck; order timing and export-control overhang"
+    }
+  ]
+}

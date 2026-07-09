@@ -1,0 +1,101 @@
+{
+  "symbol": "SMTC",
+  "company": "Semtech",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 2 hold (+1); down 21.5% since the prior refresh. semiconductor-ai-nodes: rank 46 hold (+1); down 21.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "224 Gbps AI optical chip launch (Sahm/Simply Wall St)",
+      "url": "https://www.sahmcapital.com/news/content/the-bull-case-for-semtech-smtc-could-change-following-its-224-gbps-ai-optical-chip-launch-2026-06-17"
+    },
+    {
+      "label": "Record Q1: 800G optics, $71.6M data center (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-record-quarter-puts-800g-010943545.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SMTC/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "SMTC quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SMTC/"
+    },
+    {
+      "label": "Q1 earnings/valuation, PT raises (Sahm Capital)",
+      "url": "https://www.sahmcapital.com/news/content/assessing-semtech-smtc-valuation-after-strong-q1-earnings-and-upbeat-guidance-2026-06-04"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "SMTC Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/SMTC/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 33. July context shows score 72.0, move since prior -21.5%, YTD +71.2%, market cap $12.00B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "800G/1.6T optical and 224 Gbps chip ramp give real AI-network connectivity exposure.",
+      "neutral": "Turnaround intact but balance sheet still healing.",
+      "bear": "Speculative tag; product-cycle and execution risk after 119% YTD.",
+      "primaryCatalyst": "1.6T / 224 Gbps optical ramp into hyperscalers",
+      "primaryRisk": "Design-win slippage or LoRa softness"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Semtech through Optical / signal integrity; Smaller-cap signal-integrity/optical leverage; credible second-derivative AI networking exposure. The stock is down 21.5% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Best-in-class small-cap signal-integrity/optical leverage to AI networking.",
+      "neutral": "Thesis confirmed but largely priced; residual alpha shrinking.",
+      "bear": "60x-type forward multiple, insider sales, crowding into the name.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Turnaround and product-cycle risk"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 46,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Semtech through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 21.5% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Direct 800G/1.6T optical and copper ACC content ramping into AI racks.",
+      "neutral": "Higher-direct than thesis implies, but mid-pack vs HBM/packaging leaders.",
+      "bear": "Cyclical analog/RF base; valuation full after big YTD.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Hyperscaler order timing"
+    }
+  ]
+}

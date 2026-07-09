@@ -1,0 +1,32 @@
+{
+ "symbol": "ATKR",
+ "asOf": "2026-07-09",
+ "company": "Atkore",
+ "currency": "USD",
+ "priceToday": 68.92,
+ "pricePrev": 79.36,
+ "moveSincePrevPct": -13.16,
+ "ytdReturnPct": 6.97,
+ "marketCapUsdB": 2.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/ATKR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 35,
+   "ticker": "ATKR",
+   "company": "Atkore",
+   "score": 71.7,
+   "thesis": "Conduit and cable management are banal but necessary in data centers and electrification builds; multiple compressed after normalization.",
+   "theme": "Power & Grid",
+   "exchange": "NYSE",
+   "ytd": 6.97,
+   "conviction": "Medium",
+   "catalysts": "Electrical infrastructure projects; data-center/solar demand; portfolio simplification.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 31 is 8 places worse than displayed rank 23; adjusted score 71.0; YTD +24.3%; market cap $2.9B; Atkore remains tied to power & grid through Electrical conduit, cable management and infrastructure products. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

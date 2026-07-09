@@ -1,0 +1,66 @@
+{
+ "symbol": "FN",
+ "asOf": "2026-07-09",
+ "company": "Fabrinet",
+ "currency": "USD",
+ "priceToday": 480.07,
+ "pricePrev": 583.62,
+ "moveSincePrevPct": -17.74,
+ "ytdReturnPct": 0.14,
+ "marketCapUsdB": 22.11,
+ "quoteUrl": "https://finance.yahoo.com/quote/FN/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 74,
+   "ticker": "FN",
+   "company": "Fabrinet",
+   "score": 18.3,
+   "thesis": "Optics manufacturing leverage for AI networking; AI-adjacent, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: FN",
+   "ytd": 0.14,
+   "mcapB": 22.11,
+   "revisionNote": "An -8.9% flow-driven flush with the 1.6T/Blackwell manufacturing thesis intact improves asymmetry on an alpha list that penalizes post-rerating chase; YTD is now a modest +18.6%, so the prior crowding discount is partly worked off. FN stays peripheral to the core passive/power bottleneck stack, so t",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new fundamentals since June 9; the -1.2% drift is noise. FN remains peripheral to the core passive/power bottleneck stack on this list, and the prior small up-move (de-crowding flush) is already reflected. Optics-manufacturing thesis intact but not central here."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 96,
+   "ticker": "FN",
+   "company": "Fabrinet",
+   "score": 55.1,
+   "thesis": "Fabrinet makes optical equipment for AI/datacom supply chains, but it is already widely owned as an optical AI beneficiary.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NYSE",
+   "ytd": 0.14,
+   "conviction": "Medium",
+   "catalysts": "800G/1.6T manufacturing; customer demand; margin stability.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing genuinely new since June 9. FN is a widely-owned, well-covered optical AI beneficiary, so the latent/under-covered premise is weak and it stays deep in the list. Prior reversal on the washout is already worked in; flat price move adds nothing."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 16,
+   "ticker": "FN",
+   "company": "Fabrinet",
+   "score": 75.1,
+   "thesis": "Scale-out bandwidth and optics exposure. Positive but measured ytd; watch optical manufacturing and assembly execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 0.14,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold at 15: scale-out optics thesis (1.6T, CPO-adjacent, Blackwell transceivers) intact, but no new fundamental evidence since June 9 to leapfrog names with more direct bottleneck criticality. May Q3 print predates the case."
+   }
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "symbol": "NOVT",
+ "asOf": "2026-07-09",
+ "company": "Novanta",
+ "currency": "USD",
+ "priceToday": 148.59,
+ "pricePrev": 151.94,
+ "moveSincePrevPct": -2.2,
+ "ytdReturnPct": 33.7,
+ "marketCapUsdB": 5.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/NOVT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 67,
+   "ticker": "NOVT",
+   "company": "Novanta",
+   "score": 64.0,
+   "thesis": "Precision motion and photonics subsystems support robotics and automated equipment; quality is high but valuation reduces alpha.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NASDAQ",
+   "ytd": 33.7,
+   "conviction": "Medium",
+   "catalysts": "Advanced manufacturing; medical robotics; photonics modules.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 48 is 9 places worse than displayed rank 39; adjusted score 67.0; YTD +47.9%; market cap $5.9B; Novanta remains tied to sensors & measurement through Precision motion, photonics and medical/industrial subsystems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 23,
+   "ticker": "NOVT",
+   "company": "Novanta",
+   "score": 57.9,
+   "thesis": "High-quality motion and robotics component company, but not a cheap hidden humanoid play.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Humanoid-stack lens: the prior June 9 down-move already re-rated NOVT lower precisely because Riverpoint makes it ~60% medical, eroding robotics/actuation purity ('not a cheap hidden humanoid play'). No new evidence since, so the penalty is already in the rank. Hold 23."
+   }
+  }
+ ]
+}

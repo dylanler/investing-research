@@ -1,0 +1,35 @@
+{
+  "symbol": "6951.T",
+  "company": "JEOL Ltd.",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. JEOL Ltd. (6951.T) now screens at $2.29B market cap, +4.9% since the prior refresh and +45.2% YTD. Page thesis remains: Scientific instrumentation / metrology and analysis",
+  "sources": [
+    {
+      "label": "6951.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/6951.T/"
+    },
+    {
+      "label": "JEOL earnings / one-off loss (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/tech/tse-6951/jeol-shares/past"
+    },
+    {
+      "label": "JEOL IR financial results",
+      "url": "https://www.jeol.com/ir/financial_results/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 39. July market-data refresh shows move since prior +4.9%, YTD +45.2%, market cap $2.29B. Thesis: Scientific instrumentation / metrology and analysis. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Electron-microscope/metrology and EB lithography franchise with semiconductor adjacency.",
+      "neutral": "Quiet; loose fit to scaling; earnings still digesting a large one-off charge.",
+      "bear": "Negative earnings growth and weak profitability; peripheral to the AI-compute bottleneck.",
+      "primaryCatalyst": "Semiconductor instrument / EB lithography order recovery.",
+      "primaryRisk": "Cyclical instrument demand and depressed margins."
+    }
+  ]
+}

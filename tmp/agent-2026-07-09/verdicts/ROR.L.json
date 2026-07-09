@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 12. July context shows score 73.0, move since prior -4.8%, YTD -10.4%, market cap $3.32B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Capital-light, high-ROCE actuator/flow-control franchise with optionality into data-center coolant and water loops; insider buying.",
+      "neutral": "Quiet pre-results window; thesis unchanged ahead of Aug 4 interims.",
+      "bear": "Speculative AI link; no concrete data-center coolant orders disclosed.",
+      "primaryCatalyst": "Aug 4 interim results / water-infrastructure demand",
+      "primaryRisk": "Industrial cyclicality; thin AI linkage"
+    }
+  ],
+  "symbol": "ROR.L",
+  "company": "Rotork",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Rotork insider buying (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/rotork-plc-stock-gb00bvfnzh21-insider-buying-puts-actuator-specialist/69554272"
+    },
+    {
+      "label": "Rotork financial calendar",
+      "url": "https://www.rotork.com/en/investors/financial-calendar"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ROR.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ROR.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ROR.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Rotork (ROR.L) across latent-ai-nodes-strict: market cap $3.32B, move since prior -4.8%, YTD -10.4%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

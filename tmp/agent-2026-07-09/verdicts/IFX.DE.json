@@ -1,0 +1,139 @@
+{
+  "symbol": "IFX.DE",
+  "company": "Infineon Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 66 hold (+0); down 10.2% since the prior refresh. semiconductor-ai-nodes: rank 48 hold (+0); down 10.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Infineon AI data-center PSU launch (Jun 2)",
+      "url": "https://www.infineon.com/market-news/2026/infpss202606-094"
+    },
+    {
+      "label": "Infineon joins NVIDIA MGX 800VDC ecosystem",
+      "url": "https://www.astutegroup.com/news/general/infineon-expands-manufacturing-investment-as-ai-data-centre-demand-reshapes-power-chip-supply/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/IFX.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "IFX.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/IFX.DE/"
+    },
+    {
+      "label": "China Supreme Court GaN injunction (Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/chinas-top-court-bars-infineon-from-selling-gan-power-chips-in-china"
+    },
+    {
+      "label": "Innoscience SPC injunction confirmation",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/innoscience-infineon-150626.shtml"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "IFX.DE Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/IFX.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 76,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "AI PSU and NVIDIA MGX validation support the PDN case, balanced by size and crowding.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -10.2%, YTD +89.0%, market cap about $118.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 58. July context shows score 65.8, move since prior -10.2%, YTD +89.0%, market cap $118.27B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Power-conversion content per AI rack rising; concrete 18-30kW PSU reference designs; €1.5B FY26 AI revenue.",
+      "neutral": "Genuine node exposure but mega-cap and well-covered; GaN setback trims the wide-bandgap optionality.",
+      "bear": "Too large/known for latent-alpha purity; GaN China exclusion dents a 58%-growth product line.",
+      "primaryCatalyst": "800VDC/AI rack power ramp; Dresden Module 4 silicon-MOSFET ramp",
+      "primaryRisk": "China GaN exclusion plus auto/industrial cyclicality"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 19. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -10.2% since the prior refresh, +89.0% YTD. Prior frame: Residual-alpha-vs-passives lens: the June 2 AI-PSU launches + NVIDIA MGX 800VDC win reinforce the power-delivery thesis (€1.5B FY26 / €2.5B FY27 AI target), modestly offset by the China GaN ban (company: 'very limited'). Net mildly positive but ~110% YTD caps residual alpha. Hold 20, +1.",
+      "bull": "Direct AI-rack power-delivery winner; NVIDIA 800VDC ecosystem; €2.5B FY27 AI target; Dresden M4 ramps July.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 19, score 60.7, -10.2% since prior, +89.0% YTD.",
+      "bear": "GaN China injunction signals IP/competitive risk; +110% YTD leaves little un-priced alpha for a passives-beating list.",
+      "primaryCatalyst": "AI data-center power ramp (NVIDIA MGX, Dresden M4) hitting €2.5B FY27",
+      "primaryRisk": "Auto/industrial cycle weakness; GaN IP losses widening beyond China"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Infineon Technologies through Power / automotive; Power density beneficiary, not optical interconnect pure play. The stock is down 10.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Higher rack power density indirectly raises the value of efficient power delivery alongside optical links.",
+      "neutral": "Off-axis for a CPO lens; power content is real but not the optical bottleneck.",
+      "bear": "Not an optical-interconnect play; GaN China ban adds noise without CPO relevance.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Industrial/auto cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Infineon Technologies through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 10.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Credible AI-rack power content with named NVIDIA design wins; €2.5B FY27 AI target.",
+      "neutral": "Power is adjacent to, not the core of, the HBM/packaging compute bottleneck.",
+      "bear": "Less direct than memory/packaging names; GaN China ban and auto cycle weigh.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Indirect bottleneck position; GaN/auto headwinds"
+    }
+  ]
+}

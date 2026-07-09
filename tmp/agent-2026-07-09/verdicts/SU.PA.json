@@ -1,0 +1,77 @@
+{
+  "symbol": "SU.PA",
+  "company": "Schneider Electric",
+  "caseDate": "2026-07-09",
+  "newsSince": "-4.0% since prior, +13.2% YTD. July 9 context refresh for Schneider Electric (SU.PA) across latent-ai-nodes: market cap $169.68B, move since prior -4.0%, YTD +13.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Schneider & Foxconn partner to power data centres (Energy Digital)",
+      "url": "https://energydigital.com/news/schneider-electric-foxconn-join-up-to-power-data-centres"
+    },
+    {
+      "label": "How Schneider is preparing data centres for AI heat loads / Uniflair XCA (Data Centre Magazine)",
+      "url": "https://datacentremagazine.com/news/how-schneider-electric-is-preparing-data-centres-for-ai-heat-loads"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SU.PA/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "SU.PA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SU.PA/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 10, YTD +13.2% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -4.0%, YTD +13.2%, market cap about $169.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 101,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 101. July context shows score 46.0, move since prior -4.0%, YTD +13.2%, market cap $169.68B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Direct AI power-and-cooling winner with broad data-center exposure and new chiller/JV launches.",
+      "neutral": "By design a discovered negative-control; latent screen value is as a benchmark.",
+      "bear": "Fully discovered, low conviction; offers no latency/discovery edge for this screen.",
+      "primaryCatalyst": "Data-center power/cooling demand and SE Asia buildout.",
+      "primaryRisk": "Already crowded; no latent discovery upside on this lens."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 45,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 45. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -4.0% since the prior refresh, +13.2% YTD. Prior frame: Residual-alpha-vs-passives lens. June Uniflair XCA chiller shipment start and the Foxconn AI-DC hardware JV are execution confirmation, but the name sits in the crowded/rerated-benchmark bucket with Strong Buy consensus, so residual alpha stays thin; small positive drift, no re-rank.",
+      "bull": "Uniflair XCA shipping + Foxconn JV deepen the integrated AI power/cooling reference architecture.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 45, score 35.5, -4.0% since prior, +13.2% YTD.",
+      "bear": "Crowded, already rerated; bottleneck premium captured by the market.",
+      "primaryCatalyst": "Uniflair XCA ramp and Foxconn AI-DC hardware partnership.",
+      "primaryRisk": "Crowding leaves little residual alpha; DC capex cyclicality."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "CRDO",
+ "asOf": "2026-07-09",
+ "company": "Credo Technology",
+ "currency": "USD",
+ "priceToday": 258.69,
+ "pricePrev": 270.75,
+ "moveSincePrevPct": -4.45,
+ "ytdReturnPct": 80.62,
+ "marketCapUsdB": 48.24,
+ "quoteUrl": "https://finance.yahoo.com/quote/CRDO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 2,
+   "ticker": "CRDO",
+   "company": "Credo Technology",
+   "score": 89.4,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 80.62,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "This page rewards picks-and-shovels with low visibility. Fundamentals are excellent but the FY26 beat/FY27 guide predate June 9; post-window flow is PT hikes and the 5-of-6 hyperscaler disclosure, which mark completed discovery, not fresh fundamentals. Consensus-owned at $51B - hold, no delta."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 42,
+   "ticker": "CRDO",
+   "company": "Credo Technology",
+   "score": 68.8,
+   "thesis": "One of the closest public cable/connectivity pure plays; DustPhotonics acquisition adds SiPho/CPO optionality.",
+   "category": "AI interconnect",
+   "ytd": 80.62,
+   "mcapB": 48.24,
+   "risk": "Revenue concentration, high multiple after repricing",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens already took the crowding penalty (slid 21->42, flags 'high multiple after repricing'). No new fundamental since June 1; mid-June PT hikes/hyperscaler note are sentiment. DustPhotonics SiPho/CPO option intact. Don't double-count - hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 30,
+   "ticker": "CRDO",
+   "company": "Credo Technology",
+   "score": 65.7,
+   "thesis": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch high-speed connectivity and dsp execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 80.62,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the master bottleneck list the AEC/optical-DSP/scale-out exposure is intact and arguably strengthened by FY27 guidance - but all that news predates June 9 and the rank already balances it against the $51B cap and rerating. Mid-June PT hikes nudge valuation recognition only - hold."
+   }
+  }
+ ]
+}

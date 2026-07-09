@@ -1,0 +1,32 @@
+{
+ "symbol": "IFCN.SW",
+ "asOf": "2026-07-09",
+ "company": "INFICON",
+ "currency": "CHF",
+ "priceToday": 166.2,
+ "pricePrev": 178.2,
+ "moveSincePrevPct": -6.73,
+ "ytdReturnPct": 59.5,
+ "marketCapUsdB": 5.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/IFCN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 80,
+   "ticker": "IFCN.SW",
+   "company": "INFICON",
+   "score": 61.3,
+   "thesis": "Process sensors and leak detection are essential for fabs and high-reliability manufacturing; INFICON is high quality but expensive.",
+   "theme": "Sensors & Measurement",
+   "exchange": "SIX",
+   "ytd": 59.5,
+   "conviction": "Medium",
+   "catalysts": "Semicap recovery; process-control intensity; industrial sensing.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 70 is 5 places better than displayed rank 75; adjusted score 62.0; YTD +55.7%; market cap $5.0B; INFICON remains tied to sensors & measurement through Vacuum instrumentation, leak detection and process sensors. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

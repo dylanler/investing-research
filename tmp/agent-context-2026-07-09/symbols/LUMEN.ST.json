@@ -1,0 +1,29 @@
+{
+ "symbol": "LUMEN.ST",
+ "asOf": "2026-07-09",
+ "company": "LumenRadio",
+ "currency": "SEK",
+ "priceToday": 61.8,
+ "pricePrev": 63.0,
+ "moveSincePrevPct": -1.9,
+ "ytdReturnPct": 8.42,
+ "marketCapUsdB": 0.08,
+ "quoteUrl": "https://finance.yahoo.com/quote/LUMEN.ST/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 33,
+   "ticker": "LUMEN.ST",
+   "company": "LumenRadio",
+   "score": 37.0,
+   "thesis": "Industrial wireless connectivity / edge control",
+   "bucket": "networking",
+   "ytd": 8.42,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 33 is 1 places worse than displayed rank 32; adjusted score 37.0; YTD +17.5%; market cap $90M; Scaling watchlist fit is Industrial wireless connectivity / edge control; bucket networking; tags compute_factory. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "symbol": "2449.TW",
+ "asOf": "2026-07-09",
+ "company": "King Yuan Electronics",
+ "currency": "TWD",
+ "priceToday": 308.5,
+ "pricePrev": 329.5,
+ "moveSincePrevPct": -6.37,
+ "ytdReturnPct": 15.33,
+ "marketCapUsdB": 12.05,
+ "quoteUrl": "https://finance.yahoo.com/quote/2449.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 15,
+   "ticker": "2449.TW",
+   "company": "King Yuan Electronics",
+   "score": 71.4,
+   "thesis": "public semiconductor test-services provider added because AMD filings identify KYEC as an outsourced assembly/test partner; AI upside depends on utilization, test intensity and advanced packaging pull-through.",
+   "tier": "OSAT / packaging",
+   "ytd": 15.33,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "King Yuan Electronics should move up because HBM/chiplet advanced packaging and OSAT capacity is more directly connected to the 2027 AI compute bottleneck than its current rank 16 implies, with current company-specific evidence; 7.8% YTD and $11.2B market cap do not fully offset the catalyst."
+   }
+  }
+ ]
+}

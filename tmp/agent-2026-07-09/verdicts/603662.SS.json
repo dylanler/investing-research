@@ -1,0 +1,43 @@
+{
+  "symbol": "603662.SS",
+  "company": "Keli Sensing Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "Keli's force-sensing thesis improved: 2026 disclosures say robot force sensors have moved from R&D validation to small-batch delivery, samples have gone to more than 70 robot companies, 2025 sales exceeded 1,500 units, and monthly robot force-sensor shipments have passed 1,000 units. It is also investing across tactile sensing, IMU, vision and body platforms.",
+  "sources": [
+    {
+      "label": "Keli annual/Q1 performance meeting PDF",
+      "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260529/6897fc2debd04e418850fe38f877bf21.PDF"
+    },
+    {
+      "label": "Securities Daily on Keli robot sensor shipments",
+      "url": "http://www.zqrb.cn/gscy/gongsi/2026-05-29/A1780062223981.html"
+    },
+    {
+      "label": "603662.SS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/603662.SS/"
+    },
+    {
+      "label": "Keli 603662 six-axis force/torque sensor product series (moomoo)",
+      "url": "https://www.moomoo.com/news/post/44619756/keli-sensing-technology-603662-sh-the-company-has-completed-the"
+    },
+    {
+      "label": "Keli 603662 6D force/torque sensors (Futubull)",
+      "url": "https://news.futunn.com/en/post/51666084/keli-sensing-technology-603662-sh-six-dimensional-force-torque-sensors"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "up",
+      "scoreDelta": 7,
+      "confidence": 0.76,
+      "rankRationale": "Force/torque sensing is one of the cleaner humanoid bottlenecks, and Keli now has >70 robot customers sampled plus >1,000 monthly force-sensor shipments. That converts the thesis from optionality into early scale while keeping the name more hidden than lidar and headline actuator leaders.",
+      "bull": "Differentiated 6D force/torque exposure, completed product series, deep under-ownership, no YTD froth to unwind.",
+      "neutral": "Real stack fit but commercialization is incremental; alpha already partly captured at score 76.7.",
+      "bear": "China component competition intensifies; force-sensing content per robot stays small and ASP-pressured.",
+      "primaryCatalyst": "Design-win/volume orders into a named humanoid program",
+      "primaryRisk": "Commoditization of force sensors and China price competition"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "CXT",
+ "asOf": "2026-07-09",
+ "company": "Crane NXT",
+ "currency": "USD",
+ "priceToday": 49.19,
+ "pricePrev": 45.33,
+ "moveSincePrevPct": 8.52,
+ "ytdReturnPct": 3.06,
+ "marketCapUsdB": 2.76,
+ "quoteUrl": "https://finance.yahoo.com/quote/CXT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 17,
+   "ticker": "CXT",
+   "company": "Crane NXT",
+   "score": 71.6,
+   "thesis": "Authentication, sensing and secure transaction technology could support access, trusted hardware and anti-counterfeit supply-chain needs",
+   "theme": "Security/authentication tech",
+   "exchange": "NYSE",
+   "regionRank": "US#9",
+   "ytd": 3.06,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the strict latent-nodes lens the authentication/sensing/secure-transaction thesis is intact and unchanged. The +18.6% bounce since June 9 is flow recovering the prior oversold discount - it removes some of the cheapness asymmetry the June 9 case credited, but it is not fresh negative fundamental news. Net hold, scoreDelta 0."
+   }
+  }
+ ]
+}

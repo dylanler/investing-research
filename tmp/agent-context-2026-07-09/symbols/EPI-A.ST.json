@@ -1,0 +1,32 @@
+{
+ "symbol": "EPI-A.ST",
+ "asOf": "2026-07-09",
+ "company": "Epiroc",
+ "currency": "SEK",
+ "priceToday": 256.3,
+ "pricePrev": 263.5,
+ "moveSincePrevPct": -2.73,
+ "ytdReturnPct": 21.93,
+ "marketCapUsdB": 32.45,
+ "quoteUrl": "https://finance.yahoo.com/quote/EPI-A.ST/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 83,
+   "ticker": "EPI-A.ST",
+   "company": "Epiroc",
+   "score": 63.2,
+   "thesis": "Mining automation and equipment could benefit if AI metals demand pushes harder on productivity and autonomy",
+   "theme": "Mining automation",
+   "exchange": "Nasdaq Stockholm",
+   "regionRank": "Non-US#44",
+   "ytd": 21.93,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The June 8 CMD that drove the prior 'up' case is now stale; nothing new since June 9 and Q2 isn't until July 17. CMD recaps flag decelerating autonomy adoption (~26% machine growth), a mild qualitative softening of the AI-metals-productivity thesis. Hold rank 82."
+   }
+  }
+ ]
+}

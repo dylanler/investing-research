@@ -1,0 +1,39 @@
+{
+  "symbol": "002281.SZ",
+  "company": "Accelink Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Optical & high-speed networking thesis. For this stock, price moved -10.6% since the prior snapshot and YTD return is +236.7%; verdict: down with scoreDelta -2.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 002281.SZ",
+      "url": "https://finance.yahoo.com/quote/002281.SZ/"
+    },
+    {
+      "label": "Yahoo Finance: optical transceiver market doubling on 800G/1.6T AI demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/optical-transceiver-market-set-double-104800250.html"
+    },
+    {
+      "label": "Ciena press release: AI networking and 1.6T coherent innovations",
+      "url": "https://www.nasdaq.com/press-release/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-high-speed"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 65,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Optical & high-speed networking lens: July evidence did not strengthen the bottleneck case, but current rank 65, YTD +236.7% and crowding discipline determine the down call.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -10.6%, YTD +236.7%, market cap about $27.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    }
+  ]
+}

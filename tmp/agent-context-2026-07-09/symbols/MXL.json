@@ -1,0 +1,63 @@
+{
+ "symbol": "MXL",
+ "asOf": "2026-07-09",
+ "company": "MaxLinear",
+ "currency": "USD",
+ "priceToday": 86.05,
+ "pricePrev": 88.75,
+ "moveSincePrevPct": -3.04,
+ "ytdReturnPct": 364.88,
+ "marketCapUsdB": 7.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/MXL/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 100,
+   "ticker": "MXL",
+   "company": "MaxLinear",
+   "score": 32.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 364.88,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the AI-node-bottleneck lens MXL's analog/RF/edge content stays indirect versus HBM/packaging/networking cores; no new fundamental event in window makes it more central. Stays near bottom at 99. Hold, 0."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 35,
+   "ticker": "MXL",
+   "company": "MaxLinear",
+   "score": 72.5,
+   "thesis": "Small-cap signal-chain optionality; could benefit if AI networking pulls adjacent high-speed analog content.",
+   "category": "Connectivity/analog",
+   "ytd": 364.88,
+   "mcapB": 7.68,
+   "risk": "Turnaround and customer concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Most CPO-relevant listing: 200G/lane Washington TIA for 1.6T optical modules (mass production H2'26) plus sustained Buy-side backing keep the co-packaged-optics thesis intact and mildly reinforced. No fresh in-window catalyst, so +1 sentiment, hold at 36."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 96,
+   "ticker": "MXL",
+   "company": "MaxLinear",
+   "score": 34.0,
+   "thesis": "Design-validation exposure. Negative ytd reset; watch signal integrity and connectivity execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 364.88,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master-list bucket (EDA, test & timing / design-validation) remains a poor fit for a connectivity-analog name; nothing in window strengthens or breaks that. The AI-optical momentum lives on the CPO page, not here. Hold at 96."
+   }
+  }
+ ]
+}

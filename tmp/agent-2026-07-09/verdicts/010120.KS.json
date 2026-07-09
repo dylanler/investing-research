@@ -1,0 +1,64 @@
+{
+  "symbol": "010120.KS",
+  "company": "LS Electric",
+  "caseDate": "2026-07-09",
+  "newsSince": "-18.5% since prior, +92.3% YTD. July 9 context refresh for LS Electric (010120.KS) across latent-ai-nodes: market cap $21.45B, move since prior -18.5%, YTD +92.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "LS Electric lands $70M US data-center power deal (Korea Herald)",
+      "url": "https://www.koreaherald.com/article/10710836"
+    },
+    {
+      "label": "LS Electric North America data-center power equipment project (TradingView/Reuters)",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN40U0A0:0-ls-electric-co-ltd-announces-north-america-data-center-power-equipment-supply-project/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/010120.KS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "010120.KS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/010120.KS/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 61,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 61. July context shows score 64.8, move since prior -18.5%, YTD +92.3%, market cap $21.45B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Korea/Asia data-center power + grid automation + overseas (US) expansion; less global coverage than US peers.",
+      "neutral": "Increasingly covered after repeated US wins; latent-discovery edge is narrowing.",
+      "bear": "Power & grid is becoming a consensus AI trade; +136% YTD reduces the under-followed premium.",
+      "primaryCatalyst": "Overseas data-center power expansion / new grid-automation wins",
+      "primaryRisk": "Loss of under-coverage premium; execution on overseas projects"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 53,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 53. July context does not change the page placement: -18.5% since the prior refresh, +92.3% YTD. Prior frame: Residual-alpha lens: real data-center switchgear/transformer demand, but the order flow is April-May and already known; nothing new since June 9. At +136% YTD with ~18 buy ratings the name is no longer under-owned enough to re-rank up on a flow bounce. Hold.",
+      "bull": "Repeat US hyperscale power wins (switchgear, EHV transformers) tie it directly to the AI data-center power bottleneck.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 53, score 31.4, -18.5% since prior, +92.3% YTD.",
+      "bear": "Crowded, multiple buy ratings; no new catalyst since June 9 to restore asymmetry.",
+      "primaryCatalyst": "Additional US/Asia data-center power equipment orders",
+      "primaryRisk": "Crowding; project timing and competition in grid equipment"
+    }
+  ]
+}

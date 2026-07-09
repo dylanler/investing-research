@@ -1,0 +1,56 @@
+{
+  "symbol": "SIE.DE",
+  "company": "Siemens",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Siemens (SIE.DE) across latent-ai-nodes: market cap $238.32B, move since prior -0.2%, YTD +12.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Siemens Energy raises mid-term outlook (Siemens Energy PR)",
+      "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-fulfills-all-commitments---and-increases-mid-term.html"
+    },
+    {
+      "label": "Siemens Energy: grid + data-center electricity crunch (ad-hoc-news)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-catches-two-waves-grid-modernisation-and-the-data-center/69587083"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SIE.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "SIE.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SIE.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 12, YTD +12.7% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -0.2%, YTD +12.7%, market cap about $238.3B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 100,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 100. July context shows score 50.0, move since prior -0.2%, YTD +12.7%, market cap $238.32B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Owns many AI deployment layers (automation, digital twin, electrification software) with durable cash flows.",
+      "neutral": "Great business, wrong page - too large and well-owned to be latent alpha.",
+      "bear": "No under-coverage edge; AI exposure is diluted across a vast industrial conglomerate.",
+      "primaryCatalyst": "Digital Industries recovery; factory-automation + industrial-software AI adjacency.",
+      "primaryRisk": "Mega-cap, fully-covered; no latent under-ownership; DI cyclicality."
+    }
+  ]
+}

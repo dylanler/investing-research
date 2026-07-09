@@ -1,0 +1,47 @@
+{
+ "symbol": "3105.TWO",
+ "asOf": "2026-07-09",
+ "company": "Win Semi",
+ "currency": "TWD",
+ "priceToday": 406.0,
+ "pricePrev": 522.0,
+ "moveSincePrevPct": -22.22,
+ "ytdReturnPct": 126.82,
+ "marketCapUsdB": 5.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/3105.TWO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 81,
+   "ticker": "3105.TWO",
+   "company": "WIN Semiconductors",
+   "score": 48.8,
+   "thesis": "manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk.",
+   "tier": "foundry",
+   "ytd": 126.82,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the manufacturing-tollgate lens Win's +192% YTD is SpaceX-IPO/satellite speculation and RF recovery, not AI-node or packaging bottleneck evidence. No new AI-relevant catalyst since June 9; flow-driven, retail-heavy crowding leaves little residual under-owned alpha. Continue down."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 94,
+   "ticker": "3105.TWO",
+   "company": "WIN Semiconductors",
+   "score": 46.0,
+   "thesis": "Compound semi foundry may touch photonics/RF; direct CPO evidence limited.",
+   "category": "RF / compound foundry",
+   "ytd": 126.82,
+   "mcapB": 5.4,
+   "risk": "RF cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "WIN Semiconductors should move down because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity is either less hidden after 152.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 104 implies."
+   }
+  }
+ ]
+}

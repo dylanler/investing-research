@@ -1,0 +1,45 @@
+{
+ "symbol": "VPG",
+ "asOf": "2026-07-09",
+ "company": "Vishay Precision Group",
+ "currency": "USD",
+ "priceToday": 107.95,
+ "pricePrev": 135.47,
+ "moveSincePrevPct": -20.31,
+ "ytdReturnPct": 174.82,
+ "marketCapUsdB": 1.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/VPG/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 25,
+   "ticker": "VPG",
+   "company": "Vishay Precision Group",
+   "score": 50.9,
+   "thesis": "Precision measurement and current-sense leverage; tight-supply, AI-adjacent, hidden-gem, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: VPG",
+   "ytd": 174.82,
+   "mcapB": 1.44,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: VPG made a new ATH Jun 17 (+33.6%/mo), but on no new fundamentals beyond the May Q1 humanoid story. Crowding keeps eroding residual alpha on this crowding-sensitive list; small negative drift, consistent with the prior 'rerated benchmark' bucket. Hold."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 29,
+   "ticker": "VPG",
+   "company": "Vishay Precision Group",
+   "score": 49.0,
+   "thesis": "Force sensing is relevant to hands and balance, but the stock already capitulated upward.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Humanoid-stack lens: force/current-sensing relevant to hands and balance and the developer pipeline grew, but it's the same Q1 narrative — no new fundamental catalyst since Jun 9, just a new ATH. Prior verdict already moved it down for crowding/rerating; respect and hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "ENTG",
+ "asOf": "2026-07-09",
+ "company": "Entegris",
+ "currency": "USD",
+ "priceToday": 138.715,
+ "pricePrev": 167.72,
+ "moveSincePrevPct": -17.29,
+ "ytdReturnPct": 54.88,
+ "marketCapUsdB": 20.72,
+ "quoteUrl": "https://finance.yahoo.com/quote/ENTG/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 27,
+   "ticker": "ENTG",
+   "company": "Entegris",
+   "score": 66.4,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 54.88,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Genuinely new since June 9: a June 11 JSR/Inpria EUV cross-license removes a patent overhang and locks Entegris into next-gen AI-node photoresist materials, with broad analyst PT hikes. This strengthens the AI-fab/HBM materials bottleneck case the prior 'hold' lacked. Move up."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 16,
+   "ticker": "ENTG",
+   "company": "Entegris",
+   "score": 81.6,
+   "thesis": "Materials purity and advanced packaging/foundry spend provide underappreciated picks-and-shovels exposure.",
+   "category": "Materials / consumables",
+   "ytd": 54.88,
+   "mcapB": 20.72,
+   "risk": "Leverage, capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The EUV cross-license is real new picks-and-shovels evidence, lifting score. But this crowding-sensitive lens penalizes chase: ~25% in two weeks on a +87% YTD name consumes much of the under-owned residual, so the bottleneck-strengthening is offset by reduced asymmetry — net small positive, hold rank 19."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 20,
+   "ticker": "ENTG",
+   "company": "Entegris",
+   "score": 70.7,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch materials and contamination control execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 54.88,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "New EUV cross-license and analyst upgrades strengthen the upstream pick-and-shovel thesis on this master under-owned-bottleneck list, justifying a score bump vs the June 9 'hold'. The +87% YTD rerating tempers it, so a modest positive without a rank jump."
+   }
+  }
+ ]
+}

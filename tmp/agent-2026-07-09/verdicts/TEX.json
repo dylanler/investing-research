@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 88. July context shows score 61.0, move since prior -7.5%, YTD +16.8%, market cap $7.34B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Aerials orders +46% and material-handling/port equipment could ride data-center and industrial construction buildouts.",
+      "neutral": "Cranes/aerial/material-handling could benefit from automated logistics, but the AI-node connection is indirect and latent.",
+      "bear": "Thin Aerials margins (2.6%), ~$60M tariff headwind, REV integration risk and an Aerials strategic review cloud the construction-cyclical thesis.",
+      "primaryCatalyst": "Industrial/data-center construction demand lifting Aerials and cranes",
+      "primaryRisk": "Tariff headwinds, thin margins and Aerials divestiture uncertainty"
+    }
+  ],
+  "symbol": "TEX",
+  "company": "Terex",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Terex Q1 2026 8-K earnings release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000097216/000009721626000078/terexearningsreleaseexq1-26.htm"
+    },
+    {
+      "label": "Terex FY2026 earnings guidance (Daily Political)",
+      "url": "https://www.dailypolitical.com/2026/05/03/terex-nysetex-issues-fy-2026-earnings-guidance.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/TEX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "TEX quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TEX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Terex (TEX) across latent-ai-nodes-strict: market cap $7.34B, move since prior -7.5%, YTD +16.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

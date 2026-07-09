@@ -1,0 +1,30 @@
+{
+ "symbol": "2337.TW",
+ "asOf": "2026-07-09",
+ "company": "Macronix International",
+ "currency": "TWD",
+ "priceToday": 143.5,
+ "pricePrev": 172.0,
+ "moveSincePrevPct": -16.57,
+ "ytdReturnPct": 231.03,
+ "marketCapUsdB": 8.61,
+ "quoteUrl": "https://finance.yahoo.com/quote/2337.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 98,
+   "ticker": "2337.TW",
+   "company": "Macronix International",
+   "score": 40.0,
+   "thesis": "HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks.",
+   "tier": "memory",
+   "ytd": 231.03,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Macronix International should hold because HBM, server DRAM and AI eSSD supply remains relevant, but current rank 97, 231.0% YTD, $8.8B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

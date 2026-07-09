@@ -1,0 +1,76 @@
+{
+  "symbol": "IMOS",
+  "company": "ChipMOS Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 118 hold (+0); up 3.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "IMOS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/IMOS/"
+    },
+    {
+      "label": "ChipMOS May 2026 revenue +17.7% YoY (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/chipmos-reports-17-7-yoy-increase-in-may-2026-revenue-302796285.html"
+    },
+    {
+      "label": "ChipMOS May 2026 revenue (StockTitan)",
+      "url": "https://www.stocktitan.net/news/IMOS/chip-mos-reports-17-7-yo-y-increase-in-may-2026-dsg4pxca2ged.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "IMOS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/IMOS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 25. July market-data refresh shows move since prior +3.2%, YTD +122.9%, market cap $2.29B. Thesis: Backend packaging and test exposure. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "AI-memory packaging/test demand and capacity expansion give direct backend exposure to the scaling buildout; +17.7% YoY revenue.",
+      "neutral": "Monthly revenue solid but MoM softened -3.1%; OSAT margins remain cyclical.",
+      "bear": "Commodity OSAT with memory-cycle beta; +115% YTD already prices much of the recovery.",
+      "primaryCatalyst": "Continued AI-memory packaging volume / capacity ramp",
+      "primaryRisk": "Memory cycle peak; pricing/utilization rollover"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 118,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits ChipMOS Technologies through OSAT/Packaging; Small OSAT; low CPO-specific exposure. The stock is up 3.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI memory demand/supply imbalance lifts backend volumes; long-term supply agreements and capacity adds support throughput.",
+      "neutral": "Healthy memory cycle, but irrelevant to the CPO thesis this page screens for.",
+      "bear": "No co-packaged-optics content; rank correctly sits at the page floor.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Memory/display cycle"
+    }
+  ]
+}

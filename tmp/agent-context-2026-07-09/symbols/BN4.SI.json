@@ -1,0 +1,30 @@
+{
+ "symbol": "BN4.SI",
+ "asOf": "2026-07-09",
+ "company": "Keppel",
+ "currency": "SGD",
+ "priceToday": 10.87,
+ "pricePrev": 11.11,
+ "moveSincePrevPct": -2.16,
+ "ytdReturnPct": 4.82,
+ "marketCapUsdB": 15.03,
+ "quoteUrl": "https://finance.yahoo.com/quote/BN4.SI/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 32,
+   "ticker": "BN4",
+   "company": "Keppel",
+   "score": 64.8,
+   "thesis": "Physical deployment exposure. Positive but measured ytd; watch data-center development and infrastructure execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 4.82,
+   "auditNote": "Genuinely new on-thesis evidence after yesterday's verdict: the June 9 Ansan announcement extends Keppel's data-center development pipeline into a new market with power approvals already in hand - exa",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: the Ansan DC pipeline (power approvals in hand) is exactly the physical-deployment exposure this page rewards, but it was the Jun 9 catalyst already credited in the prior 'up'. No new evidence since; hold the gain."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "NTG.DE",
+ "asOf": "2026-07-09",
+ "company": "Nabaltec",
+ "currency": "EUR",
+ "priceToday": 13.25,
+ "pricePrev": 12.75,
+ "moveSincePrevPct": 3.92,
+ "ytdReturnPct": 6.43,
+ "marketCapUsdB": 0.13,
+ "quoteUrl": "https://finance.yahoo.com/quote/NTG.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 9,
+   "ticker": "NTG.DE",
+   "company": "Nabaltec",
+   "score": 74.0,
+   "thesis": "Specialty alumina, ceramic bodies and flame-retardant fillers could become valuable in thermal, safety and enclosure materials",
+   "theme": "Ceramic fillers/materials",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#3",
+   "ytd": 6.43,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent ceramic-fillers/specialty-alumina thesis (thermal, electrical insulation, enclosure materials) is unchanged since June 9. The +11% pop is micro-cap noise off an Edison note, not new AI-linked demand evidence. The strict-screen setup sits where the prior hold left it."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "JEN.F",
+  "company": "Jenoptik",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Jenoptik (JEN.F) now screens at n/a market cap, n/a since the prior refresh and n/a YTD. Page thesis remains: Optical systems, metrology, photonics",
+  "sources": [
+    {
+      "label": "JEN.F quote / market data unavailable",
+      "url": ""
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 40,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 40. July market-data refresh shows move since prior n/a, YTD n/a, market cap n/a. Thesis: Optical systems, metrology, photonics. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Optical systems, metrology, photonics; current size at n/a can still matter if the bottleneck thesis compounds.",
+      "neutral": "Evidence remains thesis-consistent, but July price action/YTD (n/a) and category purity need monitoring.",
+      "bear": "The linkage may be indirect, already discounted, or vulnerable to cycle/capital-market risk.",
+      "primaryCatalyst": "New customer/order evidence converting the page thesis into revenue.",
+      "primaryRisk": "Rerating, execution slippage, or evidence proving less direct than the page thesis assumes."
+    }
+  ]
+}

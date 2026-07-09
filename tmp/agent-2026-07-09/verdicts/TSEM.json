@@ -1,0 +1,76 @@
+{
+  "symbol": "TSEM",
+  "company": "Tower Semiconductor",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 45 up (+3); down 24.0% since the prior refresh. semiconductor-ai-nodes: rank 14 hold (+1); down 24.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "IQE/Tower multi-year InP epiwafer deal (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311514/0/en/IQE-and-Tower-Semiconductor-Announce-Multi-year-InP-epiwafer-Supply-Agreement.html"
+    },
+    {
+      "label": "Tower & Marvell ship 5M coherent PICs (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3313991/0/en/tower-semiconductor-and-marvell-ship-over-five-million-coherent-photonic-ics.html"
+    },
+    {
+      "label": "TSEM up after photonics deal & IP settlement (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-tsem/tower-semiconductor/news/tower-semiconductor-tsem-is-up-91-after-major-ai-photonics-d"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "TSEM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/TSEM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 45,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.82,
+      "rankRationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Tower Semiconductor combines Specialty foundry processes can host photonics/RF/analog blocks for optical modules. with improved entry after a -24.0% post-refresh move. Score bump is capped by +78.0% YTD and Specialty foundry cycle.",
+      "bull": "Confirmed coherent-PIC volume and secured InP supply make Tower a credible co-packaged/optics manufacturing play with durable demand.",
+      "neutral": "Strong fundamentals, but the SiPho narrative is consensus now; alpha is in execution, not discovery.",
+      "bear": "Crowded, fully-discovered name after a 135% YTD run; limited residual edge on a crowding-sensitive lens.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Specialty foundry cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Tower Semiconductor through foundry; manufacturing tollgate in AI supply, with score influenced by pricing power, technology node, and geopolitical risk. The stock is down 24.0% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Locked InP supply + proven 5M-unit coherent-PIC volume + $1.3B contracted 2027 revenue make Tower a hard-wired AI optical-interconnect tollgate.",
+      "neutral": "Specialty foundry leveraged to SiPho ramp; execution and capacity timing matter, but the AI-DCI demand is now demonstrably real.",
+      "bear": "+135% YTD prices in much of the SiPho story; specialty-foundry cyclicality and customer concentration (Marvell) remain risks.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Specialty-foundry cycle, customer concentration, and a stretched valuation if photonics ramp slips."
+    }
+  ]
+}

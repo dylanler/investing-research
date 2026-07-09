@@ -1,0 +1,65 @@
+{
+ "symbol": "AIXA.DE",
+ "asOf": "2026-07-09",
+ "company": "Aixtron",
+ "currency": "EUR",
+ "priceToday": 44.62,
+ "pricePrev": 55.42,
+ "moveSincePrevPct": -19.49,
+ "ytdReturnPct": 127.77,
+ "marketCapUsdB": 7.8,
+ "quoteUrl": "https://finance.yahoo.com/quote/AIXA.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 79,
+   "ticker": "AIXA.DE",
+   "company": "Aixtron",
+   "score": 61.4,
+   "thesis": "Compound semis can matter to efficient power/optics, but Aixtron remains tied to cyclical SiC/GaN expectations and investor swings.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "Xetra",
+   "ytd": 127.77,
+   "conviction": "Speculative",
+   "catalysts": "SiC/GaN recovery; optoelectronics; data-center power devices.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 85 is 9 places better than displayed rank 94; adjusted score 56.1; YTD +188.2%; market cap $7.5B; Aixtron remains tied to semi/advanced materials through Deposition equipment for compound semiconductors. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 52,
+   "ticker": "AIXA.DE",
+   "company": "Aixtron",
+   "score": 55.4,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 127.77,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the AI-node bottleneck lens, the growing InP-for-AI-optics and GaN-power order book strengthens Aixtron's claim, but exposure stays indirect versus HBM/advanced-packaging/AI-networking names that define the upper ranks. Modest score uptick, hold rank."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 13,
+   "ticker": "AIXA.DE",
+   "company": "Aixtron",
+   "score": 84.4,
+   "thesis": "Small, underfollowed compound-semiconductor equipment lever to lasers and photonic devices.",
+   "category": "Compound equipment",
+   "ytd": 127.77,
+   "mcapB": 7.8,
+   "risk": "LED/SiC/photonics capex volatility",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "This CPO/photonics lens is where Aixtron fits best — InP MOCVD feeds the lasers/optics behind co-packaged optics. Order flow keeps validating that leg, but the Lumentum evidence predates June 9 and the 'small, underfollowed' premise keeps eroding (+183% YTD). Net mild positive, hold."
+   }
+  }
+ ]
+}

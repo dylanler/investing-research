@@ -1,0 +1,51 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 42. July context shows score 67.6, move since prior -6.4%, YTD +14.2%, market cap $2.52B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Carbide tooling/wear materials enable reshoring of precision thermal/mechanical parts; pricing and defense orders lift margins.",
+      "neutral": "On-thesis latent industrial name with a guidance raise, but the catalyst predates the window and tungsten swings cloud cash flow.",
+      "bear": "Tungsten-driven revenue gains are partly inflationary and crimp FCF (~-30% of adj. net income); demand is cyclical.",
+      "primaryCatalyst": "Raised FY26 guidance; aero/defense/AI-power-generation demand and pricing/share gains",
+      "primaryRisk": "Tungsten-price volatility pressuring working capital and free cash flow"
+    }
+  ],
+  "symbol": "KMT",
+  "company": "Kennametal",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Kennametal lifts Q3 FY26, raises outlook (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/KMT/8-k-kennametal-inc-reports-material-event-4bc0d4f0f20f.html"
+    },
+    {
+      "label": "KMT Q3 2026 earnings report date 5/6/2026 (MarketBeat)",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-5-6-kennametal-inc-stock/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KMT/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "KMT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KMT/"
+    },
+    {
+      "label": "Kennametal raises FY2026 guidance (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/kennametal-inc-raises-earnings-guidance-for-the-fiscal-year-2026-ce7d5cdddb89f32c"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Kennametal (KMT) across latent-ai-nodes-strict: market cap $2.52B, move since prior -6.4%, YTD +14.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

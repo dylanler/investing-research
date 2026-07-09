@@ -1,0 +1,48 @@
+{
+ "symbol": "TEL",
+ "asOf": "2026-07-09",
+ "company": "TE Connectivity",
+ "currency": "USD",
+ "priceToday": 196.24,
+ "pricePrev": 206.945,
+ "moveSincePrevPct": -5.17,
+ "ytdReturnPct": -15.86,
+ "marketCapUsdB": 57.28,
+ "quoteUrl": "https://finance.yahoo.com/quote/TEL/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 78,
+   "ticker": "TEL",
+   "company": "TE Connectivity",
+   "score": 15.7,
+   "thesis": "High-reliability connectors and sensing; AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE/SWX: TEL",
+   "ytd": -15.86,
+   "mcapB": 57.28,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: balanced AI supply-chain exposure but not as mispriced as top residual names. No new evidence since June 9 (record orders/AI raise were April). -11.7% YTD improves entry but adds no fundamental alpha. Hold at 75."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 15,
+   "ticker": "TEL",
+   "company": "TE Connectivity",
+   "score": 75.4,
+   "thesis": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch high-speed connectors and interconnects execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": -15.86,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list, optical/high-speed networking bucket: 800G/1.6T and CPO copper-in-rack story intact, but record orders and AI raise predate June 9 and no new design-win/capacity news since. Today's drift changes nothing. Hold at 14."
+   }
+  }
+ ]
+}

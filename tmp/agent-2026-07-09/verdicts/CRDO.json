@@ -1,0 +1,105 @@
+{
+  "symbol": "CRDO",
+  "company": "Credo Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 42 hold (+0); down 4.5% since the prior refresh. semiconductor-ai-nodes: rank 2 hold (+0); down 4.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for CRDO",
+      "url": "https://finance.yahoo.com/quote/CRDO/"
+    },
+    {
+      "label": "Yahoo Finance: optical transceiver market doubling on 800G/1.6T AI demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/optical-transceiver-market-set-double-104800250.html"
+    },
+    {
+      "label": "Ciena press release: AI networking and 1.6T coherent innovations",
+      "url": "https://www.nasdaq.com/press-release/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-high-speed"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "CRDO draws bullish targets after AI quarter (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/credo-technology-group-holding-ltd-crdo-news-2026_06_17/"
+    },
+    {
+      "label": "Credo earns new analyst upgrade, shares climb to peak (Insider Monkey)",
+      "url": "https://www.insidermonkey.com/blog/credo-technology-crdo-earns-new-analyst-upgrade-shares-climb-to-fresh-peak-1787119/"
+    },
+    {
+      "label": "Credo Q4 FY26 record results (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-ltd-050039141.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "CRDO Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/CRDO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 30,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "AEC/DSP demand remains strong, but the valuation and YTD move already embed much of the scarcity story.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -4.5%, YTD +80.6%, market cap about $48.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Credo Technology through AI interconnect; One of the closest public cable/connectivity pure plays; DustPhotonics acquisition adds SiPho/CPO optionality. The stock is down 4.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Cable/connectivity pure play; DustPhotonics adds SiPho/CPO optionality; optical ramping.",
+      "neutral": "On-theme but already re-rated; asymmetry largely captured.",
+      "bear": "High multiple after repricing; revenue concentration on a crowded screen.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Revenue concentration, high multiple after repricing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Credo Technology through custom ASIC / interconnect; picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps. The stock is down 4.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AEC/optical DSP leader; 5 of 6 hyperscalers; FY27 optical >$600M; +206% FY26 revenue.",
+      "neutral": "Best-in-class execution but now fully discovered with PTs $275-300.",
+      "bear": "Revenue concentration; consensus-owned $51B cap; residual hidden alpha shrinking.",
+      "primaryCatalyst": "AI networking/custom-silicon platform wins",
+      "primaryRisk": "Crowding / customer concentration"
+    }
+  ]
+}

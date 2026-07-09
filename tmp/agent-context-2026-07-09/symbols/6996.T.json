@@ -1,0 +1,32 @@
+{
+ "symbol": "6996.T",
+ "asOf": "2026-07-09",
+ "company": "Nichicon",
+ "currency": "JPY",
+ "priceToday": 3480.0,
+ "pricePrev": 4210.0,
+ "moveSincePrevPct": -17.34,
+ "ytdReturnPct": 110.02,
+ "marketCapUsdB": 1.85,
+ "quoteUrl": "https://finance.yahoo.com/quote/6996.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 11,
+   "ticker": "6996",
+   "company": "Nichicon",
+   "score": 70.3,
+   "thesis": "Electrolytic capacitor leverage in AI/server power; tight-supply, AI-adjacent, underfollowed, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "TSE: 6996",
+   "ytd": 110.02,
+   "mcapB": 1.85,
+   "revisionNote": "On a crowding-sensitive alpha list, a +5.3% pop driven by a sell-side TP hike (Neutral rating, stock now above the new JPY 4,000 target) at +158.6% YTD is discovery without new fundamentals - residual alpha shrinks and the 'underfollowed' leg of the thesis erodes. Yesterday's hold is overridden by g",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "New since Jun 9: a 10-15% across-the-board e-cap price hike on AI-server demand exceeding capacity - real pricing-power evidence that reinforces the tight-supply bottleneck leg. But at +154% YTD with sell-side already marking it up, the 'underfollowed' residual-alpha leg keeps eroding; the two roughly offset, so hold."
+   }
+  }
+ ]
+}

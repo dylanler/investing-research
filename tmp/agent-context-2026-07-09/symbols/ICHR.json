@@ -1,0 +1,47 @@
+{
+ "symbol": "ICHR",
+ "asOf": "2026-07-09",
+ "company": "Ichor Holdings",
+ "currency": "USD",
+ "priceToday": 88.81,
+ "pricePrev": 92.03,
+ "moveSincePrevPct": -3.5,
+ "ytdReturnPct": 335.13,
+ "marketCapUsdB": 2.91,
+ "quoteUrl": "https://finance.yahoo.com/quote/ICHR/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 74,
+   "ticker": "ICHR",
+   "company": "Ichor Holdings",
+   "score": 49.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 335.13,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: no new ICHR-specific evidence since the June 9 down verdict. The +28.7% pop is sector-beta/WFE re-rating, not bottleneck-criticality proof. As a gas-panel/subsystem integrator ICHR sits low on node-criticality. Hold rank 74; re-rating penalty handled separately."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 61,
+   "ticker": "ICHR",
+   "company": "Ichor Holdings",
+   "score": 59.4,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "WFE subsystems",
+   "ytd": 335.13,
+   "mcapB": 2.91,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Ichor Holdings should move down because AI-driven 300mm, memory and advanced-node wafer-equipment spend is either less hidden after 227.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 66 implies."
+   }
+  }
+ ]
+}

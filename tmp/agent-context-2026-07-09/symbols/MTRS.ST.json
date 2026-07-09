@@ -1,0 +1,48 @@
+{
+ "symbol": "MTRS.ST",
+ "asOf": "2026-07-09",
+ "company": "Munters",
+ "currency": "SEK",
+ "priceToday": 161.2,
+ "pricePrev": 171.9,
+ "moveSincePrevPct": -6.22,
+ "ytdReturnPct": -16.61,
+ "marketCapUsdB": 3.27,
+ "quoteUrl": "https://finance.yahoo.com/quote/MTRS.ST/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 39,
+   "ticker": "MTRS.ST",
+   "company": "Munters Group",
+   "score": 70.2,
+   "thesis": "Munters has direct cooling exposure, but the data-center angle is now visible; upside depends on liquid-cooling scale and valuation discipline.",
+   "theme": "Thermal & Water",
+   "exchange": "Nasdaq Stockholm",
+   "ytd": -16.61,
+   "conviction": "Medium",
+   "catalysts": "Liquid cooling; energy-efficient data-center orders; capacity expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 40 is 9 places worse than displayed rank 31; adjusted score 69.0; YTD +8.9%; market cap $4.0B; Munters Group remains tied to thermal & water through Air and liquid cooling for data centers and industrial climate control. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 1,
+   "ticker": "MTRS",
+   "company": "Munters",
+   "score": 92.7,
+   "thesis": "Infrastructure bottleneck exposure. Negative ytd reset; watch cooling and air treatment execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": -16.61,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master bottleneck list: already rank 1, so no upside move possible. Cooling/air-treatment bottleneck thesis fully intact with the SEK 2bn AI order; a -14% flow-driven reset improves risk/reward and supports holding the top slot."
+   }
+  }
+ ]
+}

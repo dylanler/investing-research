@@ -1,0 +1,27 @@
+{
+ "symbol": "NEO.TO",
+ "asOf": "2026-07-09",
+ "company": "Neo Performance Materials",
+ "currency": "CAD",
+ "priceToday": 37.89,
+ "pricePrev": 35.275,
+ "moveSincePrevPct": 7.41,
+ "ytdReturnPct": 124.33,
+ "marketCapUsdB": 1.23,
+ "quoteUrl": "https://finance.yahoo.com/quote/NEO.TO/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 33,
+   "ticker": "NEO.TO",
+   "company": "Neo Performance Materials",
+   "score": 43.6,
+   "thesis": "Relevant to motor supply chains, but the move has already been large.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #40 and alpha score 42. Should move down because $1.1B cap, +89.2% YTD, Materials purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "TRMB",
+ "asOf": "2026-07-09",
+ "company": "Trimble",
+ "currency": "USD",
+ "priceToday": 52.4,
+ "pricePrev": 49.125,
+ "moveSincePrevPct": 6.67,
+ "ytdReturnPct": -33.1,
+ "marketCapUsdB": 12.21,
+ "quoteUrl": "https://finance.yahoo.com/quote/TRMB/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 41,
+   "ticker": "TRMB",
+   "company": "Trimble",
+   "score": 70.0,
+   "thesis": "AI models for construction, logistics and autonomy need precise geospatial data; Trimble has data and workflow positions but is not an AI narrative stock.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NASDAQ",
+   "ytd": -33.1,
+   "conviction": "Medium",
+   "catalysts": "Construction automation; transportation optimization; subscription mix.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 34 is 7 places worse than displayed rank 27; adjusted score 70.0; YTD -31.5%; market cap $12.6B; Trimble remains tied to sensors & measurement through Geospatial, positioning and construction data systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

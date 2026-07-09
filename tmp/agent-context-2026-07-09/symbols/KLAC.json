@@ -1,0 +1,63 @@
+{
+ "symbol": "KLAC",
+ "asOf": "2026-07-09",
+ "company": "KLA",
+ "currency": "USD",
+ "priceToday": 221.18,
+ "pricePrev": 245.62,
+ "moveSincePrevPct": -9.95,
+ "ytdReturnPct": 73.55,
+ "marketCapUsdB": 288.92,
+ "quoteUrl": "https://finance.yahoo.com/quote/KLAC/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 56,
+   "ticker": "KLAC",
+   "company": "KLA",
+   "score": 53.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 73.55,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: process-control intensity at 2nm/GAA and HBM keeps the node case intact. June 12 split and dividend hike are cosmetic, not fundamental; prior cases already de-rated for the split-flow spike. No new node-relevant news -> hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 59,
+   "ticker": "KLAC",
+   "company": "KLA",
+   "score": 59.9,
+   "thesis": "Advanced packaging and silicon photonics yield control can drive demand, but discovery is high.",
+   "category": "Metrology / inspection",
+   "ytd": 73.55,
+   "mcapB": 288.92,
+   "risk": "High valuation, capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics/crowding-sensitive alpha lens: prior verdict already moved KLA down for the June 8 split-flow pop. The June 12 split and dividend are confirmation, not new fundamental evidence on photonics/packaging yield. Discovery already high; no further move warranted -> hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 64,
+   "ticker": "KLAC",
+   "company": "KLA",
+   "score": 53.7,
+   "thesis": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch inspection/metrology execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 73.55,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: prior verdict already moved KLA down for the YTD re-rating and recognition. Split/dividend in the window are capital-return cosmetics with no fundamental shift; re-penalizing would double-count. Pick-and-shovel exposure intact -> hold."
+   }
+  }
+ ]
+}

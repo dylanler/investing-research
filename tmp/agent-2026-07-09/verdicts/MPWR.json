@@ -1,0 +1,130 @@
+{
+  "symbol": "MPWR",
+  "company": "Monolithic Power Systems",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 91 hold (+0); down 7.0% since the prior refresh. semiconductor-ai-nodes: rank 55 hold (+0); down 7.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for MPWR",
+      "url": "https://finance.yahoo.com/quote/MPWR/"
+    },
+    {
+      "label": "DRAMeXchange/TrendForce: AI high-end MLCC book-to-bill at post-pandemic highs",
+      "url": "https://dramexchange.com/WeeklyResearch/Post/2/12759.html"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Schall Law Firm MPWR investigation (PRNewswire)",
+      "url": "https://www.prnewswire.com/news-releases/mpwr-investors-have-the-opportunity-to-join-investigation-of-monolithic-power-systems-inc-with-the-schall-law-firm-302793523.html"
+    },
+    {
+      "label": "Legal probe puts MPWR governance under review (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/legal-probe-puts-monolithic-power-171055111.html"
+    },
+    {
+      "label": "MPWR restatement & governance scrutiny (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mpwr/monolithic-power-systems/news/what-monolithic-power-systems-mpwrs-accounting-restatement-a"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MPWR/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "MPWR Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/MPWR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 56,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power-management IC exposure is high quality but well recognized; positive drift only.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -7.0%, YTD +40.5%, market cap about $67.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 51. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -7.0% since the prior refresh, +40.5% YTD. Prior frame: Residual-alpha lens: governance overhang (Schall probe, restatement) persists but is not new since June 9. Crowded/rerated benchmark with maxed visibility; small negative drift for lingering governance risk, no second consecutive move.",
+      "bull": "High-current PDN around accelerators is a hard-to-substitute, direct-AI 2026 bottleneck.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 51, score 31.5, -7.0% since prior, +40.5% YTD.",
+      "bear": "Restatement + fiduciary probe + ~$380M peak insider selling cap residual alpha on a 52% YTD name.",
+      "primaryCatalyst": "Continued AI server power-density content gains",
+      "primaryRisk": "Governance/restatement litigation overhang at peak valuation"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Monolithic Power Systems through Power / analog; AI power density beneficiary; CPO-specific exposure low. The stock is down 7.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "AI power-density beneficiary as optics modules raise board-level power needs.",
+      "neutral": "Indirect CPO read-through; mostly a power/analog play.",
+      "bear": "Minimal co-packaged-optics content; high valuation plus governance overhang.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "High valuation"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 55,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Monolithic Power Systems through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 7.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Selective AI/edge/power exposure with real accelerator-adjacent content.",
+      "neutral": "Less direct than HBM, advanced packaging and AI-networking peers.",
+      "bear": "Power/analog tier sits a step removed from the core AI-node bottleneck.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Lower directness than HBM/packaging leaders"
+    }
+  ]
+}

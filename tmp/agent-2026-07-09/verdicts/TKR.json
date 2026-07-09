@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 29. July context shows score 69.2, move since prior -1.7%, YTD +59.0%, market cap $9.54B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Industrial Motion at segment-record +12%; explicit humanoid-robotics M&A pipeline makes TKR a real precision-motion bottleneck play.",
+      "neutral": "Robotics exposure is embedded and small today; rerating already reflects raised guidance and sell-side upgrades.",
+      "bear": "+62% YTD and crowded sell-side leave the name fully valued; robotics revenue is still aspirational.",
+      "primaryCatalyst": "Humanoid-robotics M&A / Industrial Motion growth",
+      "primaryRisk": "Stretched valuation after +62% YTD; cyclicality"
+    }
+  ],
+  "symbol": "TKR",
+  "company": "Timken",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Timken Q1 2026 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000098362/000009836226000029/tkrq12026exhibit991.htm"
+    },
+    {
+      "label": "Timken humanoid robotics M&A focus (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-tkr/timken/news/the-bull-case-for-timken-tkr-could-change-following-new-buyb/amp"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/TKR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "TKR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TKR/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Timken (TKR) across latent-ai-nodes-strict: market cap $9.54B, move since prior -1.7%, YTD +59.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

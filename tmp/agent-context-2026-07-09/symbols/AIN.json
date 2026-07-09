@@ -1,0 +1,32 @@
+{
+ "symbol": "AIN",
+ "asOf": "2026-07-09",
+ "company": "Albany International",
+ "currency": "USD",
+ "priceToday": 71.31,
+ "pricePrev": 70.865,
+ "moveSincePrevPct": 0.63,
+ "ytdReturnPct": 36.24,
+ "marketCapUsdB": 2.04,
+ "quoteUrl": "https://finance.yahoo.com/quote/AIN/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 28,
+   "ticker": "AIN",
+   "company": "Albany International",
+   "score": 69.5,
+   "thesis": "Engineered fabrics and aerospace composites could be applied to lightweight structures, filtration media, and manufacturing process materials",
+   "theme": "Advanced fabrics/composites",
+   "exchange": "NYSE",
+   "regionRank": "US#14",
+   "ytd": 36.24,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent under-covered AI supply-chain lens. The +35% YTD is aerospace/defense (LEAP, missiles)-driven, not AI infrastructure; no new evidence linking fabrics/composites to AI nodes. Residual latent-AI alpha quietly erodes. Hold with small negative drift."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "QRVO",
+ "asOf": "2026-07-09",
+ "company": "Qorvo",
+ "currency": "USD",
+ "priceToday": 83.87,
+ "pricePrev": 98.9,
+ "moveSincePrevPct": -15.2,
+ "ytdReturnPct": -2.78,
+ "marketCapUsdB": 7.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/QRVO/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 92,
+   "ticker": "QRVO",
+   "company": "Qorvo",
+   "score": 42.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": -2.78,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Consistent with the prior down call: QRVO has weak direct AI-node bottleneck exposure (no HBM/advanced-packaging/CPO leverage), and the advancing Skyworks merger (noteholder consents, S-4 filed) removes standalone optionality. Drift-sized down; no new AI-node evidence."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 74,
+   "ticker": "QRVO",
+   "company": "Qorvo",
+   "score": 53.0,
+   "thesis": "Potential non-core infrastructure optionality but not CPO-led.",
+   "category": "RF / analog",
+   "ytd": -2.78,
+   "mcapB": 7.4,
+   "risk": "Handset/RF cyclicality",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Qorvo should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 15.8% YTD and $8.8B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "LR.PA",
+  "company": "Legrand",
+  "caseDate": "2026-07-09",
+  "newsSince": "-2.5% since prior, +11.9% YTD. July 9 context refresh for Legrand (LR.PA) across latent-ai-nodes: market cap $42.50B, move since prior -2.5%, YTD +11.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Legrand 2 data-center acquisitions (Keydak, TES)",
+      "url": "https://www.businesswire.com/news/home/20260331001875/en/Legrand-Announces-2-Acquisitions-in-Datacenters-with-Keydak-in-China-and-TES-in-the-United-Kingdom"
+    },
+    {
+      "label": "Legrand IR earnings/outlook summary",
+      "url": "https://quartr.com/companies/legrand-sa_13424"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/LR.PA/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "LR.PA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/LR.PA/"
+    },
+    {
+      "label": "Legrand 2 DC acquisitions (Keydak/TES)",
+      "url": "https://www.legrand.com/en/news/legrand-announces-2-acquisitions-datacenters-keydak-china-and-tes-united-kingdom"
+    },
+    {
+      "label": "Legrand acquires TES for DC growth",
+      "url": "https://datacentrereview.com/2026/04/legrand-acquires-tes-as-it-looks-for-growth-in-data-centre-market/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 4, YTD +11.9% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -2.5%, YTD +11.9%, market cap about $42.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 89. July context shows score 58.0, move since prior -2.5%, YTD +11.9%, market cap $42.50B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Racks, PDU and building electrification tie directly to power & grid bottleneck.",
+      "neutral": "Quality DC exposure but no longer under-covered.",
+      "bear": "Recognition reduces latent-alpha; large, liquid, widely followed.",
+      "primaryCatalyst": "Building electrification + DC product mix",
+      "primaryRisk": "De-rating if DC capex moderates"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 27. July context does not change the page placement: -2.5% since the prior refresh, +11.9% YTD. Prior frame: No new evidence since June 9; data-center M&A and FY26 guide were Q1 news already chased. The +6.2% pop is momentum, not fresh thesis change. A $46B well-covered name sits correctly in the secondary residual bucket, farther from the scarcest passive/power chokepoints.",
+      "bull": "Busway/PDU and data-center electrical exposure compounding via bolt-on M&A; data-center growth guided to high end.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 27, score 49.4, -2.5% since prior, +11.9% YTD.",
+      "bear": "Rerating leaves little residual alpha; broad electrical cyclicality and FX drag.",
+      "primaryCatalyst": "Data-center order intake / further bolt-on M&A.",
+      "primaryRisk": "Valuation rerating already discounts AI-electrical demand."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "INOXWIND.NS",
+ "asOf": "2026-07-09",
+ "company": "Inox Wind",
+ "currency": "INR",
+ "priceToday": 83.19,
+ "pricePrev": 90.66,
+ "moveSincePrevPct": -8.24,
+ "ytdReturnPct": -32.28,
+ "marketCapUsdB": 1.56,
+ "quoteUrl": "https://finance.yahoo.com/quote/INOXWIND.NS/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 9,
+   "ticker": "INOXWIND.NS",
+   "company": "Inox Wind",
+   "score": 55.0,
+   "thesis": "Wind generation equipment and power capacity build-out",
+   "bucket": "electricity",
+   "ytd": -32.28,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 10 is 2 places worse than displayed rank 8; adjusted score 55.0; YTD -31.2%; market cap $1.5B; Scaling watchlist fit is Wind generation equipment and power capacity build-out; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

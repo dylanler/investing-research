@@ -1,0 +1,32 @@
+{
+ "symbol": "AALB.AS",
+ "asOf": "2026-07-09",
+ "company": "Aalberts",
+ "currency": "EUR",
+ "priceToday": 39.32,
+ "pricePrev": 39.72,
+ "moveSincePrevPct": -1.01,
+ "ytdReturnPct": 37.87,
+ "marketCapUsdB": 5.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/AALB.AS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 16,
+   "ticker": "AALB.AS",
+   "company": "Aalberts",
+   "score": 76.3,
+   "thesis": "Hydronic flow and thermal control are needed for efficient cooling; Aalberts offers niche industrial/building technologies at a non-AI multiple.",
+   "theme": "Thermal & Water",
+   "exchange": "Euronext Amsterdam",
+   "ytd": 37.87,
+   "conviction": "Medium",
+   "catalysts": "Hydronic HVAC/data-centre demand; portfolio focus; European recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 14 is 3 places better than displayed rank 17; adjusted score 77.0; YTD +32.6%; market cap $4.7B; Aalberts remains tied to thermal & water through Hydronic flow control, precision components and surface technologies. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

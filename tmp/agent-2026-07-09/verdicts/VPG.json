@@ -1,0 +1,60 @@
+{
+  "symbol": "VPG",
+  "company": "Vishay Precision Group",
+  "caseDate": "2026-07-09",
+  "newsSince": "-20.3% since prior, +174.8% YTD. No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Vishay Precision Group (VPG) now screens at $1.44B market cap, -20.3% since the prior refresh and +174.8% YTD. Page thesis remains: Force sensing is relevant to hands and balance, but the stock already capitulated upward.",
+  "sources": [
+    {
+      "label": "VPG quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/VPG/"
+    },
+    {
+      "label": "VPG hits new all-time high (Benzinga, Jun)",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53149768/vishay-precision-group-stock-hits-a-new-all-time-high-thursday-whats-driving-the-action"
+    },
+    {
+      "label": "VPG benefiting from robotics growth (Insider Monkey/Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-precision-group-vpg-benefiting-141953105.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/VPG/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 29,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 29. July market-data refresh shows move since prior -20.3%, YTD +174.8%, market cap $1.44B. Thesis: Force sensing is relevant to hands and balance, but the stock already capitulated upward.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Force-sensing is core to humanoid hands/balance; engaged with multiple humanoid OEMs as the segment begins scaling later in 2026.",
+      "neutral": "Genuine robotics exposure but humanoid revenue still nominal; valuation captures the optionality.",
+      "bear": "Already capitulated upward; force-sensing faces alternatives and the AI-robotics premium is fragile at this multiple.",
+      "primaryCatalyst": "Conversion of humanoid engineering engagements into scaled production orders.",
+      "primaryRisk": "Humanoid timelines slip; rich valuation unwinds on any robotics-hype cooling."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 25,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 25. crowding, YTD rerating, or a risk-led drawdown trims residual alpha: -20.3% since the prior refresh, +174.8% YTD. Prior frame: Residual-alpha-vs-passives lens: VPG made a new ATH Jun 17 (+33.6%/mo), but on no new fundamentals beyond the May Q1 humanoid story. Crowding keeps eroding residual alpha on this crowding-sensitive list; small negative drift, consistent with the prior 'rerated benchmark' bucket. Hold.",
+      "bull": "Profitable physical-AI/humanoid picks-and-shovels; book-to-bill 1.21, manufacturing rebound, multiple humanoid developers engaging.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 25, score 50.9, -20.3% since prior, +174.8% YTD.",
+      "bear": "+244% YTD prices in years of humanoid hope; any sentiment reversal de-rates a small-cap fast — residual alpha nearly gone.",
+      "primaryCatalyst": "Humanoid orders scaling materially (multiple developers moving from engineering to volume).",
+      "primaryRisk": "Crowding/momentum unwind; humanoid revenue stays immaterial relative to the multiple."
+    }
+  ]
+}

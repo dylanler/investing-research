@@ -1,0 +1,32 @@
+{
+ "symbol": "KAI",
+ "asOf": "2026-07-09",
+ "company": "Kadant",
+ "currency": "USD",
+ "priceToday": 293.57,
+ "pricePrev": 305.04,
+ "moveSincePrevPct": -3.76,
+ "ytdReturnPct": 2.5,
+ "marketCapUsdB": 3.7,
+ "quoteUrl": "https://finance.yahoo.com/quote/KAI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 63,
+   "ticker": "KAI",
+   "company": "Kadant",
+   "score": 66.0,
+   "thesis": "Fluid handling, filtration and industrial process systems could be redirected toward water reuse/thermal process control",
+   "theme": "Process fluid systems",
+   "exchange": "NYSE",
+   "regionRank": "US#35",
+   "ytd": 2.5,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent strict screen: fluid handling/filtration is a speculative water-reuse/thermal-process pathway, not a confirmed AI node. Record Q1, Profil close and buyback all predate Jun 9. No new releases/contracts/analyst moves in the window; +3.9% is noise. Strict capability claim unchanged."
+   }
+  }
+ ]
+}

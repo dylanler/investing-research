@@ -1,0 +1,32 @@
+{
+ "symbol": "LECO",
+ "asOf": "2026-07-09",
+ "company": "Lincoln Electric",
+ "currency": "USD",
+ "priceToday": 247.69,
+ "pricePrev": 273.625,
+ "moveSincePrevPct": -9.48,
+ "ytdReturnPct": 1.61,
+ "marketCapUsdB": 13.57,
+ "quoteUrl": "https://finance.yahoo.com/quote/LECO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 59,
+   "ticker": "LECO",
+   "company": "Lincoln Electric",
+   "score": 66.0,
+   "thesis": "Welding automation and additive manufacturing know-how could support heavy fabrication for compute campuses and robot factories",
+   "theme": "Welding/automation",
+   "exchange": "NYSE",
+   "regionRank": "US#34",
+   "ytd": 1.61,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new evidence since June 9 linking Lincoln's welding-automation/additive franchise to AI compute-campus or robot-factory fabrication. Only a June 10 valuation-premium note and a routine price move. The latent-strict setup is unchanged, so prior hold stands at rank 62."
+   }
+  }
+ ]
+}

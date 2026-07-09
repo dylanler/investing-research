@@ -1,0 +1,35 @@
+{
+  "symbol": "GNE.NZ",
+  "company": "Genesis Energy",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Genesis Energy (GNE.NZ) now screens at $1.68B market cap, -0.8% since the prior refresh and +7.5% YTD. Page thesis remains: Utility / power demand exposure",
+  "sources": [
+    {
+      "label": "GNE.NZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/GNE.NZ/"
+    },
+    {
+      "label": "Genesis Energy news",
+      "url": "https://www.genesisenergy.co.nz/about/news"
+    },
+    {
+      "label": "Stockopedia - Genesis Energy (NZE:GNE)",
+      "url": "https://www.stockopedia.com/share-prices/genesis-energy-NZE:GNE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 11,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 11. July market-data refresh shows move since prior -0.8%, YTD +7.5%, market cap $1.68B. Thesis: Utility / power demand exposure. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Diversified NZ generation (1200MW Huntly + hydro/wind) gives baseload power-demand optionality if AI electricity load broadens.",
+      "neutral": "Stable regulated utility; no AI-specific demand signal, consensus rating is Hold.",
+      "bear": "No data-center/AI catalyst; NZ-domestic demand and hydrology drive earnings, weak fit for a scaling watchlist.",
+      "primaryCatalyst": "Broad electricity-demand growth from compute load.",
+      "primaryRisk": "No direct AI exposure; NZ regulatory/hydrology sensitivity."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "symbol": "BMI",
+ "asOf": "2026-07-09",
+ "company": "Badger Meter",
+ "currency": "USD",
+ "priceToday": 144.45,
+ "pricePrev": 132.695,
+ "moveSincePrevPct": 8.86,
+ "ytdReturnPct": -18.11,
+ "marketCapUsdB": 4.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/BMI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 38,
+   "ticker": "BMI",
+   "company": "Badger Meter",
+   "score": 70.3,
+   "thesis": "Data-center water consumption makes measurement and leak detection valuable; Badger is a premium-quality sensor/utility data play.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NYSE",
+   "ytd": -18.11,
+   "conviction": "Medium",
+   "catalysts": "Smart water adoption; municipal resilience budgets; software attach.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 32; adjusted score 71.0; YTD -26.1%; market cap $3.7B; Badger Meter remains tied to sensors & measurement through Smart water meters and flow instrumentation. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 8,
+   "ticker": "BMI",
+   "company": "Badger Meter",
+   "score": 74.3,
+   "thesis": "Smart water metering + flow measurement could monitor liquid cooling water loops and water intensity",
+   "theme": "Flow/water telemetry",
+   "exchange": "NYSE",
+   "regionRank": "US#6",
+   "ytd": -18.11,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node screen (flow/water telemetry for liquid-cooling loops) is unchanged and unaffected by recent headlines. Prior verdict already absorbed the post-miss reset; no new evidence since Jun 9. Hold."
+   }
+  }
+ ]
+}

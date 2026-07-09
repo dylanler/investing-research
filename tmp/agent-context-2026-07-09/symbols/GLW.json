@@ -1,0 +1,50 @@
+{
+ "symbol": "GLW",
+ "asOf": "2026-07-09",
+ "company": "GLW",
+ "currency": "USD",
+ "priceToday": 184.03,
+ "pricePrev": 193.76,
+ "moveSincePrevPct": -5.02,
+ "ytdReturnPct": 102.97,
+ "marketCapUsdB": 189.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/GLW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 47,
+   "ticker": "GLW",
+   "company": "Corning",
+   "score": 33.1,
+   "thesis": "Fiber, glass and interconnect materials; AI-adjacent.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NYSE: GLW",
+   "ytd": 102.97,
+   "mcapB": 189.0,
+   "revisionNote": "Genuinely new evidence since Jun 6 (third hyperscaler megadeal, Amazon) plus a -9.35% flow-driven flush with the thesis intact improves residual asymmetry at an already crowding-discounted rank 49; the ~17% give-back from recent highs de-crowds the trade somewhat.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: the 10x capacity plan and PT raises confirm thesis but are now consensus, eroding the under-owned residual. Amazon deal already priced in prior case; +10.87% bounce de-crowds little. Mild fundamental confirm only."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 102,
+   "ticker": "GLW",
+   "company": "Corning",
+   "score": 45.1,
+   "thesis": "The optical connectivity thesis is now mainstream after Nvidia/Corning news; GLW is strategically strong but not early alpha anymore.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NYSE",
+   "ytd": 102.97,
+   "conviction": "Low",
+   "catalysts": "AI fiber capacity expansion; hyperscaler deals; optical segment growth.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 100 is 3 places worse than displayed rank 97; adjusted score 44.9; YTD +106.8%; market cap $152.8B; Corning remains tied to connectivity & photonics through Fiber, optical connectivity and specialty glass. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

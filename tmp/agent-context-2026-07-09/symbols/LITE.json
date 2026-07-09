@@ -1,0 +1,83 @@
+{
+ "symbol": "LITE",
+ "asOf": "2026-07-09",
+ "company": "Lumentum",
+ "currency": "USD",
+ "priceToday": 707.1,
+ "pricePrev": 831.16,
+ "moveSincePrevPct": -14.93,
+ "ytdReturnPct": 83.13,
+ "marketCapUsdB": 55.01,
+ "quoteUrl": "https://finance.yahoo.com/quote/LITE/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 60,
+   "ticker": "LITE",
+   "company": "Lumentum",
+   "score": 27.4,
+   "thesis": "AI networking optics and datacom leverage; direct-AI, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: LITE",
+   "ytd": 83.13,
+   "mcapB": 55.01,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the passives/power-bottleneck lens LITE remains peripheral (optics, not passives) and fully discovered after +115% YTD and the NVIDIA tie-up. No new evidence since June 9; June 11 JPM note is sell-side noise. Hold at rank 60."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 90,
+   "ticker": "LITE",
+   "company": "Lumentum",
+   "score": 57.5,
+   "thesis": "Lumentum has clear AI datacom optics optionality, but investors increasingly screen for optical AI suppliers.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NASDAQ",
+   "ytd": 83.13,
+   "conviction": "Medium",
+   "catalysts": "Datacom recovery; coherent optics; cloud transceiver demand.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latency lens penalizes discovery, and LITE is fully screened by investors (index adds, broad buy ratings, NVIDIA $2B). No new June 9-23 information makes the node latent again; hold at rank 90."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 40,
+   "ticker": "LITE",
+   "company": "Lumentum",
+   "score": 70.6,
+   "thesis": "NVIDIA $2B investment and purchase commitments make it a direct laser/ELS candidate, but the market has noticed.",
+   "category": "Photonics / CPO",
+   "ytd": 83.13,
+   "mcapB": 55.01,
+   "risk": "Very large recent rerating; customer/capacity risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the CPO-specific lens LITE retains the highest centrality of its four listings (NVIDIA $2B cash, purchase commitments, dedicated US fab, multi-hundred-M CPO order). But that evidence is pre-June 9; nothing new in the window (June 11 JPM reiteration only). Prior 'up' is captured at rank 41, so hold now."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 47,
+   "ticker": "LITE",
+   "company": "Lumentum",
+   "score": 60.0,
+   "thesis": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical components and lasers execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 83.13,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master list: scale-out bandwidth/optics content is genuine but the +115% YTD rerating is fully recognized. No new fundamental news since June 9, so hold at rank 45 with no drift."
+   }
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "symbol": "CGNX",
+ "asOf": "2026-07-09",
+ "company": "Cognex",
+ "currency": "USD",
+ "priceToday": 64.11,
+ "pricePrev": 64.87,
+ "moveSincePrevPct": -1.17,
+ "ytdReturnPct": 73.6,
+ "marketCapUsdB": 10.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/CGNX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 68,
+   "ticker": "CGNX",
+   "company": "Cognex",
+   "score": 64.0,
+   "thesis": "Machine vision is an obvious industrial AI endpoint; the alpha comes only if factory automation capex recovers before the crowd returns.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "NASDAQ",
+   "ytd": 73.6,
+   "conviction": "Medium",
+   "catalysts": "Factory automation recovery; logistics vision; AI vision features.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 62 is 2 places worse than displayed rank 60; adjusted score 64.0; YTD +68.9%; market cap $10.9B; Cognex remains tied to industrial automation & robotics through Machine vision and industrial barcode systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 32,
+   "ticker": "CGNX",
+   "company": "Cognex",
+   "score": 44.0,
+   "thesis": "Machine vision matters, but the stock has rerated and the humanoid link is indirect.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the humanoid-stack lens the link stays indirect: Cognex is factory/industrial machine vision, not a humanoid component. Automate keynote and OneVision are industrial-automation stories, not humanoid wins. Page thesis already discounts the rerating. Hold."
+   }
+  }
+ ]
+}

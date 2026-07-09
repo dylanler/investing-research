@@ -1,0 +1,32 @@
+{
+ "symbol": "OXIG.L",
+ "asOf": "2026-07-09",
+ "company": "Oxford Instruments",
+ "currency": "GBp",
+ "priceToday": 2828.0,
+ "pricePrev": 2948.0,
+ "moveSincePrevPct": -4.07,
+ "ytdReturnPct": 37.62,
+ "marketCapUsdB": 2.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/OXIG.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 20,
+   "ticker": "OXIG.L",
+   "company": "Oxford Instruments",
+   "score": 74.7,
+   "thesis": "Semiconductor, quantum and imaging tools give Oxford latent leverage to AI hardware R&D and advanced metrology without being a mainstream AI stock.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "LSE",
+   "ytd": 37.62,
+   "conviction": "Medium",
+   "catalysts": "Semiconductor growth; cryogenic/quantum demand; imaging division recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 25 is 1 places worse than displayed rank 24; adjusted score 72.0; YTD +50.2%; market cap $2.4B; Oxford Instruments remains tied to semi/advanced materials through Semiconductor, imaging, cryogenics and scientific tools. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "symbol": "PDFS",
+  "company": "PDF Solutions",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 37 hold (+0); down 13.9% since the prior refresh.",
+  "sources": [
+    {
+      "label": "PDFS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/PDFS/"
+    },
+    {
+      "label": "PDFS announces CONNECT 2026 (StockTitan)",
+      "url": "https://www.stocktitan.net/news/PDFS/pdf-solutions-announces-pdf-solutions-connect-2026-9ppdzmqd2nzr.html"
+    },
+    {
+      "label": "PDFS DEF 14A annual meeting (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/PDFS/def-14a-pdf-solutions-inc-definitive-proxy-statement-115c2d673ddd.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "PDFS Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/PDFS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 7. July market-data refresh shows move since prior -13.9%, YTD +77.4%, market cap $2.16B. Thesis: Yield analytics / process data software for fabs. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Process-data software scales with fab complexity and AI-chip volume, a structural tailwind.",
+      "neutral": "No new datapoints; thesis intact but priced for growth.",
+      "bear": "Indirect to compute scaling; valuation leaves little room for execution slips.",
+      "primaryCatalyst": "Fab data-analytics demand from AI capacity additions",
+      "primaryRisk": "Customer concentration / valuation"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 37,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits PDF Solutions through EDA / analytics; Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry. The stock is down 13.9% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Exensio/DFI traction and AI-fab analytics demand support durable double-digit growth.",
+      "neutral": "Quiet news flow; momentum-driven rally outrunning fundamentals and price targets.",
+      "bear": "Single-bundle validation risk; valuation stretched ~30%+ above targets after a parabolic run.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Single-bundle validation risk"
+    }
+  ]
+}

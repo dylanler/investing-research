@@ -1,0 +1,35 @@
+{
+  "symbol": "XPEV",
+  "company": "XPeng",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. XPeng (XPEV) now screens at $12.51B market cap, +2.0% since the prior refresh and -35.0% YTD. Page thesis remains: IRON is real enough to include, but the stock is still mostly an EV/autonomy business.",
+  "sources": [
+    {
+      "label": "XPEV quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/XPEV/"
+    },
+    {
+      "label": "He Xiaopeng takes control of robotics, IRON mass production (Crypto Briefing)",
+      "url": "https://cryptobriefing.com/xpeng-iron-humanoid-robots-mass-production/"
+    },
+    {
+      "label": "XPeng Q1 2026 earnings / Physical AI pivot (BigGo)",
+      "url": "https://finance.biggo.com/news/US_XPEV_2026-05-28"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 18. July market-data refresh shows move since prior +2.0%, YTD -35.0%, market cap $12.51B. Thesis: IRON is real enough to include, but the stock is still mostly an EV/autonomy business.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "CEO-led robotics push, ~200-DOF IRON with VLA 2.0, dedicated 1.2M sq ft factory, Q4 mass production.",
+      "neutral": "IRON real but stock still mostly EV/autonomy; deliveries only 2027.",
+      "bear": "Core EV revenue -17.6% YoY; robotics monetization years out, capital-intensive.",
+      "primaryCatalyst": "IRON mass-production start Q4 2026",
+      "primaryRisk": "EV margin pressure funding robotics; delivery slippage"
+    }
+  ]
+}

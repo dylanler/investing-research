@@ -1,0 +1,80 @@
+{
+  "symbol": "2301.TW",
+  "company": "LITEON Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 44 hold (+0); down 4.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "LITEON COMPUTEX 2026 800VDC rack / 110kW shelf (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/liteon-technology-at-computex-2026-showcasing-an-endtoend-ai-capability-from-cloud-to-edge-302789868.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/2301.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "2301.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/2301.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 22. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -4.5% since the prior refresh, +27.8% YTD. Prior frame: Residual-alpha vs passives lens: nothing new since June 9; COMPUTEX 110kW shelf already priced and stock flat. Page already tags it crowded/rerated; +34% YTD keeps compressing residual under-owned upside without fresh fundamentals. Hold.",
+      "bull": "Real AI server-power and 800VDC/110kW shelf positioning at GTC/COMPUTEX with a near-term ramp.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 22, score 51.4, -4.5% since prior, +27.8% YTD.",
+      "bear": "Electronics-margin/cycle drag; the rerating leaves little residual alpha vs passives.",
+      "primaryCatalyst": "800VDC / 110kW power-shelf and CDU adoption",
+      "primaryRisk": "Electronics margin/cycle and crowding"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 44,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits LITEON Technology through Optical / power modules; Public CPO/AI optical module adjacency via POET collaboration, but diversified electronics profile dilutes pure alpha. The stock is down 4.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "POET co-packaged-optics collaboration gives genuine optical-module optionality alongside power.",
+      "neutral": "CPO adjacency is real but secondary to a broad electronics mix; no fresh catalyst.",
+      "bear": "Not a pure semiconductor/CPO play; electronics cycle and margins dominate.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Electronics margin/cycle; not pure semiconductor"
+    }
+  ]
+}

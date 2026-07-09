@@ -1,0 +1,60 @@
+{
+ "symbol": "LSCC",
+ "asOf": "2026-07-09",
+ "company": "Lattice Semiconductor",
+ "currency": "USD",
+ "priceToday": 132.48,
+ "pricePrev": 145.12,
+ "moveSincePrevPct": -8.71,
+ "ytdReturnPct": 68.44,
+ "marketCapUsdB": 17.89,
+ "quoteUrl": "https://finance.yahoo.com/quote/LSCC/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 71,
+   "ticker": "LSCC",
+   "company": "Lattice Semiconductor",
+   "score": 50.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "semiconductor ecosystem",
+   "ytd": 68.44,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: LSCC stays a selective, indirect AI/edge/power node, less direct than HBM/packaging/networking. The AMI deal (May 4) broadens server platform-control content but predates June 9. No new node-relevance evidence; hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 60,
+   "ticker": "LSCC",
+   "company": "Lattice Semiconductor",
+   "score": 59.8,
+   "thesis": "Control-plane and edge inference optionality; not directly CPO.",
+   "category": "FPGA / edge AI",
+   "ytd": 68.44,
+   "mcapB": 17.89,
+   "risk": "Industrial/consumer recovery",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: control-plane/edge-inference optionality, not a co-packaged-optics bottleneck. AMI deal is pre-June 9; multiple bank PTs in the $140-165 zone show coverage is no longer under-owned. No fresh CPO catalyst; hold."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 31,
+   "ticker": "LSCC",
+   "company": "Lattice Semiconductor",
+   "score": 45.0,
+   "thesis": "Good company, bad hidden-alpha setup after the move and larger market cap.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #41 and alpha score 41. Should move down because $20.6B cap, +81.7% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

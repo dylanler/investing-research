@@ -1,0 +1,68 @@
+{
+  "symbol": "PRY.MI",
+  "company": "Prysmian",
+  "caseDate": "2026-07-09",
+  "newsSince": "-8.1% since prior, +51.7% YTD. July 9 context refresh for Prysmian (PRY.MI) across latent-ai-nodes: market cap $47.89B, move since prior -8.1%, YTD +51.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Eastern Green Link 4 £2bn HVDC award (IndustryEMEA)",
+      "url": "https://www.industryemea.com/news/106170-eastern-green-link-4-awards-%C2%A32bn-hvdc-cable-contract-to-prysmian"
+    },
+    {
+      "label": "Prysmian Q1 2026 margin expansion / data center (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/prysmian-q1-2026-slides-margin-expansion-accelerates-on-data-center-push-93CH-4648257"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/PRY.MI/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "PRY.MI quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/PRY.MI/"
+    },
+    {
+      "label": "EGL4 contract detail (Wirenet)",
+      "url": "https://wirenet.org/industry-news/prysmian-secures-2-billion-hvdc-cable-contract-for-eastern-green-link-4/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 48. July context shows score 68.4, move since prior -8.1%, YTD +51.7%, market cap $47.89B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Record HVDC backlog and margin leverage make Prysmian a core AI-era power/grid supply node with multi-year visibility.",
+      "neutral": "Catalysts firing as expected; thesis intact but increasingly priced as electrification consensus.",
+      "bear": "No longer under-covered; +65% YTD and large cap leave little latent re-rating room.",
+      "primaryCatalyst": "EGL4 HVDC award + grid interconnect/data-center cable demand",
+      "primaryRisk": "Losing 'latent' status as DC-supplier recognition grows"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 70,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 70. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -8.1% since the prior refresh, +51.7% YTD. Prior frame: EGL4 £2bn HVDC award and Q1 transmission margin step-up are genuine fundamental wins, but on this passive-stack-alpha lens Prysmian remains a $51B consensus electrification name in the Monitor bucket, far from hidden passive-component alpha. Small positive only.",
+      "bull": "£2bn EGL4 win and 20.1% transmission margins confirm grid-bottleneck pricing power and multi-year HVDC backlog visibility.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 70, score 20.5, -8.1% since prior, +51.7% YTD.",
+      "bear": "Consensus electrification trade at +65% YTD; crowding and execution on mega-projects cap incremental upside.",
+      "primaryCatalyst": "EGL4 £2bn HVDC backlog + transmission margin expansion",
+      "primaryRisk": "Already-consensus large-cap; thin passive-stack edge"
+    }
+  ]
+}

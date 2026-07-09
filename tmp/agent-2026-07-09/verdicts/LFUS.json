@@ -1,0 +1,77 @@
+{
+  "symbol": "LFUS",
+  "company": "Littelfuse",
+  "caseDate": "2026-07-09",
+  "newsSince": "-14.8% since prior, +53.0% YTD. July 9 context refresh for Littelfuse (LFUS) across latent-ai-nodes: market cap $10.15B, move since prior -14.8%, YTD +53.0%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Littelfuse Q1 2026 results, raises outlook (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LFUS/pressreleases/1769520/littelfuse-delivers-strong-q1-2026-results-raises-outlook/"
+    },
+    {
+      "label": "Littelfuse 2026 Investor Day growth strategy (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LFUS/pressreleases/1956082/littelfuse-outlines-growth-strategy-at-2026-investor-day/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/LFUS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "LFUS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/LFUS/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Protection/power content remains a credible AI-server PDN beneficiary, but the prior rerating keeps the move modest.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -14.8%, YTD +53.0%, market cap about $10.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 28,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 28. July context shows score 73.3, move since prior -14.8%, YTD +53.0%, market cap $10.15B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Circuit protection/sensors scale with data-center power density and edge devices.",
+      "neutral": "Validated node, but discovery premium is gone.",
+      "bear": "Widely owned; latent thesis fading with Strong Buy consensus.",
+      "primaryCatalyst": "Power-semi recovery and data-center protection demand.",
+      "primaryRisk": "Loss of 'latent' status caps re-rating upside."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 20. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -14.8% since the prior refresh, +53.0% YTD. Prior frame: On the residual-alpha-vs-passives lens, nothing new since June 9. The data-center/grid protection story is real but fully recognized (+80% YTD, rising HF ownership, Strong Buy consensus), so LFUS stays a crowded rerated benchmark rather than hidden alpha. Hold at rank 19.",
+      "bull": "Power protection + current-sense content rises with data-center power density; raised outlook, Basler accretion.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 20, score 59.1, -14.8% since prior, +53.0% YTD.",
+      "bear": "+80% YTD, crowded ownership; little residual alpha left on a crowding-penalized list.",
+      "primaryCatalyst": "Data-center protection product ramp; further M&A synergy.",
+      "primaryRisk": "Crowding/valuation unwind on any industrial-cycle wobble."
+    }
+  ]
+}

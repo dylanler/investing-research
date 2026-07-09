@@ -1,0 +1,30 @@
+{
+ "symbol": "3189.TW",
+ "asOf": "2026-07-09",
+ "company": "Kinsus Interconnect",
+ "currency": "TWD",
+ "priceToday": 795.0,
+ "pricePrev": 727.0,
+ "moveSincePrevPct": 9.35,
+ "ytdReturnPct": 409.62,
+ "marketCapUsdB": 11.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/3189.TW/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 61,
+   "ticker": "3189",
+   "company": "Kinsus Interconnect",
+   "score": 54.4,
+   "thesis": "Packaging scarcity exposure. Very strong ytd rerating; watch ic substrates execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 409.62,
+   "auditNote": "Current thesis audit (2026-06-08): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the packaging/substrate-scarcity master list the ABF bottleneck thesis is intact (capacity expansion, AI server/HPC ABF tight to 2026), and May revenue confirms the trajectory but adds no hidden alpha. June-9 already captured the +366% YTD rerating; raw-material-constrained growth caps near-term upside. Hold."
+   }
+  }
+ ]
+}

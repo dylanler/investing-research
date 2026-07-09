@@ -1,0 +1,63 @@
+{
+ "symbol": "LRCX",
+ "asOf": "2026-07-09",
+ "company": "Lam Research",
+ "currency": "USD",
+ "priceToday": 333.15,
+ "pricePrev": 372.79,
+ "moveSincePrevPct": -10.63,
+ "ytdReturnPct": 80.02,
+ "marketCapUsdB": 416.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/LRCX/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 63,
+   "ticker": "LRCX",
+   "company": "Lam Research",
+   "score": 52.1,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 80.02,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: etch/deposition centrality to AI fab + HBM confirmed by the $140B WFE raise, but export curbs hit the exact China risk the thesis flags. Both predate June 9 and roughly offset. No new node-criticality info, so hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 63,
+   "ticker": "LRCX",
+   "company": "Lam Research",
+   "score": 58.1,
+   "thesis": "Indirect beneficiary through HBM/foundry/advanced interconnect capex.",
+   "category": "Wafer equipment",
+   "ytd": 80.02,
+   "mcapB": 416.63,
+   "risk": "Memory/foundry capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: only an indirect beneficiary via HBM/foundry/advanced-interconnect capex. June 9 already cut it for crowding (+102% YTD, ~$466B cap) and export drag. No new CPO-relevant evidence since; residual asymmetry stays thin but a second consecutive demotion isn't warranted."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 63,
+   "ticker": "LRCX",
+   "company": "Lam Research",
+   "score": 53.8,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch etch/deposition equipment execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 80.02,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list, fab-tools bucket. June 9 already demoted for the YTD rerating; the only genuinely new items (WFE $140B positive vs. China curb negative) offset, so no second consecutive demotion. Hold."
+   }
+  }
+ ]
+}

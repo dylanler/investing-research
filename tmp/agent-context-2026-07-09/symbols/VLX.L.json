@@ -1,0 +1,32 @@
+{
+ "symbol": "VLX.L",
+ "asOf": "2026-07-09",
+ "company": "Volex",
+ "currency": "GBp",
+ "priceToday": 507.48,
+ "pricePrev": 586.0,
+ "moveSincePrevPct": -13.4,
+ "ytdReturnPct": 22.88,
+ "marketCapUsdB": 1.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/VLX.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 3,
+   "ticker": "VLX.L",
+   "company": "Volex",
+   "score": 83.8,
+   "thesis": "A neglected AIM-listed cable/interconnect maker supplying 400G/800G/emerging 1.6T data-centre links, with diversified industrial and EV exposure.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "LSE AIM",
+   "ytd": 22.88,
+   "conviction": "High",
+   "catalysts": "1.6T interconnect adoption; hyperscale demand; operating margin target delivery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 4 is 1 places worse than displayed rank 3; adjusted score 82.0; YTD +51.6%; market cap $1.5B; Volex explicitly markets 400G/800G/1.6T copper interconnect and rack power products for hyperscale, cloud and AI data centers. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "EQIX",
+  "company": "Equinix",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved -9.4% since the prior snapshot and YTD return is +33.0%; verdict: hold with scoreDelta 0.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for EQIX",
+      "url": "https://finance.yahoo.com/quote/EQIX/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Colocation demand is strong but Equinix is a discovered megacap REIT; little under-owned alpha.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior -9.4%, YTD +33.0%, market cap about $100.9B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    }
+  ]
+}

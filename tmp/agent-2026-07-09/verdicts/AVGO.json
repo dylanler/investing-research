@@ -1,0 +1,151 @@
+{
+  "symbol": "AVGO",
+  "company": "Broadcom",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 93 hold (+0); up 1.2% since the prior refresh. semiconductor-ai-nodes: rank 24 hold (+0); up 1.2% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for AVGO",
+      "url": "https://finance.yahoo.com/quote/AVGO/"
+    },
+    {
+      "label": "Yahoo Finance: optical transceiver market doubling on 800G/1.6T AI demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/optical-transceiver-market-set-double-104800250.html"
+    },
+    {
+      "label": "Ciena press release: AI networking and 1.6T coherent innovations",
+      "url": "https://www.nasdaq.com/press-release/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-high-speed"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Broadcom Q2 FY2026 results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "label": "CNBC: AVGO Q2 2026 earnings",
+      "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
+    },
+    {
+      "label": "Broadcom Q2 FY2026 results (Broadcom IR)",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "label": "Broadcom AVGO Q2 2026 earnings (CNBC)",
+      "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
+    },
+    {
+      "label": "Broadcom AI chip revenue doubled, $100B in 2027 (TIKR)",
+      "url": "https://www.tikr.com/blog/broadcoms-ai-chip-revenue-just-doubled-year-over-year-and-the-ceo-says-100-billion-is-coming-in-2027"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/AVGO/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AVGO Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AVGO/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 46,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.71,
+      "rankRationale": "AI networking/custom-silicon fundamentals are strong, but July guidance-reset sensitivity shows the name is fully discovered and low-alpha on this page.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior +1.2%, YTD +11.8%, market cap about $1849.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 94,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 94. July context does not change the page placement: +1.2% since the prior refresh, +11.8% YTD. Prior frame: On the residual-alpha-vs-passives lens nothing changed since June 9: a $1.8T benchmark mega-cap cannot become under-owned or hidden. No new catalyst; the post-earnings facts were already priced into the June 9 hold. Stays a monitor/benchmark name.",
+      "bull": "Best-in-class custom-ASIC + scale-up networking franchise.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 94, score 1.7, +1.2% since prior, +11.8% YTD.",
+      "bear": "Mega-cap, widely owned, far from the passive/power bottleneck.",
+      "primaryCatalyst": "AI XPU/networking ramp to FY27 >$100B",
+      "primaryRisk": "Crowding; cannot be 'under-owned'"
+    },
+    {
+      "page": "carbon-vs-silicon",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.74,
+      "rankRationale": "Hold rank 1. July evidence still favors silicon consumption over mature carbon proxies; Broadcom remains correctly placed in the silicon basket. Prior frame: Already rank 1 on the silicon-consumption basket and the quarter validated it (AI silicon $10.8B to guided ~$16B/qtr). No new data since June 9; the de-rating changes price, not theme leadership. Cleanest dual silicon-consumption proxy (ASIC + interconnect); hold the top slot.",
+      "bull": "Two fast-growing silicon needs at once: custom accelerators + AI networking.",
+      "neutral": "Rank 1 balances silicon-basket leadership against current scale and ownership; +1.2% since prior, +11.8% YTD.",
+      "bear": "Mega-cap; any AI-capex air-pocket hits the proxy hardest.",
+      "primaryCatalyst": "AI silicon consumption +~200% y/y",
+      "primaryRisk": "AI-capex cyclicality"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Broadcom through AI ASIC / networking; CPO platform leader and ecosystem anchor; alpha mostly from continued AI networking share rather than being undiscovered. The stock is up 1.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "CPO platform leader and ecosystem anchor for AI networking.",
+      "neutral": "Alpha comes from share gains, not from being undiscovered.",
+      "bear": "Large-cap valuation, customer concentration, consensus ownership.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Large-cap valuation and customer concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Broadcom through custom ASIC / interconnect; Custom AI accelerators, Ethernet networking and infrastructure software cash flow. Strong platform, but high market cap, customer concentration and visibility reduce early-alpha score. The stock is up 1.2% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Primary custom-ASIC design partner to six hyperscalers; AI revenue tripling to $16B and >$100B FY27 target.",
+      "neutral": "High market cap and visibility cap the early-alpha score even as the node thesis accelerates.",
+      "bear": "Heavy customer concentration; 'chips-only' shift narrows system-level capture; lofty FY27 number must be hit.",
+      "primaryCatalyst": "AI networking/custom-silicon platform wins",
+      "primaryRisk": "Hyperscaler concentration; FY27 AI target execution"
+    }
+  ]
+}

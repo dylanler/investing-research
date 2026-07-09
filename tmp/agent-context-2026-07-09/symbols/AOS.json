@@ -1,0 +1,32 @@
+{
+ "symbol": "AOS",
+ "asOf": "2026-07-09",
+ "company": "A. O. Smith",
+ "currency": "USD",
+ "priceToday": 59.47,
+ "pricePrev": 57.995,
+ "moveSincePrevPct": 2.54,
+ "ytdReturnPct": -12.95,
+ "marketCapUsdB": 8.2,
+ "quoteUrl": "https://finance.yahoo.com/quote/AOS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 35,
+   "ticker": "AOS",
+   "company": "A. O. Smith",
+   "score": 68.3,
+   "thesis": "Water heating, boilers and treatment could be relevant for heat reuse, facility water treatment or industrial campuses",
+   "theme": "Water heating/treatment",
+   "exchange": "NYSE",
+   "regionRank": "US#20",
+   "ytd": -12.95,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: no new evidence for or against the heat-reuse/facility-water-treatment AI pathway since June 9. The June 22 chairman transition is routine governance and the China guidance cut hits core residential, not the AI-node thesis. -1.8% drift is noise. Hold at 35."
+   }
+  }
+ ]
+}

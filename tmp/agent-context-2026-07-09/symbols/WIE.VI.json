@@ -1,0 +1,32 @@
+{
+ "symbol": "WIE.VI",
+ "asOf": "2026-07-09",
+ "company": "Wienerberger",
+ "currency": "EUR",
+ "priceToday": 22.14,
+ "pricePrev": 23.34,
+ "moveSincePrevPct": -5.14,
+ "ytdReturnPct": -26.69,
+ "marketCapUsdB": 2.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/WIE.VI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 74,
+   "ticker": "WIE.VI",
+   "company": "Wienerberger",
+   "score": 64.0,
+   "thesis": "Piping and building envelope products could matter in water reuse and resilient industrial campuses",
+   "theme": "Pipes/building products",
+   "exchange": "Vienna",
+   "regionRank": "Non-US#38",
+   "ytd": -26.69,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: water-reuse/resilient-campus piping pathway is unchanged since June 9 (NEWS Group water-mgmt deal predates the window). Soft Q1 and no construction recovery offset the qualitative AI-adjacency; nothing new to move the strict screen. Hold."
+   }
+  }
+ ]
+}

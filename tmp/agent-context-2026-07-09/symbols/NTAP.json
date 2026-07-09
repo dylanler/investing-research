@@ -1,0 +1,30 @@
+{
+ "symbol": "NTAP",
+ "asOf": "2026-07-09",
+ "company": "NetApp",
+ "currency": "USD",
+ "priceToday": 165.4,
+ "pricePrev": 158.38,
+ "moveSincePrevPct": 4.43,
+ "ytdReturnPct": 55.35,
+ "marketCapUsdB": 32.41,
+ "quoteUrl": "https://finance.yahoo.com/quote/NTAP/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 88,
+   "ticker": "NTAP",
+   "company": "NetApp",
+   "score": 43.5,
+   "thesis": "Data-layer utilization exposure. Negative ytd reset; watch enterprise storage and data management execution and pricing.",
+   "bucket": "Storage & AI data platforms",
+   "ytd": 55.35,
+   "auditNote": "Current thesis audit (2026-06-08): agentic workload data gravity, AI storage score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the under-owned-bottleneck master list, NetApp's AI data-gravity case is real but fully discovered post-earnings (+48% YTD, ~$200 targets, raised FY27 guide). No new fundamental news since June 9; -4.4% is flow-driven digestion, not enough giveback to restore hidden-alpha asymmetry. Hold."
+   }
+  }
+ ]
+}

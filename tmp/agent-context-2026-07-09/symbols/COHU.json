@@ -1,0 +1,62 @@
+{
+ "symbol": "COHU",
+ "asOf": "2026-07-09",
+ "company": "Cohu",
+ "currency": "USD",
+ "priceToday": 52.12,
+ "pricePrev": 64.4,
+ "moveSincePrevPct": -19.07,
+ "ytdReturnPct": 111.78,
+ "marketCapUsdB": 2.4,
+ "quoteUrl": "https://finance.yahoo.com/quote/COHU/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 75,
+   "ticker": "COHU",
+   "company": "Cohu",
+   "score": 49.2,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 111.78,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the AI-node bottleneck map, a fresh second multi-unit AI-chip test order plus raised $80-100M HPC outlook is a real datapoint - the order/regulatory catalyst the prior June 9 hold said was absent. Modest given low absolute relevance of test/WFE to the core node bottleneck."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 20,
+   "ticker": "COHU",
+   "company": "Cohu",
+   "score": 80.7,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "Test / inspection",
+   "ytd": 111.78,
+   "mcapB": 2.4,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Crowding-sensitive lens already penalized this name down to 22 on discovery. Fresh AI orders/guide raise are a small positive offset, but +161% YTD and price through most raised $80 targets keep residual asymmetry thin - net near-neutral."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 4,
+   "ticker": "COHU",
+   "company": "Cohu",
+   "score": 73.5,
+   "thesis": "Test and inspection gear; verification layer for chip manufacturing",
+   "bucket": "semiconductors",
+   "ytd": 111.78,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 4 is 1 places better than displayed rank 5; adjusted score 72.1; YTD +113.4%; market cap $2.6B; Scaling watchlist fit is Test and inspection gear; verification layer for chip manufacturing; bucket semiconductors; tags packaging_memory_test,physical_ai,security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

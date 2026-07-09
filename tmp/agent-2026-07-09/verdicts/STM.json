@@ -1,0 +1,134 @@
+{
+  "symbol": "STM",
+  "company": "STMicroelectronics",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 71 hold (-1); down 5.6% since the prior refresh. semiconductor-ai-nodes: rank 59 hold (-1); down 5.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for STM",
+      "url": "https://finance.yahoo.com/quote/STM/"
+    },
+    {
+      "label": "DRAMeXchange/TrendForce: AI high-end MLCC book-to-bill at post-pandemic highs",
+      "url": "https://dramexchange.com/WeeklyResearch/Post/2/12759.html"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "STM lifts 2026 data-center revenue target to ~$1B (Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/STM/pressreleases/2282966/stmicroelectronics-lifts-2026-data-center-revenue-target-on-surging-ai-demand/"
+    },
+    {
+      "label": "STM data-center revenue nears $1B (Investing.com)",
+      "url": "https://www.investing.com/analysis/stmicroelectronics-breaks-out-as-ai-datacenter-revenue-nears-1-billion-200681347"
+    },
+    {
+      "label": "STM raises DC guidance amid 89% net income drop (ActuIA)",
+      "url": "https://www.actuia.com/en/news/stmicroelectronics-raises-its-data-center-guidance-to-1-billion-by-2026-amid-an-89-drop-in-net-income/"
+    },
+    {
+      "label": "Stabilus (STM.DE) guidance/narrative (Yahoo/Simply Wall St)",
+      "url": "https://finance.yahoo.com/news/why-stabilus-xtra-stm-narrative-211223828.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/STM/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "STM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/STM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.62,
+      "rankRationale": "Power/analog optionality is real but margin and cyclicality keep it from moving up.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -5.6%, YTD +150.4%, market cap about $61.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 21. July context does not change the page placement: -5.6% since the prior refresh, +150.4% YTD. Prior frame: Residual-alpha-vs-passives lens. June 2 DC revenue doubling to ~$1B is a genuine fundamental upgrade for power/control semis, but the name is increasingly discovered and weak 33.8% gross margin caps quality; small net positive without re-ranking vs secondary residual-alpha peers.",
+      "bull": "DC ambition doubled to ~$1B (2026), 2027 could double again; AWS + NVIDIA 800VDC anchor power-delivery content.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 21, score 55.2, -5.6% since prior, +150.4% YTD.",
+      "bear": "33.8% GM and unused-capacity drag; auto/industrial cyclicality; DC story now consensus.",
+      "primaryCatalyst": "~$1B 2026 data-center revenue ramp via AWS/NVIDIA 800VDC power.",
+      "primaryRisk": "Structurally low gross margin and auto/industrial cycle weakness."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits STMicroelectronics through Power / MCU; Quality broad semi with limited CPO directness. The stock is down 5.6% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "Quality broad-line semi with growing AI power-delivery content.",
+      "neutral": "No CPO/optical exposure; June news is power-side, not interconnect.",
+      "bear": "Minimal co-packaged-optics linkage; cyclical auto/industrial drag and soft margins.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Auto/industrial cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits STMicroelectronics through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 5.6% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "800VDC power-delivery for AI racks is mission-critical infrastructure; DC revenue doubling validates AI pull.",
+      "neutral": "Power/analog is AI-adjacent, not an advanced-node/packaging bottleneck.",
+      "bear": "Limited direct HBM/CPO/packaging/test exposure; remains a removal candidate on this lens.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Weak direct AI-node bottleneck relevance vs packaging/test peers."
+    }
+  ]
+}

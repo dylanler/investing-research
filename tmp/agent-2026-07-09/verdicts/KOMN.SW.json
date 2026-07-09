@@ -1,0 +1,51 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 65. July context shows score 65.5, move since prior +4.2%, YTD -31.6%, market cap $0.33B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Niche wire-processing automation leader leveraged to robotics/power harness volumes once auto capex recovers.",
+      "neutral": "Restructuring and Asia push are credible but slow; CFO change adds near-term uncertainty.",
+      "bear": "Subdued auto-wire investment, -34% YTD, leadership churn and tiny float keep the strict screen fragile.",
+      "primaryCatalyst": "Wire-harness automation for robotics/power/industrial; CHF25M cost-out and Asia localization",
+      "primaryRisk": "CFO transition mid-restructuring; weak European auto-wire demand; micro-cap illiquidity"
+    }
+  ],
+  "symbol": "KOMN.SW",
+  "company": "Komax",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Komax CFO Christian Mader to leave (EQS News)",
+      "url": "https://www.eqs-news.com/news/ad-hoc/cfo-christian-mader-to-leave-the-komax-group/c95f9ccb-601d-4c1d-8f43-2c63c36ae049"
+    },
+    {
+      "label": "Komax CFO to depart at June-end (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/komax-cfo-to-depart-at-june-end-ce7e58dbd880f72c"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KOMN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "KOMN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KOMN.SW/"
+    },
+    {
+      "label": "Komax reduces costs, positive operating result (Komax)",
+      "url": "https://www.komaxgroup.com/en/media-releases/komax-group-significantly-reduces-costs-and-achieves-positive-operating-result"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Komax (KOMN.SW) across latent-ai-nodes-strict: market cap $0.33B, move since prior +4.2%, YTD -31.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

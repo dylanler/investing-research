@@ -1,0 +1,109 @@
+{
+  "symbol": "LRCX",
+  "company": "Lam Research",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 63 hold (+0); down 10.6% since the prior refresh. semiconductor-ai-nodes: rank 63 hold (+0); down 10.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for LRCX",
+      "url": "https://finance.yahoo.com/quote/LRCX/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Lam Q3 FY26 results, WFE raised to $140B",
+      "url": "https://finance.biggo.com/news/US_LRCX_2026-04-22"
+    },
+    {
+      "label": "LRCX Barclays price-target boost (June)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-receives-price-011116006.html"
+    },
+    {
+      "label": "New US-China chip export curbs impact on LRCX",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-china-chip-export-curbs-221046034.html"
+    },
+    {
+      "label": "Lam WFE outlook may be bigger than expected ($140B)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-lrcx-wfe-080825408.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "LRCX Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/LRCX/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Etch/deposition demand remains tied to memory/foundry capex, offset by size, China risk and crowding.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -10.6%, YTD +80.0%, market cap about $416.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Lam Research through Wafer equipment; Indirect beneficiary through HBM/foundry/advanced interconnect capex. The stock is down 10.6% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Advanced-packaging/interconnect capex tailwind as HBM scales.",
+      "neutral": "Indirect CPO read-through; mega-cap with little hidden alpha.",
+      "bear": "Not a CPO bottleneck; crowded, export-exposed.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Memory/foundry capex cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 63,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Lam Research through wafer fab equipment; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 10.6% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Mid-30s% SAM share; indispensable to advanced-node and HBM capacity adds.",
+      "neutral": "Node-critical but cyclical and export-exposed; valuation rich after +102% YTD.",
+      "bear": "~34% China revenue under tightening curbs; WFE cyclicality.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "China export controls / WFE downcycle"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "symbol": "REHN.SW",
+  "company": "Romande Energie",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Romande Energie (REHN.SW) now screens at $1.59B market cap, +1.9% since the prior refresh and +14.1% YTD. Page thesis remains: Utility exposure to electricity demand growth",
+  "sources": [
+    {
+      "label": "REHN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/REHN.SW/"
+    },
+    {
+      "label": "Can Switzerland's power grid keep up with its data centres? (SWI swissinfo)",
+      "url": "https://www.swissinfo.ch/eng/swiss-ai/can-switzerlands-power-grid-keep-up-with-its-data-centres/90710181"
+    },
+    {
+      "label": "Romande Energie factsheet (Investis)",
+      "url": "https://romande-energie.dfs.investis.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 10,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 10. July market-data refresh shows move since prior +1.9%, YTD +14.1%, market cap $1.59B. Thesis: Utility exposure to electricity demand growth. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Leading Western-Switzerland utility positioned for structural power-demand and renewable build-out.",
+      "neutral": "Steady regulated utility; AI/data-center power tailwind is real but diffuse and gradual.",
+      "bear": "Small-cap regulated utility with limited pricing leverage to the scaling-driven electricity theme.",
+      "primaryCatalyst": "Swiss electricity demand growth driven by AI/data-center load",
+      "primaryRisk": "Regulated-utility growth is slow; demand tailwind accrues grid-wide, not to RE alone"
+    }
+  ]
+}

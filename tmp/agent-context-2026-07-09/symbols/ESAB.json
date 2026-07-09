@@ -1,0 +1,32 @@
+{
+ "symbol": "ESAB",
+ "asOf": "2026-07-09",
+ "company": "ESAB",
+ "currency": "USD",
+ "priceToday": 86.56,
+ "pricePrev": 100.56,
+ "moveSincePrevPct": -13.92,
+ "ytdReturnPct": -23.11,
+ "marketCapUsdB": 5.76,
+ "quoteUrl": "https://finance.yahoo.com/quote/ESAB/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 24,
+   "ticker": "ESAB",
+   "company": "ESAB",
+   "score": 69.9,
+   "thesis": "Fabrication systems and specialty welding could support industrial reshoring and modular infrastructure fabrication",
+   "theme": "Fabrication/welding",
+   "exchange": "NYSE",
+   "regionRank": "US#13",
+   "ytd": -23.11,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Genuinely new since June 9: Rales Executive Chair (Jun 10) and DA Davidson Buy/$130 PT (Jun 16). Eddyfi (NDT inspection, +$5B TAM) deepens the welding/fabrication latent-node case for reshoring. Modest positive; +14% move is price re-rating, not thesis change, so small score bump only."
+   }
+  }
+ ]
+}

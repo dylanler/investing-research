@@ -1,0 +1,47 @@
+{
+ "symbol": "ACLS",
+ "asOf": "2026-07-09",
+ "company": "Axcelis Technologies",
+ "currency": "USD",
+ "priceToday": 135.43,
+ "pricePrev": 172.4,
+ "moveSincePrevPct": -21.44,
+ "ytdReturnPct": 57.26,
+ "marketCapUsdB": 4.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/ACLS/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 69,
+   "ticker": "ACLS",
+   "company": "Axcelis Technologies",
+   "score": 50.8,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 57.26,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: no new fundamental evidence since the June 9 'down'. Ion-implant is levered to fab/HBM capacity but the weak Q1 order book and soft backlog cap near-term thesis confirmation; +4.8% is rerating. Hold at the reduced rank."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 70,
+   "ticker": "ACLS",
+   "company": "Axcelis Technologies",
+   "score": 55.4,
+   "thesis": "Low CPO linkage; more power/SiC equipment lever.",
+   "category": "Wafer equipment",
+   "ytd": 57.26,
+   "mcapB": 4.44,
+   "risk": "SiC/power semi cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Axcelis Technologies should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 59, 79.7% YTD, $4.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

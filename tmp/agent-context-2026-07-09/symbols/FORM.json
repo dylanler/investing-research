@@ -1,0 +1,63 @@
+{
+ "symbol": "FORM",
+ "asOf": "2026-07-09",
+ "company": "FormFactor",
+ "currency": "USD",
+ "priceToday": 111.59,
+ "pricePrev": 143.01,
+ "moveSincePrevPct": -21.97,
+ "ytdReturnPct": 88.53,
+ "marketCapUsdB": 8.7,
+ "quoteUrl": "https://finance.yahoo.com/quote/FORM/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 12,
+   "ticker": "FORM",
+   "company": "FormFactor",
+   "score": 76.1,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "wafer fab equipment",
+   "ytd": 88.53,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "No new node/HBM evidence since June 9; the AI-node alpha case is intact but the 'smaller market visibility' premise keeps eroding as coverage (e.g. Evercore) discovers FORM after a +143% YTD. Probe-card/HBM thesis unchanged, so mild drift down on residual-alpha grounds, not a thesis hit."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 12,
+   "ticker": "FORM",
+   "company": "FormFactor",
+   "score": 85.0,
+   "thesis": "Wafer-level test and known-good-die leverage into HBM, chiplets and photonics.",
+   "category": "Test / probe",
+   "ytd": 88.53,
+   "mcapB": 8.7,
+   "risk": "Memory/logic probe-card cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: management's prior framing of CPO as the 'engine' to double the systems segment by 2030 remains the live thesis, and no new evidence either way since June 9. Small positive drift for an intact, page-specific CPO/known-good-die case; no rank move after the recent surge."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 40,
+   "ticker": "FORM",
+   "company": "FormFactor",
+   "score": 61.4,
+   "thesis": "Upstream pick-and-shovel exposure. Very strong ytd rerating; watch probe cards and test interfaces execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 88.53,
+   "auditNote": "Current thesis audit (2026-06-08): leading-edge capacity, process-control inputs score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alr",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Prior case already moved FORM down for the +143% rerating with no hidden alpha left; nothing new since June 9 justifies a second move. The +19% rally is momentum, not a thesis event, so hold on the master list."
+   }
+  }
+ ]
+}

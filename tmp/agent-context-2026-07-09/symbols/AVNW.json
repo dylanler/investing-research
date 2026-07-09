@@ -1,0 +1,29 @@
+{
+ "symbol": "AVNW",
+ "asOf": "2026-07-09",
+ "company": "Aviat Networks",
+ "currency": "USD",
+ "priceToday": 20.66,
+ "pricePrev": 20.5,
+ "moveSincePrevPct": 0.78,
+ "ytdReturnPct": -4.35,
+ "marketCapUsdB": 0.27,
+ "quoteUrl": "https://finance.yahoo.com/quote/AVNW/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 38,
+   "ticker": "AVNW",
+   "company": "Aviat Networks",
+   "score": 34.0,
+   "thesis": "Microwave backhaul / resilient enterprise network links",
+   "bucket": "networking",
+   "ytd": -4.35,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 34 is 5 places worse than displayed rank 29; adjusted score 37.0; YTD -12.6%; market cap $233M; Scaling watchlist fit is Microwave backhaul / resilient enterprise network links; bucket networking; tags compute_factory. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

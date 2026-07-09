@@ -1,0 +1,32 @@
+{
+ "symbol": "AVT",
+ "asOf": "2026-07-09",
+ "company": "Avnet",
+ "currency": "USD",
+ "priceToday": 83.24,
+ "pricePrev": 91.22,
+ "moveSincePrevPct": -8.75,
+ "ytdReturnPct": 68.71,
+ "marketCapUsdB": 6.83,
+ "quoteUrl": "https://finance.yahoo.com/quote/AVT/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 74,
+   "ticker": "AVT",
+   "company": "Avnet",
+   "score": 62.4,
+   "thesis": "AI buildout eventually pulls broad component distribution; Avnet offers value/cycle exposure but lower strategic uniqueness.",
+   "theme": "Distribution/Services",
+   "exchange": "NASDAQ",
+   "ytd": 68.71,
+   "conviction": "Speculative",
+   "catalysts": "Component inventory reset; AI-adjacent design wins; cash generation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 68 is 14 places better than displayed rank 82; adjusted score 62.9; YTD +76.4%; market cap $7.1B; Avnet remains tied to distribution/services through Electronic components distribution and design-chain services. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

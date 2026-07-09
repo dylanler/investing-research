@@ -1,0 +1,32 @@
+{
+ "symbol": "6965.T",
+ "asOf": "2026-07-09",
+ "company": "6965.T",
+ "currency": "JPY",
+ "priceToday": 2421.5,
+ "pricePrev": 2659.5,
+ "moveSincePrevPct": -8.95,
+ "ytdReturnPct": 41.82,
+ "marketCapUsdB": 4.45,
+ "quoteUrl": "https://finance.yahoo.com/quote/6965.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 71,
+   "ticker": "6965.T",
+   "company": "Hamamatsu Photonics",
+   "score": 63.3,
+   "thesis": "Photon detection is a raw-signal layer for scientific, medical, industrial and potential photonic AI systems; earnings pressure keeps enthusiasm muted.",
+   "theme": "Sensors & Measurement",
+   "exchange": "Tokyo",
+   "ytd": 41.82,
+   "conviction": "Medium",
+   "catalysts": "Semiconductor instruments; LiDAR/scientific sensors; imaging recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 60 is 9 places worse than displayed rank 51; adjusted score 64.0; YTD +54.0%; market cap $5.2B; Hamamatsu Photonics remains tied to sensors & measurement through Photodetectors, imaging sensors and photonics modules. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

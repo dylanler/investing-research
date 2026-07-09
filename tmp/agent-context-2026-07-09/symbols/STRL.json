@@ -1,0 +1,32 @@
+{
+ "symbol": "STRL",
+ "asOf": "2026-07-09",
+ "company": "Sterling Infrastructure",
+ "currency": "USD",
+ "priceToday": 660.72,
+ "pricePrev": 898.43,
+ "moveSincePrevPct": -26.46,
+ "ytdReturnPct": 107.02,
+ "marketCapUsdB": 20.69,
+ "quoteUrl": "https://finance.yahoo.com/quote/STRL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 70,
+   "ticker": "STRL",
+   "company": "Sterling Infrastructure",
+   "score": 63.4,
+   "thesis": "A data-center site-prep and e-infrastructure beneficiary, but the market has started to discover the construction angle.",
+   "theme": "Data Center Services",
+   "exchange": "NASDAQ",
+   "ytd": 107.02,
+   "conviction": "Medium",
+   "catalysts": "Data-center campus buildout; transportation/infrastructure backlog; margins.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 83 is 9 places better than displayed rank 92; adjusted score 57.5; YTD +179.4%; market cap $27.1B; Sterling Infrastructure remains tied to data center services through Site development, e-infrastructure and civil construction. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "symbol": "ATS.TO",
+ "asOf": "2026-07-09",
+ "company": "ATS Corporation",
+ "currency": "CAD",
+ "priceToday": 38.52,
+ "pricePrev": 39.06,
+ "moveSincePrevPct": -1.38,
+ "ytdReturnPct": 0.55,
+ "marketCapUsdB": 2.77,
+ "quoteUrl": "https://finance.yahoo.com/quote/ATS.TO/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 32,
+   "ticker": "ATS.TO",
+   "company": "ATS Corporation",
+   "score": 72.0,
+   "thesis": "Custom automation is the physical implementation layer for AI-enhanced factories, life sciences and energy manufacturing.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "TSX/NYSE",
+   "ytd": 0.55,
+   "conviction": "Medium",
+   "catalysts": "Order recovery; EV/battery and life-science projects; margin improvement.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 26 is 7 places worse than displayed rank 19; adjusted score 72.0; YTD -0.7%; market cap $2.6B; ATS Corporation remains tied to industrial automation & robotics through Custom automation systems for advanced manufacturing. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 34,
+   "ticker": "ATS.TO",
+   "company": "ATS Corporation",
+   "score": 69.0,
+   "thesis": "Custom automation for life sciences, energy and transport could become a platform for AI-hardware adjacent assembly lines",
+   "theme": "Factory automation",
+   "exchange": "TSX",
+   "regionRank": "Non-US#15",
+   "ytd": 0.55,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict lens (ATS Corp): the AI-hardware-adjacent assembly-line pathway stays speculative with medium evidence; nothing since June 9 advances it. Softer Q4 bookings argue against momentum. Hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 48,
+   "ticker": "ATS",
+   "company": "AT&S",
+   "score": 59.5,
+   "thesis": "Packaging scarcity exposure. Strong ytd follow-through; watch ic substrates execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 476.22,
+   "auditNote": "NOTE: this listing is AT&S (Austrian IC substrates), not ATS Corp. June 15 AMD deal + second top customer + EUR1.5-2.0B capacity commitment and a sharp FY26/27 guidance raise (rev 45-55% from 30-35%) ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "NOTE: this listing is AT&S (Austrian IC substrates), not ATS Corp. June 15 AMD deal + second top customer + EUR1.5-2.0B capacity commitment and a sharp FY26/27 guidance raise (rev 45-55% from 30-35%) is genuine new confirmation of the advanced-substrate scarcity thesis since June 9 — the bottleneck case strengthened, partly offsetting the prior crowding penalty."
+   }
+  }
+ ]
+}

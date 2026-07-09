@@ -1,0 +1,32 @@
+{
+ "symbol": "RBC",
+ "asOf": "2026-07-09",
+ "company": "RBC Bearings",
+ "currency": "USD",
+ "priceToday": 593.89,
+ "pricePrev": 642.53,
+ "moveSincePrevPct": -7.57,
+ "ytdReturnPct": 29.45,
+ "marketCapUsdB": 19.28,
+ "quoteUrl": "https://finance.yahoo.com/quote/RBC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 94,
+   "ticker": "RBC",
+   "company": "RBC Bearings",
+   "score": 57.0,
+   "thesis": "High-reliability bearings and components could map to robotics/aerospace-grade automated manufacturing",
+   "theme": "Precision bearings",
+   "exchange": "NYSE",
+   "regionRank": "US#46",
+   "ytd": 29.45,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent screen: backlog >$1B and GTF Advantage content gains are real but purely aerospace/defense, orthogonal to the robotics/automated-manufacturing repurposing thesis this page tests. No evidence the precision-bearing footprint is feeding the AI-node bottleneck. Prior hold stands."
+   }
+  }
+ ]
+}

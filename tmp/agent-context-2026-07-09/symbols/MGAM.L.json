@@ -1,0 +1,32 @@
+{
+ "symbol": "MGAM.L",
+ "asOf": "2026-07-09",
+ "company": "Morgan Advanced Materials",
+ "currency": "GBp",
+ "priceToday": 210.0,
+ "pricePrev": 221.5,
+ "moveSincePrevPct": -5.19,
+ "ytdReturnPct": -5.41,
+ "marketCapUsdB": 0.79,
+ "quoteUrl": "https://finance.yahoo.com/quote/MGAM.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 24,
+   "ticker": "MGAM.L",
+   "company": "Morgan Advanced Materials",
+   "score": 74.0,
+   "thesis": "Thermal ceramics and semiconductor materials are relevant to power/heat constraints, but the market is focused on weak semicap/European industrial demand.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "LSE",
+   "ytd": -5.41,
+   "conviction": "Speculative",
+   "catalysts": "Semiconductor stabilization; margin simplification; thermal products recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 18 is 8 places better than displayed rank 26; adjusted score 74.0; YTD +0.5%; market cap $832M; Morgan Advanced Materials remains tied to semi/advanced materials through Thermal ceramics, carbon and technical ceramic materials. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+  "symbol": "POWI",
+  "company": "Power Integrations",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 89 hold (+0); down 19.1% since the prior refresh. semiconductor-ai-nodes: rank 84 hold (+0); down 19.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Power Integrations Kyber 800VDC PSU designs (IR, June 1)",
+      "url": "https://investors.power.com/news/news-details/2026/Power-Integrations-Unveils-Space-Saving-Ultra-Slim-Auxiliary-PSU-Reference-Designs-for-NVIDIA-Kyber-800-VDC-AI-Data-Center/default.aspx"
+    },
+    {
+      "label": "PowiGaN for AI data centers",
+      "url": "https://www.power.com/ai-data-center"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/POWI/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "POWI Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/POWI/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 13. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -19.1% since the prior refresh, +78.2% YTD. Prior frame: No genuinely new info since June 1 Kyber 800VDC designs, already reflected. On this residual-alpha list the +120% YTD rerating limits hidden alpha; direct power-bottleneck exposure stays attractive but no new catalyst justifies a second consecutive move. Hold at 15.",
+      "bull": "1,700V PowiGaN positions POWI in NVIDIA 800VDC AI rack power; direct, AI-adjacent bottleneck content.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 13, score 66.1, -19.1% since prior, +78.2% YTD.",
+      "bear": "Industrial/consumer power cycle exposure; supply-risk downgrade flagged; rich valuation.",
+      "primaryCatalyst": "800VDC/Kyber GaN content ramp into AI data-center power.",
+      "primaryRisk": "Consumer/industrial cyclicality and valuation after large rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 89,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Power Integrations through Power / analog; Data-center power is relevant but CPO-specific link is weak. The stock is down 19.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Data-center power demand rises alongside CPO buildouts, indirect tailwind.",
+      "neutral": "Power exposure real but tangential to the co-packaged-optics thesis.",
+      "bear": "No CPO content; industrial/consumer power cycle drives the stock, not optics.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Industrial/consumer power cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Power Integrations through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 19.1% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "GaN power content gains relevance as 800VDC AI racks scale; differentiated high-voltage IP.",
+      "neutral": "Adjacent to the core AI-node bottleneck, not on the critical HBM/packaging path.",
+      "bear": "Power/analog cyclicality; not a direct compute-supply chokepoint on this page.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Limited node centrality versus HBM/packaging/networking peers."
+    }
+  ]
+}

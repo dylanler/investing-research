@@ -1,0 +1,63 @@
+{
+  "symbol": "ENA.V",
+  "company": "Enablence Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 9 down (-5); down 35.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Sivers/O-Net/Enablence ELS for AI datacenters (PR Newswire, Mar 2026)",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-o-net-and-enablence-technologies-announce-external-light-sources-for-ai-datacenters-302715690.html"
+    },
+    {
+      "label": "Compound Semiconductor coverage of the partnership",
+      "url": "https://compoundsemiconductor.net/article/123781/Sivers_O-Net_and_Enablence_partner_on_ELS_for_AI_data_centres"
+    },
+    {
+      "label": "Sivers/O-Net/Enablence ELS CPO partnership (Mar 2026)",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-o-net-and-enablence-technologies-announce-external-light-sources-for-ai-datacenters-302715690.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ENA.V Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ENA.V/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 9,
+      "rankMove": "down",
+      "scoreDelta": -5,
+      "confidence": 0.82,
+      "rankRationale": "Move down: the thematic linkage is still present, but +270.7% YTD, -35.5% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names.",
+      "bull": "Validated NxN coupler design-in to an AI-datacenter ELS module gives optionality on a real CPO supply-chain ramp.",
+      "neutral": "Genuine theme but single-bundle, pre-revenue microcap; nothing new in the window.",
+      "bear": "Up ~475% YTD on one partnership; microcap liquidity and validation risk dominate.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Microcap/liquidity and single-bundle validation risk"
+    }
+  ]
+}

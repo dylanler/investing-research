@@ -1,0 +1,48 @@
+{
+ "symbol": "5801.T",
+ "asOf": "2026-07-09",
+ "company": "Furukawa Electric",
+ "currency": "JPY",
+ "priceToday": 3543.0,
+ "pricePrev": 49000.0,
+ "moveSincePrevPct": -92.77,
+ "ytdReturnPct": 236.15,
+ "marketCapUsdB": 17.45,
+ "quoteUrl": "https://finance.yahoo.com/quote/5801.T/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 97,
+   "ticker": "5801.T",
+   "company": "Furukawa Electric",
+   "score": 55.0,
+   "thesis": "Optical fiber and cable are key to AI clusters, but Japanese fiber names have begun to rerate; Furukawa is less crowded than Fujikura.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "Tokyo",
+   "ytd": 236.15,
+   "conviction": "Medium",
+   "catalysts": "Optical products; telecom capex; data-center fiber capacity.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 96 is 4 places better than displayed rank 100; adjusted score 51.0; YTD +329.4%; market cap $21.4B; Furukawa Electric remains tied to connectivity & photonics through Optical fiber/cable and electrical infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 87,
+   "ticker": "5801",
+   "company": "Furukawa Electric",
+   "score": 43.7,
+   "thesis": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch fiber, cable, and optical components execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 236.15,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: optical/high-speed-networking exposure is real but fully flagged; the down-move for YTD rerating was already taken June 8. No new contract/capacity/guidance since then, just sector-sympathy digestion. Hold with slight drift down."
+   }
+  }
+ ]
+}

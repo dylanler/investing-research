@@ -1,0 +1,47 @@
+{
+  "symbol": "GNRC",
+  "company": "Generac",
+  "caseDate": "2026-07-09",
+  "newsSince": "-15.1% since prior, +67.7% YTD. On June 18, Generac acquired a Belvidere, Illinois facility to expand large-megawatt generator packaging capacity (opening Q1-2027, 100+ jobs) explicitly to serve data centers and mission-critical C&I. This is genuinely new since June 9 and reinforces the data-center power pivot; the June 2 global hyperscale supply deal and Q1 beat predate the window.",
+  "sources": [
+    {
+      "label": "PR Newswire - Generac acquires Belvidere facility (Jun 18)",
+      "url": "https://www.prnewswire.com/news-releases/generac-acquires-belvidere-illinois-facility-to-expand-large-megawatt-generator-packaging-capacity-302799769.html"
+    },
+    {
+      "label": "Sahm Capital - Belvidere data center power strategy",
+      "url": "https://www.sahmcapital.com/news/content/does-generac-gnrc-expanding-belvidere-capacity-hint-at-a-deeper-data-center-power-strategy-2026-06-18"
+    },
+    {
+      "label": "StockTitan - new Illinois plant to supply data centers",
+      "url": "https://www.stocktitan.net/news/GNRC/generac-acquires-belvidere-illinois-facility-to-expand-large-cq48l8yj5t9e.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/GNRC/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 69,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 69. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -15.1% since the prior refresh, +67.7% YTD. Prior frame: Residual-vs-passives power lens: June 18 Belvidere large-MW packaging acquisition is a fresh, modest fundamental confirm of the data-center power C&I pivot. Offsets the eroding 'underfollowed' leg flagged prior; not large enough to re-rank in the bucket.",
+      "bull": "Belvidere + Sussex/Oshkosh capacity and the June hyperscale supply deal pivot Generac toward predictable mission-critical C&I data-center power.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 69, score 20.8, -15.1% since prior, +67.7% YTD.",
+      "bear": "Coverage is piling in, eroding the under-followed edge; data-center generator demand could prove lumpy and valuation now rich after +97% YTD.",
+      "primaryCatalyst": "Large-MW data-center generator capacity ramp and further hyperscale awards.",
+      "primaryRisk": "Crowding into the AI-power narrative; lumpy C&I orders and residential weakness."
+    }
+  ]
+}

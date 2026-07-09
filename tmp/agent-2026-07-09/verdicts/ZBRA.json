@@ -1,0 +1,56 @@
+{
+  "symbol": "ZBRA",
+  "company": "Zebra Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Zebra Technologies (ZBRA) across latent-ai-nodes: market cap $12.61B, move since prior +8.3%, YTD +6.5%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Zebra ZONE 2026 DNA software launch (Jun 2)",
+      "url": "https://www.businesswire.com/news/home/20260602035366/en/Zebra-Technologies-Empowers-Frontline-Workers-with-New-DNA-Software-Platforms-and-AI-Powered-Solutions"
+    },
+    {
+      "label": "Zebra news (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ZBRA/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ZBRA/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "ZBRA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ZBRA/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 19,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 19. July market-data refresh shows move since prior +8.3%, YTD +6.5%, market cap $12.61B. Thesis: The Skild sale validates the robotics asset, but also removes some direct upside from Zebra itself.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Skild sale validated the asset's value; Zebra retains adjacent machine-vision/automation capability.",
+      "neutral": "Robotics is no longer a direct driver post-Skild; name belongs lower on a humanoid-stack page.",
+      "bear": "Skild divestiture removed direct robotics upside; recent launches are frontline software, not robotics.",
+      "primaryCatalyst": "None direct; residual Apera AI venture stake is not a robotics thesis",
+      "primaryRisk": "Skild divestiture removed direct robotics exposure; no humanoid-stack catalyst"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 49,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 49. July context shows score 68.3, move since prior +8.3%, YTD +6.5%, market cap $12.61B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Beat-and-raise quarter plus new AI software (Nucleus, Workcloud BI) deepen Zebra's role supplying clean operational data for AI.",
+      "neutral": "Endpoints/data-capture thesis intact but hinges on a warehouse-spend recovery that is only partial.",
+      "bear": "Hardware demand remains cyclical; software is early and won't quickly offset capex softness.",
+      "primaryCatalyst": "Machine vision, RFID and Nucleus/Workcloud AI software monetizing operational data",
+      "primaryRisk": "Warehouse/retail capex recovery still uneven; large cap with cyclical exposure"
+    }
+  ]
+}

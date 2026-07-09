@@ -1,0 +1,32 @@
+{
+ "symbol": "VICR",
+ "asOf": "2026-07-09",
+ "company": "Vicor",
+ "currency": "USD",
+ "priceToday": 263.16,
+ "pricePrev": 340.5,
+ "moveSincePrevPct": -22.71,
+ "ytdReturnPct": 125.19,
+ "marketCapUsdB": 11.99,
+ "quoteUrl": "https://finance.yahoo.com/quote/VICR/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 49,
+   "ticker": "VICR",
+   "company": "Vicor",
+   "score": 32.6,
+   "thesis": "48V-to-point-of-load power delivery for AI accelerators; bottleneck, direct-AI, underfollowed, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: VICR",
+   "ytd": 125.19,
+   "mcapB": 11.99,
+   "revisionNote": "Strategically important, but the stock already rerated; no longer top residual alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: 48V/Vertical Power Delivery is a genuine AI-power bottleneck, but the IP-licensing/guidance thesis was already priced in late May and continued insider selling caps conviction. No new info since June 9; correctly parked in the crowded/rerated bucket. Hold at 54."
+   }
+  }
+ ]
+}

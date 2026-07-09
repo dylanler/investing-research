@@ -1,0 +1,47 @@
+{
+ "symbol": "SITM",
+ "asOf": "2026-07-09",
+ "company": "SiTime",
+ "currency": "USD",
+ "priceToday": 612.13,
+ "pricePrev": 712.0,
+ "moveSincePrevPct": -14.03,
+ "ytdReturnPct": 65.46,
+ "marketCapUsdB": 18.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/SITM/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 58,
+   "ticker": "SITM",
+   "company": "SiTime",
+   "score": 60.0,
+   "thesis": "Timing matters for AI/optical links; smaller but still indirect.",
+   "category": "Timing / infrastructure",
+   "ytd": 65.46,
+   "mcapB": 18.34,
+   "risk": "High multiple; timing cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the CPO lens SiTime is a legitimate-but-indirect beneficiary: management flags timing content up to 3x in some CPO switch designs. That datapoint is already known and pre-June 9; no new evidence either way since then, so hold. Insider-sale cluster and convert/financing overhang cap upside near $700-720."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 69,
+   "ticker": "SITM",
+   "company": "SiTime",
+   "score": 52.3,
+   "thesis": "Design-validation exposure. Negative ytd reset; watch timing chips execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 65.46,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the master bottleneck list the timing/test-and-validation thesis is intact and structurally strong (comms/datacenter +158% y/y). The only incremental signals since June 6 are the early-June EVP insider sales and Renesas-deal financing overhang, which marginally soften sentiment but are not new evidence on the timing-execution thesis. Hold."
+   }
+  }
+ ]
+}

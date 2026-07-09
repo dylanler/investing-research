@@ -1,0 +1,31 @@
+{
+ "symbol": "600703.SS",
+ "asOf": "2026-07-09",
+ "company": "Sanan Optoelectronics",
+ "currency": "CNY",
+ "priceToday": 17.8,
+ "pricePrev": 19.83,
+ "moveSincePrevPct": -10.24,
+ "ytdReturnPct": 23.78,
+ "marketCapUsdB": 12.74,
+ "quoteUrl": "https://finance.yahoo.com/quote/600703.SS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 62,
+   "ticker": "600703.SS",
+   "company": "Sanan Optoelectronics",
+   "score": 58.5,
+   "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+   "category": "Compound semis",
+   "ytd": 23.78,
+   "mcapB": 12.74,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Sanan Optoelectronics should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after 14.4% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 46 implies."
+   }
+  }
+ ]
+}

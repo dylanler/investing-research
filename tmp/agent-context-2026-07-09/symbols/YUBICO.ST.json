@@ -1,0 +1,29 @@
+{
+ "symbol": "YUBICO.ST",
+ "asOf": "2026-07-09",
+ "company": "Yubico",
+ "currency": "SEK",
+ "priceToday": 56.8,
+ "pricePrev": 55.35,
+ "moveSincePrevPct": 2.62,
+ "ytdReturnPct": -22.19,
+ "marketCapUsdB": 0.53,
+ "quoteUrl": "https://finance.yahoo.com/quote/YUBICO.ST/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 15,
+   "ticker": "YUBICO.ST",
+   "company": "Yubico",
+   "score": 50.0,
+   "thesis": "Identity/authentication for agentic workflows",
+   "bucket": "it_security",
+   "ytd": -22.19,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 16 is 1 places worse than displayed rank 15; adjusted score 50.0; YTD -21.8%; market cap $545M; Scaling watchlist fit is Identity/authentication for agentic workflows; bucket it_security; tags security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

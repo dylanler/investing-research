@@ -1,0 +1,47 @@
+{
+ "symbol": "3034.TW",
+ "asOf": "2026-07-09",
+ "company": "Novatek Microelectronics",
+ "currency": "TWD",
+ "priceToday": 542.0,
+ "pricePrev": 544.0,
+ "moveSincePrevPct": -0.37,
+ "ytdReturnPct": 47.68,
+ "marketCapUsdB": 10.05,
+ "quoteUrl": "https://finance.yahoo.com/quote/3034.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 62,
+   "ticker": "3034.TW",
+   "company": "Novatek Microelectronics",
+   "score": 52.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 47.68,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the AI-node bottleneck lens Novatek has no claim to a top-55 node: the recovery is display-cycle (notebook/tablet/TV DDIC + SoC), not HBM/advanced-packaging/AI-networking. No new AI-relevant evidence since June 9; +48% YTD on a display name keeps eroding residual alpha. Continue down/out."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 115,
+   "ticker": "3034.TW",
+   "company": "Novatek Microelectronics",
+   "score": 31.1,
+   "thesis": "Low CPO exposure.",
+   "category": "Display/consumer IC",
+   "ytd": 47.68,
+   "mcapB": 10.05,
+   "risk": "Consumer/display cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Novatek Microelectronics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 28.9% YTD and $9.5B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

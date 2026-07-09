@@ -1,0 +1,32 @@
+{
+ "symbol": "ESE",
+ "asOf": "2026-07-09",
+ "company": "ESCO Technologies",
+ "currency": "USD",
+ "priceToday": 331.93,
+ "pricePrev": 346.24,
+ "moveSincePrevPct": -4.13,
+ "ytdReturnPct": 67.96,
+ "marketCapUsdB": 8.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/ESE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 18,
+   "ticker": "ESE",
+   "company": "ESCO Technologies",
+   "score": 75.3,
+   "thesis": "A niche measurement and shielding portfolio sits near electrification, defense electronics and test environments needed around higher-density compute.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NYSE",
+   "ytd": 67.96,
+   "conviction": "Medium",
+   "catalysts": "Utility spending; aerospace/defense electronics; acquisition integration.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 15 is 4 places worse than displayed rank 11; adjusted score 76.0; YTD +49.5%; market cap $7.8B; ESCO Technologies remains tied to sensors & measurement through RF shielding, filtration, test and utility solutions. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

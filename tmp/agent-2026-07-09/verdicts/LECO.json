@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 59,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 59. July context shows score 66.0, move since prior -9.5%, YTD +1.6%, market cap $13.57B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Welding/automation + additive could supply heavy fabrication for compute campuses and robot factories; strong automation backlog.",
+      "neutral": "Diversified industrial compounder; AI-campus linkage remains thematic/indirect, not contracted.",
+      "bear": "No AI-specific revenue; trades at a premium to history per June 10 sell-side commentary.",
+      "primaryCatalyst": "Automation/additive design win tied explicitly to data-center or robot-factory buildout.",
+      "primaryRisk": "Cyclical industrial volumes; AI link stays thematic with no order evidence."
+    }
+  ],
+  "symbol": "LECO",
+  "company": "Lincoln Electric",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "LECO Q1 2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059527/000005952726000010/leco-20260430xex99d1.htm"
+    },
+    {
+      "label": "LECO Q4 deep dive - automation guidance (StockStory)",
+      "url": "https://stockstory.org/us/stocks/nasdaq/leco/news/earnings-call/leco-q4-deep-dive-automation-and-cost-discipline-power-guidance-amid-choppy-volumes"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/LECO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "LECO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/LECO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Lincoln Electric (LECO) across latent-ai-nodes-strict: market cap $13.57B, move since prior -9.5%, YTD +1.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

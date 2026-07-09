@@ -1,0 +1,31 @@
+{
+ "symbol": "688256.SS",
+ "asOf": "2026-07-09",
+ "company": "688256.SS",
+ "currency": "CNY",
+ "priceToday": 1535.01,
+ "pricePrev": 1413.0,
+ "moveSincePrevPct": 8.63,
+ "ytdReturnPct": 64.54,
+ "marketCapUsdB": 130.73,
+ "quoteUrl": "https://finance.yahoo.com/quote/688256.SS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 117,
+   "ticker": "688256.SS",
+   "company": "Cambricon Technologies",
+   "score": 25.8,
+   "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+   "category": "AI compute",
+   "ytd": 64.54,
+   "mcapB": 130.73,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Cambricon Technologies should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 34.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 112 implies."
+   }
+  }
+ ]
+}

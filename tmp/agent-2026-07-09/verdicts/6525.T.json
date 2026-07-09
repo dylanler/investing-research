@@ -1,0 +1,59 @@
+{
+  "symbol": "6525.T",
+  "company": "Kokusai Electric",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 22 hold (-1); up 16.6% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Kokusai 6525 Q1 FY2026 earnings call (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/6525.T/earnings/6525.T-Q1-2026-earnings_call-345717.html"
+    },
+    {
+      "label": "Kokusai Electric overview / ALD share (Bitget)",
+      "url": "https://www.bitget.com/stock/tse-6525/what-is"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "6525.T Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/6525.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Kokusai Electric through Wafer equipment; Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry. The stock is up 16.6% since the prior refresh, so the July refresh changes score by -1 without forcing a rank change.",
+      "bull": "70% batch-ALD monopoly into HBM4; FY3/27 revenue growth now >20%; SK Hynix/Samsung HBM4 lines mass-produce H2 2026 — purest HBM equipment play.",
+      "neutral": "Strong but partly priced after +56% YTD; not a true CPO/optics name on this page.",
+      "bear": "Single-bundle/validation risk; DRAM-capex cyclicality; rich move pulls forward HBM4 upside.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Single-bundle validation risk"
+    }
+  ]
+}

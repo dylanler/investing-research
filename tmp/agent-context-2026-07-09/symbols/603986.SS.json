@@ -1,0 +1,31 @@
+{
+ "symbol": "603986.SS",
+ "asOf": "2026-07-09",
+ "company": "GigaDevice",
+ "currency": "CNY",
+ "priceToday": 663.49,
+ "pricePrev": 640.99,
+ "moveSincePrevPct": 3.51,
+ "ytdReturnPct": 181.52,
+ "marketCapUsdB": 62.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/603986.SS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 96,
+   "ticker": "603986.SS",
+   "company": "GigaDevice",
+   "score": 45.0,
+   "thesis": "China semi localization; little optical interconnect exposure.",
+   "category": "Memory / MCU",
+   "ytd": 181.52,
+   "mcapB": 62.63,
+   "risk": "China cycles and competition",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "GigaDevice should move down because HBM, server DRAM and AI eSSD supply is either less hidden after 101.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 91 implies."
+   }
+  }
+ ]
+}

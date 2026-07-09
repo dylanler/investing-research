@@ -1,0 +1,50 @@
+{
+ "symbol": "CTS",
+ "asOf": "2026-07-09",
+ "company": "CTS",
+ "currency": "USD",
+ "priceToday": 59.06,
+ "pricePrev": 66.47,
+ "moveSincePrevPct": -11.15,
+ "ytdReturnPct": 34.69,
+ "marketCapUsdB": 1.73,
+ "quoteUrl": "https://finance.yahoo.com/quote/CTS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 2,
+   "ticker": "CTS",
+   "company": "CTS Corp",
+   "score": 98.5,
+   "thesis": "Resistor networks, current sensing, data-center power sensing; bottleneck, AI-adjacent, hidden-gem, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "NYSE: CTS",
+   "ytd": 34.69,
+   "mcapB": 1.73,
+   "revisionNote": "Direct passive/power bottleneck supplier with lower crowding and better residual upside.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the residual-alpha-vs-passives lens, the passive/power-sensing bottleneck thesis is intact with no fresh fundamental evidence since June 9. The continued YTD re-rating (+49.7%) without new news keeps eroding residual alpha on this crowding-sensitive list - small negative delta, but conviction and rank-2 placement hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 13,
+   "ticker": "CTS",
+   "company": "CTS Corporation",
+   "score": 73.0,
+   "thesis": "Sensors, filters, and connectivity components could support edge sensing, thermal monitoring and industrial automation",
+   "theme": "Sensors/electronic components",
+   "exchange": "NYSE",
+   "regionRank": "US#7",
+   "ytd": 34.69,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the latent under-covered supply-chain screen, the edge-sensing/thermal-monitoring/industrial-automation pathway has no new confirming or refuting evidence since June 9. This centrality screen is less crowding-sensitive than the alpha list, so the -1.0% drift is immaterial. Hold at 12."
+   }
+  }
+ ]
+}

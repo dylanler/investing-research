@@ -1,0 +1,72 @@
+{
+  "symbol": "CARR",
+  "company": "Carrier Global",
+  "caseDate": "2026-07-09",
+  "newsSince": "-5.9% since prior, +24.7% YTD. Since the June 23 refresh, July market and web research updated the Power, cooling & electrical thesis. For this stock, price moved -5.9% since the prior snapshot and YTD return is +24.7%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for CARR",
+      "url": "https://finance.yahoo.com/quote/CARR/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Carrier Q1 beat driven by surging data-center orders",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carrier-global-carr-9-1-141544440.html"
+    },
+    {
+      "label": "Carrier reshapes portfolio toward data-center cooling and buybacks",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-carr/carrier-global/news/carrier-global-reshapes-portfolio-toward-data-center-cooling"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/CARR/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Power, cooling & electrical lens: July evidence strengthened the bottleneck case, but current rank 9, YTD +24.7% and crowding discipline determine the hold call.",
+      "bull": "Power, cooling, switchgear and grid interconnect remain the clearest physical bottlenecks as AI capacity slips on electrons rather than chips.",
+      "neutral": "Current snapshot: move since prior -5.9%, YTD +24.7%, market cap about $57.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality.",
+      "primaryCatalyst": "Power/cooling orders, liquid-cooling deployments and grid-interconnect wins",
+      "primaryRisk": "Consensus ownership of data-center infrastructure and project timing/capex cyclicality."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 58. July context does not change the page placement: -5.9% since the prior refresh, +24.7% YTD. Prior frame: Residual-alpha-vs-passives lens: cooling/thermal exposure is real but Carrier sits farther from the passive/power bottleneck stack and the DC-cooling story is already known. No new evidence June 9-23; flat tape removes the prior crowding penalty's catalyst. Hold rank 57.",
+      "bull": "DC cooling orders surging (+500% Q1); ZutaCore liquid-cooling optionality; portfolio focus on high-margin climate.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 58, score 27.8, -5.9% since prior, +24.7% YTD.",
+      "bear": "AI-cooling exposure diluted in a large diversified HVAC franchise; +33% YTD already rewards the pivot.",
+      "primaryCatalyst": "Data-center liquid-cooling order ramp",
+      "primaryRisk": "Cyclical commercial HVAC / diluted AI exposure"
+    }
+  ]
+}

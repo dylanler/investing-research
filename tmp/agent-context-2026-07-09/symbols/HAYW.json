@@ -1,0 +1,32 @@
+{
+ "symbol": "HAYW",
+ "asOf": "2026-07-09",
+ "company": "Hayward Holdings",
+ "currency": "USD",
+ "priceToday": 15.85,
+ "pricePrev": 14.705,
+ "moveSincePrevPct": 7.79,
+ "ytdReturnPct": 0.51,
+ "marketCapUsdB": 3.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/HAYW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 19,
+   "ticker": "HAYW",
+   "company": "Hayward Holdings",
+   "score": 71.0,
+   "thesis": "Pool pumps, controls and filtration capabilities could be adapted toward smaller liquid-management and heat-exchange niches",
+   "theme": "Pumps/filtration",
+   "exchange": "NYSE",
+   "regionRank": "US#10",
+   "ytd": 0.51,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: no new evidence since June 9 on the pool-pump/filtration-into-liquid-management pathway. Guidance predates window; flat +0.44% move, no catalyst. Latent optionality neither validated nor eroded. Hold stands."
+   }
+  }
+ ]
+}

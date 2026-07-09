@@ -1,0 +1,81 @@
+{
+ "symbol": "MPWR",
+ "asOf": "2026-07-09",
+ "company": "Monolithic Power Systems",
+ "currency": "USD",
+ "priceToday": 1315.51,
+ "pricePrev": 1414.74,
+ "moveSincePrevPct": -7.01,
+ "ytdReturnPct": 40.5,
+ "marketCapUsdB": 67.92,
+ "quoteUrl": "https://finance.yahoo.com/quote/MPWR/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 51,
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems",
+   "score": 31.5,
+   "thesis": "High-current power management around accelerators; bottleneck, direct-AI, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NASDAQ: MPWR",
+   "ytd": 40.5,
+   "mcapB": 67.92,
+   "revisionNote": "On a residual-alpha list, a fresh fiduciary-duty investigation plus ~$380M of insider selling at peak valuation is new negative evidence layered on an already 'crowded/rerated benchmark' name; today's -4.6% is governance-driven, not a thesis-intact flush that improves asymmetry.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: governance overhang (Schall probe, restatement) persists but is not new since June 9. Crowded/rerated benchmark with maxed visibility; small negative drift for lingering governance risk, no second consecutive move."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 55,
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems",
+   "score": 53.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 40.5,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens cares about directness vs HBM/packaging/networking, which is unchanged. The Schall probe is governance noise that does not alter node-bottleneck directness; prior case already cut it on directness grounds."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 91,
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems",
+   "score": 47.5,
+   "thesis": "AI power density beneficiary; CPO-specific exposure low.",
+   "category": "Power / analog",
+   "ytd": 40.5,
+   "mcapB": 67.92,
+   "risk": "High valuation",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO-specific lens: MPWR has low co-packaged-optics exposure, already demoted near the bottom. Governance headlines are consistent with that placement; no CPO-relevant change in window, little reason to move."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 56,
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems",
+   "score": 56.1,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch power management ics execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 40.5,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: board-level power & passives content thesis unchanged. Schall probe is incremental governance noise, not a thesis change; rerating already penalized. Hold."
+   }
+  }
+ ]
+}

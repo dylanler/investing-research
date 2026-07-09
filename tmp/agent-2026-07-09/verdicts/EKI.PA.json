@@ -1,0 +1,35 @@
+{
+  "symbol": "EKI.PA",
+  "company": "Ekinops",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Ekinops (EKI.PA) now screens at $0.08B market cap, -14.7% since the prior refresh and +25.8% YTD. Page thesis remains: Optical transport/access infrastructure",
+  "sources": [
+    {
+      "label": "EKI.PA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/EKI.PA/"
+    },
+    {
+      "label": "Ekinops FY2025 results",
+      "url": "https://www.prnewswire.com/news-releases/fy-2025-results-105-m-in-revenue-10-0-ebitda-margin-302711432.html"
+    },
+    {
+      "label": "Ekinops Orange 800G demo",
+      "url": "https://www.ekinops.com/news/technologies/ekinops-achieves-800-gbit-s-optical-transmission-over-nearly-800-km-on-orange-long-distance-network"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 34. July market-data refresh shows move since prior -14.7%, YTD +25.8%, market cap $0.08B. Thesis: Optical transport/access infrastructure. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "DCI-focused PTM platform and 800G demos position a tiny optical name for AI interconnect demand.",
+      "neutral": "Real but distant DCI exposure; current numbers contracting, scaling fit is peripheral.",
+      "bear": "Falling revenue, micro-cap liquidity, and DCI revenue not landing until late 2026 leave the thesis speculative.",
+      "primaryCatalyst": "PTM DCI transponder line (end-2026 launch) plus SASE expansion under the Bridge plan.",
+      "primaryRisk": "Sub-$100M micro-cap with declining revenue (-11% FY25) and execution risk on unproven new lines."
+    }
+  ]
+}

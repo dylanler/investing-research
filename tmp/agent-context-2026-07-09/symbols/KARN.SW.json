@@ -1,0 +1,50 @@
+{
+ "symbol": "KARN.SW",
+ "asOf": "2026-07-09",
+ "company": "Kardex",
+ "currency": "CHF",
+ "priceToday": 240.0,
+ "pricePrev": 230.0,
+ "moveSincePrevPct": 4.35,
+ "ytdReturnPct": -14.89,
+ "marketCapUsdB": 2.39,
+ "quoteUrl": "https://finance.yahoo.com/quote/KARN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 42,
+   "ticker": "KARN.SW",
+   "company": "Kardex",
+   "score": 70.0,
+   "thesis": "Warehouse automation becomes more AI-levered as orchestration software improves; Kardex is a focused automation asset, not an AI platform name.",
+   "theme": "Industrial Automation & Robotics",
+   "exchange": "SIX",
+   "ytd": -14.89,
+   "conviction": "Medium",
+   "catalysts": "Bookings momentum; lightgoods portfolio expansion; logistics automation cycle.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 22 is 7 places worse than displayed rank 15; adjusted score 73.0; YTD -18.1%; market cap $2.5B; Kardex remains tied to industrial automation & robotics through Warehouse automation, shuttle systems and light-goods robotics. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 72,
+   "ticker": "KARN.SW",
+   "company": "Kardex",
+   "score": 64.3,
+   "thesis": "Automated storage/retrieval could support secure parts logistics and robotics-enabled facilities",
+   "theme": "Intralogistics",
+   "exchange": "SIX",
+   "regionRank": "Non-US#37",
+   "ytd": -14.89,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen: ASRS supporting secure-parts-logistics/robotics-enabled facilities is a capability claim untouched by the margin cut (a P&L event), and the page already took a ~20-place demotion. Re-penalizing for known earnings news would double-count near the screen bottom. Hold."
+   }
+  }
+ ]
+}

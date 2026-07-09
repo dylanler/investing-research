@@ -1,0 +1,72 @@
+{
+  "symbol": "CLS",
+  "company": "Celestica",
+  "caseDate": "2026-07-09",
+  "newsSince": "+1.3% since prior, +19.3% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved +1.3% since the prior snapshot and YTD return is +19.3%; verdict: up with scoreDelta 2.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for CLS",
+      "url": "https://finance.yahoo.com/quote/CLS/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Celestica + AMD Helios collaboration (StockTitan)",
+      "url": "https://www.stocktitan.net/news/CLS/celestica-and-amd-announce-collaboration-to-advance-the-next-era-of-5lphkt3jzj74.html"
+    },
+    {
+      "label": "Celestica Q1 2026 results / CPO switch program (GlobeNewswire, Apr 27)",
+      "url": "https://www.globenewswire.com/news-release/2026/04/27/3282031/0/en/celestica-announces-first-quarter-2026-financial-results.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/CLS/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 66,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.68,
+      "rankRationale": "The deployment/systems-integration thesis survived the hardware unwind, and the pullback restores some asymmetry.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior +1.3%, YTD +19.3%, market cap about $39.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 91,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 91. July context does not change the page placement: +1.3% since the prior refresh, +19.3% YTD. Prior frame: Residual-alpha lens: the ~24% drawdown with Helios/1.6T thesis intact already drove the June 9 move up from the bottom. No new news since; continued flow-driven softness keeps asymmetry modestly improved but no fundamental change. Hold.",
+      "bull": "Helios rack-scale (AMD), CPO 1.6T switch program ramping 2027; drawdown restores some asymmetry.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 91, score 3.3, +1.3% since prior, +19.3% YTD.",
+      "bear": "+17% YTD off a sharp run; thesis fully discovered, Broadcom/customer-concentration overhang.",
+      "primaryCatalyst": "Helios/CPO 1.6T switch production ramp (2027)",
+      "primaryRisk": "Customer concentration; crowded direct-AI trade"
+    }
+  ]
+}

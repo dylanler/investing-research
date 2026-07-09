@@ -1,0 +1,85 @@
+{
+  "symbol": "ATS.TO",
+  "company": "ATS Corporation",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for ATS Corporation (ATS.TO) across latent-ai-nodes, latent-ai-nodes-strict: market cap $2.77B, move since prior -1.4%, YTD +0.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "ATS Q4 FY2026 press release (BusinessWire/SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001394832/000139483226000017/ats-pressreleasexfy26q4.htm"
+    },
+    {
+      "label": "TNGlobal: AT&S secures AMD deal, EUR2B capacity expansion",
+      "url": "https://technode.global/2026/06/15/austrias-ats-secures-amd-deal-to-invest-e2b-to-expand-chip-capacity-in-malaysia-china/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ATS.TO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "ATS.TO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ATS.TO/"
+    },
+    {
+      "label": "EQS: AT&S expands capacity for AI substrates, raises outlook",
+      "url": "https://www.eqs-news.com/news/ad-hoc/ats-austria-technologie-systemtechnik-ag-ats-expands-capacity-for-ai-substrates/a0e98eba-3a59-4898-b839-0ff7580adfa8_en"
+    },
+    {
+      "label": "ATS Corp FY2026 results (StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/ATS/6-k-ats-corp-ats-current-report-foreign-issuer-99549be45c73.html"
+    },
+    {
+      "label": "AT&S secures AMD deal, EUR2B expansion (TechNode)",
+      "url": "https://technode.global/2026/06/15/austrias-ats-secures-amd-deal-to-invest-e2b-to-expand-chip-capacity-in-malaysia-china/"
+    },
+    {
+      "label": "AT&S raises 2026/27 outlook on AI substrates (AT&S IR)",
+      "url": "https://ats.net/en/ir-news/ats-expands-ai-substrate-capacity-in-kulim-and-increases-outlook-for-2026-27/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 48,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "AT&S substrate evidence is strong but the stock has already rerated dramatically; positive hold only.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior -1.4%, YTD +0.6%, market cap about $2.8B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 32. July context shows score 72.0, move since prior -1.4%, YTD +0.6%, market cap $2.77B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Custom automation is the build layer for AI-enabled factories/life sciences; EBITDA growing.",
+      "neutral": "Order bookings/backlog declined YoY; flat YTD, no new catalyst.",
+      "bear": "Order softness signals demand digestion; AI tie is indirect.",
+      "primaryCatalyst": "Order recovery in EV/battery and life sciences",
+      "primaryRisk": "Backlog erosion, project timing"
+    },
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 34. July context shows score 69.0, move since prior -1.4%, YTD +0.6%, market cap $2.77B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Could become a platform for AI-hardware-adjacent assembly lines if order mix shifts.",
+      "neutral": "Speculative pathway; flat price, no new proof points.",
+      "bear": "Declining bookings/backlog; AI-hardware adjacency unproven.",
+      "primaryCatalyst": "Win AI-hardware assembly programs",
+      "primaryRisk": "Speculative thesis, order softness"
+    }
+  ]
+}

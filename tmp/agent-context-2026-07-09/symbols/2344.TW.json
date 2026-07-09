@@ -1,0 +1,30 @@
+{
+ "symbol": "2344.TW",
+ "asOf": "2026-07-09",
+ "company": "Winbond Electronics",
+ "currency": "TWD",
+ "priceToday": 176.5,
+ "pricePrev": 211.5,
+ "moveSincePrevPct": -16.55,
+ "ytdReturnPct": 94.38,
+ "marketCapUsdB": 24.35,
+ "quoteUrl": "https://finance.yahoo.com/quote/2344.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 83,
+   "ticker": "2344.TW",
+   "company": "Winbond Electronics",
+   "score": 48.4,
+   "thesis": "HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks.",
+   "tier": "memory",
+   "ytd": 94.38,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Winbond Electronics should hold because HBM, server DRAM and AI eSSD supply remains relevant, but current rank 78, 69.6% YTD, $23.1B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

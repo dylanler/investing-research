@@ -1,0 +1,32 @@
+{
+ "symbol": "BOSN.SW",
+ "asOf": "2026-07-09",
+ "company": "Bossard",
+ "currency": "CHF",
+ "priceToday": 198.5,
+ "pricePrev": 196.0,
+ "moveSincePrevPct": 1.28,
+ "ytdReturnPct": 27.24,
+ "marketCapUsdB": 1.94,
+ "quoteUrl": "https://finance.yahoo.com/quote/BOSN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 86,
+   "ticker": "BOSN.SW",
+   "company": "Bossard",
+   "score": 62.3,
+   "thesis": "Fastener distribution and engineering could aggregate hidden demand for modular enclosures and robotic equipment",
+   "theme": "Fastener logistics",
+   "exchange": "SIX",
+   "regionRank": "Non-US#46",
+   "ytd": 27.24,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node screen: the modular-enclosure/robotics fastener-demand pathway is unchanged and speculative. No fresh evidence since Jun 9; a strong +10% day pushing YTD to +25.6% with no new AI-demand signal is alpha decay, not a re-rank. Hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "symbol": "6981.T",
+  "company": "Murata Manufacturing",
+  "caseDate": "2026-07-09",
+  "newsSince": "-13.9% since prior, +184.5% YTD. Since the June 23 refresh, July market and web research updated the Board-level power & passives thesis. For this stock, price moved -13.9% since the prior snapshot and YTD return is +184.5%; verdict: up with scoreDelta 5.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 6981.T",
+      "url": "https://finance.yahoo.com/quote/6981.T/"
+    },
+    {
+      "label": "DRAMeXchange/TrendForce: AI high-end MLCC book-to-bill at post-pandemic highs",
+      "url": "https://dramexchange.com/WeeklyResearch/Post/2/12759.html"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Murata/Taiyo Yuden MLCC price hikes, GS supercycle (TradingKey)",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261967164-mlcc-taiyo-yuden-tradingkey"
+    },
+    {
+      "label": "MLCC manufacturers consider price increase as AI demand outpaces supply (Passive Components)",
+      "url": "https://passive-components.eu/mlcc-manufacturers-consider-price-increase-as-ai-demand-outpaces-supply/"
+    },
+    {
+      "label": "Murata AI-server power modules mass production 2026 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2025/12/17/news-murata-reportedly-to-mass-produce-ai-server-power-modules-in-2026-targets-%C2%A550b-by-fy27"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6981.T/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 83,
+      "rankMove": "up",
+      "scoreDelta": 5,
+      "confidence": 0.72,
+      "rankRationale": "TrendForce evidence of post-pandemic-high MLCC book-to-bill directly supports Murata’s AI-server pricing-power thesis from a low current rank.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -13.9%, YTD +184.5%, market cap about $104.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 66. July context does not change the page placement: -13.9% since the prior refresh, +184.5% YTD. Prior frame: Passives-alpha lens: the July-1 10-40% AI-server/auto MLCC price hikes plus GS structural-deficit framing are genuinely new and strengthen the pricing/bottleneck case. But on this crowding-sensitive 'rerated benchmark' list at +230% YTD the residual alpha is largely consumed. Small +1, hold rank.",
+      "bull": "40%+ MLCC share; 10-40% AI-server/auto price hikes from July 1; structural deficit to 2030; AI-server power modules ramping.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 66, score 23.9, -13.9% since prior, +184.5% YTD.",
+      "bear": "Crowded, flow-dominated ownership; +13.6% pop on a name already up 230% YTD invites whipsaw.",
+      "primaryCatalyst": "July-1 MLCC price hikes and AI-server power-module/MLCC content growth.",
+      "primaryRisk": "Crowding and AI-capex sensitivity; new capacity arriving late-2026 caps near-term tightness narrative."
+    }
+  ]
+}

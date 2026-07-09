@@ -1,0 +1,56 @@
+{
+  "symbol": "KEYS",
+  "company": "Keysight Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Keysight Technologies (KEYS) across latent-ai-nodes: market cap $54.64B, move since prior -10.8%, YTD +53.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Keysight Q2 2026: orders +56%, AI business doubles, raises FY outlook (BigGo)",
+      "url": "https://finance.biggo.com/news/US_KEYS_2026-05-19"
+    },
+    {
+      "label": "Keysight Q2 2026 earnings beat (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-keysight-technologies-q2-2026-beats-earnings-expectations-93CH-4699861"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KEYS/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "KEYS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KEYS/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 77,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.66,
+      "rankRationale": "Test-and-measurement exposure is relevant but discovered after the Q2 rerating.",
+      "bull": "EDA, timing and test complexity rises with custom accelerators, HBM and advanced packaging.",
+      "neutral": "Current snapshot: move since prior -10.8%, YTD +53.6%, market cap about $54.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "High multiples and slower conversion of AI design complexity into incremental revenue.",
+      "primaryCatalyst": "Custom accelerator tape-outs, HBM/GPU test wins and design-complexity growth",
+      "primaryRisk": "High multiples and slower conversion of AI design complexity into incremental revenue."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 65,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 65. July context shows score 64.2, move since prior -10.8%, YTD +53.6%, market cap $54.64B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Orders +56%, AI test demand surging, FY guide raised to high-20s% growth; durable design-validation moat.",
+      "neutral": "Best-in-class test franchise but the AI re-rating is recognized; +72% YTD limits asymmetry.",
+      "bear": "Crowded/understood name at +72% YTD; large cap with the bottleneck story already priced.",
+      "primaryCatalyst": "AI-networking/800G-1.6T validation demand; AI revenue already > full FY25 in H1",
+      "primaryRisk": "Tollbooth role well-understood; +72% YTD compresses residual alpha"
+    }
+  ]
+}

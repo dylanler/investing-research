@@ -1,0 +1,47 @@
+{
+ "symbol": "PLAB",
+ "asOf": "2026-07-09",
+ "company": "Photronics",
+ "currency": "USD",
+ "priceToday": 28.14,
+ "pricePrev": 31.83,
+ "moveSincePrevPct": -11.59,
+ "ytdReturnPct": -15.77,
+ "marketCapUsdB": 1.79,
+ "quoteUrl": "https://finance.yahoo.com/quote/PLAB/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 65,
+   "ticker": "PLAB",
+   "company": "Photronics",
+   "score": 51.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": -15.77,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: post-miss derate already reflected; AI-fab/HBM capacity thesis operationally intact with $330M capex reaffirmed and Korea sub-8nm/Allen expansions on track. No new node-supply info since June 9 (Schall noise is legal, not operational), so hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 6,
+   "ticker": "PLAB",
+   "company": "Photronics",
+   "score": 88.7,
+   "thesis": "Low-profile cash-generative photomask supplier; levered to design complexity more than headlines.",
+   "category": "Materials / photomasks",
+   "ytd": -15.77,
+   "mcapB": 1.79,
+   "risk": "Mask pricing/cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Photronics should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after -10.3% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 1 implies."
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "SYM",
+ "asOf": "2026-07-09",
+ "company": "Symbotic",
+ "currency": "USD",
+ "priceToday": 41.69,
+ "pricePrev": 38.87,
+ "moveSincePrevPct": 7.25,
+ "ytdReturnPct": -35.73,
+ "marketCapUsdB": 25.16,
+ "quoteUrl": "https://finance.yahoo.com/quote/SYM/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 26,
+   "ticker": "SYM",
+   "company": "Symbotic",
+   "score": 57.2,
+   "thesis": "Excellent robotics business, poor humanoid alpha because it is large, known, and not a humanoid company.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Current robotics rank #34 and alpha score 57. Should move up because $26.6B cap, -31.7% YTD, Warehouse purity, and commercialization evidence now matter more than generic humanoid beta. The combination of direct stack fit, under-ownership, and still-plausible rerating room argues for more alpha weight."
+   }
+  }
+ ]
+}

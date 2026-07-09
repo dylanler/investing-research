@@ -1,0 +1,43 @@
+{
+  "symbol": "2498.HK",
+  "company": "RoboSense",
+  "caseDate": "2026-07-09",
+  "newsSince": "RoboSense reported Q1 2026 total LiDAR sales of 330,300 units, with robotics LiDAR shipments of 185,500 units, up 1,458.8% YoY and above automotive ADAS for the first time. It also disclosed partnerships with nearly 50 humanoid/quadruped robot companies and annual capacity for 4 million LiDAR units.",
+  "sources": [
+    {
+      "label": "RoboSense Q1 2026 robotics LiDAR shipments",
+      "url": "https://www.prnewswire.com/news-releases/robosense-asserts-global-dominance-in-lidar-for-robotics-with-1-458-8-yoy-shipment-surge-in-q1-2026--302783148.html"
+    },
+    {
+      "label": "RoboSense HKEX annual report/outlook",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042400954.pdf"
+    },
+    {
+      "label": "2498.HK quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/2498.HK/"
+    },
+    {
+      "label": "BigGo: RoboSense Q1 robot LiDAR shipments surge 1,458%",
+      "url": "https://finance.biggo.com/news/pB64aZ4BLfE1EzqPNBTJ"
+    },
+    {
+      "label": "Simply Wall St: RoboSense Q1 loss revives profitability concern",
+      "url": "https://simplywall.st/stocks/hk/tech/hkg-2498/robosense-technology-shares/news/robosense-technology-q1-loss-revives-bearish-narrative-on-pr"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 10,
+      "rankMove": "up",
+      "scoreDelta": 6,
+      "confidence": 0.76,
+      "rankRationale": "This is one of the strongest evidence upgrades on the page: robotics shipments surpassed ADAS, grew 1,458.8% YoY, and the company is tied to nearly 50 humanoid/quadruped customers. It is no longer as hidden, but the shipment data is too direct to ignore.",
+      "bull": "#1 global robotics LiDAR; robot volumes now exceed auto; FY26 2-2.7M unit guide; cleaner robotics pure-play than peers.",
+      "neutral": "Volume leadership real but margins thin; equity raise dilutes; -40% YTD reflects sentiment reset.",
+      "bear": "Follow-on dilution, cash-burn, LiDAR ASP erosion; robotics LiDAR still pre-profit at scale.",
+      "primaryCatalyst": "Robotics LiDAR volume ramp / FY26 2-2.7M guide",
+      "primaryRisk": "Equity dilution and ASP/margin pressure"
+    }
+  ]
+}

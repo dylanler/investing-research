@@ -1,0 +1,32 @@
+{
+ "symbol": "XPP.L",
+ "asOf": "2026-07-09",
+ "company": "XP Power",
+ "currency": "GBp",
+ "priceToday": 1778.0,
+ "pricePrev": 1920.0,
+ "moveSincePrevPct": -7.4,
+ "ytdReturnPct": 98.88,
+ "marketCapUsdB": 0.73,
+ "quoteUrl": "https://finance.yahoo.com/quote/XPP.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 10,
+   "ticker": "XPP.L",
+   "company": "XP Power",
+   "score": 78.7,
+   "thesis": "A turnaround power-converter specialist; AI semicap and industrial electrification can pull demand before the market fully trusts the recovery.",
+   "theme": "Power & Components",
+   "exchange": "LSE",
+   "ytd": 98.88,
+   "conviction": "High",
+   "catalysts": "Semiconductor equipment recovery; debt reduction; margin rebuild after factory actions.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 8 is 14 places better than displayed rank 22; adjusted score 79.8; YTD +93.1%; market cap $667M; XP Power remains tied to power & components through Power converters for semiconductor, healthcare and industrial equipment. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "RR",
+  "company": "Richtech Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "Richtech added a June 2026 24/7 interactive livestream for ADAM and continues to position ADAM/Dex around NVIDIA Isaac and Jetson Thor. The evidence supports embodied-AI visibility, but the business still has accounting/restatement, small scale and commercialization risks.",
+  "sources": [
+    {
+      "label": "Robot Report on ADAM livestream and NVIDIA stack",
+      "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/"
+    },
+    {
+      "label": "Richtech Dex mobile humanoid announcement",
+      "url": "https://ir.richtechrobotics.com/news-releases/news-release-details/richtech-robotics-offers-first-look-dex-mobile-humanoid-robot"
+    },
+    {
+      "label": "RR quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/RR/"
+    },
+    {
+      "label": "Richtech in Automate 2026 Humanoid Pavilion (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313360/0/en/richtech-robotics-selected-as-featured-exhibitor-in-first-ever-humanoid-pavilion-at-automate-2026.html"
+    },
+    {
+      "label": "Richtech AI pallet jack debut (StockTitan)",
+      "url": "https://www.stocktitan.net/news/RR/richtech-robotics-to-debut-latest-ai-driven-pallet-jack-robot-during-dnr311qfmpc5.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.6,
+      "rankRationale": "The ADAM livestream and Dex/NVIDIA stack keep Richtech directly on thesis, but the evidence is more marketing/demo than production economics. Hold with slight positive drift.",
+      "bull": "Direct small-cap humanoid platform with NVIDIA Isaac/Jetson Thor positioning and DEX showcased at Automate 2026.",
+      "neutral": "Visible at the marquee humanoid event, but revenue is tiny and the story is still demo-stage.",
+      "bear": "Persistent losses and a $200M shelf/ATM dilution overhang; conference buzz without contract wins; -41% YTD.",
+      "primaryCatalyst": "DEX commercialization / RaaS contract wins",
+      "primaryRisk": "Dilution from shelf/ATM; demo-stage, sub-scale revenue"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+ "symbol": "VSH",
+ "asOf": "2026-07-09",
+ "company": "Vishay Intertechnology",
+ "currency": "USD",
+ "priceToday": 42.19,
+ "pricePrev": 59.545,
+ "moveSincePrevPct": -29.15,
+ "ytdReturnPct": 175.93,
+ "marketCapUsdB": 6.47,
+ "quoteUrl": "https://finance.yahoo.com/quote/VSH/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 8,
+   "ticker": "VSH",
+   "company": "Vishay Intertechnology",
+   "score": 72.3,
+   "thesis": "Tantalum, polymer, film, inductors, resistors, current sense; bottleneck, AI-adjacent, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "High-conviction residual alpha",
+   "listing": "NYSE: VSH",
+   "ytd": 175.93,
+   "mcapB": 6.47,
+   "revisionNote": "Direct bottleneck exposure remains attractive, though less hidden than Tier A names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: no fresh fundamentals since Jun 9; backlog/book-to-bill unchanged. Direct passives-bottleneck exposure intact but increasingly covered, eroding the 'underfollowed' leg. No news = hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 45,
+   "ticker": "VSH",
+   "company": "Vishay Intertechnology",
+   "score": 68.7,
+   "thesis": "AI power chains still need mundane passives and discretes; Vishay offers cheap cyclicality and broad power-component exposure.",
+   "theme": "Power & Components",
+   "exchange": "NYSE",
+   "ytd": 175.93,
+   "conviction": "Medium",
+   "catalysts": "Inventory normalization; power-electronics demand; buybacks/capital allocation.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Network-centrality lens: Vishay's node position in AI power chains (passives, discretes, current-sense) is structurally unchanged and no node-level info emerged since June 9. Hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 89,
+   "ticker": "VSH",
+   "company": "Vishay Intertechnology",
+   "score": 41.8,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch discrete power and passives execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 175.93,
+   "auditNote": "Current thesis audit (2026-06-08): AI server PDN, MLCCs, inductors, power semiconductors score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master-list lens: measured rank already reflects balanced AI-server PDN/MLCC/inductor exposure vs the YTD rerating. No fresh fundamentals to re-litigate. Hold."
+   }
+  }
+ ]
+}

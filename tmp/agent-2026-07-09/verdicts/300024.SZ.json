@@ -1,0 +1,35 @@
+{
+  "symbol": "300024.SZ",
+  "company": "Siasun Robot & Automation",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Siasun Robot & Automation (300024.SZ) now screens at $3.82B market cap, -0.8% since the prior refresh and -10.5% YTD. Page thesis remains: The cleaner read-through is China robotics scale rather than a single humanoid product.",
+  "sources": [
+    {
+      "label": "300024.SZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/300024.SZ/"
+    },
+    {
+      "label": "Investing.com: Siasun Robot & Automation 300024 overview",
+      "url": "https://www.investing.com/equities/siasun-robot-automation-co"
+    },
+    {
+      "label": "Yahoo Finance: Siasun quote/news",
+      "url": "https://finance.yahoo.com/quote/300024.SZ/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 12,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 12. July market-data refresh shows move since prior -0.8%, YTD -10.5%, market cap $3.82B. Thesis: The cleaner read-through is China robotics scale rather than a single humanoid product.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Largest Chinese robotics maker (CAS-backed); broad industrial/mobile automation scale ride on China robotics buildout.",
+      "neutral": "Diversified automation play, not a pure humanoid proof-point; no fresh catalyst.",
+      "bear": "Limited direct humanoid leverage; industrial robotics margins/competition pressure.",
+      "primaryCatalyst": "China robotics capex and any humanoid program disclosure.",
+      "primaryRisk": "Thin humanoid pure-play exposure; domestic competition."
+    }
+  ]
+}

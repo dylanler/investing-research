@@ -1,0 +1,126 @@
+{
+  "symbol": "ON",
+  "company": "onsemi",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 80 hold (+1); down 20.8% since the prior refresh. semiconductor-ai-nodes: rank 80 hold (+1); down 20.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for ON",
+      "url": "https://finance.yahoo.com/quote/ON/"
+    },
+    {
+      "label": "DRAMeXchange/TrendForce: AI high-end MLCC book-to-bill at post-pandemic highs",
+      "url": "https://dramexchange.com/WeeklyResearch/Post/2/12759.html"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "onsemi collaborates with NVIDIA on 800 VDC power (onsemi)",
+      "url": "https://www.onsemi.com/company/news-media/press-announcements/en/onsemi-collaborates-with-nvidia-to-accelerate-transition-to-800-vdc-power-solutions-for-next-generation-ai-data-centers"
+    },
+    {
+      "label": "onsemi launches GaNEXUS GaN power portfolio (Semiconductor Today, Jun 10)",
+      "url": "https://www.semiconductor-today.com/news_items/2026/jun/onsemi-100626.shtml"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ON/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ON Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ON/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 71,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "NVIDIA 800VDC/GaN evidence remains relevant; no new post-prior catalyst strong enough for a second up-move.",
+      "bull": "AI-server PDN, MLCC, inductors, protection and power devices are gaining direct scarcity and pricing-power evidence.",
+      "neutral": "Current snapshot: move since prior -20.8%, YTD +65.4%, market cap about $36.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade.",
+      "primaryCatalyst": "AI-server MLCC/PDN price hikes, book-to-bill and lead-time extension",
+      "primaryRisk": "Post-shortage capacity additions, customer inventory digestion and crowding in the MLCC trade."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 34,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 34. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -20.8% since the prior refresh, +65.4% YTD. Prior frame: Residual-alpha-vs-passives lens: the NVIDIA 800VDC + GaNEXUS power-bottleneck evidence that drove the prior up-move is now public and partly priced; the GaNEXUS launch (Jun 10) is only marginally incremental. With no new flush and asymmetry vs peers unchanged, hold rank 35.",
+      "bull": "GaN/SiC power content in NVIDIA MGX/800VDC AI racks is a scarce, central power-delivery node.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 34, score 41.9, -20.8% since prior, +65.4% YTD.",
+      "bear": "Power-bottleneck story now widely owned; residual alpha vs passives is thinning.",
+      "primaryCatalyst": "800VDC/GaNEXUS AI-datacenter design-ins",
+      "primaryRisk": "Auto/industrial cycle and pricing pressure"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits onsemi through Power / SiC; Power and industrial AI optionality but not CPO-focused. The stock is down 20.8% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Power/SiC optionality for industrial AI buildout.",
+      "neutral": "Tangential to the co-packaged-optics thesis this page screens for.",
+      "bear": "Not CPO-focused; power news adds nothing through this specific lens.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Auto/industrial cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits ON Semiconductor through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 20.8% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "MGX/800VDC ecosystem tie gives concrete AI-rack power adjacency.",
+      "neutral": "Power/analog exposure is real but a step removed from the AI-node bottleneck.",
+      "bear": "Less direct than HBM, advanced packaging and AI-networking names on this page.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Indirectness to leading-edge AI nodes"
+    }
+  ]
+}

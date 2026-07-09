@@ -1,0 +1,32 @@
+{
+ "symbol": "ALFA.ST",
+ "asOf": "2026-07-09",
+ "company": "ALFA.ST",
+ "currency": "SEK",
+ "priceToday": 557.2,
+ "pricePrev": 546.2,
+ "moveSincePrevPct": 2.01,
+ "ytdReturnPct": 18.96,
+ "marketCapUsdB": 24.92,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALFA.ST/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 51,
+   "ticker": "ALFA.ST",
+   "company": "Alfa Laval",
+   "score": 68.0,
+   "thesis": "Heat exchangers and fluid handling are critical to cooling and energy efficiency, but Alfa Laval is a large quality industrial already seeing data-center attention.",
+   "theme": "Thermal & Water",
+   "exchange": "Nasdaq Stockholm",
+   "ytd": 18.96,
+   "conviction": "Medium",
+   "catalysts": "Data-center orders; heat-transfer capex; service growth.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 45 is 7 places better than displayed rank 52; adjusted score 68.0; YTD +14.9%; market cap $23.7B; Alfa Laval remains tied to thermal & water through Heat exchangers, separation and fluid-handling systems. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

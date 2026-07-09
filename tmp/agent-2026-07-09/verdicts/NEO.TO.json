@@ -1,0 +1,43 @@
+{
+  "symbol": "NEO.TO",
+  "company": "Neo Performance Materials",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Neo Performance Materials (NEO.TO) now screens at $1.23B market cap, +7.4% since the prior refresh and +124.3% YTD. Page thesis remains: Relevant to motor supply chains, but the move has already been large.",
+  "sources": [
+    {
+      "label": "NEO.TO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NEO.TO/"
+    },
+    {
+      "label": "Neo opens Narva NdFeB magnet facility (ProjectBlue)",
+      "url": "https://projectblue.com/blue/news-analysis/1321/neo-performance-materials-opens-narva-ndfeb-magnet-production-facility"
+    },
+    {
+      "label": "Neo ships magnet samples to motor customer",
+      "url": "https://www.neomaterials.com/neo-ships-magnet-samples-motor-customer/"
+    },
+    {
+      "label": "Neo Q1 2026 earnings transcript (Investing.com)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-neo-performance-materials-q1-2026-beats-forecasts-stock-dips-93CH-4681420"
+    },
+    {
+      "label": "Neo Estonia magnet plant (Mining.com)",
+      "url": "https://www.mining.com/neo-performance-opens-europes-first-rare-earth-magnet-plant/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 33. July market-data refresh shows move since prior +7.4%, YTD +124.3%, market cap $1.23B. Thesis: Relevant to motor supply chains, but the move has already been large.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Only ex-China NdFeB magnet maker scaling in Europe; structural motor-magnet supply node for robotics/EV.",
+      "neutral": "Relevant but indirect to humanoids; large prior move already prices much of the story.",
+      "bear": "Rare-earth price/tariff swings, large cap and crowding cut alpha vs pure humanoid-stack names.",
+      "primaryCatalyst": "New Tier-1 magnet supply contracts / Estonia ramp milestones",
+      "primaryRisk": "Rare-earth price normalization or China export-policy reversal"
+    }
+  ]
+}

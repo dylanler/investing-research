@@ -1,0 +1,130 @@
+{
+  "symbol": "ALAB",
+  "company": "Astera Labs",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 43 hold (+0); down 2.4% since the prior refresh. semiconductor-ai-nodes: rank 4 hold (+0); down 2.4% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for ALAB",
+      "url": "https://finance.yahoo.com/quote/ALAB/"
+    },
+    {
+      "label": "Yahoo Finance: optical transceiver market doubling on 800G/1.6T AI demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/optical-transceiver-market-set-double-104800250.html"
+    },
+    {
+      "label": "Ciena press release: AI networking and 1.6T coherent innovations",
+      "url": "https://www.nasdaq.com/press-release/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-high-speed"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Astera Labs Q1 2026 results",
+      "url": "https://www.asteralabs.com/news/astera-labs-reports-first-quarter-2026-financial-results/"
+    },
+    {
+      "label": "Futurum — Astera Q1 FY26 scale-up switching ramp",
+      "url": "https://futurumgroup.com/insights/astera-labs-q1-fy-2026-earnings-highlight-scale-up-switching-ramp/"
+    },
+    {
+      "label": "StocksToTrade — ALAB Nasdaq-100 inclusion",
+      "url": "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_06_18/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ALAB/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ALAB Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ALAB/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 45,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.68,
+      "rankRationale": "PCIe/CXL connectivity is a real bottleneck, but Nasdaq inclusion and a very large rerating weaken the under-owned premise.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -2.4%, YTD +119.0%, market cap about $67.4B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 88,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 88. July context does not change the page placement: -2.4% since the prior refresh, +119.0% YTD. Prior frame: On the residual-alpha-vs-passives lens, June 22 Nasdaq-100 inclusion makes ALAB MORE owned by benchmark/passive funds, eroding the asymmetry this page rewards. Scorpio ramp is real but doesn't restore residual alpha at ~$70B cap. Slight negative.",
+      "bull": "Best-in-class PCIe 6 / scale-up fabric franchise; +93% YoY revenue still compounding fast.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 88, score 4.4, -2.4% since prior, +119.0% YTD.",
+      "bear": "Maximally passive-owned post Nasdaq-100; hyperscaler concentration; high P/S means little residual mispricing.",
+      "primaryCatalyst": "Scorpio scale-up switch ramp",
+      "primaryRisk": "Passive crowding; hyperscaler concentration"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Astera Labs through AI interconnect; Direct AI rack-scale connectivity; not exactly CPO cables, but close copper/optical transition exposure. The stock is down 2.4% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Owns the rack-scale connectivity transition where copper meets optics; scale-up TAM expanding.",
+      "neutral": "Adjacent to CPO, not a pure co-packaged-optics play.",
+      "bear": "High P/S and hyperscaler concentration; not a direct CPO supplier.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "High P/S and hyperscaler concentration"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 4,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Astera Labs through custom ASIC / interconnect; picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps. The stock is down 2.4% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Scale-up fabric switching ramp opens a new multi-billion TAM beyond retimers; PCIe 6 leadership; +93% YoY.",
+      "neutral": "Node centrality clear; upside on this list capped at rank 4.",
+      "bear": "Now maximally visible at ~$70B; valuation/hyperscaler concentration risk on any AI capex pause.",
+      "primaryCatalyst": "AI networking/custom-silicon platform wins",
+      "primaryRisk": "Hyperscaler capex/concentration; valuation"
+    }
+  ]
+}

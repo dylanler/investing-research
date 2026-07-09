@@ -1,0 +1,43 @@
+{
+  "symbol": "9660.HK",
+  "company": "Horizon Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "Horizon Robotics rolled out HSD V2.0 with end-to-end/world-model upgrades and continues to publish embodied-AI research such as HoloAgent/HoloMotion. The counterweight is structural customer risk as major Chinese OEM customers develop in-house chips, even while BYD continues testing Horizon systems.",
+  "sources": [
+    {
+      "label": "Horizon HSD V2.0 upgrade / structural risk",
+      "url": "https://chinabizinsider.com/horizon-robotics-deploys-hsd-v2-0-amid-customer-chip-self-development-risk/"
+    },
+    {
+      "label": "Horizon official news page",
+      "url": "https://www.horizon.auto/"
+    },
+    {
+      "label": "9660.HK quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/9660.HK/"
+    },
+    {
+      "label": "Meyka - Horizon Robotics slides on profitability pressure",
+      "url": "https://meyka.com/blog/horizon-robotics-9660hk-slides-67-as-profitability-pressures-mount-1505/"
+    },
+    {
+      "label": "Yahoo Finance - Horizon Robotics news",
+      "url": "https://finance.yahoo.com/quote/9660.HK/news/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "The edge-AI and embodied-AI evidence improved, but the name remains mostly an autonomous-driving chip/software proxy and customer in-sourcing risk tempers the robotics upgrade.",
+      "bull": "Leading China edge-AI ADAS platform; deep pullback (-56% YTD) and physical-AI optionality if losses inflect.",
+      "neutral": "Not a pure humanoid name; valuation cheaper but no proof of profit inflection yet.",
+      "bear": "Widening losses, cash burn, and insider selling undercut the commercialization thesis; -18.5% since Jun 9.",
+      "primaryCatalyst": "Aug 27 earnings; design-win / margin inflection",
+      "primaryRisk": "Persistent losses, cash burn, insider selling, China-tech sentiment"
+    }
+  ]
+}

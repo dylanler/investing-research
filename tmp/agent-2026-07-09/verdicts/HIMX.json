@@ -1,0 +1,80 @@
+{
+  "symbol": "HIMX",
+  "company": "Himax Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 113 hold (+0); down 11.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "HIMX quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/HIMX/"
+    },
+    {
+      "label": "Himax CPO collaboration with FOCI (QuiverQuant)",
+      "url": "https://www.quiverquant.com/news/Himax+Technologies,+Inc.+Reaffirms+Strategic+Collaboration+with+FOCI+Fiber+Optic+Communications+for+Co-Packaged+Optics+Development"
+    },
+    {
+      "label": "Himax Q1 2026 results / Q2 guidance (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/himax-technologies-inc-reports-first-102100700.html"
+    },
+    {
+      "label": "Himax Q1 earnings call highlights (Globe & Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/HIMX/pressreleases/1821663/himax-technologies-q1-earnings-call-highlights/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "HIMX Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/HIMX/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 22,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 22. July market-data refresh shows move since prior -11.7%, YTD +74.7%, market cap $2.60B. Thesis: Edge AI vision/display chips and interface silicon. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "WiseEye edge-AI design wins (smart glasses) plus automotive ramp drive H2 momentum.",
+      "neutral": "Edge-AI is a real but small slice of a display-heavy business.",
+      "bear": "Most upside is later-2026; display cycle and ASP pressure remain the swing factor.",
+      "primaryCatalyst": "Smart-glasses WiseEye MP and H2 automotive ramp",
+      "primaryRisk": "Display downcycle; edge-AI revenue stays immaterial near-term"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 113,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Himax Technologies through Display/edge vision IC; Low CPO exposure. The stock is down 11.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Real CPO product roadmap (Gen1 shipping H2, Gen2 6.4T in validation) finally gives a direct datacenter-optics hook.",
+      "neutral": "CPO still small vs display core; partner role, revenue immaterial near-term.",
+      "bear": "Page thesis was 'low CPO exposure'; volumes unproven, display cycle dominates P&L.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Display cycle"
+    }
+  ]
+}

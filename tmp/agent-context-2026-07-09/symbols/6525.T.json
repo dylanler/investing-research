@@ -1,0 +1,31 @@
+{
+ "symbol": "6525.T",
+ "asOf": "2026-07-09",
+ "company": "Kokusai Electric",
+ "currency": "JPY",
+ "priceToday": 10810.0,
+ "pricePrev": 9271.0,
+ "moveSincePrevPct": 16.6,
+ "ytdReturnPct": 81.71,
+ "marketCapUsdB": 17.39,
+ "quoteUrl": "https://finance.yahoo.com/quote/6525.T/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 22,
+   "ticker": "6525.T",
+   "company": "Kokusai Electric",
+   "score": 80.1,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "Wafer equipment",
+   "ytd": 81.71,
+   "mcapB": 17.39,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Kokusai Electric should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 13, 21.9% YTD, $10.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

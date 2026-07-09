@@ -1,0 +1,567 @@
+{
+  "caseDate": "2026-07-09",
+  "verdictFiles": 474,
+  "rankMoveCounts": {
+    "down": 58,
+    "hold": 610,
+    "up": 51,
+    "remove": 6
+  },
+  "byPage": {
+    "companies": {
+      "down": 20,
+      "hold": 57,
+      "up": 22
+    },
+    "carbon-vs-silicon": {
+      "hold": 8
+    },
+    "semiconductor-alpha-cpo": {
+      "hold": 110,
+      "up": 4,
+      "down": 3,
+      "remove": 3
+    },
+    "semiconductor-ai-nodes": {
+      "hold": 93,
+      "up": 3,
+      "down": 4
+    },
+    "ai-passives-alpha": {
+      "hold": 93,
+      "down": 4,
+      "up": 3
+    },
+    "robotics": {
+      "hold": 39,
+      "up": 10,
+      "remove": 1
+    },
+    "latent-ai-nodes": {
+      "hold": 86,
+      "down": 15,
+      "up": 1
+    },
+    "scaling": {
+      "down": 6,
+      "hold": 38,
+      "up": 5
+    },
+    "latent-ai-nodes-strict": {
+      "hold": 86,
+      "remove": 2,
+      "down": 6,
+      "up": 3
+    }
+  },
+  "topUps": [
+    {
+      "symbol": "002979.SZ",
+      "company": "China Leadshine Technology",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 8,
+      "rankMove": "up",
+      "rankRationale": "Direct humanoid-actuator proof is now unusually concrete: >80% China humanoid OEM supply-chain penetration, >120k frameless motors shipped in 2025, dexterous hands and joint modules in mass production, and a 2m-unit automated line under construction. The +20.9% move adds crowding risk, but the evidence upgrade is bigger than the rerating penalty."
+    },
+    {
+      "symbol": "TIH.TO",
+      "company": "Toromont",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 89,
+      "scoreDelta": 8,
+      "rankMove": "up",
+      "rankRationale": "This is exactly the strict-list signal: hard data-center power-enclosure orders in a previously tangential equipment/service company."
+    },
+    {
+      "symbol": "603662.SS",
+      "company": "Keli Sensing Technology",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 7,
+      "rankMove": "up",
+      "rankRationale": "Force/torque sensing is one of the cleaner humanoid bottlenecks, and Keli now has >70 robot customers sampled plus >1,000 monthly force-sensor shipments. That converts the thesis from optionality into early scale while keeping the name more hidden than lidar and headline actuator leaders."
+    },
+    {
+      "symbol": "042700.KQ",
+      "company": "Hanmi Semiconductor",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 1,
+      "scoreDelta": 6,
+      "rankMove": "up",
+      "rankRationale": "Move up: the SK hynix HBM4 TC-bonder order is direct, customer-specific validation of Hanmi as an HBM4 packaging bottleneck, while the stock's modest YTD return leaves more residual alpha than crowded connectivity peers."
+    },
+    {
+      "symbol": "2498.HK",
+      "company": "RoboSense",
+      "page": "robotics",
+      "currentRank": 10,
+      "scoreDelta": 6,
+      "rankMove": "up",
+      "rankRationale": "This is one of the strongest evidence upgrades on the page: robotics shipments surpassed ADAS, grew 1,458.8% YoY, and the company is tied to nearly 50 humanoid/quadruped customers. It is no longer as hidden, but the shipment data is too direct to ignore."
+    },
+    {
+      "symbol": "BW",
+      "company": "Babcock & Wilcox",
+      "page": "scaling",
+      "currentRank": 29,
+      "scoreDelta": 6,
+      "rankMove": "up",
+      "rankRationale": "The 1.2GW AI-data-center power project and $2.7B backlog are directly on scaling/power. The stock's drawdown reflects dilution and warrant accounting, but the thesis relevance improved enough to move it up from a low rank."
+    },
+    {
+      "symbol": "042700.KQ",
+      "company": "Hanmi Semiconductor",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 55,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Hanmi Semiconductor combines Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed. with improved entry after a +0.0% post-refresh move. Score bump is capped by +49.1% YTD and Single-bundle validation risk."
+    },
+    {
+      "symbol": "300100.SZ",
+      "company": "Shuanglin Co.",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "The 100k-unit roller-screw line is a real capacity signal for humanoid linear joints, and the sample pipeline validates the automotive-to-robotics transition. Keep the upgrade measured because formal designated supply contracts are still missing."
+    },
+    {
+      "symbol": "6981.T",
+      "company": "Murata Manufacturing",
+      "page": "companies",
+      "currentRank": 83,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "TrendForce evidence of post-pandemic-high MLCC book-to-bill directly supports Murata\u2019s AI-server pricing-power thesis from a low current rank."
+    },
+    {
+      "symbol": "AIP",
+      "company": "Arteris",
+      "page": "scaling",
+      "currentRank": 16,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "The imec collaboration is fresh and directly about AI/HPC chiplets. Record ACV/royalties and raised guidance make AIP a cleaner on-chip interconnect beneficiary than its old mid-pack rank implied."
+    },
+    {
+      "symbol": "COHU",
+      "company": "Cohu",
+      "page": "scaling",
+      "currentRank": 4,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "AI processor thermal test plus HBM inspection are exactly the verification layer scaling needs. The opportunity pipeline is now quantified, so Cohu deserves to remain near the top despite cyclicality and profit recovery risk."
+    },
+    {
+      "symbol": "HSAI",
+      "company": "Hesai",
+      "page": "robotics",
+      "currentRank": 11,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "Hesai is less hidden than the best microcaps, but Q1 profitability, 3.0M-3.5M annual shipment guide, and explicit humanoid/quadruped leadership strengthen the physical-AI sensor case."
+    },
+    {
+      "symbol": "TOM.OL",
+      "company": "Tomra",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 78,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "Fresh AI-native product evidence makes the recycling/sorting node less theoretical."
+    },
+    {
+      "symbol": "XBOTF",
+      "company": "Realbotix",
+      "page": "robotics",
+      "currentRank": 3,
+      "scoreDelta": 5,
+      "rankMove": "up",
+      "rankRationale": "A fresh care-sector pilot plus the still-live Nasdaq path make the direct humanoid microcap case stronger. Keep risk high because transaction approval, liquidity and actual revenue scale are unresolved."
+    },
+    {
+      "symbol": "6997.T",
+      "company": "Nippon Chemi-Con",
+      "page": "ai-passives-alpha",
+      "currentRank": 6,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Nippon Chemi-Con gets a genuine thesis upgrade: aluminum-cap price hikes, JCR stable-outlook support, and AI-server demand directly reinforce the VRM capacitor bottleneck. The -26% tape de-crowds a still-direct small-cap exposure, so move up despite prior YTD crowding."
+    },
+    {
+      "symbol": "AMBA",
+      "company": "Ambarella",
+      "page": "robotics",
+      "currentRank": 8,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Robotics moved from generic edge-AI optionality to quantified design wins: 15+ wins, >$100M lifetime revenue and a 30-customer pipeline. Still not a pure humanoid component, so the move is positive but not a top-tier rerank."
+    },
+    {
+      "symbol": "AMKR",
+      "company": "Amkor Technology",
+      "page": "companies",
+      "currentRank": 7,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "The post-prior selloff improves risk/reward while the TSMC Arizona framework and OSAT scarcity remain direct bottleneck evidence."
+    },
+    {
+      "symbol": "BHE",
+      "company": "Benchmark Electronics",
+      "page": "ai-passives-alpha",
+      "currentRank": 10,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Benchmark received direct HPE validation as 2026 Manufacturing Partner of the Year for scaling high-power, liquid-cooled AI server blades. That is fresh customer-level proof of the underfollowed AI infrastructure manufacturing thesis."
+    },
+    {
+      "symbol": "CCC",
+      "company": "CCC Intelligent Solutions",
+      "page": "latent-ai-nodes",
+      "currentRank": 23,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "CCC is one of the cleaner non-obvious deployed-AI/data nodes: paid AI is material but the stock still often screens as claims software."
+    },
+    {
+      "symbol": "ESAB",
+      "company": "ESAB",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 24,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Move up. ESAB remains relevant, but July evidence shifts residual alpha: drawdown improves asymmetry"
+    },
+    {
+      "symbol": "MP",
+      "company": "MP Materials",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Permanent magnets are a real second-order humanoid and drone/robotics bottleneck, and MP now has unusually strong policy/offtake support. Not hidden, but the magnet supply-chain setup deserves more weight than generic large-cap robotics proxies."
+    },
+    {
+      "symbol": "MU",
+      "company": "Micron Technology",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 17,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "Move up: July HBM/DRAM capacity evidence reinforces Micron as a real AI memory bottleneck, and sold-out HBM supply is more node-critical than most mid-pack analog or WFE names despite the memory-cycle risk."
+    },
+    {
+      "symbol": "VSH",
+      "company": "Vishay Intertechnology",
+      "page": "companies",
+      "currentRank": 89,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "The broad MLCC/passives shortage plus a large pullback improves the risk/reward for a lower-ranked power-delivery name."
+    },
+    {
+      "symbol": "WDC",
+      "company": "Western Digital",
+      "page": "companies",
+      "currentRank": 98,
+      "scoreDelta": 4,
+      "rankMove": "up",
+      "rankRationale": "AI data gravity and storage shortage evidence remain strong; the sharp pullback makes the low-ranked storage bottleneck more attractive."
+    },
+    {
+      "symbol": "084370.KQ",
+      "company": "Eugene Technology",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 38,
+      "scoreDelta": 3,
+      "rankMove": "up",
+      "rankRationale": "Move up: AI-node bottleneck lens rewards direct bottleneck exposure, and Eugene Technology combines levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. with improved entry after a -9.3% post-refresh move. Score bump is capped by +71.7% YTD and wafer fab equipment."
+    }
+  ],
+  "topDowns": [
+    {
+      "symbol": "GLW",
+      "company": "GLW",
+      "page": "latent-ai-nodes",
+      "currentRank": 102,
+      "scoreDelta": -6,
+      "rankMove": "down",
+      "rankRationale": "Move down. Corning remains relevant, but July evidence shifts residual alpha: large YTD rerating reduces hiddenness"
+    },
+    {
+      "symbol": "LITE",
+      "company": "Lumentum",
+      "page": "latent-ai-nodes",
+      "currentRank": 90,
+      "scoreDelta": -6,
+      "rankMove": "down",
+      "rankRationale": "Move down. Lumentum remains relevant, but July evidence shifts residual alpha: large YTD rerating reduces hiddenness"
+    },
+    {
+      "symbol": "NVTS",
+      "company": "Navitas Semiconductor",
+      "page": "ai-passives-alpha",
+      "currentRank": 36,
+      "scoreDelta": -6,
+      "rankMove": "down",
+      "rankRationale": "Navitas still has valuable 800V/GaN/SiC AI-power optionality, but Wolfspeed sued over patents covering broad GaNFast/GaNSlim/GaNSafe/GeneSiC product lines. Legal/injunction/licensing risk is now thesis-relevant, not merely a no-news de-crowding flush."
+    },
+    {
+      "symbol": "SIVE.ST",
+      "company": "Sivers Semiconductors",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 48,
+      "scoreDelta": -6,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but +853.3% YTD, -53.4% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "5801.T",
+      "company": "Furukawa Electric",
+      "page": "latent-ai-nodes",
+      "currentRank": 97,
+      "scoreDelta": -5,
+      "rankMove": "down",
+      "rankRationale": "Strategic relevance is undeniable, but Furukawa is now an AI optical/data-center stock in plain sight."
+    },
+    {
+      "symbol": "ENA.V",
+      "company": "Enablence Technologies",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 9,
+      "scoreDelta": -5,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but +270.7% YTD, -35.5% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "SMCI",
+      "company": "Super Micro Computer",
+      "page": "companies",
+      "currentRank": 60,
+      "scoreDelta": -5,
+      "rankMove": "down",
+      "rankRationale": "Server-platform demand is real, but execution, dilution, concentration and margin risks are exactly the watch-items breaking against it."
+    },
+    {
+      "symbol": "WOLF",
+      "company": "Wolfspeed",
+      "page": "scaling",
+      "currentRank": 27,
+      "scoreDelta": -5,
+      "rankMove": "down",
+      "rankRationale": "AI power-density relevance is real, but Chapter 11/fresh-start risk and the extreme post-bankruptcy rerating overwhelm the hidden-alpha setup. Keep it on page only as speculative SiC optionality."
+    },
+    {
+      "symbol": "000660.KS",
+      "company": "SK hynix",
+      "page": "companies",
+      "currentRank": 80,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "HBM leadership is unquestioned, but SK hynix is now the definition of discovered AI memory exposure."
+    },
+    {
+      "symbol": "5802.T",
+      "company": "Sumitomo Electric",
+      "page": "latent-ai-nodes",
+      "currentRank": 60,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "The result validates optical bottlenecks but weakens the latent premise because AI optical demand is now explicit in segment profit."
+    },
+    {
+      "symbol": "6415.TW",
+      "company": "Silergy",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 120,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but +181.9% YTD, -18.9% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "AEHR",
+      "company": "Aehr Test Systems",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 99,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but +206.4% YTD, -34.1% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "AVGO",
+      "company": "Broadcom",
+      "page": "companies",
+      "currentRank": 46,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "AI networking/custom-silicon fundamentals are strong, but July guidance-reset sensitivity shows the name is fully discovered and low-alpha on this page."
+    },
+    {
+      "symbol": "GDS",
+      "company": "GDS Holdings",
+      "page": "companies",
+      "currentRank": 25,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Governance/disclosure risk remains a thesis-level discount for China data-center exposure despite physical deployment scarcity."
+    },
+    {
+      "symbol": "GURN.SW",
+      "company": "Gurit",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 91,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Strict residual alpha is weak after a large rerating without AI-specific evidence."
+    },
+    {
+      "symbol": "LNN",
+      "company": "Lindsay",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 1,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "The top strict thesis remains conceptually good, but the first post-prior catalyst showed weaker irrigation demand rather than telemetry/water-management inflection."
+    },
+    {
+      "symbol": "QRVO",
+      "company": "Qorvo",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 92,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but -2.8% YTD, -15.2% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "SLAB",
+      "company": "Silicon Labs",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 91,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but +65.5% YTD, -0.5% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "SMHN.DE",
+      "company": "S\\u00dcSS MicroTec",
+      "page": "latent-ai-nodes",
+      "currentRank": 81,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Lower residual-alpha bias due to category obviousness and crowding."
+    },
+    {
+      "symbol": "SWKS",
+      "company": "Skyworks Solutions",
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 94,
+      "scoreDelta": -4,
+      "rankMove": "down",
+      "rankRationale": "Move down: the thematic linkage is still present, but -9.2% YTD, -19.8% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+    },
+    {
+      "symbol": "3037.TW",
+      "company": "Unimicron",
+      "page": "ai-passives-alpha",
+      "currentRank": 89,
+      "scoreDelta": -3,
+      "rankMove": "down",
+      "rankRationale": "No fresh page-specific fundamental evidence changes the thesis. But +300% YTD means the discovery leg is largely gone, so residual alpha is capped. Keep rank discipline versus smaller, less crowded bottleneck names."
+    },
+    {
+      "symbol": "3532.TW",
+      "company": "Formosa Sumco Technology",
+      "page": "scaling",
+      "currentRank": 46,
+      "scoreDelta": -3,
+      "rankMove": "down",
+      "rankRationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 46. July market-data refresh shows move since prior +13.5%, YTD +337.5%, market cap $4.62B. Thesis: Silicon wafer supply for AI-related semiconductor capacity. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage."
+    },
+    {
+      "symbol": "4958.TW",
+      "company": "4958.TW",
+      "page": "ai-passives-alpha",
+      "currentRank": 93,
+      "scoreDelta": -3,
+      "rankMove": "down",
+      "rankRationale": "No fresh page-specific fundamental evidence changes the thesis. But +319% YTD means the discovery leg is largely gone, so residual alpha is capped. Keep rank discipline versus smaller, less crowded bottleneck names."
+    },
+    {
+      "symbol": "600487.SS",
+      "company": "Hengtong Optic-Electric",
+      "page": "companies",
+      "currentRank": 94,
+      "scoreDelta": -3,
+      "rankMove": "down",
+      "rankRationale": "Hollow-core/fiber AI exposure is real but China optics crowding and prior rerating remain severe; no new hidden evidence offsets it."
+    },
+    {
+      "symbol": "6869.HK",
+      "company": "YOFC",
+      "page": "companies",
+      "currentRank": 95,
+      "scoreDelta": -3,
+      "rankMove": "down",
+      "rankRationale": "YOFC remains an optical beneficiary, but the AI-fiber thesis is fully discovered after the prior rerating; keep moving lower."
+    }
+  ],
+  "removes": [
+    {
+      "symbol": "ATOM",
+      "company": "Atomera",
+      "page": "robotics",
+      "currentRank": 37,
+      "scoreDelta": -4,
+      "rankMove": "remove",
+      "rankRationale": "Robotics hidden-gem lens: Remove from active alpha weight at current rank 37. July market-data refresh shows move since prior -12.7%, YTD +189.0%, market cap $0.29B. Thesis: Too indirect and already up too much.. Score delta -4; judged against under-owned physical-AI exposure, direct component purity and commercialization proof."
+    },
+    {
+      "symbol": "DSGR",
+      "company": "Distribution Solutions Group",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 92,
+      "scoreDelta": -6,
+      "rankMove": "remove",
+      "rankRationale": "Take-private economics remove the public latent-alpha setup."
+    },
+    {
+      "symbol": "SEM.VI",
+      "company": "Semperit",
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 79,
+      "scoreDelta": -6,
+      "rankMove": "remove",
+      "rankRationale": "A control/tender setup with no AI evidence should be removed from a strict residual-alpha list."
+    },
+    {
+      "symbol": "SKYT",
+      "company": "SkyWater Technology",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 19,
+      "scoreDelta": -6,
+      "rankMove": "remove",
+      "rankRationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise."
+    },
+    {
+      "symbol": "SLAB",
+      "company": "Silicon Labs",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 104,
+      "scoreDelta": -5,
+      "rankMove": "remove",
+      "rankRationale": "Remove from the actionable rank set: page fit is too weak or the stock is dominated by non-CPO/optical-interconnect alpha lens factors; no fresh July evidence offsets the prior directness concern."
+    },
+    {
+      "symbol": "WOLF",
+      "company": "Wolfspeed",
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 75,
+      "scoreDelta": -6,
+      "rankMove": "remove",
+      "rankRationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise."
+    }
+  ]
+}

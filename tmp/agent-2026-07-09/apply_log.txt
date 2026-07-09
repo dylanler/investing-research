@@ -1,0 +1,35 @@
+== ai-passives-alpha (region files) ==
+  ai-passives-alpha: 29/49 base scores adjusted
+  ai-passives-alpha: 31/51 base scores adjusted
+== latent broad ==
+  latent-ai-nodes: 16/102 base scores adjusted
+== latent strict ==
+  - removed from latent-ai-nodes-strict: SEM.VI, DSGR
+  latent-ai-nodes-strict: 9/95 base scores adjusted
+== semiconductor-ai-nodes ==
+  semiconductor-ai-nodes: 33/100 base scores adjusted
+== semiconductor-alpha-cpo ==
+  semiconductor-alpha-cpo: 42/120 base scores adjusted
+== carbon-vs-silicon ==
+  carbon-vs-silicon: 4/8 scores adjusted
+== robotics ==
+  robotics: 24/50 alphas adjusted (runtime reranks)
+== scaling ==
+  scaling: 12/48 residual scores adjusted (overlay re-sorts)
+== companies100 ==
+  companies: 77/99 scores adjusted
+== agentStockCases merge ==
+  agentStockCases: 3330 -> 3330 keys
+== labels & focus ==
+  label bump: app/page.tsx
+  label bump: app/companies/page.tsx
+  label bump: app/scaling/page.tsx
+  label bump: app/bottleneck/page.tsx
+  label bump: app/carbon-vs-silicon/page.tsx
+  label bump: app/carbon-vs-silicon/CarbonVsSiliconClient.tsx
+  label bump: app/ai-passives-alpha/page.tsx
+  label bump: app/ai-passives-alpha/AiPassivesAlphaClient.tsx
+  label bump: app/semiconductor-alpha-cpo/page.tsx
+  label bump: components/research/CurrentThesisAudit.tsx
+  label bump: components/research/StockCaseHover.tsx
+  label bump: app/signals/SignalsClient.tsx

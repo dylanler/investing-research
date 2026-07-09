@@ -1,0 +1,47 @@
+{
+ "symbol": "2408.TW",
+ "asOf": "2026-07-09",
+ "company": "Nanya Technology",
+ "currency": "TWD",
+ "priceToday": 435.5,
+ "pricePrev": 454.5,
+ "moveSincePrevPct": -4.18,
+ "ytdReturnPct": 110.39,
+ "marketCapUsdB": 39.46,
+ "quoteUrl": "https://finance.yahoo.com/quote/2408.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 89,
+   "ticker": "2408.TW",
+   "company": "Nanya Technology",
+   "score": 45.9,
+   "thesis": "HBM/DRAM tightness links directly to AI accelerator supply, but memory cycles and capex timing are major risks.",
+   "tier": "memory",
+   "ytd": 110.39,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Memory-tier bottleneck (HBM crowding out commodity DRAM, shortage to 2028) is fully intact but well-broadcast; the +25% move since June 9 is a flow/cycle bounce, not new evidence. Custom AI-memory trial results are a 2H26 catalyst, not yet de-risked. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 95,
+   "ticker": "2408.TW",
+   "company": "Nanya Technology",
+   "score": 45.1,
+   "thesis": "Memory recovery rather than CPO alpha.",
+   "category": "Memory",
+   "ytd": 110.39,
+   "mcapB": 39.46,
+   "risk": "Commodity memory cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Nanya Technology should move down because HBM, server DRAM and AI eSSD supply is either less hidden after 64.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 82 implies."
+   }
+  }
+ ]
+}

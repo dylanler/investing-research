@@ -1,0 +1,29 @@
+{
+ "symbol": "AIP",
+ "asOf": "2026-07-09",
+ "company": "Arteris",
+ "currency": "USD",
+ "priceToday": 34.46,
+ "pricePrev": 42.41,
+ "moveSincePrevPct": -18.75,
+ "ytdReturnPct": 121.18,
+ "marketCapUsdB": 1.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/AIP/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 16,
+   "ticker": "AIP",
+   "company": "Arteris",
+   "score": 49.9,
+   "thesis": "On-chip interconnect IP; complexity scaling inside AI silicon",
+   "bucket": "semiconductors",
+   "ytd": 121.18,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 18 is 7 places better than displayed rank 25; adjusted score 48.4; YTD +126.3%; market cap $1.6B; Scaling watchlist fit is On-chip interconnect IP; complexity scaling inside AI silicon; bucket semiconductors; tags compute_factory. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

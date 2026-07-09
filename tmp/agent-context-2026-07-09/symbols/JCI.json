@@ -1,0 +1,30 @@
+{
+ "symbol": "JCI",
+ "asOf": "2026-07-09",
+ "company": "Johnson Controls",
+ "currency": "USD",
+ "priceToday": 140.23,
+ "pricePrev": 143.21,
+ "moveSincePrevPct": -2.08,
+ "ytdReturnPct": 14.65,
+ "marketCapUsdB": 85.56,
+ "quoteUrl": "https://finance.yahoo.com/quote/JCI/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 5,
+   "ticker": "JCI",
+   "company": "Johnson Controls",
+   "score": 84.3,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch building controls and cooling execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 14.65,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: liquid-cooling/grid/switchgear exposure intact and the record-backlog quarter plus AI Factory design guides were already in the hold. No fresh Jun 9-23 catalyst; -2.7% drift is noise. Bottleneck thesis increasingly recognized, capping residual alpha at this rank."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 66,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 66. July context shows score 65.0, move since prior -5.8%, YTD -20.9%, market cap $4.11B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Strong Q1 orders (+5.3%) and confirmed FY26 targets show a resilient, well-run automation franchise on a de-rated multiple (YTD -16%).",
+      "neutral": "Solid beverage-packaging cyclical; AI-node relevance remains a speculative adjacency with no concrete evidence.",
+      "bear": "Core demand is food/beverage capex, not AI; the latent AI-node case is a stretch with no design wins or DC-adjacent contracts.",
+      "primaryCatalyst": "Any explicit move into precision assembly/inspection for electronics or DC hardware.",
+      "primaryRisk": "Beverage capex cyclicality; thesis never materializes into AI relevance."
+    }
+  ],
+  "symbol": "KRN.DE",
+  "company": "Krones",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Krones AGM/dividend release",
+      "url": "https://www.krones.com/en/company/investor-relations/corporate-news-release-krones-continues-profitable-growth-path-and-increases-dividend-per-share.php"
+    },
+    {
+      "label": "Krones Q1 2026 order intake",
+      "url": "https://www.eqs-news.com/news/corporate/krones-starts-financial-year-with-strong-order-intake-and-confirms-financial-targets-for-2026/e2a42a79-8af5-4b2a-9ebd-796caf5703c8_en"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/KRN.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "KRN.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/KRN.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Krones (KRN.DE) across latent-ai-nodes-strict: market cap $4.11B, move since prior -5.8%, YTD -20.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

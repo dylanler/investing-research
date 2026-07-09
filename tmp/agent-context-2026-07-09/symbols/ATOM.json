@@ -1,0 +1,27 @@
+{
+ "symbol": "ATOM",
+ "asOf": "2026-07-09",
+ "company": "Atomera",
+ "currency": "USD",
+ "priceToday": 6.82,
+ "pricePrev": 7.81,
+ "moveSincePrevPct": -12.68,
+ "ytdReturnPct": 188.98,
+ "marketCapUsdB": 0.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/ATOM/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 37,
+   "ticker": "ATOM",
+   "company": "Atomera",
+   "score": 25.9,
+   "thesis": "Too indirect and already up too much.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Current robotics rank #45 and alpha score 25. Should be removed from the alpha ranking because $350M cap, +254.2% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The setup fails the hidden-alpha test because evidence, valuation, or rerating risk now overwhelms upside asymmetry."
+   }
+  }
+ ]
+}

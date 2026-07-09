@@ -1,0 +1,48 @@
+{
+ "symbol": "WDC",
+ "asOf": "2026-07-09",
+ "company": "Western Digital",
+ "currency": "USD",
+ "priceToday": 550.3,
+ "pricePrev": 671.345,
+ "moveSincePrevPct": -18.03,
+ "ytdReturnPct": 193.18,
+ "marketCapUsdB": 220.16,
+ "quoteUrl": "https://finance.yahoo.com/quote/WDC/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 86,
+   "ticker": "WDC",
+   "company": "Western Digital",
+   "score": 6.6,
+   "thesis": "Data-center storage capacity proxy; .",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: WDC",
+   "ytd": 193.18,
+   "mcapB": 220.16,
+   "revisionNote": "Residual-alpha lens: sold-out 2026 HDD capacity, multi-year LTAs to 2028 and record margins are a real fundamental step-change, not just tape. Even as a 'monitor/benchmark' name farther from the passive/power core, the supply-tightness signal merits an up nudge on news, separate from the crowding/YT",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Residual-alpha lens: sold-out 2026 HDD capacity, multi-year LTAs to 2028 and record margins are a real fundamental step-change, not just tape. Even as a 'monitor/benchmark' name farther from the passive/power core, the supply-tightness signal merits an up nudge on news, separate from the crowding/YTD penalty applied elsewhere."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 98,
+   "ticker": "WDC",
+   "company": "Western Digital",
+   "score": 26.4,
+   "thesis": "Data-layer utilization exposure. Strong ytd follow-through; watch storage hardware execution and pricing.",
+   "bucket": "Storage & AI data platforms",
+   "ytd": 193.18,
+   "auditNote": "Master-list lens: data-layer/AI-storage thesis materially strengthened — 2026 sold out, LTAs to 2028, record margins and a broad analyst PT-hike wave. Fundamental confirmation supports an up move on t",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Master-list lens: data-layer/AI-storage thesis materially strengthened — 2026 sold out, LTAs to 2028, record margins and a broad analyst PT-hike wave. Fundamental confirmation supports an up move on the under-owned-bottleneck list, independent of the YTD-rerating penalty."
+   }
+  }
+ ]
+}

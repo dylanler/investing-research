@@ -1,0 +1,47 @@
+{
+ "symbol": "QCOM",
+ "asOf": "2026-07-09",
+ "company": "Qualcomm",
+ "currency": "USD",
+ "priceToday": 186.56,
+ "pricePrev": 202.4,
+ "moveSincePrevPct": -7.83,
+ "ytdReturnPct": 7.85,
+ "marketCapUsdB": 196.63,
+ "quoteUrl": "https://finance.yahoo.com/quote/QCOM/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 34,
+   "ticker": "QCOM",
+   "company": "Qualcomm",
+   "score": 63.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 7.85,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the AI-node bottleneck lens, new evidence materially raises directness: Investor-Day AI200/AI250 rack-scale inference roadmap, a 200MW accelerator deal ramping H2'26, ByteDance ASICs, NVLink-Fusion CPUs and reported Tenstorrent talks move QCOM well beyond 'selective edge.' Re-rate up."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 83,
+   "ticker": "QCOM",
+   "company": "Qualcomm",
+   "score": 50.1,
+   "thesis": "AI-edge optionality, but not a CPO cable play.",
+   "category": "Mobile / edge AI",
+   "ytd": 7.85,
+   "mcapB": 196.63,
+   "risk": "Handset cycle and China exposure",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Qualcomm should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 25.9% YTD and $229.5B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

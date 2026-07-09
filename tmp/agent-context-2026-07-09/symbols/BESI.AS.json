@@ -1,0 +1,65 @@
+{
+ "symbol": "BESI.AS",
+ "asOf": "2026-07-09",
+ "company": "BESI.AS",
+ "currency": "EUR",
+ "priceToday": 250.8,
+ "pricePrev": 296.8,
+ "moveSincePrevPct": -15.5,
+ "ytdReturnPct": 68.21,
+ "marketCapUsdB": 24.74,
+ "quoteUrl": "https://finance.yahoo.com/quote/BESI.AS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 87,
+   "ticker": "BESI.AS",
+   "company": "BE Semiconductor Industries",
+   "score": 58.2,
+   "thesis": "BESI is structurally tied to advanced packaging for AI chips, but the market has long identified that thesis.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "Euronext Amsterdam",
+   "ytd": 68.21,
+   "conviction": "Medium",
+   "catalysts": "Hybrid bonding adoption; AI accelerator packaging; memory recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 86 is 7 places worse than displayed rank 79; adjusted score 56.1; YTD +88.4%; market cap $24.8B; BE Semiconductor Industries remains tied to semi/advanced materials through Die attach and hybrid bonding equipment. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 6,
+   "ticker": "BESI.AS",
+   "company": "BE Semiconductor Industries",
+   "score": 83.9,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "OSAT / packaging",
+   "ytd": 68.21,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "On the AI-node bottleneck lens the Investor Day target raise (revenue to EUR 2.2B top end, margin floor to 45%) on HBM/2.5D/chiplet packaging materially strengthens the choke-point case. Top-tier OSAT/packaging enabler earns a move up from rank 7."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 10,
+   "ticker": "BESI.AS",
+   "company": "BE Semiconductor Industries",
+   "score": 86.1,
+   "thesis": "Hybrid bonding/advanced packaging is a direct enabler for chiplets and photonic integration.",
+   "category": "Packaging / equipment",
+   "ytd": 68.21,
+   "mcapB": 24.74,
+   "risk": "Advanced packaging cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Most direct beneficiary of the news on the CPO lens: the Investor Day explicitly named co-packaged optics and photonic integration as a new hybrid-bonding use case driving the higher long-term targets. This is fresh, dated evidence firming the photonic-integration enabler thesis; move up."
+   }
+  }
+ ]
+}

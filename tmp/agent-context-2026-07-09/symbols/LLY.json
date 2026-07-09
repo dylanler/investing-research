@@ -1,0 +1,30 @@
+{
+ "symbol": "LLY",
+ "asOf": "2026-07-09",
+ "company": "Eli Lilly",
+ "currency": "USD",
+ "priceToday": 1215.83,
+ "pricePrev": 1105.605,
+ "moveSincePrevPct": 9.97,
+ "ytdReturnPct": 12.54,
+ "marketCapUsdB": 1070.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/LLY/",
+ "listings": [
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 8,
+   "ticker": "NYSE: LLY",
+   "company": "Eli Lilly",
+   "score": 24.4,
+   "thesis": "Direct proxy for one of the biggest current human-goods lines: pharmaceutical and medical-product consumption.",
+   "theme": "Human / carbon-based consumption",
+   "ytd": 12.54,
+   "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Silicon-consumption-vs-human-goods lens: LLY is the human/pharma-consumption proxy. The June 8 ACHIEVE data was already captured in the June 9 case; no new evidence after June 9. On this alpha-weighted page LLY remains the definition of consensus ($984B cap, fully owned), so rank 8 holds with no further drift."
+   }
+  }
+ ]
+}

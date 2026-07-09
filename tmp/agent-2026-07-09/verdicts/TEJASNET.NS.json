@@ -1,0 +1,35 @@
+{
+  "symbol": "TEJASNET.NS",
+  "company": "Tejas Networks",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Tejas Networks (TEJASNET.NS) now screens at $1.02B market cap, -12.9% since the prior refresh and +19.5% YTD. Page thesis remains: Telecom/networking equipment in sovereign build-outs",
+  "sources": [
+    {
+      "label": "TEJASNET.NS quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TEJASNET.NS/"
+    },
+    {
+      "label": "Tejas Networks $900M BSNL 4G/5G order (Light Reading)",
+      "url": "https://www.lightreading.com/2g-3g-4g/indian-vendor-tejas-receives-900m-ran-order-its-largest-ever"
+    },
+    {
+      "label": "Tejas Networks volume surge / buy signals (MarketsMojo)",
+      "url": "https://www.marketsmojo.com/news/stocks-in-action/tejas-networks-ltd-sees-exceptional-volume-surge-amid-strong-buy-signals-4033845"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 41. July market-data refresh shows move since prior -12.9%, YTD +19.5%, market cap $1.02B. Thesis: Telecom/networking equipment in sovereign build-outs. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Sovereign India telecom build-out (BSNL 4G/5G, Bharatnet 3) and NEC Massive MIMO give a domestic-supply tailwind in compute-factory networking.",
+      "neutral": "Networking-equipment exposure to sovereign build-outs, but only loosely tied to the AI test-time-scaling thesis.",
+      "bear": "Severe revenue lumpiness and PO-timing-driven shortfalls; recent quarter swung to a loss, and the rally lacks a confirmed fresh catalyst.",
+      "primaryCatalyst": "BSNL expansion / Bharatnet Phase 3 order conversion",
+      "primaryRisk": "Order-timing volatility and concentrated government-customer dependence"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "symbol": "NEX.PA",
+ "asOf": "2026-07-09",
+ "company": "Nexans",
+ "currency": "EUR",
+ "priceToday": 133.2,
+ "pricePrev": 151.2,
+ "moveSincePrevPct": -11.9,
+ "ytdReturnPct": 3.82,
+ "marketCapUsdB": 7.11,
+ "quoteUrl": "https://finance.yahoo.com/quote/NEX.PA/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 67,
+   "ticker": "NEX",
+   "company": "Nexans",
+   "score": 22.2,
+   "thesis": "Grid and data-center power cabling leverage; bottleneck, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "EPA: NEX",
+   "ytd": 3.82,
+   "mcapB": 7.11,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Grid/data-center cabling backdrop strong (Electra live, EUR7.7B backlog, DC call-offs) but nothing new since June 9. Still one step removed from the passive/power bottleneck stack this list rewards, so hold at 65 with no fresh catalyst."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 55,
+   "ticker": "NEX.PA",
+   "company": "Nexans",
+   "score": 67.7,
+   "thesis": "Electrification and grid cable scarcity can support AI data-center power buildout; Nexans is less obvious than some U.S. electrical names.",
+   "theme": "Power & Grid",
+   "exchange": "Euronext Paris",
+   "ytd": 3.82,
+   "conviction": "Medium",
+   "catalysts": "Grid cable demand; electrification margin mix; portfolio focus.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 49 is 7 places better than displayed rank 56; adjusted score 67.0; YTD +19.9%; market cap $7.8B; Nexans remains tied to power & grid through Electrification cables and grid infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

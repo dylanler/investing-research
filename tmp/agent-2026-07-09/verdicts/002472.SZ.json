@@ -1,0 +1,35 @@
+{
+  "symbol": "002472.SZ",
+  "company": "Zhejiang Shuanghuan Driveline",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Zhejiang Shuanghuan Driveline (002472.SZ) now screens at $5.63B market cap, +4.8% since the prior refresh and -9.5% YTD. Page thesis remains: The gear and driveline exposure is relevant to the humanoid joint stack, but the company is larger than the very best KOID-hidden names.",
+  "sources": [
+    {
+      "label": "002472.SZ quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/002472.SZ/"
+    },
+    {
+      "label": "Shuanghuan reducers to Optimus & Unitree",
+      "url": "https://jamestown.org/new-gains-in-prc-robotics-software-hardware/"
+    },
+    {
+      "label": "Shuanghuan-Xinjian planetary roller screw collaboration",
+      "url": "https://www.futunn.com/en/stock/002472-SZ/news/news"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 0,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 0. July market-data refresh shows move since prior +4.8%, YTD -9.5%, market cap $5.63B. Thesis: The gear and driveline exposure is relevant to the humanoid joint stack, but the company is larger than the very best KOID-hidden names.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "RV/harmonic reducers + PRS into Tesla Optimus & Unitree; share gains vs Nabtesco.",
+      "neutral": "Actuation purity intact; no new commercialization milestone since June 9.",
+      "bear": "$5.3B cap larger than hidden peers; humanoid timelines and China-chain beta are volatile.",
+      "primaryCatalyst": "Optimus/Unitree volume ramp and PRS qualification",
+      "primaryRisk": "Humanoid commercialization delay / mega-cap dilution of purity"
+    }
+  ]
+}

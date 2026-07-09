@@ -1,0 +1,63 @@
+{
+ "symbol": "TSM",
+ "asOf": "2026-07-09",
+ "company": "TSMC",
+ "currency": "USD",
+ "priceToday": 436.98,
+ "pricePrev": 442.88,
+ "moveSincePrevPct": -1.33,
+ "ytdReturnPct": 36.72,
+ "marketCapUsdB": 2477.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/TSM/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 35,
+   "ticker": "TSM",
+   "company": "Taiwan Semiconductor Manufacturing",
+   "score": 62.8,
+   "thesis": "core AI winner, but already highly owned; score is capped by crowding and valuation discovery.",
+   "tier": "foundry",
+   "ytd": 36.72,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Taiwan Semiconductor Manufacturing should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 33, 33.5% YTD, $2083.0B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 73,
+   "ticker": "TSM / 2330.TW",
+   "company": "TSMC",
+   "score": 53.3,
+   "thesis": "Central manufacturing node for AI silicon and silicon photonics, but a global consensus holding.",
+   "category": "Foundry / logic",
+   "ytd": 36.72,
+   "mcapB": 2477.0,
+   "risk": "Geopolitical and capex concentration",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "TSMC should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 72, 33.5% YTD, $2083.0B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 37,
+   "ticker": "TSM",
+   "company": "TSMC",
+   "score": 62.6,
+   "thesis": "Packaging scarcity exposure. Strong ytd follow-through; watch leading-edge foundry and cowos execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 36.72,
+   "auditNote": "Current thesis audit (2026-06-08): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: packaging-scarcity thesis intact and reinforced by the +89% 2026 CoWoS capacity path, advanced packaging passing ~10% of revenue, and the record May print. Prior verdict already moved it up; consolidate the move rather than chase, hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 80,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 80. July context shows score 63.4, move since prior -5.2%, YTD +21.7%, market cap $12.23B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Automation/fluid-power distribution aggregates latent industrial+datacenter demand before OEMs are obvious; IRIS/Hydradyne deepen automation reach.",
+      "neutral": "Quality compounder but only tangential AI-node link; organic growth modest (~2.2%).",
+      "bear": "Distributor, not a chokepoint; rich ~28x multiple after +29% YTD on no incremental catalyst.",
+      "primaryCatalyst": "Automation M&A integration",
+      "primaryRisk": "Industrial demand softening; multiple compression"
+    }
+  ],
+  "symbol": "AIT",
+  "company": "Applied Industrial Technologies",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "AIT Q2 FY26 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000109563/000010956326000013/a8k1272026releaseexhibit991.htm"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/AIT/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "AIT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AIT/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Applied Industrial Technologies (AIT) across latent-ai-nodes-strict: market cap $12.23B, move since prior -5.2%, YTD +21.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

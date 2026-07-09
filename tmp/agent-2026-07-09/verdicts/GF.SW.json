@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 51. July context shows score 66.7, move since prior +2.6%, YTD -19.1%, market cap $4.58B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "LiquidCore polymer chip-to-chiller cooling positions GF as a latent AI-datacenter DLC supplier.",
+      "neutral": "Real DLC product/reference exists but contribution is small vs the whole company; no new wins this window.",
+      "bear": "Industrial flow-solutions cyclical; AI-cooling revenue still immaterial; -21% YTD reflects core demand softness.",
+      "primaryCatalyst": "Hyperscale/colo adoption of polymer direct-liquid-cooling loops",
+      "primaryRisk": "Core industrial/automotive demand weakness; AI mix stays small"
+    }
+  ],
+  "symbol": "GF.SW",
+  "company": "Georg Fischer",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "GF + Rittal NETMOUNTAINS full-scope cooling (gfps.com)",
+      "url": "https://www.gfps.com/en-at/about-us/media-center/news-details.html/news/gfps/2026/hq/from-chiller-to-chip-gf-and-rittal-deliver-full-scope-polymer-cooling-infrastructure"
+    },
+    {
+      "label": "AI data centers: polymer piping in DLC white paper (gfps.com)",
+      "url": "https://www.gfps.com/com/en/about-us/media-center/news-details.html/news/gfps/2026/hq/ai-data-centers-why-polymer-piping-matters-in-direct-liquid-cooling"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/GF.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "GF.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/GF.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Georg Fischer (GF.SW) across latent-ai-nodes-strict: market cap $4.58B, move since prior +2.6%, YTD -19.1%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

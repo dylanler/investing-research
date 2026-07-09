@@ -1,0 +1,66 @@
+{
+ "symbol": "CIEN",
+ "asOf": "2026-07-09",
+ "company": "Ciena",
+ "currency": "USD",
+ "priceToday": 440.97,
+ "pricePrev": 456.42,
+ "moveSincePrevPct": -3.39,
+ "ytdReturnPct": 79.21,
+ "marketCapUsdB": 62.42,
+ "quoteUrl": "https://finance.yahoo.com/quote/CIEN/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 80,
+   "ticker": "CIEN",
+   "company": "Ciena",
+   "score": 14.6,
+   "thesis": "Optical transport and backbone; .",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: CIEN",
+   "ytd": 79.21,
+   "mcapB": 62.42,
+   "revisionNote": "On a crowding-sensitive alpha list, a flow-driven -8.3% flush on top of a ~31% post-earnings derating - while the fundamentals actually improved (record $7.7B backlog, raised FY guide) - restores some asymmetry that yesterday's hold lacked. Move is modest because Ciena remains peripheral to the pass",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha vs passives: the asymmetry-restoring flush and improved fundamentals (record $7.7B backlog, raised FY guide) were already actioned in the June 9 'up' move. Nothing new since; the recovery bounce partly closes that gap. Ciena stays peripheral to the passive/power stack. Hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 84,
+   "ticker": "CIEN",
+   "company": "Ciena",
+   "score": 59.3,
+   "thesis": "Optical transport is core to AI-era connectivity; Ciena is not a pure AI stock but the optical thesis is increasingly obvious.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NYSE",
+   "ytd": 79.21,
+   "conviction": "Medium",
+   "catalysts": "800G/1.6T transport; cloud interconnect; telecom recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent lens: FQ2 made Ciena maximally non-latent (cloud ~46% of rev, full-consensus AI-optical story). No new info since June 9; the bounce does not re-hide the node. Small positive drift already reflected. Hold near list bottom."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 26,
+   "ticker": "CIEN",
+   "company": "Ciena",
+   "score": 67.6,
+   "thesis": "Scale-out bandwidth and optics exposure. Very strong ytd rerating; watch optical transport and networking execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 79.21,
+   "auditNote": "Yesterday's down call was a crowding/rerating penalty; today's continued flow-driven flush partially executes that derating while the bottleneck evidence strengthened (record backlog, supply lagging d",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: bottleneck evidence (record backlog, supply lagging demand, $6.3B guide, first hyperscaler multi-rail) was strong and already drove the June 9 'up' call. No new fundamentals since; recovery bounce partly executes the prior thesis. Hold."
+   }
+  }
+ ]
+}

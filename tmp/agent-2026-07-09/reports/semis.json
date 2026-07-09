@@ -1,0 +1,351 @@
+{
+  "caseDate": "2026-07-09",
+  "pages": [
+    "semiconductor-alpha-cpo",
+    "semiconductor-ai-nodes"
+  ],
+  "methodology": [
+    "Loaded July 9 page contexts and per-symbol snapshots, then compared against June 23 verdict files where available.",
+    "Prioritized top-30 ranks and >=10% movers; deltas combine directness to the page thesis, post-refresh price action, YTD crowding, market-cap/visibility caps, and fresh web evidence for HBM/CPO/advanced-packaging developments.",
+    "Primary-source preference was applied where readily available through IR/SEC links; category web checks were used for CPO/NPO and HBM capacity evidence when individual July filings were not present in local context.",
+    "No live page CSV/TS data was modified; this pass only wrote verdict JSON and this report."
+  ],
+  "coverage": {
+    "pageRowsProcessed": 220,
+    "uniqueVerdictFilesWritten": 137,
+    "verdictFiles": [
+      "000660.KS.json",
+      "000990.KS.json",
+      "002156.SZ.json",
+      "002371.SZ.json",
+      "005930.KS.json",
+      "042700.KQ.json",
+      "0522.HK.json",
+      "084370.KQ.json",
+      "0981.HK.json",
+      "1347.HK.json",
+      "2301.TW.json",
+      "2337.TW.json",
+      "2344.TW.json",
+      "2379.TW.json",
+      "2408.TW.json",
+      "2449.TW.json",
+      "2454.TW.json",
+      "300308.SZ.json",
+      "3034.TW.json",
+      "3105.TWO.json",
+      "3436.T.json",
+      "3443.TW.json",
+      "3529.TWO.json",
+      "3661.TW.json",
+      "4063.T.json",
+      "4186.T.json",
+      "4966.TWO.json",
+      "5274.TWO.json",
+      "5347.TWO.json",
+      "600703.SS.json",
+      "603986.SS.json",
+      "6146.T.json",
+      "6266.T.json",
+      "6415.TW.json",
+      "6488.TWO.json",
+      "6525.T.json",
+      "6526.T.json",
+      "6590.T.json",
+      "6723.T.json",
+      "6770.TW.json",
+      "6857.T.json",
+      "688012.SS.json",
+      "688126.SS.json",
+      "688256.SS.json",
+      "6920.T.json",
+      "6963.T.json",
+      "7735.T.json",
+      "8035.T.json",
+      "AAOI.json",
+      "ACLS.json",
+      "ACMR.json",
+      "ADI.json",
+      "AEHR.json",
+      "AIXA.DE.json",
+      "ALAB.json",
+      "ALGM.json",
+      "AMAT.json",
+      "AMBA.json",
+      "AMD.json",
+      "AMKR.json",
+      "AMS.SW.json",
+      "AOSL.json",
+      "ARM.json",
+      "ASM.AS.json",
+      "ASML.json",
+      "ASX.json",
+      "AVGO.json",
+      "AXTI.json",
+      "BESI.AS.json",
+      "CAMT.json",
+      "CDNS.json",
+      "CEVA.json",
+      "COHR.json",
+      "COHU.json",
+      "CRDO.json",
+      "CRUS.json",
+      "DIOD.json",
+      "ENA.V.json",
+      "ENTG.json",
+      "FORM.json",
+      "GFS.json",
+      "HIMX.json",
+      "ICHR.json",
+      "IFX.DE.json",
+      "IMOS.json",
+      "INDI.json",
+      "INTC.json",
+      "IPGP.json",
+      "KLAC.json",
+      "KLIC.json",
+      "LASR.json",
+      "LITE.json",
+      "LRCX.json",
+      "LSCC.json",
+      "MCHP.json",
+      "MKSI.json",
+      "MPWR.json",
+      "MRVL.json",
+      "MTSI.json",
+      "MU.json",
+      "MXL.json",
+      "NVDA.json",
+      "NVMI.json",
+      "NVTS.json",
+      "NXPI.json",
+      "ON.json",
+      "ONTO.json",
+      "PDFS.json",
+      "PI.json",
+      "PLAB.json",
+      "POET.json",
+      "POWI.json",
+      "QCOM.json",
+      "QRVO.json",
+      "RMBS.json",
+      "SIMO.json",
+      "SITM.json",
+      "SIVE.ST.json",
+      "SKYT.json",
+      "SLAB.json",
+      "SMTC.json",
+      "SNPS.json",
+      "SOI.PA.json",
+      "STM.json",
+      "SWKS.json",
+      "SYNA.json",
+      "TER.json",
+      "TPRO.MI.json",
+      "TSEM.json",
+      "TSM.json",
+      "TXN.json",
+      "UCTT.json",
+      "UMC.json",
+      "VECO.json",
+      "VLN.json",
+      "WAF.DE.json",
+      "WOLF.json"
+    ]
+  },
+  "keyRankingChanges": {
+    "rankUpRecommendations": [
+      {
+        "symbol": "042700.KQ",
+        "company": "Hanmi Semiconductor",
+        "page": "semiconductor-ai-nodes",
+        "rank": 1,
+        "scoreDelta": 6,
+        "rankMove": "up",
+        "rationale": "Move up: the SK hynix HBM4 TC-bonder order is direct, customer-specific validation of Hanmi as an HBM4 packaging bottleneck, while the stock's modest YTD return leaves more residual alpha than crowded connectivity peers."
+      },
+      {
+        "symbol": "042700.KQ",
+        "company": "Hanmi Semiconductor",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 55,
+        "scoreDelta": 5,
+        "rankMove": "up",
+        "rationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Hanmi Semiconductor combines Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed. with improved entry after a +0.0% post-refresh move. Score bump is capped by +49.1% YTD and Single-bundle validation risk."
+      },
+      {
+        "symbol": "MU",
+        "company": "Micron Technology",
+        "page": "semiconductor-ai-nodes",
+        "rank": 17,
+        "scoreDelta": 4,
+        "rankMove": "up",
+        "rationale": "Move up: July HBM/DRAM capacity evidence reinforces Micron as a real AI memory bottleneck, and sold-out HBM supply is more node-critical than most mid-pack analog or WFE names despite the memory-cycle risk."
+      },
+      {
+        "symbol": "084370.KQ",
+        "company": "Eugene Technology",
+        "page": "semiconductor-ai-nodes",
+        "rank": 38,
+        "scoreDelta": 3,
+        "rankMove": "up",
+        "rationale": "Move up: AI-node bottleneck lens rewards direct bottleneck exposure, and Eugene Technology combines levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. with improved entry after a -9.3% post-refresh move. Score bump is capped by +71.7% YTD and wafer fab equipment."
+      },
+      {
+        "symbol": "TSEM",
+        "company": "Tower Semiconductor",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 45,
+        "scoreDelta": 3,
+        "rankMove": "up",
+        "rationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Tower Semiconductor combines Specialty foundry processes can host photonics/RF/analog blocks for optical modules. with improved entry after a -24.0% post-refresh move. Score bump is capped by +78.0% YTD and Specialty foundry cycle."
+      },
+      {
+        "symbol": "ACLS",
+        "company": "Axcelis Technologies",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 70,
+        "scoreDelta": 3,
+        "rankMove": "up",
+        "rationale": "Move up: after the Veeco/Axcelis setup surfaced in the page audit, Axcelis is the cleaner go-forward vehicle for ion-implant/equipment optionality, with the recent pullback improving asymmetry."
+      },
+      {
+        "symbol": "MU",
+        "company": "Micron Technology",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 98,
+        "scoreDelta": 3,
+        "rankMove": "up",
+        "rationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Micron Technology combines AI memory demand strong; CPO is indirect via larger AI clusters. with improved entry after a -11.7% post-refresh move. Score bump is capped by +200.8% YTD and Memory cycle, capex, pricing."
+      }
+    ],
+    "rankDownRecommendations": [
+      {
+        "symbol": "WOLF",
+        "company": "Wolfspeed",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 75,
+        "scoreDelta": -6,
+        "rankMove": "remove",
+        "rationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise."
+      },
+      {
+        "symbol": "SIVE.ST",
+        "company": "Sivers Semiconductors",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 48,
+        "scoreDelta": -6,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but +853.3% YTD, -53.4% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "SKYT",
+        "company": "SkyWater Technology",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 19,
+        "scoreDelta": -6,
+        "rankMove": "remove",
+        "rationale": "Remove: the equity case is now dominated by corporate/restructuring mechanics rather than standalone CPO or AI-node bottleneck upside, so keeping it in an actionable alpha ranking adds noise."
+      },
+      {
+        "symbol": "SLAB",
+        "company": "Silicon Labs",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 104,
+        "scoreDelta": -5,
+        "rankMove": "remove",
+        "rationale": "Remove from the actionable rank set: page fit is too weak or the stock is dominated by non-CPO/optical-interconnect alpha lens factors; no fresh July evidence offsets the prior directness concern."
+      },
+      {
+        "symbol": "ENA.V",
+        "company": "Enablence Technologies",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 9,
+        "scoreDelta": -5,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but +270.7% YTD, -35.5% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "6415.TW",
+        "company": "Silergy",
+        "page": "semiconductor-alpha-cpo",
+        "rank": 120,
+        "scoreDelta": -4,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but +181.9% YTD, -18.9% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "AEHR",
+        "company": "Aehr Test Systems",
+        "page": "semiconductor-ai-nodes",
+        "rank": 99,
+        "scoreDelta": -4,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but +206.4% YTD, -34.1% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "SWKS",
+        "company": "Skyworks Solutions",
+        "page": "semiconductor-ai-nodes",
+        "rank": 94,
+        "scoreDelta": -4,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but -9.2% YTD, -19.8% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "QRVO",
+        "company": "Qorvo",
+        "page": "semiconductor-ai-nodes",
+        "rank": 92,
+        "scoreDelta": -4,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but -2.8% YTD, -15.2% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      },
+      {
+        "symbol": "SLAB",
+        "company": "Silicon Labs",
+        "page": "semiconductor-ai-nodes",
+        "rank": 91,
+        "scoreDelta": -4,
+        "rankMove": "down",
+        "rationale": "Move down: the thematic linkage is still present, but +65.5% YTD, -0.5% since the prior refresh and limited new company-specific evidence reduce residual alpha versus cleaner, less-discovered bottleneck names."
+      }
+    ]
+  },
+  "themes": [
+    "HBM and advanced-packaging equipment evidence strengthened: Micron Hiroshima/HBM expansion and Hanmi SK hynix HBM4 bonder order support moving memory-capex derivatives up.",
+    "CPO/NPO adoption remains structurally valid, but the optical/connectivity basket is now crowded and volatile; several strong businesses deserve lower alpha ranks rather than thesis removals.",
+    "Megacap AI winners retain fundamental centrality, but residual-alpha scoring remains capped by visibility, ETF ownership, and large market caps.",
+    "Weak-direct analog/edge/display names should continue drifting toward removal on CPO-specific pages unless new AI-node evidence appears."
+  ],
+  "sources": [
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    }
+  ],
+  "blockers": [
+    "Full manual web research for every one of the 220 page rows was not feasible in one pass; for lower-priority names without local July news, verdicts rely on the provided July context, price-action snapshots, prior verdicts, and category-level web evidence.",
+    "Some foreign listings use alternate tickers between pages and per-symbol files; outputs use the best available canonical symbol context when matched by page/rank/company, otherwise the displayed market symbol."
+  ]
+}

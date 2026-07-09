@@ -1,0 +1,65 @@
+{
+ "symbol": "ADI",
+ "asOf": "2026-07-09",
+ "company": "Analog Devices",
+ "currency": "USD",
+ "priceToday": 385.4,
+ "pricePrev": 408.275,
+ "moveSincePrevPct": -5.6,
+ "ytdReturnPct": 40.79,
+ "marketCapUsdB": 191.77,
+ "quoteUrl": "https://finance.yahoo.com/quote/ADI/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 42,
+   "ticker": "ADI",
+   "company": "Analog Devices",
+   "score": 37.0,
+   "thesis": "Power monitoring and signal-chain leverage; AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NASDAQ: ADI",
+   "ytd": 40.79,
+   "mcapB": 191.77,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: $200B mega-cap, +49% YTD, Buy consensus and post-earnings/Empower rerating already in the tape leave little hidden alpha. No new news since June 9. Hold at #40 in the secondary residual bucket."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 77,
+   "ticker": "ADI",
+   "company": "Analog Devices",
+   "score": 49.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 40.79,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node-bottleneck lens: analog/power/RF is selective, less-direct AI-node exposure than HBM, advanced packaging or AI networking. No new node-relevant news since June 9; prior down-move already priced the crowding. Hold at #71."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 99,
+   "ticker": "ADI",
+   "company": "Analog Devices",
+   "score": 44.5,
+   "thesis": "Quality analog franchise but not early CPO exposure.",
+   "category": "Analog / power",
+   "ytd": 40.79,
+   "mcapB": 191.77,
+   "risk": "Industrial cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: a quality analog/power franchise with no early CPO exposure. No CPO-relevant news since June 9; prior cut already reflected the no-CPO argument. Hold at #96."
+   }
+  }
+ ]
+}

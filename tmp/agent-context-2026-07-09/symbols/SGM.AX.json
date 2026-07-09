@@ -1,0 +1,32 @@
+{
+ "symbol": "SGM.AX",
+ "asOf": "2026-07-09",
+ "company": "Sims",
+ "currency": "AUD",
+ "priceToday": 25.07,
+ "pricePrev": 27.56,
+ "moveSincePrevPct": -9.03,
+ "ytdReturnPct": 37.6,
+ "marketCapUsdB": 3.39,
+ "quoteUrl": "https://finance.yahoo.com/quote/SGM.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 37,
+   "ticker": "SGM.AX",
+   "company": "Sims",
+   "score": 68.1,
+   "thesis": "Metal recycling could capture circularity demand as AI hardware, cabling and facility materials scale",
+   "theme": "Metal recycling",
+   "exchange": "ASX",
+   "regionRank": "Non-US#16",
+   "ytd": 37.6,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "New June 17 FY26 EBIT upgrade (AUD 420-435M vs 350-400M) is a genuine fundamental positive, but driven by ferrous/non-ferrous scrap markets and Lifecycle Services, not AI-hardware circularity. It strengthens the company without strengthening the AI-node alpha thesis; the further run also erodes 'latent' character. Small +1 for the beat; hold rank on a strict screen."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "CDNS",
+ "asOf": "2026-07-09",
+ "company": "Cadence Design Systems",
+ "currency": "USD",
+ "priceToday": 374.06,
+ "pricePrev": 383.58,
+ "moveSincePrevPct": -2.48,
+ "ytdReturnPct": 20.51,
+ "marketCapUsdB": 103.17,
+ "quoteUrl": "https://finance.yahoo.com/quote/CDNS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 56,
+   "ticker": "CDNS",
+   "company": "Cadence Design Systems",
+   "score": 60.7,
+   "thesis": "Chiplet/3D/photonic design complexity benefits EDA; discovery already high.",
+   "category": "EDA/IP",
+   "ytd": 20.51,
+   "mcapB": 103.17,
+   "risk": "Valuation and AI/EDA cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/chiplet-complexity lens: Intel Foundry 14A expansion (~Jun 9) is a modest fresh positive for EDA design-complexity exposure, but discovery is already high (ATH, multiple PT raises into $432) on this crowding-sensitive list. Small positive for the in-window deal, no rank move."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 72,
+   "ticker": "CDNS",
+   "company": "Cadence Design Systems",
+   "score": 51.6,
+   "thesis": "Design-validation exposure. Negative ytd reset; watch eda software execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 20.51,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list, EDA/test/timing bucket: Intel Foundry 14A expansion (~Jun 9) reinforces the design-validation bottleneck thesis - a genuine in-window datapoint. Small positive; no rank move. (Page thesis 'negative ytd reset' is stale - YTD is +23%.)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "symbol": "CLS",
+ "asOf": "2026-07-09",
+ "company": "Celestica",
+ "currency": "USD",
+ "priceToday": 360.74,
+ "pricePrev": 356.115,
+ "moveSincePrevPct": 1.3,
+ "ytdReturnPct": 19.29,
+ "marketCapUsdB": 39.67,
+ "quoteUrl": "https://finance.yahoo.com/quote/CLS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 91,
+   "ticker": "CLS",
+   "company": "Celestica",
+   "score": 3.3,
+   "thesis": "Helios rack-scale AI and 1.6T switch exposure; tight-supply, direct-AI, near-term-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "TSX/NYSE: CLS",
+   "ytd": 19.29,
+   "mcapB": 39.67,
+   "revisionNote": "This page parked CLS at 94 specifically for post-rerating crowding; a flow-driven ~24% drawdown off the June 2 peak with the Helios/1.6T thesis intact restores some residual alpha and asymmetry, warranting a modest move up from the bottom of the list.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: the ~24% drawdown with Helios/1.6T thesis intact already drove the June 9 move up from the bottom. No new news since; continued flow-driven softness keeps asymmetry modestly improved but no fundamental change. Hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 98,
+   "ticker": "CLS.TO",
+   "company": "Celestica",
+   "score": 53.6,
+   "thesis": "Celestica has strong AI server exposure, but that is precisely why it is now a discovered trade.",
+   "theme": "Connectivity & Services",
+   "exchange": "TSX/NYSE",
+   "ytd": 22.99,
+   "conviction": "Medium",
+   "catalysts": "Hyperscaler programs; networking/server mix; margin expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 93 is 8 places worse than displayed rank 85; adjusted score 53.0; YTD +29.8%; market cap $42.7B; Celestica remains tied to connectivity & services through High-complexity electronics manufacturing and AI server supply chain. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 66,
+   "ticker": "CLS",
+   "company": "Celestica",
+   "score": 53.3,
+   "thesis": "Physical deployment exposure. Negative ytd reset; watch systems manufacturing and networking hardware execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 19.29,
+   "auditNote": "Yesterday's down move was premised on a ~50% YTD rerating that has now largely unwound (YTD +18.9%, ~24% off the June 2 peak) on flows, not fundamentals; with the deployment/systems-integration thesis",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master bottleneck list: YTD rerating largely unwound (~24% off the June 2 peak) on flows, not fundamentals - already actioned via the June 9 'up'. No new news since June 9; deployment/systems-integration thesis and raised FY26 guide intact. Hold."
+   }
+  }
+ ]
+}

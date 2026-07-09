@@ -1,0 +1,238 @@
+{
+  "caseDate": "2026-07-09",
+  "pages": {
+    "robotics": 50,
+    "scaling": 48
+  },
+  "verdictFiles": 97,
+  "pageVerdicts": 98,
+  "topUps": [
+    {
+      "symbol": "002979.SZ",
+      "company": "China Leadshine Technology",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 8,
+      "rationale": "Direct humanoid-actuator proof is now unusually concrete: >80% China humanoid OEM supply-chain penetration, >120k frameless motors shipped in 2025, dexterous hands and joint modules in mass production, and a 2m-unit automated line under construction. The +20.9% move adds crowding risk, but the evidence upgrade is bigger than the rerating penalty."
+    },
+    {
+      "symbol": "603662.SS",
+      "company": "Keli Sensing Technology",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 7,
+      "rationale": "Force/torque sensing is one of the cleaner humanoid bottlenecks, and Keli now has >70 robot customers sampled plus >1,000 monthly force-sensor shipments. That converts the thesis from optionality into early scale while keeping the name more hidden than lidar and headline actuator leaders."
+    },
+    {
+      "symbol": "2498.HK",
+      "company": "RoboSense",
+      "page": "robotics",
+      "currentRank": 10,
+      "scoreDelta": 6,
+      "rationale": "This is one of the strongest evidence upgrades on the page: robotics shipments surpassed ADAS, grew 1,458.8% YoY, and the company is tied to nearly 50 humanoid/quadruped customers. It is no longer as hidden, but the shipment data is too direct to ignore."
+    },
+    {
+      "symbol": "BW",
+      "company": "Babcock & Wilcox",
+      "page": "scaling",
+      "currentRank": 29,
+      "scoreDelta": 6,
+      "rationale": "The 1.2GW AI-data-center power project and $2.7B backlog are directly on scaling/power. The stock's drawdown reflects dilution and warrant accounting, but the thesis relevance improved enough to move it up from a low rank."
+    },
+    {
+      "symbol": "300100.SZ",
+      "company": "Shuanglin Co.",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 5,
+      "rationale": "The 100k-unit roller-screw line is a real capacity signal for humanoid linear joints, and the sample pipeline validates the automotive-to-robotics transition. Keep the upgrade measured because formal designated supply contracts are still missing."
+    },
+    {
+      "symbol": "XBOTF",
+      "company": "Realbotix",
+      "page": "robotics",
+      "currentRank": 3,
+      "scoreDelta": 5,
+      "rationale": "A fresh care-sector pilot plus the still-live Nasdaq path make the direct humanoid microcap case stronger. Keep risk high because transaction approval, liquidity and actual revenue scale are unresolved."
+    },
+    {
+      "symbol": "COHU",
+      "company": "Cohu",
+      "page": "scaling",
+      "currentRank": 4,
+      "scoreDelta": 5,
+      "rationale": "AI processor thermal test plus HBM inspection are exactly the verification layer scaling needs. The opportunity pipeline is now quantified, so Cohu deserves to remain near the top despite cyclicality and profit recovery risk."
+    },
+    {
+      "symbol": "HSAI",
+      "company": "Hesai",
+      "page": "robotics",
+      "currentRank": 11,
+      "scoreDelta": 5,
+      "rationale": "Hesai is less hidden than the best microcaps, but Q1 profitability, 3.0M-3.5M annual shipment guide, and explicit humanoid/quadruped leadership strengthen the physical-AI sensor case."
+    },
+    {
+      "symbol": "AIP",
+      "company": "Arteris",
+      "page": "scaling",
+      "currentRank": 16,
+      "scoreDelta": 5,
+      "rationale": "The imec collaboration is fresh and directly about AI/HPC chiplets. Record ACV/royalties and raised guidance make AIP a cleaner on-chip interconnect beneficiary than its old mid-pack rank implied."
+    },
+    {
+      "symbol": "MP",
+      "company": "MP Materials",
+      "page": "robotics",
+      "currentRank": 0,
+      "scoreDelta": 4,
+      "rationale": "Permanent magnets are a real second-order humanoid and drone/robotics bottleneck, and MP now has unusually strong policy/offtake support. Not hidden, but the magnet supply-chain setup deserves more weight than generic large-cap robotics proxies."
+    },
+    {
+      "symbol": "AMBA",
+      "company": "Ambarella",
+      "page": "robotics",
+      "currentRank": 8,
+      "scoreDelta": 4,
+      "rationale": "Robotics moved from generic edge-AI optionality to quantified design wins: 15+ wins, >$100M lifetime revenue and a 30-customer pipeline. Still not a pure humanoid component, so the move is positive but not a top-tier rerank."
+    },
+    {
+      "symbol": "AEHR",
+      "company": "Aehr Test Systems",
+      "page": "scaling",
+      "currentRank": 43,
+      "scoreDelta": 3,
+      "rationale": "The silicon-photonics follow-on order is directly tied to hyperscale AI optical interconnect reliability testing. Upgrade modestly because the financial proof waits until July 14 and the stock has already had a large run."
+    }
+  ],
+  "topDowns": [
+    {
+      "symbol": "WOLF",
+      "company": "Wolfspeed",
+      "page": "scaling",
+      "currentRank": 27,
+      "scoreDelta": -5,
+      "rationale": "AI power-density relevance is real, but Chapter 11/fresh-start risk and the extreme post-bankruptcy rerating overwhelm the hidden-alpha setup. Keep it on page only as speculative SiC optionality."
+    },
+    {
+      "symbol": "ATOM",
+      "company": "Atomera",
+      "page": "robotics",
+      "currentRank": 37,
+      "scoreDelta": -4,
+      "rationale": "Robotics hidden-gem lens: Remove from active alpha weight at current rank 37. July market-data refresh shows move since prior -12.7%, YTD +189.0%, market cap $0.29B. Thesis: Too indirect and already up too much.. Score delta -4; judged against under-owned physical-AI exposure, direct component purity and commercialization proof."
+    },
+    {
+      "symbol": "EOSE",
+      "company": "Eos Energy Enterprises",
+      "page": "scaling",
+      "currentRank": 17,
+      "scoreDelta": -3,
+      "rationale": "The 920MWh FPUSA project selection supports the grid-storage thesis, but the immediate evidence is dominated by equity/warrant dilution and external financing dependency. Move down modestly on capital-structure risk."
+    },
+    {
+      "symbol": "ALKAL.PA",
+      "company": "Kalray",
+      "page": "scaling",
+      "currentRank": 45,
+      "scoreDelta": -3,
+      "rationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 45. July market-data refresh shows move since prior -5.0%, YTD +577.5%, market cap $0.17B. Thesis: Data-processing / DPU-style optionality. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage."
+    },
+    {
+      "symbol": "3532.TW",
+      "company": "Formosa Sumco Technology",
+      "page": "scaling",
+      "currentRank": 46,
+      "scoreDelta": -3,
+      "rationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 46. July market-data refresh shows move since prior +13.5%, YTD +337.5%, market cap $4.62B. Thesis: Silicon wafer supply for AI-related semiconductor capacity. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage."
+    },
+    {
+      "symbol": "IQE.L",
+      "company": "IQE plc",
+      "page": "scaling",
+      "currentRank": 47,
+      "scoreDelta": -3,
+      "rationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 47. July market-data refresh shows move since prior -21.7%, YTD +657.1%, market cap $0.80B. Thesis: Epitaxy materials stack; upstream bottleneck exposure. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage."
+    },
+    {
+      "symbol": "STLTECH.NS",
+      "company": "Sterlite Technologies",
+      "page": "scaling",
+      "currentRank": 48,
+      "scoreDelta": -3,
+      "rationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 48. July market-data refresh shows move since prior -15.4%, YTD +401.5%, market cap $3.16B. Thesis: Fiber and optical transport for AI data movement. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage."
+    }
+  ],
+  "blockers": [
+    "Missing July symbol context for JEN.F",
+    "Missing July symbol context for WAF.F",
+    "Deep web checks were targeted to material movers and likely rank changers; non-targeted names carry forward June 23 source work plus July 9 market stats.",
+    "Live data files were used only as reference and were not edited."
+  ],
+  "moverCoverage": {
+    "003021.SZ": -6.52,
+    "002979.SZ": 20.88,
+    "603662.SS": -9.69,
+    "300100.SZ": -14.93,
+    "688017.SS": 7.86,
+    "MP": -11.87,
+    "9660.HK": 10.86,
+    "SERV": -10.21,
+    "XBOTF": 32.19,
+    "ACUVI.ST": -7.24,
+    "MKA.L": -11.26,
+    "RR": -12.35,
+    "ALNT": -9.9,
+    "AMBA": 10.96,
+    "MBLY": 13.12,
+    "2498.HK": 6.04,
+    "KDK": -14.6,
+    "PDYN": -12.7,
+    "SHA0.DE": -7.55,
+    "9880.HK": -9.95,
+    "INDI": 13.95,
+    "ZBRA": 8.35,
+    "OUST": -6.21,
+    "AEVA": -11.58,
+    "SYM": 7.25,
+    "108490.KQ": -19.84,
+    "277810.KQ": -14.31,
+    "VPG": -20.31,
+    "LSCC": -8.71,
+    "NEO.TO": 7.41,
+    "KLIC": -16.87,
+    "MRAM": -25.43,
+    "ATOM": -12.68,
+    "005380.KS": -12.82,
+    "VOLTAMP.NS": -9.38,
+    "6315.T": -5.13,
+    "COHU": -19.07,
+    "VLN": -6.42,
+    "SCT.NZ": 9.09,
+    "PDFS": -13.91,
+    "INOXWIND.NS": -8.24,
+    "XFAB.PA": -16.89,
+    "SKYT": -8.51,
+    "AIP": -18.75,
+    "EOSE": -33.53,
+    "NOFR.TA": 11.33,
+    "VGO.WA": 10.67,
+    "PNG.V": -17.01,
+    "HIMX": -11.73,
+    "AOSL": -18.33,
+    "SENS.SW": -5.56,
+    "WOLF": -29.06,
+    "BW": -34.45,
+    "ALLT": 15.88,
+    "NCC.L": 11.47,
+    "EKI.PA": -14.66,
+    "SMHN.DE": -15.4,
+    "CRNT": -12.62,
+    "TEJASNET.NS": -12.87,
+    "ATEN": 8.25,
+    "AEHR": -34.09,
+    "ALKAL.PA": -5.02,
+    "3532.TW": 13.54,
+    "IQE.L": -21.71,
+    "STLTECH.NS": -15.36
+  }
+}

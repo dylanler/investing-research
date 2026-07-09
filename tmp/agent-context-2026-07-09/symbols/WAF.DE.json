@@ -1,0 +1,45 @@
+{
+ "symbol": "WAF.DE",
+ "asOf": "2026-07-09",
+ "company": "Siltronic",
+ "currency": "EUR",
+ "priceToday": 88.0,
+ "pricePrev": 88.8,
+ "moveSincePrevPct": -0.9,
+ "ytdReturnPct": 72.55,
+ "marketCapUsdB": 3.17,
+ "quoteUrl": "https://finance.yahoo.com/quote/WAF.DE/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 40,
+   "ticker": "WAF.DE",
+   "company": "Siltronic",
+   "score": 60.7,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 72.55,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Siltronic should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 41, 87.9% YTD, $3.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 44,
+   "ticker": "WAF.F",
+   "company": "Siltronic",
+   "score": 24.0,
+   "thesis": "Wafer substrate supply; upstream semiconductor bottleneck",
+   "bucket": "semiconductors",
+   "ytd": 64.9,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 45 is 4 places worse than displayed rank 41; adjusted score 21.8; YTD +90.7%; market cap $3.5B; Scaling watchlist fit is Wafer substrate supply; upstream semiconductor bottleneck; bucket semiconductors; tags packaging_memory_test,power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

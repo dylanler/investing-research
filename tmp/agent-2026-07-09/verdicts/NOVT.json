@@ -1,0 +1,56 @@
+{
+  "symbol": "NOVT",
+  "company": "Novanta",
+  "caseDate": "2026-07-09",
+  "newsSince": "July 9 context refresh for Novanta (NOVT) across latent-ai-nodes: market cap $5.13B, move since prior -2.2%, YTD +33.7%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Novanta announces Riverpoint Medical acquisition (BusinessWire, Jun 9)",
+      "url": "https://www.businesswire.com/news/home/20260609749750/en/Novanta-Inc.-Announces-Acquisition-of-Riverpoint-Medical"
+    },
+    {
+      "label": "Novanta buys Riverpoint Medical $1.2B cash (StockTitan)",
+      "url": "https://www.stocktitan.net/news/NOVT/novanta-inc-announces-acquisition-of-riverpoint-ob2gol9bv6tw.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/NOVT/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "NOVT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/NOVT/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 23. July market-data refresh shows move since prior -2.2%, YTD +33.7%, market cap $5.13B. Thesis: High-quality motion and robotics component company, but not a cheap hidden humanoid play.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Motion/encoder content can ride automation and surgical-robotics demand.",
+      "neutral": "Component supplier, not a humanoid pure-play; story now medical-led.",
+      "bear": "Post-Riverpoint the growth engine is surgical consumables, not robotics motion components.",
+      "primaryCatalyst": "Medical-robotics and automation content wins",
+      "primaryRisk": "Robotics purity dilution as medical mix rises"
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 67,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 67. July context shows score 64.0, move since prior -2.2%, YTD +33.7%, market cap $5.13B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Precision motion/photonics subsystems feed automation and medical robotics; quality franchise compounding.",
+      "neutral": "High-quality but increasingly medical-mix; AI-node linkage is indirect and valuation is rich.",
+      "bear": "Riverpoint pushes mix to ~60% medical/consumables, further away from the latent AI-supply-chain thesis.",
+      "primaryCatalyst": "Riverpoint accretion + photonics demand recovery",
+      "primaryRisk": "Integration/leverage (~2.7x) and dilution from $300M raise"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "EOSE",
+ "asOf": "2026-07-09",
+ "company": "Eos Energy Enterprises",
+ "currency": "USD",
+ "priceToday": 4.505,
+ "pricePrev": 6.777,
+ "moveSincePrevPct": -33.53,
+ "ytdReturnPct": -65.27,
+ "marketCapUsdB": 1.6,
+ "quoteUrl": "https://finance.yahoo.com/quote/EOSE/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 17,
+   "ticker": "EOSE",
+   "company": "Eos Energy Enterprises",
+   "score": 48.0,
+   "thesis": "Long-duration storage optionality",
+   "bucket": "electricity",
+   "ytd": -65.27,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 26 is 5 places worse than displayed rank 21; adjusted score 41.0; YTD -48.4%; market cap $2.3B; Scaling watchlist fit is Long-duration storage optionality; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

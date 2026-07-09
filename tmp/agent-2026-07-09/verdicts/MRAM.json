@@ -1,0 +1,35 @@
+{
+  "symbol": "MRAM",
+  "company": "Everspin Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Everspin Technologies (MRAM) now screens at $0.46B market cap, -25.4% since the prior refresh and +72.9% YTD. Page thesis remains: A real edge memory story, but the stock has already exploded.",
+  "sources": [
+    {
+      "label": "MRAM quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MRAM/"
+    },
+    {
+      "label": "Everspin to join Russell 2000 (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/everspin-technologies-set-join-russell-090000235.html"
+    },
+    {
+      "label": "Everspin Investor Relations",
+      "url": "https://investor.everspin.com/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 35,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 35. July market-data refresh shows move since prior -25.4%, YTD +72.9%, market cap $0.46B. Thesis: A real edge memory story, but the stock has already exploded.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Persistent, high-endurance edge MRAM fits robotics/edge-AI memory needs; $40M Navy win shows commercialization.",
+      "neutral": "Genuine edge-memory story but only indirect to the humanoid stack; tiny $0.59B cap.",
+      "bear": "+136% YTD plus Russell 2000 crowding; valuation outruns niche robotics relevance.",
+      "primaryCatalyst": "Edge-AI/industrial MRAM design wins beyond defense",
+      "primaryRisk": "Crowding and rerating after a parabolic run; small-cap volatility"
+    }
+  ]
+}

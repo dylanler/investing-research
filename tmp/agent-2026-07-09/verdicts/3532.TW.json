@@ -1,0 +1,35 @@
+{
+  "symbol": "3532.TW",
+  "company": "Formosa Sumco Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Formosa Sumco Technology (3532.TW) now screens at $4.62B market cap, +13.5% since the prior refresh and +337.5% YTD. Page thesis remains: Silicon wafer supply for AI-related semiconductor capacity",
+  "sources": [
+    {
+      "label": "3532.TW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/3532.TW/"
+    },
+    {
+      "label": "Semiecosystem (Lapedus) - Silicon wafer upturn, higher prices",
+      "url": "https://marklapedus.substack.com/p/silicon-wafer-upturn-higher"
+    },
+    {
+      "label": "TrendForce - SUMCO delays two wafer fabs amid market shift",
+      "url": "https://www.trendforce.com/news/2026/04/06/news-sumco-delays-construction-of-two-silicon-wafer-fabs-amid-market-shift/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 46,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.61,
+      "rankRationale": "Test-time scaling lens: Risk/reward deserves less rank weight at current rank 46. July market-data refresh shows move since prior +13.5%, YTD +337.5%, market cap $4.62B. Thesis: Silicon wafer supply for AI-related semiconductor capacity. Score delta -3; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "AI capacity needs more wafers; tightening supply lifts pricing for all 12-inch suppliers.",
+      "neutral": "Small specialist supplier riding parent SUMCO's narrative; no own catalyst.",
+      "bear": "+285% YTD; +31% spike is flow; China wafer price offensive; thin direct AI link.",
+      "primaryCatalyst": "300mm wafer price hikes flowing to Taiwan suppliers",
+      "primaryRisk": "Momentum unwind / Chinese wafer oversupply"
+    }
+  ]
+}

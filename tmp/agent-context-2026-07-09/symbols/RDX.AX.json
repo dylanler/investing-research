@@ -1,0 +1,32 @@
+{
+ "symbol": "RDX.AX",
+ "asOf": "2026-07-09",
+ "company": "Redox",
+ "currency": "AUD",
+ "priceToday": 3.6,
+ "pricePrev": 3.97,
+ "moveSincePrevPct": -9.32,
+ "ytdReturnPct": 17.26,
+ "marketCapUsdB": 1.33,
+ "quoteUrl": "https://finance.yahoo.com/quote/RDX.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 68,
+   "ticker": "RDX.AX",
+   "company": "Redox",
+   "score": 64.7,
+   "thesis": "Chemical distribution could supply coolants, water-treatment chemistry and process inputs if new suppliers are needed",
+   "theme": "Chemical distribution",
+   "exchange": "ASX",
+   "regionRank": "Non-US#33",
+   "ytd": 17.26,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: no new evidence the chemical-distribution book is supplying coolants/water-treatment to compute sites. Solid but generic 1H growth doesn't validate the speculative AI-input pathway. Prior 'down' was a price/alpha-compression call (now applied separately); fundamentally a hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+  "symbol": "5802.T",
+  "company": "Sumitomo Electric",
+  "caseDate": "2026-07-09",
+  "newsSince": "-80.9% since prior, +43.1% YTD. The result validates optical bottlenecks but weakens the latent premise because AI optical demand is now explicit in segment profit.",
+  "sources": [
+    {
+      "label": "Sumitomo Electric FY2026 results summary",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260511522404"
+    },
+    {
+      "label": "Sumitomo Electric - multicore fiber AI data center collaboration",
+      "url": "https://sumitomoelectric.com/press/2026/02/prs011"
+    },
+    {
+      "label": "optics.org - Optoscribe x Sumitomo Electric data centers",
+      "url": "https://optics.org/news/optoscribe-targets-data-centers-with-sumitomo-electric"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/5802.T/"
+    },
+    {
+      "label": "5802.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/5802.T/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 28,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Fiber/cable scarcity still benefits from AI networking buildouts; the sharp selloff restores some residual alpha.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -80.9%, YTD +43.1%, market cap about $51.5B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 60,
+      "rankMove": "down",
+      "scoreDelta": -4,
+      "confidence": 0.85,
+      "rankRationale": "The result validates optical bottlenecks but weakens the latent premise because AI optical demand is now explicit in segment profit.",
+      "bull": "Multicore fiber leadership; grid/auto recovery optionality; telecom demand.",
+      "neutral": "Broad supplier; AI fiber is a slice of the mix.",
+      "bear": "Complexity caps re-rating; +88% YTD already moves it off-cheap.",
+      "primaryCatalyst": "Capacity expansion for optical products, connectors, devices and InP substrates.",
+      "primaryRisk": "FY2027 profit cooling guidance and AI-optical crowding."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 32. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -80.9% since the prior refresh, +43.1% YTD. Prior frame: Residual-alpha-vs-passives lens: power-cable/optical leverage intact but the name sits a step removed from the core passive/power bottleneck stack. No new evidence since June 9; +4.6% is flow. Asymmetry essentially unchanged; rank stands.",
+      "bull": "Power cable + multicore fiber + optical interconnect leverage to AI campuses.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 32, score 42.8, -80.9% since prior, +43.1% YTD.",
+      "bear": "Diversified end-markets dilute AI pure-play; ATH June 3.",
+      "primaryCatalyst": "Multicore fiber / power-cable AI demand",
+      "primaryRisk": "Conglomerate dilution of AI signal"
+    }
+  ]
+}

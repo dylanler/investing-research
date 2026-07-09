@@ -1,0 +1,29 @@
+{
+ "symbol": "XFAB.PA",
+ "asOf": "2026-07-09",
+ "company": "X-FAB",
+ "currency": "EUR",
+ "priceToday": 7.97,
+ "pricePrev": 9.59,
+ "moveSincePrevPct": -16.89,
+ "ytdReturnPct": 50.95,
+ "marketCapUsdB": 1.17,
+ "quoteUrl": "https://finance.yahoo.com/quote/XFAB.PA/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 12,
+   "ticker": "XFAB.PA",
+   "company": "X-FAB",
+   "score": 53.0,
+   "thesis": "Specialty foundry for mixed-signal/industrial/auto compute edge",
+   "bucket": "semiconductors",
+   "ytd": 50.95,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 17 is 13 places better than displayed rank 30; adjusted score 50.0; YTD +104.9%; market cap $1.9B; Scaling watchlist fit is Specialty foundry for mixed-signal/industrial/auto compute edge; bucket semiconductors; tags none. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "PAL.VI",
+ "asOf": "2026-07-09",
+ "company": "Palfinger",
+ "currency": "EUR",
+ "priceToday": 32.25,
+ "pricePrev": 32.6,
+ "moveSincePrevPct": -1.07,
+ "ytdReturnPct": -4.59,
+ "marketCapUsdB": 1.41,
+ "quoteUrl": "https://finance.yahoo.com/quote/PAL.VI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 75,
+   "ticker": "PAL.VI",
+   "company": "Palfinger",
+   "score": 64.0,
+   "thesis": "Lifting systems could support modular infrastructure, maintenance robotics and industrial logistics",
+   "theme": "Lifting/robotic handling",
+   "exchange": "Vienna",
+   "regionRank": "Non-US#39",
+   "ytd": -4.59,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent AI-node lens: lifting/handling tie to robotics/datacenter-infra logistics stays indirect and speculative. No new contract, guidance or analyst catalyst since June 9; -1.7% drift is noise. Hold at 77 ahead of July 28 earnings."
+   }
+  }
+ ]
+}

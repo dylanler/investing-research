@@ -1,0 +1,32 @@
+{
+ "symbol": "6504.T",
+ "asOf": "2026-07-09",
+ "company": "Fuji Electric",
+ "currency": "JPY",
+ "priceToday": 12975.0,
+ "pricePrev": 14600.0,
+ "moveSincePrevPct": -11.13,
+ "ytdReturnPct": 7.32,
+ "marketCapUsdB": 12.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/6504.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 39,
+   "ticker": "6504",
+   "company": "Fuji Electric",
+   "score": 39.4,
+   "thesis": "Power semis and power systems leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TSE: 6504",
+   "ytd": 7.32,
+   "mcapB": 12.26,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: power-semis + DC switchboard/power-supply capacity expansions (Malaysia, Tsukuba 1.7x, Kobe 1.5x) and SiC doubling are real bottleneck adjacency, but all predate June 9 and are already reflected. Bucketed 'secondary' - genuine adjacency, only modest mispricing. Hold rank 37."
+   }
+  }
+ ]
+}

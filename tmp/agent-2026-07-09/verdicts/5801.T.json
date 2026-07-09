@@ -1,0 +1,60 @@
+{
+  "symbol": "5801.T",
+  "company": "Furukawa Electric",
+  "caseDate": "2026-07-09",
+  "newsSince": "Strategic relevance is undeniable, but Furukawa is now an AI optical/data-center stock in plain sight.",
+  "sources": [
+    {
+      "label": "Furukawa FY2026 presentation",
+      "url": "https://www.furukawaelectric.com/en/ir/library/finalreport/pdf/2026/20260512_pre.pdf"
+    },
+    {
+      "label": "BigGo - Furukawa subsidiary absorption merger notice",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260609565981"
+    },
+    {
+      "label": "Simply Wall St - Furukawa FY2027 guidance",
+      "url": "https://simplywall.st/stocks/jp/capital-goods/tse-5801/furukawa-electric-shares/news/furukawa-electric-tse5801-stock-looks-fully-priced-after-new"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/5801.T/"
+    },
+    {
+      "label": "5801.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/5801.T/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 87,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.72,
+      "rankRationale": "Optical fiber/component exposure remains relevant and the extreme mover print looks more like data/flow distortion than thesis deterioration.",
+      "bull": "800G/1.6T optical demand and InP/laser constraints remain structurally tied to scale-out AI clusters.",
+      "neutral": "Current snapshot: move since prior -92.8%, YTD +236.2%, market cap about $17.4B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets.",
+      "primaryCatalyst": "800G/1.6T optics orders, InP/laser capacity and hyperscaler design wins",
+      "primaryRisk": "Optics cyclicality, customer concentration, capacity additions and rapid valuation resets."
+    },
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 97,
+      "rankMove": "down",
+      "scoreDelta": -5,
+      "confidence": 0.86,
+      "rankRationale": "Strategic relevance is undeniable, but Furukawa is now an AI optical/data-center stock in plain sight.",
+      "bull": "Optics/fiber leverage to AI clusters; less crowded than Fujikura; sector pricing power read-through.",
+      "neutral": "No standalone catalyst; gains are sector sympathy; merger is administrative.",
+      "bear": "+365% YTD fully discovered; conglomerate; rides peers' news not its own.",
+      "primaryCatalyst": "Lightera optical reorganization and data-center product capacity/product mix.",
+      "primaryRisk": "One-off gains, valuation/crowding and stock-split noise."
+    }
+  ]
+}

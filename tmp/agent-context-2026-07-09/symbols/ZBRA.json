@@ -1,0 +1,45 @@
+{
+ "symbol": "ZBRA",
+ "asOf": "2026-07-09",
+ "company": "Zebra Technologies",
+ "currency": "USD",
+ "priceToday": 264.32,
+ "pricePrev": 243.94,
+ "moveSincePrevPct": 8.35,
+ "ytdReturnPct": 6.45,
+ "marketCapUsdB": 12.61,
+ "quoteUrl": "https://finance.yahoo.com/quote/ZBRA/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 49,
+   "ticker": "ZBRA",
+   "company": "Zebra Technologies",
+   "score": 68.3,
+   "thesis": "AI needs clean operational data; Zebra supplies identity, tracking and machine-vision endpoints, but warehouse spending must recover.",
+   "theme": "Sensors & Measurement",
+   "exchange": "NASDAQ",
+   "ytd": 6.45,
+   "conviction": "Medium",
+   "catalysts": "Retail/logistics refresh; machine vision; RFID and workflow data.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 51 is 14 places worse than displayed rank 37; adjusted score 67.0; YTD -6.2%; market cap $11.9B; Zebra Technologies remains tied to sensors & measurement through Barcode/RFID, machine vision and warehouse data capture. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 19,
+   "ticker": "ZBRA",
+   "company": "Zebra Technologies",
+   "score": 62.0,
+   "thesis": "The Skild sale validates the robotics asset, but also removes some direct upside from Zebra itself.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Humanoid-stack lens: nothing since June 9 rebuilds the robotics case. The Skild sale stripped direct robotics upside and the recent ZONE news is frontline software, not robotics. Continue migrating the name down/off this page."
+   }
+  }
+ ]
+}

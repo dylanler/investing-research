@@ -1,0 +1,76 @@
+{
+  "symbol": "042700.KQ",
+  "company": "Hanmi Semiconductor",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 55 up (+5); flat 0.0% since the prior refresh. semiconductor-ai-nodes: rank 1 up (+6); flat 0.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "SK hynix places 44.2bn won TC Bonder order with Hanmi, accelerating HBM4 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2026/06/09/news-sk-hynix-reportedly-places-44-2bn-won-tc-bonder-order-with-hanmi-accelerating-hbm4-ramp-up/"
+    },
+    {
+      "label": "Hanmi wins first HBM4 TC bonder (Griffin) order from SK hynix (The Elec)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "SK hynix orders Hanmi TC Bonder 4.5 Griffin, $28.7M first Griffin contract (TechTimes)",
+      "url": "https://www.techtimes.com/articles/318013/20260609/sk-hynix-orders-hanmi-tc-bonder-45-griffin-hbm4-first-griffin-contract-worth-287m.htm"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "042700.KQ Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/042700.KQ/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 55,
+      "rankMove": "up",
+      "scoreDelta": 5,
+      "confidence": 0.82,
+      "rankRationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Hanmi Semiconductor combines Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed. with improved entry after a +0.0% post-refresh move. Score bump is capped by +49.1% YTD and Single-bundle validation risk.",
+      "bull": "Concrete HBM4 bonder order strengthens the ecosystem-node case and reduces validation risk.",
+      "neutral": "Adjacent to CPO via advanced packaging but not optical-interconnect content; off the page's core lens.",
+      "bear": "Single-bundle validation risk and SK Hynix concentration remain; not a CPO connectivity play.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "Single-bundle validation risk"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 1,
+      "rankMove": "up",
+      "scoreDelta": 6,
+      "confidence": 0.82,
+      "rankRationale": "Move up: the SK hynix HBM4 TC-bonder order is direct, customer-specific validation of Hanmi as an HBM4 packaging bottleneck, while the stock's modest YTD return leaves more residual alpha than crowded connectivity peers.",
+      "bull": "First HBM4 Griffin order validates the TC-bonder bottleneck; Q2 rebound modeled; low +4.5% YTD leaves alpha despite #1 rank.",
+      "neutral": "Single-customer concentration on SK Hynix; order is one quarter's proof, not a multi-year lock-in.",
+      "bear": "SK Hynix keeps diversifying to Hanwha/ASMPT; the decade-long exclusivity is gone and competition is structural.",
+      "primaryCatalyst": "HBM/chiplet packaging capacity additions and customer awards",
+      "primaryRisk": "SK Hynix supplier diversification erodes share"
+    }
+  ]
+}

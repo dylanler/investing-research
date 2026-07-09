@@ -1,0 +1,30 @@
+{
+ "symbol": "084370.KQ",
+ "asOf": "2026-07-09",
+ "company": "Eugene Technology",
+ "currency": "KRW",
+ "priceToday": 147000.0,
+ "pricePrev": 162000.0,
+ "moveSincePrevPct": -9.26,
+ "ytdReturnPct": 71.73,
+ "marketCapUsdB": 2.31,
+ "quoteUrl": "https://finance.yahoo.com/quote/084370.KQ/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 38,
+   "ticker": "084370.KQ",
+   "company": "Eugene Technology",
+   "score": 61.1,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 71.73,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Eugene Technology should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 25, 51.3% YTD, $2.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "SYNA",
+ "asOf": "2026-07-09",
+ "company": "Synaptics",
+ "currency": "USD",
+ "priceToday": 123.37,
+ "pricePrev": 135.605,
+ "moveSincePrevPct": -9.02,
+ "ytdReturnPct": 62.89,
+ "marketCapUsdB": 4.85,
+ "quoteUrl": "https://finance.yahoo.com/quote/SYNA/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 67,
+   "ticker": "SYNA",
+   "company": "Synaptics",
+   "score": 51.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 62.89,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens favors HBM/packaging/networking chokepoints; SYNA's edge-AI Astra/Coralboard wins are real but tangential to the node bottleneck. +79% YTD and accelerating PT raises ($155-180) signal crowding. No node-relevant change since June 9. Hold at 64."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 111,
+   "ticker": "SYNA",
+   "company": "Synaptics",
+   "score": 33.3,
+   "thesis": "Edge AI optionality, low CPO exposure.",
+   "category": "Edge AI/IoT",
+   "ytd": 62.89,
+   "mcapB": 4.85,
+   "risk": "IoT and consumer cycles",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Synaptics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 79.6% YTD and $5.2B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

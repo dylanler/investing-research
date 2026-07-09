@@ -1,0 +1,31 @@
+{
+ "symbol": "TPRO.MI",
+ "asOf": "2026-07-09",
+ "company": "Technoprobe",
+ "currency": "EUR",
+ "priceToday": 31.78,
+ "pricePrev": 36.14,
+ "moveSincePrevPct": -12.06,
+ "ytdReturnPct": 145.78,
+ "marketCapUsdB": 24.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/TPRO.MI/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 29,
+   "ticker": "TPRO.MI",
+   "company": "Technoprobe",
+   "score": 75.8,
+   "thesis": "Probe-card scarcity for complex AI/photonic devices; underfollowed outside Europe.",
+   "category": "Test / probe",
+   "ytd": 145.78,
+   "mcapB": 24.51,
+   "risk": "Customer concentration and cyclicality",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Technoprobe should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 36, 138.4% YTD, $22.8B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

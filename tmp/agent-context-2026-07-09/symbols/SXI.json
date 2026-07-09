@@ -1,0 +1,32 @@
+{
+ "symbol": "SXI",
+ "asOf": "2026-07-09",
+ "company": "Standex International",
+ "currency": "USD",
+ "priceToday": 301.25,
+ "pricePrev": 317.06,
+ "moveSincePrevPct": -4.99,
+ "ytdReturnPct": 33.97,
+ "marketCapUsdB": 4.33,
+ "quoteUrl": "https://finance.yahoo.com/quote/SXI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 82,
+   "ticker": "SXI",
+   "company": "Standex International",
+   "score": 63.3,
+   "thesis": "Reed sensors, magnetics, electronics and hydraulics could be useful in liquid-cooling instrumentation and robotics",
+   "theme": "Sensors/magnetics/components",
+   "exchange": "NYSE",
+   "regionRank": "US#39",
+   "ytd": 33.97,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent lens: solid Q3 (grid +20%, B/B 1.05) confirms a healthy industrial, but no in-window evidence links reed sensors/magnetics to AI liquid-cooling instrumentation or robotics. +41% YTD rerating already runs ahead of any proven AI-chain content. Hold."
+   }
+  }
+ ]
+}

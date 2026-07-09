@@ -1,0 +1,35 @@
+{
+  "symbol": "TSLA",
+  "company": "Tesla",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Tesla (TSLA) now screens at $1480.00B market cap, +2.4% since the prior refresh and -10.1% YTD. Page thesis remains: Obvious humanoid narrative, not hidden alpha.",
+  "sources": [
+    {
+      "label": "TSLA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/TSLA/"
+    },
+    {
+      "label": "Tesla signals >$25B capex, Optimus late-Jul/Aug, robotaxi expansion (Seeking Alpha)",
+      "url": "https://seekingalpha.com/news/4578385-tesla-signals-over-25b-2025minus-2026-capex-as-it-targets-optimus-production-by-late-july"
+    },
+    {
+      "label": "Tesla Q1 2026 earnings report (CNBC)",
+      "url": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 41. July market-data refresh shows move since prior +2.4%, YTD -10.1%, market cap $1480.00B. Thesis: Obvious humanoid narrative, not hidden alpha.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Largest-scale humanoid effort with a dedicated Fremont Optimus line and a late-summer next-gen unveiling that could re-rate the robotics narrative.",
+      "neutral": "Essential humanoid infrastructure exposure but fully obvious and richly valued; robotaxi progress real but priced as option value.",
+      "bear": "$1.45T cap leaves little hidden alpha; Optimus commercialization unproven and EV core under pressure (-12% YTD).",
+      "primaryCatalyst": "Late-July/August next-gen Optimus unveiling and first large-scale production line.",
+      "primaryRisk": "Optimus/robotaxi commercialization slips while valuation stays demanding."
+    }
+  ]
+}

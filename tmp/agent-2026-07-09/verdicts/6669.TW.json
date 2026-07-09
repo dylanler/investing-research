@@ -1,0 +1,76 @@
+{
+  "symbol": "6669.TW",
+  "company": "Wiwynn",
+  "caseDate": "2026-07-09",
+  "newsSince": "+7.8% since prior, +12.5% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved +7.8% since the prior snapshot and YTD return is +12.5%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 6669.TW",
+      "url": "https://finance.yahoo.com/quote/6669.TW/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Wiwynn Q1 2026 results",
+      "url": "https://www.wiwynn.com/news/wiwynn-reports-first-quarter-2026-financial-results"
+    },
+    {
+      "label": "Nvidia server maker Wiwynn sees AI bottlenecks beyond memory (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/nvidia-server-maker-wiwynn-expects-ai-bottlenecks-beyond-memory"
+    },
+    {
+      "label": "Wiwynn expands US capacity amid AI server boom (DigiTimes)",
+      "url": "https://www.digitimes.com/news/a20260525VL214/wiwynn-ai-server-power-supply-capacity-expansion.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6669.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 51,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "AI server integration and liquid-cooling exposure remain strong, balanced by margin and customer concentration.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior +7.8%, YTD +12.5%, market cap about $29.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 31,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 31. July context does not change the page placement: +7.8% since the prior refresh, +12.5% YTD. Prior frame: Crowding-sensitive residual-alpha lens: Wiwynn sits in the 'crowded / rerated benchmark' bucket after +213% YTD, so even strong AI exposure yields little residual alpha. New negatives (gross margin ~9%, Foxconn competition) slightly weaken the alpha case; small -1, hold the rank.",
+      "bull": "Direct NVIDIA Vera Rubin NVL72 exposure; record Q1 (rev +62% YoY); triple-digit AI CAGR; US capacity expansion.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 31, score 44.0, +7.8% since prior, +12.5% YTD.",
+      "bear": "Gross margin compressed to ~9% on memory/GPU cost inflation; Foxconn entering AI servers; -12% since June 9.",
+      "primaryCatalyst": "May/upcoming monthly revenue prints and Rubin NVL72 ramp.",
+      "primaryRisk": "Margin compression and ODM pricing competition from Foxconn."
+    }
+  ]
+}

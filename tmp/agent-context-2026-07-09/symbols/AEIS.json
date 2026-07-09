@@ -1,0 +1,32 @@
+{
+ "symbol": "AEIS",
+ "asOf": "2026-07-09",
+ "company": "Advanced Energy Industries",
+ "currency": "USD",
+ "priceToday": 293.64,
+ "pricePrev": 366.535,
+ "moveSincePrevPct": -19.89,
+ "ytdReturnPct": 32.28,
+ "marketCapUsdB": 11.51,
+ "quoteUrl": "https://finance.yahoo.com/quote/AEIS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 61,
+   "ticker": "AEIS",
+   "company": "Advanced Energy Industries",
+   "score": 26.8,
+   "thesis": "Advanced power conversion and control leverage; tight-supply, AI-adjacent, hard-to-substitute.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: AEIS",
+   "ytd": 32.28,
+   "mcapB": 11.51,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: the ~June 5 800V AI rack-power launch makes the optionality more concrete, a mild fundamental positive. But +66% YTD, $15B mid-cap visibility and the convert-redemption/shelf financing mean residual alpha is largely captured. Hold in the Monitor/benchmark bucket with a small uptick."
+   }
+  }
+ ]
+}

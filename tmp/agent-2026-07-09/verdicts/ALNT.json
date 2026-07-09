@@ -1,0 +1,35 @@
+{
+  "symbol": "ALNT",
+  "company": "Allient",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Allient (ALNT) now screens at $1.47B market cap, -9.9% since the prior refresh and +55.9% YTD. Page thesis remains: One of the cleaner US-listed motion-control suppliers with explicit humanoid robotics content and still-manageable valuation.",
+  "sources": [
+    {
+      "label": "ALNT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ALNT/"
+    },
+    {
+      "label": "Allient at Automate 2026 (Unmanned Systems Tech)",
+      "url": "https://www.unmannedsystemstechnology.com/2026/06/allient-to-present-advanced-motion-control-automation-technologies-at-automate-2026/"
+    },
+    {
+      "label": "Allient humanoid motor-selection whitepaper (RoboticsTomorrow)",
+      "url": "https://www.roboticstomorrow.com/news/2026/04/23/allient-inc-publishes-new-whitepaper-on-motor-selection-for-humanoid-robotics-systems/26473"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 7. July market-data refresh shows move since prior -9.9%, YTD +55.9%, market cap $1.47B. Thesis: One of the cleaner US-listed motion-control suppliers with explicit humanoid robotics content and still-manageable valuation.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Clean US-listed motion-control supplier with explicit humanoid actuator content (frameless/axial-flux) and an integrating controller/servo ecosystem.",
+      "neutral": "Real humanoid-relevant product showcase, but revenue still skews to legacy motion/automation; humanoid is optionality.",
+      "bear": "+74% YTD prices in humanoid hope ahead of hard orders; visibility events aren't design wins.",
+      "primaryCatalyst": "A named humanoid OEM actuator design win or volume supply agreement.",
+      "primaryRisk": "Humanoid demand slips to out-years while valuation already reflects the narrative."
+    }
+  ]
+}

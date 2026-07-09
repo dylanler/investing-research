@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 64,
+      "rankMove": "down",
+      "scoreDelta": -3,
+      "confidence": 0.75,
+      "rankRationale": "Move down. Elkem remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers.",
+      "bull": "Slimmed metals/materials/carbon focus could still serve thermal and battery-adjacent niches.",
+      "neutral": "Post-divestiture Elkem is a cyclical commodity-materials story with only tangential AI optionality.",
+      "bear": "The very silicones unit the page leaned on is gone; remaining business is low-margin cyclical metals/carbon.",
+      "primaryCatalyst": "Silicones and carbon solutions could support thermal, sealing or battery-adjacent materials if demand spills outside incumbents",
+      "primaryRisk": "The adapted-use pathway may never become visible, and strict-list alpha fades if the stock rerates without AI-specific evidence."
+    }
+  ],
+  "symbol": "ELK.OL",
+  "company": "Elkem",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Elkem Silicones becomes Bluestar Silicones",
+      "url": "http://www.prnewswire.com/news-releases/elkem-silicones-becomes-bluestar-silicones-unveiling-its-identity-for-the-next-chapter-302806735.html"
+    },
+    {
+      "label": "Elkem transaction page",
+      "url": "https://www.elkem.com/transaction/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ELK.OL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "ELK.OL quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ELK.OL/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "Move down. Elkem remains relevant, but July evidence shifts residual alpha: relative evidence changed versus peers."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "KOMN.SW",
+ "asOf": "2026-07-09",
+ "company": "Komax",
+ "currency": "CHF",
+ "priceToday": 44.5,
+ "pricePrev": 42.7,
+ "moveSincePrevPct": 4.22,
+ "ytdReturnPct": -31.64,
+ "marketCapUsdB": 0.33,
+ "quoteUrl": "https://finance.yahoo.com/quote/KOMN.SW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 65,
+   "ticker": "KOMN.SW",
+   "company": "Komax",
+   "score": 65.5,
+   "thesis": "Wire-processing automation could support high-volume harness manufacturing for robotics, power and industrial modules",
+   "theme": "Wire processing automation",
+   "exchange": "SIX",
+   "regionRank": "Non-US#30",
+   "ytd": -31.64,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent under-covered AI supply-chain lens: wire-processing automation thesis intact, but the end-June CFO departure adds a mild governance/execution overhang mid-restructuring. Price slide is handled by the separate re-rating penalty; small negative fundamental delta, no profit warning -> hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "symbol": "300308.SZ",
+ "asOf": "2026-07-09",
+ "company": "Zhongji Innolight",
+ "currency": "CNY",
+ "priceToday": 1194.9,
+ "pricePrev": 1310.01,
+ "moveSincePrevPct": -8.79,
+ "ytdReturnPct": 91.64,
+ "marketCapUsdB": 215.35,
+ "quoteUrl": "https://finance.yahoo.com/quote/300308.SZ/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 114,
+   "ticker": "300308.SZ",
+   "company": "Zhongji Innolight",
+   "score": 32.7,
+   "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+   "category": "Optical modules",
+   "ytd": 91.64,
+   "mcapB": 215.35,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Zhongji Innolight should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 85.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 114 implies."
+   }
+  }
+ ]
+}

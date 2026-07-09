@@ -1,0 +1,32 @@
+{
+ "symbol": "2356.TW",
+ "asOf": "2026-07-09",
+ "company": "Inventec",
+ "currency": "TWD",
+ "priceToday": 69.8,
+ "pricePrev": 66.1,
+ "moveSincePrevPct": 5.6,
+ "ytdReturnPct": 56.68,
+ "marketCapUsdB": 7.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/2356.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 15,
+   "ticker": "2356",
+   "company": "Inventec",
+   "score": 63.9,
+   "thesis": "Server and cloud hardware manufacturing; tight-supply, AI-adjacent, underfollowed, 2026-catalyst, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TWSE: 2356",
+   "ytd": 56.68,
+   "mcapB": 7.3,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: no fresh post-June-9 evidence; the record Q1, >50% server mix and 2026>2025 AI-server guidance are mid-May and already priced. At +48% YTD with a modest two-week pullback the setup is unchanged from the prior hold; balanced AI exposure keeps rank 14 in the secondary bucket."
+   }
+  }
+ ]
+}

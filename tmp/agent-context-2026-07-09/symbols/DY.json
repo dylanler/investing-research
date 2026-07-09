@@ -1,0 +1,32 @@
+{
+ "symbol": "DY",
+ "asOf": "2026-07-09",
+ "company": "Dycom Industries",
+ "currency": "USD",
+ "priceToday": 426.7,
+ "pricePrev": 470.83,
+ "moveSincePrevPct": -9.37,
+ "ytdReturnPct": 22.77,
+ "marketCapUsdB": 14.53,
+ "quoteUrl": "https://finance.yahoo.com/quote/DY/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 62,
+   "ticker": "DY",
+   "company": "Dycom Industries",
+   "score": 64.6,
+   "thesis": "AI-era distributed compute needs fiber backhaul; Dycom is a labor/capex execution play rather than a tech multiple story.",
+   "theme": "Connectivity & Services",
+   "exchange": "NYSE",
+   "ytd": 22.77,
+   "conviction": "Medium",
+   "catalysts": "Fiber buildouts; carrier capex recovery; data-center interconnect demand.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 63 is 10 places worse than displayed rank 53; adjusted score 64.0; YTD +32.0%; market cap $14.8B; Dycom Industries remains tied to connectivity & services through Fiber network construction and maintenance. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

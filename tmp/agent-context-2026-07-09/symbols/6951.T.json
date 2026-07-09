@@ -1,0 +1,29 @@
+{
+ "symbol": "6951.T",
+ "asOf": "2026-07-09",
+ "company": "JEOL Ltd.",
+ "currency": "JPY",
+ "priceToday": 7309.0,
+ "pricePrev": 6970.0,
+ "moveSincePrevPct": 4.86,
+ "ytdReturnPct": 45.16,
+ "marketCapUsdB": 2.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/6951.T/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 39,
+   "ticker": "6951.T",
+   "company": "JEOL Ltd.",
+   "score": 34.0,
+   "thesis": "Scientific instrumentation / metrology and analysis",
+   "bucket": "scientific_instruments",
+   "ytd": 45.16,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 38 is 4 places worse than displayed rank 34; adjusted score 34.0; YTD +29.4%; market cap $2.1B; Scaling watchlist fit is Scientific instrumentation / metrology and analysis; bucket scientific_instruments; tags packaging_memory_test. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

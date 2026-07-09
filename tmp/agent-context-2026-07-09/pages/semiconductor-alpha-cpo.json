@@ -1,0 +1,2042 @@
+[
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 1,
+  "ticker": "VECO",
+  "company": "Veeco Instruments",
+  "score": 95.1,
+  "thesis": "Small-cap picks-and-shovels exposure to compound semis, photonics and advanced packaging.",
+  "category": "Compound / equipment",
+  "ytd": 78.36,
+  "mcapB": 3.26,
+  "risk": "Tool cycle and concentration",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Veeco Instruments should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 5, 99.9% YTD, $3.8B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 2,
+  "ticker": "SMTC",
+  "company": "Semtech",
+  "score": 92.7,
+  "thesis": "Smaller-cap signal-integrity/optical leverage; credible second-derivative AI networking exposure.",
+  "category": "Optical / signal integrity",
+  "ytd": 71.19,
+  "mcapB": 12.0,
+  "risk": "Turnaround and product-cycle risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the crowding-sensitive CPO lens, the 224 Gbps launch and record optics print confirm the thesis but it is now fully discovered: multiple PT raises to ~$200-225, rich forward multiple, prior insider selling. Fundamentals beat, residual asymmetry is thin, so hold near the top rather than push higher."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 3,
+  "ticker": "MTSI",
+  "company": "MACOM Technology Solutions",
+  "score": 92.5,
+  "thesis": "Strong 200G/lane optical/copper interconnect exposure with smaller market cap than the already-crowded optics winners.",
+  "category": "RF / photonics",
+  "ytd": 74.46,
+  "mcapB": 23.29,
+  "risk": "Cyclical RF/industrial and execution risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/optics lens: rank 2 on a crowding-sensitive list. 200G/lane interconnect thesis intact and the Q2 beat confirms AI optical pull, but growing sell-side attention (PTs to $375/$427/$450) shrinks residual alpha; offsets net to a hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 4,
+  "ticker": "COHR",
+  "company": "Coherent",
+  "score": 92.1,
+  "thesis": "NVIDIA partnership validates datacenter optics; upside depends on capacity, margins and repeat orders.",
+  "category": "Photonics / CPO",
+  "ytd": 63.15,
+  "mcapB": 62.03,
+  "risk": "Large recent rerating; execution/capacity build risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "Most on-thesis page. The stated risk - 'large recent rerating / capacity build risk' - was materially de-risked: CHIPS LOI funds the InP expansion and NVIDIA groundbreaking validates CPO/optics demand directly at the constraint this lens measures."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 5,
+  "ticker": "CAMT",
+  "company": "Camtek",
+  "score": 90.9,
+  "thesis": "Smaller inspection beneficiary of advanced packaging/AI chiplet complexity.",
+  "category": "Metrology / inspection",
+  "ytd": 21.26,
+  "mcapB": 6.53,
+  "risk": "Advanced packaging capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/chiplet-complexity lens: top inspection beneficiary of advanced-packaging and chiplet complexity. Post-Jun 2 spike has settled; no new evidence in-window so crowding/asymmetry argument from June 9 stands. Hold rank 1."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 6,
+  "ticker": "PLAB",
+  "company": "Photronics",
+  "score": 88.7,
+  "thesis": "Low-profile cash-generative photomask supplier; levered to design complexity more than headlines.",
+  "category": "Materials / photomasks",
+  "ytd": -15.77,
+  "mcapB": 1.79,
+  "risk": "Mask pricing/cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Photronics should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after -10.3% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 1 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 7,
+  "ticker": "3661.TW",
+  "company": "Alchip Technologies",
+  "score": 88.6,
+  "thesis": "Custom ASIC services are leveraged to hyperscaler AI silicon; optical attach is indirect.",
+  "category": "AI ASIC / design services",
+  "ytd": 15.82,
+  "mcapB": 9.98,
+  "risk": "Customer concentration and AI project timing",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Alchip Technologies should hold because custom AI silicon, chiplets, SerDes IP, EDA and scale-up fabrics remains relevant, but current rank 4, 14.7% YTD, $11.9B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 8,
+  "ticker": "AMKR",
+  "company": "Amkor Technology",
+  "score": 87.4,
+  "thesis": "Packaging/test leverage to AI chiplets and optical modules, less crowded than front-end equipment.",
+  "category": "Packaging / OSAT",
+  "ytd": 55.89,
+  "mcapB": 16.59,
+  "risk": "OSAT cyclicality and pricing",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "Co-packaged-optics lens: advanced packaging is upstream of CPO/optical-engine integration, and the TSMC Arizona pact entrenches Amkor in that flow. The 60.9% YTD 'less-crowded' edge had been fading, but the deal materially re-strengthens the packaging-leverage thesis. Up-move on confirmed structural demand."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 9,
+  "ticker": "ENA.V",
+  "company": "Enablence Technologies",
+  "score": 86.6,
+  "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+  "category": "Photonics / CPO",
+  "ytd": 270.72,
+  "mcapB": 0.13,
+  "risk": "Microcap/liquidity and single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Enablence Technologies should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 567.4% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 74 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 10,
+  "ticker": "BESI.AS",
+  "company": "BE Semiconductor Industries",
+  "score": 86.1,
+  "thesis": "Hybrid bonding/advanced packaging is a direct enabler for chiplets and photonic integration.",
+  "category": "Packaging / equipment",
+  "ytd": 68.21,
+  "mcapB": 24.74,
+  "risk": "Advanced packaging cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "Most direct beneficiary of the news on the CPO lens: the Investor Day explicitly named co-packaged optics and photonic integration as a new hybrid-bonding use case driving the higher long-term targets. This is fresh, dated evidence firming the photonic-integration enabler thesis; move up."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 11,
+  "ticker": "LASR",
+  "company": "nLIGHT",
+  "score": 85.0,
+  "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+  "category": "Photonics / lasers",
+  "ytd": 52.93,
+  "mcapB": 3.57,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "nLIGHT should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 74.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 6 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 12,
+  "ticker": "FORM",
+  "company": "FormFactor",
+  "score": 85.0,
+  "thesis": "Wafer-level test and known-good-die leverage into HBM, chiplets and photonics.",
+  "category": "Test / probe",
+  "ytd": 88.53,
+  "mcapB": 8.7,
+  "risk": "Memory/logic probe-card cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: management's prior framing of CPO as the 'engine' to double the systems segment by 2030 remains the live thesis, and no new evidence either way since June 9. Small positive drift for an intact, page-specific CPO/known-good-die case; no rank move after the recent surge."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 13,
+  "ticker": "AIXA.DE",
+  "company": "Aixtron",
+  "score": 84.4,
+  "thesis": "Small, underfollowed compound-semiconductor equipment lever to lasers and photonic devices.",
+  "category": "Compound equipment",
+  "ytd": 127.77,
+  "mcapB": 7.8,
+  "risk": "LED/SiC/photonics capex volatility",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "This CPO/photonics lens is where Aixtron fits best — InP MOCVD feeds the lasers/optics behind co-packaged optics. Order flow keeps validating that leg, but the Lumentum evidence predates June 9 and the 'small, underfollowed' premise keeps eroding (+183% YTD). Net mild positive, hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 14,
+  "ticker": "SOI.PA",
+  "company": "Soitec",
+  "score": 83.6,
+  "thesis": "Engineered substrates are a hidden enabler for silicon photonics and RF; smaller cap with optical substrate optionality.",
+  "category": "Materials / substrates",
+  "ytd": 321.79,
+  "mcapB": 4.77,
+  "risk": "RF cycle, customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "On the CPO lens this is the most direct hit: Jefferies explicitly pushed back on the Co-Packaged-Optics step-change for Photonics-SOI (only 30-40% growth through FY30) while cutting to Underperform at €85 on an 85% peer premium. The 'hidden enabler' substrate thesis is challenged on its own terms; step down."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 15,
+  "ticker": "POET",
+  "company": "POET Technologies",
+  "score": 83.1,
+  "thesis": "Pure-play optical interposer/CPO optionality with very high upside and very high execution/disclosure risk.",
+  "category": "Photonics / CPO",
+  "ytd": 18.85,
+  "mcapB": 1.58,
+  "risk": "Pre-scale revenue, volatility, customer/order uncertainty",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO asymmetry lens, no new fundamental damage since June 9; the optionality thesis is intact into the June 26 redomicile vote (removes PFIC overhang, could unlock US institutional demand). Slight positive drift for catalyst proximity, but June 29 class-action deadline caps conviction. Hold at 11."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 16,
+  "ticker": "ENTG",
+  "company": "Entegris",
+  "score": 81.6,
+  "thesis": "Materials purity and advanced packaging/foundry spend provide underappreciated picks-and-shovels exposure.",
+  "category": "Materials / consumables",
+  "ytd": 54.88,
+  "mcapB": 20.72,
+  "risk": "Leverage, capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "The EUV cross-license is real new picks-and-shovels evidence, lifting score. But this crowding-sensitive lens penalizes chase: ~25% in two weeks on a +87% YTD name consumes much of the under-owned residual, so the bottleneck-strengthening is offset by reduced asymmetry — net small positive, hold rank 19."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 17,
+  "ticker": "NVMI",
+  "company": "Nova",
+  "score": 81.4,
+  "thesis": "Underrated metrology beneficiary of complex advanced nodes, packaging, HBM and photonics yields.",
+  "category": "Metrology / inspection",
+  "ytd": 30.13,
+  "mcapB": 14.38,
+  "risk": "Capex volatility",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Metrology beneficiary of advanced nodes, packaging, HBM and photonics yields. No new info since June 9; the 'underrated' leg keeps eroding with PT raises and the YTD move, but with zero fresh catalyst, hold rather than cut on this crowding-sensitive list."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 18,
+  "ticker": "GFS",
+  "company": "GlobalFoundries",
+  "score": 81.3,
+  "thesis": "Specialty foundry and silicon photonics-adjacent processes can benefit as optical engines scale.",
+  "category": "Foundry / specialty",
+  "ytd": 84.35,
+  "mcapB": 37.3,
+  "risk": "Utilization and foundry cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "CPO lens: a new explicit silicon-photonics partnership (alongside AI-design and secure-EU-mfg deals) directly reinforces GF's photonics-adjacent thesis for scaling optical engines. This is the kind of page-specific evidence that warrants a small positive move/score on the CPO list despite the prior hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 19,
+  "ticker": "SKYT",
+  "company": "SkyWater Technology",
+  "score": 80.9,
+  "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+  "category": "Foundry / specialty",
+  "ytd": 48.64,
+  "mcapB": 1.72,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "On an alpha screen rewarding hidden, asymmetric CPO/advanced-packaging upside, SKYT no longer fits: it is a pending IonQ takeover at a $35 reference ($15 cash + $20 IonQ stock). Standalone foundry/CPO upside is capped/converted into a merger-arb-plus-IonQ-equity bet, while an unresolved FTC Second Request leaves deal-break downside. With the stock at $36.40 (above reference), asymmetry stays inver"
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 20,
+  "ticker": "COHU",
+  "company": "Cohu",
+  "score": 80.7,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "Test / inspection",
+  "ytd": 111.78,
+  "mcapB": 2.4,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Crowding-sensitive lens already penalized this name down to 22 on discovery. Fresh AI orders/guide raise are a small positive offset, but +161% YTD and price through most raised $80 targets keep residual asymmetry thin - net near-neutral."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 21,
+  "ticker": "ONTO",
+  "company": "Onto Innovation",
+  "score": 80.1,
+  "thesis": "Advanced packaging process control is a CPO/AI interconnect choke point.",
+  "category": "Metrology / inspection",
+  "ytd": 75.71,
+  "mcapB": 14.5,
+  "risk": "Capex cycle and high expectations",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "Co-packaged-optics/residual-alpha lens: a further +16% on analyst target sweeps (B.Riley $355, Oppenheimer $370) with no new evidence pushes price near targets, so the once-hidden advanced-packaging process-control story keeps de-hiding. Residual alpha shrinks further vs peers; soft fundamental tick down."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 22,
+  "ticker": "6525.T",
+  "company": "Kokusai Electric",
+  "score": 80.1,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "Wafer equipment",
+  "ytd": 81.71,
+  "mcapB": 17.39,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Kokusai Electric should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 13, 21.9% YTD, $10.5B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 23,
+  "ticker": "AXTI",
+  "company": "AXT",
+  "score": 78.9,
+  "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+  "category": "Materials / substrates",
+  "ytd": 258.71,
+  "mcapB": 3.93,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "New June 11 binding InP supply deal (~$25.4M through 2027) is fresh validation of the CPO/optical-substrate bottleneck thesis, a genuine fundamental positive on this high-priority alpha screen. Tempered upgrade only: revenue is still gated by Chinese export permits and the name already ran +377% YTD."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 24,
+  "ticker": "6488.TW",
+  "company": "GlobalWafers",
+  "score": 78.5,
+  "thesis": "Less glamorous materials lever to semiconductor build-out; CPO indirect.",
+  "category": "Materials / wafers",
+  "ytd": 234.99,
+  "mcapB": 18.29,
+  "risk": "Wafer cycle and capex",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "GlobalWafers should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after 90.6% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 11 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 25,
+  "ticker": "3443.TW",
+  "company": "Global Unichip",
+  "score": 76.6,
+  "thesis": "Custom silicon design-services leverage as hyperscalers architect custom AI systems.",
+  "category": "AI ASIC / design services",
+  "ytd": 98.63,
+  "mcapB": 18.67,
+  "risk": "Customer/project concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "Crowding-sensitive alpha lens: AI-ASIC design-services is now consensus and GUC has rerated +116% YTD to ~$20B with zero new fundamental evidence since Jun 9. Residual alpha keeps shrinking; continue the prior down-drift. -1."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 26,
+  "ticker": "ACMR",
+  "company": "ACM Research",
+  "score": 76.6,
+  "thesis": "Small-cap equipment exposure to foundry/process complexity; high geopolitical risk.",
+  "category": "Wafer equipment",
+  "ytd": 118.52,
+  "mcapB": 6.8,
+  "risk": "China exposure and policy risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "ACM Research should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 31, 79.5% YTD, $5.6B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 27,
+  "ticker": "ASM.AS",
+  "company": "ASM International",
+  "score": 76.1,
+  "thesis": "ALD/epi complexity benefits from advanced nodes and photonics manufacturing.",
+  "category": "Wafer equipment",
+  "ytd": 66.78,
+  "mcapB": 51.02,
+  "risk": "Front-end capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/technology-linkage lens: ALD/epi complexity rises at advanced nodes and ASM is engaged in advanced-packaging/heterogeneous integration that underpins photonics manufacturing. Q1 beat incrementally confirms the linkage; modest positive, mid-list rank still fits."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 28,
+  "ticker": "AEHR",
+  "company": "Aehr Test Systems",
+  "score": 75.9,
+  "thesis": "Small-cap test optionality if photonics/power devices require more wafer-level reliability screening.",
+  "category": "Test / reliability",
+  "ytd": 206.36,
+  "mcapB": 2.13,
+  "risk": "Very high volatility and customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "CPO lens: this is the most relevant page. June 17 silicon-photonics WLBI follow-on order for hyperscale data-center optical interconnect is direct, fresh evidence that photonics needs more wafer-level reliability screening - the exact 'test optionality' premise. Crowding noted, but new CPO-specific fundamentals warrant up."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 29,
+  "ticker": "TPRO.MI",
+  "company": "Technoprobe",
+  "score": 75.8,
+  "thesis": "Probe-card scarcity for complex AI/photonic devices; underfollowed outside Europe.",
+  "category": "Test / probe",
+  "ytd": 145.78,
+  "mcapB": 24.51,
+  "risk": "Customer concentration and cyclicality",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Technoprobe should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 36, 138.4% YTD, $22.8B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 30,
+  "ticker": "6920.T",
+  "company": "Lasertec",
+  "score": 75.2,
+  "thesis": "Mask/yield control for advanced lithography, indirect but scarce.",
+  "category": "Metrology / inspection",
+  "ytd": 35.67,
+  "mcapB": 26.48,
+  "risk": "Semicap spending volatility",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/metrology lens: Lasertec is an indirect inspection play, not co-packaged optics. No new window evidence; +28% since June 9 marginally erodes residual asymmetry on a heavily-covered former retail darling. Hold with slight negative drift."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 31,
+  "ticker": "0522.HK",
+  "company": "ASMPT",
+  "score": 74.9,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "Packaging / equipment",
+  "ytd": 143.72,
+  "mcapB": 10.42,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "ASMPT should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 35, 109.2% YTD, $9.4B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 32,
+  "ticker": "5347.TWO",
+  "company": "Vanguard International Semiconductor",
+  "score": 74.3,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "Foundry / specialty",
+  "ytd": 87.43,
+  "mcapB": 10.22,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Vanguard International Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 19, 69.6% YTD, $11.0B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 33,
+  "ticker": "MRVL",
+  "company": "Marvell Technology",
+  "score": 73.2,
+  "thesis": "One of the most direct semiconductor bridges between custom AI silicon, optical DSPs, CPO and AEC/AOC.",
+  "category": "AI ASIC / networking",
+  "ytd": 159.21,
+  "mcapB": 260.82,
+  "risk": "Large AI/custom-silicon expectations already embedded",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: this is MRVL's most direct fit (optical DSPs, CPO, AEC/AOC, 5M+ coherent PICs, NPO/CPO scale-up optics in raised guide). Optical leg strengthened by Q1 beat and T100; Qualcomm-ByteDance headline hits the custom-compute leg, not optics. Small positive on confirmed optics traction."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 34,
+  "ticker": "7735.T",
+  "company": "SCREEN Holdings",
+  "score": 72.6,
+  "thesis": "Cleaning/process complexity beneficiary; indirect CPO.",
+  "category": "Wafer equipment",
+  "ytd": 121.88,
+  "mcapB": 22.2,
+  "risk": "Capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "SCREEN Holdings should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 17, 47.0% YTD, $15.6B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 35,
+  "ticker": "MXL",
+  "company": "MaxLinear",
+  "score": 72.5,
+  "thesis": "Small-cap signal-chain optionality; could benefit if AI networking pulls adjacent high-speed analog content.",
+  "category": "Connectivity/analog",
+  "ytd": 364.88,
+  "mcapB": 7.68,
+  "risk": "Turnaround and customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Most CPO-relevant listing: 200G/lane Washington TIA for 1.6T optical modules (mass production H2'26) plus sustained Buy-side backing keep the co-packaged-optics thesis intact and mildly reinforced. No fresh in-window catalyst, so +1 sentiment, hold at 36."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 36,
+  "ticker": "RMBS",
+  "company": "Rambus",
+  "score": 72.2,
+  "thesis": "HBM and memory-interface leverage into AI clusters, indirect CPO benefit.",
+  "category": "Memory interface/IP",
+  "ytd": 10.44,
+  "mcapB": 11.86,
+  "risk": "IP/product mix and memory cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "Co-packaged-optics/alpha lens: the page's stated risk ('IP/product mix and memory cycle') is exactly what the tape is pricing, but the -12% is sector flow off the June chip rout, not a Rambus cycle break. Sharp sell-off with intact HBM/memory-interface thesis improves the alpha asymmetry. Extends prior 'up'."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 37,
+  "ticker": "PDFS",
+  "company": "PDF Solutions",
+  "score": 71.8,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "EDA / analytics",
+  "ytd": 77.39,
+  "mcapB": 2.16,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/alpha lens: PDFS is EDA/yield-analytics, not co-packaged-optics; theme fit is adjacent. No new fundamental news, only CONNECT/AGM housekeeping. Crowding asymmetry incrementally worse as stock sits well above ~$54 sell-side targets on +107% YTD; small negative, not a rank cut."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 38,
+  "ticker": "688012.SS",
+  "company": "AMEC",
+  "score": 71.5,
+  "thesis": "Domestic tools and compound semiconductor/photonic processing optionality.",
+  "category": "Equipment",
+  "ytd": 125.7,
+  "mcapB": 59.64,
+  "risk": "China policy and competition",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "AMEC should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 22, 27.0% YTD, $38.1B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 39,
+  "ticker": "IPGP",
+  "company": "IPG Photonics",
+  "score": 71.0,
+  "thesis": "Photonics expertise, but CPO data-center revenue path less direct than COHR/LITE/MTSI.",
+  "category": "Photonics/lasers",
+  "ytd": 36.66,
+  "mcapB": 4.34,
+  "risk": "Industrial laser cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: IPG still lacks a direct CPO data-center revenue path vs COHR/LITE/MTSI. No new CPO evidence since the June 9 verdict that already moved it down. Industrial-laser identity unchanged. Hold at rank 35."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 40,
+  "ticker": "LITE",
+  "company": "Lumentum",
+  "score": 70.6,
+  "thesis": "NVIDIA $2B investment and purchase commitments make it a direct laser/ELS candidate, but the market has noticed.",
+  "category": "Photonics / CPO",
+  "ytd": 83.13,
+  "mcapB": 55.01,
+  "risk": "Very large recent rerating; customer/capacity risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO-specific lens LITE retains the highest centrality of its four listings (NVIDIA $2B cash, purchase commitments, dedicated US fab, multi-hundred-M CPO order). But that evidence is pre-June 9; nothing new in the window (June 11 JPM reiteration only). Prior 'up' is captured at rank 41, so hold now."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 41,
+  "ticker": "UCTT",
+  "company": "Ultra Clean Holdings",
+  "score": 70.6,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "Wafer equipment supply chain",
+  "ytd": 269.36,
+  "mcapB": 4.52,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Ultra Clean Holdings should move down because AI-driven 300mm, memory and advanced-node wafer-equipment spend is either less hidden after 207.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 43 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 42,
+  "ticker": "CRDO",
+  "company": "Credo Technology",
+  "score": 68.8,
+  "thesis": "One of the closest public cable/connectivity pure plays; DustPhotonics acquisition adds SiPho/CPO optionality.",
+  "category": "AI interconnect",
+  "ytd": 80.62,
+  "mcapB": 48.24,
+  "risk": "Revenue concentration, high multiple after repricing",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens already took the crowding penalty (slid 21->42, flags 'high multiple after repricing'). No new fundamental since June 1; mid-June PT hikes/hyperscaler note are sentiment. DustPhotonics SiPho/CPO option intact. Don't double-count - hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 43,
+  "ticker": "ALAB",
+  "company": "Astera Labs",
+  "score": 68.6,
+  "thesis": "Direct AI rack-scale connectivity; not exactly CPO cables, but close copper/optical transition exposure.",
+  "category": "AI interconnect",
+  "ytd": 118.96,
+  "mcapB": 67.39,
+  "risk": "High P/S and hyperscaler concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO lens, the Scorpio scale-up switching ramp deepens rack-scale copper/optical transition exposure, but ALAB remains tangential to CPO cables proper and the page's stated risk (high P/S, hyperscaler concentration) is exactly what is being repriced. Slight positive, hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 44,
+  "ticker": "2301.TW",
+  "company": "LITEON Technology",
+  "score": 68.2,
+  "thesis": "Public CPO/AI optical module adjacency via POET collaboration, but diversified electronics profile dilutes pure alpha.",
+  "category": "Optical / power modules",
+  "ytd": 27.84,
+  "mcapB": 15.03,
+  "risk": "Electronics margin/cycle; not pure semiconductor",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "LITEON Technology should hold because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity remains relevant, but current rank 26, 30.8% YTD, $16.5B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 45,
+  "ticker": "TSEM",
+  "company": "Tower Semiconductor",
+  "score": 68.2,
+  "thesis": "Specialty foundry processes can host photonics/RF/analog blocks for optical modules.",
+  "category": "Foundry / specialty",
+  "ytd": 78.0,
+  "mcapB": 26.07,
+  "risk": "Specialty foundry cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/crowding lens: the IQE deal and 5M-PIC milestone deepen the SiPho franchise, but the photonics story is already widely discovered (PT doublings, ATHs, +25% pop), compressing residual alpha. Genuine fundamental improvement nets to a hold with positive drift rather than a rank chase."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 46,
+  "ticker": "002371.SZ",
+  "company": "NAURA Technology",
+  "score": 68.1,
+  "thesis": "China equipment localization scarcity; indirect CPO/foundry capex exposure.",
+  "category": "Wafer equipment",
+  "ytd": 85.12,
+  "mcapB": 86.14,
+  "risk": "Policy, valuation, export controls",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "NAURA Technology should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 33, 23.4% YTD, $64.5B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 47,
+  "ticker": "6857.T",
+  "company": "Advantest",
+  "score": 65.6,
+  "thesis": "AI chip and HBM test leader; CPO is secondary via optical/advanced package test expansion.",
+  "category": "Test / ATE",
+  "ytd": 37.71,
+  "mcapB": 131.87,
+  "risk": "ATE cycle and high AI expectations",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "Down slightly. On a CPO-specific lens the optical/advanced-package test angle is secondary, and a +19.4% flow-driven run since June 9 on zero CPO news erodes the little residual asymmetry rank 45 had. The page's own risk - high AI expectations - just got more expensive."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 48,
+  "ticker": "SIVE.ST",
+  "company": "Sivers Semiconductors",
+  "score": 64.4,
+  "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+  "category": "Photonics / CPO",
+  "ytd": 853.27,
+  "mcapB": 1.72,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO/photonics alpha lens the GF laser-array-into-SCALE collaboration is exactly the thesis - small-cap, high-leverage CPO exposure. But the GF deal predates June 9 and the only new item, the June 15 AGM withdrawal and board resignations (founders + vice-chair out), is a governance flag that re-opens execution/validation risk on a ~1,945% YTD single-bundle name. Hold with a small negative ti"
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 49,
+  "ticker": "UMC / 2303.TW",
+  "company": "United Microelectronics",
+  "score": 63.0,
+  "thesis": "Specialty/mature process capacity; limited direct CPO but value-oriented.",
+  "category": "Foundry / specialty",
+  "ytd": 215.43,
+  "mcapB": 62.05,
+  "risk": "Mature-node pricing",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "United Microelectronics should move down because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity is either less hidden after 155.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 49 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 50,
+  "ticker": "ASX / 3711.TW",
+  "company": "ASE Technology",
+  "score": 62.9,
+  "thesis": "Packaging/test gateway for chiplets and optical modules; size and cyclicality cap alpha score.",
+  "category": "Packaging / OSAT",
+  "ytd": 136.83,
+  "mcapB": 87.6,
+  "risk": "OSAT cyclicality and margin pressure",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "ASE Technology should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 67, 110.7% YTD, $83.7B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 51,
+  "ticker": "NVTS",
+  "company": "Navitas Semiconductor",
+  "score": 62.5,
+  "thesis": "AI data-center power density optionality, but not optical/cable layer.",
+  "category": "Power/compound semis",
+  "ytd": 59.43,
+  "mcapB": 3.25,
+  "risk": "Early-stage power adoption and dilution",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Power/compound-semi optionality with no optical/cable/CPO-layer exposure; the June 4 earnout-share 8-K already materialized this page's stated dilution risk and triggered the June 9 down move. No new info since - the down call stands, hold at the lowered rank 63."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 52,
+  "ticker": "0981.HK",
+  "company": "SMIC",
+  "score": 62.4,
+  "thesis": "China localization optionality; CPO exposure indirect and restricted by tools.",
+  "category": "Foundry / logic",
+  "ytd": 11.65,
+  "mcapB": 110.87,
+  "risk": "Export controls and node gap",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "SMIC should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 37, -3.4% YTD, $95.7B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 53,
+  "ticker": "SNPS",
+  "company": "Synopsys",
+  "score": 61.6,
+  "thesis": "Design complexity and photonics/chiplet verification leverage, but large and discovered.",
+  "category": "EDA / IP",
+  "ytd": -9.56,
+  "mcapB": 83.2,
+  "risk": "Integration/regulatory and valuation",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the crowding-sensitive CPO lens, an ~$90B fully-discovered EDA duopolist gains no hidden-bottleneck status from the Multiphysics Fusion launch. The beat-and-raise plus a still-negative YTD modestly improve entry asymmetry, worth a small positive drift but not a rank move."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 54,
+  "ticker": "3529.TWO",
+  "company": "eMemory Technology",
+  "score": 61.6,
+  "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+  "category": "IP / embedded memory",
+  "ytd": 51.45,
+  "mcapB": 6.36,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "eMemory Technology should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 86.0% YTD and $8.1B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 55,
+  "ticker": "042700.KS",
+  "company": "Hanmi Semiconductor",
+  "score": 61.3,
+  "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+  "category": "Packaging / HBM equipment",
+  "ytd": 49.13,
+  "mcapB": 13.98,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "up",
+   "rankRationale": "Hanmi Semiconductor should move up because HBM/chiplet advanced packaging and OSAT capacity is more directly connected to the 2027 AI compute bottleneck than its current rank 57 implies, with current company-specific evidence; 75.4% YTD and $18.8B market cap do not fully offset the catalyst."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 56,
+  "ticker": "CDNS",
+  "company": "Cadence Design Systems",
+  "score": 60.7,
+  "thesis": "Chiplet/3D/photonic design complexity benefits EDA; discovery already high.",
+  "category": "EDA/IP",
+  "ytd": 20.51,
+  "mcapB": 103.17,
+  "risk": "Valuation and AI/EDA cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/chiplet-complexity lens: Intel Foundry 14A expansion (~Jun 9) is a modest fresh positive for EDA design-complexity exposure, but discovery is already high (ATH, multiple PT raises into $432) on this crowding-sensitive list. Small positive for the in-window deal, no rank move."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 57,
+  "ticker": "NXPI",
+  "company": "NXP Semiconductors",
+  "score": 60.3,
+  "thesis": "Edge/auto AI more important than CPO.",
+  "category": "Auto / edge",
+  "ytd": 28.26,
+  "mcapB": 71.65,
+  "risk": "Auto cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "NXP Semiconductors should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 36.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 54 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 58,
+  "ticker": "SITM",
+  "company": "SiTime",
+  "score": 60.0,
+  "thesis": "Timing matters for AI/optical links; smaller but still indirect.",
+  "category": "Timing / infrastructure",
+  "ytd": 65.46,
+  "mcapB": 18.34,
+  "risk": "High multiple; timing cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO lens SiTime is a legitimate-but-indirect beneficiary: management flags timing content up to 3x in some CPO switch designs. That datapoint is already known and pre-June 9; no new evidence either way since then, so hold. Insider-sale cluster and convert/financing overhang cap upside near $700-720."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 59,
+  "ticker": "KLAC",
+  "company": "KLA",
+  "score": 59.9,
+  "thesis": "Advanced packaging and silicon photonics yield control can drive demand, but discovery is high.",
+  "category": "Metrology / inspection",
+  "ytd": 73.55,
+  "mcapB": 288.92,
+  "risk": "High valuation, capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics/crowding-sensitive alpha lens: prior verdict already moved KLA down for the June 8 split-flow pop. The June 12 split and dividend are confirmation, not new fundamental evidence on photonics/packaging yield. Discovery already high; no further move warranted -> hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 60,
+  "ticker": "LSCC",
+  "company": "Lattice Semiconductor",
+  "score": 59.8,
+  "thesis": "Control-plane and edge inference optionality; not directly CPO.",
+  "category": "FPGA / edge AI",
+  "ytd": 68.44,
+  "mcapB": 17.89,
+  "risk": "Industrial/consumer recovery",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: control-plane/edge-inference optionality, not a co-packaged-optics bottleneck. AMI deal is pre-June 9; multiple bank PTs in the $140-165 zone show coverage is no longer under-owned. No fresh CPO catalyst; hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 61,
+  "ticker": "ICHR",
+  "company": "Ichor Holdings",
+  "score": 59.4,
+  "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+  "category": "WFE subsystems",
+  "ytd": 335.13,
+  "mcapB": 2.91,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Ichor Holdings should move down because AI-driven 300mm, memory and advanced-node wafer-equipment spend is either less hidden after 227.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 66 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 62,
+  "ticker": "600703.SS",
+  "company": "Sanan Optoelectronics",
+  "score": 58.5,
+  "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+  "category": "Compound semis",
+  "ytd": 23.78,
+  "mcapB": 12.74,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Sanan Optoelectronics should move down because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs is either less hidden after 14.4% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 46 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 63,
+  "ticker": "LRCX",
+  "company": "Lam Research",
+  "score": 58.1,
+  "thesis": "Indirect beneficiary through HBM/foundry/advanced interconnect capex.",
+  "category": "Wafer equipment",
+  "ytd": 80.02,
+  "mcapB": 416.63,
+  "risk": "Memory/foundry capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: only an indirect beneficiary via HBM/foundry/advanced-interconnect capex. June 9 already cut it for crowding (+102% YTD, ~$466B cap) and export drag. No new CPO-relevant evidence since; residual asymmetry stays thin but a second consecutive demotion isn't warranted."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 64,
+  "ticker": "8035.T",
+  "company": "Tokyo Electron",
+  "score": 57.3,
+  "thesis": "Front-end equipment beneficiary, but not early or CPO-specific.",
+  "category": "Wafer equipment",
+  "ytd": 92.42,
+  "mcapB": 200.14,
+  "risk": "Capex cycle, high expectations",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens already flags TEL as 'not early or CPO-specific' with high-expectations risk. No new optical/packaging angle since Jun 9, and the fresh China export-control legislative push adds downside; the flow-driven melt-up makes it strictly more crowded. Slight negative."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 65,
+  "ticker": "AMAT",
+  "company": "Applied Materials",
+  "score": 57.0,
+  "thesis": "Advanced packaging/foundry capex beneficiary, but widely owned.",
+  "category": "Wafer equipment",
+  "ytd": 112.18,
+  "mcapB": 574.03,
+  "risk": "Capex cycle and China restrictions",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Through a CPO lens AMAT is an indirect foundry/advanced-packaging capex play, not an optics name. Raised packaging guide is a mild positive, but the page already flags it 'widely owned'; flow-driven pop adds no CPO-specific evidence, so hold with only a small fundamental tick."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 66,
+  "ticker": "IFX.DE",
+  "company": "Infineon Technologies",
+  "score": 56.5,
+  "thesis": "Power density beneficiary, not optical interconnect pure play.",
+  "category": "Power / automotive",
+  "ytd": 89.0,
+  "mcapB": 118.27,
+  "risk": "Industrial/auto cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO/optical-interconnect lens: Infineon is a power-density beneficiary, not an optical-interconnect pure play. June's news is all power/PSU and GaN-IP, none of which touches co-packaged optics. No change to the CPO thesis. Hold rank 69."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 67,
+  "ticker": "3436.T",
+  "company": "SUMCO",
+  "score": 56.3,
+  "thesis": "Wafer materials exposure; indirect and cyclical.",
+  "category": "Materials",
+  "ytd": 213.6,
+  "mcapB": 11.04,
+  "risk": "Wafer pricing and utilization",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "SUMCO should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 73, 143.1% YTD, $8.8B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 68,
+  "ticker": "6146.T",
+  "company": "Disco",
+  "score": 55.8,
+  "thesis": "Critical for thinning/dicing advanced packages and photonics, but well recognized.",
+  "category": "Packaging / equipment",
+  "ytd": 39.94,
+  "mcapB": 48.09,
+  "risk": "High expectations",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "On this crowding-sensitive list Disco is already flagged 'well recognized / high expectations.' A +15.9% no-news rally with YTD swelling to 62% and no fresh CPO/photonics-dicing evidence keeps eroding residual alpha, extending the prior down-move on positioning rather than thesis change."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 69,
+  "ticker": "2379.TW",
+  "company": "Realtek Semiconductor",
+  "score": 55.8,
+  "thesis": "Networking chip exposure, but low CPO directness.",
+  "category": "Networking / edge",
+  "ytd": 72.31,
+  "mcapB": 12.49,
+  "risk": "PC/networking cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Realtek Semiconductor should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 22.3% YTD and $10.4B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 70,
+  "ticker": "ACLS",
+  "company": "Axcelis Technologies",
+  "score": 55.4,
+  "thesis": "Low CPO linkage; more power/SiC equipment lever.",
+  "category": "Wafer equipment",
+  "ytd": 57.26,
+  "mcapB": 4.44,
+  "risk": "SiC/power semi cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Axcelis Technologies should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 59, 79.7% YTD, $4.5B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 71,
+  "ticker": "STM / STMPA",
+  "company": "STMicroelectronics",
+  "score": 54.6,
+  "thesis": "Quality broad semi with limited CPO directness.",
+  "category": "Power / MCU",
+  "ytd": 150.42,
+  "mcapB": 61.16,
+  "risk": "Auto/industrial cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "STMicroelectronics should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 174.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 90 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 72,
+  "ticker": "ASML",
+  "company": "ASML Holding",
+  "score": 54.5,
+  "thesis": "Irreplaceable lithography choke point; CPO is indirect via advanced nodes and packaging flows.",
+  "category": "Wafer equipment",
+  "ytd": 51.97,
+  "mcapB": 681.93,
+  "risk": "China restrictions and capex cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: ASML's link to co-packaged optics is indirect (via advanced nodes/packaging flows). Nothing since June 9 changes that linkage; ranked deep at 70, choke-point centrality intact but residual CPO alpha unchanged."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 73,
+  "ticker": "TSM / 2330.TW",
+  "company": "TSMC",
+  "score": 53.3,
+  "thesis": "Central manufacturing node for AI silicon and silicon photonics, but a global consensus holding.",
+  "category": "Foundry / logic",
+  "ytd": 36.72,
+  "mcapB": 2477.0,
+  "risk": "Geopolitical and capex concentration",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "TSMC should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 72, 33.5% YTD, $2083.0B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 74,
+  "ticker": "QRVO",
+  "company": "Qorvo",
+  "score": 53.0,
+  "thesis": "Potential non-core infrastructure optionality but not CPO-led.",
+  "category": "RF / analog",
+  "ytd": -2.78,
+  "mcapB": 7.4,
+  "risk": "Handset/RF cyclicality",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Qorvo should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 15.8% YTD and $8.8B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 75,
+  "ticker": "WOLF",
+  "company": "Wolfspeed",
+  "score": 52.3,
+  "thesis": "AI power optionality exists, but restructuring and equity risk dominate.",
+  "category": "Materials / SiC",
+  "ytd": 89.43,
+  "mcapB": 1.86,
+  "risk": "Restructuring/balance-sheet risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "down",
+   "rankRationale": "CPO/HBM/advanced-packaging/test lens: the new SiC modules and GE MOU are high-voltage power, orthogonal to co-packaged optics. No page-relevant evidence since June 9; +168% YTD on a $2.7B distressed cap keeps asymmetry poor here, so removal bias stands."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 76,
+  "ticker": "688126.SS",
+  "company": "National Silicon Industry Group",
+  "score": 52.2,
+  "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+  "category": "Materials / wafers",
+  "ytd": 66.67,
+  "mcapB": 15.81,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "National Silicon Industry Group should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 52, 18.3% YTD, $13.9B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 77,
+  "ticker": "1347.HK",
+  "company": "Hua Hong Semiconductor",
+  "score": 52.2,
+  "thesis": "China localization/foundry exposure; low direct CPO.",
+  "category": "Foundry / specialty",
+  "ytd": 148.95,
+  "mcapB": 47.31,
+  "risk": "China mature-node pricing",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Hua Hong Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 62, 68.6% YTD, $38.3B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 78,
+  "ticker": "SWKS",
+  "company": "Skyworks Solutions",
+  "score": 52.0,
+  "thesis": "Limited data-center optical/cable exposure.",
+  "category": "RF / analog",
+  "ytd": -9.18,
+  "mcapB": 8.87,
+  "risk": "Mobile concentration",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Skyworks Solutions should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 17.0% YTD and $11.3B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 79,
+  "ticker": "TER",
+  "company": "Teradyne",
+  "score": 51.5,
+  "thesis": "AI/advanced packaging test demand, indirect CPO link.",
+  "category": "Test equipment",
+  "ytd": 69.38,
+  "mcapB": 55.04,
+  "risk": "Test cycle, customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: TER's CPO link is indirect; the new GPU-production-test and Tokyo Electron KGD wins strengthen test demand but not the optical interconnect angle (Photon 100 silicon-photonics tester is the only direct CPO tie). Tiny positive; +104% YTD leaves thin residual alpha. Near-hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 80,
+  "ticker": "ON",
+  "company": "onsemi",
+  "score": 51.0,
+  "thesis": "Power and industrial AI optionality but not CPO-focused.",
+  "category": "Power / SiC",
+  "ytd": 65.41,
+  "mcapB": 36.5,
+  "risk": "Auto/industrial cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: ON is power/SiC, not CPO. The June power news is orthogonal to optical interconnect, so it does not improve standing on this page. No new CPO-relevant evidence since June 9. Hold rank 84."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 81,
+  "ticker": "005930.KS",
+  "company": "Samsung Electronics",
+  "score": 50.4,
+  "thesis": "AI memory and foundry exposure; less pure CPO connectivity.",
+  "category": "HBM / foundry / IDM",
+  "ytd": 116.34,
+  "mcapB": 1402.46,
+  "risk": "Memory cycle and foundry execution",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: Samsung is a tangential HBM/foundry/IDM holding here; none of the new flow (HBM4E, foundry-Groq, SK Hynix sampling) touches CPO/connectivity. Nothing new in this lens since June 9. Hold near the bottom of the list."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 82,
+  "ticker": "6723.T",
+  "company": "Renesas Electronics",
+  "score": 50.2,
+  "thesis": "Mostly embedded/auto; included for public Wolfspeed restructuring relationship and power exposure.",
+  "category": "Auto / edge",
+  "ytd": 116.49,
+  "mcapB": 54.98,
+  "risk": "Auto/industrial cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Renesas Electronics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 86.0% YTD and $46.6B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 83,
+  "ticker": "QCOM",
+  "company": "Qualcomm",
+  "score": 50.1,
+  "thesis": "AI-edge optionality, but not a CPO cable play.",
+  "category": "Mobile / edge AI",
+  "ytd": 7.85,
+  "mcapB": 196.63,
+  "risk": "Handset cycle and China exposure",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Qualcomm should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 25.9% YTD and $229.5B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 84,
+  "ticker": "ALGM",
+  "company": "Allegro MicroSystems",
+  "score": 50.1,
+  "thesis": "Mostly auto/industrial; low CPO relevance.",
+  "category": "Power / sensors",
+  "ytd": 91.25,
+  "mcapB": 9.6,
+  "risk": "Auto cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Allegro MicroSystems should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 79.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 79 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 85,
+  "ticker": "AMBA",
+  "company": "Ambarella",
+  "score": 49.8,
+  "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+  "category": "Edge AI",
+  "ytd": -0.56,
+  "mcapB": 3.19,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Through a co-packaged-optics lens AMBA remains weakly relevant: no optical/CPO evidence emerged since prior case. Analyst briefing and GoPro overhang are not CPO-chain news, so hold at zero rather than double-count the prior remove case."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 86,
+  "ticker": "ARM",
+  "company": "Arm Holdings",
+  "score": 49.5,
+  "thesis": "AI custom silicon ecosystem IP, but CPO cable exposure is remote.",
+  "category": "IP / CPU architecture",
+  "ytd": 161.69,
+  "mcapB": 320.88,
+  "risk": "Very high valuation",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: ARM has essentially no co-packaged-optics exposure; AGI-CPU/server news is bottom-of-stack compute IP, not optical interconnect. Nothing changes its remote placement on this list. Hold near the tail."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 87,
+  "ticker": "2454.TW",
+  "company": "MediaTek",
+  "score": 49.5,
+  "thesis": "AI edge and ASIC optionality, not primary CPO.",
+  "category": "Mobile / edge AI",
+  "ytd": 167.01,
+  "mcapB": 198.29,
+  "risk": "Consumer cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the CPO-specific lens MediaTek is still a self-admitted CPO 'latecomer' (Ayar Labs stake a placeholder, demand ~2028-29). The TPU v9 ASIC win is interconnect/ASIC alpha, not co-packaged-optics, so only a slight positive here; it remains AI-edge/ASIC optionality rather than a primary CPO bottleneck."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 88,
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices",
+  "score": 48.7,
+  "thesis": "Potential beneficiary if open AI platform scale-up fabrics broaden; less direct CPO monetization than network/optics names.",
+  "category": "AI compute",
+  "ytd": 131.53,
+  "mcapB": 843.68,
+  "risk": "AI accelerator competition and margins",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Advanced Micro Devices should hold because custom AI silicon, chiplets, SerDes IP, EDA and scale-up fabrics remains relevant, but current rank 100, 119.4% YTD, $799.5B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 89,
+  "ticker": "POWI",
+  "company": "Power Integrations",
+  "score": 48.6,
+  "thesis": "Data-center power is relevant but CPO-specific link is weak.",
+  "category": "Power / analog",
+  "ytd": 78.18,
+  "mcapB": 3.7,
+  "risk": "Industrial/consumer power cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the co-packaged-optics lens the CPO-specific link stays weak; data-center power matters but is not optics content. No new CPO-relevant evidence since June 1; page already demoted POWI. Hold at 93, no compounding."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 90,
+  "ticker": "CRUS",
+  "company": "Cirrus Logic",
+  "score": 47.9,
+  "thesis": "Low data-center optical exposure.",
+  "category": "Mixed-signal",
+  "ytd": 22.66,
+  "mcapB": 7.49,
+  "risk": "Customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Cirrus Logic should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 38.4% YTD and $8.8B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 91,
+  "ticker": "MPWR",
+  "company": "Monolithic Power Systems",
+  "score": 47.5,
+  "thesis": "AI power density beneficiary; CPO-specific exposure low.",
+  "category": "Power / analog",
+  "ytd": 40.5,
+  "mcapB": 67.92,
+  "risk": "High valuation",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO-specific lens: MPWR has low co-packaged-optics exposure, already demoted near the bottom. Governance headlines are consistent with that placement; no CPO-relevant change in window, little reason to move."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 92,
+  "ticker": "MCHP",
+  "company": "Microchip Technology",
+  "score": 47.3,
+  "thesis": "Infrastructure controls and timing content, not a primary CPO alpha candidate.",
+  "category": "Embedded / analog",
+  "ytd": 31.46,
+  "mcapB": 46.42,
+  "risk": "Broad cyclical exposure",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: MCHP is peripheral (infra controls/timing content), not a primary CPO play. The June TimePictra 12 timing-software launch is sync/control, not CPO-relevant. No change to its peripheral position since June 9. Hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 93,
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "score": 46.0,
+  "thesis": "CPO platform leader and ecosystem anchor; alpha mostly from continued AI networking share rather than being undiscovered.",
+  "category": "AI ASIC / networking",
+  "ytd": 11.81,
+  "mcapB": 1849.0,
+  "risk": "Large-cap valuation and customer concentration",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "The page's own thesis concedes AVGO's CPO alpha is 'not undiscovered'; nothing since June 9 makes the consensus ecosystem anchor under-owned vs smaller CPO pure-plays. -2.2% drift only. Hold the low rank on this crowding-sensitive lens."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 94,
+  "ticker": "3105.TWO",
+  "company": "WIN Semiconductors",
+  "score": 46.0,
+  "thesis": "Compound semi foundry may touch photonics/RF; direct CPO evidence limited.",
+  "category": "RF / compound foundry",
+  "ytd": 126.82,
+  "mcapB": 5.4,
+  "risk": "RF cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "WIN Semiconductors should move down because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity is either less hidden after 152.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 104 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 95,
+  "ticker": "2408.TW",
+  "company": "Nanya Technology",
+  "score": 45.1,
+  "thesis": "Memory recovery rather than CPO alpha.",
+  "category": "Memory",
+  "ytd": 110.39,
+  "mcapB": 39.46,
+  "risk": "Commodity memory cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Nanya Technology should move down because HBM, server DRAM and AI eSSD supply is either less hidden after 64.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 82 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 96,
+  "ticker": "603986.SS",
+  "company": "GigaDevice",
+  "score": 45.0,
+  "thesis": "China semi localization; little optical interconnect exposure.",
+  "category": "Memory / MCU",
+  "ytd": 181.52,
+  "mcapB": 62.63,
+  "risk": "China cycles and competition",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "GigaDevice should move down because HBM, server DRAM and AI eSSD supply is either less hidden after 101.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 91 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 97,
+  "ticker": "TXN",
+  "company": "Texas Instruments",
+  "score": 44.9,
+  "thesis": "Supplies power/analog content across infrastructure; limited direct alpha from CPO.",
+  "category": "Analog / power",
+  "ytd": 69.74,
+  "mcapB": 274.23,
+  "risk": "Industrial/auto cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Through the co-packaged-optics lens TXN has limited direct CPO alpha - it supplies power/analog content across infrastructure, not optics. No CPO-relevant news since June 9; the upgrade/DC story is orthogonal to CPO. Hold rank 94 to avoid churn."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 98,
+  "ticker": "MU",
+  "company": "Micron Technology",
+  "score": 44.8,
+  "thesis": "AI memory demand strong; CPO is indirect via larger AI clusters.",
+  "category": "HBM / memory",
+  "ytd": 200.81,
+  "mcapB": 1072.0,
+  "risk": "Memory cycle, capex, pricing",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "On the co-packaged-optics lens MU is only indirect via larger AI clusters; no CPO-specific catalyst since June 9. HBM strength helps cluster scale but not optical content. Hold near bottom."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 99,
+  "ticker": "ADI",
+  "company": "Analog Devices",
+  "score": 44.5,
+  "thesis": "Quality analog franchise but not early CPO exposure.",
+  "category": "Analog / power",
+  "ytd": 40.79,
+  "mcapB": 191.77,
+  "risk": "Industrial cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Co-packaged-optics lens: a quality analog/power franchise with no early CPO exposure. No CPO-relevant news since June 9; prior cut already reflected the no-CPO argument. Hold at #96."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 100,
+  "ticker": "NVDA",
+  "company": "NVIDIA",
+  "score": 44.3,
+  "thesis": "Owns demand and system architecture; CPO adoption is strategic, but discovery is already extreme.",
+  "category": "AI compute",
+  "ytd": 8.09,
+  "mcapB": 4944.0,
+  "risk": "Crowded megacap; execution and capex-cycle risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Nothing CPO-specific since June 9. NVDA owns demand/system architecture but discovery is extreme and there is no co-packaged-optics catalyst; deep rank on this crowding-sensitive list remains correct."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 101,
+  "ticker": "6963.T",
+  "company": "ROHM",
+  "score": 44.2,
+  "thesis": "Power semi, not CPO.",
+  "category": "Power / SiC",
+  "ytd": 143.95,
+  "mcapB": 14.24,
+  "risk": "SiC pricing and auto cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "ROHM should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 111.4% YTD and $12.6B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 102,
+  "ticker": "INTC",
+  "company": "Intel",
+  "score": 43.7,
+  "thesis": "Silicon photonics and advanced packaging optionality, but stock is dominated by foundry/CPU turnaround.",
+  "category": "Foundry / IDM",
+  "ytd": 179.94,
+  "mcapB": 554.07,
+  "risk": "Foundry turnaround and manufacturing execution",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: the Apple/foundry news validates the advanced-packaging/foundry leg but adds nothing on silicon-photonics/CPO, which is the half this page screens for. Stock still trades entirely on the foundry/CPU turnaround as the thesis warns, and it is now the most crowded semis name after a 52-week-high run. Hold."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 103,
+  "ticker": "000660.KS",
+  "company": "SK Hynix",
+  "score": 43.6,
+  "thesis": "HBM is a gating item for AI clusters; CPO tailwind is indirect but strong cluster-scale AI proxy.",
+  "category": "HBM / memory",
+  "ytd": 222.9,
+  "mcapB": 1328.21,
+  "risk": "HBM competition and memory cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: SK hynix is only an indirect cluster-scale proxy here. HBM4E sample news doesn't change its co-packaged-optics relevance, and at ~$1T cap heavily re-rated it should stay below purer, less-crowded CPO names. No change to the indirect-proxy thesis since June 9."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 104,
+  "ticker": "SLAB",
+  "company": "Silicon Labs",
+  "score": 43.4,
+  "thesis": "Edge/IoT recovery rather than CPO.",
+  "category": "IoT / edge",
+  "ytd": 65.48,
+  "mcapB": 7.21,
+  "risk": "IoT cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Silicon Labs should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 65.4% YTD and $7.2B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 105,
+  "ticker": "SIMO",
+  "company": "Silicon Motion",
+  "score": 43.1,
+  "thesis": "AI storage optionality but not optical/cable.",
+  "category": "Storage controllers",
+  "ytd": 234.15,
+  "mcapB": 10.62,
+  "risk": "Storage cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Through the co-packaged-optics lens SIMO remains explicitly tangential - storage-controller optionality, not optical/cable content. Nothing since June 9 adds optical relevance, and the page should not reward a NAND-cycle move. Hold the deep-tail rank."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 106,
+  "ticker": "KLIC",
+  "company": "Kulicke and Soffa",
+  "score": 42.3,
+  "thesis": "Packaging tool exposure, but narrower and cyclically volatile.",
+  "category": "Packaging equipment",
+  "ytd": 115.57,
+  "mcapB": 5.46,
+  "risk": "Packaging cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Kulicke and Soffa should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 107, 112.0% YTD, $5.4B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 107,
+  "ticker": "PI",
+  "company": "Impinj",
+  "score": 38.6,
+  "thesis": "Different AI/IoT edge theme; not CPO.",
+  "category": "RFID/edge",
+  "ytd": -20.37,
+  "mcapB": 4.36,
+  "risk": "Retail/logistics adoption",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Impinj should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; -28.0% YTD and $3.9B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 108,
+  "ticker": "VLN",
+  "company": "Valens Semiconductor",
+  "score": 37.8,
+  "thesis": "Connectivity know-how but data-center CPO evidence limited.",
+  "category": "High-speed connectivity",
+  "ytd": 30.77,
+  "mcapB": 0.26,
+  "risk": "Tiny cap, product adoption",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: the June 20 Barco ClickShare win is pro-AV HDBaseT, not data-center co-packaged optics. It reinforces, rather than closes, the thesis gap that Valens' wins are AV/automotive A-PHY, not DC CPO. No CPO-specific evidence; hold at 108."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 109,
+  "ticker": "6770.TW",
+  "company": "Powerchip Semiconductor",
+  "score": 34.5,
+  "thesis": "Low CPO direct exposure.",
+  "category": "Foundry/memory",
+  "ytd": 68.88,
+  "mcapB": 9.45,
+  "risk": "Mature-node/memory cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "hold",
+   "rankRationale": "Powerchip Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 102, 60.3% YTD, $9.6B market cap, valuation discovery or execution risk already captures much of the upside."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 110,
+  "ticker": "CEVA",
+  "company": "CEVA",
+  "score": 34.4,
+  "thesis": "Small IP company; not CPO-related.",
+  "category": "IP/connectivity",
+  "ytd": 98.75,
+  "mcapB": 1.24,
+  "risk": "IP adoption volatility",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "CEVA should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 103.7% YTD and $1.3B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 111,
+  "ticker": "SYNA",
+  "company": "Synaptics",
+  "score": 33.3,
+  "thesis": "Edge AI optionality, low CPO exposure.",
+  "category": "Edge AI/IoT",
+  "ytd": 62.89,
+  "mcapB": 4.85,
+  "risk": "IoT and consumer cycles",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Synaptics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 79.6% YTD and $5.2B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 112,
+  "ticker": "AAOI",
+  "company": "Applied Optoelectronics",
+  "score": 33.2,
+  "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+  "category": "Optical modules",
+  "ytd": 188.99,
+  "mcapB": 9.18,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Hold near the bottom on the CPO lens. No new evidence since June 9; AAOI is a discovered, +286% YTD merchant transceiver name not directly levered to the co-packaged-optics/package bottleneck. A -6% pullback trims chase risk but does not make it hidden or CPO-direct."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 113,
+  "ticker": "HIMX",
+  "company": "Himax Technologies",
+  "score": 32.8,
+  "thesis": "Low CPO exposure.",
+  "category": "Display/edge vision IC",
+  "ytd": 74.68,
+  "mcapB": 2.6,
+  "risk": "Display cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "up",
+   "rankRationale": "Through the co-packaged-optics lens, the prior 'low CPO exposure' dismissal is now somewhat stale: Gen1 CPO (1.6T/3.2T) is ready with H2 small-volume shipments and Gen2 (6.4T) is nearing AI-datacenter validation with FOCI. Modest up off rank 114; still indirect (silicon partner, not optics prime) so keep delta small."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 114,
+  "ticker": "300308.SZ",
+  "company": "Zhongji Innolight",
+  "score": 32.7,
+  "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+  "category": "Optical modules",
+  "ytd": 91.64,
+  "mcapB": 215.35,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Zhongji Innolight should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 85.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 114 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 115,
+  "ticker": "3034.TW",
+  "company": "Novatek Microelectronics",
+  "score": 31.1,
+  "thesis": "Low CPO exposure.",
+  "category": "Display/consumer IC",
+  "ytd": 47.68,
+  "mcapB": 10.05,
+  "risk": "Consumer/display cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Novatek Microelectronics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 28.9% YTD and $9.5B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 116,
+  "ticker": "DIOD",
+  "company": "Diodes Incorporated",
+  "score": 29.6,
+  "thesis": "Low direct CPO link.",
+  "category": "Discrete/analog",
+  "ytd": 80.38,
+  "mcapB": 4.79,
+  "risk": "Broad-cycle exposure",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Diodes Incorporated should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 103.5% YTD and $4.3B market cap worsen the asymmetry."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 117,
+  "ticker": "688256.SS",
+  "company": "Cambricon Technologies",
+  "score": 25.8,
+  "thesis": "Lower alpha in this framework: likely discovered, less directly levered to CPO/AI, or materially risky.",
+  "category": "AI compute",
+  "ytd": 64.54,
+  "mcapB": 130.73,
+  "risk": "Single-bundle validation risk",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "down",
+   "rankRationale": "Cambricon Technologies should move down because CPO, silicon photonics, optical DSPs, lasers, AEC/AOC or AI-scale connectivity is either less hidden after 34.0% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 112 implies."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 118,
+  "ticker": "IMOS",
+  "company": "ChipMOS Technologies",
+  "score": 25.3,
+  "thesis": "Small OSAT; low CPO-specific exposure.",
+  "category": "OSAT/Packaging",
+  "ytd": 122.89,
+  "mcapB": 2.29,
+  "risk": "Memory/display cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "Through a co-packaged-optics lens, ChipMOS has near-zero CPO exposure - it is memory/display OSAT. The +17.7% May revenue print is AI-memory driven, not optics-relevant, and the thesis already flags low CPO exposure. No CPO catalyst since June 9. Hold near the bottom."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 119,
+  "ticker": "AMS.SW",
+  "company": "ams OSRAM",
+  "score": 23.0,
+  "thesis": "Optical components expertise but not a direct CPO cable winner yet.",
+  "category": "Optoelectronics/sensors",
+  "ytd": 113.7,
+  "mcapB": 2.42,
+  "risk": "Balance sheet and industrial/auto optics cycle",
+  "priorCase": {
+   "caseDate": "2026-06-23",
+   "rankMove": "hold",
+   "rankRationale": "CPO lens: still not a direct co-packaged-optics cable/engine winner. The micro-LED interconnect program is the only CPO-relevant angle and it is unchanged since June 9 (prototype-stage, ~2030 revenue). Keeps it at the bottom of the list; no re-rank."
+  }
+ },
+ {
+  "page": "semiconductor-alpha-cpo",
+  "rank": 120,
+  "ticker": "6415.TW",
+  "company": "Silergy",
+  "score": 18.1,
+  "thesis": "Power ICs, not CPO-specific.",
+  "category": "Power management",
+  "ytd": 181.94,
+  "mcapB": 6.76,
+  "risk": "Consumer/industrial cycle",
+  "priorCase": {
+   "caseDate": "2026-06-08",
+   "rankMove": "remove",
+   "rankRationale": "Silergy should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 182.5% YTD and $7.2B market cap worsen the asymmetry."
+  }
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "symbol": "GRC",
+ "asOf": "2026-07-09",
+ "company": "Gorman-Rupp",
+ "currency": "USD",
+ "priceToday": 78.07,
+ "pricePrev": 87.62,
+ "moveSincePrevPct": -10.9,
+ "ytdReturnPct": 62.17,
+ "marketCapUsdB": 2.22,
+ "quoteUrl": "https://finance.yahoo.com/quote/GRC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 53,
+   "ticker": "GRC",
+   "company": "Gorman-Rupp",
+   "score": 67.8,
+   "thesis": "Water movement and cooling-adjacent pumping can become a quiet data-center infrastructure need, while GRC remains a traditional industrial name.",
+   "theme": "Thermal & Water",
+   "exchange": "NYSE",
+   "ytd": 62.17,
+   "conviction": "Speculative",
+   "catalysts": "Municipal infrastructure; cooling/water projects; margin recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Move up. adjusted-score rank 39 is 15 places better than displayed rank 54; adjusted score 69.0; YTD +61.8%; market cap $2.0B; Gorman-Rupp remains tied to thermal & water through Pumps for industrial, municipal and dewatering applications. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

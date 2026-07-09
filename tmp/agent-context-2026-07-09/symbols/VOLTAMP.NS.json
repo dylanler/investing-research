@@ -1,0 +1,29 @@
+{
+ "symbol": "VOLTAMP.NS",
+ "asOf": "2026-07-09",
+ "company": "Voltamp Transformers",
+ "currency": "INR",
+ "priceToday": 9580.0,
+ "pricePrev": 10572.0,
+ "moveSincePrevPct": -9.38,
+ "ytdReturnPct": 22.97,
+ "marketCapUsdB": 1.03,
+ "quoteUrl": "https://finance.yahoo.com/quote/VOLTAMP.NS/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 1,
+   "ticker": "VOLTAMP.NS",
+   "company": "Voltamp Transformers",
+   "score": 91.0,
+   "thesis": "Transformer bottleneck exposure",
+   "bucket": "electricity",
+   "ytd": 22.97,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 1; adjusted score 91.0; YTD +23.4%; market cap $1.0B; Voltamp has current FY2025-26 annual results and backlog evidence in a transformer cycle, but India electricals have already rerated. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

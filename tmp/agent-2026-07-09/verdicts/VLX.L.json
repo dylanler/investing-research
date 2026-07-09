@@ -1,0 +1,43 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 3,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 3. July context shows score 83.8, move since prior -13.4%, YTD +22.9%, market cap $1.34B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Data-center sales up ~80% in H1; 1.6T copper interconnect ramp and FY26 prelims (Jun 25) could confirm margin-target delivery.",
+      "neutral": "Strong DC growth but diversified industrial/EV base; results not yet released, so re-rate is unconfirmed.",
+      "bear": "+42% YTD prices in a lot; AIM liquidity, acquisition-led model, and any results miss could de-rate quickly.",
+      "primaryCatalyst": "FY26 preliminary results on June 25 confirming data-center growth and operating-margin target.",
+      "primaryRisk": "Results disappoint on margins/guidance; hyperscale order timing or copper-vs-optics substitution."
+    }
+  ],
+  "symbol": "VLX.L",
+  "company": "Volex",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Volex Notice of Results, FY26 prelims 25 Jun 2026 (Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/volex--vlx/notice-of-results/9586157"
+    },
+    {
+      "label": "Volex Investors",
+      "url": "https://www.volex.com/investors"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/VLX.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "VLX.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/VLX.L/"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Volex (VLX.L) across latent-ai-nodes: market cap $1.34B, move since prior -13.4%, YTD +22.9%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

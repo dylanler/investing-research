@@ -1,0 +1,29 @@
+{
+ "symbol": "TEJASNET.NS",
+ "asOf": "2026-07-09",
+ "company": "Tejas Networks",
+ "currency": "INR",
+ "priceToday": 540.4,
+ "pricePrev": 620.25,
+ "moveSincePrevPct": -12.87,
+ "ytdReturnPct": 19.53,
+ "marketCapUsdB": 1.02,
+ "quoteUrl": "https://finance.yahoo.com/quote/TEJASNET.NS/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 41,
+   "ticker": "TEJASNET.NS",
+   "company": "Tejas Networks",
+   "score": 31.0,
+   "thesis": "Telecom/networking equipment in sovereign build-outs",
+   "bucket": "networking",
+   "ytd": 19.53,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 40 is 3 places worse than displayed rank 37; adjusted score 31.0; YTD +20.0%; market cap $1.1B; Scaling watchlist fit is Telecom/networking equipment in sovereign build-outs; bucket networking; tags compute_factory,security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

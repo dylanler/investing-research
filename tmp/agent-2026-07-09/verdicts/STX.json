@@ -1,0 +1,39 @@
+{
+  "symbol": "STX",
+  "company": "Seagate Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "Since the June 23 refresh, July market and web research updated the Storage & AI data platforms thesis. For this stock, price moved -16.1% since the prior snapshot and YTD return is +199.1%; verdict: up with scoreDelta 3.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for STX",
+      "url": "https://finance.yahoo.com/quote/STX/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 99,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.72,
+      "rankRationale": "Sold-out capacity and HAMR/storage scarcity still support the AI data-layer thesis; July weakness restores some alpha at rank 99.",
+      "bull": "AI data gravity and inference workloads increase demand for high-performance storage and data platforms.",
+      "neutral": "Current snapshot: move since prior -16.1%, YTD +199.1%, market cap about $192.8B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis.",
+      "primaryCatalyst": "Hyperscaler storage wins, NAND/HDD capacity tightness and AI data platform growth",
+      "primaryRisk": "Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis."
+    }
+  ]
+}

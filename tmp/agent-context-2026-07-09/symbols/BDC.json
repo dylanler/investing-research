@@ -1,0 +1,32 @@
+{
+ "symbol": "BDC",
+ "asOf": "2026-07-09",
+ "company": "Belden",
+ "currency": "USD",
+ "priceToday": 105.84,
+ "pricePrev": 118.37,
+ "moveSincePrevPct": -10.59,
+ "ytdReturnPct": -10.16,
+ "marketCapUsdB": 4.66,
+ "quoteUrl": "https://finance.yahoo.com/quote/BDC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 1,
+   "ticker": "BDC",
+   "company": "Belden",
+   "score": 84.7,
+   "thesis": "A quiet backbone of IT/OT convergence: industrial networks, mission-critical data movement and fiber/copper links can become the data layer for edge AI and AI-era factories.",
+   "theme": "Connectivity & IT/OT",
+   "exchange": "NYSE",
+   "ytd": -10.16,
+   "conviction": "High",
+   "catalysts": "Factory data layer upgrades; data-center/network cabling demand; margin mix shift toward solutions.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 1; adjusted score 84.0; YTD -8.2%; market cap $4.1B; Belden remains tied to connectivity & it/ot through Industrial data networking, fiber/copper connectivity and edge infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

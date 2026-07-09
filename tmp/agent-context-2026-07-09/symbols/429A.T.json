@@ -1,0 +1,29 @@
+{
+ "symbol": "429A.T",
+ "asOf": "2026-07-09",
+ "company": "Tekscend Photomask",
+ "currency": "JPY",
+ "priceToday": 4300.0,
+ "pricePrev": 4395.0,
+ "moveSincePrevPct": -2.16,
+ "ytdReturnPct": 39.61,
+ "marketCapUsdB": 2.94,
+ "quoteUrl": "https://finance.yahoo.com/quote/429A.T/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 3,
+   "ticker": "429A.T",
+   "company": "Tekscend Photomask",
+   "score": 74.0,
+   "thesis": "Photomask/reticle infrastructure for advanced chip production",
+   "bucket": "semiconductors",
+   "ytd": 39.61,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 3; adjusted score 74.0; YTD +23.4%; market cap $2.5B; Tekscend has official IR and expansion disclosures in photomasks, a bottleneck-adjacent layer for AI-era semiconductor production. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

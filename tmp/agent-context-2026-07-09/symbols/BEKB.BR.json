@@ -1,0 +1,32 @@
+{
+ "symbol": "BEKB.BR",
+ "asOf": "2026-07-09",
+ "company": "Bekaert",
+ "currency": "EUR",
+ "priceToday": 39.9,
+ "pricePrev": 40.8,
+ "moveSincePrevPct": -2.21,
+ "ytdReturnPct": 2.97,
+ "marketCapUsdB": 2.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/BEKB.BR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 60,
+   "ticker": "BEKB.BR",
+   "company": "Bekaert",
+   "score": 66.0,
+   "thesis": "Advanced steel wire and reinforcement materials could support electrification, enclosures and industrial construction",
+   "theme": "Steel wire/materials",
+   "exchange": "Euronext Brussels",
+   "regionRank": "Non-US#26",
+   "ytd": 2.97,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank 59. No new AI-chain evidence since June 9; flat price (0% move). The latent steel-wire-to-electrification/enclosure pathway is unchanged and remains speculative on the strict lens - no fundamental development to move the node."
+   }
+  }
+ ]
+}

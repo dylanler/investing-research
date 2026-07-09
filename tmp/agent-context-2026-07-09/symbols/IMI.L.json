@@ -1,0 +1,32 @@
+{
+ "symbol": "IMI.L",
+ "asOf": "2026-07-09",
+ "company": "IMI",
+ "currency": "GBp",
+ "priceToday": 2750.0,
+ "pricePrev": 2942.0,
+ "moveSincePrevPct": -6.53,
+ "ytdReturnPct": 10.0,
+ "marketCapUsdB": 9.35,
+ "quoteUrl": "https://finance.yahoo.com/quote/IMI.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 40,
+   "ticker": "IMI.L",
+   "company": "IMI",
+   "score": 68.0,
+   "thesis": "Precision valves and fluid-control systems could move into cooling, water treatment or industrial automation components",
+   "theme": "Precision fluid control",
+   "exchange": "LSE",
+   "regionRank": "Non-US#18",
+   "ytd": 10.0,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict screen demands hard, latent AI-supply-chain evidence. IMI's precision fluid-control AI/cooling angle is still qualitative; no new contract, capacity or cooling design win since June 9. Q1/Truflo are pre-window. No change to the strict evidence level. Hold."
+   }
+  }
+ ]
+}

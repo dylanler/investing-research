@@ -1,0 +1,29 @@
+{
+ "symbol": "ALLT",
+ "asOf": "2026-07-09",
+ "company": "Allot",
+ "currency": "USD",
+ "priceToday": 8.54,
+ "pricePrev": 7.37,
+ "moveSincePrevPct": 15.88,
+ "ytdReturnPct": -11.59,
+ "marketCapUsdB": 0.34,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALLT/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 30,
+   "ticker": "ALLT",
+   "company": "Allot",
+   "score": 38.0,
+   "thesis": "Network intelligence / traffic control",
+   "bucket": "it_security",
+   "ytd": -11.59,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 29 is 1 places worse than displayed rank 28; adjusted score 38.0; YTD -22.3%; market cap $354M; Scaling watchlist fit is Network intelligence / traffic control; bucket it_security; tags security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

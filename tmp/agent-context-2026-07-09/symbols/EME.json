@@ -1,0 +1,32 @@
+{
+ "symbol": "EME",
+ "asOf": "2026-07-09",
+ "company": "EME",
+ "currency": "USD",
+ "priceToday": 768.98,
+ "pricePrev": 853.91,
+ "moveSincePrevPct": -9.95,
+ "ytdReturnPct": 20.41,
+ "marketCapUsdB": 34.24,
+ "quoteUrl": "https://finance.yahoo.com/quote/EME/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 97,
+   "ticker": "EME",
+   "company": "EMCOR Group",
+   "score": 0.7,
+   "thesis": "Data-center MEP deployment leverage; tight-supply, AI-adjacent.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NYSE: EME",
+   "ytd": 20.41,
+   "mcapB": 34.24,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha-vs-passives lens: data-center MEP thesis intact (raised FY26 guide), but EME is a discovered, consensus Strong Buy far from the passive/power bottleneck core; no new info since June 9. Stays in Monitor/benchmark bucket. Hold."
+   }
+  }
+ ]
+}

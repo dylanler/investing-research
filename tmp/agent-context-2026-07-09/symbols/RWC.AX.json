@@ -1,0 +1,32 @@
+{
+ "symbol": "RWC.AX",
+ "asOf": "2026-07-09",
+ "company": "Reliance Worldwide",
+ "currency": "AUD",
+ "priceToday": 3.76,
+ "pricePrev": 3.56,
+ "moveSincePrevPct": 5.62,
+ "ytdReturnPct": -2.34,
+ "marketCapUsdB": 2.01,
+ "quoteUrl": "https://finance.yahoo.com/quote/RWC.AX/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 62,
+   "ticker": "RWC.AX",
+   "company": "Reliance Worldwide",
+   "score": 66.0,
+   "thesis": "Plumbing, pipe fittings and flow-control products could support water loops and rapid facility construction",
+   "theme": "Plumbing/flow control",
+   "exchange": "ASX",
+   "regionRank": "Non-US#28",
+   "ytd": -2.34,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No company-specific news since June 9; the +8.5% move is a buyback/value-buying bounce, not evidence for the water-loop/rapid-build pathway, in a name still -7.5% YTD. The strict latent-node optionality is unchanged, so yesterday's hold stands."
+   }
+  }
+ ]
+}

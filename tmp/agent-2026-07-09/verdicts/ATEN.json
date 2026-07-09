@@ -1,0 +1,43 @@
+{
+  "symbol": "ATEN",
+  "company": "A10 Networks",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. A10 Networks (ATEN) now screens at $2.63B market cap, +8.2% since the prior refresh and +113.8% YTD. Page thesis remains: Network security and application delivery for AI-heavy traffic",
+  "sources": [
+    {
+      "label": "ATEN quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ATEN/"
+    },
+    {
+      "label": "StockTitan: A10 acquires TrojAI",
+      "url": "https://www.stocktitan.net/news/ATEN/a10-networks-acquires-troj-ai-inc-expanding-ai-vtaqdena2rao.html"
+    },
+    {
+      "label": "Simply Wall St: TrojAI acquisition investment case",
+      "url": "https://simplywall.st/stocks/us/software/nyse-aten/a10-networks/news/is-a10s-trojai-ai-security-acquisition-altering-the-investme"
+    },
+    {
+      "label": "A10 reaffirmed 2026 guidance and dividend (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/a10-reaffirmed-2026-guidance-dividend-230804782.html"
+    },
+    {
+      "label": "Why A10 stock is climbing today (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-a10-networks-stock-climbing-today-93CH-4745175"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 42,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 42. July market-data refresh shows move since prior +8.2%, YTD +113.8%, market cap $2.63B. Thesis: Network security and application delivery for AI-heavy traffic. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "TrojAI deal adds AI-model/agent security to existing app-delivery franchise; peak enterprise AI-security demand; PT to $45.",
+      "neutral": "Small $2.4B cap, deal still to integrate; reaffirmed 10-12% revenue growth is solid but not transformational yet.",
+      "bear": "+98% YTD prices in much of the optimism; tiny tuck-in acquisition, execution and AI-security competition risk.",
+      "primaryCatalyst": "TrojAI sovereign-AI-security integration and cross-sell",
+      "primaryRisk": "Stretched valuation after the run; integration/competition"
+    }
+  ]
+}

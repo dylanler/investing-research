@@ -1,0 +1,56 @@
+{
+  "symbol": "SERV",
+  "company": "Serve Robotics",
+  "caseDate": "2026-07-09",
+  "newsSince": "Serve's Q1 2026 revenue was $3.0M, up 578% YoY and 238% sequentially, with roughly 2,000 robots, 44 cities across 14 states after Diligent Robotics, and almost 2M cumulative deliveries. The June NoScrubs laundry vertical adds utilization, but management paused fleet expansion in 1H26 to focus on revenue per robot and unit economics.",
+  "sources": [
+    {
+      "label": "Serve Q1 2026 results",
+      "url": "https://ir.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-first-quarter-2026-results-3x"
+    },
+    {
+      "label": "Serve NoScrubs laundry vertical",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305259/0/en/Serve-Robotics-Continues-Expansion-Beyond-Food-Delivery-Launches-Autonomous-Laundry-Vertical-with-NoScrubs.html"
+    },
+    {
+      "label": "SERV quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SERV/"
+    },
+    {
+      "label": "Serve Robotics launches laundry vertical with NoScrubs (GlobeNewswire, Jun 2)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305259/0/en/serve-robotics-continues-expansion-beyond-food-delivery-launches-autonomous-laundry-vertical-with-noscrubs.html"
+    },
+    {
+      "label": "Serve Q1 2026 fleet revenue +578% / dilution concerns (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/serve-robotics-q1-fleet-revenues-152800846.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "The real deployed fleet and revenue growth still fit physical AI, but the pause in fleet expansion and dilution/burn risk keep it from leapfrogging the cleaner component upgrades.",
+      "bull": "Deployed urban autonomous fleet (Ouster sensors, NVIDIA compute) with Q1 fleet revenue +578% and new non-food laundry vertical lifting utilization.",
+      "neutral": "Strong fleet momentum but tiny absolute revenue (~$26M FY26 guide); commercialization unproven at scale.",
+      "bear": "Heavy dilution from May 11 offering, widening losses, $0.56B cap, -45% YTD; execution and cash-burn risk.",
+      "primaryCatalyst": "Fleet scaling / new delivery verticals converting to recurring revenue",
+      "primaryRisk": "Further equity dilution and cash burn before unit economics turn"
+    },
+    {
+      "page": "scaling",
+      "currentRank": 14,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.54,
+      "rankRationale": "Still a peripheral physical-AI name for scaling; useful optionality, but not a core inference, power, cooling or interconnect bottleneck beneficiary.",
+      "bull": "Optionality on physical-AI/autonomy scaling with a real deployed fleet.",
+      "neutral": "Speculative optionality; small and cash-hungry.",
+      "bear": "Dilution overhang, -45% YTD, only tangential to compute-scaling thesis.",
+      "primaryCatalyst": "Fleet/vertical expansion proof points",
+      "primaryRisk": "Dilution and burn; peripheral to scaling thesis"
+    }
+  ]
+}

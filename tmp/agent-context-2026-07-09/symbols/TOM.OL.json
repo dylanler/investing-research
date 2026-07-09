@@ -1,0 +1,32 @@
+{
+ "symbol": "TOM.OL",
+ "asOf": "2026-07-09",
+ "company": "Tomra",
+ "currency": "NOK",
+ "priceToday": 95.5,
+ "pricePrev": 95.2,
+ "moveSincePrevPct": 0.32,
+ "ytdReturnPct": -30.04,
+ "marketCapUsdB": 2.95,
+ "quoteUrl": "https://finance.yahoo.com/quote/TOM.OL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 78,
+   "ticker": "TOM.OL",
+   "company": "Tomra",
+   "score": 63.5,
+   "thesis": "Sensor-based sorting and recycling could help recover metals/plastics as AI hardware cycles accelerate",
+   "theme": "Sensor sorting/recycling",
+   "exchange": "Oslo",
+   "regionRank": "Non-US#42",
+   "ytd": -30.04,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "The AI-native PolyPerception majority stake and new AI FINDER (PCB/E-scrap and non-ferrous recovery) make the previously 'speculative and unproven' AI-chain linkage more concrete, marginally improving the strict-screen case vs June 9. Mild positive only; still a circular-economy story, not a core compute bottleneck."
+   }
+  }
+ ]
+}

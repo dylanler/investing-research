@@ -1,0 +1,63 @@
+{
+ "symbol": "ARM",
+ "asOf": "2026-07-09",
+ "company": "Arm Holdings",
+ "currency": "USD",
+ "priceToday": 300.24,
+ "pricePrev": 371.5,
+ "moveSincePrevPct": -19.18,
+ "ytdReturnPct": 161.69,
+ "marketCapUsdB": 320.88,
+ "quoteUrl": "https://finance.yahoo.com/quote/ARM/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 31,
+   "ticker": "ARM",
+   "company": "Arm Holdings",
+   "score": 63.6,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 161.69,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node-bottleneck lens: ARM's AGI-CPU order book >$2B and server wins improve fundamentals, but its directness to the true HBM/advanced-packaging/CPO bottleneck is unchanged. Modest positive; stays mid-pack vs. more direct picks-and-shovels names on this page."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 86,
+   "ticker": "ARM",
+   "company": "Arm Holdings",
+   "score": 49.5,
+   "thesis": "AI custom silicon ecosystem IP, but CPO cable exposure is remote.",
+   "category": "IP / CPU architecture",
+   "ytd": 161.69,
+   "mcapB": 320.88,
+   "risk": "Very high valuation",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: ARM has essentially no co-packaged-optics exposure; AGI-CPU/server news is bottom-of-stack compute IP, not optical interconnect. Nothing changes its remote placement on this list. Hold near the tail."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 91,
+   "ticker": "ARM",
+   "company": "Arm Holdings",
+   "score": 39.1,
+   "thesis": "Platform compute exposure. Strong ytd follow-through; watch cpu/ip licensing for ai servers execution and pricing.",
+   "bucket": "Compute silicon & IP",
+   "ytd": 161.69,
+   "auditNote": "Yesterday's down was driven explicitly by the 200%+ YTD rerating leaving 'less hidden alpha'; that condition has materially changed — a ~22% flow-driven drawdown (Broadcom read-across plus SoftBank se",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck master list: prior June 9 'up' already captured the asymmetry restored by the flow-driven washout. June PT hikes and >$2B AGI-CPU bookings confirm execution, but the name is now well-followed and re-rated, limiting hidden alpha. Small positive; hold."
+   }
+  }
+ ]
+}

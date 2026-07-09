@@ -1,0 +1,68 @@
+{
+  "symbol": "ROG",
+  "company": "Rogers",
+  "caseDate": "2026-07-09",
+  "newsSince": "-17.0% since prior, +47.2% YTD. July 9 context refresh for Rogers (ROG) across latent-ai-nodes: market cap $2.84B, move since prior -17.0%, YTD +47.2%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "B. Riley PT raise / 52-week high (Markets Daily)",
+      "url": "https://www.themarketsdaily.com/2026/06/22/rogers-nyserog-sets-new-12-month-high-heres-what-happened.html"
+    },
+    {
+      "label": "ROG Q1 2026 earnings highlights (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rogers-corp-rog-q1-2026-071003468.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/ROG/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "ROG quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ROG/"
+    },
+    {
+      "label": "ROG news feed (StockTitan)",
+      "url": "https://www.stocktitan.net/news/ROG/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 6,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.74,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 6. July context shows score 80.7, move since prior -17.0%, YTD +47.2%, market cap $2.84B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Thermal-interface and high-frequency materials feed AI accelerators and power electronics; design wins ramping and targets rising.",
+      "neutral": "Real AI-supply-chain link, but the data-center contribution is still sampling/prototype until 2027.",
+      "bear": "Cyclical electronics demand and activist-sensitive sentiment after a large run.",
+      "primaryCatalyst": "Thermal/power-electronics demand into AI/data-center",
+      "primaryRisk": "Cyclical electronics softness; valuation"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 33,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 33. July context does not change the page placement: -17.0% since the prior refresh, +47.2% YTD. Prior frame: A June 15 sell-side PT hike to $200 plus a new 52-week high (now +78% YTD) confirms the name is no longer hidden/under-owned, eroding the residual-alpha premise this page rewards. No new fundamental win; data-center revenue still ~2027.",
+      "bull": "AI-adjacent thermal/laminate supplier with auto/radar design wins ramping H2 2026 and rising sell-side targets.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 33, score 41.9, -17.0% since prior, +47.2% YTD.",
+      "bear": "Now widely flagged after a 52-week high; the under-owned mispricing this page prizes is gone.",
+      "primaryCatalyst": "Auto/radar design-win ramp into H2 2026",
+      "primaryRisk": "Crowding/re-rating eroding residual alpha"
+    }
+  ]
+}

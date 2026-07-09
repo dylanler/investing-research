@@ -1,0 +1,72 @@
+{
+  "symbol": "3661.TW",
+  "company": "Alchip Technologies",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 7 hold (+0); down 3.8% since the prior refresh. semiconductor-ai-nodes: rank 9 hold (+0); down 3.8% since the prior refresh.",
+  "sources": [
+    {
+      "label": "AI Magazine - Alchip leverages AWS for cloud silicon execution (Jun 2)",
+      "url": "https://aimagazine.com/globenewswire/3305256"
+    },
+    {
+      "label": "HPCwire - Alchip to showcase advanced AI ASIC at TSMC 2026 symposium",
+      "url": "https://www.hpcwire.com/off-the-wire/alchip-to-showcase-advanced-ai-asic-technologies-at-tsmc-2026-technology-symposium/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "3661.TW Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/3661.TW/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 7,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Alchip Technologies through AI ASIC / design services; Custom ASIC services are leveraged to hyperscaler AI silicon; optical attach is indirect. The stock is down 3.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Chiplet/SerDes/scale-up exposure to hyperscaler AI silicon; cleaner valuation than ASIC peers.",
+      "neutral": "Optical attach indirect; news incremental.",
+      "bear": "Customer concentration; AI project timing risk.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Customer concentration and AI project timing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Alchip Technologies through custom ASIC / interconnect; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 3.8% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Leading-edge custom AI accelerators in volume; relatively un-rerated (+20% YTD) vs ASIC peers.",
+      "neutral": "AWS news incremental; awaiting next program disclosure.",
+      "bear": "Customer concentration; AI-project timing; ASIC theme crowded.",
+      "primaryCatalyst": "AI networking/custom-silicon platform wins",
+      "primaryRisk": "Customer concentration / program timing"
+    }
+  ]
+}

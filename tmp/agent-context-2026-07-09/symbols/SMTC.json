@@ -1,0 +1,65 @@
+{
+ "symbol": "SMTC",
+ "asOf": "2026-07-09",
+ "company": "Semtech",
+ "currency": "USD",
+ "priceToday": 128.84,
+ "pricePrev": 164.14,
+ "moveSincePrevPct": -21.51,
+ "ytdReturnPct": 71.19,
+ "marketCapUsdB": 12.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/SMTC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 33,
+   "ticker": "SMTC",
+   "company": "Semtech",
+   "score": 72.0,
+   "thesis": "Edge AI needs low-power connectivity and telemetry; Semtech offers IoT and high-speed signal chain optionality after a difficult acquisition cycle.",
+   "theme": "Connectivity & Components",
+   "exchange": "NASDAQ",
+   "ytd": 71.19,
+   "conviction": "Speculative",
+   "catalysts": "LoRa ecosystem; data-center signal products; balance-sheet improvement.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 46 is 11 places worse than displayed rank 35; adjusted score 67.6; YTD +111.0%; market cap $14.8B; Semtech remains tied to connectivity & components through LoRa, signal integrity and IoT connectivity chips/modules. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 46,
+   "ticker": "SMTC",
+   "company": "Semtech",
+   "score": 58.5,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 71.19,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Page calls SMTC 'less direct than HBM/packaging/networking,' but FQ1 (record $71.6M data center on 800G FiberEdge/Tri-Edge and CopperEdge ACCs) plus the June-17 224 Gbps launch show genuine, direct AI-network-bottleneck exposure that rank 51 still understates."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 2,
+   "ticker": "SMTC",
+   "company": "Semtech",
+   "score": 92.7,
+   "thesis": "Smaller-cap signal-integrity/optical leverage; credible second-derivative AI networking exposure.",
+   "category": "Optical / signal integrity",
+   "ytd": 71.19,
+   "mcapB": 12.0,
+   "risk": "Turnaround and product-cycle risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the crowding-sensitive CPO lens, the 224 Gbps launch and record optics print confirm the thesis but it is now fully discovered: multiple PT raises to ~$200-225, rich forward multiple, prior insider selling. Fundamentals beat, residual asymmetry is thin, so hold near the top rather than push higher."
+   }
+  }
+ ]
+}

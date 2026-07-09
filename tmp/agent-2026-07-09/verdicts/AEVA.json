@@ -1,0 +1,35 @@
+{
+  "symbol": "AEVA",
+  "company": "Aeva",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Aeva (AEVA) now screens at $1.46B market cap, -11.6% since the prior refresh and +68.6% YTD. Page thesis remains: Strong physical-AI sensing story, but the stock has already moved.",
+  "sources": [
+    {
+      "label": "AEVA quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AEVA/"
+    },
+    {
+      "label": "BusinessWire: Aeva launches follow-on offering (June 3)",
+      "url": "https://www.businesswire.com/news/home/20260603397003/en/Aeva-Technologies-Inc.-Launches-Proposed-Follow-On-Offering"
+    },
+    {
+      "label": "Aeva: exclusive global production contract from top European OEM",
+      "url": "https://www.aeva.com/press/aeva-wins-exclusive-global-production-contract-from-top-european-passenger-oem/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 21,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 21. July market-data refresh shows move since prior -11.6%, YTD +68.6%, market cap $1.46B. Thesis: Strong physical-AI sensing story, but the stock has already moved.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "FMCW 4D LiDAR is a differentiated physical-AI sensing platform with marquee OEM, NVIDIA, and Daimler wins extending into robotics/industrial.",
+      "neutral": "Great sensing story, but the wins are known and 2026 revenue is tiny relative to the rerating.",
+      "bear": "Crowded after a big run, pre-scale revenue, fresh equity dilution; valuation prices much future success.",
+      "primaryCatalyst": "4D LiDAR ramp into OEM L3 production and physical-AI/NVIDIA Hyperion adoption",
+      "primaryRisk": "Stock has already moved (+92% YTD); 2026 revenue still only $30-36M; recent dilution"
+    }
+  ]
+}

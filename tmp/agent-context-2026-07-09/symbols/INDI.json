@@ -1,0 +1,43 @@
+{
+ "symbol": "INDI",
+ "asOf": "2026-07-09",
+ "company": "indie Semiconductor",
+ "currency": "USD",
+ "priceToday": 4.37,
+ "pricePrev": 3.835,
+ "moveSincePrevPct": 13.95,
+ "ytdReturnPct": 18.11,
+ "marketCapUsdB": 0.96,
+ "quoteUrl": "https://finance.yahoo.com/quote/INDI/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 97,
+   "ticker": "INDI",
+   "company": "indie Semiconductor",
+   "score": 40.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 18.11,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens screens for HBM/advanced-packaging/AI-networking proximity, where indie is indirect. The iND881 is an edge perception SoC, not a datacenter AI-node play, so it does not close the page-specific relevance gap flagged at June 9. No node-relevant catalyst. Hold low."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 17,
+   "ticker": "INDI",
+   "company": "indie Semiconductor",
+   "score": 68.6,
+   "thesis": "A small-cap adjacent play for perception silicon in ADAS and industrial/humanoid robotics.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #24 and alpha score 71. Should move down because $1.0B cap, +20.8% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

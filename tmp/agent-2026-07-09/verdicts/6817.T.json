@@ -1,0 +1,39 @@
+{
+  "symbol": "6817.T",
+  "company": "Sumida",
+  "caseDate": "2026-07-09",
+  "newsSince": "-3.2% since prior, +16.8% YTD. No material company-specific news since June 9. Q1 FY2026 results (revenue ¥38.4B, EPS up YoY, helped by Schmidbauer and European xEV) and the updated mid-term plan were prior; the -8.0% pullback since June 9 appears flow/profit-taking with no adverse fundamental driver.",
+  "sources": [
+    {
+      "label": "Sumida FY2026 Q1 results & mid-term plan update (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/sumida-outlines-fy2026-first-quarter-results-and-updates-mid-term-plan"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/6817.T/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 1,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 1. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -3.2% since the prior refresh, +16.8% YTD. Prior frame: Already rank 1, no upside available. No new bottleneck evidence since June 9; the -8% pullback (thesis-intact) marginally improves entry asymmetry on this hidden-gem list. Direct magnetics/power-inductor supplier with low crowding and a tiny ~$0.3B cap keeps it at the top.",
+      "bull": "Hidden, sub-$0.3B-cap direct magnetics/inductor supplier for power conversion; lowest crowding on the list.",
+      "neutral": "Current snapshot: High-conviction residual alpha; rank 1, score 100.0, -3.2% since prior, +16.8% YTD.",
+      "bear": "Micro-cap, thin liquidity, modest margins; xEV demand still soft.",
+      "primaryCatalyst": "AI/power-conversion inductor demand; margin recovery",
+      "primaryRisk": "Micro-cap liquidity; xEV/auto demand softness"
+    }
+  ]
+}

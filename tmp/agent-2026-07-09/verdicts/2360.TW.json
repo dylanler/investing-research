@@ -1,0 +1,39 @@
+{
+  "symbol": "2360.TW",
+  "company": "Chroma ATE",
+  "caseDate": "2026-07-09",
+  "newsSince": "-19.6% since prior, +128.6% YTD. No material company-specific news since June 9. Latest substantive prints (record Q1 NT$11.8B +73% YoY driven by AI server power test + SLT, CPO test pilot for the 4th insertion in June) were already disclosed at the April 30 Q1 call. The -5.2% drift since June 9 carries no new information.",
+  "sources": [
+    {
+      "label": "Chroma ATE Q1 2026 earnings call summary (BigGo)",
+      "url": "https://finance.biggo.com/news/TW_2360.TW_2026-04-30"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/2360.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 23. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -19.6% since the prior refresh, +128.6% YTD. Prior frame: No new news since June 9; AI power-test/SLT/CPO-test story (Q1 record) already known and unanimous Strong Buy coverage keeps eroding the 'underfollowed' residual-alpha premise on this crowding-sensitive page. ~185% YTD leaves little hidden asymmetry. Hold.",
+      "bull": "Direct AI-server power test + SLT + CPO test pilot; choke-point test equipment with NVDA/AMD/GOOG adoption.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 23, score 51.3, -19.6% since prior, +128.6% YTD.",
+      "bear": "185% YTD and unanimous coverage; no longer underfollowed, vulnerable to any AI-capex test slowdown.",
+      "primaryCatalyst": "CPO test insertions ramping into 2H26.",
+      "primaryRisk": "Crowded ownership / coverage saturation erodes hidden-alpha thesis."
+    }
+  ]
+}

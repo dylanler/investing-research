@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 43. July context shows score 67.3, move since prior +1.2%, YTD +31.8%, market cap $3.00B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "USD reporting clarifies US data-centre/infra exposure; record galvanizing demand.",
+      "neutral": "Steady infra compounder; buyback supports EPS but no AI catalyst.",
+      "bear": "AI-node thesis is qualitative; rerating already done, discovery rising.",
+      "primaryCatalyst": "H1 results Aug 12 (first USD report)",
+      "primaryRisk": "No direct AI demand signal; crowding into a rerated name"
+    }
+  ],
+  "symbol": "HILS.L",
+  "company": "Hill & Smith",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Hill & Smith buyback update (TipRanks)",
+      "url": "https://www.tipranks.com/news/company-announcements/hill-smith-cuts-share-count-further-as-100m-buyback-progresses"
+    },
+    {
+      "label": "Hill & Smith USD reporting switch (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/hill--smith-to-switch-reporting-currency-to-us-dollar-93CH-4749037"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/HILS.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "HILS.L quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/HILS.L/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Hill & Smith (HILS.L) across latent-ai-nodes-strict: market cap $3.00B, move since prior +1.2%, YTD +31.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

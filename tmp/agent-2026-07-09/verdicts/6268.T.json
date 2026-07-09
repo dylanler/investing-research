@@ -1,0 +1,35 @@
+{
+  "symbol": "6268.T",
+  "company": "Nabtesco",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Nabtesco (6268.T) now screens at $4.11B market cap, +4.5% since the prior refresh and +40.6% YTD. Page thesis remains: Fundamentally real humanoid component exposure, but already well-discovered.",
+  "sources": [
+    {
+      "label": "6268.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/6268.T/"
+    },
+    {
+      "label": "Nabtesco precision reduction gears / robot business",
+      "url": "https://www.nabtesco.com/en/products/robot/"
+    },
+    {
+      "label": "Nabtesco / Harmonic Drive stake history (MarketScreener)",
+      "url": "https://www.marketscreener.com/quote/stock/NABTESCO-CORPORATION-6496668/news/Nabtesco-Closes-357-Million-Sale-of-Partial-Stake-in-Harmonic-Drive-Systems-40960527/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 24,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 24. July market-data refresh shows move since prior +4.5%, YTD +40.6%, market cap $4.11B. Thesis: Fundamentally real humanoid component exposure, but already well-discovered.. Score delta +0; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Critical actuation chokepoint; RV-reducer capacity doubling positions it for humanoid volume.",
+      "neutral": "Real but well-known exposure; reducer content per humanoid still uncertain.",
+      "bear": "Industrial/auto cyclicality dominates near-term; humanoid revenue remains immaterial.",
+      "primaryCatalyst": "Named humanoid actuator design wins and capacity ramp",
+      "primaryRisk": "Industrial-robot cycle softness; humanoid timeline slips"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "BW",
+ "asOf": "2026-07-09",
+ "company": "Babcock & Wilcox",
+ "currency": "USD",
+ "priceToday": 10.77,
+ "pricePrev": 16.43,
+ "moveSincePrevPct": -34.45,
+ "ytdReturnPct": 69.61,
+ "marketCapUsdB": 2.39,
+ "quoteUrl": "https://finance.yahoo.com/quote/BW/",
+ "listings": [
+  {
+   "page": "scaling",
+   "rank": 29,
+   "ticker": "BW",
+   "company": "Babcock & Wilcox",
+   "score": 39.0,
+   "thesis": "Power systems / thermal infrastructure",
+   "bucket": "electricity",
+   "ytd": 69.61,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 39 is 3 places better than displayed rank 42; adjusted score 32.3; YTD +150.1%; market cap $2.8B; Scaling watchlist fit is Power systems / thermal infrastructure; bucket electricity; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

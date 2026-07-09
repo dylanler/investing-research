@@ -1,0 +1,31 @@
+{
+ "symbol": "3529.TWO",
+ "asOf": "2026-07-09",
+ "company": "eMemory Technology",
+ "currency": "TWD",
+ "priceToday": 2605.0,
+ "pricePrev": 3185.0,
+ "moveSincePrevPct": -18.21,
+ "ytdReturnPct": 51.45,
+ "marketCapUsdB": 6.36,
+ "quoteUrl": "https://finance.yahoo.com/quote/3529.TWO/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 54,
+   "ticker": "3529.TWO",
+   "company": "eMemory Technology",
+   "score": 61.6,
+   "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+   "category": "IP / embedded memory",
+   "ytd": 51.45,
+   "mcapB": 6.36,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "eMemory Technology should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 86.0% YTD and $8.1B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

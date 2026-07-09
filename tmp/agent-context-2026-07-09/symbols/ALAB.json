@@ -1,0 +1,81 @@
+{
+ "symbol": "ALAB",
+ "asOf": "2026-07-09",
+ "company": "Astera Labs",
+ "currency": "USD",
+ "priceToday": 393.16,
+ "pricePrev": 402.87,
+ "moveSincePrevPct": -2.41,
+ "ytdReturnPct": 118.96,
+ "marketCapUsdB": 67.39,
+ "quoteUrl": "https://finance.yahoo.com/quote/ALAB/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 88,
+   "ticker": "ALAB",
+   "company": "Astera Labs",
+   "score": 4.4,
+   "thesis": "PCIe/CXL fabric leverage in AI racks; direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: ALAB",
+   "ytd": 118.96,
+   "mcapB": 67.39,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On the residual-alpha-vs-passives lens, June 22 Nasdaq-100 inclusion makes ALAB MORE owned by benchmark/passive funds, eroding the asymmetry this page rewards. Scorpio ramp is real but doesn't restore residual alpha at ~$70B cap. Slight negative."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 4,
+   "ticker": "ALAB",
+   "company": "Astera Labs",
+   "score": 85.8,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 118.96,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Scorpio X-Series 320-lane scale-up switch now shipping to hyperscaler lead platforms ($20B 2030 TAM) genuinely strengthens connectivity-node centrality since June 9. At rank 4 there is little room up, and the page's 'smaller visibility' tilt is offset by Nasdaq-100 fame — net real fundamental uptick, hold rank."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 43,
+   "ticker": "ALAB",
+   "company": "Astera Labs",
+   "score": 68.6,
+   "thesis": "Direct AI rack-scale connectivity; not exactly CPO cables, but close copper/optical transition exposure.",
+   "category": "AI interconnect",
+   "ytd": 118.96,
+   "mcapB": 67.39,
+   "risk": "High P/S and hyperscaler concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the CPO lens, the Scorpio scale-up switching ramp deepens rack-scale copper/optical transition exposure, but ALAB remains tangential to CPO cables proper and the page's stated risk (high P/S, hyperscaler concentration) is exactly what is being repriced. Slight positive, hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 45,
+   "ticker": "ALAB",
+   "company": "Astera Labs",
+   "score": 60.6,
+   "thesis": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch pcie/cxl connectivity execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 118.96,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the master under-owned-bottleneck list, the scale-up switch ramp is genuine bottleneck exposure, but Nasdaq-100 inclusion (June 22) directly erodes the 'under-owned' premise. The two roughly offset to a slight net positive; hold rank."
+   }
+  }
+ ]
+}

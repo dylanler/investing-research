@@ -1,0 +1,31 @@
+{
+ "symbol": "688126.SS",
+ "asOf": "2026-07-09",
+ "company": "National Silicon Industry Group",
+ "currency": "CNY",
+ "priceToday": 37.25,
+ "pricePrev": 32.22,
+ "moveSincePrevPct": 15.61,
+ "ytdReturnPct": 66.67,
+ "marketCapUsdB": 15.81,
+ "quoteUrl": "https://finance.yahoo.com/quote/688126.SS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 76,
+   "ticker": "688126.SS",
+   "company": "National Silicon Industry Group",
+   "score": 52.2,
+   "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+   "category": "Materials / wafers",
+   "ytd": 66.67,
+   "mcapB": 15.81,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "National Silicon Industry Group should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 52, 18.3% YTD, $13.9B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

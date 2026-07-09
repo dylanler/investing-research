@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 32,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 32. July context shows score 69.0, move since prior -0.7%, YTD +10.8%, market cap $0.20B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Restructuring (Mexico closure) should lift H2 margins; cheap tooling/components play with reshoring optionality.",
+      "neutral": "Auto-tied cyclical with only a tenuous AI-thermal angle; sales declining.",
+      "bear": "No real AI revenue; auto end-market softness and FX continue to pressure the top line.",
+      "primaryCatalyst": "Reshoring tooling demand; H2 mold-program ramp post-restructuring",
+      "primaryRisk": "Auto-cyclical demand and FX drag; AI-thermal link remains speculative"
+    }
+  ],
+  "symbol": "XTC.TO",
+  "company": "Exco Technologies",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Exco Q2 FY26 results (Apr 29)",
+      "url": "https://www.globenewswire.com/news-release/2026/04/29/3284344/0/en/Exco-Results-for-Second-Quarter-Ended-March-31-2026.html"
+    },
+    {
+      "label": "Exco Technologies news",
+      "url": "https://www.excocorp.com/category/news/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/XTC.TO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "XTC.TO quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/XTC.TO/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Exco Technologies (XTC.TO) across latent-ai-nodes-strict: market cap $0.20B, move since prior -0.7%, YTD +10.8%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

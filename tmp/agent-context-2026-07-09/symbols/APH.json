@@ -1,0 +1,48 @@
+{
+ "symbol": "APH",
+ "asOf": "2026-07-09",
+ "company": "Amphenol",
+ "currency": "USD",
+ "priceToday": 158.22,
+ "pricePrev": 161.37,
+ "moveSincePrevPct": -1.95,
+ "ytdReturnPct": 13.25,
+ "marketCapUsdB": 194.65,
+ "quoteUrl": "https://finance.yahoo.com/quote/APH/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 83,
+   "ticker": "APH",
+   "company": "Amphenol",
+   "score": 9.9,
+   "thesis": "Interconnect backbone for dense AI racks; tight-supply, direct-AI, 2026-catalyst, hard-to-substitute.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "NYSE: APH",
+   "ytd": 13.25,
+   "mcapB": 194.65,
+   "revisionNote": "On a crowding-sensitive alpha list, an ~8.7% two-day rally with zero new fundamental evidence is pure post-rerating chase that further erodes residual alpha; the name is already bucketed 'Crowded / rerated benchmark' at a $182B cap, so it should slip below smaller, undiscovered bottleneck names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On a crowding-sensitive residual-alpha-vs-passives list APH is already bucketed 'Crowded / rerated benchmark' at ~$199B cap. Another flow-driven leg (analyst PT raises, +4.6%) with no new fundamentals is exactly the post-rerating chase this page penalizes, so it slips below smaller undiscovered bottleneck names."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 29,
+   "ticker": "APH",
+   "company": "Amphenol",
+   "score": 65.7,
+   "thesis": "Scale-out bandwidth and optics exposure. Negative ytd reset; watch interconnects and cabling execution and pricing.",
+   "bucket": "Optical & high-speed networking",
+   "ytd": 13.25,
+   "auditNote": "Current thesis audit (2026-06-08): scale-out networking, CPO, 800G/1.6T optical links score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has no",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the under-owned-bottleneck master list APH's scale-out bandwidth/optics case (800G/1.6T, CCS fiber) is unchanged; June news is analyst flow, not fresh company fundamentals. Prior verdict was hold; today's move is flow, so hold at zero rather than down-rate for rerating (handled separately)."
+   }
+  }
+ ]
+}

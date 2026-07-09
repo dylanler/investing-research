@@ -1,0 +1,65 @@
+{
+ "symbol": "RMBS",
+ "asOf": "2026-07-09",
+ "company": "RMBS",
+ "currency": "USD",
+ "priceToday": 109.64,
+ "pricePrev": 129.725,
+ "moveSincePrevPct": -15.48,
+ "ytdReturnPct": 10.44,
+ "marketCapUsdB": 11.86,
+ "quoteUrl": "https://finance.yahoo.com/quote/RMBS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 64,
+   "ticker": "RMBS",
+   "company": "Rambus",
+   "score": 24.3,
+   "thesis": "Memory interface leverage for AI systems; AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: RMBS",
+   "ytd": 10.44,
+   "mcapB": 11.86,
+   "revisionNote": "Residual-alpha-vs-passives lens: a -12% flow-driven flush with the HBM4E/memory-interface thesis intact further compresses YTD and unwinds the crowding that anchored prior holds. No RMBS-specific fundamental damage, so the de-rate is alpha-restorative, not thesis erosion. Extends prior 'up'.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Residual-alpha-vs-passives lens: a -12% flow-driven flush with the HBM4E/memory-interface thesis intact further compresses YTD and unwinds the crowding that anchored prior holds. No RMBS-specific fundamental damage, so the de-rate is alpha-restorative, not thesis erosion. Extends prior 'up'."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 70,
+   "ticker": "RMBS",
+   "company": "Rambus",
+   "score": 50.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 10.44,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node-centrality lens (not entry asymmetry): the sector selloff doesn't change Rambus's standing as a memory-interface/controller-IP node that is less direct than HBM makers, advanced packaging and AI networking. HBM4E controller launch is incremental, not a centrality re-rate. Prior hold logic unchanged."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 36,
+   "ticker": "RMBS",
+   "company": "Rambus",
+   "score": 72.2,
+   "thesis": "HBM and memory-interface leverage into AI clusters, indirect CPO benefit.",
+   "category": "Memory interface/IP",
+   "ytd": 10.44,
+   "mcapB": 11.86,
+   "risk": "IP/product mix and memory cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Co-packaged-optics/alpha lens: the page's stated risk ('IP/product mix and memory cycle') is exactly what the tape is pricing, but the -12% is sector flow off the June chip rout, not a Rambus cycle break. Sharp sell-off with intact HBM/memory-interface thesis improves the alpha asymmetry. Extends prior 'up'."
+   }
+  }
+ ]
+}

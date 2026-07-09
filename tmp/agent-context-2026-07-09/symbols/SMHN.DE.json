@@ -1,0 +1,47 @@
+{
+ "symbol": "SMHN.DE",
+ "asOf": "2026-07-09",
+ "company": "S\\u00dcSS MicroTec",
+ "currency": "EUR",
+ "priceToday": 81.6,
+ "pricePrev": 96.45,
+ "moveSincePrevPct": -15.4,
+ "ytdReturnPct": 99.8,
+ "marketCapUsdB": 1.91,
+ "quoteUrl": "https://finance.yahoo.com/quote/SMHN.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 81,
+   "ticker": "SMHN.DE",
+   "company": "SÜSS MicroTec",
+   "score": 60.8,
+   "thesis": "Advanced packaging tools are important for AI chips, but SÜSS has already been pulled into the semicap AI screen.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "Xetra",
+   "ytd": 99.8,
+   "conviction": "Medium",
+   "catalysts": "Hybrid bonding; advanced packaging capex; memory/logic recovery.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 79 is 4 places better than displayed rank 83; adjusted score 59.6; YTD +125.3%; market cap $2.0B; SÜSS MicroTec remains tied to semi/advanced materials through Lithography, bonding and advanced packaging tools. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 35,
+   "ticker": "SMHN.DE",
+   "company": "SÜSS MicroTec",
+   "score": 35.3,
+   "thesis": "Advanced packaging and lithography process tools",
+   "bucket": "semiconductors",
+   "ytd": 99.8,
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the test-time-scaling lens, advanced-packaging and lithography process tools stay relevant to AI compute scaling; XBC300 Gen2 and record orders are incrementally supportive. MDAX inclusion is flow, not fundamentals, so role in the semiconductor bucket is unchanged with a small positive drift."
+   }
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "symbol": "MTSI",
+ "asOf": "2026-07-09",
+ "company": "MACOM Technology Solutions",
+ "currency": "USD",
+ "priceToday": 305.23,
+ "pricePrev": 371.75,
+ "moveSincePrevPct": -17.89,
+ "ytdReturnPct": 74.46,
+ "marketCapUsdB": 23.29,
+ "quoteUrl": "https://finance.yahoo.com/quote/MTSI/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 65,
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions",
+   "score": 23.9,
+   "thesis": "High-speed interconnect and optical components; AI-adjacent, underfollowed, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "NASDAQ: MTSI",
+   "ytd": 74.46,
+   "mcapB": 23.29,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Passives/power lens: MACOM is interconnect/optical, farther from the passive-power bottleneck stack. AI optical strength is real but orthogonal to this page; nothing new since June 9 touches passives, so hold in the monitor bucket at 66."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 26,
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions",
+   "score": 73.4,
+   "thesis": "MACOM sits in RF/optical signal chains that support high-speed networks and defense sensing, with less pure-AI crowding than the largest AI semis.",
+   "theme": "Connectivity & Photonics",
+   "exchange": "NASDAQ",
+   "ytd": 74.46,
+   "conviction": "Medium",
+   "catalysts": "Optical/datacom components; defense RF demand; margin expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Latent connectivity/photonics: Q2 beat plus raised >60% FY26 datacenter growth and a strong Q3 guide reinforce the optical/datacom leg, but it was already in the June 9 mark. Modest +1 score nod, no rank move at 37."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 53,
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions",
+   "score": 55.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 74.46,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: analog/power/RF tier, less direct than HBM/advanced-packaging/AI-networking. June 9 already moved it up on AI-connectivity proximity; nothing new since bears on the compute bottleneck, so hold at 56."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 3,
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions",
+   "score": 92.5,
+   "thesis": "Strong 200G/lane optical/copper interconnect exposure with smaller market cap than the already-crowded optics winners.",
+   "category": "RF / photonics",
+   "ytd": 74.46,
+   "mcapB": 23.29,
+   "risk": "Cyclical RF/industrial and execution risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/optics lens: rank 2 on a crowding-sensitive list. 200G/lane interconnect thesis intact and the Q2 beat confirms AI optical pull, but growing sell-side attention (PTs to $375/$427/$450) shrinks residual alpha; offsets net to a hold."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 82,
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions",
+   "score": 46.0,
+   "thesis": "Design-validation exposure. Strong ytd follow-through; watch rf/analog and optical semis execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": 74.46,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master list / EDA-test-timing bucket: design-validation framing is a loose fit. June 9 already down-ranked for the YTD rerating; no new design-validation/test news since, so hold at 80."
+   }
+  }
+ ]
+}

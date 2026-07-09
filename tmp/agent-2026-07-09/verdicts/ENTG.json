@@ -1,0 +1,113 @@
+{
+  "symbol": "ENTG",
+  "company": "Entegris",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 16 hold (+0); down 17.3% since the prior refresh. semiconductor-ai-nodes: rank 27 hold (+0); down 17.3% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for ENTG",
+      "url": "https://finance.yahoo.com/quote/ENTG/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Timothy Sykes: Entegris climbs as analyst boost, EUV deal fire up AI chip story (Jun 18)",
+      "url": "https://www.timothysykes.com/news/entegris-inc-entg-news-2026_06_18/"
+    },
+    {
+      "label": "StocksToTrade: Entegris powers higher on EUV deal and target hike (Jun 11)",
+      "url": "https://stockstotrade.com/news/entegris-inc-entg-news-2026_06_11/"
+    },
+    {
+      "label": "Entegris Q1 2026 earnings transcript (HBM/advanced packaging detail)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/30/entegris-entg-q1-2026-earnings-transcript/"
+    },
+    {
+      "label": "ENTG Mizuho hike + JSR/Inpria EUV deal (Jun 18)",
+      "url": "https://stockstotrade.com/news/entegris-inc-entg-news-2026_06_18-2/"
+    },
+    {
+      "label": "Entegris Q1 2026 results / Q2 guidance",
+      "url": "https://s205.q4cdn.com/144974603/files/doc_financials/2026/q1/ENTG_Q126_Earnings_Release.pdf"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ENTG Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ENTG/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 20,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.66,
+      "rankRationale": "Materials/contamination-control role is intact; high rerating tempers the move.",
+      "bull": "Leading-edge capacity, process control, materials and test inputs remain pick-and-shovel beneficiaries of HBM/foundry capex.",
+      "neutral": "Current snapshot: move since prior -17.3%, YTD +54.9%, market cap about $20.7B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "WFE cyclicality, export controls and high expectations after the AI equipment rerating.",
+      "primaryCatalyst": "HBM/foundry capex, tool orders, materials pricing and process-control demand",
+      "primaryRisk": "WFE cyclicality, export controls and high expectations after the AI equipment rerating."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 16,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Entegris through Materials / consumables; Materials purity and advanced packaging/foundry spend provide underappreciated picks-and-shovels exposure. The stock is down 17.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Materials purity + EUV/advanced-packaging consumables are scarce, sticky AI-node bottleneck exposure.",
+      "neutral": "Thesis improved but the easy alpha has been chased after the June rerating.",
+      "bear": "Crowding-sensitive list: buying after a 25% spike is exactly the chase this page discounts.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Leverage, capex cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 27,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Entegris through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 17.3% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "EUV materials cross-license + HBM slurry/advanced-packaging exposure entrench it in AI-node WFE upcycle; multiple PT raises.",
+      "neutral": "Strong setup but +87% YTD; Q2 print June 27 must confirm order acceleration.",
+      "bear": "~25% pop in two weeks; leverage and capex-cycle risk if WFE upcycle stalls.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Export-control exposure; leverage; post-rerating disappointment"
+    }
+  ]
+}

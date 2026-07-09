@@ -1,0 +1,46 @@
+{
+ "symbol": "SKYT",
+ "asOf": "2026-07-09",
+ "company": "SkyWater Technology",
+ "currency": "USD",
+ "priceToday": 33.34,
+ "pricePrev": 36.44,
+ "moveSincePrevPct": -8.51,
+ "ytdReturnPct": 48.64,
+ "marketCapUsdB": 1.72,
+ "quoteUrl": "https://finance.yahoo.com/quote/SKYT/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 19,
+   "ticker": "SKYT",
+   "company": "SkyWater Technology",
+   "score": 80.9,
+   "thesis": "Highest-priority alpha screen: strong AI/CPO/advanced-packaging theme plus smaller or less fully penetrated market-cap base.",
+   "category": "Foundry / specialty",
+   "ytd": 48.64,
+   "mcapB": 1.72,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "On an alpha screen rewarding hidden, asymmetric CPO/advanced-packaging upside, SKYT no longer fits: it is a pending IonQ takeover at a $35 reference ($15 cash + $20 IonQ stock). Standalone foundry/CPO upside is capped/converted into a merger-arb-plus-IonQ-equity bet, while an unresolved FTC Second Request leaves deal-break downside. With the stock at $36.40 (above reference), asymmetry stays inver"
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 13,
+   "ticker": "SKYT",
+   "company": "SkyWater Technology",
+   "score": 53.0,
+   "thesis": "US specialty foundry leverage in sovereign AI supply chains",
+   "bucket": "semiconductors",
+   "ytd": 48.64,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 15 is 1 places better than displayed rank 16; adjusted score 52.8; YTD +64.3%; market cap $1.7B; Scaling watchlist fit is US specialty foundry leverage in sovereign AI supply chains; bucket semiconductors; tags security_sovereign. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

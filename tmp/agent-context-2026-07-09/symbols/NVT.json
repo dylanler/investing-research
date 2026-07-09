@@ -1,0 +1,30 @@
+{
+ "symbol": "NVT",
+ "asOf": "2026-07-09",
+ "company": "nVent Electric",
+ "currency": "USD",
+ "priceToday": 154.76,
+ "pricePrev": 171.9,
+ "moveSincePrevPct": -9.97,
+ "ytdReturnPct": 44.88,
+ "marketCapUsdB": 24.77,
+ "quoteUrl": "https://finance.yahoo.com/quote/NVT/",
+ "listings": [
+  {
+   "page": "companies",
+   "rank": 11,
+   "ticker": "NVT",
+   "company": "nVent Electric",
+   "score": 79.0,
+   "thesis": "Infrastructure bottleneck exposure. Positive but measured ytd; watch electrical enclosures, busway, and thermal execution and pricing.",
+   "bucket": "Power, cooling & electrical",
+   "ytd": 44.88,
+   "auditNote": "Current thesis audit (2026-06-08): grid interconnection, transformers, switchgear, liquid cooling score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Power/cooling/electrical bottleneck (>2GW liquid cooling deployed, NVL72-aligned reference design) is real but fully recognized: Strong Buy consensus, $185-190 PTs. Nothing new since June 9; the June 1 Siemens/NVIDIA design and Q1 beat already priced. Hold rank 10."
+   }
+  }
+ ]
+}

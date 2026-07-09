@@ -1,0 +1,32 @@
+{
+ "symbol": "MTZ",
+ "asOf": "2026-07-09",
+ "company": "MasTec",
+ "currency": "USD",
+ "priceToday": 382.9,
+ "pricePrev": 397.22,
+ "moveSincePrevPct": -3.61,
+ "ytdReturnPct": 68.2,
+ "marketCapUsdB": 30.26,
+ "quoteUrl": "https://finance.yahoo.com/quote/MTZ/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 73,
+   "ticker": "MTZ",
+   "company": "MasTec",
+   "score": 62.7,
+   "thesis": "Grid, fiber and power construction are bottlenecks for AI campuses; MasTec is broad, cyclical and not a pure AI name.",
+   "theme": "Connectivity & Services",
+   "exchange": "NYSE",
+   "ytd": 68.2,
+   "conviction": "Medium",
+   "catalysts": "Grid/fiber spending; renewable interconnect; data-center power access.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Move down. adjusted-score rank 75 is 11 places worse than displayed rank 64; adjusted score 62.0; YTD +58.9%; market cap $28.6B; MasTec remains tied to connectivity & services through Power, renewables, communications and civil infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+  "symbol": "ALGM",
+  "company": "Allegro MicroSystems",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 84 hold (+0); down 9.7% since the prior refresh. semiconductor-ai-nodes: rank 93 hold (+0); down 9.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Allegro board appointment (June 18)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3314097/0/en/allegro-microsystems-appoints-brian-white-to-its-board-of-directors.html"
+    },
+    {
+      "label": "Allegro FY/Q4 2026 results",
+      "url": "https://investors.allegromicro.com/news-releases/news-release-details/allegro-microsystems-reports-first-quarter-2026-results"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "ALGM Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/ALGM/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 84,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Allegro MicroSystems through Power / sensors; Mostly auto/industrial; low CPO relevance. The stock is down 9.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Some data-center power-sensing tailwind; quality analog franchise.",
+      "neutral": "Minimal CPO linkage; thesis fit is weak by design.",
+      "bear": "Auto cycle; far from co-packaged-optics bottleneck; richly valued after +112% YTD.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Auto cycle"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 93,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Allegro MicroSystems through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 9.7% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Record data-center quarter shows real AI-power sensing pull; analog content rising with electrification.",
+      "neutral": "Indirect AI exposure; auto/industrial dominate the mix.",
+      "bear": "Auto-cycle sensitivity; less hidden after +112% YTD; furthest from the page's core bottlenecks.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Auto cycle; indirect AI exposure"
+    }
+  ]
+}

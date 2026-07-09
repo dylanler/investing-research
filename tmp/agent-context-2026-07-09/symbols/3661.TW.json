@@ -1,0 +1,47 @@
+{
+ "symbol": "3661.TW",
+ "asOf": "2026-07-09",
+ "company": "Alchip Technologies",
+ "currency": "TWD",
+ "priceToday": 4210.0,
+ "pricePrev": 4375.0,
+ "moveSincePrevPct": -3.77,
+ "ytdReturnPct": 15.82,
+ "marketCapUsdB": 9.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/3661.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 9,
+   "ticker": "3661.TW",
+   "company": "Alchip Technologies",
+   "score": 80.3,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 15.82,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Node lens: 3nm-in-production / 2nm-ecosystem custom-ASIC thesis intact; Jun 2 AWS item is workflow, not a win. At only +20% YTD it is far less rerated/crowded than GUC, so residual alpha is modestly better. Hold rank, +1."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 7,
+   "ticker": "3661.TW",
+   "company": "Alchip Technologies",
+   "score": 88.6,
+   "thesis": "Custom ASIC services are leveraged to hyperscaler AI silicon; optical attach is indirect.",
+   "category": "AI ASIC / design services",
+   "ytd": 15.82,
+   "mcapB": 9.98,
+   "risk": "Customer concentration and AI project timing",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Alchip Technologies should hold because custom AI silicon, chiplets, SerDes IP, EDA and scale-up fabrics remains relevant, but current rank 4, 14.7% YTD, $11.9B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

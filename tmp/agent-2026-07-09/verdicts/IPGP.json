@@ -1,0 +1,84 @@
+{
+  "symbol": "IPGP",
+  "company": "IPGP",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 39 hold (+0); down 6.4% since the prior refresh.",
+  "sources": [
+    {
+      "label": "IPGP Q1 2026 results / TRUMPF settlement (StockTitan 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/IPGP/8-k-ipg-photonics-corp-reports-material-event-cb30deb766b0.html"
+    },
+    {
+      "label": "IPGP Q1 2026 earnings transcript (AOL)",
+      "url": "https://www.aol.com/articles/ipg-photonics-ipgp-q1-2026-190457111.html"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/IPGP/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "IPGP quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/IPGP/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "IPGP Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/IPGP/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 9,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 9. July context shows score 78.7, move since prior -6.4%, YTD +36.7%, market cap $4.34B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Industrial laser cycle recovering (+16.6% Q1); photonics expertise gives AI-manufacturing optionality; litigation overhang cleared.",
+      "neutral": "Earnings news pre-dates window; nothing new since June 9.",
+      "bear": "Tougher 2H26 comps, ~150bp tariff GM drag, industrial cycle exposure; AI linkage indirect.",
+      "primaryCatalyst": "Industrial capex recovery and laser-automation demand.",
+      "primaryRisk": "Industrial laser cycle softening into 2H26 against hard comps."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 39,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits IPG Photonics through Photonics/lasers; Photonics expertise, but CPO data-center revenue path less direct than COHR/LITE/MTSI. The stock is down 6.4% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Deep photonics IP could eventually feed CPO/datacom adjacencies.",
+      "neutral": "No CPO design-win or product evidence emerged in the window.",
+      "bear": "Revenue remains industrial-laser-driven; CPO path far less direct than pure datacom optics peers.",
+      "primaryCatalyst": "Follow-on AI optical/CPO design wins or capacity orders",
+      "primaryRisk": "Industrial laser cycle"
+    }
+  ]
+}

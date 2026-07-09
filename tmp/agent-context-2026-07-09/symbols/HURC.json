@@ -1,0 +1,32 @@
+{
+ "symbol": "HURC",
+ "asOf": "2026-07-09",
+ "company": "Hurco",
+ "currency": "USD",
+ "priceToday": 21.81,
+ "pricePrev": 21.99,
+ "moveSincePrevPct": -0.82,
+ "ytdReturnPct": 33.39,
+ "marketCapUsdB": 0.14,
+ "quoteUrl": "https://finance.yahoo.com/quote/HURC/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 20,
+   "ticker": "HURC",
+   "company": "Hurco",
+   "score": 71.0,
+   "thesis": "CNC machines could support localized prototyping and specialty manufacturing for hard-to-source AI infrastructure parts",
+   "theme": "CNC/tooling",
+   "exchange": "NASDAQ",
+   "regionRank": "US#11",
+   "ytd": 33.39,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: the June 5 order/margin inflection (+41% orders, +63% Americas, net cash ~36% of cap) was the basis for the June 9 up-move and is now priced. No fresh evidence since; the +2.2% drift adds nothing. Hold rank 21; thesis is machine-tool demand upturn, not direct AI-node proof."
+   }
+  }
+ ]
+}

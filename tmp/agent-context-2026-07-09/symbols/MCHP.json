@@ -1,0 +1,65 @@
+{
+ "symbol": "MCHP",
+ "asOf": "2026-07-09",
+ "company": "Microchip Technology",
+ "currency": "USD",
+ "priceToday": 85.49,
+ "pricePrev": 93.87,
+ "moveSincePrevPct": -8.93,
+ "ytdReturnPct": 31.46,
+ "marketCapUsdB": 46.42,
+ "quoteUrl": "https://finance.yahoo.com/quote/MCHP/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 35,
+   "ticker": "MCHP",
+   "company": "Microchip Technology",
+   "score": 41.4,
+   "thesis": "Data-center power and embedded control leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NASDAQ: MCHP",
+   "ytd": 31.46,
+   "mcapB": 46.42,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: nothing new since June 9. DCS guide and price hikes already chased; +45% YTD leaves little residual alpha for a secondary name. TimePictra 12 is incremental. Stays a balanced-but-not-mispriced secondary residual-alpha holding."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 88,
+   "ticker": "MCHP",
+   "company": "Microchip Technology",
+   "score": 46.0,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 31.46,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: MCHP is indirect (analog/power/RF), not HBM/advanced-packaging/networking. No node-relevance news since June 9; TimePictra is timing software. Prior down-move already reflected indirect exposure post-run. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 92,
+   "ticker": "MCHP",
+   "company": "Microchip Technology",
+   "score": 47.3,
+   "thesis": "Infrastructure controls and timing content, not a primary CPO alpha candidate.",
+   "category": "Embedded / analog",
+   "ytd": 31.46,
+   "mcapB": 46.42,
+   "risk": "Broad cyclical exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Co-packaged-optics lens: MCHP is peripheral (infra controls/timing content), not a primary CPO play. The June TimePictra 12 timing-software launch is sync/control, not CPO-relevant. No change to its peripheral position since June 9. Hold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+  "symbol": "MU",
+  "company": "Micron Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 98 up (+3); down 11.7% since the prior refresh. semiconductor-ai-nodes: rank 17 up (+4); down 11.7% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for MU",
+      "url": "https://finance.yahoo.com/quote/MU/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Micron HBM4 high-volume production (IR)",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+    },
+    {
+      "label": "Micron Q3 FY2026 earnings preview (IG)",
+      "url": "https://www.ig.com/en/news-and-trade-ideas/micron-q3-fy2026-earnings-preview-260623"
+    },
+    {
+      "label": "Micron sold-out HBM bull case (Investing.com)",
+      "url": "https://www.investing.com/analysis/microns-soldout-hbm-supply-makes-the-bull-case-hard-to-dismiss-200681391"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MU/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "MU Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/MU/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 81,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.75,
+      "rankRationale": "HBM and conventional memory tightness strengthened while July selling improved asymmetry relative to Korean consensus leaders.",
+      "bull": "HBM and conventional memory tightness remain central to AI accelerator availability and system cost.",
+      "neutral": "Current snapshot: move since prior -11.7%, YTD +200.8%, market cap about $1072.0B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Crowded ownership, memory-cycle reversal and share loss between HBM suppliers.",
+      "primaryCatalyst": "HBM qualification, pricing, capacity allocation and AI-memory contract visibility",
+      "primaryRisk": "Crowded ownership, memory-cycle reversal and share loss between HBM suppliers."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 81,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 81. crowding, YTD rerating, or a risk-led drawdown trims residual alpha: -11.7% since the prior refresh, +200.8% YTD. Prior frame: On the passives/power-bottleneck lens MU stays peripheral: HBM/memory is direct-AI, not passive-component scarcity. Pre-earnings hype and reaffirmed sold-out pricing don't move this page's lens; a $1.2T mega-cap remains far from hidden. Hold.",
+      "bull": "Sold-out HBM through 2026, locked pricing, HBM4 ramp; durable memory cash flows.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 81, score 14.4, -11.7% since prior, +200.8% YTD.",
+      "bear": "Mega-cap, fully discovered; June 24 print could disappoint vs ~81% GM bar.",
+      "primaryCatalyst": "June 24 Q3 print / HBM4 revenue mix",
+      "primaryRisk": "Memory-cycle pricing reversal / DRAM glut"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 98,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.82,
+      "rankRationale": "Move up: CPO/optical-interconnect alpha lens rewards direct bottleneck exposure, and Micron Technology combines AI memory demand strong; CPO is indirect via larger AI clusters. with improved entry after a -11.7% post-refresh move. Score bump is capped by +200.8% YTD and Memory cycle, capex, pricing.",
+      "bull": "Bigger AI clusters need more memory, indirectly lifting optical interconnect.",
+      "neutral": "No direct CPO content; relevance second-order.",
+      "bear": "Zero co-packaged-optics exposure; ranked appropriately low.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Memory cycle, capex, pricing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 17,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.82,
+      "rankRationale": "Move up: July HBM/DRAM capacity evidence reinforces Micron as a real AI memory bottleneck, and sold-out HBM supply is more node-critical than most mid-pack analog or WFE names despite the memory-cycle risk.",
+      "bull": "HBM4 volume ramp + locked pricing make MU a structural AI-node bottleneck winner.",
+      "neutral": "Most positives already captured at rank 18; print not yet realized.",
+      "bear": "Rubin memory-config-cut volume risk; cyclical pricing peak.",
+      "primaryCatalyst": "HBM/DRAM supply tightness and contracted AI memory demand",
+      "primaryRisk": "2027 capacity additions / pricing rollover"
+    }
+  ]
+}

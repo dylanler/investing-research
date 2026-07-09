@@ -1,0 +1,64 @@
+{
+  "symbol": "MOD",
+  "company": "MOD",
+  "caseDate": "2026-07-09",
+  "newsSince": "-16.3% since prior, +67.3% YTD. July 9 context refresh for MOD (MOD) across latent-ai-nodes: market cap $12.44B, move since prior -16.3%, YTD +67.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context.",
+  "sources": [
+    {
+      "label": "Simply Wall St: Modine $4B AI cooling deal",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-mod/modine-manufacturing/news/why-modine-manufacturing-mod-is-down-94-after-securing-a-4-b"
+    },
+    {
+      "label": "Modine: Q4 fiscal 2026 results",
+      "url": "https://investors.modine.com/news/news-details/2026/Modine-Reports-Fourth-Quarter-Fiscal-2026-Results/default.aspx"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/MOD/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "MOD quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MOD/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Latent AI-node lens: prior rank remains broadly right at current rank 52. July context shows score 68.0, move since prior -16.3%, YTD +67.3%, market cap $12.44B. Score delta +0; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "Clear AI-infrastructure cooling leverage with multi-year contracted demand and long-term customer agreements.",
+      "neutral": "Relevance high but hiddenness low post-rerate; execution-dependent.",
+      "bear": "Well-recognized story; latent-alpha edge largely gone.",
+      "primaryCatalyst": "Long-term cooling agreements and capacity execution",
+      "primaryRisk": "Reduced hiddenness; cooling demand normalizing"
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 43,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 43. July context does not change the page placement: -16.3% since the prior refresh, +67.3% YTD. Prior frame: Residual-alpha lens: nothing new since June 9. The $4B backlog and Q4 beat were already chased; +100% YTD with multiple PT raises keeps it a fully rerated, crowded benchmark, not residual alpha. Hold in the rerated-benchmark bucket.",
+      "bull": "$4B contracted cooling backlog and ~5-year visibility; chiller capacity ramping (~20 lines by FY28) on hyperscale demand.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 43, score 36.0, -16.3% since prior, +67.3% YTD.",
+      "bear": "+100% YTD prices in the cooling boom; execution on capacity ramp must deliver.",
+      "primaryCatalyst": "Incremental hyperscale cooling orders and chiller-line ramp",
+      "primaryRisk": "Already-rerated valuation; data-center cooling competition/oversupply"
+    }
+  ]
+}

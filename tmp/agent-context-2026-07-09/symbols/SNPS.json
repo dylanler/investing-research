@@ -1,0 +1,47 @@
+{
+ "symbol": "SNPS",
+ "asOf": "2026-07-09",
+ "company": "Synopsys",
+ "currency": "USD",
+ "priceToday": 434.5,
+ "pricePrev": 470.72,
+ "moveSincePrevPct": -7.69,
+ "ytdReturnPct": -9.56,
+ "marketCapUsdB": 83.2,
+ "quoteUrl": "https://finance.yahoo.com/quote/SNPS/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 53,
+   "ticker": "SNPS",
+   "company": "Synopsys",
+   "score": 61.6,
+   "thesis": "Design complexity and photonics/chiplet verification leverage, but large and discovered.",
+   "category": "EDA / IP",
+   "ytd": -9.56,
+   "mcapB": 83.2,
+   "risk": "Integration/regulatory and valuation",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the crowding-sensitive CPO lens, an ~$90B fully-discovered EDA duopolist gains no hidden-bottleneck status from the Multiphysics Fusion launch. The beat-and-raise plus a still-negative YTD modestly improve entry asymmetry, worth a small positive drift but not a rank move."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 49,
+   "ticker": "SNPS",
+   "company": "Synopsys",
+   "score": 59.5,
+   "thesis": "Design-validation exposure. Negative ytd reset; watch eda software and ip execution and pricing.",
+   "bucket": "EDA, test & timing",
+   "ytd": -9.56,
+   "auditNote": "Current thesis audit (2026-06-08): verification, probe/test, AI chip complexity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not alre",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the under-owned-bottleneck master list, the raised FY26 outlook and June Multiphysics Fusion launch reinforce design-validation exposure against a still-negative YTD reset. Page already moved SNPS up; no need to move again, but the improving setup against a beat-and-raise warrants a small positive drift."
+   }
+  }
+ ]
+}

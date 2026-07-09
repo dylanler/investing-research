@@ -1,0 +1,72 @@
+{
+  "symbol": "2317.TW",
+  "company": "Hon Hai Precision (Foxconn)",
+  "caseDate": "2026-07-09",
+  "newsSince": "-8.5% since prior, +2.4% YTD. Since the June 23 refresh, July market and web research updated the Data-center shell & systems integration thesis. For this stock, price moved -8.5% since the prior snapshot and YTD return is +2.4%; verdict: hold with scoreDelta 1.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for 2317.TW",
+      "url": "https://finance.yahoo.com/quote/2317.TW/"
+    },
+    {
+      "label": "Data Center Knowledge: hyperscaler capex nearing $700B with power constraints",
+      "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds"
+    },
+    {
+      "label": "JLL 2026 global data-center outlook: grid constraints and 100GW buildout",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "Hon Hai / Bull - European Vera Rubin NVL72 (Jun 17)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/17/3313162/0/en/bull-and-foxconn-advance-european-ai-infrastructure-with-nvidia-vera-rubin-nvl72-platform-built-in-europe.html"
+    },
+    {
+      "label": "Cryptobriefing - Hon Hai revenue +34% on Nvidia server demand",
+      "url": "https://cryptobriefing.com/hon-hai-foxconn-revenue-nvidia-ai-servers/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/2317.TW/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.62,
+      "rankRationale": "Foxconn’s rack integration role is confirmed, but scale and recognition keep residual alpha moderate.",
+      "bull": "Power-ready land, rack integration, construction and data-center operating capacity are becoming schedule-critical bottlenecks.",
+      "neutral": "Current snapshot: move since prior -8.5%, YTD +2.4%, market cap about $103.2B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Execution risk, margin compression, financing needs and power-permit timing.",
+      "primaryCatalyst": "Power-ready site awards, MW leasing, AI rack deployments and backlog conversion",
+      "primaryRisk": "Execution risk, margin compression, financing needs and power-permit timing."
+    },
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 18,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 18. July context does not change the page placement: -8.5% since the prior refresh, +2.4% YTD. Prior frame: Residual-alpha lens: the June 17 Bull/Foxconn European Rubin deal is fresh but incremental - it confirms, not expands, the rack-buildout thesis. As a $119B near-consensus Buy mega-cap it carries balanced rather than scarce/mispriced exposure. Rank 18 in the secondary bucket still fits; no thesis change.",
+      "bull": "Single biggest beneficiary of GB200/Rubin rack cycle; ~40% AI-rack share, NT$11T target, now extending Rubin builds into Europe.",
+      "neutral": "Current snapshot: Secondary residual alpha; rank 18, score 60.9, -8.5% since prior, +2.4% YTD.",
+      "bear": "Mega-cap, near-unanimous Buy, thin margins; little hidden residual alpha versus smaller bottleneck names.",
+      "primaryCatalyst": "Rubin NVL72 rack ramp and European capacity",
+      "primaryRisk": "Thin assembly margins; demand-pull-in / mix risk"
+    }
+  ]
+}

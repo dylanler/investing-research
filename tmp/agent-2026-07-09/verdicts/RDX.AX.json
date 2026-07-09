@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 68,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 68. July context shows score 64.7, move since prior -9.3%, YTD +17.3%, market cap $1.33B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Largest AU chemical distributor with steady mid-single-digit growth; optionality on data-center coolant/water chemistry.",
+      "neutral": "Healthy distributor but AI-node read-through is conjecture; no contracts disclosed.",
+      "bear": "Cyclical industrial chemical book with no demonstrated compute-site exposure.",
+      "primaryCatalyst": "Coolant/water-treatment chemistry demand if compute build-out sources new suppliers",
+      "primaryRisk": "Diversified industrial distributor; AI linkage remains unproven"
+    }
+  ],
+  "symbol": "RDX.AX",
+  "company": "Redox",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Redox 1H FY26 financials (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/au/capital-goods/asx-rdx/redox-shares"
+    },
+    {
+      "label": "Redox (ASX:RDX) Market Index",
+      "url": "https://www.marketindex.com.au/asx/rdx"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/RDX.AX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "RDX.AX quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/RDX.AX/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Redox (RDX.AX) across latent-ai-nodes-strict: market cap $1.33B, move since prior -9.3%, YTD +17.3%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

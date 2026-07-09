@@ -1,0 +1,32 @@
+{
+ "symbol": "BOY.L",
+ "asOf": "2026-07-09",
+ "company": "Bodycote",
+ "currency": "GBp",
+ "priceToday": 647.0,
+ "pricePrev": 703.5,
+ "moveSincePrevPct": -8.03,
+ "ytdReturnPct": -8.87,
+ "marketCapUsdB": 1.52,
+ "quoteUrl": "https://finance.yahoo.com/quote/BOY.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 18,
+   "ticker": "BOY.L",
+   "company": "Bodycote",
+   "score": 71.5,
+   "thesis": "Thermal processing and specialty treatment could enable higher-spec metal components in liquid loops, robotics and industrial automation",
+   "theme": "Heat treatment",
+   "exchange": "LSE",
+   "regionRank": "Non-US#9",
+   "ytd": -8.87,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Strict latent-node screen: prior 'up' was built on a live 885p bid marking intrinsic value ~25% above market. Apollo formally walked away by Jun 19 and is locked out 6 months, removing that floor. Thermal-processing AI thesis intact but the deal-driven asymmetry that earned the upgrade is gone. Down-rank."
+   }
+  }
+ ]
+}

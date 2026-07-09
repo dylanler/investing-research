@@ -1,0 +1,50 @@
+{
+ "symbol": "ROG",
+ "asOf": "2026-07-09",
+ "company": "Rogers",
+ "currency": "USD",
+ "priceToday": 135.41,
+ "pricePrev": 163.165,
+ "moveSincePrevPct": -17.01,
+ "ytdReturnPct": 47.23,
+ "marketCapUsdB": 2.84,
+ "quoteUrl": "https://finance.yahoo.com/quote/ROG/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 33,
+   "ticker": "ROG",
+   "company": "Rogers Corp",
+   "score": 41.9,
+   "thesis": "Advanced laminates and thermal materials; tight-supply, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NYSE: ROG",
+   "ytd": 47.23,
+   "mcapB": 2.84,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "A June 15 sell-side PT hike to $200 plus a new 52-week high (now +78% YTD) confirms the name is no longer hidden/under-owned, eroding the residual-alpha premise this page rewards. No new fundamental win; data-center revenue still ~2027."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 6,
+   "ticker": "ROG",
+   "company": "Rogers",
+   "score": 80.7,
+   "thesis": "Materials that dissipate heat and route high-speed/power signals can matter to AI accelerators, power electronics and RF systems; sentiment remains cyclical and activist-sensitive.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "NYSE",
+   "ytd": 47.23,
+   "conviction": "High",
+   "catalysts": "Electronics recovery; activist pressure; thermal-interface and aerospace/defense demand.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 7 is 1 places better than displayed rank 8; adjusted score 80.0; YTD +53.2%; market cap $2.5B; Rogers remains tied to semi/advanced materials through Thermal, high-frequency and power-electronics materials. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "symbol": "042700.KQ",
+ "asOf": "2026-07-09",
+ "company": "Hanmi Semiconductor",
+ "currency": "KRW",
+ "priceToday": 151000.0,
+ "pricePrev": 151000.0,
+ "moveSincePrevPct": 0.0,
+ "ytdReturnPct": 4.5,
+ "marketCapUsdB": 13.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/042700.KQ/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 1,
+   "ticker": "042700.KQ",
+   "company": "Hanmi Semiconductor",
+   "score": 91.4,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "OSAT / packaging",
+   "ytd": 4.5,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hanmi Semiconductor should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 2, 4.5% YTD, $18.8B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 55,
+   "ticker": "042700.KS",
+   "company": "Hanmi Semiconductor",
+   "score": 61.3,
+   "thesis": "Watchlist: useful ecosystem node, but evidence of under-discovery or upside-to-valuation is mixed.",
+   "category": "Packaging / HBM equipment",
+   "ytd": 49.13,
+   "mcapB": 13.98,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "up",
+    "rankRationale": "Hanmi Semiconductor should move up because HBM/chiplet advanced packaging and OSAT capacity is more directly connected to the 2027 AI compute bottleneck than its current rank 57 implies, with current company-specific evidence; 75.4% YTD and $18.8B market cap do not fully offset the catalyst."
+   }
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "symbol": "NVDA",
+ "asOf": "2026-07-09",
+ "company": "NVIDIA",
+ "currency": "USD",
+ "priceToday": 204.12,
+ "pricePrev": 202.366,
+ "moveSincePrevPct": 0.87,
+ "ytdReturnPct": 8.09,
+ "marketCapUsdB": 4944.0,
+ "quoteUrl": "https://finance.yahoo.com/quote/NVDA/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 36,
+   "ticker": "NVDA",
+   "company": "NVIDIA",
+   "score": 62.7,
+   "thesis": "AI cash-flow king with disclosed dependencies on TSMC/Samsung foundries and SK hynix/Micron/Samsung memory. Alpha is capped by megacap crowding, ETF ownership and very visible expectations.",
+   "tier": "AI accelerator",
+   "ytd": 8.09,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new node-bottleneck evidence since June 9. Disclosed TSMC/Samsung foundry + SK hynix/Micron memory dependency intact, but megacap crowding and ETF-ownership cap still define this page's alpha discount. Korea commitments already priced. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 100,
+   "ticker": "NVDA",
+   "company": "NVIDIA",
+   "score": 44.3,
+   "thesis": "Owns demand and system architecture; CPO adoption is strategic, but discovery is already extreme.",
+   "category": "AI compute",
+   "ytd": 8.09,
+   "mcapB": 4944.0,
+   "risk": "Crowded megacap; execution and capex-cycle risk",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing CPO-specific since June 9. NVDA owns demand/system architecture but discovery is extreme and there is no co-packaged-optics catalyst; deep rank on this crowding-sensitive list remains correct."
+   }
+  },
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 2,
+   "ticker": "NASDAQ: NVDA",
+   "company": "NVIDIA",
+   "score": 74.5,
+   "thesis": "The clearest listed proxy for the single largest silicon-basket bucket: high-end accelerators and AI-system demand.",
+   "theme": "Silicon / AI-cluster consumption",
+   "ytd": 8.09,
+   "note": "Silicon-basket proxy repriced for AI 2027 compute growth, HBM/networking intensity, and June 2026 market cap/YTD discipline.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Clearest listed proxy for the high-end-accelerator silicon bucket; Korea GW-scale sovereign commitments already supported the score on June 9 and no fresh consumption datapoint has landed. Rank 2 already prices proxy status. Hold."
+   }
+  },
+  {
+   "page": "robotics",
+   "rank": 42,
+   "ticker": "NVDA",
+   "company": "NVIDIA",
+   "score": 8.7,
+   "thesis": "The platform king, but the opposite of a hidden gem.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No new humanoid/physical-AI news since June 9 that changes the hidden-gem calculus this page rewards. NVDA is the platform king, the opposite of an under-covered robotics name, so it stays low at rank 42."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 85,
+   "ticker": "NVDA",
+   "company": "NVIDIA",
+   "score": 43.9,
+   "thesis": "Platform compute exposure. Negative ytd reset; watch gpu platform leader execution and pricing.",
+   "bucket": "Compute silicon & IP",
+   "ytd": 8.09,
+   "auditNote": "Current thesis audit (2026-06-08): accelerator demand, but higher consensus and cap concentration score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: NVDA scores low because consensus and cap concentration are extreme. No new fundamental evidence since June 9; Korea GW news already modest. Scarce-bottleneck alpha remains capped. Hold."
+   }
+  }
+ ]
+}

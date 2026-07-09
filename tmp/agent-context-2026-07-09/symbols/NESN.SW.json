@@ -1,0 +1,30 @@
+{
+ "symbol": "NESN.SW",
+ "asOf": "2026-07-09",
+ "company": "Nestlé",
+ "currency": "CHF",
+ "priceToday": 83.03,
+ "pricePrev": 80.22,
+ "moveSincePrevPct": 3.5,
+ "ytdReturnPct": 8.62,
+ "marketCapUsdB": 269.59,
+ "quoteUrl": "https://finance.yahoo.com/quote/NESN.SW/",
+ "listings": [
+  {
+   "page": "carbon-vs-silicon",
+   "rank": 6,
+   "ticker": "SIX: NESN",
+   "company": "Nestlé",
+   "score": 32.0,
+   "thesis": "A diversified way to express everyday food-and-beverage demand, with additional exposure to nutrition and pet categories.",
+   "theme": "Human / carbon-based consumption",
+   "ytd": 8.62,
+   "note": "Defensive consumption proxy, but lower alpha because the basket is consensus, mature, and already institutionally owned.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Carbon-side consumption proxy: nothing thesis-changing since June 9. Waters auction still open with buyers weighing liabilities; leadership reshuffle already known. Defensive demand basket consensus and fully owned, so alpha stays muted; hold the rank."
+   }
+  }
+ ]
+}

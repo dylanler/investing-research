@@ -1,0 +1,55 @@
+{
+  "symbol": "4063.T",
+  "company": "4063.T",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-ai-nodes: rank 47 hold (+0); down 4.0% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Shin-Etsu valuation after rare-earth smelter plan (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/materials/tse-4063/shin-etsu-chemical-shares/news/shin-etsu-chemical-tse4063-stock-valuation-after-new-rare-ea"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "4063.T Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/4063.T/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 47,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Shin-Etsu Chemical through materials / wafers; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 4.0% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Leading silicon-wafer/photomask-blank/photoresist supplier levered to AI fab and HBM capacity.",
+      "neutral": "Diversified chemicals giant; AI-node exposure diluted by PVC/rare-earth/other segments.",
+      "bear": "Largest cap in the cohort; wafer demand cyclicality and order-timing risk.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Memory/wafer cycle timing; diversification dilutes pure AI-node beta."
+    }
+  ]
+}

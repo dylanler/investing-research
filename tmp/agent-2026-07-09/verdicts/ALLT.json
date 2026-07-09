@@ -1,0 +1,35 @@
+{
+  "symbol": "ALLT",
+  "company": "Allot",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Allot (ALLT) now screens at $0.34B market cap, +15.9% since the prior refresh and -11.6% YTD. Page thesis remains: Network intelligence / traffic control",
+  "sources": [
+    {
+      "label": "ALLT quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ALLT/"
+    },
+    {
+      "label": "Allot Q1 2026 results (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/allot-first-quarter-2026-results-revenue-growth-accelerates-to-14-yoy-with-increased-margins-302769377.html"
+    },
+    {
+      "label": "Allot Q1 2026 slides (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/allot-q1-2026-slides-cybersecurity-push-drives-14-revenue-growth-93CH-4681048"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 30,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.61,
+      "rankRationale": "Test-time scaling lens: Evidence supports more rank weight at current rank 30. July market-data refresh shows move since prior +15.9%, YTD -11.6%, market cap $0.34B. Thesis: Network intelligence / traffic control. Score delta +2; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Three straight quarters of double-digit growth, SECaaS ARR +59%, now GAAP-profitable with strong cash flow.",
+      "neutral": "Improving security software story, but the AI/test-time-scaling linkage is thematic rather than direct.",
+      "bear": "Sub-$0.35B cap with -24% YTD; network-intelligence relevance to AI scaling is loose and board churn adds noise.",
+      "primaryCatalyst": "Continued SECaaS ARR acceleration and operating-margin expansion through 2026.",
+      "primaryRisk": "Telco-capex dependence and tenuous AI-scaling fit limit re-rating; governance turnover."
+    }
+  ]
+}

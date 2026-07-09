@@ -1,0 +1,35 @@
+{
+  "symbol": "6315.T",
+  "company": "TOWA Corporation",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. TOWA Corporation (6315.T) now screens at $1.55B market cap, -5.1% since the prior refresh and +30.9% YTD. Page thesis remains: Packaging/molding equipment for semiconductor backend",
+  "sources": [
+    {
+      "label": "6315.T quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/6315.T/"
+    },
+    {
+      "label": "TOWA Corporation 6315 quote/news (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/6315.T/"
+    },
+    {
+      "label": "TOWA (TSE:6315) analysis (Simply Wall St)",
+      "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6315/towa-shares"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "scaling",
+      "currentRank": 2,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.58,
+      "rankRationale": "Test-time scaling lens: Prior rank remains broadly right at current rank 2. July market-data refresh shows move since prior -5.1%, YTD +30.9%, market cap $1.55B. Thesis: Packaging/molding equipment for semiconductor backend. Score delta +0; judged against inference, power, cooling, interconnect, semiconductor verification or grid bottleneck leverage.",
+      "bull": "Compression-molding/PLP leader directly levered to HBM and AI advanced-packaging capacity.",
+      "neutral": "Outlook strong but recent profit dip; current rank already reflects the thesis.",
+      "bear": "Lumpy equipment orders and a recent earnings decline against a 38% YTD run.",
+      "primaryCatalyst": "PLP / advanced-packaging molding orders as HBM and accelerators scale",
+      "primaryRisk": "Equipment-order lumpiness and capex digestion after the run-up"
+    }
+  ]
+}

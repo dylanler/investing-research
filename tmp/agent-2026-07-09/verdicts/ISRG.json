@@ -1,0 +1,35 @@
+{
+  "symbol": "ISRG",
+  "company": "Intuitive Surgical",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Intuitive Surgical (ISRG) now screens at $147.01B market cap, +3.6% since the prior refresh and -26.1% YTD. Page thesis remains: World-class robotics company, but not humanoid and not hidden.",
+  "sources": [
+    {
+      "label": "ISRG quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/ISRG/"
+    },
+    {
+      "label": "ISRG raises 2026 procedure guidance (TIKR)",
+      "url": "https://www.tikr.com/blog/intuitive-surgical-raises-2026-procedure-guidance-after-a-40-ebit-jump-analysts-price-isrg-above-700"
+    },
+    {
+      "label": "ISRG Q1 2026 earnings call highlights (Yahoo)",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/intuitive-surgical-inc-isrg-q1-070409934.html"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 36,
+      "rankMove": "hold",
+      "scoreDelta": -1,
+      "confidence": 0.58,
+      "rankRationale": "Robotics hidden-gem lens: Prior rank remains broadly right at current rank 36. July market-data refresh shows move since prior +3.6%, YTD -26.1%, market cap $147.01B. Thesis: World-class robotics company, but not humanoid and not hidden.. Score delta -1; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Japan adds 7 reimbursed procedures; FY26 procedure-growth guide 13.5-15.5%, da Vinci 5 ramp, 86% recurring revenue.",
+      "neutral": "Strong franchise but orthogonal to the humanoid thesis this page tracks.",
+      "bear": "Not humanoid, fully-owned mega-cap; -28.7% YTD re-rating is its own story; minimal hidden-alpha on this lens.",
+      "primaryCatalyst": "da Vinci 5 ramp plus international reimbursement expansion.",
+      "primaryRisk": "Off-thesis for a humanoid page; valuation/procedure-growth deceleration."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "symbol": "UCTT",
+  "company": "Ultra Clean Holdings",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 41 hold (-2); down 8.5% since the prior refresh. semiconductor-ai-nodes: rank 58 hold (-2); down 8.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Oppenheimer PT hike to $115 (StocksToTrade)",
+      "url": "https://stockstotrade.com/news/ultra-clean-holdings-inc-uctt-news-2026_06_11/"
+    },
+    {
+      "label": "UCTT surges 13.1% in sector rally (Alphastreet)",
+      "url": "https://news.alphastreet.com/ultra-clean-holdings-surges-13-1-amid-sector-wide-rally/amp/"
+    },
+    {
+      "label": "UCTT 230% YTD analysis (TIKR)",
+      "url": "https://www.tikr.com/blog/ultra-clean-holdings-stock-has-surged-230-in-2026-is-uctt-still-worth-buying-at-105"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "UCTT Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/UCTT/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 41,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Ultra Clean Holdings through Wafer equipment supply chain; Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry. The stock is down 8.5% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "Broad WFE exposure rides advanced-node/HBM capacity; longer-cycle analyst view supports demand.",
+      "neutral": "Attractive theme but limited direct CPO linkage; asymmetry compressed by valuation and crowding.",
+      "bear": "Single-bundle validation risk and no direct optics/packaging tie make CPO alpha low here.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "Single-bundle validation risk"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 58,
+      "rankMove": "hold",
+      "scoreDelta": -2,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Ultra Clean Holdings through wafer fab equipment; levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk. The stock is down 8.5% since the prior refresh, so the July refresh changes score by -2 without forcing a rank change.",
+      "bull": "Levered to AI fab + HBM capacity adds; analyst upgrade extends the WFE up-cycle into 2027 (15%+ growth signaled).",
+      "neutral": "Thesis intact but fully consensus after +312% YTD; upgrade adds little new information.",
+      "bear": "Subsystem integrator with thin margins; any AI-capex air-pocket hits order timing hardest at this valuation.",
+      "primaryCatalyst": "AI fab and HBM equipment order acceleration",
+      "primaryRisk": "Order-timing/cyclical air-pocket and export-control exposure."
+    }
+  ]
+}

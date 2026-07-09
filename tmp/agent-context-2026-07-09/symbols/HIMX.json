@@ -1,0 +1,46 @@
+{
+ "symbol": "HIMX",
+ "asOf": "2026-07-09",
+ "company": "Himax Technologies",
+ "currency": "USD",
+ "priceToday": 14.9,
+ "pricePrev": 16.88,
+ "moveSincePrevPct": -11.73,
+ "ytdReturnPct": 74.68,
+ "marketCapUsdB": 2.6,
+ "quoteUrl": "https://finance.yahoo.com/quote/HIMX/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 113,
+   "ticker": "HIMX",
+   "company": "Himax Technologies",
+   "score": 32.8,
+   "thesis": "Low CPO exposure.",
+   "category": "Display/edge vision IC",
+   "ytd": 74.68,
+   "mcapB": 2.6,
+   "risk": "Display cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Through the co-packaged-optics lens, the prior 'low CPO exposure' dismissal is now somewhat stale: Gen1 CPO (1.6T/3.2T) is ready with H2 small-volume shipments and Gen2 (6.4T) is nearing AI-datacenter validation with FOCI. Modest up off rank 114; still indirect (silicon partner, not optics prime) so keep delta small."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 22,
+   "ticker": "HIMX",
+   "company": "Himax Technologies",
+   "score": 46.0,
+   "thesis": "Edge AI vision/display chips and interface silicon",
+   "bucket": "semiconductors",
+   "ytd": 74.68,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 27 is 12 places better than displayed rank 39; adjusted score 39.4; YTD +138.3%; market cap $3.5B; Scaling watchlist fit is Edge AI vision/display chips and interface silicon; bucket semiconductors; tags physical_ai. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

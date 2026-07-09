@@ -1,0 +1,65 @@
+{
+ "symbol": "6723.T",
+ "asOf": "2026-07-09",
+ "company": "Renesas Electronics",
+ "currency": "JPY",
+ "priceToday": 4817.0,
+ "pricePrev": 4754.0,
+ "moveSincePrevPct": 1.33,
+ "ytdReturnPct": 116.49,
+ "marketCapUsdB": 54.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/6723.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 79,
+   "ticker": "6723",
+   "company": "Renesas Electronics",
+   "score": 15.5,
+   "thesis": "Power and embedded control leverage; tight-supply, AI-adjacent, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "TSE: 6723",
+   "ytd": 116.49,
+   "mcapB": 54.98,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "No passives/power bottleneck evidence since June 9. Pictorus is an embedded-software tuck-in, not a power/passive node. +8.2% move is flow recovering prior drawdown; Renesas stays in the monitor bucket, far from the polymer-cap/magnetics core."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 86,
+   "ticker": "6723.T",
+   "company": "Renesas Electronics",
+   "score": 47.2,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 116.49,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Nothing since June 9 raises node centrality. Pictorus (software) and the SiTime timing-asset divestiture do not touch HBM/packaging/test. Prior verdict already discounted indirectness; a flow-driven +8.2% is not node evidence. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 82,
+   "ticker": "6723.T",
+   "company": "Renesas Electronics",
+   "score": 50.2,
+   "thesis": "Mostly embedded/auto; included for public Wolfspeed restructuring relationship and power exposure.",
+   "category": "Auto / edge",
+   "ytd": 116.49,
+   "mcapB": 54.98,
+   "risk": "Auto/industrial cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "remove",
+    "rankRationale": "Renesas Electronics should be removed from the actionable alpha ranking because current evidence points to weak direct CPO/HBM/advanced-packaging/test relevance versus cleaner bottleneck names; 86.0% YTD and $46.6B market cap worsen the asymmetry."
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "symbol": "6266.T",
+ "asOf": "2026-07-09",
+ "company": "TOWA",
+ "currency": "JPY",
+ "priceToday": 4710.0,
+ "pricePrev": 4795.0,
+ "moveSincePrevPct": -1.77,
+ "ytdReturnPct": 127.54,
+ "marketCapUsdB": 0.44,
+ "quoteUrl": "https://finance.yahoo.com/quote/6266.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 21,
+   "ticker": "6266.T",
+   "company": "TOWA",
+   "score": 68.4,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "OSAT / packaging",
+   "ytd": 127.54,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "TOWA should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 11, 71.0% YTD, $0.3B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

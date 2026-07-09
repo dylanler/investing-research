@@ -1,0 +1,31 @@
+{
+ "symbol": "0981.HK",
+ "asOf": "2026-07-09",
+ "company": "0981.HK",
+ "currency": "HKD",
+ "priceToday": 83.85,
+ "pricePrev": 77.85,
+ "moveSincePrevPct": 7.71,
+ "ytdReturnPct": 11.65,
+ "marketCapUsdB": 110.87,
+ "quoteUrl": "https://finance.yahoo.com/quote/0981.HK/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 52,
+   "ticker": "0981.HK",
+   "company": "SMIC",
+   "score": 62.4,
+   "thesis": "China localization optionality; CPO exposure indirect and restricted by tools.",
+   "category": "Foundry / logic",
+   "ytd": 11.65,
+   "mcapB": 110.87,
+   "risk": "Export controls and node gap",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "SMIC should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 37, -3.4% YTD, $95.7B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

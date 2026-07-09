@@ -1,0 +1,117 @@
+{
+  "symbol": "AMKR",
+  "company": "Amkor Technology",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 8 hold (+1); down 23.1% since the prior refresh. semiconductor-ai-nodes: rank 5 hold (+1); down 23.1% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Yahoo Finance quote snapshot for AMKR",
+      "url": "https://finance.yahoo.com/quote/AMKR/"
+    },
+    {
+      "label": "Findchips: 2026 memory, HBM and MLCC component shortage indicators",
+      "url": "https://blog.findchips.com/electronic-component-shortage-2026-memory-mlcc-lm324-sourcing/"
+    },
+    {
+      "label": "StockwireX: July 2026 semiconductor selloff and valuation reset",
+      "url": "https://stockwirex.com/news/semiconductor-stocks-selloff-july-2026/"
+    },
+    {
+      "label": "Yonhap Infomax: July AI semiconductor correction described as momentum unwind",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=129272"
+    },
+    {
+      "label": "TSMC-Amkor 10-yr partnership (Amkor PR/BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260616574153/en/TSMC-and-Amkor-Technology-Announce-Long-Term-Partnership-to-Accelerate-Advanced-Packaging-in-the-United-States"
+    },
+    {
+      "label": "TSMC-Amkor 10-yr deal (Focus Taiwan)",
+      "url": "https://focustaiwan.tw/sci-tech/202606180014"
+    },
+    {
+      "label": "Amkor Q1 2026 beat (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/amkor-q1-2026-slides-27-revenue-surge-advanced-packaging-drives-beat-93CH-4640082"
+    },
+    {
+      "label": "TrendForce: TSMC-Amkor 10-year Arizona pact",
+      "url": "https://www.trendforce.com/news/2026/06/17/news-tsmc-amkor-forge-10-year-arizona-advanced-packaging-partnership-to-complete-the-u-s-chip-supply-chain/"
+    },
+    {
+      "label": "Why AMKR up 18.8% on TSMC Arizona deal (Yahoo)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amkor-technology-amkr-18-091442461.html"
+    },
+    {
+      "label": "TSMC and Amkor sign 10-year Arizona deal (Yahoo)",
+      "url": "https://finance.yahoo.com/technology/articles/tsmc-amkor-sign-10-advanced-192051574.html"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AMKR Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AMKR/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "companies",
+      "currentRank": 7,
+      "rankMove": "up",
+      "scoreDelta": 4,
+      "confidence": 0.72,
+      "rankRationale": "The post-prior selloff improves risk/reward while the TSMC Arizona framework and OSAT scarcity remain direct bottleneck evidence.",
+      "bull": "Advanced substrates, CoWoS/chiplet packaging and OSAT capacity remain scarce as AI systems push more complexity into backend assembly.",
+      "neutral": "Current snapshot: move since prior -23.1%, YTD +55.9%, market cap about $16.6B; rank balances bottleneck quality against discovery and valuation.",
+      "bear": "Extreme rerating, customer concentration and capacity-cycle timing.",
+      "primaryCatalyst": "AI package substrate, CoWoS/chiplet and OSAT capacity/pricing updates",
+      "primaryRisk": "Extreme rerating, customer concentration and capacity-cycle timing."
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 8,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Amkor Technology through Packaging / OSAT; Packaging/test leverage to AI chiplets and optical modules, less crowded than front-end equipment. The stock is down 23.1% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Packaging/test is where optical engines co-integrate; TSMC anchor secures long-run AI-chiplet/optical packaging share.",
+      "neutral": "CPO linkage is indirect; benefit accrues via broader advanced-packaging volume.",
+      "bear": "Crowding rising after the run; CPO monetization for Amkor specifically is not yet contractual.",
+      "primaryCatalyst": "Advanced-packaging and photonics test/order momentum",
+      "primaryRisk": "OSAT cyclicality and pricing"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 5,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Amkor Technology through OSAT / packaging; picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps. The stock is down 23.1% since the prior refresh, so the July refresh changes score by +1 without forcing a rank change.",
+      "bull": "Decade-long TSMC tie makes Amkor the structural US CoWoS/3D-IC packaging gateway for AI silicon.",
+      "neutral": "Strategic framework; volume/margin accretion mostly 2028+.",
+      "bear": "Big move already prices much of it; OSAT cyclicality and capex intensity remain.",
+      "primaryCatalyst": "HBM/chiplet packaging capacity additions and customer awards",
+      "primaryRisk": "OSAT pricing/cyclicality and execution on capacity build-out."
+    }
+  ]
+}

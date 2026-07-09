@@ -1,0 +1,51 @@
+{
+  "symbol": "298040.KS",
+  "company": "Hyosung Heavy Industries",
+  "caseDate": "2026-07-09",
+  "newsSince": "-23.4% since prior, +50.1% YTD. Genuine fundamental progress since June 9: on June 14 Hyosung HICO signed a JV with a Quanta subsidiary (Hyosung HICO BREAKER, LLC) to begin US production of 72.5-800kV gas circuit breakers in October at Canonsburg, PA - the first Korean firm with US production bases for both UHV transformers and UHV breakers. On June 19 LS Securities raised its target to KRW5.3M.",
+  "sources": [
+    {
+      "label": "Seoul Economic: Hyosung first US UHV breaker production w/ Quanta JV",
+      "url": "https://en.sedaily.com/news/2026/06/14/hyosung-heavy-industries-to-build-first-ultra-high-voltage"
+    },
+    {
+      "label": "Seoul Economic: LS Securities lifts Hyosung Heavy target to 5.3M won",
+      "url": "https://en.sedaily.com/finance/2026/06/19/ls-securities-lifts-hyosung-heavys-target-price-to-53"
+    },
+    {
+      "label": "PRNewswire: Hyosung Heavy record order, US strategy",
+      "url": "https://www.prnewswire.com/news-releases/hyosung-heavy-industries-secures-record-order-as-hyun-joon-chos-us-strategy-pays-off-302686142.html"
+    },
+    {
+      "label": "BigGo: target hikes toward ~KRW4M on AI/grid demand",
+      "url": "https://finance.biggo.com/news/V61Te50BQ45Y7dX6QKeH"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/298040.KS/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 54,
+      "rankMove": "hold",
+      "scoreDelta": 1,
+      "confidence": 0.72,
+      "rankRationale": "Hold rank 54. sector evidence and/or a thesis-intact pullback modestly improve residual alpha: -23.4% since the prior refresh, +50.1% YTD. Prior frame: No new fundamental evidence since June 9; the +4% move is flow, not news. On a crowding-sensitive alpha list this remains Korea's most-expensive stock at +96% YTD with consensus target hikes chasing it — the opposite of hidden/under-owned. Residual alpha eroded; hold the penalized rank 52.",
+      "bull": "Record US 765kV transformer backlog (KRW15.1T); structural AI/grid power bottleneck; margin expansion.",
+      "neutral": "Current snapshot: Monitor / benchmark; rank 54, score 30.7, -23.4% since prior, +50.1% YTD.",
+      "bear": "Korea's priciest stock, +96% YTD, target-chasing; far from passives core, crowding risk.",
+      "primaryCatalyst": "Continued US grid/transformer order flow",
+      "primaryRisk": "Extreme valuation/crowding; no fresh catalyst"
+    }
+  ]
+}

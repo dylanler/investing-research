@@ -1,0 +1,65 @@
+{
+ "symbol": "ASM.AS",
+ "asOf": "2026-07-09",
+ "company": "ASM International",
+ "currency": "EUR",
+ "priceToday": 923.6,
+ "pricePrev": 994.0,
+ "moveSincePrevPct": -7.08,
+ "ytdReturnPct": 66.78,
+ "marketCapUsdB": 51.02,
+ "quoteUrl": "https://finance.yahoo.com/quote/ASM.AS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 93,
+   "ticker": "ASM.AS",
+   "company": "ASM International",
+   "score": 56.0,
+   "thesis": "ASM is a crucial advanced-node tool supplier, but it is already viewed as an AI semicap beneficiary.",
+   "theme": "Semi/Advanced Materials",
+   "exchange": "Euronext Amsterdam",
+   "ytd": 66.78,
+   "conviction": "Medium",
+   "catalysts": "GAA/advanced nodes; ALD intensity; AI chip capex.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 87 is 1 places better than displayed rank 88; adjusted score 56.0; YTD +60.7%; market cap $50.5B; ASM International remains tied to semi/advanced materials through Atomic layer deposition and epitaxy equipment. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 8,
+   "ticker": "ASMI.AS",
+   "company": "ASM International",
+   "score": 80.7,
+   "thesis": "picks-and-shovels exposure to AI connectivity, HBM/advanced packaging, metrology, or ASIC ramps with smaller market visibility than the megacaps.",
+   "tier": "wafer fab equipment",
+   "ytd": 66.78,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "ASM International should hold because AI-driven 300mm, memory and advanced-node wafer-equipment spend remains relevant, but current rank 8, 60.7% YTD, $50.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 27,
+   "ticker": "ASM.AS",
+   "company": "ASM International",
+   "score": 76.1,
+   "thesis": "ALD/epi complexity benefits from advanced nodes and photonics manufacturing.",
+   "category": "Wafer equipment",
+   "ytd": 66.78,
+   "mcapB": 51.02,
+   "risk": "Front-end capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO/technology-linkage lens: ALD/epi complexity rises at advanced nodes and ASM is engaged in advanced-packaging/heterogeneous integration that underpins photonics manufacturing. Q1 beat incrementally confirms the linkage; modest positive, mid-list rank still fits."
+   }
+  }
+ ]
+}

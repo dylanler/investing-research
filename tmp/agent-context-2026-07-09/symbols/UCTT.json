@@ -1,0 +1,47 @@
+{
+ "symbol": "UCTT",
+ "asOf": "2026-07-09",
+ "company": "Ultra Clean Holdings",
+ "currency": "USD",
+ "priceToday": 100.91,
+ "pricePrev": 110.305,
+ "moveSincePrevPct": -8.52,
+ "ytdReturnPct": 269.36,
+ "marketCapUsdB": 4.52,
+ "quoteUrl": "https://finance.yahoo.com/quote/UCTT/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 58,
+   "ticker": "UCTT",
+   "company": "Ultra Clean Holdings",
+   "score": 53.2,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 269.36,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens: only fresh datapoint is an Oppenheimer Outperform/$115 reiterating a longer AI-WFE cycle - a modest positive on order-timing optionality. Not a new fundamental shift; WFE framing was already from Q1. Sentiment/price rerating is scored separately."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 41,
+   "ticker": "UCTT",
+   "company": "Ultra Clean Holdings",
+   "score": 70.6,
+   "thesis": "Positive alpha screen: attractive theme but either valuation, risk, scale, or crowding reduces asymmetry.",
+   "category": "Wafer equipment supply chain",
+   "ytd": 269.36,
+   "mcapB": 4.52,
+   "risk": "Single-bundle validation risk",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Ultra Clean Holdings should move down because AI-driven 300mm, memory and advanced-node wafer-equipment spend is either less hidden after 207.2% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 43 implies."
+   }
+  }
+ ]
+}

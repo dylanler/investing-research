@@ -1,0 +1,32 @@
+{
+ "symbol": "CRL.MI",
+ "asOf": "2026-07-09",
+ "company": "CAREL Industries",
+ "currency": "EUR",
+ "priceToday": 28.8,
+ "pricePrev": 29.25,
+ "moveSincePrevPct": -1.54,
+ "ytdReturnPct": 20.25,
+ "marketCapUsdB": 3.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/CRL.MI/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 8,
+   "ticker": "CRL.MI",
+   "company": "CAREL Industries",
+   "score": 79.0,
+   "thesis": "Cooling controls can be the intelligence layer for high-density data centers, yet CAREL is still mostly viewed as HVAC/refrigeration automation.",
+   "theme": "Thermal & Water",
+   "exchange": "Borsa Italiana",
+   "ytd": 20.25,
+   "conviction": "High",
+   "catalysts": "U.S. HVAC strength; data-center controls; energy-efficiency regulation.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 10 is 5 places worse than displayed rank 5; adjusted score 79.0; YTD +23.8%; market cap $4.0B; CAREL Industries remains tied to thermal & water through HVAC/refrigeration controls and data-center cooling controls. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

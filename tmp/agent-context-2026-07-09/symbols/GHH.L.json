@@ -1,0 +1,32 @@
+{
+ "symbol": "GHH.L",
+ "asOf": "2026-07-09",
+ "company": "Gooch & Housego",
+ "currency": "GBp",
+ "priceToday": 824.905,
+ "pricePrev": 926.0,
+ "moveSincePrevPct": -10.92,
+ "ytdReturnPct": 33.48,
+ "marketCapUsdB": 0.32,
+ "quoteUrl": "https://finance.yahoo.com/quote/GHH.L/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 11,
+   "ticker": "GHH.L",
+   "company": "Gooch & Housego",
+   "score": 73.3,
+   "thesis": "Precision photonics outside data-center transceivers could become useful for sensing, inspection and quantum/edge infrastructure",
+   "theme": "Specialty photonics",
+   "exchange": "LSE",
+   "regionRank": "Non-US#5",
+   "ytd": 33.48,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: specialty photonics for sensing/inspection/quantum-edge thesis intact. No new RNS since the June 2 interims (record GBP167.3m order book, improving semiconductor backdrop); -0.6% is drift. Small positive carryover from cheaper post-washout entry. Hold."
+   }
+  }
+ ]
+}

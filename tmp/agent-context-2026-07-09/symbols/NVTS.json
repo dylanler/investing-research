@@ -1,0 +1,65 @@
+{
+ "symbol": "NVTS",
+ "asOf": "2026-07-09",
+ "company": "Navitas Semiconductor",
+ "currency": "USD",
+ "priceToday": 13.36,
+ "pricePrev": 21.61,
+ "moveSincePrevPct": -38.18,
+ "ytdReturnPct": 59.43,
+ "marketCapUsdB": 3.25,
+ "quoteUrl": "https://finance.yahoo.com/quote/NVTS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 36,
+   "ticker": "NVTS",
+   "company": "Navitas Semiconductor",
+   "score": 40.4,
+   "thesis": "GaN/SiC power exposure; tight-supply, underfollowed.",
+   "bucket": "Secondary residual alpha",
+   "listing": "NASDAQ: NVTS",
+   "ytd": 59.43,
+   "mcapB": 3.25,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: the NVIDIA-MGX halo and retail attention already killed the 'underfollowed' leg; +160% YTD leaves it not as mispriced as top residual names. No new news since June 9; today's flush partially resets crowding. Offsetting forces - hold."
+   }
+  },
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 26,
+   "ticker": "NVTS",
+   "company": "Navitas Semiconductor",
+   "score": 66.6,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 59.43,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "MGX 800VDC and the 800V-to-6V GaNFast PDB modestly raised AI data-center power directness, but that was already credited June 9. No new node-criticality evidence since; dilution is a flow issue. Hold rank 35 on the node map."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 51,
+   "ticker": "NVTS",
+   "company": "Navitas Semiconductor",
+   "score": 62.5,
+   "thesis": "AI data-center power density optionality, but not optical/cable layer.",
+   "category": "Power/compound semis",
+   "ytd": 59.43,
+   "mcapB": 3.25,
+   "risk": "Early-stage power adoption and dilution",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Power/compound-semi optionality with no optical/cable/CPO-layer exposure; the June 4 earnout-share 8-K already materialized this page's stated dilution risk and triggered the June 9 down move. No new info since - the down call stands, hold at the lowered rank 63."
+   }
+  }
+ ]
+}

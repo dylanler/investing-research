@@ -1,0 +1,47 @@
+{
+  "symbol": "JBL",
+  "company": "Jabil",
+  "caseDate": "2026-07-09",
+  "newsSince": "-12.4% since prior, +35.3% YTD. Material: On June 17, 2026 Jabil reported Q3 FY2026 (revenue $8.8B +12% YoY, core EPS $3.16 +24%, beat consensus) and raised FY26 guidance to ~$35B revenue (from $34B), core EPS $12.70, FCF >$1.4B. AI-related revenue now expected ~$13.6B in FY26 (+50% YoY, $500M above March outlook), Cloud & Data Center $10.9B (+47%). Stock jumped ~10% post-print toward the top of its 52-week range.",
+  "sources": [
+    {
+      "label": "Jabil Q3 FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000898293/000162828026043719/jbl-20260617ex991.htm"
+    },
+    {
+      "label": "Jabil Q3 FY2026 slides: AI +50%, outlook raised (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/jabil-q3-fy2026-slides-ai-revenue-surges-50-outlook-raised-93CH-4747596"
+    },
+    {
+      "label": "Jabil lifts outlook on AI data-center demand (ts2.tech)",
+      "url": "https://ts2.tech/en/jabil-lifts-outlook-on-strong-ai-data-center-demand-shares-rise/"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/JBL/"
+    },
+    {
+      "label": "TrendForce July passives and AI server shortage checks",
+      "url": "https://www.trendforce.com/news/"
+    },
+    {
+      "label": "AI infrastructure demand methodology",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "ai-passives-alpha",
+      "currentRank": 24,
+      "rankMove": "up",
+      "scoreDelta": 3,
+      "confidence": 0.78,
+      "rankRationale": "Jabil raised FY2026 revenue/EPS guidance on extremely strong AI infrastructure demand, lifted AI-related revenue to about $13.6B, and added an India AI-rack/power manufacturing platform with Adani. Crowding remains, but fundamentals outran prior expectations.",
+      "bull": "AI revenue ~$13.6B (+50% YoY, $500M above March), Cloud/DC $10.9B (+47%); FY26 raised to ~$35B; grid-to-rack power and liquid cooling central node.",
+      "neutral": "Current snapshot: Crowded / rerated benchmark; rank 24, score 51.0, -12.4% since prior, +35.3% YTD.",
+      "bear": "+54% YTD, spot near 52-wk high and well above PT; crowded/rerated leaves limited residual alpha on this lens.",
+      "primaryCatalyst": "Continued AI data-center capacity ramp and FY27 guidance.",
+      "primaryRisk": "Crowded, rerated valuation; AI-capex digestion / customer concentration."
+    }
+  ]
+}

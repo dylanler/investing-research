@@ -1,0 +1,63 @@
+{
+ "symbol": "ASX",
+ "asOf": "2026-07-09",
+ "company": "ASE Technology",
+ "currency": "USD",
+ "priceToday": 39.93,
+ "pricePrev": 40.03,
+ "moveSincePrevPct": -0.25,
+ "ytdReturnPct": 136.83,
+ "marketCapUsdB": 87.6,
+ "quoteUrl": "https://finance.yahoo.com/quote/ASX/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 54,
+   "ticker": "ASX",
+   "company": "ASE Technology Holding",
+   "score": 54.2,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "OSAT / packaging",
+   "ytd": 136.83,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "ASE Technology Holding should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 61, 110.7% YTD, $83.7B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 50,
+   "ticker": "ASX / 3711.TW",
+   "company": "ASE Technology",
+   "score": 62.9,
+   "thesis": "Packaging/test gateway for chiplets and optical modules; size and cyclicality cap alpha score.",
+   "category": "Packaging / OSAT",
+   "ytd": 136.83,
+   "mcapB": 87.6,
+   "risk": "OSAT cyclicality and margin pressure",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "ASE Technology should hold because HBM/chiplet advanced packaging and OSAT capacity remains relevant, but current rank 67, 110.7% YTD, $83.7B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 19,
+   "ticker": "ASX",
+   "company": "ASE Technology",
+   "score": 71.3,
+   "thesis": "Packaging scarcity exposure. Strong ytd follow-through; watch osat and advanced packaging execution and pricing.",
+   "bucket": "Advanced packaging & substrates",
+   "ytd": 136.83,
+   "auditNote": "Current thesis audit (2026-06-08): CoWoS, chiplets, HBM attach, advanced substrate scarcity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck lens: packaging-scarcity thesis confirmed by strong May print and panel-level line, but at +137% YTD/$96B cap the name has clearly rerated. Prior verdict already held after the May data; modest positive on confirmation, not enough for a rank move."
+   }
+  }
+ ]
+}

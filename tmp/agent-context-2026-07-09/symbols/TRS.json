@@ -1,0 +1,32 @@
+{
+ "symbol": "TRS",
+ "asOf": "2026-07-09",
+ "company": "TriMas",
+ "currency": "USD",
+ "priceToday": 40.84,
+ "pricePrev": 44.13,
+ "moveSincePrevPct": -7.46,
+ "ytdReturnPct": 12.54,
+ "marketCapUsdB": 1.48,
+ "quoteUrl": "https://finance.yahoo.com/quote/TRS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 36,
+   "ticker": "TRS",
+   "company": "TriMas",
+   "score": 68.2,
+   "thesis": "Specialty fasteners, aerospace components and closures could be redirected toward precision mechanical subassemblies",
+   "theme": "Aerospace/packaging components",
+   "exchange": "NASDAQ",
+   "regionRank": "US#21",
+   "ytd": 12.54,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "The June 9 down-move already corrected the stale 'precision aerospace fastener' pathway after the March 16 Aerospace divestiture removed those assets. No new evidence since June 9 to extend the move; remaining packaging/specialty business has only a weak strict-screen AI link. Hold at the already-reduced rank."
+   }
+  }
+ ]
+}

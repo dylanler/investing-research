@@ -1,0 +1,32 @@
+{
+ "symbol": "AMG.AS",
+ "asOf": "2026-07-09",
+ "company": "AMG Critical Materials",
+ "currency": "EUR",
+ "priceToday": 32.22,
+ "pricePrev": 35.94,
+ "moveSincePrevPct": -10.35,
+ "ytdReturnPct": 8.92,
+ "marketCapUsdB": 1.36,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMG.AS/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 26,
+   "ticker": "AMG.AS",
+   "company": "AMG Critical Materials",
+   "score": 69.7,
+   "thesis": "Vanadium, lithium and specialty materials could support energy storage/material bottlenecks adjacent to compute build-outs",
+   "theme": "Critical materials",
+   "exchange": "Euronext Amsterdam",
+   "regionRank": "Non-US#12",
+   "ytd": 8.92,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: the June 17 chrome facility is a US critical-materials positive but does not touch the vanadium/lithium energy-storage-adjacent-to-compute pathway this screen rates. No new evidence strengthening or weakening that link since June 9. +3% drift is noise. Hold."
+   }
+  }
+ ]
+}

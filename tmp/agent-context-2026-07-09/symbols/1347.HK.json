@@ -1,0 +1,31 @@
+{
+ "symbol": "1347.HK",
+ "asOf": "2026-07-09",
+ "company": "1347.HK",
+ "currency": "HKD",
+ "priceToday": 202.4,
+ "pricePrev": 166.3,
+ "moveSincePrevPct": 21.71,
+ "ytdReturnPct": 148.95,
+ "marketCapUsdB": 47.31,
+ "quoteUrl": "https://finance.yahoo.com/quote/1347.HK/",
+ "listings": [
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 77,
+   "ticker": "1347.HK",
+   "company": "Hua Hong Semiconductor",
+   "score": 52.2,
+   "thesis": "China localization/foundry exposure; low direct CPO.",
+   "category": "Foundry / specialty",
+   "ytd": 148.95,
+   "mcapB": 47.31,
+   "risk": "China mature-node pricing",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hua Hong Semiconductor should hold because advanced-node, specialty foundry, silicon photonics and advanced-packaging capacity remains relevant, but current rank 62, 68.6% YTD, $38.3B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

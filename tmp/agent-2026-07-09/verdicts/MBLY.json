@@ -1,0 +1,43 @@
+{
+  "symbol": "MBLY",
+  "company": "Mobileye",
+  "caseDate": "2026-07-09",
+  "newsSince": "No new symbol-specific web catalyst was isolated in this pass beyond the July 9 market-data refresh and prior-source carry-forward. Mobileye (MBLY) now screens at $7.70B market cap, +13.1% since the prior refresh and -18.6% YTD. Page thesis remains: The Mentee acquisition turns MBLY from auto autonomy into a credible physical-AI/humanoid platform.",
+  "sources": [
+    {
+      "label": "MBLY quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/MBLY/"
+    },
+    {
+      "label": "Mobileye to establish vertically integrated robotaxi business (June 16)",
+      "url": "https://www.mobileye.com/news/mobileye-to-establish-vertically-integrated-robotaxi-business/"
+    },
+    {
+      "label": "Mobileye US robotaxi launch puts it on both sides of AV business (TechCrunch, June 16)",
+      "url": "https://techcrunch.com/2026/06/16/mobileye-us-robotaxi-launch-will-put-it-on-both-sides-of-the-av-business/"
+    },
+    {
+      "label": "Stellantis-Wayve-Uber L4 MOU / robotaxi landscape (June)",
+      "url": "https://insideevs.com/news/799037/stellantis-uber-robotaxi-wayve-global/"
+    },
+    {
+      "label": "Mobileye to establish vertically integrated robotaxi business (Jun 16)",
+      "url": "https://www.mobileye.com/news/mobileye-to-establish-vertically-integrated-robotaxi-business/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "robotics",
+      "currentRank": 9,
+      "rankMove": "up",
+      "scoreDelta": 2,
+      "confidence": 0.61,
+      "rankRationale": "Robotics hidden-gem lens: Evidence supports more rank weight at current rank 9. July market-data refresh shows move since prior +13.1%, YTD -18.6%, market cap $7.70B. Thesis: The Mentee acquisition turns MBLY from auto autonomy into a credible physical-AI/humanoid platform.. Score delta +2; judged against under-owned physical-AI exposure, direct component purity and commercialization proof.",
+      "bull": "Mentee humanoid stack + AD IP still real physical-AI optionality if robotaxi economics work.",
+      "neutral": "Strategic bet could justify premium but is years out and unproven.",
+      "bear": "Late, cash-light robotaxi operator; capital intensity dilutes humanoid focus; $40k+$0.20/mi model unproven.",
+      "primaryCatalyst": "2027 robotaxi launch / Mentee humanoid milestones",
+      "primaryRisk": "Capital depletion, fleet-economics failure, robotaxi competition"
+    }
+  ]
+}

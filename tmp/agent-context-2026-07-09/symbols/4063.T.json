@@ -1,0 +1,30 @@
+{
+ "symbol": "4063.T",
+ "asOf": "2026-07-09",
+ "company": "4063.T",
+ "currency": "JPY",
+ "priceToday": 7010.0,
+ "pricePrev": 7301.0,
+ "moveSincePrevPct": -3.99,
+ "ytdReturnPct": 41.79,
+ "marketCapUsdB": 80.8,
+ "quoteUrl": "https://finance.yahoo.com/quote/4063.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 47,
+   "ticker": "4063.T",
+   "company": "Shin-Etsu Chemical",
+   "score": 58.3,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "materials / wafers",
+   "ytd": 41.79,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Shin-Etsu Chemical should hold because wafers, masks, substrates, photoresists and high-purity materials consumed by AI fabs remains relevant, but current rank 37, 38.8% YTD, $84.6B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  }
+ ]
+}

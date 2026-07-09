@@ -1,0 +1,63 @@
+{
+ "symbol": "8035.T",
+ "asOf": "2026-07-09",
+ "company": "Tokyo Electron",
+ "currency": "JPY",
+ "priceToday": 71060.0,
+ "pricePrev": 72960.0,
+ "moveSincePrevPct": -2.6,
+ "ytdReturnPct": 92.42,
+ "marketCapUsdB": 200.14,
+ "quoteUrl": "https://finance.yahoo.com/quote/8035.T/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 49,
+   "ticker": "8035.T",
+   "company": "Tokyo Electron",
+   "score": 57.1,
+   "thesis": "levered to AI-driven fab and HBM capacity additions; upside depends on order timing and export-control risk.",
+   "tier": "wafer fab equipment",
+   "ytd": 92.42,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: record FY results and double-digit CY26 guidance keep the AI-fab/HBM thesis intact, but the NEW US legislative escalation (House report + MATCH Act) targeting WFE-to-China is a concrete order-book risk given ~40% China mix. Net slight negative on alpha after a +98% YTD melt-up that prepays the upside."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 64,
+   "ticker": "8035.T",
+   "company": "Tokyo Electron",
+   "score": 57.3,
+   "thesis": "Front-end equipment beneficiary, but not early or CPO-specific.",
+   "category": "Wafer equipment",
+   "ytd": 92.42,
+   "mcapB": 200.14,
+   "risk": "Capex cycle, high expectations",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens already flags TEL as 'not early or CPO-specific' with high-expectations risk. No new optical/packaging angle since Jun 9, and the fresh China export-control legislative push adds downside; the flow-driven melt-up makes it strictly more crowded. Slight negative."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 54,
+   "ticker": "8035",
+   "company": "Tokyo Electron",
+   "score": 56.5,
+   "thesis": "Upstream pick-and-shovel exposure. Positive but measured ytd; watch wafer fab equipment execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 92.42,
+   "auditNote": "Yesterday's verdict already cut for YTD rerating; today's +8.9% surge to a fresh all-time high on no new fundamentals extends that exact dynamic, so the pick-and-shovel alpha score should drift furthe",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master-list pick-and-shovel lens: record results affirm upstream exposure, but the new US push to extend China WFE bans (House report + MATCH Act, ~40% China mix) is a genuine new downside to the bottleneck case. After a +98% YTD melt-up, alpha drifts slightly lower rather than resets."
+   }
+  }
+ ]
+}

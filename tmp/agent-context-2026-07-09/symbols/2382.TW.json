@@ -1,0 +1,48 @@
+{
+ "symbol": "2382.TW",
+ "asOf": "2026-07-09",
+ "company": "Quanta Computer",
+ "currency": "TWD",
+ "priceToday": 373.5,
+ "pricePrev": 372.5,
+ "moveSincePrevPct": 0.27,
+ "ytdReturnPct": 34.84,
+ "marketCapUsdB": 45.19,
+ "quoteUrl": "https://finance.yahoo.com/quote/2382.TW/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 16,
+   "ticker": "2382",
+   "company": "Quanta Computer",
+   "score": 63.2,
+   "thesis": "QCT rack integration and AI data-center platforms; tight-supply, direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Secondary residual alpha",
+   "listing": "TWSE: 2382",
+   "ytd": 34.84,
+   "mcapB": 45.19,
+   "revisionNote": "Balanced AI supply-chain exposure, but not as mispriced as the top residual-alpha names.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Hold at 16. AI-server execution (GB300 ramp, >75% server mix) is fully consensus and ODM story well-broadcast; no new info since June 9. On this crowding-sensitive page residual alpha is thinner than top names but the central-node positioning is intact. No rank-changing event."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 53,
+   "ticker": "2382",
+   "company": "Quanta Computer",
+   "score": 57.2,
+   "thesis": "Physical deployment exposure. Positive but measured ytd; watch ai server oem execution and pricing.",
+   "bucket": "Data-center shell & systems integration",
+   "ytd": 34.84,
+   "auditNote": "Current thesis audit (2026-06-08): rack integration, deployment capacity score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure that has not already ful",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "On the deployment/systems-integration lens, May rev +94% YoY and Q1 +66.6% YoY confirm rack-integration capacity is converting to shipments, with CFO more bullish than 30 days prior. Incremental positive on deployment-bottleneck directness, not a rank-changing event."
+   }
+  }
+ ]
+}

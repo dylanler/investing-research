@@ -40,7 +40,7 @@ export interface BottleneckSector {
   nonUsPicks: BottleneckStock[];
 }
 
-export const bottleneckSectorAsOf = 'June 23, 2026';
+export const bottleneckSectorAsOf = 'July 9, 2026';
 
 export const bottleneckSectors: BottleneckSector[] = [
   {

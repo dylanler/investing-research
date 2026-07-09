@@ -1,0 +1,50 @@
+{
+ "symbol": "010120.KS",
+ "asOf": "2026-07-09",
+ "company": "LS Electric",
+ "currency": "KRW",
+ "priceToday": 189400.0,
+ "pricePrev": 232500.0,
+ "moveSincePrevPct": -18.54,
+ "ytdReturnPct": 92.28,
+ "marketCapUsdB": 21.45,
+ "quoteUrl": "https://finance.yahoo.com/quote/010120.KS/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 53,
+   "ticker": "010120",
+   "company": "LS ELECTRIC",
+   "score": 31.4,
+   "thesis": "Switchgear and electrical distribution exposure; bottleneck, AI-adjacent, underfollowed, central-node.",
+   "bucket": "Monitor / benchmark",
+   "listing": "KRX: 010120",
+   "ytd": 92.28,
+   "mcapB": 21.45,
+   "revisionNote": "Useful AI exposure, but farther from the passive/power bottleneck stack.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Residual-alpha lens: real data-center switchgear/transformer demand, but the order flow is April-May and already known; nothing new since June 9. At +136% YTD with ~18 buy ratings the name is no longer under-owned enough to re-rank up on a flow bounce. Hold."
+   }
+  },
+  {
+   "page": "latent-ai-nodes",
+   "rank": 61,
+   "ticker": "010120.KS",
+   "company": "LS Electric",
+   "score": 64.8,
+   "thesis": "Korean electrical infrastructure supplier with data-center/grid optionality and less global coverage than U.S. peers.",
+   "theme": "Power & Grid",
+   "exchange": "KRX",
+   "ytd": 92.28,
+   "conviction": "Medium",
+   "catalysts": "Korea/Asia data-center power; grid automation; overseas expansion.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank equals displayed rank 66; adjusted score 63.6; YTD +111.2%; market cap $23.6B; LS Electric remains tied to power & grid through Switchgear, automation and power infrastructure. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

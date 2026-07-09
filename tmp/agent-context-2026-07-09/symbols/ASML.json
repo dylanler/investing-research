@@ -1,0 +1,63 @@
+{
+ "symbol": "ASML",
+ "asOf": "2026-07-09",
+ "company": "ASML Holding",
+ "currency": "USD",
+ "priceToday": 1768.65,
+ "pricePrev": 1781.35,
+ "moveSincePrevPct": -0.71,
+ "ytdReturnPct": 51.97,
+ "marketCapUsdB": 681.93,
+ "quoteUrl": "https://finance.yahoo.com/quote/ASML/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 39,
+   "ticker": "ASML",
+   "company": "ASML Holding",
+   "score": 60.9,
+   "thesis": "core AI winner, but already highly owned; score is capped by crowding and valuation discovery.",
+   "tier": "wafer fab equipment",
+   "ytd": 51.97,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node lens: monopoly EUV choke point intact but score already capped for crowding/valuation discovery. No new signed orders or guidance change since June 9; the Terafab catalyst stays a headline. No fresh alpha to add."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 72,
+   "ticker": "ASML",
+   "company": "ASML Holding",
+   "score": 54.5,
+   "thesis": "Irreplaceable lithography choke point; CPO is indirect via advanced nodes and packaging flows.",
+   "category": "Wafer equipment",
+   "ytd": 51.97,
+   "mcapB": 681.93,
+   "risk": "China restrictions and capex cycle",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "CPO lens: ASML's link to co-packaged optics is indirect (via advanced nodes/packaging flows). Nothing since June 9 changes that linkage; ranked deep at 70, choke-point centrality intact but residual CPO alpha unchanged."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 78,
+   "ticker": "ASML",
+   "company": "ASML Holding",
+   "score": 48.1,
+   "thesis": "Upstream pick-and-shovel exposure. Strong ytd follow-through; watch lithography systems execution and pricing.",
+   "bucket": "Fab tools & manufacturing inputs",
+   "ytd": 51.97,
+   "auditNote": "The page's audit note rewards scarce bottleneck exposure that has NOT already rerated; a record market cap print on an unsigned Musk Terafab headline plus +49% YTD reduces the residual alpha this broa",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Under-owned-bottleneck lens penalizes names that have already rerated; ASML has (+53% YTD, record cap). No new bottleneck evidence since June 9, so no basis to re-rate the residual alpha higher; hold the prior down-positioning."
+   }
+  }
+ ]
+}

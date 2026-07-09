@@ -1,0 +1,45 @@
+{
+ "symbol": "AOSL",
+ "asOf": "2026-07-09",
+ "company": "Alpha & Omega Semiconductor",
+ "currency": "USD",
+ "priceToday": 37.37,
+ "pricePrev": 45.76,
+ "moveSincePrevPct": -18.33,
+ "ytdReturnPct": 80.88,
+ "marketCapUsdB": 1.3,
+ "quoteUrl": "https://finance.yahoo.com/quote/AOSL/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 61,
+   "ticker": "AOSL",
+   "company": "Alpha and Omega Semiconductor",
+   "score": 52.8,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 80.88,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Alpha and Omega Semiconductor should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 113.9% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 75 implies."
+   }
+  },
+  {
+   "page": "scaling",
+   "rank": 24,
+   "ticker": "AOSL",
+   "company": "Alpha & Omega Semiconductor",
+   "score": 43.6,
+   "thesis": "Power semiconductors and power management",
+   "bucket": "semiconductors",
+   "ytd": 80.88,
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 28 is 10 places better than displayed rank 38; adjusted score 38.6; YTD +113.9%; market cap $1.5B; Scaling watchlist fit is Power semiconductors and power management; bucket semiconductors; tags power_grid. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

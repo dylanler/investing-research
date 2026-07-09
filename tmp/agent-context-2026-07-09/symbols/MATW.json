@@ -1,0 +1,32 @@
+{
+ "symbol": "MATW",
+ "asOf": "2026-07-09",
+ "company": "Matthews International",
+ "currency": "USD",
+ "priceToday": 26.21,
+ "pricePrev": 26.12,
+ "moveSincePrevPct": 0.34,
+ "ytdReturnPct": 1.08,
+ "marketCapUsdB": 0.84,
+ "quoteUrl": "https://finance.yahoo.com/quote/MATW/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 87,
+   "ticker": "MATW",
+   "company": "Matthews International",
+   "score": 61.0,
+   "thesis": "Industrial technologies, marking and energy-storage process work could offer optionality in manufacturing infrastructure",
+   "theme": "Industrial tech/energy storage",
+   "exchange": "NASDAQ",
+   "regionRank": "US#41",
+   "ytd": 1.08,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node lens: energy-storage/dry-electrode process work offers thin manufacturing-infrastructure optionality, but energy-storage remains challenged. No news since June 9; June 9 already reconciled it to the adjusted-score rank. Hold the long tail."
+   }
+  }
+ ]
+}

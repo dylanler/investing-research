@@ -1,0 +1,47 @@
+{
+ "symbol": "NXPI",
+ "asOf": "2026-07-09",
+ "company": "NXP Semiconductors",
+ "currency": "USD",
+ "priceToday": 283.81,
+ "pricePrev": 299.56,
+ "moveSincePrevPct": -5.26,
+ "ytdReturnPct": 28.26,
+ "marketCapUsdB": 71.65,
+ "quoteUrl": "https://finance.yahoo.com/quote/NXPI/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 44,
+   "ticker": "NXPI",
+   "company": "NXP Semiconductors",
+   "score": 59.7,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "analog / power / RF",
+   "ytd": 28.26,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Analog/auto/edge content less direct to HBM/packaging/CPO bottlenecks. The June 1 price hike is mild pricing-power evidence but not node-criticality; June 20-21 pop was institutional/sector flow. No bottleneck case to move at rank 43. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 57,
+   "ticker": "NXPI",
+   "company": "NXP Semiconductors",
+   "score": 60.3,
+   "thesis": "Edge/auto AI more important than CPO.",
+   "category": "Auto / edge",
+   "ytd": 28.26,
+   "mcapB": 71.65,
+   "risk": "Auto cycle",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "NXP Semiconductors should move down because analog, power, RF, edge or auto semiconductor content is either less hidden after 36.1% YTD, less direct to CPO/HBM/package/test bottlenecks, or more exposed to cycle/valuation risk than the current rank 54 implies."
+   }
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "symbol": "AMD",
+ "asOf": "2026-07-09",
+ "company": "AMD",
+ "currency": "USD",
+ "priceToday": 517.405,
+ "pricePrev": 523.27,
+ "moveSincePrevPct": -1.12,
+ "ytdReturnPct": 131.53,
+ "marketCapUsdB": 843.68,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMD/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 42,
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices",
+   "score": 59.9,
+   "thesis": "Second-source AI accelerator and EPYC exposure with Meta/AWS/Google/Microsoft/Tencent deployments and Samsung HBM collaboration. Alpha depends on closing the software/platform gap and converting MI demand into margin.",
+   "tier": "AI accelerator",
+   "ytd": 131.53,
+   "region": "US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "AI-node bottleneck lens unchanged since June 9: second-source MI400/OpenAI ramp intact, no fresh node-specific evidence. The +9.6% rebound is sector flow that erodes the entry-asymmetry the prior case credited; at $857B and +133% YTD it stays the crowded Nvidia-alternative. Hold."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 88,
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices",
+   "score": 48.7,
+   "thesis": "Potential beneficiary if open AI platform scale-up fabrics broaden; less direct CPO monetization than network/optics names.",
+   "category": "AI compute",
+   "ytd": 131.53,
+   "mcapB": 843.68,
+   "risk": "AI accelerator competition and margins",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Advanced Micro Devices should hold because custom AI silicon, chiplets, SerDes IP, EDA and scale-up fabrics remains relevant, but current rank 100, 119.4% YTD, $799.5B market cap, valuation discovery or execution risk already captures much of the upside."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 93,
+   "ticker": "AMD",
+   "company": "AMD",
+   "score": 37.9,
+   "thesis": "Platform compute exposure. Negative ytd reset; watch gpu/cpu accelerator platform execution and pricing.",
+   "bucket": "Compute silicon & IP",
+   "ytd": 131.53,
+   "auditNote": "Current thesis audit (2026-06-08): accelerator demand, but higher consensus and cap concentration score was balanced against market cap and YTD rerating. Alpha score rewards scarce bottleneck exposure",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Master under-owned-bottleneck list: AMD is the opposite of under-owned at $857B / +133% YTD with consensus accelerator demand. No new bottleneck-scarcity evidence since June 9; the +9.6% bounce reverses some of the asymmetry the prior hold credited. Stays low on this list."
+   }
+  }
+ ]
+}

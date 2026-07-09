@@ -1,0 +1,48 @@
+{
+ "symbol": "6981.T",
+ "asOf": "2026-07-09",
+ "company": "Murata Manufacturing",
+ "currency": "JPY",
+ "priceToday": 9475.0,
+ "pricePrev": 11005.0,
+ "moveSincePrevPct": -13.9,
+ "ytdReturnPct": 184.53,
+ "marketCapUsdB": 103.96,
+ "quoteUrl": "https://finance.yahoo.com/quote/6981.T/",
+ "listings": [
+  {
+   "page": "ai-passives-alpha",
+   "rank": 66,
+   "ticker": "6981",
+   "company": "Murata Manufacturing",
+   "score": 23.9,
+   "thesis": "MLCCs, inductors and filters for AI server power networks; bottleneck, direct-AI, 2026-catalyst, central-node.",
+   "bucket": "Crowded / rerated benchmark",
+   "listing": "TSE: 6981",
+   "ytd": 184.53,
+   "mcapB": 103.96,
+   "revisionNote": "On a crowding-sensitive alpha list, an +11.3% single-day pop on zero new fundamentals erases the improved entry asymmetry that briefly existed after the June 5-8 selloff; the whipsaw itself is evidence of crowded, flow-dominated ownership at +191% YTD.",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Passives-alpha lens: the July-1 10-40% AI-server/auto MLCC price hikes plus GS structural-deficit framing are genuinely new and strengthen the pricing/bottleneck case. But on this crowding-sensitive 'rerated benchmark' list at +230% YTD the residual alpha is largely consumed. Small +1, hold rank."
+   }
+  },
+  {
+   "page": "companies",
+   "rank": 83,
+   "ticker": "6981",
+   "company": "Murata Manufacturing",
+   "score": 45.0,
+   "thesis": "Power-delivery content exposure. Positive but measured ytd; watch capacitors and passive components execution and pricing.",
+   "bucket": "Board-level power & passives",
+   "ytd": 184.53,
+   "auditNote": "Master bottleneck lens: the confirmed July-1 10-40% AI-server MLCC price hikes plus GS supercycle/structural-deficit evidence are new fundamental support for the power-delivery/pricing thesis (vs the ",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "up",
+    "rankRationale": "Master bottleneck lens: the confirmed July-1 10-40% AI-server MLCC price hikes plus GS supercycle/structural-deficit evidence are new fundamental support for the power-delivery/pricing thesis (vs the June 9 hold), and rank 84 understates the scarce pricing-power bottleneck. Up, +2."
+   }
+  }
+ ]
+}

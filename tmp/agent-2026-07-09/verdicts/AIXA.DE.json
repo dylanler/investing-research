@@ -1,0 +1,97 @@
+{
+  "symbol": "AIXA.DE",
+  "company": "Aixtron",
+  "caseDate": "2026-07-09",
+  "newsSince": "semiconductor-alpha-cpo: rank 13 hold (+0); down 19.5% since the prior refresh. semiconductor-ai-nodes: rank 52 hold (+0); down 19.5% since the prior refresh.",
+  "sources": [
+    {
+      "label": "Simply Wall St — Aixtron GaN/SiC AI orders",
+      "url": "https://simplywall.st/stocks/de/semiconductors/etr-aixa/aixtron-shares/news/aixtron-xtraaixa-is-up-77-after-ai-focused-gan-and-sic-tool"
+    },
+    {
+      "label": "AIXTRON FY26 guidance raise",
+      "url": "https://www.webdisclosure.com/press-release/aixtron-se-etr-aixa-aixtron-se-increases-fy-2026-guidance-and-reports-preliminary-q12026-figures-xdNX74Isy8R"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/AIXA.DE/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    },
+    {
+      "label": "AIXA.DE quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/AIXA.DE/"
+    },
+    {
+      "label": "Micron Hiroshima/HBM expansion - TrendForce",
+      "url": "https://www.trendforce.com/news/2026/07/06/news-micron-breaks-ground-on-hiroshima-fab-expansion-scaling-1%ce%b3-dram-and-hbm-output-as-equipment-set-for-2h28/"
+    },
+    {
+      "label": "Hanmi HBM4 TC bonder order - The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=11132"
+    },
+    {
+      "label": "CPO/NPO market update - I-Connect007",
+      "url": "https://iconnect007.com/article/150396/optical-interconnects-drive-ai-factory-growth-cponpo-market-to-top-39b-by-2030/150393/ein"
+    },
+    {
+      "label": "Silicon photonics market state",
+      "url": "https://www.optim.vc/the-state-of-silicon-photonics-whos-building-whos-buying-and-where-the-industry-is-heading/"
+    },
+    {
+      "label": "Applied Materials AI capacity commentary - Futurum",
+      "url": "https://futurumgroup.com/insights/applied-materials-q2-fy-2026-ai-capacity-expansion-fuels-equipment-demand/"
+    },
+    {
+      "label": "BESI hybrid bonding orders",
+      "url": "https://www.druckfin.com/en/articles/be-semiconductor-industries-posts-record-hybrid-bonding-orders-as-memory-custome-20260423"
+    },
+    {
+      "label": "AIXA.DE Yahoo Finance quote",
+      "url": "https://finance.yahoo.com/quote/AIXA.DE/"
+    }
+  ],
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes",
+      "currentRank": 79,
+      "rankMove": "down",
+      "scoreDelta": -2,
+      "confidence": 0.75,
+      "rankRationale": "Latent AI-node lens: risk/reward deserves less rank weight at current rank 79. July context shows score 61.4, move since prior -19.5%, YTD +127.8%, market cap $7.80B. Score delta -2; judged against under-appreciated bottleneck exposure, thesis purity and discovery risk.",
+      "bull": "MOCVD tool monopoly to AI-driven InP optics and GaN power; FY26 guide raised; broadening customer base (Lumentum, ROHM, MIT).",
+      "neutral": "Catalysts mostly already known by June 9; +183% YTD prices much of the optimism.",
+      "bear": "Cyclical SiC/GaN/LED capex; order lumpiness; sentiment-driven swings after a 2.8x YTD run.",
+      "primaryCatalyst": "AI-optics InP/GaN tool order ramp",
+      "primaryRisk": "Compound-semi capex cycle reversal"
+    },
+    {
+      "page": "semiconductor-alpha-cpo",
+      "currentRank": 13,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: CPO/optical-interconnect alpha lens still fits Aixtron through Compound equipment; Small, underfollowed compound-semiconductor equipment lever to lasers and photonic devices. The stock is down 19.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Direct toolmaker to InP lasers underpinning CPO/800G+ optics; AI optical bandwidth demand is structural.",
+      "neutral": "Crowding is the offset: heavily followed after a 2.8x run; discovery largely done.",
+      "bear": "Photonics capex volatility; MIT order is research-scale, not the commercial laser leg this page ranks.",
+      "primaryCatalyst": "CPO-adjacent AI capex translating into company-specific orders",
+      "primaryRisk": "LED/SiC/photonics capex volatility"
+    },
+    {
+      "page": "semiconductor-ai-nodes",
+      "currentRank": 52,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.72,
+      "rankRationale": "Hold: AI-node bottleneck lens still fits Aixtron through analog / power / RF; selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names. The stock is down 19.5% since the prior refresh, so the July refresh changes score by +0 without forcing a rank change.",
+      "bull": "Enabling tool for AI optical (InP) and power (GaN) — a quiet pick-and-shovel as both nodes scale with AI compute.",
+      "neutral": "Indirect vs HBM/packaging; an equipment supplier two steps from the AI rack.",
+      "bear": "Cyclicality and order timing make node-relevance less durable than direct interconnect/memory names.",
+      "primaryCatalyst": "AI-node demand broadening into adjacent semiconductor content",
+      "primaryRisk": "Capex cycle; indirect exposure"
+    }
+  ]
+}

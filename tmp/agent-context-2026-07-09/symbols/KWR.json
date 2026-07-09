@@ -1,0 +1,32 @@
+{
+ "symbol": "KWR",
+ "asOf": "2026-07-09",
+ "company": "Quaker Houghton",
+ "currency": "USD",
+ "priceToday": 147.52,
+ "pricePrev": 148.21,
+ "moveSincePrevPct": -0.47,
+ "ytdReturnPct": 6.16,
+ "marketCapUsdB": 2.77,
+ "quoteUrl": "https://finance.yahoo.com/quote/KWR/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 96,
+   "ticker": "KWR",
+   "company": "Quaker Houghton",
+   "score": 55.0,
+   "thesis": "Process fluids, lubricants and surface-treatment chemistry could support high-throughput metalworking or coolant-adjacent niches",
+   "theme": "Industrial fluids",
+   "exchange": "NYSE",
+   "regionRank": "US#47",
+   "ytd": 6.16,
+   "valuationNote": "Live US quote snapshot via finance tool, 2026-05-06 UTC",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent AI-node lens: process-fluids/coolant-adjacent AI pathway is speculative and unchanged. Q1 was a pre-window in-line print; flagged Q2 input-cost/margin pressure is a mild negative but not AI-node relevant. Back-of-list rank 97 stays appropriate for thesis-stage evidence."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "MRCY",
+ "asOf": "2026-07-09",
+ "company": "Mercury Systems",
+ "currency": "USD",
+ "priceToday": 112.41,
+ "pricePrev": 113.315,
+ "moveSincePrevPct": -0.8,
+ "ytdReturnPct": 47.85,
+ "marketCapUsdB": 6.75,
+ "quoteUrl": "https://finance.yahoo.com/quote/MRCY/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes",
+   "rank": 17,
+   "ticker": "MRCY",
+   "company": "Mercury Systems",
+   "score": 75.6,
+   "thesis": "Defense AI needs deployable compute and sensor processing; prior execution issues keep the crowd skeptical despite strategic relevance.",
+   "theme": "Defense/Space/Edge",
+   "exchange": "NASDAQ",
+   "ytd": 47.85,
+   "conviction": "Speculative",
+   "catalysts": "Defense electronics recovery; edge AI modules; operating turnaround.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "hold",
+    "rankRationale": "Hold rank. adjusted-score rank 17 is 5 places worse than displayed rank 12; adjusted score 75.0; YTD +45.9%; market cap $6.5B; Mercury Systems remains tied to defense/space/edge through Rugged edge processing, RF and mission-compute modules. Market cap/YTD inputs were reconciled with the repo-wide 2026-06-08 market-data refresh."
+   }
+  }
+ ]
+}

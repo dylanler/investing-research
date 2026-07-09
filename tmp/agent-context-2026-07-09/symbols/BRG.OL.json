@@ -1,0 +1,32 @@
+{
+ "symbol": "BRG.OL",
+ "asOf": "2026-07-09",
+ "company": "Borregaard",
+ "currency": "NOK",
+ "priceToday": 150.2,
+ "pricePrev": 144.2,
+ "moveSincePrevPct": 4.16,
+ "ytdReturnPct": -23.6,
+ "marketCapUsdB": 1.53,
+ "quoteUrl": "https://finance.yahoo.com/quote/BRG.OL/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 70,
+   "ticker": "BRG.OL",
+   "company": "Borregaard",
+   "score": 64.6,
+   "thesis": "Biopolymers and specialty cellulose could be used in binders, dispersants or sustainable process chemistry",
+   "theme": "Bio-based specialty chemicals",
+   "exchange": "Oslo",
+   "regionRank": "Non-US#35",
+   "ytd": -23.6,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node screen: no new AI-chain evidence to justify a re-rank; the biopolymer/dispersant/process-chemistry pathway remains speculative and unchanged. Softer Q1 already known. Hold."
+   }
+  }
+ ]
+}

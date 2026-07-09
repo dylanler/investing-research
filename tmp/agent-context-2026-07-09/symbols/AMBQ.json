@@ -1,0 +1,27 @@
+{
+ "symbol": "AMBQ",
+ "asOf": "2026-07-09",
+ "company": "Ambiq Micro",
+ "currency": "USD",
+ "priceToday": 81.93,
+ "pricePrev": 84.33,
+ "moveSincePrevPct": -2.85,
+ "ytdReturnPct": 169.95,
+ "marketCapUsdB": 1.98,
+ "quoteUrl": "https://finance.yahoo.com/quote/AMBQ/",
+ "listings": [
+  {
+   "page": "robotics",
+   "rank": 30,
+   "ticker": "AMBQ",
+   "company": "Ambiq Micro",
+   "score": 46.3,
+   "thesis": "Technically relevant, but the post-IPO rerating has already pulled forward a lot of alpha.",
+   "priorCase": {
+    "caseDate": "2026-06-08",
+    "rankMove": "down",
+    "rankRationale": "Current robotics rank #36 and alpha score 45. Should move down because $1.6B cap, +160.8% YTD, Edge AI purity, and commercialization evidence now matter more than generic humanoid beta. The thesis remains relevant, but crowding, market-cap scale, rerating, or indirectness argues for lower alpha weight."
+   }
+  }
+ ]
+}

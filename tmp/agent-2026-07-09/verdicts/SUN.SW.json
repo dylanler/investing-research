@@ -1,0 +1,47 @@
+{
+  "verdicts": [
+    {
+      "page": "latent-ai-nodes-strict",
+      "currentRank": 23,
+      "rankMove": "hold",
+      "scoreDelta": 0,
+      "confidence": 0.68,
+      "rankRationale": "Strict latent-node lens: prior rank remains broadly right at current rank 23. July context shows score 70.6, move since prior -1.4%, YTD -8.6%, market cap $5.79B. Score delta +0; judged against hard under-covered evidence, adapted-use plausibility and residual-alpha preservation.",
+      "bull": "Pumping/separation/purification IP is a plausible adjacency for data-center liquid-cooling loops and water reuse if demand crosses over.",
+      "neutral": "Industrial fluids name with confirmed but unexciting 2026 guidance; AI link remains a hypothesis, not a booked revenue stream.",
+      "bear": "Weak Q1 large-project orders, no AI-coolant evidence; the latent thesis may never convert and the name sits on generic industrial cyclicality.",
+      "primaryCatalyst": "A named data-center coolant/water-reuse or process-control design win or partnership.",
+      "primaryRisk": "Latent AI pathway never materializes; remains a plain industrial cyclical."
+    }
+  ],
+  "symbol": "SUN.SW",
+  "company": "Sulzer",
+  "caseDate": "2026-07-09",
+  "sources": [
+    {
+      "label": "Sulzer Q1 2026 order intake (TradingView)",
+      "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3236814:0-sun-q1-2026-order-intake-fell-8-6-year-over-year-but-guidance-and-outlook-for-2026-remain-positive/"
+    },
+    {
+      "label": "Sulzer confirms moderate Q1 order intake",
+      "url": "https://www.sulzer.com/en/shared/news/260413-order-intake-q1"
+    },
+    {
+      "label": "July 2026 quote snapshot",
+      "url": "https://finance.yahoo.com/quote/SUN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.mckinsey.com/industries/industrials/our-insights/beyond-compute-infrastructure-that-powers-and-cools-ai-data-centers"
+    },
+    {
+      "label": "SUN.SW quote / market data as of 2026-07-09",
+      "url": "https://finance.yahoo.com/quote/SUN.SW/"
+    },
+    {
+      "label": "AI infrastructure methodology source",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+    }
+  ],
+  "newsSince": "July 9 context refresh for Sulzer (SUN.SW) across latent-ai-nodes-strict: market cap $5.79B, move since prior -1.4%, YTD -8.6%. No additional page-specific catalyst was isolated beyond prior-source carry-forward and the refreshed page context."
+}

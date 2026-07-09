@@ -1,0 +1,47 @@
+{
+ "symbol": "3443.TW",
+ "asOf": "2026-07-09",
+ "company": "Global Unichip",
+ "currency": "TWD",
+ "priceToday": 4340.0,
+ "pricePrev": 4725.0,
+ "moveSincePrevPct": -8.15,
+ "ytdReturnPct": 98.63,
+ "marketCapUsdB": 18.67,
+ "quoteUrl": "https://finance.yahoo.com/quote/3443.TW/",
+ "listings": [
+  {
+   "page": "semiconductor-ai-nodes",
+   "rank": 16,
+   "ticker": "3443.TW",
+   "company": "Global Unichip",
+   "score": 70.4,
+   "thesis": "selective AI/edge/power exposure; less direct than HBM, advanced packaging and AI networking names.",
+   "tier": "custom ASIC / interconnect",
+   "ytd": 98.63,
+   "region": "Non-US",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Node-centrality lens: GUC's TSMC-affiliated custom-ASIC turnkey position is unchanged; no new design wins, capacity, or guidance since Jun 9. The +9.6% pop is flow, not news. 'Selective, less direct than HBM/packaging' placement stands. Hold, delta 0."
+   }
+  },
+  {
+   "page": "semiconductor-alpha-cpo",
+   "rank": 25,
+   "ticker": "3443.TW",
+   "company": "Global Unichip",
+   "score": 76.6,
+   "thesis": "Custom silicon design-services leverage as hyperscalers architect custom AI systems.",
+   "category": "AI ASIC / design services",
+   "ytd": 98.63,
+   "mcapB": 18.67,
+   "risk": "Customer/project concentration",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "down",
+    "rankRationale": "Crowding-sensitive alpha lens: AI-ASIC design-services is now consensus and GUC has rerated +116% YTD to ~$20B with zero new fundamental evidence since Jun 9. Residual alpha keeps shrinking; continue the prior down-drift. -1."
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "NOEJ.DE",
+ "asOf": "2026-07-09",
+ "company": "NORMA Group",
+ "currency": "EUR",
+ "priceToday": 17.86,
+ "pricePrev": 17.5,
+ "moveSincePrevPct": 2.06,
+ "ytdReturnPct": 21.33,
+ "marketCapUsdB": 0.58,
+ "quoteUrl": "https://finance.yahoo.com/quote/NOEJ.DE/",
+ "listings": [
+  {
+   "page": "latent-ai-nodes-strict",
+   "rank": 15,
+   "ticker": "NOEJ.DE",
+   "company": "NORMA Group",
+   "score": 72.0,
+   "thesis": "Engineered joining and fluid connectors could be used in liquid loops, compact manifolds and industrial automation",
+   "theme": "Fluid connectors/clamps",
+   "exchange": "Xetra",
+   "regionRank": "Non-US#8",
+   "ytd": 21.33,
+   "valuationNote": "Qualitative valuation setup; no reliable non-US quote snapshot returned by finance tool",
+   "priorCase": {
+    "caseDate": "2026-06-23",
+    "rankMove": "hold",
+    "rankRationale": "Strict latent-node thesis (engineered joining/fluid connectors usable in liquid loops and compact manifolds) is unchanged with no in-window evidence tying NORMA to AI liquid-cooling or data-center demand. Balance-sheet cleanup is old news. Hold at 16, 0."
+   }
+  }
+ ]
+}
