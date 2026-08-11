@@ -44,6 +44,14 @@ SPECIAL_LISTING_STATUS = {
         "listing_status": "Delisted June 6, 2025 after the JICC-04 / JIC Capital tender offer; no current public stock price exists.",
         "source": "https://www.shinko.co.jp/english/ir/faq/",
     },
+    "SKYT": {
+        "listing_status": "Standalone trading ceased after IonQ received final approval and scheduled the acquisition to close July 31, 2026; no current standalone stock price exists.",
+        "source": "https://investors.ionq.com/news/news-details/2026/IonQ-Receives-Regulatory-Approval-to-Complete-Acquisition-of-SkyWater-Technology/default.aspx",
+    },
+    "UBXN.SW": {
+        "listing_status": "Delisted from the SIX Swiss Exchange on May 18, 2026 following Advent International's acquisition; no current public stock price exists.",
+        "source": "https://www.webdisclosure.com/press-release/u-blox-ag-ubxn-cancellation-of-remaining-publicly-held-registered-shares-of-u-blox-holding-ag-and-delisting-from-the-six-swiss-exchange-as-of-18-may-2026-EOfYbwU2TcX",
+    },
 }
 
 CURRENCY_TO_USD_SYMBOL = {
@@ -163,6 +171,9 @@ SYMBOL_ALIASES = {
     "5274.TW": "5274.TWO",
     "ASMI.AS": "ASM.AS",
     "HPS.A.TO": "HPS-A.TO",
+    "PSTG": "P",
+    "UMIC.BR": "UMI.BR",
+    "042700.KQ": "042700.KS",
 }
 
 
@@ -584,7 +595,12 @@ def fetch_market_data(refs: list[TickerRef]) -> dict[str, dict[str, object]]:
     pending = []
     for ref in refs:
         cached_row = cached.get(ref.symbol)
-        if cached_row and cached_row.get("ok") and cached_row.get("as_of") == AS_OF:
+        if (
+            cached_row
+            and cached_row.get("ok")
+            and cached_row.get("as_of") == AS_OF
+            and ref.symbol not in SPECIAL_LISTING_STATUS
+        ):
             row = dict(cached_row)
             row.update({"display": ref.display, "company": ref.company, "pages": ref.page, "as_of": AS_OF})
             market_rows[ref.symbol] = row
@@ -1651,7 +1667,10 @@ def update_scaling(market_rows: dict[str, dict[str, object]]) -> None:
         current_rank = number(re.search(r'"rank": ([0-9]+)', block).group(1)) if re.search(r'"rank": ([0-9]+)', block) else None
         if not ticker:
             continue
-        md = market(yahoo_symbol(ticker.group(1)) or "", market_rows)
+        resolved_symbol = yahoo_symbol(ticker.group(1)) or ""
+        if resolved_symbol in SPECIAL_LISTING_STATUS:
+            continue
+        md = market(resolved_symbol, market_rows)
         cap_usd = number(md["market_cap_usd"]) if md else number(re.search(r'"marketCapUsd": ([0-9.]+)', block).group(1)) if re.search(r'"marketCapUsd": ([0-9.]+)', block) else None
         ytd = number(md["ytd_return_pct"]) if md else None
         penalty = price_rerating_penalty(ytd)

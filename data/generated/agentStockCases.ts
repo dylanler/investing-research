@@ -5223,9 +5223,9 @@ export const agentStockCases = {
       }
     ]
   },
-  "ai-passives-alpha:PSTG": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+  "ai-passives-alpha:P": {
+    "ticker": "P",
+    "company": "Everpure",
     "page": "ai-passives-alpha",
     "caseDate": "2026-07-09",
     "rankMove": "hold",
@@ -5235,8 +5235,8 @@ export const agentStockCases = {
     "bear": "2026-07-09: Hyperscaler design wins are lumpy; product-revenue cyclicality and competition could compress the data-path thesis.",
     "sources": [
       {
-        "url": "https://finance.yahoo.com/quote/PSTG/",
-        "label": "Yahoo Finance quote snapshot for PSTG"
+        "url": "https://finance.yahoo.com/quote/P/",
+        "label": "Yahoo Finance quote snapshot for P"
       },
       {
         "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds",
@@ -5252,7 +5252,7 @@ export const agentStockCases = {
       },
       {
         "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
-        "label": "Pure Storage Q3 FY26 results +16% YoY, guidance raised (Futurum)"
+        "label": "Everpure Q3 FY26 results +16% YoY, guidance raised (Futurum)"
       },
       {
         "url": "https://seekingalpha.com/news/4527900-pure-storage-raises-fy26-revenue-guidance-to-3_64b-and-signals-additional-hyperscaler",
@@ -5261,8 +5261,8 @@ export const agentStockCases = {
     ]
   },
   "ai-passives-alpha:PURESTORAGE": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+    "ticker": "P",
+    "company": "Everpure",
     "page": "ai-passives-alpha",
     "caseDate": "2026-07-09",
     "rankMove": "hold",
@@ -5272,8 +5272,8 @@ export const agentStockCases = {
     "bear": "2026-07-09: Hyperscaler design wins are lumpy; product-revenue cyclicality and competition could compress the data-path thesis.",
     "sources": [
       {
-        "url": "https://finance.yahoo.com/quote/PSTG/",
-        "label": "Yahoo Finance quote snapshot for PSTG"
+        "url": "https://finance.yahoo.com/quote/P/",
+        "label": "Yahoo Finance quote snapshot for P"
       },
       {
         "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds",
@@ -5289,7 +5289,7 @@ export const agentStockCases = {
       },
       {
         "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
-        "label": "Pure Storage Q3 FY26 results +16% YoY, guidance raised (Futurum)"
+        "label": "Everpure Q3 FY26 results +16% YoY, guidance raised (Futurum)"
       },
       {
         "url": "https://seekingalpha.com/news/4527900-pure-storage-raises-fy26-revenue-guidance-to-3_64b-and-signals-additional-hyperscaler",
@@ -10755,22 +10755,22 @@ export const agentStockCases = {
       }
     ]
   },
-  "bottleneck:PSTG": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+  "bottleneck:P": {
+    "ticker": "P",
+    "company": "Everpure",
     "page": "bottleneck",
     "caseDate": "2026-06-08",
     "rankMove": "up",
     "rankRationale": "Move up because the flash storage and data platform exposure is more relevant after the latest compute, power, packaging, HBM, and networking evidence, while the rank still leaves room for under-owned upside versus more crowded peers.",
-    "bull": "Pure Storage gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
-    "neutral": "Pure Storage holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
-    "bear": "Pure Storage loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
+    "bull": "Everpure gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
+    "neutral": "Everpure holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
+    "bear": "Everpure loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
     "sources": [
       {
         "url": "https://investor.purestorage.com/"
       },
       {
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSTG&owner=exclude&action=getcompany"
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=P&owner=exclude&action=getcompany"
       },
       {
         "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx"
@@ -10781,21 +10781,21 @@ export const agentStockCases = {
     ]
   },
   "bottleneck:PURESTORAGE": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+    "ticker": "P",
+    "company": "Everpure",
     "page": "bottleneck",
     "caseDate": "2026-06-08",
     "rankMove": "up",
     "rankRationale": "Move up because the flash storage and data platform exposure is more relevant after the latest compute, power, packaging, HBM, and networking evidence, while the rank still leaves room for under-owned upside versus more crowded peers.",
-    "bull": "Pure Storage gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
-    "neutral": "Pure Storage holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
-    "bear": "Pure Storage loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
+    "bull": "Everpure gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
+    "neutral": "Everpure holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
+    "bear": "Everpure loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
     "sources": [
       {
         "url": "https://investor.purestorage.com/"
       },
       {
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSTG&owner=exclude&action=getcompany"
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=P&owner=exclude&action=getcompany"
       },
       {
         "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx"
@@ -17649,9 +17649,9 @@ export const agentStockCases = {
       }
     ]
   },
-  "companies:PSTG": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+  "companies:P": {
+    "ticker": "P",
+    "company": "Everpure",
     "page": "companies",
     "caseDate": "2026-07-09",
     "rankMove": "up",
@@ -17661,8 +17661,8 @@ export const agentStockCases = {
     "bear": "2026-07-09: Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis.",
     "sources": [
       {
-        "url": "https://finance.yahoo.com/quote/PSTG/",
-        "label": "Yahoo Finance quote snapshot for PSTG"
+        "url": "https://finance.yahoo.com/quote/P/",
+        "label": "Yahoo Finance quote snapshot for P"
       },
       {
         "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds",
@@ -17678,7 +17678,7 @@ export const agentStockCases = {
       },
       {
         "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
-        "label": "Pure Storage Q3 FY26 results +16% YoY, guidance raised (Futurum)"
+        "label": "Everpure Q3 FY26 results +16% YoY, guidance raised (Futurum)"
       },
       {
         "url": "https://seekingalpha.com/news/4527900-pure-storage-raises-fy26-revenue-guidance-to-3_64b-and-signals-additional-hyperscaler",
@@ -17687,8 +17687,8 @@ export const agentStockCases = {
     ]
   },
   "companies:PURESTORAGE": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+    "ticker": "P",
+    "company": "Everpure",
     "page": "companies",
     "caseDate": "2026-07-09",
     "rankMove": "up",
@@ -17698,8 +17698,8 @@ export const agentStockCases = {
     "bear": "2026-07-09: Storage-cycle cyclicality and a rerating that may already price the data-gravity thesis.",
     "sources": [
       {
-        "url": "https://finance.yahoo.com/quote/PSTG/",
-        "label": "Yahoo Finance quote snapshot for PSTG"
+        "url": "https://finance.yahoo.com/quote/P/",
+        "label": "Yahoo Finance quote snapshot for P"
       },
       {
         "url": "https://www.datacenterknowledge.com/hyperscalers/hyperscaler-capex-snowballs-toward-700b-as-firms-stage-ai-capacity-builds",
@@ -17715,7 +17715,7 @@ export const agentStockCases = {
       },
       {
         "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
-        "label": "Pure Storage Q3 FY26 results +16% YoY, guidance raised (Futurum)"
+        "label": "Everpure Q3 FY26 results +16% YoY, guidance raised (Futurum)"
       },
       {
         "url": "https://seekingalpha.com/news/4527900-pure-storage-raises-fy26-revenue-guidance-to-3_64b-and-signals-additional-hyperscaler",
@@ -19847,7 +19847,7 @@ export const agentStockCases = {
     ]
   },
   "global:042700KQ": {
-    "ticker": "042700.KQ",
+    "ticker": "042700.KS",
     "company": "Hanmi Semiconductor",
     "page": "semiconductor-ai-nodes",
     "caseDate": "2026-06-08",
@@ -39565,22 +39565,22 @@ export const agentStockCases = {
       }
     ]
   },
-  "global:PSTG": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+  "global:P": {
+    "ticker": "P",
+    "company": "Everpure",
     "page": "companies",
     "caseDate": "2026-06-08",
     "rankMove": "up",
     "rankRationale": "Move up because the flash storage and data platform exposure is more relevant after the latest compute, power, packaging, HBM, and networking evidence, while the rank still leaves room for under-owned upside versus more crowded peers.",
-    "bull": "Pure Storage gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
-    "neutral": "Pure Storage holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
-    "bear": "Pure Storage loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
+    "bull": "Everpure gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
+    "neutral": "Everpure holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
+    "bear": "Everpure loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
     "sources": [
       {
         "url": "https://investor.purestorage.com/"
       },
       {
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSTG&owner=exclude&action=getcompany"
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=P&owner=exclude&action=getcompany"
       },
       {
         "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx"
@@ -39591,21 +39591,21 @@ export const agentStockCases = {
     ]
   },
   "global:PURESTORAGE": {
-    "ticker": "PSTG",
-    "company": "Pure Storage",
+    "ticker": "P",
+    "company": "Everpure",
     "page": "companies",
     "caseDate": "2026-06-08",
     "rankMove": "up",
     "rankRationale": "Move up because the flash storage and data platform exposure is more relevant after the latest compute, power, packaging, HBM, and networking evidence, while the rank still leaves room for under-owned upside versus more crowded peers.",
-    "bull": "Pure Storage gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
-    "neutral": "Pure Storage holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
-    "bear": "Pure Storage loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
+    "bull": "Everpure gains if agentic AI, context memory, checkpointing, retrieval, and training data pipelines lift demand for high-throughput storage.",
+    "neutral": "Everpure holds if AI storage grows but commodity SSD/HDD cycles and cloud optimization limit pricing power.",
+    "bear": "Everpure loses alpha if NAND/HDD pricing rolls over, customers defer capacity, or software layers capture the economics.",
     "sources": [
       {
         "url": "https://investor.purestorage.com/"
       },
       {
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSTG&owner=exclude&action=getcompany"
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=P&owner=exclude&action=getcompany"
       },
       {
         "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx"
@@ -44979,7 +44979,7 @@ export const agentStockCases = {
     ]
   },
   "global:UMICBR": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes",
     "caseDate": "2026-06-08",
@@ -45007,7 +45007,7 @@ export const agentStockCases = {
     ]
   },
   "global:UMICORE": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes",
     "caseDate": "2026-06-08",
@@ -60043,7 +60043,7 @@ export const agentStockCases = {
     ]
   },
   "latent-ai-nodes-strict:UMICBR": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes-strict",
     "caseDate": "2026-07-09",
@@ -60062,7 +60062,7 @@ export const agentStockCases = {
         "label": "Umicore Q1 2026 strong start (Umicore newsroom)"
       },
       {
-        "url": "https://finance.yahoo.com/quote/UMIC.BR/",
+        "url": "https://finance.yahoo.com/quote/UMI.BR/",
         "label": "July 2026 quote snapshot"
       },
       {
@@ -60070,8 +60070,8 @@ export const agentStockCases = {
         "label": "AI infrastructure methodology source"
       },
       {
-        "url": "https://finance.yahoo.com/quote/UMIC.BR/",
-        "label": "UMIC.BR quote / market data as of 2026-07-09"
+        "url": "https://finance.yahoo.com/quote/UMI.BR/",
+        "label": "UMI.BR quote / market data as of 2026-07-09"
       },
       {
         "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
@@ -60080,7 +60080,7 @@ export const agentStockCases = {
     ]
   },
   "latent-ai-nodes-strict:UMICORE": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes-strict",
     "caseDate": "2026-07-09",
@@ -60099,7 +60099,7 @@ export const agentStockCases = {
         "label": "Umicore Q1 2026 strong start (Umicore newsroom)"
       },
       {
-        "url": "https://finance.yahoo.com/quote/UMIC.BR/",
+        "url": "https://finance.yahoo.com/quote/UMI.BR/",
         "label": "July 2026 quote snapshot"
       },
       {
@@ -60107,8 +60107,8 @@ export const agentStockCases = {
         "label": "AI infrastructure methodology source"
       },
       {
-        "url": "https://finance.yahoo.com/quote/UMIC.BR/",
-        "label": "UMIC.BR quote / market data as of 2026-07-09"
+        "url": "https://finance.yahoo.com/quote/UMI.BR/",
+        "label": "UMI.BR quote / market data as of 2026-07-09"
       },
       {
         "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
@@ -71001,7 +71001,7 @@ export const agentStockCases = {
     ]
   },
   "latent-ai-nodes:UMICBR": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes",
     "caseDate": "2026-06-08",
@@ -71029,7 +71029,7 @@ export const agentStockCases = {
     ]
   },
   "latent-ai-nodes:UMICORE": {
-    "ticker": "UMIC.BR",
+    "ticker": "UMI.BR",
     "company": "Umicore",
     "page": "latent-ai-nodes",
     "caseDate": "2026-06-08",
@@ -80888,7 +80888,7 @@ export const agentStockCases = {
     ]
   },
   "semiconductor-ai-nodes:042700KQ": {
-    "ticker": "042700.KQ",
+    "ticker": "042700.KS",
     "company": "Hanmi Semiconductor",
     "page": "semiconductor-ai-nodes",
     "caseDate": "2026-07-09",
@@ -84255,7 +84255,7 @@ export const agentStockCases = {
     ]
   },
   "semiconductor-ai-nodes:HANMISEMICONDUCTOR": {
-    "ticker": "042700.KQ",
+    "ticker": "042700.KS",
     "company": "Hanmi Semiconductor",
     "page": "semiconductor-ai-nodes",
     "caseDate": "2026-07-09",

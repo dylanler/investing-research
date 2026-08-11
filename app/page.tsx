@@ -248,7 +248,7 @@ export default function Home() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Investment Research &middot; Published March 16, 2026 &middot; Updated July 9, 2026
+              Investment Research &middot; Published March 16, 2026 &middot; Updated August 10, 2026
             </div>
           </Reveal>
 

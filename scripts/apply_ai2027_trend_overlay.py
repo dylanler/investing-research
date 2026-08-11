@@ -75,6 +75,48 @@ TREND_SOURCES = [
         "url": "https://investor.tsmc.com/english/monthly-revenue/2026",
         "used_for": "Current foundry demand backdrop and advanced-node supply-chain validation.",
     },
+    {
+        "id": "TSMC-2026-Q2",
+        "title": "TSMC second-quarter 2026 results",
+        "url": "https://pr.tsmc.com/english/news/3326",
+        "used_for": "Advanced-node demand, revenue growth, and the near-term foundry outlook.",
+    },
+    {
+        "id": "MICRON-FY26-Q3",
+        "title": "Micron fiscal 2026 third-quarter results",
+        "url": "https://investors.micron.com/node/50671",
+        "used_for": "Current HBM and AI-memory demand, revenue acceleration, and HBM4E timing.",
+    },
+    {
+        "id": "META-2026-Q2",
+        "title": "Meta second-quarter 2026 results",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+        "used_for": "Current hyperscaler growth and evidence that AI investment is supporting core-platform results.",
+    },
+    {
+        "id": "VERTIV-2026-Q2",
+        "title": "Vertiv second-quarter 2026 results",
+        "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Second-Quarter-2026-with-Diluted-EPS-Growth-of-53-Adjusted-Diluted-EPS-Growth-of-60-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+        "used_for": "Current power-and-cooling demand, guidance, and data-center infrastructure intensity.",
+    },
+    {
+        "id": "MURATA-FY2025",
+        "title": "Murata fiscal-year 2025 results",
+        "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430/25q4-e-fls.ashx",
+        "used_for": "Current MLCC demand and AI-server/data-center component exposure.",
+    },
+    {
+        "id": "NVIDIA-HALOS-2026",
+        "title": "NVIDIA Halos physical-AI safety system",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Halos-for-Robotics-the-Industrys-First-Full-Stack-Safety-System-for-Physical-AI/default.aspx",
+        "used_for": "Current physical-AI platform development and robotics ecosystem validation.",
+    },
+    {
+        "id": "AGENTIC-CODING-TTC-2026",
+        "title": "Scaling Test-Time Compute for Agentic Coding",
+        "url": "https://arxiv.org/abs/2604.16529",
+        "used_for": "Evidence that structured rollout summaries, selection, and reuse improve agentic coding performance.",
+    },
 ]
 
 FACTOR_DEFINITIONS = {
