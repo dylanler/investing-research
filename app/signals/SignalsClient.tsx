@@ -17,6 +17,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 
 export interface SignalStock {
@@ -609,7 +610,7 @@ const UNIVERSE_TABLE_HEADERS = [
   { label: 'AI', hint: 'Internal 0-10 score for how directly the name benefits if AI model demand, inference demand, and cluster buildouts keep scaling.' },
   { label: 'Alpha', hint: 'Current alpha score after AI sensitivity, confidence tier, bottleneck category, market-cap room, YTD rerating room, risk, and Hormuz sensitivity are combined.' },
   { label: 'Cases', hint: 'Dated bull, neutral, and bear cases from the July 9, 2026 agent audit.' },
-  { label: 'Price', hint: 'Latest available public quote from the August 10, 2026 market-data refresh. Delisted or acquired names show no live quote.' },
+  { label: 'Price', hint: 'Latest available public quote from the August 11, 2026 market-data refresh. Delisted or acquired names show no live quote.' },
   { label: 'YTD', hint: 'Year-to-date share-price move from Yahoo Finance chart data where a current public listing exists.' },
   { label: '90d', hint: 'Trailing 90-day equity return. This shows what the market has already repriced, not the forward thesis by itself.' },
   { label: '180d', hint: 'Directional six-month view from the report. This is qualitative, not a price target.' },
@@ -680,6 +681,8 @@ function signalAlphaScore(stock: SignalStock) {
   const hormuz = parseNumber(stock.hormuz);
   const ytd = parseNumber(stock.ret_ytd);
   const cap = parseNumber(stock.market_cap);
+  const volatility90 = parseNumber(stock.vol_90) * 100;
+  const volatilityPenalty = volatility90 > 120 ? 8 : volatility90 > 90 ? 5 : volatility90 > 70 ? 2.5 : volatility90 > 55 ? 1 : 0;
   const category = SIGNAL_CATEGORY_ALPHA[stock.category] ?? 0;
   const raw =
     34 +
@@ -689,7 +692,8 @@ function signalAlphaScore(stock: SignalStock) {
     capAlphaBonus(cap) +
     ytdAlphaBonus(ytd) -
     risk * 1.4 -
-    hormuz * 0.7;
+    hormuz * 0.7 -
+    volatilityPenalty;
   return Math.max(1, Math.min(99, Number(raw.toFixed(1))));
 }
 
@@ -960,7 +964,7 @@ export default function SignalsClient({
               marginBottom: 'var(--space-sm)',
             }}
           >
-            Report VII &middot; Published April 9, 2026 &middot; Updated August 10, 2026
+            Report VII &middot; Published April 9, 2026 &middot; Updated August 11, 2026
           </div>
           <h1
             className="font-display"
@@ -1088,6 +1092,21 @@ export default function SignalsClient({
           </div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/cross-border-signals.webp"
+        alt="Global semiconductor and power supply-chain map with shipping routes, wafers, memory stacks, grid nodes, and volatility waves"
+        eyebrow="Cross-border risk map"
+        title="Supply-chain alpha now carries a macro toll."
+        thesis="Memory, packaging, optics, and equipment still lead on AI sensitivity, but the portfolio now charges more for geopolitical concentration, energy exposure, volatility, and crowded price action. Position sizing matters as much as ordinal rank."
+        signals={[
+          { label: 'Alpha leaders', value: 'BESI · Coherent · TSMC · Amkor · Credo' },
+          { label: 'Macro regime', value: 'Elevated rates + Middle East energy uncertainty' },
+          { label: 'Portfolio repair', value: 'No inactive listings; Risk 7 totals 100%' },
+        ]}
+        caption="OpenAI image-model illustration. Signals combine August 11 market data with current monetary, energy, geopolitical, and company-specific evidence."
+      />
 
       <CurrentThesisAudit
         compact
@@ -1653,7 +1672,7 @@ export default function SignalsClient({
 	                        />
 	                      </td>
 	                      <td style={{ padding: '14px 12px', color: 'var(--ink-700)', fontWeight: 600 }}>
-	                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the August 10, 2026 market-data refresh.`}>
+	                        <HoverExplain hint={stock.listing_status || `Latest price for ${stock.company} from the August 11, 2026 market-data refresh.`}>
                           {stock.price ? formatRawPrice(parseNumber(stock.price)) : 'N/A'}
                         </HoverExplain>
                       </td>

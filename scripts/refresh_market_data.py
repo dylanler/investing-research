@@ -16,6 +16,7 @@ import json
 import math
 import os
 import re
+import statistics
 import time
 import urllib.error
 import urllib.parse
@@ -528,6 +529,8 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
         "price": "",
         "previous_close": "",
         "ytd_return_pct": "",
+        "return_90d_pct": "",
+        "realized_volatility_90d_pct": "",
         "market_cap_currency": "",
         "market_cap_local": "",
         "market_cap_usd": "",
@@ -550,12 +553,35 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
         data = request_json(str(result["chart_url"]))
         chart = data["chart"]["result"][0]
         meta = chart["meta"]
-        closes = [value for value in chart["indicators"]["quote"][0]["close"] if value is not None]
+        raw_closes = chart["indicators"]["quote"][0]["close"]
+        timestamps = chart.get("timestamp") or list(range(len(raw_closes)))
+        price_history = [
+            (stamp, float(value))
+            for stamp, value in zip(timestamps, raw_closes)
+            if value is not None
+        ]
+        closes = [value for _, value in price_history]
         if not closes:
             raise ValueError("no closes")
         price = float(meta.get("regularMarketPrice") or closes[-1])
         first_close = float(closes[0])
         ytd = ((price / first_close) - 1) * 100 if first_close else math.nan
+        trailing_closes = closes[-64:]
+        return_90d = (
+            ((price / trailing_closes[0]) - 1) * 100
+            if len(trailing_closes) >= 2 and trailing_closes[0]
+            else math.nan
+        )
+        daily_log_returns = [
+            math.log(current / previous)
+            for previous, current in zip(trailing_closes, trailing_closes[1:])
+            if previous > 0 and current > 0
+        ]
+        realized_volatility_90d = (
+            statistics.pstdev(daily_log_returns) * math.sqrt(252) * 100
+            if len(daily_log_returns) >= 10
+            else math.nan
+        )
         currency = str(meta.get("currency") or "")
         market_time = meta.get("regularMarketTime")
         market_time_iso = (
@@ -577,6 +603,10 @@ def fetch_symbol(symbol: str, fx_rates: dict[str, float]) -> dict[str, object]:
                 "price": round(price, 6),
                 "previous_close": round(float(meta.get("chartPreviousClose") or first_close), 6),
                 "ytd_return_pct": round(ytd, 2) if not math.isnan(ytd) else "",
+                "return_90d_pct": round(return_90d, 2) if not math.isnan(return_90d) else "",
+                "realized_volatility_90d_pct": round(realized_volatility_90d, 2)
+                if not math.isnan(realized_volatility_90d)
+                else "",
                 "market_cap_currency": market_cap_currency or currency,
                 "market_cap_local": round(market_cap_local, 2) if market_cap_local else "",
                 "market_cap_usd": round(market_cap_usd, 2) if market_cap_usd else "",
@@ -789,7 +819,10 @@ def update_signals(market_rows: dict[str, dict[str, object]]) -> None:
                 continue
             stock["price"] = md["price"]
             stock["ret_ytd"] = number(md["ytd_return_pct"])
-            stock["ret_90"] = stock.get("ret_90", "")
+            return_90d = number(md.get("return_90d_pct", ""))
+            volatility_90d = number(md.get("realized_volatility_90d_pct", ""))
+            stock["ret_90"] = round(return_90d / 100, 6) if return_90d is not None else ""
+            stock["vol_90"] = round(volatility_90d / 100, 6) if volatility_90d is not None else ""
             stock["market_cap"] = md["market_cap_usd"]
             stock["market_data_as_of"] = AS_OF
             stock["market_data_source"] = md["quote_url"]
@@ -798,7 +831,7 @@ def update_signals(market_rows: dict[str, dict[str, object]]) -> None:
         if csv_path.exists() and data:
             existing_rows = read_csv(csv_path)
             fields = list(existing_rows[0].keys()) if existing_rows else []
-            for field in ["ret_ytd", "market_data_as_of", "market_data_source"]:
+            for field in ["ret_ytd", "ret_90", "vol_90", "market_data_as_of", "market_data_source"]:
                 if field not in fields:
                     fields.append(field)
             csv_rows = []
@@ -823,6 +856,8 @@ def update_carbon(market_rows: dict[str, dict[str, object]]) -> None:
         "latest_currency",
         "market_cap_usd_b",
         "ytd_return_pct",
+        "return_90d_pct",
+        "realized_volatility_90d_pct",
         "market_data_as_of",
         "market_data_source",
     ]
@@ -1827,6 +1862,8 @@ def write_market_artifacts(refs: list[TickerRef], market_rows: dict[str, dict[st
         "price",
         "previous_close",
         "ytd_return_pct",
+        "return_90d_pct",
+        "realized_volatility_90d_pct",
         "market_cap_currency",
         "market_cap_local",
         "market_cap_usd",
@@ -1846,7 +1883,7 @@ def write_market_artifacts(refs: list[TickerRef], market_rows: dict[str, dict[st
                 "source_id": "YF-CHART",
                 "title": "Yahoo Finance chart endpoint",
                 "url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=ytd&interval=1d",
-                "used_for": "Latest price, trading currency, latest market timestamp, YTD return calculation.",
+                "used_for": "Latest price, trading currency, latest market timestamp, YTD return, trailing 90-day return, and annualized 90-day realized volatility.",
             },
             {
                 "source_id": "YF-QUOTE",

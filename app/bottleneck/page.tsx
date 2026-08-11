@@ -13,6 +13,7 @@ import USChinaRace from '@/components/sections/USChinaRace';
 import InvestmentImplications from '@/components/sections/InvestmentImplications';
 import BottleneckSectorBaskets from '@/components/sections/BottleneckSectorBaskets';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 
 export default function Home() {
   return (
@@ -28,6 +29,20 @@ export default function Home() {
       </div>
       <Navbar />
       <HeroSection />
+      <EditorialCover
+        priority
+        image="/covers/ai-infrastructure.webp"
+        alt="AI infrastructure cutaway showing compute racks, cooling loops, electrical substations, advanced chips, and optical fiber"
+        eyebrow="Bottleneck transmission map"
+        title="The constraint has moved outside the GPU."
+        thesis="Accelerators still matter, but marginal capacity is increasingly set by grid interconnection, transformers, cooling, memory, packaging, and optical networking. Elevated rates reward suppliers converting scarcity into backlog and cash—not merely promising future exposure."
+        signals={[
+          { label: 'Demand', value: 'Hyperscaler capex and AI usage still accelerating' },
+          { label: 'Constraint', value: 'Power equipment, HBM, packaging, optical attach' },
+          { label: 'Macro risk', value: 'Energy shocks + 3.50–3.75% policy rate' },
+        ]}
+        caption="OpenAI image-model illustration; current regime cross-checked against Microsoft FY2026 Q3, IEA’s July electricity update, and the July 29 FOMC statement."
+      />
       <CurrentThesisAudit
         compact
         focus="For the bottleneck framework, the current pass keeps the original supply-constrained thesis but shifts near-term emphasis toward power interconnection, HBM, advanced packaging, optics/CPO, and verification/test capacity."
@@ -70,7 +85,7 @@ export default function Home() {
           </p>
           <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>
             This is analysis, not financial advice. All projections are scenario-based estimates.
-            Public market data refreshed August 10, 2026; operating metrics reflect the latest cited public filings and industry reports available in the page.
+            Public market data refreshed August 11, 2026; operating metrics reflect the latest cited public filings and industry reports available in the page.
           </p>
         </div>
       </footer>

@@ -13,6 +13,7 @@ import { companies100, bucketSummary, portfolios, sourceLibrary, overviewStats }
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import StockCaseHover from '@/components/research/StockCaseHover';
+import EditorialCover from '@/components/research/EditorialCover';
 
 const BUCKET_COLORS: Record<string, string> = {
   'Power, cooling & electrical': 'oklch(55% 0.12 25)',
@@ -162,7 +163,7 @@ export default function CompaniesPage() {
         <div className="max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={heroInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <span style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-400)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-              Investment Research &middot; Published March 23, 2026 &middot; Updated August 10, 2026
+              Investment Research &middot; Published March 23, 2026 &middot; Updated August 11, 2026
             </span>
           </motion.div>
           <motion.h1
@@ -183,7 +184,7 @@ export default function CompaniesPage() {
             {[
               { val: 100, suffix: '', label: 'Companies', sub: '41 US, 59 non-US' },
               { val: 10, suffix: '', label: 'Sectors', sub: 'Full supply chain' },
-              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated June 8' },
+              { val: overviewStats.medianYtd, suffix: '%', label: 'Median YTD', sub: 'Updated August 11' },
               { val: medianCurrentAlpha, suffix: '', label: 'Median Alpha', sub: 'Current audit score' },
             ].map((s, i) => (
               <div key={s.label} style={{ padding: 'var(--space-lg)', borderRight: i < 3 ? '1px solid var(--ink-100)' : 'none' }}>
@@ -197,6 +198,21 @@ export default function CompaniesPage() {
           </motion.div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/company-atlas.webp"
+        alt="Editorial atlas connecting data centers to cooling, switchgear, optical modules, pumps, materials, and semiconductor tools"
+        eyebrow="100-company capital map"
+        title="Own the enabling system, not the slogan."
+        thesis="The ranking now gives more weight to backlog, cash conversion, balance-sheet resilience, and direct bottleneck exposure. It penalizes long-duration optionality, microcap liquidity, and stocks whose 2026 rerating already discounts near-perfect execution."
+        signals={[
+          { label: 'Current leaders', value: 'Munters · Camtek · Tripod · Amkor · Legrand' },
+          { label: 'Positive tilt', value: 'Cooling · test · packaging · electrical' },
+          { label: 'Penalty', value: 'Crowding · leverage · weak cash conversion' },
+        ]}
+        caption="OpenAI image-model illustration. Ranking regime incorporates August 11 market data, the July FOMC stance, current company results, and cross-sectional volatility."
+      />
 
       <CurrentThesisAudit
         compact
@@ -225,7 +241,7 @@ export default function CompaniesPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={chartInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}
             style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', padding: 'var(--space-lg)', borderRadius: 2 }}>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)', marginBottom: 'var(--space-md)' }}>
-              Source: Yahoo Finance chart data refreshed August 10, 2026. Median YTD return by bucket.
+              Source: Yahoo Finance chart data refreshed August 11, 2026. Median YTD return by bucket.
             </div>
             <ResponsiveContainer width="100%" height={360}>
               <BarChart data={barData} layout="vertical" margin={{ left: 80, right: 20, top: 5, bottom: 5 }}>
@@ -565,7 +581,7 @@ export default function CompaniesPage() {
                 &ldquo;The June 2026 tape says HBM (+237.4% median), storage/data (+200.0%), and advanced packaging (+164.0%) have already been discovered. The current alpha audit therefore keeps those theses, but moves more weight toward less-rerated power, cooling, and selected packaging bottlenecks.&rdquo;
               </p>
               <cite style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontStyle: 'normal', display: 'block', marginTop: 'var(--space-sm)' }}>
-                Source: Yahoo Finance chart data refreshed August 10, 2026
+                Source: Yahoo Finance chart data refreshed August 11, 2026
               </cite>
             </blockquote>
           </Reveal>
@@ -594,7 +610,7 @@ export default function CompaniesPage() {
       <footer style={{ borderTop: '1px solid var(--ink-100)', padding: 'var(--space-2xl) var(--space-lg)' }}>
         <div className="max-w-5xl mx-auto">
           <p style={{ fontSize: 'var(--text-sm)', color: 'var(--ink-500)' }}>
-            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed August 10, 2026 where a current public listing exists. Past performance does not guarantee future results.
+            This is investment analysis, not personalized financial advice. YTD returns and latest prices come from Yahoo Finance chart data refreshed August 11, 2026 where a current public listing exists. Past performance does not guarantee future results.
           </p>
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: 'var(--space-lg)' }}>
             <Link href="/" style={{ fontSize: 'var(--text-sm)', color: 'var(--accent)', textDecoration: 'none' }}>&larr; Home</Link>

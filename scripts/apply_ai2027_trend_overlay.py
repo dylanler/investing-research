@@ -32,6 +32,15 @@ AS_OF = os.environ.get("MARKET_DATA_AS_OF") or json.loads(
 )["asOf"]
 AS_OF_LABEL = f"{AS_OF[:4]}-{AS_OF[5:7]}-{AS_OF[8:10]}"
 
+MARKET_PAYLOAD = json.loads(
+    (ROOT / "public" / "reports" / "market-data" / "market_data_latest.json").read_text()
+)
+MARKET_BY_SYMBOL = {
+    str(row.get("symbol", "")).upper(): row
+    for row in MARKET_PAYLOAD.get("rows", [])
+    if isinstance(row, dict) and row.get("symbol")
+}
+
 TREND_SOURCES = [
     {
         "id": "AI2027-COMPUTE",
@@ -116,6 +125,24 @@ TREND_SOURCES = [
         "title": "Scaling Test-Time Compute for Agentic Coding",
         "url": "https://arxiv.org/abs/2604.16529",
         "used_for": "Evidence that structured rollout summaries, selection, and reuse improve agentic coding performance.",
+    },
+    {
+        "id": "FOMC-2026-07-29",
+        "title": "Federal Reserve July 2026 FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+        "used_for": "Current policy-rate regime, elevated inflation, solid capital investment, and Middle East uncertainty.",
+    },
+    {
+        "id": "IEA-ELECTRICITY-MIDYEAR-2026",
+        "title": "IEA Electricity Mid-Year Update 2026",
+        "url": "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary",
+        "used_for": "Current electricity-demand growth, data-center load, and energy-price shock context.",
+    },
+    {
+        "id": "BLS-CPI-2026-06",
+        "title": "U.S. CPI June 2026",
+        "url": "https://www.bls.gov/cpi/news.htm",
+        "used_for": "Latest available inflation context before the July CPI release scheduled for August 12.",
     },
 ]
 
@@ -377,6 +404,12 @@ def cap_usd_b(row: dict[str, object], *fields: str) -> float | None:
     return None
 
 
+def market_volatility(ticker: str) -> float | None:
+    resolved = refresh.yahoo_symbol(normalize_symbol(ticker)) or normalize_symbol(ticker)
+    row = MARKET_BY_SYMBOL.get(resolved.upper())
+    return num(row.get("realized_volatility_90d_pct", "")) if row else None
+
+
 def trend_overlay(
     row: dict[str, object],
     ticker: str,
@@ -431,12 +464,25 @@ def trend_overlay(
         elif ytd > 50:
             score -= 2.0
 
+    volatility = market_volatility(ticker)
+    if volatility is not None:
+        if volatility > 120:
+            score -= 6.0
+        elif volatility > 90:
+            score -= 4.0
+        elif volatility > 70:
+            score -= 2.0
+        elif volatility > 55:
+            score -= 1.0
+        if market_cap_b is not None and market_cap_b < 0.75 and volatility > 90:
+            score -= 2.0
+
     score = max(-25.0, min(10.0, score))
     ordered = ",".join(sorted(tags))
     if ordered:
-        note = f"AI 2027/current overlay: {ordered}; bonus {score:+.1f} after cap/YTD discipline."
+        note = f"AI 2027/current overlay: {ordered}; bonus {score:+.1f} after cap/YTD/volatility discipline."
     else:
-        note = f"AI 2027/current overlay: no direct factor; bonus {score:+.1f} after cap/YTD discipline."
+        note = f"AI 2027/current overlay: no direct factor; bonus {score:+.1f} after cap/YTD/volatility discipline."
     return score, ordered, note
 
 
@@ -888,7 +934,7 @@ function ai2027RoboticsDelta(company: HumanoidAlphaCompany) {
 def write_overlay_methodology() -> None:
     out = {
         "asOf": AS_OF,
-        "method": "Price-adjusted base alpha plus AI 2027/current-trend bonus. Positive factors are capped at +10 and then reduced for large-cap consensus and extreme YTD rerating.",
+        "method": "Price-adjusted base alpha plus AI 2027/current-trend bonus. Positive factors are capped at +10 and then reduced for large-cap consensus, extreme YTD rerating, and elevated 90-day realized volatility.",
         "factors": FACTOR_DEFINITIONS,
         "sources": TREND_SOURCES,
     }

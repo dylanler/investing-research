@@ -19,6 +19,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   CategorySummaryRow,
@@ -1757,9 +1758,24 @@ export default function SemiconductorAlphaCpoClient({
     >
       <TopBar />
       <Hero data={data} />
+      <EditorialCover
+        priority
+        image="/covers/semiconductor-stack.webp"
+        alt="Exploded semiconductor package integrating optical engines, high-bandwidth memory, chiplets, bonding layers, and fiber"
+        eyebrow="CPO value migration"
+        title="Optics is becoming part of the package."
+        thesis="NVIDIA’s multi-year optics agreements validate rising optical content, but residual alpha is uneven. Equipment, inspection, masks, and scaled optical suppliers outrank pre-revenue stories unless customer orders and manufacturing yields are visible."
+        signals={[
+          { label: 'Leaders', value: 'Veeco · Coherent · MACOM · Camtek · Semtech' },
+          { label: 'Catalyst', value: '200G/lane and co-packaged optical adoption' },
+          { label: 'Risk', value: 'Yield ramps · customer concentration · valuation' },
+        ]}
+        caption="OpenAI image-model illustration. Current ranking blends CPO directness, August 11 rerating, market-cap room, and execution evidence."
+      />
+
       <CurrentThesisAudit
         compact
-        focus="The CPO thesis is strengthening: NVIDIA's current results and multi-year optics agreements validate rising optical content around AI clusters. The August 10 ranking favors picks-and-shovels with better residual upside: Veeco, Coherent, Camtek, Semtech, and Photronics lead, while pre-scale optical stories retain explicit execution and customer-order risk."
+        focus="The CPO thesis is strengthening: NVIDIA's current results and multi-year optics agreements validate rising optical content around AI clusters. The August 11 volatility-aware ranking keeps Veeco and Coherent first, promotes MACOM to third, and moves the most volatile pre-scale optical stories lower unless customer orders, yields, and manufacturing execution are visible."
       />
       <FusionMethod data={data} />
       <ChartsSection data={data} />

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import ResearchSiteNav from '@/components/layout/ResearchSiteNav';
+import EditorialCover from '@/components/research/EditorialCover';
 
 function subscribeToClientMount() {
   return () => {};
@@ -248,7 +249,7 @@ export default function Home() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Investment Research &middot; Published March 16, 2026 &middot; Updated August 10, 2026
+              Investment Research &middot; Published March 16, 2026 &middot; Updated August 11, 2026
             </div>
           </Reveal>
 
@@ -315,6 +316,21 @@ export default function Home() {
           </motion.div>
         </motion.div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/ai-infrastructure.webp"
+        alt="Cutaway illustration connecting an AI compute hall to advanced packaging, liquid cooling, optical fiber, and electrical infrastructure"
+        eyebrow="August 2026 regime map"
+        title="Compute growth is colliding with physical limits."
+        thesis="Demand remains unusually strong, but higher-for-longer rates, energy shocks, and completed reratings make selectivity more important than raw AI beta. The research now favors scarce, profitable infrastructure with visible backlog and pricing power."
+        signals={[
+          { label: 'Monetary regime', value: 'Fed 3.50–3.75%; inflation still elevated' },
+          { label: 'Physical demand', value: 'AI data-center power use rose 50% in 2025' },
+          { label: 'Portfolio posture', value: 'Favor power, cooling, HBM, packaging, test' },
+        ]}
+        caption="Visual thesis map generated with OpenAI’s image model. Macro framing: Federal Reserve July 29 statement and IEA Key Questions on Energy and AI, April 2026."
+      />
 
       {/* ─── ANIMATED STATS ─── */}
       <section ref={statsRef} style={{

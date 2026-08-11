@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import {
   crowdAudit,
@@ -584,6 +585,21 @@ export default function RoboticsPage() {
           </div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/robotics-components.webp"
+        alt="Exploded humanoid robot hand and arm showing motors, harmonic drives, bearings, sensors, and edge-compute modules"
+        eyebrow="Humanoid bill of materials"
+        title="The component stack is investable before the robot is."
+        thesis="Physical-AI platform progress is real, but mass-market unit economics remain early. The ranking favors direct actuation, sensing, motion-control, and deployed-service exposure while penalizing microcap liquidity, pre-revenue narratives, and mega-caps where robotics is immaterial."
+        signals={[
+          { label: 'Leaders', value: 'Realbotix · Serve · Arbe · Mkango · Acuvi' },
+          { label: 'Near-term proof', value: 'Fleet hours · design wins · actuator orders' },
+          { label: 'Main risk', value: 'Dilution + commercialization timing' },
+        ]}
+        caption="OpenAI image-model illustration. Thesis cross-checked against NVIDIA’s current physical-AI stack and company deployment evidence; rankings include August 11 volatility."
+      />
 
       <CurrentThesisAudit
         compact

@@ -20,6 +20,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   LatentAiNodesData,
@@ -2440,6 +2441,21 @@ export default function LatentAiNodesClient({ data }: { data: LatentAiNodesData 
     >
       <TopBar />
       <Hero data={data} />
+      <EditorialCover
+        priority
+        image="/covers/latent-systems.webp"
+        alt="Branching network of industrial pumps, sensors, grid equipment, verification gates, and compute nodes"
+        eyebrow="Discovery map"
+        title="Adjacency is an option, not evidence."
+        thesis="The latent-node screen still finds overlooked thermal, power, motion, safety, and measurement assets. This pass raises the evidence hurdle: direct customer proof and cash conversion matter more under elevated rates, while purely narrative AI adjacency receives a larger discount."
+        signals={[
+          { label: 'Screen leaders', value: 'Brady · Twin Disc · PWR Holdings' },
+          { label: 'Favored assets', value: 'Thermal · fluid · safety · measurement' },
+          { label: 'Required proof', value: 'Orders · disclosed customers · margin conversion' },
+        ]}
+        caption="OpenAI image-model illustration. The screen combines latent fit with August 11 market data, evidence confidence, liquidity, and macro sensitivity."
+      />
+
       <CurrentThesisAudit
         compact
         focus="The latent-node framework remains useful as a discovery screen, not proof of AI revenue. Current hyperscaler, power-and-cooling, and component results support searching in thermal, power, safety, motion, and measurement assets, but names without disclosed AI customers retain a high evidence discount. The August 10 rerank therefore combines latent fit with current price, market-cap room, rerating, and evidence quality."

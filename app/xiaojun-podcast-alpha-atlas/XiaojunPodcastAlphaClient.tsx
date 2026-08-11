@@ -18,6 +18,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 
 type SourceDepth = 'transcript-derived' | 'notes-derived';
 
@@ -1248,6 +1249,21 @@ export default function XiaojunPodcastAlphaClient({ data }: { data: PodcastData 
           </motion.div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/podcast-alpha.webp"
+        alt="Editorial microphone branching into agentic coding, mathematical verification, robotics, compute infrastructure, and security themes"
+        eyebrow="Ideas-to-assets atlas"
+        title="Narrative is a lead indicator—not a position size."
+        thesis="The podcast atlas remains useful for detecting emerging technical themes, especially agents, verification, physical AI, and sovereign infrastructure. Investment scores now distinguish technically important ideas from public companies with near-term revenue, liquidity, and valuation support."
+        signals={[
+          { label: 'Strong themes', value: 'Agents · verification · physical AI · security' },
+          { label: 'Evidence ladder', value: 'Research → product → customer → cash flow' },
+          { label: 'Macro filter', value: 'Duration and funding risk matter again' },
+        ]}
+        caption="OpenAI image-model illustration. Theme scores are aligned to current agentic-coding, physical-AI, infrastructure, and macro evidence."
+      />
 
       <CurrentThesisAudit
         compact

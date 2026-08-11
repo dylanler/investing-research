@@ -21,6 +21,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   HumanGoodsRow,
@@ -1521,7 +1522,7 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 18 }}>
                   <TonePill tone="human">Carbon</TonePill>
                   <TonePill tone="silicon">Silicon</TonePill>
-	                  <TonePill tone="neutral">Published April 20, 2026 · Updated August 10, 2026</TonePill>
+	                  <TonePill tone="neutral">Published April 20, 2026 · Updated August 11, 2026</TonePill>
                 </div>
 
                 <div
@@ -1692,6 +1693,21 @@ export default function CarbonVsSiliconClient({ data }: { data: ReportData }) {
           </div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/carbon-silicon.webp"
+        alt="Still life contrasting food, medicine, and retail goods with AI accelerators, memory, cooling, power, and fiber"
+        eyebrow="Capital-allocation split"
+        title="Defensive consumption meets infrastructure duration."
+        thesis="Silicon still has the stronger structural growth rate, but elevated policy rates and energy volatility increase the value of cash-generative carbon hedges. The ranking keeps direct AI bottlenecks on top while treating healthcare, staples, and retail as volatility ballast rather than growth substitutes."
+        signals={[
+          { label: 'Silicon leaders', value: 'Broadcom · NVIDIA · TSMC · SK hynix' },
+          { label: 'Carbon anchors', value: 'Novartis · Nestlé · Walmart · Lilly' },
+          { label: 'Macro balance', value: 'Growth scarcity vs. rate and energy risk' },
+        ]}
+        caption="OpenAI image-model illustration. Allocation framing reflects the July FOMC stance, current AI capex, energy-price uncertainty, and August 11 market data."
+      />
 
       <CurrentThesisAudit
         compact

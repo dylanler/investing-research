@@ -26,6 +26,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   AlphaNodeRow,
@@ -2067,9 +2068,24 @@ export default function SemiconductorAiNodesClient({ data }: { data: Semiconduct
     <ReportShell>
       <TopBar />
       <Hero data={data} />
+      <EditorialCover
+        priority
+        image="/covers/semiconductor-stack.webp"
+        alt="Exploded advanced semiconductor package with HBM stacks, chiplets, hybrid bonding, inspection, optical engines, and fiber"
+        eyebrow="Advanced-node value map"
+        title="Packaging complexity is compounding faster than wafer count."
+        thesis="TSMC, Micron, and NVIDIA results keep HBM, advanced packaging, test, and connectivity on the critical path. The refreshed order favors equipment and outsourced packaging with visible demand while applying a sharper crowding penalty to high-multiple interconnect winners."
+        signals={[
+          { label: 'Leaders', value: 'Hanmi · Amkor · Camtek · BESI · Credo' },
+          { label: 'Demand proof', value: 'TSMC growth + record AI-memory demand' },
+          { label: 'Risk', value: 'Export controls · capex cycle · crowded multiples' },
+        ]}
+        caption="OpenAI image-model illustration. Ranking reflects August 11 prices plus current TSMC, Micron, NVIDIA, and packaging-chain evidence."
+      />
+
       <CurrentThesisAudit
         compact
-        focus="The semiconductor bottleneck thesis remains supported by TSMC's second-quarter growth, Micron's record AI-memory results, and NVIDIA's continued data-center expansion. The August 10 rerank now puts Hanmi Semiconductor first under its correct KOSPI ticker, followed by Camtek and Amkor; Credo and Astera remain high-quality beneficiaries but rank below the less-consensus packaging, inspection, and test chain after crowding and YTD rerating are applied."
+        focus="The semiconductor bottleneck thesis remains supported by TSMC's second-quarter growth, Micron's record AI-memory results, and NVIDIA's continued data-center expansion. The August 11 volatility-aware rerank keeps Hanmi Semiconductor first, lifts Amkor above Camtek, and places BESI above Credo; the more volatile connectivity winners now rank below scaled packaging, inspection, and test exposure."
       />
       <ThesisSection data={data} />
       <NetworkMap nodes={data.alpha} edges={data.networkEdges} centrality={data.centrality} />

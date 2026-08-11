@@ -18,6 +18,7 @@ import {
 } from 'recharts';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
+import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
 import type {
   BottleneckCategoryRow,
@@ -1246,7 +1247,7 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
                     marginBottom: 'var(--space-md)',
                   }}
                 >
-                  Final Ranking • Published April 22, 2026 • Updated August 10, 2026 • {data.generatedDateLabel}
+                  Final Ranking • Published April 22, 2026 • Updated August 11, 2026 • {data.generatedDateLabel}
                 </div>
                 <h1
                   className="font-display"
@@ -1424,6 +1425,21 @@ export default function AiPassivesAlphaClient({ data }: { data: ReportData }) {
           </div>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/ai-passives.webp"
+        alt="Macro view of MLCC capacitors, inductors, transformers, copper busbars, and server power-delivery equipment"
+        eyebrow="Power-delivery anatomy"
+        title="Tiny components, system-level pricing power."
+        thesis="AI-server density continues to raise capacitor, magnetic, busbar, and conversion content. The thesis is intact, but the ranking now separates component scarcity from momentum: profitable suppliers with direct server exposure outrank names whose multiple already assumes a flawless shortage cycle."
+        signals={[
+          { label: 'Leaders', value: 'Sumida · TT Electronics · CTS' },
+          { label: 'Demand proof', value: 'Murata AI-server and data-center component growth' },
+          { label: 'Risk control', value: 'Explicit penalty for triple-digit rerating' },
+        ]}
+        caption="OpenAI image-model illustration. Current evidence includes Murata FY2025 results, hyperscaler capex, and August 11 price/volatility data."
+      />
 
       <CurrentThesisAudit
         compact

@@ -9,6 +9,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import CurrentThesisAudit from '@/components/research/CurrentThesisAudit';
 import StockCaseHover from '@/components/research/StockCaseHover';
+import EditorialCover from '@/components/research/EditorialCover';
 import {
   claims,
   bottomLines,
@@ -316,7 +317,7 @@ export default function ScalingPage() {
               letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
               marginBottom: 'var(--space-xl)',
             }}>
-              Report IV &middot; Published March 27, 2026 &middot; Updated August 10, 2026
+              Report IV &middot; Published March 27, 2026 &middot; Updated August 11, 2026
             </div>
           </Reveal>
 
@@ -355,7 +356,7 @@ export default function ScalingPage() {
                 fontWeight: 700,
                 marginBottom: 'var(--space-md)',
               }}>
-                April 2026 Update
+                August 2026 Update
               </div>
               <ul style={{
                 margin: 0,
@@ -382,6 +383,21 @@ export default function ScalingPage() {
           </Reveal>
         </div>
       </section>
+
+      <EditorialCover
+        priority
+        image="/covers/latent-systems.webp"
+        alt="Branching verified-agent workflow connected to industrial sensors, power nodes, pumps, and compute infrastructure"
+        eyebrow="Inference architecture"
+        title="Structure is the scaling primitive."
+        thesis="Recent agentic-coding work supports parallel rollouts, selection, summarization, and reuse in verifier-rich tasks. The investable implication is more inference, memory, networking, observability, and power—but the strongest evidence remains in coding and formal verification, not open-ended autonomy."
+        signals={[
+          { label: 'Evidence', value: 'Structured rollouts beat naive longer reasoning' },
+          { label: 'Beneficiaries', value: 'Power · packaging · memory · observability' },
+          { label: 'Boundary', value: 'Verifier-poor domains remain unproven' },
+        ]}
+        caption="OpenAI image-model illustration. Thesis updated with Scaling Test-Time Compute for Agentic Coding and the August 2026 survey of test-time scaling regimes."
+      />
 
       <CurrentThesisAudit
         compact
