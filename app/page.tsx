@@ -451,11 +451,28 @@ export default function Home() {
               </ParallaxLayer>
             </Reveal>
 
-            <Reveal direction="right" delay={0.25}>
+            <Reveal direction="right" delay={0.22}>
+              <ParallaxLayer speed={1.15}>
+                <TiltCard
+                  href="/automated-lab-equipment"
+                  label="Report IV"
+                  title="Automated Lab Equipment Alpha"
+                  subtitle="Periodic Neon made AI × XRD a tape story. 100 public instrument, automation, and materials-lab names ranked by residual 6–12 month alpha — not by quality, and not on a Bruker partnership that does not exist."
+                  accentColor="oklch(52% 0.14 255)"
+                  stats={[
+                    { label: 'Companies', value: '100' },
+                    { label: 'Top pick', value: 'TECN.SW' },
+                    { label: 'Catalyst', value: '15 Sep' },
+                  ]}
+                />
+              </ParallaxLayer>
+            </Reveal>
+
+            <Reveal direction="left" delay={0.25}>
               <ParallaxLayer speed={1.2}>
                 <TiltCard
                   href="/scaling"
-                  label="Report IV"
+                  label="Report V"
                   title="Structured Test-Time Scaling"
                   subtitle="Why structure, verification, and recursion matter more than thinking longer. 100 companies, 16 scenarios, 5 novel RLM methods."
                   accentColor="oklch(55% 0.12 25)"
@@ -472,7 +489,7 @@ export default function Home() {
               <ParallaxLayer speed={1.3}>
                 <TiltCard
                   href="/signals"
-                  label="Report V"
+                  label="Report VI"
                   title="X Signals, AI Supply Chains, and Hormuz"
                   subtitle="A 50-stock reconstruction of what Zephyr and Jukan have been discussing, with risk-ranked portfolios, geopolitical scenarios, and inference-trend impact."
                   accentColor="oklch(62% 0.16 215)"
@@ -489,7 +506,7 @@ export default function Home() {
               <ParallaxLayer speed={1.4}>
                 <TiltCard
                   href="/carbon-vs-silicon"
-                  label="Report VI"
+                  label="Report VII"
                   title="Carbon vs Silicon Consumption"
                   subtitle="A source-backed comparison between official 2025 U.S. household demand and a modeled AI-cluster procurement basket, with charts, tables, source appendix, and stock proxies."
                   accentColor="oklch(62% 0.16 60)"
@@ -506,7 +523,7 @@ export default function Home() {
               <ParallaxLayer speed={1.5}>
                 <TiltCard
                   href="/ai-passives-alpha"
-                  label="Report VII"
+                  label="Report VIII"
                   title="AI Passives Residual Alpha"
                   subtitle="A native passives and power alpha report with lead-time bottlenecks, crowding-aware rankings, interactive tables, and source-backed charts."
                   accentColor="oklch(58% 0.14 200)"
@@ -523,7 +540,7 @@ export default function Home() {
               <ParallaxLayer speed={1.6}>
                 <TiltCard
                   href="/blog/semiconductor-alpha-cpo"
-                  label="Report VIII"
+                  label="Report IX"
                   title="Unified Semiconductor + CPO Alpha"
                   subtitle="A source-backed fusion of the CPO semiconductor and broad semiconductor-alpha bundles, with one 120-company ranking, disagreement diagnostics, relationship graphs, and source trails."
                   accentColor="oklch(56% 0.15 335)"
@@ -540,7 +557,7 @@ export default function Home() {
               <ParallaxLayer speed={1.7}>
                 <TiltCard
                   href="/xiaojun-podcast-alpha-atlas"
-                  label="Report IX"
+                  label="Report X"
                   title="Zhang Xiaojun Podcast Alpha Atlas"
                   subtitle="An interactive corpus map of 162 Chinese-language podcast episodes, translated summaries, hidden alpha lenses, charts, mindmaps, and transcript links."
                   accentColor="oklch(62% 0.16 175)"
@@ -557,7 +574,7 @@ export default function Home() {
               <ParallaxLayer speed={1.8}>
                 <TiltCard
                   href="/blog/semiconductor-ai-nodes"
-                  label="Report X"
+                  label="Report XI"
                   title="Semiconductor AI Nodes & Connections"
                   subtitle="A source-backed network report with 100 ranked AI semiconductor nodes, 2,422 relationship edges, depth-five paths, centrality maps, cash-flow caveats, and source trails."
                   accentColor="oklch(56% 0.15 255)"
@@ -574,7 +591,7 @@ export default function Home() {
               <ParallaxLayer speed={1.9}>
                 <TiltCard
                   href="/blog/latent-ai-nodes"
-                  label="Report XI"
+                  label="Report XII"
                   title="Latent AI Nodes & Connections"
                   subtitle="A 100-company latent AI screen across power, grid, thermal, water, sensors, connectivity, automation, edge, and advanced materials, with source-linked rankings and node maps."
                   accentColor="oklch(58% 0.14 145)"
@@ -647,7 +664,7 @@ export default function Home() {
           <Reveal>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-2xl)' }}>
               <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>How to Navigate</div>
-              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Eleven Reports, One Thesis</h2>
+              <h2 className="font-display" style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--ink-950)' }}>Twelve Reports, One Thesis</h2>
             </div>
           </Reveal>
           <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
@@ -655,7 +672,8 @@ export default function Home() {
               { icon: '\u26A1', title: 'Start with the Bottleneck', desc: 'Report I maps the physical constraints — EUV tools, power grids, memory fabs — that limit how fast AI can scale. This is the macro framework.' },
               { icon: '\uD83C\uDFED', title: 'Then the Supply Chain', desc: 'Report II zooms into 100 public companies across 10 sectors. Filter by sector, sort by current alpha, and explore bull/bear theses for each name.' },
               { icon: '\uD83E\uDD16', title: 'Then Robotics', desc: 'Report III asks: can robots learn from human video instead of expensive teleop? 10 methods scored, 5 labs profiled, 50 companies ranked.' },
-              { icon: '\uD83E\uDDE0', title: 'Then Scaling Intelligence', desc: 'Report IV examines whether AI can get smarter by structuring its own thinking. 5 novel RLM methods, 16 scenarios, 100 companies.' },
+              { icon: '\uD83E\uDDEB', title: 'Then Lab Equipment', desc: 'Report IV asks which public instrument and automation names still have 6–12 month alpha after Neon. 100 live tickers, ranked by residual alpha, with a private-company gap list.' },
+              { icon: '\uD83E\uDDE0', title: 'Then Scaling Intelligence', desc: 'Report V examines whether AI can get smarter by structuring its own thinking. 5 novel RLM methods, 16 scenarios, 100 companies.' },
             ].map((card, i) => (
               <Reveal key={card.title} delay={i * 0.08}>
                 <div style={{ display: 'flex', gap: 'var(--space-md)', alignItems: 'flex-start' }}>

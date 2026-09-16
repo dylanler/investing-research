@@ -9,6 +9,7 @@ const REPORT_LINKS = [
   { href: '/bottleneck', label: 'Bottleneck' },
   { href: '/companies', label: 'Companies' },
   { href: '/robotics', label: 'Robotics' },
+  { href: '/automated-lab-equipment', label: 'Lab Equipment' },
   { href: '/scaling', label: 'Scaling' },
   { href: '/signals', label: 'Signals' },
   { href: '/carbon-vs-silicon', label: 'Carbon vs Silicon' },

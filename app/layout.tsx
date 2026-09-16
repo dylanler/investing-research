@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AI Compute Research | Investment Analysis 2026-2040",
-  description: "Eleven research reports on AI semiconductor bottlenecks, robotics, inference scaling, cross-border equity signals, CPO alpha, latent AI company nodes, and podcast-derived alpha maps. Interactive analysis with charts, game theory, and portfolio ideas.",
+  description: "Twelve research reports on AI semiconductor bottlenecks, robotics, automated lab equipment, inference scaling, cross-border equity signals, CPO alpha, latent AI company nodes, and podcast-derived alpha maps. Interactive analysis with charts, game theory, and portfolio ideas.",
 };
 
 export default function RootLayout({
