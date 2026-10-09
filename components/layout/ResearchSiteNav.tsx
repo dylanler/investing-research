@@ -10,6 +10,7 @@ const REPORT_LINKS = [
   { href: '/companies', label: 'Companies' },
   { href: '/robotics', label: 'Robotics' },
   { href: '/automated-lab-equipment', label: 'Lab Equipment' },
+  { href: '/private-startup-tiers', label: 'Startup Tiers' },
   { href: '/scaling', label: 'Scaling' },
   { href: '/signals', label: 'Signals' },
   { href: '/carbon-vs-silicon', label: 'Carbon vs Silicon' },

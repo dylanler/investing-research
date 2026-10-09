@@ -1,0 +1,661 @@
+[
+  {
+    "name": "ElevenLabs",
+    "aliases": ["Eleven Labs", "ElevenLabs Inc."],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026; $300M employee tender at $22B closed Sep 2026; CEO says building 'toward IPO' but no filing.",
+    "statusSource": "https://elevenlabs.io/blog/tender-22bn",
+    "category": "Voice",
+    "founded": 2022,
+    "hq": "London / New York",
+    "website": "https://elevenlabs.io",
+    "oneLiner": "AI audio research and product company: text-to-speech, dubbing, music, and the ElevenAgents conversational voice-agent platform for enterprises.",
+    "founders": "Mati Staniszewski (CEO; ex-Palantir deployment strategist) and Piotr Dabkowski (CTO; ex-Google), childhood friends from Poland.",
+    "talentSignals": [
+      "Team grew from ~400 (Feb 2026, per Staniszewski LinkedIn) to 530 across 50+ countries (May 2026) to 800+ (Sep 2026) https://elevenlabs.io/blog/500m-arr-and-new-investors , https://www.thecaptable.co.uk/article/elevenlabs-doubles-its-valuation-to-22bn-in-a-300m-employee-tender-led-by-wellington-and-t-rowe-price",
+      "Three employee tenders in ~12 months ($100M at $6.6B Sep 2025, $100M May 2026, $300M at $22B Sep 2026) used for retention https://www.musicbusinessworldwide.com/elevenlabs-valuation-doubles-to-22b-four-times-that-of-ai-music-rival-suno/",
+      "Very high revenue per employee: >$600M ARR with ~800 staff"
+    ],
+    "headcount": {"value": 800, "date": "2026-09", "source": "https://www.thecaptable.co.uk/article/elevenlabs-doubles-its-valuation-to-22bn-in-a-300m-employee-tender-led-by-wellington-and-t-rowe-price"},
+    "rounds": [
+      {"date": "2025-01", "stage": "Series C", "amountUsdM": 180, "postValuationUsdB": 3.3, "leads": null, "source": "https://www.reuters.com/technology/elevenlabs-raises-500-million-11-billion-valuation-wsj-reports-2026-02-04/"},
+      {"date": "2025-09", "stage": "Employee tender (secondary)", "amountUsdM": 100, "postValuationUsdB": 6.6, "leads": "Sequoia, a16z, ICONIQ", "source": "https://pitchbook.com/news/articles/ai-voice-startup-elevenlabs-valued-at-11b-with-500m-round"},
+      {"date": "2026-02", "stage": "Series D", "amountUsdM": 500, "postValuationUsdB": 11, "leads": "Sequoia Capital (a16z, ICONIQ super pro-rata; later closes added BlackRock, Wellington, NVentures, Santander; total round >$550M reported)", "source": "https://elevenlabs.io/blog/series-d"},
+      {"date": "2026-09", "stage": "Employee tender (secondary)", "amountUsdM": 300, "postValuationUsdB": 22, "leads": "Wellington, T. Rowe Price", "source": "https://elevenlabs.io/blog/tender-22bn"}
+    ],
+    "latestValuationUsdB": 22,
+    "latestValuationDate": "2026-09",
+    "latestValuationSource": "https://elevenlabs.io/blog/tender-22bn",
+    "arr": {"valueUsdM": 600, "date": "2026-09", "kind": "ARR", "source": "https://www.revenuememo.com/p/elevenlabs-funding"},
+    "arrHistory": [
+      {"date": "2025-12", "valueUsdM": 330, "source": "https://elevenlabs.io/blog/series-d"},
+      {"date": "2026-04", "valueUsdM": 500, "source": "https://elevenlabs.io/blog/500m-arr-and-new-investors"},
+      {"date": "2026-09", "valueUsdM": 600, "source": "https://www.revenuememo.com/p/elevenlabs-funding"}
+    ],
+    "research": "Proprietary frontier speech models (Eleven v3, Eleven v4 / v4 Turbo released Sep 2026, ranked #1 on Artificial Analysis per company), music model (Eleven Music), STT. Mostly product/model releases, few academic papers or open-source models.",
+    "researchSources": ["https://elevenlabs.io/blog/tender-22bn", "https://x.com/mati/status/2104573408860115051"],
+    "xPosts": [
+      {"url": "https://x.com/mati/status/2104573408860115051", "author": "mati", "date": "2026-09-28", "likes": 228, "views": 22260, "summary": "Mati announces Eleven v4 and v4 Turbo TTS models (#1 quality, ~100ms TTFB)."},
+      {"url": "https://x.com/ElevenLabs/status/2105332239316000886", "author": "ElevenLabs", "date": "2026-09-30", "likes": 59, "views": 19335, "summary": "Company post linking the $22B tender blog."}
+    ],
+    "xPresence": "@ElevenLabs ~204.5K followers; CEO @mati ~33.4K followers (fxtwitter, Oct 2026). Launch posts get tens of thousands of views; rarely 1M-view virality from founders.",
+    "traction": "ARR >$330M end-2025, >$500M by Apr 2026, >$600M by Sep 2026. ElevenAgents handles 15M+ conversations/week (3x since Feb 2026), ElevenAgents ARR >3x since Feb; customers include Stripe, Deutsche Telekom, Revolut, Square, DoorDash's SevenRooms, governments of Ukraine and Greece https://elevenlabs.io/blog/tender-22bn . Expanding offices (India summit, Singapore, Netherlands, Belgium) Oct 2026.",
+    "compute": "NVIDIA is an investor (NVentures, May 2026) and long-time partner; no disclosed dedicated cluster deal.",
+    "moat": "Category leader in AI voice with brand, enterprise distribution, huge voice library/data flywheel and full-stack (models + agent platform).",
+    "risks": "Competition from frontier labs (OpenAI, Google) and cheaper voice models (Cartesia, Pika Speech claims 9x cheaper); margin pressure (CEO accepts squeezed margins); 37x ARR valuation.",
+    "proposedScores": {"talent": 7, "research": 6, "posting": 6, "traction": 9, "moat": 7},
+    "confidence": "high",
+    "notes": "Company gave two figures for end-2025 ARR ($330M in Feb, $350M in May). $600M Sep 2026 ARR figure attributed to Staniszewski via RevenueMemo/TechCrunch interview, not a company blog."
+  },
+  {
+    "name": "Midjourney",
+    "aliases": ["Midjourney, Inc."],
+    "status": "private",
+    "statusNote": "Independent, self-funded (no outside investors) as of Oct 2026; reportedly considering first VC raise for hardware.",
+    "statusSource": "https://winbuzzer.com/2026/03/31/midjourney-revenue-above-200-million-hardware-push-xcxwbn/",
+    "category": "Image/video gen",
+    "founded": 2021,
+    "hq": "South San Francisco",
+    "website": "https://www.midjourney.com",
+    "oneLiner": "Bootstrapped AI research lab making the Midjourney image (V8.x) and video (V1) generation models and creative tools, plus a medical-hardware effort.",
+    "founders": "David Holz (founder/CEO; co-founder of Leap Motion, previously NASA and Max Planck).",
+    "talentSignals": [
+      "Tiny team: company site describes ~60 people; PitchBook lists 107 https://aistackcurrent.com/companies/midjourney/ , https://pitchbook.com/profiles/company/509453-02",
+      "Rebuilt V8 from scratch moving TPUs->NVIDIA GPUs/PyTorch https://www.creativeainews.com/articles/midjourney-v8-alpha-analysis/",
+      "Hired ex-Apple Vision Pro engineer to lead hardware (2024); acquired Co-Star (Jul 2026, per PitchBook) https://pitchbook.com/profiles/company/509453-02"
+    ],
+    "headcount": {"value": 60, "date": "2026", "source": "https://aistackcurrent.com/companies/midjourney/"},
+    "rounds": [],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {"valueUsdM": 200, "date": "2023", "kind": "FY revenue", "source": "https://texxr.com/1166141/midjourney-reports-revenue-surpasses-200m"},
+    "arrHistory": [
+      {"date": "2023", "valueUsdM": 200, "source": "https://winbuzzer.com/2026/03/31/midjourney-revenue-above-200-million-hardware-push-xcxwbn/"}
+    ],
+    "research": "Proprietary image models V7 (2025), V8 alpha (Mar 2026), V8.1 (Apr 2026), V8.2 (Jul 2026) + V8.2 edit model (Aug 2026); V1 video model (Jun 2025). No papers or open-source.",
+    "researchSources": ["https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version", "https://updates.midjourney.com/edit-model-for-v8/"],
+    "xPosts": [
+      {"url": "https://x.com/midjourney/status/2080781271043911807", "author": "midjourney", "date": "2026-07-24", "likes": 1836, "views": 550239, "summary": "V8.2 released and made default model."},
+      {"url": "https://x.com/DavidSHolz/status/2093119067125424173", "author": "DavidSHolz", "date": "2026-08-27", "likes": 752, "views": 118069, "summary": "Holz announces testing of V8.2 edit model (instruction edits, inpainting, outpainting)."}
+    ],
+    "xPresence": "@midjourney ~462K followers; @DavidSHolz ~121K followers. Model launches routinely get 500K+ views.",
+    "traction": "Holz told The Information (Mar 2026) revenue 'significantly surpassed' $200M in 2023 and has gone up since, despite declining web traffic https://texxr.com/1166141/midjourney-reports-revenue-surpasses-200m . Profitable. Meta licensed Midjourney tech (Aug 2025). Third-party 2026 revenue estimates ($300M-$600M) are unverified.",
+    "compute": "Moved V8 training to NVIDIA GPUs; building new server cluster for Relax mode (not disclosed).",
+    "moat": "Strong aesthetic brand and loyal paying community; profitable with no dilution; but model quality is contestable by Google/OpenAI/BFL.",
+    "risks": "Falling web traffic, intense competition from Nano Banana/GPT Image, copyright suits, pivot to hardware may need capital.",
+    "proposedScores": {"talent": 6, "research": 3, "posting": 7, "traction": 7.5, "moat": 6},
+    "confidence": "medium",
+    "notes": "No valuation exists (never raised). Current revenue/ARR not disclosed; only the 2023 >$200M figure is company-sourced. Headcount estimates conflict (40-107)."
+  },
+  {
+    "name": "Runway",
+    "aliases": ["Runway AI, Inc.", "RunwayML"],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026 (Series E Feb 2026).",
+    "statusSource": "https://runway.com/news/runway-series-e-funding",
+    "category": "Video gen / world models",
+    "founded": 2018,
+    "hq": "New York",
+    "website": "https://runway.com",
+    "oneLiner": "AI video generation and 'world model' company (Gen-4.5, GWM-1, Solaris interface world model, Praxis-1 robot model) selling creative tools and APIs to studios and enterprises.",
+    "founders": "Cristobal Valenzuela, Anastasis Germanidis (co-CEOs) and Alejandro Matamala-Ortiz; met at NYU ITP. Runway co-created the original Stable Diffusion release (2022).",
+    "talentSignals": [
+      "Research team ships papers/models frequently: Solaris arXiv (Sep 2026), Praxis-1 open-weight world action model (Sep 2026) https://arxiv.org/html/2609.00776v1 , https://runway.com/research/introducing-praxis-1",
+      "Co-CEO structure (Valenzuela + Germanidis) https://www.pymnts.com/news/artificial-intelligence/2026/runway-ai-hits-200-million-revenue-and-expands-robotics-capabilities/"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2025-04", "stage": "Series D", "amountUsdM": 308, "postValuationUsdB": 3.3, "leads": "General Atlantic", "source": "https://news.crunchbase.com/venture/gen-ai-video-startup-unicorn-runway-seriese-raise/"},
+      {"date": "2026-02", "stage": "Series E", "amountUsdM": 315, "postValuationUsdB": 5.3, "leads": "General Atlantic (with NVIDIA, Fidelity, Adobe Ventures, AMD Ventures, AllianceBernstein)", "source": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"}
+    ],
+    "latestValuationUsdB": 5.3,
+    "latestValuationDate": "2026-02",
+    "latestValuationSource": "https://www.bloomberg.com/news/articles/2026-02-10/ai-video-startup-runway-valued-at-5-3-billion-with-new-funding",
+    "arr": {"valueUsdM": 200, "date": "2026-09", "kind": "ARR", "source": "https://www.bloomberg.com/news/articles/2026-09-08/ai-startup-runway-hits-200-million-in-annual-recurring-revenue"},
+    "arrHistory": [
+      {"date": "2026-04", "valueUsdM": 100, "source": "https://www.pymnts.com/news/artificial-intelligence/2026/runway-ai-hits-200-million-revenue-and-expands-robotics-capabilities/"},
+      {"date": "2026-09", "valueUsdM": 200, "source": "https://www.bloomberg.com/news/articles/2026-09-08/ai-startup-runway-hits-200-million-in-annual-recurring-revenue"}
+    ],
+    "research": "Gen-4.5 video model, GWM-1 general world model, Solaris interface world model (arXiv 2609.00776, Aug/Sep 2026), Praxis-1 open-weight world-action model for robots (Sep 2026), Project Continuum OS research (Oct 2026). Co-authored original Stable Diffusion (2022).",
+    "researchSources": ["https://runway.com/news/research/introducing-solaris", "https://arxiv.org/html/2609.00776v1", "https://runway.com/research/introducing-praxis-1"],
+    "xPosts": [
+      {"url": "https://x.com/c_valenzuelab/status/2105690854417641826", "author": "c_valenzuelab", "date": "2026-10-01", "likes": 106, "views": 9468, "summary": "Valenzuela previews Project Continuum, an OS built around real-time video interfaces."}
+    ],
+    "xPresence": "Co-CEO @c_valenzuelab ~51K followers; @runwayml account large (count not fetched). Founder posts typically 10K-100K views.",
+    "traction": "ARR doubled from ~$100M (Apr 2026) to $200M (Sep 2026); Valenzuela: 'In the last 30 days alone, we've added more ARR than we did in all of 2025' https://www.linkedin.com/posts/cvalenzuelab_weve-added-more-arr-in-2026-than-in-all-activity-7505379715759792128-Ij_D . Enterprise customers incl. Dolce & Gabbana, Palo Alto Networks (Sacra).",
+    "compute": "NVIDIA and AMD Ventures are Series E investors; no disclosed dedicated cluster.",
+    "moat": "Early-mover brand with filmmakers/enterprises, own model stack, expanding into robotics/world models; moderate defensibility vs. Google Veo / ByteDance Seedance.",
+    "risks": "Hyperscaler video models (Veo, Sora) and cheap Chinese models commoditize generation; heavy compute needs.",
+    "proposedScores": {"talent": 7, "research": 7, "posting": 5.5, "traction": 7.5, "moat": 6},
+    "confidence": "high",
+    "notes": "A Feb 2026 Promptyze article claiming Runway acquired Pika is unverified and contradicted by later Pika/Semafor reporting; treated as false. Headcount not found."
+  },
+  {
+    "name": "Luma AI",
+    "aliases": ["Luma", "Luma Labs"],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026; HUMAIN (Saudi PIF) is lead investor of Nov 2025 Series C.",
+    "statusSource": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain.html",
+    "category": "Video gen / world models",
+    "founded": 2021,
+    "hq": "Palo Alto / San Francisco",
+    "website": "https://lumalabs.ai",
+    "oneLiner": "Multimodal 'world model' lab making Ray3.x video and Uni-1 image models plus Luma Agents creative platform and APIs; launched an open physical-AI (robotics) lab.",
+    "founders": "Amit Jain (CEO; ex-Apple computer vision/Vision Pro), Alex Yu (Berkeley NeRF/Plenoxels researcher), Alberto Taiuti.",
+    "talentSignals": [
+      "Launched Open Physical AI (OPAL) Lab June 2026 https://lumalabs.ai/news/luma-open-physical-ai-lab",
+      "Seedtable lists ~486 employees (unverified) https://seedtable.com/companies/luma-ai/funding-rounds/series-c-2025-11"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2024-01", "stage": "Series B", "amountUsdM": 43, "postValuationUsdB": null, "leads": "Andreessen Horowitz", "source": "https://tracxn.com/d/companies/lumaai/__g_f6bQIRiSQl-GddgIMR_AjFydRNMlrKgVvcfzRyeUc/funding-and-investors"},
+      {"date": "2024-12", "stage": "Series B-II", "amountUsdM": 90, "postValuationUsdB": null, "leads": "Amazon", "source": "https://tracxn.com/d/companies/lumaai/__g_f6bQIRiSQl-GddgIMR_AjFydRNMlrKgVvcfzRyeUc/funding-and-investors"},
+      {"date": "2025-11", "stage": "Series C", "amountUsdM": 900, "postValuationUsdB": 4, "leads": "HUMAIN (with AMD Ventures, a16z, Amplify, Matrix)", "source": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain.html"}
+    ],
+    "latestValuationUsdB": 4,
+    "latestValuationDate": "2025-11",
+    "latestValuationSource": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain.html",
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Ray3 ('first reasoning video model', Sep 2025), Uni-1 unified understanding+generation model (Mar 2026), Uni-1.1 API (May 2026), Ray3.2 (Jun 2026); founders' NeRF/3D research lineage; OPAL open-science robotics lab.",
+    "researchSources": ["https://lumalabs.ai/news/introducing-ray-3-2", "https://gigazine.net/gsc_news/en/20260309-uni-1-luma-ai/", "https://lumalabs.ai/news/luma-open-physical-ai-lab"],
+    "xPosts": [
+      {"url": "https://x.com/LumaLabsAI/status/2036107826498544110", "author": "LumaLabsAI", "date": "2026-03-23", "likes": 4751, "views": 6513163, "summary": "Uni-1 launch video: 'a new kind of model that thinks and generates pixels simultaneously'."}
+    ],
+    "xPresence": "@LumaLabsAI ~197K followers; CEO @gravicle active. Launch videos reach multi-million views.",
+    "traction": "Models used by studios, ad agencies, Adobe, AWS; 30M+ Dream Machine users (company-reported, cited by Clink). Revenue not disclosed; CB Insights cites $8M FY2024; third-party 2026 estimates (~$80M) unverified.",
+    "compute": "Anchor customer of HUMAIN's planned 2-GW 'Project Halo' supercluster in Saudi Arabia; AMD strategic investor.",
+    "moat": "Large capital + sovereign compute access; own model stack; moderate.",
+    "risks": "Unclear revenue; dependence on Saudi partner; competition from Veo/Seedance/Runway; report it integrates third-party models (Ideogram).",
+    "proposedScores": {"talent": 7, "research": 6.5, "posting": 7, "traction": 5, "moat": 6.5},
+    "confidence": "medium",
+    "notes": "Forbes (Aug 2026) reportedly said a March 2026 round valued Luma at $9B; unconfirmed by Luma or others, so $4B kept as latest confirmed. ARR and headcount not found from reliable sources."
+  },
+  {
+    "name": "Pika",
+    "aliases": ["Pika Labs", "Pika Labs, Inc."],
+    "status": "private",
+    "statusNote": "Independent as of Sep 2026 (Semafor); Runway-acquisition claims are unverified; Meta talks (2025) never confirmed.",
+    "statusSource": "https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation",
+    "category": "Video gen",
+    "founded": 2023,
+    "hq": "Palo Alto",
+    "website": "https://pika.art",
+    "oneLiner": "Consumer AI video/creative platform (Pikaffects, AI Selves avatars, PikaStream real-time agent video, Pika Speech TTS) relaunched Sep 2026 as a multi-model creative app hub.",
+    "founders": "Demi Guo (CEO; Harvard math/CS, Stanford AI PhD dropout) and Chenlin Meng (Stanford AI PhD dropout; diffusion researcher, co-author of DDIM/SDEdit).",
+    "talentSignals": [
+      "Fundamental Research Team published PikaStream1.0 architecture (9B DiT, single-H100 real-time) Apr 2026 https://pika.art/blog/introducing-real-time-video-chat",
+      "Employees ~105 (Feb 2026, LinkedIn estimate) up from 48 https://getlatka.com/companies/pika"
+    ],
+    "headcount": {"value": 105, "date": "2026-02", "source": "https://getlatka.com/companies/pika"},
+    "rounds": [
+      {"date": "2023-11", "stage": "Seed + Series A", "amountUsdM": 55, "postValuationUsdB": null, "leads": "Lightspeed", "source": "https://techcrunch.com/2023/11/28/pika-labs-which-is-building-ai-tools-to-generate-and-edit-videos-raises-55m/"},
+      {"date": "2024-06", "stage": "Series B", "amountUsdM": 80, "postValuationUsdB": 0.47, "leads": "Spark Capital", "source": "https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation"}
+    ],
+    "latestValuationUsdB": 0.47,
+    "latestValuationDate": "2024-06",
+    "latestValuationSource": "https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation",
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "PikaStream1.0 real-time video model with technical write-up (Apr 2026); Pika Speech 3B flow-matching TTS (Aug 2026); Pika Experiments open-code agent prototypes (May 2026); Pika-Skills GitHub repo.",
+    "researchSources": ["https://pika.art/blog/introducing-real-time-video-chat", "https://experiment.pika.art/blog/pika-speech", "https://pika.art/blog/pika-experiments"],
+    "xPosts": [
+      {"url": "https://x.com/pika_labs/status/2039804583862796345", "author": "pika_labs", "date": "2026-04-02", "likes": 5272, "views": 2376788, "summary": "Launch of PikaStream1.0 video-chat skill for any AI agent."}
+    ],
+    "xPresence": "@pika_labs ~151K followers; CEO @demi_guo_ active. Viral launches (2M+ views).",
+    "traction": "Consumer app; new Pika platform with 25+ apps launched Sep 2026, largely reselling third-party models (Seedance, GPT Image) at low markup. Semafor describes Pika as 'playing catch up'. Revenue not disclosed (Latka estimate $7.6M 2024, unverified).",
+    "compute": null,
+    "moat": "Weak: consumer brand and virality; increasingly an aggregator of other labs' models.",
+    "risks": "No priced round since 2024; outcompeted by better-funded Runway/Higgsfield/hyperscalers; strategy pivots (AI Selves, agents, aggregator).",
+    "proposedScores": {"talent": 6.5, "research": 5, "posting": 7, "traction": 3.5, "moat": 3},
+    "confidence": "medium",
+    "notes": "Series B valuation reported as $470M (Bloomberg/Semafor) or up to $700M (Business Insider); some aggregators cite ~$900M in 2026 without reliable source. ARR not found."
+  },
+  {
+    "name": "Krea",
+    "aliases": ["Krea AI", "Krea.ai, Inc."],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026; no new round disclosed since Apr 2025 Series B.",
+    "statusSource": "https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license",
+    "category": "Image/video gen (creative suite)",
+    "founded": 2022,
+    "hq": "San Francisco",
+    "website": "https://www.krea.ai",
+    "oneLiner": "AI creative suite aggregating image/video/3D models with real-time tools, now with its own from-scratch Krea 2 image model (open weights).",
+    "founders": "Victor Perez (CEO) and Diego Rodriguez Prado; Spanish founders who declined postgrad fellowships; HF0 residency alumni.",
+    "talentSignals": [
+      "~17-person author list on Krea 2 technical report; 'nearly half the company' spent 6-7 months on Krea 2 https://www.krea.ai/blog/krea-2-technical-report , https://www.listennotes.com/podcasts/thursdai-the-top/thursdai-may-14-tml-UlrYeonxgjR/",
+      "Hugging Face org lists 28 team members https://huggingface.co/krea"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2024", "stage": "Series A", "amountUsdM": 33, "postValuationUsdB": null, "leads": "Andreessen Horowitz", "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/"},
+      {"date": "2025-04", "stage": "Series B", "amountUsdM": 47, "postValuationUsdB": 0.5, "leads": "Bain Capital Ventures", "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/"}
+    ],
+    "latestValuationUsdB": 0.5,
+    "latestValuationDate": "2025-04",
+    "latestValuationSource": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/",
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Krea 2 (12B DiT) foundation image model trained from scratch, May 2026; open weights (Raw + Turbo) June 2026 with 59-min technical report; 200K+ HF downloads by Jul 2026; top-10 on Artificial Analysis text-to-image; krea-realtime-video 14B open model. Krea 1 was co-developed with Black Forest Labs.",
+    "researchSources": ["https://www.krea.ai/blog/krea-2-technical-report", "https://huggingface.co/krea/Krea-2-Turbo", "https://huggingface.co/krea"],
+    "xPosts": [
+      {"url": "https://x.com/krea_ai/status/2074523145592303771", "author": "krea_ai", "date": "2026-07-07", "likes": 335, "views": 29180, "summary": "Krea 2 crossed 200K downloads on Hugging Face."}
+    ],
+    "xPresence": "@krea_ai ~119K followers; CEO @viccpoes ~8K followers. Product posts typically 5K-30K views.",
+    "traction": "30M+ users across 191 countries (company site, Jun 2026) https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license ; 20M+ users and enterprise use at Pixar, LEGO, Samsung, Perplexity (a16z, Apr 2025). Photoshop/After Effects plugins (2026). Revenue undisclosed.",
+    "compute": null,
+    "moat": "Thin-to-moderate: UX/workflow layer over many models plus own open model; easily copied.",
+    "risks": "Aggregator margins squeezed by model providers; competition from Freepik, Adobe, Higgsfield; small funding vs. labs.",
+    "proposedScores": {"talent": 5.5, "research": 5.5, "posting": 5, "traction": 4.5, "moat": 3},
+    "confidence": "medium",
+    "notes": "ARR not found from a reliable source (an ~$8M ARR Mar 2025 figure comes from a low-quality blog). Series A date approximate."
+  },
+  {
+    "name": "Hedra",
+    "aliases": ["Hedra Inc.", "Hedra Labs"],
+    "status": "private",
+    "statusNote": "Private; last disclosed round is May 2025 Series A; no 2026 round found.",
+    "statusSource": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/",
+    "category": "Video gen (AI characters)",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://www.hedra.com",
+    "oneLiner": "Character-focused generative video platform (Character-3 omnimodal model) for lifelike talking avatars used by creators and marketers.",
+    "founders": "Michael Lingelbach (CEO; Stanford PhD student of Fei-Fei Li and Jiajun Wu, former stage actor). Head of research Hongwei Yi (ex-PhD student of Michael Black); research lead Wei Li (ex-Google Brain, PaLM-2/T5).",
+    "talentSignals": [
+      "Pitch deck lists Hongwei Yi (Michael Black PhD student) and Wei Li (ex-Google Brain/Gemini, PaLM-2, T5) https://africa.businessinsider.com/news/the-ai-video-startup-behind-those-viral-baby-podcast-memes-just-raised-dollar32m-from/3gd4mym",
+      "Team ~20 at May 2025, planned to triple https://siliconangle.com/2025/05/15/ai-video-platform-hedra-raises-32m-build-digital-character-foundation-models/"
+    ],
+    "headcount": {"value": 20, "date": "2025-05", "source": "https://siliconangle.com/2025/05/15/ai-video-platform-hedra-raises-32m-build-digital-character-foundation-models/"},
+    "rounds": [
+      {"date": "2024-08", "stage": "Seed", "amountUsdM": 10, "postValuationUsdB": null, "leads": null, "source": "https://africa.businessinsider.com/news/the-ai-video-startup-behind-those-viral-baby-podcast-memes-just-raised-dollar32m-from/3gd4mym"},
+      {"date": "2025-05", "stage": "Series A", "amountUsdM": 32, "postValuationUsdB": 0.2, "leads": "a16z Infrastructure fund", "source": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/"}
+    ],
+    "latestValuationUsdB": 0.2,
+    "latestValuationDate": "2025-05",
+    "latestValuationSource": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/",
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Character-1 (Jun 2024) and Character-3 omnimodal foundation model (Mar 2025); founder authored real-time diffusion papers. No major open-source.",
+    "researchSources": ["https://qa.hedra.com/blog/series-a-announcement"],
+    "xPosts": [],
+    "xPresence": "Not verified; viral 'talking baby podcast' trend in 2025 drove awareness.",
+    "traction": "3M+ users and 10M+ videos (May 2025) https://siliconangle.com/2025/05/15/ai-video-platform-hedra-raises-32m-build-digital-character-foundation-models/ . ARR Club reports $10M ARR Aug 2025 (low-reliability source).",
+    "compute": "AWS Generative AI Accelerator participant (Oct 2025, per CB Insights).",
+    "moat": "Weak-moderate: niche character-video quality, but competes with HeyGen, Synthesia, Pika, ByteDance OmniHuman.",
+    "risks": "Small funding, commoditization of avatar video, no 2026 news found.",
+    "proposedScores": {"talent": 5.5, "research": 4, "posting": 3.5, "traction": 3.5, "moat": 2.5},
+    "confidence": "low",
+    "notes": "No 2026 funding, ARR, or headcount data found. Founding year reported as 2023 (ARR Club) vs 2021 (Reuters). No verified X posts."
+  },
+  {
+    "name": "Suno",
+    "aliases": ["Suno, Inc.", "Suno AI"],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026 (Series D June 2026).",
+    "statusSource": "https://about.suno.com/blog/series-d-announcement",
+    "category": "Music gen",
+    "founded": 2022,
+    "hq": "Cambridge, MA",
+    "website": "https://suno.com",
+    "oneLiner": "Consumer AI music-generation platform (v6 models, licensed with Warner Music) where users create full songs from prompts, images, video or voice memos.",
+    "founders": "Mikey Shulman (CEO; Harvard physics PhD, ex-Kensho ML lead) with Georg Kucsko, Martin Camacho and Keenan Freyberg (all ex-Kensho).",
+    "talentSignals": [
+      "Headcount 200-300 (+140% YoY per LinkedIn data) https://linkedin.com/in/mikeyshulman",
+      "More than half the team are musicians (company) https://about.suno.com/blog/series-d-announcement"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2025-11", "stage": "Series C", "amountUsdM": 250, "postValuationUsdB": 2.45, "leads": null, "source": "https://techfundingnews.com/suno-raises-400m-at-5-4b-valuation-as-ai-music-hits-300m-arr/"},
+      {"date": "2026-06", "stage": "Series D", "amountUsdM": 400, "postValuationUsdB": 5.4, "leads": "Bond Capital (with IVP, Forerunner, USV, Alkeon, Quiet)", "source": "https://about.suno.com/blog/series-d-announcement"}
+    ],
+    "latestValuationUsdB": 5.4,
+    "latestValuationDate": "2026-06",
+    "latestValuationSource": "https://about.suno.com/blog/series-d-announcement",
+    "arr": {"valueUsdM": 300, "date": "2026-02", "kind": "ARR", "source": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/"},
+    "arrHistory": [
+      {"date": "2026-02", "valueUsdM": 300, "source": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/"}
+    ],
+    "research": "Proprietary autoregressive raw-audio music models (v5.5, v6 family Sep 2026); earlier open-sourced Bark TTS (2023). Few papers.",
+    "researchSources": ["https://help.suno.com/en/articles/13924801", "https://sequoiacap.com/podcast/sunos-mikey-shulman-everyone-can-make-music-now/"],
+    "xPosts": [
+      {"url": "https://x.com/suno/status/2097714273942163823", "author": "suno", "date": "2026-09-09", "likes": 3412, "views": 998375, "summary": "'Welcome to the v6 era' thread launching v6, v6-wild and v6-mini."},
+      {"url": "https://x.com/suno/status/2097846245540888664", "author": "suno", "date": "2026-09-10", "likes": 417, "views": 32125, "summary": "v6 feature demo: image/video/voice-memo to song, precise edits."}
+    ],
+    "xPresence": "@suno ~112K followers; launch threads approach 1M views. CEO not a heavy X poster.",
+    "traction": "100M+ users, 2M+ paid subscribers, $300M ARR (Feb 2026); CEO said Oct 1 2026 it is 'far beyond' those figures https://www.digitalmusicnews.com/2026/10/01/suno-revenue-october-2026/ . 7M+ tracks/day; #1 Music app in dozens of countries.",
+    "compute": null,
+    "moat": "Strong consumer brand/network effects and label licensing deals (Warner, etc.) that raise barriers; but ElevenLabs Music and big labs compete.",
+    "risks": "Ongoing copyright litigation from UMG and Sony; artist backlash; v6 quality complaints.",
+    "proposedScores": {"talent": 6, "research": 4.5, "posting": 6.5, "traction": 8, "moat": 6},
+    "confidence": "high",
+    "notes": "Founders' Kensho pedigree from general knowledge of public profiles. Headcount only LinkedIn range."
+  },
+  {
+    "name": "Cartesia",
+    "aliases": ["Cartesia AI"],
+    "status": "private",
+    "statusNote": "Private; last disclosed round $100M (Oct 2025); no 2026 round found.",
+    "statusSource": "https://research.contrary.com/company/cartesia",
+    "category": "Voice",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://cartesia.ai",
+    "oneLiner": "Real-time voice AI built on state-space models: Sonic TTS, Ink STT, and Line voice-agent platform.",
+    "founders": "Karan Goel (CEO), Albert Gu (Chief Scientist; co-inventor of S4 and Mamba SSMs, CMU professor), Arjun Desai, Brandon Yang, and Stanford prof Chris Re (MacArthur fellow) - all from Stanford AI Lab.",
+    "talentSignals": [
+      "Founding team authored S4/Mamba state-space model research https://fortune.com/2025/03/11/exclusive-cartesia-voice-ai-startup-raises-64-million-series-a/",
+      "~100 employees (Contrary, 2026) https://research.contrary.com/company/cartesia/quick-facts"
+    ],
+    "headcount": {"value": 100, "date": "2026-05", "source": "https://research.contrary.com/company/cartesia/quick-facts"},
+    "rounds": [
+      {"date": "2024-12", "stage": "Seed", "amountUsdM": 27, "postValuationUsdB": null, "leads": "Index Ventures", "source": "https://research.contrary.com/company/cartesia"},
+      {"date": "2025-03", "stage": "Series A", "amountUsdM": 64, "postValuationUsdB": null, "leads": "Kleiner Perkins", "source": "https://fortune.com/2025/03/11/exclusive-cartesia-voice-ai-startup-raises-64-million-series-a/"},
+      {"date": "2025-10", "stage": "Series B", "amountUsdM": 100, "postValuationUsdB": null, "leads": "Kleiner Perkins (with Index, Lightspeed, NVIDIA)", "source": "https://research.contrary.com/company/cartesia"}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "SSM-based architectures (S4/Mamba lineage); Sonic 3.5 (May 2026, #1 streaming TTS on Voice Arena / Artificial Analysis), Ink-2 STT with native turn detection; open-source 'edge' on-device SSM library and Rene model.",
+    "researchSources": ["https://docs.cartesia.ai/build-with-cartesia/tts-models/sonic-3-5", "https://runtimewire.com/article/cartesia-sonic-35-ink-2-voice-agent-benchmarks"],
+    "xPosts": [
+      {"url": "https://x.com/krandiash/status/2066559212533190917", "author": "krandiash", "date": "2026-06-15", "likes": 2618, "views": 7129111, "summary": "Goel: Sonic-3.5 and Ink-2 are #1 streaming TTS and STT models."}
+    ],
+    "xPresence": "CEO @krandiash ~21K followers but the Sonic-3.5 launch post hit ~7.1M views; Albert Gu is a well-followed researcher.",
+    "traction": "50K+ customer companies (Mar 2026), ~5x YoY; customers incl. ServiceNow, Decagon, Zomato, Retell AI https://research.contrary.com/company/cartesia . Revenue undisclosed.",
+    "compute": "NVIDIA is an investor.",
+    "moat": "Architecture/latency edge and research depth; moderate vs ElevenLabs scale.",
+    "risks": "Price competition in TTS; ElevenLabs/OpenAI dominate mindshare; revenue undisclosed.",
+    "proposedScores": {"talent": 8, "research": 7.5, "posting": 5.5, "traction": 5, "moat": 5},
+    "confidence": "medium",
+    "notes": "Valuation not publicly disclosed (a $362M figure on premieralts.com is unsourced and not used). ARR not found ($17M Apr 2024 from Latka is unreliable)."
+  },
+  {
+    "name": "TwelveLabs",
+    "aliases": ["Twelve Labs"],
+    "status": "private",
+    "statusNote": "Private; $100M Series B Jul 2026.",
+    "statusSource": "https://www.globenewswire.com/news-release/2026/07/01/3320545/0/en/twelvelabs-raises-100-million-in-series-b-funding-to-build-video-superintelligence.html",
+    "category": "Video understanding",
+    "founded": 2021,
+    "hq": "San Francisco / Seoul",
+    "website": "https://www.twelvelabs.io",
+    "oneLiner": "Video-understanding foundation models (Marengo embeddings, Pegasus video-language) and an agentic 'Video Cognition System' for search and analysis of video archives.",
+    "founders": "Jae Lee (CEO) and Aiden Lee (CTO), Korean founders; co-founder Dave Chung runs APAC GTM.",
+    "talentSignals": [
+      "175 employees (+41% YoY, LinkedIn data) across 6 countries https://linkedin.com/company/twelvelabs"
+    ],
+    "headcount": {"value": 175, "date": "2026-08", "source": "https://linkedin.com/company/twelvelabs"},
+    "rounds": [
+      {"date": "2024-12", "stage": "Series A", "amountUsdM": 30, "postValuationUsdB": null, "leads": null, "source": "https://linkedin.com/company/twelvelabs"},
+      {"date": "2026-07", "stage": "Series B", "amountUsdM": 100, "postValuationUsdB": null, "leads": "NEA, NAVER Ventures (with Amazon, Radical, Index, Korea Investment Partners)", "source": "https://www.twelvelabs.io/blog/twelvelabs-series-b-100m"}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Marengo 3.0 video embedding model (Dec 2025, AWS re:Invent), Pegasus 1.5 (2026); models on Amazon Bedrock; technical blog output.",
+    "researchSources": ["https://press.aboutamazon.com/aws/2025/12/twelvelabs-launches-its-most-powerful-video-understanding-model-marengo-3-0-on-twelvelabs-and-amazon-bedrock"],
+    "xPosts": [],
+    "xPresence": "Quiet on X; CEO reportedly ~261 X followers vs 10K LinkedIn (Systemaic).",
+    "traction": "Customers in media/entertainment, government, sports, advertising; total raised >$207M https://siliconangle.com/2026/07/01/twelvelabs-raises-100m-bring-superintelligence-ai-video-models/ . Revenue undisclosed.",
+    "compute": "AWS preferred cloud; multiyear commitment to optimize inference on AWS Trainium; Amazon investor.",
+    "moat": "Specialized video-understanding niche with AWS distribution; moderate.",
+    "risks": "Gemini and other frontier multimodal models natively understand video; small revenue.",
+    "proposedScores": {"talent": 5.5, "research": 5.5, "posting": 2, "traction": 4, "moat": 5},
+    "confidence": "medium",
+    "notes": "Valuation not disclosed. Revenue estimates ($4.5M LinkedIn, ~$16M Systemaic) unverified. No verified X posts."
+  },
+  {
+    "name": "Perplexity",
+    "aliases": ["Perplexity AI, Inc."],
+    "status": "private",
+    "statusNote": "Private as of Oct 2026; CEO targets 2028 IPO; Nvidia in talks (Aug 2026) for round at >$30B, not closed.",
+    "statusSource": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/",
+    "category": "AI search / agents",
+    "founded": 2022,
+    "hq": "San Francisco",
+    "website": "https://www.perplexity.ai",
+    "oneLiner": "AI answer engine, Comet browser and Perplexity Computer multi-model agent platform for consumers and enterprises.",
+    "founders": "Aravind Srinivas (CEO; ex-OpenAI research scientist, Berkeley PhD), Denis Yarats (ex-FAIR), Johnny Ho, Andy Konwinski (Databricks co-founder).",
+    "talentSignals": [
+      "Founders with OpenAI, FAIR, DeepMind/Google research internships and Databricks pedigree https://www.layer3labs.io/guides/who-is-aravind-srinivas",
+      "1,000-2,000 employees across 56 countries (LinkedIn data) https://linkedin.com/in/aravind-srinivas-16051987"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2025-05", "stage": "Growth", "amountUsdM": 500, "postValuationUsdB": 14, "leads": "Accel", "source": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/"},
+      {"date": "2025-07", "stage": "Extension", "amountUsdM": 100, "postValuationUsdB": 18, "leads": null, "source": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/"},
+      {"date": "2025-09", "stage": "Growth", "amountUsdM": 200, "postValuationUsdB": 20, "leads": null, "source": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/"}
+    ],
+    "latestValuationUsdB": 20,
+    "latestValuationDate": "2025-09",
+    "latestValuationSource": "https://www.reuters.com/technology/perplexity-finalizes-20-billion-valuation-round-information-reports-2025-09-10/",
+    "arr": {"valueUsdM": 750, "date": "2026-08", "kind": "annualized revenue", "source": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/"},
+    "arrHistory": [
+      {"date": "2025-09", "valueUsdM": 200, "source": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/"},
+      {"date": "2026-01", "valueUsdM": 250, "source": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/"},
+      {"date": "2026-08", "valueUsdM": 750, "source": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/"}
+    ],
+    "research": "Mostly product/engineering; open-source tools (e.g., Numbat agent forensics tool, R1-1776 post-trained model in 2025), Search SDK; limited academic papers.",
+    "researchSources": ["https://x.com/AravSrinivas/status/2096087873770643871"],
+    "xPosts": [
+      {"url": "https://x.com/AravSrinivas/status/2106313275797352674", "author": "AravSrinivas", "date": "2026-10-03", "likes": 463, "views": 45291, "summary": "Plans to vertically integrate agent infra; deploying Perplexity Computer on NVIDIA Vera."},
+      {"url": "https://x.com/AravSrinivas/status/2096087873770643871", "author": "AravSrinivas", "date": "2026-09-05", "likes": 289, "views": 39771, "summary": "Introduces Numbat, Perplexity's open-source agent-forensics tool."}
+    ],
+    "xPresence": "CEO @AravSrinivas ~1.16M followers, posts many times daily; historically frequent viral posts. @perplexity_ai large account.",
+    "traction": "Annualized revenue reportedly rose from <$250M (Jan 2026) to >$750M (Aug 2026), driven by Perplexity Computer (launched Feb 2026) and usage-based pricing https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/ . Distribution: Samsung Bixby integration, HP ZBook pre-install, Comet browser free.",
+    "compute": "$750M Microsoft Azure commitment (Jan 2026, per SiliconANGLE); NVIDIA investor; deploying on NVIDIA Vera.",
+    "moat": "Strong brand and distribution deals, multi-model orchestration; but no proprietary frontier model.",
+    "risks": "Depends on third-party models (Anthropic, OpenAI, Google) that compete directly; publisher copyright suits; disputed ARR figures.",
+    "proposedScores": {"talent": 7.5, "research": 4, "posting": 9, "traction": 8.5, "moat": 5.5},
+    "confidence": "medium",
+    "notes": "A widely repeated 'Series E-6 at ~$23B, Jan 2026' has no tier-1 source; excluded. The $750M annualized revenue (The Information) is disputed by Sacra/Tracxn estimates (~$450-500M in Apr 2026). Nvidia >$30B round unconfirmed as of Oct 2026."
+  },
+  {
+    "name": "Liner",
+    "aliases": ["Liner Inc.", "라이너"],
+    "status": "private",
+    "statusNote": "Private; raised ₩50B ($36.1M) Series C Aug 2026.",
+    "statusSource": "https://liner.com/news/Liner-SeriesC",
+    "category": "AI search / research agents",
+    "founded": null,
+    "hq": "Seoul, South Korea",
+    "website": "https://liner.com",
+    "oneLiner": "Citation-first AI search and research-agent platform (Liner Scholar, Write, Finance) for students, researchers and enterprises.",
+    "founders": "Kim Jin-woo (Luke Kim), CEO.",
+    "talentSignals": [
+      "Only Korean startup on a16z 'Top 100 GenAI Consumer Apps' four consecutive editions https://liner.com/news/Liner-SeriesC"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2026-08", "stage": "Series C", "amountUsdM": 36.1, "postValuationUsdB": null, "leads": "LB Investment", "source": "https://liner.com/news/Liner-SeriesC"}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Claims 95.3 on OpenAI SimpleQA; focuses on citation/retrieval layer rather than foundation models.",
+    "researchSources": ["https://thenextweb.com/news/liner-36m-series-c-ai-search-enterprise"],
+    "xPosts": [],
+    "xPresence": "Minimal X presence found.",
+    "traction": "14M+ registered users in 220 countries; ranked #30 in Similarweb global AI web traffic (Jul 2026); selected as search engine supplier for Saudi HUMAIN ONE platform https://www.venturesquare.net/en/1108494/ . Total funding ~₩94B (~$64M).",
+    "compute": null,
+    "moat": "Weak-moderate: citation UX and academic niche; competes with Perplexity, OpenAI, Google.",
+    "risks": "Small capital vs global rivals; commoditized search+LLM stack.",
+    "proposedScores": {"talent": 4, "research": 3.5, "posting": 1.5, "traction": 4.5, "moat": 3},
+    "confidence": "medium",
+    "notes": "Founding year, valuation, revenue and headcount not found in reliable sources. Previous round was ~22 months before Aug 2026 (~late 2024)."
+  },
+  {
+    "name": "Otter.ai",
+    "aliases": ["AISense Inc.", "Otter"],
+    "status": "private",
+    "statusNote": "Private and independent as of Oct 2026; no funding since 2021 Series B.",
+    "statusSource": "https://www.revenuememo.com/p/who-owns-otter-ai",
+    "category": "Meeting AI / voice productivity",
+    "founded": 2016,
+    "hq": "Mountain View, CA",
+    "website": "https://otter.ai",
+    "oneLiner": "AI meeting notetaker and meeting-agent platform that turns meetings into a searchable corporate knowledge base.",
+    "founders": "Sam Liang (CEO; Stanford EE PhD under David Cheriton, ex-Google Maps location lead) and Yun Fu (CTO).",
+    "talentSignals": [
+      "Lean: <200 employees at $100M ARR (>$500K revenue/employee) https://otter.ai/blog/otter-ai-caps-transformational-2025-with-100m-arr-milestone-industry-first-ai-meeting-agents-and-global-enterprise-expansion"
+    ],
+    "headcount": {"value": 200, "date": "2025-03", "source": "https://otter.ai/blog/otter-ai-breaks-100m-arr-barrier-and-transforms-business-meetings-launching-industry-first-ai-meeting-agent-suite"},
+    "rounds": [
+      {"date": "2021-02", "stage": "Series B", "amountUsdM": 50, "postValuationUsdB": null, "leads": "Spectrum Equity", "source": "https://research.contrary.com/company/otter"}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {"valueUsdM": 100, "date": "2025-03", "kind": "ARR", "source": "https://otter.ai/blog/otter-ai-breaks-100m-arr-barrier-and-transforms-business-meetings-launching-industry-first-ai-meeting-agent-suite"},
+    "arrHistory": [
+      {"date": "2025-03", "valueUsdM": 100, "source": "https://otter.ai/blog/otter-ai-breaks-100m-arr-barrier-and-transforms-business-meetings-launching-industry-first-ai-meeting-agent-suite"}
+    ],
+    "research": "Proprietary ASR; little public research or open source.",
+    "researchSources": [],
+    "xPosts": [],
+    "xPresence": "Quiet; no verified viral posts.",
+    "traction": "35M+ users, 1B+ meetings processed (Dec 2025); used by 86% of Fortune 500 (Observer, Jun 2026) https://observer.com/2026/06/otter-founder-sam-liang-voice-ai-automate-workflow/ . No 2026 ARR figure disclosed.",
+    "compute": null,
+    "moat": "Large installed base and meeting data, but notetakers are commoditized (Zoom, Teams, Granola, Fireflies).",
+    "risks": "Consolidated privacy class action (In re Otter.AI Privacy Litigation): Aug 13 2026 ruling let CIPA, ECPA, BIPA, UCL claims proceed https://natlawreview.com/article/invited-participant-or-third-party-eavesdropper-court-holds-otterai-third-party ; platform bundling by Zoom/Microsoft/Google.",
+    "proposedScores": {"talent": 4, "research": 2, "posting": 2, "traction": 5.5, "moat": 3.5},
+    "confidence": "medium",
+    "notes": "Valuation not public (one source cites ~$244M post-2021, unverified). No 2026 ARR/headcount update found."
+  },
+  {
+    "name": "Wispr Flow",
+    "aliases": ["Wispr", "Wispr AI", "WhisperFlow (as misspelled in tweet)"],
+    "status": "private",
+    "statusNote": "Private; $280M Series B at $2B in Aug 2026.",
+    "statusSource": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
+    "category": "Voice (dictation interface)",
+    "founded": 2021,
+    "hq": "San Francisco",
+    "website": "https://wisprflow.ai",
+    "oneLiner": "AI voice dictation app (Flow) that turns speech into formatted text in any app, now with its own Canto ASR model and a meeting Notetaker.",
+    "founders": "Tanay Kothari (CEO) and Sahaj Garg (CTO), Stanford dorm-mates; pivoted from silent-speech wearables to Flow (2024).",
+    "talentSignals": [
+      "Built Wispr Advanced Interfaces Lab, led by new hire Ariya https://wisprflow.ai/post/series-b",
+      "Cut team from ~40 to 5 when killing hardware in Jul 2024 before Flow took off https://okara.ai/blog/how-wispr-flow-grew"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2025-11", "stage": "Series A extension", "amountUsdM": 25, "postValuationUsdB": 0.7, "leads": null, "source": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/"},
+      {"date": "2026-08", "stage": "Series B", "amountUsdM": 280, "postValuationUsdB": 2, "leads": "Menlo Ventures (with Notable, NEA, Neo, Peak XV, Forerunner)", "source": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/"}
+    ],
+    "latestValuationUsdB": 2,
+    "latestValuationDate": "2026-08",
+    "latestValuationSource": "https://wisprflow.ai/post/series-b",
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null},
+    "arrHistory": [],
+    "research": "Proprietary Canto speech-recognition model (preview Aug 2026; claims hard-condition WER from >30% to 5-10%); no papers/OSS found.",
+    "researchSources": ["https://thenextweb.com/news/wispr-series-b-280m-2bn-valuation-menlo-canto"],
+    "xPosts": [
+      {"url": "https://x.com/tankots/status/2089431610865471641", "author": "tankots", "date": "2026-08-17", "likes": 274, "views": 45568, "summary": "CEO Tanay Kothari's X article on the Series B and voice-led future."}
+    ],
+    "xPresence": "CEO @tankots ~36K followers; @WisprFlow ~32K followers (twiscan). Strong influencer/athlete marketing.",
+    "traction": "Revenue grew >150% in each of last four quarters and >30x YoY (Menlo); 60B+ words dictated; used at 10,000+ enterprises / 125K businesses (definitions vary) https://thenextweb.com/news/wispr-series-b-280m-2bn-valuation-menlo-canto . India second-largest market.",
+    "compute": null,
+    "moat": "Moderate-weak: habit-forming UX and distribution, but OS vendors (Apple, Microsoft, Google) and OpenAI can ship dictation natively.",
+    "risks": "Platform risk from OS-level dictation; undisclosed ARR; 3x valuation jump in 9 months.",
+    "proposedScores": {"talent": 5.5, "research": 3.5, "posting": 5, "traction": 6.5, "moat": 3.5},
+    "confidence": "medium",
+    "notes": "ARR not disclosed (unverified ~$10M Oct 2025 figure excluded). Company @WisprFlow Series B tweet (id 2089374511007424595) seen on twiscan returned 404 on fxtwitter, so not included."
+  },
+  {
+    "name": "Notion",
+    "aliases": ["Notion Labs, Inc."],
+    "status": "private",
+    "statusNote": "Private; $270M employee tender at $11B (Jan 2026); first independent board named Jun 2026; no S-1 as of late Sep 2026.",
+    "statusSource": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares",
+    "category": "Enterprise SaaS (AI workspace)",
+    "founded": 2013,
+    "hq": "San Francisco",
+    "website": "https://www.notion.com",
+    "oneLiner": "Connected workspace for docs, wikis, projects and databases, now centered on Notion AI and autonomous Custom Agents.",
+    "founders": "Ivan Zhao (CEO) and Simon Last; Akshay Kothari (COO) leads product/AI launches.",
+    "talentSignals": [
+      "Named first board (Pat Grady, Patrick Hsu, Jonathan Chadwick, Gretchen Howard, Christopher Payne) Jun 2026 https://segmara.com/blog/when-will-notion-ipo",
+      "Acquisitions to build AI talent: Embra (Jan 2026), ZeroEntropy (Jun 2026) per PitchBook https://pitchbook.com/profiles/company/168506-47"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2021-10", "stage": "Series C", "amountUsdM": 275, "postValuationUsdB": null, "leads": "Coatue, Sequoia", "source": "https://sacra.com/c/notion/"},
+      {"date": "2026-01", "stage": "Employee tender (secondary)", "amountUsdM": 270, "postValuationUsdB": 11, "leads": "GIC, Sequoia, Index", "source": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares"}
+    ],
+    "latestValuationUsdB": 11,
+    "latestValuationDate": "2026-01",
+    "latestValuationSource": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares",
+    "arr": {"valueUsdM": 865, "date": "2026-07", "kind": "ARR (Sacra estimate)", "source": "https://sacra.com/research/notion-at-865m-year-growing-82-yoy/"},
+    "arrHistory": [
+      {"date": "2025-12", "valueUsdM": 610, "source": "https://sacra.com/c/notion/"},
+      {"date": "2026-07", "valueUsdM": 865, "source": "https://sacra.com/research/notion-at-865m-year-growing-82-yoy/"}
+    ],
+    "research": "Product company; little public research. Engineering blog; no major OSS.",
+    "researchSources": [],
+    "xPosts": [
+      {"url": "https://x.com/ivanhzhao/status/2038670159259619644", "author": "ivanhzhao", "date": "2026-03-30", "likes": 3075, "views": 1254609, "summary": "Zhao essay/brand video: AI future is collaborative, not one person with chatbots."},
+      {"url": "https://x.com/ivanhzhao/status/2026347354333295105", "author": "ivanhzhao", "date": "2026-02-24", "likes": 654, "views": 148720, "summary": "Launch of Custom Agents for business."},
+      {"url": "https://x.com/ivanhzhao/status/2047737680964821497", "author": "ivanhzhao", "date": "2026-04-24", "likes": 1485, "views": 262090, "summary": "Zhao shares Notion's updated company values."}
+    ],
+    "xPresence": "CEO @ivanhzhao ~87K followers; occasional 1M-view posts. @NotionHQ very large brand account.",
+    "traction": "Over 50% of ARR from AI-enabled customers at end-2025 (company); Sacra estimates ARR $865M Jul 2026 (+82% YoY). Custom Agents: 21K agents built by early testers https://www.notion.com/releases/2026-02-24 . Cash-flow positive.",
+    "compute": null,
+    "moat": "Strong: entrenched workspace data, 100M+ users, templates/ecosystem, brand.",
+    "risks": "AI-native competitors and Microsoft/Google bundling; ARR figures are third-party estimates.",
+    "proposedScores": {"talent": 6, "research": 2, "posting": 6, "traction": 8, "moat": 7.5},
+    "confidence": "medium",
+    "notes": "Notion does not disclose ARR; figures are Sacra estimates. Founding year 2013 (relaunched 2016). Headcount not reliably found."
+  },
+  {
+    "name": "Linear",
+    "aliases": ["Linear Orbit, Inc.", "Linear.app"],
+    "status": "private",
+    "statusNote": "Private; $99M employee tender at $2.5B (Aug 2026); cash-flow positive.",
+    "statusSource": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+    "category": "Enterprise SaaS (dev tools / agents)",
+    "founded": 2019,
+    "hq": "San Francisco",
+    "website": "https://linear.app",
+    "oneLiner": "Product-development and issue-tracking platform that is adding coding agents, Diffs code review, and automated 'Loops'.",
+    "founders": "Karri Saarinen (CEO; ex-Airbnb design lead, Coinbase), Tuomas Artman (CTO; ex-Uber), Jori Lallo (ex-Coinbase).",
+    "talentSignals": [
+      "CEO cites tender as retention tool vs AI labs' compensation https://dealroom.co/news/147084-linear-doubles-valuation-to-2-5b-defying-the-saas-is-dead-narrative/",
+      "Bug-autofix loop fixed 300+ bugs in 30 days (Saarinen on X, Sep 2026)"
+    ],
+    "headcount": {"value": null, "date": null, "source": null},
+    "rounds": [
+      {"date": "2025", "stage": "Series C", "amountUsdM": 82, "postValuationUsdB": 1.25, "leads": "Accel", "source": "https://karrisaarinen.com/posts/building-our-way/"},
+      {"date": "2026-08", "stage": "Employee tender (secondary)", "amountUsdM": 99, "postValuationUsdB": 2.5, "leads": "Accel (with 01A, Salesforce Ventures, S32)", "source": "https://linear.app/now/sharing-growth-with-the-people-building-linear"}
+    ],
+    "latestValuationUsdB": 2.5,
+    "latestValuationDate": "2026-08",
+    "latestValuationSource": "https://www.businessinsider.com/saas-is-dead-startup-linear-just-doubled-its-valuation-2026-8",
+    "arr": {"valueUsdM": 100, "date": "2026-08", "kind": "ARR (surpassed)", "source": "https://www.businessinsider.com/saas-is-dead-startup-linear-just-doubled-its-valuation-2026-8"},
+    "arrHistory": [
+      {"date": "2026-08", "valueUsdM": 100, "source": "https://www.businessinsider.com/saas-is-dead-startup-linear-just-doubled-its-valuation-2026-8"}
+    ],
+    "research": "Product/engineering blog (e.g., migration to StyleX); no research output.",
+    "researchSources": [],
+    "xPosts": [
+      {"url": "https://x.com/karrisaarinen/status/2090525822860063140", "author": "karrisaarinen", "date": "2026-08-20", "likes": 41, "views": 12231, "summary": "Coding-sessions upgrade and token pricing at provider cost, no markup."}
+    ],
+    "xPresence": "CEO @karrisaarinen ~93.6K followers, posts frequently; product posts typically ~10K views.",
+    "traction": "Surpassed $100M ARR; cash-flow positive with more cash than ever raised https://linear.app/now/sharing-growth-with-the-people-building-linear . Shipping agentic coding sessions, Diffs, Loops in 2026.",
+    "compute": null,
+    "moat": "Strong design brand and developer love; workflow data; moderate vs Jira/GitHub and AI coding agents.",
+    "risks": "Coding-agent platforms (Cursor, GitHub, Codex) could subsume project tracking; 'SaaS is dead' narrative.",
+    "proposedScores": {"talent": 6.5, "research": 1.5, "posting": 6, "traction": 6.5, "moat": 6},
+    "confidence": "high",
+    "notes": "Series C month not confirmed (2025). Headcount not found."
+  }
+]

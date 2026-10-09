@@ -1,0 +1,1264 @@
+[
+  {
+    "name": "Scale AI",
+    "aliases": [
+      "Scale AI, Inc.",
+      "Scale"
+    ],
+    "status": "private",
+    "statusNote": "Still independent and private as of Oct 2026. Meta bought a 49% NON-VOTING stake for $14.3B in June 2025, and founder Alexandr Wang left to join Meta. Because Meta has no voting control, Scale is treated as independent private rather than a subsidiary. Board named Francis deSouza (Google Cloud COO) CEO effective 2026-08-10, replacing interim CEO Jason Droege.",
+    "statusSource": "https://scale.com/blog/scale-appoints-new-ceo",
+    "category": "Data/evals",
+    "founded": 2016,
+    "hq": "San Francisco",
+    "website": "https://scale.com",
+    "oneLiner": "Training and evaluation data for frontier labs, plus AI applications for enterprises and governments.",
+    "founders": "Alexandr Wang (left June 2025 to become Meta's Chief AI Officer; still on Scale's board) and Lucy Guo (left early). Current CEO is Francis deSouza (ex-Google Cloud COO, ex-Illumina CEO), effective Aug 10, 2026.",
+    "talentSignals": [
+      "Founder/CEO Alexandr Wang departed to Meta with the June 2025 deal; Jason Droege served as interim CEO for over a year (https://www.bloomberg.com/news/articles/2026-07-30/scale-ai-names-google-cloud-executive-francis-desouza-as-new-ceo)",
+      "Roughly 200 employees and 500 contractors were laid off in July 2025 when the gen-AI data unit was restructured (reported via https://valueaddvc.com/blog/scale-ai-valuation-what-the-data-labeling-company-is-worth-after-the-meta-deal)",
+      "Permanent CEO is a big-company operator (Francis deSouza from Google Cloud), not a researcher (https://scale.com/blog/scale-appoints-new-ceo)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2024-05",
+        "stage": "Series F",
+        "amountUsdM": null,
+        "postValuationUsdB": 13.8,
+        "leads": null,
+        "source": "https://valueaddvc.com/blog/scale-ai-valuation-what-the-data-labeling-company-is-worth-after-the-meta-deal"
+      },
+      {
+        "date": "2025-06",
+        "stage": "Strategic (Meta 49% non-voting stake)",
+        "amountUsdM": 14300,
+        "postValuationUsdB": 29,
+        "leads": "Meta",
+        "source": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+      }
+    ],
+    "latestValuationUsdB": 29,
+    "latestValuationDate": "2025-06",
+    "latestValuationSource": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/",
+    "arr": {
+      "valueUsdM": 1000,
+      "date": "2025-12",
+      "kind": "FY revenue",
+      "source": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+    },
+    "arrHistory": [
+      {
+        "date": "2024-12",
+        "valueUsdM": 870,
+        "source": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+      },
+      {
+        "date": "2025-12",
+        "valueUsdM": 1000,
+        "source": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+      }
+    ],
+    "research": "Runs evaluation and benchmark work, for example the SEAL leaderboards; no specifics were verified this pass. Its public output is mostly applied and product-oriented.",
+    "researchSources": [
+      "https://scale.com/blog/scales-next-era-building-for-2026"
+    ],
+    "xPosts": [],
+    "xPresence": "@scale_AI has 81.2k followers. @alexandr_wang has 772.7k followers, but his bio now reads Meta chief AI officer, so his reach no longer really benefits Scale. No current Scale exec with a large following was found.",
+    "traction": "Revenue was 'just shy of $1B' in 2025, up from $870M in 2024; Scale expects more than $1B in 2026 (Forbes, May 2026). Meta committed to at least $450M/yr for 5 years. 2025 bookings were over $1B. The applications business is about $200M annualized and expected to double in 2026 (https://scale.com/blog/scales-next-era-building-for-2026). New customers include BP and Mayo Clinic.",
+    "compute": null,
+    "moat": "Government/defense relationships, a guaranteed Meta contract, and a large existing labeling workforce and tooling.",
+    "risks": "Other frontier labs (OpenAI, Google) pulled back after the Meta deal. Growth is slow next to Mercor/Surge, the business is concentrated on Meta, and the founder has left.",
+    "proposedScores": {
+      "talent": 5,
+      "research": 4,
+      "posting": 5,
+      "traction": 7,
+      "moat": 6
+    },
+    "confidence": "high",
+    "notes": "Not an IPO or acquisition, but heavily dependent on Meta. No priced round or secondary since June 2025. Sacra estimates higher 2025 revenue ($2B); I used the company-to-Forbes figure. No verified X posts captured. Headcount not found."
+  },
+  {
+    "name": "Mercor",
+    "aliases": [
+      "Mercor.io Corporation"
+    ],
+    "status": "private",
+    "statusNote": "Private as of Oct 2026. Last announced priced round is the Oct 2025 Series C at $10B. A ~$20B round (General Catalyst leading, Nvidia discussed) was reported in Jul–Aug 2026 but its close has not been announced.",
+    "statusSource": "https://www.forbes.com/sites/richardnieva/2026/07/09/mercor-fundraise/",
+    "category": "Data/evals",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://mercor.com",
+    "oneLiner": "A marketplace that recruits and pays domain experts (30k+ weekly active) to make training and eval data for AI labs and enterprises.",
+    "founders": "Brendan Foody (co-CEO), Adarsh Hiremath (co-CEO), Surya Midha (board chair). All three are Thiel Fellows, about 23 years old, and Forbes calls them the youngest self-made billionaires.",
+    "talentSignals": [
+      "Forbes reported each founder would be worth about $4.3B if the $20B round closes (https://www.forbes.com/sites/richardnieva/2026/07/09/mercor-fundraise/)",
+      "Pays more than $2M/day to 30,000+ weekly active contractors (https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/)",
+      "Took over clients Scale AI lost after the Meta deal (https://valueaddvc.com/blog/how-does-mercor-make-money-2b-arr-20b-valuation-and-the-expert-data-marketplace-explained)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2024-09",
+        "stage": "Series A",
+        "amountUsdM": 30,
+        "postValuationUsdB": 0.25,
+        "leads": null,
+        "source": "https://valueaddvc.com/blog/how-does-mercor-make-money-2b-arr-20b-valuation-and-the-expert-data-marketplace-explained"
+      },
+      {
+        "date": "2025-02",
+        "stage": "Series B",
+        "amountUsdM": 100,
+        "postValuationUsdB": 2,
+        "leads": "Felicis",
+        "source": "https://sacra.com/c/mercor/"
+      },
+      {
+        "date": "2025-10",
+        "stage": "Series C",
+        "amountUsdM": 350,
+        "postValuationUsdB": 10,
+        "leads": "Felicis",
+        "source": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/"
+      }
+    ],
+    "latestValuationUsdB": 10,
+    "latestValuationDate": "2025-10",
+    "latestValuationSource": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/",
+    "arr": {
+      "valueUsdM": 2000,
+      "date": "2026-06",
+      "kind": "revenue run-rate",
+      "source": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/"
+    },
+    "arrHistory": [
+      {
+        "date": "2025-09",
+        "valueUsdM": 500,
+        "source": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/"
+      },
+      {
+        "date": "2026-02",
+        "valueUsdM": 1000,
+        "source": "https://ca.investing.com/news/stock-market-news/mercor-valuation-doubles-to-20b-on-revenue-growth--bloomberg-93CH-4727819"
+      },
+      {
+        "date": "2026-06",
+        "valueUsdM": 2000,
+        "source": "https://ca.investing.com/news/stock-market-news/mercor-valuation-doubles-to-20b-on-revenue-growth--bloomberg-93CH-4727819"
+      }
+    ],
+    "research": "Little public research output was verified this pass.",
+    "researchSources": [],
+    "xPosts": [
+      {
+        "url": "https://x.com/BrendanFoody/status/2074534973143658855",
+        "author": "BrendanFoody",
+        "date": "2026-07-07",
+        "likes": 462,
+        "views": 1056734,
+        "summary": "'Mercor grew from $1M to $2B in ARR in 24 months... fastest growth trajectory in history'; says Enterprise is the fastest-growing segment."
+      }
+    ],
+    "xPresence": "@BrendanFoody has 29.2k followers; the $2B ARR post passed 1M views. @mercor has 25.1k followers.",
+    "traction": "Gross run rate went from $1B to $2B in four months (Feb to Jun 2026). Contractors receive 60–70% of that, so net revenue is about $600–800M. Free-cash-flow profitable. Gross revenue in H1 2026 was $614M (Sacra estimate). Nvidia paid Mercor tens of millions in one quarter for Nemotron data (https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-explores-stake-ai-204528438.html).",
+    "compute": null,
+    "moat": "Two-sided network of vetted experts plus deep relationships with the labs (OpenAI, Google DeepMind). Speed of matching.",
+    "risks": "The $2B is gross, not net revenue. Customers are concentrated among a few labs. The labor-marketplace model has low switching costs, and contractor and legal disputes are possible.",
+    "proposedScores": {
+      "talent": 5.5,
+      "research": 2.5,
+      "posting": 6,
+      "traction": 9.5,
+      "moat": 5
+    },
+    "confidence": "high",
+    "notes": "Trackers (LinkedIn data, revenuememo) mention Series D shares issued in Aug 2026, but the company has not announced the round's size, close, or valuation, so latestValuation stays at $10B. Headcount not found."
+  },
+  {
+    "name": "Turing",
+    "aliases": [
+      "Turing Enterprises Inc.",
+      "turing.com"
+    ],
+    "status": "private",
+    "statusNote": "Still private as of Oct 2026. Its last disclosed round was the Mar 2025 Series E. It launched Turing Frontier in Apr 2026 and hired a CFO (Varsha Udayabhanu, ex-Invisible) in Aug 2026, which may point toward a raise or IPO preparation.",
+    "statusSource": "https://www.sourcery.vc/p/breaking-frontier-ai-is-a-ferrari",
+    "category": "Data/evals",
+    "founded": 2018,
+    "hq": "San Francisco / Palo Alto",
+    "website": "https://www.turing.com",
+    "oneLiner": "Coding, reasoning, and STEM training data from a 4M-person talent cloud for frontier labs, plus enterprise agentic-AI deployments.",
+    "founders": "Jonathan Siddharth (CEO; former Quora board member; ex-Foundation Capital EIR; co-author of SpotSigs) and Vijay Krishnan (CTO).",
+    "talentSignals": [
+      "OpenAI approached Turing in 2022 for code data, which seeded its frontier-data business (https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/)",
+      "Hired CFO Varsha Udayabhanu, ex-CFO of Invisible Technologies, in Aug 2026 (https://www.linkedin.com/posts/jonsid_the-best-ai-companies-have-to-move-at-breakneck-activity-7497685463067996160-WTK1)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2021-12",
+        "stage": "Series D",
+        "amountUsdM": null,
+        "postValuationUsdB": 1.1,
+        "leads": null,
+        "source": "https://sacra.com/c/turing/"
+      },
+      {
+        "date": "2025-03",
+        "stage": "Series E",
+        "amountUsdM": 111,
+        "postValuationUsdB": 2.2,
+        "leads": "Khazanah Nasional",
+        "source": "https://www.businesswire.com/news/home/20250306942806/en/Turing-Gears-Up-to-Power-Next-Wave-of-AGI-with-%24111-Million-in-Series-E"
+      }
+    ],
+    "latestValuationUsdB": 2.2,
+    "latestValuationDate": "2025-03",
+    "latestValuationSource": "https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/",
+    "arr": {
+      "valueUsdM": 300,
+      "date": "2025-03",
+      "kind": "ARR",
+      "source": "https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/"
+    },
+    "arrHistory": [
+      {
+        "date": "2024-06",
+        "valueUsdM": 167,
+        "source": "https://www.businesswire.com/news/home/20250306942806/en/Turing-Gears-Up-to-Power-Next-Wave-of-AGI-with-%24111-Million-in-Series-E"
+      },
+      {
+        "date": "2025-03",
+        "valueUsdM": 300,
+        "source": "https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/"
+      }
+    ],
+    "research": "Its 'Turing Research' arm builds coding, math, multimodal, and industry benchmarks. It also has the ALAN fine-tuning/RL platform. No major paper output was verified.",
+    "researchSources": [
+      "https://www.linkedin.com/posts/jonsid_turing-a-key-coding-provider-for-openai-activity-7303447477062443008-W71S"
+    ],
+    "xPresence": "No company or CEO X handle could be confirmed via fxtwitter (@turingcom and @jonsidd return 404). Effectively a quiet presence on X.",
+    "xPosts": [],
+    "traction": "About $300M ARR in early 2025, roughly 3x year over year, and profitable for about a year at that point. Customers include OpenAI, Anthropic, Meta, Google, Microsoft, Nvidia, and Amazon (per Sourcery interview). Launched Turing Frontier (US-based expert network) in Apr 2026. No 2026 revenue figure was found.",
+    "compute": null,
+    "moat": "A 4M+ developer talent cloud and long-standing relationships with the labs.",
+    "risks": "Commoditized human-data market with fierce competition (Mercor, Surge, Scale, Snorkel). No public revenue update since early 2025.",
+    "proposedScores": {
+      "talent": 5,
+      "research": 3.5,
+      "posting": 1.5,
+      "traction": 6.5,
+      "moat": 4
+    },
+    "confidence": "medium",
+    "notes": "TechCrunch says the Series E 'doubled' the valuation from $1.1B. Total raised was $225M as of Mar 2025. No 2026 round, ARR, or headcount was found."
+  },
+  {
+    "name": "Snorkel AI",
+    "aliases": [
+      "Snorkel AI, Inc."
+    ],
+    "status": "private",
+    "statusNote": "Private; raised a $350M Series E at $3.5B on 2026-09-22.",
+    "statusSource": "https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/",
+    "category": "Data/evals",
+    "founded": 2019,
+    "hq": "San Francisco (formerly Redwood City)",
+    "website": "https://snorkel.ai",
+    "oneLiner": "A 'frontier AI data lab' that builds expert data, RL environments, and evals for frontier labs and enterprises, spun out of Stanford's programmatic-labeling research.",
+    "founders": "Alex Ratner (CEO; Stanford PhD under Chris Ré; UW affiliate assistant professor), with co-founders from the Stanford AI Lab Snorkel project, including Chris Ré, Paroma Varma, Braden Hancock, and Henry Ehrenberg.",
+    "talentSignals": [
+      "Grew out of the Stanford AI Lab; the team pioneered data-centric AI (https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html)",
+      "250+ peer-reviewed papers with 25,000+ citations, per the company (same source)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2025-05",
+        "stage": "Series D",
+        "amountUsdM": 100,
+        "postValuationUsdB": 1.3,
+        "leads": "Addition",
+        "source": "https://www.businesswire.com/news/home/20250529083998/en/Snorkel-AI-Announces-%24100-Million-Series-D-and-Expanded-Platform-to-Power-Next-Phase-of-AI-with-Expert-Data"
+      },
+      {
+        "date": "2026-09",
+        "stage": "Series E",
+        "amountUsdM": 350,
+        "postValuationUsdB": 3.5,
+        "leads": "Insight Partners, S32",
+        "source": "https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html"
+      }
+    ],
+    "latestValuationUsdB": 3.5,
+    "latestValuationDate": "2026-09",
+    "latestValuationSource": "https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/",
+    "arr": {
+      "valueUsdM": 375,
+      "date": "2026-09",
+      "kind": "ARR",
+      "source": "https://x.com/ajratner/status/2102415797440466997"
+    },
+    "arrHistory": [
+      {
+        "date": "2026-09",
+        "valueUsdM": 350,
+        "source": "https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/"
+      },
+      {
+        "date": "2026-09",
+        "valueUsdM": 375,
+        "source": "https://x.com/ajratner/status/2102415797440466997"
+      }
+    ],
+    "research": "Long academic track record (the Snorkel OSS project, weak supervision, data-centric AI); 250+ peer-reviewed papers and 25k+ citations by company count. It runs an Open Benchmarks Grants program.",
+    "researchSources": [
+      "https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html",
+      "https://snorkel.ai/blog/data-2-0-and-the-research-era-of-ai-data/"
+    ],
+    "xPosts": [
+      {
+        "url": "https://x.com/ajratner/status/2102415797440466997",
+        "author": "ajratner",
+        "date": "2026-09-22",
+        "likes": 412,
+        "views": 89995,
+        "summary": "CEO announces the $350M Series E at $3.5B; says the company grew 18x+ in 12 months since launching Data-as-a-Service and passed $375M ARR."
+      },
+      {
+        "url": "https://x.com/SnorkelAI/status/2102489641358328102",
+        "author": "SnorkelAI",
+        "date": "2026-09-22",
+        "likes": 98,
+        "views": 9187,
+        "summary": "Company account announces the $350M at $3.5B and the $375M ARR milestone."
+      }
+    ],
+    "xPresence": "@SnorkelAI has 18.2k followers and @ajratner 7.3k. Launch posts reach tens of thousands of views.",
+    "traction": "ARR grew 18x+ in about 12 months after Expert Data-as-a-Service launched in Sept 2025, reaching ~$350M (Reuters) to $375M (CEO). Expects to be profitable in 2026 (Reuters). Works with leading labs and enterprises (BNY, QBE, and Wells Fargo are investors and customers).",
+    "compute": null,
+    "moat": "Combines research credibility with a programmatic data platform; it also has an enterprise footprint.",
+    "risks": "Revenue swung sharply toward lab data services, which are lumpy and concentrated, in a crowded field.",
+    "proposedScores": {
+      "talent": 7,
+      "research": 7,
+      "posting": 4,
+      "traction": 7.5,
+      "moat": 5
+    },
+    "confidence": "high",
+    "notes": "Reuters puts the run rate at ~$350M while the CEO's tweet says $375M; I used the tweet for the headline and recorded both. Headcount not found."
+  },
+  {
+    "name": "Datacurve",
+    "aliases": [
+      "Datacurve AI",
+      "Shipd"
+    ],
+    "status": "private",
+    "statusNote": "Private and VC-backed (YC W24). Series A in Oct 2025; no later round found.",
+    "statusSource": "https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/",
+    "category": "Data/evals",
+    "founded": 2024,
+    "hq": "San Francisco",
+    "website": "https://datacurve.ai",
+    "oneLiner": "Frontier coding training data, sourced through Shipd, a gamified bounty platform for skilled software engineers.",
+    "founders": "Serena Ge (CEO; Waterloo CS dropout at 18; previously worked with Cohere's CTO on reasoning/coding synthetic data) and Charley Lee (ex-Google intern). Both were about 19 at founding.",
+    "talentSignals": [
+      "Series A angels include employees of DeepMind, Vercel, Anthropic, and OpenAI (https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/)",
+      "YC lists a team size of 25 (https://www.ycombinator.com/companies/datacurve)"
+    ],
+    "headcount": {
+      "value": 25,
+      "date": null,
+      "source": "https://www.ycombinator.com/companies/datacurve"
+    },
+    "rounds": [
+      {
+        "date": "2025",
+        "stage": "Seed",
+        "amountUsdM": 2.7,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/"
+      },
+      {
+        "date": "2025-10",
+        "stage": "Series A",
+        "amountUsdM": 15,
+        "postValuationUsdB": null,
+        "leads": "Chemistry (Mark Goldberg)",
+        "source": "https://www.chemistry.vc/post/staying-ahead-of-the-curve"
+      }
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Private coding benchmarks used to target model weaknesses; no notable public papers found.",
+    "researchSources": [],
+    "xPosts": [],
+    "xPresence": "@datacurve has 11.1k followers. No CEO handle was confirmed.",
+    "traction": "Over $1M paid out in bounties by Oct 2025, with multimillion-dollar contracts at leading labs and a large seven-figure deal (https://www.chemistry.vc/post/staying-ahead-of-the-curve). Shipd has 14k+ vetted engineers (Sacra).",
+    "compute": null,
+    "moat": "A community of engineers attracted by gamified bounties; thin moat.",
+    "risks": "Small player against Mercor, Turing, and Surge in coding data, and dependent on a few lab customers.",
+    "proposedScores": {
+      "talent": 4,
+      "research": 2,
+      "posting": 3,
+      "traction": 3.5,
+      "moat": 2.5
+    },
+    "confidence": "medium",
+    "notes": "Valuation not disclosed. Revenue figures exist only from aggregators (LinkedIn data ~$4.5M; GetLatka ~$2.9M for 2024), are unreliable, and were not used. No 2026 funding news found."
+  },
+  {
+    "name": "Bespoke Labs",
+    "aliases": [
+      "Bespoke Labs AI"
+    ],
+    "status": "private",
+    "statusNote": "Private; announced $40M (Series A + seed) on 2026-07-06.",
+    "statusSource": "https://www.axios.com/pro/enterprise-software-deals/2026/07/06/bespoke-labs-training-ai-agents",
+    "category": "Data/evals",
+    "founded": 2024,
+    "hq": "Mountain View",
+    "website": "https://bespokelabs.ai",
+    "oneLiner": "A research lab building RL environments and post-training data infrastructure for reliable long-horizon agents.",
+    "founders": "Mahesh Sathiamoorthy (CEO; nearly a decade at Google/DeepMind; invented Generative Retrieval/TIGER, NeurIPS 2023; KDD best paper) and Alex Dimakis (Chief Scientist; UC Berkeley professor, IEEE Fellow, 150+ papers, DataComp).",
+    "talentSignals": [
+      "Jeff Dean was a seed investor, and angels came from Anthropic, OpenAI, and Meta (https://www.morningstar.com/news/business-wire/20260706827813/bespoke-labs-announces-40m-to-build-the-environments-that-train-reliable-agents)",
+      "Wing VC's thesis piece on the founders' pedigree (https://www.wing.vc/content/investing-in-bespoke-ai)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2026-07",
+        "stage": "Seed",
+        "amountUsdM": 8.25,
+        "postValuationUsdB": null,
+        "leads": "8VC",
+        "source": "https://www.morningstar.com/news/business-wire/20260706827813/bespoke-labs-announces-40m-to-build-the-environments-that-train-reliable-agents"
+      },
+      {
+        "date": "2026-07",
+        "stage": "Series A",
+        "amountUsdM": 31.3,
+        "postValuationUsdB": null,
+        "leads": "Wing VC",
+        "source": "https://www.wing.vc/content/investing-in-bespoke-ai"
+      }
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Strong open research for its size. It co-leads OpenThoughts (open reasoning dataset; paper at ICLR), contributes to Terminal-Bench and GEPA, built Bespoke-Stratos, and released Bespoke Curator, an OSS synthetic-data curation tool.",
+    "researchSources": [
+      "https://ai.engineer/talks/data-and-environment-curation-for-post-training-llms",
+      "https://www.morningstar.com/news/business-wire/20260706827813/bespoke-labs-announces-40m-to-build-the-environments-that-train-reliable-agents"
+    ],
+    "xPosts": [],
+    "xPresence": "@AlexGDimakis 25.3k followers, @madiator (Mahesh) 17.4k, @bespokelabsai 3.5k.",
+    "traction": "Early commercial work, including a production deployment at Intuit Credit Karma (per AI Engineer talk). Serves frontier labs and enterprises with environments. No revenue disclosed.",
+    "compute": null,
+    "moat": "Research credibility and the open-source community (OpenThoughts) give it trust with labs.",
+    "risks": "Crowded RL-environment market; small and early revenue.",
+    "proposedScores": {
+      "talent": 6.5,
+      "research": 6.5,
+      "posting": 4.5,
+      "traction": 3,
+      "moat": 3
+    },
+    "confidence": "medium",
+    "notes": "Wing's blog says the Series A was $31.3M and the seed $8.25M (total about $40M). Valuation, revenue, and headcount not disclosed."
+  },
+  {
+    "name": "Collinear AI",
+    "aliases": [
+      "Collinear"
+    ],
+    "status": "private",
+    "statusNote": "Private, seed-stage. No priced round has been publicly announced. Aggregators (Caplight) report about $10M raised.",
+    "statusSource": "https://www.caplight.com/company/collinear-ai",
+    "category": "Data/evals",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://collinear.ai",
+    "oneLiner": "'AI Simulation Lab' that builds sandboxed RL environments, verifiers, and training/eval data for agents.",
+    "founders": "Nazneen Rajani (CEO; formerly led post-training/robustness research at Hugging Face; Salesforce Research; UT Austin PhD; MIT TR 35 Under 35; UN AI Advisory Body) and Soumyadeep Bakshi.",
+    "talentSignals": [
+      "The CEO's Hugging Face and Salesforce Research pedigree (https://www.rl-list.com/vendors/collinear)"
+    ],
+    "headcount": {
+      "value": 30,
+      "date": "2026-08",
+      "source": "https://www.caplight.com/company/collinear-ai"
+    },
+    "rounds": [],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Builds security/coding benchmarks (a CWE-based benchmark that Artificial Analysis reportedly uses in its Cyber Index, per the rl-list profile; not independently verified) and the SimLab tooling.",
+    "researchSources": [
+      "https://www.rl-list.com/vendors/collinear"
+    ],
+    "xPosts": [],
+    "xPresence": "@nazneenrajani 5.5k followers; @CollinearAI 703.",
+    "traction": "No disclosed revenue or customers verified.",
+    "compute": null,
+    "moat": "Thin; it is an environment and verifier vendor in a crowded space.",
+    "risks": "Under-capitalized compared with peers; funding is undisclosed.",
+    "proposedScores": {
+      "talent": 5,
+      "research": 4,
+      "posting": 2,
+      "traction": 2,
+      "moat": 2.5
+    },
+    "confidence": "low",
+    "notes": "Investors include Engineering Capital, 11.2 Capital, B Capital, Storm Ventures, and Hitachi Ventures (company About page via rl-list). The ~$10M funding figure comes only from an aggregator. Headcount (30) is aggregator-sourced."
+  },
+  {
+    "name": "Haize Labs",
+    "aliases": [
+      "Haize"
+    ],
+    "status": "acquired",
+    "statusNote": "Acquired by Beacon Software (a Toronto AI holding company) on 2026-09-17; terms undisclosed. The team became Beacon's Applied AI Research Group, and CEO Leonard Tang became VP of AI Research.",
+    "statusSource": "https://finance.yahoo.com/technology/ai/articles/beacon-acquires-haize-labs-power-143000206.html",
+    "category": "Safety/interp",
+    "founded": 2023,
+    "hq": "New York",
+    "website": "https://haizelabs.com",
+    "oneLiner": "Red-teaming, guardrails, evals, and observability for AI agents (before its acquisition).",
+    "founders": "Leonard Tang (CEO; Harvard; Stanford PhD dropout; ex-BAIR undergrad researcher), Richard Liu, and Steve Li (Harvard, BAIR).",
+    "talentSignals": [
+      "Young Harvard team; $100M valuation within its first year (https://pitchbook.com/news/articles/general-catalyst-haize-labs-100-million-valuation)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2024-08",
+        "stage": "Seed/SAFE",
+        "amountUsdM": null,
+        "postValuationUsdB": 0.1,
+        "leads": "General Catalyst",
+        "source": "https://pitchbook.com/news/articles/general-catalyst-haize-labs-100-million-valuation"
+      }
+    ],
+    "latestValuationUsdB": 0.1,
+    "latestValuationDate": "2024-08",
+    "latestValuationSource": "https://pitchbook.com/news/articles/general-catalyst-haize-labs-100-million-valuation",
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Red-teaming and jailbreak research; the CEO co-authored a PNAS 2021 paper on math-solving neural networks.",
+    "researchSources": [
+      "https://pitchbook.com/news/articles/general-catalyst-haize-labs-100-million-valuation"
+    ],
+    "xPosts": [],
+    "xPresence": "@haizelabs 4.8k followers; @leonardtang_ 4.7k (bio now 'vp of ai research @beaconholdings').",
+    "traction": "Customers included Anthropic, OpenAI, Air Canada, Deloitte, and Epic Games (https://betakit.com/beacon-buys-new-yorks-haize-labs-to-boost-ai-reliability-across-its-portfolio/).",
+    "compute": null,
+    "moat": "Small; acquired as an acqui-hire-style deal.",
+    "risks": "No longer an independent company.",
+    "proposedScores": {
+      "talent": 5,
+      "research": 4,
+      "posting": 3,
+      "traction": 2.5,
+      "moat": 2
+    },
+    "confidence": "high",
+    "notes": "EXCLUDE from the private ranking: acquired by Beacon in Sept 2026. LP Club reports $7.45M total raised and a Dec 2024 $7M SAFE at $100M post. PitchBook dates the GC-led $100M valuation to Aug 2024."
+  },
+  {
+    "name": "Goodfire",
+    "aliases": [
+      "Goodfire AI",
+      "Goodfire Inc. (PBC)"
+    ],
+    "status": "private",
+    "statusNote": "Private public benefit corporation; Series B in Feb 2026.",
+    "statusSource": "https://www.prnewswire.com/news-releases/ai-lab-goodfire-raises-150m-at-1-25b-valuation-to-design-models-with-interpretability-302680120.html",
+    "category": "Safety/interp",
+    "founded": 2024,
+    "hq": "San Francisco",
+    "website": "https://www.goodfire.com",
+    "oneLiner": "Interpretability research lab building tools to understand, debug, and intentionally design models (Ember, then the Silico platform).",
+    "founders": "Eric Ho (CEO; previously founded RippleMatch), Dan Balsam (CTO), and Tom McGrath (Chief Scientist; ex-Google DeepMind interpretability lead).",
+    "talentSignals": [
+      "Team includes researchers who 'shaped modern neural network interpretability at OpenAI, DeepMind, Stanford, and Harvard' (https://www.prnewswire.com/news-releases/ai-lab-goodfire-raises-150m-at-1-25b-valuation-to-design-models-with-interpretability-302680120.html)",
+      "Staff include Nick Cammarata (started OpenAI's interpretability team with Chris Olah) and Lee Sharkey (https://www.longtermwiki.com/wiki/E430)",
+      "Anthropic made its first-ever direct startup investment in Goodfire's Series A (https://menlovc.com/perspective/leading-goodfires-50m-series-a-to-interpret-how-ai-models-think/)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2024-10",
+        "stage": "Seed",
+        "amountUsdM": 7,
+        "postValuationUsdB": null,
+        "leads": "Lightspeed",
+        "source": "https://siliconangle.com/2025/04/18/ai-interpretability-startup-goodfire-raises-50m-funding/"
+      },
+      {
+        "date": "2025-04",
+        "stage": "Series A",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": "Menlo Ventures",
+        "source": "https://www.goodfire.com/blog/announcing-our-50m-series-a"
+      },
+      {
+        "date": "2026-02",
+        "stage": "Series B",
+        "amountUsdM": 150,
+        "postValuationUsdB": 1.25,
+        "leads": "B Capital",
+        "source": "https://www.goodfire.com/blog/our-series-b"
+      }
+    ],
+    "latestValuationUsdB": 1.25,
+    "latestValuationDate": "2026-02",
+    "latestValuationSource": "https://www.goodfire.com/blog/our-series-b",
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Prolific interpretability research: interpreting Arc Institute's Evo 2, Alzheimer's biomarker discovery with Prima Mente ('first major natural-science finding from reverse-engineering a foundation model'), reward-hacking activation monitors (Sept 2026, tested on Kimi K3), RLFR (probes as RL rewards), and SAE educational series. Released the Silico platform publicly in Aug 2026.",
+    "researchSources": [
+      "https://www.goodfire.com/research/interpreting-evo-2",
+      "https://www.goodfire.com/customer-stories/prima-mente",
+      "https://www.goodfire.com/research/reward-hacking-activation-monitors"
+    ],
+    "xPosts": [
+      {
+        "url": "https://x.com/GoodfireAI/status/2100627268465008679",
+        "author": "GoodfireAI",
+        "date": "2026-09-17",
+        "likes": 850,
+        "views": 154532,
+        "summary": "Thread: 'Models know when they're reward hacking' in 50–96% of rollouts studied; activation monitors detect it in real time."
+      }
+    ],
+    "xPresence": "@GoodfireAI has 27.6k followers; research threads reach 100k+ views. CEO handle not confirmed.",
+    "traction": "Partners include Arc Institute, Mayo Clinic, Microsoft, Rakuten, and Prima Mente. Silico platform launched publicly Aug 2026. No revenue disclosed.",
+    "compute": null,
+    "moat": "A rare concentration of interpretability talent plus a research brand.",
+    "risks": "Commercial model is unproven, and big labs (Anthropic, DeepMind) do interpretability in-house.",
+    "proposedScores": {
+      "talent": 8,
+      "research": 8,
+      "posting": 5,
+      "traction": 3.5,
+      "moat": 5
+    },
+    "confidence": "high",
+    "notes": "Over $200M raised in total. Revenue and headcount not found. Chris Olah is NOT at Goodfire (still at Anthropic)."
+  },
+  {
+    "name": "HUMAN Security",
+    "aliases": [
+      "HUMAN",
+      "HUMAN Security, Inc.",
+      "White Ops (former name)"
+    ],
+    "status": "private",
+    "statusNote": "Private and PE/growth-backed (Goldman Sachs Merchant Banking-led deal in 2020; $50M+ growth round led by WestCap in Oct 2024). No IPO or acquisition as of Oct 2026. Identity: this is the bot/fraud-defense HUMAN, as the brief specified. CAUTION: if the list intended an AI startup, it may have meant 'humans&' (Redwood City AI lab; $480M seed at $4.48B in Jan 2026, https://www.reuters.com/business/ai-startup-humans-raises-480-million-45-billion-valuation-seed-round-2026-01-20/), which was NOT researched here.",
+    "statusSource": "https://www.humansecurity.com/newsroom/platform-expansion-fuel-the-future-of-human/",
+    "category": "Security",
+    "founded": 2012,
+    "hq": "New York",
+    "website": "https://www.humansecurity.com",
+    "oneLiner": "Bot, fraud, and 'agentic trust' defense that verifies whether traffic comes from humans, bots, or AI agents across ads, apps, and accounts.",
+    "founders": "Founded as White Ops by Michael Tiffany, Tamer Hassan, and Ash Kalb (Tracxn lists Jay Crystal instead of Hassan). CEO is Stu Solomon.",
+    "talentSignals": [],
+    "headcount": {
+      "value": 520,
+      "date": "2026",
+      "source": "https://linkedin.com/company/humansecurityinc"
+    },
+    "rounds": [
+      {
+        "date": "2024-10",
+        "stage": "Growth",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": "WestCap",
+        "source": "https://www.humansecurity.com/newsroom/platform-expansion-fuel-the-future-of-human/"
+      }
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Threat-intelligence reports, for example the 2026 State of AI Traffic & Cyberthreat Benchmark, which found AI-agent traffic up 7,851% year over year.",
+    "researchSources": [
+      "https://www.humansecurity.com/newsroom/2026-state-of-ai-traffic-cyberthreat-benchmark-report/"
+    ],
+    "xPosts": [],
+    "xPresence": "No company X handle was confirmed via fxtwitter. Effectively no presence.",
+    "traction": "Analyzes over a quadrillion interactions a year and serves 500+ brands (2024). Repositioned around 'Agentic Trust' in 2026, with channel partnerships (Nuaware, Confused.com, Sept 2026).",
+    "compute": null,
+    "moat": "Large behavioral signal network and established ad-fraud and enterprise customer base.",
+    "risks": "Not an AI-native startup. Mature, PE-style company with flat headcount, competing with Cloudflare and Akamai bot management.",
+    "proposedScores": {
+      "talent": 4,
+      "research": 3,
+      "posting": 1,
+      "traction": 5.5,
+      "moat": 6
+    },
+    "confidence": "medium",
+    "notes": "Likely an outlier or mismatch for an 'AI startups' ranking; consider replacing with humans& if that was intended. Revenue (~$100M) and headcount (~520) come only from aggregators (LinkedIn data/Prospeo), so arr is left null. Total funding ~$299M (Tracxn)."
+  },
+  {
+    "name": "Doppel",
+    "aliases": [
+      "Doppel, Inc."
+    ],
+    "status": "private",
+    "statusNote": "Private. Series C in Nov 2025 at >$600M; MUFG Innovation Partners made a strategic late-stage investment in Sept 2026 (undisclosed).",
+    "statusSource": "https://www.doppel.com/company/press-releases/mufg-innovation-partners-becomes-strategic-investor-doppel",
+    "category": "Security",
+    "founded": 2022,
+    "hq": "San Francisco",
+    "website": "https://www.doppel.com",
+    "oneLiner": "AI-native social engineering defense: detects and takes down AI impersonation, phishing, and deepfake fraud, plus human-risk training and email security.",
+    "founders": "Kevin Tian (CEO; ex-Uber senior engineer, ex-Lyft staff engineer/EM; Georgetown) and Rahul Madduluri (CTO; ex-Uber ML infrastructure).",
+    "talentSignals": [
+      "Hired 60+ people in Q1 2026, bringing headcount above 200 (https://www.doppel.com/company/press-releases/doppel-enters-japan-marking-next-phase-global-expansion)",
+      "Built detection agents with OpenAI (https://www.securityweek.com/doppel-banks-35m-for-ai-based-digital-risk-protection/)"
+    ],
+    "headcount": {
+      "value": 200,
+      "date": "2026-03",
+      "source": "https://www.doppel.com/company/press-releases/doppel-enters-japan-marking-next-phase-global-expansion"
+    },
+    "rounds": [
+      {
+        "date": "2024-01",
+        "stage": "Series A",
+        "amountUsdM": 18.8,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://pitchbook.com/profiles/company/497349-28"
+      },
+      {
+        "date": "2025-05",
+        "stage": "Series B",
+        "amountUsdM": 35,
+        "postValuationUsdB": 0.205,
+        "leads": "Bessemer Venture Partners",
+        "source": "https://www.doppel.com/company/press-releases/doppel-raises-35-million-series-b"
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series C",
+        "amountUsdM": 70,
+        "postValuationUsdB": 0.6,
+        "leads": "Bessemer Venture Partners",
+        "source": "https://fortune.com/2025/11/19/exclusive-doppel-raises-70-million-series-c-at-more-than-600-million-valuation-to-fight-ai-powered-social-engineering-attacks/"
+      },
+      {
+        "date": "2026-09",
+        "stage": "Strategic (late-stage)",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": "MUFG Innovation Partners",
+        "source": "https://www.doppel.com/company/press-releases/mufg-innovation-partners-becomes-strategic-investor-doppel"
+      }
+    ],
+    "latestValuationUsdB": 0.6,
+    "latestValuationDate": "2025-11",
+    "latestValuationSource": "https://fortune.com/2025/11/19/exclusive-doppel-raises-70-million-series-c-at-more-than-600-million-valuation-to-fight-ai-powered-social-engineering-attacks/",
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Little public research; product-focused.",
+    "researchSources": [],
+    "xPosts": [],
+    "xPresence": "@DoppelHQ has 3.8k followers. Founders' handles not confirmed. Quiet.",
+    "traction": "ARR grew more than 3x year over year and Fortune 500 customers grew 5x (June 2026). Passed 300 customers and had a record Q2 2026 for new enterprise customers. Expanded to Japan (June 2026) and EMEA (Oct 2025). (https://www.doppel.com/company/press-releases/mufg-innovation-partners-becomes-strategic-investor-doppel)",
+    "compute": null,
+    "moat": "Threat graph data and takedown automation; some enterprise lock-in.",
+    "risks": "Crowded digital-risk-protection and security-awareness markets (ZeroFox, KnowBe4, Abnormal); absolute ARR is undisclosed.",
+    "proposedScores": {
+      "talent": 4.5,
+      "research": 2,
+      "posting": 2,
+      "traction": 6,
+      "moat": 4
+    },
+    "confidence": "high",
+    "notes": "Series C valuation is 'over $600M' (recorded as 0.6). Total raised $124M after the Series C. PitchBook shows ~403 employees (aggregator). The MUFG round amount and valuation are undisclosed."
+  },
+  {
+    "name": "Hugging Face",
+    "aliases": [
+      "Hugging Face, Inc.",
+      "HF"
+    ],
+    "status": "acquired",
+    "statusNote": "Nvidia signed a definitive agreement on 2026-09-02 (announced 2026-09-03) to acquire Hugging Face for $12.93B: about $11.9B to stockholders plus up to about $1.0B in retention equity. Closing is expected in H1 2027, pending regulatory approval, so it is technically still independent until then.",
+    "statusSource": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+    "category": "Open-source AI platform",
+    "founded": 2016,
+    "hq": "New York / Paris",
+    "website": "https://huggingface.co",
+    "oneLiner": "The hub for open models, datasets, and apps (3M models, 18M+ developers), plus inference and enterprise offerings.",
+    "founders": "Clément Delangue (CEO), Julien Chaumond (CTO), Thomas Wolf (CSO).",
+    "talentSignals": [
+      "Founders and team are staying on after the acquisition (https://x.com/ClementDelangue/status/2095482998674112733)",
+      "Deep open-source research bench (Transformers, SmolLM, open-r1); no specifics verified this pass"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2022-05",
+        "stage": "Series C",
+        "amountUsdM": 100,
+        "postValuationUsdB": 2,
+        "leads": "Lux Capital, Sequoia",
+        "source": "https://valueaddvc.com/blog/how-does-hugging-face-make-money-hub-hosting-enterprise-and-the-4-5b-valuation-breakdown"
+      },
+      {
+        "date": "2023-08",
+        "stage": "Series D",
+        "amountUsdM": 235,
+        "postValuationUsdB": 4.5,
+        "leads": null,
+        "source": "https://fortune.com/2026/09/03/hugging-face-goes-from-a-scrappy-startup-named-after-an-emoji-to-13-billion-nvidia-acquisition/"
+      },
+      {
+        "date": "2026-09",
+        "stage": "Acquisition (pending)",
+        "amountUsdM": 12930,
+        "postValuationUsdB": 12.93,
+        "leads": "Nvidia",
+        "source": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+      }
+    ],
+    "latestValuationUsdB": 12.93,
+    "latestValuationDate": "2026-09",
+    "latestValuationSource": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+    "arr": {
+      "valueUsdM": 150,
+      "date": "2026-08",
+      "kind": "annualized revenue",
+      "source": "https://valueaddvc.com/blog/how-does-hugging-face-make-money-hub-hosting-enterprise-and-the-4-5b-valuation-breakdown"
+    },
+    "arrHistory": [
+      {
+        "date": "2025-12",
+        "valueUsdM": 81,
+        "source": "https://sacra.com/c/hugging-face/"
+      },
+      {
+        "date": "2026-08",
+        "valueUsdM": 150,
+        "source": "https://sacra.com/c/hugging-face/"
+      }
+    ],
+    "research": "Major open-source infrastructure: the Transformers, Diffusers, and Datasets libraries and the Hub itself, plus open models and science projects. Among the most widely used OSS in AI.",
+    "researchSources": [
+      "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
+    ],
+    "xPosts": [
+      {
+        "url": "https://x.com/ClementDelangue/status/2095482998674112733",
+        "author": "ClementDelangue",
+        "date": "2026-09-03",
+        "likes": 13410,
+        "views": 1517168,
+        "summary": "Announces 'our intention to join forces with NVIDIA in a $12,930,300,000 acquisition'; platform to stay open and compute-agnostic, founders staying."
+      },
+      {
+        "url": "https://x.com/JensenHuang/status/2095482647355244762",
+        "author": "JensenHuang",
+        "date": "2026-09-03",
+        "likes": 27361,
+        "views": 6150681,
+        "summary": "Jensen Huang: 'NVIDIA is going to be a great home for Hugging Face, its community and the future of open models.'"
+      }
+    ],
+    "xPresence": "@huggingface 813.5k followers; @ClementDelangue 723.3k and frequently viral (the acquisition post passed 1.5M views).",
+    "traction": "18M individual users and 200k enterprise clients (per Nvidia, via Fortune). Hosts 3M models, 1M apps, and 500k datasets. Annualized revenue was about $150M in Aug 2026 (The Information via TechCrunch), up from about $81M at end-2025 (Sacra estimate).",
+    "compute": "Will gain Nvidia's resources after the acquisition closes.",
+    "moat": "Network effects as the default distribution hub for open models.",
+    "risks": "Regulatory review of the Nvidia deal, neutrality concerns, and revenue that is small relative to usage.",
+    "proposedScores": {
+      "talent": 8,
+      "research": 9,
+      "posting": 8.5,
+      "traction": 6.5,
+      "moat": 9
+    },
+    "confidence": "high",
+    "notes": "EXCLUDE or flag in the private ranking: pending acquisition by Nvidia (NASDAQ: NVDA). Revenue figures are estimates from The Information and Sacra, not company-reported."
+  },
+  {
+    "name": "Ai2",
+    "aliases": [
+      "Allen Institute for AI",
+      "Allen Institute for Artificial Intelligence"
+    ],
+    "status": "nonprofit",
+    "statusNote": "501(c)(3) nonprofit founded by Paul Allen. CEO Ali Farhadi stepped down in March 2026; Peter Clark is interim CEO while the board searches for a permanent one.",
+    "statusSource": "https://www.bizjournals.com/seattle/news/2026/03/12/ai2-paul-allen-institute-ai-ali-farhadi-clark.html",
+    "category": "Frontier lab (open)",
+    "founded": 2014,
+    "hq": "Seattle",
+    "website": "https://allenai.org",
+    "oneLiner": "Nonprofit lab building fully open models (OLMo, Molmo, Tülu) along with their data, code, and training recipes.",
+    "founders": "Founded by Paul G. Allen; founding CEO Oren Etzioni. Key researchers include Noah Smith and Hanna Hajishirzi (OLMo leads).",
+    "talentSignals": [
+      "At least 10 staff, including the core of the OLMo team (e.g., Luca Soldaini, Kyle Lo), left for Microsoft's Superintelligence team in 2026 (https://www.geekwire.com/2026/microsoft-adds-more-former-ai2-researchers-to-its-superintelligence-team/)",
+      "Iz Beltagy, an original OLMo member, returned as research lead (https://allenai.org/blog/omai-compute-now-live)",
+      "Primary funder (the Fund for Science and Technology) moved to proposal-based funding, which contributed to the exits (GeekWire)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2025-08",
+        "stage": "Grant (NSF $75M + Nvidia $77M)",
+        "amountUsdM": 152,
+        "postValuationUsdB": null,
+        "leads": "NSF, Nvidia",
+        "source": "https://allenai.org/blog/nsf-nvidia"
+      }
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Top-tier open research: OLMo 3 / 3.1 (fully open 7B–32B, Nov–Dec 2025), Molmo 2, Tülu, Olmo-core 3 (open MoE training stack scaling toward trillion parameters, Oct 1, 2026), and many top-venue papers.",
+    "researchSources": [
+      "https://allenai.org/blog/olmo3",
+      "https://allenai.org/blog/olmocore3"
+    ],
+    "xPosts": [],
+    "xPresence": "@allen_ai has 86.7k followers; model launches get meaningful reach.",
+    "traction": "Research nonprofit, so no revenue. The NSF OMAI Blackwell Ultra cluster went live in May 2026.",
+    "compute": "NSF OMAI cluster on Nvidia Blackwell Ultra ($152M NSF + Nvidia program).",
+    "moat": "Credibility for full openness and backing from the Allen estate; not commercial.",
+    "risks": "Attrition of OLMo leadership to Microsoft, CEO vacancy, and changing funding model.",
+    "proposedScores": {
+      "talent": 6.5,
+      "research": 9,
+      "posting": 6,
+      "traction": 2,
+      "moat": 4
+    },
+    "confidence": "high",
+    "notes": "Nonprofit, so it is likely excluded from a private-startup valuation ranking. No valuation applies."
+  },
+  {
+    "name": "Superpower",
+    "aliases": [
+      "Superpower Health",
+      "superpower.com"
+    ],
+    "status": "private",
+    "statusNote": "Private and VC-backed. The last announced round is the Apr 2025 Series A; trackers hint at a mid-2026 round (Caplight lists 'Series B Jun 2026', CB Insights an angel round on 2026-06-30), but none has been announced.",
+    "statusSource": "https://superpower.com/series-a",
+    "category": "Health",
+    "founded": 2023,
+    "hq": "San Francisco / Los Angeles",
+    "website": "https://superpower.com",
+    "oneLiner": "Consumer health 'super-app': 100+ biomarker lab tests, an AI health advisor, and concierge physicians, from $199 a year.",
+    "founders": "Max Marchione (CEO; Sydney uni dropout, ex-Goldman Sachs IB), Jacob Peters, and Kevin Unkrich.",
+    "talentSignals": [
+      "CEO claims '15 former founders, 3 ex-YC founders, Thiel fellow' on the team (https://www.forbes.com.au/news/entrepreneurs/sydney-uni-dropout-behind-432m-startup-teams-up-with-beckham-to-outsmart-aging/)",
+      "Team grew from 5 to 80 in two years (CEO LinkedIn post, June 2026)"
+    ],
+    "headcount": {
+      "value": 80,
+      "date": "2026-06",
+      "source": "https://www.linkedin.com/posts/maxmarchione_two-years-ago-superpower-was-5-people-activity-7475583995309633536-WBLl"
+    },
+    "rounds": [
+      {
+        "date": "2025-04",
+        "stage": "Series A",
+        "amountUsdM": 30,
+        "postValuationUsdB": null,
+        "leads": "Forerunner",
+        "source": "https://techcrunch.com/2025/04/22/superpower-wants-to-help-people-detect-and-address-health-issues-before-symptoms-appear/"
+      }
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "None; consumer product company.",
+    "researchSources": [],
+    "xPosts": [],
+    "xPresence": "@maxmarchione 34.9k followers; @superpower 24.3k. The CEO credits Twitter/LinkedIn virality as a growth driver.",
+    "traction": "CEO says 'tens of thousands of members and tens of millions in revenue', revenue up 100x and members up 600x in two years, and on track for $100M+ revenue within 12–18 months (https://www.withtitan.com/founders/max). Revenue grew 10x over the six months before Apr 2026 (Forbes Australia).",
+    "compute": null,
+    "moat": "Consumer brand and longitudinal health data; low barriers to entry (Function Health and others).",
+    "risks": "Competition from Function Health; regulatory and clinical-claims risk; Forbes AU notes allegations against the company, which the CEO denies.",
+    "proposedScores": {
+      "talent": 4,
+      "research": 1,
+      "posting": 5.5,
+      "traction": 5.5,
+      "moat": 3
+    },
+    "confidence": "low",
+    "notes": "Valuation is ambiguous. Forbes Australia (Apr 2026) says '$432M' valuation and a '$43M Series A', which look like AUD conversions of the USD 30M round. CB Insights shows $120M at the 2025 Series A. A Titan page says '>$500M in July 2026' without a primary source. All are left null. Membership price is $199/yr now (was $499 at launch)."
+  },
+  {
+    "name": "Hippocratic AI",
+    "aliases": [
+      "Hippocratic AI Inc."
+    ],
+    "status": "private",
+    "statusNote": "Private. Last announced round was the Nov 2025 Series C at $3.5B. Its disclosed total funding rose from $404M to $444M by Aug 2026, implying about $40M of unannounced raises.",
+    "statusSource": "https://www.morningstar.com/news/pr-newswire/20260813la25760/hippocratic-ai-announces-next-generation-of-healthcare-ai-orchestrators-focused-on-outcomes-not-tasks",
+    "category": "Health",
+    "founded": 2023,
+    "hq": "Palo Alto",
+    "website": "https://hippocraticai.com",
+    "oneLiner": "Safety-focused, non-diagnostic voice AI agents for health systems, payors, and pharma, built on its Polaris constellation model.",
+    "founders": "Munjal Shah (CEO; previously founded Like.com, acquired by Google, and Health IQ) with clinical and technical co-founders.",
+    "talentSignals": [
+      "Acquired Grove AI (clinical trials AI) in Jan 2026 and appointed a President of Life Sciences (https://www.businesswire.com/news/home/20260112959357/en/Hippocratic-AI-Consolidates-Life-Sciences-Leadership-with-Acquisition-of-Grove-AI-and-Key-Executive-Appointments)"
+    ],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2023-05",
+        "stage": "Seed",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://www.revenuememo.com/p/hippocratic-ai-funding"
+      },
+      {
+        "date": "2024-03",
+        "stage": "Series A",
+        "amountUsdM": 53,
+        "postValuationUsdB": 0.5,
+        "leads": null,
+        "source": "https://www.revenuememo.com/p/hippocratic-ai-funding"
+      },
+      {
+        "date": "2025-01",
+        "stage": "Series B",
+        "amountUsdM": 141,
+        "postValuationUsdB": 1.64,
+        "leads": null,
+        "source": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-lands-126m-series-c-expand-patient-facing-ai-agents-fuel-ma"
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series C",
+        "amountUsdM": 126,
+        "postValuationUsdB": 3.5,
+        "leads": "Avenir Growth",
+        "source": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/"
+      }
+    ],
+    "latestValuationUsdB": 3.5,
+    "latestValuationDate": "2025-11",
+    "latestValuationSource": "https://www.businesswire.com/news/home/20251103432446/en/Hippocratic-AI-Raises-%24126-Million-in-Series-C-at-%243.5-Billion-Valuation-Led-by-Avenir-Growth-to-Expand-Clinically-Safe-Generative-AI-Agents-Across-Healthcare",
+    "arr": {
+      "valueUsdM": null,
+      "date": null,
+      "kind": null,
+      "source": null
+    },
+    "arrHistory": [],
+    "research": "Polaris safety constellation architecture (patented, per the company); technical reports on Polaris. Moderate output.",
+    "researchSources": [
+      "https://www.morningstar.com/news/pr-newswire/20260813la25760/hippocratic-ai-announces-next-generation-of-healthcare-ai-orchestrators-focused-on-outcomes-not-tasks"
+    ],
+    "xPosts": [],
+    "xPresence": "@munjalshah 2.4k followers; @hippocraticai 1.7k. Quiet.",
+    "traction": "More than 250M patient voice interactions across 300+ live clinical use cases by Aug 2026, with about 280M by Oct 2026 (company LinkedIn). Works with nearly all of the top-10 US payors. Customers include Cleveland Clinic, Northwestern, and the NHS Guy's & St Thomas'. 50+ enterprise customers in 6 countries (Nov 2025).",
+    "compute": null,
+    "moat": "Clinical safety track record, health-system integrations, and the company taking contractual responsibility for its agents.",
+    "risks": "Revenue undisclosed, slow healthcare procurement, and competition from Abridge, Ambience, and incumbents.",
+    "proposedScores": {
+      "talent": 6,
+      "research": 4.5,
+      "posting": 2,
+      "traction": 6.5,
+      "moat": 5
+    },
+    "confidence": "medium",
+    "notes": "No revenue figure from reliable reporting (LinkedIn data says $76M, an aggregator figure, not used). Leads for the seed, Series A, and Series B were not verified and are left null. The Series A ($53M, Mar 2024, ~$500M) and Series B ($141M, Jan 2025, $1.64B) amounts and valuations come from Fierce Healthcare and revenuememo."
+  },
+  {
+    "name": "Deel",
+    "aliases": [
+      "Deel, Inc."
+    ],
+    "status": "private",
+    "statusNote": "Private as of Oct 2026. Series E in Oct 2025 at $17.3B. IPO has been discussed since 2025, but no filing or date has been announced.",
+    "statusSource": "https://www.calcalistech.com/ctechnews/article/r1nhlgcsge",
+    "category": "Enterprise SaaS (HR/payroll)",
+    "founded": 2019,
+    "hq": "San Francisco",
+    "website": "https://www.deel.com",
+    "oneLiner": "Global HR, payroll, employer-of-record, and contractor payments platform for 37k+ businesses and 1.5M workers in 150+ countries.",
+    "founders": "Alex Bouaziz (CEO) and Shuo Wang (CRO); YC W19.",
+    "talentSignals": [],
+    "headcount": {
+      "value": null,
+      "date": null,
+      "source": null
+    },
+    "rounds": [
+      {
+        "date": "2025-10",
+        "stage": "Series E",
+        "amountUsdM": 300,
+        "postValuationUsdB": 17.3,
+        "leads": "Ribbit Capital",
+        "source": "https://www.businesswire.com/news/home/20251016949787/en/Deel-Secures-%24300-Million-in-Series-E-Funding"
+      }
+    ],
+    "latestValuationUsdB": 17.3,
+    "latestValuationDate": "2025-10",
+    "latestValuationSource": "https://pitchbook.com/news/articles/deel-reaches-17-3-billion-valuation-amid-ongoing-legal-battle",
+    "arr": {
+      "valueUsdM": 1500,
+      "date": "2026-06",
+      "kind": "ARR",
+      "source": "https://www.calcalistech.com/ctechnews/article/r1nhlgcsge"
+    },
+    "arrHistory": [
+      {
+        "date": "2024-12",
+        "valueUsdM": 800,
+        "source": "https://www.cnbc.com/2025/02/04/hr-unicorn-deel-prepares-for-ipo-as-soon-as-2026.html"
+      },
+      {
+        "date": "2025-10",
+        "valueUsdM": 1000,
+        "source": "https://www.businesswire.com/news/home/20251016949787/en/Deel-Secures-%24300-Million-in-Series-E-Funding"
+      },
+      {
+        "date": "2026-06",
+        "valueUsdM": 1500,
+        "source": "https://www.calcalistech.com/ctechnews/article/r1nhlgcsge"
+      }
+    ],
+    "research": "None meaningful; product/SaaS company.",
+    "researchSources": [],
+    "xPosts": [],
+    "xPresence": "@Bouazizalex 447.7k followers; @deel 32.7k.",
+    "traction": "Passed $1.5B ARR in H1 2026, up from $1B in 2025. Profitable for three years. First $100M revenue month in Sept 2025. Processes $22B in payroll a year (Oct 2025).",
+    "compute": null,
+    "moat": "Owned payroll and legal-entity infrastructure in 100+ countries, compliance depth, and scale.",
+    "risks": "Rippling litigation (trade-secret and espionage suits and countersuits). Secondary market prices it about 17% below the last round (Notice.co via Hustle Fund, mid-2026). Not an AI-native company.",
+    "proposedScores": {
+      "talent": 5,
+      "research": 1,
+      "posting": 6,
+      "traction": 8.5,
+      "moat": 7
+    },
+    "confidence": "high",
+    "notes": "Not an AI startup, so it probably fits poorly in an AI ranking. Secondary-market implied valuation of about $14.3B (June 2026) is from Notice.co, an aggregator. Headcount not found."
+  }
+]
