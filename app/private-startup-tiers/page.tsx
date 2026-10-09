@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
@@ -25,6 +25,18 @@ import {
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import EditorialCover from '@/components/research/EditorialCover';
 import StockCaseHover from '@/components/research/StockCaseHover';
+import WeightsPanel, { RankMove } from './WeightsPanel';
+import {
+  DEFAULT_WEIGHTS,
+  decodeWeights,
+  effectiveWeights,
+  encodeWeights,
+  sameWeights,
+  scoreStartups,
+  type CutoffMode,
+  type LiveStartup,
+  type Weights,
+} from './weights';
 import {
   crowdPosts,
   deepDives,
@@ -38,7 +50,6 @@ import {
   updatedLabel,
   weightTotal,
   type FactorKey,
-  type RankedStartup,
   type Tier,
 } from '@/data/privateStartupTiers';
 
@@ -124,11 +135,11 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub: st
   );
 }
 
-function ScoreBar({ label, value, color, weight }: { label: string; value: number; color: string; weight: number }) {
+function ScoreBar({ label, value, color, weight }: { label: string; value: number; color: string; weight: string }) {
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginBottom: 4 }}>
-        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>{label} <span style={{ color: 'var(--ink-400)' }}>· {weight}%</span></span>
+        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>{label} <span style={{ color: 'var(--ink-400)' }}>· {weight}</span></span>
         <span style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-900)', fontFamily: 'monospace', fontWeight: 800 }}>{value.toFixed(1)}</span>
       </div>
       <div style={{ height: 7, background: 'var(--ink-100)', borderRadius: 99, overflow: 'hidden' }}>
@@ -138,8 +149,8 @@ function ScoreBar({ label, value, color, weight }: { label: string; value: numbe
   );
 }
 
-function CompanyCard({ company }: { company: RankedStartup }) {
-  const tierPeers = rankedStartups.filter((c) => c.tier === company.tier);
+function CompanyCard({ company, peers, eff }: { company: LiveStartup; peers: LiveStartup[]; eff: Weights }) {
+  const tierPeers = peers.filter((c) => c.tier === company.tier);
   const radarData = factors.map((f) => ({
     factor: f.short,
     [company.name]: company.subscores[f.key],
@@ -150,7 +161,7 @@ function CompanyCard({ company }: { company: RankedStartup }) {
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 16, alignItems: 'flex-start' }}>
         <div>
           <div style={{ fontSize: 'var(--text-xs)', color: sectorColors[company.sector], fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-            #{company.rank} · {company.sector}
+            #{company.rank} <RankMove from={company.defaultRank} to={company.rank} compact /> · {company.sector}
           </div>
           <h3 className="font-display" style={{ fontSize: 'var(--text-2xl)', lineHeight: 1.05, margin: '6px 0 4px', color: 'var(--ink-950)' }}>{company.name}</h3>
           <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>
@@ -206,7 +217,7 @@ function CompanyCard({ company }: { company: RankedStartup }) {
 
       <div style={{ display: 'grid', gap: 8, marginTop: 'var(--space-sm)' }}>
         {factors.map((f) => (
-          <ScoreBar key={f.key} label={f.label} value={company.subscores[f.key]} color={f.color} weight={f.weight} />
+          <ScoreBar key={f.key} label={f.label} value={company.subscores[f.key]} color={f.color} weight={`${(eff[f.key] * 100).toFixed(1)}%`} />
         ))}
       </div>
 
@@ -246,11 +257,11 @@ function CompanyCard({ company }: { company: RankedStartup }) {
   );
 }
 
-function TierBoard({ onSelect, selected }: { onSelect: (name: string) => void; selected: string }) {
+function TierBoard({ companies, onSelect, selected }: { companies: LiveStartup[]; onSelect: (name: string) => void; selected: string }) {
   return (
     <div style={{ border: '1px solid var(--ink-100)', borderRadius: 6, overflow: 'hidden', background: 'var(--surface-raised)' }}>
       {tiers.map((t) => {
-        const members = rankedStartups.filter((c) => c.tier === t.tier);
+        const members = companies.filter((c) => c.tier === t.tier);
         return (
           <div key={t.tier} style={{ display: 'grid', gridTemplateColumns: '92px 1fr', borderBottom: '1px solid var(--ink-100)' }}>
             <div style={{ background: t.color, color: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '14px 6px', textAlign: 'center' }}>
@@ -284,6 +295,7 @@ function TierBoard({ onSelect, selected }: { onSelect: (name: string) => void; s
                     <span style={{ width: 7, height: 7, borderRadius: 99, background: sectorColors[c.sector] }} />
                     {c.name}
                     <span style={{ fontFamily: 'monospace', color: 'var(--ink-500)' }}>{c.composite.toFixed(1)}</span>
+                    <RankMove from={c.defaultRank} to={c.rank} compact />
                   </button>
                 ))}
               </div>
@@ -309,10 +321,10 @@ function ScatterTooltip({ active, payload, xLabel, yLabel }: { active?: boolean;
   );
 }
 
-function ValuationScatter({ onSelect }: { onSelect: (name: string) => void }) {
+function ValuationScatter({ companies, onSelect }: { companies: LiveStartup[]; onSelect: (name: string) => void }) {
   const byTier = tiers.map((t) => ({
     tier: t.tier,
-    data: rankedStartups
+    data: companies
       .filter((c) => c.tier === t.tier && c.valuationUsdB)
       .map((c) => ({ name: c.name, x: c.valuationUsdB as number, y: c.composite, z: 60, tier: c.tier })),
   }));
@@ -331,7 +343,7 @@ function ValuationScatter({ onSelect }: { onSelect: (name: string) => void }) {
           fontSize={11}
           label={{ value: 'Latest valuation (log scale)', position: 'insideBottom', offset: -18, fontSize: 11, fill: 'var(--ink-500)' }}
         />
-        <YAxis type="number" dataKey="y" domain={[30, 90]} stroke="var(--ink-400)" fontSize={11} label={{ value: 'Composite', angle: -90, position: 'insideLeft', offset: 18, fontSize: 11, fill: 'var(--ink-500)' }} />
+        <YAxis type="number" dataKey="y" domain={[20, 95]} stroke="var(--ink-400)" fontSize={11} label={{ value: 'Composite', angle: -90, position: 'insideLeft', offset: 18, fontSize: 11, fill: 'var(--ink-500)' }} />
         <ZAxis type="number" dataKey="z" range={[50, 50]} />
         <Tooltip content={<ScatterTooltip xLabel={(d) => `Valuation ${formatUsdB(d.x)}`} yLabel={(d) => `Composite ${d.y.toFixed(1)}`} />} />
         {byTier.map((group) => (
@@ -350,8 +362,8 @@ function ValuationScatter({ onSelect }: { onSelect: (name: string) => void }) {
   );
 }
 
-function VelocityScatter({ onSelect }: { onSelect: (name: string) => void }) {
-  const data = rankedStartups
+function VelocityScatter({ companies, onSelect }: { companies: LiveStartup[]; onSelect: (name: string) => void }) {
+  const data = companies
     .filter((c) => c.velocityMeta.raised18moUsdM > 0 && c.velocityMeta.gapMonths !== null)
     .map((c) => ({ name: c.name, x: c.velocityMeta.gapMonths as number, y: c.velocityMeta.raised18moUsdM, z: c.subscores.velocity, tier: c.tier }));
   return (
@@ -387,10 +399,10 @@ function VelocityScatter({ onSelect }: { onSelect: (name: string) => void }) {
   );
 }
 
-function ContributionBars({ companies, onSelect }: { companies: RankedStartup[]; onSelect: (name: string) => void }) {
+function ContributionBars({ companies, eff, onSelect }: { companies: LiveStartup[]; eff: Weights; onSelect: (name: string) => void }) {
   const data = companies.map((c) => ({
     name: c.name,
-    ...Object.fromEntries(factors.map((f) => [f.short, Number(((f.weight * c.subscores[f.key]) / 10).toFixed(2))])),
+    ...Object.fromEntries(factors.map((f) => [f.short, Number((eff[f.key] * 10 * c.subscores[f.key]).toFixed(2))])),
   }));
   return (
     <ResponsiveContainer width="100%" height={Math.max(360, companies.length * 22)}>
@@ -425,7 +437,7 @@ function WeightsChart() {
   );
 }
 
-const sortValue = (c: RankedStartup, key: SortKey): number | string => {
+const sortValue = (c: LiveStartup, key: SortKey): number | string => {
   if (key === 'rank') return c.rank;
   if (key === 'name') return c.name.toLowerCase();
   if (key === 'valuation') return c.valuationUsdB ?? -1;
@@ -435,7 +447,28 @@ const sortValue = (c: RankedStartup, key: SortKey): number | string => {
 };
 
 export default function PrivateStartupTiersPage() {
+  const [weights, setWeights] = useState<Weights>(DEFAULT_WEIGHTS);
+  const [cutoffMode, setCutoffMode] = useState<CutoffMode>('fixed');
+  const [urlReady, setUrlReady] = useState(false);
+  const [panelOpen, setPanelOpen] = useState(true);
+  const live = useMemo(() => scoreStartups(weights, cutoffMode), [weights, cutoffMode]);
+  const eff = useMemo(() => effectiveWeights(weights), [weights]);
+  const isDefault = sameWeights(weights, DEFAULT_WEIGHTS) && cutoffMode === 'fixed';
   const [selectedName, setSelectedName] = useState(rankedStartups[0].name);
+
+  useEffect(() => {
+    const decoded = decodeWeights(window.location.search);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydrate shared weights from the URL after SSR
+    if (decoded) { setWeights(decoded.weights); setCutoffMode(decoded.mode); }
+    setUrlReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!urlReady) return;
+    const query = encodeWeights(weights, cutoffMode);
+    const next = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+    window.history.replaceState(null, '', next);
+  }, [weights, cutoffMode, urlReady]);
   const [sortKey, setSortKey] = useState<SortKey>('rank');
   const [sortAsc, setSortAsc] = useState(true);
   const [tierFilter, setTierFilter] = useState<TierFilter>('All');
@@ -443,11 +476,11 @@ export default function PrivateStartupTiersPage() {
   const [query, setQuery] = useState('');
   const [chartSet, setChartSet] = useState<'top25' | 'all'>('top25');
 
-  const selected = rankedStartups.find((c) => c.name === selectedName) ?? rankedStartups[0];
+  const selected = live.find((c) => c.name === selectedName) ?? live[0];
 
   const tableRows = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const rows = rankedStartups
+    const rows = live
       .filter((c) => tierFilter === 'All' || c.tier === tierFilter)
       .filter((c) => sectorFilter === 'All' || c.sector === sectorFilter)
       .filter((c) => !q || c.name.toLowerCase().includes(q) || (c.category ?? '').toLowerCase().includes(q) || c.aliases.some((a) => a.toLowerCase().includes(q)));
@@ -457,7 +490,7 @@ export default function PrivateStartupTiersPage() {
       const cmp = av < bv ? -1 : av > bv ? 1 : 0;
       return sortAsc ? cmp : -cmp;
     });
-  }, [query, tierFilter, sectorFilter, sortKey, sortAsc]);
+  }, [live, query, tierFilter, sectorFilter, sortKey, sortAsc]);
 
   const select = (name: string) => {
     setSelectedName(name);
@@ -472,14 +505,14 @@ export default function PrivateStartupTiersPage() {
     }
   };
 
-  const tierCounts = tiers.map((t) => ({ tier: t.tier, n: rankedStartups.filter((c) => c.tier === t.tier).length }));
+  const tierCounts = tiers.map((t) => ({ tier: t.tier, n: live.filter((c) => c.tier === t.tier).length }));
   const withArr = rankedStartups.filter((c) => c.arr?.valueUsdM).length;
   const withVal = rankedStartups.filter((c) => c.valuationUsdB).length;
   const sourceCount = rankedStartups.reduce((s, c) => s + c.sources.length, 0);
   const excludedPublic = excludedEntities.filter((e) => e.status === 'public').length;
   const acquired = excludedEntities.filter((e) => e.referenceComposite !== undefined).sort((a, b) => (b.referenceComposite ?? 0) - (a.referenceComposite ?? 0));
-  const picks = rankedStartups.filter((c) => deepDives[c.name]).slice(0, 10);
-  const contributionCompanies = chartSet === 'top25' ? rankedStartups.slice(0, 25) : rankedStartups;
+  const picks = live.filter((c) => deepDives[c.name]).sort((a, b) => a.defaultRank - b.defaultRank).slice(0, 10);
+  const contributionCompanies = chartSet === 'top25' ? live.slice(0, 25) : live;
 
   const thStyle: React.CSSProperties = { padding: '10px 8px', fontSize: '0.68rem', textTransform: 'uppercase', letterSpacing: '0.06em', borderBottom: '1px solid var(--ink-100)', cursor: 'pointer', whiteSpace: 'nowrap', userSelect: 'none' };
   const sortArrow = (key: SortKey) => (sortKey === key ? (sortAsc ? ' ▲' : ' ▼') : '');
@@ -509,17 +542,17 @@ export default function PrivateStartupTiersPage() {
               </Reveal>
               <Reveal delay={0.12}>
                 <p style={{ maxWidth: 640, color: 'var(--ink-600)', fontSize: 'var(--text-lg)', lineHeight: 1.65, margin: 'var(--space-xl) 0 0' }}>
-                  {rankedStartups.length} still-private startups, drawn from a user watchlist plus the 6 Oct 2026 X tier-list thread, each scored 0–100 on eight weighted factors. The factors are talent density, fundraising velocity, traction, valuation upside, research output, revenue multiple, moat, and X posting reach. Composites map to S through E tiers with fixed cutoffs. Public companies, subsidiaries, and acquired companies are listed separately with reasons. Every hard number links to a source.
+                  {rankedStartups.length} still-private startups, drawn from a user watchlist plus the 6 Oct 2026 X tier-list thread, each scored 0–100 on eight weighted factors. The factors are talent density, fundraising velocity, traction, valuation upside, research output, revenue multiple, moat, and X posting reach. Composites map to S through E tiers with fixed cutoffs. Don&apos;t agree with the weights? Re-weight them below and the whole ranking updates live. Public companies, subsidiaries, and acquired companies are listed separately with reasons. Every hard number links to a source.
                 </p>
               </Reveal>
             </div>
             <Reveal delay={0.18}>
               <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)' }}>
-                <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 800, marginBottom: 'var(--space-md)' }}>Top 12 composites</div>
+                <div style={{ color: 'var(--ink-500)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 800, marginBottom: 'var(--space-md)' }}>Top 12 composites{isDefault ? '' : ' · custom weights'}</div>
                 <div style={{ display: 'grid', gap: 8 }}>
-                  {rankedStartups.slice(0, 12).map((c) => (
+                  {live.slice(0, 12).map((c) => (
                     <button key={c.name} type="button" onClick={() => select(c.name)} style={{ border: 'none', background: 'transparent', padding: 0, cursor: 'pointer', textAlign: 'left' }}>
-                      <div style={{ display: 'grid', gridTemplateColumns: '28px 24px minmax(110px, 180px) 1fr 40px', gap: 8, alignItems: 'center' }}>
+                      <div style={{ display: 'grid', gridTemplateColumns: '28px 24px minmax(110px, 180px) 1fr 40px 30px', gap: 8, alignItems: 'center' }}>
                         <span style={{ fontFamily: 'monospace', color: 'var(--ink-400)', fontWeight: 900 }}>{c.rank}</span>
                         <TierBadge tier={c.tier} />
                         <span style={{ color: 'var(--ink-900)', fontWeight: 800, fontSize: 'var(--text-sm)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.name}</span>
@@ -527,6 +560,7 @@ export default function PrivateStartupTiersPage() {
                           <div style={{ height: '100%', width: `${c.composite}%`, background: tierColor(c.tier), borderRadius: 99 }} />
                         </div>
                         <span style={{ textAlign: 'right', fontFamily: 'monospace', fontWeight: 900, color: 'var(--ink-900)' }}>{c.composite.toFixed(1)}</span>
+                        <RankMove from={c.defaultRank} to={c.rank} compact />
                       </div>
                     </button>
                   ))}
@@ -544,7 +578,7 @@ export default function PrivateStartupTiersPage() {
         title="Talent gets you in the room. Revenue keeps you in the tier."
         thesis="Research-only labs with legendary founders (SSI, Discovery Loop, AMI Labs) top the talent column but land in B/C once missing ARR and rich valuations are priced in. The S tier is the four companies where talent, fundraising velocity, and compounding revenue all show up in sourced numbers."
         signals={[
-          { label: 'S tier', value: rankedStartups.filter((c) => c.tier === 'S').map((c) => c.name).join(' · ') },
+          { label: 'S tier', value: live.filter((c) => c.tier === 'S').map((c) => c.name).join(' · ') },
           { label: 'Biggest gap vs crowd', value: 'SSI: S+ in thread, C here (no revenue, $32B)' },
           { label: 'No longer private', value: 'SpaceX/xAI · Cerebras · Cursor · World Labs' },
         ]}
@@ -626,14 +660,45 @@ export default function PrivateStartupTiersPage() {
         </div>
       </section>
 
+      {/* Custom weights */}
+      <section id="custom-weights" style={{ padding: '0 var(--space-lg) var(--space-3xl)', scrollMarginTop: 60 }}>
+        <div className="max-w-6xl mx-auto">
+          <Reveal>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 'var(--space-md)', alignItems: 'end', marginBottom: 'var(--space-md)' }}>
+              <div>
+                <Eyebrow>Build your own ranking</Eyebrow>
+                <h2 className="font-display" style={{ fontSize: 'var(--text-3xl)', color: 'var(--ink-950)', fontWeight: 900, margin: 0, lineHeight: 1.05 }}>Re-weight the factors. Everything below updates live.</h2>
+              </div>
+              <button type="button" onClick={() => setPanelOpen(!panelOpen)} aria-expanded={panelOpen} style={{ border: '1px solid var(--ink-200)', background: 'var(--surface-raised)', color: 'var(--ink-700)', borderRadius: 99, padding: '7px 12px', fontSize: 'var(--text-xs)', fontWeight: 800, cursor: 'pointer' }}>
+                {panelOpen ? 'Hide controls' : 'Show controls'}
+              </button>
+            </div>
+            <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.65, maxWidth: 860, margin: '0 0 var(--space-md)' }}>
+              The subscores are fixed; only the weights change. Composites, ranks, tiers, the tier board, the table, and every chart recompute in your browser. ▲/▼ shows the move against the published ranking. Your weights are saved in the URL, so a custom ranking can be shared.
+            </p>
+          </Reveal>
+          {panelOpen && (
+            <WeightsPanel weights={weights} mode={cutoffMode} live={live} onWeights={setWeights} onMode={setCutoffMode} onSelect={select} />
+          )}
+        </div>
+      </section>
+
+      {!isDefault && (
+        <div style={{ position: 'fixed', bottom: 16, left: '50%', transform: 'translateX(-50%)', zIndex: 70, display: 'flex', gap: 6, alignItems: 'center', background: 'var(--surface-overlay)', border: '1px solid var(--ink-200)', borderRadius: 99, padding: '6px 8px 6px 14px', boxShadow: '0 10px 30px oklch(0% 0 0 / 0.18)', backdropFilter: 'blur(8px)', maxWidth: 'calc(100vw - 24px)' }}>
+          <span style={{ fontSize: 'var(--text-xs)', fontWeight: 800, color: 'var(--ink-800)', whiteSpace: 'nowrap' }}>Custom weights</span>
+          <a href="#custom-weights" onClick={() => setPanelOpen(true)} style={{ fontSize: 'var(--text-xs)', fontWeight: 800, color: 'var(--accent)', textDecoration: 'none', padding: '4px 8px', whiteSpace: 'nowrap' }}>Edit</a>
+          <button type="button" onClick={() => { setWeights(DEFAULT_WEIGHTS); setCutoffMode('fixed'); }} style={{ fontSize: 'var(--text-xs)', fontWeight: 800, color: 'white', background: 'var(--accent)', border: 'none', borderRadius: 99, padding: '5px 10px', cursor: 'pointer', whiteSpace: 'nowrap' }}>↺ Reset</button>
+        </div>
+      )}
+
       {/* Tier board + explorer */}
       <section id="tier-board" style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)', borderBottom: '1px solid var(--ink-100)' }}>
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <Eyebrow>Tier board</Eyebrow>
-            <H2>S → E, click any company</H2>
+            <H2>S → E, click any company{isDefault ? '' : ' (custom weights)'}</H2>
           </Reveal>
-          <TierBoard onSelect={select} selected={selected.name} />
+          <TierBoard companies={live} onSelect={select} selected={selected.name} />
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 'var(--space-md)' }}>
             {Object.entries(sectorColors).map(([s, color]) => (
               <span key={s} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>
@@ -655,16 +720,16 @@ export default function PrivateStartupTiersPage() {
               <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)' }}>
                 <div style={{ fontWeight: 900, color: 'var(--ink-950)' }}>Valuation vs. composite</div>
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 8 }}>Upper-left is the sweet spot: high score at a modest valuation. Only companies with a sourced valuation are plotted. Click a dot to load it.</div>
-                <ValuationScatter onSelect={select} />
+                <ValuationScatter companies={live} onSelect={select} />
               </div>
               <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)' }}>
                 <div style={{ fontWeight: 900, color: 'var(--ink-950)' }}>Fundraising velocity map</div>
                 <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 8 }}>Closed primary capital raised since Apr 2025 (log) vs. months between the last two rounds. Bubble size is the velocity subscore. Tenders and rounds still in talks are excluded.</div>
-                <VelocityScatter onSelect={select} />
+                <VelocityScatter companies={live} onSelect={select} />
               </div>
             </div>
             <div style={{ position: 'sticky', top: 72 }}>
-              <CompanyCard company={selected} />
+              <CompanyCard company={selected} peers={live} eff={eff} />
             </div>
           </div>
 
@@ -682,7 +747,7 @@ export default function PrivateStartupTiersPage() {
                 ))}
               </div>
             </div>
-            <ContributionBars companies={contributionCompanies} onSelect={select} />
+            <ContributionBars companies={contributionCompanies} eff={eff} onSelect={select} />
           </div>
         </div>
       </section>
@@ -692,7 +757,7 @@ export default function PrivateStartupTiersPage() {
         <div className="max-w-7xl mx-auto">
           <Reveal>
             <Eyebrow>Full ranking</Eyebrow>
-            <H2>All {rankedStartups.length} companies with factor subscores</H2>
+            <H2>All {rankedStartups.length} companies with factor subscores{isDefault ? '' : ' — custom weights'}</H2>
           </Reveal>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 'var(--space-md)', alignItems: 'center' }}>
             <input
@@ -716,12 +781,13 @@ export default function PrivateStartupTiersPage() {
               <thead>
                 <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
                   <th style={thStyle} onClick={() => onSort('rank')}>#{sortArrow('rank')}</th>
+                  <th style={{ ...thStyle, cursor: 'default' }} title="Rank change vs. default weights">Δ</th>
                   <th style={thStyle} onClick={() => onSort('name')}>Company{sortArrow('name')}</th>
                   <th style={thStyle}>Tier</th>
                   <th style={thStyle} onClick={() => onSort('rank')}>Score{sortArrow('rank')}</th>
                   {factors.map((f) => (
-                    <th key={f.key} style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort(f.key)} title={`${f.label} (${f.weight}%)`}>
-                      {f.short}<span style={{ color: 'var(--ink-400)' }}> {f.weight}</span>{sortArrow(f.key)}
+                    <th key={f.key} style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort(f.key)} title={`${f.label} (${(eff[f.key] * 100).toFixed(1)}% effective weight)`}>
+                      {f.short}<span style={{ color: 'var(--ink-400)' }}> {Math.round(eff[f.key] * 100)}</span>{sortArrow(f.key)}
                     </th>
                   ))}
                   <th style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort('valuation')}>Valuation{sortArrow('valuation')}</th>
@@ -732,11 +798,12 @@ export default function PrivateStartupTiersPage() {
               </thead>
               <tbody>
                 {tableRows.length === 0 && (
-                  <tr><td colSpan={16} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
+                  <tr><td colSpan={17} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
                 )}
                 {tableRows.map((c) => (
                   <tr key={c.name} onClick={() => select(c.name)} style={{ borderBottom: '1px solid var(--ink-100)', cursor: 'pointer', background: c.name === selected.name ? 'color-mix(in srgb, var(--accent) 7%, transparent)' : 'transparent' }}>
                     <td style={{ padding: '9px 8px', fontFamily: 'monospace', color: 'var(--ink-400)', fontWeight: 900 }}>{c.rank}</td>
+                    <td style={{ padding: '9px 4px' }}><RankMove from={c.defaultRank} to={c.rank} /></td>
                     <td style={{ padding: '9px 8px', minWidth: 190 }}>
                       <div style={{ color: 'var(--ink-950)', fontWeight: 900, fontSize: 'var(--text-sm)' }}>{c.name}</div>
                       <div style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: '0.7rem', color: 'var(--ink-500)' }}>
@@ -796,7 +863,7 @@ export default function PrivateStartupTiersPage() {
                 <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderTop: `4px solid ${tierColor(c.tier)}`, borderRadius: 6, padding: 'var(--space-lg)', height: '100%' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'flex-start' }}>
                     <div>
-                      <div style={{ fontSize: 'var(--text-xs)', color: sectorColors[c.sector], fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.1em' }}>#{c.rank} · {c.sector}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: sectorColors[c.sector], fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.1em' }}>#{c.rank} <RankMove from={c.defaultRank} to={c.rank} compact /> · {c.sector}</div>
                       <button type="button" onClick={() => select(c.name)} className="font-display" style={{ border: 'none', background: 'transparent', padding: 0, cursor: 'pointer', fontSize: 'var(--text-xl)', fontWeight: 900, color: 'var(--ink-950)', marginTop: 4, textAlign: 'left' }}>{c.name}</button>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
