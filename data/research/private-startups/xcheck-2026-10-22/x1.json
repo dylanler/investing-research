@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Periodic Labs",
+    "updates": {
+      "closedValuation": {
+        "valueUsdB": 7.5,
+        "date": "2026-06",
+        "publishedDate": "2026-09-12",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "singleSource": true,
+        "replacesSignal": true,
+        "confidence": "med"
+      },
+      "totalRaised": {
+        "valueUsdM": 1070,
+        "asOf": "2026-09-12",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "label": "Forge total funding (COI-derived)",
+        "singleSource": true,
+        "confidence": "med"
+      },
+      "dropStageContains": ["in talks"],
+      "patchRounds": [
+        {
+          "matchStage": "Series A (reported)",
+          "stage": "Series A",
+          "date": "2026-06",
+          "amountUsdM": 750,
+          "postValuationUsdB": 7.5,
+          "leads": "AMP PBC",
+          "source": "https://forgeglobal.com/periodic-labs_ipo/",
+          "singleSource": true,
+          "note": "Forge COI, published 2026-09-12: Series A $750M at $41.61/sh plus A-1 about $17M and A-2 about $41M, $7.5B post, dated 2026-06-03. Forge says the company has not publicly confirmed it. Medium confidence. Supersedes the March and May 2026 in-talks rows."
+        }
+      ],
+      "note": "[Cross-check 2026-10-22, med] Closed valuation set to $7.5B on the 2026-06-03 Series A (Forge COI, https://forgeglobal.com/periodic-labs_ipo/, published 2026-09-12). Total raised set to about $1.07B (seed $260M plus Series A tranches about $808M). The March and May 2026 in-talks rows are superseded. Still under $20B."
+    }
+  },
+  {
+    "name": "Lila Sciences",
+    "updates": {
+      "closedValuation": {
+        "valueUsdB": 8.5,
+        "date": "2026-07",
+        "publishedDate": "2026-09-16",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "singleSource": true,
+        "replacesSignal": true,
+        "confidence": "med"
+      },
+      "totalRaised": {
+        "valueUsdM": 2550,
+        "asOf": "2026-09-16",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "label": "Forge total funding (COI-derived)",
+        "singleSource": true,
+        "confidence": "med"
+      },
+      "patchRounds": [
+        {
+          "matchStage": "Series B (reported talks)",
+          "stage": "Series B (B-1/B-2)",
+          "date": "2026-07",
+          "amountUsdM": 2000,
+          "postValuationUsdB": 8.5,
+          "leads": "CalPERS, NVIDIA NVentures",
+          "source": "https://forgeglobal.com/lila-sciences_ipo/",
+          "singleSource": true,
+          "note": "Forge COI, published 2026-09-16: Series B-1 $1.46B at $11.27/sh and B-2 $540M at $7.33/sh, about $2.0B, dated 2026-07-31. Forge labels $8.5B as post-money. Bloomberg (2026-06-03) said $8.5B pre-money, which would imply about $10.5B post. The conservative COI post of $8.5B is used. Under $20B either way."
+        }
+      ],
+      "note": "[Cross-check 2026-10-22, med] The June 2026 in-talks Series B is treated as closed on 2026-07-31 at an $8.5B COI post-money (https://forgeglobal.com/lila-sciences_ipo/). Total raised set to $2.55B. Bloomberg's $8.5B pre-money framing (about $10.5B post) is the unresolved alternative and is not used for the score."
+    }
+  },
+  {
+    "name": "Hex",
+    "updates": {
+      "closedValuation": {
+        "valueUsdB": 1.21,
+        "date": "2026-07",
+        "publishedDate": "2026-09-12",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "singleSource": true,
+        "confidence": "med"
+      },
+      "totalRaised": {
+        "valueUsdM": 283.72,
+        "asOf": "2026-09-12",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "label": "Forge total funding (COI-derived)",
+        "singleSource": true,
+        "confidence": "med"
+      },
+      "newRound": {
+        "date": "2026-07",
+        "stage": "Series D (COI-derived, not announced)",
+        "amountUsdM": 112,
+        "postValuationUsdB": 1.21,
+        "leads": "undisclosed",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "singleSource": true,
+        "confidence": "med",
+        "note": "Forge COI, published 2026-09-12: unannounced Series D of $112M at $15.45/sh, $1.21B post, dated 2026-07-30. Forge says it has not found independent public confirmation."
+      },
+      "patchRounds": [
+        {
+          "matchStage": "Series C",
+          "matchDate": "2025-05",
+          "postValuationUsdB": 0.62,
+          "note": "Forge COI puts the May 2025 Series C-1 at a $619.99M post. Previously undisclosed."
+        }
+      ],
+      "note": "[Cross-check 2026-10-22, med] Unannounced Series D of $112M at a $1.21B post on 2026-07-30, from Forge COI (https://forgeglobal.com/hex_ipo/, published 2026-09-12). Total raised set to $283.72M. Series C post set to $0.62B. Not independently confirmed."
+    }
+  },
+  {
+    "name": "Core Automation",
+    "updates": {
+      "closedValuation": {
+        "valueUsdB": 3.62,
+        "date": "2026-07",
+        "publishedDate": "2026-08-20",
+        "source": "https://forgeglobal.com/core-automation_ipo/",
+        "singleSource": true,
+        "confidence": "med"
+      },
+      "patchRounds": [
+        {
+          "matchStage": "Series A",
+          "matchDate": "2026-07",
+          "postValuationUsdB": 3.62,
+          "source": "https://forgeglobal.com/core-automation_ipo/",
+          "singleSource": true,
+          "note": "Forge COI, published 2026-08-20: $432.13M at $215.03/sh, $3.62B post, dated 2026-07-15. Matches the Form D amount. The same filing shows a Seed-1 of $100M at a $1B post on 2026-04-18."
+        }
+      ],
+      "note": "[Cross-check 2026-10-22, med] July 2026 round priced at $3.62B post by Forge COI (https://forgeglobal.com/core-automation_ipo/, published 2026-08-20), up from PitchBook's $3.5B. Small refinement. Still under $20B."
+    }
+  },
+  {
+    "name": "Anthropic",
+    "updates": {
+      "inTalks": {
+        "valueUsdB": 1500,
+        "date": "2026-10",
+        "publishedDate": "2026-10-15",
+        "source": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+        "basis": "in talks",
+        "confidence": "med",
+        "note": "Cross-check 2026-10-22. Reuters (2026-10-15): some investors at the Oct 14 investor day discussed an IPO valuation of about $1.5T, versus about $2T previously expected. Yahoo Finance (2026-10-21) still cites up to $100B raised at $2T. Q3 2026 revenue was $16.8B, up 45% from $11.6B in Q2, and Q3 was adjusted-profitable (Reuters/FT, 2026-10-15). H1 2026 revenue was $16.3B with a net loss above $80B, including about $72B of non-cash convertible charge (WSJ via Yahoo Finance, 2026-10-21; https://fortune.com/2026/10/21/anthropic-s-1-leak-income-statement-ipo/). Public S-1 expected as early as Friday 2026-10-23 (https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html). Still private. Stays above $20B either way. The quarterly revenue is recorded here and is not substituted for the annual revenue figure used in the reference multiple."
+      },
+      "statusNote": "Cross-check 2026-10-22: still private. Headline in-talks IPO valuation revised to about $1.5T (Reuters, 2026-10-15). Q3 2026 revenue $16.8B.",
+      "statusSource": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html",
+      "note": "[Cross-check 2026-10-22] IPO valuation talk revised from about $2T to about $1.5T (https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698, 2026-10-15, med). Q3 2026 revenue $16.8B, up 45% quarter over quarter, adjusted profitable in Q3 (high). H1 2026 revenue $16.3B and H1 net loss above $80B (https://fortune.com/2026/10/21/anthropic-s-1-leak-income-statement-ipo/). Public S-1 expected as early as 2026-10-23 (https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html, high). Still private and still above $20B."
+    }
+  },
+  {
+    "name": "Modal",
+    "updates": {
+      "roundNote": {
+        "matchStage": "Series D",
+        "matchDate": "2026-10",
+        "source": "https://crosswalk.to/crosswalk/deals/2026-10-20",
+        "text": "SEC Form D filed 2026-10-20: $601.9M of equity sold so far of an $800M offering (https://crosswalk.to/crosswalk/deals/2026-10-20). Consistent with the $750M Series D at $15.75B. Note only; valuation unchanged."
+      },
+      "note": "[Cross-check 2026-10-22, med] Form D filed 2026-10-20 shows $601.9M sold of an $800M offering (https://crosswalk.to/crosswalk/deals/2026-10-20). Consistent with the closed $750M Series D. No data change to valuation, round size, or score."
+    }
+  },
+  {
+    "name": "Thoughtful",
+    "updates": {
+      "pitchbookIdentity": {
+        "id": "1478704-69",
+        "name": "Thoughtful Lab",
+        "url": "https://pitchbook.com/profiles/company/1478704-69",
+        "ownershipStatus": "Privately Held (Stealth)",
+        "lastDealType": "Seed",
+        "totalRaisedUsdM": 0.05,
+        "note": "Correct PitchBook profile is Thoughtful Lab (1478704-69), not the rejected Thoughtful.ai screener row. Stealth. Latest deal listed as a $50K seed. Seen in a web-search snippet on 2026-10-22 and not verified behind the PitchBook login. Low confidence."
+      },
+      "totalRaised": {
+        "valueUsdM": 0.05,
+        "asOf": "2026-10-22",
+        "source": "https://pitchbook.com/profiles/company/1478704-69",
+        "label": "PitchBook Thoughtful Lab (snippet, low confidence)",
+        "singleSource": true,
+        "confidence": "low"
+      },
+      "note": "[Cross-check 2026-10-22, low] Correct PitchBook profile is Thoughtful Lab, id 1478704-69 (https://pitchbook.com/profiles/company/1478704-69). Latest deal listed as a $50K seed. Not verified behind the login. No valuation, so upside is unchanged."
+    }
+  },
+  {
+    "name": "Hippocratic AI",
+    "updates": {
+      "totalRaised": {
+        "valueUsdM": 444,
+        "asOf": "2026-08",
+        "source": "https://www.revenuememo.com/p/hippocratic-ai-funding",
+        "label": "Revenue Memo (secondary aggregator)",
+        "singleSource": true,
+        "confidence": "low"
+      },
+      "note": "[Cross-check 2026-10-22, low] Total raised set to about $444M, including roughly $40M of unannounced 2026 funding, per Revenue Memo (https://www.revenuememo.com/p/hippocratic-ai-funding, 2026-08). Secondary aggregator, no valuation. Forge COI updated 2026-08-20 still shows the Nov 2025 Series C at a $3.5B post as the latest round. PitchBook's $404M is the alternative."
+    }
+  },
+  {
+    "name": "Collinear AI",
+    "updates": {
+      "revenue": {
+        "valueUsdM": 2,
+        "date": "2026-10",
+        "kind": "ARR floor (>$2M, company hiring materials)",
+        "source": "https://builtin.com/job/account-executive/9330207",
+        "singleSource": true,
+        "confidence": "low"
+      },
+      "note": "[Cross-check 2026-10-22, low] A company job posting states ARR above $2M and that Collinear is scaling toward a Series A (https://builtin.com/job/account-executive/9330207, date approximate, Oct 2026). Scored as a $2M floor. No valuation is disclosed, so the revenue multiple stays the no-valuation score."
+    }
+  }
+]

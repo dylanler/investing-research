@@ -35,12 +35,14 @@ FILL_DIRS = sorted(glob.glob(os.path.join(RESEARCH_DIR, "fill-*")))
 PREVIOUS_RANKING = os.path.join(RESEARCH_DIR, "ranking-2026-10-09.json")
 LAST_RANKING = os.path.join(RESEARCH_DIR, "ranking-2026-10-21.json")
 ADDITIONS_FILE = "b8_additions.json"
+XCHECK_DIR = os.path.join(RESEARCH_DIR, "xcheck-2026-10-22")
+XCHECK_DATE = "2026-10-22"
 PITCHBOOK_CSV = os.path.join(RESEARCH_DIR, "pitchbook-2026-10-21.csv")
 PITCHBOOK_LABEL = "PitchBook (accessed 2026-10-21)"
 
 # PitchBook rows whose identity did not match our company (generic-name screener matches).
 PITCHBOOK_REJECT = {
-    "Thoughtful": "PitchBook matched Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's Thoughtful lab; row ignored.",
+    "Thoughtful": "The screener row was Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's lab, so that row is ignored. The 22 Oct 2026 cross-check points at PitchBook 'Thoughtful Lab' (1478704-69), a $50K seed, low confidence.",
 }
 # Generic-name matches accepted only after checking valuation/date/headcount against public reports.
 PITCHBOOK_CAUTION = {
@@ -308,6 +310,8 @@ def collect_sources(c: dict) -> list[dict]:
     add(c.get("statusSource"), "Status")
     if c.get("headcount"):
         add(c["headcount"].get("source"), "Headcount")
+    for extra in c.get("extraSources") or []:
+        add(extra.get("url"), extra.get("label") or "Live cross-check")
     for u in c.get("researchSources") or []:
         add(u, "Research output")
     text = " ".join([*(c.get("talentSignals") or []), c.get("traction") or "", c.get("research") or ""])
@@ -509,6 +513,137 @@ def apply_pitchbook(c: dict, row: dict | None) -> tuple[dict, list[str]]:
     return c, conflicts
 
 
+def load_xcheck() -> dict[str, dict]:
+    out: dict[str, dict] = {}
+    for f in sorted(glob.glob(os.path.join(XCHECK_DIR, "x*.json"))):
+        for x in json.load(open(f)):
+            out[x["name"]] = x
+    return out
+
+
+def load_xcheck_manifest() -> dict:
+    path = os.path.join(XCHECK_DIR, "manifest.json")
+    return json.load(open(path)) if os.path.exists(path) else {}
+
+
+def _fmt_val(v, d=None):
+    return f"${v:g}B" + (f" ({d})" if d else "") if v else "n/a"
+
+
+def _fmt_rev(r):
+    return f"${r['valueUsdM']:g}M {r.get('kind') or ''} ({r.get('date') or 'n/a'})".replace("  ", " ") if r and r.get("valueUsdM") else "n/a"
+
+
+def _round_matches(r: dict, p: dict) -> bool:
+    if p.get("matchStage") and p["matchStage"] not in (r.get("stage") or ""):
+        return False
+    if p.get("matchDate") and not str(r.get("date") or "").startswith(str(p["matchDate"])[:7]):
+        return False
+    return bool(p.get("matchStage") or p.get("matchDate"))
+
+
+def apply_xcheck(c: dict, x: dict | None) -> tuple[dict, list[dict]]:
+    """Apply the 22 Oct 2026 live cross-check after PitchBook. Newer sourced figures win."""
+    if not x:
+        return c, []
+    c = dict(c)
+    c["rounds"] = [dict(r) for r in c.get("rounds") or []]
+    u = x.get("updates") or {}
+    changes: list[dict] = []
+    extras = list(c.get("extraSources") or [])
+
+    def log(field, old, new, src, when, confidence=None):
+        if str(old) != str(new):
+            changes.append({"company": c["name"], "field": field, "old": old, "new": new, "source": src, "date": when, "confidence": confidence, "note": None})
+
+    def remember(url, label):
+        if url and url.startswith("http") and url not in {e.get("url") for e in extras}:
+            extras.append({"url": url, "label": label})
+
+    cv = u.get("closedValuation") or {}
+    if cv.get("valueUsdB") and (month_key(cv.get("date")) >= month_key(c.get("latestValuationDate")) or not c.get("latestValuationUsdB")):
+        if cv["valueUsdB"] != c.get("latestValuationUsdB") or month_key(cv.get("date")) != month_key(c.get("latestValuationDate")):
+            log("Closed valuation", _fmt_val(c.get("latestValuationUsdB"), c.get("latestValuationDate")), _fmt_val(cv["valueUsdB"], cv.get("date")),
+                cv.get("source"), cv.get("publishedDate") or cv.get("date"), cv.get("confidence"))
+            c["latestValuationUsdB"] = cv["valueUsdB"]
+            c["latestValuationDate"] = cv.get("date")
+            c["latestValuationSource"] = cv.get("source")
+            c["latestValuationSingleSource"] = bool(cv.get("singleSource"))
+            c["valuationFromPitchBook"] = False
+            remember(cv.get("source"), "Closed valuation (cross-check)")
+        if cv.get("replacesSignal"):
+            c["valuationSignal"] = None
+    cur_sig = c.get("valuationSignal")
+    it = u.get("inTalks") or {}
+    if it.get("valueUsdB"):
+        old = _fmt_val(cur_sig.get("valueUsdB"), cur_sig.get("date")) if cur_sig else "none"
+        new = _fmt_val(it["valueUsdB"], it.get("date"))
+        if old != new or (it.get("note") and (not cur_sig or cur_sig.get("note") != it.get("note"))):
+            log("In-talks valuation", old, new, it.get("source"), it.get("publishedDate") or it.get("date"), it.get("confidence"))
+            c["valuationSignal"] = {"valueUsdB": it["valueUsdB"], "date": it.get("date"), "source": it.get("source"),
+                                    "basis": it.get("basis") or "in talks", "note": it.get("note")}
+            remember(it.get("source"), "In-talks valuation (cross-check)")
+    if u.get("statusNote"):
+        existing = c.get("statusNote") or ""
+        c["statusNote"] = existing if u["statusNote"] in existing else f"{existing} {u['statusNote']}".strip()
+        if u.get("statusSource"):
+            c["statusSource"] = u["statusSource"]
+            remember(u["statusSource"], "Status (cross-check)")
+    for needle in u.get("dropStageContains") or []:
+        c["rounds"] = [r for r in c["rounds"] if needle.lower() not in (r.get("stage") or "").lower()]
+    for p in u.get("patchRounds") or []:
+        for r in c["rounds"]:
+            if _round_matches(r, p):
+                for k in ["stage", "date", "amountUsdM", "postValuationUsdB", "leads", "source", "singleSource", "note"]:
+                    if k in p:
+                        r[k] = p[k]
+                remember(p.get("source"), f"{r.get('stage') or 'Round'} (cross-check)")
+    nr = u.get("newRound") or {}
+    if nr.get("date") and nr.get("source"):
+        keys = {rounds_key(r) for r in c["rounds"]}
+        if rounds_key(nr) not in keys:
+            log("Latest round", "—", f"{nr.get('stage') or 'Round'} ({nr['date']})", nr.get("source"), nr.get("date"), nr.get("confidence"))
+            c["rounds"] = [*c["rounds"], nr]
+            c["newRounds"] = [*(c.get("newRounds") or []), nr]
+            remember(nr.get("source"), f"{nr.get('stage') or 'Round'} (cross-check)")
+    rn = u.get("roundNote") or {}
+    if rn.get("text"):
+        for r in c["rounds"]:
+            if _round_matches(r, rn):
+                r["note"] = rn["text"]
+        remember(rn.get("source"), "Round note (cross-check)")
+    tr = u.get("totalRaised") or {}
+    if tr.get("valueUsdM") is not None:
+        old = (c.get("totalRaised") or {}).get("valueUsdM")
+        if old != tr["valueUsdM"]:
+            log("Total raised", f"${old:g}M" if old else "n/a", f"${tr['valueUsdM']:g}M", tr.get("source"), tr.get("asOf"), tr.get("confidence"))
+            c["totalRaised"] = {"valueUsdM": tr["valueUsdM"], "asOf": tr.get("asOf") or XCHECK_DATE, "source": tr.get("source"),
+                                "label": tr.get("label"), "singleSource": bool(tr.get("singleSource"))}
+            remember(tr.get("source"), "Total raised (cross-check)")
+    rv = u.get("revenue") or {}
+    if rv.get("valueUsdM") and rv.get("source"):
+        cur = c.get("arr") or {}
+        if rv["valueUsdM"] != cur.get("valueUsdM"):
+            log("Revenue / ARR", _fmt_rev(cur), _fmt_rev(rv), rv.get("source"), rv.get("date"), rv.get("confidence"))
+            c["arr"] = {k: rv.get(k) for k in ["valueUsdM", "date", "kind", "source", "singleSource"]}
+            remember(rv.get("source"), "Revenue / ARR (cross-check)")
+    ident = u.get("pitchbookIdentity") or {}
+    if ident.get("id"):
+        c["pitchbook"] = {
+            "id": ident["id"], "name": ident.get("name"), "url": ident.get("url"),
+            "ownershipStatus": ident.get("ownershipStatus"), "valuationUsdB": None, "valuationDate": None,
+            "lastDealType": ident.get("lastDealType"), "priorValuationUsdBDerived": None,
+            "totalRaisedUsdM": ident.get("totalRaisedUsdM"), "revenueUsdM": None, "revenueFiscalYear": None,
+            "employees": None, "identityNote": ident.get("note"),
+        }
+        remember(ident.get("url"), "PitchBook identity (cross-check)")
+    if u.get("note"):
+        c["notes"] = f"{c.get('notes') or ''} {u['note']}".strip()
+    c["extraSources"] = extras
+    c["xcheckConflicts"] = x.get("conflicts") or []
+    return c, changes
+
+
 COVERAGE_FIELDS = ["valuation", "rounds", "totalRaised", "revenue", "headcount", "research", "xPresence", "xPosts"]
 
 
@@ -687,6 +822,14 @@ def main() -> None:
     additions = {c["name"] for c in json.load(open(os.path.join(RESEARCH_DIR, ADDITIONS_FILE)))} if os.path.exists(os.path.join(RESEARCH_DIR, ADDITIONS_FILE)) else set()
     pb_conflicts: list[dict] = []
     pb_matched: list[str] = []
+    xcheck = load_xcheck()
+    xmanifest = load_xcheck_manifest()
+    xc_verified: list[str] = []
+    xc_changes: list[dict] = []
+    xc_conflicts: list[dict] = []
+    xc_cap: list[dict] = []
+    xc_status: list[dict] = []
+    pre_x = {r["name"]: r for r in json.load(open(os.path.join(XCHECK_DIR, "ranking-pre-xcheck.json")))} if os.path.exists(os.path.join(XCHECK_DIR, "ranking-pre-xcheck.json")) else {}
     fill_stats = {"fieldsChecked": 0, "missingBefore": 0, "filled": 0, "notDisclosed": 0, "stillMissing": 0, "byField": {}}
     addition_rows: list[dict] = []
 
@@ -695,6 +838,19 @@ def main() -> None:
         before = coverage(c)
         c = apply_fill(c, fills.get(c["name"]))
         c, conflicts = apply_pitchbook(c, pitchbook.get(c["name"]))
+        pre_section = "removed" if (valuation_signal(c) or {}).get("valueUsdB", 0) > VALUATION_CAP_USDB else "in"
+        pre_status = c.get("status")
+        c, xchanges = apply_xcheck(c, xcheck.get(c["name"]))
+        if c["name"] in xcheck:
+            xc_verified.append(c["name"])
+            xc_changes.extend(xchanges)
+            if c.get("xcheckConflicts"):
+                xc_conflicts.append({"name": c["name"], "notes": c["xcheckConflicts"]})
+            post_section = "removed" if (valuation_signal(c) or {}).get("valueUsdB", 0) > VALUATION_CAP_USDB else "in"
+            if pre_section != post_section and c.get("status") == "private":
+                xc_cap.append({"name": c["name"], "direction": "now above $20B (removed)" if post_section == "removed" else "back at or below $20B (re-ranked)"})
+            if pre_status != c.get("status"):
+                xc_status.append({"name": c["name"], "from": pre_status, "to": c.get("status"), "note": c.get("statusNote"), "source": c.get("statusSource")})
         after = coverage(c)
         c["dataCoverage"] = after
         name = c["name"]
@@ -716,7 +872,7 @@ def main() -> None:
             excluded.append({"name": name, "status": "not a startup", "reason": EXCLUDE_EXTRA[name], "source": c.get("statusSource")})
             continue
         if status != "private" or (c.get("category") or "").startswith("Trading firm"):
-            reason = EXCLUSION_REASON.get(status, "Private trading firm — not a startup.")
+            reason = EXCLUSION_REASON.get(status, f"Status: {status}.")
             if (c.get("category") or "").startswith("Trading firm"):
                 reason = "Private, but a mature proprietary trading firm — not a venture-backed startup."
             row = {
@@ -798,6 +954,22 @@ def main() -> None:
             if any(x["name"] == c["name"] for x in removed)
         ],
         "additions": addition_rows,
+        "liveCrossCheck": {
+            "date": xmanifest.get("date") or XCHECK_DATE,
+            "verified": xmanifest.get("verified", len(xc_verified)),
+            "unchanged": xmanifest.get("unchanged", len([n for n in xc_verified if not any(ch["company"] == n for ch in xc_changes)])),
+            "summary": xmanifest.get("summary"),
+            "changes": xmanifest.get("changes") or xc_changes,
+            "conflicts": (xmanifest.get("conflicts") or []) + [c for c in xc_conflicts if c["name"] not in {x["name"] for x in (xmanifest.get("conflicts") or [])}],
+            "capChanges": xc_cap,
+            "statusChanges": xc_status,
+            "moves": sorted([
+                {"name": r["name"], "from": pre_x[r["name"]]["rank"], "to": r["rank"], "fromComposite": pre_x[r["name"]]["composite"],
+                 "toComposite": r["composite"], "fromTier": pre_x[r["name"]]["tier"], "toTier": r["tier"]}
+                for r in ranked if r["name"] in pre_x and (pre_x[r["name"]]["composite"] != r["composite"] or pre_x[r["name"]]["rank"] != r["rank"])
+            ], key=lambda m: -abs(m["toComposite"] - m["fromComposite"])),
+            "newlyRanked": [r["name"] for r in ranked if pre_x and r["name"] not in pre_x],
+        },
         "pitchbookConflicts": pb_conflicts,
         "pitchbookMatched": len(pb_matched),
         "pitchbookRejected": [{"name": n, "reason": r} for n, r in PITCHBOOK_REJECT.items()],

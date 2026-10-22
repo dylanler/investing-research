@@ -139,6 +139,18 @@ export interface Changelog {
   pitchbookRejected: { name: string; reason: string }[];
   pitchbookCaution: { name: string; note: string }[];
   dataFill: { fieldsChecked: number; missingBefore: number; filled: number; notDisclosed: number; stillMissing: number; byField: Record<string, { filled: number; notDisclosed: number; stillMissing: number }> };
+  liveCrossCheck: {
+    date: string;
+    verified: number;
+    unchanged: number;
+    summary: string | null;
+    changes: { company: string; field: string; old: string; new: string; source: string | null; date: string | null; confidence: string | null; note: string | null }[];
+    conflicts: { name: string; notes: string[] }[];
+    capChanges: { name: string; direction: string }[];
+    statusChanges: { name: string; from: string | null; to: string | null; note: string | null; source: string | null }[];
+    moves: { name: string; from: number; to: number; fromComposite: number; toComposite: number; fromTier: Tier; toTier: Tier }[];
+    newlyRanked: string[];
+  };
   sinceOct21: { name: string; from: number; to: number; fromComposite: number; toComposite: number; fromTier: Tier; toTier: Tier }[];
 }
 

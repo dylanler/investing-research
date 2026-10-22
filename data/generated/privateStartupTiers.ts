@@ -1186,7 +1186,7 @@ export const rankedStartups: RankedStartup[] = [
     "moat": "Developer experience and custom runtime (sub-second container boots); sandbox product for AI-generated code.",
     "risks": "Resells third-party GPUs, so margins can be squeezed; competes with Baseten, Together, Fireworks and the hyperscalers.",
     "confidence": "high",
-    "notes": "The $15.75B round was reported by TechCrunch with Axios/Bloomberg corroborating details, but it is not confirmed as closed, so latestValuation uses the confirmed $4.65B. Headcount not found. [Refresh 2026-10-21] Headcount of 200+ is company-stated in the Series D blog. Customers named in TNW: DoorDash, Ramp, Linear, Cognition, Runway, Physical Intelligence, 1X.",
+    "notes": "The $15.75B round was reported by TechCrunch with Axios/Bloomberg corroborating details, but it is not confirmed as closed, so latestValuation uses the confirmed $4.65B. Headcount not found. [Refresh 2026-10-21] Headcount of 200+ is company-stated in the Series D blog. Customers named in TNW: DoorDash, Ramp, Linear, Cognition, Runway, Physical Intelligence, 1X. [Cross-check 2026-10-22, med] Form D filed 2026-10-20 shows $601.9M sold of an $800M offering (https://crosswalk.to/crosswalk/deals/2026-10-20). Consistent with the closed $750M Series D. No data change to valuation, round size, or score.",
     "subscores": {
       "talent": 7.1,
       "velocity": 8.0,
@@ -1249,6 +1249,11 @@ export const rankedStartups: RankedStartup[] = [
         "label": "Status",
         "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
         "host": "techcrunch.com"
+      },
+      {
+        "label": "Round note (cross-check)",
+        "url": "https://crosswalk.to/crosswalk/deals/2026-10-20",
+        "host": "crosswalk.to"
       },
       {
         "label": "Research output",
@@ -4847,223 +4852,6 @@ export const rankedStartups: RankedStartup[] = [
     "rank": 19
   },
   {
-    "name": "Periodic Labs",
-    "aliases": [
-      "Periodic",
-      "periodic.com"
-    ],
-    "sector": "AI for science & health",
-    "category": "AI for science (materials/physics)",
-    "founded": 2025,
-    "hq": "Menlo Park / San Francisco",
-    "website": "https://periodic.com/",
-    "oneLiner": "Builds AI scientists plus high-throughput autonomous materials labs (superconductors, magnets, semiconductors), training models like Neon on its own experimental data.",
-    "founders": "Liam Fedus (ex-VP Post-Training at OpenAI, ChatGPT co-creator, ex-Google Brain) and Ekin Dogus Cubuk (ex-Google DeepMind materials science lead, GNoME).",
-    "talentSignals": [
-      "Hired Alexandre Passos (o1/o3 creator), Eric Toberer (superconductor materials scientist), Matt Horton (Microsoft MatterGen) among 'two dozen' top hires (https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/).",
-      "Founding team claims co-creation of ChatGPT, GNoME, Operator, neural attention mechanism, MatterGen.",
-      "LinkedIn top talent sources: OpenAI (5), SpaceXAI (4), Tesla (3), Meta (3), Google (3), Applied Materials (3), Google DeepMind (2), Anthropic (2) (https://linkedin.com/company/periodic-labs, aggregator)."
-    ],
-    "headcount": {
-      "value": 48,
-      "date": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/901835-56",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "rounds": [
-      {
-        "date": "2025-09",
-        "stage": "Seed",
-        "amountUsdM": 300,
-        "postValuationUsdB": 1.3,
-        "leads": "a16z; Felicis, DST, NVentures, Accel, Bezos, Elad Gil, Eric Schmidt, Jeff Dean",
-        "source": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
-        "kind": "primary"
-      },
-      {
-        "date": "2026-03",
-        "stage": "Unnamed round (in talks, not closed)",
-        "amountUsdM": null,
-        "postValuationUsdB": 7.0,
-        "leads": "Not named; 'at least hundreds of millions' at about $7B",
-        "source": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation",
-        "kind": "talks"
-      },
-      {
-        "date": "2026-05",
-        "stage": "Series A (in talks, not closed)",
-        "amountUsdM": 500,
-        "postValuationUsdB": 7.5,
-        "leads": "AMP (Anjney Midha), reported lead; 'at least $500M', 'significantly oversubscribed'",
-        "source": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
-        "kind": "talks"
-      },
-      {
-        "date": "2026-06",
-        "stage": "Series A (reported)",
-        "amountUsdM": 750,
-        "postValuationUsdB": 7.5,
-        "leads": "AMP (Anjney Midha)",
-        "source": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
-        "kind": "primary"
-      }
-    ],
-    "valuationUsdB": 1.3,
-    "valuationDate": "2025-09",
-    "valuationSource": "https://pitchbook.com/profiles/company/901835-56",
-    "upsideValuationUsdB": 1.3,
-    "upsideValuationBasis": "confirmed / latest reported",
-    "arr": null,
-    "revenueMultiple": null,
-    "multipleNote": "No public ARR — scored conservatively.",
-    "velocityMeta": {
-      "raised18moUsdM": 1050,
-      "gapMonths": 9,
-      "lastRound": "2026-06",
-      "note": null
-    },
-    "research": "Neon (Sept 2026): open-source base model mid-trained + RL'd on lab data using ~1,300 H200s, reportedly beating frontier models on X-ray diffraction analysis (success 2.7%→55.3%); blog posts on infra (Megatron contributions, SGLang collaboration).",
-    "xPosts": [
-      {
-        "url": "https://x.com/LiamFedus/status/2099896055030501702",
-        "author": "LiamFedus",
-        "date": "2026-09-15",
-        "likes": 5097,
-        "views": 1647835,
-        "summary": "Built high-throughput materials labs in Menlo Park; trained Neon on lab data with 1,300 H200s to surpass a frontier model on analysis benchmark."
-      },
-      {
-        "url": "https://x.com/periodiclabs/status/1973056525204595129",
-        "author": "periodiclabs",
-        "date": "2025-09-30",
-        "likes": 685,
-        "views": 243001,
-        "summary": "Company launch announcement."
-      }
-    ],
-    "xPresence": "Liam Fedus @LiamFedus ~41k followers (1.6M-view posts); @periodiclabs ~22k; Ekin Cubuk @ekindogus ~10k.",
-    "threadSignal": {
-      "label": "Reply add",
-      "bonus": 0.3,
-      "url": "https://x.com/sog_on_bird_app/status/2107547144311939350"
-    },
-    "traction": "Early industry work (e.g., semiconductor manufacturer heat-dissipation agents); labs running 24/7. No revenue disclosed.",
-    "compute": "Neon trained on ~1,300 H200s; NVentures investor.",
-    "moat": "Proprietary dated experimental data from own autonomous labs; elite LLM + materials team.",
-    "risks": "Physical-science discovery timelines are long; commercialization unclear.",
-    "confidence": "medium",
-    "notes": "Forbes (May 2026) reported advanced talks for ≥$500M at $7.5B led by AMP; a secondary registry (siliconvalleyinvestclub.com) lists a $750M Series A closed 2026-06-03 at $7.5B post — company announcement not found, so amount is lower-confidence. Note: tweet references 'GPT-6 Astra' — model name as stated by Fedus. [Refresh 2026-10-21] Nothing new after Oct 9. Context from just before the window: in the Latent Space interview (Oct 8, https://ai4s.fyi/interviews/periodic-labs-synthesis-semiconductors), the founders say current commercial work is forward-deployed engineers inside unnamed semiconductor partners. They also say MIT professor Joe Checkelsky is on leave to lead the lab full-time and that 'full autonomy is a non-goal'. Venture Capital Archive (Oct 11) says the founders 'confirmed another large raise is coming', with no terms. The latestValuation of 7.5 is kept from the bN file but is NOT company-confirmed; the strict confirmed figure is the $1.3B seed.",
-    "subscores": {
-      "talent": 9.3,
-      "velocity": 6.8,
-      "traction": 2.0,
-      "upside": 7.7,
-      "research": 6.0,
-      "multiple": 3.0,
-      "moat": 6.0,
-      "posting": 6.0
-    },
-    "composite": 60.8,
-    "tier": "B",
-    "sources": [
-      {
-        "label": "PitchBook (accessed 2026-10-21)",
-        "url": "https://pitchbook.com/profiles/company/901835-56",
-        "host": "pitchbook.com"
-      },
-      {
-        "label": "Seed (2025-09)",
-        "url": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
-        "host": "techcrunch.com"
-      },
-      {
-        "label": "Unnamed round (in talks, not closed) (2026-03)",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation",
-        "host": "bloomberg.com"
-      },
-      {
-        "label": "Series A (in talks, not closed) (2026-05)",
-        "url": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
-        "host": "forbes.com"
-      },
-      {
-        "label": "Research output",
-        "url": "https://x.com/LiamFedus/status/2099896055030501702",
-        "host": "x.com"
-      },
-      {
-        "label": "Research output",
-        "url": "https://x.com/LiamFedus/status/2099896059409367356",
-        "host": "x.com"
-      },
-      {
-        "label": "Talent / traction",
-        "url": "https://linkedin.com/company/periodic-labs",
-        "host": "linkedin.com"
-      }
-    ],
-    "valuationSignal": {
-      "valueUsdB": 7.5,
-      "date": "2026-06",
-      "source": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
-      "basis": "reported, unconfirmed (single source)"
-    },
-    "refreshChanges": [],
-    "scoreAdjustmentReason": null,
-    "newRounds": [],
-    "pitchbook": {
-      "id": "901835-56",
-      "name": "Periodic Labs",
-      "url": "https://pitchbook.com/profiles/company/901835-56",
-      "ownershipStatus": "Privately Held (backing)",
-      "valuationUsdB": 1.3,
-      "valuationDate": "2025-09",
-      "lastDealType": "Seed Round",
-      "priorValuationUsdBDerived": null,
-      "totalRaisedUsdM": 300.0,
-      "revenueUsdM": null,
-      "revenueFiscalYear": null,
-      "employees": 48,
-      "identityNote": null
-    },
-    "valuationFromPitchBook": true,
-    "totalRaised": {
-      "valueUsdM": 300.0,
-      "asOf": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/901835-56",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "dataCoverage": {
-      "valuation": "sourced",
-      "rounds": "sourced",
-      "totalRaised": "sourced",
-      "revenue": "not disclosed",
-      "headcount": "sourced",
-      "research": "sourced",
-      "xPresence": "sourced",
-      "xPosts": "sourced"
-    },
-    "notDisclosed": [
-      "arr"
-    ],
-    "fillScoreAdjustments": null,
-    "fillScoreAdjustmentReason": null,
-    "isNewAddition": false,
-    "oct9": {
-      "rank": 32,
-      "composite": 58.6,
-      "tier": "B",
-      "rankAmongRemaining": 20
-    },
-    "oct21": {
-      "rank": 24,
-      "composite": 58.6,
-      "tier": "B"
-    },
-    "atValuationCap": false,
-    "rank": 20
-  },
-  {
     "name": "Recursive",
     "aliases": [
       "Recursive Superintelligence, Inc.",
@@ -5257,7 +5045,7 @@ export const rankedStartups: RankedStartup[] = [
     "oct9": null,
     "oct21": null,
     "atValuationCap": false,
-    "rank": 21
+    "rank": 20
   },
   {
     "name": "Linear",
@@ -5505,7 +5293,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "B"
     },
     "atValuationCap": false,
-    "rank": 22
+    "rank": 21
   },
   {
     "name": "Luma AI",
@@ -5746,7 +5534,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "B"
     },
     "atValuationCap": false,
-    "rank": 23
+    "rank": 22
   },
   {
     "name": "Sunday",
@@ -5942,7 +5730,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "B"
     },
     "atValuationCap": false,
-    "rank": 24
+    "rank": 23
   },
   {
     "name": "Sakana AI",
@@ -6186,7 +5974,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "B"
     },
     "atValuationCap": false,
-    "rank": 25
+    "rank": 24
   },
   {
     "name": "Cohere",
@@ -6498,6 +6286,201 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "B"
     },
     "atValuationCap": true,
+    "rank": 25
+  },
+  {
+    "name": "Periodic Labs",
+    "aliases": [
+      "Periodic",
+      "periodic.com"
+    ],
+    "sector": "AI for science & health",
+    "category": "AI for science (materials/physics)",
+    "founded": 2025,
+    "hq": "Menlo Park / San Francisco",
+    "website": "https://periodic.com/",
+    "oneLiner": "Builds AI scientists plus high-throughput autonomous materials labs (superconductors, magnets, semiconductors), training models like Neon on its own experimental data.",
+    "founders": "Liam Fedus (ex-VP Post-Training at OpenAI, ChatGPT co-creator, ex-Google Brain) and Ekin Dogus Cubuk (ex-Google DeepMind materials science lead, GNoME).",
+    "talentSignals": [
+      "Hired Alexandre Passos (o1/o3 creator), Eric Toberer (superconductor materials scientist), Matt Horton (Microsoft MatterGen) among 'two dozen' top hires (https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/).",
+      "Founding team claims co-creation of ChatGPT, GNoME, Operator, neural attention mechanism, MatterGen.",
+      "LinkedIn top talent sources: OpenAI (5), SpaceXAI (4), Tesla (3), Meta (3), Google (3), Applied Materials (3), Google DeepMind (2), Anthropic (2) (https://linkedin.com/company/periodic-labs, aggregator)."
+    ],
+    "headcount": {
+      "value": 48,
+      "date": "2026-10",
+      "source": "https://pitchbook.com/profiles/company/901835-56",
+      "label": "PitchBook (accessed 2026-10-21)"
+    },
+    "rounds": [
+      {
+        "date": "2025-09",
+        "stage": "Seed",
+        "amountUsdM": 300,
+        "postValuationUsdB": 1.3,
+        "leads": "a16z; Felicis, DST, NVentures, Accel, Bezos, Elad Gil, Eric Schmidt, Jeff Dean",
+        "source": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
+        "kind": "primary"
+      },
+      {
+        "date": "2026-06",
+        "stage": "Series A",
+        "amountUsdM": 750,
+        "postValuationUsdB": 7.5,
+        "leads": "AMP PBC",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": 7.5,
+    "valuationDate": "2026-06",
+    "valuationSource": "https://forgeglobal.com/periodic-labs_ipo/",
+    "upsideValuationUsdB": 7.5,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": null,
+    "revenueMultiple": null,
+    "multipleNote": "No public ARR — scored conservatively.",
+    "velocityMeta": {
+      "raised18moUsdM": 1050,
+      "gapMonths": 9,
+      "lastRound": "2026-06",
+      "note": null
+    },
+    "research": "Neon (Sept 2026): open-source base model mid-trained + RL'd on lab data using ~1,300 H200s, reportedly beating frontier models on X-ray diffraction analysis (success 2.7%→55.3%); blog posts on infra (Megatron contributions, SGLang collaboration).",
+    "xPosts": [
+      {
+        "url": "https://x.com/LiamFedus/status/2099896055030501702",
+        "author": "LiamFedus",
+        "date": "2026-09-15",
+        "likes": 5097,
+        "views": 1647835,
+        "summary": "Built high-throughput materials labs in Menlo Park; trained Neon on lab data with 1,300 H200s to surpass a frontier model on analysis benchmark."
+      },
+      {
+        "url": "https://x.com/periodiclabs/status/1973056525204595129",
+        "author": "periodiclabs",
+        "date": "2025-09-30",
+        "likes": 685,
+        "views": 243001,
+        "summary": "Company launch announcement."
+      }
+    ],
+    "xPresence": "Liam Fedus @LiamFedus ~41k followers (1.6M-view posts); @periodiclabs ~22k; Ekin Cubuk @ekindogus ~10k.",
+    "threadSignal": {
+      "label": "Reply add",
+      "bonus": 0.3,
+      "url": "https://x.com/sog_on_bird_app/status/2107547144311939350"
+    },
+    "traction": "Early industry work (e.g., semiconductor manufacturer heat-dissipation agents); labs running 24/7. No revenue disclosed.",
+    "compute": "Neon trained on ~1,300 H200s; NVentures investor.",
+    "moat": "Proprietary dated experimental data from own autonomous labs; elite LLM + materials team.",
+    "risks": "Physical-science discovery timelines are long; commercialization unclear.",
+    "confidence": "medium",
+    "notes": "Forbes (May 2026) reported advanced talks for ≥$500M at $7.5B led by AMP; a secondary registry (siliconvalleyinvestclub.com) lists a $750M Series A closed 2026-06-03 at $7.5B post — company announcement not found, so amount is lower-confidence. Note: tweet references 'GPT-6 Astra' — model name as stated by Fedus. [Refresh 2026-10-21] Nothing new after Oct 9 in company announcements. Context from just before the window: in the Latent Space interview (Oct 8, https://ai4s.fyi/interviews/periodic-labs-synthesis-semiconductors), the founders say current commercial work is forward-deployed engineers inside unnamed semiconductor partners. They also say MIT professor Joe Checkelsky is on leave to lead the lab full-time and that 'full autonomy is a non-goal'. Venture Capital Archive (Oct 11) says the founders 'confirmed another large raise is coming', with no terms. Superseded by the 22 Oct 2026 cross-check: Forge COI (https://forgeglobal.com/periodic-labs_ipo/, published 2026-09-12, medium confidence) shows a closed Series A dated 2026-06-03 at a $7.5B post, total funding about $1.07B. The company has not publicly confirmed it. The $1.3B seed is the prior closed round. [Cross-check 2026-10-22, med] Closed valuation set to $7.5B on the 2026-06-03 Series A (Forge COI, https://forgeglobal.com/periodic-labs_ipo/, published 2026-09-12). Total raised set to about $1.07B (seed $260M plus Series A tranches about $808M). The March and May 2026 in-talks rows are superseded. Still under $20B.",
+    "subscores": {
+      "talent": 9.3,
+      "velocity": 6.8,
+      "traction": 2.0,
+      "upside": 5.8,
+      "research": 6.0,
+      "multiple": 3.0,
+      "moat": 6.0,
+      "posting": 6.0
+    },
+    "composite": 58.6,
+    "tier": "B",
+    "sources": [
+      {
+        "label": "PitchBook (accessed 2026-10-21)",
+        "url": "https://pitchbook.com/profiles/company/901835-56",
+        "host": "pitchbook.com"
+      },
+      {
+        "label": "Valuation",
+        "url": "https://forgeglobal.com/periodic-labs_ipo/",
+        "host": "forgeglobal.com"
+      },
+      {
+        "label": "Seed (2025-09)",
+        "url": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
+        "host": "techcrunch.com"
+      },
+      {
+        "label": "Status",
+        "url": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
+        "host": "forbes.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://x.com/LiamFedus/status/2099896055030501702",
+        "host": "x.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://x.com/LiamFedus/status/2099896059409367356",
+        "host": "x.com"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://linkedin.com/company/periodic-labs",
+        "host": "linkedin.com"
+      }
+    ],
+    "valuationSignal": null,
+    "refreshChanges": [],
+    "scoreAdjustmentReason": null,
+    "newRounds": [],
+    "pitchbook": {
+      "id": "901835-56",
+      "name": "Periodic Labs",
+      "url": "https://pitchbook.com/profiles/company/901835-56",
+      "ownershipStatus": "Privately Held (backing)",
+      "valuationUsdB": 1.3,
+      "valuationDate": "2025-09",
+      "lastDealType": "Seed Round",
+      "priorValuationUsdBDerived": null,
+      "totalRaisedUsdM": 300.0,
+      "revenueUsdM": null,
+      "revenueFiscalYear": null,
+      "employees": 48,
+      "identityNote": null
+    },
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 1070,
+      "asOf": "2026-09-12",
+      "source": "https://forgeglobal.com/periodic-labs_ipo/",
+      "label": "Forge total funding (COI-derived)",
+      "singleSource": true
+    },
+    "dataCoverage": {
+      "valuation": "sourced",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "not disclosed",
+      "headcount": "sourced",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "arr"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": false,
+    "oct9": {
+      "rank": 32,
+      "composite": 58.6,
+      "tier": "B",
+      "rankAmongRemaining": 20
+    },
+    "oct21": {
+      "rank": 24,
+      "composite": 58.6,
+      "tier": "B"
+    },
+    "atValuationCap": false,
     "rank": 26
   },
   {
@@ -9540,16 +9523,16 @@ export const rankedStartups: RankedStartup[] = [
         "date": "2026-07",
         "stage": "Series A (Form D; $432M sold of $635M)",
         "amountUsdM": 432,
-        "postValuationUsdB": null,
+        "postValuationUsdB": 3.62,
         "leads": null,
-        "source": "https://app.edgar.tools/filing/2148145/0002148145-26-000001/formd",
+        "source": "https://forgeglobal.com/core-automation_ipo/",
         "kind": "primary"
       }
     ],
-    "valuationUsdB": 3.5,
+    "valuationUsdB": 3.62,
     "valuationDate": "2026-07",
-    "valuationSource": "https://pitchbook.com/profiles/company/1276050-52",
-    "upsideValuationUsdB": 3.5,
+    "valuationSource": "https://forgeglobal.com/core-automation_ipo/",
+    "upsideValuationUsdB": 3.62,
     "upsideValuationBasis": "confirmed / latest reported",
     "arr": null,
     "revenueMultiple": null,
@@ -9582,7 +9565,7 @@ export const rankedStartups: RankedStartup[] = [
     "moat": "Elite team plus about $500M+ in capital; research moat not yet demonstrated.",
     "risks": "Unproven bet on new architectures; very high valuation before any product.",
     "confidence": "medium",
-    "notes": "The $4B valuation was a target in early talks (The Information, May 2026); the Form D does not state a valuation. Dealroom cites $647M for the first round vs $1B per The Information. Couldn't find the launch tweet ID (@coreauto statuses not returned by fxtwitter). [Refresh 2026-10-21] No new round, product, model or paper found Oct 9-21. Recent activity predates the window: a Sep 14 internship post from Riley Walz (Associate General Manager interns running agent-operated online businesses; https://www.coreauto.com/AGM) and a Sequoia podcast with Tworek and Anil. Note that latestValuation here is the closed $1B seed; the Oct 9 file's $4B was an early-talks target. Altis estimates headcount at about 22 (late Aug).",
+    "notes": "The $4B valuation was a target in early talks (The Information, May 2026); the Form D does not state a valuation. Dealroom cites $647M for the first round vs $1B per The Information. Couldn't find the launch tweet ID (@coreauto statuses not returned by fxtwitter). [Refresh 2026-10-21] No new round, product, model or paper found Oct 9-21. Recent activity predates the window: a Sep 14 internship post from Riley Walz (Associate General Manager interns running agent-operated online businesses; https://www.coreauto.com/AGM) and a Sequoia podcast with Tworek and Anil. The Oct 9 file's $4B was an early-talks target. Altis estimates headcount at about 22 (late Aug). Superseded by the 22 Oct 2026 cross-check: Forge COI (https://forgeglobal.com/core-automation_ipo/, published 2026-08-20, medium confidence) prices the July 15 2026 round at a $3.62B post. [Cross-check 2026-10-22, med] July 2026 round priced at $3.62B post by Forge COI (https://forgeglobal.com/core-automation_ipo/, published 2026-08-20), up from PitchBook's $3.5B. Small refinement. Still under $20B.",
     "subscores": {
       "talent": 9.3,
       "velocity": 8.3,
@@ -9602,12 +9585,17 @@ export const rankedStartups: RankedStartup[] = [
         "host": "pitchbook.com"
       },
       {
+        "label": "Valuation",
+        "url": "https://forgeglobal.com/core-automation_ipo/",
+        "host": "forgeglobal.com"
+      },
+      {
         "label": "Seed (2026-04)",
         "url": "https://www.techmeme.com/260507/p50",
         "host": "techmeme.com"
       },
       {
-        "label": "Series A (Form D; $432M sold of $635M) (2026-07)",
+        "label": "Status",
         "url": "https://app.edgar.tools/filing/2148145/0002148145-26-000001/formd",
         "host": "app.edgar.tools"
       },
@@ -9646,7 +9634,7 @@ export const rankedStartups: RankedStartup[] = [
       "employees": 16,
       "identityNote": null
     },
-    "valuationFromPitchBook": true,
+    "valuationFromPitchBook": false,
     "totalRaised": {
       "valueUsdM": 532.1,
       "asOf": "2026-10",
@@ -11387,218 +11375,6 @@ export const rankedStartups: RankedStartup[] = [
     "rank": 49
   },
   {
-    "name": "Lila Sciences",
-    "aliases": [
-      "Lila Sciences Inc.",
-      "LILA",
-      "lila.ai"
-    ],
-    "sector": "AI for science & health",
-    "category": "AI for science",
-    "founded": 2022,
-    "hq": "Cambridge, MA",
-    "website": "https://www.lila.ai/",
-    "oneLiner": "Building 'scientific superintelligence' — AI models plus autonomous 'AI Science Factory' labs across life sciences, chemistry and materials.",
-    "founders": "Incubated at Flagship Pioneering (Moderna's creator); CEO Geoffrey von Maltzahn (Flagship general partner).",
-    "talentSignals": [
-      "Job listings state ~535 employees (Sept 2026) (https://job-boards.greenhouse.io/lilasciences/jobs/4377936009); PitchBook shows 415.",
-      "Hiring across AI safety, applied AI, lab automation leadership.",
-      "Ranked #28 on LinkedIn Top Startups 2026 (US). Top talent sources: Ginkgo Bioworks (17), Flagship (15), Genentech (13), MIT (9) (https://www.linkedin.com/company/lila-sciences, aggregator)."
-    ],
-    "headcount": {
-      "value": 415,
-      "date": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/719996-50",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "rounds": [
-      {
-        "date": "2025-03",
-        "stage": "Seed",
-        "amountUsdM": 200,
-        "postValuationUsdB": null,
-        "leads": "Flagship Pioneering; General Catalyst, March Capital, ARK",
-        "source": "https://www.revenuememo.com/p/lila-sciences-funding",
-        "kind": "primary"
-      },
-      {
-        "date": "2025-09",
-        "stage": "Series A (first close)",
-        "amountUsdM": 235,
-        "postValuationUsdB": null,
-        "leads": "Flagship, General Catalyst, ADIA subsidiary and others",
-        "source": "https://sacra.com/c/lila-sciences/",
-        "kind": "primary"
-      },
-      {
-        "date": "2025-10",
-        "stage": "Series A extension",
-        "amountUsdM": 115,
-        "postValuationUsdB": 1.3,
-        "leads": "NVentures, Analog Devices, IQT, Braidwell and others",
-        "source": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
-        "kind": "primary"
-      },
-      {
-        "date": "2026-06",
-        "stage": "Series B (reported talks)",
-        "amountUsdM": 2000,
-        "postValuationUsdB": 10.5,
-        "leads": "CalPERS and NVentures (anchors, reported)",
-        "source": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation",
-        "kind": "talks"
-      }
-    ],
-    "valuationUsdB": 1.3,
-    "valuationDate": "2025-10",
-    "valuationSource": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
-    "upsideValuationUsdB": 1.3,
-    "upsideValuationBasis": "confirmed / latest reported",
-    "arr": null,
-    "revenueMultiple": null,
-    "multipleNote": "No public ARR — scored conservatively.",
-    "velocityMeta": {
-      "raised18moUsdM": 350,
-      "gapMonths": 1,
-      "lastRound": "2025-10",
-      "note": null
-    },
-    "research": "Results posted via blog/X (e.g., AI-directed lab screened 2,942 catalysts for iridium-free green hydrogen, Sept 2026); earlier antibody generation claims. No major open-source releases found.",
-    "xPosts": [
-      {
-        "url": "https://x.com/LilaSciences/status/2103468882019103017",
-        "author": "LilaSciences",
-        "date": "2026-09-25",
-        "likes": 173,
-        "views": 29250,
-        "summary": "AI-directed lab screened 2,942 catalysts to reduce iridium dependence in green hydrogen."
-      }
-    ],
-    "xPresence": "@LilaSciences ~4.4k followers; quiet on X.",
-    "threadSignal": null,
-    "traction": "Customer-facing Applied AI team adapting models to customer workflows (job posts); no revenue disclosed.",
-    "compute": "NVentures investor; no specific compute deal found.",
-    "moat": "Large proprietary autonomous-lab infrastructure and Flagship backing; very large capital raise if Series B closes.",
-    "risks": "Valuation jump without disclosed revenue; Series B unconfirmed; low public research visibility.",
-    "confidence": "medium",
-    "notes": "Trackers (CB Insights, StockAnalysis) list a Series B dated 2026-07-31, but Lila has not announced it; latest confirmed valuation kept at >$1.3B. Total confirmed funding $550M. [Refresh 2026-10-21] No Series B close found. Lila's news page has no funding post after the Oct 2025 Series A. Items since Oct 9 are non-material: an Oct 9 profile of Ken Stanley's open-endedness team and an Oct 13 explainer. CEO was named a Fast Company 2026 Tech Visionary (Oct 6, pre-window). Total confirmed funding is still ~$550M.",
-    "subscores": {
-      "talent": 6.0,
-      "velocity": 8.0,
-      "traction": 3.0,
-      "upside": 7.7,
-      "research": 4.0,
-      "multiple": 3.0,
-      "moat": 6.0,
-      "posting": 2.0
-    },
-    "composite": 52.3,
-    "tier": "C",
-    "sources": [
-      {
-        "label": "PitchBook (accessed 2026-10-21)",
-        "url": "https://pitchbook.com/profiles/company/719996-50",
-        "host": "pitchbook.com"
-      },
-      {
-        "label": "Valuation",
-        "url": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
-        "host": "reuters.com"
-      },
-      {
-        "label": "Seed (2025-03)",
-        "url": "https://www.revenuememo.com/p/lila-sciences-funding",
-        "host": "revenuememo.com"
-      },
-      {
-        "label": "Series A (first close) (2025-09)",
-        "url": "https://sacra.com/c/lila-sciences/",
-        "host": "sacra.com"
-      },
-      {
-        "label": "Series B (reported talks) (2026-06)",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation",
-        "host": "bloomberg.com"
-      },
-      {
-        "label": "Research output",
-        "url": "https://x.com/LilaSciences/status/2103468882019103017",
-        "host": "x.com"
-      },
-      {
-        "label": "Talent / traction",
-        "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4377936009",
-        "host": "job-boards.greenhouse.io"
-      },
-      {
-        "label": "Talent / traction",
-        "url": "https://www.linkedin.com/company/lila-sciences",
-        "host": "linkedin.com"
-      }
-    ],
-    "valuationSignal": {
-      "valueUsdB": 10.5,
-      "date": "2026-06",
-      "source": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation",
-      "basis": "in talks",
-      "note": "Bloomberg (Jun 3, 2026): ~$2B Series B at ~$8.5B PRE-money (~$10.5B post), anchored by CalPERS and NVentures. Still unannounced by Lila as of Oct 21. Caplight secondary estimate ~$10.7B (via TrueUp, Oct 16) is an aggregator estimate, not a round."
-    },
-    "refreshChanges": [],
-    "scoreAdjustmentReason": null,
-    "newRounds": [],
-    "pitchbook": {
-      "id": "719996-50",
-      "name": "Lila Sciences",
-      "url": "https://pitchbook.com/profiles/company/719996-50",
-      "ownershipStatus": "Privately Held (backing)",
-      "valuationUsdB": 1.256,
-      "valuationDate": "2025-09",
-      "lastDealType": "Early Stage VC",
-      "priorValuationUsdBDerived": null,
-      "totalRaisedUsdM": 550.0,
-      "revenueUsdM": null,
-      "revenueFiscalYear": null,
-      "employees": 415,
-      "identityNote": null
-    },
-    "valuationFromPitchBook": false,
-    "totalRaised": {
-      "valueUsdM": 550.0,
-      "asOf": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/719996-50",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "dataCoverage": {
-      "valuation": "sourced",
-      "rounds": "sourced",
-      "totalRaised": "sourced",
-      "revenue": "not disclosed",
-      "headcount": "sourced",
-      "research": "sourced",
-      "xPresence": "sourced",
-      "xPosts": "sourced"
-    },
-    "notDisclosed": [
-      "arr"
-    ],
-    "fillScoreAdjustments": null,
-    "fillScoreAdjustmentReason": null,
-    "isNewAddition": false,
-    "oct9": {
-      "rank": 60,
-      "composite": 52.3,
-      "tier": "C",
-      "rankAmongRemaining": 42
-    },
-    "oct21": {
-      "rank": 43,
-      "composite": 52.3,
-      "tier": "C"
-    },
-    "atValuationCap": false,
-    "rank": 50
-  },
-  {
     "name": "Rogo",
     "aliases": [
       "Rogo Technologies, Inc."
@@ -11862,7 +11638,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 51
+    "rank": 50
   },
   {
     "name": "Midjourney",
@@ -12043,7 +11819,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 52
+    "rank": 51
   },
   {
     "name": "Hippocratic AI",
@@ -12141,7 +11917,7 @@ export const rankedStartups: RankedStartup[] = [
     "moat": "Clinical safety track record, health-system integrations, and the company taking contractual responsibility for its agents.",
     "risks": "Revenue undisclosed, slow healthcare procurement, and competition from Abridge, Ambience, and incumbents.",
     "confidence": "medium",
-    "notes": "No revenue figure from reliable reporting (LinkedIn data says $76M, an aggregator figure, not used). Leads for the seed, Series A, and Series B were not verified and are left null. The Series A ($53M, Mar 2024, ~$500M) and Series B ($141M, Jan 2025, $1.64B) amounts and valuations come from Fierce Healthcare and revenuememo. [Refresh 2026-10-21] No new round, valuation, or revenue figure. A VP Controller was hired; no CFO/IPO signal beyond that.",
+    "notes": "No revenue figure from reliable reporting (LinkedIn data says $76M, an aggregator figure, not used). Leads for the seed, Series A, and Series B were not verified and are left null. The Series A ($53M, Mar 2024, ~$500M) and Series B ($141M, Jan 2025, $1.64B) amounts and valuations come from Fierce Healthcare and revenuememo. [Refresh 2026-10-21] No new round, valuation, or revenue figure. A VP Controller was hired; no CFO/IPO signal beyond that. [Cross-check 2026-10-22, low] Total raised set to about $444M, including roughly $40M of unannounced 2026 funding, per Revenue Memo (https://www.revenuememo.com/p/hippocratic-ai-funding, 2026-08). Secondary aggregator, no valuation. Forge COI updated 2026-08-20 still shows the Nov 2025 Series C at a $3.5B post as the latest round. PitchBook's $404M is the alternative.",
     "subscores": {
       "talent": 6.0,
       "velocity": 5.0,
@@ -12161,7 +11937,7 @@ export const rankedStartups: RankedStartup[] = [
         "host": "pitchbook.com"
       },
       {
-        "label": "Seed (2023-05)",
+        "label": "Total raised",
         "url": "https://www.revenuememo.com/p/hippocratic-ai-funding",
         "host": "revenuememo.com"
       },
@@ -12220,10 +11996,11 @@ export const rankedStartups: RankedStartup[] = [
     },
     "valuationFromPitchBook": true,
     "totalRaised": {
-      "valueUsdM": 404.0,
-      "asOf": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/527653-36",
-      "label": "PitchBook (accessed 2026-10-21)"
+      "valueUsdM": 444,
+      "asOf": "2026-08",
+      "source": "https://www.revenuememo.com/p/hippocratic-ai-funding",
+      "label": "Revenue Memo (secondary aggregator)",
+      "singleSource": true
     },
     "dataCoverage": {
       "valuation": "sourced",
@@ -12254,7 +12031,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 53
+    "rank": 52
   },
   {
     "name": "Standard Intelligence",
@@ -12439,7 +12216,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 54
+    "rank": 53
   },
   {
     "name": "Atoms",
@@ -12624,7 +12401,7 @@ export const rankedStartups: RankedStartup[] = [
     "oct9": null,
     "oct21": null,
     "atValuationCap": false,
-    "rank": 55
+    "rank": 54
   },
   {
     "name": "Reducto",
@@ -12848,7 +12625,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 56
+    "rank": 55
   },
   {
     "name": "Hedra",
@@ -13064,7 +12841,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 57
+    "rank": 56
   },
   {
     "name": "Genesis AI",
@@ -13289,7 +13066,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 58
+    "rank": 57
   },
   {
     "name": "Krea",
@@ -13509,6 +13286,213 @@ export const rankedStartups: RankedStartup[] = [
     "oct21": {
       "rank": 55,
       "composite": 48.6,
+      "tier": "C"
+    },
+    "atValuationCap": false,
+    "rank": 58
+  },
+  {
+    "name": "Lila Sciences",
+    "aliases": [
+      "Lila Sciences Inc.",
+      "LILA",
+      "lila.ai"
+    ],
+    "sector": "AI for science & health",
+    "category": "AI for science",
+    "founded": 2022,
+    "hq": "Cambridge, MA",
+    "website": "https://www.lila.ai/",
+    "oneLiner": "Building 'scientific superintelligence' — AI models plus autonomous 'AI Science Factory' labs across life sciences, chemistry and materials.",
+    "founders": "Incubated at Flagship Pioneering (Moderna's creator); CEO Geoffrey von Maltzahn (Flagship general partner).",
+    "talentSignals": [
+      "Job listings state ~535 employees (Sept 2026) (https://job-boards.greenhouse.io/lilasciences/jobs/4377936009); PitchBook shows 415.",
+      "Hiring across AI safety, applied AI, lab automation leadership.",
+      "Ranked #28 on LinkedIn Top Startups 2026 (US). Top talent sources: Ginkgo Bioworks (17), Flagship (15), Genentech (13), MIT (9) (https://www.linkedin.com/company/lila-sciences, aggregator)."
+    ],
+    "headcount": {
+      "value": 415,
+      "date": "2026-10",
+      "source": "https://pitchbook.com/profiles/company/719996-50",
+      "label": "PitchBook (accessed 2026-10-21)"
+    },
+    "rounds": [
+      {
+        "date": "2025-03",
+        "stage": "Seed",
+        "amountUsdM": 200,
+        "postValuationUsdB": null,
+        "leads": "Flagship Pioneering; General Catalyst, March Capital, ARK",
+        "source": "https://www.revenuememo.com/p/lila-sciences-funding",
+        "kind": "primary"
+      },
+      {
+        "date": "2025-09",
+        "stage": "Series A (first close)",
+        "amountUsdM": 235,
+        "postValuationUsdB": null,
+        "leads": "Flagship, General Catalyst, ADIA subsidiary and others",
+        "source": "https://sacra.com/c/lila-sciences/",
+        "kind": "primary"
+      },
+      {
+        "date": "2025-10",
+        "stage": "Series A extension",
+        "amountUsdM": 115,
+        "postValuationUsdB": 1.3,
+        "leads": "NVentures, Analog Devices, IQT, Braidwell and others",
+        "source": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
+        "kind": "primary"
+      },
+      {
+        "date": "2026-07",
+        "stage": "Series B (B-1/B-2)",
+        "amountUsdM": 2000,
+        "postValuationUsdB": 8.5,
+        "leads": "CalPERS, NVIDIA NVentures",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": 8.5,
+    "valuationDate": "2026-07",
+    "valuationSource": "https://forgeglobal.com/lila-sciences_ipo/",
+    "upsideValuationUsdB": 8.5,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": null,
+    "revenueMultiple": null,
+    "multipleNote": "No public ARR — scored conservatively.",
+    "velocityMeta": {
+      "raised18moUsdM": 2350,
+      "gapMonths": 9,
+      "lastRound": "2026-07",
+      "note": null
+    },
+    "research": "Results posted via blog/X (e.g., AI-directed lab screened 2,942 catalysts for iridium-free green hydrogen, Sept 2026); earlier antibody generation claims. No major open-source releases found.",
+    "xPosts": [
+      {
+        "url": "https://x.com/LilaSciences/status/2103468882019103017",
+        "author": "LilaSciences",
+        "date": "2026-09-25",
+        "likes": 173,
+        "views": 29250,
+        "summary": "AI-directed lab screened 2,942 catalysts to reduce iridium dependence in green hydrogen."
+      }
+    ],
+    "xPresence": "@LilaSciences ~4.4k followers; quiet on X.",
+    "threadSignal": null,
+    "traction": "Customer-facing Applied AI team adapting models to customer workflows (job posts); no revenue disclosed.",
+    "compute": "NVentures investor; no specific compute deal found.",
+    "moat": "Large proprietary autonomous-lab infrastructure and Flagship backing; very large capital raise if Series B closes.",
+    "risks": "Valuation jump without disclosed revenue; Series B unconfirmed; low public research visibility.",
+    "confidence": "medium",
+    "notes": "Trackers (CB Insights, StockAnalysis) list a Series B dated 2026-07-31, but Lila has not announced it; latest confirmed valuation kept at >$1.3B. Total confirmed funding $550M. [Refresh 2026-10-21] Lila's news page has no funding post after the Oct 2025 Series A. Items since Oct 9 are non-material: an Oct 9 profile of Ken Stanley's open-endedness team and an Oct 13 explainer. CEO was named a Fast Company 2026 Tech Visionary (Oct 6, pre-window). Superseded by the 22 Oct 2026 cross-check: Forge COI (https://forgeglobal.com/lila-sciences_ipo/, published 2026-09-16, medium confidence) shows Series B-1/B-2 of about $2.0B dated 2026-07-31 at an $8.5B post, investors CalPERS and NVentures, total funding $2.55B. Bloomberg (2026-06-03) framed $8.5B as pre-money, implying about $10.5B post; the COI post is the figure used. [Cross-check 2026-10-22, med] The June 2026 in-talks Series B is treated as closed on 2026-07-31 at an $8.5B COI post-money (https://forgeglobal.com/lila-sciences_ipo/). Total raised set to $2.55B. Bloomberg's $8.5B pre-money framing (about $10.5B post) is the unresolved alternative and is not used for the score.",
+    "subscores": {
+      "talent": 6.0,
+      "velocity": 7.4,
+      "traction": 3.0,
+      "upside": 5.7,
+      "research": 4.0,
+      "multiple": 3.0,
+      "moat": 6.0,
+      "posting": 2.0
+    },
+    "composite": 49.0,
+    "tier": "C",
+    "sources": [
+      {
+        "label": "PitchBook (accessed 2026-10-21)",
+        "url": "https://pitchbook.com/profiles/company/719996-50",
+        "host": "pitchbook.com"
+      },
+      {
+        "label": "Valuation",
+        "url": "https://forgeglobal.com/lila-sciences_ipo/",
+        "host": "forgeglobal.com"
+      },
+      {
+        "label": "Seed (2025-03)",
+        "url": "https://www.revenuememo.com/p/lila-sciences-funding",
+        "host": "revenuememo.com"
+      },
+      {
+        "label": "Series A (first close) (2025-09)",
+        "url": "https://sacra.com/c/lila-sciences/",
+        "host": "sacra.com"
+      },
+      {
+        "label": "Series A extension (2025-10)",
+        "url": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
+        "host": "reuters.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://x.com/LilaSciences/status/2103468882019103017",
+        "host": "x.com"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4377936009",
+        "host": "job-boards.greenhouse.io"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://www.linkedin.com/company/lila-sciences",
+        "host": "linkedin.com"
+      }
+    ],
+    "valuationSignal": null,
+    "refreshChanges": [],
+    "scoreAdjustmentReason": null,
+    "newRounds": [],
+    "pitchbook": {
+      "id": "719996-50",
+      "name": "Lila Sciences",
+      "url": "https://pitchbook.com/profiles/company/719996-50",
+      "ownershipStatus": "Privately Held (backing)",
+      "valuationUsdB": 1.256,
+      "valuationDate": "2025-09",
+      "lastDealType": "Early Stage VC",
+      "priorValuationUsdBDerived": null,
+      "totalRaisedUsdM": 550.0,
+      "revenueUsdM": null,
+      "revenueFiscalYear": null,
+      "employees": 415,
+      "identityNote": null
+    },
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 2550,
+      "asOf": "2026-09-16",
+      "source": "https://forgeglobal.com/lila-sciences_ipo/",
+      "label": "Forge total funding (COI-derived)",
+      "singleSource": true
+    },
+    "dataCoverage": {
+      "valuation": "sourced",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "not disclosed",
+      "headcount": "sourced",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "arr"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": false,
+    "oct9": {
+      "rank": 60,
+      "composite": 52.3,
+      "tier": "C",
+      "rankAmongRemaining": 42
+    },
+    "oct21": {
+      "rank": 43,
+      "composite": 52.3,
       "tier": "C"
     },
     "atValuationCap": false,
@@ -16365,236 +16349,6 @@ export const rankedStartups: RankedStartup[] = [
     "rank": 72
   },
   {
-    "name": "Hex",
-    "aliases": [
-      "Hex Technologies, Inc."
-    ],
-    "sector": "Apps, fintech & SaaS",
-    "category": "Data/analytics",
-    "founded": 2019,
-    "hq": "San Francisco",
-    "website": "https://hex.tech",
-    "oneLiner": "AI-native collaborative data workspace combining notebooks, BI, apps and data agents.",
-    "founders": "Barry McCardel (CEO), Caitlin Colgrove (CTO), Glen Takahashi (Chief Architect) — all ex-Palantir.",
-    "talentSignals": [
-      "Ex-Palantir founding team (https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI)",
-      "Acquired Hashboard (Apr 2025) (https://hex.tech/blog/welcoming-hashboard/)"
-    ],
-    "headcount": {
-      "value": 192,
-      "date": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/433831-60",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "rounds": [
-      {
-        "date": "2021-04",
-        "stage": "Seed",
-        "amountUsdM": 5.5,
-        "postValuationUsdB": null,
-        "leads": "Amplify Partners",
-        "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
-        "kind": "primary"
-      },
-      {
-        "date": "2021-10",
-        "stage": "Series A",
-        "amountUsdM": 16,
-        "postValuationUsdB": null,
-        "leads": "Redpoint Ventures",
-        "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
-        "kind": "primary"
-      },
-      {
-        "date": "2022-03",
-        "stage": "Series B",
-        "amountUsdM": 52,
-        "postValuationUsdB": null,
-        "leads": "a16z",
-        "source": "https://hex.tech/blog/series-b/",
-        "kind": "primary"
-      },
-      {
-        "date": "2023-03",
-        "stage": "Series B extension",
-        "amountUsdM": 28,
-        "postValuationUsdB": null,
-        "leads": "Sequoia Capital",
-        "source": "https://multiples.vc/private-comps/hex-technologies",
-        "kind": "primary"
-      },
-      {
-        "date": "2025-05",
-        "stage": "Series C",
-        "amountUsdM": 70,
-        "postValuationUsdB": null,
-        "leads": "Avra",
-        "source": "https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI",
-        "kind": "primary"
-      }
-    ],
-    "valuationUsdB": 0.38,
-    "valuationDate": "2023-03",
-    "valuationSource": "https://pitchbook.com/profiles/company/433831-60",
-    "upsideValuationUsdB": 0.38,
-    "upsideValuationBasis": "confirmed / latest reported",
-    "arr": {
-      "valueUsdM": 6.0,
-      "date": "2022-12",
-      "kind": "revenue (FY 2022, PitchBook)",
-      "source": "https://pitchbook.com/profiles/company/433831-60",
-      "singleSource": false
-    },
-    "revenueMultiple": 63.3,
-    "multipleNote": "63x valuation / ARR (stale ARR — capped)",
-    "velocityMeta": {
-      "raised18moUsdM": 70,
-      "gapMonths": 26,
-      "lastRound": "2025-05",
-      "note": null
-    },
-    "research": "Product changelog and data blog; modest public technical content; no notable papers or large OSS.",
-    "xPosts": [
-      {
-        "url": "https://x.com/barrald/status/2091584842895065102",
-        "author": "barrald",
-        "date": "2026-08-23",
-        "likes": 2330,
-        "views": 237406,
-        "summary": "CEO argues for building large AI data-center capacity in northern Alaska (not Hex-specific)."
-      },
-      {
-        "url": "https://x.com/hexanalytics/status/2093018525858426897",
-        "author": "hexanalytics",
-        "date": "2026-08-27",
-        "likes": 6,
-        "views": 863,
-        "summary": "Product update: point-and-click editing alongside code generation in Hex generative apps."
-      }
-    ],
-    "xPresence": "@barrald (CEO Barry McCardel) 4.5k followers; @hexanalytics 7.2k (fxtwitter, 2026-10-22). The CEO occasionally goes semi-viral on non-Hex takes (237k views); company posts get <5k views.",
-    "threadSignal": null,
-    "traction": "Thousands of orgs incl. Reddit, StubHub, HubSpot, Cisco, Figma, Anthropic, Rivian, NBA (BusinessWire, May 2025). Partnership with ClickHouse (Mar 2026); frequent agent/generative-app releases (changelog).",
-    "compute": null,
-    "moat": "Strong product in notebooks+BI; Snowflake/Databricks partnerships; but category crowded.",
-    "risks": "Competition from Databricks/Snowflake native notebooks, Deepnote, frontier-lab data agents; small scale vs peers.",
-    "confidence": "medium",
-    "notes": "Series C valuation not officially disclosed (GetLatka claims ~$400M — unverified, excluded). No ARR disclosed; not found. Not a strong fit for an 'AI startup' ranking — it's a data tooling company with AI features. [Refresh 2026-10-21] No new funding round found; Series C (May 2025) is still the latest. Airframe lists a ~$380M valuation and 192 FTEs (aggregator, unverified; excluded).",
-    "subscores": {
-      "talent": 5.5,
-      "velocity": 1.9,
-      "traction": 4.5,
-      "upside": 9.1,
-      "research": 3.0,
-      "multiple": 3.3,
-      "moat": 4.0,
-      "posting": 2.5
-    },
-    "composite": 43.8,
-    "tier": "D",
-    "sources": [
-      {
-        "label": "PitchBook (accessed 2026-10-21)",
-        "url": "https://pitchbook.com/profiles/company/433831-60",
-        "host": "pitchbook.com"
-      },
-      {
-        "label": "Seed (2021-04)",
-        "url": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
-        "host": "techcrunch.com"
-      },
-      {
-        "label": "Series B (2022-03)",
-        "url": "https://hex.tech/blog/series-b/",
-        "host": "hex.tech"
-      },
-      {
-        "label": "Series B extension (2023-03)",
-        "url": "https://multiples.vc/private-comps/hex-technologies",
-        "host": "multiples.vc"
-      },
-      {
-        "label": "Series C (2025-05)",
-        "url": "https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI",
-        "host": "businesswire.com"
-      },
-      {
-        "label": "Status",
-        "url": "https://hex.tech/blog/series-c/",
-        "host": "hex.tech"
-      },
-      {
-        "label": "Research output",
-        "url": "https://learn.hex.tech/changelog",
-        "host": "learn.hex.tech"
-      },
-      {
-        "label": "Talent / traction",
-        "url": "https://hex.tech/blog/welcoming-hashboard/",
-        "host": "hex.tech"
-      }
-    ],
-    "valuationSignal": null,
-    "refreshChanges": [
-      "Acqui-hired/acquired the Greenflash team, which builds AI-agent production analytics; announced 2026-10-19, terms undisclosed (https://hex.tech/blog/hex-greenflash/).",
-      "Research blog: 'Hill climbing to glory', on using 1,800 evals to cut AI errors 7x (Oct 8) (https://hex.tech/blog/we-used-evals-to-improve-ai-feature/). An earlier DataBench benchmark was published in Aug 2026."
-    ],
-    "scoreAdjustmentReason": null,
-    "newRounds": [],
-    "pitchbook": {
-      "id": "433831-60",
-      "name": "Hex.",
-      "url": "https://pitchbook.com/profiles/company/433831-60",
-      "ownershipStatus": "Privately Held (backing)",
-      "valuationUsdB": 0.38,
-      "valuationDate": "2023-03",
-      "lastDealType": "Early Stage VC",
-      "priorValuationUsdBDerived": 0.3248,
-      "totalRaisedUsdM": 171.5,
-      "revenueUsdM": 6.0,
-      "revenueFiscalYear": "FY 2022",
-      "employees": 192,
-      "identityNote": null
-    },
-    "valuationFromPitchBook": true,
-    "totalRaised": {
-      "valueUsdM": 171.5,
-      "asOf": "2026-10",
-      "source": "https://pitchbook.com/profiles/company/433831-60",
-      "label": "PitchBook (accessed 2026-10-21)"
-    },
-    "dataCoverage": {
-      "valuation": "sourced",
-      "rounds": "sourced",
-      "totalRaised": "sourced",
-      "revenue": "sourced",
-      "headcount": "sourced",
-      "research": "sourced",
-      "xPresence": "sourced",
-      "xPosts": "sourced"
-    },
-    "notDisclosed": [
-      "arr",
-      "latestValuation"
-    ],
-    "fillScoreAdjustments": null,
-    "fillScoreAdjustmentReason": null,
-    "isNewAddition": false,
-    "oct9": {
-      "rank": 87,
-      "composite": 38.6,
-      "tier": "E",
-      "rankAmongRemaining": 68
-    },
-    "oct21": {
-      "rank": 68,
-      "composite": 38.6,
-      "tier": "E"
-    },
-    "atValuationCap": false,
-    "rank": 73
-  },
-  {
     "name": "Turing",
     "aliases": [
       "Turing Enterprises Inc.",
@@ -16837,6 +16591,261 @@ export const rankedStartups: RankedStartup[] = [
       "rank": 66,
       "composite": 42,
       "tier": "D"
+    },
+    "atValuationCap": false,
+    "rank": 73
+  },
+  {
+    "name": "Hex",
+    "aliases": [
+      "Hex Technologies, Inc."
+    ],
+    "sector": "Apps, fintech & SaaS",
+    "category": "Data/analytics",
+    "founded": 2019,
+    "hq": "San Francisco",
+    "website": "https://hex.tech",
+    "oneLiner": "AI-native collaborative data workspace combining notebooks, BI, apps and data agents.",
+    "founders": "Barry McCardel (CEO), Caitlin Colgrove (CTO), Glen Takahashi (Chief Architect) — all ex-Palantir.",
+    "talentSignals": [
+      "Ex-Palantir founding team (https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI)",
+      "Acquired Hashboard (Apr 2025) (https://hex.tech/blog/welcoming-hashboard/)"
+    ],
+    "headcount": {
+      "value": 192,
+      "date": "2026-10",
+      "source": "https://pitchbook.com/profiles/company/433831-60",
+      "label": "PitchBook (accessed 2026-10-21)"
+    },
+    "rounds": [
+      {
+        "date": "2021-04",
+        "stage": "Seed",
+        "amountUsdM": 5.5,
+        "postValuationUsdB": null,
+        "leads": "Amplify Partners",
+        "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
+        "kind": "primary"
+      },
+      {
+        "date": "2021-10",
+        "stage": "Series A",
+        "amountUsdM": 16,
+        "postValuationUsdB": null,
+        "leads": "Redpoint Ventures",
+        "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
+        "kind": "primary"
+      },
+      {
+        "date": "2022-03",
+        "stage": "Series B",
+        "amountUsdM": 52,
+        "postValuationUsdB": null,
+        "leads": "a16z",
+        "source": "https://hex.tech/blog/series-b/",
+        "kind": "primary"
+      },
+      {
+        "date": "2023-03",
+        "stage": "Series B extension",
+        "amountUsdM": 28,
+        "postValuationUsdB": null,
+        "leads": "Sequoia Capital",
+        "source": "https://multiples.vc/private-comps/hex-technologies",
+        "kind": "primary"
+      },
+      {
+        "date": "2025-05",
+        "stage": "Series C",
+        "amountUsdM": 70,
+        "postValuationUsdB": 0.62,
+        "leads": "Avra",
+        "source": "https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI",
+        "kind": "primary"
+      },
+      {
+        "date": "2026-07",
+        "stage": "Series D (COI-derived, not announced)",
+        "amountUsdM": 112,
+        "postValuationUsdB": 1.21,
+        "leads": "undisclosed",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": 1.21,
+    "valuationDate": "2026-07",
+    "valuationSource": "https://forgeglobal.com/hex_ipo/",
+    "upsideValuationUsdB": 1.21,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": {
+      "valueUsdM": 6.0,
+      "date": "2022-12",
+      "kind": "revenue (FY 2022, PitchBook)",
+      "source": "https://pitchbook.com/profiles/company/433831-60",
+      "singleSource": false
+    },
+    "revenueMultiple": 201.7,
+    "multipleNote": "202x valuation / ARR (stale ARR — capped)",
+    "velocityMeta": {
+      "raised18moUsdM": 182,
+      "gapMonths": 14,
+      "lastRound": "2026-07",
+      "note": null
+    },
+    "research": "Product changelog and data blog; modest public technical content; no notable papers or large OSS.",
+    "xPosts": [
+      {
+        "url": "https://x.com/barrald/status/2091584842895065102",
+        "author": "barrald",
+        "date": "2026-08-23",
+        "likes": 2330,
+        "views": 237406,
+        "summary": "CEO argues for building large AI data-center capacity in northern Alaska (not Hex-specific)."
+      },
+      {
+        "url": "https://x.com/hexanalytics/status/2093018525858426897",
+        "author": "hexanalytics",
+        "date": "2026-08-27",
+        "likes": 6,
+        "views": 863,
+        "summary": "Product update: point-and-click editing alongside code generation in Hex generative apps."
+      }
+    ],
+    "xPresence": "@barrald (CEO Barry McCardel) 4.5k followers; @hexanalytics 7.2k (fxtwitter, 2026-10-22). The CEO occasionally goes semi-viral on non-Hex takes (237k views); company posts get <5k views.",
+    "threadSignal": null,
+    "traction": "Thousands of orgs incl. Reddit, StubHub, HubSpot, Cisco, Figma, Anthropic, Rivian, NBA (BusinessWire, May 2025). Partnership with ClickHouse (Mar 2026); frequent agent/generative-app releases (changelog).",
+    "compute": null,
+    "moat": "Strong product in notebooks+BI; Snowflake/Databricks partnerships; but category crowded.",
+    "risks": "Competition from Databricks/Snowflake native notebooks, Deepnote, frontier-lab data agents; small scale vs peers.",
+    "confidence": "medium",
+    "notes": "Series C valuation not officially disclosed (GetLatka claims ~$400M — unverified, excluded). No ARR disclosed; not found. Not a strong fit for an 'AI startup' ranking — it's a data tooling company with AI features. [Refresh 2026-10-21] No company-announced round after the May 2025 Series C. Airframe lists a ~$380M valuation and 192 FTEs (aggregator, unverified; excluded). Superseded by the 22 Oct 2026 cross-check: Forge COI (https://forgeglobal.com/hex_ipo/, published 2026-09-12, medium confidence) shows an unannounced Series D of $112M dated 2026-07-30 at a $1.21B post, total funding $283.72M, and a Series C post of about $0.62B. Forge says it has not found independent public confirmation. [Cross-check 2026-10-22, med] Unannounced Series D of $112M at a $1.21B post on 2026-07-30, from Forge COI (https://forgeglobal.com/hex_ipo/, published 2026-09-12). Total raised set to $283.72M. Series C post set to $0.62B. Not independently confirmed.",
+    "subscores": {
+      "talent": 5.5,
+      "velocity": 4.6,
+      "traction": 4.5,
+      "upside": 7.8,
+      "research": 3.0,
+      "multiple": 0.5,
+      "moat": 4.0,
+      "posting": 2.5
+    },
+    "composite": 43.5,
+    "tier": "D",
+    "sources": [
+      {
+        "label": "PitchBook (accessed 2026-10-21)",
+        "url": "https://pitchbook.com/profiles/company/433831-60",
+        "host": "pitchbook.com"
+      },
+      {
+        "label": "Valuation",
+        "url": "https://forgeglobal.com/hex_ipo/",
+        "host": "forgeglobal.com"
+      },
+      {
+        "label": "Seed (2021-04)",
+        "url": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/",
+        "host": "techcrunch.com"
+      },
+      {
+        "label": "Series B (2022-03)",
+        "url": "https://hex.tech/blog/series-b/",
+        "host": "hex.tech"
+      },
+      {
+        "label": "Series B extension (2023-03)",
+        "url": "https://multiples.vc/private-comps/hex-technologies",
+        "host": "multiples.vc"
+      },
+      {
+        "label": "Series C (2025-05)",
+        "url": "https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI",
+        "host": "businesswire.com"
+      },
+      {
+        "label": "Status",
+        "url": "https://hex.tech/blog/series-c/",
+        "host": "hex.tech"
+      },
+      {
+        "label": "Research output",
+        "url": "https://learn.hex.tech/changelog",
+        "host": "learn.hex.tech"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://hex.tech/blog/welcoming-hashboard/",
+        "host": "hex.tech"
+      }
+    ],
+    "valuationSignal": null,
+    "refreshChanges": [
+      "Acqui-hired/acquired the Greenflash team, which builds AI-agent production analytics; announced 2026-10-19, terms undisclosed (https://hex.tech/blog/hex-greenflash/).",
+      "Research blog: 'Hill climbing to glory', on using 1,800 evals to cut AI errors 7x (Oct 8) (https://hex.tech/blog/we-used-evals-to-improve-ai-feature/). An earlier DataBench benchmark was published in Aug 2026."
+    ],
+    "scoreAdjustmentReason": null,
+    "newRounds": [
+      {
+        "date": "2026-07",
+        "stage": "Series D (COI-derived, not announced)",
+        "amountUsdM": 112,
+        "postValuationUsdB": 1.21,
+        "leads": "undisclosed",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "singleSource": true
+      }
+    ],
+    "pitchbook": {
+      "id": "433831-60",
+      "name": "Hex.",
+      "url": "https://pitchbook.com/profiles/company/433831-60",
+      "ownershipStatus": "Privately Held (backing)",
+      "valuationUsdB": 0.38,
+      "valuationDate": "2023-03",
+      "lastDealType": "Early Stage VC",
+      "priorValuationUsdBDerived": 0.3248,
+      "totalRaisedUsdM": 171.5,
+      "revenueUsdM": 6.0,
+      "revenueFiscalYear": "FY 2022",
+      "employees": 192,
+      "identityNote": null
+    },
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 283.72,
+      "asOf": "2026-09-12",
+      "source": "https://forgeglobal.com/hex_ipo/",
+      "label": "Forge total funding (COI-derived)",
+      "singleSource": true
+    },
+    "dataCoverage": {
+      "valuation": "sourced",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "sourced",
+      "headcount": "sourced",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "arr",
+      "latestValuation"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": false,
+    "oct9": {
+      "rank": 87,
+      "composite": 38.6,
+      "tier": "E",
+      "rankAmongRemaining": 68
+    },
+    "oct21": {
+      "rank": 68,
+      "composite": 38.6,
+      "tier": "E"
     },
     "atValuationCap": false,
     "rank": 74
@@ -17792,7 +17801,7 @@ export const rankedStartups: RankedStartup[] = [
     "moat": "Founder's post-training expertise and benchmark credibility; low structural moat.",
     "risks": "Funding unknown; small team; benchmark work is hard to monetize.",
     "confidence": "medium",
-    "notes": "Not related to Thoughtful AI, the healthcare revenue-cycle company. No funding round, valuation or headcount found. Founding year is inferred from the X account joining in Dec 2025. [Refresh 2026-10-21] No funding announcement found. Crunchbase shows undisclosed pre-seed round(s), and a PitchBook preview lists a '$50K seed' (unreliable, not used). Crunchbase describes the products as 'Memily' (consumer storytelling) and 'Dreamline' (enterprise post-training), but that is unverified: a USPTO 'MEMILY' trademark is owned by an unrelated Texas company (Memily Inc). No launch found in the window.",
+    "notes": "Not related to Thoughtful AI, the healthcare revenue-cycle company. No funding round, valuation or headcount found. Founding year is inferred from the X account joining in Dec 2025. [Refresh 2026-10-21] No funding announcement found. Crunchbase shows undisclosed pre-seed round(s). Crunchbase describes the products as 'Memily' (consumer storytelling) and 'Dreamline' (enterprise post-training), but that is unverified: a USPTO 'MEMILY' trademark is owned by an unrelated Texas company (Memily Inc). No launch found in the window. The 22 Oct 2026 cross-check identifies the correct PitchBook profile as Thoughtful Lab, id 1478704-69 (https://pitchbook.com/profiles/company/1478704-69), a $50K seed. Low confidence: seen in a search snippet, not verified behind the login. The Thoughtful.ai screener row stays rejected. [Cross-check 2026-10-22, low] Correct PitchBook profile is Thoughtful Lab, id 1478704-69 (https://pitchbook.com/profiles/company/1478704-69). Latest deal listed as a $50K seed. Not verified behind the login. No valuation, so upside is unchanged.",
     "subscores": {
       "talent": 6.3,
       "velocity": 1.5,
@@ -17806,6 +17815,11 @@ export const rankedStartups: RankedStartup[] = [
     "composite": 39.6,
     "tier": "E",
     "sources": [
+      {
+        "label": "PitchBook (accessed 2026-10-21)",
+        "url": "https://pitchbook.com/profiles/company/1478704-69",
+        "host": "pitchbook.com"
+      },
       {
         "label": "Pre-Seed (amount undisclosed) (n/a)",
         "url": "https://www.crunchbase.com/organization/thoughtful-lab",
@@ -17846,13 +17860,33 @@ export const rankedStartups: RankedStartup[] = [
     "refreshChanges": [],
     "scoreAdjustmentReason": null,
     "newRounds": [],
-    "pitchbook": null,
+    "pitchbook": {
+      "id": "1478704-69",
+      "name": "Thoughtful Lab",
+      "url": "https://pitchbook.com/profiles/company/1478704-69",
+      "ownershipStatus": "Privately Held (Stealth)",
+      "valuationUsdB": null,
+      "valuationDate": null,
+      "lastDealType": "Seed",
+      "priorValuationUsdBDerived": null,
+      "totalRaisedUsdM": 0.05,
+      "revenueUsdM": null,
+      "revenueFiscalYear": null,
+      "employees": null,
+      "identityNote": "Correct PitchBook profile is Thoughtful Lab (1478704-69), not the rejected Thoughtful.ai screener row. Stealth. Latest deal listed as a $50K seed. Seen in a web-search snippet on 2026-10-22 and not verified behind the PitchBook login. Low confidence."
+    },
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 0.05,
+      "asOf": "2026-10-22",
+      "source": "https://pitchbook.com/profiles/company/1478704-69",
+      "label": "PitchBook Thoughtful Lab (snippet, low confidence)",
+      "singleSource": true
+    },
     "dataCoverage": {
       "valuation": "not disclosed",
       "rounds": "missing",
-      "totalRaised": "not disclosed",
+      "totalRaised": "sourced",
       "revenue": "not disclosed",
       "headcount": "not disclosed",
       "research": "sourced",
@@ -17914,13 +17948,14 @@ export const rankedStartups: RankedStartup[] = [
     "upsideValuationUsdB": null,
     "upsideValuationBasis": "confirmed / latest reported",
     "arr": {
-      "valueUsdM": null,
-      "date": null,
-      "kind": null,
-      "source": null
+      "valueUsdM": 2,
+      "date": "2026-10",
+      "kind": "ARR floor (>$2M, company hiring materials)",
+      "source": "https://builtin.com/job/account-executive/9330207",
+      "singleSource": true
     },
     "revenueMultiple": null,
-    "multipleNote": "No public ARR — scored conservatively.",
+    "multipleNote": "ARR reported but no valuation disclosed.",
     "velocityMeta": {
       "raised18moUsdM": 0,
       "gapMonths": null,
@@ -17953,24 +17988,29 @@ export const rankedStartups: RankedStartup[] = [
     "moat": "Thin; it is an environment and verifier vendor in a crowded space.",
     "risks": "Under-capitalized compared with peers; funding is undisclosed.",
     "confidence": "low",
-    "notes": "Investors include Engineering Capital, 11.2 Capital, B Capital, Storm Ventures, and Hitachi Ventures (company About page via rl-list). The ~$10M funding figure comes only from an aggregator. Headcount (30) is aggregator-sourced. [Refresh 2026-10-21] No funding announced. The Hitachi Ventures portfolio page now labels Collinear's stage as 'Series A' (https://www.hitachi-ventures.com/team/tobias-graf/), but no amount, date, or lead is disclosed, so no round was added. Caplight lists Collinear as a founding partner (with Vercel) of a 'Cyber Index Alliance' (2026-10-01, before the window; aggregator only).",
+    "notes": "Investors include Engineering Capital, 11.2 Capital, B Capital, Storm Ventures, and Hitachi Ventures (company About page via rl-list). The ~$10M funding figure comes only from an aggregator. Headcount (30) is aggregator-sourced. [Refresh 2026-10-21] No funding announced. The Hitachi Ventures portfolio page now labels Collinear's stage as 'Series A' (https://www.hitachi-ventures.com/team/tobias-graf/), but no amount, date, or lead is disclosed, so no round was added. Caplight lists Collinear as a founding partner (with Vercel) of a 'Cyber Index Alliance' (2026-10-01, before the window; aggregator only). [Cross-check 2026-10-22, low] A company job posting states ARR above $2M and that Collinear is scaling toward a Series A (https://builtin.com/job/account-executive/9330207, date approximate, Oct 2026). Scored as a $2M floor. No valuation is disclosed, so the revenue multiple stays the no-valuation score.",
     "subscores": {
       "talent": 5.0,
       "velocity": 1.5,
       "traction": 2.0,
       "upside": 5.0,
       "research": 5.0,
-      "multiple": 3.0,
+      "multiple": 5.0,
       "moat": 2.5,
       "posting": 2.0
     },
-    "composite": 33.4,
+    "composite": 35.4,
     "tier": "E",
     "sources": [
       {
         "label": "Total raised",
         "url": "https://www.caplight.com/company/collinear-ai",
         "host": "caplight.com"
+      },
+      {
+        "label": "Revenue / ARR",
+        "url": "https://builtin.com/job/account-executive/9330207",
+        "host": "builtin.com"
       },
       {
         "label": "Headcount",
@@ -18009,7 +18049,7 @@ export const rankedStartups: RankedStartup[] = [
       "valuation": "not disclosed",
       "rounds": "not disclosed",
       "totalRaised": "sourced",
-      "revenue": "not disclosed",
+      "revenue": "sourced",
       "headcount": "sourced",
       "research": "sourced",
       "xPresence": "sourced",
@@ -18356,15 +18396,15 @@ export const removedOverCap: RemovedOverCap[] = [
   {
     "name": "Anthropic",
     "sector": "Frontier & model labs",
-    "valuationUsdB": 2000,
+    "valuationUsdB": 1500,
     "valuationDate": "2026-10",
-    "valuationSource": "https://www.ifre.com/equities/2499407/anthropic-pushes-ahead-with-mid-november-ipo",
+    "valuationSource": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
     "basis": "in talks",
     "inTalksOnly": false,
     "closedValuationUsdB": 965.0,
     "closedValuationDate": "2026-05",
     "closedValuationSource": "https://pitchbook.com/profiles/company/466959-97",
-    "note": "IPO target valuation (IFR, WSJ via EngineerPal). Reuters reports some investors are weighing ~$1.5T, and Bloomberg reports a cohort of investors urged Anthropic to lower its IPO valuation target (https://engineerpal.com/anthropic-ipo-s1-filing/; https://www.msn.com/en-us/money/companies/nvidia-backed-nscale-anthropic-in-talks-for-new-45-billion-ai-cloud-deal-source-says/ar-AA2fBi5x).",
+    "note": "Cross-check 2026-10-22. Reuters (2026-10-15): some investors at the Oct 14 investor day discussed an IPO valuation of about $1.5T, versus about $2T previously expected. Yahoo Finance (2026-10-21) still cites up to $100B raised at $2T. Q3 2026 revenue was $16.8B, up 45% from $11.6B in Q2, and Q3 was adjusted-profitable (Reuters/FT, 2026-10-15). H1 2026 revenue was $16.3B with a net loss above $80B, including about $72B of non-cash convertible charge (WSJ via Yahoo Finance, 2026-10-21; https://fortune.com/2026/10/21/anthropic-s-1-leak-income-statement-ipo/). Public S-1 expected as early as Friday 2026-10-23 (https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html). Still private. Stays above $20B either way. The quarterly revenue is recorded here and is not substituted for the annual revenue figure used in the reference multiple.",
     "oct9Rank": 1,
     "oct9Composite": 84.5,
     "oct9Tier": "S",
@@ -18814,6 +18854,16 @@ export const changelog: Changelog = {
       "singleSource": false
     },
     {
+      "name": "Hex",
+      "date": "2026-07",
+      "stage": "Series D (COI-derived, not announced)",
+      "amountUsdM": 112,
+      "postValuationUsdB": 1.21,
+      "leads": "undisclosed",
+      "source": "https://forgeglobal.com/hex_ipo/",
+      "singleSource": true
+    },
+    {
       "name": "OpenAI",
       "date": "2026-10",
       "stage": "Pre-IPO round (in talks, not closed)",
@@ -18869,7 +18919,7 @@ export const changelog: Changelog = {
     {
       "name": "Recursive",
       "outcome": "ranked",
-      "rank": 21,
+      "rank": 20,
       "composite": 60.7,
       "tier": "B",
       "valuationUsdB": 4.65,
@@ -18902,7 +18952,7 @@ export const changelog: Changelog = {
     {
       "name": "Atoms",
       "outcome": "ranked",
-      "rank": 55,
+      "rank": 54,
       "composite": 50.9,
       "tier": "C",
       "valuationUsdB": 15,
@@ -18911,6 +18961,441 @@ export const changelog: Changelog = {
       "oneLiner": "Travis Kalanick's 'physical world computation' company building specialized 'gainfully employed' robots across Atoms Food (CloudKitchens infrastructure), Atoms Mining (autonomous mining via Pronto) and Atoms Transport (a 'wheelbase for robots')."
     }
   ],
+  "liveCrossCheck": {
+    "date": "2026-10-22",
+    "verified": 99,
+    "unchanged": 90,
+    "summary": "Live cross-check on 21–22 Oct 2026. Every one of the 99 companies (80 ranked, 19 removed above $20B) was searched again across TechCrunch, Reuters, Bloomberg, WSJ, Yahoo Finance, company blogs, crosswalk.to deal logs from 21 Aug through 21 Oct 2026, and Forge charter-filing tables. Secondary-market implied prices were recorded as context and not applied. Forge derives valuations from share prices in certificates of incorporation and says it has not found independent public confirmation for several of these rounds, so those rows are medium confidence. No confirmed acquisitions, shutdowns, rebrands, or new listings turned up. Anthropic's IPO is in process and a public S-1 is expected as early as Friday 23 Oct 2026; it is still private and stays in the removed list. No company crossed the $20B line. Mercor and Cohere stay at exactly $20B in talks, which is not above the cap, so they stay ranked.",
+    "changes": [
+      {
+        "company": "Periodic Labs",
+        "field": "Closed valuation",
+        "old": "$1.3B (2025-09, PitchBook)",
+        "new": "$7.5B (2026-06-03)",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "Forge COI: Series A $750M at $41.61/sh plus A-1 about $17M and A-2 about $41M, $7.5B post, investor AMP PBC. Turns the Forbes 7 May 2026 talks report into a closed round. Forge says the company has not publicly confirmed it. Still under $20B."
+      },
+      {
+        "company": "Periodic Labs",
+        "field": "Round basis",
+        "old": "Reported, unconfirmed (single source)",
+        "new": "Closed round (COI via Forge)",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "The June 2026 Series A is relabeled closed. The March 2026 and May 2026 in-talks rows are superseded."
+      },
+      {
+        "company": "Periodic Labs",
+        "field": "Total raised",
+        "old": "$300M (PitchBook)",
+        "new": "$1.07B",
+        "source": "https://forgeglobal.com/periodic-labs_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "Forge total funding: seed about $260M plus Series A tranches about $808M."
+      },
+      {
+        "company": "Lila Sciences",
+        "field": "Closed valuation",
+        "old": "$1.3B (2025-10)",
+        "new": "$8.5B (2026-07-31, COI post)",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "date": "2026-09-16",
+        "confidence": "med",
+        "note": "Series B-1 $1.46B and B-2 $540M, about $2.0B, investors CalPERS and NVIDIA NVentures. Bloomberg (3 Jun 2026) said $8.5B pre-money, which implies about $10.5B post. The COI post of $8.5B is the figure used. Under $20B either way."
+      },
+      {
+        "company": "Lila Sciences",
+        "field": "Round basis",
+        "old": "$10.5B in talks (2026-06)",
+        "new": "Closed Series B, $2.0B (2026-07-31)",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "date": "2026-09-16",
+        "confidence": "med",
+        "note": "Relabeled from 'Series B (reported talks)' to Series B (B-1/B-2). The $10.5B post is the unresolved Bloomberg alternative, not the scored valuation."
+      },
+      {
+        "company": "Lila Sciences",
+        "field": "Total raised",
+        "old": "$550M (PitchBook)",
+        "new": "$2.55B",
+        "source": "https://forgeglobal.com/lila-sciences_ipo/",
+        "date": "2026-09-16",
+        "confidence": "med",
+        "note": "Forge total funding."
+      },
+      {
+        "company": "Hex",
+        "field": "Closed valuation",
+        "old": "$0.38B (2023-03, PitchBook)",
+        "new": "$1.21B (2026-07-30)",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "Unannounced Series D of $112M at $15.45/sh. Forge says it has not found independent public confirmation. The May 2025 Series C post is set to $0.62B from the same COI."
+      },
+      {
+        "company": "Hex",
+        "field": "New round",
+        "old": "None after the May 2025 Series C",
+        "new": "Series D, $112M at a $1.21B post (2026-07-30)",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "COI-derived and not announced. Leads undisclosed."
+      },
+      {
+        "company": "Hex",
+        "field": "Total raised",
+        "old": "$171.5M (PitchBook)",
+        "new": "$283.7M",
+        "source": "https://forgeglobal.com/hex_ipo/",
+        "date": "2026-09-12",
+        "confidence": "med",
+        "note": "Forge total funding, $283.72M."
+      },
+      {
+        "company": "Core Automation",
+        "field": "Closed valuation",
+        "old": "$3.5B (2026-07, PitchBook)",
+        "new": "$3.62B (2026-07-15)",
+        "source": "https://forgeglobal.com/core-automation_ipo/",
+        "date": "2026-08-20",
+        "confidence": "med",
+        "note": "Forge COI prices the July round at $432.13M and $215.03/sh. Same filing shows Seed-1 of $100M at a $1B post on 2026-04-18. Small refinement."
+      },
+      {
+        "company": "Core Automation",
+        "field": "Round post-money",
+        "old": "Not disclosed",
+        "new": "$3.62B",
+        "source": "https://forgeglobal.com/core-automation_ipo/",
+        "date": "2026-08-20",
+        "confidence": "med",
+        "note": "Applied to the July 2026 Form D round. Matches the $432M sold."
+      },
+      {
+        "company": "Anthropic",
+        "field": "IPO status",
+        "old": "Private; IPO targeted mid-November",
+        "new": "Public S-1 expected as early as Fri 23 Oct 2026; still private",
+        "source": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html",
+        "date": "2026-10-21",
+        "confidence": "high",
+        "note": "Yahoo Finance, three sources. Confidential filing was in June. A November listing is still the target. Stays in Removed: above $20B."
+      },
+      {
+        "company": "Anthropic",
+        "field": "In-talks IPO valuation",
+        "old": "$2.0T",
+        "new": "~$1.5T",
+        "source": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+        "date": "2026-10-15",
+        "confidence": "med",
+        "note": "Reuters: some investors at the 14 Oct investor day discussed about $1.5T versus about $2T. Yahoo (21 Oct) still cites the $2T expectation. Above $20B either way."
+      },
+      {
+        "company": "Anthropic",
+        "field": "Revenue",
+        "old": "Not on the removed-list record",
+        "new": "Q3 2026 revenue $16.8B (+45% QoQ); H1 revenue $16.3B, H1 net loss >$80B",
+        "source": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+        "date": "2026-10-15",
+        "confidence": "high",
+        "note": "Q3 figures from Reuters/FT (15 Oct): $16.8B, up from $11.6B in Q2, adjusted profitable in Q3. H1 figures from WSJ via Yahoo (21 Oct) and Fortune (https://fortune.com/2026/10/21/anthropic-s-1-leak-income-statement-ipo/), including about $72B of non-cash convertible charge. Recorded on the removed row. Not substituted for the annual figure in the reference multiple."
+      },
+      {
+        "company": "Modal",
+        "field": "Series D note",
+        "old": "No Form D note",
+        "new": "Form D filed 20 Oct 2026: $601.9M sold of an $800M offering",
+        "source": "https://crosswalk.to/crosswalk/deals/2026-10-20",
+        "date": "2026-10-20",
+        "confidence": "med",
+        "note": "Consistent with the $750M Series D at $15.75B. Note only. No valuation or score change."
+      },
+      {
+        "company": "Thoughtful",
+        "field": "PitchBook identity",
+        "old": "Screener row rejected (Thoughtful.ai)",
+        "new": "Thoughtful Lab, id 1478704-69, $50K seed",
+        "source": "https://pitchbook.com/profiles/company/1478704-69",
+        "date": "2026-10-22",
+        "confidence": "low",
+        "note": "Found via a web-search snippet, not verified behind the PitchBook login. Replaces the rejected Thoughtful.ai match. No valuation, so the upside score is unchanged."
+      },
+      {
+        "company": "Hippocratic AI",
+        "field": "Total raised",
+        "old": "$404M (PitchBook)",
+        "new": "~$444M",
+        "source": "https://www.revenuememo.com/p/hippocratic-ai-funding",
+        "date": "2026-08",
+        "confidence": "low",
+        "note": "Secondary aggregator, including about $40M of unannounced 2026 funding, with no valuation. Forge COI (updated 20 Aug 2026) still shows the Nov 2025 Series C at a $3.5B post as the latest round."
+      },
+      {
+        "company": "Collinear AI",
+        "field": "ARR",
+        "old": "Not disclosed",
+        "new": ">$2M ARR",
+        "source": "https://builtin.com/job/account-executive/9330207",
+        "date": "2026-10",
+        "confidence": "low",
+        "note": "Company-stated in a job posting. The date is approximate. The posting also says the company is scaling toward a Series A. Scored as a $2M floor. No valuation is disclosed."
+      }
+    ],
+    "conflicts": [
+      {
+        "name": "Lila Sciences",
+        "notes": [
+          "Applied figure is the Forge COI post-money of $8.5B (2026-07-31). Bloomberg (2026-06-03, https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation) said $8.5B pre-money with about $2B of new money, which implies about $10.5B post. Under $20B either way. The COI post is the scored valuation."
+        ]
+      },
+      {
+        "name": "Cohere",
+        "notes": [
+          "Not changed. PitchBook valuation is $20B dated 2026-04, but the last closed priced round is $7B (Sep 2025). The $20B figure is only in talks (Globe and Mail, 15 Oct 2026). Exactly $20B is not above the cap, so Cohere stays ranked. The build note already flags this."
+        ]
+      },
+      {
+        "name": "Harvey",
+        "notes": [
+          "Not changed. PitchBook shows $16.3B. The company announced a $15.5B post in Sep 2026. The build uses PitchBook."
+        ]
+      },
+      {
+        "name": "Anthropic",
+        "notes": [
+          "Headline in-talks IPO valuation set to about $1.5T from Reuters (15 Oct 2026). Yahoo Finance (21 Oct 2026) still cites a Street expectation of up to $100B raised at $2T. Above $20B either way, so Anthropic stays in the removed list."
+        ]
+      },
+      {
+        "name": "Atoms",
+        "notes": [
+          "Not changed. One low-quality outlet (RoboticsIntl) puts the July $1.7B round at about $9B, against the $15B 2022 mark in the data. The company has not disclosed the valuation."
+        ]
+      },
+      {
+        "name": "Physical Intelligence",
+        "notes": [
+          "Not changed. PitchBook $11.7B vs COI $11.19B vs press about $11B. Immaterial, so the PitchBook figure stands."
+        ]
+      },
+      {
+        "name": "HeyGen, Cartesia, Liquid AI, Doppel",
+        "notes": [
+          "Not changed. Minor COI vs data differences: HeyGen $477M vs $0.5B, Cartesia $339M vs $0.362B, Liquid AI $2.28B vs $2.35B, Doppel $615M vs $0.6B."
+        ]
+      },
+      {
+        "name": "Perplexity",
+        "notes": [
+          "Not changed. DefiLlama cites a Jan 2026 $525M round at about $20.46B. Unverified, so it was not applied and Perplexity was not moved over the cap."
+        ]
+      },
+      {
+        "name": "Datalab",
+        "notes": [
+          "Not changed. Seed of $3.4M (Aug 2024, PitchBook) vs $3.5M (Jun 2025, Forkable). Already noted in the data."
+        ]
+      },
+      {
+        "name": "Pika",
+        "notes": [
+          "Not changed. Promptyze (Feb 2026) says Runway acquired Pika. No reputable outlet corroborates it, and Pika shipped a ChatGPT plugin on 16 Oct 2026 as an independent company. Not applied."
+        ]
+      }
+    ],
+    "capChanges": [],
+    "statusChanges": [],
+    "moves": [
+      {
+        "name": "Lila Sciences",
+        "from": 50,
+        "to": 59,
+        "fromComposite": 52.3,
+        "toComposite": 49.0,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Periodic Labs",
+        "from": 20,
+        "to": 26,
+        "fromComposite": 60.8,
+        "toComposite": 58.6,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Collinear AI",
+        "from": 80,
+        "to": 80,
+        "fromComposite": 33.4,
+        "toComposite": 35.4,
+        "fromTier": "E",
+        "toTier": "E"
+      },
+      {
+        "name": "Hex",
+        "from": 73,
+        "to": 74,
+        "fromComposite": 43.8,
+        "toComposite": 43.5,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Recursive",
+        "from": 21,
+        "to": 20,
+        "fromComposite": 60.7,
+        "toComposite": 60.7,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Linear",
+        "from": 22,
+        "to": 21,
+        "fromComposite": 60.4,
+        "toComposite": 60.4,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Luma AI",
+        "from": 23,
+        "to": 22,
+        "fromComposite": 60.4,
+        "toComposite": 60.4,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Sunday",
+        "from": 24,
+        "to": 23,
+        "fromComposite": 59.8,
+        "toComposite": 59.8,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Sakana AI",
+        "from": 25,
+        "to": 24,
+        "fromComposite": 59.2,
+        "toComposite": 59.2,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Cohere",
+        "from": 26,
+        "to": 25,
+        "fromComposite": 58.9,
+        "toComposite": 58.9,
+        "fromTier": "B",
+        "toTier": "B"
+      },
+      {
+        "name": "Rogo",
+        "from": 51,
+        "to": 50,
+        "fromComposite": 52,
+        "toComposite": 52.0,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Midjourney",
+        "from": 52,
+        "to": 51,
+        "fromComposite": 51.7,
+        "toComposite": 51.7,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Hippocratic AI",
+        "from": 53,
+        "to": 52,
+        "fromComposite": 51.3,
+        "toComposite": 51.3,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Standard Intelligence",
+        "from": 54,
+        "to": 53,
+        "fromComposite": 51,
+        "toComposite": 51.0,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Atoms",
+        "from": 55,
+        "to": 54,
+        "fromComposite": 50.9,
+        "toComposite": 50.9,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Reducto",
+        "from": 56,
+        "to": 55,
+        "fromComposite": 50.5,
+        "toComposite": 50.5,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Hedra",
+        "from": 57,
+        "to": 56,
+        "fromComposite": 50.3,
+        "toComposite": 50.3,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Genesis AI",
+        "from": 58,
+        "to": 57,
+        "fromComposite": 49.9,
+        "toComposite": 49.9,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Krea",
+        "from": 59,
+        "to": 58,
+        "fromComposite": 49,
+        "toComposite": 49.0,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Turing",
+        "from": 74,
+        "to": 73,
+        "fromComposite": 43.8,
+        "toComposite": 43.8,
+        "fromTier": "D",
+        "toTier": "D"
+      }
+    ],
+    "newlyRanked": []
+  },
   "pitchbookConflicts": [
     {
       "name": "OpenAI",
@@ -18980,7 +19465,7 @@ export const changelog: Changelog = {
     {
       "name": "Thoughtful",
       "notes": [
-        "PitchBook matched Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's Thoughtful lab; row ignored."
+        "The screener row was Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's lab, so that row is ignored. The 22 Oct 2026 cross-check points at PitchBook 'Thoughtful Lab' (1478704-69), a $50K seed, low confidence."
       ]
     },
     {
@@ -19173,11 +19658,11 @@ export const changelog: Changelog = {
       ]
     }
   ],
-  "pitchbookMatched": 88,
+  "pitchbookMatched": 89,
   "pitchbookRejected": [
     {
       "name": "Thoughtful",
-      "reason": "PitchBook matched Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's Thoughtful lab; row ignored."
+      "reason": "The screener row was Thoughtful.ai (healthcare revenue-cycle automation, acquired), not Karina Nguyen's lab, so that row is ignored. The 22 Oct 2026 cross-check points at PitchBook 'Thoughtful Lab' (1478704-69), a $50K seed, low confidence."
     }
   ],
   "pitchbookCaution": [
@@ -19209,13 +19694,13 @@ export const changelog: Changelog = {
   "dataFill": {
     "fieldsChecked": 744,
     "missingBefore": 269,
-    "filled": 208,
-    "notDisclosed": 38,
+    "filled": 210,
+    "notDisclosed": 36,
     "stillMissing": 23,
     "byField": {
       "totalRaised": {
-        "filled": 91,
-        "notDisclosed": 1,
+        "filled": 92,
+        "notDisclosed": 0,
         "stillMissing": 1
       },
       "headcount": {
@@ -19229,8 +19714,8 @@ export const changelog: Changelog = {
         "stillMissing": 6
       },
       "revenue": {
-        "filled": 13,
-        "notDisclosed": 26,
+        "filled": 14,
+        "notDisclosed": 25,
         "stillMissing": 11
       },
       "valuation": {
@@ -19299,20 +19784,11 @@ export const changelog: Changelog = {
     {
       "name": "Hedra",
       "from": 62,
-      "to": 57,
+      "to": 56,
       "fromComposite": 45,
       "toComposite": 50.3,
       "fromTier": "D",
       "toTier": "C"
-    },
-    {
-      "name": "Hex",
-      "from": 68,
-      "to": 73,
-      "fromComposite": 38.6,
-      "toComposite": 43.8,
-      "fromTier": "E",
-      "toTier": "D"
     },
     {
       "name": "Superpower",
@@ -19351,9 +19827,18 @@ export const changelog: Changelog = {
       "toTier": "D"
     },
     {
+      "name": "Hex",
+      "from": 68,
+      "to": 74,
+      "fromComposite": 38.6,
+      "toComposite": 43.5,
+      "fromTier": "E",
+      "toTier": "D"
+    },
+    {
       "name": "Linear",
       "from": 33,
-      "to": 22,
+      "to": 21,
       "fromComposite": 56,
       "toComposite": 60.4,
       "fromTier": "B",
@@ -19362,7 +19847,7 @@ export const changelog: Changelog = {
     {
       "name": "Cohere",
       "from": 14,
-      "to": 26,
+      "to": 25,
       "fromComposite": 63.1,
       "toComposite": 58.9,
       "fromTier": "B",
@@ -19378,9 +19863,18 @@ export const changelog: Changelog = {
       "toTier": "B"
     },
     {
+      "name": "Lila Sciences",
+      "from": 43,
+      "to": 59,
+      "fromComposite": 52.3,
+      "toComposite": 49.0,
+      "fromTier": "C",
+      "toTier": "C"
+    },
+    {
       "name": "Rogo",
       "from": 54,
-      "to": 51,
+      "to": 50,
       "fromComposite": 48.8,
       "toComposite": 52.0,
       "fromTier": "C",
@@ -19394,6 +19888,15 @@ export const changelog: Changelog = {
       "toComposite": 46.9,
       "fromTier": "D",
       "toTier": "D"
+    },
+    {
+      "name": "Collinear AI",
+      "from": 75,
+      "to": 80,
+      "fromComposite": 32.4,
+      "toComposite": 35.4,
+      "fromTier": "E",
+      "toTier": "E"
     },
     {
       "name": "Liner",
@@ -19423,18 +19926,9 @@ export const changelog: Changelog = {
       "toTier": "B"
     },
     {
-      "name": "Periodic Labs",
-      "from": 24,
-      "to": 20,
-      "fromComposite": 58.6,
-      "toComposite": 60.8,
-      "fromTier": "B",
-      "toTier": "B"
-    },
-    {
       "name": "Turing",
       "from": 66,
-      "to": 74,
+      "to": 73,
       "fromComposite": 42,
       "toComposite": 43.8,
       "fromTier": "D",
@@ -19479,7 +19973,7 @@ export const changelog: Changelog = {
     {
       "name": "Reducto",
       "from": 52,
-      "to": 56,
+      "to": 55,
       "fromComposite": 49.1,
       "toComposite": 50.5,
       "fromTier": "C",
@@ -19504,15 +19998,6 @@ export const changelog: Changelog = {
       "toTier": "D"
     },
     {
-      "name": "Collinear AI",
-      "from": 75,
-      "to": 80,
-      "fromComposite": 32.4,
-      "toComposite": 33.4,
-      "fromTier": "E",
-      "toTier": "E"
-    },
-    {
       "name": "turbopuffer",
       "from": 45,
       "to": 47,
@@ -19524,7 +20009,7 @@ export const changelog: Changelog = {
     {
       "name": "Genesis AI",
       "from": 51,
-      "to": 58,
+      "to": 57,
       "fromComposite": 49.1,
       "toComposite": 49.9,
       "fromTier": "C",
@@ -19533,7 +20018,7 @@ export const changelog: Changelog = {
     {
       "name": "Krea",
       "from": 55,
-      "to": 59,
+      "to": 58,
       "fromComposite": 48.6,
       "toComposite": 49.0,
       "fromTier": "C",

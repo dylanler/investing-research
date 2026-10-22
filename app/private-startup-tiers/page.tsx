@@ -98,7 +98,9 @@ function H2({ children }: { children: React.ReactNode }) {
 function formatUsdB(value: number | null | undefined) {
   if (!value) return 'n/a';
   if (value >= 1000) return `$${(value / 1000).toFixed(2)}T`;
-  if (value >= 1) return `$${value.toFixed(value >= 100 ? 0 : 1)}B`;
+  if (value >= 100) return `$${value.toFixed(0)}B`;
+  if (value >= 10) return `$${value.toFixed(1)}B`;
+  if (value >= 1) return `$${value.toFixed(2).replace(/0$/, '').replace(/\.0$/, '')}B`;
   return `$${Math.round(value * 1000)}M`;
 }
 
@@ -261,6 +263,16 @@ function CompanyCard({ company, peers, eff }: { company: LiveStartup; peers: Liv
             <span>Employees: <strong>{company.pitchbook.employees?.toLocaleString() ?? 'n/a'}</strong></span>
             <span style={{ gridColumn: '1 / -1' }}>Status: {company.pitchbook.ownershipStatus ?? 'n/a'}{company.pitchbook.priorValuationUsdBDerived ? ` · prior valuation ~${formatUsdB(company.pitchbook.priorValuationUsdBDerived)} (derived from step-up, not reported)` : ''}</span>
             {company.pitchbook.identityNote && <span style={{ gridColumn: '1 / -1', color: 'var(--warning)' }}>{company.pitchbook.identityNote}</span>}
+            {!company.valuationFromPitchBook && company.valuationUsdB && company.pitchbook.valuationUsdB && company.valuationUsdB !== company.pitchbook.valuationUsdB && (
+              <span style={{ gridColumn: '1 / -1' }}>The valuation in the header is the 22 Oct 2026 cross-check figure. This PitchBook mark is older.</span>
+            )}
+            {company.totalRaised && company.pitchbook.totalRaisedUsdM && company.totalRaised.valueUsdM !== company.pitchbook.totalRaisedUsdM && (
+              <span style={{ gridColumn: '1 / -1' }}>
+                Cross-check total raised:{' '}
+                {company.totalRaised.source ? <a href={company.totalRaised.source} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>{formatUsdM(company.totalRaised.valueUsdM)}</a> : formatUsdM(company.totalRaised.valueUsdM)}
+                {company.totalRaised.singleSource ? ' (single source)' : ''}.
+              </span>
+            )}
           </div>
         </div>
       )}
@@ -566,6 +578,7 @@ export default function PrivateStartupTiersPage() {
   const sourceCount = rankedStartups.reduce((s, c) => s + c.sources.length, 0);
   const excludedPublic = excludedEntities.filter((e) => e.status === 'public').length;
   const pitchbookCount = changelog.pitchbookMatched;
+  const xc = changelog.liveCrossCheck;
   const oct9Movers = rankedStartups
     .filter((c) => c.oct9?.rankAmongRemaining)
     .map((c) => ({ name: c.name, from: c.oct9!.rankAmongRemaining as number, to: c.rank, delta: (c.oct9!.rankAmongRemaining as number) - c.rank, oldScore: c.oct9!.composite, newScore: c.composite }))
@@ -1060,6 +1073,70 @@ export default function PrivateStartupTiersPage() {
               </ul>
             </details>
           </div>
+          <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderLeft: '4px solid var(--success)', borderRadius: 6, padding: 'var(--space-lg)', marginBottom: 'var(--space-xl)' }}>
+            <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 4 }}>Live cross-check (22 Oct 2026)</div>
+            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 'var(--space-md)', lineHeight: 1.55 }}>
+              {xc.summary ?? `Every company was searched again. ${xc.verified} verified. ${xc.unchanged} companies were verified unchanged.`}
+              {' '}{xc.changes.length} field changes across {new Set(xc.changes.map((c) => c.company)).size} companies are listed below with the source and confidence.
+              {' '}<strong>{xc.unchanged} companies were verified unchanged.</strong>
+              {xc.capChanges.length > 0 ? <> $20B cut: {xc.capChanges.map((c) => `${c.name} ${c.direction}`).join('; ')}.</> : <> No company crossed the $20B line in either direction.</>}
+            </div>
+            {xc.changes.length > 0 ? (
+              <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 6, maxHeight: 640, overflowY: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 980 }}>
+                  <thead>
+                    <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left', position: 'sticky', top: 0 }}>
+                      {['Company', 'Field', 'Old value', 'New value', 'Confidence', 'Source', 'Date'].map((h) => <th key={h} style={{ ...thStyle, cursor: 'default' }}>{h}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {xc.changes.map((ch, i) => (
+                      <tr key={`${ch.company}-${ch.field}-${i}`} style={{ borderBottom: '1px solid var(--ink-100)', verticalAlign: 'top' }}>
+                        <td style={{ padding: '7px 8px', fontWeight: 900, fontSize: 'var(--text-xs)', color: 'var(--ink-950)', whiteSpace: 'nowrap' }}>{ch.company}</td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', whiteSpace: 'nowrap' }}>{ch.field}</td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-500)', fontFamily: 'monospace' }}>{ch.old}</td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-900)', fontWeight: 700, lineHeight: 1.45 }}>
+                          <div style={{ fontFamily: 'monospace' }}>{ch.new}</div>
+                          {ch.note && <div style={{ fontFamily: 'inherit', fontWeight: 500, color: 'var(--ink-500)', marginTop: 2 }}>{ch.note}</div>}
+                        </td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)', fontWeight: 800, color: ch.confidence === 'high' ? 'var(--success)' : ch.confidence === 'low' ? 'var(--warning)' : 'var(--ink-700)', textTransform: 'capitalize' }}>{ch.confidence ?? '—'}</td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)' }}>{ch.source ? <a href={ch.source} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>{(() => { try { return new URL(ch.source).hostname.replace(/^www\./, ''); } catch { return 'link'; } })()}</a> : '—'}</td>
+                        <td style={{ padding: '7px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-600)', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>{ch.date ?? '—'}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)' }}>No field changes.</div>
+            )}
+            <div className="grid md:grid-cols-2" style={{ gap: 'var(--space-md)', marginTop: 'var(--space-md)' }}>
+              <details>
+                <summary style={{ cursor: 'pointer', fontSize: 'var(--text-sm)', fontWeight: 800, color: 'var(--ink-900)' }}>Score and rank moves from the cross-check ({xc.moves.length})</summary>
+                <div style={{ marginTop: 6 }}>
+                  {xc.moves.slice(0, 20).map((m) => (
+                    <button key={m.name} type="button" onClick={() => select(m.name)} style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: 6, border: 'none', background: 'transparent', padding: '2px 0', cursor: 'pointer', fontSize: 'var(--text-xs)', color: 'var(--ink-800)', textAlign: 'left' }}>
+                      <span><strong>{m.name}</strong> <span style={{ fontFamily: 'monospace', color: 'var(--ink-400)' }}>{m.fromComposite.toFixed(1)}→{m.toComposite.toFixed(1)}</span></span>
+                      <span style={{ fontFamily: 'monospace', fontWeight: 900 }}>
+                        {m.fromTier !== m.toTier && <><span style={{ color: tierColor(m.fromTier) }}>{m.fromTier}</span>→<span style={{ color: tierColor(m.toTier) }}>{m.toTier}</span> </>}
+                        <RankMove from={m.from} to={m.to} />
+                      </span>
+                    </button>
+                  ))}
+                  {xc.newlyRanked.length > 0 && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--accent)', marginTop: 4 }}>Newly ranked: {xc.newlyRanked.join(', ')}</div>}
+                </div>
+              </details>
+              <details>
+                <summary style={{ cursor: 'pointer', fontSize: 'var(--text-sm)', fontWeight: 800, color: 'var(--ink-900)' }}>Source conflicts logged ({xc.conflicts.length} companies)</summary>
+                <ul style={{ margin: '8px 0 0', paddingLeft: 16, display: 'grid', gap: 4 }}>
+                  {xc.conflicts.map((c) => (
+                    <li key={c.name} style={{ fontSize: '0.72rem', color: 'var(--ink-600)', lineHeight: 1.45, overflowWrap: 'anywhere' }}><strong style={{ color: 'var(--ink-800)' }}>{c.name}:</strong> {linkify(c.notes.join(' '))}</li>
+                  ))}
+                </ul>
+              </details>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
             <StatCard label="Removed (> $20B)" value={String(removedOverCap.length)} sub={`${removedOverCap.filter((r) => r.inTalksOnly).length} of them on in-talks reports only.`} />
             <StatCard label="Newly excluded" value={String(changelog.newExclusions.length)} sub={changelog.newExclusions.map((e) => `${e.name} (${e.status})`).join(', ') || 'None'} />
