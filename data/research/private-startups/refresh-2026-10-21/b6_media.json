@@ -1,0 +1,293 @@
+[
+  {
+    "name": "ElevenLabs",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.semafor.com/article/10/16/2026/the-22-billion-startup-co-founder-working-to-make-chatbots-talk-back",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 22, "date": "2026-09", "source": "https://elevenlabs.io/blog/tender-22bn", "basis": "tender", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 22, "date": "2026-09", "source": "https://elevenlabs.io/blog/tender-22bn", "basis": "tender", "note": "$300M employee tender at $22B led by Wellington and T. Rowe Price (company blog, confirmed by Reuters https://www.streetinsider.com/Reuters/ElevenLabs+valuation+doubles+to+%2422+billion+on+surging+AI+voice-agent+demand/27127568.html). No newer valuation or round talks found through 2026-10-21. Above the $20B threshold."},
+    "arr": {"valueUsdM": 600, "date": "2026-09", "kind": "ARR", "source": "https://www.revenuememo.com/p/elevenlabs-funding", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Launched Eleven Realtime (v1 Mini and v1 Max), an end-to-end speech-to-speech voice-agent model family compatible with OpenAI's Realtime API, on 2026-10-20 https://elevenlabs.io/blog/realtime",
+      "Launched Eleven Realtime Translation (alpha, enterprise ElevenAPI) on 2026-10-21; Deutsche Telekom is building it into its Magenta AI Call Assistant https://elevenlabs.io/blog/realtime-translation",
+      "CEO told Semafor (2026-10-16) the company wants to be IPO-ready, but not necessarily public, within 18-24 months https://www.semafor.com/article/10/16/2026/the-22-billion-startup-co-founder-working-to-make-chatbots-talk-back"
+    ],
+    "notes": "No new valuation, round, or acquisition since the $22B tender. Tender blog (updated Oct 5) adds that enterprise is 55% of revenue. Reuters (Oct 6, via The Videshi) reported plans to invest 'hundreds of millions' in India and openness to Indian acquisitions; no deal named. The Videshi attributes '>$600M run-rate' to a CNBC-TV18 interview, but the CNBC-TV18 article text (https://www.cnbctv18.com/market/eleven-labs-hints-it-could-be-ipo-ready-by-2028-20005750.htm) does not contain that figure, so the ARR stays at the prior single-source $600M. X posts not re-verified this refresh."
+  },
+  {
+    "name": "Midjourney",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://aibusiness.vc/startups/midjourney-500m-zero-funding",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "Has never raised outside capital, so there is no priced valuation. The '$10B' figures on data sites are unsourced."},
+    "arr": {"valueUsdM": 200, "date": "2023", "kind": "FY revenue", "source": "https://texxr.com/1166141/midjourney-reports-revenue-surpasses-200m", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Only in-window activity is weekly Office Hours on 2026-10-14 (alpha website and mobile updates, no model news) https://geekycuriosity.substack.com/p/creativity-ai-97-midjourney-refreshes . Thinking Mode test (Oct 8) is just before the window https://www.midjourney.com/updates/announcements . V9 is targeted for 2026 (community Office Hours notes, unofficial). Forbes, citing PitchBook, puts FY2024 revenue at ~$300M (per aibusiness.vc); not company-confirmed, so the ARR field is unchanged. Midjourney Medical scanner uses Butterfly chips under a licensing deal worth up to $74M (Butterfly 8-K, Nov 2025)."
+  },
+  {
+    "name": "Runway",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://runway.com/news/runway-series-e-funding",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 5.3, "date": "2026-02", "source": "https://www.bloomberg.com/news/articles/2026-02-10/ai-video-startup-runway-valued-at-5-3-billion-with-new-funding", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 5.3, "date": "2026-02", "source": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/", "basis": "closed round", "note": "No new round talks reported through 2026-10-21."},
+    "arr": {"valueUsdM": 200, "date": "2026-09", "kind": "ARR", "source": "https://www.bloomberg.com/news/articles/2026-09-08/ai-startup-runway-hits-200-million-in-annual-recurring-revenue", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Published the Project Continuum research application (an OS built on real-time generated video interfaces) on 2026-10-19 https://labs.runway.com/blog/continuum",
+      "Not Boring essay co-written with co-CEO Germanidis (2026-10-13) claims Runway added >$100M ARR in Q3 2026, is growing ~50% month over month, and is used by 95%+ of the Fortune 100 (company-sourced, no new ARR total) https://www.notboring.co/p/runway-learning-from-watching-the",
+      "Sacra (2026-10-09) estimates $200M ARR in Aug 2026, up from $96M at end-2025 https://sacra.com/research/runway-vs-higgsfield-vs-openart/"
+    ],
+    "notes": "No new funding, valuation, or M&A in the window. Kinetix acqui-hire (Sep 8) and Praxis-1 / Runway Ads (Sep 30) are before Oct 9. Headcount: ~140 at Feb 2026 per TechCrunch."
+  },
+  {
+    "name": "Luma AI",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.revenuememo.com/p/luma-ai-funding",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 4, "date": "2025-11", "source": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain.html", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 9, "date": "2026-03", "source": "https://www.forbes.com/sites/tylerroush/2026/08/25/carl-sagans-estate-sues-ai-startup-over-ad-allegedly-using-his-voice-without-permission/", "basis": "reported (closed)", "note": "A single line in a Forbes article (2026-08-25) says a March 2026 round valued Luma at $9B. Luma has not announced it, and no amount or investors have been reported. CNBC (May 2026) and Semafor (Jun 2026) still cited $4B. Single-source and unconfirmed; below the $20B threshold either way."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Checked for confirmation of the $9B Forbes figure and for new round talks: neither found through 2026-10-21. RevenueMemo still treats $4B as the latest confirmed mark. In-window news is product-only: Shot Coverage (generates extra camera angles from an existing shot) on 2026-10-15, per an aggregator (https://nebiusatlas.com/customers/luma-ai), not verified on a primary source. Claude Motion handoff partnership was announced 2026-10-08, just before the window (https://lumalabs.ai/news). Context: Carl Sagan estate copyright/voice suit filed Aug 2026 (Forbes). Revenue still undisclosed."
+  },
+  {
+    "name": "Pika",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://pika.art/blog/pika-chatgpt-plugin",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 0.47, "date": "2024-06", "source": "https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 0.47, "date": "2024-06", "source": "https://sacra.com/c/pika/", "basis": "closed round", "note": "No new round or M&A reported. Sacra still lists $470M (2024)."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Launched a Pika x ChatGPT plugin built with OpenAI on 2026-10-16, bringing 40+ Pika apps and 100+ third-party gen-media models into ChatGPT desktop/web https://pika.art/blog/pika-chatgpt-plugin"
+    ],
+    "notes": "Strategy of Finance (2026-10-13) analysis of the September relaunch: free tier removed, per-clip cost up ~28%, and the burn table now lists third-party models (Wan, Seedance), reinforcing the aggregator pivot https://www.strategyoffinance.com/essays/pika-repriced-without-changing-its-prices/ . No funding, revenue, or acquisition news."
+  },
+  {
+    "name": "Krea",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.krea.ai/blog/introducing-krea-3",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 0.5, "date": "2025-04", "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 0.5, "date": "2025-04", "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/", "basis": "closed round", "note": "No new round reported; Krea 3 coverage still cites >$80M raised."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Released Krea 3, its own image-editing model (native 2K edits in under 8s, $0.06 per 2K image, up to 6 reference images), on 2026-10-15; it became the default app model on Oct 16 and the public API opened Oct 19 https://www.krea.ai/blog/introducing-krea-3 , https://www.krea.ai/docs/changelog",
+      "Krea 3 is distributed via fal, Hedra, Together AI, Nous Research, OpenRouter and Replicate; Glitchwire reports it placed 2nd on Alibaba's CPI-Bench (Ultra tier) and that Krea says 1 in 3 Fortune 500 companies use the platform (company claim) https://glitchwire.com/news/krea-3-hits-benchmark-second-place-and-ships-the-first-trainable-image-editor/"
+    ],
+    "notes": "Headcount data point (pre-window): Fast Company (2026-05-14) called Krea a '37-person startup' https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model . Unlike Krea 2, there is no indication Krea 3 is open-weight, so the research score is unchanged. User count: the company blog says 30M users; Glitchwire says 35M (unverified). Revenue not found."
+  },
+  {
+    "name": "Hedra",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.hedra.com/blog",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 0.2, "date": "2025-05", "source": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/", "basis": "closed round", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 0.2, "date": "2025-05", "source": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/", "basis": "closed round", "note": "No 2026 round found."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Latest company news is just before the window: the Hedra Developer API (2026-10-06) offers 110+ third-party video/image/audio/text models (Veo, Kling, Seedance, ElevenLabs, etc.) through one key, which shifts Hedra toward an aggregator/infra role https://www.hedra.com/blog/hedra-developer-api . A 'Hedra Multiplayer' team canvas was announced on LinkedIn, date unclear. Hedra is a distribution partner for Krea 3 (Oct 15). No funding, ARR, or headcount update found."
+  },
+  {
+    "name": "Suno",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.musicbusinessworldwide.com/with-a-new-cfo-three-licensing-deals-and-775m-raised-whats-stopping-5-4b-valued-suno-from-an-ipo/",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 5.4, "date": "2026-06", "source": "https://about.suno.com/blog/series-d-announcement", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 5.4, "date": "2026-06", "source": "https://www.reuters.com/legal/transactional/ai-music-startup-suno-raises-funding-54-billion-valuation-2026-06-03/", "basis": "closed round", "note": "No newer valuation signal found."},
+    "arr": {"valueUsdM": 300, "date": "2026-02", "kind": "ARR", "source": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Litigation escalated: on 2026-10-13 UMG and Sony filed in Boston federal court opposing Lightspeed's motion to quash, seeking documents and testimony on Suno's 'legal risk of training data' (Lightspeed led the Series B and invested again in the C and D) https://www.musicbusinessworldwide.com/sony-and-universal-ask-court-to-force-suno-investor-lightspeed-to-testify-about-the-legal-risk-of-training-data/",
+      "The labels are also asking the court to compel DistroKid to hand over AI-music data for the Suno case (MBW, 2026-10-19) https://www.musicbusinessworldwide.com/umg-and-sony-ask-court-to-force-distrokid-to-hand-over-ai-music-data-for-suno-case/"
+    ],
+    "notes": "MBW (Oct 1, just before the window) reports a new CFO, three licensing deals (Warner, BMG, Believe), and >$775M total raised. Shulman said revenue is 'far beyond' $300M ARR but gave no figure. A second UMG/Sony suit (filed Sep 18) alleges copying of 60,202 recordings. No new ARR figure."
+  },
+  {
+    "name": "Cartesia",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://research.contrary.com/company/cartesia",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "Valuation never disclosed. Airframe (2026-10-21) lists $362M, unsourced and not used."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Only in-window item: a customer case study with India's Raise Financial Services (Dhan), whose voice bot uses Sonic for multilingual KYC calls (2026-10-12) https://www.cartesia.ai/blog/raise-financial-services . No new round, model, or revenue disclosure found."
+  },
+  {
+    "name": "TwelveLabs",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.globenewswire.com/news-release/2026/10/15/3381725/0/en/twelvelabs-unleashes-the-full-power-of-video-intelligence-with-jockey-s-public-debut.html",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "Series B ($100M, Jul 2026) valuation not disclosed."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Jockey video-intelligence agent reached general availability on 2026-10-15, with ChatGPT and Claude integrations; it serves as the search layer for the new Marengo 3.5 embedding model https://www.globenewswire.com/news-release/2026/10/15/3381725/0/en/twelvelabs-unleashes-the-full-power-of-video-intelligence-with-jockey-s-public-debut.html , https://www.twelvelabs.io/blog/jockey-ga-7-updates"
+    ],
+    "notes": "Pegasus 1.6, which adds egocentric/physical-AI video understanding and image input, shipped 2026-10-06, just before the window https://www.twelvelabs.io/blog/what%E2%80%99s-new-pegasus-1.6 . No funding or revenue news."
+  },
+  {
+    "name": "Perplexity",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac",
+    "newRounds": [
+      {"date": "2026-10", "stage": "Growth round (in talks, not closed)", "amountUsdM": 4500, "postValuationUsdB": null, "leads": "Nvidia (reported ~$3B; existing investors ~$1B more)", "source": "https://www.yna.co.kr/view/AKR20261001137000008", "singleSource": true}
+    ],
+    "latestValuation": {"valueUsdB": 20, "date": "2025-09", "source": "https://www.reuters.com/technology/perplexity-finalizes-20-billion-valuation-round-information-reports-2025-09-10/", "basis": "reported (closed)", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 30, "date": "2026-10", "source": "https://www.yna.co.kr/view/AKR20261001137000008", "basis": "in talks", "note": "Yonhap (2026-10-01), citing the financial-investment industry and investor Mirae Asset: Perplexity is raising ~$4.5B at a ~$30B PRE-money valuation, Nvidia leading with ~$3B. This implies roughly $34.5B post-money if completed (not reported as a figure). It supersedes The Information/Reuters 'Nvidia talks at >$30B' (2026-08-23, https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/). Not closed or announced as of 2026-10-21. Above the $20B threshold."},
+    "arr": {"valueUsdM": 750, "date": "2026-08", "kind": "annualized revenue", "source": "https://www.reuters.com/technology/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-information-2026-08-24/", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "New valuation signal: Yonhap/Mirae Asset (2026-10-01) report a ~$4.5B raise at ~$30B pre-money led by Nvidia (~$3B); still in progress https://www.yna.co.kr/view/AKR20261001137000008",
+      "Same report (Mirae-sourced, single source): revenue was $34M (2024), $152M (2025) and $75.9M in Q1 2026; ARR was $650M in May 2026 and ~$750M in Sep 2026; target is $1B ARR by year-end 2026; ~45M MAU and 190K+ paid subscribers as of Mar 2026 https://www.yna.co.kr/view/AKR20261001137000008",
+      "Open-sourced SPACE, the in-house agent sandbox behind Computer, with Akamai, Crusoe and CoreWeave as deployment partners (2026-10-15) https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "Launched fully local Computer on Apple-silicon Macs and an air-gapped/sovereign enterprise deployment with Valarian (2026-10-20) https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac , https://www.perplexity.ai/hub/blog/perplexity-brings-computer-to-enterprise-infrastructure-with-valarian",
+      "Released open-weight pplx-decider v1.2 classification models (27B and 4B Flash) with the Decisions API (2026-10-19) https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls"
+    ],
+    "notes": "The '$23B Series E-6, closed 2026-01-09' still appears only on aggregators and newsletters (valueaddvc, advalorem substack, aistartupsnews, a Startup Fortune summary on Ground News). No Reuters, Bloomberg, CNBC, WSJ, FT or The Information confirmation was found, so it is excluded from latestValuation and the closed mark stays $20B (Sep 2025). If the $23B is accepted, it would still be below the $30B signal. The Nvidia-led round is not closed. Secondary coverage claiming 'Perplexity raises $4.5B' (gate.com) misstates an in-progress raise. ARR field keeps the Reuters/The Information $750M (Aug 2026); Yonhap's ~$750M (Sep) is consistent. X posts not re-verified this refresh."
+  },
+  {
+    "name": "Liner",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://liner.com/news/Liner-SeriesC",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "Series C (Aug 2026) valuation not disclosed."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Only product and engineering updates: the October release notes (Oct 1) add a Liner Model API claiming frontier-level performance at half the price, and Actions MCP https://liner.com/ko/learn/new-in-liner-2026-10 ; an internal Data Agent engineering blog was posted Oct 12. No funding, revenue, or headcount news."
+  },
+  {
+    "name": "Otter.ai",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "newRounds": [
+      {"date": "2026-10", "stage": "Non-dilutive growth financing (General Catalyst Customer Value Fund; revenue-linked, repayable, not equity)", "amountUsdM": 320, "postValuationUsdB": null, "leads": "General Catalyst Customer Value Fund", "source": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "The $320M CVF deal is not equity and sets no valuation."},
+    "arr": {"valueUsdM": 100, "date": "2025-03", "kind": "ARR", "source": "https://otter.ai/blog/otter-ai-breaks-100m-arr-barrier-and-transforms-business-meetings-launching-industry-first-ai-meeting-agent-suite", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Announced $320M of non-dilutive, repayable growth financing from General Catalyst's Customer Value Fund on 2026-10-20, to fund enterprise sales/marketing, international expansion (UK, Canada) and product. It had raised only ~$50M of equity before (last in 2021) https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/ , https://www.investing.com/news/stock-market-news/otterai-raises-320-million-in-nonequity-financing-to-expand-enterprise-business-4960744",
+      "Company now cites 40M+ users to date (up from 25M last year per TechCrunch) and reach into 86% of the Fortune 500; CEO told CNBC that Otter ranks #1 on Hugging Face's speech-recognition leaderboard https://www.cnbc.com/video/2026/10/20/sam-liang-otterai-ceo-a-fortt-knox-update.html",
+      "New CMO Alex Gay (ex-Superhuman); Live Assist real-time call-coaching agent launched on Otter Enterprise https://otter.ai/tag/press-releases"
+    ],
+    "notes": "No updated ARR: Otter says it is 'approaching new milestones' but disclosed no figure, and no churn or MAU data. AT Pulse summary says the CEO aims to double or triple enterprise revenue next year and confirmed the money is repaid with interest https://at-pulse.com/stories/3361/ . Privacy class action continues after the Aug 2026 ruling. Score unchanged: the financing is debt-like and adds no new revenue data."
+  },
+  {
+    "name": "Wispr Flow",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 2, "date": "2026-08", "source": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 2, "date": "2026-08", "source": "https://wisprflow.ai/post/series-b", "basis": "closed round", "note": "No newer signal."},
+    "arr": {"valueUsdM": null, "date": null, "kind": null, "source": null, "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Only minor product updates (desktop dark mode Oct 19, Notetaker fixes Oct 9) https://wisprflow.ai/whats-new . TechCrunch's Otter story lists Wispr as a new notetaker entrant. ARR still undisclosed. Peekly/Indiepeer revenue estimates are app-store or traffic models and are not used."
+  },
+  {
+    "name": "Notion",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://www.notion.com/blog/notion-ai-more-for-less",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 11, "date": "2026-01", "source": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares", "basis": "tender", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 11, "date": "2026-01", "source": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares", "basis": "tender", "note": "No newer round, tender, or S-1 found as of 2026-10-21."},
+    "arr": {"valueUsdM": 865, "date": "2026-07", "kind": "ARR (Sacra estimate)", "source": "https://sacra.com/research/notion-at-865m-year-growing-82-yoy/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Rebuilt Notion Agents on 2026-10-19 (6th-generation harness, own computer/browser, tasks up to 24 hours), added an 'Auto' model router claiming frontier-like results at ~90% lower cost, BYOK/ChatGPT-plan linking, and a new per-seat Standard/Select credit system; existing workspaces migrate on Nov 2 https://www.notion.com/blog/notion-ai-more-for-less , https://www.notion.com/releases/2026-10-19",
+      "Company says Notion MCP is its 'fastest-growing product ever' https://www.notion.com/releases/2026-10-19"
+    ],
+    "notes": "An okara.ai summary says that at an October 2026 Tokyo briefing (ASCII.jp) Notion reported enterprise ARR up 169% as of Aug 2026, with ~2/3 of growth from AI. Not verified on the primary ASCII.jp article, so it is not used. No S-1 on EDGAR. ARR still a Sacra estimate."
+  },
+  {
+    "name": "Linear",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": "https://karrisaarinen.com/posts/sharing-growth-with-the-people-building-linear/",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 2.5, "date": "2026-08", "source": "https://www.accel.com/news/our-investment-in-linear-the-digital-connectivity-between-engineers-and-agents", "basis": "tender", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 2.5, "date": "2026-08", "source": "https://linear.app/now/sharing-growth-with-the-people-building-linear", "basis": "tender", "note": "No newer signal."},
+    "arr": {"valueUsdM": 100, "date": "2026-08", "kind": "ARR (surpassed)", "source": "https://www.businessinsider.com/saas-is-dead-startup-linear-just-doubled-its-valuation-2026-8", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "In-window activity: a Saarinen essay arguing agent 'software factories' make products incoherent hit 437 points on Hacker News on 2026-10-18 (MindPattern summary) https://mindpattern.ai/s/2026-10-19-linear-ceo-karri-saarinen-says-agent-software-factories-are-turning-products-into-fra . The Oct 8 changelog (stacked PRs, real-time agent diffs, AI spend limits) is just before the window https://linear.app/changelog/2026-10-08-stacked-pull-requests . Facts from the Aug tender post, not in the bN file: 40,000+ paying companies and 177% net revenue retention; Accel says more than half of Linear issues are now AI-authored. No funding or M&A news."
+  }
+]

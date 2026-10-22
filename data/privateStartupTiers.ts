@@ -1,4 +1,4 @@
-import { rankedStartups, excludedEntities } from '@/data/generated/privateStartupTiers';
+import { rankedStartups, excludedEntities, removedOverCap, changelog } from '@/data/generated/privateStartupTiers';
 
 export type FactorKey = 'talent' | 'velocity' | 'traction' | 'upside' | 'research' | 'multiple' | 'moat' | 'posting';
 export type Tier = 'S' | 'A' | 'B' | 'C' | 'D' | 'E';
@@ -11,7 +11,7 @@ export interface SourcedRound {
   postValuationUsdB: number | null;
   leads: string | null;
   source: string | null;
-  kind: 'primary' | 'secondary' | 'talks' | 'corporate' | 'grant';
+  kind: 'primary' | 'secondary' | 'talks' | 'corporate' | 'grant' | 'debt';
 }
 
 export interface XPost {
@@ -42,7 +42,7 @@ export interface RankedStartup {
   valuationSource: string | null;
   upsideValuationUsdB: number | null;
   upsideValuationBasis: string;
-  arr: { valueUsdM: number | null; date?: string | null; kind?: string | null; source?: string | null } | null;
+  arr: { valueUsdM: number | null; date?: string | null; kind?: string | null; source?: string | null; singleSource?: boolean | null } | null;
   revenueMultiple: number | null;
   multipleNote: string;
   velocityMeta: { raised18moUsdM: number; gapMonths: number | null; lastRound: string | null; note: string | null };
@@ -60,6 +60,40 @@ export interface RankedStartup {
   composite: number;
   tier: Tier;
   sources: { label: string; url: string; host: string }[];
+  valuationSignal: { valueUsdB: number; date?: string | null; source?: string | null; basis?: string | null; note?: string | null } | null;
+  refreshChanges: string[];
+  scoreAdjustmentReason: string | null;
+  newRounds: (Omit<SourcedRound, 'kind'> & { singleSource: boolean })[];
+  oct9: { rank: number; composite: number; tier: Tier; rankAmongRemaining?: number } | null;
+  atValuationCap: boolean;
+}
+
+export interface RemovedOverCap {
+  name: string;
+  sector: string;
+  valuationUsdB: number;
+  valuationDate: string | null;
+  valuationSource: string | null;
+  basis: string;
+  inTalksOnly: boolean;
+  closedValuationUsdB: number | null;
+  closedValuationDate: string | null;
+  closedValuationSource: string | null;
+  note: string | null;
+  oct9Rank: number | null;
+  oct9Composite: number | null;
+  oct9Tier: Tier | null;
+  referenceComposite: number;
+  referenceTier: Tier;
+}
+
+export interface Changelog {
+  from: string;
+  to: string;
+  valuationCapUsdB: number;
+  newExclusions: ExcludedEntity[];
+  newRounds: { name: string; date: string | null; stage: string | null; amountUsdM: number | null; postValuationUsdB: number | null; leads?: string | null; source: string | null; singleSource?: boolean }[];
+  companyChanges: { name: string; changes: string[]; scoreAdjustments: Partial<Record<FactorKey, number>> }[];
 }
 
 export interface ExcludedEntity {
@@ -70,11 +104,14 @@ export interface ExcludedEntity {
   referenceComposite?: number;
   referenceTier?: Tier;
   referenceSubscores?: Subscores;
+  since?: string;
+  oct9Rank?: number;
 }
 
-export { rankedStartups, excludedEntities };
+export { rankedStartups, excludedEntities, removedOverCap, changelog };
 
-export const updatedLabel = '9 Oct 2026';
+export const updatedLabel = '21 Oct 2026';
+export const previousLabel = '9 Oct 2026';
 
 export const factors: {
   key: FactorKey;
@@ -185,19 +222,19 @@ export const sectorColors: Record<string, string> = {
 
 export const thesisPillars = [
   {
-    title: 'The best private AI companies are no longer small',
-    takeaway: 'Anthropic ($965B) and OpenAI ($852B) are both in the S tier, but they score near zero on upside. They win on talent, velocity and a revenue multiple that has compressed to ~15–17x as run-rates exploded.',
-    proof: 'Anthropic run-rate >$65B (Jul 2026) and draft S-1 filed; OpenAI ~$50B annualized (Sep 2026) and IPO pushed to 2027. Both are private for now. The window to own either as a private company is closing.',
+    title: 'A $20B cap changes the question',
+    takeaway: 'As of 21 Oct the page ranks startups at or below $20B. The 18 companies above that line are listed separately with their valuation, date and source. Anthropic, OpenAI, Databricks, Mistral, Cognition and Perplexity, six of the Oct 9 top seven, are no longer in the tiers.',
+    proof: 'Anthropic is reportedly targeting ~$2T in a November IPO. OpenAI is in talks at >$1.4T. Ramp closed $1.85B at $60B on 15 Oct. Fireworks ($30–40B), Baseten ($26B), Etched ($40B+) and Perplexity (~$30B pre) cross the line on in-talks reports.',
   },
   {
-    title: 'Infra with revenue beats labs without it',
-    takeaway: 'Together AI, Databricks, Fireworks, fal, Modal and Baseten cluster in S/A. They sell picks and shovels at 7–27x revenue, while research-only labs like SSI, Discovery Loop and AMI score high on talent but are capped by missing ARR.',
-    proof: 'Fireworks >$1B ARR at $17.5B; Together $1.15B bookings at $8.3B; fal ~$800M annualized. SSI is valued at $32B with no product or disclosed revenue.',
+    title: 'AI infrastructure with revenue still leads',
+    takeaway: 'Together AI is the only S-tier company left. Vercel, Modal and fal take three of the top five, all selling picks and shovels at ~6–16x revenue with run-rates growing several-fold a year.',
+    proof: 'Modal closed $750M at $15.75B on 14 Oct and crossed $1B run-rate (from ~$300M in May). Vercel is at ~$600M annualized, +148% YoY (single source). fal is ~$800M annualized against a $4.5B last closed round.',
   },
   {
-    title: 'The crowd list was mostly right — and partly stale',
-    takeaway: 'Of the 9 S+ names in the 6 Oct thread, three are no longer private startups: xAI is part of public SpaceX, Cerebras IPO\'d, and World Labs signed with AMD. Cursor, a thread S-tier pick, closed into SpaceX in August.',
-    proof: 'SpaceX listed on Nasdaq 12 Jun 2026 (SPCX); Cerebras listed 14 May 2026 (CBRS); AMD–World Labs signed 26 Sep 2026; SpaceX–Cursor closed 14 Aug 2026.',
+    title: 'Talent labs re-price fast and land mid-table',
+    takeaway: 'TypeSafe AI ($7.5B, 9 Oct) and Flapping Airplanes ($6B, 21 Oct) raised at 4x+ step-ups within weeks. Strong velocity lifts them, but missing ARR keeps them in B and D.',
+    proof: 'Physical Intelligence (#3) is the highest-ranked company with no disclosed revenue, carried by talent 10 and research 9. It opened a Pi API beta on 13 Oct.',
   },
 ];
 
@@ -253,44 +290,44 @@ export const crowdPosts: { url: string; author: string; text: string; note: stri
 ];
 
 export const deepDives: Record<string, { take: string; watch: string }> = {
-  Anthropic: {
-    take: 'It tops the ranking even with a 0.5 upside score. Run-rate went from about $9B at the end of 2025 to more than $65B by July 2026, which pulls the revenue multiple down to ~15x, cheaper than Databricks or Ramp. Velocity is maxed: about $95B of primary capital raised in 18 months.',
-    watch: 'November IPO timing, the 2025 net loss, and whether Claude Code keeps share against Codex.',
-  },
-  OpenAI: {
-    take: 'Highest posting reach in the universe and a $50B annualized business at ~17x. Velocity is lower than Anthropic’s because its last closed round was March 2026; the ~$1.4T raise is still in talks and does not count.',
-    watch: 'Whether the $30B pre-IPO round closes, and how revenue is counted (the $68B gross vs $50B net confusion).',
-  },
   'Together AI': {
-    take: 'The best risk/reward among the large names: a Tri Dao / Chris Ré / Percy Liang research bench, FlashAttention lineage, and $1.15B of annual bookings against an $8.3B valuation (~7x). It is in the thread’s S tier and our S tier.',
+    take: 'The last S-tier name under the cap. It has a Tri Dao / Chris Ré / Percy Liang research bench, FlashAttention lineage, and $1.15B of annual bookings against an $8.3B valuation (~7x). No new round since July, so velocity is middling.',
     watch: 'Bookings are not ARR. GPU ownership makes it capital-intensive if open-model inference prices collapse.',
   },
-  Databricks: {
-    take: 'A $7B+ run-rate growing over 80%, free-cash-flow positive, and $10B raised in 18 months. It scores S on execution, not on upside: at $190B and ~27x, the easy multiple is gone.',
-    watch: 'IPO timing (Ghodsi pointed to 2027) and competition from Snowflake and the hyperscalers.',
-  },
-  'Mistral AI': {
-    take: 'Europe’s sovereign-AI champion crossed ~$1B ARR in September 2026 (from ~$400M a year earlier) at a $24B valuation. Its founders come from DeepMind and FAIR (LLaMA), and it keeps shipping open weights.',
-    watch: 'Its frontier gap to US and Chinese labs, and a much smaller compute budget.',
-  },
-  Cognition: {
-    take: 'One of the fastest revenue ramps on record: $37M (May 2025) to $1B+ run-rate (Sep 2026). It raised about every four months and absorbed Windsurf and Poke. It is the most-cited "upside for a hire" pick in the thread.',
-    watch: 'A 48x multiple, and squeeze from Claude Code and Codex, as well as Cursor now inside SpaceX.',
-  },
-  Perplexity: {
-    take: 'Top-three posting reach (Aravind Srinivas) plus annualized revenue tripling to more than $750M in 2026 on Perplexity Computer. The last confirmed valuation is $20B; the Nvidia talks at $30B+ are not counted.',
-    watch: 'Its dependence on the same model vendors it competes with, and publisher lawsuits.',
-  },
-  'Fireworks AI': {
-    take: 'Ex-Meta PyTorch team serving 40T+ tokens a day, with ARR passing $1B (5x YoY) at a $17.5B valuation. That is ~17.5x, cheap for that growth.',
-    watch: 'Inference price wars, and labs vertically integrating serving.',
-  },
-  'Thinking Machines Lab': {
-    take: 'S+ talent in the thread and a $2B seed. The score is held back by a ~120x revenue multiple and by co-founders returning to OpenAI.',
-    watch: 'Whether the in-talks Series A closes, and Inkling competitiveness.',
+  Vercel: {
+    take: 'Up from #12 to #2. A single report (The Information, 1 Oct) puts annualized revenue at ~$600M, +148% YoY, against a $9.3B valuation from Sep 2025. That pulls the multiple to ~16x. Rauch says coding agents now trigger 60% of deployments.',
+    watch: 'The $600M figure is single-source. The last round is 13 months old, which keeps velocity at 4.6.',
   },
   'Physical Intelligence': {
-    take: 'The most cracked robotics team (Levine, Finn, Hausman), the open π-model family, and ~$1.65B raised in 18 months. No disclosed revenue caps it at A.',
-    watch: 'Skild already at $100M ARR; proof that a hardware-agnostic model can be a business.',
+    take: 'The most cracked robotics team (Levine, Finn, Hausman), the open π-model family, and ~$1.65B raised in 18 months. The Pi API beta (13 Oct) is its first real product surface, so traction moved from 3 to 4.',
+    watch: 'Still no disclosed revenue. Skild is at $100M ARR. It is also unproven that a hardware-agnostic model can be a business.',
+  },
+  Modal: {
+    take: 'It closed $750M at $15.75B on 14 Oct and crossed a $1B run-rate in September (from ~$300M in May), so traction went from 8 to 9. At ~16x it is one of the cleanest growth-at-a-fair-multiple names left.',
+    watch: 'It resells third-party GPUs, so margins can be squeezed. Baseten, Together and the hyperscalers compete for the same workloads.',
+  },
+  fal: {
+    take: 'About $800M annualized revenue (Sep 2026) against its last closed round of $4.5B (Dec 2025), roughly a 6x multiple. A round at $15–20B was reported in September but has not closed.',
+    watch: 'The revenue figure is single-source. It depends on third-party model providers who may serve their own APIs.',
+  },
+  'Snorkel AI': {
+    take: '$375M ARR at a $3.5B Series E (Sep 2026), ~9x, after the Expert Data-as-a-Service pivot grew ARR 18x in a year. The founding team has a strong research record.',
+    watch: 'Lumpy, concentrated revenue from frontier labs, in a crowded data-vendor field.',
+  },
+  Runway: {
+    take: 'ARR doubled from ~$100M to ~$200M in 2026 at a $5.3B valuation. The company claims it added more than $100M of ARR in Q3 alone (not independently confirmed). It is one of few video labs with both research and enterprise revenue.',
+    watch: 'Veo, Sora and cheap Chinese models are commoditizing generation. Training is compute-hungry.',
+  },
+  Suno: {
+    take: '$300M ARR (Feb 2026) on a $5.4B valuation, 2M+ paid subscribers, and a CEO saying it is "far beyond" those figures.',
+    watch: 'Litigation escalated in the window: UMG and Sony are seeking testimony from lead investor Lightspeed and data from DistroKid.',
+  },
+  Mercor: {
+    take: 'A $2B gross revenue run-rate against a $10B last closed valuation (~5x), and profitable per the CEO. It launched a research team with LoRA author Edward Hu (research 2.5 to 3.5). It sits exactly at the $20B cap on an in-talks report, so it stays in but is flagged.',
+    watch: '~50 staff cut in early October. Meta paused work after a March data breach. Gross revenue includes pass-through contractor pay.',
+  },
+  'Prime Intellect': {
+    take: 'Up from #43 to #10. GeekWire reports it passed $100M annualized revenue at a ~$1B valuation (single source), which moves the multiple score from 3 to 10. It acquired Moondream on 13 Oct.',
+    watch: 'The revenue figure rests on one report. The compute marketplace is commoditizing, and Tinker and the hyperscalers compete for RL/fine-tuning spend.',
   },
 };

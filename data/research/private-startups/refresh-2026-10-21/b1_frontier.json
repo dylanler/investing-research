@@ -1,0 +1,292 @@
+[
+  {
+    "name": "OpenAI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [
+      {"date": "2026-10", "stage": "Pre-IPO round (in talks, not closed)", "amountUsdM": 30000, "postValuationUsdB": null, "leads": "SoftBank, MGX and other existing backers in talks (reported)", "source": "https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 852, "date": "2026-03", "source": "https://openai.com/index/accelerating-the-next-phase-ai/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 1400, "date": "2026-10", "source": "https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511", "basis": "in talks", "note": "Reuters (2026-10-19): OpenAI is racing to lock in ~$30B at 'over $1.4 trillion' before Anthropic's mid-November IPO. Not closed, no term sheet reported. Same figure as Bloomberg's 2026-09-29 report."},
+    "arr": {"valueUsdM": 50000, "date": "2026-09", "kind": "annualized revenue", "source": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Reuters (2026-10-19): OpenAI is accelerating its ~$30B pre-IPO round at >$1.4T to close before Anthropic's IPO. SoftBank and MGX are in talks; OpenAI met long-only and sovereign funds the week of 2026-10-12. It is pitching ~$50B annualized revenue rising to ~$70B by year-end, and a 2027 IPO remains the plan (https://www.investing.com/news/stock-market-news/exclusiveopenai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say-4958511; https://www.thehindubusinessline.com/info-tech/openai-seeks-30-billion-funding-at-14-trillion-valuation-ahead-of-anthropic-ipo/article71603118.ece)",
+      "The Guardian (2026-10-09) framed the ~$50B figure as ~$20B below the ~$70B OpenAI had signalled to investors, adding to the revenue-metric debate (https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap)",
+      "The Information (2026-10-13, single source, via an aggregator): OpenAI is in early talks to acquire the security firm Trail of Bits; deal size undisclosed and not signed (https://temperature2.com/p/2026-10-14-openai-trail-of-bits-acquisition-talks/)"
+    ],
+    "notes": "No new closed round, IPO filing or status change found. The Trail of Bits report is single-sourced (The Information) and seen only via an aggregator. A newsletter also mentioned that eight US states sued OpenAI over ChatGPT safety (https://morningtokens.com/issues/2026-10-15/), but I did not verify this against primary reporting, so it is not listed as a change. No X posts verified."
+  },
+  {
+    "name": "Anthropic",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": "Still private as of 2026-10-21; it has NOT listed and has NOT publicly filed. No public S-1 on EDGAR as of the morning of 2026-10-21. Yahoo Finance (three sources, 2026-10-21) says the public S-1 could come as soon as Friday 2026-10-23; IFR says filing on 2026-10-26, roadshow from 2026-11-09 and pricing the following week, raising up to $100B at ~$2T. Morgan Stanley and Goldman Sachs are joint bookrunners.",
+    "statusSource": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 965, "date": "2026-05", "source": "https://www.anthropic.com/news/series-h", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 2000, "date": "2026-10", "source": "https://www.ifre.com/equities/2499407/anthropic-pushes-ahead-with-mid-november-ipo", "basis": "in talks", "note": "IPO target valuation (IFR, WSJ via EngineerPal). Reuters reports some investors are weighing ~$1.5T, and Bloomberg reports a cohort of investors urged Anthropic to lower its IPO valuation target (https://engineerpal.com/anthropic-ipo-s1-filing/; https://www.msn.com/en-us/money/companies/nvidia-backed-nscale-anthropic-in-talks-for-new-45-billion-ai-cloud-deal-source-says/ar-AA2fBi5x)."},
+    "arr": {"valueUsdM": 67200, "date": "2026-09", "kind": "annualized revenue", "source": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Investor day (2026-10-14): Q3 2026 revenue was $16.8B, up 45% from $11.6B in Q2 (Q1 $4.7B). Anthropic said it was profitable on an adjusted basis and cash-flow positive in Q3 (FT, Bloomberg, CNBC, Reuters) (https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b; https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo; https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html)",
+      "WSJ/Reuters (2026-10-20), from the confidential draft S-1: H1 2026 revenue was $16.3B and the net loss $80.7B, of which ~$72B is a non-cash charge on convertible bonds (https://engineerpal.com/anthropic-ipo-s1-filing/)",
+      "IPO timing: public S-1 expected as soon as 2026-10-23 (Yahoo Finance) or on 2026-10-26 (IFR), roadshow from 2026-11-09, mid-November listing targeting up to $100B raised at ~$2T. Reuters earlier said the debut was likely after the US midterms. Not yet filed or listed (https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html; https://www.ifre.com/equities/2499407/anthropic-pushes-ahead-with-mid-november-ipo)",
+      "2026-10-18: Anthropic announced a Public Benefit Fund (wholly owned LLC) that will hold 5% of its shares, subject to stockholder approval, plus 2% more per 50% rise in value above a baseline (https://www.anthropic.com/news/public-benefit-fund)",
+      "Bloomberg/Reuters/CNBC (2026-10-19/20): in talks with Nscale for a second ~$45B, 460MW compute lease at the Monarch campus in West Virginia, on top of the $45B deal from August (https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html)"
+    ],
+    "notes": "The arr value of $67.2B is DERIVED (Q3 2026 quarterly revenue of $16.8B x 4), not a figure Anthropic quoted. The last directly reported run-rate is >$65B at end-July (Reuters). WSJ reports investors expect ~$110B annualized revenue by year-end (projection, not used). Anthropic and OpenAI dispute gross vs net revenue accounting. No X posts verified."
+  },
+  {
+    "name": "Safe Superintelligence (SSI)",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 32, "date": "2025-04", "source": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 32, "date": "2026-07", "source": "https://valueaddvc.com/pulse/safe-superintelligence-nvidia-5-billion-2026", "basis": "reported (closed)", "note": "Nvidia's ~$5B July 2026 investment was reported at or near the $32B mark, not as an up-round (secondary write-up of Bloomberg). No new round, tender or in-talks valuation reported since Oct 9."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Checked for funding, valuation, model release and announcements since Oct 9: none found. SSI has still not released a public model, paper or API, and ssi.inc is unchanged. An unofficial 2026-10-01 teaser by an SSI-tagged employee account (@peterthedecent) about a 'significant' announcement has not materialized (https://explainx.ai/blog/ssi-teases-significant-announcement-october-2026). StockAnalysis/Clarity shows a $45.81B secondary-implied valuation on 2026-10-21 (https://stockanalysis.com/private/safe-superintelligence/valuation/), but this is aggregator secondary pricing, not a round, and is not used. Valuation remains effectively single-marked since April 2025."
+  },
+  {
+    "name": "Thinking Machines Lab",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 12, "date": "2025-07", "source": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 40, "date": "2026-09", "source": "https://thenextweb.com/news/thinking-machines-lab-6bn-round-nvidia-accel", "basis": "in talks", "note": "$40B+ PRE-money, $5-6B raise (The Information via The Next Web, Sep 2026), Accel to lead, Nvidia ~half. Still not closed as of 2026-10-21 (https://valueaddvc.com/blog/thinking-machines-valuation-what-mira-muratis-ai-lab-is-worth-and-who-funded-it). An implied post-money would be ~$45-46B. Above the $20B threshold either way."},
+    "arr": {"valueUsdM": 100, "date": "2026-09", "kind": "run-rate", "source": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-20: Signed a multi-year deal with Firmus Technologies as anchor customer of Firmus's Asia AI-Cloud Region, to train and deploy next-generation models on Nvidia GB300 systems; value not disclosed (https://firmus.co/newsroom/firmus-announces-multi-year-partnership-to-accelerate-thinking-machines-lab-s-frontier-ai-development; https://www.afr.com/companies/infrastructure/firmus-signs-thinking-machines-in-first-big-contract-since-failed-ipo-20261021-p617ap)"
+    ],
+    "notes": "The Series A is still reported as in talks; no close, term sheet or new figure since Oct 9. No new co-founder departures found in the window. No X posts verified."
+  },
+  {
+    "name": "Mistral AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 24, "date": "2026-09", "source": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 24, "date": "2026-09", "source": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html", "basis": "closed round", "note": "No newer valuation signal found. Above the $20B threshold."},
+    "arr": {"valueUsdM": 1000, "date": "2026-09", "kind": "ARR", "source": "https://www.wsj.com/tech/ai/mistral-ai-exceeds-24-billion-valuation-after-samsung-led-investment-round-ea377b82", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-15: Released Timestral, its first time-series foundation model family (5M-209M params). Mistral claims #1 on GIFT-Eval, TIME and fev-bench among zero-shot models (https://mistral.ai/news/timestral/)",
+      "2026-10-15: CERN and Mistral signed a statement of intent for a long-term partnership to build a 'Large Physics Model' for LHC collider physics (https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/)",
+      "2026-10-21: Announced an engineering/industrial-AI collaboration with Nvidia (https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)",
+      "Context (just before the window, 2026-10-06): Mistral Large 4 public preview, a 1T-param / 52B-active multimodal MoE trained on 3,800 GB-series GPUs in Mistral's own datacenters. Open weights promised by end-October, not yet confirmed released (https://mistral.ai/news/mistral-large-4/)"
+    ],
+    "notes": "No new funding, IPO filing or M&A found since Oct 9. I did not verify whether the Mistral Large 4 weights have shipped. Voxtral 3 was also announced (https://mistral.ai/news/voxtral-3/), but I did not confirm its date. No X posts verified."
+  },
+  {
+    "name": "Cohere",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": "Aleph Alpha merger is still NOT closed: signed 2026-09-16, pending regulatory approvals, expected to close 'later this year'. Separately, Cohere signed a letter of intent (non-binding) on 2026-10-15 to acquire the AI-cybersecurity startup AISLE.",
+    "statusSource": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
+    "newRounds": [
+      {"date": "2026-10", "stage": "Series E (in talks, not closed)", "amountUsdM": 3000, "postValuationUsdB": 20, "leads": "Canadian and German government money plus existing backers (reported)", "source": "https://www.theglobeandmail.com/business/article-cohere-signs-letter-of-intent-to-buy-aisle/", "singleSource": true}
+    ],
+    "latestValuation": {"valueUsdB": 7, "date": "2025-09", "source": "https://www.theglobeandmail.com/business/article-canadian-ai-firm-cohere-in-advanced-talks-to-raise-up-to-3-billion/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 20, "date": "2026-10", "source": "https://www.theglobeandmail.com/business/article-cohere-signs-letter-of-intent-to-buy-aisle/", "basis": "in talks", "note": "The Globe and Mail (2026-10-15) still describes talks to raise 'upward of $3B' at ~$20B, not closed (summarized at https://valueaddvc.com/blog/cohere-ipo-2026-enterprise-ai-foundation-model-valuation). The combined Cohere + Aleph Alpha entity is also reported at ~$20B (Reuters). The bN file listed $20B as latestValuationUsdB, but the last CLOSED priced mark is $7B (Sep 2025). Hits the $20B threshold if the in-talks figure is used."},
+    "arr": {"valueUsdM": 240, "date": "2025-12", "kind": "ARR", "source": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-15: Signed a letter of intent to acquire AISLE (autonomous vulnerability discovery; >500 CVEs found, incl. all 12 in OpenSSL's January release). Terms undisclosed. ~50 staff join and Cohere forms 'Cohere Cyber' led by Ondrej Vlcek (ex-Avast CEO). Jaya Baloo becomes CISO and Stanislav Fort VP AI Security; AISLE's Prague office becomes Cohere's global AI-cybersecurity centre (https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai; https://www.investing.com/news/stock-market-news/cohere-moves-to-buy-ai-cybersecuritystartup-aisle-4950863; https://aisle.com/blog/aisle-and-cohere-to-join-forces)",
+      "The ~$20B / up-to-$3B+ raise is still in talks as of the 2026-10-15 Globe and Mail report; not closed (https://www.theglobeandmail.com/business/article-cohere-signs-letter-of-intent-to-buy-aisle/)",
+      "Aleph Alpha merger is still pending regulatory approval; no closing announced as of 2026-10-21 (https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement)"
+    ],
+    "notes": "I could not read the full text of the 2026-10-15 Globe and Mail article (paywall). The round details come from a secondary summary (Value Add VC), hence singleSource. No public S-1/F-1 found on EDGAR (per the same summary). 2026 ARR not found. No X posts verified."
+  },
+  {
+    "name": "Reflection AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": "Still private, but the FT reported on 2026-10-10 that Nvidia is in early talks to acquire Reflection, do an acqui-hire/licence deal, or invest more. Nothing signed; the FT said a deal could come 'in the coming weeks' or fall apart. Nvidia has invested $800M to date.",
+    "statusSource": "https://www.investing.com/news/stock-market-news/nvidia-in-talks-to-invest-further-in-reflection-ai-or-buy-it-ft-reports-4942221",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 27.5, "date": "2026-04", "source": "https://www.wsj.com/tech/ai/nvidia-backed-startup-seeking-to-counter-chinese-ai-eyes-25-billion-valuation-3bd8216c", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 27.5, "date": "2026-04", "source": "https://www.wsj.com/tech/ai/nvidia-backed-startup-seeking-to-counter-chinese-ai-eyes-25-billion-valuation-3bd8216c", "basis": "closed round", "note": "$25B pre-money (CEO on CNBC), so ~$27.5B post is implied if the reported $2.5B size holds. No price reported for the Nvidia talks. Above the $20B threshold."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {"research": 6.5},
+    "scoreAdjustmentReason": "Beam's full weights (501B/23B-active, 1M context, Apache 2.0) actually shipped on Hugging Face on 2026-10-16, with day-0 transformers/vLLM/SGLang support and SFT/RL recipes. This is a major open-weight release, so research goes from 5.5 to 6.5.",
+    "changes": [
+      "2026-10-10: FT (via Reuters/Bloomberg) reported that Nvidia is in early talks to acquire Reflection, do an acqui-hire/licence deal, or invest further; not agreed (https://www.investing.com/news/stock-market-news/nvidia-in-talks-to-invest-further-in-reflection-ai-or-buy-it-ft-reports-4942221; https://news.bloomberglaw.com/mergers-and-acquisitions/nvidia-in-talks-to-acquire-reflection-ai-ft)",
+      "2026-10-16: Beam weights released on Hugging Face under Apache 2.0 (BF16/FP8/NVFP4 plus a DFlash2 drafter), with HF post-training recipes (https://huggingface.co/blog/reflection-beam; https://huggingface.co/reflection/Beam-1.0-501B-A23B; https://siliconangle.com/2026/10/16/reflection-ai-open-sources-beams-weights-post-training-recipes/)"
+    ],
+    "notes": "Value Add VC cites TechCrunch putting total funding at ~$4.7B as of 2026-10-05, which I did not verify directly. No revenue figures found. No X posts newly verified (the bN file's 2026-10-05 Beam post still stands)."
+  },
+  {
+    "name": "Poolside",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 13, "date": "2026-08", "source": "https://www.newcomer.co/p/sources-poolside-strikes-6-billion", "basis": "reported (closed)", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 13, "date": "2026-08", "source": "http://investors.tiny.com/news/news-details/2026/NVIDIA-Deal-Highlights-Value-of-Tinys-Early-Poolside-Investment/default.aspx", "basis": "reported (closed)", "note": "Tiny Ltd. (TSX: TINY, a Poolside seed investor) press release of 2026-10-19 reiterates Nvidia's $1B at $12B pre / $13B post. No new valuation event."},
+    "arr": {"valueUsdM": 50, "date": "2025", "kind": "annualized revenue", "source": "https://valueaddvc.com/pulse/nvidia-poolside-6-billion-licensing-deal-2026", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "There was no material new event in the window. Tiny Ltd.'s 2026-10-19 release confirms the $13B post-money and notes Poolside's infrastructure spinout PIC (Project Horizon, West Texas: initial 200MW within a 1.2GW campus, first operations targeted late 2027). A 2026-10-15 piece on theinference.org cites a Schroders Capital Q3 letter calling Poolside its largest fund performance contributor, with revenue growing but valuation assumptions 'more conservative'. It also says Poolside keeps a research bench of <115 people. That site is low-reliability, so I did not use it for numbers (and its ~$4.1B valuation tag is unsourced). Laguna XS.2/M.1 SWE-bench claims (2026-10-03) predate the window and come from a weak source. No X posts verified."
+  },
+  {
+    "name": "AMI Labs",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 4.53, "date": "2026-03", "source": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 4.53, "date": "2026-03", "source": "https://www.reuters.com/business/ex-meta-ai-chief-yann-lecuns-ami-raises-103-billion-alternative-ai-approach-2026-03-10/", "basis": "closed round", "note": "No newer valuation signal found."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-20: G42 and its portfolio company Analog signed non-binding MOUs with AMI Labs to explore world models, compute infrastructure, sovereign cloud and integration with Analog's Physical Intelligence platform; no investment value or timeline disclosed (https://www.itp.net/ai-automation/g42-and-yann-lecuns-ami-labs-partner-to-explore-physical-and-industrial-ai-applications)"
+    ],
+    "notes": "No new funding found. In an AIM 2026 interview (date not confirmed), LeCun said AMI has 50-60 employees across Paris, New York, Montreal and Singapore, has no short-term product plans, and expects further rounds without a timeline (https://ceointerviews.ai/interview/2961732/). The bN headcount was 12 (Mar 2026). No X posts verified."
+  },
+  {
+    "name": "Humans&",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 4.48, "date": "2026-01", "source": "https://www.reuters.com/business/ai-startup-humans-raises-480-million-45-billion-valuation-seed-round-2026-01-20/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 4.48, "date": "2026-01", "source": "https://www.reuters.com/business/ai-startup-humans-raises-480-million-45-billion-valuation-seed-round-2026-01-20/", "basis": "closed round", "note": "No newer valuation signal found."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Searched funding/valuation/news for Oct 2026 and found nothing new since the Sep 2026 Persimmon launch. Axios (Jan 2026) said more seed money would follow, but no follow-on amount was found. No X posts verified."
+  },
+  {
+    "name": "Sakana AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 2.7, "date": "2026-04", "source": "https://metallab.ai/en/2026/8/inside-sakana-ai-japans-most-valuable-ai-startup", "basis": "closed round", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 2.7, "date": "2026-04", "source": "https://metallab.ai/en/2026/8/inside-sakana-ai-japans-most-valuable-ai-startup", "basis": "closed round", "note": "No newer valuation signal found."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-12: Paper 'Recursive Self-Improvement through Multi-Agent Self-Supervision' (MASS) with open code (https://sakana.ai/mass/)",
+      "October 2026: 'The Agentic Scientist', a next-generation AI Scientist; a co-discovered paper was accepted as an ALIFE 2026 oral (https://pub.sakana.ai/agentic-scientist/)",
+      "2026-10-15: 'My Fish' memory-visualization feature for Sakana Chat (https://sakana.ai/my-fish/); 2026-10-20: QD-Rec recommendation method paper and code (https://sakana.ai/qd-rec/)"
+    ],
+    "notes": "Research and product output only; no funding, valuation or revenue news found. At an Oct 5 open house, CEO David Ha described pretraining a Japanese agent-native LLM from scratch and a product lineup of Chat, Marlin, Fugu and Translate (https://sakana.ai/open-house-2026/). No X posts verified."
+  },
+  {
+    "name": "Liquid AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 2.35, "date": "2024-12", "source": "https://multiples.vc/private-comps/liquid-ai", "basis": "closed round", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 2.35, "date": "2024-12", "source": "https://multiples.vc/private-comps/liquid-ai", "basis": "closed round", "note": "No newer round. The Boston Business Journal (2026-10-20) describes Liquid AI as valued at 'approximately $2 billion' (https://www.nbcboston.com/boston-business-journal/the-3b-ai-company-based-in-boston-youve-never-heard-of/4034233/)."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "2026-10-13: Released open-weight LFM2.5-24B-A2B, a 24B/2B-active reasoning MoE with 131K context and 33T pretraining tokens, the largest and final LFM2.5 model (https://www.liquid.ai/blog/lfm2-5-24b-a2b; https://huggingface.co/LiquidAI/LFM2.5-24B-A2B)",
+      "2026-10-13: Introduced 'd1-ultra', a decision model (https://www.liquid.ai/models)"
+    ],
+    "notes": "Still no disclosed raise since Dec 2024. A Latka estimate of $13.2M ARR (2025) appears in an aggregator tear sheet, but it is too weak to use. A 2026-10-18 DigitalToday headline says a Liquid model was 'caught cheating during coding test' (via the same tear sheet); I could not read it, so it is not listed. No X posts verified."
+  },
+  {
+    "name": "Prime Intellect",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 1, "date": "2026-07", "source": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 1, "date": "2026-07", "source": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/", "basis": "closed round", "note": "No newer valuation signal found."},
+    "arr": {"valueUsdM": 100, "date": "2026-07", "kind": "annualized revenue", "source": "https://www.geekwire.com/2026/prime-intellect-acquires-moondream-a-vision-ai-startup-founded-in-seattle-by-aws-vets/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {"traction": 5.5},
+    "scoreAdjustmentReason": "GeekWire (2026-10-14) reports that Prime Intellect said in July it had passed $100M in annualized revenue (the bN file had no revenue figure). This is real scale for a ~45-person team, so traction goes from 4.5 to 5.5.",
+    "changes": [
+      "2026-10-13: Acquired Moondream (small open vision models, Photon megakernel inference engine; <10 staff); founders Vik Korrapati and Jay Allen will lead inference. Terms undisclosed (https://www.primeintellect.ai/blog/moondream; https://www.geekwire.com/2026/prime-intellect-acquires-moondream-a-vision-ai-startup-founded-in-seattle-by-aws-vets/)",
+      "New revenue data point: Prime Intellect said at its July Series A that it had passed $100M annualized revenue, per GeekWire (https://www.geekwire.com/2026/prime-intellect-acquires-moondream-a-vision-ai-startup-founded-in-seattle-by-aws-vets/)"
+    ],
+    "notes": "The >$100M figure was reportedly stated in July. I found it only via GeekWire (Oct 2026), not in the TechCrunch/SiliconANGLE July articles I had, hence singleSource. No new funding found. No X posts newly verified."
+  },
+  {
+    "name": "TypeSafe AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [
+      {"date": "2026-10", "stage": "Series A", "amountUsdM": 870, "postValuationUsdB": 7.5, "leads": "Andreessen Horowitz (Martin Casado joins board); Sequoia, DCVC and angels participated", "source": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 7.5, "date": "2026-10", "source": "https://typesafe.ai/blog/series-ai", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 7.5, "date": "2026-10", "source": "https://www.investing.com/news/stock-market-news/typesafe-ai-raises-870-million-led-by-andreessen-horowitz--bloomberg-93CH-4941303", "basis": "closed round", "note": "Announced 2026-10-09 by the company, a16z, Sequoia, Wilson Sonsini, Bloomberg and TechCrunch. Pre vs post money not specified; treated as headline valuation."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {"traction": 5.5, "moat": 4},
+    "scoreAdjustmentReason": "The $870M Series A at $7.5B gives a large capital base (moat 3.5 to 4). Usage signals are strong but company/investor-claimed: a16z says 1T tokens in 3 days and the fastest-growing model it has seen; Sequoia says fastest-adopted model in Vercel AI Gateway history; Bloomberg relays >1M users in days and ~1/3 of the Fortune 500 using it. No revenue disclosed, so traction goes from 4 to 5.5.",
+    "changes": [
+      "2026-10-09: Raised an $870M Series A at a $7.5B valuation led by a16z, with Sequoia, DCVC and angels; Martin Casado joins the board (https://typesafe.ai/blog/series-ai; https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/; https://a16z.com/announcement/investing-in-typesafe-ai/; https://sequoiacap.com/article/typesafe-the-jevolution; https://www.wsgr.com/en/insights/firm-advises-typesafe-ai-on-870m-series-a-led-by-a16z-at-7-5b-valuation.html)",
+      "Company now claims 'a third of the Fortune 500' are using Jev, up from 'a quarter' on 2026-10-01; >1M users within days per Bloomberg (https://www.investing.com/news/stock-market-news/typesafe-ai-raises-870-million-led-by-andreessen-horowitz--bloomberg-93CH-4941303)"
+    ],
+    "notes": "The round was announced on 2026-10-09 (the window start date) and is not in the bN file, which still shows only the $40M seed. Fortune 500 and user counts are company claims. Revenue and headcount not found. X posts for the announcement not verified (status IDs not found)."
+  },
+  {
+    "name": "Flapping Airplanes",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [
+      {"date": "2026-10", "stage": "Series A", "amountUsdM": 1000, "postValuationUsdB": 6, "leads": "Index Ventures, Lux Capital (co-leads); Sequoia, GV, Kleiner Perkins participated; Nvidia among backers", "source": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 6, "date": "2026-10", "source": "https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 6, "date": "2026-10", "source": "https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round", "basis": "closed round", "note": "Bloomberg: the $6B includes the new money (post-money) and is 4x the January seed valuation."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {"moat": 3},
+    "scoreAdjustmentReason": "A $1B war chest plus disclosed proprietary GPU software (megakernels / a 'kittens' VM that takes over the whole GPU) gives some defensibility, so moat goes from 2.5 to 3. Still pre-product, so traction is unchanged.",
+    "changes": [
+      "2026-10-21: Raised a $1B Series A at a $6B post-money valuation, co-led by Index Ventures and Lux Capital, with Sequoia, GV and Kleiner Perkins (Bloomberg, TechCrunch, Index) (https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round; https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/; https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/)",
+      "Strategy disclosed: builds its own GPU software (megakernels) to boost chip efficiency, and now says it plans to commercialize its technology (previously 'not commercializing'). Team of 'a couple dozen people' per Index (https://qz.com/flapping-airplanes-ai-startup-1-billion-funding-valuation-102126)"
+    ],
+    "notes": "The January seed valuation is implied at ~$1.5B (Bloomberg's '4x'), but was never stated directly, so it is not recorded. The company's announcement post was seen via a Nitter mirror (~381k views, ~2.7k likes at 7h), but I did not have its status ID, so it is not verified via fxtwitter and not listed."
+  }
+]

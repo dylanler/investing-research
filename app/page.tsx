@@ -474,11 +474,11 @@ export default function Home() {
                   href="/private-startup-tiers"
                   label="Report V"
                   title="Private AI Startup Tier List"
-                  subtitle="94 private AI startups scored 0–100 on talent density, fundraising velocity, traction, valuation upside, research, revenue multiple, moat, and X posting reach — sorted S through E, with public and acquired names excluded."
+                  subtitle="Refreshed 21 Oct: 75 private AI startups valued at $20B or less, scored 0–100 on talent, fundraising velocity, traction, upside, research, revenue multiple, moat, and X reach. Sorted S through E with live re-weighting; the 18 above $20B are listed separately."
                   accentColor="oklch(58% 0.19 25)"
                   stats={[
-                    { label: 'Companies', value: '94' },
-                    { label: 'S tier', value: '4' },
+                    { label: 'Companies', value: '75' },
+                    { label: 'Removed >$20B', value: '18' },
                     { label: 'Factors', value: '8' },
                   ]}
                 />
@@ -690,7 +690,7 @@ export default function Home() {
               { icon: '\uD83C\uDFED', title: 'Then the Supply Chain', desc: 'Report II zooms into 100 public companies across 10 sectors. Filter by sector, sort by current alpha, and explore bull/bear theses for each name.' },
               { icon: '\uD83E\uDD16', title: 'Then Robotics', desc: 'Report III asks: can robots learn from human video instead of expensive teleop? 10 methods scored, 5 labs profiled, 50 companies ranked.' },
               { icon: '\uD83E\uDDEB', title: 'Then Lab Equipment', desc: 'Report IV asks which public instrument and automation names still have 6–12 month alpha after Neon. 100 live tickers, ranked by residual alpha, with a private-company gap list.' },
-              { icon: '\uD83C\uDFC6', title: 'Then Private Startups', desc: 'Report V ranks 94 private AI startups 0–100 on eight weighted factors and sorts them into S–E tiers, with every valuation, round, and ARR figure sourced.' },
+              { icon: '\uD83C\uDFC6', title: 'Then Private Startups', desc: 'Report V ranks 75 private AI startups valued at $20B or less, 0–100 on eight weighted factors, sorted into S–E tiers. Readers can re-weight the factors live, and every valuation, round, and ARR figure is sourced.' },
               { icon: '\uD83E\uDDE0', title: 'Then Scaling Intelligence', desc: 'Report VI examines whether AI can get smarter by structuring its own thinking. 5 novel RLM methods, 16 scenarios, 100 companies.' },
             ].map((card, i) => (
               <Reveal key={card.title} delay={i * 0.08}>

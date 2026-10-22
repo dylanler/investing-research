@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Stripe",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 159, "date": "2026-02", "source": "https://stripe.com/newsroom/news/stripe-2025-update", "basis": "tender", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 159, "date": "2026-02", "source": "https://www.cnbc.com/2026/02/24/stripe-value-stock-sale-tender-offer.html", "basis": "tender", "note": "No new tender or primary round since Oct 9. Forge secondary-market price implies ~$184.4B (Oct 1 and Oct 21, 2026) — a model-derived trading estimate, not a company-set valuation (https://finance.yahoo.com/quote/STRI.PVT/, https://www.benzinga.com/markets/private-markets/26/10/62127997/stripes-184-billion-private-market-valuation-puts-a-price-on-the-ai-agent-economy). Either way well above the $20B threshold."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "No IPO filing or IPO news: EDGAR shows only Form D notices, no S-1 (https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001691342&action=getcompany); no new tender offer reported since Oct 9.",
+      "Context, just before the window and not in the Oct 9 file: Stripe agreed on 2026-09-30 to acquire Parafin, an embedded SMB lending company; terms undisclosed, not yet closed (https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin, https://www.paymentsdive.com/news/stripe-swallows-parafin/831903/)."
+    ],
+    "notes": "Searched for Stripe IPO, tender, and valuation news in October 2026. Nothing material since Oct 9. The Information reportedly put 2025 revenue at ~$6.8B (cited only via the aggregator okara.ai, original not verified), so ARR is left null. A FedEx Dataworks collaboration (Oct 6) is mentioned only by ipohub.dev and was not verified."
+  },
+  {
+    "name": "Ramp",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": "Closed $1.85B primary round at $60B valuation, announced 2026-10-15.",
+    "statusSource": "https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html",
+    "newRounds": [
+      {"date": "2026-10", "stage": "Primary round (unnamed; closed)", "amountUsdM": 1850, "postValuationUsdB": 60, "leads": "Dragoneer (lead per Gunderson), co-led with Thrive Capital, Founders Fund, Sands Capital, Avenir Growth", "source": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 60, "date": "2026-10", "source": "https://www.bloomberg.com/news/articles/2026-10-15/ramp-completes-funding-at-60-billion-value-as-revenue-surges", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 60, "date": "2026-10", "source": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/", "basis": "closed round", "note": "The Sep 2026 ~$1B at ~$60B talks closed larger than reported: $1.85B at $60B. Above the $20B removal threshold, as $44B already was."},
+    "arr": {"valueUsdM": 2000, "date": "2026-10", "kind": "annualized revenue", "source": "https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {"traction": 10},
+    "scoreAdjustmentReason": "Annualized revenue >$2B (up from ~$1.5B in June), growth reportedly 25% faster than a year earlier, 85k customers, $275B+ annualized purchase volume (+175% YoY). That is the rubric's 10 (hyper-growth to $1B+ ARR).",
+    "changes": [
+      "Closed $1.85B at $60B post-money on 2026-10-15 (up from $44B in June). Co-led by Dragoneer, Thrive, Founders Fund, Sands Capital, and Avenir; participants include Fidelity, T. Rowe Price, Capital International, D1, ICONIQ, GIC, and Coatue. About $5B raised in total (https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/, https://www.bloomberg.com/news/articles/2026-10-15/ramp-completes-funding-at-60-billion-value-as-revenue-surges, https://www.gunder.com/en/news-insights/client-news/dragoneer-leads-ramps-dollar185-billion-financing-at-dollar60-billion-valuation).",
+      "Annualized revenue now >$2B, 85,000 customers (from 70k in June), >$275B annualized purchase volume, up 175% YoY (https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/).",
+      "Launched Glass in early Oct 2026, a workspace that stores and shares an organization's AI automations, prompts, and skills (TechCrunch, same article)."
+    ],
+    "notes": "Gunderson describes Dragoneer as 'the lead investor'; TechCrunch says co-led by five firms. No verified X post for the announcement was collected (no status ID found)."
+  },
+  {
+    "name": "Rippling",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 16.8, "date": "2025-05", "source": "https://www.rippling.com/blog/series-g-fundraising-tender-offer", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 16.8, "date": "2025-05", "source": "https://www.reuters.com/technology/hr-tech-firm-rippling-raises-new-funding-168-billion-valuation-no-ipo-plans-2025-05-09/", "basis": "closed round", "note": "No new round or in-talks report. Secondary-market aggregators put it at ~$14.1–15.8B in Oct 2026 (Caplight via TrueUp $14.4B on Oct 16; Legion quotes $14.1–15.3B; PrivateMarketView $15.8B). These are aggregator estimates only."},
+    "arr": {"valueUsdM": 1000, "date": "2026-04", "kind": "ARR", "source": "https://www.linkedin.com/posts/parkerconrad_rippling-ai-was-the-most-successful-launch-activity-7449995605591883776-aVRW", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Minor: opened a ~133k sq ft Manhattan office for 1,000+ employees (Oct 10) (https://hoodline.com/2026/10/rippling-doubles-down-near-penn-station-with-133-000-square-foot-office/). Also product updates: Preferred Carrier Program expansion (Oct 13) and relaunched Automated Compliance (Oct 15) (https://www.rippling.com/blog/reintroducing-automated-compliance)."
+    ],
+    "notes": "No funding, IPO, or M&A news since Oct 9. Ramp's new round explicitly frames Rippling as its direct competitor (TechCrunch, Oct 15)."
+  },
+  {
+    "name": "Glean",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 7.2, "date": "2025-06", "source": "https://www.glean.com/blog/glean-series-f-announcement", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 7.2, "date": "2025-06", "source": "https://www.glean.com/blog/glean-series-f-announcement", "basis": "closed round", "note": "No new round; the CEO says there are no plans to raise more money (TNW, Oct 15). Secondary marks are reportedly ~$6.3–6.9B (aggregator/Polymarket text only, unverified)."},
+    "arr": {"valueUsdM": 300, "date": "2026-05", "kind": "ARR (partly consumption-based annualized revenue)", "source": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "CEO Arvind Jain told TNW (published Oct 15) that Glean has no plans to raise more money and no concrete IPO plans. He said it has ~1,500 employees (up from 850+ in Jun 2025) and more than 1,000 large enterprise customers (https://thenextweb.com/news/arvind-jain-glean-claude-context-tnw-podcast)."
+    ],
+    "notes": "The headcount of ~1,500 is the CEO's own statement in an interview (single source). No newer ARR figure was found."
+  },
+  {
+    "name": "Hex",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": null,
+    "latestValuationSignal": null,
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Acqui-hired/acquired the Greenflash team, which builds AI-agent production analytics; announced 2026-10-19, terms undisclosed (https://hex.tech/blog/hex-greenflash/).",
+      "Research blog: 'Hill climbing to glory', on using 1,800 evals to cut AI errors 7x (Oct 8) (https://hex.tech/blog/we-used-evals-to-improve-ai-feature/). An earlier DataBench benchmark was published in Aug 2026."
+    ],
+    "notes": "No new funding round found; Series C (May 2025) is still the latest. Airframe lists a ~$380M valuation and 192 FTEs (aggregator, unverified; excluded)."
+  },
+  {
+    "name": "Harvey",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 15.5, "date": "2026-09", "source": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 15.5, "date": "2026-09", "source": "https://www.reuters.com/legal/government/legal-ai-startup-harvey-reaches-155-billion-valuation-new-funding-round-2026-09-09/", "basis": "closed round", "note": "No newer valuation signal."},
+    "arr": {"valueUsdM": 400, "date": "2026-09", "kind": "ARR", "source": "https://thenextweb.com/news/harvey-550m-round-15-6bn-guardrails-acquisition", "singleSource": false},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Product only: launched Legal Work Orchestration (Oct 15), Harvey Graph (Oct 19), and the GA Connector Library with custom MCP connectors (Oct 21); Legatics connector partnership (Oct 13) (https://www.harvey.ai/blog/legal-work-orchestration, https://www.harvey.ai/blog/harvey-connector-library, https://www.legatics.com/legatics-joins-harveys-connector-library-connecting-harveys-ai-to-the-live-deal/)."
+    ],
+    "notes": "No funding, M&A, or valuation news since Oct 9."
+  },
+  {
+    "name": "Sierra",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 15.8, "date": "2026-05", "source": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 15.8, "date": "2026-05", "source": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html", "basis": "closed round", "note": "No new round or talks reported. DefiLlama's '$18.35B estimated valuation' (Oct 20) is a model estimate, not a transaction; ignored."},
+    "arr": {"valueUsdM": 200, "date": "2026-05", "kind": "ARR", "source": "https://x.com/btaylor/status/2060467232917111229", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Searched for Sierra funding and valuation news in October 2026; none since Oct 9. Sierra and Meta announced a Personal Agent Protocol on Oct 6 (before the window; reported only via valueaddvc.com, unverified)."
+  },
+  {
+    "name": "Decagon",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": "Exploring a sale: Business Insider (2026-10-13) reported Decagon hired a bank to evaluate acquisition interest and held early talks with ServiceNow and others; ServiceNow publicly denied interest on 2026-10-14. No deal has been signed. BI says a new funding round is the alternative.",
+    "statusSource": "https://www.businessinsider.com/ai-agent-company-decagon-hired-investment-bank-acquisition-interest-2026-10",
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 4.5, "date": "2026-01", "source": "https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 4.5, "date": "2026-01", "source": "https://decagon.ai/blog/series-d-announcement", "basis": "closed round", "note": "No price has been reported for the M&A process."},
+    "arr": {"valueUsdM": 100, "date": "2026-08", "kind": "annualized revenue", "source": "https://www.newcomer.co/p/decagon-hit-100-million-betting-against", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [
+      "Business Insider (Katie Roof, 2026-10-13): Decagon hired an investment bank to evaluate acquisition interest and held early M&A talks with ServiceNow and other companies; it may raise a new round instead (https://www.businessinsider.com/ai-agent-company-decagon-hired-investment-bank-acquisition-interest-2026-10, https://www.newsquawk.com/headlines/-ai-agent-company-decagon-reportedly-held-early-ma-talks-with-servicenow-now-and-others-reports-business-insider).",
+      "ServiceNow (president Amit Zavery, 2026-10-14): 'ServiceNow has no interest or intention of purchasing Decagon' (https://finance.yahoo.com/markets/stocks/articles/servicenow-denies-interest-acquiring-decagon-141508895.html)."
+    ],
+    "notes": "The M&A report rests on BI's anonymous sources (single outlet). Other bidders were not named. Watch for a signed deal; if one happens, it would move to acquired/excluded."
+  },
+  {
+    "name": "Rogo",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 2, "date": "2026-04", "source": "https://www.linkedin.com/posts/rogoai_today-were-announcing-our-160-million-activity-7455239875794006016-DUuB", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 2, "date": "2026-04", "source": "https://www.linkedin.com/posts/rogoai_today-were-announcing-our-160-million-activity-7455239875794006016-DUuB", "basis": "closed round", "note": "The Sep 2026 ~$30M strategic round disclosed no valuation."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "changes": [],
+    "notes": "Searched for Rogo funding news in October 2026; nothing since Oct 9. Latest items are still the Sep 10 strategic bank round and WSJ's wealth-management story."
+  },
+  {
+    "name": "World Labs",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": "Pending acquisition by AMD (definitive agreement signed 2026-09-26, announced 2026-09-28; all-stock, ~$8.2B; expected to close by end of 2026, subject to regulatory approvals). Not closed as of 2026-10-21; no change since Oct 9.",
+    "statusSource": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+    "changes": [],
+    "notes": "One search. AMD 8-K: https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm. No closing announcement found."
+  },
+  {
+    "name": "Hugging Face",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": "Pending acquisition by NVIDIA (definitive agreement 2026-09-02; ~$11.9B to stockholders plus up to ~$1.0B retention equity, $12.93B total; expected to close in H1 2027, subject to regulatory approvals). Not closed as of 2026-10-21; no change since Oct 9.",
+    "statusSource": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+    "changes": [],
+    "notes": "One search. Also https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/ and https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/. No regulatory decision or closing found."
+  }
+]

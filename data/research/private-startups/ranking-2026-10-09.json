@@ -1,0 +1,660 @@
+[
+ {
+  "name": "Anthropic",
+  "rank": 1,
+  "composite": 84.5,
+  "tier": "S",
+  "valuationUsdB": 965
+ },
+ {
+  "name": "OpenAI",
+  "rank": 2,
+  "composite": 81.5,
+  "tier": "S",
+  "valuationUsdB": 852
+ },
+ {
+  "name": "Together AI",
+  "rank": 3,
+  "composite": 73.2,
+  "tier": "S",
+  "valuationUsdB": 8.3
+ },
+ {
+  "name": "Databricks",
+  "rank": 4,
+  "composite": 72.6,
+  "tier": "S",
+  "valuationUsdB": 190
+ },
+ {
+  "name": "Mistral AI",
+  "rank": 5,
+  "composite": 70.8,
+  "tier": "A",
+  "valuationUsdB": 24
+ },
+ {
+  "name": "Cognition",
+  "rank": 6,
+  "composite": 70.6,
+  "tier": "A",
+  "valuationUsdB": 48
+ },
+ {
+  "name": "Perplexity",
+  "rank": 7,
+  "composite": 69.5,
+  "tier": "A",
+  "valuationUsdB": 20
+ },
+ {
+  "name": "Fireworks AI",
+  "rank": 8,
+  "composite": 67.1,
+  "tier": "A",
+  "valuationUsdB": 17.5
+ },
+ {
+  "name": "Thinking Machines Lab",
+  "rank": 9,
+  "composite": 67,
+  "tier": "A",
+  "valuationUsdB": 12
+ },
+ {
+  "name": "Physical Intelligence",
+  "rank": 10,
+  "composite": 66.6,
+  "tier": "A",
+  "valuationUsdB": 11
+ },
+ {
+  "name": "Ramp",
+  "rank": 11,
+  "composite": 66.2,
+  "tier": "A",
+  "valuationUsdB": 44
+ },
+ {
+  "name": "Vercel",
+  "rank": 12,
+  "composite": 66.1,
+  "tier": "A",
+  "valuationUsdB": 9.3
+ },
+ {
+  "name": "Snorkel AI",
+  "rank": 13,
+  "composite": 66,
+  "tier": "A",
+  "valuationUsdB": 3.5
+ },
+ {
+  "name": "fal",
+  "rank": 14,
+  "composite": 66,
+  "tier": "A",
+  "valuationUsdB": 8
+ },
+ {
+  "name": "Runway",
+  "rank": 15,
+  "composite": 65.9,
+  "tier": "A",
+  "valuationUsdB": 5.3
+ },
+ {
+  "name": "Modal",
+  "rank": 16,
+  "composite": 65.4,
+  "tier": "A",
+  "valuationUsdB": 4.65
+ },
+ {
+  "name": "Suno",
+  "rank": 17,
+  "composite": 65.4,
+  "tier": "A",
+  "valuationUsdB": 5.4
+ },
+ {
+  "name": "ElevenLabs",
+  "rank": 18,
+  "composite": 65.1,
+  "tier": "A",
+  "valuationUsdB": 22
+ },
+ {
+  "name": "Mercor",
+  "rank": 19,
+  "composite": 64,
+  "tier": "A",
+  "valuationUsdB": 10
+ },
+ {
+  "name": "Sierra",
+  "rank": 20,
+  "composite": 64,
+  "tier": "A",
+  "valuationUsdB": 15.8
+ },
+ {
+  "name": "Skild AI",
+  "rank": 21,
+  "composite": 63.4,
+  "tier": "B",
+  "valuationUsdB": 14
+ },
+ {
+  "name": "Rippling",
+  "rank": 22,
+  "composite": 62.6,
+  "tier": "B",
+  "valuationUsdB": 16.8
+ },
+ {
+  "name": "Baseten",
+  "rank": 23,
+  "composite": 62.4,
+  "tier": "B",
+  "valuationUsdB": 13
+ },
+ {
+  "name": "Harvey",
+  "rank": 24,
+  "composite": 62.3,
+  "tier": "B",
+  "valuationUsdB": 15.5
+ },
+ {
+  "name": "Lovable",
+  "rank": 25,
+  "composite": 60.5,
+  "tier": "B",
+  "valuationUsdB": 13.3
+ },
+ {
+  "name": "Luma AI",
+  "rank": 26,
+  "composite": 60.4,
+  "tier": "B",
+  "valuationUsdB": 4
+ },
+ {
+  "name": "Sunday",
+  "rank": 27,
+  "composite": 59.8,
+  "tier": "B",
+  "valuationUsdB": 1.15
+ },
+ {
+  "name": "Deel",
+  "rank": 28,
+  "composite": 59.2,
+  "tier": "B",
+  "valuationUsdB": 17.3
+ },
+ {
+  "name": "Goodfire",
+  "rank": 29,
+  "composite": 59.2,
+  "tier": "B",
+  "valuationUsdB": 1.25
+ },
+ {
+  "name": "Sakana AI",
+  "rank": 30,
+  "composite": 59.2,
+  "tier": "B",
+  "valuationUsdB": 2.7
+ },
+ {
+  "name": "Etched",
+  "rank": 31,
+  "composite": 58.6,
+  "tier": "B",
+  "valuationUsdB": 21
+ },
+ {
+  "name": "Periodic Labs",
+  "rank": 32,
+  "composite": 58.6,
+  "tier": "B",
+  "valuationUsdB": 7.5
+ },
+ {
+  "name": "River AI",
+  "rank": 33,
+  "composite": 58.2,
+  "tier": "B",
+  "valuationUsdB": 5
+ },
+ {
+  "name": "Stripe",
+  "rank": 34,
+  "composite": 58.1,
+  "tier": "B",
+  "valuationUsdB": 159
+ },
+ {
+  "name": "Cohere",
+  "rank": 35,
+  "composite": 58,
+  "tier": "B",
+  "valuationUsdB": 20
+ },
+ {
+  "name": "Cartesia",
+  "rank": 36,
+  "composite": 57.5,
+  "tier": "B",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Glean",
+  "rank": 37,
+  "composite": 57.5,
+  "tier": "B",
+  "valuationUsdB": 7.2
+ },
+ {
+  "name": "AMI Labs",
+  "rank": 38,
+  "composite": 57.4,
+  "tier": "B",
+  "valuationUsdB": 4.53
+ },
+ {
+  "name": "Factory",
+  "rank": 39,
+  "composite": 56.9,
+  "tier": "B",
+  "valuationUsdB": 5
+ },
+ {
+  "name": "Parallel Web Systems",
+  "rank": 40,
+  "composite": 56.9,
+  "tier": "B",
+  "valuationUsdB": 2
+ },
+ {
+  "name": "Reflection AI",
+  "rank": 41,
+  "composite": 56.9,
+  "tier": "B",
+  "valuationUsdB": 27.5
+ },
+ {
+  "name": "Instinct",
+  "rank": 42,
+  "composite": 56.2,
+  "tier": "B",
+  "valuationUsdB": 10
+ },
+ {
+  "name": "Prime Intellect",
+  "rank": 43,
+  "composite": 56.1,
+  "tier": "B",
+  "valuationUsdB": 1
+ },
+ {
+  "name": "Linear",
+  "rank": 44,
+  "composite": 56,
+  "tier": "B",
+  "valuationUsdB": 2.5
+ },
+ {
+  "name": "Scale AI",
+  "rank": 45,
+  "composite": 55.8,
+  "tier": "C",
+  "valuationUsdB": 29
+ },
+ {
+  "name": "Proximal",
+  "rank": 46,
+  "composite": 55.3,
+  "tier": "C",
+  "valuationUsdB": 0.3
+ },
+ {
+  "name": "Decagon",
+  "rank": 47,
+  "composite": 55,
+  "tier": "C",
+  "valuationUsdB": 4.5
+ },
+ {
+  "name": "Exa",
+  "rank": 48,
+  "composite": 54.7,
+  "tier": "C",
+  "valuationUsdB": 2.2
+ },
+ {
+  "name": "Core Automation",
+  "rank": 49,
+  "composite": 54.4,
+  "tier": "C",
+  "valuationUsdB": 4
+ },
+ {
+  "name": "Notion",
+  "rank": 50,
+  "composite": 54.1,
+  "tier": "C",
+  "valuationUsdB": 11
+ },
+ {
+  "name": "Edison Scientific",
+  "rank": 51,
+  "composite": 53.5,
+  "tier": "C",
+  "valuationUsdB": 0.25
+ },
+ {
+  "name": "Axiom Math",
+  "rank": 52,
+  "composite": 53.4,
+  "tier": "C",
+  "valuationUsdB": 1.6
+ },
+ {
+  "name": "Applied Compute",
+  "rank": 53,
+  "composite": 53.3,
+  "tier": "C",
+  "valuationUsdB": 3.25
+ },
+ {
+  "name": "Figure AI",
+  "rank": 54,
+  "composite": 53.3,
+  "tier": "C",
+  "valuationUsdB": 39
+ },
+ {
+  "name": "Sesame",
+  "rank": 55,
+  "composite": 52.9,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Safe Superintelligence (SSI)",
+  "rank": 56,
+  "composite": 52.8,
+  "tier": "C",
+  "valuationUsdB": 32
+ },
+ {
+  "name": "Discovery Loop",
+  "rank": 57,
+  "composite": 52.4,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Fluidstack",
+  "rank": 58,
+  "composite": 52.3,
+  "tier": "C",
+  "valuationUsdB": 18
+ },
+ {
+  "name": "Humans&",
+  "rank": 59,
+  "composite": 52.3,
+  "tier": "C",
+  "valuationUsdB": 4.48
+ },
+ {
+  "name": "Lila Sciences",
+  "rank": 60,
+  "composite": 52.3,
+  "tier": "C",
+  "valuationUsdB": 1.3
+ },
+ {
+  "name": "Wispr Flow",
+  "rank": 61,
+  "composite": 52.3,
+  "tier": "C",
+  "valuationUsdB": 2
+ },
+ {
+  "name": "turbopuffer",
+  "rank": 62,
+  "composite": 51.9,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Midjourney",
+  "rank": 63,
+  "composite": 51.7,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Hippocratic AI",
+  "rank": 64,
+  "composite": 51.3,
+  "tier": "C",
+  "valuationUsdB": 3.5
+ },
+ {
+  "name": "Standard Intelligence",
+  "rank": 65,
+  "composite": 51,
+  "tier": "C",
+  "valuationUsdB": 0.5
+ },
+ {
+  "name": "Arcee AI",
+  "rank": 66,
+  "composite": 50.4,
+  "tier": "C",
+  "valuationUsdB": 1.15
+ },
+ {
+  "name": "1X Technologies",
+  "rank": 67,
+  "composite": 49.3,
+  "tier": "C",
+  "valuationUsdB": 0.82
+ },
+ {
+  "name": "Reducto",
+  "rank": 68,
+  "composite": 49.1,
+  "tier": "C",
+  "valuationUsdB": 0.6
+ },
+ {
+  "name": "Bespoke Labs",
+  "rank": 69,
+  "composite": 49,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Rogo",
+  "rank": 70,
+  "composite": 48.8,
+  "tier": "C",
+  "valuationUsdB": 2
+ },
+ {
+  "name": "Genesis AI",
+  "rank": 71,
+  "composite": 48.6,
+  "tier": "C",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Krea",
+  "rank": 72,
+  "composite": 48.6,
+  "tier": "C",
+  "valuationUsdB": 0.5
+ },
+ {
+  "name": "Merge Labs",
+  "rank": 73,
+  "composite": 47,
+  "tier": "D",
+  "valuationUsdB": 0.85
+ },
+ {
+  "name": "Doppel",
+  "rank": 74,
+  "composite": 46.1,
+  "tier": "D",
+  "valuationUsdB": 0.6
+ },
+ {
+  "name": "Pika",
+  "rank": 75,
+  "composite": 46,
+  "tier": "D",
+  "valuationUsdB": 0.47
+ },
+ {
+  "name": "Liquid AI",
+  "rank": 76,
+  "composite": 45.9,
+  "tier": "D",
+  "valuationUsdB": 2.35
+ },
+ {
+  "name": "Datalab",
+  "rank": 77,
+  "composite": 45.5,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "TypeSafe AI",
+  "rank": 78,
+  "composite": 45.5,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Hedra",
+  "rank": 79,
+  "composite": 45,
+  "tier": "D",
+  "valuationUsdB": 0.2
+ },
+ {
+  "name": "comma.ai",
+  "rank": 80,
+  "composite": 44.6,
+  "tier": "D",
+  "valuationUsdB": 1
+ },
+ {
+  "name": "Browser Use",
+  "rank": 81,
+  "composite": 43.9,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "TwelveLabs",
+  "rank": 82,
+  "composite": 43.5,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Flapping Airplanes",
+  "rank": 83,
+  "composite": 42,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Turing",
+  "rank": 84,
+  "composite": 42,
+  "tier": "D",
+  "valuationUsdB": 2.2
+ },
+ {
+  "name": "Moondream",
+  "rank": 85,
+  "composite": 40.9,
+  "tier": "D",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Thoughtful",
+  "rank": 86,
+  "composite": 39.6,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Hex",
+  "rank": 87,
+  "composite": 38.6,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Superpower",
+  "rank": 88,
+  "composite": 37.7,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Liner",
+  "rank": 89,
+  "composite": 37.1,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Datacurve",
+  "rank": 90,
+  "composite": 36.8,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Poolside",
+  "rank": 91,
+  "composite": 36.8,
+  "tier": "E",
+  "valuationUsdB": 13
+ },
+ {
+  "name": "HUMAN Security",
+  "rank": 92,
+  "composite": 34.4,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Otter.ai",
+  "rank": 93,
+  "composite": 34.4,
+  "tier": "E",
+  "valuationUsdB": null
+ },
+ {
+  "name": "Collinear AI",
+  "rank": 94,
+  "composite": 32.4,
+  "tier": "E",
+  "valuationUsdB": null
+ }
+]

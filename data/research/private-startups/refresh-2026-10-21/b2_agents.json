@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Cognition",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 48, "date": "2026-09", "source": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 48, "date": "2026-09", "source": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/", "basis": "closed round", "note": "No newer valuation signal found since the $2B Series E at $48B (already above the $20B threshold)."},
+    "arr": {"valueUsdM": 1000, "date": "2026-09", "kind": "run-rate", "source": "https://cognition.com/blog/1b-run-rate", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Only product news since Oct 9; no change to the scores.",
+    "changes": [
+      "Devin Oncall became generally available on 2026-10-15. It triages production alerts and incidents, and Cognition says it already handles thousands of alerts a day (https://ashutoshai.com/ai-compass/2026/10/15/cognition-devin-oncall/, https://docs.devin.ai/release-notes/2026)",
+      "Cognition now ties Devin usage limits to estimated engineering output per dollar and launched 'Devin Coach' (2026-10-17) (https://www.tokenpost.com/news/technology/34146)"
+    ],
+    "notes": "Searched for funding, valuation, M&A and IPO news from Oct 9-21: no new round, tender, acquisition or SpaceX deal talk found. The latest ARR is still the company-stated $1B run-rate from 2026-09-25. The Information's $4-5B end-of-2026 projection is unchanged."
+  },
+  {
+    "name": "Factory",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 5, "date": "2026-09", "source": "https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 5, "date": "2026-09", "source": "https://factory.com/news/5-billion-valuation", "basis": "closed round", "note": "Menlo Ventures joined the same $5B round (announced 2026-10-05); no new valuation."},
+    "arr": {"valueUsdM": 60, "date": "2026-03", "kind": "annualized revenue", "source": "https://sacra.com/c/factory/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Small acqui-hire and partnership news; scores unchanged.",
+    "changes": [
+      "Acquired Mentlio (YC S26), which does model routing, context compression and AI-spend measurement, on 2026-10-09 (https://factory.com/news/mentlio)",
+      "Announced a Factory and Databricks partnership for data and software modernization on 2026-10-19 (https://factory.com/news?category=company)",
+      "Menlo Ventures disclosed an investment in the $5B round on 2026-10-05, amount undisclosed (https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/). This is just before the window but was missing from the Oct 9 file.",
+      "Grinberg told Axios Pro that Factory has done fewer than 10 acquisitions and plans to scale up acqui-hires; he also said there has been 'tons of' acquisition interest in Factory, which he rejects (https://www.axios.com/pro/enterprise-software-deals/2026/09/18/factory-5-billion-acquisitions)"
+    ],
+    "notes": "No new ARR disclosed; Sacra's $60M estimate (Mar 2026) is still the latest figure. No new round or valuation since Sep 15."
+  },
+  {
+    "name": "Lovable",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 13.3, "date": "2026-08", "source": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 13.3, "date": "2026-08", "source": "https://lovable.dev/blog/series-c", "basis": "closed round", "note": "No newer round, tender or in-talks report found as of 2026-10-21. An Oct 20 LinkedIn op-ed speculates that any acquirer would need to pay more than $20B, but that is not a reported signal."},
+    "arr": {"valueUsdM": 600, "date": "2026-09", "kind": "run-rate", "source": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Only product news since Oct 9.",
+    "changes": [
+      "Added built-in AI models and tools for apps built on Lovable (OpenAI GPT-Live voice, Claude, Gemini, Perplexity, Firecrawl and others) on 2026-10-15 (https://lovable.dev/blog/ai-models-and-tools-in-lovable)",
+      "Lovable apps can now deploy into Microsoft tenants through Copilot Managed Runtime with Entra ID sign-in (public preview, announced 2026-09-28; https://www.techceodaily.com/saas/lovable-600-million-arr-microsoft-tenant-apps). This predates the window but was not in the Oct 9 file."
+    ],
+    "notes": "No funding, M&A or IPO news since Oct 9. The $600M run-rate is a company claim made at HumanX (Sep 24). One aggregator says more than 70M projects have been created."
+  },
+  {
+    "name": "Vercel",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 9.3, "date": "2025-09", "source": "https://vercel.com/blog/series-f", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 9.3, "date": "2025-09", "source": "https://www.reuters.com/business/ai-coding-startup-vercel-raises-300-million-valued-93-billion-2025-09-30/", "basis": "closed round", "note": "No new round, tender or in-talks report found. No S-1 filed; the CEO's 2027 IPO ambition is unconfirmed."},
+    "arr": {"valueUsdM": 600, "date": "2026-09", "kind": "annualized revenue", "source": "https://dealroom.co/news/info-hyu6e4-why-coding-agents-are-choosing-vercel-as-often-as-humans-do/", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {"traction": 8},
+    "scoreAdjustmentReason": "Annualized revenue of about $600M, up 148% year over year (The Information, Oct 1, 2026), versus $340M in Feb 2026. That is fast growth at scale, comparable to Lovable, so traction moves from 7.5 to 8.",
+    "changes": [
+      "The Information (2026-10-01) reports Vercel at $600M annualized revenue ($50M/month), up 148% year over year and up from $500M in July. It has about 485k paying customers and has shifted mostly to usage-based pricing (https://dealroom.co/news/info-hyu6e4-why-coding-agents-are-choosing-vercel-as-often-as-humans-do/). The Oct 9 file had $340M (Feb 2026).",
+      "On the Sourcery podcast (2026-10-16), Rauch said coding agents now trigger 60% of Vercel deployments, up from 3% in Jan 2026, with 1.5B deployments in the last 10 months; the episode cites about 800 employees (https://www.sourcery.vc/p/breaking-93b-vercel-on-ais-infra)",
+      "Vercel Ship 2026 recap (2026-10-15): developers on Vercel up 3x in 12 months and agent-triggered deployments up 28x (https://vercel.com/blog/vercel-ship-2026-recap)",
+      "Published an AI Gateway Production Index on 2026-10-15: open-weight models carried 71.5% of tokens but only 23% of spend (https://ipohub.dev/news/vercel-ipo-update-2026-10-07)"
+    ],
+    "notes": "The $600M figure rests on The Information (a person close to the company), relayed here through Dealroom and Sourcery summaries; the paywalled original wasn't fetched. The headcount of about 800 is from the Sourcery show notes. No IPO filing found."
+  },
+  {
+    "name": "Applied Compute",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [
+      {"date": "2026-09", "stage": "Series C (C-1 $332.81M + C-2 $17.19M; closed 2026-09-18, reported 2026-10-12)", "amountUsdM": 350, "postValuationUsdB": 3.25, "leads": "Elad Gil (per the Sep 2 plan; Lux Capital and Kleiner Perkins participating)", "source": "https://forbesjapan.com/articles/detail/104007", "singleSource": true}
+    ],
+    "latestValuation": {"valueUsdB": 3.25, "date": "2026-09", "source": "https://forbesjapan.com/articles/detail/104007", "basis": "closed round", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 3.25, "date": "2026-09", "source": "https://forbesjapan.com/articles/detail/104007", "basis": "closed round", "note": "The Oct 9 file listed this as 'finalizing'. Forbes Japan (Richard Nieva, 2026-10-12) says it closed on 2026-09-18 at $3.25B post-money."},
+    "arr": {"valueUsdM": 50, "date": "2026-08", "kind": "annualized revenue", "source": "https://app.dealroom.co/news/note/applied-compute-in-talks-to-double-valuation-to-3b-on-open-source-demand-1", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "The round closing confirms an already-recorded valuation; scores unchanged.",
+    "changes": [
+      "Series C confirmed closed: $350M (Series C-1 $332.81M plus C-2 $17.19M) on 2026-09-18 at a $3.25B post-money valuation, per Forbes Japan's 2026-10-12 update of the Forbes story (https://forbesjapan.com/articles/detail/104007). The status moves from 'in talks/finalizing' to closed.",
+      "Added 'decision model' training (routing and classification on open backbones, B300 GPUs) to the AC2 platform on 2026-10-09 (https://www.distillintelligence.com/news/applied-compute)",
+      "The website now promotes 'Shift-1, a SOTA coding router' (https://appliedcompute.com/company/fundraise)",
+      "Named customers now include DoorDash, Nvidia, Microsoft, Mercor and Harvey (https://www.forbes.com/sites/richardnieva/2026/09/01/applied-compute-openai-the-ex-openai-guys-building-cheaper-open-source-alternative/, https://www.distillintelligence.com/news/applied-compute)"
+    ],
+    "notes": "The close rests only on Forbes Japan; the C-1/C-2 split suggests it comes from a filing, but no SEC Form D was found. No newer ARR than the ~$50M (Aug 2026) reported by The Information."
+  },
+  {
+    "name": "Core Automation",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 1, "date": "2026-04", "source": "https://www.techmeme.com/260507/p50", "basis": "closed round", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 4, "date": "2026-05", "source": "https://app.dealroom.co/news/note/core-automation-eyes-300m-500m-raise-at-4b-valuation-six-weeks-after-launch", "basis": "in talks", "note": "In May 2026 The Information reported a $300-500M raise targeting about $4B. The Form D shows $432M sold (first sale 2026-07-15) but no valuation. Altis Research (an aggregator) claims a $3.62B post-money for the July round; that is unverified and not used."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "No news since Oct 9.",
+    "changes": [],
+    "notes": "No new round, product, model or paper found Oct 9-21. Recent activity predates the window: a Sep 14 internship post from Riley Walz (Associate General Manager interns running agent-operated online businesses; https://www.coreauto.com/AGM) and a Sequoia podcast with Tworek and Anil. Note that latestValuation here is the closed $1B seed; the Oct 9 file's $4B was an early-talks target. Altis estimates headcount at about 22 (late Aug)."
+  },
+  {
+    "name": "Standard Intelligence",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 0.5, "date": "2026-04", "source": "https://dealroom.co/companies/standard-intelligence/", "basis": "reported (closed)", "singleSource": true},
+    "latestValuationSignal": {"valueUsdB": 0.5, "date": "2026-04", "source": "https://dealroom.co/companies/standard-intelligence/", "basis": "reported (closed)", "note": "No newer signal."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "No news since Oct 9.",
+    "changes": [],
+    "notes": "No new round, model or publication found. Two SEC Form D filings (2026-06-05) total about $79.8M sold, and co-founder Devansh Pandey's LinkedIn says $80M raised from Sequoia, Spark and Lachy Groom (https://www.sec.gov/Archives/edgar/data/2135700/0002135700-26-000001.txt). This is consistent with the $75M Series A plus earlier money; nothing new."
+  },
+  {
+    "name": "Browser Use",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": null},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "No priced round or valuation reported; still only the $17M seed (Mar 2025)."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Only open-source releases and marketing since Oct 9.",
+    "changes": [
+      "Release 0.13.13 (around 2026-10-16) added an OpenAI browser-tool driver and Cloud fixes (https://dropagentic.com/browser-use-release-openai-browser-tool-driver/)",
+      "On 2026-10-16, CTO Gregor Zunic pitched the stealth cloud browser to users whose Grok/Muse agents are blocked on Amazon ('Let your agents bypass anything'). This is a small reputational/legal risk signal (https://hum.vibes.dev/s/browser-use-pitches-captcha-bypass-amazon-agent-blocks/)"
+    ],
+    "notes": "No Series A, acquisition or revenue disclosure found. Chrome Extensions support (Oct 6) predates the window."
+  },
+  {
+    "name": "Thoughtful",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": null},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "No valuation reported."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "No news since Oct 9.",
+    "changes": [],
+    "notes": "No funding announcement found. Crunchbase shows undisclosed pre-seed round(s), and a PitchBook preview lists a '$50K seed' (unreliable, not used). Crunchbase describes the products as 'Memily' (consumer storytelling) and 'Dreamline' (enterprise post-training), but that is unverified: a USPTO 'MEMILY' trademark is owned by an unrelated Texas company (Memily Inc). No launch found in the window."
+  },
+  {
+    "name": "River AI",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 5, "date": "2026-08", "source": "https://www.reuters.com/technology/xai-co-founders-startup-river-ai-raises-11-billion-expand-custom-ai-tools-2026-08-11/", "basis": "reported (closed)", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 5, "date": "2026-08", "source": "https://www.reuters.com/technology/xai-co-founders-startup-river-ai-raises-11-billion-expand-custom-ai-tools-2026-08-11/", "basis": "reported (closed)", "note": "No newer signal; the company has not confirmed the $5B."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Product launches only; no revenue disclosed.",
+    "changes": [
+      "Launched River Inference on 2026-10-11: DeepSeek V4.1 Flash and GLM 5.3 Flash through an OpenAI-compatible API, priced 20-60% below Fireworks and Together (https://river.ai/changelog)",
+      "Added NVIDIA Nemotron 3.5 Super VL for day-0 training and inference on 2026-10-15 (https://river.ai/changelog)",
+      "Launched open-source 'River Recipes' on 2026-10-07 (just before the window). Its first text-to-SQL recipe claims to beat GPT-6 Astra Pro and Claude Opus 5.5 on Arcwise-Plat at under 1% of the cost (https://www.linkedin.com/posts/river-ai-official_achieving-frontier-text-to-sql-with-the-river-activity-7513682273775394816-J7C3)"
+    ],
+    "notes": "No new funding, revenue or headcount figures. River Recipes is the company's first public research-like output; it's self-reported benchmark results."
+  },
+  {
+    "name": "Sesame",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": null, "date": null, "source": null, "basis": null, "singleSource": null},
+    "latestValuationSignal": {"valueUsdB": null, "date": null, "source": null, "basis": null, "note": "No reliable valuation. Aggregators (PrivateMarketView, Zero G Talent) put the Oct 2025 Series B at about $862M ($264M round), but that is not confirmed by reliable reporting, so it's left null."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Minor app updates; traction is still small.",
+    "changes": [
+      "App v45.x (around 2026-10-19/20) makes the assistants 'agentic with access to their own computer' and adds 'Max Intelligence' (https://apps.apple.com/us/app/sesame-personal-agents/id6756329076)",
+      "Early adoption is modest: about 44k Android installs (17k in the last 30 days) at a 4.9 rating per AppBrain as of 2026-10-21, and about 1.8k iOS ratings (https://www.appbrain.com/app/sesame-personal-agents/com.sesame.consumer)"
+    ],
+    "notes": "No new round or revenue. The glasses are confirmed for 2027, made in Japan (https://www.sesame.com/journal/getting-started). The install counts are third-party estimates."
+  },
+  {
+    "name": "Proximal",
+    "changedSinceOct9": false,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 0.3, "date": "2025-12", "source": "https://www.proximal.ai/blog/new-frontiers/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 0.3, "date": "2025-12", "source": "https://www.proximal.ai/blog/new-frontiers/", "basis": "closed round", "note": "No newer round or talks reported."},
+    "arr": {"valueUsdM": 200, "date": "2026-09", "kind": "run-rate", "source": "https://prismix.dev/news/4a7902b07cd8", "singleSource": true},
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "No news since Oct 9.",
+    "changes": [],
+    "notes": "No new developments. Details from launch coverage (Sep 29) that the Oct 9 file lacked: The Information (via a mirror) says Proximal has about 40 people, calculates annualized revenue as quarter-to-date revenue times 4, and that Calvin Chen co-founded it in fall 2025. Navid Pour is ex-Cursor, and Scribble Ventures also joined the seed (https://startupfortune.com/proximal-reveals-200-million-revenue-run-rate-and-15-million-seed-round/). The ARR source is now The Information's text (mirrored) rather than a secondary summary."
+  },
+  {
+    "name": "Instinct",
+    "changedSinceOct9": true,
+    "status": "private",
+    "statusNote": null,
+    "statusSource": null,
+    "newRounds": [],
+    "latestValuation": {"valueUsdB": 10, "date": "2026-09", "source": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/", "basis": "closed round", "singleSource": false},
+    "latestValuationSignal": {"valueUsdB": 10, "date": "2026-09", "source": "https://www.reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28/", "basis": "closed round", "note": "No newer signal."},
+    "arr": null,
+    "xPosts": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "Coverage only; no new metrics.",
+    "changes": [
+      "The Verge hands-on (2026-10-09) says Instinct holds its own against Meta's Muse and OpenAI's Dots. It is still invite-only with no app and no subscription fee; Shinn says it is 'free for invite-only users' (https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots)",
+      "Forbes (2026-10-08) reports only 14 employees, plus a previously unrecorded $75M Series A in early Aug 2026 at more than $500M valuation (https://www.forbes.com/sites/annatong/2026/10/08/ai-personal-assistants-are-finally-having-their-moment/)"
+    ],
+    "notes": "No new funding. The Information (Sep 15, via PYMNTS) reported more than 100k users; there is no monetization yet. Group chats launched Oct 5, before the window (https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/)."
+  }
+]

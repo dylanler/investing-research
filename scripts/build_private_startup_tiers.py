@@ -1,7 +1,12 @@
 """Build data/generated/privateStartupTiers.ts from the sourced research JSON.
 
 Inputs:  data/research/private-startups/b*.json  (one object per company, schema in RESEARCH_BRIEF.md)
+         data/research/private-startups/refresh-*/b*.json  (dated patches, schema in REFRESH_BRIEF_*.md)
+         data/research/private-startups/ranking-2026-10-09.json  (previous published ranking, for movement)
 Output:  data/generated/privateStartupTiers.ts
+
+Companies whose latest valuation signal (closed round, tender, or an "in talks" report) is above
+VALUATION_CAP_USDB are moved to a "removed" list instead of being ranked.
 
 Scoring is deterministic: hand-curated factors (talent, research, posting, traction, moat) come from the
 research files plus the documented overrides below; fundraising velocity, valuation upside, and revenue
@@ -21,7 +26,10 @@ from urllib.parse import urlparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESEARCH_DIR = os.path.join(ROOT, "data", "research", "private-startups")
 OUT_PATH = os.path.join(ROOT, "data", "generated", "privateStartupTiers.ts")
-AS_OF = date(2026, 10, 9)
+AS_OF = date(2026, 10, 21)
+REFRESH_DIRS = sorted(glob.glob(os.path.join(RESEARCH_DIR, "refresh-*")))
+PREVIOUS_RANKING = os.path.join(RESEARCH_DIR, "ranking-2026-10-09.json")
+VALUATION_CAP_USDB = 20.0
 
 WEIGHTS = {
     "talent": 20,
@@ -171,6 +179,8 @@ def months_between(a: date, b: date) -> float:
 
 def round_kind(stage: str | None) -> str:
     s = (stage or "").lower()
+    if any(k in s for k in ["non-dilutive", "not equity", "debt financing", "venture debt"]):
+        return "debt"
     if any(k in s for k in ["talks", "not closed", "finalizing", "pending"]):
         return "talks"
     if any(k in s for k in ["acqui", "ipo", "merger"]):
@@ -279,6 +289,66 @@ def ts(value) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2)
 
 
+def load_patches() -> dict[str, dict]:
+    patches: dict[str, dict] = {}
+    for d in REFRESH_DIRS:
+        for f in sorted(glob.glob(os.path.join(d, "b*.json"))):
+            for p in json.load(open(f)):
+                patches[p["name"]] = {**p, "refreshedAt": os.path.basename(d).replace("refresh-", "")}
+    return patches
+
+
+def apply_patch(c: dict, patch: dict | None) -> dict:
+    """Merge a dated refresh patch into the base research object."""
+    if not patch:
+        return {**c, "refreshChanges": [], "newRounds": [], "valuationSignal": None}
+    c = dict(c)
+    if patch.get("status") and patch["status"] != "private":
+        c["status"] = patch["status"]
+        c["statusNote"] = patch.get("statusNote") or c.get("statusNote")
+        c["statusSource"] = patch.get("statusSource") or c.get("statusSource")
+        c["statusChangedAt"] = patch["refreshedAt"]
+    existing = {(r.get("date"), r.get("amountUsdM"), r.get("stage")) for r in c.get("rounds") or []}
+    new_rounds = [r for r in patch.get("newRounds") or [] if (r.get("date"), r.get("amountUsdM"), r.get("stage")) not in existing]
+    closed_amounts = {r.get("amountUsdM") for r in new_rounds if round_kind(r.get("stage")) == "primary"}
+    kept = [r for r in c.get("rounds") or [] if not (round_kind(r.get("stage")) == "talks" and r.get("amountUsdM") in closed_amounts)]
+    c["rounds"] = [*kept, *new_rounds]
+    lv = patch.get("latestValuation") or {}
+    if lv.get("valueUsdB"):
+        c["latestValuationUsdB"] = lv["valueUsdB"]
+        c["latestValuationDate"] = lv.get("date")
+        c["latestValuationSource"] = lv.get("source") or c.get("latestValuationSource")
+    elif "latestValuation" in patch and patch["latestValuation"] is None and c.get("latestValuationUsdB"):
+        pass
+    arr = patch.get("arr") or {}
+    if arr.get("valueUsdM") and arr.get("source"):
+        c["arr"] = {k: arr.get(k) for k in ["valueUsdM", "date", "kind", "source", "singleSource"]}
+    if patch.get("xPosts"):
+        seen = {x["url"] for x in c.get("xPosts") or []}
+        c["xPosts"] = [*(c.get("xPosts") or []), *[x for x in patch["xPosts"] if x["url"] not in seen]]
+    if patch.get("scoreAdjustments"):
+        c["proposedScores"] = {**(c.get("proposedScores") or {}), **patch["scoreAdjustments"]}
+    c["refreshChanges"] = patch.get("changes") or [] if patch.get("changedSinceOct9") else []
+    c["scoreAdjustmentReason"] = patch.get("scoreAdjustmentReason") if patch.get("scoreAdjustments") else None
+    c["newRounds"] = new_rounds
+    sig = patch.get("latestValuationSignal") or {}
+    c["valuationSignal"] = sig if sig.get("valueUsdB") else None
+    if patch.get("notes"):
+        c["notes"] = f"{c.get('notes') or ''} [Refresh {patch['refreshedAt']}] {patch['notes']}".strip()
+    return c
+
+
+def valuation_signal(c: dict) -> dict | None:
+    """Highest of: latest closed valuation, and the most recent valuation signal (incl. in-talks)."""
+    cands = []
+    if c.get("latestValuationUsdB"):
+        cands.append({"valueUsdB": c["latestValuationUsdB"], "date": c.get("latestValuationDate"),
+                      "source": c.get("latestValuationSource"), "basis": "latest closed / reported valuation"})
+    if c.get("valuationSignal"):
+        cands.append(c["valuationSignal"])
+    return max(cands, key=lambda x: x["valueUsdB"]) if cands else None
+
+
 def build_record(c: dict) -> dict:
     name = c["name"]
     ps = {**(c.get("proposedScores") or {}), **OVERRIDES.get(name, {})}
@@ -293,6 +363,9 @@ def build_record(c: dict) -> dict:
     c = {**c, "rounds": rounds}
     val = c.get("latestValuationUsdB")
     val_basis = "confirmed / latest reported"
+    if not val and c.get("valuationSignal"):
+        val = c["valuationSignal"]["valueUsdB"]
+        val_basis = f"{c['valuationSignal'].get('basis') or 'reported'} (used conservatively for upside)"
     if not val:
         talk_vals = [r.get("postValuationUsdB") for r in rounds if r.get("postValuationUsdB")]
         if talk_vals:
@@ -354,14 +427,21 @@ def build_record(c: dict) -> dict:
         "composite": composite,
         "tier": tier_for(composite),
         "sources": collect_sources(c),
+        "valuationSignal": c.get("valuationSignal"),
+        "refreshChanges": c.get("refreshChanges") or [],
+        "scoreAdjustmentReason": c.get("scoreAdjustmentReason"),
+        "newRounds": [{**{k: r.get(k) for k in ["date", "stage", "amountUsdM", "postValuationUsdB", "leads", "source"]}, "singleSource": bool(r.get("singleSource"))} for r in c.get("newRounds") or []],
     }
 
 
 def main() -> None:
     companies = [c for f in sorted(glob.glob(os.path.join(RESEARCH_DIR, "b*.json"))) for c in json.load(open(f))]
-    ranked, excluded = [], []
+    ranked, excluded, removed = [], [], []
+    patches = load_patches()
+    previous = {r["name"]: r for r in json.load(open(PREVIOUS_RANKING))} if os.path.exists(PREVIOUS_RANKING) else {}
 
     for c in companies:
+        c = apply_patch(c, patches.get(c["name"]))
         name = c["name"]
         status = c.get("status") or "unknown"
         if name in EXCLUDE_EXTRA:
@@ -377,6 +457,10 @@ def main() -> None:
                 "reason": f"{reason} {c.get('statusNote') or ''}".strip(),
                 "source": c.get("statusSource"),
             }
+            if c.get("statusChangedAt"):
+                row["since"] = c["statusChangedAt"]
+            if name in previous:
+                row["oct9Rank"] = previous[name]["rank"]
             if status == "acquired" and c.get("proposedScores"):
                 ref = build_record(c)
                 row["referenceComposite"] = ref["composite"]
@@ -385,26 +469,76 @@ def main() -> None:
             excluded.append(row)
             continue
 
-        ranked.append(build_record(c))
+        rec = build_record(c)
+        prev = previous.get(name)
+        rec["oct9"] = {"rank": prev["rank"], "composite": prev["composite"], "tier": prev["tier"]} if prev else None
+        sig = valuation_signal(c)
+        if sig and sig["valueUsdB"] > VALUATION_CAP_USDB:
+            removed.append({
+                "name": name,
+                "sector": rec["sector"],
+                "valuationUsdB": sig["valueUsdB"],
+                "valuationDate": sig.get("date"),
+                "valuationSource": sig.get("source"),
+                "basis": sig.get("basis") or "reported",
+                "inTalksOnly": "talks" in (sig.get("basis") or "").lower() and not (
+                    (c.get("latestValuationUsdB") or 0) > VALUATION_CAP_USDB),
+                "closedValuationUsdB": c.get("latestValuationUsdB"),
+                "closedValuationDate": c.get("latestValuationDate"),
+                "closedValuationSource": c.get("latestValuationSource"),
+                "note": sig.get("note"),
+                "oct9Rank": prev["rank"] if prev else None,
+                "oct9Composite": prev["composite"] if prev else None,
+                "oct9Tier": prev["tier"] if prev else None,
+                "referenceComposite": rec["composite"],
+                "referenceTier": rec["tier"],
+            })
+            continue
+        rec["atValuationCap"] = bool(sig and sig["valueUsdB"] == VALUATION_CAP_USDB)
+        ranked.append(rec)
 
     ranked.sort(key=lambda r: (-r["composite"], r["name"]))
     for i, r in enumerate(ranked, 1):
         r["rank"] = i
+    survivors_prev = sorted([r for r in ranked if r["oct9"]], key=lambda r: r["oct9"]["rank"])
+    for i, r in enumerate(survivors_prev, 1):
+        r["oct9"]["rankAmongRemaining"] = i
+    removed.sort(key=lambda r: -r["valuationUsdB"])
     excluded.extend(EXTRA_EXCLUDED_ROWS)
+    changelog = {
+        "from": "2026-10-09",
+        "to": AS_OF.isoformat(),
+        "valuationCapUsdB": VALUATION_CAP_USDB,
+        "newExclusions": [e for e in excluded if e.get("since")],
+        "newRounds": [
+            {"name": r["name"], **nr} for r in [*ranked, *[{"name": x["name"], "newRounds": []} for x in removed]] for nr in r.get("newRounds") or []
+        ] + [
+            {"name": c["name"], **nr} for c in companies for nr in (patches.get(c["name"], {}).get("newRounds") or [])
+            if any(x["name"] == c["name"] for x in removed)
+        ],
+        "companyChanges": [
+            {"name": n, "changes": p.get("changes") or [], "scoreAdjustments": p.get("scoreAdjustments") or {}}
+            for n, p in patches.items() if p.get("changedSinceOct9") and p.get("changes")
+        ],
+    }
 
     header = (
         "// AUTO-GENERATED by scripts/build_private_startup_tiers.py — do not edit by hand.\n"
-        "// Source research: data/research/private-startups/*.json (as of 2026-10-09).\n"
-        "import type { RankedStartup, ExcludedEntity } from '@/data/privateStartupTiers';\n\n"
+        "// Source research: data/research/private-startups/*.json + refresh-*/ patches (as of 2026-10-21).\n"
+        "import type { RankedStartup, ExcludedEntity, RemovedOverCap, Changelog } from '@/data/privateStartupTiers';\n\n"
     )
     body = (
         f"export const rankedStartups: RankedStartup[] = {ts(ranked)};\n\n"
-        f"export const excludedEntities: ExcludedEntity[] = {ts(excluded)};\n"
+        f"export const excludedEntities: ExcludedEntity[] = {ts(excluded)};\n\n"
+        f"export const removedOverCap: RemovedOverCap[] = {ts(removed)};\n\n"
+        f"export const changelog: Changelog = {ts(changelog)};\n"
     )
     with open(OUT_PATH, "w") as fh:
         fh.write(header + body)
 
-    print(f"ranked={len(ranked)} excluded={len(excluded)} -> {OUT_PATH}")
+    print(f"ranked={len(ranked)} excluded={len(excluded)} removed>{VALUATION_CAP_USDB}B={len(removed)} -> {OUT_PATH}")
+    for r in removed:
+        print(f"  REMOVED {r['name']}: ${r['valuationUsdB']}B ({r['valuationDate']}, {r['basis']}) oct9 #{r['oct9Rank']}")
     for r in ranked:
         s = r["subscores"]
         print(f"{r['rank']:3} {r['tier']} {r['composite']:5.1f} {r['name'][:26]:26} "

@@ -42,7 +42,10 @@ import {
   deepDives,
   excludedEntities,
   factors,
+  previousLabel,
   rankedStartups,
+  removedOverCap,
+  changelog,
   sectorColors,
   thesisPillars,
   tierColor,
@@ -197,7 +200,8 @@ function CompanyCard({ company, peers, eff }: { company: LiveStartup; peers: Liv
       </div>
       <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginTop: 6 }}>
         {company.valuationDate ? `Valuation as of ${company.valuationDate}. ` : ''}
-        {company.arr?.date ? `ARR (${company.arr.kind ?? 'reported'}) as of ${company.arr.date}. ` : ''}
+        {company.arr?.date ? `ARR (${company.arr.kind ?? 'reported'}) as of ${company.arr.date}${company.arr.singleSource ? ', single source' : ''}. ` : ''}
+        {company.oct9 ? `${previousLabel}: #${company.oct9.rank} (${company.oct9.tier}, ${company.oct9.composite.toFixed(1)}). ` : ''}
         {company.multipleNote}
       </div>
 
@@ -437,6 +441,19 @@ function WeightsChart() {
   );
 }
 
+function linkify(text: string) {
+  const parts = text.split(/(https?:\/\/[^\s)\],;]+)/g);
+  return parts.map((part, i) =>
+    /^https?:\/\//.test(part) ? (
+      <a key={i} href={part.replace(/[.]$/, '')} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>
+        {(() => { try { return new URL(part).hostname.replace(/^www\./, ''); } catch { return 'link'; } })()}
+      </a>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
+  );
+}
+
 const sortValue = (c: LiveStartup, key: SortKey): number | string => {
   if (key === 'rank') return c.rank;
   if (key === 'name') return c.name.toLowerCase();
@@ -510,6 +527,10 @@ export default function PrivateStartupTiersPage() {
   const withVal = rankedStartups.filter((c) => c.valuationUsdB).length;
   const sourceCount = rankedStartups.reduce((s, c) => s + c.sources.length, 0);
   const excludedPublic = excludedEntities.filter((e) => e.status === 'public').length;
+  const oct9Movers = rankedStartups
+    .filter((c) => c.oct9?.rankAmongRemaining)
+    .map((c) => ({ name: c.name, from: c.oct9!.rankAmongRemaining as number, to: c.rank, delta: (c.oct9!.rankAmongRemaining as number) - c.rank, oldScore: c.oct9!.composite, newScore: c.composite }))
+    .sort((a, b) => b.delta - a.delta || b.newScore - b.oldScore - (a.newScore - a.oldScore));
   const acquired = excludedEntities.filter((e) => e.referenceComposite !== undefined).sort((a, b) => (b.referenceComposite ?? 0) - (a.referenceComposite ?? 0));
   const picks = live.filter((c) => deepDives[c.name]).sort((a, b) => a.defaultRank - b.defaultRank).slice(0, 10);
   const contributionCompanies = chartSet === 'top25' ? live.slice(0, 25) : live;
@@ -542,7 +563,7 @@ export default function PrivateStartupTiersPage() {
               </Reveal>
               <Reveal delay={0.12}>
                 <p style={{ maxWidth: 640, color: 'var(--ink-600)', fontSize: 'var(--text-lg)', lineHeight: 1.65, margin: 'var(--space-xl) 0 0' }}>
-                  {rankedStartups.length} still-private startups, drawn from a user watchlist plus the 6 Oct 2026 X tier-list thread, each scored 0–100 on eight weighted factors. The factors are talent density, fundraising velocity, traction, valuation upside, research output, revenue multiple, moat, and X posting reach. Composites map to S through E tiers with fixed cutoffs. Don&apos;t agree with the weights? Re-weight them below and the whole ranking updates live. Public companies, subsidiaries, and acquired companies are listed separately with reasons. Every hard number links to a source.
+                  {rankedStartups.length} private startups valued at $20B or less, drawn from a user watchlist plus the 6 Oct 2026 X tier-list thread, each scored 0–100 on eight weighted factors. Refreshed {updatedLabel}: {removedOverCap.length} companies above the $20B line now sit in their own section, with valuation, date and source. The factors are talent density, fundraising velocity, traction, valuation upside, research output, revenue multiple, moat, and X posting reach. Composites map to S through E tiers with fixed cutoffs. Don&apos;t agree with the weights? Re-weight them below and the whole ranking updates live. Public companies, subsidiaries, and acquired companies are listed separately with reasons. Every hard number links to a source.
                 </p>
               </Reveal>
             </div>
@@ -576,13 +597,13 @@ export default function PrivateStartupTiersPage() {
         alt="Abstract network of glowing nodes connecting systems, used as a metaphor for a startup talent and capital graph"
         eyebrow="Private markets · talent × capital × revenue"
         title="Talent gets you in the room. Revenue keeps you in the tier."
-        thesis="Research-only labs with legendary founders (SSI, Discovery Loop, AMI Labs) top the talent column but land in B/C once missing ARR and rich valuations are priced in. The S tier is the four companies where talent, fundraising velocity, and compounding revenue all show up in sourced numbers."
+        thesis="With the $20B-plus giants set aside, the ranking rewards AI infrastructure that compounds revenue at a sane multiple. Research labs with legendary founders (AMI Labs, Core Automation, Periodic Labs) still top the talent column, but land in B once missing ARR is priced in."
         signals={[
-          { label: 'S tier', value: live.filter((c) => c.tier === 'S').map((c) => c.name).join(' · ') },
-          { label: 'Biggest gap vs crowd', value: 'SSI: S+ in thread, C here (no revenue, $32B)' },
-          { label: 'No longer private', value: 'SpaceX/xAI · Cerebras · Cursor · World Labs' },
+          { label: 'S tier', value: live.filter((c) => c.tier === 'S').map((c) => c.name).join(' · ') || 'Empty under these weights' },
+          { label: `Removed (> $20B)`, value: `${removedOverCap.length} companies, from ${removedOverCap[0]?.name ?? ''} down` },
+          { label: 'Not private since Oct 9', value: changelog.newExclusions.map((e) => e.name).join(' · ') || 'None' },
         ]}
-        caption="Reused site illustration. Rankings use sourced data as of 9 Oct 2026; see methodology and sources below."
+        caption={`Reused site illustration. Rankings use sourced data as of ${updatedLabel}; see methodology, changelog and sources below.`}
       />
 
       {/* Thesis */}
@@ -590,7 +611,7 @@ export default function PrivateStartupTiersPage() {
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <Eyebrow>Thesis</Eyebrow>
-            <H2>The private AI market split into compounding revenue and priced-in talent.</H2>
+            <H2>Below $20B, the private AI market rewards compounding revenue over priced-in talent.</H2>
           </Reveal>
           <div className="grid md:grid-cols-3" style={{ gap: 'var(--space-md)' }}>
             {thesisPillars.map((p, i) => (
@@ -608,12 +629,12 @@ export default function PrivateStartupTiersPage() {
 
       <section style={{ padding: 'var(--space-3xl) var(--space-lg) 0' }}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-6" style={{ gap: 'var(--space-md)' }}>
-          <StatCard label="Private startups ranked" value={String(rankedStartups.length)} sub="Deduped across the user list, the parent tier list, and ~44 thread replies." />
+          <StatCard label="Private startups ranked" value={String(rankedStartups.length)} sub={`Valued ≤ $20B. Down from 94 on ${previousLabel}.`} />
+          <StatCard label="Removed (> $20B)" value={String(removedOverCap.length)} sub="Latest closed or in-talks valuation above $20B. Listed below with sources." />
           <StatCard label="Tier mix" value={tierCounts.map((t) => t.n).join('/')} sub="Companies in S / A / B / C / D / E." />
           <StatCard label="Disclosed valuation" value={`${withVal}`} sub="Companies with a sourced latest valuation. The rest score a neutral 5 on upside." />
           <StatCard label="Public ARR" value={`${withArr}`} sub="Companies with sourced ARR / run-rate. The rest score a conservative 3 on multiple." />
           <StatCard label="Excluded" value={String(excludedEntities.length)} sub={`${excludedPublic} public rows, plus subsidiaries, acquired companies, trading firms, a nonprofit, and unrelated namesakes.`} />
-          <StatCard label="Source links" value={String(sourceCount)} sub="Per-company citations for rounds, valuations, ARR, status, and research." />
         </div>
       </section>
 
@@ -624,7 +645,7 @@ export default function PrivateStartupTiersPage() {
             <Eyebrow>Methodology &amp; weights</Eyebrow>
             <H2>Eight factors, {weightTotal} points, scored 0–10 each</H2>
             <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-base)', lineHeight: 1.7, maxWidth: 860, marginTop: 0 }}>
-              Composite = Σ weight × subscore / 10. Fundraising velocity, upside, and revenue multiple are computed mechanically from sourced rounds, valuations, and ARR. Talent, research, traction, moat, and posting are analyst scores against fixed anchors, with every input logged in the research files. Missing data never helps a company: rounds still in talks don&apos;t count toward velocity, missing ARR scores 3 on multiple, and missing valuation scores a neutral 5 on upside. The scoring is reproducible with <code>scripts/build_private_startup_tiers.py</code>.
+              Composite = Σ weight × subscore / 10. Fundraising velocity, upside, and revenue multiple are computed mechanically from sourced rounds, valuations, and ARR. Talent, research, traction, moat, and posting are analyst scores against fixed anchors, with every input logged in the research files. Missing data never helps a company: rounds still in talks don&apos;t count toward velocity, missing ARR scores 3 on multiple, and missing valuation scores a neutral 5 on upside. Universe rule (since {updatedLabel}): companies whose latest closed valuation, or latest in-talks report, is above $20B are removed from the tiers rather than scored. Companies exactly at $20B stay in and are flagged. The scoring is reproducible with <code>scripts/build_private_startup_tiers.py</code>.
             </p>
           </Reveal>
           <div className="grid lg:grid-cols-[0.9fr_1.1fr]" style={{ gap: 'var(--space-xl)', alignItems: 'start' }}>
@@ -782,6 +803,7 @@ export default function PrivateStartupTiersPage() {
                 <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
                   <th style={thStyle} onClick={() => onSort('rank')}>#{sortArrow('rank')}</th>
                   <th style={{ ...thStyle, cursor: 'default' }} title="Rank change vs. default weights">Δ</th>
+                  <th style={{ ...thStyle, cursor: 'default' }} title={`Published rank vs. ${previousLabel} rank among companies still ranked`}>vs {previousLabel.replace(' 2026', '')}</th>
                   <th style={thStyle} onClick={() => onSort('name')}>Company{sortArrow('name')}</th>
                   <th style={thStyle}>Tier</th>
                   <th style={thStyle} onClick={() => onSort('rank')}>Score{sortArrow('rank')}</th>
@@ -798,14 +820,18 @@ export default function PrivateStartupTiersPage() {
               </thead>
               <tbody>
                 {tableRows.length === 0 && (
-                  <tr><td colSpan={17} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
+                  <tr><td colSpan={18} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
                 )}
                 {tableRows.map((c) => (
                   <tr key={c.name} onClick={() => select(c.name)} style={{ borderBottom: '1px solid var(--ink-100)', cursor: 'pointer', background: c.name === selected.name ? 'color-mix(in srgb, var(--accent) 7%, transparent)' : 'transparent' }}>
                     <td style={{ padding: '9px 8px', fontFamily: 'monospace', color: 'var(--ink-400)', fontWeight: 900 }}>{c.rank}</td>
                     <td style={{ padding: '9px 4px' }}><RankMove from={c.defaultRank} to={c.rank} /></td>
+                    <td style={{ padding: '9px 4px' }}>{c.oct9?.rankAmongRemaining ? <RankMove from={c.oct9.rankAmongRemaining} to={c.defaultRank} /> : <span style={{ fontSize: '0.7rem', color: 'var(--accent)', fontWeight: 900 }}>new</span>}</td>
                     <td style={{ padding: '9px 8px', minWidth: 190 }}>
-                      <div style={{ color: 'var(--ink-950)', fontWeight: 900, fontSize: 'var(--text-sm)' }}>{c.name}</div>
+                      <div style={{ color: 'var(--ink-950)', fontWeight: 900, fontSize: 'var(--text-sm)' }}>
+                        {c.name}
+                        {c.atValuationCap && <span title="Latest in-talks valuation is exactly $20B, at the cap" style={{ marginLeft: 6, fontSize: '0.62rem', color: 'var(--warning)', border: '1px solid var(--warning)', borderRadius: 99, padding: '1px 5px', fontWeight: 800 }}>at $20B cap</span>}
+                      </div>
                       <div style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: '0.7rem', color: 'var(--ink-500)' }}>
                         <span style={{ width: 7, height: 7, borderRadius: 99, background: sectorColors[c.sector] }} />{c.category}
                       </div>
@@ -917,6 +943,147 @@ export default function PrivateStartupTiersPage() {
         </div>
       </section>
 
+      {/* Changelog */}
+      <section id="changelog" style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)', borderBottom: '1px solid var(--ink-100)' }}>
+        <div className="max-w-6xl mx-auto">
+          <Reveal>
+            <Eyebrow>Changelog · {previousLabel} → {updatedLabel}</Eyebrow>
+            <H2>What changed since the first edition</H2>
+          </Reveal>
+          <div className="grid md:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
+            <StatCard label="Removed (> $20B)" value={String(removedOverCap.length)} sub={`${removedOverCap.filter((r) => r.inTalksOnly).length} of them on in-talks reports only.`} />
+            <StatCard label="Newly excluded" value={String(changelog.newExclusions.length)} sub={changelog.newExclusions.map((e) => `${e.name} (${e.status})`).join(', ') || 'None'} />
+            <StatCard label="New rounds tracked" value={String(changelog.newRounds.length)} sub={`${changelog.newRounds.filter((r) => /talks|not closed/i.test(r.stage ?? '')).length} still in talks, the rest closed or non-equity.`} />
+            <StatCard label="Companies with news" value={String(changelog.companyChanges.length)} sub="Material changes logged with sources in the refresh files." />
+          </div>
+
+          <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-xl)', alignItems: 'start' }}>
+            <div>
+              <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 8 }}>New rounds since {previousLabel}</div>
+              <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 6, background: 'var(--surface-raised)' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 520 }}>
+                  <thead>
+                    <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
+                      {['Company', 'Round', 'Amount', 'Post-money', 'Status'].map((h) => <th key={h} style={{ ...thStyle, cursor: 'default' }}>{h}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[...changelog.newRounds].sort((a, b) => (b.amountUsdM ?? 0) - (a.amountUsdM ?? 0)).map((r) => {
+                      const talks = /talks|not closed/i.test(r.stage ?? '');
+                      const debt = /non-dilutive|not equity/i.test(r.stage ?? '');
+                      return (
+                        <tr key={`${r.name}-${r.stage}`} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                          <td style={{ padding: '8px', fontWeight: 900, fontSize: 'var(--text-sm)', color: 'var(--ink-950)', whiteSpace: 'nowrap' }}>{r.name}</td>
+                          <td style={{ padding: '8px', fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>
+                            {r.source ? <a href={r.source} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>{(r.stage ?? 'Round').split('(')[0].trim()}</a> : r.stage} · {r.date}
+                            {r.singleSource && <span style={{ color: 'var(--warning)', fontWeight: 800 }}> · single source</span>}
+                          </td>
+                          <td style={{ padding: '8px', fontFamily: 'monospace', fontSize: 'var(--text-xs)', textAlign: 'right' }}>{formatUsdM(r.amountUsdM)}</td>
+                          <td style={{ padding: '8px', fontFamily: 'monospace', fontSize: 'var(--text-xs)', textAlign: 'right' }}>{formatUsdB(r.postValuationUsdB)}</td>
+                          <td style={{ padding: '8px', fontSize: '0.7rem', fontWeight: 800, color: talks ? 'var(--warning)' : debt ? 'var(--ink-500)' : 'var(--success)' }}>{talks ? 'in talks' : debt ? 'non-equity' : 'closed'}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 4 }}>Biggest rank moves vs. {previousLabel}</div>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 8, lineHeight: 1.5 }}>
+                Compared with each company&apos;s {previousLabel} rank among the companies still ranked, so the {removedOverCap.length} removals don&apos;t inflate every move. Scores are in brackets.
+              </div>
+              <div className="grid sm:grid-cols-2" style={{ gap: 'var(--space-md)' }}>
+                {[
+                  { title: 'Risers', list: oct9Movers.filter((m) => m.delta > 0).slice(0, 8) },
+                  { title: 'Fallers', list: oct9Movers.filter((m) => m.delta < 0).reverse().slice(0, 8) },
+                ].map((g) => (
+                  <div key={g.title} style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-md)' }}>
+                    <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>{g.title}</div>
+                    {g.list.length === 0 && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-400)' }}>None</div>}
+                    {g.list.map((m) => (
+                      <button key={m.name} type="button" onClick={() => select(m.name)} style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: 6, border: 'none', background: 'transparent', padding: '3px 0', cursor: 'pointer', fontSize: 'var(--text-xs)', color: 'var(--ink-800)', textAlign: 'left' }}>
+                        <span><strong>{m.name}</strong> <span style={{ color: 'var(--ink-400)', fontFamily: 'monospace' }}>#{m.from}→#{m.to} ({m.oldScore.toFixed(1)}→{m.newScore.toFixed(1)})</span></span>
+                        <RankMove from={m.from} to={m.to} />
+                      </button>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div style={{ fontWeight: 900, color: 'var(--ink-950)', margin: 'var(--space-xl) 0 8px' }}>Company news log</div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ gap: 'var(--space-sm)' }}>
+            {changelog.companyChanges.map((c) => (
+              <details key={c.name} style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 4, padding: '8px 12px' }}>
+                <summary style={{ cursor: 'pointer', fontSize: 'var(--text-sm)', fontWeight: 800, color: 'var(--ink-900)' }}>
+                  {c.name} <span style={{ color: 'var(--ink-400)', fontWeight: 600 }}>({c.changes.length})</span>
+                  {Object.keys(c.scoreAdjustments).length > 0 && (
+                    <span style={{ marginLeft: 6, fontSize: '0.66rem', color: 'var(--accent)' }}>
+                      {Object.entries(c.scoreAdjustments).map(([k, v]) => `${k} → ${v}`).join(', ')}
+                    </span>
+                  )}
+                </summary>
+                <ul style={{ margin: '8px 0 0', paddingLeft: 16, display: 'grid', gap: 6 }}>
+                  {c.changes.map((line) => (
+                    <li key={line} style={{ fontSize: '0.72rem', color: 'var(--ink-600)', lineHeight: 1.45, overflowWrap: 'anywhere' }}>{linkify(line)}</li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Removed over cap */}
+      <section id="removed-over-20b" style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
+        <div className="max-w-6xl mx-auto">
+          <Reveal>
+            <Eyebrow>Removed: valued above $20B</Eyebrow>
+            <H2>{removedOverCap.length} companies set aside, not deleted</H2>
+            <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-sm)', lineHeight: 1.7, maxWidth: 860, marginTop: 0 }}>
+              As of {updatedLabel}, the tiers only rank startups valued at $20B or less. A company is removed when its most recent closed or reported valuation, or its most recent &ldquo;in talks&rdquo; report, is above $20B. In-talks-only cases are marked. Each would still score on the same model; the reference composite is shown for context and is not tiered.
+            </p>
+          </Reveal>
+          <div style={{ overflowX: 'auto', border: '1px solid var(--ink-100)', borderRadius: 6, background: 'var(--surface-raised)' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 900 }}>
+              <thead>
+                <tr style={{ background: 'var(--surface-sunken)', color: 'var(--ink-500)', textAlign: 'left' }}>
+                  {['Company', 'Latest valuation', 'Date', 'Basis', 'Last closed', `${previousLabel} rank`, 'Reference score'].map((h) => <th key={h} style={{ ...thStyle, cursor: 'default' }}>{h}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {removedOverCap.map((r) => (
+                  <tr key={r.name} style={{ borderBottom: '1px solid var(--ink-100)' }}>
+                    <td style={{ padding: '9px 8px', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-sm)', whiteSpace: 'nowrap' }}>
+                      <span style={{ display: 'inline-block', width: 7, height: 7, borderRadius: 99, background: sectorColors[r.sector], marginRight: 6 }} />{r.name}
+                    </td>
+                    <td style={{ padding: '9px 8px', fontFamily: 'monospace', fontWeight: 900 }}>
+                      {r.valuationSource ? <a href={r.valuationSource} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>{formatUsdB(r.valuationUsdB)} ↗</a> : formatUsdB(r.valuationUsdB)}
+                    </td>
+                    <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-600)', fontFamily: 'monospace' }}>{r.valuationDate ?? 'n/a'}</td>
+                    <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', color: r.inTalksOnly ? 'var(--warning)' : 'var(--ink-600)', fontWeight: r.inTalksOnly ? 800 : 500 }}>
+                      {r.inTalksOnly ? 'In talks only (treated as > $20B)' : r.basis}
+                    </td>
+                    <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', fontFamily: 'monospace' }}>
+                      {r.closedValuationSource ? <a href={r.closedValuationSource} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>{formatUsdB(r.closedValuationUsdB)}</a> : formatUsdB(r.closedValuationUsdB)}
+                      {r.closedValuationDate ? ` (${r.closedValuationDate})` : ''}
+                    </td>
+                    <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', fontFamily: 'monospace' }}>
+                      {r.oct9Rank ? <>#{r.oct9Rank} {r.oct9Tier && <span style={{ color: tierColor(r.oct9Tier), fontWeight: 900 }}>{r.oct9Tier}</span>}</> : '—'}
+                    </td>
+                    <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', fontFamily: 'monospace', color: 'var(--ink-500)' }}>
+                      {r.referenceComposite.toFixed(1)} <span style={{ color: tierColor(r.referenceTier) }}>({r.referenceTier}-equiv.)</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Excluded */}
       <section id="excluded" style={{ padding: 'var(--space-3xl) var(--space-lg)' }}>
         <div className="max-w-6xl mx-auto">
@@ -953,7 +1120,10 @@ export default function PrivateStartupTiersPage() {
               <tbody>
                 {excludedEntities.map((e) => (
                   <tr key={e.name} style={{ borderBottom: '1px solid var(--ink-100)' }}>
-                    <td style={{ padding: '9px 8px', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-sm)', whiteSpace: 'nowrap' }}>{e.name}</td>
+                    <td style={{ padding: '9px 8px', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-sm)', whiteSpace: 'nowrap' }}>
+                      {e.name}
+                      {e.since && <span style={{ marginLeft: 6, fontSize: '0.62rem', color: 'var(--accent)', border: '1px solid var(--accent)', borderRadius: 99, padding: '1px 5px', fontWeight: 800 }}>new since {previousLabel.replace(' 2026', '')}</span>}
+                    </td>
                     <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', textTransform: 'capitalize', whiteSpace: 'nowrap' }}>{e.status}</td>
                     <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)', color: 'var(--ink-600)', lineHeight: 1.5 }}>{e.reason}</td>
                     <td style={{ padding: '9px 8px', fontSize: 'var(--text-xs)' }}>{e.source ? <a href={e.source} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>link</a> : '—'}</td>
@@ -1007,7 +1177,7 @@ export default function PrivateStartupTiersPage() {
             Own compounding revenue at a sane multiple. Treat pure-talent labs as options, not compounders.
           </h2>
           <p style={{ color: 'rgba(255,255,255,0.72)', fontSize: 'var(--text-base)', lineHeight: 1.75, maxWidth: 780 }}>
-            Anthropic, OpenAI, Together AI, and Databricks form the S tier. Mistral, Cognition, Perplexity, Fireworks, Thinking Machines, and Physical Intelligence lead A. The best risk/reward among the large names is in AI infrastructure (Together, Fireworks, fal, Modal), selling at 7–18x ARR. The most-hyped labs (SSI, Discovery Loop, AMI, Core Automation) score at the very top on talent but land in B/C until revenue shows up. Recheck when an &ldquo;in talks&rdquo; round closes, because that moves velocity and upside at once.
+            Under the $20B cap, Together AI is the only S-tier name. Vercel, Physical Intelligence, Modal, fal, Snorkel, Runway, Suno, Mercor, Prime Intellect and Sierra make up A. The best risk/reward is still AI infrastructure with compounding revenue (Together, Modal, fal, Vercel) at roughly 6–16x. Talent-heavy labs (AMI, Core Automation, Periodic, River) sit in B until revenue shows up. Watch the in-talks rounds: if fal, Lila or Mercor close above $20B they leave the tiers, and if Baseten or Fireworks talks fall through they could come back.
           </p>
         </div>
       </section>

@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { factors, tierColor, type FactorKey } from '@/data/privateStartupTiers';
+import { factors, rankedStartups, tierColor, tiers, type FactorKey } from '@/data/privateStartupTiers';
+
+const defaultSizes = tiers.map((t) => `${rankedStartups.filter((c) => c.tier === t.tier).length} ${t.tier}`).join(', ');
 import {
   DEFAULT_WEIGHTS,
   MAX_WEIGHT,
@@ -136,7 +138,7 @@ export default function WeightsPanel({
         <p style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', margin: 0, lineHeight: 1.55 }}>
           {mode === 'fixed'
             ? 'Fixed (default): S ≥ 72, A ≥ 64, B ≥ 56, C ≥ 48, D ≥ 40, else E. A tier keeps its meaning as an absolute score, so weights that favour factors where most companies score low (e.g. revenue multiple) can shrink the S tier, or empty it.'
-            : 'Relative: tiers are filled by rank with the default sizes (4 S, 16 A, 24 B, 28 C, 13 D, 9 E). Use it to compare who is in the top group under your weights, regardless of absolute score.'}
+            : `Relative: tiers are filled by rank with the default sizes (${defaultSizes}). Use it to compare who is in the top group under your weights, regardless of absolute score.`}
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
           <button type="button" onClick={() => { onWeights(DEFAULT_WEIGHTS); onMode('fixed'); }} disabled={isDefault} style={{ ...pill(false), opacity: isDefault ? 0.45 : 1, cursor: isDefault ? 'default' : 'pointer' }}>
