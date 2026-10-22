@@ -1,0 +1,659 @@
+[
+  {
+    "name": "Physical Intelligence",
+    "rounds": [
+      {
+        "date": "2024-03",
+        "stage": "Seed",
+        "amountUsdM": 70,
+        "postValuationUsdB": null,
+        "leads": "Thrive Capital (per siliconvalleyinvestclub); Khosla, Lux, Sequoia, OpenAI participating",
+        "source": "https://app.dealroom.co/companies/physical_intelligence",
+        "singleSource": true
+      },
+      {
+        "date": "2024-11",
+        "stage": "Series A",
+        "amountUsdM": 400,
+        "postValuationUsdB": 2.4,
+        "leads": "Jeff Bezos, Thrive, Lux, Bond, Redpoint, Sequoia, Khosla, OpenAI",
+        "source": "https://stockanalysis.com/private/physical-intelligence/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series B",
+        "amountUsdM": 600,
+        "postValuationUsdB": 5.6,
+        "leads": "CapitalG (lead); Lux, Thrive, Index, T. Rowe Price, Bezos",
+        "source": "https://siliconvalleyinvestclub.com/companies/physical-intelligence/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-05",
+        "stage": "Series C (from corporate filings; the company has not announced it)",
+        "amountUsdM": 1050,
+        "postValuationUsdB": 11.0,
+        "leads": "Founders Fund (reported); Lightspeed new; Thrive, Lux follow-on",
+        "source": "https://www.revenuememo.com/p/physical-intelligence-funding",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 2120,
+      "asOf": "2026-10",
+      "source": "https://stockanalysis.com/private/physical-intelligence/",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "Equity only. Sum of the four rounds; matches StockAnalysis ($2.12B) and Altis (~$2.12B). Company/TechCrunch only say '>$1B' (Jan 2026, before Series C). CB Insights/LinkedIn still show $1.07B because they exclude the unannounced Series C."
+    },
+    "arr": null,
+    "talentSignals": [
+      "Anthropic held acquisition talks with Physical Intelligence in spring 2026; no deal. CEO Karol Hausman denied a July rumor of an imminent deal (The Information via TechCrunch, https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/).",
+      "LinkedIn data: 361 employees (+152% YoY). Top alumni destinations are Mind Robotics (7) and 1X (6) (https://linkedin.com/company/physical-intelligence, aggregator)."
+    ],
+    "xPosts": [],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM"
+    ],
+    "notes": "Searched for revenue: none disclosed. Groom says he gives investors no commercialization timeline (TechCrunch, Jan 30, 2026, https://techcrunch.com/2026/01/30/physical-intelligence-stripe-veteran-lachy-grooms-latest-bet-is-building-silicon-valleys-buzziest-robot-brains/). The Pi API beta (Oct 13, 2026) is waitlist-only, with no pricing or revenue. Valuation is unchanged at ~$11B (Series C), so latestValuation is omitted. Secondary implied ~$16.7B (StockAnalysis/Clarity, Oct 21) is not a round. A Form D for an SPV ('Nuvion Physical Intelligence VII', first sale 2026-09-23, $0.67M) shows secondary demand only."
+  },
+  {
+    "name": "Skild AI",
+    "rounds": [
+      {
+        "date": "2024-07",
+        "stage": "Series A",
+        "amountUsdM": 300,
+        "postValuationUsdB": 1.5,
+        "leads": "Lightspeed, Coatue, SoftBank, Bezos Expeditions",
+        "source": "https://mekawire.com/news/what-is-skild-ai-skild-brain-s1-funding-14bn-valuation-100m-arr-fetch-deal-explained-20261018",
+        "singleSource": false
+      },
+      {
+        "date": "2025-06",
+        "stage": "Series B",
+        "amountUsdM": 135,
+        "postValuationUsdB": 4.5,
+        "leads": "SoftBank (reported)",
+        "source": "https://news.crunchbase.com/venture/robotics-startup-skild-ai-triples-valuation/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-01",
+        "stage": "Series C",
+        "amountUsdM": 1400,
+        "postValuationUsdB": 14.0,
+        "leads": "SoftBank (lead); NVentures, Macquarie Capital, Bezos Expeditions, 1789 Capital, Disruptive; Lightspeed, Felicis, Coatue, Sequoia follow-on; strategics Samsung, LG, Schneider Electric, CommonSpirit, Salesforce Ventures",
+        "source": "https://www.skild.ai/blogs/series-c",
+        "singleSource": false
+      }
+    ],
+    "latestValuation": {
+      "valueUsdB": 14.0,
+      "date": "2026-01",
+      "source": "https://www.skild.ai/blogs/series-c",
+      "basis": "closed round",
+      "singleSource": false
+    },
+    "totalRaisedUsdM": {
+      "value": 2000,
+      "asOf": "2026-01",
+      "source": "https://archive.ph/6Nwzs",
+      "singleSource": false,
+      "note": "Equity. CEO Deepak Pathak told Bloomberg (Jan 14, 2026) that Skild has raised 'about $2 billion' to date. Disclosed rounds sum to $1.835B (Crunchbase $1.83B; Tracxn $1.81B). PrivateMarketView's $2.2B is an aggregator figure and conflicts on Series B size ($500M vs the $135M reported by Crunchbase News), so it is not used. No round since Jan 2026 (checked through Oct 22). Zebra also received a $9M minority Skild stake as part payment for its robotics unit (Mar 2026), which is not cash raised."
+    },
+    "arr": {
+      "valueUsdM": 100,
+      "date": "2026-09",
+      "kind": "ARR",
+      "source": "https://www.skild.ai/blogs/skild-crosses-100m-arr",
+      "singleSource": false,
+      "note": "Company blog plus Bloomberg (https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate). 60+ paying customers; $50M recognized in the 10 months since first deployment; ~90% manipulation, 10% mobility (4% from the Fetch AMR business). Reaffirmed by SE Ventures at TechCrunch Disrupt (Oct 14, 2026)."
+    },
+    "headcount": {
+      "value": 178,
+      "date": "2026-10",
+      "source": "https://www.tipranks.com/private-companies/skild-ai",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived: 178 on Oct 19, 2026 (TipRanks); Tracxn also 178 as of Sep 30, 2026 (https://tracxn.com/d/companies/skild/__2UONhWmLwU2veLVgMlZmmgvKLONC_6y_MfympgL6if4). Revelio had 125 in Mar 2026. ~41-46 open roles."
+    },
+    "research": "S1 in-context robotics foundation model (Aug 18, 2026): learns a task from one video; on unseen long tasks Skild reports 66% per-step success vs 9% for a language-prompted VLA. Physical Self-Play (Sep 23, 2026): S1 post-trained via 140 simulated years of self-play in Isaac Sim, transferred to a real humanoid (soccer). No open-source models; no detailed technical report yet.",
+    "researchSources": [
+      "https://www.skild.ai/blogs/physical-self-play",
+      "https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play",
+      "https://theartificialindex.com/companies/skild-ai"
+    ],
+    "xPresence": "@SkildAI 23,628 followers; CEO @deepakpathak 31,531 (fxtwitter, Oct 22, 2026). Big research launches reach ~1.8M views.",
+    "xPosts": [
+      {
+        "url": "https://x.com/SkildAI/status/2102807730331492500",
+        "author": "SkildAI",
+        "date": "2026-09-23",
+        "likes": 2027,
+        "views": 1772568,
+        "summary": "'We trained a robot to play football... Self-play for 140 years in a virtual World Cup. Meet the #Messinator' (Physical Self-Play launch thread)."
+      }
+    ],
+    "talentSignals": [
+      "Acquired Zebra Technologies' Robotics Automation business (ex-Fetch Robotics, plus Symmetry Fulfillment software). The deal closed on Mar 27, 2026 for $20M total consideration ($9M cash, a $9M Skild stake, ~$2M escrow) per Zebra's 10-Q. CEO said 'the Fetch Team is the main reason for the acquisition' (https://mekawire.com/news/skild-ai-buys-zebra-fetch-robotics-20m-20260415, https://www.therobotreport.com/skild-acquires-fetch-robotics-assets-from-zebra-automation/).",
+      "Opened a Bengaluru office in Feb 2026 (https://mekawire.com/news/what-is-skild-ai-skild-brain-s1-funding-14bn-valuation-100m-arr-fetch-deal-explained-20261018). LinkedIn: 59% US, 14% India; top talent sources are Zebra (8), CMU (7), Meta (5) (https://linkedin.com/company/skildai, aggregator).",
+      "Customer count went from ~8 in Jan 2026 to 60+ in Sep 2026 (https://www.investing.com/news/stock-market-news/skild-ai-hits-revenue-milestone-on-growing-customer-base--bloomberg-4896460)."
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount",
+      "xPosts"
+    ],
+    "notes": "Checked through Oct 22, 2026: no new primary round, talks, M&A or IPO news. Latest valuation is still >$14B (Series C, Jan 2026). Secondary marks are $15.1B (Singular Vest, Oct 21), $16.4B (The Inference, Oct 13) and $16.9B (PrivateMarketView, Oct); these are aggregator estimates, not rounds. Form D filings show SPVs only (CGF2021 'Skild AI Apr 2025'; 'AGC Skild I', first sale 2026-07-09, $5.68M)."
+  },
+  {
+    "name": "Sunday",
+    "rounds": [
+      {
+        "date": "2025-11",
+        "stage": "Seed + Series A",
+        "amountUsdM": 35,
+        "postValuationUsdB": null,
+        "leads": "Conviction (seed), Benchmark (Series A)",
+        "source": "https://finance.yahoo.com/news/sunday-launches-memo-robot-actually-170000803.html",
+        "singleSource": false
+      },
+      {
+        "date": "2026-03",
+        "stage": "Series B",
+        "amountUsdM": 165,
+        "postValuationUsdB": 1.15,
+        "leads": "Coatue (lead, Thomas Laffont on board); Bain Capital Ventures, Fidelity, Tiger Global, Benchmark, Conviction, Xtal",
+        "source": "https://www.sunday.ai/blog/series-b",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 200,
+      "asOf": "2026-10",
+      "source": "https://www.sunday.ai/blog/series-b",
+      "singleSource": false,
+      "note": "Equity: $35M seed+A plus $165M Series B. LinkedIn also lists $200M total. No round since Mar 2026."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 233,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/sundayrobotics",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived count. Company said ~70 employees at the Mar 2026 Series B and that it had grown Engineering 3x, Research 4x and Data Ops 5x (https://www.sunday.ai/blog/series-b)."
+    },
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount"
+    ],
+    "notes": "Pre-revenue: the Memo beta (Founding Family) rolls out late 2026, with no retail price and scaled shipping expected 2027-28. TechCrunch/Bloomberg cited a 1,000-person waitlist (Mar 2026). No Form D found under 'Sunday Robotics'."
+  },
+  {
+    "name": "Periodic Labs",
+    "rounds": [
+      {
+        "date": "2025-09",
+        "stage": "Seed",
+        "amountUsdM": 300,
+        "postValuationUsdB": 1.3,
+        "leads": "a16z (lead); Felicis, DST, NVentures, Accel, Bezos, Elad Gil, Eric Schmidt, Jeff Dean",
+        "source": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-03",
+        "stage": "Unnamed round (in talks, not closed)",
+        "amountUsdM": null,
+        "postValuationUsdB": 7.0,
+        "leads": "Not named; 'at least hundreds of millions' at about $7B",
+        "source": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation",
+        "singleSource": false
+      },
+      {
+        "date": "2026-05",
+        "stage": "Series A (in talks, not closed)",
+        "amountUsdM": 500,
+        "postValuationUsdB": 7.5,
+        "leads": "AMP (Anjney Midha), reported lead; 'at least $500M', 'significantly oversubscribed'",
+        "source": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/",
+        "singleSource": false
+      }
+    ],
+    "latestValuation": {
+      "valueUsdB": 1.3,
+      "date": "2025-09",
+      "source": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation",
+      "basis": "closed round",
+      "singleSource": false,
+      "note": "Latest CONFIRMED valuation is the $1.3B seed (Forbes; Bloomberg Mar 2026). The $7.5B is a reported AMP-led round, still unconfirmed as of Oct 22, 2026 (see notes)."
+    },
+    "totalRaisedUsdM": {
+      "value": 300,
+      "asOf": "2026-10",
+      "source": "https://www.revenuememo.com/p/periodic-labs-funding",
+      "singleSource": false,
+      "note": "Confirmed equity is the seed only. A $750M Series A appears only on low-quality or aggregator sites (technooptimist.io, siliconvalleyinvestclub, Forge) and is not used."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 94,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/periodic-labs",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived: 94-95 (Oct 2026; siliconvalleyinvestclub tear sheet 95). Crustdata had 83-88 in Sep 2026; Caplight shows 57 -> 88 QoQ (Aug 2026). ~30 open roles."
+    },
+    "talentSignals": [
+      "LinkedIn top talent sources: OpenAI (5), SpaceXAI (4), Tesla (3), Meta (3), Google (3), Applied Materials (3), Google DeepMind (2), Anthropic (2) (https://linkedin.com/company/periodic-labs, aggregator)."
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount"
+    ],
+    "notes": "$7.5B confirmation attempt: two reputable outlets agree on the magnitude: Bloomberg (Mar 25, 2026, talks at ~$7B) and Forbes (May 7, 2026, advanced talks at $7.5B, AMP lead, three sources). Neither reports a close, and Forbes' May 12 newsletter still says 'when the round closes'. Periodic's news page has no post-seed funding announcement. RevenueMemo, Whiteford Research and AI4S.fyi all say the round is not confirmed closed. Forge Global lists a June 2026 Series A at $7.5B (aggregator). Venture Capital Archive (Oct 11) says the founders 'confirmed another large raise is coming' in the Oct 8 Latent Space interview. SEC: only an SPV Form D ('AGC Wealt Periodic Labs I', first sale 2026-05-28, $4.74M, 7 investors), consistent with deal activity around the AMP round but not proof of a close. Verdict: $7.5B is double-sourced as talks but NOT confirmed closed, so latestValuation is $1.3B. Revenue: Bloomberg (Mar 2026, via RevenueMemo) said Periodic had begun earning revenue from semiconductor customers, but no figure is public."
+  },
+  {
+    "name": "Edison Scientific",
+    "rounds": [
+      {
+        "date": "2025-12",
+        "stage": "Seed",
+        "amountUsdM": 70,
+        "postValuationUsdB": 0.25,
+        "leads": "Triatomic Capital, Spark Capital, an unnamed US institutional biotech investor (co-leads); Pillar VC, Susa Ventures, Striker, Hawktail, Olive VC; angels incl. Jeff Dean, Dmitri Alperovitch",
+        "source": "https://edisonscientific.com/news/we-raised-70m-to-accelerate-science",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 70,
+      "asOf": "2026-10",
+      "source": "https://edisonscientific.com/news/we-raised-70m-to-accelerate-science",
+      "singleSource": false,
+      "note": "Equity. SEC Form D (Edison Scientific, Inc., CIK 0002100117, filed 2025-12-09): first sale 2025-11-24, $65.89M sold of a $68.89M offering, 26 investors (https://www.sec.gov/Archives/edgar/data/2100117/000210011725000001/primary_doc.xml). The founding pre-seed from Pillar VC and Susa Ventures is undisclosed. No 2026 round found."
+    },
+    "arr": null,
+    "talentSignals": [
+      "The company's first dedicated finance hire job post (Oct 2026) says 'Our business is growing fast: real revenue, complex deals with top pharma and bio companies' (https://jobs.ashbyhq.com/edison%20scientific/8a64e3d1-eaf8-43ee-b4b1-05edac42bbd6)."
+    ],
+    "notDisclosed": [
+      "arr",
+      "rounds(pre-seed amount)"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM"
+    ],
+    "notes": "Round history is complete as far as public: one priced round (the $70M seed at $250M per the CEO to Bloomberg), plus an undisclosed founding pre-seed (Pillar, Susa). The Form D has no other Edison filings. ARR is not disclosed (ARR Club shows none). Commercial signals: Incyte enterprise partnership (May 19, 2026); Incyte's Q2 2026 8-K exhibit mentions the collaboration without terms. Population Health Partners Kosmos CPD/Regulatory deployment (Sep 30, 2026). New Kosmos subscriptions replaced the $200/mo founding plan."
+  },
+  {
+    "name": "Axiom Math",
+    "rounds": [
+      {
+        "date": "2025-09",
+        "stage": "Seed",
+        "amountUsdM": 64,
+        "postValuationUsdB": 0.3,
+        "leads": "B Capital (lead; Yanda Erlich on board); Greycroft, Madrona, Menlo Ventures",
+        "source": "https://b.capital/why-we-invested/toward-mathematical-superintelligence-why-we-invested-in-axiom/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-03",
+        "stage": "Series A",
+        "amountUsdM": 200,
+        "postValuationUsdB": 1.6,
+        "leads": "Menlo Ventures (lead, Matt Kraning on board); Madrona, Greycroft, B Capital, Toyota Ventures, Triatomic",
+        "source": "https://menlovc.com/perspective/ai-will-write-all-the-code-mathematics-will-prove-it-works/",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 264,
+      "asOf": "2026-10",
+      "source": "https://axiommath.ai/fundraising/",
+      "singleSource": false,
+      "note": "Equity: $64M seed + $200M Series A. LinkedIn also lists $264M. No round since Mar 2026."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 66,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/axiommath",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived (+20% MoM). Primary data points: ~10 employees at the Sep 2025 launch (Forbes, https://www.forbes.com/sites/rashishrivastava/2025/09/30/meet-the-stanford-dropout-building-an-ai-to-solve-maths-hardest-problems-and-create-harder-ones/), 'over 30 employees' at the Mar 2026 Series A (Menlo)."
+    },
+    "talentSignals": [
+      "Menlo names the team: CTO Shubho Sengupta (ex-FAIR research director, NVIDIA GPU libraries), François Charton (first to apply transformers to math), Ken Ono (left a tenured UVA professorship / Vice Provost role to join full-time) (https://menlovc.com/perspective/ai-will-write-all-the-code-mathematics-will-prove-it-works/)."
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount",
+      "rounds(seed lead)"
+    ],
+    "notes": "Correction: the seed lead was B Capital (confirmed by B Capital and by Carina Hong's launch post). The seed was announced Sep 30, 2025, so it is dated 2025-09, not 2025-10. ARR: no products sold yet; the Series A is meant to 'bring initial products to market' (Menlo), so ARR is not disclosed. SEC Form D shows only investor SPVs (GSBackers Axiom Math Fund I/II, Fearless Axiom Math SPV 1, Mar-Apr 2026)."
+  },
+  {
+    "name": "Lila Sciences",
+    "rounds": [
+      {
+        "date": "2025-03",
+        "stage": "Seed",
+        "amountUsdM": 200,
+        "postValuationUsdB": null,
+        "leads": "Flagship Pioneering; General Catalyst, March Capital, ARK",
+        "source": "https://www.revenuememo.com/p/lila-sciences-funding",
+        "singleSource": false
+      },
+      {
+        "date": "2025-09",
+        "stage": "Series A (first close)",
+        "amountUsdM": 235,
+        "postValuationUsdB": null,
+        "leads": "Braidwell, Collective Global (co-leads); Flagship, General Catalyst, March Capital, ARK, ADIA subsidiary and others",
+        "source": "https://sacra.com/c/lila-sciences/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-10",
+        "stage": "Series A extension",
+        "amountUsdM": 115,
+        "postValuationUsdB": 1.3,
+        "leads": "NVentures, Analog Devices, IQT, Braidwell and others",
+        "source": "https://www.reuters.com/business/ai-lab-lila-sciences-tops-13-billion-valuation-with-new-nvidia-backing-2025-10-14/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-06",
+        "stage": "Series B (in talks, not closed)",
+        "amountUsdM": 2000,
+        "postValuationUsdB": 10.5,
+        "leads": "CalPERS and NVentures (anchors, reported); $8.5B pre-money",
+        "source": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 550,
+      "asOf": "2026-10",
+      "source": "https://news.linkedin.com/2026/top-startups-2026",
+      "singleSource": false,
+      "note": "Equity: $200M seed + $350M Series A (Sacra; LinkedIn Top Startups 2026 lists 'Funding: $550M', Oct 2026). Excludes the unclosed Series B. LinkedIn's company profile adds a $0.67M grant (2026)."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 565,
+      "date": "2026-10",
+      "source": "https://www.linkedin.com/pulse/linkedin-top-startups-2026-50-us-companies-rise-linkedin-news-pzfoe",
+      "singleSource": false,
+      "note": "LinkedIn Top Startups 2026 (#28): headcounts there are provided by the companies unless asterisked (not asterisked), rounded to the nearest 5. LinkedIn profile 546; TipRanks 567 (Oct 19, 2026)."
+    },
+    "talentSignals": [
+      "Ranked #28 on LinkedIn Top Startups 2026 (US). Top talent sources: Ginkgo Bioworks (17), Flagship (15), Genentech (13), MIT (9) (https://www.linkedin.com/company/lila-sciences, aggregator)."
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount"
+    ],
+    "notes": "No Series B close as of Oct 22, 2026: AI4S.fyi says no close announced by Lila, CalPERS, NVIDIA or press as of Oct 7. SEC Form Ds show Alumni Ventures SPVs ('AVSF - Lila Sciences 2026' / '2026 Q', first sales Jun 17/24, 2026, <$0.1M each), which is not evidence of a close. No revenue/ARR published; Lila opened its platform to a first customer cohort in Oct 2025."
+  },
+  {
+    "name": "1X Technologies",
+    "rounds": [
+      {
+        "date": "2023-03",
+        "stage": "Series A2",
+        "amountUsdM": 23.5,
+        "postValuationUsdB": 0.21,
+        "leads": "OpenAI Startup Fund; Tiger Global, Alliance VC, Sandwater, Skagerak",
+        "source": "https://embodyvc.com/companies/1x-technologies/",
+        "singleSource": true
+      },
+      {
+        "date": "2024-01",
+        "stage": "Series B",
+        "amountUsdM": 100,
+        "postValuationUsdB": 0.82,
+        "leads": "EQT Ventures; Samsung NEXT, OpenAI Startup Fund, Tiger Global, Nistad Group",
+        "source": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+        "singleSource": false
+      },
+      {
+        "date": "2025-09",
+        "stage": "Unnamed round (sought $1B at $10B+; reportedly raised 'less than half'; amount and valuation undisclosed)",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://techstartups.com/2026/08/27/softbank-in-talks-to-buy-a-majority-stake-in-humanoid-robot-startup-1x-at-6-billion-valuation/",
+        "singleSource": true
+      },
+      {
+        "date": "2026-08",
+        "stage": "Majority-stake purchase (in talks, not closed)",
+        "amountUsdM": null,
+        "postValuationUsdB": 6.0,
+        "leads": "SoftBank (reported)",
+        "source": "https://www.reuters.com/legal/transactional/softbank-talks-buy-stake-1x-6-billion-valuation-information-reports-2026-08-27/",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 125,
+      "asOf": "2026-10",
+      "source": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+      "singleSource": false,
+      "note": "Company: 'raised over $125 million' through the Jan 2024 Series B (primary ~$123.5M, plus secondary). This EXCLUDES the fall-2025 raise, which The Information says came in at less than half of a $1B target (amount undisclosed), so the true total is likely materially higher. Trackers: EmbodyVC $136.5M, Tracxn $126M."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 1131,
+      "date": "2026-09",
+      "source": "https://tracxn.com/d/companies/1x/__LHsrSyi_fXuqm41b2urwiNEhmn9qEjCh1Md-w2ep8KE",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "Tracxn and LinkedIn-derived data agree on 1,131 (Sep 30, 2026; +58% YoY). Caution: LinkedIn's country breakdown only sums to ~435 profiles, so the figure may include factory/contract staff. Company-sourced floor: the Hayward NEO Factory alone has '200+ team members' (https://www.1x.tech/discover/neo-factory)."
+    },
+    "talentSignals": [
+      "LinkedIn talent sources: Tesla (38), Skydio (14), Meta (13), Apple (12), SpaceX (6), Physical Intelligence (6). Alumni go to Rhoda AI (7), Tesla (6), Figure (6) (https://linkedin.com/company/1x-technologies, aggregator)."
+    ],
+    "notDisclosed": [
+      "arr",
+      "rounds(fall-2025 amount/valuation)"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "headcount",
+      "rounds"
+    ],
+    "notes": "Revenue: Tracxn says annual revenue was $1-10M (FY2024) and LinkedIn data shows SEK 11.5M (~$1.1M; likely the Norwegian entity's filed accounts). Both are aggregator, pre-NEO figures, not ARR. NEO had 10,000+ pre-orders in its first week (The Information via Digital Today), but no verified customer deliveries as of Aug 2026. SoftBank majority-stake talks at ~$6B: no update since Aug 27. No US Form D under '1X Technologies'."
+  },
+  {
+    "name": "Genesis AI",
+    "rounds": [
+      {
+        "date": "2025-07",
+        "stage": "Seed",
+        "amountUsdM": 105,
+        "postValuationUsdB": null,
+        "leads": "Eclipse, Khosla Ventures (co-leads); Bpifrance, HSG, Eric Schmidt, Xavier Niel, Daniela Rus, Vladlen Koltun",
+        "source": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "singleSource": false
+      },
+      {
+        "date": "2026-07",
+        "stage": "New round (in talks, not closed)",
+        "amountUsdM": 500,
+        "postValuationUsdB": 3.5,
+        "leads": "Premji Invest (in discussions to lead); HSG, Northzone. $3B pre-money (~$3.5B post implied)",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-23/robotics-startup-genesis-in-talks-to-raise-about-500-million",
+        "singleSource": false
+      },
+      {
+        "date": "2026-10",
+        "stage": "Strategic minority investment (terms undisclosed)",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": "Nvidia",
+        "source": "https://www.investing.com/news/stock-market-news/nvidia-buys-stakes-in-four-french-tech-startups-les-echos-reports-4947355",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 105,
+      "asOf": "2026-10",
+      "source": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+      "singleSource": false,
+      "note": "Confirmed equity is the $105M seed only. Nvidia's Oct 13, 2026 minority stake (confirmed by Genesis) has an undisclosed amount. The ~$500M round is not confirmed closed."
+    },
+    "arr": null,
+    "notDisclosed": [
+      "latestValuation",
+      "arr",
+      "rounds(Nvidia stake amount)"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM"
+    ],
+    "notes": "Full public round history: seed (Jul 2025) -> $500M talks (Jul 2026, Bloomberg; not closed) -> Nvidia strategic stake (Oct 2026, terms undisclosed per Reuters/Les Echos/Trending Topics). The seed valuation was never disclosed, and the only valuation number is the $3B pre-money from unclosed talks, so latestValuation is not disclosed. No Form D under 'Genesis AI'. Co-founder Théophile Gervet is ex-Mistral (Trending Topics). No revenue disclosed."
+  },
+  {
+    "name": "Merge Labs",
+    "rounds": [
+      {
+        "date": "2025-01",
+        "stage": "Spinout/formation (from Forest Neurotech; no amount disclosed)",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": "Anti Fund, Forest Neurotech (per Dealroom)",
+        "source": "https://app.dealroom.co/companies/merge_labs_1",
+        "singleSource": true
+      },
+      {
+        "date": "2026-01",
+        "stage": "Seed",
+        "amountUsdM": 252,
+        "postValuationUsdB": 0.85,
+        "leads": "OpenAI (largest check); Bain Capital, Interface Fund, Fifty Years, Gabe Newell",
+        "source": "https://www.bloomberg.com/news/articles/2026-01-15/altman-s-merge-raises-252-million-to-link-brains-and-computers",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 252,
+      "asOf": "2026-10",
+      "source": "https://www.bloomberg.com/news/articles/2026-01-15/altman-s-merge-raises-252-million-to-link-brains-and-computers",
+      "singleSource": false,
+      "note": "Equity (seed). TechCrunch reported ~$250M at $850M. LinkedIn also lists $252M. No round since."
+    },
+    "arr": null,
+    "headcount": {
+      "value": 56,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/merge-lab",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived (52 in US); 18 active job postings. Dealroom gives a 51-200 range."
+    },
+    "xPresence": "Company handle is @merge (verified org, links merge.io): 8,651 followers, only 2 posts, inactive since the Jan 15, 2026 launch. Sam Altman @sama ~6.36M.",
+    "xPosts": [
+      {
+        "url": "https://x.com/merge/status/2011821719204528169",
+        "author": "merge",
+        "date": "2026-01-15",
+        "likes": 1033,
+        "views": 302451,
+        "summary": "'Hello world! We are Merge Labs - a research lab with the long-term mission of bridging biological and artificial intelligence...' launch post."
+      }
+    ],
+    "talentSignals": [
+      "LinkedIn talent sources: Arbor Neuroscience (10), Tools for Humanity (4), Caltech (4), Mammoth Biosciences (3), Altos Labs (3) (https://linkedin.com/company/merge-lab, aggregator)."
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount",
+      "xPosts",
+      "xPresence"
+    ],
+    "notes": "Correction: the earlier note said no verified company X handle existed. @merge is the official account (fxtwitter profile description and website match merge.io). Round history: Forest Neurotech spinout (Jan 2025, no amount) plus the $252M seed. A CGF2021 SPV Form D ('MERGE LABS Sep 2025', first sale 2025-11-28, $0.62M, 13 investors) shows investor SPV demand ahead of the seed. Pre-product research lab with no revenue."
+  },
+  {
+    "name": "comma.ai",
+    "rounds": [
+      {
+        "date": "2016-03",
+        "stage": "Seed",
+        "amountUsdM": 3.1,
+        "postValuationUsdB": null,
+        "leads": "Andreessen Horowitz",
+        "source": "https://www.sec.gov/Archives/edgar/data/1670468/000167046816000001/primary_doc.xml",
+        "singleSource": false,
+        "note": "Form D: $3.1M offering, $2.8M sold at filing, first sale 2016-03-14"
+      },
+      {
+        "date": "2018-03",
+        "stage": "Series A",
+        "amountUsdM": 5,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://www.sec.gov/Archives/edgar/data/1670468/000167046818000002/primary_doc.xml",
+        "singleSource": false,
+        "note": "Form D: $5.0M sold, first sale 2018-03-26, 1 investor"
+      },
+      {
+        "date": "2021-11",
+        "stage": "Venture",
+        "amountUsdM": 10,
+        "postValuationUsdB": null,
+        "leads": "7 unnamed investors",
+        "source": "https://www.sec.gov/Archives/edgar/data/1670468/000167046821000001/primary_doc.xml",
+        "singleSource": false,
+        "note": "Form D: $9.99986M sold, first sale 2021-11-09, 7 investors"
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 18.1,
+      "asOf": "2025-05",
+      "source": "https://www.reddit.com/r/Comma_ai/comments/1kie7e9/why_is_comma_funding_so_low_vs_competitors/",
+      "singleSource": false,
+      "note": "Equity. George Hotz (u/imgeohot, May 9, 2025): 'comma has raised $18.1M'. SEC Form D filings sum to ~$17.8-18.1M (2016: $2.8M sold of a $3.1M offering; 2018: $5M; 2021: $10M). No raise since 2021."
+    },
+    "arr": null,
+    "talentSignals": [
+      "Federal probe: Business Insider (Sep 2026) reports a federal investigation into comma's driver-assist tech after fatal crashes, covering comma three/3X/four and openpilot forks (https://www.businessinsider.com/comma-ai-driving-tech-faces-federal-probe-after-fatal-crashes-2026-9)."
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "rounds(SEC-verified amounts)"
+    ],
+    "notes": "No ARR or annual revenue disclosed. Hotz said cumulative lifetime revenue was $35.1M vs $18.1M raised (May 2025, Reddit), and comma's blog says it has been profitable from shop sales since its last raise (https://blog.comma.ai/refactoring-for-growth/). Both are cumulative or qualitative, not ARR. comma four launched Nov 2025 at $999 (300+ cars). The 2016 round was a16z-led per SDBJ; the Form D shows one investor."
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Snorkel AI",
+    "rounds": [
+      {"date": "2019-06", "stage": "Seed", "amountUsdM": 3, "postValuationUsdB": null, "leads": "Greylock, GV (co-led)", "source": "https://www.forbes.com/sites/igorbosilkovski/2020/07/14/meet-the-stanford-ai-lab-alums-that-raised-15-million-to-optimize-machine-learning/", "singleSource": false},
+      {"date": "2019-10", "stage": "Series A", "amountUsdM": 12, "postValuationUsdB": null, "leads": "Greylock", "source": "https://www.forbes.com/sites/igorbosilkovski/2020/07/14/meet-the-stanford-ai-lab-alums-that-raised-15-million-to-optimize-machine-learning/", "singleSource": false},
+      {"date": "2021-04", "stage": "Series B", "amountUsdM": 35, "postValuationUsdB": null, "leads": "Lightspeed Venture Partners", "source": "https://snorkel.ai/blog/introducing-application-studio/", "singleSource": false},
+      {"date": "2021-08", "stage": "Series C", "amountUsdM": 85, "postValuationUsdB": 1.0, "leads": "Addition, BlackRock", "source": "https://www.globenewswire.com/news-release/2021/08/09/2277249/0/en/Snorkel-AI-Raises-85-Million-at-1-Billion-Valuation-for-Data-Centric-AI.html", "singleSource": false},
+      {"date": "2025-05", "stage": "Series D", "amountUsdM": 100, "postValuationUsdB": 1.3, "leads": "Addition", "source": "https://www.businesswire.com/news/home/20250529083998/en/Snorkel-AI-Announces-%24100-Million-Series-D-and-Expanded-Platform-to-Power-Next-Phase-of-AI-with-Expert-Data", "singleSource": false},
+      {"date": "2026-09", "stage": "Series E", "amountUsdM": 350, "postValuationUsdB": 3.5, "leads": "Insight Partners, S32", "source": "https://snorkel.ai/blog/data-2-0-and-the-research-era-of-ai-data/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 585, "asOf": "2026-09", "source": "https://www.globenewswire.com/news-release/2021/08/09/2277249/0/en/Snorkel-AI-Raises-85-Million-at-1-Billion-Valuation-for-Data-Centric-AI.html", "singleSource": false, "note": "Equity only. $135M through Series C (company release, Aug 2021), plus the $100M Series D and $350M Series E. Tracxn shows $588M across 8 rounds (https://tracxn.com/d/companies/snorkel-ai/__-dGw6Pyn7pLIBKs5yfyA5FUaeAHPmFQySQ2J9Esr41U/funding-and-investors). Small strategic tranches (QBE in Jan 2024, Accenture in Aug 2025) were undisclosed and are not included."},
+    "headcount": {"value": 1464, "date": "2026-09", "source": "https://tracxn.com/d/companies/snorkel-ai/__-dGw6Pyn7pLIBKs5yfyA5FUaeAHPmFQySQ2J9Esr41U", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn-derived count, which likely includes data-as-a-service expert contractors. Revelio Labs shows 963 as of March 2026 (https://www.reveliolabs.com/companies/snorkel-ai/employees). The company has not published a headcount."},
+    "research": "Unchanged from the base file: Snorkel OSS / weak-supervision lineage, 250+ papers by the company's count, and an Open Benchmarks Grants program (expanded to $30M on 2026-10-07).",
+    "researchSources": ["https://benchmarks.snorkel.ai/frontier-ai-is-accelerating-open-benchmarks-need-to-keep-up/"],
+    "xPresence": "@SnorkelAI has 18.3k followers and @ajratner 7.6k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [
+      "Series E proceeds are earmarked for hiring researchers and engineers and for expanding enterprise and government operations (https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "Rebuilt the full round history from company and press releases. Seed and Series A are from Forbes (2020): $3M seed in June 2019 and $12M Series A in October 2019, $15M combined. Greylock's post says it co-led the seed with GV and led the A. Headcount is only available from aggregators."
+  },
+  {
+    "name": "Mercor",
+    "rounds": [
+      {"date": "2024-01", "stage": "Seed", "amountUsdM": 3.6, "postValuationUsdB": null, "leads": "General Catalyst", "source": "https://www.mercor.com/blog/1/", "singleSource": false},
+      {"date": "2024-09", "stage": "Series A", "amountUsdM": 30, "postValuationUsdB": 0.25, "leads": "Benchmark (Victor Lazarte, Bill Gurley)", "source": "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html", "singleSource": false},
+      {"date": "2025-02", "stage": "Series B", "amountUsdM": 100, "postValuationUsdB": 2, "leads": "Felicis", "source": "https://www.cnbc.com/2025/10/27/ai-hiring-startup-mercor-funding.html", "singleSource": false},
+      {"date": "2025-10", "stage": "Series C", "amountUsdM": 350, "postValuationUsdB": 10, "leads": "Felicis", "source": "https://www.cnbc.com/2025/10/27/ai-hiring-startup-mercor-funding.html", "singleSource": false},
+      {"date": "2026-07", "stage": "Series D (in talks, not closed)", "amountUsdM": 500, "postValuationUsdB": 20, "leads": "General Catalyst (reported in talks to lead)", "source": "https://www.bloomberg.com/news/articles/2026-07-09/ai-training-startup-mercor-discusses-20-billion-valuation", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 483.6, "asOf": "2026-10", "source": "https://research.contrary.com/company/mercor", "singleSource": false, "note": "Equity only, through the Series C: $3.6M + $30M + $100M + $350M. Crustdata shows $484M. The ~$500M Series D at ~$20B is still unconfirmed and not included."},
+    "headcount": {"value": 400, "date": "2026-10", "source": "https://www.mercor.com/newsroom/", "singleSource": true, "note": "The company newsroom says '400+ employees across San Francisco, New York, and London'. An insider estimate during the Oct 2026 cuts was ~650 (https://sf.gazetteer.co/mercor-cuts-at-least-50-employees-across-multiple-teams). The 30k+ contractor pool is not headcount."},
+    "research": "Mercor Research launched 2026-10-08 (Edward J. Hu, Minyang Tian, Victor Barres, Bertie Vidgen). It runs the APEX / APEX-Agents benchmarks.",
+    "researchSources": ["https://www.mercor.com/blog/why-mercor-is-building-a-research-team/"],
+    "xPresence": "@BrendanFoody has 30.5k followers and @mercor 25.8k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "Correction: the base file lists the Series A lead as null and sources the A to a blog. The lead was Benchmark (company PR and Reuters, 2024-09-19). Added the $3.6M seed (General Catalyst) from Mercor's own blog. Headcount now uses the company's own '400+' figure."
+  },
+  {
+    "name": "Goodfire",
+    "rounds": [
+      {"date": "2024-08", "stage": "Seed", "amountUsdM": 7, "postValuationUsdB": null, "leads": "Lightspeed", "source": "https://siliconangle.com/2025/04/18/ai-interpretability-startup-goodfire-raises-50m-funding/", "singleSource": false},
+      {"date": "2025-04", "stage": "Series A", "amountUsdM": 52, "postValuationUsdB": null, "leads": "Menlo Ventures", "source": "https://www.sec.gov/Archives/edgar/data/2070813/000207081325000001/primary_doc.xml", "singleSource": false},
+      {"date": "2026-02", "stage": "Series B", "amountUsdM": 150, "postValuationUsdB": 1.25, "leads": "B Capital", "source": "https://www.goodfire.com/blog/our-series-b", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 209, "asOf": "2026-02", "source": "https://www.sec.gov/Archives/edgar/data/2070813/000207081326000001/primary_doc.xml", "singleSource": false, "note": "Equity only. $7M seed, $52.0M Series A (Form D shows $52,029,991 sold, first sale 2025-04-02), and $150.0M Series B (Form D shows $149,999,796 sold, first sale 2025-12-17). Tracxn shows $209M and LinkedIn data shows $207M. The company says 'more than $200M'."},
+    "headcount": {"value": 73, "date": "2026-09", "source": "https://tracxn.com/d/companies/goodfire/__RxGbfOZ24VgU9UPjz3IKxfjG3-vZPRkGPaVMW0uCmLE", "singleSource": true, "sourceQuality": "aggregator", "note": "Crustdata shows 67 (Sep 2026). Goodfire's Greenhouse job pages also state '73 employees' (https://job-boards.greenhouse.io/goodfire/jobs/5420138008)."},
+    "research": "Unchanged; see base and refresh files (Neural Networks Are Already Clean essay, EVEE, activation monitors, Silico).",
+    "researchSources": [],
+    "xPresence": "@GoodfireAI has 28.2k followers (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "Correction: the SEC Form D puts the Series A at $52.0M; the company blog says $50M. The Series B's first sale was 2025-12-17 but it was announced 2026-02-05. Revenue is not public. CEO Eric Ho describes a top-down enterprise motion with contracts 'one to two orders of magnitude larger' than typical SaaS deals but gives no figure. Customers named: Microsoft, Mayo Clinic, Arc Institute, Prima Mente, Rakuten."
+  },
+  {
+    "name": "Deel",
+    "rounds": [
+      {"date": "2020-05", "stage": "Series A", "amountUsdM": 14, "postValuationUsdB": null, "leads": "Andreessen Horowitz", "source": "https://www.cnbc.com/2020/05/21/remote-work-andreessen-horowitz-leads-14-million-round-in-deel-payroll-start-up.html", "singleSource": false},
+      {"date": "2020-09", "stage": "Series B", "amountUsdM": 30, "postValuationUsdB": null, "leads": "Spark Capital", "source": "https://techcrunch.com/2020/09/09/deel-nabs-30m-more-for-payroll-compliance-and-other-tools-to-run-global-workforces/", "singleSource": false},
+      {"date": "2021-04", "stage": "Series C", "amountUsdM": 156, "postValuationUsdB": 1.25, "leads": "YC Continuity (co-led by a16z, Spark Capital)", "source": "https://www.businesswire.com/news/home/20210421005590/en/Deel-the-Leading-Platform-for-Global-Hiring-and-Payments-Raises-%24156m-Reaching-Unicorn-Status", "singleSource": false},
+      {"date": "2021-10", "stage": "Series D", "amountUsdM": 425, "postValuationUsdB": 5.5, "leads": "Coatue", "source": "https://techcrunch.com/2021/10/18/with-customers-like-coinbase-and-shopify-remote-hiring-startup-deel-raises-425m-at-a-5-5b-valuation/", "singleSource": false},
+      {"date": "2022-05", "stage": "Series D extension", "amountUsdM": 50, "postValuationUsdB": 12, "leads": null, "source": "https://www.axios.com/2022/05/11/deel-venture-capital-funding", "singleSource": false},
+      {"date": "2025-10", "stage": "Series E", "amountUsdM": 300, "postValuationUsdB": 17.3, "leads": "Ribbit Capital (co-led with a16z, Coatue)", "source": "https://www.deel.com/blog/new-investment-valuation/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 981, "asOf": "2025-10", "source": "https://techcrunch.com/2021/10/18/with-customers-like-coinbase-and-shopify-remote-hiring-startup-deel-raises-425m-at-a-5-5b-valuation/", "singleSource": false, "note": "Equity only. $631M after the Series D (TechCrunch), plus $50M (May 2022, Axios) and $300M (Series E). Tracxn shows $986M and Airframe $983.2M. Pre-Series A YC/seed money is included in the $48M 'total to date' at the Series B."},
+    "headcount": {"value": 7000, "date": "2026-09", "source": "https://x.com/Bouazizalex/status/2102127902510944722", "singleSource": true, "note": "CEO's Akai launch post (2026-09-21) refers to 'our 7000 person team'. The April 2026 CEO letter said 6,500+ (https://www.deel.com/deel-works/ceo-letter-global-hiring-alex-bouaziz/). LinkedIn-based aggregators show ~9,640–9,730 (Tracxn 9,671 on 2026-09-30; TipRanks 9,642 on 2026-10-19), likely including contractors and EOR-adjacent profiles."},
+    "research": "No papers or OSS of note. On 2026-10-07 Deel posted a search for its first Chief Scientist to set a research and benchmark agenda for its AI products (Akai agent platform). Its engineering team runs an internal npm registry. Research output is still minimal.",
+    "researchSources": ["https://www.linkedin.com/posts/alexbouaziz_were-hiring-deels-first-chief-scientist-activity-7513561480882085890-NGYg"],
+    "xPresence": "@Bouazizalex has 451.4k followers (fxtwitter via post lookup, 2026-10-22) and @deel 32.9k. The Akai launch post reached ~2.0M views and a Feb 2026 'remote $10B company' article ~5.1M views (per a profile mirror, not verified by ID).",
+    "xPosts": [
+      {"url": "https://x.com/Bouazizalex/status/2102127902510944722", "author": "Bouazizalex", "date": "2026-09-21", "likes": 2286, "views": 2049761, "summary": "Launches Akai (akai.run) as an external product. Claims Deel added >$140M ARR in 90 days without adding headcount by automating ~600 FTE-equivalents with 8k+ agents, with revenue per employee up from $130K to $215K."},
+      {"url": "https://x.com/Bouazizalex/status/2108213431983542458", "author": "Bouazizalex", "date": "2026-10-08", "likes": 143, "views": 13464, "summary": "Deel named official HR and payroll partner of the Golden State Warriors."}
+    ],
+    "talentSignals": [
+      "2026-10-07: CEO is recruiting Deel's first Chief Scientist, reporting directly to him (https://www.linkedin.com/posts/alexbouaziz_were-hiring-deels-first-chief-scientist-activity-7513561480882085890-NGYg)",
+      "Aug 2026: Acquired Clarity (deepfake and identity-fraud AI team), Deel's 15th acquisition; Calcalist put the price at $40–50M (https://disrupts.disruptsmedia.com/cybersecurity/deel-and-clarity-hiring-fraud-age-deepfakes)"
+    ],
+    "scoreAdjustments": {"posting": 7},
+    "scoreAdjustmentReason": "The CEO has ~451k followers, and his 2026-09-21 Akai launch post reached ~2.05M views (verified via fxtwitter). That is founder virality above the 'meaningful traction' tier, so posting goes from 6 to 7.",
+    "notDisclosed": ["research"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Full round history rebuilt from primary releases and press. The May 2022 $50M at $12B (Axios) has no named lead. Research is listed as not disclosed because Deel has no papers or meaningful OSS; the Chief Scientist search is the only research signal. The CEO's Akai post also claims '>$140M ARR in 90 days'; that is a growth claim, not a new ARR level, and was not used to change ARR."
+  },
+  {
+    "name": "Hippocratic AI",
+    "rounds": [
+      {"date": "2023-05", "stage": "Seed", "amountUsdM": 67, "postValuationUsdB": null, "leads": "General Catalyst, Andreessen Horowitz (co-led)", "source": "https://www.globenewswire.com/news-release/2024/03/18/2848237/0/en/hippocratic-ai-raises-53-million-series-a-at-a-500-million-valuation.html", "singleSource": false},
+      {"date": "2024-03", "stage": "Series A", "amountUsdM": 53, "postValuationUsdB": 0.5, "leads": "Premji Invest, General Catalyst (co-led)", "source": "https://www.globenewswire.com/news-release/2024/03/18/2848237/0/en/hippocratic-ai-raises-53-million-series-a-at-a-500-million-valuation.html", "singleSource": false},
+      {"date": "2025-01", "stage": "Series B", "amountUsdM": 141, "postValuationUsdB": 1.64, "leads": "Kleiner Perkins", "source": "https://www.businesswire.com/news/home/20250109643850/en/Hippocratic-AI-Completes-%24141MM-Series-B-Financing-Round-Led-by-Kleiner-Perkins-Valuing-the-Company-at-%241.64B", "singleSource": false},
+      {"date": "2025-11", "stage": "Series C", "amountUsdM": 126, "postValuationUsdB": 3.5, "leads": "Avenir Growth", "source": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 444, "asOf": "2026-10", "source": "https://finance.yahoo.com/healthcare/articles/hippocratic-ai-adds-seven-senior-141900644.html", "singleSource": false, "note": "Company figure from the 2026-10-19 release. Cumulative milestones: $120M after the Series A (Mar 2024 release), $278M after the Series B (Jan 2025 release), and ~$404M after the Series C. That implies ~$40M of 2026 funding with no announced round, terms, or valuation."},
+    "headcount": {"value": 342, "date": "2026-03", "source": "https://www.reveliolabs.com/companies/hippocratic-ai/employees", "singleSource": true, "sourceQuality": "aggregator", "note": "Aggregators disagree: Agraph ~260 (Sep 2026), Vertical Velocity 243 (Sep 2026), GetLatka 235 (Nov 2025, LinkedIn). Treat as roughly 250–350."},
+    "research": "Unchanged (Polaris constellation architecture, patent, safety technical reports).",
+    "researchSources": [],
+    "xPresence": "@munjalshah has 2.4k followers and @hippocraticai 1.7k (fxtwitter, 2026-10-22). Quiet on X; the company communicates mainly through LinkedIn (79k followers) and podcasts.",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr", "xPosts"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "Correction: the seed was $67M in total, not $50M. The $50M launch round (May 2023) was later topped up: the Series A release says $53M brought total funding to $120M, and Premji's post says '$67M seed'. Round leads are now filled from primary releases (the base file had null for seed, A, and B). ARR is not disclosed; aggregator estimates ($15.8M GetLatka, $25M Vertical Velocity, ~$50M Clink) disagree and were not used. No recent company or founder X post with meaningful traction was found."
+  },
+  {
+    "name": "Bespoke Labs",
+    "rounds": [
+      {"date": "2026-07", "stage": "Seed (announced Jul 2026; closed earlier, date undisclosed)", "amountUsdM": 8.25, "postValuationUsdB": null, "leads": "8VC", "source": "https://bespokelabs.ai/blog/bespoke-labs-raises-40m-to-build-environments-that-enable-reliable-agents", "singleSource": false},
+      {"date": "2026-07", "stage": "Series A", "amountUsdM": 31.3, "postValuationUsdB": null, "leads": "Wing VC", "source": "https://www.wing.vc/content/investing-in-bespoke-ai", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 40, "asOf": "2026-07", "source": "https://finance.yahoo.com/technology/ai/articles/bespoke-labs-announces-40m-build-130100239.html", "singleSource": false, "note": "Company Business Wire release: $40M across seed and Series A. SiliconANGLE puts the A at $31.75M; Wing says $31.3M."},
+    "headcount": {"value": 30, "date": "2026-07", "source": "https://www.bizjournals.com/sanjose/news/2026/07/06/bespoke-labs-40m-funding-mountain-view-ai.html", "singleSource": true, "note": "Silicon Valley Business Journal: the company plans to grow from 30 to about 60. TNW gave ~40. LinkedIn-derived data shows 61 profiles in Oct 2026, including contract task creators in India and Nigeria (aggregator)."},
+    "research": "Unchanged and strong: OpenThoughts (ICLR), Curator, GEPA, Terminal-Bench contributions, AutoResearchExam (29 tasks, 2026-09-09), and Nimble-v4 decision models (2026-10-13).",
+    "researchSources": ["https://www.rl-list.com/vendors/bespoke-labs"],
+    "xPresence": "@AlexGDimakis 25.5k followers, @madiator 17.5k, @bespokelabsai 3.6k (fxtwitter, 2026-10-22).",
+    "xPosts": [
+      {"url": "https://x.com/bespokelabsai/status/2074134901725814936", "author": "bespokelabsai", "date": "2026-07-06", "likes": 144, "views": 101296, "summary": "Announces the $40M investment (Wing VC, Mayfield, 8VC, The House Fund; angels including Jeff Dean) to make AI agents reliable."}
+    ],
+    "talentSignals": [
+      "Angel investors include Jeff Dean and unnamed researchers from Anthropic, OpenAI, and Meta (https://bespokelabs.ai/blog/bespoke-labs-raises-40m-to-build-environments-that-enable-reliable-agents)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation", "arr"],
+    "filled": ["totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Valuation is not disclosed in the company release, the Wing post, or press. Revenue is also not disclosed: Wing says only that revenue 'has compounded rapidly over the past year, led by frontier-lab contracts'. No Form D was found in an EDGAR full-text search."
+  },
+  {
+    "name": "Doppel",
+    "rounds": [
+      {"date": "2022-05", "stage": "Seed", "amountUsdM": 5, "postValuationUsdB": null, "leads": null, "source": "https://linkedin.com/company/doppelhq", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2023-12", "stage": "Series A", "amountUsdM": 18.8, "postValuationUsdB": null, "leads": null, "source": "https://www.sec.gov/Archives/edgar/data/2006522/000200652224000001/primary_doc.xml", "singleSource": false},
+      {"date": "2025-05", "stage": "Series B", "amountUsdM": 35, "postValuationUsdB": 0.205, "leads": "Bessemer Venture Partners", "source": "https://www.doppel.com/company/press-releases/doppel-raises-35-million-series-b", "singleSource": false},
+      {"date": "2025-11", "stage": "Series C", "amountUsdM": 70, "postValuationUsdB": 0.6, "leads": "Bessemer Venture Partners", "source": "https://www.doppel.com/company/press-releases/doppel-raises-series-c-to-meet-rising-demand-for-ai-driven-social-engineering-defense", "singleSource": false},
+      {"date": "2026-09", "stage": "Strategic (Series C-II per CB Insights)", "amountUsdM": null, "postValuationUsdB": null, "leads": "MUFG Innovation Partners", "source": "https://www.doppel.com/company/press-releases/mufg-innovation-partners-becomes-strategic-investor-doppel", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 124, "asOf": "2025-11", "source": "https://www.doppel.com/company/press-releases/doppel-raises-series-c-to-meet-rising-demand-for-ai-driven-social-engineering-defense", "singleSource": false, "note": "Company figure after the Series C, equity only. Excludes the undisclosed MUFG strategic investment (Sep 2026). CB Insights also shows $124M."},
+    "headcount": {"value": 415, "date": "2026-10", "source": "https://linkedin.com/company/doppelhq", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn-derived count (+83.6% YoY). The base file's 200 (Mar 2026 company release) is the last company figure. In Sep 2026 Doppel said it had six offices and plans for 25 staff in Toronto."},
+    "research": "Unchanged: product blog output only. The latest is Risk Signal Ingestion for Human Risk Management (2026-10-13).",
+    "researchSources": ["https://securityboulevard.com/2026/10/introducing-risk-signal-ingestion-bring-real-world-security-signals-into-human-risk-management/"],
+    "xPresence": "@DoppelHQ has 3.7k followers (fxtwitter, 2026-10-22). Quiet.",
+    "xPosts": [],
+    "talentSignals": [
+      "2026-09-03: Opened a Toronto engineering hub (sixth office: SF, NYC, Austin, Tokyo, Toronto, London) (https://www.doppel.com/company/press-releases/doppel-opens-first-canadian-office-meet-demand-social-engineering-defense)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr", "xPosts"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "Correction: the Series A Form D shows $18.85M sold with first sale 2023-12-21 (announced Jan 2024; the base file said 2024-01). The Series C Form D shows $61.2M sold (first sale 2025-11-07) against the announced $70M; the remainder was likely closed separately. ARR is not disclosed; the company gives only '3x ARR growth YoY' (Nov 2025) and '300+ customers' (Sep 2026). No Doppel X post with meaningful traction was found."
+  },
+  {
+    "name": "Turing",
+    "rounds": [
+      {"date": "2020-08", "stage": "Seed", "amountUsdM": 14, "postValuationUsdB": null, "leads": "Foundation Capital", "source": "https://techcrunch.com/2020/08/25/turing-raises-14m-to-help-source-vet-place-and-manage-remote-developers-in-tech-jobs/", "singleSource": false},
+      {"date": "2020-12", "stage": "Series B", "amountUsdM": 32, "postValuationUsdB": null, "leads": "WestBridge Capital", "source": "https://www.prnewswire.com/news-releases/fast-growing-remote-work-platform-turingcom-announces-32-million-series-b-financing-301190362.html", "singleSource": false},
+      {"date": "2021-12", "stage": "Series D", "amountUsdM": 87, "postValuationUsdB": 1.1, "leads": "WestBridge Capital", "source": "https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html", "singleSource": false},
+      {"date": "2025-03", "stage": "Series E", "amountUsdM": 111, "postValuationUsdB": 2.2, "leads": "Khazanah Nasional", "source": "https://www.businesswire.com/news/home/20250306942806/en/Turing-Gears-Up-to-Power-Next-Wave-of-AGI-with-%24111-Million-in-Series-E", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 225, "asOf": "2025-03", "source": "https://www.businesswire.com/news/home/20250306942806/en/Turing-Gears-Up-to-Power-Next-Wave-of-AGI-with-%24111-Million-in-Series-E", "singleSource": false, "note": "Company figure: the Series E 'brings Turing's total funding to $225 million'. The disclosed round sizes sum to ~$244M (the Dec 2021 release said 'over $140M' after the D), and aggregators show $249–270M. The gap is unexplained (the Series E was described as '$111M in committed capital'). A SAFE at a $4B cap was opened after the Series D (Dec 2021); its amount was never disclosed."},
+    "headcount": {"value": 7069, "date": "2026-09", "source": "https://research.crustdata.com/company/turing", "singleSource": true, "sourceQuality": "aggregator", "note": "Treat with caution. This is a LinkedIn-profile count that includes contract engineers who list Turing; Unify shows 5,894 observed profiles (Jul 2026). In March 2025 a Turing investor told TechCrunch the actual employee count is 'in the hundreds' (https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/)."},
+    "research": "The Turing Frontier Research Lab is releasing benchmarks: CEO Bench (2026-09-08; 500+ tasks on a simulated company, 40 L2 tasks scored, best model 41%), KernelQuest (2026-09-08; 100 Triton GPU-kernel tasks, open-sourced with a leaderboard), and Behavior2Code (Oct 2026). It also runs the ALAN fine-tuning/RL platform. No peer-reviewed paper count verified.",
+    "researchSources": ["https://x.com/turingcom/status/2097332039620133081", "https://x.com/turingcom/status/2097356811284455643", "https://www.jxxy.net/ai/articles/turingcom-2097356811284455643/"],
+    "xPresence": "@turingcom has 17.6k followers and CEO @Jonsid 8.2k (fxtwitter, 2026-10-22). The CEO Bench launch post drew ~919k views but only 39 likes, which suggests promoted reach.",
+    "xPosts": [
+      {"url": "https://x.com/turingcom/status/2097332039620133081", "author": "turingcom", "date": "2026-09-08", "likes": 39, "views": 919162, "summary": "Announces CEO Bench, an evaluation of whether frontier agents can do long-horizon financial and operational company work, built on a simulated virtual company."},
+      {"url": "https://x.com/turingcom/status/2097356811284455643", "author": "turingcom", "date": "2026-09-08", "likes": 15, "views": 1985, "summary": "Turing Frontier Research Lab launches KernelQuest, a benchmark for end-to-end GPU kernel optimization by AI agents."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {"research": 4.5, "posting": 2.5},
+    "scoreAdjustmentReason": "Research goes from 3.5 to 4.5: the Frontier Research Lab shipped several open benchmarks in Sep–Oct 2026 (CEO Bench, KernelQuest open-sourced, Behavior2Code), above 'little public research'. Posting goes from 1.5 to 2.5: the base file said no company handle could be confirmed, but @turingcom (17.6k) and CEO @Jonsid (8.2k) exist. Launch views look promoted (919k views, 39 likes), so the increase is modest.",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts", "research"],
+    "notes": "Corrections: (1) the Dec 2020 $32M round was a Series B (company release), and Turing appears to have no separately announced Series A or C; (2) the base file has no amount for the Series D, which was $87M led by WestBridge; (3) the base file says @turingcom returns 404 on fxtwitter, but it resolves today (17.6k followers), and the CEO's handle is @Jonsid, not @jonsidd. Sacra estimates ~$350M annualized revenue at end-2025 (aggregator; not used to change ARR)."
+  },
+  {
+    "name": "Superpower",
+    "rounds": [
+      {"date": "2024-05", "stage": "Pre-seed", "amountUsdM": 4, "postValuationUsdB": null, "leads": "Susa Ventures", "source": "https://www.sourcery.vc/p/breaking-superpower-raises-30m-series", "singleSource": false},
+      {"date": "2025-04", "stage": "Series A", "amountUsdM": 30, "postValuationUsdB": null, "leads": "Forerunner", "source": "https://www.forbes.com/sites/dariashunina/2025/04/22/superpower-raises-30m-to-launch-worlds-first-health-super-app/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 0.5, "date": "2026-07", "source": "https://m.dailyhunt.in/news/india/english/entrepreneur+india-epaper-entrprnr/the+ultrawealthy+pay+up+to+100000+a+year+for+elite+healthcare+this+startup+wants+to+bring+it+to+everyone+for+a+fraction+of+the+price-newsid-n721411862", "basis": "reported ('valued at more than $500 million'); no priced round announced", "singleSource": true, "note": "Entrepreneur magazine (Jonathan Small, 2026-07-29; syndicated copy linked). Dealroom summarizes the same article (https://app.dealroom.co/news/feed/startup-valued-at-500m-offers-elite-concierge-healthcare-for-199-a-year). Caplight lists an unannounced 'Series B' on 2026-06-18, which may be the source. Forbes Australia's '$432M' (Apr 2026) appears to be AUD."},
+    "totalRaisedUsdM": {"value": 50, "asOf": "2026-07", "source": "https://m.dailyhunt.in/news/india/english/entrepreneur+india-epaper-entrprnr/the+ultrawealthy+pay+up+to+100000+a+year+for+elite+healthcare+this+startup+wants+to+bring+it+to+everyone+for+a+fraction+of+the+price-newsid-n721411862", "singleSource": false, "note": "Entrepreneur (Jul 2026): 'raised more than $50 million from VC firms' (lower bound). Business Insider (Mar 2026) said $42M to date (https://www.businessinsider.com/inside-superpower-peptide-startup-people-hotter-smarter-2026-3); Caplight shows $51M. Disclosed rounds sum to only $34M, so ~$8–16M came in unannounced rounds (consistent with Caplight's Jun 2026 'Series B')."},
+    "research": "Little formal research. Superpower says it will run clinical trials for BPC-157 and other peptides through Superpower Medical Group of California (no registrations verified), co-develops a long-acting BPC-157 with an Australian biotech, and has acquired peptide IP. No papers or patents found.",
+    "researchSources": ["https://fenado.ai/articles/superpower-to-initiate-clinical-trials-for-bpc-157-and-other-peptides-later-this-year"],
+    "xPresence": "@maxmarchione has 35.3k followers and @superpower 40.7k (fxtwitter, 2026-10-22). The CEO posts several health-science threads a day, often 40k–250k views. The 2026-04-16 'Superpower Peptides' launch passed 1M views (Doomers tracker; post ID not verified).",
+    "xPosts": [
+      {"url": "https://x.com/maxmarchione/status/2109052050931904859", "author": "maxmarchione", "date": "2026-10-10", "likes": 1282, "views": 251764, "summary": "Says US obesity fell from 39.9% (2022) to 36.8% thanks to GLP-1 uptake and predicts obesity becomes rare within a decade."},
+      {"url": "https://x.com/maxmarchione/status/2068031315795185825", "author": "maxmarchione", "date": "2026-06-19", "likes": 304, "views": 43486, "summary": "'Things I believe about peptides': calls them among the most impactful modalities in the next five years and says the majority of Americans will try one."}
+    ],
+    "talentSignals": [
+      "CEO says about a third of the team are former founders and that he spends 30–50 hours a week on recruiting (Entrepreneur, Jul 2026)",
+      "In a Titan interview the CEO says the team is ~100, with 'tens of millions in revenue' and 'on track to do over $100 million in revenue' within 12–18 months (https://www.withtitan.com/founders/max)"
+    ],
+    "scoreAdjustments": {"posting": 6},
+    "scoreAdjustmentReason": "Verified CEO posts regularly reach 40k–250k views, and the peptides launch reportedly passed 1M views, from a 35k-follower founder plus a 40.7k company account (the base file had 24.3k). Posting goes from 5.5 to 6.",
+    "notDisclosed": ["arr"],
+    "filled": ["latestValuation", "rounds", "totalRaisedUsdM", "research", "xPosts"],
+    "notes": "Re-verified key numbers (the GAPS file flagged low confidence). The $30M Series A (Forerunner, Apr 2025) and $4M pre-seed (Susa) are confirmed. ARR has no hard figure: the CEO claims '100x ARR growth' and 'tens of millions in revenue' and earlier reported $800k recurring revenue in Nov 2024 (LinkedIn), so ARR is not disclosed. The 'Series B Jun 2026' (Caplight) has no amount or investors publicly confirmed. Headcount: ~100 per CEO (Titan interview, ~Oct 2026) vs 80 in the base file (Jun 2026)."
+  },
+  {
+    "name": "Datacurve",
+    "rounds": [
+      {"date": "2024-03", "stage": "Seed", "amountUsdM": 2.7, "postValuationUsdB": null, "leads": null, "source": "https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/", "singleSource": false},
+      {"date": "2025-10", "stage": "Series A", "amountUsdM": 15, "postValuationUsdB": null, "leads": "Chemistry (Mark Goldberg)", "source": "https://www.chemistry.vc/post/staying-ahead-of-the-curve", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 17.7, "asOf": "2025-10", "source": "https://uwaterloo.ca/computer-science/news/cs-led-startup-secures-177m-transform-ai-training-data", "singleSource": false, "note": "Equity only: $2.7M seed + $15M Series A. PitchBook also shows $17.7M."},
+    "headcount": {"value": 37, "date": "2026-10", "source": "https://linkedin.com/company/datacurveai", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn-derived (+24% YoY). The base file's 25 came from YC with no date."},
+    "research": "DeepSWE: a 113-task, contamination-resistant long-horizon coding benchmark across 91 repos and 5 languages, with hand-written verifiers. arXiv 2607.07946 (Huang, Lee, Tng, Ge; Jul 2026), leaderboard v1.1 (2026-09-22, 28 models), released on GitHub (datacurve-ai/deep-swe). Frontier model launches have been benchmarked on it.",
+    "researchSources": ["https://arxiv.org/abs/2607.07946", "https://deepswe.datacurve.ai/", "https://deepswe.datacurve.ai/blog/deepswe"],
+    "xPresence": "@datacurve has 11.1k followers and CEO @serenaa_ge 13.5k (fxtwitter, 2026-10-22). DeepSWE leaderboard posts draw hundreds of thousands of views.",
+    "xPosts": [
+      {"url": "https://x.com/datacurve/status/2067781320013668727", "author": "datacurve", "date": "2026-06-19", "likes": 1616, "views": 475854, "summary": "'Claude Fable 5 debuts at #1 on DeepSWE', setting a new state of the art on Datacurve's long-horizon coding benchmark (70% pass@1)."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {"research": 4, "posting": 4},
+    "scoreAdjustmentReason": "Research goes from 2 to 4: the base file said 'no notable public papers', but Datacurve published DeepSWE (arXiv 2607.07946) with an open benchmark and leaderboard used to score frontier models. Posting goes from 3 to 4: a leaderboard post reached ~476k views and 1.6k likes from an 11k-follower account.",
+    "notDisclosed": ["latestValuation", "arr"],
+    "filled": ["totalRaisedUsdM", "xPosts", "research", "headcount"],
+    "notes": "Correction: the seed date is 2024-03 (PitchBook seed round dated 22 Mar 2024, YC W24 era); the base file said 2025. PitchBook shows the seed at $2.2M; TechCrunch says $2.7M, which is used here. Valuation was never disclosed. Revenue: Chemistry says only 'multimillion-dollar contracts with leading AI labs'. The LinkedIn-data $4.5M is an aggregator estimate and was not used. No Form D found."
+  },
+  {
+    "name": "HUMAN Security",
+    "rounds": [
+      {"date": "2013-05", "stage": "Seed", "amountUsdM": 2, "postValuationUsdB": null, "leads": null, "source": "https://app.dealroom.co/companies/white_ops", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2014-06", "stage": "Series A", "amountUsdM": 7, "postValuationUsdB": null, "leads": "Grotech Ventures, Paladin Capital Group", "source": "https://app.dealroom.co/companies/white_ops", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2016-09", "stage": "Series B", "amountUsdM": 20, "postValuationUsdB": null, "leads": "Paladin Capital Group, Grotech Ventures", "source": "https://www.paladincapgroup.com/white-ops-snags-20-mln-series-b/", "singleSource": false},
+      {"date": "2020-05", "stage": "Growth (Goldman Sachs Merchant Banking, ClearSky)", "amountUsdM": null, "postValuationUsdB": null, "leads": "Goldman Sachs Merchant Banking Division", "source": "https://www.businesswire.com/news/home/20200506005155/en/White-Ops-Receives-Investment-from-Goldman-Sachs-Merchant-Banking-Division-and-ClearSky-Security-to-Support-Next-Phase-of-Growth", "singleSource": false},
+      {"date": "2020-12", "stage": "Buyout (control acquisition by Goldman Sachs MBD, ClearSky, NightDragon)", "amountUsdM": null, "postValuationUsdB": null, "leads": "Goldman Sachs Merchant Banking Division", "source": "https://www.businesswire.com/news/home/20201223005385/en/White-Ops-Announces-Acquisition-by-Goldman-Sachs-Merchant-Banking-ClearSky-Security-and-NightDragon", "singleSource": false},
+      {"date": "2022-01", "stage": "Growth", "amountUsdM": 100, "postValuationUsdB": null, "leads": "WestCap, NightDragon", "source": "https://www.alleywatch.com/2022/01/human-bot-mitigation-bot-prevention-attack-non-human-cybersecurity-platform-tamer-hassan/", "singleSource": false},
+      {"date": "2022-07", "stage": "Debt facility ($100M, Blackstone Credit) + all-stock merger with PerimeterX", "amountUsdM": null, "postValuationUsdB": null, "leads": "Blackstone Credit", "source": "https://www.humansecurity.com/newsroom/human-and-perimeterx-unite-in-market-changing-merger-to-safeguard-customers-from-sophisticated-bot-attacks-fraud-and-account-abuse/", "singleSource": false},
+      {"date": "2024-10", "stage": "Growth", "amountUsdM": 50, "postValuationUsdB": null, "leads": "WestCap", "source": "https://www.humansecurity.com/newsroom/platform-expansion-fuel-the-future-of-human/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 183, "asOf": "2024-10", "source": "https://www.alleywatch.com/2022/01/human-bot-mitigation-bot-prevention-attack-non-human-cybersecurity-platform-tamer-hassan/", "singleSource": false, "note": "Disclosed equity only: ~$33M through the 2016 Series B (Paladin release), plus $100M (Jan 2022; AlleyWatch says this brought the total to $142.1M with some smaller notes), plus '$50M+' (Oct 2024), for ~$183–192M. LinkedIn-derived data shows $181M; Caplight shows $281M, likely including the $100M Blackstone debt. Excludes the undisclosed 2020 Goldman Sachs investment and buyout, and the PerimeterX merger (all-stock; PerimeterX had raised ~$100M+ itself)."},
+    "arr": {"valueUsdM": 100, "date": "2022-07", "kind": "ARR", "source": "https://www.humansecurity.com/newsroom/human-and-perimeterx-unite-in-market-changing-merger-to-safeguard-customers-from-sophisticated-bot-attacks-fraud-and-account-abuse/", "singleSource": false, "note": "'More than $100 million in ARR' for the combined company at the merger. The Jan 2024 CEO-transition release repeats 'surpassing $100M in ARR' (https://www.humansecurity.com/newsroom/human-security-announces-strategic-leadership-transition-ceo/). No newer figure."},
+    "headcount": {"value": 350, "date": "2026-10", "source": "https://linkedin.com/in/isaac-itenberg", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn-derived band of 300–400 employees, down 4–5% YoY. The base file's 520 is an older aggregator figure. The company had 450+ at the 2022 merger."},
+    "research": "Unchanged: Satori threat-intelligence reports and takedowns (3ve, Methbot, PARETO, BADBOX) plus annual benchmark reports. No papers or OSS of note.",
+    "researchSources": [],
+    "xPresence": "No active company X handle could be confirmed: @humansecurity resolves to an empty 13-follower account and @HUMAN_Security returns 404. Effectively absent from X.",
+    "xPosts": [],
+    "talentSignals": [
+      "Leadership turnover: CEO Stu Solomon (Jan 2024–Oct 2026) left to become CEO of Halcyon (anti-ransomware), and COO/CFO Isaac Itenberg has been interim CEO since Aug 2026 (https://www.halcyon.ai/company; https://linkedin.com/in/isaac-itenberg). As of 2026-10-22 the company leadership page still lists Solomon (https://www.humansecurity.com/company/leadership/)."
+    ],
+    "scoreAdjustments": {"talent": 3.5},
+    "scoreAdjustmentReason": "Talent goes from 4 to 3.5: the CEO departed to Halcyon, an interim CEO (the former CFO) is in place, and LinkedIn data shows a 4–5% YoY headcount decline.",
+    "notDisclosed": ["latestValuation", "xPosts"],
+    "filled": ["rounds", "totalRaisedUsdM", "arr", "headcount"],
+    "notes": "Formerly White Ops; Goldman Sachs MBD-controlled since Dec 2020, so it is really a PE-backed company rather than VC-backed. No valuation has ever been disclosed. Calcalist (Jul 2022) cited expert estimates of ~$1.5B for the combined HUMAN+PerimeterX, which is not a priced round (https://www.calcalistech.com/ctechnews/article/ryn11cja3q). The CEO change was found via LinkedIn and Halcyon's site; no press release was found."
+  },
+  {
+    "name": "Collinear AI",
+    "rounds": [],
+    "totalRaisedUsdM": {"value": 10, "asOf": "2026-10", "source": "https://www.caplight.com/company/collinear-ai", "singleSource": true, "sourceQuality": "aggregator", "note": "Seed-stage, about $10M. No round has been publicly announced. Investors named on the company About page: Engineering Capital, 11.2 Capital, B Capital, Storm Ventures, Hitachi Ventures. Pramod Gosavi (11.2 Capital) lists himself as lead seed investor since Jan 2023 (https://linkedin.com/in/pramod-gosavi-b32a71). Hitachi Ventures labels the stage 'Series A' without an amount."},
+    "headcount": {"value": 25, "date": "2026-10", "source": "https://linkedin.com/in/pramod-gosavi-b32a71", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn-derived band of 20–30 employees (+210% YoY), in the US, Kenya, and India. The base file had 30 (Caplight, Aug 2026)."},
+    "research": "CWE-bench, a defensive cyber audit-and-patch benchmark: v0 (2026-09-02, 100 tasks, 54 CWEs) and v1 (2026-09-28, 120 held-out tasks, 73 CWEs, 8 languages, 13k+ rollouts). Artificial Analysis runs it independently in its Cyber Index as CWE-Bench-AA. Also YC-Bench (arXiv, 2026-04) and SimLab.",
+    "researchSources": ["https://cwe-bench.com/", "https://blog.collinear.ai/p/cwe-bench-v1"],
+    "xPresence": "@nazneenrajani 5.7k followers; @CollinearAI ~0.7k (base file; fxtwitter lookup flaky today).",
+    "xPosts": [
+      {"url": "https://x.com/nazneenrajani/status/2104573112704467008", "author": "nazneenrajani", "date": "2026-09-28", "likes": 39, "views": 102769, "summary": "Releases CWE-Bench v1: 120 held-out audit-and-patch tasks across 73 CWEs and 8 languages, with a top programmatic pass@4 of 81%."},
+      {"url": "https://x.com/nazneenrajani/status/2105391722822078971", "author": "nazneenrajani", "date": "2026-09-30", "likes": 17, "views": 1673, "summary": "Claims CWE-bench is 'now the official benchmark for frontier labs for cyber capabilities' and congratulates Google DeepMind on a Pareto-frontier cyber model."}
+    ],
+    "talentSignals": [
+      "Self-claimed (AWS case study, undated): Collinear works with 'three of the world's top four AI labs' and with Amazon (https://www.rl-list.com/vendors/collinear)"
+    ],
+    "scoreAdjustments": {"research": 5},
+    "scoreAdjustmentReason": "Research goes from 4 to 5: CWE-bench v1 is an actively maintained benchmark that a third party (Artificial Analysis) runs independently in its Cyber Index. The base file's caveat ('reportedly used… not independently verified') is now resolved.",
+    "notDisclosed": ["latestValuation", "rounds", "arr"],
+    "filled": ["totalRaisedUsdM", "xPosts", "research", "headcount"],
+    "notes": "Re-verified (low confidence flagged). No priced or announced round exists, so rounds is empty and listed as not disclosed. The only funding figure is Caplight's ~$10M (aggregator). No Form D found under 'Collinear AI' in EDGAR full-text search (only unrelated Collinear Capital and Collinear Networks filings). Valuation and revenue are not disclosed. The rarely used @CollinearAI account returned 404 intermittently on fxtwitter today."
+  }
+]

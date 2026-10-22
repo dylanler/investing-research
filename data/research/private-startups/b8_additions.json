@@ -1,0 +1,308 @@
+[
+  {
+    "name": "HeyGen",
+    "aliases": ["HeyGen Inc."],
+    "status": "private",
+    "statusNote": "Independent, VC-backed and still private as of Oct 2026. No IPO filing or acquisition found. It is the acquirer in a deal: it bought Alisa by Genova Labs in Sep 2025.",
+    "statusSource": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn",
+    "category": "Video gen",
+    "founded": 2020,
+    "hq": "Los Angeles",
+    "website": "https://www.heygen.com",
+    "oneLiner": "Identity-first AI video platform: photorealistic personal avatars (Avatar V), video translation, a video agent, and in-house voice (HeyGen Voice) and general video (HeyGen Video 1) models sold via app and API.",
+    "founders": "Joshua Xu (CEO; CMU, Snap engineer 2014-2020 on ads/recsys/AI camera) and Wayne Liang (CMU, ~5 yrs product designer at Smule, briefly ByteDance) https://stepmark.ai/2025/01/01/company-spotlight-heygen-revolutionizing-video-production-with-ai/ , https://www.forbes.com/sites/kenrickcai/2023/11/29/ai-video-startup-heygen-launches-near-instant-avatar-generator-adds-56-million-in-funding/",
+    "talentSignals": [
+      "Extreme capital efficiency: ~$1.5M ARR per full-time employee, only ~$25M of $74M raised burned, cash-flow break-even in 2026 https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn",
+      "Acquired Alisa by Genova Labs (multimedia agents) in Sep 2025; founder Bin Liu now leads Video Agent and the new Agentic Video business (VP & GM, Oct 2026) https://www.linkedin.com/posts/buffxz_five-years-ago-wayne-l-and-i-founded-heygen-activity-7373717393476558848-Xv0E , https://www.linkedin.com/posts/liu8in_im-excited-to-share-my-next-chapter-at-heygen-activity-7513719686715514880-dUAS",
+      "Senior hires in 2024: Dave King (ex-Asana CMO) as CBO, Rong Yan (ex-HubSpot VP Eng) as CTO https://www.heygen.com/blog/announcing-our-series-a",
+      "In-house research team ships its own frontier-ranked models: Avatar V (Apr 2026), HeyGen Voice (#1 on the Artificial Analysis TTS leaderboard, Oct 2026), HeyGen Video 1 (Oct 2026) https://www.heygen.com/research/avatar-v-model"
+    ],
+    "headcount": {"value": 200, "date": "2025-10", "source": "https://getlatka.com/companies/heygen", "singleSource": true, "sourceQuality": "aggregator", "note": "Latka estimate. $200M ARR at ~$1.5M ARR/FTE (Upstarts, Jun 2026) implies roughly 130-140 FTEs; that figure is derived, not reported."},
+    "rounds": [
+      {"date": "2022-11", "stage": "Seed", "amountUsdM": 9, "postValuationUsdB": null, "leads": null, "source": "https://getlatka.com/companies/heygen", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2023-11", "stage": "Seed extension / venture", "amountUsdM": 5.6, "postValuationUsdB": null, "leads": null, "source": "https://www.forbes.com/sites/kenrickcai/2023/11/29/ai-video-startup-heygen-launches-near-instant-avatar-generator-adds-56-million-in-funding/", "singleSource": false},
+      {"date": "2024-06", "stage": "Series A", "amountUsdM": 60, "postValuationUsdB": 0.5, "leads": "Benchmark (Victor Lazarte joined board); Thrive Capital, BOND, SV Angel participated", "source": "https://www.bloomberg.com/news/articles/2024-06-20/ai-video-startup-heygen-valued-at-500-million-in-funding-round", "singleSource": false}
+    ],
+    "latestValuationUsdB": 0.5,
+    "latestValuationDate": "2024-06",
+    "latestValuationSource": "https://www.heygen.com/blog/announcing-our-series-a",
+    "latestValuationSignal": {"valueUsdB": 0.5, "date": "2024-06", "source": "https://www.bloomberg.com/news/articles/2024-06-20/ai-video-startup-heygen-valued-at-500-million-in-funding-round", "basis": "closed round (Series A)", "note": "No later round, tender, or 'in talks' report found as of Oct 2026. The valuation is very stale against $200M+ ARR. Stockanalysis/Clarity secondary-market price indications exist but don't give a sourced implied valuation."},
+    "totalRaisedUsdM": {"value": 74, "asOf": "2026-06", "source": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn", "singleSource": false, "note": "Equity. Latka/Stockanalysis list $74.6M across 3 rounds."},
+    "arr": {"valueUsdM": 200, "date": "2026-06", "kind": "ARR", "source": "https://finance.yahoo.com/technology/ai/articles/heygen-doubles-200m-arr-eight-160200783.html", "singleSource": false, "note": "Company press release plus Upstarts exclusive. Sacra estimates $205M (Jun 2026)."},
+    "arrHistory": [
+      {"date": "2023-03", "valueUsdM": 1, "source": "https://www.forbes.com/sites/kenrickcai/2023/11/29/ai-video-startup-heygen-launches-near-instant-avatar-generator-adds-56-million-in-funding/"},
+      {"date": "2023-10", "valueUsdM": 10, "source": "https://www.forbes.com/sites/kenrickcai/2023/11/29/ai-video-startup-heygen-launches-near-instant-avatar-generator-adds-56-million-in-funding/"},
+      {"date": "2023-11", "valueUsdM": 18, "source": "https://www.forbes.com/sites/kenrickcai/2023/11/29/ai-video-startup-heygen-launches-near-instant-avatar-generator-adds-56-million-in-funding/"},
+      {"date": "2024-06", "valueUsdM": 35, "source": "https://www.heygen.com/blog/announcing-our-series-a"},
+      {"date": "2025-10", "valueUsdM": 100, "source": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn"},
+      {"date": "2026-06", "valueUsdM": 200, "source": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn"}
+    ],
+    "research": "HeyGen Research publishes technical write-ups: Avatar V (a DiT with flow matching, Sparse Reference Attention, and a 5-stage curriculum incl. RLHF; Apr 2026) and HeyGen Voice (scene-aware voice cloning; Oct 2026). Its models rank #1/#2 on the Artificial Analysis TTS leaderboard. Major OSS project: heygen-com/hyperframes (HTML-based video composition framework) has 69.3k GitHub stars (Oct 2026), plus heygen-com/skills (509 stars). No peer-reviewed papers found.",
+    "researchSources": [
+      "https://www.heygen.com/research/avatar-v-model",
+      "https://www.heygen.com/research/heygen-voice-scene-aware-voice-cloning",
+      "https://github.com/heygen-com/hyperframes",
+      "https://www.heygen.com/blog/introducing-heygen-video"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/HeyGen/status/2041893905042743425", "author": "HeyGen", "date": "2026-04-08", "likes": 2213, "views": 804297, "summary": "Avatar V launch: 'We solved character consistency. Forever', a 15-second capture holds identity across every video."},
+      {"url": "https://x.com/HeyGen/status/2110420871806435594", "author": "HeyGen", "date": "2026-10-14", "likes": 909, "views": 1019117, "summary": "HeyGen Voice announced as the #1 voice model on Artificial Analysis, built for video."},
+      {"url": "https://x.com/HeyGen/status/2112960858624078265", "author": "HeyGen", "date": "2026-10-21", "likes": 1278, "views": 818538, "summary": "HeyGen holds the top two spots (Voice Turbo, Voice) on the Artificial Analysis TTS leaderboard."},
+      {"url": "https://x.com/joshua_xu_/status/2105919723854868573", "author": "joshua_xu_", "date": "2026-10-02", "likes": 180, "views": 29335, "summary": "CEO: HeyGen is the #1 video model on OpenRouter today."}
+    ],
+    "xPresence": "@HeyGen ~115K followers; company launch posts regularly reach 0.8-1M views. CEO @joshua_xu_ ~27.8K followers, with posts typically in the tens of thousands of views. Co-founder Wayne Liang is largely inactive on X. (fxtwitter, Oct 2026)",
+    "traction": "$200M ARR in Jun 2026, doubling in 8 months, while cash-flow break-even. 40M+ users in 196 countries, 118M+ videos, 85% of the Fortune 100 https://finance.yahoo.com/technology/ai/articles/heygen-launches-heygen-voice-debuting-172000180.html . Oct 2026 expanded from avatars into general models: HeyGen Video 1 (text/image-to-video with native audio) and HeyGen Voice, distributed via API, fal, ComfyUI, OpenRouter, and an MCP server for ChatGPT/agents.",
+    "compute": null,
+    "moat": "Brand and distribution leader in avatar/'digital twin' video, with a large SMB plus enterprise base, consented identity/voice data, and a full in-house stack (avatar, voice, video). Profitable, so it isn't dependent on capital markets.",
+    "risks": "General video/voice models from Google (Veo), ByteDance, ElevenLabs, and OpenAI could commoditize avatars. Deepfake/consent regulation. Low-ARPU SMB churn. Valuation mark is stale.",
+    "proposedScores": {"talent": 5.5, "research": 6, "posting": 6.5, "traction": 8, "moat": 5.5},
+    "confidence": "high",
+    "notDisclosed": ["latestValuation since 2024", "headcount (official)", "compute partners", "gross margin"],
+    "notes": "Checked for 2025-26 rounds, tenders, or 'in talks' reports and found none; the last priced round is still the 2024 Series A. The Information reported Benchmark leading at a $440M valuation pre-close; Bloomberg/company say ~$500M. The 2022 $9M seed figure is aggregator-only (Latka). The CEO's fxtwitter profile endpoint failed intermittently, but his status was verified via the status endpoint."
+  },
+  {
+    "name": "Recursive",
+    "aliases": ["Recursive Superintelligence, Inc.", "Recursive SI"],
+    "status": "private",
+    "statusNote": "Independent, VC-backed and still private as of Oct 2026. Came out of stealth 2026-05-13 and released its first model (Flint) 2026-10-21.",
+    "statusSource": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "category": "Frontier lab (automated AI research / recursive self-improvement)",
+    "founded": 2026,
+    "hq": "San Francisco / London",
+    "website": "https://recursive.com",
+    "oneLiner": "Research lab building the 'Eureka Machine', an open-ended automated-research system aimed at recursive self-improvement, applied first to frontier AI R&D. First release: Flint, an Apache-2.0 40B MoE (~2.5B active) local coding model.",
+    "founders": "Richard Socher (CEO; ex-Salesforce Chief Scientist, You.com founder, highly cited NLP researcher) plus 7 co-founders: Tim Rocktäschel (UCL prof, ex-Google DeepMind principal scientist), Alexey Dosovitskiy (Vision Transformer author), Josh Tobin (ex-OpenAI), Caiming Xiong (ex-Salesforce AI research lead), Yuandong Tian (ex-Meta FAIR research director), Tim Shi (Cresta co-founder/CTO), and Jeff Clune (UBC prof; Darwin Gödel Machine, open-endedness). Peter Norvig advises. https://www.gv.com/news/recursive-superintelligence-self-improving-ai , https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding",
+    "talentSignals": [
+      "Eight-cofounder team spanning ViT, open-endedness (Clune, Rocktäschel), FAIR reasoning/RL (Tian), and early OpenAI agents (Tobin); four employees co-authored the Darwin Gödel Machine paper with Clune https://www.gv.com/news/recursive-superintelligence-self-improving-ai",
+      "Initial team of 7, grew to 25+ employees in SF and London by May 2026; hired researchers from Google, OpenAI and Meta https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/ , https://economictimes.indiatimes.com/tech/funding/star-ai-researchers-new-lab-in-talks-for-4-billion-valuation/articleshow/127521804.cms",
+      "Small team built Flint from scratch in under 4 months, mostly via the automated research system https://cryptobriefing.com/recursive-launches-flint-local-coding-model/",
+      "Socher remains CEO of You.com and co-founder of AIX Ventures in parallel, so his attention is split https://economictimes.indiatimes.com/tech/funding/star-ai-researchers-new-lab-in-talks-for-4-billion-valuation/articleshow/127521804.cms"
+    ],
+    "headcount": {"value": 25, "date": "2026-05", "source": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/", "singleSource": false, "note": "'more than 25'; TNW says 'fewer than 30'"},
+    "rounds": [
+      {"date": "2026-05", "stage": "Series A", "amountUsdM": 650, "postValuationUsdB": 4.65, "leads": "GV, Greycroft; NVIDIA and AMD Ventures participated", "source": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-recursive-on-dollar650-million-series-a-funding-at-a-dollar465-billion-valuation.html", "singleSource": false, "note": "'over $650M'. In Jan 2026 Bloomberg reported talks at ~$4B pre-money, which this round superseded."}
+    ],
+    "latestValuationUsdB": 4.65,
+    "latestValuationDate": "2026-05",
+    "latestValuationSource": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-recursive-on-dollar650-million-series-a-funding-at-a-dollar465-billion-valuation.html",
+    "latestValuationSignal": {"valueUsdB": 4.65, "date": "2026-05", "source": "https://www.gv.com/news/recursive-superintelligence-self-improving-ai", "basis": "closed round (Series A)", "note": "No newer talks found as of the Flint launch (2026-10-21). Earlier signal: ~$4B pre-money in talks, Jan 2026 https://www.bloomberg.com/news/articles/2026-01-23/ai-startup-recursive-in-funding-talks-at-4-billion-valuation"},
+    "totalRaisedUsdM": {"value": 650, "asOf": "2026-10", "source": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/", "singleSource": false, "note": "equity; 'over $650M'"},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Flint (2026-10-21): open weights on Hugging Face (RecursiveSI/flint, Apache 2.0; 288 likes on day 1). 39.8B MoE, 2.5B active, 256 experts, 262K context. Self-reported 74.2% SWE-bench Verified, 89.7% SWE-bench Pro v2, 54.9% Terminal-Bench 2.1, 125+ tok/s on an M4 Pro MacBook; not independently verified. Open-source inference engine recursive-oss/rec (65 stars, day 1). Jun 2026 X article 'First Steps Toward Automated AI Research' (early results on training and GPU kernels). Aug 2026: found and helped fix vLLM/SGLang inference edge cases via automated research. Co-founders' prior work (ViT, Darwin Gödel Machine, open-endedness, FAIR) is very highly cited, but company-authored papers so far are blogs and model releases.",
+    "researchSources": [
+      "https://recursive.com/updates",
+      "https://huggingface.co/RecursiveSI/flint",
+      "https://github.com/recursive-oss/rec",
+      "https://aiweekly.co/alerts/recursive-opens-flint-a-40b25b-moe-coder-hitting-897-on-swe-bench-pro-v2-under",
+      "https://x.com/Recursive_SI/status/2064980090702962699"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/RichardSocher/status/2112944385415426249", "author": "RichardSocher", "date": "2026-10-21", "likes": 5835, "views": 2335943, "summary": "Socher introduces Flint, Recursive's first model: fast local coding model built with the Eureka Machine automated-research system."},
+      {"url": "https://x.com/Recursive_SI/status/2054490801972166898", "author": "Recursive_SI", "date": "2026-05-13", "likes": 459, "views": 430454, "summary": "X article 'We are emerging from stealth with a bold bet on self-improving AI' ($650M at $4.65B)."},
+      {"url": "https://x.com/Recursive_SI/status/2064980090702962699", "author": "Recursive_SI", "date": "2026-06-11", "likes": 677, "views": 1147970, "summary": "X article 'First Steps Toward Automated AI Research': early results on model training and GPU kernel benchmarks."}
+    ],
+    "xPresence": "@RichardSocher ~127.8K followers, and the Flint launch post hit 2.3M views. @Recursive_SI ~12.8K followers, with 0.4-1.1M views on its two X articles. Co-founder @josh_tobin_'s automated-research post got ~88K views. (fxtwitter, Oct 2026)",
+    "traction": "Pre-revenue. First product, Flint, launched 2026-10-21 as free open weights; NVIDIA RTX Spark promoted it (trained on GB300 NVL72). Wired's reviewer called it 'scary good', though testing was limited https://startupfortune.com/recursive-says-ai-built-most-of-its-new-flint-coding-model/",
+    "compute": "NVIDIA and AMD are investors. Flint was trained on NVIDIA GB300 NVL72 (per NVIDIA RTX Spark post https://x.com/NVIDIARTXSpark/status/2112963691469787433 ). Raise earmarked largely for compute; no named cloud contract found.",
+    "moat": "Elite research founders, $650M war chest, and strategic chip investors. Its automated-research loop is the claimed compounding advantage, not yet shown externally.",
+    "risks": "Crowded RSI/automated-research race (Mirendil, frontier labs' internal efforts). No revenue. Benchmark claims are self-reported. CEO splits time with You.com. RSI safety/regulatory scrutiny.",
+    "proposedScores": {"talent": 8.5, "research": 6.5, "posting": 7, "traction": 2.5, "moat": 4.5},
+    "confidence": "high",
+    "notDisclosed": ["arr", "compute contracts", "current headcount (post-May 2026)"],
+    "notes": "This is not the Recursive font/design company or Recursive Inc. (Japan). The Flint HF page shows 0 downloads because it was day-1. Bloomberg Jan 2026 called the ~$4B figure 'not including the money put in' (pre-money)."
+  },
+  {
+    "name": "Mirendil",
+    "aliases": ["Mirendil Inc."],
+    "status": "private",
+    "statusNote": "Independent, VC-backed and still private as of Oct 2026. Formally announced 2026-06-24.",
+    "statusSource": "https://mirendil.com/news/announcing-mirendil/",
+    "category": "Frontier lab (automated AI R&D)",
+    "founded": 2026,
+    "hq": "San Francisco",
+    "website": "https://mirendil.com",
+    "oneLiner": "Frontier lab training models specialized in AI R&D and rebuilding the research loop around them, to 'democratize frontier AI R&D' for scientists and small teams. First pretrained model Mirendil-Base announced Oct 2026.",
+    "founders": "Behnam Neyshabur (CEO; co-led Anthropic's Discovery/AI-scientist team and computer-use work; ex-Google Blueshift co-lead (Minerva), Gemini math/code reasoning; SAM optimizer co-inventor; PhD under Nati Srebro), Harsh Mehta (built and led Anthropic's automated AI R&D / autoresearch platform; ex-Google), Shayan Salehian (early xAI engineer on Grok post-training, reasoning and agent infra; ex-Twitter), Tara Rezaei (23, MIT grad, early OpenAI student researcher, olympiad medalist). https://www.kleinerperkins.com/perspectives/mirendil-building-the-system-that-builds-systems/ , https://a16z.com/announcement/investing-in-mirendil/",
+    "talentSignals": [
+      "Founding team of 20 researchers/engineers from Anthropic, xAI, Google DeepMind and OpenAI https://mirendil.com/news/announcing-mirendil/",
+      "Co-founder Harsh Mehta built Anthropic's internal automated-research platform, which is directly relevant to the thesis https://a16z.com/announcement/investing-in-mirendil/",
+      "Neyshabur's PhD advisor Nati Srebro is on the Mirendil team (per Neyshabur, Jul 2026) https://x.com/bneyshabur/status/2074152461716406306",
+      "Claims Mirendil-Base was pretrained by one researcher plus agents in 3.5 months for under $10M compute, with agents writing over 99% of the code https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/"
+    ],
+    "headcount": {"value": 20, "date": "2026-06", "source": "https://mirendil.com/news/announcing-mirendil/", "singleSource": false, "note": "founding team of 20. a16z jobs board lists 11-50 employees (Oct 2026)."},
+    "rounds": [
+      {"date": "2026-06", "stage": "Seed", "amountUsdM": 200, "postValuationUsdB": 1.0, "leads": "Andreessen Horowitz, Kleiner Perkins; NVIDIA and others followed", "source": "https://dealroom.co/news/135905-mirendil-raises-200m-seed-led-by-a16z-and-kleiner-perkins-to-bring-front/", "singleSource": true, "sourceQuality": "press (Dealroom News); amount confirmed by company/WSJ, ~$1B valuation only seen in Dealroom write-up", "note": "'roughly $1 billion valuation'"}
+    ],
+    "latestValuationUsdB": 1.0,
+    "latestValuationDate": "2026-06",
+    "latestValuationSource": "https://dealroom.co/news/135905-mirendil-raises-200m-seed-led-by-a16z-and-kleiner-perkins-to-bring-front/",
+    "latestValuationSignal": {"valueUsdB": 1.0, "date": "2026-06", "source": "https://dealroom.co/news/135905-mirendil-raises-200m-seed-led-by-a16z-and-kleiner-perkins-to-bring-front/", "basis": "closed round (seed), valuation 'roughly' per press", "note": "No later talks found as of 2026-10-22."},
+    "totalRaisedUsdM": {"value": 200, "asOf": "2026-10", "source": "https://mirendil.com/news/announcing-mirendil/", "singleSource": false, "note": "seed equity; NVIDIA investment may be in addition to or inside the $200M (company wording: 'led our seed round of $200M, followed by an investment from NVIDIA')"},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Mirendil-Base (2026-10-21) is a 100B-500B-param coding-specialized pretrained model built from scratch on public data, with no distillation. Larger Mirendil-Base-Large (500B-2T) is ~80% trained and XL (2T-10T) ~19%. Weights not released; post-training benchmarks and API promised. Founders' prior work: SAM optimizer, deep-learning generalization theory, Minerva, Claude computer use.",
+    "researchSources": [
+      "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/",
+      "https://www.kleinerperkins.com/perspectives/mirendil-building-the-system-that-builds-systems/"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/bneyshabur/status/2112941025862008949", "author": "bneyshabur", "date": "2026-10-21", "likes": 1020, "views": 132174, "summary": "CEO announces 'Pretraining at scale without a pretraining team': Mirendil-Base built by one researcher in 3.5 months with under $10M compute."},
+      {"url": "https://x.com/mirendil/status/2069863434649584004", "author": "mirendil", "date": "2026-06-24", "likes": 194, "views": 78693, "summary": "Formal launch: mission to democratize frontier AI R&D; 20-person team; $200M seed from a16z and Kleiner Perkins."},
+      {"url": "https://x.com/a16z/status/2069869327411749012", "author": "a16z", "date": "2026-06-24", "likes": 1468, "views": 1216874, "summary": "a16z announces it is leading Mirendil's $200M seed."},
+      {"url": "https://x.com/mirendil/status/2085362429979242586", "author": "mirendil", "date": "2026-08-06", "likes": 169, "views": 78165, "summary": "Multi-year partnership with Google Cloud to scale training, inference and research workloads."}
+    ],
+    "xPresence": "@bneyshabur ~45.6K followers (launch posts 20-130K views). @mirendil ~7.8K followers. Co-founders @HarshMeh1a, @shayan_, and @tararezaeikh got 20-70K views on launch posts. Investor amplification (a16z, pmarca, bhorowitz) drives most reach. (fxtwitter, Oct 2026)",
+    "traction": "Pre-product/pre-revenue. First pretrained model announced Oct 2026; API and post-trained versions promised.",
+    "compute": "Multi-year Google Cloud partnership reported at $100M+ (AI Hypercomputer), Aug 2026 https://x.com/TechCrunch/status/2085353979513339984 . NVIDIA is an investor.",
+    "moat": "Founders who built the autoresearch platforms inside Anthropic and Google; capital-efficient pretraining recipe (claimed). Little external moat yet.",
+    "risks": "Direct competition from Recursive, Periodic-style labs, and frontier labs' internal RSI. Claims are not independently evaluated. $200M is small for planned 2T-10T models. No product yet.",
+    "proposedScores": {"talent": 7.5, "research": 5, "posting": 5, "traction": 1.5, "moat": 4},
+    "confidence": "medium",
+    "notDisclosed": ["arr", "exact founding date", "post-money valuation from a primary source", "current headcount"],
+    "notes": "The ~$1B valuation appears in Dealroom News; WSJ/a16z/KP/company confirm the $200M only (WSJ paywalled). The Google Cloud deal value ($100M+) is from TechCrunch's X post; the company blog doesn't give a figure. One aggregator (AGI Hunt) misnames the CEO as 'Burcu'; ignored."
+  },
+  {
+    "name": "Inception Labs",
+    "aliases": ["Inception", "Inception AI Inc."],
+    "status": "private",
+    "statusNote": "Independent and still private as of Oct 2026. Reuters (2026-05-13) reported Microsoft in acquisition talks, with SpaceX also approaching, and Inception seeking over $1B with a bank hired. No deal had been announced as of the 2026-10-19 Mercury 3 launch.",
+    "statusSource": "https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/",
+    "category": "Foundation models (diffusion LLMs)",
+    "founded": 2024,
+    "hq": "Palo Alto",
+    "website": "https://www.inceptionlabs.ai",
+    "oneLiner": "Builds Mercury, commercial diffusion LLMs (dLLMs) that generate tokens in parallel for 1,000+ tok/s and low cost. Product line: Mercury 3, Mercury Coder, Mercury Decide, and Mercury Voice.",
+    "founders": "Stefano Ermon (CEO; Stanford CS professor; diffusion/score-based model pioneer, co-inventor of DDIM and FlashAttention per his profile), Aditya Grover (UCLA professor), Volodymyr Kuleshov (Cornell professor). https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/",
+    "talentSignals": [
+      "Three-professor founding team from the labs that originated text diffusion (Ermon's group: SEDD, ICML 2024 best paper) https://arxiv.org/abs/2310.16834",
+      "Team draws from Stanford, UCLA, Cornell, Google DeepMind, Meta AI, Microsoft AI and OpenAI (company site) https://www.inceptionlabs.ai/",
+      "Angels include Andrej Karpathy and Andrew Ng https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/",
+      "Acquisition interest from Microsoft and SpaceX (Reuters, May 2026) https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/"
+    ],
+    "headcount": {"value": null, "date": "2026-10", "source": "https://app.dealroom.co/companies/inception_labs", "singleSource": true, "sourceQuality": "aggregator", "note": "Dealroom bucket 11-50 employees; no exact figure found"},
+    "rounds": [
+      {"date": "2025-11", "stage": "Seed", "amountUsdM": 50, "postValuationUsdB": null, "leads": "Menlo Ventures; Mayfield, Innovation Endeavors, M12 (Microsoft), Snowflake Ventures, Databricks Investment, NVentures; angels Andrew Ng, Andrej Karpathy", "source": "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/", "singleSource": false, "note": "Valuation not disclosed. Dealroom records $200M (aggregator, singleSource)."}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "latestValuationSignal": {"valueUsdB": 1.0, "date": "2026-05", "source": "https://www.reuters.com/world/microsoft-eyeing-startup-deals-life-after-openai-2026-05-13/", "basis": "reported asking price in acquisition talks (>$1B), not a priced round", "note": "Inception was 'looking for a price of over $1 billion' in talks with Microsoft. Aggregator seed valuation: $200M (Dealroom, Nov 2025, singleSource). Online '$10B' figures are unsourced speculation."},
+    "totalRaisedUsdM": {"value": 50, "asOf": "2026-10", "source": "https://www.inceptionlabs.ai/blog/mercury-refreshed", "singleSource": false, "note": "equity; only disclosed financing"},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Pioneered commercial dLLMs. Tech report 'Mercury: Ultra-Fast Language Models Based on Diffusion' (arXiv 2506.17298, Jun 2025). Founders' academic record includes SEDD (ICML 2024 best paper), score-based/DDIM diffusion, and FlashAttention. Models: Mercury (Feb 2025, first commercial dLLM), Mercury 2 (first reasoning dLLM; TIME Best Inventions 2026), Mercury 3 (2026-10-19; 40x+ Mercury 1 params, 1,068 tok/s, 1M context, claims to beat GPT-6 Luna and Claude Haiku 5.5 on 8/12 benchmarks), Mercury Decide (vision decision model), and Mercury Voice. Models are closed-weight, with no notable company OSS repo.",
+    "researchSources": [
+      "https://arxiv.org/abs/2506.17298",
+      "https://arxiv.org/abs/2310.16834",
+      "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/_inception_ai/status/2112236719068369299", "author": "_inception_ai", "date": "2026-10-19", "likes": 857, "views": 63743, "summary": "Mercury 3 is live: most capable dLLM to date, beats GPT-6 Luna and Claude Haiku 5.5 at 1,000+ tok/s, 40x the size of Mercury 1."},
+      {"url": "https://x.com/StefanoErmon/status/2108262061210042442", "author": "StefanoErmon", "date": "2026-10-08", "likes": 106, "views": 13347, "summary": "Ermon: Mercury Decide hit #2 on OpenRouter by users a week after launch; independent ValsAI results cited."}
+    ],
+    "xPresence": "@StefanoErmon ~256.7K followers, but company launch posts get modest reach. @_inception_ai ~20.5K followers; the Mercury 3 launch got ~64K views. (fxtwitter, Oct 2026)",
+    "traction": "Commercial API (OpenAI-compatible) on Inception platform, OpenRouter, Baseten, and Vercel. Integrated in dev tools (ProxyAI, Buildglare, Kilo Code). Company says it is deployed at Fortune 500 companies. Mercury Decide reached #2 on OpenRouter by users (Oct 2026). Mercury 3 launch pricing $0.10/$0.35 per M tokens. No revenue disclosed.",
+    "compute": "NVIDIA (NVentures) and Microsoft (M12) are investors; benchmarks run on NVIDIA Blackwell GPUs. No disclosed cluster deal.",
+    "moat": "Leading team and first-mover in commercial text diffusion, with a speed/cost edge. But architecture know-how is replicable (Google Gemini Diffusion and others), and the company is thinly capitalized.",
+    "risks": "Only $50M raised against frontier-scale competition. Big labs can adopt diffusion decoding. Likely acquisition outcome (Microsoft talks) could remove independence. Benchmarks self-reported.",
+    "proposedScores": {"talent": 7.5, "research": 7.5, "posting": 5, "traction": 4.5, "moat": 4.5},
+    "confidence": "medium",
+    "notDisclosed": ["latestValuation (closed)", "arr", "headcount (exact)", "acquisition outcome"],
+    "notes": "Company name is 'Inception' (Inception AI Inc.); the domain is inceptionlabs.ai. Microsoft talks status after May 2026 is unknown; SiliconANGLE (2026-10-20) says no deal announced. 'Co-inventor of DDIM, FlashAttention' is from Ermon's own X bio."
+  },
+  {
+    "name": "Prometheus",
+    "aliases": ["Project Prometheus", "Prometheus AI"],
+    "status": "private",
+    "statusNote": "Private, independent startup co-founded and co-led by Jeff Bezos and Vik Bajaj, with no corporate ties to Amazon or Blue Origin. Still private as of Oct 2026, with no IPO on the calendar.",
+    "statusSource": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai",
+    "category": "Physical AI / AI for engineering & manufacturing",
+    "founded": 2025,
+    "hq": "San Francisco (also London, Zurich; industrial site in West Oakland)",
+    "website": "https://www.prometheus.ai",
+    "oneLiner": "Building an 'artificial general engineer': AI tools that automate the design, simulation and manufacturing of complex physical products (jet engines, spacecraft, computers, medical devices, drug compounds).",
+    "founders": "Co-CEOs Jeff Bezos (Amazon founder) and Vik Bajaj (Verily co-founder, ex-Google X, Stanford Medicine professor, Foresite Labs). Founding group includes Nal Kalchbrenner (10+ yrs Google Brain/DeepMind generative models), Rewon Child (ex-OpenAI), Sherjil Ozair (ex-DeepMind/Tesla) and William Guss (ex-OpenAI) from General Agents. Founding advisers: Transformer co-authors Ashish Vaswani and Jakob Uszkoreit. https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup/ , https://linkedin.com/in/kalchbrenner",
+    "talentSignals": [
+      "Acquired General Agents (Ace computer-use agent) in Jun 2025, bringing in co-founders Sherjil Ozair and William Guss https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup/",
+      "Hired Kyle Kosic (xAI co-founder, ex-OpenAI) for AI infrastructure, Apr 2026 https://observer.com/2026/04/jeff-bezos-project-prometheus-new-hires/",
+      "Recruiting from OpenAI, Google DeepMind, Nvidia, Meta, Anthropic and Microsoft; ex-Nvidia senior research scientist Kamyar Azizzadenesheli joined https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+      "~150 employees (Jun 2026) across SF, London and Zurich https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+    ],
+    "headcount": {"value": 150, "date": "2026-06", "source": "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html", "singleSource": false, "note": "LinkedIn aggregator shows ~209 profiles (Oct 2026, singleSource)"},
+    "rounds": [
+      {"date": "2025-11", "stage": "Series A", "amountUsdM": 6200, "postValuationUsdB": null, "leads": "Jeff Bezos (largest backer)", "source": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai", "singleSource": false, "note": "Valuation not disclosed. Bezos' share reportedly ~$5B (secondary blog, unverified)."},
+      {"date": "2026-04", "stage": "Series B (in talks, not closed) - reported $10B at ~$38B", "amountUsdM": 10000, "postValuationUsdB": 38, "leads": "no lead; JPMorgan, BlackRock among participants", "source": "https://www.edgechat.ai/project-prometheus-funding", "singleSource": true, "sourceQuality": "secondary summary of Bloomberg/Business Insider reports", "note": "Likely the same financing later announced as the $12B Series B"},
+      {"date": "2026-06", "stage": "Series B", "amountUsdM": 12000, "postValuationUsdB": 41, "leads": "Jeff Bezos, JPMorgan Chase, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners", "source": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round", "singleSource": false}
+    ],
+    "latestValuationUsdB": 41,
+    "latestValuationDate": "2026-06",
+    "latestValuationSource": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+    "latestValuationSignal": {"valueUsdB": 41, "date": "2026-06", "source": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai", "basis": "closed round (Series B)", "note": "No newer valuation found. Separate affiliated vehicle: Bezos reportedly seeking up to $100B for a fund to acquire industrial companies (WSJ/Reuters Mar 2026; not Prometheus equity) https://www.reuters.com/business/retail-consumer/jeff-bezos-aims-raise-100-billion-buy-revamp-manufacturing-firms-with-ai-wsj-2026-03-19/"},
+    "totalRaisedUsdM": {"value": 18200, "asOf": "2026-06", "source": "https://arstechnica.com/ai/2026/06/heres-what-jeff-bezos-new-startup-prometheus-will-do/", "singleSource": false, "note": "$6.2B + $12B equity"},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Nothing published: no papers, models, repos or product disclosed as of Oct 2026. Bezos calls it 'premature' to disclose results. Described as a 'very modern version of CAD' that needs compute-intensive generated data, since there's no 'internet of manufacturing data'.",
+    "researchSources": [
+      "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+      "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
+    ],
+    "xPosts": [],
+    "xPresence": "No official company X account found (@prometheus and @prometheus_ai are unrelated). @JeffBezos ~10.3M followers, and his bio references the Prometheus plow/invention line, but no Prometheus-specific post was verified. Staff are mostly quiet publicly.",
+    "traction": "Pre-product, no revenue. Blue Origin cited as a 'case study for a customer'; Amazon/AWS possible partner at arm's length. Leased 100K sq ft industrial site (8,000 amps) at 1960 Mandela Pkwy, West Oakland, Aug 2026 https://www.kalw.org/bay-area-news/2026-08-13/jeff-bezos-west-oakland",
+    "compute": "A large share of the $12B goes to compute, sourced from 'a multitude of sources' including AWS (Bezos/Bajaj, CNBC Jun 2026). No named GPU contract.",
+    "moat": "Unmatched capital ($18.2B) and Bezos' network. A potential $100B acquisition vehicle could give proprietary industrial data and captive customers (Blue Origin). Elite founding researchers.",
+    "risks": "No product or results disclosed. Execution is hard because there's no web-scale manufacturing data. Very high valuation for pre-product. Bezos-centric governance. Competition from Periodic Labs, physical-AI labs, and incumbents (Siemens, Autodesk, NVIDIA Omniverse).",
+    "proposedScores": {"talent": 8.5, "research": 2.5, "posting": 2, "traction": 1.5, "moat": 7.5},
+    "confidence": "high",
+    "notDisclosed": ["arr", "Series A valuation", "product details", "compute contracts", "research output"],
+    "notes": "Identity verified: prometheus.ai is listed as the site by Dealroom/Sacra/Stockanalysis/LinkedIn; the live site is behind a Vercel bot checkpoint. Founding date: Apr 2025 per Kalchbrenner's LinkedIn; public launch Nov 2025 (NYT). Bezos says work began late 2024. The April 2026 $10B/$38B report is kept as an 'in talks' row only."
+  },
+  {
+    "name": "Atoms",
+    "aliases": ["City Storage Systems (former name)", "CSS", "CloudKitchens (Atoms Food)", "Pronto (acquired, Atoms Mining)"],
+    "status": "private",
+    "statusNote": "Private as of Oct 2026. City Storage Systems (parent of CloudKitchens) was renamed Atoms 2026-03-13. It acquired Pronto (Anthony Levandowski's autonomous haulage company) in Mar 2026, then merged its operating businesses into one Atoms equity structure with a $1.7B a16z-led raise on 2026-07-22.",
+    "statusSource": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "category": "Robotics / Industrial AI",
+    "founded": 2016,
+    "hq": "Los Angeles (CloudKitchens HQ); CEO based in Austin",
+    "website": "https://atoms.co",
+    "oneLiner": "Travis Kalanick's 'physical world computation' company building specialized 'gainfully employed' robots across Atoms Food (CloudKitchens infrastructure), Atoms Mining (autonomous mining via Pronto) and Atoms Transport (a 'wheelbase for robots').",
+    "founders": "Travis Kalanick (CEO; Uber founder, joined City Storage Systems as CEO/controlling investor in 2018). Anthony Levandowski (Pronto founder; ex-Google self-driving, Otto/Uber) came in with the Pronto acquisition. https://www.cnbc.com/2026/03/13/uber-ex-ceo-kalanick-rebrands-latest-venture-atoms-move-into-robotics.html",
+    "talentSignals": [
+      "Kalanick says Atoms operated in stealth for 8 years with 'thousands of employees' https://www.cnbc.com/2026/03/13/uber-ex-ceo-kalanick-rebrands-latest-venture-atoms-move-into-robotics.html",
+      "Ben Horowitz joined the board; he called it 'certainly the biggest check I ever wrote' https://thedynamics.ai/articles/atoms-history",
+      "Kalanick posted in Aug 2026 that 'the band is coming back together', recruiting ex-Uber executives (e.g. finance hires) https://x.com/travisk/status/2085120584036327722",
+      "Uber invested (~$100M reported) in the July 2026 round https://thedynamics.ai/articles/atoms-history"
+    ],
+    "headcount": {"value": null, "date": "2026-03", "source": "https://www.cnbc.com/2026/03/13/uber-ex-ceo-kalanick-rebrands-latest-venture-atoms-move-into-robotics.html", "singleSource": false, "note": "'thousands of employees' per Kalanick. CloudKitchens had 4,000+ employees around 2021 per Multiples (aggregator)."},
+    "rounds": [
+      {"date": "2019-01", "stage": "Undisclosed (CloudKitchens)", "amountUsdM": 400, "postValuationUsdB": 5, "leads": "Saudi Arabia PIF", "source": "https://multiples.vc/private-comps/atoms", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2021-11", "stage": "Undisclosed (CloudKitchens; debt+equity mix)", "amountUsdM": 850, "postValuationUsdB": 15, "leads": "Microsoft, King Street Capital Management", "source": "https://multiples.vc/private-comps/atoms", "singleSource": true, "sourceQuality": "aggregator", "note": "CNBC independently cites the 'reported $15 billion valuation by 2022'"},
+      {"date": "2026-07", "stage": "Equity round (unlabeled)", "amountUsdM": 1700, "postValuationUsdB": null, "leads": "Andreessen Horowitz; Bain Capital Ventures, Uber, Fifth Wall, A*, Chemistry, K5 Global, Abstract, SV Angel, Alpha Square Group. Debt facilities (undisclosed size) from BofA, Goldman Sachs, Wells Fargo, JPMorgan, Barclays", "source": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/", "singleSource": false, "note": "valuation not disclosed"}
+    ],
+    "latestValuationUsdB": 15,
+    "latestValuationDate": "2022-01",
+    "latestValuationSource": "https://www.cnbc.com/2026/03/13/uber-ex-ceo-kalanick-rebrands-latest-venture-atoms-move-into-robotics.html",
+    "latestValuationSignal": {"valueUsdB": 15, "date": "2022-01", "source": "https://www.cbinsights.com/company/city-storage-systems/financials", "basis": "last reported post-money (CloudKitchens era); July 2026 $1.7B round valuation undisclosed", "note": "Stale. It predates the Pronto acquisition and the 2026 merger of businesses into one equity structure. No credible 2026 valuation report found; an investor's 'trillion dollars within a decade' quote is not a valuation."},
+    "totalRaisedUsdM": {"value": 2950, "asOf": "2026-07", "source": "https://www.cbinsights.com/company/city-storage-systems/financials", "singleSource": true, "sourceQuality": "aggregator", "note": "CB Insights total over 8 rounds; Multiples says ~$3B. Includes some debt in 2021 round; excludes undisclosed 2026 debt facilities."},
+    "arr": null,
+    "arrHistory": [],
+    "research": "No public research, papers or open-source found. Vision essay on atoms.co. Operational know-how comes from CloudKitchens and Pronto's deployed autonomous haulage.",
+    "researchSources": ["https://atoms.co/vision"],
+    "xPosts": [
+      {"url": "https://x.com/travisk/status/2079997954363117844", "author": "travisk", "date": "2026-07-22", "likes": 5204, "views": 3323058, "summary": "X article 'a16z. Unfinished Business.' announcing the $1.7B equity investment led by a16z and the merger of businesses into one Atoms equity structure."},
+      {"url": "https://x.com/travisk/status/2085120584036327722", "author": "travisk", "date": "2026-08-05", "likes": 1320, "views": 409486, "summary": "'The band is coming back together…' (recruiting former Uber leaders to Atoms)."}
+    ],
+    "xPresence": "@travisk ~296K followers; frequent 100K-1M+ view posts and 3.3M views on the raise article. No active official Atoms X account found (@atomsco and @atoms_co are unrelated). (fxtwitter, Oct 2026)",
+    "traction": "Operating businesses: CloudKitchens/Atoms Food (ghost-kitchen real estate plus software; previously reported ~$1.1B LTM revenue estimate around 2021 per Multiples, unverified) and Pronto/Atoms Mining (autonomous haulage at mine sites). No 2026 revenue, deployment or customer figures disclosed https://www.cryptopolitan.com/kalanicks-atoms-raises-1-7-billion-a16z/",
+    "compute": null,
+    "moat": "Real estate footprint, an operating food-infrastructure business, an industrial autonomy stack (Pronto), deep equity plus bank debt, and Kalanick's operator network.",
+    "risks": "Opaque financials. Ghost-kitchen economics are weak. Robotics execution in mining/transport is hard. Key-person and governance reputation risk (Kalanick, Levandowski). Valuation unknown.",
+    "proposedScores": {"talent": 6.5, "research": 1.5, "posting": 6.5, "traction": 5.5, "moat": 6},
+    "confidence": "medium",
+    "notDisclosed": ["latestValuation (2026)", "arr / revenue", "headcount (exact)", "debt facility size", "Pronto acquisition price"],
+    "notes": "Founded year 2016 refers to City Storage Systems/CloudKitchens (Kalanick took over in 2018). Earlier pre-Kalanick rounds (~$31M Series A/A+ led by Ant Group/Cathay Innovation, per Multiples) were not verified as the same entity and are excluded. Reported talks to buy Pony AI's US arm ended (The Information, Mar 2026, via TechCrunch)."
+  }
+]

@@ -35,14 +35,14 @@ export interface RankedStartup {
   oneLiner: string | null;
   founders: string | null;
   talentSignals: string[];
-  headcount: { value: number | null; date?: string | null; source?: string | null } | null;
+  headcount: { value: number | null; date?: string | null; source?: string | null; label?: string; singleSource?: boolean | null; [key: string]: unknown } | null;
   rounds: SourcedRound[];
   valuationUsdB: number | null;
   valuationDate: string | null;
   valuationSource: string | null;
   upsideValuationUsdB: number | null;
   upsideValuationBasis: string;
-  arr: { valueUsdM: number | null; date?: string | null; kind?: string | null; source?: string | null; singleSource?: boolean | null } | null;
+  arr: { valueUsdM: number | null; date?: string | null; kind?: string | null; source?: string | null; singleSource?: boolean | null; [key: string]: unknown } | null;
   revenueMultiple: number | null;
   multipleNote: string;
   velocityMeta: { raised18moUsdM: number; gapMonths: number | null; lastRound: string | null; note: string | null };
@@ -66,6 +66,44 @@ export interface RankedStartup {
   newRounds: (Omit<SourcedRound, 'kind'> & { singleSource: boolean })[];
   oct9: { rank: number; composite: number; tier: Tier; rankAmongRemaining?: number } | null;
   atValuationCap: boolean;
+  pitchbook: PitchBookRecord | null;
+  valuationFromPitchBook: boolean;
+  totalRaised: { valueUsdM: number; asOf?: string | null; source?: string | null; label?: string; singleSource?: boolean } | null;
+  dataCoverage: Record<CoverageField, 'sourced' | 'not disclosed' | 'missing'>;
+  notDisclosed: string[];
+  fillScoreAdjustments: Partial<Record<FactorKey, number>> | null;
+  fillScoreAdjustmentReason: string | null;
+  isNewAddition: boolean;
+  oct21: { rank: number; composite: number; tier: Tier } | null;
+}
+
+export type CoverageField = 'valuation' | 'rounds' | 'totalRaised' | 'revenue' | 'headcount' | 'research' | 'xPresence' | 'xPosts';
+
+export const coverageLabels: Record<CoverageField, string> = {
+  valuation: 'Valuation',
+  rounds: 'Round history',
+  totalRaised: 'Total raised',
+  revenue: 'Revenue / ARR',
+  headcount: 'Headcount',
+  research: 'Research output',
+  xPresence: 'X reach',
+  xPosts: 'Verified X posts',
+};
+
+export interface PitchBookRecord {
+  id: string;
+  name: string | null;
+  url: string;
+  ownershipStatus: string | null;
+  valuationUsdB: number | null;
+  valuationDate: string | null;
+  lastDealType: string | null;
+  priorValuationUsdBDerived: number | null;
+  totalRaisedUsdM: number | null;
+  revenueUsdM: number | null;
+  revenueFiscalYear: string | null;
+  employees: number | null;
+  identityNote: string | null;
 }
 
 export interface RemovedOverCap {
@@ -85,6 +123,7 @@ export interface RemovedOverCap {
   oct9Tier: Tier | null;
   referenceComposite: number;
   referenceTier: Tier;
+  isNewAddition?: boolean;
 }
 
 export interface Changelog {
@@ -94,6 +133,13 @@ export interface Changelog {
   newExclusions: ExcludedEntity[];
   newRounds: { name: string; date: string | null; stage: string | null; amountUsdM: number | null; postValuationUsdB: number | null; leads?: string | null; source: string | null; singleSource?: boolean }[];
   companyChanges: { name: string; changes: string[]; scoreAdjustments: Partial<Record<FactorKey, number>> }[];
+  additions: { name: string; outcome: string; rank?: number; composite?: number; tier?: Tier; valuationUsdB?: number | null; valuationDate?: string | null; source?: string | null; reason?: string; oneLiner?: string | null }[];
+  pitchbookConflicts: { name: string; notes: string[] }[];
+  pitchbookMatched: number;
+  pitchbookRejected: { name: string; reason: string }[];
+  pitchbookCaution: { name: string; note: string }[];
+  dataFill: { fieldsChecked: number; missingBefore: number; filled: number; notDisclosed: number; stillMissing: number; byField: Record<string, { filled: number; notDisclosed: number; stillMissing: number }> };
+  sinceOct21: { name: string; from: number; to: number; fromComposite: number; toComposite: number; fromTier: Tier; toTier: Tier }[];
 }
 
 export interface ExcludedEntity {
@@ -110,7 +156,9 @@ export interface ExcludedEntity {
 
 export { rankedStartups, excludedEntities, removedOverCap, changelog };
 
-export const updatedLabel = '21 Oct 2026';
+export const updatedLabel = '22 Oct 2026';
+export const lastEditionLabel = '21 Oct 2026';
+export const pitchbookLabel = 'PitchBook (accessed 2026-10-21)';
 export const previousLabel = '9 Oct 2026';
 
 export const factors: {
@@ -223,18 +271,18 @@ export const sectorColors: Record<string, string> = {
 export const thesisPillars = [
   {
     title: 'A $20B cap changes the question',
-    takeaway: 'As of 21 Oct the page ranks startups at or below $20B. The 18 companies above that line are listed separately with their valuation, date and source. Anthropic, OpenAI, Databricks, Mistral, Cognition and Perplexity, six of the Oct 9 top seven, are no longer in the tiers.',
+    takeaway: 'Since 21 Oct the page ranks startups at or below $20B. The 19 companies above that line, including newly added Prometheus at $41B, are listed separately with their valuation, date and source. Anthropic, OpenAI, Databricks, Mistral, Cognition and Perplexity, six of the Oct 9 top seven, are no longer in the tiers.',
     proof: 'Anthropic is reportedly targeting ~$2T in a November IPO. OpenAI is in talks at >$1.4T. Ramp closed $1.85B at $60B on 15 Oct. Fireworks ($30–40B), Baseten ($26B), Etched ($40B+) and Perplexity (~$30B pre) cross the line on in-talks reports.',
   },
   {
     title: 'AI infrastructure with revenue still leads',
-    takeaway: 'Together AI is the only S-tier company left. Vercel, Modal and fal take three of the top five, all selling picks and shovels at ~6–16x revenue with run-rates growing several-fold a year.',
-    proof: 'Modal closed $750M at $15.75B on 14 Oct and crossed $1B run-rate (from ~$300M in May). Vercel is at ~$600M annualized, +148% YoY (single source). fal is ~$800M annualized against a $4.5B last closed round.',
+    takeaway: 'Together AI is the only S-tier company left. fal, Vercel and Modal take three of the top five, all selling picks and shovels at ~6–16x revenue with run-rates growing several-fold a year.',
+    proof: 'Modal closed $750M at $15.75B on 14 Oct and crossed $1B run-rate (from ~$300M in May). Vercel is at ~$600M annualized, +148% YoY (The Information, corroborated by Sacra). fal is ~$800M annualized against a $4.5B last closed round.',
   },
   {
     title: 'Talent labs re-price fast and land mid-table',
     takeaway: 'TypeSafe AI ($7.5B, 9 Oct) and Flapping Airplanes ($6B, 21 Oct) raised at 4x+ step-ups within weeks. Strong velocity lifts them, but missing ARR keeps them in B and D.',
-    proof: 'Physical Intelligence (#3) is the highest-ranked company with no disclosed revenue, carried by talent 10 and research 9. It opened a Pi API beta on 13 Oct.',
+    proof: 'Physical Intelligence (#4) is the highest-ranked company with no disclosed revenue, carried by talent 10 and research 9. It opened a Pi API beta on 13 Oct.',
   },
 ];
 
@@ -295,8 +343,8 @@ export const deepDives: Record<string, { take: string; watch: string }> = {
     watch: 'Bookings are not ARR. GPU ownership makes it capital-intensive if open-model inference prices collapse.',
   },
   Vercel: {
-    take: 'Up from #12 to #2. A single report (The Information, 1 Oct) puts annualized revenue at ~$600M, +148% YoY, against a $9.3B valuation from Sep 2025. That pulls the multiple to ~16x. Rauch says coding agents now trigger 60% of deployments.',
-    watch: 'The $600M figure is single-source. The last round is 13 months old, which keeps velocity at 4.6.',
+    take: 'Up from #12 on 9 Oct. The Information (1 Oct), corroborated by a Sacra estimate, puts annualized revenue at ~$600M, +148% YoY. That is against a $9.3B valuation from Sep 2025, which PitchBook confirms, so the multiple is ~16x. Rauch says coding agents now trigger 60% of deployments.',
+    watch: 'PitchBook still shows $340M FY2026 revenue and the company hasn’t confirmed $600M. The last round is 13 months old, which keeps velocity at 4.6.',
   },
   'Physical Intelligence': {
     take: 'The most cracked robotics team (Levine, Finn, Hausman), the open π-model family, and ~$1.65B raised in 18 months. The Pi API beta (13 Oct) is its first real product surface, so traction moved from 3 to 4.',
@@ -307,8 +355,8 @@ export const deepDives: Record<string, { take: string; watch: string }> = {
     watch: 'It resells third-party GPUs, so margins can be squeezed. Baseten, Together and the hyperscalers compete for the same workloads.',
   },
   fal: {
-    take: 'About $800M annualized revenue (Sep 2026) against its last closed round of $4.5B (Dec 2025), roughly a 6x multiple. A round at $15–20B was reported in September but has not closed.',
-    watch: 'The revenue figure is single-source. It depends on third-party model providers who may serve their own APIs.',
+    take: 'Now #2. About $800M annualized revenue (Sep 2026) against its last closed round of $4.5B (Dec 2025), roughly a 6x multiple. The data fill rebuilt its round history ($337M raised), lifting velocity to 8.4. A round at $15–20B was reported in September but has not closed.',
+    watch: 'The revenue figure rests on one report, and fal was not in the PitchBook pull. It depends on third-party model providers who may serve their own APIs.',
   },
   'Snorkel AI': {
     take: '$375M ARR at a $3.5B Series E (Sep 2026), ~9x, after the Expert Data-as-a-Service pivot grew ARR 18x in a year. The founding team has a strong research record.',
@@ -327,7 +375,7 @@ export const deepDives: Record<string, { take: string; watch: string }> = {
     watch: '~50 staff cut in early October. Meta paused work after a March data breach. Gross revenue includes pass-through contractor pay.',
   },
   'Prime Intellect': {
-    take: 'Up from #43 to #10. GeekWire reports it passed $100M annualized revenue at a ~$1B valuation (single source), which moves the multiple score from 3 to 10. It acquired Moondream on 13 Oct.',
-    watch: 'The revenue figure rests on one report. The compute marketplace is commoditizing, and Tinker and the hyperscalers compete for RL/fine-tuning spend.',
+    take: 'Up from #43 on 9 Oct to #10. $100M+ annualized revenue at a ~$1B valuation is now confirmed by its blog, TechCrunch, Dell Technologies Capital and PitchBook (FY2026), which moves the multiple score from 3 to 10. It acquired Moondream on 13 Oct.',
+    watch: 'The compute marketplace is commoditizing, and Tinker and the hyperscalers compete for RL/fine-tuning spend.',
   },
 };

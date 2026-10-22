@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Sierra",
+    "rounds": [
+      {"date": "2024-02", "stage": "Early funding (cumulative to launch; no round letter disclosed)", "amountUsdM": 110, "postValuationUsdB": null, "leads": "Sequoia Capital, Benchmark", "source": "https://valueaddvc.com/blog/how-does-sierra-ai-make-money-outcome-based-pricing-enterprise-agents-and-the-business-model-breakdown", "singleSource": true},
+      {"date": "2024-10", "stage": "Growth", "amountUsdM": 175, "postValuationUsdB": 4.5, "leads": "Greenoaks", "source": "https://sacra.com/c/sierra/", "singleSource": false},
+      {"date": "2025-09", "stage": "Growth", "amountUsdM": 350, "postValuationUsdB": 10, "leads": "Greenoaks", "source": "https://sacra.com/c/sierra/", "singleSource": false},
+      {"date": "2026-05", "stage": "Series E", "amountUsdM": 950, "postValuationUsdB": 15.8, "leads": "Tiger Global, GV", "source": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1585, "asOf": "2026-10", "source": "https://valueaddvc.com/blog/how-does-sierra-ai-make-money-outcome-based-pricing-enterprise-agents-and-the-business-model-breakdown", "singleSource": false, "note": "Equity; the sum of disclosed rounds (110+175+350+950). Value Add says 'roughly $1.6 billion', and the LinkedIn-derived aggregator also shows $1,585M. TechCrunch notes the Series E gives Sierra 'more than $1 billion' to work with."},
+    "arr": {"valueUsdM": 200, "date": "2026-05", "kind": "ARR", "source": "https://x.com/btaylor/status/2060467232917111229", "singleSource": false},
+    "headcount": {"value": 1164, "date": "2026-10", "source": "https://www.tipranks.com/private-companies/sierra", "singleSource": true, "sourceQuality": "aggregator"},
+    "xPresence": "@btaylor 162.7k followers; @claybavor 31.4k; @SierraPlatform 13.1k (fxtwitter, 2026-10-22). Taylor goes viral occasionally (a 2.38M-view post in Jul 2026); company milestones get 170k-360k views.",
+    "xPosts": [
+      {"url": "https://x.com/btaylor/status/2060467232917111229", "author": "btaylor", "date": "2026-05-29", "likes": 858, "views": 173357, "summary": "Sierra hit $200M ARR: seven quarters to $100M, two more quarters for the next $100M."},
+      {"url": "https://x.com/btaylor/status/2107535182119244176", "author": "btaylor", "date": "2026-10-06", "likes": 2943, "views": 360320, "summary": "Announces Personal Agent Protocol, an open standard Meta and Sierra are developing with Genesys, Instinct and others."},
+      {"url": "https://x.com/btaylor/status/2077388447074111681", "author": "btaylor", "date": "2026-07-15", "likes": 33857, "views": 2383182, "summary": "Viral joke: AI forced him to stop using em dashes for fear of signaling slop."}
+    ],
+    "talentSignals": [
+      "LinkedIn-derived headcount 1,164 (+192% YoY), with talent drawn from Google, Stripe, Meta, Figma and Palantir (https://linkedin.com/company/sierra)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "arr (verified primary)", "headcount", "rounds (added early funding)"],
+    "notes": "ARR: the $200M figure is the CEO's own post, which I verified via fxtwitter (2026-05-29, 173k views). Value Add, cryptobriefing and digitalmarketreports repeat it. Sierra's own $100M (Nov 2025, https://sierra.ai/blog/100m-arr) and $150M (Feb 2026, per CNBC) milestones corroborate the trajectory. No newer ARR found. Headcount is a LinkedIn-derived aggregator count (TipRanks, 2026-10-19); TheCODEW's ~488 looks stale. Early funding of $110M by Feb 2024 is per Fortune, via Value Add."
+  },
+  {
+    "name": "Rippling",
+    "rounds": [
+      {"date": "2017-03", "stage": "Seed", "amountUsdM": 7, "postValuationUsdB": null, "leads": "Initialized Capital, Y Combinator, SV Angel (participants)", "source": "https://app.dealroom.co/companies/rippling", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2019-04", "stage": "Series A", "amountUsdM": 45, "postValuationUsdB": 0.27, "leads": "Kleiner Perkins", "source": "https://techcrunch.com/2020/08/04/rippling-nabs-145m-at-a-1-35b-valuation-to-build-out-its-all-in-one-platform-for-employee-data/", "singleSource": false},
+      {"date": "2020-08", "stage": "Series B", "amountUsdM": 145, "postValuationUsdB": 1.35, "leads": "Founders Fund", "source": "https://techcrunch.com/2020/08/04/rippling-nabs-145m-at-a-1-35b-valuation-to-build-out-its-all-in-one-platform-for-employee-data/", "singleSource": false},
+      {"date": "2021-10", "stage": "Series C", "amountUsdM": 250, "postValuationUsdB": 6.5, "leads": "Sequoia Capital Global Growth", "source": "https://app.dealroom.co/companies/rippling", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2022-05", "stage": "Series D", "amountUsdM": 250, "postValuationUsdB": 11.25, "leads": "Bedrock, Kleiner Perkins", "source": "https://www.reuters.com/technology/rippling-valued-over-11-bln-after-latest-funding-round-2022-05-11/", "singleSource": false},
+      {"date": "2023-03", "stage": "Series E", "amountUsdM": 500, "postValuationUsdB": 11.25, "leads": "Greenoaks", "source": "https://vcmarketcap.com/company/rippling", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2024-04", "stage": "Series F", "amountUsdM": 200, "postValuationUsdB": 13.5, "leads": "Coatue", "source": "https://www.reuters.com/technology/hr-tech-startup-rippling-valued-135-bln-after-latest-fundraise-2024-04-22/", "singleSource": false},
+      {"date": "2025-05", "stage": "Series G", "amountUsdM": 450, "postValuationUsdB": 16.8, "leads": "Elad Gil, Sands Capital, GIC, Goldman Sachs Alternatives, Baillie Gifford, YC (no single lead)", "source": "https://www.rippling.com/blog/series-g-fundraising-tender-offer", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1850, "asOf": "2025-05", "source": "https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer/", "singleSource": false, "note": "Equity only; excludes tender offers ($590M in 2024, $200M in 2025). Tracxn also says $1.85B; CNBC Disruptor 50 (May 2026) says $1.8B. No raise since."},
+    "arr": {"valueUsdM": 1000, "date": "2026-04", "kind": "ARR", "source": "https://www.saastr.com/for-fracks-sake-its-not-too-late-to-ship-an-epic-agent-and-get-back-to-growth/", "singleSource": false},
+    "headcount": {"value": 6000, "date": "2026-08", "source": "https://x.com/parkerconrad/status/2093126677664809240", "singleSource": false},
+    "xPresence": "@parkerconrad 455.0k followers (fxtwitter, 2026-10-22). Posts often and combatively (Deel, Runlayer), regularly 75k-170k views. The @Rippling company account is low-engagement apart from occasional 100k-view posts.",
+    "xPosts": [
+      {"url": "https://x.com/parkerconrad/status/2093126677664809240", "author": "parkerconrad", "date": "2026-08-28", "likes": 194, "views": 76015, "summary": "Conrad says Rippling's code-writing MCP changed how he runs payroll 'for our ~6,000 employee co.' as solo payroll admin."},
+      {"url": "https://x.com/parkerconrad/status/2090454885804515415", "author": "parkerconrad", "date": "2026-08-20", "likes": 547, "views": 126605, "summary": "Says Runlayer sued Rippling to block its MCP Gateway launch, then dropped the suit."},
+      {"url": "https://x.com/Rippling/status/2102208762648145956", "author": "Rippling", "date": "2026-09-22", "likes": 348, "views": 119068, "summary": "Rippling AI Lab engineering hub goes live in Bengaluru."}
+    ],
+    "talentSignals": [
+      "Opened the Rippling AI Lab in Bengaluru (2026-09-22) (https://x.com/Rippling/status/2102208762648145956)",
+      "Headcount ~5K (Apr 2026, Conrad) to ~6,000 (Aug 2026, Conrad) (https://www.whatshot.vc/p/whats-in-enterprise-itvc-494; https://x.com/parkerconrad/status/2093126677664809240)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds (full history)", "totalRaisedUsdM", "arr (corroborated)", "headcount", "xPosts"],
+    "notes": "ARR: Conrad posted on X and LinkedIn on 2026-04-15 that revenue is 'growing 78% YoY (at ARR over $1 Billion)', with growth accelerating for three straight quarters. SaaStr embeds the X post, and CNBC's Disruptor 50 (2026-05-19) cites it. CNBC's text also says Rippling crossed $1B ARR 'in 2025', while AskCyborg says $850M at end-2025. Exact crossing date is uncertain; April 2026 is used. Headcount: the CEO's '~6,000 employee co.' (verified on X) is preferred over Tracxn's 7,844 (aggregator, Sep 2026, probably includes contractors/India). TechCrunch reported '>4,000' in May 2025. The 2021 Series C and 2023 Series E are aggregator-sourced here, though widely reported at the time."
+  },
+  {
+    "name": "Harvey",
+    "rounds": [
+      {"date": "2022-11", "stage": "Seed", "amountUsdM": 5, "postValuationUsdB": null, "leads": "OpenAI Startup Fund", "source": "https://siliconvalleyinvestclub.com/companies/harvey-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2023-04", "stage": "Series A", "amountUsdM": 21, "postValuationUsdB": null, "leads": "Sequoia", "source": "https://siliconvalleyinvestclub.com/companies/harvey-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2023-12", "stage": "Series B", "amountUsdM": 80, "postValuationUsdB": 0.715, "leads": "Elad Gil, Kleiner Perkins", "source": "https://siliconvalleyinvestclub.com/companies/harvey-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2024-07", "stage": "Series C", "amountUsdM": 100, "postValuationUsdB": 1.5, "leads": "GV", "source": "https://siliconvalleyinvestclub.com/companies/harvey-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2025-02", "stage": "Series D", "amountUsdM": 300, "postValuationUsdB": 3, "leads": "Sequoia", "source": "https://sacra.com/c/harvey/", "singleSource": false},
+      {"date": "2025-06", "stage": "Series E", "amountUsdM": 300, "postValuationUsdB": 5, "leads": "Kleiner Perkins, Coatue", "source": "https://sacra.com/c/harvey/", "singleSource": false},
+      {"date": "2025-12", "stage": "Growth (Series F)", "amountUsdM": 160, "postValuationUsdB": 8, "leads": "a16z", "source": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/", "singleSource": false},
+      {"date": "2026-03", "stage": "Growth", "amountUsdM": 200, "postValuationUsdB": 11, "leads": "GIC, Sequoia", "source": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/", "singleSource": false},
+      {"date": "2026-09", "stage": "Growth", "amountUsdM": 550, "postValuationUsdB": 15.5, "leads": "Diffusion, Lightspeed", "source": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1716, "asOf": "2026-09", "source": "https://siliconvalleyinvestclub.com/companies/harvey-ai/", "singleSource": false, "note": "Equity; the sum of the nine rounds listed. Robert Ambrogi (LawSites) calculates 'north of $1.5 billion' (https://www.linkedin.com/posts/robertambrogi_harvey-raises-another-550m-at-a-155b-valuation-activity-7503476777487376384-Dg6x); aggregators say ~$1.8B, possibly including an unverified EUR 50M EQT growth investment (Oct 2025)."},
+    "headcount": {"value": 1400, "date": "2026-09", "source": "https://www.linkedin.com/posts/sksampson_harvey-has-grown-from-560-people-in-january-activity-7503451279986200576-VsFJ", "singleSource": false},
+    "xPresence": "@harvey 22.1k followers; @winstonweinberg 8.5k (fxtwitter, 2026-10-22). Company posts get 35k-270k views; a podcast clip with Mercor's Brendan Foody reached 856k.",
+    "xPosts": [
+      {"url": "https://x.com/harvey/status/2097659907394937087", "author": "harvey", "date": "2026-09-09", "likes": 366, "views": 190411, "summary": "Announces the $550M raise at a $15.5B valuation co-led by Lightspeed and Diffusion. The thread cites $400M+ ARR and 1,400+ employees."},
+      {"url": "https://x.com/harvey/status/2100253381285630378", "author": "harvey", "date": "2026-09-16", "likes": 93, "views": 45688, "summary": "Welcomes Adam Sadovsky (ex-co-lead of post-training at Microsoft AI and Google DeepMind) as Chief Research Officer."},
+      {"url": "https://x.com/harvey/status/2100986256377434319", "author": "harvey", "date": "2026-09-18", "likes": 171, "views": 856252, "summary": "Cofounder Gabe Pereyra joins Brendan Foody to discuss Harvey becoming a full-stack AI company."}
+    ],
+    "talentSignals": [
+      "Hired Adam Sadovsky as Chief Research Officer, 2026-09-16 (previously co-led post-training at Microsoft AI and Google DeepMind) (https://x.com/harvey/status/2100253381285630378)",
+      "Grew from 560 people in Jan 2026 to 1,400+ in 13 offices by Sep 2026 (https://www.linkedin.com/posts/sksampson_harvey-has-grown-from-560-people-in-january-activity-7503451279986200576-VsFJ)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds (full history)", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Headcount of 1,400+ is stated in both Harvey's funding thread on X (verified, 2026-09-09) and a Harvey employee's LinkedIn post, both company statements. The 2022-2024 rounds come from an aggregator compilation; those amounts match widely reported figures but are flagged singleSource."
+  },
+  {
+    "name": "Glean",
+    "rounds": [
+      {"date": "2019-03", "stage": "Series A", "amountUsdM": 15, "postValuationUsdB": null, "leads": "Kleiner Perkins", "source": "https://siliconvalleyinvestclub.com/tr/companies/glean/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2021-03", "stage": "Series B", "amountUsdM": 40, "postValuationUsdB": null, "leads": "General Catalyst", "source": "https://siliconvalleyinvestclub.com/tr/companies/glean/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2022-05", "stage": "Series C", "amountUsdM": 100, "postValuationUsdB": 1, "leads": "Sequoia Capital", "source": "https://siliconvalleyinvestclub.com/tr/companies/glean/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2024-02", "stage": "Series D", "amountUsdM": 200, "postValuationUsdB": 2.2, "leads": "Kleiner Perkins, Lightspeed", "source": "https://techcrunch.com/2025/06/10/enterprise-ai-startup-glean-lands-a-7-2b-valuation/", "singleSource": false},
+      {"date": "2024-09", "stage": "Series E", "amountUsdM": 260, "postValuationUsdB": 4.6, "leads": "Altimeter, DST Global", "source": "https://news.crunchbase.com/venture/ai-powered-work-assistant-glean-valuation-jumps/", "singleSource": false},
+      {"date": "2025-06", "stage": "Series F", "amountUsdM": 150, "postValuationUsdB": 7.2, "leads": "Wellington Management", "source": "https://www.businesswire.com/news/home/20250610090029/en/Glean-Raises-%24150M-Series-F-at-%247.2B-Valuation-to-Accelerate-Enterprise-AI-Agent-Innovation-Globally", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 765, "asOf": "2026-10", "source": "https://www.cbinsights.com/company/glean-2", "singleSource": false, "note": "Equity. CB Insights says $765.3M, matching the sum of rounds. TechCrunch: '$610M since early 2024' (Series D-F). CEO said in Oct 2026 there are no plans to raise more."},
+    "xPresence": "@jainarvind 10.8k followers; @glean 11.3k (fxtwitter, 2026-10-22). The company account is quiet (2k-6k views); Jain's milestone posts reach 200k-950k views.",
+    "xPosts": [
+      {"url": "https://x.com/jainarvind/status/2060077511212445874", "author": "jainarvind", "date": "2026-05-28", "likes": 917, "views": 281582, "summary": "Glean surpassed $300M ARR five months after crossing $200M, ~3x growth over 15 months."},
+      {"url": "https://x.com/glean/status/2093051788593164471", "author": "glean", "date": "2026-08-27", "likes": 40, "views": 5941, "summary": "Introduces Glean AI Gateway, a governed layer for LLMs and MCP, at Glean:GO."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "rounds (full history)", "xPosts"],
+    "notes": "The CEO's X post independently confirms the $300M ARR (May 2026). The 2019-2022 rounds come from an aggregator compilation."
+  },
+  {
+    "name": "Decagon",
+    "rounds": [
+      {"date": "2024-06", "stage": "Seed + Series A (announced together; $5M seed + $30M A)", "amountUsdM": 35, "postValuationUsdB": null, "leads": "a16z (seed), Accel (Series A)", "source": "https://www.revenuememo.com/p/decagon-funding", "singleSource": false},
+      {"date": "2024-10", "stage": "Series B", "amountUsdM": 65, "postValuationUsdB": 0.65, "leads": "Bain Capital Ventures", "source": "https://www.sec.gov/Archives/edgar/data/2043374/000204337424000001/primary_doc.xml", "singleSource": false},
+      {"date": "2025-06", "stage": "Series C", "amountUsdM": 131, "postValuationUsdB": 1.5, "leads": "Accel, a16z", "source": "https://sacra.com/c/decagon/", "singleSource": false},
+      {"date": "2025-11", "stage": "Strategic (undisclosed amount)", "amountUsdM": null, "postValuationUsdB": null, "leads": "T.Capital (Deutsche Telekom)", "source": "https://www.revenuememo.com/p/decagon-funding", "singleSource": true},
+      {"date": "2026-01", "stage": "Series D", "amountUsdM": 250, "postValuationUsdB": 4.5, "leads": "Coatue, Index Ventures", "source": "https://decagon.ai/blog/series-d-announcement", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 481, "asOf": "2026-10", "source": "https://sacra.com/c/decagon/", "singleSource": false, "note": "Equity; Sacra and revenuememo both say ~$481M; Business Insider (2026-10-13) says 'over $400 million'. Excludes the Mar 2026 employee tender (secondary). The Form D for the Series B shows $61.5M sold of a $65M offering (first sale 2024-10-09)."},
+    "arr": {"valueUsdM": 100, "date": "2026-08", "kind": "annualized revenue", "source": "https://www.newcomer.co/p/decagon-hit-100-million-betting-against", "singleSource": true},
+    "headcount": {"value": 300, "date": "2026-03", "source": "https://sacra.com/c/decagon/", "singleSource": true, "sourceQuality": "aggregator"},
+    "xPresence": "@thejessezhang 105.4k followers; @DecagonAI 7.1k (fxtwitter, 2026-10-22). Product posts get 10k-140k views.",
+    "xPosts": [
+      {"url": "https://x.com/DecagonAI/status/2107544569340694705", "author": "DecagonAI", "date": "2026-10-06", "likes": 1064, "views": 140140, "summary": "Open-sources the Personal Agent Consent & Trust Protocol (PACT) with Instinct and joins the Personal Agent Protocol working group."},
+      {"url": "https://x.com/thejessezhang/status/2105718516058063080", "author": "thejessezhang", "date": "2026-10-01", "likes": 417, "views": 68299, "summary": "Announces Decagon's personal agent gateway so consumer assistants can talk to business agents."},
+      {"url": "https://x.com/DecagonAI/status/2105711564427018642", "author": "DecagonAI", "date": "2026-10-01", "likes": 72, "views": 27173, "summary": "Launches Voice 3, built on Chord, its first in-house speech model from Decagon Labs."}
+    ],
+    "talentSignals": [
+      "Built its first in-house voice model (Chord) at 'Decagon Labs'; ~90% of workloads run on fine-tuned open-source models per CEO (https://x.com/DecagonAI/status/2108227325716525333; https://www.pymnts.com/news/acquiring/2026/servicenow-denies-reports-of-takeover-interest-in-ai-agent-startup-decagon/)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "headcount", "xPosts", "rounds (added seed/A and strategic)"],
+    "notes": "ARR remains single-origin: Decagon 'told' Newcomer (Tom Dotan, 2026-08-11) it crossed $100M annualized revenue. PYMNTS and Value Add repeat Newcomer, and Sacra's independent estimate ($100M in Jul 2026) agrees, but no second primary report exists. Headcount: 'more than 300 employees' were eligible for the Mar 2026 tender (Sacra/revenuememo). Vertical Velocity lists 405 (Sep 2026, aggregator). M&A status is unchanged: BI says Decagon hired a bank, and ServiceNow denies interest."
+  },
+  {
+    "name": "Rogo",
+    "rounds": [
+      {"date": "2024-02", "stage": "Seed (implied: $26M raised to date minus the $18.5M Series A)", "amountUsdM": 7.5, "postValuationUsdB": null, "leads": "AlleyCorp, BoxGroup, Jack Altman (participants)", "source": "https://rogo.com/news/rogo-series-a-with-khosla-ventures", "singleSource": true},
+      {"date": "2024-10", "stage": "Series A", "amountUsdM": 18.5, "postValuationUsdB": null, "leads": "Khosla Ventures (Keith Rabois)", "source": "https://rogo.com/news/rogo-series-a-with-khosla-ventures", "singleSource": false},
+      {"date": "2025-04", "stage": "Series B", "amountUsdM": 50, "postValuationUsdB": null, "leads": "Thrive Capital", "source": "https://rogo.com/news/rogo-announces-50m-series-b", "singleSource": false},
+      {"date": "2026-01", "stage": "Series C", "amountUsdM": 75, "postValuationUsdB": null, "leads": "Sequoia Capital", "source": "https://rogo.com/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion", "singleSource": false},
+      {"date": "2026-04", "stage": "Series D", "amountUsdM": 160, "postValuationUsdB": 2, "leads": "Kleiner Perkins", "source": "https://www.prnewswire.com/news-releases/rogo-raises-160m-series-d-to-scale-the-agentic-platform-for-finance-302756546.html", "singleSource": false},
+      {"date": "2026-09", "stage": "Strategic", "amountUsdM": 30, "postValuationUsdB": null, "leads": "Barclays, BNP Paribas, Citi Ventures, MUFG, Societe Generale", "source": "https://www.wsj.com/finance/banking/wall-streets-favorite-ai-startup-sets-its-sights-on-wealth-management-61b8b5d1", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 330, "asOf": "2026-10", "source": "https://www.prnewswire.com/news-releases/rogo-raises-160m-series-d-to-scale-the-agentic-platform-for-finance-302756546.html", "singleSource": false, "note": "Equity: 'more than $300 million' after the Series D (company PR) plus ~$30M strategic (WSJ). The Information (via Dealroom, Sep 2026) cites $313.57M raised, possibly before the strategic round."},
+    "arr": {"valueUsdM": 50, "date": "2026-09", "kind": "ARR", "source": "https://dealroom.co/news/info-mvrieu-rogo-hebbia-revenue-rises-as-claude-finance-threat-looms/", "singleSource": true},
+    "arrHistory": [
+      {"date": "2024-12", "valueUsdM": 2, "source": "https://www.forbes.com/companies/rogo/"},
+      {"date": "2025-12", "valueUsdM": 15, "source": "https://www.forbes.com/companies/rogo/"},
+      {"date": "2026-09", "valueUsdM": 50, "source": "https://dealroom.co/news/info-mvrieu-rogo-hebbia-revenue-rises-as-claude-finance-threat-looms/"}
+    ],
+    "headcount": {"value": 250, "date": "2026-10", "source": "https://www.linkedin.com/posts/gabestengel_q3-was-the-strongest-quarter-in-rogos-history-activity-7514346624643608576-TOuN", "singleSource": false},
+    "xPresence": "@RogoAI 7.0k followers; @GabeStengel 4.6k (fxtwitter, 2026-10-22). Funding and product posts get 25k-115k views.",
+    "xPosts": [
+      {"url": "https://x.com/GabeStengel/status/2016531707663442201", "author": "GabeStengel", "date": "2026-01-28", "likes": 137, "views": 113843, "summary": "Announces Rogo's $75M Series C led by Sequoia."},
+      {"url": "https://x.com/RogoAI/status/2080024320844452288", "author": "RogoAI", "date": "2026-07-22", "likes": 118, "views": 77793, "summary": "Launches Rogo Intelligence, turning firm knowledge into institutional memory."},
+      {"url": "https://x.com/RogoAI/status/2098038338443731415", "author": "RogoAI", "date": "2026-09-10", "likes": 99, "views": 24166, "summary": "Announces strategic investment from Barclays, BNP Paribas, Citi Ventures, MUFG and Societe Generale."}
+    ],
+    "talentSignals": [
+      "Joe Xavier joined as CTO from Grammarly; opened Singapore and SF offices; acquired Rivanna AI and Arvo (CEO Q3 update, 2026-10-09) (https://www.linkedin.com/posts/gabestengel_q3-was-the-strongest-quarter-in-rogos-history-activity-7514346624643608576-TOuN)",
+      "Headcount from ~30 (early 2025) to 125 (Jan 2026) to 250+ (Oct 2026); target 300 by end-2026 (https://www.fnlondon.com/articles/meet-the-former-dealmakers-switching-to-ai-we-have-lived-the-problem-b670bf61)"
+    ],
+    "scoreAdjustments": {"traction": 6},
+    "scoreAdjustmentReason": "New evidence: >$50M ARR (from $15M at end-2025), +70% ARR QoQ in Q3 2026, 450+ institutions, 60k+ users, and live at 7 of the top 8 investment banks. That is a clearly fast-growing business, beyond the base score of 5.5.",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "arr", "headcount", "xPosts", "rounds (full history)"],
+    "notes": "ARR >$50M comes from The Information (summarised by Dealroom, 2026-09-03; 'sources with direct knowledge'), which adds a possible ~$100M early 2027. The CEO's Q3 post (LinkedIn, dated 2026-10-09 via its activity ID) says ARR grew 70% in Q3 but gives no absolute figure. Forbes gives revenue of $2M (2024) and >$15M (2025). Headcount 250+ is the CEO's own statement; TipRanks (LinkedIn-derived) shows 263 on 2026-10-19. The seed is inferred from the company's '$26M raised to date' at the Series A; its exact date is unknown (2024-02 is the product launch month)."
+  },
+  {
+    "name": "Hex",
+    "rounds": [
+      {"date": "2021-04", "stage": "Seed", "amountUsdM": 5.5, "postValuationUsdB": null, "leads": "Amplify Partners", "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/", "singleSource": false},
+      {"date": "2021-10", "stage": "Series A", "amountUsdM": 16, "postValuationUsdB": null, "leads": "Redpoint Ventures", "source": "https://techcrunch.com/2021/10/20/hex-snags-16m-series-a-to-keep-building-collaborative-data-workspace/", "singleSource": false},
+      {"date": "2022-03", "stage": "Series B", "amountUsdM": 52, "postValuationUsdB": null, "leads": "a16z", "source": "https://techcrunch.com/2022/03/22/hex-scores-52m-series-b-to-grow-data-science-collaboration-platform/", "singleSource": false},
+      {"date": "2023-03", "stage": "Series B extension", "amountUsdM": 28, "postValuationUsdB": null, "leads": "Sequoia Capital", "source": "https://multiples.vc/private-comps/hex-technologies", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2025-05", "stage": "Series C", "amountUsdM": 70, "postValuationUsdB": null, "leads": "Avra", "source": "https://hex.tech/blog/series-c/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 172, "asOf": "2026-10", "source": "https://siliconangle.com/2025/05/28/hex-raises-70m-expand-ai-powered-data-analytics-platform/", "singleSource": false, "note": "Equity; SiliconANGLE (citing Tracxn) and Multiples both say $172M, matching the round sum (5.5+16+52+28+70 = 171.5). No round since May 2025."},
+    "headcount": {"value": 287, "date": "2026", "source": "https://rocketreach.co/hex-profile_b43dbdcfc19c9d86", "singleSource": true, "sourceQuality": "aggregator"},
+    "xPresence": "@barrald (CEO Barry McCardel) 4.5k followers; @hexanalytics 7.2k (fxtwitter, 2026-10-22). The CEO occasionally goes semi-viral on non-Hex takes (237k views); company posts get <5k views.",
+    "xPosts": [
+      {"url": "https://x.com/barrald/status/2091584842895065102", "author": "barrald", "date": "2026-08-23", "likes": 2330, "views": 237406, "summary": "CEO argues for building large AI data-center capacity in northern Alaska (not Hex-specific)."},
+      {"url": "https://x.com/hexanalytics/status/2093018525858426897", "author": "hexanalytics", "date": "2026-08-27", "likes": 6, "views": 863, "summary": "Product update: point-and-click editing alongside code generation in Hex generative apps."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation", "arr"],
+    "filled": ["totalRaisedUsdM", "headcount", "xPosts", "rounds (full history)"],
+    "notes": "Valuation: neither the company nor Fortune (which had the exclusive) disclosed the Series C valuation. Aggregators say ~$380M (Airframe, AdamGTM) or $400M (GetLatka, mis-attributing it to Fortune). Multiples' '$420M Oct 2025' note looks garbled. Treat all as unconfirmed. ARR: not disclosed (the Series C post only mentions 'crossing some major customer and revenue milestones'). Aggregator estimates: $19.8M ARR 2024 (AdamGTM), $22.1M revenue 2026 (RocketReach), $6M 2022 (GetLatka citing Forbes). Headcount aggregators range from 192 (Airframe) to ~260 (AdamGTM) to 287 (RocketReach); hex.tech schema lists a 51-200 band (likely stale). TechCrunch dates the seed both '2020' and 'a little over six months' before Oct 2021; 2021-04 is used for the announcement. The @hex_tech handle is NOT Hex (it is a crypto-spam account); the real handle is @hexanalytics (linked from hex.tech)."
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Vercel",
+    "rounds": [
+      {"date": "2020-04", "stage": "Series A + A-1", "amountUsdM": 21, "postValuationUsdB": 0.096, "leads": null, "source": "https://finance.yahoo.com/quote/VERC.PVT/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2020-12", "stage": "Series B", "amountUsdM": 40, "postValuationUsdB": 0.447, "leads": null, "source": "https://finance.yahoo.com/quote/VERC.PVT/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2021-06", "stage": "Series C", "amountUsdM": 102, "postValuationUsdB": 1.1, "leads": null, "source": "https://finance.yahoo.com/quote/VERC.PVT/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2021-11", "stage": "Series D", "amountUsdM": 150, "postValuationUsdB": 2.5, "leads": null, "source": "https://finance.yahoo.com/quote/VERC.PVT/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2024-05", "stage": "Series E", "amountUsdM": 250, "postValuationUsdB": 3.25, "leads": "Accel", "source": "https://www.reuters.com/technology/vercel-completes-250-mln-series-e-round-325-bln-valuation-2024-05-16/", "singleSource": false},
+      {"date": "2025-09", "stage": "Series F", "amountUsdM": 300, "postValuationUsdB": 9.3, "leads": "Accel, GIC", "source": "https://vercel.com/blog/series-f", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 863, "asOf": "2025-09", "source": "https://sacra.com/c/vercel/", "singleSource": false, "note": "Equity only. Sacra, Tracxn ('$863M in 6 rounds') and the Forge/Yahoo charter table all agree, and the rounds above add up to $863M. Forbes/Otta gave $563M before the Series F. Excludes the roughly $300M secondary tender alongside the Series F."},
+    "arr": {"valueUsdM": 600, "date": "2026-10", "kind": "annualized revenue", "source": "https://www.theinformation.com/topics/vercel", "singleSource": false, "note": "Better source than the Dealroom relay: The Information (Alix Coutures, 2026-10-01) is the primary report. I verified The Information's own X post (https://x.com/theinformation/status/2106451724663714294): '$600 million in annualized revenue, up 148%'. Sacra independently estimates $600M for Sep 2026 (https://sacra.com/c/vercel/). The company has not confirmed it; The Information's source is a person close to the company."},
+    "headcount": {"value": 1026, "date": "2026-10", "source": "https://linkedin.com/company/vercel", "singleSource": false, "sourceQuality": "aggregator", "note": "LinkedIn shows 1,026 (+35.9% YoY). TipRanks shows 1,029 as of 2026-10-19 (https://www.tipranks.com/private-companies/vercel), and Tracxn shows 1,024 as of 2026-09-30. Replaces the Sourcery podcast's 'about 800'."},
+    "research": "Major OSS: Next.js and the AI SDK (more than 3.2M weekly downloads as of Sep 2025, per the company), plus vgpu.sh. Star counts not re-verified this pass.",
+    "researchSources": ["https://vercel.com/blog/series-f"],
+    "xPresence": "@vercel 465.6k followers (fxtwitter, 2026-10-22); @rauchg about 905k per the base file (fxtwitter was intermittent today).",
+    "xPosts": [
+      {"url": "https://x.com/theinformation/status/2106451724663714294", "author": "theinformation", "date": "2026-10-03", "likes": 309, "views": 100325, "summary": "The Information: Vercel at $600M annualized revenue, up 148%; agents now drive about half of new business, up from under 3%."}
+    ],
+    "talentSignals": ["LinkedIn alumni data shows the top destinations for ex-Vercel staff are Cursor (25), Cloudflare (13) and Anthropic (12) (https://linkedin.com/company/vercel)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "The refresh already moved traction to 8 on the $600M figure; the better sourcing confirms it but doesn't change it.",
+    "notDisclosed": ["latestValuation (no round since the $9.3B Series F)"],
+    "filled": ["rounds", "totalRaisedUsdM", "arr (better source)", "headcount"],
+    "notes": "No new primary round or tender in 2026; the database-listed Jul 2026 '$300M Series G' is still unverified and not included. Pre-2024 round sizes and valuations come from Forge/Yahoo charter data (aggregator)."
+  },
+  {
+    "name": "Lovable",
+    "rounds": [
+      {"date": "2024-10", "stage": "Pre-Seed", "amountUsdM": 7.5, "postValuationUsdB": null, "leads": "Hummingbird Ventures, byFounders", "source": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "singleSource": false},
+      {"date": "2025-02", "stage": "Pre-Series A", "amountUsdM": 15, "postValuationUsdB": null, "leads": "Creandum", "source": "https://techcrunch.com/2025/07/17/lovable-becomes-a-unicorn-with-200m-series-a-just-8-months-after-launch/", "singleSource": false},
+      {"date": "2025-07", "stage": "Series A", "amountUsdM": 200, "postValuationUsdB": 1.8, "leads": "Accel", "source": "https://lovable.dev/blog/200m-series-a-fundraise", "singleSource": false},
+      {"date": "2025-12", "stage": "Series B", "amountUsdM": 330, "postValuationUsdB": 6.6, "leads": "CapitalG, Menlo Ventures", "source": "https://lovable.dev/blog/series-b", "singleSource": false},
+      {"date": "2026-08", "stage": "Series C", "amountUsdM": 400, "postValuationUsdB": 13.3, "leads": "Menlo Ventures, Scaleup Europe Fund (EQT)", "source": "https://lovable.dev/blog/series-c", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 952.5, "asOf": "2026-08", "source": "https://seedtable.com/companies/lovable/funding-rounds", "singleSource": false, "note": "Equity. Sum of the five rounds above, each sourced to company or press; StockAnalysis gives the same total."},
+    "arr": {"valueUsdM": 600, "date": "2026-09", "kind": "run-rate", "source": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/", "singleSource": false, "note": "Co-founder and CTO Fabian Hedin said it on stage at HumanX Amsterdam (2026-09-23/24). TheNextWeb reported it independently from the session (https://thenextweb.com/news/lovable-fabian-hedin-fortune-500-600m-revenue-humanx). Company-stated."},
+    "headcount": {"value": 146, "date": "2026-02", "source": "https://www.revenuememo.com/p/lovable-funding", "singleSource": true, "note": "Unchanged. The Series C blog says it plans about 450 people by end of 2026 (https://lovable.dev/blog/series-c)."},
+    "research": "The founder's gpt-engineer repo has 55.0k GitHub stars (API, 2026-10-22). Lovable also post-trains open models in-house (Series C blog). No papers.",
+    "researchSources": ["https://github.com/AntonOsika/gpt-engineer", "https://lovable.dev/blog/series-c"],
+    "xPresence": "@antonosika 85.3k followers (fxtwitter; the earlier 404 was transient); @FabianHedin 7.2k. The company account @lovable didn't resolve via fxtwitter today (the base file has 158k). The Series C post reached 631k views.",
+    "xPosts": [
+      {"url": "https://x.com/antonosika/status/2087479638939652601", "author": "antonosika", "date": "2026-08-12", "likes": 1374, "views": 630892, "summary": "Osika announces the $400M raise at $13.3B: 900M monthly visits to Lovable-built apps, ARR quadrupled in 12 months."}
+    ],
+    "talentSignals": ["The Series C blog targets about 450 staff by end of 2026, hiring mostly in ML, product, infra and security, with hubs in Stockholm, London, Boston, SF and NYC (https://lovable.dev/blog/series-c)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds (added the missing $7.5M pre-seed and $200M Series A)", "totalRaisedUsdM", "arr (second source)", "xPosts"],
+    "notes": "The base file was missing the Jul 2025 $200M Series A at $1.8B. In his LinkedIn post Osika says ARR 'nearly tripled' in the 8 months after the Series B, while on X he says it 'quadrupled' over 12 months."
+  },
+  {
+    "name": "River AI",
+    "rounds": [
+      {"date": "2026-08", "stage": "Seed + Series A (combined; split not disclosed)", "amountUsdM": 1100, "postValuationUsdB": 5, "leads": "General Catalyst, AMP PBC", "source": "https://river.ai/series-seed-series-a-funding", "singleSource": false, "note": "The $5B valuation comes from Reuters/NYT, not the company. Participants: NVIDIA, AMD Ventures, Y Combinator, Temasek."}
+    ],
+    "totalRaisedUsdM": {"value": 1100, "asOf": "2026-08", "source": "https://river.ai/series-seed-series-a-funding", "singleSource": false, "note": "Equity. This is the only disclosed financing; Reuters and TechCrunch confirm it. Babuschkin's reported personal commitment of up to $100M is not included."},
+    "research": "No papers. One open-source effort: River Recipes (2026-10-06), whose first recipe is text-to-SQL (RL + LoRA, rebuilt from ReViSQL). It claims four open models hit 92.96% on Arcwise-Plat and beat GPT-6 Astra Pro and Claude Opus 5.5 at under 1-2% of the cost (self-reported). Blog output: 5 posts since Jun 2026. No public GitHub org found via the API.",
+    "researchSources": ["https://river.ai/blog", "https://www.linkedin.com/posts/river-ai-official_achieving-frontier-text-to-sql-with-the-river-activity-7513682273775394816-J7C3"],
+    "xPresence": "@ibab 111.9k; @river_ai_inc 9.3k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr", "seed vs Series A split", "Form D (no EDGAR full-text hit for 'River AI')"],
+    "filled": ["rounds (confirmed that the single combined round is the full history)", "totalRaisedUsdM", "research"],
+    "notes": "Founded 2026 and out of stealth in Jun 2026, so there is no earlier priced round; the combined Seed + Series A is the whole history. Revenue is metered usage on the River API, but no figure has been disclosed."
+  },
+  {
+    "name": "Factory",
+    "rounds": [
+      {"date": "2023-11", "stage": "Seed", "amountUsdM": 5, "postValuationUsdB": 0.037, "leads": "Sequoia", "source": "https://sacra.com/c/factory/", "singleSource": true, "sourceQuality": "aggregator", "note": "Forge charter data shows a Series Seed 2 at $36.7M post (https://forgeglobal.com/factory-ai_ipo/)."},
+      {"date": "2024-06", "stage": "Series A", "amountUsdM": 15, "postValuationUsdB": 0.12, "leads": "Sequoia", "source": "https://sacra.com/c/factory/", "singleSource": false, "sourceQuality": "aggregator", "note": "Forge shows $14.5M at $120M post."},
+      {"date": "2025-09", "stage": "Series B", "amountUsdM": 50, "postValuationUsdB": 0.3, "leads": "NEA, Sequoia (with NVIDIA, J.P. Morgan)", "source": "https://sacra.com/c/factory/", "singleSource": false, "sourceQuality": "aggregator", "note": "Forge charter shows B-1 $30.5M plus B-2 $5.0M at $300M post, so the $50M may include SAFEs or a later close."},
+      {"date": "2026-04", "stage": "Series C", "amountUsdM": 150, "postValuationUsdB": 1.5, "leads": "Khosla Ventures", "source": "https://factory.com/news/series-c", "singleSource": false},
+      {"date": "2026-09", "stage": "Growth (Series C-2 per charter)", "amountUsdM": 200, "postValuationUsdB": 5, "leads": "Blackstone, Khosla, Sequoia et al. (no named lead); Menlo joined 2026-10-05", "source": "https://factory.com/news/5-billion-valuation", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 420, "asOf": "2026-09", "source": "https://sacra.com/c/factory/", "singleSource": false, "note": "The company says 'over $400 million' (https://factory.com/news/5-billion-valuation). Sacra gives $420M across 5 rounds. Equity only."},
+    "arr": {"valueUsdM": 60, "date": "2026-03", "kind": "annualized revenue", "source": "https://sacra.com/c/factory/", "singleSource": true, "sourceQuality": "aggregator", "note": "Still the only figure; ARR Club logs the same $60M (Mar 30). Company-stated growth only: revenue doubled month over month for 6 months to Apr 2026, and Grinberg says it is up 100x year over year (Sep 30). No primary dollar figure exists."},
+    "headcount": {"value": 219, "date": "2026-09", "source": "https://sacra.com/c/factory/", "singleSource": true, "sourceQuality": "aggregator", "note": "Sacra attributes this to the company (COO Francesca LaBianca: grown from 10 to 219)."},
+    "research": "Product and engineering blogs only; no papers.",
+    "researchSources": [],
+    "xPresence": "@FactoryAI 57.7k; @matanSF 29.6k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (no primary-source dollar figure after Mar 2026)"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "CORRECTION: the base file's 'Jul 2026 Series C extension, $120M at $4B' (TechFundingNews, repeated by valueaddvc) looks like double counting. WSJ says the Sep round was 'more than three times its valuation from five months ago, when it last raised funding', which means there was no July raise. Forge's charter data shows the $120M Series C-2 shares dated 2026-09-15 at $4.15B post, so they are part of the Sep $200M round. The company's 'over $400M' total also fits only if there was no extra $120M (5+15+50+150+200 = $420M). I dropped it from the round history."
+  },
+  {
+    "name": "Core Automation",
+    "rounds": [
+      {"date": "2026-04", "stage": "Seed (Series Seed-1)", "amountUsdM": 100, "postValuationUsdB": 1, "leads": null, "source": "https://www.techmeme.com/260507/p50", "singleSource": false, "note": "Investors were Accel, NVIDIA, Spark, Threshold and Scribble per Forge (https://forgeglobal.com/core-automation_ipo/). This appears to have been SAFE money that converted in the July offering; see notes."},
+      {"date": "2026-07", "stage": "Series Seed (Form D: $432.1M sold of $635.2M; includes $135.3M of converted SAFEs)", "amountUsdM": 432.1, "postValuationUsdB": 3.62, "leads": null, "source": "https://www.sec.gov/Archives/edgar/data/2148145/000214814526000001/primary_doc.xml", "singleSource": true, "sourceQuality": "aggregator", "note": "The amount is from the SEC Form D (primary). The $3.62B post-money is Forge charter data (aggregator, singleSource). The Information's May 2026 target was about $4B (in talks)."}
+    ],
+    "totalRaisedUsdM": {"value": 432.1, "asOf": "2026-07", "source": "https://www.sec.gov/Archives/edgar/data/2148145/000214814526000001/primary_doc.xml", "singleSource": false, "note": "Equity. The Form D's totalAmountSold is $432,125,053, and its clarification says this 'includes $135,252,607 of securities issued upon conversion and cancellation of outstanding SAFEs'. The April seed money therefore appears to be inside the $432M. Forge and PitchBook's $532M likely double-counts the seed. Another $203M of the offering is unsold and could still close."},
+    "headcount": {"value": 27, "date": "2026-09", "source": "https://linkedin.com/company/core-auto", "singleSource": true, "note": "Unchanged. PitchBook shows 16; Altis about 22."},
+    "research": "No papers or models released yet.",
+    "researchSources": [],
+    "xPresence": "@coreauto 11.8k; @MillionInt (Tworek) 43.4k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": ["The Form D lists directors Jaroslaw (Jerry) Tworek, Rohan Anil and Aliisa Rosenthal, and executive officer Julia Villagra (https://app.edgar.tools/filing/2148145/0002148145-26-000001/formd)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (pre-product research lab; no revenue disclosed)"],
+    "filled": ["totalRaisedUsdM"],
+    "notes": "CORRECTION: total raised is about $432M, not $532M (100 + 432), because the Form D's sold amount includes $135M of converted SAFEs. The July offering's $3.62B post-money is aggregator-only. The base file's latestValuation of $1B (closed seed) is still the latest sourced closed value from news; the Forge $3.62B is a candidate, flagged singleSource."
+  },
+  {
+    "name": "Instinct",
+    "rounds": [
+      {"date": "2025", "stage": "Seed (early)", "amountUsdM": null, "postValuationUsdB": 0.05, "leads": null, "source": "https://e.vnexpress.net/news/tech/personalities/23-year-old-college-dropout-builds-10b-ai-startup-in-less-than-a-year-5127225.html", "singleSource": true},
+      {"date": "2026-08", "stage": "Series A", "amountUsdM": 75, "postValuationUsdB": 0.5, "leads": null, "source": "https://www.forbes.com/sites/annatong/2026/10/08/ai-personal-assistants-are-finally-having-their-moment/", "singleSource": true, "note": "Forbes says 'more than $500M' valuation, so 0.5 is a lower bound."},
+      {"date": "2026-08", "stage": "Series B", "amountUsdM": 250, "postValuationUsdB": 2.5, "leads": "Index Ventures, Benchmark", "source": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/", "singleSource": false},
+      {"date": "2026-09", "stage": "Series C", "amountUsdM": 1000, "postValuationUsdB": 10, "leads": "Sequoia, Benchmark, Coatue (investors named; lead not specified)", "source": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1350, "asOf": "2026-09", "source": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/", "singleSource": false, "note": "Equity: $350M through the Series B (TechCrunch/WSJ, 2026-08-26) plus the $1B Series C. That implies about $25M of seed money, but the seed amount itself is not disclosed."},
+    "headcount": {"value": 14, "date": "2026-10", "source": "https://www.forbes.com/sites/annatong/2026/10/08/ai-personal-assistants-are-finally-having-their-moment/", "singleSource": true},
+    "research": "No company papers. The founder's Reflexion repo (noahshinn/reflexion) has 3.3k GitHub stars (API, 2026-10-22).",
+    "researchSources": ["https://github.com/noahshinn/reflexion"],
+    "xPresence": "@noahrshinn 43.4k followers (fxtwitter, 2026-10-22), up from 40.6k.",
+    "xPosts": [],
+    "talentSignals": ["Only 14 employees at a $10B valuation (Forbes, 2026-10-08)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (no monetization; free for invite-only users per The Verge)", "seed round amount", "Form D (no EDGAR hit for the legal entity 'Spear Street Technology')"],
+    "filled": ["rounds (added the Aug 2026 $75M Series A)", "totalRaisedUsdM", "headcount"],
+    "notes": "TechCrunch (2026-09-28) says Instinct has not shared user numbers. The >100k users figure comes from The Information via PYMNTS."
+  },
+  {
+    "name": "Proximal",
+    "rounds": [
+      {"date": "2025-12", "stage": "Seed", "amountUsdM": 15, "postValuationUsdB": 0.3, "leads": "General Catalyst", "source": "https://www.proximal.ai/blog/new-frontiers/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 15, "asOf": "2026-09", "source": "https://www.proximal.ai/blog/new-frontiers/", "singleSource": false, "note": "The seed is the only financing disclosed. The Information (via the prismix mirror) says it closed at end of 2025, when revenue was negligible. The company appears to be revenue-funded since."},
+    "arr": {"valueUsdM": 200, "date": "2026-09", "kind": "annualized revenue", "source": "https://www.proximal.ai/blog/new-frontiers/", "singleSource": false, "note": "Now primary: the company blog says '$200M in annualized revenue', and the @ProximalHQ and @calvinchen X posts and LinkedIn posts say 'more than $200M'. The Information (Stephanie Palazzolo, 2026-09-29; https://www.theinformation.com/newsletters/ai-agenda/general-catalyst-backs-coding-data-startup-proximal-reaches-revenue-milestone) reports that it is calculated as quarter-to-date revenue times 4. Company-stated."},
+    "headcount": {"value": 40, "date": "2026-09", "source": "https://prismix.dev/news/4a7902b07cd8", "singleSource": true, "note": "The Information text (mirrored) calls it 'the 40-person startup'."},
+    "research": "No public papers found.",
+    "researchSources": [],
+    "xPresence": "@ProximalHQ 6.4k; @calvinchen (CEO) 14.3k (fxtwitter, 2026-10-22). The launch post reached 254k views.",
+    "xPosts": [
+      {"url": "https://x.com/ProximalHQ/status/2104989671617122366", "author": "ProximalHQ", "date": "2026-09-29", "likes": 384, "views": 254085, "summary": "Launch post: more than $200M annualized revenue from helping frontier labs and enterprises improve coding agents; $15M seed led by General Catalyst at $300M."},
+      {"url": "https://x.com/calvinchen/status/2104996979118067810", "author": "calvinchen", "date": "2026-09-29", "likes": 495, "views": 77179, "summary": "CEO Calvin Chen introduces Proximal; says the team lived in the office for months."}
+    ],
+    "talentSignals": ["Co-founder Justus Mattern credits the revenue growth to hiring and a 'small team' (https://www.linkedin.com/posts/justus-mattern-a04230184_excited-to-announce-proximals-seed-round-activity-7510765802778746880-KQPT)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["pre-seed/earlier rounds (none disclosed)", "Form D (no EDGAR hit for 'Proximal AI')"],
+    "filled": ["rounds (the seed is the full disclosed history)", "totalRaisedUsdM", "arr (primary source)", "headcount", "xPosts"],
+    "notes": "The company website and The Information both describe the round as a seed, so there are no other priced rounds. Justus Mattern's X handle could not be resolved."
+  },
+  {
+    "name": "Applied Compute",
+    "rounds": [
+      {"date": "2025-06", "stage": "Seed", "amountUsdM": 20, "postValuationUsdB": 0.1, "leads": "Benchmark", "source": "https://www.upstartsmedia.com/p/ex-openai-applied-compute-raises-20m", "singleSource": false},
+      {"date": "2025-10", "stage": "Series A (announced $80M; appears to include the Jun seed)", "amountUsdM": 80, "postValuationUsdB": 0.5, "leads": "Benchmark (with Sequoia, Lux)", "source": "https://siliconangle.com/2025/10/30/former-openai-researchers-launch-applied-compute-80m-funding/", "singleSource": false, "note": "The $0.5B valuation is from The Information's in-talks report and was not disclosed. The company's Apr 2026 post says the $80M Series B 'brings our total funding to $160 million', which implies this $80M is cumulative and includes the $20M seed."},
+      {"date": "2026-04", "stage": "Series B", "amountUsdM": 80, "postValuationUsdB": 1.3, "leads": "Kleiner Perkins", "source": "https://appliedcompute.com/company/fundraise", "singleSource": false},
+      {"date": "2026-09", "stage": "Series C (C-1 $332.81M + C-2 $17.19M; closed 2026-09-18)", "amountUsdM": 350, "postValuationUsdB": 3.25, "leads": "Elad Gil (per the Sep 2 plan; Lux, Kleiner Perkins participating)", "source": "https://forbesjapan.com/articles/detail/104007", "singleSource": true, "note": "The close is reported only by Forbes (Richard Nieva). The Forbes Japan article (2026-10-12) is syndicated on Yahoo! Japan News (https://news.yahoo.co.jp/articles/93ed86ee2d96e3a5156e26f4fcea6e6821738a90), which is the same reporting, not a second source. The Forbes US original (2026-09-02) has the company confirming the in-talks terms. No SEC Form D (EDGAR full-text search finds nothing for 'Applied Compute'), no company post, and no other outlet confirms the close."}
+    ],
+    "latestValuation": {"valueUsdB": 3.25, "date": "2026-09", "source": "https://forbesjapan.com/articles/detail/104007", "basis": "closed round (Forbes only)", "singleSource": true},
+    "totalRaisedUsdM": {"value": 510, "asOf": "2026-09", "source": "https://appliedcompute.com/company/fundraise", "singleSource": true, "note": "$160M per the company as of Apr 2026, plus the $350M Series C (Forbes only). Aggregators list $450M, which double-counts the seed or omits a round."},
+    "arr": {"valueUsdM": 50, "date": "2026-08", "kind": "annualized revenue", "source": "https://app.dealroom.co/news/note/applied-compute-in-talks-to-double-valuation-to-3b-on-open-source-demand-1", "singleSource": true, "note": "Still only The Information's figure (via Dealroom, OpenSourceForU, and the neolabs aggregator). No better source found; neither the Forbes US nor the Forbes Japan article gives revenue."},
+    "headcount": {"value": 50, "date": "2026-10", "source": "https://linkedin.com/company/appliedcompute", "singleSource": true, "sourceQuality": "aggregator", "note": "LinkedIn company data (via enrichment) shows 50 employees, 82% in the US. Talent sources include Scale AI, Databricks, OpenAI and Jane Street."},
+    "research": "Technical blog and X threads on continual learning (on-policy self-distillation), decision graders, and reward-hacking monitors; 'Shift-1' coding router. No arXiv papers found.",
+    "researchSources": ["https://appliedcompute.com/company/fundraise"],
+    "xPresence": "@appliedcompute about 8.2k per the base file (fxtwitter didn't resolve it today).",
+    "xPosts": [],
+    "talentSignals": ["LinkedIn shows a research lead (Brandon Snider) and a head of finance (Grant Connealy); hires come from Scale AI (4), Databricks (4) and OpenAI (2) (https://linkedin.com/company/appliedcompute)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["second independent source for the Series C close", "ARR beyond The Information's ~$50M"],
+    "filled": ["totalRaisedUsdM", "headcount", "rounds (Series A amount clarified)"],
+    "notes": "I tried to corroborate the Series C close: the Forbes US article (fetch timed out; search snippet still shows the in-talks framing), the company site (the latest post is still the Apr 2026 Series B), SEC EDGAR full-text search (no Form D), and news search (only Forbes, Forbes Japan, its Yahoo Japan syndication, and aggregators like Distill and neolabs repeating it). The close remains singleSource (Forbes), but the round itself is company-confirmed via Forbes US on 2026-09-02. CORRECTION: the Oct 2025 $80M appears to be cumulative including the $20M seed, since the company states $160M total after the $80M Series B."
+  },
+  {
+    "name": "Sesame",
+    "rounds": [
+      {"date": "2023-08", "stage": "Seed (Form D, equity)", "amountUsdM": 10.1, "postValuationUsdB": null, "leads": null, "source": "https://www.sec.gov/Archives/edgar/data/1993182/000199318223000001/primary_doc.xml", "singleSource": false, "note": "Sesame AI, Inc. Form D: $10,124,975 sold, first sale 2023-08-31."},
+      {"date": "2025-02", "stage": "Series A", "amountUsdM": 47.5, "postValuationUsdB": null, "leads": "Andreessen Horowitz", "source": "https://sacra.com/c/sesame-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2025-10", "stage": "Series B", "amountUsdM": 250, "postValuationUsdB": null, "leads": "Sequoia, Spark Capital", "source": "https://techcrunch.com/2025/10/21/sesame-the-conversational-ai-startup-from-oculus-founders-raises-250m-and-launches-beta/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 307.6, "asOf": "2025-10", "source": "https://roadtovr.com/former-oculus-ai-smart-glasses-startup-sesame-raises-250m/", "singleSource": false, "note": "Equity. Road to VR cites Crunchbase's $307.6M, which matches the Form D seed ($10.1M) + $47.5M + $250M. No 2026 round found."},
+    "research": "CSM (Conversational Speech Model); the open-source SesameAILabs/csm repo has 14.7k GitHub stars (API, 2026-10-22).",
+    "researchSources": ["https://github.com/SesameAILabs/csm"],
+    "xPresence": "@sesame 34.6k followers (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation (the Series B post-money was never officially disclosed; see notes)", "arr"],
+    "filled": ["rounds (added the 2023 Form D seed)", "totalRaisedUsdM"],
+    "notes": "Valuation: Bloomberg (2025-03-31) reported talks valuing it at 'over $1 billion' with Sequoia and Spark co-leading (https://www.bloomberg.com/news/articles/2025-03-31/brendan-iribe-s-ai-voice-startup-sesame-is-in-talks-for-sequoia-backing). Aggregator tear sheets give $1.19B post / $940M pre (https://siliconvalleyinvestclub.com/companies/sesame/tear-sheet.pdf), and others about $0.86B. Without a confirmed closed figure I left latestValuation null; '>$1B (in talks, Bloomberg)' is the best signal. There is no revenue disclosure; the assistants app is still free with modest installs."
+  },
+  {
+    "name": "Standard Intelligence",
+    "rounds": [
+      {"date": "2026-04", "stage": "Series A", "amountUsdM": 75, "postValuationUsdB": 0.5, "leads": "Sequoia, Spark Capital", "source": "https://si.inc/posts/a/", "singleSource": false, "note": "The $0.5B is from Dealroom (aggregator) and was not disclosed by the company. Two Form Ds (first sales 2026-04-02 and 2026-04-13) total $79.8M sold."}
+    ],
+    "totalRaisedUsdM": {"value": 79.8, "asOf": "2026-06", "source": "https://www.sec.gov/Archives/edgar/data/2135700/0002135700-26-000001.txt", "singleSource": false, "note": "Equity. Form D 0002135700-26-000001 shows $35,613,499 sold to 36 investors, and -000002 shows $44,199,974 to 10 investors. Both are equity with first sales in Apr 2026. Co-founder Devansh Pandey's LinkedIn says $80M raised. The roughly $5M above the $75M announcement likely reflects pre-A SAFEs converting or angels, but that is not itemized."},
+    "research": "FDM-1 (Feb 2026) computer action model trained on an 11M-hour video corpus; hertz-dev, an open 8.5B full-duplex speech model with 1.8k GitHub stars (API, 2026-10-22); a write-up on the 30PB storage cluster.",
+    "researchSources": ["https://si.inc/posts/fdm1/", "https://github.com/Standard-Intelligence/hertz-dev"],
+    "xPresence": "@si_pbc 10.5k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": ["Angels and advisors include Andrej Karpathy, Stanley Druckenmiller and Milan Kovac (https://si.inc/posts/a/)", "Team of 6 per Sequoia's announcement (https://sequoiacap.com/article/standard-intelligence-training-general-intelligence-in-pixel-space/)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["pre-Series A rounds (no amount, date or lead disclosed; the 2024 hertz-dev era was self- or angel-funded)", "arr (research lab, no revenue)"],
+    "filled": ["rounds (confirmed the Series A is the only disclosed priced round)", "totalRaisedUsdM"],
+    "notes": "EDGAR has only the two Apr 2026 Form Ds for Standard Intelligence PBC (CIK 2135700). No earlier filing was found."
+  },
+  {
+    "name": "Browser Use",
+    "rounds": [
+      {"date": "2025-01", "stage": "Accelerator (YC W25)", "amountUsdM": null, "postValuationUsdB": null, "leads": "Y Combinator", "source": "https://pitchbook.com/profiles/company/739924-39", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2025-03", "stage": "Seed", "amountUsdM": 17, "postValuationUsdB": null, "leads": "Felicis", "source": "https://browser-use.com/posts/seed-round", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 17, "asOf": "2026-10", "source": "https://tracxn.com/d/companies/browser-use/__rOzHvc4L_9grveDkam_htBWAh5yqmkygK4YX4XTOdJs", "singleSource": false, "note": "Equity. The $17M seed (company and TechCrunch) is the only disclosed round. LinkedIn enrichment shows $17.5M, likely including the YC check."},
+    "headcount": {"value": 18, "date": "2026-09", "source": "https://tracxn.com/d/companies/browser-use/__rOzHvc4L_9grveDkam_htBWAh5yqmkygK4YX4XTOdJs", "singleSource": true, "sourceQuality": "aggregator", "note": "Tracxn shows 18 as of 2026-09-30. LinkedIn gives a 10-20 band; PitchBook's 7 is stale."},
+    "research": "browser-use repo 118.8k stars (API, 2026-10-22). Other org repos: video-use 29.5k, jev-ultrafast 23.4k, browser-harness 18.6k, web-ui 16.6k, workflow-use 4.2k. Commit pace is down 77% year over year (523 commits in 91 days), and release 0.13.13 shipped 2026-10-15.",
+    "researchSources": ["https://github.com/browser-use/browser-use", "https://evalaitools.com/tools/browser-use/"],
+    "xPresence": "@browser_use 48.9k; @gregpr07 31.7k (fxtwitter, 2026-10-22). Typical posts get 10-100k views.",
+    "xPosts": [
+      {"url": "https://x.com/gregpr07/status/2104813830232756556", "author": "gregpr07", "date": "2026-09-29", "likes": 433, "views": 97823, "summary": "CTO launches Browser Use Ultrafast on the cloud ('10x faster and 10x cheaper') plus BU Fast; access is gated batch by batch because of compute limits."},
+      {"url": "https://x.com/browser_use/status/2107931407737868646", "author": "browser_use", "date": "2026-10-07", "likes": 82, "views": 9209, "summary": "browser-use now works with the new Anthropic computer-use SDK toolsets."}
+    ],
+    "talentSignals": ["Collaborated with OpenAI to add browser tools to the OpenAI SDK (Zunic, 2026-10-16, via https://twiscan.com/en/x/gregpr07)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation (seed post-money not disclosed; no later round)", "arr"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "No Series A found as of 2026-10-22 (Orange Collective's memo also notes none). A '$4.5M ARR' LinkedIn post that Magnus Müller reposted belongs to another startup (Max Brenner's), not Browser Use, so I didn't use it. No Form D found."
+  },
+  {
+    "name": "Thoughtful",
+    "rounds": [
+      {"date": null, "stage": "Pre-Seed (amount undisclosed)", "amountUsdM": null, "postValuationUsdB": null, "leads": null, "source": "https://www.crunchbase.com/organization/thoughtful-lab", "singleSource": true, "sourceQuality": "aggregator", "note": "Crunchbase lists pre-seed round(s) for Thoughtful Lab, Inc. with obfuscated details. Davidovs Venture Collective calls Thoughtful Lab a 'portfolio company' (https://www.linkedin.com/posts/davidovs-vc_startup-hiring-openrole-activity-7438278440551776256-xlYo). PitchBook's '$50K seed' preview is not used."}
+    ],
+    "research": "PostTrainBench (Mar 2026; Best Paper at the ICLR 2026 RSI workshop); AttuneBench, an arXiv paper on LLM emotional intelligence written with Pareto AI (May 2026, https://arxiv.org/abs/2605.21739); DiligenceBench (Jul 2026); FrogsGame post-training task for FrontierSWE (repo, 22 stars); ACTx486 demo (Sep 2026). Five blog posts Mar-Jul 2026.",
+    "researchSources": ["https://arxiv.org/html/2605.21739v2", "https://thoughtfullab.com/", "https://github.com/Thoughtful-Lab/FrogsGame-Posttraining", "https://karinanguyen.com/"],
+    "xPresence": "@karinanguyen 45.3k; @thoughtfullab 2.5k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": ["Researcher Shira Eisenberg (PostTrainBench co-author) left in May 2026 to found a stealth startup (https://linkedin.com/in/shiraeisenberg)", "Hiring remote engineers (Mar 2026 post by its investor Davidovs VC)"],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation", "round amounts and dates", "totalRaisedUsdM", "arr", "headcount"],
+    "filled": ["rounds (pre-seed exists; investor identified)", "research (added AttuneBench)"],
+    "notes": "There is no Form D for 'Thoughtful Lab' or Karina Nguyen in EDGAR full-text search. No press coverage of a funding round. Named contributors on the blog and papers are Nguyen, Mersad Abbasi, Faisal Sayed and Craver Corbyn Thomas-Smith, plus Shira Eisenberg (now gone), which suggests a very small team, but no headcount source exists. Not related to Thoughtful AI (healthcare RCM) or Thoughtful (NYC mental-health app)."
+  }
+]

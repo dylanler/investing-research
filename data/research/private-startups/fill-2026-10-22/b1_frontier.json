@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Prime Intellect",
+    "rounds": [
+      {"date": "2024-04", "stage": "Seed", "amountUsdM": 5.5, "postValuationUsdB": null, "leads": "Distributed Global, CoinFund", "source": "https://www.prnewswire.com/news-releases/prime-intellect-secures-5-5m-in-seed-funding-co-led-by-distributed-global-and-coinfund-to-advance-its-decentralized-and-collaborative-ai-ecosystem-302124585.html", "singleSource": false},
+      {"date": "2025-02", "stage": "Seed extension / early round", "amountUsdM": 15, "postValuationUsdB": null, "leads": "Founders Fund (with Menlo Ventures, Andrej Karpathy, Clem Delangue, Tri Dao)", "source": "https://www.primeintellect.ai/blog/fundraise", "singleSource": false},
+      {"date": "2026-07", "stage": "Series A", "amountUsdM": 130, "postValuationUsdB": 1, "leads": "Radical Ventures (with NVIDIA Ventures, Intel Capital, Dell Technologies Capital)", "source": "https://www.primeintellect.ai/blog/series-a", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 150, "asOf": "2026-07", "source": "https://www.primeintellect.ai/blog/series-a", "singleSource": false, "note": "Equity only. Company says 'total funding to over $150M' (5.5 + 15 + 130). SEC Form D filings show $49.9M sold (first sale 2025-12-01, filed 2026-01-15) and $82.5M sold (first sale 2026-06-03), about $132M combined. That is consistent with the $130M Series A being closed in two tranches, not an extra round (https://www.sec.gov/Archives/edgar/data/2103990/000210399026000001/primary_doc.xml; https://www.sec.gov/Archives/edgar/data/2103990/000123191926000720/primary_doc.xml)."},
+    "arr": {"valueUsdM": 100, "date": "2026-07", "kind": "annualized revenue", "source": "https://www.primeintellect.ai/blog/series-a", "singleSource": false},
+    "research": "Steady open-source output: prime-rl v0.10.0 and verifiers v0.4.0 released 2026-10-19, with a new async-RL algorithm (INTELLECT Policy Optimization, IPO). 'Prime Agent' orchestrated 2,000+ agents to rewrite itself in Rust (2026-10-09). Plus prior INTELLECT-1/2/3 and the Environments Hub.",
+    "researchSources": ["https://x.com/PrimeIntellect/status/2112288736692355388", "https://x.com/PrimeIntellect/status/2108672479007047952"],
+    "xPresence": "@PrimeIntellect 88.0k followers; @vincentweisser 33.0k (fxtwitter, 2026-10-22). Company posts regularly reach 100k-550k views.",
+    "xPosts": [
+      {"url": "https://x.com/PrimeIntellect/status/2108672479007047952", "author": "PrimeIntellect", "date": "2026-10-09", "likes": 2846, "views": 549161, "summary": "Prime Agent orchestrated a swarm of 2,000+ agents over two weeks (10k+ sandboxes, 200B+ tokens) to rewrite itself in Rust."},
+      {"url": "https://x.com/PrimeIntellect/status/2110081907358904392", "author": "PrimeIntellect", "date": "2026-10-13", "likes": 1257, "views": 143665, "summary": "Announces the acquisition of Moondream (open vision models and inference optimizations)."}
+    ],
+    "talentSignals": [
+      "More than 6,000 customers at the Series A; Dell Technologies Capital cites Perplexity and Ramp running frontier research on the stack (https://www.delltechnologiescapital.com/resources/prime-intellect-building-the-open-super-intelligence-stack)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "arr (confirmed; no longer single-source)"],
+    "notes": "The $100M figure is CONFIRMED. The company's own Series A post says 'In under a year, that demand has scaled to over $100m in annualized revenue'. TechCrunch (2026-07-08) reports a '$100 million annualized revenue run rate', and Dell Technologies Capital's investment post repeats 'more than $100 million in annualized revenue'. The 2025 round is dated Feb 2025 by Wikipedia and Mar 2025 by Dealroom. TechCrunch says the Series A was 'at a $1 billion valuation' without saying whether that is pre- or post-money."
+  },
+  {
+    "name": "Cohere",
+    "rounds": [
+      {"date": "2021-09", "stage": "Series A", "amountUsdM": 40, "postValuationUsdB": null, "leads": "Index Ventures", "source": "https://www.revenuememo.com/p/cohere-funding", "singleSource": true},
+      {"date": "2022-02", "stage": "Series B", "amountUsdM": 125, "postValuationUsdB": null, "leads": "Tiger Global", "source": "https://www.revenuememo.com/p/cohere-funding", "singleSource": true},
+      {"date": "2023-06", "stage": "Series C", "amountUsdM": 270, "postValuationUsdB": 2.2, "leads": "Inovia Capital (Nvidia, Oracle, Salesforce Ventures participated)", "source": "https://www.revenuememo.com/p/cohere-funding", "singleSource": true},
+      {"date": "2024-07", "stage": "Series D", "amountUsdM": 500, "postValuationUsdB": 5.5, "leads": "PSP Investments", "source": "https://techcrunch.com/2025/08/14/cohere-hits-a-6-8b-valuation-as-investors-amd-nvidia-and-salesforce-double-down/", "singleSource": false},
+      {"date": "2025-08", "stage": "Growth round (first close)", "amountUsdM": 500, "postValuationUsdB": 6.8, "leads": "Radical Ventures, Inovia Capital", "source": "https://www.reuters.com/business/ai-startup-cohere-valued-68-billion-latest-fundraising-hires-meta-exec-2025-08-14/", "singleSource": false},
+      {"date": "2025-09", "stage": "Growth round (second close)", "amountUsdM": 100, "postValuationUsdB": 7, "leads": "BDC, Nexxus Capital Management", "source": "https://www.theglobeandmail.com/business/article-canadian-ai-firm-cohere-in-advanced-talks-to-raise-up-to-3-billion/", "singleSource": false},
+      {"date": "2026-04", "stage": "Series E commitment (EUR 500M structured financing; not closed as of 2026-10)", "amountUsdM": 600, "postValuationUsdB": null, "leads": "Schwarz Group", "source": "https://cohere.com/blog/cohere-alephalpha-join-forces", "singleSource": false},
+      {"date": "2026-10", "stage": "Series E (in talks, not closed)", "amountUsdM": 3000, "postValuationUsdB": 20, "leads": "Canadian government + existing backers (reported)", "source": "https://www.bloomberg.com/news/articles/2026-09-11/ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-says", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1535, "asOf": "2026-10", "source": "https://www.revenuememo.com/p/cohere-funding", "singleSource": false, "note": "Equity only: the sum of announced closed rounds (40+125+270+500+500+100). Excludes the undisclosed Radical seed, the uncommitted Schwarz EUR 500M Series E commitment, and up to C$240M (~$170M) of Canadian government compute funding, which is not equity. Crunchbase News put the total at ~$1.5B after Aug 2025 (https://news.crunchbase.com/ai/enterprise-genai-startup-unicorn-cohere-raise/); revenuememo says ~$1.6B equity and ~$1.7B including government funding."},
+    "arr": {"valueUsdM": 240, "date": "2025-12", "kind": "ARR", "source": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html", "singleSource": false},
+    "arrHistory": [
+      {"date": "2025-10", "valueUsdM": 150, "source": "https://betakit.com/aidan-gomez-says-cohere-could-ipo-soon-as-company-holds-secondary-sale/"},
+      {"date": "2025-12", "valueUsdM": 240, "source": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html"}
+    ],
+    "headcount": {"value": 800, "date": "2026-10", "source": "https://betakit.com/cohere-to-open-third-canadian-office-in-ottawa/", "singleSource": true},
+    "xPresence": "@cohere 121.9k followers; @aidangomez 43.4k (fxtwitter, 2026-10-22). Company posts usually get 7k-30k views, with an occasional 150k. Gomez posts combative political/industry takes (20k-45k views).",
+    "xPosts": [
+      {"url": "https://x.com/cohere/status/2112923503100125326", "author": "cohere", "date": "2026-10-21", "likes": 331, "views": 23772, "summary": "Launches Rerank 5 (Pro and Fast tiers)."},
+      {"url": "https://x.com/aidangomez/status/2110679073424863673", "author": "aidangomez", "date": "2026-10-15", "likes": 233, "views": 19946, "summary": "Gomez welcomes AI-cybersecurity startup AISLE to Cohere ('200+ High/Critical CVEs')."},
+      {"url": "https://x.com/cohere/status/2110815315617775861", "author": "cohere", "date": "2026-10-15", "likes": 609, "views": 150848, "summary": "'Not a surprise AI wants to go back home' (sovereign-AI themed post, Cohere's top recent post by views)."}
+    ],
+    "talentSignals": [
+      "Hired Joelle Pineau (ex-head of Meta FAIR) as Chief AI Officer and Francois Chadwick (ex-Uber acting CFO) as CFO, Aug 2025 (https://www.reuters.com/business/ai-startup-cohere-valued-68-billion-latest-fundraising-hires-meta-exec-2025-08-14/)",
+      "Acquired Reliant AI (founded by ex-DeepMind researchers), May 2026 (https://www.revenuememo.com/p/cohere-funding)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (no 2026 figure disclosed)"],
+    "filled": ["rounds (full history)", "totalRaisedUsdM", "headcount", "xPosts", "arr (corroborated)"],
+    "notes": "The $240M ARR comes from a February investor memo seen by CNBC; BetaKit and others relay it, and Cohere declined to comment. ARR Club lists $262M (Apr 2026), but that is an aggregator with unclear sourcing, so it is excluded. The 800+ headcount is BetaKit's (2026-10-08). A LinkedIn-derived aggregator shows 1,218, probably including Aleph Alpha/Reliant staff. revenuememo is a secondary compilation, so the 2021-2023 rounds are marked singleSource (those amounts were widely reported at the time). Gomez's Oct 2025 '$150M ARR' was said on stage at Bloomberg Tech."
+  },
+  {
+    "name": "Sakana AI",
+    "rounds": [
+      {"date": "2024-01", "stage": "Seed", "amountUsdM": 30, "postValuationUsdB": null, "leads": "Lux Capital (Khosla Ventures participated)", "source": "https://sakana.ai/seed-round/", "singleSource": false},
+      {"date": "2024-09", "stage": "Series A", "amountUsdM": 200, "postValuationUsdB": 1.5, "leads": "NEA, Khosla Ventures, Lux Capital", "source": "https://sakana.ai/series-a/", "singleSource": false},
+      {"date": "2025-11", "stage": "Series B (first close, ~JPY 20B)", "amountUsdM": 135, "postValuationUsdB": 2.635, "leads": null, "source": "https://sacra.com/c/sakana-ai/", "singleSource": true},
+      {"date": "2026-04", "stage": "Series B (final close; cumulative JPY 32B incl. first close, ~JPY 12B new)", "amountUsdM": 200, "postValuationUsdB": 2.7, "leads": "MUFG, Khosla, NEA, Lux (follow-on); new: Factorial, Macquarie, Mouro (Santander), In-Q-Tel, Google, Citi, Salesforce Ventures, Mitsubishi Electric, Datadog", "source": "https://sakana.ai/series-b/", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 2.7, "date": "2026-04", "source": "https://sakana.ai/series-b/", "basis": "closed round (company-stated ~JPY 432B post-money at JPY 160/USD)", "singleSource": false},
+    "totalRaisedUsdM": {"value": 412, "asOf": "2026-04", "source": "https://sakana.ai/series-b/", "singleSource": false, "note": "Company-stated cumulative ~JPY 66B (~$412M at JPY 160/USD), equity. Contrary Research lists $368M (Jun 2026), which reflects different FX conversions."},
+    "research": "Very high cadence: MASS (multi-agent self-supervision, 2026-10-11), The Agentic Scientist (Oct 2026), QD-Rec (2026-10-20). The AI Scientist paper was published in Nature (Mar 2026) per Contrary; ALE Agent won an AtCoder Heuristic Contest (Dec 2025).",
+    "researchSources": ["https://pub.sakana.ai/mass/", "https://pub.sakana.ai/agentic-scientist/", "https://research.contrary.com/report/sakana-ai"],
+    "xPresence": "@hardmaru (David Ha) 443.4k followers; @SakanaAILabs 141.0k (fxtwitter, 2026-10-22). Research launches regularly reach 100k-480k views.",
+    "xPosts": [
+      {"url": "https://x.com/SakanaAILabs/status/2103149797545013312", "author": "SakanaAILabs", "date": "2026-09-24", "likes": 2399, "views": 438646, "summary": "Sakana AI welcomes Jurgen Schmidhuber as Chief Scientific Advisor."},
+      {"url": "https://x.com/SakanaAILabs/status/2109385006603006435", "author": "SakanaAILabs", "date": "2026-10-11", "likes": 1534, "views": 176264, "summary": "Introduces MASS: recursive self-improvement through multi-agent self-supervision."},
+      {"url": "https://x.com/hardmaru/status/2066529282588094713", "author": "hardmaru", "date": "2026-06-15", "likes": 442, "views": 96670, "summary": "David Ha launches Sakana Marlin, the first commercial product (an 'Ultra Deep Research' agent)."}
+    ],
+    "talentSignals": [
+      "Jurgen Schmidhuber joined as Chief Scientific Advisor, 2026-09-24 (https://sakana.ai/schmidhuber/)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr"],
+    "filled": ["totalRaisedUsdM", "rounds (added seed; primary source for Series B)", "latestValuation (upgraded to company primary source)", "xPosts"],
+    "notes": "Revenue is genuinely not disclosed. The ~$30M 2025 figure in Contrary/ImpactArcher is explicitly labelled an unverified third-party estimate. The careers page mentions IPO preparation (per ImpactArcher). Contrary lists 218 employees (aggregator); the base file has 157."
+  },
+  {
+    "name": "TypeSafe AI",
+    "rounds": [
+      {"date": "2024-05", "stage": "Seed (pre-stealth; aggregator-only)", "amountUsdM": 4, "postValuationUsdB": null, "leads": null, "source": "https://pitchbook.com/profiles/company/658924-30", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2026-09", "stage": "Seed", "amountUsdM": 40, "postValuationUsdB": null, "leads": "DCVC", "source": "https://www.linkedin.com/feed/update/urn:li:activity:7505691479286308864", "singleSource": false},
+      {"date": "2026-10", "stage": "Series A", "amountUsdM": 870, "postValuationUsdB": 7.5, "leads": "Andreessen Horowitz (Sequoia, DCVC participated)", "source": "https://typesafe.ai/blog/series-ai", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 910, "asOf": "2026-10", "source": "https://typesafe.ai/blog/series-ai", "singleSource": false, "note": "Equity: $40M seed + $870M Series A. Airframe (aggregator) lists $914M, apparently also counting a $4M May 2024 seed from PitchBook; it is unclear whether that is part of the $40M. The company does not say whether $7.5B is pre- or post-money."},
+    "arr": {"valueUsdM": 100, "date": "2026-09", "kind": "run-rate (investor verbal claim)", "source": "https://sacra.com/c/typesafe-ai/", "singleSource": true, "sourceQuality": "aggregator"},
+    "headcount": {"value": 20, "date": "2026-10", "source": "https://www.progressiverobot.com/2026/10/10/typesafe-valuation-jev-maker-870m-series-a-a16z/", "singleSource": true},
+    "xPresence": "@typesafeai 169.4k followers; @CompleteSkeptic (CEO Diogo Almeida) 156.5k (fxtwitter, 2026-10-22). Extremely viral: the Series A post reached 1.33M views, and the Jev 1.14 launch 309k.",
+    "xPosts": [
+      {"url": "https://x.com/CompleteSkeptic/status/2108594987177021737", "author": "CompleteSkeptic", "date": "2026-10-09", "likes": 8026, "views": 1330095, "summary": "'launched a model, accidentally served trillions of tokens a day, 29.4% of the fortune 500 showed up, raised a really big series A from a16z.'"},
+      {"url": "https://x.com/typesafeai/status/2110536685805355064", "author": "typesafeai", "date": "2026-10-15", "likes": 4201, "views": 309062, "summary": "Announces Jev 1.14 with experimental image input, a new box type and longer context."}
+    ],
+    "talentSignals": [
+      "Sequoia (Sonya Huang) describes the Jev launch as developer pull 'we haven't seen since GPT-3'; it was the fastest-adopted model in Vercel AI Gateway history (https://sequoiacap.com/article/typesafe-the-jevolution)",
+      "Copycats within weeks: OpenAI 'Decisions API', Amazon Strands Decider 2B, Cloudflare Clef (per news list on https://linkedin.com/company/typesafe-ai)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (company has not disclosed revenue)"],
+    "filled": ["totalRaisedUsdM", "headcount", "arr (single-source, low confidence)"],
+    "notes": "ARR: the only figure is Sequoia partner Pat Grady's claim, in a video posted 2026-09-27, that Jev went 'from zero to $100M in revenue in its first seven days'. Sacra repeats it as a $100M run rate. The company has NOT disclosed revenue; Bloomberg says the CEO only called it 'profitable'. The claim also conflicts with disclosed volume: ~1T input tokens/day (CEO to WSJ, late Sep) at $0.042/M is ~$15M/yr at list price (progressiverobot analysis). Treat it as low confidence. Headcount: Bloomberg's 'just over 20 people' (via progressiverobot). PitchBook says 20 and the LinkedIn aggregator 33. Before the close, The Information/FT reported talks at $10B+; the deal closed at $7.5B."
+  },
+  {
+    "name": "AMI Labs",
+    "rounds": [
+      {"date": "2026-03", "stage": "Seed", "amountUsdM": 1030, "postValuationUsdB": 4.53, "leads": "Cathay Innovation, Greycroft, Hiro Capital, HV Capital, Bezos Expeditions", "source": "https://amilabs.xyz/updates", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1030, "asOf": "2026-10", "source": "https://amilabs.xyz/updates", "singleSource": false, "note": "Equity; the single EUR ~890M ($1.03B) seed at a $3.5B pre-money valuation (https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/). No earlier or later round found."},
+    "headcount": {"value": 55, "date": "2026-10", "source": "https://ceointerviews.ai/interview/2961732/", "singleSource": true},
+    "xPresence": "@amilabs 45.0k followers (only 3 posts); @ylecun 1.34M (fxtwitter, 2026-10-22). The launch post drew ~5M views.",
+    "xPosts": [
+      {"url": "https://x.com/amilabs/status/2031234832454324639", "author": "amilabs", "date": "2026-03-10", "likes": 8387, "views": 4998934, "summary": "Launch post: AMI is building world-model AI with persistent memory, reasoning and planning; announces the $1.03B round."}
+    ],
+    "talentSignals": [
+      "Grew from 12 employees (Mar 2026) to 50-60 across Paris, New York, Montreal and Singapore by 2026-10-01 (LeCun at AIM 2026) (https://ceointerviews.ai/interview/2961732/)",
+      "LeCun says funding is 40% European, 33% American and 27% Asian/Middle Eastern, and that AMI has no intention of being bought (https://ceointerviews.ai/interview/2961732/)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (pre-product; LeCun: 'no short-term plan for products')"],
+    "filled": ["rounds (confirmed single round)", "totalRaisedUsdM", "xPosts", "headcount (updated)"],
+    "notes": "Headcount of 55 is the midpoint of LeCun's '50 to 60 people', said at La Tribune's AIM 2026 event (2026-10-01). LeCun said future rounds will come to pay for compute, but gave no timeline. Singapore EDB says the Singapore office had 4 staff in Mar 2026. @ylecun's recent timeline returned no original posts via fxtwitter, so no LeCun posts are listed."
+  },
+  {
+    "name": "Humans&",
+    "rounds": [
+      {"date": "2026-01", "stage": "Seed", "amountUsdM": 480, "postValuationUsdB": 4.48, "leads": "SV Angel, Georges Harik", "source": "https://www.reuters.com/business/ai-startup-humans-raises-480-million-45-billion-valuation-seed-round-2026-01-20/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 480, "asOf": "2026-10", "source": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-sv-angel-set-to-back-humans-at-4-48-billion-valuation", "singleSource": false, "note": "Equity. No follow-on found. A LinkedIn-derived aggregator lists undisclosed 'Seed/Venture (2025-11)' entries, likely pre-announcement closes within the same seed."},
+    "headcount": {"value": 33, "date": "2026-10", "source": "https://linkedin.com/company/humansand", "singleSource": true, "sourceQuality": "aggregator"},
+    "research": "Ampersand v0.1 (2026-10-20): a 'collaborator' model post-trained from GLM 5.3 (744B) with long-horizon multi-agent RL, scoring 59.1% on its collaboration eval, served via an OpenAI-compatible Agents API. Follows Persimmon v0.1 (Sep 2026).",
+    "researchSources": ["https://ampersand.humansand.ai/blog/"],
+    "xPresence": "@humansand 12.6k followers; @ericzelikman 24.1k (fxtwitter, 2026-10-22). Launch posts reach 200k-1.3M views despite the small follower base.",
+    "xPosts": [
+      {"url": "https://x.com/humansand/status/2013641246515056798", "author": "humansand", "date": "2026-01-20", "likes": 1686, "views": 1292769, "summary": "Introduces humans&, a human-centric frontier AI lab."},
+      {"url": "https://x.com/humansand/status/2098115046438215791", "author": "humansand", "date": "2026-09-10", "likes": 1450, "views": 620769, "summary": "Introduces Persimmon, a large-scale model built to realistically simulate how people behave."},
+      {"url": "https://x.com/humansand/status/2112674550907552137", "author": "humansand", "date": "2026-10-20", "likes": 1076, "views": 209240, "summary": "Introduces Ampersand, 'the first model built for us', a collaborator for individual and group goals."}
+    ],
+    "talentSignals": [
+      "Building its own GPU clusters (Zelikman: 'the third cluster we're building with @DeepInfra', 2026-07-04) (https://x.com/ericzelikman/status/2073540309850693732)"
+    ],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (Ampersand API just launched with paid tiers; no revenue reported)"],
+    "filled": ["rounds (confirmed single round)", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Ampersand's public API launch (2026-10-20) is a new product event not in the refresh file. The headcount comes from a LinkedIn-derived aggregator profile (33 employees)."
+  },
+  {
+    "name": "Liquid AI",
+    "rounds": [
+      {"date": "2023-12", "stage": "Seed (two-stage)", "amountUsdM": 37.6, "postValuationUsdB": 0.303, "leads": "OSS Capital, PagsGroup", "source": "https://techcrunch.com/2023/12/06/liquid-ai-a-new-mit-spinoff-wants-to-build-an-entirely-new-type-of-ai/", "singleSource": false},
+      {"date": "2024-12", "stage": "Series A", "amountUsdM": 250, "postValuationUsdB": 2.35, "leads": "AMD Ventures", "source": "https://www.liquid.ai/blog/we-raised-250m-to-scale-capable-and-efficient-general-purpose-ai", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 287.6, "asOf": "2026-10", "source": "https://getlatka.com/companies/liquid.ai", "singleSource": false, "note": "Equity: $37.6M seed (company/SiliconANGLE; TechCrunch says $37.5M) + $250M Series A. Tracxn's $297M relies on a $46.6M seed figure no primary source supports. The SEC Form D filed 2023-12-18 shows $31.9M sold in the first tranche (https://www.sec.gov/Archives/edgar/data/2004369/000156761923007868/primary_doc.xml)."},
+    "xPresence": "@LiquidAI 40.1k followers; @ramin_m_h 7.9k (fxtwitter, 2026-10-22). Quiet: recent posts get 3k-12k views.",
+    "xPosts": [
+      {"url": "https://x.com/liquidai/status/2112204706634240499", "author": "liquidai", "date": "2026-10-19", "likes": 174, "views": 11075, "summary": "Thread on pre-training small on-device models: quality must come from architecture and data."},
+      {"url": "https://x.com/liquidai/status/2110893028382785797", "author": "liquidai", "date": "2026-10-16", "likes": 117, "views": 8824, "summary": "d1-ultra decision model now available on OpenRouter."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr"],
+    "filled": ["totalRaisedUsdM", "xPosts", "rounds (seed amount corrected)"],
+    "notes": "CORRECTION: the base file's seed of $46.6M (siliconvalleyinvestclub/Tracxn) is not supported. The company announcement (reposted by Duke Capital Partners) and SiliconANGLE say $37.6M; TechCrunch and Latham & Watkins say $37.5M at $303M post-money. Revenue is not disclosed; the GetLatka estimate of $13.2M ARR (Nov 2025) is excluded as too weak. Still no raise since Dec 2024."
+  },
+  {
+    "name": "Flapping Airplanes",
+    "rounds": [
+      {"date": "2026-01", "stage": "Seed", "amountUsdM": 180, "postValuationUsdB": null, "leads": "GV, Sequoia, Index Ventures", "source": "https://www.sec.gov/Archives/edgar/data/2109371/000210937126000001/primary_doc.xml", "singleSource": false},
+      {"date": "2026-10", "stage": "Series A", "amountUsdM": 1000, "postValuationUsdB": 6, "leads": "Index Ventures, Lux Capital (co-leads); Sequoia, GV, Kleiner Perkins", "source": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1180, "asOf": "2026-10", "source": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/", "singleSource": false, "note": "Equity: $180M seed + $1B Series A. The seed is confirmed by an SEC Form D: $180.2M sold of a $180.45M offering, first sale 2026-01-16, 79 investors."},
+    "headcount": {"value": 24, "date": "2026-10", "source": "https://qz.com/flapping-airplanes-ai-startup-1-billion-funding-valuation-102126", "singleSource": true},
+    "research": "Disclosed research direction: custom GPU primitives, including a 'kittens' virtual machine that takes over the whole GPU for co-optimization (Sequoia talk, May 2026). No papers yet.",
+    "researchSources": ["https://x.com/flappyairplanes/status/2052107357585649810"],
+    "xPresence": "@flappyairplanes 20.6k followers (fxtwitter, 2026-10-22). Few posts, but each launch reaches 200k-2.2M views.",
+    "xPosts": [
+      {"url": "https://x.com/flappyairplanes/status/2112955212612919318", "author": "flappyairplanes", "date": "2026-10-21", "likes": 3044, "views": 475402, "summary": "Announces the $1B Series A co-led by Index and Lux after a year developing new GPU primitives."},
+      {"url": "https://x.com/flappyairplanes/status/2052107353655489012", "author": "flappyairplanes", "date": "2026-05-06", "likes": 1097, "views": 216490, "summary": "Thread from a Sequoia talk: one path to data efficiency may be to 'abuse GPUs like they've never been abused'."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {"research": 2.5},
+    "scoreAdjustmentReason": "Base research score was 1.5 ('no publications'). The lab has since publicly described its GPU-primitive/megakernel work (kittens VM) and built it into the Series A thesis. That is still no papers, but it is more than nothing.",
+    "notDisclosed": ["arr (pre-revenue; now says it plans to commercialize)"],
+    "filled": ["totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Headcount of 24 is an approximation of Index's 'a couple dozen people' (via Quartz). The seed valuation was never stated."
+  },
+  {
+    "name": "Poolside",
+    "rounds": [
+      {"date": "2023-08", "stage": "Seed ($126M total; aggregators split it into $26M May 2023 + $100M Aug 2023 tranches)", "amountUsdM": 126, "postValuationUsdB": 0.5, "leads": "Felicis Ventures, Xavier Niel (Redpoint in the first tranche)", "source": "https://tracxn.com/d/companies/poolside/___TyiIVKigoCIY2vK3kAkA4q8hMkX0NjBmHM8bBAqQgo/funding-and-investors", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2024-10", "stage": "Series B", "amountUsdM": 500, "postValuationUsdB": 3, "leads": "Bain Capital Ventures", "source": "https://techcrunch.com/2024/10/02/ai-coding-startup-poolside-raises-500m-from-ebay-nvidia-and-others/", "singleSource": false},
+      {"date": "2026-08", "stage": "Strategic (Nvidia), alongside a $6B non-exclusive license", "amountUsdM": 1000, "postValuationUsdB": 13, "leads": "NVIDIA", "source": "https://www.bloomberg.com/news/articles/2026-08-20/nvidia-to-pay-ai-startup-poolside-a-6-billion-license-newcomer-says", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1626, "asOf": "2026-10", "source": "https://techcrunch.com/2024/10/02/ai-coding-startup-poolside-raises-500m-from-ebay-nvidia-and-others/", "singleSource": false, "note": "Equity: $626M through the Series B (TechCrunch) + $1B Nvidia (Aug 2026). Tracxn lists $1.63B. Excludes the $6B license fee, which is revenue to be distributed to investors, not equity."},
+    "arr": {"valueUsdM": 50, "date": "2025", "kind": "annualized revenue (estimate)", "source": "https://valueaddvc.com/pulse/nvidia-poolside-6-billion-licensing-deal-2026", "singleSource": true, "sourceQuality": "aggregator"},
+    "xPresence": "@poolsideai 14.9k followers; @jasoncwarner ~40k; @eisokant ~13k (fxtwitter). Product posts get 10k-55k views.",
+    "xPosts": [
+      {"url": "https://x.com/poolsideai/status/2085017987514307060", "author": "poolsideai", "date": "2026-08-05", "likes": 184, "views": 17399, "summary": "Crossed 10T tokens served across all models in under 3 months; Laguna S 2.1 at ~300B tokens/day."},
+      {"url": "https://x.com/jasoncwarner/status/2092661422631330227", "author": "jasoncwarner", "date": "2026-08-26", "likes": 268, "views": 54428, "summary": "Warner touts 'The Model Factory(tm)' after the Nvidia license deal."},
+      {"url": "https://x.com/jasoncwarner/status/2079624740348604593", "author": "jasoncwarner", "date": "2026-07-21", "likes": 197, "views": 28785, "summary": "Laguna S, a near-frontier American open model, fits on a single machine."}
+    ],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr (no company-stated or press-reported figure; aggregator estimates only)"],
+    "filled": ["rounds (added 2023 seed)", "totalRaisedUsdM", "xPosts"],
+    "notes": "No better ARR source found. Estimates: ~$50M for 2025 (Latka via Value Add) and $100M ARR as of Sep 2026 (lounge.ai, unclear sourcing). Neither is confirmed by the company or a reputable outlet. Usage signal (company post): 10T tokens served in under 3 months by Aug 2026. Series B valuation: $3B per Bloomberg (via TechCrunch), $2B per Value Add."
+  }
+]

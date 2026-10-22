@@ -43,6 +43,10 @@ import {
   excludedEntities,
   factors,
   previousLabel,
+  lastEditionLabel,
+  pitchbookLabel,
+  coverageLabels,
+  type CoverageField,
   rankedStartups,
   removedOverCap,
   changelog,
@@ -243,6 +247,40 @@ function CompanyCard({ company, peers, eff }: { company: LiveStartup; peers: Liv
         {company.moat && <div><strong style={{ color: 'var(--ink-800)' }}>Moat:</strong> {company.moat}</div>}
         {company.risks && <div><strong style={{ color: 'var(--ink-800)' }}>Risk:</strong> {company.risks}</div>}
         <div><strong style={{ color: 'var(--ink-800)' }}>Data confidence:</strong> {company.confidence}</div>
+      </div>
+
+      {company.pitchbook && (
+        <div style={{ marginTop: 'var(--space-md)', background: 'var(--surface-sunken)', border: '1px solid var(--ink-100)', borderRadius: 4, padding: '8px 10px' }}>
+          <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>
+            <a href={company.pitchbook.url} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>{pitchbookLabel}</a> · ID {company.pitchbook.id}
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 4, fontSize: '0.72rem', color: 'var(--ink-700)' }}>
+            <span>Post-money: <strong>{formatUsdB(company.pitchbook.valuationUsdB)}</strong>{company.pitchbook.valuationDate ? ` (${company.pitchbook.valuationDate})` : ''}</span>
+            <span>Total raised: <strong>{formatUsdM(company.pitchbook.totalRaisedUsdM)}</strong></span>
+            <span>Revenue: <strong>{formatUsdM(company.pitchbook.revenueUsdM)}</strong>{company.pitchbook.revenueFiscalYear ? ` (${company.pitchbook.revenueFiscalYear})` : ''}</span>
+            <span>Employees: <strong>{company.pitchbook.employees?.toLocaleString() ?? 'n/a'}</strong></span>
+            <span style={{ gridColumn: '1 / -1' }}>Status: {company.pitchbook.ownershipStatus ?? 'n/a'}{company.pitchbook.priorValuationUsdBDerived ? ` · prior valuation ~${formatUsdB(company.pitchbook.priorValuationUsdBDerived)} (derived from step-up, not reported)` : ''}</span>
+            {company.pitchbook.identityNote && <span style={{ gridColumn: '1 / -1', color: 'var(--warning)' }}>{company.pitchbook.identityNote}</span>}
+          </div>
+        </div>
+      )}
+      {!company.pitchbook && company.totalRaised && (
+        <div style={{ marginTop: 'var(--space-sm)', fontSize: 'var(--text-xs)', color: 'var(--ink-600)' }}>
+          <strong style={{ color: 'var(--ink-800)' }}>Total raised:</strong>{' '}
+          {company.totalRaised.source ? <a href={company.totalRaised.source} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)' }}>{formatUsdM(company.totalRaised.valueUsdM)}</a> : formatUsdM(company.totalRaised.valueUsdM)}
+          {company.totalRaised.singleSource ? ' (single source)' : ''} · not in the PitchBook pull
+        </div>
+      )}
+      <div style={{ marginTop: 'var(--space-sm)', display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+        {(Object.keys(coverageLabels) as CoverageField[]).map((f) => {
+          const state = company.dataCoverage[f];
+          const color = state === 'sourced' ? 'var(--success)' : state === 'not disclosed' ? 'var(--ink-500)' : 'var(--danger)';
+          return (
+            <span key={f} title={state === 'not disclosed' ? 'Searched; not publicly disclosed. The scoring imputation applies.' : state} style={{ fontSize: '0.62rem', fontWeight: 800, color, border: `1px solid ${color}`, borderRadius: 99, padding: '1px 6px' }}>
+              {state === 'sourced' ? '✓' : state === 'not disclosed' ? 'n/d' : '?'} {coverageLabels[f]}
+            </span>
+          );
+        })}
       </div>
 
       {company.xPosts.length > 0 && (
@@ -527,6 +565,7 @@ export default function PrivateStartupTiersPage() {
   const withVal = rankedStartups.filter((c) => c.valuationUsdB).length;
   const sourceCount = rankedStartups.reduce((s, c) => s + c.sources.length, 0);
   const excludedPublic = excludedEntities.filter((e) => e.status === 'public').length;
+  const pitchbookCount = changelog.pitchbookMatched;
   const oct9Movers = rankedStartups
     .filter((c) => c.oct9?.rankAmongRemaining)
     .map((c) => ({ name: c.name, from: c.oct9!.rankAmongRemaining as number, to: c.rank, delta: (c.oct9!.rankAmongRemaining as number) - c.rank, oldScore: c.oct9!.composite, newScore: c.composite }))
@@ -629,7 +668,7 @@ export default function PrivateStartupTiersPage() {
 
       <section style={{ padding: 'var(--space-3xl) var(--space-lg) 0' }}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-6" style={{ gap: 'var(--space-md)' }}>
-          <StatCard label="Private startups ranked" value={String(rankedStartups.length)} sub={`Valued ≤ $20B. Down from 94 on ${previousLabel}.`} />
+          <StatCard label="Private startups ranked" value={String(rankedStartups.length)} sub={`Valued ≤ $20B. 94 on ${previousLabel}; ${changelog.additions.filter((a) => a.outcome === 'ranked').length} added on ${updatedLabel}.`} />
           <StatCard label="Removed (> $20B)" value={String(removedOverCap.length)} sub="Latest closed or in-talks valuation above $20B. Listed below with sources." />
           <StatCard label="Tier mix" value={tierCounts.map((t) => t.n).join('/')} sub="Companies in S / A / B / C / D / E." />
           <StatCard label="Disclosed valuation" value={`${withVal}`} sub="Companies with a sourced latest valuation. The rest score a neutral 5 on upside." />
@@ -647,6 +686,15 @@ export default function PrivateStartupTiersPage() {
             <p style={{ color: 'var(--ink-600)', fontSize: 'var(--text-base)', lineHeight: 1.7, maxWidth: 860, marginTop: 0 }}>
               Composite = Σ weight × subscore / 10. Fundraising velocity, upside, and revenue multiple are computed mechanically from sourced rounds, valuations, and ARR. Talent, research, traction, moat, and posting are analyst scores against fixed anchors, with every input logged in the research files. Missing data never helps a company: rounds still in talks don&apos;t count toward velocity, missing ARR scores 3 on multiple, and missing valuation scores a neutral 5 on upside. Universe rule (since {updatedLabel}): companies whose latest closed valuation, or latest in-talks report, is above $20B are removed from the tiers rather than scored. Companies exactly at $20B stay in and are flagged. The scoring is reproducible with <code>scripts/build_private_startup_tiers.py</code>.
             </p>
+            <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderLeft: '4px solid var(--accent)', borderRadius: 4, padding: '12px 16px', margin: '0 0 var(--space-lg)', maxWidth: 980 }}>
+              <div style={{ fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-sm)', marginBottom: 6 }}>Data sources &amp; coverage ({updatedLabel})</div>
+              <p style={{ margin: '0 0 6px', fontSize: 'var(--text-xs)', color: 'var(--ink-700)', lineHeight: 1.6 }}>
+                <strong>{pitchbookLabel}</strong> is the primary source for latest closed post-money valuation and date, total raised, latest fiscal-year revenue, employees, and ownership status, for the {pitchbookCount} companies it matched. Public reports still win when a closed round or an in-talks report is dated after PitchBook&apos;s valuation date, because PitchBook can lag. PitchBook&apos;s FY revenue is used unless a public revenue or ARR figure comes from a later year. PitchBook&apos;s prior valuation is derived from step-ups, not reported, so it is shown for context only. Round sizes still come from public sources. Generic-name matches were checked against public valuations before use, and the Thoughtful row was rejected as a different company. Caution: some PitchBook closed valuations are years old (Otter.ai 2021, HUMAN Security 2020, Hex 2023). The upside factor has no staleness penalty, so these companies score high on upside; treat their upside scores as soft.
+              </p>
+              <p style={{ margin: 0, fontSize: 'var(--text-xs)', color: 'var(--ink-700)', lineHeight: 1.6 }}>
+                A data-fill pass checked {changelog.dataFill.fieldsChecked} tracked fields across the existing companies. {changelog.dataFill.missingBefore} were blank. {changelog.dataFill.filled} are now sourced, {changelog.dataFill.notDisclosed} are confirmed <em>not disclosed</em>, and {changelog.dataFill.stillMissing} are still not found. Not-disclosed and still-missing fields keep the conservative imputation: revenue multiple 3 without ARR, upside 5 without valuation, velocity counts closed dated rounds only. Each company card shows ✓ sourced, n/d not disclosed, or ? not found for every field.
+              </p>
+            </div>
           </Reveal>
           <div className="grid lg:grid-cols-[0.9fr_1.1fr]" style={{ gap: 'var(--space-xl)', alignItems: 'start' }}>
             <Reveal>
@@ -813,14 +861,15 @@ export default function PrivateStartupTiersPage() {
                     </th>
                   ))}
                   <th style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort('valuation')}>Valuation{sortArrow('valuation')}</th>
-                  <th style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort('arr')}>ARR{sortArrow('arr')}</th>
+                  <th style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort('arr')}>Revenue{sortArrow('arr')}</th>
+                  <th style={{ ...thStyle, textAlign: 'right', cursor: 'default' }}>Raised</th>
                   <th style={{ ...thStyle, textAlign: 'right' }} onClick={() => onSort('multiple')}>Multiple{sortArrow('multiple')}</th>
                   <th style={thStyle}>Cases</th>
                 </tr>
               </thead>
               <tbody>
                 {tableRows.length === 0 && (
-                  <tr><td colSpan={18} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
+                  <tr><td colSpan={19} style={{ padding: 20, textAlign: 'center', color: 'var(--ink-500)' }}>No companies match these filters.</td></tr>
                 )}
                 {tableRows.map((c) => (
                   <tr key={c.name} onClick={() => select(c.name)} style={{ borderBottom: '1px solid var(--ink-100)', cursor: 'pointer', background: c.name === selected.name ? 'color-mix(in srgb, var(--accent) 7%, transparent)' : 'transparent' }}>
@@ -830,6 +879,7 @@ export default function PrivateStartupTiersPage() {
                     <td style={{ padding: '9px 8px', minWidth: 190 }}>
                       <div style={{ color: 'var(--ink-950)', fontWeight: 900, fontSize: 'var(--text-sm)' }}>
                         {c.name}
+                        {c.isNewAddition && <span style={{ marginLeft: 6, fontSize: '0.62rem', color: 'var(--accent)', border: '1px solid var(--accent)', borderRadius: 99, padding: '1px 5px', fontWeight: 800 }}>new</span>}
                         {c.atValuationCap && <span title="Latest in-talks valuation is exactly $20B, at the cap" style={{ marginLeft: 6, fontSize: '0.62rem', color: 'var(--warning)', border: '1px solid var(--warning)', borderRadius: 99, padding: '1px 5px', fontWeight: 800 }}>at $20B cap</span>}
                       </div>
                       <div style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: '0.7rem', color: 'var(--ink-500)' }}>
@@ -852,6 +902,7 @@ export default function PrivateStartupTiersPage() {
                     <td style={{ padding: '9px 8px', textAlign: 'right', fontFamily: 'monospace', fontSize: 'var(--text-xs)' }}>
                       {c.arr?.source ? <a href={c.arr.source} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()} style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 800 }}>{formatUsdM(c.arr.valueUsdM)}</a> : <span style={{ color: 'var(--ink-400)' }}>n/a</span>}
                     </td>
+                    <td style={{ padding: '9px 8px', textAlign: 'right', fontFamily: 'monospace', fontSize: 'var(--text-xs)', color: 'var(--ink-700)' }}>{c.totalRaised ? formatUsdM(c.totalRaised.valueUsdM) : <span style={{ color: 'var(--ink-400)' }}>n/d</span>}</td>
                     <td style={{ padding: '9px 8px', textAlign: 'right', fontFamily: 'monospace', fontSize: 'var(--text-xs)', color: 'var(--ink-700)' }}>{c.revenueMultiple ? `${c.revenueMultiple.toFixed(0)}x` : '—'}</td>
                     <td style={{ padding: '9px 8px' }} onClick={(e) => e.stopPropagation()}>
                       <StockCaseHover
@@ -947,9 +998,68 @@ export default function PrivateStartupTiersPage() {
       <section id="changelog" style={{ padding: 'var(--space-3xl) var(--space-lg)', background: 'var(--surface-sunken)', borderTop: '1px solid var(--ink-100)', borderBottom: '1px solid var(--ink-100)' }}>
         <div className="max-w-6xl mx-auto">
           <Reveal>
-            <Eyebrow>Changelog · {previousLabel} → {updatedLabel}</Eyebrow>
+            <Eyebrow>Changelog · {previousLabel} → {lastEditionLabel} → {updatedLabel}</Eyebrow>
             <H2>What changed since the first edition</H2>
           </Reveal>
+
+          <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)', marginBottom: 'var(--space-xl)' }}>
+            <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 4 }}>{updatedLabel} update: new companies, data fill, PitchBook</div>
+            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 'var(--space-md)' }}>
+              {changelog.additions.length} companies added · {changelog.dataFill.filled} blank fields filled ({changelog.dataFill.notDisclosed} confirmed not disclosed) · {pitchbookCount} companies merged with {pitchbookLabel} · {changelog.sinceOct21.length} scores changed vs {lastEditionLabel}
+            </div>
+            <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
+              <div>
+                <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>New companies</div>
+                {changelog.additions.map((a) => (
+                  <div key={a.name} style={{ display: 'flex', justifyContent: 'space-between', gap: 8, padding: '5px 0', borderBottom: '1px solid var(--ink-100)', fontSize: 'var(--text-xs)' }}>
+                    <span style={{ color: 'var(--ink-800)' }}>
+                      <button type="button" onClick={() => a.outcome === 'ranked' && select(a.name)} style={{ border: 'none', background: 'transparent', padding: 0, cursor: a.outcome === 'ranked' ? 'pointer' : 'default', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'inherit' }}>{a.name}</button>
+                      {a.oneLiner ? <span style={{ color: 'var(--ink-500)' }}> — {a.oneLiner.slice(0, 90)}{a.oneLiner.length > 90 ? '…' : ''}</span> : null}
+                    </span>
+                    <span style={{ whiteSpace: 'nowrap', fontFamily: 'monospace', fontWeight: 800 }}>
+                      {a.outcome === 'ranked' && a.tier ? <><span style={{ color: tierColor(a.tier) }}>{a.tier}</span> {a.composite?.toFixed(1)} · #{a.rank}</> : <span style={{ color: 'var(--warning)' }}>{a.outcome}{a.valuationUsdB ? ` · ${formatUsdB(a.valuationUsdB)}` : ''}</span>}
+                    </span>
+                  </div>
+                ))}
+              </div>
+              <div>
+                <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>Data fill by field</div>
+                {Object.entries(changelog.dataFill.byField).map(([f, v]) => (
+                  <div key={f} style={{ display: 'grid', gridTemplateColumns: '120px 1fr', gap: 8, alignItems: 'center', fontSize: 'var(--text-xs)', padding: '3px 0' }}>
+                    <span style={{ color: 'var(--ink-700)' }}>{coverageLabels[f as CoverageField] ?? f}</span>
+                    <span style={{ fontFamily: 'monospace', color: 'var(--ink-600)' }}>
+                      <span style={{ color: 'var(--success)' }}>{v.filled} filled</span> · {v.notDisclosed} n/d · <span style={{ color: v.stillMissing ? 'var(--danger)' : 'var(--ink-400)' }}>{v.stillMissing} not found</span>
+                    </span>
+                  </div>
+                ))}
+                {changelog.sinceOct21.length > 0 && (
+                  <>
+                    <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '12px 0 6px' }}>Biggest score changes vs {lastEditionLabel}</div>
+                    {changelog.sinceOct21.slice(0, 10).map((m) => (
+                      <button key={m.name} type="button" onClick={() => select(m.name)} style={{ display: 'flex', width: '100%', justifyContent: 'space-between', gap: 6, border: 'none', background: 'transparent', padding: '2px 0', cursor: 'pointer', fontSize: 'var(--text-xs)', color: 'var(--ink-800)', textAlign: 'left' }}>
+                        <span><strong>{m.name}</strong> <span style={{ fontFamily: 'monospace', color: 'var(--ink-400)' }}>{m.fromComposite.toFixed(1)}→{m.toComposite.toFixed(1)}</span></span>
+                        <span style={{ fontFamily: 'monospace', fontWeight: 900 }}>
+                          {m.fromTier !== m.toTier && <><span style={{ color: tierColor(m.fromTier) }}>{m.fromTier}</span>→<span style={{ color: tierColor(m.toTier) }}>{m.toTier}</span> </>}
+                          <RankMove from={m.from} to={m.to} />
+                        </span>
+                      </button>
+                    ))}
+                  </>
+                )}
+              </div>
+            </div>
+            <details style={{ marginTop: 'var(--space-md)' }}>
+              <summary style={{ cursor: 'pointer', fontSize: 'var(--text-sm)', fontWeight: 800, color: 'var(--ink-900)' }}>PitchBook vs public-source conflicts ({changelog.pitchbookConflicts.length} companies)</summary>
+              <ul style={{ margin: '8px 0 0', paddingLeft: 16, display: 'grid', gap: 4 }}>
+                {changelog.pitchbookConflicts.map((c) => (
+                  <li key={c.name} style={{ fontSize: '0.72rem', color: 'var(--ink-600)', lineHeight: 1.45 }}><strong style={{ color: 'var(--ink-800)' }}>{c.name}:</strong> {c.notes.join(' ')}</li>
+                ))}
+                {changelog.pitchbookCaution.map((c) => (
+                  <li key={`caution-${c.name}`} style={{ fontSize: '0.72rem', color: 'var(--ink-600)', lineHeight: 1.45 }}><strong style={{ color: 'var(--warning)' }}>{c.name} (identity check):</strong> {c.note}</li>
+                ))}
+              </ul>
+            </details>
+          </div>
           <div className="grid md:grid-cols-4" style={{ gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
             <StatCard label="Removed (> $20B)" value={String(removedOverCap.length)} sub={`${removedOverCap.filter((r) => r.inTalksOnly).length} of them on in-talks reports only.`} />
             <StatCard label="Newly excluded" value={String(changelog.newExclusions.length)} sub={changelog.newExclusions.map((e) => `${e.name} (${e.status})`).join(', ') || 'None'} />
@@ -1058,6 +1168,7 @@ export default function PrivateStartupTiersPage() {
                   <tr key={r.name} style={{ borderBottom: '1px solid var(--ink-100)' }}>
                     <td style={{ padding: '9px 8px', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'var(--text-sm)', whiteSpace: 'nowrap' }}>
                       <span style={{ display: 'inline-block', width: 7, height: 7, borderRadius: 99, background: sectorColors[r.sector], marginRight: 6 }} />{r.name}
+                      {r.isNewAddition && <span style={{ marginLeft: 6, fontSize: '0.62rem', color: 'var(--accent)', border: '1px solid var(--accent)', borderRadius: 99, padding: '1px 5px', fontWeight: 800 }}>new</span>}
                     </td>
                     <td style={{ padding: '9px 8px', fontFamily: 'monospace', fontWeight: 900 }}>
                       {r.valuationSource ? <a href={r.valuationSource} target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>{formatUsdB(r.valuationUsdB)} ↗</a> : formatUsdB(r.valuationUsdB)}

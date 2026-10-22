@@ -1,0 +1,1064 @@
+[
+  {
+    "name": "Runway",
+    "rounds": [
+      {
+        "date": "2018-12",
+        "stage": "Seed",
+        "amountUsdM": 2,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://venturebeat.com/business/runwayml-raises-8-5-million-for-its-ai-powered-media-creation-tools",
+        "singleSource": true
+      },
+      {
+        "date": "2020-12",
+        "stage": "Series A",
+        "amountUsdM": 8.5,
+        "postValuationUsdB": null,
+        "leads": "Amplify Partners (with Lux, Compound)",
+        "source": "https://runway.com/news/runway-raises-8-5m-series-a",
+        "singleSource": false
+      },
+      {
+        "date": "2021-12",
+        "stage": "Series B",
+        "amountUsdM": 35,
+        "postValuationUsdB": null,
+        "leads": "Coatue (with Amplify, Lux, Compound)",
+        "source": "https://runway.com/news/runway-raises-35-series-b",
+        "singleSource": false
+      },
+      {
+        "date": "2022-12",
+        "stage": "Series C",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": "Felicis",
+        "source": "https://runway.com/news/runway-raises-50-series-c",
+        "singleSource": false
+      },
+      {
+        "date": "2023-06",
+        "stage": "Series C extension",
+        "amountUsdM": 141,
+        "postValuationUsdB": 1.5,
+        "leads": "Google, NVIDIA, Salesforce Ventures",
+        "source": "https://techcrunch.com/2023/06/29/runway-a-startup-building-generative-ai-for-content-creators-raises-141m/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-04",
+        "stage": "Series D",
+        "amountUsdM": 308,
+        "postValuationUsdB": 3.3,
+        "leads": "General Atlantic",
+        "source": "https://news.crunchbase.com/venture/gen-ai-video-startup-unicorn-runway-seriese-raise/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-02",
+        "stage": "Series E",
+        "amountUsdM": 315,
+        "postValuationUsdB": 5.3,
+        "leads": "General Atlantic (with NVIDIA, Adobe Ventures, AllianceBernstein, AMD Ventures, Fidelity, Mirae Asset, Emphatic, Felicis, Premji Invest)",
+        "source": "https://runway.com/news/runway-series-e-funding",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 860,
+      "asOf": "2026-02",
+      "source": "https://news.crunchbase.com/venture/gen-ai-video-startup-unicorn-runway-seriese-raise/",
+      "singleSource": false,
+      "note": "Equity only. Crunchbase News: '$860 million since its 2018 inception'; matches the sum of the rounds listed (~$859.5M). Bloomberg/TechCrunch put the total at ~$237M after the June 2023 extension."
+    },
+    "headcount": {
+      "value": 140,
+      "date": "2026-02",
+      "source": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+      "singleSource": true,
+      "note": "'roughly 140-person team' per a company spokesperson. Cocoloop (May 2026) lists 155; LinkedIn-scraped aggregators show ~608, which counts freelance 'Creative Partners'."
+    },
+    "xPresence": "@runwayml ~294K followers; co-CEO @c_valenzuelab ~51.5K followers (fxtwitter, 2026-10-22).",
+    "talentSignals": [
+      "Company said it would expand the ~140-person team across research, engineering and go-to-market after the Series E https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount",
+      "xPresence"
+    ],
+    "notes": "Full round history rebuilt from Runway's own funding posts (Series A to E) plus TechCrunch/Reuters/Bloomberg for the 2023 extension at $1.5B. The $2M 2018 seed comes from one line in VentureBeat (2020). ARR ($200M, Sep 2026) and the $5.3B valuation are unchanged from the known data."
+  },
+  {
+    "name": "Suno",
+    "rounds": [
+      {
+        "date": "2024-05",
+        "stage": "Series B",
+        "amountUsdM": 125,
+        "postValuationUsdB": 0.5,
+        "leads": "Lightspeed Venture Partners (with Nat Friedman & Daniel Gross, Matrix, Founder Collective)",
+        "source": "https://suno.com/blog/fundraising-announcement-may-2024",
+        "singleSource": false,
+        "note": "$500M valuation reported by The Information via MBW https://www.musicbusinessworldwide.com/ai-music-generator-suno-raises-125m-valuing-company-at-500m-report/"
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series C",
+        "amountUsdM": 250,
+        "postValuationUsdB": 2.45,
+        "leads": "Menlo Ventures (with NVentures, Hallwood Media, Lightspeed, Matrix)",
+        "source": "https://www.suno.com/blog/series-c-announcement",
+        "singleSource": false
+      },
+      {
+        "date": "2026-06",
+        "stage": "Series D",
+        "amountUsdM": 400,
+        "postValuationUsdB": 5.4,
+        "leads": "Bond Capital (with IVP, Forerunner, USV, Alkeon, Quiet; existing Matrix, Lightspeed, Menlo, Schroders)",
+        "source": "https://suno.com/blog/series-d-announcement",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 775,
+      "asOf": "2026-10",
+      "source": "https://suno.com/about",
+      "singleSource": false,
+      "note": "Equity. Company says 'over $775M'; also reported by MBW (2026-10-07) https://www.musicbusinessworldwide.com/with-a-new-cfo-three-licensing-deals-and-775m-raised-whats-stopping-5-4b-valued-suno-from-an-ipo/ . Equals Series B+C+D; earlier seed/A amounts were never disclosed."
+    },
+    "headcount": {
+      "value": 250,
+      "date": "2026-10",
+      "source": "https://suno.com/about",
+      "singleSource": true,
+      "note": "Company 'By the Numbers': '250+ team members in our 4 offices'. Revelio Labs estimates 291 (Mar 2026); LinkedIn-scraped aggregators show ~511."
+    },
+    "xPresence": "@suno ~112K followers; CEO @MikeyShulman ~5.2K followers (fxtwitter, 2026-10-22).",
+    "talentSignals": [
+      "Company says over 2/3 of its 250+ staff are musicians https://suno.com/about",
+      "MBW reported a new CFO in Oct 2026, which it framed as IPO preparation https://www.musicbusinessworldwide.com/with-a-new-cfo-three-licensing-deals-and-775m-raised-whats-stopping-5-4b-valued-suno-from-an-ipo/"
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount",
+      "xPresence"
+    ],
+    "notes": "Correction: the Series C lead (missing in the bN file) was Menlo Ventures. Seed and Series A amounts were never disclosed (aggregators list a 2023 Series A with no amount). ARR remains $300M (Feb 2026); in Oct 2026 Shulman said revenue is 'far beyond' that but gave no figure."
+  },
+  {
+    "name": "Luma AI",
+    "rounds": [
+      {
+        "date": "2021-10",
+        "stage": "Seed",
+        "amountUsdM": 4.3,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://www.forbes.com/sites/charliefink/2023/03/23/this-week-in-xr-gdc-wrap-up-luma-3d-ai-raises-20-million/",
+        "singleSource": false
+      },
+      {
+        "date": "2023-03",
+        "stage": "Series A",
+        "amountUsdM": 20,
+        "postValuationUsdB": null,
+        "leads": "Amplify Partners (with NVentures, General Catalyst)",
+        "source": "https://www.amplifypartners.com/blog-posts/lumas-series-a",
+        "singleSource": false
+      },
+      {
+        "date": "2024-01",
+        "stage": "Series B",
+        "amountUsdM": 43,
+        "postValuationUsdB": null,
+        "leads": "Andreessen Horowitz",
+        "source": "https://a16z.com/announcement/investing-in-luma-ai/",
+        "singleSource": false,
+        "note": "Company: round brings total to $70M https://lumalabs.ai/series-b ; CB Insights puts valuation at $200-300M, Tracxn $250M (aggregator, not used)"
+      },
+      {
+        "date": "2024-12",
+        "stage": "Series B-II",
+        "amountUsdM": 90,
+        "postValuationUsdB": null,
+        "leads": "Amazon (with AMD, Factorial, LDV, Hanwha; existing a16z, Amplify, Matrix)",
+        "source": "https://www.marketscreener.com/quote/stock/AMD-ADVANCED-MICRO-DEVICE-19475876/news/Luma-AI-Inc-announced-that-it-has-received-90-million-in-funding-from-a-group-of-investors-48550518/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series C",
+        "amountUsdM": 900,
+        "postValuationUsdB": 4,
+        "leads": "HUMAIN (with AMD Ventures, a16z, Amplify, Matrix)",
+        "source": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain.html",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 1057,
+      "asOf": "2025-11",
+      "source": "https://www.cbinsights.com/company/luma-ai/financials",
+      "singleSource": false,
+      "sourceQuality": "aggregator",
+      "note": "Equity. CB Insights $1.057B and Tracxn $1.06B match the sum of the listed rounds (4.3+20+43+90+900). Press says 'over $1 billion'."
+    },
+    "headcount": {
+      "value": 160,
+      "date": "2026-02",
+      "source": "https://www.euronews.com/2026/02/06/luma-ai-bets-on-middle-east-as-next-ai-compute-hub-with-arabic-world-model",
+      "singleSource": true,
+      "note": "CEO Amit Jain: grew from ~30 in early 2025 to 'more than 160', adding 20-25 a month. Later aggregator counts: Crustdata 441 and Tracxn 497 (Sep 2026, LinkedIn-based). CNBC (Dec 2025): plans ~200 London hires by early 2027, ~40% of the workforce."
+    },
+    "talentSignals": [
+      "Headcount grew from ~30 (early 2025) to 160+ (Feb 2026), with new London and Seattle offices https://www.euronews.com/2026/02/06/luma-ai-bets-on-middle-east-as-next-ai-compute-hub-with-arabic-world-model",
+      "Plans ~200 London hires across research and engineering by early 2027 https://www.cnbc.com/2025/12/02/nvidia-backed-startup-luma-ai-announces-major-london-expansion.html"
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount"
+    ],
+    "notes": "ARR is not disclosed. Sacra's estimate is $8M annualized (Dec 2024) https://sacra.com/research/luma-ai/ ; GetLatka estimates $21.2M (Jul 2025); Clinkbill's ~$80M (2026) is an unsourced estimate and is not used. The $9B March 2026 valuation (Forbes, one line) is still unconfirmed, so latestValuation stays $4B."
+  },
+  {
+    "name": "Cartesia",
+    "rounds": [
+      {
+        "date": "2024-12",
+        "stage": "Seed",
+        "amountUsdM": 27,
+        "postValuationUsdB": null,
+        "leads": "Index Ventures",
+        "source": "https://research.contrary.com/company/cartesia",
+        "singleSource": false,
+        "note": "$27M is cumulative seed; Index led the $22M tranche (TechCrunch/Index, 2024-12-12)"
+      },
+      {
+        "date": "2025-03",
+        "stage": "Series A",
+        "amountUsdM": 64,
+        "postValuationUsdB": null,
+        "leads": "Kleiner Perkins",
+        "source": "https://fortune.com/2025/03/11/exclusive-cartesia-voice-ai-startup-raises-64-million-series-a/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-10",
+        "stage": "Series B",
+        "amountUsdM": 100,
+        "postValuationUsdB": null,
+        "leads": "Kleiner Perkins (with Index, Lightspeed, NVIDIA)",
+        "source": "https://www.linkedin.com/posts/krandiash_weve-raised-100m-from-kleiner-perkins-activity-7388968595499728896-0UJn",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 191,
+      "asOf": "2025-10",
+      "source": "https://research.contrary.com/company/cartesia",
+      "singleSource": false,
+      "note": "Equity. Contrary: '$191 million' across seed, A and B. Matches Fortune's $91M after the Series A plus the $100M Series B. Some profiles list $186M."
+    },
+    "talentSignals": [],
+    "notDisclosed": [
+      "latestValuation",
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM"
+    ],
+    "notes": "No valuation has been disclosed for any round. The $362M on premieralts/Airframe is a low-confidence, unsourced aggregator figure (dated Mar 2025) and is not used. Revenue is not public: Contrary (May 2026) says revenue metrics are unavailable, the customer count grew to 50K+ by Mar 2026, and Seedtable's $23-62M is an estimate. No new round or talks reported in 2026."
+  },
+  {
+    "name": "Linear",
+    "rounds": [
+      {
+        "date": "2019-11",
+        "stage": "Seed",
+        "amountUsdM": 4.2,
+        "postValuationUsdB": null,
+        "leads": "Sequoia Capital",
+        "source": "https://linear.app/now/linear-raises-usd13m-in-series-a-funding-from-sequoia-capital",
+        "singleSource": false,
+        "note": "Implied by Series A post: $13M A brings total to $17.2M; Sequoia led the seed (Sacra: $4.2M, Nov 2019)"
+      },
+      {
+        "date": "2020-12",
+        "stage": "Series A",
+        "amountUsdM": 13,
+        "postValuationUsdB": null,
+        "leads": "Sequoia Capital",
+        "source": "https://linear.app/now/linear-raises-usd13m-in-series-a-funding-from-sequoia-capital",
+        "singleSource": false
+      },
+      {
+        "date": "2023-09",
+        "stage": "Series B",
+        "amountUsdM": 35,
+        "postValuationUsdB": 0.4,
+        "leads": "Accel (with Sequoia, 01 Advisors)",
+        "source": "https://linear.app/now/series-b",
+        "singleSource": false,
+        "note": "~$400M valuation per Forbes https://www.forbes.com/sites/alexkonrad/2023/09/14/linear-developer-tools-raises-35-million-series-b/"
+      },
+      {
+        "date": "2025-06",
+        "stage": "Series C",
+        "amountUsdM": 82,
+        "postValuationUsdB": 1.25,
+        "leads": "Accel (with 01A, Sequoia, Seven Seven Six, Designer Fund)",
+        "source": "https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-08",
+        "stage": "Employee tender (secondary)",
+        "amountUsdM": 99,
+        "postValuationUsdB": 2.5,
+        "leads": "Accel (with 01A, Salesforce Ventures, S32)",
+        "source": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 134.2,
+      "asOf": "2025-06",
+      "source": "https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/",
+      "singleSource": false,
+      "note": "Primary equity only (TechCrunch citing Crunchbase; Sacra agrees). Excludes the $99M Aug 2026 secondary tender. Linear says it has more cash than it has ever raised and has been cash-flow positive since 2021."
+    },
+    "headcount": {
+      "value": 160,
+      "date": "2026-08",
+      "source": "https://texxr.com/1244408/linear-tops-100m-arr-2-5b-valuation",
+      "singleSource": false,
+      "note": "'team is still small (~160ppl)' in a Linear-side X post quoted by TEXXR, and Gergely Orosz's X post (2026-08-26): '160 employees'. TechCrunch: ~80 in Jun 2025. Linear listed 30+ open roles in Aug 2026. Tracxn (300) and TipRanks (193) are aggregator counts."
+    },
+    "xPresence": "@linear ~115K followers; CEO @karrisaarinen ~94.3K followers (fxtwitter, 2026-10-22). Gergely Orosz's '160 employees / $100M / 177% NRR' post about the tender circulated widely.",
+    "talentSignals": [
+      "~160 staff at $100M+ ARR (~$625K ARR per employee), fully remote https://nativefirst.ai/blog/linear-100m-arr-160-people/",
+      "Headcount roughly doubled from ~80 (Jun 2025) https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/"
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount",
+      "xPresence"
+    ],
+    "notes": "Correction: the Series C closed in June 2025 (TechCrunch 2025-06-10); the bN file had only '2025'. The full primary history is seed, A, B and C, with no primary raise since; the 2026 deal was a secondary tender. ARR (passed $100M in 2026) is unchanged."
+  },
+  {
+    "name": "Notion",
+    "rounds": [
+      {
+        "date": "2019-07",
+        "stage": "Angel round",
+        "amountUsdM": 10,
+        "postValuationUsdB": 0.8,
+        "leads": "Three angels incl. Daniel Gross",
+        "source": "https://www.businessinsider.com/notion-coo-akshay-kothari-funding-valuation-2019-7",
+        "singleSource": false,
+        "note": "$800M valuation also cited by TechCrunch 2020"
+      },
+      {
+        "date": "2020-04",
+        "stage": "Venture round",
+        "amountUsdM": 50,
+        "postValuationUsdB": 2,
+        "leads": "Index Ventures",
+        "source": "https://techcrunch.com/2020/04/01/notion-hits-2-billion-valuation-in-new-raise/",
+        "singleSource": false
+      },
+      {
+        "date": "2021-10",
+        "stage": "Series C",
+        "amountUsdM": 275,
+        "postValuationUsdB": 10,
+        "leads": "Coatue, Sequoia (with Base10)",
+        "source": "https://siliconangle.com/2021/10/08/productivity-startup-notion-valued-10b-latest-275m-funding-round/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-01",
+        "stage": "Employee tender (secondary)",
+        "amountUsdM": 270,
+        "postValuationUsdB": 11,
+        "leads": "GIC, Sequoia, Index",
+        "source": "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 342,
+      "asOf": "2021-10",
+      "source": "https://techcrunch.com/2020/04/01/notion-hits-2-billion-valuation-in-new-raise/",
+      "singleSource": false,
+      "note": "Primary equity: $67M through Apr 2020 (company figure, TechCrunch) plus the $275M Series C. SiliconANGLE says 'more than $300M'; Sacra ~$344M; CNBC Disruptor 50 (2026) lists $330M. Excludes the 2026 tender. A '$615M' figure in an Aug 2026 summary appears to include secondaries and is not used."
+    },
+    "arr": {
+      "valueUsdM": 600,
+      "date": "2025-12",
+      "kind": "ARR (passed)",
+      "source": "https://www.forbes.com/sites/annatong/2025/12/15/notion-kicks-off-employee-share-sale-at-11-billion-valuation-as-ai-accelerates-its-growth/",
+      "singleSource": false,
+      "note": "Forbes (people familiar): 'recently passed $600M ARR, half from AI products'. The Information (Aug 2026, 'Notion Plans Hiring Binge') repeats that ARR passed $600M in Dec 2025 and kept growing https://www.theinformation.com/articles/notion-plans-hiring-binge-ceo-makes-bet-ai . Company-confirmed point: $500M annualized revenue in Sep 2025 (CNBC). Sacra's $865M (Jul 2026) is an aggregator estimate, kept only as context."
+    },
+    "headcount": {
+      "value": 1000,
+      "date": "2025-09",
+      "source": "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html",
+      "singleSource": true,
+      "note": "'about 1,000 employees' (CNBC). An Aug 2026 secondary write-up of The Information's report says ~1,100, with plans to grow ~30% in 2026 https://cryptobriefing.com/notion-30-percent-headcount-increase-ai-development/"
+    },
+    "xPresence": "@NotionHQ ~533K followers; CEO @ivanhzhao ~86.9K followers (fxtwitter, 2026-10-22).",
+    "talentSignals": [
+      "Plans to grow headcount ~30% in 2026, mostly AI product and sales (The Information, Aug 2026) https://www.theinformation.com/articles/notion-plans-hiring-binge-ceo-makes-bet-ai",
+      "The Information also reported departures of AI-product and growth/marketing leaders (per a Japanese summary) https://note.com/tech_structure/n/ne848b30586d9"
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "arr",
+      "headcount",
+      "xPresence"
+    ],
+    "notes": "Correction: the 2021 Series C post-money was $10B (the bN file had null). ARR now uses Forbes and The Information reporting (≥$600M, Dec 2025) instead of the Sacra-only estimate; no newer reported figure. The Information also reported US mobile MAU down 13% YoY in Q2 2026 (Sensor Tower)."
+  },
+  {
+    "name": "Wispr Flow",
+    "rounds": [
+      {
+        "date": "2021-11",
+        "stage": "Seed",
+        "amountUsdM": 4.6,
+        "postValuationUsdB": null,
+        "leads": "NEA, 8VC",
+        "source": "https://www.prnewswire.com/news-releases/wispr-ai-secures-4-6m-from-nea-and-8vc-to-build-thought-powered-neural-interface-301433912.html",
+        "singleSource": false
+      },
+      {
+        "date": "2024-09",
+        "stage": "Venture round",
+        "amountUsdM": 12,
+        "postValuationUsdB": null,
+        "leads": "Matt Kraning (with NEA, 8VC)",
+        "source": "https://www.businesswire.com/news/home/20240930079034/en/Wispr-Raises-%2412M-and-Launches-Wispr-Flow-to-Replace-Keyboards-With-Voice",
+        "singleSource": false,
+        "note": "Company says total funding at this point was $26M, so ~$9M of earlier bridge rounds is undisclosed"
+      },
+      {
+        "date": "2025-06",
+        "stage": "Series A",
+        "amountUsdM": 30,
+        "postValuationUsdB": null,
+        "leads": "Menlo Ventures (with NEA, 8VC)",
+        "source": "https://techcrunch.com/2025/06/24/wispr-flow-raises-30m-from-menlo-ventures-for-its-ai-powered-dictation-app/",
+        "singleSource": false
+      },
+      {
+        "date": "2025-11",
+        "stage": "Series A extension",
+        "amountUsdM": 25,
+        "postValuationUsdB": 0.7,
+        "leads": "Notable Capital",
+        "source": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
+        "singleSource": false
+      },
+      {
+        "date": "2026-08",
+        "stage": "Series B",
+        "amountUsdM": 280,
+        "postValuationUsdB": 2,
+        "leads": "Menlo Ventures (with Notable, NEA, Neo, 8VC; new Acrew, Forerunner, Goodwater, Peak XV)",
+        "source": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 361,
+      "asOf": "2026-08",
+      "source": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
+      "singleSource": false,
+      "note": "Equity; Reuters and TechCrunch both say $361M to date."
+    },
+    "headcount": {
+      "value": 170,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/wisprflow",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived profile count (+227% YoY). Company-sourced points: team of 18 (Jun 2025, TechCrunch); CEO said the team grew from 7 to 60 in the year to May 2026 (via Postbeam)."
+    },
+    "xPresence": "@WisprFlow ~36.3K followers (fxtwitter, 2026-10-22); the CEO's handle could not be resolved on fxtwitter.",
+    "talentSignals": [
+      "Launched Wispr Interface Labs under Ariya Rastrow, an early Amazon Alexa scientist (Jul 2026) https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
+    ],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "headcount"
+    ],
+    "notes": "ARR is still undisclosed. A company LinkedIn post at the Series B said ARR 'more than doubled quarter-over-quarter for four straight quarters', with no number; the ~$10M (Oct 2025) figure is unverified. Over 10,000 enterprises use the product (Reuters)."
+  },
+  {
+    "name": "Midjourney",
+    "rounds": [],
+    "totalRaisedUsdM": {
+      "value": 0,
+      "asOf": "2026-04",
+      "source": "https://www.theinformation.com/articles/he-doesnt-need-vc-in-his-life-how-midjourneys-founder-built-an-ai-winner-while-rejecting-venture-capital",
+      "singleSource": false,
+      "note": "Bootstrapped; no outside capital ever raised. The Information (2023) and the Forbes company profile (updated Apr 2026) https://www.forbes.com/companies/midjourney/"
+    },
+    "arr": {
+      "valueUsdM": 300,
+      "date": "2024",
+      "kind": "FY revenue",
+      "source": "https://www.forbes.com/companies/midjourney/",
+      "singleSource": true,
+      "sourceQuality": "press citing PitchBook",
+      "note": "Forbes: '$300 million in total revenue in the 2024 fiscal year, according to PitchBook', and profitable. Earlier: >$200M (2023, The Information). The '$500M 2025' figures (AI Magazine, ARR Club, Quantumrun) are estimates and not used."
+    },
+    "headcount": {
+      "value": 60,
+      "date": "2026-04",
+      "source": "https://www.forbes.com/companies/midjourney/",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "Forbes estimate as relayed by GetLatka; LinkedIn counts were 107-131 in 2024-25."
+    },
+    "talentSignals": [
+      "Hired ex-Apple Vision Pro hardware lead Ahmad Abbas to work on custom silicon / the inference stack https://publication.aimagazine.com/ai-magazine-january-2026/0420777001765974917/p42"
+    ],
+    "notDisclosed": [
+      "latestValuation"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "arr"
+    ],
+    "notes": "No priced valuation exists because Midjourney has never sold equity; the '$10B+' figures on data sites are unsourced. Rounds are intentionally empty. The ARR field moves from the 2023 >$200M to FY2024 ~$300M (Forbes citing PitchBook), which is still single-source and not company-confirmed."
+  },
+  {
+    "name": "Krea",
+    "rounds": [
+      {
+        "date": "2023",
+        "stage": "Pre-seed/Seed",
+        "amountUsdM": 3,
+        "postValuationUsdB": null,
+        "leads": "Pebblebed",
+        "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/",
+        "singleSource": false,
+        "note": "Lead per Contrary https://research.contrary.com/company/krea"
+      },
+      {
+        "date": "2023-06",
+        "stage": "Series A",
+        "amountUsdM": 33,
+        "postValuationUsdB": null,
+        "leads": "Andreessen Horowitz",
+        "source": "https://research.contrary.com/company/krea",
+        "singleSource": true,
+        "note": "Date from Contrary (June 2023); GetLatka lists 2024. TechCrunch confirms amount and lead but not date."
+      },
+      {
+        "date": "2025-04",
+        "stage": "Series B",
+        "amountUsdM": 47,
+        "postValuationUsdB": 0.5,
+        "leads": "Bain Capital Ventures",
+        "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 83,
+      "asOf": "2026-05",
+      "source": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/",
+      "singleSource": false,
+      "note": "Equity. Re-confirmed by Fast Company (May 2026), still $83M with no new round https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model"
+    },
+    "arr": {
+      "valueUsdM": 8,
+      "date": "2025-04",
+      "kind": "ARR",
+      "source": "https://research.contrary.com/company/krea",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "Contrary: 'ARR reached $8 million as of April 2025, a 20x increase in 14 months'. Not company-confirmed in a primary release; no 2026 figure."
+    },
+    "headcount": {
+      "value": 37,
+      "date": "2026-05",
+      "source": "https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model",
+      "singleSource": true,
+      "note": "'the 37-person startup Krea' (Fast Company). Contrary: 17 employees as of Apr 2025. LinkedIn aggregators show 53-126."
+    },
+    "xPresence": "@krea_ai ~122K followers; CEO @viccpoes ~8.5K followers (fxtwitter, 2026-10-22).",
+    "talentSignals": [
+      "37 people trained Krea 2 from scratch and pivoted to an AI research lab (Fast Company, May 2026) https://www.fastcompany.com/91539932/welcome-to-the-age-of-the-underdog-ai-model"
+    ],
+    "notDisclosed": [],
+    "filled": [
+      "totalRaisedUsdM",
+      "arr",
+      "headcount",
+      "xPresence"
+    ],
+    "notes": "Series A date corrected from '2024' to Jun 2023 (Contrary), though aggregators disagree. The ARR value is aggregator-grade (Contrary) and dated; treat it as a floor. The 30M-user figure is from the company blog."
+  },
+  {
+    "name": "Pika",
+    "rounds": [
+      {
+        "date": "2023-11",
+        "stage": "Pre-seed + Seed + Series A",
+        "amountUsdM": 55,
+        "postValuationUsdB": null,
+        "leads": "Lightspeed (Series A); Nat Friedman & Daniel Gross (earlier)",
+        "source": "https://techcrunch.com/2023/11/28/pika-labs-which-is-building-ai-tools-to-generate-and-edit-videos-raises-55m/",
+        "singleSource": false
+      },
+      {
+        "date": "2024-06",
+        "stage": "Series B",
+        "amountUsdM": 80,
+        "postValuationUsdB": 0.47,
+        "leads": "Spark Capital (with Greycroft, Lightspeed)",
+        "source": "https://www.maginative.com/article/pika-labs-secures-80m-in-series-b-funding/",
+        "singleSource": false,
+        "note": "$470M valuation per Bloomberg/Semafor https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation ; Business Insider reported up to $700M"
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 135,
+      "asOf": "2024-06",
+      "source": "https://www.maginative.com/article/pika-labs-secures-80m-in-series-b-funding/",
+      "singleSource": false,
+      "note": "Equity; the Series B 'brings their total funding to $135 million' (also on the Forbes company profile). No round since."
+    },
+    "xPresence": "@pika_labs ~151K followers; CEO @demi_guo_ ~25.6K followers (fxtwitter, 2026-10-22).",
+    "talentSignals": [],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "totalRaisedUsdM",
+      "xPresence"
+    ],
+    "notes": "ARR is not disclosed. The '$85M+ ARR 2026' on amige.app and miracuves comes from content-farm estimates with no source and is not used; GetLatka estimates $7.6M (2024)."
+  },
+  {
+    "name": "Hedra",
+    "rounds": [
+      {
+        "date": "2024-08",
+        "stage": "Seed",
+        "amountUsdM": 10,
+        "postValuationUsdB": null,
+        "leads": "a16z speedrun, Abstract, Index (participants)",
+        "source": "https://africa.businessinsider.com/news/the-ai-video-startup-behind-those-viral-baby-podcast-memes-just-raised-dollar32m-from/3gd4mym",
+        "singleSource": true
+      },
+      {
+        "date": "2025-05",
+        "stage": "Series A",
+        "amountUsdM": 32,
+        "postValuationUsdB": 0.2,
+        "leads": "a16z Infrastructure fund (with a16z speedrun, Abstract, Index)",
+        "source": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/",
+        "singleSource": false,
+        "note": "Amount/lead confirmed by Reuters and Forbes; the $200M valuation is from one Reuters source"
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 43,
+      "asOf": "2025-05",
+      "source": "https://www.reuters.com/technology/ai-video-generator-startup-hedra-raises-32-million-andreessen-horowitz-led-round-2025-05-15/",
+      "singleSource": false,
+      "note": "Company figure, also in Forbes https://www.forbes.com/sites/davidprosser/2025/05/15/action-startups-race-to-capture-the-ai-video-generation-market/ . Aggregators add a ~$1M non-equity grant (Nov 2025). No 2026 round found."
+    },
+    "arr": {
+      "valueUsdM": 10,
+      "date": "2025-08",
+      "kind": "run-rate (founder-stated 'eight-figure', i.e. $10M+)",
+      "source": "https://www.pmf.show/blog/hedra-michael-lingelbach-ai-video-arr-growth-pmf",
+      "singleSource": true,
+      "note": "Lingelbach on The Product Market Fit Show (2025-08-18): $1M ARR 5-6 months after launch, and an eight-figure run rate soon after the V2 launch (~spring 2025). Treat as a floor; no 2026 figure."
+    },
+    "research": "Character-3 (Mar 2025) and Character-3 HD (Nov 2025); Omnia unified world model (Feb 2026), which powers Avatars and the 4K Upscaler https://www.hedra.com/models/video/hedra/character-3 . The Developer API (Oct 2026) serves 110+ third-party models. Custom AMD MI355X ROCm kernels make Krea 3 2K edits 6x faster (22s to 3.6s), per the company.",
+    "researchSources": [
+      "https://www.hedra.com/models/video/hedra/character-3",
+      "https://www.hedra.com/blog/hedra-developer-api",
+      "https://runtimewire.com/article/hedra-krea-3-amd-inference-speed"
+    ],
+    "xPresence": "@hedra_labs ~54K followers (fxtwitter, 2026-10-22). Recent launch posts get 3K-14K views; the 2025 'talking baby podcast' meme drove earlier virality.",
+    "xPosts": [
+      {
+        "url": "https://x.com/hedra_labs/status/2110763001372708992",
+        "author": "hedra_labs",
+        "date": "2026-10-15",
+        "likes": 149,
+        "views": 14121,
+        "summary": "Krea 3 launches on Hedra, claimed 6x faster (reference-driven image generation/editing)."
+      },
+      {
+        "url": "https://x.com/hedra_labs/status/2107517100810223647",
+        "author": "hedra_labs",
+        "date": "2026-10-06",
+        "likes": 32,
+        "views": 5440,
+        "summary": "Hedra is now a ChatGPT plugin: attach a product photo and get a generated commercial."
+      },
+      {
+        "url": "https://x.com/hedra_labs/status/2107174579093614788",
+        "author": "hedra_labs",
+        "date": "2026-10-05",
+        "likes": 22,
+        "views": 2991,
+        "summary": "Hedra Multiplayer: a shared team canvas where each member works with their own Hedra agent."
+      }
+    ],
+    "headcount": {
+      "value": 46,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/hedra-labs",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived count. Founder said 23 people at the Series A (May 2025); SiliconANGLE said ~20."
+    },
+    "talentSignals": [],
+    "notDisclosed": [],
+    "filled": [
+      "totalRaisedUsdM",
+      "arr",
+      "xPosts",
+      "headcount",
+      "research"
+    ],
+    "notes": "Low-confidence numbers re-checked: the $32M Series A, $43M total and a16z Infra lead are confirmed by Reuters and Forbes; the $200M valuation is from a single Reuters source. Founding year conflicts: Reuters says 2021, Forbes says 2024 (2023 elsewhere). Hedra's account bio now reads 'neolab bringing frontier inference to multimodal and physical AI', which marks a pivot toward inference/aggregation."
+  },
+  {
+    "name": "TwelveLabs",
+    "rounds": [
+      {
+        "date": "2022-03",
+        "stage": "Seed",
+        "amountUsdM": 5,
+        "postValuationUsdB": null,
+        "leads": "Index Ventures",
+        "source": "https://www.vcnewsdaily.com/Twelve%20Labs/venture-funding.php",
+        "singleSource": false
+      },
+      {
+        "date": "2022-12",
+        "stage": "Seed extension",
+        "amountUsdM": 12,
+        "postValuationUsdB": null,
+        "leads": "Radical Ventures (with Index, WndrCo)",
+        "source": "https://techcrunch.com/2022/12/05/twelve-labs-lands-12m-for-ai-that-understands-the-context-of-videos/",
+        "singleSource": false
+      },
+      {
+        "date": "2023-10",
+        "stage": "Strategic",
+        "amountUsdM": 10,
+        "postValuationUsdB": null,
+        "leads": "NVentures, Intel, Samsung Next, Korea Investment Partners",
+        "source": "https://research.contrary.com/company/twelvelabs",
+        "singleSource": true
+      },
+      {
+        "date": "2024-06",
+        "stage": "Series A",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": "NEA, NVentures (co-leads)",
+        "source": "https://www.twelvelabs.io/blog/series-a-announcement",
+        "singleSource": false
+      },
+      {
+        "date": "2024-12",
+        "stage": "Strategic",
+        "amountUsdM": 30,
+        "postValuationUsdB": null,
+        "leads": "Databricks, Snowflake, SK Telecom, HubSpot Ventures, In-Q-Tel",
+        "source": "https://www.twelvelabs.io/blog/twelve-labs-secures-30-million-in-funding-validating-the-importance-of-twelve-labs-video-understanding-technology-to-the-ai-ecosystem",
+        "singleSource": false
+      },
+      {
+        "date": "2025-10",
+        "stage": "Corporate",
+        "amountUsdM": 3,
+        "postValuationUsdB": null,
+        "leads": "Firstman Studios",
+        "source": "https://research.contrary.com/company/twelvelabs",
+        "singleSource": true
+      },
+      {
+        "date": "2026-07",
+        "stage": "Series B",
+        "amountUsdM": 100,
+        "postValuationUsdB": null,
+        "leads": "NEA, NAVER Ventures (with Amazon, Radical, Index, Korea Investment Partners, Quadrille, Red Bull Ventures)",
+        "source": "https://www.twelvelabs.io/blog/twelvelabs-series-b-100m",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 210.1,
+      "asOf": "2026-07",
+      "source": "https://research.contrary.com/company/twelvelabs",
+      "singleSource": false,
+      "note": "Equity/strategic. Contrary $210.1M across nine rounds; Seoul Economic Daily says 'more than $200M' https://en.sedaily.com/technology/2026/07/02/video-ai-startup-twelvelabs-raises-150-billion-won-backed . Includes an undisclosed NAVER Ventures round (Jun 2025)."
+    },
+    "xPresence": "@twelvelabs ~3.4K followers; CEO @_jae_lee ~321 followers (fxtwitter, 2026-10-22). Very quiet on X; launch posts get ~1K views.",
+    "xPosts": [
+      {
+        "url": "https://x.com/twelvelabs/status/2110762631589941515",
+        "author": "twelvelabs",
+        "date": "2026-10-15",
+        "likes": 34,
+        "views": 1241,
+        "summary": "Jockey video-intelligence agent is now generally available."
+      },
+      {
+        "url": "https://x.com/twelvelabs/status/2107590024875397370",
+        "author": "twelvelabs",
+        "date": "2026-10-06",
+        "likes": 9,
+        "views": 718,
+        "summary": "Pegasus 1.6 launch thread, positioned for physical-AI / egocentric robotics video."
+      },
+      {
+        "url": "https://x.com/_jae_lee/status/2108585513183773043",
+        "author": "_jae_lee",
+        "date": "2026-10-09",
+        "likes": 4,
+        "views": 141,
+        "summary": "CEO notes a surge of egocentric video processed on TwelveLabs for robotics QC and captioning."
+      }
+    ],
+    "talentSignals": [
+      "Hired former SK Telecom CTO Yoon Kim as President/CSO (Dec 2024) https://www.twelvelabs.io/blog/twelve-labs-secures-30-million-in-funding-validating-the-importance-of-twelve-labs-video-understanding-technology-to-the-ai-ecosystem"
+    ],
+    "notDisclosed": [
+      "latestValuation",
+      "arr"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "xPosts",
+      "xPresence"
+    ],
+    "notes": "Correction: the bN file lists '2024-12 Series A $30M'. The Series A was actually $50M in Jun 2024 (NEA/NVentures), and the Dec 2024 $30M was a separate strategic round. No valuation has been disclosed for any round, including the $100M Series B (Contrary, Oct 2026). Revenue is not disclosed: $4.5M (LinkedIn-derived), $5.8M for 2024 (an 'unverified estimate' per Contrary) and ~$16M (Systemaic) are all estimates."
+  },
+  {
+    "name": "Liner",
+    "rounds": [
+      {
+        "date": "2022",
+        "stage": "Series B1",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://www.mk.co.kr/en/it/11137202",
+        "singleSource": true,
+        "note": "~KRW 11B, implied: Series B total KRW 38B minus the B2's KRW 27B. Cumulative KRW 44B after the B2."
+      },
+      {
+        "date": "2024-10",
+        "stage": "Series B2",
+        "amountUsdM": 29,
+        "postValuationUsdB": null,
+        "leads": "Atinum Investment, Intervest (with Samsung Venture, LB Investment)",
+        "source": "https://www.hindustantimes.com/business/samsung-invests-into-liner-an-ai-bot-for-students-and-academics-101728560205944.html",
+        "singleSource": false,
+        "note": "KRW 27B (MK); Bloomberg: total raised $33M"
+      },
+      {
+        "date": "2026-08",
+        "stage": "Series C",
+        "amountUsdM": 36.1,
+        "postValuationUsdB": 0.22,
+        "leads": "LB Investment (with Atinum, CJ Investment; new KDB, Helios PE, KB Securities, Daishin, STIC Ventures)",
+        "source": "https://liner.com/ko/news/Liner-SeriesC",
+        "singleSource": false,
+        "note": "KRW 50B. Post-money ~KRW 300B (~$0.22B) is reported, not company-confirmed: ChosunBiz said a KRW 250B pre-money target https://biz.chosun.com/en/en-finance/2026/08/06/WAC6U2FBCNDONBCGBLYDYRNXVA/ ; StartupRecipe said 'reportedly pushes valuation past KRW 300B' https://en.startuprecipe.co.kr/archives/28847"
+      }
+    ],
+    "latestValuation": {
+      "valueUsdB": 0.22,
+      "date": "2026-08",
+      "source": "https://en.startuprecipe.co.kr/archives/28847",
+      "basis": "reported post-money (~KRW 300B on KRW 250B pre-money); converted at the ~1,385 KRW/USD implied by the company's $36.1M = KRW 50B",
+      "singleSource": true
+    },
+    "totalRaisedUsdM": {
+      "value": 69,
+      "asOf": "2026-08",
+      "source": "https://liner.com/ko/news/Liner-SeriesC",
+      "singleSource": false,
+      "note": "Company: cumulative ~KRW 94B (also Digital Times, Chosun). USD is approximate: $33M through Oct 2024 (Bloomberg) plus the $36.1M Series C."
+    },
+    "headcount": {
+      "value": 110,
+      "date": "2026-10",
+      "source": "https://linkedin.com/company/liner21",
+      "singleSource": true,
+      "sourceQuality": "aggregator",
+      "note": "LinkedIn-derived count (+24% YoY). Company-sourced: ~40 (Apr 2024 company blog; Bloomberg Oct 2024)."
+    },
+    "xPresence": "@search_liner ~2.6K followers (profile shows 2,607); CEO @lukejinukim ~143 followers (fxtwitter, 2026-10-22). Minimal organic reach; one Sep 2026 Search MCP post reached ~338K views (likely promoted).",
+    "xPosts": [
+      {
+        "url": "https://x.com/search_liner/status/2094665935395467759",
+        "author": "search_liner",
+        "date": "2026-09-01",
+        "likes": 113,
+        "views": 337636,
+        "summary": "Liner Search MCP launch: agents get fresh, sourced search results, 200 free searches/day."
+      },
+      {
+        "url": "https://x.com/search_liner/status/2100873864641478968",
+        "author": "search_liner",
+        "date": "2026-09-18",
+        "likes": 1,
+        "views": 468,
+        "summary": "Liner Actions: discovers and connects the tools a task needs, on top of existing connectors."
+      }
+    ],
+    "talentSignals": [],
+    "notDisclosed": [
+      "arr"
+    ],
+    "filled": [
+      "rounds",
+      "latestValuation",
+      "totalRaisedUsdM",
+      "headcount",
+      "xPosts",
+      "xPresence"
+    ],
+    "notes": "Revenue is not disclosed. The company says 2024 revenue grew 341.3% YoY with no base figure https://liner.com/news/ai-startups-ax-strategy-spotlight-liner ; LinkedIn-derived $4.5M is an estimate. Users: 14M across 220 countries, #30 among global AI services by SimilarWeb traffic (Jul 2026). It supplies the search engine for HUMAIN ONE. Seed/Series A amounts before 2022 total ~KRW 6B, implied from cumulative figures and not itemized."
+  },
+  {
+    "name": "Otter.ai",
+    "rounds": [
+      {
+        "date": "2016-09",
+        "stage": "Seed",
+        "amountUsdM": 3,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://app.dealroom.co/companies/otter_ai",
+        "singleSource": true,
+        "note": "Aggregator; VentureBeat (2020) says rounds before 2020 totaled $13M"
+      },
+      {
+        "date": "2017-11",
+        "stage": "Series A",
+        "amountUsdM": 10,
+        "postValuationUsdB": null,
+        "leads": "Horizons Ventures",
+        "source": "https://app.dealroom.co/companies/otter_ai",
+        "singleSource": true
+      },
+      {
+        "date": "2020-01",
+        "stage": "Strategic (venture)",
+        "amountUsdM": 10,
+        "postValuationUsdB": null,
+        "leads": "NTT DOCOMO Ventures",
+        "source": "https://venturebeat.com/technology/aisense-raises-10-million-for-ai-transcription-tool-otter",
+        "singleSource": false
+      },
+      {
+        "date": "2021-02",
+        "stage": "Series B (incl. $10M convertible note)",
+        "amountUsdM": 50,
+        "postValuationUsdB": null,
+        "leads": "Spectrum Equity",
+        "source": "https://otter.ai/blog/otter-raises-50-million",
+        "singleSource": false
+      },
+      {
+        "date": "2026-10",
+        "stage": "Non-dilutive growth financing (General Catalyst Customer Value Fund; revenue-linked, repayable, not equity)",
+        "amountUsdM": 320,
+        "postValuationUsdB": null,
+        "leads": "General Catalyst CVF",
+        "source": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+        "singleSource": false
+      }
+    ],
+    "totalRaisedUsdM": {
+      "value": 63,
+      "asOf": "2021-02",
+      "source": "https://venturebeat.com/business/otter-ai-raises-50-million-for-its-ai-transcription-service",
+      "singleSource": false,
+      "note": "Equity only, 'over $63 million' (VentureBeat; Business Insider also $63M). Excludes the $320M non-dilutive CVF financing (Oct 2026); including it, total capital ~ $383M. TechCrunch (Oct 2026), citing PitchBook, says $50M, which undercounts."
+    },
+    "arr": {
+      "valueUsdM": 100,
+      "date": "2025-03",
+      "kind": "ARR (exceeded)",
+      "source": "https://otter.ai/blog/otter-ai-breaks-100m-arr-barrier-and-transforms-business-meetings-launching-industry-first-ai-meeting-agent-suite",
+      "singleSource": false,
+      "note": "Company blog. CEO repeated 'exceeded $100M ARR' in a Mar 2026 interview https://www.eomag.io/article/otter-ai-sam-liang , and TechCrunch (Oct 2026) restates it, adding the company says it is 'approaching new milestones' with no new figure."
+    },
+    "xPresence": "@otter_ai ~17K followers; CEO @Goopt ~1.5K followers (fxtwitter, 2026-10-22). Quiet; company posts get ~0.5K-4K views.",
+    "xPosts": [
+      {
+        "url": "https://x.com/otter_ai/status/2112519968248221716",
+        "author": "otter_ai",
+        "date": "2026-10-20",
+        "likes": 9,
+        "views": 1452,
+        "summary": "Announces $320M growth financing from General Catalyst's CVF; 40M+ users, 86% of Fortune 500, 1B+ meetings."
+      },
+      {
+        "url": "https://x.com/otter_ai/status/2110827641741906204",
+        "author": "otter_ai",
+        "date": "2026-10-15",
+        "likes": 13,
+        "views": 781,
+        "summary": "Claims #1 on Hugging Face's Open ASR Leaderboard with in-house speech recognition."
+      }
+    ],
+    "talentSignals": [
+      "New CMO Alex Gay (ex-Superhuman/Grammarly, Adobe), Aug 2026; Mike Barnes to lead partnerships, Jul 2026 https://otter.ai/press"
+    ],
+    "notDisclosed": [
+      "latestValuation"
+    ],
+    "filled": [
+      "rounds",
+      "totalRaisedUsdM",
+      "arr",
+      "xPosts",
+      "xPresence"
+    ],
+    "notes": "No valuation has been disclosed since 2021 (Business Insider: PitchBook has none); the $320M CVF deal is debt-like and sets no valuation. Seed/A dates and amounts are from Dealroom (aggregator) and consistent with VentureBeat's '$13M before 2020'. The ARR field is now corroborated by CEO statements in 2026, so it is no longer single-source, but there is still no figure above $100M."
+  }
+]

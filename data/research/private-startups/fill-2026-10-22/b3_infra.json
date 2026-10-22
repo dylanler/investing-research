@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Together AI",
+    "rounds": [
+      {"date": "2023-05", "stage": "Seed", "amountUsdM": 20, "postValuationUsdB": null, "leads": "Lux Capital", "source": "https://www.together.ai/blog/seed-funding", "singleSource": false},
+      {"date": "2023-11", "stage": "Series A", "amountUsdM": 102.5, "postValuationUsdB": null, "leads": "Kleiner Perkins", "source": "https://www.together.ai/blog/series-a", "singleSource": false},
+      {"date": "2024-03", "stage": "Series A-2", "amountUsdM": 106, "postValuationUsdB": 1.25, "leads": "Salesforce Ventures", "source": "https://www.together.ai/blog/series-a2", "singleSource": false},
+      {"date": "2025-02", "stage": "Series B", "amountUsdM": 305, "postValuationUsdB": 3.3, "leads": "General Catalyst (co-lead Prosperity7)", "source": "https://www.reuters.com/legal/transactional/together-ai-raises-800-million-83-billion-valuation-2026-07-01/", "singleSource": false},
+      {"date": "2026-07", "stage": "Series C", "amountUsdM": 800, "postValuationUsdB": 8.3, "leads": "Aramco Ventures", "source": "https://www.together.ai/blog/announcing-our-series-c", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 1333.5, "asOf": "2026-07", "source": "https://tracxn.com/d/companies/together-ai/__fcIBLE0rJMeK3FAdcfzE0H41jE36bJd0FDBWalYo6cY", "singleSource": false, "note": "Equity only. This is the sum of the five company-announced rounds (20 + 102.5 + 106 + 305 + 800); Tracxn shows $1.33B and PitchBook $1.34B. It excludes the 500+ MW of compute that Series C investors committed to capitalize separately (https://www.together.ai/blog/announcing-our-series-c)."},
+    "headcount": {"value": 445, "date": "2026-09", "source": "https://tracxn.com/d/companies/together-ai/__fcIBLE0rJMeK3FAdcfzE0H41jE36bJd0FDBWalYo6cY", "singleSource": true, "sourceQuality": "aggregator", "note": "Tracxn: 445 as of 2026-09-30; a LinkedIn-derived profile also shows 445 (+65% YoY); PitchBook shows 438. No company-stated figure was found."},
+    "research": "Unchanged from known data. GitHub org togethercomputer: OpenChatKit 9.0k stars, RedPajama-Data 5.0k, MoA 3.0k (GitHub API, 2026-10-22). FlashAttention (Dao-AILab, 25k+ stars) is from its Chief Scientist's lab. The Series C post cites FlashAttention-4 for Blackwell, Together Megakernel and together.compile.",
+    "researchSources": ["https://api.github.com/orgs/togethercomputer/repos", "https://www.together.ai/blog/announcing-our-series-c"],
+    "xPresence": "@togethercompute 64.5k followers; CEO @vipulved 8.7k; Chief Scientist @tri_dao 45.8k (fxtwitter, 2026-10-22).",
+    "xPosts": [
+      {"url": "https://x.com/vipulved/status/2072321276094673083", "author": "vipulved", "date": "2026-07-01", "likes": 487, "views": 176134, "summary": "CEO announces the $800M Series C at an $8.3B valuation, framed as 'intelligence should be abundant, not expensive'."}
+    ],
+    "talentSignals": ["Acquired CodeSandbox (Dec 2024) and Refuel.ai (May 2025), per a LinkedIn-derived company profile (https://linkedin.com/company/togethercomputer); about 41 staff are tagged Research."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "Added the full round history from company blog posts (seed, Series A, Series A-2). Total equity is $1.3335B. Headcount comes only from aggregators (445); the company has not stated one. No new round or talks since July."
+  },
+  {
+    "name": "Modal",
+    "rounds": [
+      {"date": "2022-02", "stage": "Seed", "amountUsdM": 7, "postValuationUsdB": null, "leads": "Amplify Partners", "source": "https://techcrunch.com/2023/10/10/modal-labs-lands-16m-to-abstract-away-big-data-workload-infrastructure/", "singleSource": false},
+      {"date": "2023-10", "stage": "Series A", "amountUsdM": 16, "postValuationUsdB": null, "leads": "Redpoint Ventures", "source": "https://modal.com/blog/general-availability-and-series-a-press-release", "singleSource": false},
+      {"date": "2025-09", "stage": "Series B", "amountUsdM": 87, "postValuationUsdB": 1.1, "leads": "Lux Capital", "source": "https://modal.com/blog/announcing-our-series-b", "singleSource": false},
+      {"date": "2026-05", "stage": "Series C", "amountUsdM": 355, "postValuationUsdB": 4.65, "leads": "General Catalyst, Redpoint", "source": "https://modal.com/blog/modal-series-c", "singleSource": false},
+      {"date": "2026-10", "stage": "Series D", "amountUsdM": 750, "postValuationUsdB": 15.75, "leads": "Accel", "source": "https://modal.com/blog/1-billion-annualized-run-rate-series-d", "singleSource": false}
+    ],
+    "latestValuation": {"valueUsdB": 15.75, "date": "2026-10", "source": "https://modal.com/blog/1-billion-annualized-run-rate-series-d", "basis": "closed round", "singleSource": false},
+    "totalRaisedUsdM": {"value": 1216, "asOf": "2026-10", "source": "https://sacra.com/c/modal-labs/", "singleSource": false, "note": "Equity only. The company said total raised was $111M after the Series B (https://modal.com/blog/announcing-our-series-b); adding the $355M Series C and $750M Series D gives about $1.216B. PitchBook and Tracxn both show $1.22B."},
+    "headcount": {"value": 200, "date": "2026-10", "source": "https://modal.com/blog/1-billion-annualized-run-rate-series-d", "singleSource": false, "note": "Company says '200+ across NY, SF, and Stockholm'. Aggregators: Tracxn 247 (2026-09-30), PitchBook 270, LinkedIn-derived 256."},
+    "research": "GitHub org modal-labs: modal-examples 1.3k stars, quillman 1.2k, gpu-glossary 0.75k, modal-client 0.53k (GitHub API, 2026-10-22). Strong engineering blog; no papers.",
+    "researchSources": ["https://api.github.com/orgs/modal-labs/repos"],
+    "xPresence": "@modal 39.5k followers; CEO @bernhardsson 60.2k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": ["TechCrunch (Oct 2023) reported 14 employees; the company now says 200+ (Oct 2026), roughly 14x in three years (https://techcrunch.com/2023/10/10/modal-labs-lands-16m-to-abstract-away-big-data-workload-infrastructure/)."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount"],
+    "notes": "CORRECTION: the Series B was $87M (Axios; company said 'more than $80M', total $111M), not $80M as in the base file. Its date is Sep 2025, not Jul 2025 as Tracxn shows. A Silicon Valley Investclub listing of an Apr 2024 '$25M Series A led by Left Lane' is unsupported by any company source and was not used."
+  },
+  {
+    "name": "fal",
+    "rounds": [
+      {"date": "2024-08", "stage": "Seed", "amountUsdM": 9, "postValuationUsdB": null, "leads": "Andreessen Horowitz", "source": "https://blog.fal.ai/generative-media-needs-speed-fal-has-raised-23m-to-accelerate/", "singleSource": false},
+      {"date": "2024-09", "stage": "Series A", "amountUsdM": 14, "postValuationUsdB": 0.08, "leads": "Kindred Ventures", "source": "https://techcrunch.com/2024/09/18/fal-ai-which-hosts-media-generating-ai-models-raises-23m-from-a16z-and-others/", "singleSource": true},
+      {"date": "2025-02", "stage": "Series B", "amountUsdM": 49, "postValuationUsdB": null, "leads": "Notable Capital, a16z", "source": "https://blog.fal.ai/fal-raises-49m-series-b-to-power-the-future-of-ai-video/", "singleSource": false},
+      {"date": "2025-07", "stage": "Series C", "amountUsdM": 125, "postValuationUsdB": 1.5, "leads": "Meritech", "source": "https://www.reuters.com/business/ai-infrastructure-company-fal-raises-125-million-valuing-company-15-billion-2025-07-31/", "singleSource": false},
+      {"date": "2025-12", "stage": "Series D", "amountUsdM": 140, "postValuationUsdB": 4.5, "leads": "Sequoia (with Kleiner Perkins, NVIDIA)", "source": "https://blog.fal.ai/our-series-d-scaling-fal/", "singleSource": false},
+      {"date": "2026-03", "stage": "Growth (reported, not confirmed closed)", "amountUsdM": 350, "postValuationUsdB": 8, "leads": null, "source": "https://dealroom.co/news/126961-fal-targets-8b-valuation-in-new-raise-as-ai-inference-revenue-doubles-to/", "singleSource": true},
+      {"date": "2026-09", "stage": "Growth (in talks, not closed)", "amountUsdM": null, "postValuationUsdB": 15, "leads": null, "source": "https://www.sovereignmagazine.com/article/fal-fireworks-inference-valuations-15b-30b", "singleSource": true}
+    ],
+    "latestValuation": {"valueUsdB": 4.5, "date": "2025-12", "source": "https://techcrunch.com/2025/12/09/fal-nabs-140m-in-fresh-funding-led-by-sequoia-tripling-valuation-to-4-5b/", "basis": "closed round", "singleSource": false},
+    "totalRaisedUsdM": {"value": 337, "asOf": "2025-12", "source": "https://www.cbinsights.com/company/features-labels/financials", "singleSource": false, "note": "Confirmed primary equity: 9 + 14 + 49 + 125 + 140 = $337M (CB Insights $337M; Crustdata $338M including a $0.54M 2025 note). Company said $72M total after the Series B. The TechCrunch Oct 2025 '~$250M at $4B+' report matches CB Insights' $140M primary + $110M secondary in the Dec 2025 deal. If the reported but unconfirmed March 2026 ~$350M raise closed, the total would be about $687M (Sacra lists $587M)."},
+    "arr": {"valueUsdM": 800, "date": "2026-09", "kind": "annualized revenue", "source": "https://world.newsx.com/world/brief-fal-seeks-new-funding-at-over-15-billion-valuation-the-information-237759/", "singleSource": true, "note": "The original report is The Information (2026-09-25), relayed verbatim by a Reuters BRIEF ('revenue hits $800 million pace'). It cites people familiar with the matter and is not company-confirmed. Trajectory: $200M (Oct 2025) to $400M (Mar 2026) to $800M (Sep 2026). Sacra estimated $400M for Feb 2026."},
+    "headcount": {"value": 177, "date": "2026-09", "source": "https://research.crustdata.com/company/fal", "singleSource": true, "sourceQuality": "aggregator", "note": "Last company-stated figure: 70 people (Dec 2025, https://blog.fal.ai/our-series-d-scaling-fal/), up from 22 in Feb 2025 (Fortune). Aggregators for Sep-Oct 2026: Crustdata 177, LinkedIn-derived 201."},
+    "research": "GitHub org fal-ai: fal 1.0k stars, dbt-fal 0.85k, aura-sr 0.5k (GitHub API, 2026-10-22). Mainly inference optimization blogs; the Sept 2026 GenMedia Conference referenced an 'H3 Max model family' and fal Agent.",
+    "researchSources": ["https://api.github.com/orgs/fal-ai/repos", "https://x.com/fal/status/2103171324831031602"],
+    "xPresence": "@fal 69.5k followers; co-founder/CEO @burkaygur 7.3k (fxtwitter, 2026-10-22). Product launches regularly reach 40k-160k views.",
+    "xPosts": [
+      {"url": "https://x.com/fal/status/2105758120794259807", "author": "fal", "date": "2026-10-01", "likes": 1166, "views": 157292, "summary": "Launch of fal Recast, one-click character replacement in existing video, powered by the H3 Max model."},
+      {"url": "https://x.com/fal/status/2110795863861674073", "author": "fal", "date": "2026-10-15", "likes": 496, "views": 38841, "summary": "Launch of fal Worlds, real-time interactive AI-generated worlds (LingBot World, H3 Max Director)."},
+      {"url": "https://x.com/burkaygur/status/2110801802929258591", "author": "burkaygur", "date": "2026-10-15", "likes": 77, "views": 2847, "summary": "CEO says world models are at an inflection point and positions fal Worlds as the place to build with them."}
+    ],
+    "talentSignals": ["Headcount grew from 22 (Feb 2025, https://fortune.com/2025/02/12/exclusive-fal-generative-media-platform-for-developers-raises-49-million-series-b/) to 70 (Dec 2025, company blog) to about 177-201 (Sep-Oct 2026, aggregators). Crustdata names Coinbase as the largest prior employer (https://research.crustdata.com/company/fal)."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts", "arr (upgraded source: The Information via Reuters brief)"],
+    "notes": "Rounds: corrected the base file's Series B/C/D sources from Sacra to company blogs, Reuters and Fortune, and added the 2024 seed and Series A. The Series A $80M valuation is from TechCrunch only (single source). No close of the March ($8B) or September ($15B+) rounds has been announced, so latestValuation stays at the confirmed $4.5B (Dec 2025)."
+  },
+  {
+    "name": "Exa",
+    "rounds": [
+      {"date": "2021-09", "stage": "Seed", "amountUsdM": 5, "postValuationUsdB": null, "leads": "Y Combinator (S21) and others", "source": "https://techcrunch.com/2024/07/16/exa-raises-17m-lightspeed-nvidia-ycombinator-google-ai-models/", "singleSource": false},
+      {"date": "2024-07", "stage": "Series A", "amountUsdM": 17, "postValuationUsdB": null, "leads": "Lightspeed", "source": "https://exa.ai/blog/series-a", "singleSource": false},
+      {"date": "2025-09", "stage": "Series B", "amountUsdM": 85, "postValuationUsdB": 0.7, "leads": "Benchmark", "source": "https://www.bloomberg.com/news/articles/2026-05-20/andreessen-backed-ai-search-startup-exa-valued-at-2-2-billion", "singleSource": false},
+      {"date": "2026-05", "stage": "Series C", "amountUsdM": 250, "postValuationUsdB": 2.2, "leads": "a16z", "source": "https://exa.ai/blog/announcing-series-c", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 357, "asOf": "2026-05", "source": "https://siliconvalleyinvestclub.com/companies/exa/tear-sheet.pdf", "singleSource": false, "note": "Equity only: $5M seed + $17M Series A (company/TechCrunch: '$22M total') + $85M Series B + $250M Series C = $357M. A Form D filed 2026-09-28 shows $247.5M sold for the Series C."},
+    "arr": {"valueUsdM": 100, "date": "2026-10", "kind": "annualized revenue", "source": "https://exa.ai/blog/100m-run-rate", "singleSource": false, "note": "Company-stated by the CEO on the company blog, X (verified) and LinkedIn, and covered by Dealroom. Sacra separately estimates $100M as of Sept 2026, up from $14M at end-2025 (https://sacra.com/c/exa/). This is still a company claim, not audited."},
+    "research": "GitHub org exa-labs: exa-mcp-server 5.2k stars, company-researcher 1.5k, exa-deepseek-chat 0.7k (GitHub API, 2026-10-22). Trains its own search and embedding models on an in-house GPU cluster (144 H200s per a third-party profile).",
+    "researchSources": ["https://api.github.com/orgs/exa-labs/repos"],
+    "xPresence": "@ExaAILabs 65.1k followers (fxtwitter, 2026-10-22). Posts by the CEO and company routinely reach 0.4M-1.4M views.",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["rounds", "totalRaisedUsdM", "arr (now company-stated + Sacra corroboration)"],
+    "notes": "Added the $5M seed (TechCrunch, Jul 2024). Total raised is $357M. The $100M ARR is upgraded from the Sacra $10M (Sep 2025) single-source figure to the company's Oct 2026 statement, which Sacra's own estimate corroborates. No new round reported."
+  },
+  {
+    "name": "Parallel Web Systems",
+    "rounds": [
+      {"date": "2024-01", "stage": "Seed", "amountUsdM": 30, "postValuationUsdB": null, "leads": "Khosla Ventures, Index Ventures, First Round (with Terrain)", "source": "https://en.wikipedia.org/wiki/Parallel_Web_Systems", "singleSource": true},
+      {"date": "2025-11", "stage": "Series A", "amountUsdM": 100, "postValuationUsdB": 0.74, "leads": "Kleiner Perkins, Index Ventures", "source": "https://parallel.ai/blog/series-a", "singleSource": false},
+      {"date": "2026-04", "stage": "Series B", "amountUsdM": 100, "postValuationUsdB": 2, "leads": "Sequoia", "source": "https://parallel.ai/blog/series-b", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 230, "asOf": "2026-04", "source": "https://www.prnewswire.com/news-releases/parallel-raises-at-2-billion-valuation-to-scale-web-infrastructure-for-agents-302756350.html", "singleSource": false, "note": "Company-stated total ('bringing the total amount raised to $230 million'), equity only. This implies the seed was $30M."},
+    "research": "GitHub org parallel-web: parallel-cookbook 123 stars, parallel-agent-skills 90 (GitHub API, 2026-10-22). Publishes deep-research benchmarks and a Search Capability Leaderboard; no papers.",
+    "researchSources": ["https://api.github.com/orgs/parallel-web/repos"],
+    "xPresence": "Founder @paraga 539k followers; @p0 23.0k (fxtwitter, 2026-10-22).",
+    "xPosts": [],
+    "talentSignals": [],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr"],
+    "filled": ["totalRaisedUsdM", "rounds (seed date/leads)"],
+    "notes": "ARR/revenue is confirmed not disclosed. Searches of company posts, the PR Newswire release and third-party profiles (nightwatcherai, Altis, genisisiq) all say revenue/ARR is not published. The seed date is Jan 2024 per Wikipedia (Dealroom says Aug 2025, which is likely the public-launch date); the $30M amount is consistent with the company-stated $230M total."
+  },
+  {
+    "name": "Fluidstack",
+    "rounds": [
+      {"date": "2019-03", "stage": "Seed", "amountUsdM": 3, "postValuationUsdB": null, "leads": "Seedcamp, Mercuri, 7 Global Capital", "source": "https://sacra.com/c/fluidstack/", "singleSource": true},
+      {"date": "2024-02", "stage": "SAFE", "amountUsdM": 24.7, "postValuationUsdB": null, "leads": null, "source": "https://sacra.com/c/fluidstack/", "singleSource": true},
+      {"date": "2025-02", "stage": "Equity (reported as 'Series A' by Sacra/TechTimes)", "amountUsdM": 200, "postValuationUsdB": null, "leads": "Cacti", "source": "https://www.techtimes.com/articles/326746/20260905/fluidstack-closes-15b-revenue-soars-18m-660m-projected-while-owning-zero-chips.htm", "singleSource": true},
+      {"date": "2026-01", "stage": "Series A", "amountUsdM": 830, "postValuationUsdB": 7.5, "leads": "Situational Awareness", "source": "https://fluidstack.io/news/series-a-announcement", "singleSource": false},
+      {"date": "2026-09", "stage": "Late-stage", "amountUsdM": 1500, "postValuationUsdB": 18, "leads": "Jane Street", "source": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 2600, "asOf": "2026-09", "source": "https://dealroom.co/news/157101-fluidstack-raises-1-5b-led-by-jane-street-valuation-quadruples-to-18b-in/", "singleSource": false, "note": "Equity only, approximate. Dealroom and TechTimes (citing Crunchbase) say about $2.6B; PitchBook says $2.4B. The round sum (3 + 24.7 + 200 + 830 + 1500) is about $2.56B. Excludes debt: $37.5M debt (2024), a Macquarie GPU-backed senior facility reported as up to $10B, and Google lease backstops."},
+    "arr": {"valueUsdM": 660, "date": "2026", "kind": "FY revenue (projected, investor memo)", "source": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/", "singleSource": true, "note": "No better source found. All 2025-2026 figures ($200M in 2025, $660M projected for 2026) trace back to one VC investor memo reported by Forbes; Dealroom and TechTimes repeat it. The last audited figure is 2024 revenue of $66.2M (UK Companies House filings, cited by Dealroom/TechTimes). The company has not disclosed ARR or run-rate."},
+    "research": "None. No public GitHub org (api.github.com/orgs/fluidstack returns Not Found), and no papers or patents found. Output is an operator blog and infrastructure announcements only.",
+    "researchSources": ["https://api.github.com/orgs/fluidstack"],
+    "xPresence": "@fluidstack 5.6k followers; CEO @garywu 2.9k; co-founder @CesarMaklary 0.6k (fxtwitter, 2026-10-22). CORRECTION: the base file said no company handle exists; @fluidstack does exist (the earlier 404 was transient).",
+    "xPosts": [
+      {"url": "https://x.com/fluidstack/status/2079250004510728559", "author": "fluidstack", "date": "2026-07-20", "likes": 580, "views": 1034967, "summary": "Announces the $830M Series A at $7.5B led by Situational Awareness, with the mission of deploying 'hundreds of gigawatts' of compute for frontier labs."}
+    ],
+    "talentSignals": ["CEO Gary Wu (Jul 2026): 'incredibly talent dense team and are hiring aggressively'; the Series A post says 'hiring for hundreds of roles' (https://www.linkedin.com/posts/gary-wu-39837b99_really-happy-to-finally-announce-our-830m-activity-7485031545104244736-dMm9)."],
+    "scoreAdjustments": {"posting": 3},
+    "scoreAdjustmentReason": "The company account exists (5.6k followers), and its Series A post got about 1.03M views (verified). That is more than the 'no presence/quiet' assumption behind the score of 1, though founders remain low-follower.",
+    "notDisclosed": ["arr (company-confirmed ARR/run-rate)", "research"],
+    "filled": ["totalRaisedUsdM", "rounds", "xPosts", "research (confirmed none)"],
+    "notes": "Series A amount conflicts: Sacra $450M, early reports $750M at $7B, company page $830M at $7.5B. The company figure is used (Dealroom: 'confirms $830M, larger than earlier $750M reports'). The Feb 2025 $200M 'Series A' (Cacti) appears only in Sacra/TechTimes and conflicts with the company calling the Jan 2026 round its Series A, so it is kept singleSource. Value Add Pulse's '$50B total raised' is clearly wrong and was ignored."
+  },
+  {
+    "name": "turbopuffer",
+    "rounds": [
+      {"date": "2024", "stage": "Angel/Pre-seed", "amountUsdM": null, "postValuationUsdB": null, "leads": "Lachy Groom", "source": "https://sacra.com/c/turbopuffer/", "singleSource": true},
+      {"date": "2025-12", "stage": "Seed", "amountUsdM": null, "postValuationUsdB": null, "leads": "Thrive Capital (with Lachy Groom; Lux Capital doubled down)", "source": "https://betakit.com/ex-shopify-engineers-raise-fresh-financing-to-scale-turbopuffers-ai-search/", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 0.8, "asOf": "2026-05", "source": "https://www.theglobeandmail.com/business/article-turbopuffer-fastest-growing-canadian-ai-startup-never-heard-of/", "singleSource": false, "note": "Midpoint of the Globe and Mail's 'between US$700,000 and US$900,000' total, all rounds. The CEO confirmed '<$1M raised' on X (2026-05-21). NeuronFeed's '$10M seed' contradicts both and is not used."},
+    "arr": {"valueUsdM": 100, "date": "2026-03", "kind": "run-rate", "source": "https://x.com/Sirupsen/status/2057470756070781400", "singleSource": false, "note": "Company-stated by CEO Simon Eskildsen: 'crossed $100M run-rate in March. 19mo after $1M. Profitable & <$1M raised' (verified via fxtwitter). The Globe and Mail separately reports 'on track for more than US$100M in revenue this year from about 1,200 customers'; Sacra and Dealroom agree."},
+    "research": "GitHub org turbopuffer: turbopuffer-python 180 stars, alyze 132, turbopuffer-typescript 87, tpuf-benchmark 52 (GitHub API, 2026-10-22). Known mainly for a widely read architecture blog and the v3 storage-engine devlog.",
+    "researchSources": ["https://api.github.com/orgs/turbopuffer/repos", "https://turbopuffer.com/v3"],
+    "xPresence": "@turbopuffer 17.4k followers; CEO @Sirupsen 20.0k (fxtwitter, 2026-10-22). CORRECTION: the base file said @Sirupsen returned 404; it resolves now. His May 2026 milestone post got 1.4M views.",
+    "xPosts": [
+      {"url": "https://x.com/Sirupsen/status/2057470756070781400", "author": "Sirupsen", "date": "2026-05-21", "likes": 3448, "views": 1421585, "summary": "CEO: turbopuffer crossed a $100M run rate in March 2026, 19 months after $1M, profitable with under $1M raised; names Cursor, Anthropic, Notion, Cognition, Harvey and others as customers."}
+    ],
+    "talentSignals": ["First hire was Bojan Serafimov, an IOI silver medalist; 37 employees (11 in Canada) at the time of the Globe and Mail profile (https://www.theglobeandmail.com/business/article-turbopuffer-fastest-growing-canadian-ai-startup-never-heard-of/).", "Grew from 5 to 22 employees in 2024 (TBPN interview, https://www.tbpndigest.com/story/2025-12-18/turbopuffers-simon-eskildsen-on-adding-thrive-capital-reaching-trillions-of-objects-and-building-a-concentrated-cap-table-like-a-team)."],
+    "scoreAdjustments": {"posting": 6},
+    "scoreAdjustmentReason": "The CEO (20k followers) produced a verified 1.4M-view post, and the company account has 17k followers. That fits 'launch posts get meaningful traction' with an occasional viral hit, above the previous 5.",
+    "notDisclosed": ["latestValuation", "rounds (amounts and valuations)"],
+    "filled": ["totalRaisedUsdM", "arr (company-stated, upgraded from Sacra)", "xPosts"],
+    "notes": "Valuation is confirmed not disclosed. TBPN/LinkedIn said on the Dec 2025 round that 'valuation and investment size are being kept confidential', and nothing has been reported since. No Form D found on SEC EDGAR full-text search. The company is profitable and says it may not raise again (Lachy Groom quoted in the Globe and Mail)."
+  },
+  {
+    "name": "Arcee AI",
+    "rounds": [
+      {"date": "2024-01", "stage": "Seed", "amountUsdM": 5.5, "postValuationUsdB": null, "leads": "Long Journey Ventures, Flybridge, Wndrco and others (no single lead disclosed)", "source": "https://techcrunch.com/2024/01/24/arcee-is-a-secure-enterprise-focused-platform-for-building-genai/", "singleSource": false},
+      {"date": "2024-07", "stage": "Series A", "amountUsdM": 24, "postValuationUsdB": null, "leads": "Emergence Capital", "source": "https://www.arcee.ai/blog/arcee-ai-secures-24m-series-a-to-transform-the-landscape-of-small-language-models", "singleSource": false},
+      {"date": "2026-09", "stage": "Series B", "amountUsdM": 150, "postValuationUsdB": 1.15, "leads": "Vista Equity Partners, Cambium Capital, Emergence Capital", "source": "https://fortune.com/2026/09/16/arcee-ai-trained-four-models-for-20-million-now-its-worth-1-billion/", "singleSource": true}
+    ],
+    "totalRaisedUsdM": {"value": 179.5, "asOf": "2026-09", "source": "https://www.arcee.ai/blog/arcee-ai-secures-24m-series-a-to-transform-the-landscape-of-small-language-models", "singleSource": false, "note": "Lower bound: $5.5M seed + $24M Series A (company-confirmed $29.5M) + at least $150M Series B (Fortune source; amount not disclosed by the company). PitchBook shows $199M total and an undisclosed 'Early Stage VC' deal dated 2025-03-17, which may account for the gap (aggregator, unverified). The CEO told Fortune Arcee had '$30 million in the bank' before the Trinity pivot."},
+    "headcount": {"value": 30, "date": "2026-10", "source": "https://www.emcap.com/thoughts/arcee-ai-on-why-open-weights-are-a-national-bet-not-a-business-model", "singleSource": false, "note": "CEO Mark McQuade: 'thirty people total', of whom CTO Lucas Atkins says about sixteen are researchers (Emergence interview, 2026-10-09). Aggregators: PitchBook 32, LinkedIn-derived 43."},
+    "research": "Open-weight Trinity family (Trinity Large 400B MoE / 13B active); entire 2025 lineup built for about $20M. GitHub org arcee-ai: mergekit 7.4k stars, DistillKit 1.1k, fastmlx 0.37k, DALM 0.34k (GitHub API, 2026-10-22). Genesis-Science-1 with the US DOE.",
+    "researchSources": ["https://api.github.com/orgs/arcee-ai/repos", "https://www.arcee.ai/blog/arcee-ai-raises-series-b-to-build-the-future-of-american-open-models"],
+    "xPresence": "@arcee_ai 16.3k followers; CTO @latkins 7.1k; CEO @MarkMcQuade 979 (fxtwitter, 2026-10-22).",
+    "xPosts": [
+      {"url": "https://x.com/arcee_ai/status/2100230847907459094", "author": "arcee_ai", "date": "2026-09-16", "likes": 379, "views": 95288, "summary": "Announces the Series B valuing Arcee at more than $1B, led by Vista Equity, Cambium and Emergence, to fund next-gen Trinity and DOE work."},
+      {"url": "https://x.com/latkins/status/2100233192381001750", "author": "latkins", "date": "2026-09-16", "likes": 152, "views": 9530, "summary": "CTO Lucas Atkins: 'we don't have to cut corners anymore' and teases results 'sooner than you think'."}
+    ],
+    "talentSignals": ["CEO frames the team as 'blue-collar AI': about 30 people, mostly engineers rather than pedigreed researchers, with about 16 researchers working across the full pretraining-to-RL pipeline (https://www.emcap.com/thoughts/arcee-ai-on-why-open-weights-are-a-national-bet-not-a-business-model).", "Co-founders per the company's seed post: Mark McQuade, Jacob Solawetz and Brian Benedict (https://www.arcee.ai/blog/seedroundandmergekitmerger); Lucas Atkins is now CTO."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["arr"],
+    "filled": ["rounds", "totalRaisedUsdM", "headcount", "xPosts"],
+    "notes": "ARR is confirmed not disclosed. Only aggregator estimates exist (EveryDev 'about $3.1M ARR, early 2026'; lounge.ai '$5M-$10M revenue range'), and they are not used. SEC EDGAR shows a 'Gaingels Arcee AI LLC' Form D (2026-09-17), an SPV into the Series B; it gives no company total. Series B postValuation remains approximate ($1B pre-money plus at least $150M)."
+  },
+  {
+    "name": "Reducto",
+    "rounds": [
+      {"date": "2024-01", "stage": "Pre-seed (YC W24)", "amountUsdM": 0.5, "postValuationUsdB": null, "leads": "Y Combinator", "source": "https://research.contrary.com/company/reducto", "singleSource": true},
+      {"date": "2024-10", "stage": "Seed", "amountUsdM": 8.4, "postValuationUsdB": null, "leads": "First Round Capital", "source": "https://www.globenewswire.com/news-release/2025/04/25/3068298/0/en/reducto-raises-24-5m-series-a-round-to-help-enterprises-unlock-unstructured-data.html", "singleSource": false},
+      {"date": "2025-04", "stage": "Series A", "amountUsdM": 24.5, "postValuationUsdB": null, "leads": "Benchmark", "source": "https://reducto.ai/blog/reducto-series-a-funding", "singleSource": false},
+      {"date": "2025-10", "stage": "Series B", "amountUsdM": 75, "postValuationUsdB": 0.6, "leads": "a16z", "source": "https://reducto.ai/blog/reducto-series-b-funding", "singleSource": false},
+      {"date": "2026-08", "stage": "Series B-1 (filings-derived, not announced)", "amountUsdM": 51, "postValuationUsdB": 1.04, "leads": null, "source": "https://www.revenuememo.com/p/reducto-funding", "singleSource": true}
+    ],
+    "totalRaisedUsdM": {"value": 108, "asOf": "2025-10", "source": "https://reducto.ai/blog/reducto-series-b-funding", "singleSource": false, "note": "Company-stated $108M total after the Series B (equity); Contrary shows $108.4M as of Aug 2026. If the Forge-listed $51M Series B-1 (Aug 2026) is real, the total would be about $159M; the company has not announced it."},
+    "arr": {"valueUsdM": 10, "date": "2026-05", "kind": "ARR", "source": "https://www.deep-analysis.net/how-reducto-became-the-fastest-growing-idp-startup/", "singleSource": false, "note": "In a Deep Analysis interview (May 2026), CEO Adit Abraham confirms ARR has 'grown to over $10 million in less than two years'; Reducto reposted it on its LinkedIn. Prior point: $5M around Oct 2025 (CEO on The Peel podcast; Contrary). The value is a floor ('over $10M')."},
+    "research": "GitHub org reductoai: remembrall 170 stars, rd-tablebench 14 (GitHub API, 2026-10-22). Launched r-1, its own document-parsing model, in Sept 2026 (claims 20% lower error rate, 1 cent per page); RD-TableBench open benchmark.",
+    "researchSources": ["https://api.github.com/orgs/reductoai/repos", "https://reducto.ai/blog/parse-r-1-model"],
+    "xPresence": "@reductoai 12.7k followers; CEO @aditabrm 7.5k; CTO @raunakdoesdev 5.8k (fxtwitter, 2026-10-22). Company posts typically get 1-2k views; the CEO's r-1 launch got about 300k.",
+    "xPosts": [
+      {"url": "https://x.com/aditabrm/status/2094812110903747005", "author": "aditabrm", "date": "2026-09-01", "likes": 614, "views": 304275, "summary": "CEO launches r-1, Reducto's own document parsing model: 20% lower error than its agentic OCR, up to 6x cheaper, 1 cent per page."}
+    ],
+    "talentSignals": ["Burned only about $1M from incorporation to the Series B, and reached $5M ARR with founder-led sales before the first sales hire (https://research.contrary.com/company/reducto).", "Acquired Opennote (AI notebook) in May 2026, its first acquisition (Contrary)."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "arr (CEO-confirmed >$10M, upgraded from Contrary $5M estimate)", "xPosts", "rounds (pre-seed; seed/Series A leads verified)"],
+    "notes": "Verified the seed lead (First Round, $8.4M, Oct 2024) and Series A lead (Benchmark, $24.5M, Apr 2025) against the company GlobeNewswire release and Fortune; the base file's 'from memory' caveat can be dropped. The Series B-1 remains unconfirmed and latestValuation stays at $0.6B. Headcount: Contrary estimates 42 (Aug 2026), while LinkedIn shows 60-70."
+  },
+  {
+    "name": "Datalab",
+    "rounds": [
+      {"date": "2024-08", "stage": "Seed", "amountUsdM": 3.4, "postValuationUsdB": null, "leads": "Pebblebed (with Peak XV, Factorial Capital, angels)", "source": "https://www.sec.gov/Archives/edgar/data/2033830/000203383024000001/0002033830-24-000001-index.htm", "singleSource": false}
+    ],
+    "totalRaisedUsdM": {"value": 3.4, "asOf": "2026-10", "source": "https://www.sec.gov/Archives/edgar/data/2033830/000203383024000001/0002033830-24-000001-index.htm", "singleSource": false, "note": "SEC Form D for Endless Labs, Inc. (Datalab's legal entity; executive Vikas Paruchuri, NYC), filed 2024-08-23: equity, $3.4M sold of a $3.55M offering. This is the only Form D on file for CIK 2033830. Forkable and the company announcement round it to $3.5M; PitchBook shows $3.4M. No later round found."},
+    "headcount": {"value": 13, "date": "2026-10", "source": "https://www.datalab.to/about", "singleSource": false, "note": "13 people listed on the company 'Meet the team' page (Oct 2026), versus PitchBook 6 (stale) and 4 at the July 2025 AI Engineer talk."},
+    "research": "Major OSS: marker 40.6k stars, surya 21.5k, chandra 12.5k (GitHub API, 2026-10-22). Chandra OCR 2 (4B) scores 85.9% on olmOCR-bench; Chandra 2.5 shipped 2026-10-14; OmniParseBench released Oct 2026.",
+    "researchSources": ["https://api.github.com/orgs/datalab-to/repos", "https://www.datalab.to/blog/chandra-2"],
+    "xPresence": "Founder @VikParuchuri 18.4k followers; @datalabto 2.0k (fxtwitter, 2026-10-22). Founder posts reach 50k-160k views.",
+    "xPosts": [
+      {"url": "https://x.com/VikParuchuri/status/2034317066048512392", "author": "VikParuchuri", "date": "2026-03-18", "likes": 539, "views": 55054, "summary": "Open-sources Chandra OCR 2: 85.9% (SOTA) on olmOCR bench, 90+ languages, 4B params (down from 9B)."},
+      {"url": "https://x.com/VikParuchuri/status/2107914822507487609", "author": "VikParuchuri", "date": "2026-10-07", "likes": 2640, "views": 156064, "summary": "Calls out YC startup Interfaze for copying Chandra OCR 2 weights, renaming it and relicensing it; drew a Community Note."}
+    ],
+    "talentSignals": ["Team grew from 3 (early 2025) to 4 (Jul 2025, AI Engineer talk) to 13 on the company team page (Oct 2026). Revenue grew 5x in the first half of 2025 (https://ai.engineer/talks/K-iYKDMFKhE-small-ai-teams-huge-impact-vik-paruchuri)."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": ["latestValuation", "arr (exact figure; only 'seven-figure ARR' as of Jul 2025)"],
+    "filled": ["rounds", "totalRaisedUsdM", "xPosts", "headcount"],
+    "notes": "Full round history is a single seed (Form D-confirmed). Valuation is confirmed not disclosed: none in the Form D, Caplight, PitchBook or press. ARR remains only 'seven-figure' (CEO, Jul 2025); no 2026 figure found. The Forkable article that announced the seed is dated Jun 2025, but the Form D shows the sale closed Aug 2024."
+  },
+  {
+    "name": "Fireworks AI",
+    "rounds": [
+      {"date": "2024-03", "stage": "Series A", "amountUsdM": 25, "postValuationUsdB": null, "leads": "Benchmark", "source": "https://www.citybiz.co/article/536791/fireworks-ai-raises-25m-series-a/", "singleSource": false},
+      {"date": "2024-07", "stage": "Series B", "amountUsdM": 52, "postValuationUsdB": 0.552, "leads": "Sequoia", "source": "https://fireworks.ai/blog/fireworks-ai-series-b-compound-ai", "singleSource": false},
+      {"date": "2025-10", "stage": "Series C", "amountUsdM": 250, "postValuationUsdB": 4, "leads": "Lightspeed, Index Ventures, Evantic", "source": "https://fireworks.ai/blog/series-c", "singleSource": false},
+      {"date": "2026-07", "stage": "Series D", "amountUsdM": 1505, "postValuationUsdB": 17.5, "leads": "Atreides Management, Index Ventures, TCV", "source": "https://fireworks.ai/blog/series-d-announcement", "singleSource": false},
+      {"date": "2026-10", "stage": "Growth (in talks, not closed)", "amountUsdM": null, "postValuationUsdB": 30, "leads": null, "source": "https://www.businessinsider.com/fireworks-ai-is-seeking-new-funding-at-around-valuation-2026-10", "singleSource": true}
+    ],
+    "latestValuation": {"valueUsdB": 17.5, "date": "2026-07", "source": "https://fireworks.ai/blog/series-d-announcement", "basis": "closed round", "singleSource": false},
+    "totalRaisedUsdM": {"value": 1832, "asOf": "2026-07", "source": "https://pitchbook.com/profiles/company/561272-14", "singleSource": false, "note": "Company said $327M total after the Series C (https://www.businesswire.com/news/home/20251028604819/en/Fireworks-AI-Raises-%24250M-Series-C-to-Lead-the-AI-Inference-Market), plus the $1.505B Series D = $1.832B; PitchBook also shows $1.83B. Includes $20M secondary inside the Series C (WSJ), so primary is about $1.812B. Excludes the $132M employee tender at $17.5B led by Atreides (Sept 2026)."},
+    "headcount": {"value": 200, "date": "2026-07", "source": "https://finance.yahoo.com/technology/ai/articles/fireworks-ai-raises-1-5-174637439.html", "singleSource": true, "note": "'Workforce stands at roughly 200' at the Series D, and the CEO plans to triple it by year-end. Aggregators: a LinkedIn-derived profile shows 404 (Oct 2026, +242% YoY); PitchBook shows 148 (stale)."},
+    "research": "GitHub org fw-ai: cookbook 228 stars, benchmark 117 (GitHub API, 2026-10-22). Inference engine work (FireAttention) is published on its blog; limited OSS.",
+    "researchSources": ["https://api.github.com/orgs/fw-ai/repos"],
+    "xPresence": "CEO @lqiao 232k followers (fxtwitter, 2026-10-22); @FireworksAI_HQ returned 404 on fxtwitter today (33.3k on 2026-10-09).",
+    "xPosts": [],
+    "talentSignals": ["Six co-founders besides CEO Lin Qiao (ex-Meta PyTorch lead), all ex-Meta; Business Insider adds a former Google Vertex AI leader among the co-founders. Acquired Hathora (Mar 2026, per a LinkedIn-derived profile)."],
+    "scoreAdjustments": {},
+    "scoreAdjustmentReason": "",
+    "notDisclosed": [],
+    "filled": ["totalRaisedUsdM", "headcount", "rounds (Series A/B added; Series C date confirmed 2025-10-28)"],
+    "notes": "IN-TALKS ROUND STATUS (checked 2026-10-22): NOT CLOSED, and no valuation has been agreed. The latest primary report is Business Insider (Ben Bergman and Katie Roof, 2026-10-20 22:10 UTC): 'early talks' to raise at a $30B-$40B valuation; 'talks are still early, and valuation targets could still change'; Fireworks declined to comment; no amount or lead disclosed. Coverage since (Startup Fortune, Stox/Daily8 syndication, 2026-10-21) only relays BI, and no term sheet, close or company announcement was found. This supersedes The Information's 2026-09-25 'considering ~$30B'. latestValuation therefore stays at the closed $17.5B Series D (2026-07). For the in-talks row, $30B (low end) is used. RISK: BI notes the talks come amid a security incident. On 2026-10-06 Fireworks found that internal credentials were used to read eval-job environment variables (customer API keys and secrets) in a limited number of accounts; status is 'active monitoring' (https://fireworks.ai/security/bulletins/october-2026-security-incident). Series C date corrected/confirmed as 2025-10-28 (company blog, WSJ, BusinessWire) rather than inferred."
+  }
+]

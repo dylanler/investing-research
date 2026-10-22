@@ -1,0 +1,433 @@
+{
+ "b3_infra.json": {
+  "Together AI": [
+   "totalRaisedUsdM",
+   "headcount",
+   "xPosts"
+  ],
+  "Modal": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "fal": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount",
+   "xPosts"
+  ],
+  "Exa": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)"
+  ],
+  "Parallel Web Systems": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Fluidstack": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "research",
+   "xPosts"
+  ],
+  "turbopuffer": [
+   "latestValuation",
+   "rounds(only 0 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "xPosts"
+  ],
+  "Arcee AI": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Reducto": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "xPosts"
+  ],
+  "Datalab": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Fireworks AI": [
+   "totalRaisedUsdM",
+   "headcount"
+  ]
+ },
+ "b2_agents.json": {
+  "Vercel": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount"
+  ],
+  "Lovable": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "xPosts"
+  ],
+  "River AI": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "research"
+  ],
+  "Factory": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount"
+  ],
+  "Core Automation": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Instinct": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Proximal": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount",
+   "xPosts"
+  ],
+  "Applied Compute": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount"
+  ],
+  "Sesame": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Standard Intelligence": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Browser Use": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Thoughtful": [
+   "latestValuation",
+   "rounds(only 0 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ]
+ },
+ "b4_science_robotics.json": {
+  "Physical Intelligence": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Skild AI": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Sunday": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Periodic Labs": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Edison Scientific": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Axiom Math": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Lila Sciences": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "1X Technologies": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Genesis AI": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Merge Labs": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "comma.ai": [
+   "totalRaisedUsdM",
+   "arr"
+  ]
+ },
+ "b5_data_safety.json": {
+  "Snorkel AI": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Mercor": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Goodfire": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Deel": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "headcount",
+   "research",
+   "xPosts"
+  ],
+  "Hippocratic AI": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Bespoke Labs": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Doppel": [
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Turing": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "headcount",
+   "xPosts"
+  ],
+  "Superpower": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "research",
+   "xPosts",
+   "confidence-low: re-verify key numbers"
+  ],
+  "Datacurve": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "HUMAN Security": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Collinear AI": [
+   "latestValuation",
+   "rounds(only 0 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts",
+   "confidence-low: re-verify key numbers"
+  ]
+ },
+ "b6_media.json": {
+  "Runway": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Suno": [
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Luma AI": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Cartesia": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Linear": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "headcount"
+  ],
+  "Notion": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount"
+  ],
+  "Wispr Flow": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Midjourney": [
+   "latestValuation",
+   "rounds(only 0 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)"
+  ],
+  "Krea": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Pika": [
+   "totalRaisedUsdM",
+   "arr"
+  ],
+  "Hedra": [
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts",
+   "confidence-low: re-verify key numbers"
+  ],
+  "TwelveLabs": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Liner": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Otter.ai": [
+   "latestValuation",
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "xPosts"
+  ]
+ },
+ "b1_frontier.json": {
+  "Prime Intellect": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr(single-source; find better)"
+  ],
+  "Cohere": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount",
+   "xPosts"
+  ],
+  "Sakana AI": [
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "TypeSafe AI": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "AMI Labs": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Humans&": [
+   "rounds(only 1 dated primary rounds with amount; need full round history)",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Liquid AI": [
+   "totalRaisedUsdM",
+   "arr",
+   "xPosts"
+  ],
+  "Flapping Airplanes": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount"
+  ],
+  "Poolside": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "xPosts"
+  ]
+ },
+ "b7_enterprise.json": {
+  "Sierra": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount"
+  ],
+  "Rippling": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount",
+   "xPosts"
+  ],
+  "Harvey": [
+   "totalRaisedUsdM",
+   "headcount",
+   "xPosts"
+  ],
+  "Glean": [
+   "totalRaisedUsdM",
+   "xPosts"
+  ],
+  "Decagon": [
+   "totalRaisedUsdM",
+   "arr(single-source; find better)",
+   "headcount",
+   "xPosts"
+  ],
+  "Rogo": [
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ],
+  "Hex": [
+   "latestValuation",
+   "totalRaisedUsdM",
+   "arr",
+   "headcount",
+   "xPosts"
+  ]
+ }
+}
