@@ -91,5 +91,5 @@ These compare each company's Oct 9 rank among the companies still ranked, so the
 
 ## Caveats
 - **Single-source figures:** Vercel $600M, Prime Intellect $100M, Applied Compute's closed Series C (Forbes Japan), the Perplexity ~$30B pre-money talks (Yonhap), and the Cohere ~$20B talks.
-- **In-talks removals:** Thinking Machines, Etched, Fireworks, Baseten, Perplexity, Discovery Loop, OpenAI and Anthropic were removed on in-talks reports above $20B. If those talks fall apart they would re-enter.
+- **In-talks-only removals:** Thinking Machines Lab, Fireworks AI, Baseten, Perplexity and Discovery Loop were removed solely on in-talks reports above $20B. Their last closed valuation is $20B or less (Discovery Loop has none disclosed), so they would re-enter if those talks fall apart. Every other removal has a closed or tender valuation above $20B.
 - Not investment advice.
