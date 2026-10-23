@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Marathon Fusion",
+    "aliases": ["Marathon Fusion, Inc."],
+    "batch": "2026-10-22",
+    "status": "private",
+    "statusNote": "Independent and still private as of 22 Oct 2026. This is the San Francisco fusion-fuel company at @MarathonFusion and marathonfusion.com, not a fitness brand. No IPO, acquisition, or parent company found.",
+    "statusSource": "https://www.marathonfusion.com/about/",
+    "category": "Fusion fuel cycle",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://www.marathonfusion.com",
+    "oneLiner": "Builds fusion fuel-cycle hardware, including plasma centrifuges that enrich lithium-6 and separate hydrogen isotopes, so future fusion plants can breed and recycle tritium.",
+    "founders": "Kyle Schiller (CEO; Schmidt Futures science-policy fellow) and Adam Rutkowski (CTO; SpaceX propulsion, Princeton plasma physics). Jason Parisi (Oxford, Princeton Plasma Physics Lab) is CSO. Advisors include Per F. Peterson (UC Berkeley, Kairos Power), Ahmed Diallo (PPPL, ARPA-E), and Dan Brunner (MIT, Commonwealth Fusion Systems). https://www.marathonfusion.com/about/ , https://techcrunch.com/2024/07/18/without-this-companys-technology-future-fusion-power-plants-might-never-light-up/",
+    "talentSignals": [
+      "Named staff on the company page are mostly plasma and nuclear PhDs and engineers from Princeton Plasma Physics Lab, Helion, TAE, Tokamak Energy, SpaceX, and Commonwealth Fusion Systems https://www.marathonfusion.com/about/",
+      "Not an AI-research team. The public technical work is neutronics and isotope separation, not machine-learning papers."
+    ],
+    "headcount": {"value": 27, "date": "2026-10", "source": "https://www.marathonfusion.com/about/", "singleSource": true, "note": "27 people named on the company team page, advisors excluded. LinkedIn lists 33 employees (aggregator, not used as the figure)."},
+    "rounds": [
+      {"date": "2024-07", "stage": "Seed", "amountUsdM": 5.9, "postValuationUsdB": null, "leads": "1517 Fund, Anglo American; Übermorgen, Shared Future Fund, Malcolm Handley", "source": "https://techcrunch.com/2024/07/18/without-this-companys-technology-future-fusion-power-plants-might-never-light-up/"},
+      {"date": "2024-08", "stage": "Grant (DOE)", "amountUsdM": 4, "postValuationUsdB": null, "leads": "US Department of Energy", "source": "https://app.dealroom.co/companies/marathon_fusion", "singleSource": true, "sourceQuality": "aggregator"},
+      {"date": "2026-09", "stage": "Series A (terms not disclosed)", "amountUsdM": null, "postValuationUsdB": null, "leads": null, "source": "https://www.caplight.com/company/marathonfusion", "singleSource": true, "sourceQuality": "secondary-data vendor", "note": "Caplight lists a Series A dated 2026-09-12 with no amount and no valuation. Heatmap (2026-08-27) said the company was preparing to raise a Series A after the lithium result. Not used as a priced round."}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "latestValuationSignal": null,
+    "totalRaisedUsdM": {"value": 18, "asOf": "2026-10", "source": "https://www.marathonfusion.com/about/", "singleSource": true, "note": "Company says it has secured over $18m from the DOE and investors since 2023. That is a floor, not a priced total. Caplight lists $10.48m and a September 2026 Series A with a blank amount. Dealroom lists $5.9m seed plus a $4m DOE grant."},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Two company preprints, neither peer-reviewed. arXiv:2507.13461 (Jul 2025, revised Aug 2025), 'Scalable Chrysopoeia via (n,2n) Reactions Driven by Deuterium-Tritium Fusion Neutrons', is a neutronics simulation claiming about 2 tonnes of gold per GWth per year from mercury-198. arXiv:2512.09242 (Dec 2025), 'Isotope Production in Fusion Systems', models medical-isotope co-production. In Aug 2026 the company said a plasma centrifuge enriched lithium-6, with the result certified by the Covalent lab; the hydrogen-isotope result was not independently verified (Heatmap, 27 Aug 2026). No patents found.",
+    "researchSources": [
+      "https://arxiv.org/pdf/2507.13461",
+      "https://arxiv.org/abs/2512.09242",
+      "https://heatmap.news/climate-tech/marathon-fusion-lithium-tritium",
+      "https://www.marathonfusion.com/alchemy/"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/MarathonFusion/status/2113001073019662481", "author": "MarathonFusion", "date": "2026-10-21", "likes": 20519, "views": 5993666, "summary": "Company says it turned mercury into stable gold at 10x CERN's record, enriched isotopes in a plasma centrifuge past a 40-year Soviet record, and is building a fusion reactor in San Francisco. The thread does not include experimental data."}
+    ],
+    "xPresence": "@MarathonFusion has about 28,800 followers (fxtwitter, 23 Oct 2026). The 21 Oct 2026 alchemy post reached about 6.0 million views and 20,500 likes. Founder accounts were not found. One viral company post, not a staff posting culture.",
+    "traction": "No revenue found. TechCrunch (18 Jul 2024) reported letters of intent from Commonwealth Fusion Systems and Helion. The commercial pilot and 2029 production targets in the 27 Aug 2026 Heatmap story are plans, not operating plants. The 21 Oct 2026 gold claim on X goes beyond the 2025 simulation paper and has not been independently verified.",
+    "compute": null,
+    "moat": "Reactor-agnostic fuel-cycle hardware, with a certified lithium-6 enrichment result and relationships with fusion developers. The science is early, and the company does not own a reactor.",
+    "risks": "Fusion plants that would buy the fuel cycle do not exist yet. Valuation and the Series A amount are undisclosed. The gold claim is company-stated and unverified. Tritium work has not been run on real tritium.",
+    "proposedScores": {"talent": 5, "research": 5, "posting": 6, "traction": 2.5, "moat": 4},
+    "confidence": "medium",
+    "notDisclosed": ["latestValuation", "Series A amount", "arr", "patents"],
+    "notes": "Upside is scored at the no-valuation default of 5. Velocity ignores the September 2026 Series A because its amount is missing, which is the conservative imputation, not a claim that the round was small. Dealroom's $24-35m enterprise-value range is an estimate and is not used."
+  },
+  {
+    "name": "Warp Sciences",
+    "aliases": ["Warp"],
+    "batch": "2026-10-22",
+    "status": "private",
+    "statusNote": "Independent and still private as of 22 Oct 2026. This is the chemistry-lab company at @warpsciences and warp.xyz, founded by Kevin Weil, not the Warp terminal or other Warp-named companies. No IPO or acquisition found.",
+    "statusSource": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+    "category": "AI for science / automated chemistry",
+    "founded": 2026,
+    "hq": "South San Francisco",
+    "website": "https://warp.xyz",
+    "oneLiner": "US chemistry CRO that combines chemists, AI, and robotics to make and test molecules for drug discovery. It has no drug pipeline of its own.",
+    "founders": "Kevin Weil (CEO; ex-OpenAI chief product officer and VP of Science, previously Planet, Instagram, and Twitter; Harvard and Stanford physics), DJ Patil (COO; first US Chief Data Scientist, LinkedIn chief scientist, Devoted Health), Solomon Reisberg (CSO; medicinal chemistry at Terremoto Biosciences, Gilead, and Schrödinger; five drugs into the clinic), and Manohar Paluri (co-founder; founding member of Meta FAIR, led Llama work, VP at Meta Superintelligence Labs). https://lsvp.com/stories/why-were-backing-warp/ , https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+    "talentSignals": [
+      "Founding team pairs an OpenAI science lead, a FAIR co-founder, the first US chief data scientist, and a medicinal chemist who has put five drugs into the clinic https://lsvp.com/stories/why-were-backing-warp/",
+      "Early hires include roboticists from Genesis, Skild AI, and 1X, chemists from Genentech, and an LLNL engineer who worked on Q>1 fusion, per the company and Weil's launch post https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research , https://x.com/kevinweil/status/2113294657673466060",
+      "Starting team of about 20, with robotic arms and AI chips already purchased (Bloomberg, via Investing.com and The Next Web) https://www.investing.com/news/stock-market-news/kevin-weil-launches-warp-sciences-with-215m-to-automate-drug-development--bloomberg-93CH-4966954"
+    ],
+    "headcount": {"value": 20, "date": "2026-10", "source": "https://www.investing.com/news/stock-market-news/kevin-weil-launches-warp-sciences-with-215m-to-automate-drug-development--bloomberg-93CH-4966954", "singleSource": false, "note": "'about 20', Bloomberg as reported by Investing.com and The Next Web. Not an exact census."},
+    "rounds": [
+      {"date": "2026-10", "stage": "Series A", "amountUsdM": 215, "postValuationUsdB": 0.865, "leads": "Lightspeed; IVP, Premji Invest, Mayfield, Lux, Menlo Ventures, Conviction, and others", "source": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million", "singleSource": false, "note": "Post-money valuation is the company's figure, reported by Bloomberg. Business Wire confirms the $215m amount and the lead but does not state the valuation."}
+    ],
+    "latestValuationUsdB": 0.865,
+    "latestValuationDate": "2026-10",
+    "latestValuationSource": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+    "latestValuationSignal": {"valueUsdB": 0.865, "date": "2026-10", "source": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million", "basis": "closed round (Series A)", "note": "Announced 22 Oct 2026. No later mark."},
+    "totalRaisedUsdM": {"value": 215, "asOf": "2026-10", "source": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research", "singleSource": false, "note": "The announced round. No earlier round found."},
+    "arr": null,
+    "arrHistory": [],
+    "research": "No company paper, model, or patent found. The technical description is a lab data loop: chemists wear cameras and sensor gloves so failed and successful runs train models that plan synthesis and the next experiment (Lightspeed, 22 Oct 2026). Founder research pedigree (FAIR, Llama, OpenAI for Science) is prior employment, not Warp output.",
+    "researchSources": [
+      "https://lsvp.com/stories/why-were-backing-warp/",
+      "https://warp.xyz/"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/kevinweil/status/2113294657673466060", "author": "kevinweil", "date": "2026-10-22", "likes": 1818, "views": 291034, "summary": "Weil announces Warp Sciences and a $215M Series A led by Lightspeed, co-founded with DJ Patil, Manohar Paluri, and Sol Reisberg."},
+      {"url": "https://x.com/warpsciences/status/2113294890599903636", "author": "warpsciences", "date": "2026-10-22", "likes": 60, "views": 3796, "summary": "Company account: 'Hello World.'"}
+    ],
+    "xPresence": "@kevinweil has about 122,900 followers and the launch post reached about 291,000 views (fxtwitter, 23 Oct 2026). @dpatil has about 79,700 followers. @manohar_paluri has about 1,900. @warpsciences, created 11 Aug 2026, has about 740 followers. Founder reach is real. The company account is new and quiet.",
+    "traction": "Came out of stealth on 22 Oct 2026. No named customers, no revenue, and no operating lab metrics. Lightspeed says the first service is lead-optimization analog synthesis and that robots will take repetitive steps over time. Pre-revenue.",
+    "compute": "Bloomberg reported the team has already bought robotic arms and AI chips. No named cloud or GPU contract.",
+    "moat": "A closed loop of chemistry data from its own robots, plus a founding team that can sell to pharma. The lab is not built out, and contract chemistry is an existing market.",
+    "risks": "Pre-revenue, one day out of stealth. Automation of medicinal chemistry is unproven at this company. $865M is a high mark for a team of about 20 with no disclosed revenue.",
+    "proposedScores": {"talent": 8, "research": 2.5, "posting": 6, "traction": 2, "moat": 4},
+    "confidence": "high",
+    "notDisclosed": ["arr", "patents", "named customers", "exact headcount"],
+    "notes": "Valuation is post-money, including the new $215m. Research is scored on company output, which is none yet, not on the founders' prior labs. Revenue multiple uses the no-ARR default of 3."
+  },
+  {
+    "name": "Dream Labs",
+    "aliases": ["Dream Labs AI"],
+    "batch": "2026-10-22",
+    "status": "private",
+    "statusNote": "Independent and still private as of 22 Oct 2026. This is the San Francisco robot-foundation-model company at @dreamlabs_ai and dreamlabs.ai, founded by former NVIDIA GR00T researchers. It is not a similarly named consumer or design studio. No IPO or acquirer found.",
+    "statusSource": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots",
+    "category": "Robot foundation models",
+    "founded": 2026,
+    "hq": "San Francisco",
+    "website": "https://dreamlabs.ai",
+    "oneLiner": "Builds Dream-1, a robot foundation model exposed as a public API that turns a camera feed and a plain-language instruction into motor commands, including for two-armed robots it has not seen.",
+    "founders": "Joel Jang (CEO; led world models for NVIDIA GR00T, including DreamZero), Yunhao Ge (CTO; NVIDIA Cosmos and GR00T), You Liang Tan (led GR00T open-source), and Scott Reed (founding member of NVIDIA GEAR; previously Gato and Genie at DeepMind). https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence , https://dreamlabs.ai/team/",
+    "talentSignals": [
+      "The four founders led or co-authored NVIDIA's DreamZero world-action-model paper (arXiv:2602.15922, 17 Feb 2026) and left to start the company https://arxiv.org/abs/2602.15922",
+      "Scott Reed's prior work includes DeepMind's Gato and Genie https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence",
+      "A small research team. An official headcount was not published. A secondary writeup quoted a reply saying 12 researchers and engineers; that post was not verified and is not used as the figure."
+    ],
+    "headcount": null,
+    "rounds": [
+      {"date": "2026-10", "stage": "Seed", "amountUsdM": 90, "postValuationUsdB": null, "leads": "B Capital, Kindred Ventures; A.Capital, Unusual Ventures, SV Angel, Wing VC, Scribble VC, Adrian Aoun", "source": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots", "singleSource": false, "note": "Announced 19 Oct 2026. Valuation was not disclosed by the company, Forbes, or Business Wire."}
+    ],
+    "latestValuationUsdB": null,
+    "latestValuationDate": null,
+    "latestValuationSource": null,
+    "latestValuationSignal": null,
+    "totalRaisedUsdM": {"value": 90, "asOf": "2026-10", "source": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots", "singleSource": false, "note": "The seed is the only round found."},
+    "arr": null,
+    "arrHistory": [],
+    "research": "Dream-1 technical report (19 Oct 2026) describes a world-action model that controls unseen bimanual parallel-gripper robots with no demonstrations from that robot, priced from $3/hour, and marked as a research beta that is not validated for safety-critical use. The founders' DreamZero paper (NVIDIA, Feb 2026) introduced world action models: a 14B video-diffusion policy with closed-loop control at 7Hz and few-shot transfer after 30 minutes of play data. DreamZero is NVIDIA work, not a Dream Labs paper. No patents found. https://dreamlabs.ai/research/dream-1/ , https://arxiv.org/abs/2602.15922",
+    "researchSources": [
+      "https://dreamlabs.ai/research/dream-1/",
+      "https://arxiv.org/abs/2602.15922",
+      "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/"
+    ],
+    "xPosts": [
+      {"url": "https://x.com/dreamlabs_ai/status/2112230668805828801", "author": "dreamlabs_ai", "date": "2026-10-19", "likes": 1605, "views": 560327, "summary": "Launch thread: Dream-1 controls bimanual robots it has never seen, from $3/hour, and the API is live."},
+      {"url": "https://x.com/dreamlabs_ai/status/2112583791537709059", "author": "dreamlabs_ai", "date": "2026-10-20", "likes": 164, "views": 9404, "summary": "Company says that within a day Dream-1 had controlled 31 unseen robot types across 53 countries and served over 372,000 inference calls, with 137 robots live."}
+    ],
+    "xPresence": "@dreamlabs_ai has about 4,100 followers (fxtwitter, 23 Oct 2026). The 19 Oct launch post reached about 560,000 views. CEO @jang_yoel has about 4,100 followers. CTO @GeYunhao has about 860. Co-founder @scott_e_reed has about 17,200. Launch traction is real. The accounts are not routinely viral.",
+    "traction": "Public research-beta API at $3/hour for Dream-1 and $2/hour for a smaller model (Forbes, 19 Oct 2026, pricing updated 20 Oct). More than 20 hardware partners. The company said the robots it supports cost about $2,000 to $10,000 and that current tasks are tabletop pick-and-place and laundry folding. The 372,000-call figure is company-stated on X. No revenue total was disclosed. Forbes quoted Jang saying zero-shot pick-and-place succeeds about 80% of the time and other tasks 50-60%, and that the company is not aiming at factory lines that need near-perfect reliability.",
+    "compute": "The company said the seed will be used primarily for compute. No named cluster or cloud contract.",
+    "moat": "A public cross-embodiment robot API and the DreamZero research line. Crowded: Physical Intelligence, Skild, and NVIDIA still ship robot models. The moat is the model and the partner integrations, not hardware.",
+    "risks": "Valuation is undisclosed, so upside is the conservative default. Dream-1 is a research beta with company-stated success rates well below industrial reliability. DreamZero was done at NVIDIA, so the company does not own that paper's distribution. Headcount is not officially disclosed.",
+    "proposedScores": {"talent": 7.5, "research": 6, "posting": 5.5, "traction": 4, "moat": 4},
+    "confidence": "medium",
+    "notDisclosed": ["latestValuation", "arr", "headcount", "patents"],
+    "notes": "Upside is scored at 5 because no post-money was published. Do not infer one from the $90m seed. The 24-hour usage numbers are the company's own post."
+  }
+]

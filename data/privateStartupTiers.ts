@@ -133,7 +133,7 @@ export interface Changelog {
   newExclusions: ExcludedEntity[];
   newRounds: { name: string; date: string | null; stage: string | null; amountUsdM: number | null; postValuationUsdB: number | null; leads?: string | null; source: string | null; singleSource?: boolean }[];
   companyChanges: { name: string; changes: string[]; scoreAdjustments: Partial<Record<FactorKey, number>> }[];
-  additions: { name: string; outcome: string; rank?: number; composite?: number; tier?: Tier; valuationUsdB?: number | null; valuationDate?: string | null; source?: string | null; reason?: string; oneLiner?: string | null }[];
+  additions: { name: string; outcome: string; rank?: number; composite?: number; tier?: Tier; valuationUsdB?: number | null; valuationDate?: string | null; source?: string | null; reason?: string; oneLiner?: string | null; batch?: string | null }[];
   pitchbookConflicts: { name: string; notes: string[] }[];
   pitchbookMatched: number;
   pitchbookRejected: { name: string; reason: string }[];

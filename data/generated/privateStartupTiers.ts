@@ -4524,6 +4524,11 @@ export const rankedStartups: RankedStartup[] = [
         "host": "heygen.com"
       },
       {
+        "label": "Total raised",
+        "url": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn",
+        "host": "upstartsmedia.com"
+      },
+      {
         "label": "Revenue / ARR",
         "url": "https://finance.yahoo.com/technology/ai/articles/heygen-doubles-200m-arr-eight-160200783.html",
         "host": "finance.yahoo.com"
@@ -4542,11 +4547,6 @@ export const rankedStartups: RankedStartup[] = [
         "label": "Series A (2024-06)",
         "url": "https://www.bloomberg.com/news/articles/2024-06-20/ai-video-startup-heygen-valued-at-500-million-in-funding-round",
         "host": "bloomberg.com"
-      },
-      {
-        "label": "ARR history (2025-10)",
-        "url": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn",
-        "host": "upstartsmedia.com"
       },
       {
         "label": "Research output",
@@ -4596,11 +4596,17 @@ export const rankedStartups: RankedStartup[] = [
     "newRounds": [],
     "pitchbook": null,
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 74,
+      "asOf": "2026-06",
+      "source": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn",
+      "singleSource": false,
+      "label": "Equity. Latka/Stockanalysis list $74.6M across 3 rounds."
+    },
     "dataCoverage": {
       "valuation": "sourced",
       "rounds": "sourced",
-      "totalRaised": "missing",
+      "totalRaised": "sourced",
       "revenue": "sourced",
       "headcount": "sourced",
       "research": "sourced",
@@ -4956,14 +4962,14 @@ export const rankedStartups: RankedStartup[] = [
         "host": "wsgr.com"
       },
       {
+        "label": "Total raised",
+        "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/",
+        "host": "siliconangle.com"
+      },
+      {
         "label": "Status",
         "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
         "host": "techcrunch.com"
-      },
-      {
-        "label": "Headcount",
-        "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/",
-        "host": "siliconangle.com"
       },
       {
         "label": "Research output",
@@ -5023,11 +5029,17 @@ export const rankedStartups: RankedStartup[] = [
     "newRounds": [],
     "pitchbook": null,
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 650,
+      "asOf": "2026-10",
+      "source": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/",
+      "singleSource": false,
+      "label": "equity; 'over $650M'"
+    },
     "dataCoverage": {
       "valuation": "sourced",
       "rounds": "sourced",
-      "totalRaised": "missing",
+      "totalRaised": "sourced",
       "revenue": "not disclosed",
       "headcount": "sourced",
       "research": "sourced",
@@ -8814,6 +8826,11 @@ export const rankedStartups: RankedStartup[] = [
     "tier": "C",
     "sources": [
       {
+        "label": "Total raised",
+        "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed",
+        "host": "inceptionlabs.ai"
+      },
+      {
         "label": "Seed (2025-11)",
         "url": "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/",
         "host": "techcrunch.com"
@@ -8866,11 +8883,17 @@ export const rankedStartups: RankedStartup[] = [
     "newRounds": [],
     "pitchbook": null,
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 50,
+      "asOf": "2026-10",
+      "source": "https://www.inceptionlabs.ai/blog/mercury-refreshed",
+      "singleSource": false,
+      "label": "equity; only disclosed financing"
+    },
     "dataCoverage": {
       "valuation": "missing",
       "rounds": "sourced",
-      "totalRaised": "missing",
+      "totalRaised": "sourced",
       "revenue": "not disclosed",
       "headcount": "missing",
       "research": "sourced",
@@ -9783,7 +9806,7 @@ export const rankedStartups: RankedStartup[] = [
         "host": "dealroom.co"
       },
       {
-        "label": "Status",
+        "label": "Total raised",
         "url": "https://mirendil.com/news/announcing-mirendil/",
         "host": "mirendil.com"
       },
@@ -9820,11 +9843,17 @@ export const rankedStartups: RankedStartup[] = [
     "newRounds": [],
     "pitchbook": null,
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 200,
+      "asOf": "2026-10",
+      "source": "https://mirendil.com/news/announcing-mirendil/",
+      "singleSource": false,
+      "label": "seed equity; NVIDIA investment may be in addition to or inside the $200M (company wording: 'led our seed round of $200M, followed by an investment from NVIDIA')"
+    },
     "dataCoverage": {
       "valuation": "sourced",
       "rounds": "sourced",
-      "totalRaised": "missing",
+      "totalRaised": "sourced",
       "revenue": "not disclosed",
       "headcount": "sourced",
       "research": "sourced",
@@ -10094,6 +10123,152 @@ export const rankedStartups: RankedStartup[] = [
     "rank": 43
   },
   {
+    "name": "Dream Labs",
+    "aliases": [
+      "Dream Labs AI"
+    ],
+    "sector": "Robotics & physical AI",
+    "category": "Robot foundation models",
+    "founded": 2026,
+    "hq": "San Francisco",
+    "website": "https://dreamlabs.ai",
+    "oneLiner": "Builds Dream-1, a robot foundation model exposed as a public API that turns a camera feed and a plain-language instruction into motor commands, including for two-armed robots it has not seen.",
+    "founders": "Joel Jang (CEO; led world models for NVIDIA GR00T, including DreamZero), Yunhao Ge (CTO; NVIDIA Cosmos and GR00T), You Liang Tan (led GR00T open-source), and Scott Reed (founding member of NVIDIA GEAR; previously Gato and Genie at DeepMind). https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence , https://dreamlabs.ai/team/",
+    "talentSignals": [
+      "The four founders led or co-authored NVIDIA's DreamZero world-action-model paper (arXiv:2602.15922, 17 Feb 2026) and left to start the company https://arxiv.org/abs/2602.15922",
+      "Scott Reed's prior work includes DeepMind's Gato and Genie https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence",
+      "A small research team. An official headcount was not published. A secondary writeup quoted a reply saying 12 researchers and engineers; that post was not verified and is not used as the figure."
+    ],
+    "headcount": null,
+    "rounds": [
+      {
+        "date": "2026-10",
+        "stage": "Seed",
+        "amountUsdM": 90,
+        "postValuationUsdB": null,
+        "leads": "B Capital, Kindred Ventures; A.Capital, Unusual Ventures, SV Angel, Wing VC, Scribble VC, Adrian Aoun",
+        "source": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": null,
+    "valuationDate": null,
+    "valuationSource": null,
+    "upsideValuationUsdB": null,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": null,
+    "revenueMultiple": null,
+    "multipleNote": "No public ARR — scored conservatively.",
+    "velocityMeta": {
+      "raised18moUsdM": 90,
+      "gapMonths": 4,
+      "lastRound": "2026-10",
+      "note": null
+    },
+    "research": "Dream-1 technical report (19 Oct 2026) describes a world-action model that controls unseen bimanual parallel-gripper robots with no demonstrations from that robot, priced from $3/hour, and marked as a research beta that is not validated for safety-critical use. The founders' DreamZero paper (NVIDIA, Feb 2026) introduced world action models: a 14B video-diffusion policy with closed-loop control at 7Hz and few-shot transfer after 30 minutes of play data. DreamZero is NVIDIA work, not a Dream Labs paper. No patents found. https://dreamlabs.ai/research/dream-1/ , https://arxiv.org/abs/2602.15922",
+    "xPosts": [
+      {
+        "url": "https://x.com/dreamlabs_ai/status/2112230668805828801",
+        "author": "dreamlabs_ai",
+        "date": "2026-10-19",
+        "likes": 1605,
+        "views": 560327,
+        "summary": "Launch thread: Dream-1 controls bimanual robots it has never seen, from $3/hour, and the API is live."
+      },
+      {
+        "url": "https://x.com/dreamlabs_ai/status/2112583791537709059",
+        "author": "dreamlabs_ai",
+        "date": "2026-10-20",
+        "likes": 164,
+        "views": 9404,
+        "summary": "Company says that within a day Dream-1 had controlled 31 unseen robot types across 53 countries and served over 372,000 inference calls, with 137 robots live."
+      }
+    ],
+    "xPresence": "@dreamlabs_ai has about 4,100 followers (fxtwitter, 23 Oct 2026). The 19 Oct launch post reached about 560,000 views. CEO @jang_yoel has about 4,100 followers. CTO @GeYunhao has about 860. Co-founder @scott_e_reed has about 17,200. Launch traction is real. The accounts are not routinely viral.",
+    "threadSignal": null,
+    "traction": "Public research-beta API at $3/hour for Dream-1 and $2/hour for a smaller model (Forbes, 19 Oct 2026, pricing updated 20 Oct). More than 20 hardware partners. The company said the robots it supports cost about $2,000 to $10,000 and that current tasks are tabletop pick-and-place and laundry folding. The 372,000-call figure is company-stated on X. No revenue total was disclosed. Forbes quoted Jang saying zero-shot pick-and-place succeeds about 80% of the time and other tasks 50-60%, and that the company is not aiming at factory lines that need near-perfect reliability.",
+    "compute": "The company said the seed will be used primarily for compute. No named cluster or cloud contract.",
+    "moat": "A public cross-embodiment robot API and the DreamZero research line. Crowded: Physical Intelligence, Skild, and NVIDIA still ship robot models. The moat is the model and the partner integrations, not hardware.",
+    "risks": "Valuation is undisclosed, so upside is the conservative default. Dream-1 is a research beta with company-stated success rates well below industrial reliability. DreamZero was done at NVIDIA, so the company does not own that paper's distribution. Headcount is not officially disclosed.",
+    "confidence": "medium",
+    "notes": "Upside is scored at 5 because no post-money was published. Do not infer one from the $90m seed. The 24-hour usage numbers are the company's own post.",
+    "subscores": {
+      "talent": 7.5,
+      "velocity": 6.4,
+      "traction": 4.0,
+      "upside": 5.0,
+      "research": 6.0,
+      "multiple": 3.0,
+      "moat": 4.0,
+      "posting": 5.5
+    },
+    "composite": 54.0,
+    "tier": "C",
+    "sources": [
+      {
+        "label": "Total raised",
+        "url": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots",
+        "host": "businesswire.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://dreamlabs.ai/research/dream-1/",
+        "host": "dreamlabs.ai"
+      },
+      {
+        "label": "Research output",
+        "url": "https://arxiv.org/abs/2602.15922",
+        "host": "arxiv.org"
+      },
+      {
+        "label": "Research output",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/",
+        "host": "forbes.com"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence",
+        "host": "wing.vc"
+      }
+    ],
+    "valuationSignal": null,
+    "refreshChanges": [],
+    "scoreAdjustmentReason": null,
+    "newRounds": [],
+    "pitchbook": null,
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 90,
+      "asOf": "2026-10",
+      "source": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots",
+      "singleSource": false,
+      "label": "The seed is the only round found."
+    },
+    "dataCoverage": {
+      "valuation": "not disclosed",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "not disclosed",
+      "headcount": "not disclosed",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "latestValuation",
+      "arr",
+      "headcount",
+      "patents"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": true,
+    "oct9": null,
+    "oct21": null,
+    "atValuationCap": false,
+    "rank": 44
+  },
+  {
     "name": "Fluidstack",
     "aliases": [
       "FluidStack Ltd"
@@ -10322,7 +10497,170 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 44
+    "rank": 45
+  },
+  {
+    "name": "Warp Sciences",
+    "aliases": [
+      "Warp"
+    ],
+    "sector": "AI for science & health",
+    "category": "AI for science / automated chemistry",
+    "founded": 2026,
+    "hq": "South San Francisco",
+    "website": "https://warp.xyz",
+    "oneLiner": "US chemistry CRO that combines chemists, AI, and robotics to make and test molecules for drug discovery. It has no drug pipeline of its own.",
+    "founders": "Kevin Weil (CEO; ex-OpenAI chief product officer and VP of Science, previously Planet, Instagram, and Twitter; Harvard and Stanford physics), DJ Patil (COO; first US Chief Data Scientist, LinkedIn chief scientist, Devoted Health), Solomon Reisberg (CSO; medicinal chemistry at Terremoto Biosciences, Gilead, and Schrödinger; five drugs into the clinic), and Manohar Paluri (co-founder; founding member of Meta FAIR, led Llama work, VP at Meta Superintelligence Labs). https://lsvp.com/stories/why-were-backing-warp/ , https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+    "talentSignals": [
+      "Founding team pairs an OpenAI science lead, a FAIR co-founder, the first US chief data scientist, and a medicinal chemist who has put five drugs into the clinic https://lsvp.com/stories/why-were-backing-warp/",
+      "Early hires include roboticists from Genesis, Skild AI, and 1X, chemists from Genentech, and an LLNL engineer who worked on Q>1 fusion, per the company and Weil's launch post https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research , https://x.com/kevinweil/status/2113294657673466060",
+      "Starting team of about 20, with robotic arms and AI chips already purchased (Bloomberg, via Investing.com and The Next Web) https://www.investing.com/news/stock-market-news/kevin-weil-launches-warp-sciences-with-215m-to-automate-drug-development--bloomberg-93CH-4966954"
+    ],
+    "headcount": {
+      "value": 20,
+      "date": "2026-10",
+      "source": "https://www.investing.com/news/stock-market-news/kevin-weil-launches-warp-sciences-with-215m-to-automate-drug-development--bloomberg-93CH-4966954",
+      "singleSource": false,
+      "note": "'about 20', Bloomberg as reported by Investing.com and The Next Web. Not an exact census."
+    },
+    "rounds": [
+      {
+        "date": "2026-10",
+        "stage": "Series A",
+        "amountUsdM": 215,
+        "postValuationUsdB": 0.865,
+        "leads": "Lightspeed; IVP, Premji Invest, Mayfield, Lux, Menlo Ventures, Conviction, and others",
+        "source": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": 0.865,
+    "valuationDate": "2026-10",
+    "valuationSource": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+    "upsideValuationUsdB": 0.865,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": null,
+    "revenueMultiple": null,
+    "multipleNote": "No public ARR — scored conservatively.",
+    "velocityMeta": {
+      "raised18moUsdM": 215,
+      "gapMonths": 4,
+      "lastRound": "2026-10",
+      "note": null
+    },
+    "research": "No company paper, model, or patent found. The technical description is a lab data loop: chemists wear cameras and sensor gloves so failed and successful runs train models that plan synthesis and the next experiment (Lightspeed, 22 Oct 2026). Founder research pedigree (FAIR, Llama, OpenAI for Science) is prior employment, not Warp output.",
+    "xPosts": [
+      {
+        "url": "https://x.com/kevinweil/status/2113294657673466060",
+        "author": "kevinweil",
+        "date": "2026-10-22",
+        "likes": 1818,
+        "views": 291034,
+        "summary": "Weil announces Warp Sciences and a $215M Series A led by Lightspeed, co-founded with DJ Patil, Manohar Paluri, and Sol Reisberg."
+      },
+      {
+        "url": "https://x.com/warpsciences/status/2113294890599903636",
+        "author": "warpsciences",
+        "date": "2026-10-22",
+        "likes": 60,
+        "views": 3796,
+        "summary": "Company account: 'Hello World.'"
+      }
+    ],
+    "xPresence": "@kevinweil has about 122,900 followers and the launch post reached about 291,000 views (fxtwitter, 23 Oct 2026). @dpatil has about 79,700 followers. @manohar_paluri has about 1,900. @warpsciences, created 11 Aug 2026, has about 740 followers. Founder reach is real. The company account is new and quiet.",
+    "threadSignal": null,
+    "traction": "Came out of stealth on 22 Oct 2026. No named customers, no revenue, and no operating lab metrics. Lightspeed says the first service is lead-optimization analog synthesis and that robots will take repetitive steps over time. Pre-revenue.",
+    "compute": "Bloomberg reported the team has already bought robotic arms and AI chips. No named cloud or GPU contract.",
+    "moat": "A closed loop of chemistry data from its own robots, plus a founding team that can sell to pharma. The lab is not built out, and contract chemistry is an existing market.",
+    "risks": "Pre-revenue, one day out of stealth. Automation of medicinal chemistry is unproven at this company. $865M is a high mark for a team of about 20 with no disclosed revenue.",
+    "confidence": "high",
+    "notes": "Valuation is post-money, including the new $215m. Research is scored on company output, which is none yet, not on the founders' prior labs. Revenue multiple uses the no-ARR default of 3.",
+    "subscores": {
+      "talent": 8.0,
+      "velocity": 7.1,
+      "traction": 2.0,
+      "upside": 8.2,
+      "research": 2.5,
+      "multiple": 3.0,
+      "moat": 4.0,
+      "posting": 6.0
+    },
+    "composite": 53.8,
+    "tier": "C",
+    "sources": [
+      {
+        "label": "Valuation",
+        "url": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+        "host": "news.bloomberglaw.com"
+      },
+      {
+        "label": "Total raised",
+        "url": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+        "host": "businesswire.com"
+      },
+      {
+        "label": "Headcount",
+        "url": "https://www.investing.com/news/stock-market-news/kevin-weil-launches-warp-sciences-with-215m-to-automate-drug-development--bloomberg-93CH-4966954",
+        "host": "investing.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://lsvp.com/stories/why-were-backing-warp/",
+        "host": "lsvp.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://warp.xyz/",
+        "host": "warp.xyz"
+      },
+      {
+        "label": "Talent / traction",
+        "url": "https://x.com/kevinweil/status/2113294657673466060",
+        "host": "x.com"
+      }
+    ],
+    "valuationSignal": {
+      "valueUsdB": 0.865,
+      "date": "2026-10",
+      "source": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+      "basis": "closed round (Series A)",
+      "note": "Announced 22 Oct 2026. No later mark."
+    },
+    "refreshChanges": [],
+    "scoreAdjustmentReason": null,
+    "newRounds": [],
+    "pitchbook": null,
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 215,
+      "asOf": "2026-10",
+      "source": "https://www.businesswire.com/news/home/20261022200104/en/Warp-Sciences-Emerges-From-Stealth-With-%24215-Million-to-Build-U.S.-Chemistry-Services-for-Drug-Research",
+      "singleSource": false,
+      "label": "The announced round. No earlier round found."
+    },
+    "dataCoverage": {
+      "valuation": "sourced",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "not disclosed",
+      "headcount": "sourced",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "arr",
+      "patents",
+      "named customers",
+      "exact headcount"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": true,
+    "oct9": null,
+    "oct21": null,
+    "atValuationCap": false,
+    "rank": 46
   },
   {
     "name": "Axiom Math",
@@ -10533,7 +10871,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 45
+    "rank": 47
   },
   {
     "name": "Edison Scientific",
@@ -10721,7 +11059,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 46
+    "rank": 48
   },
   {
     "name": "turbopuffer",
@@ -10926,7 +11264,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 47
+    "rank": 49
   },
   {
     "name": "Wispr Flow",
@@ -11161,7 +11499,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 48
+    "rank": 50
   },
   {
     "name": "Humans&",
@@ -11372,7 +11710,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 49
+    "rank": 51
   },
   {
     "name": "Rogo",
@@ -11638,7 +11976,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 50
+    "rank": 52
   },
   {
     "name": "Midjourney",
@@ -11819,7 +12157,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 51
+    "rank": 53
   },
   {
     "name": "Hippocratic AI",
@@ -12031,7 +12369,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 52
+    "rank": 54
   },
   {
     "name": "Standard Intelligence",
@@ -12216,7 +12554,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 53
+    "rank": 55
   },
   {
     "name": "Atoms",
@@ -12335,6 +12673,11 @@ export const rankedStartups: RankedStartup[] = [
         "host": "cnbc.com"
       },
       {
+        "label": "Total raised",
+        "url": "https://www.cbinsights.com/company/city-storage-systems/financials",
+        "host": "cbinsights.com"
+      },
+      {
         "label": "Undisclosed (CloudKitchens) (2019-01)",
         "url": "https://multiples.vc/private-comps/atoms",
         "host": "multiples.vc"
@@ -12377,11 +12720,17 @@ export const rankedStartups: RankedStartup[] = [
     "newRounds": [],
     "pitchbook": null,
     "valuationFromPitchBook": false,
-    "totalRaised": null,
+    "totalRaised": {
+      "valueUsdM": 2950,
+      "asOf": "2026-07",
+      "source": "https://www.cbinsights.com/company/city-storage-systems/financials",
+      "singleSource": true,
+      "label": "CB Insights total over 8 rounds; Multiples says ~$3B. Includes some debt in 2021 round; excludes undisclosed 2026 debt facilities."
+    },
     "dataCoverage": {
       "valuation": "sourced",
       "rounds": "sourced",
-      "totalRaised": "missing",
+      "totalRaised": "sourced",
       "revenue": "missing",
       "headcount": "missing",
       "research": "sourced",
@@ -12401,7 +12750,7 @@ export const rankedStartups: RankedStartup[] = [
     "oct9": null,
     "oct21": null,
     "atValuationCap": false,
-    "rank": 54
+    "rank": 56
   },
   {
     "name": "Reducto",
@@ -12625,7 +12974,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 55
+    "rank": 57
   },
   {
     "name": "Hedra",
@@ -12841,7 +13190,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 56
+    "rank": 58
   },
   {
     "name": "Genesis AI",
@@ -13066,7 +13415,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 57
+    "rank": 59
   },
   {
     "name": "Krea",
@@ -13289,7 +13638,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 58
+    "rank": 60
   },
   {
     "name": "Lila Sciences",
@@ -13496,7 +13845,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 59
+    "rank": 61
   },
   {
     "name": "TwelveLabs",
@@ -13766,7 +14115,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 60
+    "rank": 62
   },
   {
     "name": "1X Technologies",
@@ -14002,7 +14351,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 61
+    "rank": 63
   },
   {
     "name": "Browser Use",
@@ -14195,7 +14544,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 62
+    "rank": 64
   },
   {
     "name": "Pika",
@@ -14390,7 +14739,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 63
+    "rank": 65
   },
   {
     "name": "Flapping Airplanes",
@@ -14623,7 +14972,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 64
+    "rank": 66
   },
   {
     "name": "Doppel",
@@ -14858,7 +15207,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 65
+    "rank": 67
   },
   {
     "name": "Liquid AI",
@@ -15063,7 +15412,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 66
+    "rank": 68
   },
   {
     "name": "Datacurve",
@@ -15262,7 +15611,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 67
+    "rank": 69
   },
   {
     "name": "Arcee AI",
@@ -15494,7 +15843,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "C"
     },
     "atValuationCap": false,
-    "rank": 68
+    "rank": 70
   },
   {
     "name": "Datalab",
@@ -15691,7 +16040,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 69
+    "rank": 71
   },
   {
     "name": "Merge Labs",
@@ -15879,7 +16228,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 70
+    "rank": 72
   },
   {
     "name": "Otter.ai",
@@ -16130,7 +16479,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 71
+    "rank": 73
   },
   {
     "name": "comma.ai",
@@ -16346,7 +16695,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 72
+    "rank": 74
   },
   {
     "name": "Turing",
@@ -16593,7 +16942,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "D"
     },
     "atValuationCap": false,
-    "rank": 73
+    "rank": 75
   },
   {
     "name": "Hex",
@@ -16848,7 +17197,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 74
+    "rank": 76
   },
   {
     "name": "Superpower",
@@ -17053,7 +17402,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 75
+    "rank": 77
   },
   {
     "name": "Poolside",
@@ -17269,7 +17618,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 76
+    "rank": 78
   },
   {
     "name": "HUMAN Security",
@@ -17529,7 +17878,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 77
+    "rank": 79
   },
   {
     "name": "Liner",
@@ -17732,7 +18081,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 78
+    "rank": 80
   },
   {
     "name": "Thoughtful",
@@ -17915,7 +18264,183 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 79
+    "rank": 81
+  },
+  {
+    "name": "Marathon Fusion",
+    "aliases": [
+      "Marathon Fusion, Inc."
+    ],
+    "sector": "AI for science & health",
+    "category": "Fusion fuel cycle",
+    "founded": 2023,
+    "hq": "San Francisco",
+    "website": "https://www.marathonfusion.com",
+    "oneLiner": "Builds fusion fuel-cycle hardware, including plasma centrifuges that enrich lithium-6 and separate hydrogen isotopes, so future fusion plants can breed and recycle tritium.",
+    "founders": "Kyle Schiller (CEO; Schmidt Futures science-policy fellow) and Adam Rutkowski (CTO; SpaceX propulsion, Princeton plasma physics). Jason Parisi (Oxford, Princeton Plasma Physics Lab) is CSO. Advisors include Per F. Peterson (UC Berkeley, Kairos Power), Ahmed Diallo (PPPL, ARPA-E), and Dan Brunner (MIT, Commonwealth Fusion Systems). https://www.marathonfusion.com/about/ , https://techcrunch.com/2024/07/18/without-this-companys-technology-future-fusion-power-plants-might-never-light-up/",
+    "talentSignals": [
+      "Named staff on the company page are mostly plasma and nuclear PhDs and engineers from Princeton Plasma Physics Lab, Helion, TAE, Tokamak Energy, SpaceX, and Commonwealth Fusion Systems https://www.marathonfusion.com/about/",
+      "Not an AI-research team. The public technical work is neutronics and isotope separation, not machine-learning papers."
+    ],
+    "headcount": {
+      "value": 27,
+      "date": "2026-10",
+      "source": "https://www.marathonfusion.com/about/",
+      "singleSource": true,
+      "note": "27 people named on the company team page, advisors excluded. LinkedIn lists 33 employees (aggregator, not used as the figure)."
+    },
+    "rounds": [
+      {
+        "date": "2024-07",
+        "stage": "Seed",
+        "amountUsdM": 5.9,
+        "postValuationUsdB": null,
+        "leads": "1517 Fund, Anglo American; Übermorgen, Shared Future Fund, Malcolm Handley",
+        "source": "https://techcrunch.com/2024/07/18/without-this-companys-technology-future-fusion-power-plants-might-never-light-up/",
+        "kind": "primary"
+      },
+      {
+        "date": "2024-08",
+        "stage": "Grant (DOE)",
+        "amountUsdM": 4,
+        "postValuationUsdB": null,
+        "leads": "US Department of Energy",
+        "source": "https://app.dealroom.co/companies/marathon_fusion",
+        "kind": "grant"
+      },
+      {
+        "date": "2026-09",
+        "stage": "Series A (terms not disclosed)",
+        "amountUsdM": null,
+        "postValuationUsdB": null,
+        "leads": null,
+        "source": "https://www.caplight.com/company/marathonfusion",
+        "kind": "primary"
+      }
+    ],
+    "valuationUsdB": null,
+    "valuationDate": null,
+    "valuationSource": null,
+    "upsideValuationUsdB": null,
+    "upsideValuationBasis": "confirmed / latest reported",
+    "arr": null,
+    "revenueMultiple": null,
+    "multipleNote": "No public ARR — scored conservatively.",
+    "velocityMeta": {
+      "raised18moUsdM": 0,
+      "gapMonths": 26,
+      "lastRound": "2026-09",
+      "note": null
+    },
+    "research": "Two company preprints, neither peer-reviewed. arXiv:2507.13461 (Jul 2025, revised Aug 2025), 'Scalable Chrysopoeia via (n,2n) Reactions Driven by Deuterium-Tritium Fusion Neutrons', is a neutronics simulation claiming about 2 tonnes of gold per GWth per year from mercury-198. arXiv:2512.09242 (Dec 2025), 'Isotope Production in Fusion Systems', models medical-isotope co-production. In Aug 2026 the company said a plasma centrifuge enriched lithium-6, with the result certified by the Covalent lab; the hydrogen-isotope result was not independently verified (Heatmap, 27 Aug 2026). No patents found.",
+    "xPosts": [
+      {
+        "url": "https://x.com/MarathonFusion/status/2113001073019662481",
+        "author": "MarathonFusion",
+        "date": "2026-10-21",
+        "likes": 20519,
+        "views": 5993666,
+        "summary": "Company says it turned mercury into stable gold at 10x CERN's record, enriched isotopes in a plasma centrifuge past a 40-year Soviet record, and is building a fusion reactor in San Francisco. The thread does not include experimental data."
+      }
+    ],
+    "xPresence": "@MarathonFusion has about 28,800 followers (fxtwitter, 23 Oct 2026). The 21 Oct 2026 alchemy post reached about 6.0 million views and 20,500 likes. Founder accounts were not found. One viral company post, not a staff posting culture.",
+    "threadSignal": null,
+    "traction": "No revenue found. TechCrunch (18 Jul 2024) reported letters of intent from Commonwealth Fusion Systems and Helion. The commercial pilot and 2029 production targets in the 27 Aug 2026 Heatmap story are plans, not operating plants. The 21 Oct 2026 gold claim on X goes beyond the 2025 simulation paper and has not been independently verified.",
+    "compute": null,
+    "moat": "Reactor-agnostic fuel-cycle hardware, with a certified lithium-6 enrichment result and relationships with fusion developers. The science is early, and the company does not own a reactor.",
+    "risks": "Fusion plants that would buy the fuel cycle do not exist yet. Valuation and the Series A amount are undisclosed. The gold claim is company-stated and unverified. Tritium work has not been run on real tritium.",
+    "confidence": "medium",
+    "notes": "Upside is scored at the no-valuation default of 5. Velocity ignores the September 2026 Series A because its amount is missing, which is the conservative imputation, not a claim that the round was small. Dealroom's $24-35m enterprise-value range is an estimate and is not used.",
+    "subscores": {
+      "talent": 5.0,
+      "velocity": 0.6,
+      "traction": 2.5,
+      "upside": 5.0,
+      "research": 5.0,
+      "multiple": 3.0,
+      "moat": 4.0,
+      "posting": 6.0
+    },
+    "composite": 37.5,
+    "tier": "E",
+    "sources": [
+      {
+        "label": "Total raised",
+        "url": "https://www.marathonfusion.com/about/",
+        "host": "marathonfusion.com"
+      },
+      {
+        "label": "Seed (2024-07)",
+        "url": "https://techcrunch.com/2024/07/18/without-this-companys-technology-future-fusion-power-plants-might-never-light-up/",
+        "host": "techcrunch.com"
+      },
+      {
+        "label": "Grant (DOE) (2024-08)",
+        "url": "https://app.dealroom.co/companies/marathon_fusion",
+        "host": "app.dealroom.co"
+      },
+      {
+        "label": "Series A (terms not disclosed) (2026-09)",
+        "url": "https://www.caplight.com/company/marathonfusion",
+        "host": "caplight.com"
+      },
+      {
+        "label": "Research output",
+        "url": "https://arxiv.org/pdf/2507.13461",
+        "host": "arxiv.org"
+      },
+      {
+        "label": "Research output",
+        "url": "https://arxiv.org/abs/2512.09242",
+        "host": "arxiv.org"
+      },
+      {
+        "label": "Research output",
+        "url": "https://heatmap.news/climate-tech/marathon-fusion-lithium-tritium",
+        "host": "heatmap.news"
+      },
+      {
+        "label": "Research output",
+        "url": "https://www.marathonfusion.com/alchemy/",
+        "host": "marathonfusion.com"
+      }
+    ],
+    "valuationSignal": null,
+    "refreshChanges": [],
+    "scoreAdjustmentReason": null,
+    "newRounds": [],
+    "pitchbook": null,
+    "valuationFromPitchBook": false,
+    "totalRaised": {
+      "valueUsdM": 18,
+      "asOf": "2026-10",
+      "source": "https://www.marathonfusion.com/about/",
+      "singleSource": true,
+      "label": "Company says it has secured over $18m from the DOE and investors since 2023. That is a floor, not a priced total. Caplight lists $10.48m and a September 2026 Series A with a blank amount. Dealroom lists $5.9m seed plus a $4m DOE grant."
+    },
+    "dataCoverage": {
+      "valuation": "not disclosed",
+      "rounds": "sourced",
+      "totalRaised": "sourced",
+      "revenue": "not disclosed",
+      "headcount": "sourced",
+      "research": "sourced",
+      "xPresence": "sourced",
+      "xPosts": "sourced"
+    },
+    "notDisclosed": [
+      "latestValuation",
+      "Series A amount",
+      "arr",
+      "patents"
+    ],
+    "fillScoreAdjustments": null,
+    "fillScoreAdjustmentReason": null,
+    "isNewAddition": true,
+    "oct9": null,
+    "oct21": null,
+    "atValuationCap": false,
+    "rank": 82
   },
   {
     "name": "Collinear AI",
@@ -18077,7 +18602,7 @@ export const rankedStartups: RankedStartup[] = [
       "tier": "E"
     },
     "atValuationCap": false,
-    "rank": 80
+    "rank": 83
   }
 ];
 
@@ -18903,7 +19428,8 @@ export const changelog: Changelog = {
       "source": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
       "composite": 51.2,
       "tier": "C",
-      "oneLiner": "Building an 'artificial general engineer': AI tools that automate the design, simulation and manufacturing of complex physical products (jet engines, spacecraft, computers, medical devices, drug compounds)."
+      "oneLiner": "Building an 'artificial general engineer': AI tools that automate the design, simulation and manufacturing of complex physical products (jet engines, spacecraft, computers, medical devices, drug compounds).",
+      "batch": null
     },
     {
       "name": "HeyGen",
@@ -18914,7 +19440,8 @@ export const changelog: Changelog = {
       "valuationUsdB": 0.5,
       "valuationDate": "2024-06",
       "source": "https://www.heygen.com/blog/announcing-our-series-a",
-      "oneLiner": "Identity-first AI video platform: photorealistic personal avatars (Avatar V), video translation, a video agent, and in-house voice (HeyGen Voice) and general video (HeyGen Video 1) models sold via app and API."
+      "oneLiner": "Identity-first AI video platform: photorealistic personal avatars (Avatar V), video translation, a video agent, and in-house voice (HeyGen Voice) and general video (HeyGen Video 1) models sold via app and API.",
+      "batch": null
     },
     {
       "name": "Recursive",
@@ -18925,7 +19452,8 @@ export const changelog: Changelog = {
       "valuationUsdB": 4.65,
       "valuationDate": "2026-05",
       "source": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-recursive-on-dollar650-million-series-a-funding-at-a-dollar465-billion-valuation.html",
-      "oneLiner": "Research lab building the 'Eureka Machine', an open-ended automated-research system aimed at recursive self-improvement, applied first to frontier AI R&D. First release: Flint, an Apache-2.0 40B MoE (~2.5B active) local coding model."
+      "oneLiner": "Research lab building the 'Eureka Machine', an open-ended automated-research system aimed at recursive self-improvement, applied first to frontier AI R&D. First release: Flint, an Apache-2.0 40B MoE (~2.5B active) local coding model.",
+      "batch": null
     },
     {
       "name": "Inception Labs",
@@ -18936,7 +19464,8 @@ export const changelog: Changelog = {
       "valuationUsdB": null,
       "valuationDate": null,
       "source": null,
-      "oneLiner": "Builds Mercury, commercial diffusion LLMs (dLLMs) that generate tokens in parallel for 1,000+ tok/s and low cost. Product line: Mercury 3, Mercury Coder, Mercury Decide, and Mercury Voice."
+      "oneLiner": "Builds Mercury, commercial diffusion LLMs (dLLMs) that generate tokens in parallel for 1,000+ tok/s and low cost. Product line: Mercury 3, Mercury Coder, Mercury Decide, and Mercury Voice.",
+      "batch": null
     },
     {
       "name": "Mirendil",
@@ -18947,18 +19476,56 @@ export const changelog: Changelog = {
       "valuationUsdB": 1.0,
       "valuationDate": "2026-06",
       "source": "https://dealroom.co/news/135905-mirendil-raises-200m-seed-led-by-a16z-and-kleiner-perkins-to-bring-front/",
-      "oneLiner": "Frontier lab training models specialized in AI R&D and rebuilding the research loop around them, to 'democratize frontier AI R&D' for scientists and small teams. First pretrained model Mirendil-Base announced Oct 2026."
+      "oneLiner": "Frontier lab training models specialized in AI R&D and rebuilding the research loop around them, to 'democratize frontier AI R&D' for scientists and small teams. First pretrained model Mirendil-Base announced Oct 2026.",
+      "batch": null
+    },
+    {
+      "name": "Dream Labs",
+      "outcome": "ranked",
+      "rank": 44,
+      "composite": 54.0,
+      "tier": "C",
+      "valuationUsdB": null,
+      "valuationDate": null,
+      "source": null,
+      "oneLiner": "Builds Dream-1, a robot foundation model exposed as a public API that turns a camera feed and a plain-language instruction into motor commands, including for two-armed robots it has not seen.",
+      "batch": "2026-10-22"
+    },
+    {
+      "name": "Warp Sciences",
+      "outcome": "ranked",
+      "rank": 46,
+      "composite": 53.8,
+      "tier": "C",
+      "valuationUsdB": 0.865,
+      "valuationDate": "2026-10",
+      "source": "https://news.bloomberglaw.com/pharma-and-life-sciences/ex-openai-science-head-launches-startup-with-215-million",
+      "oneLiner": "US chemistry CRO that combines chemists, AI, and robotics to make and test molecules for drug discovery. It has no drug pipeline of its own.",
+      "batch": "2026-10-22"
     },
     {
       "name": "Atoms",
       "outcome": "ranked",
-      "rank": 54,
+      "rank": 56,
       "composite": 50.9,
       "tier": "C",
       "valuationUsdB": 15,
       "valuationDate": "2022-01",
       "source": "https://www.cnbc.com/2026/03/13/uber-ex-ceo-kalanick-rebrands-latest-venture-atoms-move-into-robotics.html",
-      "oneLiner": "Travis Kalanick's 'physical world computation' company building specialized 'gainfully employed' robots across Atoms Food (CloudKitchens infrastructure), Atoms Mining (autonomous mining via Pronto) and Atoms Transport (a 'wheelbase for robots')."
+      "oneLiner": "Travis Kalanick's 'physical world computation' company building specialized 'gainfully employed' robots across Atoms Food (CloudKitchens infrastructure), Atoms Mining (autonomous mining via Pronto) and Atoms Transport (a 'wheelbase for robots').",
+      "batch": null
+    },
+    {
+      "name": "Marathon Fusion",
+      "outcome": "ranked",
+      "rank": 82,
+      "composite": 37.5,
+      "tier": "E",
+      "valuationUsdB": null,
+      "valuationDate": null,
+      "source": null,
+      "oneLiner": "Builds fusion fuel-cycle hardware, including plasma centrifuges that enrich lithium-6 and separate hydrogen isotopes, so future fusion plants can breed and recycle tritium.",
+      "batch": "2026-10-22"
     }
   ],
   "liveCrossCheck": {
@@ -19216,7 +19783,7 @@ export const changelog: Changelog = {
       {
         "name": "Lila Sciences",
         "from": 50,
-        "to": 59,
+        "to": 61,
         "fromComposite": 52.3,
         "toComposite": 49.0,
         "fromTier": "C",
@@ -19234,7 +19801,7 @@ export const changelog: Changelog = {
       {
         "name": "Collinear AI",
         "from": 80,
-        "to": 80,
+        "to": 83,
         "fromComposite": 33.4,
         "toComposite": 35.4,
         "fromTier": "E",
@@ -19243,7 +19810,7 @@ export const changelog: Changelog = {
       {
         "name": "Hex",
         "from": 73,
-        "to": 74,
+        "to": 76,
         "fromComposite": 43.8,
         "toComposite": 43.5,
         "fromTier": "D",
@@ -19304,9 +19871,63 @@ export const changelog: Changelog = {
         "toTier": "B"
       },
       {
+        "name": "Fluidstack",
+        "from": 44,
+        "to": 45,
+        "fromComposite": 53.9,
+        "toComposite": 53.9,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Axiom Math",
+        "from": 45,
+        "to": 47,
+        "fromComposite": 53.7,
+        "toComposite": 53.7,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Edison Scientific",
+        "from": 46,
+        "to": 48,
+        "fromComposite": 53.5,
+        "toComposite": 53.5,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "turbopuffer",
+        "from": 47,
+        "to": 49,
+        "fromComposite": 52.7,
+        "toComposite": 52.7,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Wispr Flow",
+        "from": 48,
+        "to": 50,
+        "fromComposite": 52.4,
+        "toComposite": 52.4,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Humans&",
+        "from": 49,
+        "to": 51,
+        "fromComposite": 52.3,
+        "toComposite": 52.3,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
         "name": "Rogo",
         "from": 51,
-        "to": 50,
+        "to": 52,
         "fromComposite": 52,
         "toComposite": 52.0,
         "fromTier": "C",
@@ -19315,7 +19936,7 @@ export const changelog: Changelog = {
       {
         "name": "Midjourney",
         "from": 52,
-        "to": 51,
+        "to": 53,
         "fromComposite": 51.7,
         "toComposite": 51.7,
         "fromTier": "C",
@@ -19324,7 +19945,7 @@ export const changelog: Changelog = {
       {
         "name": "Hippocratic AI",
         "from": 53,
-        "to": 52,
+        "to": 54,
         "fromComposite": 51.3,
         "toComposite": 51.3,
         "fromTier": "C",
@@ -19333,7 +19954,7 @@ export const changelog: Changelog = {
       {
         "name": "Standard Intelligence",
         "from": 54,
-        "to": 53,
+        "to": 55,
         "fromComposite": 51,
         "toComposite": 51.0,
         "fromTier": "C",
@@ -19342,7 +19963,7 @@ export const changelog: Changelog = {
       {
         "name": "Atoms",
         "from": 55,
-        "to": 54,
+        "to": 56,
         "fromComposite": 50.9,
         "toComposite": 50.9,
         "fromTier": "C",
@@ -19351,7 +19972,7 @@ export const changelog: Changelog = {
       {
         "name": "Reducto",
         "from": 56,
-        "to": 55,
+        "to": 57,
         "fromComposite": 50.5,
         "toComposite": 50.5,
         "fromTier": "C",
@@ -19360,7 +19981,7 @@ export const changelog: Changelog = {
       {
         "name": "Hedra",
         "from": 57,
-        "to": 56,
+        "to": 58,
         "fromComposite": 50.3,
         "toComposite": 50.3,
         "fromTier": "C",
@@ -19369,7 +19990,7 @@ export const changelog: Changelog = {
       {
         "name": "Genesis AI",
         "from": 58,
-        "to": 57,
+        "to": 59,
         "fromComposite": 49.9,
         "toComposite": 49.9,
         "fromTier": "C",
@@ -19378,20 +19999,182 @@ export const changelog: Changelog = {
       {
         "name": "Krea",
         "from": 59,
-        "to": 58,
+        "to": 60,
         "fromComposite": 49,
         "toComposite": 49.0,
         "fromTier": "C",
         "toTier": "C"
       },
       {
+        "name": "TwelveLabs",
+        "from": 60,
+        "to": 62,
+        "fromComposite": 49,
+        "toComposite": 49.0,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "1X Technologies",
+        "from": 61,
+        "to": 63,
+        "fromComposite": 48.2,
+        "toComposite": 48.2,
+        "fromTier": "C",
+        "toTier": "C"
+      },
+      {
+        "name": "Browser Use",
+        "from": 62,
+        "to": 64,
+        "fromComposite": 46.9,
+        "toComposite": 46.9,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Pika",
+        "from": 63,
+        "to": 65,
+        "fromComposite": 46.4,
+        "toComposite": 46.4,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Flapping Airplanes",
+        "from": 64,
+        "to": 66,
+        "fromComposite": 46.3,
+        "toComposite": 46.3,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Doppel",
+        "from": 65,
+        "to": 67,
+        "fromComposite": 46.1,
+        "toComposite": 46.1,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Liquid AI",
+        "from": 66,
+        "to": 68,
+        "fromComposite": 45.9,
+        "toComposite": 45.9,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Datacurve",
+        "from": 67,
+        "to": 69,
+        "fromComposite": 45.6,
+        "toComposite": 45.6,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Arcee AI",
+        "from": 68,
+        "to": 70,
+        "fromComposite": 45.5,
+        "toComposite": 45.5,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Datalab",
+        "from": 69,
+        "to": 71,
+        "fromComposite": 45.5,
+        "toComposite": 45.5,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Merge Labs",
+        "from": 70,
+        "to": 72,
+        "fromComposite": 45.5,
+        "toComposite": 45.5,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Otter.ai",
+        "from": 71,
+        "to": 73,
+        "fromComposite": 45.4,
+        "toComposite": 45.4,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "comma.ai",
+        "from": 72,
+        "to": 74,
+        "fromComposite": 44.6,
+        "toComposite": 44.6,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
         "name": "Turing",
         "from": 74,
-        "to": 73,
+        "to": 75,
         "fromComposite": 43.8,
         "toComposite": 43.8,
         "fromTier": "D",
         "toTier": "D"
+      },
+      {
+        "name": "Superpower",
+        "from": 75,
+        "to": 77,
+        "fromComposite": 42.7,
+        "toComposite": 42.7,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Poolside",
+        "from": 76,
+        "to": 78,
+        "fromComposite": 41.8,
+        "toComposite": 41.8,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "HUMAN Security",
+        "from": 77,
+        "to": 79,
+        "fromComposite": 41.6,
+        "toComposite": 41.6,
+        "fromTier": "D",
+        "toTier": "D"
+      },
+      {
+        "name": "Liner",
+        "from": 78,
+        "to": 80,
+        "fromComposite": 39.6,
+        "toComposite": 39.6,
+        "fromTier": "E",
+        "toTier": "E"
+      },
+      {
+        "name": "Thoughtful",
+        "from": 79,
+        "to": 81,
+        "fromComposite": 39.6,
+        "toComposite": 39.6,
+        "fromTier": "E",
+        "toTier": "E"
       }
     ],
     "newlyRanked": []
@@ -19739,7 +20522,7 @@ export const changelog: Changelog = {
     {
       "name": "Otter.ai",
       "from": 74,
-      "to": 71,
+      "to": 73,
       "fromComposite": 34.4,
       "toComposite": 45.4,
       "fromTier": "E",
@@ -19748,7 +20531,7 @@ export const changelog: Changelog = {
     {
       "name": "Datacurve",
       "from": 71,
-      "to": 67,
+      "to": 69,
       "fromComposite": 36.8,
       "toComposite": 45.6,
       "fromTier": "E",
@@ -19757,7 +20540,7 @@ export const changelog: Changelog = {
     {
       "name": "HUMAN Security",
       "from": 73,
-      "to": 77,
+      "to": 79,
       "fromComposite": 34.4,
       "toComposite": 41.6,
       "fromTier": "E",
@@ -19775,7 +20558,7 @@ export const changelog: Changelog = {
     {
       "name": "TwelveLabs",
       "from": 65,
-      "to": 60,
+      "to": 62,
       "fromComposite": 43.5,
       "toComposite": 49.0,
       "fromTier": "D",
@@ -19784,7 +20567,7 @@ export const changelog: Changelog = {
     {
       "name": "Hedra",
       "from": 62,
-      "to": 56,
+      "to": 58,
       "fromComposite": 45,
       "toComposite": 50.3,
       "fromTier": "D",
@@ -19793,7 +20576,7 @@ export const changelog: Changelog = {
     {
       "name": "Superpower",
       "from": 69,
-      "to": 75,
+      "to": 77,
       "fromComposite": 37.7,
       "toComposite": 42.7,
       "fromTier": "E",
@@ -19802,7 +20585,7 @@ export const changelog: Changelog = {
     {
       "name": "Poolside",
       "from": 72,
-      "to": 76,
+      "to": 78,
       "fromComposite": 36.8,
       "toComposite": 41.8,
       "fromTier": "E",
@@ -19820,7 +20603,7 @@ export const changelog: Changelog = {
     {
       "name": "Arcee AI",
       "from": 49,
-      "to": 68,
+      "to": 70,
       "fromComposite": 50.4,
       "toComposite": 45.5,
       "fromTier": "C",
@@ -19829,7 +20612,7 @@ export const changelog: Changelog = {
     {
       "name": "Hex",
       "from": 68,
-      "to": 74,
+      "to": 76,
       "fromComposite": 38.6,
       "toComposite": 43.5,
       "fromTier": "E",
@@ -19865,7 +20648,7 @@ export const changelog: Changelog = {
     {
       "name": "Lila Sciences",
       "from": 43,
-      "to": 59,
+      "to": 61,
       "fromComposite": 52.3,
       "toComposite": 49.0,
       "fromTier": "C",
@@ -19874,7 +20657,7 @@ export const changelog: Changelog = {
     {
       "name": "Rogo",
       "from": 54,
-      "to": 50,
+      "to": 52,
       "fromComposite": 48.8,
       "toComposite": 52.0,
       "fromTier": "C",
@@ -19883,7 +20666,7 @@ export const changelog: Changelog = {
     {
       "name": "Browser Use",
       "from": 64,
-      "to": 62,
+      "to": 64,
       "fromComposite": 43.9,
       "toComposite": 46.9,
       "fromTier": "D",
@@ -19892,7 +20675,7 @@ export const changelog: Changelog = {
     {
       "name": "Collinear AI",
       "from": 75,
-      "to": 80,
+      "to": 83,
       "fromComposite": 32.4,
       "toComposite": 35.4,
       "fromTier": "E",
@@ -19901,7 +20684,7 @@ export const changelog: Changelog = {
     {
       "name": "Liner",
       "from": 70,
-      "to": 78,
+      "to": 80,
       "fromComposite": 37.1,
       "toComposite": 39.6,
       "fromTier": "E",
@@ -19928,7 +20711,7 @@ export const changelog: Changelog = {
     {
       "name": "Turing",
       "from": 66,
-      "to": 73,
+      "to": 75,
       "fromComposite": 42,
       "toComposite": 43.8,
       "fromTier": "D",
@@ -19955,7 +20738,7 @@ export const changelog: Changelog = {
     {
       "name": "Fluidstack",
       "from": 41,
-      "to": 44,
+      "to": 45,
       "fromComposite": 52.3,
       "toComposite": 53.9,
       "fromTier": "C",
@@ -19964,7 +20747,7 @@ export const changelog: Changelog = {
     {
       "name": "Merge Labs",
       "from": 56,
-      "to": 70,
+      "to": 72,
       "fromComposite": 47,
       "toComposite": 45.5,
       "fromTier": "D",
@@ -19973,7 +20756,7 @@ export const changelog: Changelog = {
     {
       "name": "Reducto",
       "from": 52,
-      "to": 55,
+      "to": 57,
       "fromComposite": 49.1,
       "toComposite": 50.5,
       "fromTier": "C",
@@ -19982,7 +20765,7 @@ export const changelog: Changelog = {
     {
       "name": "1X Technologies",
       "from": 50,
-      "to": 61,
+      "to": 63,
       "fromComposite": 49.3,
       "toComposite": 48.2,
       "fromTier": "C",
@@ -19991,7 +20774,7 @@ export const changelog: Changelog = {
     {
       "name": "Flapping Airplanes",
       "from": 61,
-      "to": 64,
+      "to": 66,
       "fromComposite": 45.3,
       "toComposite": 46.3,
       "fromTier": "D",
@@ -20000,7 +20783,7 @@ export const changelog: Changelog = {
     {
       "name": "turbopuffer",
       "from": 45,
-      "to": 47,
+      "to": 49,
       "fromComposite": 51.9,
       "toComposite": 52.7,
       "fromTier": "C",
@@ -20009,7 +20792,7 @@ export const changelog: Changelog = {
     {
       "name": "Genesis AI",
       "from": 51,
-      "to": 57,
+      "to": 59,
       "fromComposite": 49.1,
       "toComposite": 49.9,
       "fromTier": "C",
@@ -20018,7 +20801,7 @@ export const changelog: Changelog = {
     {
       "name": "Krea",
       "from": 55,
-      "to": 58,
+      "to": 60,
       "fromComposite": 48.6,
       "toComposite": 49.0,
       "fromTier": "C",
@@ -20027,7 +20810,7 @@ export const changelog: Changelog = {
     {
       "name": "Pika",
       "from": 58,
-      "to": 63,
+      "to": 65,
       "fromComposite": 46,
       "toComposite": 46.4,
       "fromTier": "D",
@@ -20045,7 +20828,7 @@ export const changelog: Changelog = {
     {
       "name": "Axiom Math",
       "from": 39,
-      "to": 45,
+      "to": 47,
       "fromComposite": 53.4,
       "toComposite": 53.7,
       "fromTier": "C",
@@ -20090,7 +20873,7 @@ export const changelog: Changelog = {
     {
       "name": "Wispr Flow",
       "from": 44,
-      "to": 48,
+      "to": 50,
       "fromComposite": 52.3,
       "toComposite": 52.4,
       "fromTier": "C",

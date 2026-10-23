@@ -1015,6 +1015,24 @@ export default function PrivateStartupTiersPage() {
             <H2>What changed since the first edition</H2>
           </Reveal>
 
+          <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderLeft: '4px solid var(--accent)', borderRadius: 6, padding: 'var(--space-lg)', marginBottom: 'var(--space-xl)' }}>
+            <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 4 }}>New companies (22 Oct 2026)</div>
+            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 'var(--space-md)', lineHeight: 1.55 }}>
+              Marathon Fusion (@MarathonFusion), Warp Sciences (@warpsciences), and Dream Labs (@dreamlabs_ai) were added from the same scoring model. Missing valuation or revenue is scored conservatively and flagged. None is public, owned by a larger company, or above $20B.
+            </div>
+            {changelog.additions.filter((a) => a.batch === '2026-10-22').map((a) => (
+              <div key={a.name} style={{ display: 'flex', justifyContent: 'space-between', gap: 8, padding: '6px 0', borderBottom: '1px solid var(--ink-100)', fontSize: 'var(--text-xs)' }}>
+                <span style={{ color: 'var(--ink-800)' }}>
+                  <button type="button" onClick={() => a.outcome === 'ranked' && select(a.name)} style={{ border: 'none', background: 'transparent', padding: 0, cursor: a.outcome === 'ranked' ? 'pointer' : 'default', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'inherit' }}>{a.name}</button>
+                  {a.oneLiner ? <span style={{ color: 'var(--ink-500)' }}> — {a.oneLiner}</span> : null}
+                </span>
+                <span style={{ whiteSpace: 'nowrap', fontFamily: 'monospace', fontWeight: 800 }}>
+                  {a.outcome === 'ranked' && a.tier ? <><span style={{ color: tierColor(a.tier) }}>{a.tier}</span> {a.composite?.toFixed(1)} · #{a.rank}</> : <span style={{ color: 'var(--warning)' }}>{a.outcome}{a.valuationUsdB ? ` · ${formatUsdB(a.valuationUsdB)}` : ''}</span>}
+                </span>
+              </div>
+            ))}
+          </div>
+
           <div style={{ background: 'var(--surface-raised)', border: '1px solid var(--ink-100)', borderRadius: 6, padding: 'var(--space-lg)', marginBottom: 'var(--space-xl)' }}>
             <div style={{ fontWeight: 900, color: 'var(--ink-950)', marginBottom: 4 }}>{updatedLabel} update: new companies, data fill, PitchBook</div>
             <div style={{ fontSize: 'var(--text-xs)', color: 'var(--ink-500)', marginBottom: 'var(--space-md)' }}>
@@ -1023,7 +1041,7 @@ export default function PrivateStartupTiersPage() {
             <div className="grid lg:grid-cols-2" style={{ gap: 'var(--space-lg)' }}>
               <div>
                 <div style={{ fontSize: 10, color: 'var(--ink-400)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 6 }}>New companies</div>
-                {changelog.additions.map((a) => (
+                {changelog.additions.filter((a) => a.batch !== '2026-10-22').map((a) => (
                   <div key={a.name} style={{ display: 'flex', justifyContent: 'space-between', gap: 8, padding: '5px 0', borderBottom: '1px solid var(--ink-100)', fontSize: 'var(--text-xs)' }}>
                     <span style={{ color: 'var(--ink-800)' }}>
                       <button type="button" onClick={() => a.outcome === 'ranked' && select(a.name)} style={{ border: 'none', background: 'transparent', padding: 0, cursor: a.outcome === 'ranked' ? 'pointer' : 'default', fontWeight: 900, color: 'var(--ink-950)', fontSize: 'inherit' }}>{a.name}</button>

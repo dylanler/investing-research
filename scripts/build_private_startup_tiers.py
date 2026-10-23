@@ -34,7 +34,7 @@ REFRESH_DIRS = sorted(glob.glob(os.path.join(RESEARCH_DIR, "refresh-*")))
 FILL_DIRS = sorted(glob.glob(os.path.join(RESEARCH_DIR, "fill-*")))
 PREVIOUS_RANKING = os.path.join(RESEARCH_DIR, "ranking-2026-10-09.json")
 LAST_RANKING = os.path.join(RESEARCH_DIR, "ranking-2026-10-21.json")
-ADDITIONS_FILE = "b8_additions.json"
+ADDITION_FILES = ["b8_additions.json", "b9_additions.json"]
 XCHECK_DIR = os.path.join(RESEARCH_DIR, "xcheck-2026-10-22")
 XCHECK_DATE = "2026-10-22"
 PITCHBOOK_CSV = os.path.join(RESEARCH_DIR, "pitchbook-2026-10-21.csv")
@@ -88,11 +88,11 @@ SECTOR_MAP = {
         "turbopuffer", "Exa", "Parallel Web Systems", "Reducto", "Datalab", "Prime Intellect", "Vercel",
     ],
     "Robotics & physical AI": [
-        "Physical Intelligence", "Skild AI", "Figure AI", "1X Technologies", "Sunday", "Genesis AI", "comma.ai", "Atoms",
+        "Physical Intelligence", "Skild AI", "Figure AI", "1X Technologies", "Sunday", "Genesis AI", "comma.ai", "Atoms", "Dream Labs",
     ],
     "AI for science & health": [
         "Periodic Labs", "Lila Sciences", "Edison Scientific", "Axiom Math", "Merge Labs", "Hippocratic AI",
-        "Superpower", "Prometheus",
+        "Superpower", "Prometheus", "Marathon Fusion", "Warp Sciences",
     ],
     "Data, evals & safety": [
         "Scale AI", "Mercor", "Turing", "Snorkel AI", "Datacurve", "Bespoke Labs", "Collinear AI", "Goodfire",
@@ -819,7 +819,15 @@ def main() -> None:
     pitchbook = {} if os.environ.get("NO_PITCHBOOK") else load_pitchbook()
     previous = {r["name"]: r for r in json.load(open(PREVIOUS_RANKING))} if os.path.exists(PREVIOUS_RANKING) else {}
     last = {r["name"]: r for r in json.load(open(LAST_RANKING))} if os.path.exists(LAST_RANKING) else {}
-    additions = {c["name"] for c in json.load(open(os.path.join(RESEARCH_DIR, ADDITIONS_FILE)))} if os.path.exists(os.path.join(RESEARCH_DIR, ADDITIONS_FILE)) else set()
+    additions: set[str] = set()
+    addition_batch: dict[str, str] = {}
+    for fname in ADDITION_FILES:
+        path = os.path.join(RESEARCH_DIR, fname)
+        if os.path.exists(path):
+            for row in json.load(open(path)):
+                additions.add(row["name"])
+                if row.get("batch"):
+                    addition_batch[row["name"]] = row["batch"]
     pb_conflicts: list[dict] = []
     pb_matched: list[str] = []
     xcheck = load_xcheck()
@@ -834,6 +842,10 @@ def main() -> None:
     addition_rows: list[dict] = []
 
     for c in companies:
+        raised = c.get("totalRaisedUsdM")
+        if isinstance(raised, dict) and raised.get("value") is not None and not c.get("totalRaised"):
+            c["totalRaised"] = {"valueUsdM": raised["value"], "asOf": raised.get("asOf"), "source": raised.get("source"),
+                                "singleSource": bool(raised.get("singleSource")), "label": raised.get("note")}
         c = apply_patch(c, patches.get(c["name"]))
         before = coverage(c)
         c = apply_fill(c, fills.get(c["name"]))
@@ -892,7 +904,7 @@ def main() -> None:
                 row["referenceSubscores"] = ref["subscores"]
             excluded.append(row)
             if name in additions:
-                addition_rows.append({"name": name, "outcome": f"excluded ({row['status']})", "reason": row["reason"], "source": row.get("source"), "oneLiner": c.get("oneLiner")})
+                addition_rows.append({"name": name, "outcome": f"excluded ({row['status']})", "reason": row["reason"], "source": row.get("source"), "oneLiner": c.get("oneLiner"), "batch": addition_batch.get(name)})
             continue
 
         rec = build_record(c)
@@ -925,7 +937,7 @@ def main() -> None:
             })
             if name in additions:
                 addition_rows.append({"name": name, "outcome": "removed (> $20B)", "valuationUsdB": sig["valueUsdB"], "valuationDate": sig.get("date"),
-                                      "source": sig.get("source"), "composite": rec["composite"], "tier": rec["tier"], "oneLiner": c.get("oneLiner")})
+                                      "source": sig.get("source"), "composite": rec["composite"], "tier": rec["tier"], "oneLiner": c.get("oneLiner"), "batch": addition_batch.get(name)})
             continue
         rec["atValuationCap"] = bool(sig and sig["valueUsdB"] == VALUATION_CAP_USDB)
         ranked.append(rec)
@@ -936,7 +948,8 @@ def main() -> None:
     for r in ranked:
         if r["isNewAddition"]:
             addition_rows.append({"name": r["name"], "outcome": "ranked", "rank": r["rank"], "composite": r["composite"], "tier": r["tier"],
-                                  "valuationUsdB": r["valuationUsdB"], "valuationDate": r["valuationDate"], "source": r["valuationSource"], "oneLiner": r["oneLiner"]})
+                                  "valuationUsdB": r["valuationUsdB"], "valuationDate": r["valuationDate"], "source": r["valuationSource"], "oneLiner": r["oneLiner"],
+                                  "batch": addition_batch.get(r["name"])})
     survivors_prev = sorted([r for r in ranked if r["oct9"]], key=lambda r: r["oct9"]["rank"])
     for i, r in enumerate(survivors_prev, 1):
         r["oct9"]["rankAmongRemaining"] = i
@@ -968,7 +981,7 @@ def main() -> None:
                  "toComposite": r["composite"], "fromTier": pre_x[r["name"]]["tier"], "toTier": r["tier"]}
                 for r in ranked if r["name"] in pre_x and (pre_x[r["name"]]["composite"] != r["composite"] or pre_x[r["name"]]["rank"] != r["rank"])
             ], key=lambda m: -abs(m["toComposite"] - m["fromComposite"])),
-            "newlyRanked": [r["name"] for r in ranked if pre_x and r["name"] not in pre_x],
+            "newlyRanked": [r["name"] for r in ranked if pre_x and r["name"] not in pre_x and r["name"] not in addition_batch],
         },
         "pitchbookConflicts": pb_conflicts,
         "pitchbookMatched": len(pb_matched),
